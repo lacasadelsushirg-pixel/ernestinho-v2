@@ -10,3 +10,12 @@ Reconstrucción limpia y modular del sitio Ernestinho Carioca.
 
 ## Primera base
 Home shell, navegación, 15 puertas en el orden definido, Aquí · Ahora, Experiencias y Compras.
+
+
+## Deployment discipline
+
+Work in large staging branches. Vercel production is connected to `main`; therefore V2 changes are accumulated and validated before a single batch promotion to `main`. Do not use one commit per tiny production change.
+
+## Architecture rule
+
+V2 is multi-page-first, not a fragile SPA. Category and detail routes must work by direct URL, browser back/forward and refresh. JavaScript enhances the page; it must not be required to display primary content.
