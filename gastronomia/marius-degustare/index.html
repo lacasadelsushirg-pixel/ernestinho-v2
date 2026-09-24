@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Marius Degustare: guía completa | Ernestinho Carioca</title>
+    <meta
+      name="description"
+      content="Guía completa de Marius Degustare en Copacabana/Leme: ambiente, historia, carta, horarios, precios, mapa y recomendaciones de Ernestinho Carioca."
+    />
+    <style>
+      :root {
+        --ink: #0d1919;
+        --petrol: #123b3b;
+        --gold: #e7b85c;
+        --cream: #f6f0e6;
+        --muted: #bac7c0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--ink);
+        color: var(--cream);
+        font:
+          18px/1.7 Georgia,
+          serif;
+      }
+      a {
+        color: var(--gold);
+      }
+      .back {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px 24px;
+        font: 14px Arial;
+      }
+      .hero {
+        min-height: 72vh;
+        padding: clamp(30px, 7vw, 100px);
+        display: flex;
+        align-items: end;
+        background:
+          linear-gradient(90deg, #071313ee, #07131326),
+          url("https://res.cloudinary.com/qa301cbc/image/upload/v1789390838/mariusdegustare.jpg")
+            center/cover;
+      }
+      .hero h1 {
+        font-size: clamp(46px, 8vw, 100px);
+        line-height: 0.9;
+        max-width: 900px;
+        margin: 14px 0;
+      }
+      .ey {
+        color: var(--gold);
+        font: 700 12px Arial;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+      .wrap {
+        max-width: 1200px;
+        margin: auto;
+        padding: 28px 24px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1.45fr 0.8fr;
+        gap: 24px;
+      }
+      .card {
+        background: var(--petrol);
+        border: 1px solid #e7b85c44;
+        border-radius: 24px;
+        padding: 28px;
+        margin: 22px 0;
+        box-shadow:none!important;
+      }
+      .card h2 {
+        color: var(--gold);
+        font-size: 30px;
+        margin-top: 0;
+      }
+      .facts {
+        font: 15px/1.8 Arial;
+        color: var(--muted);
+      }
+      .facts strong {
+        color: var(--cream);
+      }
+      .map {
+        width: 100%;
+        height: 360px;
+        border: 0;
+        border-radius: 18px;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+      }
+      .gallery figure {
+        margin: 0;
+        background: #071212;
+        border-radius: 16px;
+        overflow: hidden;
+      }
+      .gallery img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        display: block;
+      }
+      .gallery figure:first-child {
+        grid-column: span 2;
+      }
+      .gallery figure:first-child img {
+        height: 430px;
+      }
+      .gallery figcaption {
+        padding: 10px 12px;
+        color: var(--muted);
+        font: 12px Arial;
+      }
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .tag {
+        border: 1px solid #e7b85c99;
+        color: var(--gold);
+        padding: 6px 11px;
+        border-radius: 99px;
+        font: 12px Arial;
+      }
+      .btn {
+        display: inline-block;
+        background: var(--gold);
+        color: #132222;
+        text-decoration: none;
+        padding: 11px 17px;
+        border-radius: 99px;
+        font: 700 13px Arial;
+        margin: 5px 3px 0 0;
+      }
+      .notice {
+        border-left: 4px solid var(--gold);
+        padding: 14px 18px;
+        background: #091818;
+        color: var(--muted);
+      }
+      @media (max-width: 760px) {
+        .grid {
+          display: block;
+        }
+        .hero {
+          min-height: 62vh;
+          padding: 25px;
+        }
+        .wrap {
+          padding: 18px 14px;
+        }
+        .card {
+          padding: 21px;
+        }
+        .gallery {
+          grid-template-columns: 1fr 1fr;
+        }
+        .gallery figure:first-child {
+          grid-column: span 2;
+        }
+        .gallery img,
+        .gallery figure:first-child img {
+          height: 250px;
+        }
+        .map {
+          height: 300px;
+        }
+      }
+      .inline-photo {
+        margin: 26px 0;
+        border-radius: 18px;
+        overflow: hidden;
+        background: #071212;
+      }
+      .inline-photo img {
+        width: 100%;
+        max-height: 430px;
+        object-fit: cover;
+        display: block;
+      }
+      .inline-photo figcaption {
+        padding: 9px 13px;
+        color: var(--m);
+        font: 12px Arial;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="back"><a href="../">← Volver a Gastronomía</a></nav>
+    <header class="hero">
+      <div>
+        <div class="ey">Ernestinho Carioca · Copacabana / Leme</div>
+        <h1>Marius Degustare</h1>
+        <p>
+          Una experiencia gastronómica brasileña y mediterránea donde carnes,
+          pescados, mariscos y buffet se convierten en un recorrido completo.
+        </p>
+      </div>
+    </header>
+    <main class="wrap">
+      <div class="tags">
+        <span class="tag">Almuerzo</span><span class="tag">Cena</span
+        ><span class="tag">Carnes</span><span class="tag">Pescados</span
+        ><span class="tag">Frutos del mar</span><span class="tag">Premium</span>
+      </div>
+      <div class="grid">
+        <section>
+          <article class="card">
+            <h2>Identidad y ambiente visual</h2>
+            <p>
+              Marius Degustare tiene una identidad exuberante, teatral y
+              sensorial. No busca parecer un restaurante minimalista: su
+              propuesta visual es abundante, exótica y deliberadamente
+              memorable. Las fotografías de la decoración, del salón y de la
+              mesa muestran que el ambiente forma parte de la experiencia tanto
+              como la comida.
+            </p>
+          </article>
+          <article class="card">
+            <h2>Historia y propuesta</h2>
+            <p>
+              La casa se presenta como un restaurante de cocina brasileña y
+              mediterránea, especializado en una selección de carnes, pescados y
+              frutos del mar servidos a la mesa, acompañada por un buffet de
+              preparaciones frías y calientes. Su sitio oficial también destaca
+              la huerta y el pomar orgánicos que abastecen al restaurante y
+              recuerda su mención en el libro
+              <em>1.000 lugares para conocer antes de morir</em>.
+            </p>
+            <div class="notice">
+              La propuesta oficial es una degustación completa. No debe
+              describirse simplemente como “buffet” ni como una churrasquería
+              convencional.
+            </div>
+          </article>
+          <figure class="inline-photo">
+            <img
+              src="https://res.cloudinary.com/qa301cbc/image/upload/v1789390838/marius_deustare1.jpg"
+              loading="lazy"
+              alt="El ambiente y la identidad del restaurante"
+            />
+            <figcaption>El ambiente y la identidad del restaurante</figcaption>
+          </figure>
+          <article class="card">
+            <h2>Mi lectura personal como Ernestinho</h2>
+            <p>
+              Yo lo recomendaría cuando quieres que la comida sea uno de los
+              momentos principales del día. Marius no es una parada rápida entre
+              dos paseos: es una experiencia para llegar con hambre, observar el
+              entorno y recorrer la mesa sin prisa. Para mí funciona
+              especialmente bien con visitantes que quieren probar un poco de
+              todo y llevarse una impresión visual fuerte de Río.
+            </p>
+            <p>
+              No lo elegiría si estás buscando una comida económica, silenciosa
+              o de pocos minutos. Aquí el precio y la abundancia tienen sentido
+              cuando realmente vas a disfrutar la experiencia completa.
+            </p>
+          </article>
+          <figure class="inline-photo">
+            <img
+              src="https://res.cloudinary.com/qa301cbc/image/upload/v1789390838/polvo-grelhado_Marius_Degustare.jpg"
+              loading="lazy"
+              alt="Una preparación representativa de la casa"
+            />
+            <figcaption>Una preparación representativa de la casa</figcaption>
+          </figure>
+          <article class="card">
+            <h2>Qué pedir y por qué</h2>
+            <p>
+              <strong>Pulpo grillado:</strong> aparece en nuestras fotografías y
+              representa muy bien la vertiente marina de la casa.
+            </p>
+            <p>
+              <strong>Carnes a la parrilla:</strong> conviene probarlas después
+              de recorrer el buffet, dejando espacio para escoger con calma los
+              cortes que más te llamen la atención.
+            </p>
+            <p>
+              <strong>Pescados y frutos del mar:</strong> son parte central de
+              la propuesta oficial, ideales para quien quiere algo más amplio
+              que una experiencia centrada solo en carne.
+            </p>
+            <p>
+              <strong>Buffet frío y caliente:</strong> yo lo usaría como
+              introducción, no como sustituto de los platos servidos a la mesa.
+            </p>
+          </article>
+          <article class="card">
+            <h2>Experiencia según el momento del día</h2>
+            <p>
+              <strong>Almuerzo:</strong> buena opción para convertir la comida
+              en una experiencia larga después de caminar por Copacabana o Leme.
+            </p>
+            <p>
+              <strong>Cena:</strong> el ambiente teatral gana protagonismo y
+              puede funcionar para una ocasión especial o una celebración.
+            </p>
+            <p>
+              <strong>Familias y grupos:</strong> la variedad facilita que cada
+              persona encuentre algo, pero conviene confirmar disponibilidad y
+              condiciones para grupos.
+            </p>
+          </article>
+          <article class="card">
+            <h2>Mi consejo específico</h2>
+            <p>
+              Yo reservaría con antelación, confirmaría el valor por persona y
+              preguntaría exactamente qué incluye la degustación. Llegaría sin
+              apuro y evitaría comer demasiado en el buffet al principio: la
+              mejor forma de aprovechar Marius es dejar espacio para los
+              pescados, mariscos y carnes que llegan a la mesa.
+            </p>
+          </article>
+          <article class="card">
+            <h2>Qué combinar cerca</h2>
+            <p>
+              Está en la Avenida Atlântica, en el límite práctico entre Leme y
+              Copacabana. Puedes combinarlo con una caminata por el paseo
+              marítimo, Leme, el Posto 1 y la playa de Copacabana. Si vas de
+              noche, yo organizaría el regreso antes de sentarme a comer y
+              evitaría cruzar la ciudad solo para una visita corta.
+            </p>
+          </article>
+        </section>
+        <aside>
+          <article class="card facts">
+            <h2>Información práctica</h2>
+            <p>
+              📍 <strong>Dirección</strong><br />Avenida Atlântica, 290 —
+              Copacabana, Rio de Janeiro — RJ
+            </p>
+            <p>
+              🕐 <strong>Funcionamiento oficial</strong><br />Todos los días.<br />Almuerzo:
+              12:30–18:00.<br />Cena: 18:00–00:00.
+            </p>
+            <p>
+              💰 <strong>Precio</strong><br />El sitio oficial informa R$ 430
+              por persona. Confirmar antes de ir si incluye bebidas, servicio,
+              impuestos o condiciones especiales.
+            </p>
+            <p>
+              ☎️ <strong>Contacto</strong><br />+55 21 2275-0652 · +55 21
+              3798-6514<br />WhatsApp: +55 21 99879-8971
+            </p>
+            <p>
+              📅 <strong>Reserva</strong><br />Recomendada. Confirmar
+              disponibilidad directamente.
+            </p>
+            <a
+              class="btn"
+              href="https://marius.com.br"
+              target="_blank"
+              rel="noopener"
+              >Sitio oficial</a
+            ><a
+              class="btn"
+              href="https://www.google.com/maps/search/?api=1&query=Marius%20Degustare%20Avenida%20Atlantica%20290%20Rio%20de%20Janeiro"
+              target="_blank"
+              rel="noopener"
+              >Google Maps</a
+            ><a
+              class="btn"
+              href="https://www.waze.com/ul?q=Marius%20Degustare%20Avenida%20Atlantica%20290%20Rio%20de%20Janeiro"
+              target="_blank"
+              rel="noopener"
+              >Waze</a
+            >
+          </article>
+          <figure class="inline-photo">
+            <img
+              src="https://res.cloudinary.com/qa301cbc/image/upload/v1789390838/mariusdegustare.jpg"
+              loading="lazy"
+              alt="La fachada y la llegada al restaurante"
+            />
+            <figcaption>La fachada y la llegada al restaurante</figcaption>
+          </figure>
+          <article class="card">
+            <h2>Mapa y cómo llegar</h2>
+            <p>
+              Desde Copacabana puedes llegar caminando por la Avenida Atlântica.
+              En transporte, confirma la mejor combinación de bus o metro según
+              tu punto de partida; las estaciones más cercanas requieren una
+              caminata. El mapa ayuda a distinguir la dirección exacta en el
+              extremo de Leme.
+            </p>
+            <iframe
+              class="map"
+              loading="lazy"
+              title="Mapa de Marius Degustare"
+              src="https://www.google.com/maps?q=Marius%20Degustare%20Avenida%20Atlantica%20290%20Rio%20de%20Janeiro&output=embed"
+            ></iframe>
+          </article>
+        </aside>
+      </div>
+      <article class="card">
+        <h2>Galería completa</h2>
+        <p></p>
+        <div class="gallery">
+          <figure>
+            <img
+              src="https://res.cloudinary.com/qa301cbc/image/upload/v1789390838/mariusdegustare.jpg"
+              loading="eager"
+              alt="Marius Degustare — fotografía 1"
+            />
+            <figcaption>Fachada e identidade visual</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://res.cloudinary.com/qa301cbc/image/upload/v1789390838/marius_deustare1.jpg"
+              loading="lazy"
+              alt="Marius Degustare — fotografía 2"
+            />
+            <figcaption>Ambiente e seleção da casa</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://res.cloudinary.com/qa301cbc/image/upload/v1789390838/polvo-grelhado_Marius_Degustare.jpg"
+              loading="lazy"
+              alt="Marius Degustare — fotografía 3"
+            />
+            <figcaption>Pulpo grillado</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://res.cloudinary.com/qa301cbc/image/upload/v1789390838/decoracao-restaurante_Marius_Degustare.jpg"
+              loading="lazy"
+              alt="Marius Degustare — fotografía 4"
+            />
+            <figcaption>Decoración interior</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://res.cloudinary.com/qa301cbc/image/upload/v1789390837/carne-grelhada_Marius_Degustare.jpg"
+              loading="lazy"
+              alt="Marius Degustare — fotografía 5"
+            />
+            <figcaption>Carne a la parrilla</figcaption>
+          </figure>
+        </div>
+      </article>
+    </main>
+    <footer class="back">
+      © Ernestinho Carioca · Guía independiente de Río de Janeiro
+    </footer>
+    <style>
+      .lang-switcher{position:fixed;z-index:9999;right:18px;top:18px;display:flex;gap:6px;background:#071313eF;padding:7px;border:1px solid #e7b85c;border-radius:999px}.lang-switcher button{border:0;border-radius:999px;padding:7px 10px;background:#123b3b;color:#f6f0e6;font:700 12px Arial;cursor:pointer}.lang-switcher button.active,.lang-switcher button:hover{background:#e7b85c;color:#132222}
+    </style>
+    <script>(()=>{const T={"pt":{"Marius Degustare: guía completa | Ernestinho Carioca":"Marius Degustare: guia completo | Ernestinho Carioca","← Volver a Gastronomía":"← Voltar à Gastronomia","Almuerzo":"Almoço","Cena":"Jantar","Carnes":"Carnes","Pescados":"Peixes","Frutos del mar":"Frutos do mar","Premium":"Premium","Identidad y ambiente visual":"Identidade e ambiente visual","Historia y propuesta":"História e proposta","La propuesta oficial es una degustación completa. No debe describirse simplemente como “buffet” ni como una churrasquería convencional.":"A proposta oficial é uma degustação completa. Não deve ser descrita simplesmente como “buffet” nem como uma churrascaria convencional.","El ambiente y la identidad del restaurante":"O ambiente e a identidade do restaurante","Mi lectura personal como Ernestinho":"Minha leitura pessoal como Ernestinho","Una preparación representativa de la casa":"Uma preparação representativa da casa","Qué pedir y por qué":"O que pedir e por quê","Experiencia según el momento del día":"Experiência conforme o momento do dia","Mi consejo específico":"Meu conselho específico","Qué combinar cerca":"O que combinar por perto","Información práctica":"Informações práticas","Sitio oficial":"Site oficial","La fachada y la llegada al restaurante":"A fachada e a chegada ao restaurante","Mapa y cómo llegar":"Mapa e como chegar","Galería completa":"Galeria completa","Fachada e identidade visual":"Fachada e identidade visual","Ambiente e seleção da casa":"Ambiente e seleção da casa","Pulpo grillado":"Polvo grelhado","Decoración interior":"Decoração interna","Carne a la parrilla":"Carne na brasa","Mapa de Marius Degustare":"Mapa do Marius Degustare","© Ernestinho Carioca · Guía independiente de Río de Janeiro":"© Ernestinho Carioca · Guia independente do Rio de Janeiro"},"en":{"Marius Degustare: guía completa | Ernestinho Carioca":"Marius Degustare: complete guide | Ernestinho Carioca","← Volver a Gastronomía":"← Back to Gastronomy","Almuerzo":"Lunch","Cena":"Dinner","Carnes":"Meats","Pescados":"Fish","Frutos del mar":"Seafood","Premium":"Premium","Identidad y ambiente visual":"Visual identity and atmosphere","Historia y propuesta":"History and concept","La propuesta oficial es una degustación completa. No debe describirse simplemente como “buffet” ni como una churrasquería convencional.":"The official concept is a complete tasting experience. It should not be described simply as a “buffet” or as a conventional steakhouse.","El ambiente y la identidad del restaurante":"The restaurant’s atmosphere and identity","Mi lectura personal como Ernestinho":"My personal take as Ernestinho","Una preparación representativa de la casa":"A signature preparation from the restaurant","Qué pedir y por qué":"What to order and why","Experiencia según el momento del día":"Experience by time of day","Mi consejo específico":"My specific advice","Qué combinar cerca":"What to combine nearby","Información práctica":"Practical information","Sitio oficial":"Official website","La fachada y la llegada al restaurante":"The façade and arrival at the restaurant","Mapa y cómo llegar":"Map and directions","Galería completa":"Full gallery","Fachada e identidade visual":"Façade and visual identity","Ambiente e seleção da casa":"Setting and house selection","Pulpo grillado":"Grilled octopus","Decoración interior":"Interior décor","Carne a la parrilla":"Grilled meat","Mapa de Marius Degustare":"Map of Marius Degustare","© Ernestinho Carioca · Guía independiente de Río de Janeiro":"© Ernestinho Carioca · Independent Rio de Janeiro guide"}};const title=document.title;const meta=document.querySelector('meta[name="description"]');const metaOriginal=meta?meta.content:'';const originals=[];document.querySelectorAll('body *').forEach(el=>{[...el.childNodes].forEach(n=>{if(n.nodeType===3&&n.nodeValue.trim())originals.push({n,v:n.nodeValue})});['alt','title'].forEach(a=>{if(el.hasAttribute(a))originals.push({el,a,v:el.getAttribute(a)})})});function tr(v,lang){if(lang==='es')return v;const s=v.trim().replace(/\s+/g,' '),translated=(T[lang]||{})[s];return translated||v}function setLang(lang){document.documentElement.lang=lang==='pt'?'pt-BR':lang;document.title=tr(title,lang);if(meta)meta.content=lang==='es'?metaOriginal:metaOriginal;originals.forEach(x=>{const v=tr(x.v,lang);if(x.n)x.n.nodeValue=v;else x.el.setAttribute(x.a,v)});document.querySelectorAll('.lang-switcher button').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang))}const bar=document.createElement('nav');bar.className='lang-switcher';bar.setAttribute('aria-label','Idioma / Language');[['es','ES'],['pt','PT-BR'],['en','EN']].forEach(([l,t])=>{const b=document.createElement('button');b.type='button';b.dataset.lang=l;b.textContent=t;b.onclick=()=>setLang(l);bar.appendChild(b)});document.body.prepend(bar);setLang('es')})();</script>
+  <script>(function(){const D={"pt":{"0":"Uma experiência gastronômica brasileira e mediterrânea em que carnes, peixes, frutos do mar e buffet se transformam em um percurso completo.","1":"O Marius Degustare tem uma identidade exuberante, teatral e sensorial. Não busca parecer um restaurante minimalista: sua proposta visual é abundante, exótica e deliberadamente memorável. As fotografias da decoração, do salão e da mesa mostram que o ambiente faz parte da experiência tanto quanto a comida.","2":"A casa se apresenta como um restaurante de cozinha brasileira e mediterrânea, especializado em uma seleção de carnes, peixes e frutos do mar servidos à mesa, acompanhada por um buffet de preparações frias e quentes. O site oficial também destaca a horta e o pomar orgânicos que abastecem o restaurante e recorda sua menção no livro <em>1.000 lugares para conhecer antes de morrer</em>.","3":"Eu o recomendaria quando você quer que a refeição seja um dos principais momentos do dia. O Marius não é uma parada rápida entre dois passeios: é uma experiência para chegar com fome, observar o ambiente e percorrer a mesa sem pressa. Para mim, funciona especialmente bem com visitantes que querem provar um pouco de tudo e levar uma forte impressão visual do Rio.","4":"Eu não o escolheria se você procura uma refeição econômica, silenciosa ou de poucos minutos. Aqui, o preço e a abundância fazem sentido quando você realmente vai aproveitar a experiência completa.","5":"<strong>Polvo grelhado:</strong> aparece em nossas fotografias e representa muito bem a vertente marítima da casa.","6":"<strong>Carnes na brasa:</strong> vale a pena prová-las depois de percorrer o buffet, deixando espaço para escolher com calma os cortes que mais chamarem sua atenção.","7":"<strong>Peixes e frutos do mar:</strong> são parte central da proposta oficial, ideais para quem quer algo mais amplo do que uma experiência centrada apenas em carne.","8":"<strong>Buffet frio e quente:</strong> eu o usaria como introdução, não como substituto dos pratos servidos à mesa.","9":"<strong>Almoço:</strong> uma boa opção para transformar a refeição em uma experiência longa depois de caminhar por Copacabana ou pelo Leme.","10":"<strong>Jantar:</strong> o ambiente teatral ganha protagonismo e pode funcionar para uma ocasião especial ou uma comemoração.","11":"<strong>Famílias e grupos:</strong> a variedade facilita que cada pessoa encontre algo de que goste, mas é recomendável confirmar a disponibilidade e as condições para grupos.","12":"Eu reservaria com antecedência, confirmaria o valor por pessoa e perguntaria exatamente o que está incluído na degustação. Chegaria sem pressa e evitaria comer demais no buffet logo no início: a melhor forma de aproveitar o Marius é deixar espaço para os peixes, frutos do mar e carnes que chegam à mesa.","13":"Fica na Avenida Atlântica, no limite prático entre Leme e Copacabana. Você pode combiná-lo com uma caminhada pelo calçadão, pelo Leme, pelo Posto 1 e pela praia de Copacabana. Se for à noite, eu organizaria a volta antes de me sentar para comer e evitaria atravessar a cidade apenas para uma visita curta.","14":"📍 <strong>Endereço</strong><br />Avenida Atlântica, 290 — Copacabana, Rio de Janeiro — RJ","15":"🕐 <strong>Funcionamento oficial</strong><br />Todos os dias.<br />Almoço: 12h30–18h.<br />Jantar: 18h–0h.","16":"💰 <strong>Preço</strong><br />O site oficial informa R$ 430 por pessoa. Antes de ir, confirme se o valor inclui bebidas, serviço, impostos ou condições especiais.","17":"☎️ <strong>Contato</strong><br />+55 21 2275-0652 · +55 21 3798-6514<br />WhatsApp: +55 21 99879-8971","18":"📅 <strong>Reserva</strong><br />Recomendada. Confirme a disponibilidade diretamente.","19":"Partindo de Copacabana, você pode chegar caminhando pela Avenida Atlântica. De transporte público, confirme a melhor combinação de ônibus ou metrô de acordo com seu ponto de partida; as estações mais próximas exigem uma caminhada. O mapa ajuda a identificar o endereço exato na extremidade do Leme.","20":""},"en":{"0":"A Brazilian and Mediterranean dining experience where meats, fish, seafood and a buffet become a complete culinary journey.","1":"Marius Degustare has an exuberant, theatrical and sensory identity. It does not try to look like a minimalist restaurant: its visual concept is abundant, exotic and deliberately memorable. Photographs of the décor, dining room and table show that the setting is as much a part of the experience as the food.","2":"The venue presents itself as a Brazilian and Mediterranean restaurant specializing in a selection of meats, fish and seafood served at the table, accompanied by a buffet of hot and cold dishes. Its official website also highlights the organic vegetable garden and orchard that supply the restaurant and mentions its inclusion in the book <em>1,000 Places to See Before You Die</em>.","3":"I would recommend it when you want the meal to be one of the main events of the day. Marius is not a quick stop between two outings: it is an experience for arriving hungry, taking in the surroundings and exploring the table without rushing. For me, it works especially well for visitors who want to try a little of everything and leave with a strong visual impression of Rio.","4":"I would not choose it if you are looking for an inexpensive, quiet or very quick meal. Here, the price and abundance make sense when you truly intend to enjoy the complete experience.","5":"<strong>Grilled octopus:</strong> it appears in our photographs and represents the restaurant’s seafood side very well.","6":"<strong>Grilled meats:</strong> try them after exploring the buffet, leaving enough room to calmly choose the cuts that appeal to you most.","7":"<strong>Fish and seafood:</strong> they are central to the official concept and ideal for anyone seeking something broader than a meat-only experience.","8":"<strong>Hot and cold buffet:</strong> I would use it as an introduction, not as a replacement for the dishes served at the table.","9":"<strong>Lunch:</strong> a good option for turning the meal into a long experience after walking through Copacabana or Leme.","10":"<strong>Dinner:</strong> the theatrical setting takes center stage and can work well for a special occasion or celebration.","11":"<strong>Families and groups:</strong> the variety makes it easier for everyone to find something, but availability and group conditions should be confirmed.","12":"I would book in advance, confirm the price per person and ask exactly what the tasting experience includes. I would arrive without rushing and avoid eating too much from the buffet at the beginning: the best way to enjoy Marius is to save room for the fish, seafood and meats brought to the table.","13":"It is on Avenida Atlântica, at the practical boundary between Leme and Copacabana. You can combine it with a walk along the waterfront, Leme, Posto 1 and Copacabana Beach. If visiting at night, I would arrange the return trip before sitting down to eat and avoid crossing the city solely for a short visit.","14":"📍 <strong>Address</strong><br />Avenida Atlântica, 290 — Copacabana, Rio de Janeiro — RJ","15":"🕐 <strong>Official hours</strong><br />Every day.<br />Lunch: 12:30 p.m.–6:00 p.m.<br />Dinner: 6:00 p.m.–midnight.","16":"💰 <strong>Price</strong><br />The official website lists R$430 per person. Before visiting, confirm whether drinks, service, taxes or special conditions are included.","17":"☎️ <strong>Contact</strong><br />+55 21 2275-0652 · +55 21 3798-6514<br />WhatsApp: +55 21 99879-8971","18":"📅 <strong>Reservation</strong><br />Recommended. Confirm availability directly.","19":"From Copacabana, you can walk there along Avenida Atlântica. By public transport, confirm the best bus or metro combination from your starting point; the nearest stations still require a walk. The map helps identify the exact address at the Leme end.","20":""}},P=[...document.querySelectorAll('p')],O=P.map(e=>e.innerHTML);function full(l){P.forEach((e,i)=>{e.innerHTML=l==='es'?O[i]:(D[l]&&D[l][i]!==undefined?D[l][i]:e.innerHTML)})}document.querySelectorAll('.lang-switcher button').forEach(b=>b.addEventListener('click',()=>full(b.dataset.lang)));full('es')})();</script>
+</body>
+</html>
