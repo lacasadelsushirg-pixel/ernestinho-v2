@@ -1,0 +1,1 @@
+export const translations={es:{discover:"DESCUBRIR RÍO",today:"VER QUÉ HACER AHORA"},pt:{discover:"DESCOBRIR O RIO",today:"VER O QUE FAZER AGORA"},en:{discover:"DISCOVER RIO",today:"SEE WHAT TO DO NOW"}};export function cycleLanguage(current){return current==="ES"?"PT":current==="PT"?"EN":"ES"}
