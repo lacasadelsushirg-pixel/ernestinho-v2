@@ -15,5 +15,162 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/gastronomia/guacamole-copa",
+      "destination": "/gastronomia/guacamole-copacabana",
+      "permanent": true
+    },
+    {
+      "source": "/compras/barra-shopping.html",
+      "destination": "/compras/barrashopping/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/botafogo-praia-shopping.html",
+      "destination": "/compras/botafogo-praia-shopping/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/cadeg.html",
+      "destination": "/compras/cadeg/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/fashion-mall.html",
+      "destination": "/compras/fashion-mall/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/feria-antiguedades-plaza-xv.html",
+      "destination": "/compras/praca-xv/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/feria-da-gloria.html",
+      "destination": "/compras/feira-da-gloria/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/feria-da-providencia.html",
+      "destination": "/compras/feira-da-providencia/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/feria-das-yabas.html",
+      "destination": "/compras/feira-das-yabas/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/feria-de-sao-cristovao.html",
+      "destination": "/compras/feira-sao-cristovao/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/feria-hippie-ipanema.html",
+      "destination": "/compras/feira-hippie-ipanema/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/feria-lavradio.html",
+      "destination": "/compras/lavradio/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/feria-nocturna-copacabana.html",
+      "destination": "/compras/feira-noturna-copacabana/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/feria-organica-da-gloria.html",
+      "destination": "/compras/feira-organica-gloria/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/feria-organica.html",
+      "destination": "/compras/feira-organica/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/feria-praca-do-lido.html",
+      "destination": "/compras/praca-lido/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/mercadao-madureira.html",
+      "destination": "/compras/mercadao-madureira/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/mercado-sao-pedro.html",
+      "destination": "/compras/mercado-sao-pedro/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/parkjacarepaguá.html",
+      "destination": "/compras/parkjacarepagua/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/saara.html",
+      "destination": "/compras/saara/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/shopping-downtown.html",
+      "destination": "/compras/downtown/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/shopping-leblon.html",
+      "destination": "/compras/shopping-leblon/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/shopping-metropolitano-barra.html",
+      "destination": "/compras/metropolitano-barra/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/shopping-nova-america.html",
+      "destination": "/compras/nova-america/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/shopping-rio-sul.html",
+      "destination": "/compras/rio-sul/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/shopping-tijuca.html",
+      "destination": "/compras/shopping-tijuca/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/uruguaiana.html",
+      "destination": "/compras/uruguaiana/",
+      "permanent": true
+    },
+    {
+      "source": "/compras/village-mall.html",
+      "destination": "/compras/village-mall/",
+      "permanent": true
+    },
+    {
+      "source": "/vida-nocturna/armazem-senado/",
+      "destination": "/vida-nocturna/armazem-do-senado/",
+      "permanent": true
+    },
+    {
+      "source": "/vida-nocturna/feira-sao-cristovao/",
+      "destination": "/vida-nocturna/feira-sao-cristovao-noite/",
+      "permanent": true
+    },
+    {
+      "source": "/vida-nocturna/yoo2-rooftop/",
+      "destination": "/vida-nocturna/yoo2/",
+      "permanent": true
+    }
   ]
 }
