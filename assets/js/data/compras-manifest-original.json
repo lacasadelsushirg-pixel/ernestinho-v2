@@ -1,0 +1,197 @@
+{
+  "Shoppings": [
+    {
+      "file": "shopping-rio-sul.html",
+      "name": "Shopping Rio Sul",
+      "zone": "Copacabana / Botafogo",
+      "desc": "Moda, servicios y gastronomía cerca de Copacabana",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789402023/rio_sul_port.jpg"
+    },
+    {
+      "file": "botafogo-praia-shopping.html",
+      "name": "Botafogo Praia Shopping",
+      "zone": "Botafogo",
+      "desc": "Compras urbanas con paisaje carioca",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789401496/botafogo_praia_shopping_1233.jpg"
+    },
+    {
+      "file": "barra-shopping.html",
+      "name": "BarraShopping",
+      "zone": "Barra da Tijuca",
+      "desc": "El gigante comercial de la Zona Oeste",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789401178/barra-shopping_port.jpg"
+    },
+    {
+      "file": "shopping-nova-america.html",
+      "name": "Shopping Nova América",
+      "zone": "Del Castilho",
+      "desc": "Compras, outlets y vida cotidiana en Zona Norte",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789401953/shopping_nova_america_1.jpg"
+    },
+    {
+      "file": "village-mall.html",
+      "name": "VillageMall",
+      "zone": "Barra da Tijuca",
+      "desc": "Lujo, gastronomía y experiencia sofisticada",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789402198/shopping-village-mall.jpg"
+    },
+    {
+      "file": "shopping-leblon.html",
+      "name": "Shopping Leblon",
+      "zone": "Leblon",
+      "desc": "Compras y gastronomía en Zona Sur",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789401785/Fachada-Shopping-Leblon.jpg"
+    },
+    {
+      "file": "fashion-mall.html",
+      "name": "Fashion Mall",
+      "zone": "São Conrado",
+      "desc": "Moda, diseño y una pausa junto a la montaña",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789401596/fashion-mall_pport.jpg"
+    },
+    {
+      "file": "shopping-downtown.html",
+      "name": "Downtown",
+      "zone": "Barra da Tijuca",
+      "desc": "Un shopping abierto con vida urbana",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789401523/down_town_2.jpg"
+    },
+    {
+      "file": "shopping-tijuca.html",
+      "name": "Shopping Tijuca",
+      "zone": "Tijuca",
+      "desc": "Comercio práctico para la Zona Norte",
+      "img": "https://airial.travel/_next/image?q=75&url=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-o%2F16%2F83%2Ff7%2Fc9%2Fimg-20190218-144817-largejpg.jpg&w=2048"
+    },
+    {
+      "file": "parkjacarepaguá.html",
+      "name": "ParkJacarepaguá",
+      "zone": "Jacarepaguá",
+      "desc": "Familia, entretenimiento y compras",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789401729/parkjacarepagua_3portada.jpg"
+    },
+    {
+      "file": "shopping-metropolitano-barra.html",
+      "name": "Shopping Metropolitano Barra",
+      "zone": "Barra da Tijuca",
+      "desc": "Compras, servicios y gastronomía moderna",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789401854/Shopping_Metropolitano_Barra.jpg"
+    }
+  ],
+  "Ferias": [
+    {
+      "file": "feria-nocturna-copacabana.html",
+      "name": "Feria Nocturna de Copacabana",
+      "zone": "Copacabana",
+      "desc": "Artesanía y paseo nocturno frente al mar",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789403520/feria_nocturna_copa_2.jpg"
+    },
+    {
+      "file": "feria-praca-do-lido.html",
+      "name": "Feria Praça do Lido",
+      "zone": "Copacabana",
+      "desc": "Artesanía, barrio y encuentro carioca",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789403648/feria_praca_do_lido_2.jpg"
+    },
+    {
+      "file": "feria-antiguedades-plaza-xv.html",
+      "name": "Feria de Antigüedades Praça XV",
+      "zone": "Centro",
+      "desc": "Historia, objetos y memoria de Río",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789403028/feria_antiguedades_plaza_xv_3.jpg"
+    },
+    {
+      "file": "feria-da-gloria.html",
+      "name": "Feria da Glória",
+      "zone": "Glória",
+      "desc": "Comercio, cultura y domingo carioca",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789403391/FEIRA_DA_GLORIA2.jpg"
+    },
+    {
+      "file": "feria-lavradio.html",
+      "name": "Feria Lavradio",
+      "zone": "Centro / Lapa",
+      "desc": "Antigüedades, música y arquitectura",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789403167/lavradio_port.jpg"
+    },
+    {
+      "file": "feria-hippie-ipanema.html",
+      "name": "Feria Hippie de Ipanema",
+      "zone": "Ipanema",
+      "desc": "Artesanía y arte en la Praça General Osório",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789402908/hippie_ipanema_3.jpg"
+    },
+    {
+      "file": "feria-organica.html",
+      "name": "Feria Orgánica",
+      "zone": "Río de Janeiro",
+      "desc": "Alimentos frescos y consumo consciente",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789403585/feria_organica_da_gloria.jpg"
+    },
+    {
+      "file": "feria-das-yabas.html",
+      "name": "Feira das Yabás",
+      "zone": "Oswaldo Cruz",
+      "desc": "Memoria afro-carioca, comida y samba",
+      "img": "https://i0.wp.com/almapreta.com.br/images/2024/01/Fotos-site-novo-2-3.jpg?fit=1040%2C780&ssl=1"
+    },
+    {
+      "file": "feria-da-providencia.html",
+      "name": "Feira da Providência",
+      "zone": "Río de Janeiro",
+      "desc": "Cultura, productos y encuentro comunitario",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789403099/feria_da_providencia_2.jpg"
+    },
+    {
+      "file": "feria-organica-da-gloria.html",
+      "name": "Feria Orgánica da Glória",
+      "zone": "Glória",
+      "desc": "Productos orgánicos y vida de barrio",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789403585/feria_organica_da_gloria.jpg"
+    }
+  ],
+  "Mercados populares": [
+    {
+      "file": "saara.html",
+      "name": "SAARA",
+      "zone": "Centro",
+      "desc": "Comercio popular, colores y vida urbana",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789406371/saara_portada.jpg"
+    },
+    {
+      "file": "uruguaiana.html",
+      "name": "Uruguaiana",
+      "zone": "Centro",
+      "desc": "Tecnología, accesorios y comercio intenso",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789406756/uruguaianan_12.jpg"
+    },
+    {
+      "file": "feria-de-sao-cristovao.html",
+      "name": "Feira de São Cristóvão",
+      "zone": "São Cristóvão",
+      "desc": "Cultura nordestina, forró y gastronomía",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789406531/feria_sao_cristovao_1.jpg"
+    },
+    {
+      "file": "mercadao-madureira.html",
+      "name": "Mercadão de Madureira",
+      "zone": "Madureira",
+      "desc": "Tradición, religiosidad, samba y comercio popular",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789406598/mercadao-madureira-rio-de-janeiro.jpg"
+    },
+    {
+      "file": "cadeg.html",
+      "name": "CADEG",
+      "zone": "Benfica",
+      "desc": "Flores, vinos y gastronomía portuguesa",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789406443/cadeg5sd.jpg"
+    },
+    {
+      "file": "mercado-sao-pedro.html",
+      "name": "Mercado São Pedro",
+      "zone": "Niterói",
+      "desc": "Pescados, mariscos y vida cotidiana",
+      "img": "https://res.cloudinary.com/qa301cbc/image/upload/v1789406685/mercado_sao_pedr01.jpg"
+    }
+  ]
+}

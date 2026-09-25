@@ -1,0 +1,110 @@
+[
+  {
+    "id": "metro",
+    "icon": "🚇",
+    "nombre": "MetrôRio",
+    "color": "teal",
+    "foto": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/IMG_3063.jpg",
+    "ideal": "Copacabana, Ipanema, Botafogo, Centro, Maracaná, Tijuca y conexión con Barra",
+    "precio": "Consulta la tarifa vigente",
+    "pago": "Aproximación, Giro, QR y medios informados por MetrôRio",
+    "descripcion": "La alternativa más sencilla para evitar el tránsito entre la Zona Sur, Centro y parte de la Zona Norte. La estación Jardim Oceânico conecta con BRT hacia Barra y Recreio.",
+    "consejos": [
+      "Mira la estación final para elegir el sentido correcto.",
+      "En hora punta deja salir antes de entrar y lleva mochila delante.",
+      "Mayores de 65 años pueden solicitar la gratuidad mostrando documento original que compruebe la edad."
+    ],
+    "mapa": "https://www.metrorio.com.br/VadeMetro/MapaDetalhado",
+    "oficial": "https://www.metrorio.com.br/"
+  },
+  {
+    "id": "vlt",
+    "icon": "🚊",
+    "nombre": "VLT Carioca",
+    "color": "blue",
+    "foto": "https://s2-oglobo.glbimg.com/wcgM0Y9-VQS-782gbuWDfdv8bZM%3D/0x0%3A2064x1376/888x0/smart/filters%3Astrip_icc%28%29/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/2/e/MI0l5GSYKoRxtukDcy8Q/109068029-people-walk-out-from-a-vlt-station-light-transport-vehicle-at-the-port-zone-of-rio-de.jpg",
+    "ideal": "Santos Dumont, Cinelândia, Centro, Praça XV, Zona Portuaria, AquaRio y Novo Rio",
+    "precio": "R$ 5,00 publicado por el operador",
+    "pago": "Jaé y medios habilitados; valida al embarcar",
+    "descripcion": "Tranvía moderno que conecta los puntos más útiles del Centro y la Zona Portuaria. Funciona todos los días, normalmente de 5:00 a 23:00, y todas sus estaciones son accesibles.",
+    "consejos": [
+      "No existen catracas en todas las paradas: debes validar igualmente.",
+      "Para AquaRio busca Utopia AquaRio; para Museu do Amanhã, Parada dos Museus.",
+      "Comprueba línea y destino porque varios servicios comparten tramos."
+    ],
+    "mapa": "https://www.vltrio.com.br/#mapas",
+    "oficial": "https://www.vltrio.com.br/"
+  },
+  {
+    "id": "brt",
+    "icon": "🚌",
+    "nombre": "BRT Rio",
+    "color": "orange",
+    "foto": "https://res.cloudinary.com/qa301cbc/image/upload/v1788384462/brt.jpg",
+    "ideal": "Galeão, Barra, Recreio, Riocentro, Parque Olímpico y conexiones de Zona Oeste",
+    "precio": "Tarifa municipal vigente",
+    "pago": "Jaé",
+    "descripcion": "Corredores de buses articulados con estaciones cerradas. Es fundamental para moverse por Barra y Zona Oeste y permite conexiones con el aeropuerto Galeão mediante servicios específicos.",
+    "consejos": [
+      "Jardim Oceânico es la conexión más útil entre Metro y BRT.",
+      "Confirma si el servicio es parador, expresso o directo antes de embarcar.",
+      "En Rock in Rio y grandes eventos existen operaciones especiales: no uses la rutina de un día normal."
+    ],
+    "mapa": "https://www.google.com/maps/search/?api=1&query=BRT+Rio+de+Janeiro",
+    "oficial": "https://mobi-rio.rio.br/"
+  },
+  {
+    "id": "trem",
+    "icon": "🚆",
+    "nombre": "Trenes SuperVia",
+    "color": "purple",
+    "foto": "https://res.cloudinary.com/qa301cbc/image/upload/v1788384626/supervia.jpg",
+    "ideal": "Maracaná, São Cristóvão, Madureira, Zona Norte, Baixada y conexiones metropolitanas",
+    "precio": "R$ 7,60 en 2026",
+    "pago": "Riocard, pago por aproximación y medios de SuperVia; Jaé no es aceptado",
+    "descripcion": "La red suburbana parte principalmente desde Central do Brasil y llega a barrios y municipios donde el Metro no alcanza. Para turistas es útil sobre todo en recorridos concretos y eventos.",
+    "consejos": [
+      "No confundas Central do Brasil con la estación de Metro Central: están conectadas, pero son sistemas diferentes.",
+      "Verifica ramal, plataforma y estación final.",
+      "Consulta la operación el mismo día: mantenimientos y eventos pueden cambiar intervalos."
+    ],
+    "mapa": "https://www.supervia.com.br/pt-br/mapa-de-linhas",
+    "oficial": "https://www.supervia.com.br/"
+  },
+  {
+    "id": "onibus",
+    "icon": "🚍",
+    "nombre": "Autobuses municipales",
+    "color": "amber",
+    "foto": "https://res.cloudinary.com/qa301cbc/image/upload/v1788384797/autobus.jpg",
+    "ideal": "Trayectos donde Metro no llega y conexiones de barrio a barrio",
+    "precio": "Tarifa municipal vigente",
+    "pago": "Jaé en buses municipales",
+    "descripcion": "Cubren prácticamente toda la ciudad, pero las líneas pueden ser difíciles para quien no conoce Río. Utiliza una aplicación para seguir el recorrido y confirma el número y el destino visible en el vehículo.",
+    "consejos": [
+      "No preguntes solo si “pasa cerca”: muestra el destino exacto.",
+      "Acompaña el recorrido en el celular sin exhibirlo junto a la puerta.",
+      "De noche evita esperar solo en paradas vacías; compara con una aplicación de vehículo."
+    ],
+    "mapa": "https://www.google.com/maps",
+    "oficial": "https://transportes.prefeitura.rio/"
+  },
+  {
+    "id": "barcas",
+    "icon": "⛴️",
+    "nombre": "Barcas Rio",
+    "color": "cyan",
+    "foto": "https://res.cloudinary.com/qa301cbc/image/upload/v1788384974/barca.jpg",
+    "ideal": "Niterói, Charitas, Paquetá, Cocotá y travesías hacia Ilha Grande",
+    "precio": "Desde R$ 5,00 según la línea",
+    "pago": "Consulta el medio vigente en la estación",
+    "descripcion": "Además de transporte, la travesía ofrece una de las vistas más bonitas de la Bahía de Guanabara. Praça XV es la terminal principal para Niterói, Paquetá, Charitas y Cocotá.",
+    "consejos": [
+      "Praça XV–Arariboia tarda hasta 22 minutos y es la conexión clásica con el Centro de Niterói.",
+      "Paquetá tiene pocos horarios: organiza ida y regreso antes de embarcar.",
+      "Las barcas a Ilha Grande salen de Angra o Mangaratiba, no de Praça XV."
+    ],
+    "mapa": "https://www.google.com/maps/search/?api=1&query=Estacao+das+Barcas+Praca+XV",
+    "oficial": "https://barcasrio.com.br/linhas-horarios-e-tarifas/"
+  }
+]

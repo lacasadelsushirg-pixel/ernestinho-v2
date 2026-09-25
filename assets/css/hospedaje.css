@@ -21,3 +21,6 @@
 .stay-gallery-count{position:absolute;right:14px;bottom:14px;padding:7px 11px;border-radius:999px;background:#061817dd;font-size:12px}
 .stay-gallery-note{margin:0;padding:12px 18px 16px;color:#c5d2cf;font-size:12px}
 @media(max-width:700px){.stayhero{min-height:52vh}.stay-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.stay-amenities{grid-template-columns:1fr}.stay-gallery-frame{aspect-ratio:4/3}.stay-gallery h2{font-size:26px}}
+
+/* Keep property photographs at a comfortable editorial size. */
+.stayhero{min-height:45vh;position:relative;isolation:isolate}.stayhero:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#061817d9,#06181712);z-index:1;pointer-events:none}.stayhero-image{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover}.stayhero .hero-copy{z-index:2}.stay-gallery{max-width:800px;margin:26px auto 10px}.stay-gallery-frame{aspect-ratio:16/9}.stay-gallery-frame img{object-fit:contain;background:#102522}@media(max-width:700px){.stayhero{min-height:40vh}.stay-gallery{max-width:100%}.stay-gallery-frame{aspect-ratio:4/3}}
