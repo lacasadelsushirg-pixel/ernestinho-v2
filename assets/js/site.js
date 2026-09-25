@@ -40,9 +40,19 @@ function translateText(root, lang) {
 }
 function ensureTools() {
   const bar = document.querySelector(".topbar");
-  if (!bar) return null;
-  let tools = bar.querySelector(".tools");
-  if (!tools) { tools = document.createElement("div"); tools.className = "tools"; bar.appendChild(tools); }
+  let tools = bar?.querySelector(".tools");
+  if (!tools && bar) { tools = document.createElement("div"); tools.className = "tools"; bar.appendChild(tools); }
+  if (!tools) {
+    const host = document.querySelector("nav.back, .back") || document.body;
+    tools = document.createElement("div");
+    tools.className = "ec-language-tools";
+    tools.setAttribute("role", "group");
+    tools.setAttribute("aria-label", "Language selection");
+    host.appendChild(tools);
+    const style = document.createElement("style");
+    style.textContent = ".ec-language-tools{display:flex;justify-content:flex-end;margin:8px auto;max-width:1200px;padding:0 20px}.ec-language-tools button{border:1px solid #c9a65a;background:#123b3b;color:#f6f0e6;border-radius:999px;padding:9px 14px;font:700 12px Arial,sans-serif;cursor:pointer}.ec-language-tools button:focus-visible{outline:3px solid #e7b85c;outline-offset:3px}";
+    document.head.appendChild(style);
+  }
   if (!tools.querySelector('a[href*="wa.me"]')) {
     const link = document.createElement("a"); link.href = "https://wa.me/5521969946938"; link.className = "wa"; link.textContent = "WhatsApp"; tools.prepend(link);
   }

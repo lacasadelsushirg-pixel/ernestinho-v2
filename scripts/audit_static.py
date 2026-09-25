@@ -49,6 +49,11 @@ def main():
         if page.description != 1: errors.append(f"Expected one description: {rel} ({page.description})")
         if not page.lang: errors.append(f"Missing html lang: {rel}")
         if rel != "404.html" and page.h1 != 1: errors.append(f"Expected one h1: {rel} ({page.h1})")
+        if rel != "404.html" and not any(
+            tag == "script" and attr.get("type", "").lower() == "module" and attr.get("src", "").endswith("assets/js/site.js")
+            for tag, attr in page.tags
+        ):
+            errors.append(f"Missing shared language/navigation runtime: {rel}")
         if page.images_without_alt: errors.append(f"Images missing alt: {rel} ({len(page.images_without_alt)})")
         for tag, attr in page.tags:
             for field in ("href", "src"):
