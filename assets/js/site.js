@@ -32,7 +32,7 @@ function translateText(root, lang) {
   let node;
   while ((node = walker.nextNode())) {
     const parent = node.parentElement;
-    if (!parent || ["SCRIPT", "STYLE", "NOSCRIPT"].includes(parent.tagName) || parent.closest("[data-i18n]")) continue;
+    if (!parent || ["SCRIPT", "STYLE", "NOSCRIPT"].includes(parent.tagName)) continue;
     if (!original.has(node)) original.set(node, node.nodeValue);
     const base = original.get(node), trimmed = base.trim(), hit = common[trimmed];
     node.nodeValue = hit && lang !== "ES" ? base.replace(trimmed, hit[lang] || trimmed) : base;
