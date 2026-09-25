@@ -58,9 +58,14 @@ export function setLanguage(language) {
   const selected = normalizeLanguage(language);
   try { localStorage.setItem(STORAGE_KEY, selected); } catch { /* Storage may be disabled. */ }
   applyTranslations(document, selected);
+  const languageLabels = {
+    ES: `Idioma actual: ${selected}. Cambiar idioma`,
+    PT: `Idioma atual: ${selected}. Alterar idioma`,
+    EN: `Current language: ${selected}. Change language`
+  };
   document.querySelectorAll("#lang, [data-lang-toggle]").forEach(button => {
     button.textContent = selected;
-    button.setAttribute("aria-label", `Language: ${selected}. Change language`);
+    button.setAttribute("aria-label", languageLabels[selected]);
   });
   document.dispatchEvent(new CustomEvent("ec:language", { detail: { lang: selected } }));
   for (const listener of listeners) listener(selected);
