@@ -1,0 +1,2 @@
+// Exact ES-to-PT/EN matches from the read-only V1 translation catalogue.
+export default {"Accesibilidad":{"PT":"Acessibilidade","EN":"Accessibility"},"BRT":{"PT":"BRT","EN":"BRT"},"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Bicicleta":{"PT":"Bicicleta","EN":"Bicycle"},"Guía de Río":{"PT":"Guia do Rio","EN":"Rio Guide"},"Hospedaje":{"PT":"Hospedagem","EN":"Accommodation"},"Metro":{"PT":"Metrô","EN":"Metro"},"Rodoviária Novo Rio":{"PT":"Rodoviária Novo Rio","EN":"Novo Rio Bus Terminal"},"VLT":{"PT":"VLT","EN":"Light rail"},"🚲":{"PT":"🚲","EN":"🚲"}};

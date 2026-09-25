@@ -1,0 +1,2 @@
+// Exact ES-to-PT/EN matches from the read-only V1 translation catalogue.
+export default {"AquaRio":{"PT":"AquaRio","EN":"AquaRio"},"Centro":{"PT":"Centro","EN":"Downtown"},"Compras":{"PT":"Compras","EN":"Shopping"},"Eventos":{"PT":"Eventos","EN":"Events"},"Experiencias":{"PT":"Experiências","EN":"Experiences"},"Guía de Río":{"PT":"Guia do Rio","EN":"Rio Guide"},"Hospedaje":{"PT":"Hospedagem","EN":"Accommodation"},"Parque Lage":{"PT":"Parque Lage","EN":"Parque Lage"},"WhatsApp":{"PT":"WhatsApp","EN":"WhatsApp"}};
