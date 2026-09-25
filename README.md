@@ -20,6 +20,8 @@ Work in large staging branches. Vercel production is connected to `main`; theref
 
 V2 is multi-page-first, not a fragile SPA. Category and detail routes must work by direct URL, browser back/forward and refresh. JavaScript enhances the page; it must not be required to display primary content.
 
+Lodging uses static property routes, with recovered descriptions and photo lists kept in `assets/js/data/lodging.js`. `assets/js/hospedaje.js` adds translated details and galleries. Prices and availability stay out of the public catalog.
+
 
 ## Validation and sitemap
 

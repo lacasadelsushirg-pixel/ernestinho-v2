@@ -1,0 +1,23 @@
+.stayhero{min-height:58vh;background-position:center;background-size:cover;display:flex;align-items:flex-end;color:#fff;padding:clamp(28px,7vw,80px)}
+.stayhero h1{font:400 clamp(48px,8vw,90px) Georgia,serif;margin:.15em 0}
+.stayhero .lead{max-width:700px}
+.stay-wrap{max-width:1000px;margin:auto;padding:clamp(34px,6vw,64px) 20px 100px}
+.stay-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:22px 0 36px}
+.stay-fact{padding:15px 16px;border:1px solid #ded5c6;border-radius:15px;background:#fff;display:flex;gap:7px;align-items:baseline}
+.stay-fact strong{font:700 20px Georgia,serif;color:#123d39}
+.stay-fact span{font-size:13px;color:#58635e}
+.stay-amenities{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;padding:0;list-style:none}
+.stay-amenities li{padding:14px 16px;border:1px solid #ded5c6;border-radius:14px;background:#fff;line-height:1.5}
+.stay-note{max-width:760px;margin:30px 0 18px;line-height:1.75;color:#58635e}
+.stay-back{display:inline-block;margin-bottom:22px;color:#795d24;font-weight:750}
+.stay-cta{display:inline-flex;align-items:center;min-height:48px;margin:12px 0 30px;padding:14px 20px;border-radius:999px;background:#123d39;color:#fff;font-size:12px;font-weight:850;letter-spacing:.04em}
+.stay-gallery{margin:26px 0 10px;border-radius:24px;overflow:hidden;background:#071313;color:white}
+.stay-gallery[hidden]{display:none}
+.stay-gallery h2{font:400 30px Georgia,serif;margin:0;padding:20px 22px 14px}
+.stay-gallery-frame{position:relative;aspect-ratio:16/10;background:#102522;display:grid;place-items:center}
+.stay-gallery-frame img{width:100%;height:100%;object-fit:cover}
+.stay-gallery button{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:46px;border:1px solid #ffffff88;border-radius:50%;background:#061817dd;color:#fff;font-size:25px;cursor:pointer}
+.stay-gallery .prev{left:14px}.stay-gallery .next{right:14px}
+.stay-gallery-count{position:absolute;right:14px;bottom:14px;padding:7px 11px;border-radius:999px;background:#061817dd;font-size:12px}
+.stay-gallery-note{margin:0;padding:12px 18px 16px;color:#c5d2cf;font-size:12px}
+@media(max-width:700px){.stayhero{min-height:52vh}.stay-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.stay-amenities{grid-template-columns:1fr}.stay-gallery-frame{aspect-ratio:4/3}.stay-gallery h2{font-size:26px}}

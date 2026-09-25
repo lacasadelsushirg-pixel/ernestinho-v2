@@ -37,11 +37,11 @@ export function translate(key, lang = getLanguage(), moduleName) {
 export function applyTranslations(root = document, lang = getLanguage()) {
   const selected = normalizeLanguage(lang);
   const elements = [];
-  if (root instanceof Element && root.matches("[data-i18n], [data-i18n-placeholder], [data-i18n-aria-label], [data-i18n-title]")) elements.push(root);
-  root.querySelectorAll?.("[data-i18n], [data-i18n-placeholder], [data-i18n-aria-label], [data-i18n-title]").forEach(el => elements.push(el));
+  if (root instanceof Element && root.matches("[data-i18n], [data-i18n-placeholder], [data-i18n-aria-label], [data-i18n-title], [data-i18n-content]")) elements.push(root);
+  root.querySelectorAll?.("[data-i18n], [data-i18n-placeholder], [data-i18n-aria-label], [data-i18n-title], [data-i18n-content]").forEach(el => elements.push(el));
   for (const el of elements) {
     const moduleName = el.dataset.i18nModule || root.documentElement?.dataset.i18nModule || document.documentElement.dataset.i18nModule;
-    for (const [attribute, keyName] of [["textContent", "i18n"], ["placeholder", "i18nPlaceholder"], ["aria-label", "i18nAriaLabel"], ["title", "i18nTitle"]]) {
+    for (const [attribute, keyName] of [["textContent", "i18n"], ["placeholder", "i18nPlaceholder"], ["aria-label", "i18nAriaLabel"], ["title", "i18nTitle"], ["content", "i18nContent"]]) {
       const key = el.dataset[keyName];
       if (!key) continue;
       const value = translate(key, selected, moduleName);
