@@ -88,12 +88,13 @@ function apply(lang) {
 async function init() {
   const button = ensureTools();
   if (!button) return;
-  await loadSectionTranslations();
   apply(getLanguage());
   if (button.dataset.ecLanguageBound !== "true") {
     button.dataset.ecLanguageBound = "true";
     button.addEventListener("click", () => apply(cycleLanguage(getLanguage())));
   }
+  await loadSectionTranslations();
+  apply(getLanguage());
   const observer = new MutationObserver(records => {
     const added = records.flatMap(record => [...record.addedNodes]).filter(node => node.nodeType === Node.ELEMENT_NODE);
     if (added.length) for (const node of added) { translateText(node, getLanguage()); translateAttrs(getLanguage()); applyTranslations(node, getLanguage()); }
