@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ernestinho-v2.vercel.app/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/atracciones/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/atracciones/aquario/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/atracciones/cristo-redentor/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/atracciones/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/atracciones/jardim-botanico/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/atracciones/maracana/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/atracciones/museu-amanha/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/atracciones/pao-de-acucar/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/atracciones/parque-lage/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/atracciones/selaron/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/barrios/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/barrios/barra-da-tijuca/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/barrios/barra-oeste/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/barrios/botafogo-urca/</loc></url>
@@ -27,6 +25,7 @@
   <url><loc>https://ernestinho-v2.vercel.app/barrios/gloria/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/barrios/guaratiba/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/barrios/ilha-da-gigoia/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/barrios/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/barrios/ipanema-leblon/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/barrios/ipanema/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/barrios/jacarepagua/</loc></url>
@@ -48,7 +47,6 @@
   <url><loc>https://ernestinho-v2.vercel.app/barrios/vargens/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/barrios/zona-norte/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/cafe-rio/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/compras/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/barrashopping/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/botafogo-praia-shopping/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/cadeg/</loc></url>
@@ -56,11 +54,16 @@
   <url><loc>https://ernestinho-v2.vercel.app/compras/fashion-mall/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/feira-da-gloria/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/feira-da-providencia/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/compras/feira-das-yabas/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/feira-hippie-ipanema/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/feira-noturna-copacabana/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/feira-organica-gloria/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/compras/feira-organica/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/feira-sao-cristovao/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/compras/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/lavradio/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/compras/mercadao-madureira/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/compras/mercado-sao-pedro/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/metropolitano-barra/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/norte-shopping/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/nova-america/</loc></url>
@@ -70,11 +73,13 @@
   <url><loc>https://ernestinho-v2.vercel.app/compras/rio-sul/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/saara/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/shopping-leblon/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/compras/shopping-tijuca/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/compras/uruguaiana/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/compras/village-mall/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/consejos/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/consejos/20-consejos/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/consejos/electricidad-adaptadores/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/consejos/errores-rio/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/consejos/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/consejos/lluvia/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/consejos/maletas-rio/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/consejos/perfiles-viajero/</loc></url>
@@ -82,14 +87,138 @@
   <url><loc>https://ernestinho-v2.vercel.app/consejos/sol-calor/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/consejos/supermercados/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/consejos/trampas-turista/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/academia-brasileira-letras/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/acao-cidadania/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/acude/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/amanha/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/antiga-se/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/armando-gonzaga/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/arqueologia-itaipu/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/arthur-azevedo/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/benjamin-constant/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/bibliomaison/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/biblioteca-ccbb/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/biblioteca-ccjf/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/biblioteca-ims/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/biblioteca-mam/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/biblioteca-manguinhos/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/biblioteca-nacional/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/biblioteca-parque-estadual/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/biblioteca-rocinha/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/bonsucesso/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/cacilda-becker/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/caixa-cultural/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/candelaria/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/capela-mayrink/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/capuchinhos/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/carlos-gomes/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/casa-da-leitura/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/casa-deodoro/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/casa-franca/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/casa-rui-barbosa/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/catedral-metropolitana/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/ccbb/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/ccjf/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/chacara-ceu/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/conceicao-boa-morte/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/copacabana/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/correios/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/dulcina/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/ecovilla/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/espaco-bndes/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/espaco-marinha/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/fatima-recreio/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/fernanda-montenegro/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/folclore-edison-carneiro/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/fortaleza-conceicao/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/fortaleza-sao-joao/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/forte-barao-rio-branco/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/forte-copacabana/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/forte-duque-caxias/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/forte-gragoata/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/forte-imbui/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/forte-laje/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/forte-pico/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/forte-sao-luiz/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/glauce-rocha/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/gloria-outeiro/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/helio-oiticica/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/ihgb/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/imperator/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/joao-caetano/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/jose-bonifacio/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/lampadosa/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/lapa-mercadores/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/laura-alvim/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/leonardo-da-vinci/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/livraria-argumento/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/maas/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/mac-niteroi/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/maison-france/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/mam-rio/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/mar/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/mast/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/mhn/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/midiateca-crab/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/miguel-falabella/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/mnba/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/mosteiro-sao-bento/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/muhcab/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/musal/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/museu-flamengo/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/museu-historico-cidade/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/museu-light/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/museu-nacional-ufrj/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/museu-pontal/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/museu-republica/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/museu-samba/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/museu-vida-fiocruz/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/naval/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/nossa-senhora-brasil/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/nossa-senhora-paz/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/nossa-senhora-penna/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/nossa-senhora-saude/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/observatorio-valongo/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/ordem-terceira-carmo/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/paco-imperial/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/penha/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/povos-indigenas/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/pretos-novos/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/real-gabinete/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/riachuelo-rio/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/rival-petrobras/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/rosario-pretos/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/sala-cecilia/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/santa-cruz-barra/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/santa-cruz-militares/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/santa-luzia/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/santa-margarida/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/santa-rita/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/santo-antonio/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/sao-francisco-paula/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/sao-francisco-penitencia/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/sao-francisco-prainha/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/sao-jose-lagoa/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/sao-judas/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/sbba/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/sesc-ginastico/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/sesc-tijuca/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/teatro-dos-quatro/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/teatro-ipanema/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/teatro-multiplan/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/theatro-municipal/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/travessa-ipanema/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/villa-lobos/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/cultura/ziembinski/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/eventos/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/experiencias/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/experiencias/angra-ilha-grande/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/experiencias/arraial-do-cabo/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/experiencias/buzios/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/experiencias/carnaval-experience/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/experiencias/full-day-rio/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/experiencias/helicoptero/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/experiencias/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/experiencias/lancha-privada/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/experiencias/maracana-experience/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/experiencias/morro-dois-irmaos/</loc></url>
@@ -99,14 +228,14 @@
   <url><loc>https://ernestinho-v2.vercel.app/experiencias/pequena-africa/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/experiencias/rio-samba-bus/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/experiencias/rocinha/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/familia/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/experiencias/vuelo-en-parapente/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/familia/aquario/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/familia/bioparque/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/familia/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/familia/lluvia/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/familia/parques/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/familia/playas/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/fotografia/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/gastronomia/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/abencoado/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/aconchego-carioca/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/adega-da-velha/</loc></url>
@@ -214,6 +343,7 @@
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/gurume/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/haru/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/hollandaise/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/gastronomia/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/iraja-redux/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/joaquina/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/jobi/</loc></url>
@@ -295,7 +425,6 @@
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/xodozin-copa/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/yusha/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/zaza-bistro-tropical/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/guia/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/guia/accesibilidad/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/guia/aeropuertos/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/guia/alquiler-auto/</loc></url>
@@ -304,6 +433,7 @@
   <url><loc>https://ernestinho-v2.vercel.app/guia/dinero/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/guia/documentos/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/guia/emergencias/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/guia/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/guia/internet/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/guia/menores/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/guia/moverse/</loc></url>
@@ -311,7 +441,8 @@
   <url><loc>https://ernestinho-v2.vercel.app/guia/seguro/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/guia/terminales/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/guia/vacunas/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/hospedaje/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/guia/viajar-solo/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/historia/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/hospedaje/1008/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/hospedaje/1221/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/hospedaje/217/</loc></url>
@@ -322,14 +453,29 @@
   <url><loc>https://ernestinho-v2.vercel.app/hospedaje/805/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/hospedaje/estudio-1-1/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/hospedaje/goia/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/hospedaje/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/hospedaje/nata/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/hospedaje/venti/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/hoy/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/playas/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/bico-papagaio/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/catacumba/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/circuito-grutas/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/dois-irmaos-trek/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/parque-flamengo/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/pedra-bonita-trek/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/pedra-gavea-trek/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/pico-tijuca/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/pontal/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/primatas/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/sitio-burle-marx/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/naturaleza/telegrafo-trek/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/playas/abrico/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/playas/arpoador/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/playas/botafogo/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/playas/copacabana/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/playas/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/playas/ipanema/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/playas/joatinga/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/playas/leblon/</loc></url>
@@ -342,19 +488,65 @@
   <url><loc>https://ernestinho-v2.vercel.app/playas/recreio/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/playas/sao-conrado/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/quiero/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/television/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/transportes/alquiler-vehiculo/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/transportes/barcas/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/transportes/bicicletas/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/transportes/bonde-santa-teresa/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/transportes/brt/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/transportes/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/transportes/metro/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/transportes/onibus/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/transportes/terminal-gentileza/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/transportes/transporte-privado/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/transportes/trenes/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/transportes/uber/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/transportes/vlt/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/all-in/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/armazem-do-senado/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/bafo-da-prainha/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/bar-bukowski/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/bar-da-cachaca/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/bar-do-omar/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/beco-das-garrafas/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/beco-do-rato/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/bip-bip/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/blue-note-rio/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/boa-praca-ipanema/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/bosque-bar/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/brewteco-botafogo/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/cacique-de-ramos/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/canastra-bar/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/carioca-da-gema/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/circo-voador/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/coisas-de-bamba/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/comuna/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/coordenadas-bar/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/feira-sao-cristovao-noite/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/fogo-de-chao-botafogo/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/fundicao-progresso/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/galeria-cafe/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/isabel-lounge/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/lapa-40-graus/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/leviano-bar/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/macuna/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/moonlounge/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/nosso/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/ocya-ilha-primeira/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/pedra-do-sal/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/pink-flamingo/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/portela/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/quadra-mangueira/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/quadra-salgueiro/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/quartinho/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/renascenca-clube/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/rio-scenarium/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/sacadura-154/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/trapiche-gamboa/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/vaca-atolada/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/vitrinni/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/xepa/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/yoo2/</loc></url>
+  <url><loc>https://ernestinho-v2.vercel.app/vida-nocturna/zeca-vogue/</loc></url>
 </urlset>
