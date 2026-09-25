@@ -1,0 +1,7 @@
+@import url("./type.css");
+/* Editorial typography and readable body copy for the recovered restaurant pages. */
+body{font-family:"DM Sans",Arial,sans-serif!important;font-size:17px;line-height:1.7}
+.hero h1,.hero-copy h1,.wrap h1,.wrap h2,.wrap h3,.card h2,.card h3{font-family:"Fraunces",Georgia,serif!important}
+.card{font-family:"DM Sans",Arial,sans-serif!important;font-size:17px!important;line-height:1.7!important}
+.card p,.card li,.facts,.notice{font-family:"DM Sans",Arial,sans-serif!important;font-size:16px!important;line-height:1.7!important}
+@media(max-width:760px){body{font-size:16px}.card{font-size:16px!important}.card p,.card li{font-size:15px!important}}
