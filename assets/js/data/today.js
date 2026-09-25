@@ -9,3 +9,23 @@ export const todayItems = Object.freeze([
   { id:"bip-bip", titleKey:"Bip Bip", category:"nightlife", subcategory:"samba and live music", neighborhood:"Copacabana", zone:"South Zone", recommendedMoments:["evening"], durationMinutes:null, priceRange:null, priceStatus:"confirm-before-going", reservationStatus:"confirm-before-going", officialWebsite:null, openingHoursStatus:"confirm-with-venue", currentConditionsStatus:"not-connected", indoorOutdoor:"inside", weatherFit:["rain","heat"], effort:"low", accessibilityStatus:"not-verified", qualityStatus:"editorial-reviewed", route:"/vida-nocturna/bip-bip/", copyKey:"bip-copy", labels:["tag-music"] },
   { id:"armazem", titleKey:"Armazém do Senado", category:"nightlife", subcategory:"music and bar", neighborhood:"Centro", zone:"Centro", recommendedMoments:["evening"], durationMinutes:null, priceRange:null, priceStatus:"confirm-before-going", reservationStatus:"confirm-before-going", officialWebsite:null, openingHoursStatus:"confirm-with-venue", currentConditionsStatus:"not-connected", indoorOutdoor:"inside", weatherFit:["rain","heat"], effort:"low", accessibilityStatus:"not-verified", qualityStatus:"editorial-reviewed", route:"/vida-nocturna/armazem-do-senado/", copyKey:"armazem-copy", labels:["tag-music"] }
 ]);
+
+const normalizeSearch = value => String(value || "").trim().toLocaleLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+export function filterTodayItems(items, filters) {
+  const area = normalizeSearch(filters.area);
+  const matches = items.filter(item => {
+    const weather = filters.weather === "any" || item.weatherFit.includes(filters.weather);
+    const place = filters.place === "any" || item.indoorOutdoor === filters.place;
+    const moment = filters.moment === "any" || item.recommendedMoments.includes(filters.moment);
+    const effort = filters.effort === "any" || item.effort === "low" || (filters.effort === "medium" && item.effort === "medium");
+    const searchable = normalizeSearch(`${item.neighborhood} ${item.zone} ${item.category} ${item.subcategory}`);
+    return weather && place && moment && effort && (!area || searchable.includes(area));
+  });
+  const accessibleMatches = matches.filter(item => item.accessibilityStatus === "verified");
+  return {
+    candidates: matches,
+    accessibleMatches,
+    results: filters.access ? accessibleMatches : matches
+  };
+}
