@@ -190,6 +190,25 @@ async function init() {
     const selected = event.detail?.lang || getLanguage();
     translateText(document.head, selected); translateText(document.body, selected); translateAttrs(selected); applyTranslations(document, selected);
   });
+  // Bridge shared language controls to pages that render their own ES/PT/EN copy.
+  let syncingEmbeddedLanguage = false;
+  document.addEventListener("ec:language", event => {
+    if (syncingEmbeddedLanguage) return;
+    const selected = String(event.detail?.lang || getLanguage()).slice(0, 2).toUpperCase();
+    const candidates = [...document.querySelectorAll("button, [role='button'], a[role='button']")];
+    const button = candidates.find(el => {
+      if (el.matches("[data-ec-language], #lang, [data-lang-toggle], [data-ns-lang], [data-tj-lang]")) return false;
+      const onclick = el.getAttribute("onclick") || "";
+      const value = String(el.dataset.lang || el.dataset.language || el.dataset.locale || el.value || el.textContent || "").trim().toUpperCase();
+      const code = onclick.match(/(?:setLang|renderLang|lang)\s*\(\s*['"]?(ES|PT|EN)/i)?.[1]?.toUpperCase();
+      return value === selected || code === selected;
+    });
+    if (button) {
+      syncingEmbeddedLanguage = true;
+      button.click();
+      queueMicrotask(() => { syncingEmbeddedLanguage = false; });
+    }
+  });
 }
 document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init, { once: true }) : init();
 export { apply };
