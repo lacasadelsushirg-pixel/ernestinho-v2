@@ -236,14 +236,12 @@
   <url><loc>https://ernestinho-v2.vercel.app/familia/parques/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/familia/playas/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/fotografia/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/gastronomia/abencoado/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/aconchego-carioca/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/adega-da-velha/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/adega-perola/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/aipo-aipim-391/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/aipo-aipim-605/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/aipo-aipim-920/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/gastronomia/aipo-centro/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/alfaia/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/alloro/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/amendoeira/</loc></url>
@@ -324,7 +322,6 @@
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/esquimo/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/explorer/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/faenza-copacabana/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/gastronomia/fazendola-centro/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/feira-sao-cristovao/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/ferro-e-farinha/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/fiorino/</loc></url>
@@ -337,8 +334,6 @@
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/ginga/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/giuseppe-mar/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/gruta-do-fado/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/gastronomia/gruta-tijuca/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/gastronomia/guacamole-copa/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/guacamole-copacabana/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/gurume/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/haru/</loc></url>
@@ -379,7 +374,6 @@
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/pergula/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/pescados-na-brasa/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/pesqueiro/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/gastronomia/pilograma-centro/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/pilograma-prime-grill/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/pobre-juan/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/point-de-grumari/</loc></url>
@@ -390,7 +384,6 @@
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/proa/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/quartinho/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/quiteria/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/gastronomia/rainers/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/rampinha/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/reino-vegetal/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/rio-scenarium/</loc></url>
@@ -402,17 +395,14 @@
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/satyricon/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/sel-ipanema/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/shiso/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/gastronomia/skunna/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/spesso/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/spicy-fish/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/stalos/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/stambul-copa/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/sud-passaro-verde/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/gastronomia/sushi-da-praca/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/sushi-leblon/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/tacaca-do-norte/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/talho-capixaba-ipanema/</loc></url>
-  <url><loc>https://ernestinho-v2.vercel.app/gastronomia/tempeh-centro/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/temperarte-bolivar/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/temperarte-posto6/</loc></url>
   <url><loc>https://ernestinho-v2.vercel.app/gastronomia/terra-brasilis/</loc></url>
