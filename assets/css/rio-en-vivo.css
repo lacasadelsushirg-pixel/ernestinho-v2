@@ -1,0 +1,42 @@
+.live-rio{background:#f3f6f4;color:#122a27;min-height:100vh}
+.live-hero{padding:clamp(54px,9vw,112px) 7vw 54px;background:linear-gradient(135deg,#103f3b,#092c2a);color:#fff}
+.live-hero h1{max-width:900px;margin:14px 0;font-size:clamp(46px,7vw,88px);line-height:.98}
+.live-hero .kicker{color:#edbd5b}
+.live-lead{max-width:680px;color:#e0eae7;font-size:18px;line-height:1.65}
+.live-updated{margin-top:24px;color:#f0cf81;font-size:14px}
+.live-dashboard,.live-cameras,.live-bottom{max-width:1200px;margin:0 auto;padding:52px 5vw}
+.live-section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:24px}
+.live-section-heading h2{font-size:clamp(32px,4vw,50px);margin:5px 0 0}
+.live-refresh{border:1px solid #103f3b;border-radius:999px;padding:11px 17px;background:#103f3b;color:#fff;font:700 14px var(--ec-action);cursor:pointer}
+.live-weather-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.live-card{border:1px solid #dce5e1;border-radius:20px;background:#fff;padding:22px;min-width:0}
+.live-card>p:first-child{margin:0 0 13px;color:#55716a;font-size:13px}
+.live-card strong{display:block;color:#103f3b;font:400 clamp(27px,3vw,38px)/1.1 var(--serif);font-variant-numeric:tabular-nums}
+.live-card span{display:inline-block;margin-top:6px;color:#65766f;font-size:14px}
+.live-weather-main{background:#e2eee9;border-color:#c7ddd4}
+.live-weather-main strong{font-size:clamp(48px,5vw,70px)}
+.live-sea-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}
+.live-sea-grid .live-card{min-height:265px}
+.live-sea-grid h3{margin:0 0 16px;font:400 22px/1.2 var(--serif)}
+.live-sea-grid .kicker{font:700 11px var(--ec-action);letter-spacing:.13em;color:#946c23}
+.live-small{font-size:13px;line-height:1.55;color:#6a7772}
+.live-tide-values{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.live-tide-values p{margin:0;padding:12px;border-radius:12px;background:#f3f6f4}
+.live-tide-values span{font-size:12px}
+.live-tide-values strong{font-size:21px;margin-top:7px}
+.live-text-link{display:inline-block;margin-top:16px;color:#0e5149;font-size:14px;font-weight:750;text-decoration:underline;text-underline-offset:3px}
+.live-attribution,.live-camera-note{color:#63736d;font-size:13px;line-height:1.65}
+.live-attribution a{color:#0e5149;text-decoration:underline}
+.live-cameras{padding-top:16px}
+.live-camera-intro{color:#64736e;line-height:1.6}
+.live-camera-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.live-camera-card{display:flex;flex-direction:column;align-items:flex-start;min-height:265px;border-radius:22px;padding:23px;background:#103f3b;color:#fff}
+.live-camera-place{margin:0 0 12px;color:#efc865;font:700 11px var(--ec-action);letter-spacing:.14em}
+.live-camera-card h3{margin:0 0 12px;font:400 25px/1.1 var(--serif)}
+.live-camera-card p:not(.live-camera-place){color:#d6e2df;line-height:1.55;font-size:15px}
+.live-camera-card a,.live-return{margin-top:auto;display:inline-flex;align-items:center;gap:8px;color:#f3cd71;font:700 13px var(--ec-action);letter-spacing:.04em;text-decoration:none}
+.live-camera-card a:hover,.live-return:hover{text-decoration:underline;text-underline-offset:4px}
+.live-bottom{border-top:1px solid #dce5e1;color:#3a514a;line-height:1.7}
+.live-return{color:#0e5149}
+@media(max-width:1000px){.live-camera-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.live-weather-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){.live-hero{padding:60px 6vw 42px}.live-weather-grid,.live-sea-grid,.live-camera-grid{grid-template-columns:1fr}.live-section-heading{align-items:flex-start;flex-direction:column}.live-sea-grid .live-card{min-height:0}.live-card{padding:20px}}

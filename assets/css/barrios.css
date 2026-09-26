@@ -14,3 +14,17 @@
 .bh-related a{padding:9px 12px;border:1px solid #d7a43b;border-radius:999px;color:#123d39;font-weight:750}
 .bh-source-note{margin-top:24px;color:#66716c;font-size:13px;line-height:1.7}
 @media(max-width:760px){.bh-grid{grid-template-columns:1fr}}
+
+.bh-zone-index{padding-top:58px}
+.bh-clusters{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.bh-cluster{display:flex;flex-direction:column;align-items:flex-start;min-height:335px;padding:24px;border-radius:22px;border:1px solid rgba(255,255,255,.13);background:#103f3b;color:#fff;transition:transform .2s ease,border-color .2s ease}
+.bh-cluster:hover{transform:translateY(-3px);border-color:#d7a43b}
+.bh-cluster-label{margin:0 0 12px;color:#e6bb66;font-size:11px;font-weight:800;letter-spacing:.16em}
+.bh-cluster h3{margin:0 0 11px;font:400 clamp(24px,2.2vw,32px)/1.06 var(--serif,Georgia,serif)}
+.bh-cluster-intro{margin:0 0 16px;color:#e2eae8;line-height:1.55}
+.bh-cluster strong{margin:0 0 7px;font-size:14px}
+.bh-cluster ul{margin:0 0 20px;padding-left:19px;color:#d7e0de;font-size:14px;line-height:1.65}
+.bh-cluster-cta{margin-top:auto;padding-top:10px;color:#f0c566;font:700 12px/1.4 var(--ec-action,Arial,sans-serif);letter-spacing:.06em}
+.bh-individual-index{padding-top:36px}
+@media(max-width:900px){.bh-clusters{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.bh-clusters{grid-template-columns:1fr}.bh-cluster{min-height:0}}
