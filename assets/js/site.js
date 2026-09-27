@@ -50,7 +50,7 @@ function ensureTopbarNav() {
   if(!nav){nav=document.createElement("nav");bar.appendChild(nav);}
   nav.classList.add("ec-primary-nav");
   nav.setAttribute("aria-label","Navegación principal");
-  const links=[["Guía de Río","/guia/"],["Experiencias","/experiencias/"],["Transportes","/transportes/"],["Hospedaje","/hospedaje/"],["Compras","/compras/"],["Café Río","/cafe-rio/"]];
+  const links=[["Guía de Río","/guia/"],["Experiencias","/experiencias/"],["Transportes","/transportes/"],["Eventos","/eventos/"],["Hospedaje","/hospedaje/"],["Compras","/compras/"]];
   nav.replaceChildren();
   for(const [label,href] of links){const a=document.createElement("a");a.href=href;a.textContent=label;nav.appendChild(a);}
 }
