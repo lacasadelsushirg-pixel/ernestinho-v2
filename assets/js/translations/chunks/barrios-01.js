@@ -2431,5 +2431,89 @@ export default {
   "Urca al atardecer": {
     "PT": "Urca no fim da tarde",
     "EN": "Urca at sunset"
+  },
+  "Playas del oeste: Recreio → Prainha → Grumari según condiciones": {
+    "PT": "Praias do oeste: Recreio → Prainha → Grumari conforme as condições",
+    "EN": "West Zone beaches: Recreio → Prainha → Grumari depending on conditions"
+  },
+  "Barra práctica: Playa → almuerzo → shopping": {
+    "PT": "Barra prática: praia → almoço → shopping",
+    "EN": "Practical Barra: beach → lunch → shopping"
+  },
+  "Naturaleza oeste: Reserva / sendero → playa → regreso antes del pico": {
+    "PT": "Natureza no oeste: Reserva / trilha → praia → volta antes do pico",
+    "EN": "West Zone nature: Reserva / trail → beach → return before peak traffic"
+  },
+  "comercio, tradición de barrio y acceso al Macizo da Tijuca.": {
+    "PT": "comércio, tradição de bairro e acesso ao Maciço da Tijuca.",
+    "EN": "commerce, neighborhood tradition and access to the Tijuca Massif."
+  },
+  "Qué mirar en Tijuca": {
+    "PT": "O que observar na Tijuca",
+    "EN": "What to see in Tijuca"
+  },
+  "fútbol, historia deportiva y conexiones de metro y tren.": {
+    "PT": "futebol, história esportiva e conexões de metrô e trem.",
+    "EN": "football, sporting history and metro and train connections."
+  },
+  "Qué mirar en Maracanã": {
+    "PT": "O que observar no Maracanã",
+    "EN": "What to see in Maracanã"
+  },
+  "historia imperial, cultura nordestina y grandes equipamientos.": {
+    "PT": "história imperial, cultura nordestina e grandes equipamentos.",
+    "EN": "imperial history, Northeastern culture and major facilities."
+  },
+  "Qué mirar en São Cristóvão": {
+    "PT": "O que observar em São Cristóvão",
+    "EN": "What to see in São Cristóvão"
+  },
+  "Fútbol: Maracanã → museo/tour o partido → comida cercana": {
+    "PT": "Futebol: Maracanã → museu/tour ou jogo → comida por perto",
+    "EN": "Football: Maracanã → museum/tour or match → food nearby"
+  },
+  "Nordeste en Río: Feira de São Cristóvão con tiempo para comer y escuchar música": {
+    "PT": "Nordeste no Rio: Feira de São Cristóvão com tempo para comer e ouvir música",
+    "EN": "Northeastern Brazil in Rio: Feira de São Cristóvão with time to eat and listen to music"
+  },
+  "Samba de territorio: Museu do Samba → barrio / quadra según agenda": {
+    "PT": "Samba de território: Museu do Samba → bairro / quadra conforme a programação",
+    "EN": "Local samba: Museu do Samba → neighborhood / samba school hall depending on the schedule"
+  },
+  "Maracanã →": {
+    "PT": "Maracanã →",
+    "EN": "Maracanã →"
+  },
+  "Ipanema + Leblon | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Ipanema + Leblon | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Ipanema + Leblon | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Botafogo + Urca | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Botafogo + Urca | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Botafogo + Urca | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Puntos de interés y contexto editorial de Barra da Tijuca y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial de Barra da Tijuca e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Barra da Tijuca and its corridor. The full guide includes neighboring areas."
+  },
+  "Puntos de interés y contexto editorial de Recreio y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial de Recreio e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Recreio and its corridor. The full guide includes neighboring areas."
+  },
+  "Puntos de interés y contexto editorial de Tijuca y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial de Tijuca e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Tijuca and its corridor. The full guide includes neighboring areas."
+  },
+  "Puntos de interés y contexto editorial de Maracanã y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial de Maracanã e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Maracanã and its corridor. The full guide includes neighboring areas."
+  },
+  "Puntos de interés y contexto editorial de São Cristóvão y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial de São Cristóvão e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for São Cristóvão and its corridor. The full guide includes neighboring areas."
+  },
+  "Puntos de interés y contexto editorial de Madureira y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial de Madureira e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Madureira and its corridor. The full guide includes neighboring areas."
   }
 };
