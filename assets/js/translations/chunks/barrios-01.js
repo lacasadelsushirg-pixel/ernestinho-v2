@@ -2247,5 +2247,189 @@ export default {
   "Abrir la guía completa: Zona Norte →": {
     "PT": "Abrir o guia completo: Zona Norte →",
     "EN": "Open full guide: North Zone →"
+  },
+  "Madureira | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Madureira | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Madureira | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "samba, comercio popular y cultura suburbana carioca.": {
+    "PT": "samba, comércio popular e cultura suburbana carioca.",
+    "EN": "samba, popular commerce and Rio's suburban culture."
+  },
+  "Qué mirar en Madureira": {
+    "PT": "O que observar em Madureira",
+    "EN": "What to see in Madureira"
+  },
+  "quadras de escolas de samba": {
+    "PT": "quadras de escolas de samba",
+    "EN": "samba school rehearsal halls"
+  },
+  "Madureira es samba, comercio y suburbio": {
+    "PT": "Madureira é samba, comércio e subúrbio",
+    "EN": "Madureira is samba, commerce and suburbia"
+  },
+  "Aquí aparecen referencias esenciales de la cultura carioca fuera del circuito de playa. Portela, Império Serrano, Mercadão y Parque Madureira cuentan partes distintas del barrio.": {
+    "PT": "Aqui aparecem referências essenciais da cultura carioca fora do circuito de praia. Portela, Império Serrano, Mercadão e Parque Madureira contam partes diferentes do bairro.",
+    "EN": "Here you find essential references of Rio culture beyond the beach circuit. Portela, Império Serrano, Mercadão and Parque Madureira tell different parts of the neighborhood's story."
+  },
+  "Samba:": {
+    "PT": "Samba:",
+    "EN": "Samba:"
+  },
+  "una quadra no es una atracción con horario turístico fijo. Ensayos, eventos y accesos dependen de agenda.": {
+    "PT": "uma quadra não é uma atração com horário turístico fixo. Ensaios, eventos e acessos dependem da programação.",
+    "EN": "a samba school hall is not an attraction with fixed tourist hours. Rehearsals, events and access depend on the schedule."
+  },
+  "Mercadão:": {
+    "PT": "Mercadão:",
+    "EN": "Mercadão:"
+  },
+  "merece tratamiento propio como mercado popular y polo comercial, no como simple punto en una lista.": {
+    "PT": "merece tratamento próprio como mercado popular e polo comercial, não como simples ponto em uma lista.",
+    "EN": "deserves its own treatment as a popular market and commercial hub, not simply as a point on a list."
+  },
+  "Compras y mercados →": {
+    "PT": "Compras e mercados →",
+    "EN": "Shopping & markets →"
+  },
+  "Jacarepaguá | Barrios | Ernestinho Carioca": {
+    "PT": "Jacarepaguá | Bairros | Ernestinho Carioca",
+    "EN": "Jacarepaguá | Neighborhoods | Ernestinho Carioca"
+  },
+  "Un territorio enorme con centros residenciales, servicios y conexiones hacia Barra.": {
+    "PT": "Um território enorme com áreas residenciais, serviços e conexões com a Barra.",
+    "EN": "A huge territory with residential centers, services and connections toward Barra."
+  },
+  "Más que un único paseo, Jacarepaguá sirve para entender una parte extensa de la ciudad que no funciona con la lógica de la orla.": {
+    "PT": "Mais do que um único passeio, Jacarepaguá ajuda a entender uma parte extensa da cidade que não funciona com a lógica da orla.",
+    "EN": "More than a single outing, Jacarepaguá helps explain a large part of the city that does not operate according to beachfront logic."
+  },
+  "Planifica por destino concreto; las distancias internas importan mucho.": {
+    "PT": "Planeje pelo destino específico; as distâncias internas importam muito.",
+    "EN": "Plan around a specific destination; internal distances matter a great deal."
+  },
+  "ESCALA": {
+    "PT": "ESCALA",
+    "EN": "SCALE"
+  },
+  "Jacarepaguá no cabe en una sola parada": {
+    "PT": "Jacarepaguá não cabe em uma única parada",
+    "EN": "Jacarepaguá cannot fit into a single stop"
+  },
+  "Es un territorio extenso y diverso. Para el visitante, la clave es identificar el destino concreto y no tratar “Jacarepaguá” como si todo quedara cerca.": {
+    "PT": "É um território extenso e diverso. Para o visitante, a chave é identificar o destino específico e não tratar “Jacarepaguá” como se tudo ficasse perto.",
+    "EN": "It is a large and diverse territory. For visitors, the key is identifying the specific destination rather than treating 'Jacarepaguá' as if everything were nearby."
+  },
+  "Planificar por sectores": {
+    "PT": "Planejar por setores",
+    "EN": "Plan by area"
+  },
+  "BRT, buses, app o auto pueden tener sentido según el punto. Agrupa actividades cercanas y evita cruzar repetidamente hacia Barra o Zona Sul.": {
+    "PT": "BRT, ônibus, app ou carro podem fazer sentido dependendo do ponto. Agrupe atividades próximas e evite cruzar repetidamente em direção à Barra ou Zona Sul.",
+    "EN": "BRT, buses, ride apps or a car may make sense depending on the location. Group nearby activities and avoid repeatedly crossing toward Barra or the South Zone."
+  },
+  "CADEG | Barrios | Ernestinho Carioca": {
+    "PT": "CADEG | Bairros | Ernestinho Carioca",
+    "EN": "CADEG | Neighborhoods | Ernestinho Carioca"
+  },
+  "Mercado, flores, gastronomía y movimiento mayorista en Benfica.": {
+    "PT": "Mercado, flores, gastronomia e movimento atacadista em Benfica.",
+    "EN": "Market, flowers, food and wholesale activity in Benfica."
+  },
+  "CADEG es una experiencia de ciudad: funciona mejor cuando vas sabiendo qué quieres mirar, comer o comprar.": {
+    "PT": "O CADEG é uma experiência de cidade: funciona melhor quando você vai sabendo o que quer ver, comer ou comprar.",
+    "EN": "CADEG is a city experience: it works best when you know what you want to see, eat or buy."
+  },
+  "Combina con São Cristóvão y otros puntos de Zona Norte, cuidando horarios y desplazamientos.": {
+    "PT": "Combina com São Cristóvão e outros pontos da Zona Norte, considerando horários e deslocamentos.",
+    "EN": "It combines with São Cristóvão and other North Zone destinations, with attention to hours and travel times."
+  },
+  "Cómo organizar el paseo": {
+    "PT": "Como organizar o passeio",
+    "EN": "How to organize your outing"
+  },
+  "Cafés y brunch": {
+    "PT": "Cafés e brunch",
+    "EN": "Cafés and brunch"
+  },
+  "Cocina brasileña contemporánea": {
+    "PT": "Cozinha brasileira contemporânea",
+    "EN": "Contemporary Brazilian cuisine"
+  },
+  "Restaurantes de autor": {
+    "PT": "Restaurantes autorais",
+    "EN": "Chef-driven restaurants"
+  },
+  "Ipanema esencial": {
+    "PT": "Ipanema essencial",
+    "EN": "Essential Ipanema"
+  },
+  "Leblon a pie": {
+    "PT": "Leblon a pé",
+    "EN": "Leblon on foot"
+  },
+  "Atardecer sin correr": {
+    "PT": "Fim de tarde sem pressa",
+    "EN": "Unhurried sunset"
+  },
+  "Ipanema → Arpoador → cena cercana": {
+    "PT": "Ipanema → Arpoador → jantar por perto",
+    "EN": "Ipanema → Arpoador → dinner nearby"
+  },
+  "Amanecer en Arpoador": {
+    "PT": "Amanhecer no Arpoador",
+    "EN": "Sunrise at Arpoador"
+  },
+  "Almuerzo tardío": {
+    "PT": "Almoço tardio",
+    "EN": "Late lunch"
+  },
+  "Noche tranquila": {
+    "PT": "Noite tranquila",
+    "EN": "Quiet evening"
+  },
+  "Caminar por calles interiores de Ipanema": {
+    "PT": "Caminhar pelas ruas internas de Ipanema",
+    "EN": "Walk Ipanema's inner streets"
+  },
+  "Abre cada barrio": {
+    "PT": "Abra cada bairro",
+    "EN": "Open each neighborhood"
+  },
+  "Urca clásica": {
+    "PT": "Urca clássica",
+    "EN": "Classic Urca"
+  },
+  "Botafogo local": {
+    "PT": "Botafogo local",
+    "EN": "Local Botafogo"
+  },
+  "Metro → cafés / cultura → bares": {
+    "PT": "Metrô → cafés / cultura → bares",
+    "EN": "Metro → cafés / culture → bars"
+  },
+  "Bahía y noche": {
+    "PT": "Baía e noite",
+    "EN": "Bay and evening"
+  },
+  "Repetidores": {
+    "PT": "Quem já conhece o Rio",
+    "EN": "Repeat visitors"
+  },
+  "Mañana en Urca": {
+    "PT": "Manhã na Urca",
+    "EN": "Morning in Urca"
+  },
+  "Atardecer en Mureta": {
+    "PT": "Fim de tarde na Mureta",
+    "EN": "Sunset at Mureta"
+  },
+  "Noche en Botafogo": {
+    "PT": "Noite em Botafogo",
+    "EN": "Evening in Botafogo"
+  },
+  "Urca al atardecer": {
+    "PT": "Urca no fim da tarde",
+    "EN": "Urca at sunset"
   }
 };
