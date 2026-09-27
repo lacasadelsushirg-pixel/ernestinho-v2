@@ -19,5 +19,14 @@ export default {"Praia de Grumari":{"PT":"Praia de Grumari","EN":"Grumari Beach"
   "· Marea baja por la mañana": {"PT":"· Maré baixa pela manhã","EN":"· Low tide in the morning"},
   "· Mañana o atardecer": {"PT":"· Manhã ou pôr do sol","EN":"· Morning or sunset"},
   "· Atardecer": {"PT":"· Pôr do sol","EN":"· Sunset"},
-  "· Tarde": {"PT":"· Tarde","EN":"· Afternoon"}
+  "· Tarde": {"PT":"· Tarde","EN":"· Afternoon"},
+  "Fotografiar Río | Ernestinho Carioca": {"PT":"Fotografar o Rio | Ernestinho Carioca","EN":"Photographing Rio | Ernestinho Carioca"},
+  "· Amanecer o hora azul": {"PT":"· Amanhecer ou hora azul","EN":"· Sunrise or blue hour"},
+  "· Zona Portuaria": {"PT":"· Zona Portuária","EN":"· Port Zone"},
+  "· Horario de apertura": {"PT":"· Horário de abertura","EN":"· Opening hours"},
+  "· Primera hora abierta": {"PT":"· Primeira hora de funcionamento","EN":"· First hour after opening"},
+  "· Hora azul": {"PT":"· Hora azul","EN":"· Blue hour"},
+  "· Pasaje pagado": {"PT":"· Passagem paga","EN":"· Paid fare"},
+  "· Niterói": {"PT":"· Niterói","EN":"· Niterói"},
+  "· Zona Oeste": {"PT":"· Zona Oeste","EN":"· West Zone"}
 };
