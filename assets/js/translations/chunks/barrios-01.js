@@ -903,5 +903,177 @@ export default {
   "la costa es extensa; no digas solamente “voy a Barra” sin definir qué tramo.": {
     "PT": "a orla é extensa; não diga apenas “vou para a Barra” sem definir qual trecho.",
     "EN": "the coastline is extensive; do not simply say “I’m going to Barra” without deciding which stretch."
+  },
+  "ENTIENDE EL BARRIO": {
+    "PT": "ENTENDA O BAIRRO",
+    "EN": "UNDERSTAND THE NEIGHBORHOOD"
+  },
+  "No existe “el mejor Posto”": {
+    "PT": "Não existe “o melhor Posto”",
+    "EN": "There is no single “best Posto”"
+  },
+  "Existe la parte de Copacabana que funciona mejor para lo que tú quieres hacer. Las distancias parecen pequeñas en el mapa, pero el ambiente y las conexiones cambian bastante a lo largo de la playa.": {
+    "PT": "Existe a parte de Copacabana que funciona melhor para o que você quer fazer. As distâncias parecem pequenas no mapa, mas o ambiente e as conexões mudam bastante ao longo da praia.",
+    "EN": "There is a part of Copacabana that works better for what you want to do. Distances look short on the map, but the atmosphere and connections change considerably along the beach."
+  },
+  "Leme · Posto 1: extremo más tranquilo y conexión con Morro do Leme": {
+    "PT": "Leme · Posto 1: trecho mais tranquilo e conexão com o Morro do Leme",
+    "EN": "Leme · Posto 1: quieter end with access toward Morro do Leme"
+  },
+  "Postos 2–3: prácticos para Botafogo, Urca y Centro": {
+    "PT": "Postos 2–3: práticos para Botafogo, Urca e Centro",
+    "EN": "Postos 2–3: practical for Botafogo, Urca and Downtown"
+  },
+  "Posto 4: zona central y vida cotidiana del barrio": {
+    "PT": "Posto 4: área central e vida cotidiana do bairro",
+    "EN": "Posto 4: central area and everyday neighborhood life"
+  },
+  "Postos 5–6: conexión natural con Forte, Arpoador e Ipanema": {
+    "PT": "Postos 5–6: conexão natural com o Forte, Arpoador e Ipanema",
+    "EN": "Postos 5–6: natural connection with the Fort, Arpoador and Ipanema"
+  },
+  "Qué pone esta zona en el mapa": {
+    "PT": "O que coloca esta área no mapa",
+    "EN": "What puts this area on the map"
+  },
+  "Qué buscar para comer": {
+    "PT": "O que procurar para comer",
+    "EN": "What to look for when eating"
+  },
+  "Cómo moverte": {
+    "PT": "Como se locomover",
+    "EN": "Getting around"
+  },
+  "Los Postos sirven como referencia para orientarte por la orla": {
+    "PT": "Os Postos servem como referência para se orientar pela orla",
+    "EN": "The Postos are useful landmarks for finding your way along the waterfront"
+  },
+  "La orla es caminable, pero el barrio es largo: elige el acceso según tu plan": {
+    "PT": "A orla é caminhável, mas o bairro é longo: escolha o acesso de acordo com o seu plano",
+    "EN": "The waterfront is walkable, but the neighborhood is long: choose your access point according to your plan"
+  },
+  "Rutas que yo combinaría": {
+    "PT": "Combinações que eu faria",
+    "EN": "Combinations I would make"
+  },
+  "Copacabana esencial": {
+    "PT": "Copacabana essencial",
+    "EN": "Essential Copacabana"
+  },
+  "Para quién y en qué momento": {
+    "PT": "Para quem e em que momento",
+    "EN": "Who it suits and when"
+  },
+  "Puede encajar con:": {
+    "PT": "Pode funcionar para:",
+    "EN": "It can work for:"
+  },
+  "Momentos:": {
+    "PT": "Momentos:",
+    "EN": "Best moments:"
+  },
+  "Playa y mar:": {
+    "PT": "Praia e mar:",
+    "EN": "Beach and sea:"
+  },
+  "antes de entrar al agua separa dos cosas: balneabilidad y condiciones físicas del mar. Una no sustituye a la otra.": {
+    "PT": "antes de entrar na água, separe duas coisas: balneabilidade e condições físicas do mar. Uma não substitui a outra.",
+    "EN": "before entering the water, separate two things: water quality and the physical sea conditions. One does not replace the other."
+  },
+  "Banderas y guardavidas tienen prioridad.": {
+    "PT": "Bandeiras e guarda-vidas têm prioridade.",
+    "EN": "Flags and lifeguards take priority."
+  },
+  "Vista al mar no significa silencio.": {
+    "PT": "Vista para o mar não significa silêncio.",
+    "EN": "An ocean view does not mean silence."
+  },
+  "Mi lectura:": {
+    "PT": "Minha leitura:",
+    "EN": "My take:"
+  },
+  "Mi Copacabana": {
+    "PT": "Minha Copacabana",
+    "EN": "My Copacabana"
+  },
+  "Mañana:": {
+    "PT": "Manhã:",
+    "EN": "Morning:"
+  },
+  "Tarde:": {
+    "PT": "Tarde:",
+    "EN": "Afternoon:"
+  },
+  "Noche:": {
+    "PT": "Noite:",
+    "EN": "Evening:"
+  },
+  "caminar temprano por la orla, desayunar sin prisa y aprovechar antes del calor fuerte.": {
+    "PT": "caminhar cedo pela orla, tomar café da manhã sem pressa e aproveitar antes do calor forte.",
+    "EN": "walk the waterfront early, have a relaxed breakfast and enjoy the area before the stronger heat."
+  },
+  "playa, Forte o conexión con Ipanema y Arpoador según el mar y el tiempo disponible.": {
+    "PT": "praia, Forte ou conexão com Ipanema e Arpoador conforme o mar e o tempo disponível.",
+    "EN": "beach, Fort or a connection with Ipanema and Arpoador depending on sea conditions and available time."
+  },
+  "gastronomía, música y botecos funcionan mejor cuando eliges por ambiente y por cómo regresarás.": {
+    "PT": "gastronomia, música e botecos funcionam melhor quando você escolhe pelo ambiente e por como fará a volta.",
+    "EN": "food, music and botecos work best when you choose based on atmosphere and how you will get back."
+  },
+  "Mi referencia en Posto 4:": {
+    "PT": "Minha referência no Posto 4:",
+    "EN": "My reference at Posto 4:"
+  },
+  "Cómo vivir Ipanema": {
+    "PT": "Como viver Ipanema",
+    "EN": "How to experience Ipanema"
+  },
+  "Cómo vivir Leblon": {
+    "PT": "Como viver o Leblon",
+    "EN": "How to experience Leblon"
+  },
+  "Botafogo más allá de la postal": {
+    "PT": "Botafogo além do cartão-postal",
+    "EN": "Botafogo beyond the postcard"
+  },
+  "Una Urca sin prisa": {
+    "PT": "Uma Urca sem pressa",
+    "EN": "Urca without rushing"
+  },
+  "El contexto de la zona": {
+    "PT": "O contexto da região",
+    "EN": "The area's context"
+  },
+  "En el corredor, yo también tendría en cuenta:": {
+    "PT": "Neste eixo, eu também levaria em conta:",
+    "EN": "Along this corridor, I would also consider:"
+  },
+  "Ideas para organizar el día": {
+    "PT": "Ideias para organizar o dia",
+    "EN": "Ideas for planning the day"
+  },
+  "Comprueba horarios, transporte y condiciones del día; esta ficha no ofrece datos en tiempo real.": {
+    "PT": "Confira horários, transporte e condições do dia; esta página não oferece dados em tempo real.",
+    "EN": "Check hours, transport and current conditions; this page does not provide real-time data."
+  },
+  "← Volver a Barrios": {
+    "PT": "← Voltar para Bairros",
+    "EN": "← Back to Neighborhoods"
+  },
+  "Transportes": {
+    "PT": "Transportes",
+    "EN": "Transport"
+  },
+  "Gastronomía →": {
+    "PT": "Gastronomia →",
+    "EN": "Food →"
+  },
+  "Vida nocturna →": {
+    "PT": "Vida noturna →",
+    "EN": "Nightlife →"
+  },
+  "Transportes →": {
+    "PT": "Transportes →",
+    "EN": "Transport →"
   }
 };
