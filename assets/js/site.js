@@ -17,6 +17,7 @@ const sectionChunks = {
   "home": ["home-01.js"],
   "hospedaje": ["hospedaje-01.js"],
   "hoy": ["hoy-01.js"],
+  "naturaleza": ["naturaleza-01.js"],
   "playas": ["playas-01.js"],
   "quiero": ["quiero-01.js"],
   "transportes": ["transportes-01.js"],
