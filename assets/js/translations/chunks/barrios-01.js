@@ -392,9 +392,9 @@ export default {
     "PT": "Nordeste no Rio",
     "EN": "Nordeste in Rio"
   },
-  "Padaria → playa → boteco → paseo nocturno": {
-    "PT": "Padaria → praia → boteco → paseo nocturno",
-    "EN": "Padaria → beach → boteco → paseo nocturno"
+  "Padaria, playa, boteco y paseo nocturno": {
+    "PT": "Padaria, praia, boteco e passeio noturno",
+    "EN": "Bakery, beach, boteco and evening walk"
   },
   "Parejas": {
     "PT": "Casais",
@@ -412,9 +412,9 @@ export default {
     "PT": "Planetário",
     "EN": "Planetarium"
   },
-  "Planetário / cultura → barrio → comida": {
-    "PT": "Planetário / cultura → bairro → comida",
-    "EN": "Planetarium / culture → neighborhood → food"
+  "Planetário, cultura, barrio y gastronomía": {
+    "PT": "Planetário, cultura, bairro e gastronomia",
+    "EN": "Planetarium, culture, neighborhood and food"
   },
   "Playa": {
     "PT": "Praia",
@@ -428,9 +428,9 @@ export default {
     "PT": "praia temprano",
     "EN": "beach temprano"
   },
-  "Playa → almuerzo → shopping": {
-    "PT": "praia → almuerzo → shopping",
-    "EN": "beach → almuerzo → shopping"
+  "Playa, gastronomía y compras": {
+    "PT": "Praia, gastronomia e compras",
+    "EN": "Beach, food and shopping"
   },
   "Playas del oeste": {
     "PT": "Praias da Zona Oeste",
@@ -468,9 +468,9 @@ export default {
     "PT": "O Pão de Açúcar pode exigir reserva",
     "EN": "Sugarloaf Mountain may require advance booking"
   },
-  "Reserva / sendero → playa → regreso antes del pico": {
-    "PT": "Reserva / trilha → praia → volta antes do horário de pico",
-    "EN": "Reserve / trail → beach → return before rush hour"
+  "Naturaleza y playa en Zona Oeste": {
+    "PT": "Natureza e praia na Zona Oeste",
+    "EN": "Nature and beach in Rio's West Zone"
   },
   "Reserva de Marapendi": {
     "PT": "Reserva de Marapendi",
@@ -508,9 +508,9 @@ export default {
     "PT": "São Cristóvão",
     "EN": "São Cristóvão"
   },
-  "Tramo de ciclovía → pausa → puesta de sol": {
-    "PT": "Trecho de ciclovia → pausa → pôr do sol",
-    "EN": "Bike-path stretch → break → sunset"
+  "Ciclovía, pausas y paisaje al final de la tarde": {
+    "PT": "Ciclovia, pausas e paisagem no fim da tarde",
+    "EN": "Bike path, breaks and late-afternoon scenery"
   },
   "Tráfico aumenta en horarios pico": {
     "PT": "Tráfico aumenta en horários pico",
@@ -520,9 +520,9 @@ export default {
     "PT": "Uma região verde e residencial onde o Rio parece menos acelerado: montanha, jardins, lagoa, cultura e vida de bairro.",
     "EN": "A green, residential area where Rio feels less rushed: mountains, gardens, lagoon, culture and neighborhood life."
   },
-  "Urca al atardecer → Botafogo para cenar": {
-    "PT": "Urca ao pôr do sol → Botafogo para jantar",
-    "EN": "Urca at sunset → Botafogo for dinner"
+  "Urca y Botafogo: paisaje y gastronomía": {
+    "PT": "Urca e Botafogo: paisagem e gastronomia",
+    "EN": "Urca and Botafogo: scenery and food"
   },
   "VLT": {
     "PT": "VLT",
@@ -1276,9 +1276,9 @@ export default {
     "PT": "Botafogo local: metrô → cafés / cultura → bares",
     "EN": "Local Botafogo: metro → cafés / culture → bars"
   },
-  "Bahía y noche: Urca al atardecer → Botafogo para cenar": {
+  "Bahía y noche: Urca y Botafogo: paisaje y gastronomía": {
     "PT": "Baía e noite: Urca no fim da tarde → Botafogo para jantar",
-    "EN": "Bay and evening: Urca at sunset → Botafogo for dinner"
+    "EN": "Bay and evening: Urca and Botafogo: scenery and food"
   },
   "Puntos de interés y contexto editorial de Ipanema y su corredor. La guía completa incluye los barrios vecinos.": {
     "PT": "Pontos de interesse e contexto editorial de Ipanema e seu eixo. O guia completo inclui os bairros vizinhos.",
@@ -1320,9 +1320,9 @@ export default {
     "PT": "Metrô Cantagalo: Postos 4–5 e conexão com a Lagoa",
     "EN": "Cantagalo metro: Postos 4–5 and connection toward Lagoa"
   },
-  "Lido → calçadão → Posto 4 → Drummond → Forte": {
-    "PT": "Lido → calçadão → Posto 4 → Drummond → Forte",
-    "EN": "Lido → promenade → Posto 4 → Drummond → Fort"
+  "Lido, calçadão, Posto 4, Drummond y Forte": {
+    "PT": "Lido, calçadão, Posto 4, Drummond y Forte",
+    "EN": "Lido, promenade, Posto 4, Drummond and Fort"
   },
   "Forte + Posto 6": {
     "PT": "Forte + Posto 6",
@@ -1576,17 +1576,17 @@ export default {
     "PT": "O que observar em Santa Teresa",
     "EN": "What to see in Santa Teresa"
   },
-  "República y parque: Catete → Museu da República → Aterro": {
-    "PT": "República e parque: Catete → Museu da República → Aterro",
-    "EN": "Republic and park: Catete → Museu da República → Aterro"
+  "República y parque: Catete, Museu da República y Aterro": {
+    "PT": "República e parque: Catete, Museu da República e Aterro",
+    "EN": "Republic and park: Catete, Museu da República and Aterro"
   },
   "Glória cultural: Glória, Marina da Glória y MAM": {
     "PT": "Glória cultural: Glória, Marina da Glória y MAM",
     "EN": "Cultural Glória: Glória, Marina da Glória y MAM"
   },
-  "Domingo local: Aterro → feria / plaza → comida": {
-    "PT": "Domingo local: Aterro → feira / praça → comida",
-    "EN": "Local Sunday: Aterro → fair / square → food"
+  "Domingo local: Aterro, ferias, plazas y gastronomía": {
+    "PT": "Domingo local: Aterro, feiras, praças e gastronomia",
+    "EN": "Local Sunday: Aterro, fairs, squares and food"
   },
   "Residencial, arbolado y muy ligado al entorno de Cosme Velho.": {
     "PT": "Residencial, arborizado e muito ligado ao entorno de Cosme Velho.",
@@ -1624,17 +1624,17 @@ export default {
     "PT": "O Bondinho pode ter fila",
     "EN": "The tram may have a queue"
   },
-  "Santa Teresa postal: Bondinho → Largo dos Guimarães → Parque das Ruínas": {
-    "PT": "Santa Teresa clássica: Bondinho → Largo dos Guimarães → Parque das Ruínas",
-    "EN": "Classic Santa Teresa: Tram → Largo dos Guimarães → Parque das Ruínas"
+  "Santa Teresa postal: Bondinho, Largo dos Guimarães y Parque das Ruínas": {
+    "PT": "Santa Teresa clássica: Bondinho, Largo dos Guimarães e Parque das Ruínas",
+    "EN": "Classic Santa Teresa: tram, Largo dos Guimarães and Parque das Ruínas"
   },
-  "Santa Teresa a Lapa: Ruínas → Selarón → Arcos": {
-    "PT": "Santa Teresa à Lapa: Ruínas → Selarón → Arcos",
-    "EN": "Santa Teresa to Lapa: Ruínas → Selarón → Arcos"
+  "Santa Teresa y Lapa: Ruínas, Selarón y Arcos": {
+    "PT": "Santa Teresa e Lapa: Ruínas, Selarón e Arcos",
+    "EN": "Santa Teresa and Lapa: Ruínas, Selarón and Arcos"
   },
-  "Noche con plan: Cena → samba/show → regreso por app/taxi": {
-    "PT": "Noite planejada: jantar → samba/show → volta de app/táxi",
-    "EN": "Planned evening: dinner → samba/show → return by ride app/taxi"
+  "Noche con plan: cena, samba o show y regreso resuelto": {
+    "PT": "Noite planejada: jantar, samba ou show e volta resolvida",
+    "EN": "Planned evening: dinner, samba or show, with the return arranged"
   },
   "No improvises regreso nocturno a pie entre zonas vacías.": {
     "PT": "Não improvise a volta noturna a pé por trechos vazios.",
@@ -2436,11 +2436,11 @@ export default {
     "PT": "Praias do oeste: Recreio → Prainha → Grumari conforme as condições",
     "EN": "West Zone beaches: Recreio → Prainha → Grumari depending on conditions"
   },
-  "Barra práctica: Playa → almuerzo → shopping": {
+  "Barra práctica: Playa, gastronomía y compras": {
     "PT": "Barra prática: praia → almoço → shopping",
     "EN": "Practical Barra: beach → lunch → shopping"
   },
-  "Naturaleza oeste: Reserva / sendero → playa → regreso antes del pico": {
+  "Naturaleza oeste: Naturaleza y playa en Zona Oeste": {
     "PT": "Natureza no oeste: Reserva / trilha → praia → volta antes do pico",
     "EN": "West Zone nature: Reserva / trail → beach → return before peak traffic"
   },
