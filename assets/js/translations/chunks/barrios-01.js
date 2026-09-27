@@ -1075,5 +1075,113 @@ export default {
   "Transportes →": {
     "PT": "Transportes →",
     "EN": "Transport →"
+  },
+  "playa, Arpoador, Praça General Osório y vida de barrio.": {
+    "PT": "praia, Arpoador, Praça General Osório e vida de bairro.",
+    "EN": "beach, Arpoador, Praça General Osório and neighborhood life."
+  },
+  "playa, gastronomía y un ritmo más residencial.": {
+    "PT": "praia, gastronomia e um ritmo mais residencial.",
+    "EN": "beach, food and a more residential pace."
+  },
+  "Enseada, gastronomía, cultura y conexiones fáciles.": {
+    "PT": "Enseada, gastronomia, cultura e conexões fáceis.",
+    "EN": "Bay views, food, culture and easy connections."
+  },
+  "Pão de Açúcar, Praia Vermelha y uno de los paseos más tranquilos de Río.": {
+    "PT": "Pão de Açúcar, Praia Vermelha e um dos passeios mais tranquilos do Rio.",
+    "EN": "Sugarloaf Mountain, Praia Vermelha and one of Rio's most relaxed outings."
+  },
+  "Qué mirar en Ipanema": {
+    "PT": "O que observar em Ipanema",
+    "EN": "What to see in Ipanema"
+  },
+  "Qué mirar en Leblon": {
+    "PT": "O que observar no Leblon",
+    "EN": "What to see in Leblon"
+  },
+  "Qué mirar en Botafogo": {
+    "PT": "O que observar em Botafogo",
+    "EN": "What to see in Botafogo"
+  },
+  "Qué mirar en Urca": {
+    "PT": "O que observar na Urca",
+    "EN": "What to see in Urca"
+  },
+  "Urca requiere conexión terrestre": {
+    "PT": "A Urca exige completar o trajeto por transporte de superfície",
+    "EN": "Urca requires an onward surface-transport connection"
+  },
+  "Movilidad:": {
+    "PT": "Mobilidade:",
+    "EN": "Getting around:"
+  },
+  "Playa:": {
+    "PT": "Praia:",
+    "EN": "Beach:"
+  },
+  "Comer:": {
+    "PT": "Comer:",
+    "EN": "Food:"
+  },
+  "Conexiones:": {
+    "PT": "Conexões:",
+    "EN": "Connections:"
+  },
+  "Atardecer:": {
+    "PT": "Fim de tarde:",
+    "EN": "Sunset:"
+  },
+  "Mureta:": {
+    "PT": "Mureta:",
+    "EN": "Mureta:"
+  },
+  "playa y calles interiores antes de que aumente el movimiento.": {
+    "PT": "praia e ruas internas antes que o movimento aumente.",
+    "EN": "beach and inner streets before the area gets busier."
+  },
+  "General Osório, cafés, compras y conexión con Arpoador.": {
+    "PT": "General Osório, cafés, compras e conexão com o Arpoador.",
+    "EN": "General Osório, cafés, shopping and a connection with Arpoador."
+  },
+  "Pedra do Arpoador es la referencia clásica, pero conviene llegar con margen.": {
+    "PT": "A Pedra do Arpoador é a referência clássica, mas vale chegar com antecedência.",
+    "EN": "Pedra do Arpoador is the classic reference, but it is worth arriving with time to spare."
+  },
+  "combina la orla con calles interiores y evita reducir el barrio solamente a su frente marítimo.": {
+    "PT": "combine a orla com as ruas internas e evite reduzir o bairro apenas à faixa junto ao mar.",
+    "EN": "combine the waterfront with inner streets rather than reducing the neighborhood to its beachfront."
+  },
+  "Baixo Leblon y el eje gastronómico permiten organizar almuerzo, café o noche sin cruzar la ciudad.": {
+    "PT": "O Baixo Leblon e o eixo gastronômico permitem organizar almoço, café ou noite sem atravessar a cidade.",
+    "EN": "Baixo Leblon and the dining area make it possible to plan lunch, coffee or an evening out without crossing the city."
+  },
+  "Jardim de Alah conecta con Ipanema y Lagoa; caminar entre Ipanema y Leblon es parte del paseo.": {
+    "PT": "O Jardim de Alah conecta Leblon, Ipanema e Lagoa; caminhar entre Ipanema e Leblon faz parte do passeio.",
+    "EN": "Jardim de Alah connects Leblon, Ipanema and Lagoa; walking between Ipanema and Leblon is part of the experience."
+  },
+  "La Enseada es una de las vistas urbanas más reconocibles de Río, pero el barrio funciona especialmente bien como base para cultura, cafés, gastronomía y noche.": {
+    "PT": "A Enseada é uma das paisagens urbanas mais reconhecíveis do Rio, mas o bairro funciona especialmente bem como base para cultura, cafés, gastronomia e vida noturna.",
+    "EN": "The bay is one of Rio's most recognizable urban views, while the neighborhood also works especially well as a base for culture, cafés, food and nightlife."
+  },
+  "Metrô Botafogo facilita conexiones con Centro y Zona Sul; para Urca necesitas completar el trayecto por superficie.": {
+    "PT": "O Metrô Botafogo facilita conexões com o Centro e a Zona Sul; para a Urca, é preciso completar o trajeto por transporte de superfície.",
+    "EN": "Botafogo metro makes connections with Downtown and the South Zone easy; for Urca, complete the journey by surface transport."
+  },
+  "es una alternativa para quien busca bares y vida local fuera del circuito más turístico de Copacabana e Ipanema.": {
+    "PT": "é uma alternativa para quem procura bares e vida local fora do circuito mais turístico de Copacabana e Ipanema.",
+    "EN": "it is an alternative for visitors looking for bars and local nightlife beyond the more tourist-oriented Copacabana and Ipanema circuit."
+  },
+  "funciona muy bien antes o después del Pão de Açúcar, según clima y condiciones del día.": {
+    "PT": "funciona muito bem antes ou depois do Pão de Açúcar, dependendo do clima e das condições do dia.",
+    "EN": "works very well before or after Sugarloaf Mountain, depending on weather and the day's conditions."
+  },
+  "el final de la tarde cambia el ambiente; es uno de esos lugares donde el paisaje y la vida cotidiana se mezclan.": {
+    "PT": "o fim da tarde muda o ambiente; é um daqueles lugares onde a paisagem e a vida cotidiana se misturam.",
+    "EN": "late afternoon changes the atmosphere; it is one of those places where scenery and everyday life come together."
+  },
+  "Urca no tiene estación de metro propia. La conexión habitual se completa desde Botafogo por superficie.": {
+    "PT": "A Urca não tem estação de metrô própria. A conexão habitual é completada a partir de Botafogo por transporte de superfície.",
+    "EN": "Urca does not have its own metro station. The usual connection is completed from Botafogo by surface transport."
   }
 };
