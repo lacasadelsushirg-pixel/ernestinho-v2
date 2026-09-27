@@ -1875,5 +1875,197 @@ export default {
   "VERDE": {
     "PT": "VERDE",
     "EN": "GREEN"
+  },
+  "São Conrado | Barrios | Ernestinho Carioca": {
+    "PT": "São Conrado | Bairros | Ernestinho Carioca",
+    "EN": "São Conrado | Neighborhoods | Ernestinho Carioca"
+  },
+  "MAR · MONTAÑA": {
+    "PT": "MAR · MONTANHA",
+    "EN": "SEA · MOUNTAINS"
+  },
+  "Playa, Pedra da Gávea y una geografía muy distinta a la Zona Sul más compacta.": {
+    "PT": "Praia, Pedra da Gávea e uma geografia muito diferente da Zona Sul mais compacta.",
+    "EN": "Beach, Pedra da Gávea and geography very different from the more compact South Zone."
+  },
+  "ZONA SUL / OESTE": {
+    "PT": "ZONA SUL / OESTE",
+    "EN": "SOUTH / WEST ZONE"
+  },
+  "Las distancias son mayores y conviene planear el transporte. El paisaje es la gran razón para incluir São Conrado.": {
+    "PT": "As distâncias são maiores e vale planejar o transporte. A paisagem é a grande razão para incluir São Conrado.",
+    "EN": "Distances are greater, so transport is worth planning. The scenery is the main reason to include São Conrado."
+  },
+  "Combina con Pedra Bonita, vuelo libre, Joatinga y Barra cuando la logística acompaña.": {
+    "PT": "Combina com Pedra Bonita, voo livre, Joatinga e Barra quando a logística funciona.",
+    "EN": "It combines with Pedra Bonita, free flight, Joatinga and Barra when logistics allow."
+  },
+  "MAR + MONTAÑA": {
+    "PT": "MAR + MONTANHA",
+    "EN": "SEA + MOUNTAINS"
+  },
+  "CONEXIONES": {
+    "PT": "CONEXÕES",
+    "EN": "CONNECTIONS"
+  },
+  "Son experiencias distintas que comparten este entorno geográfico. No las trato como una única ruta: cada una necesita tiempo, acceso y planificación propios.": {
+    "PT": "São experiências diferentes que compartilham este entorno geográfico. Não as trato como uma única rota: cada uma precisa de tempo, acesso e planejamento próprios.",
+    "EN": "They are different experiences sharing the same geographic setting. I do not treat them as one route: each needs its own time, access and planning."
+  },
+  "Barra da Tijuca | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Barra da Tijuca | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Barra da Tijuca | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "ZONA OESTE": {
+    "PT": "ZONA OESTE",
+    "EN": "WEST ZONE"
+  },
+  "playas extensas, shoppings, gastronomía y grandes distancias.": {
+    "PT": "praias extensas, shoppings, gastronomia e grandes distâncias.",
+    "EN": "long beaches, shopping centers, food and large distances."
+  },
+  "Qué mirar en Barra da Tijuca": {
+    "PT": "O que observar na Barra da Tijuca",
+    "EN": "What to see in Barra da Tijuca"
+  },
+  "Distancias enormes": {
+    "PT": "Distâncias enormes",
+    "EN": "Huge distances"
+  },
+  "BRT + metro o app": {
+    "PT": "BRT + metrô ou app",
+    "EN": "BRT + metro or ride app"
+  },
+  "Compras:": {
+    "PT": "Compras:",
+    "EN": "Shopping:"
+  },
+  "BarraShopping, VillageMall y otros centros comerciales tienen perfiles distintos y merecen fichas propias.": {
+    "PT": "BarraShopping, VillageMall e outros centros comerciais têm perfis diferentes e merecem páginas próprias.",
+    "EN": "BarraShopping, VillageMall and other shopping centers have different profiles and deserve their own pages."
+  },
+  "BRT →": {
+    "PT": "BRT →",
+    "EN": "BRT →"
+  },
+  "Playas →": {
+    "PT": "Praias →",
+    "EN": "Beaches →"
+  },
+  "Abrir la guía completa: Barra + Zona Oeste →": {
+    "PT": "Abrir o guia completo: Barra + Zona Oeste →",
+    "EN": "Open full guide: Barra + West Zone →"
+  },
+  "Ilha da Gigóia | Barrios | Ernestinho Carioca": {
+    "PT": "Ilha da Gigóia | Bairros | Ernestinho Carioca",
+    "EN": "Ilha da Gigóia | Neighborhoods | Ernestinho Carioca"
+  },
+  "BARRA": {
+    "PT": "BARRA",
+    "EN": "BARRA"
+  },
+  "Canales, pequeñas calles y un ritmo inesperado dentro de Barra da Tijuca.": {
+    "PT": "Canais, ruas pequenas e um ritmo inesperado dentro da Barra da Tijuca.",
+    "EN": "Canals, small streets and an unexpected pace within Barra da Tijuca."
+  },
+  "La gracia está en cruzar en barco y cambiar de escala: de grandes avenidas a una isla de recorridos cortos.": {
+    "PT": "A graça está em atravessar de barco e mudar de escala: de grandes avenidas para uma ilha de trajetos curtos.",
+    "EN": "The charm is crossing by boat and changing scale: from large avenues to an island of short walks."
+  },
+  "Combina con Jardim Oceânico, Barra y gastronomía de la propia isla.": {
+    "PT": "Combina com Jardim Oceânico, Barra e a gastronomia da própria ilha.",
+    "EN": "It combines with Jardim Oceânico, Barra and the island's own dining scene."
+  },
+  "AGUA": {
+    "PT": "ÁGUA",
+    "EN": "WATER"
+  },
+  "Una Barra a otra escala": {
+    "PT": "Uma Barra em outra escala",
+    "EN": "Barra on a different scale"
+  },
+  "El cruce corto en barco cambia completamente el paisaje: canales, callejuelas, casas y restaurantes reemplazan las grandes avenidas de Barra.": {
+    "PT": "A curta travessia de barco muda completamente a paisagem: canais, ruelas, casas e restaurantes substituem as grandes avenidas da Barra.",
+    "EN": "The short boat crossing completely changes the scenery: canals, lanes, houses and restaurants replace Barra's large avenues."
+  },
+  "El regreso también forma parte del plan": {
+    "PT": "A volta também faz parte do planejamento",
+    "EN": "Getting back is also part of the plan"
+  },
+  "Jardim Oceânico es la gran referencia de acceso. Antes de quedarte hasta tarde, confirma embarque y regreso en lugar de asumir una frecuencia fija.": {
+    "PT": "Jardim Oceânico é a principal referência de acesso. Antes de ficar até tarde, confirme embarque e volta em vez de presumir uma frequência fixa.",
+    "EN": "Jardim Oceânico is the main access reference. Before staying late, confirm boarding and return options rather than assuming a fixed frequency."
+  },
+  "Recreio | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Recreio | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Recreio | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "playas, naturaleza y un ritmo más abierto.": {
+    "PT": "praias, natureza e um ritmo mais aberto.",
+    "EN": "beaches, nature and a more open pace."
+  },
+  "Qué mirar en Recreio": {
+    "PT": "O que observar no Recreio",
+    "EN": "What to see in Recreio"
+  },
+  "Recreio no es solamente una extensión de Barra": {
+    "PT": "Recreio não é apenas uma extensão da Barra",
+    "EN": "Recreio is not simply an extension of Barra"
+  },
+  "Tiene ritmo propio, playas amplias y acceso natural hacia Pontal, Prainha y Grumari. Las condiciones del mar y el transporte cambian mucho la decisión del día.": {
+    "PT": "Tem ritmo próprio, praias amplas e acesso natural ao Pontal, Prainha e Grumari. As condições do mar e o transporte mudam muito a decisão do dia.",
+    "EN": "It has its own pace, broad beaches and natural access toward Pontal, Prainha and Grumari. Sea conditions and transport greatly affect the day's decision."
+  },
+  "Pedra do Pontal:": {
+    "PT": "Pedra do Pontal:",
+    "EN": "Pedra do Pontal:"
+  },
+  "paisaje y esfuerzo deben evaluarse según condiciones; no la trato como una parada automática.": {
+    "PT": "paisagem e esforço devem ser avaliados conforme as condições; não a trato como uma parada automática.",
+    "EN": "scenery and effort should be assessed according to conditions; I do not treat it as an automatic stop."
+  },
+  "Naturaleza →": {
+    "PT": "Natureza →",
+    "EN": "Nature →"
+  },
+  "Vargens | Barrios | Ernestinho Carioca": {
+    "PT": "Vargens | Bairros | Ernestinho Carioca",
+    "EN": "Vargens | Neighborhoods | Ernestinho Carioca"
+  },
+  "Guía de Vargens, en la Zona Oeste de Río: naturaleza, distancias y cómo combinar la visita con Recreio y otros paseos cercanos.": {
+    "PT": "Guia de Vargens, na Zona Oeste do Rio: natureza, distâncias e como combinar a visita com Recreio e outros passeios próximos.",
+    "EN": "Guide to Vargens in Rio's West Zone: nature, distances and how to combine a visit with Recreio and nearby outings."
+  },
+  "Vargem Grande y Vargem Pequena muestran otro ritmo de Río, con naturaleza, gastronomía y desplazamientos que requieren planificación.": {
+    "PT": "Vargem Grande e Vargem Pequena mostram outro ritmo do Rio, com natureza, gastronomia e deslocamentos que exigem planejamento.",
+    "EN": "Vargem Grande and Vargem Pequena show another pace of Rio, with nature, food and journeys that require planning."
+  },
+  "Combina con Recreio, Prainha y otros paseos de Zona Oeste.": {
+    "PT": "Combina com Recreio, Prainha e outros passeios da Zona Oeste.",
+    "EN": "It combines with Recreio, Prainha and other West Zone outings."
+  },
+  "OTRO RÍO": {
+    "PT": "OUTRO RIO",
+    "EN": "ANOTHER RIO"
+  },
+  "Vargem Grande y Vargem Pequena": {
+    "PT": "Vargem Grande e Vargem Pequena",
+    "EN": "Vargem Grande and Vargem Pequena"
+  },
+  "Aquí la ciudad se vuelve menos compacta. Naturaleza, gastronomía y espacios amplios hacen que la experiencia dependa mucho más de una buena logística.": {
+    "PT": "Aqui a cidade fica menos compacta. Natureza, gastronomia e espaços amplos fazem a experiência depender muito mais de uma boa logística.",
+    "EN": "Here the city becomes less compact. Nature, food and wide-open spaces make the experience depend much more on good logistics."
+  },
+  "COMER": {
+    "PT": "COMER",
+    "EN": "FOOD"
+  },
+  "Gastronomía como motivo del viaje": {
+    "PT": "Gastronomia como motivo da viagem",
+    "EN": "Food as a reason for the trip"
+  },
+  "En Vargens, comer puede ser parte central del plan y no solamente una pausa entre atracciones.": {
+    "PT": "Em Vargens, comer pode ser parte central do programa e não apenas uma pausa entre atrações.",
+    "EN": "In Vargens, eating can be a central part of the outing rather than simply a break between attractions."
   }
 };
