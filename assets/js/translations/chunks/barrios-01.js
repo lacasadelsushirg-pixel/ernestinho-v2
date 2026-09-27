@@ -2067,5 +2067,185 @@ export default {
   "En Vargens, comer puede ser parte central del plan y no solamente una pausa entre atracciones.": {
     "PT": "Em Vargens, comer pode ser parte central do programa e não apenas uma pausa entre atrações.",
     "EN": "In Vargens, eating can be a central part of the outing rather than simply a break between attractions."
+  },
+  "Guaratiba | Barrios | Ernestinho Carioca": {
+    "PT": "Guaratiba | Bairros | Ernestinho Carioca",
+    "EN": "Guaratiba | Neighborhoods | Ernestinho Carioca"
+  },
+  "Naturaleza, costa y gastronomía lejos del circuito más compacto de Río.": {
+    "PT": "Natureza, costa e gastronomia longe do circuito mais compacto do Rio.",
+    "EN": "Nature, coast and food away from Rio's more compact circuit."
+  },
+  "Aquí no conviene improvisar el traslado: Guaratiba recompensa cuando se convierte en el foco del día y no en una parada rápida.": {
+    "PT": "Aqui não vale improvisar o deslocamento: Guaratiba recompensa quando vira o foco do dia e não uma parada rápida.",
+    "EN": "Getting there should not be improvised: Guaratiba works best when it is the focus of the day rather than a quick stop."
+  },
+  "Combina con Pedra do Telégrafo, Barra de Guaratiba y playas de Zona Oeste.": {
+    "PT": "Combina com Pedra do Telégrafo, Barra de Guaratiba e praias da Zona Oeste.",
+    "EN": "It combines with Pedra do Telégrafo, Barra de Guaratiba and West Zone beaches."
+  },
+  "COSTA": {
+    "PT": "COSTA",
+    "EN": "COAST"
+  },
+  "Guaratiba merece tiempo": {
+    "PT": "Guaratiba merece tempo",
+    "EN": "Guaratiba deserves time"
+  },
+  "Barra de Guaratiba, manglares, costa, gastronomía y naturaleza forman un Río muy diferente al de la Zona Sul.": {
+    "PT": "Barra de Guaratiba, manguezais, costa, gastronomia e natureza formam um Rio muito diferente da Zona Sul.",
+    "EN": "Barra de Guaratiba, mangroves, coast, food and nature create a Rio very different from the South Zone."
+  },
+  "NATURALEZA": {
+    "PT": "NATUREZA",
+    "EN": "NATURE"
+  },
+  "Pedra do Telégrafo con planificación": {
+    "PT": "Pedra do Telégrafo com planejamento",
+    "EN": "Planning for Pedra do Telégrafo"
+  },
+  "La experiencia depende de clima, acceso, esfuerzo y horario. La conecto con Guaratiba, pero no publico aquí una ruta paso a paso.": {
+    "PT": "A experiência depende de clima, acesso, esforço e horário. Eu a conecto com Guaratiba, mas não publico aqui uma rota passo a passo.",
+    "EN": "The experience depends on weather, access, effort and timing. I connect it with Guaratiba, but I do not publish a step-by-step route here."
+  },
+  "Sepetiba | Barrios | Ernestinho Carioca": {
+    "PT": "Sepetiba | Bairros | Ernestinho Carioca",
+    "EN": "Sepetiba | Neighborhoods | Ernestinho Carioca"
+  },
+  "EXTREMO OESTE": {
+    "PT": "EXTREMO OESTE",
+    "EN": "FAR WEST"
+  },
+  "Un Río cotidiano y distante del circuito turístico tradicional.": {
+    "PT": "Um Rio cotidiano e distante do circuito turístico tradicional.",
+    "EN": "An everyday Rio far from the traditional tourist circuit."
+  },
+  "La distancia cambia por completo la decisión de ir. Lo incluyo para mostrar la ciudad completa, no para fingir que todo queda cerca.": {
+    "PT": "A distância muda completamente a decisão de ir. Eu incluo Sepetiba para mostrar a cidade inteira, não para fingir que tudo fica perto.",
+    "EN": "Distance completely changes the decision to go. I include Sepetiba to show the whole city, not to pretend everything is nearby."
+  },
+  "Si vas, arma una jornada específica de Zona Oeste y revisa el transporte antes de salir.": {
+    "PT": "Se você for, planeje um dia específico na Zona Oeste e confira o transporte antes de sair.",
+    "EN": "If you go, plan a specific West Zone day and check transport before leaving."
+  },
+  "La distancia es parte de la decisión": {
+    "PT": "A distância faz parte da decisão",
+    "EN": "Distance is part of the decision"
+  },
+  "Sepetiba ayuda a mostrar la escala real de Río. No la presento como una escapada rápida desde Copacabana: requiere una jornada pensada para esta parte de la ciudad.": {
+    "PT": "Sepetiba ajuda a mostrar a escala real do Rio. Não a apresento como uma escapada rápida desde Copacabana: exige um dia pensado para esta parte da cidade.",
+    "EN": "Sepetiba helps show Rio's true scale. I do not present it as a quick escape from Copacabana: it requires a day planned around this part of the city."
+  },
+  "Ida y regreso primero": {
+    "PT": "Ida e volta primeiro",
+    "EN": "Plan the return first"
+  },
+  "Antes de elegir qué hacer, resuelve tiempos y transporte de vuelta. En zonas lejanas, una buena planificación vale más que sumar muchas paradas.": {
+    "PT": "Antes de escolher o que fazer, resolva tempos e transporte de volta. Em áreas distantes, um bom planejamento vale mais do que somar muitas paradas.",
+    "EN": "Before choosing what to do, work out timing and return transport. In distant areas, good planning matters more than adding many stops."
+  },
+  "Tijuca | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Tijuca | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Tijuca | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Maracanã | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Maracanã | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Maracanã | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "São Cristóvão | Barrios de Río | Ernestinho Carioca": {
+    "PT": "São Cristóvão | Bairros do Rio | Ernestinho Carioca",
+    "EN": "São Cristóvão | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "ZONA NORTE": {
+    "PT": "ZONA NORTE",
+    "EN": "NORTH ZONE"
+  },
+  "Distancias mayores": {
+    "PT": "Distâncias maiores",
+    "EN": "Longer distances"
+  },
+  "Metro ayuda en varios ejes": {
+    "PT": "O metrô ajuda em vários eixos",
+    "EN": "Metro helps along several corridors"
+  },
+  "Eventos deportivos alteran movilidad": {
+    "PT": "Eventos esportivos alteram a mobilidade",
+    "EN": "Sports events affect mobility"
+  },
+  "Partidos cambian transporte, filas y salida.": {
+    "PT": "Jogos mudam transporte, filas e saída.",
+    "EN": "Matches change transport, queues and exit flows."
+  },
+  "Tijuca más allá del acceso al bosque": {
+    "PT": "Tijuca além do acesso à floresta",
+    "EN": "Tijuca beyond access to the forest"
+  },
+  "Es un barrio grande, residencial y comercial, con plazas, metro y una identidad propia. No lo reduzco a “camino a la Floresta”.": {
+    "PT": "É um bairro grande, residencial e comercial, com praças, metrô e identidade própria. Não o reduzo a “caminho para a Floresta”.",
+    "EN": "It is a large residential and commercial neighborhood with squares, metro access and its own identity. I do not reduce it to a 'route to the forest'."
+  },
+  "Saens Peña:": {
+    "PT": "Saens Peña:",
+    "EN": "Saens Peña:"
+  },
+  "funciona como referencia de transporte, comercio y vida cotidiana.": {
+    "PT": "funciona como referência de transporte, comércio e vida cotidiana.",
+    "EN": "it serves as a reference point for transport, commerce and everyday life."
+  },
+  "Naturaleza:": {
+    "PT": "Natureza:",
+    "EN": "Nature:"
+  },
+  "el Macizo da Tijuca está cerca, pero cada acceso y sendero necesita planificación propia.": {
+    "PT": "o Maciço da Tijuca está perto, mas cada acesso e trilha precisa de planejamento próprio.",
+    "EN": "The Tijuca Massif is nearby, but each access point and trail needs its own planning."
+  },
+  "Maracanã: barrio y estadio no son lo mismo": {
+    "PT": "Maracanã: bairro e estádio não são a mesma coisa",
+    "EN": "Maracanã: the neighborhood and stadium are not the same thing"
+  },
+  "El estadio es la gran referencia, pero el entorno conecta con UERJ, Quinta da Boa Vista, São Cristóvão y Tijuca.": {
+    "PT": "O estádio é a grande referência, mas o entorno se conecta com UERJ, Quinta da Boa Vista, São Cristóvão e Tijuca.",
+    "EN": "The stadium is the main landmark, but the surrounding area connects with UERJ, Quinta da Boa Vista, São Cristóvão and Tijuca."
+  },
+  "Día de partido:": {
+    "PT": "Dia de jogo:",
+    "EN": "Match day:"
+  },
+  "movilidad, accesos y flujo de personas cambian por completo; la información debe confirmarse para cada evento.": {
+    "PT": "mobilidade, acessos e fluxo de pessoas mudam completamente; as informações devem ser confirmadas para cada evento.",
+    "EN": "mobility, access and pedestrian flows change completely; information should be confirmed for each event."
+  },
+  "Sin partido:": {
+    "PT": "Sem jogo:",
+    "EN": "Without a match:"
+  },
+  "el estadio y su historia deportiva siguen teniendo interés, pero conviene comprobar la operación de visitas.": {
+    "PT": "o estádio e sua história esportiva continuam interessantes, mas vale conferir a operação das visitas.",
+    "EN": "the stadium and its sporting history remain interesting, but visitor operations should be checked."
+  },
+  "Imperio, parque y cultura nordestina": {
+    "PT": "Império, parque e cultura nordestina",
+    "EN": "Empire, park and Northeastern culture"
+  },
+  "São Cristóvão reúne capas muy diferentes de Río. Quinta da Boa Vista remite a la historia imperial y la Feira de São Cristóvão abre una puerta a la cultura nordestina en la ciudad.": {
+    "PT": "São Cristóvão reúne camadas muito diferentes do Rio. A Quinta da Boa Vista remete à história imperial e a Feira de São Cristóvão abre uma porta para a cultura nordestina na cidade.",
+    "EN": "São Cristóvão brings together very different layers of Rio. Quinta da Boa Vista evokes imperial history, while Feira de São Cristóvão opens a door to Northeastern Brazilian culture in the city."
+  },
+  "Feira:": {
+    "PT": "Feira:",
+    "EN": "Fair:"
+  },
+  "comida, música, comercio y eventos merecen tiempo propio; horarios y programación deben comprobarse antes de ir.": {
+    "PT": "comida, música, comércio e eventos merecem tempo próprio; horários e programação devem ser conferidos antes de ir.",
+    "EN": "food, music, commerce and events deserve their own time; hours and programming should be checked before going."
+  },
+  "Feira de São Cristóvão →": {
+    "PT": "Feira de São Cristóvão →",
+    "EN": "Feira de São Cristóvão →"
+  },
+  "Abrir la guía completa: Zona Norte →": {
+    "PT": "Abrir o guia completo: Zona Norte →",
+    "EN": "Open full guide: North Zone →"
   }
 };
