@@ -1663,5 +1663,189 @@ export default {
   "Puntos de interés y contexto editorial de Santa Teresa y su corredor. La guía completa incluye los barrios vecinos.": {
     "PT": "Pontos de interesse e contexto editorial de Santa Teresa e seu eixo. O guia completo inclui os bairros vizinhos.",
     "EN": "Points of interest and editorial context for Santa Teresa and its corridor. The full guide includes neighboring areas."
+  },
+  "Lapa | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Lapa | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Lapa | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Centro | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Centro | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Downtown | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Lagoa | Barrios | Ernestinho Carioca": {
+    "PT": "Lagoa | Bairros | Ernestinho Carioca",
+    "EN": "Lagoa | Neighborhoods | Ernestinho Carioca"
+  },
+  "Jardim Botânico | Barrios | Ernestinho Carioca": {
+    "PT": "Jardim Botânico | Bairros | Ernestinho Carioca",
+    "EN": "Jardim Botânico | Neighborhoods | Ernestinho Carioca"
+  },
+  "Gávea | Barrios | Ernestinho Carioca": {
+    "PT": "Gávea | Bairros | Ernestinho Carioca",
+    "EN": "Gávea | Neighborhoods | Ernestinho Carioca"
+  },
+  "Arcos, música, bares y vida nocturna.": {
+    "PT": "Arcos, música, bares e vida noturna.",
+    "EN": "Arches, music, bars and nightlife."
+  },
+  "Qué mirar en Lapa": {
+    "PT": "O que observar na Lapa",
+    "EN": "What to see in Lapa"
+  },
+  "Lapa cambia con la hora": {
+    "PT": "A Lapa muda conforme a hora",
+    "EN": "Lapa changes with the time of day"
+  },
+  "De día:": {
+    "PT": "De dia:",
+    "EN": "By day:"
+  },
+  "De noche:": {
+    "PT": "À noite:",
+    "EN": "At night:"
+  },
+  "Lavradio:": {
+    "PT": "Lavradio:",
+    "EN": "Lavradio:"
+  },
+  "Regreso:": {
+    "PT": "Volta:",
+    "EN": "Getting back:"
+  },
+  "Arcos, Selarón, arquitectura y conexión con Santa Teresa y Cinelândia.": {
+    "PT": "Arcos, Selarón, arquitetura e conexão com Santa Teresa e Cinelândia.",
+    "EN": "Arcos, Selarón, architecture and connections with Santa Teresa and Cinelândia."
+  },
+  "samba, bares, salas de música y movimiento callejero transforman completamente la zona.": {
+    "PT": "samba, bares, casas de música e movimento nas ruas transformam completamente a região.",
+    "EN": "samba, bars, music venues and street activity completely transform the area."
+  },
+  "suma patrimonio, gastronomía y la tradicional feria en fechas específicas; conviene comprobar calendario antes de ir.": {
+    "PT": "reúne patrimônio, gastronomia e a tradicional feira em datas específicas; vale conferir o calendário antes de ir.",
+    "EN": "it combines heritage, food and the traditional fair on specific dates; check the calendar before going."
+  },
+  "por la noche prefiero que tengas resuelto cómo volver antes de empezar el plan.": {
+    "PT": "à noite, prefiro que você já tenha decidido como vai voltar antes de começar o programa.",
+    "EN": "at night, I prefer you to know how you will get back before starting your plans."
+  },
+  "Ferias →": {
+    "PT": "Feiras →",
+    "EN": "Fairs →"
+  },
+  "historia, arquitectura, museos, iglesias y calles llenas de capas.": {
+    "PT": "história, arquitetura, museus, igrejas e ruas cheias de camadas.",
+    "EN": "history, architecture, museums, churches and streets layered with stories."
+  },
+  "Qué mirar en Centro": {
+    "PT": "O que observar no Centro",
+    "EN": "What to see Downtown"
+  },
+  "El Centro no es una sola cosa": {
+    "PT": "O Centro não é uma coisa só",
+    "EN": "Downtown is not just one thing"
+  },
+  "colonial, imperial, republicana y afrobrasileña aparecen a pocas cuadras de distancia.": {
+    "PT": "as camadas colonial, imperial, republicana e afro-brasileira aparecem a poucas quadras de distância.",
+    "EN": "colonial, imperial, republican and Afro-Brazilian layers appear within just a few blocks."
+  },
+  "Arquitectura y cultura:": {
+    "PT": "Arquitetura e cultura:",
+    "EN": "Architecture and culture:"
+  },
+  "Comercio:": {
+    "PT": "Comércio:",
+    "EN": "Commerce:"
+  },
+  "Pequeña África:": {
+    "PT": "Pequena África:",
+    "EN": "Little Africa:"
+  },
+  "SAARA y Uruguaiana muestran otra cara del Centro, mucho más cotidiana.": {
+    "PT": "SAARA e Uruguaiana mostram outra face do Centro, muito mais cotidiana.",
+    "EN": "SAARA and Uruguaiana reveal another, much more everyday side of Downtown."
+  },
+  "metro, VLT, barcas y buses se cruzan aquí; elegir bien el modo evita caminatas innecesarias.": {
+    "PT": "metrô, VLT, barcas e ônibus se cruzam aqui; escolher bem o modo evita caminhadas desnecessárias.",
+    "EN": "metro, VLT, ferries and buses intersect here; choosing the right mode avoids unnecessary walking."
+  },
+  "merece una lectura propia y profunda; no la reduzco a tres paradas ni publico aquí un recorrido paso a paso.": {
+    "PT": "merece uma leitura própria e profunda; não a reduzo a três paradas nem publico aqui um roteiro passo a passo.",
+    "EN": "deserves its own in-depth interpretation; I do not reduce it to three stops or publish a step-by-step route here."
+  },
+  "Compras →": {
+    "PT": "Compras →",
+    "EN": "Shopping →"
+  },
+  "Abrir la guía completa: Centro + Praça Mauá →": {
+    "PT": "Abrir o guia completo: Centro + Praça Mauá →",
+    "EN": "Open full guide: Downtown + Praça Mauá →"
+  },
+  "Paisaje abierto alrededor de la laguna y conexión entre varios barrios de Zona Sul.": {
+    "PT": "Paisagem aberta ao redor da lagoa e conexão entre vários bairros da Zona Sul.",
+    "EN": "Open scenery around the lagoon and connections between several South Zone neighborhoods."
+  },
+  "La Lagoa funciona como paseo y como eje: cambia mucho según el tramo, la hora y si vas caminando, en bici o hacia otro barrio.": {
+    "PT": "A Lagoa funciona como passeio e como eixo: muda bastante conforme o trecho, a hora e se você vai a pé, de bicicleta ou em direção a outro bairro.",
+    "EN": "Lagoa works both as an outing and as a connector: it changes considerably depending on the stretch, time of day and whether you are walking, cycling or heading to another neighborhood."
+  },
+  "Combina con Jardim Botânico, Ipanema, Leblon y Parque Lage.": {
+    "PT": "Combina com Jardim Botânico, Ipanema, Leblon e Parque Lage.",
+    "EN": "It combines well with Jardim Botânico, Ipanema, Leblon and Parque Lage."
+  },
+  "PAISAJE": {
+    "PT": "PAISAGEM",
+    "EN": "SCENERY"
+  },
+  "VERDE · ZONA SUL": {
+    "PT": "VERDE · ZONA SUL",
+    "EN": "GREEN · SOUTH ZONE"
+  },
+  "Un Río más verde, residencial y próximo a algunos de mis paseos favoritos.": {
+    "PT": "Um Rio mais verde, residencial e próximo de alguns dos meus passeios favoritos.",
+    "EN": "A greener, more residential Rio close to some of my favorite outings."
+  },
+  "Aquí el atractivo no es solamente el jardín: es la cercanía entre naturaleza, gastronomía y barrios residenciales.": {
+    "PT": "Aqui, a atração não é apenas o jardim: é a proximidade entre natureza, gastronomia e bairros residenciais.",
+    "EN": "Here, the appeal is not only the garden: it is the proximity between nature, food and residential neighborhoods."
+  },
+  "Combina Jardim Botânico, Parque Lage, Lagoa y Gávea sin cruzar media ciudad.": {
+    "PT": "Combine Jardim Botânico, Parque Lage, Lagoa e Gávea sem atravessar metade da cidade.",
+    "EN": "Combine Jardim Botânico, Parque Lage, Lagoa and Gávea without crossing half the city."
+  },
+  "PLANIFICAR": {
+    "PT": "PLANEJAR",
+    "EN": "PLAN"
+  },
+  "Que dos lugares estén en el mismo sector no significa que estén pegados. Con niños o movilidad reducida, revisa accesos y último tramo antes de salir.": {
+    "PT": "Dois lugares estarem na mesma região não significa que fiquem colados. Com crianças ou mobilidade reduzida, confira os acessos e o último trecho antes de sair.",
+    "EN": "Two places being in the same area does not mean they are next to each other. With children or reduced mobility, check access and the final stretch before leaving."
+  },
+  "Residencial, cultural y gastronómica, entre Leblon, Jardim Botânico y la montaña.": {
+    "PT": "Residencial, cultural e gastronômica, entre Leblon, Jardim Botânico e a montanha.",
+    "EN": "Residential, cultural and food-oriented, between Leblon, Jardim Botânico and the mountains."
+  },
+  "Gávea tiene una vida propia que muchas veces el visitante atraviesa sin detenerse. Puede ser una buena pausa entre naturaleza y noche.": {
+    "PT": "A Gávea tem vida própria e muitas vezes o visitante passa por ela sem parar. Pode ser uma boa pausa entre natureza e noite.",
+    "EN": "Gávea has a life of its own that visitors often pass through without stopping. It can be a good pause between nature and nightlife."
+  },
+  "Combina con Leblon, Jardim Botânico, Planetário y Baixo Gávea según el día.": {
+    "PT": "Combine com Leblon, Jardim Botânico, Planetário e Baixo Gávea conforme o dia.",
+    "EN": "Combine it with Leblon, Jardim Botânico, Planetário and Baixo Gávea depending on the day."
+  },
+  "CULTURA": {
+    "PT": "CULTURA",
+    "EN": "CULTURE"
+  },
+  "NOCHE": {
+    "PT": "NOITE",
+    "EN": "NIGHT"
+  },
+  "Planetário, espacios culturales, universidad, gastronomía y vida residencial hacen que no sea solamente un barrio de paso entre Leblon y Jardim Botânico.": {
+    "PT": "Planetário, espaços culturais, universidade, gastronomia e vida residencial fazem com que não seja apenas um bairro de passagem entre Leblon e Jardim Botânico.",
+    "EN": "Planetário, cultural spaces, the university, food and residential life make it much more than a neighborhood you simply pass through between Leblon and Jardim Botânico."
+  },
+  "El ambiente depende mucho del día y de la agenda. Antes de desplazarte, confirma qué está funcionando y cómo volverás.": {
+    "PT": "O ambiente depende muito do dia e da programação. Antes de se deslocar, confirme o que está funcionando e como você vai voltar.",
+    "EN": "The atmosphere depends greatly on the day and schedule. Before heading there, confirm what is operating and how you will get back."
   }
 };
