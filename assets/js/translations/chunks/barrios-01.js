@@ -210,11 +210,11 @@ export default {
   },
   "Feira de São Cristóvão con tiempo para comer y escuchar música": {
     "PT": "Feira de São Cristóvão com tempo para comer e ouvir música",
-    "EN": "Feira de São Cristóvão with enough time to eat and listen to music"
+    "EN": "São Cristóvão Fair with enough time to eat and listen to music"
   },
   "Feira de São Cristóvão sin prisa": {
     "PT": "Feira de São Cristóvão sem pressa",
-    "EN": "Feira de São Cristóvão without rushing"
+    "EN": "São Cristóvão Fair without rushing"
   },
   "Fotografía": {
     "PT": "Fotografia",
@@ -262,7 +262,7 @@ export default {
   },
   "Jardim de Alah → orla → calles interiores → mirador / café": {
     "PT": "Jardim de Alah → orla → ruas internas → mirante / café",
-    "EN": "Jardim de Alah → waterfront → interior streets → viewpoint / café"
+    "EN": "Jardim de Alah → waterfront → inner streets → viewpoint / café"
   },
   "La ciudad se abre: largas playas, reservas naturales, shoppings, grandes avenidas y distancias que obligan a planificar diferente.": {
     "PT": "A cidade se abre: praias longas, reservas naturais, shoppings, grandes avenidas e distâncias que exigem um planejamento diferente.",
@@ -442,7 +442,7 @@ export default {
   },
   "Praia Vermelha → Pão de Açúcar → Mureta": {
     "PT": "Praia Vermelha → Pão de Açúcar → Mureta",
-    "EN": "Praia Vermelha → Pão de Açúcar → Mureta"
+    "EN": "Praia Vermelha → Sugarloaf Mountain → Mureta"
   },
   "Prainha temprano cuando el mar acompaña": {
     "PT": "Prainha cedo quando o mar ajuda",
@@ -565,8 +565,8 @@ export default {
     "EN": "Plan it as a dedicated outing rather than an improvised stop between distant attractions. Check which areas and services are operating and plan your return before you go."
   },
   "Un área amplia que pide elegir un sector": {
-    "PT": "Uma região ampla que pede a escolha de um setor",
-    "EN": "A large area where it helps to pick one pocket"
+    "PT": "Uma região ampla que pede escolher um setor",
+    "EN": "A large area where choosing one sector makes sense"
   },
   "Calcula los trayectos con margen y confirma el transporte que te conviene para cada tramo. Si el plan mezcla varias zonas, agrúpalas por proximidad en vez de intentar cubrir todo en una tarde.": {
     "PT": "Calcule os deslocamentos com folga e confirme o transporte adequado para cada trecho. Se o plano incluir várias áreas, agrupe-as por proximidade em vez de tentar conhecer tudo em uma tarde.",
@@ -605,15 +605,15 @@ export default {
     "EN": "The neighborhood name does not mean every destination is close together. Pin the addresses and check the route before leaving, especially if traveling with children or limited mobility."
   },
   "Una zona para enlazar paseo y paisaje": {
-    "PT": "Uma região para combinar caminhada e paisagem",
-    "EN": "An area for pairing a walk with scenery"
+    "PT": "Uma região para combinar passeio e paisagem",
+    "EN": "An area for combining a walk with scenery"
   },
   "Escoge un tramo y un punto de encuentro claro. El clima, los eventos y las condiciones del paseo pueden variar; confirma lo necesario y prioriza los cruces seguros.": {
     "PT": "Escolha um trecho e um ponto de encontro claro. O clima, os eventos e as condições do passeio podem variar; confirme o necessário e priorize travessias seguras.",
     "EN": "Choose a section and a clear meeting point. Weather, events, and path conditions can vary; check what you need and use safe crossings."
   },
   "Un barrio residencial junto al camino de Cosme Velho": {
-    "PT": "Um bairro residencial no caminho de Cosme Velho",
+    "PT": "Um bairro residencial no caminho para Cosme Velho",
     "EN": "A residential neighborhood on the way to Cosme Velho"
   },
   "Las calles y pendientes pueden cambiar el esfuerzo de la caminata. Si tu recorrido tiene una visita con hora marcada, deja margen y confirma el transporte para el último tramo.": {
@@ -630,7 +630,7 @@ export default {
   },
   "Un extremo de la ciudad para descubrir con tiempo": {
     "PT": "Um extremo da cidade para conhecer com tempo",
-    "EN": "A far edge of the city to explore with time"
+    "EN": "A far edge of the city to explore at an unhurried pace"
   },
   "Calcula los tiempos de desplazamiento y confirma previamente cómo volverás. Mantén un plan sencillo y no dependas de servicios cuya operación no hayas comprobado.": {
     "PT": "Calcule o tempo de deslocamento e confirme antes como será a volta. Mantenha um plano simples e não dependa de serviços cuja operação você não tenha verificado.",
