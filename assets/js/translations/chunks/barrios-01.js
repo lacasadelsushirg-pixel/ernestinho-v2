@@ -2799,5 +2799,117 @@ export default {
   "Samba según agenda real": {
     "PT": "Samba conforme a programação real",
     "EN": "Samba according to the actual schedule"
+  },
+  "Catete → Museu da República → Aterro": {
+    "PT": "Catete → Museu da República → Aterro",
+    "EN": "Catete → Museu da República → Aterro"
+  },
+  "Aterro → feria / plaza → comida": {
+    "PT": "Aterro → feira / praça → comida",
+    "EN": "Aterro → fair / square → food"
+  },
+  "Cinelândia → Carioca → Colombo → Real Gabinete → Praça XV": {
+    "PT": "Cinelândia → Carioca → Colombo → Real Gabinete → Praça XV",
+    "EN": "Cinelândia → Carioca → Colombo → Real Gabinete → Praça XV"
+  },
+  "AquaRio / Roda → Etnias → MAR → Museu do Amanhã": {
+    "PT": "AquaRio / Roda → Etnias → MAR → Museu do Amanhã",
+    "EN": "AquaRio / Ferris wheel → Etnias → MAR → Museu do Amanhã"
+  },
+  "Pedra do Sal → Cais do Valongo → MUHCAB → entorno portuario": {
+    "PT": "Pedra do Sal → Cais do Valongo → MUHCAB → entorno portuário",
+    "EN": "Pedra do Sal → Cais do Valongo → MUHCAB → port area"
+  },
+  "Bondinho → Largo dos Guimarães → Parque das Ruínas": {
+    "PT": "Bondinho → Largo dos Guimarães → Parque das Ruínas",
+    "EN": "Tram → Largo dos Guimarães → Parque das Ruínas"
+  },
+  "Ruínas → Selarón → Arcos": {
+    "PT": "Ruínas → Selarón → Arcos",
+    "EN": "Ruínas → Selarón → Arcos"
+  },
+  "Cena → samba/show → regreso por app/taxi": {
+    "PT": "Jantar → samba/show → volta de app/táxi",
+    "EN": "Dinner → samba/show → return by ride app/taxi"
+  },
+  "Parque Lage → Jardim Botânico → café": {
+    "PT": "Parque Lage → Jardim Botânico → café",
+    "EN": "Parque Lage → Jardim Botânico → café"
+  },
+  "Recreio → Prainha → Grumari según condiciones": {
+    "PT": "Recreio → Prainha → Grumari conforme as condições",
+    "EN": "Recreio → Prainha → Grumari depending on conditions"
+  },
+  "Flamengo →": {
+    "PT": "Flamengo →",
+    "EN": "Flamengo →"
+  },
+  "Glória →": {
+    "PT": "Glória →",
+    "EN": "Glória →"
+  },
+  "Catete →": {
+    "PT": "Catete →",
+    "EN": "Catete →"
+  },
+  "Santa Teresa →": {
+    "PT": "Santa Teresa →",
+    "EN": "Santa Teresa →"
+  },
+  "Lapa →": {
+    "PT": "Lapa →",
+    "EN": "Lapa →"
+  },
+  "Gávea →": {
+    "PT": "Gávea →",
+    "EN": "Gávea →"
+  },
+  "Jardim Botânico →": {
+    "PT": "Jardim Botânico →",
+    "EN": "Jardim Botânico →"
+  },
+  "Lagoa →": {
+    "PT": "Lagoa →",
+    "EN": "Lagoa →"
+  },
+  "Barra da Tijuca →": {
+    "PT": "Barra da Tijuca →",
+    "EN": "Barra da Tijuca →"
+  },
+  "Recreio →": {
+    "PT": "Recreio →",
+    "EN": "Recreio →"
+  },
+  "Vargens →": {
+    "PT": "Vargens →",
+    "EN": "Vargens →"
+  },
+  "Guaratiba →": {
+    "PT": "Guaratiba →",
+    "EN": "Guaratiba →"
+  },
+  "Sepetiba →": {
+    "PT": "Sepetiba →",
+    "EN": "Sepetiba →"
+  },
+  "Jacarepaguá →": {
+    "PT": "Jacarepaguá →",
+    "EN": "Jacarepaguá →"
+  },
+  "Tijuca →": {
+    "PT": "Tijuca →",
+    "EN": "Tijuca →"
+  },
+  "São Cristóvão →": {
+    "PT": "São Cristóvão →",
+    "EN": "São Cristóvão →"
+  },
+  "Madureira →": {
+    "PT": "Madureira →",
+    "EN": "Madureira →"
+  },
+  "CADEG →": {
+    "PT": "CADEG →",
+    "EN": "CADEG →"
   }
 };
