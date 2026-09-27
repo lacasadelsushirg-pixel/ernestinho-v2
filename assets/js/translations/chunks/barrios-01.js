@@ -97,8 +97,8 @@ export default {
     "EN": "Combine Sugarloaf Mountain with Praia Vermelha"
   },
   "Combinar naturaleza y playa sin cruzar de vuelta varias veces": {
-    "PT": "Combinar natureza y praia sin cruzar de vuelta varias veces",
-    "EN": "Combinar nature y beach sin cruzar de vuelta varias veces"
+    "PT": "Combinar natureza e praia sem atravessar de volta várias vezes",
+    "EN": "Combine nature and beach without repeatedly crossing back"
   },
   "Combinar playa con café o comida sin cruzar la ciudad": {
     "PT": "Combinar praia com café ou comida sem atravessar a cidade",
@@ -301,8 +301,8 @@ export default {
     "EN": "Maracanã in context"
   },
   "Maracanã → museo/tour o partido → comida cercana": {
-    "PT": "Maracanã → museu/tour o partido → comida cercana",
-    "EN": "Maracanã → museum/tour o partido → comida cercana"
+    "PT": "Maracanã → museu/tour ou jogo → comida por perto",
+    "EN": "Maracanã → museum/tour or match → nearby food"
   },
   "Marina da Glória": {
     "PT": "Marina da Glória",
@@ -373,8 +373,8 @@ export default {
     "EN": "Do not pack too many stops into a single day."
   },
   "No todo queda cerca del metro": {
-    "PT": "No todo queda perto del metro",
-    "EN": "No todo queda nearl metro"
+    "PT": "Nem tudo fica perto do metrô",
+    "EN": "Not everything is close to the metro"
   },
   "No viajes a una quadra sin confirmar evento y acceso.": {
     "PT": "Não vá a uma quadra sem confirmar o evento e o acesso.",
@@ -385,8 +385,8 @@ export default {
     "EN": "Nightlife"
   },
   "Noche de barrio": {
-    "PT": "Noche de bairro",
-    "EN": "Noche de neighborhood"
+    "PT": "Noite de bairro",
+    "EN": "A neighborhood night out"
   },
   "Nordeste en Río": {
     "PT": "Nordeste no Rio",
@@ -414,15 +414,15 @@ export default {
   },
   "Planetário / cultura → barrio → comida": {
     "PT": "Planetário / cultura → bairro → comida",
-    "EN": "Planetário / cultura → neighborhood → food"
+    "EN": "Planetarium / culture → neighborhood → food"
   },
   "Playa": {
     "PT": "Praia",
     "EN": "Beach"
   },
   "Playa de mañana": {
-    "PT": "praia de mañana",
-    "EN": "beach de mañana"
+    "PT": "Praia pela manhã",
+    "EN": "Morning at the beach"
   },
   "Playa temprano": {
     "PT": "praia temprano",
@@ -433,8 +433,8 @@ export default {
     "EN": "beach → almuerzo → shopping"
   },
   "Playas del oeste": {
-    "PT": "praias del oeste",
-    "EN": "beaches del oeste"
+    "PT": "Praias da Zona Oeste",
+    "EN": "West Zone beaches"
   },
   "Playas dependen más del mar y clima": {
     "PT": "As praias dependem mais do mar e do clima",
@@ -469,20 +469,20 @@ export default {
     "EN": "Sugarloaf Mountain may require advance booking"
   },
   "Reserva / sendero → playa → regreso antes del pico": {
-    "PT": "Reserva / trilha → praia → regreso antes del pico",
-    "EN": "Reserva / trail → beach → regreso antes del pico"
+    "PT": "Reserva / trilha → praia → volta antes do horário de pico",
+    "EN": "Reserve / trail → beach → return before rush hour"
   },
   "Reserva de Marapendi": {
-    "PT": "Reserva de marapendi",
-    "EN": "Reserva de seaapendi"
+    "PT": "Reserva de Marapendi",
+    "EN": "Marapendi Reserve"
   },
   "Restaurantes de barrio": {
     "PT": "Restaurantes de bairro",
-    "EN": "Restaurantes de neighborhood"
+    "EN": "Neighborhood restaurants"
   },
   "Revisa horario de parques antes de salir.": {
-    "PT": "Revisa horário de parques antes de salir.",
-    "EN": "Revisa hours de parques antes de salir."
+    "PT": "Confira o horário dos parques antes de sair.",
+    "EN": "Check park hours before heading out."
   },
   "Río verde": {
     "PT": "Rio verde",
@@ -509,8 +509,8 @@ export default {
     "EN": "São Cristóvão"
   },
   "Tramo de ciclovía → pausa → puesta de sol": {
-    "PT": "Tramo de ciclovía → pausa → pôr do sol",
-    "EN": "Tramo de ciclovía → pausa → sunset"
+    "PT": "Trecho de ciclovia → pausa → pôr do sol",
+    "EN": "Bike-path stretch → break → sunset"
   },
   "Tráfico aumenta en horarios pico": {
     "PT": "Tráfico aumenta en horários pico",
@@ -521,8 +521,8 @@ export default {
     "EN": "A green, residential area where Rio feels less rushed: mountains, gardens, lagoon, culture and neighborhood life."
   },
   "Urca al atardecer → Botafogo para cenar": {
-    "PT": "Urca al pôr do sol → Botafogo para cenar",
-    "EN": "Urca al sunset → Botafogo para cenar"
+    "PT": "Urca ao pôr do sol → Botafogo para jantar",
+    "EN": "Urca at sunset → Botafogo for dinner"
   },
   "VLT": {
     "PT": "VLT",
