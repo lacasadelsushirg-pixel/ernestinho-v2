@@ -54,5 +54,11 @@ export default {".":{"PT":".","EN":"."},"← Volver a Gastronomía":{"PT":"← V
   "Bares y coctelería": {"PT":"Bares e coquetelaria","EN":"Bars and cocktails"},
   "Cenas": {"PT":"Jantares","EN":"Dinner"},
   "Abierto hasta tarde": {"PT":"Aberto até tarde","EN":"Open late"},
-  "Ver ficha completa": {"PT":"Ver ficha completa","EN":"View full profile"}
+  "Ver ficha completa": {"PT":"Ver ficha completa","EN":"View full profile"},
+  "Identidad, experiencia y entorno": {"PT":"Identidade, experiência e entorno","EN":"Identity, experience and surroundings"},
+  "Qué ofrece la casa: cocina, carta y bebidas": {"PT":"O que a casa oferece: cozinha, cardápio e bebidas","EN":"What the restaurant offers: food, menu and drinks"},
+  "Reservas: qué conviene saber antes de ir": {"PT":"Reservas: o que vale saber antes de ir","EN":"Reservations: what to know before you go"},
+  "Información práctica: entrada y servicios": {"PT":"Informações práticas: entrada e serviços","EN":"Practical information: entrance and services"},
+  "Información contrastada nuevamente con los canales oficiales.": {"PT":"Informações verificadas novamente nos canais oficiais.","EN":"Information checked again against official channels."},
+  "El sitio oficial consultado publica música en vivo de MPB, voz y guitarra de miércoles a sábado a partir de las 19:00. En los días y horarios con música informa un couvert artístico de R$ 15 por persona. Como programación y valores pueden cambiar, confirma este dato en el canal oficial para tu fecha antes de salir.": {"PT":"O site oficial consultado informa música ao vivo de MPB, voz e violão de quarta a sábado a partir das 19h. Nos dias e horários com música, informa couvert artístico de R$ 15 por pessoa. Como programação e valores podem mudar, confirme esse dado no canal oficial para a sua data antes de sair.","EN":"The official website checked lists live MPB music, voice and guitar from Wednesday to Saturday starting at 7 p.m. On days and times with live music it lists a R$15 artistic cover charge per person. Because programming and prices may change, confirm this through the official channel for your date before heading out."}
 };
