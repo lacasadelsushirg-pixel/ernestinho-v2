@@ -233,8 +233,8 @@ export default {
     "EN": "Food"
   },
   "General Osório, playa, memoria de la bossa nova y Arpoador": {
-    "PT": "General Osório → praia → Garota de Ipanema / Vinicius → Arpoador",
-    "EN": "General Osório → beach → Garota de Ipanema / Vinicius → Arpoador"
+    "PT": "General Osório, praia, Garota de Ipanema / Vinicius, Arpoador",
+    "EN": "General Osório, beach, Garota de Ipanema / Vinicius, Arpoador"
   },
   "Glória": {
     "PT": "Glória",
@@ -261,8 +261,8 @@ export default {
     "EN": "Accommodation"
   },
   "Jardim de Alah, orla, calles interiores y cafés de Leblon": {
-    "PT": "Jardim de Alah → orla → ruas internas → mirante / café",
-    "EN": "Jardim de Alah → waterfront → inner streets → viewpoint / café"
+    "PT": "Jardim de Alah, orla, ruas internas, mirante / café",
+    "EN": "Jardim de Alah, waterfront, inner streets, viewpoint / café"
   },
   "La ciudad se abre: largas playas, reservas naturales, shoppings, grandes avenidas y distancias que obligan a planificar diferente.": {
     "PT": "A cidade se abre: praias longas, reservas naturais, shoppings, grandes avenidas e distâncias que exigem um planejamento diferente.",
@@ -301,8 +301,8 @@ export default {
     "EN": "Maracanã in context"
   },
   "Maracanã, visita o partido y gastronomía de la zona": {
-    "PT": "Maracanã → museu/tour ou jogo → comida por perto",
-    "EN": "Maracanã → museum/tour or match → nearby food"
+    "PT": "Maracanã, museu/tour ou jogo, comida por perto",
+    "EN": "Maracanã, museum/tour or match, nearby food"
   },
   "Marina da Glória": {
     "PT": "Marina da Glória",
@@ -442,7 +442,7 @@ export default {
   },
   "Praia Vermelha, Pão de Açúcar y Mureta da Urca": {
     "PT": "Praia Vermelha, Pão de Açúcar y Mureta da Urca",
-    "EN": "Praia Vermelha → Sugarloaf Mountain → Mureta"
+    "EN": "Praia Vermelha, Sugarloaf Mountain, Mureta"
   },
   "Prainha temprano cuando el mar acompaña": {
     "PT": "Prainha cedo quando o mar ajuda",
@@ -1257,24 +1257,24 @@ export default {
     "EN": "Editorial guide to help plan your visit. Hours, transport, events, weather and sea conditions change; confirm them before heading out."
   },
   "Ipanema esencial: General Osório, playa, memoria de la bossa nova y Arpoador": {
-    "PT": "Ipanema essencial: General Osório → praia → Garota de Ipanema / Vinicius → Arpoador",
-    "EN": "Essential Ipanema: General Osório → beach → Garota de Ipanema / Vinicius → Arpoador"
+    "PT": "Ipanema essencial: General Osório, praia, Garota de Ipanema / Vinicius, Arpoador",
+    "EN": "Essential Ipanema: General Osório, beach, Garota de Ipanema / Vinicius, Arpoador"
   },
   "Leblon a pie: Jardim de Alah, orla, calles interiores y cafés de Leblon": {
-    "PT": "Leblon a pé: Jardim de Alah → orla → ruas internas → mirante / café",
-    "EN": "Leblon on foot: Jardim de Alah → waterfront → inner streets → viewpoint / café"
+    "PT": "Leblon a pé: Jardim de Alah, orla, ruas internas, mirante / café",
+    "EN": "Leblon on foot: Jardim de Alah, waterfront, inner streets, viewpoint / café"
   },
-  "Atardecer sin correr: Ipanema → Arpoador → cena cercana": {
-    "PT": "Fim de tarde sem pressa: Ipanema → Arpoador → jantar por perto",
-    "EN": "Unhurried sunset: Ipanema → Arpoador → dinner nearby"
+  "Atardecer sin correr: Ipanema, Arpoador, cena cercana": {
+    "PT": "Fim de tarde sem pressa: Ipanema, Arpoador, jantar por perto",
+    "EN": "Unhurried sunset: Ipanema, Arpoador, dinner nearby"
   },
   "Urca clásica: Praia Vermelha, Pão de Açúcar y Mureta da Urca": {
     "PT": "Urca clássica: Praia Vermelha, Pão de Açúcar y Mureta da Urca",
-    "EN": "Classic Urca: Praia Vermelha → Sugarloaf Mountain → Mureta"
+    "EN": "Classic Urca: Praia Vermelha, Sugarloaf Mountain, Mureta"
   },
-  "Botafogo local: Metro → cafés / cultura → bares": {
-    "PT": "Botafogo local: metrô → cafés / cultura → bares",
-    "EN": "Local Botafogo: metro → cafés / culture → bars"
+  "Botafogo local: Metro, cafés / cultura, bares": {
+    "PT": "Botafogo local: metrô, cafés / cultura, bares",
+    "EN": "Local Botafogo: metro, cafés / culture, bars"
   },
   "Bahía y noche: Urca y Botafogo: paisaje y gastronomía": {
     "PT": "Baía e noite: Urca no fim da tarde → Botafogo para jantar",
@@ -1852,17 +1852,17 @@ export default {
     "PT": "Pontos de interesse e contexto editorial da Lapa e seu eixo. O guia completo inclui os bairros vizinhos.",
     "EN": "Points of interest and editorial context for Lapa and its corridor. The full guide includes neighboring areas."
   },
-  "Centro histórico: Cinelândia → Carioca → Colombo → Real Gabinete → Praça XV": {
-    "PT": "Centro histórico: Cinelândia → Carioca → Colombo → Real Gabinete → Praça XV",
-    "EN": "Historic Downtown: Cinelândia → Carioca → Colombo → Real Gabinete → Praça XV"
+  "Centro histórico: Cinelândia, Carioca, Colombo, Real Gabinete, Praça XV": {
+    "PT": "Centro histórico: Cinelândia, Carioca, Colombo, Real Gabinete, Praça XV",
+    "EN": "Historic Downtown: Cinelândia, Carioca, Colombo, Real Gabinete, Praça XV"
   },
-  "Porto Maravilha: AquaRio / Roda → Etnias → MAR → Museu do Amanhã": {
-    "PT": "Porto Maravilha: AquaRio / Roda → Etnias → MAR → Museu do Amanhã",
-    "EN": "Porto Maravilha: AquaRio / Ferris wheel → Etnias → MAR → Museu do Amanhã"
+  "Porto Maravilha: AquaRio / Roda, Etnias, MAR, Museu do Amanhã": {
+    "PT": "Porto Maravilha: AquaRio / Roda, Etnias, MAR, Museu do Amanhã",
+    "EN": "Porto Maravilha: AquaRio / Ferris wheel, Etnias, MAR, Museu do Amanhã"
   },
-  "Pequena África: Pedra do Sal → Cais do Valongo → MUHCAB → entorno portuario": {
-    "PT": "Pequena África: Pedra do Sal → Cais do Valongo → MUHCAB → entorno portuário",
-    "EN": "Little Africa: Pedra do Sal → Cais do Valongo → MUHCAB → port area"
+  "Pequena África: Pedra do Sal, Cais do Valongo, MUHCAB, entorno portuario": {
+    "PT": "Pequena África: Pedra do Sal, Cais do Valongo, MUHCAB, entorno portuário",
+    "EN": "Little Africa: Pedra do Sal, Cais do Valongo, MUHCAB, port area"
   },
   "Cinelândia, Theatro Municipal, Biblioteca Nacional, Real Gabinete, Candelária, Mosteiro de São Bento y Praça XV permiten leer distintas épocas de la ciudad.": {
     "PT": "Cinelândia, Theatro Municipal, Biblioteca Nacional, Real Gabinete, Candelária, Mosteiro de São Bento e Praça XV permitem ler diferentes épocas da cidade.",
@@ -2372,9 +2372,9 @@ export default {
     "PT": "Fim de tarde sem pressa",
     "EN": "Unhurried sunset"
   },
-  "Ipanema → Arpoador → cena cercana": {
-    "PT": "Ipanema → Arpoador → jantar por perto",
-    "EN": "Ipanema → Arpoador → dinner nearby"
+  "Ipanema, Arpoador, cena cercana": {
+    "PT": "Ipanema, Arpoador, jantar por perto",
+    "EN": "Ipanema, Arpoador, dinner nearby"
   },
   "Amanecer en Arpoador": {
     "PT": "Amanhecer no Arpoador",
@@ -2404,9 +2404,9 @@ export default {
     "PT": "Botafogo local",
     "EN": "Local Botafogo"
   },
-  "Metro → cafés / cultura → bares": {
-    "PT": "Metrô → cafés / cultura → bares",
-    "EN": "Metro → cafés / culture → bars"
+  "Metro, cafés / cultura, bares": {
+    "PT": "Metrô, cafés / cultura, bares",
+    "EN": "Metro, cafés / culture, bars"
   },
   "Bahía y noche": {
     "PT": "Baía e noite",
@@ -2433,16 +2433,16 @@ export default {
     "EN": "Urca at sunset"
   },
   "Playas del oeste: Recreio, Prainha y Grumari, eligiendo según las condiciones del día": {
-    "PT": "Praias do oeste: Recreio → Prainha → Grumari conforme as condições",
-    "EN": "West Zone beaches: Recreio → Prainha → Grumari depending on conditions"
+    "PT": "Praias do oeste: Recreio, Prainha, Grumari conforme as condições",
+    "EN": "West Zone beaches: Recreio, Prainha, Grumari depending on conditions"
   },
   "Barra práctica: Playa, gastronomía y compras": {
-    "PT": "Barra prática: praia → almoço → shopping",
-    "EN": "Practical Barra: beach → lunch → shopping"
+    "PT": "Barra prática: praia, almoço, shopping",
+    "EN": "Practical Barra: beach, lunch, shopping"
   },
   "Naturaleza oeste: Naturaleza y playa en Zona Oeste": {
-    "PT": "Natureza no oeste: Reserva / trilha → praia → volta antes do pico",
-    "EN": "West Zone nature: Reserva / trail → beach → return before peak traffic"
+    "PT": "Natureza no oeste: Reserva / trilha, praia, volta antes do pico",
+    "EN": "West Zone nature: Reserva / trail, beach, return before peak traffic"
   },
   "comercio, tradición de barrio y acceso al Macizo da Tijuca.": {
     "PT": "comércio, tradição de bairro e acesso ao Maciço da Tijuca.",
@@ -2469,8 +2469,8 @@ export default {
     "EN": "What to see in São Cristóvão"
   },
   "Fútbol: Maracanã, visita o partido y gastronomía de la zona": {
-    "PT": "Futebol: Maracanã → museu/tour ou jogo → comida por perto",
-    "EN": "Football: Maracanã → museum/tour or match → food nearby"
+    "PT": "Futebol: Maracanã, museu/tour ou jogo, comida por perto",
+    "EN": "Football: Maracanã, museum/tour or match, food nearby"
   },
   "Nordeste en Río: Feira de São Cristóvão con tiempo para comer y escuchar música": {
     "PT": "Nordeste no Rio: Feira de São Cristóvão com tempo para comer e ouvir música",
@@ -2800,45 +2800,45 @@ export default {
     "PT": "Samba conforme a programação real",
     "EN": "Samba according to the actual schedule"
   },
-  "Catete → Museu da República → Aterro": {
-    "PT": "Catete → Museu da República → Aterro",
-    "EN": "Catete → Museu da República → Aterro"
+  "Catete, Museu da República, Aterro": {
+    "PT": "Catete, Museu da República, Aterro",
+    "EN": "Catete, Museu da República, Aterro"
   },
-  "Aterro → feria / plaza → comida": {
-    "PT": "Aterro → feira / praça → comida",
-    "EN": "Aterro → fair / square → food"
+  "Aterro, feria / plaza, comida": {
+    "PT": "Aterro, feira / praça, comida",
+    "EN": "Aterro, fair / square, food"
   },
-  "Cinelândia → Carioca → Colombo → Real Gabinete → Praça XV": {
-    "PT": "Cinelândia → Carioca → Colombo → Real Gabinete → Praça XV",
-    "EN": "Cinelândia → Carioca → Colombo → Real Gabinete → Praça XV"
+  "Cinelândia, Carioca, Colombo, Real Gabinete, Praça XV": {
+    "PT": "Cinelândia, Carioca, Colombo, Real Gabinete, Praça XV",
+    "EN": "Cinelândia, Carioca, Colombo, Real Gabinete, Praça XV"
   },
-  "AquaRio / Roda → Etnias → MAR → Museu do Amanhã": {
-    "PT": "AquaRio / Roda → Etnias → MAR → Museu do Amanhã",
-    "EN": "AquaRio / Ferris wheel → Etnias → MAR → Museu do Amanhã"
+  "AquaRio / Roda, Etnias, MAR, Museu do Amanhã": {
+    "PT": "AquaRio / Roda, Etnias, MAR, Museu do Amanhã",
+    "EN": "AquaRio / Ferris wheel, Etnias, MAR, Museu do Amanhã"
   },
-  "Pedra do Sal → Cais do Valongo → MUHCAB → entorno portuario": {
-    "PT": "Pedra do Sal → Cais do Valongo → MUHCAB → entorno portuário",
-    "EN": "Pedra do Sal → Cais do Valongo → MUHCAB → port area"
+  "Pedra do Sal, Cais do Valongo, MUHCAB, entorno portuario": {
+    "PT": "Pedra do Sal, Cais do Valongo, MUHCAB, entorno portuário",
+    "EN": "Pedra do Sal, Cais do Valongo, MUHCAB, port area"
   },
-  "Bondinho → Largo dos Guimarães → Parque das Ruínas": {
-    "PT": "Bondinho → Largo dos Guimarães → Parque das Ruínas",
-    "EN": "Tram → Largo dos Guimarães → Parque das Ruínas"
+  "Bondinho, Largo dos Guimarães, Parque das Ruínas": {
+    "PT": "Bondinho, Largo dos Guimarães, Parque das Ruínas",
+    "EN": "Tram, Largo dos Guimarães, Parque das Ruínas"
   },
-  "Ruínas → Selarón → Arcos": {
-    "PT": "Ruínas → Selarón → Arcos",
-    "EN": "Ruínas → Selarón → Arcos"
+  "Ruínas, Selarón, Arcos": {
+    "PT": "Ruínas, Selarón, Arcos",
+    "EN": "Ruínas, Selarón, Arcos"
   },
-  "Cena → samba/show → regreso por app/taxi": {
-    "PT": "Jantar → samba/show → volta de app/táxi",
-    "EN": "Dinner → samba/show → return by ride app/taxi"
+  "Cena, samba/show, regreso por app/taxi": {
+    "PT": "Jantar, samba/show, volta de app/táxi",
+    "EN": "Dinner, samba/show, return by ride app/taxi"
   },
   "Parque Lage, Jardim Botânico y cafés del sector": {
     "PT": "Parque Lage, Jardim Botânico y cafés del sector",
     "EN": "Parque Lage, Jardim Botânico y cafés del sector"
   },
   "Recreio, Prainha y Grumari, eligiendo según las condiciones del día": {
-    "PT": "Recreio → Prainha → Grumari conforme as condições",
-    "EN": "Recreio → Prainha → Grumari depending on conditions"
+    "PT": "Recreio, Prainha, Grumari conforme as condições",
+    "EN": "Recreio, Prainha, Grumari depending on conditions"
   },
   "Flamengo →": {
     "PT": "Flamengo →",
