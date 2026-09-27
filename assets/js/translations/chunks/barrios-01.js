@@ -2515,5 +2515,289 @@ export default {
   "Puntos de interés y contexto editorial de Madureira y su corredor. La guía completa incluye los barrios vecinos.": {
     "PT": "Pontos de interesse e contexto editorial de Madureira e seu eixo. O guia completo inclui os bairros vizinhos.",
     "EN": "Points of interest and editorial context for Madureira and its corridor. The full guide includes neighboring areas."
+  },
+  "Flamengo + Glória | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Flamengo + Glória | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Flamengo + Glória | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Centro + Praça Mauá | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Centro + Praça Mauá | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Downtown + Praça Mauá | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Santa Teresa + Lapa | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Santa Teresa + Lapa | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Santa Teresa + Lapa | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Gávea + Jardim Botânico + Lagoa | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Gávea + Jardim Botânico + Lagoa | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Gávea + Jardim Botânico + Lagoa | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Barra + Zona Oeste | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Barra + Zona Oeste | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Barra + West Zone | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Zona Norte | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Zona Norte | Bairros do Rio | Ernestinho Carioca",
+    "EN": "North Zone | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Centro · GUÍA DE BARRIOS": {
+    "PT": "Centro · GUIA DE BAIRROS",
+    "EN": "Downtown · NEIGHBORHOOD GUIDE"
+  },
+  "Zona Oeste · GUÍA DE BARRIOS": {
+    "PT": "Zona Oeste · GUIA DE BAIRROS",
+    "EN": "West Zone · NEIGHBORHOOD GUIDE"
+  },
+  "Zona Norte · GUÍA DE BARRIOS": {
+    "PT": "Zona Norte · GUIA DE BAIRROS",
+    "EN": "North Zone · NEIGHBORHOOD GUIDE"
+  },
+  "Restaurantes del Catete": {
+    "PT": "Restaurantes do Catete",
+    "EN": "Catete restaurants"
+  },
+  "Feiras": {
+    "PT": "Feiras",
+    "EN": "Fairs"
+  },
+  "Aterro cambia mucho en domingos/eventos": {
+    "PT": "O Aterro muda muito aos domingos e em eventos",
+    "EN": "Aterro changes considerably on Sundays and during events"
+  },
+  "República y parque": {
+    "PT": "República e parque",
+    "EN": "Republic and park"
+  },
+  "Glória cultural": {
+    "PT": "Glória cultural",
+    "EN": "Cultural Glória"
+  },
+  "Domingo local": {
+    "PT": "Domingo local",
+    "EN": "Local Sunday"
+  },
+  "Deporte": {
+    "PT": "Esporte",
+    "EN": "Sports"
+  },
+  "Mañana en parque": {
+    "PT": "Manhã no parque",
+    "EN": "Morning in the park"
+  },
+  "Almuerzo económico": {
+    "PT": "Almoço econômico",
+    "EN": "Affordable lunch"
+  },
+  "Catete + Aterro": {
+    "PT": "Catete + Aterro",
+    "EN": "Catete + Aterro"
+  },
+  "MAM y entorno": {
+    "PT": "MAM e entorno",
+    "EN": "MAM and surroundings"
+  },
+  "Un domingo de parque sin correr": {
+    "PT": "Um domingo de parque sem pressa",
+    "EN": "An unhurried Sunday in the park"
+  },
+  "Cafés históricos": {
+    "PT": "Cafés históricos",
+    "EN": "Historic cafés"
+  },
+  "Restaurantes de oficina": {
+    "PT": "Restaurantes do Centro para o dia a dia",
+    "EN": "Downtown weekday restaurants"
+  },
+  "Porto Maravilha": {
+    "PT": "Porto Maravilha",
+    "EN": "Porto Maravilha"
+  },
+  "Mañana histórica": {
+    "PT": "Manhã histórica",
+    "EN": "Historic morning"
+  },
+  "Golden hour en Porto": {
+    "PT": "Golden hour no Porto",
+    "EN": "Golden hour in the port area"
+  },
+  "Agenda cultural de noche": {
+    "PT": "Programação cultural à noite",
+    "EN": "Evening cultural schedule"
+  },
+  "Comprueba cierres de calles y eventos en Porto antes de ir.": {
+    "PT": "Confira bloqueios de ruas e eventos no Porto antes de ir.",
+    "EN": "Check street closures and events in the port area before going."
+  },
+  "Centro a pie temprano": {
+    "PT": "Centro a pé cedo",
+    "EN": "Downtown on foot early in the day"
+  },
+  "Real Gabinete + Colombo": {
+    "PT": "Real Gabinete + Colombo",
+    "EN": "Real Gabinete + Colombo"
+  },
+  "Porto Maravilha sin intentar meter todo en dos horas": {
+    "PT": "Porto Maravilha sem tentar encaixar tudo em duas horas",
+    "EN": "Porto Maravilha without trying to fit everything into two hours"
+  },
+  "Restaurantes de Santa Teresa": {
+    "PT": "Restaurantes de Santa Teresa",
+    "EN": "Santa Teresa restaurants"
+  },
+  "Casas de samba": {
+    "PT": "Casas de samba",
+    "EN": "Samba venues"
+  },
+  "Regreso nocturno requiere plan": {
+    "PT": "A volta noturna exige planejamento",
+    "EN": "Nighttime return requires planning"
+  },
+  "Santa Teresa postal": {
+    "PT": "Santa Teresa clássica",
+    "EN": "Classic Santa Teresa"
+  },
+  "Santa Teresa a Lapa": {
+    "PT": "Santa Teresa à Lapa",
+    "EN": "Santa Teresa to Lapa"
+  },
+  "Noche con plan": {
+    "PT": "Noite planejada",
+    "EN": "Planned evening"
+  },
+  "Tarde cultural": {
+    "PT": "Tarde cultural",
+    "EN": "Cultural afternoon"
+  },
+  "Noche de samba": {
+    "PT": "Noite de samba",
+    "EN": "Samba night"
+  },
+  "Cocina brasileña": {
+    "PT": "Cozinha brasileira",
+    "EN": "Brazilian cuisine"
+  },
+  "Opciones junto a Lagoa": {
+    "PT": "Opções junto à Lagoa",
+    "EN": "Options around Lagoa"
+  },
+  "Desplazamientos combinan bus/app/bici": {
+    "PT": "Deslocamentos combinam ônibus/app/bicicleta",
+    "EN": "Getting around may combine bus/ride app/bike"
+  },
+  "Calor y sombra importan": {
+    "PT": "Calor e sombra importam",
+    "EN": "Heat and shade matter"
+  },
+  "Parque Lage y Jardim Botânico merecen tiempo": {
+    "PT": "Parque Lage e Jardim Botânico merecem tempo",
+    "EN": "Parque Lage and Jardim Botânico deserve time"
+  },
+  "Lagoa tranquila": {
+    "PT": "Lagoa tranquila",
+    "EN": "Relaxed Lagoa"
+  },
+  "Gávea cultural": {
+    "PT": "Gávea cultural",
+    "EN": "Cultural Gávea"
+  },
+  "Mañana verde": {
+    "PT": "Manhã verde",
+    "EN": "Green morning"
+  },
+  "Tarde tranquila": {
+    "PT": "Tarde tranquila",
+    "EN": "Relaxed afternoon"
+  },
+  "Atardecer en Lagoa": {
+    "PT": "Fim de tarde na Lagoa",
+    "EN": "Sunset at Lagoa"
+  },
+  "Noche en Gávea": {
+    "PT": "Noite na Gávea",
+    "EN": "Evening in Gávea"
+  },
+  "No calcules tiempo solo por distancia: accesos y tráfico cambian mucho.": {
+    "PT": "Não calcule o tempo apenas pela distância: acessos e trânsito mudam muito.",
+    "EN": "Do not estimate time by distance alone: access and traffic vary greatly."
+  },
+  "Parque Lage temprano": {
+    "PT": "Parque Lage cedo",
+    "EN": "Parque Lage early"
+  },
+  "Jardim Botânico con tiempo": {
+    "PT": "Jardim Botânico com tempo",
+    "EN": "Jardim Botânico with enough time"
+  },
+  "Restaurantes grandes": {
+    "PT": "Restaurantes grandes",
+    "EN": "Large restaurants"
+  },
+  "Shoppings": {
+    "PT": "Shoppings",
+    "EN": "Shopping centers"
+  },
+  "Quiosques": {
+    "PT": "Quiosques",
+    "EN": "Kiosks"
+  },
+  "Tráfico pesa mucho": {
+    "PT": "O trânsito pesa muito",
+    "EN": "Traffic matters a lot"
+  },
+  "Barra práctica": {
+    "PT": "Barra prática",
+    "EN": "Practical Barra"
+  },
+  "Shopping al calor/lluvia": {
+    "PT": "Shopping no calor/chuva",
+    "EN": "Shopping in heat/rain"
+  },
+  "Revisa ressaca, lluvia y acceso antes de ir a Prainha/Grumari.": {
+    "PT": "Confira ressaca, chuva e acesso antes de ir a Prainha/Grumari.",
+    "EN": "Check rough-sea conditions, rain and access before going to Prainha/Grumari."
+  },
+  "Un día entero en Oeste, no media tarde": {
+    "PT": "Um dia inteiro na Zona Oeste, não meia tarde",
+    "EN": "A full day in the West Zone, not half an afternoon"
+  },
+  "Comida nordestina": {
+    "PT": "Comida nordestina",
+    "EN": "Northeastern Brazilian food"
+  },
+  "Feira": {
+    "PT": "Feira",
+    "EN": "Fair"
+  },
+  "Comida popular": {
+    "PT": "Comida popular",
+    "EN": "Popular local food"
+  },
+  "Casas tradicionales": {
+    "PT": "Casas tradicionais",
+    "EN": "Traditional venues"
+  },
+  "Quadras necesitan agenda": {
+    "PT": "Quadras exigem programação",
+    "EN": "Samba school halls require checking the schedule"
+  },
+  "Samba de territorio": {
+    "PT": "Samba de território",
+    "EN": "Local samba"
+  },
+  "Almuerzo en Feira": {
+    "PT": "Almoço na Feira",
+    "EN": "Lunch at the Fair"
+  },
+  "Noche de quadra": {
+    "PT": "Noite de quadra",
+    "EN": "Evening at a samba school hall"
+  },
+  "En trayectos largos deja margen de retorno.": {
+    "PT": "Em trajetos longos, deixe margem para a volta.",
+    "EN": "On long journeys, allow extra time for the return."
+  },
+  "Samba según agenda real": {
+    "PT": "Samba conforme a programação real",
+    "EN": "Samba according to the actual schedule"
   }
 };
