@@ -1539,5 +1539,129 @@ export default {
   "suma cultura y vistas, y conecta naturalmente con el descenso hacia Selarón y Lapa.": {
     "PT": "soma cultura e vistas e se conecta naturalmente com a descida em direção à Selarón e à Lapa.",
     "EN": "it adds culture and views and connects naturally with the descent toward Selarón and Lapa."
+  },
+  "Flamengo | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Flamengo | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Flamengo | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Laranjeiras | Barrios | Ernestinho Carioca": {
+    "PT": "Laranjeiras | Bairros | Ernestinho Carioca",
+    "EN": "Laranjeiras | Neighborhoods | Ernestinho Carioca"
+  },
+  "Catete | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Catete | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Catete | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Glória | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Glória | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Glória | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Santa Teresa | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Santa Teresa | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Santa Teresa | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Qué mirar en Flamengo": {
+    "PT": "O que observar no Flamengo",
+    "EN": "What to see in Flamengo"
+  },
+  "Qué mirar en Catete": {
+    "PT": "O que observar no Catete",
+    "EN": "What to see in Catete"
+  },
+  "Qué mirar en Glória": {
+    "PT": "O que observar na Glória",
+    "EN": "What to see in Glória"
+  },
+  "Qué mirar en Santa Teresa": {
+    "PT": "O que observar em Santa Teresa",
+    "EN": "What to see in Santa Teresa"
+  },
+  "República y parque: Catete → Museu da República → Aterro": {
+    "PT": "República e parque: Catete → Museu da República → Aterro",
+    "EN": "Republic and park: Catete → Museu da República → Aterro"
+  },
+  "Glória cultural: Glória → Marina → MAM": {
+    "PT": "Glória cultural: Glória → Marina → MAM",
+    "EN": "Cultural Glória: Glória → Marina → MAM"
+  },
+  "Domingo local: Aterro → feria / plaza → comida": {
+    "PT": "Domingo local: Aterro → feira / praça → comida",
+    "EN": "Local Sunday: Aterro → fair / square → food"
+  },
+  "Residencial, arbolado y muy ligado al entorno de Cosme Velho.": {
+    "PT": "Residencial, arborizado e muito ligado ao entorno de Cosme Velho.",
+    "EN": "Residential, leafy and closely connected to the Cosme Velho area."
+  },
+  "COMBINAR": {
+    "PT": "COMBINAR",
+    "EN": "COMBINE"
+  },
+  "VIDA DE BARRIO": {
+    "PT": "VIDA DE BAIRRO",
+    "EN": "NEIGHBORHOOD LIFE"
+  },
+  "MOVILIDAD": {
+    "PT": "MOBILIDADE",
+    "EN": "GETTING AROUND"
+  },
+  "MI LECTURA": {
+    "PT": "MINHA LEITURA",
+    "EN": "MY TAKE"
+  },
+  "CENTRO / ZONA SUL": {
+    "PT": "CENTRO / ZONA SUL",
+    "EN": "DOWNTOWN / SOUTH ZONE"
+  },
+  "CENTRO": {
+    "PT": "CENTRO",
+    "EN": "DOWNTOWN"
+  },
+  "Santa Teresa tiene pendientes": {
+    "PT": "Santa Teresa tem ladeiras",
+    "EN": "Santa Teresa is hilly"
+  },
+  "Bondinho puede tener fila": {
+    "PT": "O Bondinho pode ter fila",
+    "EN": "The tram may have a queue"
+  },
+  "Santa Teresa postal: Bondinho → Largo dos Guimarães → Parque das Ruínas": {
+    "PT": "Santa Teresa clássica: Bondinho → Largo dos Guimarães → Parque das Ruínas",
+    "EN": "Classic Santa Teresa: Tram → Largo dos Guimarães → Parque das Ruínas"
+  },
+  "Santa Teresa a Lapa: Ruínas → Selarón → Arcos": {
+    "PT": "Santa Teresa à Lapa: Ruínas → Selarón → Arcos",
+    "EN": "Santa Teresa to Lapa: Ruínas → Selarón → Arcos"
+  },
+  "Noche con plan: Cena → samba/show → regreso por app/taxi": {
+    "PT": "Noite planejada: jantar → samba/show → volta de app/táxi",
+    "EN": "Planned evening: dinner → samba/show → return by ride app/taxi"
+  },
+  "No improvises regreso nocturno a pie entre zonas vacías.": {
+    "PT": "Não improvise a volta noturna a pé por trechos vazios.",
+    "EN": "Do not improvise a nighttime walk back through empty stretches."
+  },
+  "Abrir la guía completa: Flamengo + Glória →": {
+    "PT": "Abrir o guia completo: Flamengo + Glória →",
+    "EN": "Open full guide: Flamengo + Glória →"
+  },
+  "Abrir la guía completa: Santa Teresa + Lapa →": {
+    "PT": "Abrir o guia completo: Santa Teresa + Lapa →",
+    "EN": "Open full guide: Santa Teresa + Lapa →"
+  },
+  "Puntos de interés y contexto editorial de Flamengo y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial de Flamengo e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Flamengo and its corridor. The full guide includes neighboring areas."
+  },
+  "Puntos de interés y contexto editorial de Catete y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial de Catete e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Catete and its corridor. The full guide includes neighboring areas."
+  },
+  "Puntos de interés y contexto editorial de Glória y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial de Glória e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Glória and its corridor. The full guide includes neighboring areas."
+  },
+  "Puntos de interés y contexto editorial de Santa Teresa y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial de Santa Teresa e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Santa Teresa and its corridor. The full guide includes neighboring areas."
   }
 };
