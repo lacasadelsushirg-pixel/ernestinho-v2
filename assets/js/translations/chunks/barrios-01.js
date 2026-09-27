@@ -1343,5 +1343,125 @@ export default {
   "Praia Vermelha →": {
     "PT": "Praia Vermelha →",
     "EN": "Praia Vermelha →"
+  },
+  "Cómo vivir Flamengo": {
+    "PT": "Como viver o Flamengo",
+    "EN": "How to experience Flamengo"
+  },
+  "Aterro:": {
+    "PT": "Aterro:",
+    "EN": "Aterro:"
+  },
+  "Cultura:": {
+    "PT": "Cultura:",
+    "EN": "Culture:"
+  },
+  "Aterro, bahía, parques y buena conexión con el Centro.": {
+    "PT": "Aterro, baía, parques e boa conexão com o Centro.",
+    "EN": "Aterro, bay views, parks and easy access to Downtown."
+  },
+  "es parque, paisaje y conexión entre Zona Sul y Centro; su uso cambia bastante entre días laborables, fines de semana y grandes eventos.": {
+    "PT": "é parque, paisagem e conexão entre a Zona Sul e o Centro; seu uso muda bastante entre dias úteis, fins de semana e grandes eventos.",
+    "EN": "it is parkland, scenery and a connection between the South Zone and Downtown; how it is used changes considerably on weekdays, weekends and during major events."
+  },
+  "Cómo lo leo yo": {
+    "PT": "Como eu vejo o bairro",
+    "EN": "How I see the neighborhood"
+  },
+  "Para armar el día": {
+    "PT": "Para organizar o dia",
+    "EN": "For planning your day"
+  },
+  "Laranjeiras sin apuro": {
+    "PT": "Laranjeiras sem pressa",
+    "EN": "Laranjeiras without rushing"
+  },
+  "Largo do Machado como conexión": {
+    "PT": "Largo do Machado como conexão",
+    "EN": "Largo do Machado as a connection"
+  },
+  "Cosme Velho y Cristo": {
+    "PT": "Cosme Velho e Cristo",
+    "EN": "Cosme Velho and Christ the Redeemer"
+  },
+  "Para quién encaja": {
+    "PT": "Para quem combina",
+    "EN": "Who it suits"
+  },
+  "Catete con contexto": {
+    "PT": "Catete com contexto",
+    "EN": "Catete in context"
+  },
+  "Historia:": {
+    "PT": "História:",
+    "EN": "History:"
+  },
+  "Vida cotidiana:": {
+    "PT": "Vida cotidiana:",
+    "EN": "Everyday life:"
+  },
+  "historia, comercio local y acceso rápido al Centro.": {
+    "PT": "história, comércio local e acesso rápido ao Centro.",
+    "EN": "history, local commerce and quick access to Downtown."
+  },
+  "Glória entre barrio y Centro": {
+    "PT": "Glória entre bairro e Centro",
+    "EN": "Glória between neighborhood life and Downtown"
+  },
+  "Patrimonio:": {
+    "PT": "Patrimônio:",
+    "EN": "Heritage:"
+  },
+  "Domingo:": {
+    "PT": "Domingo:",
+    "EN": "Sunday:"
+  },
+  "Bahía:": {
+    "PT": "Baía:",
+    "EN": "Bay:"
+  },
+  "marina, feria, patrimonio y acceso al Centro.": {
+    "PT": "marina, feira, patrimônio e acesso ao Centro.",
+    "EN": "marina, fair, heritage and access to Downtown."
+  },
+  "Santa Teresa con más calma": {
+    "PT": "Santa Teresa com mais calma",
+    "EN": "Santa Teresa at a slower pace"
+  },
+  "Identidad:": {
+    "PT": "Identidade:",
+    "EN": "Identity:"
+  },
+  "Bondinho:": {
+    "PT": "Bondinho:",
+    "EN": "Tram:"
+  },
+  "Largo dos Guimarães:": {
+    "PT": "Largo dos Guimarães:",
+    "EN": "Largo dos Guimarães:"
+  },
+  "Parque das Ruínas:": {
+    "PT": "Parque das Ruínas:",
+    "EN": "Parque das Ruínas:"
+  },
+  "calles con pendiente, arte, miradores y casonas históricas.": {
+    "PT": "ruas íngremes, arte, mirantes e casarões históricos.",
+    "EN": "hilly streets, art, viewpoints and historic mansions."
+  },
+  "Arte y Cultura →": {
+    "PT": "Arte e Cultura →",
+    "EN": "Art & Culture →"
+  },
+  "Ferias y compras →": {
+    "PT": "Feiras e compras →",
+    "EN": "Fairs & shopping →"
+  },
+  "Cristo Redentor →": {
+    "PT": "Cristo Redentor →",
+    "EN": "Christ the Redeemer →"
+  },
+  "Guía del Bonde →": {
+    "PT": "Guia do Bonde →",
+    "EN": "Tram guide →"
   }
 };
