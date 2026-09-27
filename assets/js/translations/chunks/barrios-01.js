@@ -1183,5 +1183,125 @@ export default {
   "Urca no tiene estación de metro propia. La conexión habitual se completa desde Botafogo por superficie.": {
     "PT": "A Urca não tem estação de metrô própria. A conexão habitual é completada a partir de Botafogo por transporte de superfície.",
     "EN": "Urca does not have its own metro station. The usual connection is completed from Botafogo by surface transport."
+  },
+  "Copacabana | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Copacabana | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Copacabana | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Ipanema | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Ipanema | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Ipanema | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Leblon | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Leblon | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Leblon | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Botafogo | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Botafogo | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Botafogo | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Urca | Barrios de Río | Ernestinho Carioca": {
+    "PT": "Urca | Bairros do Rio | Ernestinho Carioca",
+    "EN": "Urca | Rio Neighborhoods | Ernestinho Carioca"
+  },
+  "Zona Sul · GUÍA DE BARRIOS": {
+    "PT": "Zona Sul · GUIA DE BAIRROS",
+    "EN": "South Zone · NEIGHBORHOOD GUIDE"
+  },
+  "ZONA SUL": {
+    "PT": "ZONA SUL",
+    "EN": "SOUTH ZONE"
+  },
+  "PF y quilo": {
+    "PT": "PF e quilo",
+    "EN": "PF and pay-by-weight restaurants"
+  },
+  "Abrir Transportes →": {
+    "PT": "Abrir Transportes →",
+    "EN": "Open Transport →"
+  },
+  "Mira arriba": {
+    "PT": "Olhe para cima",
+    "EN": "Look up"
+  },
+  "Arquitectura y calles interiores → Bairro Peixoto": {
+    "PT": "Arquitetura e ruas internas → Bairro Peixoto",
+    "EN": "Architecture and inner streets → Bairro Peixoto"
+  },
+  "Mayores": {
+    "PT": "Pessoas idosas",
+    "EN": "Older travelers"
+  },
+  "Comer ahora": {
+    "PT": "Comer agora",
+    "EN": "Eat now"
+  },
+  "Último día": {
+    "PT": "Último dia",
+    "EN": "Last day"
+  },
+  "Ver guía de Praia de Copacabana →": {
+    "PT": "Ver guia da Praia de Copacabana →",
+    "EN": "See Praia de Copacabana guide →"
+  },
+  "Caminar algunas cuadras lejos del mar": {
+    "PT": "Caminhar algumas quadras longe do mar",
+    "EN": "Walk a few blocks away from the beachfront"
+  },
+  "Hospedaje →": {
+    "PT": "Hospedagem →",
+    "EN": "Where to stay →"
+  },
+  "Guía editorial para orientar el paseo. Horarios, transporte, eventos, clima y condiciones del mar cambian; confirma esos datos antes de salir.": {
+    "PT": "Guia editorial para orientar o passeio. Horários, transporte, eventos, clima e condições do mar mudam; confirme esses dados antes de sair.",
+    "EN": "Editorial guide to help plan your visit. Hours, transport, events, weather and sea conditions change; confirm them before heading out."
+  },
+  "Ipanema esencial: General Osório → playa → Garota de Ipanema / Vinicius → Arpoador": {
+    "PT": "Ipanema essencial: General Osório → praia → Garota de Ipanema / Vinicius → Arpoador",
+    "EN": "Essential Ipanema: General Osório → beach → Garota de Ipanema / Vinicius → Arpoador"
+  },
+  "Leblon a pie: Jardim de Alah → orla → calles interiores → mirador / café": {
+    "PT": "Leblon a pé: Jardim de Alah → orla → ruas internas → mirante / café",
+    "EN": "Leblon on foot: Jardim de Alah → waterfront → inner streets → viewpoint / café"
+  },
+  "Atardecer sin correr: Ipanema → Arpoador → cena cercana": {
+    "PT": "Fim de tarde sem pressa: Ipanema → Arpoador → jantar por perto",
+    "EN": "Unhurried sunset: Ipanema → Arpoador → dinner nearby"
+  },
+  "Urca clásica: Praia Vermelha → Pão de Açúcar → Mureta": {
+    "PT": "Urca clássica: Praia Vermelha → Pão de Açúcar → Mureta",
+    "EN": "Classic Urca: Praia Vermelha → Sugarloaf Mountain → Mureta"
+  },
+  "Botafogo local: Metro → cafés / cultura → bares": {
+    "PT": "Botafogo local: metrô → cafés / cultura → bares",
+    "EN": "Local Botafogo: metro → cafés / culture → bars"
+  },
+  "Bahía y noche: Urca al atardecer → Botafogo para cenar": {
+    "PT": "Baía e noite: Urca no fim da tarde → Botafogo para jantar",
+    "EN": "Bay and evening: Urca at sunset → Botafogo for dinner"
+  },
+  "Puntos de interés y contexto editorial de Ipanema y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial de Ipanema e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Ipanema and its corridor. The full guide includes neighboring areas."
+  },
+  "Puntos de interés y contexto editorial de Leblon y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial do Leblon e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Leblon and its corridor. The full guide includes neighboring areas."
+  },
+  "Puntos de interés y contexto editorial de Botafogo y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial de Botafogo e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Botafogo and its corridor. The full guide includes neighboring areas."
+  },
+  "Puntos de interés y contexto editorial de Urca y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial da Urca e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Urca and its corridor. The full guide includes neighboring areas."
+  },
+  "Abrir la guía completa: Ipanema + Leblon →": {
+    "PT": "Abrir o guia completo: Ipanema + Leblon →",
+    "EN": "Open full guide: Ipanema + Leblon →"
+  },
+  "Abrir la guía completa: Botafogo + Urca →": {
+    "PT": "Abrir o guia completo: Botafogo + Urca →",
+    "EN": "Open full guide: Botafogo + Urca →"
   }
 };
