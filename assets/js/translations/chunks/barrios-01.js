@@ -1847,5 +1847,33 @@ export default {
   "El ambiente depende mucho del día y de la agenda. Antes de desplazarte, confirma qué está funcionando y cómo volverás.": {
     "PT": "O ambiente depende muito do dia e da programação. Antes de se deslocar, confirme o que está funcionando e como você vai voltar.",
     "EN": "The atmosphere depends greatly on the day and schedule. Before heading there, confirm what is operating and how you will get back."
+  },
+  "Puntos de interés y contexto editorial de Lapa y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial da Lapa e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Lapa and its corridor. The full guide includes neighboring areas."
+  },
+  "Centro histórico: Cinelândia → Carioca → Colombo → Real Gabinete → Praça XV": {
+    "PT": "Centro histórico: Cinelândia → Carioca → Colombo → Real Gabinete → Praça XV",
+    "EN": "Historic Downtown: Cinelândia → Carioca → Colombo → Real Gabinete → Praça XV"
+  },
+  "Porto Maravilha: AquaRio / Roda → Etnias → MAR → Museu do Amanhã": {
+    "PT": "Porto Maravilha: AquaRio / Roda → Etnias → MAR → Museu do Amanhã",
+    "EN": "Porto Maravilha: AquaRio / Ferris wheel → Etnias → MAR → Museu do Amanhã"
+  },
+  "Pequena África: Pedra do Sal → Cais do Valongo → MUHCAB → entorno portuario": {
+    "PT": "Pequena África: Pedra do Sal → Cais do Valongo → MUHCAB → entorno portuário",
+    "EN": "Little Africa: Pedra do Sal → Cais do Valongo → MUHCAB → port area"
+  },
+  "Cinelândia, Theatro Municipal, Biblioteca Nacional, Real Gabinete, Candelária, Mosteiro de São Bento y Praça XV permiten leer distintas épocas de la ciudad.": {
+    "PT": "Cinelândia, Theatro Municipal, Biblioteca Nacional, Real Gabinete, Candelária, Mosteiro de São Bento e Praça XV permitem ler diferentes épocas da cidade.",
+    "EN": "Cinelândia, Theatro Municipal, Biblioteca Nacional, Real Gabinete, Candelária, Mosteiro de São Bento and Praça XV reveal different periods of the city."
+  },
+  "Puntos de interés y contexto editorial de Centro y su corredor. La guía completa incluye los barrios vecinos.": {
+    "PT": "Pontos de interesse e contexto editorial do Centro e seu eixo. O guia completo inclui os bairros vizinhos.",
+    "EN": "Points of interest and editorial context for Downtown and its corridor. The full guide includes neighboring areas."
+  },
+  "VERDE": {
+    "PT": "VERDE",
+    "EN": "GREEN"
   }
 };
