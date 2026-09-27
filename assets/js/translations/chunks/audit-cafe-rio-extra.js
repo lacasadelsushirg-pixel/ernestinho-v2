@@ -1,0 +1,1 @@
+export default {"Café Río | Ernestinho Carioca. Cafés para conversar, trabajar un rato o simplemente mirar Río pasar.":{"PT":"Café Rio | Ernestinho Carioca. Cafés para conversar, trabalhar um pouco ou simplesmente ver o Rio passar.","EN":"Rio Coffee | Ernestinho Carioca. Cafés to talk, work for a while or simply watch Rio go by."}};

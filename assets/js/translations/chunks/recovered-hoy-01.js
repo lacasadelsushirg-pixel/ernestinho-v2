@@ -1,0 +1,1 @@
+export default {"Mucho calor":{"PT":"Muito calor","EN":"Very hot"},"Lugar":{"PT":"Local","EN":"Place"},"Mañana":{"PT":"Amanhã","EN":"Tomorrow"},"Tarde":{"PT":"Tarde","EN":"Afternoon"},"Moderado":{"PT":"Moderado","EN":"Moderate"}};

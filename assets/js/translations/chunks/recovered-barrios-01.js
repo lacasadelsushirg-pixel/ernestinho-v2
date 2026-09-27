@@ -1,0 +1,1 @@
+export default {"Real Gabinete Português de Leitura":{"PT":"Real Gabinete Português de Leitura","EN":"Royal Portuguese Reading Room"},"Mosteiro de São Bento":{"PT":"Mosteiro de São Bento"},"Forte de Copacabana":{"PT":"Forte de Copacabana"},"Cocina brasileña":{"PT":"Cozinha brasileira"}};

@@ -1,0 +1,1 @@
+export default {"Enseada de Botafogo":{"PT":"Enseada de Botafogo","EN":"Botafogo Bay"},"Calçadão de Copacabana":{"PT":"Calçadão de Copacabana","EN":"Copacabana promenade"},"Forte de Copacabana":{"PT":"Forte de Copacabana"},"Praia de Grumari":{"PT":"Praia de Grumari","EN":"Grumari Beach"},"Fortaleza de Santa Cruz":{"PT":"Fortaleza de Santa Cruz","EN":"Fortaleza de Santa Cruz"}};
