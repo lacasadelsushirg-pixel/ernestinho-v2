@@ -7,6 +7,7 @@ const sectionChunks = {
   "cafe-rio": ["cafe-rio-01.js"],
   "compras": ["compras-01.js"],
   "consejos": ["consejos-01.js"],
+  "cultura": ["cultura-01.js"],
   "eventos": ["eventos-01.js"],
   "experiencias": ["experiencias-01.js"],
   "familia": ["familia-01.js"],
@@ -19,6 +20,7 @@ const sectionChunks = {
   "playas": ["playas-01.js"],
   "quiero": ["quiero-01.js"],
   "transportes": ["transportes-01.js"],
+  "television": ["television-01.js"],
   "vida-nocturna": ["vida-nocturna-01.js"],
 };
 async function loadSectionTranslations() {
