@@ -232,7 +232,7 @@ export default {
     "PT": "Gastronomia",
     "EN": "Food"
   },
-  "General Osório → playa → Garota de Ipanema / Vinicius → Arpoador": {
+  "General Osório, playa, memoria de la bossa nova y Arpoador": {
     "PT": "General Osório → praia → Garota de Ipanema / Vinicius → Arpoador",
     "EN": "General Osório → beach → Garota de Ipanema / Vinicius → Arpoador"
   },
@@ -240,9 +240,9 @@ export default {
     "PT": "Glória",
     "EN": "Glória"
   },
-  "Glória → Marina → MAM": {
-    "PT": "Glória → Marina → MAM",
-    "EN": "Glória → Marina → MAM"
+  "Glória, Marina da Glória y MAM": {
+    "PT": "Glória, Marina da Glória y MAM",
+    "EN": "Glória, Marina da Glória y MAM"
   },
   "Guía de Río": {
     "PT": "Guia do Rio",
@@ -260,7 +260,7 @@ export default {
     "PT": "Hospedagem",
     "EN": "Accommodation"
   },
-  "Jardim de Alah → orla → calles interiores → mirador / café": {
+  "Jardim de Alah, orla, calles interiores y cafés de Leblon": {
     "PT": "Jardim de Alah → orla → ruas internas → mirante / café",
     "EN": "Jardim de Alah → waterfront → inner streets → viewpoint / café"
   },
@@ -300,7 +300,7 @@ export default {
     "PT": "Maracanã com contexto",
     "EN": "Maracanã in context"
   },
-  "Maracanã → museo/tour o partido → comida cercana": {
+  "Maracanã, visita o partido y gastronomía de la zona": {
     "PT": "Maracanã → museu/tour ou jogo → comida por perto",
     "EN": "Maracanã → museum/tour or match → nearby food"
   },
@@ -348,7 +348,7 @@ export default {
     "PT": "Museus podem ter horários especiais em feriados.",
     "EN": "Museums may have special hours on public holidays."
   },
-  "Museu do Samba → barrio / quadra según agenda": {
+  "Museu do Samba, cultura de barrio y quadras según agenda": {
     "PT": "Museu do Samba → bairro / quadra conforme a agenda",
     "EN": "Museu do Samba → neighborhood / samba-school venue depending on the schedule"
   },
@@ -440,8 +440,8 @@ export default {
     "PT": "As praias dependem mais do mar e do clima",
     "EN": "Beaches depend more on sea and weather conditions"
   },
-  "Praia Vermelha → Pão de Açúcar → Mureta": {
-    "PT": "Praia Vermelha → Pão de Açúcar → Mureta",
+  "Praia Vermelha, Pão de Açúcar y Mureta da Urca": {
+    "PT": "Praia Vermelha, Pão de Açúcar y Mureta da Urca",
     "EN": "Praia Vermelha → Sugarloaf Mountain → Mureta"
   },
   "Prainha temprano cuando el mar acompaña": {
@@ -1256,11 +1256,11 @@ export default {
     "PT": "Guia editorial para orientar o passeio. Horários, transporte, eventos, clima e condições do mar mudam; confirme esses dados antes de sair.",
     "EN": "Editorial guide to help plan your visit. Hours, transport, events, weather and sea conditions change; confirm them before heading out."
   },
-  "Ipanema esencial: General Osório → playa → Garota de Ipanema / Vinicius → Arpoador": {
+  "Ipanema esencial: General Osório, playa, memoria de la bossa nova y Arpoador": {
     "PT": "Ipanema essencial: General Osório → praia → Garota de Ipanema / Vinicius → Arpoador",
     "EN": "Essential Ipanema: General Osório → beach → Garota de Ipanema / Vinicius → Arpoador"
   },
-  "Leblon a pie: Jardim de Alah → orla → calles interiores → mirador / café": {
+  "Leblon a pie: Jardim de Alah, orla, calles interiores y cafés de Leblon": {
     "PT": "Leblon a pé: Jardim de Alah → orla → ruas internas → mirante / café",
     "EN": "Leblon on foot: Jardim de Alah → waterfront → inner streets → viewpoint / café"
   },
@@ -1268,8 +1268,8 @@ export default {
     "PT": "Fim de tarde sem pressa: Ipanema → Arpoador → jantar por perto",
     "EN": "Unhurried sunset: Ipanema → Arpoador → dinner nearby"
   },
-  "Urca clásica: Praia Vermelha → Pão de Açúcar → Mureta": {
-    "PT": "Urca clássica: Praia Vermelha → Pão de Açúcar → Mureta",
+  "Urca clásica: Praia Vermelha, Pão de Açúcar y Mureta da Urca": {
+    "PT": "Urca clássica: Praia Vermelha, Pão de Açúcar y Mureta da Urca",
     "EN": "Classic Urca: Praia Vermelha → Sugarloaf Mountain → Mureta"
   },
   "Botafogo local: Metro → cafés / cultura → bares": {
@@ -1580,9 +1580,9 @@ export default {
     "PT": "República e parque: Catete → Museu da República → Aterro",
     "EN": "Republic and park: Catete → Museu da República → Aterro"
   },
-  "Glória cultural: Glória → Marina → MAM": {
-    "PT": "Glória cultural: Glória → Marina → MAM",
-    "EN": "Cultural Glória: Glória → Marina → MAM"
+  "Glória cultural: Glória, Marina da Glória y MAM": {
+    "PT": "Glória cultural: Glória, Marina da Glória y MAM",
+    "EN": "Cultural Glória: Glória, Marina da Glória y MAM"
   },
   "Domingo local: Aterro → feria / plaza → comida": {
     "PT": "Domingo local: Aterro → feira / praça → comida",
@@ -2432,7 +2432,7 @@ export default {
     "PT": "Urca no fim da tarde",
     "EN": "Urca at sunset"
   },
-  "Playas del oeste: Recreio → Prainha → Grumari según condiciones": {
+  "Playas del oeste: Recreio, Prainha y Grumari, eligiendo según las condiciones del día": {
     "PT": "Praias do oeste: Recreio → Prainha → Grumari conforme as condições",
     "EN": "West Zone beaches: Recreio → Prainha → Grumari depending on conditions"
   },
@@ -2468,7 +2468,7 @@ export default {
     "PT": "O que observar em São Cristóvão",
     "EN": "What to see in São Cristóvão"
   },
-  "Fútbol: Maracanã → museo/tour o partido → comida cercana": {
+  "Fútbol: Maracanã, visita o partido y gastronomía de la zona": {
     "PT": "Futebol: Maracanã → museu/tour ou jogo → comida por perto",
     "EN": "Football: Maracanã → museum/tour or match → food nearby"
   },
@@ -2476,7 +2476,7 @@ export default {
     "PT": "Nordeste no Rio: Feira de São Cristóvão com tempo para comer e ouvir música",
     "EN": "Northeastern Brazil in Rio: Feira de São Cristóvão with time to eat and listen to music"
   },
-  "Samba de territorio: Museu do Samba → barrio / quadra según agenda": {
+  "Samba de territorio: Museu do Samba, cultura de barrio y quadras según agenda": {
     "PT": "Samba de território: Museu do Samba → bairro / quadra conforme a programação",
     "EN": "Local samba: Museu do Samba → neighborhood / samba school hall depending on the schedule"
   },
@@ -2832,11 +2832,11 @@ export default {
     "PT": "Jantar → samba/show → volta de app/táxi",
     "EN": "Dinner → samba/show → return by ride app/taxi"
   },
-  "Parque Lage → Jardim Botânico → café": {
-    "PT": "Parque Lage → Jardim Botânico → café",
-    "EN": "Parque Lage → Jardim Botânico → café"
+  "Parque Lage, Jardim Botânico y cafés del sector": {
+    "PT": "Parque Lage, Jardim Botânico y cafés del sector",
+    "EN": "Parque Lage, Jardim Botânico y cafés del sector"
   },
-  "Recreio → Prainha → Grumari según condiciones": {
+  "Recreio, Prainha y Grumari, eligiendo según las condiciones del día": {
     "PT": "Recreio → Prainha → Grumari conforme as condições",
     "EN": "Recreio → Prainha → Grumari depending on conditions"
   },
