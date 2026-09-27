@@ -12,7 +12,7 @@ const sectionChunks = {
   "compras": ["compras-01.js", "recovered-compras-01.js"],
   "consejos": ["consejos-01.js", "recovered-consejos-01.js"],
   "eventos": ["eventos-01.js", "recovered-eventos-01.js"],
-  "experiencias": ["experiencias-01.js", "recovered-experiencias-01.js"],
+  "experiencias": ["experiencias-01.js", "recovered-experiencias-01.js", "audit-experiencias-extra.js"],
   "familia": ["familia-01.js", "recovered-familia-01.js"],
   "fotografia": ["fotografia-01.js", "recovered-fotografia-01.js"],
   "gastronomia": ["gastronomia-01.js", "recovered-gastronomia-01.js", "recovered-gastronomia-02.js", "recovered-gastronomia-03.js", "recovered-gastronomia-04.js", "recovered-gastronomia-05.js"],
