@@ -5,8 +5,8 @@ export default {
     "EN": "Lunch"
   },
   "Alta demanda en fines de semana": {
-    "PT": "Alta demanda en fins de semana",
-    "EN": "Alta demanda en weekends"
+    "PT": "Alta demanda nos fins de semana",
+    "EN": "High demand on weekends"
   },
   "Amanecer": {
     "PT": "Nascer do sol",
@@ -25,8 +25,8 @@ export default {
     "EN": "Here you discover another Rio: football, samba, popular culture, parks, residential neighborhoods and major institutions outside the classic South Zone circuit."
   },
   "Arpoador al final de la tarde": {
-    "PT": "Arpoador al fim da tarde",
-    "EN": "Arpoador al late afternoon"
+    "PT": "Arpoador no fim da tarde",
+    "EN": "Arpoador in the late afternoon"
   },
   "Arquitectura": {
     "PT": "Arquitetura",
@@ -53,8 +53,8 @@ export default {
     "EN": "Bay, mountains, food and local nightlife. It is one of the best areas for combining major postcard views with more local Rio scenes."
   },
   "Bairro Peixoto para entender el barrio residencial": {
-    "PT": "Bairro Peixoto para entender el bairro residencial",
-    "EN": "Bairro Peixoto para entender el neighborhood residencial"
+    "PT": "Bairro Peixoto para entender o lado residencial do bairro",
+    "EN": "Bairro Peixoto to understand the neighborhood's residential side"
   },
   "Bares": {
     "PT": "Bares",
@@ -77,8 +77,8 @@ export default {
     "EN": "Cafés"
   },
   "Caminatas fáciles por la orla": {
-    "PT": "caminhadas fáciles por la orla",
-    "EN": "walks fáciles por la orla"
+    "PT": "Caminhadas fáceis pela orla",
+    "EN": "Easy walks along the waterfront"
   },
   "Cena": {
     "PT": "Jantar",
@@ -105,24 +105,24 @@ export default {
     "EN": "Combine the beach with coffee or food without crossing the city"
   },
   "Comida afro-brasileña": {
-    "PT": "comida afro-brasileña",
-    "EN": "food afro-brasileña"
+    "PT": "Comida afro-brasileira",
+    "EN": "Afro-Brazilian food"
   },
   "Comida con vista": {
-    "PT": "comida con vista",
-    "EN": "food con vista"
+    "PT": "Comida com vista",
+    "EN": "Food with a view"
   },
   "Comida de bar": {
-    "PT": "comida de bar",
-    "EN": "food de bar"
+    "PT": "Comida de bar",
+    "EN": "Bar food"
   },
   "Comida de barrio": {
-    "PT": "comida de bairro",
-    "EN": "food de neighborhood"
+    "PT": "Comida de bairro",
+    "EN": "Neighborhood food"
   },
   "Comida rápida de playa": {
-    "PT": "comida rápida de praia",
-    "EN": "food rápida de beach"
+    "PT": "Comida rápida de praia",
+    "EN": "Quick beach food"
   },
   "Compras": {
     "PT": "Compras",
@@ -145,8 +145,8 @@ export default {
     "EN": "Two faces of the same bohemian Rio: Santa Teresa climbs through historic houses and art; Lapa concentrates arches, samba, bars and nightlife."
   },
   "Día de naturaleza": {
-    "PT": "Día de natureza",
-    "EN": "Día de nature"
+    "PT": "Dia de natureza",
+    "EN": "Nature day"
   },
   "Día de partido": {
     "PT": "Dia de jogo",
@@ -165,8 +165,8 @@ export default {
     "EN": "Getting back from Urca can take longer during events or on weekends."
   },
   "En Mureta, protege objetos cerca del agua.": {
-    "PT": "En Mureta, protege objetos perto del agua.",
-    "EN": "En Mureta, protege objetos nearl agua."
+    "PT": "Na Mureta, proteja seus objetos perto da água.",
+    "EN": "At the Mureta, keep your belongings secure near the water."
   },
   "En días de mar fuerte, prioriza banderas y guardavidas.": {
     "PT": "Em dias de mar forte, priorize as bandeiras e os guarda-vidas.",
@@ -181,8 +181,8 @@ export default {
     "EN": "At the beach, watch your belongings when you go into the water."
   },
   "En playas aisladas planifica regreso y señal.": {
-    "PT": "En praias aisladas planifica regreso y señal.",
-    "EN": "En beaches aisladas planifica regreso y señal."
+    "PT": "Em praias isoladas, planeje a volta e verifique a cobertura de celular.",
+    "EN": "At isolated beaches, plan your return and check mobile coverage."
   },
   "Escadaria Selarón": {
     "PT": "Escadaria Selarón",
@@ -241,8 +241,8 @@ export default {
     "EN": "Glória"
   },
   "Glória → Marina → MAM": {
-    "PT": "Glória → marina → MAM",
-    "EN": "Glória → seaina → MAM"
+    "PT": "Glória → Marina → MAM",
+    "EN": "Glória → Marina → MAM"
   },
   "Guía de Río": {
     "PT": "Guia do Rio",
@@ -253,8 +253,8 @@ export default {
     "EN": "History"
   },
   "Horarios cambian fuerte fuera de días laborales": {
-    "PT": "horários cambian fuerte fuera de días laborales",
-    "EN": "hours cambian fuerte fuera de días laborales"
+    "PT": "Os horários podem mudar bastante fora dos dias úteis",
+    "EN": "Hours can change significantly outside weekdays"
   },
   "Hospedaje": {
     "PT": "Hospedagem",
@@ -285,8 +285,8 @@ export default {
     "EN": "The hills can be a real issue for visitors with reduced mobility."
   },
   "Lleva agua en días calurosos.": {
-    "PT": "leve água en días calurosos.",
-    "EN": "bring water en días calurosos."
+    "PT": "Leve água em dias quentes.",
+    "EN": "Bring water on hot days."
   },
   "Lluvia": {
     "PT": "Chuva",
@@ -297,20 +297,20 @@ export default {
     "EN": "Movement patterns change a lot after office hours."
   },
   "Maracanã con contexto": {
-    "PT": "maracanã con contexto",
-    "EN": "seaacanã con contexto"
+    "PT": "Maracanã com contexto",
+    "EN": "Maracanã in context"
   },
   "Maracanã → museo/tour o partido → comida cercana": {
     "PT": "Maracanã → museu/tour o partido → comida cercana",
     "EN": "Maracanã → museum/tour o partido → comida cercana"
   },
   "Marina da Glória": {
-    "PT": "marina da Glória",
-    "EN": "seaina da Glória"
+    "PT": "Marina da Glória",
+    "EN": "Marina da Glória"
   },
   "Mañana en Santa Teresa": {
-    "PT": "Mañana em Santa Teresa",
-    "EN": "Mañana in Santa Teresa"
+    "PT": "Manhã em Santa Teresa",
+    "EN": "Morning in Santa Teresa"
   },
   "Mercados": {
     "PT": "Mercados",
@@ -333,24 +333,24 @@ export default {
     "EN": "Museum"
   },
   "Museo / parque": {
-    "PT": "museu / parque",
-    "EN": "museum / parque"
+    "PT": "Museu / parque",
+    "EN": "Museum / park"
   },
   "Museos": {
     "PT": "Museus",
     "EN": "Museums"
   },
   "Museos de tarde": {
-    "PT": "museus de tarde",
-    "EN": "museums de tarde"
+    "PT": "Museus à tarde",
+    "EN": "Museums in the afternoon"
   },
   "Museos pueden tener horarios especiales en feriados.": {
     "PT": "Museus podem ter horários especiais em feriados.",
     "EN": "Museums may have special hours on public holidays."
   },
   "Museu do Samba → barrio / quadra según agenda": {
-    "PT": "Museu do Samba → bairro / quadra según agenda",
-    "EN": "Museu do Samba → neighborhood / quadra según agenda"
+    "PT": "Museu do Samba → bairro / quadra conforme a agenda",
+    "EN": "Museu do Samba → neighborhood / samba-school venue depending on the schedule"
   },
   "Naturaleza": {
     "PT": "Natureza",
