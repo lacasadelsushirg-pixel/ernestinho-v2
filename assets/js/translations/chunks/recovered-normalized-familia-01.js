@@ -1,0 +1,1 @@
+export default {"Arte y Cultura":{"PT":"Arte e cultura","EN":"Art and culture"},"Campo de São Cristóvão, s/n — São Cristóvão.":{"PT":"Campo de São Cristóvão, s/nº – São Cristóvão.","EN":"Campo de São Cristóvão, no number – São Cristóvão."},"Mi consejo:":{"PT":"Minha dica:","EN":"My tip:"}};

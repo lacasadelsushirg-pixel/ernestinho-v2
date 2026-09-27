@@ -1,0 +1,1 @@
+export default {"Arte y Cultura":{"PT":"Arte e cultura","EN":"Art and culture"},"Museu da República – Palácio do Catete":{"PT":"Museu da República — Palácio do Catete","EN":"Museu da República — Palácio do Catete"}};

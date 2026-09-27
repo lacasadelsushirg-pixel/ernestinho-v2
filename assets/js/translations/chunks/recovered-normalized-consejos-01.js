@@ -1,0 +1,1 @@
+export default {"Mi consejo:":{"PT":"Minha dica:","EN":"My tip:"},"👨‍👩‍👧 Con niños":{"PT":"Com crianças","EN":"With kids"},"👵 Adultos mayores":{"PT":"Idosos","EN":"Older adults"},"♿ Movilidad reducida":{"PT":"Mobilidade reduzida","EN":"Reduced mobility"},"💛 Parejas":{"PT":"Casais","EN":"Couples"}};

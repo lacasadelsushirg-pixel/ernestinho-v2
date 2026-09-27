@@ -1,0 +1,1 @@
+export default {"CARIOCA":{"PT":"Carioca"},"Ubicación:":{"PT":"Localização:","EN":"Location:"},"Cómo llegar:":{"PT":"Como chegar:","EN":"How to get there:"},"Mi consejo:":{"PT":"Minha dica:","EN":"My tip:"},"PLANIFICACIÓN":{"PT":"planejamento","EN":"planning"},"GASTRONOMÍA":{"PT":"Gastronomia","EN":"Food"},"Google Maps ↗":{"PT":"Google Maps↗"},"Waze ↗":{"PT":"Waze↗"}};

@@ -1,0 +1,1 @@
+export default {"Antes de ir:":{"PT":"Antes de ir:","EN":"Before you go:"},"EXPLORA POR CATEGORÍA":{"PT":"Explore por categoria","EN":"Explore by category"},"Fútbol · historia":{"PT":"Futebol e história","EN":"Football & history"}};

@@ -1,0 +1,1 @@
+export default {"COSTA VERDE":{"PT":"Costa Verde","EN":"Costa Verde"},"PASEO EN BARCO":{"PT":"✓ Passeio de barco","EN":"✓ Boat trip"},"PLAYA":{"PT":"Praia","EN":"Beach"},"Antes de reservar:":{"PT":"Antes de reservar:","EN":"Before booking:"},"HISTORIA":{"PT":"História","EN":"History"},"RECORRIDO A PIE":{"PT":"Passeio a pé","EN":"Walking tour"}};
