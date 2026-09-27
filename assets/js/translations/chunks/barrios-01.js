@@ -1463,5 +1463,81 @@ export default {
   "Guía del Bonde →": {
     "PT": "Guia do Bonde →",
     "EN": "Tram guide →"
+  },
+  "Metrô Flamengo y el corredor hacia Largo do Machado permiten moverse sin depender siempre del auto.": {
+    "PT": "O Metrô Flamengo e o eixo em direção ao Largo do Machado permitem se deslocar sem depender sempre do carro.",
+    "EN": "Flamengo metro and the corridor toward Largo do Machado make it possible to get around without always relying on a car."
+  },
+  "el eje hacia Glória y Centro conecta con MAM, Marina y otros espacios culturales.": {
+    "PT": "o eixo em direção à Glória e ao Centro conecta com o MAM, a Marina e outros espaços culturais.",
+    "EN": "the corridor toward Glória and Downtown connects with MAM, the Marina and other cultural spaces."
+  },
+  "Es un barrio para quien quiere una base más tranquila sin alejarse demasiado de Botafogo, Flamengo y el acceso hacia Cosme Velho.": {
+    "PT": "É um bairro para quem quer uma base mais tranquila sem ficar longe demais de Botafogo, Flamengo e do acesso a Cosme Velho.",
+    "EN": "It suits travelers looking for a quieter base without being too far from Botafogo, Flamengo and access toward Cosme Velho."
+  },
+  "Combina naturalmente con Largo do Machado, Flamengo, Cosme Velho y una jornada hacia el Cristo.": {
+    "PT": "Combina naturalmente com Largo do Machado, Flamengo, Cosme Velho e um dia voltado ao Cristo.",
+    "EN": "It combines naturally with Largo do Machado, Flamengo, Cosme Velho and a day around Christ the Redeemer."
+  },
+  "Residencial y arbolado, funciona para quien quiere entender una parte menos turística de Zona Sul y seguir bien conectado con Flamengo, Botafogo y Cosme Velho.": {
+    "PT": "Residencial e arborizado, funciona para quem quer conhecer uma parte menos turística da Zona Sul e continuar bem conectado com Flamengo, Botafogo e Cosme Velho.",
+    "EN": "Residential and leafy, it suits visitors who want to experience a less tourist-oriented part of the South Zone while staying well connected to Flamengo, Botafogo and Cosme Velho."
+  },
+  "El metro más útil para buena parte del barrio está en el entorno de Largo do Machado. Desde allí, el último tramo depende de tu destino y de las pendientes.": {
+    "PT": "O metrô mais útil para boa parte do bairro fica no entorno do Largo do Machado. A partir dali, o último trecho depende do destino e das ladeiras.",
+    "EN": "The most useful metro for much of the neighborhood is around Largo do Machado. From there, the final stretch depends on your destination and the hills."
+  },
+  "Laranjeiras se conecta naturalmente con Cosme Velho. Si tienes entrada con hora marcada, deja margen para el desplazamiento final.": {
+    "PT": "Laranjeiras se conecta naturalmente com Cosme Velho. Se você tiver ingresso com horário marcado, deixe uma margem para o deslocamento final.",
+    "EN": "Laranjeiras connects naturally with Cosme Velho. If you have a timed ticket, allow extra time for the final leg."
+  },
+  "Para quien prefiere calles residenciales, arquitectura, plazas y una experiencia cotidiana antes que una lista de atracciones.": {
+    "PT": "Para quem prefere ruas residenciais, arquitetura, praças e uma experiência cotidiana em vez de uma lista de atrações.",
+    "EN": "For travelers who prefer residential streets, architecture, squares and everyday local life over a checklist of attractions."
+  },
+  "el Palácio do Catete y el Museu da República ayudan a entender el peso político e histórico de esta parte de Río.": {
+    "PT": "o Palácio do Catete e o Museu da República ajudam a entender o peso político e histórico desta parte do Rio.",
+    "EN": "Palácio do Catete and Museu da República help explain the political and historical importance of this part of Rio."
+  },
+  "comercio, servicios y transporte hacen que el barrio funcione también como base práctica entre Zona Sul y Centro.": {
+    "PT": "comércio, serviços e transporte fazem o bairro funcionar também como uma base prática entre a Zona Sul e o Centro.",
+    "EN": "shops, services and transport also make the neighborhood a practical base between the South Zone and Downtown."
+  },
+  "Metrô Catete y Largo do Machado conectan rápidamente con otros sectores de la ciudad.": {
+    "PT": "Metrô Catete e Largo do Machado conectam rapidamente com outras áreas da cidade.",
+    "EN": "Catete metro and Largo do Machado provide quick connections to other parts of the city."
+  },
+  "la Igreja de Nossa Senhora da Glória do Outeiro es una de las referencias históricas del sector.": {
+    "PT": "a Igreja de Nossa Senhora da Glória do Outeiro é uma das referências históricas da região.",
+    "EN": "Igreja de Nossa Senhora da Glória do Outeiro is one of the area's historic landmarks."
+  },
+  "la Feira da Glória cambia el ritmo del barrio y suma comida, productos y vida local.": {
+    "PT": "a Feira da Glória muda o ritmo do bairro e acrescenta comida, produtos e vida local.",
+    "EN": "Feira da Glória changes the neighborhood's rhythm, adding food, products and local life."
+  },
+  "Marina da Glória y el Aterro conectan paisaje, eventos y acceso hacia el Centro.": {
+    "PT": "A Marina da Glória e o Aterro conectam paisagem, eventos e acesso ao Centro.",
+    "EN": "Marina da Glória and the Aterro connect scenery, events and access toward Downtown."
+  },
+  "la estación Glória facilita combinar el barrio con Cinelândia, Catete y Zona Sul.": {
+    "PT": "a estação Glória facilita combinar o bairro com Cinelândia, Catete e a Zona Sul.",
+    "EN": "Glória station makes it easy to connect the neighborhood with Cinelândia, Catete and the South Zone."
+  },
+  "casonas, talleres, arte, calles estrechas y pendientes hacen que aquí el desplazamiento sea parte de la experiencia.": {
+    "PT": "casarões, ateliês, arte, ruas estreitas e ladeiras fazem com que aqui o deslocamento seja parte da experiência.",
+    "EN": "mansions, studios, art, narrow streets and hills make getting around part of the experience here."
+  },
+  "no lo trato solamente como transporte: es patrimonio y una de las imágenes del barrio. Horarios, operación y filas deben confirmarse el mismo día.": {
+    "PT": "não trato o Bondinho apenas como transporte: ele é patrimônio e uma das imagens do bairro. Horários, operação e filas devem ser confirmados no próprio dia.",
+    "EN": "I do not treat the tram simply as transport: it is heritage and one of the neighborhood's defining images. Hours, operation and queues should be checked on the day."
+  },
+  "funciona como referencia para comer, parar y orientarse antes de seguir explorando.": {
+    "PT": "funciona como referência para comer, fazer uma pausa e se orientar antes de continuar explorando.",
+    "EN": "it works as a reference point for eating, taking a break and getting oriented before continuing to explore."
+  },
+  "suma cultura y vistas, y conecta naturalmente con el descenso hacia Selarón y Lapa.": {
+    "PT": "soma cultura e vistas e se conecta naturalmente com a descida em direção à Selarón e à Lapa.",
+    "EN": "it adds culture and views and connects naturally with the descent toward Selarón and Lapa."
   }
 };
