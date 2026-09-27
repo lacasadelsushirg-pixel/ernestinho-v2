@@ -1303,5 +1303,45 @@ export default {
   "Abrir la guía completa: Botafogo + Urca →": {
     "PT": "Abrir o guia completo: Botafogo + Urca →",
     "EN": "Open full guide: Botafogo + Urca →"
+  },
+  "Estatua de Drummond": {
+    "PT": "Estátua de Drummond",
+    "EN": "Drummond statue"
+  },
+  "Metrô Cardeal Arcoverde: sector Lido / inicio de Copacabana": {
+    "PT": "Metrô Cardeal Arcoverde: setor do Lido / início de Copacabana",
+    "EN": "Cardeal Arcoverde metro: Lido area / beginning of Copacabana"
+  },
+  "Metrô Siqueira Campos: zona central": {
+    "PT": "Metrô Siqueira Campos: área central",
+    "EN": "Siqueira Campos metro: central area"
+  },
+  "Metrô Cantagalo: Postos 4–5 y conexión hacia Lagoa": {
+    "PT": "Metrô Cantagalo: Postos 4–5 e conexão com a Lagoa",
+    "EN": "Cantagalo metro: Postos 4–5 and connection toward Lagoa"
+  },
+  "Lido → calçadão → Posto 4 → Drummond → Forte": {
+    "PT": "Lido → calçadão → Posto 4 → Drummond → Forte",
+    "EN": "Lido → promenade → Posto 4 → Drummond → Fort"
+  },
+  "Forte + Posto 6": {
+    "PT": "Forte + Posto 6",
+    "EN": "Fort + Posto 6"
+  },
+  "Guía de Praia de Ipanema →": {
+    "PT": "Guia da Praia de Ipanema →",
+    "EN": "Praia de Ipanema guide →"
+  },
+  "Botafogo Praia Shopping / miradores urbanos": {
+    "PT": "Botafogo Praia Shopping / mirantes urbanos",
+    "EN": "Botafogo Praia Shopping / urban viewpoints"
+  },
+  "Praia Vermelha:": {
+    "PT": "Praia Vermelha:",
+    "EN": "Praia Vermelha:"
+  },
+  "Praia Vermelha →": {
+    "PT": "Praia Vermelha →",
+    "EN": "Praia Vermelha →"
   }
 };
