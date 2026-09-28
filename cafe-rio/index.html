@@ -50,9 +50,6 @@
 .collection .buy{background:#e7b85c;color:#132222}
 .cafe-note{margin-top:28px;padding:26px;border-left:4px solid #e7b85c;background:#f4efe4;color:#17312e;border-radius:0 18px 18px 0}
 .cafe-note p{margin:0;line-height:1.7}
-.lang-switcher{position:fixed;z-index:9999;right:18px;top:18px;display:flex;gap:6px;background:#071313ef;padding:7px;border:1px solid #e7b85c;border-radius:999px}
-.lang-switcher button{border:0;border-radius:999px;padding:7px 10px;background:#123b3b;color:#f6f0e6;font:700 12px Arial;cursor:pointer}
-.lang-switcher button.active,.lang-switcher button:hover{background:#e7b85c;color:#132222}
 @media(max-width:900px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}.cafe-intro,.cafe-grid{grid-template-columns:1fr}.cafe-grid .cafe-card{min-height:0}}
 @media(max-width:620px){.products{grid-template-columns:1fr;gap:22px}.product{min-height:0}.product-media{height:auto;aspect-ratio:1.18/1}.product-body{padding:24px}.product-buy{align-items:flex-end}.buy{padding:13px 16px}.cafe-hero{min-height:60vh}}
 </style>
@@ -61,7 +58,6 @@
 <body>
 <header class="topbar"><a class="brand" href="../" aria-label="Ernestinho Carioca"><img src="https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53" alt="Ernestinho Carioca" width="44" height="44"></a><nav><a href="../guia/">Guía de Río</a><a href="../experiencias/">Experiencias</a><a href="../transportes/">Transportes</a><a href="../hospedaje/">Hospedaje</a><a href="../compras/">Compras</a><a href="../cafe-rio/">Café Río</a></nav></header>
 
-<nav class="lang-switcher" aria-label="Idioma"><button data-lang="es">ES</button><button data-lang="pt">PT</button><button data-lang="en">EN</button></nav>
 
 <main>
 <section class="cafe-hero">
@@ -181,13 +177,13 @@ document.querySelectorAll("[data-i18n]").forEach(el=>original[el.dataset.i18n]=e
 function setLang(lang){
  document.documentElement.lang=lang==="pt"?"pt-BR":lang;
  document.querySelectorAll("[data-i18n]").forEach(el=>{const k=el.dataset.i18n;el.innerHTML=lang==="es"?original[k]:(T[lang]?.[k]??original[k])});
- document.querySelectorAll(".lang-switcher button").forEach(b=>b.classList.toggle("active",b.dataset.lang===lang));
+ 
  const names={trufado:{es:"Café Rio Chocolate Trufado",pt:"Café Rio Chocolate Trufado",en:"Café Rio Truffled Chocolate"},tradicional:{es:"Café Rio 100% Arábica Tradicional",pt:"Café Rio 100% Arábica Tradicional",en:"Café Rio Traditional 100% Arabica"},menta:{es:"Café Rio Chocolate con Menta",pt:"Café Rio Chocolate com Menta",en:"Café Rio Mint Chocolate"},caramelo:{es:"Café Rio con Caramelo",pt:"Café Rio com Caramelo",en:"Café Rio Caramel Coffee"},avellanas:{es:"Café Rio Chocolate con Avellanas",pt:"Café Rio Chocolate com Avelãs",en:"Café Rio Hazelnut Chocolate"},coleccion:{es:"la colección completa de los 5 Cafés Rio",pt:"a coleção completa dos 5 Cafés Rio",en:"the complete collection of 5 Café Rio flavors"}};
  document.querySelectorAll(".cafe-buy").forEach(a=>{const n=names[a.dataset.product][lang],p=a.dataset.price,col=a.dataset.collection==="true";const msg=lang==="pt"?(col?`Olá, Ernestinho! Quero comprar ${n} por ${p}.`:`Olá, Ernestinho! Quero comprar o ${n} por ${p}.`):lang==="en"?`Hi, Ernestinho! I would like to buy ${n} for ${p}.`:(col?`Hola, Ernestinho. Quiero comprar ${n} por ${p}.`:`Hola, Ernestinho. Quiero comprar el ${n} por ${p}.`);a.href="https://wa.me/5521969946938?text="+encodeURIComponent(msg);a.target="_blank";a.rel="noopener";});
  document.title=lang==="pt"?"Café Rio · Café Ernestinho | Ernestinho Carioca":lang==="en"?"Café Rio · Café Ernestinho | Ernestinho Carioca":"Café Río · Café Ernestinho | Ernestinho Carioca";
  localStorage.setItem("ec_lang",lang);
 }
-document.querySelectorAll(".lang-switcher button").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang)));
+
 setLang(localStorage.getItem("ec_lang")||"es");
 })();
 </script>
