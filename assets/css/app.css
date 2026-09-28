@@ -4,8 +4,8 @@
 .door{background-image:linear-gradient(180deg,rgba(3,17,16,.02) 20%,rgba(3,17,16,.88) 100%),var(--card-image);background-size:cover;background-position:center;isolation:isolate}
 .door:nth-child(n){background-color:var(--deep)}
 .door .card-shade,.feature .card-shade{position:absolute;inset:0;z-index:-1}
-.door b{font-family:"Arial Narrow",Arial,sans-serif;font-size:clamp(1.15rem,2.15vw,1.72rem);font-weight:800;letter-spacing:.055em;text-transform:uppercase;text-shadow:0 2px 4px rgba(0,0,0,.82);text-align:center}
-.door .card-copy{display:none}.door small{align-self:center;text-shadow:0 2px 4px #000}.door .arrow{top:auto;bottom:18px}
+.door b{font-family:"Arial Narrow",Arial,sans-serif;font-size:clamp(1.15rem,2.15vw,1.72rem);font-weight:800;letter-spacing:.055em;text-transform:uppercase;text-shadow:none;text-align:center}
+.door .card-copy{display:none}.door small{align-self:center;text-shadow:none}.door .arrow{top:auto;bottom:18px}
 .feature{position:relative;overflow:hidden;background-image:linear-gradient(180deg,rgba(3,17,16,.05),rgba(3,17,16,.82)),var(--card-image);background-size:cover;background-position:center;color:#fff;isolation:isolate}.feature b,.feature span,.feature small{position:relative}.feature .card-copy{opacity:.86}.feature small{color:var(--amber)}
 @media(min-width:901px){.door-grid{grid-template-columns:repeat(5,1fr)}.door{min-height:285px}.feature-grid{grid-template-columns:repeat(3,1fr)}}
 
@@ -15,6 +15,6 @@
 
 /* Contraste de tarjetas de portada: títulos legibles sobre fotografía. */
 .door{color:#fff!important}
-.door b,.door .card-title{color:#fff!important;text-shadow:0 2px 8px rgba(0,0,0,.92)!important}
-.door small{color:#ffe0a0!important;text-shadow:0 2px 6px rgba(0,0,0,.92)!important}
-.door .card-copy,.door span{color:#f7f2e8!important;text-shadow:0 2px 5px rgba(0,0,0,.9)!important}
+.door b,.door .card-title{color:#fff!important;text-shadow:none!important}
+.door small{color:#ffe0a0!important;text-shadow:none!important}
+.door .card-copy,.door span{color:#f7f2e8!important;text-shadow:none!important}
