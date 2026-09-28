@@ -18,6 +18,3 @@
 .door b,.door .card-title{color:#fff!important;text-shadow:0 2px 8px rgba(0,0,0,.92)!important}
 .door small{color:#ffe0a0!important;text-shadow:0 2px 6px rgba(0,0,0,.92)!important}
 .door .card-copy,.door span{color:#f7f2e8!important;text-shadow:0 2px 5px rgba(0,0,0,.9)!important}
-
-/* Desktop language visibility fallback: keep all available languages visible even before JS upgrades the control. */
-@media(min-width:901px){.topbar .tools #lang{font-size:0;min-width:104px;padding:9px 13px}.topbar .tools #lang::after{content:"ES · PT · EN";font-size:11px;font-weight:700;letter-spacing:.08em;white-space:nowrap}.topbar .ec-desktop-language{display:flex!important}.topbar .ec-desktop-language-choice{display:inline-flex;align-items:center;justify-content:center}}
