@@ -63,9 +63,15 @@ export function setLanguage(language) {
     PT: `Idioma atual: ${selected}. Alterar idioma`,
     EN: `Current language: ${selected}. Change language`
   };
-  document.querySelectorAll("#lang, [data-lang-toggle]").forEach(button => {
-    button.textContent = selected;
-    button.setAttribute("aria-label", languageLabels[selected]);
+  document.querySelectorAll("#lang, [data-lang-toggle]").forEach(control => {
+    const isGroup = control.matches("[data-lang-toggle]") && (control.getAttribute("role")==="group" || control.querySelector("[data-desktop-language]"));
+    if (!isGroup) control.textContent = selected;
+    control.setAttribute("aria-label", languageLabels[selected]);
+  });
+  document.querySelectorAll("[data-desktop-language]").forEach(button => {
+    const active = button.dataset.desktopLanguage === selected;
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", String(active));
   });
   document.dispatchEvent(new CustomEvent("ec:language", { detail: { lang: selected } }));
   for (const listener of listeners) listener(selected);
