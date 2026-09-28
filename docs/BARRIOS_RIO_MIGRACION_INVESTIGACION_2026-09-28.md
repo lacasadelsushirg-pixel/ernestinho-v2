@@ -77,7 +77,17 @@ Las 16 rutas de barrio encontradas en `seoResolveRoute` de V1 quedaron atendidas
 
 ## Fotografías originales
 
-Se localizaron **14 archivos visuales originales únicos** ligados a Barrios: nueve portadas de los corredores V1 y cinco imágenes del sistema editorial de Copacabana. Las nueve portadas ya estaban conservadas en sus guías de zona; se verificaron y se mantuvieron con la misma URL. Las otras cinco se recuperaron en la galería de Copacabana. Las fotos conservan sus URLs versionadas de Cloudinary.
+### Corrección del inventario
+
+El primer inventario de **14 archivos** era demasiado estrecho: solo había contado las nueve portadas declaradas directamente por el módulo principal de Barrios y cinco imágenes del sistema editorial de Copacabana. Un segundo cruce con Atracciones, Compras, Recorridos, Gastronomía y constantes archivadas de Ernestinho localizó **29 archivos propios adicionales** útiles para contextualizar barrios. Ese material incluye Ipanema, Leblon, Botafogo, Urca, Catete, Glória, Lapa, Lagoa, Jardim Botânico, Barra, Gigóia, Guaratiba, Floresta da Tijuca, Paquetá, Maracanã, São Cristóvão, Madureira, CADEG y Pequena África. Las URLs versionadas de Cloudinary se conservan.
+
+También se corrigió un error de render en la función maestra de Copacabana: una comilla hacía que el bloque de línea de tiempo, arquitectura, microzonas, historias, consejos, conexiones y galería quedara dentro de una cadena y nunca fuese devuelto al HTML. La sintaxis era válida, por lo que `node --check` no detectaba el problema. La verificación del DOM local confirma ahora la presencia del bloque maestro, la línea de tiempo y la galería.
+
+### Atlas editorial completo
+
+La pasada de investigación posterior usa Copacabana como patrón de dimensiones, no como plantilla literal. Se incorporó `assets/js/barrios-atlas.js` para las otras **35 fichas individuales**. Cada perfil contiene un relato histórico trilingüe propio, tres hitos de evolución, tres capas de lectura territorial, tres microzonas, cinco lugares explicativos y una orientación práctica adaptada al tipo de territorio. Sumado a la capa editorial ya existente, las galerías recuperadas y las fuentes institucionales, las 36 fichas individuales cubren ahora historia, identidad, patrimonio o paisaje, sectores, cultura cotidiana, orientación y planificación en ES/PT/EN.
+
+El barrido contrastó especialmente Riotur, MultiRio, Parque Nacional da Tijuca/ICMBio, UNESCO y sitios oficiales de instituciones y operadores. Para evitar que el contenido quede obsoleto, horarios, tarifas, programación, condiciones del mar, accesos y cierres no se fijan como datos permanentes: las fichas remiten a la fuente responsable. Las secuencias exactas y la navegación paso a paso de las rutas premium siguen fuera de la capa pública.
 
 | Uso en V1 | Destino en V2 | URL original conservada |
 |---|---|---|
@@ -96,7 +106,7 @@ Se localizaron **14 archivos visuales originales únicos** ligados a Barrios: nu
 | Copacabana — organizar / calçadão | Galería `copacabana` | `https://res.cloudinary.com/qa301cbc/image/upload/v1788957880/calzadao_de_copacanana_0001.jpg` |
 | Copacabana — momento / Arpoador | Galería `copacabana` | `https://res.cloudinary.com/qa301cbc/image/upload/v1788385260/arpoador_fotos.jpg` |
 
-No se encontraron fotos individualizadas en `MASTER3_NEIGHBORHOOD_CONTENT`, `MASTER3_CITY_PLACE_REGISTRY` ni `master3-runtime-lazy.json`; por eso las fichas nuevas no recibieron imágenes genéricas. Las nueve portadas de corredor y las cinco fotos de Copacabana cubren todas las imágenes específicas del módulo de Barrios inspeccionadas en V1. Las imágenes conservan textos alternativos por idioma.
+No se encontraron fotos individualizadas dentro de `MASTER3_NEIGHBORHOOD_CONTENT`, `MASTER3_CITY_PLACE_REGISTRY` ni `master3-runtime-lazy.json`, pero eso no significaba que Ernestinho careciera de ellas. El segundo barrido confirmó que el archivo visual estaba distribuido entre otros módulos y constantes archivadas. Las fichas usan únicamente material ya perteneciente al proyecto o imágenes con procedencia controlada; no se sustituyen faltantes con fotografías genéricas.
 
 ## Investigación y fuentes
 
@@ -118,7 +128,7 @@ No se publican tarifas, horarios ni supuestas conexiones en tiempo real; las fic
 ## Cinco pasadas de revisión
 
 1. **Contenido:** se cruzaron `BARRIOS_DATA`, `MASTER3_NEIGHBORHOOD_CONTENT`, `barriosIframe`, `MASTER3_CITY_PLACE_REGISTRY`, `master3-runtime-family.json` y `master3-runtime-lazy.json`. Se mantuvo el contenido de V2 y se añadió la cobertura ausente.
-2. **Imágenes:** se cotejaron las URLs V1 por uso y destino; se incorporaron las cinco fotos adicionales de Copacabana sin reemplazar las portadas.
+2. **Imágenes:** se cotejaron las URLs V1 por uso y destino; además de las cinco fotos de Copacabana, el barrido transversal recuperó 29 referencias adicionales repartidas por otros módulos.
 3. **Funcionalidad:** se añadió búsqueda y filtrado de fichas por zona y naturaleza, contador accesible, enlaces a corredores, páginas independientes, sitemap y destinos internos verificados.
 4. **ES/PT/EN:** se revisaron textos visibles, títulos, leyendas, controles, metadatos y atributos alternativos. El inventario estático no deja nodos visibles sin clave de traducción; los bloques editoriales dinámicos renderizan las tres versiones.
 5. **Técnica/SEO:** se verificaron módulos JavaScript, HTML, sitemap, slugs V1, enlaces internos y cargas de scripts locales. El bloque contextual de las fichas individuales ahora se inserta en `<main>` y no intenta usar un `<footer>` que está fuera de ese contenedor.
