@@ -172,5 +172,9 @@
       "destination": "/vida-nocturna/yoo2/",
       "permanent": true
     }
-  ]
+  ],
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node scripts/build-production.mjs",
+  "outputDirectory": "dist",
+  "installCommand": ""
 }
