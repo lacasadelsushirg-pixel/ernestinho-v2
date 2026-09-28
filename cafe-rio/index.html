@@ -33,19 +33,19 @@
 .cafe-story{margin-top:28px}
 .products-head{text-align:center;max-width:760px;margin:64px auto 26px}
 .products-head h2{font-size:clamp(2rem,4vw,3.3rem);margin:.2em 0}
-.products{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.product{background:#fff;border:1px solid #dfe5e2;border-radius:24px;overflow:hidden;display:flex;flex-direction:column}
-.product-media{height:290px;background:#0b1b1b}
-.product-media img{width:100%;height:100%;object-fit:contain;display:block}
-.product-body{padding:24px;display:flex;flex-direction:column;flex:1}
+.products{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;align-items:stretch}
+.product{background:#fff;border:1px solid #dfe5e2;border-radius:30px;overflow:hidden;display:flex;flex-direction:column;min-height:635px;box-shadow:0 14px 34px rgba(9,37,34,.08)}
+.product-media{height:370px;background:#071f1d;overflow:hidden}
+.product-media img{width:100%;height:100%;object-fit:cover;display:block}
+.product-body{padding:30px 30px 26px;display:flex;flex-direction:column;flex:1}
 .product-tag{font:800 11px Arial;letter-spacing:.12em;text-transform:uppercase;color:#17776d}
 .product h3{font-size:1.35rem;margin:8px 0 10px;color:#132c29}
-.product p{line-height:1.65;color:#5b6865;flex:1}
-.product-buy{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:18px}
+.product p{line-height:1.75;color:#5b6865;flex:1;font-size:1.03rem}
+.product-buy{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:auto;padding-top:22px}
 .price{font-size:1.65rem;font-weight:900;color:#132c29}
 .buy{display:inline-block;text-decoration:none;background:#102c29;color:#fff;padding:12px 17px;border-radius:999px;font:800 12px Arial;text-transform:uppercase}
 .buy:hover{background:#e7b85c;color:#132222}
-.collection{background:#071b19;border-color:#29413d;color:#fff}
+.collection{background:#050b1c;border-color:#273347;color:#fff;box-shadow:0 18px 42px rgba(5,11,28,.2)}
 .collection h3,.collection .price{color:#fff}.collection p{color:#cdd9d4}.collection .product-tag{color:#e7b85c}.collection .old{display:block;color:#93a19c;text-decoration:line-through;font-size:.85rem}.collection .price{color:#e7b85c}
 .collection .buy{background:#e7b85c;color:#132222}
 .cafe-note{margin-top:28px;padding:26px;border-left:4px solid #e7b85c;background:#f4efe4;color:#17312e;border-radius:0 18px 18px 0}
@@ -53,7 +53,8 @@
 .lang-switcher{position:fixed;z-index:9999;right:18px;top:18px;display:flex;gap:6px;background:#071313ef;padding:7px;border:1px solid #e7b85c;border-radius:999px}
 .lang-switcher button{border:0;border-radius:999px;padding:7px 10px;background:#123b3b;color:#f6f0e6;font:700 12px Arial;cursor:pointer}
 .lang-switcher button.active,.lang-switcher button:hover{background:#e7b85c;color:#132222}
-@media(max-width:800px){.cafe-intro,.cafe-grid,.products{grid-template-columns:1fr}.cafe-hero{min-height:60vh}.cafe-grid .cafe-card{min-height:0}}
+@media(max-width:900px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}.cafe-intro,.cafe-grid{grid-template-columns:1fr}.cafe-grid .cafe-card{min-height:0}}
+@media(max-width:620px){.products{grid-template-columns:1fr;gap:22px}.product{min-height:0}.product-media{height:auto;aspect-ratio:1.18/1}.product-body{padding:24px}.product-buy{align-items:flex-end}.buy{padding:13px 16px}.cafe-hero{min-height:60vh}}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Brand","name":"Café Ernestinho","description":"Marca de café saborizado de Ernestinho Carioca.","url":"https://www.ernestinhocarioca.com.br/cafe-rio/","image":"https://res.cloudinary.com/tdez3h4t/image/upload/v1790124458/portadas_nuevas_reales_1.png"}</script>
 </head>
