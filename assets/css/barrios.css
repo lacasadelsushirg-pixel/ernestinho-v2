@@ -28,3 +28,8 @@
 .bh-individual-index{padding-top:36px}
 @media(max-width:900px){.bh-clusters{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.bh-clusters{grid-template-columns:1fr}.bh-cluster{min-height:0}}
+
+/* Fotografías seleccionadas en la versión Ernestinho: se preservan en V2 sin convertir la ficha en una galería pesada. */
+.bh-original-photo{max-width:1120px;margin:0 auto clamp(28px,5vw,56px);padding:0 5vw}.bh-original-photo img{display:block;width:100%;max-height:560px;aspect-ratio:16/8;object-fit:cover;object-position:center;border-radius:0 0 28px 28px;box-shadow:0 20px 50px #071c1b20}@media(max-width:700px){.bh-original-photo{padding:0;margin-bottom:30px}.bh-original-photo img{aspect-ratio:4/3;max-height:none;border-radius:0 0 22px 22px}}
+
+.bh-directory-tools{max-width:1180px;margin:22px auto 28px;padding:20px;border:1px solid #e6dfd3;border-radius:20px;background:#faf8f3}.bh-directory-tools label{display:block;margin:0 0 8px;font-weight:750;color:#123d39}.bh-directory-tools input{width:100%;min-height:48px;padding:12px 15px;border:1px solid #cfc5b5;border-radius:12px;background:#fff;font:inherit}.bh-filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.bh-filters button{padding:9px 13px;border:1px solid #d6c9b2;border-radius:999px;background:#fff;color:#123d39;font:700 12px inherit;cursor:pointer}.bh-filters button.is-active{background:#103f3b;color:#fff;border-color:#d7a43b}.bh-directory-tools #bh-results{margin:12px 0 0;font-size:13px;color:#66716c}.bh-cluster[hidden],.topic[hidden]{display:none!important}
