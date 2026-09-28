@@ -171,6 +171,11 @@
       "source": "/vida-nocturna/yoo2-rooftop/",
       "destination": "/vida-nocturna/yoo2/",
       "permanent": true
+    },
+    {
+      "source": "/guia/moverse",
+      "destination": "/transportes/",
+      "permanent": true
     }
   ]
 }

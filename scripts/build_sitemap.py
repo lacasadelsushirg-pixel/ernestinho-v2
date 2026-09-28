@@ -15,7 +15,7 @@ urlset = Element("{http://www.sitemaps.org/schemas/sitemap/0.9}urlset")
 count = 0
 for page in sorted(root.rglob("*.html")):
     relative = page.relative_to(root)
-    if relative.as_posix() == "404.html" or ".git" in relative.parts:
+    if relative.as_posix() in {"404.html", "guia/moverse/index.html"} or ".git" in relative.parts:
         continue
     route = "/" if relative.as_posix() == "index.html" else "/" + relative.parent.as_posix().strip(".") + "/" if relative.name == "index.html" else "/" + relative.as_posix()
     url = SubElement(urlset, "{http://www.sitemaps.org/schemas/sitemap/0.9}url")
