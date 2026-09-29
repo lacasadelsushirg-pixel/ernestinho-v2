@@ -1,0 +1,34 @@
+const loaded=new Map();
+
+export async function loadModuleOnce(key, importer) {
+  if(loaded.has(key)) return loaded.get(key);
+  const promise=Promise.resolve().then(importer);
+  loaded.set(key,promise);
+  try{return await promise;}catch(error){loaded.delete(key);throw error;}
+}
+
+export function sectionFromPath(pathname=location.pathname) {
+  return pathname.split("/").filter(Boolean)[0] || "home";
+}
+
+export async function loadSection(section=sectionFromPath()) {
+  const loaders={
+    guia:()=>import("../translations/chunks/guia-01.js"),
+    transportes:()=>import("../translations/chunks/transportes-01.js"),
+    hospedaje:()=>import("../translations/chunks/hospedaje-01.js"),
+    compras:()=>import("../translations/chunks/compras-01.js"),
+    barrios:()=>import("../translations/chunks/barrios-01.js"),
+    eventos:()=>import("../translations/chunks/eventos-01.js"),
+    experiencias:()=>import("../translations/chunks/experiencias-01.js"),
+    playas:()=>import("../translations/chunks/playas-01.js"),
+    gastronomia:()=>import("../translations/chunks/gastronomia-01.js"),
+    atracciones:()=>import("../translations/chunks/atracciones-01.js"),
+    familia:()=>import("../translations/chunks/familia-01.js"),
+    consejos:()=>import("../translations/chunks/consejos-01.js"),
+    "vida-nocturna":()=>import("../translations/chunks/vida-nocturna-01.js"),
+    "cafe-rio":()=>import("../translations/chunks/cafe-rio-01.js"),
+    fotografia:()=>import("../translations/chunks/fotografia-01.js"),
+    hoy:()=>import("../translations/chunks/hoy-01.js")
+  };
+  return loaders[section] ? loadModuleOnce(`section:${section}`,loaders[section]) : null;
+}
