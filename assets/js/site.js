@@ -229,3 +229,5 @@ function ensureCorporateClosing(){
 document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init, { once: true }) : init();
 // EC preview trigger: 2026-09-29 guide-and-corporate-closing\n// Force GitHub→Vercel preview: 2026-09-29T01:15 Rio
 export { apply };
+
+/* Preview trigger: guia-rio-final-20260929 */
