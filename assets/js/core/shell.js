@@ -1,22 +1,5 @@
-import { PRIMARY_NAV, navLabel } from "./navigation.js";
-import { normalizeLocale } from "./locales.js";
-import { applyCanonical } from "./seo.js";
-
-function localeFromDocument(){
-  return normalizeLocale(document.documentElement.lang || localStorage.getItem("ec-lang") || "es");
-}
-
-export function renderPrimaryNav(root=document.querySelector(".topbar nav"),locale=localeFromDocument()){
-  if(!root)return;
-  root.replaceChildren(...PRIMARY_NAV.map(item=>{
-    const a=document.createElement("a");a.href=item.href;a.textContent=navLabel(item,locale);
-    if(location.pathname.startsWith(item.href))a.setAttribute("aria-current","page");
-    return a;
-  }));
-}
-
-export function initGlobalShell(){
-  applyCanonical();
-  renderPrimaryNav();
-  document.addEventListener("ec:language",event=>renderPrimaryNav(undefined,normalizeLocale(event.detail?.lang)));
-}
+import { PRIMARY_NAV,navLabel } from "./navigation.js";import { normalizeLocale } from "./locales.js";import { applyPageSeo } from "./seo.js";
+function localeFromDocument(){return normalizeLocale(document.documentElement.lang||localStorage.getItem("ec-lang")||"es");}
+function currentSeo(locale=localeFromDocument()){const description=document.head.querySelector('meta[name="description"]')?.content||"";const image=document.head.querySelector('meta[property="og:image"]')?.content||null;applyPageSeo({title:document.title,description,pathname:location.pathname,locale,image,indexable:!document.head.querySelector('meta[name="robots"]')?.content?.toLowerCase().includes("noindex")});}
+export function renderPrimaryNav(root=document.querySelector(".topbar nav"),locale=localeFromDocument()){if(!root)return;root.replaceChildren(...PRIMARY_NAV.map(item=>{const a=document.createElement("a");a.href=item.href;a.textContent=navLabel(item,locale);if(location.pathname.startsWith(item.href))a.setAttribute("aria-current","page");return a;}));}
+export function initGlobalShell(){const locale=localeFromDocument();currentSeo(locale);renderPrimaryNav(undefined,locale);document.addEventListener("ec:language",event=>{const next=normalizeLocale(event.detail?.lang);document.documentElement.lang=next;renderPrimaryNav(undefined,next);currentSeo(next);});}
