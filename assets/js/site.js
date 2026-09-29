@@ -227,4 +227,4 @@ function ensureCorporateClosing(){
   });
 }
 document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init, { once: true }) : init();
-export { apply };
+// EC preview trigger: 2026-09-29 guide-and-corporate-closing\nexport { apply };
