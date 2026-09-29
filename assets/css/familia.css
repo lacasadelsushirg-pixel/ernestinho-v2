@@ -1,0 +1,9 @@
+body{background:#fff!important}
+.family-return{display:inline-flex;align-items:center;gap:8px;margin:0 0 20px;padding:10px 14px;border:1px solid #d9e1de;border-radius:999px;background:#fff;color:#123d39;font:700 12px var(--sans,Arial,sans-serif);text-decoration:none}
+.family-return:hover{border-color:#d7a43b;background:#f8faf9}
+.family-return:focus-visible{outline:3px solid #d7a43b;outline-offset:3px}
+.wrap .grid{align-items:stretch}
+.wrap .card{display:flex;flex-direction:column}
+.wrap .card>div{display:flex;flex:1;flex-direction:column;align-items:flex-start}
+.wrap .card p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.wrap .card b{margin-top:auto}
