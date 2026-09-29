@@ -35,3 +35,10 @@
 .stay-tip strong{color:#f3cf69;font-size:18px}.stay-tip p{margin:9px 0 0;line-height:1.7;color:#e6efed}
 .stay-enquiry{text-align:center}.stay-enquiry p{margin:0 auto 14px}.stay-enquiry .stay-cta{background:#159447;margin:12px auto 0}
 @media(max-width:700px){.stay-highlight-grid{grid-template-columns:1fr}.stay-story,.stay-fit,.stay-enquiry{padding:22px 18px}}
+
+/* Galería de hospedaje: tamaño editorial en desktop */
+@media (min-width: 901px){
+  .stay-gallery{max-width:680px;margin:34px auto}
+  .stay-gallery-frame{max-width:620px;margin:0 auto}
+  .stay-gallery-frame img{width:100%;height:auto;max-height:460px;object-fit:contain}
+}
