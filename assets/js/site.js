@@ -109,7 +109,7 @@ function ensureTools() {
   button.classList.add("ec-desktop-language");
   button.setAttribute("role","group");button.setAttribute("aria-label","Cambiar idioma");
   button.replaceChildren();
-  for(const code of ["ES","PT","EN"]){const choice=document.createElement("button");choice.type="button";choice.className="ec-desktop-language-choice";choice.dataset.desktopLanguage=code;choice.textContent=code;choice.setAttribute("aria-label",code==="ES"?"Español":code==="PT"?"Português":"English");choice.addEventListener("click",()=>apply(code));button.appendChild(choice);}
+  for(const code of ["ES","PT","EN"]){const choice=document.createElement("button");choice.type="button";choice.className="ec-desktop-language-choice";choice.dataset.desktopLanguage=code;choice.textContent=code==="PT"?"PT-BR":code;choice.setAttribute("aria-label",code==="ES"?"Español":code==="PT"?"Português (Brasil)":"English");choice.addEventListener("click",()=>apply(code));button.appendChild(choice);}
   return button;
 }
 async function copyCurrentLink(message) {
@@ -178,7 +178,7 @@ function apply(lang) {
 function ensureGuideAdn(){const p=location.pathname;if(!p.startsWith('/guia/'))return;if(document.querySelector('link[data-guide-adn]'))return;const l=document.createElement('link');l.rel='stylesheet';l.href=new URL('../css/guia-adn.css',import.meta.url).href;l.dataset.guideAdn='';document.head.appendChild(l);}\n
 function ensureCorporateClosing(){
   if(document.querySelector(".ec-corporate-closing"))return;
-  const oldFooter=document.querySelector("body > footer, main + footer");
+  const oldFooter=document.querySelector("body > footer, main + footer, footer");
   const root=document.createElement("section");root.className="ec-corporate-closing";root.innerHTML=`
     <div class="ec-closing-cta">
       <div><h2>¿QUIERES CONOCER RÍO<br>CONMIGO?</h2><p>Diseñamos tu itinerario o te acompaño en un tour privado exclusivo.</p></div>
