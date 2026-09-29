@@ -6,7 +6,7 @@
 
 ## Resultado de inventario
 
-La sección de Barrios contiene **52 páginas HTML de destino** más el directorio `/barrios/`. El directorio presenta 17 guías de corredor (las 9 zonas de V2 y los 8 accesos compuestos de V1) y 36 fichas individuales. Copacabana comparte una ruta entre la guía de corredor y la ficha individual. Se añadieron páginas para recuperar áreas que faltaban en el destino y rutas de V1 que no tenían destino propio.
+La sección de Barrios contiene **56 páginas HTML de destino** más el directorio `/barrios/`. El directorio presenta 17 guías de corredor (las 9 zonas de V2 y los 8 accesos compuestos de V1) y 40 fichas individuales. Copacabana comparte una ruta entre la guía de corredor y la ficha individual. Se añadieron páginas para recuperar áreas que faltaban en el destino y rutas de V1 que no tenían destino propio.
 
 ### Fichas individuales
 
@@ -51,6 +51,8 @@ La sección de Barrios contiene **52 páginas HTML de destino** más el director
 
 Pequena África se presenta como territorio histórico-cultural de la Región Portuaria, no como una delimitación administrativa equivalente a un barrio. Paquetá se añadió porque aparece como zona propia en el registro de lugares V1 y tiene investigación turística y municipal específica.
 
+**Alcance turístico de la guía:** Riotur informa que el municipio tiene 159 barrios oficiales, pero esta guía no pretende ser un catálogo administrativo exhaustivo. Su criterio es editorial y turístico: profundizar en los barrios, corredores y experiencias que un visitante puede querer conocer, y sumar sectores menos habituales cuando aportan una experiencia cultural, histórica o natural relevante. Por eso aparecen lugares como Madureira, Paquetá, Rocinha y Vidigal, mientras que no hace falta crear una ficha para cada barrio residencial sin un motivo claro de visita. Las 40 fichas individuales actuales mezclan barrios oficiales, sectores y territorios culturales o naturales; los corredores se cuentan aparte. La cifra municipal sirve de contexto, no como medida de tareas pendientes. Fuente: [Riotur — Por dentro do Rio](https://riotur.prefeitura.rio/por-dentro-do-rio/).
+
 ### Guías de corredor
 
 | Corredor | Ruta |
@@ -85,12 +87,21 @@ También se corrigió un error de render en la función maestra de Copacabana: u
 
 ### Atlas editorial completo
 
-La pasada de investigación posterior usa Copacabana como patrón de dimensiones, no como plantilla literal. Se incorporó `assets/js/barrios-atlas.js` para las otras **35 fichas individuales**. Cada perfil contiene un relato histórico trilingüe propio, tres hitos de evolución, tres capas de lectura territorial, tres microzonas, cinco lugares explicativos y una orientación práctica adaptada al tipo de territorio. Sumado a la capa editorial ya existente, las galerías recuperadas y las fuentes institucionales, las 36 fichas individuales cubren ahora historia, identidad, patrimonio o paisaje, sectores, cultura cotidiana, orientación y planificación en ES/PT/EN.
+La ficha de Pequena África se profundizó como territorio turístico-cultural, no como barrio administrativo: incluye la historia del nombre atribuido a Heitor dos Prazeres, el Cais do Valongo (1811–1831; redescubierto en 2011 e inscrito por la UNESCO en 2017), el Cemitério dos Pretos Novos (1769–1830; hallazgo en 1996), Pedra do Sal, MUHCAB, IPN, Jardins Suspensos, Morro da Conceição y Largo da Prainha. Las tres imágenes ya recuperadas del proyecto se intercalan en el atlas. La ficha mantiene el contexto de violencia y memoria junto a la continuidad de comunidades negras y de su producción cultural; no publica horarios fijos ni una ruta guiada paso a paso. Fuentes: Riotur, UNESCO, Secretaría Municipal de Cultura y el propio IPN.
+
+Urca también se amplió como ficha individual para que no quede reducida al teleférico: incorpora la fundación de 1565, Praia Vermelha y la Exposición Nacional de 1908, el comienzo del Bondinho en 1912–1913, Fortaleza de São João, el Instituto Benjamin Constant, la Pista Cláudio Coutinho, el Quadrado y la Mureta. Se recuperó la fotografía propia `hora_dorada_urca.jpg` y se colocó entre los temas; los otros espacios visuales siguen marcados como necesidades editoriales. El texto distingue accesos públicos de áreas con reglas propias y no fija horarios. Contraste: Parque Bondinho, Instituto Benjamin Constant, Brasiliana Fotográfica y Riotur.
+
+Jardim Botânico se reorganiza como guía de un valle histórico, no como sinónimo del arboreto: se desarrollan el Real Horto de 1808 y su relación con la aclimatación de especies y la Fábrica de Pólvora, la alameda de palmeras-imperiales durante la dirección de Serpa Brandão, el impulso científico asociado a João Barbosa Rodrigues, Parque Lage y la Escuela de Artes Visuales, Horto y los accesos de montaña. Las dos fotos propias `JARDIMB2.jpg` y `JARDIMB3.jpg` pasan a intercalarse con los temas. Contraste: Instituto de Pesquisas Jardim Botânico, Biblioteca Nacional y Riotur.
+
+Lagoa Rodrigo de Freitas también se amplía con la historia indígena y azucarera previa a la postal actual, la relación con el Engenho d’El Rey y Rodrigo de Freitas, el canal y la comporta de Jardim de Alah, los distintos parques de la orilla y el Mirante do Sacopã. Su fotografía propia vuelve a aparecer intercalada en el atlas. Contraste: Prefeitura do Rio, MultiRio, Rio-Águas, INEA y Riotur.
+
+Se conectó a la ficha pública de Copacabana el archivo ilustrado que ya existía en `assets/js/copacabana-archive.js`: sus capítulos cubren la historia urbana, el subsuelo durante la Segunda Guerra Mundial, la Galeria Menescal, Chacrinha (incluido su acceso cercano al Posto 2), Bairro Peixoto, música y vida de playa, con las fotografías históricas facilitadas por Ernestinho intercaladas por tema. El texto del refugio se presenta como memoria e investigación pendiente por edificio, sin atribuir automáticamente esa función a cada estacionamiento. Se completaron las versiones en portugués e inglés. La ficha cita instituciones por nombre y no dirige al visitante fuera del sitio. Para Chacrinha se contrastó con [Riotur](https://riotur.rio/que_fazer/parque-estadual-da-chacrinha/), [INEA](https://www.inea.rj.gov.br/biodiversidade-territorio/conheca-as-unidades-de-conservacao/parque-estadual-da-chacrinha/) y [MetrôRio](https://www.metrorio.com.br/NavegueRio/PontosTuristicosInterna?p_ponto=27).La pasada de investigación posterior usa Copacabana como patrón de dimensiones, no como plantilla literal. Se incorporó `assets/js/barrios-atlas.js` para las otras **39 fichas individuales**. Cada perfil contiene un relato histórico trilingüe propio, tres hitos de evolución, tres capas de lectura territorial, tres microzonas, cinco lugares explicativos y una orientación práctica adaptada al tipo de territorio. Sumado a la capa editorial ya existente, las galerías recuperadas y las fuentes institucionales, las 40 fichas individuales cubren ahora historia, identidad, patrimonio o paisaje, sectores, cultura cotidiana, orientación y planificación en ES/PT/EN.
 
 El barrido contrastó especialmente Riotur, MultiRio, Parque Nacional da Tijuca/ICMBio, UNESCO y sitios oficiales de instituciones y operadores. Para evitar que el contenido quede obsoleto, horarios, tarifas, programación, condiciones del mar, accesos y cierres no se fijan como datos permanentes: las fichas remiten a la fuente responsable. Las secuencias exactas y la navegación paso a paso de las rutas premium siguen fuera de la capa pública.
 
 | Uso en V1 | Destino en V2 | URL original conservada |
 |---|---|---|
+| Leme — nueva ficha turística | `leme` | Praia do Leme, Caminho dos Pescadores, Clarice Lispector, patrimônio do Morro do Leme, Babilônia y Chapéu Mangueira; quedan espacios editoriales para fotos propias. |
 | Portada Copacabana | `copacabana` | `https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/IMG_3122` |
 | Portada Ipanema + Leblon | `ipanema-leblon` | `https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/IMG_3123` |
 | Portada Gávea + Jardim Botânico + Lagoa | `gavea-jardim-lagoa` | `https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/IMG_3126` |
@@ -116,7 +127,7 @@ Se priorizaron fuentes públicas o institucionales: [Riotur](https://riotur.rio/
 
 Referencias temáticas principales:
 
-- [Pequena África — Riotur](https://riotur.rio/que_fazer/pequena-africa/), [MUHCAB](https://cultura.prefeitura.rio/muhcab/) y [Cais do Valongo — UNESCO](https://whc.unesco.org/en/list/1548/): memoria afrobrasileña, sitio arqueológico y área cultural portuaria.
+- [Pequena África — Riotur](https://riotur.rio/que_fazer/pequena-africa/), [MUHCAB](https://cultura.prefeitura.rio/espacos-culturais/museus/muhcab/), [Instituto Pretos Novos](https://pretosnovos.com.br/museu-memorial/), [Cais do Valongo — UNESCO](https://whc.unesco.org/en/list/1548/) y [Cemitério dos Pretos Novos — IPN](https://pretosnovos.com.br/museu-memorial/cemiterio-dos-pretos-novos/): territorio, cais, período de funcionamiento, arqueología, patrimonio mundial y espacios culturales afro-brasileños.
 - [Roteiro Madureira — Riotur](https://riotur.rio/editorial/roteiro-madureira/): Parque Madureira, Casa do Jongo, baile charme, Feira das Yabás y cultura del samba.
 - [Playas — Riotur](https://riotur.rio/editorial/praias/) y [Parque Natural Municipal de Marapendi — Riotur](https://riotur.rio/que_fazer/parque-natural-municipal-de-marapendi/): litoral oeste, playas, reservas y humedales.
 - [Parque Nacional da Tijuca — ICMBio](https://www.gov.br/icmbio/pt-br/assuntos/parques-nacionais/parque-nacional-da-tijuca) y [Riotur](https://riotur.rio/que_fazer/parquenacionaldatijuca/): sectores, accesos y áreas naturales.
@@ -135,8 +146,8 @@ No se publican tarifas, horarios ni supuestas conexiones en tiempo real; las fic
 
 ## Verificaciones realizadas
 
-- 52 páginas de destino más el índice.
-- 17 tarjetas de corredores y 36 enlaces a fichas individuales.
+- 56 páginas de destino más el índice.
+- 17 tarjetas de corredores y 40 enlaces a fichas individuales.
 - 16/16 slugs `/barrios/:slug` de V1 con página de destino.
 - 0 enlaces internos rotos en el árbol del sitio.
 - 0 scripts locales faltantes.
