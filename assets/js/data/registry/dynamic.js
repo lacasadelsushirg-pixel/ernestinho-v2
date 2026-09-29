@@ -1,23 +1,3 @@
-export const occurrences = Object.freeze([]);
-export const signals = Object.freeze([]);
-
-export function occurrence(input) {
-  if (!input?.id || !input?.startAt) throw new TypeError("Occurrence requires id and startAt");
-  return Object.freeze({
-    status:"unknown",
-    verifiedAt:null,
-    sourceIds:[],
-    ...input
-  });
-}
-
-export function signal(input) {
-  if (!input?.id || !input?.kind) throw new TypeError("Signal requires id and kind");
-  return Object.freeze({
-    value:"unknown",
-    verifiedAt:null,
-    freshness:"unknown",
-    sourceIds:[],
-    ...input
-  });
-}
+export const occurrences=Object.freeze([]);export const signals=Object.freeze([]);
+export function occurrence(input={}){if(!input.id||!input.occurrenceType||!input.startsAt)throw new TypeError("Occurrence requires id, occurrenceType, startsAt");return Object.freeze({kind:"occurrence",parentEntityId:null,venueId:null,title:"",endsAt:null,timezone:"America/Sao_Paulo",doorsAt:null,status:"discovered",ticketStatus:"unknown",bookingUrl:null,organizer:null,affectedZones:Object.freeze([]),sourceRefs:Object.freeze([]),verifiedAt:null,expiresAt:null,dedupeFingerprint:null,...input});}
+export function signal(input={}){if(!input.id||!input.signalType)throw new TypeError("Signal requires id and signalType");return Object.freeze({kind:"signal",targetIds:Object.freeze([]),zoneIds:Object.freeze([]),state:"unknown",value:"unknown",unit:null,severity:"unknown",validFrom:null,validUntil:null,observedAt:null,sourceRefs:Object.freeze([]),confidence:"unknown",discrepancyNote:null,expiresAt:null,...input});}

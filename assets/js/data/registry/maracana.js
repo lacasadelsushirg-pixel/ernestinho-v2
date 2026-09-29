@@ -1,48 +1,8 @@
-/**
- * Maracana domain split.
- * Never collapse geography, venue, tour, match occurrence or EC commercial product.
- */
-export const maracana = Object.freeze({
-  neighborhood: {
-    id:"ec:entity:maracana-neighborhood",
-    type:"entity", kind:"neighborhood", name:"Maracanã", zone:"Zona Norte"
-  },
-  stadium: {
-    id:"ec:entity:maracana-estadio",
-    type:"entity", kind:"stadium", name:"Maracanã",
-    neighborhoodId:"ec:entity:maracana-neighborhood"
-  },
-  stadiumTour: {
-    id:"ec:product:tour-maracana",
-    type:"product", kind:"venue-tour",
-    venueId:"ec:entity:maracana-estadio",
-    commercialOwner:"external-or-direct",
-    occurrenceDependent:false
-  },
-  matchExperience: {
-    id:"ec:product:experiencia-partido-maracana",
-    type:"product", kind:"ec-guided-match-experience",
-    venueId:"ec:entity:maracana-estadio",
-    brand:"Ernestinho Carioca",
-    includes:["transport","guide-accompaniment","experience/passeio","match-ticket"],
-    occurrenceDependent:true,
-    publicDescriptionRule:"Describe the EC service separately from the official match/ticket inventory."
-  }
+import { baseRecord, canonicalId } from "../../core/model.js";
+export const maracana=Object.freeze({
+ neighborhood:baseRecord({id:canonicalId("neighborhood","maracana"),kind:"neighborhood",slug:"maracana",name:"Maracanã",zone:"Zona Norte"}),
+ stadium:baseRecord({id:canonicalId("venue","maracana"),kind:"venue",slug:"maracana",name:"Maracanã",entityType:"stadium",neighborhoodId:"ec:neighborhood:maracana",canonicalPath:"/atracciones/maracana/",implementationStatus:"REAL_PAGE"}),
+ stadiumTour:baseRecord({id:canonicalId("product","maracana-stadium-tour"),kind:"product",slug:"maracana-stadium-tour",name:"Maracanã Stadium Tour",productType:"venue-tour",relatedEntityIds:["ec:venue:maracana"],implementationStatus:"PRODUCT",commercialStatus:"external-or-direct"}),
+ matchExperience:baseRecord({id:canonicalId("product","maracana-experience"),kind:"product",slug:"maracana-experience",name:"Experiencia partido Maracanã",productType:"ec-guided-match-experience",relatedEntityIds:["ec:venue:maracana"],implementationStatus:"PRODUCT",commercialStatus:"active",availabilityPolicy:"occurrence-dependent"})
 });
-
-export function maracanaMatchOccurrence({id,startAt,homeTeam,awayTeam,status="unknown",sourceIds=[]}) {
-  if (!id || !startAt || !homeTeam || !awayTeam) throw new TypeError("Match requires id, startAt and teams");
-  return Object.freeze({
-    id, type:"occurrence", kind:"football-match",
-    venueId:"ec:entity:maracana-estadio",
-    startAt, homeTeam, awayTeam, status, sourceIds
-  });
-}
-
-export function experienceForMatch(matchId, availability="unknown") {
-  return Object.freeze({
-    productId:"ec:product:experiencia-partido-maracana",
-    occurrenceId:matchId,
-    availability
-  });
-}
+export function maracanaMatchOccurrence({id,startsAt,homeTeam,awayTeam,status="discovered",sourceRefs=[]}){if(!id||!startsAt||!homeTeam||!awayTeam)throw new TypeError("Match requires id, startsAt and teams");return Object.freeze({id,kind:"occurrence",occurrenceType:"football-match",venueId:"ec:venue:maracana",title:`${homeTeam} x ${awayTeam}`,startsAt,endsAt:null,timezone:"America/Sao_Paulo",status,sourceRefs:Object.freeze(sourceRefs),verifiedAt:null,expiresAt:null});}

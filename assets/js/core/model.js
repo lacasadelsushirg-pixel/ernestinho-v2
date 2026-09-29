@@ -1,47 +1,12 @@
-/**
- * Ernestinho Carioca — canonical domain model.
- * Pure data contracts: no DOM, no network, no presentation.
- */
-export const EC_TYPES = Object.freeze({
-  ENTITY: "entity",
-  OCCURRENCE: "occurrence",
-  SIGNAL: "signal",
-  GUIDE: "guide",
-  PRODUCT: "product",
-  LODGING: "lodging"
-});
-
-export const QUALITY = Object.freeze({
-  VERIFIED: "verified",
-  EDITORIAL_REVIEWED: "editorial-reviewed",
-  NEEDS_REVIEW: "needs-review",
-  UNKNOWN: "unknown"
-});
-
-export const CURRENT_STATE = Object.freeze({
-  OPEN: "open",
-  CLOSED: "closed",
-  CANCELLED: "cancelled",
-  POSTPONED: "postponed",
-  AVAILABLE: "available",
-  UNAVAILABLE: "unavailable",
-  UNKNOWN: "unknown"
-});
-
-export function canonicalId(type, slug) {
-  if (!Object.values(EC_TYPES).includes(type)) throw new TypeError("Invalid EC type");
-  const safe = String(slug || "").trim().toLowerCase()
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-  if (!safe) throw new TypeError("Canonical slug required");
-  return `ec:${type}:${safe}`;
-}
-
-export function baseRecord({ id, type, slug, qualityStatus = QUALITY.UNKNOWN, sources = [] }) {
-  if (!id || !type || !slug) throw new TypeError("id, type and slug are required");
-  return Object.freeze({
-    id, type, slug,
-    qualityStatus,
-    sources: Object.freeze([...sources])
-  });
-}
+/** Ernestinho Carioca V55 canonical contracts. Pure data: no DOM/network. */
+export const KINDS=Object.freeze(["place","neighborhood","beach","beach-sector","culture","nature","gastronomy","nightlife","shopping","transport","service","venue","lodging","product","guide","occurrence","signal"]);
+export const IMPLEMENTATION_STATUS=Object.freeze(["REAL_PAGE","ALIAS","UI_PLACEHOLDER","EMBEDDED_ONLY","DATA_ONLY","DYNAMIC_MODULE","PRODUCT","OCCURRENCE","EDITORIAL_GUIDE"]);
+export const EDITORIAL_STATUS=Object.freeze(["draft","researched","verified","translated","photoReady","published","needsReview"]);
+export const TRANSLATION_STATUS=Object.freeze(["missing","draft","reviewed","complete"]);
+export const LOCALES=Object.freeze(["es","pt-BR","en"]);
+export const UNKNOWN="unknown";
+export function slugify(value){return String(value??"").trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
+export function canonicalId(kind,slug){if(!KINDS.includes(kind))throw new TypeError("Invalid EC kind: "+kind);const safe=slugify(slug);if(!safe)throw new TypeError("Canonical slug required");return `ec:${kind}:${safe}`;}
+export function quality(overrides={}){return Object.freeze({editorialStatus:"needsReview",factualStatus:"unknown",translationStatus:Object.freeze({es:"missing","pt-BR":"missing",en:"missing"}),photoStatus:"unknown",sourceCoverage:"unknown",lastAuditAt:null,issues:Object.freeze([]),confidence:"unknown",...overrides});}
+export function baseRecord(input={}){const {id,kind,slug,status="needsReview",implementationStatus="DATA_ONLY",canonicalPath=null,aliases=[],name="",coordinates=null,neighborhoodId=null,zoneId=null,categories=[],tags=[],sourceRefs=[],createdAt=null,updatedAt=null}=input;if(!id||!kind||!slug)throw new TypeError("id, kind and slug are required");return Object.freeze({...input,id,kind,slug,status,implementationStatus,canonicalPath,aliases:Object.freeze([...aliases]),name,coordinates,neighborhoodId,zoneId,categories:Object.freeze([...categories]),tags:Object.freeze([...tags]),sourceRefs:Object.freeze([...sourceRefs]),quality:input.quality||quality(),createdAt,updatedAt});}
+export function fieldState(value=UNKNOWN,{sourceRef=null,verifiedAt=null,validUntil=null,status=UNKNOWN,confidence=UNKNOWN,discrepancyNote=null}={}){return Object.freeze({value,sourceRef,verifiedAt,validUntil,status,confidence,discrepancyNote});}

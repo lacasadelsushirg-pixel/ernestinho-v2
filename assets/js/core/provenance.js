@@ -1,20 +1,4 @@
-/**
- * Source/provenance helpers. Field-level provenance can be layered without
- * duplicating the editorial entity.
- */
-export function sourceRef({ url, authority = "unknown", checkedAt = null, fields = [] }) {
-  if (!url) throw new TypeError("source url required");
-  return Object.freeze({
-    url,
-    authority,
-    checkedAt,
-    fields: Object.freeze([...fields])
-  });
-}
-
-export function chooseFieldValue(candidates = []) {
-  const rank = { official: 4, institutional: 3, editorial: 2, community: 1, unknown: 0 };
-  return [...candidates]
-    .filter(x => x && x.value !== undefined)
-    .sort((a,b) => (rank[b.authority] || 0) - (rank[a.authority] || 0))[0] || null;
-}
+export const REFRESH_CLASS=Object.freeze(["LIVE","D3","D2","D1","E"]);
+export function sourceRecord(input={}){const {id,name="",sourceType="unknown",authorityDomain="",url="",official=false,scope=[],checkedAt=null,lastSuccessfulFetch=null,refreshClass="E",notes=""}=input;if(!id||!url)throw new TypeError("source id and url required");if(!REFRESH_CLASS.includes(refreshClass))throw new TypeError("Invalid refreshClass");return Object.freeze({id,name,sourceType,authorityDomain,url,official,scope:Object.freeze([...scope]),checkedAt,lastSuccessfulFetch,refreshClass,notes});}
+export function provenance({sourceRef,checkedAt=null,validUntil=null,confidence="unknown",discrepancyNote=null}={}){if(!sourceRef)throw new TypeError("sourceRef required");return Object.freeze({sourceRef,checkedAt,validUntil,confidence,discrepancyNote});}
+export function chooseFieldValue(candidates=[]){const rank={official:5,operator:5,institutional:4,editorial:2,community:1,unknown:0};return [...candidates].filter(x=>x&&x.value!==undefined).sort((a,b)=>(rank[b.authority]||0)-(rank[a.authority]||0))[0]||null;}

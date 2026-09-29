@@ -1,0 +1,1 @@
+export const taxonomy=Object.freeze({museum:"museum",beach:"beach",samba:"samba",family:"family",rain:"rain","low-effort":"low-effort",wheelchair:"wheelchair","shopping-mall":"shopping-mall"});

@@ -1,9 +1,3 @@
-export const lodgings = Object.freeze([
-  "805","605","1008","54","702","217","1221","621","goia","venti","nata"
-].map(sourceId => Object.freeze({
-  id:`ec:lodging:${sourceId}`,
-  sourceId,
-  status:"active-in-registry",
-  pricePublic:false,
-  availabilityPublic:false
-})));
+import { baseRecord, canonicalId } from "../../core/model.js";
+const codes=["805","605","1008","54","702","217","1221","621","goia","venti","nata"];
+export const lodgings=Object.freeze(codes.map(code=>baseRecord({id:canonicalId("lodging",/^\d+$/.test(code)?"ap-"+code:code),kind:"lodging",slug:/^\d+$/.test(code)?"ap-"+code:code,code,name:code,canonicalPath:/^\d+$/.test(code)?`/hospedaje/${code}/`:null,implementationStatus:"REAL_PAGE",publicRatePolicy:"hidden",publicAvailabilityPolicy:"hidden",inquiryChannel:"whatsapp",commercialStatus:"active-in-registry"})));

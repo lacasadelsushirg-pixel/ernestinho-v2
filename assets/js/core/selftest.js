@@ -1,20 +1,2 @@
-import { registry } from "../data/registry/index.js";
-import { validateRegistry } from "./validator.js";
-import { evaluateSafety } from "./safety.js";
-
-export function runCoreSelfTest() {
-  const registryResult = validateRegistry(registry);
-  const unknownSea = evaluateSafety({id:"test-beach",requiresSafeSea:true},{seaSafety:"unknown"});
-  const unsafeSea = evaluateSafety({id:"test-beach",requiresSafeSea:true},{seaSafety:"unsafe"});
-  const safeSea = evaluateSafety({id:"test-beach",requiresSafeSea:true},{seaSafety:"safe"});
-
-  const checks = {
-    registryValid: registryResult.ok,
-    unknownSeaBlocked: unknownSea.allowed === false && unknownSea.unknownCritical.includes("sea-safety"),
-    unsafeSeaBlocked: unsafeSea.blocked === true,
-    safeSeaAllowed: safeSea.allowed === true,
-    noRemovedStudio: !registry.lodgings.some(x=>x.sourceId==="estudio-1-1"),
-    oneAquarioEntity: registry.entities.filter(x=>x.slug==="aquario").length===1
-  };
-  return Object.freeze({ok:Object.values(checks).every(Boolean),checks:Object.freeze(checks),registry:registryResult});
-}
+import { registry } from "../data/registry/index.js";import { validateRegistry } from "./validator.js";import { evaluateSafety } from "./safety.js";import { canonicalId } from "./model.js";
+export function runCoreSelfTest(){const v=validateRegistry(registry);const unknown=evaluateSafety({id:"fixture",requiresSafeSea:true},{seaSafety:"unknown"});const unsafe=evaluateSafety({id:"fixture",requiresSafeSea:true},{seaSafety:"unsafe"});const safe=evaluateSafety({id:"fixture",requiresSafeSea:true},{seaSafety:"safe"});const checks={registryValid:v.ok,canonicalNamespace:canonicalId("beach","Copacabana")==="ec:beach:copacabana",unknownIsNotSafe:unknown.allowed===false&&unknown.unknownCritical.includes("sea-safety"),unsafeBlocked:unsafe.blocked===true,safeAllowed:safe.allowed===true,noRemovedStudio:!registry.lodgings.some(x=>x.code==="estudio-1-1"),oneAquarioEntity:registry.entities.filter(x=>x.name==="AquaRio").length===1,cadegNotNeighborhood:!registry.entities.some(x=>x.kind==="neighborhood"&&x.slug==="cadeg")};return Object.freeze({ok:Object.values(checks).every(Boolean),checks:Object.freeze(checks),registry:v});}

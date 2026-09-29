@@ -1,34 +1,13 @@
-import { RELATIONS } from "./relations.js";
-
-const DUPLICATE_OK = new Set();
-
-export function validateRegistry(registry) {
-  const errors = [], warnings = [];
-  const all = [...registry.entities, ...registry.guides, ...registry.lodgings];
-  const ids = new Set();
-
-  for (const record of all) {
-    if (!record.id) errors.push("record-without-id");
-    else if (ids.has(record.id) && !DUPLICATE_OK.has(record.id)) errors.push(`duplicate-id:${record.id}`);
-    else ids.add(record.id);
-  }
-
-  for (const guide of registry.guides) {
-    for (const entityId of guide.entityIds || []) {
-      if (!ids.has(entityId)) errors.push(`missing-guide-entity:${guide.id}->${entityId}`);
-    }
-  }
-
-  for (const rel of registry.relations) {
-    if (!RELATIONS.includes(rel.type)) errors.push(`invalid-relation:${rel.type}`);
-    if (!ids.has(rel.from)) errors.push(`missing-relation-from:${rel.from}`);
-    if (!ids.has(rel.to)) errors.push(`missing-relation-to:${rel.to}`);
-  }
-
-  if (registry.lodgings.some(x => x.sourceId === "estudio-1-1")) errors.push("removed-lodging-present:estudio-1-1");
-  if (registry.entities.filter(x => x.slug === "aquario").length > 1) errors.push("duplicate-physical-entity:aquario");
-
-  return Object.freeze({ok:errors.length===0,errors:Object.freeze(errors),warnings:Object.freeze(warnings),counts:Object.freeze({
-    entities:registry.entities.length,guides:registry.guides.length,lodgings:registry.lodgings.length,relations:registry.relations.length
-  })});
-}
+import { KINDS, IMPLEMENTATION_STATUS, LOCALES, TRANSLATION_STATUS } from "./model.js";import { RELATIONS } from "./relations.js";
+const PATH=/^\/[a-z0-9][a-z0-9\-/]*\/$/;const ID=/^ec:([a-z-]+):([a-z0-9][a-z0-9-]*)$/;
+function aliasCycles(aliases){const next=new Map(aliases.map(a=>[a.oldPath,a.canonicalPath]));const cycles=[];for(const start of next.keys()){let p=start,seen=new Set();while(next.has(p)){if(seen.has(p)){cycles.push(start);break;}seen.add(p);p=next.get(p);}}return cycles;}
+export function validateRegistry(registry){const errors=[],warnings=[];const all=[...registry.entities,...registry.guides,...registry.lodgings,...registry.products,...(registry.occurrences||[]),...(registry.signals||[])];const ids=new Set(),paths=new Map();
+for(const r of all){if(!r.id||!ID.test(r.id))errors.push(`invalid-id:${r.id||"missing"}`);else if(ids.has(r.id))errors.push(`duplicate-id:${r.id}`);else ids.add(r.id);if(r.kind&&!KINDS.includes(r.kind))errors.push(`invalid-kind:${r.id}`);if(r.implementationStatus&&!IMPLEMENTATION_STATUS.includes(r.implementationStatus))errors.push(`invalid-implementation-status:${r.id}`);if(r.canonicalPath){if(!PATH.test(r.canonicalPath))errors.push(`invalid-path:${r.id}`);if(paths.has(r.canonicalPath)&&paths.get(r.canonicalPath)!==r.id)errors.push(`duplicate-path:${r.canonicalPath}`);else paths.set(r.canonicalPath,r.id);}}
+for(const g of registry.guides){for(const id of g.relatedEntityIds||[]){if(!ids.has(id))errors.push(`missing-guide-entity:${g.id}->${id}`);}}
+for(const rel of registry.relations||[]){if(!RELATIONS.includes(rel.type))errors.push(`invalid-relation:${rel.id}`);if(!ids.has(rel.fromId))errors.push(`missing-relation-from:${rel.id}->${rel.fromId}`);if(!ids.has(rel.toId))errors.push(`missing-relation-to:${rel.id}->${rel.toId}`);}
+for(const a of registry.aliases||[]){if(a.oldPath===a.canonicalPath)errors.push(`self-alias:${a.oldPath}`);}for(const c of aliasCycles(registry.aliases||[]))errors.push(`alias-cycle:${c}`);
+if(registry.lodgings.some(x=>x.code==="estudio-1-1"||x.slug==="estudio-1-1"))errors.push("removed-lodging-present:estudio-1-1");if(registry.entities.filter(x=>x.name==="AquaRio").length!==1)errors.push("aquario-must-be-one-entity");
+for(const locale of LOCALES){const store=registry.content?.[locale]||{};for(const [id,c] of Object.entries(store)){if(!ids.has(id))errors.push(`orphan-content:${locale}:${id}`);if(c.translationStatus&&!TRANSLATION_STATUS.includes(c.translationStatus))errors.push(`invalid-translation-status:${locale}:${id}`);}}
+for(const o of registry.occurrences||[]){if(o.endsAt&&Date.parse(o.endsAt)<Date.parse(o.startsAt))errors.push(`occurrence-date-order:${o.id}`);if(!o.sourceRefs?.length)warnings.push(`dynamic-without-source:${o.id}`);}
+for(const s of registry.signals||[]){if(s.state!=="unknown"&&!s.sourceRefs?.length)warnings.push(`signal-without-source:${s.id}`);}
+return Object.freeze({ok:errors.length===0,errors:Object.freeze(errors),warnings:Object.freeze(warnings),counts:Object.freeze({records:all.length,entities:registry.entities.length,guides:registry.guides.length,lodgings:registry.lodgings.length,products:registry.products.length,relations:registry.relations.length,aliases:registry.aliases.length})});}

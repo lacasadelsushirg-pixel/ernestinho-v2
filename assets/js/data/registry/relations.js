@@ -1,7 +1,9 @@
-export const relations = Object.freeze([
-  {from:"ec:entity:aquario",type:"sameZone",to:"ec:entity:museu-do-amanha"},
-  {from:"ec:entity:copacabana-neighborhood",type:"sameNeighborhood",to:"ec:entity:copacabana-beach"},
-  {from:"ec:entity:bip-bip",type:"sameNeighborhood",to:"ec:entity:copacabana-neighborhood"},
-  {from:"ec:entity:parque-lage",type:"nearby",to:"ec:entity:jardim-botanico-poi"},
-  {from:"ec:guide:familia-aquario",type:"alternativeTo",to:"ec:guide:atracciones-aquario",meta:{meaning:"editorial-view-only-not-factual-duplicate"}}
-]);
+import { relation } from "../../core/relations.js";
+const rows=[
+["aquario-amanha","ec:place:aquario","sameZone","ec:culture:museu-do-amanha"],
+["copa-beach","ec:neighborhood:copacabana","sameNeighborhood","ec:beach:copacabana"],
+["bip-copa","ec:nightlife:bip-bip","sameNeighborhood","ec:neighborhood:copacabana"],
+["lage-jb","ec:culture:parque-lage","nearby","ec:nature:jardim-botanico"],
+["aquario-views","ec:guide:familia-aquario","alternativeTo","ec:guide:atracciones-aquario"]
+];
+export const relations=Object.freeze(rows.map(([slug,fromId,type,toId])=>relation({id:`ec:relation:${slug}`,fromId,type,toId,editorialNote:slug==="aquario-views"?"editorial-view-only-not-factual-duplicate":""})));
