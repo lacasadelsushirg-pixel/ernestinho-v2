@@ -170,7 +170,22 @@ function apply(lang) {
   document.querySelectorAll("[data-desktop-language]").forEach(button => { button.classList.toggle("is-active",button.dataset.desktopLanguage===selected); button.setAttribute("aria-pressed",String(button.dataset.desktopLanguage===selected)); });
   document.querySelectorAll("[data-ec-language]").forEach(button => { const active=button.dataset.ecLanguage===selected; button.classList.toggle("is-active",active); button.setAttribute("aria-pressed",String(active)); });
 }
-async function init() {
+function ensureGuideAdn(){const p=location.pathname;if(!p.startsWith('/guia/'))return;if(document.querySelector('link[data-guide-adn]'))return;const l=document.createElement('link');l.rel='stylesheet';l.href=new URL('../css/guia-adn.css',import.meta.url).href;l.dataset.guideAdn='';document.head.appendChild(l);}\n
+function ensureCorporateClosing(){
+  if(document.querySelector(".ec-corporate-closing"))return;
+  const oldFooter=document.querySelector("body > footer, main + footer");
+  const root=document.createElement("section");root.className="ec-corporate-closing";root.innerHTML=`
+    <div class="ec-closing-cta">
+      <div><h2>¿QUIERES CONOCER RÍO<br>CONMIGO?</h2><p>Diseñamos tu itinerario o te acompaño en un tour privado exclusivo.</p></div>
+      <a href="https://wa.me/5521969946938?text=Hola%20Ernestinho%2C%20quiero%20conocer%20R%C3%ADo%20contigo." target="_blank" rel="noopener noreferrer"><span aria-hidden="true">●</span> HABLAR CON ERNESTINHO POR WHATSAPP</a>
+    </div>
+    <footer class="ec-corporate-footer">
+      <div class="ec-footer-brand"><img src="https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53" alt="Ernestinho Carioca"><div><strong>ERNESTINHO <em>CARIOCA</em></strong><small>RÍO DE JANEIRO, DESDE MI MIRADA</small></div></div>
+      <div class="ec-footer-legal"><p>© 2026 Ernestinho Carioca. Todos los derechos reservados.</p><p>Diseñado para viajeros que buscan vivir Río de forma real y auténtica.</p><a href="/privacidad-precios-condiciones/">Privacidad, precios y condiciones</a></div>
+    </footer>`;
+  if(oldFooter)oldFooter.replaceWith(root);else document.body.appendChild(root);
+}
+\nasync function init() {\n  ensureGuideAdn();\n  ensureCorporateClosing();
   ensureGlobalStyles();
   ensureTopbarNav();
   ensureSocialLinks();
@@ -212,4 +227,5 @@ async function init() {
   });
 }
 document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init, { once: true }) : init();
+// EC preview trigger: 2026-09-29 guide-and-corporate-closing\n// Force GitHub→Vercel preview: 2026-09-29T01:15 Rio
 export { apply };
