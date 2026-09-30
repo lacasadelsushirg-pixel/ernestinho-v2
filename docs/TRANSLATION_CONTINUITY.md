@@ -23,3 +23,7 @@ Herramienta reproducible: node scripts/audit_translations.mjs /tmp/ec-translatio
 Descubrimiento clave: muchas fichas gastronómicas tienen D={pt:{índice:HTML},en:{índice:HTML}} y botones .lang-switcher; ciertos valores prácticos EN/PT todavía contienen español. Compras tiene traducciones embebidas más arrays P de texto ES que NO siempre cambian. Auditar esas partes dinámicas además del HTML. La página entera NO está terminada. Priorizar fichas de Familia nuevas, Gastronomía, Compras (arrays P), Cultura, Vida Nocturna, Eventos, Playas, Naturaleza y Consejos; luego prueba de navegador completa.
 
 Se incorporaron también diccionarios presentes en el espacio de trabajo para Atracciones, Barrios y Naturaleza, y sus registros en site.js. Todos pasan el inventario de claves PT/EN. Conservar ese trabajo en futuras continuaciones.
+
+Bloque 4: todo el texto editorial estático pendiente de las 16 rutas de Playas y sus avisos, títulos y descripción del listado; metadatos de barrios/fichas de Familia. El inventario restante de Playas solo contiene nombres propios oficiales. Diccionario naturaleza-02.js presente en el espacio de trabajo se conserva y registra junto a naturaleza-01.js.
+
+También se conserva familia-03.js presente en el espacio de trabajo: parte de las descripciones/práctica de fichas familiares. Sigue pendiente verificar y completar el resto.

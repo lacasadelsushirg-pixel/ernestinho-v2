@@ -9,7 +9,7 @@ const sectionChunks = {
   "consejos": ["consejos-01.js"],
   "eventos": ["eventos-01.js"],
   "experiencias": ["experiencias-01.js"],
-  "familia": ["familia-01.js", "familia-02.js"],
+  "familia": ["familia-01.js", "familia-02.js", "familia-03.js"],
   "fotografia": ["fotografia-01.js", "fotografia-02.js"],
   "gastronomia": ["gastronomia-01.js"],
   "guia": ["guia-01.js", "guia-02.js", "guia-03.js"],
@@ -18,15 +18,15 @@ const sectionChunks = {
   "television": ["television-01.js"],
   "hospedaje": ["hospedaje-01.js"],
   "hoy": ["hoy-01.js"],
-  "naturaleza": ["naturaleza-01.js"],
-  "playas": ["playas-01.js"],
+  "naturaleza": ["naturaleza-01.js", "naturaleza-02.js"],
+  "playas": ["playas-01.js", "playas-02.js"],
   "quiero": ["quiero-01.js"],
   "transportes": ["transportes-01.js"],
   "vida-nocturna": ["vida-nocturna-01.js"],
 };
 async function loadSectionTranslations() {
   const section = location.pathname.split("/").filter(Boolean)[0] || "home";
-  const chunks = ["common-02.js", "metadata-01.js", ...(sectionChunks[section] || [])];
+  const chunks = ["common-02.js", "metadata-01.js", "metadata-02.js", ...(sectionChunks[section] || [])];
   const loaded = await Promise.allSettled(chunks.map(file => import(`./translations/chunks/${file}`)));
   for (const result of loaded) if (result.status === "fulfilled") Object.assign(common, result.value.default);
 }

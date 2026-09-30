@@ -39,7 +39,7 @@ print(json.dumps(rows,ensure_ascii=False))
 if(collect.status!==0)throw Error(collect.stderr);
 const candidates=[];const summary={};
 for(const route of JSON.parse(collect.stdout)){
- const dict={...common,...chunks['common-02.js'],...chunks['metadata-01.js']};
+ const dict={...common,...chunks['common-02.js'],...chunks['metadata-01.js'],...chunks['metadata-02.js']};
  for(const file of routes[route.section]||[])Object.assign(dict,chunks[file]||{});
  const missing=route.phrases.filter(text=>/[A-Za-zÀ-ÿ]{3}/.test(text)&&!dict[text]);
  candidates.push({path:route.path,missing});
