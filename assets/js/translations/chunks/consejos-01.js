@@ -80,4 +80,28 @@ export default {
     "PT": "Fazendo as malas para o Rio | Dicas Ernestinho. Calor, praia, chuva repentina e ar-condicionado podem aparecer na mesma viagem. Fazer a mala por camadas funciona melhor do que tentar prever um único tipo de clima.",
     "EN": "Packing for Rio | Ernestinho Tips. Heat, beach days, sudden rain and air conditioning can all feature in the same trip. Packing in layers works better than planning for just one type of weather."
   }
+,
+  "Consejos reales y sin complicaciones":{"PT":"Dicas reais e sem complicações","EN":"Real, straightforward tips"},
+  "Consejos de Ernestinho":{"PT":"Dicas do Ernestinho","EN":"Ernestinho's Tips"},
+  "Ideas para organizar cada día, ahorrar tiempo y entender cómo funciona Río.":{"PT":"Ideias para organizar cada dia, economizar tempo e entender como o Rio funciona.","EN":"Ideas to organize each day, save time and understand how Rio works."},
+  "Consejos esenciales":{"PT":"Dicas essenciais","EN":"Essential tips"},
+  "Organiza y vive tu viaje":{"PT":"Organize e viva sua viagem","EN":"Plan and live your trip"},
+  "20 Errores que debes evitar sí o sí en Río de Janeiro":{"PT":"20 erros que você deve evitar no Rio de Janeiro","EN":"20 mistakes you should definitely avoid in Rio de Janeiro"},
+  "Documentos, visado, vacunas, maleta y electricidad":{"PT":"Documentos, visto, vacinas, bagagem e eletricidade","EN":"Documents, visa, vaccines, luggage and electricity"},
+  "Portugués para viajar":{"PT":"Português para viajar","EN":"Portuguese for travelers"},
+  "Google Maps en Río":{"PT":"Google Maps no Rio","EN":"Google Maps in Rio"},
+  "Rodízio: cómo funciona":{"PT":"Rodízio: como funciona","EN":"Rodízio: how it works"},
+  "50 preguntas antes de viajar":{"PT":"50 perguntas antes de viajar","EN":"50 questions before traveling"},
+  "Perfiles de viajero":{"PT":"Perfis de viajantes","EN":"Traveler profiles"},
+  "Seguro de viaje":{"PT":"Seguro viagem","EN":"Travel insurance"},
+  "Una semana en Río":{"PT":"Uma semana no Rio","EN":"One week in Rio"},
+  "Qué hacer con lluvia":{"PT":"O que fazer quando chove","EN":"What to do when it rains"},
+  "Cuántos días necesito":{"PT":"Quantos dias eu preciso","EN":"How many days do I need"},
+  "Río caminando":{"PT":"Rio a pé","EN":"Rio on foot"},
+  "Sol y calor":{"PT":"Sol e calor","EN":"Sun and heat"},
+  "Lo que nadie te explica":{"PT":"O que ninguém te explica","EN":"What nobody tells you"},
+  "Trampas para turistas":{"PT":"Armadilhas para turistas","EN":"Tourist traps"},
+  "Elegir hotel":{"PT":"Escolher hotel","EN":"Choosing a hotel"},
+  "Supermercados":{"PT":"Supermercados","EN":"Supermarkets"},
+  "Souvenirs":{"PT":"Lembranças","EN":"Souvenirs"}
 };
