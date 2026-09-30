@@ -102,5 +102,109 @@ export default {
   "['Exposición sobre la historia de Río.', 'Pinturas y grabados.', 'Fotografías de Marc Ferrez y Augusto Malta.', 'Mobiliario y objetos históricos.', 'Palacete de dos pisos.', 'Exposiciones temporales.', 'Capela de São João Batista.', 'Jardines y áreas verdes.', 'Documentos municipales.', 'Vistas y senderos del Parque da Cidade.']": {
     "PT": "['Exposição sobre a história do Rio.', 'Pinturas e gravuras.', 'Fotografias de Marc Ferrez e Augusto Malta.', 'Mobiliário e objetos históricos.', 'Palacete de dois andares.', 'Exposições temporárias.', 'Capela de São João Batista.', 'Jardins e áreas verdes.', 'Documentos municipais.', 'Vistas e trilhas do Parque da Cidade.']",
     "EN": "['Exhibition about Rio’s history.', 'Paintings and prints.', 'Photographs by Marc Ferrez and Augusto Malta.', 'Historic furniture and objects.', 'Two-storey mansion.', 'Temporary exhibitions.', 'Capela de São João Batista.', 'Gardens and green spaces.', 'Municipal documents.', 'Views and trails in Parque da Cidade.']"
+  },
+  "Combina arquitectura, historia política, jardines y una ubicación muy accesible. Es una de las mejores visitas gratuitas de Río para comprender la historia republicana.": {
+    "PT": "Combina arquitetura, história política, jardins e uma localização muito acessível. É uma das melhores visitas gratuitas do Rio para compreender a história republicana.",
+    "EN": "It combines architecture, political history, gardens and an easily accessible location. It is one of Rio’s best free visits for understanding republican history."
+  },
+  "Consulta los recursos y recorridos accesibles disponibles dentro del edificio histórico.": {
+    "PT": "Consulte os recursos e percursos acessíveis disponíveis dentro do edifício histórico.",
+    "EN": "Check the accessibility facilities and routes available inside the historic building."
+  },
+  "Del lujo presidencial a uno de los capítulos más dramáticos de la historia de Brasil": {
+    "PT": "Do luxo presidencial a um dos capítulos mais dramáticos da história do Brasil",
+    "EN": "From presidential luxury to one of the most dramatic chapters in Brazilian history"
+  },
+  "Dieciocho presidentes utilizaron el palacio antes de la transferencia de la capital a Brasilia en 1960. Después de esa mudanza, el edificio fue transformado en museo.": {
+    "PT": "Dezoito presidentes utilizaram o palácio antes da transferência da capital para Brasília em 1960. Após essa mudança, o edifício foi transformado em museu.",
+    "EN": "Eighteen presidents used the palace before the capital moved to Brasília in 1960. After that move, the building became a museum."
+  },
+  "El Museu da República funciona en el Palácio do Catete, antigua sede de la Presidencia de Brasil. Sus habitaciones, salones, objetos, documentos y jardines permiten conocer la vida política republicana desde finales del siglo XIX hasta la transferencia de la capital a Brasilia.": {
+    "PT": "O Museu da República funciona no Palácio do Catete, antiga sede da Presidência do Brasil. Seus quartos, salões, objetos, documentos e jardins permitem conhecer a vida política republicana desde o final do século XIX até a transferência da capital para Brasília.",
+    "EN": "The Museu da República occupies the Palácio do Catete, the former seat of Brazil’s presidency. Its rooms, halls, objects, documents and gardens explore republican political life from the late nineteenth century until the capital moved to Brasília."
+  },
+  "El conjunto también recibe exposiciones, actividades educativas, ferias y eventos culturales. Su programación transforma el antiguo palacio presidencial en un espacio público activo.": {
+    "PT": "O conjunto também recebe exposições, atividades educativas, feiras e eventos culturais. Sua programação transforma o antigo palácio presidencial em um espaço público ativo.",
+    "EN": "The complex also hosts exhibitions, educational activities, fairs and cultural events. Its programme makes the former presidential palace an active public space."
+  },
+  "El edificio fue construido entre 1858 y 1867 como residencia de António Clemente Pinto, el Barão de Nova Friburgo. Su riqueza procedía principalmente de actividades agrícolas y comerciales desarrolladas durante el Imperio.": {
+    "PT": "O edifício foi construído entre 1858 e 1867 como residência de António Clemente Pinto, o Barão de Nova Friburgo. Sua riqueza vinha principalmente de atividades agrícolas e comerciais desenvolvidas durante o Império.",
+    "EN": "The building was constructed between 1858 and 1867 as the residence of António Clemente Pinto, the Barão de Nova Friburgo. His wealth came mainly from agricultural and commercial activities during the Empire."
+  },
+  "El episodio más conocido ocurrió el 24 de agosto de 1954, cuando el presidente Getúlio Vargas se quitó la vida en su habitación. El cuarto conserva objetos relacionados con sus últimos momentos y se convirtió en una de las áreas más impactantes del museo.": {
+    "PT": "O episódio mais conhecido ocorreu em 24 de agosto de 1954, quando o presidente Getúlio Vargas tirou a própria vida em seu quarto. O cômodo preserva objetos relacionados aos seus últimos momentos e se tornou uma das áreas mais marcantes do museu.",
+    "EN": "The best-known episode occurred on 24 August 1954, when President Getúlio Vargas took his own life in his bedroom. The room preserves objects associated with his final moments and has become one of the museum’s most moving spaces."
+  },
+  "El recorrido permite conocer salones ceremoniales, mobiliario, pinturas, esculturas, objetos decorativos y espacios utilizados por presidentes y autoridades.": {
+    "PT": "A visita permite conhecer salões cerimoniais, mobiliário, pinturas, esculturas, objetos decorativos e espaços utilizados por presidentes e autoridades.",
+    "EN": "The visit takes you through ceremonial halls, furniture, paintings, sculptures, decorative objects and spaces used by presidents and officials."
+  },
+  "En 1897 el Palácio do Catete se convirtió en sede de la Presidencia de la República. Durante más de seis décadas fue escenario de reuniones, decisiones políticas, recepciones y crisis nacionales.": {
+    "PT": "Em 1897, o Palácio do Catete tornou-se sede da Presidência da República. Durante mais de seis décadas, foi cenário de reuniões, decisões políticas, recepções e crises nacionais.",
+    "EN": "In 1897, the Palácio do Catete became the seat of the Presidency of the Republic. For more than six decades it hosted meetings, political decisions, receptions and national crises."
+  },
+  "Entre 1 hora y 30 minutos y 2 horas y 30 minutos, incluyendo los jardines.": {
+    "PT": "Entre 1 hora e 30 minutos e 2 horas e 30 minutos, incluindo os jardins.",
+    "EN": "Between 1 hour 30 minutes and 2 hours 30 minutes, including the gardens."
+  },
+  "Getúlio Vargas y el cuarto presidencial": {
+    "PT": "Getúlio Vargas e o quarto presidencial",
+    "EN": "Getúlio Vargas and the presidential bedroom"
+  },
+  "La estación Catete del metro queda frente al museo. También existen varias líneas de autobús por la Rua do Catete y el Aterro do Flamengo.": {
+    "PT": "A estação Catete do metrô fica em frente ao museu. Também há várias linhas de ônibus pela Rua do Catete e pelo Aterro do Flamengo.",
+    "EN": "Catete metro station is opposite the museum. Several bus routes also run along Rua do Catete and Aterro do Flamengo."
+  },
+  "La residencia fue decorada con materiales, muebles y obras de arte de gran valor. Después de pasar por diferentes propietarios, fue adquirida por el gobierno federal.": {
+    "PT": "A residência foi decorada com materiais, móveis e obras de arte de grande valor. Depois de passar por diferentes proprietários, foi adquirida pelo governo federal.",
+    "EN": "The residence was decorated with valuable materials, furniture and artworks. After passing through several owners, it was purchased by the federal government."
+  },
+  "La sede de la Presidencia de Brasil": {
+    "PT": "A sede da Presidência do Brasil",
+    "EN": "The seat of Brazil’s presidency"
+  },
+  "Llega cerca de las 11:00 para recorrer primero el palacio y después caminar por los jardines.": {
+    "PT": "Chegue por volta das 11h para visitar primeiro o palácio e depois passear pelos jardins.",
+    "EN": "Arrive around 11:00 am to visit the palace first and then walk through the gardens."
+  },
+  "Los jardines del Palácio do Catete": {
+    "PT": "Os jardins do Palácio do Catete",
+    "EN": "The Palácio do Catete gardens"
+  },
+  "Los jardines poseen lagos, puentes, esculturas, árboles y senderos. Son utilizados diariamente por residentes y visitantes, incluso cuando las salas interiores están cerradas.": {
+    "PT": "Os jardins possuem lagos, pontes, esculturas, árvores e caminhos. São utilizados diariamente por moradores e visitantes, mesmo quando as salas internas estão fechadas.",
+    "EN": "The gardens have ponds, bridges, sculptures, trees and paths. Residents and visitors use them daily, even when the interior rooms are closed."
+  },
+  "Museo, cine y espacio cultural": {
+    "PT": "Museu, cinema e espaço cultural",
+    "EN": "Museum, cinema and cultural space"
+  },
+  "Museo: miércoles a domingo, de 11:00 a 17:00. Jardines: todos los días, de 8:00 a 18:00. Confirma posibles cambios y cierres de salas.": {
+    "PT": "Museu: quarta a domingo, das 11h às 17h. Jardins: todos os dias, das 8h às 18h. Confirme possíveis alterações e fechamentos de salas.",
+    "EN": "Museum: Wednesday to Sunday, 11:00 am to 5:00 pm. Gardens: daily, 8:00 am to 6:00 pm. Check for possible changes and room closures."
+  },
+  "No te limites al palacio. Después de visitar el cuarto de Getúlio Vargas, recorre los jardines y continúa hacia el Museu de Folclore Edison Carneiro, que está prácticamente al lado.": {
+    "PT": "Não se limite ao palácio. Depois de visitar o quarto de Getúlio Vargas, percorra os jardins e siga até o Museu de Folclore Edison Carneiro, que fica praticamente ao lado.",
+    "EN": "Do not limit yourself to the palace. After visiting Getúlio Vargas’s bedroom, explore the gardens and continue to the Museu de Folclore Edison Carneiro, practically next door."
+  },
+  "Palacio presidencial, historia republicana, cuarto de Getúlio Vargas y jardines históricos.": {
+    "PT": "Palácio presidencial, história republicana, quarto de Getúlio Vargas e jardins históricos.",
+    "EN": "Presidential palace, republican history, Getúlio Vargas’s bedroom and historic gardens."
+  },
+  "República, política y residencia presidencial": {
+    "PT": "República, política e residência presidencial",
+    "EN": "Republic, politics and presidential residence"
+  },
+  "Salones que conservan la apariencia presidencial": {
+    "PT": "Salões que preservam a aparência presidencial",
+    "EN": "Halls that preserve their presidential appearance"
+  },
+  "['Fue residencia del Barão de Nova Friburgo.', 'Se convirtió en sede presidencial en 1897.', 'Fue utilizado por 18 presidentes.', 'Getúlio Vargas murió en el palacio en 1954.', 'La capital fue trasladada a Brasilia en 1960.', 'Los jardines abren todos los días.']": {
+    "PT": "['Foi residência do Barão de Nova Friburgo.', 'Tornou-se sede presidencial em 1897.', 'Foi utilizado por 18 presidentes.', 'Getúlio Vargas morreu no palácio em 1954.', 'A capital foi transferida para Brasília em 1960.', 'Os jardins abrem todos os dias.']",
+    "EN": "['It was the residence of the Barão de Nova Friburgo.', 'It became the presidential seat in 1897.', 'It was used by 18 presidents.', 'Getúlio Vargas died in the palace in 1954.', 'The capital moved to Brasília in 1960.', 'The gardens open daily.']"
+  },
+  "['Salones del antiguo palacio presidencial.', 'Mobiliario y objetos históricos.', 'Pinturas y esculturas.', 'Documentos de presidentes brasileños.', 'El cuarto de Getúlio Vargas.', 'Información sobre la República.', 'Jardines históricos.', 'Lagos, puentes y esculturas exteriores.', 'Exposiciones temporales.', 'Actividades culturales.']": {
+    "PT": "['Salões do antigo palácio presidencial.', 'Mobiliário e objetos históricos.', 'Pinturas e esculturas.', 'Documentos de presidentes brasileiros.', 'O quarto de Getúlio Vargas.', 'Informações sobre a República.', 'Jardins históricos.', 'Lagos, pontes e esculturas externas.', 'Exposições temporárias.', 'Atividades culturais.']",
+    "EN": "['Halls of the former presidential palace.', 'Historic furniture and objects.', 'Paintings and sculptures.', 'Documents of Brazilian presidents.', 'Getúlio Vargas’s bedroom.', 'Information about the Republic.', 'Historic gardens.', 'Ponds, bridges and outdoor sculptures.', 'Temporary exhibitions.', 'Cultural activities.']"
   }
 };
