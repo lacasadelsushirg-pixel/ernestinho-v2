@@ -43,3 +43,5 @@ Bloque 6: Arte y Cultura conectado al selector global con cultura-01/02/03. Enca
 Próximo trabajo prioritario: MAM Rio y resto de Cultura; completar fichas Familia restantes; Vida Nocturna, Experiencias, Eventos, Consejos; Compras arrays P; 10 fichas gastronómicas sin D embebido y metadatos/alt pendientes. Verificar navegador real y todos los botones antes de declarar 100%.
 
 Concurrencia detectada: otro turno de esta conversación continúa modificando el mismo repositorio y publicó commits 5ac92bc/97bea58. Fusionar siempre por claves; no borrar diccionarios ni crear registros duplicados. Se conservaron todas las claves de cultura-01 presentes antes del bloque 6. Recordatorio único de continuación queda a las 07:20 America/Sao_Paulo; la tarea duplicada a 07:39 se desactiva para evitar dos escritores simultáneos.
+
+2026-09-30 03:27 America/Sao_Paulo: el usuario respondió «si autorizo» a publicar los commits pendientes en GitHub. La publicación queda expresamente autorizada; la restricción anterior por auto-review queda resuelta. Conservar los bloques y continuar traducción/validación por commits.
