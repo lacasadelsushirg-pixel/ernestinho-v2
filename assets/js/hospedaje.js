@@ -3,6 +3,7 @@ import { STAYS } from "./data/lodging.js";
 
 const UI = {
   ES: {
+    "guide.kicker":"ANTES DE ELEGIR","guide.title":"¿Todavía no sabes en qué zona alojarte?","guide.copy":"Te explico las diferencias entre Copacabana, Ipanema, Barra, Centro y otras zonas para que elijas según tu viaje.","guide.cta":"VER GUÍA DE ALOJAMIENTO",
     "index.title":"Hospedaje Ernestinho | Apartamentos en Río",
     "index.description":"Apartamentos seleccionados en Copacabana e Ilha da Gigóia, con atención directa de Ernestinho Carioca.",
     "index.kicker":"HOSPEDAJE ERNESTINHO",
@@ -19,6 +20,7 @@ const UI = {
     "gallery.alt":"Foto del alojamiento","gallery.counter":"Foto"
   },
   PT: {
+    "guide.kicker":"ANTES DE ESCOLHER","guide.title":"Ainda não sabe em qual região se hospedar?","guide.copy":"Eu explico as diferenças entre Copacabana, Ipanema, Barra, Centro e outras regiões para você escolher de acordo com a sua viagem.","guide.cta":"VER GUIA DE HOSPEDAGEM",
     "index.title":"Hospedagem Ernestinho | Apartamentos no Rio",
     "index.description":"Apartamentos selecionados em Copacabana e na Ilha da Gigóia, com atendimento direto de Ernestinho Carioca.",
     "index.kicker":"HOSPEDAGEM ERNESTINHO",
@@ -35,6 +37,7 @@ const UI = {
     "gallery.alt":"Foto da hospedagem","gallery.counter":"Foto"
   },
   EN: {
+    "guide.kicker":"BEFORE YOU CHOOSE","guide.title":"Still not sure which area to stay in?","guide.copy":"I explain the differences between Copacabana, Ipanema, Barra, Downtown and other areas so you can choose what fits your trip.","guide.cta":"VIEW ACCOMMODATION GUIDE",
     "index.title":"Ernestinho Stays | Rio apartments",
     "index.description":"Selected apartments in Copacabana and Ilha da Gigóia, with direct assistance from Ernestinho Carioca.",
     "index.kicker":"ERNESTINHO STAYS",
