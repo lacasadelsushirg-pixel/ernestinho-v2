@@ -1178,5 +1178,621 @@ export default {
   "Fuertes de Río de Janeiro: guía de Ernestinho Carioca con fotos, contexto e información práctica.": {
     "PT": "Fortes do Rio de Janeiro: guia do Ernestinho Carioca com fotos, contexto e informações práticas.",
     "EN": "Rio de Janeiro’s forts: Ernestinho Carioca’s guide with photos, context and practical information."
+  },
+  "Cultura y transformación social en la Zona Portuaria": {
+    "PT": "Cultura e transformação social na Zona Portuária",
+    "EN": "Culture and social transformation in the Port Zone"
+  },
+  "El Centro Cultural Ação da Cidadania ocupa un antiguo almacén portuario y recibe exposiciones, ferias, espectáculos, campañas solidarias y grandes eventos.": {
+    "PT": "O Centro Cultural Ação da Cidadania ocupa um antigo armazém portuário e recebe exposições, feiras, espetáculos, campanhas solidárias e grandes eventos.",
+    "EN": "Centro Cultural Ação da Cidadania occupies a former port warehouse and hosts exhibitions, fairs, performances, solidarity campaigns and major events."
+  },
+  "No funciona como una atracción de visita continua. La experiencia depende de la exposición, feria, concierto o actividad que se encuentre programada.": {
+    "PT": "Não funciona como atração de visita contínua. A experiência depende da exposição, feira, show ou atividade programada.",
+    "EN": "It is not an attraction with continuous visiting access. The experience depends on the scheduled exhibition, fair, concert or activity."
+  },
+  "La organización Ação da Cidadania fue creada en 1993 por el sociólogo Herbert de Souza, conocido como Betinho, para combatir el hambre y promover la participación social.": {
+    "PT": "A organização Ação da Cidadania foi criada em 1993 pelo sociólogo Herbert de Souza, conhecido como Betinho, para combater a fome e promover a participação social.",
+    "EN": "Ação da Cidadania was created in 1993 by sociologist Herbert de Souza, known as Betinho, to fight hunger and promote social participation."
+  },
+  "Un histórico almacén portuario transformado en espacio de cultura y solidaridad.": {
+    "PT": "Um armazém portuário histórico transformado em espaço de cultura e solidariedade.",
+    "EN": "A historic port warehouse transformed into a space for culture and solidarity."
+  },
+  "Variable según cada evento.": {
+    "PT": "Variável conforme cada evento.",
+    "EN": "Varies with each event."
+  },
+  "Depende de la actividad; existen eventos gratuitos y pagados.": {
+    "PT": "Depende da atividade; há eventos gratuitos e pagos.",
+    "EN": "Depends on the activity; there are free and paid events."
+  },
+  "Consulta la programación y las condiciones de ingreso de cada evento.": {
+    "PT": "Consulte a programação e as condições de entrada de cada evento.",
+    "EN": "Check each event’s programme and entry conditions."
+  },
+  "El gran espacio del almacén ofrece circulación amplia; confirma los recursos de cada montaje.": {
+    "PT": "O grande espaço do armazém oferece circulação ampla; confirme os recursos de cada montagem.",
+    "EN": "The large warehouse offers spacious circulation; confirm each installation’s facilities."
+  },
+  "Está cerca de las paradas de VLT Parada dos Museus y Utopia AquaRio.": {
+    "PT": "Fica perto das paradas de VLT Parada dos Museus e Utopia AquaRio.",
+    "EN": "It is near the Parada dos Museus and Utopia AquaRio VLT stops."
+  },
+  "No vayas sin revisar la agenda. Aprovecha el mismo día para recorrer el Boulevard Olímpico y la zona de Pequena África.": {
+    "PT": "Não vá sem conferir a agenda. Aproveite o mesmo dia para explorar o Boulevard Olímpico e a região da Pequena África.",
+    "EN": "Do not go without checking the schedule. Use the same day to explore Boulevard Olímpico and the Pequena África area."
+  },
+  "Exposiciones, teatro, danza y música": {
+    "PT": "Exposições, teatro, dança e música",
+    "EN": "Exhibitions, theatre, dance and music"
+  },
+  "Programación cultural accesible en el Centro de Río": {
+    "PT": "Programação cultural acessível no Centro do Rio",
+    "EN": "Accessible cultural programmes in central Rio"
+  },
+  "CAIXA Cultural presenta exposiciones, espectáculos teatrales, danza, música, cine, talleres y actividades educativas.": {
+    "PT": "A CAIXA Cultural apresenta exposições, peças, dança, música, cinema, oficinas e atividades educativas.",
+    "EN": "CAIXA Cultural presents exhibitions, theatre performances, dance, music, cinema, workshops and educational activities."
+  },
+  "La experiencia depende de la programación vigente y puede incluir varias exposiciones o espectáculos en una misma semana.": {
+    "PT": "A experiência depende da programação atual e pode incluir várias exposições ou espetáculos na mesma semana.",
+    "EN": "The experience depends on the current programme and may include several exhibitions or shows in the same week."
+  },
+  "Forma parte de la red de centros culturales mantenida por Caixa Econômica Federal y trabaja en la difusión de artistas y proyectos culturales brasileños.": {
+    "PT": "Integra a rede de centros culturais mantida pela Caixa Econômica Federal e divulga artistas e projetos culturais brasileiros.",
+    "EN": "It forms part of the cultural-centre network maintained by Caixa Econômica Federal and promotes Brazilian artists and cultural projects."
+  },
+  "Programación diversa con entradas gratuitas o de precio accesible.": {
+    "PT": "Programação diversa com ingressos gratuitos ou a preços acessíveis.",
+    "EN": "Diverse programmes with free or affordable tickets."
+  },
+  "Varía según exposiciones y espectáculos. Consulta la programación oficial.": {
+    "PT": "Varia conforme exposições e espetáculos. Consulte a programação oficial.",
+    "EN": "Varies with exhibitions and performances. Check the official programme."
+  },
+  "Exposiciones generalmente gratuitas; espectáculos pueden ser gratuitos o pagados.": {
+    "PT": "Exposições geralmente gratuitas; espetáculos podem ser gratuitos ou pagos.",
+    "EN": "Exhibitions are usually free; performances may be free or paid."
+  },
+  "Retira o compra entradas previamente para espectáculos.": {
+    "PT": "Retire ou compre ingressos antes para espetáculos.",
+    "EN": "Collect or buy tickets in advance for performances."
+  },
+  "Consulta los recursos disponibles para cada sala y actividad.": {
+    "PT": "Consulte os recursos disponíveis em cada sala e atividade.",
+    "EN": "Check the facilities available for each room and activity."
+  },
+  "Está cerca de Cinelândia y de la estación Glória del metro.": {
+    "PT": "Fica perto da Cinelândia e da estação de metrô Glória.",
+    "EN": "It is near Cinelândia and Glória metro station."
+  },
+  "Revisa la cartelera antes de organizar tu día. Puede ser una excelente alternativa cultural y económica para la noche.": {
+    "PT": "Confira a programação antes de organizar seu dia. Pode ser ótima alternativa cultural e econômica para a noite.",
+    "EN": "Check the programme before organising your day. It can be an excellent cultural and inexpensive evening option."
+  },
+  "Una antigua plaza de comercio convertida en espacio cultural": {
+    "PT": "Uma antiga praça de comércio transformada em espaço cultural",
+    "EN": "A former trading exchange transformed into a cultural space"
+  },
+  "Casa FCasa França-Brasil es un centro cultural dedicado principalmente al arte contemporáneo, exposiciones y proyectos de intercambio cultural.": {
+    "PT": "A Casa França-Brasil é um centro cultural dedicado principalmente à arte contemporânea, exposições e projetos de intercâmbio cultural.",
+    "EN": "Casa França-Brasil is a cultural centre mainly dedicated to contemporary art, exhibitions and cultural-exchange projects."
+  },
+  "El gran salón central permite observar la arquitectura del edificio mientras se recorren exposiciones e instalaciones artísticas.": {
+    "PT": "O grande salão central permite observar a arquitetura do prédio enquanto se exploram exposições e instalações artísticas.",
+    "EN": "The large central hall allows you to appreciate the building’s architecture while exploring exhibitions and art installations."
+  },
+  "El edificio fue proyectado por el arquitecto francés Grandjean de Montigny e inaugurado en 1820 como Praça do Comércio. Es uno de los principales ejemplos del neoclasicismo en Río.": {
+    "PT": "O prédio foi projetado pelo arquiteto francês Grandjean de Montigny e inaugurado em 1820 como Praça do Comércio. É um dos principais exemplos do neoclassicismo no Rio.",
+    "EN": "The building was designed by French architect Grandjean de Montigny and opened in 1820 as Praça do Comércio. It is one of Rio’s leading examples of Neoclassicism."
+  },
+  "La arquitectura neoclásica de Grandjean de Montigny.": {
+    "PT": "A arquitetura neoclássica de Grandjean de Montigny.",
+    "EN": "Grandjean de Montigny’s Neoclassical architecture."
+  },
+  "Variable de acuerdo con exposiciones, montajes y mantenimiento.": {
+    "PT": "Variável conforme exposições, montagens e manutenção.",
+    "EN": "Varies with exhibitions, installation work and maintenance."
+  },
+  "Entrada generalmente gratuita.": {
+    "PT": "Entrada geralmente gratuita.",
+    "EN": "Admission is usually free."
+  },
+  "Normalmente no requiere reserva.": {
+    "PT": "Normalmente não exige reserva.",
+    "EN": "Usually no booking required."
+  },
+  "El salón principal posee circulación amplia y acceso a nivel.": {
+    "PT": "O salão principal tem circulação ampla e acesso no mesmo nível.",
+    "EN": "The main hall has spacious circulation and level access."
+  },
+  "Está junto al CCBB y cerca de la parada Candelária del VLT.": {
+    "PT": "Fica junto ao CCBB e perto da parada Candelária do VLT.",
+    "EN": "It is beside CCBB and near the Candelária VLT stop."
+  },
+  "Incluso cuando la exposición sea pequeña, entra para observar el edificio. Después cruza al CCBB y visita la Igreja da Candelária.": {
+    "PT": "Mesmo com exposição pequena, entre para observar o prédio. Depois, atravesse até o CCBB e visite a Igreja da Candelária.",
+    "EN": "Even if the exhibition is small, enter to appreciate the building. Afterwards, cross to CCBB and visit Igreja da Candelária."
+  },
+  "Arte, cine, teatro y arquitectura": {
+    "PT": "Arte, cinema, teatro e arquitetura",
+    "EN": "Art, cinema, theatre and architecture"
+  },
+  "Cultura dentro del antiguo edificio del Supremo Tribunal Federal": {
+    "PT": "Cultura no antigo prédio do Supremo Tribunal Federal",
+    "EN": "Culture inside the former Supreme Federal Court building"
+  },
+  "El CCJF ofrece exposiciones, cine, teatro, música, cursos y actividades culturales dentro de uno de los edificios más elegantes de Cinelândia.": {
+    "PT": "O CCJF oferece exposições, cinema, teatro, música, cursos e atividades culturais em um dos prédios mais elegantes da Cinelândia.",
+    "EN": "CCJF offers exhibitions, cinema, theatre, music, courses and cultural activities in one of Cinelândia’s most elegant buildings."
+  },
+  "Además de las exposiciones, destacan la escalera monumental, vitrales, salones históricos, antigua sala de sesiones y biblioteca.": {
+    "PT": "Além das exposições, destacam-se a escadaria monumental, os vitrais, salões históricos, antiga sala de sessões e biblioteca.",
+    "EN": "Beyond exhibitions, highlights include the monumental staircase, stained glass, historic halls, former session chamber and library."
+  },
+  "Inaugurado en 1909, el edificio fue sede del Supremo Tribunal Federal hasta la transferencia de la capital a Brasília. Fue restaurado y transformado en centro cultural.": {
+    "PT": "Inaugurado em 1909, o prédio foi sede do Supremo Tribunal Federal até a transferência da capital para Brasília. Foi restaurado e transformado em centro cultural.",
+    "EN": "Opened in 1909, the building housed the Supreme Federal Court until the capital moved to Brasília. It was restored and transformed into a cultural centre."
+  },
+  "La arquitectura monumental y las exposiciones frente a Cinelândia.": {
+    "PT": "A arquitetura monumental e as exposições diante da Cinelândia.",
+    "EN": "The monumental architecture and exhibitions facing Cinelândia."
+  },
+  "Generalmente de martes a domingo, con horarios diferentes para galerías, cine y espectáculos.": {
+    "PT": "Geralmente de terça a domingo, com horários diferentes para galerias, cinema e espetáculos.",
+    "EN": "Usually Tuesday to Sunday, with different hours for galleries, cinema and performances."
+  },
+  "Exposiciones frecuentemente gratuitas; cine y teatro pueden ser pagados.": {
+    "PT": "Exposições frequentemente gratuitas; cinema e teatro podem ser pagos.",
+    "EN": "Exhibitions are often free; cinema and theatre may charge admission."
+  },
+  "Consulta la necesidad de entradas para cada actividad.": {
+    "PT": "Consulte a necessidade de ingressos para cada atividade.",
+    "EN": "Check whether each activity requires a ticket."
+  },
+  "Dispone de ascensor y rutas accesibles.": {
+    "PT": "Tem elevador e rotas acessíveis.",
+    "EN": "There is a lift and accessible routes."
+  },
+  "Sube por la escalera principal y presta atención a los vitrales. Combínalo con Biblioteca Nacional y Theatro Municipal.": {
+    "PT": "Suba pela escadaria principal e observe os vitrais. Combine com Biblioteca Nacional e Theatro Municipal.",
+    "EN": "Go up the main staircase and look at the stained glass. Combine it with Biblioteca Nacional and Theatro Municipal."
+  },
+  "Exposiciones, teatro y patrimonio": {
+    "PT": "Exposições, teatro e patrimônio",
+    "EN": "Exhibitions, theatre and heritage"
+  },
+  "Arte contemporáneo dentro del corredor cultural del Centro": {
+    "PT": "Arte contemporânea no corredor cultural do Centro",
+    "EN": "Contemporary art on Centro’s cultural corridor"
+  },
+  "El Centro Cultural Correios recibe exposiciones de fotografía, pintura, escultura, instalaciones, teatro y actividades educativas.": {
+    "PT": "O Centro Cultural Correios recebe exposições de fotografia, pintura, escultura, instalações, teatro e atividades educativas.",
+    "EN": "Centro Cultural Correios hosts photography, painting, sculpture and installation exhibitions, theatre and educational activities."
+  },
+  "Posee varias galerías distribuidas en diferentes pisos y una programación que cambia regularmente.": {
+    "PT": "Tem várias galerias em diferentes andares e programação que muda regularmente.",
+    "EN": "It has several galleries on different floors and a regularly changing programme."
+  },
+  "El edificio fue inaugurado a comienzos del siglo XX y originalmente estaba relacionado con servicios administrativos de Correios. Posteriormente fue adaptado como centro cultural.": {
+    "PT": "O prédio foi inaugurado no início do século XX e originalmente estava ligado aos serviços administrativos dos Correios. Depois foi adaptado como centro cultural.",
+    "EN": "The building opened in the early 20th century and was originally connected with postal administrative services. It was later adapted as a cultural centre."
+  },
+  "Exposiciones variadas con entrada gratuita cerca del CCBB.": {
+    "PT": "Exposições variadas com entrada gratuita perto do CCBB.",
+    "EN": "Varied exhibitions with free admission near CCBB."
+  },
+  "Generalmente de martes a sábado, aproximadamente de 12:00 a 19:00. Confirma la programación.": {
+    "PT": "Geralmente de terça a sábado, aproximadamente das 12h às 19h. Confirme a programação.",
+    "EN": "Usually Tuesday to Saturday, approximately noon–7 pm. Confirm the programme."
+  },
+  "Exposiciones normalmente gratuitas.": {
+    "PT": "Exposições normalmente gratuitas.",
+    "EN": "Exhibitions are usually free."
+  },
+  "La visita a exposiciones normalmente no necesita reserva.": {
+    "PT": "A visita às exposições normalmente não exige reserva.",
+    "EN": "Exhibition visits usually do not require booking."
+  },
+  "El edificio dispone de ascensor; confirma recursos específicos para cada actividad.": {
+    "PT": "O prédio tem elevador; confirme os recursos específicos de cada atividade.",
+    "EN": "The building has a lift; confirm the specific facilities for each activity."
+  },
+  "Está a pocos pasos del CCBB y de la parada Candelária del VLT.": {
+    "PT": "Fica a poucos passos do CCBB e da parada Candelária do VLT.",
+    "EN": "It is a few steps from CCBB and the Candelária VLT stop."
+  },
+  "Arma un circuito gratuito con CCBB, Casa França-Brasil y Correios: los tres están prácticamente juntos.": {
+    "PT": "Monte um circuito gratuito com CCBB, Casa França-Brasil e Correios: os três ficam praticamente juntos.",
+    "EN": "Put together a free cultural outing with CCBB, Casa França-Brasil and Correios: all three are practically next to each other."
+  },
+  "Música, cine y cultura brasileña": {
+    "PT": "Música, cinema e cultura brasileira",
+    "EN": "Music, cinema and Brazilian culture"
+  },
+  "Espectáculos gratuitos dentro de uno de los edificios más conocidos del Centro": {
+    "PT": "Espetáculos gratuitos em um dos prédios mais conhecidos do Centro",
+    "EN": "Free shows inside one of Centro’s best-known buildings"
+  },
+  "El Espaço Cultural BNDES ofrece conciertos, cine, exposiciones y proyectos dedicados a diferentes expresiones de la cultura brasileña.": {
+    "PT": "O Espaço Cultural BNDES oferece shows, cinema, exposições e projetos dedicados a diferentes expressões da cultura brasileira.",
+    "EN": "Espaço Cultural BNDES offers concerts, cinema, exhibitions and projects dedicated to different expressions of Brazilian culture."
+  },
+  "La programación incluye Cine BNDES, conciertos de música popular, instrumental y erudita, además de exposiciones y encuentros.": {
+    "PT": "A programação inclui Cine BNDES, shows de música popular, instrumental e erudita, além de exposições e encontros.",
+    "EN": "The programme includes Cine BNDES, popular, instrumental and classical music concerts, as well as exhibitions and gatherings."
+  },
+  "Creado como parte de la política cultural del Banco Nacional de Desenvolvimento Econômico e Social, el espacio apoya artistas y acerca espectáculos de calidad al público.": {
+    "PT": "Criado na política cultural do Banco Nacional de Desenvolvimento Econômico e Social, o espaço apoia artistas e aproxima espetáculos de qualidade do público.",
+    "EN": "Created as part of Banco Nacional de Desenvolvimento Econômico e Social’s cultural policy, the venue supports artists and brings quality performances to the public."
+  },
+  "Conciertos y películas de calidad con entrada gratuita.": {
+    "PT": "Shows e filmes de qualidade com entrada gratuita.",
+    "EN": "Quality concerts and films with free admission."
+  },
+  "Funciona de acuerdo con cada evento. Cine BNDES suele tener sesiones los miércoles a las 18:30; conciertos generalmente jueves y viernes.": {
+    "PT": "Funciona conforme cada evento. O Cine BNDES costuma ter sessões às quartas, às 18h30; shows geralmente às quintas e sextas.",
+    "EN": "It operates according to each event. Cine BNDES usually has Wednesday screenings at 6:30 pm; concerts generally take place on Thursday and Friday."
+  },
+  "Programación generalmente gratuita.": {
+    "PT": "Programação geralmente gratuita.",
+    "EN": "Programmes are usually free."
+  },
+  "La reserva en línea es recomendada y puede abrir el lunes de la semana del espectáculo.": {
+    "PT": "Recomenda-se reserva on-line, que pode abrir na segunda-feira da semana do espetáculo.",
+    "EN": "Online booking is recommended and may open on the Monday of the performance week."
+  },
+  "El edificio dispone de ascensores y espacios accesibles.": {
+    "PT": "O prédio tem elevadores e espaços acessíveis.",
+    "EN": "The building has lifts and accessible spaces."
+  },
+  "Revisa la agenda antes de ir y reserva apenas se liberen los ingresos: los conciertos más populares pueden agotarse rápidamente.": {
+    "PT": "Confira a agenda e reserve assim que os ingressos forem liberados: os shows mais populares podem esgotar rápido.",
+    "EN": "Check the schedule and book as soon as tickets are released: the most popular concerts can sell out quickly."
+  },
+  "Historia naval y patrimonio": {
+    "PT": "História naval e patrimônio",
+    "EN": "Naval history and heritage"
+  },
+  "Submarinos, navíos históricos y aventuras en la Bahía de Guanabara": {
+    "PT": "Submarinos, navios históricos e aventuras na Baía de Guanabara",
+    "EN": "Submarines, historic ships and adventures on Guanabara Bay"
+  },
+  "Orla Conde, Praça XV — Centro, Río de Janeiro.": {
+    "PT": "Orla Conde, Praça XV — Centro, Rio de Janeiro.",
+    "EN": "Orla Conde, Praça XV — Centro, Rio de Janeiro."
+  },
+  "Entre 2 y 3 horas; medio día si agregas Ilha Fiscal.": {
+    "PT": "Entre 2 e 3 horas; meio dia se incluir a Ilha Fiscal.",
+    "EN": "Between 2 and 3 hours; half a day if you add Ilha Fiscal."
+  },
+  "El Espaço Cultural da Marinha reúne algunas de las atracciones navales más sorprendentes de Río de Janeiro. En un mismo lugar puedes entrar en un submarino, conocer un navío de guerra, observar un helicóptero histórico y embarcar en paseos por la bahía.": {
+    "PT": "O Espaço Cultural da Marinha reúne algumas das atrações navais mais surpreendentes do Rio de Janeiro. No mesmo lugar, você pode entrar em um submarino, conhecer um navio de guerra, observar um helicóptero histórico e embarcar em passeios pela baía.",
+    "EN": "Espaço Cultural da Marinha brings together some of Rio de Janeiro’s most surprising naval attractions. In one place you can enter a submarine, discover a warship, see a historic helicopter and board trips around the bay."
+  },
+  "Entre sus principales atracciones están el Submarino-Museu Riachuelo, el Navio-Museu Bauru, el helicóptero Sea King, la Nau dos Descobrimentos y otros equipos históricos. Desde aquí también parten visitas a Ilha Fiscal y paseos marítimos.": {
+    "PT": "Entre as principais atrações estão o Submarino-Museu Riachuelo, o Navio-Museu Bauru, o helicóptero Sea King, a Nau dos Descobrimentos e outros equipamentos históricos. Daqui também saem visitas à Ilha Fiscal e passeios marítimos.",
+    "EN": "Main attractions include Submarino-Museu Riachuelo, Navio-Museu Bauru, the Sea King helicopter, Nau dos Descobrimentos and other historic equipment. Visits to Ilha Fiscal and boat trips also depart from here."
+  },
+  "El espacio pertenece a la Marina de Brasil y fue creado para conservar y divulgar la historia marítima del país. Sus embarcaciones y equipos permiten comprender cómo evolucionaron la navegación, la defensa naval y la vida de los marineros.": {
+    "PT": "O espaço pertence à Marinha do Brasil e foi criado para preservar e divulgar a história marítima do país. As embarcações e equipamentos ajudam a entender a evolução da navegação, da defesa naval e da vida dos marinheiros.",
+    "EN": "The venue belongs to the Brazilian Navy and was created to preserve and share the country’s maritime history. Its vessels and equipment help explain the evolution of navigation, naval defence and sailors’ lives."
+  },
+  "Entrar en un submarino real y recorrer embarcaciones históricas de la Marina.": {
+    "PT": "Entrar em um submarino real e explorar embarcações históricas da Marinha.",
+    "EN": "Entering a real submarine and exploring historic Navy vessels."
+  },
+  "Generalmente de miércoles a domingo y feriados, aproximadamente de 11:00 a 17:00. Confirma qué embarcaciones están abiertas el día de la visita.": {
+    "PT": "Geralmente de quarta a domingo e feriados, aproximadamente das 11h às 17h. Confirme quais embarcações abrem no dia da visita.",
+    "EN": "Usually Wednesday to Sunday and holidays, approximately 11 am–5 pm. Confirm which vessels are open on your visit day."
+  },
+  "Entrada de referencia: R$20 completa y R$10 media. Los paseos marítimos y la visita a Ilha Fiscal tienen valores separados. Los martes pueden existir condiciones especiales o gratuidad.": {
+    "PT": "Entrada de referência: R$20 inteira e R$10 meia. Passeios marítimos e visita à Ilha Fiscal têm preços separados. Às terças, pode haver condições especiais ou gratuidade.",
+    "EN": "Reference admission: R$20 full-price and R$10 reduced-price. Boat trips and Ilha Fiscal visits have separate prices. Tuesdays may have special conditions or free admission."
+  },
+  "Se recomienda comprar o reservar las entradas previamente. El billete debe validarse en la boletería antes del acceso.": {
+    "PT": "Recomenda-se comprar ou reservar antes. O bilhete deve ser validado na bilheteria antes da entrada.",
+    "EN": "Buying or booking in advance is recommended. The ticket must be validated at the box office before entry."
+  },
+  "El espacio exterior posee sectores accesibles, pero submarinos y embarcaciones tienen escaleras estrechas y accesibilidad limitada.": {
+    "PT": "A área externa tem setores acessíveis, mas submarinos e embarcações têm escadas estreitas e acessibilidade limitada.",
+    "EN": "The outdoor space has accessible sections, but submarines and vessels have narrow stairs and limited accessibility."
+  },
+  "Puedes llegar por el VLT hasta Praça XV o caminando desde la estación Carioca del metro.": {
+    "PT": "Você pode chegar de VLT até a Praça XV ou a pé da estação de metrô Carioca.",
+    "EN": "You can arrive by VLT at Praça XV or walk from Carioca metro station."
+  },
+  "No vengas con prisa. Revisa primero qué embarcaciones están funcionando y, si puedes, combina la visita con Ilha Fiscal. Usa calzado cómodo y evita bolsos grandes para entrar al submarino.": {
+    "PT": "Não venha com pressa. Confira quais embarcações estão funcionando e, se puder, combine com Ilha Fiscal. Use calçado confortável e evite bolsas grandes para entrar no submarino.",
+    "EN": "Do not rush your visit. Check which vessels are operating and, if possible, combine it with Ilha Fiscal. Wear comfortable shoes and avoid large bags when entering the submarine."
+  },
+  "Arte contemporáneo": {
+    "PT": "Arte contemporânea",
+    "EN": "Contemporary art"
+  },
+  "Experimentación artística cerca de Praça Tiradentes": {
+    "PT": "Experimentação artística perto da Praça Tiradentes",
+    "EN": "Artistic experimentation near Praça Tiradentes"
+  },
+  "El Centro Municipal de Arte Hélio Oiticica está dedicado al arte contemporáneo y recibe exposiciones, proyectos experimentales, performances, debates y actividades educativas.": {
+    "PT": "O Centro Municipal de Arte Hélio Oiticica é dedicado à arte contemporânea e recebe exposições, projetos experimentais, performances, debates e atividades educativas.",
+    "EN": "Centro Municipal de Arte Hélio Oiticica is dedicated to contemporary art and hosts exhibitions, experimental projects, performances, discussions and educational activities."
+  },
+  "Sus galerías ocupan un edificio histórico y presentan propuestas de artistas brasileños y extranjeros.": {
+    "PT": "As galerias ocupam um prédio histórico e apresentam propostas de artistas brasileiros e estrangeiros.",
+    "EN": "Its galleries occupy a historic building and present work by Brazilian and international artists."
+  },
+  "Fue inaugurado en 1996 y lleva el nombre de Hélio Oiticica, uno de los artistas brasileños más importantes del siglo XX.": {
+    "PT": "Foi inaugurado em 1996 e leva o nome de Hélio Oiticica, um dos artistas brasileiros mais importantes do século XX.",
+    "EN": "It opened in 1996 and is named after Hélio Oiticica, one of the 20th century’s most important Brazilian artists."
+  },
+  "Arte contemporáneo experimental dentro del circuito cultural de Praça Tiradentes.": {
+    "PT": "Arte contemporânea experimental no circuito cultural da Praça Tiradentes.",
+    "EN": "Experimental contemporary art on Praça Tiradentes’ cultural circuit."
+  },
+  "Depende de las exposiciones y periodos de montaje. Confirma antes de ir.": {
+    "PT": "Depende das exposições e dos períodos de montagem. Confirme antes de ir.",
+    "EN": "Depends on exhibitions and installation periods. Confirm before going."
+  },
+  "La visita general normalmente no requiere reserva.": {
+    "PT": "A visita geral normalmente não exige reserva.",
+    "EN": "General visits usually do not require booking."
+  },
+  "Consulta el funcionamiento de ascensores y recursos de cada exposición.": {
+    "PT": "Consulte o funcionamento dos elevadores e os recursos de cada exposição.",
+    "EN": "Check lift operation and each exhibition’s facilities."
+  },
+  "Está cerca de Praça Tiradentes y de las estaciones Carioca y Uruguaiana.": {
+    "PT": "Fica perto da Praça Tiradentes e das estações Carioca e Uruguaiana.",
+    "EN": "It is near Praça Tiradentes and Carioca and Uruguaiana stations."
+  },
+  "Combínalo con el Real Gabinete, que queda muy cerca. Antes de caminar hasta allí, verifica que no esté en periodo de montaje.": {
+    "PT": "Combine com o Real Gabinete, que fica bem perto. Antes de ir a pé, confira se não está em período de montagem.",
+    "EN": "Combine it with nearby Real Gabinete. Before walking there, check that it is not in an installation period."
+  },
+  "Cultura afrobrasileña": {
+    "PT": "Cultura afro-brasileira",
+    "EN": "Afro-Brazilian culture"
+  },
+  "Memoria, identidad y resistencia en la Pequena África": {
+    "PT": "Memória, identidade e resistência na Pequena África",
+    "EN": "Memory, identity and resistance in Pequena África"
+  },
+  "El Centro Cultural José Bonifácio es uno de los principales espacios dedicados a la cultura afrobrasileña y a la memoria de la población negra de Río.": {
+    "PT": "O Centro Cultural José Bonifácio é um dos principais espaços dedicados à cultura afro-brasileira e à memória da população negra do Rio.",
+    "EN": "Centro Cultural José Bonifácio is one of the main venues dedicated to Afro-Brazilian culture and the memory of Rio’s Black population."
+  },
+  "Recibe exposiciones, talleres, encuentros, investigaciones y actividades relacionadas con la cultura africana y afrobrasileña.": {
+    "PT": "Recebe exposições, oficinas, encontros, pesquisas e atividades ligadas às culturas africana e afro-brasileira.",
+    "EN": "It hosts exhibitions, workshops, gatherings, research and activities related to African and Afro-Brazilian culture."
+  },
+  "El edificio fue inaugurado en 1877 como una de las primeras escuelas públicas de la región. Posteriormente fue restaurado y transformado en centro cultural.": {
+    "PT": "O prédio foi inaugurado em 1877 como uma das primeiras escolas públicas da região. Depois foi restaurado e transformado em centro cultural.",
+    "EN": "The building opened in 1877 as one of the area’s first public schools. It was later restored and transformed into a cultural centre."
+  },
+  "Su conexión con la historia y la identidad cultural de la Pequena África.": {
+    "PT": "Sua ligação com a história e a identidade cultural da Pequena África.",
+    "EN": "Its connection to Pequena África’s history and cultural identity."
+  },
+  "El funcionamiento depende de exposiciones y actividades. Confirma la programación.": {
+    "PT": "O funcionamento depende das exposições e atividades. Confirme a programação.",
+    "EN": "Operation depends on exhibitions and activities. Confirm the programme."
+  },
+  "Actividades y grupos pueden necesitar inscripción.": {
+    "PT": "Atividades e grupos podem exigir inscrição.",
+    "EN": "Activities and groups may require registration."
+  },
+  "Consulta las condiciones actuales antes de la visita.": {
+    "PT": "Consulte as condições atuais antes da visita.",
+    "EN": "Check current conditions before visiting."
+  },
+  "Puedes llegar por el VLT y continuar caminando por la región de Gamboa.": {
+    "PT": "Você pode chegar de VLT e continuar a pé pela Gamboa.",
+    "EN": "You can arrive by VLT and continue on foot through Gamboa."
+  },
+  "Visítalo dentro de un circuito de la herencia africana que incluya IPN, Cais do Valongo, Pedra do Sal y MUHCAB.": {
+    "PT": "Visite em um circuito da herança africana que inclua IPN, Cais do Valongo, Pedra do Sal e MUHCAB.",
+    "EN": "Visit as part of an African-heritage outing including IPN, Cais do Valongo, Pedra do Sal and MUHCAB."
+  },
+  "Astronomía, ciencia y patrimonio": {
+    "PT": "Astronomia, ciência e patrimônio",
+    "EN": "Astronomy, science and heritage"
+  },
+  "Un observatorio histórico escondido en el Morro da Conceição": {
+    "PT": "Um observatório histórico escondido no Morro da Conceição",
+    "EN": "A historic observatory hidden on Morro da Conceição"
+  },
+  "El Observatório do Valongo pertenece a la Universidade Federal do Rio de Janeiro y combina enseñanza, investigación, historia de la astronomía y divulgación científica.": {
+    "PT": "O Observatório do Valongo pertence à Universidade Federal do Rio de Janeiro e combina ensino, pesquisa, história da astronomia e divulgação científica.",
+    "EN": "Observatório do Valongo belongs to Universidade Federal do Rio de Janeiro and combines teaching, research, astronomy history and science outreach."
+  },
+  "Las visitas pueden incluir edificios históricos, instrumentos astronómicos, telescopios y actividades de observación del cielo.": {
+    "PT": "As visitas podem incluir prédios históricos, instrumentos astronômicos, telescópios e observação do céu.",
+    "EN": "Visits may include historic buildings, astronomical instruments, telescopes and sky-observation activities."
+  },
+  "Sus orígenes se remontan al Observatório da Escola Politécnica, creado en el siglo XIX. Posteriormente fue trasladado al Morro da Conceição.": {
+    "PT": "Suas origens remontam ao Observatório da Escola Politécnica, criado no século XIX. Depois foi transferido para o Morro da Conceição.",
+    "EN": "Its origins trace back to Observatório da Escola Politécnica, created in the 19th century. It was later moved to Morro da Conceição."
+  },
+  "Telescopios e historia de la astronomía en un rincón poco conocido del Centro.": {
+    "PT": "Telescópios e história da astronomia em um canto pouco conhecido do Centro.",
+    "EN": "Telescopes and astronomy history in a little-known corner of Centro."
+  },
+  "No funciona como atracción de acceso libre diario. Las visitas dependen de fechas organizadas por la UFRJ.": {
+    "PT": "Não funciona como atração de acesso livre diário. As visitas dependem de datas organizadas pela UFRJ.",
+    "EN": "It is not an attraction with unrestricted daily access. Visits depend on dates organised by UFRJ."
+  },
+  "El agendamiento o inscripción previa suele ser obligatorio.": {
+    "PT": "Agendamento ou inscrição prévia costuma ser obrigatório.",
+    "EN": "Advance booking or registration is usually required."
+  },
+  "El acceso al morro posee pendientes y algunos edificios históricos pueden presentar limitaciones.": {
+    "PT": "O acesso ao morro tem ladeiras, e alguns prédios históricos podem apresentar limitações.",
+    "EN": "Access to the hill involves slopes, and some historic buildings may have limitations."
+  },
+  "Llega por VLT hasta la Zona Portuaria y continúa caminando o en transporte por aplicación.": {
+    "PT": "Chegue de VLT à Zona Portuária e continue a pé ou de transporte por aplicativo.",
+    "EN": "Arrive by VLT in the Port Zone and continue on foot or by ride-hailing service."
+  },
+  "Solo prográmalo cuando exista una visita confirmada. Aprovecha para recorrer Morro da Conceição y Pedra do Sal durante el día.": {
+    "PT": "Inclua apenas com visita confirmada. Aproveite para explorar o Morro da Conceição e a Pedra do Sal durante o dia.",
+    "EN": "Include it only with a confirmed visit. Use the opportunity to explore Morro da Conceição and Pedra do Sal during the day."
+  },
+  "Historia, arte y arquitectura": {
+    "PT": "História, arte e arquitetura",
+    "EN": "History, art and architecture"
+  },
+  "De residencia de gobernadores a uno de los grandes centros culturales de Río": {
+    "PT": "De residência de governadores a um dos grandes centros culturais do Rio",
+    "EN": "From governors’ residence to one of Rio’s great cultural centres"
+  },
+  "El Paço Imperial es uno de los edificios históricos más importantes de Brasil. Actualmente funciona como centro cultural con exposiciones, actividades educativas, librería y espacios gastronómicos.": {
+    "PT": "O Paço Imperial é um dos prédios históricos mais importantes do Brasil. Hoje funciona como centro cultural com exposições, atividades educativas, livraria e espaços gastronômicos.",
+    "EN": "Paço Imperial is one of Brazil’s most important historic buildings. Today it operates as a cultural centre with exhibitions, educational activities, a bookshop and food venues."
+  },
+  "El visitante puede recorrer patios, salones y exposiciones de arte, además de observar elementos de la arquitectura colonial.": {
+    "PT": "O visitante pode explorar pátios, salões e exposições de arte e observar elementos da arquitetura colonial.",
+    "EN": "Visitors can explore courtyards, halls and art exhibitions and observe elements of colonial architecture."
+  },
+  "Construido en el siglo XVIII, fue residencia de gobernadores, sede de la administración colonial y palacio de la familia real y de los emperadores de Brasil. Aquí ocurrieron momentos como el Día del Fico y la firma de la Lei Áurea.": {
+    "PT": "Construído no século XVIII, foi residência de governadores, sede da administração colonial e palácio da família real e dos imperadores do Brasil. Aqui ocorreram momentos como o Dia do Fico e a assinatura da Lei Áurea.",
+    "EN": "Built in the 18th century, it was a governors’ residence, the seat of colonial administration and a palace for Brazil’s royal family and emperors. Events such as Dia do Fico and the signing of Lei Áurea took place here."
+  },
+  "Caminar por un edificio protagonista de la historia colonial, real e imperial de Brasil.": {
+    "PT": "Caminhar por um prédio protagonista da história colonial, real e imperial do Brasil.",
+    "EN": "Walking through a building central to Brazil’s colonial, royal and imperial history."
+  },
+  "Generalmente de martes a domingo, aproximadamente de 12:00 a 18:00. Confirma antes de ir.": {
+    "PT": "Geralmente de terça a domingo, aproximadamente das 12h às 18h. Confirme antes de ir.",
+    "EN": "Usually Tuesday to Sunday, approximately noon–6 pm. Confirm before going."
+  },
+  "La visita libre normalmente no necesita reserva.": {
+    "PT": "A visita livre normalmente não exige reserva.",
+    "EN": "Independent visits usually do not require booking."
+  },
+  "Posee circulación accesible en buena parte del edificio; consulta limitaciones puntuales.": {
+    "PT": "Tem circulação acessível em boa parte do prédio; consulte limitações pontuais.",
+    "EN": "Much of the building allows accessible movement; ask about specific limitations."
+  },
+  "Llega por el VLT hasta Praça XV o caminando desde la estación Carioca.": {
+    "PT": "Chegue de VLT à Praça XV ou a pé da estação Carioca.",
+    "EN": "Arrive by VLT at Praça XV or walk from Carioca station."
+  },
+  "Observa también el exterior y Praça XV. Combina la visita con Arco do Teles, Igreja do Carmo y el Espaço Cultural da Marinha.": {
+    "PT": "Observe também o exterior e a Praça XV. Combine com Arco do Teles, Igreja do Carmo e Espaço Cultural da Marinha.",
+    "EN": "Also observe the exterior and Praça XV. Combine it with Arco do Teles, Igreja do Carmo and Espaço Cultural da Marinha."
+  },
+  "Memoria africana y arqueología": {
+    "PT": "Memória africana e arqueologia",
+    "EN": "African memory and archaeology"
+  },
+  "Un lugar fundamental para comprender la historia de la esclavitud en Río": {
+    "PT": "Um lugar fundamental para compreender a história da escravidão no Rio",
+    "EN": "An essential place for understanding the history of slavery in Rio"
+  },
+  "El Instituto dos Pretos Novos, también conocido como IPN, conserva restos arqueológicos del antiguo Cementerio de los Pretos Novos y trabaja para preservar la memoria de los africanos esclavizados que llegaron a Río.": {
+    "PT": "O Instituto dos Pretos Novos, também conhecido como IPN, conserva vestígios arqueológicos do antigo Cemitério dos Pretos Novos e preserva a memória dos africanos escravizados que chegaram ao Rio.",
+    "EN": "Instituto dos Pretos Novos, also known as IPN, preserves archaeological remains of the former Cemitério dos Pretos Novos and works to preserve the memory of enslaved Africans who arrived in Rio."
+  },
+  "La visita incluye un documental introductorio, restos arqueológicos visibles, objetos encontrados durante las excavaciones y contenidos sobre la Pequeña África.": {
+    "PT": "A visita inclui documentário introdutório, vestígios arqueológicos visíveis, objetos das escavações e conteúdos sobre a Pequena África.",
+    "EN": "The visit includes an introductory documentary, visible archaeological remains, objects from excavations and material about Pequena África."
+  },
+  "El cementerio funcionó entre los siglos XVIII y XIX para sepultar africanos que morían poco después de desembarcar. Sus restos fueron descubiertos accidentalmente en 1996 durante una reforma residencial.": {
+    "PT": "O cemitério funcionou entre os séculos XVIII e XIX para sepultar africanos que morriam pouco depois de desembarcar. Seus vestígios foram descobertos por acaso em 1996 durante uma reforma residencial.",
+    "EN": "The cemetery operated between the 18th and 19th centuries to bury Africans who died shortly after landing. Its remains were accidentally discovered in 1996 during a residential renovation."
+  },
+  "El sitio arqueológico original del antiguo Cementerio de los Pretos Novos.": {
+    "PT": "O sítio arqueológico original do antigo Cemitério dos Pretos Novos.",
+    "EN": "The original archaeological site of the former Cemitério dos Pretos Novos."
+  },
+  "Martes a viernes de 10:00 a 16:00 y sábados de 10:00 a 13:00.": {
+    "PT": "Terça a sexta, 10h–16h, e sábado, 10h–13h.",
+    "EN": "Tuesday to Friday, 10 am–4 pm, and Saturday, 10 am–1 pm."
+  },
+  "Los martes la visita general suele ser gratuita. En otros días existe una contribución para la sostenibilidad del instituto; confirma el valor durante la reserva.": {
+    "PT": "Às terças, a visita geral costuma ser gratuita. Nos outros dias, há contribuição para a sustentabilidade do instituto; confirme o valor ao reservar.",
+    "EN": "General visits are usually free on Tuesdays. On other days there is a contribution to support the institute; confirm the amount when booking."
+  },
+  "Conviene reservar por internet. El aforo de cada visita es reducido.": {
+    "PT": "Convém reservar on-line. A capacidade de cada visita é reduzida.",
+    "EN": "Online booking is advisable. Each visit has limited capacity."
+  },
+  "Consulta previamente las condiciones de acceso y acompañamiento.": {
+    "PT": "Consulte antes as condições de acesso e acompanhamento.",
+    "EN": "Check access and assistance conditions beforehand."
+  },
+  "Utiliza el VLT hasta Parada dos Museus o Providência y continúa caminando.": {
+    "PT": "Use o VLT até Parada dos Museus ou Providência e continue a pé.",
+    "EN": "Take the VLT to Parada dos Museus or Providência and continue on foot."
+  },
+  "Haz esta visita con respeto y sin tratarla solamente como un lugar para fotografías. Combínala con Cais do Valongo, Pedra do Sal y Jardim Suspenso do Valongo.": {
+    "PT": "Visite com respeito, sem tratar apenas como lugar para fotos. Combine com Cais do Valongo, Pedra do Sal e Jardim Suspenso do Valongo.",
+    "EN": "Visit respectfully, without treating it simply as a photo opportunity. Combine it with Cais do Valongo, Pedra do Sal and Jardim Suspenso do Valongo."
+  },
+  "Artes visuales y formación artística": {
+    "PT": "Artes visuais e formação artística",
+    "EN": "Visual arts and artistic training"
+  },
+  "Una institución centenaria en el corazón cultural de Lapa": {
+    "PT": "Uma instituição centenária no coração cultural da Lapa",
+    "EN": "A century-old institution in Lapa’s cultural heart"
+  },
+  "La Sociedade Brasileira de Belas Artes es una institución dedicada a la enseñanza, producción y divulgación de las artes visuales.": {
+    "PT": "A Sociedade Brasileira de Belas Artes é dedicada ao ensino, à produção e à divulgação das artes visuais.",
+    "EN": "Sociedade Brasileira de Belas Artes is dedicated to teaching, producing and promoting visual arts."
+  },
+  "El visitante puede encontrar exposiciones, salones artísticos, cursos, talleres y actividades relacionadas con la producción de artistas brasileños.": {
+    "PT": "O visitante pode encontrar exposições, salões artísticos, cursos, oficinas e atividades ligadas à produção de artistas brasileiros.",
+    "EN": "Visitors may find exhibitions, art salons, courses, workshops and activities related to Brazilian artists’ work."
+  },
+  "Fundada en 1910, ha participado durante más de un siglo en la formación de artistas y en la preservación de técnicas como dibujo, pintura, escultura y grabado.": {
+    "PT": "Fundada em 1910, participa há mais de um século da formação de artistas e da preservação de técnicas como desenho, pintura, escultura e gravura.",
+    "EN": "Founded in 1910, it has spent more than a century training artists and preserving techniques such as drawing, painting, sculpture and printmaking."
+  },
+  "Su trayectoria centenaria formando artistas y promoviendo las bellas artes.": {
+    "PT": "Sua trajetória centenária formando artistas e promovendo as belas-artes.",
+    "EN": "Its century-long history of training artists and promoting fine arts."
+  },
+  "El acceso depende de las exposiciones, cursos y actividades programadas. Confirma antes de ir.": {
+    "PT": "O acesso depende das exposições, cursos e atividades programadas. Confirme antes de ir.",
+    "EN": "Access depends on scheduled exhibitions, courses and activities. Confirm before going."
+  },
+  "Exposiciones generalmente gratuitas; cursos y talleres pueden ser pagados.": {
+    "PT": "Exposições geralmente gratuitas; cursos e oficinas podem ser pagos.",
+    "EN": "Exhibitions are usually free; courses and workshops may charge fees."
+  },
+  "No suele requerirse para exposiciones, pero talleres y actividades necesitan inscripción.": {
+    "PT": "Exposições geralmente não exigem reserva, mas oficinas e atividades precisam de inscrição.",
+    "EN": "Exhibitions usually do not require booking, but workshops and activities need registration."
+  },
+  "Consulta previamente las condiciones de acceso al edificio histórico.": {
+    "PT": "Consulte antes o acesso ao prédio histórico.",
+    "EN": "Check access to the historic building beforehand."
+  },
+  "Está cerca de la estación Cinelândia y de los Arcos de Lapa.": {
+    "PT": "Fica perto da estação Cinelândia e dos Arcos da Lapa.",
+    "EN": "It is near Cinelândia station and Arcos da Lapa."
+  },
+  "Visítala cuando exista una exposición programada y combina el recorrido con Rua do Lavradio, Escadaria Selarón y los Arcos de Lapa.": {
+    "PT": "Visite quando houver exposição programada e combine com Rua do Lavradio, Escadaria Selarón e Arcos da Lapa.",
+    "EN": "Visit when an exhibition is scheduled and combine it with Rua do Lavradio, Escadaria Selarón and Arcos da Lapa."
+  },
+  "Centros culturales | Ernestinho Carioca": {
+    "PT": "Centros culturais | Ernestinho Carioca",
+    "EN": "Cultural centres | Ernestinho Carioca"
+  },
+  "15 LUGARES": {
+    "PT": "15 LUGARES",
+    "EN": "15 PLACES"
+  },
+  "15 espacios de arte, memoria, música y cultura en la ciudad.": {
+    "PT": "15 espaços de arte, memória, música e cultura na cidade.",
+    "EN": "15 spaces for art, memory, music and culture in the city."
+  },
+  "Centros culturales: guía de Ernestinho Carioca con fotos, contexto e información práctica.": {
+    "PT": "Centros culturais: guia do Ernestinho Carioca com fotos, contexto e informações práticas.",
+    "EN": "Cultural centres: Ernestinho Carioca’s guide with photos, context and practical information."
   }
 };
