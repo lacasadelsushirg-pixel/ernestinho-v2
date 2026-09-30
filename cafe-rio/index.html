@@ -181,10 +181,13 @@ function setLang(lang){
  const names={trufado:{es:"Café Rio Chocolate Trufado",pt:"Café Rio Chocolate Trufado",en:"Café Rio Truffled Chocolate"},tradicional:{es:"Café Rio 100% Arábica Tradicional",pt:"Café Rio 100% Arábica Tradicional",en:"Café Rio Traditional 100% Arabica"},menta:{es:"Café Rio Chocolate con Menta",pt:"Café Rio Chocolate com Menta",en:"Café Rio Mint Chocolate"},caramelo:{es:"Café Rio con Caramelo",pt:"Café Rio com Caramelo",en:"Café Rio Caramel Coffee"},avellanas:{es:"Café Rio Chocolate con Avellanas",pt:"Café Rio Chocolate com Avelãs",en:"Café Rio Hazelnut Chocolate"},coleccion:{es:"la colección completa de los 5 Cafés Rio",pt:"a coleção completa dos 5 Cafés Rio",en:"the complete collection of 5 Café Rio flavors"}};
  document.querySelectorAll(".cafe-buy").forEach(a=>{const n=names[a.dataset.product][lang],p=a.dataset.price,col=a.dataset.collection==="true";const msg=lang==="pt"?(col?`Olá, Ernestinho! Quero comprar ${n} por ${p}.`:`Olá, Ernestinho! Quero comprar o ${n} por ${p}.`):lang==="en"?`Hi, Ernestinho! I would like to buy ${n} for ${p}.`:(col?`Hola, Ernestinho. Quiero comprar ${n} por ${p}.`:`Hola, Ernestinho. Quiero comprar el ${n} por ${p}.`);a.href="https://wa.me/5521969946938?text="+encodeURIComponent(msg);a.target="_blank";a.rel="noopener";});
  document.title=lang==="pt"?"Café Rio · Café Ernestinho | Ernestinho Carioca":lang==="en"?"Café Rio · Café Ernestinho | Ernestinho Carioca":"Café Río · Café Ernestinho | Ernestinho Carioca";
- localStorage.setItem("ec_lang",lang);
+ try { localStorage.setItem("ec-lang",lang.toUpperCase()); } catch {}
 }
 
-setLang(localStorage.getItem("ec_lang")||"es");
+document.addEventListener("ec:language", event => setLang(String(event.detail?.lang || "ES").toLowerCase()));
+let initialLanguage = "es";
+try { initialLanguage = (localStorage.getItem("ec-lang") || localStorage.getItem("ec_lang") || "es").toLowerCase(); } catch {}
+setLang(T[initialLanguage] || initialLanguage === "es" ? initialLanguage : "es");
 })();
 </script>
 <script type="module" src="../assets/js/site.js"></script>
