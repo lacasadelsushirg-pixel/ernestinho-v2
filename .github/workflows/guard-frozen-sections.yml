@@ -1,0 +1,31 @@
+name: Guard frozen sections
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+jobs:
+  protect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Require Ernesto authorization for frozen paths
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
+        run: |
+          set -euo pipefail
+          changed="$(git diff --name-only "$BASE_SHA" "$HEAD_SHA")"
+          protected=0
+          while IFS= read -r prefix; do
+            [ -z "$prefix" ] && continue
+            while IFS= read -r file; do
+              case "$file" in "$prefix"*) protected=1; echo "Protected path changed: $file";; esac
+            done <<< "$changed"
+          done < .ernestinho/frozen-sections.txt
+          if [ "$protected" -eq 1 ] && [[ ",$LABELS," != *",ernesto-authorized,"* ]]; then
+            echo "::error::Frozen Ernestinho sections changed without the ernesto-authorized PR label."
+            exit 1
+          fi
+          echo "Frozen-section guard passed."
