@@ -1,4 +1,3 @@
-// Shared cultural navigation and practical labels; venue narratives remain for following batches.
 export default {
   "Cultura": {
     "PT": "Cultura",
@@ -10,7 +9,7 @@ export default {
   },
   "Cómo llegar": {
     "PT": "Como chegar",
-    "EN": "How to get there"
+    "EN": "Getting there"
   },
   "Dirección": {
     "PT": "Endereço",
@@ -41,12 +40,16 @@ export default {
     "EN": "Location"
   },
   "← Volver a Cultura": {
-    "PT": "← Voltar a Cultura",
+    "PT": "← Voltar à Cultura",
     "EN": "← Back to Culture"
   },
   "Reserva": {
     "PT": "Reserva",
     "EN": "Booking"
+  },
+  "Horarios, entradas, programación y condiciones de visita pueden cambiar. Confirma con la institución antes de desplazarte.": {
+    "PT": "Horários, ingressos, programação e condições de visita podem mudar. Confirme com a instituição antes de se deslocar.",
+    "EN": "Opening hours, tickets, programming and visiting conditions may change. Check with the institution before traveling."
   },
   "Qué vas a encontrar": {
     "PT": "O que você vai encontrar",
@@ -55,6 +58,10 @@ export default {
   "Abrir mapa en Google Maps →": {
     "PT": "Abrir mapa no Google Maps →",
     "EN": "Open map in Google Maps →"
+  },
+  "Horarios, tarifas, visitas, accesibilidad y funcionamiento pueden cambiar. Confirma la información con el espacio para la fecha de tu visita.": {
+    "PT": "Horários, tarifas, visitas, acessibilidade e funcionamento podem mudar. Confirme as informações com o espaço para a data da sua visita.",
+    "EN": "Opening hours, prices, visits, accessibility and operations may change. Confirm information with the venue for your visit date."
   },
   "Lo que hace especial este lugar": {
     "PT": "O que torna este lugar especial",
@@ -76,6 +83,10 @@ export default {
     "PT": "Entrada gratuita.",
     "EN": "Free admission."
   },
+  "Entrada gratuita": {
+    "PT": "Entrada gratuita",
+    "EN": "Free admission"
+  },
   "¿Por qué vale la pena visitarlo?": {
     "PT": "Por que vale a pena visitar?",
     "EN": "Why is it worth visiting?"
@@ -84,21 +95,77 @@ export default {
     "PT": "A experiência",
     "EN": "The experience"
   },
-  "Entre 1 y 2 horas.": {
-    "PT": "Entre 1 e 2 horas.",
-    "EN": "Between 1 and 2 hours."
-  },
   "Según cartelera.": {
     "PT": "Conforme a programação.",
     "EN": "According to the program."
   },
-  "Entrada gratuita": {
-    "PT": "Entrada gratuita",
-    "EN": "Free admission"
-  },
   "Documentos": {
     "PT": "Documentos",
     "EN": "Documents"
+  },
+  "ARTE Y CULTURA · RÍO DE JANEIRO": {
+    "PT": "ARTE E CULTURA · RIO DE JANEIRO",
+    "EN": "ART AND CULTURE · RIO DE JANEIRO"
+  },
+  "Arte y Cultura": {
+    "PT": "Arte e Cultura",
+    "EN": "Art and Culture"
+  },
+  "← Volver a Arte y Cultura": {
+    "PT": "← Voltar à Arte e Cultura",
+    "EN": "← Back to Art and Culture"
+  },
+  "Consulta las condiciones de acceso.": {
+    "PT": "Consulte as condições de acesso.",
+    "EN": "Check access conditions."
+  },
+  "Está cerca de Cinelândia y del aeropuerto Santos Dumont.": {
+    "PT": "Fica perto da Cinelândia e do aeroporto Santos Dumont.",
+    "EN": "It is close to Cinelândia and Santos Dumont Airport."
+  },
+  "Arte contemporáneo y arquitectura": {
+    "PT": "Arte contemporânea e arquitetura",
+    "EN": "Contemporary art and architecture"
+  },
+  "Generalmente gratuito.": {
+    "PT": "Geralmente gratuito.",
+    "EN": "Usually free."
+  },
+  "No suele ser necesaria para visitantes individuales. Los grupos deben consultar previamente.": {
+    "PT": "Geralmente não é necessária para visitantes individuais. Grupos devem consultar previamente.",
+    "EN": "Usually unnecessary for individual visitors. Groups should enquire beforehand."
+  },
+  "Acceso gratuito.": {
+    "PT": "Acesso gratuito.",
+    "EN": "Free access."
+  },
+  "Biblioteca comunitaria": {
+    "PT": "Biblioteca comunitária",
+    "EN": "Community library"
+  },
+  "Documento oficial obligatorio.": {
+    "PT": "Documento oficial obrigatório.",
+    "EN": "Official identification required."
+  },
+  "¿Qué puede visitarse actualmente?": {
+    "PT": "O que pode ser visitado atualmente?",
+    "EN": "What can currently be visited?"
+  },
+  "Literatura y patrimonio": {
+    "PT": "Literatura e patrimônio",
+    "EN": "Literature and heritage"
+  },
+  "Cultura, ciudadanía y eventos": {
+    "PT": "Cultura, cidadania e eventos",
+    "EN": "Culture, citizenship and events"
+  },
+  "Aproximadamente 1 hora.": {
+    "PT": "Aproximadamente 1 hora.",
+    "EN": "Approximately 1 hour."
+  },
+  "Entre 1 y 2 horas.": {
+    "PT": "Entre 1 e 2 horas.",
+    "EN": "Between 1 and 2 hours."
   },
   "Entre 30 y 45 minutos.": {
     "PT": "Entre 30 e 45 minutos.",
@@ -120,18 +187,6 @@ export default {
     "PT": "Entre 1 hora e meia e 3 horas.",
     "EN": "Between 1½ and 3 hours."
   },
-  "ARTE Y CULTURA · RÍO DE JANEIRO": {
-    "PT": "ARTE E CULTURA · RIO DE JANEIRO",
-    "EN": "ART AND CULTURE · RIO DE JANEIRO"
-  },
-  "Arte y Cultura": {
-    "PT": "Arte e Cultura",
-    "EN": "Art and Culture"
-  },
-  "← Volver a Arte y Cultura": {
-    "PT": "← Voltar a Arte e Cultura",
-    "EN": "← Back to Art and Culture"
-  },
   "Entre 20 y 40 minutos.": {
     "PT": "Entre 20 e 40 minutos.",
     "EN": "Between 20 and 40 minutes."
@@ -140,81 +195,61 @@ export default {
     "PT": "Entre 45 minutos e 1 hora e meia.",
     "EN": "Between 45 minutes and 1½ hours."
   },
-  "Consulta las condiciones de acceso.": {
-    "PT": "Consulte as condições de acesso.",
-    "EN": "Check access conditions."
-  },
   "Entre 1 hora y 1 hora y 30 minutos.": {
     "PT": "Entre 1 hora e 1 hora e 30 minutos.",
-    "EN": "Between 1 hour and 1 hour 30 minutes."
-  },
-  "Está cerca de Cinelândia y del aeropuerto Santos Dumont.": {
-    "PT": "Fica perto da Cinelândia e do aeroporto Santos Dumont.",
-    "EN": "It is near Cinelândia and Santos Dumont Airport."
+    "EN": "Between 1 hour and 1½ hours."
   },
   "Entre 1 hora y media y 2 horas y media.": {
     "PT": "Entre 1 hora e meia e 2 horas e meia.",
     "EN": "Between 1½ and 2½ hours."
   },
-  "Arte contemporáneo y arquitectura": {
-    "PT": "Arte contemporânea e arquitetura",
-    "EN": "Contemporary art and architecture"
+  "Entre 1 y 3 horas.": {
+    "PT": "Entre 1 e 3 horas.",
+    "EN": "Between 1 and 3 hours."
   },
-  "Generalmente gratuito.": {
-    "PT": "Geralmente gratuito.",
-    "EN": "Usually free."
+  "Entre 2 y 3 horas.": {
+    "PT": "Entre 2 e 3 horas.",
+    "EN": "Between 2 and 3 hours."
   },
-  "No suele ser necesaria para visitantes individuales. Los grupos deben consultar previamente.": {
-    "PT": "Geralmente não é necessária para visitantes individuais. Grupos devem consultar com antecedência.",
-    "EN": "Usually not required for individual visitors. Groups should inquire in advance."
+  "La casa de los grandes nombres de la literatura brasileña": {
+    "PT": "A casa dos grandes nomes da literatura brasileira",
+    "EN": "The home of the great names of Brazilian literature"
   },
-  "Acceso gratuito.": {
-    "PT": "Acesso gratuito.",
-    "EN": "Free access."
+  "Consulta las condiciones de accesibilidad durante la inscripción.": {
+    "PT": "Consulte as condições de acessibilidade durante a inscrição.",
+    "EN": "Check accessibility conditions when registering."
   },
-  "Biblioteca comunitaria": {
-    "PT": "Biblioteca comunitária",
-    "EN": "Community library"
+  "El Petit Trianon, la sala de Machado de Assis y la historia de los cuarenta académicos.": {
+    "PT": "O Petit Trianon, a sala de Machado de Assis e a história dos quarenta acadêmicos.",
+    "EN": "The Petit Trianon, Machado de Assis’s room and the history of the forty academy members."
   },
-  "Documento oficial obligatorio.": {
-    "PT": "Documento oficial obrigatório.",
-    "EN": "Official identification required."
+  "Fue fundada en 1897 por escritores e intelectuales, entre ellos Machado de Assis, su primer presidente. La institución está formada por cuarenta miembros y trabaja en la preservación y difusión de la lengua y la literatura brasileñas.": {
+    "PT": "Foi fundada em 1897 por escritores e intelectuais, entre eles Machado de Assis, seu primeiro presidente. A instituição é formada por quarenta membros e trabalha na preservação e divulgação da língua e da literatura brasileiras.",
+    "EN": "It was founded in 1897 by writers and intellectuals, including Machado de Assis, its first president. The institution has forty members and works to preserve and promote Brazilian language and literature."
   },
-  "¿Qué puede visitarse actualmente?": {
-    "PT": "O que pode ser visitado atualmente?",
-    "EN": "What can currently be visited?"
+  "La Academia Brasileira de Letras, conocida como ABL, es una de las instituciones literarias más importantes de Brasil. Su sede histórica reproduce el Petit Trianon de Versalles.": {
+    "PT": "A Academia Brasileira de Letras, conhecida como ABL, é uma das instituições literárias mais importantes do Brasil. Sua sede histórica reproduz o Petit Trianon de Versalhes.",
+    "EN": "Academia Brasileira de Letras, known as ABL, is one of Brazil’s most important literary institutions. Its historic headquarters reproduces the Petit Trianon of Versailles."
   },
-  "Museos": {
-    "PT": "Museus",
-    "EN": "Museums"
+  "La inscripción previa es obligatoria para las visitas guiadas y algunos eventos.": {
+    "PT": "A inscrição prévia é obrigatória para visitas guiadas e alguns eventos.",
+    "EN": "Advance registration is required for guided visits and some events."
   },
-  "Teatros": {
-    "PT": "Teatros",
-    "EN": "Theaters"
+  "Las visitas guiadas se ofrecen en fechas y horarios publicados en la programación oficial de la ABL.": {
+    "PT": "As visitas guiadas são oferecidas em datas e horários publicados na programação oficial da ABL.",
+    "EN": "Guided visits are offered on dates and at times listed in ABL’s official program."
   },
-  "Centros culturales": {
-    "PT": "Centros culturais",
-    "EN": "Cultural centers"
+  "Las visitas permiten conocer salones históricos, obras de arte, mobiliario, documentos y espacios vinculados con Machado de Assis y otros grandes escritores brasileños.": {
+    "PT": "As visitas permitem conhecer salões históricos, obras de arte, mobiliário, documentos e espaços ligados a Machado de Assis e outros grandes escritores brasileiros.",
+    "EN": "Visits reveal historic rooms, artworks, furnishings, documents and spaces associated with Machado de Assis and other great Brazilian writers."
   },
-  "Bibliotecas": {
-    "PT": "Bibliotecas",
-    "EN": "Libraries"
+  "Puedes llegar caminando desde las estaciones Cinelândia o Carioca del metro.": {
+    "PT": "Você pode chegar a pé a partir das estações de metrô Cinelândia ou Carioca.",
+    "EN": "You can walk from Cinelândia or Carioca metro stations."
   },
-  "Fuertes": {
-    "PT": "Fortes",
-    "EN": "Forts"
-  },
-  "Arquitectura": {
-    "PT": "Arquitetura",
-    "EN": "Architecture"
-  },
-  "Horarios, entradas, programación y condiciones de visita pueden cambiar. Confirma con la institución antes de desplazarte.": {
-    "PT": "Horários, ingressos, programação e condições de visita podem mudar. Confirme com a instituição antes de se deslocar.",
-    "EN": "Hours, tickets, programs and visit conditions can change. Confirm with the institution before traveling there."
-  },
-  "Horarios, tarifas, visitas, accesibilidad y funcionamiento pueden cambiar. Confirma la información con el espacio para la fecha de tu visita.": {
-    "PT": "Horários, tarifas, visitas, acessibilidade e funcionamento podem mudar. Confirme as informações com o espaço para a data da sua visita.",
-    "EN": "Hours, fees, tours, accessibility and operations can change. Confirm information with the venue for your visit date."
+  "Revisa la agenda antes de ir. Algunas visitas son teatralizadas y resultan mucho más interesantes que una visita convencional.": {
+    "PT": "Confira a agenda antes de ir. Algumas visitas são teatralizadas e podem ser muito mais interessantes que uma visita convencional.",
+    "EN": "Check the program before going. Some visits are dramatized and can be much more interesting than a conventional tour."
   },
   "Foto de Academia Brasileira de Letras": {
     "PT": "Foto de Academia Brasileira de Letras",

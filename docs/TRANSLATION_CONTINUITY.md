@@ -37,3 +37,7 @@ Bloque 5: corregidos D.pt/D.en con datos prácticos todavía en español en 12 r
 Verificación reproducible: node scripts/check_embedded_gastronomy.mjs ejecuta los renderizadores reales de 170 fichas con DOM mínimo, hace PT→EN→ES→EN→PT→ES y comprueba restauración sin errores. NO es navegador real. Sintaxis inline de las 14 páginas modificadas pasa.
 
 PUBLICACIÓN BLOQUEADA: auto-review rechazó git push del commit local 4fcc8da por interpretar que el usuario autorizó commits pero no publicación remota. No eludir por conector ni otro método. Pedir autorización expresa para publicar al terminar el trabajo local. La rama remota vista fue 927bc1f; comprobar HEAD remoto/concurrencia antes de publicar cuando se autorice.
+
+Bloque 6: Arte y Cultura conectado al selector global con cultura-01/02/03. Encabezados, accesibilidad, tiempos, botones y alt/mapas comunes traducidos. Fichas completas verificadas por inventario: Academia Brasileira de Letras, Museu do Amanhã, CCBB, Real Gabinete y Theatro Municipal; solo quedan nombres propios/direcciones en esas cinco rutas. Las cinco fichas Familia del bloque 4 también quedan solo con nombres/direcciones/marca como candidatos. El resto de Cultura todavía NO está completo.
+
+Próximo trabajo prioritario: MAM Rio y resto de Cultura; completar fichas Familia restantes; Vida Nocturna, Experiencias, Eventos, Consejos; Compras arrays P; 10 fichas gastronómicas sin D embebido y metadatos/alt pendientes. Verificar navegador real y todos los botones antes de declarar 100%.
