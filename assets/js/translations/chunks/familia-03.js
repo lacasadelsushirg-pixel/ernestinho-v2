@@ -162,5 +162,297 @@ export default {
   "Ve con calzado cómodo, agua y protección solar. En días calurosos alterna sectores abiertos con pausas a la sombra. La Quinta da Boa Vista está al lado, así que no llenes el mismo día con demasiadas atracciones lejanas.": {
     "PT": "Vá com calçados confortáveis, água e proteção solar. Em dias quentes, alterne áreas abertas com pausas à sombra. A Quinta da Boa Vista fica ao lado, então não sobrecarregue o dia com muitas atrações distantes.",
     "EN": "Bring comfortable shoes, water and sun protection. On hot days, alternate open areas with breaks in the shade. Quinta da Boa Vista is next door, so avoid packing the day with too many distant attractions."
+  },
+  "Compra anticipada recomendada durante vacaciones y fines de semana.": {
+    "PT": "Compra antecipada recomendada durante as férias e fins de semana.",
+    "EN": "Advance tickets recommended during holidays and weekends."
+  },
+  "El Arboreto, la avenida de palmeras imperiales, colecciones botánicas, lagos, jardines y edificios históricos. También existen espacios museológicos y visitas temáticas que pueden complementar el paseo.": {
+    "PT": "O Arboreto, a alameda de palmeiras imperiais, coleções botânicas, lagos, jardins e edifícios históricos. Também há espaços museológicos e visitas temáticas que podem complementar o passeio.",
+    "EN": "The Arboretum, imperial palm avenue, botanical collections, lakes, gardens and historic buildings. Museum spaces and themed visits can also complement your outing."
+  },
+  "El Jardim Botânico reúne miles de especies vegetales, senderos, lagos, jardines temáticos, edificios históricos y una rica presencia de aves.": {
+    "PT": "O Jardim Botânico reúne milhares de espécies vegetais, trilhas, lagos, jardins temáticos, edifícios históricos e uma rica presença de aves.",
+    "EN": "Jardim Botânico brings together thousands of plant species, paths, lakes, themed gardens, historic buildings and abundant birdlife."
+  },
+  "El jardín es grande: usa calzado cómodo y no intentes recorrer cada sendero. Lleva repelente y protección solar. Los miércoles el horario de apertura es diferente al resto de la semana.": {
+    "PT": "O jardim é grande: use calçados confortáveis e não tente percorrer todas as trilhas. Leve repelente e proteção solar. Às quartas-feiras, o horário de abertura é diferente do restante da semana.",
+    "EN": "The garden is large: wear comfortable shoes and do not try to walk every path. Bring insect repellent and sun protection. Wednesday opening hours differ from the rest of the week."
+  },
+  "Entrada pagada, con diferentes categorías y posibles gratuidades.": {
+    "PT": "Entrada paga, com diferentes categorias e possíveis gratuidades.",
+    "EN": "Paid admission, with different categories and possible free admission."
+  },
+  "Fue creado en 1808 por Dom João VI para aclimatar especies vegetales procedentes de diferentes regiones del mundo.": {
+    "PT": "Foi criado em 1808 por Dom João VI para aclimatar espécies vegetais de diferentes regiões do mundo.",
+    "EN": "It was created in 1808 by Dom João VI to acclimatize plant species from different regions of the world."
+  },
+  "Funciona diariamente con horarios que pueden variar según el día y la temporada.": {
+    "PT": "Funciona diariamente com horários que podem variar conforme o dia e a temporada.",
+    "EN": "Open daily, with hours that may vary by day and season."
+  },
+  "La avenida de palmeras imperiales y la enorme diversidad de plantas.": {
+    "PT": "A alameda de palmeiras imperiais e a enorme diversidade de plantas.",
+    "EN": "The imperial palm avenue and enormous diversity of plants."
+  },
+  "La familia puede recorrer la avenida de palmeras, orquidario, bromeliario, lago con victorias regias, jardín japonés y áreas históricas.": {
+    "PT": "A família pode percorrer a alameda de palmeiras, orquidário, bromeliário, lago com vitórias-régias, jardim japonês e áreas históricas.",
+    "EN": "Families can explore the palm avenue, orchid house, bromeliad collection, lake with giant water lilies, Japanese garden and historic areas."
+  },
+  "Lleva repelente, agua y protector solar. No alimentes animales y no intentes tocar saguis o aves.": {
+    "PT": "Leve repelente, água e protetor solar. Não alimente animais nem tente tocar saguis ou aves.",
+    "EN": "Bring insect repellent, water and sunscreen. Do not feed animals or try to touch marmosets or birds."
+  },
+  "Mi plan: 2 a 3 horas por la mañana y después almorzar por Jardim Botânico/Gávea o combinar con Parque Lage.": {
+    "PT": "Meu plano: 2 a 3 horas de manhã e depois almoçar no Jardim Botânico/Gávea ou combinar com o Parque Lage.",
+    "EN": "My plan: 2 to 3 hours in the morning, then lunch around Jardim Botânico/Gávea or a visit to Parque Lage."
+  },
+  "Palmeras imperiales, colecciones botánicas, lagos, jardines temáticos y rincones fotogénicos.": {
+    "PT": "Palmeiras imperiais, coleções botânicas, lagos, jardins temáticos e cantinhos fotogênicos.",
+    "EN": "Imperial palms, botanical collections, lakes, themed gardens and photogenic corners."
+  },
+  "Parque Lage y Lagoa Rodrigo de Freitas.": {
+    "PT": "Parque Lage e Lagoa Rodrigo de Freitas.",
+    "EN": "Parque Lage and Lagoa Rodrigo de Freitas."
+  },
+  "Posee caminos amplios, aunque algunas áreas tienen piso irregular.": {
+    "PT": "Possui caminhos amplos, embora algumas áreas tenham piso irregular.",
+    "EN": "Wide paths are available, although some areas have uneven surfaces."
+  },
+  "Todas las edades; ideal para una mañana tranquila entre naturaleza.": {
+    "PT": "Todas as idades; ideal para uma manhã tranquila em meio à natureza.",
+    "EN": "All ages; ideal for a peaceful morning in nature."
+  },
+  "Utiliza autobús o transporte por aplicación. No existe metro directo.": {
+    "PT": "Use ônibus ou transporte por aplicativo. Não há metrô direto.",
+    "EN": "Take a bus or use a ride app. There is no direct metro service."
+  },
+  "Compra o retira con anticipación las entradas para las sesiones de cúpula.": {
+    "PT": "Compre ou retire antecipadamente os ingressos para as sessões de cúpula.",
+    "EN": "Buy or collect tickets for dome sessions in advance."
+  },
+  "Consulta la cartelera del día antes de ir porque exposiciones, sesiones y horarios pueden variar. Si el objetivo principal es la cúpula, organiza la visita alrededor de esa hora y no al revés.": {
+    "PT": "Confira a programação do dia antes de ir, pois exposições, sessões e horários podem variar. Se o objetivo principal for a cúpula, organize a visita em torno desse horário, e não o contrário.",
+    "EN": "Check the day’s program before going, as exhibitions, sessions and times may vary. If the dome is your main aim, plan the visit around its session time."
+  },
+  "Dispone de acceso y circulación adaptados.": {
+    "PT": "Dispõe de acesso e circulação adaptados.",
+    "EN": "Adapted access and circulation are available."
+  },
+  "El Planetário combina experimentos interactivos, astronomía, exposiciones y sesiones audiovisuales proyectadas dentro de una gran cúpula.": {
+    "PT": "O Planetário combina experimentos interativos, astronomia, exposições e sessões audiovisuais projetadas dentro de uma grande cúpula.",
+    "EN": "The Planetarium combines interactive experiments, astronomy, exhibitions and audiovisual shows projected inside a large dome."
+  },
+  "El museo y las sesiones poseen horarios diferentes. Consulta la programación antes de ir.": {
+    "PT": "O museu e as sessões têm horários diferentes. Confira a programação antes de ir.",
+    "EN": "Museum and session times differ. Check the program before going."
+  },
+  "Entre 1 hora y media y 3 horas.": {
+    "PT": "Entre 1 hora e meia e 3 horas.",
+    "EN": "Between 1½ and 3 hours."
+  },
+  "Exposiciones de astronomía y ciencia, recursos interactivos y sesiones audiovisuales en cúpula según la programación. Las sesiones son la parte que yo comprobaría antes de salir del hotel.": {
+    "PT": "Exposições de astronomia e ciência, recursos interativos e sessões audiovisuais na cúpula conforme a programação. As sessões são a parte que eu confirmaria antes de sair do hotel.",
+    "EN": "Astronomy and science exhibitions, interactive resources and dome audiovisual shows according to the program. I would check the session details before leaving the hotel."
+  },
+  "Ideal desde aproximadamente 4 años; revisa la clasificación de cada sesión.": {
+    "PT": "Ideal a partir de aproximadamente 4 anos; confira a classificação de cada sessão.",
+    "EN": "Ideal from around age 4; check each session’s age rating."
+  },
+  "La Fundação Planetário fue creada para acercar la astronomía y las ciencias del espacio al público mediante educación y divulgación científica.": {
+    "PT": "A Fundação Planetário foi criada para aproximar a astronomia e as ciências espaciais do público por meio de educação e divulgação científica.",
+    "EN": "Fundação Planetário was created to bring astronomy and space science to the public through education and science communication."
+  },
+  "Las sesiones de cúpula que simulan un cielo lleno de estrellas.": {
+    "PT": "As sessões de cúpula que simulam um céu cheio de estrelas.",
+    "EN": "Dome sessions that simulate a sky full of stars."
+  },
+  "Las sesiones tienen horarios y clasificaciones propias. Llegar tarde puede impedir el ingreso.": {
+    "PT": "As sessões têm horários e classificações próprios. Chegar atrasado pode impedir a entrada.",
+    "EN": "Sessions have their own schedules and age ratings. Late arrival may prevent entry."
+  },
+  "Mi plan: reservar entre 1½ y 2½ horas y combinarlo con Gávea, Jardim Botânico o Parque Lage.": {
+    "PT": "Meu plano: reservar entre 1½ e 2½ horas e combinar com Gávea, Jardim Botânico ou Parque Lage.",
+    "EN": "My plan: allow 1½ to 2½ hours and combine it with Gávea, Jardim Botânico or Parque Lage."
+  },
+  "Museu do Universo, experimentos interactivos y sesiones de cúpula según programación.": {
+    "PT": "Museu do Universo, experimentos interativos e sessões de cúpula conforme a programação.",
+    "EN": "Museu do Universo, interactive experiments and dome sessions according to the program."
+  },
+  "Museu do Universo: referencia de R$15 más tasa. Los martes existe gratuidad general. Las sesiones pueden tener entrada separada.": {
+    "PT": "Museu do Universo: referência de R$15 mais taxa. Às terças-feiras há gratuidade geral. As sessões podem ter ingresso separado.",
+    "EN": "Museu do Universo: reference price R$15 plus fees. General admission is free on Tuesdays. Sessions may require separate tickets."
+  },
+  "Niños curiosos, adolescentes y adultos interesados en ciencia y astronomía.": {
+    "PT": "Crianças curiosas, adolescentes e adultos interessados em ciência e astronomia.",
+    "EN": "Curious children, teenagers and adults interested in science and astronomy."
+  },
+  "No vayas solamente al museo: organiza el horario para incluir una sesión de cúpula, que es la parte más especial para los niños.": {
+    "PT": "Não vá apenas ao museu: organize o horário para incluir uma sessão de cúpula, que é a parte mais especial para as crianças.",
+    "EN": "Do not visit only the museum: arrange your timing to include a dome session, the most special part for children."
+  },
+  "Parque dos Patins, Lagoa y Jardim Botânico.": {
+    "PT": "Parque dos Patins, Lagoa e Jardim Botânico.",
+    "EN": "Parque dos Patins, Lagoa and Jardim Botânico."
+  },
+  "Puedes recorrer el Museu do Universo y asistir a una sesión de cúpula. Las películas y horarios cambian según la programación.": {
+    "PT": "Você pode percorrer o Museu do Universo e assistir a uma sessão de cúpula. Os filmes e horários mudam conforme a programação.",
+    "EN": "Explore Museu do Universo and attend a dome session. Films and times change with the program."
+  },
+  "Utiliza autobús o transporte por aplicación. No existe metro directo en Gávea.": {
+    "PT": "Use ônibus ou transporte por aplicativo. Não há metrô direto na Gávea.",
+    "EN": "Take a bus or use a ride app. There is no direct metro service in Gávea."
+  },
+  "⚠️ Información importante": {
+    "PT": "⚠️ Informação importante",
+    "EN": "⚠️ Important information"
+  },
+  "AquaRio, Mural Etnias y Museu do Amanhã.": {
+    "PT": "AquaRio, Mural Etnias e Museu do Amanhã.",
+    "EN": "AquaRio, Mural Etnias and Museu do Amanhã."
+  },
+  "Cada vuelta dura aproximadamente 20 minutos y se realiza dentro de cabinas cerradas y climatizadas con capacidad para hasta ocho personas.": {
+    "PT": "Cada volta dura aproximadamente 20 minutos e acontece em cabines fechadas e climatizadas com capacidade para até oito pessoas.",
+    "EN": "Each rotation lasts around 20 minutes in enclosed, air-conditioned cabins accommodating up to eight people."
+  },
+  "Compra anticipada recomendada para atardecer, fines de semana y feriados.": {
+    "PT": "Compra antecipada recomendada para o pôr do sol, fins de semana e feriados.",
+    "EN": "Advance booking recommended for sunset, weekends and public holidays."
+  },
+  "Consulta el embarque para silla de ruedas y necesidades específicas.": {
+    "PT": "Consulte o embarque para cadeira de rodas e necessidades específicas.",
+    "EN": "Check wheelchair boarding arrangements and any specific needs."
+  },
+  "El atardecer es hermoso, pero también es el horario más solicitado. Llega antes y revisa el clima porque neblina o lluvia reducen la visibilidad.": {
+    "PT": "O pôr do sol é lindo, mas também é o horário mais procurado. Chegue antes e confira o clima, pois neblina ou chuva reduzem a visibilidade.",
+    "EN": "Sunset is beautiful but also the most popular time. Arrive early and check the weather, as fog or rain reduce visibility."
+  },
+  "Entrada pagada con valores y promociones variables.": {
+    "PT": "Entrada paga com valores e promoções variáveis.",
+    "EN": "Paid admission with varying prices and promotions."
+  },
+  "Familias, parejas y quien quiera una vista diferente de la Zona Portuaria.": {
+    "PT": "Famílias, casais e quem deseja uma vista diferente da Zona Portuária.",
+    "EN": "Families, couples and anyone wanting a different view of the Port Zone."
+  },
+  "Fue inaugurada como parte de la renovación turística de la Zona Portuaria y se convirtió en un nuevo punto panorámico de la ciudad.": {
+    "PT": "Foi inaugurada como parte da renovação turística da Zona Portuária e se tornou um novo ponto panorâmico da cidade.",
+    "EN": "It opened as part of the Port Zone’s tourism renewal and became a new panoramic viewpoint in the city."
+  },
+  "Funciona en horarios variables según temporada, mantenimiento y eventos.": {
+    "PT": "Funciona em horários variáveis conforme a temporada, manutenção e eventos.",
+    "EN": "Opening hours vary by season, maintenance and events."
+  },
+  "La rueda gigante de la Zona Portuaria permite observar la Bahía de Guanabara, Museu do Amanhã, Ponte Rio–Niterói, Cristo Redentor y Pão de Açúcar.": {
+    "PT": "A roda-gigante da Zona Portuária permite observar a Baía de Guanabara, Museu do Amanhã, Ponte Rio–Niterói, Cristo Redentor e Pão de Açúcar.",
+    "EN": "The Port Zone’s observation wheel offers views of Guanabara Bay, Museu do Amanhã, Rio–Niterói Bridge, Christ the Redeemer and Sugarloaf."
+  },
+  "La vista panorámica desde una cabina climatizada.": {
+    "PT": "A vista panorâmica de uma cabine climatizada.",
+    "EN": "The panoramic view from an air-conditioned cabin."
+  },
+  "Mi plan: hacerla dentro de un recorrido por Porto Maravilha, no viajar hasta allí solamente por la rueda.": {
+    "PT": "Meu plano: incluir em um passeio pelo Porto Maravilha, sem ir até lá somente pela roda-gigante.",
+    "EN": "My plan: include it in a visit to Porto Maravilha, instead of going there only for the wheel."
+  },
+  "Puedes utilizar el VLT hasta Cidade do Samba o transporte por aplicación.": {
+    "PT": "Você pode usar o VLT até Cidade do Samba ou transporte por aplicativo.",
+    "EN": "Take the VLT to Cidade do Samba or use a ride app."
+  },
+  "Reserva entre 45 minutos y 1 hora, incluyendo acceso y fila.": {
+    "PT": "Reserve entre 45 minutos e 1 hora, incluindo acesso e fila.",
+    "EN": "Allow between 45 minutes and 1 hour, including entry and queuing."
+  },
+  "Si el cielo está totalmente cerrado, la vista pierde parte de la gracia. En cambio, con buena visibilidad puede valer mucho la pena esperar un poco por una cabina y disfrutar sin prisa.": {
+    "PT": "Se o céu estiver totalmente fechado, a vista perde parte do encanto. Com boa visibilidade, porém, pode valer muito a pena esperar um pouco por uma cabine e aproveitar sem pressa.",
+    "EN": "Under a completely overcast sky, the view loses some of its appeal. With good visibility, however, waiting a little for a cabin can be well worth it so you can enjoy it without rushing."
+  },
+  "Una rueda gigante de 88 metros, cabinas climatizadas para hasta ocho personas y vistas hacia distintos puntos de Río. Es una experiencia corta, fácil y muy fotogénica.": {
+    "PT": "Uma roda-gigante de 88 metros, cabines climatizadas para até oito pessoas e vistas para diferentes pontos do Rio. É uma experiência curta, fácil e muito fotogênica.",
+    "EN": "An 88-meter observation wheel with air-conditioned cabins for up to eight people and views over different parts of Rio. A short, easy and very photogenic experience."
+  },
+  "Una vuelta de unos 20 minutos en cabina climatizada, con vistas panorámicas desde 88 metros.": {
+    "PT": "Uma volta de cerca de 20 minutos em cabine climatizada, com vistas panorâmicas a 88 metros.",
+    "EN": "A roughly 20-minute rotation in an air-conditioned cabin, with panoramic views from 88 meters."
+  },
+  "AquaRio | Río en familia · Ernestinho Carioca": {
+    "PT": "AquaRio | Rio em família · Ernestinho Carioca",
+    "EN": "AquaRio | Rio with the family · Ernestinho Carioca"
+  },
+  "AquaRio · experiencia familiar": {
+    "PT": "AquaRio · experiência em família",
+    "EN": "AquaRio · family experience"
+  },
+  "AquaRio · otra mirada de la experiencia": {
+    "PT": "AquaRio · outro olhar sobre a experiência",
+    "EN": "AquaRio · another view of the experience"
+  },
+  "Mapa de AquaRio": {
+    "PT": "Mapa de AquaRio",
+    "EN": "Map of AquaRio"
+  },
+  "BioParque do Rio | Río en familia · Ernestinho Carioca": {
+    "PT": "BioParque do Rio | Rio em família · Ernestinho Carioca",
+    "EN": "BioParque do Rio | Rio with the family · Ernestinho Carioca"
+  },
+  "BioParque do Rio · experiencia familiar": {
+    "PT": "BioParque do Rio · experiência em família",
+    "EN": "BioParque do Rio · family experience"
+  },
+  "BioParque do Rio · otra mirada de la experiencia": {
+    "PT": "BioParque do Rio · outro olhar sobre a experiência",
+    "EN": "BioParque do Rio · another view of the experience"
+  },
+  "Mapa de BioParque do Rio": {
+    "PT": "Mapa de BioParque do Rio",
+    "EN": "Map of BioParque do Rio"
+  },
+  "Jardim Botânico | Río en familia · Ernestinho Carioca": {
+    "PT": "Jardim Botânico | Rio em família · Ernestinho Carioca",
+    "EN": "Jardim Botânico | Rio with the family · Ernestinho Carioca"
+  },
+  "Jardim Botânico · experiencia familiar": {
+    "PT": "Jardim Botânico · experiência em família",
+    "EN": "Jardim Botânico · family experience"
+  },
+  "Jardim Botânico · otra mirada de la experiencia": {
+    "PT": "Jardim Botânico · outro olhar sobre a experiência",
+    "EN": "Jardim Botânico · another view of the experience"
+  },
+  "Mapa de Jardim Botânico": {
+    "PT": "Mapa de Jardim Botânico",
+    "EN": "Map of Jardim Botânico"
+  },
+  "Planetário do Rio y Museu do Universo | Río en familia · Ernestinho Carioca": {
+    "PT": "Planetário do Rio e Museu do Universo | Rio em família · Ernestinho Carioca",
+    "EN": "Planetário do Rio and Museu do Universo | Rio with the family · Ernestinho Carioca"
+  },
+  "Planetário do Rio y Museu do Universo · experiencia familiar": {
+    "PT": "Planetário do Rio e Museu do Universo · experiência em família",
+    "EN": "Planetário do Rio and Museu do Universo · family experience"
+  },
+  "Planetário do Rio y Museu do Universo · otra mirada de la experiencia": {
+    "PT": "Planetário do Rio e Museu do Universo · outro olhar sobre a experiência",
+    "EN": "Planetário do Rio and Museu do Universo · another view of the experience"
+  },
+  "Mapa de Planetário do Rio y Museu do Universo": {
+    "PT": "Mapa de Planetário do Rio e Museu do Universo",
+    "EN": "Map of Planetário do Rio and Museu do Universo"
+  },
+  "Yup Star Rio | Río en familia · Ernestinho Carioca": {
+    "PT": "Yup Star Rio | Rio em família · Ernestinho Carioca",
+    "EN": "Yup Star Rio | Rio with the family · Ernestinho Carioca"
+  },
+  "Yup Star Rio · experiencia familiar": {
+    "PT": "Yup Star Rio · experiência em família",
+    "EN": "Yup Star Rio · family experience"
+  },
+  "Yup Star Rio · otra mirada de la experiencia": {
+    "PT": "Yup Star Rio · outro olhar sobre a experiência",
+    "EN": "Yup Star Rio · another view of the experience"
+  },
+  "Mapa de Yup Star Rio": {
+    "PT": "Mapa de Yup Star Rio",
+    "EN": "Map of Yup Star Rio"
   }
 };
