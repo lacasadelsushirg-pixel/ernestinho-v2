@@ -27,3 +27,7 @@ Se incorporaron también diccionarios presentes en el espacio de trabajo para At
 Bloque 4: todo el texto editorial estático pendiente de las 16 rutas de Playas y sus avisos, títulos y descripción del listado; metadatos de barrios/fichas de Familia. El inventario restante de Playas solo contiene nombres propios oficiales. Diccionario naturaleza-02.js presente en el espacio de trabajo se conserva y registra junto a naturaleza-01.js.
 
 También se conserva familia-03.js presente en el espacio de trabajo: parte de las descripciones/práctica de fichas familiares. Sigue pendiente verificar y completar el resto.
+
+Bloque 4: Playas (descripciones y consejos completos), Naturaleza (incluidas listas serializadas y alt/mapas) y cinco fichas Familia: AquaRio, BioParque, Jardim Botânico, Planetário y Yup Star. Sin cambios de HTML, imágenes, banners, widgets ni enlaces. Añadidos familia-03.js, naturaleza-02.js y playas-02.js y registros en site.js. Continuación automática adicional confirmada para 2026-09-30 07:39 America/Sao_Paulo (cinco horas desde la solicitud).
+
+Bloque 5: navegación, encabezados, etiquetas prácticas, avisos y leyendas de imágenes/mapas del módulo Cultura (130 rutas). NO están traducidas aún todas las narrativas de las instituciones. Diccionario separado y cargado solo en Cultura.
