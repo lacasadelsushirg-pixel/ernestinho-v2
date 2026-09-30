@@ -23,7 +23,7 @@ const sectionChunks = {
   "playas": ["playas-01.js", "playas-02.js"],
   "quiero": ["quiero-01.js"],
   "transportes": ["transportes-01.js"],
-  "vida-nocturna": ["vida-nocturna-01.js", "vida-nocturna-02.js"],
+  "vida-nocturna": ["vida-nocturna-01.js", "vida-nocturna-02.js", "vida-nocturna-03.js"],
 };
 async function loadSectionTranslations() {
   const section = location.pathname.split("/").filter(Boolean)[0] || "home";
