@@ -1,0 +1,580 @@
+{
+  "schema": 1,
+  "baseline_commit": "0cb5e6ec57f0e7d40f703d12290a744f6433e9ff",
+  "scope": "all guia/**/*.html and consejos/**/*.html",
+  "pages": {
+    "guia/accesibilidad/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      }
+    ],
+    "guia/aeropuertos/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aeroporto+Internacional+Tom+Jobim+GIG",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aeroporto+Santos+Dumont+SDU",
+        "count": 1
+      }
+    ],
+    "guia/alquiler-auto/index.html": [
+      {
+        "type": "affiliate",
+        "url": "https://www.rentcars.com/es/?requestorid=11142&utm_source=www.ernestinhocarioca.com.br&utm_medium=afiliado-link",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789052735/alquiler_auto.jpg",
+        "count": 1
+      }
+    ],
+    "guia/apps/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps",
+        "count": 1
+      }
+    ],
+    "guia/consulados/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      }
+    ],
+    "guia/cpf/index.html": [],
+    "guia/dinero/index.html": [
+      {
+        "type": "image",
+        "url": "https://files.sunoresearch.com.br/n/uploads/2024/02/dinheiro-real-brasil.jpg",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789825391/monedas_brasil.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789825392/billetes_brasil.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1790650572/apps_pix.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1790650572/pagando_con_pix.jpg",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1790650572/pix_brasil.jpg",
+        "count": 1
+      }
+    ],
+    "guia/documentos/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1788270454/QmbchFZ1tu5DJ_I21mjy9_jOxyVWNn.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040451/miniaturas_guia_rio_documentos_y_entrada.png",
+        "count": 1
+      }
+    ],
+    "guia/donde-alojarse/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1788390184/calca_copa.jpg",
+        "count": 1
+      },
+      {
+        "type": "widget",
+        "url": "#stay-data",
+        "count": 1
+      }
+    ],
+    "guia/emergencias/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hospital+Municipal+Miguel+Couto",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hospital+Municipal+Souza+Aguiar",
+        "count": 1
+      }
+    ],
+    "guia/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1788907305/portada_planificando_el_viaje.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040448/miniaturas_guia_rio_accesibilidad.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040449/miniaturas_guia_rio_aeropuertos_gig_y_sdu.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040449/miniaturas_guia_rio_armando_las_maletas.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040450/miniaturas_guia_rio_aplicaciones.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040451/miniaturas_guia_rio_como_moverse.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040451/miniaturas_guia_rio_consulado.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040451/miniaturas_guia_rio_dinero_y_presupuesto.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040451/miniaturas_guia_rio_documentos_y_entrada.png",
+        "count": 2
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040451/miniaturas_guia_rio_donde_alojarse.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040454/miniaturas_guia_rio_internet_y_chip.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040456/miniaturas_guia_rio_rodoviaria_y_barcas.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040457/miniaturas_guia_rio_permanencia_y_extension.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040457/miniaturas_guia_rio_seguro_y_salud.png",
+        "count": 2
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040458/miniaturas_guia_rio_enchufes_y_voltaje.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040459/miniaturas_guia_rio_vacunas.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040459/miniaturas_guia_rio_viajando_en_familia.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040461/miniaturas_guia_rio_mes_a_mes.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040461/miniaturas_guia_rio_pix.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789052363/miniaturas_guia_rio_alquiler_de_vehiculos.png",
+        "count": 1
+      }
+    ],
+    "guia/internet/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1790650572/chip_tim.jpg",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1790650713/chip-virtual-viagem-eSIM-Airalo-capa-2019.jpg",
+        "count": 1
+      },
+      {
+        "type": "widget",
+        "url": "#airalo-widget",
+        "count": 1
+      },
+      {
+        "type": "widget",
+        "url": "https://tpembd.com/content?",
+        "count": 1
+      }
+    ],
+    "guia/menores/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1788506440/familia12.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1790651156/rio_con_ni%C3%B1os.jpg",
+        "count": 1
+      }
+    ],
+    "guia/mes-a-mes/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1788386498/hora_dorada_urca.jpg",
+        "count": 1
+      },
+      {
+        "type": "widget",
+        "url": "#month-data",
+        "count": 1
+      }
+    ],
+    "guia/moverse/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      }
+    ],
+    "guia/permanencia/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1790650571/santos_doumont_migracao_va_para_permanencia.jpg",
+        "count": 1
+      }
+    ],
+    "guia/pix/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040461/miniaturas_guia_rio_pix.png",
+        "count": 1
+      },
+      {
+        "type": "widget",
+        "url": "#pix-data",
+        "count": 1
+      }
+    ],
+    "guia/seguro/index.html": [
+      {
+        "type": "affiliate",
+        "url": "https://assistcard.com/br/b2c/afiliados?utm_source=mais&utm_medium=maisplataforma&utm_campaign=ernestinho&m_token=fc2941ae-7c70-4f30-ba1d-055d791a6656",
+        "count": 2
+      },
+      {
+        "type": "affiliate",
+        "url": "https://www.assistcard.com/br/para-que-serve-o-seguro-de-viagem-internacional",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789825116/assist_card.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1790650574/upa.jpg",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=CER+Barra+Lourenco+Jorge+Avenida+Ayrton+Senna+2000",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hospital+Municipal+Miguel+Couto+Rio+de+Janeiro",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hospital+Municipal+Souza+Aguiar",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hospital+Municipal+Souza+Aguiar+Rio+de+Janeiro",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=UPA+Botafogo+Rua+Sao+Clemente",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=UPA+Copacabana+Rua+Siqueira+Campos+129",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=UPA+Rocinha+Estrada+da+Gavea+520",
+        "count": 1
+      }
+    ],
+    "guia/terminales/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1788389095/maua_y_amanha.jpg",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pier+Maua+Rio+de+Janeiro",
+        "count": 1
+      },
+      {
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Rodoviaria+Novo+Rio",
+        "count": 1
+      }
+    ],
+    "guia/vacunas/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1788271105/WhatsApp_Image_2026-09-01_at_10.57.13.jpg",
+        "count": 1
+      }
+    ],
+    "guia/viajar-solo/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1788385260/arpoador_fotos.jpg",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1790650571/sola_en_mirador.jpg",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1790650572/sola_en_la_playa.jpg",
+        "count": 1
+      }
+    ],
+    "consejos/20-consejos/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      }
+    ],
+    "consejos/electricidad-adaptadores/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/EE6D1EC3-CDA7-485F-B45E-1564795FD0FE",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/IMG_3139",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1788497042/enchufes_y_voltaje.png",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040458/miniaturas_guia_rio_enchufes_y_voltaje.png",
+        "count": 1
+      }
+    ],
+    "consejos/errores-rio/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      }
+    ],
+    "consejos/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      }
+    ],
+    "consejos/lluvia/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      }
+    ],
+    "consejos/maletas-rio/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      },
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/v1789040449/miniaturas_guia_rio_armando_las_maletas.png",
+        "count": 1
+      }
+    ],
+    "consejos/perfiles-viajero/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      }
+    ],
+    "consejos/rodizio/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      }
+    ],
+    "consejos/sol-calor/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      }
+    ],
+    "consejos/supermercados/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      }
+    ],
+    "consejos/trampas-turista/index.html": [
+      {
+        "type": "image",
+        "url": "https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53",
+        "count": 1
+      }
+    ]
+  }
+}

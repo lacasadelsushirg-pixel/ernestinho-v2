@@ -1,0 +1,27 @@
+name: Protect closed Rio Guide
+on:
+  pull_request:
+    paths:
+      - 'guia/**'
+      - 'consejos/**'
+      - 'tools/guide-content-lock*'
+      - 'tools/guide-assets-*'
+      - '.github/workflows/protect-closed-guide.yml'
+  push:
+    paths:
+      - 'guia/**'
+      - 'consejos/**'
+      - 'tools/guide-content-lock*'
+      - 'tools/guide-assets-*'
+      - '.github/workflows/protect-closed-guide.yml'
+jobs:
+  closed-page-content:
+    name: Closed page content lock
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 tools/guide-content-lock.py
+      - run: python3 tools/guide-assets-audit.py
