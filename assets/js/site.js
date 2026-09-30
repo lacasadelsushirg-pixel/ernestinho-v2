@@ -257,3 +257,5 @@ document.readyState === "loading" ? document.addEventListener("DOMContentLoaded"
 // EC preview trigger: 2026-09-29 guide-and-corporate-closing
 // Force GitHub→Vercel preview: 2026-09-29T01:15 Rio
 export { apply, translatePhrase };
+
+// Recovery deploy trigger: full-site-recovery-20260930-1806
