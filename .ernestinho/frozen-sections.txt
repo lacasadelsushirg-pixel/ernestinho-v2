@@ -1,0 +1,8 @@
+guia/
+playas/
+familia/
+eventos/
+consejos/
+transportes/
+vida-nocturna/
+assets/js/site.js
