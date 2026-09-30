@@ -1,31 +1,38 @@
 import { LANGS, getLanguage, cycleLanguage, setLanguage, applyTranslations } from "./i18n.js";
 if (!document.querySelector('link[href*="components.css"]') && !document.querySelector("[data-ec-brand-type]")) { const fontSheet=document.createElement("link"); fontSheet.rel="stylesheet"; fontSheet.href=new URL("../css/type.css",import.meta.url).href; fontSheet.dataset.ecBrandType=""; document.head.append(fontSheet); }
-const common={"Guía de Río":{"PT":"Guia do Rio","EN":"Rio Guide"},"Experiencias":{"PT":"Experiências","EN":"Experiences"},"Transportes":{"PT":"Transportes","EN":"Transport"},"Eventos":{"PT":"Eventos","EN":"Events"},"Hospedaje":{"PT":"Hospedagem","EN":"Stay"},"Compras":{"PT":"Compras","EN":"Shopping"},"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Gastronomía":{"PT":"Gastronomia","EN":"Food"},"Consejos":{"PT":"Dicas","EN":"Tips"},"Playas":{"PT":"Praias","EN":"Beaches"},"Vida Nocturna":{"PT":"Vida Noturna","EN":"Nightlife"},"Familia":{"PT":"Família","EN":"Family"},"Atracciones":{"PT":"Atrações","EN":"Attractions"},"Fotografía":{"PT":"Fotografia","EN":"Photography"},"Río no se visita. Se vive.":{"PT":"O Rio não se visita. Se vive.","EN":"Rio isn't just visited. It's lived."},"ABRIR GUÍA →":{"PT":"ABRIR GUIA →","EN":"OPEN GUIDE →"},"DESCUBRIR →":{"PT":"DESCOBRIR →","EN":"DISCOVER →"},"EXPLORAR →":{"PT":"EXPLORAR →","EN":"EXPLORE →"},"VER FICHA →":{"PT":"VER FICHA →","EN":"VIEW GUIDE →"},"Volver a Gastronomía":{"PT":"Voltar à Gastronomia","EN":"Back to Food"},"Antes de ir":{"PT":"Antes de ir","EN":"Before you go"},"Mi lectura":{"PT":"Minha leitura","EN":"My take"},"Buscar por nombre, barrio o estilo…":{"PT":"Buscar por nome, bairro ou estilo…","EN":"Search by name, neighborhood or style…"},"TODOS":{"PT":"TODOS","EN":"ALL"},"PESCADOS / MAR":{"PT":"PEIXES / MAR","EN":"SEAFOOD"},"ASIÁTICA":{"PT":"ASIÁTICA","EN":"ASIAN"},"ALMUERZO / BUFFET":{"PT":"ALMOÇO / BUFFET","EN":"LUNCH / BUFFET"},"VEGETARIANA":{"PT":"VEGETARIANA","EN":"VEGETARIAN"},"QUIOSQUES":{"PT":"QUIOSQUES","EN":"KIOSKS"},"EXPERIENCIAS":{"PT":"EXPERIÊNCIAS","EN":"EXPERIENCES"},"Ficha rápida":{"PT":"Informações rápidas","EN":"Quick facts"},"Barrio mostrado":{"PT":"Bairro","EN":"Neighborhood"},"Clasificación de la ficha":{"PT":"Categoria","EN":"Category"},"Estado de la información":{"PT":"Estado das informações","EN":"Information status"},"Verificación necesaria":{"PT":"Precisa confirmar","EN":"Please confirm"},"Lo que consta en las fuentes":{"PT":"O que consta nas fontes","EN":"What the sources say"},"Café Río":{"PT":"Café Rio","EN":"Rio Coffee"},"Sitio anterior":{"PT":"Site anterior","EN":"Previous site"},"Compartir":{"PT":"Compartilhar","EN":"Share"},"Compartir esta página":{"PT":"Compartilhe esta página","EN":"Share this page"},"Compartir en WhatsApp":{"PT":"Compartilhar no WhatsApp","EN":"Share on WhatsApp"},"Compartir en Instagram":{"PT":"Compartilhar no Instagram","EN":"Share on Instagram"},"Compartir en Facebook":{"PT":"Compartilhar no Facebook","EN":"Share on Facebook"},"Más aplicaciones":{"PT":"Mais aplicativos","EN":"More apps"},"Enlace copiado. Puedes pegarlo en Instagram.":{"PT":"Link copiado. Você pode colá-lo no Instagram.","EN":"Link copied. You can paste it into Instagram."},"Enlace copiado.":{"PT":"Link copiado.","EN":"Link copied."},"No se pudo copiar el enlace.":{"PT":"Não foi possível copiar o link.","EN":"Could not copy the link."},"Abrir TikTok":{"PT":"Abrir TikTok","EN":"Open TikTok"},"Abrir Instagram":{"PT":"Abrir Instagram","EN":"Open Instagram"},"Contactar por WhatsApp":{"PT":"Falar pelo WhatsApp","EN":"Contact on WhatsApp"},"Cambiar idioma":{"PT":"Mudar idioma","EN":"Change language"},"Español":{"PT":"Espanhol","EN":"Spanish"},"Português":{"PT":"Português","EN":"Portuguese"},"English":{"PT":"Inglês","EN":"English"}};
+const common={"Guía de Río":{"PT":"Guia do Rio","EN":"Rio Guide"},"Experiencias":{"PT":"Experiências","EN":"Experiences"},"Transportes":{"PT":"Transportes","EN":"Transport"},"Eventos":{"PT":"Eventos","EN":"Events"},"Hospedaje":{"PT":"Hospedagem","EN":"Stay"},"Compras":{"PT":"Compras","EN":"Shopping"},"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Gastronomía":{"PT":"Gastronomia","EN":"Food"},"Consejos":{"PT":"Dicas","EN":"Tips"},"Playas":{"PT":"Praias","EN":"Beaches"},"Vida Nocturna":{"PT":"Vida Noturna","EN":"Nightlife"},"Familia":{"PT":"Família","EN":"Family"},"Atracciones":{"PT":"Atrações","EN":"Attractions"},"Fotografía":{"PT":"Fotografia","EN":"Photography"},"Río no se visita. Se vive.":{"PT":"O Rio não se visita. Se vive.","EN":"Rio isn't just visited. It's lived."},"ABRIR GUÍA →":{"PT":"ABRIR GUIA →","EN":"OPEN GUIDE →"},"DESCUBRIR →":{"PT":"DESCOBRIR →","EN":"DISCOVER →"},"EXPLORAR →":{"PT":"EXPLORAR →","EN":"EXPLORE →"},"VER FICHA →":{"PT":"VER FICHA →","EN":"VIEW GUIDE →"},"Volver a Gastronomía":{"PT":"Voltar à Gastronomia","EN":"Back to Food"},"Antes de ir":{"PT":"Antes de ir","EN":"Before you go"},"Mi lectura":{"PT":"Minha leitura","EN":"My take"},"Buscar por nombre, barrio o estilo…":{"PT":"Buscar por nome, bairro ou estilo…","EN":"Search by name, neighborhood or style…"},"TODOS":{"PT":"TODOS","EN":"ALL"},"PESCADOS / MAR":{"PT":"PEIXES / MAR","EN":"SEAFOOD"},"ASIÁTICA":{"PT":"ASIÁTICA","EN":"ASIAN"},"ALMUERZO / BUFFET":{"PT":"ALMOÇO / BUFFET","EN":"LUNCH / BUFFET"},"VEGETARIANA":{"PT":"VEGETARIANA","EN":"VEGETARIAN"},"QUIOSQUES":{"PT":"QUIOSQUES","EN":"KIOSKS"},"EXPERIENCIAS":{"PT":"EXPERIÊNCIAS","EN":"EXPERIENCES"},"Ficha rápida":{"PT":"Informações rápidas","EN":"Quick facts"},"Barrio mostrado":{"PT":"Bairro","EN":"Neighborhood"},"Clasificación de la ficha":{"PT":"Categoria","EN":"Category"},"Estado de la información":{"PT":"Estado das informações","EN":"Information status"},"Verificación necesaria":{"PT":"Precisa confirmar","EN":"Please confirm"},"Lo que consta en las fuentes":{"PT":"O que consta nas fontes","EN":"What the sources say"},"Café Río":{"PT":"Café Rio","EN":"Rio Coffee"},"Sitio anterior":{"PT":"Site anterior","EN":"Previous site"},"Volver":{"PT":"Voltar","EN":"Back"},"Volver a la página anterior":{"PT":"Voltar à página anterior","EN":"Go back"},"Compartir":{"PT":"Compartilhar","EN":"Share"},"Compartir esta página":{"PT":"Compartilhe esta página","EN":"Share this page"},"Compartir en WhatsApp":{"PT":"Compartilhar no WhatsApp","EN":"Share on WhatsApp"},"Compartir en Instagram":{"PT":"Compartilhar no Instagram","EN":"Share on Instagram"},"Compartir en Facebook":{"PT":"Compartilhar no Facebook","EN":"Share on Facebook"},"Más aplicaciones":{"PT":"Mais aplicativos","EN":"More apps"},"Enlace copiado. Puedes pegarlo en Instagram.":{"PT":"Link copiado. Você pode colá-lo no Instagram.","EN":"Link copied. You can paste it into Instagram."},"Enlace copiado.":{"PT":"Link copiado.","EN":"Link copied."},"No se pudo copiar el enlace.":{"PT":"Não foi possível copiar o link.","EN":"Could not copy the link."},"Abrir TikTok":{"PT":"Abrir TikTok","EN":"Open TikTok"},"Abrir Instagram":{"PT":"Abrir Instagram","EN":"Open Instagram"},"Contactar por WhatsApp":{"PT":"Falar pelo WhatsApp","EN":"Contact on WhatsApp"},"Cambiar idioma":{"PT":"Mudar idioma","EN":"Change language"},"Español":{"PT":"Espanhol","EN":"Spanish"},"Português":{"PT":"Português","EN":"Portuguese"},"English":{"PT":"Inglês","EN":"English"}};
 const sectionChunks = {
-  "atracciones": ["atracciones-01.js"],
-  "barrios": ["barrios-01.js"],
+  "atracciones": ["atracciones-01.js", "atracciones-02.js"],
+  "barrios": ["barrios-01.js", "barrios-02.js"],
   "cafe-rio": ["cafe-rio-01.js"],
   "compras": ["compras-01.js"],
-  "consejos": ["consejos-01.js"],
-  "eventos": ["eventos-01.js"],
-  "experiencias": ["experiencias-01.js"],
-  "familia": ["familia-01.js"],
-  "fotografia": ["fotografia-01.js"],
+  "cultura": ["cultura-01.js", "cultura-02.js", "cultura-03.js", "cultura-04.js", "cultura-05.js", "cultura-06.js", "cultura-07.js", "cultura-08.js", "cultura-09.js", "cultura-10.js", "cultura-11.js", "cultura-12.js", "cultura-13.js", "cultura-14.js", "cultura-15.js"],
+  "consejos": ["consejos-01.js", "consejos-02.js", "consejos-03.js"],
+  "eventos": ["eventos-01.js", "eventos-02.js"],
+  "experiencias": ["experiencias-01.js", "experiencias-02.js", "experiencias-03.js", "experiencias-04.js"],
+  "familia": ["familia-01.js", "familia-02.js", "familia-03.js", "familia-04.js", "familia-05.js", "familia-06.js", "familia-07.js", "familia-08.js"],
+  "fotografia": ["fotografia-01.js", "fotografia-02.js"],
   "gastronomia": ["gastronomia-01.js"],
-  "guia": ["guia-01.js", "guia-02.js"],
+  "guia": ["guia-01.js", "guia-02.js", "guia-03.js"],
   "home": ["home-01.js"],
+  "historia": ["historia-01.js"],
+  "television": ["television-01.js"],
   "hospedaje": ["hospedaje-01.js"],
   "hoy": ["hoy-01.js"],
-  "playas": ["playas-01.js"],
+  "naturaleza": ["naturaleza-01.js", "naturaleza-02.js"],
+  "playas": ["playas-01.js", "playas-02.js"],
   "quiero": ["quiero-01.js"],
   "transportes": ["transportes-01.js"],
-  "vida-nocturna": ["vida-nocturna-01.js"],
+  "vida-nocturna": ["vida-nocturna-01.js", "vida-nocturna-02.js", "vida-nocturna-03.js", "vida-nocturna-04.js", "vida-nocturna-05.js", "vida-nocturna-06.js", "vida-nocturna-07.js", "vida-nocturna-08.js", "vida-nocturna-09.js", "vida-nocturna-10.js", "vida-nocturna-11.js"],
 };
 async function loadSectionTranslations() {
   const section = location.pathname.split("/").filter(Boolean)[0] || "home";
-  const chunks = sectionChunks[section] || [];
+  const chunks = ["common-02.js", "metadata-01.js", "metadata-02.js", ...(sectionChunks[section] || [])];
   const loaded = await Promise.allSettled(chunks.map(file => import(`./translations/chunks/${file}`)));
   for (const result of loaded) if (result.status === "fulfilled") Object.assign(common, result.value.default);
+}
+function translatePhrase(text, lang = getLanguage()) {
+  return lang === "ES" ? text : common[text]?.[lang] ?? text;
 }
 const original = new WeakMap();
 function translateText(root, lang) {
@@ -33,15 +40,23 @@ function translateText(root, lang) {
   let node;
   while ((node = walker.nextNode())) {
     const parent = node.parentElement;
-    if (!parent || ["SCRIPT", "STYLE", "NOSCRIPT"].includes(parent.tagName)) continue;
+    if (!parent || ["SCRIPT", "STYLE", "NOSCRIPT"].includes(parent.tagName) || parent.closest("[data-i18n], [data-live]")) continue;
     if (!original.has(node)) original.set(node, node.nodeValue);
     const base = original.get(node), trimmed = base.trim(), hit = common[trimmed];
     node.nodeValue = hit && lang !== "ES" ? base.replace(trimmed, hit[lang] || trimmed) : base;
   }
 }
 function ensureTopbarNav() {
-  const bar=document.querySelector(".topbar");
-  if(!bar)return;
+  let bar=document.querySelector(".topbar");
+  if(!bar){
+    bar=document.createElement("header");
+    bar.className="topbar";
+    const brand=document.createElement("a");
+    brand.className="brand"; brand.href="/"; brand.setAttribute("aria-label","Ernestinho Carioca");
+    brand.innerHTML='<img src="https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53" alt="Ernestinho Carioca" width="44" height="44">';
+    bar.appendChild(brand);
+    document.body.prepend(bar);
+  }
   let nav=bar.querySelector(":scope > nav");
   if(!nav){nav=document.createElement("nav");bar.appendChild(nav);}
   nav.classList.add("ec-primary-nav");
@@ -91,7 +106,7 @@ function ensureGlobalStyles() {
   if(document.getElementById("ec-global-controls-style"))return;
   const style=document.createElement("style");
   style.id="ec-global-controls-style";
-  style.textContent=`.ec-social-links{display:flex;align-items:center;gap:7px}.topbar .tools{display:flex!important;align-items:center;gap:12px;margin-left:auto;flex:0 0 auto}.ec-desktop-language{display:flex;align-items:center;gap:2px;padding:3px;border:1px solid rgba(255,255,255,.24);border-radius:999px;background:#071c1b}.ec-desktop-language-choice{min-width:38px;height:34px;padding:0 10px;border:0;border-radius:999px;background:transparent;color:#fff;font:800 12px ui-sans-serif,system-ui,sans-serif;letter-spacing:.05em;cursor:pointer}.ec-desktop-language-choice:hover,.ec-desktop-language-choice.is-active{background:#16b8a6;color:#031716}.ec-social-link{display:grid;place-items:center;width:34px;height:34px;border:1px solid rgba(215,164,59,.45);border-radius:50%;color:#e8c36c}.ec-social-link svg{width:17px;height:17px;display:block}.ec-mobile-language-row{display:none}.ec-corporate-closing{background:#020719;color:#fff}.ec-closing-cta{max-width:1380px;margin:0 auto;padding:54px 7vw;display:flex;align-items:center;justify-content:space-between;gap:32px}.ec-closing-cta h2{margin:0;color:#fff;font-size:clamp(30px,4vw,58px);line-height:.95}.ec-closing-cta p{color:#93a4c8}.ec-closing-cta>a{display:inline-flex;align-items:center;gap:9px;padding:14px 20px;border-radius:999px;background:#fff;color:#071c1b;font-weight:800;font-size:12px}.ec-corporate-footer{min-height:236px;padding:68px 24px 62px;border-top:1px solid #26324b;background:#020719;display:flex;align-items:center;justify-content:space-between;gap:40px}.ec-footer-brand{display:flex;align-items:center;gap:18px}.ec-footer-brand img{width:60px;height:60px;object-fit:contain}.ec-footer-brand strong{display:block;color:#fff;font:900 27px/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:-.04em}.ec-footer-brand strong em{color:#18b8aa;font-style:normal}.ec-footer-brand small{display:block;margin-top:10px;color:#7890bf;font:400 15px/1.2 ui-sans-serif,system-ui,sans-serif;letter-spacing:.14em}.ec-footer-legal{text-align:right;color:#7890bf;font:400 17px/1.45 ui-sans-serif,system-ui,sans-serif}.ec-footer-legal p{margin:0}.ec-footer-legal a{display:inline-block;margin-top:15px;color:#00ead1;font-weight:800}.ec-global-actions{position:fixed;right:18px;bottom:18px;z-index:9998;display:flex;flex-direction:column;align-items:flex-end;gap:8px}.ec-float-btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;padding:10px 14px;border:1px solid #d7a43b;border-radius:999px;background:#092522;color:#fff;font-size:13px;font-weight:700}.ec-share-panel{position:absolute;right:0;bottom:54px;width:216px;padding:12px;border:1px solid rgba(215,164,59,.55);border-radius:16px;background:#092522;color:#fff}.ec-share-panel[hidden],.ec-share-status[hidden]{display:none!important}.ec-share-panel strong{display:block;padding:5px 7px 9px;color:#e8c36c}.ec-share-option{display:flex;width:100%;margin:3px 0;padding:10px 9px;border:0;border-radius:10px;background:transparent;color:#fff;text-align:left;font-weight:600}.ec-share-status{max-width:260px;padding:8px 11px;border-radius:10px;background:#fff;color:#061817;font-size:13px}@media(max-width:900px){.topbar{display:grid!important;grid-template-columns:auto 1fr;grid-template-areas:'brand social' 'nav nav';align-items:center;gap:7px 10px;height:auto!important;min-height:0;padding:8px 4vw!important}.topbar .brand{grid-area:brand}.topbar nav{grid-area:nav;display:flex!important;width:100%;gap:18px;overflow-x:auto;white-space:nowrap;padding:6px 0 4px}.topbar nav a{flex:0 0 auto;padding:4px 0;font-size:10px}.topbar .ec-social-links{grid-area:social;justify-self:end}.topbar .tools{display:none!important}.ec-mobile-language-row{display:flex;justify-content:center;gap:9px;padding:8px 12px;background:#fff;border-bottom:1px solid rgba(6,24,23,.12)}.ec-language-choice{display:flex;align-items:center;gap:5px;min-height:38px;padding:7px 11px;border:1px solid #9c8b68;border-radius:999px;background:#fff;color:#092522;font:700 12px ui-sans-serif,system-ui,sans-serif}.ec-language-choice.is-active{background:#123d39;color:#fff;border-color:#d7a43b}.ec-corporate-footer{min-height:0;padding:42px 24px;flex-direction:column;align-items:flex-start}.ec-footer-legal{text-align:left;font-size:14px}.ec-footer-brand strong{font-size:22px}.ec-footer-brand small{font-size:12px}.ec-closing-cta{padding:40px 24px;flex-direction:column;align-items:flex-start}.ec-global-actions{right:12px;bottom:calc(env(safe-area-inset-bottom,0px) + 88px)}}`;
+  style.textContent=`.ec-social-links{display:flex;align-items:center;gap:7px}.topbar .tools{display:flex!important;align-items:center;gap:12px;margin-left:auto;flex:0 0 auto}.ec-desktop-language{display:flex;align-items:center;gap:6px;padding:7px;border:1px solid #e7b85c;border-radius:999px;background:#071313ef}.ec-desktop-language-choice{min-width:44px;height:36px;padding:0 11px;border:0;border-radius:999px;background:#123b3b;color:#f6f0e6;font:800 12px ui-sans-serif,system-ui,sans-serif;letter-spacing:.02em;cursor:pointer}.ec-desktop-language-choice:hover,.ec-desktop-language-choice.is-active{background:#e7b85c;color:#132222}.ec-social-link{display:grid;place-items:center;width:34px;height:34px;border:1px solid rgba(215,164,59,.45);border-radius:50%;color:#e8c36c;transition:background .18s ease,color .18s ease}.ec-social-link:hover{background:#d7a43b;color:#061817}.ec-social-link svg{width:17px;height:17px;display:block}.ec-mobile-language-row{display:none}.ec-corporate-closing{background:#020719;color:#fff}.ec-closing-cta{max-width:1380px;margin:0 auto;padding:54px 7vw;display:flex;align-items:center;justify-content:space-between;gap:32px}.ec-closing-cta h2{margin:0;color:#fff;font-size:clamp(30px,4vw,58px);line-height:.95}.ec-closing-cta p{color:#93a4c8}.ec-closing-cta>a{display:inline-flex;align-items:center;gap:9px;padding:14px 20px;border-radius:999px;background:#fff;color:#071c1b;font-weight:800;font-size:12px}.ec-corporate-footer{min-height:236px;padding:68px 24px 62px;border-top:1px solid #26324b;background:#020719;display:flex;align-items:center;justify-content:space-between;gap:40px}.ec-footer-brand{display:flex;align-items:center;gap:18px}.ec-footer-brand img{width:60px;height:60px;object-fit:contain}.ec-footer-brand strong{display:block;color:#fff;font:900 27px/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:-.04em}.ec-footer-brand strong em{color:#18b8aa;font-style:normal}.ec-footer-brand small{display:block;margin-top:10px;color:#7890bf;font:400 15px/1.2 ui-sans-serif,system-ui,sans-serif;letter-spacing:.14em}.ec-footer-legal{text-align:right;color:#7890bf;font:400 17px/1.45 ui-sans-serif,system-ui,sans-serif}.ec-footer-legal p{margin:0}.ec-footer-legal a{display:inline-block;margin-top:15px;color:#00ead1;font-weight:800}.ec-global-actions{position:fixed;right:18px;bottom:18px;z-index:9998;display:flex;flex-direction:column;align-items:flex-end;gap:8px;font-family:ui-sans-serif,system-ui,sans-serif}.ec-float-btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;padding:10px 14px;border:1px solid #d7a43b;border-radius:999px;background:#092522;color:#fff;font-size:13px;font-weight:700;line-height:1;box-shadow:0 8px 24px rgba(0,0,0,.24);cursor:pointer;text-decoration:none}.ec-float-btn:hover{background:#123d39}.ec-share-panel{position:absolute;right:0;bottom:54px;width:216px;padding:12px;border:1px solid rgba(215,164,59,.55);border-radius:16px;background:#092522;color:#fff;box-shadow:0 14px 38px rgba(0,0,0,.32)}.ec-share-panel[hidden]{display:none!important}.ec-share-panel strong{display:block;padding:5px 7px 9px;color:#e8c36c;font-size:13px}.ec-share-option{display:flex;width:100%;margin:3px 0;padding:10px 9px;border:0;border-radius:10px;background:transparent;color:#fff;text-align:left;font:600 14px ui-sans-serif,system-ui,sans-serif;cursor:pointer}.ec-share-option:hover,.ec-share-option:focus-visible{background:#123d39}.ec-share-status{max-width:260px;padding:8px 11px;border-radius:10px;background:#f7f2e8;color:#061817;font-size:13px;box-shadow:0 5px 20px rgba(0,0,0,.2)}.ec-share-status[hidden]{display:none!important}.ec-language-choice:focus-visible,.ec-social-link:focus-visible,.ec-float-btn:focus-visible,.ec-share-option:focus-visible{outline:3px solid #e8c36c;outline-offset:3px}@media(max-width:900px){.topbar{display:grid!important;grid-template-columns:auto 1fr;grid-template-areas:'brand social' 'nav nav';align-items:center;gap:7px 10px;height:auto!important;min-height:0;padding:8px 4vw!important}.topbar .brand{grid-area:brand}.topbar nav{grid-area:nav;display:flex!important;flex:0 0 100%;width:100%;gap:18px;overflow-x:auto;overscroll-behavior-x:contain;white-space:nowrap;padding:6px 0 4px;scrollbar-width:none}.topbar nav::-webkit-scrollbar{display:none}.topbar nav a{flex:0 0 auto;padding:4px 0;font-size:10px}.topbar .ec-social-links{grid-area:social;justify-self:end}.topbar .tools{display:none!important}.ec-corporate-footer{min-height:0;padding:42px 24px;flex-direction:column;align-items:flex-start}.ec-footer-legal{text-align:left;font-size:14px}.ec-footer-brand strong{font-size:22px}.ec-footer-brand small{font-size:12px}.ec-closing-cta{padding:40px 24px;flex-direction:column;align-items:flex-start}.ec-mobile-language-row{display:flex;justify-content:center;gap:9px;padding:8px 12px;background:#f7f2e8;border-bottom:1px solid rgba(6,24,23,.12)}.ec-language-choice{display:flex;align-items:center;gap:5px;min-height:38px;padding:7px 11px;border:1px solid #9c8b68;border-radius:999px;background:#fff;color:#092522;font:700 12px ui-sans-serif,system-ui,sans-serif;cursor:pointer}.ec-language-choice.is-active{background:#123d39;color:#fff;border-color:#d7a43b}.ec-global-actions{right:12px;bottom:calc(env(safe-area-inset-bottom,0px) + 88px);gap:7px}.ec-float-btn{min-height:44px;padding:10px 12px;font-size:12px}.ec-share-panel{bottom:52px}}`;
   document.head.appendChild(style);
 }
 function ensureTools() {
@@ -109,7 +124,7 @@ function ensureTools() {
   button.classList.add("ec-desktop-language");
   button.setAttribute("role","group");button.setAttribute("aria-label","Cambiar idioma");
   button.replaceChildren();
-  for(const code of ["ES","PT","EN"]){const choice=document.createElement("button");choice.type="button";choice.className="ec-desktop-language-choice";choice.dataset.desktopLanguage=code;choice.textContent=code;choice.setAttribute("aria-label",code==="ES"?"Español":code==="PT"?"Português":"English");choice.addEventListener("click",()=>apply(code));button.appendChild(choice);}
+  for(const code of ["ES","PT","EN"]){const choice=document.createElement("button");choice.type="button";choice.className="ec-desktop-language-choice";choice.dataset.desktopLanguage=code;choice.textContent=code==="PT"?"PT-BR":code;choice.setAttribute("aria-label",code==="ES"?"Español":code==="PT"?"Português (Brasil)":"English");choice.addEventListener("click",()=>apply(code));button.appendChild(choice);}
   return button;
 }
 async function copyCurrentLink(message) {
@@ -120,7 +135,7 @@ async function copyCurrentLink(message) {
     try{copied=document.execCommand("copy");}catch(_){}field.remove();
   }
   const status=document.querySelector(".ec-share-status");
-  if(status){status.textContent=copied?message:"No se pudo copiar el enlace.";status.hidden=false;clearTimeout(status._hideTimer);status._hideTimer=setTimeout(()=>{status.hidden=true;},4200);}
+  if(status){status.textContent=translatePhrase(copied?message:"No se pudo copiar el enlace.");status.hidden=false;clearTimeout(status._hideTimer);status._hideTimer=setTimeout(()=>{status.hidden=true;},4200);}
 }
 async function sharePage(target) {
   const url=location.href,title=document.title;
@@ -144,7 +159,7 @@ function ensureGlobalActions() {
     panel.appendChild(button);
   }
   const status=document.createElement("div");status.className="ec-share-status";status.setAttribute("role","status");status.setAttribute("aria-live","polite");status.hidden=true;panel.appendChild(status);
-  const back=document.createElement("a");back.className="ec-float-btn ec-return-link";back.href="https://www.ernestinhocarioca.com.br/";back.target="_blank";back.rel="noopener noreferrer";back.setAttribute("aria-label","Volver al sitio anterior");back.innerHTML="<span aria-hidden='true'>↶</span><span>Sitio anterior</span>";
+  const back=document.createElement("a");back.className="ec-float-btn ec-return-link";back.href="/";back.setAttribute("aria-label","Volver a la página anterior");back.innerHTML="<span aria-hidden='true'>↶</span><span>Volver</span>";back.addEventListener("click",event=>{const referrer=document.referrer;try{if(referrer&&new URL(referrer).origin===location.origin&&history.length>1){event.preventDefault();history.back();}}catch(_){}});
   const share=document.createElement("button");share.type="button";share.className="ec-float-btn ec-share-toggle";share.textContent="Compartir";share.setAttribute("aria-expanded","false");share.setAttribute("aria-controls","ec-share-panel");share.setAttribute("aria-label","Compartir esta página");
   share.addEventListener("click",()=>{panel.hidden=!panel.hidden;share.setAttribute("aria-expanded",String(!panel.hidden));});
   root.append(panel,back,share);document.body.appendChild(root);
@@ -174,8 +189,10 @@ function apply(lang) {
   applyTranslations(document, selected);
   document.querySelectorAll("[data-desktop-language]").forEach(button => { button.classList.toggle("is-active",button.dataset.desktopLanguage===selected); button.setAttribute("aria-pressed",String(button.dataset.desktopLanguage===selected)); });
   document.querySelectorAll("[data-ec-language]").forEach(button => { const active=button.dataset.ecLanguage===selected; button.classList.toggle("is-active",active); button.setAttribute("aria-pressed",String(active)); });
+  document.documentElement.lang = selected === "PT" ? "pt-BR" : selected.toLowerCase();
 }
-function ensureGuideAdn(){const p=location.pathname;if(!p.startsWith('/guia/'))return;if(document.querySelector('link[data-guide-adn]'))return;const l=document.createElement('link');l.rel='stylesheet';l.href=new URL('../css/guia-adn.css',import.meta.url).href;l.dataset.guideAdn='';document.head.appendChild(l);}\n
+function ensureGuideAdn(){const p=location.pathname;if(!p.startsWith('/guia/'))return;if(document.querySelector('link[data-guide-adn]'))return;const l=document.createElement('link');l.rel='stylesheet';l.href=new URL('../css/guia-adn.css',import.meta.url).href;l.dataset.guideAdn='';document.head.appendChild(l);}
+
 function ensureCorporateClosing(){
   if(document.querySelector(".ec-corporate-closing"))return;
   const oldFooter=document.querySelector("body > footer, main + footer");
@@ -190,7 +207,10 @@ function ensureCorporateClosing(){
     </footer>`;
   if(oldFooter)oldFooter.replaceWith(root);else document.body.appendChild(root);
 }
-\nasync function init() {\n  ensureGuideAdn();\n  ensureCorporateClosing();
+
+async function init() {
+  ensureGuideAdn();
+  ensureCorporateClosing();
   ensureGlobalStyles();
   ensureTopbarNav();
   ensureSocialLinks();
@@ -219,7 +239,7 @@ function ensureCorporateClosing(){
     const selected = String(event.detail?.lang || getLanguage()).slice(0, 2).toUpperCase();
     const candidates = [...document.querySelectorAll("button, [role='button'], a[role='button']")];
     const button = candidates.find(el => {
-      if (el.matches("[data-ec-language], #lang, [data-lang-toggle], [data-ns-lang], [data-tj-lang]")) return false;
+      if (el.matches("[data-ec-language], [data-desktop-language], #lang, [data-lang-toggle], [data-ns-lang], [data-tj-lang]")) return false;
       const onclick = el.getAttribute("onclick") || "";
       const value = String(el.dataset.lang || el.dataset.language || el.dataset.locale || el.value || el.textContent || "").trim().toUpperCase();
       const code = onclick.match(/(?:setLang|renderLang|lang)\s*\(\s*['"]?(ES|PT|EN)/i)?.[1]?.toUpperCase();
@@ -231,7 +251,9 @@ function ensureCorporateClosing(){
       queueMicrotask(() => { syncingEmbeddedLanguage = false; });
     }
   });
+  apply(getLanguage());
 }
 document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init, { once: true }) : init();
-// EC preview trigger: 2026-09-29 guide-and-corporate-closing\n// Force GitHub→Vercel preview: 2026-09-29T01:15 Rio
-export { apply };
+// EC preview trigger: 2026-09-29 guide-and-corporate-closing
+// Force GitHub→Vercel preview: 2026-09-29T01:15 Rio
+export { apply, translatePhrase };
