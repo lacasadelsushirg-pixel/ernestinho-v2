@@ -151,4 +151,12 @@ export default {
   "Amanecer activo":{"PT":"Nascer do sol ativo","EN":"Active sunrise"},
   "Primeras luces":{"PT":"Primeiras luzes","EN":"First light"},
   "Atardecer completo":{"PT":"Pôr do sol completo","EN":"Full sunset"}
+,
+  "Onde fica…? — ¿Dónde queda…?":{"PT":"Onde fica…? — Onde fica…?","EN":"Onde fica…? — Where is…?"},
+  "3 días: incorpora Centro histórico y región portuaria.":{"PT":"3 dias: inclua o Centro Histórico e a região portuária.","EN":"3 days: include the historic Downtown area and the Port Zone."},
+  "4–5 días: reserva una jornada para naturaleza, Niterói o Petrópolis.":{"PT":"4–5 dias: reserve um dia para natureza, Niterói ou Petrópolis.","EN":"4–5 days: reserve a day for nature, Niterói or Petrópolis."},
+  "Entradas descargadas y dirección guardada sin conexión.":{"PT":"Ingressos baixados e endereço salvo para acesso offline.","EN":"Tickets downloaded and the address saved offline."},
+  "Clima, alertas, horario real y última admisión del lugar.":{"PT":"Clima, alertas, horário real e último horário de entrada do local.","EN":"Weather, alerts, actual opening hours and the venue’s last admission time."},
+  "Pregunta precio, servicio, bebidas y promociones antes de comenzar.":{"PT":"Pergunte o preço, o serviço, as bebidas e as promoções antes de começar.","EN":"Ask about the price, service, drinks and promotions before you begin."},
+  "Puedes pedir punto de cocción y rechazar cualquier corte sin problema.":{"PT":"Você pode pedir o ponto da carne e recusar qualquer corte sem problema.","EN":"You can request your preferred doneness and decline any cut without a problem."}
 };
