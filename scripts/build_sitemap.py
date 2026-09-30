@@ -5,10 +5,10 @@ from urllib.parse import urlsplit
 from xml.etree.ElementTree import Element, SubElement, ElementTree, register_namespace
 import os
 
-origin = os.environ.get("SITE_ORIGIN", "").strip().rstrip("/")
+origin = os.environ.get("SITE_ORIGIN", "https://www.ernestinhocarioca.com.br").strip().rstrip("/")
 parsed = urlsplit(origin)
 if parsed.scheme != "https" or not parsed.netloc or parsed.path:
-    raise SystemExit("Set SITE_ORIGIN to the final HTTPS site origin, for example https://preview.example.com")
+    raise SystemExit("SITE_ORIGIN must be a valid HTTPS origin")
 register_namespace("", "http://www.sitemaps.org/schemas/sitemap/0.9")
 root = Path(__file__).resolve().parents[1]
 urlset = Element("{http://www.sitemaps.org/schemas/sitemap/0.9}urlset")
