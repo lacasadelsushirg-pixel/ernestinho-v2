@@ -31,3 +31,9 @@ También se conserva familia-03.js presente en el espacio de trabajo: parte de l
 Bloque 4: Playas (descripciones y consejos completos), Naturaleza (incluidas listas serializadas y alt/mapas) y cinco fichas Familia: AquaRio, BioParque, Jardim Botânico, Planetário y Yup Star. Sin cambios de HTML, imágenes, banners, widgets ni enlaces. Añadidos familia-03.js, naturaleza-02.js y playas-02.js y registros en site.js. Continuación automática adicional confirmada para 2026-09-30 07:39 America/Sao_Paulo (cinco horas desde la solicitud).
 
 Bloque 5: navegación, encabezados, etiquetas prácticas, avisos y leyendas de imágenes/mapas del módulo Cultura (130 rutas). NO están traducidas aún todas las narrativas de las instituciones. Diccionario separado y cargado solo en Cultura.
+
+Bloque 5: corregidos D.pt/D.en con datos prácticos todavía en español en 12 restaurantes. Samba Social y Clássico Leme tenían traducciones ES/EN corruptas por sustitución de palabras: rehechas íntegramente desde los 19 párrafos portugueses originales por ficha. PT conserva el contenido y traduce los encabezados. HTML original fuera de scripts, fotos, enlaces, widgets y recursos preservados exactamente en las 14 páginas.
+
+Verificación reproducible: node scripts/check_embedded_gastronomy.mjs ejecuta los renderizadores reales de 170 fichas con DOM mínimo, hace PT→EN→ES→EN→PT→ES y comprueba restauración sin errores. NO es navegador real. Sintaxis inline de las 14 páginas modificadas pasa.
+
+PUBLICACIÓN BLOQUEADA: auto-review rechazó git push del commit local 4fcc8da por interpretar que el usuario autorizó commits pero no publicación remota. No eludir por conector ni otro método. Pedir autorización expresa para publicar al terminar el trabajo local. La rama remota vista fue 927bc1f; comprobar HEAD remoto/concurrencia antes de publicar cuando se autorice.
