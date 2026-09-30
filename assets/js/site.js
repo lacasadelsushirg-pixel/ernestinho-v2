@@ -23,7 +23,7 @@ const sectionChunks = {
 };
 async function loadSectionTranslations() {
   const section = location.pathname.split("/").filter(Boolean)[0] || "home";
-  const chunks = sectionChunks[section] || [];
+  const chunks = ["common-02.js", ...(sectionChunks[section] || [])];
   const loaded = await Promise.allSettled(chunks.map(file => import(`./translations/chunks/${file}`)));
   for (const result of loaded) if (result.status === "fulfilled") Object.assign(common, result.value.default);
 }
@@ -33,7 +33,7 @@ function translateText(root, lang) {
   let node;
   while ((node = walker.nextNode())) {
     const parent = node.parentElement;
-    if (!parent || ["SCRIPT", "STYLE", "NOSCRIPT"].includes(parent.tagName)) continue;
+    if (!parent || ["SCRIPT", "STYLE", "NOSCRIPT"].includes(parent.tagName) || parent.closest("[data-i18n], [data-live]")) continue;
     if (!original.has(node)) original.set(node, node.nodeValue);
     const base = original.get(node), trimmed = base.trim(), hit = common[trimmed];
     node.nodeValue = hit && lang !== "ES" ? base.replace(trimmed, hit[lang] || trimmed) : base;
@@ -223,7 +223,7 @@ async function init() {
     const selected = String(event.detail?.lang || getLanguage()).slice(0, 2).toUpperCase();
     const candidates = [...document.querySelectorAll("button, [role='button'], a[role='button']")];
     const button = candidates.find(el => {
-      if (el.matches("[data-ec-language], #lang, [data-lang-toggle], [data-ns-lang], [data-tj-lang]")) return false;
+      if (el.matches("[data-ec-language], [data-desktop-language], #lang, [data-lang-toggle], [data-ns-lang], [data-tj-lang]")) return false;
       const onclick = el.getAttribute("onclick") || "";
       const value = String(el.dataset.lang || el.dataset.language || el.dataset.locale || el.value || el.textContent || "").trim().toUpperCase();
       const code = onclick.match(/(?:setLang|renderLang|lang)\s*\(\s*['"]?(ES|PT|EN)/i)?.[1]?.toUpperCase();
@@ -235,6 +235,7 @@ async function init() {
       queueMicrotask(() => { syncingEmbeddedLanguage = false; });
     }
   });
+  apply(getLanguage());
 }
 document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init, { once: true }) : init();
 // EC preview trigger: 2026-09-29 guide-and-corporate-closing
