@@ -558,5 +558,625 @@ export default {
   "Teatros y espacios escénicos: guía de Ernestinho Carioca con fotos, contexto e información práctica.": {
     "PT": "Teatros e espaços cênicos: guia do Ernestinho Carioca com fotos, contexto e informações práticas.",
     "EN": "Theatres and performing arts venues: Ernestinho Carioca’s guide with photos, context and practical information."
+  },
+  "Fortaleza histórica y patrimonio militar": {
+    "PT": "Fortaleza histórica e patrimônio militar",
+    "EN": "Historic fortress and military heritage"
+  },
+  "Una fortificación escondida sobre el Morro da Conceição": {
+    "PT": "Uma fortificação escondida no Morro da Conceição",
+    "EN": "A fortification hidden on Morro da Conceição"
+  },
+  "Río de Janeiro": {
+    "PT": "Rio de Janeiro",
+    "EN": "Rio de Janeiro"
+  },
+  "La Fortaleza da Conceição se encuentra dentro de una de las zonas históricas más interesantes del Centro y actualmente alberga dependencias militares.": {
+    "PT": "A Fortaleza da Conceição fica em uma das áreas históricas mais interessantes do Centro e hoje abriga dependências militares.",
+    "EN": "Fortaleza da Conceição is in one of Centro’s most interesting historic areas and now houses military facilities."
+  },
+  "Cuando existen visitas autorizadas, el público puede conocer sectores históricos, arquitectura militar y contenidos relacionados con cartografía y geografía.": {
+    "PT": "Quando há visitas autorizadas, o público pode conhecer setores históricos, arquitetura militar e conteúdos relacionados à cartografia e à geografia.",
+    "EN": "When authorised visits are available, visitors can discover historic sections, military architecture and material related to cartography and geography."
+  },
+  "Fue construida durante el período colonial en una posición estratégica sobre la región portuaria. A lo largo del tiempo tuvo funciones defensivas, militares y cartográficas.": {
+    "PT": "Foi construída no período colonial em posição estratégica sobre a região portuária. Ao longo do tempo, teve funções defensivas, militares e cartográficas.",
+    "EN": "It was built during the colonial period in a strategic position above the port area. Over time it served defensive, military and cartographic functions."
+  },
+  "Su posición sobre el Morro da Conceição y su relación con la historia cartográfica de Brasil.": {
+    "PT": "Sua posição no Morro da Conceição e a relação com a história cartográfica do Brasil.",
+    "EN": "Its position on Morro da Conceição and relationship with Brazil’s cartographic history."
+  },
+  "Acceso restringido y sujeto a visitas previamente organizadas.": {
+    "PT": "Acesso restrito e sujeito a visitas previamente organizadas.",
+    "EN": "Restricted access, subject to visits organised in advance."
+  },
+  "Generalmente gratuito cuando existen visitas culturales autorizadas.": {
+    "PT": "Geralmente gratuito quando há visitas culturais autorizadas.",
+    "EN": "Usually free when authorised cultural visits are available."
+  },
+  "Agendamiento y autorización militar obligatorios.": {
+    "PT": "Agendamento e autorização militar obrigatórios.",
+    "EN": "Booking and military authorisation required."
+  },
+  "El Morro da Conceição posee pendientes y calles irregulares. Consulta las condiciones internas.": {
+    "PT": "O Morro da Conceição tem ladeiras e ruas irregulares. Consulte as condições internas.",
+    "EN": "Morro da Conceição has slopes and uneven streets. Check conditions inside."
+  },
+  "Utiliza el VLT hasta la Zona Portuaria y continúa caminando o en transporte por aplicación.": {
+    "PT": "Use o VLT até a Zona Portuária e continue a pé ou de transporte por aplicativo.",
+    "EN": "Take the VLT to the Port Zone and continue on foot or by ride-hailing service."
+  },
+  "Documento oficial obligatorio y posible envío previo de datos.": {
+    "PT": "Documento oficial obrigatório e possível envio prévio de dados.",
+    "EN": "Official ID required; visitor details may need to be submitted beforehand."
+  },
+  "No intentes entrar sin reserva. Si no hay visita disponible, puedes conocer el entorno histórico del Morro da Conceição respetando las áreas militares.": {
+    "PT": "Não tente entrar sem reserva. Se não houver visita disponível, conheça o entorno histórico do Morro da Conceição respeitando as áreas militares.",
+    "EN": "Do not try to enter without booking. If no visit is available, explore Morro da Conceição’s historic surroundings while respecting military areas."
+  },
+  "Sitio histórico y origen de la ciudad": {
+    "PT": "Sítio histórico e origem da cidade",
+    "EN": "Historic site and the city’s origins"
+  },
+  "Una fortaleza fundamental para el nacimiento de Río de Janeiro": {
+    "PT": "Uma fortaleza fundamental para o nascimento do Rio de Janeiro",
+    "EN": "A fortress central to the birth of Rio de Janeiro"
+  },
+  "La Fortaleza de São João ocupa una posición estratégica entre Urca y el Pão de Açúcar y guarda capítulos esenciales de la fundación y defensa de Río.": {
+    "PT": "A Fortaleza de São João ocupa posição estratégica entre a Urca e o Pão de Açúcar e guarda capítulos essenciais da fundação e defesa do Rio.",
+    "EN": "Fortaleza de São João occupies a strategic position between Urca and Sugarloaf Mountain and preserves essential chapters in Rio’s foundation and defence."
+  },
+  "Las visitas autorizadas pueden incluir fortificaciones, espacios históricos, áreas militares y vistas poco conocidas de la entrada de la bahía.": {
+    "PT": "Visitas autorizadas podem incluir fortificações, espaços históricos, áreas militares e vistas pouco conhecidas da entrada da baía.",
+    "EN": "Authorised visits may include fortifications, historic spaces, military areas and little-known views of the bay’s entrance."
+  },
+  "La región fue ocupada por los portugueses durante los conflictos contra los franceses en el siglo XVI. Está directamente vinculada con la fundación de São Sebastião do Rio de Janeiro en 1565.": {
+    "PT": "A região foi ocupada pelos portugueses durante os conflitos com os franceses no século XVI. Está diretamente ligada à fundação de São Sebastião do Rio de Janeiro em 1565.",
+    "EN": "The Portuguese occupied the area during conflicts with the French in the 16th century. It is directly linked to the foundation of São Sebastião do Rio de Janeiro in 1565."
+  },
+  "Conocer el lugar relacionado con los primeros años de la ciudad y observar el Pão de Açúcar desde una perspectiva diferente.": {
+    "PT": "Conhecer o lugar ligado aos primeiros anos da cidade e observar o Pão de Açúcar de outra perspectiva.",
+    "EN": "Discovering the place connected to the city’s early years and viewing Sugarloaf Mountain from a different perspective."
+  },
+  "No funciona como atracción de entrada libre diaria. Las visitas dependen de autorización, agenda y actividades militares.": {
+    "PT": "Não funciona como atração de entrada livre diária. As visitas dependem de autorização, agenda e atividades militares.",
+    "EN": "It is not an attraction with unrestricted daily admission. Visits depend on authorisation, scheduling and military activities."
+  },
+  "Las visitas institucionales o culturales suelen ser gratuitas, sujetas a confirmación.": {
+    "PT": "Visitas institucionais ou culturais costumam ser gratuitas, sujeitas à confirmação.",
+    "EN": "Institutional or cultural visits are usually free, subject to confirmation."
+  },
+  "Agendamiento previo obligatorio. No te presentes esperando entrar sin autorización.": {
+    "PT": "Agendamento prévio obrigatório. Não apareça esperando entrar sem autorização.",
+    "EN": "Advance booking required. Do not turn up expecting entry without authorisation."
+  },
+  "Consulta las condiciones durante el agendamiento, ya que existen sectores históricos y áreas militares.": {
+    "PT": "Consulte as condições ao agendar, pois há setores históricos e áreas militares.",
+    "EN": "Check conditions when booking, as there are historic sections and military areas."
+  },
+  "Está en Urca. Utiliza autobús o transporte por aplicación.": {
+    "PT": "Fica na Urca. Use ônibus ou transporte por aplicativo.",
+    "EN": "It is in Urca. Use a bus or ride-hailing service."
+  },
+  "Documento oficial con fotografía obligatorio. Pueden solicitarse previamente los datos de todos los visitantes.": {
+    "PT": "Documento oficial com foto obrigatório. Podem solicitar antes os dados de todos os visitantes.",
+    "EN": "Official photo ID required. Details of all visitors may be requested in advance."
+  },
+  "Es una visita histórica extraordinaria, pero solo debes incluirla cuando tengas confirmación oficial. No fotografíes instalaciones militares sin autorización.": {
+    "PT": "É uma visita histórica extraordinária, mas inclua apenas com confirmação oficial. Não fotografe instalações militares sem autorização.",
+    "EN": "It is an extraordinary historic visit, but include it only with official confirmation. Do not photograph military installations without authorisation."
+  },
+  "Complejo militar y acceso a fortificaciones": {
+    "PT": "Complexo militar e acesso às fortificações",
+    "EN": "Military complex and access to fortifications"
+  },
+  "La puerta de entrada a algunos de los fuertes históricos de Niterói": {
+    "PT": "A porta de entrada para alguns fortes históricos de Niterói",
+    "EN": "The gateway to some of Niterói’s historic forts"
+  },
+  "Entre 1 y 3 horas, dependiendo del recorrido autorizado.": {
+    "PT": "Entre 1 e 3 horas, conforme o percurso autorizado.",
+    "EN": "Between 1 and 3 hours, depending on the authorised route."
+  },
+  "El Forte Barão do Rio Branco forma parte del conjunto de fortificaciones de Jurujuba y continúa funcionando dentro de una zona militar.": {
+    "PT": "O Forte Barão do Rio Branco integra o conjunto de fortificações de Jurujuba e continua funcionando em uma área militar.",
+    "EN": "Forte Barão do Rio Branco forms part of Jurujuba’s fortifications and continues to operate within a military area."
+  },
+  "Algunas visitas organizadas al complejo comienzan en esta unidad y continúan hacia las fortificaciones ubicadas en las áreas elevadas.": {
+    "PT": "Algumas visitas organizadas ao complexo começam nesta unidade e seguem para as fortificações nas áreas elevadas.",
+    "EN": "Some organised visits to the complex begin at this unit and continue to fortifications on higher ground."
+  },
+  "La posición integra el sistema defensivo creado para proteger la entrada de la Bahía de Guanabara y dar apoyo a otras fortificaciones de la región.": {
+    "PT": "A posição integra o sistema defensivo criado para proteger a entrada da Baía de Guanabara e apoiar outras fortificações da região.",
+    "EN": "The position forms part of the defensive system created to protect Guanabara Bay’s entrance and support other fortifications in the area."
+  },
+  "Su papel como parte del gran sistema defensivo de la entrada de la bahía.": {
+    "PT": "Seu papel no grande sistema defensivo da entrada da baía.",
+    "EN": "Its role in the bay entrance’s great defensive system."
+  },
+  "No posee visita turística libre y regular. El acceso depende de agenda militar.": {
+    "PT": "Não tem visita turística livre e regular. O acesso depende da agenda militar.",
+    "EN": "There are no regular unrestricted tourist visits. Access depends on the military schedule."
+  },
+  "Consulta las condiciones de la visita organizada.": {
+    "PT": "Consulte as condições da visita organizada.",
+    "EN": "Check the conditions of the organised visit."
+  },
+  "Autorización y agendamiento obligatorios.": {
+    "PT": "Autorização e agendamento obrigatórios.",
+    "EN": "Authorisation and booking required."
+  },
+  "Las visitas pueden incluir pendientes, escaleras y transporte militar.": {
+    "PT": "As visitas podem incluir ladeiras, escadas e transporte militar.",
+    "EN": "Visits may include slopes, stairs and military transport."
+  },
+  "Utiliza automóvil, transporte por aplicación o autobús hacia Jurujuba.": {
+    "PT": "Use carro, transporte por aplicativo ou ônibus até Jurujuba.",
+    "EN": "Use a car, ride-hailing service or bus to Jurujuba."
+  },
+  "No confundas este fuerte con Santa Cruz. Antes de ir, confirma exactamente cuál fortificación incluye el recorrido y dónde se realiza el ingreso.": {
+    "PT": "Não confunda este forte com Santa Cruz. Antes de ir, confirme exatamente qual fortificação o percurso inclui e onde é a entrada.",
+    "EN": "Do not confuse this fort with Santa Cruz. Before going, confirm exactly which fortification the tour includes and where entry takes place."
+  },
+  "Museo militar, fortificación y mirador": {
+    "PT": "Museu militar, fortificação e mirante",
+    "EN": "Military museum, fortification and viewpoint"
+  },
+  "Historia militar con una de las vistas más famosas de Copacabana": {
+    "PT": "História militar com uma das vistas mais famosas de Copacabana",
+    "EN": "Military history with one of Copacabana’s most famous views"
+  },
+  "El Forte de Copacabana reúne fortificación, museo, enormes cañones, exposiciones históricas, cafeterías y una vista privilegiada de toda la playa.": {
+    "PT": "O Forte de Copacabana reúne fortificação, museu, enormes canhões, exposições históricas, cafés e vista privilegiada de toda a praia.",
+    "EN": "Forte de Copacabana brings together a fortification, museum, enormous cannons, historic exhibitions, cafés and a privileged view of the entire beach."
+  },
+  "Puedes caminar por el área exterior, visitar el Museu Histórico do Exército, entrar en sectores de la antigua fortificación y observar las cúpulas de los cañones.": {
+    "PT": "Você pode caminhar pela área externa, visitar o Museu Histórico do Exército, entrar em setores da antiga fortificação e observar as cúpulas dos canhões.",
+    "EN": "You can walk through the outdoor area, visit Museu Histórico do Exército, enter sections of the former fortification and see the gun turrets."
+  },
+  "Fue inaugurado en 1914 para reforzar la defensa de la entrada de la Bahía de Guanabara. También fue escenario de la Revolta dos 18 do Forte, en 1922.": {
+    "PT": "Foi inaugurado em 1914 para reforçar a defesa da entrada da Baía de Guanabara. Também foi cenário da Revolta dos 18 do Forte, em 1922.",
+    "EN": "It opened in 1914 to reinforce the defence of Guanabara Bay’s entrance. It was also the setting of the Revolta dos 18 do Forte in 1922."
+  },
+  "La vista de Copacabana, los enormes cañones y el museo dentro de la fortificación.": {
+    "PT": "A vista de Copacabana, os enormes canhões e o museu na fortificação.",
+    "EN": "The Copacabana view, enormous cannons and museum inside the fortification."
+  },
+  "Generalmente de martes a domingo y feriados. Los horarios pueden variar y algunas salas pueden cerrar antes que el área exterior.": {
+    "PT": "Geralmente de terça a domingo e feriados. Os horários podem variar, e algumas salas podem fechar antes da área externa.",
+    "EN": "Usually Tuesday to Sunday and holidays. Hours may vary, and some rooms may close before the outdoor area."
+  },
+  "Entrada pagada, con valores de completa, media y posibles gratuidades. Confirma el precio actualizado antes de ir.": {
+    "PT": "Entrada paga, com inteira, meia-entrada e possíveis gratuidades. Confirme o preço atualizado antes de ir.",
+    "EN": "Paid admission, with full-price, reduced-price and possible free tickets. Confirm current prices before going."
+  },
+  "La visita individual normalmente no requiere reserva. Grupos deben consultar previamente.": {
+    "PT": "A visita individual normalmente não exige reserva. Grupos devem consultar antes.",
+    "EN": "Individual visits usually do not require booking. Groups should enquire beforehand."
+  },
+  "El área exterior posee buena circulación, pero algunos sectores históricos tienen escaleras y pasillos estrechos.": {
+    "PT": "A área externa tem boa circulação, mas alguns setores históricos têm escadas e corredores estreitos.",
+    "EN": "The outdoor area allows easy movement, but some historic sections have stairs and narrow passages."
+  },
+  "Está en el extremo de Copacabana, cerca de la estación General Osório y de varias líneas de autobús.": {
+    "PT": "Fica na ponta de Copacabana, perto da estação General Osório e de várias linhas de ônibus.",
+    "EN": "It is at the end of Copacabana, near General Osório station and several bus routes."
+  },
+  "Lleva un documento de identificación con fotografía.": {
+    "PT": "Leve documento de identificação com foto.",
+    "EN": "Bring photo ID."
+  },
+  "No vengas solamente para tomar café. Entra a la fortificación, conoce los cañones y lee sobre los 18 do Forte. Para fotografías de la playa, la luz de la mañana suele ser excelente.": {
+    "PT": "Não venha só para tomar café. Entre na fortificação, conheça os canhões e leia sobre os 18 do Forte. Para fotos da praia, a luz da manhã costuma ser ótima.",
+    "EN": "Do not come just for coffee. Enter the fortification, discover the cannons and read about the 18 do Forte. Morning light is usually excellent for beach photos."
+  },
+  "Fortificación, sendero y naturaleza": {
+    "PT": "Fortificação, trilha e natureza",
+    "EN": "Fortification, trail and nature"
+  },
+  "Historia militar y una vista espectacular desde el Morro do Leme": {
+    "PT": "História militar e vista espetacular do Morro do Leme",
+    "EN": "Military history and a spectacular view from Morro do Leme"
+  },
+  "El Forte Duque de Caxias combina una caminata por un área de protección ambiental con historia militar y vistas panorámicas de Copacabana, Pão de Açúcar y la Bahía de Guanabara.": {
+    "PT": "O Forte Duque de Caxias combina caminhada em área de proteção ambiental com história militar e vistas panorâmicas de Copacabana, Pão de Açúcar e Baía de Guanabara.",
+    "EN": "Forte Duque de Caxias combines a walk through an environmental protection area with military history and panoramic views of Copacabana, Sugarloaf Mountain and Guanabara Bay."
+  },
+  "La visita comienza con una subida pavimentada por el Morro do Leme. En la parte superior se encuentran instalaciones históricas, exposiciones y miradores.": {
+    "PT": "A visita começa com uma subida pavimentada pelo Morro do Leme. No alto, ficam instalações históricas, exposições e mirantes.",
+    "EN": "The visit begins with a paved climb up Morro do Leme. At the top are historic facilities, exhibitions and viewpoints."
+  },
+  "La posición militar del Morro do Leme fue desarrollada para proteger la entrada de la bahía. El fuerte recibió posteriormente el nombre del Duque de Caxias.": {
+    "PT": "A posição militar do Morro do Leme foi desenvolvida para proteger a entrada da baía. O forte recebeu depois o nome do Duque de Caxias.",
+    "EN": "The military position on Morro do Leme was developed to protect the bay’s entrance. The fort was later named after Duque de Caxias."
+  },
+  "La vista panorámica y la caminata dentro de un área verde protegida.": {
+    "PT": "A vista panorâmica e a caminhada em área verde protegida.",
+    "EN": "The panoramic view and walk through a protected green area."
+  },
+  "Visitas generalmente de martes a domingo, aproximadamente de 09:30 a 16:00. Confirma antes de ir.": {
+    "PT": "Visitas geralmente de terça a domingo, aproximadamente das 9h30 às 16h. Confirme antes de ir.",
+    "EN": "Visits usually Tuesday to Sunday, approximately 9:30 am–4 pm. Confirm before going."
+  },
+  "Entrada de bajo costo, con posibles medias entradas y gratuidades.": {
+    "PT": "Entrada de baixo custo, com possíveis meias-entradas e gratuidades.",
+    "EN": "Low-cost admission, with possible reduced-price and free tickets."
+  },
+  "Normalmente no requiere reserva para visitas individuales.": {
+    "PT": "Normalmente não exige reserva para visitas individuais.",
+    "EN": "Individual visits usually do not require booking."
+  },
+  "La subida es larga y empinada. Puede resultar difícil para personas con movilidad reducida.": {
+    "PT": "A subida é longa e íngreme. Pode ser difícil para pessoas com mobilidade reduzida.",
+    "EN": "The climb is long and steep. It may be difficult for people with reduced mobility."
+  },
+  "El acceso se encuentra al final de Leme, cerca de la playa y del Caminho dos Pescadores.": {
+    "PT": "O acesso fica no fim do Leme, perto da praia e do Caminho dos Pescadores.",
+    "EN": "Access is at the end of Leme, near the beach and Caminho dos Pescadores."
+  },
+  "Lleva documento de identificación.": {
+    "PT": "Leve documento de identificação.",
+    "EN": "Bring ID."
+  },
+  "Usa calzado cómodo, lleva agua y evita subir durante el calor más fuerte. La pendiente exige esfuerzo, pero la vista desde arriba vale muchísimo la pena.": {
+    "PT": "Use calçado confortável, leve água e evite subir no calor mais forte. A ladeira exige esforço, mas a vista do alto vale muito a pena.",
+    "EN": "Wear comfortable shoes, bring water and avoid climbing in the strongest heat. The slope takes effort, but the view from the top is very worthwhile."
+  },
+  "Patrimonio militar histórico": {
+    "PT": "Patrimônio militar histórico",
+    "EN": "Historic military heritage"
+  },
+  "Una fortificación histórica próxima al Centro de Niterói": {
+    "PT": "Uma fortificação histórica perto do Centro de Niterói",
+    "EN": "A historic fortification near central Niterói"
+  },
+  "Entre 15 y 30 minutos desde el exterior.": {
+    "PT": "Entre 15 e 30 minutos pelo exterior.",
+    "EN": "Between 15 and 30 minutes from the outside."
+  },
+  "El Forte do Gragoatá ocupa una posición costera próxima al campus de la UFF y conserva parte de la memoria defensiva de Niterói.": {
+    "PT": "O Forte do Gragoatá ocupa posição costeira perto do campus da UFF e conserva parte da memória defensiva de Niterói.",
+    "EN": "Forte do Gragoatá occupies a coastal position near the UFF campus and preserves part of Niterói’s defensive memory."
+  },
+  "El lugar puede ser observado exteriormente, pero el acceso interno depende de autorización y actividades de la unidad militar.": {
+    "PT": "O local pode ser observado por fora, mas o acesso interno depende de autorização e das atividades da unidade militar.",
+    "EN": "The site can be viewed from outside, but internal access depends on authorisation and the military unit’s activities."
+  },
+  "La región fue utilizada para proteger el litoral interior de la Bahía de Guanabara y tuvo diferentes funciones militares.": {
+    "PT": "A região foi usada para proteger o litoral interno da Baía de Guanabara e teve diferentes funções militares.",
+    "EN": "The area was used to protect Guanabara Bay’s inner coastline and had various military functions."
+  },
+  "Su ubicación costera y cercanía al Centro de Niterói.": {
+    "PT": "Sua localização costeira e proximidade do Centro de Niterói.",
+    "EN": "Its coastal location and proximity to central Niterói."
+  },
+  "Sin visita turística interna regular.": {
+    "PT": "Sem visita turística interna regular.",
+    "EN": "No regular internal tourist visits."
+  },
+  "No aplicable para observación exterior; visitas especiales deben confirmarse.": {
+    "PT": "Não se aplica à observação externa; visitas especiais devem ser confirmadas.",
+    "EN": "Not applicable to external viewing; special visits must be confirmed."
+  },
+  "Autorización necesaria para cualquier ingreso interno.": {
+    "PT": "Autorização necessária para qualquer entrada.",
+    "EN": "Authorisation required for any entry."
+  },
+  "El entorno exterior es más sencillo que otros fuertes elevados.": {
+    "PT": "O entorno externo é mais simples que o de outros fortes elevados.",
+    "EN": "The outside surroundings are easier than at other elevated forts."
+  },
+  "Está cerca del campus de Gragoatá de la UFF y del Centro de Niterói.": {
+    "PT": "Fica perto do campus de Gragoatá da UFF e do Centro de Niterói.",
+    "EN": "It is near UFF’s Gragoatá campus and central Niterói."
+  },
+  "Documento obligatorio si existe una visita autorizada.": {
+    "PT": "Documento obrigatório caso haja visita autorizada.",
+    "EN": "ID required if an authorised visit is available."
+  },
+  "No lo presentes como una atracción de entrada garantizada. Su interés principal para el visitante común está en la historia y la observación exterior.": {
+    "PT": "Não apresente como atração de entrada garantida. Para o visitante comum, o principal interesse está na história e na observação externa.",
+    "EN": "Do not present it as an attraction with guaranteed entry. For ordinary visitors, its main interest lies in its history and external viewing."
+  },
+  "Fortificación costera": {
+    "PT": "Fortificação costeira",
+    "EN": "Coastal fortification"
+  },
+  "Una fortificación escondida entre el mar y las montañas de Niterói": {
+    "PT": "Uma fortificação escondida entre o mar e as montanhas de Niterói",
+    "EN": "A fortification hidden between the sea and Niterói’s mountains"
+  },
+  "El Forte do Imbuí ocupa una posición estratégica frente al océano y conserva estructuras militares y paisajes poco conocidos.": {
+    "PT": "O Forte do Imbuí ocupa posição estratégica diante do oceano e conserva estruturas militares e paisagens pouco conhecidas.",
+    "EN": "Forte do Imbuí occupies a strategic position facing the ocean and preserves military structures and little-known landscapes."
+  },
+  "Cuando existen visitas autorizadas, el público puede conocer sectores históricos y vistas del litoral.": {
+    "PT": "Quando há visitas autorizadas, o público pode conhecer setores históricos e vistas do litoral.",
+    "EN": "When authorised visits are available, visitors can discover historic sections and coastal views."
+  },
+  "Fue desarrollado para reforzar la defensa costera y complementar el conjunto de fortificaciones de la entrada de Guanabara.": {
+    "PT": "Foi desenvolvido para reforçar a defesa costeira e complementar as fortificações da entrada de Guanabara.",
+    "EN": "It was developed to reinforce coastal defence and complement the fortifications at Guanabara’s entrance."
+  },
+  "La ubicación aislada entre mar, roca y vegetación.": {
+    "PT": "A localização isolada entre mar, rocha e vegetação.",
+    "EN": "The isolated location between sea, rock and vegetation."
+  },
+  "No posee acceso turístico libre. Visitas solamente mediante autorización o eventos.": {
+    "PT": "Não tem acesso turístico livre. Visitas apenas com autorização ou em eventos.",
+    "EN": "No unrestricted tourist access. Visits only with authorisation or during events."
+  },
+  "Consulta las condiciones vigentes.": {
+    "PT": "Consulte as condições atuais.",
+    "EN": "Check current conditions."
+  },
+  "Autorización militar obligatoria.": {
+    "PT": "Autorização militar obrigatória.",
+    "EN": "Military authorisation required."
+  },
+  "Puede presentar escaleras, desniveles y sectores estrechos.": {
+    "PT": "Pode ter escadas, desníveis e setores estreitos.",
+    "EN": "There may be stairs, uneven levels and narrow sections."
+  },
+  "Se recomienda automóvil o transporte por aplicación, siguiendo únicamente la ruta autorizada.": {
+    "PT": "Recomenda-se carro ou transporte por aplicativo, seguindo apenas a rota autorizada.",
+    "EN": "A car or ride-hailing service is recommended, following only the authorised route."
+  },
+  "No viajes hasta allí sin confirmación escrita o información oficial de que la visita estará disponible. Es una instalación militar activa.": {
+    "PT": "Não vá sem confirmação escrita ou informação oficial de que a visita estará disponível. É uma instalação militar ativa.",
+    "EN": "Do not travel there without written confirmation or official information that visits will be available. It is an active military installation."
+  },
+  "Fortificación insular": {
+    "PT": "Fortificação insular",
+    "EN": "Island fortification"
+  },
+  "Una fortaleza construida sobre una roca en medio de la bahía": {
+    "PT": "Uma fortaleza construída sobre uma rocha no meio da baía",
+    "EN": "A fortress built on a rock in the middle of the bay"
+  },
+  "Bahía de Guanabara": {
+    "PT": "Baía de Guanabara",
+    "EN": "Guanabara Bay"
+  },
+  "Observación durante paseos marítimos o desde miradores.": {
+    "PT": "Observação em passeios marítimos ou de mirantes.",
+    "EN": "Viewing during boat trips or from viewpoints."
+  },
+  "El Forte da Laje parece flotar en la entrada de la Bahía de Guanabara, entre Urca y la Fortaleza de Santa Cruz.": {
+    "PT": "O Forte da Laje parece flutuar na entrada da Baía de Guanabara, entre a Urca e a Fortaleza de Santa Cruz.",
+    "EN": "Forte da Laje seems to float at Guanabara Bay’s entrance, between Urca and Fortaleza de Santa Cruz."
+  },
+  "No cuenta con visita turística regular. Puede observarse desde Urca, Pão de Açúcar, embarcaciones y Fortaleza de Santa Cruz.": {
+    "PT": "Não tem visita turística regular. Pode ser visto da Urca, do Pão de Açúcar, de embarcações e da Fortaleza de Santa Cruz.",
+    "EN": "There are no regular tourist visits. It can be seen from Urca, Sugarloaf Mountain, boats and Fortaleza de Santa Cruz."
+  },
+  "La roca fue utilizada desde el período colonial como parte del sistema defensivo que cruzaba fuego sobre la entrada de Guanabara.": {
+    "PT": "A rocha foi usada desde o período colonial no sistema defensivo que cruzava fogo sobre a entrada de Guanabara.",
+    "EN": "The rock was used from the colonial period as part of the defensive system laying crossfire over Guanabara’s entrance."
+  },
+  "Su posición extraordinaria sobre una pequeña roca en medio del canal.": {
+    "PT": "Sua posição extraordinária em uma pequena rocha no meio do canal.",
+    "EN": "Its extraordinary position on a small rock in the middle of the channel."
+  },
+  "Entrada de la Bahía de Guanabara.": {
+    "PT": "Entrada da Baía de Guanabara.",
+    "EN": "Entrance to Guanabara Bay."
+  },
+  "Sin visitación turística regular.": {
+    "PT": "Sem visitação turística regular.",
+    "EN": "No regular tourist visits."
+  },
+  "No aplicable.": {
+    "PT": "Não se aplica.",
+    "EN": "Not applicable."
+  },
+  "No se debe intentar acceder sin una actividad oficial autorizada.": {
+    "PT": "Não tente acessar sem uma atividade oficial autorizada.",
+    "EN": "Do not attempt access outside an authorised official activity."
+  },
+  "No posee acceso turístico convencional.": {
+    "PT": "Não tem acesso turístico convencional.",
+    "EN": "No conventional tourist access."
+  },
+  "Se observa desde diferentes puntos de Urca, Niterói o durante paseos en barco.": {
+    "PT": "Pode ser visto de diferentes pontos da Urca, de Niterói ou em passeios de barco.",
+    "EN": "It can be viewed from different points in Urca and Niterói or during boat trips."
+  },
+  "Aplican las reglas del evento oficial, si excepcionalmente existe alguno.": {
+    "PT": "Aplicam-se as regras do evento oficial, se houver algum excepcionalmente.",
+    "EN": "Official-event rules apply if one is exceptionally held."
+  },
+  "Inclúyelo como curiosidad histórica y punto de observación, no como lugar de visita garantizada. Un paseo marítimo ofrece una de las mejores perspectivas.": {
+    "PT": "Inclua como curiosidade histórica e ponto de observação, não como visita garantida. Um passeio marítimo oferece uma das melhores perspectivas.",
+    "EN": "Include it as a historical curiosity and viewing point, rather than a guaranteed visit. A boat trip offers one of the best perspectives."
+  },
+  "Fortificación y mirador panorámico": {
+    "PT": "Fortificação e mirante panorâmico",
+    "EN": "Fortification and panoramic viewpoint"
+  },
+  "Una de las vistas militares más espectaculares de Guanabara": {
+    "PT": "Uma das vistas militares mais espetaculares de Guanabara",
+    "EN": "One of Guanabara’s most spectacular military views"
+  },
+  "Entre 2 y 4 horas cuando se combina con Forte de São Luiz.": {
+    "PT": "Entre 2 e 4 horas quando combinado com o Forte de São Luiz.",
+    "EN": "Between 2 and 4 hours when combined with Forte de São Luiz."
+  },
+  "El Forte do Pico ocupa una posición todavía más elevada que São Luiz y ofrece una vista privilegiada de la bahía, Río, Niterói y el océano.": {
+    "PT": "O Forte do Pico ocupa posição ainda mais elevada que São Luiz e oferece vista privilegiada da baía, do Rio, de Niterói e do oceano.",
+    "EN": "Forte do Pico occupies a position even higher than São Luiz, offering a privileged view of the bay, Rio, Niterói and the ocean."
+  },
+  "Los recorridos autorizados suelen exigir una subida considerable y permiten observar ruinas, posiciones defensivas y un panorama excepcional.": {
+    "PT": "Os percursos autorizados costumam exigir subida considerável e permitem observar ruínas, posições defensivas e panorama excepcional.",
+    "EN": "Authorised routes usually require a considerable climb and allow you to see ruins, defensive positions and an exceptional panorama."
+  },
+  "Su ubicación fue utilizada como punto de observación y artillería dentro del sistema defensivo de Jurujuba.": {
+    "PT": "Sua localização foi usada como ponto de observação e artilharia no sistema defensivo de Jurujuba.",
+    "EN": "Its location was used as an observation and artillery point in Jurujuba’s defensive system."
+  },
+  "La vista panorámica desde una de las posiciones defensivas más elevadas de Niterói.": {
+    "PT": "A vista panorâmica de uma das posições defensivas mais altas de Niterói.",
+    "EN": "The panoramic view from one of Niterói’s highest defensive positions."
+  },
+  "Área militar de Jurujuba — Niterói.": {
+    "PT": "Área militar de Jurujuba — Niterói.",
+    "EN": "Jurujuba military area — Niterói."
+  },
+  "Acceso únicamente mediante visita autorizada.": {
+    "PT": "Acesso apenas em visita autorizada.",
+    "EN": "Access only through an authorised visit."
+  },
+  "Consulta durante la reserva.": {
+    "PT": "Consulte ao reservar.",
+    "EN": "Enquire when booking."
+  },
+  "Agendamiento militar obligatorio.": {
+    "PT": "Agendamento militar obrigatório.",
+    "EN": "Military booking required."
+  },
+  "No recomendado para personas con dificultades importantes de movilidad debido a pendientes y terreno irregular.": {
+    "PT": "Não recomendado para pessoas com dificuldades importantes de mobilidade, pelas ladeiras e pelo terreno irregular.",
+    "EN": "Not recommended for people with significant mobility difficulties due to slopes and uneven terrain."
+  },
+  "Normalmente se accede desde el complejo militar de Jurujuba.": {
+    "PT": "Normalmente, o acesso é pelo complexo militar de Jurujuba.",
+    "EN": "Access is usually through the Jurujuba military complex."
+  },
+  "Es uno de los recorridos más exigentes de esta categoría. Lleva protección solar, agua y calzado apropiado. La visita depende totalmente de autorización y condiciones climáticas.": {
+    "PT": "É um dos percursos mais exigentes desta categoria. Leve proteção solar, água e calçado adequado. A visita depende inteiramente de autorização e condições climáticas.",
+    "EN": "It is one of this category’s most demanding routes. Bring sun protection, water and suitable footwear. The visit depends entirely on authorisation and weather conditions."
+  },
+  "Fortificación histórica y sendero militar": {
+    "PT": "Fortificação histórica e trilha militar",
+    "EN": "Historic fortification and military trail"
+  },
+  "Ruinas, murallas y naturaleza sobre la entrada de la bahía": {
+    "PT": "Ruínas, muralhas e natureza sobre a entrada da baía",
+    "EN": "Ruins, walls and nature above the bay’s entrance"
+  },
+  "Entre 2 y 3 horas dentro de un recorrido combinado.": {
+    "PT": "Entre 2 e 3 horas em um percurso combinado.",
+    "EN": "Between 2 and 3 hours on a combined tour."
+  },
+  "El Forte de São Luiz se encuentra en una posición elevada de Jurujuba y conserva estructuras históricas rodeadas por vegetación.": {
+    "PT": "O Forte de São Luiz fica em posição elevada de Jurujuba e conserva estruturas históricas cercadas de vegetação.",
+    "EN": "Forte de São Luiz occupies an elevated position in Jurujuba and preserves historic structures surrounded by vegetation."
+  },
+  "Las visitas autorizadas pueden incluir caminata, ruinas, antiguas posiciones de artillería y vistas panorámicas.": {
+    "PT": "Visitas autorizadas podem incluir caminhada, ruínas, antigas posições de artilharia e vistas panorâmicas.",
+    "EN": "Authorised visits may include walking, ruins, former artillery positions and panoramic views."
+  },
+  "Fue construido para complementar la defensa de la Bahía de Guanabara y funcionaba en conjunto con Santa Cruz y otras baterías.": {
+    "PT": "Foi construído para complementar a defesa da Baía de Guanabara e funcionava com Santa Cruz e outras baterias.",
+    "EN": "It was built to complement Guanabara Bay’s defence and operated alongside Santa Cruz and other batteries."
+  },
+  "La combinación de ruinas militares, bosque y vista de la bahía.": {
+    "PT": "A combinação de ruínas militares, floresta e vista da baía.",
+    "EN": "The combination of military ruins, forest and bay views."
+  },
+  "Solamente mediante recorridos autorizados o eventos específicos.": {
+    "PT": "Apenas em percursos autorizados ou eventos específicos.",
+    "EN": "Only through authorised tours or specific events."
+  },
+  "Consulta el valor o gratuidad durante el agendamiento.": {
+    "PT": "Consulte o preço ou a gratuidade ao agendar.",
+    "EN": "Check the price or free admission when booking."
+  },
+  "Agendamiento y autorización obligatorios.": {
+    "PT": "Agendamento e autorização obrigatórios.",
+    "EN": "Booking and authorisation required."
+  },
+  "Recorrido con pendientes, terreno irregular y esfuerzo físico.": {
+    "PT": "Percurso com ladeiras, terreno irregular e esforço físico.",
+    "EN": "A route involving slopes, uneven terrain and physical effort."
+  },
+  "El acceso se organiza normalmente desde el complejo militar de Jurujuba.": {
+    "PT": "O acesso costuma ser organizado pelo complexo militar de Jurujuba.",
+    "EN": "Access is usually organised through the Jurujuba military complex."
+  },
+  "Documento oficial y datos previos de los participantes.": {
+    "PT": "Documento oficial e dados prévios dos participantes.",
+    "EN": "Official ID and advance participant details."
+  },
+  "Usa calzado cerrado, lleva agua y sigue siempre al responsable militar. No te apartes del recorrido ni ingreses en ruinas no autorizadas.": {
+    "PT": "Use calçado fechado, leve água e siga sempre o responsável militar. Não saia do percurso nem entre em ruínas não autorizadas.",
+    "EN": "Wear closed shoes, bring water and always follow the military guide. Do not leave the route or enter unauthorised ruins."
+  },
+  "Fortaleza colonial y defensa de la bahía": {
+    "PT": "Fortaleza colonial e defesa da baía",
+    "EN": "Colonial fortress and defence of the bay"
+  },
+  "Una de las fortalezas históricas más impresionantes de Brasil": {
+    "PT": "Uma das fortalezas históricas mais impressionantes do Brasil",
+    "EN": "One of Brazil’s most impressive historic fortresses"
+  },
+  "La Fortaleza de Santa Cruz se encuentra frente a Urca, en el punto más estrecho de la entrada de la Bahía de Guanabara. Conserva murallas, cañones, patios, túneles y antiguas prisiones.": {
+    "PT": "A Fortaleza de Santa Cruz fica diante da Urca, no trecho mais estreito da entrada da Baía de Guanabara. Conserva muralhas, canhões, pátios, túneis e antigas prisões.",
+    "EN": "Fortaleza de Santa Cruz faces Urca at the narrowest point of Guanabara Bay’s entrance. It preserves walls, cannons, courtyards, tunnels and former prisons."
+  },
+  "La visita guiada puede recorrer baterías de cañones, patios, capilla, calabozos y miradores hacia Pão de Açúcar y la entrada de la bahía.": {
+    "PT": "A visita guiada pode passar por baterias de canhões, pátios, capela, calabouços e mirantes para o Pão de Açúcar e a entrada da baía.",
+    "EN": "The guided visit may cover gun batteries, courtyards, chapel, dungeons and viewpoints towards Sugarloaf Mountain and the bay’s entrance."
+  },
+  "La posición fue utilizada desde el siglo XVI y ampliada durante los períodos colonial, imperial y republicano. Junto con otras fortificaciones controlaba el acceso marítimo a Río.": {
+    "PT": "A posição foi usada desde o século XVI e ampliada nos períodos colonial, imperial e republicano. Com outras fortificações, controlava o acesso marítimo ao Rio.",
+    "EN": "The position was used from the 16th century and expanded during the colonial, imperial and republican periods. Together with other fortifications, it controlled maritime access to Rio."
+  },
+  "Las murallas frente al mar, los antiguos calabozos y la vista de Urca y Pão de Açúcar.": {
+    "PT": "As muralhas diante do mar, os antigos calabouços e a vista da Urca e do Pão de Açúcar.",
+    "EN": "The seafront walls, former dungeons and views of Urca and Sugarloaf Mountain."
+  },
+  "Los días y horarios dependen del funcionamiento militar. Confirma antes de cruzar a Niterói.": {
+    "PT": "Dias e horários dependem do funcionamento militar. Confirme antes de atravessar para Niterói.",
+    "EN": "Days and hours depend on military operations. Confirm before crossing to Niterói."
+  },
+  "Puede existir entrada o contribución para la visita guiada. Confirma el valor actualizado.": {
+    "PT": "Pode haver ingresso ou contribuição para a visita guiada. Confirme o preço atualizado.",
+    "EN": "There may be an admission charge or contribution for the guided visit. Confirm the current price."
+  },
+  "Se recomienda agendar o confirmar la visita antes del desplazamiento.": {
+    "PT": "Recomenda-se agendar ou confirmar a visita antes de se deslocar.",
+    "EN": "Booking or confirming the visit before travelling is recommended."
+  },
+  "Posee pisos irregulares, rampas, escaleras y sectores históricos de acceso difícil.": {
+    "PT": "Tem pisos irregulares, rampas, escadas e setores históricos de difícil acesso.",
+    "EN": "There are uneven floors, ramps, stairs and historic sections with difficult access."
+  },
+  "Desde el Centro de Niterói continúa hacia Jurujuba en autobús, automóvil o transporte por aplicación.": {
+    "PT": "Do Centro de Niterói, siga até Jurujuba de ônibus, carro ou transporte por aplicativo.",
+    "EN": "From central Niterói, continue to Jurujuba by bus, car or ride-hailing service."
+  },
+  "Lleva documento oficial con fotografía.": {
+    "PT": "Leve documento oficial com foto.",
+    "EN": "Bring official photo ID."
+  },
+  "Es uno de los mejores fuertes de toda la región. Planea bien el transporte porque queda lejos del Centro de Niterói y confirma la visita el mismo día.": {
+    "PT": "É um dos melhores fortes da região. Planeje o transporte, pois fica longe do Centro de Niterói, e confirme a visita no mesmo dia.",
+    "EN": "It is one of the region’s best forts. Plan transport carefully because it is far from central Niterói, and confirm the visit on the day."
+  },
+  "Fuertes de Río de Janeiro | Ernestinho Carioca": {
+    "PT": "Fortes do Rio de Janeiro | Ernestinho Carioca",
+    "EN": "Rio de Janeiro’s forts | Ernestinho Carioca"
+  },
+  "Fuertes de Río de Janeiro": {
+    "PT": "Fortes do Rio de Janeiro",
+    "EN": "Rio de Janeiro’s forts"
+  },
+  "11 LUGARES": {
+    "PT": "11 LUGARES",
+    "EN": "11 PLACES"
+  },
+  "Fortalezas históricas": {
+    "PT": "Fortalezas históricas",
+    "EN": "Historic fortresses"
+  },
+  "11 fortalezas y sitios militares cuya visita depende de condiciones de acceso distintas.": {
+    "PT": "11 fortalezas e sítios militares com diferentes condições de acesso.",
+    "EN": "11 fortresses and military sites with different access conditions."
+  },
+  "Fuertes de Río de Janeiro: guía de Ernestinho Carioca con fotos, contexto e información práctica.": {
+    "PT": "Fortes do Rio de Janeiro: guia do Ernestinho Carioca com fotos, contexto e informações práticas.",
+    "EN": "Rio de Janeiro’s forts: Ernestinho Carioca’s guide with photos, context and practical information."
   }
 };
