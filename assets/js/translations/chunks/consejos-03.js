@@ -686,5 +686,6 @@ export default {
   "Elige algo que puedas contar cuando lo entregues. El Café Ernestinho conecta el sabor brasileño con la historia de tu viaje y no ocupa media maleta.": {"PT": "Escolha algo cuja história você possa contar ao entregar. O Café Ernestinho conecta o sabor brasileiro à história da sua viagem e não ocupa metade da mala.", "EN": "Choose something with a story you can tell when you give it. Café Ernestinho connects Brazilian flavour with the story of your trip without taking up half your suitcase."},
   "Pregunta": {"PT": "Pergunta", "EN": "Question"},
   "destacada": {"PT": "em destaque", "EN": "featured"},
-  "Busca:": {"PT":"Procure:","EN":"Look for:"}
+  "Busca:": {"PT":"Procure:","EN":"Look for:"},
+  "Consejos de Ernestinho": {"PT":"Conselhos do Ernestinho","EN":"Ernestinho’s Tips"}
 };
