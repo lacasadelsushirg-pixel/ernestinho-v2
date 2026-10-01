@@ -18,6 +18,11 @@
   ],
   "redirects": [
     {
+      "source": "/gastronomia/pilograma-centro",
+      "destination": "/gastronomia/pilograma-prime-grill",
+      "permanent": true
+    },
+    {
       "source": "/gastronomia/guacamole-copa",
       "destination": "/gastronomia/guacamole-copacabana",
       "permanent": true
