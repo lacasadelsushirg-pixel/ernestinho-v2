@@ -17,19 +17,19 @@
 .ec-card img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;transition:transform .3s}
 .ec-card:hover img{transform:scale(1.02)}
 .ec-label{display:block;padding:16px 18px 18px;color:#fff;font-size:17px;line-height:1.3;font-weight:800}
-.ec-detail{min-height:100vh;background:#fffbeb;padding:48px 0;color:#0f172a}
+.ec-detail{min-height:100vh;background:#071b1b;padding:48px 0;color:#fff}
 .ec-detail article{max-width:896px;margin:auto;padding:0 16px}
-.ec-back{border:0;background:none;padding:0;color:#92400e;font-weight:900;cursor:pointer;font-family:inherit}
+.ec-back{border:0;background:none;padding:0;color:#fbbf24;font-weight:900;cursor:pointer;font-family:inherit}
 .ec-hero{margin-top:32px;height:256px;border-radius:32px;overflow:hidden}
 .ec-hero img{width:100%;height:100%;object-fit:cover}
 .ec-icon{font-size:60px;line-height:1;display:block;margin-top:36px}
 .ec-detail h1{font-size:30px;line-height:36px;font-weight:900;margin:20px 0 0}
-.ec-intro{font-size:18px;line-height:28px;color:#475569;margin:16px 0 0}
+.ec-intro{font-size:18px;line-height:28px;color:#ccfbf1;margin:16px 0 0}
 .ec-tips{display:grid;gap:16px;margin-top:36px}
-.ec-tip{background:#fff;border:1px solid #fde68a;border-radius:16px;padding:20px;display:flex;gap:16px;font-size:14px;line-height:22px;color:#334155}
+.ec-tip{background:#0b2a2a;border:1px solid rgba(251,191,36,.28);border-radius:16px;padding:20px;display:flex;gap:16px;font-size:14px;line-height:22px;color:#e2e8f0}
 .ec-num{width:36px;height:36px;flex:0 0 36px;border-radius:9999px;background:#fbbf24;display:flex;align-items:center;justify-content:center;font-weight:900}
 .ec-cards2{display:grid;grid-template-columns:1fr;gap:24px;margin-top:36px}
-.ec-info-card{background:#fff;border:1px solid #fde68a;border-radius:24px;padding:24px}
+.ec-info-card{background:#0b2a2a;border:1px solid #fde68a;border-radius:24px;padding:24px}
 .ec-info-card img{width:100%;height:192px;object-fit:cover;border-radius:0}
 .ec-info-card h2{font-size:30px;line-height:36px;font-weight:900;margin:8px 0 0}
 .ec-info-card p{font-size:14px;line-height:22px;color:#334155}
@@ -65,3 +65,13 @@
 
 /* Supermercado/Rodizio y visuales: paletas del componente original */
 .ec-orange{min-height:100vh;background:#fff7ed;padding:48px 0;color:#0f172a}.ec-orange article,.ec-amber article{max-width:1152px;margin:auto;padding:0 16px}.ec-orange .ec-special-hero{margin-top:32px;height:256px;border-radius:32px;overflow:hidden;box-shadow:0 10px 15px -3px rgb(0 0 0/.1);position:relative}.ec-challenge{background:#047857;color:white;border-radius:24px;padding:24px;margin-top:32px}.ec-challenge h2{font-size:24px;font-weight:900}.ec-orange-card{background:white;border-radius:24px;overflow:hidden;border:1px solid #ffedd5;box-shadow:0 1px 2px rgb(0 0 0/.05)}.ec-orange-card>img{width:100%;height:208px;object-fit:cover}.ec-orange-card>.copy{padding:24px}.ec-orange-card h2{font-size:24px;font-weight:900}.ec-orange-card p{color:#475569;font-size:14px;line-height:1.625}.ec-dark-tip{background:#0f172a;color:white;border-radius:24px;padding:28px;margin-top:32px}.ec-amber{min-height:100vh;background:#fffbeb;padding:48px 0;color:#0f172a}.ec-amber article{max-width:1024px}.ec-amber-hero{margin-top:32px;height:256px;border-radius:32px;overflow:hidden;box-shadow:0 10px 15px -3px rgb(0 0 0/.1)}.ec-amber-hero img{width:100%;height:100%;object-fit:cover}.ec-visual-grid{display:grid;gap:24px;margin-top:36px}.ec-visual-card{background:white;border-radius:24px;overflow:hidden;border:1px solid #fef3c7;box-shadow:0 1px 2px rgb(0 0 0/.05)}.ec-visual-card img{width:100%;height:192px;object-fit:cover}.ec-visual-card .copy{padding:24px}.ec-visual-card h2{font-size:24px;font-weight:900}.ec-visual-card p{font-size:14px;line-height:1.625;color:#475569}.ec-ern-tip{background:rgba(253,230,138,.7);border-radius:24px;padding:24px;margin-top:36px;color:#78350f}@media(min-width:640px){.ec-orange .ec-special-hero{height:448px}.ec-amber-hero{height:384px}.ec-challenge{padding:32px}}@media(min-width:768px){.ec-visual-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* ADN EC: interiores de Consejos */
+.ec-detail .ec-special-card,.ec-detail .ec-visual-card,.ec-detail .ec-port-stop,.ec-detail .ec-orange-card{background:#0b2a2a;color:#fff;border-color:rgba(251,191,36,.22)}
+.ec-detail .ec-special-card p,.ec-detail .ec-visual-card p,.ec-detail .ec-port-stop p,.ec-detail .ec-orange-card p{color:#cbd5e1}
+.ec-detail .ec-special-tip{background:rgba(251,191,36,.12);color:#fef3c7;border:1px solid rgba(251,191,36,.22)}
+.ec-detail .ec-visual-card a,.ec-detail .ec-port-stop a{color:#071b1b;background:#fbbf24}
+.ec-insurance-panel{margin-top:36px;background:linear-gradient(145deg,#0b2a2a,#103b3b);border:1px solid rgba(251,191,36,.3);border-radius:28px;padding:24px;box-shadow:0 20px 50px rgba(0,0,0,.2)}
+.ec-insurance-brand{display:grid;gap:22px;align-items:center;margin-bottom:28px}.ec-insurance-brand img{width:100%;max-width:300px;border-radius:18px;background:#fff}.ec-insurance-brand span{color:#fbbf24;font-size:12px;font-weight:900;letter-spacing:.18em}.ec-insurance-brand h2{font-size:28px;margin:8px 0}.ec-insurance-brand p{color:#ccfbf1;line-height:1.6}
+.ec-insurance-help{margin-top:28px;background:#0b2a2a;border:1px solid rgba(251,191,36,.3);border-radius:24px;padding:24px}.ec-insurance-help h2{color:#fff}.ec-insurance-help>p{color:#cbd5e1;line-height:1.65}
+@media(min-width:768px){.ec-insurance-brand{grid-template-columns:300px 1fr}.ec-insurance-panel{padding:32px}}

@@ -18,6 +18,11 @@
   ],
   "redirects": [
     {
+      "source": "/quiero",
+      "destination": "/consejos/recorrido-zona-portuaria/",
+      "permanent": true
+    },
+    {
       "source": "/gastronomia/pilograma-centro",
       "destination": "/gastronomia/pilograma-prime-grill",
       "permanent": true
