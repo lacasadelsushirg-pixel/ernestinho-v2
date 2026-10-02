@@ -376,6 +376,657 @@ export default {"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Compras":{"PT":
   "⭐ Mi lectura de BarraShopping": {
     "PT": "⭐ Meu olhar sobre o BarraShopping",
     "EN": "⭐ My take on BarraShopping"
+  },
+  "Aquí yo juntaría compras y paisaje": {
+    "PT": "Aqui eu juntaria compras e paisagem",
+    "EN": "Here I would combine shopping and scenery"
+  },
+  "Botafogo Praia Shopping frente à Praia de Botafogo": {
+    "PT": "Botafogo Praia Shopping em frente à Praia de Botafogo",
+    "EN": "Botafogo Praia Shopping facing Botafogo Beach"
+  },
+  "Botafogo Praia Shopping no es solamente un lugar para comprar: es una manera de mirar Río mientras haces algo cotidiano.": {
+    "PT": "O Botafogo Praia Shopping não é apenas um lugar para comprar: é uma forma de olhar o Rio enquanto você faz algo do cotidiano.",
+    "EN": "Botafogo Praia Shopping is more than a place to shop: it is a way to look at Rio while doing something everyday."
+  },
+  "Botafogo Praia Shopping: compras, paisaje y vida carioca frente a la Bahía": {
+    "PT": "Botafogo Praia Shopping: compras, paisagem e vida carioca diante da baía",
+    "EN": "Botafogo Praia Shopping: shopping, scenery and Rio life overlooking the bay"
+  },
+  "Botafogo está conectado con todo": {
+    "PT": "Botafogo está conectado com tudo",
+    "EN": "Botafogo is connected to everything"
+  },
+  "Botafogo · Zona Sur": {
+    "PT": "Botafogo · Zona Sul",
+    "EN": "Botafogo · South Zone"
+  },
+  "Comer con Botafogo de fondo": {
+    "PT": "Comer com Botafogo ao fundo",
+    "EN": "Dining with Botafogo in the background"
+  },
+  "Coordenadas aproximadas: -22.9435, -43.1818": {
+    "PT": "Coordenadas aproximadas: -22.9435, -43.1818",
+    "EN": "Approximate coordinates: -22.9435, -43.1818"
+  },
+  "El shopping que los cariocas llaman “Escada Shopping”": {
+    "PT": "O shopping que os cariocas chamam de “Escada Shopping”",
+    "EN": "The mall Rio locals call “Escada Shopping”"
+  },
+  "Entender Botafogo": {
+    "PT": "Entender Botafogo",
+    "EN": "Understanding Botafogo"
+  },
+  "Fachada y entorno de Botafogo Praia Shopping": {
+    "PT": "Fachada e entorno do Botafogo Praia Shopping",
+    "EN": "Botafogo Praia Shopping facade and surroundings"
+  },
+  "Familias y lluvia": {
+    "PT": "Famílias e chuva",
+    "EN": "Families and rainy days"
+  },
+  "Interior y circulación de Botafogo Praia Shopping": {
+    "PT": "Interior e circulação do Botafogo Praia Shopping",
+    "EN": "Botafogo Praia Shopping interior and walkways"
+  },
+  "Mapa de Botafogo Praia Shopping": {
+    "PT": "Mapa do Botafogo Praia Shopping",
+    "EN": "Botafogo Praia Shopping map"
+  },
+  "Paisaje y experiencia": {
+    "PT": "Paisagem e experiência",
+    "EN": "Scenery and experience"
+  },
+  "Praia": {
+    "PT": "Praia",
+    "EN": "Beach"
+  },
+  "Praia de Botafogo, Urca, Pan de Azúcar, Flamengo o Humaitá. Para familias o un día de lluvia, también puede ser un buen cambio de ritmo.": {
+    "PT": "Praia de Botafogo, Urca, Pão de Açúcar, Flamengo ou Humaitá. Para famílias ou um dia de chuva, também pode ser uma boa mudança de ritmo.",
+    "EN": "Botafogo Beach, Urca, Sugarloaf Mountain, Flamengo or Humaitá. For families or a rainy day, it can also be a good change of pace."
+  },
+  "Qué buscar": {
+    "PT": "O que procurar",
+    "EN": "What to look for"
+  },
+  "Qué compraría yo en Botafogo Praia Shopping": {
+    "PT": "O que eu compraria no Botafogo Praia Shopping",
+    "EN": "What I would buy at Botafogo Praia Shopping"
+  },
+  "Su gran diferencia es estar integrado a Botafogo y a la vista de la bahía. Yo vendría para resolver compras, comer o hacer una pausa y después seguir el paseo. No lo vendería como una atracción aislada: su valor está justamente en combinar vida cotidiana y una postal de Río.": {
+    "PT": "Seu grande diferencial é a integração com Botafogo e com a vista da baía. Eu viria para resolver compras, comer ou fazer uma pausa e depois continuar o passeio. Não venderia como uma atração isolada: seu valor está justamente em combinar cotidiano e uma paisagem do Rio.",
+    "EN": "Its main difference is being integrated with Botafogo and the bay view. I would come to shop, eat or pause before continuing the outing. I would not present it as a standalone attraction: its value lies in combining everyday life with an iconic Rio view."
+  },
+  "Un plan urbano para cambiar el ritmo": {
+    "PT": "Um programa urbano para mudar o ritmo",
+    "EN": "An urban outing for a change of pace"
+  },
+  "Un refugio práctico para cambiar el ritmo del día.": {
+    "PT": "Um refúgio prático para mudar o ritmo do dia.",
+    "EN": "A practical refuge for a change of pace during the day."
+  },
+  "Un shopping urbano con una vista que cambia la experiencia": {
+    "PT": "Um shopping urbano com uma vista que muda a experiência",
+    "EN": "An urban mall with a view that changes the experience"
+  },
+  "Vista desde Botafogo Praia Shopping hacia la Bahía y el Pan de Azúcar": {
+    "PT": "Vista do Botafogo Praia Shopping para a baía e o Pão de Açúcar",
+    "EN": "View from Botafogo Praia Shopping towards the bay and Sugarloaf Mountain"
+  },
+  "Vista panorámica desde Botafogo Praia Shopping": {
+    "PT": "Vista panorâmica do Botafogo Praia Shopping",
+    "EN": "Panoramic view from Botafogo Praia Shopping"
+  },
+  "Área gastronómica de Botafogo Praia Shopping": {
+    "PT": "Área gastronômica do Botafogo Praia Shopping",
+    "EN": "Botafogo Praia Shopping dining area"
+  },
+  "“Aquí las compras vienen acompañadas de una de las postales más bonitas de Río.”": {
+    "PT": "“Aqui, as compras vêm acompanhadas de uma das paisagens mais bonitas do Rio.”",
+    "EN": "“Here, shopping comes with one of Rio's most beautiful views.”"
+  },
+  "⭐ Mi lectura de Botafogo Praia": {
+    "PT": "⭐ Minha leitura do Botafogo Praia",
+    "EN": "⭐ My take on Botafogo Praia"
+  },
+  "Ambiente": {
+    "PT": "Ambiente",
+    "EN": "Atmosphere"
+  },
+  "Barra da Tijuca y Jardim Oceânico.": {
+    "PT": "Barra da Tijuca e Jardim Oceânico.",
+    "EN": "Barra da Tijuca and Jardim Oceânico."
+  },
+  "Barra da Tijuca · Zona Oeste": {
+    "PT": "Barra da Tijuca · Zona Oeste",
+    "EN": "Barra da Tijuca · West Zone"
+  },
+  "Calles internas de Shopping Downtown": {
+    "PT": "Ruas internas do Shopping Downtown",
+    "EN": "Internal streets of Shopping Downtown"
+  },
+  "Carrito y circulación al aire libre en Shopping Downtown": {
+    "PT": "Carrinho e circulação ao ar livre no Shopping Downtown",
+    "EN": "Cart and outdoor circulation at Shopping Downtown"
+  },
+  "Compras y servicios": {
+    "PT": "Compras e serviços",
+    "EN": "Shopping and services"
+  },
+  "Cuando el paseo se vuelve encuentro": {
+    "PT": "Quando o passeio vira encontro",
+    "EN": "When an outing becomes a gathering"
+  },
+  "Downtown dentro de Barra": {
+    "PT": "Downtown dentro da Barra",
+    "EN": "Downtown within Barra"
+  },
+  "Downtown no se siente como un shopping tradicional: se siente como una pequeña ciudad carioca que puedes recorrer a tu ritmo.": {
+    "PT": "Downtown não parece um shopping tradicional: parece uma pequena cidade carioca que você pode percorrer no seu ritmo.",
+    "EN": "Downtown does not feel like a traditional mall: it feels like a small Rio city you can explore at your own pace."
+  },
+  "Fachada histórica de Shopping Downtown": {
+    "PT": "Fachada histórica do Shopping Downtown",
+    "EN": "Shopping Downtown's historic facade"
+  },
+  "Festa Junina en Shopping Downtown": {
+    "PT": "Festa Junina no Shopping Downtown",
+    "EN": "June festival at Shopping Downtown"
+  },
+  "Gastronomía y eventos": {
+    "PT": "Gastronomia e eventos",
+    "EN": "Food and events"
+  },
+  "Importante": {
+    "PT": "Importante",
+    "EN": "Important"
+  },
+  "Instagram oficial": {
+    "PT": "Instagram oficial",
+    "EN": "Official Instagram"
+  },
+  "Los horarios de tiendas, restaurantes, servicios, eventos y feriados pueden cambiar. Confirma antes de salir.": {
+    "PT": "Os horários de lojas, restaurantes, serviços, eventos e feriados podem mudar. Confirme antes de sair.",
+    "EN": "Store, restaurant, service, event and holiday hours may change. Confirm before leaving."
+  },
+  "Mapa de Shopping Downtown": {
+    "PT": "Mapa do Shopping Downtown",
+    "EN": "Shopping Downtown map"
+  },
+  "Otra forma de comprar, comer y vivir Barra": {
+    "PT": "Outra forma de comprar, comer e viver a Barra",
+    "EN": "Another way to shop, eat and experience Barra"
+  },
+  "Palco y espacio abierto de Shopping Downtown": {
+    "PT": "Palco e espaço aberto do Shopping Downtown",
+    "EN": "Stage and open space at Shopping Downtown"
+  },
+  "Qué resolvería yo aquí": {
+    "PT": "O que eu resolveria aqui",
+    "EN": "What I would take care of here"
+  },
+  "Shopping Downtown: una ciudad de opciones a cielo abierto": {
+    "PT": "Shopping Downtown: uma cidade de opções a céu aberto",
+    "EN": "Shopping Downtown: an open-air city of options"
+  },
+  "Un plan flexible para la Zona Oeste": {
+    "PT": "Um programa flexível para a Zona Oeste",
+    "EN": "A flexible outing in the West Zone"
+  },
+  "Una ciudad de opciones a cielo abierto": {
+    "PT": "Uma cidade de opções a céu aberto",
+    "EN": "An open-air city of options"
+  },
+  "Una pequeña ciudad abierta en Barra": {
+    "PT": "Uma pequena cidade aberta na Barra",
+    "EN": "A small open-air city in Barra"
+  },
+  "Yo miraría el mapa antes de entrar y decidiría qué bloques necesito. Downtown mezcla plazas, restaurantes, servicios, oficinas y cine. Tiene numerosos elevadores, accesos con rampas, plazas reservadas, bicicletario y transporte interno.": {
+    "PT": "Eu olharia o mapa antes de entrar e decidiria quais blocos preciso visitar. Downtown mistura praças, restaurantes, serviços, escritórios e cinema. Tem vários elevadores, acessos com rampas, vagas reservadas, bicicletário e transporte interno.",
+    "EN": "I would check the map before entering and decide which blocks I need. Downtown combines squares, restaurants, services, offices and a cinema. It has numerous elevators, ramp access, reserved parking spaces, bike parking and internal transport."
+  },
+  "Área externa de Shopping Downtown": {
+    "PT": "Área externa do Shopping Downtown",
+    "EN": "Shopping Downtown outdoor area"
+  },
+  "“Aquí no vienes a encerrarte en un shopping: vienes a caminar una pequeña ciudad.”": {
+    "PT": "“Aqui, você não vem se fechar em um shopping: vem caminhar por uma pequena cidade.”",
+    "EN": "“Here, you do not come to stay inside a mall: you come to walk through a small city.”"
+  },
+  "⭐ Consejo de Ernestinho · Downtown": {
+    "PT": "⭐ Conselho do Ernestinho · Downtown",
+    "EN": "⭐ Ernestinho's tip · Downtown"
+  },
+  "Alameda del Fashion Mall": {
+    "PT": "Alameda do Fashion Mall",
+    "EN": "Fashion Mall promenade"
+  },
+  "Cuando las compras se convierten en una salida": {
+    "PT": "Quando as compras se tornam um passeio",
+    "EN": "When shopping becomes an outing"
+  },
+  "Dato práctico:": {
+    "PT": "Dica prática:",
+    "EN": "Practical tip:"
+  },
+  "Directorio y categorías": {
+    "PT": "Diretório e categorias",
+    "EN": "Directory and categories"
+  },
+  "Entrada del Fashion Mall": {
+    "PT": "Entrada do Fashion Mall",
+    "EN": "Fashion Mall entrance"
+  },
+  "Ernestinho recomienda": {
+    "PT": "Ernestinho recomenda",
+    "EN": "Ernestinho recommends"
+  },
+  "Fashion Mall en São Conrado": {
+    "PT": "Fashion Mall em São Conrado",
+    "EN": "Fashion Mall in São Conrado"
+  },
+  "Fashion Mall tiene una escala más íntima y elegante: aquí puedes comprar, comer, ver teatro y sentir otro ritmo de Río.": {
+    "PT": "O Fashion Mall tem uma escala mais íntima e elegante: aqui você pode comprar, comer, ver teatro e sentir outro ritmo do Rio.",
+    "EN": "Fashion Mall has a more intimate, elegant scale: here you can shop, eat, see a play and feel a different pace of Rio."
+  },
+  "Fashion Mall: una experiencia de compras con el estilo de la Zona Oeste": {
+    "PT": "Fashion Mall: uma experiência de compras com o estilo da Zona Oeste",
+    "EN": "Fashion Mall: a shopping experience with West Zone style"
+  },
+  "Gastronomía y cultura": {
+    "PT": "Gastronomia e cultura",
+    "EN": "Food and culture"
+  },
+  "Horarios y familias": {
+    "PT": "Horários e famílias",
+    "EN": "Hours and families"
+  },
+  "Interior del tercer nivel del Fashion Mall": {
+    "PT": "Interior do terceiro piso do Fashion Mall",
+    "EN": "Interior of Fashion Mall's third level"
+  },
+  "Los horarios de tiendas, restaurantes, teatro, actividades y feriados pueden cambiar. Confirma antes de salir.": {
+    "PT": "Os horários de lojas, restaurantes, teatro, atividades e feriados podem mudar. Confirme antes de sair.",
+    "EN": "Store, restaurant, theater, activity and holiday hours may change. Confirm before leaving."
+  },
+  "Mapa del Fashion Mall": {
+    "PT": "Mapa do Fashion Mall",
+    "EN": "Fashion Mall map"
+  },
+  "Mi forma de aprovechar Fashion Mall": {
+    "PT": "Minha forma de aproveitar o Fashion Mall",
+    "EN": "My way of enjoying Fashion Mall"
+  },
+  "Moda, gastronomía y una Zona Oeste más tranquila": {
+    "PT": "Moda, gastronomia e uma Zona Oeste mais tranquila",
+    "EN": "Fashion, food and a calmer West Zone"
+  },
+  "Moda, gastronomía, teatro y una pausa diferente en São Conrado.": {
+    "PT": "Moda, gastronomia, teatro e uma pausa diferente em São Conrado.",
+    "EN": "Fashion, food, theater and a different kind of pause in São Conrado."
+  },
+  "Para quién:": {
+    "PT": "Para quem:",
+    "EN": "Who it is for:"
+  },
+  "Segundo nivel del Fashion Mall": {
+    "PT": "Segundo piso do Fashion Mall",
+    "EN": "Fashion Mall's second level"
+  },
+  "São Conrado con un ritmo más tranquilo": {
+    "PT": "São Conrado em um ritmo mais tranquilo",
+    "EN": "São Conrado at a calmer pace"
+  },
+  "São Conrado dentro de tu viaje": {
+    "PT": "São Conrado dentro da sua viagem",
+    "EN": "São Conrado as part of your trip"
+  },
+  "São Conrado y un día por esa zona.": {
+    "PT": "São Conrado e um dia nessa região.",
+    "EN": "São Conrado and a day in that area."
+  },
+  "São Conrado · Zona Sur": {
+    "PT": "São Conrado · Zona Sul",
+    "EN": "São Conrado · South Zone"
+  },
+  "Tercer nivel del Fashion Mall": {
+    "PT": "Terceiro piso do Fashion Mall",
+    "EN": "Fashion Mall's third level"
+  },
+  "Un lugar para caminar sin prisa": {
+    "PT": "Um lugar para caminhar sem pressa",
+    "EN": "A place for an unhurried walk"
+  },
+  "Yo lo veo como un shopping para quien valora ambiente, gastronomía y cultura además de comprar. Su propuesta mezcla moda, restaurantes, cuatro salas de cine y dos teatros, con iluminación natural y paisajismo.": {
+    "PT": "Eu vejo como um shopping para quem valoriza ambiente, gastronomia e cultura além das compras. Sua proposta mistura moda, restaurantes, quatro salas de cinema e dois teatros, com iluminação natural e paisagismo.",
+    "EN": "I see it as a mall for those who value atmosphere, food and culture alongside shopping. Its concept combines fashion, restaurants, four cinema screens and two theaters, with natural light and landscaping."
+  },
+  "está en Estrada da Gávea, 899 y cuenta con 625 plazas de estacionamiento. Yo revisaría programación y horarios antes de salir.": {
+    "PT": "fica na Estrada da Gávea, 899 e conta com 625 vagas de estacionamento. Eu conferiria a programação e os horários antes de sair.",
+    "EN": "is at Estrada da Gávea, 899 and has 625 parking spaces. I would check the program and hours before leaving."
+  },
+  "parejas, viajeros que estén por São Conrado y quien prefiera una experiencia menos masiva.": {
+    "PT": "casais, viajantes que estejam por São Conrado e quem prefira uma experiência menos movimentada.",
+    "EN": "couples, travelers around São Conrado and anyone who prefers a less crowded experience."
+  },
+  "“Yo no lo veo solamente como un shopping: lo veo como una pausa elegante dentro del paisaje de São Conrado.”": {
+    "PT": "“Eu não vejo apenas como um shopping: vejo como uma pausa elegante na paisagem de São Conrado.”",
+    "EN": "“I do not see it only as a mall: I see it as an elegant pause in São Conrado's landscape.”"
+  },
+  "⭐ Consejo de Ernestinho · Fashion Mall": {
+    "PT": "⭐ Conselho do Ernestinho · Fashion Mall",
+    "EN": "⭐ Ernestinho's tip · Fashion Mall"
+  },
+  "Ambiente del Shopping Metropolitano Barra": {
+    "PT": "Ambiente do Shopping Metropolitano Barra",
+    "EN": "Shopping Metropolitano Barra atmosphere"
+  },
+  "Barra Olímpica dentro de tu viaje": {
+    "PT": "Barra Olímpica dentro da sua viagem",
+    "EN": "Barra Olímpica as part of your trip"
+  },
+  "Barra Olímpica · Zona Oeste": {
+    "PT": "Barra Olímpica · Zona Oeste",
+    "EN": "Barra Olímpica · West Zone"
+  },
+  "Barra Olímpica, Parque Olímpico y Jacarepaguá.": {
+    "PT": "Barra Olímpica, Parque Olímpico e Jacarepaguá.",
+    "EN": "Barra Olímpica, Olympic Park and Jacarepaguá."
+  },
+  "Cine y eventos": {
+    "PT": "Cinema e eventos",
+    "EN": "Cinema and events"
+  },
+  "Cinemark, gastronomía, compras y la Barra Olímpica en un mismo día.": {
+    "PT": "Cinemark, gastronomia, compras e Barra Olímpica no mesmo dia.",
+    "EN": "Cinemark, food, shopping and Barra Olímpica in the same day."
+  },
+  "Compras y gastronomía": {
+    "PT": "Compras e gastronomia",
+    "EN": "Shopping and food"
+  },
+  "Cómo lo integraría yo a tu viaje": {
+    "PT": "Como eu integraria à sua viagem",
+    "EN": "How I would fit it into your trip"
+  },
+  "El Metropolitano es una puerta a la Barra moderna: compras, cine, gastronomía, familias y eventos en un mismo capítulo.": {
+    "PT": "O Metropolitano é uma porta para a Barra moderna: compras, cinema, gastronomia, famílias e eventos no mesmo capítulo.",
+    "EN": "Metropolitano is a gateway to modern Barra: shopping, cinema, food, families and events in one chapter."
+  },
+  "Familias y ocio": {
+    "PT": "Famílias e lazer",
+    "EN": "Families and leisure"
+  },
+  "Interior del Shopping Metropolitano Barra": {
+    "PT": "Interior do Shopping Metropolitano Barra",
+    "EN": "Shopping Metropolitano Barra interior"
+  },
+  "La Barra Olímpica más allá del shopping tradicional": {
+    "PT": "A Barra Olímpica além do shopping tradicional",
+    "EN": "Barra Olímpica beyond the traditional mall"
+  },
+  "Mapa del Shopping Metropolitano Barra": {
+    "PT": "Mapa do Shopping Metropolitano Barra",
+    "EN": "Shopping Metropolitano Barra map"
+  },
+  "Mi forma de aprovechar el Metropolitano": {
+    "PT": "Minha forma de aproveitar o Metropolitano",
+    "EN": "My way of enjoying Metropolitano"
+  },
+  "Para mí funciona muy bien como shopping práctico de Barra Olímpica: compras, servicios, comida y una pausa climatizada sin tener que ir hasta la parte más distante de Barra.": {
+    "PT": "Para mim, funciona muito bem como shopping prático da Barra Olímpica: compras, serviços, comida e uma pausa climatizada sem precisar ir à parte mais distante da Barra.",
+    "EN": "For me, it works well as a practical Barra Olímpica mall: shopping, services, food and an air-conditioned pause without going to the farthest part of Barra."
+  },
+  "Shopping Metropolitano Barra: compras, eventos y vida moderna en la Zona Oeste": {
+    "PT": "Shopping Metropolitano Barra: compras, eventos e vida moderna na Zona Oeste",
+    "EN": "Shopping Metropolitano Barra: shopping, events and modern life in the West Zone"
+  },
+  "Un punto práctico antes o después de un gran evento": {
+    "PT": "Um ponto prático antes ou depois de um grande evento",
+    "EN": "A practical stop before or after a big event"
+  },
+  "Una pausa cómoda para cambiar el ritmo": {
+    "PT": "Uma pausa confortável para mudar o ritmo",
+    "EN": "A comfortable pause for a change of pace"
+  },
+  "familias, viajeros alojados o con actividades en Barra/Jacarepaguá y quien quiera resolver varias necesidades en una sola parada.": {
+    "PT": "famílias, viajantes hospedados ou com atividades em Barra/Jacarepaguá e quem queira resolver várias necessidades em uma única parada.",
+    "EN": "families, travelers staying or taking part in activities in Barra/Jacarepaguá and anyone who wants to take care of several needs in one stop."
+  },
+  "revisa directorio, horarios, ocio y servicios vigentes. Si buscas una tienda concreta, confírmala antes de desplazarte.": {
+    "PT": "confira diretório, horários, lazer e serviços atuais. Se procura uma loja específica, confirme antes de se deslocar.",
+    "EN": "check the current directory, hours, leisure options and services. If you are looking for a particular store, confirm it before traveling there."
+  },
+  "Área comercial del Shopping Metropolitano Barra": {
+    "PT": "Área comercial do Shopping Metropolitano Barra",
+    "EN": "Shopping Metropolitano Barra retail area"
+  },
+  "Área de convivencia del Shopping Metropolitano Barra": {
+    "PT": "Área de convivência do Shopping Metropolitano Barra",
+    "EN": "Shopping Metropolitano Barra communal area"
+  },
+  "“Aquí el shopping se conecta con la Barra moderna, los eventos y la vida cotidiana.”": {
+    "PT": "“Aqui, o shopping se conecta com a Barra moderna, os eventos e o cotidiano.”",
+    "EN": "“Here, the mall connects with modern Barra, events and everyday life.”"
+  },
+  "⭐ Consejo de Ernestinho · Metropolitano Barra": {
+    "PT": "⭐ Conselho do Ernestinho · Metropolitano Barra",
+    "EN": "⭐ Ernestinho's tip · Metropolitano Barra"
+  },
+  "Ambiente de ParkJacarepaguá": {
+    "PT": "Ambiente do ParkJacarepaguá",
+    "EN": "ParkJacarepaguá atmosphere"
+  },
+  "Compras y ambiente": {
+    "PT": "Compras e ambiente",
+    "EN": "Shopping and atmosphere"
+  },
+  "Compras, naturaleza, familias, gastronomía y entretenimiento en un mismo plan.": {
+    "PT": "Compras, natureza, famílias, gastronomia e entretenimento no mesmo programa.",
+    "EN": "Shopping, nature, families, food and entertainment in one outing."
+  },
+  "El Parque da Magia y mucho más": {
+    "PT": "O Parque da Magia e muito mais",
+    "EN": "Parque da Magia and much more"
+  },
+  "Entrada de ParkJacarepaguá": {
+    "PT": "Entrada do ParkJacarepaguá",
+    "EN": "ParkJacarepaguá entrance"
+  },
+  "Familias y entretenimiento": {
+    "PT": "Famílias e entretenimento",
+    "EN": "Families and entertainment"
+  },
+  "Fuente y espacio de convivencia de ParkJacarepaguá": {
+    "PT": "Fonte e espaço de convivência do ParkJacarepaguá",
+    "EN": "Fountain and communal space at ParkJacarepaguá"
+  },
+  "Gastronomía y ocio": {
+    "PT": "Gastronomia e lazer",
+    "EN": "Food and leisure"
+  },
+  "Horarios y accesibilidad": {
+    "PT": "Horários e acessibilidade",
+    "EN": "Hours and accessibility"
+  },
+  "Interior de ParkJacarepaguá": {
+    "PT": "Interior do ParkJacarepaguá",
+    "EN": "ParkJacarepaguá interior"
+  },
+  "Jacarepaguá dentro de tu viaje": {
+    "PT": "Jacarepaguá dentro da sua viagem",
+    "EN": "Jacarepaguá as part of your trip"
+  },
+  "Jacarepaguá · Zona Oeste": {
+    "PT": "Jacarepaguá · Zona Oeste",
+    "EN": "Jacarepaguá · West Zone"
+  },
+  "Jacarepaguá, Barra Olímpica y otros planes de Zona Oeste.": {
+    "PT": "Jacarepaguá, Barra Olímpica e outros programas da Zona Oeste.",
+    "EN": "Jacarepaguá, Barra Olímpica and other West Zone outings."
+  },
+  "Los horarios de tiendas, restaurantes, entretenimiento, actividades y feriados pueden cambiar. Confirma antes de salir.": {
+    "PT": "Os horários de lojas, restaurantes, entretenimento, atividades e feriados podem mudar. Confirme antes de sair.",
+    "EN": "Store, restaurant, entertainment, activity and holiday hours may change. Confirm before leaving."
+  },
+  "Mapa de ParkJacarepaguá": {
+    "PT": "Mapa do ParkJacarepaguá",
+    "EN": "ParkJacarepaguá map"
+  },
+  "Mi forma de aprovechar ParkJacarepaguá": {
+    "PT": "Minha forma de aproveitar o ParkJacarepaguá",
+    "EN": "My way of enjoying ParkJacarepaguá"
+  },
+  "ParkJacarepaguá es una puerta para conocer una Zona Oeste familiar, verde, práctica y llena de vida.": {
+    "PT": "O ParkJacarepaguá é uma porta para conhecer uma Zona Oeste familiar, verde, prática e cheia de vida.",
+    "EN": "ParkJacarepaguá is a gateway to a family-friendly, green, practical and lively West Zone."
+  },
+  "ParkJacarepaguá: un lugar para comprar, respirar y vivir la Zona Oeste": {
+    "PT": "ParkJacarepaguá: um lugar para comprar, respirar e viver a Zona Oeste",
+    "EN": "ParkJacarepaguá: a place to shop, breathe and experience the West Zone"
+  },
+  "Parque da Magia en ParkJacarepaguá": {
+    "PT": "Parque da Magia no ParkJacarepaguá",
+    "EN": "Parque da Magia at ParkJacarepaguá"
+  },
+  "Un plan que puede ocupar todo el día": {
+    "PT": "Um programa que pode ocupar o dia inteiro",
+    "EN": "An outing that can fill a whole day"
+  },
+  "Una nueva forma de vivir Jacarepaguá": {
+    "PT": "Uma nova forma de viver Jacarepaguá",
+    "EN": "A new way to experience Jacarepaguá"
+  },
+  "Yo lo recomiendo cuando quieres juntar compras, gastronomía y entretenimiento en un mismo lugar en Jacarepaguá. Su perfil familiar hace que tenga más sentido como parte de un día por la Zona Oeste que como una compra rápida.": {
+    "PT": "Eu recomendo quando você quer juntar compras, gastronomia e entretenimento no mesmo lugar em Jacarepaguá. Seu perfil familiar faz mais sentido como parte de um dia pela Zona Oeste do que como uma compra rápida.",
+    "EN": "I recommend it when you want shopping, food and entertainment in one place in Jacarepaguá. Its family focus makes more sense as part of a West Zone day than for a quick purchase."
+  },
+  "familias, quienes viajan con niños y viajeros que ya estarán por Jacarepaguá o Barra Olímpica.": {
+    "PT": "famílias, quem viaja com crianças e viajantes que já estarão em Jacarepaguá ou Barra Olímpica.",
+    "EN": "families, people traveling with children and travelers who will already be in Jacarepaguá or Barra Olímpica."
+  },
+  "Área de ParkJacarepaguá": {
+    "PT": "Área do ParkJacarepaguá",
+    "EN": "ParkJacarepaguá area"
+  },
+  "“Aquí las compras vienen acompañadas de un ambiente pensado para quedarse.”": {
+    "PT": "“Aqui, as compras vêm acompanhadas de um ambiente pensado para ficar.”",
+    "EN": "“Here, shopping comes with a setting designed for lingering.”"
+  },
+  "⭐ Consejo de Ernestinho · ParkJacarepaguá": {
+    "PT": "⭐ Conselho do Ernestinho · ParkJacarepaguá",
+    "EN": "⭐ Ernestinho's tip · ParkJacarepaguá"
+  },
+  "Ambiente interior de Shopping Leblon": {
+    "PT": "Ambiente interior do Shopping Leblon",
+    "EN": "Shopping Leblon interior atmosphere"
+  },
+  "Comer bien también es parte de Leblon": {
+    "PT": "Comer bem também faz parte do Leblon",
+    "EN": "Eating well is also part of Leblon"
+  },
+  "Detalle interior de Shopping Leblon": {
+    "PT": "Detalhe interior do Shopping Leblon",
+    "EN": "Shopping Leblon interior detail"
+  },
+  "Fachada de Shopping Leblon": {
+    "PT": "Fachada do Shopping Leblon",
+    "EN": "Shopping Leblon facade"
+  },
+  "Horarios, familias y lluvia": {
+    "PT": "Horários, famílias e chuva",
+    "EN": "Hours, families and rainy days"
+  },
+  "Interior y portada de Shopping Leblon": {
+    "PT": "Interior e entrada do Shopping Leblon",
+    "EN": "Shopping Leblon interior and entrance"
+  },
+  "Leblon dentro de tu viaje": {
+    "PT": "Leblon dentro da sua viagem",
+    "EN": "Leblon as part of your trip"
+  },
+  "Leblon · Zona Sur": {
+    "PT": "Leblon · Zona Sul",
+    "EN": "Leblon · South Zone"
+  },
+  "Leblon, Ipanema, Lagoa y un paseo por la orla. Aquí yo aprovecharía la ubicación antes que convertir el shopping en el objetivo único del día.": {
+    "PT": "Leblon, Ipanema, Lagoa e um passeio pela orla. Aqui eu aproveitaria a localização, em vez de transformar o shopping no único objetivo do dia.",
+    "EN": "Leblon, Ipanema, Lagoa and a waterfront walk. Here I would make the most of the location rather than make the mall the day's only goal."
+  },
+  "Los horarios de tiendas, restaurantes, cultura, actividades y feriados pueden cambiar. Confirma antes de salir.": {
+    "PT": "Os horários de lojas, restaurantes, cultura, atividades e feriados podem mudar. Confirme antes de sair.",
+    "EN": "Store, restaurant, cultural activity and holiday hours may change. Confirm before leaving."
+  },
+  "Mapa de Shopping Leblon": {
+    "PT": "Mapa do Shopping Leblon",
+    "EN": "Shopping Leblon map"
+  },
+  "Mi forma de aprovechar Shopping Leblon": {
+    "PT": "Minha forma de aproveitar o Shopping Leblon",
+    "EN": "My way of enjoying Shopping Leblon"
+  },
+  "Qué compraría yo en Shopping Leblon": {
+    "PT": "O que eu compraria no Shopping Leblon",
+    "EN": "What I would buy at Shopping Leblon"
+  },
+  "Restaurante de Shopping Leblon": {
+    "PT": "Restaurante do Shopping Leblon",
+    "EN": "Shopping Leblon restaurant"
+  },
+  "Restaurante italiano en Shopping Leblon": {
+    "PT": "Restaurante italiano no Shopping Leblon",
+    "EN": "Italian restaurant at Shopping Leblon"
+  },
+  "Restaurantes y cultura": {
+    "PT": "Restaurantes e cultura",
+    "EN": "Restaurants and culture"
+  },
+  "Servicios que me parecen útiles para el viajero:": {
+    "PT": "Serviços que considero úteis para o viajante:",
+    "EN": "Services I find useful for travelers:"
+  },
+  "Shopping Leblon no es solamente un lugar para comprar: es una forma cómoda de entrar en el estilo de vida de uno de los barrios más queridos de Río.": {
+    "PT": "O Shopping Leblon não é apenas um lugar para comprar: é uma forma confortável de entrar no estilo de vida de um dos bairros mais queridos do Rio.",
+    "EN": "Shopping Leblon is more than a place to shop: it is a comfortable way into the lifestyle of one of Rio's best-loved neighborhoods."
+  },
+  "Shopping Leblon: compras, gastronomía y estilo de vida carioca en la Zona Sur": {
+    "PT": "Shopping Leblon: compras, gastronomia e estilo de vida carioca na Zona Sul",
+    "EN": "Shopping Leblon: shopping, food and Rio lifestyle in the South Zone"
+  },
+  "Una experiencia urbana en el corazón de Leblon": {
+    "PT": "Uma experiência urbana no coração do Leblon",
+    "EN": "An urban experience in the heart of Leblon"
+  },
+  "Una parada elegante que encaja naturalmente con Leblon": {
+    "PT": "Uma parada elegante que combina naturalmente com o Leblon",
+    "EN": "An elegant stop that fits naturally with Leblon"
+  },
+  "Una pausa más tranquila dentro del paseo": {
+    "PT": "Uma pausa mais tranquila durante o passeio",
+    "EN": "A calmer pause during your outing"
+  },
+  "Yo lo recomiendo cuando ya estás recorriendo Leblon o Ipanema y quieres juntar compras, gastronomía y servicios sin salir de la Zona Sur. Tiene un perfil más cuidado y funciona especialmente bien como pausa entre actividades del barrio.": {
+    "PT": "Eu recomendo quando você já está passeando pelo Leblon ou por Ipanema e quer juntar compras, gastronomia e serviços sem sair da Zona Sul. Tem um perfil mais cuidado e funciona especialmente bem como pausa entre atividades do bairro.",
+    "EN": "I recommend it when you are already exploring Leblon or Ipanema and want shopping, food and services without leaving the South Zone. It has a more refined feel and works especially well as a pause between neighborhood activities."
+  },
+  "atención bilingüe, guarda-volúmenes, cargadores portátiles, sillas de ruedas convencionales y motorizadas, Wi‑Fi, cajeros, cambio, baño familia, fraldário y coche de bebé. El shopping también mantiene atención de Policía Federal relacionada con pasaportes; revisa las condiciones oficiales antes de ir específicamente por ese servicio.": {
+    "PT": "atendimento bilíngue, guarda-volumes, carregadores portáteis, cadeiras de rodas convencionais e motorizadas, Wi-Fi, caixas eletrônicos, câmbio, banheiro família, fraldário e carrinho de bebê. O shopping também mantém atendimento da Polícia Federal relacionado a passaportes; confira as condições oficiais antes de ir especificamente por esse serviço.",
+    "EN": "bilingual service, luggage storage, portable chargers, standard and motorized wheelchairs, Wi-Fi, ATMs, currency exchange, a family bathroom, baby-changing facilities and strollers. The mall also offers Federal Police passport services; check the official conditions before going specifically for that service."
+  },
+  "quien se hospeda en Zona Sur, busca una experiencia más sofisticada, viaja en familia o quiere resolver compras y servicios sin dedicar un día entero.": {
+    "PT": "quem se hospeda na Zona Sul, busca uma experiência mais sofisticada, viaja em família ou quer resolver compras e serviços sem dedicar um dia inteiro.",
+    "EN": "people staying in the South Zone, seeking a more sophisticated experience, traveling with family or wanting shopping and services without spending a whole day."
+  },
+  "Área comercial de Shopping Leblon": {
+    "PT": "Área comercial do Shopping Leblon",
+    "EN": "Shopping Leblon retail area"
+  },
+  "“Shopping Leblon tiene esa mezcla carioca de moda, comida, cultura y vida de barrio.”": {
+    "PT": "“Shopping Leblon tem aquela mistura carioca de moda, comida, cultura e vida de bairro.”",
+    "EN": "“Shopping Leblon has that Rio mix of fashion, food, culture and neighborhood life.”"
+  },
+  "⭐ Consejo de Ernestinho · Shopping Leblon": {
+    "PT": "⭐ Conselho do Ernestinho · Shopping Leblon",
+    "EN": "⭐ Ernestinho's tip · Shopping Leblon"
   }
-
 };

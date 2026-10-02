@@ -110,10 +110,13 @@ function ensureTools() {
     tools=document.createElement("div");tools.className="ec-language-tools";tools.setAttribute("role","group");tools.setAttribute("aria-label","Cambiar idioma");host.appendChild(tools);
   }
   const oldWhatsApp=tools.querySelector('a[href*="wa.me"]');if(oldWhatsApp)oldWhatsApp.remove();
-  let button=tools.querySelector("#lang,[data-lang-toggle]");
+  let button=tools.querySelector("#lang,[data-lang-toggle],[data-ec-desktop-language-group]");
   if(!button){button=document.createElement("div");button.dataset.langToggle="";tools.appendChild(button);}
   if(button.tagName==="BUTTON"){const replacement=document.createElement("div");replacement.dataset.langToggle="";button.replaceWith(replacement);button=replacement;}
   button.classList.add("ec-desktop-language");
+  // Legacy page renderers treat data-lang-toggle as a text-only control.
+  button.removeAttribute("data-lang-toggle");
+  button.dataset.ecDesktopLanguageGroup="";
   button.setAttribute("role","group");button.setAttribute("aria-label","Cambiar idioma");
   button.replaceChildren();
   for(const code of ["ES","PT","EN"]){const choice=document.createElement("button");choice.type="button";choice.className="ec-desktop-language-choice";choice.dataset.desktopLanguage=code;if(document.querySelector("[data-ch-es]"))choice.dataset.ecLanguage=code;choice.textContent=code==="PT"?"PT-BR":code;choice.setAttribute("aria-label",code==="ES"?"Español":code==="PT"?"Português (Brasil)":"English");choice.addEventListener("click",()=>apply(code));button.appendChild(choice);}
@@ -163,7 +166,7 @@ function translateAttrs(lang) {
     ["placeholder", "ecPlaceholder", "i18nPlaceholder"], ["aria-label", "ecAriaLabel", "i18nAriaLabel"],
     ["title", "ecTitle", "i18nTitle"], ["alt", "ecAlt", null], ["content", "ecContent", "i18nContent"]
   ];
-  document.querySelectorAll('[placeholder], [aria-label]:not(#lang):not([data-lang-toggle]), [title], img[alt], meta[name=description], meta[name^="twitter:"], meta[property^="og:"]').forEach(el => {
+  document.querySelectorAll('[placeholder], [aria-label]:not(#lang):not([data-lang-toggle]):not([data-ec-desktop-language-group]), [title], img[alt], meta[name=description], meta[name^="twitter:"], meta[property^="og:"]').forEach(el => {
     for (const [attr, originalKey, translationKey] of attrs) {
       if (!el.hasAttribute(attr) || (translationKey && el.hasAttribute(`data-${translationKey.replace(/[A-Z]/g, m => `-${m.toLowerCase()}`)}`))) continue;
       if (attr === "content" && !(el.tagName === "META")) continue;

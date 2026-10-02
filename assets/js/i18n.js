@@ -63,8 +63,8 @@ export function setLanguage(language) {
     PT: `Idioma atual: ${selected}. Alterar idioma`,
     EN: `Current language: ${selected}. Change language`
   };
-  document.querySelectorAll("#lang, [data-lang-toggle]").forEach(control => {
-    const isGroup = control.matches("[data-lang-toggle]") && (control.getAttribute("role")==="group" || control.querySelector("[data-desktop-language]"));
+  document.querySelectorAll("#lang, [data-lang-toggle], [data-ec-desktop-language-group]").forEach(control => {
+    const isGroup = control.matches("[data-lang-toggle], [data-ec-desktop-language-group]") && (control.getAttribute("role")==="group" || control.querySelector("[data-desktop-language]"));
     if (!isGroup) control.textContent = selected;
     control.setAttribute("aria-label", languageLabels[selected]);
   });
