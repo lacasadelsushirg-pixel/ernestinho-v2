@@ -242,7 +242,7 @@ function GrandesEventosPage({ onBack }) {
                 React.createElement("p", { className: "text-xs text-slate-500 mt-5" }, "\u00DAltima actualizaci\u00F3n editorial: 7 de septiembre de 2026. Horarios, accesos, precios y programaci\u00F3n pueden cambiar.")),
             React.createElement("div", { className: "mt-5 flex flex-col sm:flex-row gap-3" },
                 React.createElement("button", { onClick: () => setSeleccionado(null), className: "bg-slate-900 text-white rounded-full px-6 py-4 font-black" }, "\u2190 Volver a todos los eventos"),
-                React.createElement("a", { href: `https://wa.me/5521969946938?text=${encodeURIComponent(`Hola Ernestinho, quiero información para organizar mi viaje durante ${e.nombre}.`)}`, target: "_blank", rel: "noopener noreferrer", className: "bg-emerald-500 text-slate-950 rounded-full px-6 py-4 font-black text-center" }, "Hablar con Ernestinho"))));
+                React.createElement("a", { href: `https://wa.me/5521969946938?text=${encodeURIComponent(`Hola Ernestinho, quiero información para organizar mi viaje durante ${e.nombre}.`)}`, target: "_blank", rel: "noopener noreferrer", className: "bg-emerald-500 text-slate-950 rounded-full px-6 py-4 font-black text-center" }, "Hablar con Ernestinho")))));
 }
 // ===== SEO ROUTER · ERNESTINHO CARIOCA =====
 window.GrandesEventosPage=GrandesEventosPage;
