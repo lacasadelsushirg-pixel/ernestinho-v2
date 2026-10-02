@@ -116,7 +116,7 @@ function ensureTools() {
   button.classList.add("ec-desktop-language");
   button.setAttribute("role","group");button.setAttribute("aria-label","Cambiar idioma");
   button.replaceChildren();
-  for(const code of ["ES","PT","EN"]){const choice=document.createElement("button");choice.type="button";choice.className="ec-desktop-language-choice";choice.dataset.desktopLanguage=code;choice.textContent=code==="PT"?"PT-BR":code;choice.setAttribute("aria-label",code==="ES"?"Español":code==="PT"?"Português (Brasil)":"English");choice.addEventListener("click",()=>apply(code));button.appendChild(choice);}
+  for(const code of ["ES","PT","EN"]){const choice=document.createElement("button");choice.type="button";choice.className="ec-desktop-language-choice";choice.dataset.desktopLanguage=code;if(document.querySelector("[data-ch-es]"))choice.dataset.ecLanguage=code;choice.textContent=code==="PT"?"PT-BR":code;choice.setAttribute("aria-label",code==="ES"?"Español":code==="PT"?"Português (Brasil)":"English");choice.addEventListener("click",()=>apply(code));button.appendChild(choice);}
   return button;
 }
 async function copyCurrentLink(message) {
