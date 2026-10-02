@@ -353,6 +353,231 @@ export default {
   "eSIM Airalo para viajar a Brasil": {
     "PT": "eSIM Airalo para viajar ao Brasil",
     "EN": "Airalo eSIM for travel to Brazil"
+  },
+
+  ". Es un número personal administrado por la Receita Federal y, aunque tenerlo no te convierte en residente, puede hacer mucho más fácil tu vida si vas a quedarte un tiempo, comprar por internet, contratar ciertos servicios o registrarte como cliente en comercios brasileños.": {
+    "PT": ". É um número pessoal administrado pela Receita Federal e, embora tê-lo não torne você residente, pode facilitar muito sua vida se for ficar algum tempo, comprar pela internet, contratar determinados serviços ou se cadastrar como cliente em lojas brasileiras.",
+    "EN": ". It is a personal number administered by Receita Federal and, although having one does not make you a resident, it can make life much easier if you are staying for a while, shopping online, signing up for certain services or registering as a customer at Brazilian stores."
+  },
+  "CPF desde el exterior ↗": {
+    "PT": "CPF a partir do exterior ↗",
+    "EN": "CPF from abroad ↗"
+  },
+  "CPF na nota y descuentos": {
+    "PT": "CPF na nota e descontos",
+    "EN": "CPF on receipts and discounts"
+  },
+  "CPF para extranjeros en Brasil — Guía Ernestinho Carioca": {
+    "PT": "CPF para estrangeiros no Brasil — Guia Ernestinho Carioca",
+    "EN": "CPF for foreigners in Brazil — Ernestinho Carioca Guide"
+  },
+  "CPF para extranjeros y viajeros": {
+    "PT": "CPF para estrangeiros e viajantes",
+    "EN": "CPF for foreigners and travelers"
+  },
+  "CPF para extranjeros y viajeros | Ernestinho Carioca": {
+    "PT": "CPF para estrangeiros e viajantes · Ernestinho Carioca",
+    "EN": "CPF for foreigners and travelers · Ernestinho Carioca"
+  },
+  "CPF y Pix no son lo mismo": {
+    "PT": "CPF e Pix não são a mesma coisa",
+    "EN": "CPF and Pix are different things"
+  },
+  "Compras por internet": {
+    "PT": "Compras pela internet",
+    "EN": "Online shopping"
+  },
+  "Conecta esta información con tu viaje": {
+    "PT": "Conecte estas informações à sua viagem",
+    "EN": "Connect this information to your trip"
+  },
+  "Consultar situación CPF ↗": {
+    "PT": "Consultar situação do CPF ↗",
+    "EN": "Check CPF status ↗"
+  },
+  "Cuida tus datos": {
+    "PT": "Cuide dos seus dados",
+    "EN": "Protect your data"
+  },
+  "Cómo tramitarlo: enlaces oficiales": {
+    "PT": "Como solicitar: links oficiais",
+    "EN": "How to apply: official links"
+  },
+  "Después de obtenerlo": {
+    "PT": "Depois de obter o CPF",
+    "EN": "After obtaining it"
+  },
+  "Dinero": {
+    "PT": "Dinheiro",
+    "EN": "Money"
+  },
+  "Documentos": {
+    "PT": "Documentos",
+    "EN": "Documents"
+  },
+  "El CPF es un dato personal muy utilizado. Yo no enviaría foto de pasaporte, selfie o documentos a una persona desconocida que prometa “hacer el CPF” más rápido. Empieza por Receita Federal, gov.br o la representación consular correspondiente.": {
+    "PT": "O CPF é um dado pessoal muito utilizado. Eu não enviaria foto de passaporte, selfie ou documentos a um desconhecido que prometa “fazer o CPF” mais rápido. Comece pela Receita Federal, pelo gov.br ou pela representação consular correspondente.",
+    "EN": "CPF is widely used personal information. I would not send a passport photo, selfie or documents to a stranger promising to “get a CPF” faster. Start with Receita Federal, gov.br or the relevant consular representation."
+  },
+  "El CPF puede utilizarse como una llave Pix, pero Pix es el sistema de pagos y el CPF es tu identificación fiscal. Para usar Pix necesitas una cuenta o proveedor que ofrezca ese acceso; sacar CPF por sí solo no crea una cuenta Pix.": {
+    "PT": "O CPF pode ser utilizado como chave Pix, mas Pix é o sistema de pagamentos e CPF é sua identificação fiscal. Para usar Pix, você precisa de uma conta ou de um provedor que ofereça esse acesso; obter CPF, por si só, não cria uma conta Pix.",
+    "EN": "CPF can be used as a Pix key, but Pix is the payment system and CPF is your tax identification. To use Pix, you need an account or provider offering access; obtaining a CPF alone does not create a Pix account."
+  },
+  "El Cadastro de Pessoas Físicas es el registro individual de la Receita Federal. El número es único y definitivo. Pueden inscribirse brasileños y extranjeros, residentes o no residentes en Brasil.": {
+    "PT": "O Cadastro de Pessoas Físicas é o registro individual da Receita Federal. O número é único e definitivo. Brasileiros e estrangeiros, residentes ou não residentes no Brasil, podem se inscrever.",
+    "EN": "Cadastro de Pessoas Físicas is Receita Federal's individual register. The number is unique and permanent. Brazilians and foreigners, whether resident in Brazil or not, can register."
+  },
+  "En la vida cotidiana brasileña el CPF se usa como identificador en muchísimos sistemas. Puede aparecer al abrir cuentas o contratar servicios, hacer compras online, comprar entradas, registrar líneas o aplicaciones, emitir facturas y realizar otros trámites. Cada empresa puede pedir además otros documentos o requisitos.": {
+    "PT": "No cotidiano brasileiro, o CPF é utilizado como identificador em muitos sistemas. Pode aparecer ao abrir contas ou contratar serviços, fazer compras online, comprar ingressos, cadastrar linhas ou aplicativos, emitir notas fiscais e realizar outros procedimentos. Cada empresa pode pedir outros documentos ou requisitos.",
+    "EN": "In everyday Brazilian life, CPF is used as an identifier in many systems. It may come up when opening accounts or signing up for services, shopping online, buying tickets, registering phone lines or apps, issuing invoices and completing other procedures. Each business may also require other documents or conditions."
+  },
+  "En supermercados, farmacias y otras tiendas te pueden preguntar “CPF na nota?” o pedir CPF para el cadastro del cliente. Son cosas distintas: una es asociar la compra al CPF y otra entrar al programa de fidelidad del comercio. Tener CPF puede permitir registrarte en promociones o precios de cliente cuando el establecimiento lo admita, pero el descuento depende de las reglas de cada cadena.": {
+    "PT": "Em supermercados, farmácias e outras lojas, podem perguntar “CPF na nota?” ou pedir CPF para o cadastro do cliente. São coisas diferentes: uma é associar a compra ao CPF, outra é entrar no programa de fidelidade da loja. Ter CPF pode permitir o cadastro em promoções ou preços de cliente quando o estabelecimento aceitar, mas o desconto depende das regras de cada rede.",
+    "EN": "In supermarkets, pharmacies and other stores, you may be asked “CPF na nota?” or for a CPF to create a customer account. These are different things: one links the purchase to your CPF, while the other enrolls you in the store's loyalty program. Having a CPF may let you register for promotions or customer prices where the store allows it, but discounts depend on each chain's rules."
+  },
+  "Esto es importante: obtener CPF no regulariza tu situación migratoria, no sustituye pasaporte, visa, RNM o CRNM y no te da automáticamente derecho a vivir o trabajar en Brasil. Es un registro distinto.": {
+    "PT": "Isto é importante: obter CPF não regulariza sua situação migratória, não substitui passaporte, visto, RNM ou CRNM e não dá automaticamente direito de morar ou trabalhar no Brasil. É um registro diferente.",
+    "EN": "This matters: obtaining a CPF does not regularize your immigration status, replace a passport, visa, RNM or CRNM, or automatically give you the right to live or work in Brazil. It is a separate register."
+  },
+  "GUÍA DE RÍO · ANTES DE VIAJAR": {
+    "PT": "GUIA DO RIO · ANTES DE VIAJAR",
+    "EN": "RIO GUIDE · BEFORE YOU TRAVEL"
+  },
+  "Guarda el número y consulta tu situación cadastral por el canal oficial. Hoy el comprobante puede emitirse por internet; no dependas de una tarjeta física. El número de CPF permanece asociado a la persona.": {
+    "PT": "Guarde o número e consulte sua situação cadastral pelo canal oficial. Hoje, o comprovante pode ser emitido pela internet; não dependa de um cartão físico. O número do CPF permanece associado à pessoa.",
+    "EN": "Keep the number and check your registration status through the official channel. The confirmation document can now be issued online; do not rely on a physical card. The CPF number remains associated with the person."
+  },
+  "Guía de Pix": {
+    "PT": "Guia de Pix",
+    "EN": "Pix guide"
+  },
+  "La Receita Federal informa que personas físicas brasileñas y extranjeras, residentes y no residentes en Brasil, pueden solicitar inscripción. También existe CPF para menores; no hay una edad mínima general para tenerlo.": {
+    "PT": "A Receita Federal informa que pessoas físicas brasileiras e estrangeiras, residentes e não residentes no Brasil, podem solicitar inscrição. Também existe CPF para menores; não há uma idade mínima geral para tê-lo.",
+    "EN": "Receita Federal states that Brazilian and foreign individuals, whether resident in Brazil or not, can apply for registration. Minors can also have a CPF; there is no general minimum age for obtaining one."
+  },
+  "La Receita informa que la inscripción es gratuita por sus canales gratuitos; unidades conveniadas pueden cobrar una tarifa. No necesitas pagar a un intermediario solo para obtener el número.": {
+    "PT": "A Receita informa que a inscrição é gratuita pelos seus canais gratuitos; unidades conveniadas podem cobrar uma tarifa. Você não precisa pagar um intermediário apenas para obter o número.",
+    "EN": "Receita Federal states that registration is free through its free channels; partner offices may charge a fee. You do not need to pay an intermediary just to obtain the number."
+  },
+  "La Receita mantiene canales oficiales para inscripción. Según tu documentación y situación, el procedimiento puede ser electrónico o requerir atención. Para extranjeros que solo disponen de pasaporte como identificación, la Receita advierte que puede ser necesario el atendimento presencial. Comprueba siempre el canal vigente antes de desplazarte.": {
+    "PT": "A Receita mantém canais oficiais para inscrição. Dependendo da sua documentação e situação, o procedimento pode ser eletrônico ou exigir atendimento. Para estrangeiros que só têm passaporte como identificação, a Receita alerta que pode ser necessário atendimento presencial. Confira sempre o canal vigente antes de se deslocar.",
+    "EN": "Receita Federal maintains official registration channels. Depending on your documents and circumstances, the process may be electronic or require assistance. For foreigners whose only identification is a passport, Receita Federal warns that an in-person appointment may be necessary. Always check the current channel before traveling there."
+  },
+  "Los documentos dependen de dónde haces el trámite y de tu situación. La Receita publica opciones de identificación para extranjeros y puede exigir documentación adicional. Documentos extranjeros no siempre necesitan traducción, aunque pueden solicitar apostilla, legalización consular o traducción jurada según el caso.": {
+    "PT": "Os documentos dependem de onde você faz o procedimento e da sua situação. A Receita publica opções de identificação para estrangeiros e pode exigir documentação adicional. Documentos estrangeiros nem sempre precisam de tradução, mas podem exigir apostila, legalização consular ou tradução juramentada conforme o caso.",
+    "EN": "Documents depend on where you apply and your circumstances. Receita Federal publishes identification options for foreigners and may require additional documents. Foreign documents do not always need translation, but an apostille, consular legalization or sworn translation may be requested depending on the case."
+  },
+  "Muchas tiendas y plataformas brasileñas estructuran el checkout alrededor del CPF. Tenerlo puede eliminar una barrera de registro, pero no garantiza que una compra sea aceptada: la tienda puede exigir dirección brasileña, teléfono local, tarjeta compatible u otros datos.": {
+    "PT": "Muitas lojas e plataformas brasileiras estruturam o checkout em torno do CPF. Tê-lo pode eliminar uma barreira de cadastro, mas não garante que a compra seja aceita: a loja pode exigir endereço brasileiro, telefone local, cartão compatível ou outros dados.",
+    "EN": "Many Brazilian stores and platforms structure checkout around CPF. Having one may remove a registration barrier, but it does not guarantee a purchase will be accepted: the store may require a Brazilian address, local phone number, compatible card or other information."
+  },
+  "No es una residencia ni una visa": {
+    "PT": "Não é residência nem visto",
+    "EN": "It is neither residency nor a visa"
+  },
+  "No por el simple hecho de visitar Brasil. La propia Receita distingue entre personas obligadas a inscribirse y quienes pueden hacerlo voluntariamente. Para un viaje corto quizá nunca lo necesites; para estadías más largas o más vida cotidiana en Brasil puede ser bastante práctico.": {
+    "PT": "Não pelo simples fato de visitar o Brasil. A própria Receita diferencia pessoas obrigadas a se inscrever de quem pode fazê-lo voluntariamente. Em uma viagem curta, talvez você nunca precise; em estadias mais longas ou para participar mais do cotidiano brasileiro, pode ser bastante útil.",
+    "EN": "Not simply because you are visiting Brazil. Receita Federal itself distinguishes people required to register from those who may do so voluntarily. You may never need it on a short trip; for longer stays or more everyday life in Brazil, it can be useful."
+  },
+  "Para extranjeros residentes fuera de Brasil, la orientación oficial es solicitar la inscripción presencialmente en la representación consular brasileña correspondiente y utilizar el sistema e-consular cuando el puesto lo requiera. No confundas esto con el correo de CPF para residentes en el exterior: la Receita aclara que ese e-mail no hace la primera inscripción de un extranjero que está fuera de Brasil.": {
+    "PT": "Para estrangeiros residentes fora do Brasil, a orientação oficial é solicitar a inscrição presencialmente na representação consular brasileira correspondente e utilizar o sistema e-consular quando o posto exigir. Não confunda isso com o e-mail de CPF para residentes no exterior: a Receita esclarece que esse e-mail não faz a primeira inscrição de um estrangeiro que está fora do Brasil.",
+    "EN": "For foreigners living outside Brazil, the official guidance is to apply in person at the relevant Brazilian consular representation and use the e-consular system where the post requires it. Do not confuse this with the CPF email for residents abroad: Receita Federal clarifies that this email does not handle first-time registration for foreigners outside Brazil."
+  },
+  "Preparé esta ficha como puerta de entrada. Desde aquí puedes entender pagos, Pix, internet y aplicaciones sin repetir el mismo dato en cuatro páginas distintas.": {
+    "PT": "Preparei esta ficha como porta de entrada. Aqui, você pode entender pagamentos, Pix, internet e aplicativos sem repetir a mesma informação em quatro páginas diferentes.",
+    "EN": "I prepared this page as an introduction. From here, you can understand payments, Pix, internet and apps without repeating the same information on four different pages."
+  },
+  "Qué es el CPF en Brasil, por qué puede aparecer durante tu viaje y cómo entender cuándo realmente lo necesitas.": {
+    "PT": "O que é o CPF no Brasil, por que ele pode aparecer durante sua viagem e como entender quando você realmente precisa dele.",
+    "EN": "What CPF is in Brazil, why it may come up during your trip and how to understand when you actually need it."
+  },
+  "Si estás en Brasil": {
+    "PT": "Se você está no Brasil",
+    "EN": "If you are in Brazil"
+  },
+  "Si todavía estás en el exterior": {
+    "PT": "Se você ainda está no exterior",
+    "EN": "If you are still abroad"
+  },
+  "Si vas a pasar varios días o volver seguido a Brasil, yo sí entendería para qué te sirve antes de descartarlo. El CPF aparece muchísimo en la vida cotidiana. Pero una cosa es que sea práctico y otra que sea obligatorio: no pagues a alguien por “destrabar” una compra sin comprobar primero el canal oficial o la opción para extranjero.": {
+    "PT": "Se você vai passar vários dias ou voltar frequentemente ao Brasil, eu entenderia para que serve antes de descartá-lo. O CPF aparece muito no cotidiano. Mas ser útil é uma coisa, ser obrigatório é outra: não pague alguém para “destravar” uma compra sem verificar primeiro o canal oficial ou a opção para estrangeiros.",
+    "EN": "If you are spending several days in Brazil or returning often, I would understand what it is useful for before dismissing it. CPF comes up frequently in everyday life. But being useful and being mandatory are different: do not pay someone to “unlock” a purchase without first checking the official channel or the option for foreigners."
+  },
+  "Si vienes a Brasil, tarde o temprano vas a encontrarte con tres letras:": {
+    "PT": "Se você vem ao Brasil, mais cedo ou mais tarde vai encontrar três letras:",
+    "EN": "If you come to Brazil, sooner or later you will encounter three letters:"
+  },
+  "Solicitar CPF — gov.br ↗": {
+    "PT": "Solicitar CPF — gov.br ↗",
+    "EN": "Apply for CPF — gov.br ↗"
+  },
+  "Te dejo los accesos que yo usaría antes de cualquier intermediario. Como los procedimientos pueden cambiar, estos botones llevan directamente a las autoridades brasileñas.": {
+    "PT": "Deixo aqui os acessos que eu usaria antes de qualquer intermediário. Como os procedimentos podem mudar, estes botões levam diretamente às autoridades brasileiras.",
+    "EN": "Here are the links I would use before any intermediary. As procedures can change, these buttons lead directly to the Brazilian authorities."
+  },
+  "¿Cuánto cuesta?": {
+    "PT": "Quanto custa?",
+    "EN": "How much does it cost?"
+  },
+  "¿Para qué te puede servir?": {
+    "PT": "Para que pode servir?",
+    "EN": "What can it be useful for?"
+  },
+  "¿Quién puede solicitarlo?": {
+    "PT": "Quem pode solicitar?",
+    "EN": "Who can apply?"
+  },
+  "¿Qué es el CPF?": {
+    "PT": "O que é o CPF?",
+    "EN": "What is CPF?"
+  },
+  "¿Un turista está obligado a tenerlo?": {
+    "PT": "Um turista é obrigado a ter CPF?",
+    "EN": "Is a tourist required to have a CPF?"
+  },
+  "Algunas billeteras y aplicaciones internacionales ofrecen pagos mediante QR Pix a visitantes extranjeros. La disponibilidad, monedas, comisiones, límites y requisitos cambian según el país y el proveedor: comprueba siempre dentro de tu propia aplicación qué servicio está disponible para tu cuenta.": {
+    "PT": "Algumas carteiras e aplicativos internacionais oferecem pagamentos por QR Pix a visitantes estrangeiros. Disponibilidade, moedas, taxas, limites e requisitos variam conforme o país e o provedor: confira sempre no seu próprio aplicativo qual serviço está disponível para sua conta.",
+    "EN": "Some international wallets and apps offer QR Pix payments to foreign visitors. Availability, currencies, fees, limits and requirements vary by country and provider: always check your own app to see which service is available for your account."
+  },
+  "Antes de confirmar un Pix, revisa siempre destinatario, valor y conversión.": {
+    "PT": "Antes de confirmar um Pix, confira sempre destinatário, valor e conversão.",
+    "EN": "Before confirming a Pix payment, always check the recipient, amount and conversion."
+  },
+  "Aplicaciones internacionales con opciones para pagar Pix en Brasil": {
+    "PT": "Aplicativos internacionais com opções para pagar Pix no Brasil",
+    "EN": "International apps with options for paying by Pix in Brazil"
+  },
+  "Apps que permiten a extranjeros usar PIX": {
+    "PT": "Apps que permitem a estrangeiros usar PIX",
+    "EN": "Apps that let foreigners use PIX"
+  },
+  "Opciones internacionales pueden facilitar pagos Pix sin abrir una cuenta bancaria brasileña; compara cambio, comisión y total antes de confirmar.": {
+    "PT": "Opções internacionais podem facilitar pagamentos Pix sem abrir uma conta bancária brasileira; compare câmbio, tarifa e total antes de confirmar.",
+    "EN": "International options may make Pix payments possible without opening a Brazilian bank account; compare the exchange rate, fee and total before confirming."
+  },
+  "Pagando con Pix en Brasil": {
+    "PT": "Pagando com Pix no Brasil",
+    "EN": "Paying with Pix in Brazil"
+  },
+  "Pix en Brasil para viajeros": {
+    "PT": "Pix no Brasil para viajantes",
+    "EN": "Pix in Brazil for travelers"
+  },
+  "Consulados del mundo": {
+    "PT": "Consulados do mundo",
+    "EN": "Consulates around the world"
+  },
+  "Salud y emergencias para viajeros en Río de Janeiro": {
+    "PT": "Saúde e emergências para viajantes no Rio de Janeiro",
+    "EN": "Health and emergencies for travelers in Rio de Janeiro"
+  },
+  "Cómo moverse por Río de Janeiro: metro, VLT, BRT, buses, apps y consejos prácticos para elegir el transporte según cada recorrido.": {
+    "PT": "Como se locomover pelo Rio de Janeiro: metrô, VLT, BRT, ônibus, aplicativos e dicas práticas para escolher o transporte conforme o percurso.",
+    "EN": "Getting around Rio de Janeiro: metro, VLT, BRT, buses, apps and practical tips for choosing transport for each route."
+  },
+  "Ir a Transportes": {
+    "PT": "Ir para Transportes",
+    "EN": "Go to Transport"
   }
 
 };
