@@ -1923,5 +1923,195 @@ export default {
   "← Volver a Transportes": {
     "PT": "← Voltar a Transportes",
     "EN": "← Back to Transport"
+  },
+
+  ", para mí es la opción más rápida y práctica para entrar al Metro: acercas la tarjeta directamente al lector de la catraca y, si la operación es aprobada, pasas.": {
+    "PT": ", para mim é a opção mais rápida e prática para entrar no metrô: você aproxima o cartão do leitor da catraca e, se a operação for aprovada, passa.",
+    "EN": ", for me it is the quickest and most practical way to enter the metro: hold your card near the turnstile reader and, if the transaction is approved, go through."
+  },
+  ", y domingos y feriados de": {
+    "PT": ", e aos domingos e feriados das",
+    "EN": ", and on Sundays and public holidays from"
+  },
+  ". Con esas tres cosas ya resuelves la mayoría de los viajes turísticos. Y si vas a un partido, concierto o Réveillon, no uses automáticamente el horario de un día normal: primero revisa la operación especial.": {
+    "PT": ". Com essas três informações, você já resolve a maioria dos trajetos turísticos. E se vai a um jogo, show ou Réveillon, não use automaticamente o horário de um dia normal: confira primeiro a operação especial.",
+    "EN": ". With those three things, you can already manage most tourist journeys. If you are going to a match, concert or New Year's Eve celebration, do not automatically rely on normal-day hours: check the special service first."
+  },
+  ". La propia empresa advierte que puede modificar esos horarios por factores externos u operaciones especiales. Para garantizar una transferencia entre líneas, debes llegar a la plataforma de transferencia antes del cierre de operación.": {
+    "PT": ". A própria empresa avisa que pode modificar esses horários por fatores externos ou operações especiais. Para garantir uma transferência entre linhas, você precisa chegar à plataforma de transferência antes do encerramento da operação.",
+    "EN": ". The operator itself warns that these hours may change because of external factors or special services. To make a connection between lines, you must reach the transfer platform before service closes."
+  },
+  ". Si solo vas a hacer algunos viajes, yo empezaría revisando el pago por aproximación o el billete unitario antes de comprar una tarjeta específica. MetrôRio también ofrece Giro y medios prepago; el Giro tiene reglas de adquisición, carga y protección de saldo propias.": {
+    "PT": ". Se você vai fazer apenas alguns trajetos, eu começaria conferindo o pagamento por aproximação ou o bilhete unitário antes de comprar um cartão específico. O MetrôRio também oferece Giro e meios pré-pagos; o Giro tem regras próprias de aquisição, recarga e proteção de saldo.",
+    "EN": ". If you are only making a few journeys, I would start by checking contactless payment or a single ticket before buying a dedicated card. MetrôRio also offers Giro and prepaid options; Giro has its own purchase, top-up and balance-protection rules."
+  },
+  "Cuando acompaño a alguien que usa el Metro por primera vez, le digo que no memorice toda la red. Mira": {
+    "PT": "Quando acompanho alguém que usa o metrô pela primeira vez, digo para não decorar a rede inteira. Observe",
+    "EN": "When I accompany someone using the metro for the first time, I tell them not to memorize the whole network. Look at"
+  },
+  "Cómo leo yo el Metro de Río": {
+    "PT": "Como eu entendo o metrô do Rio",
+    "EN": "How I read Rio's metro network"
+  },
+  "Cómo pago: la opción más simple para un turista": {
+    "PT": "Como pagar: a opção mais simples para um turista",
+    "EN": "How to pay: the simplest option for a visitor"
+  },
+  "Horarios que debes tener en cuenta": {
+    "PT": "Horários que você precisa considerar",
+    "EN": "Opening hours to keep in mind"
+  },
+  "LAS LÍNEAS SIN ENREDARSE": {
+    "PT": "AS LINHAS SEM COMPLICAÇÃO",
+    "EN": "MAKING SENSE OF THE LINES"
+  },
+  "La Línea 4 llega a Jardim Oceânico. Desde allí puedes continuar a distintos sectores de Barra y Recreio mediante BRT, app o transporte local según tu destino final.": {
+    "PT": "A Linha 4 chega a Jardim Oceânico. De lá você pode seguir para diferentes áreas da Barra e do Recreio de BRT, aplicativo ou transporte local, conforme seu destino final.",
+    "EN": "Line 4 reaches Jardim Oceânico. From there you can continue to different parts of Barra and Recreio by BRT, ride-hailing app or local transport, depending on your final destination."
+  },
+  "La estación Maracanã sirve al estadio, pero en días de partido debes comprobar accesos, bloqueos y operación especial antes de salir.": {
+    "PT": "A estação Maracanã atende o estádio, mas nos dias de jogo você precisa verificar acessos, bloqueios e operação especial antes de sair.",
+    "EN": "Maracanã station serves the stadium, but on match days you should check entrances, closures and special services before setting out."
+  },
+  "La operación oficial informa actualmente que los trenes de Línea 1/4 circulan entre Uruguai/Tijuca y Jardim Oceânico/Barra, mientras Línea 2 circula entre Pavuna y Botafogo. En fines de semana, feriados y operaciones especiales yo siempre vuelvo a mirar el canal oficial porque las transferencias pueden cambiar.": {
+    "PT": "A operação oficial informa atualmente que os trens da Linha 1/4 circulam entre Uruguai/Tijuca e Jardim Oceânico/Barra, enquanto a Linha 2 circula entre Pavuna e Botafogo. Nos fins de semana, feriados e operações especiais, sempre volto a consultar o canal oficial porque as transferências podem mudar.",
+    "EN": "The official service information currently states that Line 1/4 trains run between Uruguai/Tijuca and Jardim Oceânico/Barra, while Line 2 runs between Pavuna and Botafogo. On weekends, public holidays and special-service days, I always check the official channel again because transfers can change."
+  },
+  "La tarifa pública publicada por MetrôRio es actualmente de": {
+    "PT": "A tarifa pública divulgada pelo MetrôRio atualmente é de",
+    "EN": "The public fare currently published by MetrôRio is"
+  },
+  "Línea 1 · la referencia que yo miro para moverme entre Tijuca, Centro y Zona Sur.": {
+    "PT": "Linha 1 · a referência que consulto para circular entre Tijuca, Centro e Zona Sul.",
+    "EN": "Line 1 · the reference I use to travel between Tijuca, Centro and the South Zone."
+  },
+  "Línea 1:": {
+    "PT": "Linha 1:",
+    "EN": "Line 1:"
+  },
+  "Línea 2 · fundamental para Zona Norte y accesos como Maracanã.": {
+    "PT": "Linha 2 · essencial para a Zona Norte e acessos como o Maracanã.",
+    "EN": "Line 2 · essential for the North Zone and places such as Maracanã."
+  },
+  "Línea 2:": {
+    "PT": "Linha 2:",
+    "EN": "Line 2:"
+  },
+  "Línea 4 · conecta el eje de Ipanema, Leblon, São Conrado y Jardim Oceânico.": {
+    "PT": "Linha 4 · conecta o eixo de Ipanema, Leblon, São Conrado e Jardim Oceânico.",
+    "EN": "Line 4 · connects Ipanema, Leblon, São Conrado and Jardim Oceânico."
+  },
+  "Línea 4:": {
+    "PT": "Linha 4:",
+    "EN": "Line 4:"
+  },
+  "Mapa de la Línea 1 de MetrôRio": {
+    "PT": "Mapa da Linha 1 do MetrôRio",
+    "EN": "Map of MetrôRio Line 1"
+  },
+  "Mapa de la Línea 2 de MetrôRio": {
+    "PT": "Mapa da Linha 2 do MetrôRio",
+    "EN": "Map of MetrôRio Line 2"
+  },
+  "Mapa de la Línea 4 de MetrôRio": {
+    "PT": "Mapa da Linha 4 do MetrôRio",
+    "EN": "Map of MetrôRio Line 4"
+  },
+  "Mapa general de las líneas de MetrôRio": {
+    "PT": "Mapa geral das linhas do MetrôRio",
+    "EN": "General map of MetrôRio lines"
+  },
+  "Mapa general de las líneas de MetrôRio. Yo lo uso para ubicar primero origen, destino y posibles conexiones.": {
+    "PT": "Mapa geral das linhas do MetrôRio. Uso para localizar primeiro a origem, o destino e as possíveis conexões.",
+    "EN": "General map of MetrôRio lines. I use it to find the starting point, destination and possible connections first."
+  },
+  "MetrôRio admite medios de pago por aproximación conforme a sus reglas vigentes. Si tu tarjeta extranjera falla, ten un medio alternativo y revisa con el banco que contactless esté habilitado.": {
+    "PT": "O MetrôRio aceita pagamentos por aproximação conforme suas regras vigentes. Se seu cartão estrangeiro não funcionar, tenha uma alternativa e confirme com o banco se o contactless está habilitado.",
+    "EN": "MetrôRio accepts contactless payment under its current rules. If your foreign card fails, have an alternative and check with your bank that contactless is enabled."
+  },
+  "MetrôRio publica como horario habitual de las líneas 1, 2 y 4 de lunes a sábado de": {
+    "PT": "O MetrôRio publica como horário habitual das linhas 1, 2 e 4, de segunda a sábado, das",
+    "EN": "MetrôRio lists the usual opening hours of lines 1, 2 and 4, Monday to Saturday, as"
+  },
+  "No necesitas comprar un billete unitario ni cargar una tarjeta del Metro solamente para hacer ese viaje.": {
+    "PT": "Você não precisa comprar um bilhete unitário nem carregar um cartão do metrô apenas para fazer esse trajeto.",
+    "EN": "You do not need to buy a single ticket or top up a metro card just for that journey."
+  },
+  "No: MetrôRio informa que los trenes paran en todas las estaciones correspondientes a su línea.": {
+    "PT": "Não: o MetrôRio informa que os trens param em todas as estações da sua linha.",
+    "EN": "No: MetrôRio states that trains stop at every station on their line."
+  },
+  "Preguntas frecuentes del Metro": {
+    "PT": "Perguntas frequentes sobre o metrô",
+    "EN": "Metro frequently asked questions"
+  },
+  "Si tienes una": {
+    "PT": "Se você tem um",
+    "EN": "If you have a"
+  },
+  "Si vas a pagar por aproximación, acerca únicamente el medio que quieres usar a la catraca: evita apoyar una billetera llena de tarjetas porque puedes validar otra sin querer. Si el pago no funciona, no insistas muchas veces: revisa con tu banco si la función contactless está habilitada y usa otro medio disponible.": {
+    "PT": "Se vai pagar por aproximação, aproxime da catraca somente o meio que deseja usar: evite encostar uma carteira cheia de cartões porque pode validar outro sem querer. Se o pagamento não funcionar, não tente muitas vezes: confirme com seu banco se a função contactless está habilitada e use outro meio disponível.",
+    "EN": "If you are paying contactless, hold only the payment method you want to use near the turnstile: avoid tapping a wallet full of cards, as you could accidentally use a different one. If payment fails, do not keep trying repeatedly: check with your bank that contactless is enabled and use another available method."
+  },
+  "Si viajan varias personas:": {
+    "PT": "Se várias pessoas estiverem viajando:",
+    "EN": "If several people are travelling:"
+  },
+  "Sí. Dependiendo del punto de Copacabana, las estaciones más utilizadas son Cardeal Arcoverde, Siqueira Campos y Cantagalo. General Osório sirve especialmente al límite con Ipanema.": {
+    "PT": "Sim. Dependendo da parte de Copacabana, as estações mais usadas são Cardeal Arcoverde, Siqueira Campos e Cantagalo. General Osório atende principalmente a divisa com Ipanema.",
+    "EN": "Yes. Depending on the part of Copacabana, the most commonly used stations are Cardeal Arcoverde, Siqueira Campos and Cantagalo. General Osório mainly serves the border with Ipanema."
+  },
+  "También puedes comprar o cargar otros medios en los tótems y puntos de autoatención, pero para un turista que ya tiene una tarjeta contactless habilitada normalmente es más simple pagar directamente en la catraca.": {
+    "PT": "Você também pode comprar ou carregar outros meios nos totens e pontos de autoatendimento, mas para um turista que já tem um cartão contactless habilitado normalmente é mais simples pagar diretamente na catraca.",
+    "EN": "You can also buy or top up other payment methods at the kiosks and self-service points, but for a visitor who already has an enabled contactless card, paying directly at the turnstile is usually simpler."
+  },
+  "atraviesa Tijuca, Centro y Zona Sur. Para un visitante, es muy útil para estaciones del Centro, Flamengo, Botafogo y conexiones hacia Copacabana.": {
+    "PT": "atravessa Tijuca, Centro e Zona Sul. Para um visitante, é muito útil para estações do Centro, Flamengo, Botafogo e conexões para Copacabana.",
+    "EN": "runs through Tijuca, Centro and the South Zone. For a visitor, it is useful for stations in Centro, Flamengo and Botafogo, and connections towards Copacabana."
+  },
+  "conecta Pavuna y Zona Norte; en la operación regular llega hasta Botafogo. Para Maracaná, São Cristóvão y varios desplazamientos de Zona Norte es fundamental.": {
+    "PT": "conecta Pavuna e Zona Norte; na operação regular chega até Botafogo. Para Maracanã, São Cristóvão e vários trajetos na Zona Norte, é fundamental.",
+    "EN": "connects Pavuna and the North Zone; in regular service it reaches Botafogo. It is essential for Maracanã, São Cristóvão and various North Zone journeys."
+  },
+  "prolonga el eje de Zona Sur desde General Osório hacia Nossa Senhora da Paz, Jardim de Alah, Antero de Quental, São Conrado y Jardim Oceânico. Jardim Oceânico es además una conexión clave con BRT para Barra y Recreio.": {
+    "PT": "prolonga o eixo da Zona Sul de General Osório até Nossa Senhora da Paz, Jardim de Alah, Antero de Quental, São Conrado e Jardim Oceânico. Jardim Oceânico também é uma conexão importante com o BRT para Barra e Recreio.",
+    "EN": "extends the South Zone route from General Osório to Nossa Senhora da Paz, Jardim de Alah, Antero de Quental, São Conrado and Jardim Oceânico. Jardim Oceânico is also a key BRT connection for Barra and Recreio."
+  },
+  "tarjeta bancaria con pago por aproximación (contactless)": {
+    "PT": "cartão bancário com pagamento por aproximação (contactless)",
+    "EN": "bank card with contactless payment"
+  },
+  "tu estación, el destino final que marca el sentido y dónde debes bajar": {
+    "PT": "sua estação, o destino final que indica o sentido e onde deve descer",
+    "EN": "your station, the final destination indicating the direction, and where to get off"
+  },
+  "yo recomiendo que cada una use su propio medio de pago. Algunas tarjetas o bancos permiten uno o dos usos consecutivos y después pueden bloquear temporalmente nuevas aproximaciones por seguridad. Por eso no contaría con una sola tarjeta bancaria para hacer pasar inmediatamente a todo un grupo.": {
+    "PT": "recomendo que cada pessoa use seu próprio meio de pagamento. Alguns cartões ou bancos permitem um ou dois usos consecutivos e depois podem bloquear temporariamente novas aproximações por segurança. Por isso, eu não contaria com um único cartão bancário para fazer todo um grupo passar imediatamente.",
+    "EN": "I recommend that each person uses their own payment method. Some cards or banks allow one or two consecutive uses and may then temporarily block further taps for security. I would therefore not rely on a single bank card to let an entire group through immediately."
+  },
+  "¿Copacabana tiene Metro?": {
+    "PT": "Copacabana tem metrô?",
+    "EN": "Does Copacabana have a metro?"
+  },
+  "¿Cómo llego hacia Barra?": {
+    "PT": "Como chego à Barra?",
+    "EN": "How do I get to Barra?"
+  },
+  "¿Los trenes son expresos?": {
+    "PT": "Os trens são expressos?",
+    "EN": "Are the trains express services?"
+  },
+  "¿Puedo pagar acercando una tarjeta?": {
+    "PT": "Posso pagar aproximando um cartão?",
+    "EN": "Can I pay by tapping a card?"
+  },
+  "¿Qué estación uso para Maracaná?": {
+    "PT": "Qual estação uso para o Maracanã?",
+    "EN": "Which station should I use for Maracanã?"
+  },
+  "⭐ Consejo de Ernestinho · La forma más rápida de pagar": {
+    "PT": "⭐ Conselho do Ernestinho · A forma mais rápida de pagar",
+    "EN": "⭐ Ernestinho's tip · The quickest way to pay"
   }
+
 };

@@ -29,5 +29,57 @@ const EN={
  "experience.full-day-rio.copy":"A day to understand the city and take home its iconic views.","experience.angra-ilha-grande.copy":"Sea, islands and a day at a different pace.","experience.arraial-do-cabo.copy":"Clear waters and scenery from another coast.","experience.buzios.copy":"Coastal views, a day out and a different pace beyond Rio.","experience.rio-samba-bus.copy":"A musical panoramic city tour with the freedom to hop on and off.","experience.carnaval-experience.copy":"History, costumes, samba and a look behind the scenes of Rio’s Carnival.","experience.pequena-africa.copy":"Afro-Brazilian memory across Rio’s Port Zone.",
  "shop.barrashopping.copy":"Services, connections and one of Barra’s biggest shopping options.","shop.shopping-leblon.copy":"A Zona Sul stop that pairs easily with Leblon.","shop.saara.copy":"Popular shopping, lively streets and another side of Rio."
 };
+
+Object.assign(ES, {
+  "door.arte-y-cultura.title": "Arte y Cultura",
+  "door.arte-y-cultura.copy": "Museos, teatros, centros culturales, bibliotecas, fuertes e iglesias.",
+  "experience.full-day-rio.title": "Full Day Río",
+  "experience.vuelo-en-parapente.title": "Vuelo en parapente",
+  "experience.vuelo-en-parapente.copy": "Parapente desde Parque da Cidade, Niterói, sujeto a las condiciones del viento.",
+  "experience.un-dia-de-partido-en-maracana.title": "Un día de partido en Maracaná",
+  "experience.un-dia-de-partido-en-maracana.copy": "Vive el fútbol carioca con acompañamiento y logística organizada.",
+  "experience.carnaval-experience.title": "Carnaval Experience",
+  "experience.rio-samba-bus.title": "Rio Samba Bus",
+  "experience.arraial-do-cabo.title": "Arraial do Cabo",
+  "experience.angra-dos-reis.title": "Angra dos Reis",
+  "experience.angra-dos-reis.copy": "Islas, navegación y playas en un día completo.",
+  "shop.barrashopping.title": "BarraShopping",
+  "shop.shopping-leblon.title": "Shopping Leblon",
+  "shop.saara.title": "SAARA"
+});
+Object.assign(PT, {
+  "door.arte-y-cultura.title": "Arte e Cultura",
+  "door.arte-y-cultura.copy": "Museus, teatros, centros culturais, bibliotecas, fortes e igrejas.",
+  "experience.full-day-rio.title": "Full Day Rio",
+  "experience.vuelo-en-parapente.title": "Voo de parapente",
+  "experience.vuelo-en-parapente.copy": "Parapente a partir do Parque da Cidade, Niterói, sujeito às condições do vento.",
+  "experience.un-dia-de-partido-en-maracana.title": "Um dia de jogo no Maracanã",
+  "experience.un-dia-de-partido-en-maracana.copy": "Viva o futebol carioca com acompanhamento e logística organizada.",
+  "experience.carnaval-experience.title": "Carnaval Experience",
+  "experience.rio-samba-bus.title": "Rio Samba Bus",
+  "experience.arraial-do-cabo.title": "Arraial do Cabo",
+  "experience.angra-dos-reis.title": "Angra dos Reis",
+  "experience.angra-dos-reis.copy": "Ilhas, navegação e praias em um dia completo.",
+  "shop.barrashopping.title": "BarraShopping",
+  "shop.shopping-leblon.title": "Shopping Leblon",
+  "shop.saara.title": "SAARA"
+});
+Object.assign(EN, {
+  "door.arte-y-cultura.title": "Art and Culture",
+  "door.arte-y-cultura.copy": "Museums, theaters, cultural centers, libraries, forts and churches.",
+  "experience.full-day-rio.title": "Full Day Rio",
+  "experience.vuelo-en-parapente.title": "Paragliding flight",
+  "experience.vuelo-en-parapente.copy": "Paragliding from Parque da Cidade, Niterói, subject to wind conditions.",
+  "experience.un-dia-de-partido-en-maracana.title": "A match day at Maracanã",
+  "experience.un-dia-de-partido-en-maracana.copy": "Experience Rio football with support and organized logistics.",
+  "experience.carnaval-experience.title": "Carnaval Experience",
+  "experience.rio-samba-bus.title": "Rio Samba Bus",
+  "experience.arraial-do-cabo.title": "Arraial do Cabo",
+  "experience.angra-dos-reis.title": "Angra dos Reis",
+  "experience.angra-dos-reis.copy": "Islands, sailing and beaches in a full day.",
+  "shop.barrashopping.title": "BarraShopping",
+  "shop.shopping-leblon.title": "Shopping Leblon",
+  "shop.saara.title": "SAARA"
+});
 document.documentElement.dataset.i18nModule = "home";
 registerTranslations("home", { ES, PT, EN });

@@ -302,5 +302,147 @@ export default {
   "Playas de Río | Ernestinho Carioca. Cada playa tiene su ritmo. Aquí tienes las fichas reales que ya habíamos construido para elegir mejor.": {
     "PT": "Praias do Rio | Ernestinho Carioca. Cada praia tem seu ritmo. Aqui estão as fichas reais que já tínhamos criado para você escolher melhor.",
     "EN": "Rio’s beaches | Ernestinho Carioca. Each beach has its own rhythm. Here are the guides we had already built to help you choose."
+  },
+
+  "Descubre la personalidad, atractivos, ubicación exacta e imágenes de cada una de las playas de la Ciudad Maravillosa.": {
+    "PT": "Descubra a personalidade, os atrativos, a localização exata e as imagens de cada uma das praias da Cidade Maravilhosa.",
+    "EN": "Discover the character, attractions, exact location and images of each beach in the Marvelous City."
+  },
+  "Las Playas de Río": {
+    "PT": "As Praias do Rio",
+    "EN": "Rio's Beaches"
+  },
+  "Litoral Carioca Completo": {
+    "PT": "Litoral Carioca Completo",
+    "EN": "The Complete Rio Coastline"
+  },
+  "Lo que debes saber de esta playa:": {
+    "PT": "O que você precisa saber sobre esta praia:",
+    "EN": "What you need to know about this beach:"
+  },
+  "Ver Video": {
+    "PT": "Ver Vídeo",
+    "EN": "Watch Video"
+  },
+  "Playa de Abricó foto 1": {
+    "PT": "Praia de Abricó foto 1",
+    "EN": "Abricó beach photo 1"
+  },
+  "Playa de Abricó foto 2": {
+    "PT": "Praia de Abricó foto 2",
+    "EN": "Abricó beach photo 2"
+  },
+  "Playa de Arpoador foto 1": {
+    "PT": "Praia de Arpoador foto 1",
+    "EN": "Arpoador beach photo 1"
+  },
+  "Playa de Arpoador foto 2": {
+    "PT": "Praia de Arpoador foto 2",
+    "EN": "Arpoador beach photo 2"
+  },
+  "Playa de Botafogo foto 1": {
+    "PT": "Praia de Botafogo foto 1",
+    "EN": "Botafogo beach photo 1"
+  },
+  "Playa de Botafogo foto 2": {
+    "PT": "Praia de Botafogo foto 2",
+    "EN": "Botafogo beach photo 2"
+  },
+  "Playa de Copacabana foto 1": {
+    "PT": "Praia de Copacabana foto 1",
+    "EN": "Copacabana beach photo 1"
+  },
+  "Playa de Copacabana foto 2": {
+    "PT": "Praia de Copacabana foto 2",
+    "EN": "Copacabana beach photo 2"
+  },
+  "Playa de Ipanema foto 1": {
+    "PT": "Praia de Ipanema foto 1",
+    "EN": "Ipanema beach photo 1"
+  },
+  "Playa de Ipanema foto 2": {
+    "PT": "Praia de Ipanema foto 2",
+    "EN": "Ipanema beach photo 2"
+  },
+  "Playa de Joatinga foto 1": {
+    "PT": "Praia de Joatinga foto 1",
+    "EN": "Joatinga beach photo 1"
+  },
+  "Playa de Joatinga foto 2": {
+    "PT": "Praia de Joatinga foto 2",
+    "EN": "Joatinga beach photo 2"
+  },
+  "Playa de Leblon foto 1": {
+    "PT": "Praia de Leblon foto 1",
+    "EN": "Leblon beach photo 1"
+  },
+  "Playa de Leblon foto 2": {
+    "PT": "Praia de Leblon foto 2",
+    "EN": "Leblon beach photo 2"
+  },
+  "Playa de Leme foto 1": {
+    "PT": "Praia de Leme foto 1",
+    "EN": "Leme beach photo 1"
+  },
+  "Playa de Leme foto 2": {
+    "PT": "Praia de Leme foto 2",
+    "EN": "Leme beach photo 2"
+  },
+  "Playa de Recreio dos Bandeirantes foto 1": {
+    "PT": "Praia de Recreio dos Bandeirantes foto 1",
+    "EN": "Recreio dos Bandeirantes beach photo 1"
+  },
+  "Playa de Recreio dos Bandeirantes foto 2": {
+    "PT": "Praia de Recreio dos Bandeirantes foto 2",
+    "EN": "Recreio dos Bandeirantes beach photo 2"
+  },
+  "Playa de São Conrado foto 1": {
+    "PT": "Praia de São Conrado foto 1",
+    "EN": "São Conrado beach photo 1"
+  },
+  "Playa de São Conrado foto 2": {
+    "PT": "Praia de São Conrado foto 2",
+    "EN": "São Conrado beach photo 2"
+  },
+  "Praia Vermelha foto 1": {
+    "PT": "Praia Vermelha foto 1",
+    "EN": "Vermelha beach photo 1"
+  },
+  "Praia Vermelha foto 2": {
+    "PT": "Praia Vermelha foto 2",
+    "EN": "Vermelha beach photo 2"
+  },
+  "Praia da Reserva foto 1": {
+    "PT": "Praia da Reserva foto 1",
+    "EN": "Reserva beach photo 1"
+  },
+  "Praia da Reserva foto 2": {
+    "PT": "Praia da Reserva foto 2",
+    "EN": "Reserva beach photo 2"
+  },
+  "Praia do Diabo (Playa del Diablo) foto 1": {
+    "PT": "Praia do Diabo (Praia do Diabo) foto 1",
+    "EN": "Diabo (Devil’s Beach) beach photo 1"
+  },
+  "Praia do Diabo (Playa del Diablo) foto 2": {
+    "PT": "Praia do Diabo (Praia do Diabo) foto 2",
+    "EN": "Diabo (Devil’s Beach) beach photo 2"
+  },
+  "Praia dos Amores (Barra) foto 1": {
+    "PT": "Praia dos Amores (Barra) foto 1",
+    "EN": "Amores (Barra) beach photo 1"
+  },
+  "Praia dos Amores (Barra) foto 2": {
+    "PT": "Praia dos Amores (Barra) foto 2",
+    "EN": "Amores (Barra) beach photo 2"
+  },
+  "Prainha do Vidigal foto 1": {
+    "PT": "Prainha do Vidigal foto 1",
+    "EN": "Prainha do Vidigal beach photo 1"
+  },
+  "Prainha do Vidigal foto 2": {
+    "PT": "Prainha do Vidigal foto 2",
+    "EN": "Prainha do Vidigal beach photo 2"
   }
+
 };

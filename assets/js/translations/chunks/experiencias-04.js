@@ -722,5 +722,183 @@ export default {
   "💡 Consejo de Ernestinho": {
     "PT": "💡 Conselho do Ernestinho",
     "EN": "💡 Ernestinho’s tip"
+  },
+
+  "COTIZAR": {
+    "PT": "SOLICITAR ORÇAMENTO",
+    "EN": "REQUEST A QUOTE"
+  },
+  "Desde R$766 por persona": {
+    "PT": "A partir de R$766 por pessoa",
+    "EN": "From R$766 per person"
+  },
+  "Moto-taxi, Laboriaux, capoeira, becos, miradores y vida local.": {
+    "PT": "Moto-táxi, Laboriaux, capoeira, becos, mirantes e vida local.",
+    "EN": "Motorcycle taxi, Laboriaux, capoeira, alleyways, viewpoints and local life."
+  },
+  "Naturaleza y mirador sobre São Conrado, Barra y Pedra da Gávea.": {
+    "PT": "Natureza e mirante sobre São Conrado, Barra e Pedra da Gávea.",
+    "EN": "Nature and a viewpoint overlooking São Conrado, Barra and Pedra da Gávea."
+  },
+  "R$250 · descuento grupos": {
+    "PT": "R$250 · desconto para grupos",
+    "EN": "R$250 · group discount"
+  },
+  "Sendero, naturaleza y una de las fotografías más famosas de la Zona Oeste.": {
+    "PT": "Trilha, natureza e uma das fotografias mais famosas da Zona Oeste.",
+    "EN": "A trail, nature and one of the most famous photo spots in the West Zone."
+  },
+  "Vestuario, túnel, historia y borde del campo en el templo del fútbol brasileño.": {
+    "PT": "Vestiário, túnel, história e beira do campo no templo do futebol brasileiro.",
+    "EN": "Dressing room, tunnel, history and the edge of the pitch at the temple of Brazilian football."
+  },
+  "Vidigal, bosque y una panorámica espectacular de la Zona Sur y Rocinha.": {
+    "PT": "Vidigal, floresta e uma vista panorâmica espetacular da Zona Sul e de Rocinha.",
+    "EN": "Vidigal, forest and spectacular panoramic views of the South Zone and Rocinha."
+  },
+  "1 · MOTO-TAXI + MIRADOR": {
+    "PT": "1 · MOTO-TÁXI + MIRANTE",
+    "EN": "1 · MOTORCYCLE TAXI + VIEWPOINT"
+  },
+  "2 · CAPOEIRA": {
+    "PT": "2 · CAPOEIRA",
+    "EN": "2 · CAPOEIRA"
+  },
+  "3 · BECOS + MIRADORES": {
+    "PT": "3 · BECOS + MIRANTES",
+    "EN": "3 · ALLEYWAYS + VIEWPOINTS"
+  },
+  "Ahora sí, entramos en la Rocinha": {
+    "PT": "Agora sim, entramos na Rocinha",
+    "EN": "Now we enter Rocinha"
+  },
+  "Conoce el Brasil de verdad": {
+    "PT": "Conheça o Brasil de verdade",
+    "EN": "Discover the real Brazil"
+  },
+  "Consulta condiciones para grupos privados.": {
+    "PT": "Consulte as condições para grupos privados.",
+    "EN": "Enquire about arrangements for private groups."
+  },
+  "Desde nuestro punto de encuentro subimos en moto-taxi hasta el Mirador Laboriaux, uno de los puntos altos de la comunidad. Allí la ciudad se abre frente a ti: una panorámica de aproximadamente 180° para reconocer muchas de las postales de Río mientras comenzamos a conversar sobre Rocinha, su historia y su territorio.": {
+    "PT": "Do nosso ponto de encontro, subimos de moto-táxi até o Mirante Laboriaux, um dos pontos altos da comunidade. Ali a cidade se abre diante de você: uma vista panorâmica de aproximadamente 180° para reconhecer muitas das paisagens do Rio enquanto começamos a conversar sobre a Rocinha, sua história e seu território.",
+    "EN": "From our meeting point, we take a motorcycle taxi up to Laboriaux Viewpoint, one of the community's high points. The city opens up before you: an approximately 180° panorama showing many of Rio's famous sights as we begin talking about Rocinha, its history and its territory."
+  },
+  "Después llega uno de los momentos más especiales: un show de capoeira. Más que una presentación, es una puerta para conocer una expresión cultural afrobrasileña marcada por historia, resistencia, música y comunidad. Podrás aprender algunos movimientos, participar y compartir con jóvenes que mantienen viva esta tradición.": {
+    "PT": "Depois chega um dos momentos mais especiais: uma apresentação de capoeira. Mais do que um espetáculo, é uma porta de entrada para conhecer uma expressão cultural afro-brasileira marcada por história, resistência, música e comunidade. Você poderá aprender alguns movimentos, participar e compartilhar o momento com jovens que mantêm essa tradição viva.",
+    "EN": "Then comes one of the most special moments: a capoeira show. More than a performance, it is a way to discover an Afro-Brazilian cultural expression shaped by history, resistance, music and community. You can learn some movements, take part and share the moment with young people who keep this tradition alive."
+  },
+  "EXPERIENCIA ERNESTINHO": {
+    "PT": "EXPERIÊNCIA ERNESTINHO",
+    "EN": "ERNESTINHO EXPERIENCE"
+  },
+  "En el camino pasamos por espacios de convivencia y por la cancha deportiva. Muchas veces surge la oportunidad de conversar con jóvenes de la comunidad e incluso compartir un pequeño partido de fútbol. No es una actividad armada para la foto: son esos encuentros espontáneos los que hacen que cada salida sea diferente.": {
+    "PT": "No caminho passamos por espaços de convivência e pela quadra esportiva. Muitas vezes surge a oportunidade de conversar com jovens da comunidade e até compartilhar uma pequena partida de futebol. Não é uma atividade montada para a foto: são esses encontros espontâneos que tornam cada passeio diferente.",
+    "EN": "Along the way we pass community spaces and the sports court. There is often an opportunity to talk with local young people and even join a short football game. This is not an activity staged for a photo: these spontaneous encounters make every outing different."
+  },
+  "Experiencia cultural en Rocinha": {
+    "PT": "Experiência cultural na Rocinha",
+    "EN": "Cultural experience in Rocinha"
+  },
+  "Historia, resistencia y movimiento": {
+    "PT": "História, resistência e movimento",
+    "EN": "History, resistance and movement"
+  },
+  "Imágenes originales de nuestro recorrido por Rocinha.": {
+    "PT": "Imagens originais do nosso passeio pela Rocinha.",
+    "EN": "Original images from our tour through Rocinha."
+  },
+  "La experiencia empieza subiendo": {
+    "PT": "A experiência começa na subida",
+    "EN": "The experience starts on the way up"
+  },
+  "Miradores y callejones de Rocinha": {
+    "PT": "Mirantes e becos da Rocinha",
+    "EN": "Rocinha's viewpoints and alleyways"
+  },
+  "No es solamente mirar una favela desde afuera. Es entrar con respeto, escuchar su historia, recorrer sus callejones y descubrir un Río que también se construye desde aquí.": {
+    "PT": "Não é apenas olhar uma favela de fora. É entrar com respeito, ouvir sua história, percorrer seus becos e descobrir um Rio que também se constrói aqui.",
+    "EN": "This is more than looking at a favela from the outside. It means entering respectfully, hearing its history, walking its alleyways and discovering a Rio that is also shaped here."
+  },
+  "Nuestros guías están preparados para responder tus preguntas con respeto y contexto. Pregunta, escucha, observa. Rocinha no se resume en una postal y justamente ahí está la fuerza de esta experiencia.": {
+    "PT": "Nossos guias estão preparados para responder às suas perguntas com respeito e contexto. Pergunte, escute, observe. A Rocinha não cabe em uma única imagem, e é justamente aí que está a força desta experiência.",
+    "EN": "Our guides are ready to answer your questions with respect and context. Ask, listen and observe. Rocinha cannot be summed up in a single picture, and that is precisely what makes this experience powerful."
+  },
+  "Quiero que este recorrido te deje algo más que fotografías. Quiero que salgas entendiendo mejor los contrastes, la creatividad y la complejidad de Río de Janeiro.": {
+    "PT": "Quero que este passeio deixe mais do que fotografias. Quero que você saia entendendo melhor os contrastes, a criatividade e a complexidade do Rio de Janeiro.",
+    "EN": "I want this tour to leave you with more than photographs. I want you to leave with a better understanding of Rio de Janeiro's contrasts, creativity and complexity."
+  },
+  "Rocinha vista desde dentro de la comunidad.": {
+    "PT": "Rocinha vista de dentro da comunidade.",
+    "EN": "Rocinha seen from within the community."
+  },
+  "Rocinha · fotografía original Ernestinho": {
+    "PT": "Rocinha · fotografia original Ernestinho",
+    "EN": "Rocinha · original Ernestinho photograph"
+  },
+  "Rocinha · recorrido original Ernestinho": {
+    "PT": "Rocinha · passeio original Ernestinho",
+    "EN": "Rocinha · original Ernestinho tour"
+  },
+  "Seguimos por becos, escaleras y callejones hasta algunos de sus miradores. Hay varios y nuestro guía elegirá el más conveniente según el ritmo del grupo y las condiciones del día. Desde allí aparece la verdadera dimensión de Rocinha: sus construcciones, sus desniveles, la montaña, la ciudad y miles de historias conviviendo en un mismo paisaje.": {
+    "PT": "Seguimos por becos, escadas e vielas até alguns de seus mirantes. Há vários, e nosso guia escolherá o mais adequado ao ritmo do grupo e às condições do dia. Dali se revela a verdadeira dimensão da Rocinha: suas construções, seus desníveis, a montanha, a cidade e milhares de histórias convivendo na mesma paisagem.",
+    "EN": "We continue through alleyways, stairways and narrow streets to some of its viewpoints. There are several, and our guide will choose the most suitable one for the group's pace and the day's conditions. From there, Rocinha's true scale emerges: its buildings, slopes, the mountain, the city and thousands of stories sharing the same landscape."
+  },
+  "Tour Rocinha con Ernestinho": {
+    "PT": "Tour Rocinha com Ernestinho",
+    "EN": "Rocinha tour with Ernestinho"
+  },
+  "VALOR POR PERSONA": {
+    "PT": "VALOR POR PESSOA",
+    "EN": "PRICE PER PERSON"
+  },
+  "Ven a vivir una experiencia única e inolvidable en Rocinha, una comunidad enorme, intensa y llena de historias. La propuesta es conocerla acompañado por un guía que entiende su realidad y puede explicarte lo que estás viendo: su origen, sus transformaciones, su vida cotidiana y la fuerza de quienes la construyen todos los días.": {
+    "PT": "Venha viver uma experiência única e inesquecível na Rocinha, uma comunidade enorme, intensa e cheia de histórias. A proposta é conhecê-la com um guia que entende sua realidade e pode explicar o que você está vendo: sua origem, suas transformações, seu cotidiano e a força de quem a constrói todos os dias.",
+    "EN": "Come and enjoy a unique, unforgettable experience in Rocinha, a vast, vibrant community full of stories. The aim is to explore it with a guide who understands its reality and can explain what you are seeing: its origins, its changes, its daily life and the strength of the people who shape it every day."
+  },
+  "Video Tour Rocinha Ernestinho Carioca": {
+    "PT": "Vídeo Tour Rocinha Ernestinho Carioca",
+    "EN": "Rocinha Tour video Ernestinho Carioca"
+  },
+  "Vive Rocinha con guía local: moto-taxi, Mirador Laboriaux, capoeira, callejones, miradores y la vida real de una de las comunidades más conocidas de Río.": {
+    "PT": "Viva a Rocinha com guia local: moto-táxi, Mirante Laboriaux, capoeira, becos, mirantes e a vida real de uma das comunidades mais conhecidas do Rio.",
+    "EN": "Experience Rocinha with a local guide: motorcycle taxi, Laboriaux Viewpoint, capoeira, alleyways, viewpoints and real life in one of Rio's best-known communities."
+  },
+  "Y todavía puede pasar mucho más": {
+    "PT": "E ainda pode acontecer muito mais",
+    "EN": "And much more can still happen"
+  },
+  "✓ Acompañamiento durante el recorrido": {
+    "PT": "✓ Acompanhamento durante o passeio",
+    "EN": "✓ Assistance throughout the tour"
+  },
+  "✓ Horarios de mañana y tarde": {
+    "PT": "✓ Horários de manhã e à tarde",
+    "EN": "✓ Morning and afternoon departures"
+  },
+  "✓ Opción para grupos privados": {
+    "PT": "✓ Opção para grupos privados",
+    "EN": "✓ Private group option"
+  },
+  "✓ Salidas todos los días": {
+    "PT": "✓ Saídas todos os dias",
+    "EN": "✓ Daily departures"
+  },
+  "✓ Subida en moto-taxi": {
+    "PT": "✓ Subida de moto-táxi",
+    "EN": "✓ Motorcycle taxi ride up"
+  },
+  "✓ Tasa de acceso incluida": {
+    "PT": "✓ Taxa de acesso incluída",
+    "EN": "✓ Access fee included"
+  },
+  "🎥 Opcional: video viral con dron, sujeto a disponibilidad y condiciones": {
+    "PT": "🎥 Opcional: vídeo viral com drone, sujeito à disponibilidade e às condições",
+    "EN": "🎥 Optional: viral drone video, subject to availability and conditions"
+  },
+  "📅 Reservar Rocinha": {
+    "PT": "📅 Reservar Rocinha",
+    "EN": "📅 Book Rocinha"
   }
+
 };

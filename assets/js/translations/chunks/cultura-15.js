@@ -1106,5 +1106,187 @@ export default {
   "['Funciona en el antiguo Colégio José Bonifácio.', 'Está dentro del territorio de la Pequena África.', 'Trabaja con el concepto de museo territorial.', 'El Cais do Valongo es Patrimonio Mundial de la Unesco.', 'Su construcción incluye participación comunitaria.', 'La entrada es gratuita.']": {
     "PT": "[\"Funciona no antigo Colégio José Bonifácio.\",\"Fica na Pequena África.\",\"Trabalha com o conceito de museu territorial.\",\"Cais do Valongo é Patrimônio Mundial da Unesco.\",\"Sua construção inclui participação comunitária.\",\"A entrada é gratuita.\"]",
     "EN": "[\"It operates in the former Colégio José Bonifácio.\",\"It is within Pequena África.\",\"It uses the territorial-museum concept.\",\"Cais do Valongo is a UNESCO World Heritage Site.\",\"Its development includes community participation.\",\"Admission is free.\"]"
+  },
+
+  "6 CATEGORÍAS": {
+    "PT": "6 CATEGORIAS",
+    "EN": "6 CATEGORIES"
+  },
+  "ARTE Y CULTURA": {
+    "PT": "ARTE E CULTURA",
+    "EN": "ART AND CULTURE"
+  },
+  "Arte y Cultura en Río de Janeiro": {
+    "PT": "Arte e Cultura no Rio de Janeiro",
+    "EN": "Art and Culture in Rio de Janeiro"
+  },
+  "Bibliotecas en Río de Janeiro": {
+    "PT": "Bibliotecas no Rio de Janeiro",
+    "EN": "Libraries in Rio de Janeiro"
+  },
+  "Bibliotecas, centros culturales y fortalezas con historia, fotos y datos para preparar la visita.": {
+    "PT": "Bibliotecas, centros culturais e fortalezas com história, fotos e informações para preparar a visita.",
+    "EN": "Libraries, cultural centers and forts with history, photos and information to help plan your visit."
+  },
+  "Bibliotecas, espacios literarios y lugares donde se conserva la memoria escrita de la ciudad.": {
+    "PT": "Bibliotecas, espaços literários e lugares onde a memória escrita da cidade é preservada.",
+    "EN": "Libraries, literary spaces and places that preserve the city's written memory."
+  },
+  "Centros culturales con exposiciones, música, cine, memoria y programación durante todo el año.": {
+    "PT": "Centros culturais com exposições, música, cinema, memória e programação durante todo o ano.",
+    "EN": "Cultural centers with exhibitions, music, cinema, memory and year-round programming."
+  },
+  "Centros culturales en Río de Janeiro": {
+    "PT": "Centros culturais no Rio de Janeiro",
+    "EN": "Cultural centers in Rio de Janeiro"
+  },
+  "Cultura de Río": {
+    "PT": "Cultura do Rio",
+    "EN": "Rio Culture"
+  },
+  "Cultura, bibliotecas y fortalezas | Ernestinho Carioca": {
+    "PT": "Cultura, bibliotecas e fortalezas | Ernestinho Carioca",
+    "EN": "Culture, libraries and forts | Ernestinho Carioca"
+  },
+  "Explora 43 espacios culturales, bibliotecas históricas y fortalezas de Río y alrededores, con fotos e información práctica.": {
+    "PT": "Explore 43 espaços culturais, bibliotecas históricas e fortalezas do Rio e arredores, com fotos e informações práticas.",
+    "EN": "Explore 43 cultural spaces, historic libraries and forts in Rio and its surroundings, with photos and practical information."
+  },
+  "Fortificaciones históricas, patrimonio militar y vistas privilegiadas de la bahía.": {
+    "PT": "Fortificações históricas, patrimônio militar e vistas privilegiadas da baía.",
+    "EN": "Historic fortifications, military heritage and exceptional views of the bay."
+  },
+  "Fuertes en Río de Janeiro": {
+    "PT": "Fortes no Rio de Janeiro",
+    "EN": "Forts in Rio de Janeiro"
+  },
+  "HISTORIA, ARTE Y MEMORIA": {
+    "PT": "HISTÓRIA, ARTE E MEMÓRIA",
+    "EN": "HISTORY, ART AND MEMORY"
+  },
+  "Iglesias": {
+    "PT": "Igrejas",
+    "EN": "Churches"
+  },
+  "Iglesias en Río de Janeiro": {
+    "PT": "Igrejas no Rio de Janeiro",
+    "EN": "Churches in Rio de Janeiro"
+  },
+  "Iglesias, conventos y patrimonio religioso que ayudan a contar la historia de Río.": {
+    "PT": "Igrejas, conventos e patrimônio religioso que ajudam a contar a história do Rio.",
+    "EN": "Churches, convents and religious heritage that help tell Rio's story."
+  },
+  "La información de horarios, valores, reservas y accesibilidad es una referencia editorial recopilada; puede cambiar. Confirma las condiciones directamente con cada espacio antes de salir.": {
+    "PT": "As informações sobre horários, preços, reservas e acessibilidade são uma referência editorial compilada e podem mudar. Confirme as condições diretamente com cada espaço antes de sair.",
+    "EN": "Opening hours, prices, reservations and accessibility are compiled editorial information and may change. Confirm the details directly with each venue before setting out."
+  },
+  "Museos de historia, arte, ciencia y memoria para descubrir otras capas de Río.": {
+    "PT": "Museus de história, arte, ciência e memória para descobrir outras camadas do Rio.",
+    "EN": "Museums of history, art, science and memory to discover other layers of Rio."
+  },
+  "Museos en Río de Janeiro": {
+    "PT": "Museus no Rio de Janeiro",
+    "EN": "Museums in Rio de Janeiro"
+  },
+  "Organicé esta guía en seis grandes categorías para que encuentres rápidamente el tipo de patrimonio y espacio cultural que quieres conocer.": {
+    "PT": "Organizei este guia em seis grandes categorias para que você encontre rapidamente o tipo de patrimônio e espaço cultural que deseja conhecer.",
+    "EN": "I organized this guide into six main categories so you can quickly find the kind of heritage and cultural space you want to discover."
+  },
+  "Teatros en Río de Janeiro": {
+    "PT": "Teatros no Rio de Janeiro",
+    "EN": "Theaters in Rio de Janeiro"
+  },
+  "Teatros históricos y espacios escénicos donde arquitectura y programación cultural se encuentran.": {
+    "PT": "Teatros históricos e espaços cênicos onde arquitetura e programação cultural se encontram.",
+    "EN": "Historic theaters and performance spaces where architecture and cultural programming meet."
+  },
+  "28 LUGARES": {
+    "PT": "28 LUGARES",
+    "EN": "28 PLACES"
+  },
+  "Arte popular y cultura brasileña": {
+    "PT": "Arte popular e cultura brasileira",
+    "EN": "Folk art and Brazilian culture"
+  },
+  "Aviación, historia y tecnología": {
+    "PT": "Aviação, história e tecnologia",
+    "EN": "Aviation, history and technology"
+  },
+  "Aviones históricos y la evolución de la aviación brasileña": {
+    "PT": "Aviões históricos e a evolução da aviação brasileira",
+    "EN": "Historic aircraft and the evolution of Brazilian aviation"
+  },
+  "Ciencia, energía y educación": {
+    "PT": "Ciência, energia e educação",
+    "EN": "Science, energy and education"
+  },
+  "Ciencia, salud y diversión dentro del histórico campus de Manguinhos": {
+    "PT": "Ciência, saúde e diversão no histórico campus de Manguinhos",
+    "EN": "Science, health and fun on the historic Manguinhos campus"
+  },
+  "Ciencia, salud y educación": {
+    "PT": "Ciência, saúde e educação",
+    "EN": "Science, health and education"
+  },
+  "Diversidad, memoria y culturas vivas de los pueblos originarios de Brasil": {
+    "PT": "Diversidade, memória e culturas vivas dos povos originários do Brasil",
+    "EN": "Diversity, memory and living cultures of Brazil's Indigenous peoples"
+  },
+  "Experimentos interactivos para comprender la electricidad y la sostenibilidad": {
+    "PT": "Experimentos interativos para compreender a eletricidade e a sustentabilidade",
+    "EN": "Interactive experiments to understand electricity and sustainability"
+  },
+  "Fútbol y memoria deportiva": {
+    "PT": "Futebol e memória esportiva",
+    "EN": "Football and sporting memory"
+  },
+  "Historia naval y patrimonio marítimo": {
+    "PT": "História naval e patrimônio marítimo",
+    "EN": "Naval history and maritime heritage"
+  },
+  "La formación de Brasil contada desde el mar": {
+    "PT": "A formação do Brasil contada pelo mar",
+    "EN": "Brazil's formation told through the sea"
+  },
+  "La mayor colección de arte popular brasileño en un museo rodeado de naturaleza": {
+    "PT": "A maior coleção de arte popular brasileira em um museu cercado de natureza",
+    "EN": "The largest collection of Brazilian folk art in a museum surrounded by nature"
+  },
+  "La vida y la obra de uno de los mayores compositores de Brasil": {
+    "PT": "A vida e a obra de um dos maiores compositores do Brasil",
+    "EN": "The life and work of one of Brazil's greatest composers"
+  },
+  "Memoria, resistencia y las voces que construyeron el samba carioca": {
+    "PT": "Memória, resistência e as vozes que construíram o samba carioca",
+    "EN": "Memory, resistance and the voices that shaped Rio's samba"
+  },
+  "Museos de Río": {
+    "PT": "Museus do Rio",
+    "EN": "Rio's Museums"
+  },
+  "Museos de Río | Ernestinho Carioca": {
+    "PT": "Museus do Rio | Ernestinho Carioca",
+    "EN": "Rio's Museums | Ernestinho Carioca"
+  },
+  "Museos de Río: guía de Ernestinho Carioca con fotos, contexto e información práctica.": {
+    "PT": "Museus do Rio: guia do Ernestinho Carioca com fotos, contexto e informações práticas.",
+    "EN": "Rio's museums: Ernestinho Carioca's guide with photos, context and practical information."
+  },
+  "Música y memoria": {
+    "PT": "Música e memória",
+    "EN": "Music and memory"
+  },
+  "Pueblos indígenas y antropología": {
+    "PT": "Povos indígenas e antropologia",
+    "EN": "Indigenous peoples and anthropology"
+  },
+  "Samba, carnaval y cultura afrobrasileña": {
+    "PT": "Samba, carnaval e cultura afro-brasileira",
+    "EN": "Samba, Carnival and Afro-Brazilian culture"
+  },
+  "Títulos, ídolos y la pasión del club más popular de Brasil": {
+    "PT": "Títulos, ídolos e a paixão pelo clube mais popular do Brasil",
+    "EN": "Titles, idols and the passion for Brazil's most popular football club"
   }
+
 };

@@ -687,5 +687,215 @@ export default {
   "Pregunta": {"PT": "Pergunta", "EN": "Question"},
   "destacada": {"PT": "em destaque", "EN": "featured"},
   "Busca:": {"PT":"Procure:","EN":"Look for:"},
-  "Consejos de Ernestinho": {"PT":"Conselhos do Ernestinho","EN":"Ernestinho’s Tips"}
+  "Consejos de Ernestinho": {"PT":"Conselhos do Ernestinho","EN":"Ernestinho’s Tips"},
+
+  "20 Errores que debes evitar sí o sí en Río de Janeiro": {
+    "PT": "20 erros que você precisa evitar no Rio de Janeiro",
+    "EN": "20 mistakes you must avoid in Rio de Janeiro"
+  },
+  "50 preguntas antes de venir a Río": {
+    "PT": "50 perguntas antes de vir ao Rio",
+    "EN": "50 questions before coming to Rio"
+  },
+  "Atardeceres inolvidables": {
+    "PT": "Pôr do sol inesquecível",
+    "EN": "Unforgettable sunsets"
+  },
+  "Consejos esenciales": {
+    "PT": "Dicas essenciais",
+    "EN": "Essential tips"
+  },
+  "Consejos reales y sin complicaciones": {
+    "PT": "Dicas reais e sem complicação",
+    "EN": "Real tips without the complications"
+  },
+  "Cosas que nadie te explica antes de venir": {
+    "PT": "Coisas que ninguém explica antes de você vir",
+    "EN": "Things nobody explains before you come"
+  },
+  "Cómo funciona un rodízio brasileño": {
+    "PT": "Como funciona um rodízio brasileiro",
+    "EN": "How a Brazilian rodízio works"
+  },
+  "Errores de Google Maps que pueden hacerte perder tiempo": {
+    "PT": "Erros do Google Maps que podem fazer você perder tempo",
+    "EN": "Google Maps mistakes that can waste your time"
+  },
+  "Guía completa antes del viaje": {
+    "PT": "Guia completo antes da viagem",
+    "EN": "Complete guide before your trip"
+  },
+  "Ideas para organizar cada día, ahorrar tiempo y entender cómo funciona Río.": {
+    "PT": "Ideias para organizar cada dia, economizar tempo e entender como o Rio funciona.",
+    "EN": "Ideas for planning each day, saving time and understanding how Rio works."
+  },
+  "Organiza y vive tu viaje": {
+    "PT": "Organize e viva sua viagem",
+    "EN": "Plan and enjoy your trip"
+  },
+  "Por qué viajar con seguro": {
+    "PT": "Por que viajar com seguro",
+    "EN": "Why travel with insurance"
+  },
+  "Portugués para sobrevivir en Río": {
+    "PT": "Português para se virar no Rio",
+    "EN": "Portuguese to get by in Rio"
+  },
+  "Qué descubrir en un supermercado brasileño": {
+    "PT": "O que descobrir em um supermercado brasileiro",
+    "EN": "What to discover in a Brazilian supermarket"
+  },
+  "Qué hacer cada día": {
+    "PT": "O que fazer a cada dia",
+    "EN": "What to do each day"
+  },
+  "Qué revisar antes de salir del alojamiento": {
+    "PT": "O que conferir antes de sair da hospedagem",
+    "EN": "What to check before leaving your accommodation"
+  },
+  "Recorrido Zona Portuaria y Centro de Río": {
+    "PT": "Passeio pela Zona Portuária e pelo Centro do Rio",
+    "EN": "A walk through Rio's Port Zone and Centro"
+  },
+  "Río en 1, 2, 3, 4, 5, 6 o 7 días": {
+    "PT": "Rio em 1, 2, 3, 4, 5, 6 ou 7 dias",
+    "EN": "Rio in 1, 2, 3, 4, 5, 6 or 7 days"
+  },
+  "Souvenirs y regalos para llevar": {
+    "PT": "Lembranças e presentes para levar",
+    "EN": "Souvenirs and gifts to take home"
+  },
+  "Trampas y cobros que debes conocer": {
+    "PT": "Armadilhas e cobranças que você precisa conhecer",
+    "EN": "Tourist traps and charges you should know about"
+  },
+  "Un día completo cuando llueve": {
+    "PT": "Um dia completo quando chove",
+    "EN": "A full day when it rains"
+  },
+  "09:00 · Familias · cubierto": {
+    "PT": "09:00 · Famílias · coberto",
+    "EN": "09:00 · Families · Indoors"
+  },
+  "10:00 · Ciencia + arte · misma zona": {
+    "PT": "10:00 · Ciência + arte · mesma região",
+    "EN": "10:00 · Science + art · Same area"
+  },
+  "10:30 · Centro cultural · económico": {
+    "PT": "10:30 · Centro cultural · econômico",
+    "EN": "10:30 · Cultural center · Budget-friendly"
+  },
+  "12:30 · Gastronomía · Centro": {
+    "PT": "12:30 · Gastronomia · Centro",
+    "EN": "12:30 · Food · Centro"
+  },
+  "14:00 · Literatura + arquitectura": {
+    "PT": "14:00 · Literatura + arquitetura",
+    "EN": "14:00 · Literature + architecture"
+  },
+  "15:30 · Arquitectura + espectáculo": {
+    "PT": "15:30 · Arquitetura + espetáculo",
+    "EN": "15:30 · Architecture + performance"
+  },
+  "16:00 · Ciencia · familias y adultos": {
+    "PT": "16:00 · Ciência · famílias e adultos",
+    "EN": "16:00 · Science · Families and adults"
+  },
+  "16:30 · Fútbol · mayormente cubierto": {
+    "PT": "16:30 · Futebol · em grande parte coberto",
+    "EN": "16:30 · Football · Mostly indoors"
+  },
+  "17:00 · Plan alternativo por barrio": {
+    "PT": "17:00 · Programa alternativo por bairro",
+    "EN": "17:00 · Alternative plan by neighborhood"
+  },
+  "18:00 · No todo tiene que ser museo": {
+    "PT": "18:00 · Nem tudo precisa ser museu",
+    "EN": "18:00 · It does not all have to be museums"
+  },
+  "20:00 · Noche · confirmar agenda": {
+    "PT": "20:00 · Noite · confirmar programação",
+    "EN": "20:00 · Evening · Confirm the schedule"
+  },
+  "Almuerzo con historia": {
+    "PT": "Almoço com história",
+    "EN": "Lunch with history"
+  },
+  "AquaRio + Boulevard bajo lluvia moderada": {
+    "PT": "AquaRio + Boulevard com chuva moderada",
+    "EN": "AquaRio + Boulevard in moderate rain"
+  },
+  "AquaRio es una de las alternativas más fáciles cuando el tiempo está feo. Si la lluvia baja, el Boulevard Olímpico permite moverte entre atracciones cercanas sin cruzar la ciudad.": {
+    "PT": "O AquaRio é uma das alternativas mais fáceis quando o tempo está ruim. Se a chuva diminuir, o Boulevard Olímpico permite circular entre atrações próximas sem atravessar a cidade.",
+    "EN": "AquaRio is one of the easiest alternatives in bad weather. If the rain eases, Olympic Boulevard lets you move between nearby attractions without crossing the city."
+  },
+  "Dos grandes opciones en Praça Mauá. Son especialmente útiles porque puedes construir medio día cultural con traslados cortos. Comprueba qué museo cierra ese día antes de salir.": {
+    "PT": "Duas ótimas opções na Praça Mauá. São especialmente úteis porque permitem montar meio dia cultural com deslocamentos curtos. Confira qual museu fecha nesse dia antes de sair.",
+    "EN": "Two great options in Praça Mauá. They are especially useful because you can build a cultural half-day around short journeys. Check which museum closes that day before setting out."
+  },
+  "El Centro concentra espacios culturales cubiertos muy cerca entre sí. CCBB suele ser uno de los mejores refugios culturales; combina según exposiciones, horarios y la intensidad real de la lluvia.": {
+    "PT": "O Centro reúne espaços culturais cobertos bem próximos uns dos outros. O CCBB costuma ser um dos melhores refúgios culturais; combine as visitas conforme exposições, horários e a intensidade real da chuva.",
+    "EN": "Centro has indoor cultural spaces very close to one another. CCBB is often one of the best cultural refuges; combine visits according to exhibitions, opening hours and how heavy the rain actually is."
+  },
+  "El Real Gabinete es breve pero impresionante. Si las visitas y horarios coinciden, combínalo con Biblioteca Nacional, Cinelândia y otros interiores del Centro.": {
+    "PT": "O Real Gabinete é uma visita breve, mas impressionante. Se as visitas e os horários coincidirem, combine com Biblioteca Nacional, Cinelândia e outros espaços internos do Centro.",
+    "EN": "The Real Gabinete is a short but impressive visit. If visits and opening hours line up, combine it with Biblioteca Nacional, Cinelândia and other indoor spaces in Centro."
+  },
+  "Feira de São Cristóvão, shopping, cine o boliche": {
+    "PT": "Feira de São Cristóvão, shopping, cinema ou boliche",
+    "EN": "Feira de São Cristóvão, a mall, cinema or bowling"
+  },
+  "Museu da República, MAM, Casa Museu Eva Klabin u otros museos": {
+    "PT": "Museu da República, MAM, Casa Museu Eva Klabin ou outros museus",
+    "EN": "Museu da República, MAM, Casa Museu Eva Klabin or other museums"
+  },
+  "No existe una única ruta de lluvia. Elige un museo cercano a tu alojamiento o al siguiente plan para no gastar el día dentro de Uber. La guía reúne decenas de museos y centros culturales.": {
+    "PT": "Não existe um único roteiro para a chuva. Escolha um museu perto da sua hospedagem ou do próximo programa para não passar o dia dentro do Uber. O guia reúne dezenas de museus e centros culturais.",
+    "EN": "There is no single rainy-day route. Choose a museum near your accommodation or next activity so you do not spend the day in an Uber. The guide brings together dozens of museums and cultural centers."
+  },
+  "Para amantes del fútbol es una buena salida cuando no quieres pasar el día mirando cuadros. Confirma operación del tour y considera que los accesos exteriores siguen dependiendo de la lluvia.": {
+    "PT": "Para quem gosta de futebol, é uma boa saída quando não quer passar o dia olhando quadros. Confirme o funcionamento do tour e lembre que os acessos externos continuam sujeitos à chuva.",
+    "EN": "For football fans, this is a good option when you do not want to spend the day looking at paintings. Confirm that the tour is operating and remember that outdoor access is still affected by rain."
+  },
+  "Samba, gastronomía o espectáculo": {
+    "PT": "Samba, gastronomia ou espetáculo",
+    "EN": "Samba, food or a performance"
+  },
+  "Si existe visita guiada o función compatible, el Theatro Municipal transforma una tarde gris en uno de los planes más memorables del Centro. Consulta programación antes de desplazarte.": {
+    "PT": "Se houver visita guiada ou espetáculo em horário compatível, o Theatro Municipal transforma uma tarde cinzenta em um dos programas mais memoráveis do Centro. Consulte a programação antes de se deslocar.",
+    "EN": "If a guided tour or performance fits your schedule, Theatro Municipal turns a grey afternoon into one of Centro's most memorable outings. Check the program before travelling there."
+  },
+  "Si quieres algo más relajado, revisa Feira de São Cristóvão cuando esté operando, shoppings, cine, boliche, escape room, kart indoor o Hotzone. Son buenas salidas para familias y grupos.": {
+    "PT": "Se quiser algo mais tranquilo, confira a Feira de São Cristóvão quando estiver funcionando, shoppings, cinema, boliche, escape room, kart indoor ou Hotzone. São boas opções para famílias e grupos.",
+    "EN": "If you want something more relaxed, check Feira de São Cristóvão when it is operating, malls, cinema, bowling, escape rooms, indoor karting or Hotzone. They are good options for families and groups."
+  },
+  "Theatro Municipal o visita cultural en Cinelândia": {
+    "PT": "Theatro Municipal ou visita cultural na Cinelândia",
+    "EN": "Theatro Municipal or a cultural visit in Cinelândia"
+  },
+  "Un día completo en Río cuando llueve": {
+    "PT": "Um dia completo no Rio quando chove",
+    "EN": "A full day in Rio when it rains"
+  },
+  "Un día completo en Río cuando llueve | Ernestinho Carioca": {
+    "PT": "Um dia completo no Rio quando chove | Ernestinho Carioca",
+    "EN": "A full day in Rio when it rains | Ernestinho Carioca"
+  },
+  "Un plan atractivo y cubierto para transformar la lluvia en una jornada cultural, gastronómica y divertida.": {
+    "PT": "Um programa atraente e coberto para transformar a chuva em um dia cultural, gastronômico e divertido.",
+    "EN": "An appealing indoor plan to turn the rain into a day of culture, food and fun."
+  },
+  "Una alternativa que muchos turistas olvidan: exposiciones de astronomía y sesiones de cúpula según programación. Funciona especialmente bien con niños, adolescentes o si ya hiciste los museos del Centro.": {
+    "PT": "Uma alternativa que muitos turistas esquecem: exposições de astronomia e sessões de cúpula conforme a programação. Funciona muito bem com crianças, adolescentes ou se você já visitou os museus do Centro.",
+    "EN": "An alternative many visitors forget: astronomy exhibitions and dome shows according to the schedule. It works especially well with children, teenagers or if you have already visited Centro's museums."
+  },
+  "Una noche de lluvia no tiene por qué terminar en el hotel. Revisa samba en espacios cubiertos, restaurantes con música, Rio Scenarium u otra programación identificada y organiza el regreso.": {
+    "PT": "Uma noite de chuva não precisa terminar no hotel. Confira samba em espaços cobertos, restaurantes com música, Rio Scenarium ou outra programação identificada e organize a volta.",
+    "EN": "A rainy evening does not have to end at the hotel. Check indoor samba venues, restaurants with music, Rio Scenarium or another confirmed event, and arrange your journey back."
+  },
+  "Usa la lluvia para sentarte sin culpa: Colombo, restaurantes tradicionales del Centro, buffet por kilo o un boteco clásico pueden formar parte del recorrido en vez de ser solamente una pausa.": {
+    "PT": "Aproveite a chuva para sentar sem culpa: Colombo, restaurantes tradicionais do Centro, buffet a quilo ou um boteco clássico podem fazer parte do passeio, em vez de ser apenas uma pausa.",
+    "EN": "Use the rain as a reason to sit down without guilt: Colombo, traditional Centro restaurants, a pay-by-weight buffet or a classic boteco can be part of the outing rather than just a break."
+  }
+
 };
