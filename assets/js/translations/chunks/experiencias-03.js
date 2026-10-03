@@ -299,10 +299,6 @@ export default {
     "PT": "Escuna",
     "EN": "Schooner"
   },
-  "Horario": {
-    "PT": "Horário",
-    "EN": "Schedule"
-  },
   "La embarcación cuenta con música, servicio de bar y baños. Las goletas en Búzios no pueden acercarse a la franja de arena, por lo que el baño se realiza alrededor de la embarcación. El paseo está sujeto a condiciones climáticas y autorización de la Marina de Brasil; si la navegación es prohibida, la actividad puede realizarse por tierra.": {
     "PT": "A embarcação tem música, serviço de bar e banheiros. As escunas em Búzios não podem se aproximar da faixa de areia, por isso o banho é feito ao redor da embarcação. O passeio depende das condições climáticas e da autorização da Marinha do Brasil; se a navegação for proibida, a atividade poderá ser feita por terra.",
     "EN": "The boat has music, bar service and toilets. Schooners in Búzios cannot approach the sand, so swimming takes place around the boat. The trip is subject to weather conditions and Brazilian Navy authorisation; if navigation is prohibited, the activity may take place on land."

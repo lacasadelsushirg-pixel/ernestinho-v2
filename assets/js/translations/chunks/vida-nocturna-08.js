@@ -43,10 +43,6 @@ export default {
     "PT": "A proposta acompanha bem a música: petiscos de boteco, pratos para compartilhar, cerveja, chope e coquetelaria. Não trataria apenas como lugar para ver um show; serve também para sentar diante do mar, comer e deixar a noite acontecer.",
     "EN": "The food complements the music: bar snacks, sharing dishes, beer, draught beer and cocktails. I would not treat it only as a place to see a show; it also works for sitting by the sea, eating and letting the evening unfold."
   },
-  "Música": {
-    "PT": "Música",
-    "EN": "Music"
-  },
   "Para mí, esta es una de esas opciones que explican muy bien la noche carioca sin salir de Copacabana: samba frente al mar, gente animada y el Posto 4 como escenario.": {
     "PT": "Para mim, esta opção explica bem a noite carioca sem sair de Copacabana: samba diante do mar, gente animada e o Posto 4 como cenário.",
     "EN": "For me this option captures Rio nightlife without leaving Copacabana: samba by the sea, lively people and Posto 4 as the setting."

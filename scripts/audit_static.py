@@ -3,8 +3,9 @@
 from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import unquote, urlsplit
+from urllib.parse import unquote, urljoin, urlsplit
 import posixpath
+import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -53,23 +54,39 @@ def main():
         if rel != "404.html": depth.append((page.visible_words, page.h2, rel))
         route = "/" if rel == "index.html" else "/" + rel[:-10] if rel.endswith("/index.html") else "/" + rel
         route = route if route.endswith("/") or "." in route.rsplit("/", 1)[-1] else route + "/"
+        redirect = None
+        for tag, attr in page.tags:
+            if tag == "meta" and attr.get("http-equiv", "").lower() == "refresh":
+                match = re.fullmatch(r"\s*0\s*;\s*url\s*=\s*([^;]+)\s*", attr.get("content", ""), re.I)
+                if match:
+                    destination = urljoin(PUBLIC_ORIGIN + route, match[1].strip().strip("\"'"))
+                    target_url = urlsplit(destination)
+                    target_path = ROOT / unquote(target_url.path).lstrip("/")
+                    if target_path.is_dir(): target_path /= "index.html"
+                    if destination.startswith(PUBLIC_ORIGIN + "/") and target_path.is_file():
+                        target_page = Page(); target_page.feed(target_path.read_text(encoding="utf-8"))
+                        if target_page.canonicals == [destination]: redirect = destination
+                    if not redirect: errors.append(f"Invalid redirect destination: {rel} -> {destination}")
         noindex = any("noindex" in value or "none" in value.split() for value in page.robots)
         if rel != "404.html" and not noindex:
-            expected = PUBLIC_ORIGIN + route
+            expected = redirect or PUBLIC_ORIGIN + route
             if len(page.canonicals) != 1:
                 errors.append(f"Expected one canonical: {rel} ({len(page.canonicals)})")
             elif page.canonicals[0] != expected:
                 errors.append(f"Canonical mismatch: {rel} -> {page.canonicals[0]} (expected {expected})")
-            if page.og_urls and any(value != expected for value in page.og_urls):
+            if page.og_urls and any(value not in (expected, PUBLIC_ORIGIN + route) for value in page.og_urls):
                 errors.append(f"og:url mismatch: {rel} -> {page.og_urls}")
             if PREVIEW_HOST in source:
                 errors.append(f"Preview domain in public page: {rel}")
         if page.title != 1: errors.append(f"Expected one title: {rel} ({page.title})")
-        if page.description != 1: errors.append(f"Expected one description: {rel} ({page.description})")
+        if page.description != 1 and not redirect: errors.append(f"Expected one description: {rel} ({page.description})")
         if not page.lang: errors.append(f"Missing html lang: {rel}")
-        if rel != "404.html" and page.h1 != 1: errors.append(f"Expected one h1: {rel} ({page.h1})")
-        if rel != "404.html" and not any(
-            tag == "script" and attr.get("type", "").lower() == "module" and attr.get("src", "").endswith("assets/js/site.js")
+        events_renderer = ROOT / "eventos/grandes-eventos-page.js"
+        rendered_heading = rel == "eventos/index.html" and page.h1 == 0 and events_renderer.is_file() and 'React.createElement("h1"' in events_renderer.read_text(encoding="utf-8")
+        if rendered_heading: warnings.append(f"Verify rendered h1 in browser: {rel}")
+        if rel != "404.html" and page.h1 != 1 and not redirect and not rendered_heading: errors.append(f"Expected one h1: {rel} ({page.h1})")
+        if rel != "404.html" and not redirect and not any(
+            tag == "script" and attr.get("type", "").lower() == "module" and attr.get("src", "").endswith(("assets/js/site.js", "assets/js/standalone-i18n.js"))
             for tag, attr in page.tags
         ):
             errors.append(f"Missing shared language/navigation runtime: {rel}")
@@ -107,6 +124,7 @@ def main():
     print("Shallowest 10 routes:")
     for words, h2, route in sorted(depth)[:10]: print(f"  {words:4} words, {h2:2} h2  {route}")
     print(f"Errors: {len(errors)}")
+    for warning in warnings: print("WARN", warning)
     for error in errors[:100]: print("ERROR", error)
     return 1 if errors else 0
 

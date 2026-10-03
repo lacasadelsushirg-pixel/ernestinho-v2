@@ -63,10 +63,6 @@ export default {
     "PT": "Glória · Flamengo · orla da Baía de Guanabara",
     "EN": "Glória · Flamengo · Guanabara Bay waterfront"
   },
-  "Gratuito": {
-    "PT": "Gratuito",
-    "EN": "Free"
-  },
   "Historia": {
     "PT": "História",
     "EN": "History"

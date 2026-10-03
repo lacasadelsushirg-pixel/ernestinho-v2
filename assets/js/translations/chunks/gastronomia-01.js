@@ -1,4 +1,3 @@
-// Exact ES-to-PT/EN matches from the read-only V1 translation catalogue.
 export default {
 ".": {
 "PT": ".",
@@ -643,10 +642,6 @@ export default {
 "Menús creativos dentro de un antiguo casarón de la Rua do Senado.": {
 "PT": "Menus criativos dentro de um antigo casarão da Rua do Senado.",
 "EN": "Creative menus inside an old mansion on Rua do Senado."
-},
-"Música": {
-"PT": "Música",
-"EN": "Music"
 },
 "Música en vivo": {
 "PT": "Música ao vivo",
@@ -4215,10 +4210,6 @@ export default {
 "Terraza, cocina costera y una mesa generosa para mirar Ipanema sin apuro.": {
 "PT": "Terraço, cozinha costeira e uma mesa generosa para contemplar Ipanema sem pressa.",
 "EN": "A terrace, coastal cooking and a generous table for watching Ipanema at an unhurried pace."
-},
-"Todos": {
-"PT": "Todos",
-"EN": "All"
 },
 "Todos los barrios": {
 "PT": "Todos os bairros",

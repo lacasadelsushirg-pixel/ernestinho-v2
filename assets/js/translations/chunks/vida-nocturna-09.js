@@ -55,10 +55,6 @@ export default {
     "PT": "A localização é residencial, em ruas tranquilas. Para voltar, peço transporte antes de o grupo se dispersar e confirmo embarque na porta ou em esquina iluminada. A estação Botafogo fica a uma caminhada; se for a pé, abra o mapa para calcular o caminho exato de onde está.",
     "EN": "The location is residential with quiet streets. For the return, I request transport before the group disperses and confirm pickup at the door or a lit corner. Botafogo station is walking distance away; if walking, open a map to calculate the exact route from your location."
   },
-  "Lo que yo haría": {
-    "PT": "O que eu faria",
-    "EN": "What I would do"
-  },
   "Lunes y martes, cerrado": {
     "PT": "Segunda e terça, fechado",
     "EN": "Monday and Tuesday, closed"

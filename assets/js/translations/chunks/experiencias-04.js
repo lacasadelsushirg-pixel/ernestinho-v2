@@ -487,10 +487,6 @@ export default {
     "PT": "Clique na imagem e veja a emoção da prévia e do futebol carioca.",
     "EN": "Click the image to see the excitement of the pre-match gathering and Rio football."
   },
-  "Horario por confirmar": {
-    "PT": "Horário a confirmar",
-    "EN": "Time to be confirmed"
-  },
   "Horario por definir": {
     "PT": "Horário a definir",
     "EN": "Time to be determined"
@@ -719,7 +715,6 @@ export default {
     "PT": "💡 Conselho do Ernestinho",
     "EN": "💡 Ernestinho’s tip"
   },
-
   "COTIZAR": {
     "PT": "SOLICITAR ORÇAMENTO",
     "EN": "REQUEST A QUOTE"
@@ -896,7 +891,6 @@ export default {
     "PT": "📅 Reservar Rocinha",
     "EN": "📅 Book Rocinha"
   },
-
   "AquaRio reúne miles de animales marinos y decenas de recintos dedicados a distintos ecosistemas. Tiburones, rayas, cardúmenes y especies de formas y colores increíbles van preparando el camino para el punto que casi todos esperan: el gran tanque oceánico.": {
     "PT": "O AquaRio reúne milhares de animais marinhos e dezenas de recintos dedicados a diferentes ecossistemas. Tubarões, raias, cardumes e espécies de formas e cores incríveis preparam o caminho para o momento que quase todos esperam: o grande tanque oceânico.",
     "EN": "AquaRio brings together thousands of marine animals and dozens of habitats dedicated to different ecosystems. Sharks, rays, shoals and species with incredible shapes and colors prepare the way for the moment almost everyone awaits: the large ocean tank."
@@ -1856,6 +1850,13 @@ export default {
   "TIS · hasta 13": {
     "PT": "TIS · até 13",
     "EN": "TIS · up to 13"
+  },
+  "Rio Samba Bus: experiencia cultural de samba en Río — foto 1": {
+    "PT": "Rio Samba Bus: experiência cultural de samba no Rio — foto 1",
+    "EN": "Rio Samba Bus: cultural samba experience in Rio — photo 1"
+  },
+  "Rio Samba Bus: experiencia cultural de samba en Río — foto 2": {
+    "PT": "Rio Samba Bus: experiência cultural de samba no Rio — foto 2",
+    "EN": "Rio Samba Bus: cultural samba experience in Rio — photo 2"
   }
-
 };

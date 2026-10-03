@@ -1,4 +1,3 @@
-// Family index, detail navigation and shared headings. Detail descriptions still require separate batches.
 export default {
   "Río en familia | Ernestinho Carioca": {
     "PT": "Rio em família | Ernestinho Carioca",
@@ -67,10 +66,6 @@ export default {
   "Carnaval, samba y bastidores": {
     "PT": "Carnaval, samba e bastidores",
     "EN": "Carnival, samba and behind the scenes"
-  },
-  "Carnaval Experience con Ernestinho": {
-    "PT": "Carnaval Experience com Ernestinho",
-    "EN": "Carnaval Experience with Ernestinho"
   },
   "Entra al barracón de Grande Rio y descubre cómo nace el Carnaval": {
     "PT": "Entre no barracão da Grande Rio e descubra como nasce o Carnaval",

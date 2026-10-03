@@ -31,10 +31,6 @@ export default {
     "PT": "Antes de pagar, eu confirmaria pelo canal da casa quatro coisas sobre",
     "EN": "Before paying, I would confirm four things through the venue’s own channel about"
   },
-  "Así se vive": {
-    "PT": "Assim se vive",
-    "EN": "The experience"
-  },
   "Barra da Tijuca · casa noturna · música y pista": {
     "PT": "Barra da Tijuca · casa noturna · música e pista",
     "EN": "Barra da Tijuca · nightclub · music and dance floor"
@@ -230,10 +226,6 @@ export default {
   "Cómo vivir la experiencia": {
     "PT": "Como viver a experiência",
     "EN": "How to experience it"
-  },
-  "Estado": {
-    "PT": "Status",
-    "EN": "Status"
   },
   "Este pequeño bar de Copacabana es una institución de la música carioca. Riotur lo destaca como punto tradicional de samba, choro y bossa nova; su tamaño y cercanía con los músicos hacen que la experiencia sea completamente distinta a una gran casa de shows.": {
     "PT": "Este pequeno bar de Copacabana é uma instituição da música carioca. A Riotur o destaca como ponto tradicional de samba, choro e bossa nova; seu tamanho e a proximidade com os músicos tornam a experiência completamente diferente de uma grande casa de shows.",

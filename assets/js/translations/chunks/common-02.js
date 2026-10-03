@@ -1,4 +1,3 @@
-// Shared navigation, footer and latest home/transport copy.
 export default {
   "¿QUIERES CONOCER RÍO": {
     "PT": "QUER CONHECER O RIO",
@@ -147,5 +146,69 @@ export default {
   "Pan de Azúcar": {
     "PT": "Pão de Açúcar",
     "EN": "Sugarloaf Mountain"
+  },
+  "Así se vive": {
+    "PT": "Assim se vive",
+    "EN": "The experience"
+  },
+  "Carnaval Experience con Ernestinho": {
+    "PT": "Carnaval Experience com Ernestinho",
+    "EN": "Carnaval Experience with Ernestinho"
+  },
+  "Estado": {
+    "PT": "Status",
+    "EN": "Status"
+  },
+  "Fecha": {
+    "PT": "Data",
+    "EN": "Date"
+  },
+  "Gratuito": {
+    "PT": "Gratuito",
+    "EN": "Free"
+  },
+  "Horario": {
+    "PT": "Horário",
+    "EN": "Schedule"
+  },
+  "Horario por confirmar": {
+    "PT": "Horário a confirmar",
+    "EN": "Time to be confirmed"
+  },
+  "Lo que yo haría": {
+    "PT": "O que eu faria",
+    "EN": "What I would do"
+  },
+  "Música": {
+    "PT": "Música",
+    "EN": "Music"
+  },
+  "Playa de Copacabana": {
+    "PT": "Praia de Copacabana",
+    "EN": "Copacabana Beach"
+  },
+  "Todos": {
+    "PT": "Todos",
+    "EN": "All"
+  },
+  "Esta calle no lleva por aquí | Ernestinho Carioca": {
+    "PT": "Esta rua não leva até aqui | Ernestinho Carioca",
+    "EN": "This street does not lead here | Ernestinho Carioca"
+  },
+  "Esta calle no lleva por aquí.": {
+    "PT": "Esta rua não leva até aqui.",
+    "EN": "This street does not lead here."
+  },
+  "Ir al inicio": {
+    "PT": "Ir para o início",
+    "EN": "Go to the home page"
+  },
+  "La página que buscas no aparece. Regresa a la guía de Ernestinho Carioca para seguir descubriendo Río de Janeiro.": {
+    "PT": "A página que você procura não foi encontrada. Volte à guia do Ernestinho Carioca para continuar descobrindo o Rio de Janeiro.",
+    "EN": "The page you are looking for could not be found. Return to the Ernestinho Carioca guide to keep discovering Rio de Janeiro."
+  },
+  "Volvamos a Río y retomemos el recorrido.": {
+    "PT": "Vamos voltar ao Rio e retomar o passeio.",
+    "EN": "Let’s return to Rio and continue exploring."
   }
 };
