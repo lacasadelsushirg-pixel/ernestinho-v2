@@ -1028,5 +1028,449 @@ export default {"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Compras":{"PT":
   "⭐ Consejo de Ernestinho · Shopping Leblon": {
     "PT": "⭐ Conselho do Ernestinho · Shopping Leblon",
     "EN": "⭐ Ernestinho's tip · Shopping Leblon"
+  },
+  "Ambiente de NorteShopping": {
+    "PT": "Ambiente do NorteShopping",
+    "EN": "Atmosphere at NorteShopping"
+  },
+  "Antes de ir: revisa directorio, horarios, ocio y servicios vigentes. Si buscas una tienda concreta, confírmala antes de desplazarte.": {
+    "PT": "Antes de ir: confira o diretório, os horários, as opções de lazer e os serviços atuais. Se procura uma loja específica, confirme antes de se deslocar.",
+    "EN": "Before you go: check the current directory, opening hours, leisure options and services. If you are looking for a particular store, confirm it before travelling."
+  },
+  "CACHAMBI · ZONA NORTE": {
+    "PT": "CACHAMBI · ZONA NORTE",
+    "EN": "CACHAMBI · NORTH ZONE"
+  },
+  "Combínalo con: Cachambi, Méier y un día por la Zona Norte.": {
+    "PT": "Combine com: Cachambi, Méier e um dia pela Zona Norte.",
+    "EN": "Combine it with: Cachambi, Méier and a day exploring the North Zone."
+  },
+  "Compras y ocio en NorteShopping": {
+    "PT": "Compras e lazer no NorteShopping",
+    "EN": "Shopping and leisure at NorteShopping"
+  },
+  "Con las nuevas fotos ya se entiende mejor la escala del lugar. Yo lo usaría como gran base comercial de la Zona Norte: compras, comida, ocio y servicios en un complejo donde conviene llegar con prioridades claras.": {
+    "PT": "Com as novas fotos, já dá para entender melhor a dimensão do lugar. Eu o usaria como uma grande base comercial da Zona Norte: compras, comida, lazer e serviços em um complexo onde vale chegar com prioridades claras.",
+    "EN": "The new photos give a better sense of the place’s scale. I would use it as a major shopping base in the North Zone: shopping, food, leisure and services in a complex where it helps to arrive with clear priorities."
+  },
+  "Con niños, personas mayores o varias bolsas, organizo una hora de encuentro y pienso el regreso antes de empezar. El tamaño del complejo hace más fácil perderse del grupo cuando cada quien se detiene en una tienda diferente.": {
+    "PT": "Com crianças, pessoas idosas ou várias sacolas, combino um horário de encontro e penso na volta antes de começar. O tamanho do complexo facilita se desencontrar do grupo quando cada pessoa para em uma loja diferente.",
+    "EN": "With children, older people or several shopping bags, I arrange a meeting time and plan the return journey before starting. The size of the complex makes it easier to lose track of the group when everyone stops at a different store."
+  },
+  "Consulto el directorio para ubicar los locales y reducir vueltas innecesarias.": {
+    "PT": "Consulto o diretório para localizar as lojas e evitar voltas desnecessárias.",
+    "EN": "I check the directory to locate stores and avoid unnecessary walking."
+  },
+  "Cómo llegar ↗": {
+    "PT": "Como chegar ↗",
+    "EN": "Getting there ↗"
+  },
+  "Cómo organizar una visita a NorteShopping, revisar servicios y confirmar información oficial.": {
+    "PT": "Como organizar uma visita ao NorteShopping, consultar serviços e confirmar informações oficiais.",
+    "EN": "How to organise a visit to NorteShopping, check services and confirm official information."
+  },
+  "Cómo organizo la visita": {
+    "PT": "Como organizo a visita",
+    "EN": "How I organise the visit"
+  },
+  "ERNESTINHO CARIOCA · Río no se visita. Se vive. ·": {
+    "PT": "ERNESTINHO CARIOCA · O Rio não se visita. Se vive. ·",
+    "EN": "ERNESTINHO CARIOCA · Rio is more than a place to visit. Come live it. ·"
+  },
+  "El shopping también publica mapa interno, directorio, opciones de alimentación, horarios y facilidades. Yo consultaría esos enlaces directamente para planear una visita accesible o familiar sin depender de una ficha vieja.": {
+    "PT": "O shopping também disponibiliza mapa interno, diretório, opções de alimentação, horários e facilidades. Eu consultaria esses links diretamente para planejar uma visita acessível ou em família sem depender de uma ficha antiga.",
+    "EN": "The mall also provides an indoor map, directory, food options, opening hours and facilities. I would check those links directly to plan an accessible or family visit without relying on an old listing."
+  },
+  "El sitio oficial describe elevadores entre pisos y una rampa de acceso dentro del Carrefour. También informa préstamo gratuito de sillas de ruedas, un Espacio Familia con cambiadores y otros apoyos, y la sala Amigos do Fred, un espacio de regulación para personas autistas y neurodivergentes. Verifico en el canal oficial la ubicación y las condiciones actuales antes de contar con ellos.": {
+    "PT": "O site oficial descreve elevadores entre os andares e uma rampa de acesso dentro do Carrefour. Também informa empréstimo gratuito de cadeiras de rodas, um Espaço Família com trocadores e outros apoios, e a sala Amigos do Fred, um espaço de regulação para pessoas autistas e neurodivergentes. Verifico no canal oficial a localização e as condições atuais antes de contar com esses serviços.",
+    "EN": "The official website describes lifts between floors and an access ramp inside Carrefour. It also lists free wheelchair loans, a Family Space with changing tables and other facilities, and the Amigos do Fred room, a regulation space for autistic and neurodivergent people. I check the official channel for the location and current conditions before relying on these services."
+  },
+  "Espacios de NorteShopping": {
+    "PT": "Espaços do NorteShopping",
+    "EN": "Spaces at NorteShopping"
+  },
+  "Facilidades y accesibilidad ↗": {
+    "PT": "Facilidades e acessibilidade ↗",
+    "EN": "Facilities and accessibility ↗"
+  },
+  "Galería de NorteShopping": {
+    "PT": "Galeria do NorteShopping",
+    "EN": "NorteShopping gallery"
+  },
+  "Guardo en el teléfono la ubicación y el punto de encuentro antes de entrar.": {
+    "PT": "Salvo no celular a localização e o ponto de encontro antes de entrar.",
+    "EN": "I save the location and meeting point on my phone before entering."
+  },
+  "La dirección publicada es Avenida Dom Hélder Câmara, 5474, Cachambi. Yo abriría la ruta desde mi punto de partida ese mismo día y compararía transporte público y automóvil según la hora, las bolsas y con quién viajo.": {
+    "PT": "O endereço divulgado é Avenida Dom Hélder Câmara, 5474, Cachambi. Eu abriria a rota do meu ponto de partida naquele mesmo dia e compararia transporte público e carro conforme o horário, as sacolas e quem viaja comigo.",
+    "EN": "The published address is Avenida Dom Hélder Câmara, 5474, Cachambi. I would check the route from my starting point that day and compare public transport with driving based on the time, shopping bags and who is travelling with me."
+  },
+  "La oferta, los servicios, los horarios y los accesos pueden cambiar. Esta es mi guía para organizarte; el establecimiento mantiene la información operativa actualizada.": {
+    "PT": "A oferta, os serviços, os horários e os acessos podem mudar. Esta é minha orientação para você se organizar; o estabelecimento mantém as informações operacionais atualizadas.",
+    "EN": "The selection, services, opening hours and access arrangements may change. This is my guide to help you plan; the establishment keeps its operational information up to date."
+  },
+  "Lo recomiendo si estás alojado en la Zona Norte, si buscas una jornada de compras práctica o si quieres juntar compras, comida y ocio sin cambiar de lugar. Si te hospedas lejos y solo necesitas una compra pequeña, yo compararía primero la distancia con una opción cercana a tu alojamiento.": {
+    "PT": "Recomendo se você está hospedado na Zona Norte, procura um dia prático de compras ou quer reunir compras, comida e lazer sem mudar de lugar. Se está hospedado longe e só precisa de uma compra pequena, eu compararia primeiro a distância com uma opção perto da hospedagem.",
+    "EN": "I recommend it if you are staying in the North Zone, want a practical shopping day or want shopping, food and leisure in one place. If you are staying far away and only need a small purchase, I would first compare the distance with an option near your accommodation."
+  },
+  "Mapa interno ↗": {
+    "PT": "Mapa interno ↗",
+    "EN": "Indoor map ↗"
+  },
+  "Mi guía de NorteShopping en Cachambi: cómo organizar la visita, servicios de accesibilidad y familia, ubicación y enlaces oficiales.": {
+    "PT": "Minha orientação sobre o NorteShopping em Cachambi: como organizar a visita, serviços de acessibilidade e para famílias, localização e links oficiais.",
+    "EN": "My guide to NorteShopping in Cachambi: planning your visit, accessibility and family services, location and official links."
+  },
+  "Mira mi recomendación de la ficha y arma el día con los barrios y atractivos cercanos para evitar desplazamientos innecesarios.": {
+    "PT": "Confira minha recomendação na ficha e organize o dia com os bairros e as atrações próximas para evitar deslocamentos desnecessários.",
+    "EN": "Read my recommendation on the page and plan your day around nearby neighbourhoods and attractions to avoid unnecessary journeys."
+  },
+  "Mis consejos de anfitrión": {
+    "PT": "Meus conselhos de anfitrião",
+    "EN": "My tips as your host"
+  },
+  "No doy por vigentes los horarios, precios de estacionamiento ni promociones: reviso la página oficial el día de la visita.": {
+    "PT": "Não considero horários, preços de estacionamento ou promoções como garantidos: consulto a página oficial no dia da visita.",
+    "EN": "I do not assume opening hours, parking prices or promotions are current: I check the official page on the day of the visit."
+  },
+  "NorteShopping Zona Norte de Río": {
+    "PT": "NorteShopping Zona Norte do Rio",
+    "EN": "NorteShopping Rio’s North Zone"
+  },
+  "NorteShopping en Cachambi": {
+    "PT": "NorteShopping em Cachambi",
+    "EN": "NorteShopping in Cachambi"
+  },
+  "NorteShopping: guía de visita | Ernestinho Carioca": {
+    "PT": "NorteShopping: guia de visita — Ernestinho Carioca",
+    "EN": "NorteShopping: visitor guide — Ernestinho Carioca"
+  },
+  "Para quien necesita compras y servicios, busca un plan cómodo con lluvia o calor, o quiere conocer un Río más cotidiano.": {
+    "PT": "Para quem precisa de compras e serviços, procura um programa confortável com chuva ou calor, ou quer conhecer um Rio mais cotidiano.",
+    "EN": "For anyone who needs shopping and services, wants a comfortable plan in rain or heat, or wants to discover everyday Rio."
+  },
+  "Para quién puede funcionar": {
+    "PT": "Para quem pode funcionar",
+    "EN": "Who it may suit"
+  },
+  "Para quién: familias, viajeros de Zona Norte y quien quiera concentrar compras, gastronomía y entretenimiento sin cambiar de lugar.": {
+    "PT": "Para quem: famílias, viajantes da Zona Norte e quem quer reunir compras, gastronomia e entretenimento sem mudar de lugar.",
+    "EN": "Who it is for: families, visitors staying in the North Zone and anyone who wants shopping, food and entertainment in one place."
+  },
+  "Primero reviso el directorio oficial y marco las tiendas, restaurantes o servicios que realmente quiero visitar. El centro comercial publica un mapa interno, directorio, horarios y canales de contacto; como esos datos cambian, confirmo cada uno antes de salir. Así evito cruzar la ciudad por un local que ya cambió de ubicación o de horario.": {
+    "PT": "Primeiro consulto o diretório oficial e marco as lojas, os restaurantes ou os serviços que realmente quero visitar. O centro comercial publica mapa interno, diretório, horários e canais de contato; como esses dados mudam, confirmo cada um antes de sair. Assim evito atravessar a cidade por uma loja que já mudou de endereço ou horário.",
+    "EN": "First I check the official directory and mark the stores, restaurants or services I actually want to visit. The shopping centre publishes an indoor map, directory, opening hours and contact channels; because these details change, I confirm each one before leaving. That way I avoid crossing the city for a store whose location or hours have changed."
+  },
+  "Servicios útiles que confirmo": {
+    "PT": "Serviços úteis que confirmo",
+    "EN": "Useful services I check"
+  },
+  "Si llevo compras voluminosas, resuelvo el transporte de regreso antes de cansarme.": {
+    "PT": "Se levo compras volumosas, resolvo o transporte de volta antes de ficar cansado.",
+    "EN": "If I have bulky purchases, I arrange the return transport before getting tired."
+  },
+  "Sitio oficial ↗": {
+    "PT": "Site oficial ↗",
+    "EN": "Official website ↗"
+  },
+  "Tiendas y alimentación ↗": {
+    "PT": "Lojas e alimentação ↗",
+    "EN": "Stores and food ↗"
+  },
+  "Ubicación y canales directos": {
+    "PT": "Localização e canais diretos",
+    "EN": "Location and direct contact channels"
+  },
+  "Vista de NorteShopping": {
+    "PT": "Vista do NorteShopping",
+    "EN": "View of NorteShopping"
+  },
+  "Volver a Compras": {
+    "PT": "Voltar a Compras",
+    "EN": "Back to Shopping"
+  },
+  "Yo aprovecharía esta visita como parte del día, no como una parada aislada: compras, una pausa para comer y después seguir descubriendo la zona.": {
+    "PT": "Eu aproveitaria esta visita como parte do dia, não como uma parada isolada: compras, uma pausa para comer e depois continuar descobrindo a região.",
+    "EN": "I would make this visit part of the day rather than an isolated stop: shopping, a break for food and then more exploring nearby."
+  },
+  "Yo incluiría NorteShopping cuando quiero resolver compras y servicios en la Zona Norte, o cuando necesito una pausa amplia bajo techo. No lo organizaría como una excursión aislada: lo combinaría con un plan por Cachambi, Méier o São Cristóvão, según lo que ya tenga previsto.": {
+    "PT": "Eu incluiria o NorteShopping quando quero resolver compras e serviços na Zona Norte ou quando preciso de uma pausa ampla em um lugar coberto. Não organizaria como um passeio isolado: combinaria com um programa por Cachambi, Méier ou São Cristóvão, conforme o que já tenho planejado.",
+    "EN": "I would include NorteShopping when I want to take care of shopping and services in the North Zone, or when I need a spacious indoor break. I would not plan it as a standalone excursion: I would combine it with Cachambi, Méier or São Cristóvão, depending on what I already have planned."
+  },
+  "Área interna de NorteShopping": {
+    "PT": "Área interna do NorteShopping",
+    "EN": "Interior of NorteShopping"
+  },
+  "⭐ Consejo de Ernestinho · NorteShopping": {
+    "PT": "⭐ Conselho do Ernestinho · NorteShopping",
+    "EN": "⭐ Ernestinho’s tip · NorteShopping"
+  },
+  "Botafogo, Urca y Pan de Azúcar. Si vienes desde Copacabana, aprovecha la cercanía y evita cruzar la ciudad solamente para comprar.": {
+    "PT": "Botafogo, Urca e Pão de Açúcar. Se vem de Copacabana, aproveite a proximidade e evite atravessar a cidade apenas para fazer compras.",
+    "EN": "Botafogo, Urca and Sugarloaf Mountain. If you are coming from Copacabana, make the most of the proximity and avoid crossing the city just to shop."
+  },
+  "Comer, encontrarse y seguir el paseo": {
+    "PT": "Comer, encontrar pessoas e continuar o passeio",
+    "EN": "Eat, meet up and continue exploring"
+  },
+  "Compras con estrategia": {
+    "PT": "Compras com estratégia",
+    "EN": "Shopping with a strategy"
+  },
+  "Compras, gastronomía y vida carioca entre Copacabana y Botafogo": {
+    "PT": "Compras, gastronomia e vida carioca entre Copacabana e Botafogo",
+    "EN": "Shopping, food and Rio life between Copacabana and Botafogo"
+  },
+  "Dirección y enlaces": {
+    "PT": "Endereço e links",
+    "EN": "Address and links"
+  },
+  "El shopping práctico cuando estás en la Zona Sur": {
+    "PT": "O shopping prático quando você está na Zona Sul",
+    "EN": "The practical mall when you are in the South Zone"
+  },
+  "Entre Copacabana, Botafogo y el Túnel Novo": {
+    "PT": "Entre Copacabana, Botafogo e o Túnel Novo",
+    "EN": "Between Copacabana, Botafogo and Túnel Novo"
+  },
+  "Espacio interior para convivencia en Shopping Rio Sul": {
+    "PT": "Espaço interno de convivência no Shopping Rio Sul",
+    "EN": "Indoor social space at Shopping Rio Sul"
+  },
+  "Galería comercial de Shopping Rio Sul": {
+    "PT": "Galeria comercial do Shopping Rio Sul",
+    "EN": "Shopping arcade at Shopping Rio Sul"
+  },
+  "Guía de Ernestinho Carioca · Zona Sul": {
+    "PT": "Guia do Ernestinho Carioca · Zona Sul",
+    "EN": "Ernestinho Carioca’s guide · South Zone"
+  },
+  "Horarios y cómo llegar": {
+    "PT": "Horários e como chegar",
+    "EN": "Opening hours and getting there"
+  },
+  "Interior de Shopping Rio Sul": {
+    "PT": "Interior do Shopping Rio Sul",
+    "EN": "Inside Shopping Rio Sul"
+  },
+  "La historia que yo te cuento": {
+    "PT": "A história que eu conto",
+    "EN": "The history I share with you"
+  },
+  "Mapa de Shopping Rio Sul": {
+    "PT": "Mapa do Shopping Rio Sul",
+    "EN": "Map of Shopping Rio Sul"
+  },
+  "Mi mirada de anfitrión": {
+    "PT": "Meu olhar de anfitrião",
+    "EN": "My perspective as your host"
+  },
+  "Pausa carioca": {
+    "PT": "Pausa carioca",
+    "EN": "A Rio-style break"
+  },
+  "Plan práctico": {
+    "PT": "Programa prático",
+    "EN": "A practical plan"
+  },
+  "Qué compraría yo en Rio Sul": {
+    "PT": "O que eu compraria no Rio Sul",
+    "EN": "What I would buy at Rio Sul"
+  },
+  "Shopping Rio Sul: compras, gastronomía y vida carioca entre Copacabana y Botafogo": {
+    "PT": "Shopping Rio Sul: compras, gastronomia e vida carioca entre Copacabana e Botafogo",
+    "EN": "Shopping Rio Sul: shopping, food and Rio life between Copacabana and Botafogo"
+  },
+  "Un plan cómodo para familias y días de lluvia": {
+    "PT": "Um programa confortável para famílias e dias de chuva",
+    "EN": "A comfortable plan for families and rainy days"
+  },
+  "Un shopping urbano que forma parte de mi Río cotidiano": {
+    "PT": "Um shopping urbano que faz parte do meu Rio cotidiano",
+    "EN": "An urban mall that is part of my everyday Rio"
+  },
+  "Ven preparado y disfruta más": {
+    "PT": "Venha preparado e aproveite mais",
+    "EN": "Come prepared and enjoy more"
+  },
+  "Vista exterior de Shopping Rio Sul": {
+    "PT": "Vista externa do Shopping Rio Sul",
+    "EN": "Exterior view of Shopping Rio Sul"
+  },
+  "Vista y fachada de Shopping Rio Sul": {
+    "PT": "Vista e fachada do Shopping Rio Sul",
+    "EN": "View and façade of Shopping Rio Sul"
+  },
+  "Volver arriba": {
+    "PT": "Voltar ao topo",
+    "EN": "Back to top"
+  },
+  "Yo lo recomiendo especialmente si estás en Copacabana, Botafogo o Urca y quieres resolver compras sin transformar el día en una expedición. Para mí funciona muy bien como pausa de lluvia o calor, para comer, buscar moda, belleza, tecnología o servicios y continuar recorriendo Río.": {
+    "PT": "Recomendo especialmente se você está em Copacabana, Botafogo ou Urca e quer resolver compras sem transformar o dia em uma expedição. Para mim, funciona muito bem como pausa da chuva ou do calor, para comer, procurar moda, beleza, tecnologia ou serviços e continuar explorando o Rio.",
+    "EN": "I especially recommend it if you are in Copacabana, Botafogo or Urca and want to shop without turning the day into an expedition. For me, it works well as a break from rain or heat, somewhere to eat, look for fashion, beauty, technology or services, and then continue exploring Rio."
+  },
+  "Yo te recomiendo conocer Shopping Rio Sul cuando quieres comprar, comer o resolver algo sin alejarte demasiado de Copacabana y Botafogo. Para mí, su valor está justamente en esa ubicación: es un centro comercial urbano, conectado con la vid": {
+    "PT": "Recomendo conhecer o Shopping Rio Sul quando você quer comprar, comer ou resolver algo sem se afastar muito de Copacabana e Botafogo. Para mim, seu valor está justamente nessa localização: é um centro comercial urbano, conectado à vida",
+    "EN": "I recommend visiting Shopping Rio Sul when you want to shop, eat or get something done without going too far from Copacabana and Botafogo. For me, its value lies in that location: it is an urban shopping centre connected to life"
+  },
+  "Yo te recomiendo conocer Shopping Rio Sul cuando quieres comprar, comer o resolver algo sin alejarte demasiado de Copacabana y Botafogo. Para mí, su valor está justamente en esa ubicación: es un centro comercial urbano, conectado con la vida real de la Zona Sul y muy práctico para quien visita Río.": {
+    "PT": "Recomendo conhecer o Shopping Rio Sul quando você quer comprar, comer ou resolver algo sem se afastar muito de Copacabana e Botafogo. Para mim, seu valor está justamente nessa localização: é um centro comercial urbano, conectado à vida real da Zona Sul e muito prático para quem visita o Rio.",
+    "EN": "I recommend visiting Shopping Rio Sul when you want to shop, eat or get something done without going too far from Copacabana and Botafogo. For me, its value lies in that location: it is an urban shopping centre connected to everyday life in the South Zone and very practical for visitors to Rio."
+  },
+  "Área gastronómica de Shopping Rio Sul": {
+    "PT": "Área gastronômica do Shopping Rio Sul",
+    "EN": "Dining area at Shopping Rio Sul"
+  },
+  "⭐ Mi lectura de RioSul": {
+    "PT": "⭐ Meu olhar sobre o RioSul",
+    "EN": "⭐ My take on RioSul"
+  },
+  "Guía de Shopping Tijuca en la Zona Norte de Río, con datos para organizar la visita y confirmar horarios y servicios.": {
+    "PT": "Guia do Shopping Tijuca na Zona Norte do Rio, com informações para organizar a visita e confirmar horários e serviços.",
+    "EN": "Guide to Shopping Tijuca in Rio’s North Zone, with information to plan your visit and confirm opening hours and services."
+  },
+  "Interior del Shopping Tijuca": {
+    "PT": "Interior do Shopping Tijuca",
+    "EN": "Inside Shopping Tijuca"
+  },
+  "Shopping Tijuca en Río de Janeiro": {
+    "PT": "Shopping Tijuca no Rio de Janeiro",
+    "EN": "Shopping Tijuca in Rio de Janeiro"
+  },
+  "Tijuca y Maracanã.": {
+    "PT": "Tijuca e Maracanã.",
+    "EN": "Tijuca and Maracanã."
+  },
+  "Una parada práctica cuando tu día pasa por Tijuca": {
+    "PT": "Uma parada prática quando seu dia passa por Tijuca",
+    "EN": "A practical stop when your day takes you through Tijuca"
+  },
+  "Yo lo incluiría cuando ya estás por Tijuca y quieres juntar compras, alimentación y servicios. Tiene mucho más sentido integrado al día que cruzando Río solamente por una compra.": {
+    "PT": "Eu o incluiria quando você já está por Tijuca e quer reunir compras, alimentação e serviços. Faz muito mais sentido integrado ao dia do que atravessar o Rio apenas por uma compra.",
+    "EN": "I would include it when you are already around Tijuca and want shopping, food and services in one place. It makes much more sense as part of your day than crossing Rio just for one purchase."
+  },
+  "familias, viajeros hospedados en Tijuca y quien tenga actividades en la Zona Norte.": {
+    "PT": "famílias, viajantes hospedados em Tijuca e quem tem atividades na Zona Norte.",
+    "EN": "families, travellers staying in Tijuca and anyone with activities in the North Zone."
+  },
+  "⭐ Consejo de Ernestinho · Shopping Tijuca": {
+    "PT": "⭐ Conselho do Ernestinho · Shopping Tijuca",
+    "EN": "⭐ Ernestinho’s tip · Shopping Tijuca"
+  },
+  "Accesibilidad y familia:": {
+    "PT": "Acessibilidade e família:",
+    "EN": "Accessibility and family:"
+  },
+  "Barra da Tijuca. Yo lo integraría a un día en Barra y evitaría cruzar Río únicamente para una compra menor.": {
+    "PT": "Barra da Tijuca. Eu incluiria em um dia na Barra e evitaria atravessar o Rio apenas para uma compra pequena.",
+    "EN": "Barra da Tijuca. I would include it in a day in Barra and avoid crossing Rio just for a small purchase."
+  },
+  "El ambiente": {
+    "PT": "O ambiente",
+    "EN": "The atmosphere"
+  },
+  "Espacio interior de VillageMall": {
+    "PT": "Espaço interno do VillageMall",
+    "EN": "Interior space at VillageMall"
+  },
+  "Gastronomía para quedarse un poco más": {
+    "PT": "Gastronomia para ficar um pouco mais",
+    "EN": "Dining that invites you to stay a little longer"
+  },
+  "Guía de Ernestinho Carioca · Barra da Tijuca": {
+    "PT": "Guia do Ernestinho Carioca · Barra da Tijuca",
+    "EN": "Ernestinho Carioca’s guide · Barra da Tijuca"
+  },
+  "Interior y diseño de VillageMall": {
+    "PT": "Interior e design do VillageMall",
+    "EN": "Interior and design of VillageMall"
+  },
+  "Lujo, gastronomía y una Barra da Tijuca más sofisticada": {
+    "PT": "Luxo, gastronomia e uma Barra da Tijuca mais sofisticada",
+    "EN": "Luxury, food and a more sophisticated side of Barra da Tijuca"
+  },
+  "Mapa de VillageMall": {
+    "PT": "Mapa do VillageMall",
+    "EN": "Map of VillageMall"
+  },
+  "Marcas premium": {
+    "PT": "Marcas premium",
+    "EN": "Premium brands"
+  },
+  "No es BarraShopping, y esa diferencia importa": {
+    "PT": "Não é o BarraShopping, e essa diferença importa",
+    "EN": "It is not BarraShopping, and that difference matters"
+  },
+  "Pausa sofisticada": {
+    "PT": "Pausa sofisticada",
+    "EN": "A sophisticated break"
+  },
+  "Tienda Dior en VillageMall": {
+    "PT": "Loja Dior no VillageMall",
+    "EN": "Dior store at VillageMall"
+  },
+  "Tienda Gucci en VillageMall": {
+    "PT": "Loja Gucci no VillageMall",
+    "EN": "Gucci store at VillageMall"
+  },
+  "Una experiencia diferente dentro de Barra": {
+    "PT": "Uma experiência diferente dentro da Barra",
+    "EN": "A different experience within Barra"
+  },
+  "Una visita para disfrutar sin apuro": {
+    "PT": "Uma visita para aproveitar sem pressa",
+    "EN": "A visit to enjoy at your own pace"
+  },
+  "Ven con la expectativa correcta": {
+    "PT": "Venha com a expectativa certa",
+    "EN": "Come with the right expectations"
+  },
+  "VillageMall tiene un perfil más sofisticado. Para mí tiene sentido si buscas marcas premium, gastronomía, arquitectura y una experiencia más tranquila que la de un shopping masivo. No lo escogería para perseguir precios bajos: lo escogería cuando el ambiente también importa.": {
+    "PT": "O VillageMall tem um perfil mais sofisticado. Para mim, faz sentido se você procura marcas premium, gastronomia, arquitetura e uma experiência mais tranquila do que a de um shopping de grande movimento. Eu não escolheria para procurar preços baixos: escolheria quando o ambiente também importa.",
+    "EN": "VillageMall has a more sophisticated profile. For me, it makes sense if you want premium brands, food, architecture and a calmer experience than a busy mainstream mall. I would not choose it to chase low prices: I would choose it when the atmosphere matters too."
+  },
+  "VillageMall: lujo, gastronomía y una Barra da Tijuca más sofisticada": {
+    "PT": "VillageMall: luxo, gastronomia e uma Barra da Tijuca mais sofisticada",
+    "EN": "VillageMall: luxury, food and a more sophisticated side of Barra da Tijuca"
+  },
+  "Vista exterior de VillageMall": {
+    "PT": "Vista externa do VillageMall",
+    "EN": "Exterior view of VillageMall"
+  },
+  "Yo te voy a decir algo desde el comienzo: VillageMall no es simplemente otro shopping de Río. Para mí, es una experiencia más sofisticada dentro de Barra da Tijuca, pensada para quien quiere combinar marcas premium, gastronomía y un ambiente diferente al de un centro comercial tr": {
+    "PT": "Vou dizer algo desde o início: VillageMall não é simplesmente mais um shopping do Rio. Para mim, é uma experiência mais sofisticada na Barra da Tijuca, pensada para quem quer combinar marcas premium, gastronomia e um ambiente diferente de um centro comercial tr",
+    "EN": "Let me say this from the start: VillageMall is more than just another Rio mall. For me, it is a more sophisticated experience in Barra da Tijuca, designed for anyone who wants to combine premium brands, food and an atmosphere different from a traditional shopping cen"
+  },
+  "Yo te voy a decir algo desde el comienzo: VillageMall no es simplemente otro shopping de Río. Para mí, es una experiencia más sofisticada dentro de Barra da Tijuca, pensada para quien quiere combinar marcas premium, gastronomía y un ambiente diferente al de un centro comercial tradicional.": {
+    "PT": "Vou dizer algo desde o início: VillageMall não é simplesmente mais um shopping do Rio. Para mim, é uma experiência mais sofisticada na Barra da Tijuca, pensada para quem quer combinar marcas premium, gastronomia e um ambiente diferente de um centro comercial tradicional.",
+    "EN": "Let me say this from the start: VillageMall is more than just another Rio mall. For me, it is a more sophisticated experience in Barra da Tijuca, designed for anyone who wants to combine premium brands, food and an atmosphere different from a traditional shopping centre."
+  },
+  "Yo vendría por la experiencia, no por cantidad": {
+    "PT": "Eu viria pela experiência, não pela quantidade",
+    "EN": "I would come for the experience, not the quantity"
+  },
+  "el shopping informa sillas de ruedas y motorizadas, baños accesibles, vagas específicas, Cordón de Girasol, protectores auditivos para personas con TEA, baño familia, fraldário y coches de bebé. Algunos préstamos se gestionan mediante la app Multi.": {
+    "PT": "o shopping informa cadeiras de rodas e motorizadas, banheiros acessíveis, vagas específicas, Cordão de Girassol, protetores auditivos para pessoas com TEA, banheiro família, fraldário e carrinhos de bebê. Alguns empréstimos são solicitados pelo app Multi.",
+    "EN": "the mall lists manual and powered wheelchairs, accessible toilets, designated parking spaces, sunflower lanyards, ear defenders for autistic people, family toilets, baby-changing facilities and pushchairs. Some loans are arranged through the Multi app."
+  },
+  "quien busca lujo, gastronomía, una visita con más calma o necesita servicios de accesibilidad bien estructurados.": {
+    "PT": "quem procura luxo, gastronomia, uma visita mais tranquila ou precisa de serviços de acessibilidade bem estruturados.",
+    "EN": "anyone looking for luxury, food, a calmer visit or well-organised accessibility services."
+  },
+  "Área exterior de VillageMall": {
+    "PT": "Área externa do VillageMall",
+    "EN": "Outdoor area at VillageMall"
+  },
+  "Área gastronómica exterior de VillageMall": {
+    "PT": "Área gastronômica externa do VillageMall",
+    "EN": "Outdoor dining area at VillageMall"
+  },
+  "⭐ Consejo de Ernestinho · VillageMall": {
+    "PT": "⭐ Conselho do Ernestinho · VillageMall",
+    "EN": "⭐ Ernestinho’s tip · VillageMall"
+  },
+  "Las marcas que yo miraría primero": {
+    "PT": "As marcas que eu olharia primeiro",
+    "EN": "The brands I would look at first"
   }
 };
