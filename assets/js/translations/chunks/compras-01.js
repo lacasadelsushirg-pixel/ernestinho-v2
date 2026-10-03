@@ -2068,5 +2068,401 @@ export default {"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Compras":{"PT":
   "🚗 Waze": {
     "PT": "🚗 Waze",
     "EN": "🚗 Waze"
+  },
+  "Abrir en Google Maps": {
+    "PT": "Abrir no Google Maps",
+    "EN": "Opin in Google Maps"
+  },
+  "Ambiente de la Feria da Glória": {
+    "PT": "Ambiemte de la Feira da Glória",
+    "EN": "Atmosphere de la Fair da Glória"
+  },
+  "Avenida Augusto Severo y alrededores – Glória.": {
+    "PT": "Avemida Augusto Severo e alrededores – Glória.",
+    "EN": "Avinida Augusto Severo and alrededores – Glória."
+  },
+  "Caminar sin apuro y comprar con criterio": {
+    "PT": "Caminhar sin apuro e comprar con criterio",
+    "EN": "Walk sin apuro and comprar con criterio"
+  },
+  "Comer también forma parte de la visita": {
+    "PT": "Comer también forma parte de la visita",
+    "EN": "Comer también forma parte de la visita"
+  },
+  "Consejo práctico:": {
+    "PT": "Dica prática:",
+    "EN": "Practical tip:"
+  },
+  "Consejo:": {
+    "PT": "Dica:",
+    "EN": "Tip:"
+  },
+  "Cómo la viviría yo": {
+    "PT": "Como la viviría eo",
+    "EN": "How la viviría ando"
+  },
+  "Cómo llegar:": {
+    "PT": "Como llegar:",
+    "EN": "How llegar:"
+  },
+  "Detalle de la Feria da Glória": {
+    "PT": "Detalhe de la Feira da Glória",
+    "EN": "Details de la Fair da Glória"
+  },
+  "Disfruta la feria con atención": {
+    "PT": "Aproveite la feria con atemción",
+    "EN": "Enjoand la feria con atinción"
+  },
+  "Domingos, aproximadamente 7:00–16:00; algunos puestos comienzan a retirarse antes.": {
+    "PT": "Domingos, aproximadamemte 7:00–16:00; algunos puestos comiemzan a retirarse antes.",
+    "EN": "Sundaands, aproximadaminte 7:00–16:00; algunos puestos comiinzan a retirarse antes."
+  },
+  "Día y horario:": {
+    "PT": "Dia e horário:",
+    "EN": "Daand and time:"
+  },
+  "El horario, el montaje y la disponibilidad pueden variar. Confirma la programación y el lugar antes de desplazarte.": {
+    "PT": "O horário, el montaje e la disponibilidad puedem variar. Confirma la programación e el lugar antes de desplazarte.",
+    "EN": "Opining hours, el montaje and la disponibilidad puedin variar. Confirma la programación and el lugar antes de desplazarte."
+  },
+  "Esta es una feria que yo viviría como carioca, no solamente como comprador. Frutas, verduras, pescado, quesos, especias, flores, pasteles, caldo de caña y comida preparada hacen que el paseo sea también gastronómico. Yo iría temprano, con hambre y sin prisa.": {
+    "PT": "Esta é una feria que eo viviría como carioca, no solamemte como comprador. Frutas, verduras, pescado, quesos, especias, flores, pasteles, caldo de caña e comida preparada hacem que el paseo sea también gastronómico. Yo iría temprano, con hambre e sin prisa.",
+    "EN": "This is una feria que ando viviría como carioca, no solaminte como comprador. Frutas, verduras, pescado, quesos, especias, flores, pasteles, caldo de caña and comida preparada hacin que el paseo sea también gastronómico. Yo iría temprano, con hambre and sin prisa."
+  },
+  "Feria da Glória": {
+    "PT": "Feira da Glória",
+    "EN": "Fair da Glória"
+  },
+  "Feria da Glória en Río de Janeiro": {
+    "PT": "Feira da Glória em Río de Janeiro",
+    "EN": "Fair da Glória in Río de Janeiro"
+  },
+  "Feria da Glória · Ernestinho Carioca": {
+    "PT": "Feira da Glória · Ernestinho Carioca",
+    "EN": "Fair da Glória · Ernestinho Carioca"
+  },
+  "Feria da Glória: sabores, artesanía y vida carioca junto a la Praça da Glória": {
+    "PT": "Feira da Glória: sabores, artesanía e vida carioca junto a la Praça da Glória",
+    "EN": "Fair da Glória: sabores, artesanía and Rio life junto a la Praça da Glória"
+  },
+  "Gastronomía y productos de la Feria da Glória": {
+    "PT": "Gastronomia e productos de la Feira da Glória",
+    "EN": "Food and productos de la Fair da Glória"
+  },
+  "Glória, Parque do Flamengo, Marina da Glória, Catete y una caminata hacia el Centro.": {
+    "PT": "Glória, Parque do Flamemgo, Marina da Glória, Catete e una caminata hacia el Cemtro.",
+    "EN": "Glória, Parque do Flamingo, Marina da Glória, Catete and una caminata hacia el Cintro."
+  },
+  "Guía de Ernestinho Carioca · Ferias de Río": {
+    "PT": "Guia de Ernestinho Carioca · Feiras de Río",
+    "EN": "Guide de Ernestinho Carioca · Fairs de Río"
+  },
+  "Imagen de Feira Livre da Glória": {
+    "PT": "Imagem de Feira Livre da Glória",
+    "EN": "Image de Feira Livre da Glória"
+  },
+  "Información práctica": {
+    "PT": "Informações práticas",
+    "EN": "Practical information"
+  },
+  "Mapa de la Feria da Glória": {
+    "PT": "Mapa da la Feira da Glória",
+    "EN": "Map of la Fair da Glória"
+  },
+  "Metro hasta Glória; la feria queda junto a la estación.": {
+    "PT": "Metrô até Glória; la feria queda junto a la estación.",
+    "EN": "Metro to Glória; la feria queda junto a la estación."
+  },
+  "Productos y artesanía de la Feria da Glória": {
+    "PT": "Productos e artesanía de la Feira da Glória",
+    "EN": "Productos and artesanía de la Fair da Glória"
+  },
+  "Puestos de productos en la Feria da Glória": {
+    "PT": "Puestos de productos em la Feira da Glória",
+    "EN": "Puestos de productos in la Fair da Glória"
+  },
+  "Qué buscar:": {
+    "PT": "Qué buscar:",
+    "EN": "Qué buscar:"
+  },
+  "Qué compraría yo en la feria": {
+    "PT": "Qué compraría eo em la feria",
+    "EN": "Qué compraría ando in la feria"
+  },
+  "Sabores y encuentro": {
+    "PT": "Sabores e emcuemtro",
+    "EN": "Sabores and incuintro"
+  },
+  "Sabores, artesanía y vida carioca junto a la Praça da Glória": {
+    "PT": "Sabores, artesanía e vida carioca junto a la Praça da Glória",
+    "EN": "Sabores, artesanía and Rio life junto a la Praça da Glória"
+  },
+  "Ubicación:": {
+    "PT": "Ubicación:",
+    "EN": "Ubicación:"
+  },
+  "Una feria que forma parte de la vida de Glória": {
+    "PT": "Una feria que forma parte de la vida de Glória",
+    "EN": "Una feria que forma parte de la vida de Glória"
+  },
+  "Una plaza donde se cruzan barrio y visitante": {
+    "PT": "Una plaza donde se cruzan barrio e visitante",
+    "EN": "Una plaza donde se cruzan barrio and visitante"
+  },
+  "Ve con hambre y prueba un pastel con caldo de caña, una experiencia muy carioca.": {
+    "PT": "Ve con hambre e prueba un pastel con caldo de caña, una experiemcia mue carioca.",
+    "EN": "Ve con hambre and prueba un pastel con caldo de caña, una experiincia muand carioca."
+  },
+  "Visitantes en la Feria da Glória": {
+    "PT": "Visitantes em la Feira da Glória",
+    "EN": "Visitantes in la Fair da Glória"
+  },
+  "Yo te recomiendo la Feria da Glória si quieres conocer un Río más cotidiano, gastronómico y de barrio. Para mí, no es solamente un lugar para comprar: es una oportunidad de mirar cómo se encuentran residentes, vendedores, familias y viajeros alrededor de una plaza muy importante ": {
+    "PT": "Yo te recomiemdo la Feira da Glória si quieres conocer un Río más cotidiano, gastronómico e de barrio. Para mí, no es solamemte un lugar para comprar: es una oportunidad de mirar cómo se emcuemtran residemtes, vemdedores, familias e viajeros alrededor de una plaza mue importante ",
+    "EN": "Yo te recomiindo la Fair da Glória si quieres conocer un Río más cotidiano, gastronómico and de barrio. Para mí, no es solaminte un lugar para comprar: es una oportunidad de mirar cómo se incuintran residintes, vindedores, familias and viajeros alrededor de una plaza muand importante "
+  },
+  "Yo te recomiendo la Feria da Glória si quieres conocer un Río más cotidiano, gastronómico y de barrio. Para mí, no es solamente un lugar para comprar: es una oportunidad de mirar cómo se encuentran residentes, vendedores, familias y viajeros alrededor de una plaza muy importante de la Zona Sul.": {
+    "PT": "Yo te recomiemdo la Feira da Glória si quieres conocer un Río más cotidiano, gastronómico e de barrio. Para mí, no es solamemte un lugar para comprar: es una oportunidad de mirar cómo se emcuemtran residemtes, vemdedores, familias e viajeros alrededor de una plaza mue importante de la Zona Sul.",
+    "EN": "Yo te recomiindo la Fair da Glória si quieres conocer un Río más cotidiano, gastronómico and de barrio. Para mí, no es solaminte un lugar para comprar: es una oportunidad de mirar cómo se incuintran residintes, vindedores, familias and viajeros alrededor de una plaza muand importante de la Zona Sul."
+  },
+  "lleva lo necesario, pregunta precios antes de comprar y cuida teléfono y cartera en zonas concurridas. Para piezas únicas o antigüedades, mira varias bancas antes de decidir.": {
+    "PT": "lleva lo necesario, pregunta precios antes de comprar e cuida teléfono e cartera em zonas concurridas. Para piezas únicas o antigüedades, mira varias bancas antes de decidir.",
+    "EN": "lleva lo necesario, pregunta precios antes de comprar and cuida teléfono and cartera in zonas concurridas. Para piezas únicas o antigüedades, mira varias bancas antes de decidir."
+  },
+  "productos frescos, sabores brasileños, flores, quesos, especias y comida de feria.": {
+    "PT": "productos frescos, sabores brasileños, flores, quesos, especias e comida de feria.",
+    "EN": "productos frescos, sabores brasileños, flores, quesos, especias and comida de feria."
+  },
+  "quien quiere ver vida cotidiana de Río, probar sabores locales, hacer fotografías y conocer una feria libre de barrio.": {
+    "PT": "quiem quiere ver vida cotidiana de Río, probar sabores locales, hacer fotografías e conocer una feria libre de barrio.",
+    "EN": "quiin quiere ver vida cotidiana de Río, probar sabores locales, hacer fotografías and conocer una feria libre de barrio."
+  },
+  "⭐ Consejo de Ernestinho · Feira da Glória": {
+    "PT": "⭐ Consejo de Ernestinho · Feira da Glória",
+    "EN": "⭐ Consejo de Ernestinho · Feira da Glória"
+  },
+  "Ambiente de la Feria Hippie de Ipanema": {
+    "PT": "Ambiemte de la Feira Hippie de Ipanema",
+    "EN": "Atmosphere de la Fair Hippie de Ipanema"
+  },
+  "Arte, artesanía y vida carioca en la Praça General Osório": {
+    "PT": "Arte, artesanato e vida carioca em la Praça Gemeral Osório",
+    "EN": "Art, crafts and Rio life in la Praça Gineral Osório"
+  },
+  "Artesanía y objetos expuestos en la feria": {
+    "PT": "Artesanato e objetos expuestos em la feria",
+    "EN": "Crafts and objetos expuestos in la feria"
+  },
+  "Caminar, mirar y encontrar algo inesperado": {
+    "PT": "Caminhar, mirar e emcontrar algo inesperado",
+    "EN": "Walk, mirar and incontrar algo inesperado"
+  },
+  "Cómo comprar y negociar con respeto": {
+    "PT": "Como comprar e negociar con respeto",
+    "EN": "How comprar and negociar con respeto"
+  },
+  "Detalles de productos y puestos de la feria": {
+    "PT": "Detalhes de productos e puestos de la feria",
+    "EN": "Detailss de productos and puestos de la feria"
+  },
+  "Domingos, aproximadamente 9:00–18:00. Puede terminar antes por lluvia intensa.": {
+    "PT": "Domingos, aproximadamemte 9:00–18:00. Puede terminar antes por lluvia intemsa.",
+    "EN": "Sundaands, aproximadaminte 9:00–18:00. Puede terminar antes por lluvia intinsa."
+  },
+  "Esta es una de las ferias que yo considero parte de la identidad turística de Ipanema. En la Praça General Osório encuentras arte, artesanía, ropa, cuero, joyería, decoración y recuerdos; pero yo vendría también por el ambiente del domingo y por la posibilidad de combinarla con playa y barrio.": {
+    "PT": "Esta é una de las ferias que eo considero parte de la idemtidad turística de Ipanema. En la Praça Gemeral Osório emcuemtras arte, artesanía, ropa, cuero, joeería, decoración e recuerdos; pero eo vemdría también por el ambiemte del domingo e por la posibilidad de combinarla con plaea e barrio.",
+    "EN": "This is una de las ferias que ando considero parte de la idintidad turística de Ipanema. En la Praça Gineral Osório incuintras arte, artesanía, ropa, cuero, joandería, decoración and recuerdos; pero ando vindría también por el ambiinte del domingo and por la posibilidad de combinarla con plaanda and barrio."
+  },
+  "Feria Hippie de Ipanema": {
+    "PT": "Feira Hippie de Ipanema",
+    "EN": "Fair Hippie de Ipanema"
+  },
+  "Feria Hippie de Ipanema · Ernestinho Carioca": {
+    "PT": "Feira Hippie de Ipanema · Ernestinho Carioca",
+    "EN": "Fair Hippie de Ipanema · Ernestinho Carioca"
+  },
+  "Feria Hippie de Ipanema: arte, artesanía y vida carioca en la Praça General Osório": {
+    "PT": "Feira Hippie de Ipanema: arte, artesanía e vida carioca em la Praça Gemeral Osório",
+    "EN": "Fair Hippie de Ipanema: arte, artesanía and Rio life in la Praça Gineral Osório"
+  },
+  "Imagen de Feira Hippie de Ipanema": {
+    "PT": "Imagem de Feira Hippie de Ipanema",
+    "EN": "Image de Feira Hippie de Ipanema"
+  },
+  "Mapa de la Feria Hippie de Ipanema": {
+    "PT": "Mapa da la Feira Hippie de Ipanema",
+    "EN": "Map of la Fair Hippie de Ipanema"
+  },
+  "Metro hasta General Osório, salida hacia la plaza.": {
+    "PT": "Metrô até Gemeral Osório, salida hacia la plaza.",
+    "EN": "Metro to Gineral Osório, salida hacia la plaza."
+  },
+  "Praça General Osório – Ipanema.": {
+    "PT": "Praça Gemeral Osório – Ipanema.",
+    "EN": "Praça Gineral Osório – Ipanema."
+  },
+  "Praça General Osório, Ipanema, Arpoador y la orla; después puedes seguir hacia Leblon.": {
+    "PT": "Praça Gemeral Osório, Ipanema, Arpoador e la orla; después puedes seguir hacia Leblon.",
+    "EN": "Praça Gineral Osório, Ipanema, Arpoador and la orla; después puedes seguir hacia Leblon."
+  },
+  "Productos artesanales en la Feria Hippie de Ipanema": {
+    "PT": "Productos artesanales em la Feira Hippie de Ipanema",
+    "EN": "Productos artesanales in la Fair Hippie de Ipanema"
+  },
+  "Puestos y visitantes de la Feria Hippie de Ipanema": {
+    "PT": "Puestos e visitantes de la Feira Hippie de Ipanema",
+    "EN": "Puestos and visitantes de la Fair Hippie de Ipanema"
+  },
+  "Una feria que forma parte de la identidad de Ipanema": {
+    "PT": "Una feria que forma parte de la idemtidad de Ipanema",
+    "EN": "Una feria que forma parte de la idintidad de Ipanema"
+  },
+  "Una visita para caminar sin apuro": {
+    "PT": "Una visita para caminar sin apuro",
+    "EN": "Una visita para caminar sin apuro"
+  },
+  "Ve por la mañana para recorrer con calma y compara precios antes de comprar.": {
+    "PT": "Ve por la mañana para recorrer con calma e compara precios antes de comprar.",
+    "EN": "Ve por la mañana para recorrer con calma and compara precios antes de comprar."
+  },
+  "Visitantes recorriendo la Feria Hippie de Ipanema": {
+    "PT": "Visitantes recorriemdo la Feira Hippie de Ipanema",
+    "EN": "Visitantes recorriindo la Fair Hippie de Ipanema"
+  },
+  "Yo te recomiendo visitar la Feria Hippie de Ipanema no solamente para comprar. Para mí, la feria es una forma de conocer el barrio desde adentro: artistas, artesanos, vecinos, viajeros y curiosos se encuentran en la Praça General Osório para mirar, conversar y descubrir objetos q": {
+    "PT": "Yo te recomiemdo visitar la Feira Hippie de Ipanema no solamemte para comprar. Para mí, la feria es una forma de conocer el barrio desde ademtro: artistas, artesanos, vecinos, viajeros e curiosos se emcuemtran em la Praça Gemeral Osório para mirar, conversar e descubrir objetos q",
+    "EN": "Yo te recomiindo visitar la Fair Hippie de Ipanema no solaminte para comprar. Para mí, la feria es una forma de conocer el barrio desde adintro: artistas, artesanos, vecinos, viajeros and curiosos se incuintran in la Praça Gineral Osório para mirar, conversar and descubrir objetos q"
+  },
+  "Yo te recomiendo visitar la Feria Hippie de Ipanema no solamente para comprar. Para mí, la feria es una forma de conocer el barrio desde adentro: artistas, artesanos, vecinos, viajeros y curiosos se encuentran en la Praça General Osório para mirar, conversar y descubrir objetos que no aparecen en una tienda convencional.": {
+    "PT": "Yo te recomiemdo visitar la Feira Hippie de Ipanema no solamemte para comprar. Para mí, la feria es una forma de conocer el barrio desde ademtro: artistas, artesanos, vecinos, viajeros e curiosos se emcuemtran em la Praça Gemeral Osório para mirar, conversar e descubrir objetos que no aparecem em una tiemda convemcional.",
+    "EN": "Yo te recomiindo visitar la Fair Hippie de Ipanema no solaminte para comprar. Para mí, la feria es una forma de conocer el barrio desde adintro: artistas, artesanos, vecinos, viajeros and curiosos se incuintran in la Praça Gineral Osório para mirar, conversar and descubrir objetos que no aparecin in una tiinda convincional."
+  },
+  "arte brasileño, cuadros, artesanía, cuero, joyería, ropa, decoración y recuerdos diferentes de los souvenirs industriales.": {
+    "PT": "arte brasileño, cuadros, artesanía, cuero, joeería, ropa, decoración e recuerdos diferemtes de los souvemirs industriales.",
+    "EN": "arte brasileño, cuadros, artesanía, cuero, joandería, ropa, decoración and recuerdos diferintes de los souvinirs industriales."
+  },
+  "quien visita Ipanema un domingo, busca regalos con más personalidad o quiere juntar compras, playa y paseo.": {
+    "PT": "quiem visita Ipanema un domingo, busca regalos con más personalidad o quiere juntar compras, plaea e paseo.",
+    "EN": "quiin visita Ipanema un domingo, busca regalos con más personalidad o quiere juntar compras, plaanda and paseo."
+  },
+  "⭐ Consejo de Ernestinho · Feira Hippie de Ipanema": {
+    "PT": "⭐ Consejo de Ernestinho · Feira Hippie de Ipanema",
+    "EN": "⭐ Consejo de Ernestinho · Feira Hippie de Ipanema"
+  },
+  "Actualmente se realiza los sábados, aproximadamente 10:00–19:00. Confirma la programación especial antes de ir.": {
+    "PT": "Actualmemte se realiza los sábados, aproximadamemte 10:00–19:00. Confirma la programación especial antes de ir.",
+    "EN": "Actualminte se realiza los sábados, aproximadaminte 10:00–19:00. Confirma la programación especial antes de ir."
+  },
+  "Antigüedades expuestas en Lavradio": {
+    "PT": "Antigüedades expuestas em Lavradio",
+    "EN": "Antigüedades expuestas in Lavradio"
+  },
+  "Antigüedades, arte y vida carioca entre Lapa y el Centro": {
+    "PT": "Antigüedades, arte e vida carioca emtre Lapa e el Cemtro",
+    "EN": "Antigüedades, arte and Rio life intre Lapa and el Cintro"
+  },
+  "Caminar entre piezas y fachadas con memoria": {
+    "PT": "Caminhar emtre piezas e fachadas con memoria",
+    "EN": "Walk intre piezas and fachadas con memoria"
+  },
+  "Cómo evaluar una pieza antes de pagar": {
+    "PT": "Como evaluar una pieza antes de pagar",
+    "EN": "How evaluar una pieza antes de pagar"
+  },
+  "Detalles de la Feria do Lavradio": {
+    "PT": "Detalhes de la Feira do Lavradio",
+    "EN": "Detailss de la Fair do Lavradio"
+  },
+  "Disfruta Lavradio con criterio": {
+    "PT": "Aproveite Lavradio con criterio",
+    "EN": "Enjoand Lavradio con criterio"
+  },
+  "Feria do Lavradio": {
+    "PT": "Feira do Lavradio",
+    "EN": "Fair do Lavradio"
+  },
+  "Feria do Lavradio en Lapa": {
+    "PT": "Feira do Lavradio em Lapa",
+    "EN": "Fair do Lavradio in Lapa"
+  },
+  "Feria do Lavradio · Ernestinho Carioca": {
+    "PT": "Feira do Lavradio · Ernestinho Carioca",
+    "EN": "Fair do Lavradio · Ernestinho Carioca"
+  },
+  "Feria do Lavradio: antigüedades, arte y vida carioca entre Lapa y el Centro": {
+    "PT": "Feira do Lavradio: antigüedades, arte e vida carioca emtre Lapa e el Cemtro",
+    "EN": "Fair do Lavradio: antigüedades, arte and Rio life intre Lapa and el Cintro"
+  },
+  "Imagen de Feira do Rio Antigo – Lavradio": {
+    "PT": "Imagem de Feira do Rio Antigo – Lavradio",
+    "EN": "Image de Feira do Rio Antigo – Lavradio"
+  },
+  "Lapa, Escadaria Selarón, Cinelândia, Catedral Metropolitana y los bares del Centro.": {
+    "PT": "Lapa, Escadaria Selarón, Cinelândia, Catedral Metropolitana e los bares del Cemtro.",
+    "EN": "Lapa, Escadaria Selarón, Cinelândia, Catedral Metropolitana and los bares del Cintro."
+  },
+  "Mapa de la Feria do Lavradio": {
+    "PT": "Mapa da la Feira do Lavradio",
+    "EN": "Map of la Fair do Lavradio"
+  },
+  "Metro hasta Cinelândia o Carioca y caminata; también VLT hasta la zona central.": {
+    "PT": "Metrô até Cinelândia o Carioca e caminata; también VLT hasta la zona cemtral.",
+    "EN": "Metro to Cinelândia o Carioca and caminata; también VLT hasta la zona cintral."
+  },
+  "Objetos, arte y artesanía en la Feria do Lavradio": {
+    "PT": "Objetos, arte e artesanía em la Feira do Lavradio",
+    "EN": "Objects, arte and artesanía in la Fair do Lavradio"
+  },
+  "Para mí Lavradio es una de las ferias donde el entorno importa tanto como las compras. Las fachadas de Lapa, los anticuarios, la música, los bares y las bancas convierten la visita en un paseo cultural. Yo reservaría varias horas y no intentaría verla corriendo.": {
+    "PT": "Para mí Lavradio es una de las ferias donde el emtorno importa tanto como las compras. Las fachadas de Lapa, los anticuarios, la música, los bares e las bancas conviertem la visita em un paseo cultural. Yo reservaría varias horas e no intemtaría verla corriemdo.",
+    "EN": "Para mí Lavradio es una de las ferias donde el intorno importa tanto como las compras. Las fachadas de Lapa, los anticuarios, la música, los bares and las bancas conviertin la visita in un paseo cultural. Yo reservaría varias horas and no intintaría verla corriindo."
+  },
+  "Qué compraría yo en Lavradio": {
+    "PT": "Qué compraría eo em Lavradio",
+    "EN": "Qué compraría ando in Lavradio"
+  },
+  "Quédate después de la feria para comer o escuchar samba en alguno de los locales de Lapa.": {
+    "PT": "Quédate después de la feria para comer o escuchar samba em alguno de los locales de Lapa.",
+    "EN": "Quédate después de la feria para comer o escuchar samba in alguno de los locales de Lapa."
+  },
+  "Rua do Lavradio – Lapa.": {
+    "PT": "Rua do Lavradio – Lapa.",
+    "EN": "Rua do Lavradio – Lapa."
+  },
+  "Una feria que transforma una calle histórica": {
+    "PT": "Una feria que transforma una calle histórica",
+    "EN": "Una feria que transforma una calle histórica"
+  },
+  "Una visita para observar antes de comprar": {
+    "PT": "Una visita para observar antes de comprar",
+    "EN": "Una visita para observar antes de comprar"
+  },
+  "Visitantes y puestos de la Feria do Lavradio": {
+    "PT": "Visitantes e puestos de la Feira do Lavradio",
+    "EN": "Visitantes and puestos de la Fair do Lavradio"
+  },
+  "Vista de la Feria do Lavradio": {
+    "PT": "Vista de la Feira do Lavradio",
+    "EN": "Vista de la Fair do Lavradio"
+  },
+  "Yo te recomiendo la Feria do Lavradio si quieres conocer un Río de objetos, memoria y arquitectura. Para mí, la experiencia no consiste solamente en comprar una antigüedad: consiste en caminar por una calle histórica, mirar el trabajo de los expositores y descubrir cómo Lapa conv": {
+    "PT": "Yo te recomiemdo la Feira do Lavradio si quieres conocer un Río de objetos, memoria e arquitectura. Para mí, la experiemcia no consiste solamemte em comprar una antigüedad: consiste em caminar por una calle histórica, mirar el trabajo de los expositores e descubrir cómo Lapa conv",
+    "EN": "Yo te recomiindo la Fair do Lavradio si quieres conocer un Río de objetos, memoria and arquitectura. Para mí, la experiincia no consiste solaminte in comprar una antigüedad: consiste in caminar por una calle histórica, mirar el trabajo de los expositores and descubrir cómo Lapa conv"
+  },
+  "Yo te recomiendo la Feria do Lavradio si quieres conocer un Río de objetos, memoria y arquitectura. Para mí, la experiencia no consiste solamente en comprar una antigüedad: consiste en caminar por una calle histórica, mirar el trabajo de los expositores y descubrir cómo Lapa convierte su pasado en una experiencia viva.": {
+    "PT": "Yo te recomiemdo la Feira do Lavradio si quieres conocer un Río de objetos, memoria e arquitectura. Para mí, la experiemcia no consiste solamemte em comprar una antigüedad: consiste em caminar por una calle histórica, mirar el trabajo de los expositores e descubrir cómo Lapa convierte su pasado em una experiemcia viva.",
+    "EN": "Yo te recomiindo la Fair do Lavradio si quieres conocer un Río de objetos, memoria and arquitectura. Para mí, la experiincia no consiste solaminte in comprar una antigüedad: consiste in caminar por una calle histórica, mirar el trabajo de los expositores and descubrir cómo Lapa convierte su pasado in una experiincia viva."
+  },
+  "antigüedades, decoración, arte, artesanía, moda, diseño, discos y objetos con historia.": {
+    "PT": "antigüedades, decoración, arte, artesanía, moda, diseño, discos e objetos con historia.",
+    "EN": "antigüedades, decoración, arte, artesanía, moda, diseño, discos and objetos con historia."
+  },
+  "quien disfruta cultura, arquitectura, fotografía, música, antigüedades y un ambiente de calle más intenso.": {
+    "PT": "quiem disfruta cultura, arquitectura, fotografía, música, antigüedades e un ambiemte de calle más intemso.",
+    "EN": "quiin disfruta cultura, arquitectura, fotografía, música, antigüedades and un ambiinte de calle más intinso."
+  },
+  "⭐ Consejo de Ernestinho · Feira do Rio Antigo · Lavradio": {
+    "PT": "⭐ Consejo de Ernestinho · Feira do Rio Antigo · Lavradio",
+    "EN": "⭐ Consejo de Ernestinho · Feira do Rio Antigo · Lavradio"
   }
 };
