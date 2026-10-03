@@ -326,5 +326,69 @@ export default {
   "Instálalas y crea las cuentas antes de viajar. Algunas pueden pedir SMS, CPF o una tarjeta compatible.": {
     "PT": "Instale os aplicativos e crie as contas antes de viajar. Alguns podem pedir SMS, CPF ou um cartão compatível.",
     "EN": "Install the apps and create your accounts before traveling. Some may require SMS verification, a CPF or a compatible card."
+  },
+  "Seguro de viaje, SUS y emergencias médicas | Ernestinho Carioca": {
+    "PT": "Seguro viagem, SUS e emergências médicas | Ernestinho Carioca",
+    "EN": "Travel insurance, SUS and medical emergencies | Ernestinho Carioca"
+  },
+  "El seguro permite elegir atención privada y resolver gastos complejos, pero si un turista extranjero sufre una urgencia también puede buscar gratuitamente la red pública de urgencias del SUS.": {
+    "PT": "O seguro permite escolher atendimento privado e lidar com despesas complexas, mas, se um turista estrangeiro tiver uma urgência, também pode procurar gratuitamente a rede pública de urgência do SUS.",
+    "EN": "Insurance lets you choose private care and handle complex expenses, but if a foreign tourist has an emergency, they can also seek free care through Brazil’s public SUS emergency network."
+  },
+  "Vacunas y fiebre amarilla antes de viajar a Brasil | Ernestinho Carioca": {
+    "PT": "Vacinas e febre amarela antes de viajar ao Brasil | Ernestinho Carioca",
+    "EN": "Vaccines and yellow fever before traveling to Brazil | Ernestinho Carioca"
+  },
+  "La recomendación sanitaria depende de tu origen, ruta, condiciones personales y lugares que visitarás. No uses una publicación antigua como única referencia.": {
+    "PT": "A recomendação de saúde depende da sua origem, rota, condições pessoais e dos lugares que você visitará. Não use uma publicação antiga como única referência.",
+    "EN": "Health recommendations depend on your origin, itinerary, personal circumstances and the places you will visit. Do not rely on an old publication as your only reference."
+  },
+  "Emergencias: qué hacer y a quién llamar | Ernestinho Carioca": {
+    "PT": "Emergências: o que fazer e para quem ligar | Ernestinho Carioca",
+    "EN": "Emergencies: what to do and who to call | Ernestinho Carioca"
+  },
+  "En una emergencia protege primero a las personas. Después bloquea cuentas, reúne pruebas y solicita ayuda en un lugar seguro.": {
+    "PT": "Em uma emergência, proteja primeiro as pessoas. Depois, bloqueie contas, reúna provas e peça ajuda em um local seguro.",
+    "EN": "In an emergency, protect people first. Then block accounts, gather evidence and seek help from a safe place."
+  },
+  "Consulados y ayuda para viajeros extranjeros | Ernestinho Carioca": {
+    "PT": "Consulados e ajuda para viajantes estrangeiros | Ernestinho Carioca",
+    "EN": "Consulates and assistance for foreign travelers | Ernestinho Carioca"
+  },
+  "Tu consulado puede orientarte ante pérdida de documentos, detención, hospitalización grave u otras emergencias consulares. No sustituye a la policía, los servicios médicos, un abogado ni un seguro de viaje.": {
+    "PT": "Seu consulado pode orientar você em caso de perda de documentos, detenção, hospitalização grave ou outras emergências consulares. Ele não substitui a polícia, os serviços médicos, um advogado nem um seguro viagem.",
+    "EN": "Your consulate can advise you if you lose documents, are detained, require serious hospitalization or face other consular emergencies. It does not replace the police, medical services, a lawyer or travel insurance."
+  },
+  "Río accesible y viaje para adultos mayores | Ernestinho Carioca": {
+    "PT": "Rio acessível e viagem para idosos | Ernestinho Carioca",
+    "EN": "Accessible Rio and travel for older adults | Ernestinho Carioca"
+  },
+  "Río puede disfrutarse con movilidad reducida, pero la accesibilidad cambia mucho entre atracciones modernas, calles históricas, playas y senderos. Confirmar cada etapa evita sorpresas.": {
+    "PT": "O Rio pode ser aproveitado por pessoas com mobilidade reduzida, mas a acessibilidade varia muito entre atrações modernas, ruas históricas, praias e trilhas. Confirmar cada etapa evita surpresas.",
+    "EN": "Rio can be enjoyed with reduced mobility, but accessibility varies greatly between modern attractions, historic streets, beaches and trails. Checking each stage in advance helps avoid surprises."
+  },
+  "Llegar a Río: Galeão y Santos Dumont | Ernestinho Carioca": {
+    "PT": "Chegar ao Rio: Galeão e Santos Dumont | Ernestinho Carioca",
+    "EN": "Arriving in Rio: Galeão and Santos Dumont | Ernestinho Carioca"
+  },
+  "Río de Janeiro tiene dos aeropuertos principales. Comprueba siempre el código de tu vuelo: GIG y SDU están en zonas diferentes y el tiempo de traslado puede cambiar mucho.": {
+    "PT": "O Rio de Janeiro tem dois aeroportos principais. Confira sempre o código do seu voo: GIG e SDU ficam em regiões diferentes e o tempo de deslocamento pode variar bastante.",
+    "EN": "Rio de Janeiro has two main airports. Always check your flight code: GIG and SDU are in different areas and transfer times can vary significantly."
+  },
+  "Rodoviária Novo Rio y Terminal Internacional de Cruceros | Ernestinho Carioca": {
+    "PT": "Rodoviária Novo Rio e Terminal Internacional de Cruzeiros | Ernestinho Carioca",
+    "EN": "Novo Rio Bus Terminal and International Cruise Terminal | Ernestinho Carioca"
+  },
+  "La terminal de autobuses y el puerto reciben miles de viajeros, pero están en sectores distintos. Antes de llegar conviene saber dónde esperar, cómo continuar el viaje y qué hacer con el equipaje.": {
+    "PT": "A rodoviária e o porto recebem milhares de viajantes, mas ficam em áreas diferentes. Antes de chegar, vale saber onde esperar, como continuar a viagem e o que fazer com a bagagem.",
+    "EN": "The bus terminal and port receive thousands of travelers, but they are in different areas. Before arriving, it helps to know where to wait, how to continue your journey and what to do with your luggage."
+  },
+  "Alquiler de auto en Río y Brasil | Ernestinho Carioca": {
+    "PT": "Aluguel de carro no Rio e no Brasil | Ernestinho Carioca",
+    "EN": "Car rental in Rio and Brazil | Ernestinho Carioca"
+  },
+  "Alquilar un auto puede darte mucha libertad, pero dentro de Río no siempre es la opción más práctica. La clave es elegirlo cuando realmente mejora tu viaje.": {
+    "PT": "Alugar um carro pode dar muita liberdade, mas dentro do Rio nem sempre é a opção mais prática. A chave é escolhê-lo quando realmente melhora a sua viagem.",
+    "EN": "Renting a car can give you a lot of freedom, but within Rio it is not always the most practical option. The key is choosing it when it genuinely improves your trip."
   }
 };
