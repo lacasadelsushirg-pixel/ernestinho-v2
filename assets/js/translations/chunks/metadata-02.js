@@ -662,5 +662,125 @@ export default {
   "Yo te recomiendo conocerla como una celebración cultural y gastronómica de Oswaldo Cruz, no como un espectáculo exótico.": {
     "PT": "Eu recomendo conhecê-la como uma celebração cultural e gastronômica de Oswaldo Cruz, não como um espetáculo exótico.",
     "EN": "I recommend experiencing it as a cultural and gastronomic celebration of Oswaldo Cruz, not as an exotic spectacle."
+  },
+  "Fashion Mall · Ernestinho Carioca": {
+    "PT": "Fashion Mall · Ernestinho Carioca",
+    "EN": "Fashion Mall · Ernestinho Carioca"
+  },
+  "Los horarios de tiendas, restaurantes, teatro, actividades y feriados pueden cambiar. Confirma antes de salir.": {
+    "PT": "Os horários de lojas, restaurantes, teatro, atividades e feriados podem mudar. Confirme antes de sair.",
+    "EN": "Store, restaurant, theater, activity and holiday hours may change. Confirm before you go."
+  },
+  "VillageMall · Ernestinho Carioca": {
+    "PT": "VillageMall · Ernestinho Carioca",
+    "EN": "VillageMall · Ernestinho Carioca"
+  },
+  "Yo te voy a decir algo desde el comienzo: VillageMall no es simplemente otro shopping de Río. Para mí, es una experiencia más sofisticada dentro de Barra da Tijuca, pensada para quien quiere combinar marcas premium, gastronomía y un ambiente diferente al de un centro comercial tr": {
+    "PT": "Vou dizer algo desde o começo: o VillageMall não é simplesmente outro shopping do Rio. Para mim, é uma experiência mais sofisticada na Barra da Tijuca, pensada para quem quer combinar marcas premium, gastronomia e um ambiente diferente de um shopping tr",
+    "EN": "I will say this from the start: VillageMall is not simply another Rio shopping mall. For me, it is a more sophisticated experience in Barra da Tijuca, designed for those who want to combine premium brands, dining and an atmosphere different from a traditional shopping cen"
+  },
+  "Shopping Nova América — Ernestinho Carioca": {
+    "PT": "Shopping Nova América — Ernestinho Carioca",
+    "EN": "Shopping Nova América — Ernestinho Carioca"
+  },
+  "Yo te voy a decir algo desde el comienzo: Nova América no se entiende solamente como un lugar para comprar. En Del Castilho, este shopping mezcla la rutina de la Zona Norte con una visita muy práctica para quien quiere comer, mirar tiendas,": {
+    "PT": "Vou dizer algo desde o começo: o Nova América não deve ser entendido apenas como um lugar para comprar. Em Del Castilho, este shopping mistura a rotina da Zona Norte com uma visita muito prática para quem quer comer, olhar lojas,",
+    "EN": "I will say this from the start: Nova América is not simply a place to shop. In Del Castilho, this mall combines North Zone daily life with a very practical visit for anyone who wants to eat, browse stores,"
+  },
+  "NorteShopping: guía de visita | Ernestinho Carioca": {
+    "PT": "NorteShopping: guia de visita | Ernestinho Carioca",
+    "EN": "NorteShopping: visitor guide | Ernestinho Carioca"
+  },
+  "Mi guía de NorteShopping en Cachambi: cómo organizar la visita, servicios de accesibilidad y familia, ubicación y enlaces oficiales.": {
+    "PT": "Meu guia do NorteShopping no Cachambi: como organizar a visita, serviços de acessibilidade e família, localização e links oficiais.",
+    "EN": "My guide to NorteShopping in Cachambi: how to plan your visit, accessibility and family services, location and official links."
+  },
+  "BarraShopping · Ernestinho Carioca": {
+    "PT": "BarraShopping · Ernestinho Carioca",
+    "EN": "BarraShopping · Ernestinho Carioca"
+  },
+  "Shopping Leblon · Ernestinho Carioca": {
+    "PT": "Shopping Leblon · Ernestinho Carioca",
+    "EN": "Shopping Leblon · Ernestinho Carioca"
+  },
+  "ParkJacarepaguá · Ernestinho Carioca": {
+    "PT": "ParkJacarepaguá · Ernestinho Carioca",
+    "EN": "ParkJacarepaguá · Ernestinho Carioca"
+  },
+  "Los horarios de tiendas, restaurantes, entretenimiento, actividades y feriados pueden cambiar. Confirma antes de salir.": {
+    "PT": "Os horários de lojas, restaurantes, entretenimento, atividades e feriados podem mudar. Confirme antes de sair.",
+    "EN": "Store, restaurant, entertainment, activity and holiday hours may change. Confirm before you go."
+  },
+  "Feria da Glória · Ernestinho Carioca": {
+    "PT": "Feira da Glória · Ernestinho Carioca",
+    "EN": "Glória Fair · Ernestinho Carioca"
+  },
+  "Yo te recomiendo la Feria da Glória si quieres conocer un Río más cotidiano, gastronómico y de barrio. Para mí, no es solamente un lugar para comprar: es una oportunidad de mirar cómo se encuentran residentes, vendedores, familias y viajeros alrededor de una plaza muy importante ": {
+    "PT": "Eu recomendo a Feira da Glória se você quer conhecer um Rio mais cotidiano, gastronômico e de bairro. Para mim, não é apenas um lugar para comprar: é uma oportunidade de ver como moradores, vendedores, famílias e viajantes se encontram ao redor de uma praça muito importante ",
+    "EN": "I recommend the Glória Fair if you want to experience a more everyday, gastronomic and neighborhood side of Rio. For me, it is not only a place to shop: it is an opportunity to see residents, vendors, families and travelers meet around a very important square "
+  },
+  "Mercado São Pedro | Ernestinho Carioca": {
+    "PT": "Mercado São Pedro | Ernestinho Carioca",
+    "EN": "Mercado São Pedro | Ernestinho Carioca"
+  },
+  "Guía de Mercado São Pedro en Niterói, con información sobre sus sabores del mar, comercio popular y cómo planificar la visita.": {
+    "PT": "Guia do Mercado São Pedro em Niterói, com informações sobre seus sabores do mar, comércio popular e como planejar a visita.",
+    "EN": "Guide to Mercado São Pedro in Niterói, with information about its seafood flavors, popular commerce and how to plan your visit."
+  },
+  "Shopping Metropolitano Barra · Ernestinho Carioca": {
+    "PT": "Shopping Metropolitano Barra · Ernestinho Carioca",
+    "EN": "Shopping Metropolitano Barra · Ernestinho Carioca"
+  },
+  "Feira de São Cristóvão · Ernestinho Carioca": {
+    "PT": "Feira de São Cristóvão · Ernestinho Carioca",
+    "EN": "Feira de São Cristóvão · Ernestinho Carioca"
+  },
+  "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar música: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los productos regionales y las historias de qu": {
+    "PT": "Eu recomendo conhecer a Feira de São Cristóvão com tempo e respeito. Para mim, não é apenas um lugar para comer ou ouvir música: é uma referência da cultura nordestina no Rio, onde gastronomia, artesanato, forró, produtos regionais e as histórias de qu",
+    "EN": "I recommend visiting Feira de São Cristóvão with time and respect. For me, it is not only a place to eat or listen to music: it is a reference point for Northeastern Brazilian culture in Rio, where food, crafts, forró, regional products and the stories of pe"
+  },
+  "Mercadão de Madureira | Ernestinho Carioca": {
+    "PT": "Mercadão de Madureira | Ernestinho Carioca",
+    "EN": "Mercadão de Madureira | Ernestinho Carioca"
+  },
+  "Yo te llevo a conocer un Río de Janeiro intenso, cotidiano y lleno de historias de compra, trabajo, fe y encuentro.": {
+    "PT": "Eu levo você a conhecer um Rio de Janeiro intenso, cotidiano e cheio de histórias de compra, trabalho, fé e encontro.",
+    "EN": "I take you into an intense, everyday Rio de Janeiro filled with stories of shopping, work, faith and encounters."
+  },
+  "Feria Hippie de Ipanema · Ernestinho Carioca": {
+    "PT": "Feira Hippie de Ipanema · Ernestinho Carioca",
+    "EN": "Ipanema Hippie Fair · Ernestinho Carioca"
+  },
+  "Yo te recomiendo visitar la Feria Hippie de Ipanema no solamente para comprar. Para mí, la feria es una forma de conocer el barrio desde adentro: artistas, artesanos, vecinos, viajeros y curiosos se encuentran en la Praça General Osório para mirar, conversar y descubrir objetos q": {
+    "PT": "Eu recomendo visitar a Feira Hippie de Ipanema não apenas para comprar. Para mim, a feira é uma forma de conhecer o bairro por dentro: artistas, artesãos, moradores, viajantes e curiosos se encontram na Praça General Osório para olhar, conversar e descobrir objetos q",
+    "EN": "I recommend visiting the Ipanema Hippie Fair not only to shop. For me, the fair is a way to experience the neighborhood from within: artists, artisans, residents, travelers and curious visitors meet at Praça General Osório to browse, talk and discover objects th"
+  },
+  "Feria da Providência · Ernestinho Carioca": {
+    "PT": "Feira da Providência · Ernestinho Carioca",
+    "EN": "Providência Fair · Ernestinho Carioca"
+  },
+  "Yo te recomiendo conocer la Feria da Providência con una mirada respetuosa. Para mí, no es una atracción para observar una realidad ajena: es un espacio de trabajo, cultura, emprendimiento y encuentro. Aquí la visita tiene sentido cuando compras directamente, escuchas, preguntas ": {
+    "PT": "Eu recomendo conhecer a Feira da Providência com um olhar respeitoso. Para mim, não é uma atração para observar uma realidade alheia: é um espaço de trabalho, cultura, empreendedorismo e encontro. Aqui a visita faz sentido quando você compra diretamente, escuta, pergunta ",
+    "EN": "I recommend visiting the Providência Fair with respect. For me, it is not an attraction for observing someone else’s reality: it is a space for work, culture, entrepreneurship and community. The visit makes sense when you buy directly, listen and ask questions "
+  },
+  "Feria Orgânica da Glória · Ernestinho Carioca": {
+    "PT": "Feira Orgânica da Glória · Ernestinho Carioca",
+    "EN": "Glória Organic Fair · Ernestinho Carioca"
+  },
+  "Yo te recomiendo la Feria Orgânica da Glória si quieres encontrar productos frescos, conversar con productores y vivir una experiencia más cotidiana de Río. Para mí, no es un supermercado al aire libre: es una relación más directa entre quien produce, quien vende y quien quiere a": {
+    "PT": "Eu recomendo a Feira Orgânica da Glória se você quer encontrar produtos frescos, conversar com produtores e viver uma experiência mais cotidiana do Rio. Para mim, não é um supermercado ao ar livre: é uma relação mais direta entre quem produz, quem vende e quem quer a",
+    "EN": "I recommend the Glória Organic Fair if you want fresh products, conversations with producers and a more everyday Rio experience. For me, it is not an open-air supermarket: it is a more direct relationship between those who produce, those who sell and those who want t"
+  },
+  "Botafogo Praia Shopping · Ernestinho Carioca": {
+    "PT": "Botafogo Praia Shopping · Ernestinho Carioca",
+    "EN": "Botafogo Praia Shopping · Ernestinho Carioca"
+  },
+  "Feria Nocturna de Copacabana · Ernestinho Carioca": {
+    "PT": "Feira Noturna de Copacabana · Ernestinho Carioca",
+    "EN": "Copacabana Night Market · Ernestinho Carioca"
+  },
+  "Yo te recomiendo conocer la Feria Nocturna de Copacabana cuando quieres caminar junto al mar, mirar artesanía y sentir cómo el barrio continúa vivo después de la playa. Para mí, la experiencia no consiste solamente en comprar: las luces, la brisa, la Avenida Atlântica y la mezcla": {
+    "PT": "Eu recomendo conhecer a Feira Noturna de Copacabana quando você quer caminhar à beira-mar, ver artesanato e sentir como o bairro continua vivo depois da praia. Para mim, a experiência não consiste apenas em comprar: as luzes, a brisa, a Avenida Atlântica e a mistura",
+    "EN": "I recommend visiting the Copacabana Night Market when you want to walk by the sea, browse crafts and feel how the neighborhood stays alive after the beach. For me, the experience is not only about shopping: the lights, the breeze, Avenida Atlântica and the mix"
   }
 };
