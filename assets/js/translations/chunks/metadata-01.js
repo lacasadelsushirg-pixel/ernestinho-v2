@@ -426,5 +426,109 @@ export default {
   "Guía de hospedaje por barrios de Río de Janeiro: Copacabana, Ipanema, Barra, Centro y otras zonas, con fotografías originales.": {
     "PT": "Guia de hospedagem por bairros do Rio de Janeiro: Copacabana, Ipanema, Barra, Centro e outras regiões, com fotografias originais.",
     "EN": "Accommodation guide by Rio de Janeiro neighborhood: Copacabana, Ipanema, Barra, Centro and other areas, with original photographs."
+  },
+  "Transportes en Río | Ernestinho Carioca": {
+    "PT": "Transportes no Rio | Ernestinho Carioca",
+    "EN": "Transportation in Rio | Ernestinho Carioca"
+  },
+  "Guía para moverte por Río: Metro, BRT, VLT, apps, bus, bicicleta, aeropuertos y traslados.": {
+    "PT": "Guia para se locomover pelo Rio: metrô, BRT, VLT, aplicativos, ônibus, bicicleta, aeroportos e traslados.",
+    "EN": "Guide to getting around Rio: metro, BRT, VLT, apps, buses, bicycles, airports and transfers."
+  },
+  "VLT Carioca en Río | Ernestinho Carioca": {
+    "PT": "VLT Carioca no Rio | Ernestinho Carioca",
+    "EN": "VLT Carioca in Rio | Ernestinho Carioca"
+  },
+  "Guía práctica de VLT Carioca en Río de Janeiro: conexiones, pago, planificación y consejos de Ernestinho.": {
+    "PT": "Guia prático do VLT Carioca no Rio de Janeiro: conexões, pagamento, planejamento e dicas de Ernestinho.",
+    "EN": "Practical guide to the VLT Carioca in Rio de Janeiro: connections, payment, planning and Ernestinho’s tips."
+  },
+  "BRT Rio: guía de uso | Ernestinho Carioca": {
+    "PT": "BRT Rio: guia de uso | Ernestinho Carioca",
+    "EN": "BRT Rio: how to use it | Ernestinho Carioca"
+  },
+  "Guía de Ernestinho para entender los corredores del BRT Rio, elegir servicios, leer el mapa oficial y planificar conexiones sin depender de datos desactualizados.": {
+    "PT": "Guia de Ernestinho para entender os corredores do BRT Rio, escolher serviços, ler o mapa oficial e planejar conexões sem depender de informações desatualizadas.",
+    "EN": "Ernestinho’s guide to understanding BRT Rio corridors, choosing services, reading the official map and planning connections without relying on outdated information."
+  },
+  "Trenes metropolitanos SuperVia | Ernestinho Carioca": {
+    "PT": "Trens metropolitanos SuperVia | Ernestinho Carioca",
+    "EN": "SuperVia metropolitan trains | Ernestinho Carioca"
+  },
+  "Guía práctica de Trenes SuperVia en Río de Janeiro: conexiones, pago, planificación y consejos de Ernestinho.": {
+    "PT": "Guia prático dos trens SuperVia no Rio de Janeiro: conexões, pagamento, planejamento e dicas de Ernestinho.",
+    "EN": "Practical guide to SuperVia trains in Rio de Janeiro: connections, payment, planning and Ernestinho’s tips."
+  },
+  "Autobuses de Río: cómo usarlos | Ernestinho Carioca": {
+    "PT": "Ônibus do Rio: como usar | Ernestinho Carioca",
+    "EN": "Rio buses: how to use them | Ernestinho Carioca"
+  },
+  "Guía práctica de Ônibus municipal en Río de Janeiro: conexiones, pago, planificación y consejos de Ernestinho.": {
+    "PT": "Guia prático dos ônibus municipais no Rio de Janeiro: conexões, pagamento, planejamento e dicas de Ernestinho.",
+    "EN": "Practical guide to municipal buses in Rio de Janeiro: connections, payment, planning and Ernestinho’s tips."
+  },
+  "Uber y aplicaciones de transporte | Ernestinho Carioca": {
+    "PT": "Uber e aplicativos de transporte | Ernestinho Carioca",
+    "EN": "Uber and transportation apps | Ernestinho Carioca"
+  },
+  "Guía práctica de Uber y apps en Río de Janeiro: conexiones, pago, planificación y consejos de Ernestinho.": {
+    "PT": "Guia prático de Uber e aplicativos no Rio de Janeiro: conexões, pagamento, planejamento e dicas de Ernestinho.",
+    "EN": "Practical guide to Uber and transportation apps in Rio de Janeiro: connections, payment, planning and Ernestinho’s tips."
+  },
+  "Barcas de Río y la Bahía de Guanabara | Ernestinho Carioca": {
+    "PT": "Barcas do Rio e a Baía de Guanabara | Ernestinho Carioca",
+    "EN": "Rio ferries and Guanabara Bay | Ernestinho Carioca"
+  },
+  "Guía práctica de Barcas Rio en Río de Janeiro: conexiones, pago, planificación y consejos de Ernestinho.": {
+    "PT": "Guia prático das Barcas Rio no Rio de Janeiro: conexões, pagamento, planejamento e dicas de Ernestinho.",
+    "EN": "Practical guide to Rio ferries: connections, payment, planning and Ernestinho’s tips."
+  },
+  "Metro de Río de Janeiro | Ernestinho Carioca": {
+    "PT": "Metrô do Rio de Janeiro | Ernestinho Carioca",
+    "EN": "Rio de Janeiro Metro | Ernestinho Carioca"
+  },
+  "Guía práctica de MetrôRio en Río de Janeiro: conexiones, pago, planificación y consejos de Ernestinho.": {
+    "PT": "Guia prático do MetrôRio no Rio de Janeiro: conexões, pagamento, planejamento e dicas de Ernestinho.",
+    "EN": "Practical guide to MetrôRio in Rio de Janeiro: connections, payment, planning and Ernestinho’s tips."
+  },
+  "Bicicletas compartidas en Río | Ernestinho Carioca": {
+    "PT": "Bicicletas compartilhadas no Rio | Ernestinho Carioca",
+    "EN": "Bike sharing in Rio | Ernestinho Carioca"
+  },
+  "Guía práctica de Bike Itaú y ciclovías en Río de Janeiro: conexiones, pago, planificación y consejos de Ernestinho.": {
+    "PT": "Guia prático do Bike Itaú e das ciclovias no Rio de Janeiro: conexões, pagamento, planejamento e dicas de Ernestinho.",
+    "EN": "Practical guide to Bike Itaú and bike lanes in Rio de Janeiro: connections, payment, planning and Ernestinho’s tips."
+  },
+  "Alquilar un auto en Río de Janeiro | Guía Ernestinho Carioca": {
+    "PT": "Alugar um carro no Rio de Janeiro | Guia Ernestinho Carioca",
+    "EN": "Renting a car in Rio de Janeiro | Ernestinho Carioca Guide"
+  },
+  "Cuándo conviene alquilar un vehículo en Río, qué comparar en el contrato y cómo planificar la recogida, los peajes, el estacionamiento y la devolución.": {
+    "PT": "Quando vale a pena alugar um veículo no Rio, o que comparar no contrato e como planejar a retirada, os pedágios, o estacionamento e a devolução.",
+    "EN": "When renting a vehicle in Rio makes sense, what to compare in the contract and how to plan pickup, tolls, parking and return."
+  },
+  "Bonde de Santa Teresa: horarios, ticket y consejos | Ernestinho Carioca": {
+    "PT": "Bonde de Santa Teresa: horários, bilhete e dicas | Ernestinho Carioca",
+    "EN": "Santa Teresa Tram: schedules, tickets and tips | Ernestinho Carioca"
+  },
+  "Cómo usar el Bonde de Santa Teresa: estación Carioca, horarios publicados, ticket, capacidad y enlaces oficiales para revisar el servicio antes de ir.": {
+    "PT": "Como usar o Bonde de Santa Teresa: estação Carioca, horários publicados, bilhete, capacidade e links oficiais para conferir o serviço antes de ir.",
+    "EN": "How to use the Santa Teresa Tram: Carioca station, published schedules, tickets, capacity and official links to check the service before you go."
+  },
+  "Terminal Intermodal Gentileza: conexiones y guía | Ernestinho Carioca": {
+    "PT": "Terminal Intermodal Gentileza: conexões e guia | Ernestinho Carioca",
+    "EN": "Terminal Intermodal Gentileza: connections and guide | Ernestinho Carioca"
+  },
+  "Cómo orientarte en el Terminal Intermodal Gentileza: conexiones BRT, VLT y autobuses municipales, accesos, accesibilidad y enlaces para confirmar servicios.": {
+    "PT": "Como se orientar no Terminal Intermodal Gentileza: conexões de BRT, VLT e ônibus municipais, acessos, acessibilidade e links para confirmar os serviços.",
+    "EN": "How to navigate Terminal Intermodal Gentileza: BRT, VLT and municipal bus connections, access points, accessibility and links to confirm services."
+  },
+  "Traslado privado en Río | Ernestinho Carioca": {
+    "PT": "Traslado privado no Rio | Ernestinho Carioca",
+    "EN": "Private transfer in Rio | Ernestinho Carioca"
+  },
+  "Guía práctica de Traslado privado Ernestinho en Río de Janeiro: conexiones, pago, planificación y consejos de Ernestinho.": {
+    "PT": "Guia prático do traslado privado Ernestinho no Rio de Janeiro: conexões, pagamento, planejamento e dicas de Ernestinho.",
+    "EN": "Practical guide to Ernestinho private transfers in Rio de Janeiro: connections, payment, planning and Ernestinho’s tips."
   }
 };
