@@ -1,6 +1,129 @@
 // Exact ES-to-PT/EN matches from the read-only V1 translation catalogue.
-export default {"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Compras":{"PT":"Compras","EN":"Shopping"},"Eventos":{"PT":"Eventos","EN":"Events"},"Experiencias":{"PT":"Experiências","EN":"Experiences"},"Feira Hippie de Ipanema":{"PT":"Feira Hippie de Ipanema","EN":"Ipanema Hippie Fair"},"Feira Orgânica da Glória":{"PT":"Feira Orgânica da Glória","EN":"Feira Orgânica da Glória"},"Feira de São Cristóvão":{"PT":"Feira de São Cristóvão","EN":"São Cristóvão Fair"},"Gastronomía":{"PT":"Gastronomia","EN":"Food"},"Guía de Río":{"PT":"Guia do Rio","EN":"Rio Guide"},"Hospedaje":{"PT":"Hospedagem","EN":"Accommodation"},"ParkJacarepaguá":{"PT":"ParkJacarepaguá","EN":"ParkJacarepaguá"},"Shopping Nova América":{"PT":"Shopping Nova América","EN":"Shopping Nova América"},"SHOPPINGS · ZONA NORTE":{"PT":"SHOPPINGS · ZONA NORTE","EN":"MALLS · NORTH ZONE"},"Yo te recomiendo este shopping cuando quieres resolver compras, comer y tener una opción cómoda cerca del metro y de Maracanã.":{"PT":"Eu recomendo este shopping quando você quer fazer compras, comer e ter uma opção confortável perto do metrô e do Maracanã.","EN":"I recommend this mall when you want to shop, eat and have a convenient option near the Metro and Maracanã."},"Un shopping práctico en el corazón de Tijuca":{"PT":"Um shopping prático no coração da Tijuca","EN":"A practical mall in the heart of Tijuca"},"Para mí, Shopping Tijuca representa una experiencia urbana, familiar y práctica. No lo visitaría buscando la escala de BarraShopping ni una experiencia de lujo como VillageMall. Yo vendría si estás en Tijuca, si quieres combinarlo con Maracanã, si necesitas escapar de la lluvia o si buscas tiendas, cine, gastronomía y servicios en un lugar climatizado.":{"PT":"Para mim, o Shopping Tijuca representa uma experiência urbana, familiar e prática. Eu não viria pela escala do BarraShopping nem por uma experiência de luxo como o VillageMall. Eu escolheria este shopping se você estiver na Tijuca, quiser combinar a visita com o Maracanã, escapar da chuva ou encontrar lojas, cinema, gastronomia e serviços em um ambiente climatizado.","EN":"To me, Shopping Tijuca offers a practical, family-friendly urban visit. I would not come for BarraShopping’s scale or the luxury of VillageMall. I would choose it if you are in Tijuca, want to pair it with Maracanã, need a rainy-day option, or are looking for shops, cinema, food and services under one roof."},"Como anfitrión, te aconsejo revisar el directorio oficial antes de salir. Las tiendas cambian y cada restaurante, cine o servicio puede tener su propio horario. Yo elegiría primero lo que realmente necesito y después dejaría tiempo para comer o caminar sin apuro.":{"PT":"Como anfitrião, aconselho consultar o diretório oficial antes de sair. As lojas mudam, e restaurantes, cinema e serviços podem ter horários próprios. Eu escolheria primeiro o que realmente preciso e depois reservaria tempo para comer ou passear sem pressa.","EN":"As your host, I recommend checking the official directory before leaving. Stores change, and restaurants, cinema and services may keep separate hours. I would decide what I need first, then leave time to eat or walk around."},"Qué compraría yo aquí":{"PT":"O que eu compraria aqui","EN":"What I would shop for here"},"Yo miraría moda, calzado, belleza, tecnología, hogar, regalos y servicios. No te prometo una tienda específica sin confirmar el directorio del día, pero el perfil del shopping permite resolver compras cotidianas con más comodidad que recorrer muchas calles comerciales. Si vienes con niños, el ambiente climatizado, el cine y la gastronomía pueden ayudarte a organizar una pausa.":{"PT":"Eu olharia moda, calçados, beleza, tecnologia, casa, presentes e serviços. Não vou prometer uma loja específica sem conferir o diretório do dia, mas o perfil do shopping facilita resolver compras cotidianas sem percorrer muitas ruas. Se vier com crianças, o ambiente climatizado, o cinema e a gastronomia ajudam a fazer uma pausa.","EN":"I would look for fashion, shoes, beauty, technology, home goods, gifts and services. I will not promise a particular store without checking the directory for the day, but the mall can make everyday shopping easier than covering several shopping streets. With children, the air-conditioned setting, cinema and food offer a useful break."},"Mi consejo es comparar precios, preguntar por cambios y guardar los comprobantes. En fines de semana puede haber más movimiento; si llevas bolsas, yo organizaría el regreso antes de cansarme.":{"PT":"Meu conselho é comparar preços, perguntar sobre trocas e guardar os comprovantes. Os fins de semana podem ser mais movimentados; se estiver com sacolas, eu organizaria a volta antes de cansar.","EN":"My advice is to compare prices, ask about returns and keep receipts. Weekends may be busier; if I had shopping bags, I would plan the return before getting tired."},"Cómo llegar y qué confirmar":{"PT":"Como chegar e o que confirmar","EN":"Getting there and what to check"},"Para saber qué transporte me conviene, yo consultaría la página oficial “Como Chegar” y después compararía las opciones desde mi punto de partida. No fijo una línea de autobús ni un tiempo de viaje: el tráfico y la operación cambian. Si voy desde lejos, con familia o con muchas bolsas, comparo Metro, autobús y aplicación de vehículo el mismo día.":{"PT":"Para escolher o transporte mais conveniente, eu consultaria a página oficial “Como Chegar” e depois compararia as opções a partir do meu ponto de saída. Não fixo linha de ônibus nem tempo de viagem: o trânsito e a operação mudam. Se vier de longe, com a família ou muitas sacolas, comparo metrô, ônibus e aplicativo no mesmo dia.","EN":"To choose the best way there, I would check the official “Getting here” page and compare options from my starting point. I do not list a bus route or travel time because traffic and service change. If I am travelling from far away, with family or several bags, I compare Metro, bus and ride apps on the day."},"Los horarios de tiendas, restaurantes, cine, servicios, feriados y actividades pueden cambiar. Confirma antes de salir.":{"PT":"Os horários de lojas, restaurantes, cinema, serviços, feriados e atividades podem mudar. Confirme antes de sair.","EN":"Store, restaurant, cinema, service, holiday and event hours may change. Check before leaving."},"Avenida Maracanã, 987 – Tijuca, Rio de Janeiro – RJ, CEP 20511-000.":{"PT":"Avenida Maracanã, 987 – Tijuca, Rio de Janeiro – RJ, CEP 20511-000.","EN":"Avenida Maracanã, 987 – Tijuca, Rio de Janeiro – RJ, postal code 20511-000."},"Cómo llegar oficial":{"PT":"Como chegar oficial","EN":"Official directions"},"Mapa interno oficial":{"PT":"Mapa interno oficial","EN":"Official indoor map"},"Yo te recomiendo conocer también el Río cotidiano de Tijuca.":{"PT":"Eu também recomendo conhecer o Rio cotidiano da Tijuca.","EN":"I also recommend discovering everyday life in Tijuca."},"← VOLVER A COMPRAS":{"PT":"← VOLTAR ÀS COMPRAS","EN":"← BACK TO SHOPPING"},"Shopping Tijuca | Ernestinho Carioca":{"PT":"Shopping Tijuca | Ernestinho Carioca","EN":"Shopping Tijuca | Ernestinho Carioca"},"Feria Orgánica da Glória":{"PT":"Feira Orgânica da Glória","EN":"Glória Organic Market"},"Productos orgánicos y vida de barrio":{"PT":"Produtos orgânicos e vida de bairro","EN":"Organic produce and neighborhood life"},
-
+export default {
+  "Barrios": {
+    "PT": "Bairros",
+    "EN": "Neighborhoods"
+  },
+  "Compras": {
+    "PT": "Compras",
+    "EN": "Shopping"
+  },
+  "Eventos": {
+    "PT": "Eventos",
+    "EN": "Events"
+  },
+  "Experiencias": {
+    "PT": "Experiências",
+    "EN": "Experiences"
+  },
+  "Feira Hippie de Ipanema": {
+    "PT": "Feira Hippie de Ipanema",
+    "EN": "Ipanema Hippie Fair"
+  },
+  "Feira Orgânica da Glória": {
+    "PT": "Feira Orgânica da Glória",
+    "EN": "Feira Orgânica da Glória"
+  },
+  "Feira de São Cristóvão": {
+    "PT": "Feira de São Cristóvão",
+    "EN": "São Cristóvão Fair"
+  },
+  "Gastronomía": {
+    "PT": "Gastronomia",
+    "EN": "Food"
+  },
+  "Guía de Río": {
+    "PT": "Guia do Rio",
+    "EN": "Rio Guide"
+  },
+  "Hospedaje": {
+    "PT": "Hospedagem",
+    "EN": "Accommodation"
+  },
+  "ParkJacarepaguá": {
+    "PT": "ParkJacarepaguá",
+    "EN": "ParkJacarepaguá"
+  },
+  "Shopping Nova América": {
+    "PT": "Shopping Nova América",
+    "EN": "Shopping Nova América"
+  },
+  "SHOPPINGS · ZONA NORTE": {
+    "PT": "SHOPPINGS · ZONA NORTE",
+    "EN": "MALLS · NORTH ZONE"
+  },
+  "Yo te recomiendo este shopping cuando quieres resolver compras, comer y tener una opción cómoda cerca del metro y de Maracanã.": {
+    "PT": "Eu recomendo este shopping quando você quer fazer compras, comer e ter uma opção confortável perto do metrô e do Maracanã.",
+    "EN": "I recommend this mall when you want to shop, eat and have a convenient option near the Metro and Maracanã."
+  },
+  "Un shopping práctico en el corazón de Tijuca": {
+    "PT": "Um shopping prático no coração da Tijuca",
+    "EN": "A practical mall in the heart of Tijuca"
+  },
+  "Para mí, Shopping Tijuca representa una experiencia urbana, familiar y práctica. No lo visitaría buscando la escala de BarraShopping ni una experiencia de lujo como VillageMall. Yo vendría si estás en Tijuca, si quieres combinarlo con Maracanã, si necesitas escapar de la lluvia o si buscas tiendas, cine, gastronomía y servicios en un lugar climatizado.": {
+    "PT": "Para mim, o Shopping Tijuca representa uma experiência urbana, familiar e prática. Eu não viria pela escala do BarraShopping nem por uma experiência de luxo como o VillageMall. Eu escolheria este shopping se você estiver na Tijuca, quiser combinar a visita com o Maracanã, escapar da chuva ou encontrar lojas, cinema, gastronomia e serviços em um ambiente climatizado.",
+    "EN": "To me, Shopping Tijuca offers a practical, family-friendly urban visit. I would not come for BarraShopping’s scale or the luxury of VillageMall. I would choose it if you are in Tijuca, want to pair it with Maracanã, need a rainy-day option, or are looking for shops, cinema, food and services under one roof."
+  },
+  "Como anfitrión, te aconsejo revisar el directorio oficial antes de salir. Las tiendas cambian y cada restaurante, cine o servicio puede tener su propio horario. Yo elegiría primero lo que realmente necesito y después dejaría tiempo para comer o caminar sin apuro.": {
+    "PT": "Como anfitrião, aconselho consultar o diretório oficial antes de sair. As lojas mudam, e restaurantes, cinema e serviços podem ter horários próprios. Eu escolheria primeiro o que realmente preciso e depois reservaria tempo para comer ou passear sem pressa.",
+    "EN": "As your host, I recommend checking the official directory before leaving. Stores change, and restaurants, cinema and services may keep separate hours. I would decide what I need first, then leave time to eat or walk around."
+  },
+  "Qué compraría yo aquí": {
+    "PT": "O que eu compraria aqui",
+    "EN": "What I would shop for here"
+  },
+  "Yo miraría moda, calzado, belleza, tecnología, hogar, regalos y servicios. No te prometo una tienda específica sin confirmar el directorio del día, pero el perfil del shopping permite resolver compras cotidianas con más comodidad que recorrer muchas calles comerciales. Si vienes con niños, el ambiente climatizado, el cine y la gastronomía pueden ayudarte a organizar una pausa.": {
+    "PT": "Eu olharia moda, calçados, beleza, tecnologia, casa, presentes e serviços. Não vou prometer uma loja específica sem conferir o diretório do dia, mas o perfil do shopping facilita resolver compras cotidianas sem percorrer muitas ruas. Se vier com crianças, o ambiente climatizado, o cinema e a gastronomia ajudam a fazer uma pausa.",
+    "EN": "I would look for fashion, shoes, beauty, technology, home goods, gifts and services. I will not promise a particular store without checking the directory for the day, but the mall can make everyday shopping easier than covering several shopping streets. With children, the air-conditioned setting, cinema and food offer a useful break."
+  },
+  "Mi consejo es comparar precios, preguntar por cambios y guardar los comprobantes. En fines de semana puede haber más movimiento; si llevas bolsas, yo organizaría el regreso antes de cansarme.": {
+    "PT": "Meu conselho é comparar preços, perguntar sobre trocas e guardar os comprovantes. Os fins de semana podem ser mais movimentados; se estiver com sacolas, eu organizaria a volta antes de cansar.",
+    "EN": "My advice is to compare prices, ask about returns and keep receipts. Weekends may be busier; if I had shopping bags, I would plan the return before getting tired."
+  },
+  "Cómo llegar y qué confirmar": {
+    "PT": "Como chegar e o que confirmar",
+    "EN": "Getting there and what to confirm"
+  },
+  "Para saber qué transporte me conviene, yo consultaría la página oficial “Como Chegar” y después compararía las opciones desde mi punto de partida. No fijo una línea de autobús ni un tiempo de viaje: el tráfico y la operación cambian. Si voy desde lejos, con familia o con muchas bolsas, comparo Metro, autobús y aplicación de vehículo el mismo día.": {
+    "PT": "Para escolher o transporte mais conveniente, eu consultaria a página oficial “Como Chegar” e depois compararia as opções a partir do meu ponto de saída. Não fixo linha de ônibus nem tempo de viagem: o trânsito e a operação mudam. Se vier de longe, com a família ou muitas sacolas, comparo metrô, ônibus e aplicativo no mesmo dia.",
+    "EN": "To choose the best way there, I would check the official “Getting here” page and compare options from my starting point. I do not list a bus route or travel time because traffic and service change. If I am travelling from far away, with family or several bags, I compare Metro, bus and ride apps on the day."
+  },
+  "Los horarios de tiendas, restaurantes, cine, servicios, feriados y actividades pueden cambiar. Confirma antes de salir.": {
+    "PT": "Os horários de lojas, restaurantes, cinema, serviços, feriados e atividades podem mudar. Confirme antes de sair.",
+    "EN": "Store, restaurant, cinema, service, holiday and event hours may change. Check before leaving."
+  },
+  "Avenida Maracanã, 987 – Tijuca, Rio de Janeiro – RJ, CEP 20511-000.": {
+    "PT": "Avenida Maracanã, 987 – Tijuca, Rio de Janeiro – RJ, CEP 20511-000.",
+    "EN": "Avenida Maracanã, 987 – Tijuca, Rio de Janeiro – RJ, postal code 20511-000."
+  },
+  "Cómo llegar oficial": {
+    "PT": "Como chegar oficial",
+    "EN": "Official directions"
+  },
+  "Mapa interno oficial": {
+    "PT": "Mapa interno oficial",
+    "EN": "Official indoor map"
+  },
+  "Yo te recomiendo conocer también el Río cotidiano de Tijuca.": {
+    "PT": "Eu também recomendo conhecer o Rio cotidiano da Tijuca.",
+    "EN": "I also recommend discovering everyday life in Tijuca."
+  },
+  "← VOLVER A COMPRAS": {
+    "PT": "← VOLTAR ÀS COMPRAS",
+    "EN": "← BACK TO SHOPPING"
+  },
+  "Shopping Tijuca | Ernestinho Carioca": {
+    "PT": "Shopping Tijuca | Ernestinho Carioca",
+    "EN": "Shopping Tijuca | Ernestinho Carioca"
+  },
+  "Feria Orgánica da Glória": {
+    "PT": "Feira Orgânica da Glória",
+    "EN": "Glória Organic Market"
+  },
+  "Productos orgánicos y vida de barrio": {
+    "PT": "Produtos orgânicos e vida de bairro",
+    "EN": "Organic produce and neighborhood life"
+  },
   "ARTESANÍA · CULTURA · BARRIO": {
     "PT": "ARTESANATO · CULTURA · BAIRRO",
     "EN": "CRAFTS · CULTURE · NEIGHBORHOOD"
@@ -1747,7 +1870,7 @@ export default {"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Compras":{"PT":
   },
   "Comprar bien": {
     "PT": "Comprar bem",
-    "EN": "Shoppingr bien"
+    "EN": "Shop well"
   },
   "Cómo comprar con estrategia": {
     "PT": "Como comprar com estratégia",
@@ -2464,5 +2587,293 @@ export default {"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Compras":{"PT":
   "⭐ Consejo de Ernestinho · Feira do Rio Antigo · Lavradio": {
     "PT": "⭐ Dica do Ernestinho · Feira do Rio Antigo · Lavradio",
     "EN": "⭐ Ernestinho’s Tip · Feira do Rio Antigo · Lavradio"
+  },
+  "Feria da Providência · Ernestinho Carioca": {
+    "PT": "Feira da Providência · Ernestinho Carioca",
+    "EN": "Feira da Providência · Ernestinho Carioca"
+  },
+  "Feria da Providência": {
+    "PT": "Feira da Providência",
+    "EN": "Feira da Providência"
+  },
+  "Comunidad, cultura y comercio local en el corazón de Río": {
+    "PT": "Comunidade, cultura e comércio local no coração do Rio",
+    "EN": "Community, culture and local commerce in the heart of Rio"
+  },
+  "Una feria que habla de comunidad y dignidad": {
+    "PT": "Uma feira que fala de comunidade e dignidade",
+    "EN": "A fair about community and dignity"
+  },
+  "Yo te recomiendo conocer la Feria da Providência con una mirada respetuosa. Para mí, no es una atracción para observar una realidad ajena: es un espacio de trabajo, cultura, emprendimiento y encuentro. Aquí la visita tiene sentido cuando compras directamente, escuchas, preguntas con respeto y entiendes que detrás de cada producto hay personas y proyectos.": {
+    "PT": "Eu recomendo conhecer a Feira da Providência com respeito. Para mim, não é uma atração para observar uma realidade alheia: é um espaço de trabalho, cultura, empreendedorismo e encontro. A visita faz sentido quando você compra diretamente, escuta, pergunta com respeito e entende que há pessoas e projetos por trás de cada produto.",
+    "EN": "I recommend visiting Feira da Providência with respect. To me, it is not an attraction for observing someone else’s reality: it is a space for work, culture, entrepreneurship and community. The visit makes sense when you buy directly, listen, ask respectfully and understand that there are people and projects behind every product."
+  },
+  "Feria da Providência: comunidad, cultura y comercio local en el corazón de Río": {
+    "PT": "Feira da Providência: comunidade, cultura e comércio local no coração do Rio",
+    "EN": "Feira da Providência: community, culture and local commerce in the heart of Rio"
+  },
+  "Ven como visitante, no como espectador": {
+    "PT": "Venha como visitante, não como espectador",
+    "EN": "Come as a visitor, not a spectator"
+  },
+  "Sabores y emprendimiento": {
+    "PT": "Sabores e empreendedorismo",
+    "EN": "Food and entrepreneurship"
+  },
+  "Gastronomía local y trabajo comunitario": {
+    "PT": "Gastronomia local e trabalho comunitário",
+    "EN": "Local food and community work"
+  },
+  "Visitar con respeto": {
+    "PT": "Visitar com respeito",
+    "EN": "Visit with respect"
+  },
+  "Cómo comportarte y aprovechar mejor la experiencia": {
+    "PT": "Como se comportar e aproveitar melhor a experiência",
+    "EN": "How to be respectful and make the most of the experience"
+  },
+  "Las fechas y horarios cambian en cada edición. Consulta la programación oficial del año.": {
+    "PT": "As datas e os horários mudam a cada edição. Consulte a programação oficial do ano.",
+    "EN": "Dates and hours vary with each edition. Check the official schedule for the current year."
+  },
+  "La sede puede cambiar según la edición.": {
+    "PT": "O local pode mudar conforme a edição.",
+    "EN": "The venue may change from one edition to another."
+  },
+  "Consulta la sede anunciada y utiliza transporte público o por aplicación.": {
+    "PT": "Consulte o local anunciado e use transporte público ou por aplicativo.",
+    "EN": "Check the announced venue and use public transport or a ride-hailing service."
+  },
+  "Inclúyela como evento especial, no como actividad permanente disponible todo el año.": {
+    "PT": "Considere como um evento especial, não como uma atividade permanente disponível o ano todo.",
+    "EN": "Treat it as a special event, not a year-round activity."
+  },
+  "Respeta el territorio y cuida tus pertenencias": {
+    "PT": "Respeite o território e cuide dos seus pertences",
+    "EN": "Respect the area and look after your belongings"
+  },
+  "⭐ Consejo de Ernestinho · Feira da Providência": {
+    "PT": "⭐ Dica do Ernestinho · Feira da Providência",
+    "EN": "⭐ Ernestinho’s tip · Feira da Providência"
+  },
+  "Yo la trataría como un gran evento cultural y comercial, no como una feria semanal. Reúne artesanía, moda, decoración, gastronomía y representaciones de estados y países, por eso vale la pena reservar varias horas.": {
+    "PT": "Eu a trataria como um grande evento cultural e comercial, não como uma feira semanal. Reúne artesanato, moda, decoração, gastronomia e representações de estados e países, por isso vale reservar várias horas.",
+    "EN": "I would treat it as a major cultural and commercial event, not a weekly market. It brings together crafts, fashion, décor, food and representatives from Brazilian states and other countries, so it is worth setting aside several hours."
+  },
+  "artesanía de Brasil y del mundo, moda, importados, casa, decoración y gastronomía nacional e internacional.": {
+    "PT": "artesanato do Brasil e do mundo, moda, importados, casa, decoração e gastronomia nacional e internacional.",
+    "EN": "crafts from Brazil and around the world, fashion, imported goods, homeware, décor, and Brazilian and international food."
+  },
+  "familias y viajeros que disfrutan grandes ferias, gastronomía y compras variadas bajo techo.": {
+    "PT": "famílias e viajantes que gostam de grandes feiras, gastronomia e compras variadas em ambiente coberto.",
+    "EN": "families and travelers who enjoy large fairs, food and varied indoor shopping."
+  },
+  "Riocentro, Barra Olímpica y otros planes de Zona Oeste; confirma siempre las fechas de la edición vigente.": {
+    "PT": "Riocentro, Barra Olímpica e outros programas na Zona Oeste; confirme sempre as datas da edição vigente.",
+    "EN": "Riocentro, Barra Olímpica and other West Zone plans; always confirm the dates of the current edition."
+  },
+  "Feira das Yabás en imágenes": {
+    "PT": "Feira das Yabás em imagens",
+    "EN": "Feira das Yabás in pictures"
+  },
+  "FERIAS · CULTURA POPULAR": {
+    "PT": "FEIRAS · CULTURA POPULAR",
+    "EN": "FAIRS · POPULAR CULTURE"
+  },
+  "Yo te recomiendo conocerla como una celebración cultural y gastronómica de Oswaldo Cruz, no como un espectáculo exótico.": {
+    "PT": "Eu recomendo conhecê-la como uma celebração cultural e gastronômica de Oswaldo Cruz, não como um espetáculo exótico.",
+    "EN": "I recommend experiencing it as a cultural and culinary celebration of Oswaldo Cruz, not as an exotic spectacle."
+  },
+  "Cocina afrobrasileña, samba y memoria": {
+    "PT": "Culinária afro-brasileira, samba e memória",
+    "EN": "Afro-Brazilian food, samba and memory"
+  },
+  "Para mí, Feira das Yabás tiene una relación especial con las mujeres, la cocina afrobrasileña, la samba y la memoria cultural de Oswaldo Cruz. La programación depende de fechas anunciadas, por eso yo confirmaría el calendario antes de salir. No es una feria permanente disponible todos los días.": {
+    "PT": "Para mim, a Feira das Yabás tem uma relação especial com as mulheres, a culinária afro-brasileira, o samba e a memória cultural de Oswaldo Cruz. A programação depende das datas anunciadas, por isso eu confirmaria o calendário antes de sair. Não é uma feira permanente disponível todos os dias.",
+    "EN": "To me, Feira das Yabás has a special connection with women, Afro-Brazilian food, samba and the cultural memory of Oswaldo Cruz. Its program depends on announced dates, so I would confirm the calendar before leaving. It is not a permanent daily market."
+  },
+  "Como anfitrión, te aconsejo llegar con tiempo, preguntar por los platos y respetar a quienes trabajan y participan. La comida no es solamente una curiosidad: es identidad, conocimiento y tradición. Yo no fotografiaría personas o puestos sin permiso.": {
+    "PT": "Como anfitrião, aconselho chegar com tempo, perguntar sobre os pratos e respeitar quem trabalha e participa. A comida não é apenas uma curiosidade: é identidade, conhecimento e tradição. Eu não fotografaria pessoas ou barracas sem permissão.",
+    "EN": "As a host, I suggest arriving with time, asking about the dishes and respecting the people who work and take part. The food is not merely a curiosity: it represents identity, knowledge and tradition. I would not photograph people or stalls without permission."
+  },
+  "Qué esperar": {
+    "PT": "O que esperar",
+    "EN": "What to expect"
+  },
+  "Puede haber samba, gastronomía afrobrasileña, público local y un ambiente comunitario. Yo no prometería shows, platos ni horarios específicos sin revisar la edición correspondiente. Si vienes con niños, mantén el grupo cerca y acuerda un punto de encuentro.": {
+    "PT": "Pode haver samba, gastronomia afro-brasileira, público local e ambiente comunitário. Eu não prometeria shows, pratos nem horários específicos sem conferir a edição correspondente. Se vier com crianças, mantenha o grupo por perto e combine um ponto de encontro.",
+    "EN": "There may be samba, Afro-Brazilian food, a local crowd and a community atmosphere. I would not promise specific shows, dishes or times without checking that edition. If you come with children, keep the group close and agree on a meeting point."
+  },
+  "Mi consejo es probar con curiosidad, preguntar los ingredientes si tienes restricciones alimentarias y llevar una forma de pago confirmada para ese evento.": {
+    "PT": "Meu conselho é provar com curiosidade, perguntar os ingredientes se você tiver restrições alimentares e levar uma forma de pagamento aceita no evento.",
+    "EN": "My advice is to taste with curiosity, ask about ingredients if you have dietary restrictions, and bring a payment method accepted at that event."
+  },
+  "Se realiza en domingos seleccionados, según calendario cultural. Consulta la programación antes de ir.": {
+    "PT": "Acontece em alguns domingos, conforme o calendário cultural. Consulte a programação antes de ir.",
+    "EN": "Held on selected Sundays according to the cultural calendar. Check the schedule before going."
+  },
+  "Tren hasta Oswaldo Cruz y breve caminata; para el regreso nocturno puede ser más cómodo usar transporte por aplicación.": {
+    "PT": "Trem até Oswaldo Cruz e uma curta caminhada; para voltar à noite, pode ser mais confortável usar transporte por aplicativo.",
+    "EN": "Take the train to Oswaldo Cruz and walk a short distance. For a late return, ride-hailing may be more convenient."
+  },
+  "Llega antes de los grandes shows para probar los platos de las yabás con menos filas.": {
+    "PT": "Chegue antes dos grandes shows para provar os pratos das yabás com menos fila.",
+    "EN": "Arrive before the main shows to try the yabás’ dishes with shorter lines."
+  },
+  "La referencia es la Praça Paulo da Portela, en Oswaldo Cruz. Desde Copacabana, Ipanema, Botafogo o el Centro, yo compararía tren, autobús, Uber, 99 y taxi en Google Maps o Moovit según la fecha. En eventos nocturnos, planifica también el regreso.": {
+    "PT": "A referência é a Praça Paulo da Portela, em Oswaldo Cruz. Saindo de Copacabana, Ipanema, Botafogo ou Centro, eu compararia trem, ônibus, Uber, 99 e táxi no Google Maps ou Moovit conforme a data. Em eventos noturnos, planeje também a volta.",
+    "EN": "The reference point is Praça Paulo da Portela in Oswaldo Cruz. From Copacabana, Ipanema, Botafogo or Centro, I would compare train, bus, Uber, 99 and taxi options on Google Maps or Moovit for that date. For evening events, plan your return as well."
+  },
+  "Las fechas, puestos, programación, horarios y formas de pago pueden cambiar. Confirma la edición antes de salir.": {
+    "PT": "Datas, barracas, programação, horários e formas de pagamento podem mudar. Confirme a edição antes de sair.",
+    "EN": "Dates, stalls, programming, hours and payment methods can change. Confirm the edition before leaving."
+  },
+  "⭐ Consejo de Ernestinho · Feira das Yabás": {
+    "PT": "⭐ Dica do Ernestinho · Feira das Yabás",
+    "EN": "⭐ Ernestinho’s tip · Feira das Yabás"
+  },
+  "Esta no es una feria de compras convencional: yo la presentaría como una inmersión en Oswaldo Cruz, el samba y la cocina afrobrasileña. Aquí la comida de las Yabás y la música son el corazón de la experiencia.": {
+    "PT": "Esta não é uma feira de compras convencional: eu a apresentaria como uma imersão em Oswaldo Cruz, no samba e na culinária afro-brasileira. Aqui, a comida das Yabás e a música são o coração da experiência.",
+    "EN": "This is not a conventional shopping fair: I would present it as an immersion in Oswaldo Cruz, samba and Afro-Brazilian food. Here, the Yabás’ cooking and music are at the heart of the experience."
+  },
+  "comida tradicional, samba, memoria cultural y ambiente comunitario.": {
+    "PT": "comida tradicional, samba, memória cultural e ambiente comunitário.",
+    "EN": "traditional food, samba, cultural memory and a community atmosphere."
+  },
+  "quien quiere conocer un Río más allá de la Zona Sul y tiene interés por samba, cultura negra y gastronomía.": {
+    "PT": "quem quer conhecer um Rio além da Zona Sul e se interessa por samba, cultura negra e gastronomia.",
+    "EN": "anyone who wants to discover Rio beyond the South Zone and is interested in samba, Black culture and food."
+  },
+  "Oswaldo Cruz y Madureira; yo confirmaría siempre la fecha de la próxima edición antes de cruzar la ciudad.": {
+    "PT": "Oswaldo Cruz e Madureira; eu sempre confirmaria a data da próxima edição antes de atravessar a cidade.",
+    "EN": "Oswaldo Cruz and Madureira; I would always confirm the date of the next edition before crossing the city."
+  },
+  "Yo te recomiendo conocer Río también desde sus raíces culturales.": {
+    "PT": "Eu recomendo conhecer o Rio também por suas raízes culturais.",
+    "EN": "I recommend discovering Rio through its cultural roots too."
+  },
+  "Feirarte del Calçadão de Copacabana | Ernestinho Carioca": {
+    "PT": "Feirarte do Calçadão de Copacabana | Ernestinho Carioca",
+    "EN": "Copacabana Boardwalk Feirarte | Ernestinho Carioca"
+  },
+  "Avenida Atlântica · Copacabana": {
+    "PT": "Avenida Atlântica · Copacabana",
+    "EN": "Avenida Atlântica · Copacabana"
+  },
+  "Feirarte del Calçadão de Copacabana": {
+    "PT": "Feirarte do Calçadão de Copacabana",
+    "EN": "Copacabana Boardwalk Feirarte"
+  },
+  "Una caminata frente al mar entre artesanía, arte, camisetas, decoración y pequeños recuerdos.": {
+    "PT": "Uma caminhada à beira-mar entre artesanato, arte, camisetas, decoração e pequenas lembranças.",
+    "EN": "A seaside walk among crafts, art, T-shirts, décor and small souvenirs."
+  },
+  "Mi consejo:": {
+    "PT": "Minha dica:",
+    "EN": "My tip:"
+  },
+  "El montaje y el tramo activo pueden variar. Confirma el mismo día antes de desplazarte.": {
+    "PT": "A montagem e o trecho ativo podem variar. Confirme no mesmo dia antes de se deslocar.",
+    "EN": "The setup and active section may vary. Confirm on the same day before making a special trip."
+  },
+  "Contenido recuperado de la base editorial Ernestinho. Los datos operativos deben volver a verificarse antes de presentarlos como información del día.": {
+    "PT": "Conteúdo recuperado da base editorial Ernestinho. Os dados operacionais devem ser verificados novamente antes de serem apresentados como informação do dia.",
+    "EN": "Content recovered from Ernestinho’s editorial base. Operational details must be checked again before being presented as current information."
+  },
+  "Cómo aprovechar la visita": {
+    "PT": "Como aproveitar a visita",
+    "EN": "How to make the most of your visit"
+  },
+  "Artesanía junto a la orla": {
+    "PT": "Artesanato junto à orla",
+    "EN": "Crafts along the waterfront"
+  },
+  "Esta ficha reúne una opción de feria en Copacabana que puede sumarse a un paseo frente al mar. El tramo activo y el montaje pueden cambiar, así que conviene comprobar que esté funcionando antes de salir especialmente para comprar.": {
+    "PT": "Esta ficha reúne uma opção de feira em Copacabana que pode ser combinada com um passeio à beira-mar. O trecho ativo e a montagem podem mudar, então vale confirmar se está funcionando antes de sair especialmente para comprar.",
+    "EN": "This guide covers a market option in Copacabana that can be combined with a walk along the waterfront. The active section and setup may change, so check that it is operating before making a special trip to shop."
+  },
+  "Recorrido flexible": {
+    "PT": "Passeio flexível",
+    "EN": "Flexible visit"
+  },
+  "Si la feria está montada, recórrela junto con la orla y el barrio, sin depender de una compra específica. Considera el volumen de lo que adquieras y dónde guardarás tus pertenencias. Confirma el sector y el horario publicados para el día.": {
+    "PT": "Se a feira estiver montada, percorra-a junto com a orla e o bairro, sem depender de uma compra específica. Considere o volume do que comprar e onde guardará seus pertences. Confirme o setor e o horário divulgados para o dia.",
+    "EN": "If the market is set up, explore it together with the waterfront and neighborhood without depending on a specific purchase. Consider the size of what you buy and where you will keep your belongings. Confirm the section and hours published for that day."
+  },
+  "Guía editorial, no información comercial en tiempo real. La oferta, los horarios, el acceso y la programación pueden cambiar; comprueba esos detalles antes de desplazarte.": {
+    "PT": "Guia editorial, não informação comercial em tempo real. A oferta, os horários, o acesso e a programação podem mudar; confirme esses detalhes antes de se deslocar.",
+    "EN": "Editorial guide, not real-time commercial information. Offerings, hours, access and programming may change; check those details before traveling."
+  },
+  "Feria Orgânica da Glória · Ernestinho Carioca": {
+    "PT": "Feira Orgânica da Glória · Ernestinho Carioca",
+    "EN": "Feira Orgânica da Glória · Ernestinho Carioca"
+  },
+  "Alimentos frescos, productores y vida local en Río": {
+    "PT": "Alimentos frescos, produtores e vida local no Rio",
+    "EN": "Fresh food, producers and local life in Rio"
+  },
+  "Una feria para comprar mejor y conocer el barrio": {
+    "PT": "Uma feira para comprar melhor e conhecer o bairro",
+    "EN": "A market for better shopping and neighborhood life"
+  },
+  "Yo te recomiendo la Feria Orgânica da Glória si quieres encontrar productos frescos, conversar con productores y vivir una experiencia más cotidiana de Río. Para mí, no es un supermercado al aire libre: es una relación más directa entre quien produce, quien vende y quien quiere alimentarse mejor.": {
+    "PT": "Eu recomendo a Feira Orgânica da Glória se você quer encontrar produtos frescos, conversar com produtores e viver uma experiência mais cotidiana do Rio. Para mim, não é um supermercado ao ar livre: é uma relação mais direta entre quem produz, quem vende e quem quer se alimentar melhor.",
+    "EN": "I recommend Feira Orgânica da Glória if you want fresh produce, conversations with producers and a more everyday Rio experience. To me, it is not an open-air supermarket: it is a more direct relationship between the people who produce, sell and want to eat better."
+  },
+  "Feria Orgânica da Glória: alimentos frescos, productores y vida local en Río": {
+    "PT": "Feira Orgânica da Glória: alimentos frescos, produtores e vida local no Rio",
+    "EN": "Feira Orgânica da Glória: fresh food, producers and local life in Rio"
+  },
+  "Una plaza donde el alimento tiene rostro": {
+    "PT": "Uma praça onde o alimento tem rosto",
+    "EN": "A square where food has a face"
+  },
+  "Cómo reconocer y conservar mejor tus compras": {
+    "PT": "Como reconhecer e conservar melhor suas compras",
+    "EN": "How to assess and store your purchases"
+  },
+  "Comprar directamente y preguntar siempre": {
+    "PT": "Comprar diretamente e sempre perguntar",
+    "EN": "Buy directly and always ask questions"
+  },
+  "Sábados, aproximadamente 7:00–13:00.": {
+    "PT": "Aos sábados, aproximadamente das 7h às 13h.",
+    "EN": "Saturdays, approximately 7 am–1 pm."
+  },
+  "Rua do Russel, frente al número 300 – Glória.": {
+    "PT": "Rua do Russel, em frente ao número 300 – Glória.",
+    "EN": "Rua do Russel, in front of number 300 – Glória."
+  },
+  "Metro hasta Glória y caminata por Rua do Russel.": {
+    "PT": "Metrô até Glória e caminhada pela Rua do Russel.",
+    "EN": "Take the metro to Glória and walk along Rua do Russel."
+  },
+  "Llega temprano para encontrar mayor variedad y lleva una bolsa reutilizable.": {
+    "PT": "Chegue cedo para encontrar mais variedade e leve uma sacola reutilizável.",
+    "EN": "Arrive early for more choice, and bring a reusable bag."
+  },
+  "Alimentos frescos requieren atención": {
+    "PT": "Alimentos frescos exigem atenção",
+    "EN": "Fresh food needs attention"
+  },
+  "⭐ Consejo de Ernestinho · Feira Orgânica da Glória": {
+    "PT": "⭐ Dica do Ernestinho · Feira Orgânica da Glória",
+    "EN": "⭐ Ernestinho’s tip · Feira Orgânica da Glória"
+  },
+  "Yo vendría temprano. Es una feria para conversar con productores, comprar alimentos frescos y conocer otra cara de Glória. La tradición del encuentro viene de los años 1990 y su foco está en agricultura orgánica familiar y consumo consciente.": {
+    "PT": "Eu viria cedo. É uma feira para conversar com produtores, comprar alimentos frescos e conhecer outra face da Glória. A tradição do encontro vem dos anos 1990 e seu foco está na agricultura orgânica familiar e no consumo consciente.",
+    "EN": "I would come early. This is a market for talking with producers, buying fresh food and discovering another side of Glória. The tradition dates back to the 1990s and focuses on family organic farming and conscious consumption."
+  },
+  "frutas, verduras, hortalizas, alimentos orgánicos, productos artesanales y propuestas ligadas a producción sostenible.": {
+    "PT": "frutas, verduras, hortaliças, alimentos orgânicos, produtos artesanais e propostas ligadas à produção sustentável.",
+    "EN": "fruit, vegetables, greens, organic food, artisanal products and options linked to sustainable production."
+  },
+  "quien cocina durante el viaje, busca productos orgánicos o disfruta mercados locales y contacto con productores.": {
+    "PT": "quem cozinha durante a viagem, busca produtos orgânicos ou gosta de mercados locais e contato com produtores.",
+    "EN": "anyone cooking during the trip, looking for organic products, or enjoying local markets and contact with producers."
+  },
+  "Glória, Memorial Getúlio Vargas, Parque do Flamengo, Marina da Glória y Catete.": {
+    "PT": "Glória, Memorial Getúlio Vargas, Parque do Flamengo, Marina da Glória e Catete.",
+    "EN": "Glória, Memorial Getúlio Vargas, Flamengo Park, Marina da Glória and Catete."
   }
 };
