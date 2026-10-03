@@ -1472,5 +1472,601 @@ export default {"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Compras":{"PT":
   "Las marcas que yo miraría primero": {
     "PT": "As marcas que eu olharia primeiro",
     "EN": "The brands I would look at first"
+  },
+  "CADEG": {
+    "PT": "CADEG",
+    "EN": "CADEG"
+  },
+  "CARIOCA": {
+    "PT": "CARIOCA",
+    "EN": "CARIOCA"
+  },
+  "ERNESTINHO": {
+    "PT": "ERNESTINHO",
+    "EN": "ERNESTINHO"
+  },
+  "ERNESTINHO CARIOCA": {
+    "PT": "ERNESTINHO CARIOCA",
+    "EN": "ERNESTINHO CARIOCA"
+  },
+  "Ernestinho Carioca": {
+    "PT": "Ernestinho Carioca",
+    "EN": "Ernestinho Carioca"
+  },
+  "Google Maps": {
+    "PT": "Google Maps",
+    "EN": "Google Maps"
+  },
+  "Instagram": {
+    "PT": "Instagram",
+    "EN": "Instagram"
+  },
+  "Waze": {
+    "PT": "Waze",
+    "EN": "Waze"
+  },
+  "Saara": {
+    "PT": "Saara",
+    "EN": "Saara"
+  },
+  "CADEG · Ernestinho Carioca": {
+    "PT": "CADEG · Ernestinho Carioca",
+    "EN": "CADEG · Ernestinho Carioca"
+  },
+  "Saara · Ernestinho Carioca": {
+    "PT": "Saara · Ernestinho Carioca",
+    "EN": "Saara · Ernestinho Carioca"
+  },
+  "Ambiente gastronómico de CADEG": {
+    "PT": "Ambiente gastronômico de CADEG",
+    "EN": "Atmosphere food-focused de CADEG"
+  },
+  "CADEG: sabores, productos frescos y vida carioca en el mercado de Benfica": {
+    "PT": "CADEG: sabores, produtos frescos y vida carioca en el mercado de Benfica",
+    "EN": "CADEG: flavours, products fresh y Rio life en el market de Benfica"
+  },
+  "Compra y transporta con atención": {
+    "PT": "Compra y transporta con atención",
+    "EN": "Shopping y transporta con atención"
+  },
+  "Cuándo ir y cómo llegar": {
+    "PT": "Quando ir e como chegar",
+    "EN": "When to go and how to get there"
+  },
+  "Detalle del mercado CADEG": {
+    "PT": "Detalhe del mercado CADEG",
+    "EN": "Market detail del market CADEG"
+  },
+  "Dónde comer y qué buscar": {
+    "PT": "Onde comer e o que procurar",
+    "EN": "Where to eat and what to look for"
+  },
+  "Familias y visitantes": {
+    "PT": "Famílias e visitantes",
+    "EN": "Families and visitors"
+  },
+  "Flores y productos especiales en CADEG": {
+    "PT": "Flores y produtos especiales en CADEG",
+    "EN": "Flowers y products especiales en CADEG"
+  },
+  "Flores, bebidas y productos especiales": {
+    "PT": "Flores, bebidas y produtos especiales",
+    "EN": "Flowers, drinks y products especiales"
+  },
+  "Gastronomía y restaurantes de CADEG": {
+    "PT": "Gastronomia y restaurantes de CADEG",
+    "EN": "Food y restaurantes de CADEG"
+  },
+  "Guía de Ernestinho Carioca · Mercados de Río": {
+    "PT": "Guia de Ernestinho Carioca · Mercados de Río",
+    "EN": "Guide de Ernestinho Carioca · Mercados de Río"
+  },
+  "Mapa de CADEG": {
+    "PT": "Mapa de CADEG",
+    "EN": "Map of CADEG"
+  },
+  "Mercado CADEG en Benfica": {
+    "PT": "Mercado CADEG en Benfica",
+    "EN": "Mercado CADEG en Benfica"
+  },
+  "Mercancías y alimentos en CADEG": {
+    "PT": "Mercadorias e alimentos en CADEG",
+    "EN": "Goods and food en CADEG"
+  },
+  "Ojo con esto": {
+    "PT": "Atenção a isto",
+    "EN": "Keep this in mind"
+  },
+  "Pasillos y comercio dentro de CADEG": {
+    "PT": "Corredores e comércio dentro de CADEG",
+    "EN": "Aisles and trade dentro de CADEG"
+  },
+  "Productos y puestos de CADEG": {
+    "PT": "Produtos e barracas de CADEG",
+    "EN": "Products and stalls de CADEG"
+  },
+  "Qué compraría yo en CADEG": {
+    "PT": "O que eu compraria en CADEG",
+    "EN": "What I would buy en CADEG"
+  },
+  "Sabores, productos frescos y vida carioca en el mercado de Benfica": {
+    "PT": "Sabores, produtos frescos y vida carioca en el mercado de Benfica",
+    "EN": "Flavours, products fresh y Rio life en el market de Benfica"
+  },
+  "Un mercado activo, práctico y lleno de movimiento": {
+    "PT": "Um mercado activo, práctico y lleno de movimiento",
+    "EN": "Un market activo, práctico y lleno de movimiento"
+  },
+  "Un mercado para mirar, comer y resolver": {
+    "PT": "Um mercado para mirar, comer y resolver",
+    "EN": "Un market para mirar, comer y resolver"
+  },
+  "Un mercado que se compra, se huele y se saborea": {
+    "PT": "Um mercado que se compra, se huele y se saborea",
+    "EN": "Un market que se compra, se huele y se saborea"
+  },
+  "Una visita para comprar con todos los sentidos": {
+    "PT": "Uma visita para comprar con todos los sentidos",
+    "EN": "A visit para comprar con todos los sentidos"
+  },
+  "Ven con una idea y deja espacio para descubrir": {
+    "PT": "Venha com una idea y deja espacio para descobrir",
+    "EN": "Come with una idea y deja espacio para descubrir"
+  },
+  "Visitantes y comercio en CADEG": {
+    "PT": "Visitantes y comercio en CADEG",
+    "EN": "Visitors y comercio en CADEG"
+  },
+  "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y gastronómico que no se parece a un shopping. Para mí, es un lugar donde conviven productos frescos, flores, bebidas, restaurantes, comerciantes y compradores que vienen a reso": {
+    "PT": "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y gastronômico que no se parece a un shopping. Para mí, es un lugar donde conviven produtos frescos, flores, bebidas, restaurantes, comerciantes y compradores que vienen a reso",
+    "EN": "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y food-focused que no se parece a un shopping. Para mí, es un lugar donde conviven products fresh, flores, drinks, restaurantes, comerciantes y compradores que vienen a reso"
+  },
+  "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y gastronómico que no se parece a un shopping. Para mí, es un lugar donde conviven productos frescos, flores, bebidas, restaurantes, comerciantes y compradores que vienen a resolver desde una compra pequeña hasta las necesidades de una cocina profesional.": {
+    "PT": "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y gastronômico que no se parece a un shopping. Para mí, es un lugar donde conviven produtos frescos, flores, bebidas, restaurantes, comerciantes y compradores que vienen a resolver desde una compra pequeña hasta las necesidades de una cocina profesional.",
+    "EN": "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y food-focused que no se parece a un shopping. Para mí, es un lugar donde conviven products fresh, flores, drinks, restaurantes, comerciantes y compradores que vienen a resolver desde una compra pequeña hasta las necesidades de una cocina profesional."
+  },
+  "Ambiente de la Feira de São Cristóvão": {
+    "PT": "Ambiente de la Feira de São Cristóvão",
+    "EN": "Atmosphere de la Feira de São Cristóvão"
+  },
+  "Artesanía y productos regionales de la feria": {
+    "PT": "Artesanato y produtos regionaises de la feira",
+    "EN": "Crafts y products regionales de la fair"
+  },
+  "Comida y gastronomía nordestina en la feria": {
+    "PT": "Comida y gastronomía nordestina en la feira",
+    "EN": "Food y gastronomía nordestina en la fair"
+  },
+  "Comida, música, puestos y mucha identidad": {
+    "PT": "Comida, música, barracas y muita identidade",
+    "EN": "Food, music, stalls y full of identity"
+  },
+  "Compras con identidad": {
+    "PT": "Compras con identidad",
+    "EN": "Shoppings con identidad"
+  },
+  "Cultura nordestina, sabores y música en el corazón de Río": {
+    "PT": "Cultura nordestina, sabores y música en el coração de Río",
+    "EN": "Northeastern culture, flavours y music en el heart de Río"
+  },
+  "Disfruta con respeto y sentido común": {
+    "PT": "Aproveite com respeito e bom senso",
+    "EN": "Enjoy it respectfully and use common sense"
+  },
+  "Experiencia familiar en la Feira de São Cristóvão": {
+    "PT": "Experiência familiar en la Feira de São Cristóvão",
+    "EN": "Family experience en la Feira de São Cristóvão"
+  },
+  "Feira de São Cristóvão en Río de Janeiro": {
+    "PT": "Feira de São Cristóvão no Rio de Janeiro",
+    "EN": "Feira de São Cristóvão in Rio de Janeiro"
+  },
+  "Feira de São Cristóvão · Ernestinho Carioca": {
+    "PT": "Feira de São Cristóvão · Ernestinho Carioca",
+    "EN": "Feira de São Cristóvão · Ernestinho Carioca"
+  },
+  "Feira de São Cristóvão: cultura nordestina, sabores y música en el corazón de Río": {
+    "PT": "Feira de São Cristóvão: cultura nordestina, sabores y música en el coração de Río",
+    "EN": "Feira de São Cristóvão: cultura nordestina, flavours y music en el heart de Río"
+  },
+  "Forró, baile y tradiciones vivas": {
+    "PT": "Forró, dança e tradições vivas",
+    "EN": "Forró, dancing and living traditions"
+  },
+  "Gastronomía nordestina": {
+    "PT": "Gastronomia nordestina",
+    "EN": "Food nordestina"
+  },
+  "Guía de Ernestinho Carioca · Cultura de Río": {
+    "PT": "Guia de Ernestinho Carioca · Cultura de Río",
+    "EN": "Guide de Ernestinho Carioca · Cultura de Río"
+  },
+  "Información oficial": {
+    "PT": "Informações oficiais",
+    "EN": "Official information"
+  },
+  "Mapa de la Feira de São Cristóvão": {
+    "PT": "Mapa de la Feira de São Cristóvão",
+    "EN": "Map of la Feira de São Cristóvão"
+  },
+  "Música y cultura": {
+    "PT": "Música e cultura",
+    "EN": "Music and culture"
+  },
+  "Música y cultura en la Feira de São Cristóvão": {
+    "PT": "Música e cultura en la Feira de São Cristóvão",
+    "EN": "Music and culture en la Feira de São Cristóvão"
+  },
+  "Puestos y arquitectura de la Feira de São Cristóvão": {
+    "PT": "Puestos y arquitectura de la Feira de São Cristóvão",
+    "EN": "Puestos y arquitectura de la Feira de São Cristóvão"
+  },
+  "Qué comería yo": {
+    "PT": "O que eu comeria",
+    "EN": "What I would eat"
+  },
+  "Qué compraría yo": {
+    "PT": "O que eu compraria",
+    "EN": "What I would buy"
+  },
+  "Un pedazo del Nordeste dentro de Río": {
+    "PT": "Um pedaço do Nordeste dentro do Rio",
+    "EN": "A piece of the Northeast in Rio"
+  },
+  "Una experiencia para comer, escuchar y descubrir": {
+    "PT": "Una experiencia para comer, escuchar y descobrir",
+    "EN": "An experience to eat, listen and discover"
+  },
+  "Ven con tiempo y con curiosidad": {
+    "PT": "Venha com tiempo y con curiosidad",
+    "EN": "Come with tiempo y con curiosidad"
+  },
+  "Visitantes y puestos de la Feira de São Cristóvão": {
+    "PT": "Visitantes y barracas de la Feira de São Cristóvão",
+    "EN": "Visitors y stalls de la Feira de São Cristóvão"
+  },
+  "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar música: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los productos regionales y las historias de qu": {
+    "PT": "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar música: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los produtos regionaises y las historias de qu",
+    "EN": "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar music: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los products regionales y las historias de qu"
+  },
+  "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar música: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los productos regionales y las historias de quienes llegaron a la ciudad se encuentran.": {
+    "PT": "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar música: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los produtos regionaises y las historias de quienes llegaron a la ciudad se encuentran.",
+    "EN": "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar music: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los products regionales y las historias de quienes llegaron a la ciudad se encuentran."
+  },
+  "Caminar, comparar y descubrir tiendas diferentes": {
+    "PT": "Caminhar, comparar y descobrir lojas diferentes",
+    "EN": "Walk, comparar y descubrir different shops"
+  },
+  "Compra con atención y disfruta el Centro": {
+    "PT": "Compre com atenção e aproveite o Centro",
+    "EN": "Shopping con atención y disfruta el Centro"
+  },
+  "Compradores recorriendo Saara": {
+    "PT": "Compradores recorriendo Saara",
+    "EN": "Shoppingdores recorriendo Saara"
+  },
+  "Comprar bien": {
+    "PT": "Comprar bem",
+    "EN": "Shoppingr bien"
+  },
+  "Cómo comprar con estrategia": {
+    "PT": "Como comprar com estratégia",
+    "EN": "How to shop strategically"
+  },
+  "Detalle de las compras en Saara": {
+    "PT": "Detalhe de las compras en Saara",
+    "EN": "Market detail de las compras en Saara"
+  },
+  "El mercado popular donde Río compra, compara y resuelve": {
+    "PT": "O mercado popular onde o Rio compra, compara e resolve",
+    "EN": "El market popular donde Río compra, compara y resuelve"
+  },
+  "Fuente de referencia": {
+    "PT": "Fonte de referência",
+    "EN": "Reference source"
+  },
+  "Interior de una tienda de Saara": {
+    "PT": "Interior de uma loja de Saara",
+    "EN": "Inside a shop de Saara"
+  },
+  "Mapa de Saara": {
+    "PT": "Mapa de Saara",
+    "EN": "Map of Saara"
+  },
+  "Movimiento comercial en Saara": {
+    "PT": "Movimento comercial en Saara",
+    "EN": "Commercial activity en Saara"
+  },
+  "Productos y vitrinas de Saara": {
+    "PT": "Produtos e vitrines de Saara",
+    "EN": "Products and displays de Saara"
+  },
+  "Qué compraría yo en Saara": {
+    "PT": "O que eu compraria en Saara",
+    "EN": "What I would buy en Saara"
+  },
+  "Saara en el Centro de Río": {
+    "PT": "Saara en el Centro de Río",
+    "EN": "Saara en el Centro de Río"
+  },
+  "Saara: el mercado popular donde Río compra, compara y resuelve": {
+    "PT": "Saara: el mercado popular donde Río compra, compara y resuelve",
+    "EN": "Saara: el market popular donde Río compra, compara y resuelve"
+  },
+  "Tiendas y calles comerciales de Saara": {
+    "PT": "Lojas e ruas comerciais de Saara",
+    "EN": "Shops and commercial streets de Saara"
+  },
+  "Un Río comercial, popular y lleno de movimiento": {
+    "PT": "Um Rio comercial, popular e cheio de movimento",
+    "EN": "A lively, popular and commercial Rio"
+  },
+  "Ven con una lista, pero deja espacio para descubrir": {
+    "PT": "Venha com una lista, pero deja espacio para descobrir",
+    "EN": "Come with una lista, pero deja espacio para descubrir"
+  },
+  "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una feria de fin de semana: es un conjunto de calles, tiendas y galerías donde los cario": {
+    "PT": "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una feira de fin de semana: es un conjunto de calles, tiendas y galerías donde los cario",
+    "EN": "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una fair de fin de semana: es un conjunto de calles, tiendas y galerías donde los cario"
+  },
+  "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una feria de fin de semana: es un conjunto de calles, tiendas y galerías donde los cariocas resuelven compras reales y donde el viajero puede encontrar casi de todo.": {
+    "PT": "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una feira de fin de semana: es un conjunto de calles, tiendas y galerías donde los cariocas resuelven compras reales y donde el viajero puede encontrar casi de todo.",
+    "EN": "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una fair de fin de semana: es un conjunto de calles, tiendas y galerías donde los cariocas resuelven compras reales y donde el viajero puede encontrar casi de todo."
+  },
+  "WhatsApp": {
+    "PT": "WhatsApp",
+    "EN": "WhatsApp"
+  },
+  "Ambiente gastronómico de la Feira": {
+    "PT": "Ambiente gastronômico de la Feira",
+    "EN": "Atmosphere food-focused de la Feira"
+  },
+  "Cada casa interna tiene carta y servicio propios.": {
+    "PT": "Cada casa interna tiene carta y servicio propios.",
+    "EN": "Cada casa interna tiene carta y servicio propios."
+  },
+  "Calles internas conectan comida, compras y música.": {
+    "PT": "Calles internas conectan comida, compras y música.",
+    "EN": "Calles internas conectan comida, compras y music."
+  },
+  "Campo de São Cristóvão, s/n — São Cristóvão, Rio de Janeiro — RJ, 20921-440": {
+    "PT": "Campo de São Cristóvão, s/n — São Cristóvão, Rio de Janeiro — RJ, 20921-440",
+    "EN": "Campo de São Cristóvão, s/n — São Cristóvão, Rio de Janeiro — RJ, 20921-440"
+  },
+  "Comida nordestina en la Feira de São Cristóvão": {
+    "PT": "Comida nordestina en la Feira de São Cristóvão",
+    "EN": "Food nordestina en la Feira de São Cristóvão"
+  },
+  "Contacto": {
+    "PT": "Contacto",
+    "EN": "Contacto"
+  },
+  "Conviene preguntar tamaño antes de compartir.": {
+    "PT": "Conviene preguntar tamaño antes de compartir.",
+    "EN": "Conviene preguntar tamaño antes de compartir."
+  },
+  "Corredores del Centro Luiz Gonzaga": {
+    "PT": "Corredores del Centro Luiz Gonzaga",
+    "EN": "Corredores del Centro Luiz Gonzaga"
+  },
+  "Cultural": {
+    "PT": "Cultural",
+    "EN": "Cultural"
+  },
+  "Cómo llegar y mapa": {
+    "PT": "Cómo llegar y mapa",
+    "EN": "Cómo llegar y mapa"
+  },
+  "De día combinaría la Feira con Quinta da Boa Vista y BioParque, dejando primero el paseo al aire libre y después el almuerzo. El Maracanã también está en la región, pero un partido altera tráfico y demanda: no mezclaría ambos planes sin revisar calendario. Por la noche, la propia Feira ya contiene comida y espectáculo; añadir otra atracción solo reduciría la experiencia.": {
+    "PT": "De día combinaría la Feira con Quinta da Boa Vista y BioParque, dejando primero el paseo al aire libre y después el almuerzo. El Maracanã también está en la región, pero un partido altera tráfico y demanda: no mezclaría ambos planes sin revisar calendario. Por la noche, la propia Feira ya contiene comida y espectáculo; añadir otra atracción solo reduciría la experiencia.",
+    "EN": "De día combinaría la Feira con Quinta da Boa Vista y BioParque, dejando primero el paseo al aire libre y después el almuerzo. El Maracanã también está en la región, pero un partido altera tráfico y demanda: no mezclaría ambos planes sin revisar calendario. Por la noche, la propia Feira ya contiene comida y espectáculo; añadir otra atracción solo reduciría la experiencia."
+  },
+  "El recinto no requiere una única reserva; restaurantes internos y shows pueden operar con reglas propias.": {
+    "PT": "El recinto no requiere una única reserva; restaurantes internos y shows pueden operar con reglas propias.",
+    "EN": "El recinto no requiere una única reserva; restaurantes internos y shows pueden operar con reglas propias."
+  },
+  "El ritmo cambia radicalmente durante el fin de semana.": {
+    "PT": "El ritmo cambia radicalmente durante el fin de semana.",
+    "EN": "El ritmo cambia radicalmente durante el fin de semana."
+  },
+  "Entrada gratuita martes a jueves; R$10 viernes a domingo, salvo eventos especiales. Cada restaurante cobra su propia carta.": {
+    "PT": "Entrada gratuita martes a jueves; R$10 viernes a domingo, salvo eventos especiales. Cada restaurante cobra su propia carta.",
+    "EN": "Entrada gratuita martes a jueves; R$10 viernes a domingo, salvo eventos especiales. Cada restaurante cobra su propia carta."
+  },
+  "Entraría con un presupuesto dividido entre comida, entrada, artesanía y transporte. Fotografiaría el nombre del puesto antes de alejarme y acordaría un punto de encuentro si el grupo se separa. En una noche de show no confiaría en encontrar mesa al llegar: escogería temprano, confirmaría si hay consumo mínimo y usaría transporte por aplicación para el último tramo.": {
+    "PT": "Entraría con un presupuesto dividido entre comida, entrada, artesanía y transporte. Fotografiaría el nombre del puesto antes de alejarme y acordaría un punto de encuentro si el grupo se separa. En una noche de show no confiaría en encontrar mesa al llegar: escogería temprano, confirmaría si hay consumo mínimo y usaría transporte por aplicación para el último tramo.",
+    "EN": "Entraría con un presupuesto dividido entre comida, entrada, artesanía y transporte. Fotografiaría el nombre del puesto antes de alejarme y acordaría un punto de encuentro si el grupo se separa. En una noche de show no confiaría en encontrar mesa al llegar: escogería temprano, confirmaría si hay consumo mínimo y usaría transporte por aplicación para el último tramo."
+  },
+  "Ernestinho Carioca · São Cristóvão": {
+    "PT": "Ernestinho Carioca · São Cristóvão",
+    "EN": "Ernestinho Carioca · São Cristóvão"
+  },
+  "Especialidad nordestina en São Cristóvão": {
+    "PT": "Especialidad nordestina en São Cristóvão",
+    "EN": "Especialidad nordestina en São Cristóvão"
+  },
+  "Esta ficha describe un complejo con decenas de restaurantes y puestos, no un único establecimiento. Precios, calidad, accesibilidad y horarios de cocina varían entre vendedores.": {
+    "PT": "Esta ficha describe un complejo con decenas de restaurantes y barracas, no un único establecimiento. Precios, calidad, accesibilidad y horarios de cocina varían entre vendedores.",
+    "EN": "Esta ficha describe un complejo con decenas de restaurantes y stalls, no un único establecimiento. Precios, calidad, accesibilidad y horarios de cocina varían entre vendedores."
+  },
+  "Experiencia según el momento del día": {
+    "PT": "Experiencia según el momento del día",
+    "EN": "Experiencia según el momento del día"
+  },
+  "Feira de São Cristóvão: guía completa | Ernestinho Carioca": {
+    "PT": "Feira de São Cristóvão: guía completa | Ernestinho Carioca",
+    "EN": "Feira de São Cristóvão: guía completa | Ernestinho Carioca"
+  },
+  "Forró y espectáculos prolongan la visita.": {
+    "PT": "Forró y espectáculos prolongan la visita.",
+    "EN": "Forró y espectáculos prolongan la visita."
+  },
+  "Galería completa": {
+    "PT": "Galería completa",
+    "EN": "Galería completa"
+  },
+  "Gran pabellón con circulación amplia; confirma baños, sillas, filas y acceso específico para el evento elegido.": {
+    "PT": "Gran pabellón con circulación amplia; confirma baños, sillas, filas y acceso específico para el evento elegido.",
+    "EN": "Gran pabellón con circulación amplia; confirma baños, sillas, filas y acceso específico para el evento elegido."
+  },
+  "Guía editorial de Feira de São Cristóvão: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.": {
+    "PT": "Guia editorial de Feira de São Cristóvão: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.",
+    "EN": "Guide editorial de Feira de São Cristóvão: identidad, historia, recomendaciones, horarios, transporte y mapa en Río."
+  },
+  "Historia y propuesta": {
+    "PT": "Historia y propuesta",
+    "EN": "Historia y propuesta"
+  },
+  "Identidad y ambiente visual": {
+    "PT": "Identidad y ambiente visual",
+    "EN": "Identidad y ambiente visual"
+  },
+  "Información oficial: (21) 98860-3660; Riotur también publica (21) 4108-9248.": {
+    "PT": "Informações oficiais: (21) 98860-3660; Riotur también publica (21) 4108-9248.",
+    "EN": "Official information: (21) 98860-3660; Riotur también publica (21) 4108-9248."
+  },
+  "La Feira ocupa un pabellón de 37 mil metros cuadrados y se siente como un pequeño barrio cubierto. Calles internas, escenarios, luces, restaurantes grandes, puestos de tapioca, artesanía y música compiten por la atención. Las fotografías de comida no pertenecen a una cocina única: representan posibilidades dentro del recinto. De día se percibe mercado; viernes y sábado por la noche, el forró y los shows transforman el espacio en una celebración colectiva.": {
+    "PT": "La Feira ocupa un pabellón de 37 mil metros cuadrados y se siente como un pequeño barrio cubierto. Calles internas, escenarios, luces, restaurantes grandes, barracas de tapioca, artesanía y música compiten por la atención. Las fotografías de comida no pertenecen a una cocina única: representan posibilidades dentro del recinto. De día se percibe mercado; viernes y sábado por la noche, el forró y los shows transforman el espacio en una celebración colectiva.",
+    "EN": "La Feira ocupa un pabellón de 37 mil metros cuadrados y se siente como un pequeño barrio cubierto. Calles internas, escenarios, luces, restaurantes grandes, stalls de tapioca, artesanía y music compiten por la atención. Las fotografías de comida no pertenecen a una cocina única: representan posibilidades dentro del recinto. De día se percibe market; viernes y sábado por la noche, el forró y los shows transforman el espacio en una celebración colectiva."
+  },
+  "La abundancia es parte de muchos restaurantes internos.": {
+    "PT": "La abundancia es parte de muchos restaurantes internos.",
+    "EN": "La abundancia es parte de muchos restaurantes internos."
+  },
+  "La dirección es Campo de São Cristóvão, sin número. La estación São Cristóvão sirve como referencia ferroviaria y de metro, pero el tramo final no siempre resulta intuitivo; de noche prefiero completarlo en taxi o aplicación. El recinto informa unas 700 plazas de estacionamiento con tarifa, sujeta a cambios en eventos. Usa la entrada indicada en la programación del día.": {
+    "PT": "La dirección es Campo de São Cristóvão, sin número. La estación São Cristóvão sirve como referencia ferroviaria y de metro, pero el tramo final no siempre resulta intuitivo; de noche prefiero completarlo en taxi o aplicación. El recinto informa unas 700 plazas de estacionamiento con tarifa, sujeta a cambios en eventos. Usa la entrada indicada en la programación del día.",
+    "EN": "La dirección es Campo de São Cristóvão, sin número. La estación São Cristóvão sirve como referencia ferroviaria y de metro, pero el tramo final no siempre resulta intuitivo; de noche prefiero completarlo en taxi o aplicación. El recinto informa unas 700 plazas de estacionamiento con tarifa, sujeta a cambios en eventos. Usa la entrada indicada en la programación del día."
+  },
+  "Los sabores representan distintas regiones del Nordeste.": {
+    "PT": "Los sabores representan distintas regiones del Nordeste.",
+    "EN": "Los flavours representan distintas regiones del Nordeste."
+  },
+  "Mapa de Feira de São Cristóvão": {
+    "PT": "Mapa de Feira de São Cristóvão",
+    "EN": "Map of Feira de São Cristóvão"
+  },
+  "Martes a jueves 10:00–18:00; viernes y sábado 10:00–04:00; domingo 10:00–20:00; lunes cerrado. Eventos pueden alterar el horario.": {
+    "PT": "Martes a jueves 10:00–18:00; viernes y sábado 10:00–04:00; domingo 10:00–20:00; lunes cerrado. Eventos pueden alterar el horario.",
+    "EN": "Martes a jueves 10:00–18:00; viernes y sábado 10:00–04:00; domingo 10:00–20:00; lunes cerrado. Eventos pueden alterar el horario."
+  },
+  "Martes a jueves, de 10:00 a 18:00, favorece compras y almuerzo sin espectáculo nocturno. Viernes y sábado el horario oficial llega hasta las 04:00, con otra densidad de público y música. Domingo funciona de 10:00 a 20:00 y suele ser apropiado para familias, aunque también muy concurrido. La entrada es gratuita de martes a jueves y cuesta R$10 de viernes a domingo, salvo feriados y eventos especiales.": {
+    "PT": "Martes a jueves, de 10:00 a 18:00, favorece compras y almuerzo sin espectáculo nocturno. Viernes y sábado el horario oficial llega hasta las 04:00, con otra densidad de público y música. Domingo funciona de 10:00 a 20:00 y suele ser apropiado para familias, aunque también muy concurrido. La entrada es gratuita de martes a jueves y cuesta R$10 de viernes a domingo, salvo feirados y eventos especiales.",
+    "EN": "Martes a jueves, de 10:00 a 18:00, favorece compras y almuerzo sin espectáculo nocturno. Viernes y sábado el horario oficial llega hasta las 04:00, con otra densidad de público y music. Domingo funciona de 10:00 a 20:00 y suele ser apropiado para familias, aunque también muy concurrido. La entrada es gratuita de martes a jueves y cuesta R$10 de viernes a domingo, salvo fairdos y eventos especiales."
+  },
+  "Mercado cultural con restaurantes, puestos, artesanía, escenarios y música en vivo.": {
+    "PT": "Mercado cultural con restaurantes, barracas, artesanía, escenarios y música en vivo.",
+    "EN": "Mercado cultural con restaurantes, stalls, artesanía, escenarios y music en vivo."
+  },
+  "Mercado y restaurante comparten el espacio.": {
+    "PT": "Mercado y restaurante comparten el espacio.",
+    "EN": "Mercado y restaurante comparten el espacio."
+  },
+  "Mesa de comida en la Feira": {
+    "PT": "Mesa de comida en la Feira",
+    "EN": "Mesa de comida en la Feira"
+  },
+  "Metro/tren São Cristóvão más conexión terrestre; estacionamiento oficial con aproximadamente 700 plazas.": {
+    "PT": "Metro/tren São Cristóvão más conexión terrestre; estacionamiento oficial con aproximadamente 700 plazas.",
+    "EN": "Metro/tren São Cristóvão más conexión terrestre; estacionamiento oficial con aproximadamente 700 plazas."
+  },
+  "Mi consejo específico": {
+    "PT": "Mi consejo específico",
+    "EN": "Mi consejo específico"
+  },
+  "Mi lectura personal como Ernestinho": {
+    "PT": "Mi lectura personal como Ernestinho",
+    "EN": "Mi lectura personal como Ernestinho"
+  },
+  "Movimiento dentro de la Feira": {
+    "PT": "Movimiento dentro de la Feira",
+    "EN": "Movimiento dentro de la Feira"
+  },
+  "No todos los platos pertenecen al mismo vendedor.": {
+    "PT": "No todos los platos pertenecen al mismo vendedor.",
+    "EN": "No todos los platos pertenecen al mismo vendedor."
+  },
+  "Noche cultural en la Feira": {
+    "PT": "Noche cultural en la Feira",
+    "EN": "Noche cultural en la Feira"
+  },
+  "Once imágenes muestran platos, pabellón, ambiente y un restaurante interno; su variedad refleja que la Feira no tiene una sola mesa ni una carta única.": {
+    "PT": "Once imágenes muestran platos, pabellón, ambiente y un restaurante interno; su variedad refleja que la Feira no tiene una sola mesa ni una carta única.",
+    "EN": "Once imágenes muestran platos, pabellón, ambiente y un restaurante interno; su variedad refleja que la Feira no tiene una sola mesa ni una carta única."
+  },
+  "Otra preparación regional de la Feira": {
+    "PT": "Otra preparación regionais de la Feira",
+    "EN": "Otra preparación regional de la Feira"
+  },
+  "Pabellón de la Feira de São Cristóvão": {
+    "PT": "Pabellón de la Feira de São Cristóvão",
+    "EN": "Pabellón de la Feira de São Cristóvão"
+  },
+  "Plato servido dentro de la Feira": {
+    "PT": "Plato servido dentro de la Feira",
+    "EN": "Plato servido dentro de la Feira"
+  },
+  "Precios": {
+    "PT": "Precios",
+    "EN": "Precios"
+  },
+  "Primero recorrería una vuelta completa antes de sentarme. Compararía cardápios, tamaño de las porciones y movimiento de cada cocina. Carne de sol con baião de dois, macaxeira, buchada, sarapatel, tapioca, acarajé y dulces regionales pueden aparecer, pero no todos pertenecen al mismo estado ni al mismo puesto. Para dos personas evitaría una fuente familiar sin preguntar cuántos comen. Probar un plato salado y luego un dulce o bebida regional enseña más que comprar varias comidas pesadas a la vez.": {
+    "PT": "Primero recorrería una vuelta completa antes de sentarme. Compararía cardápios, tamaño de las porciones y movimiento de cada cocina. Carne de sol con baião de dois, macaxeira, buchada, sarapatel, tapioca, acarajé y dulces regionaises pueden aparecer, pero no todos pertenecen al mismo estado ni al mismo puesto. Para dos personas evitaría una fuente familiar sin preguntar cuántos comen. Probar un plato salado y luego un dulce o bebida regionais enseña más que comprar varias comidas pesadas a la vez.",
+    "EN": "Primero recorrería una vuelta completa antes de sentarme. Compararía cardápios, tamaño de las porciones y movimiento de cada cocina. Carne de sol con baião de dois, macaxeira, buchada, sarapatel, tapioca, acarajé y dulces regionales pueden aparecer, pero no todos pertenecen al mismo estado ni al mismo puesto. Para dos personas evitaría una fuente familiar sin preguntar cuántos comen. Probar un plato salado y luego un dulce o bebida regional enseña más que comprar varias comidas pesadas a la vez."
+  },
+  "Qué combinar cerca": {
+    "PT": "Qué combinar cerca",
+    "EN": "Qué combinar cerca"
+  },
+  "Qué pedir y por qué": {
+    "PT": "Qué pedir y por qué",
+    "EN": "Qué pedir y por qué"
+  },
+  "Restaurante dentro de la Feira de São Cristóvão": {
+    "PT": "Restaurante dentro de la Feira de São Cristóvão",
+    "EN": "Restaurante dentro de la Feira de São Cristóvão"
+  },
+  "Su nombre oficial es Centro Luiz Gonzaga de Tradições Nordestinas. Nació de la presencia de migrantes nordestinos en Río y se consolidó como espacio de encuentro, memoria y comercio regional. Allí conviven cocinas de varios estados del Nordeste, productos de mercearia, cordel, cuero, ropa, cachaça y música. Tratarla solamente como “un restaurante” borraría la dimensión cultural que explica por qué merece una ficha propia.": {
+    "PT": "Su nombre oficial es Centro Luiz Gonzaga de Tradições Nordestinas. Nació de la presencia de migrantes nordestinos en Río y se consolidó como espacio de encuentro, memoria y comercio regionais. Allí conviven cocinas de varios estados del Nordeste, produtos de mercearia, cordel, cuero, ropa, cachaça y música. Tratarla solamente como “un restaurante” borraría la dimensión cultural que explica por qué merece una ficha propia.",
+    "EN": "Su nombre oficial es Centro Luiz Gonzaga de Tradições Nordestinas. Nació de la presencia de migrantes nordestinos en Río y se consolidó como espacio de encuentro, memoria y comercio regional. Allí conviven cocinas de varios estados del Nordeste, products de mercearia, cordel, cuero, ropa, cachaça y music. Tratarla solamente como “un restaurante” borraría la dimensión cultural que explica por qué merece una ficha propia."
+  },
+  "São Cristóvão, Zona Norte, dentro del Centro Luiz Gonzaga de Tradições Nordestinas.": {
+    "PT": "São Cristóvão, Zona Norte, dentro del Centro Luiz Gonzaga de Tradições Nordestinas.",
+    "EN": "São Cristóvão, Zona Norte, dentro del Centro Luiz Gonzaga de Tradições Nordestinas."
+  },
+  "Tipo de servicio": {
+    "PT": "Tipo de servicio",
+    "EN": "Tipo de servicio"
+  },
+  "Una experiencia cultural de gran escala.": {
+    "PT": "Una experiencia cultural de gran escala.",
+    "EN": "Una experiencia cultural de gran escala."
+  },
+  "Una muestra entre muchas cocinas del pabellón.": {
+    "PT": "Una muestra entre muchas cocinas del pabellón.",
+    "EN": "Una muestra entre muchas cocinas del pabellón."
+  },
+  "Yo la recomiendo como experiencia de medio día o de noche completa, no como una parada para fotografiar un plato y salir. El viajero debe elegir entre dos versiones: martes a jueves, más tranquila para explorar; o fin de semana, más intensa, con programación y multitudes. Familias pueden disfrutar temprano. Quien se incomoda con volumen alto, calor, vendedores, grandes porciones o decisiones constantes necesita planificar mejor la hora.": {
+    "PT": "Yo la recomiendo como experiencia de medio día o de noche completa, no como una parada para fotografiar un plato y salir. El viajero debe elegir entre dos versiones: martes a jueves, más tranquila para explorar; o fin de semana, más intensa, con programación y multitudes. Familias pueden disfrutar temprano. Quien se incomoda con volumen alto, calor, vendedores, grandes porciones o decisiones constantes necesita planificar mejor la hora.",
+    "EN": "Yo la recomiendo como experiencia de medio día o de noche completa, no como una parada para fotografiar un plato y salir. El viajero debe elegir entre dos versiones: martes a jueves, más tranquila para explorar; o fin de semana, más intensa, con programación y multitudes. Familias pueden disfrutar temprano. Quien se incomoda con volumen alto, calor, vendedores, grandes porciones o decisiones constantes necesita planificar mejor la hora."
+  },
+  "© Ernestinho Carioca · Guía independiente de Río de Janeiro": {
+    "PT": "© Ernestinho Carioca · Guia independiente de Río de Janeiro",
+    "EN": "© Ernestinho Carioca · Guide independiente de Río de Janeiro"
+  },
+  "🌐 Sitio oficial": {
+    "PT": "🌐 Sitio oficial",
+    "EN": "🌐 Sitio oficial"
+  },
+  "📸 Instagram": {
+    "PT": "📸 Instagram",
+    "EN": "📸 Instagram"
+  },
+  "🗺️ Google Maps": {
+    "PT": "🗺️ Google Maps",
+    "EN": "🗺️ Google Maps"
+  },
+  "🚗 Waze": {
+    "PT": "🚗 Waze",
+    "EN": "🚗 Waze"
   }
 };
