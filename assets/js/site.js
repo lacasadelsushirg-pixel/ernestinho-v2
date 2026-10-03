@@ -120,6 +120,11 @@ function ensureTools() {
   // Legacy page renderers treat data-lang-toggle as a text-only control.
   button.removeAttribute("data-lang-toggle");
   button.dataset.ecDesktopLanguageGroup="";
+  // Some approved headers contain an unmarked legacy language button.
+  // Remove only those direct siblings, including ones retained by prerendering.
+  for(const legacy of tools.querySelectorAll(':scope > button')){
+    if(legacy!==button && /^(ES|PT(?:-BR)?|EN)$/.test(legacy.textContent.trim()))legacy.remove();
+  }
   button.setAttribute("role","group");button.setAttribute("aria-label","Cambiar idioma");
   button.replaceChildren();
   for(const code of ["ES","PT","EN"]){const choice=document.createElement(hasLocaleRoutes()?"a":"button");if(choice.tagName==="BUTTON")choice.type="button";else{choice.href=localeHref(code);choice.hreflang=code==="PT"?"pt-BR":code.toLowerCase();choice.style.cssText="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box";}choice.className="ec-desktop-language-choice";choice.dataset.desktopLanguage=code;if(document.querySelector("[data-ch-es]"))choice.dataset.ecLanguage=code;choice.textContent=code==="PT"?"PT-BR":code;choice.setAttribute("aria-label",code==="ES"?"Español":code==="PT"?"Português (Brasil)":"English");if(choice.tagName==="BUTTON")choice.addEventListener("click",()=>apply(code));button.appendChild(choice);}

@@ -35,6 +35,8 @@ async function worker(viewport){
    await page.evaluate(async()=>{for(const s of document.querySelectorAll('script[type="module"][src]'))if(new URL(s.src).origin===location.origin){const module=await import(s.src);if(module.ready)await module.ready;}await new Promise(r=>setTimeout(r,150));});
    const snapshot=await page.evaluate(()=>({title:document.title,lang:document.documentElement.lang,canonical:document.querySelector('link[rel="canonical"]')?.href,description:document.querySelector('meta[name="description"]')?.content,overflow:document.documentElement.scrollWidth>innerWidth+1,h1:document.querySelectorAll('h1').length,nav:[...document.querySelectorAll('.topbar nav a')].map(a=>new URL(a.href).pathname),body:document.body.innerText,selector:[...document.querySelectorAll('.ec-mobile-language-row a,.ec-desktop-language a,[data-ec-standalone-languages] a')].map(a=>({lang:a.dataset.ecLanguage||a.dataset.desktopLanguage,href:new URL(a.href).pathname}))}));
    const problems=[];
+   const obsolete=await page.locator('.topbar .tools > button').evaluateAll(nodes=>nodes.filter(n=>/^(ES|PT(?:-BR)?|EN)$/.test(n.textContent.trim())).map(n=>n.outerHTML));
+   if(obsolete.length)problems.push('Obsolete header language button remains');
    if(errors.length)problems.push(...[...new Set(errors)].map(e=>'Runtime JS: '+e));
    if(response.status()!==200)problems.push('HTTP '+response.status());
    if(snapshot.lang!==target.lang)problems.push('lang '+snapshot.lang+' != '+target.lang);

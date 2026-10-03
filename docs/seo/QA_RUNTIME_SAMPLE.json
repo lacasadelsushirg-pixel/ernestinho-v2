@@ -1,243 +1,847 @@
 {
-  "tested": 18,
-  "failures": 16,
+  "tested": 84,
+  "failures": 0,
   "externalServicesExcluded": true,
   "rows": [
     {
-      "route": "/cultura/acao-cidadania/",
+      "route": "/",
       "viewport": 390,
       "problems": [],
       "runtimeExceptions": [],
-      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
-      "bodyLength": 2075,
-      "description": "Cultura y transformación social en la Zona Portuaria",
-      "expectedDescription": "Cultura y transformación social en la Zona Portuaria"
+      "title": "Guía de Río de Janeiro y tours | Ernestinho Carioca",
+      "bodyLength": 2247,
+      "description": "Vive Río con mi mirada local: qué hacer, playas, restaurantes, transporte, apartamentos en Copacabana y experiencias con Ernestinho Carioca.",
+      "expectedDescription": "Vive Río con mi mirada local: qué hacer, playas, restaurantes, transporte, apartamentos en Copacabana y experiencias con Ernestinho Carioca."
     },
     {
-      "route": "/cultura/acao-cidadania/",
+      "route": "/",
       "viewport": 1365,
       "problems": [],
       "runtimeExceptions": [],
-      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
-      "bodyLength": 2063,
-      "description": "Cultura y transformación social en la Zona Portuaria",
-      "expectedDescription": "Cultura y transformación social en la Zona Portuaria"
+      "title": "Guía de Río de Janeiro y tours | Ernestinho Carioca",
+      "bodyLength": 2215,
+      "description": "Vive Río con mi mirada local: qué hacer, playas, restaurantes, transporte, apartamentos en Copacabana y experiencias con Ernestinho Carioca.",
+      "expectedDescription": "Vive Río con mi mirada local: qué hacer, playas, restaurantes, transporte, apartamentos en Copacabana y experiencias con Ernestinho Carioca."
     },
     {
-      "route": "/compras/mercado-sao-pedro/",
-      "viewport": 1365,
-      "problems": [
-        "Runtime JS: lang is not a function"
-      ],
-      "runtimeExceptions": [
-        "lang is not a function"
-      ],
-      "title": "Mercado São Pedro | Ernestinho Carioca",
-      "bodyLength": 5909,
-      "description": "Guía de Mercado São Pedro en Niterói, con información sobre sus sabores del mar, comercio popular y cómo planificar la visita.",
-      "expectedDescription": "Guía de Mercado São Pedro en Niterói, con información sobre sus sabores del mar, comercio popular y cómo planificar la visita."
-    },
-    {
-      "route": "/compras/mercado-sao-pedro/",
+      "route": "/cafe-rio/",
       "viewport": 390,
-      "problems": [
-        "Runtime JS: lang is not a function"
-      ],
-      "runtimeExceptions": [
-        "lang is not a function"
-      ],
-      "title": "Mercado São Pedro | Ernestinho Carioca",
-      "bodyLength": 5933,
-      "description": "Guía de Mercado São Pedro en Niterói, con información sobre sus sabores del mar, comercio popular y cómo planificar la visita.",
-      "expectedDescription": "Guía de Mercado São Pedro en Niterói, con información sobre sus sabores del mar, comercio popular y cómo planificar la visita."
-    },
-    {
-      "route": "/en/cultura/acao-cidadania/",
-      "viewport": 390,
-      "problems": [
-        "Runtime description differs from prerender"
-      ],
+      "problems": [],
       "runtimeExceptions": [],
-      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
-      "bodyLength": 1932,
-      "description": "Culture and social transformation in the Port Zone",
-      "expectedDescription": "Cultura y transformación social en la Zona Portuaria"
+      "title": "Café Río · Café Ernestinho | Ernestinho Carioca",
+      "bodyLength": 4045,
+      "description": "Café Río es el espacio de Café Ernestinho, mi marca de café saborizado: un recuerdo con sabor brasileño que conecta el café con la historia de tu viaje a Río.",
+      "expectedDescription": "Café Río es el espacio de Café Ernestinho, mi marca de café saborizado: un recuerdo con sabor brasileño que conecta el café con la historia de tu viaje a Río."
     },
     {
-      "route": "/en/cultura/acao-cidadania/",
+      "route": "/cafe-rio/",
       "viewport": 1365,
-      "problems": [
-        "Runtime description differs from prerender"
-      ],
+      "problems": [],
       "runtimeExceptions": [],
-      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
-      "bodyLength": 1920,
-      "description": "Culture and social transformation in the Port Zone",
-      "expectedDescription": "Cultura y transformación social en la Zona Portuaria"
+      "title": "Café Río · Café Ernestinho | Ernestinho Carioca",
+      "bodyLength": 4033,
+      "description": "Café Río es el espacio de Café Ernestinho, mi marca de café saborizado: un recuerdo con sabor brasileño que conecta el café con la historia de tu viaje a Río.",
+      "expectedDescription": "Café Río es el espacio de Café Ernestinho, mi marca de café saborizado: un recuerdo con sabor brasileño que conecta el café con la historia de tu viaje a Río."
     },
     {
-      "route": "/en/compras/mercado-sao-pedro/",
-      "viewport": 390,
-      "problems": [
-        "Runtime JS: lang is not a function"
-      ],
-      "runtimeExceptions": [
-        "lang is not a function"
-      ],
-      "title": "Mercado São Pedro | Ernestinho Carioca",
-      "bodyLength": 4896,
-      "description": "Guide to Mercado São Pedro in Niterói, with information about its seafood flavors, popular commerce and how to plan your visit.",
-      "expectedDescription": "Guide to Mercado São Pedro in Niterói, with information about its seafood flavors, popular commerce and how to plan your visit."
-    },
-    {
-      "route": "/en/compras/mercado-sao-pedro/",
+      "route": "/compras/",
       "viewport": 1365,
-      "problems": [
-        "Runtime JS: lang is not a function"
-      ],
-      "runtimeExceptions": [
-        "lang is not a function"
-      ],
-      "title": "Mercado São Pedro | Ernestinho Carioca",
-      "bodyLength": 4872,
-      "description": "Guide to Mercado São Pedro in Niterói, with information about its seafood flavors, popular commerce and how to plan your visit.",
-      "expectedDescription": "Guide to Mercado São Pedro in Niterói, with information about its seafood flavors, popular commerce and how to plan your visit."
-    },
-    {
-      "route": "/gastronomia/amendoeira/",
-      "viewport": 390,
-      "problems": [
-        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
-      ],
-      "runtimeExceptions": [
-        "Cannot read properties of undefined (reading '🇪🇸')"
-      ],
-      "title": "Bar da Amendoeira: guía completa | Ernestinho Carioca",
-      "bodyLength": 2578,
-      "description": "Guía editorial de Bar da Amendoeira: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.",
-      "expectedDescription": "Guía editorial de Bar da Amendoeira: identidad, historia, recomendaciones, horarios, transporte y mapa en Río."
-    },
-    {
-      "route": "/gastronomia/amendoeira/",
-      "viewport": 1365,
-      "problems": [
-        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
-      ],
-      "runtimeExceptions": [
-        "Cannot read properties of undefined (reading '🇪🇸')"
-      ],
-      "title": "Bar da Amendoeira: guía completa | Ernestinho Carioca",
-      "bodyLength": 2554,
-      "description": "Guía editorial de Bar da Amendoeira: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.",
-      "expectedDescription": "Guía editorial de Bar da Amendoeira: identidad, historia, recomendaciones, horarios, transporte y mapa en Río."
-    },
-    {
-      "route": "/en/gastronomia/amendoeira/",
-      "viewport": 1365,
-      "problems": [
-        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
-      ],
-      "runtimeExceptions": [
-        "Cannot read properties of undefined (reading '🇪🇸')"
-      ],
-      "title": "Bar da Amendoeira: complete guide | Ernestinho Carioca",
-      "bodyLength": 2552,
-      "description": "Editorial guide to Bar da Amendoeira: identity, history, recommendations, opening hours, transport and a map in Rio.",
-      "expectedDescription": "Editorial guide to Bar da Amendoeira: identity, history, recommendations, opening hours, transport and a map in Rio."
-    },
-    {
-      "route": "/en/gastronomia/amendoeira/",
-      "viewport": 390,
-      "problems": [
-        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
-      ],
-      "runtimeExceptions": [
-        "Cannot read properties of undefined (reading '🇪🇸')"
-      ],
-      "title": "Bar da Amendoeira: complete guide | Ernestinho Carioca",
-      "bodyLength": 2576,
-      "description": "Editorial guide to Bar da Amendoeira: identity, history, recommendations, opening hours, transport and a map in Rio.",
-      "expectedDescription": "Editorial guide to Bar da Amendoeira: identity, history, recommendations, opening hours, transport and a map in Rio."
-    },
-    {
-      "route": "/pt/cultura/acao-cidadania/",
-      "viewport": 1365,
-      "problems": [
-        "Runtime description differs from prerender"
-      ],
+      "problems": [],
       "runtimeExceptions": [],
-      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
-      "bodyLength": 2008,
-      "description": "Cultura e transformação social na Zona Portuária",
-      "expectedDescription": "Cultura y transformación social en la Zona Portuaria"
+      "title": "Compras en Río | Ernestinho Carioca",
+      "bodyLength": 2070,
+      "description": "Compras en Río | Ernestinho Carioca. No todo es centro comercial. Aquí junto shoppings, ferias y mercados populares para que puedas elegir según la zona y…",
+      "expectedDescription": "Compras en Río | Ernestinho Carioca. No todo es centro comercial. Aquí junto shoppings, ferias y mercados populares para que puedas elegir según la zona y…"
     },
     {
-      "route": "/pt/cultura/acao-cidadania/",
+      "route": "/compras/",
       "viewport": 390,
-      "problems": [
-        "Runtime description differs from prerender"
-      ],
+      "problems": [],
       "runtimeExceptions": [],
-      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
-      "bodyLength": 2020,
-      "description": "Cultura e transformação social na Zona Portuária",
-      "expectedDescription": "Cultura y transformación social en la Zona Portuaria"
+      "title": "Compras en Río | Ernestinho Carioca",
+      "bodyLength": 2082,
+      "description": "Compras en Río | Ernestinho Carioca. No todo es centro comercial. Aquí junto shoppings, ferias y mercados populares para que puedas elegir según la zona y…",
+      "expectedDescription": "Compras en Río | Ernestinho Carioca. No todo es centro comercial. Aquí junto shoppings, ferias y mercados populares para que puedas elegir según la zona y…"
     },
     {
-      "route": "/pt/compras/mercado-sao-pedro/",
-      "viewport": 1365,
-      "problems": [
-        "Runtime JS: lang is not a function"
-      ],
-      "runtimeExceptions": [
-        "lang is not a function"
-      ],
-      "title": "Mercado São Pedro | Ernestinho Carioca",
-      "bodyLength": 5373,
-      "description": "Guia do Mercado São Pedro em Niterói, com informações sobre seus sabores do mar, comércio popular e como planejar a visita.",
-      "expectedDescription": "Guia do Mercado São Pedro em Niterói, com informações sobre seus sabores do mar, comércio popular e como planejar a visita."
-    },
-    {
-      "route": "/pt/compras/mercado-sao-pedro/",
+      "route": "/cultura/",
       "viewport": 390,
-      "problems": [
-        "Runtime JS: lang is not a function"
-      ],
-      "runtimeExceptions": [
-        "lang is not a function"
-      ],
-      "title": "Mercado São Pedro | Ernestinho Carioca",
-      "bodyLength": 5397,
-      "description": "Guia do Mercado São Pedro em Niterói, com informações sobre seus sabores do mar, comércio popular e como planejar a visita.",
-      "expectedDescription": "Guia do Mercado São Pedro em Niterói, com informações sobre seus sabores do mar, comércio popular e como planejar a visita."
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Museos y cultura en Río de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1677,
+      "description": "Explora museos, teatros, centros culturales, bibliotecas y fortalezas de Río de Janeiro con la guía de arte y cultura de Ernestinho Carioca.",
+      "expectedDescription": "Explora museos, teatros, centros culturales, bibliotecas y fortalezas de Río de Janeiro con la guía de arte y cultura de Ernestinho Carioca."
     },
     {
-      "route": "/pt/gastronomia/amendoeira/",
+      "route": "/cultura/",
       "viewport": 1365,
-      "problems": [
-        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
-      ],
-      "runtimeExceptions": [
-        "Cannot read properties of undefined (reading '🇪🇸')"
-      ],
-      "title": "Bar da Amendoeira: guia completo | Ernestinho Carioca",
-      "bodyLength": 2558,
-      "description": "Guia editorial de Bar da Amendoeira: identidade, história, recomendações, horários, transporte e mapa no Rio.",
-      "expectedDescription": "Guia editorial de Bar da Amendoeira: identidade, história, recomendações, horários, transporte e mapa no Rio."
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Museos y cultura en Río de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1665,
+      "description": "Explora museos, teatros, centros culturales, bibliotecas y fortalezas de Río de Janeiro con la guía de arte y cultura de Ernestinho Carioca.",
+      "expectedDescription": "Explora museos, teatros, centros culturales, bibliotecas y fortalezas de Río de Janeiro con la guía de arte y cultura de Ernestinho Carioca."
     },
     {
-      "route": "/pt/gastronomia/amendoeira/",
+      "route": "/en/",
       "viewport": 390,
-      "problems": [
-        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
-      ],
-      "runtimeExceptions": [
-        "Cannot read properties of undefined (reading '🇪🇸')"
-      ],
-      "title": "Bar da Amendoeira: guia completo | Ernestinho Carioca",
-      "bodyLength": 2582,
-      "description": "Guia editorial de Bar da Amendoeira: identidade, história, recomendações, horários, transporte e mapa no Rio.",
-      "expectedDescription": "Guia editorial de Bar da Amendoeira: identidade, história, recomendações, horários, transporte e mapa no Rio."
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio de Janeiro Travel Guide & Tours | Ernestinho Carioca",
+      "bodyLength": 2272,
+      "description": "Experience Rio through my local perspective: things to do, beaches, restaurants, transport, Copacabana apartments and tours with Ernestinho Carioca.",
+      "expectedDescription": "Experience Rio through my local perspective: things to do, beaches, restaurants, transport, Copacabana apartments and tours with Ernestinho Carioca."
+    },
+    {
+      "route": "/en/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio de Janeiro Travel Guide & Tours | Ernestinho Carioca",
+      "bodyLength": 2233,
+      "description": "Experience Rio through my local perspective: things to do, beaches, restaurants, transport, Copacabana apartments and tours with Ernestinho Carioca.",
+      "expectedDescription": "Experience Rio through my local perspective: things to do, beaches, restaurants, transport, Copacabana apartments and tours with Ernestinho Carioca."
+    },
+    {
+      "route": "/en/cafe-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Café Rio · Café Ernestinho | Ernestinho Carioca",
+      "bodyLength": 3869,
+      "description": "Café Rio is the home of Café Ernestinho, my flavored coffee brand: a memory with Brazilian flavor that connects coffee to the story of your trip to Rio.",
+      "expectedDescription": "Café Rio is the home of Café Ernestinho, my flavored coffee brand: a memory with Brazilian flavor that connects coffee to the story of your trip to Rio."
+    },
+    {
+      "route": "/en/cafe-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Café Rio · Café Ernestinho | Ernestinho Carioca",
+      "bodyLength": 3881,
+      "description": "Café Rio is the home of Café Ernestinho, my flavored coffee brand: a memory with Brazilian flavor that connects coffee to the story of your trip to Rio.",
+      "expectedDescription": "Café Rio is the home of Café Ernestinho, my flavored coffee brand: a memory with Brazilian flavor that connects coffee to the story of your trip to Rio."
+    },
+    {
+      "route": "/en/compras/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Shopping in Rio | Ernestinho Carioca",
+      "bodyLength": 2042,
+      "description": "Shopping in Rio | Ernestinho Carioca. There is more than malls. Here I bring together malls, street fairs and local markets so you can choose by area and…",
+      "expectedDescription": "Shopping in Rio | Ernestinho Carioca. There is more than malls. Here I bring together malls, street fairs and local markets so you can choose by area and…"
+    },
+    {
+      "route": "/en/compras/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Shopping in Rio | Ernestinho Carioca",
+      "bodyLength": 2030,
+      "description": "Shopping in Rio | Ernestinho Carioca. There is more than malls. Here I bring together malls, street fairs and local markets so you can choose by area and…",
+      "expectedDescription": "Shopping in Rio | Ernestinho Carioca. There is more than malls. Here I bring together malls, street fairs and local markets so you can choose by area and…"
+    },
+    {
+      "route": "/en/cultura/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Museums & Culture in Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1548,
+      "description": "Explore Rio de Janeiro’s museums, theatres, cultural centres, libraries and forts with Ernestinho Carioca’s art and culture guide.",
+      "expectedDescription": "Explore Rio de Janeiro’s museums, theatres, cultural centres, libraries and forts with Ernestinho Carioca’s art and culture guide."
+    },
+    {
+      "route": "/en/cultura/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Museums & Culture in Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1560,
+      "description": "Explore Rio de Janeiro’s museums, theatres, cultural centres, libraries and forts with Ernestinho Carioca’s art and culture guide.",
+      "expectedDescription": "Explore Rio de Janeiro’s museums, theatres, cultural centres, libraries and forts with Ernestinho Carioca’s art and culture guide."
+    },
+    {
+      "route": "/en/experiencias/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio de Janeiro Tours & Day Trips | Ernestinho Carioca",
+      "bodyLength": 3303,
+      "description": "Find your Rio experience: Christ the Redeemer, Maracanã, Rocinha, adventure and day trips to Búzios, Arraial do Cabo and Angra with Ernestinho Carioca.",
+      "expectedDescription": "Find your Rio experience: Christ the Redeemer, Maracanã, Rocinha, adventure and day trips to Búzios, Arraial do Cabo and Angra with Ernestinho Carioca."
+    },
+    {
+      "route": "/en/eventos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Major events in Rio | Ernestinho Carioca",
+      "bodyLength": 10448,
+      "description": "Carnival, New Year’s Eve, festivals and concerts in Rio de Janeiro: dates, transport, history and Ernestinho’s tips.",
+      "expectedDescription": "Carnival, New Year’s Eve, festivals and concerts in Rio de Janeiro: dates, transport, history and Ernestinho’s tips."
+    },
+    {
+      "route": "/en/experiencias/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio de Janeiro Tours & Day Trips | Ernestinho Carioca",
+      "bodyLength": 3315,
+      "description": "Find your Rio experience: Christ the Redeemer, Maracanã, Rocinha, adventure and day trips to Búzios, Arraial do Cabo and Angra with Ernestinho Carioca.",
+      "expectedDescription": "Find your Rio experience: Christ the Redeemer, Maracanã, Rocinha, adventure and day trips to Búzios, Arraial do Cabo and Angra with Ernestinho Carioca."
+    },
+    {
+      "route": "/en/eventos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Major events in Rio | Ernestinho Carioca",
+      "bodyLength": 10448,
+      "description": "Carnival, New Year’s Eve, festivals and concerts in Rio de Janeiro: dates, transport, history and Ernestinho’s tips.",
+      "expectedDescription": "Carnival, New Year’s Eve, festivals and concerts in Rio de Janeiro: dates, transport, history and Ernestinho’s tips."
+    },
+    {
+      "route": "/en/gastronomia/polis-sucos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Polis Sucos: complete guide | Ernestinho Carioca",
+      "bodyLength": 6260,
+      "description": "Editorial guide to Polis Sucos: identity, history, recommendations, opening hours, transport and a map in Rio.",
+      "expectedDescription": "Editorial guide to Polis Sucos: identity, history, recommendations, opening hours, transport and a map in Rio."
+    },
+    {
+      "route": "/en/gastronomia/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Where to Eat in Rio de Janeiro: Restaurants | Ernestinho",
+      "bodyLength": 33000,
+      "description": "Explore Rio’s restaurants, botecos, cafés and local flavours. Choose where to eat by neighbourhood and style with Ernestinho Carioca’s food guide.",
+      "expectedDescription": "Explore Rio’s restaurants, botecos, cafés and local flavours. Choose where to eat by neighbourhood and style with Ernestinho Carioca’s food guide."
+    },
+    {
+      "route": "/en/gastronomia/polis-sucos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Polis Sucos: complete guide | Ernestinho Carioca",
+      "bodyLength": 6284,
+      "description": "Editorial guide to Polis Sucos: identity, history, recommendations, opening hours, transport and a map in Rio.",
+      "expectedDescription": "Editorial guide to Polis Sucos: identity, history, recommendations, opening hours, transport and a map in Rio."
+    },
+    {
+      "route": "/en/gastronomia/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Where to Eat in Rio de Janeiro: Restaurants | Ernestinho",
+      "bodyLength": 33012,
+      "description": "Explore Rio’s restaurants, botecos, cafés and local flavours. Choose where to eat by neighbourhood and style with Ernestinho Carioca’s food guide.",
+      "expectedDescription": "Explore Rio’s restaurants, botecos, cafés and local flavours. Choose where to eat by neighbourhood and style with Ernestinho Carioca’s food guide."
+    },
+    {
+      "route": "/en/guia/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Planning a Trip to Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1274,
+      "description": "Plan your Rio trip with practical advice on documents, money, PIX, internet, airports, safety and where to stay from Ernestinho.",
+      "expectedDescription": "Plan your Rio trip with practical advice on documents, money, PIX, internet, airports, safety and where to stay from Ernestinho."
+    },
+    {
+      "route": "/en/gastronomia/satyricon/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Satyricon: complete guide | Ernestinho Carioca",
+      "bodyLength": 6307,
+      "description": "Editorial guide to Satyricon: identity, history, recommendations, opening hours, transport and a map in Rio.",
+      "expectedDescription": "Editorial guide to Satyricon: identity, history, recommendations, opening hours, transport and a map in Rio."
+    },
+    {
+      "route": "/en/gastronomia/satyricon/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Satyricon: complete guide | Ernestinho Carioca",
+      "bodyLength": 6331,
+      "description": "Editorial guide to Satyricon: identity, history, recommendations, opening hours, transport and a map in Rio.",
+      "expectedDescription": "Editorial guide to Satyricon: identity, history, recommendations, opening hours, transport and a map in Rio."
+    },
+    {
+      "route": "/en/guia/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Planning a Trip to Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1286,
+      "description": "Plan your Rio trip with practical advice on documents, money, PIX, internet, airports, safety and where to stay from Ernestinho.",
+      "expectedDescription": "Plan your Rio trip with practical advice on documents, money, PIX, internet, airports, safety and where to stay from Ernestinho."
+    },
+    {
+      "route": "/en/guia/internet/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Internet, roaming, SIM cards and eSIM | Ernestinho Carioca",
+      "bodyLength": 3707,
+      "description": "Arriving connected lets you contact family, find your driver, open maps and access reservations from the first minute.",
+      "expectedDescription": "Arriving connected lets you contact family, find your driver, open maps and access reservations from the first minute."
+    },
+    {
+      "route": "/en/hospedaje/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Copacabana Holiday Apartments | Ernestinho Carioca",
+      "bodyLength": 2815,
+      "description": "Find your Copacabana apartment with Ernestinho Carioca. Explore accommodation for couples, families and groups and enquire on WhatsApp.",
+      "expectedDescription": "Find your Copacabana apartment with Ernestinho Carioca. Explore accommodation for couples, families and groups and enquire on WhatsApp."
+    },
+    {
+      "route": "/en/guia/internet/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Internet, roaming, SIM cards and eSIM | Ernestinho Carioca",
+      "bodyLength": 3719,
+      "description": "Arriving connected lets you contact family, find your driver, open maps and access reservations from the first minute.",
+      "expectedDescription": "Arriving connected lets you contact family, find your driver, open maps and access reservations from the first minute."
+    },
+    {
+      "route": "/en/hospedaje/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Copacabana Holiday Apartments | Ernestinho Carioca",
+      "bodyLength": 2827,
+      "description": "Find your Copacabana apartment with Ernestinho Carioca. Explore accommodation for couples, families and groups and enquire on WhatsApp.",
+      "expectedDescription": "Find your Copacabana apartment with Ernestinho Carioca. Explore accommodation for couples, families and groups and enquire on WhatsApp."
+    },
+    {
+      "route": "/en/transportes/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Getting Around Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 7468,
+      "description": "Get around Rio with Ernestinho Carioca’s practical advice on the metro, Uber, VLT, BRT, buses, bikes and private transport.",
+      "expectedDescription": "Get around Rio with Ernestinho Carioca’s practical advice on the metro, Uber, VLT, BRT, buses, bikes and private transport."
+    },
+    {
+      "route": "/en/transportes/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Getting Around Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 7480,
+      "description": "Get around Rio with Ernestinho Carioca’s practical advice on the metro, Uber, VLT, BRT, buses, bikes and private transport.",
+      "expectedDescription": "Get around Rio with Ernestinho Carioca’s practical advice on the metro, Uber, VLT, BRT, buses, bikes and private transport."
+    },
+    {
+      "route": "/en/vida-nocturna/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio Nightlife: Bars & Samba | Ernestinho Carioca",
+      "bodyLength": 8965,
+      "description": "Discover Rio after dark: bars, samba, rooftops and venues to suit your neighbourhood and style with Ernestinho Carioca.",
+      "expectedDescription": "Discover Rio after dark: bars, samba, rooftops and venues to suit your neighbourhood and style with Ernestinho Carioca."
+    },
+    {
+      "route": "/en/vida-nocturna/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio Nightlife: Bars & Samba | Ernestinho Carioca",
+      "bodyLength": 3312,
+      "description": "Discover Rio after dark: bars, samba, rooftops and venues to suit your neighbourhood and style with Ernestinho Carioca.",
+      "expectedDescription": "Discover Rio after dark: bars, samba, rooftops and venues to suit your neighbourhood and style with Ernestinho Carioca."
+    },
+    {
+      "route": "/experiencias/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Tours y paseos en Río de Janeiro | Ernestinho Carioca",
+      "bodyLength": 3377,
+      "description": "Elige tu experiencia en Río: Cristo Redentor, Maracaná, Rocinha, aventura y excursiones a Búzios, Arraial do Cabo y Angra con Ernestinho Carioca.",
+      "expectedDescription": "Elige tu experiencia en Río: Cristo Redentor, Maracaná, Rocinha, aventura y excursiones a Búzios, Arraial do Cabo y Angra con Ernestinho Carioca."
+    },
+    {
+      "route": "/eventos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Grandes eventos de Río | Ernestinho Carioca",
+      "bodyLength": 10831,
+      "description": "Carnaval, Réveillon, festivales y conciertos de Río de Janeiro: fechas, transporte, historia y consejos de Ernestinho.",
+      "expectedDescription": "Carnaval, Réveillon, festivales y conciertos de Río de Janeiro: fechas, transporte, historia y consejos de Ernestinho."
+    },
+    {
+      "route": "/eventos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Grandes eventos de Río | Ernestinho Carioca",
+      "bodyLength": 10831,
+      "description": "Carnaval, Réveillon, festivales y conciertos de Río de Janeiro: fechas, transporte, historia y consejos de Ernestinho.",
+      "expectedDescription": "Carnaval, Réveillon, festivales y conciertos de Río de Janeiro: fechas, transporte, historia y consejos de Ernestinho."
+    },
+    {
+      "route": "/experiencias/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Tours y paseos en Río de Janeiro | Ernestinho Carioca",
+      "bodyLength": 3389,
+      "description": "Elige tu experiencia en Río: Cristo Redentor, Maracaná, Rocinha, aventura y excursiones a Búzios, Arraial do Cabo y Angra con Ernestinho Carioca.",
+      "expectedDescription": "Elige tu experiencia en Río: Cristo Redentor, Maracaná, Rocinha, aventura y excursiones a Búzios, Arraial do Cabo y Angra con Ernestinho Carioca."
+    },
+    {
+      "route": "/gastronomia/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Dónde comer en Río de Janeiro: restaurantes | Ernestinho",
+      "bodyLength": 33650,
+      "description": "Explora restaurantes, botecos, cafés y sabores de Río. Elige dónde comer por barrio y estilo, con la guía gastronómica de Ernestinho Carioca.",
+      "expectedDescription": "Explora restaurantes, botecos, cafés y sabores de Río. Elige dónde comer por barrio y estilo, con la guía gastronómica de Ernestinho Carioca."
+    },
+    {
+      "route": "/gastronomia/polis-sucos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Polis Sucos: guía completa | Ernestinho Carioca",
+      "bodyLength": 6588,
+      "description": "Guía editorial de Polis Sucos: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.",
+      "expectedDescription": "Guía editorial de Polis Sucos: identidad, historia, recomendaciones, horarios, transporte y mapa en Río."
+    },
+    {
+      "route": "/gastronomia/polis-sucos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Polis Sucos: guía completa | Ernestinho Carioca",
+      "bodyLength": 6612,
+      "description": "Guía editorial de Polis Sucos: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.",
+      "expectedDescription": "Guía editorial de Polis Sucos: identidad, historia, recomendaciones, horarios, transporte y mapa en Río."
+    },
+    {
+      "route": "/gastronomia/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Dónde comer en Río de Janeiro: restaurantes | Ernestinho",
+      "bodyLength": 33662,
+      "description": "Explora restaurantes, botecos, cafés y sabores de Río. Elige dónde comer por barrio y estilo, con la guía gastronómica de Ernestinho Carioca.",
+      "expectedDescription": "Explora restaurantes, botecos, cafés y sabores de Río. Elige dónde comer por barrio y estilo, con la guía gastronómica de Ernestinho Carioca."
+    },
+    {
+      "route": "/guia/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guía para viajar a Río de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1287,
+      "description": "Prepara tu viaje a Río: documentos, dinero, PIX, internet, aeropuertos, seguridad y dónde alojarte, con consejos prácticos de Ernestinho.",
+      "expectedDescription": "Prepara tu viaje a Río: documentos, dinero, PIX, internet, aeropuertos, seguridad y dónde alojarte, con consejos prácticos de Ernestinho."
+    },
+    {
+      "route": "/gastronomia/satyricon/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Satyricon: guía completa | Ernestinho Carioca",
+      "bodyLength": 6608,
+      "description": "Guía editorial de Satyricon: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.",
+      "expectedDescription": "Guía editorial de Satyricon: identidad, historia, recomendaciones, horarios, transporte y mapa en Río."
+    },
+    {
+      "route": "/guia/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guía para viajar a Río de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1299,
+      "description": "Prepara tu viaje a Río: documentos, dinero, PIX, internet, aeropuertos, seguridad y dónde alojarte, con consejos prácticos de Ernestinho.",
+      "expectedDescription": "Prepara tu viaje a Río: documentos, dinero, PIX, internet, aeropuertos, seguridad y dónde alojarte, con consejos prácticos de Ernestinho."
+    },
+    {
+      "route": "/gastronomia/satyricon/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Satyricon: guía completa | Ernestinho Carioca",
+      "bodyLength": 6632,
+      "description": "Guía editorial de Satyricon: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.",
+      "expectedDescription": "Guía editorial de Satyricon: identidad, historia, recomendaciones, horarios, transporte y mapa en Río."
+    },
+    {
+      "route": "/guia/internet/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Internet, roaming, chip y eSIM | Ernestinho Carioca",
+      "bodyLength": 3781,
+      "description": "Llegar conectado permite avisar a la familia, encontrar al conductor, abrir mapas y acceder a reservas desde el primer minuto.",
+      "expectedDescription": "Llegar conectado permite avisar a la familia, encontrar al conductor, abrir mapas y acceder a reservas desde el primer minuto."
+    },
+    {
+      "route": "/hospedaje/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Apartamentos en Copacabana: alquiler temporal | Ernestinho",
+      "bodyLength": 2986,
+      "description": "Encuentra tu apartamento en Copacabana con Ernestinho Carioca. Conoce las unidades para parejas, familias y grupos y consulta por WhatsApp.",
+      "expectedDescription": "Encuentra tu apartamento en Copacabana con Ernestinho Carioca. Conoce las unidades para parejas, familias y grupos y consulta por WhatsApp."
+    },
+    {
+      "route": "/guia/internet/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Internet, roaming, chip y eSIM | Ernestinho Carioca",
+      "bodyLength": 3793,
+      "description": "Llegar conectado permite avisar a la familia, encontrar al conductor, abrir mapas y acceder a reservas desde el primer minuto.",
+      "expectedDescription": "Llegar conectado permite avisar a la familia, encontrar al conductor, abrir mapas y acceder a reservas desde el primer minuto."
+    },
+    {
+      "route": "/hospedaje/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Apartamentos en Copacabana: alquiler temporal | Ernestinho",
+      "bodyLength": 1029,
+      "description": "Encuentra tu apartamento en Copacabana con Ernestinho Carioca. Conoce las unidades para parejas, familias y grupos y consulta por WhatsApp.",
+      "expectedDescription": "Encuentra tu apartamento en Copacabana con Ernestinho Carioca. Conoce las unidades para parejas, familias y grupos y consulta por WhatsApp."
+    },
+    {
+      "route": "/pt/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guia do Rio de Janeiro e passeios | Ernestinho Carioca",
+      "bodyLength": 2291,
+      "description": "Viva o Rio com meu olhar local: o que fazer, praias, restaurantes, transporte, apartamentos em Copacabana e experiências com Ernestinho Carioca.",
+      "expectedDescription": "Viva o Rio com meu olhar local: o que fazer, praias, restaurantes, transporte, apartamentos em Copacabana e experiências com Ernestinho Carioca."
+    },
+    {
+      "route": "/pt/cafe-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Café Rio · Café Ernestinho | Ernestinho Carioca",
+      "bodyLength": 4022,
+      "description": "Café Rio é o espaço do Café Ernestinho, minha marca de café saborizado: uma lembrança com sabor brasileiro que conecta o café à história da sua viagem ao Rio.",
+      "expectedDescription": "Café Rio é o espaço do Café Ernestinho, minha marca de café saborizado: uma lembrança com sabor brasileiro que conecta o café à história da sua viagem ao Rio."
+    },
+    {
+      "route": "/pt/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guia do Rio de Janeiro e passeios | Ernestinho Carioca",
+      "bodyLength": 2332,
+      "description": "Viva o Rio com meu olhar local: o que fazer, praias, restaurantes, transporte, apartamentos em Copacabana e experiências com Ernestinho Carioca.",
+      "expectedDescription": "Viva o Rio com meu olhar local: o que fazer, praias, restaurantes, transporte, apartamentos em Copacabana e experiências com Ernestinho Carioca."
+    },
+    {
+      "route": "/pt/cafe-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Café Rio · Café Ernestinho | Ernestinho Carioca",
+      "bodyLength": 4034,
+      "description": "Café Rio é o espaço do Café Ernestinho, minha marca de café saborizado: uma lembrança com sabor brasileiro que conecta o café à história da sua viagem ao Rio.",
+      "expectedDescription": "Café Rio é o espaço do Café Ernestinho, minha marca de café saborizado: uma lembrança com sabor brasileiro que conecta o café à história da sua viagem ao Rio."
+    },
+    {
+      "route": "/pt/compras/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Compras no Rio | Ernestinho Carioca",
+      "bodyLength": 2082,
+      "description": "Compras no Rio | Ernestinho Carioca. Nem tudo é shopping. Aqui reúno shoppings, feiras e mercados populares para você escolher de acordo com a região e…",
+      "expectedDescription": "Compras no Rio | Ernestinho Carioca. Nem tudo é shopping. Aqui reúno shoppings, feiras e mercados populares para você escolher de acordo com a região e…"
+    },
+    {
+      "route": "/pt/cultura/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Museus e cultura no Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1657,
+      "description": "Explore museus, teatros, centros culturais, bibliotecas e fortes do Rio de Janeiro com o guia de arte e cultura do Ernestinho Carioca.",
+      "expectedDescription": "Explore museus, teatros, centros culturais, bibliotecas e fortes do Rio de Janeiro com o guia de arte e cultura do Ernestinho Carioca."
+    },
+    {
+      "route": "/pt/compras/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Compras no Rio | Ernestinho Carioca",
+      "bodyLength": 2094,
+      "description": "Compras no Rio | Ernestinho Carioca. Nem tudo é shopping. Aqui reúno shoppings, feiras e mercados populares para você escolher de acordo com a região e…",
+      "expectedDescription": "Compras no Rio | Ernestinho Carioca. Nem tudo é shopping. Aqui reúno shoppings, feiras e mercados populares para você escolher de acordo com a região e…"
+    },
+    {
+      "route": "/pt/cultura/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Museus e cultura no Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1669,
+      "description": "Explore museus, teatros, centros culturais, bibliotecas e fortes do Rio de Janeiro com o guia de arte e cultura do Ernestinho Carioca.",
+      "expectedDescription": "Explore museus, teatros, centros culturais, bibliotecas e fortes do Rio de Janeiro com o guia de arte e cultura do Ernestinho Carioca."
+    },
+    {
+      "route": "/pt/experiencias/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Passeios e tours no Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 3365,
+      "description": "Escolha sua experiência no Rio: Cristo Redentor, Maracanã, Rocinha, aventura e passeios a Búzios, Arraial do Cabo e Angra com Ernestinho Carioca.",
+      "expectedDescription": "Escolha sua experiência no Rio: Cristo Redentor, Maracanã, Rocinha, aventura e passeios a Búzios, Arraial do Cabo e Angra com Ernestinho Carioca."
+    },
+    {
+      "route": "/pt/eventos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Grandes eventos do Rio | Ernestinho Carioca",
+      "bodyLength": 10508,
+      "description": "Carnaval, Réveillon, festivais e shows do Rio de Janeiro: datas, transporte, história e dicas do Ernestinho.",
+      "expectedDescription": "Carnaval, Réveillon, festivais e shows do Rio de Janeiro: datas, transporte, história e dicas do Ernestinho."
+    },
+    {
+      "route": "/pt/experiencias/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Passeios e tours no Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 3377,
+      "description": "Escolha sua experiência no Rio: Cristo Redentor, Maracanã, Rocinha, aventura e passeios a Búzios, Arraial do Cabo e Angra com Ernestinho Carioca.",
+      "expectedDescription": "Escolha sua experiência no Rio: Cristo Redentor, Maracanã, Rocinha, aventura e passeios a Búzios, Arraial do Cabo e Angra com Ernestinho Carioca."
+    },
+    {
+      "route": "/pt/eventos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Grandes eventos do Rio | Ernestinho Carioca",
+      "bodyLength": 10508,
+      "description": "Carnaval, Réveillon, festivais e shows do Rio de Janeiro: datas, transporte, história e dicas do Ernestinho.",
+      "expectedDescription": "Carnaval, Réveillon, festivais e shows do Rio de Janeiro: datas, transporte, história e dicas do Ernestinho."
+    },
+    {
+      "route": "/pt/gastronomia/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Onde comer no Rio de Janeiro: restaurantes | Ernestinho",
+      "bodyLength": 33565,
+      "description": "Explore restaurantes, botecos, cafés e sabores do Rio. Escolha onde comer por bairro e estilo, com o guia gastronômico do Ernestinho Carioca.",
+      "expectedDescription": "Explore restaurantes, botecos, cafés e sabores do Rio. Escolha onde comer por bairro e estilo, com o guia gastronômico do Ernestinho Carioca."
+    },
+    {
+      "route": "/pt/gastronomia/polis-sucos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Polis Sucos: guia completo | Ernestinho Carioca",
+      "bodyLength": 6653,
+      "description": "Guia editorial de Polis Sucos: identidade, história, recomendações, horários, transporte e mapa no Rio.",
+      "expectedDescription": "Guia editorial de Polis Sucos: identidade, história, recomendações, horários, transporte e mapa no Rio."
+    },
+    {
+      "route": "/pt/gastronomia/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Onde comer no Rio de Janeiro: restaurantes | Ernestinho",
+      "bodyLength": 33577,
+      "description": "Explore restaurantes, botecos, cafés e sabores do Rio. Escolha onde comer por bairro e estilo, com o guia gastronômico do Ernestinho Carioca.",
+      "expectedDescription": "Explore restaurantes, botecos, cafés e sabores do Rio. Escolha onde comer por bairro e estilo, com o guia gastronômico do Ernestinho Carioca."
+    },
+    {
+      "route": "/pt/gastronomia/polis-sucos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Polis Sucos: guia completo | Ernestinho Carioca",
+      "bodyLength": 6677,
+      "description": "Guia editorial de Polis Sucos: identidade, história, recomendações, horários, transporte e mapa no Rio.",
+      "expectedDescription": "Guia editorial de Polis Sucos: identidade, história, recomendações, horários, transporte e mapa no Rio."
+    },
+    {
+      "route": "/pt/gastronomia/satyricon/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Satyricon: guia completo | Ernestinho Carioca",
+      "bodyLength": 6786,
+      "description": "Guia editorial de Satyricon: identidade, história, recomendações, horários, transporte e mapa no Rio.",
+      "expectedDescription": "Guia editorial de Satyricon: identidade, história, recomendações, horários, transporte e mapa no Rio."
+    },
+    {
+      "route": "/pt/guia/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guia para viajar ao Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1340,
+      "description": "Prepare sua viagem ao Rio: documentos, dinheiro, Pix, internet, aeroportos, segurança e onde ficar, com dicas práticas do Ernestinho.",
+      "expectedDescription": "Prepare sua viagem ao Rio: documentos, dinheiro, Pix, internet, aeroportos, segurança e onde ficar, com dicas práticas do Ernestinho."
+    },
+    {
+      "route": "/pt/guia/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guia para viajar ao Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1352,
+      "description": "Prepare sua viagem ao Rio: documentos, dinheiro, Pix, internet, aeroportos, segurança e onde ficar, com dicas práticas do Ernestinho.",
+      "expectedDescription": "Prepare sua viagem ao Rio: documentos, dinheiro, Pix, internet, aeroportos, segurança e onde ficar, com dicas práticas do Ernestinho."
+    },
+    {
+      "route": "/pt/gastronomia/satyricon/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Satyricon: guia completo | Ernestinho Carioca",
+      "bodyLength": 6810,
+      "description": "Guia editorial de Satyricon: identidade, história, recomendações, horários, transporte e mapa no Rio.",
+      "expectedDescription": "Guia editorial de Satyricon: identidade, história, recomendações, horários, transporte e mapa no Rio."
+    },
+    {
+      "route": "/pt/guia/internet/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Internet, roaming, chip e eSIM | Ernestinho Carioca",
+      "bodyLength": 3816,
+      "description": "Chegar conectado permite avisar a família, encontrar o motorista, abrir mapas e acessar reservas desde o primeiro minuto.",
+      "expectedDescription": "Chegar conectado permite avisar a família, encontrar o motorista, abrir mapas e acessar reservas desde o primeiro minuto."
+    },
+    {
+      "route": "/pt/hospedaje/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Apartamentos em Copacabana: aluguel temporada | Ernestinho",
+      "bodyLength": 2965,
+      "description": "Encontre seu apartamento em Copacabana com Ernestinho Carioca. Conheça as unidades para casais, famílias e grupos e consulte pelo WhatsApp.",
+      "expectedDescription": "Encontre seu apartamento em Copacabana com Ernestinho Carioca. Conheça as unidades para casais, famílias e grupos e consulte pelo WhatsApp."
+    },
+    {
+      "route": "/pt/guia/internet/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Internet, roaming, chip e eSIM | Ernestinho Carioca",
+      "bodyLength": 3828,
+      "description": "Chegar conectado permite avisar a família, encontrar o motorista, abrir mapas e acessar reservas desde o primeiro minuto.",
+      "expectedDescription": "Chegar conectado permite avisar a família, encontrar o motorista, abrir mapas e acessar reservas desde o primeiro minuto."
+    },
+    {
+      "route": "/pt/hospedaje/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Apartamentos em Copacabana: aluguel temporada | Ernestinho",
+      "bodyLength": 1082,
+      "description": "Encontre seu apartamento em Copacabana com Ernestinho Carioca. Conheça as unidades para casais, famílias e grupos e consulte pelo WhatsApp.",
+      "expectedDescription": "Encontre seu apartamento em Copacabana com Ernestinho Carioca. Conheça as unidades para casais, famílias e grupos e consulte pelo WhatsApp."
+    },
+    {
+      "route": "/pt/transportes/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Como se locomover no Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 7807,
+      "description": "Circule pelo Rio com dicas sobre metrô, Uber, VLT, BRT, ônibus, bicicletas e transporte privativo do Ernestinho Carioca.",
+      "expectedDescription": "Circule pelo Rio com dicas sobre metrô, Uber, VLT, BRT, ônibus, bicicletas e transporte privativo do Ernestinho Carioca."
+    },
+    {
+      "route": "/pt/vida-nocturna/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Vida noturna no Rio: bares e samba | Ernestinho Carioca",
+      "bodyLength": 9007,
+      "description": "Descubra o que fazer à noite no Rio: bares, samba, rooftops e lugares para escolher conforme seu bairro e seu estilo com Ernestinho Carioca.",
+      "expectedDescription": "Descubra o que fazer à noite no Rio: bares, samba, rooftops e lugares para escolher conforme seu bairro e seu estilo com Ernestinho Carioca."
+    },
+    {
+      "route": "/pt/transportes/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Como se locomover no Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 7819,
+      "description": "Circule pelo Rio com dicas sobre metrô, Uber, VLT, BRT, ônibus, bicicletas e transporte privativo do Ernestinho Carioca.",
+      "expectedDescription": "Circule pelo Rio com dicas sobre metrô, Uber, VLT, BRT, ônibus, bicicletas e transporte privativo do Ernestinho Carioca."
+    },
+    {
+      "route": "/pt/vida-nocturna/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Vida noturna no Rio: bares e samba | Ernestinho Carioca",
+      "bodyLength": 3281,
+      "description": "Descubra o que fazer à noite no Rio: bares, samba, rooftops e lugares para escolher conforme seu bairro e seu estilo com Ernestinho Carioca.",
+      "expectedDescription": "Descubra o que fazer à noite no Rio: bares, samba, rooftops e lugares para escolher conforme seu bairro e seu estilo com Ernestinho Carioca."
+    },
+    {
+      "route": "/transportes/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Cómo moverse en Río de Janeiro | Ernestinho Carioca",
+      "bodyLength": 7240,
+      "description": "Muévete por Río con consejos sobre metro, Uber, VLT, BRT, autobuses, bicicletas y transporte privado de Ernestinho Carioca.",
+      "expectedDescription": "Muévete por Río con consejos sobre metro, Uber, VLT, BRT, autobuses, bicicletas y transporte privado de Ernestinho Carioca."
+    },
+    {
+      "route": "/vida-nocturna/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Vida nocturna en Río: bares y samba | Ernestinho Carioca",
+      "bodyLength": 9112,
+      "description": "Descubre qué hacer de noche en Río: bares, samba, rooftops y locales para elegir según tu barrio y tu estilo con Ernestinho Carioca.",
+      "expectedDescription": "Descubre qué hacer de noche en Río: bares, samba, rooftops y locales para elegir según tu barrio y tu estilo con Ernestinho Carioca."
+    },
+    {
+      "route": "/vida-nocturna/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Vida nocturna en Río: bares y samba | Ernestinho Carioca",
+      "bodyLength": 3344,
+      "description": "Descubre qué hacer de noche en Río: bares, samba, rooftops y locales para elegir según tu barrio y tu estilo con Ernestinho Carioca.",
+      "expectedDescription": "Descubre qué hacer de noche en Río: bares, samba, rooftops y locales para elegir según tu barrio y tu estilo con Ernestinho Carioca."
+    },
+    {
+      "route": "/transportes/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Cómo moverse en Río de Janeiro | Ernestinho Carioca",
+      "bodyLength": 7252,
+      "description": "Muévete por Río con consejos sobre metro, Uber, VLT, BRT, autobuses, bicicletas y transporte privado de Ernestinho Carioca.",
+      "expectedDescription": "Muévete por Río con consejos sobre metro, Uber, VLT, BRT, autobuses, bicicletas y transporte privado de Ernestinho Carioca."
     }
   ]
 }

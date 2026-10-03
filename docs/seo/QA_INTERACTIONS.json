@@ -5,7 +5,7 @@
   "rows": [
     {
       "route": "/",
-      "width": 390,
+      "width": 1365,
       "problems": [],
       "cycles": [
         {
@@ -34,7 +34,7 @@
     },
     {
       "route": "/",
-      "width": 1365,
+      "width": 390,
       "problems": [],
       "cycles": [
         {
@@ -63,7 +63,7 @@
     },
     {
       "route": "/guia/",
-      "width": 1365,
+      "width": 390,
       "problems": [],
       "cycles": [
         {
@@ -92,7 +92,7 @@
     },
     {
       "route": "/guia/",
-      "width": 390,
+      "width": 1365,
       "problems": [],
       "cycles": [
         {
@@ -179,7 +179,7 @@
     },
     {
       "route": "/gastronomia/",
-      "width": 390,
+      "width": 1365,
       "problems": [],
       "cycles": [
         {
@@ -208,7 +208,7 @@
     },
     {
       "route": "/gastronomia/",
-      "width": 1365,
+      "width": 390,
       "problems": [],
       "cycles": [
         {
@@ -401,64 +401,6 @@
         },
         {
           "path": "/vida-nocturna/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "es",
-          "overflow": false
-        }
-      ],
-      "inheritedUnavailableImages": []
-    },
-    {
-      "route": "/compras/",
-      "width": 1365,
-      "problems": [],
-      "cycles": [
-        {
-          "path": "/pt/compras/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "pt-BR",
-          "overflow": false
-        },
-        {
-          "path": "/en/compras/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "en",
-          "overflow": false
-        },
-        {
-          "path": "/compras/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "es",
-          "overflow": false
-        }
-      ],
-      "inheritedUnavailableImages": []
-    },
-    {
-      "route": "/transportes/",
-      "width": 1365,
-      "problems": [],
-      "cycles": [
-        {
-          "path": "/pt/transportes/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "pt-BR",
-          "overflow": false
-        },
-        {
-          "path": "/en/transportes/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "en",
-          "overflow": false
-        },
-        {
-          "path": "/transportes/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
@@ -488,6 +430,64 @@
         },
         {
           "path": "/hospedaje/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/compras/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/compras/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/compras/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/compras/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/transportes/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/transportes/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/transportes/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/transportes/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
