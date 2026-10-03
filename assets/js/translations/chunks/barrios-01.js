@@ -316,10 +316,6 @@ export default {
     "PT": "Mercados",
     "EN": "Markets"
   },
-  "Movilidad reducida": {
-    "PT": "Mobilidade reduzida",
-    "EN": "Reduced mobility"
-  },
   "Mucho más que una playa: historia, arquitectura, música, literatura, vida residencial, comercio y uno de los paseos marítimos más famosos del mundo.": {
     "PT": "Muito mais do que uma praia: história, arquitetura, música, literatura, vida residencial, comércio e um dos passeios marítimos mais famosos do mundo.",
     "EN": "Much more than a beach: history, architecture, music, literature, residential life, commerce and one of the world's most famous seaside promenades."
@@ -395,10 +391,6 @@ export default {
   "Padaria → playa → boteco → paseo nocturno": {
     "PT": "Padaria → praia → boteco → paseo nocturno",
     "EN": "Padaria → beach → boteco → paseo nocturno"
-  },
-  "Parejas": {
-    "PT": "Casais",
-    "EN": "Couples"
   },
   "Parque Lage": {
     "PT": "Parque Lage",

@@ -617,7 +617,6 @@ export default {
   },
   "El desafío de Ernestinho 🛒": {"PT": "O desafio do Ernestinho 🛒", "EN": "Ernestinho’s challenge 🛒"},
   "Entra sin prisa y elige una fruta que nunca probaste, una bebida brasileña, un dulce para regalar y un producto para preparar en el alojamiento. El supermercado también cuenta la historia de un país.": {"PT": "Entre sem pressa e escolha uma fruta que nunca provou, uma bebida brasileira, um doce para presentear e um produto para preparar na hospedagem. O supermercado também conta a história de um país.", "EN": "Take your time and choose a fruit you have never tried, a Brazilian drink, a sweet to give as a gift and something to prepare at your accommodation. A supermarket also tells part of a country’s story."},
-  "⭐ Consejo de Ernestinho:": {"PT": "⭐ Dica do Ernestinho:", "EN": "⭐ Ernestinho’s tip:"},
   "Lista divertida para tu primera visita": {"PT": "Lista divertida para sua primeira visita", "EN": "A fun list for your first visit"},
   "Una fruta desconocida": {"PT": "Uma fruta desconhecida", "EN": "A fruit you have never tried"},
   "Guaraná o mate": {"PT": "Guaraná ou mate", "EN": "Guaraná or mate"},
@@ -1457,5 +1456,289 @@ export default {
   "🫕 Petiscos o fondue": {
     "PT": "🫕 Petiscos ou fondue",
     "EN": "🫕 Small plates or fondue"
+  },
+  "Acuerdos claros, batería, internet y punto de encuentro.": {
+    "PT": "Combinados claros, bateria, internet e ponto de encontro.",
+    "EN": "Clear arrangements, battery, internet and a meeting point."
+  },
+  "Adultos mayores": {
+    "PT": "Pessoas idosas",
+    "EN": "Older adults"
+  },
+  "Ahorrar cruzando la ciudad puede costarte horas; agrupa el día por barrios.": {
+    "PT": "Cruzar a cidade para economizar pode custar horas; organize o dia por bairros.",
+    "EN": "Crossing the city to save money can cost you hours; group your day by neighborhood."
+  },
+  "Alterna una visita cultural con algo donde puedan moverse y jugar.": {
+    "PT": "Alterne uma visita cultural com algo em que possam se movimentar e brincar.",
+    "EN": "Alternate a cultural visit with something that lets them move around and play."
+  },
+  "Busca programación actual: una fiesta conocida puede cambiar de dirección o fecha.": {
+    "PT": "Confira a programação atual: uma festa conhecida pode mudar de endereço ou data.",
+    "EN": "Check the current schedule: a well-known party may change its location or date."
+  },
+  "Compartir trayecto, verificar vehículo y evitar esperas aisladas.": {
+    "PT": "Compartilhar o trajeto, conferir o veículo e evitar esperas em locais isolados.",
+    "EN": "Share your route, check the vehicle and avoid waiting in isolated places."
+  },
+  "Con adolescentes": {
+    "PT": "Com adolescentes",
+    "EN": "With teenagers"
+  },
+  "Con bebés": {
+    "PT": "Com bebês",
+    "EN": "With babies"
+  },
+  "Con niños": {
+    "PT": "Com crianças",
+    "EN": "With children"
+  },
+  "Cuna confirmada, ascensor desde la calle, cambiador, cochecito, sombra, agua, farmacia cercana y trayectos con pocas conexiones. Revisa también si Uber/taxi acepta el volumen del cochecito.": {
+    "PT": "Berço confirmado, elevador desde a rua, trocador, carrinho, sombra, água, farmácia próxima e trajetos com poucas conexões. Confira também se o Uber ou táxi comporta o carrinho.",
+    "EN": "A confirmed crib, elevator access from street level, changing facilities, a stroller, shade, water, a nearby pharmacy and routes with few connections. Also check whether the Uber or taxi can fit the stroller."
+  },
+  "Dos atracciones bien disfrutadas valen más que cinco recorridas con cansancio.": {
+    "PT": "Duas atrações bem aproveitadas valem mais que cinco visitas feitas com cansaço.",
+    "EN": "Two attractions enjoyed properly are worth more than five visits made while exhausted."
+  },
+  "Déjalos elegir una actividad completa; aumenta muchísimo el entusiasmo.": {
+    "PT": "Deixe que escolham uma atividade completa; isso aumenta muito o entusiasmo.",
+    "EN": "Let them choose a whole activity; it makes a huge difference to their enthusiasm."
+  },
+  "Elige un momento inolvidable por día; no llenes cada minuto.": {
+    "PT": "Escolha um momento inesquecível por dia; não preencha cada minuto.",
+    "EN": "Choose one unforgettable moment each day; do not fill every minute."
+  },
+  "Entrada, baño, ascensor, transporte y acompañante deben confirmarse por separado.": {
+    "PT": "Entrada, banheiro, elevador, transporte e acompanhante precisam ser confirmados separadamente.",
+    "EN": "Confirm the entrance, bathroom, elevator, transport and companion arrangements separately."
+  },
+  "Hospedaje conectado, encuentros públicos y contacto de emergencia.": {
+    "PT": "Hospedagem bem conectada, encontros em locais públicos e contato de emergência.",
+    "EN": "Well-connected accommodation, meetings in public places and an emergency contact."
+  },
+  "Identificación, protector, snack, baño cercano y actividad alternativa por lluvia.": {
+    "PT": "Identificação, protetor solar, lanche, banheiro próximo e atividade alternativa para chuva.",
+    "EN": "ID, sunscreen, a snack, a nearby bathroom and an alternative activity for rain."
+  },
+  "Las actividades compartidas ayudan a conocer gente sin depender de desconocidos.": {
+    "PT": "Atividades compartilhadas ajudam a conhecer pessoas sem depender de desconhecidos.",
+    "EN": "Shared activities help you meet people without relying on strangers."
+  },
+  "Metro, comida por kilo, botella de agua y presupuesto de emergencia.": {
+    "PT": "Metrô, comida por quilo, garrafa de água e reserva para emergências.",
+    "EN": "Metro, food by the kilo, a water bottle and an emergency budget."
+  },
+  "Mochileros": {
+    "PT": "Mochileiros",
+    "EN": "Backpackers"
+  },
+  "Mujeres que viajan solas": {
+    "PT": "Mulheres que viajam sozinhas",
+    "EN": "Women traveling alone"
+  },
+  "No programes tres barrios en un día: el descanso también es parte del itinerario.": {
+    "PT": "Não programe três bairros em um dia: descansar também faz parte do roteiro.",
+    "EN": "Do not schedule three neighborhoods in one day: rest is part of the itinerary too."
+  },
+  "Revisar ambiente, transporte nocturno y precauciones urbanas habituales.": {
+    "PT": "Confira o ambiente, o transporte noturno e as precauções urbanas habituais.",
+    "EN": "Check the atmosphere, nighttime transport and usual urban precautions."
+  },
+  "Si algo no te transmite confianza, cambia el plan sin sentir que debes justificarte.": {
+    "PT": "Se algo não passar confiança, mude o plano sem sentir que precisa se justificar.",
+    "EN": "If something does not feel trustworthy, change your plan without feeling you need to justify it."
+  },
+  "Sombra, baños, asientos, poca espera de pie, horarios frescos, medicamentos, hidratación, documento para beneficios y punto claro de descenso del vehículo.": {
+    "PT": "Sombra, banheiros, assentos, pouca espera em pé, horários mais frescos, medicamentos, hidratação, documento para benefícios e ponto claro para desembarcar do veículo.",
+    "EN": "Shade, bathrooms, seats, little time waiting on your feet, cooler hours, medication, hydration, ID for concessions and a clear vehicle drop-off point."
+  },
+  "Una reserva especial y suficiente tiempo libre sin itinerario rígido.": {
+    "PT": "Uma reserva especial e bastante tempo livre, sem roteiro rígido.",
+    "EN": "A special booking and plenty of free time without a rigid itinerary."
+  },
+  "Viajeros LGBTQIA+": {
+    "PT": "Viajantes LGBTQIA+",
+    "EN": "LGBTQIA+ travelers"
+  },
+  "Viajeros solos": {
+    "PT": "Viajantes solo",
+    "EN": "Solo travelers"
+  },
+  "“Accesible” no siempre significa accesibilidad completa; llama antes de reservar.": {
+    "PT": "“Acessível” nem sempre significa acessibilidade completa; ligue antes de reservar.",
+    "EN": "“Accessible” does not always mean fully accessible; call before booking."
+  },
+  "Alguien dice ser tu conductor, pero la matrícula, modelo o fotografía no coinciden.": {
+    "PT": "Alguém diz ser seu motorista, mas a placa, o modelo ou a foto não conferem.",
+    "EN": "Someone claims to be your driver, but the license plate, model or photo does not match."
+  },
+  "Alguien te ofrece fotografiar, limpiar algo, colocar una pulsera o prestar un servicio y después exige un pago inesperado.": {
+    "PT": "Alguém oferece tirar uma foto, limpar algo, colocar uma pulseira ou prestar um serviço e depois exige um pagamento inesperado.",
+    "EN": "Someone offers to take a photo, clean something, put on a bracelet or provide a service, then demands an unexpected payment."
+  },
+  "Antes de confirmar, compara nombre del receptor, institución y monto. Nunca entregues el teléfono desbloqueado para que alguien haga el proceso.": {
+    "PT": "Antes de confirmar, confira o nome do destinatário, a instituição e o valor. Nunca entregue o celular desbloqueado para alguém fazer o processo.",
+    "EN": "Before confirming, check the recipient's name, institution and amount. Never hand over your unlocked phone for someone to complete the process."
+  },
+  "Antes de pedir, confirma verbalmente qué producto entra, hasta qué hora y cuál será el precio final.": {
+    "PT": "Antes de pedir, confirme verbalmente qual produto participa, até que horário e qual será o preço final.",
+    "EN": "Before ordering, verbally confirm which product is included, the time limit and the final price."
+  },
+  "Aparecen couvert artístico, productos repetidos, otra cantidad de personas o bebidas no consumidas.": {
+    "PT": "Aparecem couvert artístico, itens repetidos, outro número de pessoas ou bebidas não consumidas.",
+    "EN": "The bill includes a live-music charge, duplicate items, the wrong number of diners or drinks you did not consume."
+  },
+  "Ayuda innecesaria en el cajero": {
+    "PT": "Ajuda desnecessária no caixa eletrônico",
+    "EN": "Unnecessary help at an ATM"
+  },
+  "Cambio de dinero sin referencia clara": {
+    "PT": "Câmbio sem referência clara",
+    "EN": "Currency exchange without clear details"
+  },
+  "Cancela, guarda la tarjeta y usa otro cajero dentro de banco o shopping. Nunca aceptes ayuda de extraños.": {
+    "PT": "Cancele, guarde o cartão e use outro caixa dentro de um banco ou shopping. Nunca aceite ajuda de desconhecidos.",
+    "EN": "Cancel, put your card away and use another ATM inside a bank or mall. Never accept help from strangers."
+  },
+  "Comprueba nombre, reputación, condiciones, fecha, incluidos y canal oficial. Desconfía de presión para pagar “ahora”.": {
+    "PT": "Confira o nome, a reputação, as condições, a data, os itens incluídos e o canal oficial. Desconfie da pressão para pagar “agora”.",
+    "EN": "Check the name, reputation, terms, date, inclusions and official channel. Be wary of pressure to pay “now”."
+  },
+  "Confirma el nombre exacto de la red, evita operaciones bancarias en Wi‑Fi abierto y no abras enlaces de remitentes desconocidos.": {
+    "PT": "Confirme o nome exato da rede, evite operações bancárias em Wi‑Fi aberto e não abra links de remetentes desconhecidos.",
+    "EN": "Confirm the exact network name, avoid banking on open Wi‑Fi and do not open links from unknown senders."
+  },
+  "Cuenta con extras": {
+    "PT": "Conta com extras",
+    "EN": "A bill with extras"
+  },
+  "Entrada o excursión inexistente": {
+    "PT": "Ingresso ou passeio inexistente",
+    "EN": "A nonexistent ticket or tour"
+  },
+  "Fuiste cobrado incorrectamente, perdiste documentos o sufriste un delito.": {
+    "PT": "Você recebeu uma cobrança incorreta, perdeu documentos ou foi vítima de um crime.",
+    "EN": "You were charged incorrectly, lost documents or experienced a crime."
+  },
+  "Guarda capturas, recibos, matrícula, hora y dirección; bloquea tarjetas y registra la denuncia. Emergencia: 190. DEAT y BPTur ofrecen apoyo turístico.": {
+    "PT": "Guarde capturas de tela, recibos, placa, horário e endereço; bloqueie os cartões e registre a ocorrência. Emergência: 190. DEAT e BPTur oferecem apoio ao turista.",
+    "EN": "Save screenshots, receipts, the license plate, time and address; block your cards and file a police report. Emergency: 190. DEAT and BPTur provide tourist assistance."
+  },
+  "La pantalla de la tarjeta": {
+    "PT": "A tela da máquina de cartão",
+    "EN": "The card terminal screen"
+  },
+  "Mensaje falso sobre tu reserva": {
+    "PT": "Mensagem falsa sobre sua reserva",
+    "EN": "A fake message about your booking"
+  },
+  "Mira el valor antes de aproximar, insertar o escribir la clave. En Brasil la coma separa los centavos: R$20,00 son veinte reales.": {
+    "PT": "Confira o valor antes de aproximar ou inserir o cartão ou digitar a senha. No Brasil, a vírgula separa os centavos: R$20,00 são vinte reais.",
+    "EN": "Check the amount before tapping or inserting your card or entering your PIN. In Brazil, a comma separates cents: R$20,00 means twenty reais."
+  },
+  "No subas. Verifica los tres datos dentro de la aplicación y confirma tu nombre sin decirlo primero.": {
+    "PT": "Não entre. Confira os três dados no aplicativo e peça que confirmem seu nome sem dizê-lo primeiro.",
+    "EN": "Do not get in. Check all three details in the app and have the driver confirm your name without telling them first."
+  },
+  "No uses el enlace recibido. Entra a la plataforma o contacto original por tu cuenta y verifica allí la reserva.": {
+    "PT": "Não use o link recebido. Acesse a plataforma ou o contato original por conta própria e confira a reserva por lá.",
+    "EN": "Do not use the link you received. Open the original platform or contact independently and verify your booking there."
+  },
+  "Perfiles recientes ofrecen un precio imposible, cobran por adelantado y desaparecen o entregan un voucher que no corresponde.": {
+    "PT": "Perfis recentes oferecem um preço impossível, cobram adiantado e desaparecem ou entregam um voucher que não corresponde ao combinado.",
+    "EN": "New profiles offer an implausible price, take advance payment and disappear or provide a voucher that does not match what was agreed."
+  },
+  "Pix al destinatario equivocado": {
+    "PT": "Pix para o destinatário errado",
+    "EN": "Pix sent to the wrong recipient"
+  },
+  "Precio sorpresa en la playa": {
+    "PT": "Preço surpresa na praia",
+    "EN": "A surprise price at the beach"
+  },
+  "Pregunta y repite el precio total antes de aceptar. Si es posible, fotografía el menú o cartel y conserva el comprobante.": {
+    "PT": "Pergunte e confirme o preço total antes de aceitar. Se possível, fotografe o cardápio ou a placa e guarde o comprovante.",
+    "EN": "Ask about and confirm the total price before accepting. If possible, photograph the menu or sign and keep your receipt."
+  },
+  "Promoción que cambia en la cuenta": {
+    "PT": "Promoção que muda na conta",
+    "EN": "An offer that changes on the bill"
+  },
+  "Recibes WhatsApp o correo pidiendo pagar nuevamente para no perder hotel, apartamento o entrada.": {
+    "PT": "Você recebe WhatsApp ou e-mail pedindo outro pagamento para não perder o hotel, apartamento ou ingresso.",
+    "EN": "You receive a WhatsApp message or email asking you to pay again to avoid losing your hotel, apartment or ticket."
+  },
+  "Revisa cada línea antes de pagar. Pregunta previamente si existe música con cobro y si el 10% ya está incluido.": {
+    "PT": "Confira cada item antes de pagar. Pergunte antes se há cobrança pela música e se os 10% já estão incluídos.",
+    "EN": "Check every line before paying. Ask in advance whether there is a music charge and whether the 10% is already included."
+  },
+  "Servicio o foto sin precio acordado": {
+    "PT": "Serviço ou foto sem preço combinado",
+    "EN": "A service or photo without an agreed price"
+  },
+  "Si algo ya ocurrió": {
+    "PT": "Se algo já aconteceu",
+    "EN": "If something has already happened"
+  },
+  "Si no lo quieres, di no antes de aceptar. Si sí lo quieres, acuerda el valor total antes de comenzar.": {
+    "PT": "Se não quiser, diga não antes de aceitar. Se quiser, combine o valor total antes de começar.",
+    "EN": "If you do not want it, say no before accepting. If you do, agree on the total price before it starts."
+  },
+  "Te cobran R$200,00 cuando la compra era R$20,00 o esconden la pantalla diciendo que no se ve por el sol.": {
+    "PT": "Cobram R$200,00 quando a compra era de R$20,00 ou escondem a tela dizendo que o sol impede a leitura.",
+    "EN": "You are charged R$200,00 for a R$20,00 purchase, or the screen is hidden with the excuse that sunlight makes it unreadable."
+  },
+  "Te ofrecen una cotización muy atractiva en la calle o un lugar no identificado y no queda claro cuánto recibirás finalmente.": {
+    "PT": "Oferecem uma cotação muito atraente na rua ou em um local não identificado, sem deixar claro quanto você receberá no final.",
+    "EN": "You are offered an attractive exchange rate on the street or at an unidentified venue, without a clear final amount you will receive."
+  },
+  "Te sientas, consumes y después aparecen valores que nunca fueron informados para silla, sombrilla, pescado o bebidas.": {
+    "PT": "Você senta, consome e depois aparecem valores nunca informados para cadeira, guarda-sol, peixe ou bebidas.",
+    "EN": "You sit down and order, then charges appear that were never disclosed for chairs, umbrellas, fish or drinks."
+  },
+  "Trampas y cobros que debes reconocer": {
+    "PT": "Armadilhas e cobranças que você deve reconhecer",
+    "EN": "Scams and charges to watch for"
+  },
+  "Traslado sin precio claro": {
+    "PT": "Transfer sem preço claro",
+    "EN": "A transfer without a clear price"
+  },
+  "Un QR alterado o una clave escrita incorrectamente envía el dinero a otra persona.": {
+    "PT": "Um QR Code alterado ou uma chave digitada incorretamente envia o dinheiro para outra pessoa.",
+    "EN": "An altered QR code or an incorrectly entered payment key sends the money to someone else."
+  },
+  "Un cartel muestra 2x1, happy hour o combo, pero la condición tenía horario, producto o forma de pago específica.": {
+    "PT": "Uma placa anuncia 2 por 1, happy hour ou combo, mas as condições limitavam horário, produto ou forma de pagamento.",
+    "EN": "A sign advertises a two-for-one offer, happy hour or combo, but the terms restrict the time, product or payment method."
+  },
+  "Un desconocido se acerca demasiado, observa tu clave o afirma que la tarjeta quedó bloqueada.": {
+    "PT": "Um desconhecido se aproxima demais, observa sua senha ou afirma que o cartão foi bloqueado.",
+    "EN": "A stranger gets too close, watches your PIN or claims your card has been blocked."
+  },
+  "Una persona se presenta como transporte oficial y ofrece ayuda con las maletas sin explicar tarifa, peajes o equipaje.": {
+    "PT": "Uma pessoa se apresenta como transporte oficial e oferece ajuda com as malas sem explicar a tarifa, os pedágios ou a cobrança por bagagem.",
+    "EN": "Someone presents themselves as official transport and offers help with your bags without explaining the fare, tolls or luggage charges."
+  },
+  "Una red parecida a la del hotel o un mensaje de reserva intenta obtener contraseñas y datos bancarios.": {
+    "PT": "Uma rede parecida com a do hotel ou uma mensagem de reserva tenta obter suas senhas e seus dados bancários.",
+    "EN": "A network resembling the hotel's or a booking message tries to obtain your passwords and banking details."
+  },
+  "Usa casas de cambio identificadas, compara el valor final y cuenta el dinero antes de salir. Evita cambiar grandes cantidades de una vez.": {
+    "PT": "Use casas de câmbio identificadas, compare o valor final e conte o dinheiro antes de sair. Evite trocar grandes quantias de uma vez.",
+    "EN": "Use clearly identified exchange offices, compare the final amount and count the money before leaving. Avoid exchanging large amounts at once."
+  },
+  "Usa mostradores identificados, taxi autorizado, aplicación verificada o traslado reservado. Confirma destino y valor antes de salir.": {
+    "PT": "Use balcões identificados, táxis autorizados, aplicativo verificado ou transfer reservado. Confirme o destino e o valor antes de sair.",
+    "EN": "Use identified service counters, authorized taxis, a verified app or a booked transfer. Confirm the destination and price before departing."
+  },
+  "Vehículo diferente en la aplicación": {
+    "PT": "Veículo diferente no aplicativo",
+    "EN": "A different vehicle from the one in the app"
+  },
+  "Wi‑Fi y enlaces falsos": {
+    "PT": "Wi‑Fi e links falsos",
+    "EN": "Fake Wi‑Fi and links"
   }
 };

@@ -119,5 +119,17 @@ export default {
   "Esperando datos": {
     "PT": "Aguardando dados",
     "EN": "Waiting for data"
+  },
+  "Movilidad reducida": {
+    "PT": "Mobilidade reduzida",
+    "EN": "Reduced mobility"
+  },
+  "Parejas": {
+    "PT": "Casais",
+    "EN": "Couples"
+  },
+  "⭐ Consejo de Ernestinho:": {
+    "PT": "⭐ Dica do Ernestinho:",
+    "EN": "⭐ Ernestinho’s tip:"
   }
 };

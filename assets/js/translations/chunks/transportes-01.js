@@ -2112,6 +2112,177 @@ export default {
   "⭐ Consejo de Ernestinho · La forma más rápida de pagar": {
     "PT": "⭐ Conselho do Ernestinho · A forma mais rápida de pagar",
     "EN": "⭐ Ernestinho's tip · The quickest way to pay"
+  },
+  "Combínalo con Santa Teresa": {
+    "PT": "Combine com Santa Teresa",
+    "EN": "Combine it with Santa Teresa"
+  },
+  "Con solo 32 pasajeros por composición, en días concurridos la capacidad pesa mucho más que en Metro o VLT.": {
+    "PT": "Com apenas 32 passageiros por composição, nos dias movimentados a capacidade pesa muito mais do que no metrô ou VLT.",
+    "EN": "With only 32 passengers per train, capacity matters much more on busy days than on the metro or VLT."
+  },
+  "El bonde es parte de la identidad de Santa Teresa. Yo iría por la experiencia del recorrido, el barrio y sus vistas, no porque sea necesariamente la forma más rápida de llegar. La estación Carioca está en el Centro y el viaje ya comienza antes de subir.": {
+    "PT": "O bonde faz parte da identidade de Santa Teresa. Eu iria pela experiência do trajeto, pelo bairro e pelas vistas, não por ser necessariamente a forma mais rápida de chegar. A estação Carioca fica no Centro, e o passeio começa antes mesmo de embarcar.",
+    "EN": "The tram is part of Santa Teresa's identity. I would go for the ride, the neighborhood and the views, rather than because it is necessarily the fastest way there. Carioca station is downtown, and the outing begins before you even board."
+  },
+  "Experiencia Ernestinho": {
+    "PT": "Experiência Ernestinho",
+    "EN": "The Ernestinho experience"
+  },
+  "No lo trato como un simple transporte": {
+    "PT": "Não vejo como um simples transporte",
+    "EN": "I see it as more than just transport"
+  },
+  "Operación, precio y venta pueden cambiar. El sitio oficial del Gobierno del Estado debe ser tu última comprobación antes de ir.": {
+    "PT": "Funcionamento, preço e venda podem mudar. O site oficial do Governo do Estado deve ser sua última consulta antes de ir.",
+    "EN": "Operations, prices and ticket sales can change. Make the official state government website your final check before going."
+  },
+  "Organiza el bonde como parte de una visita al barrio y deja margen para caminar. No armes una agenda apretada dependiendo de una salida exacta.": {
+    "PT": "Inclua o bonde em uma visita ao bairro e reserve tempo para caminhar. Não monte uma agenda apertada dependendo de uma saída exata.",
+    "EN": "Plan the tram as part of a neighborhood visit and allow time to walk. Do not build a tight schedule around an exact departure."
+  },
+  "Ve temprano": {
+    "PT": "Vá cedo",
+    "EN": "Go early"
+  },
+  "si quieres vivirlo con calma, yo evitaría llegar al final de la jornada. Ve temprano, confirma la operación y deja que Santa Teresa sea el paseo, no una carrera contra el reloj.": {
+    "PT": "se quiser aproveitar com calma, eu evitaria chegar no fim do dia. Vá cedo, confirme o funcionamento e deixe Santa Teresa ser um passeio, não uma corrida contra o relógio.",
+    "EN": "if you want to enjoy it at an easy pace, I would avoid arriving near closing time. Go early, confirm operations and let Santa Teresa be an outing rather than a race against the clock."
+  },
+  "Cómo lo uso yo": {
+    "PT": "Como eu uso",
+    "EN": "How I use it"
+  },
+  "El VLT conecta Gentileza con el Centro; la Línea 4 enlaza con Praça XV y la Línea 1 con Santos Dumont.": {
+    "PT": "O VLT conecta Gentileza ao Centro; a Linha 4 liga à Praça XV e a Linha 1, ao Santos Dumont.",
+    "EN": "The VLT connects Gentileza with downtown; Line 4 goes to Praça XV and Line 1 to Santos Dumont."
+  },
+  "El terminal reúne líneas municipales hacia Ipanema, Leblon, Copacabana, São Conrado y otros sectores. Revisa el número y recorrido vigente.": {
+    "PT": "O terminal reúne linhas municipais para Ipanema, Leblon, Copacabana, São Conrado e outras regiões. Confira o número e o trajeto atual.",
+    "EN": "The terminal brings together municipal routes to Ipanema, Leblon, Copacabana, São Conrado and other areas. Check the current route number and itinerary."
+  },
+  "Existe servicio ejecutivo directo Terminal Gentileza ↔ Galeão, publicado con operación diaria. Yo confirmaría horario y tarifa el mismo día del vuelo.": {
+    "PT": "Há um serviço executivo direto Terminal Gentileza ↔ Galeão, divulgado com operação diária. Eu confirmaria o horário e a tarifa no dia do voo.",
+    "EN": "A direct executive service between Terminal Gentileza and Galeão is advertised as operating daily. I would confirm the schedule and fare on the day of the flight."
+  },
+  "Gentileza te resuelve conexiones que antes eran más incómodas": {
+    "PT": "Gentileza facilita conexões que antes eram mais complicadas",
+    "EN": "Gentileza makes previously awkward connections easier"
+  },
+  "Hacia Centro y Praça XV": {
+    "PT": "Para o Centro e a Praça XV",
+    "EN": "To downtown and Praça XV"
+  },
+  "Hacia Galeão": {
+    "PT": "Para o Galeão",
+    "EN": "To Galeão"
+  },
+  "Hacia Zona Sur": {
+    "PT": "Para a Zona Sul",
+    "EN": "To the South Zone"
+  },
+  "Yo lo veo como un distribuidor: aquí puedes pasar entre BRT Transbrasil, VLT y líneas municipales sin tener que entender toda la Zona Portuaria. La clave es llegar sabiendo cuál es tu siguiente modo y destino.": {
+    "PT": "Vejo como um ponto de distribuição: aqui você pode trocar entre BRT Transbrasil, VLT e linhas municipais sem precisar entender toda a Zona Portuária. O segredo é chegar sabendo qual será o próximo transporte e destino.",
+    "EN": "I see it as a connecting hub: here you can switch between BRT Transbrasil, VLT and municipal buses without needing to understand the whole Port Zone. The key is to arrive knowing your next transport mode and destination."
+  },
+  "si llegas con maletas desde la Rodoviária, no midas la conexión solamente por distancia en el mapa. Gentileza es grande: cuenta caminata, orientación, validación y espera del siguiente vehículo.": {
+    "PT": "se chegar com malas da Rodoviária, não avalie a conexão apenas pela distância no mapa. Gentileza é grande: conte o tempo para caminhar, se orientar, validar e esperar o próximo veículo.",
+    "EN": "if you arrive with luggage from Rodoviária, do not judge the connection only by map distance. Gentileza is large: allow time to walk, find your way, validate your fare and wait for the next vehicle."
+  },
+  ". Eso evita terminar en un ramal distinto al que necesitas.": {
+    "PT": ". Assim você evita terminar em um ramal diferente do que precisa.",
+    "EN": ". That helps you avoid ending up on a different branch from the one you need."
+  },
+  ". Para AquaRio y Museu do Amanhã conviene mirar el nombre exacto de la parada y la línea antes de subir.": {
+    "PT": ". Para AquaRio e Museu do Amanhã, vale conferir o nome exato da parada e a linha antes de embarcar.",
+    "EN": ". For AquaRio and Museu do Amanhã, check the exact stop name and line before boarding."
+  },
+  ". Yo no asumiría que subir sin barrera física significa viajar sin validación.": {
+    "PT": ". Eu não presumiria que embarcar sem uma barreira física significa viajar sem validar.",
+    "EN": ". I would not assume that boarding without a physical barrier means you can travel without validating your fare."
+  },
+  "Como varias líneas comparten tramos, yo no miro solamente que llegue un VLT: compruebo": {
+    "PT": "Como várias linhas compartilham trechos, não olho apenas se está chegando um VLT: confiro",
+    "EN": "Since several lines share sections, I do not just look for an arriving VLT: I check"
+  },
+  "Comprueba la línea vigente y busca la parada que sirve al sector de AquaRio; no elijas el vehículo únicamente por verlo circular hacia la Zona Portuaria.": {
+    "PT": "Confira a linha atual e procure a parada que atende a área do AquaRio; não escolha o veículo apenas por vê-lo seguir para a Zona Portuária.",
+    "EN": "Check the current line and find the stop serving the AquaRio area; do not choose a vehicle just because you see it heading toward the Port Zone."
+  },
+  "Cómo lo uso yo en el Centro": {
+    "PT": "Como eu uso no Centro",
+    "EN": "How I use it downtown"
+  },
+  "El VLT atraviesa algunos de los paisajes urbanos más reconocibles del Centro, aquí junto al Theatro Municipal.": {
+    "PT": "O VLT atravessa algumas das paisagens urbanas mais reconhecidas do Centro, aqui ao lado do Theatro Municipal.",
+    "EN": "The VLT passes through some of downtown's most recognizable urban scenery, shown here beside Theatro Municipal."
+  },
+  "El VLT me resulta especialmente práctico para unir": {
+    "PT": "O VLT é especialmente prático para conectar",
+    "EN": "I find the VLT especially useful for connecting"
+  },
+  "FAQs del VLT": {
+    "PT": "Perguntas frequentes sobre o VLT",
+    "EN": "VLT FAQs"
+  },
+  "Jaé funciona en VLT con QR Code desde el celular o tarjeta. Las máquinas de autoatención están disponibles en las estaciones VLT y permiten recargar con crédito, débito o billetes, sin vuelto. La app permite recarga por PIX o tarjeta de crédito.": {
+    "PT": "O Jaé funciona no VLT com QR Code pelo celular ou cartão. As máquinas de autoatendimento nas estações VLT permitem recarga com crédito, débito ou dinheiro, sem troco. O aplicativo permite recarga por Pix ou cartão de crédito.",
+    "EN": "Jaé works on the VLT with a phone QR code or card. Self-service machines at VLT stations allow top-ups by credit card, debit card or banknotes, without change. The app allows top-ups through Pix or a credit card."
+  },
+  "No necesariamente. Jaé permite pagar con QR Code generado en su app.": {
+    "PT": "Não necessariamente. O Jaé permite pagar com QR Code gerado no aplicativo.",
+    "EN": "Not necessarily. Jaé lets you pay with a QR code generated in its app."
+  },
+  "No. Son sistemas distintos, aunque puedes combinarlos en determinados trayectos y Jaé publica reglas específicas de integración.": {
+    "PT": "Não. São sistemas diferentes, embora possam ser combinados em alguns trajetos, e o Jaé divulga regras específicas de integração.",
+    "EN": "No. They are different systems, although you can combine them on some journeys and Jaé publishes specific integration rules."
+  },
+  "Pago con Jaé y validación": {
+    "PT": "Pagamento com Jaé e validação",
+    "EN": "Paying with Jaé and validating your fare"
+  },
+  "Para recorrer la Zona Portuaria, yo combinaría VLT con caminata en vez de pedir un auto para cada tramo. Pero antes de volver al hotel miro la hora y la conexión final: el VLT resuelve muy bien el Centro, no necesariamente la puerta de tu alojamiento.": {
+    "PT": "Para conhecer a Zona Portuária, eu combinaria VLT e caminhada em vez de pedir um carro para cada trecho. Antes de voltar ao hotel, porém, confiro o horário e a conexão final: o VLT atende muito bem o Centro, mas não necessariamente a porta da sua hospedagem.",
+    "EN": "To explore the Port Zone, I would combine the VLT with walking rather than book a car for each leg. Before returning to the hotel, I check the time and final connection: the VLT serves downtown very well, but not necessarily the door of your accommodation."
+  },
+  "Puedes usar la app Jaé o las máquinas disponibles en estaciones VLT.": {
+    "PT": "Você pode usar o aplicativo Jaé ou as máquinas disponíveis nas estações VLT.",
+    "EN": "You can use the Jaé app or the machines available at VLT stations."
+  },
+  "Santos Dumont, Cinelândia, Centro, Praça XV, Rodoviária/Terminal Gentileza y Zona Portuaria": {
+    "PT": "Santos Dumont, Cinelândia, Centro, Praça XV, Rodoviária/Terminal Gentileza e Zona Portuária",
+    "EN": "Santos Dumont, Cinelândia, downtown, Praça XV, Rodoviária/Terminal Gentileza and the Port Zone"
+  },
+  "Una diferencia importante respecto de un sistema con catraca tradicional es que debes": {
+    "PT": "Uma diferença importante em relação a um sistema com catraca tradicional é que você deve",
+    "EN": "An important difference from a system with traditional turnstiles is that you must"
+  },
+  "VLT Carioca frente al Theatro Municipal de Río": {
+    "PT": "VLT Carioca em frente ao Theatro Municipal do Rio",
+    "EN": "VLT Carioca in front of Rio's Theatro Municipal"
+  },
+  "línea y destino": {
+    "PT": "linha e destino",
+    "EN": "the line and destination"
+  },
+  "validar correctamente tu viaje": {
+    "PT": "validar corretamente a viagem",
+    "EN": "properly validate your fare"
+  },
+  "¿Cómo voy a AquaRio?": {
+    "PT": "Como chegar ao AquaRio?",
+    "EN": "How do I get to AquaRio?"
+  },
+  "¿Dónde recargo?": {
+    "PT": "Onde recarregar?",
+    "EN": "Where can I top up?"
+  },
+  "¿Necesito tarjeta física?": {
+    "PT": "Preciso de cartão físico?",
+    "EN": "Do I need a physical card?"
+  },
+  "¿VLT y Metro son lo mismo?": {
+    "PT": "VLT e metrô são a mesma coisa?",
+    "EN": "Are the VLT and metro the same?"
   }
-
 };
