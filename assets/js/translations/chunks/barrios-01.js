@@ -8,10 +8,6 @@ export default {
     "PT": "Alta demanda nos fins de semana",
     "EN": "High demand on weekends"
   },
-  "Amanecer": {
-    "PT": "Nascer do sol",
-    "EN": "Sunrise"
-  },
   "Antes de ir": {
     "PT": "Antes de ir",
     "EN": "Before you go"

@@ -131,5 +131,21 @@ export default {
   "⭐ Consejo de Ernestinho:": {
     "PT": "⭐ Dica do Ernestinho:",
     "EN": "⭐ Ernestinho’s tip:"
+  },
+  "Amanecer": {
+    "PT": "Nascer do sol",
+    "EN": "Sunrise"
+  },
+  "Final de la tarde": {
+    "PT": "Fim da tarde",
+    "EN": "Late afternoon"
+  },
+  "Hora dorada": {
+    "PT": "Hora dourada",
+    "EN": "Golden hour"
+  },
+  "Pan de Azúcar": {
+    "PT": "Pão de Açúcar",
+    "EN": "Sugarloaf Mountain"
   }
 };

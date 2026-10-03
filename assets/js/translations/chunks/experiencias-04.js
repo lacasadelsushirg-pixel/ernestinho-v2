@@ -115,10 +115,6 @@ export default {
     "PT": "Oficialmente chamada Catedral de São Sebastião do Rio de Janeiro, é um dos edifícios religiosos mais singulares da cidade.",
     "EN": "Officially named Catedral de São Sebastião do Rio de Janeiro, it is one of the city’s most distinctive religious buildings."
   },
-  "Pan de Azúcar": {
-    "PT": "Pão de Açúcar",
-    "EN": "Sugarloaf Mountain"
-  },
   "Pan de Azúcar y Morro da Urca": {
     "PT": "Pão de Açúcar e Morro da Urca",
     "EN": "Sugarloaf Mountain and Morro da Urca"

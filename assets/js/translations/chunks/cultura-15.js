@@ -1287,6 +1287,941 @@ export default {
   "Títulos, ídolos y la pasión del club más popular de Brasil": {
     "PT": "Títulos, ídolos e a paixão pelo clube mais popular do Brasil",
     "EN": "Titles, idols and the passion for Brazil's most popular football club"
+  },
+  "Acceso gratuito a las áreas disponibles": {
+    "PT": "Acesso gratuito às áreas disponíveis",
+    "EN": "Free access to the available areas"
+  },
+  "Actualmente, entre 30 y 60 minutos para jardines o actividades disponibles. La duración cambiará cuando reabra el edificio principal.": {
+    "PT": "Atualmente, entre 30 e 60 minutos para os jardins ou atividades disponíveis. A duração mudará quando o edifício principal reabrir.",
+    "EN": "Currently, allow 30 to 60 minutes for the gardens or available activities. The duration will change when the main building reopens."
+  },
+  "Además de la historia militar, el museo permite observar la evolución de los materiales, sistemas de navegación, motores y diseños aeronáuticos. Es una visita especialmente atractiva para niños, estudiantes y personas interesadas en ingeniería, mecánica y tecnología.": {
+    "PT": "Além da história militar, o museu permite observar a evolução dos materiais, sistemas de navegação, motores e projetos aeronáuticos. É uma visita especialmente interessante para crianças, estudantes e pessoas que gostam de engenharia, mecânica e tecnologia.",
+    "EN": "Beyond military history, the museum explores the evolution of materials, navigation systems, engines and aircraft designs. It is especially appealing to children, students and anyone interested in engineering, mechanics and technology."
+  },
+  "Además de las exposiciones, el Museu do Pontal desarrolla visitas teatralizadas, juegos, oficinas, música y actividades para niños. La programación de fines de semana puede transformar completamente la experiencia.": {
+    "PT": "Além das exposições, o Museu do Pontal oferece visitas teatralizadas, jogos, oficinas, música e atividades para crianças. A programação dos fins de semana pode transformar completamente a experiência.",
+    "EN": "Beyond its exhibitions, Museu do Pontal offers theatrical tours, games, workshops, music and children's activities. Its weekend program can completely transform the experience."
+  },
+  "Además de las exposiciones, el Museu do Samba desarrolla investigaciones, visitas mediadas, actividades educativas, encuentros y proyectos de salvaguarda del samba como patrimonio cultural.": {
+    "PT": "Além das exposições, o Museu do Samba desenvolve pesquisas, visitas mediadas, atividades educativas, encontros e projetos de salvaguarda do samba como patrimônio cultural.",
+    "EN": "Beyond its exhibitions, Museu do Samba develops research, guided visits, educational activities, gatherings and projects to safeguard samba as cultural heritage."
+  },
+  "Además de las exposiciones, el museo desarrolla investigación, conservación documental, publicaciones y actividades para acercar la obra de Villa-Lobos a nuevas generaciones.": {
+    "PT": "Além das exposições, o museu desenvolve pesquisa, conservação documental, publicações e atividades para aproximar a obra de Villa-Lobos das novas gerações.",
+    "EN": "Beyond its exhibitions, the museum carries out research, document conservation, publications and activities that introduce Villa-Lobos's work to new generations."
+  },
+  "Aeronaves que participaron en momentos históricos": {
+    "PT": "Aeronaves que participaram de momentos históricos",
+    "EN": "Aircraft involved in historic moments"
+  },
+  "Antes de salir, revisa la programación: puede haber visitas teatralizadas, música y talleres gratuitos. Como está lejos de la Zona Sur, combina el museo con el Bosque da Barra o la Cidade das Artes.": {
+    "PT": "Antes de sair, confira a programação: pode haver visitas teatralizadas, música e oficinas gratuitas. Como fica longe da Zona Sul, combine o museu com o Bosque da Barra ou a Cidade das Artes.",
+    "EN": "Check the program before setting out: there may be theatrical tours, music and free workshops. As it is far from the South Zone, combine the museum with Bosque da Barra or Cidade das Artes."
+  },
+  "Aprender energía mediante juegos y experimentos": {
+    "PT": "Aprender sobre energia com jogos e experimentos",
+    "EN": "Learning about energy through games and experiments"
+  },
+  "Aprender mediante experiencias y actividades": {
+    "PT": "Aprender com experiências e atividades",
+    "EN": "Learning through experiences and activities"
+  },
+  "Aproximadamente 1 hora. Reserva más tiempo si compras el Tour da Gávea.": {
+    "PT": "Aproximadamente 1 hora. Reserve mais tempo se comprar o Tour da Gávea.",
+    "EN": "About 1 hour. Allow more time if you buy the Tour da Gávea."
+  },
+  "Arte popular, esculturas, fiestas brasileñas, actividades familiares y una colección de más de 10.000 piezas.": {
+    "PT": "Arte popular, esculturas, festas brasileiras, atividades para famílias e uma coleção com mais de 10.000 peças.",
+    "EN": "Folk art, sculptures, Brazilian celebrations, family activities and a collection of over 10,000 pieces."
+  },
+  "Atención al público de lunes a viernes, de 9:00 a 17:00. Los jardines pueden visitarse, pero el casarón y el principal espacio expositivo continúan cerrados por obras. Confirma la programación antes de ir.": {
+    "PT": "Atendimento ao público de segunda a sexta-feira, das 9h às 17h. Os jardins podem ser visitados, mas o casarão e o principal espaço expositivo continuam fechados para obras. Confirme a programação antes de ir.",
+    "EN": "Open to the public Monday to Friday, 9 am to 5 pm. The gardens can be visited, but the mansion and main exhibition space remain closed for building work. Confirm the program before going."
+  },
+  "Atención: museo temporalmente cerrado": {
+    "PT": "Atenção: museu temporariamente fechado",
+    "EN": "Please note: museum temporarily closed"
+  },
+  "Aunque el edificio principal esté cerrado, la institución continúa desarrollando investigaciones, cursos, actividades digitales, preservación de colecciones y colaboraciones con pueblos indígenas de diferentes regiones de Brasil.": {
+    "PT": "Embora o edifício principal esteja fechado, a instituição continua desenvolvendo pesquisas, cursos, atividades digitais, preservação de coleções e parcerias com povos indígenas de diferentes regiões do Brasil.",
+    "EN": "Although the main building is closed, the institution continues its research, courses, digital activities, collection preservation and partnerships with Indigenous peoples from different regions of Brazil."
+  },
+  "Aunque el fútbol ocupa una gran parte del recorrido, el museo también recuerda los orígenes en el remo y la participación del Flamengo en diferentes deportes olímpicos.": {
+    "PT": "Embora o futebol ocupe boa parte do percurso, o museu também relembra as origens no remo e a participação do Flamengo em diferentes esportes olímpicos.",
+    "EN": "Although football occupies much of the visit, the museum also recalls Flamengo's rowing origins and involvement in different Olympic sports."
+  },
+  "Baianas, compositoras, intérpretes, costureras, lideresas y organizadoras tuvieron papeles fundamentales. El museo ayuda a dar visibilidad a mujeres que durante mucho tiempo recibieron menos reconocimiento.": {
+    "PT": "Baianas, compositoras, intérpretes, costureiras, lideranças e organizadoras tiveram papéis fundamentais. O museu ajuda a dar visibilidade a mulheres que por muito tempo receberam menos reconhecimento.",
+    "EN": "Baianas, composers, performers, seamstresses, leaders and organizers played fundamental roles. The museum brings visibility to women who received less recognition for a long time."
+  },
+  "Brasil contado por sus propios artistas": {
+    "PT": "O Brasil contado por seus próprios artistas",
+    "EN": "Brazil told by its own artists"
+  },
+  "Brasil posee más de 300 pueblos indígenas y centenares de lenguas. Por eso, el museo evita presentar una única identidad indígena y trabaja para destacar las diferencias entre territorios, historias y formas de conocimiento.": {
+    "PT": "O Brasil tem mais de 300 povos indígenas e centenas de línguas. Por isso, o museu evita apresentar uma identidade indígena única e destaca as diferenças entre territórios, histórias e formas de conhecimento.",
+    "EN": "Brazil has over 300 Indigenous peoples and hundreds of languages. The museum therefore avoids presenting a single Indigenous identity and highlights differences between territories, histories and forms of knowledge."
+  },
+  "Campo dos Afonsos: la cuna de la aviación militar brasileña": {
+    "PT": "Campo dos Afonsos: o berço da aviação militar brasileira",
+    "EN": "Campo dos Afonsos: the birthplace of Brazilian military aviation"
+  },
+  "Centro de referencia, investigación y educación": {
+    "PT": "Centro de referência, pesquisa e educação",
+    "EN": "A center for reference, research and education"
+  },
+  "Ciencia vinculada con la sociedad": {
+    "PT": "Ciência conectada à sociedade",
+    "EN": "Science connected to society"
+  },
+  "Ciencia, salud, Oswaldo Cruz, actividades familiares y el histórico Castelo Mourisco.": {
+    "PT": "Ciência, saúde, Oswaldo Cruz, atividades para famílias e o histórico Castelo Mourisco.",
+    "EN": "Science, health, Oswaldo Cruz, family activities and the historic Castelo Mourisco."
+  },
+  "Consulta el valor actualizado al seleccionar la fecha. También existen combos con el Tour da Gávea y precios diferenciados por edad.": {
+    "PT": "Consulte o valor atualizado ao selecionar a data. Também há combos com o Tour da Gávea e preços diferenciados por idade.",
+    "EN": "Check the current price when selecting your date. Packages with Tour da Gávea and age-based prices are also available."
+  },
+  "Consulta el valor vigente antes de ir. Publicaciones recientes han informado entrada general de aproximadamente R$20, pero pueden existir gratuidades y actividades especiales.": {
+    "PT": "Consulte o valor atual antes de ir. Publicações recentes informaram entrada geral de aproximadamente R$20, mas pode haver gratuidades e atividades especiais.",
+    "EN": "Check the current price before going. Recent publications have listed general admission at about R$20, but free admission and special activities may be available."
+  },
+  "Consulta la agenda vigente. Los grupos grandes, escuelas y organizaciones deben realizar agendamiento previo.": {
+    "PT": "Consulte a agenda atual. Grupos grandes, escolas e organizações precisam agendar com antecedência.",
+    "EN": "Check the current schedule. Large groups, schools and organizations must book ahead."
+  },
+  "Consulta las condiciones de accesibilidad de las áreas disponibles, ya que el conjunto continúa en obras.": {
+    "PT": "Consulte a acessibilidade das áreas disponíveis, pois o conjunto continua em obras.",
+    "EN": "Check accessibility in the available areas, as the complex remains under renovation."
+  },
+  "Consulta las condiciones de transporte interno y accesibilidad de cada espacio del campus.": {
+    "PT": "Consulte as condições de transporte interno e de acessibilidade de cada espaço do campus.",
+    "EN": "Check internal transport and accessibility arrangements for each campus space."
+  },
+  "Consulta los recursos disponibles al reservar o antes de desplazarte.": {
+    "PT": "Consulte os recursos disponíveis ao reservar ou antes de se deslocar.",
+    "EN": "Ask about available facilities when booking or before traveling there."
+  },
+  "Consulta nuevamente cuando se anuncie la reapertura.": {
+    "PT": "Consulte novamente quando a reabertura for anunciada.",
+    "EN": "Check again when reopening is announced."
+  },
+  "Consulta previamente los recursos disponibles si necesitas acompañamiento o accesibilidad específica.": {
+    "PT": "Consulte previamente os recursos disponíveis se precisar de acompanhamento ou acessibilidade específica.",
+    "EN": "Ask in advance about available assistance if you need a companion or specific accessibility arrangements."
+  },
+  "Consulta previamente si la actividad que deseas realizar requiere inscripción.": {
+    "PT": "Confira antes se a atividade que pretende fazer exige inscrição.",
+    "EN": "Check in advance whether your chosen activity requires registration."
+  },
+  "Consulta previamente. Los grupos y algunas experiencias necesitan agendamiento.": {
+    "PT": "Consulte com antecedência. Grupos e algumas experiências precisam de agendamento.",
+    "EN": "Check in advance. Groups and some experiences require booking."
+  },
+  "Cuando abrió sus puertas, el museo contaba con 42 aeronaves. Desde entonces, su colección creció y pasó a representar diferentes etapas de la aviación civil y militar, desde los primeros experimentos aéreos hasta aviones de transporte, entrenamiento, combate y rescate.": {
+    "PT": "Ao abrir as portas, o museu tinha 42 aeronaves. Desde então, a coleção cresceu e passou a representar diferentes etapas da aviação civil e militar, dos primeiros experimentos aéreos aos aviões de transporte, treinamento, combate e resgate.",
+    "EN": "The museum opened with 42 aircraft. Since then, its collection has grown to represent different stages of civil and military aviation, from early flying experiments to transport, training, combat and rescue aircraft."
+  },
+  "Culturas indígenas, patrimonio etnográfico, jardines históricos y un importante centro de investigación.": {
+    "PT": "Culturas indígenas, patrimônio etnográfico, jardins históricos e um importante centro de pesquisa.",
+    "EN": "Indigenous cultures, ethnographic heritage, historic gardens and an important research center."
+  },
+  "De dónde viene la electricidad que utilizamos": {
+    "PT": "De onde vem a eletricidade que usamos",
+    "EN": "Where the electricity we use comes from"
+  },
+  "De la antigua sede en Recreio a un nuevo museo": {
+    "PT": "Da antiga sede no Recreio a um novo museu",
+    "EN": "From the former Recreio site to a new museum"
+  },
+  "De los pioneros del vuelo a la industria aeronáutica nacional": {
+    "PT": "Dos pioneiros do voo à indústria aeronáutica nacional",
+    "EN": "From flight pioneers to the national aviation industry"
+  },
+  "Desde la estación Botafogo del metro son aproximadamente 12 minutos caminando. Puedes salir por Voluntários da Pátria o São Clemente y continuar hasta la Rua das Palmeiras.": {
+    "PT": "Da estação Botafogo do metrô, são aproximadamente 12 minutos a pé. Você pode sair por Voluntários da Pátria ou São Clemente e seguir até a Rua das Palmeiras.",
+    "EN": "It is about a 12-minute walk from Botafogo metro station. You can exit onto Voluntários da Pátria or São Clemente and continue to Rua das Palmeiras."
+  },
+  "Después de su muerte, en 1959, surgió la necesidad de organizar y conservar su legado. El Museu Villa-Lobos fue creado en 1960 y se convirtió en el principal centro de referencia sobre su vida y producción musical.": {
+    "PT": "Após sua morte, em 1959, surgiu a necessidade de organizar e conservar seu legado. O Museu Villa-Lobos foi criado em 1960 e se tornou a principal referência sobre sua vida e produção musical.",
+    "EN": "After his death in 1959, the need arose to organize and preserve his legacy. Museu Villa-Lobos was established in 1960 and became the main reference center for his life and musical output."
+  },
+  "Dispone de elevador, pisos táctiles, baños adaptados, señalización universal, Libras, audiodescripción y contenidos en español e inglés.": {
+    "PT": "Dispõe de elevador, piso tátil, banheiros adaptados, sinalização universal, Libras, audiodescrição e conteúdo em espanhol e inglês.",
+    "EN": "Facilities include an elevator, tactile flooring, accessible bathrooms, universal signage, Libras Brazilian Sign Language, audio description and content in Spanish and English."
+  },
+  "Documentación, biblioteca y preservación": {
+    "PT": "Documentação, biblioteca e preservação",
+    "EN": "Documentation, library and preservation"
+  },
+  "Durante décadas reunió esculturas, figuras, conjuntos y objetos que documentan una enorme variedad de técnicas, materiales y tradiciones. La colección permitió dar visibilidad a creadores que muchas veces no eran reconocidos por los circuitos oficiales del arte.": {
+    "PT": "Durante décadas, reuniu esculturas, figuras, conjuntos e objetos que documentam uma enorme variedade de técnicas, materiais e tradições. A coleção deu visibilidade a criadores muitas vezes não reconhecidos pelos circuitos oficiais da arte.",
+    "EN": "Over decades, it assembled sculptures, figures, ensembles and objects documenting an enormous variety of techniques, materials and traditions. The collection gave visibility to creators often overlooked by established art circles."
+  },
+  "Durante la mañana de sábado o domingo, después de revisar la programación especial.": {
+    "PT": "Na manhã de sábado ou domingo, depois de conferir a programação especial.",
+    "EN": "On Saturday or Sunday morning, after checking the special program."
+  },
+  "Durante la mañana o al comienzo de la tarde, preferentemente con una visita mediada.": {
+    "PT": "Pela manhã ou no começo da tarde, de preferência com uma visita mediada.",
+    "EN": "In the morning or early afternoon, preferably with a guided visit."
+  },
+  "Durante la mañana y solamente después de confirmar que exista alguna actividad o área abierta.": {
+    "PT": "Pela manhã e somente depois de confirmar que há alguma atividade ou área aberta.",
+    "EN": "In the morning, and only after confirming that an activity or area is open."
+  },
+  "Durante la mañana, cuando puedes combinarlo con un paseo por la Lagoa Rodrigo de Freitas.": {
+    "PT": "Pela manhã, quando dá para combinar com um passeio pela Lagoa Rodrigo de Freitas.",
+    "EN": "In the morning, when you can combine it with a walk around Lagoa Rodrigo de Freitas."
+  },
+  "Durante la mañana, especialmente los sábados o en períodos con programación familiar.": {
+    "PT": "Pela manhã, principalmente aos sábados ou em períodos com programação para famílias.",
+    "EN": "In the morning, especially on Saturdays or during periods with family programming."
+  },
+  "Durante siglos, esta parte de la ciudad recibió autoridades, viajeros y embarcaciones. Todavía hoy la conexión marítima con Niterói mantiene viva la relación cotidiana de Río con la Baía de Guanabara.": {
+    "PT": "Durante séculos, esta parte da cidade recebeu autoridades, viajantes e embarcações. Ainda hoje, a ligação marítima com Niterói mantém viva a relação cotidiana do Rio com a Baía de Guanabara.",
+    "EN": "For centuries, this part of the city welcomed officials, travelers and ships. The ferry connection with Niterói still keeps Rio's everyday relationship with Guanabara Bay alive."
+  },
+  "Educación para un consumo responsable": {
+    "PT": "Educação para um consumo responsável",
+    "EN": "Education for responsible consumption"
+  },
+  "El Flamengo fue fundado en 1895 como un club de remo. En aquella época, las regatas eran uno de los grandes acontecimientos deportivos y sociales de Río.": {
+    "PT": "O Flamengo foi fundado em 1895 como clube de remo. Na época, as regatas eram grandes acontecimentos esportivos e sociais do Rio.",
+    "EN": "Flamengo was founded in 1895 as a rowing club. At the time, regattas were major sporting and social events in Rio."
+  },
+  "El MUSAL también conserva archivos, fotografías, publicaciones y documentos relacionados con la aeronáutica. Su trabajo incluye investigación, restauración de aeronaves y preservación de piezas que serían muy difíciles de encontrar reunidas en otro lugar.": {
+    "PT": "O MUSAL também conserva arquivos, fotografias, publicações e documentos ligados à aeronáutica. Seu trabalho inclui pesquisa, restauração de aeronaves e preservação de peças difíceis de encontrar reunidas em outro lugar.",
+    "EN": "MUSAL also preserves aviation archives, photographs, publications and documents. Its work includes research, aircraft restoration and preservation of items that would be difficult to find together elsewhere."
+  },
+  "El Museu Aeroespacial, conocido como MUSAL, es el mayor y más importante museo dedicado a la aviación militar de Brasil. Funciona en Campo dos Afonsos, uno de los lugares fundamentales para el nacimiento y desarrollo de la aviación brasileña. Sus grandes hangares reúnen aeronaves, motores, uniformes, documentos, fotografías y objetos históricos.": {
+    "PT": "O Museu Aeroespacial, conhecido como MUSAL, é o maior e mais importante museu dedicado à aviação militar do Brasil. Funciona em Campo dos Afonsos, um lugar fundamental para o nascimento e desenvolvimento da aviação brasileira. Seus grandes hangares reúnem aeronaves, motores, uniformes, documentos, fotografias e objetos históricos.",
+    "EN": "Museu Aeroespacial, known as MUSAL, is Brazil's largest and most important museum dedicated to military aviation. It is based at Campo dos Afonsos, a fundamental site in the birth and development of Brazilian aviation. Its large hangars hold aircraft, engines, uniforms, documents, photographs and historic objects."
+  },
+  "El Museu Flamengo presenta la historia del Clube de Regatas do Flamengo mediante trofeos, camisetas, fotografías, documentos, objetos, videos y experiencias inmersivas. Funciona en la sede social de Gávea y recorre la trayectoria del club desde sus orígenes en el remo hasta sus grandes conquistas en el fútbol y otros deportes.": {
+    "PT": "O Museu Flamengo apresenta a história do Clube de Regatas do Flamengo por meio de troféus, camisas, fotografias, documentos, objetos, vídeos e experiências imersivas. Funciona na sede social da Gávea e percorre a trajetória do clube, das origens no remo às grandes conquistas no futebol e em outros esportes.",
+    "EN": "Museu Flamengo presents the history of Clube de Regatas do Flamengo through trophies, shirts, photographs, documents, objects, videos and immersive experiences. Based at the club's Gávea headquarters, it follows its journey from rowing origins to major achievements in football and other sports."
+  },
+  "El Museu Light da Energia es un espacio educativo e interactivo dedicado a explicar cómo se produce, distribuye y utiliza la energía. Sus experiencias combinan ciencia, historia, juegos y reflexiones sobre consumo responsable y sostenibilidad.": {
+    "PT": "O Museu Light da Energia é um espaço educativo e interativo dedicado a explicar como a energia é produzida, distribuída e utilizada. Suas experiências combinam ciência, história, jogos e reflexões sobre consumo responsável e sustentabilidade.",
+    "EN": "Museu Light da Energia is an educational, interactive space explaining how energy is produced, distributed and used. Its experiences combine science, history, games and reflections on responsible consumption and sustainability."
+  },
+  "El Museu Naval conserva y comunica parte de esa trayectoria. Su exposición ayuda a comprender cómo la Marinha do Brasil participó en diferentes momentos de la historia nacional.": {
+    "PT": "O Museu Naval preserva e apresenta parte dessa trajetória. A exposição ajuda a compreender a participação da Marinha do Brasil em diferentes momentos da história nacional.",
+    "EN": "Museu Naval preserves and presents part of this history. Its exhibition helps explain the role of Marinha do Brasil at different moments in the country's past."
+  },
+  "El Museu Naval forma parte del circuito cultural de la Marinha. Puede combinarse con el Espaço Cultural da Marinha, el Submarino-Museu Riachuelo, el Navio-Museu Bauru, la Ilha Fiscal y los paseos marítimos, aunque cada atracción posee horarios y entradas diferentes.": {
+    "PT": "O Museu Naval integra o circuito cultural da Marinha. Pode ser combinado com o Espaço Cultural da Marinha, o Submarino-Museu Riachuelo, o Navio-Museu Bauru, a Ilha Fiscal e passeios marítimos, mas cada atração tem horários e ingressos diferentes.",
+    "EN": "Museu Naval is part of the Marinha cultural circuit. It can be combined with Espaço Cultural da Marinha, Submarino-Museu Riachuelo, Navio-Museu Bauru, Ilha Fiscal and boat trips, although each attraction has different opening hours and tickets."
+  },
+  "El Museu Naval presenta la historia marítima y militar de Brasil mediante modelos de embarcaciones, pinturas, documentos, armamento, medallas, instrumentos de navegación y objetos recuperados de diferentes épocas. Se encuentra en la Praça XV, una zona estrechamente relacionada con el puerto y la historia política de Río.": {
+    "PT": "O Museu Naval apresenta a história marítima e militar do Brasil com modelos de embarcações, pinturas, documentos, armamentos, medalhas, instrumentos de navegação e objetos de diferentes épocas. Fica na Praça XV, uma área intimamente ligada ao porto e à história política do Rio.",
+    "EN": "Museu Naval presents Brazil's maritime and military history through ship models, paintings, documents, weapons, medals, navigation instruments and objects from different periods. It is in Praça XV, an area closely connected with the port and Rio's political history."
+  },
+  "El Museu Villa-Lobos está dedicado a preservar y difundir la trayectoria de Heitor Villa-Lobos, compositor que transformó elementos de la música popular, indígena y académica en una obra reconocida internacionalmente. El museo conserva partituras, documentos, fotografías, objetos personales y registros sonoros.": {
+    "PT": "O Museu Villa-Lobos preserva e divulga a trajetória de Heitor Villa-Lobos, compositor que transformou elementos da música popular, indígena e erudita em uma obra reconhecida internacionalmente. O museu conserva partituras, documentos, fotografias, objetos pessoais e registros sonoros.",
+    "EN": "Museu Villa-Lobos preserves and shares the story of Heitor Villa-Lobos, a composer who transformed elements of popular, Indigenous and classical music into internationally recognized work. The museum holds scores, documents, photographs, personal belongings and sound recordings."
+  },
+  "El Museu da Vida Fiocruz es un espacio de divulgación científica que presenta temas relacionados con salud, biología, medicina, medio ambiente y sociedad. Sus exposiciones y actividades se distribuyen por el histórico campus de la Fundação Oswaldo Cruz, donde también se encuentra el famoso Castelo Mourisco.": {
+    "PT": "O Museu da Vida Fiocruz é um espaço de divulgação científica que aborda saúde, biologia, medicina, meio ambiente e sociedade. Suas exposições e atividades se espalham pelo campus histórico da Fundação Oswaldo Cruz, onde também fica o famoso Castelo Mourisco.",
+    "EN": "Museu da Vida Fiocruz is a science communication space covering health, biology, medicine, the environment and society. Its exhibitions and activities are spread across the historic Fundação Oswaldo Cruz campus, also home to the famous Castelo Mourisco."
+  },
+  "El Museu da Vida fue creado para aproximar ese conocimiento al público mediante exposiciones, juegos, teatro, experimentos, talleres y visitas a espacios históricos.": {
+    "PT": "O Museu da Vida foi criado para aproximar esse conhecimento do público com exposições, jogos, teatro, experimentos, oficinas e visitas a espaços históricos.",
+    "EN": "Museu da Vida was created to bring this knowledge to the public through exhibitions, games, theater, experiments, workshops and visits to historic spaces."
+  },
+  "El Museu do Pontal conserva una de las colecciones más importantes de arte popular de Brasil. Miles de obras creadas por artistas de diferentes regiones presentan fiestas, trabajos, creencias, personajes, animales, tradiciones y escenas de la vida cotidiana brasileña.": {
+    "PT": "O Museu do Pontal conserva uma das coleções de arte popular mais importantes do Brasil. Milhares de obras de artistas de diferentes regiões retratam festas, trabalhos, crenças, personagens, animais, tradições e cenas do cotidiano brasileiro.",
+    "EN": "Museu do Pontal holds one of Brazil's most important folk art collections. Thousands of works by artists from different regions depict celebrations, work, beliefs, characters, animals, traditions and scenes of everyday Brazilian life."
+  },
+  "El Museu do Samba es un centro de memoria dedicado a preservar y difundir la historia del samba. Ubicado en Mangueira, cerca de uno de los territorios más simbólicos del carnaval carioca, reúne testimonios, fotografías, objetos, música y experiencias relacionadas con compositores, intérpretes, comunidades y escuelas de samba.": {
+    "PT": "O Museu do Samba é um centro de memória dedicado a preservar e divulgar a história do samba. Em Mangueira, perto de um dos territórios mais simbólicos do carnaval carioca, reúne depoimentos, fotografias, objetos, música e experiências ligados a compositores, intérpretes, comunidades e escolas de samba.",
+    "EN": "Museu do Samba is a memory center preserving and sharing samba history. Located in Mangueira, near one of Rio Carnival's most symbolic areas, it brings together testimonies, photographs, objects, music and experiences connected with composers, performers, communities and samba schools."
+  },
+  "El acervo de la Light conserva registros urbanos de enorme valor. Las imágenes muestran tranvías, calles, vestimentas, obras públicas, iluminación y transformaciones de la ciudad.": {
+    "PT": "O acervo da Light preserva registros urbanos de enorme valor. As imagens mostram bondes, ruas, roupas, obras públicas, iluminação e transformações da cidade.",
+    "EN": "The Light collection preserves urban records of enormous value. Its images show trams, streets, clothing, public works, lighting and the city's transformations."
+  },
+  "El acervo incluye modelos relacionados con entrenamiento, transporte, patrullaje, combate y misiones humanitarias. Algunas piezas representan capítulos importantes de la Segunda Guerra Mundial y de la participación de la aviación brasileña en operaciones nacionales e internacionales.": {
+    "PT": "O acervo inclui modelos ligados a treinamento, transporte, patrulha, combate e missões humanitárias. Algumas peças representam capítulos importantes da Segunda Guerra Mundial e da participação da aviação brasileira em operações nacionais e internacionais.",
+    "EN": "The collection includes aircraft used for training, transport, patrols, combat and humanitarian missions. Some represent important chapters of World War II and Brazilian aviation's involvement in national and international operations."
+  },
+  "El acervo reúne manuscritos musicales, partituras, correspondencia, fotografías, programas de conciertos, grabaciones, libros y objetos relacionados con la vida cotidiana y profesional del compositor.": {
+    "PT": "O acervo reúne manuscritos musicais, partituras, correspondência, fotografias, programas de concertos, gravações, livros e objetos do cotidiano e da vida profissional do compositor.",
+    "EN": "The collection brings together musical manuscripts, scores, correspondence, photographs, concert programs, recordings, books and objects from the composer's everyday and professional life."
+  },
+  "El antiguo Museu do Índio, actualmente llamado Museu Nacional dos Povos Indígenas, es una institución de la Fundação Nacional dos Povos Indígenas dedicada a investigar, preservar y difundir la diversidad cultural de los pueblos originarios de Brasil. Su colección reúne objetos etnográficos, fotografías, películas, grabaciones, documentos y materiales lingüísticos.": {
+    "PT": "O antigo Museu do Índio, hoje chamado Museu Nacional dos Povos Indígenas, é uma instituição da Fundação Nacional dos Povos Indígenas dedicada a pesquisar, preservar e divulgar a diversidade cultural dos povos originários do Brasil. Reúne objetos etnográficos, fotografias, filmes, gravações, documentos e materiais linguísticos.",
+    "EN": "The former Museu do Índio, now called Museu Nacional dos Povos Indígenas, is an institution of Fundação Nacional dos Povos Indígenas researching, preserving and sharing the cultural diversity of Brazil's Indigenous peoples. Its collection includes ethnographic objects, photographs, films, recordings, documents and linguistic materials."
+  },
+  "El antiguo edificio de la Light": {
+    "PT": "O antigo edifício da Light",
+    "EN": "The former Light building"
+  },
+  "El campus de Manguinhos y el Castelo Mourisco": {
+    "PT": "O campus de Manguinhos e o Castelo Mourisco",
+    "EN": "The Manguinhos campus and Castelo Mourisco"
+  },
+  "El compositor también tuvo una importante participación en proyectos educativos. Defendía el canto colectivo como herramienta de formación y organizó grandes presentaciones con estudiantes.": {
+    "PT": "O compositor também participou de importantes projetos educativos. Defendia o canto coletivo como ferramenta de formação e organizou grandes apresentações com estudantes.",
+    "EN": "The composer also played an important role in educational projects. He advocated group singing as a learning tool and organized major performances with students."
+  },
+  "El edificio principal fue durante años el espacio de las exposiciones. Sin embargo, permanece cerrado debido a obras e intervenciones que todavía no tienen una fecha definitiva de conclusión.": {
+    "PT": "Durante anos, o edifício principal abrigou as exposições. Porém, continua fechado para obras e intervenções que ainda não têm uma data definitiva de conclusão.",
+    "EN": "The main building housed exhibitions for years. However, it remains closed for construction and other work with no definitive completion date yet."
+  },
+  "El fútbol fue incorporado posteriormente y se transformó en la actividad más popular del club. Con el crecimiento de su hinchada, Flamengo pasó a ser conocido como el Mais Querido.": {
+    "PT": "O futebol foi incorporado depois e se tornou a atividade mais popular do clube. Com o crescimento da torcida, o Flamengo passou a ser conhecido como o Mais Querido.",
+    "EN": "Football was introduced later and became the club's most popular activity. As its fanbase grew, Flamengo became known as Mais Querido."
+  },
+  "El histórico casarón de Botafogo": {
+    "PT": "O casarão histórico de Botafogo",
+    "EN": "The historic Botafogo mansion"
+  },
+  "El lugar donde funciona el MUSAL posee una importancia histórica propia. Campo dos Afonsos fue escenario de escuelas de aviación, unidades militares y acontecimientos decisivos para la formación de pilotos y especialistas. La Escuela Brasileira de Aviação comenzó sus actividades allí en 1914.": {
+    "PT": "O local do MUSAL tem importância histórica própria. Campo dos Afonsos abrigou escolas de aviação, unidades militares e acontecimentos decisivos na formação de pilotos e especialistas. A Escola Brasileira de Aviação começou suas atividades ali em 1914.",
+    "EN": "MUSAL's location has its own historical significance. Campo dos Afonsos hosted aviation schools, military units and decisive events in the training of pilots and specialists. Escola Brasileira de Aviação began operating there in 1914."
+  },
+  "El museo desarrolla espectáculos, oficinas y experiencias pensadas para públicos diferentes. Por eso, la programación del día influye mucho en la duración y en el contenido de la visita.": {
+    "PT": "O museu oferece espetáculos, oficinas e experiências para públicos diferentes. Por isso, a programação do dia influencia bastante a duração e o conteúdo da visita.",
+    "EN": "The museum offers shows, workshops and experiences for different audiences. The day's program therefore strongly influences the length and content of a visit."
+  },
+  "El museo documenta la trayectoria de los artistas, conserva sus obras y promueve investigaciones sobre la producción popular. Su trabajo ayudó a ampliar el reconocimiento del arte creado fuera de los grandes centros académicos.": {
+    "PT": "O museu documenta a trajetória dos artistas, conserva suas obras e promove pesquisas sobre a produção popular. Seu trabalho ampliou o reconhecimento da arte criada fora dos grandes centros acadêmicos.",
+    "EN": "The museum documents artists' lives, preserves their work and promotes research into folk art. Its work has expanded recognition of art created outside major academic centers."
+  },
+  "El museo fue creado en 1953 por el antropólogo Darcy Ribeiro. Desde sus orígenes buscó combatir las visiones estereotipadas que presentaban a los pueblos indígenas como sociedades pertenecientes únicamente al pasado.": {
+    "PT": "O museu foi criado em 1953 pelo antropólogo Darcy Ribeiro. Desde o início, procurou combater visões estereotipadas que apresentavam os povos indígenas como sociedades pertencentes apenas ao passado.",
+    "EN": "The museum was founded in 1953 by anthropologist Darcy Ribeiro. From the outset, it challenged stereotypes portraying Indigenous peoples as societies belonging only to the past."
+  },
+  "El museo funciona dentro de la sede social del Flamengo, junto a la Lagoa Rodrigo de Freitas. El conjunto reúne instalaciones deportivas, piscinas, gimnasios y espacios relacionados con la historia del club.": {
+    "PT": "O museu funciona na sede social do Flamengo, junto à Lagoa Rodrigo de Freitas. O complexo reúne instalações esportivas, piscinas, ginásios e espaços ligados à história do clube.",
+    "EN": "The museum is at Flamengo's club headquarters beside Lagoa Rodrigo de Freitas. The complex includes sports facilities, pools, gymnasiums and spaces related to the club's history."
+  },
+  "El museo funciona en la Rua Dom Manuel, cerca de la Praça XV, del Paço Imperial y de la estación de las barcas. Esta ubicación permite relacionar la exposición con la antigua zona portuaria y administrativa de Río.": {
+    "PT": "O museu fica na Rua Dom Manuel, perto da Praça XV, do Paço Imperial e da estação das barcas. A localização conecta a exposição à antiga área portuária e administrativa do Rio.",
+    "EN": "The museum is on Rua Dom Manuel, near Praça XV, Paço Imperial and the ferry terminal. This location connects the exhibition with Rio's former port and administrative area."
+  },
+  "El museo funciona en un casarón de finales del siglo XIX situado en Botafogo. La sede fue adaptada para conservar documentos y desarrollar exposiciones, actividades educativas, conciertos y proyectos de investigación.": {
+    "PT": "O museu ocupa um casarão do fim do século XIX em Botafogo. A sede foi adaptada para conservar documentos e oferecer exposições, atividades educativas, concertos e projetos de pesquisa.",
+    "EN": "The museum occupies a late-19th-century mansion in Botafogo. It was adapted to preserve documents and host exhibitions, educational activities, concerts and research projects."
+  },
+  "El museo nació de iniciativas desarrolladas en Mangueira para preservar la memoria de las comunidades vinculadas con el samba. Su ubicación no es casual: el barrio está relacionado con compositores, intérpretes y con la Estação Primeira de Mangueira.": {
+    "PT": "O museu nasceu de iniciativas em Mangueira para preservar a memória das comunidades ligadas ao samba. Sua localização não é por acaso: o bairro está associado a compositores, intérpretes e à Estação Primeira de Mangueira.",
+    "EN": "The museum grew from initiatives in Mangueira to preserve the memory of communities connected with samba. Its location is no coincidence: the neighborhood is linked with composers, performers and Estação Primeira de Mangueira."
+  },
+  "El museo posee iniciativas de accesibilidad y atención especial. Consulta previamente si necesitas apoyo específico durante la visita.": {
+    "PT": "O museu tem iniciativas de acessibilidade e atendimento especial. Consulte antes se precisar de apoio específico durante a visita.",
+    "EN": "The museum has accessibility and assistance initiatives. Ask in advance if you need specific support during your visit."
+  },
+  "El museo posee más de 10.000 piezas y continúa ampliando su colección. Madera, barro, fibras, tejidos, metal y materiales reutilizados aparecen transformados en obras de gran creatividad.": {
+    "PT": "O museu tem mais de 10.000 peças e continua ampliando a coleção. Madeira, barro, fibras, tecidos, metal e materiais reutilizados são transformados em obras de grande criatividade.",
+    "EN": "The museum has over 10,000 pieces and continues to expand its collection. Wood, clay, fibers, fabrics, metal and reused materials are transformed into highly creative works."
+  },
+  "El museo se encuentra en el Centro Cultural Light, en la Avenida Marechal Floriano. El conjunto conserva parte de la memoria empresarial y urbana relacionada con la electricidad y los servicios públicos.": {
+    "PT": "O museu fica no Centro Cultural Light, na Avenida Marechal Floriano. O conjunto preserva parte da memória empresarial e urbana ligada à eletricidade e aos serviços públicos.",
+    "EN": "The museum is at Centro Cultural Light on Avenida Marechal Floriano. The complex preserves part of the business and urban history connected with electricity and public services."
+  },
+  "El origen del museo está relacionado con el diseñador y coleccionista francés Jacques Van de Beuque. Después de establecerse en Brasil, recorrió diferentes regiones del país y comenzó a adquirir obras directamente de artistas populares.": {
+    "PT": "A origem do museu está ligada ao designer e colecionador francês Jacques Van de Beuque. Depois de se estabelecer no Brasil, percorreu diferentes regiões e começou a comprar obras diretamente de artistas populares.",
+    "EN": "The museum's origins are linked to French designer and collector Jacques Van de Beuque. After settling in Brazil, he traveled through different regions and began buying works directly from folk artists."
+  },
+  "El poder naval en la formación de Brasil": {
+    "PT": "O poder naval na formação do Brasil",
+    "EN": "Naval power in the formation of Brazil"
+  },
+  "El recorrido ayuda a conocer las campañas contra enfermedades como fiebre amarilla, peste bubónica y viruela. También muestra los conflictos sociales surgidos durante los procesos de modernización sanitaria.": {
+    "PT": "O percurso apresenta as campanhas contra doenças como febre amarela, peste bubônica e varíola. Também mostra os conflitos sociais surgidos nos processos de modernização da saúde pública.",
+    "EN": "The visit explores campaigns against diseases such as yellow fever, bubonic plague and smallpox. It also shows the social conflicts that arose during public health modernization."
+  },
+  "El recorrido explica que la energía consumida en casas y comercios depende de sistemas de generación, transmisión y distribución. También presenta diferentes fuentes y sus impactos ambientales.": {
+    "PT": "O percurso explica que a energia usada em casas e comércios depende de sistemas de geração, transmissão e distribuição. Também apresenta diferentes fontes e seus impactos ambientais.",
+    "EN": "The visit explains how energy used in homes and businesses depends on generation, transmission and distribution systems. It also introduces different sources and their environmental impacts."
+  },
+  "El recorrido muestra que el samba no se limita a los desfiles. Existen diferentes estilos, formas de tocar, componer y bailar, además de conexiones con religiosidad, trabajo, vida comunitaria y lucha contra el racismo.": {
+    "PT": "O percurso mostra que o samba não se limita aos desfiles. Há diferentes estilos e formas de tocar, compor e dançar, além de ligações com religião, trabalho, vida comunitária e a luta contra o racismo.",
+    "EN": "The visit shows that samba goes beyond parades. There are different styles and ways of playing, composing and dancing, along with connections to religion, work, community life and the fight against racism."
+  },
+  "El símbolo más conocido de la Fiocruz es el Castelo Mourisco, construido durante las primeras décadas del siglo XX. Su arquitectura combina referencias orientales y europeas y se convirtió en una imagen de la ciencia brasileña.": {
+    "PT": "O símbolo mais conhecido da Fiocruz é o Castelo Mourisco, construído nas primeiras décadas do século XX. Sua arquitetura combina referências orientais e europeias e se tornou uma imagem da ciência brasileira.",
+    "EN": "Fiocruz's best-known symbol is Castelo Mourisco, built during the early decades of the 20th century. Its architecture combines Eastern and European influences and has become an emblem of Brazilian science."
+  },
+  "Elige anticipadamente uno de los horarios de visita y llega con al menos 15 minutos de margen.": {
+    "PT": "Escolha um horário de visita com antecedência e chegue com pelo menos 15 minutos de folga.",
+    "EN": "Choose a visiting time in advance and arrive at least 15 minutes early."
+  },
+  "Entrada gratuita. Algunas oficinas o actividades requieren retirar una entrada por capacidad limitada.": {
+    "PT": "Entrada gratuita. Algumas oficinas ou atividades exigem retirar um ingresso devido à capacidade limitada.",
+    "EN": "Free admission. Some workshops or activities require a ticket because capacity is limited."
+  },
+  "Entrada gratuita. Algunas temporadas pueden utilizar entradas gratuitas anticipadas.": {
+    "PT": "Entrada gratuita. Em alguns períodos, podem ser usados ingressos gratuitos antecipados.",
+    "EN": "Free admission. During some periods, free advance tickets may be used."
+  },
+  "Entrada y estacionamiento gratuitos": {
+    "PT": "Entrada e estacionamento gratuitos",
+    "EN": "Free admission and parking"
+  },
+  "Entre 1 hora y 1 hora y 30 minutos. Las visitas especiales pueden durar más.": {
+    "PT": "Entre 1 hora e 1 hora e 30 minutos. Visitas especiais podem durar mais.",
+    "EN": "Between 1 hour and 1 hour 30 minutes. Special visits may take longer."
+  },
+  "Entre 1 hora y 30 minutos y 3 horas, especialmente si participas de actividades.": {
+    "PT": "Entre 1 hora e 30 minutos e 3 horas, principalmente se participar das atividades.",
+    "EN": "Between 1 hour 30 minutes and 3 hours, especially if you join activities."
+  },
+  "Entre 2 y 4 horas. Llega temprano para aprovechar varias actividades.": {
+    "PT": "Entre 2 e 4 horas. Chegue cedo para aproveitar várias atividades.",
+    "EN": "Between 2 and 4 hours. Arrive early to enjoy several activities."
+  },
+  "Entre las piezas pueden encontrarse modelos de embarcaciones, figuras de proa, pinturas, cañones, documentos, medallas e instrumentos. Los modelos navales permiten observar detalles que normalmente serían difíciles de apreciar en un barco real.": {
+    "PT": "Entre as peças estão modelos de embarcações, figuras de proa, pinturas, canhões, documentos, medalhas e instrumentos. Os modelos navais mostram detalhes normalmente difíceis de observar em um barco real.",
+    "EN": "Items include ship models, figureheads, paintings, cannons, documents, medals and instruments. The naval models reveal details that would normally be difficult to see on a real ship."
+  },
+  "Es colorido, divertido, gratuito y diferente de los museos tradicionales. La colección ayuda a comprender la diversidad cultural de Brasil de una forma muy visual.": {
+    "PT": "É colorido, divertido, gratuito e diferente dos museus tradicionais. A coleção ajuda a entender a diversidade cultural do Brasil de forma muito visual.",
+    "EN": "It is colorful, enjoyable, free and different from traditional museums. The collection offers a highly visual way to understand Brazil's cultural diversity."
+  },
+  "Es gratuito, educativo y especialmente atractivo para familias. Además, permite conocer uno de los campus científicos más históricos y visualmente impresionantes de Río.": {
+    "PT": "É gratuito, educativo e especialmente interessante para famílias. Também permite conhecer um dos campus científicos mais históricos e visualmente impressionantes do Rio.",
+    "EN": "It is free, educational and especially appealing to families. It also lets you explore one of Rio's most historic and visually impressive science campuses."
+  },
+  "Es gratuito, interactivo y poco conocido por los turistas. Resulta especialmente interesante para familias con niños y puede combinarse con otros atractivos del Centro.": {
+    "PT": "É gratuito, interativo e pouco conhecido pelos turistas. É especialmente interessante para famílias com crianças e pode ser combinado com outras atrações do Centro.",
+    "EN": "It is free, interactive and little known among tourists. It is especially interesting for families with children and can be combined with other downtown attractions."
+  },
+  "Es gratuito, se encuentra en una ubicación muy céntrica y permite comprender mejor la importancia del mar en la historia brasileña. Además, puede integrarse fácilmente con otros atractivos de Praça XV.": {
+    "PT": "É gratuito, fica em uma localização central e ajuda a compreender a importância do mar na história brasileira. Também pode ser facilmente combinado com outras atrações da Praça XV.",
+    "EN": "It is free, centrally located and helps explain the sea's importance in Brazilian history. It can also be easily combined with other Praça XV attractions."
+  },
+  "Es recomendable reservar las exposiciones y actividades. El museo suele mantener una cantidad limitada de entradas para retirar presencialmente.": {
+    "PT": "É recomendável reservar as exposições e atividades. O museu costuma manter uma quantidade limitada de ingressos para retirada presencial.",
+    "EN": "Booking exhibitions and activities is recommended. The museum usually keeps a limited number of tickets for in-person collection."
+  },
+  "Es una oportunidad de conocer el samba fuera de las imágenes más comerciales del carnaval y escuchar las voces de las comunidades que construyeron esta cultura.": {
+    "PT": "É uma oportunidade de conhecer o samba além das imagens mais comerciais do carnaval e ouvir as comunidades que construíram essa cultura.",
+    "EN": "It is a chance to discover samba beyond the more commercial images of Carnival and hear from the communities that built this culture."
+  },
+  "Es una visita imprescindible para hinchas y una experiencia interesante para quien desea comprender la dimensión cultural y popular del fútbol brasileño.": {
+    "PT": "É uma visita imperdível para torcedores e uma experiência interessante para quem quer entender a dimensão cultural e popular do futebol brasileiro.",
+    "EN": "It is an essential visit for fans and an interesting experience for anyone wanting to understand Brazilian football's cultural and popular significance."
+  },
+  "Está cerca del Maracanã, pero el acceso requiere planificación. La opción más cómoda para turistas suele ser taxi o transporte por aplicación directamente hasta la entrada.": {
+    "PT": "Fica perto do Maracanã, mas o acesso exige planejamento. Para turistas, a opção mais confortável costuma ser táxi ou aplicativo diretamente até a entrada.",
+    "EN": "It is near Maracanã, but access needs planning. For visitors, the most comfortable option is usually a taxi or ride-hailing service directly to the entrance."
+  },
+  "Está en Barra da Tijuca, cerca del Bosque da Barra y de la Cidade das Artes. El acceso es más cómodo en automóvil, taxi o transporte por aplicación.": {
+    "PT": "Fica na Barra da Tijuca, perto do Bosque da Barra e da Cidade das Artes. O acesso é mais confortável de carro, táxi ou aplicativo.",
+    "EN": "It is in Barra da Tijuca, near Bosque da Barra and Cidade das Artes. Access is more comfortable by car, taxi or ride-hailing service."
+  },
+  "Está junto a la Lagoa Rodrigo de Freitas. Puedes llegar mediante autobús, taxi o transporte por aplicación desde Ipanema, Leblon, Jardim Botânico o Botafogo.": {
+    "PT": "Fica junto à Lagoa Rodrigo de Freitas. Você pode chegar de ônibus, táxi ou aplicativo a partir de Ipanema, Leblon, Jardim Botânico ou Botafogo.",
+    "EN": "It is beside Lagoa Rodrigo de Freitas. You can reach it by bus, taxi or ride-hailing service from Ipanema, Leblon, Jardim Botânico or Botafogo."
+  },
+  "Está junto a la Praça XV. Puedes llegar mediante el VLT, bajando en Praça XV, o caminar desde el metro Carioca. También queda frente a la terminal de las barcas de Niterói.": {
+    "PT": "Fica junto à Praça XV. Você pode chegar de VLT, descendo em Praça XV, ou caminhar desde o metrô Carioca. Também fica em frente ao terminal das barcas de Niterói.",
+    "EN": "It is beside Praça XV. Take the VLT to Praça XV or walk from Carioca metro station. It also faces the Niterói ferry terminal."
+  },
+  "Experimentos, electricidad, fotografías históricas, consumo responsable y actividades educativas.": {
+    "PT": "Experimentos, eletricidade, fotografias históricas, consumo responsável e atividades educativas.",
+    "EN": "Experiments, electricity, historic photographs, responsible consumption and educational activities."
+  },
+  "Fotografías del Río de Janeiro de otros tiempos": {
+    "PT": "Fotografias do Rio de Janeiro de outros tempos",
+    "EN": "Photographs of Rio de Janeiro in bygone times"
+  },
+  "Grandes hangares, aeronaves históricas, aviación militar, motores y evolución tecnológica.": {
+    "PT": "Grandes hangares, aeronaves históricas, aviação militar, motores e evolução tecnológica.",
+    "EN": "Large hangars, historic aircraft, military aviation, engines and technological development."
+  },
+  "Guarda este lugar para una futura visita, pero no te desplaces hasta allí sin confirmar la reapertura. Mientras continúa cerrado, puedes buscar actividades y contenidos digitales del museo.": {
+    "PT": "Guarde este lugar para uma visita futura, mas não vá até lá sem confirmar a reabertura. Enquanto estiver fechado, procure atividades e conteúdo digital do museu.",
+    "EN": "Save this place for a future visit, but do not travel there without confirming reopening. While it remains closed, look for the museum's activities and digital content."
+  },
+  "Hangares llenos de aeronaves históricas": {
+    "PT": "Hangares cheios de aeronaves históricas",
+    "EN": "Hangars filled with historic aircraft"
+  },
+  "Heitor Villa-Lobos nació en Río de Janeiro en 1887. Desde joven tuvo contacto con instrumentos, músicos populares y diferentes ambientes culturales de la ciudad. Su obra combinó formación clásica con ritmos, sonidos y temas brasileños.": {
+    "PT": "Heitor Villa-Lobos nasceu no Rio de Janeiro em 1887. Desde jovem, teve contato com instrumentos, músicos populares e diferentes ambientes culturais da cidade. Sua obra combinou formação clássica com ritmos, sons e temas brasileiros.",
+    "EN": "Heitor Villa-Lobos was born in Rio de Janeiro in 1887. From a young age, he encountered instruments, popular musicians and the city's different cultural settings. His work combined classical training with Brazilian rhythms, sounds and themes."
+  },
+  "Historias de navegación, defensa y exploración": {
+    "PT": "Histórias de navegação, defesa e exploração",
+    "EN": "Stories of navigation, defense and exploration"
+  },
+  "Intenta hacer una visita mediada. En este museo, las historias contadas por las personas enriquecen mucho más la experiencia que simplemente observar los objetos. Coordina bien el transporte de ida y regreso.": {
+    "PT": "Tente fazer uma visita mediada. Aqui, as histórias contadas pelas pessoas enriquecem a experiência muito mais do que apenas observar os objetos. Organize bem o transporte de ida e volta.",
+    "EN": "Try to take a guided visit. Here, the stories people tell enrich the experience far more than simply looking at objects. Arrange your outward and return transport carefully."
+  },
+  "Investigación y preservación más allá de las exposiciones": {
+    "PT": "Pesquisa e preservação além das exposições",
+    "EN": "Research and preservation beyond exhibitions"
+  },
+  "Jueves a domingo y feriados, de 13:00 a 17:00. Consulta posibles cierres extraordinarios antes de la visita.": {
+    "PT": "De quinta a domingo e feriados, das 13h às 17h. Confira possíveis fechamentos extraordinários antes da visita.",
+    "EN": "Thursday to Sunday and holidays, 1 pm to 5 pm. Check for exceptional closures before visiting."
+  },
+  "Jueves a domingo, de 10:00 a 18:00. Último acceso a las exposiciones a las 17:30. Los eventos pueden tener horarios y condiciones diferentes.": {
+    "PT": "De quinta a domingo, das 10h às 18h. Última entrada nas exposições às 17h30. Eventos podem ter horários e condições diferentes.",
+    "EN": "Thursday to Sunday, 10 am to 6 pm. Last exhibition admission at 5:30 pm. Events may have different hours and conditions."
+  },
+  "La Fundação Oswaldo Cruz tuvo su origen en los esfuerzos para combatir epidemias y mejorar la salud pública a comienzos del siglo XX. Científicos como Oswaldo Cruz desarrollaron investigaciones y campañas que transformaron la medicina brasileña.": {
+    "PT": "A Fundação Oswaldo Cruz nasceu dos esforços para combater epidemias e melhorar a saúde pública no início do século XX. Cientistas como Oswaldo Cruz desenvolveram pesquisas e campanhas que transformaram a medicina brasileira.",
+    "EN": "Fundação Oswaldo Cruz grew from efforts to combat epidemics and improve public health in the early 20th century. Scientists such as Oswaldo Cruz developed research and campaigns that transformed Brazilian medicine."
+  },
+  "La colección incluye adornos, cestería, cerámica, instrumentos musicales, armas, utensilios, piezas rituales y objetos utilizados en la vida cotidiana. El museo también conserva registros sonoros, audiovisuales y lingüísticos de enorme importancia.": {
+    "PT": "A coleção inclui adornos, cestaria, cerâmica, instrumentos musicais, armas, utensílios, peças rituais e objetos do cotidiano. O museu também preserva registros sonoros, audiovisuais e linguísticos de enorme importância.",
+    "EN": "The collection includes ornaments, basketry, ceramics, musical instruments, weapons, utensils, ritual pieces and everyday objects. The museum also preserves sound, audiovisual and linguistic records of enormous importance."
+  },
+  "La colección incluye obras de Mestre Vitalino y de numerosos artistas que transformaron escenas de su comunidad en esculturas y conjuntos narrativos. Muchas piezas permiten descubrir historias completas observando pequeños detalles.": {
+    "PT": "A coleção inclui obras de Mestre Vitalino e de muitos artistas que transformaram cenas de suas comunidades em esculturas e conjuntos narrativos. Várias peças revelam histórias completas a partir de pequenos detalhes.",
+    "EN": "The collection includes works by Mestre Vitalino and many artists who transformed community scenes into sculptures and narrative ensembles. Many pieces reveal entire stories through small details."
+  },
+  "La empresa Light participó en varias de esas transformaciones y construyó un importante archivo histórico. El museo fue inaugurado en 2012 y actualizado en 2022 con nuevos contenidos y experiencias.": {
+    "PT": "A Light participou de várias dessas transformações e construiu um importante arquivo histórico. O museu foi inaugurado em 2012 e atualizado em 2022 com novos conteúdos e experiências.",
+    "EN": "Light took part in several of these transformations and built an important historical archive. The museum opened in 2012 and was updated in 2022 with new content and experiences."
+  },
+  "La entrada principal está en la Av. Brasil. Para turistas, la opción más práctica suele ser taxi o transporte por aplicación.": {
+    "PT": "A entrada principal fica na Av. Brasil. Para turistas, a opção mais prática costuma ser táxi ou aplicativo.",
+    "EN": "The main entrance is on Av. Brasil. For visitors, the most practical option is usually a taxi or ride-hailing service."
+  },
+  "La expansión de la electricidad transformó profundamente Río de Janeiro. La iluminación pública, los tranvías, las industrias, los elevadores y los aparatos domésticos cambiaron la forma de vivir y circular por la ciudad.": {
+    "PT": "A expansão da eletricidade transformou profundamente o Rio de Janeiro. Iluminação pública, bondes, indústrias, elevadores e aparelhos domésticos mudaram a forma de viver e circular pela cidade.",
+    "EN": "The expansion of electricity profoundly transformed Rio de Janeiro. Street lighting, trams, industries, elevators and household appliances changed how people lived and moved around the city."
+  },
+  "La exposición permanente explica la importancia del poder naval en la construcción y defensa del territorio brasileño. También aborda conflictos, transformaciones tecnológicas y la evolución de las embarcaciones utilizadas por la Marina.": {
+    "PT": "A exposição permanente explica a importância do poder naval na construção e defesa do território brasileiro. Também aborda conflitos, mudanças tecnológicas e a evolução das embarcações usadas pela Marinha.",
+    "EN": "The permanent exhibition explains naval power's importance in shaping and defending Brazilian territory. It also covers conflicts, technological change and the evolution of ships used by the navy."
+  },
+  "La exposición presenta títulos nacionales e internacionales, camisetas históricas, objetos de jugadores, fotografías y recuerdos de partidos que marcaron diferentes generaciones.": {
+    "PT": "A exposição apresenta títulos nacionais e internacionais, camisas históricas, objetos de jogadores, fotografias e lembranças de partidas que marcaram diferentes gerações.",
+    "EN": "The exhibition presents national and international titles, historic shirts, players' belongings, photographs and memories of matches that defined different generations."
+  },
+  "La ficha oficial del Ibram informa que el Museu Villa-Lobos está temporalmente cerrado. Lo mantendremos en la guía por su importancia, pero con una advertencia visible hasta que su reapertura sea confirmada.": {
+    "PT": "A ficha oficial do Ibram informa que o Museu Villa-Lobos está temporariamente fechado. Vamos mantê-lo na guia por sua importância, mas com um aviso visível até a confirmação da reabertura.",
+    "EN": "Ibram's official listing says Museu Villa-Lobos is temporarily closed. We will keep it in the guide because of its importance, with a visible warning until reopening is confirmed."
+  },
+  "La historia contada por quienes vivieron el samba": {
+    "PT": "A história contada por quem viveu o samba",
+    "EN": "History told by those who lived samba"
+  },
+  "La idea de crear un museo aeronáutico brasileño comenzó a tomar fuerza durante la década de 1940, cuando surgió la preocupación por conservar aeronaves, documentos y objetos vinculados con los primeros años de la aviación nacional. Después de años de organización y recuperación de piezas, el Museu Aeroespacial fue inaugurado el 18 de octubre de 1976.": {
+    "PT": "A ideia de criar um museu aeronáutico brasileiro ganhou força nos anos 1940, com a preocupação de preservar aeronaves, documentos e objetos dos primeiros anos da aviação nacional. Após anos de organização e recuperação de peças, o Museu Aeroespacial foi inaugurado em 18 de outubro de 1976.",
+    "EN": "The idea of a Brazilian aviation museum gained momentum in the 1940s as concern grew over preserving aircraft, documents and objects from the early years of national aviation. After years of organizing and recovering items, Museu Aeroespacial opened on October 18, 1976."
+  },
+  "La información deberá confirmarse cuando el museo reabra.": {
+    "PT": "As informações deverão ser confirmadas quando o museu reabrir.",
+    "EN": "Information will need to be confirmed when the museum reopens."
+  },
+  "La institución funciona en un casarón del siglo XIX situado en la Rua das Palmeiras, en Botafogo. La arquitectura, los jardines y la vegetación transforman el lugar en un espacio singular dentro de una de las zonas más urbanizadas de Río.": {
+    "PT": "A instituição ocupa um casarão do século XIX na Rua das Palmeiras, em Botafogo. A arquitetura, os jardins e a vegetação fazem dele um espaço singular em uma das áreas mais urbanizadas do Rio.",
+    "EN": "The institution occupies a 19th-century mansion on Rua das Palmeiras in Botafogo. Its architecture, gardens and vegetation make it a distinctive space in one of Rio's most urbanized areas."
+  },
+  "La institución trabaja para presentar el samba como una expresión cultural nacida principalmente de comunidades negras, construida mediante encuentros, resistencias, celebraciones y transmisión oral.": {
+    "PT": "A instituição apresenta o samba como uma expressão cultural nascida principalmente em comunidades negras, construída por encontros, resistência, celebrações e transmissão oral.",
+    "EN": "The institution presents samba as a cultural expression born mainly in Black communities and built through gatherings, resistance, celebrations and oral transmission."
+  },
+  "La navegación fue fundamental para la formación territorial, política y económica de Brasil. Por el mar llegaron expediciones, mercancías, migrantes y también invasores. La defensa de la extensa costa exigió la creación de fortificaciones, arsenales y fuerzas navales.": {
+    "PT": "A navegação foi fundamental para a formação territorial, política e econômica do Brasil. Pelo mar chegaram expedições, mercadorias, migrantes e invasores. A defesa da extensa costa exigiu fortificações, arsenais e forças navais.",
+    "EN": "Navigation was fundamental to Brazil's territorial, political and economic development. Expeditions, goods, migrants and invaders arrived by sea. Defending the long coastline required fortifications, arsenals and naval forces."
+  },
+  "La nueva sede fue diseñada para recibir diferentes públicos. Consulta los recursos disponibles para cada actividad.": {
+    "PT": "A nova sede foi projetada para receber diferentes públicos. Consulte os recursos disponíveis para cada atividade.",
+    "EN": "The new site was designed to welcome different audiences. Check the facilities available for each activity."
+  },
+  "La parte más impresionante para muchos visitantes son los hangares con aviones y helicópteros de diferentes tamaños. Algunas aeronaves permiten observar de cerca motores, cabinas, hélices, fuselajes, armamentos y soluciones técnicas utilizadas en distintas épocas.": {
+    "PT": "Para muitos visitantes, o mais impressionante são os hangares com aviões e helicópteros de vários tamanhos. Algumas aeronaves permitem observar de perto motores, cabines, hélices, fuselagens, armamentos e soluções técnicas de diferentes épocas.",
+    "EN": "For many visitors, the most impressive part is the hangars with aircraft and helicopters of different sizes. Some allow a close look at engines, cockpits, propellers, fuselages, weapons and technical solutions from different periods."
+  },
+  "La propuesta no presenta la ciencia como algo aislado. Salud, desigualdad, territorio, ambiente y políticas públicas aparecen conectados con la vida cotidiana.": {
+    "PT": "A proposta não apresenta a ciência de forma isolada. Saúde, desigualdade, território, ambiente e políticas públicas aparecem ligados ao cotidiano.",
+    "EN": "The approach does not present science in isolation. Health, inequality, territory, the environment and public policy are connected with everyday life."
+  },
+  "La proximidad con el Palácio do Samba y con la comunidad convierte la visita en una oportunidad para comprender el carnaval desde el territorio donde se prepara durante todo el año.": {
+    "PT": "A proximidade com o Palácio do Samba e a comunidade faz da visita uma oportunidade para entender o carnaval no território onde ele é preparado o ano inteiro.",
+    "EN": "Being close to Palácio do Samba and the community makes the visit an opportunity to understand Carnival in the area where it is prepared throughout the year."
+  },
+  "La sede actual fue proyectada para integrar exposiciones, educación, jardines y espacios abiertos. Su ubicación cerca del Bosque da Barra permite combinar arte popular y naturaleza.": {
+    "PT": "A sede atual foi projetada para integrar exposições, educação, jardins e espaços abertos. A localização perto do Bosque da Barra permite combinar arte popular e natureza.",
+    "EN": "The current site was designed to combine exhibitions, education, gardens and open spaces. Its location near Bosque da Barra lets visitors combine folk art with nature."
+  },
+  "La sede está en Botafogo, entre las calles São Clemente y Voluntários da Pátria, a una distancia caminable del metro Botafogo.": {
+    "PT": "A sede fica em Botafogo, entre São Clemente e Voluntários da Pátria, a uma distância caminhável do metrô Botafogo.",
+    "EN": "The site is in Botafogo between São Clemente and Voluntários da Pátria, within walking distance of Botafogo metro station."
+  },
+  "La sede histórica de Gávea": {
+    "PT": "A sede histórica da Gávea",
+    "EN": "The historic Gávea headquarters"
+  },
+  "La sede histórica funcionó durante años en una extensa propiedad próxima al Pontal. Problemas de acceso e inundaciones llevaron a la institución a construir un nuevo edificio en Barra da Tijuca.": {
+    "PT": "A sede histórica funcionou por anos em uma grande propriedade perto do Pontal. Problemas de acesso e enchentes levaram a instituição a construir um novo edifício na Barra da Tijuca.",
+    "EN": "The historic site operated for years on a large property near Pontal. Access difficulties and flooding led the institution to build a new facility in Barra da Tijuca."
+  },
+  "La ubicación permite combinar la visita con un recorrido por la Lagoa, Jardim Botânico o Leblon.": {
+    "PT": "A localização permite combinar a visita com um passeio pela Lagoa, Jardim Botânico ou Leblon.",
+    "EN": "The location lets you combine the visit with an outing around Lagoa, Jardim Botânico or Leblon."
+  },
+  "La visita permite conocer aspectos de las grandes navegaciones, de la protección de la costa, de la vida a bordo y de la participación naval brasileña en acontecimientos históricos.": {
+    "PT": "A visita apresenta aspectos das grandes navegações, da proteção da costa, da vida a bordo e da participação naval brasileira em acontecimentos históricos.",
+    "EN": "The visit explores major sea voyages, coastal protection, life on board and Brazilian naval involvement in historic events."
+  },
+  "La visita permite recorrer diferentes espacios del campus y comprender cómo ciencia, arquitectura, salud pública y patrimonio histórico se relacionan.": {
+    "PT": "A visita permite explorar diferentes espaços do campus e entender a relação entre ciência, arquitetura, saúde pública e patrimônio histórico.",
+    "EN": "The visit lets you explore different campus spaces and understand how science, architecture, public health and historic heritage connect."
+  },
+  "La visita permite relacionar los experimentos científicos con cambios reales experimentados por Río durante los siglos XX y XXI.": {
+    "PT": "A visita relaciona experimentos científicos às mudanças reais vividas pelo Rio nos séculos XX e XXI.",
+    "EN": "The visit connects scientific experiments with the changes Rio experienced in the 20th and 21st centuries."
+  },
+  "Las Bachianas Brasileiras y una obra monumental": {
+    "PT": "As Bachianas Brasileiras e uma obra monumental",
+    "EN": "Bachianas Brasileiras and a monumental body of work"
+  },
+  "Las actividades buscan que el visitante participe. Hay demostraciones y experiencias sobre electricidad, magnetismo, generación de energía, seguridad y uso consciente de los recursos.": {
+    "PT": "As atividades incentivam a participação do visitante. Há demonstrações e experiências sobre eletricidade, magnetismo, geração de energia, segurança e uso consciente dos recursos.",
+    "EN": "Activities encourage visitors to participate. Demonstrations and experiences cover electricity, magnetism, power generation, safety and responsible use of resources."
+  },
+  "Las exposiciones explican la trayectoria de pioneros como Alberto Santos-Dumont, el desarrollo del Correio Aéreo Militar, la creación de la Força Aérea Brasileira y el crecimiento de la industria aeronáutica. Aeronaves como el Embraer Bandeirante ayudan a mostrar la capacidad tecnológica alcanzada por Brasil.": {
+    "PT": "As exposições apresentam pioneiros como Alberto Santos-Dumont, o desenvolvimento do Correio Aéreo Militar, a criação da Força Aérea Brasileira e o crescimento da indústria aeronáutica. Aeronaves como o Embraer Bandeirante mostram a capacidade tecnológica alcançada pelo Brasil.",
+    "EN": "Exhibitions explore pioneers such as Alberto Santos-Dumont, the development of Correio Aéreo Militar, the creation of Força Aérea Brasileira and the growth of the aviation industry. Aircraft such as the Embraer Bandeirante illustrate Brazil's technological achievements."
+  },
+  "Las exposiciones utilizan modelos, juegos, experiencias, recursos audiovisuales y actividades mediadas. Los temas incluyen cuerpo humano, microorganismos, biodiversidad, enfermedades, vacunas y desarrollo científico.": {
+    "PT": "As exposições usam modelos, jogos, experiências, recursos audiovisuais e atividades mediadas. Os temas incluem corpo humano, microrganismos, biodiversidade, doenças, vacinas e desenvolvimento científico.",
+    "EN": "Exhibitions use models, games, experiences, audiovisual resources and guided activities. Topics include the human body, microorganisms, biodiversity, diseases, vaccines and scientific development."
+  },
+  "Las mujeres en la construcción del samba": {
+    "PT": "As mulheres na construção do samba",
+    "EN": "Women in the making of samba"
+  },
+  "Las obras muestran celebraciones religiosas, carnaval, bumba meu boi, maracatu, trabajos rurales, vida urbana, animales, leyendas y personajes. Cada pieza refleja el territorio y la experiencia de quien la creó.": {
+    "PT": "As obras mostram celebrações religiosas, carnaval, bumba meu boi, maracatu, trabalhos rurais, vida urbana, animais, lendas e personagens. Cada peça reflete o território e a experiência de seu criador.",
+    "EN": "The works depict religious celebrations, Carnival, bumba meu boi, maracatu, rural work, urban life, animals, legends and characters. Each reflects its creator's region and experience."
+  },
+  "Las visitas individuales normalmente no requieren reserva. Los grupos deben realizar agendamiento previo.": {
+    "PT": "Visitas individuais normalmente não exigem reserva. Grupos precisam agendar com antecedência.",
+    "EN": "Individual visits normally do not require booking. Groups must book ahead."
+  },
+  "Llega cerca de las 13:00 si también quieres visitar otros atractivos de la Praça XV.": {
+    "PT": "Chegue perto das 13h se também quiser visitar outras atrações da Praça XV.",
+    "EN": "Arrive around 1 pm if you also want to visit other Praça XV attractions."
+  },
+  "Llega durante la mañana para recorrer los hangares sin apuro y evitar llegar cerca del cierre del portón.": {
+    "PT": "Chegue pela manhã para visitar os hangares sem pressa e evitar chegar perto do fechamento do portão.",
+    "EN": "Arrive in the morning to explore the hangars without rushing and avoid arriving near gate closing time."
+  },
+  "Llega temprano: las actividades están distribuidas por el campus y no es una visita rápida. Revisa qué espacios estarán abiertos, porque el Castelo y otras atracciones pueden tener horarios específicos.": {
+    "PT": "Chegue cedo: as atividades se espalham pelo campus, e a visita não é rápida. Confira quais espaços estarão abertos, pois o Castelo e outras atrações podem ter horários específicos.",
+    "EN": "Arrive early: activities are spread across the campus and this is not a quick visit. Check which spaces will be open, as the Castelo and other attractions may have specific hours."
+  },
+  "Los grupos con más de diez personas deben agendar de martes a viernes. Consulta si la programación especial utiliza entradas anticipadas.": {
+    "PT": "Grupos com mais de dez pessoas precisam agendar de terça a sexta-feira. Confira se a programação especial usa ingressos antecipados.",
+    "EN": "Groups of more than ten must book for Tuesday to Friday. Check whether special programming uses advance tickets."
+  },
+  "Los jardines fueron reabiertos al público en enero de 2024. El casarón y el principal espacio de exposiciones continúan afectados por obras. La visita actual no equivale a la experiencia completa del museo, por lo que es indispensable comprobar la programación antes de ir.": {
+    "PT": "Os jardins reabriram ao público em janeiro de 2024. O casarão e o principal espaço de exposições continuam em obras. A visita atual não corresponde à experiência completa do museu, por isso é essencial conferir a programação antes de ir.",
+    "EN": "The gardens reopened to the public in January 2024. The mansion and main exhibition space remain affected by renovation. The current visit is not the full museum experience, so checking the program before going is essential."
+  },
+  "Los pueblos indígenas como protagonistas": {
+    "PT": "Os povos indígenas como protagonistas",
+    "EN": "Indigenous peoples as protagonists"
+  },
+  "Mangueira está vinculada con nombres fundamentales como Cartola, Carlos Cachaça, Dona Zica, Nelson Sargento, Delegado y Dona Neuma. Sus historias ayudan a explicar cómo el samba se desarrolló en casas, terreiros, calles y rodas antes de conquistar grandes escenarios.": {
+    "PT": "Mangueira está ligada a nomes fundamentais como Cartola, Carlos Cachaça, Dona Zica, Nelson Sargento, Delegado e Dona Neuma. Suas histórias mostram como o samba se desenvolveu em casas, terreiros, ruas e rodas antes de chegar aos grandes palcos.",
+    "EN": "Mangueira is linked with key figures including Cartola, Carlos Cachaça, Dona Zica, Nelson Sargento, Delegado and Dona Neuma. Their stories show how samba developed in homes, terreiros, streets and gatherings before reaching major stages."
+  },
+  "Mangueira, Cartola y Dona Zica": {
+    "PT": "Mangueira, Cartola e Dona Zica",
+    "EN": "Mangueira, Cartola and Dona Zica"
+  },
+  "Martes a domingo, de 9:00 a 16:00. El portón cierra a las 15:30, por lo que debes llegar antes de ese horario. Los miércoles, de 8:00 a 9:00, existe un horario exclusivo para personas con discapacidades intelectuales o mentales y sus acompañantes.": {
+    "PT": "De terça a domingo, das 9h às 16h. O portão fecha às 15h30, então chegue antes. Às quartas-feiras, das 8h às 9h, há um horário exclusivo para pessoas com deficiência intelectual ou mental e seus acompanhantes.",
+    "EN": "Tuesday to Sunday, 9 am to 4 pm. The gate closes at 3:30 pm, so arrive before then. On Wednesdays, 8 am to 9 am is reserved for people with intellectual or mental disabilities and their companions."
+  },
+  "Martes a sábado, de 10:00 a 17:00. Cerrado los domingos, lunes y feriados. Confirma posibles visitas mediadas y modificaciones.": {
+    "PT": "De terça a sábado, das 10h às 17h. Fechado aos domingos, segundas-feiras e feriados. Confirme possíveis visitas mediadas e alterações.",
+    "EN": "Tuesday to Saturday, 10 am to 5 pm. Closed Sundays, Mondays and holidays. Confirm guided visits and possible changes."
+  },
+  "Martes a viernes, de 9:00 a 16:30. Sábados, de 10:00 a 16:00. Cerrado domingos y lunes. El Borboletário está temporalmente cerrado.": {
+    "PT": "De terça a sexta-feira, das 9h às 16h30. Aos sábados, das 10h às 16h. Fechado aos domingos e segundas-feiras. O Borboletário está temporariamente fechado.",
+    "EN": "Tuesday to Friday, 9 am to 4:30 pm. Saturdays, 10 am to 4 pm. Closed Sundays and Mondays. The Borboletário is temporarily closed."
+  },
+  "Mestre Vitalino y grandes nombres del arte popular": {
+    "PT": "Mestre Vitalino e grandes nomes da arte popular",
+    "EN": "Mestre Vitalino and leading figures in folk art"
+  },
+  "Miles de obras de todas las regiones del país": {
+    "PT": "Milhares de obras de todas as regiões do país",
+    "EN": "Thousands of works from every region of the country"
+  },
+  "Modelos de barcos, armas y obras de arte": {
+    "PT": "Modelos de barcos, armas e obras de arte",
+    "EN": "Ship models, weapons and works of art"
+  },
+  "Modelos de embarcaciones, historia marítima, armamento, navegación y patrimonio naval.": {
+    "PT": "Modelos de embarcações, história marítima, armamentos, navegação e patrimônio naval.",
+    "EN": "Ship models, maritime history, weapons, navigation and naval heritage."
+  },
+  "Mucho más que carnaval": {
+    "PT": "Muito mais que carnaval",
+    "EN": "Much more than Carnival"
+  },
+  "Mucho más que fútbol": {
+    "PT": "Muito mais que futebol",
+    "EN": "Much more than football"
+  },
+  "Más de 300 pueblos y una enorme diversidad cultural": {
+    "PT": "Mais de 300 povos e uma enorme diversidade cultural",
+    "EN": "Over 300 peoples and enormous cultural diversity"
+  },
+  "Música brasileña, partituras, documentos y memoria de Heitor Villa-Lobos.": {
+    "PT": "Música brasileira, partituras, documentos e memória de Heitor Villa-Lobos.",
+    "EN": "Brazilian music, scores, documents and the memory of Heitor Villa-Lobos."
+  },
+  "Música y educación": {
+    "PT": "Música e educação",
+    "EN": "Music and education"
+  },
+  "No aplicable mientras permanezca cerrado.": {
+    "PT": "Não se aplica enquanto estiver fechado.",
+    "EN": "Not applicable while it remains closed."
+  },
+  "No confundas el Museu Naval con el Espaço Cultural da Marinha: son lugares diferentes. Aprovecha el museo gratuito y después continúa hacia el Paço Imperial, CCBB o la Ilha Fiscal.": {
+    "PT": "Não confunda o Museu Naval com o Espaço Cultural da Marinha: são lugares diferentes. Aproveite o museu gratuito e depois siga para Paço Imperial, CCBB ou Ilha Fiscal.",
+    "EN": "Do not confuse Museu Naval with Espaço Cultural da Marinha: they are different places. Enjoy the free museum, then continue to Paço Imperial, CCBB or Ilha Fiscal."
+  },
+  "No disponible durante el cierre temporal.": {
+    "PT": "Indisponível durante o fechamento temporário.",
+    "EN": "Unavailable during the temporary closure."
+  },
+  "No llegues esperando entrar en cualquier momento: las visitas son mediadas y siguen horarios determinados. Revisa la agenda primero.": {
+    "PT": "Não espere entrar a qualquer momento: as visitas são mediadas e têm horários definidos. Confira a agenda primeiro.",
+    "EN": "Do not expect to enter at any time: visits are guided and follow set schedules. Check the schedule first."
+  },
+  "No lo planifiques todavía como un museo tradicional con varias salas abiertas. Si estás cerca de Botafogo, puedes conocer los jardines, pero confirma primero la programación para no desplazarte esperando una exposición completa.": {
+    "PT": "Ainda não planeje como um museu tradicional com várias salas abertas. Se estiver perto de Botafogo, pode conhecer os jardins, mas confirme a programação para não ir esperando uma exposição completa.",
+    "EN": "Do not yet plan it as a traditional museum with several open galleries. If you are near Botafogo, you can visit the gardens, but confirm the program so you do not arrive expecting a full exhibition."
+  },
+  "No planifiques el MUSAL como una visita rápida entre dos atracciones del Centro. Está lejos de la zona turística y es enorme. Separa al menos medio día, llega temprano y, si viajas con niños o fanáticos de los aviones, considera permanecer tres horas.": {
+    "PT": "Não planeje o MUSAL como uma visita rápida entre duas atrações do Centro. Fica longe da área turística e é enorme. Reserve pelo menos meio dia, chegue cedo e, com crianças ou fãs de aviões, considere ficar três horas.",
+    "EN": "Do not plan MUSAL as a quick visit between two downtown attractions. It is far from the tourist area and huge. Set aside at least half a day, arrive early and, with children or aircraft enthusiasts, consider staying three hours."
+  },
+  "No suele ser necesaria para visitas individuales. Las visitas mediadas y los grupos pueden requerir agendamiento.": {
+    "PT": "Normalmente não é necessária para visitas individuais. Visitas mediadas e grupos podem exigir agendamento.",
+    "EN": "Usually not necessary for individual visits. Guided visits and groups may require booking."
+  },
+  "Oswaldo Cruz y la lucha contra las epidemias": {
+    "PT": "Oswaldo Cruz e o combate às epidemias",
+    "EN": "Oswaldo Cruz and the fight against epidemics"
+  },
+  "Pantallas, proyecciones, recursos interactivos e inteligencia artificial ayudan a presentar la historia del club de una forma emocional y accesible para nuevos públicos.": {
+    "PT": "Telas, projeções, recursos interativos e inteligência artificial apresentam a história do clube de forma envolvente e acessível a novos públicos.",
+    "EN": "Screens, projections, interactive resources and artificial intelligence present the club's history in an engaging way that is accessible to new audiences."
+  },
+  "Partituras, fotografías y objetos personales": {
+    "PT": "Partituras, fotografias e objetos pessoais",
+    "EN": "Scores, photographs and personal belongings"
+  },
+  "Por la cantidad de aeronaves y el tamaño de los hangares, el MUSAL ofrece una experiencia diferente de los museos tradicionales del Centro. Incluso quien no conoce mucho sobre aviación suele sorprenderse con la dimensión de los aviones y con las historias detrás de cada modelo.": {
+    "PT": "Pela quantidade de aeronaves e pelo tamanho dos hangares, o MUSAL oferece uma experiência diferente dos museus tradicionais do Centro. Mesmo quem pouco conhece aviação costuma se surpreender com o tamanho dos aviões e as histórias de cada modelo.",
+    "EN": "The number of aircraft and size of the hangars make MUSAL different from traditional downtown museums. Even those with little aviation knowledge are often surprised by the planes' scale and the stories behind each model."
+  },
+  "Pregunta directamente al museo por el recorrido accesible y la asistencia disponible.": {
+    "PT": "Pergunte diretamente ao museu sobre o percurso acessível e a assistência disponível.",
+    "EN": "Ask the museum directly about the accessible route and available assistance."
+  },
+  "Preservación, investigación y reconocimiento": {
+    "PT": "Preservação, pesquisa e reconhecimento",
+    "EN": "Preservation, research and recognition"
+  },
+  "Puedes caminar desde las estaciones Presidente Vargas o Central del metro y también combinar con VLT.": {
+    "PT": "Você pode caminhar desde as estações Presidente Vargas ou Central do metrô e também combinar com o VLT.",
+    "EN": "You can walk from Presidente Vargas or Central metro stations and also combine the visit with the VLT."
+  },
+  "Recorrer el museo significa visitar un espacio que no fue construido únicamente para exhibir aviones. Muchos de los acontecimientos explicados en las salas ocurrieron en el propio Campo dos Afonsos, haciendo que el territorio también forme parte de la colección.": {
+    "PT": "Visitar o museu é conhecer um espaço que não foi construído apenas para expor aviões. Muitos acontecimentos apresentados nas salas ocorreram no próprio Campo dos Afonsos, fazendo do território parte da coleção.",
+    "EN": "Visiting the museum means exploring a place not built solely to display aircraft. Many events presented in the galleries happened at Campo dos Afonsos itself, making the location part of the collection."
+  },
+  "Reserva entre 2 y 3 horas. El museo es grande y está alejado de los principales circuitos turísticos.": {
+    "PT": "Reserve entre 2 e 3 horas. O museu é grande e fica longe dos principais circuitos turísticos.",
+    "EN": "Allow 2 to 3 hours. The museum is large and far from the main tourist circuits."
+  },
+  "Revisa si te conviene comprar solamente el museo o el combo con Tour da Gávea. Recuerda que la política del lugar prohíbe entrar usando camisetas de otros clubes.": {
+    "PT": "Confira se vale comprar apenas o museu ou o combo com Tour da Gávea. Lembre que as regras proíbem entrar com camisas de outros clubes.",
+    "EN": "Check whether museum admission alone or a package with Tour da Gávea suits you. Remember that the venue prohibits shirts from other clubs."
+  },
+  "Samba, memoria oral, Mangueira, carnaval, cultura afrobrasileña y protagonismo comunitario.": {
+    "PT": "Samba, memória oral, Mangueira, carnaval, cultura afro-brasileira e protagonismo comunitário.",
+    "EN": "Samba, oral history, Mangueira, Carnival, Afro-Brazilian culture and community leadership."
+  },
+  "Se encuentra en Campo dos Afonsos, lejos del metro y de la Zona Sur. El acceso es más cómodo en automóvil, transporte por aplicación o vehículo contratado. En transporte público será necesario combinar tren, autobús o BRT según el punto de partida.": {
+    "PT": "Fica em Campo dos Afonsos, longe do metrô e da Zona Sul. O acesso é mais confortável de carro, aplicativo ou veículo contratado. Por transporte público, será preciso combinar trem, ônibus ou BRT conforme o ponto de partida.",
+    "EN": "It is in Campo dos Afonsos, far from the metro and South Zone. Access is more comfortable by car, ride-hailing service or hired vehicle. Public transport requires a combination of train, bus or BRT depending on your starting point."
+  },
+  "Se recomienda comprar la entrada anticipadamente y seleccionar fecha y horario.": {
+    "PT": "Recomenda-se comprar o ingresso com antecedência e escolher data e horário.",
+    "EN": "Buying admission in advance and selecting a date and time is recommended."
+  },
+  "Sin venta de entradas mientras permanezca cerrado": {
+    "PT": "Sem venda de ingressos enquanto estiver fechado",
+    "EN": "No ticket sales while it remains closed"
+  },
+  "Su propuesta fue mostrar que Brasil reúne centenares de pueblos con lenguas, territorios, conocimientos y formas de organización diferentes. El museo se convirtió en una importante referencia para investigadores, educadores y comunidades indígenas.": {
+    "PT": "A proposta foi mostrar que o Brasil reúne centenas de povos com línguas, territórios, conhecimentos e formas de organização diferentes. O museu tornou-se uma referência importante para pesquisadores, educadores e comunidades indígenas.",
+    "EN": "Its aim was to show that Brazil is home to hundreds of peoples with different languages, territories, knowledge and forms of organization. The museum became an important reference for researchers, educators and Indigenous communities."
+  },
+  "Teatro, ciencia y actividades para niños": {
+    "PT": "Teatro, ciência e atividades para crianças",
+    "EN": "Theater, science and children's activities"
+  },
+  "Temporalmente cerrado. Consulta la reapertura en los canales oficiales antes de incluirlo en tu itinerario.": {
+    "PT": "Temporariamente fechado. Consulte a reabertura nos canais oficiais antes de incluir no roteiro.",
+    "EN": "Temporarily closed. Check official channels for reopening before including it in your itinerary."
+  },
+  "Todos los días, de 9:00 a 18:00. Último acceso a las 17:40. La bilhetería presencial funciona desde las 8:40.": {
+    "PT": "Todos os dias, das 9h às 18h. Última entrada às 17h40. A bilheteria presencial funciona a partir das 8h40.",
+    "EN": "Daily, 9 am to 6 pm. Last admission at 5:40 pm. The on-site ticket office opens at 8:40 am."
+  },
+  "Trofeos, Zico, grandes conquistas, experiencias inmersivas y la historia rubro-negra.": {
+    "PT": "Troféus, Zico, grandes conquistas, experiências imersivas e a história rubro-negra.",
+    "EN": "Trophies, Zico, major achievements, immersive experiences and Flamengo's history."
+  },
+  "Trofeos, camisetas y grandes conquistas": {
+    "PT": "Troféus, camisas e grandes conquistas",
+    "EN": "Trophies, shirts and major achievements"
+  },
+  "Un acervo construido junto a los pueblos indígenas": {
+    "PT": "Um acervo construído com os povos indígenas",
+    "EN": "A collection built with Indigenous peoples"
+  },
+  "Un centro de documentación musical": {
+    "PT": "Um centro de documentação musical",
+    "EN": "A music documentation center"
+  },
+  "Un conjunto cultural mucho mayor": {
+    "PT": "Um conjunto cultural muito maior",
+    "EN": "A much larger cultural complex"
+  },
+  "Un edificio histórico junto a la Praça XV": {
+    "PT": "Um edifício histórico junto à Praça XV",
+    "EN": "A historic building beside Praça XV"
+  },
+  "Un museo especialmente atractivo para familias": {
+    "PT": "Um museu especialmente interessante para famílias",
+    "EN": "A museum especially appealing to families"
+  },
+  "Una casa histórica en Botafogo": {
+    "PT": "Uma casa histórica em Botafogo",
+    "EN": "A historic house in Botafogo"
+  },
+  "Una de las transformaciones más importantes de la institución es la participación de representantes indígenas en proyectos de investigación, documentación y difusión. Los objetos no son tratados solamente como piezas antiguas, sino como elementos relacionados con comunidades vivas.": {
+    "PT": "Uma das transformações mais importantes da instituição é a participação de representantes indígenas em projetos de pesquisa, documentação e divulgação. Os objetos não são tratados apenas como peças antigas, mas como elementos ligados a comunidades vivas.",
+    "EN": "One of the institution's most important changes is the involvement of Indigenous representatives in research, documentation and outreach. Objects are treated as elements connected with living communities, rather than merely old artifacts."
+  },
+  "Una experiencia inmersiva y tecnológica": {
+    "PT": "Uma experiência imersiva e tecnológica",
+    "EN": "An immersive, technology-based experience"
+  },
+  "Una visita que también habla de ciencia y tecnología": {
+    "PT": "Uma visita que também aborda ciência e tecnologia",
+    "EN": "A visit that also explores science and technology"
+  },
+  "Uno de los momentos centrales es la generación liderada por Zico, Júnior, Leandro, Adílio y otros ídolos. En 1981 Flamengo conquistó la Copa Libertadores y el Mundial Interclubes.": {
+    "PT": "Um dos momentos centrais é a geração liderada por Zico, Júnior, Leandro, Adílio e outros ídolos. Em 1981, o Flamengo conquistou a Copa Libertadores e o Mundial Interclubes.",
+    "EN": "A central moment is the generation led by Zico, Júnior, Leandro, Adílio and other idols. In 1981, Flamengo won the Copa Libertadores and Intercontinental Cup."
+  },
+  "Uno de los patrimonios más importantes del museo son los testimonios de sambistas. Entrevistas, grabaciones y relatos conservan memorias que podrían desaparecer si no fueran registradas.": {
+    "PT": "Um dos patrimônios mais importantes do museu são os depoimentos de sambistas. Entrevistas, gravações e relatos preservam memórias que poderiam desaparecer sem registro.",
+    "EN": "One of the museum's most important assets is testimony from samba musicians. Interviews, recordings and accounts preserve memories that could disappear if left unrecorded."
+  },
+  "Uno de sus objetivos centrales es enseñar formas más seguras y eficientes de utilizar la electricidad. Desarrolla proyectos para escuelas, organizaciones, educadores y visitantes individuales.": {
+    "PT": "Um dos principais objetivos é ensinar formas mais seguras e eficientes de usar a eletricidade. Desenvolve projetos para escolas, organizações, educadores e visitantes individuais.",
+    "EN": "One of its main aims is teaching safer, more efficient ways to use electricity. It develops projects for schools, organizations, educators and individual visitors."
+  },
+  "Villa-Lobos compuso una enorme cantidad de obras. Entre las más conocidas están las Bachianas Brasileiras y los Choros, series que muestran el diálogo que desarrolló entre la tradición europea y diferentes expresiones musicales brasileñas.": {
+    "PT": "Villa-Lobos compôs uma enorme quantidade de obras. Entre as mais conhecidas estão as Bachianas Brasileiras e os Choros, séries que mostram seu diálogo entre a tradição europeia e diferentes expressões musicais brasileiras.",
+    "EN": "Villa-Lobos composed an enormous body of work. Among the best known are Bachianas Brasileiras and Choros, series showing his dialogue between European tradition and different Brazilian musical expressions."
+  },
+  "Visitas de lunes a viernes, excepto feriados. Los horarios individuales publicados suelen ser 11:30, 12:30 y 15:30, pero pueden cambiar. Confirma la agenda antes de ir.": {
+    "PT": "Visitas de segunda a sexta-feira, exceto feriados. Os horários individuais divulgados costumam ser 11h30, 12h30 e 15h30, mas podem mudar. Confirme a agenda antes de ir.",
+    "EN": "Visits Monday to Friday, excluding holidays. Published individual visiting times are usually 11:30 am, 12:30 pm and 3:30 pm, but may change. Confirm the schedule before going."
+  },
+  "Zico y la generación de 1981": {
+    "PT": "Zico e a geração de 1981",
+    "EN": "Zico and the generation of 1981"
+  },
+  "['Aviones y helicópteros históricos.', 'Aeronaves civiles y militares.', 'Motores y componentes aeronáuticos.', 'Uniformes y equipamientos de vuelo.', 'Fotografías y documentos.', 'Referencias a Santos-Dumont.', 'Historia del Correio Aéreo Militar.', 'Historia de la Força Aérea Brasileira.', 'Exposiciones sobre tecnología aeronáutica.', 'Amplios hangares y áreas externas.']": {
+    "PT": "['Aviões e helicópteros históricos.', 'Aeronaves civis e militares.', 'Motores e componentes aeronáuticos.', 'Uniformes e equipamentos de voo.', 'Fotografias e documentos.', 'Referências a Santos-Dumont.', 'História do Correio Aéreo Militar.', 'História da Força Aérea Brasileira.', 'Exposições sobre tecnologia aeronáutica.', 'Grandes hangares e áreas externas.']",
+    "EN": "['Historic planes and helicopters.', 'Civil and military aircraft.', 'Engines and aircraft components.', 'Uniforms and flight equipment.', 'Photographs and documents.', 'References to Santos-Dumont.', 'History of Correio Aéreo Militar.', 'History of Força Aérea Brasileira.', 'Exhibitions on aviation technology.', 'Large hangars and outdoor areas.']"
+  },
+  "['En 2026 el museo celebró 50 años.', 'Su colección supera las 10.000 piezas.', 'Es considerado el mayor museo de arte popular del país.', 'La sede histórica sufría problemas de inundaciones.', 'Su nueva sede está próxima al Bosque da Barra.', 'Muchas actividades son gratuitas.']": {
+    "PT": "['Em 2026, o museu completou 50 anos.', 'Sua coleção supera 10.000 peças.', 'É considerado o maior museu de arte popular do país.', 'A sede histórica sofria com enchentes.', 'A nova sede fica perto do Bosque da Barra.', 'Muitas atividades são gratuitas.']",
+    "EN": "['The museum celebrated 50 years in 2026.', 'Its collection exceeds 10,000 pieces.', 'It is considered the largest folk art museum in the country.', 'The historic site suffered from flooding.', 'The new site is near Bosque da Barra.', 'Many activities are free.']"
+  },
+  "['Está a pocos minutos de la estación de las barcas de Praça XV.', 'La colección incluye cañones recuperados de naufragios.', 'Las figuras de proa decoraban y simbolizaban diferentes embarcaciones.', 'Forma parte del circuito cultural de la Marinha do Brasil.', 'Puede combinarse con una visita a la Ilha Fiscal.', 'La entrada regular al museo es gratuita.']": {
+    "PT": "['Fica a poucos minutos das barcas da Praça XV.', 'A coleção inclui canhões recuperados de naufrágios.', 'Figuras de proa decoravam e simbolizavam diferentes embarcações.', 'Integra o circuito cultural da Marinha do Brasil.', 'Pode ser combinado com a Ilha Fiscal.', 'A entrada regular do museu é gratuita.']",
+    "EN": "['It is minutes from the Praça XV ferry terminal.', 'The collection includes cannons recovered from shipwrecks.', 'Figureheads decorated and symbolized different vessels.', 'It is part of the Marinha do Brasil cultural circuit.', 'It can be combined with a visit to Ilha Fiscal.', 'Regular museum admission is free.']"
+  },
+  "['Está situado en el barrio de Mangueira.', 'Se encuentra cerca de la quadra de la Estação Primeira de Mangueira.', 'Conserva testimonios de importantes sambistas.', 'Destaca el protagonismo de las comunidades negras.', 'Trabaja con educación, investigación y memoria oral.', 'El samba carioca es patrimonio cultural de Brasil.']": {
+    "PT": "['Fica no bairro de Mangueira.', 'Está perto da quadra da Estação Primeira de Mangueira.', 'Preserva depoimentos de importantes sambistas.', 'Destaca o protagonismo das comunidades negras.', 'Trabalha com educação, pesquisa e memória oral.', 'O samba carioca é patrimônio cultural do Brasil.']",
+    "EN": "['It is in the Mangueira neighborhood.', 'It is near the Estação Primeira de Mangueira rehearsal venue.', 'It preserves testimony from important samba musicians.', 'It highlights Black communities as protagonists.', 'It works with education, research and oral history.', 'Rio samba is part of Brazil\\'s cultural heritage.']"
+  },
+  "['Experimentos interactivos.', 'Juegos educativos.', 'Explicaciones sobre electricidad.', 'Contenido sobre sostenibilidad.', 'Historia de la Light.', 'Fotografías antiguas de Río.', 'Temas sobre consumo consciente.', 'Actividades acompañadas por educadores.', 'Exposiciones temporales y virtuales.', 'Programas especiales para escuelas.']": {
+    "PT": "['Experimentos interativos.', 'Jogos educativos.', 'Explicações sobre eletricidade.', 'Conteúdo sobre sustentabilidade.', 'História da Light.', 'Fotografias antigas do Rio.', 'Temas sobre consumo consciente.', 'Atividades acompanhadas por educadores.', 'Exposições temporárias e virtuais.', 'Programas especiais para escolas.']",
+    "EN": "['Interactive experiments.', 'Educational games.', 'Explanations of electricity.', 'Content on sustainability.', 'Light history.', 'Old photographs of Rio.', 'Responsible consumption topics.', 'Activities led by educators.', 'Temporary and virtual exhibitions.', 'Special programs for schools.']"
+  },
+  "['Exposiciones sobre ciencia y salud.', 'Actividades interactivas.', 'Experimentos y juegos.', 'Historia de Oswaldo Cruz.', 'Información sobre vacunas y epidemias.', 'Teatro científico.', 'Oficinas para familias.', 'Espacios históricos de Fiocruz.', 'Visitas al Castelo Mourisco según disponibilidad.', 'Programación especial durante vacaciones.']": {
+    "PT": "['Exposições sobre ciência e saúde.', 'Atividades interativas.', 'Experimentos e jogos.', 'História de Oswaldo Cruz.', 'Informações sobre vacinas e epidemias.', 'Teatro científico.', 'Oficinas para famílias.', 'Espaços históricos da Fiocruz.', 'Visitas ao Castelo Mourisco conforme disponibilidade.', 'Programação especial nas férias.']",
+    "EN": "['Exhibitions on science and health.', 'Interactive activities.', 'Experiments and games.', 'History of Oswaldo Cruz.', 'Information on vaccines and epidemics.', 'Science theater.', 'Family workshops.', 'Historic Fiocruz spaces.', 'Visits to Castelo Mourisco subject to availability.', 'Special holiday programs.']"
+  },
+  "['Flamengo fue fundado originalmente como club de remo.', 'El club nació en 1895.', 'Conquistó su primer Mundial Interclubes en 1981.', 'Zico es uno de sus mayores ídolos.', 'El museo está dentro de la sede de Gávea.', 'No se permite entrar utilizando camisetas de otros clubes.']": {
+    "PT": "['O Flamengo foi fundado como clube de remo.', 'O clube nasceu em 1895.', 'Ganhou seu primeiro Mundial Interclubes em 1981.', 'Zico é um de seus maiores ídolos.', 'O museu fica na sede da Gávea.', 'Não é permitido entrar com camisas de outros clubes.']",
+    "EN": "['Flamengo was originally founded as a rowing club.', 'The club was established in 1895.', 'It won its first Intercontinental Cup in 1981.', 'Zico is one of its greatest idols.', 'The museum is at the Gávea headquarters.', 'Shirts from other clubs are not permitted.']"
+  },
+  "['Forma parte de la Casa de Oswaldo Cruz.', 'Funciona dentro del campus de la Fiocruz.', 'El Castelo Mourisco es uno de los símbolos de la ciencia brasileña.', 'Las actividades combinan salud, ciencia, arte y educación.', 'El acceso es gratuito.', 'El Borboletário está temporalmente cerrado.']": {
+    "PT": "['Integra a Casa de Oswaldo Cruz.', 'Funciona no campus da Fiocruz.', 'O Castelo Mourisco é um símbolo da ciência brasileira.', 'As atividades combinam saúde, ciência, arte e educação.', 'O acesso é gratuito.', 'O Borboletário está temporariamente fechado.']",
+    "EN": "['It is part of Casa de Oswaldo Cruz.', 'It operates on the Fiocruz campus.', 'Castelo Mourisco is a symbol of Brazilian science.', 'Activities combine health, science, art and education.', 'Admission is free.', 'The Borboletário is temporarily closed.']"
+  },
+  "['Fotografías históricas.', 'Testimonios de sambistas.', 'Música y registros audiovisuales.', 'Historia de las escuelas de samba.', 'Referencias a Cartola y Dona Zica.', 'Memoria de Mangueira.', 'Historia de las baianas.', 'Objetos relacionados con carnaval y samba.', 'Visitas mediadas.', 'Actividades culturales según la programación.']": {
+    "PT": "['Fotografias históricas.', 'Depoimentos de sambistas.', 'Música e registros audiovisuais.', 'História das escolas de samba.', 'Referências a Cartola e Dona Zica.', 'Memória de Mangueira.', 'História das baianas.', 'Objetos ligados ao carnaval e samba.', 'Visitas mediadas.', 'Atividades culturais conforme a programação.']",
+    "EN": "['Historic photographs.', 'Testimony from samba musicians.', 'Music and audiovisual records.', 'History of samba schools.', 'References to Cartola and Dona Zica.', 'Mangueira memory.', 'History of the baianas.', 'Objects related to Carnival and samba.', 'Guided visits.', 'Cultural activities according to the program.']"
+  },
+  "['Fue creado en 1953 por Darcy Ribeiro.', 'Su nombre actual es Museu Nacional dos Povos Indígenas.', 'Es una institución de la Funai.', 'Brasil posee más de 300 pueblos indígenas.', 'El museo conserva importantes registros lingüísticos y audiovisuales.', 'Los jardines reabrieron en enero de 2024.', 'El casarón continúa cerrado por obras.']": {
+    "PT": "['Foi criado em 1953 por Darcy Ribeiro.', 'Seu nome atual é Museu Nacional dos Povos Indígenas.', 'É uma instituição da Funai.', 'O Brasil tem mais de 300 povos indígenas.', 'Preserva registros linguísticos e audiovisuais importantes.', 'Os jardins reabriram em janeiro de 2024.', 'O casarão continua fechado para obras.']",
+    "EN": "['It was founded in 1953 by Darcy Ribeiro.', 'Its current name is Museu Nacional dos Povos Indígenas.', 'It is a Funai institution.', 'Brazil has over 300 Indigenous peoples.', 'It preserves important linguistic and audiovisual records.', 'The gardens reopened in January 2024.', 'The mansion remains closed for renovation.']"
+  },
+  "['Fue inaugurado el 18 de octubre de 1976.', 'Abrió originalmente con 42 aeronaves.', 'Está instalado en Campo dos Afonsos, considerado la cuna de la aviación militar brasileña.', 'Es el mayor museo de aviación militar de Brasil.', 'Parte de su colección se relaciona con la historia del Correio Aéreo Nacional.', 'El propio lugar donde funciona el museo posee valor histórico.']": {
+    "PT": "['Foi inaugurado em 18 de outubro de 1976.', 'Abriu com 42 aeronaves.', 'Fica em Campo dos Afonsos, berço da aviação militar brasileira.', 'É o maior museu de aviação militar do Brasil.', 'Parte da coleção se relaciona à história do Correio Aéreo Nacional.', 'O próprio local tem valor histórico.']",
+    "EN": "['It opened on October 18, 1976.', 'It originally opened with 42 aircraft.', 'It is at Campo dos Afonsos, the birthplace of Brazilian military aviation.', 'It is Brazil\\'s largest military aviation museum.', 'Part of the collection relates to Correio Aéreo Nacional history.', 'The location itself has historic value.']"
+  },
+  "['Fue inaugurado en 2012.', 'Su contenido fue actualizado en 2022.', 'La visita es acompañada por educadores.', 'El acervo de la Light contiene importantes fotografías históricas.', 'La entrada es gratuita.', 'No funciona normalmente durante fines de semana y feriados.']": {
+    "PT": "['Foi inaugurado em 2012.', 'O conteúdo foi atualizado em 2022.', 'A visita é acompanhada por educadores.', 'O acervo da Light tem importantes fotografias históricas.', 'A entrada é gratuita.', 'Normalmente não abre nos fins de semana e feriados.']",
+    "EN": "['It opened in 2012.', 'Its content was updated in 2022.', 'Educators accompany the visit.', 'The Light collection has important historic photographs.', 'Admission is free.', 'It does not normally operate on weekends and holidays.']"
+  },
+  "['Jardines históricos abiertos al público.', 'Actividades culturales según la programación.', 'Referencias a la diversidad de los pueblos indígenas.', 'Un casarón histórico del siglo XIX.', 'Proyectos educativos y digitales.', 'Colecciones etnográficas disponibles principalmente para investigación.', 'Archivos fotográficos y audiovisuales.', 'Materiales relacionados con lenguas indígenas.']": {
+    "PT": "['Jardins históricos abertos ao público.', 'Atividades culturais conforme a programação.', 'Referências à diversidade dos povos indígenas.', 'Um casarão histórico do século XIX.', 'Projetos educativos e digitais.', 'Coleções etnográficas principalmente para pesquisa.', 'Arquivos fotográficos e audiovisuais.', 'Materiais sobre línguas indígenas.']",
+    "EN": "['Historic gardens open to the public.', 'Cultural activities according to the program.', 'References to Indigenous peoples\\' diversity.', 'A historic 19th-century mansion.', 'Educational and digital projects.', 'Ethnographic collections primarily available for research.', 'Photographic and audiovisual archives.', 'Materials on Indigenous languages.']"
+  },
+  "['Miles de esculturas y objetos de arte popular.', 'Obras de artistas de diferentes regiones de Brasil.', 'Piezas de Mestre Vitalino.', 'Representaciones de fiestas y tradiciones.', 'Escenas de trabajos y vida cotidiana.', 'Obras en barro, madera, fibras y metal.', 'Exposiciones temporales.', 'Actividades educativas.', 'Programación especial para familias.', 'Jardines y espacios al aire libre.']": {
+    "PT": "['Milhares de esculturas e objetos de arte popular.', 'Obras de artistas de diferentes regiões do Brasil.', 'Peças de Mestre Vitalino.', 'Representações de festas e tradições.', 'Cenas de trabalho e cotidiano.', 'Obras em barro, madeira, fibras e metal.', 'Exposições temporárias.', 'Atividades educativas.', 'Programação para famílias.', 'Jardins e espaços ao ar livre.']",
+    "EN": "['Thousands of folk art sculptures and objects.', 'Works by artists from different regions of Brazil.', 'Pieces by Mestre Vitalino.', 'Depictions of celebrations and traditions.', 'Scenes of work and everyday life.', 'Works in clay, wood, fibers and metal.', 'Temporary exhibitions.', 'Educational activities.', 'Special family programming.', 'Gardens and outdoor spaces.']"
+  },
+  "['Modelos detallados de embarcaciones.', 'Pinturas y obras de temática naval.', 'Cañones y armamento histórico.', 'Figuras de proa.', 'Medallas y condecoraciones.', 'Instrumentos de navegación.', 'Documentos y fotografías.', 'Historia de la Marinha do Brasil.', 'Explicaciones sobre la defensa del territorio.', 'Exposición sobre el poder naval en la formación de Brasil.']": {
+    "PT": "['Modelos detalhados de embarcações.', 'Pinturas e obras de temática naval.', 'Canhões e armamentos históricos.', 'Figuras de proa.', 'Medalhas e condecorações.', 'Instrumentos de navegação.', 'Documentos e fotografias.', 'História da Marinha do Brasil.', 'Explicações sobre a defesa do território.', 'Exposição sobre o poder naval na formação do Brasil.']",
+    "EN": "['Detailed ship models.', 'Paintings and naval-themed works.', 'Historic cannons and weapons.', 'Figureheads.', 'Medals and decorations.', 'Navigation instruments.', 'Documents and photographs.', 'History of Marinha do Brasil.', 'Explanations of territorial defense.', 'An exhibition on naval power in the formation of Brazil.']"
+  },
+  "['Partituras y manuscritos musicales.', 'Fotografías de Villa-Lobos.', 'Correspondencia y documentos.', 'Programas de conciertos.', 'Registros sonoros.', 'Objetos personales.', 'Información sobre las Bachianas Brasileiras.', 'Material relacionado con educación musical.']": {
+    "PT": "['Partituras e manuscritos musicais.', 'Fotografias de Villa-Lobos.', 'Correspondência e documentos.', 'Programas de concertos.', 'Registros sonoros.', 'Objetos pessoais.', 'Informações sobre as Bachianas Brasileiras.', 'Material sobre educação musical.']",
+    "EN": "['Scores and musical manuscripts.', 'Photographs of Villa-Lobos.', 'Correspondence and documents.', 'Concert programs.', 'Sound recordings.', 'Personal belongings.', 'Information on Bachianas Brasileiras.', 'Material related to music education.']"
+  },
+  "['Trofeos históricos.', 'Camisetas utilizadas por grandes jugadores.', 'Objetos de ídolos del club.', 'Historia del remo.', 'Conquistas nacionales.', 'Libertadores y Mundial de 1981.', 'Experiencias audiovisuales.', 'Recursos interactivos.', 'Información sobre otros deportes.', 'Tienda y productos oficiales según disponibilidad.']": {
+    "PT": "['Troféus históricos.', 'Camisas usadas por grandes jogadores.', 'Objetos de ídolos do clube.', 'História do remo.', 'Conquistas nacionais.', 'Libertadores e Mundial de 1981.', 'Experiências audiovisuais.', 'Recursos interativos.', 'Informações sobre outros esportes.', 'Loja e produtos oficiais conforme disponibilidade.']",
+    "EN": "['Historic trophies.', 'Shirts worn by great players.', 'Belongings of club idols.', 'Rowing history.', 'National achievements.', 'The 1981 Libertadores and Intercontinental Cup.', 'Audiovisual experiences.', 'Interactive resources.', 'Information on other sports.', 'Shop and official products subject to availability.']"
+  },
+  "['Villa-Lobos nació en Río en 1887.', 'El museo fue creado en 1960.', 'Es el principal centro de referencia sobre el compositor.', 'Villa-Lobos combinó música clásica con expresiones populares brasileñas.', 'Su obra fue reconocida internacionalmente.', 'Actualmente el museo está temporalmente cerrado.']": {
+    "PT": "['Villa-Lobos nasceu no Rio em 1887.', 'O museu foi criado em 1960.', 'É a principal referência sobre o compositor.', 'Villa-Lobos combinou música clássica e expressões populares brasileiras.', 'Sua obra foi reconhecida internacionalmente.', 'O museu está temporariamente fechado.']",
+    "EN": "['Villa-Lobos was born in Rio in 1887.', 'The museum was established in 1960.', 'It is the main reference center for the composer.', 'Villa-Lobos combined classical music with Brazilian popular expressions.', 'His work was internationally recognized.', 'The museum is currently temporarily closed.']"
   }
-
 };

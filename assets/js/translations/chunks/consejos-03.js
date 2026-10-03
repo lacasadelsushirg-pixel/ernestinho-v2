@@ -1740,5 +1740,493 @@ export default {
   "Wi‑Fi y enlaces falsos": {
     "PT": "Wi‑Fi e links falsos",
     "EN": "Fake Wi‑Fi and links"
+  },
+  "Ambiente nocturno y bebidas en un boteco carioca": {
+    "PT": "Ambiente noturno e bebidas em um boteco carioca",
+    "EN": "Nighttime atmosphere and drinks at a Rio boteco"
+  },
+  "EL MEJOR CONSEJO DE ERNESTINHO ❤️": {
+    "PT": "A MELHOR DICA DO ERNESTINHO ❤️",
+    "EN": "ERNESTINHO'S BEST TIP ❤️"
+  },
+  "Movilidad y recorridos por Río de Janeiro": {
+    "PT": "Mobilidade e passeios pelo Rio de Janeiro",
+    "EN": "Getting around and exploring Rio de Janeiro"
+  },
+  "Turista disfrutando y fotografiando en Río de Janeiro": {
+    "PT": "Turista aproveitando e fotografando o Rio de Janeiro",
+    "EN": "A traveler enjoying and photographing Rio de Janeiro"
+  },
+  "Turistas disfrutando del mar y la playa carioca": {
+    "PT": "Turistas aproveitando o mar e a praia carioca",
+    "EN": "Visitors enjoying the sea and beach in Rio"
+  },
+  "Vista panorámica desde un sendero en las montañas de Río": {
+    "PT": "Vista panorâmica de uma trilha nas montanhas do Rio",
+    "EN": "Panoramic view from a trail in Rio's mountains"
+  },
+  "“Lleva una copia digital de tu pasaporte en tu teléfono y, siempre que sea posible, guarda el documento físico en la caja fuerte de tu hotel o departamento. Para salir a conocer la ciudad normalmente basta con llevar lo necesario: un poco de efectivo, tu tarjeta y tu celular con las aplicaciones que recomendamos aquí en la página.”": {
+    "PT": "“Leve uma cópia digital do passaporte no celular e, sempre que possível, deixe o documento físico no cofre do hotel ou apartamento. Para passear pela cidade, normalmente basta levar o necessário: um pouco de dinheiro, seu cartão e o celular com os aplicativos que recomendamos aqui na página.”",
+    "EN": "“Keep a digital copy of your passport on your phone and, whenever possible, leave the physical document in your hotel or apartment safe. To explore the city, you normally only need the essentials: a little cash, your card and your phone with the apps we recommend on this page.”"
+  },
+  "“Río de Janeiro desde mi mirada.”": {
+    "PT": "“Rio de Janeiro pelo meu olhar.”",
+    "EN": "“Rio de Janeiro through my eyes.”"
+  },
+  "“Río no se trata de tener miedo. Se trata de saber dónde estás, disfrutar con sentido común y dejar espacio para sorprenderte. Después de conocer estos pequeños consejos, guarda el celular, ponte unas havaianas y disfruta de la Cidade Maravilhosa.”": {
+    "PT": "“O Rio não é para viver com medo. É para saber onde você está, aproveitar com bom senso e deixar espaço para se surpreender. Depois dessas pequenas dicas, guarde o celular, calce suas havaianas e aproveite a Cidade Maravilhosa.”",
+    "EN": "“Rio is not about being afraid. It is about knowing where you are, enjoying it with common sense and leaving room for surprises. After these small tips, put your phone away, slip on your havaianas and enjoy the Cidade Maravilhosa.”"
+  },
+  "⭐ CONSEJO GOLD DE ERNESTINHO": {
+    "PT": "⭐ DICA GOLD DO ERNESTINHO",
+    "EN": "⭐ ERNESTINHO'S GOLD TIP"
+  },
+  "A conta, por favor — La cuenta, por favor.": {
+    "PT": "A conta, por favor — A conta, por favor.",
+    "EN": "A conta, por favor — The bill, please."
+  },
+  "Aceita cartão? — ¿Acepta tarjeta?": {
+    "PT": "Aceita cartão? — Aceita cartão?",
+    "EN": "Aceita cartão? — Do you accept cards?"
+  },
+  "Aceita dinheiro? — ¿Acepta efectivo?": {
+    "PT": "Aceita dinheiro? — Aceita dinheiro?",
+    "EN": "Aceita dinheiro? — Do you accept cash?"
+  },
+  "Bom dia / Boa tarde / Boa noite — Buenos días / Buenas tardes / Buenas noches.": {
+    "PT": "Bom dia / Boa tarde / Boa noite — Bom dia / Boa tarde / Boa noite.",
+    "EN": "Bom dia / Boa tarde / Boa noite — Good morning / Good afternoon / Good evening or good night."
+  },
+  "Chame a polícia — Llame a la policía.": {
+    "PT": "Chame a polícia — Chame a polícia.",
+    "EN": "Chame a polícia — Call the police."
+  },
+  "Chame uma ambulância — Llame una ambulancia.": {
+    "PT": "Chame uma ambulância — Chame uma ambulância.",
+    "EN": "Chame uma ambulância — Call an ambulance."
+  },
+  "Como chego ao metrô? — ¿Cómo llego al metro?": {
+    "PT": "Como chego ao metrô? — Como chego ao metrô?",
+    "EN": "Como chego ao metrô? — How do I get to the metro?"
+  },
+  "Desculpe, não falo português — Disculpe, no hablo portugués.": {
+    "PT": "Desculpe, não falo português — Desculpe, não falo português.",
+    "EN": "Desculpe, não falo português — Sorry, I do not speak Portuguese."
+  },
+  "Este ônibus vai para…? — ¿Este autobús va hacia…?": {
+    "PT": "Este ônibus vai para…? — Este ônibus vai para…?",
+    "EN": "Este ônibus vai para…? — Does this bus go to…?"
+  },
+  "Não como carne — No como carne.": {
+    "PT": "Não como carne — Não como carne.",
+    "EN": "Não como carne — I do not eat meat."
+  },
+  "Não entendi — No entendí.": {
+    "PT": "Não entendi — Não entendi.",
+    "EN": "Não entendi — I did not understand."
+  },
+  "Não me sinto bem — No me siento bien.": {
+    "PT": "Não me sinto bem — Não me sinto bem.",
+    "EN": "Não me sinto bem — I do not feel well."
+  },
+  "O ar-condicionado não funciona — El aire acondicionado no funciona.": {
+    "PT": "O ar-condicionado não funciona — O ar-condicionado não funciona.",
+    "EN": "O ar-condicionado não funciona — The air conditioning is not working."
+  },
+  "O serviço está incluído? — ¿El servicio está incluido?": {
+    "PT": "O serviço está incluído? — O serviço está incluído?",
+    "EN": "O serviço está incluído? — Is the service charge included?"
+  },
+  "Oi, tudo bem? — Hola, ¿todo bien?": {
+    "PT": "Oi, tudo bem? — Oi, tudo bem?",
+    "EN": "Oi, tudo bem? — Hi, how are you?"
+  },
+  "Onde fica o banheiro? — ¿Dónde está el baño?": {
+    "PT": "Onde fica o banheiro? — Onde fica o banheiro?",
+    "EN": "Onde fica o banheiro? — Where is the bathroom?"
+  },
+  "Onde fica…? — ¿Dónde queda…?": {
+    "PT": "Onde fica…? — Onde fica…?",
+    "EN": "Onde fica…? — Where is…?"
+  },
+  "Onde há uma farmácia ou UPA? — ¿Dónde hay una farmacia o UPA?": {
+    "PT": "Onde há uma farmácia ou UPA? — Onde há uma farmácia ou UPA?",
+    "EN": "Onde há uma farmácia ou UPA? — Where is there a pharmacy or UPA urgent care unit?"
+  },
+  "Perdi meu documento / celular — Perdí mi documento / celular.": {
+    "PT": "Perdi meu documento / celular — Perdi meu documento / celular.",
+    "EN": "Perdi meu documento / celular — I lost my ID / phone."
+  },
+  "Pode falar mais devagar? — ¿Puede hablar más despacio?": {
+    "PT": "Pode falar mais devagar? — Pode falar mais devagar?",
+    "EN": "Pode falar mais devagar? — Could you speak more slowly?"
+  },
+  "Pode me avisar quando chegar? — ¿Puede avisarme cuando lleguemos?": {
+    "PT": "Pode me avisar quando chegar? — Pode me avisar quando chegarmos?",
+    "EN": "Pode me avisar quando chegar? — Could you let me know when we arrive?"
+  },
+  "Pode repetir, por favor? — ¿Puede repetir, por favor?": {
+    "PT": "Pode repetir, por favor? — Pode repetir, por favor?",
+    "EN": "Pode repetir, por favor? — Could you repeat that, please?"
+  },
+  "Por favor / Obrigado(a) / De nada — Por favor / Gracias / De nada.": {
+    "PT": "Por favor / Obrigado(a) / De nada — Por favor / Obrigado(a) / De nada.",
+    "EN": "Por favor / Obrigado(a) / De nada — Please / Thank you / You're welcome."
+  },
+  "Posso deixar as malas? — ¿Puedo dejar las maletas?": {
+    "PT": "Posso deixar as malas? — Posso deixar as malas?",
+    "EN": "Posso deixar as malas? — Can I leave my bags?"
+  },
+  "Posso pagar com Pix? — ¿Puedo pagar con Pix?": {
+    "PT": "Posso pagar com Pix? — Posso pagar com Pix?",
+    "EN": "Posso pagar com Pix? — Can I pay with Pix?"
+  },
+  "Preciso de ajuda — Necesito ayuda.": {
+    "PT": "Preciso de ajuda — Preciso de ajuda.",
+    "EN": "Preciso de ajuda — I need help."
+  },
+  "Qual é a próxima estação? — ¿Cuál es la próxima estación?": {
+    "PT": "Qual é a próxima estação? — Qual é a próxima estação?",
+    "EN": "Qual é a próxima estação? — What is the next station?"
+  },
+  "Qual é a senha do Wi-Fi? — ¿Cuál es la contraseña del Wi-Fi?": {
+    "PT": "Qual é a senha do Wi-Fi? — Qual é a senha do Wi-Fi?",
+    "EN": "Qual é a senha do Wi-Fi? — What is the Wi-Fi password?"
+  },
+  "Quanto custa a corrida? — ¿Cuánto cuesta el viaje?": {
+    "PT": "Quanto custa a corrida? — Quanto custa a corrida?",
+    "EN": "Quanto custa a corrida? — How much is the ride?"
+  },
+  "Quanto custa? — ¿Cuánto cuesta?": {
+    "PT": "Quanto custa? — Quanto custa?",
+    "EN": "Quanto custa? — How much does it cost?"
+  },
+  "Quero ir para este endereço — Quiero ir a esta dirección.": {
+    "PT": "Quero ir para este endereço — Quero ir para este endereço.",
+    "EN": "Quero ir para este endereço — I want to go to this address."
+  },
+  "Quero isto, por favor — Quiero esto, por favor.": {
+    "PT": "Quero isto, por favor — Quero isto, por favor.",
+    "EN": "Quero isto, por favor — I would like this, please."
+  },
+  "Sem gelo / Sem açúcar — Sin hielo / Sin azúcar.": {
+    "PT": "Sem gelo / Sem açúcar — Sem gelo / Sem açúcar.",
+    "EN": "Sem gelo / Sem açúcar — No ice / No sugar."
+  },
+  "Sou alérgico(a) a… — Soy alérgico(a) a…": {
+    "PT": "Sou alérgico(a) a… — Sou alérgico(a) a…",
+    "EN": "Sou alérgico(a) a… — I am allergic to…"
+  },
+  "Tem opção vegetariana? — ¿Tiene opción vegetariana?": {
+    "PT": "Tem opção vegetariana? — Tem opção vegetariana?",
+    "EN": "Tem opção vegetariana? — Is there a vegetarian option?"
+  },
+  "Tem troco? — ¿Tiene cambio?": {
+    "PT": "Tem troco? — Tem troco?",
+    "EN": "Tem troco? — Do you have change?"
+  },
+  "Tenho uma reserva — Tengo una reserva.": {
+    "PT": "Tenho uma reserva — Tenho uma reserva.",
+    "EN": "Tenho uma reserva — I have a reservation."
+  },
+  "Uma água sem gás / com gás — Un agua sin gas / con gas.": {
+    "PT": "Uma água sem gás / com gás — Uma água sem gás / com gás.",
+    "EN": "Uma água sem gás / com gás — A still / sparkling water."
+  },
+  "Você fala espanhol? — ¿Habla español?": {
+    "PT": "Você fala espanhol? — Você fala espanhol?",
+    "EN": "Você fala espanhol? — Do you speak Spanish?"
+  },
+  "É longe daqui? — ¿Está lejos de aquí?": {
+    "PT": "É longe daqui? — É longe daqui?",
+    "EN": "É longe daqui? — Is it far from here?"
+  },
+  "DOMINGO · Camina o pedalea por las orlas con carriles recreativos, visita Feira da Glória por la mañana, almuerza cerca de la playa y termina en Ipanema, Urca o Parque da Cidade. Confirma horarios dominicales.": {
+    "PT": "DOMINGO · Caminhe ou pedale pelas orlas com faixas de lazer, visite a Feira da Glória pela manhã, almoce perto da praia e termine em Ipanema, Urca ou Parque da Cidade. Confirme os horários de domingo.",
+    "EN": "SUNDAY · Walk or cycle along waterfronts with recreational lanes, visit Feira da Glória in the morning, have lunch near the beach and finish in Ipanema, Urca or Parque da Cidade. Confirm Sunday opening hours."
+  },
+  "JUEVES · Explora Urca: Praia Vermelha, Pista Cláudio Coutinho y almuerzo en el barrio. Sube al Pan de Azúcar para la hora dorada y luego disfruta la Mureta da Urca.": {
+    "PT": "QUINTA-FEIRA · Explore a Urca: Praia Vermelha, Pista Cláudio Coutinho e almoço no bairro. Suba ao Pão de Açúcar na hora dourada e depois aproveite a Mureta da Urca.",
+    "EN": "THURSDAY · Explore Urca: Praia Vermelha, Pista Cláudio Coutinho and lunch in the neighborhood. Go up Sugarloaf Mountain for golden hour, then enjoy Mureta da Urca."
+  },
+  "LUNES · Comienza con Cristo o Pan de Azúcar por la mañana. Almuerza en Copacabana, recorre Forte de Copacabana y Arpoador por la tarde y confirma una roda de samba en Pedra do Sal para la noche. Muchos museos cierran: revisa antes.": {
+    "PT": "SEGUNDA-FEIRA · Comece com Cristo ou Pão de Açúcar pela manhã. Almoce em Copacabana, visite o Forte de Copacabana e o Arpoador à tarde e confirme uma roda de samba na Pedra do Sal à noite. Muitos museus fecham: confira antes.",
+    "EN": "MONDAY · Start with Christ the Redeemer or Sugarloaf Mountain in the morning. Have lunch in Copacabana, visit Forte de Copacabana and Arpoador in the afternoon, and confirm a samba gathering at Pedra do Sal for the evening. Many museums close: check first."
+  },
+  "MARTES · Dedica la mañana al Centro histórico: Real Gabinete, Colombo, CCBB y Praça XV. Sube a Santa Teresa por la tarde y termina entre Selarón y Lapa, siempre comprobando la programación nocturna.": {
+    "PT": "TERÇA-FEIRA · Dedique a manhã ao Centro histórico: Real Gabinete, Colombo, CCBB e Praça XV. Vá a Santa Teresa à tarde e termine entre Selarón e Lapa, sempre conferindo a programação noturna.",
+    "EN": "TUESDAY · Spend the morning in the historic center: Real Gabinete, Colombo, CCBB and Praça XV. Head to Santa Teresa in the afternoon and finish around Selarón and Lapa, always checking the evening schedule."
+  },
+  "MIÉRCOLES · Día de Zona Sur: Jardim Botânico y Parque Lage temprano, almuerzo en Botafogo y playa en Ipanema. Termina con el atardecer de Arpoador y una cena o bar en Ipanema.": {
+    "PT": "QUARTA-FEIRA · Dia de Zona Sul: Jardim Botânico e Parque Lage cedo, almoço em Botafogo e praia em Ipanema. Termine com o pôr do sol no Arpoador e um jantar ou bar em Ipanema.",
+    "EN": "WEDNESDAY · A South Zone day: Jardim Botânico and Parque Lage early, lunch in Botafogo and the beach in Ipanema. Finish with sunset at Arpoador and dinner or a bar in Ipanema."
+  },
+  "Qué hacer cada día de la semana": {
+    "PT": "O que fazer em cada dia da semana",
+    "EN": "What to do each day of the week"
+  },
+  "SÁBADO · Ideal para Búzios, Arraial, Angra, Ilha Grande o un Full Day Río. Si te quedas en la ciudad, combina Feira de São Cristóvão, Maracaná y una noche con música.": {
+    "PT": "SÁBADO · Ideal para Búzios, Arraial, Angra, Ilha Grande ou um Full Day Rio. Se ficar na cidade, combine Feira de São Cristóvão, Maracanã e uma noite com música.",
+    "EN": "SATURDAY · Ideal for Búzios, Arraial, Angra, Ilha Grande or a Full Day Rio tour. If you stay in the city, combine Feira de São Cristóvão, Maracanã and an evening with music."
+  },
+  "VIERNES · Reserva una excursión a Petrópolis, Niterói o una experiencia de aventura. Al regresar, elige samba, pagode, bares de Botafogo o vida nocturna de Lapa según la agenda.": {
+    "PT": "SEXTA-FEIRA · Reserve um passeio para Petrópolis, Niterói ou uma experiência de aventura. Na volta, escolha samba, pagode, bares de Botafogo ou a noite da Lapa conforme a programação.",
+    "EN": "FRIDAY · Book an excursion to Petrópolis, Niterói or an adventure experience. On your return, choose samba, pagode, Botafogo bars or Lapa nightlife according to the schedule."
+  },
+  "Comienza junto al mar en uno de los grandes atractivos familiares de la Zona Portuaria. Sus enormes tanques, túneles y vida marina permiten empezar el día sin prisa antes de continuar caminando por el Boulevard Olímpico.": {
+    "PT": "Comece junto ao mar em uma das grandes atrações para famílias da Zona Portuária. Os enormes tanques, túneis e a vida marinha permitem iniciar o dia sem pressa antes de continuar a caminhada pelo Boulevard Olímpico.",
+    "EN": "Start by the sea at one of the Port Zone's major family attractions. Its huge tanks, tunnels and marine life let you begin the day at an easy pace before continuing on foot along Boulevard Olímpico."
+  },
+  "Continúa por el Boulevard Olímpico hasta la monumental obra de Eduardo Kobra. Sus enormes retratos y colores cuentan una historia de diversidad cultural y transformaron este tramo del antiguo puerto en una galería a cielo abierto.": {
+    "PT": "Continue pelo Boulevard Olímpico até a obra monumental de Eduardo Kobra. Seus enormes retratos e cores contam uma história de diversidade cultural e transformaram este trecho do antigo porto em uma galeria a céu aberto.",
+    "EN": "Continue along Boulevard Olímpico to Eduardo Kobra's monumental artwork. Its huge portraits and colors tell a story of cultural diversity and have turned this part of the old port into an open-air gallery."
+  },
+  "Desde la zona portuaria damos el salto hacia la historia colonial. Por fuera es sobrio; por dentro sorprende con uno de los conjuntos barrocos dorados más impresionantes de Río. Entra con calma y recuerda que sigue siendo un espacio religioso.": {
+    "PT": "Da Zona Portuária, seguimos para a história colonial. Por fora é sóbrio; por dentro surpreende com um dos conjuntos barrocos dourados mais impressionantes do Rio. Entre com calma e lembre que continua sendo um espaço religioso.",
+    "EN": "From the port area, we move into colonial history. Sober on the outside, it surprises inside with one of Rio's most impressive gilded Baroque ensembles. Enter calmly and remember that it remains a religious space."
+  },
+  "La rueda gigante se convirtió en una de las imágenes más reconocibles del Porto Maravilha. Si decides subir, tendrás una perspectiva diferente de la zona portuaria y de la Bahía de Guanabara; si no, vale igualmente la parada para verla y fotografiarla.": {
+    "PT": "A roda-gigante se tornou uma das imagens mais reconhecidas do Porto Maravilha. Se decidir subir, terá outra perspectiva da Zona Portuária e da Baía de Guanabara; se não, ainda vale parar para vê-la e fotografá-la.",
+    "EN": "The observation wheel has become one of Porto Maravilha's most recognizable sights. If you ride it, you get a different perspective on the port area and Guanabara Bay; otherwise, it is still worth stopping to see and photograph it."
+  },
+  "Llegar a Praça Mauá y encontrarse con el Museu do Amanhã es uno de los momentos más bonitos de la ruta. Puedes admirar su arquitectura desde fuera o reservar tiempo para entrar a sus exposiciones sobre ciencia, sociedad, sostenibilidad y futuros posibles.": {
+    "PT": "Chegar à Praça Mauá e encontrar o Museu do Amanhã é um dos momentos mais bonitos do trajeto. Você pode admirar a arquitetura por fora ou reservar tempo para as exposições sobre ciência, sociedade, sustentabilidade e futuros possíveis.",
+    "EN": "Reaching Praça Mauá and seeing Museu do Amanhã is one of the route's most beautiful moments. You can admire its architecture from outside or allow time for its exhibitions on science, society, sustainability and possible futures."
+  },
+  "Ruta Zona Portuaria y Centro de Río": {
+    "PT": "Rota pela Zona Portuária e Centro do Rio",
+    "EN": "Port Zone and downtown Rio route"
+  },
+  "Termina en una de las joyas arquitectónicas del Centro. Sus estanterías ascienden varios pisos y envuelven la sala de lectura en un ambiente único. Cuando entres, no mires solamente los libros: levanta la vista y observa todos los detalles.": {
+    "PT": "Termine em uma das joias arquitetônicas do Centro. As estantes sobem vários andares e envolvem a sala de leitura em uma atmosfera única. Ao entrar, não olhe apenas os livros: levante os olhos e observe cada detalhe.",
+    "EN": "Finish at one of downtown's architectural gems. The shelves rise several stories and surround the reading room with a unique atmosphere. When you enter, do not just look at the books: look up and take in all the details."
+  },
+  "Ya en pleno Centro, haz una pausa en esta institución carioca fundada en 1894. Sus espejos, vitrales, madera y salón histórico son parte de la experiencia. Puedes entrar para conocerla, tomar un café o darte un gusto antes de la última parada.": {
+    "PT": "Já no coração do Centro, faça uma pausa nesta instituição carioca fundada em 1894. Espelhos, vitrais, madeira e o salão histórico fazem parte da experiência. Você pode entrar para conhecer, tomar um café ou se dar um agrado antes da última parada.",
+    "EN": "In the heart of downtown, pause at this Rio institution founded in 1894. Its mirrors, stained glass, woodwork and historic hall are part of the experience. Stop in to look around, have coffee or treat yourself before the final stop."
+  },
+  "1 día: Full Day Río o selección de Cristo, Pan de Azúcar, Selarón y Centro.": {
+    "PT": "1 dia: Full Day Rio ou uma seleção de Cristo, Pão de Açúcar, Selarón e Centro.",
+    "EN": "1 day: a Full Day Rio tour or a selection of Christ the Redeemer, Sugarloaf Mountain, Selarón and downtown."
+  },
+  "2 días: añade playas, Arpoador y una noche de samba.": {
+    "PT": "2 dias: acrescente praias, Arpoador e uma noite de samba.",
+    "EN": "2 days: add beaches, Arpoador and an evening of samba."
+  },
+  "3 días: incorpora Centro histórico y región portuaria.": {
+    "PT": "3 dias: inclua o Centro histórico e a região portuária.",
+    "EN": "3 days: include the historic center and port area."
+  },
+  "4–5 días: reserva una jornada para naturaleza, Niterói o Petrópolis.": {
+    "PT": "4–5 dias: reserve um dia para natureza, Niterói ou Petrópolis.",
+    "EN": "4–5 days: set aside a day for nature, Niterói or Petrópolis."
+  },
+  "6–7 días: combina Río con Búzios, Arraial, Angra o Ilha Grande.": {
+    "PT": "6–7 dias: combine o Rio com Búzios, Arraial, Angra ou Ilha Grande.",
+    "EN": "6–7 days: combine Rio with Búzios, Arraial, Angra or Ilha Grande."
+  },
+  "Ante una urgencia grave, protege primero a la persona y llama al 192. Cuando sea posible, contacta después a la central del seguro y sigue el procedimiento indicado.": {
+    "PT": "Em uma emergência grave, proteja primeiro a pessoa e ligue 192. Quando possível, entre depois em contato com a central do seguro e siga o procedimento indicado.",
+    "EN": "In a serious emergency, protect the person first and call 192. When possible, then contact the insurance assistance service and follow the indicated procedure."
+  },
+  "Conserva recetas, diagnósticos, informes, facturas y comprobantes. Son importantes para solicitar reembolsos.": {
+    "PT": "Guarde receitas, diagnósticos, relatórios, notas fiscais e comprovantes. São importantes para solicitar reembolso.",
+    "EN": "Keep prescriptions, diagnoses, reports, invoices and receipts. They are important when requesting reimbursement."
+  },
+  "Contrata antes de viajar y guarda la póliza, el número de asistencia y el comprobante de compra sin conexión.": {
+    "PT": "Contrate antes de viajar e salve a apólice, o número de assistência e o comprovante de compra para acesso sem internet.",
+    "EN": "Purchase before traveling and save the policy, assistance number and proof of purchase for offline access."
+  },
+  "Cómo activar tu seguro si necesitas ayuda": {
+    "PT": "Como acionar seu seguro se precisar de ajuda",
+    "EN": "How to use your insurance if you need help"
+  },
+  "Declara y revisa enfermedades preexistentes, embarazo, edad, deportes y actividades de aventura; pueden tener límites o exclusiones especiales.": {
+    "PT": "Declare e confira doenças preexistentes, gravidez, idade, esportes e atividades de aventura; podem ter limites ou exclusões específicos.",
+    "EN": "Disclose and check pre-existing conditions, pregnancy, age, sports and adventure activities; specific limits or exclusions may apply."
+  },
+  "Esta es una de las recomendaciones que más cuido: ante un problema, tener asistencia cambia completamente la experiencia.": {
+    "PT": "Esta é uma das recomendações a que mais dou atenção: diante de um problema, ter assistência muda completamente a experiência.",
+    "EN": "This is one recommendation I take particular care with: when a problem occurs, having assistance completely changes the experience."
+  },
+  "Lee la póliza completa antes de pagar. La cobertura, las exclusiones y la forma de atención dependen del plan contratado.": {
+    "PT": "Leia a apólice inteira antes de pagar. A cobertura, as exclusões e a forma de atendimento dependem do plano contratado.",
+    "EN": "Read the full policy before paying. Coverage, exclusions and how assistance is provided depend on the plan purchased."
+  },
+  "No elijas solamente por precio: compara gastos médicos, medicamentos, hospitalización, repatriación, equipaje, demoras y cancelaciones.": {
+    "PT": "Não escolha só pelo preço: compare despesas médicas, medicamentos, internação, repatriação, bagagem, atrasos e cancelamentos.",
+    "EN": "Do not choose by price alone: compare medical costs, medication, hospitalization, repatriation, luggage, delays and cancellations."
+  },
+  "SEGURO DE VIAJE": {
+    "PT": "SEGURO VIAGEM",
+    "EN": "TRAVEL INSURANCE"
+  },
+  "Ten a mano tu póliza, documento y datos del viaje. Contacta los canales oficiales de tu aseguradora y sigue sus indicaciones. Conserva informes, recetas, facturas y comprobantes para cualquier reembolso.": {
+    "PT": "Tenha à mão a apólice, seu documento e os dados da viagem. Entre em contato pelos canais oficiais da seguradora e siga as orientações. Guarde relatórios, receitas, notas fiscais e comprovantes para qualquer reembolso.",
+    "EN": "Keep your policy, ID and trip details handy. Contact your insurer's official channels and follow their instructions. Keep reports, prescriptions, invoices and receipts for any reimbursement."
+  },
+  "Viajar protegido también es parte del viaje": {
+    "PT": "Viajar protegido também faz parte da viagem",
+    "EN": "Being protected is part of the journey too"
+  },
+  "guarda la póliza también sin conexión y revisa límites, franquicias, exclusiones y actividades cubiertas.": {
+    "PT": "salve também a apólice para acesso sem internet e confira limites, franquias, exclusões e atividades cobertas.",
+    "EN": "also save the policy for offline access and check limits, deductibles, exclusions and covered activities."
+  },
+  "Amanecer activo": {
+    "PT": "Amanhecer ativo",
+    "EN": "An active sunrise"
+  },
+  "Amanecer urbano": {
+    "PT": "Amanhecer urbano",
+    "EN": "An urban sunrise"
+  },
+  "Amaneceres y atardeceres inolvidables": {
+    "PT": "Amanheceres e pores do sol inesquecíveis",
+    "EN": "Unforgettable sunrises and sunsets"
+  },
+  "Atardecer clásico": {
+    "PT": "Pôr do sol clássico",
+    "EN": "A classic sunset"
+  },
+  "Atardecer completo": {
+    "PT": "Pôr do sol completo",
+    "EN": "The full sunset experience"
+  },
+  "Atardecer panorámico": {
+    "PT": "Pôr do sol panorâmico",
+    "EN": "A panoramic sunset"
+  },
+  "Atardecer sin sendero": {
+    "PT": "Pôr do sol sem trilha",
+    "EN": "Sunset without a hike"
+  },
+  "Barcos en primer plano y el Pan de Azúcar recibiendo las primeras luces.": {
+    "PT": "Barcos em primeiro plano e o Pão de Açúcar recebendo as primeiras luzes.",
+    "EN": "Boats in the foreground and Sugarloaf Mountain catching the first light."
+  },
+  "Desde Niterói se alinean la bahía, el Pan de Azúcar y el Cristo. Regresa antes de quedar aislado.": {
+    "PT": "De Niterói, a baía, o Pão de Açúcar e o Cristo se alinham. Volte antes de ficar isolado.",
+    "EN": "From Niterói, the bay, Sugarloaf Mountain and Christ the Redeemer line up. Return before you are left isolated."
+  },
+  "El sol cae detrás de Dois Irmãos y enciende Ipanema. Llega 45 minutos antes.": {
+    "PT": "O sol se põe atrás do Dois Irmãos e ilumina Ipanema. Chegue 45 minutos antes.",
+    "EN": "The sun sets behind Dois Irmãos and lights up Ipanema. Arrive 45 minutes beforehand."
+  },
+  "Lagoa, Cristo, playas y montañas desde la Floresta da Tijuca. Organiza el regreso.": {
+    "PT": "Lagoa, Cristo, praias e montanhas vistos da Floresta da Tijuca. Organize a volta.",
+    "EN": "The lagoon, Christ the Redeemer, beaches and mountains seen from Floresta da Tijuca. Plan your return."
+  },
+  "Mar, arena y Pan de Azúcar con luz suave. Continúa luego por la Pista Cláudio Coutinho.": {
+    "PT": "Mar, areia e Pão de Açúcar sob luz suave. Depois, continue pela Pista Cláudio Coutinho.",
+    "EN": "Sea, sand and Sugarloaf Mountain in soft light. Continue afterward along Pista Cláudio Coutinho."
+  },
+  "Palmeras, ciclovía y bahía forman una escena carioca mientras la ciudad despierta.": {
+    "PT": "Palmeiras, ciclovia e baía formam uma cena carioca enquanto a cidade desperta.",
+    "EN": "Palm trees, the cycle path and the bay form a Rio scene as the city wakes up."
+  },
+  "Primeras luces": {
+    "PT": "Primeiras luzes",
+    "EN": "First light"
+  },
+  "Sube temprano para ver hora dorada, puesta de sol y las luces de la ciudad.": {
+    "PT": "Suba cedo para ver a hora dourada, o pôr do sol e as luzes da cidade.",
+    "EN": "Go up early to see golden hour, sunset and the city lights."
+  },
+  "Una puesta de sol relajada frente a la bahía, perfecta con bebida y petisco.": {
+    "PT": "Um pôr do sol tranquilo de frente para a baía, perfeito com uma bebida e um petisco.",
+    "EN": "A relaxed sunset overlooking the bay, perfect with a drink and a snack."
+  },
+  "Una vista elevada del Cristo, Pan de Azúcar y bahía. Ve con transporte y horario organizados.": {
+    "PT": "Uma vista elevada do Cristo, Pão de Açúcar e baía. Vá com transporte e horários organizados.",
+    "EN": "An elevated view of Christ the Redeemer, Sugarloaf Mountain and the bay. Arrange transport and timing before going."
+  },
+  "Una vista fácil de Leblon, Ipanema y Arpoador para combinar con una tarde de playa.": {
+    "PT": "Uma vista fácil de Leblon, Ipanema e Arpoador para combinar com uma tarde de praia.",
+    "EN": "An easy view of Leblon, Ipanema and Arpoador to combine with an afternoon at the beach."
+  },
+  "Artesanía carioca": {
+    "PT": "Artesanato carioca",
+    "EN": "Rio handicrafts"
+  },
+  "Busca procedencia, sello y botella cerrada. Verifica límites de alcohol y líquidos del equipaje antes de decidir.": {
+    "PT": "Confira a procedência, o selo e se a garrafa está lacrada. Verifique os limites de álcool e líquidos na bagagem antes de decidir.",
+    "EN": "Check the origin, seal and that the bottle is unopened. Check luggage limits for alcohol and liquids before deciding."
+  },
+  "Cachaça y bebidas": {
+    "PT": "Cachaça e bebidas",
+    "EN": "Cachaça and drinks"
+  },
+  "Camisetas, banderas, instrumentos pequeños y artículos de escuelas de samba llevan una parte de la cultura carioca.": {
+    "PT": "Camisetas, bandeiras, pequenos instrumentos e artigos de escolas de samba levam um pouco da cultura carioca.",
+    "EN": "T-shirts, flags, small instruments and samba school items carry a piece of Rio's culture."
+  },
+  "Dulces brasileños": {
+    "PT": "Doces brasileiros",
+    "EN": "Brazilian sweets"
+  },
+  "Fútbol y samba": {
+    "PT": "Futebol e samba",
+    "EN": "Football and samba"
+  },
+  "Guarda comprobantes, protege piezas frágiles y comprueba restricciones de alimentos, semillas, madera, alcohol y líquidos de tu destino.": {
+    "PT": "Guarde comprovantes, proteja peças frágeis e confira as restrições de alimentos, sementes, madeira, álcool e líquidos no destino.",
+    "EN": "Keep receipts, protect fragile items and check your destination's restrictions on food, seeds, wood, alcohol and liquids."
+  },
+  "Havaianas y moda de playa": {
+    "PT": "Havaianas e moda praia",
+    "EN": "Havaianas and beachwear"
+  },
+  "Ilustraciones, cerámica, joyería, bolsos y piezas hechas a mano son recuerdos más personales que un imán genérico.": {
+    "PT": "Ilustrações, cerâmica, joias, bolsas e peças artesanais são lembranças mais pessoais do que um ímã genérico.",
+    "EN": "Illustrations, ceramics, jewelry, bags and handmade pieces are more personal souvenirs than a generic magnet."
+  },
+  "Paçoca, goiabada, bananinha, brigadeiro y chocolates funcionan bien como regalos económicos para compartir.": {
+    "PT": "Paçoca, goiabada, bananinha, brigadeiro e chocolates são bons presentes econômicos para compartilhar.",
+    "EN": "Paçoca, goiabada, bananinha, brigadeiro and chocolates make inexpensive gifts to share."
+  },
+  "Sandalias, pareos, bikinis y accesorios ocupan poco espacio. Compara talla brasileña y talla de tu país antes de comprar.": {
+    "PT": "Sandálias, cangas, biquínis e acessórios ocupam pouco espaço. Compare a numeração brasileira com a do seu país antes de comprar.",
+    "EN": "Sandals, sarongs, bikinis and accessories take up little space. Compare Brazilian sizing with your country's before buying."
+  },
+  "Un regalo aromático, fácil de transportar y profundamente brasileño. Revisa si viene molido o en grano y conserva el empaque cerrado.": {
+    "PT": "Um presente aromático, fácil de transportar e profundamente brasileiro. Confira se é moído ou em grãos e mantenha a embalagem fechada.",
+    "EN": "An aromatic, easy-to-carry and deeply Brazilian gift. Check whether it is ground or whole bean and keep the packaging sealed."
+  },
+  "Una caminata frente al mar entre puestos de artesanía, camisetas, decoración y pequeños recuerdos. Horarios y montaje pueden variar.": {
+    "PT": "Uma caminhada à beira-mar entre barracas de artesanato, camisetas, decoração e pequenas lembranças. Os horários e a montagem podem variar.",
+    "EN": "A waterfront walk among stalls selling handicrafts, T-shirts, decorations and small souvenirs. Hours and stall setup may vary."
+  },
+  "📍 Avenida Atlântica, Copacabana. Confirma el tramo activo el mismo día.": {
+    "PT": "📍 Avenida Atlântica, Copacabana. Confirme o trecho ativo no mesmo dia.",
+    "EN": "📍 Avenida Atlântica, Copacabana. Confirm the active stretch on the day."
+  },
+  "📍 Café Ernestinho, cafeterías y supermercados.": {
+    "PT": "📍 Café Ernestinho, cafeterias e supermercados.",
+    "EN": "📍 Café Ernestinho, coffee shops and supermarkets."
+  },
+  "📍 Casas especializadas y supermercados reconocidos.": {
+    "PT": "📍 Lojas especializadas e supermercados reconhecidos.",
+    "EN": "📍 Specialist shops and reputable supermarkets."
+  },
+  "📍 Consulta aduana y aerolínea antes del vuelo.": {
+    "PT": "📍 Consulte a alfândega e a companhia aérea antes do voo.",
+    "EN": "📍 Check with customs and your airline before flying."
+  },
+  "📍 Feirartes, Ipanema, Copacabana, Glória y centros culturales.": {
+    "PT": "📍 Feirartes, Ipanema, Copacabana, Glória e centros culturais.",
+    "EN": "📍 Feirartes, Ipanema, Copacabana, Glória and cultural centers."
+  },
+  "📍 Supermercados y tiendas de productos brasileños.": {
+    "PT": "📍 Supermercados e lojas de produtos brasileiros.",
+    "EN": "📍 Supermarkets and shops selling Brazilian products."
+  },
+  "📍 Tiendas oficiales, Maracaná, Cidade do Samba y ferias.": {
+    "PT": "📍 Lojas oficiais, Maracanã, Cidade do Samba e feiras.",
+    "EN": "📍 Official shops, Maracanã, Cidade do Samba and markets."
+  },
+  "📍 Tiendas oficiales, comercios de barrio y shoppings.": {
+    "PT": "📍 Lojas oficiais, comércio de bairro e shoppings.",
+    "EN": "📍 Official shops, neighborhood stores and malls."
   }
 };
