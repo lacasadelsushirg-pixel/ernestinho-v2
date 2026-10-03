@@ -107,5 +107,17 @@ export default {
   "⭐ Consejo de Ernestinho": {
     "PT": "⭐ Dica do Ernestinho",
     "EN": "⭐ Ernestinho’s tip"
+  },
+  "Filtros de recomendaciones": {
+    "PT": "Filtros de recomendações",
+    "EN": "Recommendation filters"
+  },
+  "Condiciones actuales de Río": {
+    "PT": "Condições atuais do Rio",
+    "EN": "Current conditions in Rio"
+  },
+  "Esperando datos": {
+    "PT": "Aguardando dados",
+    "EN": "Waiting for data"
   }
 };
