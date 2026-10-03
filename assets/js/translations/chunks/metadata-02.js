@@ -782,5 +782,497 @@ export default {
   "Yo te recomiendo conocer la Feria Nocturna de Copacabana cuando quieres caminar junto al mar, mirar artesanía y sentir cómo el barrio continúa vivo después de la playa. Para mí, la experiencia no consiste solamente en comprar: las luces, la brisa, la Avenida Atlântica y la mezcla": {
     "PT": "Eu recomendo conhecer a Feira Noturna de Copacabana quando você quer caminhar à beira-mar, ver artesanato e sentir como o bairro continua vivo depois da praia. Para mim, a experiência não consiste apenas em comprar: as luzes, a brisa, a Avenida Atlântica e a mistura",
     "EN": "I recommend visiting the Copacabana Night Market when you want to walk by the sea, browse crafts and feel how the neighborhood stays alive after the beach. For me, the experience is not only about shopping: the lights, the breeze, Avenida Atlântica and the mix"
+  },
+  "Academia Brasileira de Letras | Ernestinho Carioca": {
+    "PT": "Academia Brasileira de Letras | Ernestinho Carioca",
+    "EN": "Academia Brasileira de Letras | Ernestinho Carioca"
+  },
+  "Centro Cultural Ação da Cidadania | Ernestinho Carioca": {
+    "PT": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
+    "EN": "Centro Cultural Ação da Cidadania | Ernestinho Carioca"
+  },
+  "Museu do Açude | Ernestinho Carioca": {
+    "PT": "Museu do Açude | Ernestinho Carioca",
+    "EN": "Museu do Açude | Ernestinho Carioca"
+  },
+  "Museu do Amanhã | Ernestinho Carioca": {
+    "PT": "Museu do Amanhã | Ernestinho Carioca",
+    "EN": "Museu do Amanhã | Ernestinho Carioca"
+  },
+  "Igreja de Nossa Senhora do Carmo da Antiga Sé | Ernestinho Carioca": {
+    "PT": "Igreja de Nossa Senhora do Carmo da Antiga Sé | Ernestinho Carioca",
+    "EN": "Igreja de Nossa Senhora do Carmo da Antiga Sé | Ernestinho Carioca"
+  },
+  "Teatro Municipal Armando Gonzaga | Ernestinho Carioca": {
+    "PT": "Teatro Municipal Armando Gonzaga | Ernestinho Carioca",
+    "EN": "Teatro Municipal Armando Gonzaga | Ernestinho Carioca"
+  },
+  "Museu de Arqueologia de Itaipu | Ernestinho Carioca": {
+    "PT": "Museu de Arqueologia de Itaipu | Ernestinho Carioca",
+    "EN": "Museu de Arqueologia de Itaipu | Ernestinho Carioca"
+  },
+  "Teatro Municipal Arthur Azevedo | Ernestinho Carioca": {
+    "PT": "Teatro Municipal Arthur Azevedo | Ernestinho Carioca",
+    "EN": "Teatro Municipal Arthur Azevedo | Ernestinho Carioca"
+  },
+  "Museu Casa de Benjamin Constant | Ernestinho Carioca": {
+    "PT": "Museu Casa de Benjamin Constant | Ernestinho Carioca",
+    "EN": "Museu Casa de Benjamin Constant | Ernestinho Carioca"
+  },
+  "BiblioMaison | Ernestinho Carioca": {
+    "PT": "BiblioMaison | Ernestinho Carioca",
+    "EN": "BiblioMaison | Ernestinho Carioca"
+  },
+  "Biblioteca do CCBB Rio | Ernestinho Carioca": {
+    "PT": "Biblioteca do CCBB Rio | Ernestinho Carioca",
+    "EN": "Biblioteca do CCBB Rio | Ernestinho Carioca"
+  },
+  "Biblioteca do Centro Cultural Justiça Federal | Ernestinho Carioca": {
+    "PT": "Biblioteca do Centro Cultural Justiça Federal | Ernestinho Carioca",
+    "EN": "Biblioteca do Centro Cultural Justiça Federal | Ernestinho Carioca"
+  },
+  "Biblioteca do Instituto Moreira Salles | Ernestinho Carioca": {
+    "PT": "Biblioteca do Instituto Moreira Salles | Ernestinho Carioca",
+    "EN": "Biblioteca do Instituto Moreira Salles | Ernestinho Carioca"
+  },
+  "Biblioteca do MAM Rio | Ernestinho Carioca": {
+    "PT": "Biblioteca do MAM Rio | Ernestinho Carioca",
+    "EN": "Biblioteca do MAM Rio | Ernestinho Carioca"
+  },
+  "Biblioteca Parque de Manguinhos | Ernestinho Carioca": {
+    "PT": "Biblioteca Parque de Manguinhos | Ernestinho Carioca",
+    "EN": "Biblioteca Parque de Manguinhos | Ernestinho Carioca"
+  },
+  "Biblioteca Nacional | Ernestinho Carioca": {
+    "PT": "Biblioteca Nacional | Ernestinho Carioca",
+    "EN": "Biblioteca Nacional | Ernestinho Carioca"
+  },
+  "Biblioteca Parque Estadual | Ernestinho Carioca": {
+    "PT": "Biblioteca Parque Estadual | Ernestinho Carioca",
+    "EN": "Biblioteca Parque Estadual | Ernestinho Carioca"
+  },
+  "Biblioteca Parque da Rocinha | Ernestinho Carioca": {
+    "PT": "Biblioteca Parque da Rocinha | Ernestinho Carioca",
+    "EN": "Biblioteca Parque da Rocinha | Ernestinho Carioca"
+  },
+  "Igreja de Nossa Senhora do Bonsucesso | Ernestinho Carioca": {
+    "PT": "Igreja de Nossa Senhora do Bonsucesso | Ernestinho Carioca",
+    "EN": "Igreja de Nossa Senhora do Bonsucesso | Ernestinho Carioca"
+  },
+  "Teatro Municipal Cacilda Becker | Ernestinho Carioca": {
+    "PT": "Teatro Municipal Cacilda Becker | Ernestinho Carioca",
+    "EN": "Teatro Municipal Cacilda Becker | Ernestinho Carioca"
+  },
+  "CAIXA Cultural Rio de Janeiro | Ernestinho Carioca": {
+    "PT": "CAIXA Cultural Rio de Janeiro | Ernestinho Carioca",
+    "EN": "CAIXA Cultural Rio de Janeiro | Ernestinho Carioca"
+  },
+  "Igreja de Nossa Senhora da Candelária | Ernestinho Carioca": {
+    "PT": "Igreja de Nossa Senhora da Candelária | Ernestinho Carioca",
+    "EN": "Igreja de Nossa Senhora da Candelária | Ernestinho Carioca"
+  },
+  "Capela Mayrink | Ernestinho Carioca": {
+    "PT": "Capela Mayrink | Ernestinho Carioca",
+    "EN": "Capela Mayrink | Ernestinho Carioca"
+  },
+  "Paróquia São Sebastião dos Frades Capuchinhos | Ernestinho Carioca": {
+    "PT": "Paróquia São Sebastião dos Frades Capuchinhos | Ernestinho Carioca",
+    "EN": "Paróquia São Sebastião dos Frades Capuchinhos | Ernestinho Carioca"
+  },
+  "Teatro Municipal Carlos Gomes | Ernestinho Carioca": {
+    "PT": "Teatro Municipal Carlos Gomes | Ernestinho Carioca",
+    "EN": "Teatro Municipal Carlos Gomes | Ernestinho Carioca"
+  },
+  "Casa da Leitura | Ernestinho Carioca": {
+    "PT": "Casa da Leitura | Ernestinho Carioca",
+    "EN": "Casa da Leitura | Ernestinho Carioca"
+  },
+  "Casa Histórica de Deodoro | Ernestinho Carioca": {
+    "PT": "Casa Histórica de Deodoro | Ernestinho Carioca",
+    "EN": "Casa Histórica de Deodoro | Ernestinho Carioca"
+  },
+  "Casa França-Brasil | Ernestinho Carioca": {
+    "PT": "Casa França-Brasil | Ernestinho Carioca",
+    "EN": "Casa França-Brasil | Ernestinho Carioca"
+  },
+  "Fundação Casa de Rui Barbosa | Ernestinho Carioca": {
+    "PT": "Fundação Casa de Rui Barbosa | Ernestinho Carioca",
+    "EN": "Fundação Casa de Rui Barbosa | Ernestinho Carioca"
+  },
+  "Catedral Metropolitana de São Sebastião | Ernestinho Carioca": {
+    "PT": "Catedral Metropolitana de São Sebastião | Ernestinho Carioca",
+    "EN": "Catedral Metropolitana de São Sebastião | Ernestinho Carioca"
+  },
+  "Centro Cultural Banco do Brasil — CCBB | Ernestinho Carioca": {
+    "PT": "Centro Cultural Banco do Brasil — CCBB | Ernestinho Carioca",
+    "EN": "Centro Cultural Banco do Brasil — CCBB | Ernestinho Carioca"
+  },
+  "Centro Cultural Justiça Federal | Ernestinho Carioca": {
+    "PT": "Centro Cultural Justiça Federal | Ernestinho Carioca",
+    "EN": "Centro Cultural Justiça Federal | Ernestinho Carioca"
+  },
+  "Museu Chácara do Céu | Ernestinho Carioca": {
+    "PT": "Museu Chácara do Céu | Ernestinho Carioca",
+    "EN": "Museu Chácara do Céu | Ernestinho Carioca"
+  },
+  "Igreja de Nossa Senhora da Conceição e Boa Morte | Ernestinho Carioca": {
+    "PT": "Igreja de Nossa Senhora da Conceição e Boa Morte | Ernestinho Carioca",
+    "EN": "Igreja de Nossa Senhora da Conceição e Boa Morte | Ernestinho Carioca"
+  },
+  "Paróquia Nossa Senhora de Copacabana | Ernestinho Carioca": {
+    "PT": "Paróquia Nossa Senhora de Copacabana | Ernestinho Carioca",
+    "EN": "Paróquia Nossa Senhora de Copacabana | Ernestinho Carioca"
+  },
+  "Centro Cultural Correios | Ernestinho Carioca": {
+    "PT": "Centro Cultural Correios | Ernestinho Carioca",
+    "EN": "Centro Cultural Correios | Ernestinho Carioca"
+  },
+  "Teatro Dulcina | Ernestinho Carioca": {
+    "PT": "Teatro Dulcina | Ernestinho Carioca",
+    "EN": "Teatro Dulcina | Ernestinho Carioca"
+  },
+  "EcoVilla Ri Happy | Ernestinho Carioca": {
+    "PT": "EcoVilla Ri Happy | Ernestinho Carioca",
+    "EN": "EcoVilla Ri Happy | Ernestinho Carioca"
+  },
+  "Espaço Cultural BNDES | Ernestinho Carioca": {
+    "PT": "Espaço Cultural BNDES | Ernestinho Carioca",
+    "EN": "Espaço Cultural BNDES | Ernestinho Carioca"
+  },
+  "Espaço Cultural da Marinha | Ernestinho Carioca": {
+    "PT": "Espaço Cultural da Marinha | Ernestinho Carioca",
+    "EN": "Espaço Cultural da Marinha | Ernestinho Carioca"
+  },
+  "Santuário de Nossa Senhora de Fátima | Ernestinho Carioca": {
+    "PT": "Santuário de Nossa Senhora de Fátima | Ernestinho Carioca",
+    "EN": "Santuário de Nossa Senhora de Fátima | Ernestinho Carioca"
+  },
+  "Teatro Fernanda Montenegro | Ernestinho Carioca": {
+    "PT": "Teatro Fernanda Montenegro | Ernestinho Carioca",
+    "EN": "Teatro Fernanda Montenegro | Ernestinho Carioca"
+  },
+  "Museu de Folclore Edison Carneiro | Ernestinho Carioca": {
+    "PT": "Museu de Folclore Edison Carneiro | Ernestinho Carioca",
+    "EN": "Museu de Folclore Edison Carneiro | Ernestinho Carioca"
+  },
+  "Fortaleza da Conceição | Ernestinho Carioca": {
+    "PT": "Fortaleza da Conceição | Ernestinho Carioca",
+    "EN": "Fortaleza da Conceição | Ernestinho Carioca"
+  },
+  "Fortaleza de São João | Ernestinho Carioca": {
+    "PT": "Fortaleza de São João | Ernestinho Carioca",
+    "EN": "Fortaleza de São João | Ernestinho Carioca"
+  },
+  "Forte Barão do Rio Branco | Ernestinho Carioca": {
+    "PT": "Forte Barão do Rio Branco | Ernestinho Carioca",
+    "EN": "Forte Barão do Rio Branco | Ernestinho Carioca"
+  },
+  "Forte de Copacabana | Ernestinho Carioca": {
+    "PT": "Forte de Copacabana | Ernestinho Carioca",
+    "EN": "Forte de Copacabana | Ernestinho Carioca"
+  },
+  "Forte Duque de Caxias | Ernestinho Carioca": {
+    "PT": "Forte Duque de Caxias | Ernestinho Carioca",
+    "EN": "Forte Duque de Caxias | Ernestinho Carioca"
+  },
+  "Forte do Gragoatá | Ernestinho Carioca": {
+    "PT": "Forte do Gragoatá | Ernestinho Carioca",
+    "EN": "Forte do Gragoatá | Ernestinho Carioca"
+  },
+  "Forte do Imbuí | Ernestinho Carioca": {
+    "PT": "Forte do Imbuí | Ernestinho Carioca",
+    "EN": "Forte do Imbuí | Ernestinho Carioca"
+  },
+  "Forte Tamandaré da Laje | Ernestinho Carioca": {
+    "PT": "Forte Tamandaré da Laje | Ernestinho Carioca",
+    "EN": "Forte Tamandaré da Laje | Ernestinho Carioca"
+  },
+  "Forte do Pico | Ernestinho Carioca": {
+    "PT": "Forte do Pico | Ernestinho Carioca",
+    "EN": "Forte do Pico | Ernestinho Carioca"
+  },
+  "Forte de São Luiz | Ernestinho Carioca": {
+    "PT": "Forte de São Luiz | Ernestinho Carioca",
+    "EN": "Forte de São Luiz | Ernestinho Carioca"
+  },
+  "Teatro Glauce Rocha | Ernestinho Carioca": {
+    "PT": "Teatro Glauce Rocha | Ernestinho Carioca",
+    "EN": "Teatro Glauce Rocha | Ernestinho Carioca"
+  },
+  "Igreja de Nossa Senhora da Glória do Outeiro | Ernestinho Carioca": {
+    "PT": "Igreja de Nossa Senhora da Glória do Outeiro | Ernestinho Carioca",
+    "EN": "Igreja de Nossa Senhora da Glória do Outeiro | Ernestinho Carioca"
+  },
+  "Centro Municipal de Arte Hélio Oiticica | Ernestinho Carioca": {
+    "PT": "Centro Municipal de Arte Hélio Oiticica | Ernestinho Carioca",
+    "EN": "Centro Municipal de Arte Hélio Oiticica | Ernestinho Carioca"
+  },
+  "Instituto Histórico e Geográfico Brasileiro – IHGB | Ernestinho Carioca": {
+    "PT": "Instituto Histórico e Geográfico Brasileiro – IHGB | Ernestinho Carioca",
+    "EN": "Instituto Histórico e Geográfico Brasileiro – IHGB | Ernestinho Carioca"
+  },
+  "Imperator — Centro Cultural João Nogueira | Ernestinho Carioca": {
+    "PT": "Imperator — Centro Cultural João Nogueira | Ernestinho Carioca",
+    "EN": "Imperator — Centro Cultural João Nogueira | Ernestinho Carioca"
+  },
+  "Teatro João Caetano | Ernestinho Carioca": {
+    "PT": "Teatro João Caetano | Ernestinho Carioca",
+    "EN": "Teatro João Caetano | Ernestinho Carioca"
+  },
+  "Centro Cultural José Bonifácio | Ernestinho Carioca": {
+    "PT": "Centro Cultural José Bonifácio | Ernestinho Carioca",
+    "EN": "Centro Cultural José Bonifácio | Ernestinho Carioca"
+  },
+  "Igreja de Nossa Senhora da Lampadosa | Ernestinho Carioca": {
+    "PT": "Igreja de Nossa Senhora da Lampadosa | Ernestinho Carioca",
+    "EN": "Igreja de Nossa Senhora da Lampadosa | Ernestinho Carioca"
+  },
+  "Igreja de Nossa Senhora da Lapa dos Mercadores | Ernestinho Carioca": {
+    "PT": "Igreja de Nossa Senhora da Lapa dos Mercadores | Ernestinho Carioca",
+    "EN": "Igreja de Nossa Senhora da Lapa dos Mercadores | Ernestinho Carioca"
+  },
+  "Casa de Cultura Laura Alvim | Ernestinho Carioca": {
+    "PT": "Casa de Cultura Laura Alvim | Ernestinho Carioca",
+    "EN": "Casa de Cultura Laura Alvim | Ernestinho Carioca"
+  },
+  "Livraria Leonardo da Vinci | Ernestinho Carioca": {
+    "PT": "Livraria Leonardo da Vinci | Ernestinho Carioca",
+    "EN": "Livraria Leonardo da Vinci | Ernestinho Carioca"
+  },
+  "Livraria Argumento | Ernestinho Carioca": {
+    "PT": "Livraria Argumento | Ernestinho Carioca",
+    "EN": "Livraria Argumento | Ernestinho Carioca"
+  },
+  "Museu Arquidiocesano de Arte Sacra – MAAS | Ernestinho Carioca": {
+    "PT": "Museu Arquidiocesano de Arte Sacra – MAAS | Ernestinho Carioca",
+    "EN": "Museu Arquidiocesano de Arte Sacra – MAAS | Ernestinho Carioca"
+  },
+  "Museu de Arte Contemporânea de Niterói – MAC | Ernestinho Carioca": {
+    "PT": "Museu de Arte Contemporânea de Niterói – MAC | Ernestinho Carioca",
+    "EN": "Museu de Arte Contemporânea de Niterói – MAC | Ernestinho Carioca"
+  },
+  "Teatro Maison de France | Ernestinho Carioca": {
+    "PT": "Teatro Maison de France | Ernestinho Carioca",
+    "EN": "Teatro Maison de France | Ernestinho Carioca"
+  },
+  "Museu de Arte Moderna do Rio de Janeiro – MAM Rio | Ernestinho Carioca": {
+    "PT": "Museu de Arte Moderna do Rio de Janeiro – MAM Rio | Ernestinho Carioca",
+    "EN": "Museu de Arte Moderna do Rio de Janeiro – MAM Rio | Ernestinho Carioca"
+  },
+  "Museu de Arte do Rio – MAR | Ernestinho Carioca": {
+    "PT": "Museu de Arte do Rio – MAR | Ernestinho Carioca",
+    "EN": "Museu de Arte do Rio – MAR | Ernestinho Carioca"
+  },
+  "Museu de Astronomia e Ciências Afins – MAST | Ernestinho Carioca": {
+    "PT": "Museu de Astronomia e Ciências Afins – MAST | Ernestinho Carioca",
+    "EN": "Museu de Astronomia e Ciências Afins – MAST | Ernestinho Carioca"
+  },
+  "Museu Histórico Nacional | Ernestinho Carioca": {
+    "PT": "Museu Histórico Nacional | Ernestinho Carioca",
+    "EN": "Museu Histórico Nacional | Ernestinho Carioca"
+  },
+  "Midiateca do CRAB | Ernestinho Carioca": {
+    "PT": "Midiateca do CRAB | Ernestinho Carioca",
+    "EN": "Midiateca do CRAB | Ernestinho Carioca"
+  },
+  "Teatro Miguel Falabella | Ernestinho Carioca": {
+    "PT": "Teatro Miguel Falabella | Ernestinho Carioca",
+    "EN": "Teatro Miguel Falabella | Ernestinho Carioca"
+  },
+  "Museu Nacional de Belas Artes – MNBA | Ernestinho Carioca": {
+    "PT": "Museu Nacional de Belas Artes – MNBA | Ernestinho Carioca",
+    "EN": "Museu Nacional de Belas Artes – MNBA | Ernestinho Carioca"
+  },
+  "Mosteiro de São Bento | Ernestinho Carioca": {
+    "PT": "Mosteiro de São Bento | Ernestinho Carioca",
+    "EN": "Mosteiro de São Bento | Ernestinho Carioca"
+  },
+  "Museu da História e da Cultura Afro-Brasileira – MUHCAB | Ernestinho Carioca": {
+    "PT": "Museu da História e da Cultura Afro-Brasileira – MUHCAB | Ernestinho Carioca",
+    "EN": "Museu da História e da Cultura Afro-Brasileira – MUHCAB | Ernestinho Carioca"
+  },
+  "Museu Aeroespacial – MUSAL | Ernestinho Carioca": {
+    "PT": "Museu Aeroespacial – MUSAL | Ernestinho Carioca",
+    "EN": "Museu Aeroespacial – MUSAL | Ernestinho Carioca"
+  },
+  "Museu Flamengo | Ernestinho Carioca": {
+    "PT": "Museu Flamengo | Ernestinho Carioca",
+    "EN": "Museu Flamengo | Ernestinho Carioca"
+  },
+  "Museu Histórico da Cidade do Rio de Janeiro | Ernestinho Carioca": {
+    "PT": "Museu Histórico da Cidade do Rio de Janeiro | Ernestinho Carioca",
+    "EN": "Museu Histórico da Cidade do Rio de Janeiro | Ernestinho Carioca"
+  },
+  "Museu Light da Energia | Ernestinho Carioca": {
+    "PT": "Museu Light da Energia | Ernestinho Carioca",
+    "EN": "Museu Light da Energia | Ernestinho Carioca"
+  },
+  "Museu Nacional – UFRJ | Ernestinho Carioca": {
+    "PT": "Museu Nacional – UFRJ | Ernestinho Carioca",
+    "EN": "Museu Nacional – UFRJ | Ernestinho Carioca"
+  },
+  "Museu do Pontal | Ernestinho Carioca": {
+    "PT": "Museu do Pontal | Ernestinho Carioca",
+    "EN": "Museu do Pontal | Ernestinho Carioca"
+  },
+  "Museu da República – Palácio do Catete | Ernestinho Carioca": {
+    "PT": "Museu da República – Palácio do Catete | Ernestinho Carioca",
+    "EN": "Museu da República – Palácio do Catete | Ernestinho Carioca"
+  },
+  "Museu do Samba | Ernestinho Carioca": {
+    "PT": "Museu do Samba | Ernestinho Carioca",
+    "EN": "Museu do Samba | Ernestinho Carioca"
+  },
+  "Museu da Vida Fiocruz | Ernestinho Carioca": {
+    "PT": "Museu da Vida Fiocruz | Ernestinho Carioca",
+    "EN": "Museu da Vida Fiocruz | Ernestinho Carioca"
+  },
+  "Museu Naval | Ernestinho Carioca": {
+    "PT": "Museu Naval | Ernestinho Carioca",
+    "EN": "Museu Naval | Ernestinho Carioca"
+  },
+  "Igreja Nossa Senhora do Brasil | Ernestinho Carioca": {
+    "PT": "Igreja Nossa Senhora do Brasil | Ernestinho Carioca",
+    "EN": "Igreja Nossa Senhora do Brasil | Ernestinho Carioca"
+  },
+  "Igreja de Nossa Senhora da Paz | Ernestinho Carioca": {
+    "PT": "Igreja de Nossa Senhora da Paz | Ernestinho Carioca",
+    "EN": "Igreja de Nossa Senhora da Paz | Ernestinho Carioca"
+  },
+  "Igreja de Nossa Senhora da Penna | Ernestinho Carioca": {
+    "PT": "Igreja de Nossa Senhora da Penna | Ernestinho Carioca",
+    "EN": "Igreja de Nossa Senhora da Penna | Ernestinho Carioca"
+  },
+  "Igreja de Nossa Senhora da Saúde | Ernestinho Carioca": {
+    "PT": "Igreja de Nossa Senhora da Saúde | Ernestinho Carioca",
+    "EN": "Igreja de Nossa Senhora da Saúde | Ernestinho Carioca"
+  },
+  "Observatório do Valongo | Ernestinho Carioca": {
+    "PT": "Observatório do Valongo | Ernestinho Carioca",
+    "EN": "Observatório do Valongo | Ernestinho Carioca"
+  },
+  "Igreja da Ordem Terceira do Carmo | Ernestinho Carioca": {
+    "PT": "Igreja da Ordem Terceira do Carmo | Ernestinho Carioca",
+    "EN": "Igreja da Ordem Terceira do Carmo | Ernestinho Carioca"
+  },
+  "Paço Imperial | Ernestinho Carioca": {
+    "PT": "Paço Imperial | Ernestinho Carioca",
+    "EN": "Paço Imperial | Ernestinho Carioca"
+  },
+  "Basílica Santuário de Nossa Senhora da Penha | Ernestinho Carioca": {
+    "PT": "Basílica Santuário de Nossa Senhora da Penha | Ernestinho Carioca",
+    "EN": "Basílica Santuário de Nossa Senhora da Penha | Ernestinho Carioca"
+  },
+  "Museu Nacional dos Povos Indígenas | Ernestinho Carioca": {
+    "PT": "Museu Nacional dos Povos Indígenas | Ernestinho Carioca",
+    "EN": "Museu Nacional dos Povos Indígenas | Ernestinho Carioca"
+  },
+  "Instituto dos Pretos Novos | Ernestinho Carioca": {
+    "PT": "Instituto dos Pretos Novos | Ernestinho Carioca",
+    "EN": "Instituto dos Pretos Novos | Ernestinho Carioca"
+  },
+  "Real Gabinete Português de Leitura | Ernestinho Carioca": {
+    "PT": "Real Gabinete Português de Leitura | Ernestinho Carioca",
+    "EN": "Real Gabinete Português de Leitura | Ernestinho Carioca"
+  },
+  "Teatro Riachuelo Rio | Ernestinho Carioca": {
+    "PT": "Teatro Riachuelo Rio | Ernestinho Carioca",
+    "EN": "Teatro Riachuelo Rio | Ernestinho Carioca"
+  },
+  "Teatro Rival Petrobras | Ernestinho Carioca": {
+    "PT": "Teatro Rival Petrobras | Ernestinho Carioca",
+    "EN": "Teatro Rival Petrobras | Ernestinho Carioca"
+  },
+  "Igreja de Nossa Senhora do Rosário e São Benedito dos Homens Pretos | Ernestinho Carioca": {
+    "PT": "Igreja de Nossa Senhora do Rosário e São Benedito dos Homens Pretos | Ernestinho Carioca",
+    "EN": "Igreja de Nossa Senhora do Rosário e São Benedito dos Homens Pretos | Ernestinho Carioca"
+  },
+  "Sala Cecília Meireles | Ernestinho Carioca": {
+    "PT": "Sala Cecília Meireles | Ernestinho Carioca",
+    "EN": "Sala Cecília Meireles | Ernestinho Carioca"
+  },
+  "Fortaleza de Santa Cruz da Barra | Ernestinho Carioca": {
+    "PT": "Fortaleza de Santa Cruz da Barra | Ernestinho Carioca",
+    "EN": "Fortaleza de Santa Cruz da Barra | Ernestinho Carioca"
+  },
+  "Igreja de Santa Cruz dos Militares | Ernestinho Carioca": {
+    "PT": "Igreja de Santa Cruz dos Militares | Ernestinho Carioca",
+    "EN": "Igreja de Santa Cruz dos Militares | Ernestinho Carioca"
+  },
+  "Igreja de Santa Luzia | Ernestinho Carioca": {
+    "PT": "Igreja de Santa Luzia | Ernestinho Carioca",
+    "EN": "Igreja de Santa Luzia | Ernestinho Carioca"
+  },
+  "Paróquia Santa Margarida Maria | Ernestinho Carioca": {
+    "PT": "Paróquia Santa Margarida Maria | Ernestinho Carioca",
+    "EN": "Paróquia Santa Margarida Maria | Ernestinho Carioca"
+  },
+  "Igreja de Santa Rita de Cássia | Ernestinho Carioca": {
+    "PT": "Igreja de Santa Rita de Cássia | Ernestinho Carioca",
+    "EN": "Igreja de Santa Rita de Cássia | Ernestinho Carioca"
+  },
+  "Convento e Igreja de Santo Antônio | Ernestinho Carioca": {
+    "PT": "Convento e Igreja de Santo Antônio | Ernestinho Carioca",
+    "EN": "Convento e Igreja de Santo Antônio | Ernestinho Carioca"
+  },
+  "Igreja de São Francisco de Paula | Ernestinho Carioca": {
+    "PT": "Igreja de São Francisco de Paula | Ernestinho Carioca",
+    "EN": "Igreja de São Francisco de Paula | Ernestinho Carioca"
+  },
+  "Igreja da Ordem Terceira de São Francisco da Penitência | Ernestinho Carioca": {
+    "PT": "Igreja da Ordem Terceira de São Francisco da Penitência | Ernestinho Carioca",
+    "EN": "Igreja da Ordem Terceira de São Francisco da Penitência | Ernestinho Carioca"
+  },
+  "Igreja de São Francisco da Prainha | Ernestinho Carioca": {
+    "PT": "Igreja de São Francisco da Prainha | Ernestinho Carioca",
+    "EN": "Igreja de São Francisco da Prainha | Ernestinho Carioca"
+  },
+  "Paróquia São José da Lagoa | Ernestinho Carioca": {
+    "PT": "Paróquia São José da Lagoa | Ernestinho Carioca",
+    "EN": "Paróquia São José da Lagoa | Ernestinho Carioca"
+  },
+  "Paróquia São Judas Tadeu | Ernestinho Carioca": {
+    "PT": "Paróquia São Judas Tadeu | Ernestinho Carioca",
+    "EN": "Paróquia São Judas Tadeu | Ernestinho Carioca"
+  },
+  "Sociedade Brasileira de Belas Artes | Ernestinho Carioca": {
+    "PT": "Sociedade Brasileira de Belas Artes | Ernestinho Carioca",
+    "EN": "Sociedade Brasileira de Belas Artes | Ernestinho Carioca"
+  },
+  "Teatro SESC Ginástico | Ernestinho Carioca": {
+    "PT": "Teatro SESC Ginástico | Ernestinho Carioca",
+    "EN": "Teatro SESC Ginástico | Ernestinho Carioca"
+  },
+  "Teatro SESC Tijuca | Ernestinho Carioca": {
+    "PT": "Teatro SESC Tijuca | Ernestinho Carioca",
+    "EN": "Teatro SESC Tijuca | Ernestinho Carioca"
+  },
+  "Teatro dos Quatro | Ernestinho Carioca": {
+    "PT": "Teatro dos Quatro | Ernestinho Carioca",
+    "EN": "Teatro dos Quatro | Ernestinho Carioca"
+  },
+  "Teatro Ipanema | Ernestinho Carioca": {
+    "PT": "Teatro Ipanema | Ernestinho Carioca",
+    "EN": "Teatro Ipanema | Ernestinho Carioca"
+  },
+  "Teatro Multiplan | Ernestinho Carioca": {
+    "PT": "Teatro Multiplan | Ernestinho Carioca",
+    "EN": "Teatro Multiplan | Ernestinho Carioca"
+  },
+  "Theatro Municipal do Rio de Janeiro | Ernestinho Carioca": {
+    "PT": "Theatro Municipal do Rio de Janeiro | Ernestinho Carioca",
+    "EN": "Theatro Municipal do Rio de Janeiro | Ernestinho Carioca"
+  },
+  "Livraria da Travessa — Ipanema | Ernestinho Carioca": {
+    "PT": "Livraria da Travessa — Ipanema | Ernestinho Carioca",
+    "EN": "Livraria da Travessa — Ipanema | Ernestinho Carioca"
+  },
+  "Museu Villa-Lobos | Ernestinho Carioca": {
+    "PT": "Museu Villa-Lobos | Ernestinho Carioca",
+    "EN": "Museu Villa-Lobos | Ernestinho Carioca"
+  },
+  "Teatro Municipal Ziembinski | Ernestinho Carioca": {
+    "PT": "Teatro Municipal Ziembinski | Ernestinho Carioca",
+    "EN": "Teatro Municipal Ziembinski | Ernestinho Carioca"
   }
 };
