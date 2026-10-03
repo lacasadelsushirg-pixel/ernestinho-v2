@@ -1570,5 +1570,61 @@ export default {
   "Cristo Redentor | Atracciones Ernestinho. El Cristo es una de las visitas que más depende de visibilidad, hora y forma de acceso. No basta con ponerlo en…": {
     "PT": "Cristo Redentor — Atrações Ernestinho. A visita ao Cristo depende muito da visibilidade, do horário e da forma de acesso. Não basta incluí-lo em…",
     "EN": "Cristo Redentor — Ernestinho Attractions. Visiting Christ the Redeemer depends greatly on visibility, time and access arrangements. Simply putting it on…"
+  },
+  "Gávea + Jardim Botânico + Lagoa | Barrios de Río": {
+    "PT": "Gávea + Jardim Botânico + Lagoa | Bairros do Rio",
+    "EN": "Gávea + Jardim Botânico + Lagoa | Rio Neighborhoods"
+  },
+  "Botafogo + Urca | Barrios de Río": {
+    "PT": "Botafogo + Urca | Bairros do Rio",
+    "EN": "Botafogo + Urca | Rio Neighborhoods"
+  },
+  "Ipanema + Leblon | Barrios de Río": {
+    "PT": "Ipanema + Leblon | Bairros do Rio",
+    "EN": "Ipanema + Leblon | Rio Neighborhoods"
+  },
+  "Barra + Zona Oeste | Barrios de Río": {
+    "PT": "Barra + Zona Oeste | Bairros do Rio",
+    "EN": "Barra + Zona Oeste | Rio Neighborhoods"
+  },
+  "Flamengo + Glória | Barrios de Río": {
+    "PT": "Flamengo + Glória | Bairros do Rio",
+    "EN": "Flamengo + Glória | Rio Neighborhoods"
+  },
+  "Centro + Praça Mauá | Barrios de Río": {
+    "PT": "Centro + Praça Mauá | Bairros do Rio",
+    "EN": "Centro + Praça Mauá | Rio Neighborhoods"
+  },
+  "Zona Norte | Barrios de Río": {
+    "PT": "Zona Norte | Bairros do Rio",
+    "EN": "Zona Norte | Rio Neighborhoods"
+  },
+  "Santa Teresa + Lapa | Barrios de Río": {
+    "PT": "Santa Teresa + Lapa | Bairros do Rio",
+    "EN": "Santa Teresa + Lapa | Rio Neighborhoods"
+  },
+  "Copacabana | Barrios de Río": {
+    "PT": "Copacabana | Bairros do Rio",
+    "EN": "Copacabana | Rio Neighborhoods"
+  },
+  "Ernestinho Carioca — Río en tu mano": {
+    "PT": "Ernestinho Carioca — O Rio na palma da sua mão",
+    "EN": "Ernestinho Carioca — Rio at your fingertips"
+  },
+  "Gastronomía de Río de Janeiro": {
+    "PT": "Gastronomia do Rio de Janeiro",
+    "EN": "Food in Rio de Janeiro"
+  },
+  "Río en vivo | Ernestinho Carioca": {
+    "PT": "Rio ao vivo | Ernestinho Carioca",
+    "EN": "Rio Live | Ernestinho Carioca"
+  },
+  "Tiempo, viento, mar, mareas estimadas y cámaras para mirar Río ahora.": {
+    "PT": "Tempo, vento, mar, marés estimadas e câmeras para ver o Rio agora.",
+    "EN": "Weather, wind, sea conditions, estimated tides and cameras to see Rio right now."
+  },
+  "Ideas para elegir qué hacer hoy en Río según el tiempo, tu energía, el barrio y el momento del día.": {
+    "PT": "Ideias para escolher o que fazer hoje no Rio de acordo com o tempo, sua disposição, o bairro e o momento do dia.",
+    "EN": "Ideas for choosing what to do in Rio today based on the weather, your energy, the neighborhood and the time of day."
   }
 };
