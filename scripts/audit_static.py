@@ -9,6 +9,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 LIMIT = 250 * 1024
+PUBLIC_ORIGIN = "https://www.ernestinhocarioca.com.br"
+PREVIEW_HOST = "ernestinho-v2.vercel.app"
 
 class Page(HTMLParser):
     def __init__(self):
@@ -16,6 +18,7 @@ class Page(HTMLParser):
         self.tags, self.ids, self.h1 = [], set(), 0
         self.title, self.description, self.lang = 0, 0, False
         self.images_without_alt, self.inline_scripts = [], []
+        self.canonicals, self.og_urls, self.robots = [], [], []
         self.suppressed, self.h2, self.visible_words = 0, 0, 0
     def handle_endtag(self, tag):
         if tag in ("script", "style", "noscript", "svg", "nav", "header", "footer") and self.suppressed: self.suppressed -= 1
@@ -30,6 +33,9 @@ class Page(HTMLParser):
         if tag == "title": self.title += 1
         if tag == "html": self.lang = bool(attr.get("lang"))
         if tag == "meta" and attr.get("name", "").lower() == "description" and attr.get("content"): self.description += 1
+        if tag == "meta" and attr.get("property", "").lower() == "og:url" and attr.get("content"): self.og_urls.append(attr["content"])
+        if tag == "meta" and attr.get("name", "").lower() in ("robots", "googlebot"): self.robots.append(attr.get("content", "").lower())
+        if tag == "link" and "canonical" in attr.get("rel", "").lower().split() and attr.get("href"): self.canonicals.append(attr["href"])
         if attr.get("id"): self.ids.add(attr["id"])
         if tag == "img" and not attr.get("alt"): self.images_without_alt.append(attr.get("src", "(missing src)"))
         if tag == "script" and not attr.get("src") and attr.get("type", "").lower() != "application/ld+json": self.inline_scripts.append(attr.get("type", "classic"))
@@ -45,6 +51,19 @@ def main():
         except Exception as error: errors.append(f"HTML parse {rel}: {error}")
         parsed[rel] = page
         if rel != "404.html": depth.append((page.visible_words, page.h2, rel))
+        route = "/" if rel == "index.html" else "/" + rel[:-10] if rel.endswith("/index.html") else "/" + rel
+        route = route if route.endswith("/") or "." in route.rsplit("/", 1)[-1] else route + "/"
+        noindex = any("noindex" in value or "none" in value.split() for value in page.robots)
+        if rel != "404.html" and not noindex:
+            expected = PUBLIC_ORIGIN + route
+            if len(page.canonicals) != 1:
+                errors.append(f"Expected one canonical: {rel} ({len(page.canonicals)})")
+            elif page.canonicals[0] != expected:
+                errors.append(f"Canonical mismatch: {rel} -> {page.canonicals[0]} (expected {expected})")
+            if page.og_urls and any(value != expected for value in page.og_urls):
+                errors.append(f"og:url mismatch: {rel} -> {page.og_urls}")
+            if PREVIEW_HOST in source:
+                errors.append(f"Preview domain in public page: {rel}")
         if page.title != 1: errors.append(f"Expected one title: {rel} ({page.title})")
         if page.description != 1: errors.append(f"Expected one description: {rel} ({page.description})")
         if not page.lang: errors.append(f"Missing html lang: {rel}")
