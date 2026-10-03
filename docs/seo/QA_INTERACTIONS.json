@@ -1,0 +1,529 @@
+{
+  "combinations": 18,
+  "realSelectorNavigations": 54,
+  "failed": 0,
+  "rows": [
+    {
+      "route": "/",
+      "width": 390,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/guia/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/guia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/guia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/guia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/guia/",
+      "width": 390,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/guia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/guia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/guia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/experiencias/",
+      "width": 390,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/experiencias/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/experiencias/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/experiencias/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/experiencias/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/experiencias/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/experiencias/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/experiencias/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/gastronomia/",
+      "width": 390,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/gastronomia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/gastronomia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/gastronomia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/gastronomia/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/gastronomia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/gastronomia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/gastronomia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/cultura/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/cultura/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/cultura/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/cultura/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/cultura/",
+      "width": 390,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/cultura/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/cultura/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/cultura/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/vida-nocturna/",
+      "width": 390,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/vida-nocturna/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/vida-nocturna/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/vida-nocturna/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/compras/",
+      "width": 390,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/compras/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/compras/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/compras/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/transportes/",
+      "width": 390,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/transportes/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/transportes/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/transportes/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/vida-nocturna/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/vida-nocturna/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/vida-nocturna/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/vida-nocturna/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/compras/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/compras/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/compras/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/compras/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/transportes/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/transportes/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/transportes/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/transportes/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/hospedaje/",
+      "width": 390,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/hospedaje/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/hospedaje/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/hospedaje/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/hospedaje/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/hospedaje/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/hospedaje/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/hospedaje/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    }
+  ]
+}

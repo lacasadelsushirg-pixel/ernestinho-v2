@@ -1,4 +1,6 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": true,
   "headers": [
@@ -180,6 +182,336 @@
     {
       "source": "/vida-nocturna/yoo2-rooftop/",
       "destination": "/vida-nocturna/yoo2/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/quiero",
+      "destination": "/pt/consejos/recorrido-zona-portuaria/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/gastronomia/pilograma-centro",
+      "destination": "/pt/gastronomia/pilograma-prime-grill",
+      "permanent": true
+    },
+    {
+      "source": "/pt/gastronomia/guacamole-copa",
+      "destination": "/pt/gastronomia/guacamole-copacabana",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/barra-shopping.html",
+      "destination": "/pt/compras/barrashopping/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/botafogo-praia-shopping.html",
+      "destination": "/pt/compras/botafogo-praia-shopping/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/cadeg.html",
+      "destination": "/pt/compras/cadeg/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/fashion-mall.html",
+      "destination": "/pt/compras/fashion-mall/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/feria-antiguedades-plaza-xv.html",
+      "destination": "/pt/compras/praca-xv/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/feria-da-gloria.html",
+      "destination": "/pt/compras/feira-da-gloria/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/feria-da-providencia.html",
+      "destination": "/pt/compras/feira-da-providencia/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/feria-das-yabas.html",
+      "destination": "/pt/compras/feira-das-yabas/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/feria-de-sao-cristovao.html",
+      "destination": "/pt/compras/feira-sao-cristovao/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/feria-hippie-ipanema.html",
+      "destination": "/pt/compras/feira-hippie-ipanema/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/feria-lavradio.html",
+      "destination": "/pt/compras/lavradio/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/feria-nocturna-copacabana.html",
+      "destination": "/pt/compras/feira-noturna-copacabana/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/feria-organica-da-gloria.html",
+      "destination": "/pt/compras/feira-organica-gloria/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/feria-organica.html",
+      "destination": "/pt/compras/feira-organica/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/feria-praca-do-lido.html",
+      "destination": "/pt/compras/praca-lido/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/mercadao-madureira.html",
+      "destination": "/pt/compras/mercadao-madureira/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/mercado-sao-pedro.html",
+      "destination": "/pt/compras/mercado-sao-pedro/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/parkjacarepaguá.html",
+      "destination": "/pt/compras/parkjacarepagua/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/saara.html",
+      "destination": "/pt/compras/saara/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/shopping-downtown.html",
+      "destination": "/pt/compras/downtown/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/shopping-leblon.html",
+      "destination": "/pt/compras/shopping-leblon/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/shopping-metropolitano-barra.html",
+      "destination": "/pt/compras/metropolitano-barra/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/shopping-nova-america.html",
+      "destination": "/pt/compras/nova-america/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/shopping-rio-sul.html",
+      "destination": "/pt/compras/rio-sul/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/shopping-tijuca.html",
+      "destination": "/pt/compras/shopping-tijuca/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/uruguaiana.html",
+      "destination": "/pt/compras/uruguaiana/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/compras/village-mall.html",
+      "destination": "/pt/compras/village-mall/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/vida-nocturna/armazem-senado/",
+      "destination": "/pt/vida-nocturna/armazem-do-senado/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/vida-nocturna/feira-sao-cristovao/",
+      "destination": "/pt/vida-nocturna/feira-sao-cristovao-noite/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/vida-nocturna/yoo2-rooftop/",
+      "destination": "/pt/vida-nocturna/yoo2/",
+      "permanent": true
+    },
+    {
+      "source": "/en/quiero",
+      "destination": "/en/consejos/recorrido-zona-portuaria/",
+      "permanent": true
+    },
+    {
+      "source": "/en/gastronomia/pilograma-centro",
+      "destination": "/en/gastronomia/pilograma-prime-grill",
+      "permanent": true
+    },
+    {
+      "source": "/en/gastronomia/guacamole-copa",
+      "destination": "/en/gastronomia/guacamole-copacabana",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/barra-shopping.html",
+      "destination": "/en/compras/barrashopping/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/botafogo-praia-shopping.html",
+      "destination": "/en/compras/botafogo-praia-shopping/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/cadeg.html",
+      "destination": "/en/compras/cadeg/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/fashion-mall.html",
+      "destination": "/en/compras/fashion-mall/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/feria-antiguedades-plaza-xv.html",
+      "destination": "/en/compras/praca-xv/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/feria-da-gloria.html",
+      "destination": "/en/compras/feira-da-gloria/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/feria-da-providencia.html",
+      "destination": "/en/compras/feira-da-providencia/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/feria-das-yabas.html",
+      "destination": "/en/compras/feira-das-yabas/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/feria-de-sao-cristovao.html",
+      "destination": "/en/compras/feira-sao-cristovao/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/feria-hippie-ipanema.html",
+      "destination": "/en/compras/feira-hippie-ipanema/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/feria-lavradio.html",
+      "destination": "/en/compras/lavradio/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/feria-nocturna-copacabana.html",
+      "destination": "/en/compras/feira-noturna-copacabana/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/feria-organica-da-gloria.html",
+      "destination": "/en/compras/feira-organica-gloria/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/feria-organica.html",
+      "destination": "/en/compras/feira-organica/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/feria-praca-do-lido.html",
+      "destination": "/en/compras/praca-lido/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/mercadao-madureira.html",
+      "destination": "/en/compras/mercadao-madureira/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/mercado-sao-pedro.html",
+      "destination": "/en/compras/mercado-sao-pedro/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/parkjacarepaguá.html",
+      "destination": "/en/compras/parkjacarepagua/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/saara.html",
+      "destination": "/en/compras/saara/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/shopping-downtown.html",
+      "destination": "/en/compras/downtown/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/shopping-leblon.html",
+      "destination": "/en/compras/shopping-leblon/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/shopping-metropolitano-barra.html",
+      "destination": "/en/compras/metropolitano-barra/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/shopping-nova-america.html",
+      "destination": "/en/compras/nova-america/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/shopping-rio-sul.html",
+      "destination": "/en/compras/rio-sul/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/shopping-tijuca.html",
+      "destination": "/en/compras/shopping-tijuca/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/uruguaiana.html",
+      "destination": "/en/compras/uruguaiana/",
+      "permanent": true
+    },
+    {
+      "source": "/en/compras/village-mall.html",
+      "destination": "/en/compras/village-mall/",
+      "permanent": true
+    },
+    {
+      "source": "/en/vida-nocturna/armazem-senado/",
+      "destination": "/en/vida-nocturna/armazem-do-senado/",
+      "permanent": true
+    },
+    {
+      "source": "/en/vida-nocturna/feira-sao-cristovao/",
+      "destination": "/en/vida-nocturna/feira-sao-cristovao-noite/",
+      "permanent": true
+    },
+    {
+      "source": "/en/vida-nocturna/yoo2-rooftop/",
+      "destination": "/en/vida-nocturna/yoo2/",
       "permanent": true
     }
   ]

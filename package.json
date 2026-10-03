@@ -1,0 +1,15 @@
+{
+  "name": "ernestinho-v2",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build_multilingual.mjs",
+    "check:locales": "python3 scripts/audit_multilingual.py"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@sparticuz/chromium": "143.0.4",
+    "playwright-core": "1.58.2"
+  }
+}

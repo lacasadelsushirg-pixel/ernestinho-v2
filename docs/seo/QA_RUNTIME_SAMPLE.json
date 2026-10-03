@@ -1,0 +1,243 @@
+{
+  "tested": 18,
+  "failures": 16,
+  "externalServicesExcluded": true,
+  "rows": [
+    {
+      "route": "/cultura/acao-cidadania/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
+      "bodyLength": 2075,
+      "description": "Cultura y transformación social en la Zona Portuaria",
+      "expectedDescription": "Cultura y transformación social en la Zona Portuaria"
+    },
+    {
+      "route": "/cultura/acao-cidadania/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
+      "bodyLength": 2063,
+      "description": "Cultura y transformación social en la Zona Portuaria",
+      "expectedDescription": "Cultura y transformación social en la Zona Portuaria"
+    },
+    {
+      "route": "/compras/mercado-sao-pedro/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: lang is not a function"
+      ],
+      "runtimeExceptions": [
+        "lang is not a function"
+      ],
+      "title": "Mercado São Pedro | Ernestinho Carioca",
+      "bodyLength": 5909,
+      "description": "Guía de Mercado São Pedro en Niterói, con información sobre sus sabores del mar, comercio popular y cómo planificar la visita.",
+      "expectedDescription": "Guía de Mercado São Pedro en Niterói, con información sobre sus sabores del mar, comercio popular y cómo planificar la visita."
+    },
+    {
+      "route": "/compras/mercado-sao-pedro/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: lang is not a function"
+      ],
+      "runtimeExceptions": [
+        "lang is not a function"
+      ],
+      "title": "Mercado São Pedro | Ernestinho Carioca",
+      "bodyLength": 5933,
+      "description": "Guía de Mercado São Pedro en Niterói, con información sobre sus sabores del mar, comercio popular y cómo planificar la visita.",
+      "expectedDescription": "Guía de Mercado São Pedro en Niterói, con información sobre sus sabores del mar, comercio popular y cómo planificar la visita."
+    },
+    {
+      "route": "/en/cultura/acao-cidadania/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
+      "bodyLength": 1932,
+      "description": "Culture and social transformation in the Port Zone",
+      "expectedDescription": "Cultura y transformación social en la Zona Portuaria"
+    },
+    {
+      "route": "/en/cultura/acao-cidadania/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
+      "bodyLength": 1920,
+      "description": "Culture and social transformation in the Port Zone",
+      "expectedDescription": "Cultura y transformación social en la Zona Portuaria"
+    },
+    {
+      "route": "/en/compras/mercado-sao-pedro/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: lang is not a function"
+      ],
+      "runtimeExceptions": [
+        "lang is not a function"
+      ],
+      "title": "Mercado São Pedro | Ernestinho Carioca",
+      "bodyLength": 4896,
+      "description": "Guide to Mercado São Pedro in Niterói, with information about its seafood flavors, popular commerce and how to plan your visit.",
+      "expectedDescription": "Guide to Mercado São Pedro in Niterói, with information about its seafood flavors, popular commerce and how to plan your visit."
+    },
+    {
+      "route": "/en/compras/mercado-sao-pedro/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: lang is not a function"
+      ],
+      "runtimeExceptions": [
+        "lang is not a function"
+      ],
+      "title": "Mercado São Pedro | Ernestinho Carioca",
+      "bodyLength": 4872,
+      "description": "Guide to Mercado São Pedro in Niterói, with information about its seafood flavors, popular commerce and how to plan your visit.",
+      "expectedDescription": "Guide to Mercado São Pedro in Niterói, with information about its seafood flavors, popular commerce and how to plan your visit."
+    },
+    {
+      "route": "/gastronomia/amendoeira/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Bar da Amendoeira: guía completa | Ernestinho Carioca",
+      "bodyLength": 2578,
+      "description": "Guía editorial de Bar da Amendoeira: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.",
+      "expectedDescription": "Guía editorial de Bar da Amendoeira: identidad, historia, recomendaciones, horarios, transporte y mapa en Río."
+    },
+    {
+      "route": "/gastronomia/amendoeira/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Bar da Amendoeira: guía completa | Ernestinho Carioca",
+      "bodyLength": 2554,
+      "description": "Guía editorial de Bar da Amendoeira: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.",
+      "expectedDescription": "Guía editorial de Bar da Amendoeira: identidad, historia, recomendaciones, horarios, transporte y mapa en Río."
+    },
+    {
+      "route": "/en/gastronomia/amendoeira/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Bar da Amendoeira: complete guide | Ernestinho Carioca",
+      "bodyLength": 2552,
+      "description": "Editorial guide to Bar da Amendoeira: identity, history, recommendations, opening hours, transport and a map in Rio.",
+      "expectedDescription": "Editorial guide to Bar da Amendoeira: identity, history, recommendations, opening hours, transport and a map in Rio."
+    },
+    {
+      "route": "/en/gastronomia/amendoeira/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Bar da Amendoeira: complete guide | Ernestinho Carioca",
+      "bodyLength": 2576,
+      "description": "Editorial guide to Bar da Amendoeira: identity, history, recommendations, opening hours, transport and a map in Rio.",
+      "expectedDescription": "Editorial guide to Bar da Amendoeira: identity, history, recommendations, opening hours, transport and a map in Rio."
+    },
+    {
+      "route": "/pt/cultura/acao-cidadania/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
+      "bodyLength": 2008,
+      "description": "Cultura e transformação social na Zona Portuária",
+      "expectedDescription": "Cultura y transformación social en la Zona Portuaria"
+    },
+    {
+      "route": "/pt/cultura/acao-cidadania/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
+      "bodyLength": 2020,
+      "description": "Cultura e transformação social na Zona Portuária",
+      "expectedDescription": "Cultura y transformación social en la Zona Portuaria"
+    },
+    {
+      "route": "/pt/compras/mercado-sao-pedro/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: lang is not a function"
+      ],
+      "runtimeExceptions": [
+        "lang is not a function"
+      ],
+      "title": "Mercado São Pedro | Ernestinho Carioca",
+      "bodyLength": 5373,
+      "description": "Guia do Mercado São Pedro em Niterói, com informações sobre seus sabores do mar, comércio popular e como planejar a visita.",
+      "expectedDescription": "Guia do Mercado São Pedro em Niterói, com informações sobre seus sabores do mar, comércio popular e como planejar a visita."
+    },
+    {
+      "route": "/pt/compras/mercado-sao-pedro/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: lang is not a function"
+      ],
+      "runtimeExceptions": [
+        "lang is not a function"
+      ],
+      "title": "Mercado São Pedro | Ernestinho Carioca",
+      "bodyLength": 5397,
+      "description": "Guia do Mercado São Pedro em Niterói, com informações sobre seus sabores do mar, comércio popular e como planejar a visita.",
+      "expectedDescription": "Guia do Mercado São Pedro em Niterói, com informações sobre seus sabores do mar, comércio popular e como planejar a visita."
+    },
+    {
+      "route": "/pt/gastronomia/amendoeira/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Bar da Amendoeira: guia completo | Ernestinho Carioca",
+      "bodyLength": 2558,
+      "description": "Guia editorial de Bar da Amendoeira: identidade, história, recomendações, horários, transporte e mapa no Rio.",
+      "expectedDescription": "Guia editorial de Bar da Amendoeira: identidade, história, recomendações, horários, transporte e mapa no Rio."
+    },
+    {
+      "route": "/pt/gastronomia/amendoeira/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Bar da Amendoeira: guia completo | Ernestinho Carioca",
+      "bodyLength": 2582,
+      "description": "Guia editorial de Bar da Amendoeira: identidade, história, recomendações, horários, transporte e mapa no Rio.",
+      "expectedDescription": "Guia editorial de Bar da Amendoeira: identidade, história, recomendações, horários, transporte e mapa no Rio."
+    }
+  ]
+}

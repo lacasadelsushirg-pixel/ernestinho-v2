@@ -1,4 +1,6 @@
 import { LANGS, getLanguage, cycleLanguage, setLanguage, applyTranslations } from "./i18n.js";
+import { routeParts, hasLocaleRoutes, localeHref, localizeLinks, syncLocaleMetadata } from './locale-routing.js';
+import { applySeoMetadata } from './seo-metadata.js';
 if (!document.querySelector('link[href*="components.css"]') && !document.querySelector("[data-ec-brand-type]")) { const fontSheet=document.createElement("link"); fontSheet.rel="stylesheet"; fontSheet.href=new URL("../css/type.css",import.meta.url).href; fontSheet.dataset.ecBrandType=""; document.head.append(fontSheet); }
 const common={"Guía de Río":{"PT":"Guia do Rio","EN":"Rio Guide"},"Experiencias":{"PT":"Experiências","EN":"Experiences"},"Transportes":{"PT":"Transportes","EN":"Transport"},"Eventos":{"PT":"Eventos","EN":"Events"},"Hospedaje":{"PT":"Hospedagem","EN":"Stay"},"Compras":{"PT":"Compras","EN":"Shopping"},"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Gastronomía":{"PT":"Gastronomia","EN":"Food"},"Consejos":{"PT":"Dicas","EN":"Tips"},"Playas":{"PT":"Praias","EN":"Beaches"},"Vida Nocturna":{"PT":"Vida Noturna","EN":"Nightlife"},"Familia":{"PT":"Família","EN":"Family"},"Atracciones":{"PT":"Atrações","EN":"Attractions"},"Fotografía":{"PT":"Fotografia","EN":"Photography"},"Río no se visita. Se vive.":{"PT":"O Rio não se visita. Se vive.","EN":"Rio isn't just visited. It's lived."},"ABRIR GUÍA →":{"PT":"ABRIR GUIA →","EN":"OPEN GUIDE →"},"DESCUBRIR →":{"PT":"DESCOBRIR →","EN":"DISCOVER →"},"EXPLORAR →":{"PT":"EXPLORAR →","EN":"EXPLORE →"},"VER FICHA →":{"PT":"VER FICHA →","EN":"VIEW GUIDE →"},"Volver a Gastronomía":{"PT":"Voltar à Gastronomia","EN":"Back to Food"},"Antes de ir":{"PT":"Antes de ir","EN":"Before you go"},"Mi lectura":{"PT":"Minha leitura","EN":"My take"},"Buscar por nombre, barrio o estilo…":{"PT":"Buscar por nome, bairro ou estilo…","EN":"Search by name, neighborhood or style…"},"TODOS":{"PT":"TODOS","EN":"ALL"},"PESCADOS / MAR":{"PT":"PEIXES / MAR","EN":"SEAFOOD"},"ASIÁTICA":{"PT":"ASIÁTICA","EN":"ASIAN"},"ALMUERZO / BUFFET":{"PT":"ALMOÇO / BUFFET","EN":"LUNCH / BUFFET"},"VEGETARIANA":{"PT":"VEGETARIANA","EN":"VEGETARIAN"},"QUIOSQUES":{"PT":"QUIOSQUES","EN":"KIOSKS"},"EXPERIENCIAS":{"PT":"EXPERIÊNCIAS","EN":"EXPERIENCES"},"Ficha rápida":{"PT":"Informações rápidas","EN":"Quick facts"},"Barrio mostrado":{"PT":"Bairro","EN":"Neighborhood"},"Clasificación de la ficha":{"PT":"Categoria","EN":"Category"},"Estado de la información":{"PT":"Estado das informações","EN":"Information status"},"Verificación necesaria":{"PT":"Precisa confirmar","EN":"Please confirm"},"Lo que consta en las fuentes":{"PT":"O que consta nas fontes","EN":"What the sources say"},"Café Río":{"PT":"Café Rio","EN":"Rio Coffee"},"Sitio anterior":{"PT":"Site anterior","EN":"Previous site"},"Volver":{"PT":"Voltar","EN":"Back"},"Volver a la página anterior":{"PT":"Voltar à página anterior","EN":"Go back"},"Compartir":{"PT":"Compartilhar","EN":"Share"},"Compartir esta página":{"PT":"Compartilhe esta página","EN":"Share this page"},"Compartir en WhatsApp":{"PT":"Compartilhar no WhatsApp","EN":"Share on WhatsApp"},"Compartir en Instagram":{"PT":"Compartilhar no Instagram","EN":"Share on Instagram"},"Compartir en Facebook":{"PT":"Compartilhar no Facebook","EN":"Share on Facebook"},"Más aplicaciones":{"PT":"Mais aplicativos","EN":"More apps"},"Enlace copiado. Puedes pegarlo en Instagram.":{"PT":"Link copiado. Você pode colá-lo no Instagram.","EN":"Link copied. You can paste it into Instagram."},"Enlace copiado.":{"PT":"Link copiado.","EN":"Link copied."},"No se pudo copiar el enlace.":{"PT":"Não foi possível copiar o link.","EN":"Could not copy the link."},"Abrir TikTok":{"PT":"Abrir TikTok","EN":"Open TikTok"},"Abrir Instagram":{"PT":"Abrir Instagram","EN":"Open Instagram"},"Contactar por WhatsApp":{"PT":"Falar pelo WhatsApp","EN":"Contact on WhatsApp"},"Cambiar idioma":{"PT":"Mudar idioma","EN":"Change language"},"Español":{"PT":"Espanhol","EN":"Spanish"},"Português":{"PT":"Português","EN":"Portuguese"},"English":{"PT":"Inglês","EN":"English"}};
 const sectionChunks = {
@@ -26,7 +28,7 @@ const sectionChunks = {
   "vida-nocturna": ["vida-nocturna-01.js", "vida-nocturna-02.js", "vida-nocturna-03.js", "vida-nocturna-04.js", "vida-nocturna-05.js", "vida-nocturna-06.js", "vida-nocturna-07.js", "vida-nocturna-08.js", "vida-nocturna-09.js", "vida-nocturna-10.js", "vida-nocturna-11.js"],
 };
 async function loadSectionTranslations() {
-  const section = location.pathname.split("/").filter(Boolean)[0] || "home";
+  const section = routeParts().path.split("/").filter(Boolean)[0] || "home";
   const chunks = ["common-02.js", "metadata-01.js", "metadata-02.js", ...(sectionChunks[section] || [])];
   const loaded = await Promise.allSettled(chunks.map(file => import(`./translations/chunks/${file}`)));
   for (const result of loaded) if (result.status === "fulfilled") Object.assign(common, result.value.default);
@@ -75,7 +77,8 @@ function ensureSocialLinks() {
   if(tools)bar.insertBefore(group,tools);else bar.appendChild(group);
 }
 function ensureMobileLanguageRow() {
-  if(document.querySelector(".ec-mobile-language-row"))return;
+  const existing=document.querySelector(".ec-mobile-language-row");
+  if(existing){if(hasLocaleRoutes())existing.querySelectorAll("a[data-ec-language]").forEach(a=>a.href=localeHref(a.dataset.ecLanguage));return;}
   const bar=document.querySelector(".topbar");
   const row=document.createElement("div");
   row.className="ec-mobile-language-row";
@@ -83,8 +86,8 @@ function ensureMobileLanguageRow() {
   row.setAttribute("aria-label","Cambiar idioma");
   const options=[["ES","🇪🇸","Español"],["PT","🇧🇷","Português"],["EN","🇺🇸","English"]];
   for(const [code,flag,label] of options){
-    const b=document.createElement("button");b.type="button";b.className="ec-language-choice";b.dataset.ecLanguage=code;b.setAttribute("aria-label",label);b.setAttribute("aria-pressed","false");b.innerHTML="<span aria-hidden='true'>"+flag+"</span><span>"+code+"</span>";
-    b.addEventListener("click",()=>apply(code));
+    const b=document.createElement(hasLocaleRoutes()?"a":"button");if(b.tagName==="BUTTON")b.type="button";else{b.href=localeHref(code);b.hreflang=code==="PT"?"pt-BR":code.toLowerCase();b.style.textDecoration="none";}b.className="ec-language-choice";b.dataset.ecLanguage=code;b.setAttribute("aria-label",label);b.setAttribute("aria-pressed","false");b.innerHTML="<span aria-hidden='true'>"+flag+"</span><span>"+code+"</span>";
+    if(b.tagName==="BUTTON")b.addEventListener("click",()=>apply(code));
     row.appendChild(b);
   }
   if(bar&&bar.parentNode)bar.parentNode.insertBefore(row,bar.nextSibling);else document.body.prepend(row);
@@ -119,7 +122,7 @@ function ensureTools() {
   button.dataset.ecDesktopLanguageGroup="";
   button.setAttribute("role","group");button.setAttribute("aria-label","Cambiar idioma");
   button.replaceChildren();
-  for(const code of ["ES","PT","EN"]){const choice=document.createElement("button");choice.type="button";choice.className="ec-desktop-language-choice";choice.dataset.desktopLanguage=code;if(document.querySelector("[data-ch-es]"))choice.dataset.ecLanguage=code;choice.textContent=code==="PT"?"PT-BR":code;choice.setAttribute("aria-label",code==="ES"?"Español":code==="PT"?"Português (Brasil)":"English");choice.addEventListener("click",()=>apply(code));button.appendChild(choice);}
+  for(const code of ["ES","PT","EN"]){const choice=document.createElement(hasLocaleRoutes()?"a":"button");if(choice.tagName==="BUTTON")choice.type="button";else{choice.href=localeHref(code);choice.hreflang=code==="PT"?"pt-BR":code.toLowerCase();choice.style.cssText="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box";}choice.className="ec-desktop-language-choice";choice.dataset.desktopLanguage=code;if(document.querySelector("[data-ch-es]"))choice.dataset.ecLanguage=code;choice.textContent=code==="PT"?"PT-BR":code;choice.setAttribute("aria-label",code==="ES"?"Español":code==="PT"?"Português (Brasil)":"English");if(choice.tagName==="BUTTON")choice.addEventListener("click",()=>apply(code));button.appendChild(choice);}
   return button;
 }
 async function copyCurrentLink(message) {
@@ -196,8 +199,11 @@ function apply(lang) {
   document.querySelectorAll("[data-desktop-language]").forEach(button => { button.classList.toggle("is-active",button.dataset.desktopLanguage===selected); button.setAttribute("aria-pressed",String(button.dataset.desktopLanguage===selected)); });
   document.querySelectorAll("[data-ec-language]").forEach(button => { const active=button.dataset.ecLanguage===selected; button.classList.toggle("is-active",active); button.setAttribute("aria-pressed",String(active)); });
   document.documentElement.lang = selected === "PT" ? "pt-BR" : selected.toLowerCase();
+  applySeoMetadata(selected);
+  localizeLinks(document, selected);
+  syncLocaleMetadata();
 }
-function ensureGuideAdn(){const p=location.pathname;if(!p.startsWith('/guia/'))return;if(document.querySelector('link[data-guide-adn]'))return;const l=document.createElement('link');l.rel='stylesheet';l.href=new URL('../css/guia-adn.css',import.meta.url).href;l.dataset.guideAdn='';document.head.appendChild(l);}
+function ensureGuideAdn(){const p=routeParts().path;if(!p.startsWith('/guia/'))return;if(document.querySelector('link[data-guide-adn]'))return;const l=document.createElement('link');l.rel='stylesheet';l.href=new URL('../css/guia-adn.css',import.meta.url).href;l.dataset.guideAdn='';document.head.appendChild(l);}
 
 function ensureCorporateClosing(){
   if(document.querySelector(".ec-corporate-closing"))return;
@@ -231,13 +237,14 @@ async function init() {
   apply(getLanguage());
   const observer = new MutationObserver(records => {
     const added = records.flatMap(record => [...record.addedNodes]).filter(node => node.nodeType === Node.ELEMENT_NODE);
-    if (added.length) for (const node of added) { translateText(node, getLanguage()); translateAttrs(getLanguage()); applyTranslations(node, getLanguage()); }
+    if (added.length) for (const node of added) { translateText(node, getLanguage()); translateAttrs(getLanguage()); applyTranslations(node, getLanguage()); localizeLinks(node); }
   });
   observer.observe(document.body, { childList: true, subtree: true });
   document.addEventListener("ec:language", event => {
     const selected = event.detail?.lang || getLanguage();
     applyEmbeddedShoppingCopy(selected);
     translateText(document.head, selected); translateText(document.body, selected); translateAttrs(selected); applyTranslations(document, selected);
+    applySeoMetadata(selected); syncLocaleMetadata();
   });
   // Bridge shared language controls to pages that render their own ES/PT/EN copy.
   let syncingEmbeddedLanguage = false;
@@ -260,7 +267,9 @@ async function init() {
   });
   apply(getLanguage());
 }
-document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init, { once: true }) : init();
+const ready = document.readyState === "loading"
+  ? new Promise((resolve,reject)=>document.addEventListener("DOMContentLoaded",()=>init().then(resolve,reject),{once:true}))
+  : init();
 // EC preview trigger: 2026-09-29 guide-and-corporate-closing
 // Force GitHub→Vercel preview: 2026-09-29T01:15 Rio
-export { apply, translatePhrase };
+export { apply, translatePhrase, ready };

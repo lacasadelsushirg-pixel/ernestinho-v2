@@ -1,0 +1,1867 @@
+{
+  "tested": 3534,
+  "failures": [
+    {
+      "route": "/compras/cadeg/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "CADEG · Ernestinho Carioca",
+      "bodyLength": 5963
+    },
+    {
+      "route": "/compras/cadeg/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "CADEG · Ernestinho Carioca",
+      "bodyLength": 5975
+    },
+    {
+      "route": "/compras/feira-da-gloria/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria da Glória · Ernestinho Carioca",
+      "bodyLength": 6244
+    },
+    {
+      "route": "/compras/feira-da-gloria/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria da Glória · Ernestinho Carioca",
+      "bodyLength": 6256
+    },
+    {
+      "route": "/compras/feira-da-providencia/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria da Providência · Ernestinho Carioca",
+      "bodyLength": 6494
+    },
+    {
+      "route": "/compras/feira-da-providencia/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria da Providência · Ernestinho Carioca",
+      "bodyLength": 6506
+    },
+    {
+      "route": "/compras/feira-hippie-ipanema/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria Hippie de Ipanema · Ernestinho Carioca",
+      "bodyLength": 6787
+    },
+    {
+      "route": "/compras/feira-hippie-ipanema/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria Hippie de Ipanema · Ernestinho Carioca",
+      "bodyLength": 6799
+    },
+    {
+      "route": "/compras/feira-nocturna-copacabana/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria Nocturna de Copacabana · Ernestinho Carioca",
+      "bodyLength": 5191
+    },
+    {
+      "route": "/compras/feira-nocturna-copacabana/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria Nocturna de Copacabana · Ernestinho Carioca",
+      "bodyLength": 5203
+    },
+    {
+      "route": "/compras/feira-organica-gloria/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria Orgânica da Glória · Ernestinho Carioca",
+      "bodyLength": 5625
+    },
+    {
+      "route": "/compras/feira-organica-gloria/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria Orgânica da Glória · Ernestinho Carioca",
+      "bodyLength": 5637
+    },
+    {
+      "route": "/compras/feira-sao-cristovao/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira de São Cristóvão · Ernestinho Carioca",
+      "bodyLength": 5555
+    },
+    {
+      "route": "/compras/feira-sao-cristovao/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira de São Cristóvão · Ernestinho Carioca",
+      "bodyLength": 5567
+    },
+    {
+      "route": "/compras/lavradio/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria do Lavradio · Ernestinho Carioca",
+      "bodyLength": 6520
+    },
+    {
+      "route": "/compras/lavradio/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria do Lavradio · Ernestinho Carioca",
+      "bodyLength": 6532
+    },
+    {
+      "route": "/compras/mercado-sao-pedro/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: lang is not a function"
+      ],
+      "runtimeExceptions": [
+        "lang is not a function"
+      ],
+      "title": "Mercado São Pedro | Ernestinho Carioca",
+      "bodyLength": 5906
+    },
+    {
+      "route": "/compras/mercado-sao-pedro/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: lang is not a function"
+      ],
+      "runtimeExceptions": [
+        "lang is not a function"
+      ],
+      "title": "Mercado São Pedro | Ernestinho Carioca",
+      "bodyLength": 5930
+    },
+    {
+      "route": "/compras/nova-america/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Shopping Nova América — Ernestinho Carioca",
+      "bodyLength": 9549
+    },
+    {
+      "route": "/compras/nova-america/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Shopping Nova América — Ernestinho Carioca",
+      "bodyLength": 9542
+    },
+    {
+      "route": "/compras/praca-lido/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria da Praça do Lido · Ernestinho Carioca",
+      "bodyLength": 6178
+    },
+    {
+      "route": "/compras/praca-lido/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria da Praça do Lido · Ernestinho Carioca",
+      "bodyLength": 6190
+    },
+    {
+      "route": "/compras/praca-xv/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria de Antigüedades de la Praça XV · Ernestinho Carioca",
+      "bodyLength": 6565
+    },
+    {
+      "route": "/compras/praca-xv/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feria de Antigüedades de la Praça XV · Ernestinho Carioca",
+      "bodyLength": 6577
+    },
+    {
+      "route": "/compras/rio-sul/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Shopping Rio Sul · Ernestinho Carioca",
+      "bodyLength": 6611
+    },
+    {
+      "route": "/compras/rio-sul/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Shopping Rio Sul · Ernestinho Carioca",
+      "bodyLength": 6623
+    },
+    {
+      "route": "/compras/saara/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Saara · Ernestinho Carioca",
+      "bodyLength": 4902
+    },
+    {
+      "route": "/compras/saara/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Saara · Ernestinho Carioca",
+      "bodyLength": 4914
+    },
+    {
+      "route": "/compras/village-mall/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "VillageMall · Ernestinho Carioca",
+      "bodyLength": 6386
+    },
+    {
+      "route": "/compras/village-mall/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "VillageMall · Ernestinho Carioca",
+      "bodyLength": 6398
+    },
+    {
+      "route": "/en/compras/cadeg/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "CADEG · Ernestinho Carioca",
+      "bodyLength": 4052
+    },
+    {
+      "route": "/en/compras/cadeg/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "CADEG · Ernestinho Carioca",
+      "bodyLength": 4040
+    },
+    {
+      "route": "/en/compras/feira-da-gloria/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira da Glória · Ernestinho Carioca",
+      "bodyLength": 4871
+    },
+    {
+      "route": "/en/compras/feira-da-gloria/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira da Glória · Ernestinho Carioca",
+      "bodyLength": 4883
+    },
+    {
+      "route": "/en/compras/feira-da-providencia/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira da Providência · Ernestinho Carioca",
+      "bodyLength": 4989
+    },
+    {
+      "route": "/en/compras/feira-da-providencia/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira da Providência · Ernestinho Carioca",
+      "bodyLength": 4977
+    },
+    {
+      "route": "/en/compras/feira-hippie-ipanema/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira Hippie de Ipanema · Ernestinho Carioca",
+      "bodyLength": 5158
+    },
+    {
+      "route": "/en/compras/feira-hippie-ipanema/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira Hippie de Ipanema · Ernestinho Carioca",
+      "bodyLength": 5146
+    },
+    {
+      "route": "/en/compras/feira-nocturna-copacabana/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Copacabana Night Market · Ernestinho Carioca",
+      "bodyLength": 4269
+    },
+    {
+      "route": "/en/compras/feira-nocturna-copacabana/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Copacabana Night Market · Ernestinho Carioca",
+      "bodyLength": 4281
+    },
+    {
+      "route": "/en/compras/feira-organica-gloria/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira Orgânica da Glória · Ernestinho Carioca",
+      "bodyLength": 4734
+    },
+    {
+      "route": "/en/compras/feira-organica-gloria/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira Orgânica da Glória · Ernestinho Carioca",
+      "bodyLength": 4746
+    },
+    {
+      "route": "/en/compras/feira-sao-cristovao/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira de São Cristóvão · Ernestinho Carioca",
+      "bodyLength": 4094
+    },
+    {
+      "route": "/en/compras/feira-sao-cristovao/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira de São Cristóvão · Ernestinho Carioca",
+      "bodyLength": 4082
+    },
+    {
+      "route": "/en/compras/lavradio/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira do Lavradio · Ernestinho Carioca",
+      "bodyLength": 4953
+    },
+    {
+      "route": "/en/compras/lavradio/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira do Lavradio · Ernestinho Carioca",
+      "bodyLength": 4941
+    },
+    {
+      "route": "/en/compras/mercado-sao-pedro/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: lang is not a function"
+      ],
+      "runtimeExceptions": [
+        "lang is not a function"
+      ],
+      "title": "Mercado São Pedro | Ernestinho Carioca",
+      "bodyLength": 4893
+    },
+    {
+      "route": "/en/compras/mercado-sao-pedro/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: lang is not a function"
+      ],
+      "runtimeExceptions": [
+        "lang is not a function"
+      ],
+      "title": "Mercado São Pedro | Ernestinho Carioca",
+      "bodyLength": 4869
+    },
+    {
+      "route": "/en/compras/nova-america/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Shopping Nova América — Ernestinho Carioca",
+      "bodyLength": 7406
+    },
+    {
+      "route": "/en/compras/nova-america/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Shopping Nova América — Ernestinho Carioca",
+      "bodyLength": 7413
+    },
+    {
+      "route": "/en/compras/praca-lido/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Praça do Lido Fair · Ernestinho Carioca",
+      "bodyLength": 4816
+    },
+    {
+      "route": "/en/compras/praca-lido/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Praça do Lido Fair · Ernestinho Carioca",
+      "bodyLength": 4804
+    },
+    {
+      "route": "/en/compras/praca-xv/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Praça XV Antiques Fair · Ernestinho Carioca",
+      "bodyLength": 4910
+    },
+    {
+      "route": "/en/compras/praca-xv/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Praça XV Antiques Fair · Ernestinho Carioca",
+      "bodyLength": 4922
+    },
+    {
+      "route": "/en/compras/rio-sul/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Shopping Rio Sul · Ernestinho Carioca",
+      "bodyLength": 5002
+    },
+    {
+      "route": "/en/compras/rio-sul/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Shopping Rio Sul · Ernestinho Carioca",
+      "bodyLength": 4990
+    },
+    {
+      "route": "/en/compras/saara/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Saara · Ernestinho Carioca",
+      "bodyLength": 3640
+    },
+    {
+      "route": "/en/compras/saara/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Saara · Ernestinho Carioca",
+      "bodyLength": 3652
+    },
+    {
+      "route": "/en/compras/village-mall/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "VillageMall · Ernestinho Carioca",
+      "bodyLength": 4733
+    },
+    {
+      "route": "/en/compras/village-mall/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "VillageMall · Ernestinho Carioca",
+      "bodyLength": 4721
+    },
+    {
+      "route": "/en/cultura/acao-cidadania/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
+      "bodyLength": 1920
+    },
+    {
+      "route": "/en/cultura/acao-cidadania/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
+      "bodyLength": 1932
+    },
+    {
+      "route": "/en/cultura/biblioteca-ccbb/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Biblioteca do CCBB Rio | Ernestinho Carioca",
+      "bodyLength": 2003
+    },
+    {
+      "route": "/en/cultura/biblioteca-ccbb/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Biblioteca do CCBB Rio | Ernestinho Carioca",
+      "bodyLength": 1991
+    },
+    {
+      "route": "/en/cultura/espaco-marinha/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Espaço Cultural da Marinha | Ernestinho Carioca",
+      "bodyLength": 2571
+    },
+    {
+      "route": "/en/cultura/espaco-marinha/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Espaço Cultural da Marinha | Ernestinho Carioca",
+      "bodyLength": 2583
+    },
+    {
+      "route": "/en/cultura/jose-bonifacio/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Centro Cultural José Bonifácio | Ernestinho Carioca",
+      "bodyLength": 1802
+    },
+    {
+      "route": "/en/cultura/jose-bonifacio/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Centro Cultural José Bonifácio | Ernestinho Carioca",
+      "bodyLength": 1814
+    },
+    {
+      "route": "/en/cultura/maas/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Museu Arquidiocesano de Arte Sacra – MAAS | Ernestinho Carioca",
+      "bodyLength": 4713
+    },
+    {
+      "route": "/en/cultura/maas/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Museu Arquidiocesano de Arte Sacra – MAAS | Ernestinho Carioca",
+      "bodyLength": 4725
+    },
+    {
+      "route": "/en/cultura/mac-niteroi/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Museu de Arte Contemporânea de Niterói – MAC | Ernestinho Carioca",
+      "bodyLength": 4070
+    },
+    {
+      "route": "/en/cultura/mac-niteroi/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Museu de Arte Contemporânea de Niterói – MAC | Ernestinho Carioca",
+      "bodyLength": 4058
+    },
+    {
+      "route": "/en/cultura/maison-france/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Teatro Maison de France | Ernestinho Carioca",
+      "bodyLength": 1563
+    },
+    {
+      "route": "/en/cultura/maison-france/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Teatro Maison de France | Ernestinho Carioca",
+      "bodyLength": 1575
+    },
+    {
+      "route": "/en/cultura/mar/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Museu de Arte do Rio – MAR | Ernestinho Carioca",
+      "bodyLength": 4547
+    },
+    {
+      "route": "/en/cultura/mar/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Museu de Arte do Rio – MAR | Ernestinho Carioca",
+      "bodyLength": 4559
+    },
+    {
+      "route": "/en/cultura/museu-nacional-ufrj/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Museu Nacional – UFRJ | Ernestinho Carioca",
+      "bodyLength": 4647
+    },
+    {
+      "route": "/en/cultura/museu-nacional-ufrj/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Museu Nacional – UFRJ | Ernestinho Carioca",
+      "bodyLength": 4635
+    },
+    {
+      "route": "/en/cultura/rosario-pretos/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Igreja de Nossa Senhora do Rosário e São Benedito dos Homens Pretos | Ernestinho Carioca",
+      "bodyLength": 1475
+    },
+    {
+      "route": "/en/cultura/rosario-pretos/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Igreja de Nossa Senhora do Rosário e São Benedito dos Homens Pretos | Ernestinho Carioca",
+      "bodyLength": 1487
+    },
+    {
+      "route": "/en/cultura/sesc-tijuca/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Teatro SESC Tijuca | Ernestinho Carioca",
+      "bodyLength": 1561
+    },
+    {
+      "route": "/en/cultura/sesc-tijuca/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Teatro SESC Tijuca | Ernestinho Carioca",
+      "bodyLength": 1549
+    },
+    {
+      "route": "/en/gastronomia/amendoeira/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Bar da Amendoeira: complete guide | Ernestinho Carioca",
+      "bodyLength": 2552
+    },
+    {
+      "route": "/en/gastronomia/amendoeira/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Bar da Amendoeira: complete guide | Ernestinho Carioca",
+      "bodyLength": 2576
+    },
+    {
+      "route": "/en/gastronomia/belmonte-copa/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Boteco Belmonte Copacabana: complete guide | Ernestinho Carioca",
+      "bodyLength": 6804
+    },
+    {
+      "route": "/en/gastronomia/belmonte-copa/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Boteco Belmonte Copacabana: complete guide | Ernestinho Carioca",
+      "bodyLength": 6780
+    },
+    {
+      "route": "/en/gastronomia/cabanna/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Quiosque Cabanna: complete guide | Ernestinho Carioca",
+      "bodyLength": 2489
+    },
+    {
+      "route": "/en/gastronomia/cabanna/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Quiosque Cabanna: complete guide | Ernestinho Carioca",
+      "bodyLength": 2465
+    },
+    {
+      "route": "/en/gastronomia/classico-leme/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Clássico Beach Club Leme: complete guide | Ernestinho Carioca",
+      "bodyLength": 5795
+    },
+    {
+      "route": "/en/gastronomia/classico-leme/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Clássico Beach Club Leme: complete guide | Ernestinho Carioca",
+      "bodyLength": 5771
+    },
+    {
+      "route": "/en/gastronomia/pavao-azul/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading 'ES')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading 'ES')"
+      ],
+      "title": "Pavão Azul: complete guide | Ernestinho Carioca",
+      "bodyLength": 3441
+    },
+    {
+      "route": "/en/gastronomia/pavao-azul/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading 'ES')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading 'ES')"
+      ],
+      "title": "Pavão Azul: complete guide | Ernestinho Carioca",
+      "bodyLength": 3465
+    },
+    {
+      "route": "/en/gastronomia/samba-social/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Samba Social Clube: complete guide | Ernestinho Carioca",
+      "bodyLength": 5892
+    },
+    {
+      "route": "/en/gastronomia/samba-social/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Samba Social Clube: complete guide | Ernestinho Carioca",
+      "bodyLength": 5916
+    },
+    {
+      "route": "/en/gastronomia/zaza-bistro-tropical/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Zazá Bistrô Tropical: complete guide | Ernestinho Carioca",
+      "bodyLength": 4125
+    },
+    {
+      "route": "/gastronomia/amendoeira/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Bar da Amendoeira: guía completa | Ernestinho Carioca",
+      "bodyLength": 2554
+    },
+    {
+      "route": "/gastronomia/amendoeira/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Bar da Amendoeira: guía completa | Ernestinho Carioca",
+      "bodyLength": 2578
+    },
+    {
+      "route": "/gastronomia/belmonte-copa/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Boteco Belmonte Copacabana: guía completa | Ernestinho Carioca",
+      "bodyLength": 6712
+    },
+    {
+      "route": "/gastronomia/belmonte-copa/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Boteco Belmonte Copacabana: guía completa | Ernestinho Carioca",
+      "bodyLength": 6736
+    },
+    {
+      "route": "/gastronomia/cabanna/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Quiosque Cabanna: guía completa | Ernestinho Carioca",
+      "bodyLength": 2442
+    },
+    {
+      "route": "/gastronomia/cabanna/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Quiosque Cabanna: guía completa | Ernestinho Carioca",
+      "bodyLength": 2466
+    },
+    {
+      "route": "/gastronomia/classico-leme/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Clássico Beach Club Leme: guía completa | Ernestinho Carioca",
+      "bodyLength": 6153
+    },
+    {
+      "route": "/gastronomia/classico-leme/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Clássico Beach Club Leme: guía completa | Ernestinho Carioca",
+      "bodyLength": 6177
+    },
+    {
+      "route": "/gastronomia/pavao-azul/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading 'ES')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading 'ES')"
+      ],
+      "title": "Pavão Azul: guía completa | Ernestinho Carioca",
+      "bodyLength": 3483
+    },
+    {
+      "route": "/gastronomia/pavao-azul/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading 'ES')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading 'ES')"
+      ],
+      "title": "Pavão Azul: guía completa | Ernestinho Carioca",
+      "bodyLength": 3459
+    },
+    {
+      "route": "/gastronomia/samba-social/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Samba Social Clube: guía completa | Ernestinho Carioca",
+      "bodyLength": 6386
+    },
+    {
+      "route": "/gastronomia/samba-social/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Samba Social Clube: guía completa | Ernestinho Carioca",
+      "bodyLength": 6362
+    },
+    {
+      "route": "/pt/compras/cadeg/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "CADEG · Ernestinho Carioca",
+      "bodyLength": 4297
+    },
+    {
+      "route": "/pt/compras/cadeg/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "CADEG · Ernestinho Carioca",
+      "bodyLength": 4285
+    },
+    {
+      "route": "/pt/compras/feira-da-gloria/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira da Glória · Ernestinho Carioca",
+      "bodyLength": 4973
+    },
+    {
+      "route": "/pt/compras/feira-da-gloria/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira da Glória · Ernestinho Carioca",
+      "bodyLength": 4985
+    },
+    {
+      "route": "/pt/compras/feira-da-providencia/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira da Providência · Ernestinho Carioca",
+      "bodyLength": 5095
+    },
+    {
+      "route": "/pt/compras/feira-da-providencia/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira da Providência · Ernestinho Carioca",
+      "bodyLength": 5083
+    },
+    {
+      "route": "/pt/compras/feira-hippie-ipanema/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira Hippie de Ipanema · Ernestinho Carioca",
+      "bodyLength": 5115
+    },
+    {
+      "route": "/pt/compras/feira-hippie-ipanema/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira Hippie de Ipanema · Ernestinho Carioca",
+      "bodyLength": 5103
+    },
+    {
+      "route": "/pt/compras/feira-nocturna-copacabana/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira Noturna de Copacabana · Ernestinho Carioca",
+      "bodyLength": 4461
+    },
+    {
+      "route": "/pt/compras/feira-nocturna-copacabana/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira Noturna de Copacabana · Ernestinho Carioca",
+      "bodyLength": 4473
+    },
+    {
+      "route": "/pt/compras/feira-organica-gloria/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira Orgânica da Glória · Ernestinho Carioca",
+      "bodyLength": 4890
+    },
+    {
+      "route": "/pt/compras/feira-organica-gloria/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira Orgânica da Glória · Ernestinho Carioca",
+      "bodyLength": 4902
+    },
+    {
+      "route": "/pt/compras/feira-sao-cristovao/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira de São Cristóvão · Ernestinho Carioca",
+      "bodyLength": 4154
+    },
+    {
+      "route": "/pt/compras/feira-sao-cristovao/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira de São Cristóvão · Ernestinho Carioca",
+      "bodyLength": 4142
+    },
+    {
+      "route": "/pt/compras/lavradio/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira do Lavradio · Ernestinho Carioca",
+      "bodyLength": 5192
+    },
+    {
+      "route": "/pt/compras/lavradio/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira do Lavradio · Ernestinho Carioca",
+      "bodyLength": 5180
+    },
+    {
+      "route": "/pt/compras/mercado-sao-pedro/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: lang is not a function"
+      ],
+      "runtimeExceptions": [
+        "lang is not a function"
+      ],
+      "title": "Mercado São Pedro | Ernestinho Carioca",
+      "bodyLength": 5394
+    },
+    {
+      "route": "/pt/compras/mercado-sao-pedro/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: lang is not a function"
+      ],
+      "runtimeExceptions": [
+        "lang is not a function"
+      ],
+      "title": "Mercado São Pedro | Ernestinho Carioca",
+      "bodyLength": 5370
+    },
+    {
+      "route": "/pt/compras/nova-america/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Shopping Nova América — Ernestinho Carioca",
+      "bodyLength": 7865
+    },
+    {
+      "route": "/pt/compras/nova-america/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Shopping Nova América — Ernestinho Carioca",
+      "bodyLength": 7872
+    },
+    {
+      "route": "/pt/compras/praca-lido/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira da Praça do Lido · Ernestinho Carioca",
+      "bodyLength": 4898
+    },
+    {
+      "route": "/pt/compras/praca-lido/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira da Praça do Lido · Ernestinho Carioca",
+      "bodyLength": 4886
+    },
+    {
+      "route": "/pt/compras/praca-xv/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira de Antiguidades da Praça XV · Ernestinho Carioca",
+      "bodyLength": 5184
+    },
+    {
+      "route": "/pt/compras/praca-xv/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Feira de Antiguidades da Praça XV · Ernestinho Carioca",
+      "bodyLength": 5196
+    },
+    {
+      "route": "/pt/compras/rio-sul/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Shopping Rio Sul · Ernestinho Carioca",
+      "bodyLength": 5363
+    },
+    {
+      "route": "/pt/compras/rio-sul/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Shopping Rio Sul · Ernestinho Carioca",
+      "bodyLength": 5351
+    },
+    {
+      "route": "/pt/compras/saara/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Saara · Ernestinho Carioca",
+      "bodyLength": 3650
+    },
+    {
+      "route": "/pt/compras/saara/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "Saara · Ernestinho Carioca",
+      "bodyLength": 3662
+    },
+    {
+      "route": "/pt/compras/village-mall/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "VillageMall · Ernestinho Carioca",
+      "bodyLength": 4985
+    },
+    {
+      "route": "/pt/compras/village-mall/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: tailwind is not defined"
+      ],
+      "runtimeExceptions": [
+        "tailwind is not defined"
+      ],
+      "title": "VillageMall · Ernestinho Carioca",
+      "bodyLength": 4973
+    },
+    {
+      "route": "/pt/cultura/acao-cidadania/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
+      "bodyLength": 2008
+    },
+    {
+      "route": "/pt/cultura/acao-cidadania/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
+      "bodyLength": 2020
+    },
+    {
+      "route": "/pt/cultura/biblioteca-ccjf/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Biblioteca do Centro Cultural Justiça Federal | Ernestinho Carioca",
+      "bodyLength": 2043
+    },
+    {
+      "route": "/pt/cultura/biblioteca-ccjf/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Biblioteca do Centro Cultural Justiça Federal | Ernestinho Carioca",
+      "bodyLength": 2055
+    },
+    {
+      "route": "/pt/cultura/glauce-rocha/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Teatro Glauce Rocha | Ernestinho Carioca",
+      "bodyLength": 1610
+    },
+    {
+      "route": "/pt/cultura/glauce-rocha/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Teatro Glauce Rocha | Ernestinho Carioca",
+      "bodyLength": 1598
+    },
+    {
+      "route": "/pt/cultura/maison-france/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Teatro Maison de France | Ernestinho Carioca",
+      "bodyLength": 1589
+    },
+    {
+      "route": "/pt/cultura/maison-france/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Teatro Maison de France | Ernestinho Carioca",
+      "bodyLength": 1577
+    },
+    {
+      "route": "/pt/cultura/penha/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Basílica Santuário de Nossa Senhora da Penha | Ernestinho Carioca",
+      "bodyLength": 1667
+    },
+    {
+      "route": "/pt/cultura/penha/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Basílica Santuário de Nossa Senhora da Penha | Ernestinho Carioca",
+      "bodyLength": 1655
+    },
+    {
+      "route": "/pt/gastronomia/amendoeira/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Bar da Amendoeira: guia completo | Ernestinho Carioca",
+      "bodyLength": 2582
+    },
+    {
+      "route": "/pt/gastronomia/amendoeira/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Bar da Amendoeira: guia completo | Ernestinho Carioca",
+      "bodyLength": 2558
+    },
+    {
+      "route": "/pt/gastronomia/belmonte-copa/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Boteco Belmonte Copacabana: guia completo | Ernestinho Carioca",
+      "bodyLength": 6705
+    },
+    {
+      "route": "/pt/gastronomia/belmonte-copa/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Boteco Belmonte Copacabana: guia completo | Ernestinho Carioca",
+      "bodyLength": 6681
+    },
+    {
+      "route": "/pt/gastronomia/cabanna/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Quiosque Cabanna: guia completo | Ernestinho Carioca",
+      "bodyLength": 2509
+    },
+    {
+      "route": "/pt/gastronomia/cabanna/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Quiosque Cabanna: guia completo | Ernestinho Carioca",
+      "bodyLength": 2485
+    },
+    {
+      "route": "/pt/gastronomia/classico-leme/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Clássico Beach Club Leme: guia completo | Ernestinho Carioca",
+      "bodyLength": 6114
+    },
+    {
+      "route": "/pt/gastronomia/classico-leme/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Clássico Beach Club Leme: guia completo | Ernestinho Carioca",
+      "bodyLength": 6090
+    },
+    {
+      "route": "/pt/gastronomia/confeitaria-colombo/",
+      "viewport": 390,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Confeitaria Colombo: guia completo | Ernestinho Carioca",
+      "bodyLength": 3882
+    },
+    {
+      "route": "/pt/gastronomia/colombo-do-forte/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime description differs from prerender"
+      ],
+      "runtimeExceptions": [],
+      "title": "Confeitaria Colombo do Forte: guia completo | Ernestinho Carioca",
+      "bodyLength": 4116
+    },
+    {
+      "route": "/pt/gastronomia/pavao-azul/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading 'ES')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading 'ES')"
+      ],
+      "title": "Pavão Azul: guia completo | Ernestinho Carioca",
+      "bodyLength": 3536
+    },
+    {
+      "route": "/pt/gastronomia/pavao-azul/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading 'ES')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading 'ES')"
+      ],
+      "title": "Pavão Azul: guia completo | Ernestinho Carioca",
+      "bodyLength": 3512
+    },
+    {
+      "route": "/pt/gastronomia/samba-social/",
+      "viewport": 390,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Samba Social Clube: guia completo | Ernestinho Carioca",
+      "bodyLength": 6174
+    },
+    {
+      "route": "/pt/gastronomia/samba-social/",
+      "viewport": 1365,
+      "problems": [
+        "Runtime JS: Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "runtimeExceptions": [
+        "Cannot read properties of undefined (reading '🇪🇸')"
+      ],
+      "title": "Samba Social Clube: guia completo | Ernestinho Carioca",
+      "bodyLength": 6150
+    }
+  ]
+}

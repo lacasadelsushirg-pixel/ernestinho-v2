@@ -42,7 +42,9 @@ class Page(HTMLParser):
         if tag == "script" and not attr.get("src") and attr.get("type", "").lower() != "application/ld+json": self.inline_scripts.append(attr.get("type", "classic"))
 
 def main():
-    pages = sorted(ROOT.rglob("*.html"))
+    def source_file(path):
+        return not any(part in path.relative_to(ROOT).parts for part in ('node_modules', 'dist', '.vercel', '.git'))
+    pages = sorted(p for p in ROOT.rglob("*.html") if source_file(p))
     parsed, errors, warnings, sizes, depth = {}, [], [], [], []
     for path in pages:
         rel = path.relative_to(ROOT).as_posix()
@@ -111,7 +113,7 @@ def main():
         size = path.stat().st_size
         sizes.append((size, rel))
         if size > LIMIT: errors.append(f"Functional HTML exceeds 250 KB: {rel} ({size} bytes)")
-    for path in [*ROOT.rglob("*.js"), *ROOT.rglob("*.css")]:
+    for path in [p for p in [*ROOT.rglob("*.js"), *ROOT.rglob("*.css")] if source_file(p)]:
         if ".git" in path.parts: continue
         size = path.stat().st_size
         sizes.append((size, path.relative_to(ROOT).as_posix()))

@@ -1,0 +1,25 @@
+{
+  "consultas_web_ejecutadas": 72,
+  "consultas_por_idioma": {
+    "ES": 24,
+    "PT-BR": 24,
+    "EN": 24
+  },
+  "titulos_serp_observados": 813,
+  "candidatos_unicos": 9630,
+  "candidatos_por_idioma": {
+    "ES": 3210,
+    "PT-BR": 3201,
+    "EN": 3219
+  },
+  "clusters": 464,
+  "urls_fuente": 596,
+  "volumen": "No disponible; no se infiere de resultados SERP",
+  "prioridades": {
+    "P0": 359,
+    "P1": 285,
+    "P2": 2774,
+    "P3": 6212,
+    "P4": 0
+  }
+}

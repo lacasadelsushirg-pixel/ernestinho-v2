@@ -1,8 +1,9 @@
 // Translate standalone pages without injecting navigation, controls or layout.
 import { getLanguage, onLanguageChange } from './i18n.js';
+import { routeParts, hasLocaleRoutes, localeHref, localizeLinks, syncLocaleMetadata } from './locale-routing.js';
 
 const chunks = ['common-02.js', 'metadata-01.js', 'metadata-02.js'];
-if (location.pathname.startsWith('/eventos/')) chunks.push('eventos-01.js', 'eventos-02.js');
+if (routeParts().path.startsWith('/eventos/')) chunks.push('eventos-01.js', 'eventos-02.js');
 const loaded = await Promise.all(chunks.map(file => import(`./translations/chunks/${file}`)));
 const dictionary = Object.assign({}, ...loaded.map(module => module.default));
 const originals = new WeakMap();
@@ -83,6 +84,19 @@ function apply(language = getLanguage()) {
   applyText(document);
   applyAttributes(document);
   applyStructuredData();
+  if (hasLocaleRoutes()) {
+    localizeLinks(document, language);
+    syncLocaleMetadata();
+    let controls=document.querySelector('[data-ec-standalone-languages]');
+    if(!controls){
+      controls=document.createElement('nav');controls.dataset.ecStandaloneLanguages='';
+      controls.style.cssText='display:flex;justify-content:center;gap:16px;padding:20px;background:#020719;color:#fff';
+      for(const code of ['ES','PT','EN']){const a=document.createElement('a');a.dataset.ecLanguage=code;a.hreflang=code==='PT'?'pt-BR':code.toLowerCase();a.textContent=code==='PT'?'PT-BR':code;a.style.cssText='color:inherit;font-weight:700;text-decoration:none;padding:8px';controls.appendChild(a);}
+      document.body.appendChild(controls);
+    }
+    controls.setAttribute('aria-label',language==='PT'?'Idioma':language==='EN'?'Language':'Idioma');
+    controls.querySelectorAll('a').forEach(a=>{a.href=localeHref(a.dataset.ecLanguage);if(a.dataset.ecLanguage===language)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current');});
+  }
 }
 
 const observer = new MutationObserver(records => {

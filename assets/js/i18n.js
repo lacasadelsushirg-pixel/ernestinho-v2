@@ -1,3 +1,4 @@
+import { routeParts, hasLocaleRoutes, localeHref } from './locale-routing.js';
 export const LANGS = Object.freeze(["ES", "PT", "EN"]);
 const STORAGE_KEY = "ec-lang";
 const dictionaries = new Map();
@@ -9,6 +10,7 @@ export function normalizeLanguage(value) {
 }
 
 export function getLanguage() {
+  if (hasLocaleRoutes()) return routeParts().language;
   try {
     return normalizeLanguage(localStorage.getItem(STORAGE_KEY));
   } catch {
@@ -56,6 +58,10 @@ export function applyTranslations(root = document, lang = getLanguage()) {
 
 export function setLanguage(language) {
   const selected = normalizeLanguage(language);
+  if (hasLocaleRoutes() && selected !== routeParts().language) {
+    location.assign(localeHref(selected));
+    return routeParts().language;
+  }
   try { localStorage.setItem(STORAGE_KEY, selected); } catch { /* Storage may be disabled. */ }
   applyTranslations(document, selected);
   const languageLabels = {

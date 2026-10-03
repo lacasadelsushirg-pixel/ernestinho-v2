@@ -1,0 +1,3578 @@
+{
+  "/404.html": {
+    "file": "404.html",
+    "title": "Esta calle no lleva por aquí | Ernestinho Carioca",
+    "h1": "Esta calle no lleva por aquí.",
+    "words": 25
+  },
+  "/atracciones/aquario/": {
+    "file": "atracciones/aquario/index.html",
+    "title": "AquaRio | Atracciones Ernestinho",
+    "h1": "AquaRio",
+    "words": 132
+  },
+  "/atracciones/cristo-redentor/": {
+    "file": "atracciones/cristo-redentor/index.html",
+    "title": "Cristo Redentor | Atracciones Ernestinho",
+    "h1": "Cristo Redentor",
+    "words": 155
+  },
+  "/atracciones/": {
+    "file": "atracciones/index.html",
+    "title": "Atracciones | Ernestinho Carioca",
+    "h1": "Atracciones",
+    "words": 141
+  },
+  "/atracciones/jardim-botanico/": {
+    "file": "atracciones/jardim-botanico/index.html",
+    "title": "Jardim Botânico | Atracciones Ernestinho",
+    "h1": "Jardim Botânico",
+    "words": 137
+  },
+  "/atracciones/maracana/": {
+    "file": "atracciones/maracana/index.html",
+    "title": "Maracanã | Atracciones Ernestinho",
+    "h1": "Maracanã",
+    "words": 151
+  },
+  "/atracciones/museu-amanha/": {
+    "file": "atracciones/museu-amanha/index.html",
+    "title": "Museu do Amanhã | Atracciones Ernestinho",
+    "h1": "Museu do Amanhã",
+    "words": 136
+  },
+  "/atracciones/pao-de-acucar/": {
+    "file": "atracciones/pao-de-acucar/index.html",
+    "title": "Pão de Açúcar | Atracciones Ernestinho",
+    "h1": "Pão de Açúcar",
+    "words": 147
+  },
+  "/atracciones/parque-lage/": {
+    "file": "atracciones/parque-lage/index.html",
+    "title": "Parque Lage | Atracciones Ernestinho",
+    "h1": "Parque Lage",
+    "words": 144
+  },
+  "/atracciones/selaron/": {
+    "file": "atracciones/selaron/index.html",
+    "title": "Escadaria Selarón | Atracciones Ernestinho",
+    "h1": "Escadaria Selarón",
+    "words": 147
+  },
+  "/barrios/barra-da-tijuca/": {
+    "file": "barrios/barra-da-tijuca/index.html",
+    "title": "Barra da Tijuca | Barrios de Río | Ernestinho Carioca",
+    "h1": "Barra da Tijuca",
+    "words": 294
+  },
+  "/barrios/barra-oeste/": {
+    "file": "barrios/barra-oeste/index.html",
+    "title": "Barra + Zona Oeste | Barrios de Río | Ernestinho Carioca",
+    "h1": "Barra + Zona Oeste",
+    "words": 269
+  },
+  "/barrios/botafogo/": {
+    "file": "barrios/botafogo/index.html",
+    "title": "Botafogo | Barrios de Río | Ernestinho Carioca",
+    "h1": "Botafogo",
+    "words": 277
+  },
+  "/barrios/botafogo-urca/": {
+    "file": "barrios/botafogo-urca/index.html",
+    "title": "Botafogo + Urca | Barrios de Río | Ernestinho Carioca",
+    "h1": "Botafogo + Urca",
+    "words": 256
+  },
+  "/barrios/cadeg/": {
+    "file": "barrios/cadeg/index.html",
+    "title": "CADEG | Barrios | Ernestinho Carioca",
+    "h1": "CADEG",
+    "words": 147
+  },
+  "/barrios/catete/": {
+    "file": "barrios/catete/index.html",
+    "title": "Catete | Barrios de Río | Ernestinho Carioca",
+    "h1": "Catete",
+    "words": 260
+  },
+  "/barrios/centro/": {
+    "file": "barrios/centro/index.html",
+    "title": "Centro | Barrios de Río | Ernestinho Carioca",
+    "h1": "Centro",
+    "words": 303
+  },
+  "/barrios/centro-maua/": {
+    "file": "barrios/centro-maua/index.html",
+    "title": "Centro + Praça Mauá | Barrios de Río | Ernestinho Carioca",
+    "h1": "Centro + Praça Mauá",
+    "words": 260
+  },
+  "/barrios/copacabana/": {
+    "file": "barrios/copacabana/index.html",
+    "title": "Copacabana | Barrios de Río | Ernestinho Carioca",
+    "h1": "Copacabana",
+    "words": 458
+  },
+  "/barrios/flamengo/": {
+    "file": "barrios/flamengo/index.html",
+    "title": "Flamengo | Barrios de Río | Ernestinho Carioca",
+    "h1": "Flamengo",
+    "words": 259
+  },
+  "/barrios/flamengo-gloria/": {
+    "file": "barrios/flamengo-gloria/index.html",
+    "title": "Flamengo + Glória | Barrios de Río | Ernestinho Carioca",
+    "h1": "Flamengo + Glória",
+    "words": 243
+  },
+  "/barrios/gavea/": {
+    "file": "barrios/gavea/index.html",
+    "title": "Gávea | Barrios | Ernestinho Carioca",
+    "h1": "Gávea",
+    "words": 218
+  },
+  "/barrios/gavea-jardim-lagoa/": {
+    "file": "barrios/gavea-jardim-lagoa/index.html",
+    "title": "Gávea + Jardim Botânico + Lagoa | Barrios de Río | Ernestinho Carioca",
+    "h1": "Gávea + Jardim Botânico + Lagoa",
+    "words": 252
+  },
+  "/barrios/gloria/": {
+    "file": "barrios/gloria/index.html",
+    "title": "Glória | Barrios de Río | Ernestinho Carioca",
+    "h1": "Glória",
+    "words": 271
+  },
+  "/barrios/guaratiba/": {
+    "file": "barrios/guaratiba/index.html",
+    "title": "Guaratiba | Barrios | Ernestinho Carioca",
+    "h1": "Guaratiba",
+    "words": 196
+  },
+  "/barrios/ilha-da-gigoia/": {
+    "file": "barrios/ilha-da-gigoia/index.html",
+    "title": "Ilha da Gigóia | Barrios | Ernestinho Carioca",
+    "h1": "Ilha da Gigóia",
+    "words": 201
+  },
+  "/barrios/": {
+    "file": "barrios/index.html",
+    "title": "Barrios | Ernestinho Carioca",
+    "h1": "Barrios",
+    "words": 648
+  },
+  "/barrios/ipanema/": {
+    "file": "barrios/ipanema/index.html",
+    "title": "Ipanema | Barrios de Río | Ernestinho Carioca",
+    "h1": "Ipanema",
+    "words": 252
+  },
+  "/barrios/ipanema-leblon/": {
+    "file": "barrios/ipanema-leblon/index.html",
+    "title": "Ipanema + Leblon | Barrios de Río | Ernestinho Carioca",
+    "h1": "Ipanema + Leblon",
+    "words": 283
+  },
+  "/barrios/jacarepagua/": {
+    "file": "barrios/jacarepagua/index.html",
+    "title": "Jacarepaguá | Barrios | Ernestinho Carioca",
+    "h1": "Jacarepaguá",
+    "words": 201
+  },
+  "/barrios/jardim-botanico/": {
+    "file": "barrios/jardim-botanico/index.html",
+    "title": "Jardim Botânico | Barrios | Ernestinho Carioca",
+    "h1": "Jardim Botânico",
+    "words": 203
+  },
+  "/barrios/lagoa/": {
+    "file": "barrios/lagoa/index.html",
+    "title": "Lagoa | Barrios | Ernestinho Carioca",
+    "h1": "Lagoa",
+    "words": 194
+  },
+  "/barrios/lapa/": {
+    "file": "barrios/lapa/index.html",
+    "title": "Lapa | Barrios de Río | Ernestinho Carioca",
+    "h1": "Lapa",
+    "words": 274
+  },
+  "/barrios/laranjeiras/": {
+    "file": "barrios/laranjeiras/index.html",
+    "title": "Laranjeiras | Barrios | Ernestinho Carioca",
+    "h1": "Laranjeiras",
+    "words": 259
+  },
+  "/barrios/leblon/": {
+    "file": "barrios/leblon/index.html",
+    "title": "Leblon | Barrios de Río | Ernestinho Carioca",
+    "h1": "Leblon",
+    "words": 255
+  },
+  "/barrios/madureira/": {
+    "file": "barrios/madureira/index.html",
+    "title": "Madureira | Barrios de Río | Ernestinho Carioca",
+    "h1": "Madureira",
+    "words": 273
+  },
+  "/barrios/maracana/": {
+    "file": "barrios/maracana/index.html",
+    "title": "Maracanã | Barrios de Río | Ernestinho Carioca",
+    "h1": "Maracanã",
+    "words": 271
+  },
+  "/barrios/recreio/": {
+    "file": "barrios/recreio/index.html",
+    "title": "Recreio | Barrios de Río | Ernestinho Carioca",
+    "h1": "Recreio",
+    "words": 250
+  },
+  "/barrios/santa-lapa/": {
+    "file": "barrios/santa-lapa/index.html",
+    "title": "Santa Teresa + Lapa | Barrios de Río | Ernestinho Carioca",
+    "h1": "Santa Teresa + Lapa",
+    "words": 271
+  },
+  "/barrios/santa-teresa/": {
+    "file": "barrios/santa-teresa/index.html",
+    "title": "Santa Teresa | Barrios de Río | Ernestinho Carioca",
+    "h1": "Santa Teresa",
+    "words": 299
+  },
+  "/barrios/sao-conrado/": {
+    "file": "barrios/sao-conrado/index.html",
+    "title": "São Conrado | Barrios | Ernestinho Carioca",
+    "h1": "São Conrado",
+    "words": 204
+  },
+  "/barrios/sao-cristovao/": {
+    "file": "barrios/sao-cristovao/index.html",
+    "title": "São Cristóvão | Barrios de Río | Ernestinho Carioca",
+    "h1": "São Cristóvão",
+    "words": 269
+  },
+  "/barrios/sepetiba/": {
+    "file": "barrios/sepetiba/index.html",
+    "title": "Sepetiba | Barrios | Ernestinho Carioca",
+    "h1": "Sepetiba",
+    "words": 224
+  },
+  "/barrios/tijuca/": {
+    "file": "barrios/tijuca/index.html",
+    "title": "Tijuca | Barrios de Río | Ernestinho Carioca",
+    "h1": "Tijuca",
+    "words": 259
+  },
+  "/barrios/urca/": {
+    "file": "barrios/urca/index.html",
+    "title": "Urca | Barrios de Río | Ernestinho Carioca",
+    "h1": "Urca",
+    "words": 286
+  },
+  "/barrios/vargens/": {
+    "file": "barrios/vargens/index.html",
+    "title": "Vargens | Barrios | Ernestinho Carioca",
+    "h1": "Vargens",
+    "words": 194
+  },
+  "/barrios/zona-norte/": {
+    "file": "barrios/zona-norte/index.html",
+    "title": "Zona Norte | Barrios de Río | Ernestinho Carioca",
+    "h1": "Zona Norte",
+    "words": 256
+  },
+  "/cafe-rio/": {
+    "file": "cafe-rio/index.html",
+    "title": "Café Río · Café Ernestinho | Ernestinho Carioca",
+    "h1": "Café Río",
+    "words": 631
+  },
+  "/compras/barrashopping/": {
+    "file": "compras/barrashopping/index.html",
+    "title": "BarraShopping · Ernestinho Carioca",
+    "h1": "Barra",
+    "words": 410
+  },
+  "/compras/botafogo-praia-shopping/": {
+    "file": "compras/botafogo-praia-shopping/index.html",
+    "title": "Botafogo Praia Shopping · Ernestinho Carioca",
+    "h1": "Botafogo",
+    "words": 383
+  },
+  "/compras/cadeg/": {
+    "file": "compras/cadeg/index.html",
+    "title": "CADEG · Ernestinho Carioca",
+    "h1": "CADEG",
+    "words": 205
+  },
+  "/compras/downtown/": {
+    "file": "compras/downtown/index.html",
+    "title": "Shopping Downtown · Ernestinho Carioca",
+    "h1": "Shopping",
+    "words": 326
+  },
+  "/compras/fashion-mall/": {
+    "file": "compras/fashion-mall/index.html",
+    "title": "Fashion Mall · Ernestinho Carioca",
+    "h1": "Fashion",
+    "words": 383
+  },
+  "/compras/feira-da-gloria/": {
+    "file": "compras/feira-da-gloria/index.html",
+    "title": "Feria da Glória · Ernestinho Carioca",
+    "h1": "Feria da Glória",
+    "words": 385
+  },
+  "/compras/feira-da-providencia/": {
+    "file": "compras/feira-da-providencia/index.html",
+    "title": "Feria da Providência · Ernestinho Carioca",
+    "h1": "Feria da Providência",
+    "words": 353
+  },
+  "/compras/feira-das-yabas/": {
+    "file": "compras/feira-das-yabas/index.html",
+    "title": "Feira das Yabás | Ernestinho Carioca",
+    "h1": "Feira das Yabás",
+    "words": 476
+  },
+  "/compras/feira-hippie-ipanema/": {
+    "file": "compras/feira-hippie-ipanema/index.html",
+    "title": "Feria Hippie de Ipanema · Ernestinho Carioca",
+    "h1": "Feria Hippie de Ipanema",
+    "words": 388
+  },
+  "/compras/feira-nocturna-copacabana/": {
+    "file": "compras/feira-nocturna-copacabana/index.html",
+    "title": "Feria Nocturna de Copacabana · Ernestinho Carioca",
+    "h1": "Feria Nocturna de Copacabana",
+    "words": 329
+  },
+  "/compras/feira-noturna-copacabana/": {
+    "file": "compras/feira-noturna-copacabana/index.html",
+    "title": "Feirarte del Calçadão de Copacabana | Ernestinho Carioca",
+    "h1": "Feirarte del Calçadão de Copacabana",
+    "words": 208
+  },
+  "/compras/feira-organica/": {
+    "file": "compras/feira-organica/index.html",
+    "title": "Feria Orgánica da Glória | Ernestinho Carioca",
+    "h1": "",
+    "words": 17
+  },
+  "/compras/feira-organica-gloria/": {
+    "file": "compras/feira-organica-gloria/index.html",
+    "title": "Feria Orgânica da Glória · Ernestinho Carioca",
+    "h1": "Feria Orgânica da Glória",
+    "words": 332
+  },
+  "/compras/feira-sao-cristovao/": {
+    "file": "compras/feira-sao-cristovao/index.html",
+    "title": "Feira de São Cristóvão · Ernestinho Carioca",
+    "h1": "Feira de São Cristóvão",
+    "words": 194
+  },
+  "/compras/ferias/": {
+    "file": "compras/ferias/index.html",
+    "title": "Ferias de Río | Ernestinho Carioca",
+    "h1": "Ferias de Río",
+    "words": 165
+  },
+  "/compras/": {
+    "file": "compras/index.html",
+    "title": "Compras en Río | Ernestinho Carioca",
+    "h1": "Del shopping",
+    "words": 355
+  },
+  "/compras/lavradio/": {
+    "file": "compras/lavradio/index.html",
+    "title": "Feria do Lavradio · Ernestinho Carioca",
+    "h1": "Feria do Lavradio",
+    "words": 385
+  },
+  "/compras/mercadao-madureira/": {
+    "file": "compras/mercadao-madureira/index.html",
+    "title": "Mercadão de Madureira | Ernestinho Carioca",
+    "h1": "Mercadão de Madureira: comercio popular, cultura y vida carioca en la Zona Norte",
+    "words": 885
+  },
+  "/compras/mercado-sao-pedro/": {
+    "file": "compras/mercado-sao-pedro/index.html",
+    "title": "Mercado São Pedro | Ernestinho Carioca",
+    "h1": "Mercado São Pedro: sabores del mar, comercio popular y vida cotidiana en Niterói",
+    "words": 909
+  },
+  "/compras/mercados-populares/": {
+    "file": "compras/mercados-populares/index.html",
+    "title": "Mercados populares de Río | Ernestinho Carioca",
+    "h1": "Mercados populares de Río",
+    "words": 112
+  },
+  "/compras/metropolitano-barra/": {
+    "file": "compras/metropolitano-barra/index.html",
+    "title": "Shopping Metropolitano Barra · Ernestinho Carioca",
+    "h1": "Shopping",
+    "words": 389
+  },
+  "/compras/norte-shopping/": {
+    "file": "compras/norte-shopping/index.html",
+    "title": "NorteShopping: guía de visita | Ernestinho Carioca",
+    "h1": "NorteShopping",
+    "words": 664
+  },
+  "/compras/nova-america/": {
+    "file": "compras/nova-america/index.html",
+    "title": "Shopping Nova América — Ernestinho Carioca",
+    "h1": "Shopping Nova América",
+    "words": 436
+  },
+  "/compras/parkjacarepagua/": {
+    "file": "compras/parkjacarepagua/index.html",
+    "title": "ParkJacarepaguá · Ernestinho Carioca",
+    "h1": "Park",
+    "words": 366
+  },
+  "/compras/praca-lido/": {
+    "file": "compras/praca-lido/index.html",
+    "title": "Feria da Praça do Lido · Ernestinho Carioca",
+    "h1": "Feria da Praça do Lido",
+    "words": 396
+  },
+  "/compras/praca-xv/": {
+    "file": "compras/praca-xv/index.html",
+    "title": "Feria de Antigüedades de la Praça XV · Ernestinho Carioca",
+    "h1": "Feria de Antigüedades Praça XV",
+    "words": 401
+  },
+  "/compras/rio-sul/": {
+    "file": "compras/rio-sul/index.html",
+    "title": "Shopping Rio Sul · Ernestinho Carioca",
+    "h1": "Shopping Rio Sul",
+    "words": 341
+  },
+  "/compras/saara/": {
+    "file": "compras/saara/index.html",
+    "title": "Saara · Ernestinho Carioca",
+    "h1": "Saara",
+    "words": 181
+  },
+  "/compras/shopping-leblon/": {
+    "file": "compras/shopping-leblon/index.html",
+    "title": "Shopping Leblon · Ernestinho Carioca",
+    "h1": "Shopping",
+    "words": 445
+  },
+  "/compras/shopping-tijuca/": {
+    "file": "compras/shopping-tijuca/index.html",
+    "title": "Shopping Tijuca | Ernestinho Carioca",
+    "h1": "Shopping Tijuca",
+    "words": 490
+  },
+  "/compras/shoppings/": {
+    "file": "compras/shoppings/index.html",
+    "title": "Centros comerciales de Río | Ernestinho Carioca",
+    "h1": "Centros comerciales de Río",
+    "words": 215
+  },
+  "/compras/uruguaiana/": {
+    "file": "compras/uruguaiana/index.html",
+    "title": "Uruguaiana | Ernestinho Carioca",
+    "h1": "Uruguaiana: el comercio popular del Centro de Río que hay que saber recorrer",
+    "words": 1011
+  },
+  "/compras/village-mall/": {
+    "file": "compras/village-mall/index.html",
+    "title": "VillageMall · Ernestinho Carioca",
+    "h1": "VillageMall",
+    "words": 372
+  },
+  "/consejos/20-consejos/": {
+    "file": "consejos/20-consejos/index.html",
+    "title": "20 errores que debes evitar sí o sí en Río de Janeiro | Ernestinho Carioca",
+    "h1": "20 consejos que me gustaría que supieras antes de viajar a Río",
+    "words": 1069
+  },
+  "/consejos/50-preguntas/": {
+    "file": "consejos/50-preguntas/index.html",
+    "title": "50 preguntas antes de viajar a Río | Ernestinho Carioca",
+    "h1": "50 preguntas antes de viajar a Río",
+    "words": 1315
+  },
+  "/consejos/electricidad-adaptadores/": {
+    "file": "consejos/electricidad-adaptadores/index.html",
+    "title": "Electricidad y adaptadores en Brasil | Consejos Ernestinho",
+    "h1": "Electricidad y adaptadores en Brasil",
+    "words": 444
+  },
+  "/consejos/errores-rio/": {
+    "file": "consejos/errores-rio/index.html",
+    "title": "Errores de Google Maps que pueden hacerte perder tiempo | Ernestinho Carioca",
+    "h1": "Errores de Google Maps que pueden hacerte perder tiempo",
+    "words": 252
+  },
+  "/consejos/": {
+    "file": "consejos/index.html",
+    "title": "Consejos para viajar a Río | Ernestinho Carioca",
+    "h1": "Consejos de Ernestinho",
+    "words": 165
+  },
+  "/consejos/lluvia/": {
+    "file": "consejos/lluvia/index.html",
+    "title": "Un día completo en Río cuando llueve | Ernestinho Carioca",
+    "h1": "Un día completo en Río cuando llueve",
+    "words": 558
+  },
+  "/consejos/maletas-rio/": {
+    "file": "consejos/maletas-rio/index.html",
+    "title": "Preparando las maletas para Río | Consejos Ernestinho",
+    "h1": "Preparando las maletas para Río",
+    "words": 631
+  },
+  "/consejos/nadie-explica/": {
+    "file": "consejos/nadie-explica/index.html",
+    "title": "Cosas que nadie te explica antes de venir | Ernestinho Carioca",
+    "h1": "Cosas que nadie te explica antes de venir",
+    "words": 449
+  },
+  "/consejos/perfiles-viajero/": {
+    "file": "consejos/perfiles-viajero/index.html",
+    "title": "Río según tu forma de viajar | Ernestinho Carioca",
+    "h1": "Río según tu forma de viajar",
+    "words": 565
+  },
+  "/consejos/portugues/": {
+    "file": "consejos/portugues/index.html",
+    "title": "Portugués para sobrevivir en Río | Ernestinho Carioca",
+    "h1": "Portugués para sobrevivir en Río",
+    "words": 441
+  },
+  "/consejos/que-hacer-cada-dia/": {
+    "file": "consejos/que-hacer-cada-dia/index.html",
+    "title": "Qué hacer cada día de la semana | Ernestinho Carioca",
+    "h1": "Qué hacer cada día de la semana",
+    "words": 293
+  },
+  "/consejos/recorrido-zona-portuaria/": {
+    "file": "consejos/recorrido-zona-portuaria/index.html",
+    "title": "Ruta Zona Portuaria y Centro de Río | Ernestinho Carioca",
+    "h1": "Ruta Zona Portuaria y Centro de Río",
+    "words": 385
+  },
+  "/consejos/revisar-alojamiento/": {
+    "file": "consejos/revisar-alojamiento/index.html",
+    "title": "Qué revisar antes de salir del alojamiento | Ernestinho Carioca",
+    "h1": "Qué revisar antes de salir del alojamiento",
+    "words": 100
+  },
+  "/consejos/rio-1-a-7-dias/": {
+    "file": "consejos/rio-1-a-7-dias/index.html",
+    "title": "Río en 1, 2, 3, 4, 5, 6 o 7 días | Ernestinho Carioca",
+    "h1": "Río en 1, 2, 3, 4, 5, 6 o 7 días",
+    "words": 118
+  },
+  "/consejos/rodizio/": {
+    "file": "consejos/rodizio/index.html",
+    "title": "Cómo funciona un rodizio brasileño | Ernestinho Carioca",
+    "h1": "Cómo funciona un rodizio brasileño",
+    "words": 300
+  },
+  "/consejos/seguro-viaje/": {
+    "file": "consejos/seguro-viaje/index.html",
+    "title": "Por qué viajar con seguro | Ernestinho Carioca",
+    "h1": "Por qué viajar con seguro",
+    "words": 260
+  },
+  "/consejos/sol-calor/": {
+    "file": "consejos/sol-calor/index.html",
+    "title": "Amaneceres y atardeceres inolvidables | Ernestinho Carioca",
+    "h1": "Amaneceres y atardeceres inolvidables",
+    "words": 284
+  },
+  "/consejos/souvenirs/": {
+    "file": "consejos/souvenirs/index.html",
+    "title": "Souvenirs y regalos para llevar | Ernestinho Carioca",
+    "h1": "Souvenirs y regalos para llevar",
+    "words": 280
+  },
+  "/consejos/supermercados/": {
+    "file": "consejos/supermercados/index.html",
+    "title": "Supermercados en Río: frutas, bebidas y café | Ernestinho Carioca",
+    "h1": "Qué descubrir en un supermercado brasileño",
+    "words": 3898
+  },
+  "/consejos/trampas-turista/": {
+    "file": "consejos/trampas-turista/index.html",
+    "title": "Trampas y cobros que debes reconocer | Ernestinho Carioca",
+    "h1": "Trampas y cobros que debes reconocer",
+    "words": 900
+  },
+  "/cultura/academia-brasileira-letras/": {
+    "file": "cultura/academia-brasileira-letras/index.html",
+    "title": "Academia Brasileira de Letras | Ernestinho Carioca",
+    "h1": "Academia Brasileira de Letras",
+    "words": 289
+  },
+  "/cultura/acao-cidadania/": {
+    "file": "cultura/acao-cidadania/index.html",
+    "title": "Centro Cultural Ação da Cidadania | Ernestinho Carioca",
+    "h1": "Centro Cultural Ação da Cidadania",
+    "words": 275
+  },
+  "/cultura/acude/": {
+    "file": "cultura/acude/index.html",
+    "title": "Museu do Açude | Ernestinho Carioca",
+    "h1": "Museu do Açude",
+    "words": 914
+  },
+  "/cultura/amanha/": {
+    "file": "cultura/amanha/index.html",
+    "title": "Museu do Amanhã | Ernestinho Carioca",
+    "h1": "Museu do Amanhã",
+    "words": 726
+  },
+  "/cultura/antiga-se/": {
+    "file": "cultura/antiga-se/index.html",
+    "title": "Igreja de Nossa Senhora do Carmo da Antiga Sé | Ernestinho Carioca",
+    "h1": "Igreja de Nossa Senhora do Carmo da Antiga Sé",
+    "words": 217
+  },
+  "/cultura/armando-gonzaga/": {
+    "file": "cultura/armando-gonzaga/index.html",
+    "title": "Teatro Municipal Armando Gonzaga | Ernestinho Carioca",
+    "h1": "Teatro Municipal Armando Gonzaga",
+    "words": 194
+  },
+  "/cultura/arqueologia-itaipu/": {
+    "file": "cultura/arqueologia-itaipu/index.html",
+    "title": "Museu de Arqueologia de Itaipu | Ernestinho Carioca",
+    "h1": "Museu de Arqueologia de Itaipu",
+    "words": 632
+  },
+  "/cultura/arthur-azevedo/": {
+    "file": "cultura/arthur-azevedo/index.html",
+    "title": "Teatro Municipal Arthur Azevedo | Ernestinho Carioca",
+    "h1": "Teatro Municipal Arthur Azevedo",
+    "words": 198
+  },
+  "/cultura/benjamin-constant/": {
+    "file": "cultura/benjamin-constant/index.html",
+    "title": "Museu Casa de Benjamin Constant | Ernestinho Carioca",
+    "h1": "Museu Casa de Benjamin Constant",
+    "words": 695
+  },
+  "/cultura/bibliomaison/": {
+    "file": "cultura/bibliomaison/index.html",
+    "title": "BiblioMaison | Ernestinho Carioca",
+    "h1": "BiblioMaison",
+    "words": 273
+  },
+  "/cultura/biblioteca-ccbb/": {
+    "file": "cultura/biblioteca-ccbb/index.html",
+    "title": "Biblioteca do CCBB Rio | Ernestinho Carioca",
+    "h1": "Biblioteca do CCBB Rio",
+    "words": 279
+  },
+  "/cultura/biblioteca-ccjf/": {
+    "file": "cultura/biblioteca-ccjf/index.html",
+    "title": "Biblioteca do Centro Cultural Justiça Federal | Ernestinho Carioca",
+    "h1": "Biblioteca do Centro Cultural Justiça Federal",
+    "words": 272
+  },
+  "/cultura/biblioteca-ims/": {
+    "file": "cultura/biblioteca-ims/index.html",
+    "title": "Biblioteca do Instituto Moreira Salles | Ernestinho Carioca",
+    "h1": "Biblioteca do Instituto Moreira Salles",
+    "words": 297
+  },
+  "/cultura/biblioteca-mam/": {
+    "file": "cultura/biblioteca-mam/index.html",
+    "title": "Biblioteca do MAM Rio | Ernestinho Carioca",
+    "h1": "Biblioteca do MAM Rio",
+    "words": 281
+  },
+  "/cultura/biblioteca-manguinhos/": {
+    "file": "cultura/biblioteca-manguinhos/index.html",
+    "title": "Biblioteca Parque de Manguinhos | Ernestinho Carioca",
+    "h1": "Biblioteca Parque de Manguinhos",
+    "words": 239
+  },
+  "/cultura/biblioteca-nacional/": {
+    "file": "cultura/biblioteca-nacional/index.html",
+    "title": "Biblioteca Nacional | Ernestinho Carioca",
+    "h1": "Biblioteca Nacional",
+    "words": 312
+  },
+  "/cultura/biblioteca-parque-estadual/": {
+    "file": "cultura/biblioteca-parque-estadual/index.html",
+    "title": "Biblioteca Parque Estadual | Ernestinho Carioca",
+    "h1": "Biblioteca Parque Estadual",
+    "words": 280
+  },
+  "/cultura/biblioteca-rocinha/": {
+    "file": "cultura/biblioteca-rocinha/index.html",
+    "title": "Biblioteca Parque da Rocinha | Ernestinho Carioca",
+    "h1": "Biblioteca Parque da Rocinha",
+    "words": 246
+  },
+  "/cultura/bibliotecas/": {
+    "file": "cultura/bibliotecas/index.html",
+    "title": "Bibliotecas y espacios literarios | Ernestinho Carioca",
+    "h1": "Bibliotecas y espacios literarios",
+    "words": 336
+  },
+  "/cultura/bonsucesso/": {
+    "file": "cultura/bonsucesso/index.html",
+    "title": "Igreja de Nossa Senhora do Bonsucesso | Ernestinho Carioca",
+    "h1": "Igreja de Nossa Senhora do Bonsucesso",
+    "words": 172
+  },
+  "/cultura/cacilda-becker/": {
+    "file": "cultura/cacilda-becker/index.html",
+    "title": "Teatro Municipal Cacilda Becker | Ernestinho Carioca",
+    "h1": "Teatro Municipal Cacilda Becker",
+    "words": 184
+  },
+  "/cultura/caixa-cultural/": {
+    "file": "cultura/caixa-cultural/index.html",
+    "title": "CAIXA Cultural Rio de Janeiro | Ernestinho Carioca",
+    "h1": "CAIXA Cultural Rio de Janeiro",
+    "words": 249
+  },
+  "/cultura/candelaria/": {
+    "file": "cultura/candelaria/index.html",
+    "title": "Igreja de Nossa Senhora da Candelária | Ernestinho Carioca",
+    "h1": "Igreja de Nossa Senhora da Candelária",
+    "words": 219
+  },
+  "/cultura/capela-mayrink/": {
+    "file": "cultura/capela-mayrink/index.html",
+    "title": "Capela Mayrink | Ernestinho Carioca",
+    "h1": "Capela Mayrink",
+    "words": 196
+  },
+  "/cultura/capuchinhos/": {
+    "file": "cultura/capuchinhos/index.html",
+    "title": "Paróquia São Sebastião dos Frades Capuchinhos | Ernestinho Carioca",
+    "h1": "Paróquia São Sebastião dos Frades Capuchinhos",
+    "words": 182
+  },
+  "/cultura/carlos-gomes/": {
+    "file": "cultura/carlos-gomes/index.html",
+    "title": "Teatro Municipal Carlos Gomes | Ernestinho Carioca",
+    "h1": "Teatro Municipal Carlos Gomes",
+    "words": 218
+  },
+  "/cultura/casa-da-leitura/": {
+    "file": "cultura/casa-da-leitura/index.html",
+    "title": "Casa da Leitura | Ernestinho Carioca",
+    "h1": "Casa da Leitura",
+    "words": 265
+  },
+  "/cultura/casa-deodoro/": {
+    "file": "cultura/casa-deodoro/index.html",
+    "title": "Casa Histórica de Deodoro | Ernestinho Carioca",
+    "h1": "Casa Histórica de Deodoro",
+    "words": 708
+  },
+  "/cultura/casa-franca/": {
+    "file": "cultura/casa-franca/index.html",
+    "title": "Casa França-Brasil | Ernestinho Carioca",
+    "h1": "Casa França-Brasil",
+    "words": 248
+  },
+  "/cultura/casa-rui-barbosa/": {
+    "file": "cultura/casa-rui-barbosa/index.html",
+    "title": "Fundação Casa de Rui Barbosa | Ernestinho Carioca",
+    "h1": "Fundação Casa de Rui Barbosa",
+    "words": 300
+  },
+  "/cultura/catedral-metropolitana/": {
+    "file": "cultura/catedral-metropolitana/index.html",
+    "title": "Catedral Metropolitana de São Sebastião | Ernestinho Carioca",
+    "h1": "Catedral Metropolitana de São Sebastião",
+    "words": 223
+  },
+  "/cultura/ccbb/": {
+    "file": "cultura/ccbb/index.html",
+    "title": "Centro Cultural Banco do Brasil — CCBB | Ernestinho Carioca",
+    "h1": "Centro Cultural Banco do Brasil — CCBB",
+    "words": 287
+  },
+  "/cultura/ccjf/": {
+    "file": "cultura/ccjf/index.html",
+    "title": "Centro Cultural Justiça Federal | Ernestinho Carioca",
+    "h1": "Centro Cultural Justiça Federal",
+    "words": 255
+  },
+  "/cultura/centros-culturales/": {
+    "file": "cultura/centros-culturales/index.html",
+    "title": "Centros culturales | Ernestinho Carioca",
+    "h1": "Centros culturales",
+    "words": 310
+  },
+  "/cultura/chacara-ceu/": {
+    "file": "cultura/chacara-ceu/index.html",
+    "title": "Museu Chácara do Céu | Ernestinho Carioca",
+    "h1": "Museu Chácara do Céu",
+    "words": 697
+  },
+  "/cultura/conceicao-boa-morte/": {
+    "file": "cultura/conceicao-boa-morte/index.html",
+    "title": "Igreja de Nossa Senhora da Conceição e Boa Morte | Ernestinho Carioca",
+    "h1": "Igreja de Nossa Senhora da Conceição e Boa Morte",
+    "words": 169
+  },
+  "/cultura/copacabana/": {
+    "file": "cultura/copacabana/index.html",
+    "title": "Paróquia Nossa Senhora de Copacabana | Ernestinho Carioca",
+    "h1": "Paróquia Nossa Senhora de Copacabana",
+    "words": 179
+  },
+  "/cultura/correios/": {
+    "file": "cultura/correios/index.html",
+    "title": "Centro Cultural Correios | Ernestinho Carioca",
+    "h1": "Centro Cultural Correios",
+    "words": 241
+  },
+  "/cultura/dulcina/": {
+    "file": "cultura/dulcina/index.html",
+    "title": "Teatro Dulcina | Ernestinho Carioca",
+    "h1": "Teatro Dulcina",
+    "words": 201
+  },
+  "/cultura/ecovilla/": {
+    "file": "cultura/ecovilla/index.html",
+    "title": "EcoVilla Ri Happy | Ernestinho Carioca",
+    "h1": "EcoVilla Ri Happy",
+    "words": 202
+  },
+  "/cultura/espaco-bndes/": {
+    "file": "cultura/espaco-bndes/index.html",
+    "title": "Espaço Cultural BNDES | Ernestinho Carioca",
+    "h1": "Espaço Cultural BNDES",
+    "words": 276
+  },
+  "/cultura/espaco-marinha/": {
+    "file": "cultura/espaco-marinha/index.html",
+    "title": "Espaço Cultural da Marinha | Ernestinho Carioca",
+    "h1": "Espaço Cultural da Marinha",
+    "words": 395
+  },
+  "/cultura/fatima-recreio/": {
+    "file": "cultura/fatima-recreio/index.html",
+    "title": "Santuário de Nossa Senhora de Fátima | Ernestinho Carioca",
+    "h1": "Santuário de Nossa Senhora de Fátima",
+    "words": 178
+  },
+  "/cultura/fernanda-montenegro/": {
+    "file": "cultura/fernanda-montenegro/index.html",
+    "title": "Teatro Fernanda Montenegro | Ernestinho Carioca",
+    "h1": "Teatro Fernanda Montenegro",
+    "words": 269
+  },
+  "/cultura/folclore-edison-carneiro/": {
+    "file": "cultura/folclore-edison-carneiro/index.html",
+    "title": "Museu de Folclore Edison Carneiro | Ernestinho Carioca",
+    "h1": "Museu de Folclore Edison Carneiro",
+    "words": 828
+  },
+  "/cultura/fortaleza-conceicao/": {
+    "file": "cultura/fortaleza-conceicao/index.html",
+    "title": "Fortaleza da Conceição | Ernestinho Carioca",
+    "h1": "Fortaleza da Conceição",
+    "words": 280
+  },
+  "/cultura/fortaleza-sao-joao/": {
+    "file": "cultura/fortaleza-sao-joao/index.html",
+    "title": "Fortaleza de São João | Ernestinho Carioca",
+    "h1": "Fortaleza de São João",
+    "words": 322
+  },
+  "/cultura/forte-barao-rio-branco/": {
+    "file": "cultura/forte-barao-rio-branco/index.html",
+    "title": "Forte Barão do Rio Branco | Ernestinho Carioca",
+    "h1": "Forte Barão do Rio Branco",
+    "words": 280
+  },
+  "/cultura/forte-copacabana/": {
+    "file": "cultura/forte-copacabana/index.html",
+    "title": "Forte de Copacabana | Ernestinho Carioca",
+    "h1": "Forte de Copacabana",
+    "words": 337
+  },
+  "/cultura/forte-duque-caxias/": {
+    "file": "cultura/forte-duque-caxias/index.html",
+    "title": "Forte Duque de Caxias | Ernestinho Carioca",
+    "h1": "Forte Duque de Caxias",
+    "words": 315
+  },
+  "/cultura/forte-gragoata/": {
+    "file": "cultura/forte-gragoata/index.html",
+    "title": "Forte do Gragoatá | Ernestinho Carioca",
+    "h1": "Forte do Gragoatá",
+    "words": 265
+  },
+  "/cultura/forte-imbui/": {
+    "file": "cultura/forte-imbui/index.html",
+    "title": "Forte do Imbuí | Ernestinho Carioca",
+    "h1": "Forte do Imbuí",
+    "words": 235
+  },
+  "/cultura/forte-laje/": {
+    "file": "cultura/forte-laje/index.html",
+    "title": "Forte Tamandaré da Laje | Ernestinho Carioca",
+    "h1": "Forte Tamandaré da Laje",
+    "words": 261
+  },
+  "/cultura/forte-pico/": {
+    "file": "cultura/forte-pico/index.html",
+    "title": "Forte do Pico | Ernestinho Carioca",
+    "h1": "Forte do Pico",
+    "words": 267
+  },
+  "/cultura/forte-sao-luiz/": {
+    "file": "cultura/forte-sao-luiz/index.html",
+    "title": "Forte de São Luiz | Ernestinho Carioca",
+    "h1": "Forte de São Luiz",
+    "words": 261
+  },
+  "/cultura/fuertes/": {
+    "file": "cultura/fuertes/index.html",
+    "title": "Fuertes de Río de Janeiro | Ernestinho Carioca",
+    "h1": "Fuertes de Río de Janeiro",
+    "words": 259
+  },
+  "/cultura/glauce-rocha/": {
+    "file": "cultura/glauce-rocha/index.html",
+    "title": "Teatro Glauce Rocha | Ernestinho Carioca",
+    "h1": "Teatro Glauce Rocha",
+    "words": 194
+  },
+  "/cultura/gloria-outeiro/": {
+    "file": "cultura/gloria-outeiro/index.html",
+    "title": "Igreja de Nossa Senhora da Glória do Outeiro | Ernestinho Carioca",
+    "h1": "Igreja de Nossa Senhora da Glória do Outeiro",
+    "words": 227
+  },
+  "/cultura/helio-oiticica/": {
+    "file": "cultura/helio-oiticica/index.html",
+    "title": "Centro Municipal de Arte Hélio Oiticica | Ernestinho Carioca",
+    "h1": "Centro Municipal de Arte Hélio Oiticica",
+    "words": 258
+  },
+  "/cultura/iglesias/": {
+    "file": "cultura/iglesias/index.html",
+    "title": "Iglesias y patrimonio religioso | Ernestinho Carioca",
+    "h1": "Iglesias y patrimonio religioso",
+    "words": 624
+  },
+  "/cultura/ihgb/": {
+    "file": "cultura/ihgb/index.html",
+    "title": "Instituto Histórico e Geográfico Brasileiro – IHGB | Ernestinho Carioca",
+    "h1": "Instituto Histórico e Geográfico Brasileiro – IHGB",
+    "words": 640
+  },
+  "/cultura/imperator/": {
+    "file": "cultura/imperator/index.html",
+    "title": "Imperator — Centro Cultural João Nogueira | Ernestinho Carioca",
+    "h1": "Imperator — Centro Cultural João Nogueira",
+    "words": 207
+  },
+  "/cultura/": {
+    "file": "cultura/index.html",
+    "title": "Cultura, bibliotecas y fortalezas | Ernestinho Carioca",
+    "h1": "Cultura de Río",
+    "words": 198
+  },
+  "/cultura/joao-caetano/": {
+    "file": "cultura/joao-caetano/index.html",
+    "title": "Teatro João Caetano | Ernestinho Carioca",
+    "h1": "Teatro João Caetano",
+    "words": 229
+  },
+  "/cultura/jose-bonifacio/": {
+    "file": "cultura/jose-bonifacio/index.html",
+    "title": "Centro Cultural José Bonifácio | Ernestinho Carioca",
+    "h1": "Centro Cultural José Bonifácio",
+    "words": 258
+  },
+  "/cultura/lampadosa/": {
+    "file": "cultura/lampadosa/index.html",
+    "title": "Igreja de Nossa Senhora da Lampadosa | Ernestinho Carioca",
+    "h1": "Igreja de Nossa Senhora da Lampadosa",
+    "words": 185
+  },
+  "/cultura/lapa-mercadores/": {
+    "file": "cultura/lapa-mercadores/index.html",
+    "title": "Igreja de Nossa Senhora da Lapa dos Mercadores | Ernestinho Carioca",
+    "h1": "Igreja de Nossa Senhora da Lapa dos Mercadores",
+    "words": 183
+  },
+  "/cultura/laura-alvim/": {
+    "file": "cultura/laura-alvim/index.html",
+    "title": "Casa de Cultura Laura Alvim | Ernestinho Carioca",
+    "h1": "Casa de Cultura Laura Alvim",
+    "words": 200
+  },
+  "/cultura/leonardo-da-vinci/": {
+    "file": "cultura/leonardo-da-vinci/index.html",
+    "title": "Livraria Leonardo da Vinci | Ernestinho Carioca",
+    "h1": "Livraria Leonardo da Vinci",
+    "words": 293
+  },
+  "/cultura/livraria-argumento/": {
+    "file": "cultura/livraria-argumento/index.html",
+    "title": "Livraria Argumento | Ernestinho Carioca",
+    "h1": "Livraria Argumento",
+    "words": 247
+  },
+  "/cultura/maas/": {
+    "file": "cultura/maas/index.html",
+    "title": "Museu Arquidiocesano de Arte Sacra – MAAS | Ernestinho Carioca",
+    "h1": "Museu Arquidiocesano de Arte Sacra – MAAS",
+    "words": 734
+  },
+  "/cultura/mac-niteroi/": {
+    "file": "cultura/mac-niteroi/index.html",
+    "title": "Museu de Arte Contemporânea de Niterói – MAC | Ernestinho Carioca",
+    "h1": "Museu de Arte Contemporânea de Niterói – MAC",
+    "words": 651
+  },
+  "/cultura/maison-france/": {
+    "file": "cultura/maison-france/index.html",
+    "title": "Teatro Maison de France | Ernestinho Carioca",
+    "h1": "Teatro Maison de France",
+    "words": 198
+  },
+  "/cultura/mam-rio/": {
+    "file": "cultura/mam-rio/index.html",
+    "title": "Museu de Arte Moderna do Rio de Janeiro – MAM Rio | Ernestinho Carioca",
+    "h1": "Museu de Arte Moderna do Rio de Janeiro – MAM Rio",
+    "words": 704
+  },
+  "/cultura/mar/": {
+    "file": "cultura/mar/index.html",
+    "title": "Museu de Arte do Rio – MAR | Ernestinho Carioca",
+    "h1": "Museu de Arte do Rio – MAR",
+    "words": 755
+  },
+  "/cultura/mast/": {
+    "file": "cultura/mast/index.html",
+    "title": "Museu de Astronomia e Ciências Afins – MAST | Ernestinho Carioca",
+    "h1": "Museu de Astronomia e Ciências Afins – MAST",
+    "words": 671
+  },
+  "/cultura/mhn/": {
+    "file": "cultura/mhn/index.html",
+    "title": "Museu Histórico Nacional | Ernestinho Carioca",
+    "h1": "Museu Histórico Nacional",
+    "words": 1044
+  },
+  "/cultura/midiateca-crab/": {
+    "file": "cultura/midiateca-crab/index.html",
+    "title": "Midiateca do CRAB | Ernestinho Carioca",
+    "h1": "Midiateca do CRAB",
+    "words": 255
+  },
+  "/cultura/miguel-falabella/": {
+    "file": "cultura/miguel-falabella/index.html",
+    "title": "Teatro Miguel Falabella | Ernestinho Carioca",
+    "h1": "Teatro Miguel Falabella",
+    "words": 198
+  },
+  "/cultura/mnba/": {
+    "file": "cultura/mnba/index.html",
+    "title": "Museu Nacional de Belas Artes – MNBA | Ernestinho Carioca",
+    "h1": "Museu Nacional de Belas Artes – MNBA",
+    "words": 724
+  },
+  "/cultura/mosteiro-sao-bento/": {
+    "file": "cultura/mosteiro-sao-bento/index.html",
+    "title": "Mosteiro de São Bento | Ernestinho Carioca",
+    "h1": "Mosteiro de São Bento",
+    "words": 229
+  },
+  "/cultura/muhcab/": {
+    "file": "cultura/muhcab/index.html",
+    "title": "Museu da História e da Cultura Afro-Brasileira – MUHCAB | Ernestinho Carioca",
+    "h1": "Museu da História e da Cultura Afro-Brasileira – MUHCAB",
+    "words": 692
+  },
+  "/cultura/musal/": {
+    "file": "cultura/musal/index.html",
+    "title": "Museu Aeroespacial – MUSAL | Ernestinho Carioca",
+    "h1": "Museu Aeroespacial – MUSAL",
+    "words": 928
+  },
+  "/cultura/museos/": {
+    "file": "cultura/museos/index.html",
+    "title": "Museos de Río | Ernestinho Carioca",
+    "h1": "Museos de Río",
+    "words": 618
+  },
+  "/cultura/museu-flamengo/": {
+    "file": "cultura/museu-flamengo/index.html",
+    "title": "Museu Flamengo | Ernestinho Carioca",
+    "h1": "Museu Flamengo",
+    "words": 649
+  },
+  "/cultura/museu-historico-cidade/": {
+    "file": "cultura/museu-historico-cidade/index.html",
+    "title": "Museu Histórico da Cidade do Rio de Janeiro | Ernestinho Carioca",
+    "h1": "Museu Histórico da Cidade do Rio de Janeiro",
+    "words": 661
+  },
+  "/cultura/museu-light/": {
+    "file": "cultura/museu-light/index.html",
+    "title": "Museu Light da Energia | Ernestinho Carioca",
+    "h1": "Museu Light da Energia",
+    "words": 607
+  },
+  "/cultura/museu-nacional-ufrj/": {
+    "file": "cultura/museu-nacional-ufrj/index.html",
+    "title": "Museu Nacional – UFRJ | Ernestinho Carioca",
+    "h1": "Museu Nacional – UFRJ",
+    "words": 693
+  },
+  "/cultura/museu-pontal/": {
+    "file": "cultura/museu-pontal/index.html",
+    "title": "Museu do Pontal | Ernestinho Carioca",
+    "h1": "Museu do Pontal",
+    "words": 775
+  },
+  "/cultura/museu-republica/": {
+    "file": "cultura/museu-republica/index.html",
+    "title": "Museu da República – Palácio do Catete | Ernestinho Carioca",
+    "h1": "Museu da República – Palácio do Catete",
+    "words": 665
+  },
+  "/cultura/museu-samba/": {
+    "file": "cultura/museu-samba/index.html",
+    "title": "Museu do Samba | Ernestinho Carioca",
+    "h1": "Museu do Samba",
+    "words": 703
+  },
+  "/cultura/museu-vida-fiocruz/": {
+    "file": "cultura/museu-vida-fiocruz/index.html",
+    "title": "Museu da Vida Fiocruz | Ernestinho Carioca",
+    "h1": "Museu da Vida Fiocruz",
+    "words": 659
+  },
+  "/cultura/naval/": {
+    "file": "cultura/naval/index.html",
+    "title": "Museu Naval | Ernestinho Carioca",
+    "h1": "Museu Naval",
+    "words": 736
+  },
+  "/cultura/nossa-senhora-brasil/": {
+    "file": "cultura/nossa-senhora-brasil/index.html",
+    "title": "Igreja Nossa Senhora do Brasil | Ernestinho Carioca",
+    "h1": "Igreja Nossa Senhora do Brasil",
+    "words": 169
+  },
+  "/cultura/nossa-senhora-paz/": {
+    "file": "cultura/nossa-senhora-paz/index.html",
+    "title": "Igreja de Nossa Senhora da Paz | Ernestinho Carioca",
+    "h1": "Igreja de Nossa Senhora da Paz",
+    "words": 182
+  },
+  "/cultura/nossa-senhora-penna/": {
+    "file": "cultura/nossa-senhora-penna/index.html",
+    "title": "Igreja de Nossa Senhora da Penna | Ernestinho Carioca",
+    "h1": "Igreja de Nossa Senhora da Penna",
+    "words": 185
+  },
+  "/cultura/nossa-senhora-saude/": {
+    "file": "cultura/nossa-senhora-saude/index.html",
+    "title": "Igreja de Nossa Senhora da Saúde | Ernestinho Carioca",
+    "h1": "Igreja de Nossa Senhora da Saúde",
+    "words": 185
+  },
+  "/cultura/observatorio-valongo/": {
+    "file": "cultura/observatorio-valongo/index.html",
+    "title": "Observatório do Valongo | Ernestinho Carioca",
+    "h1": "Observatório do Valongo",
+    "words": 266
+  },
+  "/cultura/ordem-terceira-carmo/": {
+    "file": "cultura/ordem-terceira-carmo/index.html",
+    "title": "Igreja da Ordem Terceira do Carmo | Ernestinho Carioca",
+    "h1": "Igreja da Ordem Terceira do Carmo",
+    "words": 186
+  },
+  "/cultura/paco-imperial/": {
+    "file": "cultura/paco-imperial/index.html",
+    "title": "Paço Imperial | Ernestinho Carioca",
+    "h1": "Paço Imperial",
+    "words": 291
+  },
+  "/cultura/penha/": {
+    "file": "cultura/penha/index.html",
+    "title": "Basílica Santuário de Nossa Senhora da Penha | Ernestinho Carioca",
+    "h1": "Basílica Santuário de Nossa Senhora da Penha",
+    "words": 234
+  },
+  "/cultura/povos-indigenas/": {
+    "file": "cultura/povos-indigenas/index.html",
+    "title": "Museu Nacional dos Povos Indígenas | Ernestinho Carioca",
+    "h1": "Museu Nacional dos Povos Indígenas",
+    "words": 768
+  },
+  "/cultura/pretos-novos/": {
+    "file": "cultura/pretos-novos/index.html",
+    "title": "Instituto dos Pretos Novos | Ernestinho Carioca",
+    "h1": "Instituto dos Pretos Novos",
+    "words": 313
+  },
+  "/cultura/real-gabinete/": {
+    "file": "cultura/real-gabinete/index.html",
+    "title": "Real Gabinete Português de Leitura | Ernestinho Carioca",
+    "h1": "Real Gabinete Português de Leitura",
+    "words": 345
+  },
+  "/cultura/riachuelo-rio/": {
+    "file": "cultura/riachuelo-rio/index.html",
+    "title": "Teatro Riachuelo Rio | Ernestinho Carioca",
+    "h1": "Teatro Riachuelo Rio",
+    "words": 235
+  },
+  "/cultura/rival-petrobras/": {
+    "file": "cultura/rival-petrobras/index.html",
+    "title": "Teatro Rival Petrobras | Ernestinho Carioca",
+    "h1": "Teatro Rival Petrobras",
+    "words": 240
+  },
+  "/cultura/rosario-pretos/": {
+    "file": "cultura/rosario-pretos/index.html",
+    "title": "Igreja de Nossa Senhora do Rosário e São Benedito dos Homens Pretos | Ernestinho Carioca",
+    "h1": "Igreja de Nossa Senhora do Rosário e São Benedito dos Homens Pretos",
+    "words": 194
+  },
+  "/cultura/sala-cecilia/": {
+    "file": "cultura/sala-cecilia/index.html",
+    "title": "Sala Cecília Meireles | Ernestinho Carioca",
+    "h1": "Sala Cecília Meireles",
+    "words": 272
+  },
+  "/cultura/santa-cruz-barra/": {
+    "file": "cultura/santa-cruz-barra/index.html",
+    "title": "Fortaleza de Santa Cruz da Barra | Ernestinho Carioca",
+    "h1": "Fortaleza de Santa Cruz da Barra",
+    "words": 325
+  },
+  "/cultura/santa-cruz-militares/": {
+    "file": "cultura/santa-cruz-militares/index.html",
+    "title": "Igreja de Santa Cruz dos Militares | Ernestinho Carioca",
+    "h1": "Igreja de Santa Cruz dos Militares",
+    "words": 190
+  },
+  "/cultura/santa-luzia/": {
+    "file": "cultura/santa-luzia/index.html",
+    "title": "Igreja de Santa Luzia | Ernestinho Carioca",
+    "h1": "Igreja de Santa Luzia",
+    "words": 195
+  },
+  "/cultura/santa-margarida/": {
+    "file": "cultura/santa-margarida/index.html",
+    "title": "Paróquia Santa Margarida Maria | Ernestinho Carioca",
+    "h1": "Paróquia Santa Margarida Maria",
+    "words": 157
+  },
+  "/cultura/santa-rita/": {
+    "file": "cultura/santa-rita/index.html",
+    "title": "Igreja de Santa Rita de Cássia | Ernestinho Carioca",
+    "h1": "Igreja de Santa Rita de Cássia",
+    "words": 178
+  },
+  "/cultura/santo-antonio/": {
+    "file": "cultura/santo-antonio/index.html",
+    "title": "Convento e Igreja de Santo Antônio | Ernestinho Carioca",
+    "h1": "Convento e Igreja de Santo Antônio",
+    "words": 191
+  },
+  "/cultura/sao-francisco-paula/": {
+    "file": "cultura/sao-francisco-paula/index.html",
+    "title": "Igreja de São Francisco de Paula | Ernestinho Carioca",
+    "h1": "Igreja de São Francisco de Paula",
+    "words": 176
+  },
+  "/cultura/sao-francisco-penitencia/": {
+    "file": "cultura/sao-francisco-penitencia/index.html",
+    "title": "Igreja da Ordem Terceira de São Francisco da Penitência | Ernestinho Carioca",
+    "h1": "Igreja da Ordem Terceira de São Francisco da Penitência",
+    "words": 200
+  },
+  "/cultura/sao-francisco-prainha/": {
+    "file": "cultura/sao-francisco-prainha/index.html",
+    "title": "Igreja de São Francisco da Prainha | Ernestinho Carioca",
+    "h1": "Igreja de São Francisco da Prainha",
+    "words": 187
+  },
+  "/cultura/sao-jose-lagoa/": {
+    "file": "cultura/sao-jose-lagoa/index.html",
+    "title": "Paróquia São José da Lagoa | Ernestinho Carioca",
+    "h1": "Paróquia São José da Lagoa",
+    "words": 164
+  },
+  "/cultura/sao-judas/": {
+    "file": "cultura/sao-judas/index.html",
+    "title": "Paróquia São Judas Tadeu | Ernestinho Carioca",
+    "h1": "Paróquia São Judas Tadeu",
+    "words": 177
+  },
+  "/cultura/sbba/": {
+    "file": "cultura/sbba/index.html",
+    "title": "Sociedade Brasileira de Belas Artes | Ernestinho Carioca",
+    "h1": "Sociedade Brasileira de Belas Artes",
+    "words": 275
+  },
+  "/cultura/sesc-ginastico/": {
+    "file": "cultura/sesc-ginastico/index.html",
+    "title": "Teatro SESC Ginástico | Ernestinho Carioca",
+    "h1": "Teatro SESC Ginástico",
+    "words": 196
+  },
+  "/cultura/sesc-tijuca/": {
+    "file": "cultura/sesc-tijuca/index.html",
+    "title": "Teatro SESC Tijuca | Ernestinho Carioca",
+    "h1": "Teatro SESC Tijuca",
+    "words": 193
+  },
+  "/cultura/teatro-dos-quatro/": {
+    "file": "cultura/teatro-dos-quatro/index.html",
+    "title": "Teatro dos Quatro | Ernestinho Carioca",
+    "h1": "Teatro dos Quatro",
+    "words": 206
+  },
+  "/cultura/teatro-ipanema/": {
+    "file": "cultura/teatro-ipanema/index.html",
+    "title": "Teatro Ipanema | Ernestinho Carioca",
+    "h1": "Teatro Ipanema",
+    "words": 201
+  },
+  "/cultura/teatro-multiplan/": {
+    "file": "cultura/teatro-multiplan/index.html",
+    "title": "Teatro Multiplan | Ernestinho Carioca",
+    "h1": "Teatro Multiplan",
+    "words": 186
+  },
+  "/cultura/teatros/": {
+    "file": "cultura/teatros/index.html",
+    "title": "Teatros y espacios escénicos | Ernestinho Carioca",
+    "h1": "Teatros y espacios escénicos",
+    "words": 402
+  },
+  "/cultura/theatro-municipal/": {
+    "file": "cultura/theatro-municipal/index.html",
+    "title": "Theatro Municipal do Rio de Janeiro | Ernestinho Carioca",
+    "h1": "Theatro Municipal do Rio de Janeiro",
+    "words": 399
+  },
+  "/cultura/travessa-ipanema/": {
+    "file": "cultura/travessa-ipanema/index.html",
+    "title": "Livraria da Travessa — Ipanema | Ernestinho Carioca",
+    "h1": "Livraria da Travessa — Ipanema",
+    "words": 292
+  },
+  "/cultura/villa-lobos/": {
+    "file": "cultura/villa-lobos/index.html",
+    "title": "Museu Villa-Lobos | Ernestinho Carioca",
+    "h1": "Museu Villa-Lobos",
+    "words": 582
+  },
+  "/cultura/ziembinski/": {
+    "file": "cultura/ziembinski/index.html",
+    "title": "Teatro Municipal Ziembinski | Ernestinho Carioca",
+    "h1": "Teatro Municipal Ziembinski",
+    "words": 183
+  },
+  "/eventos/": {
+    "file": "eventos/index.html",
+    "title": "Grandes eventos de Río | Ernestinho Carioca",
+    "h1": "",
+    "words": 7
+  },
+  "/experiencias/ala-delta/": {
+    "file": "experiencias/ala-delta/index.html",
+    "title": "Ala delta | Experiencias Ernestinho",
+    "h1": "Ala delta",
+    "words": 64
+  },
+  "/experiencias/angra-ilha-grande/": {
+    "file": "experiencias/angra-ilha-grande/index.html",
+    "title": "Angra dos Reis | Ernestinho Carioca",
+    "h1": "Angra dos Reis",
+    "words": 308
+  },
+  "/experiencias/aquario-boulevard/": {
+    "file": "experiencias/aquario-boulevard/index.html",
+    "title": "AquaRio + Boulevard Olímpico | Ernestinho Carioca",
+    "h1": "AquaRio + Boulevard Olímpico",
+    "words": 282
+  },
+  "/experiencias/arraial-do-cabo/": {
+    "file": "experiencias/arraial-do-cabo/index.html",
+    "title": "Arraial do Cabo | Ernestinho Carioca",
+    "h1": "Arraial do Cabo",
+    "words": 313
+  },
+  "/experiencias/bioparque/": {
+    "file": "experiencias/bioparque/index.html",
+    "title": "BioParque | Ernestinho Carioca",
+    "h1": "BioParque",
+    "words": 138
+  },
+  "/experiencias/buzios/": {
+    "file": "experiencias/buzios/index.html",
+    "title": "Búzios en Goleta | Ernestinho Carioca",
+    "h1": "Búzios en Goleta",
+    "words": 391
+  },
+  "/experiencias/carnaval-experience/": {
+    "file": "experiencias/carnaval-experience/index.html",
+    "title": "Carnaval Experience | Ernestinho Carioca",
+    "h1": "Carnaval Experience",
+    "words": 485
+  },
+  "/experiencias/cristo-city-tour/": {
+    "file": "experiencias/cristo-city-tour/index.html",
+    "title": "Cristo + City Tour | Ernestinho Carioca",
+    "h1": "Cristo + City Tour",
+    "words": 296
+  },
+  "/experiencias/full-day-rio/": {
+    "file": "experiencias/full-day-rio/index.html",
+    "title": "Full Day Río | Ernestinho Carioca",
+    "h1": "Full Day ",
+    "words": 585
+  },
+  "/experiencias/helicoptero/": {
+    "file": "experiencias/helicoptero/index.html",
+    "title": "Río en helicóptero | Ernestinho Carioca",
+    "h1": "Río en helicóptero",
+    "words": 264
+  },
+  "/experiencias/": {
+    "file": "experiencias/index.html",
+    "title": "Experiencias | Ernestinho Carioca",
+    "h1": "Cuando quieras pasar de descubrir Río a vivirlo.",
+    "words": 483
+  },
+  "/experiencias/lancha-privada/": {
+    "file": "experiencias/lancha-privada/index.html",
+    "title": "Lancha privada en Río | Ernestinho Carioca",
+    "h1": "Lancha privada en Río",
+    "words": 305
+  },
+  "/experiencias/maracana-experience/": {
+    "file": "experiencias/maracana-experience/index.html",
+    "title": "Maracanã Tour | Ernestinho Carioca",
+    "h1": "Maracanã Tour",
+    "words": 434
+  },
+  "/experiencias/morro-dois-irmaos/": {
+    "file": "experiencias/morro-dois-irmaos/index.html",
+    "title": "Morro Dois Irmãos | Ernestinho Carioca",
+    "h1": "Morro Dois Irmãos",
+    "words": 240
+  },
+  "/experiencias/paracaidas/": {
+    "file": "experiencias/paracaidas/index.html",
+    "title": "Salto en paracaídas | Ernestinho Carioca",
+    "h1": "Salto en paracaídas",
+    "words": 182
+  },
+  "/experiencias/parasail/": {
+    "file": "experiencias/parasail/index.html",
+    "title": "Parasail en Río | Ernestinho Carioca",
+    "h1": "Parasail en Río",
+    "words": 210
+  },
+  "/experiencias/partido-maracana/": {
+    "file": "experiencias/partido-maracana/index.html",
+    "title": "Partidos de fútbol en el Maracaná | Ernestinho Carioca",
+    "h1": "Partidos de fútbol en el Maracaná",
+    "words": 873
+  },
+  "/experiencias/pedra-bonita/": {
+    "file": "experiencias/pedra-bonita/index.html",
+    "title": "Pedra Bonita | Ernestinho Carioca",
+    "h1": "Pedra Bonita",
+    "words": 258
+  },
+  "/experiencias/pedra-telegrafo/": {
+    "file": "experiencias/pedra-telegrafo/index.html",
+    "title": "Pedra do Telégrafo | Ernestinho Carioca",
+    "h1": "Pedra do Telégrafo",
+    "words": 237
+  },
+  "/experiencias/pequena-africa/": {
+    "file": "experiencias/pequena-africa/index.html",
+    "title": "Pequeña África | Ernestinho Carioca",
+    "h1": "Pequeña África",
+    "words": 105
+  },
+  "/experiencias/rio-samba-bus/": {
+    "file": "experiencias/rio-samba-bus/index.html",
+    "title": "Rio Samba Bus | Ernestinho Carioca",
+    "h1": "Rio Samba Bus",
+    "words": 540
+  },
+  "/experiencias/rocinha/": {
+    "file": "experiencias/rocinha/index.html",
+    "title": "Favela Rocinha | Ernestinho Carioca",
+    "h1": "Favela Rocinha",
+    "words": 482
+  },
+  "/experiencias/santa-marta/": {
+    "file": "experiencias/santa-marta/index.html",
+    "title": "Favela Santa Marta | Ernestinho Carioca",
+    "h1": "Favela Santa Marta",
+    "words": 92
+  },
+  "/experiencias/vidigal/": {
+    "file": "experiencias/vidigal/index.html",
+    "title": "Favela Vidigal | Experiencias Ernestinho",
+    "h1": "Favela Vidigal",
+    "words": 66
+  },
+  "/experiencias/vuelo-en-parapente/": {
+    "file": "experiencias/vuelo-en-parapente/index.html",
+    "title": "Vuelo en parapente desde Niterói | Ernestinho Carioca",
+    "h1": "Vuelo en parapente desde Niterói",
+    "words": 646
+  },
+  "/familia/aquario/": {
+    "file": "familia/aquario/index.html",
+    "title": "AquaRio | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 427
+  },
+  "/familia/aterro-do-flamengo/": {
+    "file": "familia/aterro-do-flamengo/index.html",
+    "title": "Parque do Flamengo (Aterro do Flamengo) | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 558
+  },
+  "/familia/barra-bowling-grill/": {
+    "file": "familia/barra-bowling-grill/index.html",
+    "title": "Barra Bowling Grill | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 387
+  },
+  "/familia/bioparque/": {
+    "file": "familia/bioparque/index.html",
+    "title": "BioParque do Rio | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 486
+  },
+  "/familia/bosque-da-barra/": {
+    "file": "familia/bosque-da-barra/index.html",
+    "title": "Bosque da Barra | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 379
+  },
+  "/familia/carnaval-experience/": {
+    "file": "familia/carnaval-experience/index.html",
+    "title": "Carnaval Experience con Ernestinho | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 739
+  },
+  "/familia/escape-60-copacabana/": {
+    "file": "familia/escape-60-copacabana/index.html",
+    "title": "Escape 60 Copacabana | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 435
+  },
+  "/familia/feira-sao-cristovao/": {
+    "file": "familia/feira-sao-cristovao/index.html",
+    "title": "Feira de São Cristóvão en familia | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 447
+  },
+  "/familia/hotzone-barrashopping/": {
+    "file": "familia/hotzone-barrashopping/index.html",
+    "title": "HotZone BarraShopping | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 409
+  },
+  "/familia/ilha-fiscal/": {
+    "file": "familia/ilha-fiscal/index.html",
+    "title": "Ilha Fiscal y experiencia naval | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 480
+  },
+  "/familia/": {
+    "file": "familia/index.html",
+    "title": "Río en familia | Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 472
+  },
+  "/familia/jardim-botanico/": {
+    "file": "familia/jardim-botanico/index.html",
+    "title": "Jardim Botânico | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 394
+  },
+  "/familia/jardines-palacio-do-catete/": {
+    "file": "familia/jardines-palacio-do-catete/index.html",
+    "title": "Jardines del Museu da República (Palácio do Catete) | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 618
+  },
+  "/familia/lagoa-rodrigo-de-freitas/": {
+    "file": "familia/lagoa-rodrigo-de-freitas/index.html",
+    "title": "Lagoa Rodrigo de Freitas en familia | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 426
+  },
+  "/familia/lluvia/": {
+    "file": "familia/lluvia/index.html",
+    "title": "Un día de lluvia con niños | Río en Familia",
+    "h1": "Un día de lluvia con niños",
+    "words": 147
+  },
+  "/familia/maracana-tour/": {
+    "file": "familia/maracana-tour/index.html",
+    "title": "Maracanã Tour con Ernestinho | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 510
+  },
+  "/familia/meta-kart-indoor/": {
+    "file": "familia/meta-kart-indoor/index.html",
+    "title": "Meta Kart Indoor | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 401
+  },
+  "/familia/parque-da-catacumba/": {
+    "file": "familia/parque-da-catacumba/index.html",
+    "title": "Parque Natural Municipal da Catacumba | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 415
+  },
+  "/familia/parque-lage/": {
+    "file": "familia/parque-lage/index.html",
+    "title": "Parque Lage | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 419
+  },
+  "/familia/parques/": {
+    "file": "familia/parques/index.html",
+    "title": "Parques y aire libre | Río en Familia",
+    "h1": "Parques y aire libre",
+    "words": 135
+  },
+  "/familia/pista-claudio-coutinho/": {
+    "file": "familia/pista-claudio-coutinho/index.html",
+    "title": "Pista Cláudio Coutinho y Praia Vermelha | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 434
+  },
+  "/familia/planetario/": {
+    "file": "familia/planetario/index.html",
+    "title": "Planetário do Rio y Museu do Universo | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 458
+  },
+  "/familia/playas/": {
+    "file": "familia/playas/index.html",
+    "title": "Playas en familia | Río en Familia",
+    "h1": "Playas en familia",
+    "words": 141
+  },
+  "/familia/sitio-roberto-burle-marx/": {
+    "file": "familia/sitio-roberto-burle-marx/index.html",
+    "title": "Sítio Roberto Burle Marx | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 549
+  },
+  "/familia/yup-star/": {
+    "file": "familia/yup-star/index.html",
+    "title": "Yup Star Rio | Río en familia · Ernestinho Carioca",
+    "h1": "Río en familia",
+    "words": 430
+  },
+  "/fotografia/": {
+    "file": "fotografia/index.html",
+    "title": "Fotografiar Río | Ernestinho Carioca",
+    "h1": "Fotografiar Río.",
+    "words": 1186
+  },
+  "/gastronomia/aconchego-carioca/": {
+    "file": "gastronomia/aconchego-carioca/index.html",
+    "title": "Aconchego Carioca: guía completa | Ernestinho Carioca",
+    "h1": "Aconchego Carioca",
+    "words": 929
+  },
+  "/gastronomia/adega-da-velha/": {
+    "file": "gastronomia/adega-da-velha/index.html",
+    "title": "Adega da Velha | Ernestinho Carioca",
+    "h1": "Adega da Velha",
+    "words": 387
+  },
+  "/gastronomia/adega-perola/": {
+    "file": "gastronomia/adega-perola/index.html",
+    "title": "Adega Pérola: guía completa | Ernestinho Carioca",
+    "h1": "Adega Pérola",
+    "words": 524
+  },
+  "/gastronomia/aipo-aipim-391/": {
+    "file": "gastronomia/aipo-aipim-391/index.html",
+    "title": "Aipo & Aipim Copacabana 391: guía completa | Ernestinho Carioca",
+    "h1": "Aipo & Aipim Copacabana 391",
+    "words": 394
+  },
+  "/gastronomia/aipo-aipim-605/": {
+    "file": "gastronomia/aipo-aipim-605/index.html",
+    "title": "Aipo & Aipim Copacabana 605: guía completa | Ernestinho Carioca",
+    "h1": "Aipo & Aipim Copacabana 605",
+    "words": 389
+  },
+  "/gastronomia/aipo-aipim-920/": {
+    "file": "gastronomia/aipo-aipim-920/index.html",
+    "title": "Aipo & Aipim Copacabana 920: guía completa | Ernestinho Carioca",
+    "h1": "Aipo & Aipim Copacabana 920",
+    "words": 411
+  },
+  "/gastronomia/alfaia/": {
+    "file": "gastronomia/alfaia/index.html",
+    "title": "Alfaia: guía completa | Ernestinho Carioca",
+    "h1": "Alfaia",
+    "words": 910
+  },
+  "/gastronomia/alloro/": {
+    "file": "gastronomia/alloro/index.html",
+    "title": "Alloro al Miramar: guía completa | Ernestinho Carioca",
+    "h1": "Alloro al Miramar",
+    "words": 962
+  },
+  "/gastronomia/amendoeira/": {
+    "file": "gastronomia/amendoeira/index.html",
+    "title": "Bar da Amendoeira: guía completa | Ernestinho Carioca",
+    "h1": "Bar da Amendoeira",
+    "words": 374
+  },
+  "/gastronomia/amir/": {
+    "file": "gastronomia/amir/index.html",
+    "title": "Amir: guía completa | Ernestinho Carioca",
+    "h1": "Amir",
+    "words": 616
+  },
+  "/gastronomia/angu-do-gomes/": {
+    "file": "gastronomia/angu-do-gomes/index.html",
+    "title": "Angu do Gomes | Ernestinho Carioca",
+    "h1": "Angu do Gomes",
+    "words": 568
+  },
+  "/gastronomia/aprazivel/": {
+    "file": "gastronomia/aprazivel/index.html",
+    "title": "Aprazível: guía completa | Ernestinho Carioca",
+    "h1": "Aprazível",
+    "words": 1093
+  },
+  "/gastronomia/arab-leblon/": {
+    "file": "gastronomia/arab-leblon/index.html",
+    "title": "Arab Leblon: guía completa | Ernestinho Carioca",
+    "h1": "Arab Leblon",
+    "words": 498
+  },
+  "/gastronomia/armazem-sao-thiago/": {
+    "file": "gastronomia/armazem-sao-thiago/index.html",
+    "title": "Armazém São Thiago — Bar do Gomes: guía completa | Ernestinho Carioca",
+    "h1": "Armazém São Thiago — Bar do Gomes",
+    "words": 835
+  },
+  "/gastronomia/arp-bar/": {
+    "file": "gastronomia/arp-bar/index.html",
+    "title": "Arp Bar: guía completa | Ernestinho Carioca",
+    "h1": "Arp Bar",
+    "words": 980
+  },
+  "/gastronomia/assador/": {
+    "file": "gastronomia/assador/index.html",
+    "title": "Assador: guía completa | Ernestinho Carioca",
+    "h1": "Assador",
+    "words": 594
+  },
+  "/gastronomia/babbo-osteria/": {
+    "file": "gastronomia/babbo-osteria/index.html",
+    "title": "Babbo Osteria: guía completa | Ernestinho Carioca",
+    "h1": "Babbo Osteria",
+    "words": 417
+  },
+  "/gastronomia/bafo-da-prainha/": {
+    "file": "gastronomia/bafo-da-prainha/index.html",
+    "title": "Bafo da Prainha: guía de Ernestinho Carioca",
+    "h1": "Bafo da Prainha",
+    "words": 722
+  },
+  "/gastronomia/bar-da-frente/": {
+    "file": "gastronomia/bar-da-frente/index.html",
+    "title": "Bar da Frente: guía completa | Ernestinho Carioca",
+    "h1": "Bar da Frente",
+    "words": 425
+  },
+  "/gastronomia/bar-da-gema/": {
+    "file": "gastronomia/bar-da-gema/index.html",
+    "title": "Bar da Gema: guía completa | Ernestinho Carioca",
+    "h1": "Bar da Gema",
+    "words": 393
+  },
+  "/gastronomia/bar-da-portuguesa/": {
+    "file": "gastronomia/bar-da-portuguesa/index.html",
+    "title": "Bar da Portuguesa: guía completa | Ernestinho Carioca",
+    "h1": "Bar da Portuguesa",
+    "words": 377
+  },
+  "/gastronomia/bar-do-mineiro/": {
+    "file": "gastronomia/bar-do-mineiro/index.html",
+    "title": "Bar do Mineiro: guía completa | Ernestinho Carioca",
+    "h1": "Bar do Mineiro",
+    "words": 816
+  },
+  "/gastronomia/bar-do-momo/": {
+    "file": "gastronomia/bar-do-momo/index.html",
+    "title": "Bar do Momo | Ernestinho Carioca",
+    "h1": "Bar do Momo",
+    "words": 554
+  },
+  "/gastronomia/bar-do-omar/": {
+    "file": "gastronomia/bar-do-omar/index.html",
+    "title": "Bar do Omar: guía completa | Ernestinho Carioca",
+    "h1": "Bar do Omar",
+    "words": 670
+  },
+  "/gastronomia/bar-luiz/": {
+    "file": "gastronomia/bar-luiz/index.html",
+    "title": "Bar Luiz | Ernestinho Carioca",
+    "h1": "Bar Luiz",
+    "words": 574
+  },
+  "/gastronomia/bar-madrid/": {
+    "file": "gastronomia/bar-madrid/index.html",
+    "title": "Bar Madrid: guía completa | Ernestinho Carioca",
+    "h1": "Bar Madrid",
+    "words": 357
+  },
+  "/gastronomia/bar-urca/": {
+    "file": "gastronomia/bar-urca/index.html",
+    "title": "Bar Urca: guía completa | Ernestinho Carioca",
+    "h1": "Bar Urca",
+    "words": 913
+  },
+  "/gastronomia/basha/": {
+    "file": "gastronomia/basha/index.html",
+    "title": "Basha: guía completa | Ernestinho Carioca",
+    "h1": "Basha",
+    "words": 943
+  },
+  "/gastronomia/bb-lanches/": {
+    "file": "gastronomia/bb-lanches/index.html",
+    "title": "BB Lanches | Ernestinho Carioca",
+    "h1": "BB Lanches",
+    "words": 284
+  },
+  "/gastronomia/belmonte-copa/": {
+    "file": "gastronomia/belmonte-copa/index.html",
+    "title": "Boteco Belmonte Copacabana: guía completa | Ernestinho Carioca",
+    "h1": "Boteco Belmonte Copacabana",
+    "words": 1035
+  },
+  "/gastronomia/belmonte-ipanema/": {
+    "file": "gastronomia/belmonte-ipanema/index.html",
+    "title": "Boteco Belmonte Ipanema: guía completa | Ernestinho Carioca",
+    "h1": "Boteco Belmonte Ipanema",
+    "words": 383
+  },
+  "/gastronomia/bira-de-guaratiba/": {
+    "file": "gastronomia/bira-de-guaratiba/index.html",
+    "title": "Bira de Guaratiba: guía completa | Ernestinho Carioca",
+    "h1": "Bira de Guaratiba",
+    "words": 897
+  },
+  "/gastronomia/boa-praca-ipanema/": {
+    "file": "gastronomia/boa-praca-ipanema/index.html",
+    "title": "Boa Praça Ipanema: guía completa | Ernestinho Carioca",
+    "h1": "Boa Praça Ipanema",
+    "words": 733
+  },
+  "/gastronomia/bracarense/": {
+    "file": "gastronomia/bracarense/index.html",
+    "title": "Bracarense: guía completa | Ernestinho Carioca",
+    "h1": "Bracarense",
+    "words": 573
+  },
+  "/gastronomia/brota/": {
+    "file": "gastronomia/brota/index.html",
+    "title": "Brota: guía completa | Ernestinho Carioca",
+    "h1": "Brota",
+    "words": 565
+  },
+  "/gastronomia/cabanna/": {
+    "file": "gastronomia/cabanna/index.html",
+    "title": "Quiosque Cabanna: guía completa | Ernestinho Carioca",
+    "h1": "Quiosque Cabanna",
+    "words": 324
+  },
+  "/gastronomia/cachambeer/": {
+    "file": "gastronomia/cachambeer/index.html",
+    "title": "Cachambeer | Ernestinho Carioca",
+    "h1": "Cachambeer",
+    "words": 526
+  },
+  "/gastronomia/cafe-do-alto/": {
+    "file": "gastronomia/cafe-do-alto/index.html",
+    "title": "Café do Alto: guía completa | Ernestinho Carioca",
+    "h1": "Café do Alto",
+    "words": 806
+  },
+  "/gastronomia/cafe-lamas/": {
+    "file": "gastronomia/cafe-lamas/index.html",
+    "title": "Café Lamas: guía de Ernestinho Carioca",
+    "h1": "Café Lamas",
+    "words": 762
+  },
+  "/gastronomia/cais-do-oriente/": {
+    "file": "gastronomia/cais-do-oriente/index.html",
+    "title": "Cais do Oriente | Ernestinho Carioca",
+    "h1": "Cais do Oriente",
+    "words": 575
+  },
+  "/gastronomia/cantinho-legal-tia-penha/": {
+    "file": "gastronomia/cantinho-legal-tia-penha/index.html",
+    "title": "Cantinho Legal da Tia Penha: guía completa | Ernestinho Carioca",
+    "h1": "Cantinho Legal da Tia Penha",
+    "words": 411
+  },
+  "/gastronomia/canton/": {
+    "file": "gastronomia/canton/index.html",
+    "title": "Cantón: guía completa | Ernestinho Carioca",
+    "h1": "Cantón",
+    "words": 1007
+  },
+  "/gastronomia/carretao-ipanema/": {
+    "file": "gastronomia/carretao-ipanema/index.html",
+    "title": "Carretão Ipanema Classic Grill: guía completa | Ernestinho Carioca",
+    "h1": "Carretão Ipanema Classic Grill",
+    "words": 382
+  },
+  "/gastronomia/carretao-lido/": {
+    "file": "gastronomia/carretao-lido/index.html",
+    "title": "Carretão Lido: guía completa | Ernestinho Carioca",
+    "h1": "Carretão Lido",
+    "words": 1002
+  },
+  "/gastronomia/carretao-siqueira/": {
+    "file": "gastronomia/carretao-siqueira/index.html",
+    "title": "Carretão Copacabana — Siqueira Campos: guía completa | Ernestinho Carioca",
+    "h1": "Carretão Copacabana — Siqueira Campos",
+    "words": 676
+  },
+  "/gastronomia/casa-201/": {
+    "file": "gastronomia/casa-201/index.html",
+    "title": "Casa 201: guía completa | Ernestinho Carioca",
+    "h1": "Casa 201",
+    "words": 653
+  },
+  "/gastronomia/casa-cave/": {
+    "file": "gastronomia/casa-cave/index.html",
+    "title": "Casa Cavé: guía completa | Ernestinho Carioca",
+    "h1": "Casa Cavé",
+    "words": 586
+  },
+  "/gastronomia/casa-do-sardo/": {
+    "file": "gastronomia/casa-do-sardo/index.html",
+    "title": "Casa do Sardo: guía completa | Ernestinho Carioca",
+    "h1": "Casa do Sardo",
+    "words": 407
+  },
+  "/gastronomia/casa-feijoada/": {
+    "file": "gastronomia/casa-feijoada/index.html",
+    "title": "Casa da Feijoada: guía completa | Ernestinho Carioca",
+    "h1": "Casa da Feijoada",
+    "words": 552
+  },
+  "/gastronomia/casa-mohamed/": {
+    "file": "gastronomia/casa-mohamed/index.html",
+    "title": "Casa Mohamed | Ernestinho Carioca",
+    "h1": "Casa Mohamed",
+    "words": 289
+  },
+  "/gastronomia/casa-porto/": {
+    "file": "gastronomia/casa-porto/index.html",
+    "title": "Casa Porto: guía de Ernestinho Carioca",
+    "h1": "Casa Porto",
+    "words": 422
+  },
+  "/gastronomia/cavalo-marinho/": {
+    "file": "gastronomia/cavalo-marinho/index.html",
+    "title": "Cavalo Marinho: guía completa | Ernestinho Carioca",
+    "h1": "Cavalo Marinho",
+    "words": 395
+  },
+  "/gastronomia/cervantes-copacabana/": {
+    "file": "gastronomia/cervantes-copacabana/index.html",
+    "title": "Cervantes Copacabana: guía completa | Ernestinho Carioca",
+    "h1": "Cervantes Copacabana",
+    "words": 517
+  },
+  "/gastronomia/chez-claude/": {
+    "file": "gastronomia/chez-claude/index.html",
+    "title": "Chez Claude: guía completa | Ernestinho Carioca",
+    "h1": "Chez Claude",
+    "words": 529
+  },
+  "/gastronomia/churrascaria-palace/": {
+    "file": "gastronomia/churrascaria-palace/index.html",
+    "title": "Churrascaria Palace: guía completa | Ernestinho Carioca",
+    "h1": "Churrascaria Palace",
+    "words": 518
+  },
+  "/gastronomia/churrasqueira-rio/": {
+    "file": "gastronomia/churrasqueira-rio/index.html",
+    "title": "Churrasqueira Rio: guía completa | Ernestinho Carioca",
+    "h1": "Churrasqueira Rio",
+    "words": 1049
+  },
+  "/gastronomia/cipriani/": {
+    "file": "gastronomia/cipriani/index.html",
+    "title": "Ristorante Hotel Cipriani: guía completa | Ernestinho Carioca",
+    "h1": "Ristorante Hotel Cipriani",
+    "words": 952
+  },
+  "/gastronomia/classico-beach-club-barra/": {
+    "file": "gastronomia/classico-beach-club-barra/index.html",
+    "title": "Clássico Beach Club Barra: guía completa | Ernestinho Carioca",
+    "h1": "Clássico Beach Club Barra",
+    "words": 486
+  },
+  "/gastronomia/classico-beach-club-urca/": {
+    "file": "gastronomia/classico-beach-club-urca/index.html",
+    "title": "Clássico Beach Club Urca: guía completa | Ernestinho Carioca",
+    "h1": "Clássico Beach Club Urca",
+    "words": 836
+  },
+  "/gastronomia/classico-leme/": {
+    "file": "gastronomia/classico-leme/index.html",
+    "title": "Clássico Beach Club Leme: guía completa | Ernestinho Carioca",
+    "h1": "Clássico Beach Club Leme",
+    "words": 971
+  },
+  "/gastronomia/coisa-de-carioca/": {
+    "file": "gastronomia/coisa-de-carioca/index.html",
+    "title": "Coisa de Carioca | Gastronomía | Ernestinho Carioca",
+    "h1": "Coisa de Carioca",
+    "words": 422
+  },
+  "/gastronomia/coisas-de-bamba/": {
+    "file": "gastronomia/coisas-de-bamba/index.html",
+    "title": "Coisas de Bamba: guía completa | Ernestinho Carioca",
+    "h1": "Coisas de Bamba",
+    "words": 447
+  },
+  "/gastronomia/colombo-do-forte/": {
+    "file": "gastronomia/colombo-do-forte/index.html",
+    "title": "Confeitaria Colombo do Forte: guía completa | Ernestinho Carioca",
+    "h1": "Confeitaria Colombo do Forte",
+    "words": 634
+  },
+  "/gastronomia/confeitaria-colombo/": {
+    "file": "gastronomia/confeitaria-colombo/index.html",
+    "title": "Confeitaria Colombo: guía completa | Ernestinho Carioca",
+    "h1": "Confeitaria Colombo",
+    "words": 572
+  },
+  "/gastronomia/confeitaria-manon/": {
+    "file": "gastronomia/confeitaria-manon/index.html",
+    "title": "Confeitaria Manon: guía completa | Ernestinho Carioca",
+    "h1": "Confeitaria Manon",
+    "words": 561
+  },
+  "/gastronomia/corrientes-348/": {
+    "file": "gastronomia/corrientes-348/index.html",
+    "title": "Corrientes 348: guía completa | Ernestinho Carioca",
+    "h1": "Corrientes 348",
+    "words": 509
+  },
+  "/gastronomia/cosmopolita/": {
+    "file": "gastronomia/cosmopolita/index.html",
+    "title": "Cosmopolita: guía completa | Ernestinho Carioca",
+    "h1": "Cosmopolita",
+    "words": 552
+  },
+  "/gastronomia/ct-boucherie/": {
+    "file": "gastronomia/ct-boucherie/index.html",
+    "title": "CT Boucherie: guía completa | Ernestinho Carioca",
+    "h1": "CT Boucherie",
+    "words": 583
+  },
+  "/gastronomia/curto-cafe/": {
+    "file": "gastronomia/curto-cafe/index.html",
+    "title": "Curto Café: guía completa | Ernestinho Carioca",
+    "h1": "Curto Café",
+    "words": 583
+  },
+  "/gastronomia/deck-buffet/": {
+    "file": "gastronomia/deck-buffet/index.html",
+    "title": "Deck Buffet: guía completa | Ernestinho Carioca",
+    "h1": "Deck Buffet",
+    "words": 652
+  },
+  "/gastronomia/delirio/": {
+    "file": "gastronomia/delirio/index.html",
+    "title": "Delírio Tropical Ipanema: guía completa | Ernestinho Carioca",
+    "h1": "Delírio Tropical Ipanema",
+    "words": 1032
+  },
+  "/gastronomia/delirio-centro/": {
+    "file": "gastronomia/delirio-centro/index.html",
+    "title": "Delírio Tropical Centro | Gastronomía | Ernestinho Carioca",
+    "h1": "Delírio Tropical Centro",
+    "words": 453
+  },
+  "/gastronomia/delirio-tropical-rio-sul/": {
+    "file": "gastronomia/delirio-tropical-rio-sul/index.html",
+    "title": "Delírio Tropical Rio Sul: guía completa | Ernestinho Carioca",
+    "h1": "Delírio Tropical Rio Sul",
+    "words": 478
+  },
+  "/gastronomia/don-camillo/": {
+    "file": "gastronomia/don-camillo/index.html",
+    "title": "Don Camillo: guía completa | Ernestinho Carioca",
+    "h1": "Don Camillo",
+    "words": 1044
+  },
+  "/gastronomia/don-pascual/": {
+    "file": "gastronomia/don-pascual/index.html",
+    "title": "Don Pascual: guía completa | Ernestinho Carioca",
+    "h1": "Don Pascual",
+    "words": 512
+  },
+  "/gastronomia/dumare/": {
+    "file": "gastronomia/dumare/index.html",
+    "title": "Quiosque Dumaré: guía completa | Ernestinho Carioca",
+    "h1": "Quiosque Dumaré",
+    "words": 492
+  },
+  "/gastronomia/dumare-copa/": {
+    "file": "gastronomia/dumare-copa/index.html",
+    "title": "Dumaré | Gastronomía | Ernestinho Carioca",
+    "h1": "Dumaré",
+    "words": 497
+  },
+  "/gastronomia/eclipse/": {
+    "file": "gastronomia/eclipse/index.html",
+    "title": "Eclipse: guía completa | Ernestinho Carioca",
+    "h1": "Eclipse",
+    "words": 1058
+  },
+  "/gastronomia/elena/": {
+    "file": "gastronomia/elena/index.html",
+    "title": "Elena Horto | Ernestinho Carioca",
+    "h1": "Elena Horto",
+    "words": 521
+  },
+  "/gastronomia/escama/": {
+    "file": "gastronomia/escama/index.html",
+    "title": "Escama: guía completa | Ernestinho Carioca",
+    "h1": "Escama",
+    "words": 469
+  },
+  "/gastronomia/espaco-7zero6/": {
+    "file": "gastronomia/espaco-7zero6/index.html",
+    "title": "Espaço 7zero6 | Gastronomía | Ernestinho Carioca",
+    "h1": "Espaço 7zero6",
+    "words": 336
+  },
+  "/gastronomia/espeto-carioca-leme/": {
+    "file": "gastronomia/espeto-carioca-leme/index.html",
+    "title": "Espetto Carioca Quiosque Leme: guía completa | Ernestinho Carioca",
+    "h1": "Espetto Carioca Quiosque Leme",
+    "words": 572
+  },
+  "/gastronomia/espetto-quiosque/": {
+    "file": "gastronomia/espetto-quiosque/index.html",
+    "title": "Espetto Carioca Quiosque | Gastronomía | Ernestinho Carioca",
+    "h1": "Espetto Carioca Quiosque",
+    "words": 467
+  },
+  "/gastronomia/esquimo/": {
+    "file": "gastronomia/esquimo/index.html",
+    "title": "Esquimó: guía completa | Ernestinho Carioca",
+    "h1": "Esquimó",
+    "words": 598
+  },
+  "/gastronomia/explorer/": {
+    "file": "gastronomia/explorer/index.html",
+    "title": "Explorer Bar: guía completa | Ernestinho Carioca",
+    "h1": "Explorer Bar",
+    "words": 807
+  },
+  "/gastronomia/faenza-copacabana/": {
+    "file": "gastronomia/faenza-copacabana/index.html",
+    "title": "Faenza Copacabana: guía completa | Ernestinho Carioca",
+    "h1": "Faenza Copacabana",
+    "words": 453
+  },
+  "/gastronomia/feira-sao-cristovao/": {
+    "file": "gastronomia/feira-sao-cristovao/index.html",
+    "title": "Feira de São Cristóvão: guía completa | Ernestinho Carioca",
+    "h1": "Feira de São Cristóvão",
+    "words": 944
+  },
+  "/gastronomia/ferro-e-farinha/": {
+    "file": "gastronomia/ferro-e-farinha/index.html",
+    "title": "Ferro e Farinha: guía completa | Ernestinho Carioca",
+    "h1": "Ferro e Farinha",
+    "words": 574
+  },
+  "/gastronomia/fiorino/": {
+    "file": "gastronomia/fiorino/index.html",
+    "title": "Fiorino Ristorante: guía completa | Ernestinho Carioca",
+    "h1": "Fiorino Ristorante",
+    "words": 535
+  },
+  "/gastronomia/flor-do-ceu/": {
+    "file": "gastronomia/flor-do-ceu/index.html",
+    "title": "Flor do Céu: guía completa | Ernestinho Carioca",
+    "h1": "Flor do Céu",
+    "words": 787
+  },
+  "/gastronomia/fogo-de-chao-botafogo/": {
+    "file": "gastronomia/fogo-de-chao-botafogo/index.html",
+    "title": "Fogo de Chão Botafogo: guía completa | Ernestinho Carioca",
+    "h1": "Fogo de Chão Botafogo",
+    "words": 582
+  },
+  "/gastronomia/frontera-ipanema/": {
+    "file": "gastronomia/frontera-ipanema/index.html",
+    "title": "Frontera Ipanema: guía completa | Ernestinho Carioca",
+    "h1": "Frontera Ipanema",
+    "words": 534
+  },
+  "/gastronomia/galeto-liceu/": {
+    "file": "gastronomia/galeto-liceu/index.html",
+    "title": "Galeto Liceu: guía completa | Ernestinho Carioca",
+    "h1": "Galeto Liceu",
+    "words": 676
+  },
+  "/gastronomia/galeto-sats/": {
+    "file": "gastronomia/galeto-sats/index.html",
+    "title": "Galeto Sat’s: guía completa | Ernestinho Carioca",
+    "h1": "Galeto Sat’s",
+    "words": 905
+  },
+  "/gastronomia/garota-de-ipanema/": {
+    "file": "gastronomia/garota-de-ipanema/index.html",
+    "title": "Garota de Ipanema: guía completa | Ernestinho Carioca",
+    "h1": "Garota de Ipanema",
+    "words": 626
+  },
+  "/gastronomia/ginga/": {
+    "file": "gastronomia/ginga/index.html",
+    "title": "Ginga: guía completa | Ernestinho Carioca",
+    "h1": "Ginga",
+    "words": 948
+  },
+  "/gastronomia/giuseppe-mar/": {
+    "file": "gastronomia/giuseppe-mar/index.html",
+    "title": "Giuseppe Mar: guía completa | Ernestinho Carioca",
+    "h1": "Giuseppe Mar",
+    "words": 871
+  },
+  "/gastronomia/gruta-do-fado/": {
+    "file": "gastronomia/gruta-do-fado/index.html",
+    "title": "Gruta dO FADO: guía completa | Ernestinho Carioca",
+    "h1": "Gruta dO FADO",
+    "words": 555
+  },
+  "/gastronomia/guacamole-copa/": {
+    "file": "gastronomia/guacamole-copa/index.html",
+    "title": "Guacamole Taqueria Copacabana | Ernestinho Carioca",
+    "h1": "",
+    "words": 15
+  },
+  "/gastronomia/guacamole-copacabana/": {
+    "file": "gastronomia/guacamole-copacabana/index.html",
+    "title": "Guacamole Taqueria Copacabana | Gastronomía | Ernestinho Carioca",
+    "h1": "Guacamole Taqueria Copacabana",
+    "words": 283
+  },
+  "/gastronomia/gurume/": {
+    "file": "gastronomia/gurume/index.html",
+    "title": "Gurumê: guía completa | Ernestinho Carioca",
+    "h1": "Gurumê",
+    "words": 591
+  },
+  "/gastronomia/haru/": {
+    "file": "gastronomia/haru/index.html",
+    "title": "Haru Sushi Bar: guía completa | Ernestinho Carioca",
+    "h1": "Haru Sushi Bar",
+    "words": 1018
+  },
+  "/gastronomia/hollandaise/": {
+    "file": "gastronomia/hollandaise/index.html",
+    "title": "Hollandaise | Ernestinho Carioca",
+    "h1": "Hollandaise",
+    "words": 549
+  },
+  "/gastronomia/": {
+    "file": "gastronomia/index.html",
+    "title": "Gastronomía | Ernestinho Carioca",
+    "h1": "Comer Río.",
+    "words": 5204
+  },
+  "/gastronomia/iraja-redux/": {
+    "file": "gastronomia/iraja-redux/index.html",
+    "title": "Irajá Redux: guía completa | Ernestinho Carioca",
+    "h1": "Irajá Redux",
+    "words": 533
+  },
+  "/gastronomia/joaquina/": {
+    "file": "gastronomia/joaquina/index.html",
+    "title": "Joaquina · Leme: guía completa | Ernestinho Carioca",
+    "h1": "Joaquina · Leme",
+    "words": 1048
+  },
+  "/gastronomia/jobi/": {
+    "file": "gastronomia/jobi/index.html",
+    "title": "Jobi: guía completa | Ernestinho Carioca",
+    "h1": "Jobi",
+    "words": 579
+  },
+  "/gastronomia/jojo/": {
+    "file": "gastronomia/jojo/index.html",
+    "title": "Jojô Bistrô: guía completa | Ernestinho Carioca",
+    "h1": "Jojô Bistrô",
+    "words": 452
+  },
+  "/gastronomia/k08/": {
+    "file": "gastronomia/k08/index.html",
+    "title": "K08: guía completa | Ernestinho Carioca",
+    "h1": "K08",
+    "words": 547
+  },
+  "/gastronomia/kilograma-centro/": {
+    "file": "gastronomia/kilograma-centro/index.html",
+    "title": "Kilograma Centro: guía completa | Ernestinho Carioca",
+    "h1": "Kilograma Centro",
+    "words": 451
+  },
+  "/gastronomia/koral/": {
+    "file": "gastronomia/koral/index.html",
+    "title": "Koral: guía completa | Ernestinho Carioca",
+    "h1": "Koral",
+    "words": 946
+  },
+  "/gastronomia/kurt-leblon/": {
+    "file": "gastronomia/kurt-leblon/index.html",
+    "title": "Kurt Leblon | Ernestinho Carioca",
+    "h1": "Kurt Leblon",
+    "words": 447
+  },
+  "/gastronomia/la-bicyclette/": {
+    "file": "gastronomia/la-bicyclette/index.html",
+    "title": "La Bicyclette: guía completa | Ernestinho Carioca",
+    "h1": "La Bicyclette",
+    "words": 1049
+  },
+  "/gastronomia/la-fiorentina-ipanema/": {
+    "file": "gastronomia/la-fiorentina-ipanema/index.html",
+    "title": "La Fiorentina Ipanema: guía completa | Ernestinho Carioca",
+    "h1": "La Fiorentina Ipanema",
+    "words": 555
+  },
+  "/gastronomia/labuta-bar/": {
+    "file": "gastronomia/labuta-bar/index.html",
+    "title": "Labuta Bar: guía de Ernestinho Carioca",
+    "h1": "Labuta Bar",
+    "words": 879
+  },
+  "/gastronomia/lasai/": {
+    "file": "gastronomia/lasai/index.html",
+    "title": "Lasai: guía completa | Ernestinho Carioca",
+    "h1": "Lasai",
+    "words": 560
+  },
+  "/gastronomia/lilia/": {
+    "file": "gastronomia/lilia/index.html",
+    "title": "Lilia: guía de Ernestinho Carioca",
+    "h1": "Lilia",
+    "words": 872
+  },
+  "/gastronomia/majorica/": {
+    "file": "gastronomia/majorica/index.html",
+    "title": "Majórica | Ernestinho Carioca",
+    "h1": "Majórica",
+    "words": 538
+  },
+  "/gastronomia/margutta-ipanema/": {
+    "file": "gastronomia/margutta-ipanema/index.html",
+    "title": "Margutta Ipanema: guía completa | Ernestinho Carioca",
+    "h1": "Margutta Ipanema",
+    "words": 874
+  },
+  "/gastronomia/marius-degustare/": {
+    "file": "gastronomia/marius-degustare/index.html",
+    "title": "Marius Degustare: guía completa | Ernestinho Carioca",
+    "h1": "Marius Degustare",
+    "words": 707
+  },
+  "/gastronomia/maska/": {
+    "file": "gastronomia/maska/index.html",
+    "title": "Mäska: guía completa | Ernestinho Carioca",
+    "h1": "Mäska",
+    "words": 938
+  },
+  "/gastronomia/mee/": {
+    "file": "gastronomia/mee/index.html",
+    "title": "MEE: guía completa | Ernestinho Carioca",
+    "h1": "MEE",
+    "words": 948
+  },
+  "/gastronomia/mocellin-steak/": {
+    "file": "gastronomia/mocellin-steak/index.html",
+    "title": "Mocellin Steak | Ernestinho Carioca",
+    "h1": "Mocellin Steak",
+    "words": 544
+  },
+  "/gastronomia/mosteiro/": {
+    "file": "gastronomia/mosteiro/index.html",
+    "title": "Mosteiro: guía completa | Ernestinho Carioca",
+    "h1": "Mosteiro",
+    "words": 682
+  },
+  "/gastronomia/naga/": {
+    "file": "gastronomia/naga/index.html",
+    "title": "Naga: guía completa | Ernestinho Carioca",
+    "h1": "Naga",
+    "words": 506
+  },
+  "/gastronomia/nido-ristorante/": {
+    "file": "gastronomia/nido-ristorante/index.html",
+    "title": "Nido Ristorante | Ernestinho Carioca",
+    "h1": "Nido Ristorante",
+    "words": 499
+  },
+  "/gastronomia/nino-cucina-ipanema/": {
+    "file": "gastronomia/nino-cucina-ipanema/index.html",
+    "title": "Nino Cucina Ipanema: guía completa | Ernestinho Carioca",
+    "h1": "Nino Cucina Ipanema",
+    "words": 906
+  },
+  "/gastronomia/noa-ipanema/": {
+    "file": "gastronomia/noa-ipanema/index.html",
+    "title": "Nôa Ipanema: guía completa | Ernestinho Carioca",
+    "h1": "Nôa Ipanema",
+    "words": 883
+  },
+  "/gastronomia/nova-capela/": {
+    "file": "gastronomia/nova-capela/index.html",
+    "title": "Nova Capela: guía completa | Ernestinho Carioca",
+    "h1": "Nova Capela",
+    "words": 735
+  },
+  "/gastronomia/ocya-ilha/": {
+    "file": "gastronomia/ocya-ilha/index.html",
+    "title": "OCYÁ Ilha: guía completa | Ernestinho Carioca",
+    "h1": "OCYÁ Ilha",
+    "words": 654
+  },
+  "/gastronomia/ocya-leblon/": {
+    "file": "gastronomia/ocya-leblon/index.html",
+    "title": "OCYÁ Leblon: guía completa | Ernestinho Carioca",
+    "h1": "OCYÁ Leblon",
+    "words": 652
+  },
+  "/gastronomia/oficina-do-peixe/": {
+    "file": "gastronomia/oficina-do-peixe/index.html",
+    "title": "Oficina do Peixe: guía completa | Ernestinho Carioca",
+    "h1": "Oficina do Peixe",
+    "words": 468
+  },
+  "/gastronomia/oro/": {
+    "file": "gastronomia/oro/index.html",
+    "title": "Oro: guía completa | Ernestinho Carioca",
+    "h1": "Oro",
+    "words": 943
+  },
+  "/gastronomia/oteque/": {
+    "file": "gastronomia/oteque/index.html",
+    "title": "Oteque: guía completa | Ernestinho Carioca",
+    "h1": "Oteque",
+    "words": 532
+  },
+  "/gastronomia/otto/": {
+    "file": "gastronomia/otto/index.html",
+    "title": "Otto Restaurante: guía completa | Ernestinho Carioca",
+    "h1": "Otto Restaurante",
+    "words": 530
+  },
+  "/gastronomia/pavao-azul/": {
+    "file": "gastronomia/pavao-azul/index.html",
+    "title": "Pavão Azul: guía completa | Ernestinho Carioca",
+    "h1": "Pavão Azul",
+    "words": 507
+  },
+  "/gastronomia/pergula/": {
+    "file": "gastronomia/pergula/index.html",
+    "title": "Pérgula: guía completa | Ernestinho Carioca",
+    "h1": "Pérgula",
+    "words": 1074
+  },
+  "/gastronomia/pescados-na-brasa/": {
+    "file": "gastronomia/pescados-na-brasa/index.html",
+    "title": "Pescados na Brasa: guía completa | Ernestinho Carioca",
+    "h1": "Pescados na Brasa",
+    "words": 475
+  },
+  "/gastronomia/pesqueiro/": {
+    "file": "gastronomia/pesqueiro/index.html",
+    "title": "Pesqueiro: guía completa | Ernestinho Carioca",
+    "h1": "Pesqueiro",
+    "words": 586
+  },
+  "/gastronomia/pilograma-centro/": {
+    "file": "gastronomia/pilograma-centro/index.html",
+    "title": "Pilograma Prime Grill | Ernestinho Carioca",
+    "h1": "",
+    "words": 15
+  },
+  "/gastronomia/pilograma-prime-grill/": {
+    "file": "gastronomia/pilograma-prime-grill/index.html",
+    "title": "Pilograma Prime Grill: guía completa | Ernestinho Carioca",
+    "h1": "Pilograma Prime Grill",
+    "words": 464
+  },
+  "/gastronomia/pobre-juan/": {
+    "file": "gastronomia/pobre-juan/index.html",
+    "title": "Pobre Juan | Ernestinho Carioca",
+    "h1": "Pobre Juan",
+    "words": 524
+  },
+  "/gastronomia/point-de-grumari/": {
+    "file": "gastronomia/point-de-grumari/index.html",
+    "title": "Point de Grumari: guía completa | Ernestinho Carioca",
+    "h1": "Point de Grumari",
+    "words": 472
+  },
+  "/gastronomia/polis-sucos/": {
+    "file": "gastronomia/polis-sucos/index.html",
+    "title": "Polis Sucos: guía completa | Ernestinho Carioca",
+    "h1": "Polis Sucos",
+    "words": 1070
+  },
+  "/gastronomia/polvo-marisqueria/": {
+    "file": "gastronomia/polvo-marisqueria/index.html",
+    "title": "Polvo Marisqueria: guía completa | Ernestinho Carioca",
+    "h1": "Polvo Marisqueria",
+    "words": 484
+  },
+  "/gastronomia/praia-skol-copa/": {
+    "file": "gastronomia/praia-skol-copa/index.html",
+    "title": "Praia Skol: guía completa | Ernestinho Carioca",
+    "h1": "Praia Skol",
+    "words": 429
+  },
+  "/gastronomia/prana/": {
+    "file": "gastronomia/prana/index.html",
+    "title": "Prana Vegetariano: guía completa | Ernestinho Carioca",
+    "h1": "Prana Vegetariano",
+    "words": 480
+  },
+  "/gastronomia/proa/": {
+    "file": "gastronomia/proa/index.html",
+    "title": "Proa Cozinha Bar: guía completa | Ernestinho Carioca",
+    "h1": "Proa Cozinha Bar",
+    "words": 489
+  },
+  "/gastronomia/quartinho/": {
+    "file": "gastronomia/quartinho/index.html",
+    "title": "Quartinho: guía completa | Ernestinho Carioca",
+    "h1": "Quartinho",
+    "words": 522
+  },
+  "/gastronomia/quiteria/": {
+    "file": "gastronomia/quiteria/index.html",
+    "title": "Quitéria: guía completa | Ernestinho Carioca",
+    "h1": "Quitéria",
+    "words": 927
+  },
+  "/gastronomia/rampinha/": {
+    "file": "gastronomia/rampinha/index.html",
+    "title": "Rampinha: guía completa | Ernestinho Carioca",
+    "h1": "Rampinha",
+    "words": 467
+  },
+  "/gastronomia/reino-vegetal/": {
+    "file": "gastronomia/reino-vegetal/index.html",
+    "title": "Reino Vegetal: guía completa | Ernestinho Carioca",
+    "h1": "Reino Vegetal",
+    "words": 373
+  },
+  "/gastronomia/rio-scenarium/": {
+    "file": "gastronomia/rio-scenarium/index.html",
+    "title": "Rio Scenarium | Ernestinho Carioca",
+    "h1": "Rio Scenarium",
+    "words": 576
+  },
+  "/gastronomia/rotisseria-sirio-libanesa/": {
+    "file": "gastronomia/rotisseria-sirio-libanesa/index.html",
+    "title": "Rotisseria Sírio Libaneza | Ernestinho Carioca",
+    "h1": "Rotisseria Sírio Libaneza",
+    "words": 506
+  },
+  "/gastronomia/rufino-parrilla/": {
+    "file": "gastronomia/rufino-parrilla/index.html",
+    "title": "Rufino Parrilla: guía completa | Ernestinho Carioca",
+    "h1": "Rufino Parrilla",
+    "words": 587
+  },
+  "/gastronomia/ryu/": {
+    "file": "gastronomia/ryu/index.html",
+    "title": "Ryu Restaurante: guía completa | Ernestinho Carioca",
+    "h1": "Ryu Restaurante",
+    "words": 570
+  },
+  "/gastronomia/sabor-das-aguas/": {
+    "file": "gastronomia/sabor-das-aguas/index.html",
+    "title": "Sabor das Águas: guía completa | Ernestinho Carioca",
+    "h1": "Sabor das Águas",
+    "words": 652
+  },
+  "/gastronomia/samba-social/": {
+    "file": "gastronomia/samba-social/index.html",
+    "title": "Samba Social Clube: guía completa | Ernestinho Carioca",
+    "h1": "Samba Social Clube",
+    "words": 965
+  },
+  "/gastronomia/satyricon/": {
+    "file": "gastronomia/satyricon/index.html",
+    "title": "Satyricon: guía completa | Ernestinho Carioca",
+    "h1": "Satyricon",
+    "words": 1048
+  },
+  "/gastronomia/sel-ipanema/": {
+    "file": "gastronomia/sel-ipanema/index.html",
+    "title": "Sel d’Ipanema: guía completa | Ernestinho Carioca",
+    "h1": "Sel d’Ipanema",
+    "words": 440
+  },
+  "/gastronomia/shiso/": {
+    "file": "gastronomia/shiso/index.html",
+    "title": "Shiso: guía completa | Ernestinho Carioca",
+    "h1": "Shiso",
+    "words": 605
+  },
+  "/gastronomia/spesso/": {
+    "file": "gastronomia/spesso/index.html",
+    "title": "Spesso: guía completa | Ernestinho Carioca",
+    "h1": "Spesso",
+    "words": 1129
+  },
+  "/gastronomia/spicy-fish/": {
+    "file": "gastronomia/spicy-fish/index.html",
+    "title": "Spicy Fish: guía completa | Ernestinho Carioca",
+    "h1": "Spicy Fish",
+    "words": 862
+  },
+  "/gastronomia/stalos/": {
+    "file": "gastronomia/stalos/index.html",
+    "title": "Stalos: guía completa | Ernestinho Carioca",
+    "h1": "Stalos",
+    "words": 1096
+  },
+  "/gastronomia/stambul-copa/": {
+    "file": "gastronomia/stambul-copa/index.html",
+    "title": "Stambul Comida Árabe: guía completa | Ernestinho Carioca",
+    "h1": "Stambul Comida Árabe",
+    "words": 643
+  },
+  "/gastronomia/sud-passaro-verde/": {
+    "file": "gastronomia/sud-passaro-verde/index.html",
+    "title": "Sud, o Pássaro Verde: guía completa | Ernestinho Carioca",
+    "h1": "Sud, o Pássaro Verde",
+    "words": 742
+  },
+  "/gastronomia/sushi-leblon/": {
+    "file": "gastronomia/sushi-leblon/index.html",
+    "title": "Sushi Leblon: guía completa | Ernestinho Carioca",
+    "h1": "Sushi Leblon",
+    "words": 855
+  },
+  "/gastronomia/tacaca-do-norte/": {
+    "file": "gastronomia/tacaca-do-norte/index.html",
+    "title": "Tacacá do Norte | Ernestinho Carioca",
+    "h1": "Tacacá do Norte",
+    "words": 466
+  },
+  "/gastronomia/talho-capixaba-ipanema/": {
+    "file": "gastronomia/talho-capixaba-ipanema/index.html",
+    "title": "Talho Capixaba Ipanema | Ernestinho Carioca",
+    "h1": "Talho Capixaba Ipanema",
+    "words": 398
+  },
+  "/gastronomia/temperarte-bolivar/": {
+    "file": "gastronomia/temperarte-bolivar/index.html",
+    "title": "Temperarte Bolívar: guía completa | Ernestinho Carioca",
+    "h1": "Temperarte Bolívar",
+    "words": 715
+  },
+  "/gastronomia/temperarte-posto6/": {
+    "file": "gastronomia/temperarte-posto6/index.html",
+    "title": "Temperarte Posto 6: guía completa | Ernestinho Carioca",
+    "h1": "Temperarte Posto 6",
+    "words": 751
+  },
+  "/gastronomia/terra-brasilis/": {
+    "file": "gastronomia/terra-brasilis/index.html",
+    "title": "Terra Brasilis | Gastronomía | Ernestinho Carioca",
+    "h1": "Terra Brasilis",
+    "words": 777
+  },
+  "/gastronomia/teva/": {
+    "file": "gastronomia/teva/index.html",
+    "title": "Teva: guía completa | Ernestinho Carioca",
+    "h1": "Teva",
+    "words": 1042
+  },
+  "/gastronomia/tia-palmira/": {
+    "file": "gastronomia/tia-palmira/index.html",
+    "title": "Tia Palmira: guía completa | Ernestinho Carioca",
+    "h1": "Tia Palmira",
+    "words": 844
+  },
+  "/gastronomia/toca-da-traira/": {
+    "file": "gastronomia/toca-da-traira/index.html",
+    "title": "Toca da Traíra | Ernestinho Carioca",
+    "h1": "Toca da Traíra",
+    "words": 574
+  },
+  "/gastronomia/umai/": {
+    "file": "gastronomia/umai/index.html",
+    "title": "Umai: guía completa | Ernestinho Carioca",
+    "h1": "Umai",
+    "words": 926
+  },
+  "/gastronomia/venga-ipanema/": {
+    "file": "gastronomia/venga-ipanema/index.html",
+    "title": "¡Venga! Ipanema: guía completa | Ernestinho Carioca",
+    "h1": "¡Venga! Ipanema",
+    "words": 840
+  },
+  "/gastronomia/xian/": {
+    "file": "gastronomia/xian/index.html",
+    "title": "Xian: guía completa | Ernestinho Carioca",
+    "h1": "Xian",
+    "words": 718
+  },
+  "/gastronomia/xodozin-copa/": {
+    "file": "gastronomia/xodozin-copa/index.html",
+    "title": "Xodózin: guía completa | Ernestinho Carioca",
+    "h1": "Xodózin",
+    "words": 414
+  },
+  "/gastronomia/yusha/": {
+    "file": "gastronomia/yusha/index.html",
+    "title": "Yūsha: guía completa | Ernestinho Carioca",
+    "h1": "Yūsha",
+    "words": 566
+  },
+  "/gastronomia/zaza-bistro-tropical/": {
+    "file": "gastronomia/zaza-bistro-tropical/index.html",
+    "title": "Zazá Bistrô Tropical: guía completa | Ernestinho Carioca",
+    "h1": "Zazá Bistrô Tropical",
+    "words": 624
+  },
+  "/guia/accesibilidad/": {
+    "file": "guia/accesibilidad/index.html",
+    "title": "Río accesible y viaje para adultos mayores | Ernestinho Carioca",
+    "h1": "Río accesible y viaje para adultos mayores",
+    "words": 568
+  },
+  "/guia/aeropuertos/": {
+    "file": "guia/aeropuertos/index.html",
+    "title": "Llegar a Río: Galeão y Santos Dumont | Ernestinho Carioca",
+    "h1": "Llegar a Río: Galeão y Santos Dumont",
+    "words": 384
+  },
+  "/guia/alquiler-auto/": {
+    "file": "guia/alquiler-auto/index.html",
+    "title": "Alquiler de auto en Río y Brasil | Ernestinho Carioca",
+    "h1": "Alquiler de auto en Río y Brasil",
+    "words": 680
+  },
+  "/guia/apps/": {
+    "file": "guia/apps/index.html",
+    "title": "Aplicaciones que facilitan tu viaje | Ernestinho Carioca",
+    "h1": "Aplicaciones que facilitan tu viaje",
+    "words": 278
+  },
+  "/guia/consulados/": {
+    "file": "guia/consulados/index.html",
+    "title": "Consulados y ayuda para viajeros extranjeros | Ernestinho Carioca",
+    "h1": "Consulados y ayuda para viajeros extranjeros",
+    "words": 319
+  },
+  "/guia/cpf/": {
+    "file": "guia/cpf/index.html",
+    "title": "CPF para extranjeros y viajeros | Ernestinho Carioca",
+    "h1": "CPF para extranjeros y viajeros",
+    "words": 892
+  },
+  "/guia/dinero/": {
+    "file": "guia/dinero/index.html",
+    "title": "Dinero en Brasil: reales, tarjetas y seguridad | Ernestinho Carioca",
+    "h1": "Dinero en Brasil: reales, tarjetas y seguridad",
+    "words": 394
+  },
+  "/guia/documentos/": {
+    "file": "guia/documentos/index.html",
+    "title": "Documentos y visado para entrar a Brasil | Ernestinho Carioca",
+    "h1": "Documentos y visado para entrar a Brasil",
+    "words": 1205
+  },
+  "/guia/donde-alojarse/": {
+    "file": "guia/donde-alojarse/index.html",
+    "title": "Dónde alojarse en Río | Guía Ernestinho Carioca",
+    "h1": "",
+    "words": 28
+  },
+  "/guia/emergencias/": {
+    "file": "guia/emergencias/index.html",
+    "title": "Emergencias: qué hacer y a quién llamar | Ernestinho Carioca",
+    "h1": "Emergencias: qué hacer y a quién llamar",
+    "words": 550
+  },
+  "/guia/": {
+    "file": "guia/index.html",
+    "title": "Guía de Río | Ernestinho Carioca",
+    "h1": "Guía de Río.",
+    "words": 172
+  },
+  "/guia/internet/": {
+    "file": "guia/internet/index.html",
+    "title": "Internet, roaming, chip y eSIM | Ernestinho Carioca",
+    "h1": "Internet, roaming, chip y eSIM",
+    "words": 551
+  },
+  "/guia/menores/": {
+    "file": "guia/menores/index.html",
+    "title": "Viajar a Brasil con menores de edad | Ernestinho Carioca",
+    "h1": "Viajar a Brasil con menores de edad",
+    "words": 625
+  },
+  "/guia/mes-a-mes/": {
+    "file": "guia/mes-a-mes/index.html",
+    "title": "Río mes a mes | Ernestinho Carioca",
+    "h1": "",
+    "words": 27
+  },
+  "/guia/moverse/": {
+    "file": "guia/moverse/index.html",
+    "title": "Cómo moverse por Río | Ernestinho Carioca",
+    "h1": "",
+    "words": 10
+  },
+  "/guia/permanencia/": {
+    "file": "guia/permanencia/index.html",
+    "title": "Permanencia como turista y extensión | Ernestinho Carioca",
+    "h1": "Permanencia como turista y extensión",
+    "words": 388
+  },
+  "/guia/pix/": {
+    "file": "guia/pix/index.html",
+    "title": "Guía completa de Pix | Ernestinho Carioca",
+    "h1": "",
+    "words": 145
+  },
+  "/guia/seguro/": {
+    "file": "guia/seguro/index.html",
+    "title": "Seguro de viaje, SUS y emergencias médicas | Ernestinho Carioca",
+    "h1": "Seguro de viaje, SUS y emergencias médicas",
+    "words": 865
+  },
+  "/guia/terminales/": {
+    "file": "guia/terminales/index.html",
+    "title": "Rodoviária Novo Rio y Terminal Internacional de Cruceros | Ernestinho Carioca",
+    "h1": "Rodoviária Novo Rio y Terminal Internacional de Cruceros",
+    "words": 412
+  },
+  "/guia/vacunas/": {
+    "file": "guia/vacunas/index.html",
+    "title": "Vacunas y fiebre amarilla antes de viajar a Brasil | Ernestinho Carioca",
+    "h1": "Vacunas y fiebre amarilla antes de viajar a Brasil",
+    "words": 348
+  },
+  "/guia/viajar-solo/": {
+    "file": "guia/viajar-solo/index.html",
+    "title": "Viajar solo o sola a Río: guía práctica | Ernestinho Carioca",
+    "h1": "Viajar solo o sola a Río de Janeiro",
+    "words": 761
+  },
+  "/historia/": {
+    "file": "historia/index.html",
+    "title": "Mi historia | Ernestinho Carioca",
+    "h1": "Hola, soy Ernestinho.",
+    "words": 925
+  },
+  "/hospedaje/1008/": {
+    "file": "hospedaje/1008/index.html",
+    "title": "AP 1008 | Hospedaje Ernestinho",
+    "h1": "AP 1008",
+    "words": 285
+  },
+  "/hospedaje/1221/": {
+    "file": "hospedaje/1221/index.html",
+    "title": "AP 1221 | Hospedaje Ernestinho",
+    "h1": "AP 1221",
+    "words": 286
+  },
+  "/hospedaje/217/": {
+    "file": "hospedaje/217/index.html",
+    "title": "AP 217 | Hospedaje Ernestinho",
+    "h1": "AP 217",
+    "words": 280
+  },
+  "/hospedaje/54/": {
+    "file": "hospedaje/54/index.html",
+    "title": "AP 54 | Hospedaje Ernestinho",
+    "h1": "AP 54",
+    "words": 262
+  },
+  "/hospedaje/605/": {
+    "file": "hospedaje/605/index.html",
+    "title": "AP 605 | Hospedaje Ernestinho",
+    "h1": "AP 605",
+    "words": 287
+  },
+  "/hospedaje/621/": {
+    "file": "hospedaje/621/index.html",
+    "title": "AP 621 | Hospedaje Ernestinho",
+    "h1": "AP 621",
+    "words": 264
+  },
+  "/hospedaje/702/": {
+    "file": "hospedaje/702/index.html",
+    "title": "AP 702 | Hospedaje Ernestinho",
+    "h1": "AP 702",
+    "words": 290
+  },
+  "/hospedaje/805/": {
+    "file": "hospedaje/805/index.html",
+    "title": "AP 805 | Hospedaje Ernestinho",
+    "h1": "AP 805",
+    "words": 324
+  },
+  "/hospedaje/estudio-1-1/": {
+    "file": "hospedaje/estudio-1-1/index.html",
+    "title": "Estudio 1/1 para dos personas | Hospedaje Ernestinho",
+    "h1": "Estudio 1/1",
+    "words": 101
+  },
+  "/hospedaje/goia/": {
+    "file": "hospedaje/goia/index.html",
+    "title": "Casa Goia | Hospedaje Ernestinho",
+    "h1": "Casa Goia",
+    "words": 306
+  },
+  "/hospedaje/": {
+    "file": "hospedaje/index.html",
+    "title": "Hospedaje Ernestinho | Apartamentos en Río",
+    "h1": "",
+    "words": 475
+  },
+  "/hospedaje/nata/": {
+    "file": "hospedaje/nata/index.html",
+    "title": "Casa Ñata | Hospedaje Ernestinho",
+    "h1": "Casa Ñata",
+    "words": 296
+  },
+  "/hospedaje/venti/": {
+    "file": "hospedaje/venti/index.html",
+    "title": "Casa Venti | Hospedaje Ernestinho",
+    "h1": "Casa Venti",
+    "words": 275
+  },
+  "/hoy/": {
+    "file": "hoy/index.html",
+    "title": "¿Qué hago hoy en Río? | Ernestinho Carioca",
+    "h1": "¿Qué hago hoy en Río?",
+    "words": 472
+  },
+  "/": {
+    "file": "index.html",
+    "title": "Ernestinho Carioca | Río no se visita. Se vive.",
+    "h1": "",
+    "words": 237
+  },
+  "/naturaleza/bico-papagaio/": {
+    "file": "naturaleza/bico-papagaio/index.html",
+    "title": "Bico do Papagaio | Ernestinho Carioca",
+    "h1": "Bico do Papagaio",
+    "words": 162
+  },
+  "/naturaleza/catacumba/": {
+    "file": "naturaleza/catacumba/index.html",
+    "title": "Parque das Catacumbas | Ernestinho Carioca",
+    "h1": "Parque das Catacumbas",
+    "words": 142
+  },
+  "/naturaleza/circuito-grutas/": {
+    "file": "naturaleza/circuito-grutas/index.html",
+    "title": "Circuito das Grutas | Ernestinho Carioca",
+    "h1": "Circuito das Grutas",
+    "words": 131
+  },
+  "/naturaleza/dois-irmaos-trek/": {
+    "file": "naturaleza/dois-irmaos-trek/index.html",
+    "title": "Morro Dois Irmãos | Ernestinho Carioca",
+    "h1": "Morro Dois Irmãos",
+    "words": 132
+  },
+  "/naturaleza/": {
+    "file": "naturaleza/index.html",
+    "title": "Naturaleza y senderos de Río | Ernestinho Carioca",
+    "h1": "Naturaleza en Río",
+    "words": 476
+  },
+  "/naturaleza/parque-flamengo/": {
+    "file": "naturaleza/parque-flamengo/index.html",
+    "title": "Parque do Flamengo (Aterro do Flamengo) | Ernestinho Carioca",
+    "h1": "Parque do Flamengo (Aterro do Flamengo)",
+    "words": 492
+  },
+  "/naturaleza/pedra-bonita-trek/": {
+    "file": "naturaleza/pedra-bonita-trek/index.html",
+    "title": "Pedra Bonita | Ernestinho Carioca",
+    "h1": "Pedra Bonita",
+    "words": 149
+  },
+  "/naturaleza/pedra-gavea-trek/": {
+    "file": "naturaleza/pedra-gavea-trek/index.html",
+    "title": "Pedra da Gávea | Ernestinho Carioca",
+    "h1": "Pedra da Gávea",
+    "words": 160
+  },
+  "/naturaleza/pico-tijuca/": {
+    "file": "naturaleza/pico-tijuca/index.html",
+    "title": "Pico da Tijuca | Ernestinho Carioca",
+    "h1": "Pico da Tijuca",
+    "words": 164
+  },
+  "/naturaleza/pontal/": {
+    "file": "naturaleza/pontal/index.html",
+    "title": "Pedra do Pontal | Ernestinho Carioca",
+    "h1": "Pedra do Pontal",
+    "words": 122
+  },
+  "/naturaleza/primatas/": {
+    "file": "naturaleza/primatas/index.html",
+    "title": "Cachoeira dos Primatas | Ernestinho Carioca",
+    "h1": "Cachoeira dos Primatas",
+    "words": 152
+  },
+  "/naturaleza/sitio-burle-marx/": {
+    "file": "naturaleza/sitio-burle-marx/index.html",
+    "title": "Sítio Roberto Burle Marx | Ernestinho Carioca",
+    "h1": "Sítio Roberto Burle Marx",
+    "words": 496
+  },
+  "/naturaleza/telegrafo-trek/": {
+    "file": "naturaleza/telegrafo-trek/index.html",
+    "title": "Pedra do Telégrafo | Ernestinho Carioca",
+    "h1": "Pedra do Telégrafo",
+    "words": 150
+  },
+  "/playas/abrico/": {
+    "file": "playas/abrico/index.html",
+    "title": "Playa de Abricó | Ernestinho Carioca",
+    "h1": "Playa de Abricó",
+    "words": 219
+  },
+  "/playas/arpoador/": {
+    "file": "playas/arpoador/index.html",
+    "title": "Playa de Arpoador | Ernestinho Carioca",
+    "h1": "Playa de Arpoador",
+    "words": 236
+  },
+  "/playas/botafogo/": {
+    "file": "playas/botafogo/index.html",
+    "title": "Playa de Botafogo | Ernestinho Carioca",
+    "h1": "Playa de Botafogo",
+    "words": 243
+  },
+  "/playas/copacabana/": {
+    "file": "playas/copacabana/index.html",
+    "title": "Playa de Copacabana | Ernestinho Carioca",
+    "h1": "Playa de Copacabana",
+    "words": 249
+  },
+  "/playas/": {
+    "file": "playas/index.html",
+    "title": "Playas de Río | Ernestinho Carioca",
+    "h1": "Las Playas de Río",
+    "words": 1508
+  },
+  "/playas/ipanema/": {
+    "file": "playas/ipanema/index.html",
+    "title": "Playa de Ipanema | Ernestinho Carioca",
+    "h1": "Playa de Ipanema",
+    "words": 236
+  },
+  "/playas/joatinga/": {
+    "file": "playas/joatinga/index.html",
+    "title": "Playa de Joatinga | Ernestinho Carioca",
+    "h1": "Playa de Joatinga",
+    "words": 252
+  },
+  "/playas/leblon/": {
+    "file": "playas/leblon/index.html",
+    "title": "Playa de Leblon | Ernestinho Carioca",
+    "h1": "Playa de Leblon",
+    "words": 253
+  },
+  "/playas/leme/": {
+    "file": "playas/leme/index.html",
+    "title": "Playa de Leme | Ernestinho Carioca",
+    "h1": "Playa de Leme",
+    "words": 285
+  },
+  "/playas/praia-da-reserva/": {
+    "file": "playas/praia-da-reserva/index.html",
+    "title": "Praia da Reserva | Ernestinho Carioca",
+    "h1": "Praia da Reserva",
+    "words": 228
+  },
+  "/playas/praia-do-diabo/": {
+    "file": "playas/praia-do-diabo/index.html",
+    "title": "Praia do Diabo (Playa del Diablo) | Ernestinho Carioca",
+    "h1": "Praia do Diabo (Playa del Diablo)",
+    "words": 233
+  },
+  "/playas/praia-dos-amores/": {
+    "file": "playas/praia-dos-amores/index.html",
+    "title": "Praia dos Amores (Barra) | Ernestinho Carioca",
+    "h1": "Praia dos Amores (Barra)",
+    "words": 229
+  },
+  "/playas/praia-vermelha/": {
+    "file": "playas/praia-vermelha/index.html",
+    "title": "Praia Vermelha | Ernestinho Carioca",
+    "h1": "Praia Vermelha",
+    "words": 241
+  },
+  "/playas/prainha-vidigal/": {
+    "file": "playas/prainha-vidigal/index.html",
+    "title": "Prainha do Vidigal | Ernestinho Carioca",
+    "h1": "Prainha do Vidigal",
+    "words": 258
+  },
+  "/playas/recreio/": {
+    "file": "playas/recreio/index.html",
+    "title": "Playa de Recreio dos Bandeirantes | Ernestinho Carioca",
+    "h1": "Playa de Recreio dos Bandeirantes",
+    "words": 220
+  },
+  "/playas/sao-conrado/": {
+    "file": "playas/sao-conrado/index.html",
+    "title": "Playa de São Conrado | Ernestinho Carioca",
+    "h1": "Playa de São Conrado",
+    "words": 235
+  },
+  "/privacidad-precios-condiciones/": {
+    "file": "privacidad-precios-condiciones/index.html",
+    "title": "Privacidad, precios y condiciones | Ernestinho Carioca",
+    "h1": "Privacidad, precios y condiciones de contratación",
+    "words": 2145
+  },
+  "/quiero/": {
+    "file": "quiero/index.html",
+    "title": "Zona Portuaria por tu cuenta | Ernestinho Carioca",
+    "h1": "",
+    "words": 276
+  },
+  "/rio-en-vivo/": {
+    "file": "rio-en-vivo/index.html",
+    "title": "Río en vivo | Tiempo, mar y cámaras | Ernestinho Carioca",
+    "h1": "Tiempo, viento y mar en Río",
+    "words": 318
+  },
+  "/television/": {
+    "file": "television/index.html",
+    "title": "Ernestinho en TV | Ernestinho Carioca",
+    "h1": "Ernestinho en TV",
+    "words": 300
+  },
+  "/transportes/alquiler-vehiculo/": {
+    "file": "transportes/alquiler-vehiculo/index.html",
+    "title": "Alquilar un auto en Río de Janeiro | Guía Ernestinho Carioca",
+    "h1": "Alquilar un auto en Río",
+    "words": 1014
+  },
+  "/transportes/barcas/": {
+    "file": "transportes/barcas/index.html",
+    "title": "Barcas de Río y la Bahía de Guanabara | Ernestinho Carioca",
+    "h1": "Barcas de Río y la Bahía de Guanabara",
+    "words": 1003
+  },
+  "/transportes/bicicletas/": {
+    "file": "transportes/bicicletas/index.html",
+    "title": "Bicicletas compartidas en Río | Ernestinho Carioca",
+    "h1": "Bicicletas compartidas en Río",
+    "words": 1197
+  },
+  "/transportes/bonde-santa-teresa/": {
+    "file": "transportes/bonde-santa-teresa/index.html",
+    "title": "Bonde de Santa Teresa: horarios, ticket y consejos | Ernestinho Carioca",
+    "h1": "Bonde de Santa Teresa",
+    "words": 567
+  },
+  "/transportes/brt/": {
+    "file": "transportes/brt/index.html",
+    "title": "BRT Rio: guía de uso | Ernestinho Carioca",
+    "h1": "BRT Rio: guía de uso",
+    "words": 1342
+  },
+  "/transportes/": {
+    "file": "transportes/index.html",
+    "title": "Transportes en Río | Ernestinho Carioca",
+    "h1": "Llegar sin complicarte",
+    "words": 1092
+  },
+  "/transportes/metro/": {
+    "file": "transportes/metro/index.html",
+    "title": "Metro de Río de Janeiro | Ernestinho Carioca",
+    "h1": "Metro de Río de Janeiro",
+    "words": 1400
+  },
+  "/transportes/onibus/": {
+    "file": "transportes/onibus/index.html",
+    "title": "Autobuses de Río: cómo usarlos | Ernestinho Carioca",
+    "h1": "Autobuses de Río: cómo usarlos",
+    "words": 1029
+  },
+  "/transportes/terminal-gentileza/": {
+    "file": "transportes/terminal-gentileza/index.html",
+    "title": "Terminal Intermodal Gentileza: conexiones y guía | Ernestinho Carioca",
+    "h1": "Terminal Intermodal Gentileza",
+    "words": 685
+  },
+  "/transportes/transporte-privado/": {
+    "file": "transportes/transporte-privado/index.html",
+    "title": "Traslado privado en Río | Ernestinho Carioca",
+    "h1": "Traslado privado en Río",
+    "words": 764
+  },
+  "/transportes/trenes/": {
+    "file": "transportes/trenes/index.html",
+    "title": "Trenes metropolitanos SuperVia | Ernestinho Carioca",
+    "h1": "Trenes metropolitanos SuperVia",
+    "words": 917
+  },
+  "/transportes/uber/": {
+    "file": "transportes/uber/index.html",
+    "title": "Uber y aplicaciones de transporte | Ernestinho Carioca",
+    "h1": "Uber y aplicaciones de transporte",
+    "words": 1315
+  },
+  "/transportes/vlt/": {
+    "file": "transportes/vlt/index.html",
+    "title": "VLT Carioca en Río | Ernestinho Carioca",
+    "h1": "VLT Carioca en Río",
+    "words": 919
+  },
+  "/vida-nocturna/all-in/": {
+    "file": "vida-nocturna/all-in/index.html",
+    "title": "All In Lounge: música y noche en Barra | Ernestinho Carioca",
+    "h1": "All In",
+    "words": 1061
+  },
+  "/vida-nocturna/armazem-do-senado/": {
+    "file": "vida-nocturna/armazem-do-senado/index.html",
+    "title": "Armazém Senado | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Armazém Senado",
+    "words": 282
+  },
+  "/vida-nocturna/bafo-da-prainha/": {
+    "file": "vida-nocturna/bafo-da-prainha/index.html",
+    "title": "Bafo da Prainha | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Bafo da Prainha",
+    "words": 308
+  },
+  "/vida-nocturna/bar-bukowski/": {
+    "file": "vida-nocturna/bar-bukowski/index.html",
+    "title": "Bar Bukowski | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Bar Bukowski",
+    "words": 279
+  },
+  "/vida-nocturna/bar-da-cachaca/": {
+    "file": "vida-nocturna/bar-da-cachaca/index.html",
+    "title": "Bar da Cachaça | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Bar da Cachaça",
+    "words": 284
+  },
+  "/vida-nocturna/bar-do-omar/": {
+    "file": "vida-nocturna/bar-do-omar/index.html",
+    "title": "Bar do Omar | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Bar do Omar",
+    "words": 281
+  },
+  "/vida-nocturna/beco-das-garrafas/": {
+    "file": "vida-nocturna/beco-das-garrafas/index.html",
+    "title": "Beco das Garrafas: Bossa Nova en Copacabana | Ernestinho Carioca",
+    "h1": "Beco das Garrafas",
+    "words": 655
+  },
+  "/vida-nocturna/beco-do-rato/": {
+    "file": "vida-nocturna/beco-do-rato/index.html",
+    "title": "Beco do Rato | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Beco do Rato",
+    "words": 296
+  },
+  "/vida-nocturna/bip-bip/": {
+    "file": "vida-nocturna/bip-bip/index.html",
+    "title": "Bip Bip | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Bip Bip",
+    "words": 266
+  },
+  "/vida-nocturna/blue-note-rio/": {
+    "file": "vida-nocturna/blue-note-rio/index.html",
+    "title": "Blue Note Rio | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Blue Note Rio",
+    "words": 254
+  },
+  "/vida-nocturna/boa-praca-ipanema/": {
+    "file": "vida-nocturna/boa-praca-ipanema/index.html",
+    "title": "Boa Praça Ipanema | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Boa Praça Ipanema",
+    "words": 679
+  },
+  "/vida-nocturna/bosque-bar/": {
+    "file": "vida-nocturna/bosque-bar/index.html",
+    "title": "Bosque Bar: música al aire libre en Gávea | Ernestinho Carioca",
+    "h1": "Bosque Bar",
+    "words": 690
+  },
+  "/vida-nocturna/brewteco-botafogo/": {
+    "file": "vida-nocturna/brewteco-botafogo/index.html",
+    "title": "Brewteco Botafogo | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Brewteco Botafogo",
+    "words": 647
+  },
+  "/vida-nocturna/cacique-de-ramos/": {
+    "file": "vida-nocturna/cacique-de-ramos/index.html",
+    "title": "Cacique de Ramos | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Cacique de Ramos",
+    "words": 259
+  },
+  "/vida-nocturna/canastra-bar/": {
+    "file": "vida-nocturna/canastra-bar/index.html",
+    "title": "Canastra Bar · archivo | Ernestinho Carioca",
+    "h1": "Canastra Bar ya no está en esta dirección",
+    "words": 85
+  },
+  "/vida-nocturna/carioca-da-gema/": {
+    "file": "vida-nocturna/carioca-da-gema/index.html",
+    "title": "Carioca da Gema | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Carioca da Gema",
+    "words": 401
+  },
+  "/vida-nocturna/chopperia-botafogo/": {
+    "file": "vida-nocturna/chopperia-botafogo/index.html",
+    "title": "Chopperia Botafogo | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Chopperia Botafogo",
+    "words": 601
+  },
+  "/vida-nocturna/circo-voador/": {
+    "file": "vida-nocturna/circo-voador/index.html",
+    "title": "Circo Voador | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Circo Voador",
+    "words": 289
+  },
+  "/vida-nocturna/coisas-de-bamba/": {
+    "file": "vida-nocturna/coisas-de-bamba/index.html",
+    "title": "Coisas de Bamba | Vida Nocturna en Copacabana | Ernestinho Carioca",
+    "h1": "Coisas de Bamba",
+    "words": 359
+  },
+  "/vida-nocturna/comuna/": {
+    "file": "vida-nocturna/comuna/index.html",
+    "title": "Comuna cerró en 2020 | Ernestinho Carioca",
+    "h1": "Comuna cerró en 2020",
+    "words": 88
+  },
+  "/vida-nocturna/coordenadas-bar/": {
+    "file": "vida-nocturna/coordenadas-bar/index.html",
+    "title": "Coordenadas Bar: shows y pista en Botafogo | Ernestinho Carioca",
+    "h1": "Coordenadas Bar",
+    "words": 627
+  },
+  "/vida-nocturna/feira-sao-cristovao-noite/": {
+    "file": "vida-nocturna/feira-sao-cristovao-noite/index.html",
+    "title": "Feira de São Cristóvão | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Feira de São Cristóvão",
+    "words": 431
+  },
+  "/vida-nocturna/fogo-de-chao-botafogo/": {
+    "file": "vida-nocturna/fogo-de-chao-botafogo/index.html",
+    "title": "Fogo de Chão Botafogo | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Fogo de Chão Botafogo",
+    "words": 233
+  },
+  "/vida-nocturna/fundicao-progresso/": {
+    "file": "vida-nocturna/fundicao-progresso/index.html",
+    "title": "Fundição Progresso | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Fundição Progresso",
+    "words": 295
+  },
+  "/vida-nocturna/galeria-cafe/": {
+    "file": "vida-nocturna/galeria-cafe/index.html",
+    "title": "Galeria Café · archivo | Ernestinho Carioca",
+    "h1": "Galeria Café cerró",
+    "words": 88
+  },
+  "/vida-nocturna/": {
+    "file": "vida-nocturna/index.html",
+    "title": "Vida Nocturna | Ernestinho Carioca",
+    "h1": "Vida Nocturna",
+    "words": 1545
+  },
+  "/vida-nocturna/isabel-lounge/": {
+    "file": "vida-nocturna/isabel-lounge/index.html",
+    "title": "Isabel Lounge: rooftop del Hilton Copacabana | Ernestinho Carioca",
+    "h1": "Isabel Lounge",
+    "words": 621
+  },
+  "/vida-nocturna/lapa-40-graus/": {
+    "file": "vida-nocturna/lapa-40-graus/index.html",
+    "title": "Lapa 40 Graus | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Lapa 40 Graus",
+    "words": 358
+  },
+  "/vida-nocturna/leviano-bar/": {
+    "file": "vida-nocturna/leviano-bar/index.html",
+    "title": "Leviano Bar | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Leviano Bar",
+    "words": 273
+  },
+  "/vida-nocturna/macuna/": {
+    "file": "vida-nocturna/macuna/index.html",
+    "title": "Macuna | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Macuna",
+    "words": 333
+  },
+  "/vida-nocturna/moonlounge/": {
+    "file": "vida-nocturna/moonlounge/index.html",
+    "title": "Moonlounge: rooftop bar del JW Marriott en Copacabana | Ernestinho Carioca",
+    "h1": "Moonlounge Rooftop",
+    "words": 627
+  },
+  "/vida-nocturna/nosso/": {
+    "file": "vida-nocturna/nosso/index.html",
+    "title": "Nosso | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Nosso",
+    "words": 740
+  },
+  "/vida-nocturna/ocya-ilha-primeira/": {
+    "file": "vida-nocturna/ocya-ilha-primeira/index.html",
+    "title": "Ocyá Ilha Primeira | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Ocyá Ilha Primeira",
+    "words": 235
+  },
+  "/vida-nocturna/pedra-do-sal/": {
+    "file": "vida-nocturna/pedra-do-sal/index.html",
+    "title": "Pedra do Sal | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Pedra do Sal",
+    "words": 298
+  },
+  "/vida-nocturna/pink-flamingo/": {
+    "file": "vida-nocturna/pink-flamingo/index.html",
+    "title": "Pink Flamingo | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Pink Flamingo",
+    "words": 636
+  },
+  "/vida-nocturna/pizzaria-canastra/": {
+    "file": "vida-nocturna/pizzaria-canastra/index.html",
+    "title": "Pizzaria Canastra en Ipanema | Ernestinho Carioca",
+    "h1": "Pizzaria Canastra",
+    "words": 399
+  },
+  "/vida-nocturna/portela/": {
+    "file": "vida-nocturna/portela/index.html",
+    "title": "Portela | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Portela",
+    "words": 241
+  },
+  "/vida-nocturna/quadra-mangueira/": {
+    "file": "vida-nocturna/quadra-mangueira/index.html",
+    "title": "Quadra da Mangueira | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Quadra da Mangueira",
+    "words": 252
+  },
+  "/vida-nocturna/quadra-salgueiro/": {
+    "file": "vida-nocturna/quadra-salgueiro/index.html",
+    "title": "Quadra do Salgueiro | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Quadra do Salgueiro",
+    "words": 232
+  },
+  "/vida-nocturna/quartinho/": {
+    "file": "vida-nocturna/quartinho/index.html",
+    "title": "Quartinho | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Quartinho",
+    "words": 368
+  },
+  "/vida-nocturna/renascenca-clube/": {
+    "file": "vida-nocturna/renascenca-clube/index.html",
+    "title": "Renascença Clube | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Renascença Clube",
+    "words": 237
+  },
+  "/vida-nocturna/rio-scenarium/": {
+    "file": "vida-nocturna/rio-scenarium/index.html",
+    "title": "Rio Scenarium | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Rio Scenarium",
+    "words": 381
+  },
+  "/vida-nocturna/sacadura-154/": {
+    "file": "vida-nocturna/sacadura-154/index.html",
+    "title": "Sacadura 154 | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Sacadura 154",
+    "words": 338
+  },
+  "/vida-nocturna/trapiche-gamboa/": {
+    "file": "vida-nocturna/trapiche-gamboa/index.html",
+    "title": "Trapiche Gamboa | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Trapiche Gamboa",
+    "words": 350
+  },
+  "/vida-nocturna/vaca-atolada/": {
+    "file": "vida-nocturna/vaca-atolada/index.html",
+    "title": "Vaca Atolada | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Vaca Atolada",
+    "words": 365
+  },
+  "/vida-nocturna/vitrinni/": {
+    "file": "vida-nocturna/vitrinni/index.html",
+    "title": "Vitrinni Lounge Beer | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Vitrinni Lounge Beer",
+    "words": 242
+  },
+  "/vida-nocturna/xepa/": {
+    "file": "vida-nocturna/xepa/index.html",
+    "title": "Xepa | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Xepa",
+    "words": 267
+  },
+  "/vida-nocturna/yoo2/": {
+    "file": "vida-nocturna/yoo2/index.html",
+    "title": "Yoo2 Rooftop | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Yoo2 Rooftop",
+    "words": 220
+  },
+  "/vida-nocturna/zeca-vogue/": {
+    "file": "vida-nocturna/zeca-vogue/index.html",
+    "title": "Bar do Zeca Pagodinho | Vida Nocturna en Río | Ernestinho Carioca",
+    "h1": "Bar do Zeca Pagodinho",
+    "words": 384
+  }
+}
