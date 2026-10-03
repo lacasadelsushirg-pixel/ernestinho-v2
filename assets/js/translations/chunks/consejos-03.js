@@ -897,5 +897,565 @@ export default {
     "PT": "Aproveite a chuva para sentar sem culpa: Colombo, restaurantes tradicionais do Centro, buffet a quilo ou um boteco clássico podem fazer parte do passeio, em vez de ser apenas uma pausa.",
     "EN": "Use the rain as a reason to sit down without guilt: Colombo, traditional Centro restaurants, a pay-by-weight buffet or a classic boteco can be part of the outing rather than just a break."
   }
-
+,
+  "1. ¿Pasaporte o cédula? Depende de tu nacionalidad y del acuerdo vigente; el documento debe estar vigente y en buen estado.": {
+    "PT": "1. Passaporte ou documento de identidade? Depende da sua nacionalidade e do acordo vigente; o documento deve estar válido e em bom estado.",
+    "EN": "1. Passport or national ID? It depends on your nationality and the agreement in force; the document must be valid and in good condition."
+  },
+  "10. ¿Dónde conviene alojarse por primera vez? Copacabana suele ser práctica por transporte, comercio, playa y variedad.": {
+    "PT": "10. Onde ficar na primeira visita? Copacabana costuma ser prática pela oferta de transporte, comércio, praia e variedade.",
+    "EN": "10. Where should I stay on my first visit? Copacabana is usually convenient for transport, shops, the beach and variety."
+  },
+  "11. ¿GIG y SDU son el mismo aeropuerto? No. Galeão es internacional y Santos Dumont está junto al Centro.": {
+    "PT": "11. GIG e SDU são o mesmo aeroporto? Não. O Galeão é internacional e o Santos Dumont fica junto ao Centro.",
+    "EN": "11. Are GIG and SDU the same airport? No. Galeão is international, while Santos Dumont is next to downtown."
+  },
+  "12. ¿Cómo llego desde el aeropuerto? Traslado reservado, taxi oficial, aplicación o transporte público según horario y equipaje.": {
+    "PT": "12. Como sair do aeroporto? Transfer reservado, táxi oficial, aplicativo ou transporte público, conforme o horário e a bagagem.",
+    "EN": "12. How do I get from the airport? A booked transfer, official taxi, ride-hailing app or public transport, depending on the time and luggage."
+  },
+  "13. ¿Puedo reservar traslado con Ernestinho? Sí, por WhatsApp indicando vuelo, pasajeros, equipaje y destino.": {
+    "PT": "13. Posso reservar um transfer com Ernestinho? Sim, pelo WhatsApp, informando voo, passageiros, bagagem e destino.",
+    "EN": "13. Can I book a transfer with Ernestinho? Yes, through WhatsApp, with your flight, passenger count, luggage and destination."
+  },
+  "14. ¿Uber funciona en Río? Sí; verifica conductor, modelo y matrícula antes de subir.": {
+    "PT": "14. O Uber funciona no Rio? Sim; confira o motorista, o modelo e a placa antes de entrar.",
+    "EN": "14. Does Uber work in Rio? Yes; check the driver, vehicle model and license plate before getting in."
+  },
+  "15. ¿El metro llega a todos los puntos turísticos? No, pero cubre gran parte de Centro, Zona Sur, Tijuca y conexión con Barra.": {
+    "PT": "15. O metrô chega a todos os pontos turísticos? Não, mas atende boa parte do Centro, Zona Sul, Tijuca e a conexão com a Barra.",
+    "EN": "15. Does the metro reach every tourist attraction? No, but it serves much of downtown, the South Zone and Tijuca, with a connection to Barra."
+  },
+  "16. ¿Cómo se paga el transporte? Depende del sistema; revisa tarjetas y medios aceptados antes de abordar.": {
+    "PT": "16. Como pagar o transporte? Depende do sistema; confira os cartões e meios aceitos antes de embarcar.",
+    "EN": "16. How do I pay for transport? It depends on the system; check accepted cards and payment methods before boarding."
+  },
+  "17. ¿Es necesario alquilar automóvil? Para la mayoría de visitantes no; estacionamiento y tránsito pueden complicar el viaje.": {
+    "PT": "17. É necessário alugar um carro? Para a maioria dos visitantes, não; estacionamento e trânsito podem complicar a viagem.",
+    "EN": "17. Do I need to rent a car? Most visitors do not; parking and traffic can complicate the trip."
+  },
+  "18. ¿Puedo usar mi tarjeta extranjera? Generalmente sí, si está habilitada para compras internacionales.": {
+    "PT": "18. Posso usar meu cartão estrangeiro? Geralmente sim, se estiver habilitado para compras internacionais.",
+    "EN": "18. Can I use my foreign card? Generally yes, if it is enabled for international purchases."
+  },
+  "19. ¿Necesito efectivo? Conviene llevar una cantidad pequeña como respaldo.": {
+    "PT": "19. Preciso de dinheiro em espécie? Vale levar uma pequena quantia como reserva.",
+    "EN": "19. Do I need cash? Carrying a small amount as a backup is useful."
+  },
+  "2. ¿Necesito visa? Depende de la nacionalidad. Compruébalo siempre en el portal consular oficial.": {
+    "PT": "2. Preciso de visto? Depende da nacionalidade. Confira sempre no portal consular oficial.",
+    "EN": "2. Do I need a visa? It depends on your nationality. Always check the official consular website."
+  },
+  "20. ¿Un turista puede tener Pix? No automáticamente; depende de CPF, cuenta o aplicación habilitada.": {
+    "PT": "20. Um turista pode ter Pix? Não automaticamente; depende de CPF, conta ou aplicativo habilitado.",
+    "EN": "20. Can a tourist use Pix? Not automatically; it depends on a CPF, account or enabled app."
+  },
+  "21. ¿Dónde cambio dinero? En establecimientos autorizados; compara cotización y comisiones.": {
+    "PT": "21. Onde trocar dinheiro? Em estabelecimentos autorizados; compare a cotação e as taxas.",
+    "EN": "21. Where can I exchange money? At authorized providers; compare exchange rates and fees."
+  },
+  "22. ¿Cuánto dinero necesito por día? Depende del estilo; separa hospedaje y entradas del presupuesto diario.": {
+    "PT": "22. Quanto dinheiro preciso por dia? Depende do estilo da viagem; separe hospedagem e ingressos do orçamento diário.",
+    "EN": "22. How much money do I need per day? It depends on your travel style; budget for accommodation and tickets separately from daily spending."
+  },
+  "23. ¿El 10% es obligatorio? El servicio suele ser sugerido y debe aparecer claramente informado.": {
+    "PT": "23. Os 10% são obrigatórios? A taxa de serviço costuma ser sugerida e deve estar claramente informada.",
+    "EN": "23. Is the 10% charge compulsory? The service charge is usually suggested and should be clearly disclosed."
+  },
+  "24. ¿Hay que dejar propina adicional? No es imprescindible si ya pagaste el servicio, salvo que quieras reconocer una atención especial.": {
+    "PT": "24. Preciso deixar uma gorjeta extra? Não é indispensável se já pagou o serviço, a menos que queira reconhecer um atendimento especial.",
+    "EN": "24. Should I leave an extra tip? It is not essential if you already paid the service charge, unless you want to recognize exceptional service."
+  },
+  "25. ¿El agua del grifo es recomendable? Para beber, muchos visitantes prefieren agua filtrada o mineral.": {
+    "PT": "25. É recomendável beber água da torneira? Muitos visitantes preferem água filtrada ou mineral.",
+    "EN": "25. Is tap water recommended for drinking? Many visitors prefer filtered or bottled water."
+  },
+  "26. ¿Qué enchufe usa Brasil? Predomina el tipo N; el voltaje puede cambiar según lugar y establecimiento.": {
+    "PT": "26. Qual tomada é usada no Brasil? Predomina o tipo N; a voltagem pode variar conforme o local e o estabelecimento.",
+    "EN": "26. What plug type does Brazil use? Type N is the most common; voltage can vary by location and establishment."
+  },
+  "27. ¿Necesito chip o eSIM? Es muy útil para mapas, transporte, reservas y emergencias.": {
+    "PT": "27. Preciso de chip ou eSIM? É muito útil para mapas, transporte, reservas e emergências.",
+    "EN": "27. Do I need a SIM or eSIM? It is very useful for maps, transport, bookings and emergencies."
+  },
+  "28. ¿Qué aplicaciones conviene instalar? WhatsApp, mapas, transporte, clima y las apps bancarias protegidas.": {
+    "PT": "28. Quais aplicativos vale instalar? WhatsApp, mapas, transporte, clima e aplicativos bancários protegidos.",
+    "EN": "28. Which apps should I install? WhatsApp, maps, transport, weather and securely protected banking apps."
+  },
+  "29. ¿Río es peligroso? Requiere atención urbana normal reforzada: planifica rutas y evita exhibir objetos de valor.": {
+    "PT": "29. O Rio é perigoso? Exige atenção urbana redobrada: planeje os trajetos e evite exibir objetos de valor.",
+    "EN": "29. Is Rio dangerous? Take extra urban precautions: plan your routes and avoid displaying valuables."
+  },
+  "3. ¿Cuántos días puedo permanecer? Lo determina el régimen migratorio aplicado a tu nacionalidad.": {
+    "PT": "3. Quantos dias posso ficar? Isso é determinado pelas regras migratórias aplicáveis à sua nacionalidade.",
+    "EN": "3. How many days can I stay? This is determined by the immigration rules that apply to your nationality."
+  },
+  "30. ¿Puedo usar el celular en la calle? Sí, pero hazlo con discreción y entra a un local si necesitas detenerte.": {
+    "PT": "30. Posso usar o celular na rua? Sim, mas com discrição; entre em um estabelecimento se precisar parar.",
+    "EN": "30. Can I use my phone on the street? Yes, but discreetly; step into a shop if you need to stop."
+  },
+  "31. ¿Qué hago si pierdo el celular? Bloquea línea, bancos, correo y sesiones; registra denuncia y no intentes recuperarlo solo.": {
+    "PT": "31. O que fazer se perder o celular? Bloqueie a linha, os acessos bancários, o e-mail e as sessões; registre a ocorrência e não tente recuperá-lo sozinho.",
+    "EN": "31. What should I do if I lose my phone? Block your mobile line, banking access, email and active sessions; file a police report and do not try to recover it alone."
+  },
+  "32. ¿Qué hago si pierdo documentos? Registra la pérdida y contacta al consulado correspondiente.": {
+    "PT": "32. O que fazer se perder documentos? Registre a perda e entre em contato com o consulado correspondente.",
+    "EN": "32. What should I do if I lose my documents? Report the loss and contact the relevant consulate."
+  },
+  "33. ¿Qué números de emergencia debo guardar? 190 Policía, 192 SAMU, 193 Bomberos y 199 Defensa Civil.": {
+    "PT": "33. Quais números de emergência devo salvar? 190 Polícia, 192 SAMU, 193 Bombeiros e 199 Defesa Civil.",
+    "EN": "33. Which emergency numbers should I save? 190 Police, 192 SAMU ambulance service, 193 Fire Department and 199 Civil Defense."
+  },
+  "34. ¿Un extranjero puede usar el SUS? Puede buscar la red pública de urgencias; un seguro amplía opciones y coberturas.": {
+    "PT": "34. Um estrangeiro pode usar o SUS? Pode procurar a rede pública de urgência; um seguro amplia as opções e coberturas.",
+    "EN": "34. Can a foreign visitor use SUS? They can seek care through the public emergency network; insurance offers additional options and coverage."
+  },
+  "35. ¿Qué diferencia hay entre UPA y hospital? La UPA atiende urgencias intermedias y estabiliza o deriva cuando corresponde.": {
+    "PT": "35. Qual a diferença entre UPA e hospital? A UPA atende urgências de complexidade intermediária e estabiliza ou encaminha quando necessário.",
+    "EN": "35. What is the difference between a UPA and a hospital? A UPA handles intermediate-complexity urgent care and stabilizes or refers patients when needed."
+  },
+  "36. ¿Las farmacias venden cualquier medicamento? No; algunos requieren receta retenida o receta médica válida.": {
+    "PT": "36. As farmácias vendem qualquer medicamento? Não; alguns exigem receita retida ou prescrição médica válida.",
+    "EN": "36. Do pharmacies sell any medication? No; some require a prescription that the pharmacy retains or a valid medical prescription."
+  },
+  "37. ¿Qué hago cuando llueve fuerte? Evita calles inundadas, laderas y desplazamientos largos; consulta alertas oficiales.": {
+    "PT": "37. O que fazer quando chove muito? Evite ruas alagadas, encostas e deslocamentos longos; consulte os alertas oficiais.",
+    "EN": "37. What should I do in heavy rain? Avoid flooded streets, hillsides and long journeys; check official alerts."
+  },
+  "38. ¿Las playas son aptas para niños? Algunas tienen días más tranquilos, pero el estado del mar cambia diariamente.": {
+    "PT": "38. As praias são adequadas para crianças? Algumas têm dias mais tranquilos, mas as condições do mar mudam diariamente.",
+    "EN": "38. Are the beaches suitable for children? Some have calmer days, but sea conditions change daily."
+  },
+  "39. ¿Qué significa Posto? Es una referencia numerada de sectores y puestos de salvamento en la orla.": {
+    "PT": "39. O que significa Posto? É uma referência numerada aos setores e postos de salvamento na orla.",
+    "EN": "39. What does Posto mean? It is a numbered reference to beach sections and lifeguard stations along the waterfront."
+  },
+  "4. ¿Puedo extender mi estadía? En algunos casos sí, solicitándolo a la Policía Federal antes del vencimiento.": {
+    "PT": "4. Posso prorrogar minha estadia? Em alguns casos sim, solicitando à Polícia Federal antes do vencimento.",
+    "EN": "4. Can I extend my stay? In some cases, yes, by applying to the Polícia Federal before your authorized stay expires."
+  },
+  "40. ¿Se alquilan sillas y sombrillas? Sí; pregunta y acuerda el precio antes de usarlas.": {
+    "PT": "40. É possível alugar cadeiras e guarda-sóis? Sim; pergunte e combine o preço antes de usar.",
+    "EN": "40. Can I rent chairs and beach umbrellas? Yes; ask about and agree on the price before using them."
+  },
+  "41. ¿Puedo dejar mis cosas solas en la arena? No es recomendable; lleva lo mínimo y organiza turnos.": {
+    "PT": "41. Posso deixar minhas coisas sozinhas na areia? Não é recomendável; leve o mínimo e reveze a vigilância.",
+    "EN": "41. Can I leave my belongings unattended on the sand? It is not recommended; bring only essentials and take turns watching them."
+  },
+  "42. ¿Se puede volar un dron? Solo respetando registro, espacio aéreo, restricciones locales y privacidad.": {
+    "PT": "42. É permitido voar com drone? Somente respeitando o registro, o espaço aéreo, as restrições locais e a privacidade.",
+    "EN": "42. Can I fly a drone? Only in compliance with registration, airspace rules, local restrictions and privacy."
+  },
+  "43. ¿Hay actividades gratuitas? Sí: playas, parques, miradores, ferias y varios centros culturales.": {
+    "PT": "43. Há atividades gratuitas? Sim: praias, parques, mirantes, feiras e vários centros culturais.",
+    "EN": "43. Are there free activities? Yes: beaches, parks, viewpoints, markets and several cultural centers."
+  },
+  "44. ¿Qué entradas debo comprar antes? Cristo, Pan de Azúcar, partidos, grandes eventos y excursiones en fechas de alta demanda.": {
+    "PT": "44. Quais ingressos devo comprar com antecedência? Cristo, Pão de Açúcar, jogos, grandes eventos e passeios em datas de alta procura.",
+    "EN": "44. Which tickets should I buy in advance? Christ the Redeemer, Sugarloaf Mountain, matches, major events and tours during busy periods."
+  },
+  "45. ¿Los museos abren los lunes? Muchos cierran, pero no todos; verifica cada ficha y el canal oficial.": {
+    "PT": "45. Os museus abrem às segundas-feiras? Muitos fecham, mas nem todos; confira cada ficha e o canal oficial.",
+    "EN": "45. Do museums open on Mondays? Many close, but not all; check each guide and the official channel."
+  },
+  "46. ¿Qué es un rodizio? Un servicio de precio fijo con una secuencia de carnes, pizzas, sushi u otros productos.": {
+    "PT": "46. O que é um rodízio? Um serviço de preço fixo com uma sequência de carnes, pizzas, sushi ou outros produtos.",
+    "EN": "46. What is a rodízio? A fixed-price service offering a succession of meats, pizzas, sushi or other foods."
+  },
+  "47. ¿Qué es comida por kilo? Sirves el plato y pagas según su peso.": {
+    "PT": "47. O que é comida por quilo? Você monta o prato e paga conforme o peso.",
+    "EN": "47. What is food sold by the kilo? You fill your plate and pay according to its weight."
+  },
+  "48. ¿Puedo visitar una comunidad? Sí, de forma responsable, preferentemente acompañado y respetando residentes y fotografías.": {
+    "PT": "48. Posso visitar uma comunidade? Sim, de forma responsável, de preferência acompanhado e respeitando os moradores e as regras para fotos.",
+    "EN": "48. Can I visit a community? Yes, responsibly, preferably with a guide and with respect for residents and photography."
+  },
+  "49. ¿Cómo voy a Búzios, Arraial, Angra o Ilha Grande? En excursión, traslado o combinación de carretera y barco según destino.": {
+    "PT": "49. Como chegar a Búzios, Arraial, Angra ou Ilha Grande? Em passeio, transfer ou combinando estrada e barco, conforme o destino.",
+    "EN": "49. How do I get to Búzios, Arraial, Angra or Ilha Grande? By tour, transfer or a combination of road and boat travel, depending on the destination."
+  },
+  "5. ¿Los menores necesitan autorización? Puede ser necesaria si no viajan con ambos responsables; revisa también las reglas del país de salida.": {
+    "PT": "5. Menores precisam de autorização? Pode ser necessária se não viajarem com ambos os responsáveis; confira também as regras do país de saída.",
+    "EN": "5. Do minors need travel authorization? It may be needed if they are not traveling with both guardians; also check the rules of the departure country."
+  },
+  "50 preguntas antes de viajar a Río": {
+    "PT": "50 perguntas antes de viajar para o Rio",
+    "EN": "50 questions before traveling to Rio"
+  },
+  "50. ¿Cómo contacto a Ernestinho? Por WhatsApp al +55 21 96994-6938 para orientación, traslados, hospedaje y actividades.": {
+    "PT": "50. Como falar com Ernestinho? Pelo WhatsApp +55 21 96994-6938 para orientação, transfers, hospedagem e atividades.",
+    "EN": "50. How do I contact Ernestinho? Through WhatsApp at +55 21 96994-6938 for advice, transfers, accommodation and activities."
+  },
+  "6. ¿Conviene contratar seguro? Sí: incluye urgencias, hospitalización, accidentes y repatriación.": {
+    "PT": "6. Vale contratar seguro? Sim: inclui urgências, internação, acidentes e repatriação.",
+    "EN": "6. Should I get insurance? Yes: it includes emergencies, hospitalization, accidents and repatriation."
+  },
+  "7. ¿Exigen vacunas? Revisa las recomendaciones sanitarias actualizadas antes del viaje.": {
+    "PT": "7. São exigidas vacinas? Confira as recomendações de saúde atualizadas antes da viagem.",
+    "EN": "7. Are vaccinations required? Check up-to-date health recommendations before traveling."
+  },
+  "8. ¿Cuál es la mejor época? Depende de si buscas playa, Carnaval, menos lluvia, eventos o precios más bajos.": {
+    "PT": "8. Qual a melhor época? Depende de você buscar praia, Carnaval, menos chuva, eventos ou preços mais baixos.",
+    "EN": "8. What is the best time to visit? It depends on whether you want beaches, Carnival, less rain, events or lower prices."
+  },
+  "9. ¿Cuántos días conviene quedarse? Cinco a siete días permiten combinar clásicos, playas, Centro y una excursión.": {
+    "PT": "9. Quantos dias vale ficar? Cinco a sete dias permitem combinar os clássicos, praias, Centro e um passeio fora da cidade.",
+    "EN": "9. How many days should I stay? Five to seven days allow you to combine classic sights, beaches, downtown and an excursion."
+  },
+  "Bloquea línea, bancos, correo y sesiones desde otro dispositivo; cambia contraseñas prioritarias, registra la denuncia y no intentes recuperarlo siguiendo una ubicación por tu cuenta.": {
+    "PT": "Bloqueie a linha, os acessos bancários, o e-mail e as sessões por outro dispositivo; altere as senhas prioritárias, registre a ocorrência e não tente recuperar o aparelho seguindo sua localização por conta própria.",
+    "EN": "Block your mobile line, banking access, email and active sessions from another device; change priority passwords, file a police report and do not try to recover the phone by following its location on your own."
+  },
+  "Con seguro, contacta primero la central indicada en la póliza cuando sea posible. En una urgencia también puedes buscar la red pública SUS llevando tu documento; para emergencias médicas llama al 192.": {
+    "PT": "Se tiver seguro, entre primeiro em contato com a central indicada na apólice, quando possível. Em uma urgência, também pode procurar a rede pública SUS com seu documento; para emergências médicas, ligue 192.",
+    "EN": "If you have insurance, contact the assistance service listed in your policy first when possible. For urgent care, you can also seek help through the public SUS network with your ID; for medical emergencies, call 192."
+  },
+  "Conviene llevar una cantidad pequeña. Un turista no obtiene Pix automáticamente: depende de CPF, cuenta o aplicación habilitada. Nunca dependas de un solo medio de pago.": {
+    "PT": "Vale levar uma pequena quantia. Um turista não obtém Pix automaticamente: depende de CPF, conta ou aplicativo habilitado. Nunca dependa de um único meio de pagamento.",
+    "EN": "Carry a small amount of cash. Tourists do not automatically get access to Pix: it depends on a CPF, account or enabled app. Never rely on just one payment method."
+  },
+  "Cristo, Pan de Azúcar, Maracaná, grandes eventos, excursiones y restaurantes especiales pueden agotarse. Reserva solamente cuando fecha, incluidos y política estén claros.": {
+    "PT": "Cristo, Pão de Açúcar, Maracanã, grandes eventos, passeios e restaurantes especiais podem esgotar. Reserve apenas quando a data, os itens incluídos e as condições estiverem claros.",
+    "EN": "Christ the Redeemer, Sugarloaf Mountain, Maracanã, major events, excursions and special restaurants can sell out. Book only when the date, inclusions and policy are clear."
+  },
+  "Depende de tu nacionalidad y del acuerdo vigente. Comprueba que el documento aceptado esté en buen estado y tenga vigencia suficiente; lleva copia digital separada y no dependas de una fotografía como documento de viaje.": {
+    "PT": "Depende da sua nacionalidade e do acordo vigente. Confira se o documento aceito está em bom estado e tem validade suficiente; leve uma cópia digital separada e não dependa de uma fotografia como documento de viagem.",
+    "EN": "It depends on your nationality and the agreement in force. Check that the accepted document is in good condition and valid for long enough; keep a separate digital copy and do not rely on a photograph as a travel document."
+  },
+  "Escribe al WhatsApp +55 21 96994‑6938 indicando fecha, cantidad de personas y qué necesitas: traslado, hospedaje, actividad u orientación.": {
+    "PT": "Escreva para o WhatsApp +55 21 96994‑6938 informando a data, o número de pessoas e o que precisa: transfer, hospedagem, atividade ou orientação.",
+    "EN": "Message WhatsApp at +55 21 96994‑6938 with the date, number of people and what you need: a transfer, accommodation, an activity or advice."
+  },
+  "Generalmente sí cuando están habilitadas para uso internacional. Avisa al banco, conserva una alternativa y mira el monto en la máquina antes de aproximar o ingresar la clave.": {
+    "PT": "Geralmente sim, quando estão habilitados para uso internacional. Avise o banco, mantenha uma alternativa e confira o valor na máquina antes de aproximar o cartão ou digitar a senha.",
+    "EN": "Generally yes, when enabled for international use. Notify your bank, keep a backup option and check the amount on the terminal before tapping your card or entering your PIN."
+  },
+  "La admisión habitual puede ser de hasta 90 días según la nacionalidad y decisión migratoria. Algunas personas pueden solicitar prórroga hasta el límite aplicable antes del vencimiento, acreditando requisitos ante la Policía Federal.": {
+    "PT": "A permanência normalmente pode ser de até 90 dias, conforme a nacionalidade e a decisão migratória. Algumas pessoas podem solicitar prorrogação até o limite aplicável antes do vencimento, comprovando os requisitos junto à Polícia Federal.",
+    "EN": "The usual permitted stay may be up to 90 days, depending on nationality and the immigration decision. Some travelers can apply for an extension up to the applicable limit before their stay expires, providing the required evidence to the Polícia Federal."
+  },
+  "Pregunta 1 destacada": {
+    "PT": "Pergunta 1 em destaque",
+    "EN": "Featured question 1"
+  },
+  "Pregunta 10 destacada": {
+    "PT": "Pergunta 10 em destaque",
+    "EN": "Featured question 10"
+  },
+  "Pregunta 11 destacada": {
+    "PT": "Pergunta 11 em destaque",
+    "EN": "Featured question 11"
+  },
+  "Pregunta 12 destacada": {
+    "PT": "Pergunta 12 em destaque",
+    "EN": "Featured question 12"
+  },
+  "Pregunta 2 destacada": {
+    "PT": "Pergunta 2 em destaque",
+    "EN": "Featured question 2"
+  },
+  "Pregunta 3 destacada": {
+    "PT": "Pergunta 3 em destaque",
+    "EN": "Featured question 3"
+  },
+  "Pregunta 4 destacada": {
+    "PT": "Pergunta 4 em destaque",
+    "EN": "Featured question 4"
+  },
+  "Pregunta 5 destacada": {
+    "PT": "Pergunta 5 em destaque",
+    "EN": "Featured question 5"
+  },
+  "Pregunta 6 destacada": {
+    "PT": "Pergunta 6 em destaque",
+    "EN": "Featured question 6"
+  },
+  "Pregunta 7 destacada": {
+    "PT": "Pergunta 7 em destaque",
+    "EN": "Featured question 7"
+  },
+  "Pregunta 8 destacada": {
+    "PT": "Pergunta 8 em destaque",
+    "EN": "Featured question 8"
+  },
+  "Pregunta 9 destacada": {
+    "PT": "Pergunta 9 em destaque",
+    "EN": "Featured question 9"
+  },
+  "Puede necesitar autorización del responsable ausente, normalmente formalizada según las reglas del país de salida, además de documentos del menor y acompañante. Verifica aerolínea, migración y autoridad consular con anticipación.": {
+    "PT": "Pode precisar de autorização do responsável ausente, normalmente formalizada conforme as regras do país de saída, além dos documentos do menor e do acompanhante. Confira com antecedência as exigências da companhia aérea, da imigração e da autoridade consular.",
+    "EN": "Authorization from the absent guardian may be needed, usually formalized according to the departure country's rules, along with the minor's and companion's documents. Check airline, immigration and consular requirements in advance."
+  },
+  "Río tiene Galeão (GIG) y Santos Dumont (SDU). Comprueba el código en cada tramo, especialmente si haces conexión, porque están en zonas diferentes.": {
+    "PT": "O Rio tem o Galeão (GIG) e o Santos Dumont (SDU). Confira o código em cada trecho, principalmente se houver conexão, pois ficam em áreas diferentes.",
+    "EN": "Rio has Galeão (GIG) and Santos Dumont (SDU). Check the airport code on every leg, especially for connections, as they are in different areas."
+  },
+  "Separa alojamiento y entradas anticipadas. Para el gasto diario considera transporte, comidas, playa, bebidas y una reserva. La guía incluye ejemplos de R$100, R$200 y R$500 sin hospedaje.": {
+    "PT": "Separe hospedagem e ingressos comprados antecipadamente. Para os gastos diários, considere transporte, refeições, praia, bebidas e uma reserva. A guia traz exemplos de R$100, R$200 e R$500 sem hospedagem.",
+    "EN": "Budget separately for accommodation and advance tickets. For daily spending, allow for transport, meals, the beach, drinks and a reserve. The guide includes examples of R$100, R$200 and R$500 excluding accommodation."
+  },
+  "¿Cuánto dinero necesito?": {
+    "PT": "De quanto dinheiro preciso?",
+    "EN": "How much money do I need?"
+  },
+  "¿Cuánto tiempo puedo permanecer?": {
+    "PT": "Quanto tempo posso ficar?",
+    "EN": "How long can I stay?"
+  },
+  "¿Cómo contacto a Ernestinho?": {
+    "PT": "Como falar com Ernestinho?",
+    "EN": "How do I contact Ernestinho?"
+  },
+  "¿Es seguro usar el teléfono en la calle?": {
+    "PT": "É seguro usar o celular na rua?",
+    "EN": "Is it safe to use my phone on the street?"
+  },
+  "¿Qué hago si pierdo el celular?": {
+    "PT": "O que fazer se perder o celular?",
+    "EN": "What should I do if I lose my phone?"
+  },
+  "¿Qué pasa si un menor viaja con solo uno de sus padres?": {
+    "PT": "E se um menor viajar com apenas um dos pais?",
+    "EN": "What if a minor travels with only one parent?"
+  },
+  "Úsalo con discreción, lejos del borde de la calle y de puertas de vehículos. Para estudiar una ruta larga, entra a un comercio o utiliza mapas descargados.": {
+    "PT": "Use com discrição, longe da beira da rua e das portas dos veículos. Para estudar um trajeto longo, entre em um comércio ou use mapas baixados.",
+    "EN": "Use it discreetly, away from the curb and vehicle doors. To study a long route, step into a shop or use downloaded maps."
+  },
+  "Aeropuertos, estadios y eventos usan zonas específicas de embarque. Caminar hasta otro punto puede cancelar o encarecer el viaje.": {
+    "PT": "Aeroportos, estádios e eventos usam áreas específicas de embarque. Caminhar até outro ponto pode levar ao cancelamento ou encarecer a viagem.",
+    "EN": "Airports, stadiums and events use designated pickup areas. Walking to another spot may lead to cancellation or make the ride more expensive."
+  },
+  "Cristo, Pan de Azúcar, parques, estadios y playas extensas tienen accesos específicos. Busca “entrada”, “bilheteria” o estación correspondiente.": {
+    "PT": "Cristo, Pão de Açúcar, parques, estádios e praias extensas têm acessos específicos. Busque “entrada”, “bilheteria” ou a estação correspondente.",
+    "EN": "Christ the Redeemer, Sugarloaf Mountain, parks, stadiums and long beaches have specific access points. Search for “entrada” (entrance), “bilheteria” (ticket office) or the relevant station."
+  },
+  "Descarga el mapa, guarda la dirección escrita y toma captura del acceso. En senderos y miradores puede fallar internet.": {
+    "PT": "Baixe o mapa, salve o endereço por escrito e tire uma captura do acesso. A internet pode falhar em trilhas e mirantes.",
+    "EN": "Download the map, save the written address and take a screenshot of the access point. Internet access may fail on trails and at viewpoints."
+  },
+  "Feriados, eventos, mantenimiento y última admisión cambian la operación. Confirma siempre en el canal oficial.": {
+    "PT": "Feriados, eventos, manutenção e horário da última entrada alteram o funcionamento. Confirme sempre no canal oficial.",
+    "EN": "Holidays, events, maintenance and last admission times affect opening arrangements. Always confirm through the official channel."
+  },
+  "La estación correcta puede tener accesos en lados opuestos. Comprueba destino final, plataforma y sentido antes de embarcar.": {
+    "PT": "A estação correta pode ter acessos em lados opostos. Confira o destino final, a plataforma e o sentido antes de embarcar.",
+    "EN": "The right station may have entrances on opposite sides. Check the final destination, platform and direction before boarding."
+  },
+  "Puede incluir escaleras, accesos cerrados, senderos o zonas que no conoces. Compara la ruta con calles principales y transporte.": {
+    "PT": "Pode incluir escadas, acessos fechados, trilhas ou áreas que você não conhece. Compare o trajeto com as ruas principais e o transporte.",
+    "EN": "It may include stairs, closed access points, trails or unfamiliar areas. Compare the route with main roads and transport options."
+  },
+  "Restaurantes, hospitales y tiendas pueden tener varias sucursales. Revisa barrio, calle y número antes de pedir el vehículo.": {
+    "PT": "Restaurantes, hospitais e lojas podem ter várias unidades. Confira o bairro, a rua e o número antes de pedir o veículo.",
+    "EN": "Restaurants, hospitals and shops may have several branches. Check the neighborhood, street and number before booking your ride."
+  },
+  "Una caminata corta puede ser mala decisión con tormenta, sol intenso, niños o maletas. Recalcula según las condiciones reales.": {
+    "PT": "Uma caminhada curta pode ser uma má escolha com tempestade, sol forte, crianças ou malas. Reavalie conforme as condições reais.",
+    "EN": "A short walk may be a poor choice during a storm, in strong sun or with children or luggage. Reassess based on the actual conditions."
+  },
+  "🌧️ Ignorar lluvia, calor y equipaje": {
+    "PT": "🌧️ Ignorar chuva, calor e bagagem",
+    "EN": "🌧️ Ignoring rain, heat and luggage"
+  },
+  "🏪 Elegir la unidad equivocada": {
+    "PT": "🏪 Escolher a unidade errada",
+    "EN": "🏪 Choosing the wrong branch"
+  },
+  "📍 Marcar el monumento y no la entrada": {
+    "PT": "📍 Marcar o monumento, não a entrada",
+    "EN": "📍 Pinning the monument rather than the entrance"
+  },
+  "📶 Depender totalmente de la señal": {
+    "PT": "📶 Depender totalmente do sinal",
+    "EN": "📶 Relying entirely on reception"
+  },
+  "🕐 Creer ciegamente en los horarios": {
+    "PT": "🕐 Confiar cegamente nos horários",
+    "EN": "🕐 Blindly trusting opening hours"
+  },
+  "🚌 No mirar el sentido del transporte": {
+    "PT": "🚌 Não conferir o sentido do transporte",
+    "EN": "🚌 Not checking the direction of travel"
+  },
+  "🚘 Pedir el vehículo en cualquier punto": {
+    "PT": "🚘 Pedir o veículo em qualquer lugar",
+    "EN": "🚘 Booking a pickup at any spot"
+  },
+  "🚶 Aceptar el camino más corto": {
+    "PT": "🚶 Aceitar o caminho mais curto",
+    "EN": "🚶 Taking the shortest route"
+  },
+  "Cuando llueve de verdad, Cristo y miradores pueden convertirse en una entrada cara para mirar nubes. Guarda las atracciones panorámicas para una ventana de visibilidad.": {
+    "PT": "Quando chove de verdade, o Cristo e os mirantes podem virar um ingresso caro para olhar nuvens. Reserve as atrações panorâmicas para um período de boa visibilidade.",
+    "EN": "In heavy rain, Christ the Redeemer and viewpoints can turn into an expensive ticket to look at clouds. Save panoramic attractions for a window of good visibility."
+  },
+  "El 10% de servicio suele venir sugerido en restaurantes. Comprueba la cuenta antes de pagar y pregunta si algo no coincide con lo pedido.": {
+    "PT": "Os 10% de serviço costumam ser sugeridos nos restaurantes. Confira a conta antes de pagar e pergunte se algo não corresponde ao pedido.",
+    "EN": "Restaurants usually suggest a 10% service charge. Check the bill before paying and ask about anything that does not match your order."
+  },
+  "En la playa pregunta precio ANTES de sentarte o consumir: silla, sombrilla, agua, caipirinha, pescado y cualquier “combo”. Repite el precio si hace falta y mira el valor en la máquina.": {
+    "PT": "Na praia, pergunte o preço ANTES de sentar ou consumir: cadeira, guarda-sol, água, caipirinha, peixe e qualquer “combo”. Confirme o preço novamente se necessário e confira o valor na máquina.",
+    "EN": "At the beach, ask the price BEFORE sitting down or ordering: chairs, umbrellas, water, caipirinhas, fish and any “combo”. Confirm the price again if needed and check the amount on the terminal."
+  },
+  "En portugués “cartão” puede ser crédito o débito; “aproximação” es contactless. Mira SIEMPRE el monto en pantalla antes de acercar la tarjeta.": {
+    "PT": "Em português, “cartão” pode ser crédito ou débito; “aproximação” é o pagamento sem contato. Confira SEMPRE o valor na tela antes de aproximar o cartão.",
+    "EN": "In Portuguese, “cartão” can mean credit or debit card; “aproximação” means contactless payment. ALWAYS check the amount on the screen before tapping your card."
+  },
+  "Guarda entradas, dirección del alojamiento y documentos importantes sin conexión. Cuando más los necesitas es justamente cuando el teléfono puede quedarse sin señal o batería.": {
+    "PT": "Salve ingressos, endereço da hospedagem e documentos importantes para acesso sem internet. Justamente quando mais precisa deles, o celular pode ficar sem sinal ou bateria.",
+    "EN": "Save tickets, your accommodation address and important documents for offline access. Your phone may run out of reception or battery just when you need them most."
+  },
+  "La distancia en kilómetros engaña: túneles, montañas, tráfico, eventos y lluvia pueden convertir un trayecto corto en una parte importante del día.": {
+    "PT": "A distância em quilômetros engana: túneis, montanhas, trânsito, eventos e chuva podem transformar um trajeto curto em uma parte importante do dia.",
+    "EN": "Distance in kilometers can be misleading: tunnels, mountains, traffic, events and rain can make a short journey take up a substantial part of your day."
+  },
+  "Muchos restaurantes tienen cocina que cierra antes que el salón. “Abierto hasta las 23” no siempre significa que puedas pedir cena a las 22:55.": {
+    "PT": "Muitos restaurantes fecham a cozinha antes do salão. “Aberto até as 23h” nem sempre significa que você poderá pedir jantar às 22h55.",
+    "EN": "Many restaurants close their kitchen before the dining room. “Open until 11 pm” does not always mean you can order dinner at 10:55 pm."
+  },
+  "No programes Zona Oeste, Centro y Zona Sur como si fueran el mismo barrio. Agrupar por zonas suele mejorar el viaje más que agregar una atracción extra.": {
+    "PT": "Não planeje Zona Oeste, Centro e Zona Sul como se fossem o mesmo bairro. Agrupar os passeios por região costuma melhorar a viagem mais do que acrescentar uma atração.",
+    "EN": "Do not plan the West Zone, downtown and the South Zone as if they were one neighborhood. Grouping visits by area usually improves your trip more than adding another attraction."
+  },
+  "No todos los lunes son buenos para museos y no todos los domingos son malos: cada espacio tiene su propio día de cierre. Mira la ficha del lugar, no una regla general.": {
+    "PT": "Nem toda segunda-feira é boa para museus, nem todo domingo é ruim: cada espaço tem seu próprio dia de fechamento. Confira a ficha do lugar, em vez de seguir uma regra geral.",
+    "EN": "Not every Monday is a good museum day, and not every Sunday is a bad one: each venue has its own closing day. Check the venue guide rather than relying on a general rule."
+  },
+  "PF o prato feito es uno de los almuerzos más útiles para ahorrar: normalmente combina arroz, feijão, proteína, ensalada o guarnición en un solo plato.": {
+    "PT": "PF, ou prato feito, é uma das opções de almoço mais úteis para economizar: normalmente reúne arroz, feijão, proteína, salada ou acompanhamento em um único prato.",
+    "EN": "PF, or prato feito, is one of the most useful budget lunch options: it usually combines rice, beans, a protein, salad or a side on one plate."
+  },
+  "Por quilo significa que pesas el plato; buffet livre o self-service livre tiene precio fijo. En ambos casos mira primero cómo se cobra antes de servirte.": {
+    "PT": "Por quilo significa que você pesa o prato; buffet livre ou self-service livre tem preço fixo. Nos dois casos, confira como funciona a cobrança antes de se servir.",
+    "EN": "Por quilo means your plate is weighed; buffet livre or self-service livre has a fixed price. In either case, check how you will be charged before serving yourself."
+  },
+  "Posto no es solamente un puesto de salvavidas: en Copacabana e Ipanema funciona como referencia para encontrarse, elegir ambiente y explicar dónde estás.": {
+    "PT": "Posto não é apenas um posto de salvamento: em Copacabana e Ipanema, serve como referência para encontros, escolha do ambiente e indicação de onde você está.",
+    "EN": "Posto is more than a lifeguard station: in Copacabana and Ipanema, it is a reference point for meeting up, choosing an atmosphere and explaining where you are."
+  },
+  "Río vive temprano en la playa y tarde en la noche: si quieres fotos, caminatas o calor manejable, la mañana suele rendir muchísimo más que empezar el día al mediodía.": {
+    "PT": "O Rio começa cedo na praia e vai longe na noite: para fotos, caminhadas ou calor mais ameno, a manhã costuma render muito mais do que começar o dia ao meio-dia.",
+    "EN": "Rio starts early at the beach and stays up late at night: for photos, walks or more manageable heat, mornings are usually far more rewarding than starting at noon."
+  },
+  "Uber puede mostrar un punto de recogida diferente de donde estás parado, especialmente en aeropuertos, shoppings, eventos y calles cerradas. Mira el punto antes de pedir.": {
+    "PT": "O Uber pode indicar um ponto de embarque diferente de onde você está, principalmente em aeroportos, shoppings, eventos e ruas fechadas. Confira o ponto antes de pedir.",
+    "EN": "Uber may show a pickup point different from where you are standing, especially at airports, malls, events and closed streets. Check the point before booking."
+  },
+  "Una padaria puede resolver desayuno, café, almuerzo rápido, agua y pequeños productos sin necesidad de buscar un restaurante “turístico”.": {
+    "PT": "Uma padaria pode resolver café da manhã, café, almoço rápido, água e pequenos produtos sem precisar procurar um restaurante “turístico”.",
+    "EN": "A padaria can cover breakfast, coffee, a quick lunch, water and small essentials without having to find a “tourist” restaurant."
+  },
+  "Clima, alertas, horario real y última admisión del lugar.": {
+    "PT": "Clima, alertas, horário real e última entrada do lugar.",
+    "EN": "Weather, alerts, actual opening hours and the venue's last admission time."
+  },
+  "Documento necesario, tarjeta, poco efectivo y celular cargado.": {
+    "PT": "Documento necessário, cartão, pouco dinheiro em espécie e celular carregado.",
+    "EN": "Required ID, a card, a little cash and a charged phone."
+  },
+  "Entradas descargadas y dirección guardada sin conexión.": {
+    "PT": "Ingressos baixados e endereço salvo para acesso sem internet.",
+    "EN": "Downloaded tickets and an address saved for offline access."
+  },
+  "Llaves, ventanas, aire acondicionado y objetos de valor protegidos.": {
+    "PT": "Chaves, janelas, ar-condicionado e objetos de valor protegidos.",
+    "EN": "Keys, windows, air conditioning and valuables secured."
+  },
+  "Protector solar, agua, medicamento y una capa ligera para lluvia o aire acondicionado.": {
+    "PT": "Protetor solar, água, medicamento e uma camada leve para chuva ou ar-condicionado.",
+    "EN": "Sunscreen, water, medication and a light layer for rain or air conditioning."
+  },
+  "1. 💳 Antes de sentarte": {
+    "PT": "1. 💳 Antes de sentar",
+    "EN": "1. 💳 Before you sit down"
+  },
+  "2. 🟢 Conoce la señal": {
+    "PT": "2. 🟢 Entenda o sinal",
+    "EN": "2. 🟢 Understand the signal"
+  },
+  "3. 🥗 No ataques el buffet": {
+    "PT": "3. 🥗 Não exagere no buffet",
+    "EN": "3. 🥗 Go easy on the buffet"
+  },
+  "4. 🥩 Elige y pregunta": {
+    "PT": "4. 🥩 Escolha e pergunte",
+    "EN": "4. 🥩 Choose and ask"
+  },
+  "5. 🍖 Prueba con estrategia": {
+    "PT": "5. 🍖 Experimente com estratégia",
+    "EN": "5. 🍖 Sample strategically"
+  },
+  "6. 🔴 Haz una pausa": {
+    "PT": "6. 🔴 Faça uma pausa",
+    "EN": "6. 🔴 Take a break"
+  },
+  "7. 🧾 Revisa la cuenta": {
+    "PT": "7. 🧾 Confira a conta",
+    "EN": "7. 🧾 Check the bill"
+  },
+  "Comienza con porciones pequeñas. Picanha, fraldinha, maminha, costela y cupim tienen texturas distintas; guarda apetito para comparar.": {
+    "PT": "Comece com porções pequenas. Picanha, fraldinha, maminha, costela e cupim têm texturas diferentes; guarde apetite para comparar.",
+    "EN": "Start with small portions. Picanha, fraldinha, maminha, costela and cupim have different textures; save your appetite so you can compare them."
+  },
+  "Comprueba cantidad de personas, bebidas, postres, couvert y servicio antes de pagar. La propina sugerida debe aparecer claramente.": {
+    "PT": "Confira o número de pessoas, bebidas, sobremesas, couvert e serviço antes de pagar. A gorjeta sugerida deve estar claramente indicada.",
+    "EN": "Check the number of diners, drinks, desserts, couvert and service charge before paying. The suggested tip should be clearly shown."
+  },
+  "Cortes servidos en espadas, buffet y acompañamientos. Ideal para probar carnes brasileñas.": {
+    "PT": "Cortes servidos em espetos, buffet e acompanhamentos. Ideal para experimentar carnes brasileiras.",
+    "EN": "Cuts served from skewers, a buffet and side dishes. Ideal for sampling Brazilian meats."
+  },
+  "Cómo funciona un rodizio brasileño": {
+    "PT": "Como funciona um rodízio brasileiro",
+    "EN": "How a Brazilian rodízio works"
+  },
+  "En muchas churrascarías una ficha verde indica “pueden seguir sirviendo” y la roja “quiero una pausa”. Puedes cambiarla cuantas veces necesites.": {
+    "PT": "Em muitas churrascarias, uma ficha verde indica “pode continuar servindo” e a vermelha, “quero uma pausa”. Você pode virá-la quantas vezes precisar.",
+    "EN": "In many churrascarias, a green token means “keep serving” and red means “I want a break”. You can turn it over as often as needed."
+  },
+  "Formatos variables para compartir. Confirma duración, reposiciones y bebidas incluidas.": {
+    "PT": "Formatos variados para compartilhar. Confirme a duração, as reposições e as bebidas incluídas.",
+    "EN": "Various formats for sharing. Confirm the duration, refills and included drinks."
+  },
+  "Gira la ficha a rojo, conversa y decide si quieres repetir. Rodizio no es una competencia y puedes terminar cuando estés satisfecho.": {
+    "PT": "Vire a ficha para o vermelho, converse e decida se quer repetir. Rodízio não é uma competição; você pode terminar quando estiver satisfeito.",
+    "EN": "Turn the token to red, chat and decide whether you want more. A rodízio is not a competition; you can finish when you are satisfied."
+  },
+  "No debes aceptar todo. Pregunta el nombre del corte, pide el punto de cocción que prefieres y solicita otra porción de lo que realmente te gustó.": {
+    "PT": "Você não precisa aceitar tudo. Pergunte o nome do corte, peça o ponto de sua preferência e solicite mais uma porção do que realmente gostou.",
+    "EN": "You do not have to accept everything. Ask the name of the cut, request your preferred doneness and ask for another serving of what you really enjoyed."
+  },
+  "Porciones pequeñas saladas y dulces pasan por la mesa. Pregunta si puedes pedir un sabor.": {
+    "PT": "Pequenas porções salgadas e doces passam pela mesa. Pergunte se pode pedir um sabor específico.",
+    "EN": "Small savory and sweet servings come around to your table. Ask whether you can request a flavor."
+  },
+  "Pregunta el precio por persona, si existe promoción por horario y qué está incluido. Bebidas, postres, café y el 10% de servicio normalmente van aparte.": {
+    "PT": "Pergunte o preço por pessoa, se há promoção por horário e o que está incluído. Bebidas, sobremesas, café e os 10% de serviço normalmente são cobrados à parte.",
+    "EN": "Ask the price per person, whether there is a time-based offer and what is included. Drinks, desserts, coffee and the 10% service charge are usually extra."
+  },
+  "Prueba ensaladas y acompañamientos, pero deja espacio. Pan, papas, sushi y masas llenan rápido antes de que lleguen los cortes especiales.": {
+    "PT": "Experimente saladas e acompanhamentos, mas deixe espaço. Pão, batatas, sushi e massas enchem rápido antes da chegada dos cortes especiais.",
+    "EN": "Try salads and side dishes, but leave room. Bread, potatoes, sushi and pasta fill you up quickly before the special cuts arrive."
+  },
+  "Secuencia de piezas, temakis y platos calientes; revisa qué productos premium quedan fuera.": {
+    "PT": "Sequência de peças, temakis e pratos quentes; confira quais produtos premium ficam de fora.",
+    "EN": "A succession of sushi pieces, temaki and hot dishes; check which premium items are excluded."
+  },
+  "🍕 Pizza": {
+    "PT": "🍕 Pizza",
+    "EN": "🍕 Pizza"
+  },
+  "🍣 Sushi": {
+    "PT": "🍣 Sushi",
+    "EN": "🍣 Sushi"
+  },
+  "🥩 Churrascaría": {
+    "PT": "🥩 Churrascaria",
+    "EN": "🥩 Brazilian steakhouse"
+  },
+  "🫕 Petiscos o fondue": {
+    "PT": "🫕 Petiscos ou fondue",
+    "EN": "🫕 Small plates or fondue"
+  }
 };
