@@ -2071,23 +2071,23 @@ export default {"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Compras":{"PT":
   },
   "Abrir en Google Maps": {
     "PT": "Abrir no Google Maps",
-    "EN": "Opin in Google Maps"
+    "EN": "Open in Google Maps"
   },
   "Ambiente de la Feria da Glória": {
-    "PT": "Ambiemte de la Feira da Glória",
-    "EN": "Atmosphere de la Fair da Glória"
+    "PT": "Ambiente da Feira da Glória",
+    "EN": "Atmosphere at Feira da Glória"
   },
   "Avenida Augusto Severo y alrededores – Glória.": {
-    "PT": "Avemida Augusto Severo e alrededores – Glória.",
-    "EN": "Avinida Augusto Severo and alrededores – Glória."
+    "PT": "Avenida Augusto Severo e arredores – Glória.",
+    "EN": "Avenida Augusto Severo and surroundings – Glória."
   },
   "Caminar sin apuro y comprar con criterio": {
-    "PT": "Caminhar sin apuro e comprar con criterio",
-    "EN": "Walk sin apuro and comprar con criterio"
+    "PT": "Caminhar sem pressa e comprar com critério",
+    "EN": "Walk at an easy pace and shop thoughtfully"
   },
   "Comer también forma parte de la visita": {
-    "PT": "Comer también forma parte de la visita",
-    "EN": "Comer también forma parte de la visita"
+    "PT": "Comer também faz parte da visita",
+    "EN": "Eating is also part of the visit"
   },
   "Consejo práctico:": {
     "PT": "Dica prática:",
@@ -2098,148 +2098,148 @@ export default {"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Compras":{"PT":
     "EN": "Tip:"
   },
   "Cómo la viviría yo": {
-    "PT": "Como la viviría eo",
-    "EN": "How la viviría ando"
+    "PT": "Como eu viveria essa experiência",
+    "EN": "How I would experience it"
   },
   "Cómo llegar:": {
-    "PT": "Como llegar:",
-    "EN": "How llegar:"
+    "PT": "Como chegar:",
+    "EN": "Getting there:"
   },
   "Detalle de la Feria da Glória": {
-    "PT": "Detalhe de la Feira da Glória",
-    "EN": "Details de la Fair da Glória"
+    "PT": "Detalhe da Feira da Glória",
+    "EN": "Detail of Feira da Glória"
   },
   "Disfruta la feria con atención": {
-    "PT": "Aproveite la feria con atemción",
-    "EN": "Enjoand la feria con atinción"
+    "PT": "Aproveite a feira com atenção",
+    "EN": "Enjoy the fair while staying aware"
   },
   "Domingos, aproximadamente 7:00–16:00; algunos puestos comienzan a retirarse antes.": {
-    "PT": "Domingos, aproximadamemte 7:00–16:00; algunos puestos comiemzan a retirarse antes.",
-    "EN": "Sundaands, aproximadaminte 7:00–16:00; algunos puestos comiinzan a retirarse antes."
+    "PT": "Domingos, aproximadamente das 7h às 16h; algumas barracas começam a desmontar antes.",
+    "EN": "Sundays, approximately 7:00 a.m.–4:00 p.m.; some stalls begin packing up earlier."
   },
   "Día y horario:": {
     "PT": "Dia e horário:",
-    "EN": "Daand and time:"
+    "EN": "Day and hours:"
   },
   "El horario, el montaje y la disponibilidad pueden variar. Confirma la programación y el lugar antes de desplazarte.": {
-    "PT": "O horário, el montaje e la disponibilidad puedem variar. Confirma la programación e el lugar antes de desplazarte.",
-    "EN": "Opining hours, el montaje and la disponibilidad puedin variar. Confirma la programación and el lugar antes de desplazarte."
+    "PT": "O horário, a montagem e a disponibilidade podem variar. Confirme a programação e o local antes de se deslocar.",
+    "EN": "Hours, setup and availability may vary. Confirm the schedule and location before travelling."
   },
   "Esta es una feria que yo viviría como carioca, no solamente como comprador. Frutas, verduras, pescado, quesos, especias, flores, pasteles, caldo de caña y comida preparada hacen que el paseo sea también gastronómico. Yo iría temprano, con hambre y sin prisa.": {
-    "PT": "Esta é una feria que eo viviría como carioca, no solamemte como comprador. Frutas, verduras, pescado, quesos, especias, flores, pasteles, caldo de caña e comida preparada hacem que el paseo sea también gastronómico. Yo iría temprano, con hambre e sin prisa.",
-    "EN": "This is una feria que ando viviría como carioca, no solaminte como comprador. Frutas, verduras, pescado, quesos, especias, flores, pasteles, caldo de caña and comida preparada hacin que el paseo sea también gastronómico. Yo iría temprano, con hambre and sin prisa."
+    "PT": "Esta é uma feira que eu viveria como carioca, não apenas como comprador. Frutas, verduras, peixes, queijos, especiarias, flores, pastéis, caldo de cana e comida pronta fazem do passeio também uma experiência gastronômica. Eu iria cedo, com fome e sem pressa.",
+    "EN": "This is a fair I would experience like a local, not just as a shopper. Fruit, vegetables, fish, cheeses, spices, flowers, pastéis, sugarcane juice and prepared food make the outing a food experience too. I would go early, hungry and unhurried."
   },
   "Feria da Glória": {
     "PT": "Feira da Glória",
-    "EN": "Fair da Glória"
+    "EN": "Feira da Glória"
   },
   "Feria da Glória en Río de Janeiro": {
-    "PT": "Feira da Glória em Río de Janeiro",
-    "EN": "Fair da Glória in Río de Janeiro"
+    "PT": "Feira da Glória no Rio de Janeiro",
+    "EN": "Feira da Glória in Rio de Janeiro"
   },
   "Feria da Glória · Ernestinho Carioca": {
     "PT": "Feira da Glória · Ernestinho Carioca",
-    "EN": "Fair da Glória · Ernestinho Carioca"
+    "EN": "Feira da Glória · Ernestinho Carioca"
   },
   "Feria da Glória: sabores, artesanía y vida carioca junto a la Praça da Glória": {
-    "PT": "Feira da Glória: sabores, artesanía e vida carioca junto a la Praça da Glória",
-    "EN": "Fair da Glória: sabores, artesanía and Rio life junto a la Praça da Glória"
+    "PT": "Feira da Glória: sabores, artesanato e vida carioca junto à Praça da Glória",
+    "EN": "Feira da Glória: flavors, crafts and Rio life by Praça da Glória"
   },
   "Gastronomía y productos de la Feria da Glória": {
-    "PT": "Gastronomia e productos de la Feira da Glória",
-    "EN": "Food and productos de la Fair da Glória"
+    "PT": "Gastronomia e produtos da Feira da Glória",
+    "EN": "Food and products at Feira da Glória"
   },
   "Glória, Parque do Flamengo, Marina da Glória, Catete y una caminata hacia el Centro.": {
-    "PT": "Glória, Parque do Flamemgo, Marina da Glória, Catete e una caminata hacia el Cemtro.",
-    "EN": "Glória, Parque do Flamingo, Marina da Glória, Catete and una caminata hacia el Cintro."
+    "PT": "Glória, Parque do Flamengo, Marina da Glória, Catete e uma caminhada até o Centro.",
+    "EN": "Glória, Parque do Flamengo, Marina da Glória, Catete and a walk toward downtown."
   },
   "Guía de Ernestinho Carioca · Ferias de Río": {
-    "PT": "Guia de Ernestinho Carioca · Feiras de Río",
-    "EN": "Guide de Ernestinho Carioca · Fairs de Río"
+    "PT": "Guia de Ernestinho Carioca · Feiras do Rio",
+    "EN": "Ernestinho Carioca Guide · Rio Fairs"
   },
   "Imagen de Feira Livre da Glória": {
-    "PT": "Imagem de Feira Livre da Glória",
-    "EN": "Image de Feira Livre da Glória"
+    "PT": "Imagem da Feira Livre da Glória",
+    "EN": "Image of Feira Livre da Glória"
   },
   "Información práctica": {
     "PT": "Informações práticas",
     "EN": "Practical information"
   },
   "Mapa de la Feria da Glória": {
-    "PT": "Mapa da la Feira da Glória",
-    "EN": "Map of la Fair da Glória"
+    "PT": "Mapa da Feira da Glória",
+    "EN": "Map of Feira da Glória"
   },
   "Metro hasta Glória; la feria queda junto a la estación.": {
-    "PT": "Metrô até Glória; la feria queda junto a la estación.",
-    "EN": "Metro to Glória; la feria queda junto a la estación."
+    "PT": "Metrô até Glória; a feira fica ao lado da estação.",
+    "EN": "Take the Metro to Glória; the fair is next to the station."
   },
   "Productos y artesanía de la Feria da Glória": {
-    "PT": "Productos e artesanía de la Feira da Glória",
-    "EN": "Productos and artesanía de la Fair da Glória"
+    "PT": "Produtos e artesanato da Feira da Glória",
+    "EN": "Products and crafts at Feira da Glória"
   },
   "Puestos de productos en la Feria da Glória": {
-    "PT": "Puestos de productos em la Feira da Glória",
-    "EN": "Puestos de productos in la Fair da Glória"
+    "PT": "Barracas de produtos na Feira da Glória",
+    "EN": "Product stalls at Feira da Glória"
   },
   "Qué buscar:": {
-    "PT": "Qué buscar:",
-    "EN": "Qué buscar:"
+    "PT": "O que procurar:",
+    "EN": "What to look for:"
   },
   "Qué compraría yo en la feria": {
-    "PT": "Qué compraría eo em la feria",
-    "EN": "Qué compraría ando in la feria"
+    "PT": "O que eu compraria na feira",
+    "EN": "What I would buy at the fair"
   },
   "Sabores y encuentro": {
-    "PT": "Sabores e emcuemtro",
-    "EN": "Sabores and incuintro"
+    "PT": "Sabores e encontros",
+    "EN": "Flavors and community"
   },
   "Sabores, artesanía y vida carioca junto a la Praça da Glória": {
-    "PT": "Sabores, artesanía e vida carioca junto a la Praça da Glória",
-    "EN": "Sabores, artesanía and Rio life junto a la Praça da Glória"
+    "PT": "Sabores, artesanato e vida carioca junto à Praça da Glória",
+    "EN": "Flavors, crafts and Rio life by Praça da Glória"
   },
   "Ubicación:": {
-    "PT": "Ubicación:",
-    "EN": "Ubicación:"
+    "PT": "Localização:",
+    "EN": "Location:"
   },
   "Una feria que forma parte de la vida de Glória": {
-    "PT": "Una feria que forma parte de la vida de Glória",
-    "EN": "Una feria que forma parte de la vida de Glória"
+    "PT": "Uma feira que faz parte da vida da Glória",
+    "EN": "A fair that is part of life in Glória"
   },
   "Una plaza donde se cruzan barrio y visitante": {
-    "PT": "Una plaza donde se cruzan barrio e visitante",
-    "EN": "Una plaza donde se cruzan barrio and visitante"
+    "PT": "Uma praça onde moradores e visitantes se encontram",
+    "EN": "A square where neighborhood life and visitors meet"
   },
   "Ve con hambre y prueba un pastel con caldo de caña, una experiencia muy carioca.": {
-    "PT": "Ve con hambre e prueba un pastel con caldo de caña, una experiemcia mue carioca.",
-    "EN": "Ve con hambre and prueba un pastel con caldo de caña, una experiincia muand carioca."
+    "PT": "Vá com fome e prove um pastel com caldo de cana, uma experiência bem carioca.",
+    "EN": "Go hungry and try a pastel with sugarcane juice, a classic Rio experience."
   },
   "Visitantes en la Feria da Glória": {
-    "PT": "Visitantes em la Feira da Glória",
-    "EN": "Visitantes in la Fair da Glória"
+    "PT": "Visitantes na Feira da Glória",
+    "EN": "Visitors at Feira da Glória"
   },
   "Yo te recomiendo la Feria da Glória si quieres conocer un Río más cotidiano, gastronómico y de barrio. Para mí, no es solamente un lugar para comprar: es una oportunidad de mirar cómo se encuentran residentes, vendedores, familias y viajeros alrededor de una plaza muy importante ": {
-    "PT": "Yo te recomiemdo la Feira da Glória si quieres conocer un Río más cotidiano, gastronómico e de barrio. Para mí, no es solamemte un lugar para comprar: es una oportunidad de mirar cómo se emcuemtran residemtes, vemdedores, familias e viajeros alrededor de una plaza mue importante ",
-    "EN": "Yo te recomiindo la Fair da Glória si quieres conocer un Río más cotidiano, gastronómico and de barrio. Para mí, no es solaminte un lugar para comprar: es una oportunidad de mirar cómo se incuintran residintes, vindedores, familias and viajeros alrededor de una plaza muand importante "
+    "PT": "Eu recomendo a Feira da Glória se você quiser conhecer um Rio mais cotidiano, gastronômico e de bairro. Para mim, não é apenas um lugar para comprar: é uma oportunidade de observar como moradores, vendedores, famílias e viajantes se encontram ao redor de uma praça muito importante ",
+    "EN": "I recommend Feira da Glória if you want to discover a more everyday, food-focused, neighborhood side of Rio. To me, it is not just a place to shop: it is a chance to see residents, vendors, families and travelers come together around a very important square "
   },
   "Yo te recomiendo la Feria da Glória si quieres conocer un Río más cotidiano, gastronómico y de barrio. Para mí, no es solamente un lugar para comprar: es una oportunidad de mirar cómo se encuentran residentes, vendedores, familias y viajeros alrededor de una plaza muy importante de la Zona Sul.": {
-    "PT": "Yo te recomiemdo la Feira da Glória si quieres conocer un Río más cotidiano, gastronómico e de barrio. Para mí, no es solamemte un lugar para comprar: es una oportunidad de mirar cómo se emcuemtran residemtes, vemdedores, familias e viajeros alrededor de una plaza mue importante de la Zona Sul.",
-    "EN": "Yo te recomiindo la Fair da Glória si quieres conocer un Río más cotidiano, gastronómico and de barrio. Para mí, no es solaminte un lugar para comprar: es una oportunidad de mirar cómo se incuintran residintes, vindedores, familias and viajeros alrededor de una plaza muand importante de la Zona Sul."
+    "PT": "Eu recomendo a Feira da Glória se você quiser conhecer um Rio mais cotidiano, gastronômico e de bairro. Para mim, não é apenas um lugar para comprar: é uma oportunidade de observar como moradores, vendedores, famílias e viajantes se encontram ao redor de uma praça muito importante da Zona Sul.",
+    "EN": "I recommend Feira da Glória if you want to discover a more everyday, food-focused, neighborhood side of Rio. To me, it is not just a place to shop: it is a chance to see residents, vendors, families and travelers come together around an important square in the South Zone."
   },
   "lleva lo necesario, pregunta precios antes de comprar y cuida teléfono y cartera en zonas concurridas. Para piezas únicas o antigüedades, mira varias bancas antes de decidir.": {
-    "PT": "lleva lo necesario, pregunta precios antes de comprar e cuida teléfono e cartera em zonas concurridas. Para piezas únicas o antigüedades, mira varias bancas antes de decidir.",
-    "EN": "lleva lo necesario, pregunta precios antes de comprar and cuida teléfono and cartera in zonas concurridas. Para piezas únicas o antigüedades, mira varias bancas antes de decidir."
+    "PT": "leve o necessário, pergunte os preços antes de comprar e cuide do celular e da carteira em áreas movimentadas. Para peças únicas ou antiguidades, veja várias barracas antes de decidir.",
+    "EN": "carry what you need, ask prices before buying, and keep an eye on your phone and wallet in crowded areas. For unique pieces or antiques, compare several stalls before deciding."
   },
   "productos frescos, sabores brasileños, flores, quesos, especias y comida de feria.": {
-    "PT": "productos frescos, sabores brasileños, flores, quesos, especias e comida de feria.",
-    "EN": "productos frescos, sabores brasileños, flores, quesos, especias and comida de feria."
+    "PT": "produtos frescos, sabores brasileiros, flores, queijos, especiarias e comida de feira.",
+    "EN": "fresh produce, Brazilian flavors, flowers, cheeses, spices and fair food."
   },
   "quien quiere ver vida cotidiana de Río, probar sabores locales, hacer fotografías y conocer una feria libre de barrio.": {
-    "PT": "quiem quiere ver vida cotidiana de Río, probar sabores locales, hacer fotografías e conocer una feria libre de barrio.",
-    "EN": "quiin quiere ver vida cotidiana de Río, probar sabores locales, hacer fotografías and conocer una feria libre de barrio."
+    "PT": "quem quer conhecer o cotidiano do Rio, provar sabores locais, fotografar e visitar uma feira livre de bairro.",
+    "EN": "anyone who wants to see everyday Rio life, try local flavors, take photos and visit a neighborhood street market."
   },
   "⭐ Consejo de Ernestinho · Feira da Glória": {
-    "PT": "⭐ Consejo de Ernestinho · Feira da Glória",
-    "EN": "⭐ Consejo de Ernestinho · Feira da Glória"
+    "PT": "⭐ Dica do Ernestinho · Feira da Glória",
+    "EN": "⭐ Ernestinho’s Tip · Feira da Glória"
   },
   "Ambiente de la Feria Hippie de Ipanema": {
     "PT": "Ambiemte de la Feira Hippie de Ipanema",
