@@ -1,0 +1,702 @@
+{
+  "origin": "Exact local source of 9cc7bf1 plus authorized final corrections",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "rows": [
+    {
+      "route": "/",
+      "states": {
+        "ES": {
+          "title": "Ernestinho Carioca | Río no se visita. Se vive.",
+          "lang": "es",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 59,
+          "images": [],
+          "content": 2247,
+          "links": [
+            "#inicio",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Guía de Río de Janeiro por Ernestinho Carioca: qué hacer, transportes, hospedaje, barrios, gastronomía y experiencias."
+        },
+        "PT": {
+          "title": "Ernestinho Carioca | O Rio não se visita. Se vive.",
+          "lang": "pt-BR",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 59,
+          "images": [],
+          "content": 2332,
+          "links": [
+            "#inicio",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Guia do Rio de Janeiro por Ernestinho Carioca: o que fazer, transportes, hospedagem, bairros, gastronomia e experiências."
+        },
+        "EN": {
+          "title": "Ernestinho Carioca | Rio is lived, not just visited.",
+          "lang": "en",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 59,
+          "images": [],
+          "content": 2272,
+          "links": [
+            "#inicio",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Rio de Janeiro guide by Ernestinho Carioca: things to do, transport, accommodation, neighborhoods, food and experiences."
+        }
+      },
+      "errors": [],
+      "restoration": true,
+      "status": "PASS"
+    },
+    {
+      "route": "/guia/",
+      "states": {
+        "ES": {
+          "title": "Guía de Río | Ernestinho Carioca",
+          "lang": "es",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 46,
+          "images": [],
+          "content": 1299,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Guía práctica de Río de Janeiro: documentos, salud, internet, transporte, dinero, consulados y accesibilidad."
+        },
+        "PT": {
+          "title": "Guia do Rio | Ernestinho Carioca",
+          "lang": "pt-BR",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 46,
+          "images": [],
+          "content": 1352,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Guia prático do Rio de Janeiro: documentos, saúde, internet, transporte, dinheiro, consulados e acessibilidade."
+        },
+        "EN": {
+          "title": "Rio Guide | Ernestinho Carioca",
+          "lang": "en",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 46,
+          "images": [],
+          "content": 1286,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Practical Rio de Janeiro guide: documents, health, internet, transport, money, consulates and accessibility."
+        }
+      },
+      "errors": [],
+      "restoration": true,
+      "status": "PASS"
+    },
+    {
+      "route": "/experiencias/",
+      "states": {
+        "ES": {
+          "title": "Experiencias | Ernestinho Carioca",
+          "lang": "es",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 48,
+          "images": [],
+          "content": 3389,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Experiencias en Río de Janeiro seleccionadas por Ernestinho Carioca."
+        },
+        "PT": {
+          "title": "Experiências | Ernestinho Carioca",
+          "lang": "pt-BR",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 48,
+          "images": [],
+          "content": 3377,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Experiências no Rio de Janeiro selecionadas por Ernestinho Carioca."
+        },
+        "EN": {
+          "title": "Experiences | Ernestinho Carioca",
+          "lang": "en",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 48,
+          "images": [],
+          "content": 3315,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Experiences in Rio de Janeiro selected by Ernestinho Carioca."
+        }
+      },
+      "errors": [],
+      "restoration": true,
+      "status": "PASS"
+    },
+    {
+      "route": "/gastronomia/",
+      "states": {
+        "ES": {
+          "title": "Gastronomía | Ernestinho Carioca",
+          "lang": "es",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 228,
+          "images": [],
+          "content": 33662,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Guía gastronómica de Río con 173 restaurantes investigados, 172 fotos disponibles, estilos y fichas individuales, más 15 fichas adicionales de Ernestinho V2."
+        },
+        "PT": {
+          "title": "Gastronomia | Ernestinho Carioca",
+          "lang": "pt-BR",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 228,
+          "images": [],
+          "content": 33577,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Guia gastronômico do Rio com 173 restaurantes pesquisados, 172 fotos disponíveis, estilos e fichas individuais, além de 15 fichas adicionais do Ernestinho V2."
+        },
+        "EN": {
+          "title": "Food | Ernestinho Carioca",
+          "lang": "en",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 228,
+          "images": [],
+          "content": 33012,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Rio food guide with 173 researched restaurants, 172 available photos, styles and individual guides, plus 15 additional Ernestinho V2 guides."
+        }
+      },
+      "errors": [],
+      "restoration": true,
+      "status": "PASS"
+    },
+    {
+      "route": "/cultura/",
+      "states": {
+        "ES": {
+          "title": "Cultura, bibliotecas y fortalezas | Ernestinho Carioca",
+          "lang": "es",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 30,
+          "images": [],
+          "content": 1677,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Explora 43 espacios culturales, bibliotecas históricas y fortalezas de Río y alrededores, con fotos e información práctica."
+        },
+        "PT": {
+          "title": "Cultura, bibliotecas e fortalezas | Ernestinho Carioca",
+          "lang": "pt-BR",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 30,
+          "images": [],
+          "content": 1669,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Explore 43 espaços culturais, bibliotecas históricas e fortalezas do Rio e arredores, com fotos e informações práticas."
+        },
+        "EN": {
+          "title": "Culture, libraries and forts | Ernestinho Carioca",
+          "lang": "en",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 30,
+          "images": [],
+          "content": 1560,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Explore 43 cultural spaces, historic libraries and forts in Rio and its surroundings, with photos and practical information."
+        }
+      },
+      "errors": [],
+      "restoration": true,
+      "status": "PASS"
+    },
+    {
+      "route": "/vida-nocturna/",
+      "states": {
+        "ES": {
+          "title": "Vida Nocturna | Ernestinho Carioca",
+          "lang": "es",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 93,
+          "images": [],
+          "content": 3344,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Vida Nocturna | Ernestinho Carioca. Reuní fichas individuales con fotos y contexto para que elijas por barrio, música y tipo de noche. En cada ficha te cuento qué esperar, cómo llegar, qué confirmar y cómo organizar el regreso. Desde una roda de samba frente al mar hasta un concierto en Lapa, Río tiene muchos ritmos."
+        },
+        "PT": {
+          "title": "Vida Noturna | Ernestinho Carioca",
+          "lang": "pt-BR",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 93,
+          "images": [],
+          "content": 3281,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Vida Noturna | Ernestinho Carioca. Reuni fichas individuais com fotos e contexto para você escolher por bairro, música e tipo de noite. Em cada ficha, conto o que esperar, como chegar, o que confirmar e como organizar a volta. De uma roda de samba de frente para o mar a um show na Lapa, o Rio tem muitos ritmos."
+        },
+        "EN": {
+          "title": "Nightlife | Ernestinho Carioca",
+          "lang": "en",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 93,
+          "images": [],
+          "content": 3312,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Nightlife | Ernestinho Carioca. I gathered individual listings with photos and context so you can choose by neighbourhood, music and type of night. Each explains what to expect, how to get there, what to confirm and how to arrange your return. From a samba circle facing the sea to a concert in Lapa, Rio has many rhythms."
+        }
+      },
+      "errors": [],
+      "restoration": true,
+      "status": "PASS"
+    },
+    {
+      "route": "/compras/",
+      "states": {
+        "ES": {
+          "title": "Compras en Río | Ernestinho Carioca",
+          "lang": "es",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 29,
+          "images": [],
+          "content": 2082,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Compras en Río | Ernestinho Carioca. No todo es centro comercial. Aquí junto shoppings, ferias y mercados populares para que puedas elegir según la zona y…"
+        },
+        "PT": {
+          "title": "Compras no Rio | Ernestinho Carioca",
+          "lang": "pt",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 29,
+          "images": [],
+          "content": 2094,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Compras no Rio | Ernestinho Carioca. Nem tudo é shopping. Aqui reúno shoppings, feiras e mercados populares para você escolher de acordo com a região e…"
+        },
+        "EN": {
+          "title": "Shopping in Rio | Ernestinho Carioca",
+          "lang": "en",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 29,
+          "images": [],
+          "content": 2042,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Shopping in Rio | Ernestinho Carioca. There is more than malls. Here I bring together malls, street fairs and local markets so you can choose by area and…"
+        }
+      },
+      "errors": [],
+      "restoration": true,
+      "status": "PASS"
+    },
+    {
+      "route": "/transportes/",
+      "states": {
+        "ES": {
+          "title": "Transportes en Río | Ernestinho Carioca",
+          "lang": "es",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 39,
+          "images": [],
+          "content": 7252,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Guía para moverte por Río: Metro, BRT, VLT, apps, bus, bicicleta, aeropuertos y traslados."
+        },
+        "PT": {
+          "title": "Transportes no Rio | Ernestinho Carioca",
+          "lang": "pt-BR",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 39,
+          "images": [],
+          "content": 7819,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Guia para circular pelo Rio: metrô, BRT, VLT, aplicativos, ônibus, bicicleta, aeroportos e traslados."
+        },
+        "EN": {
+          "title": "Transport in Rio | Ernestinho Carioca",
+          "lang": "en",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 39,
+          "images": [],
+          "content": 7480,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "A guide to getting around Rio by Metro, BRT, VLT, rideshare, bus, bicycle, airport transport and private transfers."
+        }
+      },
+      "errors": [],
+      "restoration": true,
+      "status": "PASS"
+    },
+    {
+      "route": "/hospedaje/",
+      "states": {
+        "ES": {
+          "title": "Hospedaje Ernestinho | Apartamentos en Río",
+          "lang": "es",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 36,
+          "images": [],
+          "content": 1029,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Apartamentos seleccionados en Copacabana e Ilha da Gigóia, con atención directa de Ernestinho Carioca."
+        },
+        "PT": {
+          "title": "Hospedagem Ernestinho | Apartamentos no Rio",
+          "lang": "pt-BR",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 36,
+          "images": [],
+          "content": 1082,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Apartamentos selecionados em Copacabana e na Ilha da Gigóia, com atendimento direto de Ernestinho Carioca."
+        },
+        "EN": {
+          "title": "Ernestinho Stays | Rio apartments",
+          "lang": "en",
+          "width": 390,
+          "scrollWidth": 390,
+          "header": true,
+          "buttons": 36,
+          "images": [],
+          "content": 2827,
+          "links": [
+            "../",
+            "/guia/",
+            "/experiencias/",
+            "/transportes/",
+            "/hospedaje/",
+            "/compras/",
+            "/cafe-rio/",
+            "https://www.tiktok.com/@ernestojdojeda",
+            "https://www.instagram.com/ernestinhocarioca/",
+            "https://wa.me/5521969946938"
+          ],
+          "description": "Selected apartments in Copacabana and Ilha da Gigóia, with direct assistance from Ernestinho Carioca."
+        }
+      },
+      "errors": [],
+      "restoration": true,
+      "status": "PASS"
+    }
+  ]
+}

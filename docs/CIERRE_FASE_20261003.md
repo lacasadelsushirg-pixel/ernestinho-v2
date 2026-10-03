@@ -193,3 +193,80 @@ Pendientes específicos, sin reiniciar auditorías aprobadas:
 4. Mantener separadas las 586 diferencias históricas A de cualquier cambio B posterior a a5a690.
 
 El SHA, commit y preview definitivos de PASADA 3 se añaden después de la publicación controlada de este único archivo.
+
+## PASADA 4 — resolución exclusiva de pendientes reales
+
+No se reabrieron módulos ni auditorías con PASS. No apareció ningún FAIL nuevo, traducción o metadata concreta faltante, regresión B, error JavaScript, enlace/asset roto, defecto visual demostrado u optimización técnica segura pendiente de aplicar.
+
+### Integridad comprobada
+
+- Rama local: `revision/rendimiento-traducciones-81a904c`.
+- HEAD local y remoto: `9cc7bf1ef2ced425c38a7d6e77ad80de1c538551`.
+- Commits esperados presentes: `bb61252` y `9cc7bf1`, ambos posteriores a `65940539`.
+- Working tree al iniciar esta comprobación: limpio.
+- Último commit: solo `docs/CIERRE_FASE_20261003.md`; cero HTML, CSS o imágenes modificados por PASADA 3.
+- Los 33 HTML que difieren desde `a5a690` son el conjunto ya analizado en PASADA 2; esta pasada no añadió ninguno.
+- Preview exacto del HEAD: deployment `dpl_J21LFsbugrwadXH9s7Km3cLiPS36`, estado `READY`, `target=null`, SHA GitHub coincidente.
+- URL: https://ernestinho-v2-mx2pjmn71-lacasadelsushirg-8125.vercel.app/
+- Lectura autenticada del preview: HTTP 200 y título esperado de Home.
+- No se hizo rollback, restauración, force-push, merge, cambio de rama ni producción.
+
+### Pendientes comprobados para PASADA 5
+
+1. **Limitación de certificación, no fallo concreto:** prueba visual móvil no disponible.
+2. **Limitación de medición, no fallo concreto:** LCP/CLS/TBT sin navegador con Performance API; INP sin datos de campo/interacción representativa.
+3. **Cobertura formal:** TRADUCCIONES y METADATA permanecen `NO COMPLETAS` porque no existe evidencia exhaustiva trilingüe de las 596 rutas, aunque no queda una frase concreta conocida sin corregir.
+4. **Histórico no bloqueante:** las 586 diferencias del manifiesto congelado continúan como excepción A anterior a `a5a690`; regresiones nuevas B: ninguna demostrada.
+
+No se modificó el sitio ni se generó un commit pequeño solo para esta comprobación. Este apartado queda como único cambio local intencional para que PASADA 5 lo integre con su cierre definitivo, después de verificar que no apareció otro escritor remoto.
+
+## PASADA FINAL — fase congelada
+
+Se continuó desde 9cc7bf1, sin reiniciar controles aprobados. Las 586 diferencias históricas A quedaron cerradas y no se volvieron a comparar ni se ejecutó su auditor antiguo, conforme a la instrucción expresa más reciente. No se restauraron archivos, cambió rama, hizo merge ni publicó producción.
+
+### Evidencia exhaustiva nueva
+
+Chrome Headless Shell oficial 145 pudo descargarse y ejecutarse. `scripts/certify_routes.mjs` recorrió los 596 HTML en cuatro contextos Chromium independientes, cargó los módulos reales y ejecutó ES→PT→EN→ES. Las solicitudes externas se excluyeron para aislar el código; las excepciones causadas por servicios/CDN excluidos se identifican como limitaciones, nunca como errores del sitio. El universo incluye 404 y el alias con redirección de Guía: no se afirma que sean 596 URL indexables independientes.
+
+- 596/596 ciclos completos.
+- 596/596 restauraciones de metadata PASS.
+- 596/596 restauraciones de texto PASS después de las correcciones puntuales.
+- Title, description, canonical, OG title/description/image y lang registrados por ruta y por idioma; 404 no necesita canonical.
+- Los diccionarios se importan realmente. Se inspeccionan las claves declaradas y se resuelven las que pertenecen al registro compartido en ES/PT/EN; Café tiene un registro inline propio y se clasifica separadamente.
+- Matriz legible: `docs/COBERTURA_596_20261003.csv`. Evidencia completa con snapshots por idioma, recursos y candidatos: `docs/COBERTURA_596_20261003.json.gz`.
+- Clasificación integral conservadora: 2 PASS, 0 ERROR REAL y 594 LIMITACIÓN DE ARQUITECTURA/PRUEBA. Esto no representa 594 fallos: nombres propios, contenido externo, claves inline y frases sin cambios no permiten inferir exhaustividad semántica. La ejecución técnica sí cubre las 596 rutas. No presentar 596 ciclos como certificación lingüística humana de cada oración.
+
+### Correcciones concretas comprobadas
+
+1. 325 entradas PT/EN de metadata: descripciones de Gastronomía, títulos sociales con «guía completa» y metadata de Hospedaje. No se sustituyeron las 407 entradas anteriores de metadata-02.
+2. 68 frases visibles PT/EN: Compras 6, Gastronomía 44, Hospedaje 18. Ninguna permanece en los candidatos invariables después de la corrección. Se preserva el español y los datos aprobados.
+3. Dos fallos de restauración en Polis Sucos y Satyricon: el renderer conservaba el idioma previo para párrafos fuera de su tabla. Ahora usa su original guardado. Un fallo de restauración en el mensaje de error de Airalo: se especifican sus textos ES/PT al volver del inglés.
+
+Total: 393 pares de traducción incorporados (786 valores PT/EN), más tres fallos de restauración corregidos. Son 396 incidencias corregidas, con repeticiones por ruta contadas una sola vez. Los avisos iniciales por diferencias entre variantes válidas de diccionario y renderer fueron falsos positivos del auditor y no se cuentan como fallos de la web.
+
+Gastronomía se añadió en `gastronomia-02.js` y se registró en site.js para mantener cada JS por debajo de 250 KiB; gastronomia-01 queda intacto. Los únicos cambios en tres HTML son JavaScript inline para estos fallos nuevos demostrados. Comparación contra el HEAD inmediato: el resto del HTML de las tres páginas es idéntico, incluidas fotos, estilos, estructura y contenido fuente. No es una intervención sobre diferencias históricas.
+
+### Móvil y rendimiento
+
+Móvil real Chromium a 390×844, touch/isMobile activados, nueve portadas: Home, Guía, Experiencias, Gastronomía, Cultura, Vida Nocturna, Compras, Transportes y Hospedaje. Controles reales ES/PT/EN/ES; header, botones, navegación declarada, texto, imágenes cargadas y ancho del documento: PASS; cero overflow, cero imágenes cargadas rotas, nueve restauraciones PASS. Capturas revisadas. El código servido es el estado local exacto, las imágenes y recursos externos se obtuvieron por curl con validación TLS; no es una prueba del transporte de Vercel ni de todas las imágenes lazy fuera del viewport. `docs/QA_MOVIL_20261003.json` contiene los resultados.
+
+Desktop anterior: PASS de sus 20 rutas, vigente; ejecución Chromium nueva agrega ciclos técnicos de 596 rutas, no comparación visual de 596 páginas.
+
+Lighthouse 13 también se instaló y se intentó contra el preview READY. Chrome directo recibió ERR_EMPTY_RESPONSE; con el proxy documentado del entorno recibió ERR_CERT_AUTHORITY_INVALID. Lighthouse produjo runtimeError por ese certificado. No se desactivó la verificación TLS. LCP, CLS, TBT e INP quedan **NO MEDIDOS POR LIMITACIÓN DEL ENTORNO**, sin atribuir puntuaciones bajas al sitio ni modificarlo por una métrica inexistente. No se usan tiempos del servidor local como métricas del preview.
+
+### Validación afectada y cierre
+
+- Diccionarios: 70 chunks válidos, PT/EN no vacíos. Entradas anteriores conservadas; sin nuevas claves duplicadas.
+- Sintaxis de los seis JS/MJS añadidos o modificados y scripts inline de las tres páginas: PASS. Se conserva el PASS previo de los 97 JS originales; ahora hay 98 JS del sitio por el nuevo chunk, más el auditor MJS.
+- Gastronomía: sus 170 renderizadores simulados PASS; repetición justificada por los dos scripts corregidos.
+- Estática: 596 HTML, cero errores; repetición justificada por cambios posteriores en tres HTML y nuevos assets.
+- Regresiones nuevas introducidas en esta pasada: 0 comprobadas. Sin CSS, fotografías o estructura modificados. El estado anterior de regresiones no se reabrió.
+- Diff/whitespace: PASS. Cada JS del sitio permanece por debajo de 256.000 bytes.
+
+**RUTAS:** 596/596 verificadas técnicamente; certificación semántica integral limitada según matriz.
+
+**TRADUCCIONES:** LIMITACIÓN DE CERTIFICACIÓN; cero faltantes concretos conocidos después de corregir los hallados. **METADATA:** COMPLETA en campos técnicos ES/PT/EN comprobados, con nombres propios y 404/alias tratados según su función; no incluye arquitectura SEO multidioma ni metadatos de servicios externos.
+
+**BLOQUEANTES REALES CONOCIDOS PARA PRODUCCIÓN:** NINGUNO. Las limitaciones de cobertura semántica, transporte del entorno y métricas sin medición no se convierten en errores. Esta conclusión no autoriza producción.
+
+Esta fase queda congelada. No se abre otra auditoría general ni se ejecutan SEO multidioma, hreflang, keywords, producción, Search Console, indexación o publicidad. El SHA final es el del único commit que contiene este apartado; su preview debe comprobarse READY antes del informe de entrega.
