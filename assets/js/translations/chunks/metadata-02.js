@@ -286,5 +286,133 @@ export default {
   "Circo Voador es uno de esos lugares donde yo no necesito exagerar: su historia ya explica por qué una noche de concierto aquí puede ser parte del viaje a Río.": {
     "PT": "Circo Voador é um daqueles lugares em que eu não preciso exagerar: sua história já explica por que uma noite de show aqui pode fazer parte da viagem ao Rio.",
     "EN": "Circo Voador is one of those places I do not need to oversell: its history already explains why a concert night here can become part of a trip to Rio."
+  },
+  "All In Lounge: música y noche en Barra | Ernestinho Carioca": {
+    "PT": "All In Lounge: música e noite na Barra | Ernestinho Carioca",
+    "EN": "All In Lounge: music and nightlife in Barra | Ernestinho Carioca"
+  },
+  "Mi guía de All In Lounge en Barra da Tijuca: música y formato de la casa, pista y camarotes, comida japonesa, ubicación, agenda oficial y una lectura honesta de las reseñas.": {
+    "PT": "Meu guia do All In Lounge na Barra da Tijuca: música e formato da casa, pista e camarotes, comida japonesa, localização, agenda oficial e uma leitura honesta das avaliações.",
+    "EN": "My guide to All In Lounge in Barra da Tijuca: music and venue format, dance floor and VIP areas, Japanese food, location, official schedule and an honest look at reviews."
+  },
+  "Bar Bukowski | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Bar Bukowski | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Bar Bukowski | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Si tu noche ideal tiene guitarras en vez de samba, Bar Bukowski es una referencia histórica de Botafogo y una de las fichas que necesitábamos sí o sí en esta guía.": {
+    "PT": "Se a sua noite ideal tem guitarras em vez de samba, o Bar Bukowski é uma referência histórica de Botafogo e uma das páginas indispensáveis deste guia.",
+    "EN": "If your ideal night has guitars instead of samba, Bar Bukowski is a historic Botafogo reference and one of the essential places for this guide."
+  },
+  "Blue Note Rio | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Blue Note Rio | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Blue Note Rio | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Blue Note Rio es mi opción en Copacabana cuando quieres una noche más organizada alrededor de un show, con asiento, escenario y programación definida.": {
+    "PT": "Blue Note Rio é minha opção em Copacabana quando você quer uma noite mais organizada em torno de um show, com assento, palco e programação definida.",
+    "EN": "Blue Note Rio is my Copacabana choice when you want a night organized around a show, with seating, a stage and a defined program."
+  },
+  "Vaca Atolada | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Vaca Atolada | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Vaca Atolada | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Vaca Atolada es una de esas noches que yo asocio con una Lapa más espontánea: boteco, cerveza, samba y gente que termina cantando y quedándose mucho más de lo que pensaba.": {
+    "PT": "Vaca Atolada é uma daquelas noites que eu associo a uma Lapa mais espontânea: boteco, cerveja, samba e gente que acaba cantando e ficando muito mais tempo do que imaginava.",
+    "EN": "Vaca Atolada is the kind of night I associate with a more spontaneous Lapa: boteco, beer, samba and people who end up singing and staying much longer than planned."
+  },
+  "Sacadura 154 | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Sacadura 154 | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Sacadura 154 | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Sacadura 154 no es una casa para aparecer cualquier noche: yo la trato como un gran espacio de eventos donde primero se elige la programación y después se organiza la salida.": {
+    "PT": "Sacadura 154 não é uma casa para aparecer em qualquer noite: eu a trato como um grande espaço de eventos onde primeiro se escolhe a programação e depois se organiza a saída.",
+    "EN": "Sacadura 154 is not a venue to simply show up at any night: I treat it as a major event space where you choose the program first and then plan your night out."
+  },
+  "Beco do Rato | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Beco do Rato | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Beco do Rato | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Beco do Rato es de esos lugares que yo recomendaría cuando quieres samba con clima de boteco y una noche menos escenificada.": {
+    "PT": "Beco do Rato é um daqueles lugares que eu recomendaria quando você quer samba com clima de boteco e uma noite menos produzida.",
+    "EN": "Beco do Rato is one of those places I would recommend when you want samba with a boteco atmosphere and a less staged night."
+  },
+  "Moonlounge: rooftop bar del JW Marriott en Copacabana | Ernestinho Carioca": {
+    "PT": "Moonlounge: rooftop bar do JW Marriott em Copacabana | Ernestinho Carioca",
+    "EN": "Moonlounge: JW Marriott rooftop bar in Copacabana | Ernestinho Carioca"
+  },
+  "Mi guía de Moonlounge en el JW Marriott Copacabana: vista sobre la orla, comida de inspiración callejera, horarios publicados por Riotur y cómo confirmar el acceso.": {
+    "PT": "Meu guia do Moonlounge no JW Marriott Copacabana: vista para a orla, comida inspirada na culinária de rua, horários publicados pela Riotur e como confirmar o acesso.",
+    "EN": "My guide to Moonlounge at JW Marriott Copacabana: beachfront views, street-food-inspired cuisine, hours published by Riotur and how to confirm access."
+  },
+  "Bosque Bar: música al aire libre en Gávea | Ernestinho Carioca": {
+    "PT": "Bosque Bar: música ao ar livre na Gávea | Ernestinho Carioca",
+    "EN": "Bosque Bar: outdoor music in Gávea | Ernestinho Carioca"
+  },
+  "Mi guía de Bosque Bar en Gávea: ambiente al aire libre, programación de jueves a domingo, entradas, lista, reseñas y consejos para planear la noche.": {
+    "PT": "Meu guia do Bosque Bar na Gávea: ambiente ao ar livre, programação de quinta a domingo, ingressos, lista, avaliações e dicas para planejar a noite.",
+    "EN": "My guide to Bosque Bar in Gávea: outdoor atmosphere, Thursday-to-Sunday programming, tickets, guest list, reviews and tips for planning your night."
+  },
+  "Lapa 40 Graus | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Lapa 40 Graus | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Lapa 40 Graus | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Lapa 40 Graus es para una noche más de pista y baile. Yo la separo de las rodas de samba tradicionales porque aquí la lógica es de casa nocturna, con varios ambientes y programación de fiesta.": {
+    "PT": "Lapa 40 Graus é para uma noite mais de pista e dança. Eu a separo das rodas de samba tradicionais porque aqui a lógica é de casa noturna, com vários ambientes e programação de festas.",
+    "EN": "Lapa 40 Graus is for a night focused more on the dance floor. I separate it from traditional samba circles because this is a nightclub setup, with several spaces and party programming."
+  },
+  "Bar da Cachaça | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Bar da Cachaça | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Bar da Cachaça | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Bar da Cachaça es Lapa sin demasiada producción: calle, mesas simples, gente entrando y saliendo y una carta donde la cachaça es la protagonista.": {
+    "PT": "Bar da Cachaça é Lapa sem muita produção: rua, mesas simples, gente entrando e saindo e um cardápio em que a cachaça é a protagonista.",
+    "EN": "Bar da Cachaça is Lapa without much production: street atmosphere, simple tables, people coming and going, and a menu where cachaça is the star."
+  },
+  "Rio Scenarium | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Rio Scenarium | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Rio Scenarium | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Si quieres una noche brasileña en un lugar que por sí solo ya merece ser recorrido, Rio Scenarium es una de mis opciones más completas.": {
+    "PT": "Se você quer uma noite brasileira em um lugar que por si só já merece ser explorado, o Rio Scenarium é uma das minhas opções mais completas.",
+    "EN": "If you want a Brazilian night in a place that is worth exploring in its own right, Rio Scenarium is one of my most complete options."
+  },
+  "Quadra do Salgueiro | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Quadra do Salgueiro | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Salgueiro Samba School | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Una noche de ensayo en Salgueiro es una forma directa de sentir batería, canto y comunidad fuera del Sambódromo.": {
+    "PT": "Uma noite de ensaio no Salgueiro é uma forma direta de sentir bateria, canto e comunidade fora do Sambódromo.",
+    "EN": "A rehearsal night at Salgueiro is a direct way to experience percussion, singing and community beyond the Sambadrome."
+  },
+  "Renascença Clube | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Renascença Clube | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Renascença Clube | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Renascença Clube es una ficha fundamental porque aquí la noche no se separa de la historia, del samba y de la cultura negra de Río.": {
+    "PT": "Renascença Clube é uma página fundamental porque aqui a noite não se separa da história, do samba e da cultura negra do Rio.",
+    "EN": "Renascença Clube is essential because here nightlife cannot be separated from Rio’s history, samba and Black culture."
+  },
+  "Bafo da Prainha | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Bafo da Prainha | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Bafo da Prainha | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Para mí, Bafo da Prainha es una de las mejores formas de juntar comida carioca, calle, samba y la energía de la Pequena África en una misma salida.": {
+    "PT": "Para mim, Bafo da Prainha é uma das melhores formas de juntar comida carioca, rua, samba e a energia da Pequena África em uma mesma saída.",
+    "EN": "For me, Bafo da Prainha is one of the best ways to bring together Rio food, street life, samba and the energy of Pequena África in a single outing."
+  },
+  "Coisas de Bamba | Vida Nocturna en Copacabana | Ernestinho Carioca": {
+    "PT": "Coisas de Bamba | Vida Noturna em Copacabana | Ernestinho Carioca",
+    "EN": "Coisas de Bamba | Copacabana Nightlife | Ernestinho Carioca"
+  },
+  "Coisas de Bamba: samba en vivo frente al mar en el Posto 4 de Copacabana, abierto 24 horas y con programación musical frecuente.": {
+    "PT": "Coisas de Bamba: samba ao vivo em frente ao mar no Posto 4 de Copacabana, aberto 24 horas e com programação musical frequente.",
+    "EN": "Coisas de Bamba: live samba by the sea at Posto 4 in Copacabana, open 24 hours with frequent music programming."
+  },
+  "Quadra da Mangueira | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Quadra da Mangueira | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Mangueira Samba School | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Entrar en la quadra da Mangueira en una noche de ensayo es otra escala de experiencia: batería, comunidad, canto y una escuela que forma parte de la historia del Carnaval.": {
+    "PT": "Entrar na quadra da Mangueira em uma noite de ensaio é outra escala de experiência: bateria, comunidade, canto e uma escola que faz parte da história do Carnaval.",
+    "EN": "Entering Mangueira’s samba school on a rehearsal night is another level of experience: percussion, community, singing and a school that is part of Carnival history."
   }
 };
