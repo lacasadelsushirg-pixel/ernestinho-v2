@@ -414,5 +414,133 @@ export default {
   "Entrar en la quadra da Mangueira en una noche de ensayo es otra escala de experiencia: batería, comunidad, canto y una escuela que forma parte de la historia del Carnaval.": {
     "PT": "Entrar na quadra da Mangueira em uma noite de ensaio é outra escala de experiência: bateria, comunidade, canto e uma escola que faz parte da história do Carnaval.",
     "EN": "Entering Mangueira’s samba school on a rehearsal night is another level of experience: percussion, community, singing and a school that is part of Carnival history."
+  },
+  "Pizzaria Canastra en Ipanema | Ernestinho Carioca": {
+    "PT": "Pizzaria Canastra em Ipanema | Ernestinho Carioca",
+    "EN": "Pizzaria Canastra in Ipanema | Ernestinho Carioca"
+  },
+  "Canastra ya no funciona como el antiguo bar de vinos: hoy en Rua Jangadeiros está Pizzaria Canastra, una pizzería de Ipanema con pizzas para compartir y una noche sencilla de barrio. Dirección, horario publicado, menú y cómo organizar la visita.": {
+    "PT": "O Canastra já não funciona como o antigo bar de vinhos: hoje a Rua Jangadeiros abriga a Pizzaria Canastra, uma pizzaria de Ipanema com pizzas para compartilhar e uma noite simples de bairro. Endereço, horário publicado, cardápio e como organizar a visita.",
+    "EN": "Canastra no longer operates as the former wine bar: Rua Jangadeiros is now home to Pizzaria Canastra, an Ipanema pizzeria with pizzas to share and an easygoing neighborhood night. Address, published hours, menu and how to plan your visit."
+  },
+  "Pink Flamingo | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Pink Flamingo | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Pink Flamingo | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Fiestas pop, DJs y shows drag en Copacabana. Te explico cómo escoger la fecha, dónde queda y qué dicen las reseñas recientes.": {
+    "PT": "Festas pop, DJs e shows drag em Copacabana. Explico como escolher a data, onde fica e o que dizem as avaliações recentes.",
+    "EN": "Pop parties, DJs and drag shows in Copacabana. I explain how to choose a date, where it is and what recent reviews say."
+  },
+  "Cacique de Ramos | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Cacique de Ramos | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Cacique de Ramos | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Cacique de Ramos es una de las fichas que ayudan a entender de dónde salió una parte enorme del pagode que después conquistó Brasil.": {
+    "PT": "Cacique de Ramos é uma das páginas que ajudam a entender de onde surgiu uma parte enorme do pagode que depois conquistou o Brasil.",
+    "EN": "Cacique de Ramos helps explain where a major part of the pagode movement that later swept Brazil came from."
+  },
+  "Trapiche Gamboa | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Trapiche Gamboa | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Trapiche Gamboa | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Trapiche Gamboa es una casa de samba y cultura en Saúde, entre Pedra do Sal y Largo da Prainha. Ocupa un sobrado del siglo XIX: abrió en 2004 y mantiene programación semanal de samba, choro, jongo y maracatu.": {
+    "PT": "Trapiche Gamboa é uma casa de samba e cultura na Saúde, entre a Pedra do Sal e o Largo da Prainha. Ocupa um sobrado do século XIX: abriu em 2004 e mantém programação semanal de samba, choro, jongo e maracatu.",
+    "EN": "Trapiche Gamboa is a samba and cultural venue in Saúde, between Pedra do Sal and Largo da Prainha. It occupies a 19th-century townhouse, opened in 2004 and maintains weekly samba, choro, jongo and maracatu programming."
+  },
+  "Carioca da Gema | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Carioca da Gema | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Carioca da Gema | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Cuando alguien me pide una casa de samba en Lapa donde la música sea realmente el centro de la noche, Carioca da Gema entra naturalmente en la conversación.": {
+    "PT": "Quando alguém me pede uma casa de samba na Lapa onde a música seja realmente o centro da noite, o Carioca da Gema entra naturalmente na conversa.",
+    "EN": "When someone asks me for a samba venue in Lapa where the music is truly the center of the night, Carioca da Gema naturally comes into the conversation."
+  },
+  "Isabel Lounge: rooftop del Hilton Copacabana | Ernestinho Carioca": {
+    "PT": "Isabel Lounge: rooftop do Hilton Copacabana | Ernestinho Carioca",
+    "EN": "Isabel Lounge: Hilton Copacabana rooftop | Ernestinho Carioca"
+  },
+  "Mi guía de Isabel Lounge en el Hilton Copacabana: vista 360°, gastronomía brasileña contemporánea, DJs de viernes y sábado, reservas y acceso al público.": {
+    "PT": "Meu guia do Isabel Lounge no Hilton Copacabana: vista 360°, gastronomia brasileira contemporânea, DJs às sextas e sábados, reservas e acesso ao público.",
+    "EN": "My guide to Isabel Lounge at Hilton Copacabana: 360° views, contemporary Brazilian cuisine, Friday and Saturday DJs, reservations and public access."
+  },
+  "Armazém Senado | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Armazém Senado | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Armazém Senado | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Armazém Senado es uno de esos lugares que yo recomiendo por algo más profundo que ": {
+    "PT": "Armazém Senado é um daqueles lugares que eu recomendo por algo mais profundo que ",
+    "EN": "Armazém Senado is one of those places I recommend for something deeper than "
+  },
+  "Ocyá Ilha Primeira | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Ocyá Ilha Primeira | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Ocyá Ilha Primeira | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Ocyá es una experiencia completamente diferente: yo lo incluiría para quien quiere combinar gastronomía, isla y un final de tarde que puede prolongarse hacia la noche.": {
+    "PT": "Ocyá é uma experiência completamente diferente: eu o incluiria para quem quer combinar gastronomia, ilha e um fim de tarde que pode se prolongar pela noite.",
+    "EN": "Ocyá is a completely different experience: I would include it for anyone who wants to combine food, an island setting and a late afternoon that can stretch into the evening."
+  },
+  "Coordenadas Bar: shows y pista en Botafogo | Ernestinho Carioca": {
+    "PT": "Coordenadas Bar: shows e pista em Botafogo | Ernestinho Carioca",
+    "EN": "Coordenadas Bar: shows and dance floor in Botafogo | Ernestinho Carioca"
+  },
+  "Mi guía de Coordenadas Bar en Botafogo: shows, happy hour, reservas, horarios publicados, reglas de la casa, accesibilidad y opiniones.": {
+    "PT": "Meu guia do Coordenadas Bar em Botafogo: shows, happy hour, reservas, horários publicados, regras da casa, acessibilidade e avaliações.",
+    "EN": "My guide to Coordenadas Bar in Botafogo: shows, happy hour, reservations, published hours, house rules, accessibility and reviews."
+  },
+  "Fundição Progresso | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Fundição Progresso | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Fundição Progresso | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Fundição Progresso es mucho más que una casa de shows. Yo la veo como uno de los grandes motores culturales de Lapa: un lugar donde una noche de concierto convive con circo, teatro, formación artística y proyectos ambientales.": {
+    "PT": "A Fundição Progresso é muito mais que uma casa de shows. Eu a vejo como um dos grandes motores culturais da Lapa: um lugar onde uma noite de show convive com circo, teatro, formação artística e projetos ambientais.",
+    "EN": "Fundição Progresso is much more than a concert venue. I see it as one of Lapa’s major cultural engines: a place where a concert night coexists with circus, theater, arts education and environmental projects."
+  },
+  "Chopperia Botafogo | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Chopperia Botafogo | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Chopperia Botafogo | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Brasa alta, chope gelado y ambiente de bar de barrio en Botafogo. Te cuento qué pedir, cuándo ir y qué cambió en Rua Sorocaba, 585.": {
+    "PT": "Brasa alta, chope gelado e clima de bar de bairro em Botafogo. Conto o que pedir, quando ir e o que mudou na Rua Sorocaba, 585.",
+    "EN": "Hot grill, cold draft beer and a neighborhood-bar atmosphere in Botafogo. I explain what to order, when to go and what changed at Rua Sorocaba, 585."
+  },
+  "Fogo de Chão Botafogo | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Fogo de Chão Botafogo | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Fogo de Chão Botafogo | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Yo incluyo el bar de Fogo de Chão Botafogo por una razón concreta: la ubicación frente a una postal de Río.": {
+    "PT": "Eu incluo o bar do Fogo de Chão Botafogo por uma razão concreta: a localização diante de um cartão-postal do Rio.",
+    "EN": "I include the bar at Fogo de Chão Botafogo for one specific reason: its location facing one of Rio’s iconic views."
+  },
+  "Beco das Garrafas: Bossa Nova en Copacabana | Ernestinho Carioca": {
+    "PT": "Beco das Garrafas: Bossa Nova em Copacabana | Ernestinho Carioca",
+    "EN": "Beco das Garrafas: Bossa Nova in Copacabana | Ernestinho Carioca"
+  },
+  "Mi guía del Beco das Garrafas: la historia de la Bossa Nova, Bottle’s Bar y Little Club, programación de música en vivo, dirección y cómo escoger el show.": {
+    "PT": "Meu guia do Beco das Garrafas: a história da Bossa Nova, Bottle’s Bar e Little Club, programação de música ao vivo, endereço e como escolher o show.",
+    "EN": "My guide to Beco das Garrafas: Bossa Nova history, Bottle’s Bar and Little Club, live music programming, address and how to choose a show."
+  },
+  "Boa Praça Ipanema | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Boa Praça Ipanema | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Boa Praça Ipanema | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Un boteco de playa con feijoada, chope, música y ambiente festivo frente a Ipanema. Incluyo la dirección exacta y cómo revisar agenda.": {
+    "PT": "Um boteco de praia com feijoada, chope, música e clima festivo em frente a Ipanema. Incluo o endereço exato e como consultar a programação.",
+    "EN": "A beachside boteco with feijoada, draft beer, music and a festive atmosphere facing Ipanema. I include the exact address and how to check the schedule."
+  },
+  "Brewteco Botafogo | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Brewteco Botafogo | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Brewteco Botafogo | Rio Nightlife | Ernestinho Carioca"
+  },
+  "Un bar de cerveza artesanal en el terraço del Botafogo Praia Shopping: 24 canillas, vista a la bahía y una experiencia con pros y contras.": {
+    "PT": "Um bar de cerveja artesanal no terraço do Botafogo Praia Shopping: 24 torneiras, vista para a baía e uma experiência com prós e contras.",
+    "EN": "A craft beer bar on the terrace of Botafogo Praia Shopping: 24 taps, bay views and an experience with both pros and cons."
+  },
+  "Feira de São Cristóvão | Vida Nocturna en Río | Ernestinho Carioca": {
+    "PT": "Feira de São Cristóvão | Vida Noturna no Rio | Ernestinho Carioca",
+    "EN": "Feira de São Cristóvão | Rio Nightlife | Ernestinho Carioca"
+  },
+  "La Feira de São Cristóvão es una de las noches que yo recomiendo cuando quieres salir de la imagen clásica de Río y entrar de lleno en la cultura nordestina.": {
+    "PT": "A Feira de São Cristóvão é uma das noites que eu recomendo quando você quer sair da imagem clássica do Rio e mergulhar na cultura nordestina.",
+    "EN": "Feira de São Cristóvão is one of the nights I recommend when you want to move beyond the classic image of Rio and immerse yourself in Northeastern Brazilian culture."
   }
 };
