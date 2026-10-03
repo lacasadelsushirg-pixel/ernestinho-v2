@@ -40,7 +40,7 @@ function translateText(root, lang) {
   let node;
   while ((node = walker.nextNode())) {
     const parent = node.parentElement;
-    if (!parent || ["SCRIPT", "STYLE", "NOSCRIPT"].includes(parent.tagName) || parent.closest("[data-i18n], [data-live], [data-ch-es]")) continue;
+    if (!parent || ["SCRIPT", "STYLE", "NOSCRIPT"].includes(parent.tagName) || parent.closest("[data-i18n], [data-live], [data-ch-es], [data-tj-es]")) continue;
     if (!original.has(node)) original.set(node, node.nodeValue);
     const base = original.get(node), trimmed = base.trim(), hit = common[trimmed];
     node.nodeValue = hit && lang !== "ES" ? base.replace(trimmed, hit[lang] || trimmed) : base;
@@ -178,8 +178,9 @@ function translateAttrs(lang) {
 }
 function applyEmbeddedShoppingCopy(lang) {
   // These nodes own their ES/PT/EN copy; keep them out of the phrase cache.
-  document.querySelectorAll("[data-ch-es]").forEach(el => {
-    const value = el.getAttribute(`data-ch-${lang.toLowerCase()}`);
+  document.querySelectorAll("[data-ch-es], [data-tj-es]").forEach(el => {
+    const prefix = el.hasAttribute("data-tj-es") ? "tj" : "ch";
+    const value = el.getAttribute(`data-${prefix}-${lang.toLowerCase()}`);
     if (!value) return;
     const text = [...el.childNodes].find(node => node.nodeType === Node.TEXT_NODE);
     if (text) text.nodeValue = value;
