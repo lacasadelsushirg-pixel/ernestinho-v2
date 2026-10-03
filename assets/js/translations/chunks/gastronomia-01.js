@@ -81,8 +81,8 @@ export default {
     "EN": "Barra de Guaratiba"
   },
   "Barrio y zona": {
-    "PT": "bairro y zona",
-    "EN": "neighborhood y zona"
+    "PT": "Bairro e região",
+    "EN": "Neighborhood and area"
   },
   "Barrios": {
     "PT": "Bairros",
@@ -1682,7 +1682,7 @@ export default {
   },
   "Delírio Tropical Centro | Gastronomía | Ernestinho Carioca": {
     "PT": "Delírio Tropical Centro | Gastronomia | Ernestinho Carioca",
-    "EN": "Delírio Tropical Centro | Food | Ernestinho Carioca"
+    "EN": "Delírio Tropical Centro | Dining | Ernestinho Carioca"
   },
   "Sud, o Pássaro Verde | Gastronomía | Ernestinho Carioca": {
     "PT": "Sud, o Pássaro Verde | Gastronomia | Ernestinho Carioca",
@@ -3674,7 +3674,7 @@ export default {
   },
   "Fachada de Delírio Tropical en Rua da Assembléia": {
     "PT": "Fachada do Delírio Tropical na Rua da Assembléia",
-    "EN": "Façade of Delírio Tropical on Rua da Assembléia"
+    "EN": "Delírio Tropical storefront on Rua da Assembléia"
   },
   "Familiar": {
     "PT": "Familiar",
