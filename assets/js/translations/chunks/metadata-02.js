@@ -542,5 +542,125 @@ export default {
   "La Feira de São Cristóvão es una de las noches que yo recomiendo cuando quieres salir de la imagen clásica de Río y entrar de lleno en la cultura nordestina.": {
     "PT": "A Feira de São Cristóvão é uma das noites que eu recomendo quando você quer sair da imagem clássica do Rio e mergulhar na cultura nordestina.",
     "EN": "Feira de São Cristóvão is one of the nights I recommend when you want to move beyond the classic image of Rio and immerse yourself in Northeastern Brazilian culture."
+  },
+  "Feria Orgánica da Glória | Ernestinho Carioca": {
+    "PT": "Feira Orgânica da Glória | Ernestinho Carioca",
+    "EN": "Glória Organic Market | Ernestinho Carioca"
+  },
+  "Compras en Río | Ernestinho Carioca": {
+    "PT": "Compras no Rio | Ernestinho Carioca",
+    "EN": "Shopping in Rio | Ernestinho Carioca"
+  },
+  "Compras en Río | Ernestinho Carioca. No todo es centro comercial. Aquí junto shoppings, ferias y mercados populares para que puedas elegir según la zona y…": {
+    "PT": "Compras no Rio | Ernestinho Carioca. Nem tudo é shopping center. Aqui reúno shoppings, feiras e mercados populares para você escolher de acordo com a região e…",
+    "EN": "Shopping in Rio | Ernestinho Carioca. It is not all about malls. Here I bring together shopping centers, fairs and popular markets so you can choose by area and…"
+  },
+  "Ferias de Río | Ernestinho Carioca": {
+    "PT": "Feiras do Rio | Ernestinho Carioca",
+    "EN": "Rio Markets and Fairs | Ernestinho Carioca"
+  },
+  "Artesanía, antigüedades, cultura y vida de barrio. Aquí cada feria tiene su propio ritmo.": {
+    "PT": "Artesanato, antiguidades, cultura e vida de bairro. Aqui cada feira tem seu próprio ritmo.",
+    "EN": "Crafts, antiques, culture and neighborhood life. Here every fair has its own rhythm."
+  },
+  "Centros comerciales de Río | Ernestinho Carioca": {
+    "PT": "Shoppings do Rio | Ernestinho Carioca",
+    "EN": "Shopping Malls in Rio | Ernestinho Carioca"
+  },
+  "Elige por ubicación, tiendas, gastronomía y el tipo de paseo que quieres hacer.": {
+    "PT": "Escolha pela localização, lojas, gastronomia e pelo tipo de passeio que você quer fazer.",
+    "EN": "Choose by location, stores, dining and the type of outing you want."
+  },
+  "Mercados populares de Río | Ernestinho Carioca": {
+    "PT": "Mercados populares do Rio | Ernestinho Carioca",
+    "EN": "Popular Markets in Rio | Ernestinho Carioca"
+  },
+  "Comercio cotidiano, sabores, tradición y lugares donde también compra el carioca.": {
+    "PT": "Comércio cotidiano, sabores, tradição e lugares onde o carioca também faz compras.",
+    "EN": "Everyday commerce, flavors, tradition and places where Rio locals shop too."
+  },
+  "Saara · Ernestinho Carioca": {
+    "PT": "Saara · Ernestinho Carioca",
+    "EN": "Saara · Ernestinho Carioca"
+  },
+  "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una feria de fin de semana: es un conjunto de calles, tiendas y galerías donde los cario": {
+    "PT": "Eu recomendo conhecer a Saara se você quer comprar, comparar e entender uma parte muito cotidiana do Centro do Rio. Para mim, não é um shopping fechado nem uma feira de fim de semana: é um conjunto de ruas, lojas e galerias onde os cario",
+    "EN": "I recommend visiting Saara if you want to shop, compare prices and understand a very everyday side of downtown Rio. For me, it is neither an enclosed mall nor a weekend fair: it is a collection of streets, stores and galleries where Rio loca"
+  },
+  "CADEG · Ernestinho Carioca": {
+    "PT": "CADEG · Ernestinho Carioca",
+    "EN": "CADEG · Ernestinho Carioca"
+  },
+  "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y gastronómico que no se parece a un shopping. Para mí, es un lugar donde conviven productos frescos, flores, bebidas, restaurantes, comerciantes y compradores que vienen a reso": {
+    "PT": "Eu recomendo conhecer o CADEG se você quer ver um Rio comercial e gastronômico que não se parece com um shopping. Para mim, é um lugar onde convivem produtos frescos, flores, bebidas, restaurantes, comerciantes e compradores que vêm reso",
+    "EN": "I recommend visiting CADEG if you want to see a commercial and gastronomic side of Rio that feels nothing like a mall. For me, it is a place where fresh produce, flowers, drinks, restaurants, merchants and shoppers all come together to reso"
+  },
+  "Feirarte del Calçadão de Copacabana | Ernestinho Carioca": {
+    "PT": "Feirarte do Calçadão de Copacabana | Ernestinho Carioca",
+    "EN": "Copacabana Boardwalk Feirarte | Ernestinho Carioca"
+  },
+  "Feirarte del Calçadão de Copacabana | Ernestinho Carioca. Una caminata frente al mar entre artesanía, arte, camisetas, decoración y pequeños recuerdos.": {
+    "PT": "Feirarte do Calçadão de Copacabana | Ernestinho Carioca. Uma caminhada à beira-mar entre artesanato, arte, camisetas, decoração e pequenas lembranças.",
+    "EN": "Copacabana Boardwalk Feirarte | Ernestinho Carioca. A seaside walk among crafts, art, T-shirts, décor and small souvenirs."
+  },
+  "Shopping Rio Sul · Ernestinho Carioca": {
+    "PT": "Shopping Rio Sul · Ernestinho Carioca",
+    "EN": "Shopping Rio Sul · Ernestinho Carioca"
+  },
+  "Yo te recomiendo conocer Shopping Rio Sul cuando quieres comprar, comer o resolver algo sin alejarte demasiado de Copacabana y Botafogo. Para mí, su valor está justamente en esa ubicación: es un centro comercial urbano, conectado con la vid": {
+    "PT": "Eu recomendo conhecer o Shopping Rio Sul quando você quer comprar, comer ou resolver algo sem se afastar muito de Copacabana e Botafogo. Para mim, seu valor está justamente nessa localização: é um shopping urbano, conectado com a vid",
+    "EN": "I recommend Shopping Rio Sul when you want to shop, eat or take care of something without going far from Copacabana and Botafogo. For me, its value lies precisely in its location: it is an urban shopping center connected with the lif"
+  },
+  "Shopping Downtown · Ernestinho Carioca": {
+    "PT": "Shopping Downtown · Ernestinho Carioca",
+    "EN": "Shopping Downtown · Ernestinho Carioca"
+  },
+  "Feria de Antigüedades de la Praça XV · Ernestinho Carioca": {
+    "PT": "Feira de Antiguidades da Praça XV · Ernestinho Carioca",
+    "EN": "Praça XV Antiques Fair · Ernestinho Carioca"
+  },
+  "Yo te recomiendo la Feria de Antigüedades de la Praça XV si quieres conocer una parte del Centro Histórico que no se explica solamente con monumentos. Aquí los objetos, los coleccionistas y los vendedores cuentan historias distintas. Para mí, caminar entre estas piezas es una for": {
+    "PT": "Eu recomendo a Feira de Antiguidades da Praça XV se você quer conhecer uma parte do Centro Histórico que não se explica apenas por monumentos. Aqui os objetos, colecionadores e vendedores contam histórias diferentes. Para mim, caminhar entre essas peças é uma for",
+    "EN": "I recommend the Praça XV Antiques Fair if you want to discover a part of the Historic Center that cannot be explained only through monuments. Here objects, collectors and vendors tell different stories. For me, walking among these pieces is a wa"
+  },
+  "Feria do Lavradio · Ernestinho Carioca": {
+    "PT": "Feira do Lavradio · Ernestinho Carioca",
+    "EN": "Lavradio Fair · Ernestinho Carioca"
+  },
+  "Yo te recomiendo la Feria do Lavradio si quieres conocer un Río de objetos, memoria y arquitectura. Para mí, la experiencia no consiste solamente en comprar una antigüedad: consiste en caminar por una calle histórica, mirar el trabajo de los expositores y descubrir cómo Lapa conv": {
+    "PT": "Eu recomendo a Feira do Lavradio se você quer conhecer um Rio de objetos, memória e arquitetura. Para mim, a experiência não consiste apenas em comprar uma antiguidade: consiste em caminhar por uma rua histórica, observar o trabalho dos expositores e descobrir como a Lapa conv",
+    "EN": "I recommend the Lavradio Fair if you want to discover a Rio of objects, memory and architecture. For me, the experience is not only about buying an antique: it is about walking along a historic street, seeing the exhibitors’ work and discovering how Lapa conv"
+  },
+  "Shopping Tijuca | Ernestinho Carioca": {
+    "PT": "Shopping Tijuca | Ernestinho Carioca",
+    "EN": "Shopping Tijuca | Ernestinho Carioca"
+  },
+  "Guía de Shopping Tijuca en la Zona Norte de Río, con datos para organizar la visita y confirmar horarios y servicios.": {
+    "PT": "Guia do Shopping Tijuca na Zona Norte do Rio, com informações para organizar a visita e confirmar horários e serviços.",
+    "EN": "Guide to Shopping Tijuca in Rio’s North Zone, with information to plan your visit and confirm hours and services."
+  },
+  "Feria da Praça do Lido · Ernestinho Carioca": {
+    "PT": "Feira da Praça do Lido · Ernestinho Carioca",
+    "EN": "Praça do Lido Fair · Ernestinho Carioca"
+  },
+  "Yo te recomiendo la Feria da Praça do Lido si quieres conocer una Copacabana más de barrio, más tranquila y conectada con su plaza. Para mí, no es solamente una feria para comprar: es un lugar donde residentes, familias, visitantes y vendedores se encuentran cerca de la playa.": {
+    "PT": "Eu recomendo a Feira da Praça do Lido se você quer conhecer uma Copacabana mais de bairro, mais tranquila e conectada à sua praça. Para mim, não é apenas uma feira para comprar: é um lugar onde moradores, famílias, visitantes e vendedores se encontram perto da praia.",
+    "EN": "I recommend the Praça do Lido Fair if you want to experience a more local, quieter Copacabana connected to its neighborhood square. For me, it is not only a place to shop: it is where residents, families, visitors and vendors meet near the beach."
+  },
+  "Uruguaiana | Ernestinho Carioca": {
+    "PT": "Uruguaiana | Ernestinho Carioca",
+    "EN": "Uruguaiana | Ernestinho Carioca"
+  },
+  "Yo te muestro un Centro de Río intenso, práctico y lleno de posibilidades, pero que conviene visitar con atención.": {
+    "PT": "Eu mostro um Centro do Rio intenso, prático e cheio de possibilidades, mas que convém visitar com atenção.",
+    "EN": "I show you an intense, practical downtown Rio full of possibilities, but one that is best explored with awareness."
+  },
+  "Feira das Yabás | Ernestinho Carioca": {
+    "PT": "Feira das Yabás | Ernestinho Carioca",
+    "EN": "Feira das Yabás | Ernestinho Carioca"
+  },
+  "Yo te recomiendo conocerla como una celebración cultural y gastronómica de Oswaldo Cruz, no como un espectáculo exótico.": {
+    "PT": "Eu recomendo conhecê-la como uma celebração cultural e gastronômica de Oswaldo Cruz, não como um espetáculo exótico.",
+    "EN": "I recommend experiencing it as a cultural and gastronomic celebration of Oswaldo Cruz, not as an exotic spectacle."
   }
 };
