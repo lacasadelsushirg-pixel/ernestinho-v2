@@ -390,5 +390,41 @@ export default {
   "Alquilar un auto puede darte mucha libertad, pero dentro de Río no siempre es la opción más práctica. La clave es elegirlo cuando realmente mejora tu viaje.": {
     "PT": "Alugar um carro pode dar muita liberdade, mas dentro do Rio nem sempre é a opção mais prática. A chave é escolhê-lo quando realmente melhora a sua viagem.",
     "EN": "Renting a car can give you a lot of freedom, but within Rio it is not always the most practical option. The key is choosing it when it genuinely improves your trip."
+  },
+  "Guía de Río | Ernestinho Carioca": {
+    "PT": "Guia do Rio | Ernestinho Carioca",
+    "EN": "Rio Guide | Ernestinho Carioca"
+  },
+  "CPF para extranjeros y viajeros | Ernestinho Carioca": {
+    "PT": "CPF para estrangeiros e viajantes | Ernestinho Carioca",
+    "EN": "CPF for foreigners and travelers | Ernestinho Carioca"
+  },
+  "Qué es el CPF en Brasil, por qué puede aparecer durante tu viaje y cómo entender cuándo realmente lo necesitas.": {
+    "PT": "O que é o CPF no Brasil, por que ele pode aparecer durante a sua viagem e como entender quando você realmente precisa dele.",
+    "EN": "What the CPF is in Brazil, why it may come up during your trip and how to understand when you actually need one."
+  },
+  "Viajar solo o sola a Río: guía práctica | Ernestinho Carioca": {
+    "PT": "Viajar sozinho ou sozinha ao Rio: guia prático | Ernestinho Carioca",
+    "EN": "Solo travel in Rio: practical guide | Ernestinho Carioca"
+  },
+  "Viajar solo a Río con planificación: alojamiento, playa, transporte, noche, actividades y seguridad práctica, con consejos de Ernestinho.": {
+    "PT": "Viajar sozinho ao Rio com planejamento: hospedagem, praia, transporte, noite, atividades e segurança prática, com dicas de Ernestinho.",
+    "EN": "Plan a solo trip to Rio with guidance on accommodation, beaches, transport, nightlife, activities and practical safety, with tips from Ernestinho."
+  },
+  "Río mes a mes | Ernestinho Carioca": {
+    "PT": "Rio mês a mês | Ernestinho Carioca",
+    "EN": "Rio month by month | Ernestinho Carioca"
+  },
+  "Guía de clima, playa, eventos, movimiento y planificación de Río durante los doce meses del año.": {
+    "PT": "Guia de clima, praia, eventos, movimento e planejamento do Rio durante os doze meses do ano.",
+    "EN": "A guide to Rio’s weather, beaches, events, activity levels and trip planning throughout the twelve months of the year."
+  },
+  "Dónde alojarse en Río | Guía Ernestinho Carioca": {
+    "PT": "Onde se hospedar no Rio | Guia Ernestinho Carioca",
+    "EN": "Where to stay in Rio | Ernestinho Carioca Guide"
+  },
+  "Guía de hospedaje por barrios de Río de Janeiro: Copacabana, Ipanema, Barra, Centro y otras zonas, con fotografías originales.": {
+    "PT": "Guia de hospedagem por bairros do Rio de Janeiro: Copacabana, Ipanema, Barra, Centro e outras regiões, com fotografias originais.",
+    "EN": "Accommodation guide by Rio de Janeiro neighborhood: Copacabana, Ipanema, Barra, Centro and other areas, with original photographs."
   }
 };
