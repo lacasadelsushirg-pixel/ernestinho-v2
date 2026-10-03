@@ -2285,812 +2285,206 @@ export default {
     "PT": "VLT e metrô são a mesma coisa?",
     "EN": "Are the VLT and metro the same?"
   },
-  ". En la app abre “Cartão Digital” y selecciona la opción de pago con QR Code. Yo prepararía el código antes de llegar al acceso para no quedarme configurando el teléfono en la fila.": {
-    "PT": ". No aplicativo, abra “Cartão Digital” e escolha o pagamento com QR Code. Eu prepararia o código antes de chegar ao acesso para não precisar configurar o celular na fila.",
-    "EN": ". In the app, open “Cartão Digital” and choose QR code payment. I would prepare the code before reaching the entrance so I do not have to set up my phone in the queue."
-  },
-  ". Y para Paquetá, yo guardo una captura del horario del día antes de salir de Praça XV.": {
-    "PT": ". Para Paquetá, também salvo uma captura do horário do dia antes de sair da Praça XV.",
-    "EN": ". For Paquetá, I also save a screenshot of the day's timetable before leaving Praça XV."
-  },
-  "Barcas Rio informa que puedes pagar usando el": {
-    "PT": "A Barcas Rio informa que é possível pagar usando o",
-    "EN": "Barcas Rio says you can pay using the"
-  },
-  "Barcas Rio publica pago mediante QR Code de Riocard Mais desde su aplicación.": {
-    "PT": "A Barcas Rio informa pagamento por QR Code do Riocard Mais pelo aplicativo.",
-    "EN": "Barcas Rio lists payment by Riocard Mais QR code through its app."
-  },
-  "Barcas atracadas en Praça XV en Río de Janeiro": {
-    "PT": "Barcas atracadas na Praça XV, no Rio de Janeiro",
-    "EN": "Ferries docked at Praça XV in Rio de Janeiro"
-  },
-  "Embarcaciones en Praça XV, uno de los grandes puntos de conexión de la Bahía de Guanabara.": {
-    "PT": "Embarcações na Praça XV, um dos grandes pontos de conexão da Baía de Guanabara.",
-    "EN": "Boats at Praça XV, one of Guanabara Bay's major connecting points."
-  },
-  "FAQs de las Barcas": {
-    "PT": "Perguntas frequentes sobre as barcas",
-    "EN": "Ferry FAQs"
-  },
-  "Las líneas que yo diferencio antes de salir": {
-    "PT": "As linhas que diferencio antes de sair",
-    "EN": "The routes I distinguish before setting out"
-  },
-  "Las travesías de": {
-    "PT": "As travessias de",
-    "EN": "The crossings from"
-  },
-  "No conviene asumirlo. Revisa la tabla oficial específica del día y confirma también la vuelta.": {
-    "PT": "Não vale presumir. Confira a tabela oficial específica do dia e confirme também a volta.",
-    "EN": "Do not assume so. Check the official timetable for that day and confirm the return trip too."
-  },
-  "No. Las travesías publicadas para Ilha Grande salen desde Angra dos Reis o Mangaratiba.": {
-    "PT": "Não. As travessias divulgadas para Ilha Grande saem de Angra dos Reis ou Mangaratiba.",
-    "EN": "No. The published Ilha Grande crossings leave from Angra dos Reis or Mangaratiba."
-  },
-  "No. Son estaciones distintas de Niterói y sirven zonas diferentes.": {
-    "PT": "Não. São estações diferentes de Niterói e atendem áreas distintas.",
-    "EN": "No. They are separate terminals in Niterói serving different areas."
-  },
-  "Paquetá no tiene la frecuencia de una línea urbana corta. Antes de organizar almuerzo, paseo o bicicleta, yo compruebo la salida de regreso que realmente quiero usar. Los horarios cambian según día útil, sábado, domingo o feriado y pueden existir ajustes operativos.": {
-    "PT": "Paquetá não tem a frequência de uma linha urbana curta. Antes de organizar almoço, passeio ou bicicleta, confiro a saída de volta que realmente quero usar. Os horários variam entre dias úteis, sábados, domingos e feriados, e podem ocorrer ajustes operacionais.",
-    "EN": "Paquetá does not have the frequency of a short urban route. Before planning lunch, a walk or a bike ride, I check the return departure I actually want to take. Timetables vary between weekdays, Saturdays, Sundays and holidays, and operational changes may occur."
-  },
-  "QR Code de Riocard Mais": {
-    "PT": "QR Code do Riocard Mais",
-    "EN": "Riocard Mais QR code"
-  },
-  "Si vas a Niterói, no elijas entre Arariboia y Charitas solo por cuál barca sale antes: mira": {
-    "PT": "Se for a Niterói, não escolha entre Arariboia e Charitas apenas pela barca que sai primeiro: confira",
-    "EN": "If you are going to Niterói, do not choose between Arariboia and Charitas just by which ferry leaves first: check"
-  },
-  "Sí, en el Centro de Niterói. Desde allí organiza el último tramo según el lugar que quieras visitar.": {
-    "PT": "Sim, no Centro de Niterói. De lá, organize o trecho final conforme o lugar que pretende visitar.",
-    "EN": "Yes, in downtown Niterói. From there, plan the final leg according to the place you want to visit."
-  },
-  "aparecen también bajo Barcas Rio, pero son otra lógica de viaje y actualmente figuran a R$ 20,50 y hasta 110 minutos.": {
-    "PT": "também aparecem sob a Barcas Rio, mas seguem outra lógica de viagem e atualmente constam a R$ 20,50 e até 110 minutos.",
-    "EN": "are also listed under Barcas Rio, but involve a different kind of journey and are currently shown at R$ 20,50 and up to 110 minutes."
-  },
-  "dónde queda tu destino después de desembarcar": {
-    "PT": "onde fica seu destino depois do desembarque",
-    "EN": "where your destination is after you disembark"
-  },
-  "hasta 22 minutos y tarifa publicada de R$ 5,00. Es la travesía urbana que yo miraría primero para ir del Centro de Río al Centro de Niterói.": {
-    "PT": "até 22 minutos e tarifa divulgada de R$ 5,00. É a travessia urbana que eu consultaria primeiro para ir do Centro do Rio ao Centro de Niterói.",
-    "EN": "up to 22 minutes, with a published fare of R$ 5,00. This is the urban crossing I would check first for a trip from downtown Rio to downtown Niterói."
-  },
-  "hasta 28 minutos, tarifa publicada de R$ 7,70. Charitas está en otra zona de Niterói: no la confundas con Arariboia.": {
-    "PT": "até 28 minutos, com tarifa divulgada de R$ 7,70. Charitas fica em outra área de Niterói: não confunda com Arariboia.",
-    "EN": "up to 28 minutes, with a published fare of R$ 7,70. Charitas is in another part of Niterói: do not confuse it with Arariboia."
-  },
-  "hasta 61 minutos y R$ 5,00 según la tabla actual.": {
-    "PT": "até 61 minutos e R$ 5,00, conforme a tabela atual.",
-    "EN": "up to 61 minutes and R$ 5,00 according to the current timetable."
-  },
-  "hasta 81 minutos y R$ 5,00. Para mí aquí el horario de regreso es parte del paseo: lo miro antes de embarcar.": {
-    "PT": "até 81 minutos e R$ 5,00. Para mim, o horário de volta faz parte do passeio: confiro antes de embarcar.",
-    "EN": "up to 81 minutes and R$ 5,00. For me, the return timetable is part of the outing: I check it before boarding."
-  },
-  "¿Charitas y Arariboia son la misma terminal?": {
-    "PT": "Charitas e Arariboia são o mesmo terminal?",
-    "EN": "Are Charitas and Arariboia the same terminal?"
-  },
-  "¿Desde Praça XV voy directo a Ilha Grande?": {
-    "PT": "Da Praça XV posso ir direto a Ilha Grande?",
-    "EN": "Can I go directly from Praça XV to Ilha Grande?"
-  },
-  "¿La barca de Paquetá sale con la misma frecuencia todo el día?": {
-    "PT": "A barca de Paquetá mantém a mesma frequência o dia todo?",
-    "EN": "Does the Paquetá ferry run at the same frequency all day?"
-  },
-  "¿Praça XV–Arariboia me deja en Niterói?": {
-    "PT": "A barca Praça XV–Arariboia me deixa em Niterói?",
-    "EN": "Does the Praça XV–Arariboia ferry take me to Niterói?"
-  },
-  "¿Puedo pagar con el celular?": {
-    "PT": "Posso pagar com o celular?",
-    "EN": "Can I pay with my phone?"
-  },
-  "⚠️ Paquetá: primero mira la vuelta": {
-    "PT": "⚠️ Paquetá: confira primeiro a volta",
-    "EN": "⚠️ Paquetá: check your return first"
-  },
-  "📱 Pagar con QR Code": {
-    "PT": "📱 Pagar com QR Code",
-    "EN": "📱 Paying with a QR code"
-  },
-  ". Aun así, la disponibilidad real de bicicletas y docks se mira en la app en el momento.": {
-    "PT": ". Mesmo assim, a disponibilidade real de bicicletas e vagas deve ser consultada no aplicativo na hora.",
-    "EN": ". Even so, check the actual availability of bikes and docks in the app at the time."
-  },
-  "1 · Descarga la app": {
-    "PT": "1 · Baixe o aplicativo",
-    "EN": "1 · Download the app"
-  },
-  "2 · Crea tu cuenta": {
-    "PT": "2 · Crie sua conta",
-    "EN": "2 · Create your account"
-  },
-  "3 · Elige tu plan": {
-    "PT": "3 · Escolha seu plano",
-    "EN": "3 · Choose your plan"
-  },
-  "4 · Busca estación": {
-    "PT": "4 · Encontre uma estação",
-    "EN": "4 · Find a station"
-  },
-  "5 · Desbloquea": {
-    "PT": "5 · Desbloqueie",
-    "EN": "5 · Unlock"
-  },
-  "6 · Revisa la bici": {
-    "PT": "6 · Confira a bicicleta",
-    "EN": "6 · Check the bike"
-  },
-  "7 · Devuélvela": {
-    "PT": "7 · Devolva",
-    "EN": "7 · Return it"
-  },
-  "8 · Mira la app": {
-    "PT": "8 · Confira o aplicativo",
-    "EN": "8 · Check the app"
-  },
-  "Bike Itaú informa que, si detectas un problema inmediatamente, puedes devolver la bicicleta dentro del margen indicado por el sistema y reportar el defecto. También advierte que una estación llena obliga a buscar otra con espacio disponible.": {
-    "PT": "A Bike Itaú informa que, se perceber um problema imediatamente, pode devolver a bicicleta dentro do prazo indicado pelo sistema e comunicar o defeito. Também alerta que uma estação cheia exige procurar outra com vaga disponível.",
-    "EN": "Bike Itaú says that if you notice a problem immediately, you can return the bike within the period indicated by the system and report the defect. It also warns that a full station means you must find another with an available dock."
-  },
-  "Busca en la app otra estación cercana con docks libres.": {
-    "PT": "Procure no aplicativo outra estação próxima com vagas livres.",
-    "EN": "Find another nearby station with free docks in the app."
-  },
-  "Compara el plan disponible, duración de los viajes, cantidad incluida y posibles extras.": {
-    "PT": "Compare o plano disponível, a duração das viagens, a quantidade incluída e possíveis extras.",
-    "EN": "Compare the available plan, ride duration, included rides and possible extras."
-  },
-  "Comprueba frenos, asiento, ruedas y cesta antes de alejarte de la estación.": {
-    "PT": "Confira freios, selim, rodas e cesta antes de se afastar da estação.",
-    "EN": "Check the brakes, seat, wheels and basket before leaving the station."
-  },
-  "Devuélvela cuanto antes siguiendo el procedimiento oficial y reporta el defecto desde el sistema.": {
-    "PT": "Devolva o quanto antes, seguindo o procedimento oficial, e informe o defeito pelo sistema.",
-    "EN": "Return it as soon as possible, following the official procedure, and report the defect through the system."
-  },
-  "El sitio oficial informa actualmente más de 430 estaciones en Río y un horario de operación de": {
-    "PT": "O site oficial informa atualmente mais de 430 estações no Rio e um horário de funcionamento de",
-    "EN": "The official website currently lists over 430 stations in Rio and operating hours of"
-  },
-  "En el mapa comprueba bicicletas disponibles y, para el regreso, docks libres.": {
-    "PT": "Confira no mapa as bicicletas disponíveis e, para a volta, as vagas livres.",
-    "EN": "Check the map for available bikes and, for your return, free docks."
-  },
-  "Encájala correctamente en un dock y espera luz verde y señal sonora.": {
-    "PT": "Encaixe corretamente em uma vaga e aguarde a luz verde e o sinal sonoro.",
-    "EN": "Fit it securely into a dock and wait for the green light and sound signal."
-  },
-  "Es de los recorridos que más me gustan para un visitante porque combina orla, paisaje y una lectura sencilla de la ciudad. Revisa siempre el trazado actual de la ciclovía.": {
-    "PT": "É um dos trajetos que mais gosto para um visitante, porque combina orla, paisagem e uma leitura fácil da cidade. Confira sempre o traçado atual da ciclovia.",
-    "EN": "It is one of my favorite routes for visitors because it combines the waterfront, scenery and an easy way to understand the city. Always check the current cycle path."
-  },
-  "Espera la confirmación física del dock y verifica en la aplicación que la carrera terminó. Este es uno de los controles que yo nunca saltaría.": {
-    "PT": "Aguarde a confirmação física da vaga e confira no aplicativo se a viagem terminou. É uma das verificações que nunca pulo.",
-    "EN": "Wait for confirmation from the dock and check in the app that the ride has ended. This is one check I never skip."
-  },
-  "FAQs de Bike Itaú": {
-    "PT": "Perguntas frequentes sobre a Bike Itaú",
-    "EN": "Bike Itaú FAQs"
-  },
-  "Instala Bike Itaú y selecciona Río de Janeiro.": {
-    "PT": "Instale o Bike Itaú e selecione Rio de Janeiro.",
-    "EN": "Install Bike Itaú and select Rio de Janeiro."
-  },
-  "Los planes y precios cambian, por eso yo revisaría la pantalla de planes antes de desbloquear. La página oficial de Río diferencia bicicletas mecánicas y eléctricas, límites de tiempo, viajes incluidos y cargos adicionales por excederlos. La eléctrica puede tener una tasa adicional de retirada según el plan.": {
-    "PT": "Os planos e preços mudam, por isso eu consultaria a tela de planos antes de desbloquear. A página oficial do Rio diferencia bicicletas mecânicas e elétricas, limites de tempo, viagens incluídas e cobranças adicionais ao ultrapassá-los. A elétrica pode ter uma taxa adicional de retirada, conforme o plano.",
-    "EN": "Plans and prices change, so I would check the plans screen before unlocking. Rio's official page distinguishes mechanical and electric bikes, time limits, included rides and additional charges for exceeding them. Electric bikes may have an extra unlocking fee depending on the plan."
-  },
-  "Muy bonito para disfrutar la costa, pero yo miraría cruces y conexiones antes de salir porque no todo el recorrido se siente igual para alguien que no conoce Río.": {
-    "PT": "Muito bonito para aproveitar a costa, mas eu conferiria os cruzamentos e conexões antes de sair, porque nem todo o trajeto é igualmente simples para quem não conhece o Rio.",
-    "EN": "A beautiful way to enjoy the coast, but I would check crossings and connections before setting out, as not every part feels equally straightforward if you do not know Rio."
-  },
-  "Más largo y exigente. No lo elegiría automáticamente para una primera experiencia: revisa clima, condición física, ciclovía y regreso.": {
-    "PT": "Mais longo e exigente. Não escolheria automaticamente para uma primeira experiência: confira o clima, o preparo físico, a ciclovia e a volta.",
-    "EN": "Longer and more demanding. I would not automatically choose it for a first experience: check the weather, your fitness, the cycle path and your return."
-  },
-  "No. Bike Itaú informa que el servicio está disponible aunque no seas cliente del banco.": {
-    "PT": "Não. A Bike Itaú informa que o serviço está disponível mesmo para quem não é cliente do banco.",
-    "EN": "No. Bike Itaú says the service is available even if you are not a bank customer."
-  },
-  "No. Puedes terminar en otra estación del sistema siempre que exista un dock disponible y la bicicleta quede correctamente bloqueada.": {
-    "PT": "Não. Você pode terminar em outra estação do sistema, desde que haja uma vaga disponível e a bicicleta fique corretamente travada.",
-    "EN": "No. You can finish at another station in the system as long as a dock is available and the bike is properly locked."
-  },
-  "Para disfrutar realmente la bicicleta en Río, yo intento mantenerme en las ciclovías y evito calles de mucho tráfico cuando existe una alternativa más segura. Antes de desbloquear miro también dónde voy a devolverla: llegar cansado y encontrar la estación llena cambia completamente el paseo.": {
-    "PT": "Para aproveitar a bicicleta no Rio, tento ficar nas ciclovias e evitar ruas de trânsito intenso quando há uma alternativa mais segura. Antes de desbloquear, também confiro onde vou devolver: chegar cansado e encontrar a estação cheia muda completamente o passeio.",
-    "EN": "To really enjoy cycling in Rio, I try to stay on cycle paths and avoid busy roads when a safer alternative exists. Before unlocking, I also check where I will return the bike: arriving tired to find a full station completely changes the outing."
-  },
-  "Regístrate o inicia sesión y completa los datos que solicite la aplicación.": {
-    "PT": "Cadastre-se ou entre na conta e preencha os dados solicitados pelo aplicativo.",
-    "EN": "Register or sign in and complete the information requested by the app."
-  },
-  "Toca “Desbloquear Bike” y lee el QR del manillar o bajo el asiento; también puedes usar la clave del adhesivo.": {
-    "PT": "Toque em “Desbloquear Bike” e leia o QR Code no guidão ou sob o selim; também pode usar o código do adesivo.",
-    "EN": "Tap “Desbloquear Bike” and scan the QR code on the handlebar or under the seat; you can also use the code on the sticker."
-  },
-  "Una de mis opciones para pedalear con más calma y disfrutar del paisaje alrededor de la laguna.": {
-    "PT": "Uma das minhas opções para pedalar com mais calma e aproveitar a paisagem ao redor da lagoa.",
-    "EN": "One of my choices for a calmer ride and enjoying the scenery around the lagoon."
-  },
-  "Valores, tiempos y bicicletas eléctricas": {
-    "PT": "Preços, tempos e bicicletas elétricas",
-    "EN": "Prices, time limits and electric bikes"
-  },
-  "Yo no me voy hasta confirmar que el viaje aparece efectivamente finalizado.": {
-    "PT": "Eu não saio até confirmar que a viagem aparece de fato como encerrada.",
-    "EN": "I do not leave until I confirm that the ride is actually shown as ended."
-  },
-  "¿Cómo sé que terminé el viaje?": {
-    "PT": "Como saber se encerrei a viagem?",
-    "EN": "How do I know my ride has ended?"
-  },
-  "¿Necesito ser cliente de Itaú?": {
-    "PT": "Preciso ser cliente do Itaú?",
-    "EN": "Do I need to be an Itaú customer?"
-  },
-  "¿Qué hago si la estación está llena?": {
-    "PT": "O que fazer se a estação estiver cheia?",
-    "EN": "What if the station is full?"
-  },
-  "¿Tengo que devolverla en la misma estación?": {
-    "PT": "Preciso devolver na mesma estação?",
-    "EN": "Do I have to return it to the same station?"
-  },
-  "¿Y si la bicicleta tiene un problema?": {
-    "PT": "E se a bicicleta tiver um problema?",
-    "EN": "What if the bike has a problem?"
-  },
-  "📱 Cómo usar Bike Itaú paso a paso": {
-    "PT": "📱 Como usar a Bike Itaú passo a passo",
-    "EN": "📱 How to use Bike Itaú step by step"
-  },
-  "🗺️ Recorridos que recomiendo": {
-    "PT": "🗺️ Trajetos que recomendo",
-    "EN": "🗺️ Routes I recommend"
-  },
-  ", pensado para uso eventual y disponible en máquinas de BRT y VLT. Ojo: desde el 30 de mayo de 2026 el Jaézinho avulso ya no participa de las integraciones tarifarias municipales. Si vas a combinar varios transportes, yo revisaría antes qué opción te conviene.": {
-    "PT": ", destinado ao uso eventual e disponível nas máquinas do BRT e VLT. Atenção: desde 30 de maio de 2026, o Jaézinho avulso não participa mais das integrações tarifárias municipais. Se for combinar vários transportes, eu conferiria antes qual opção compensa.",
-    "EN": ", intended for occasional use and available from BRT and VLT machines. Note: since May 30, 2026, the standalone Jaézinho no longer participates in municipal fare integrations. If you will combine several transport modes, I would check which option suits you first."
-  },
-  ". Un servicio expresso o directo puede saltarse la estación que necesitas.": {
-    "PT": ". Um serviço expresso ou direto pode pular a estação de que você precisa.",
-    "EN": ". An express or direct service may skip the station you need."
-  },
-  ": TransOeste, TransCarioca, TransOlímpica o TransBrasil. Después miro el número y destino del servicio. No todos los buses paran en todas las estaciones y por eso yo nunca subo solamente porque “va para Barra” o “va para Galeão”.": {
-    "PT": ": TransOeste, TransCarioca, TransOlímpica ou TransBrasil. Depois confiro o número e o destino do serviço. Nem todos os ônibus param em todas as estações; por isso, nunca embarco só porque “vai para a Barra” ou “vai para o Galeão”.",
-    "EN": ": TransOeste, TransCarioca, TransOlímpica or TransBrasil. Then I check the service number and destination. Not every bus stops at every station, so I never board just because it “goes to Barra” or “goes to Galeão”."
-  },
-  "BRT Rio en estación: fíjate siempre en número, destino y tipo de servicio antes de embarcar. Foto: divulgação/Prefeitura do Rio.": {
-    "PT": "BRT Rio na estação: confira sempre o número, o destino e o tipo de serviço antes de embarcar. Foto: divulgação/Prefeitura do Rio.",
-    "EN": "BRT Rio at a station: always check the number, destination and service type before boarding. Photo: publicity/Prefeitura do Rio."
-  },
-  "BRT Rio en una estación del sistema": {
-    "PT": "BRT Rio em uma estação do sistema",
-    "EN": "BRT Rio at a station in the network"
-  },
-  "Cómo entiendo yo el BRT": {
-    "PT": "Como eu entendo o BRT",
-    "EN": "How I understand the BRT"
-  },
-  "Cómo pagar: Jaé para el turista": {
-    "PT": "Como pagar: Jaé para o turista",
-    "EN": "How to pay: Jaé for visitors"
-  },
-  "El corredor TransCarioca y los servicios vigentes del sistema son una pieza importante de las conexiones con Galeão. Yo revisaría el servicio del día y el terminal exacto antes de salir.": {
-    "PT": "O corredor TransCarioca e os serviços atuais do sistema são importantes nas conexões com o Galeão. Eu conferiria o serviço do dia e o terminal exato antes de sair.",
-    "EN": "The TransCarioca corridor and current network services are important for connections with Galeão. I would check the day's service and exact terminal before setting out."
-  },
-  "Existe además el": {
-    "PT": "Existe também o",
-    "EN": "There is also the"
-  },
-  "FAQs del BRT": {
-    "PT": "Perguntas frequentes sobre o BRT",
-    "EN": "BRT FAQs"
-  },
-  "Hay máquinas Jaé en las estaciones BRT. Aceptan los medios informados por Jaé; si usas efectivo, recuerda que la máquina no da vuelto.": {
-    "PT": "Há máquinas Jaé nas estações BRT. Elas aceitam os meios divulgados pelo Jaé; se usar dinheiro, lembre que a máquina não dá troco.",
-    "EN": "BRT stations have Jaé machines. They accept the payment methods listed by Jaé; if you use cash, remember that the machine does not give change."
-  },
-  "Jardim Oceânico es una conexión clave con el Metro; TransCarioca conecta Barra con el eje de Galeão; TransOlímpica sirve sectores de Recreio, Jacarepaguá y Vila Militar; y TransBrasil acerca el sistema hacia Terminal Gentileza y el eje de Avenida Brasil.": {
-    "PT": "Jardim Oceânico é uma conexão importante com o metrô; a TransCarioca conecta a Barra ao eixo do Galeão; a TransOlímpica atende áreas de Recreio, Jacarepaguá e Vila Militar; e a TransBrasil aproxima o sistema do Terminal Gentileza e do eixo da Avenida Brasil.",
-    "EN": "Jardim Oceânico is a key metro connection; TransCarioca connects Barra with the Galeão area; TransOlímpica serves parts of Recreio, Jacarepaguá and Vila Militar; and TransBrasil brings the network toward Terminal Gentileza and Avenida Brasil."
-  },
-  "Jaé permite pagar con": {
-    "PT": "O Jaé permite pagar com",
-    "EN": "Jaé lets you pay with a"
-  },
-  "No. Comprueba el servicio concreto y sus paradas antes de embarcar.": {
-    "PT": "Não. Confira o serviço específico e suas paradas antes de embarcar.",
-    "EN": "No. Check the specific service and its stops before boarding."
-  },
-  "Para un visitante, lo primero es identificar el": {
-    "PT": "Para um visitante, o primeiro passo é identificar o",
-    "EN": "For a visitor, the first step is to identify the"
-  },
-  "QR Code generado en la app": {
-    "PT": "QR Code gerado no aplicativo",
-    "EN": "QR code generated in the app"
-  },
-  "Si vas de Zona Sur hacia Barra o Recreio, yo comparo Metro hasta Jardim Oceânico + BRT con una app de vehículo. En hora punta el BRT puede ahorrar mucho tránsito, pero el último tramo importa: mira dónde te deja realmente y cómo regresarás.": {
-    "PT": "Se for da Zona Sul para a Barra ou o Recreio, comparo metrô até Jardim Oceânico + BRT com um aplicativo de transporte. No horário de pico, o BRT pode evitar muito trânsito, mas o trecho final importa: confira onde ele realmente deixa você e como voltará.",
-    "EN": "If you are going from the South Zone to Barra or Recreio, I compare the metro to Jardim Oceânico plus BRT with a ride-hailing app. At rush hour, the BRT can avoid a lot of traffic, but the final leg matters: check where it actually drops you and how you will return."
-  },
-  "Sí. Jaé permite generar un QR Code en la app y validarlo para pagar el viaje.": {
-    "PT": "Sim. O Jaé permite gerar um QR Code no aplicativo e validá-lo para pagar a viagem.",
-    "EN": "Yes. Jaé lets you generate a QR code in the app and validate it to pay for your ride."
-  },
-  "corredor": {
-    "PT": "corredor",
-    "EN": "corridor"
-  },
-  "número del servicio, destino y tipo de operación": {
-    "PT": "número do serviço, destino e tipo de operação",
-    "EN": "service number, destination and operating type"
-  },
-  "o con tarjeta Jaé. La app acepta recargas por PIX o tarjeta de crédito. Si prefieres una máquina física, las estaciones BRT tienen terminales de autoatención que aceptan crédito, débito y billetes; no entregan vuelto.": {
-    "PT": "ou com cartão Jaé. O aplicativo aceita recargas por Pix ou cartão de crédito. Se preferir uma máquina física, as estações BRT têm terminais de autoatendimento que aceitam crédito, débito e dinheiro; não dão troco.",
-    "EN": "or a Jaé card. The app accepts top-ups through Pix or a credit card. If you prefer a physical machine, BRT stations have self-service terminals that accept credit cards, debit cards and banknotes; they do not give change."
-  },
-  "¿Dónde consigo o recargo un medio físico?": {
-    "PT": "Onde consigo ou recarrego um meio físico?",
-    "EN": "Where can I get or top up a physical payment card?"
-  },
-  "¿Sirve para Galeão?": {
-    "PT": "Serve para ir ao Galeão?",
-    "EN": "Can I use it to reach Galeão?"
-  },
-  "¿Todos los BRT paran en todas las estaciones?": {
-    "PT": "Todos os BRT param em todas as estações?",
-    "EN": "Do all BRT services stop at every station?"
-  },
-  "Éste es uno de los errores que más fácilmente puede cometer un turista: mirar solo el destino final. Antes de entrar, yo compruebo": {
-    "PT": "É um dos erros mais fáceis para um turista: olhar apenas o destino final. Antes de embarcar, eu confiro",
-    "EN": "This is one of the easiest mistakes for a visitor to make: looking only at the final destination. Before boarding, I check the"
-  },
-  "⚠️ Parador, expresso o directo": {
-    "PT": "⚠️ Parador, expresso ou direto",
-    "EN": "⚠️ All-stops, express or direct"
-  },
-  ", miro el recorrido en el celular y confirmo dónde debo bajar antes de subir.": {
-    "PT": ", confiro o trajeto no celular e confirmo onde devo descer antes de embarcar.",
-    "EN": ", check the route on my phone and confirm where to get off before boarding."
-  },
-  "Cómo pagar con Jaé": {
-    "PT": "Como pagar com Jaé",
-    "EN": "How to pay with Jaé"
-  },
-  "Cómo uso yo los ônibus sin perderme": {
-    "PT": "Como uso os ônibus sem me perder",
-    "EN": "How I use buses without getting lost"
-  },
-  "De día y en un trayecto sencillo, el ônibus puede ser excelente para ver la ciudad. De noche, si la parada está vacía, no conoces el barrio o tendrás que caminar mucho al bajar, yo compararía con Metro o una app antes de decidir solo por ahorrar.": {
-    "PT": "De dia e em um trajeto simples, o ônibus pode ser ótimo para ver a cidade. À noite, se o ponto estiver vazio, você não conhecer o bairro ou precisar caminhar muito ao descer, eu compararia com o metrô ou um aplicativo antes de decidir apenas pela economia.",
-    "EN": "During the day on a simple route, the bus can be excellent for seeing the city. At night, if the stop is empty, you do not know the neighborhood or you will need a long walk after getting off, I would compare the metro or an app before deciding solely to save money."
-  },
-  "Depende del horario, ocupación y recorrido. Con equipaje grande, niños o llegada nocturna, yo compararía con Metro o traslado por app.": {
-    "PT": "Depende do horário, da lotação e do trajeto. Com bagagem grande, crianças ou chegada noturna, eu compararia com o metrô ou um transporte por aplicativo.",
-    "EN": "It depends on the time, crowding and route. With large luggage, children or a nighttime arrival, I would compare the metro or a ride-hailing transfer."
-  },
-  "El ônibus llega a lugares donde Metro y VLT no llegan, pero para un visitante exige un poco más de atención. Yo busco el": {
-    "PT": "O ônibus chega a lugares onde o metrô e o VLT não chegam, mas exige um pouco mais de atenção do visitante. Eu procuro o",
-    "EN": "Buses reach places the metro and VLT do not, but require a little more attention from visitors. I look for the"
-  },
-  "Existen integraciones dentro de las reglas del Bilhete Único Carioca con Jaé. Comprueba las condiciones vigentes para tu combinación concreta.": {
-    "PT": "Há integrações dentro das regras do Bilhete Único Carioca com Jaé. Confira as condições atuais para sua combinação específica.",
-    "EN": "There are integrated fares under the Bilhete Único Carioca rules with Jaé. Check the current conditions for your specific combination."
-  },
-  "FAQs de ônibus": {
-    "PT": "Perguntas frequentes sobre ônibus",
-    "EN": "Bus FAQs"
-  },
-  "Los ônibus municipales forman parte del sistema Jaé. Puedes pagar con QR Code generado en la app o con tarjeta Jaé. La cuenta de transporte se puede recargar por PIX o tarjeta de crédito desde la app; Jaé informa además que el saldo de la cuenta no expira.": {
-    "PT": "Os ônibus municipais fazem parte do sistema Jaé. Você pode pagar com QR Code gerado no aplicativo ou com cartão Jaé. A conta de transporte pode ser recarregada por Pix ou cartão de crédito pelo aplicativo; o Jaé também informa que o saldo da conta não expira.",
-    "EN": "Municipal buses are part of the Jaé system. You can pay with an app-generated QR code or a Jaé card. The transport account can be topped up through Pix or a credit card in the app; Jaé also says that account balances do not expire."
-  },
-  "No me quedo solamente con “pasa por Copacabana” o “va para Centro”: una misma avenida puede tener líneas en sentidos distintos y recorridos largos. Para un turista, Google Maps o una app de movilidad ayuda a seguir las paradas, pero la información operativa puede cambiar.": {
-    "PT": "Não fico apenas no “passa por Copacabana” ou “vai para o Centro”: uma mesma avenida pode ter linhas em sentidos diferentes e trajetos longos. Para o turista, Google Maps ou um aplicativo de mobilidade ajuda a acompanhar as paradas, mas a operação pode mudar.",
-    "EN": "I do not settle for “it passes through Copacabana” or “it goes downtown”: the same avenue can have routes going in different directions and on long journeys. Google Maps or a mobility app can help visitors follow the stops, but operations can change."
-  },
-  "Si vas a combinar ônibus, BRT o VLT, las integraciones siguen las reglas del Bilhete Único Carioca. Yo no asumiría que cualquier tarjeta eventual ofrece la misma integración: el Jaézinho avulso dejó de realizar integraciones tarifarias municipales desde el 30 de mayo de 2026.": {
-    "PT": "Se for combinar ônibus, BRT ou VLT, as integrações seguem as regras do Bilhete Único Carioca. Eu não presumiria que qualquer cartão eventual oferece a mesma integração: o Jaézinho avulso deixou de fazer integrações tarifárias municipais em 30 de maio de 2026.",
-    "EN": "If you combine buses, BRT or VLT, fare integration follows the Bilhete Único Carioca rules. I would not assume that every occasional-use card offers the same integration: the standalone Jaézinho stopped participating in municipal fare integrations on May 30, 2026."
-  },
-  "Sí. En los transportes municipales compatibles, Jaé permite generar un QR Code desde la app.": {
-    "PT": "Sim. Nos transportes municipais compatíveis, o Jaé permite gerar um QR Code pelo aplicativo.",
-    "EN": "Yes. For compatible municipal transport, Jaé lets you generate a QR code in the app."
-  },
-  "Yo acompaño el trayecto, pero no viajaría todo el tiempo con el teléfono expuesto junto a una ventana o puerta abierta. Mira el mapa con discreción, guarda el celular y vuelve a comprobarlo cuando lo necesites. Si tienes dudas sobre la parada, pregunta con anticipación.": {
-    "PT": "Acompanho o trajeto, mas não viajaria o tempo todo com o celular exposto junto a uma janela ou porta aberta. Consulte o mapa com discrição, guarde o celular e confira de novo quando precisar. Se tiver dúvidas sobre a parada, pergunte com antecedência.",
-    "EN": "I follow the route, but would not travel with my phone exposed the whole time beside an open window or door. Check the map discreetly, put your phone away and check again when needed. If you are unsure about the stop, ask ahead of time."
-  },
-  "Yo marco el destino en una app de mapas y sigo el recorrido sin esperar al último segundo. Si tienes dudas, pregunta antes de llegar.": {
-    "PT": "Marco o destino em um aplicativo de mapas e acompanho o trajeto sem esperar o último segundo. Se tiver dúvidas, pergunte antes de chegar.",
-    "EN": "I mark the destination in a map app and follow the route without waiting until the last second. If you are unsure, ask before you arrive."
-  },
-  "número de línea y destino exacto": {
-    "PT": "número da linha e destino exato",
-    "EN": "route number and exact destination"
-  },
-  "¿Conviene para ir con maletas?": {
-    "PT": "Vale a pena com malas?",
-    "EN": "Is it a good option with luggage?"
-  },
-  "¿Cómo sé dónde bajar?": {
-    "PT": "Como saber onde descer?",
-    "EN": "How do I know where to get off?"
-  },
-  "¿Puedo combinar ônibus con BRT o VLT?": {
-    "PT": "Posso combinar ônibus com BRT ou VLT?",
-    "EN": "Can I combine buses with BRT or VLT?"
-  },
-  "⚠️ Celular y punto de bajada": {
-    "PT": "⚠️ Celular e ponto de desembarque",
-    "EN": "⚠️ Your phone and where to get off"
-  },
-  "El mensaje se prepara automáticamente en español, portugués o inglés según el idioma activo de la página.": {
-    "PT": "A mensagem é preparada automaticamente em espanhol, português ou inglês, conforme o idioma ativo da página.",
-    "EN": "The message is automatically prepared in Spanish, Portuguese or English according to the page's active language."
-  },
-  "Escríbeme por WhatsApp con los datos del viaje y podré revisar disponibilidad y valor.": {
-    "PT": "Escreva pelo WhatsApp com os dados da viagem e poderei conferir a disponibilidade e o valor.",
-    "EN": "Message me on WhatsApp with your trip details and I can check availability and price."
-  },
-  "Si quieres viajar de una manera más cómoda, segura y personalizada, también puedes contratar conmigo un servicio de transporte privado con conductor. Es una alternativa especialmente práctica para familias, grupos de amigos, personas con equipaje o para quien prefiere dejar el traslado organizado antes de salir.": {
-    "PT": "Se quiser viajar com mais conforto, segurança e personalização, também pode contratar comigo transporte privado com motorista. É uma alternativa especialmente prática para famílias, grupos de amigos, pessoas com bagagem ou quem prefere organizar o deslocamento antes de sair.",
-    "EN": "If you want a more comfortable, safe and personalized journey, you can also book private transport with a driver through me. It is especially practical for families, groups of friends, travelers with luggage or anyone who prefers to arrange their transfer before setting out."
-  },
-  "También puedo organizar vehículo con conductor para un paseo privado, según disponibilidad y el recorrido acordado.": {
-    "PT": "Também posso organizar um veículo com motorista para um passeio privado, conforme a disponibilidade e o trajeto combinado.",
-    "EN": "I can also arrange a vehicle with a driver for a private outing, depending on availability and the agreed route."
-  },
-  "Transporte privado Ernestinho en Río": {
-    "PT": "Transporte privado Ernestinho no Rio",
-    "EN": "Ernestinho private transport in Rio"
-  },
-  "Transporte privado entre Río de Janeiro y Búzios, coordinando el horario según tu viaje.": {
-    "PT": "Transporte privado entre Rio de Janeiro e Búzios, com horário coordenado conforme sua viagem.",
-    "EN": "Private transport between Rio de Janeiro and Búzios, timed around your trip."
-  },
-  "Traslado privado desde los aeropuertos de Río hasta tu alojamiento y también servicio de regreso al aeropuerto.": {
-    "PT": "Transfer privado dos aeroportos do Rio até sua hospedagem, com serviço de volta ao aeroporto também.",
-    "EN": "Private transfers from Rio's airports to your accommodation, with return airport transfers also available."
-  },
-  "Traslado privado por Río de Janeiro": {
-    "PT": "Transfer privado pelo Rio de Janeiro",
-    "EN": "Private transfers around Rio de Janeiro"
-  },
-  "Una opción cómoda para trasladarte entre Río y Angra dos Reis sin depender del transporte colectivo.": {
-    "PT": "Uma opção confortável para viajar entre o Rio e Angra dos Reis sem depender do transporte coletivo.",
-    "EN": "A comfortable option for traveling between Rio and Angra dos Reis without relying on public transport."
-  },
-  "¿Por qué elegir un transporte privado?": {
-    "PT": "Por que escolher transporte privado?",
-    "EN": "Why choose private transport?"
-  },
-  "✈️ Aeropuerto → Hotel": {
-    "PT": "✈️ Aeroporto → Hotel",
-    "EN": "✈️ Airport → Hotel"
-  },
-  "✓ Conductores experimentados.": {
-    "PT": "✓ Motoristas experientes.",
-    "EN": "✓ Experienced drivers."
-  },
-  "✓ Mayor comodidad durante el viaje.": {
-    "PT": "✓ Mais conforto durante a viagem.",
-    "EN": "✓ Greater comfort during the journey."
-  },
-  "✓ Posibilidad de organizar horarios según tu viaje.": {
-    "PT": "✓ Possibilidade de organizar os horários conforme sua viagem.",
-    "EN": "✓ Schedules can be arranged around your trip."
-  },
-  "✓ Servicio coordinado de acuerdo con tu grupo.": {
-    "PT": "✓ Serviço coordenado de acordo com seu grupo.",
-    "EN": "✓ Service coordinated around your group."
-  },
-  "✓ Traslados entre Río y otros destinos turísticos.": {
-    "PT": "✓ Transfers entre o Rio e outros destinos turísticos.",
-    "EN": "✓ Transfers between Rio and other tourist destinations."
-  },
-  "✓ Vehículos para diferentes cantidades de pasajeros y equipaje, según disponibilidad.": {
-    "PT": "✓ Veículos para diferentes quantidades de passageiros e bagagem, conforme a disponibilidade.",
-    "EN": "✓ Vehicles for different passenger and luggage requirements, subject to availability."
-  },
-  "🌴 Río → Angra dos Reis": {
-    "PT": "🌴 Rio → Angra dos Reis",
-    "EN": "🌴 Rio → Angra dos Reis"
-  },
-  "🏖️ Río → Búzios": {
-    "PT": "🏖️ Rio → Búzios",
-    "EN": "🏖️ Rio → Búzios"
-  },
-  "💬 Cotizar por WhatsApp": {
-    "PT": "💬 Pedir orçamento pelo WhatsApp",
-    "EN": "💬 Request a quote on WhatsApp"
-  },
-  "🗺️ Paseos privados": {
-    "PT": "🗺️ Passeios privados",
-    "EN": "🗺️ Private outings"
-  },
-  "🧮 ¿Quieres cotizar tu traslado?": {
-    "PT": "🧮 Quer um orçamento para seu transfer?",
-    "EN": "🧮 Would you like a transfer quote?"
-  },
-  ". Los clientes con BUI habilitado continúan pagando R$ 5,00 bajo las condiciones correspondientes. La empresa vende tarjeta unitaria y en Central do Brasil informa venta de QR Code para liberar la catraca; ese QR no sirve para embarcar en otras estaciones.": {
-    "PT": ". Clientes com BUI habilitado continuam pagando R$ 5,00 nas condições correspondentes. A empresa vende cartão unitário e, na Central do Brasil, informa venda de QR Code para liberar a catraca; esse QR não serve para embarcar em outras estações.",
-    "EN": ". Customers with an enabled BUI continue to pay R$ 5,00 under the relevant conditions. The company sells single-journey cards and lists QR code sales at Central do Brasil to open the turnstile; that QR code cannot be used to board at other stations."
-  },
-  ". Si tu regreso depende de una salida nocturna, revisa la ficha de la estación concreta y no llegues calculando solo la hora del último servicio.": {
-    "PT": ". Se a volta depender de uma saída noturna, confira a ficha da estação específica e não calcule a chegada apenas pelo horário do último serviço.",
-    "EN": ". If your return depends on a nighttime departure, check the specific station guide and do not plan your arrival solely around the last service time."
-  },
-  "Central do Brasil es el gran punto de referencia de la red ferroviaria metropolitana.": {
-    "PT": "A Central do Brasil é a principal referência da rede ferroviária metropolitana.",
-    "EN": "Central do Brasil is the main reference point for the metropolitan rail network."
-  },
-  "Consulta los avisos oficiales y pregunta al personal por el servicio o transbordo indicado; no improvises un ramal alternativo sin confirmar.": {
-    "PT": "Consulte os avisos oficiais e pergunte à equipe sobre o serviço ou a transferência indicada; não improvise um ramal alternativo sem confirmar.",
-    "EN": "Check official notices and ask staff about the recommended service or transfer; do not improvise an alternative branch without confirming it."
-  },
-  "Estación Central do Brasil y trenes metropolitanos SuperVia": {
-    "PT": "Estação Central do Brasil e trens metropolitanos da SuperVia",
-    "EN": "Central do Brasil station and SuperVia metropolitan trains"
-  },
-  "FAQs de SuperVia": {
-    "PT": "Perguntas frequentes sobre a SuperVia",
-    "EN": "SuperVia FAQs"
-  },
-  "La red tiene cinco ramales principales —Deodoro, Santa Cruz, Japeri, Belford Roxo y Saracuruna— y extensiones. El destino escrito en el tren importa: no todos siguen el mismo recorrido.": {
-    "PT": "A rede tem cinco ramais principais — Deodoro, Santa Cruz, Japeri, Belford Roxo e Saracuruna — e extensões. O destino indicado no trem importa: nem todos seguem o mesmo trajeto.",
-    "EN": "The network has five main branches — Deodoro, Santa Cruz, Japeri, Belford Roxo and Saracuruna — plus extensions. The destination displayed on the train matters: they do not all follow the same route."
-  },
-  "La tarifa publicada se mantiene en R$ 7,60; existen condiciones específicas para usuarios con BUI habilitado.": {
-    "PT": "A tarifa divulgada permanece em R$ 7,60; há condições específicas para usuários com BUI habilitado.",
-    "EN": "The published fare remains R$ 7,60; specific conditions apply to users with an enabled BUI."
-  },
-  "Los trenes que yo considero útiles para un visitante": {
-    "PT": "Os trens que considero úteis para um visitante",
-    "EN": "The trains I consider useful for visitors"
-  },
-  "Maracanã y São Cristóvão": {
-    "PT": "Maracanã e São Cristóvão",
-    "EN": "Maracanã and São Cristóvão"
-  },
-  "No necesitas memorizar toda la red. Yo pienso primero en": {
-    "PT": "Você não precisa decorar a rede inteira. Eu penso primeiro em",
-    "EN": "You do not need to memorize the whole network. I first think of"
-  },
-  "No. Es la red ferroviaria metropolitana y tiene operación, ramales y tarifa propios.": {
-    "PT": "Não. É a rede ferroviária metropolitana, com operação, ramais e tarifa próprios.",
-    "EN": "No. It is the metropolitan rail network, with its own operations, branches and fare."
-  },
-  "Para Maracanã, Madureira o un destino de Zona Norte, el tren puede ser mucho más lógico que cruzar Río en auto. Pero yo miro siempre la operación del día y el regreso antes de salir. En eventos grandes pueden existir servicios especiales y cambios de plataforma.": {
-    "PT": "Para Maracanã, Madureira ou um destino da Zona Norte, o trem pode fazer muito mais sentido do que cruzar o Rio de carro. Mas sempre confiro a operação do dia e a volta antes de sair. Em grandes eventos, pode haver serviços especiais e mudanças de plataforma.",
-    "EN": "For Maracanã, Madureira or a North Zone destination, the train can make much more sense than crossing Rio by car. But I always check the day's operations and my return before setting out. Major events may bring special services and platform changes."
-  },
-  "Riocard Mais es aceptado en estaciones determinadas y SuperVia advierte que el sistema puede estar sujeto a indisponibilidad. Yo confirmaría el medio de pago de la estación de regreso, no solamente el de Central.": {
-    "PT": "O Riocard Mais é aceito em determinadas estações, e a SuperVia alerta que o sistema pode apresentar indisponibilidade. Eu confirmaria o pagamento na estação de volta, não apenas na Central.",
-    "EN": "Riocard Mais is accepted at certain stations, and SuperVia warns that the system may be unavailable. I would confirm payment at the return station, not just at Central."
-  },
-  "SuperVia advierte que las estaciones pueden cerrar": {
-    "PT": "A SuperVia alerta que as estações podem fechar",
-    "EN": "SuperVia warns that stations may close"
-  },
-  "SuperVia informa venta de QR Code en Central do Brasil para liberar la catraca. Ese código no puede utilizarse para embarcar en otras estaciones.": {
-    "PT": "A SuperVia informa venda de QR Code na Central do Brasil para liberar a catraca. Esse código não pode ser usado para embarcar em outras estações.",
-    "EN": "SuperVia lists QR code sales at Central do Brasil to open the turnstile. That code cannot be used to board at other stations."
-  },
-  "SuperVia mantiene en 2026 la tarifa publicada de": {
-    "PT": "A SuperVia mantém em 2026 a tarifa divulgada de",
-    "EN": "In 2026, SuperVia maintains its published fare of"
-  },
-  "Sí, la red atiende Maracanã y São Cristóvão. En días de partido o evento yo revisaría la operación especial antes de salir.": {
-    "PT": "Sim, a rede atende Maracanã e São Cristóvão. Em dias de jogo ou evento, eu conferiria a operação especial antes de sair.",
-    "EN": "Yes, the network serves Maracanã and São Cristóvão. On match or event days, I would check special operations before setting out."
-  },
-  "Tarifa y pago en 2026": {
-    "PT": "Tarifa e pagamento em 2026",
-    "EN": "Fares and payment in 2026"
-  },
-  "antes del paso del último tren": {
-    "PT": "antes da passagem do último trem",
-    "EN": "before the last train passes"
-  },
-  "como puerta de entrada;": {
-    "PT": "como porta de entrada;",
-    "EN": "as a starting point;"
-  },
-  "para conocer otro Río; y después en los ramales metropolitanos si tu destino realmente está fuera del eje turístico tradicional.": {
-    "PT": "para conhecer outro Rio; depois considero os ramais metropolitanos se o destino realmente estiver fora do circuito turístico tradicional.",
-    "EN": "to discover another side of Rio; then I consider the metropolitan branches if my destination is truly outside the traditional tourist circuit."
-  },
-  "para eventos y conexiones;": {
-    "PT": "para eventos e conexões;",
-    "EN": "for events and connections;"
-  },
-  "¿Cuánto cuesta en 2026?": {
-    "PT": "Quanto custa em 2026?",
-    "EN": "How much does it cost in 2026?"
-  },
-  "¿Puedo comprar QR en Central?": {
-    "PT": "Posso comprar QR Code na Central?",
-    "EN": "Can I buy a QR code at Central?"
-  },
-  "¿Qué hago si el servicio cambia?": {
-    "PT": "O que fazer se o serviço mudar?",
-    "EN": "What should I do if the service changes?"
-  },
-  "¿Sirve para ir al Maracanã?": {
-    "PT": "Serve para ir ao Maracanã?",
-    "EN": "Can I use it to reach Maracanã?"
-  },
-  "¿SuperVia es el Metro?": {
-    "PT": "A SuperVia é o metrô?",
-    "EN": "Is SuperVia the metro?"
-  },
-  "⚠️ El último tren no es la hora de cierre": {
-    "PT": "⚠️ O último trem não é o horário de fechamento",
-    "EN": "⚠️ The last train time is not the station closing time"
-  },
-  ". Mira tú la matrícula y deja que el conductor confirme la información del viaje. Si algo no coincide, quédate en un punto seguro y pide otro.": {
-    "PT": ". Confira a placa e deixe o motorista confirmar os dados da viagem. Se algo não bater, fique em um local seguro e peça outro veículo.",
-    "EN": ". Check the license plate yourself and let the driver confirm the trip details. If something does not match, stay somewhere safe and request another ride."
-  },
-  ". No entregaría dinero adicional por peajes, extras o una segunda cobranza improvisada: Uber indica que solo debes pagar en efectivo cuando esa fue la modalidad seleccionada en la app.": {
-    "PT": ". Eu não entregaria dinheiro extra por pedágios, adicionais ou uma segunda cobrança improvisada: a Uber informa que você só deve pagar em dinheiro quando esse foi o método selecionado no aplicativo.",
-    "EN": ". I would not hand over extra cash for tolls, extras or an improvised second payment: Uber says you should only pay cash when that was the method selected in the app."
-  },
-  ". Si alguno de esos datos no coincide, no entro. Si tienes activado U-Código/PIN, entrega el código únicamente al conductor correcto y después de verificar el vehículo.": {
-    "PT": ". Se algum desses dados não conferir, não entro. Se tiver U-Código/PIN ativado, informe o código apenas ao motorista correto e depois de conferir o veículo.",
-    "EN": ". If any of those details do not match, I do not get in. If U-Código/PIN is enabled, give the code only to the correct driver after checking the vehicle."
-  },
-  "Antes de subir, yo comparo matrícula, modelo y conductor con la información de la aplicación.": {
-    "PT": "Antes de entrar, comparo a placa, o modelo e o motorista com as informações do aplicativo.",
-    "EN": "Before getting in, I compare the license plate, model and driver with the app information."
-  },
-  "En Río, especialmente al salir de un aeropuerto, terminal, estadio o fiesta,": {
-    "PT": "No Rio, principalmente ao sair de aeroporto, terminal, estádio ou festa,",
-    "EN": "In Rio, especially when leaving an airport, terminal, stadium or party,"
-  },
-  "En aeropuertos y eventos, el punto correcto de recogida puede cambiar según la operación del lugar.": {
-    "PT": "Em aeroportos e eventos, o ponto correto de embarque pode mudar conforme a operação do local.",
-    "EN": "At airports and events, the correct pickup point may change according to local operations."
-  },
-  "En aeropuertos y eventos, mira el punto de embarque que la aplicación te indica. Caminar hasta un lugar “más fácil” sin avisar puede hacer que conductor y pasajero queden en calles diferentes.": {
-    "PT": "Em aeroportos e eventos, confira o ponto de embarque indicado pelo aplicativo. Caminhar para um lugar “mais fácil” sem avisar pode deixar motorista e passageiro em ruas diferentes.",
-    "EN": "At airports and events, check the pickup point indicated in the app. Walking to an “easier” spot without saying so can leave the driver and passenger on different streets."
-  },
-  "Espera en un lugar iluminado, verifica el auto antes de salir del punto seguro, comparte el viaje y usa cinturón incluso en el asiento trasero.": {
-    "PT": "Espere em um local iluminado, confira o carro antes de sair do ponto seguro, compartilhe a viagem e use cinto mesmo no banco traseiro.",
-    "EN": "Wait somewhere well lit, check the car before leaving your safe spot, share the trip and wear a seat belt even in the back seat."
-  },
-  "FAQs que yo guardaría antes de viajar": {
-    "PT": "Perguntas frequentes que eu salvaria antes da viagem",
-    "EN": "FAQs I would save before traveling"
-  },
-  "Foto y nombre del conductor, matrícula, modelo del vehículo y el viaje activo en tu teléfono. Usa U-Código/PIN si lo tienes habilitado.": {
-    "PT": "Foto e nome do motorista, placa, modelo do veículo e viagem ativa no celular. Use U-Código/PIN se estiver habilitado.",
-    "EN": "The driver's photo and name, license plate, vehicle model and the active trip on your phone. Use U-Código/PIN if enabled."
-  },
-  "Las categorías que aparecen dependen del lugar, la hora y la disponibilidad. Yo no elijo solo por precio: si llevo varias maletas o viajo en grupo, compruebo capacidad antes de confirmar. Una categoría disponible en tu app no garantiza que cualquier cantidad de equipaje quepa cómodamente.": {
-    "PT": "As categorias disponíveis dependem do local, do horário e da oferta. Não escolho só pelo preço: com várias malas ou em grupo, confiro a capacidade antes de confirmar. Uma categoria disponível no aplicativo não garante espaço confortável para qualquer quantidade de bagagem.",
-    "EN": "Available categories depend on location, time and supply. I do not choose solely by price: with several bags or a group, I check capacity before confirming. A category available in your app does not guarantee comfortable space for any amount of luggage."
-  },
-  "Mi regla para no caer en una carrera equivocada": {
-    "PT": "Minha regra para não entrar na corrida errada",
-    "EN": "My rule for avoiding the wrong ride"
-  },
-  "No continúes el traslado como si fuera el viaje solicitado. Mantén la operación dentro de la plataforma y usa soporte si existe un problema.": {
-    "PT": "Não continue como se fosse a viagem solicitada. Mantenha a operação na plataforma e use o suporte se houver um problema.",
-    "EN": "Do not continue as though it were the ride you requested. Keep the trip within the platform and use support if there is a problem."
-  },
-  "No. Uber indica que el efectivo solo debe entregarse cuando esa fue la modalidad seleccionada para el viaje.": {
-    "PT": "Não. A Uber informa que o dinheiro só deve ser entregue quando esse foi o método selecionado para a viagem.",
-    "EN": "No. Uber says cash should only be handed over when it was the payment method selected for the trip."
-  },
-  "Para mí, la app complementa Metro, VLT y BRT cuando el trayecto, el horario o el equipaje lo justifican.": {
-    "PT": "Para mim, o aplicativo complementa metrô, VLT e BRT quando o trajeto, o horário ou a bagagem justificam.",
-    "EN": "For me, the app complements the metro, VLT and BRT when the route, time or luggage justifies it."
-  },
-  "Puede convenir, pero los bloqueos y la demanda pueden alejar el punto de embarque y elevar el precio. Yo comparo con Metro, BRT o VLT antes de decidir.": {
-    "PT": "Pode valer a pena, mas bloqueios e demanda podem afastar o ponto de embarque e aumentar o preço. Comparo com metrô, BRT ou VLT antes de decidir.",
-    "EN": "It can be useful, but closures and demand may move the pickup point farther away and raise the price. I compare the metro, BRT or VLT before deciding."
-  },
-  "Si el conductor pide dinero aunque tu viaje tiene un método electrónico seleccionado, no lo resuelvas por fuera: utiliza el soporte de la aplicación. Y si vas a pagar en efectivo, llevar cambio evita problemas.": {
-    "PT": "Se o motorista pedir dinheiro apesar de sua viagem ter um método eletrônico selecionado, não resolva por fora: use o suporte do aplicativo. Se for pagar em dinheiro, levar troco evita problemas.",
-    "EN": "If the driver asks for cash even though your trip has an electronic payment method selected, do not settle it outside the platform: use app support. If you will pay cash, carrying change avoids problems."
-  },
-  "Si el conductor te pide cancelar y continuar igualmente por fuera de la aplicación, yo no lo haría. Si necesitas cancelar, hazlo dentro de la app y revisa cualquier eventual tasa desde el soporte.": {
-    "PT": "Se o motorista pedir para cancelar e continuar por fora do aplicativo, eu não faria isso. Se precisar cancelar, faça pelo aplicativo e consulte qualquer possível taxa com o suporte.",
-    "EN": "If the driver asks you to cancel and continue outside the app, I would not do it. If you need to cancel, do so in the app and check any possible fee through support."
-  },
-  "Si elegiste efectivo en la aplicación, al llegar yo compruebo": {
-    "PT": "Se escolheu dinheiro no aplicativo, ao chegar eu confiro",
-    "EN": "If you selected cash in the app, on arrival I check"
-  },
-  "Tampoco acepto que alguien me ofrezca “hacerlo más barato por fuera”. Al salir de la plataforma pierdes parte de las herramientas de seguimiento y soporte asociadas al viaje solicitado en la app.": {
-    "PT": "Também não aceito ofertas de “fazer mais barato por fora”. Ao sair da plataforma, você perde parte das ferramentas de acompanhamento e suporte associadas à viagem solicitada pelo aplicativo.",
-    "EN": "I also decline offers to “do it cheaper outside the app”. Leaving the platform means losing some of the tracking and support tools associated with the requested ride."
-  },
-  "Tener más de una aplicación puede ayudarte a comparar tiempo de espera, categoría y precio. Pero nunca decido solo por unos reales menos: miro también el punto de encuentro, el horario, el equipaje y la facilidad para identificar el vehículo. El precio puede variar por demanda y tráfico.": {
-    "PT": "Ter mais de um aplicativo ajuda a comparar espera, categoria e preço. Mas nunca decido apenas por alguns reais a menos: também confiro o ponto de encontro, o horário, a bagagem e a facilidade de identificar o veículo. O preço pode variar com a demanda e o trânsito.",
-    "EN": "Having more than one app can help compare waiting time, category and price. But I never decide just to save a few reais: I also check the meeting point, time, luggage and how easily I can identify the vehicle. Prices can vary with demand and traffic."
-  },
-  "Transporte por aplicación en Río de Janeiro": {
-    "PT": "Transporte por aplicativo no Rio de Janeiro",
-    "EN": "Ride-hailing transport in Rio de Janeiro"
-  },
-  "Uber y aplicaciones de transporte en Río de Janeiro": {
-    "PT": "Uber e aplicativos de transporte no Rio de Janeiro",
-    "EN": "Uber and ride-hailing apps in Rio de Janeiro"
-  },
-  "Uber y apps: confirma siempre vehículo, conductor y punto de encuentro desde tu teléfono.": {
-    "PT": "Uber e aplicativos: confirme sempre o veículo, o motorista e o ponto de encontro pelo celular.",
-    "EN": "Uber and apps: always confirm the vehicle, driver and meeting point on your phone."
-  },
-  "Uber, 99 y otras apps: cómo las uso yo": {
-    "PT": "Uber, 99 e outros aplicativos: como eu uso",
-    "EN": "Uber, 99 and other apps: how I use them"
-  },
-  "UberX, Comfort, Black y equipaje": {
-    "PT": "UberX, Comfort, Black e bagagem",
-    "EN": "UberX, Comfort, Black and luggage"
-  },
-  "Uso de Uber y apps de movilidad en Río": {
-    "PT": "Uso do Uber e aplicativos de mobilidade no Rio",
-    "EN": "Using Uber and mobility apps in Rio"
-  },
-  "Viaje por aplicación y transporte urbano en Río": {
-    "PT": "Viagens por aplicativo e transporte urbano no Rio",
-    "EN": "Ride-hailing and urban transport in Rio"
-  },
-  "Yo no subo solamente porque el auto diga “Uber”. Comparo en mi teléfono": {
-    "PT": "Não entro só porque o carro diz “Uber”. Comparo no celular",
-    "EN": "I do not get in just because the car says “Uber”. I compare on my phone"
-  },
-  "el valor mostrado y que el viaje realmente haya sido finalizado": {
-    "PT": "o valor exibido e se a viagem realmente foi encerrada",
-    "EN": "the displayed amount and whether the trip has actually ended"
-  },
-  "no le muestres tu pantalla a cualquiera preguntando si es tu Uber": {
-    "PT": "não mostre sua tela a qualquer pessoa perguntando se é seu Uber",
-    "EN": "do not show your screen to just anyone asking whether they are your Uber"
-  },
-  "nombre y foto del conductor, modelo y matrícula": {
-    "PT": "nome e foto do motorista, modelo e placa",
-    "EN": "the driver's name and photo, vehicle model and license plate"
-  },
-  "¿Conviene en eventos?": {
-    "PT": "Vale a pena em eventos?",
-    "EN": "Is it useful for events?"
-  },
-  "¿Cómo aumento mi seguridad de noche?": {
-    "PT": "Como aumentar minha segurança à noite?",
-    "EN": "How can I improve my safety at night?"
-  },
-  "¿Debo pagar en efectivo si elegí tarjeta?": {
-    "PT": "Preciso pagar em dinheiro se escolhi cartão?",
-    "EN": "Do I need to pay cash if I selected a card?"
-  },
-  "¿Qué hago si el conductor me pide cancelar y seguir por fuera?": {
-    "PT": "O que fazer se o motorista pedir para cancelar e seguir por fora?",
-    "EN": "What if the driver asks me to cancel and continue outside the app?"
-  },
-  "¿Qué reviso antes de entrar?": {
-    "PT": "O que conferir antes de entrar?",
-    "EN": "What should I check before getting in?"
-  },
-  "⚠️ Mucho cuidado con el pago en efectivo": {
-    "PT": "⚠️ Muito cuidado com o pagamento em dinheiro",
-    "EN": "⚠️ Take extra care with cash payments"
-  }
+". En la app abre “Cartão Digital” y selecciona la opción de pago con QR Code. Yo prepararía el código antes de llegar al acceso para no quedarme configurando el teléfono en la fila.":{"PT":". No aplicativo, abra “Cartão Digital” e escolha o pagamento com QR Code. Eu prepararia o código antes de chegar ao acesso para não precisar configurar o celular na fila.","EN":". In the app, open “Cartão Digital” and choose QR code payment. I would prepare the code before reaching the entrance so I do not have to set up my phone in the queue."},
+". Y para Paquetá, yo guardo una captura del horario del día antes de salir de Praça XV.":{"PT":". Para Paquetá, também salvo uma captura do horário do dia antes de sair da Praça XV.","EN":". For Paquetá, I also save a screenshot of the day's timetable before leaving Praça XV."},
+"Barcas Rio informa que puedes pagar usando el":{"PT":"A Barcas Rio informa que é possível pagar usando o","EN":"Barcas Rio says you can pay using the"},
+"Barcas Rio publica pago mediante QR Code de Riocard Mais desde su aplicación.":{"PT":"A Barcas Rio informa pagamento por QR Code do Riocard Mais pelo aplicativo.","EN":"Barcas Rio lists payment by Riocard Mais QR code through its app."},
+"Barcas atracadas en Praça XV en Río de Janeiro":{"PT":"Barcas atracadas na Praça XV, no Rio de Janeiro","EN":"Ferries docked at Praça XV in Rio de Janeiro"},
+"Embarcaciones en Praça XV, uno de los grandes puntos de conexión de la Bahía de Guanabara.":{"PT":"Embarcações na Praça XV, um dos grandes pontos de conexão da Baía de Guanabara.","EN":"Boats at Praça XV, one of Guanabara Bay's major connecting points."},
+"FAQs de las Barcas":{"PT":"Perguntas frequentes sobre as barcas","EN":"Ferry FAQs"},
+"Las líneas que yo diferencio antes de salir":{"PT":"As linhas que diferencio antes de sair","EN":"The routes I distinguish before setting out"},
+"Las travesías de":{"PT":"As travessias de","EN":"The crossings from"},
+"No conviene asumirlo. Revisa la tabla oficial específica del día y confirma también la vuelta.":{"PT":"Não vale presumir. Confira a tabela oficial específica do dia e confirme também a volta.","EN":"Do not assume so. Check the official timetable for that day and confirm the return trip too."},
+"No. Las travesías publicadas para Ilha Grande salen desde Angra dos Reis o Mangaratiba.":{"PT":"Não. As travessias divulgadas para Ilha Grande saem de Angra dos Reis ou Mangaratiba.","EN":"No. The published Ilha Grande crossings leave from Angra dos Reis or Mangaratiba."},
+"No. Son estaciones distintas de Niterói y sirven zonas diferentes.":{"PT":"Não. São estações diferentes de Niterói e atendem áreas distintas.","EN":"No. They are separate terminals in Niterói serving different areas."},
+"Paquetá no tiene la frecuencia de una línea urbana corta. Antes de organizar almuerzo, paseo o bicicleta, yo compruebo la salida de regreso que realmente quiero usar. Los horarios cambian según día útil, sábado, domingo o feriado y pueden existir ajustes operativos.":{"PT":"Paquetá não tem a frequência de uma linha urbana curta. Antes de organizar almoço, passeio ou bicicleta, confiro a saída de volta que realmente quero usar. Os horários variam entre dias úteis, sábados, domingos e feriados, e podem ocorrer ajustes operacionais.","EN":"Paquetá does not have the frequency of a short urban route. Before planning lunch, a walk or a bike ride, I check the return departure I actually want to take. Timetables vary between weekdays, Saturdays, Sundays and holidays, and operational changes may occur."},
+"QR Code de Riocard Mais":{"PT":"QR Code do Riocard Mais","EN":"Riocard Mais QR code"},
+"Si vas a Niterói, no elijas entre Arariboia y Charitas solo por cuál barca sale antes: mira":{"PT":"Se for a Niterói, não escolha entre Arariboia e Charitas apenas pela barca que sai primeiro: confira","EN":"If you are going to Niterói, do not choose between Arariboia and Charitas just by which ferry leaves first: check"},
+"Sí, en el Centro de Niterói. Desde allí organiza el último tramo según el lugar que quieras visitar.":{"PT":"Sim, no Centro de Niterói. De lá, organize o trecho final conforme o lugar que pretende visitar.","EN":"Yes, in downtown Niterói. From there, plan the final leg according to the place you want to visit."},
+"aparecen también bajo Barcas Rio, pero son otra lógica de viaje y actualmente figuran a R$ 20,50 y hasta 110 minutos.":{"PT":"também aparecem sob a Barcas Rio, mas seguem outra lógica de viagem e atualmente constam a R$ 20,50 e até 110 minutos.","EN":"are also listed under Barcas Rio, but involve a different kind of journey and are currently shown at R$ 20,50 and up to 110 minutes."},
+"dónde queda tu destino después de desembarcar":{"PT":"onde fica seu destino depois do desembarque","EN":"where your destination is after you disembark"},
+"hasta 22 minutos y tarifa publicada de R$ 5,00. Es la travesía urbana que yo miraría primero para ir del Centro de Río al Centro de Niterói.":{"PT":"até 22 minutos e tarifa divulgada de R$ 5,00. É a travessia urbana que eu consultaria primeiro para ir do Centro do Rio ao Centro de Niterói.","EN":"up to 22 minutes, with a published fare of R$ 5,00. This is the urban crossing I would check first for a trip from downtown Rio to downtown Niterói."},
+"hasta 28 minutos, tarifa publicada de R$ 7,70. Charitas está en otra zona de Niterói: no la confundas con Arariboia.":{"PT":"até 28 minutos, com tarifa divulgada de R$ 7,70. Charitas fica em outra área de Niterói: não confunda com Arariboia.","EN":"up to 28 minutes, with a published fare of R$ 7,70. Charitas is in another part of Niterói: do not confuse it with Arariboia."},
+"hasta 61 minutos y R$ 5,00 según la tabla actual.":{"PT":"até 61 minutos e R$ 5,00, conforme a tabela atual.","EN":"up to 61 minutes and R$ 5,00 according to the current timetable."},
+"hasta 81 minutos y R$ 5,00. Para mí aquí el horario de regreso es parte del paseo: lo miro antes de embarcar.":{"PT":"até 81 minutos e R$ 5,00. Para mim, o horário de volta faz parte do passeio: confiro antes de embarcar.","EN":"up to 81 minutes and R$ 5,00. For me, the return timetable is part of the outing: I check it before boarding."},
+"¿Charitas y Arariboia son la misma terminal?":{"PT":"Charitas e Arariboia são o mesmo terminal?","EN":"Are Charitas and Arariboia the same terminal?"},
+"¿Desde Praça XV voy directo a Ilha Grande?":{"PT":"Da Praça XV posso ir direto a Ilha Grande?","EN":"Can I go directly from Praça XV to Ilha Grande?"},
+"¿La barca de Paquetá sale con la misma frecuencia todo el día?":{"PT":"A barca de Paquetá mantém a mesma frequência o dia todo?","EN":"Does the Paquetá ferry run at the same frequency all day?"},
+"¿Praça XV–Arariboia me deja en Niterói?":{"PT":"A barca Praça XV–Arariboia me deixa em Niterói?","EN":"Does the Praça XV–Arariboia ferry take me to Niterói?"},
+"¿Puedo pagar con el celular?":{"PT":"Posso pagar com o celular?","EN":"Can I pay with my phone?"},
+"⚠️ Paquetá: primero mira la vuelta":{"PT":"⚠️ Paquetá: confira primeiro a volta","EN":"⚠️ Paquetá: check your return first"},
+"📱 Pagar con QR Code":{"PT":"📱 Pagar com QR Code","EN":"📱 Paying with a QR code"},
+". Aun así, la disponibilidad real de bicicletas y docks se mira en la app en el momento.":{"PT":". Mesmo assim, a disponibilidade real de bicicletas e vagas deve ser consultada no aplicativo na hora.","EN":". Even so, check the actual availability of bikes and docks in the app at the time."},
+"1 · Descarga la app":{"PT":"1 · Baixe o aplicativo","EN":"1 · Download the app"},
+"2 · Crea tu cuenta":{"PT":"2 · Crie sua conta","EN":"2 · Create your account"},
+"3 · Elige tu plan":{"PT":"3 · Escolha seu plano","EN":"3 · Choose your plan"},
+"4 · Busca estación":{"PT":"4 · Encontre uma estação","EN":"4 · Find a station"},
+"5 · Desbloquea":{"PT":"5 · Desbloqueie","EN":"5 · Unlock"},
+"6 · Revisa la bici":{"PT":"6 · Confira a bicicleta","EN":"6 · Check the bike"},
+"7 · Devuélvela":{"PT":"7 · Devolva","EN":"7 · Return it"},
+"8 · Mira la app":{"PT":"8 · Confira o aplicativo","EN":"8 · Check the app"},
+"Bike Itaú informa que, si detectas un problema inmediatamente, puedes devolver la bicicleta dentro del margen indicado por el sistema y reportar el defecto. También advierte que una estación llena obliga a buscar otra con espacio disponible.":{"PT":"A Bike Itaú informa que, se perceber um problema imediatamente, pode devolver a bicicleta dentro do prazo indicado pelo sistema e comunicar o defeito. Também alerta que uma estação cheia exige procurar outra com vaga disponível.","EN":"Bike Itaú says that if you notice a problem immediately, you can return the bike within the period indicated by the system and report the defect. It also warns that a full station means you must find another with an available dock."},
+"Busca en la app otra estación cercana con docks libres.":{"PT":"Procure no aplicativo outra estação próxima com vagas livres.","EN":"Find another nearby station with free docks in the app."},
+"Compara el plan disponible, duración de los viajes, cantidad incluida y posibles extras.":{"PT":"Compare o plano disponível, a duração das viagens, a quantidade incluída e possíveis extras.","EN":"Compare the available plan, ride duration, included rides and possible extras."},
+"Comprueba frenos, asiento, ruedas y cesta antes de alejarte de la estación.":{"PT":"Confira freios, selim, rodas e cesta antes de se afastar da estação.","EN":"Check the brakes, seat, wheels and basket before leaving the station."},
+"Devuélvela cuanto antes siguiendo el procedimiento oficial y reporta el defecto desde el sistema.":{"PT":"Devolva o quanto antes, seguindo o procedimento oficial, e informe o defeito pelo sistema.","EN":"Return it as soon as possible, following the official procedure, and report the defect through the system."},
+"El sitio oficial informa actualmente más de 430 estaciones en Río y un horario de operación de":{"PT":"O site oficial informa atualmente mais de 430 estações no Rio e um horário de funcionamento de","EN":"The official website currently lists over 430 stations in Rio and operating hours of"},
+"En el mapa comprueba bicicletas disponibles y, para el regreso, docks libres.":{"PT":"Confira no mapa as bicicletas disponíveis e, para a volta, as vagas livres.","EN":"Check the map for available bikes and, for your return, free docks."},
+"Encájala correctamente en un dock y espera luz verde y señal sonora.":{"PT":"Encaixe corretamente em uma vaga e aguarde a luz verde e o sinal sonoro.","EN":"Fit it securely into a dock and wait for the green light and sound signal."},
+"Es de los recorridos que más me gustan para un visitante porque combina orla, paisaje y una lectura sencilla de la ciudad. Revisa siempre el trazado actual de la ciclovía.":{"PT":"É um dos trajetos que mais gosto para um visitante, porque combina orla, paisagem e uma leitura fácil da cidade. Confira sempre o traçado atual da ciclovia.","EN":"It is one of my favorite routes for visitors because it combines the waterfront, scenery and an easy way to understand the city. Always check the current cycle path."},
+"Espera la confirmación física del dock y verifica en la aplicación que la carrera terminó. Este es uno de los controles que yo nunca saltaría.":{"PT":"Aguarde a confirmação física da vaga e confira no aplicativo se a viagem terminou. É uma das verificações que nunca pulo.","EN":"Wait for confirmation from the dock and check in the app that the ride has ended. This is one check I never skip."},
+"FAQs de Bike Itaú":{"PT":"Perguntas frequentes sobre a Bike Itaú","EN":"Bike Itaú FAQs"},
+"Instala Bike Itaú y selecciona Río de Janeiro.":{"PT":"Instale o Bike Itaú e selecione Rio de Janeiro.","EN":"Install Bike Itaú and select Rio de Janeiro."},
+"Los planes y precios cambian, por eso yo revisaría la pantalla de planes antes de desbloquear. La página oficial de Río diferencia bicicletas mecánicas y eléctricas, límites de tiempo, viajes incluidos y cargos adicionales por excederlos. La eléctrica puede tener una tasa adicional de retirada según el plan.":{"PT":"Os planos e preços mudam, por isso eu consultaria a tela de planos antes de desbloquear. A página oficial do Rio diferencia bicicletas mecânicas e elétricas, limites de tempo, viagens incluídas e cobranças adicionais ao ultrapassá-los. A elétrica pode ter uma taxa adicional de retirada, conforme o plano.","EN":"Plans and prices change, so I would check the plans screen before unlocking. Rio's official page distinguishes mechanical and electric bikes, time limits, included rides and additional charges for exceeding them. Electric bikes may have an extra unlocking fee depending on the plan."},
+"Muy bonito para disfrutar la costa, pero yo miraría cruces y conexiones antes de salir porque no todo el recorrido se siente igual para alguien que no conoce Río.":{"PT":"Muito bonito para aproveitar a costa, mas eu conferiria os cruzamentos e conexões antes de sair, porque nem todo o trajeto é igualmente simples para quem não conhece o Rio.","EN":"A beautiful way to enjoy the coast, but I would check crossings and connections before setting out, as not every part feels equally straightforward if you do not know Rio."},
+"Más largo y exigente. No lo elegiría automáticamente para una primera experiencia: revisa clima, condición física, ciclovía y regreso.":{"PT":"Mais longo e exigente. Não escolheria automaticamente para uma primeira experiência: confira o clima, o preparo físico, a ciclovia e a volta.","EN":"Longer and more demanding. I would not automatically choose it for a first experience: check the weather, your fitness, the cycle path and your return."},
+"No. Bike Itaú informa que el servicio está disponible aunque no seas cliente del banco.":{"PT":"Não. A Bike Itaú informa que o serviço está disponível mesmo para quem não é cliente do banco.","EN":"No. Bike Itaú says the service is available even if you are not a bank customer."},
+"No. Puedes terminar en otra estación del sistema siempre que exista un dock disponible y la bicicleta quede correctamente bloqueada.":{"PT":"Não. Você pode terminar em outra estação do sistema, desde que haja uma vaga disponível e a bicicleta fique corretamente travada.","EN":"No. You can finish at another station in the system as long as a dock is available and the bike is properly locked."},
+"Para disfrutar realmente la bicicleta en Río, yo intento mantenerme en las ciclovías y evito calles de mucho tráfico cuando existe una alternativa más segura. Antes de desbloquear miro también dónde voy a devolverla: llegar cansado y encontrar la estación llena cambia completamente el paseo.":{"PT":"Para aproveitar a bicicleta no Rio, tento ficar nas ciclovias e evitar ruas de trânsito intenso quando há uma alternativa mais segura. Antes de desbloquear, também confiro onde vou devolver: chegar cansado e encontrar a estação cheia muda completamente o passeio.","EN":"To really enjoy cycling in Rio, I try to stay on cycle paths and avoid busy roads when a safer alternative exists. Before unlocking, I also check where I will return the bike: arriving tired to find a full station completely changes the outing."},
+"Regístrate o inicia sesión y completa los datos que solicite la aplicación.":{"PT":"Cadastre-se ou entre na conta e preencha os dados solicitados pelo aplicativo.","EN":"Register or sign in and complete the information requested by the app."},
+"Toca “Desbloquear Bike” y lee el QR del manillar o bajo el asiento; también puedes usar la clave del adhesivo.":{"PT":"Toque em “Desbloquear Bike” e leia o QR Code no guidão ou sob o selim; também pode usar o código do adesivo.","EN":"Tap “Desbloquear Bike” and scan the QR code on the handlebar or under the seat; you can also use the code on the sticker."},
+"Una de mis opciones para pedalear con más calma y disfrutar del paisaje alrededor de la laguna.":{"PT":"Uma das minhas opções para pedalar com mais calma e aproveitar a paisagem ao redor da lagoa.","EN":"One of my choices for a calmer ride and enjoying the scenery around the lagoon."},
+"Valores, tiempos y bicicletas eléctricas":{"PT":"Preços, tempos e bicicletas elétricas","EN":"Prices, time limits and electric bikes"},
+"Yo no me voy hasta confirmar que el viaje aparece efectivamente finalizado.":{"PT":"Eu não saio até confirmar que a viagem aparece de fato como encerrada.","EN":"I do not leave until I confirm that the ride is actually shown as ended."},
+"¿Cómo sé que terminé el viaje?":{"PT":"Como saber se encerrei a viagem?","EN":"How do I know my ride has ended?"},
+"¿Necesito ser cliente de Itaú?":{"PT":"Preciso ser cliente do Itaú?","EN":"Do I need to be an Itaú customer?"},
+"¿Qué hago si la estación está llena?":{"PT":"O que fazer se a estação estiver cheia?","EN":"What if the station is full?"},
+"¿Tengo que devolverla en la misma estación?":{"PT":"Preciso devolver na mesma estação?","EN":"Do I have to return it to the same station?"},
+"¿Y si la bicicleta tiene un problema?":{"PT":"E se a bicicleta tiver um problema?","EN":"What if the bike has a problem?"},
+"📱 Cómo usar Bike Itaú paso a paso":{"PT":"📱 Como usar a Bike Itaú passo a passo","EN":"📱 How to use Bike Itaú step by step"},
+"🗺️ Recorridos que recomiendo":{"PT":"🗺️ Trajetos que recomendo","EN":"🗺️ Routes I recommend"},
+", pensado para uso eventual y disponible en máquinas de BRT y VLT. Ojo: desde el 30 de mayo de 2026 el Jaézinho avulso ya no participa de las integraciones tarifarias municipales. Si vas a combinar varios transportes, yo revisaría antes qué opción te conviene.":{"PT":", destinado ao uso eventual e disponível nas máquinas do BRT e VLT. Atenção: desde 30 de maio de 2026, o Jaézinho avulso não participa mais das integrações tarifárias municipais. Se for combinar vários transportes, eu conferiria antes qual opção compensa.","EN":", intended for occasional use and available from BRT and VLT machines. Note: since May 30, 2026, the standalone Jaézinho no longer participates in municipal fare integrations. If you will combine several transport modes, I would check which option suits you first."},
+". Un servicio expresso o directo puede saltarse la estación que necesitas.":{"PT":". Um serviço expresso ou direto pode pular a estação de que você precisa.","EN":". An express or direct service may skip the station you need."},
+": TransOeste, TransCarioca, TransOlímpica o TransBrasil. Después miro el número y destino del servicio. No todos los buses paran en todas las estaciones y por eso yo nunca subo solamente porque “va para Barra” o “va para Galeão”.":{"PT":": TransOeste, TransCarioca, TransOlímpica ou TransBrasil. Depois confiro o número e o destino do serviço. Nem todos os ônibus param em todas as estações; por isso, nunca embarco só porque “vai para a Barra” ou “vai para o Galeão”.","EN":": TransOeste, TransCarioca, TransOlímpica or TransBrasil. Then I check the service number and destination. Not every bus stops at every station, so I never board just because it “goes to Barra” or “goes to Galeão”."},
+"BRT Rio en estación: fíjate siempre en número, destino y tipo de servicio antes de embarcar. Foto: divulgação/Prefeitura do Rio.":{"PT":"BRT Rio na estação: confira sempre o número, o destino e o tipo de serviço antes de embarcar. Foto: divulgação/Prefeitura do Rio.","EN":"BRT Rio at a station: always check the number, destination and service type before boarding. Photo: publicity/Prefeitura do Rio."},
+"BRT Rio en una estación del sistema":{"PT":"BRT Rio em uma estação do sistema","EN":"BRT Rio at a station in the network"},
+"Cómo entiendo yo el BRT":{"PT":"Como eu entendo o BRT","EN":"How I understand the BRT"},
+"Cómo pagar: Jaé para el turista":{"PT":"Como pagar: Jaé para o turista","EN":"How to pay: Jaé for visitors"},
+"El corredor TransCarioca y los servicios vigentes del sistema son una pieza importante de las conexiones con Galeão. Yo revisaría el servicio del día y el terminal exacto antes de salir.":{"PT":"O corredor TransCarioca e os serviços atuais do sistema são importantes nas conexões com o Galeão. Eu conferiria o serviço do dia e o terminal exato antes de sair.","EN":"The TransCarioca corridor and current network services are important for connections with Galeão. I would check the day's service and exact terminal before setting out."},
+"Existe además el":{"PT":"Existe também o","EN":"There is also the"},
+"FAQs del BRT":{"PT":"Perguntas frequentes sobre o BRT","EN":"BRT FAQs"},
+"Hay máquinas Jaé en las estaciones BRT. Aceptan los medios informados por Jaé; si usas efectivo, recuerda que la máquina no da vuelto.":{"PT":"Há máquinas Jaé nas estações BRT. Elas aceitam os meios divulgados pelo Jaé; se usar dinheiro, lembre que a máquina não dá troco.","EN":"BRT stations have Jaé machines. They accept the payment methods listed by Jaé; if you use cash, remember that the machine does not give change."},
+"Jardim Oceânico es una conexión clave con el Metro; TransCarioca conecta Barra con el eje de Galeão; TransOlímpica sirve sectores de Recreio, Jacarepaguá y Vila Militar; y TransBrasil acerca el sistema hacia Terminal Gentileza y el eje de Avenida Brasil.":{"PT":"Jardim Oceânico é uma conexão importante com o metrô; a TransCarioca conecta a Barra ao eixo do Galeão; a TransOlímpica atende áreas de Recreio, Jacarepaguá e Vila Militar; e a TransBrasil aproxima o sistema do Terminal Gentileza e do eixo da Avenida Brasil.","EN":"Jardim Oceânico is a key metro connection; TransCarioca connects Barra with the Galeão area; TransOlímpica serves parts of Recreio, Jacarepaguá and Vila Militar; and TransBrasil brings the network toward Terminal Gentileza and Avenida Brasil."},
+"Jaé permite pagar con":{"PT":"O Jaé permite pagar com","EN":"Jaé lets you pay with a"},
+"No. Comprueba el servicio concreto y sus paradas antes de embarcar.":{"PT":"Não. Confira o serviço específico e suas paradas antes de embarcar.","EN":"No. Check the specific service and its stops before boarding."},
+"Para un visitante, lo primero es identificar el":{"PT":"Para um visitante, o primeiro passo é identificar o","EN":"For a visitor, the first step is to identify the"},
+"QR Code generado en la app":{"PT":"QR Code gerado no aplicativo","EN":"QR code generated in the app"},
+"Si vas de Zona Sur hacia Barra o Recreio, yo comparo Metro hasta Jardim Oceânico + BRT con una app de vehículo. En hora punta el BRT puede ahorrar mucho tránsito, pero el último tramo importa: mira dónde te deja realmente y cómo regresarás.":{"PT":"Se for da Zona Sul para a Barra ou o Recreio, comparo metrô até Jardim Oceânico + BRT com um aplicativo de transporte. No horário de pico, o BRT pode evitar muito trânsito, mas o trecho final importa: confira onde ele realmente deixa você e como voltará.","EN":"If you are going from the South Zone to Barra or Recreio, I compare the metro to Jardim Oceânico plus BRT with a ride-hailing app. At rush hour, the BRT can avoid a lot of traffic, but the final leg matters: check where it actually drops you and how you will return."},
+"Sí. Jaé permite generar un QR Code en la app y validarlo para pagar el viaje.":{"PT":"Sim. O Jaé permite gerar um QR Code no aplicativo e validá-lo para pagar a viagem.","EN":"Yes. Jaé lets you generate a QR code in the app and validate it to pay for your ride."},
+"corredor":{"PT":"corredor","EN":"corridor"},
+"número del servicio, destino y tipo de operación":{"PT":"número do serviço, destino e tipo de operação","EN":"service number, destination and operating type"},
+"o con tarjeta Jaé. La app acepta recargas por PIX o tarjeta de crédito. Si prefieres una máquina física, las estaciones BRT tienen terminales de autoatención que aceptan crédito, débito y billetes; no entregan vuelto.":{"PT":"ou com cartão Jaé. O aplicativo aceita recargas por Pix ou cartão de crédito. Se preferir uma máquina física, as estações BRT têm terminais de autoatendimento que aceitam crédito, débito e dinheiro; não dão troco.","EN":"or a Jaé card. The app accepts top-ups through Pix or a credit card. If you prefer a physical machine, BRT stations have self-service terminals that accept credit cards, debit cards and banknotes; they do not give change."},
+"¿Dónde consigo o recargo un medio físico?":{"PT":"Onde consigo ou recarrego um meio físico?","EN":"Where can I get or top up a physical payment card?"},
+"¿Sirve para Galeão?":{"PT":"Serve para ir ao Galeão?","EN":"Can I use it to reach Galeão?"},
+"¿Todos los BRT paran en todas las estaciones?":{"PT":"Todos os BRT param em todas as estações?","EN":"Do all BRT services stop at every station?"},
+"Éste es uno de los errores que más fácilmente puede cometer un turista: mirar solo el destino final. Antes de entrar, yo compruebo":{"PT":"É um dos erros mais fáceis para um turista: olhar apenas o destino final. Antes de embarcar, eu confiro","EN":"This is one of the easiest mistakes for a visitor to make: looking only at the final destination. Before boarding, I check the"},
+"⚠️ Parador, expresso o directo":{"PT":"⚠️ Parador, expresso ou direto","EN":"⚠️ All-stops, express or direct"},
+", miro el recorrido en el celular y confirmo dónde debo bajar antes de subir.":{"PT":", confiro o trajeto no celular e confirmo onde devo descer antes de embarcar.","EN":", check the route on my phone and confirm where to get off before boarding."},
+"Cómo pagar con Jaé":{"PT":"Como pagar com Jaé","EN":"How to pay with Jaé"},
+"Cómo uso yo los ônibus sin perderme":{"PT":"Como uso os ônibus sem me perder","EN":"How I use buses without getting lost"},
+"De día y en un trayecto sencillo, el ônibus puede ser excelente para ver la ciudad. De noche, si la parada está vacía, no conoces el barrio o tendrás que caminar mucho al bajar, yo compararía con Metro o una app antes de decidir solo por ahorrar.":{"PT":"De dia e em um trajeto simples, o ônibus pode ser ótimo para ver a cidade. À noite, se o ponto estiver vazio, você não conhecer o bairro ou precisar caminhar muito ao descer, eu compararia com o metrô ou um aplicativo antes de decidir apenas pela economia.","EN":"During the day on a simple route, the bus can be excellent for seeing the city. At night, if the stop is empty, you do not know the neighborhood or you will need a long walk after getting off, I would compare the metro or an app before deciding solely to save money."},
+"Depende del horario, ocupación y recorrido. Con equipaje grande, niños o llegada nocturna, yo compararía con Metro o traslado por app.":{"PT":"Depende do horário, da lotação e do trajeto. Com bagagem grande, crianças ou chegada noturna, eu compararia com o metrô ou um transporte por aplicativo.","EN":"It depends on the time, crowding and route. With large luggage, children or a nighttime arrival, I would compare the metro or a ride-hailing transfer."},
+"El ônibus llega a lugares donde Metro y VLT no llegan, pero para un visitante exige un poco más de atención. Yo busco el":{"PT":"O ônibus chega a lugares onde o metrô e o VLT não chegam, mas exige um pouco mais de atenção do visitante. Eu procuro o","EN":"Buses reach places the metro and VLT do not, but require a little more attention from visitors. I look for the"},
+"Existen integraciones dentro de las reglas del Bilhete Único Carioca con Jaé. Comprueba las condiciones vigentes para tu combinación concreta.":{"PT":"Há integrações dentro das regras do Bilhete Único Carioca com Jaé. Confira as condições atuais para sua combinação específica.","EN":"There are integrated fares under the Bilhete Único Carioca rules with Jaé. Check the current conditions for your specific combination."},
+"FAQs de ônibus":{"PT":"Perguntas frequentes sobre ônibus","EN":"Bus FAQs"},
+"Los ônibus municipales forman parte del sistema Jaé. Puedes pagar con QR Code generado en la app o con tarjeta Jaé. La cuenta de transporte se puede recargar por PIX o tarjeta de crédito desde la app; Jaé informa además que el saldo de la cuenta no expira.":{"PT":"Os ônibus municipais fazem parte do sistema Jaé. Você pode pagar com QR Code gerado no aplicativo ou com cartão Jaé. A conta de transporte pode ser recarregada por Pix ou cartão de crédito pelo aplicativo; o Jaé também informa que o saldo da conta não expira.","EN":"Municipal buses are part of the Jaé system. You can pay with an app-generated QR code or a Jaé card. The transport account can be topped up through Pix or a credit card in the app; Jaé also says that account balances do not expire."},
+"No me quedo solamente con “pasa por Copacabana” o “va para Centro”: una misma avenida puede tener líneas en sentidos distintos y recorridos largos. Para un turista, Google Maps o una app de movilidad ayuda a seguir las paradas, pero la información operativa puede cambiar.":{"PT":"Não fico apenas no “passa por Copacabana” ou “vai para o Centro”: uma mesma avenida pode ter linhas em sentidos diferentes e trajetos longos. Para o turista, Google Maps ou um aplicativo de mobilidade ajuda a acompanhar as paradas, mas a operação pode mudar.","EN":"I do not settle for “it passes through Copacabana” or “it goes downtown”: the same avenue can have routes going in different directions and on long journeys. Google Maps or a mobility app can help visitors follow the stops, but operations can change."},
+"Si vas a combinar ônibus, BRT o VLT, las integraciones siguen las reglas del Bilhete Único Carioca. Yo no asumiría que cualquier tarjeta eventual ofrece la misma integración: el Jaézinho avulso dejó de realizar integraciones tarifarias municipales desde el 30 de mayo de 2026.":{"PT":"Se for combinar ônibus, BRT ou VLT, as integrações seguem as regras do Bilhete Único Carioca. Eu não presumiria que qualquer cartão eventual oferece a mesma integração: o Jaézinho avulso deixou de fazer integrações tarifárias municipais em 30 de maio de 2026.","EN":"If you combine buses, BRT or VLT, fare integration follows the Bilhete Único Carioca rules. I would not assume that every occasional-use card offers the same integration: the standalone Jaézinho stopped participating in municipal fare integrations on May 30, 2026."},
+"Sí. En los transportes municipales compatibles, Jaé permite generar un QR Code desde la app.":{"PT":"Sim. Nos transportes municipais compatíveis, o Jaé permite gerar um QR Code pelo aplicativo.","EN":"Yes. For compatible municipal transport, Jaé lets you generate a QR code in the app."},
+"Yo acompaño el trayecto, pero no viajaría todo el tiempo con el teléfono expuesto junto a una ventana o puerta abierta. Mira el mapa con discreción, guarda el celular y vuelve a comprobarlo cuando lo necesites. Si tienes dudas sobre la parada, pregunta con anticipación.":{"PT":"Acompanho o trajeto, mas não viajaria o tempo todo com o celular exposto junto a uma janela ou porta aberta. Consulte o mapa com discrição, guarde o celular e confira de novo quando precisar. Se tiver dúvidas sobre a parada, pergunte com antecedência.","EN":"I follow the route, but would not travel with my phone exposed the whole time beside an open window or door. Check the map discreetly, put your phone away and check again when needed. If you are unsure about the stop, ask ahead of time."},
+"Yo marco el destino en una app de mapas y sigo el recorrido sin esperar al último segundo. Si tienes dudas, pregunta antes de llegar.":{"PT":"Marco o destino em um aplicativo de mapas e acompanho o trajeto sem esperar o último segundo. Se tiver dúvidas, pergunte antes de chegar.","EN":"I mark the destination in a map app and follow the route without waiting until the last second. If you are unsure, ask before you arrive."},
+"número de línea y destino exacto":{"PT":"número da linha e destino exato","EN":"route number and exact destination"},
+"¿Conviene para ir con maletas?":{"PT":"Vale a pena com malas?","EN":"Is it a good option with luggage?"},
+"¿Cómo sé dónde bajar?":{"PT":"Como saber onde descer?","EN":"How do I know where to get off?"},
+"¿Puedo combinar ônibus con BRT o VLT?":{"PT":"Posso combinar ônibus com BRT ou VLT?","EN":"Can I combine buses with BRT or VLT?"},
+"⚠️ Celular y punto de bajada":{"PT":"⚠️ Celular e ponto de desembarque","EN":"⚠️ Your phone and where to get off"},
+"El mensaje se prepara automáticamente en español, portugués o inglés según el idioma activo de la página.":{"PT":"A mensagem é preparada automaticamente em espanhol, português ou inglês, conforme o idioma ativo da página.","EN":"The message is automatically prepared in Spanish, Portuguese or English according to the page's active language."},
+"Escríbeme por WhatsApp con los datos del viaje y podré revisar disponibilidad y valor.":{"PT":"Escreva pelo WhatsApp com os dados da viagem e poderei conferir a disponibilidade e o valor.","EN":"Message me on WhatsApp with your trip details and I can check availability and price."},
+"Si quieres viajar de una manera más cómoda, segura y personalizada, también puedes contratar conmigo un servicio de transporte privado con conductor. Es una alternativa especialmente práctica para familias, grupos de amigos, personas con equipaje o para quien prefiere dejar el traslado organizado antes de salir.":{"PT":"Se quiser viajar com mais conforto, segurança e personalização, também pode contratar comigo transporte privado com motorista. É uma alternativa especialmente prática para famílias, grupos de amigos, pessoas com bagagem ou quem prefere organizar o deslocamento antes de sair.","EN":"If you want a more comfortable, safe and personalized journey, you can also book private transport with a driver through me. It is especially practical for families, groups of friends, travelers with luggage or anyone who prefers to arrange their transfer before setting out."},
+"También puedo organizar vehículo con conductor para un paseo privado, según disponibilidad y el recorrido acordado.":{"PT":"Também posso organizar um veículo com motorista para um passeio privado, conforme a disponibilidade e o trajeto combinado.","EN":"I can also arrange a vehicle with a driver for a private outing, depending on availability and the agreed route."},
+"Transporte privado Ernestinho en Río":{"PT":"Transporte privado Ernestinho no Rio","EN":"Ernestinho private transport in Rio"},
+"Transporte privado entre Río de Janeiro y Búzios, coordinando el horario según tu viaje.":{"PT":"Transporte privado entre Rio de Janeiro e Búzios, com horário coordenado conforme sua viagem.","EN":"Private transport between Rio de Janeiro and Búzios, timed around your trip."},
+"Traslado privado desde los aeropuertos de Río hasta tu alojamiento y también servicio de regreso al aeropuerto.":{"PT":"Transfer privado dos aeroportos do Rio até sua hospedagem, com serviço de volta ao aeroporto também.","EN":"Private transfers from Rio's airports to your accommodation, with return airport transfers also available."},
+"Traslado privado por Río de Janeiro":{"PT":"Transfer privado pelo Rio de Janeiro","EN":"Private transfers around Rio de Janeiro"},
+"Una opción cómoda para trasladarte entre Río y Angra dos Reis sin depender del transporte colectivo.":{"PT":"Uma opção confortável para viajar entre o Rio e Angra dos Reis sem depender do transporte coletivo.","EN":"A comfortable option for traveling between Rio and Angra dos Reis without relying on public transport."},
+"¿Por qué elegir un transporte privado?":{"PT":"Por que escolher transporte privado?","EN":"Why choose private transport?"},
+"✈️ Aeropuerto → Hotel":{"PT":"✈️ Aeroporto → Hotel","EN":"✈️ Airport → Hotel"},
+"✓ Conductores experimentados.":{"PT":"✓ Motoristas experientes.","EN":"✓ Experienced drivers."},
+"✓ Mayor comodidad durante el viaje.":{"PT":"✓ Mais conforto durante a viagem.","EN":"✓ Greater comfort during the journey."},
+"✓ Posibilidad de organizar horarios según tu viaje.":{"PT":"✓ Possibilidade de organizar os horários conforme sua viagem.","EN":"✓ Schedules can be arranged around your trip."},
+"✓ Servicio coordinado de acuerdo con tu grupo.":{"PT":"✓ Serviço coordenado de acordo com seu grupo.","EN":"✓ Service coordinated around your group."},
+"✓ Traslados entre Río y otros destinos turísticos.":{"PT":"✓ Transfers entre o Rio e outros destinos turísticos.","EN":"✓ Transfers between Rio and other tourist destinations."},
+"✓ Vehículos para diferentes cantidades de pasajeros y equipaje, según disponibilidad.":{"PT":"✓ Veículos para diferentes quantidades de passageiros e bagagem, conforme a disponibilidade.","EN":"✓ Vehicles for different passenger and luggage requirements, subject to availability."},
+"🌴 Río → Angra dos Reis":{"PT":"🌴 Rio → Angra dos Reis","EN":"🌴 Rio → Angra dos Reis"},
+"🏖️ Río → Búzios":{"PT":"🏖️ Rio → Búzios","EN":"🏖️ Rio → Búzios"},
+"💬 Cotizar por WhatsApp":{"PT":"💬 Pedir orçamento pelo WhatsApp","EN":"💬 Request a quote on WhatsApp"},
+"🗺️ Paseos privados":{"PT":"🗺️ Passeios privados","EN":"🗺️ Private outings"},
+"🧮 ¿Quieres cotizar tu traslado?":{"PT":"🧮 Quer um orçamento para seu transfer?","EN":"🧮 Would you like a transfer quote?"},
+". Los clientes con BUI habilitado continúan pagando R$ 5,00 bajo las condiciones correspondientes. La empresa vende tarjeta unitaria y en Central do Brasil informa venta de QR Code para liberar la catraca; ese QR no sirve para embarcar en otras estaciones.":{"PT":". Clientes com BUI habilitado continuam pagando R$ 5,00 nas condições correspondentes. A empresa vende cartão unitário e, na Central do Brasil, informa venda de QR Code para liberar a catraca; esse QR não serve para embarcar em outras estações.","EN":". Customers with an enabled BUI continue to pay R$ 5,00 under the relevant conditions. The company sells single-journey cards and lists QR code sales at Central do Brasil to open the turnstile; that QR code cannot be used to board at other stations."},
+". Si tu regreso depende de una salida nocturna, revisa la ficha de la estación concreta y no llegues calculando solo la hora del último servicio.":{"PT":". Se a volta depender de uma saída noturna, confira a ficha da estação específica e não calcule a chegada apenas pelo horário do último serviço.","EN":". If your return depends on a nighttime departure, check the specific station guide and do not plan your arrival solely around the last service time."},
+"Central do Brasil es el gran punto de referencia de la red ferroviaria metropolitana.":{"PT":"A Central do Brasil é a principal referência da rede ferroviária metropolitana.","EN":"Central do Brasil is the main reference point for the metropolitan rail network."},
+"Consulta los avisos oficiales y pregunta al personal por el servicio o transbordo indicado; no improvises un ramal alternativo sin confirmar.":{"PT":"Consulte os avisos oficiais e pergunte à equipe sobre o serviço ou a transferência indicada; não improvise um ramal alternativo sem confirmar.","EN":"Check official notices and ask staff about the recommended service or transfer; do not improvise an alternative branch without confirming it."},
+"Estación Central do Brasil y trenes metropolitanos SuperVia":{"PT":"Estação Central do Brasil e trens metropolitanos da SuperVia","EN":"Central do Brasil station and SuperVia metropolitan trains"},
+"FAQs de SuperVia":{"PT":"Perguntas frequentes sobre a SuperVia","EN":"SuperVia FAQs"},
+"La red tiene cinco ramales principales —Deodoro, Santa Cruz, Japeri, Belford Roxo y Saracuruna— y extensiones. El destino escrito en el tren importa: no todos siguen el mismo recorrido.":{"PT":"A rede tem cinco ramais principais — Deodoro, Santa Cruz, Japeri, Belford Roxo e Saracuruna — e extensões. O destino indicado no trem importa: nem todos seguem o mesmo trajeto.","EN":"The network has five main branches — Deodoro, Santa Cruz, Japeri, Belford Roxo and Saracuruna — plus extensions. The destination displayed on the train matters: they do not all follow the same route."},
+"La tarifa publicada se mantiene en R$ 7,60; existen condiciones específicas para usuarios con BUI habilitado.":{"PT":"A tarifa divulgada permanece em R$ 7,60; há condições específicas para usuários com BUI habilitado.","EN":"The published fare remains R$ 7,60; specific conditions apply to users with an enabled BUI."},
+"Los trenes que yo considero útiles para un visitante":{"PT":"Os trens que considero úteis para um visitante","EN":"The trains I consider useful for visitors"},
+"Maracanã y São Cristóvão":{"PT":"Maracanã e São Cristóvão","EN":"Maracanã and São Cristóvão"},
+"No necesitas memorizar toda la red. Yo pienso primero en":{"PT":"Você não precisa decorar a rede inteira. Eu penso primeiro em","EN":"You do not need to memorize the whole network. I first think of"},
+"No. Es la red ferroviaria metropolitana y tiene operación, ramales y tarifa propios.":{"PT":"Não. É a rede ferroviária metropolitana, com operação, ramais e tarifa próprios.","EN":"No. It is the metropolitan rail network, with its own operations, branches and fare."},
+"Para Maracanã, Madureira o un destino de Zona Norte, el tren puede ser mucho más lógico que cruzar Río en auto. Pero yo miro siempre la operación del día y el regreso antes de salir. En eventos grandes pueden existir servicios especiales y cambios de plataforma.":{"PT":"Para Maracanã, Madureira ou um destino da Zona Norte, o trem pode fazer muito mais sentido do que cruzar o Rio de carro. Mas sempre confiro a operação do dia e a volta antes de sair. Em grandes eventos, pode haver serviços especiais e mudanças de plataforma.","EN":"For Maracanã, Madureira or a North Zone destination, the train can make much more sense than crossing Rio by car. But I always check the day's operations and my return before setting out. Major events may bring special services and platform changes."},
+"Riocard Mais es aceptado en estaciones determinadas y SuperVia advierte que el sistema puede estar sujeto a indisponibilidad. Yo confirmaría el medio de pago de la estación de regreso, no solamente el de Central.":{"PT":"O Riocard Mais é aceito em determinadas estações, e a SuperVia alerta que o sistema pode apresentar indisponibilidade. Eu confirmaria o pagamento na estação de volta, não apenas na Central.","EN":"Riocard Mais is accepted at certain stations, and SuperVia warns that the system may be unavailable. I would confirm payment at the return station, not just at Central."},
+"SuperVia advierte que las estaciones pueden cerrar":{"PT":"A SuperVia alerta que as estações podem fechar","EN":"SuperVia warns that stations may close"},
+"SuperVia informa venta de QR Code en Central do Brasil para liberar la catraca. Ese código no puede utilizarse para embarcar en otras estaciones.":{"PT":"A SuperVia informa venda de QR Code na Central do Brasil para liberar a catraca. Esse código não pode ser usado para embarcar em outras estações.","EN":"SuperVia lists QR code sales at Central do Brasil to open the turnstile. That code cannot be used to board at other stations."},
+"SuperVia mantiene en 2026 la tarifa publicada de":{"PT":"A SuperVia mantém em 2026 a tarifa divulgada de","EN":"In 2026, SuperVia maintains its published fare of"},
+"Sí, la red atiende Maracanã y São Cristóvão. En días de partido o evento yo revisaría la operación especial antes de salir.":{"PT":"Sim, a rede atende Maracanã e São Cristóvão. Em dias de jogo ou evento, eu conferiria a operação especial antes de sair.","EN":"Yes, the network serves Maracanã and São Cristóvão. On match or event days, I would check special operations before setting out."},
+"Tarifa y pago en 2026":{"PT":"Tarifa e pagamento em 2026","EN":"Fares and payment in 2026"},
+"antes del paso del último tren":{"PT":"antes da passagem do último trem","EN":"before the last train passes"},
+"como puerta de entrada;":{"PT":"como porta de entrada;","EN":"as a starting point;"},
+"para conocer otro Río; y después en los ramales metropolitanos si tu destino realmente está fuera del eje turístico tradicional.":{"PT":"para conhecer outro Rio; depois considero os ramais metropolitanos se o destino realmente estiver fora do circuito turístico tradicional.","EN":"to discover another side of Rio; then I consider the metropolitan branches if my destination is truly outside the traditional tourist circuit."},
+"para eventos y conexiones;":{"PT":"para eventos e conexões;","EN":"for events and connections;"},
+"¿Cuánto cuesta en 2026?":{"PT":"Quanto custa em 2026?","EN":"How much does it cost in 2026?"},
+"¿Puedo comprar QR en Central?":{"PT":"Posso comprar QR Code na Central?","EN":"Can I buy a QR code at Central?"},
+"¿Qué hago si el servicio cambia?":{"PT":"O que fazer se o serviço mudar?","EN":"What should I do if the service changes?"},
+"¿Sirve para ir al Maracanã?":{"PT":"Serve para ir ao Maracanã?","EN":"Can I use it to reach Maracanã?"},
+"¿SuperVia es el Metro?":{"PT":"A SuperVia é o metrô?","EN":"Is SuperVia the metro?"},
+"⚠️ El último tren no es la hora de cierre":{"PT":"⚠️ O último trem não é o horário de fechamento","EN":"⚠️ The last train time is not the station closing time"},
+". Mira tú la matrícula y deja que el conductor confirme la información del viaje. Si algo no coincide, quédate en un punto seguro y pide otro.":{"PT":". Confira a placa e deixe o motorista confirmar os dados da viagem. Se algo não bater, fique em um local seguro e peça outro veículo.","EN":". Check the license plate yourself and let the driver confirm the trip details. If something does not match, stay somewhere safe and request another ride."},
+". No entregaría dinero adicional por peajes, extras o una segunda cobranza improvisada: Uber indica que solo debes pagar en efectivo cuando esa fue la modalidad seleccionada en la app.":{"PT":". Eu não entregaria dinheiro extra por pedágios, adicionais ou uma segunda cobrança improvisada: a Uber informa que você só deve pagar em dinheiro quando esse foi o método selecionado no aplicativo.","EN":". I would not hand over extra cash for tolls, extras or an improvised second payment: Uber says you should only pay cash when that was the method selected in the app."},
+". Si alguno de esos datos no coincide, no entro. Si tienes activado U-Código/PIN, entrega el código únicamente al conductor correcto y después de verificar el vehículo.":{"PT":". Se algum desses dados não conferir, não entro. Se tiver U-Código/PIN ativado, informe o código apenas ao motorista correto e depois de conferir o veículo.","EN":". If any of those details do not match, I do not get in. If U-Código/PIN is enabled, give the code only to the correct driver after checking the vehicle."},
+"Antes de subir, yo comparo matrícula, modelo y conductor con la información de la aplicación.":{"PT":"Antes de entrar, comparo a placa, o modelo e o motorista com as informações do aplicativo.","EN":"Before getting in, I compare the license plate, model and driver with the app information."},
+"En Río, especialmente al salir de un aeropuerto, terminal, estadio o fiesta,":{"PT":"No Rio, principalmente ao sair de aeroporto, terminal, estádio ou festa,","EN":"In Rio, especially when leaving an airport, terminal, stadium or party,"},
+"En aeropuertos y eventos, el punto correcto de recogida puede cambiar según la operación del lugar.":{"PT":"Em aeroportos e eventos, o ponto correto de embarque pode mudar conforme a operação do local.","EN":"At airports and events, the correct pickup point may change according to local operations."},
+"En aeropuertos y eventos, mira el punto de embarque que la aplicación te indica. Caminar hasta un lugar “más fácil” sin avisar puede hacer que conductor y pasajero queden en calles diferentes.":{"PT":"Em aeroportos e eventos, confira o ponto de embarque indicado pelo aplicativo. Caminhar para um lugar “mais fácil” sem avisar pode deixar motorista e passageiro em ruas diferentes.","EN":"At airports and events, check the pickup point indicated in the app. Walking to an “easier” spot without saying so can leave the driver and passenger on different streets."},
+"Espera en un lugar iluminado, verifica el auto antes de salir del punto seguro, comparte el viaje y usa cinturón incluso en el asiento trasero.":{"PT":"Espere em um local iluminado, confira o carro antes de sair do ponto seguro, compartilhe a viagem e use cinto mesmo no banco traseiro.","EN":"Wait somewhere well lit, check the car before leaving your safe spot, share the trip and wear a seat belt even in the back seat."},
+"FAQs que yo guardaría antes de viajar":{"PT":"Perguntas frequentes que eu salvaria antes da viagem","EN":"FAQs I would save before traveling"},
+"Foto y nombre del conductor, matrícula, modelo del vehículo y el viaje activo en tu teléfono. Usa U-Código/PIN si lo tienes habilitado.":{"PT":"Foto e nome do motorista, placa, modelo do veículo e viagem ativa no celular. Use U-Código/PIN se estiver habilitado.","EN":"The driver's photo and name, license plate, vehicle model and the active trip on your phone. Use U-Código/PIN if enabled."},
+"Las categorías que aparecen dependen del lugar, la hora y la disponibilidad. Yo no elijo solo por precio: si llevo varias maletas o viajo en grupo, compruebo capacidad antes de confirmar. Una categoría disponible en tu app no garantiza que cualquier cantidad de equipaje quepa cómodamente.":{"PT":"As categorias disponíveis dependem do local, do horário e da oferta. Não escolho só pelo preço: com várias malas ou em grupo, confiro a capacidade antes de confirmar. Uma categoria disponível no aplicativo não garante espaço confortável para qualquer quantidade de bagagem.","EN":"Available categories depend on location, time and supply. I do not choose solely by price: with several bags or a group, I check capacity before confirming. A category available in your app does not guarantee comfortable space for any amount of luggage."},
+"Mi regla para no caer en una carrera equivocada":{"PT":"Minha regra para não entrar na corrida errada","EN":"My rule for avoiding the wrong ride"},
+"No continúes el traslado como si fuera el viaje solicitado. Mantén la operación dentro de la plataforma y usa soporte si existe un problema.":{"PT":"Não continue como se fosse a viagem solicitada. Mantenha a operação na plataforma e use o suporte se houver um problema.","EN":"Do not continue as though it were the ride you requested. Keep the trip within the platform and use support if there is a problem."},
+"No. Uber indica que el efectivo solo debe entregarse cuando esa fue la modalidad seleccionada para el viaje.":{"PT":"Não. A Uber informa que o dinheiro só deve ser entregue quando esse foi o método selecionado para a viagem.","EN":"No. Uber says cash should only be handed over when it was the payment method selected for the trip."},
+"Para mí, la app complementa Metro, VLT y BRT cuando el trayecto, el horario o el equipaje lo justifican.":{"PT":"Para mim, o aplicativo complementa metrô, VLT e BRT quando o trajeto, o horário ou a bagagem justificam.","EN":"For me, the app complements the metro, VLT and BRT when the route, time or luggage justifies it."},
+"Puede convenir, pero los bloqueos y la demanda pueden alejar el punto de embarque y elevar el precio. Yo comparo con Metro, BRT o VLT antes de decidir.":{"PT":"Pode valer a pena, mas bloqueios e demanda podem afastar o ponto de embarque e aumentar o preço. Comparo com metrô, BRT ou VLT antes de decidir.","EN":"It can be useful, but closures and demand may move the pickup point farther away and raise the price. I compare the metro, BRT or VLT before deciding."},
+"Si el conductor pide dinero aunque tu viaje tiene un método electrónico seleccionado, no lo resuelvas por fuera: utiliza el soporte de la aplicación. Y si vas a pagar en efectivo, llevar cambio evita problemas.":{"PT":"Se o motorista pedir dinheiro apesar de sua viagem ter um método eletrônico selecionado, não resolva por fora: use o suporte do aplicativo. Se for pagar em dinheiro, levar troco evita problemas.","EN":"If the driver asks for cash even though your trip has an electronic payment method selected, do not settle it outside the platform: use app support. If you will pay cash, carrying change avoids problems."},
+"Si el conductor te pide cancelar y continuar igualmente por fuera de la aplicación, yo no lo haría. Si necesitas cancelar, hazlo dentro de la app y revisa cualquier eventual tasa desde el soporte.":{"PT":"Se o motorista pedir para cancelar e continuar por fora do aplicativo, eu não faria isso. Se precisar cancelar, faça pelo aplicativo e consulte qualquer possível taxa com o suporte.","EN":"If the driver asks you to cancel and continue outside the app, I would not do it. If you need to cancel, do so in the app and check any possible fee through support."},
+"Si elegiste efectivo en la aplicación, al llegar yo compruebo":{"PT":"Se escolheu dinheiro no aplicativo, ao chegar eu confiro","EN":"If you selected cash in the app, on arrival I check"},
+"Tampoco acepto que alguien me ofrezca “hacerlo más barato por fuera”. Al salir de la plataforma pierdes parte de las herramientas de seguimiento y soporte asociadas al viaje solicitado en la app.":{"PT":"Também não aceito ofertas de “fazer mais barato por fora”. Ao sair da plataforma, você perde parte das ferramentas de acompanhamento e suporte associadas à viagem solicitada pelo aplicativo.","EN":"I also decline offers to “do it cheaper outside the app”. Leaving the platform means losing some of the tracking and support tools associated with the requested ride."},
+"Tener más de una aplicación puede ayudarte a comparar tiempo de espera, categoría y precio. Pero nunca decido solo por unos reales menos: miro también el punto de encuentro, el horario, el equipaje y la facilidad para identificar el vehículo. El precio puede variar por demanda y tráfico.":{"PT":"Ter mais de um aplicativo ajuda a comparar espera, categoria e preço. Mas nunca decido apenas por alguns reais a menos: também confiro o ponto de encontro, o horário, a bagagem e a facilidade de identificar o veículo. O preço pode variar com a demanda e o trânsito.","EN":"Having more than one app can help compare waiting time, category and price. But I never decide just to save a few reais: I also check the meeting point, time, luggage and how easily I can identify the vehicle. Prices can vary with demand and traffic."},
+"Transporte por aplicación en Río de Janeiro":{"PT":"Transporte por aplicativo no Rio de Janeiro","EN":"Ride-hailing transport in Rio de Janeiro"},
+"Uber y aplicaciones de transporte en Río de Janeiro":{"PT":"Uber e aplicativos de transporte no Rio de Janeiro","EN":"Uber and ride-hailing apps in Rio de Janeiro"},
+"Uber y apps: confirma siempre vehículo, conductor y punto de encuentro desde tu teléfono.":{"PT":"Uber e aplicativos: confirme sempre o veículo, o motorista e o ponto de encontro pelo celular.","EN":"Uber and apps: always confirm the vehicle, driver and meeting point on your phone."},
+"Uber, 99 y otras apps: cómo las uso yo":{"PT":"Uber, 99 e outros aplicativos: como eu uso","EN":"Uber, 99 and other apps: how I use them"},
+"UberX, Comfort, Black y equipaje":{"PT":"UberX, Comfort, Black e bagagem","EN":"UberX, Comfort, Black and luggage"},
+"Uso de Uber y apps de movilidad en Río":{"PT":"Uso do Uber e aplicativos de mobilidade no Rio","EN":"Using Uber and mobility apps in Rio"},
+"Viaje por aplicación y transporte urbano en Río":{"PT":"Viagens por aplicativo e transporte urbano no Rio","EN":"Ride-hailing and urban transport in Rio"},
+"Yo no subo solamente porque el auto diga “Uber”. Comparo en mi teléfono":{"PT":"Não entro só porque o carro diz “Uber”. Comparo no celular","EN":"I do not get in just because the car says “Uber”. I compare on my phone"},
+"el valor mostrado y que el viaje realmente haya sido finalizado":{"PT":"o valor exibido e se a viagem realmente foi encerrada","EN":"the displayed amount and whether the trip has actually ended"},
+"no le muestres tu pantalla a cualquiera preguntando si es tu Uber":{"PT":"não mostre sua tela a qualquer pessoa perguntando se é seu Uber","EN":"do not show your screen to just anyone asking whether they are your Uber"},
+"nombre y foto del conductor, modelo y matrícula":{"PT":"nome e foto do motorista, modelo e placa","EN":"the driver's name and photo, vehicle model and license plate"},
+"¿Conviene en eventos?":{"PT":"Vale a pena em eventos?","EN":"Is it useful for events?"},
+"¿Cómo aumento mi seguridad de noche?":{"PT":"Como aumentar minha segurança à noite?","EN":"How can I improve my safety at night?"},
+"¿Debo pagar en efectivo si elegí tarjeta?":{"PT":"Preciso pagar em dinheiro se escolhi cartão?","EN":"Do I need to pay cash if I selected a card?"},
+"¿Qué hago si el conductor me pide cancelar y seguir por fuera?":{"PT":"O que fazer se o motorista pedir para cancelar e seguir por fora?","EN":"What if the driver asks me to cancel and continue outside the app?"},
+"¿Qué reviso antes de entrar?":{"PT":"O que conferir antes de entrar?","EN":"What should I check before getting in?"},
+"⚠️ Mucho cuidado con el pago en efectivo":{"PT":"⚠️ Muito cuidado com o pagamento em dinheiro","EN":"⚠️ Take extra care with cash payments"}
 };
