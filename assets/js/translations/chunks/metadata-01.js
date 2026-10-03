@@ -270,5 +270,61 @@ export default {
   "Imagen de Viajar solo o sola": {
     "PT": "Imagem de Viajar sozinho ou sozinha",
     "EN": "Solo travel image"
+  },
+  "Documentos y visado para entrar a Brasil | Ernestinho Carioca": {
+    "PT": "Documentos e visto para entrar no Brasil | Ernestinho Carioca",
+    "EN": "Documents and visas for entering Brazil | Ernestinho Carioca"
+  },
+  "Comprueba las reglas oficiales para tu nacionalidad antes de comprar el viaje.": {
+    "PT": "Confira as regras oficiais para a sua nacionalidade antes de comprar a viagem.",
+    "EN": "Check the official rules for your nationality before booking your trip."
+  },
+  "Viajar a Brasil con menores de edad | Ernestinho Carioca": {
+    "PT": "Viajar ao Brasil com menores de idade | Ernestinho Carioca",
+    "EN": "Traveling to Brazil with minors | Ernestinho Carioca"
+  },
+  "La autorización normalmente se controla al salir del país de origen. Brasil no exige una autorización especial solamente para que un menor extranjero entre como turista, pero el país de salida, la nacionalidad, la residencia del menor y quién lo acompaña sí pueden exigirla.": {
+    "PT": "A autorização normalmente é verificada na saída do país de origem. O Brasil não exige uma autorização especial apenas para que um menor estrangeiro entre como turista, mas o país de saída, a nacionalidade, a residência do menor e quem o acompanha podem exigi-la.",
+    "EN": "Authorization is normally checked when leaving the country of origin. Brazil does not require special authorization solely for a foreign minor to enter as a tourist, but the country of departure, the minor’s nationality and residence, and who is accompanying them may require it."
+  },
+  "Permanencia como turista y extensión | Ernestinho Carioca": {
+    "PT": "Permanência como turista e prorrogação | Ernestinho Carioca",
+    "EN": "Tourist stay and extension | Ernestinho Carioca"
+  },
+  "Muchos visitantes reciben hasta 90 días, pero el plazo y la posibilidad de prórroga dependen de su nacionalidad y del régimen migratorio aplicado. No asumas que todos reciben automáticamente 90 + 90 días.": {
+    "PT": "Muitos visitantes recebem até 90 dias, mas o prazo e a possibilidade de prorrogação dependem da nacionalidade e do regime migratório aplicado. Não presuma que todos recebem automaticamente 90 + 90 dias.",
+    "EN": "Many visitors are granted up to 90 days, but the length of stay and the possibility of an extension depend on nationality and the applicable immigration rules. Do not assume everyone automatically receives 90 + 90 days."
+  },
+  "Dinero en Brasil: reales, tarjetas y seguridad | Ernestinho Carioca": {
+    "PT": "Dinheiro no Brasil: reais, cartões e segurança | Ernestinho Carioca",
+    "EN": "Money in Brazil: reais, cards and safety | Ernestinho Carioca"
+  },
+  "La moneda brasileña es el real: R$ 1,00 significa un real y R$ 20,00 significa veinte. Familiarizarte con los billetes, las monedas y la coma decimal evita confusiones al pagar.": {
+    "PT": "A moeda brasileira é o real: R$ 1,00 significa um real e R$ 20,00 significa vinte. Familiarizar-se com as notas, as moedas e a vírgula decimal evita confusões na hora de pagar.",
+    "EN": "Brazil’s currency is the real: R$ 1,00 means one real and R$ 20,00 means twenty. Becoming familiar with banknotes, coins and the decimal comma helps avoid confusion when paying."
+  },
+  "Guía completa de Pix | Ernestinho Carioca": {
+    "PT": "Guia completo do Pix | Ernestinho Carioca",
+    "EN": "Complete Pix guide | Ernestinho Carioca"
+  },
+  "Guía práctica para pagar con Pix en Brasil: opciones de turistas, conversión, seguridad y pasos para confirmar un pago.": {
+    "PT": "Guia prático para pagar com Pix no Brasil: opções para turistas, conversão, segurança e passos para confirmar um pagamento.",
+    "EN": "Practical guide to paying with Pix in Brazil: options for tourists, currency conversion, security and steps to confirm a payment."
+  },
+  "Internet, roaming, chip y eSIM | Ernestinho Carioca": {
+    "PT": "Internet, roaming, chip e eSIM | Ernestinho Carioca",
+    "EN": "Internet, roaming, SIM cards and eSIM | Ernestinho Carioca"
+  },
+  "Llegar conectado permite avisar a la familia, encontrar al conductor, abrir mapas y acceder a reservas desde el primer minuto.": {
+    "PT": "Chegar conectado permite avisar a família, encontrar o motorista, abrir mapas e acessar reservas desde o primeiro minuto.",
+    "EN": "Arriving connected lets you contact family, find your driver, open maps and access bookings from the very first minute."
+  },
+  "Aplicaciones que facilitan tu viaje | Ernestinho Carioca": {
+    "PT": "Aplicativos que facilitam sua viagem | Ernestinho Carioca",
+    "EN": "Apps that make your trip easier | Ernestinho Carioca"
+  },
+  "Instálalas y crea las cuentas antes de viajar. Algunas pueden pedir SMS, CPF o una tarjeta compatible.": {
+    "PT": "Instale os aplicativos e crie as contas antes de viajar. Alguns podem pedir SMS, CPF ou um cartão compatível.",
+    "EN": "Install the apps and create your accounts before traveling. Some may require SMS verification, a CPF or a compatible card."
   }
 };
