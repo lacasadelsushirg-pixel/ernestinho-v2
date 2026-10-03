@@ -1274,5 +1274,301 @@ export default {
   "Teatro Municipal Ziembinski | Ernestinho Carioca": {
     "PT": "Teatro Municipal Ziembinski | Ernestinho Carioca",
     "EN": "Teatro Municipal Ziembinski | Ernestinho Carioca"
+  },
+  "Cosas que nadie te explica antes de venir | Ernestinho Carioca": {
+    "PT": "Coisas que ninguém explica antes de você vir | Ernestinho Carioca",
+    "EN": "Things nobody explains before you visit | Ernestinho Carioca"
+  },
+  "Códigos pequeños que cambian muchísimo la experiencia cuando los entiendes desde el primer día.": {
+    "PT": "Pequenos códigos que mudam muito a experiência quando você os entende desde o primeiro dia.",
+    "EN": "Small customs that make a big difference when you understand them from day one."
+  },
+  "Por qué viajar con seguro | Ernestinho Carioca": {
+    "PT": "Por que viajar com seguro | Ernestinho Carioca",
+    "EN": "Why travel with insurance | Ernestinho Carioca"
+  },
+  "Una urgencia, una cancelación o una maleta perdida pueden cambiar el viaje. El seguro no evita el problema, pero puede darte asistencia y proteger tu presupuesto.": {
+    "PT": "Uma emergência, um cancelamento ou uma mala perdida podem mudar a viagem. O seguro não evita o problema, mas pode oferecer assistência e proteger seu orçamento.",
+    "EN": "An emergency, a cancellation or a lost bag can change your trip. Insurance cannot prevent the problem, but it can provide assistance and protect your budget."
+  },
+  "Río en 1, 2, 3, 4, 5, 6 o 7 días | Ernestinho Carioca": {
+    "PT": "Rio em 1, 2, 3, 4, 5, 6 ou 7 dias | Ernestinho Carioca",
+    "EN": "Rio in 1, 2, 3, 4, 5, 6 or 7 days | Ernestinho Carioca"
+  },
+  "Itinerarios por zonas para aprovechar el tiempo sin pasar el viaje dentro del tránsito.": {
+    "PT": "Roteiros por regiões para aproveitar o tempo sem passar a viagem no trânsito.",
+    "EN": "Itineraries by area to make the most of your time without spending your trip in traffic."
+  },
+  "Trampas y cobros que debes reconocer | Ernestinho Carioca": {
+    "PT": "Armadilhas e cobranças que você deve reconhecer | Ernestinho Carioca",
+    "EN": "Tourist traps and charges to watch for | Ernestinho Carioca"
+  },
+  "Información para viajar atento sin transformar la experiencia en miedo.": {
+    "PT": "Informações para viajar com atenção sem transformar a experiência em medo.",
+    "EN": "Information to help you stay alert while travelling without turning the experience into fear."
+  },
+  "Errores de Google Maps que pueden hacerte perder tiempo | Ernestinho Carioca": {
+    "PT": "Erros do Google Maps que podem fazer você perder tempo | Ernestinho Carioca",
+    "EN": "Google Maps mistakes that can waste your time | Ernestinho Carioca"
+  },
+  "El camino más corto no siempre es el más práctico o apropiado para un visitante.": {
+    "PT": "O caminho mais curto nem sempre é o mais prático ou adequado para um visitante.",
+    "EN": "The shortest route is not always the most practical or appropriate for a visitor."
+  },
+  "Ruta Zona Portuaria y Centro de Río | Ernestinho Carioca": {
+    "PT": "Roteiro pela Zona Portuária e pelo Centro do Rio | Ernestinho Carioca",
+    "EN": "Route through Rio’s port district and downtown | Ernestinho Carioca"
+  },
+  "Un recorrido autoguiado que conecta siete lugares inolvidables. Puedes hacerlo completo o dividirlo en dos jornadas para entrar con calma a cada atracción.": {
+    "PT": "Um roteiro autoguiado que conecta sete lugares inesquecíveis. Você pode fazê-lo inteiro ou dividi-lo em dois dias para visitar cada atração com calma.",
+    "EN": "A self-guided route connecting seven unforgettable places. Follow it in full or split it over two days to explore each attraction at your own pace."
+  },
+  "20 errores que debes evitar sí o sí en Río de Janeiro | Ernestinho Carioca": {
+    "PT": "20 erros que você precisa evitar no Rio de Janeiro | Ernestinho Carioca",
+    "EN": "20 mistakes you must avoid in Rio de Janeiro | Ernestinho Carioca"
+  },
+  "20 errores que debes evitar sí o sí en Río de Janeiro: consejos prácticos para viajar con más información, evitar problemas frecuentes y disfrutar mejor la ciudad.": {
+    "PT": "20 erros que você precisa evitar no Rio de Janeiro: dicas práticas para viajar mais informado, evitar problemas comuns e aproveitar melhor a cidade.",
+    "EN": "20 mistakes you must avoid in Rio de Janeiro: practical tips to travel better informed, avoid common problems and enjoy the city more."
+  },
+  "Portugués para sobrevivir en Río | Ernestinho Carioca": {
+    "PT": "Português para se virar no Rio | Ernestinho Carioca",
+    "EN": "Portuguese to get by in Rio | Ernestinho Carioca"
+  },
+  "40 frases esenciales con traducción para saludar, moverse, comer, comprar, alojarse y pedir ayuda.": {
+    "PT": "40 frases essenciais com tradução para cumprimentar, se locomover, comer, comprar, se hospedar e pedir ajuda.",
+    "EN": "40 essential phrases with translations for greetings, getting around, eating, shopping, accommodation and asking for help."
+  },
+  "50 preguntas antes de viajar a Río | Ernestinho Carioca": {
+    "PT": "50 perguntas antes de viajar para o Rio | Ernestinho Carioca",
+    "EN": "50 questions before travelling to Rio | Ernestinho Carioca"
+  },
+  "Respuestas rápidas a las dudas que más se repiten antes y durante un viaje.": {
+    "PT": "Respostas rápidas às dúvidas mais comuns antes e durante uma viagem.",
+    "EN": "Quick answers to the most common questions before and during a trip."
+  },
+  "Amaneceres y atardeceres inolvidables | Ernestinho Carioca": {
+    "PT": "Amanheceres e entardeceres inesquecíveis | Ernestinho Carioca",
+    "EN": "Unforgettable sunrises and sunsets | Ernestinho Carioca"
+  },
+  "Una selección para elegir la vista según la hora, el barrio y el esfuerzo que quieres realizar. Llega antes: el mejor momento muchas veces dura pocos minutos.": {
+    "PT": "Uma seleção para escolher a vista conforme o horário, o bairro e o esforço que você quer fazer. Chegue antes: muitas vezes o melhor momento dura poucos minutos.",
+    "EN": "A selection to help you choose a view based on the time, neighbourhood and effort you want to make. Arrive early: the best moment often lasts only a few minutes."
+  },
+  "Qué revisar antes de salir del alojamiento | Ernestinho Carioca": {
+    "PT": "O que conferir antes de sair da hospedagem | Ernestinho Carioca",
+    "EN": "What to check before leaving your accommodation | Ernestinho Carioca"
+  },
+  "Una comprobación de dos minutos puede evitar perder tiempo durante el día.": {
+    "PT": "Uma checagem de dois minutos pode evitar perda de tempo durante o dia.",
+    "EN": "A two-minute check can save you time during the day."
+  },
+  "Cómo funciona un rodizio brasileño | Ernestinho Carioca": {
+    "PT": "Como funciona um rodízio brasileiro | Ernestinho Carioca",
+    "EN": "How a Brazilian rodízio works | Ernestinho Carioca"
+  },
+  "Pagas un precio fijo por una secuencia de productos; bebidas y postres suelen cobrarse aparte.": {
+    "PT": "Você paga um preço fixo por uma sequência de produtos; bebidas e sobremesas costumam ser cobradas à parte.",
+    "EN": "You pay a fixed price for a succession of dishes; drinks and desserts are usually charged separately."
+  },
+  "Souvenirs y regalos para llevar | Ernestinho Carioca": {
+    "PT": "Lembranças e presentes para levar | Ernestinho Carioca",
+    "EN": "Souvenirs and gifts to take home | Ernestinho Carioca"
+  },
+  "Recuerdos con identidad brasileña, útiles y fáciles de transportar.": {
+    "PT": "Lembranças com identidade brasileira, úteis e fáceis de transportar.",
+    "EN": "Useful, easy-to-carry souvenirs with a distinctly Brazilian identity."
+  },
+  "Consejos específicos para diez perfiles de viajeros, con prioridades diferentes.": {
+    "PT": "Dicas específicas para dez perfis de viajantes, com prioridades diferentes.",
+    "EN": "Specific tips for ten traveller profiles with different priorities."
+  },
+  "Qué hacer cada día de la semana | Ernestinho Carioca": {
+    "PT": "O que fazer em cada dia da semana | Ernestinho Carioca",
+    "EN": "What to do each day of the week | Ernestinho Carioca"
+  },
+  "Siete planes de mañana, tarde y noche para que no llegues a Río preguntándote qué estará abierto.": {
+    "PT": "Sete programas de manhã, tarde e noite para você não chegar ao Rio se perguntando o que estará aberto.",
+    "EN": "Seven morning, afternoon and evening plans so you do not arrive in Rio wondering what will be open."
+  },
+  "Supermercados en Río: frutas, bebidas y café | Ernestinho Carioca": {
+    "PT": "Supermercados no Rio: frutas, bebidas e café | Ernestinho Carioca",
+    "EN": "Supermarkets in Rio: fruit, drinks and coffee | Ernestinho Carioca"
+  },
+  "Qué probar y comprar en supermercados de Río: frutas brasileñas, café, bebidas, dulces, tapioca, quesos y consejos prácticos para Copacabana.": {
+    "PT": "O que provar e comprar nos supermercados do Rio: frutas brasileiras, café, bebidas, doces, tapioca, queijos e dicas práticas para Copacabana.",
+    "EN": "What to try and buy in Rio’s supermarkets: Brazilian fruit, coffee, drinks, sweets, tapioca, cheeses and practical tips for Copacabana."
+  },
+  "Pedra da Gávea | Ernestinho Carioca": {
+    "PT": "Pedra da Gávea | Ernestinho Carioca",
+    "EN": "Pedra da Gávea | Ernestinho Carioca"
+  },
+  "Pico da Tijuca | Ernestinho Carioca": {
+    "PT": "Pico da Tijuca | Ernestinho Carioca",
+    "EN": "Pico da Tijuca | Ernestinho Carioca"
+  },
+  "Cachoeira dos Primatas | Ernestinho Carioca": {
+    "PT": "Cachoeira dos Primatas | Ernestinho Carioca",
+    "EN": "Cachoeira dos Primatas | Ernestinho Carioca"
+  },
+  "Pedra do Pontal | Ernestinho Carioca": {
+    "PT": "Pedra do Pontal | Ernestinho Carioca",
+    "EN": "Pedra do Pontal | Ernestinho Carioca"
+  },
+  "Bico do Papagaio | Ernestinho Carioca": {
+    "PT": "Bico do Papagaio | Ernestinho Carioca",
+    "EN": "Bico do Papagaio | Ernestinho Carioca"
+  },
+  "Parque das Catacumbas | Ernestinho Carioca": {
+    "PT": "Parque das Catacumbas | Ernestinho Carioca",
+    "EN": "Parque das Catacumbas | Ernestinho Carioca"
+  },
+  "Parque do Flamengo (Aterro do Flamengo) | Ernestinho Carioca": {
+    "PT": "Parque do Flamengo (Aterro do Flamengo) | Ernestinho Carioca",
+    "EN": "Parque do Flamengo (Aterro do Flamengo) | Ernestinho Carioca"
+  },
+  "Circuito das Grutas | Ernestinho Carioca": {
+    "PT": "Circuito das Grutas | Ernestinho Carioca",
+    "EN": "Circuito das Grutas | Ernestinho Carioca"
+  },
+  "Sítio Roberto Burle Marx | Ernestinho Carioca": {
+    "PT": "Sítio Roberto Burle Marx | Ernestinho Carioca",
+    "EN": "Sítio Roberto Burle Marx | Ernestinho Carioca"
+  },
+  "Prainha do Vidigal | Ernestinho Carioca": {
+    "PT": "Prainha do Vidigal | Ernestinho Carioca",
+    "EN": "Prainha do Vidigal | Ernestinho Carioca"
+  },
+  "Praia dos Amores (Barra) | Ernestinho Carioca": {
+    "PT": "Praia dos Amores (Barra) | Ernestinho Carioca",
+    "EN": "Praia dos Amores (Barra) | Ernestinho Carioca"
+  },
+  "Praia da Reserva | Ernestinho Carioca": {
+    "PT": "Praia da Reserva | Ernestinho Carioca",
+    "EN": "Praia da Reserva | Ernestinho Carioca"
+  },
+  "Praia Vermelha | Ernestinho Carioca": {
+    "PT": "Praia Vermelha | Ernestinho Carioca",
+    "EN": "Praia Vermelha | Ernestinho Carioca"
+  },
+  "¿Qué hago hoy en Río? | Ernestinho Carioca": {
+    "PT": "O que fazer hoje no Rio? | Ernestinho Carioca",
+    "EN": "What should I do today in Rio? | Ernestinho Carioca"
+  },
+  "Ideas para elegir qué hacer hoy en Río según el tiempo, tu energía, el barrio y el momento del día. Recomendaciones editoriales, sin datos dinámicos inventados.": {
+    "PT": "Ideias para escolher o que fazer hoje no Rio conforme o tempo, sua energia, o bairro e o momento do dia. Recomendações editoriais, sem dados dinâmicos inventados.",
+    "EN": "Ideas to choose what to do today in Rio based on the weather, your energy, the neighbourhood and the time of day. Editorial recommendations without invented live data."
+  },
+  "Programas, entrevistas y apariciones originales de Ernestinho Carioca en televisión y medios.": {
+    "PT": "Programas, entrevistas e participações originais do Ernestinho Carioca na televisão e na mídia.",
+    "EN": "Original programmes, interviews and appearances by Ernestinho Carioca on television and in the media."
+  },
+  "Zona Portuaria por tu cuenta | Ernestinho Carioca": {
+    "PT": "Zona Portuária por conta própria | Ernestinho Carioca",
+    "EN": "Rio’s port district on your own | Ernestinho Carioca"
+  },
+  "Recorrido autoguiado por la Zona Portuaria de Río con paradas ordenadas y consejos de Ernestinho.": {
+    "PT": "Roteiro autoguiado pela Zona Portuária do Rio com paradas em sequência e dicas do Ernestinho.",
+    "EN": "A self-guided route through Rio’s port district with stops in sequence and tips from Ernestinho."
+  },
+  "Grandes eventos de Río | Ernestinho Carioca": {
+    "PT": "Grandes eventos do Rio | Ernestinho Carioca",
+    "EN": "Major events in Rio | Ernestinho Carioca"
+  },
+  "Carnaval, Réveillon, festivales y conciertos de Río de Janeiro: fechas, transporte, historia y consejos de Ernestinho.": {
+    "PT": "Carnaval, Réveillon, festivais e shows do Rio de Janeiro: datas, transporte, história e dicas do Ernestinho.",
+    "EN": "Carnival, New Year’s Eve, festivals and concerts in Rio de Janeiro: dates, transport, history and Ernestinho’s tips."
+  },
+  "Privacidad, precios y condiciones | Ernestinho Carioca": {
+    "PT": "Privacidade, preços e condições | Ernestinho Carioca",
+    "EN": "Privacy, prices and terms | Ernestinho Carioca"
+  },
+  "Condiciones de reservas, precios, cancelaciones, alquileres temporarios y privacidad de Ernestinho Carioca.": {
+    "PT": "Condições de reservas, preços, cancelamentos, aluguéis por temporada e privacidade do Ernestinho Carioca.",
+    "EN": "Ernestinho Carioca’s terms for bookings, prices, cancellations, holiday rentals and privacy."
+  },
+  "Atracciones | Ernestinho Carioca. Los lugares que probablemente ya conoces por una foto, explicados para que la visita tenga sentido.": {
+    "PT": "Atrações — Ernestinho Carioca. Lugares que você provavelmente já conhece por uma foto, explicados para que a visita faça sentido.",
+    "EN": "Attractions — Ernestinho Carioca. Places you probably recognise from a photo, explained to make your visit meaningful."
+  },
+  "Río en vivo | Tiempo, mar y cámaras | Ernestinho Carioca": {
+    "PT": "Rio ao vivo — Tempo, mar e câmeras | Ernestinho Carioca",
+    "EN": "Rio live — Weather, sea and cameras | Ernestinho Carioca"
+  },
+  "Consulta el tiempo y el viento en Río, el nivel del mar estimado, las tablas de mareas oficiales y cámaras en Copacabana y otros puntos de la ciudad.": {
+    "PT": "Consulte o tempo e o vento no Rio, o nível estimado do mar, as tábuas oficiais de marés e câmeras em Copacabana e outros pontos da cidade.",
+    "EN": "Check Rio’s weather and wind, estimated sea level, official tide tables and cameras in Copacabana and other parts of the city."
+  },
+  "Café Río · Café Ernestinho | Ernestinho Carioca": {
+    "PT": "Café Rio · Café Ernestinho | Ernestinho Carioca",
+    "EN": "Rio Coffee · Café Ernestinho | Ernestinho Carioca"
+  },
+  "Gávea + Jardim Botânico + Lagoa | Una zona verde y residencial donde Río se siente menos acelerado: montaña, jardines, laguna, cultura y vida de barrio.": {
+    "PT": "Gávea + Jardim Botânico + Lagoa — Uma região verde e residencial onde o Rio parece menos acelerado: montanha, jardins, lagoa, cultura e vida de bairro.",
+    "EN": "Gávea + Jardim Botânico + Lagoa — A green residential area where Rio feels less hurried: mountains, gardens, a lagoon, culture and neighbourhood life."
+  },
+  "Botafogo + Urca | Bahía, montaña, gastronomía y vida nocturna local. Es una de las mejores zonas para combinar grandes postales con escenas más cariocas.": {
+    "PT": "Botafogo + Urca — Baía, montanha, gastronomia e vida noturna local. Uma das melhores regiões para combinar grandes cartões-postais com cenas mais cariocas.",
+    "EN": "Botafogo + Urca — Bay, mountains, food and local nightlife. One of the best areas to combine iconic views with everyday Rio scenes."
+  },
+  "Ipanema + Leblon | Dos barrios vecinos que mezclan playa, diseño, gastronomía, vida residencial y una de las puestas de sol más famosas de Río.": {
+    "PT": "Ipanema + Leblon — Dois bairros vizinhos que misturam praia, design, gastronomia, vida residencial e um dos pôr do sol mais famosos do Rio.",
+    "EN": "Ipanema + Leblon — Two neighbouring districts combining beaches, design, food, residential life and one of Rio’s most famous sunsets."
+  },
+  "Barra + Zona Oeste | La ciudad se abre: largas playas, reservas naturales, shoppings, grandes avenidas y distancias que obligan a planificar diferente.": {
+    "PT": "Barra + Zona Oeste — A cidade se abre: praias extensas, reservas naturais, shoppings, grandes avenidas e distâncias que exigem outro planejamento.",
+    "EN": "Barra + West Zone — The city opens up: long beaches, nature reserves, malls, major avenues and distances that call for different planning."
+  },
+  "Flamengo + Glória | El gran corredor que une Zona Sul y Centro: parques, República, museos, ferias, iglesias y vida cotidiana alrededor del Aterro.": {
+    "PT": "Flamengo + Glória — O grande corredor que liga a Zona Sul ao Centro: parques, República, museus, feiras, igrejas e vida cotidiana ao redor do Aterro.",
+    "EN": "Flamengo + Glória — The broad corridor linking the South Zone and downtown: parks, republican history, museums, markets, churches and daily life around Aterro do Flamengo."
+  },
+  "Centro + Praça Mauá | El corazón histórico de Río: capas coloniales, imperiales, republicanas, africanas y contemporáneas conviven a pocas cuadras.": {
+    "PT": "Centro + Praça Mauá — O coração histórico do Rio: camadas coloniais, imperiais, republicanas, africanas e contemporâneas convivem a poucos quarteirões.",
+    "EN": "Downtown + Praça Mauá — Rio’s historic heart: colonial, imperial, republican, African and contemporary layers coexist within a few blocks."
+  },
+  "Zona Norte | Aquí aparece otro Río: fútbol, samba, cultura popular, parques, barrios residenciales y grandes instituciones fuera del circuito clásico de la.": {
+    "PT": "Zona Norte — Aqui aparece outro Rio: futebol, samba, cultura popular, parques, bairros residenciais e grandes instituições fora do circuito clássico da.",
+    "EN": "North Zone — Another Rio emerges here: football, samba, folk culture, parks, residential neighbourhoods and major institutions beyond the classic circuit of the."
+  },
+  "Santa Teresa + Lapa | Dos caras de un mismo Río bohemio: Santa Teresa sube entre casarones y arte; Lapa concentra arcos, samba, bares y noche.": {
+    "PT": "Santa Teresa + Lapa — Duas faces do mesmo Rio boêmio: Santa Teresa sobe entre casarões e arte; Lapa reúne arcos, samba, bares e vida noturna.",
+    "EN": "Santa Teresa + Lapa — Two sides of the same bohemian Rio: Santa Teresa climbs among historic houses and art; Lapa brings together arches, samba, bars and nightlife."
+  },
+  "Copacabana | Mucho más que una playa: historia, arquitectura, música, literatura, vida residencial, comercio y uno de los paseos marítimos más famosos del.": {
+    "PT": "Copacabana — Muito mais que uma praia: história, arquitetura, música, literatura, vida residencial, comércio e um dos passeios à beira-mar mais famosos do.",
+    "EN": "Copacabana — Much more than a beach: history, architecture, music, literature, residential life, shopping and one of the most famous seafront promenades in the."
+  },
+  "Escadaria Selarón | Atracciones Ernestinho. La escalera tiene más sentido cuando la conectas con Lapa, Santa Teresa y la historia de su entorno, no como una…": {
+    "PT": "Escadaria Selarón — Atrações Ernestinho. A escadaria faz mais sentido quando você a conecta à Lapa, a Santa Teresa e à história dos arredores, não como uma…",
+    "EN": "Escadaria Selarón — Ernestinho Attractions. The steps make more sense when connected with Lapa, Santa Teresa and the history of the surrounding area, rather than as a…"
+  },
+  "Maracanã | Atracciones Ernestinho. El tour del estadio y vivir un partido son experiencias distintas. La primera sirve para conocer bastidores e historia…": {
+    "PT": "Maracanã — Atrações Ernestinho. Fazer o tour do estádio e assistir a um jogo são experiências diferentes. A primeira permite conhecer os bastidores e a história…",
+    "EN": "Maracanã — Ernestinho Attractions. Touring the stadium and attending a match are different experiences. The first lets you discover behind the scenes and the history…"
+  },
+  "Pão de Açúcar | Atracciones Ernestinho. Urca y el Pão de Açúcar funcionan especialmente bien cuando la luz acompaña. Puedes convertir la visita en medio día…": {
+    "PT": "Pão de Açúcar — Atrações Ernestinho. Urca e o Pão de Açúcar funcionam especialmente bem quando a luz ajuda. Você pode transformar a visita em meio dia…",
+    "EN": "Pão de Açúcar — Ernestinho Attractions. Urca and Pão de Açúcar work particularly well when the light is right. You can turn the visit into half a day…"
+  },
+  "Parque Lage | Atracciones Ernestinho. Parque Lage mezcla jardín, arquitectura y paisaje al pie del Corcovado. Es fácil combinarlo con Jardim Botânico si el…": {
+    "PT": "Parque Lage — Atrações Ernestinho. O Parque Lage mistura jardim, arquitetura e paisagem aos pés do Corcovado. É fácil combinar com o Jardim Botânico se o…",
+    "EN": "Parque Lage — Ernestinho Attractions. Parque Lage combines gardens, architecture and scenery at the foot of Corcovado. It is easy to combine with Jardim Botânico if the…"
+  },
+  "Jardim Botânico | Atracciones Ernestinho. Es un plan para caminar con calma, observar vegetación y bajar el ritmo. Tiene más sentido reservarle tiempo que…": {
+    "PT": "Jardim Botânico — Atrações Ernestinho. Um programa para caminhar com calma, observar a vegetação e desacelerar. Vale mais reservar tempo para a visita do que…",
+    "EN": "Jardim Botânico — Ernestinho Attractions. A place to stroll, observe plants and slow down. It makes more sense to allow time for it than…"
+  },
+  "AquaRio | Atracciones Ernestinho. AquaRio es una de las opciones que mejor encajan con familias y con un plan de Zona Portuaria. Puede combinarse con…": {
+    "PT": "AquaRio — Atrações Ernestinho. O AquaRio é uma das opções que melhor combinam com famílias e um programa pela Zona Portuária. Pode ser combinado com…",
+    "EN": "AquaRio — Ernestinho Attractions. AquaRio is one of the best options for families and a day in the port district. It can be combined with…"
+  },
+  "Museu do Amanhã | Atracciones Ernestinho. El museo puede ser destino y también pieza de un recorrido mayor por Praça Mauá, Boulevard Olímpico y la Zona…": {
+    "PT": "Museu do Amanhã — Atrações Ernestinho. O museu pode ser um destino e também parte de um roteiro maior pela Praça Mauá, pelo Boulevard Olímpico e pela Zona…",
+    "EN": "Museu do Amanhã — Ernestinho Attractions. The museum can be a destination and part of a wider route through Praça Mauá, Boulevard Olímpico and the district…"
+  },
+  "Cristo Redentor | Atracciones Ernestinho. El Cristo es una de las visitas que más depende de visibilidad, hora y forma de acceso. No basta con ponerlo en…": {
+    "PT": "Cristo Redentor — Atrações Ernestinho. A visita ao Cristo depende muito da visibilidade, do horário e da forma de acesso. Não basta incluí-lo em…",
+    "EN": "Cristo Redentor — Ernestinho Attractions. Visiting Christ the Redeemer depends greatly on visibility, time and access arrangements. Simply putting it on…"
   }
 };
