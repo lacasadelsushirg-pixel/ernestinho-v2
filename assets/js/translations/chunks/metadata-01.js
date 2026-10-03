@@ -530,5 +530,205 @@ export default {
   "Guía práctica de Traslado privado Ernestinho en Río de Janeiro: conexiones, pago, planificación y consejos de Ernestinho.": {
     "PT": "Guia prático do traslado privado Ernestinho no Rio de Janeiro: conexões, pagamento, planejamento e dicas de Ernestinho.",
     "EN": "Practical guide to Ernestinho private transfers in Rio de Janeiro: connections, payment, planning and Ernestinho’s tips."
+  },
+  "Experiencias | Ernestinho Carioca": {
+    "PT": "Experiências | Ernestinho Carioca",
+    "EN": "Experiences | Ernestinho Carioca"
+  },
+  "Experiencias en Río de Janeiro seleccionadas por Ernestinho Carioca.": {
+    "PT": "Experiências no Rio de Janeiro selecionadas por Ernestinho Carioca.",
+    "EN": "Rio de Janeiro experiences selected by Ernestinho Carioca."
+  },
+  "Favela Vidigal | Experiencias Ernestinho": {
+    "PT": "Favela Vidigal | Experiências Ernestinho",
+    "EN": "Vidigal Favela | Ernestinho Experiences"
+  },
+  "Recorrido por Vidigal con contexto local, comunidad y vistas de la Zona Sur.": {
+    "PT": "Passeio pelo Vidigal com contexto local, comunidade e vistas da Zona Sul.",
+    "EN": "Tour of Vidigal with local context, community life and views of Rio’s South Zone."
+  },
+  "Ala delta | Experiencias Ernestinho": {
+    "PT": "Asa-delta | Experiências Ernestinho",
+    "EN": "Hang gliding | Ernestinho Experiences"
+  },
+  "Vuelo libre sobre Río. Estoy preparando la ficha completa, condiciones, fotografías y reserva antes de activarla comercialmente.": {
+    "PT": "Voo livre sobre o Rio. Estou preparando a página completa, condições, fotografias e reserva antes de ativá-la comercialmente.",
+    "EN": "Free flight over Rio. I am preparing the full page, conditions, photos and booking details before making it commercially available."
+  },
+  "BioParque | Ernestinho Carioca": {
+    "PT": "BioParque | Ernestinho Carioca",
+    "EN": "BioParque | Ernestinho Carioca"
+  },
+  "BioParque de Río como actividad de medio día para familias.": {
+    "PT": "BioParque do Rio como atividade de meio dia para famílias.",
+    "EN": "Rio’s BioParque as a half-day activity for families."
+  },
+  "Favela Santa Marta | Ernestinho Carioca": {
+    "PT": "Favela Santa Marta | Ernestinho Carioca",
+    "EN": "Santa Marta Favela | Ernestinho Carioca"
+  },
+  "Recorrido responsable por una de las comunidades más conocidas de la Zona Sur.": {
+    "PT": "Passeio responsável por uma das comunidades mais conhecidas da Zona Sul.",
+    "EN": "A responsible tour through one of the best-known communities in Rio’s South Zone."
+  },
+  "Pequeña África | Ernestinho Carioca": {
+    "PT": "Pequena África | Ernestinho Carioca",
+    "EN": "Little Africa | Ernestinho Carioca"
+  },
+  "Walking tour por la memoria afrobrasileña de la Zona Portuaria: Cais do Valongo, Pedra do Sal, Largo de São Francisco da Prainha y entorno.": {
+    "PT": "Walking tour pela memória afro-brasileira da Zona Portuária: Cais do Valongo, Pedra do Sal, Largo de São Francisco da Prainha e arredores.",
+    "EN": "Walking tour through the Afro-Brazilian heritage of the Port Zone: Cais do Valongo, Pedra do Sal, Largo de São Francisco da Prainha and surrounding area."
+  },
+  "Favela Rocinha | Ernestinho Carioca": {
+    "PT": "Favela Rocinha | Ernestinho Carioca",
+    "EN": "Rocinha Favela | Ernestinho Carioca"
+  },
+  "Vive Rocinha con guía local: moto-taxi, Mirador Laboriaux, capoeira, callejones, miradores y la vida real de una de las comunidades más conocidas de Río.": {
+    "PT": "Viva a Rocinha com guia local: mototáxi, Mirante Laboriaux, capoeira, becos, mirantes e a vida real de uma das comunidades mais conhecidas do Rio.",
+    "EN": "Experience Rocinha with a local guide: motorcycle taxi, Laboriaux viewpoint, capoeira, alleys, viewpoints and everyday life in one of Rio’s best-known communities."
+  },
+  "Parasail en Río | Ernestinho Carioca": {
+    "PT": "Parasail no Rio | Ernestinho Carioca",
+    "EN": "Parasailing in Rio | Ernestinho Carioca"
+  },
+  "Parasail en Río de Janeiro: cómo funciona la experiencia, qué esperar del vuelo y consejos prácticos antes de realizar la actividad.": {
+    "PT": "Parasail no Rio de Janeiro: como funciona a experiência, o que esperar do voo e dicas práticas antes de realizar a atividade.",
+    "EN": "Parasailing in Rio de Janeiro: how the experience works, what to expect from the flight and practical tips before the activity."
+  },
+  "Salto en paracaídas | Ernestinho Carioca": {
+    "PT": "Salto de paraquedas | Ernestinho Carioca",
+    "EN": "Skydiving | Ernestinho Carioca"
+  },
+  "Paracaidismo cerca de Río de Janeiro: cómo es la experiencia, qué considerar antes de reservar y consejos prácticos para organizar el salto.": {
+    "PT": "Paraquedismo perto do Rio de Janeiro: como é a experiência, o que considerar antes de reservar e dicas práticas para organizar o salto.",
+    "EN": "Skydiving near Rio de Janeiro: what the experience is like, what to consider before booking and practical tips for planning your jump."
+  },
+  "Lancha privada en Río | Ernestinho Carioca": {
+    "PT": "Lancha privativa no Rio | Ernestinho Carioca",
+    "EN": "Private boat in Rio | Ernestinho Carioca"
+  },
+  "Paseo privado en lancha desde Marina da Glória con opciones para distintos tamaños de grupo y rutas por la costa de Río.": {
+    "PT": "Passeio privativo de lancha saindo da Marina da Glória, com opções para diferentes tamanhos de grupo e roteiros pela costa do Rio.",
+    "EN": "Private boat trip from Marina da Glória, with options for different group sizes and routes along Rio’s coastline."
+  },
+  "Pedra Bonita | Ernestinho Carioca": {
+    "PT": "Pedra Bonita | Ernestinho Carioca",
+    "EN": "Pedra Bonita | Ernestinho Carioca"
+  },
+  "Trilha guiada a Pedra Bonita: bosque, vuelo libre y una de las vistas naturales más completas de Río de Janeiro.": {
+    "PT": "Trilha guiada à Pedra Bonita: floresta, voo livre e uma das vistas naturais mais completas do Rio de Janeiro.",
+    "EN": "Guided hike to Pedra Bonita: forest, free flight and one of Rio de Janeiro’s most complete natural views."
+  },
+  "Río en helicóptero | Ernestinho Carioca": {
+    "PT": "Rio de helicóptero | Ernestinho Carioca",
+    "EN": "Rio by helicopter | Ernestinho Carioca"
+  },
+  "Sobrevuela Río de Janeiro en helicóptero y contempla Cristo Redentor, playas, montañas y las grandes postales desde el cielo.": {
+    "PT": "Sobrevoe o Rio de Janeiro de helicóptero e contemple o Cristo Redentor, praias, montanhas e os grandes cartões-postais vistos do céu.",
+    "EN": "Fly over Rio de Janeiro by helicopter and see Christ the Redeemer, beaches, mountains and the city’s iconic sights from the sky."
+  },
+  "Búzios en Goleta | Ernestinho Carioca": {
+    "PT": "Búzios de escuna | Ernestinho Carioca",
+    "EN": "Búzios schooner tour | Ernestinho Carioca"
+  },
+  "Descubre la perla de la Región de Lagos y disfruta de algunas de las playas más encantadoras de Brasil en una experiencia completa desde Río de Janeiro.": {
+    "PT": "Descubra a pérola da Região dos Lagos e aproveite algumas das praias mais encantadoras do Brasil em uma experiência completa saindo do Rio de Janeiro.",
+    "EN": "Discover the pearl of the Lakes Region and enjoy some of Brazil’s most charming beaches on a complete experience from Rio de Janeiro."
+  },
+  "Pedra do Telégrafo | Ernestinho Carioca": {
+    "PT": "Pedra do Telégrafo | Ernestinho Carioca",
+    "EN": "Pedra do Telégrafo | Ernestinho Carioca"
+  },
+  "Trilha guiada a Pedra do Telégrafo con transporte, paisajes de la Zona Oeste y la fotografía más famosa del recorrido.": {
+    "PT": "Trilha guiada à Pedra do Telégrafo com transporte, paisagens da Zona Oeste e a fotografia mais famosa do percurso.",
+    "EN": "Guided hike to Pedra do Telégrafo with transportation, West Zone landscapes and the trail’s most famous photo spot."
+  },
+  "Morro Dois Irmãos | Ernestinho Carioca": {
+    "PT": "Morro Dois Irmãos | Ernestinho Carioca",
+    "EN": "Morro Dois Irmãos | Ernestinho Carioca"
+  },
+  "Sube por Vidigal y conquista Morro Dois Irmãos: trilha, miradores y una panorámica espectacular de la Zona Sur y Rocinha.": {
+    "PT": "Suba pelo Vidigal e conquiste o Morro Dois Irmãos: trilha, mirantes e uma panorâmica espetacular da Zona Sul e da Rocinha.",
+    "EN": "Head up through Vidigal and conquer Morro Dois Irmãos: hiking, viewpoints and a spectacular panorama of the South Zone and Rocinha."
+  },
+  "Maracanã Tour | Ernestinho Carioca": {
+    "PT": "Tour Maracanã | Ernestinho Carioca",
+    "EN": "Maracanã Tour | Ernestinho Carioca"
+  },
+  "Entra al Maracanã y conoce bastidores, vestuarios, historia y espacios de uno de los estadios más famosos del fútbol mundial.": {
+    "PT": "Entre no Maracanã e conheça bastidores, vestiários, história e espaços de um dos estádios mais famosos do futebol mundial.",
+    "EN": "Step inside Maracanã and discover the behind-the-scenes areas, locker rooms, history and spaces of one of the world’s most famous football stadiums."
+  },
+  "AquaRio + Boulevard Olímpico | Ernestinho Carioca": {
+    "PT": "AquaRio + Boulevard Olímpico | Ernestinho Carioca",
+    "EN": "AquaRio + Olympic Boulevard | Ernestinho Carioca"
+  },
+  "AquaRio y Boulevard Olímpico: túnel oceánico, tiburones, rayas, vida marina y el Mural das Etnias en una experiencia para toda la familia.": {
+    "PT": "AquaRio e Boulevard Olímpico: túnel oceânico, tubarões, raias, vida marinha e o Mural das Etnias em uma experiência para toda a família.",
+    "EN": "AquaRio and Olympic Boulevard: ocean tunnel, sharks, rays, marine life and the Mural das Etnias in an experience for the whole family."
+  },
+  "Arraial do Cabo | Ernestinho Carioca": {
+    "PT": "Arraial do Cabo | Ernestinho Carioca",
+    "EN": "Arraial do Cabo | Ernestinho Carioca"
+  },
+  "Descubre el llamado Caribe Brasileño y navega por algunos de los paisajes más impresionantes del litoral de Río de Janeiro.": {
+    "PT": "Descubra o chamado Caribe Brasileiro e navegue por algumas das paisagens mais impressionantes do litoral do Rio de Janeiro.",
+    "EN": "Discover the so-called Brazilian Caribbean and sail through some of the most impressive scenery on the Rio de Janeiro coast."
+  },
+  "Partidos de fútbol en el Maracaná | Ernestinho Carioca": {
+    "PT": "Jogos de futebol no Maracanã | Ernestinho Carioca",
+    "EN": "Football matches at Maracanã | Ernestinho Carioca"
+  },
+  "Vive un partido de fútbol en el Maracaná con entradas, traslado desde tu alojamiento, guía bilingüe y una previa con juegos, bebidas y premios. Nosotros organizamos la jornada para que tú disfrutes.": {
+    "PT": "Viva um jogo de futebol no Maracanã com ingressos, traslado desde sua hospedagem, guia bilíngue e um pré-jogo com brincadeiras, bebidas e prêmios. Nós organizamos o dia para você aproveitar.",
+    "EN": "Experience a football match at Maracanã with tickets, transfer from your accommodation, a bilingual guide and a pre-match gathering with games, drinks and prizes. We organize the day so you can enjoy it."
+  },
+  "Cristo + City Tour | Ernestinho Carioca": {
+    "PT": "Cristo + City Tour | Ernestinho Carioca",
+    "EN": "Christ the Redeemer + City Tour | Ernestinho Carioca"
+  },
+  "Conoce el Cristo Redentor y descubre algunos de los principales puntos turísticos de Río de Janeiro en una experiencia completa para conocer la esencia de la Ciudad Maravillosa.": {
+    "PT": "Conheça o Cristo Redentor e descubra alguns dos principais pontos turísticos do Rio de Janeiro em uma experiência completa para conhecer a essência da Cidade Maravilhosa.",
+    "EN": "Visit Christ the Redeemer and discover some of Rio de Janeiro’s main attractions on a complete experience that captures the essence of the Marvelous City."
+  },
+  "Angra dos Reis | Ernestinho Carioca": {
+    "PT": "Angra dos Reis | Ernestinho Carioca",
+    "EN": "Angra dos Reis | Ernestinho Carioca"
+  },
+  "Descubre un paraíso formado por islas, aguas cristalinas, naturaleza preservada y paisajes que parecen sacados de una postal.": {
+    "PT": "Descubra um paraíso formado por ilhas, águas cristalinas, natureza preservada e paisagens que parecem saídas de um cartão-postal.",
+    "EN": "Discover a paradise of islands, crystal-clear waters, preserved nature and postcard-like landscapes."
+  },
+  "Full Day Río | Ernestinho Carioca": {
+    "PT": "Full Day Rio | Ernestinho Carioca",
+    "EN": "Full Day Rio | Ernestinho Carioca"
+  },
+  "Full Day Río: Cristo Redentor, Pan de Azúcar, Floresta da Tijuca, Maracanã, Sambódromo, Catedral Metropolitana y Escalera Selarón.": {
+    "PT": "Full Day Rio: Cristo Redentor, Pão de Açúcar, Floresta da Tijuca, Maracanã, Sambódromo, Catedral Metropolitana e Escadaria Selarón.",
+    "EN": "Full Day Rio: Christ the Redeemer, Sugarloaf Mountain, Tijuca Forest, Maracanã, Sambadrome, Metropolitan Cathedral and Selarón Steps."
+  },
+  "Rio Samba Bus | Ernestinho Carioca": {
+    "PT": "Rio Samba Bus | Ernestinho Carioca",
+    "EN": "Rio Samba Bus | Ernestinho Carioca"
+  },
+  "Rio Samba Bus: City Tour panorámico musical Hop-on Hop-off, Nightlife y Super Ticket.": {
+    "PT": "Rio Samba Bus: City Tour panorâmico musical Hop-on Hop-off, Nightlife e Super Ticket.",
+    "EN": "Rio Samba Bus: musical panoramic Hop-on Hop-off City Tour, Nightlife and Super Ticket."
+  },
+  "Vuelo en parapente desde Niterói | Ernestinho Carioca": {
+    "PT": "Voo de parapente em Niterói | Ernestinho Carioca",
+    "EN": "Paragliding from Niterói | Ernestinho Carioca"
+  },
+  "Conoce el vuelo en parapente desde el Parque da Cidade de Niterói y consulta disponibilidad para tu fecha.": {
+    "PT": "Conheça o voo de parapente a partir do Parque da Cidade de Niterói e consulte a disponibilidade para a sua data.",
+    "EN": "Discover paragliding from Parque da Cidade in Niterói and check availability for your date."
+  },
+  "Carnaval Experience | Ernestinho Carioca": {
+    "PT": "Carnaval Experience | Ernestinho Carioca",
+    "EN": "Carnaval Experience | Ernestinho Carioca"
+  },
+  "Carnaval Experience | Ernestinho Carioca. Entra a la Cidade do Samba y descubre cómo se construye el mayor espectáculo de Río.": {
+    "PT": "Carnaval Experience | Ernestinho Carioca. Entre na Cidade do Samba e descubra como é construído o maior espetáculo do Rio.",
+    "EN": "Carnaval Experience | Ernestinho Carioca. Enter Cidade do Samba and discover how Rio’s greatest spectacle is created."
   }
 };
