@@ -1,0 +1,415 @@
+{
+  "combinations": 36,
+  "selectorNavigations": 36,
+  "existingWhatsAppChecks": 30,
+  "modifiedLinkTargets": 21,
+  "failures": 0,
+  "externalVideosNotPlayed": true,
+  "rows": [
+    {
+      "route": "/experiencias/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/experiencias/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/pt/experiencias/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/pt/experiencias/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/en/experiencias/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/en/experiencias/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/experiencias/full-day-rio/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/experiencias/full-day-rio/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/pt/experiencias/full-day-rio/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/pt/experiencias/full-day-rio/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/en/experiencias/full-day-rio/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/en/experiencias/full-day-rio/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/experiencias/cristo-city-tour/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/experiencias/cristo-city-tour/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/pt/experiencias/cristo-city-tour/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/pt/experiencias/cristo-city-tour/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/en/experiencias/cristo-city-tour/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/en/experiencias/cristo-city-tour/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/experiencias/buzios/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/experiencias/buzios/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/pt/experiencias/buzios/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/pt/experiencias/buzios/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/en/experiencias/buzios/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/en/experiencias/buzios/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/experiencias/arraial-do-cabo/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/experiencias/arraial-do-cabo/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/pt/experiencias/arraial-do-cabo/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/pt/experiencias/arraial-do-cabo/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/en/experiencias/arraial-do-cabo/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/en/experiencias/arraial-do-cabo/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/experiencias/angra-ilha-grande/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/experiencias/angra-ilha-grande/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/pt/experiencias/angra-ilha-grande/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/pt/experiencias/angra-ilha-grande/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/en/experiencias/angra-ilha-grande/",
+      "width": 390,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    },
+    {
+      "route": "/en/experiencias/angra-ilha-grande/",
+      "width": 1365,
+      "issues": [],
+      "inheritedOverflow": false,
+      "unavailableImagesInherited": [],
+      "runtimeExceptionsInherited": []
+    }
+  ],
+  "static": {
+    "pages": 18,
+    "sourcePreservation": "PASS",
+    "sitemap": "unchanged",
+    "historicalFreeze": "identical inherited baseline; not re-audited",
+    "rows": [
+      {
+        "route": "/experiencias/",
+        "lang": "es",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/pt/experiencias/",
+        "lang": "pt-BR",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/en/experiencias/",
+        "lang": "en",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/experiencias/full-day-rio/",
+        "lang": "es",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/pt/experiencias/full-day-rio/",
+        "lang": "pt-BR",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/en/experiencias/full-day-rio/",
+        "lang": "en",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/experiencias/cristo-city-tour/",
+        "lang": "es",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/pt/experiencias/cristo-city-tour/",
+        "lang": "pt-BR",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/en/experiencias/cristo-city-tour/",
+        "lang": "en",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/experiencias/buzios/",
+        "lang": "es",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/pt/experiencias/buzios/",
+        "lang": "pt-BR",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/en/experiencias/buzios/",
+        "lang": "en",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/experiencias/arraial-do-cabo/",
+        "lang": "es",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/pt/experiencias/arraial-do-cabo/",
+        "lang": "pt-BR",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/en/experiencias/arraial-do-cabo/",
+        "lang": "en",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/experiencias/angra-ilha-grande/",
+        "lang": "es",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/pt/experiencias/angra-ilha-grande/",
+        "lang": "pt-BR",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      },
+      {
+        "route": "/en/experiencias/angra-ilha-grande/",
+        "lang": "en",
+        "canonical_hreflang": "unchanged",
+        "source_guards": "PASS"
+      }
+    ]
+  },
+  "visualReview": "Contact sheets desktop/mobile for all six ES pages and English City Tour; screenshots before/after generated for all 36 combinations. Existing media, grid, header/footer geometry and computed styles matched."
+}

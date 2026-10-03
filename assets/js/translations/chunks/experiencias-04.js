@@ -1859,4 +1859,113 @@ export default {
     "PT": "Rio Samba Bus: experiência cultural de samba no Rio — foto 2",
     "EN": "Rio Samba Bus: cultural samba experience in Rio — photo 2"
   }
+,
+  "Aquí te ayudo a elegir tours y paseos en Río de Janeiro: un recorrido urbano de medio día con": {
+    "PT": "Aqui eu ajudo você a escolher passeios no Rio de Janeiro: um roteiro urbano de meio dia com",
+    "EN": "Here I help you choose Rio de Janeiro tours: a half-day city tour with"
+  },
+  "o una jornada con Cristo y Pan de Azúcar en el": {
+    "PT": "ou um dia com Cristo e Pão de Açúcar no",
+    "EN": "or a day with Christ the Redeemer and Sugarloaf on the"
+  },
+  ". Para una excursión fuera de la ciudad, compara": {
+    "PT": ". Para um passeio saindo do Rio, compare",
+    "EN": ". For a day trip from Rio, compare"
+  },
+  "según lo que quieras vivir en el mar.": {
+    "PT": "de acordo com o que você quer aproveitar no mar.",
+    "EN": "according to what you want to experience on the water."
+  },
+  "Más abajo encontrarás aventura en Deportes extremos y Trekking, cultura en Carnaval Experience y Rio Samba Bus, recorridos locales en Walking y favela tour, y experiencias privadas o especiales en VIP. Abre la ficha que te interese y revisa qué incluye antes de consultar por WhatsApp; la disponibilidad y las condiciones se confirman para tu fecha.": {
+    "PT": "Mais abaixo, você encontra aventura em Esportes radicais e Trilhas, cultura no Carnaval Experience e Rio Samba Bus, passeios locais em Walking e favela tour e experiências privativas ou especiais em VIP. Abra a página que interessar e confira o que está incluído antes de consultar pelo WhatsApp; disponibilidade e condições são confirmadas para a sua data.",
+    "EN": "Below you will find adventure under Adventure sports and Hiking, culture with Carnaval Experience and Rio Samba Bus, local walks under Walking & favela tours, and private or special experiences under VIP. Open the experience page and check what is included before enquiring on WhatsApp; availability and conditions are confirmed for your date."
+  },
+  "Cristo Redentor y Pan de Azúcar en un día, con almuerzo y traslado al hotel.": {
+    "PT": "Cristo Redentor e Pão de Açúcar em um dia, com almoço e transporte até o hotel.",
+    "EN": "Christ the Redeemer and Sugarloaf in one day, with lunch and hotel transport."
+  },
+  "Yo te recomiendo esta opción si quieres reunir Cristo Redentor y Pan de Azúcar en un día, con los ingresos, el almuerzo y el transporte indicados en esta ficha. Si prefieres un recorrido de medio día con el Cristo y paradas por la ciudad, compara el": {
+    "PT": "Eu recomendo esta opção se você quer conhecer Cristo Redentor e Pão de Açúcar em um dia, com os ingressos, o almoço e o transporte indicados nesta página. Se prefere um passeio de meio dia com o Cristo e paradas pela cidade, compare o",
+    "EN": "I recommend this option if you want to visit Christ the Redeemer and Sugarloaf in one day, with the admission, lunch and transport described on this page. If you prefer a half-day tour with Christ the Redeemer and city stops, compare the"
+  },
+  ". Para organizar una visita por tu cuenta, consulta la": {
+    "PT": ". Para organizar uma visita por conta própria, consulte o",
+    "EN": ". To arrange an independent visit, read the"
+  },
+  "guía del Cristo Redentor": {
+    "PT": "guia do Cristo Redentor",
+    "EN": "Christ the Redeemer guide"
+  },
+  "Antes de reservar, cuéntame tu fecha, cuántas personas viajan y dónde se alojan. Con esos datos confirmo contigo la disponibilidad y las condiciones de la salida; utiliza el botón de reserva de esta página para continuar por WhatsApp.": {
+    "PT": "Antes de reservar, me diga a data, quantas pessoas viajam e onde ficam hospedadas. Com esses dados, confirmo com você a disponibilidade e as condições da saída; use o botão de reserva desta página para continuar pelo WhatsApp.",
+    "EN": "Before booking, tell me your date, group size and accommodation. With those details I can confirm availability and departure conditions with you; use this page’s booking button to continue on WhatsApp."
+  },
+  "Conoce el Cristo Redentor y descubre algunos de los principales puntos turísticos de Río de Janeiro en un city tour de medio día para conocer la esencia de la Ciudad Maravillosa.": {
+    "PT": "Conheça o Cristo Redentor e alguns dos principais pontos turísticos do Rio de Janeiro em um city tour de meio dia para descobrir a essência da Cidade Maravilhosa.",
+    "EN": "Visit Christ the Redeemer and some of Rio de Janeiro’s main landmarks on a half-day city tour that introduces you to the spirit of the Wonderful City."
+  },
+  "Esta opción combina la visita al Cristo con las paradas urbanas descritas abajo y permite elegir con o sin almuerzo. Si quieres sumar Pan de Azúcar en una jornada completa, elige el": {
+    "PT": "Esta opção combina a visita ao Cristo com as paradas urbanas descritas abaixo e permite escolher com ou sem almoço. Se você quer incluir o Pão de Açúcar em um dia completo, escolha o",
+    "EN": "This option combines a visit to Christ the Redeemer with the city stops described below, with or without lunch. If you want to include Sugarloaf on a full-day itinerary, choose the"
+  },
+  ". Si buscas visitar solo el Cristo por tu cuenta, te orienta la": {
+    "PT": ". Se você quer visitar apenas o Cristo por conta própria, consulte o",
+    "EN": ". If you want to visit Christ the Redeemer independently, read the"
+  },
+  "guía de la atracción": {
+    "PT": "guia da atração",
+    "EN": "attraction guide"
+  },
+  "Para elegir la modalidad y consultar la salida, dime la fecha, cuántas personas viajan, las edades de los niños y si prefieres con o sin almuerzo. Confirma conmigo las condiciones antes de reservar por WhatsApp.": {
+    "PT": "Para escolher a opção e consultar a saída, me diga a data, quantas pessoas viajam, as idades das crianças e se prefere com ou sem almoço. Confirme comigo as condições antes de reservar pelo WhatsApp.",
+    "EN": "To choose your option and enquire about departure, tell me your date, group size, children’s ages and whether you prefer lunch included. Confirm the conditions with me before booking on WhatsApp."
+  },
+  "Para mí, Búzios es la opción si quieres combinar el paseo en goleta con el tiempo libre en Rua das Pedras que describe esta excursión desde Río. Si prefieres centrar el día en las playas y el paseo en barco, compara": {
+    "PT": "Para mim, Búzios é a opção se você quer combinar o passeio de escuna com o tempo livre na Rua das Pedras descrito neste passeio saindo do Rio. Se prefere concentrar o dia nas praias e no passeio de barco, compare",
+    "EN": "For me, Búzios is the choice if you want to combine a schooner tour with the free time on Rua das Pedras described in this day trip from Rio. If you prefer to focus on beaches and a boat trip, compare"
+  },
+  "o el recorrido por islas de": {
+    "PT": "ou o roteiro pelas ilhas de",
+    "EN": "or the island route in"
+  },
+  ". Revisa el itinerario y las condiciones de cada opción antes de elegir.": {
+    "PT": ". Confira o roteiro e as condições de cada opção antes de escolher.",
+    "EN": ". Check each option’s itinerary and conditions before choosing."
+  },
+  "Antes de reservar, cuéntame tu fecha, cuántas personas viajan, las edades de los niños y dónde se alojan. Confirma conmigo el punto de salida, las tasas indicadas y las condiciones de navegación para tu fecha; el botón de reserva abre la consulta por WhatsApp.": {
+    "PT": "Antes de reservar, me diga a data, quantas pessoas viajam, as idades das crianças e onde ficam hospedadas. Confirme comigo o ponto de saída, as taxas indicadas e as condições de navegação para a sua data; o botão de reserva abre a consulta pelo WhatsApp.",
+    "EN": "Before booking, tell me your date, group size, children’s ages and accommodation. Confirm the pickup point, the listed fees and navigation conditions for your date with me; the booking button opens a WhatsApp enquiry."
+  },
+  "Yo elegiría Arraial si buscas una excursión desde Río centrada en las playas y en el paseo en barco descrito abajo. Si prefieres combinar navegación con tiempo libre en Rua das Pedras, compara": {
+    "PT": "Eu escolheria Arraial se você busca um passeio saindo do Rio com foco nas praias e no passeio de barco descrito abaixo. Se prefere combinar navegação com tempo livre na Rua das Pedras, compare",
+    "EN": "I would choose Arraial if you want a day trip from Rio focused on the beaches and boat route described below. If you prefer to combine a boat trip with free time on Rua das Pedras, compare"
+  },
+  "; para un recorrido por islas y Lagoa Azul, mira": {
+    "PT": "; para um roteiro pelas ilhas e pela Lagoa Azul, veja",
+    "EN": "; for an island route and Lagoa Azul, see"
+  },
+  "Esta excursión desde Río combina el traslado a Angra con el paseo por islas y las paradas descritas en esta ficha, incluida Lagoa Azul. Si prefieres las playas de Arraial, compara": {
+    "PT": "Este passeio saindo do Rio combina o transporte até Angra com o passeio pelas ilhas e as paradas descritas nesta página, incluindo a Lagoa Azul. Se prefere as praias de Arraial, compare",
+    "EN": "This day trip from Rio combines transport to Angra with the island boat route and stops described on this page, including Lagoa Azul. If you prefer Arraial’s beaches, compare"
+  },
+  "; si quieres sumar tiempo libre en Rua das Pedras, mira": {
+    "PT": "; se quer incluir tempo livre na Rua das Pedras, veja",
+    "EN": "; if you want free time on Rua das Pedras, see"
+  },
+  "El traslado de esta excursión forma parte del paseo descrito aquí. Si necesitas solamente un": {
+    "PT": "O transporte desta excursão faz parte do passeio descrito aqui. Se você precisa apenas de um",
+    "EN": "Transport on this excursion is part of the tour described here. If you only need a"
+  },
+  "transfer terrestre": {
+    "PT": "transfer terrestre",
+    "EN": "land transfer"
+  },
+  "para otro plan, consúltalo por separado; no lo confundas con el paseo en barco ni con un cruce marítimo independiente.": {
+    "PT": "para outro plano, consulte separadamente; não o confunda com o passeio de barco nem com uma travessia marítima independente.",
+    "EN": "for another itinerary, enquire separately; it is distinct from the boat tour or an independent sea crossing."
+  },
+  "y Angra / Ilha Grande": {
+    "PT": "e Angra / Ilha Grande",
+    "EN": "and Angra / Ilha Grande"
+  }
 };
