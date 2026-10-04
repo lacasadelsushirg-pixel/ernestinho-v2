@@ -467,5 +467,22 @@ export default {
   "; consulta la operación antes de organizar ese día.": {
     "PT": "; consulte a operação antes de organizar esse dia.",
     "EN": "; check operation before planning that day."
+  },
+  "Como alternativa en otro lugar, puedes consultar el": {
+    "PT": "Como alternativa em outro lugar, você pode consultar o",
+    "EN": "As an alternative in a different location, you can enquire about"
+  },
+  "vuelo en parapente desde Parque da Cidade, Niterói": {
+    "PT": "voo de parapente a partir do Parque da Cidade, Niterói",
+    "EN": "paragliding from Parque da Cidade, Niterói"
+  },
+  ". También puedes consultar": {
+    "PT": ". Você também pode consultar",
+    "EN": ". You can also consult"
+  },
+  "la ficha de ala delta, todavía en preparación": {
+    "PT": "a ficha de asa-delta, ainda em preparação",
+    "EN": "the hang-gliding page, which is still being prepared"
   }
+
 };

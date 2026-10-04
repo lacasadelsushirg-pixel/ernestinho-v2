@@ -2023,6 +2023,22 @@ export default {
   "Elige según cómo quieres vivir el recorrido: bajadas durante el día, paseo nocturno o la combinación del Super Ticket. Antes de comprar por el enlace del socio, revisa la opción, fecha y condiciones que muestra el sistema oficial; las tres modalidades no son el mismo producto.": {
     "PT": "Escolha de acordo com o passeio que procura: paradas durante o dia, passeio noturno ou a combinação do Super Ticket. Antes de comprar pelo link do parceiro, confira a opção, a data e as condições exibidas no sistema oficial; as três modalidades não são o mesmo produto.",
     "EN": "Choose based on the outing you want: daytime hop-on hop-off stops, a night tour or the Super Ticket combination. Before purchasing through the partner link, check the option, date and terms shown in the official system; the three options are different products."
+  },
+  "Promoción durante octubre de 2026 — R$299 con fotos y videos, únicamente pagando en efectivo o PIX. Pago con tarjeta — R$399, valor normal.": {
+    "PT": "Promoção durante outubro de 2026 — R$299 com fotos e vídeos, somente para pagamento em dinheiro ou PIX. Pagamento com cartão — R$399, valor normal.",
+    "EN": "October 2026 promotion — R$299 with photos and videos, for cash or PIX payments only. Card payment — R$399, the regular price."
+  },
+  "Vuela en parapente desde el Parque da Cidade, en Niterói, y disfruta la vista panorámica de la Bahía de Guanabara y Río. El despegue depende de las condiciones del viento y de la operación del día.": {
+    "PT": "Voe de parapente a partir do Parque da Cidade, em Niterói, e aproveite a vista panorâmica da Baía de Guanabara e do Rio. A decolagem depende das condições do vento e da operação do dia.",
+    "EN": "Fly in a paraglider from Parque da Cidade in Niterói and enjoy panoramic views of Guanabara Bay and Rio. Takeoff depends on wind conditions and the day’s operation."
+  },
+  "Octubre 2026: R$299 efectivo/PIX · R$399 tarjeta": {
+    "PT": "Outubro de 2026: R$299 dinheiro/PIX · R$399 cartão",
+    "EN": "October 2026: R$299 cash/PIX · R$399 card"
+  },
+  "Vuelo biplaza con instructor desde Parque da Cidade, Niterói, con vistas panorámicas de la bahía y Río.": {
+    "PT": "Voo duplo com instrutor a partir do Parque da Cidade, Niterói, com vistas panorâmicas da baía e do Rio.",
+    "EN": "Tandem flight with an instructor from Parque da Cidade, Niterói, with panoramic views of the bay and Rio."
   }
 
 };

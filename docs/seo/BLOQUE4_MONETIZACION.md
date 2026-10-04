@@ -7,7 +7,7 @@ Decisiones: PLAN_CRECIMIENTO_EC.md y SEO_ACTION_MAP.csv existentes. Sin nueva in
 
 Nueve páginas fuente, 27 versiones ES/PT-BR/EN. Solo nueve párrafos contextuales añadidos y sus traducciones en dos diccionarios. Contenido anterior conservado byte por byte al retirar las adiciones. Enlaces, scripts, fotografías, CSS, header/footer, precios, metadata y sitemap intactos. No se añadieron enlaces internos: hub Experiencias y São Conrado ya enlazan Parapente; no se duplicó Bloque 3.
 
-- Parapente: prepara consulta con fecha, grupo, hospedaje, piloto, encuentro, inclusiones y requisitos, sin convertir consulta en reserva. **La oferta actual publica Niterói/Parque da Cidade**, no São Conrado. No se cambió ubicación ni se incorporaron variantes São Conrado como si fueran esa oferta. La modalidad tándem ya está en el contenido. No se añadieron piloto, duración, límites ni inclusiones no confirmados.
+- Parapente: prepara consulta con fecha, grupo, hospedaje, piloto, encuentro, inclusiones y requisitos, sin convertir consulta en reserva. **Ernesto confirmó Parque da Cidade, Niterói**. Se destaca la vista panorámica; el enlace desde São Conrado presenta una alternativa en otro lugar. La modalidad tándem ya está en el contenido. No se añadieron piloto, duración, límites ni inclusiones no confirmados.
 - Helicóptero: elección por pasajeros, duración y modalidad sin puertas; valores por opción como total del vuelo, condiciones a confirmar.
 - Lancha: consulta por fecha, grupo, duración y barco; comparación con capacidades/equipamientos existentes y confirmación de recorrido/inclusiones.
 - Ala Delta: mantiene PRÓXIMAMENTE; consultar no implica producto disponible.
@@ -27,8 +27,8 @@ Nueve páginas fuente, 27 versiones ES/PT-BR/EN. Solo nueve párrafos contextual
 
 ## Pendientes de confirmación comercial
 
-1. Ernesto debe confirmar si Parapente corresponde a Niterói, São Conrado o una oferta diferente. Esta landing no se puede convertir a São Conrado con la evidencia disponible.
-2. Parapente conserva R$399 y promoción R$299 con fotos/videos **durante septiembre**. No se extendió al mes actual ni se certificó vigencia; confirmar tarifa actual e inclusiones.
+1. Confirmado por Ernesto: Parapente se realiza en Parque da Cidade, Niterói.
+2. Confirmado por Ernesto: promoción exclusivamente durante octubre de 2026, R$299 en efectivo o PIX; R$399 con tarjeta, valor normal. La referencia preexistente a fotos/videos se conserva sin añadir inclusiones.
 3. Ala Delta sigue sin oferta operativa definida; no apta para activación comercial/Ads.
 4. Pequeña África actualmente dice CONSULTAR (no PRÓXIMAMENTE), sin precio, duración u operador definidos. Permanece sin cambios y sin venta cerrada.
 5. Carnaval Experience y Samba Bus tienen oferta y socio publicados, pero tarifas, agenda, promociones y condiciones externas no fueron actualizadas ni certificadas. Se conservan según instrucción.
