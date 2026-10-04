@@ -1,4 +1,4 @@
-import { registerTranslations } from "../i18n.js";
+import { registerTranslations, getLanguage, onLanguageChange } from "../i18n.js";
 const ES={
  title:"Ernestinho Carioca | Río no se visita. Se vive.","hero.line1":"Río no se visita.","hero.line2":"Se vive.","hero.lead":"Mi guía para descubrir Río como lo vivo yo: qué hacer hoy, cómo moverte, dónde quedarte y experiencias que realmente vas a recordar.","hero.cta":"DESCUBRIR RÍO",
  "intro.kicker":"MI RÍO, A TU MANERA","intro.title":"¿Por dónde quieres empezar?","intro.copy":"No quiero darte una lista infinita. Quiero ayudarte a encontrar el Río que encaja contigo.",
@@ -81,5 +81,29 @@ Object.assign(EN, {
   "shop.shopping-leblon.title": "Shopping Leblon",
   "shop.saara.title": "SAARA"
 });
+Object.assign(ES, {
+  "buzios.kicker":"SEGUNDO NÚCLEO ERNESTINHO",
+  "buzios.title":"BÚZIOS",
+  "buzios.copy":"Otro ritmo. Otro mar. Playas, experiencias, alojamiento y todo lo que necesitas para vivir Búzios como destino, no solamente como una excursión desde Río.",
+  "buzios.cta":"DESCUBRIR BÚZIOS",
+  "buzios.photo":"Fotografía temporal del archivo actual de Ernestinho. Reemplazo propio pendiente."
+});
+Object.assign(PT, {
+  "buzios.kicker":"SEGUNDO NÚCLEO ERNESTINHO",
+  "buzios.title":"BÚZIOS",
+  "buzios.copy":"Outro ritmo. Outro mar. Praias, experiências, hospedagem e tudo o que você precisa para viver Búzios como destino, não apenas como um passeio saindo do Rio.",
+  "buzios.cta":"DESCOBRIR BÚZIOS",
+  "buzios.photo":"Fotografia temporária do acervo atual de Ernestinho. Substituição própria pendente."
+});
+Object.assign(EN, {
+  "buzios.kicker":"ERNESTINHO’S SECOND HUB",
+  "buzios.title":"BÚZIOS",
+  "buzios.copy":"A different rhythm. A different sea. Beaches, experiences, places to stay and everything you need to experience Búzios as a destination—not only as a day trip from Rio.",
+  "buzios.cta":"DISCOVER BÚZIOS",
+  "buzios.photo":"Temporary image from Ernestinho’s current archive. Original replacement pending."
+});
 document.documentElement.dataset.i18nModule = "home";
 registerTranslations("home", { ES, PT, EN });
+const localizeBuziosImage=language=>{const image=document.querySelector('.home-buzios-media img');if(image){const alt={ES:'Costa de Búzios',PT:'Litoral de Búzios',EN:'Búzios coastline'}[language];image.alt=alt;image.dataset.ecAlt=alt;}};
+localizeBuziosImage(getLanguage());
+onLanguageChange(localizeBuziosImage);

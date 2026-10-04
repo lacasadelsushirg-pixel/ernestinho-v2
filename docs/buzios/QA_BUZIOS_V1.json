@@ -1,0 +1,324 @@
+{
+  "source_urls": 21,
+  "localized_versions": 63,
+  "editorial_source_urls": 11,
+  "commercial_source_urls": 10,
+  "failures": [],
+  "rows": [
+    {
+      "route": "/destinos/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/playas/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/alojamiento/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/como-llegar/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/moverse/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/que-hacer/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/cruceros/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/consejos/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/arraial-do-cabo/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/cabo-frio/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/rio-desde-buzios/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/paseo-barco/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/paseo-buggy/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/alquiler-buggy/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/jardinera/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/trekking/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/buceo/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/full-day-buzios/",
+      "language": "ES",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/playas/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/alojamiento/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/como-llegar/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/moverse/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/que-hacer/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/cruceros/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/consejos/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/arraial-do-cabo/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/cabo-frio/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/rio-desde-buzios/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/paseo-barco/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/paseo-buggy/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/alquiler-buggy/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/jardinera/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/trekking/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/buceo/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/full-day-buzios/",
+      "language": "PT",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/playas/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/alojamiento/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/como-llegar/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/moverse/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/que-hacer/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/cruceros/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/consejos/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/arraial-do-cabo/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/cabo-frio/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/rio-desde-buzios/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/paseo-barco/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/paseo-buggy/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/alquiler-buggy/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/jardinera/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/trekking/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/buceo/",
+      "language": "EN",
+      "problems": []
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/full-day-buzios/",
+      "language": "EN",
+      "problems": []
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "destination": "buzios",
+  "status": "awaiting_confirmed_inventory",
+  "properties": [],
+  "requiredPropertyFields": ["id", "name", "ownerAuthorization", "address", "zone", "capacity", "bedrooms", "beds", "bathrooms", "amenities", "access", "parking", "photos", "photoRights", "price", "priceValidity", "fees", "availability", "checkIn", "checkOut", "paymentTerms", "cancellationPolicy", "houseRules", "localContact"],
+  "locales": ["ES", "PT", "EN"],
+  "publicationRule": "No property card or new public URL until the real unit, terms, rights and localized content are confirmed."
+}

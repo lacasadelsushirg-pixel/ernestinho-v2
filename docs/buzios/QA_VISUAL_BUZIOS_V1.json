@@ -1,0 +1,163 @@
+{
+  "combinations": 6,
+  "realSelectorNavigations": 18,
+  "failures": 0,
+  "rows": [
+    {
+      "route": "/destinos/buzios/",
+      "width": 1365,
+      "cycles": [
+        {
+          "pathname": "/pt/destinos/buzios/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        },
+        {
+          "pathname": "/en/destinos/buzios/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        },
+        {
+          "pathname": "/destinos/buzios/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/destinos/buzios/playas/",
+      "width": 1365,
+      "cycles": [
+        {
+          "pathname": "/pt/destinos/buzios/playas/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        },
+        {
+          "pathname": "/en/destinos/buzios/playas/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        },
+        {
+          "pathname": "/destinos/buzios/playas/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/paseo-barco/",
+      "width": 1365,
+      "cycles": [
+        {
+          "pathname": "/pt/destinos/buzios/experiencias/paseo-barco/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        },
+        {
+          "pathname": "/en/destinos/buzios/experiencias/paseo-barco/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        },
+        {
+          "pathname": "/destinos/buzios/experiencias/paseo-barco/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/destinos/buzios/",
+      "width": 390,
+      "cycles": [
+        {
+          "pathname": "/pt/destinos/buzios/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        },
+        {
+          "pathname": "/en/destinos/buzios/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        },
+        {
+          "pathname": "/destinos/buzios/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/destinos/buzios/playas/",
+      "width": 390,
+      "cycles": [
+        {
+          "pathname": "/pt/destinos/buzios/playas/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        },
+        {
+          "pathname": "/en/destinos/buzios/playas/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        },
+        {
+          "pathname": "/destinos/buzios/playas/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/destinos/buzios/experiencias/paseo-barco/",
+      "width": 390,
+      "cycles": [
+        {
+          "pathname": "/pt/destinos/buzios/experiencias/paseo-barco/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        },
+        {
+          "pathname": "/en/destinos/buzios/experiencias/paseo-barco/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        },
+        {
+          "pathname": "/destinos/buzios/experiencias/paseo-barco/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "brokenImages": []
+    }
+  ]
+}

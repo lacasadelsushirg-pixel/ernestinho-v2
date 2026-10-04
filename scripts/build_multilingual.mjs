@@ -98,6 +98,8 @@ async function worker(){
     const i18n=await import('/assets/js/i18n.js');i18n.setLanguage(language);
     const site=scripts.find(s=>s.src.endsWith('/assets/js/site.js'));
     if(site)(await import(site.src)).apply(language);
+    const buzios=scripts.find(s=>s.src.endsWith('/assets/js/buzios-page.js'));
+    if(buzios)(await import(buzios.src)).apply(language);
     await new Promise(r=>setTimeout(r,80));
    },target.language);
    const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar})=>{

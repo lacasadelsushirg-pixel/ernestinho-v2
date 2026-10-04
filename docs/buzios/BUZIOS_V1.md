@@ -1,6 +1,6 @@
-# Búzios V1 — propuesta de construcción posterior
+# Búzios V1 — propuesta original del Master
 
-Fecha: 2026-10-04. **No implementada ni autorizada para publicación.** La recomendación es 19 conceptos en ES/PT-BR/EN: 14 editoriales y 5 comerciales condicionados; 18 pertenecen específicamente a Búzios y uno es el contenedor global de destinos. Si se autoriza todo, 57 versiones localizadas. Ninguna se creó en esta sesión.
+Fecha: 2026-10-04. **Documento histórico de planificación, superado por la ejecución autorizada.** La propuesta inicial contemplaba 19 conceptos en ES/PT-BR/EN. La arquitectura finalmente construida contiene 21 URLs fuente y 63 versiones localizadas; se documenta en `IMPLEMENTACION_BUZIOS_V1.md`. Las tablas siguientes se conservan para explicar el punto de partida y las desviaciones razonadas, no como estado actual.
 
 ## Núcleo editorial: 14 conceptos
 

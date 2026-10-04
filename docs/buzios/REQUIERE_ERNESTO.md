@@ -1,74 +1,42 @@
-# REQUIERE ERNESTO — decisiones y material pendientes
+# REQUIERE ERNESTO — Búzios V1
 
-Fecha: 2026-10-04. Esta lista no bloquea la investigación ni solicita respuestas durante la sesión. **No autoriza creación de oferta o contacto a socios.** CRÍTICO PARA V1 impide publicar el producto implicado; no necesariamente todo el núcleo editorial. Las direcciones comerciales ya confirmadas no necesitan volver a confirmarse como posibilidad: faltan sus detalles.
+Fecha: 2026-10-04. Estas confirmaciones completan la oferta sin reconstruir la arquitectura. “Bloquea publicación” se refiere a publicar el producto con condiciones cerradas; el núcleo editorial y las landings de consulta pueden existir sin ese dato.
 
-## PRODUCTOS
+| Prioridad | Página | Producto | Campo | Qué necesitamos | Por qué | Bloquea publicación |
+|---|---|---|---|---|---|---|
+| P0 | Todas las landings comerciales | Catálogo Búzios | Tarifas | Neto vigente, precio público, moneda, unidad, tasas y vigencia. | Los importes de junio de 2026 son históricos. | Sí, precio cerrado |
+| P0 | Todas las landings comerciales | Catálogo Búzios | Operador | Prestador efectivo, contacto operativo, idiomas y responsable de soporte. | No se puede atribuir la operación a referencias de mercado. | Sí |
+| P0 | Todas las landings comerciales | Catálogo Búzios | Reserva | Disponibilidad, señal/saldo, medios de pago, confirmación, cancelación, reprogramación y no-show. | WhatsApp de consulta no equivale a reserva. | Sí |
+| P0 | Arraial do Cabo | Full Day Arraial | Operación | Horario, recogida, duración, navegación, paradas, almuerzo, política infantil, tasa vigente e inclusiones. | El tarifario solo prueba el catálogo y una tasa histórica. | Sí |
+| P0 | Cabo Frio | Full Day Cabo Frio | Operación | Recogida, duración, ruta, playas/puntos, compras si aplica, comida, regreso e inclusiones. | No copiar un combo de competidores. | Sí |
+| P0 | Río desde Búzios | Full Day Río / AquaRio | Operación | Recogida, ruta vigente, duración, inclusiones y suplementos actuales de Maracanã/AquaRio. | Los suplementos de junio no son actuales. | Sí |
+| P0 | Paseos de barco | Babyloon / Libertas | Ficha por opción | Embarcación exacta, salida, recorrido, duración, paradas, capacidad, tasas, cambios por mar e inclusiones. | Son alternativas diferentes dentro de la misma intención. | Sí |
+| P1 | Paseos de barco | Babyloon | Identificación | Confirmar nombre comercial y operador; el catálogo dice Babyloon y la referencia web encontrada utiliza Babylon. | No se asumió que sean el mismo proveedor. | Sí, identidad operativa |
+| P0 | Paseo en buggy | Paseo guiado | Operación | Quién conduce, ruta, paradas, duración vigente, precio/unidad, permisos y punto de encuentro. | Debe mantenerse separado del alquiler. | Sí |
+| P0 | Alquiler de buggy | Baby/Bugre/Way/Super | Alquiler | Ficha de cada vehículo, documentos, conductor autorizado, caución, seguro, combustible, entrega, área de uso y averías. | El 10% histórico no define la oferta pública. | Sí |
+| P0 | Jardinera | Paseo panorámico | Recorrido | Operador, vehículo, circuito, paradas, duración, horarios, punto de salida e inclusiones. | La investigación de mercado no confirma el circuito de Ernesto. | Sí |
+| P0 | Trekking | Trekking comercial | Ruta | Sendero exacto, dificultad, guía, mínimo vigente, duración, equipo, requisitos y plan por clima. | No todo sendero editorial corresponde al tour vendido. | Sí |
+| P0 | Buceo | Bautismo | Operación | Centro/guía, punto, duración, equipo, requisitos, política médica del operador y confirmación de fotos/video. | Mini book y video son inclusiones históricas. | Sí |
+| P0 | Full Day Búzios | Combo local | Inclusiones | Confirmar traslados, escuna, almuerzo y Jardinera; orden, duración, recogida y sustituciones. | La composición procede del tarifario de junio. | Sí |
+| P0 | Alojamiento | Apartamentos | Inventario | ID, autorización, dirección/zona, capacidad, camas, baños, equipamiento, condiciones, calendario y precio. | No se inventan propiedades ni disponibilidad. | Sí, fichas |
+| P0 | Alojamiento | Apartamentos | Fotos | Imágenes correspondientes a cada unidad, autor y permiso comercial. | Cada foto debe pertenecer a la propiedad ofrecida. | Sí, fichas |
+| P1 | Home y páginas Búzios | Núcleo editorial | Fotografías | Originales según `IMAGENES_BUZIOS.csv`: lugar, fecha, autor, permiso y producto representado. | Los activos actuales son temporales y reutilizados. | No |
+| P1 | Cómo llegar | Transfer | Oferta | Cobertura Río/GIG/SDU/Cabo Frio, vehículos, equipaje, proveedor, encuentro, esperas y condiciones. | La guía compara opciones pero no promete tarifa propia. | Sí, venta de transfer |
+| P1 | Todas las experiencias | Catálogo Búzios | CTA/rol | Confirmar si Ernestinho cobra, intermedia o deriva; responsable de voucher y reclamación. | Debe explicarse quién contrata y presta. | Sí |
+| P1 | Playas/zonas/consejos | Editorial | Experiencia personal | Lugares conocidos por Ernesto, fecha, observaciones verificables y “Dato de Ernestinho” aprobados. | No se atribuyeron vivencias inventadas. | No |
+| P1 | Cruceros | Producto futuro | Logística | Producto para escala, punto de encuentro, ventana mínima y política si cambia/cancela el tender. | La guía actual evita prometer un servicio no confirmado. | Sí, producto cruceros |
+| P1 | Partners | Todos | Acuerdos | Socios ya conocidos, contrato/comisión, permiso de marca/material y tarifas vigentes. | La investigación no crea una alianza. | Sí, si se nombra partner |
+| P2 | Comer y salir | Gastronomía/noche | Curaduría propia | Selección personal de Ernesto y última comprobación de establecimientos. | La V1 prioriza criterios evergreen, no rankings inventados. | No |
+| P2 | Naturaleza/familias | Editorial | Verificación de campo | Accesos, pendientes, escalones, baño, sombra y logística familiar fechada. | Evita etiquetas absolutas de seguridad o accesibilidad. | No |
+| P2 | Futuro | Petrópolis | Ficha comercial | Precio, ruta, duración, inclusiones, condiciones, operador y fotos. | Producto confirmado para una fase separada. | Sí, futura landing |
 
-- **CRÍTICO PARA V1 — Q01:** Para alquiler buggy, barco, Arraial y Cabo Frio desde Búzios, ¿cuál es el producto concreto que puedes intermediar y quién lo presta? Entregar fichas separadas; indicar desde dónde sale y regresa.
-- **CRÍTICO PARA V1 — Q02:** ¿El barco confirmado es escuna compartida, paseo en otro barco o lancha privada? No asumir tres productos por uno.
-- **CRÍTICO PARA V1 — Q03:** ¿Cabo Frio es excursión independiente o una combinación específica? Ruta, puntos, modalidad y condiciones confirmados, sin imitar combos de otras empresas.
-- **IMPORTANTE — Q04:** ¿Qué actividades adicionales tienes realmente a mano: conductor buggy, buceo/snorkel/surf, charter, fotografía? Identificar oferta; mantener las restantes como oportunidades.
-- **PUEDE ESPERAR — Q05:** ¿Bodas/eventos, pesca, wellness, long stay y cruceristas forman parte del negocio que quieres atender? Responsable y capacidad antes de producto.
+## Orden recomendado
 
-## PRECIOS
+1. Tarifas vigentes y rol comercial general.
+2. Fichas operativas de Arraial, Cabo Frio, Río, barco y Full Day Búzios.
+3. Fichas de buggy, Jardinera, trekking y buceo.
+4. Inventario y fotografías de apartamentos.
+5. Banco fotográfico editorial/producto.
+6. Transfer, cruceristas, partners y testimonios personales.
 
-- **CRÍTICO PARA V1 — Q06:** Tarifas vigentes por producto/unidad/período; moneda, por persona/grupo/barco/día/noche, tasas/cargos y descuentos confirmados con vigencia. No basta un precio “desde”.
-- **CRÍTICO PARA V1 — Q07:** Medios admitidos: efectivo/PIX/tarjetas internacionales; recargos, señal/saldo y quién cobra/factura. No trasladar las reglas de Parapente a Búzios.
-- **IMPORTANTE — Q08:** ¿Precio net, comisión o lead? Facilitar condiciones acordadas; no publicar margenes internos ni asumir porcentajes de programas externos.
-
-## OPERADORES
-
-- **CRÍTICO PARA V1 — Q09:** Nombre legal/contacto operativo, prestador efectivo, autorizaciones pertinentes, flota/barco/unidad, idiomas realmente disponibles y responsable de emergencia/soporte.
-- **CRÍTICO PARA V1 — Q10:** Confirmación de fecha/cupo, pickup/punto exacto, voucher/acuse y proveedor de respaldo. ¿Quién responde si cambia mar, vuelo o se cancela salida?
-- **IMPORTANTE — Q11:** Para actividades técnicas: requisitos por edad/nivel/aptitud, instructor/equipo, procedimiento del operador y accesibilidad específica. No declarar cobertura/seguridad médica por iniciativa editorial.
-
-## ALOJAMIENTOS
-
-- **CRÍTICO PARA V1 — Q12:** Inventario real de apartamentos: IDs, titular/autorización, dirección y zona; unidad exacta, camas/dormitorios/baños/aforo/cocina/equipo; fotos correspondientes.
-- **CRÍTICO PARA V1 — Q13:** Calendario y precio/cargos, check-in/out/entrega/limpieza, cancelación/depósito, reglas ruido/eventos/niños/mascotas, permisos y responsable de atención.
-- **IMPORTANTE — Q14:** Acceso medido: piso/ascensor/escaleras/pendiente, plaza real, ruta a playa y servicios, Wi-Fi probado si se ofrece, distancia por trayecto.
-- **PUEDE ESPERAR — Q15:** Casas para grupos, pousadas/hoteles, estadías largas y administración: ¿qué inventario/acuerdo real existe? No crear fichas sin ello.
-
-## FOTOS
-
-- **CRÍTICO PARA V1 — Q16:** Originales de playas/zonas/productos/unidades con autor, fecha, lugar, permiso de uso comercial y correspondencia producto-foto. Entregar según IMAGENES_BUZIOS.csv.
-- **IMPORTANTE — Q17:** Fotos de logística: acceso a Azeda, pendientes/entrada de alojamientos, embarque, buggy real, baños y ruta final. Permiso de personas y menores; no imágenes genéricas para representar un producto real.
-- **PUEDE ESPERAR — Q18:** ¿Qué materiales de partners pueden licenciarse? Uso de marca/rostros/duración/territorio; derechos externos y coautoría cultural. No asumir licencia porque están en su sitio.
-
-## CONDICIONES
-
-- **CRÍTICO PARA V1 — Q19:** Inclusiones/exclusiones, duración y requisitos realmente confirmados; política de cancelación, reprogramación, no-show, cambio por viento/mar/lluvia/vuelo; quién decide y comunica.
-- **CRÍTICO PARA V1 — Q20:** Rol Ernestinho/operador, contratación, cobro, confirmación y soporte; límites de disponibilidad y proceso de reclamación. WhatsApp consulta no equivale a reserva.
-- **IMPORTANTE — Q21:** Validar acceso/seguridad del itinerario y condiciones por actividad/persona con proveedor competente, sin garantías genéricas ni políticas de otras agencias.
-
-## TRANSFERS
-
-- **CRÍTICO PARA V1 si se vende — Q22:** Cobertura Río/GIG/SDU/Cabo Frio→Búzios, terminales y origen de regreso, vehículos/cupos/equipaje, precio/cargos y conductor/prestador.
-- **CRÍTICO PARA V1 si se vende — Q23:** Espera por vuelo, punto encuentro, sillas infantiles si disponibles, demoras/no-show/cancelación, soporte y respaldo. Consulta existente Río→Búzios no confirma todos los aeropuertos.
-- **IMPORTANTE — Q24:** Transporte local/retorno nocturno y escala de crucero: disponibilidad real, hora barco, tender, muelle efectivo, política ante cancelación escala y ventana de visita.
-
-## PARTNERS
-
-- **IMPORTANTE — Q25:** ¿Cuáles candidatos de PARTNERS_BUZIOS.csv ya conoces y con cuáles quieres evaluar acuerdo? No se contactó a nadie. Mareia tiene canal público; Búzios Destino tiene PDF NET vencido; los demás no implican comisión pública.
-- **CRÍTICO PARA V1 si se usa — Q26:** Contrato comercial, tarifas vigentes, permiso material/marca, responsable y límites por producto. No reutilizar precios2025 ni IDs afiliados de una búsqueda.
-- **PUEDE ESPERAR — Q27:** ¿Interesa solicitar afiliación Booking/CJ/GetYourGuide u otros? Es fase separada; no cuenta/código EC confirmado. Airalo/Rentcars/Assist Card existentes se preservaron, sin nuevas condiciones.
-
-## EXPERIENCIA PERSONAL
-
-- **IMPORTANTE — Q28:** ¿Qué lugares y recorridos conoces personalmente y cuándo los visitaste? Diferenciar experiencia propia de investigación. ¿Qué contactos locales pueden comprobar accesos/servicios?
-- **IMPORTANTE — Q29:** Priorizar campo: Azeda/escaleras, alojamiento/pendientes, embarques, noche/regreso, familias y adaptaciones. Medidas/fotos y fecha; no etiqueta “accesible” sin itinerario real.
-- **PUEDE ESPERAR — Q30:** Relato local de gastronomía/compras y cultura con interlocutor comunitario, permiso y beneficio; no relato extraído sin participación.
-
-## PETRÓPOLIS
-
-- **CRÍTICO para futura landing — Q31:** Precio, recorrido, modalidad, salida/regreso, inclusiones/exclusiones, duración, condiciones, fotos y operación del tour que confirmaste como posibilidad comercial.
-- **IMPORTANTE — Q32:** Responsable/prestador, idiomas, calendario/cupo, cobro/confirmación/cancelación y soporte. La guía editorial y la venta tendrán intenciones separadas; no se crea página todavía.
-
-## OTROS
-
-- **CRÍTICO PARA V1 — Q33:** Aprobar alcance recomendado:14 conceptos editoriales +5 comerciales condicionados, prefijos ES/PT-BR/EN y fotos. Indicar responsable editorial/localización y soporte comercial; autorización de implementación es posterior.
-- **IMPORTANTE — Q34:** Designar responsable y revisión de horarios/tarifas/eventos/escala/balneabilidad/servicios. Sin proceso, usar enlaces oficiales y no calendario vivo. Definir caducidad de oferta y material.
-- **PUEDE ESPERAR — Q35:** Medición por consulta/idioma/origen/propiedad y leads útiles, sin volumen/ROI prometidos; decidir V2 con Search Console y consultas reales.
-- **IMPORTANTE — Q36:** Pendientes heredados Río siguen fuera de este cierre:805/605/Venti, Angra, selector ES Partido, imagen Maracanã Tour, estudio-1-1 y D/E/alias del Bloque 5. Decidirlos en fase autorizada propia, sin mezclar con Búzios.
-
-Orden propuesto de respuesta: Q01–03/Q06–07/Q09–10/Q12–13/Q16/Q19–20 para habilitar los cinco productos; Q22–23 si habrá transfer específico; Q33 para autorizar la siguiente fase. Las demás decisiones permanecen registradas y no provocaron cambios en la web.
+Pendientes congelados de Río (805/605/Venti, Angra, selector ES de Partido, imagen Maracanã Tour, estudio-1-1 y otros cierres previos) continúan fuera de Búzios V1.

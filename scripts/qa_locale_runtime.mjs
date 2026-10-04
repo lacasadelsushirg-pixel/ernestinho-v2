@@ -3,6 +3,7 @@ import path from 'node:path';
 import http from 'node:http';
 import {createRequire} from 'node:module';
 import {loadBuildLibraries} from './build_vendor.mjs';
+import {buildBrowserOptions} from './build_browser.mjs';
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH||'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
@@ -16,7 +17,7 @@ const server=http.createServer((req,res)=>{
  res.setHeader('Content-Type',file.endsWith('.js')?'text/javascript':file.endsWith('.css')?'text/css':file.endsWith('.html')?'text/html':'application/octet-stream');fs.createReadStream(file).pipe(res);
 });await new Promise(r=>server.listen(0,'127.0.0.1',r));
 const base=`http://127.0.0.1:${server.address().port}`;
-const browser=await chromium.launch({executablePath:process.env.EC_CHROME_PATH,headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
+const browser=await chromium.launch(await buildBrowserOptions());
 const hubs=['/','/guia/','/experiencias/','/gastronomia/','/cultura/','/vida-nocturna/','/compras/','/transportes/','/hospedaje/','/guia/internet/','/gastronomia/polis-sucos/','/gastronomia/satyricon/','/eventos/','/cafe-rio/'];
 const all=process.argv.includes('--all');
 const filter=process.argv.find(a=>a.startsWith('--routes='))?.slice(9).split(',');
@@ -43,7 +44,7 @@ async function worker(viewport){
    if(snapshot.title!==target.title)problems.push('Runtime title differs from prerender');
    if(snapshot.description!==target.description)problems.push('Runtime description differs from prerender');
    if(snapshot.canonical!==target.canonical)problems.push('Runtime canonical differs from prerender');
-   if(snapshot.overflow&&hubs.includes(target.source))problems.push('Overflow at '+viewport.width);
+   if(snapshot.overflow)problems.push('Overflow at '+viewport.width);
    const expectedPrefix=target.language==='ES'?'':'/'+target.language.toLowerCase();
    if(snapshot.nav.some(p=>target.language!=='ES'&&!p.startsWith(expectedPrefix+'/')))problems.push('Navigation escaped locale');
    for(const l of ['ES','PT','EN']){
@@ -61,9 +62,10 @@ async function worker(viewport){
 try{await Promise.all(Array.from({length:4},(_,i)=>worker(i%2?{width:390,height:844}:{width:1365,height:900})));}finally{await browser.close();server.close();}
 const failures=rows.filter(r=>r.problems.length);
 fs.mkdirSync(path.join(root,'docs/seo'),{recursive:true});
+const requestedOutput=process.argv.find(a=>a.startsWith('--output='))?.slice(9);
 const fileName=filter?'QA_RUNTIME_AFFECTED.json':all?'QA_RUNTIME_ALL.json':'QA_RUNTIME_SAMPLE.json';
 const output={tested:rows.length,failures:failures.length,externalServicesExcluded:true,rows};
-fs.writeFileSync(path.join(root,'docs/seo',fileName),JSON.stringify(output,null,2));
+fs.writeFileSync(requestedOutput?path.resolve(root,requestedOutput):path.join(root,'docs/seo',fileName),JSON.stringify(output,null,2));
 if(process.argv.includes('--update')){
  const saved=path.join(root,'docs/seo/QA_RUNTIME_ALL.json');
  const previous=JSON.parse(fs.readFileSync(saved));const changed=new Set(rows.map(r=>r.route+':'+r.viewport));
