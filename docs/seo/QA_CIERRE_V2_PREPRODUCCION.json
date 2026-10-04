@@ -1,0 +1,73 @@
+{
+  "fecha": "2026-10-04",
+  "sha_base": "3fb4b4cf48066e9416ed8a79b6dedecda9da0ea5",
+  "paginas_fuente": 41,
+  "versiones_unicas": 123,
+  "combinaciones_navegador": 147,
+  "desktop": 123,
+  "movil": 24,
+  "errores_nuevos": 0,
+  "overflow_nuevo": 0,
+  "selector_heredado": "Partido Maracanã: ES oculto; no corregido",
+  "whatsapp": "clics a apertura interceptada; formularios completados con datos QA; ninguna solicitud enviada",
+  "peticiones_externas": "bloqueadas salvo bibliotecas aprobadas; imágenes/widgets externos no certificados por navegador local",
+  "visual": "6 capturas revisadas: Parapente/Internet/Hospedaje en desktop y móvil; imágenes externas bloqueadas, geometría/textos comprobados",
+  "canonical_hreflang": "123 versiones comprobadas; fuentes intactas respecto SHA base",
+  "precios_publicados_conservados": {
+    "full-day-rio": [
+      "R$430"
+    ],
+    "cristo-city-tour": [
+      "R$230",
+      "R$250"
+    ],
+    "buzios": [
+      "R$230"
+    ],
+    "arraial-do-cabo": [
+      "R$200"
+    ],
+    "angra-ilha-grande": [
+      "R$200"
+    ],
+    "vuelo-en-parapente": [
+      "R$299",
+      "R$399"
+    ]
+  },
+  "angra": "Hub R$180 + tasa frente landing R$200: discrepancia heredada expresamente congelada",
+  "afiliados_fuentes_sha256": {
+    "guia/internet/index.html": "b6cdd79385bb628b9f85cf685391455627d2542203672a6c0b66a50ea5a5d42c",
+    "guia/alquiler-auto/index.html": "c0be6cb64f57d6013bd3e0b05cf88daa423038ab390ad7f8ba1396b3872071e6",
+    "guia/seguro/index.html": "40304189f1364f4bf918361c6ddd53fdc46b69fb73164715f7f3c777dde1ef9a",
+    "experiencias/carnaval-experience/index.html": "0a3fb817a19092f7dcefd85822514b6f5916d4c6ed0eb3c40e52f5a4d613fb64",
+    "experiencias/rio-samba-bus/index.html": "ee1fd6967fcdb7d6ee28f0ca93128cd39844566a734604f23d53d3a5340322f2"
+  },
+  "atribucion_afiliados": "preservación, no compra ni atribución certificada; Rentcars403 previo permanece limitación externa",
+  "frozen_check": "exit1 por586 diferencias heredadas; output idéntico a frozen-before; ninguna nueva",
+  "bloques5_6": "solo4 archivos documentales después del último cambio web66118d1",
+  "csv_registros": {
+    "ARQUITECTURA_BUZIOS.csv": 44,
+    "IMAGENES_BUZIOS.csv": 44,
+    "COMERCIAL_BUZIOS.csv": 60,
+    "FUENTES_BUZIOS.csv": 70,
+    "COMPETENCIA_BUZIOS.csv": 12,
+    "SEO_BUZIOS.csv": 75,
+    "ZONAS_BUZIOS.csv": 12,
+    "PARTNERS_BUZIOS.csv": 30,
+    "PLAYAS_BUZIOS.csv": 23
+  },
+  "v1": {
+    "conceptos": 19,
+    "editoriales": 14,
+    "comerciales_condicionados": 5,
+    "versiones_localizadas_propuestas": 57
+  },
+  "rutas_publicas_buzios_creadas": 0,
+  "correcciones_codigo": 0,
+  "build": "Fuentes web intactas y salida local certificada; último preview base READY; build final Vercel pendiente de deploy único",
+  "sintaxis": {
+    "inline_classic_scripts": 13,
+    "build_site_y_chunks_pertinentes": "node --check PASS"
+  }
+}
