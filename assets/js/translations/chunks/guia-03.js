@@ -594,5 +594,18 @@ export default {
   "experiencias para elegir tu plan en Río": {
     "PT": "experiências para escolher seu programa no Rio",
     "EN": "experiences to choose your plans in Rio"
+  },
+  "Yo elegiría primero entre roaming, chip físico y eSIM según el teléfono y el viaje. Si optas por Airalo, usa el comparador existente para revisar el plan que vas a contratar; confirma datos, vigencia y activación antes de pagar. Esa compra se realiza con el proveedor, y la consulta de chip por WhatsApp es una alternativa distinta.": {
+    "PT": "Eu escolheria primeiro entre roaming, chip físico e eSIM de acordo com o celular e a viagem. Se optar pela Airalo, use o comparador existente para revisar o plano que vai contratar; confirme dados, validade e ativação antes de pagar. A compra é feita com o fornecedor, e a consulta de chip pelo WhatsApp é uma alternativa diferente.",
+    "EN": "I would first choose between roaming, a physical SIM and an eSIM based on your phone and trip. If you choose Airalo, use the existing comparison tool to review the plan; confirm data allowance, validity and activation before paying. The purchase is made with the provider; enquiring about a SIM on WhatsApp is a separate option."
+  },
+  "Si el auto encaja con tu itinerario, compara en Rentcars las fechas y los lugares de retiro y devolución que realmente necesitas. El comparador no reemplaza la lectura de las condiciones de la locadora ni confirma que una categoría concreta esté disponible.": {
+    "PT": "Se o carro combina com seu roteiro, compare na Rentcars as datas e os locais de retirada e devolução de que você realmente precisa. O comparador não substitui a leitura das condições da locadora nem confirma a disponibilidade de uma categoria específica.",
+    "EN": "If a car suits your itinerary, use Rentcars to compare the dates and pickup and return locations you actually need. The comparison tool does not replace reading the rental company’s terms or confirm availability of a specific category."
+  },
+  "Para preparar el viaje, el enlace de cotización de Assist Card permite revisar una propuesta del proveedor. Compárala con tus necesidades y lee la póliza antes de contratar. Cotizar o abrir el enlace no activa un seguro; esta opción comercial es distinta de los canales de asistencia y de la atención de urgencias descritos en la guía.": {
+    "PT": "Para preparar a viagem, o link de cotação da Assist Card permite revisar uma proposta do fornecedor. Compare com suas necessidades e leia a apólice antes de contratar. Fazer uma cotação ou abrir o link não ativa um seguro; esta opção comercial é diferente dos canais de assistência e do atendimento de urgência descritos no guia.",
+    "EN": "When preparing your trip, the Assist Card quote link lets you review an offer from the provider. Compare it with your needs and read the policy before purchasing. Requesting a quote or opening the link does not activate insurance; this commercial option is separate from the assistance channels and emergency care described in the guide."
   }
+
 };

@@ -1,0 +1,849 @@
+{
+  "base": "0eafb20a5c7a060f83cc4e312439491b87a04ec9",
+  "sourcePages": 9,
+  "renderedPages": 27,
+  "internalLinksAdded": 0,
+  "static": {
+    "pages": 27,
+    "sourcePreservation": "all original bytes preserved after removing new paragraphs; header/footer/CSS/scripts/CTA/media/commercial facts unchanged",
+    "sitemap": "byte-identical",
+    "historicalFreeze": "unchanged inherited baseline, not reopened",
+    "results": [
+      {
+        "route": "/experiencias/vuelo-en-parapente/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/experiencias/vuelo-en-parapente/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/experiencias/vuelo-en-parapente/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/experiencias/helicoptero/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/experiencias/helicoptero/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/experiencias/helicoptero/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/experiencias/lancha-privada/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/experiencias/lancha-privada/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/experiencias/lancha-privada/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/experiencias/ala-delta/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/experiencias/ala-delta/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/experiencias/ala-delta/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/guia/internet/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/guia/internet/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/guia/internet/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/guia/alquiler-auto/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/guia/alquiler-auto/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/guia/alquiler-auto/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/guia/seguro/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/guia/seguro/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/guia/seguro/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/experiencias/carnaval-experience/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/experiencias/carnaval-experience/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/experiencias/carnaval-experience/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/experiencias/rio-samba-bus/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/experiencias/rio-samba-bus/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/experiencias/rio-samba-bus/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      }
+    ]
+  },
+  "browser": {
+    "combinations": 54,
+    "selectorNavigations": 54,
+    "existingWhatsAppChecks": 30,
+    "modifiedLinkTargets": 0,
+    "failures": 0,
+    "externalVideosNotPlayed": true,
+    "inheritedSelectorBlocks": [],
+    "results": [
+      {
+        "route": "/experiencias/vuelo-en-parapente/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para consultar este vuelo tándem desde Niterói, envíame la fecha que tienes en mente, el número de personas y dónde te hospedas. Confirmamos con el operador el piloto, el punto de encuentro, lo que incluye la cotización y los requisitos antes de reservar. La consulta por WhatsApp no confirma disponibilidad ni reserva."
+        ]
+      },
+      {
+        "route": "/experiencias/vuelo-en-parapente/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para consultar este vuelo tándem desde Niterói, envíame la fecha que tienes en mente, el número de personas y dónde te hospedas. Confirmamos con el operador el piloto, el punto de encuentro, lo que incluye la cotización y los requisitos antes de reservar. La consulta por WhatsApp no confirma disponibilidad ni reserva."
+        ]
+      },
+      {
+        "route": "/pt/experiencias/vuelo-en-parapente/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para consultar este voo duplo saindo de Niterói, envie a data desejada, o número de pessoas e onde você estará hospedado. Confirmamos com o operador o piloto, o ponto de encontro, o que a cotação inclui e os requisitos antes de reservar. A consulta pelo WhatsApp não confirma disponibilidade nem reserva."
+        ]
+      },
+      {
+        "route": "/pt/experiencias/vuelo-en-parapente/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para consultar este voo duplo saindo de Niterói, envie a data desejada, o número de pessoas e onde você estará hospedado. Confirmamos com o operador o piloto, o ponto de encontro, o que a cotação inclui e os requisitos antes de reservar. A consulta pelo WhatsApp não confirma disponibilidade nem reserva."
+        ]
+      },
+      {
+        "route": "/en/experiencias/vuelo-en-parapente/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "To enquire about this tandem paragliding flight from Niterói, send your preferred date, group size and where you are staying. We confirm the pilot, meeting point, what the quote includes and requirements with the operator before booking. A WhatsApp enquiry does not confirm availability or a booking."
+        ]
+      },
+      {
+        "route": "/en/experiencias/vuelo-en-parapente/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "To enquire about this tandem paragliding flight from Niterói, send your preferred date, group size and where you are staying. We confirm the pilot, meeting point, what the quote includes and requirements with the operator before booking. A WhatsApp enquiry does not confirm availability or a booking."
+        ]
+      },
+      {
+        "route": "/experiencias/helicoptero/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para elegir entre las modalidades publicadas, envíame fecha, número de pasajeros y la opción de duración que te interesa; indica también si buscas el vuelo sin puertas. Los valores de cada opción se muestran como total del vuelo. Confirmamos operación, recorrido y cotización antes de reservar; la consulta no asegura una salida."
+        ]
+      },
+      {
+        "route": "/experiencias/helicoptero/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para elegir entre las modalidades publicadas, envíame fecha, número de pasajeros y la opción de duración que te interesa; indica también si buscas el vuelo sin puertas. Los valores de cada opción se muestran como total del vuelo. Confirmamos operación, recorrido y cotización antes de reservar; la consulta no asegura una salida."
+        ]
+      },
+      {
+        "route": "/pt/experiencias/helicoptero/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para escolher entre as modalidades publicadas, envie a data, o número de passageiros e a opção de duração desejada; informe também se procura o voo sem portas. Os valores de cada opção são apresentados como total do voo. Confirmamos operação, trajeto e cotação antes de reservar; a consulta não garante uma saída."
+        ]
+      },
+      {
+        "route": "/pt/experiencias/helicoptero/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para escolher entre as modalidades publicadas, envie a data, o número de passageiros e a opção de duração desejada; informe também se procura o voo sem portas. Os valores de cada opção são apresentados como total do voo. Confirmamos operação, trajeto e cotação antes de reservar; a consulta não garante uma saída."
+        ]
+      },
+      {
+        "route": "/en/experiencias/helicoptero/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "To choose among the published flight options, send your date, passenger count and preferred duration; mention if you are interested in the doors-off flight. Each option lists the total flight price. We confirm operation, route and quote before booking; an enquiry does not guarantee a departure."
+        ]
+      },
+      {
+        "route": "/en/experiencias/helicoptero/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "To choose among the published flight options, send your date, passenger count and preferred duration; mention if you are interested in the doors-off flight. Each option lists the total flight price. We confirm operation, route and quote before booking; an enquiry does not guarantee a departure."
+        ]
+      },
+      {
+        "route": "/experiencias/lancha-privada/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para cotizar tu salida desde Marina da Glória, envíame fecha, número de personas, duración deseada y embarcación preferida. Cuéntame qué necesita tu grupo: contrastamos la capacidad y los equipamientos publicados, y confirmamos inclusiones y recorrido. Es una lancha privada para tu grupo; iniciar la conversación no confirma la reserva."
+        ]
+      },
+      {
+        "route": "/experiencias/lancha-privada/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para cotizar tu salida desde Marina da Glória, envíame fecha, número de personas, duración deseada y embarcación preferida. Cuéntame qué necesita tu grupo: contrastamos la capacidad y los equipamientos publicados, y confirmamos inclusiones y recorrido. Es una lancha privada para tu grupo; iniciar la conversación no confirma la reserva."
+        ]
+      },
+      {
+        "route": "/pt/experiencias/lancha-privada/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para cotar sua saída da Marina da Glória, envie a data, o número de pessoas, a duração desejada e a embarcação preferida. Conte o que o grupo precisa: verificamos a capacidade e os equipamentos publicados e confirmamos inclusões e trajeto. É uma lancha privada para seu grupo; iniciar a conversa não confirma a reserva."
+        ]
+      },
+      {
+        "route": "/pt/experiencias/lancha-privada/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para cotar sua saída da Marina da Glória, envie a data, o número de pessoas, a duração desejada e a embarcação preferida. Conte o que o grupo precisa: verificamos a capacidade e os equipamentos publicados e confirmamos inclusões e trajeto. É uma lancha privada para seu grupo; iniciar a conversa não confirma a reserva."
+        ]
+      },
+      {
+        "route": "/en/experiencias/lancha-privada/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "For a quote departing from Marina da Glória, send your date, group size, preferred duration and boat. Tell me what your group needs: we review the published capacity and equipment and confirm inclusions and route. This is a private boat for your group; starting a conversation does not confirm a booking."
+        ]
+      },
+      {
+        "route": "/en/experiencias/lancha-privada/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "For a quote departing from Marina da Glória, send your date, group size, preferred duration and boat. Tell me what your group needs: we review the published capacity and equipment and confirm inclusions and route. This is a private boat for your group; starting a conversation does not confirm a booking."
+        ]
+      },
+      {
+        "route": "/experiencias/ala-delta/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Esta ficha sigue en preparación. Consultar por WhatsApp permite hablar sobre tu interés en ala delta; no significa que el producto esté disponible ni que exista una reserva confirmada."
+        ]
+      },
+      {
+        "route": "/experiencias/ala-delta/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Esta ficha sigue en preparación. Consultar por WhatsApp permite hablar sobre tu interés en ala delta; no significa que el producto esté disponible ni que exista una reserva confirmada."
+        ]
+      },
+      {
+        "route": "/pt/experiencias/ala-delta/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Esta ficha continua em preparação. Consultar pelo WhatsApp permite conversar sobre seu interesse em asa-delta; não significa que o produto esteja disponível nem que haja uma reserva confirmada."
+        ]
+      },
+      {
+        "route": "/pt/experiencias/ala-delta/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Esta ficha continua em preparação. Consultar pelo WhatsApp permite conversar sobre seu interesse em asa-delta; não significa que o produto esteja disponível nem que haja uma reserva confirmada."
+        ]
+      },
+      {
+        "route": "/en/experiencias/ala-delta/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "This page is still being prepared. A WhatsApp enquiry lets us discuss your interest in hang gliding; it does not mean the product is available or that a booking has been confirmed."
+        ]
+      },
+      {
+        "route": "/en/experiencias/ala-delta/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "This page is still being prepared. A WhatsApp enquiry lets us discuss your interest in hang gliding; it does not mean the product is available or that a booking has been confirmed."
+        ]
+      },
+      {
+        "route": "/guia/internet/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Yo elegiría primero entre roaming, chip físico y eSIM según el teléfono y el viaje. Si optas por Airalo, usa el comparador existente para revisar el plan que vas a contratar; confirma datos, vigencia y activación antes de pagar. Esa compra se realiza con el proveedor, y la consulta de chip por WhatsApp es una alternativa distinta."
+        ]
+      },
+      {
+        "route": "/guia/internet/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Yo elegiría primero entre roaming, chip físico y eSIM según el teléfono y el viaje. Si optas por Airalo, usa el comparador existente para revisar el plan que vas a contratar; confirma datos, vigencia y activación antes de pagar. Esa compra se realiza con el proveedor, y la consulta de chip por WhatsApp es una alternativa distinta."
+        ]
+      },
+      {
+        "route": "/pt/guia/internet/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Eu escolheria primeiro entre roaming, chip físico e eSIM de acordo com o celular e a viagem. Se optar pela Airalo, use o comparador existente para revisar o plano que vai contratar; confirme dados, validade e ativação antes de pagar. A compra é feita com o fornecedor, e a consulta de chip pelo WhatsApp é uma alternativa diferente."
+        ]
+      },
+      {
+        "route": "/pt/guia/internet/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Eu escolheria primeiro entre roaming, chip físico e eSIM de acordo com o celular e a viagem. Se optar pela Airalo, use o comparador existente para revisar o plano que vai contratar; confirme dados, validade e ativação antes de pagar. A compra é feita com o fornecedor, e a consulta de chip pelo WhatsApp é uma alternativa diferente."
+        ]
+      },
+      {
+        "route": "/en/guia/internet/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "I would first choose between roaming, a physical SIM and an eSIM based on your phone and trip. If you choose Airalo, use the existing comparison tool to review the plan; confirm data allowance, validity and activation before paying. The purchase is made with the provider; enquiring about a SIM on WhatsApp is a separate option."
+        ]
+      },
+      {
+        "route": "/en/guia/internet/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "I would first choose between roaming, a physical SIM and an eSIM based on your phone and trip. If you choose Airalo, use the existing comparison tool to review the plan; confirm data allowance, validity and activation before paying. The purchase is made with the provider; enquiring about a SIM on WhatsApp is a separate option."
+        ]
+      },
+      {
+        "route": "/guia/alquiler-auto/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Si el auto encaja con tu itinerario, compara en Rentcars las fechas y los lugares de retiro y devolución que realmente necesitas. El comparador no reemplaza la lectura de las condiciones de la locadora ni confirma que una categoría concreta esté disponible."
+        ]
+      },
+      {
+        "route": "/guia/alquiler-auto/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Si el auto encaja con tu itinerario, compara en Rentcars las fechas y los lugares de retiro y devolución que realmente necesitas. El comparador no reemplaza la lectura de las condiciones de la locadora ni confirma que una categoría concreta esté disponible."
+        ]
+      },
+      {
+        "route": "/pt/guia/alquiler-auto/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Se o carro combina com seu roteiro, compare na Rentcars as datas e os locais de retirada e devolução de que você realmente precisa. O comparador não substitui a leitura das condições da locadora nem confirma a disponibilidade de uma categoria específica."
+        ]
+      },
+      {
+        "route": "/pt/guia/alquiler-auto/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Se o carro combina com seu roteiro, compare na Rentcars as datas e os locais de retirada e devolução de que você realmente precisa. O comparador não substitui a leitura das condições da locadora nem confirma a disponibilidade de uma categoria específica."
+        ]
+      },
+      {
+        "route": "/en/guia/alquiler-auto/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "If a car suits your itinerary, use Rentcars to compare the dates and pickup and return locations you actually need. The comparison tool does not replace reading the rental company’s terms or confirm availability of a specific category."
+        ]
+      },
+      {
+        "route": "/en/guia/alquiler-auto/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "If a car suits your itinerary, use Rentcars to compare the dates and pickup and return locations you actually need. The comparison tool does not replace reading the rental company’s terms or confirm availability of a specific category."
+        ]
+      },
+      {
+        "route": "/guia/seguro/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para preparar el viaje, el enlace de cotización de Assist Card permite revisar una propuesta del proveedor. Compárala con tus necesidades y lee la póliza antes de contratar. Cotizar o abrir el enlace no activa un seguro; esta opción comercial es distinta de los canales de asistencia y de la atención de urgencias descritos en la guía."
+        ]
+      },
+      {
+        "route": "/guia/seguro/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para preparar el viaje, el enlace de cotización de Assist Card permite revisar una propuesta del proveedor. Compárala con tus necesidades y lee la póliza antes de contratar. Cotizar o abrir el enlace no activa un seguro; esta opción comercial es distinta de los canales de asistencia y de la atención de urgencias descritos en la guía."
+        ]
+      },
+      {
+        "route": "/pt/guia/seguro/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para preparar a viagem, o link de cotação da Assist Card permite revisar uma proposta do fornecedor. Compare com suas necessidades e leia a apólice antes de contratar. Fazer uma cotação ou abrir o link não ativa um seguro; esta opção comercial é diferente dos canais de assistência e do atendimento de urgência descritos no guia."
+        ]
+      },
+      {
+        "route": "/pt/guia/seguro/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para preparar a viagem, o link de cotação da Assist Card permite revisar uma proposta do fornecedor. Compare com suas necessidades e leia a apólice antes de contratar. Fazer uma cotação ou abrir o link não ativa um seguro; esta opção comercial é diferente dos canais de assistência e do atendimento de urgência descritos no guia."
+        ]
+      },
+      {
+        "route": "/en/guia/seguro/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "When preparing your trip, the Assist Card quote link lets you review an offer from the provider. Compare it with your needs and read the policy before purchasing. Requesting a quote or opening the link does not activate insurance; this commercial option is separate from the assistance channels and emergency care described in the guide."
+        ]
+      },
+      {
+        "route": "/en/guia/seguro/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "When preparing your trip, the Assist Card quote link lets you review an offer from the provider. Compare it with your needs and read the policy before purchasing. Requesting a quote or opening the link does not activate insurance; this commercial option is separate from the assistance channels and emergency care described in the guide."
+        ]
+      },
+      {
+        "route": "/experiencias/carnaval-experience/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para elegir esta visita cultural, revisa la modalidad y el idioma en el sistema del socio antes de comprar. La visita al barracón es una experiencia distinta de una entrada para un desfile en el Sambódromo; el enlace de compra corresponde a Carnaval Experience."
+        ]
+      },
+      {
+        "route": "/experiencias/carnaval-experience/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para elegir esta visita cultural, revisa la modalidad y el idioma en el sistema del socio antes de comprar. La visita al barracón es una experiencia distinta de una entrada para un desfile en el Sambódromo; el enlace de compra corresponde a Carnaval Experience."
+        ]
+      },
+      {
+        "route": "/pt/experiencias/carnaval-experience/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para escolher esta visita cultural, confira a modalidade e o idioma no sistema do parceiro antes de comprar. A visita ao barracão é uma experiência diferente de um ingresso para um desfile no Sambódromo; o link de compra corresponde ao Carnaval Experience."
+        ]
+      },
+      {
+        "route": "/pt/experiencias/carnaval-experience/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para escolher esta visita cultural, confira a modalidade e o idioma no sistema do parceiro antes de comprar. A visita ao barracão é uma experiência diferente de um ingresso para um desfile no Sambódromo; o link de compra corresponde ao Carnaval Experience."
+        ]
+      },
+      {
+        "route": "/en/experiencias/carnaval-experience/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "To choose this cultural visit, check the format and language in the partner’s booking system before purchasing. A visit to the samba workshop is different from a ticket to a Sambadrome parade; the purchase link is for Carnaval Experience."
+        ]
+      },
+      {
+        "route": "/en/experiencias/carnaval-experience/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "To choose this cultural visit, check the format and language in the partner’s booking system before purchasing. A visit to the samba workshop is different from a ticket to a Sambadrome parade; the purchase link is for Carnaval Experience."
+        ]
+      },
+      {
+        "route": "/experiencias/rio-samba-bus/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Elige según cómo quieres vivir el recorrido: bajadas durante el día, paseo nocturno o la combinación del Super Ticket. Antes de comprar por el enlace del socio, revisa la opción, fecha y condiciones que muestra el sistema oficial; las tres modalidades no son el mismo producto."
+        ]
+      },
+      {
+        "route": "/experiencias/rio-samba-bus/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Elige según cómo quieres vivir el recorrido: bajadas durante el día, paseo nocturno o la combinación del Super Ticket. Antes de comprar por el enlace del socio, revisa la opción, fecha y condiciones que muestra el sistema oficial; las tres modalidades no son el mismo producto."
+        ]
+      },
+      {
+        "route": "/pt/experiencias/rio-samba-bus/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Escolha de acordo com o passeio que procura: paradas durante o dia, passeio noturno ou a combinação do Super Ticket. Antes de comprar pelo link do parceiro, confira a opção, a data e as condições exibidas no sistema oficial; as três modalidades não são o mesmo produto."
+        ]
+      },
+      {
+        "route": "/pt/experiencias/rio-samba-bus/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Escolha de acordo com o passeio que procura: paradas durante o dia, passeio noturno ou a combinação do Super Ticket. Antes de comprar pelo link do parceiro, confira a opção, a data e as condições exibidas no sistema oficial; as três modalidades não são o mesmo produto."
+        ]
+      },
+      {
+        "route": "/en/experiencias/rio-samba-bus/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Choose based on the outing you want: daytime hop-on hop-off stops, a night tour or the Super Ticket combination. Before purchasing through the partner link, check the option, date and terms shown in the official system; the three options are different products."
+        ]
+      },
+      {
+        "route": "/en/experiencias/rio-samba-bus/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Choose based on the outing you want: daytime hop-on hop-off stops, a night tour or the Super Ticket combination. Before purchasing through the partner link, check the option, date and terms shown in the official system; the three options are different products."
+        ]
+      }
+    ]
+  },
+  "affiliates": {
+    "preserved": "all original href/src and inline scripts byte-identical",
+    "AiraloEndpoint": 200,
+    "AssistCardDestination": 200,
+    "RentcarsDestination": "403 automated request; external function not certified",
+    "purchasesOrAttributionTested": false
+  },
+  "commercialPending": [
+    "Paragliding published in Niteroi, not Sao Conrado",
+    "September-only paragliding promotion preserved without extending",
+    "Hang gliding remains coming soon",
+    "Pequena Africa consult-only, no operator/duration/price confirmed"
+  ],
+  "preview": "To be verified after sole commit; final result in delivery"
+}
