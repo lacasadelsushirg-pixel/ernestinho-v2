@@ -134,5 +134,21 @@ export default {
   "Churrascarias": {
     "PT": "Churrascarias",
     "EN": "Brazilian barbecue restaurants"
+  },
+"Para elegir según tu plan, consulta la": {
+    "PT": "Para escolher de acordo com seu programa, consulte a",
+    "EN": "To choose what fits your plans, see the"
+  },
+  "visita al estadio Maracanã": {
+    "PT": "visita ao estádio Maracanã",
+    "EN": "Maracanã stadium visit"
+  },
+  "si buscas conocer sus espacios e historia, o la experiencia de": {
+    "PT": "se você quer conhecer seus espaços e sua história, ou a experiência de",
+    "EN": "if you want to explore its spaces and history, or the experience of"
+  },
+  "asistir a un partido de fútbol": {
+    "PT": "assistir a uma partida de futebol",
+    "EN": "attending a football match"
   }
 };

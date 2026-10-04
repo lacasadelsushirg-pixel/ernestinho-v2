@@ -443,6 +443,29 @@ export default {
   "Prainha do Vidigal foto 2": {
     "PT": "Prainha do Vidigal foto 2",
     "EN": "Prainha do Vidigal beach photo 2"
+  },
+"Si estás eligiendo tu base cerca de esta playa, puedes comparar las": {
+    "PT": "Se você está escolhendo sua base perto desta praia, pode comparar as",
+    "EN": "If you are choosing a place to stay near this beach, you can compare"
+  },
+  "unidades de Hospedaje Ernestinho": {
+    "PT": "unidades da Hospedagem Ernestinho",
+    "EN": "Ernestinho accommodation options"
+  },
+  "Si el vuelo libre es parte de tu plan, compara las experiencias de": {
+    "PT": "Se o voo livre faz parte do seu programa, compare as experiências de",
+    "EN": "If free flight is part of your plans, compare the experiences of"
+  },
+  "vuelo en parapente": {
+    "PT": "voo de parapente",
+    "EN": "paragliding"
+  },
+  "y la opción de ala delta": {
+    "PT": "e a opção de asa-delta",
+    "EN": "and the hang-gliding option"
+  },
+  "; consulta la operación antes de organizar ese día.": {
+    "PT": "; consulte a operação antes de organizar esse dia.",
+    "EN": "; check operation before planning that day."
   }
-
 };

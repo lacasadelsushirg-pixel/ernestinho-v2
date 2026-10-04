@@ -254,5 +254,21 @@ export default {
   "Áreas internas del estadio, espacios ligados a la historia del fútbol, vestuarios o zonas de jugadores según el circuito disponible y la vista del campo y las tribunas.": {
     "PT": "Áreas internas do estádio, espaços ligados à história do futebol, vestiários ou áreas dos jogadores conforme o circuito disponível e a vista do gramado e das arquibancadas.",
     "EN": "Stadium interiors, spaces linked to football history, changing rooms or player areas depending on the available tour, and views of the pitch and stands."
+  },
+"Para elegir según tu plan, consulta la": {
+    "PT": "Para escolher de acordo com seu programa, consulte a",
+    "EN": "To choose what fits your plans, see the"
+  },
+  "visita al estadio Maracanã": {
+    "PT": "visita ao estádio Maracanã",
+    "EN": "Maracanã stadium visit"
+  },
+  "si buscas conocer sus espacios e historia, o la experiencia de": {
+    "PT": "se você quer conhecer seus espaços e sua história, ou a experiência de",
+    "EN": "if you want to explore its spaces and history, or the experience of"
+  },
+  "asistir a un partido de fútbol": {
+    "PT": "assistir a uma partida de futebol",
+    "EN": "attending a football match"
   }
 };

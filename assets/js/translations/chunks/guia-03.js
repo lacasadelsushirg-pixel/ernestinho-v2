@@ -586,5 +586,13 @@ export default {
   "traslado privado y cotización del viaje": {
     "PT": "transfer privativo e orçamento da viagem",
     "EN": "private transfers and trip quotes"
+  },
+"Después de preparar llegada y alojamiento, puedes comparar las": {
+    "PT": "Depois de planejar a chegada e a hospedagem, você pode comparar as",
+    "EN": "Once you have planned your arrival and accommodation, you can compare"
+  },
+  "experiencias para elegir tu plan en Río": {
+    "PT": "experiências para escolher seu programa no Rio",
+    "EN": "experiences to choose your plans in Rio"
   }
 };

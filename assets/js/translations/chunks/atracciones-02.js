@@ -130,5 +130,41 @@ export default {
   "Pão de Açúcar | Atracciones Ernestinho": {
     "PT": "Pão de Açúcar | Atrações Ernestinho",
     "EN": "Sugarloaf Mountain | Ernestinho Attractions"
+  },
+"Esta guía sirve para planear la visita independiente al Cristo. Si prefieres un recorrido acompañado, compara": {
+    "PT": "Este guia ajuda a planejar a visita independente ao Cristo. Se preferir um passeio acompanhado, compare",
+    "EN": "This guide helps you plan an independent visit to Christ the Redeemer. If you prefer an accompanied outing, compare"
+  },
+  "Cristo + City Tour como experiencia": {
+    "PT": "Cristo + City Tour como experiência",
+    "EN": "the Christ + City Tour experience"
+  },
+  "con el recorrido Full Day Río": {
+    "PT": "com o passeio Full Day Rio",
+    "EN": "with the Full Day Rio tour"
+  },
+  "Puedes organizar esta visita por tu cuenta. Para compararla con una jornada organizada por la ciudad, consulta la": {
+    "PT": "Você pode organizar esta visita por conta própria. Para comparar com um dia organizado pela cidade, consulte a",
+    "EN": "You can arrange this visit independently. To compare it with an organised day around the city, see the"
+  },
+  "propuesta de Full Day Río": {
+    "PT": "proposta do Full Day Rio",
+    "EN": "Full Day Rio experience"
+  },
+  "Para elegir según tu plan, consulta la": {
+    "PT": "Para escolher de acordo com seu programa, consulte a",
+    "EN": "To choose what fits your plans, see the"
+  },
+  "visita al estadio Maracanã": {
+    "PT": "visita ao estádio Maracanã",
+    "EN": "Maracanã stadium visit"
+  },
+  "si buscas conocer sus espacios e historia, o la experiencia de": {
+    "PT": "se você quer conhecer seus espaços e sua história, ou a experiência de",
+    "EN": "if you want to explore its spaces and history, or the experience of"
+  },
+  "asistir a un partido de fútbol": {
+    "PT": "assistir a uma partida de futebol",
+    "EN": "attending a football match"
   }
 };

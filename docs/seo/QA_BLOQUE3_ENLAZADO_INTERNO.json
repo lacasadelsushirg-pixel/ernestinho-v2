@@ -1,0 +1,1100 @@
+{
+  "base": "92d028d9e0aa7e226c20887c6a0d59a300a28ddb",
+  "scope": "Bloque 3 exclusivamente",
+  "sourcePages": 9,
+  "renderedPages": 27,
+  "linksPerLanguage": 18,
+  "renderedLinks": 54,
+  "static": {
+    "pages": 27,
+    "sourcePreservation": "all original bytes preserved after removing new paragraphs; header/footer/CSS/scripts/CTA/media/commercial facts unchanged",
+    "sitemap": "byte-identical",
+    "historicalFreeze": "unchanged inherited baseline, not reopened",
+    "results": [
+      {
+        "route": "/guia/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/guia/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/guia/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/consejos/rio-1-a-7-dias/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/consejos/rio-1-a-7-dias/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/consejos/rio-1-a-7-dias/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/atracciones/cristo-redentor/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/atracciones/cristo-redentor/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/atracciones/cristo-redentor/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/atracciones/pao-de-acucar/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/atracciones/pao-de-acucar/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/atracciones/pao-de-acucar/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/atracciones/maracana/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/atracciones/maracana/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/atracciones/maracana/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/barrios/maracana/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/barrios/maracana/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/barrios/maracana/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/familia/maracana-tour/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/familia/maracana-tour/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/familia/maracana-tour/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/playas/copacabana/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/playas/copacabana/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/playas/copacabana/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/playas/sao-conrado/",
+        "language": "es",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/pt/playas/sao-conrado/",
+        "language": "pt-BR",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      },
+      {
+        "route": "/en/playas/sao-conrado/",
+        "language": "en",
+        "metadata": "unchanged",
+        "newCopy": "localized"
+      }
+    ]
+  },
+  "browser": {
+    "combinations": 54,
+    "selectorNavigations": 54,
+    "existingWhatsAppChecks": 6,
+    "modifiedLinkTargets": 33,
+    "failures": 0,
+    "externalVideosNotPlayed": true,
+    "inheritedSelectorBlocks": [],
+    "results": [
+      {
+        "route": "/guia/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Después de preparar llegada y alojamiento, puedes comparar las experiencias para elegir tu plan en Río."
+        ]
+      },
+      {
+        "route": "/guia/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Después de preparar llegada y alojamiento, puedes comparar las experiencias para elegir tu plan en Río."
+        ]
+      },
+      {
+        "route": "/pt/guia/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Depois de planejar a chegada e a hospedagem, você pode comparar as experiências para escolher seu programa no Rio."
+        ]
+      },
+      {
+        "route": "/pt/guia/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Depois de planejar a chegada e a hospedagem, você pode comparar as experiências para escolher seu programa no Rio."
+        ]
+      },
+      {
+        "route": "/en/guia/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Once you have planned your arrival and accommodation, you can compare experiences to choose your plans in Rio."
+        ]
+      },
+      {
+        "route": "/en/guia/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Once you have planned your arrival and accommodation, you can compare experiences to choose your plans in Rio."
+        ]
+      },
+      {
+        "route": "/consejos/rio-1-a-7-dias/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Si prefieres organizar el día urbano con acompañamiento, compara el Full Day Río con la opción Cristo + City Tour. Son propuestas distintas; elige la que encaje con tu jornada.",
+          "Para la jornada fuera de Río que consideras en un viaje de seis o siete días, consulta las opciones de excursión a Búzios, excursión a Arraial do Cabo o la alternativa de excursión Angra + Ilha Grande."
+        ]
+      },
+      {
+        "route": "/consejos/rio-1-a-7-dias/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Si prefieres organizar el día urbano con acompañamiento, compara el Full Day Río con la opción Cristo + City Tour. Son propuestas distintas; elige la que encaje con tu jornada.",
+          "Para la jornada fuera de Río que consideras en un viaje de seis o siete días, consulta las opciones de excursión a Búzios, excursión a Arraial do Cabo o la alternativa de excursión Angra + Ilha Grande."
+        ]
+      },
+      {
+        "route": "/pt/consejos/rio-1-a-7-dias/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Se preferir organizar o dia na cidade com acompanhamento, compare o Full Day Rio com a opção Cristo + City Tour. São propostas diferentes; escolha a que combina com o seu dia.",
+          "Para o dia fora do Rio que você considera em uma viagem de seis ou sete dias, consulte as opções de passeio a Búzios, passeio a Arraial do Cabo ou a alternativa de passeio Angra + Ilha Grande."
+        ]
+      },
+      {
+        "route": "/pt/consejos/rio-1-a-7-dias/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Se preferir organizar o dia na cidade com acompanhamento, compare o Full Day Rio com a opção Cristo + City Tour. São propostas diferentes; escolha a que combina com o seu dia.",
+          "Para o dia fora do Rio que você considera em uma viagem de seis ou sete dias, consulte as opções de passeio a Búzios, passeio a Arraial do Cabo ou a alternativa de passeio Angra + Ilha Grande."
+        ]
+      },
+      {
+        "route": "/en/consejos/rio-1-a-7-dias/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "If you would prefer an accompanied day exploring the city, compare the Full Day Rio tour with the Christ + City Tour option. They are different experiences; choose the one that fits your day.",
+          "For the day outside Rio you are considering on a six- or seven-day trip, explore the options for a Búzios day trip, an Arraial do Cabo day trip or the option for an Angra + Ilha Grande day trip."
+        ]
+      },
+      {
+        "route": "/en/consejos/rio-1-a-7-dias/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "If you would prefer an accompanied day exploring the city, compare the Full Day Rio tour with the Christ + City Tour option. They are different experiences; choose the one that fits your day.",
+          "For the day outside Rio you are considering on a six- or seven-day trip, explore the options for a Búzios day trip, an Arraial do Cabo day trip or the option for an Angra + Ilha Grande day trip."
+        ]
+      },
+      {
+        "route": "/atracciones/cristo-redentor/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Esta guía sirve para planear la visita independiente al Cristo. Si prefieres un recorrido acompañado, compara Cristo + City Tour como experiencia con el recorrido Full Day Río."
+        ]
+      },
+      {
+        "route": "/atracciones/cristo-redentor/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Esta guía sirve para planear la visita independiente al Cristo. Si prefieres un recorrido acompañado, compara Cristo + City Tour como experiencia con el recorrido Full Day Río."
+        ]
+      },
+      {
+        "route": "/pt/atracciones/cristo-redentor/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Este guia ajuda a planejar a visita independente ao Cristo. Se preferir um passeio acompanhado, compare Cristo + City Tour como experiência com o passeio Full Day Rio."
+        ]
+      },
+      {
+        "route": "/pt/atracciones/cristo-redentor/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Este guia ajuda a planejar a visita independente ao Cristo. Se preferir um passeio acompanhado, compare Cristo + City Tour como experiência com o passeio Full Day Rio."
+        ]
+      },
+      {
+        "route": "/en/atracciones/cristo-redentor/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "This guide helps you plan an independent visit to Christ the Redeemer. If you prefer an accompanied outing, compare the Christ + City Tour experience with the Full Day Rio tour."
+        ]
+      },
+      {
+        "route": "/en/atracciones/cristo-redentor/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "This guide helps you plan an independent visit to Christ the Redeemer. If you prefer an accompanied outing, compare the Christ + City Tour experience with the Full Day Rio tour."
+        ]
+      },
+      {
+        "route": "/atracciones/pao-de-acucar/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Puedes organizar esta visita por tu cuenta. Para compararla con una jornada organizada por la ciudad, consulta la propuesta de Full Day Río."
+        ]
+      },
+      {
+        "route": "/atracciones/pao-de-acucar/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Puedes organizar esta visita por tu cuenta. Para compararla con una jornada organizada por la ciudad, consulta la propuesta de Full Day Río."
+        ]
+      },
+      {
+        "route": "/pt/atracciones/pao-de-acucar/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Você pode organizar esta visita por conta própria. Para comparar com um dia organizado pela cidade, consulte a proposta do Full Day Rio."
+        ]
+      },
+      {
+        "route": "/pt/atracciones/pao-de-acucar/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Você pode organizar esta visita por conta própria. Para comparar com um dia organizado pela cidade, consulte a proposta do Full Day Rio."
+        ]
+      },
+      {
+        "route": "/en/atracciones/pao-de-acucar/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "You can arrange this visit independently. To compare it with an organised day around the city, see the Full Day Rio experience."
+        ]
+      },
+      {
+        "route": "/en/atracciones/pao-de-acucar/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "You can arrange this visit independently. To compare it with an organised day around the city, see the Full Day Rio experience."
+        ]
+      },
+      {
+        "route": "/atracciones/maracana/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para elegir según tu plan, consulta la visita al estadio Maracanã si buscas conocer sus espacios e historia, o la experiencia de asistir a un partido de fútbol."
+        ]
+      },
+      {
+        "route": "/atracciones/maracana/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para elegir según tu plan, consulta la visita al estadio Maracanã si buscas conocer sus espacios e historia, o la experiencia de asistir a un partido de fútbol."
+        ]
+      },
+      {
+        "route": "/pt/atracciones/maracana/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para escolher de acordo com seu programa, consulte a visita ao estádio Maracanã se você quer conhecer seus espaços e sua história, ou a experiência de assistir a uma partida de futebol."
+        ]
+      },
+      {
+        "route": "/pt/atracciones/maracana/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para escolher de acordo com seu programa, consulte a visita ao estádio Maracanã se você quer conhecer seus espaços e sua história, ou a experiência de assistir a uma partida de futebol."
+        ]
+      },
+      {
+        "route": "/en/atracciones/maracana/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "To choose what fits your plans, see the Maracanã stadium visit if you want to explore its spaces and history, or the experience of attending a football match."
+        ]
+      },
+      {
+        "route": "/en/atracciones/maracana/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "To choose what fits your plans, see the Maracanã stadium visit if you want to explore its spaces and history, or the experience of attending a football match."
+        ]
+      },
+      {
+        "route": "/barrios/maracana/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para elegir según tu plan, consulta la visita al estadio Maracanã si buscas conocer sus espacios e historia, o la experiencia de asistir a un partido de fútbol."
+        ]
+      },
+      {
+        "route": "/barrios/maracana/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para elegir según tu plan, consulta la visita al estadio Maracanã si buscas conocer sus espacios e historia, o la experiencia de asistir a un partido de fútbol."
+        ]
+      },
+      {
+        "route": "/pt/barrios/maracana/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para escolher de acordo com seu programa, consulte a visita ao estádio Maracanã se você quer conhecer seus espaços e sua história, ou a experiência de assistir a uma partida de futebol."
+        ]
+      },
+      {
+        "route": "/pt/barrios/maracana/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para escolher de acordo com seu programa, consulte a visita ao estádio Maracanã se você quer conhecer seus espaços e sua história, ou a experiência de assistir a uma partida de futebol."
+        ]
+      },
+      {
+        "route": "/en/barrios/maracana/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "To choose what fits your plans, see the Maracanã stadium visit if you want to explore its spaces and history, or the experience of attending a football match."
+        ]
+      },
+      {
+        "route": "/en/barrios/maracana/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "To choose what fits your plans, see the Maracanã stadium visit if you want to explore its spaces and history, or the experience of attending a football match."
+        ]
+      },
+      {
+        "route": "/familia/maracana-tour/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para elegir según tu plan, consulta la visita al estadio Maracanã si buscas conocer sus espacios e historia, o la experiencia de asistir a un partido de fútbol."
+        ]
+      },
+      {
+        "route": "/familia/maracana-tour/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para elegir según tu plan, consulta la visita al estadio Maracanã si buscas conocer sus espacios e historia, o la experiencia de asistir a un partido de fútbol."
+        ]
+      },
+      {
+        "route": "/pt/familia/maracana-tour/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para escolher de acordo com seu programa, consulte a visita ao estádio Maracanã se você quer conhecer seus espaços e sua história, ou a experiência de assistir a uma partida de futebol."
+        ]
+      },
+      {
+        "route": "/pt/familia/maracana-tour/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Para escolher de acordo com seu programa, consulte a visita ao estádio Maracanã se você quer conhecer seus espaços e sua história, ou a experiência de assistir a uma partida de futebol."
+        ]
+      },
+      {
+        "route": "/en/familia/maracana-tour/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "To choose what fits your plans, see the Maracanã stadium visit if you want to explore its spaces and history, or the experience of attending a football match."
+        ]
+      },
+      {
+        "route": "/en/familia/maracana-tour/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "To choose what fits your plans, see the Maracanã stadium visit if you want to explore its spaces and history, or the experience of attending a football match."
+        ]
+      },
+      {
+        "route": "/playas/copacabana/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Si estás eligiendo tu base cerca de esta playa, puedes comparar las unidades de Hospedaje Ernestinho."
+        ]
+      },
+      {
+        "route": "/playas/copacabana/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Si estás eligiendo tu base cerca de esta playa, puedes comparar las unidades de Hospedaje Ernestinho."
+        ]
+      },
+      {
+        "route": "/pt/playas/copacabana/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Se você está escolhendo sua base perto desta praia, pode comparar as unidades da Hospedagem Ernestinho."
+        ]
+      },
+      {
+        "route": "/pt/playas/copacabana/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Se você está escolhendo sua base perto desta praia, pode comparar as unidades da Hospedagem Ernestinho."
+        ]
+      },
+      {
+        "route": "/en/playas/copacabana/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "If you are choosing a place to stay near this beach, you can compare Ernestinho accommodation options."
+        ]
+      },
+      {
+        "route": "/en/playas/copacabana/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "If you are choosing a place to stay near this beach, you can compare Ernestinho accommodation options."
+        ]
+      },
+      {
+        "route": "/playas/sao-conrado/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Si el vuelo libre es parte de tu plan, compara las experiencias de vuelo en parapente y la opción de ala delta; consulta la operación antes de organizar ese día."
+        ]
+      },
+      {
+        "route": "/playas/sao-conrado/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Si el vuelo libre es parte de tu plan, compara las experiencias de vuelo en parapente y la opción de ala delta; consulta la operación antes de organizar ese día."
+        ]
+      },
+      {
+        "route": "/pt/playas/sao-conrado/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Se o voo livre faz parte do seu programa, compare as experiências de voo de parapente e a opção de asa-delta; consulte a operação antes de organizar esse dia."
+        ]
+      },
+      {
+        "route": "/pt/playas/sao-conrado/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "Se o voo livre faz parte do seu programa, compare as experiências de voo de parapente e a opção de asa-delta; consulte a operação antes de organizar esse dia."
+        ]
+      },
+      {
+        "route": "/en/playas/sao-conrado/",
+        "width": 390,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "If free flight is part of your plans, compare the experiences of paragliding and the hang-gliding option; check operation before planning that day."
+        ]
+      },
+      {
+        "route": "/en/playas/sao-conrado/",
+        "width": 1365,
+        "issues": [],
+        "inheritedSelectorBlocks": [],
+        "inheritedOverflow": false,
+        "unavailableImagesInherited": [],
+        "runtimeExceptionsInherited": [],
+        "newCopy": [
+          "If free flight is part of your plans, compare the experiences of paragliding and the hang-gliding option; check operation before planning that day."
+        ]
+      }
+    ]
+  },
+  "edges": [
+    {
+      "source": "/guia/",
+      "target": "/experiencias/",
+      "anchor": "experiencias para elegir tu plan en Río"
+    },
+    {
+      "source": "/consejos/rio-1-a-7-dias/",
+      "target": "/experiencias/full-day-rio/",
+      "anchor": "el Full Day Río"
+    },
+    {
+      "source": "/consejos/rio-1-a-7-dias/",
+      "target": "/experiencias/cristo-city-tour/",
+      "anchor": "con la opción Cristo + City Tour"
+    },
+    {
+      "source": "/consejos/rio-1-a-7-dias/",
+      "target": "/experiencias/buzios/",
+      "anchor": "excursión a Búzios"
+    },
+    {
+      "source": "/consejos/rio-1-a-7-dias/",
+      "target": "/experiencias/arraial-do-cabo/",
+      "anchor": "excursión a Arraial do Cabo"
+    },
+    {
+      "source": "/consejos/rio-1-a-7-dias/",
+      "target": "/experiencias/angra-ilha-grande/",
+      "anchor": "excursión Angra + Ilha Grande"
+    },
+    {
+      "source": "/atracciones/cristo-redentor/",
+      "target": "/experiencias/cristo-city-tour/",
+      "anchor": "Cristo + City Tour como experiencia"
+    },
+    {
+      "source": "/atracciones/cristo-redentor/",
+      "target": "/experiencias/full-day-rio/",
+      "anchor": "con el recorrido Full Day Río"
+    },
+    {
+      "source": "/atracciones/pao-de-acucar/",
+      "target": "/experiencias/full-day-rio/",
+      "anchor": "propuesta de Full Day Río"
+    },
+    {
+      "source": "/atracciones/maracana/",
+      "target": "/experiencias/maracana-experience/",
+      "anchor": "visita al estadio Maracanã"
+    },
+    {
+      "source": "/atracciones/maracana/",
+      "target": "/experiencias/partido-maracana/",
+      "anchor": "asistir a un partido de fútbol"
+    },
+    {
+      "source": "/barrios/maracana/",
+      "target": "/experiencias/maracana-experience/",
+      "anchor": "visita al estadio Maracanã"
+    },
+    {
+      "source": "/barrios/maracana/",
+      "target": "/experiencias/partido-maracana/",
+      "anchor": "asistir a un partido de fútbol"
+    },
+    {
+      "source": "/familia/maracana-tour/",
+      "target": "/experiencias/maracana-experience/",
+      "anchor": "visita al estadio Maracanã"
+    },
+    {
+      "source": "/familia/maracana-tour/",
+      "target": "/experiencias/partido-maracana/",
+      "anchor": "asistir a un partido de fútbol"
+    },
+    {
+      "source": "/playas/copacabana/",
+      "target": "/hospedaje/",
+      "anchor": "unidades de Hospedaje Ernestinho"
+    },
+    {
+      "source": "/playas/sao-conrado/",
+      "target": "/experiencias/vuelo-en-parapente/",
+      "anchor": "vuelo en parapente"
+    },
+    {
+      "source": "/playas/sao-conrado/",
+      "target": "/experiencias/ala-delta/",
+      "anchor": "y la opción de ala delta"
+    }
+  ],
+  "depth": [
+    {
+      "source": "/guia/",
+      "target": "/experiencias/",
+      "anchor": "experiencias para elegir tu plan en Río",
+      "beforeContextHops": 1,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 1,
+      "rootAfterInFocusedGraph": 1
+    },
+    {
+      "source": "/consejos/rio-1-a-7-dias/",
+      "target": "/experiencias/full-day-rio/",
+      "anchor": "el Full Day Río",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 1,
+      "rootAfterInFocusedGraph": 1
+    },
+    {
+      "source": "/consejos/rio-1-a-7-dias/",
+      "target": "/experiencias/cristo-city-tour/",
+      "anchor": "con la opción Cristo + City Tour",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 2,
+      "rootAfterInFocusedGraph": 2
+    },
+    {
+      "source": "/consejos/rio-1-a-7-dias/",
+      "target": "/experiencias/buzios/",
+      "anchor": "excursión a Búzios",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 2,
+      "rootAfterInFocusedGraph": 2
+    },
+    {
+      "source": "/consejos/rio-1-a-7-dias/",
+      "target": "/experiencias/arraial-do-cabo/",
+      "anchor": "excursión a Arraial do Cabo",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 1,
+      "rootAfterInFocusedGraph": 1
+    },
+    {
+      "source": "/consejos/rio-1-a-7-dias/",
+      "target": "/experiencias/angra-ilha-grande/",
+      "anchor": "excursión Angra + Ilha Grande",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 1,
+      "rootAfterInFocusedGraph": 1
+    },
+    {
+      "source": "/atracciones/cristo-redentor/",
+      "target": "/experiencias/cristo-city-tour/",
+      "anchor": "Cristo + City Tour como experiencia",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 2,
+      "rootAfterInFocusedGraph": 2
+    },
+    {
+      "source": "/atracciones/cristo-redentor/",
+      "target": "/experiencias/full-day-rio/",
+      "anchor": "con el recorrido Full Day Río",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 1,
+      "rootAfterInFocusedGraph": 1
+    },
+    {
+      "source": "/atracciones/pao-de-acucar/",
+      "target": "/experiencias/full-day-rio/",
+      "anchor": "propuesta de Full Day Río",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 1,
+      "rootAfterInFocusedGraph": 1
+    },
+    {
+      "source": "/atracciones/maracana/",
+      "target": "/experiencias/maracana-experience/",
+      "anchor": "visita al estadio Maracanã",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 2,
+      "rootAfterInFocusedGraph": 2
+    },
+    {
+      "source": "/atracciones/maracana/",
+      "target": "/experiencias/partido-maracana/",
+      "anchor": "asistir a un partido de fútbol",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 1,
+      "rootAfterInFocusedGraph": 1
+    },
+    {
+      "source": "/barrios/maracana/",
+      "target": "/experiencias/maracana-experience/",
+      "anchor": "visita al estadio Maracanã",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 2,
+      "rootAfterInFocusedGraph": 2
+    },
+    {
+      "source": "/barrios/maracana/",
+      "target": "/experiencias/partido-maracana/",
+      "anchor": "asistir a un partido de fútbol",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 1,
+      "rootAfterInFocusedGraph": 1
+    },
+    {
+      "source": "/familia/maracana-tour/",
+      "target": "/experiencias/maracana-experience/",
+      "anchor": "visita al estadio Maracanã",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 2,
+      "rootAfterInFocusedGraph": 2
+    },
+    {
+      "source": "/familia/maracana-tour/",
+      "target": "/experiencias/partido-maracana/",
+      "anchor": "asistir a un partido de fútbol",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 1,
+      "rootAfterInFocusedGraph": 1
+    },
+    {
+      "source": "/playas/copacabana/",
+      "target": "/hospedaje/",
+      "anchor": "unidades de Hospedaje Ernestinho",
+      "beforeContextHops": 1,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 1,
+      "rootAfterInFocusedGraph": 1
+    },
+    {
+      "source": "/playas/sao-conrado/",
+      "target": "/experiencias/vuelo-en-parapente/",
+      "anchor": "vuelo en parapente",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 1,
+      "rootAfterInFocusedGraph": 1
+    },
+    {
+      "source": "/playas/sao-conrado/",
+      "target": "/experiencias/ala-delta/",
+      "anchor": "y la opción de ala delta",
+      "beforeContextHops": 2,
+      "afterContextHops": 1,
+      "rootBeforeInFocusedGraph": 2,
+      "rootAfterInFocusedGraph": 2
+    }
+  ],
+  "preview": "Pendiente de verificación tras el único commit; resultados finales en cierre de entrega."
+}

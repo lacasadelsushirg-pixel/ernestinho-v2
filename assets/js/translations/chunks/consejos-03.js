@@ -2228,5 +2228,41 @@ export default {
   "📍 Tiendas oficiales, comercios de barrio y shoppings.": {
     "PT": "📍 Lojas oficiais, comércio de bairro e shoppings.",
     "EN": "📍 Official shops, neighborhood stores and malls."
+  },
+"Si prefieres organizar el día urbano con acompañamiento, compara": {
+    "PT": "Se preferir organizar o dia na cidade com acompanhamento, compare",
+    "EN": "If you would prefer an accompanied day exploring the city, compare"
+  },
+  "el Full Day Río": {
+    "PT": "o Full Day Rio",
+    "EN": "the Full Day Rio tour"
+  },
+  "con la opción Cristo + City Tour": {
+    "PT": "com a opção Cristo + City Tour",
+    "EN": "with the Christ + City Tour option"
+  },
+  ". Son propuestas distintas; elige la que encaje con tu jornada.": {
+    "PT": ". São propostas diferentes; escolha a que combina com o seu dia.",
+    "EN": ". They are different experiences; choose the one that fits your day."
+  },
+  "Para la jornada fuera de Río que consideras en un viaje de seis o siete días, consulta las opciones de": {
+    "PT": "Para o dia fora do Rio que você considera em uma viagem de seis ou sete dias, consulte as opções de",
+    "EN": "For the day outside Rio you are considering on a six- or seven-day trip, explore the options for"
+  },
+  "excursión a Búzios": {
+    "PT": "passeio a Búzios",
+    "EN": "a Búzios day trip"
+  },
+  "excursión a Arraial do Cabo": {
+    "PT": "passeio a Arraial do Cabo",
+    "EN": "an Arraial do Cabo day trip"
+  },
+  "o la alternativa de": {
+    "PT": "ou a alternativa de",
+    "EN": "or the option for"
+  },
+  "excursión Angra + Ilha Grande": {
+    "PT": "passeio Angra + Ilha Grande",
+    "EN": "an Angra + Ilha Grande day trip"
   }
 };
