@@ -578,6 +578,13 @@ export default {
   "Ir a Transportes": {
     "PT": "Ir para Transportes",
     "EN": "Go to Transport"
+  },
+"Si prefieres contratar un vehículo con conductor, consulta la página de": {
+    "PT": "Se preferir contratar um veículo com motorista, consulte a página de",
+    "EN": "If you would prefer to arrange a vehicle with a driver, see the page for"
+  },
+  "traslado privado y cotización del viaje": {
+    "PT": "transfer privativo e orçamento da viagem",
+    "EN": "private transfers and trip quotes"
   }
-
 };

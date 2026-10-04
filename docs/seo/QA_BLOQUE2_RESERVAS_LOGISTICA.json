@@ -1,0 +1,65 @@
+{
+  "baseCommit": "6a0c515f6e9b9dcb47bfc59c19cd62b092b5327b",
+  "scope": [
+    "/hospedaje/",
+    "/hospedaje/805/",
+    "/hospedaje/605/",
+    "/hospedaje/1008/",
+    "/hospedaje/54/",
+    "/hospedaje/702/",
+    "/hospedaje/217/",
+    "/hospedaje/1221/",
+    "/hospedaje/621/",
+    "/hospedaje/goia/",
+    "/hospedaje/venti/",
+    "/hospedaje/nata/",
+    "/transportes/transporte-privado/",
+    "/experiencias/partido-maracana/",
+    "/experiencias/maracana-experience/",
+    "/experiencias/rocinha/",
+    "/guia/aeropuertos/"
+  ],
+  "localePages": 51,
+  "viewportCombinations": 102,
+  "newRegressions": 0,
+  "staticChecks": {
+    "pages": 51,
+    "sourcePreservation": "all original bytes preserved after removing new paragraphs; header/footer/CSS/scripts/CTA/media/commercial facts unchanged",
+    "sitemap": "byte-identical",
+    "historicalFreeze": "unchanged inherited baseline, not reopened"
+  },
+  "dictionaryPreservation": "all previous entries unchanged; 16 new keys in 4 chunks",
+  "syntax": "17 source HTML checked for p/a nesting and inline JSON/JS; 4 dictionaries passed node --check",
+  "canonicalHreflang": "unchanged in all 51 output routes",
+  "modifiedLinkTargets": 12,
+  "existingWhatsAppChecks": 102,
+  "whatsappMessagesSent": 0,
+  "selector": {
+    "equivalentRouteNavigations": 102,
+    "realClicks": 100,
+    "completeVisibleCycles": 32,
+    "inheritedBlockedCycles": [
+      {
+        "route": "/experiencias/partido-maracana/",
+        "width": 1365,
+        "codes": [
+          "ES"
+        ]
+      },
+      {
+        "route": "/experiencias/partido-maracana/",
+        "width": 390,
+        "codes": [
+          "ES"
+        ]
+      }
+    ],
+    "note": "On partido-maracana, the existing page CSS hides ES on desktop and mobile. PT and EN clicks work; ES href resolves to the equivalent page but return by visible selector is blocked. 2 fallback URL navigations verify the ES route, not the click. Selector/CSS intentionally preserved."
+  },
+  "visual": "204 before/after full-page screenshots; source/style/media guards plus header/footer/media/grid geometry and visual contact review; no new horizontal overflow or broken image",
+  "inheritedImageLimit": "Maracanã Tour tunnel image from fuiserviajante.com failed in both baseline and current, all locales; original URL retained",
+  "externalVideosNotPlayed": true,
+  "historicalFreeze": "mandatory script run before/after; same 586 inherited differences, no re-audit or manifest edit",
+  "production": "not deployed or promoted",
+  "preview": "single Git-integrated preview to be verified against the committed output"
+}

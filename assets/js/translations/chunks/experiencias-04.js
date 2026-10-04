@@ -1967,5 +1967,37 @@ export default {
   "y Angra / Ilha Grande": {
     "PT": "e Angra / Ilha Grande",
     "EN": "and Angra / Ilha Grande"
+  },
+"Este tour es una visita al estadio y a su historia, con la operación del recorrido por confirmar para tu fecha. Si lo que quieres es ver fútbol en vivo desde las tribunas, consulta la alternativa de": {
+    "PT": "Este tour é uma visita ao estádio e à sua história, com a operação do percurso a confirmar para a sua data. Se você quer assistir a futebol ao vivo nas arquibancadas, consulte a alternativa de",
+    "EN": "This tour is a visit to the stadium and its history, with tour operation to be confirmed for your date. If you want to watch live football from the stands, see the separate option for"
+  },
+  "asistir a un partido en Río": {
+    "PT": "assistir a um jogo no Rio",
+    "EN": "attending a match in Rio"
+  },
+  "Para consultar la visita, dime la fecha, cuántas personas viajan y dónde se hospedan. Revisamos la operación del estadio y la recogida que corresponda antes de confirmar. El botón abre WhatsApp para conversar sobre la experiencia; no confirma por sí solo una reserva.": {
+    "PT": "Para consultar a visita, diga a data, quantas pessoas viajam e onde estão hospedadas. Verificamos a operação do estádio e o embarque correspondente antes de confirmar. O botão abre o WhatsApp para conversar sobre a experiência; ele não confirma uma reserva por si só.",
+    "EN": "To enquire about the visit, tell me the date, your group size and where you are staying. We check stadium operation and the relevant pickup arrangements before confirming. The button opens WhatsApp to discuss the experience; it does not confirm a booking by itself."
+  },
+  "Si prefieres conocer los espacios y la historia del estadio sin asistir a un encuentro, elige la": {
+    "PT": "Se preferir conhecer os espaços e a história do estádio sem assistir a uma partida, escolha a",
+    "EN": "If you would rather explore the stadium and its history without attending a match, choose the"
+  },
+  "visita Maracanã Tour": {
+    "PT": "visita Maracanã Tour",
+    "EN": "Maracanã stadium tour"
+  },
+  "Para consultar un partido, envíame las fechas de tu viaje, número de personas y equipo o encuentro que te interesa. Si tienes una preferencia de sector, indícala: revisamos calendario, estadio, entradas y condiciones vigentes antes de confirmar. Escribirme por WhatsApp no garantiza entrada ni reserva.": {
+    "PT": "Para consultar um jogo, envie as datas da viagem, o número de pessoas e o time ou a partida que interessa. Se tiver preferência de setor, informe: verificamos calendário, estádio, ingressos e condições vigentes antes de confirmar. Escrever pelo WhatsApp não garante ingresso nem reserva.",
+    "EN": "To enquire about a match, send your travel dates, group size and the team or fixture you are interested in. Mention any seating-area preference: we check the schedule, stadium, tickets and current conditions before confirming. Messaging me on WhatsApp does not guarantee a ticket or booking."
+  },
+  "El recorrido combina la subida en moto-taxi con caminatas por becos y escaleras, acompañado por el guía. Al consultar, cuéntame si ese formato encaja con tu grupo o si tienes alguna necesidad de movilidad; conversamos sobre el recorrido antes de confirmar.": {
+    "PT": "O passeio combina a subida de mototáxi com caminhadas por becos e escadas, acompanhado pelo guia. Ao consultar, conte se esse formato atende ao grupo ou se há alguma necessidade de mobilidade; conversamos sobre o percurso antes de confirmar.",
+    "EN": "The visit combines a moto-taxi ride uphill with walks through alleys and stairways, accompanied by the guide. When enquiring, tell me whether that format suits your group or whether you have any mobility needs; we discuss the route before confirming."
+  },
+  "Para consultar el tour de Rocinha, envíame fecha, número de personas, preferencia de mañana o tarde y hospedaje. Confirmamos punto de encuentro y condiciones de esa salida por WhatsApp. Los encuentros espontáneos con la comunidad forman parte de su vida cotidiana; no son una actividad garantizada. Abrir la conversación no confirma una reserva.": {
+    "PT": "Para consultar o tour da Rocinha, envie a data, o número de pessoas, a preferência por manhã ou tarde e a hospedagem. Confirmamos o ponto de encontro e as condições da saída pelo WhatsApp. Os encontros espontâneos com a comunidade fazem parte do cotidiano; não são uma atividade garantida. Iniciar a conversa não confirma uma reserva.",
+    "EN": "To enquire about the Rocinha tour, send the date, group size, your preference for morning or afternoon, and where you are staying. We confirm the meeting point and conditions for that outing on WhatsApp. Spontaneous encounters with residents are part of everyday community life, not a guaranteed activity. Starting the conversation does not confirm a booking."
   }
 };

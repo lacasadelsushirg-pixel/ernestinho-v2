@@ -2486,5 +2486,17 @@ export default {
 "¿Debo pagar en efectivo si elegí tarjeta?":{"PT":"Preciso pagar em dinheiro se escolhi cartão?","EN":"Do I need to pay cash if I selected a card?"},
 "¿Qué hago si el conductor me pide cancelar y seguir por fuera?":{"PT":"O que fazer se o motorista pedir para cancelar e seguir por fora?","EN":"What if the driver asks me to cancel and continue outside the app?"},
 "¿Qué reviso antes de entrar?":{"PT":"O que conferir antes de entrar?","EN":"What should I check before getting in?"},
-"⚠️ Mucho cuidado con el pago en efectivo":{"PT":"⚠️ Muito cuidado com o pagamento em dinheiro","EN":"⚠️ Take extra care with cash payments"}
+"⚠️ Mucho cuidado con el pago en efectivo":{"PT":"⚠️ Muito cuidado com o pagamento em dinheiro","EN":"⚠️ Take extra care with cash payments"},
+"Aquí puedes consultar la contratación de un traslado privado con conductor. Si todavía estás comparando cómo llegar desde GIG o SDU, empieza por la": {
+    "PT": "Aqui você pode consultar a contratação de um transfer privativo com motorista. Se ainda está comparando como chegar a partir do GIG ou do SDU, comece pelo",
+    "EN": "Here you can enquire about arranging a private transfer with a driver. If you are still comparing ways to travel from GIG or SDU, start with the"
+  },
+  "guía de aeropuertos y opciones de llegada": {
+    "PT": "guia de aeroportos e opções de chegada",
+    "EN": "guide to airports and arrival transport options"
+  },
+  "Para cotizar, envíame la fecha y hora, aeropuerto u origen, destino, número de vuelo cuando corresponda, pasajeros y cantidad y tamaño del equipaje. Con esos datos revisamos la solicitud y te confirmamos por escrito lo que se pueda ofrecer. El mensaje de WhatsApp es una consulta, no una reserva confirmada.": {
+    "PT": "Para pedir um orçamento, envie a data e o horário, aeroporto ou origem, destino, número do voo quando houver, passageiros e quantidade e tamanho das bagagens. Com esses dados, analisamos a solicitação e confirmamos por escrito o que podemos oferecer. A mensagem de WhatsApp é uma consulta, não uma reserva confirmada.",
+    "EN": "For a quote, send the date and time, airport or starting point, destination, flight number where relevant, passenger count, and the amount and size of your luggage. With those details, we review your request and confirm in writing what we can offer. A WhatsApp message is an enquiry, not a confirmed booking."
+  }
 };
