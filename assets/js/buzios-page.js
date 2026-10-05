@@ -11,10 +11,10 @@ import { ready as navigationReady } from './site.js';
 const T=(es,pt,en)=>({ES:es,PT:pt,EN:en});
 const A=(...items)=>items;
 const img={
-  coast:'https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto:good,c_limit,w_1600/IMG_3079',
-  sea:'https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto:good,c_limit,w_1600/IMG_3080',
-  turtle:'https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto:good,c_limit,w_1600/IMG_3081',
-  street:'https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto:good,c_limit,w_1600/IMG_3082'
+  coast:'/assets/images/buzios/panorama-mtur.webp',
+  sea:'/assets/images/buzios/joao-fernandes.webp',
+  turtle:'/assets/images/buzios/tartaruga.webp',
+  street:'/assets/images/buzios/orla-bardot.webp'
 };
 const link=(title,href,copy)=>({title,href,copy});
 const item=(title,text,href='')=>({title,text,href});
@@ -72,7 +72,8 @@ const PAGES={
     title:T('Búzios: otro ritmo, otro mar','Búzios: outro ritmo, outro mar','Búzios: a different rhythm, a different sea'),
     description:T('Guía profunda de Búzios para elegir playas, zona, alojamiento, experiencias, gastronomía, movilidad y excursiones desde la ciudad.','Guia completo de Búzios para escolher praias, região, hospedagem, experiências, gastronomia, mobilidade e passeios saindo da cidade.','An in-depth Búzios guide to choosing beaches, areas, accommodation, experiences, food, transport and day trips from town.'),
     intro:T('Búzios cambia mucho según la playa que eliges, la calle donde duermes y la forma en que piensas moverte. Esta home organiza el destino por decisiones reales: primero tu base y tu ritmo; después las experiencias.','Búzios muda muito conforme a praia escolhida, a rua onde você fica e a forma de se locomover. Esta home organiza o destino por decisões reais: primeiro sua base e seu ritmo; depois as experiências.','Búzios changes considerably depending on your beach, the street where you stay and how you plan to get around. This hub is organised around real decisions: choose your base and pace first, then your experiences.'),
-    hero:img.coast,
+    hero:buziosPhotos['Paisaje de Búzios']?.src||img.coast,
+    heroPhoto:buziosPhotos['Paisaje de Búzios'],
     facts:A(fact(T('Ideal para','Ideal para','Best for'),T('Estadías, Río + Búzios y llegadas directas','Estadias, Rio + Búzios e chegadas diretas','Stays, Rio + Búzios and direct arrivals')),fact(T('Primera decisión','Primeira decisão','First decision'),T('Zona + movilidad','Região + mobilidade','Area + transport')),fact(T('Venta local','Venda local','Local sales'),T('Salidas desde Búzios, valor a consultar','Saídas de Búzios, valor sob consulta','Departures from Búzios, price on request'))),
     sections:A(
       section(T('Diseña tu Búzios','Desenhe a sua Búzios','Shape your Búzios'),T('No existe una única forma correcta de vivir la península. Estas son las decisiones que cambian el viaje.','Não existe uma única maneira correta de viver a península. Estas são as decisões que mudam a viagem.','There is no single right way to experience the peninsula. These choices change the trip.'),A(
@@ -510,7 +511,14 @@ PAGES['/destinos/buzios/comer-y-salir/'].heroPhoto=portoPhoto;
 const cultureCard=PAGES['/destinos/buzios/que-hacer/'].sections.flatMap(s=>s.items).find(it=>value(it.title,'ES')==='Cultura e identidad');
 if(cultureCard)cultureCard.photo='Brigitte Bardot';
 const portalCards=[
- ['playas',T('Playas','Praias','Beaches'),'João Fernandes'],['alojamiento',T('Dónde alojarse','Onde ficar','Where to stay'),null],['comer-y-salir',T('Comer y salir','Comer e sair','Food and nightlife'),'Porto da Barra'],['que-hacer',T('Qué hacer','O que fazer','Things to do'),'Brigitte Bardot'],['experiencias',T('Experiencias','Experiências','Experiences'),null],['moverse',T('Cómo moverse','Como circular','Getting around'),null],['perfiles',T('Elige tu perfil','Escolha seu perfil','Choose your travel style'),null],['cruceros',T('Cruceros','Cruzeiros','Cruises'),null]
+ ['playas',T('Playas','Praias','Beaches'),'João Fernandes'],
+ ['alojamiento',T('Dónde alojarse','Onde ficar','Where to stay'),'Ossos'],
+ ['comer-y-salir',T('Comer y salir','Comer e sair','Food and nightlife'),'Porto da Barra'],
+ ['que-hacer',T('Qué hacer','O que fazer','Things to do'),'Brigitte Bardot'],
+ ['experiencias',T('Experiencias','Experiências','Experiences'),'Paisaje de Búzios'],
+ ['moverse',T('Cómo moverse','Como circular','Getting around'),'Orla Bardot'],
+ ['perfiles',T('Elige tu perfil','Escolha seu perfil','Choose your travel style'),'Geribá'],
+ ['cruceros',T('Cruceros','Cruzeiros','Cruises'),'Armação']
 ];
 function photoFigure(photo,lang,caption=true){if(!photo)return '';const alt=T('Vista de '+photo.name+' en Búzios','Vista de '+photo.name+' em Búzios','View of '+photo.name+' in Búzios')[lang];return `<figure class="bz-card-photo"><img src="${esc(photo.src)}" alt="${esc(alt)}" width="${photo.width}" height="${photo.height}" loading="lazy" decoding="async">${caption?`<figcaption>${esc(photo.name)} · <a href="${esc(photo.source)}" target="_blank" rel="noopener noreferrer">${esc(photo.artist)}</a> · <a href="${esc(photo.licenseUrl)}" target="_blank" rel="license noopener noreferrer">${esc(photo.license)}</a></figcaption>`:''}</figure>`;}
 
