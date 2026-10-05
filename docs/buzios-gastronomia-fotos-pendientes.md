@@ -1,6 +1,6 @@
 # Búzios gastronomy — photo gaps
 
-Scope: 38 venues retained/selected in Comer y salir (33 existing listings plus five additional venues). Checked repository-visible Cloudinary mappings on 5 October 2026; none identify photographs of these restaurants. The connected session has no Cloudinary asset-library integration, so unlisted assets cannot be asserted as owned/cleared. No third-party photos are embedded. Existing geographic images were removed from restaurant cards because they document the area, not the establishment.
+Scope: 42 unique venues retained/selected in Comer y salir (33 existing listings plus nine additional venues). Checked repository-visible Cloudinary mappings on 5 October 2026; none identify photographs of these restaurants. The connected session has no Cloudinary asset-library integration, so unlisted assets cannot be asserted as owned/cleared. No third-party photos are embedded. Existing geographic images were removed from restaurant cards because they document the area, not the establishment.
 
 | Restaurant | Reusable photos available | Missing | Photo types to source from Ernestinho/Cloud or with written reuse permission |
 |---|---:|---:|---|
@@ -44,3 +44,7 @@ Scope: 38 venues retained/selected in Comer y salir (33 existing listings plus f
 | Garagem Restobar | 0 | 4 | Ferradura entrance; dining room; current menu dish; restaurant identity/detail |
 
 Images shown by a venue on its website were not copied or hotlinked: publication alone does not establish a reuse license. Recheck for licensed Cloud uploads when the photo pass begins.
+| 74 Restaurant | 0 | 4 | Casas Brancas terrace/entrance; dining room; current menu dish; restaurant view over Armação Bay |
+| La Gare | 0 | 4 | Entrance from Praça dos Ossos; dining room/patio; current menu dish; breakfast or dinner atmosphere |
+| Octopous Bar Bistrô Bazar | 0 | 4 | Store 34 entrance; Octopous dining room or terrace; current fish or seafood dish; actual restaurant table view |
+| San Telmo Parrilla | 0 | 4 | Verify exact entrance/pin; grill and dining room; current parrilla cut; group table or atmosphere |

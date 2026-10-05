@@ -1,0 +1,2662 @@
+{
+  "routes": 11,
+  "combinations": 66,
+  "failures": 0,
+  "beaches": 23,
+  "uniqueBeachPhotoFiles": 22,
+  "repeatedBeachPhotos": [],
+  "missingBeachPhotos": [
+    "Tucuns",
+    "José Gonçalves",
+    "Caravelas",
+    "Foca",
+    "Olho de Boi",
+    "Amores",
+    "Virgens",
+    "Gorda"
+  ],
+  "remoteOriginsObserved": [],
+  "performanceScope": "Local synthetic observations, with eager-image QA. Not field CWV or INP certification. Remote image origins are recorded separately because this local QA sandbox cannot fetch them.",
+  "rows": [
+    {
+      "title": "Guía de 74 Restaurant en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de 74 Restaurant en Alto do Humaitá · Centro, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/74-restaurant/",
+      "og": "Guía de 74 Restaurant en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 516,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/74-restaurant/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do 74 Restaurant em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do 74 Restaurant em Alto do Humaitá · Centro, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/74-restaurant/",
+      "og": "Guia do 74 Restaurant em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 483,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 124
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/74-restaurant/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "74 Restaurant in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to 74 Restaurant in Alto do Humaitá · Centro, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/74-restaurant/",
+      "og": "74 Restaurant in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 444,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 52
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/74-restaurant/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de aGaleria · Insólito en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de aGaleria · Insólito en Praia da Ferradura, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/agaleria/",
+      "og": "Guía de aGaleria · Insólito en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 451,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 252
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/agaleria/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do aGaleria · Insólito em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do aGaleria · Insólito em Praia da Ferradura, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/agaleria/",
+      "og": "Guia do aGaleria · Insólito em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 427,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 164
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/agaleria/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "aGaleria · Insólito in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to aGaleria · Insólito in Praia da Ferradura, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/agaleria/",
+      "og": "aGaleria · Insólito in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 416,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 156
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/agaleria/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Altto Ristorante & Lounge Bar en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Altto Ristorante & Lounge Bar en Alto do Humaitá · Orla Bardot, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/altto/",
+      "og": "Guía de Altto Ristorante & Lounge Bar en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 464,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 172
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/altto/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Altto Ristorante & Lounge Bar em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Altto Ristorante & Lounge Bar em Alto do Humaitá · Orla Bardot, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/altto/",
+      "og": "Guia do Altto Ristorante & Lounge Bar em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 434,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/altto/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Altto Ristorante & Lounge Bar in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Altto Ristorante & Lounge Bar in Alto do Humaitá · Orla Bardot, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/altto/",
+      "og": "Altto Ristorante & Lounge Bar in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 423,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/altto/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Anexo Praia en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Anexo Praia en Manguinhos · Porto da Barra, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/anexo-praia/",
+      "og": "Guía de Anexo Praia en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 518,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 312
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/anexo-praia/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Anexo Praia em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Anexo Praia em Manguinhos · Porto da Barra, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/anexo-praia/",
+      "og": "Guia do Anexo Praia em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 484,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/anexo-praia/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Anexo Praia in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Anexo Praia in Manguinhos · Porto da Barra, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/anexo-praia/",
+      "og": "Anexo Praia in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 441,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/anexo-praia/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Farinatta Bistrô en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Farinatta Bistrô en Albatroz, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/farinatta/",
+      "og": "Guía de Farinatta Bistrô en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 443,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/farinatta/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Farinatta Bistrô em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Farinatta Bistrô em Albatroz, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/farinatta/",
+      "og": "Guia do Farinatta Bistrô em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 431,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 168
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/farinatta/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Farinatta Bistrô in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Farinatta Bistrô in Albatroz, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/farinatta/",
+      "og": "Farinatta Bistrô in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 420,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 128
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/farinatta/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de La Gare en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de La Gare en Praia dos Ossos · Praça Eugênio Honold, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/la-gare/",
+      "og": "Guía de La Gare en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 555,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 140
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/la-gare/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do La Gare em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do La Gare em Praia dos Ossos · Praça Eugênio Honold, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/la-gare/",
+      "og": "Guia do La Gare em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 514,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 136
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/la-gare/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "La Gare in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to La Gare in Praia dos Ossos · Praça Eugênio Honold, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/la-gare/",
+      "og": "La Gare in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 464,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 172
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/la-gare/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Macaw Búzios en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Macaw Búzios en Manguinhos · Porto da Barra, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/macaw/",
+      "og": "Guía de Macaw Búzios en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 499,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/macaw/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Macaw Búzios em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Macaw Búzios em Manguinhos · Porto da Barra, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/macaw/",
+      "og": "Guia do Macaw Búzios em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 452,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/macaw/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Macaw Búzios in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Macaw Búzios in Manguinhos · Porto da Barra, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/macaw/",
+      "og": "Macaw Búzios in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 438,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/macaw/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Octopous Bar Bistrô Bazar en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Octopous Bar Bistrô Bazar en Manguinhos · Porto da Barra, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/octopous/",
+      "og": "Guía de Octopous Bar Bistrô Bazar en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 580,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 228
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/octopous/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Octopous Bar Bistrô Bazar em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Octopous Bar Bistrô Bazar em Manguinhos · Porto da Barra, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/octopous/",
+      "og": "Guia do Octopous Bar Bistrô Bazar em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 556,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 156
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/octopous/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Octopous Bar Bistrô Bazar in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Octopous Bar Bistrô Bazar in Manguinhos · Porto da Barra, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/octopous/",
+      "og": "Octopous Bar Bistrô Bazar in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 498,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/octopous/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Bar dos Pescadores en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Bar dos Pescadores en Manguinhos · Porto da Barra, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/pescadores/",
+      "og": "Guía de Bar dos Pescadores en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 475,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 220
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/pescadores/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Bar dos Pescadores em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Bar dos Pescadores em Manguinhos · Porto da Barra, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/pescadores/",
+      "og": "Guia do Bar dos Pescadores em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 446,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 176
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/pescadores/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Bar dos Pescadores in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Bar dos Pescadores in Manguinhos · Porto da Barra, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/pescadores/",
+      "og": "Bar dos Pescadores in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 435,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/pescadores/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de San Telmo Parrilla en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de San Telmo Parrilla en Portal da Ferradura, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/san-telmo/",
+      "og": "Guía de San Telmo Parrilla en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 509,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 192
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/san-telmo/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do San Telmo Parrilla em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do San Telmo Parrilla em Portal da Ferradura, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/san-telmo/",
+      "og": "Guia do San Telmo Parrilla em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 473,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 300
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/san-telmo/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "San Telmo Parrilla in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to San Telmo Parrilla in Portal da Ferradura, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/san-telmo/",
+      "og": "San Telmo Parrilla in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 470,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 212
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/san-telmo/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Tawa Beach en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Tawa Beach en Praia da Ferradura, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/tawa-beach/",
+      "og": "Guía de Tawa Beach en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 475,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 180
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/tawa-beach/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Tawa Beach em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Tawa Beach em Praia da Ferradura, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/tawa-beach/",
+      "og": "Guia do Tawa Beach em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 448,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 188
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/tawa-beach/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Tawa Beach in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Tawa Beach in Praia da Ferradura, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/tawa-beach/",
+      "og": "Tawa Beach in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 421,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 224
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/tawa-beach/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de 74 Restaurant en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de 74 Restaurant en Alto do Humaitá · Centro, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/74-restaurant/",
+      "og": "Guía de 74 Restaurant en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 516,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 72
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/74-restaurant/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do 74 Restaurant em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do 74 Restaurant em Alto do Humaitá · Centro, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/74-restaurant/",
+      "og": "Guia do 74 Restaurant em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 483,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 172
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/74-restaurant/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "74 Restaurant in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to 74 Restaurant in Alto do Humaitá · Centro, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/74-restaurant/",
+      "og": "74 Restaurant in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 444,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 80
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/74-restaurant/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de aGaleria · Insólito en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de aGaleria · Insólito en Praia da Ferradura, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/agaleria/",
+      "og": "Guía de aGaleria · Insólito en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 451,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 68
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/agaleria/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do aGaleria · Insólito em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do aGaleria · Insólito em Praia da Ferradura, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/agaleria/",
+      "og": "Guia do aGaleria · Insólito em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 427,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 64
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/agaleria/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "aGaleria · Insólito in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to aGaleria · Insólito in Praia da Ferradura, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/agaleria/",
+      "og": "aGaleria · Insólito in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 416,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 48
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/agaleria/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Altto Ristorante & Lounge Bar en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Altto Ristorante & Lounge Bar en Alto do Humaitá · Orla Bardot, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/altto/",
+      "og": "Guía de Altto Ristorante & Lounge Bar en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 464,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/altto/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Altto Ristorante & Lounge Bar em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Altto Ristorante & Lounge Bar em Alto do Humaitá · Orla Bardot, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/altto/",
+      "og": "Guia do Altto Ristorante & Lounge Bar em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 434,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 72
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/altto/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Altto Ristorante & Lounge Bar in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Altto Ristorante & Lounge Bar in Alto do Humaitá · Orla Bardot, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/altto/",
+      "og": "Altto Ristorante & Lounge Bar in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 423,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 68
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/altto/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Anexo Praia en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Anexo Praia en Manguinhos · Porto da Barra, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/anexo-praia/",
+      "og": "Guía de Anexo Praia en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 518,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/anexo-praia/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Anexo Praia em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Anexo Praia em Manguinhos · Porto da Barra, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/anexo-praia/",
+      "og": "Guia do Anexo Praia em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 484,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 76
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/anexo-praia/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Anexo Praia in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Anexo Praia in Manguinhos · Porto da Barra, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/anexo-praia/",
+      "og": "Anexo Praia in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 441,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/anexo-praia/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Farinatta Bistrô en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Farinatta Bistrô en Albatroz, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/farinatta/",
+      "og": "Guía de Farinatta Bistrô en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 443,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/farinatta/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Farinatta Bistrô em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Farinatta Bistrô em Albatroz, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/farinatta/",
+      "og": "Guia do Farinatta Bistrô em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 431,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 76
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/farinatta/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Farinatta Bistrô in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Farinatta Bistrô in Albatroz, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/farinatta/",
+      "og": "Farinatta Bistrô in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 420,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/farinatta/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de La Gare en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de La Gare en Praia dos Ossos · Praça Eugênio Honold, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/la-gare/",
+      "og": "Guía de La Gare en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 555,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 104
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/la-gare/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do La Gare em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do La Gare em Praia dos Ossos · Praça Eugênio Honold, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/la-gare/",
+      "og": "Guia do La Gare em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 514,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/la-gare/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "La Gare in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to La Gare in Praia dos Ossos · Praça Eugênio Honold, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/la-gare/",
+      "og": "La Gare in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 464,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/la-gare/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Macaw Búzios en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Macaw Búzios en Manguinhos · Porto da Barra, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/macaw/",
+      "og": "Guía de Macaw Búzios en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 499,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 108
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/macaw/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Macaw Búzios em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Macaw Búzios em Manguinhos · Porto da Barra, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/macaw/",
+      "og": "Guia do Macaw Búzios em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 452,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 88
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/macaw/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Macaw Búzios in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Macaw Búzios in Manguinhos · Porto da Barra, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/macaw/",
+      "og": "Macaw Búzios in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 438,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 72
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/macaw/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Octopous Bar Bistrô Bazar en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Octopous Bar Bistrô Bazar en Manguinhos · Porto da Barra, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/octopous/",
+      "og": "Guía de Octopous Bar Bistrô Bazar en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 580,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/octopous/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Octopous Bar Bistrô Bazar em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Octopous Bar Bistrô Bazar em Manguinhos · Porto da Barra, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/octopous/",
+      "og": "Guia do Octopous Bar Bistrô Bazar em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 556,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 104
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/octopous/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Octopous Bar Bistrô Bazar in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Octopous Bar Bistrô Bazar in Manguinhos · Porto da Barra, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/octopous/",
+      "og": "Octopous Bar Bistrô Bazar in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 498,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/octopous/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Bar dos Pescadores en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Bar dos Pescadores en Manguinhos · Porto da Barra, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/pescadores/",
+      "og": "Guía de Bar dos Pescadores en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 475,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 128
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/pescadores/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Bar dos Pescadores em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Bar dos Pescadores em Manguinhos · Porto da Barra, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/pescadores/",
+      "og": "Guia do Bar dos Pescadores em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 446,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/pescadores/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Bar dos Pescadores in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Bar dos Pescadores in Manguinhos · Porto da Barra, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/pescadores/",
+      "og": "Bar dos Pescadores in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 435,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 112
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/pescadores/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de San Telmo Parrilla en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de San Telmo Parrilla en Portal da Ferradura, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/san-telmo/",
+      "og": "Guía de San Telmo Parrilla en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 509,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 80
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/san-telmo/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do San Telmo Parrilla em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do San Telmo Parrilla em Portal da Ferradura, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/san-telmo/",
+      "og": "Guia do San Telmo Parrilla em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 473,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 84
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/san-telmo/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "San Telmo Parrilla in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to San Telmo Parrilla in Portal da Ferradura, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/san-telmo/",
+      "og": "San Telmo Parrilla in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 470,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 136
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/san-telmo/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guía de Tawa Beach en Búzios | Ernestinho Carioca",
+      "description": "Guía editorial de Tawa Beach en Praia da Ferradura, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/tawa-beach/",
+      "og": "Guía de Tawa Beach en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 475,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 108
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/tawa-beach/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guia do Tawa Beach em Búzios | Ernestinho Carioca",
+      "description": "Guia editorial do Tawa Beach em Praia da Ferradura, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/tawa-beach/",
+      "og": "Guia do Tawa Beach em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 448,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/tawa-beach/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Tawa Beach in Búzios: guide | Ernestinho Carioca",
+      "description": "An editorial guide to Tawa Beach in Praia da Ferradura, Búzios: concept, what to order, experience, practical details, map and official sources.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/tawa-beach/",
+      "og": "Tawa Beach in Búzios: guide | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 421,
+      "broken": [],
+      "remoteImages": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 116
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneCards": 0,
+        "zoneOpenCriteria": 0
+      },
+      "beachV2": {
+        "cards": 0,
+        "cardCopyMax": 0,
+        "cardPhotos": 0,
+        "cardPhotoDuplicates": 0,
+        "steps": 0,
+        "photoCount": 0,
+        "photoDuplicates": 0,
+        "photoCredits": true,
+        "firstSequence": [],
+        "collapsedLongCopy": true
+      },
+      "route": "/destinos/buzios/comer-y-salir/tawa-beach/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    }
+  ]
+}
