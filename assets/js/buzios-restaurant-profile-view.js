@@ -1,0 +1,41 @@
+import { buziosRestaurantProfiles } from './buzios-restaurant-profiles.js';
+
+const lang=location.pathname.match(/^\/(pt|en)(?=\/)/)?.[1]||'es';
+const root='/destinos/buzios/comer-y-salir/';
+const slug=document.body.dataset.restaurant;
+const p=buziosRestaurantProfiles[slug];
+if(!p)throw new Error(`Unknown Búzios restaurant profile: ${slug}`);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pick=x=>typeof x==='string'?x:x[lang];
+const copy={
+  es:{guide:'Gastronomía de Búzios · Guía Ernestinho',back:'← Volver a Comer y salir',title:'Guía de {name} en Búzios | Ernestinho Carioca',desc:'Guía editorial de {name} en {zone}, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.',identity:'Identidad y ambiente visual',history:'Historia y propuesta',ambience:'El ambiente y la identidad del restaurante',read:'Mi lectura personal como Ernestinho',order:'Qué pedir y por qué',time:'Experiencia según el momento del día',advice:'Mi consejo específico',nearby:'Qué combinar cerca',practical:'Información práctica',map:'Mapa y cómo llegar',gallery:'Galería completa',missing:'Cobertura fotográfica propia pendiente',missingDetail:'Esta ficha no usa imágenes de otros negocios ni fotografías sin licencia confirmada. Faltan cuatro fotografías reales y reutilizables antes de cerrar la galería.',photos:'Fotos publicadas: 0 de 4 · sin imágenes incorporadas',address:'Zona / dirección',phone:'Teléfono',whatsapp:'WhatsApp',web:'Web oficial',instagram:'Instagram oficial',mapLink:'Abrir mapa',sources:'Fuentes consultadas',follow:'Consulta disponibilidad directamente antes de salir.',credits:'Fotos: inventario pendiente de imágenes propias o autorizadas. No se reutilizan imágenes de plataformas de reseñas.'},
+  pt:{guide:'Gastronomia de Búzios · Guia Ernestinho',back:'← Voltar a Comer e sair',title:'Guia do {name} em Búzios | Ernestinho Carioca',desc:'Guia editorial do {name} em {zone}, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.',identity:'Identidade e ambiente visual',history:'História e proposta',ambience:'O ambiente e a identidade do restaurante',read:'Minha leitura pessoal como Ernestinho',order:'O que pedir e por quê',time:'Experiência conforme o momento do dia',advice:'Meu conselho específico',nearby:'O que combinar por perto',practical:'Informações práticas',map:'Mapa e como chegar',gallery:'Galeria completa',missing:'Cobertura fotográfica própria pendente',missingDetail:'Esta ficha não usa imagens de outros estabelecimentos nem fotografias sem licença confirmada. Faltam quatro fotos reais e reutilizáveis para completar a galeria.',photos:'Fotos publicadas: 0 de 4 · nenhuma imagem incorporada',address:'Região / endereço',phone:'Telefone',whatsapp:'WhatsApp',web:'Site oficial',instagram:'Instagram oficial',mapLink:'Abrir mapa',sources:'Fontes consultadas',follow:'Consulte disponibilidade diretamente antes de sair.',credits:'Fotos: inventário pendente de imagens próprias ou autorizadas. Não reutilizamos imagens de plataformas de avaliações.'},
+  en:{guide:'Búzios food guide · Ernestinho',back:'← Back to Eat and go out',title:'{name} in Búzios: guide | Ernestinho Carioca',desc:'An editorial guide to {name} in {zone}, Búzios: concept, what to order, experience, practical details, map and official sources.',identity:'Identity and visual atmosphere',history:'History and concept',ambience:'The restaurant’s atmosphere and identity',read:'My personal take as Ernestinho',order:'What to order and why',time:'Experience by time of day',advice:'My specific advice',nearby:'What to combine nearby',practical:'Practical information',map:'Map and directions',gallery:'Full gallery',missing:'Own-photo coverage pending',missingDetail:'This profile does not use images from other businesses or photographs without confirmed reuse rights. Four real, reusable photographs are still needed to complete the gallery.',photos:'Photos published: 0 of 4 · no images incorporated',address:'Area / address',phone:'Phone',whatsapp:'WhatsApp',web:'Official website',instagram:'Official Instagram',mapLink:'Open map',sources:'Sources consulted',follow:'Check availability directly before setting out.',credits:'Photos: awaiting own or authorized images. Images from review platforms are not reused.'}
+}[lang];
+const localized=(url)=>`/${lang==='es'?'':lang}${url}`;
+const name=p.name;
+const title=copy.title.replace('{name}',name);
+const description=copy.desc.replace('{name}',name).replace('{zone}',pick(p.zone));
+document.documentElement.lang=lang==='pt'?'pt-BR':lang;
+document.title=title;
+document.querySelector('meta[name="description"]').content=description;
+document.querySelector('link[rel="canonical"]').href='https://www.ernestinhocarioca.com.br'+localized(root+slug+'/');
+for(const [key,val] of [['og:title',title],['og:description',description],['og:url','https://www.ernestinhocarioca.com.br'+localized(root+slug+'/')],['twitter:title',title],['twitter:description',description]])document.querySelector(`meta[property="${key}"],meta[name="${key}"]`).content=val;
+document.querySelectorAll('link[hreflang]').forEach(e=>e.remove());
+for(const [h,l] of [['es','es'],['pt-BR','pt'],['en','en']]){const link=document.createElement('link');link.rel='alternate';link.hreflang=h;link.href=`https://www.ernestinhocarioca.com.br/${l==='es'?'':l+'/'}${root+slug}/`;document.head.append(link);}
+const link=(url,label)=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`;
+const sections=[['identity',pick(p.intro)],['history',pick(p.history)],['ambience',pick(p.ambience)],['read',pick(p.read)],['order',pick(p.order)],['time',pick(p.time)],['advice',pick(p.advice)],['nearby',pick(p.nearby)]];
+const contact=[p.phone&&`${copy.phone}: ${p.phone}`,p.whatsapp&&`${copy.whatsapp}: ${p.whatsapp}`,`${copy.web}: ${link(p.website,p.website)}`,p.instagram&&`${pick(p.instagramLabel)||copy.instagram}: ${link(p.instagram,p.instagram)}`].filter(Boolean);
+document.querySelector('#profile').innerHTML=`
+  <nav class="back"><a href="${localized(root)}">${copy.back}</a><span>${['es','pt','en'].map(l=>`<a class="lang" href="/${l==='es'?'':l+'/'}${root+slug}/">${l.toUpperCase()}</a>`).join('')}</span></nav>
+  <header class="hero"><div><p class="ey">${esc(copy.guide)} · ${esc(pick(p.zone))}</p><div class="tags">${pick(p.tags).split(' · ').map(t=>`<span>${esc(t)}</span>`).join('')}</div><h1>${esc(name)}</h1><p class="lead">${esc(pick(p.intro))}</p><p class="hero-note">${esc(copy.photos)}</p></div></header>
+  <main class="wrap">
+   ${sections.map(([key,text])=>`<section class="card"><h2>${esc(copy[key])}</h2><p>${esc(text)}</p></section>`).join('')}
+   <section class="card"><h2>${esc(copy.practical)}</h2><p>${esc(pick(p.practical))}</p><p><strong>${esc(copy.address)}:</strong> ${esc(pick(p.zone))}</p>${contact.map(c=>`<p>${c}</p>`).join('')}<p>${esc(copy.follow)}</p></section>
+   <section class="card"><h2>${esc(copy.map)}</h2><p>${esc(pick(p.zone))}. ${esc(copy.follow)}</p><p>${link(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.map)}`,copy.mapLink)}</p><iframe class="map" title="${esc(copy.map+' · '+name)}" src="https://www.google.com/maps?q=${encodeURIComponent(p.map)}&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+   <section class="card"><h2>${esc(copy.gallery)}</h2><div class="photo-gap"><strong>${esc(copy.missing)}</strong><p>${esc(copy.missingDetail)}</p><p>${esc(pick(p.photoGap))}</p><small>${esc(copy.credits)}</small></div></section>
+   <section class="card"><h2>${esc(copy.sources)}</h2><ul>${p.sources.map(([label,url])=>`<li>${link(url,pick(label))}</li>`).join('')}</ul></section>
+   <p class="back"><a href="${localized(root)}">${copy.back}</a></p>
+  </main>`;
+const schema={'@context':'https://schema.org','@type':'WebPage',name:title,description,url:'https://www.ernestinhocarioca.com.br'+localized(root+slug+'/'),inLanguage:lang==='pt'?'pt-BR':lang,'isPartOf':{'@type':'WebSite',name:'Ernestinho Carioca',url:'https://www.ernestinhocarioca.com.br/'}};
+const ld=document.createElement('script');ld.type='application/ld+json';ld.textContent=JSON.stringify(schema);document.head.append(ld);
