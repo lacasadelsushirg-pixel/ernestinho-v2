@@ -18,6 +18,7 @@ const img={
 };
 const link=(title,href,copy)=>({title,href,copy});
 const item=(title,text,href='')=>({title,text,href});
+const venue=(title,text,photo,details,actions)=>({title,text,photo,details,actions});
 const section=(title,lead,items,theme='')=>({title,lead,items,theme});
 const fact=(label,value)=>({label,value});
 
@@ -482,6 +483,174 @@ PAGES['/destinos/buzios/comer-y-salir/'].sections.push(section(T('Una mesa para 
  item(T('Cuidar el presupuesto','Cuidar do orçamento','Watching your budget'),T('Compara el gasto completo: comida, bebidas, servicio y transporte. Pregunta qué viene con el plato y si el valor es por persona o para compartir. Un apartamento con cocina cambia las opciones: mercado para desayunos y una cena elegida pueden rendir más que improvisar cada comida.','Compare o gasto completo: comida, bebidas, serviço e transporte. Pergunte o que acompanha o prato e se o valor é individual ou para compartilhar. Apartamento com cozinha muda as opções: mercado para café da manhã e um jantar escolhido podem render mais.','Compare the total spend: food, drinks, service and transport. Ask what comes with a dish and whether the price is individual or shared. A self-catering apartment changes the options: groceries for breakfast and one chosen dinner can stretch the budget.')),
  item(T('Beach club y noche de música','Beach club e noite de música','Beach clubs and music nights'),T('Silk, en Brava, y Fishbone, en Geribá, son referencias de formatos diferentes, no una programación permanente. Revisa sus canales oficiales para la fecha y confirma admisión, consumo y regreso. Una foto de una fiesta pasada no prueba que ese evento ocurra durante tu viaje.','Silk, na Brava, e Fishbone, em Geribá, são referências de formatos diferentes, não programação permanente. Confira canais oficiais para sua data, entrada, consumo e volta. Foto de festa passada não prova que o evento ocorrerá na viagem.','Silk at Brava and Fishbone at Geribá represent different formats, not permanent programmes. Check official channels for your date, admission, spending requirements and return. A photo of a past party does not prove it will happen during your stay.'))
 )));
+
+PAGES['/destinos/buzios/comer-y-salir/'].sections.push(
+  section(
+    T('10 mesas para entender la gastronomía de Búzios','10 mesas para entender a gastronomia de Búzios','10 tables for understanding Búzios dining'),
+    T('No es un ranking. Es una primera selección con estilos distintos entre Rua das Pedras, Orla Bardot y Porto da Barra. Los horarios cambian: confirma el mismo día antes de salir.','Não é ranking. É uma primeira seleção com estilos diferentes entre Rua das Pedras, Orla Bardot e Porto da Barra. Horários mudam: confirme no mesmo dia antes de sair.','This is not a ranking. It is a first selection covering different styles across Rua das Pedras, Orla Bardot and Porto da Barra. Hours change: confirm on the day before going.'),
+    A(
+      venue(
+        T('Chez Michou · el clásico informal','Chez Michou · o clássico informal','Chez Michou · the casual classic'),
+        T('Una institución nacida en Búzios para resolver una cena sin ceremonia: crepes salados y dulces, movimiento y ambiente joven. Lo recomiendo cuando quieres algo rápido, céntrico y fácil de combinar con Rua das Pedras, no cuando buscas una cena silenciosa o gastronómica de varias horas.','Uma instituição nascida em Búzios para resolver um jantar sem cerimônia: crepes salgados e doces, movimento e clima jovem. Recomendo quando você quer algo rápido, central e fácil de combinar com a Rua das Pedras, não quando procura jantar silencioso ou experiência gastronômica longa.','A Búzios institution for an unfussy meal: savoury and sweet crêpes, energy and a youthful atmosphere. I recommend it when you want something quick and central to combine with Rua das Pedras, not for a quiet, long-form dinner.'),
+        'Orla Bardot',
+        A(
+          item(T('Qué pedir','O que pedir','What to order'),T('Elige un crepe salado y deja espacio para compartir uno dulce. La carta tiene muchas combinaciones; conviene decidir por ingrediente principal y no por cantidad de opciones.','Escolha um crepe salgado e deixe espaço para dividir um doce. O cardápio tem muitas combinações; vale decidir pelo ingrediente principal, não pela quantidade de opções.','Choose a savoury crêpe and leave room to share a sweet one. The menu is extensive, so decide by your main ingredient rather than by the number of choices.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Úsalo como parte de una noche caminando por el Centro. Si tu prioridad es conversar sin ruido, elige otro formato.','Use como parte de uma noite caminhando pelo Centro. Se a prioridade é conversar sem barulho, escolha outro formato.','Use it as part of an evening walking through the centre. If quiet conversation is the priority, choose another format.')),
+          item(T('Dirección','Endereço','Address'),T('Rua das Pedras, 90 · Centro','Rua das Pedras, 90 · Centro','Rua das Pedras, 90 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Chez+Michou+Buzios+Rua+das+Pedras+90'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226339400'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/chezmichoucreperia/'},
+          {label:T('Web oficial','Site oficial','Official site'),href:'https://www.chezmichou.com.br/lojas/buzios/'}
+        )
+      ),
+      venue(
+        T('Primitivo · Italia en Rua das Pedras','Primitivo · Itália na Rua das Pedras','Primitivo · Italy on Rua das Pedras'),
+        T('Pasta, pizza, vino y una ubicación que funciona muy bien para una cena antes o después de caminar por el centro. Es una opción más sentada y gastronómica que Chez Michou, sin perder el ritmo de Rua das Pedras.','Massas, pizza, vinho e uma localização que funciona muito bem para jantar antes ou depois de caminhar pelo centro. É uma opção mais sentada e gastronômica que o Chez Michou, sem perder o ritmo da Rua das Pedras.','Pasta, pizza, wine and a location that works well before or after walking through the centre. It is a more sit-down, food-focused choice than Chez Michou while keeping the Rua das Pedras energy.'),
+        'Orla Bardot',
+        A(
+          item(T('Qué pedir','O que pedir','What to order'),T('Pizza de fermentación trabajada, pastas y platos italianos. Si van varios, compartir entradas y pizza permite probar más sin convertir la cena en una sucesión de platos pesados.','Pizza de fermentação trabalhada, massas e pratos italianos. Em grupo, dividir entradas e pizza ajuda a provar mais sem transformar o jantar numa sequência pesada.','Pizza, pasta and Italian dishes. With a group, sharing starters and pizza lets you try more without turning dinner into a heavy sequence.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Buena elección para pareja o familia que quiere sentarse con calma pero seguir en pleno Centro. En fechas fuertes, confirma espera antes de organizar el resto de la noche.','Boa escolha para casal ou família que quer sentar com calma sem sair do Centro. Em datas concorridas, confirme a espera antes de organizar o resto da noite.','A good choice for couples or families who want a proper sit-down meal without leaving the centre. On busy dates, check the wait before planning the rest of the evening.')),
+          item(T('Dirección','Endereço','Address'),T('Rua das Pedras, 60 · Centro','Rua das Pedras, 60 · Centro','Rua das Pedras, 60 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Primitivo+Buzios+Rua+das+Pedras+60'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226239951'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/primitivobuzios/'},
+          {label:T('Web oficial','Site oficial','Official site'),href:'https://primitivobuzios.com.br/'}
+        )
+      ),
+      venue(
+        T('Buzin · variedad para grupos','Buzin · variedade para grupos','Buzin · variety for groups'),
+        T('Una casa grande y tradicional del Centro que funciona bien cuando el grupo quiere comer cosas distintas: buffet, carnes, sushi, masas, bebidas y estructura amplia. No es mi opción para una cena íntima; sí para resolver diferencias de gusto en una sola mesa.','Casa grande e tradicional do Centro que funciona bem quando o grupo quer coisas diferentes: buffet, carnes, sushi, massas, bebidas e estrutura ampla. Não é minha escolha para jantar íntimo; é ótima para resolver gostos diferentes numa mesa.','A large, established central restaurant that works well when a group wants different things: buffet, meats, sushi, pasta, drinks and plenty of space. Not my pick for an intimate dinner, but very useful for mixed tastes.'),
+        'Orla Bardot',
+        A(
+          item(T('Qué pedir','O que pedir','What to order'),T('La fortaleza es la variedad. Mira primero el buffet y las estaciones antes de llenar el plato: así eliges con criterio en vez de mezclar por impulso.','A força é a variedade. Veja primeiro o buffet e as estações antes de montar o prato: assim você escolhe com critério em vez de misturar por impulso.','Its strength is variety. Look over the buffet and stations before filling your plate so you choose deliberately rather than mixing everything at once.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Para familias y grupos grandes puede ser más práctico que dividirse entre restaurantes. También sirve cuando nadie logra ponerse de acuerdo entre carne, pescado, sushi o pasta.','Para famílias e grupos grandes pode ser mais prático do que se dividir entre restaurantes. Também ajuda quando ninguém decide entre carne, peixe, sushi ou massa.','For families and larger groups it can be easier than splitting up. It is especially useful when nobody can agree between meat, fish, sushi or pasta.')),
+          item(T('Dirección','Endereço','Address'),T('Rua Manoel Turíbio de Farias, 273 · Centro','Rua Manoel Turíbio de Farias, 273 · Centro','Rua Manoel Turíbio de Farias, 273 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Buzin+Gastronomia+Buzios'},
+          {label:T('WhatsApp','WhatsApp','WhatsApp'),href:'https://wa.me/5522999206594'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226237051'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/buzinbuzios/'},
+          {label:T('Web oficial','Site oficial','Official site'),href:'https://www.buzinbuzios.com.br/pt'}
+        )
+      ),
+      venue(
+        T('Restô Canto · cena frente al mar','Restô Canto · jantar de frente para o mar','Restô Canto · dinner by the water'),
+        T('En Rua das Pedras pero con otra sensación: cocina brasileña y mediterránea, frutos del mar y mesas que permiten bajar el ritmo. Lo elegiría cuando quieres ubicación central sin que la experiencia se reduzca a “comer rápido y seguir”.','Na Rua das Pedras, mas com outra sensação: cozinha brasileira e mediterrânea, frutos do mar e mesas que permitem desacelerar. Eu escolheria quando você quer localização central sem transformar a refeição em “comer rápido e seguir”.','On Rua das Pedras but with a different pace: Brazilian and Mediterranean cooking, seafood and tables that let you slow down. I would choose it when you want a central location without treating dinner as a quick stop.'),
+        'Orla Bardot',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Parejas, cena especial y quien quiere mar sin salir del circuito del Centro.','Casais, jantar especial e quem quer mar sem sair do circuito do Centro.','Couples, a special dinner and anyone who wants the waterfront without leaving the central circuit.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('En mesas frente al agua, confirma ubicación al reservar o llegar: “estar en el restaurante” y “tener mesa con vista” no son la misma cosa.','Para mesa junto à água, confirme a posição ao reservar ou chegar: “estar no restaurante” e “ter mesa com vista” não são a mesma coisa.','For a waterside table, confirm the position when booking or arriving: being at the restaurant and having a view are not the same thing.')),
+          item(T('Dirección','Endereço','Address'),T('Rua das Pedras, 233 · Centro','Rua das Pedras, 233 · Centro','Rua das Pedras, 233 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Resto+Canto+Buzios+Rua+das+Pedras+233'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226333803'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/restocanto/'}
+        )
+      ),
+      venue(
+        T('Bar do Zé · cocina y Orla Bardot','Bar do Zé · cozinha e Orla Bardot','Bar do Zé · dining on Orla Bardot'),
+        T('Un nombre tradicional de la Orla para pescados, frutos del mar y una cena con vista. Es de los lugares que conviene elegir por la experiencia completa —mesa, paisaje y plato— y no solo por “quiero comer pescado”.','Nome tradicional da Orla para peixes, frutos do mar e jantar com vista. É lugar para escolher pela experiência completa —mesa, paisagem e prato— e não apenas por “quero comer peixe”.','A long-standing Orla name for fish, seafood and dinner with a view. Choose it for the whole experience —table, setting and food— rather than simply because you want seafood.'),
+        'Orla Bardot',
+        A(
+          item(T('Qué mirar','O que observar','What to look for'),T('La carta trabaja pescados y frutos del mar con platos más elaborados. Revisa tamaño de porción y acompañamientos antes de pedir varias entradas.','O cardápio trabalha peixes e frutos do mar com pratos mais elaborados. Confira tamanho da porção e acompanhamentos antes de pedir várias entradas.','The menu focuses on fish and seafood with more elaborate plates. Check portion sizes and sides before ordering several starters.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Si buscas puesta de sol, llega antes de que oscurezca; si buscas cena tranquila, ir un poco después cambia completamente el ritmo de la Orla.','Se busca pôr do sol, chegue antes de escurecer; para jantar mais tranquilo, ir um pouco depois muda completamente o ritmo da Orla.','For sunset, arrive before dark; for a calmer dinner, going a little later changes the Orla atmosphere completely.')),
+          item(T('Dirección','Endereço','Address'),T('Av. José Bento Ribeiro Dantas, 382 · Orla Bardot','Av. José Bento Ribeiro Dantas, 382 · Orla Bardot','Av. José Bento Ribeiro Dantas, 382 · Orla Bardot'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Bar+do+Ze+Buzios+Orla+Bardot'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226234986'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/bardozebuzios/'}
+        )
+      ),
+      venue(
+        T('Místico · ocasión especial','Místico · ocasião especial','Místico · special occasion'),
+        T('Dentro de Abracadabra, mirando la Bahía de Armação, es una propuesta contemporánea con influencia mediterránea, servicio más cuidado y ambiente claramente romántico. Es para reservar tiempo y disfrutar, no para “comer algo antes de salir”.','Dentro do Abracadabra, olhando a Baía da Armação, é uma proposta contemporânea com influência mediterrânea, serviço mais cuidadoso e clima claramente romântico. É para reservar tempo e aproveitar, não para “comer algo antes de sair”.','Inside Abracadabra overlooking Armação Bay, this is a contemporary Mediterranean-influenced restaurant with more attentive service and a clearly romantic setting. Allow time for it; this is not a quick meal before going out.'),
+        'Armação',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Pareja, aniversario, celebración o una noche en la que la mesa sea parte central del viaje.','Casal, aniversário, celebração ou noite em que a mesa seja parte central da viagem.','Couples, anniversaries, celebrations or an evening where the meal itself is a central part of the trip.')),
+          item(T('Antes de ir','Antes de ir','Before going'),T('La propia casa informa reglas de ambiente y restricciones; confirma reserva y condiciones actuales. Menores de 5 años y mascotas no son aceptados según la información oficial vigente.','A própria casa informa regras de ambiente e restrições; confirme reserva e condições atuais. Menores de 5 anos e animais não são aceitos segundo a informação oficial vigente.','The venue publishes atmosphere rules and restrictions; confirm the current booking conditions. Children under five and pets are not accepted according to the current official information.')),
+          item(T('Dirección','Endereço','Address'),T('Rua Alto do Humaitá, 13 · Armação','Rua Alto do Humaitá, 13 · Armação','Rua Alto do Humaitá, 13 · Armação'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Mistico+Restaurante+Abracadabra+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226231217'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/misticorestaurante/'},
+          {label:T('Web oficial','Site oficial','Official site'),href:'https://www.abracadabrahotel.com.br/es/restaurante'}
+        )
+      ),
+      venue(
+        T('Madame Bardot · Orla sin formalidad excesiva','Madame Bardot · Orla sem formalidade excessiva','Madame Bardot · waterfront without too much formality'),
+        T('Una alternativa sobre la Orla para sentarse frente al mar con carta amplia y clima más relajado que una cena de alta gastronomía. Funciona bien para grupos que quieren paisaje, drinks y comida sin una ceremonia demasiado rígida.','Alternativa na Orla para sentar de frente ao mar com cardápio amplo e clima mais relaxado que um jantar de alta gastronomia. Funciona bem para grupos que querem paisagem, drinks e comida sem cerimônia rígida.','A waterfront alternative with a broad menu and a more relaxed feel than fine dining. It works well for groups who want scenery, drinks and food without too much ceremony.'),
+        'Orla Bardot',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Grupos, pareja informal, almuerzo tardío o cena con paseo por la Orla.','Grupos, casal informal, almoço tardio ou jantar com passeio pela Orla.','Groups, casual couples, a late lunch or dinner combined with an Orla walk.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('No elijas solo por una mesa fotografiable: revisa qué quieres comer y el viento del día. Frente al agua, clima y ubicación de la mesa cambian mucho la experiencia.','Não escolha só por uma mesa bonita para foto: veja o que quer comer e o vento do dia. À beira-mar, clima e posição da mesa mudam bastante a experiência.','Do not choose it only for a photogenic table: consider what you want to eat and the day’s wind. By the water, weather and table position can change the experience.')),
+          item(T('Dirección','Endereço','Address'),T('Av. José Bento Ribeiro Dantas, 805 · Orla Bardot','Av. José Bento Ribeiro Dantas, 805 · Orla Bardot','Av. José Bento Ribeiro Dantas, 805 · Orla Bardot'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Madame+Bardot+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552233018073'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/madamebardotbuzios/'}
+        )
+      ),
+      venue(
+        T('NAMI Gastrobar · latino-asiático al sunset','NAMI Gastrobar · latino-asiático no sunset','NAMI Gastrobar · Latin-Asian at sunset'),
+        T('En Porto da Barra, frente a Manguinhos, combina cocina latino-asiática, sushi, pescados y coctelería. Es una de las mejores puertas para entender por qué Manguinhos no compite con Rua das Pedras: propone otro ritmo, especialmente al final de la tarde.','No Porto da Barra, de frente para Manguinhos, combina cozinha latino-asiática, sushi, peixes e coquetelaria. É uma das melhores portas para entender por que Manguinhos não compete com a Rua das Pedras: oferece outro ritmo, especialmente no fim da tarde.','At Porto da Barra facing Manguinhos, it combines Latin-Asian cooking, sushi, seafood and cocktails. It is a good way to understand why Manguinhos is not trying to be Rua das Pedras: the pace is different, especially late in the day.'),
+        'Porto da Barra',
+        A(
+          item(T('Qué buscar','O que buscar','What to look for'),T('Platos de influencia oriental y peruana, pescados y preparaciones para compartir. Si quieres ver el sunset, la hora de llegada importa tanto como la reserva.','Pratos de influência oriental e peruana, peixes e preparações para dividir. Se quer ver o sunset, o horário de chegada importa tanto quanto a reserva.','Oriental and Peruvian-influenced dishes, seafood and plates to share. If sunset matters, arrival time is as important as the booking.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Porto da Barra se disfruta mejor sin apuro: llega antes del atardecer, camina el conjunto y después decide si quieres seguir con drinks o cena larga.','Porto da Barra fica melhor sem pressa: chegue antes do pôr do sol, caminhe pelo complexo e depois decida entre drinks ou jantar longo.','Porto da Barra works best without rushing: arrive before sunset, walk around, then decide whether you want drinks or a longer dinner.')),
+          item(T('Dirección','Endereço','Address'),T('Porto da Barra · Av. José Bento Ribeiro Dantas, 2900 · loja 44','Porto da Barra · Av. José Bento Ribeiro Dantas, 2900 · loja 44','Porto da Barra · Av. José Bento Ribeiro Dantas, 2900 · unit 44'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=NAMI+Gastrobar+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522997067257'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/namigastrobar/'}
+        )
+      ),
+      venue(
+        T('Casablanca · Porto da Barra versátil','Casablanca · Porto da Barra versátil','Casablanca · versatile Porto da Barra dining'),
+        T('Una mesa de Porto da Barra que mezcla frutos del mar, carnes, influencia española, vinos y opciones para compartir. Me gusta como alternativa para quien quiere el paisaje de Manguinhos pero un menú menos concentrado en una sola cocina.','Mesa do Porto da Barra que mistura frutos do mar, carnes, influência espanhola, vinhos e opções para dividir. Gosto como alternativa para quem quer a paisagem de Manguinhos com cardápio menos preso a uma única cozinha.','A Porto da Barra table mixing seafood, meat, Spanish influence, wine and sharing plates. It is useful when you want the Manguinhos setting without committing to a single cuisine.'),
+        'Porto da Barra',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Pareja, grupos pequeños, almuerzo con vista o cena sin necesidad de volver al Centro.','Casal, grupos pequenos, almoço com vista ou jantar sem precisar voltar ao Centro.','Couples, small groups, lunch with a view or dinner without returning to the centre.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Si estás alojado en Geribá o Manguinhos, cenar aquí puede evitar un viaje innecesario al Centro. Compara siempre el regreso antes de elegir restaurante solo por fama.','Se está em Geribá ou Manguinhos, jantar aqui pode evitar deslocamento desnecessário ao Centro. Compare sempre a volta antes de escolher restaurante apenas pela fama.','If you are staying in Geribá or Manguinhos, dining here can avoid an unnecessary trip into town. Always factor in the return before choosing a restaurant just because it is famous.')),
+          item(T('Dirección','Endereço','Address'),T('Porto da Barra · Av. José Bento Ribeiro Dantas, 2900 · loja 29','Porto da Barra · Av. José Bento Ribeiro Dantas, 2900 · loja 29','Porto da Barra · Av. José Bento Ribeiro Dantas, 2900 · unit 29'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Casablanca+Buzios+Porto+da+Barra'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522998535593'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/casablancabuzios/'},
+          {label:T('Web','Site','Website'),href:'https://casablancabuzios.com.br/'}
+        )
+      ),
+      venue(
+        T('Belli Belli · gastrobar frente al mar','Belli Belli · gastrobar de frente para o mar','Belli Belli · waterfront gastrobar'),
+        T('Gastrobar de Porto da Barra con frutos del mar, pizza, coctelería y una propuesta más casual para quedarse entre comida y drinks. Es útil cuando el grupo no quiere una cena formal pero tampoco un snack rápido.','Gastrobar do Porto da Barra com frutos do mar, pizza, coquetelaria e proposta mais casual para ficar entre comida e drinks. Funciona quando o grupo não quer jantar formal nem lanche rápido.','A Porto da Barra gastrobar with seafood, pizza and cocktails, positioned between a proper meal and drinks. Useful when the group wants more than a snack without committing to formal dining.'),
+        'Porto da Barra',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Grupos, fin de tarde, cena casual y quien quiere prolongar la sobremesa.','Grupos, fim de tarde, jantar casual e quem quer prolongar a conversa.','Groups, late afternoon, casual dinner and anyone who wants to linger after the meal.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('No intentes “hacer” Porto da Barra en treinta minutos. El valor está en llegar con luz, caminar, ver el cambio de color y recién después sentarte.','Não tente “fazer” Porto da Barra em trinta minutos. O valor está em chegar com luz, caminhar, ver a mudança de cor e só depois sentar.','Do not try to “do” Porto da Barra in thirty minutes. Arrive while it is light, walk around, watch the colours change and only then sit down.')),
+          item(T('Dirección','Endereço','Address'),T('Av. José Bento Ribeiro Dantas, 2900 · Manguinhos','Av. José Bento Ribeiro Dantas, 2900 · Manguinhos','Av. José Bento Ribeiro Dantas, 2900 · Manguinhos'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Belli+Belli+Gastrobar+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226239033'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/bellibelli.gastrobar/'},
+          {label:T('Web','Site','Website'),href:'https://bellibelligastrobar.com/'}
+        )
+      )
+    ),
+    'alt'
+  )
+);
+
 PAGES['/destinos/buzios/consejos/'].sections.splice(1,0,section(T('El año cambia el ritmo de Búzios','O ano muda o ritmo de Búzios','The year changes Búzios’ rhythm'),T('Además del clima, revisa vacaciones, feriados y eventos. El día de la semana puede cambiar tanto el viaje como la estación.','Além do clima, confira férias, feriados e eventos. O dia da semana pode mudar a viagem tanto quanto a estação.','Alongside weather, check holidays and events. The day of the week can change a trip as much as the season.'),A(
  item(T('Verano','Verão','Summer'),T('De diciembre a marzo, organiza la estadía pensando en calor, protección solar y períodos de vacaciones. Planifica sombra y agua, y deja margen para tránsito y cambios de tiempo. Las salidas por mar dependen de la operación confirmada, no de que el calendario diga verano.','De dezembro a março, planeje calor, proteção solar e períodos de férias. Inclua sombra e água, com margem para trânsito e mudanças do tempo. Passeios no mar dependem da operação confirmada, não apenas da estação.','From December to March, plan for heat, sun protection and holiday periods. Include shade and water, allowing for traffic and weather changes. Boat trips depend on confirmed operations rather than the summer label.')),
  item(T('Otoño','Outono','Autumn'),T('De marzo a junio, compara fechas concretas en vez de asumir baja temporada continua. Feriados y fines de semana pueden concentrar movimiento. Una capa ligera ayuda a adaptar playa, paseo y cena; revisa el pronóstico cerca del viaje y conserva una alternativa si cambia el mar.','De março a junho, compare datas em vez de presumir baixa temporada contínua. Feriados e fins de semana podem concentrar movimento. Agasalho leve ajuda entre praia, passeio e jantar; confira a previsão e mantenha alternativa se o mar mudar.','From March to June, compare dates rather than assuming uninterrupted low season. Holidays and weekends can bring crowds. A light layer helps between beach, walks and dinner; check the forecast and keep an alternative if sea conditions change.')),
@@ -531,8 +700,9 @@ function shortCopy(text,max=152){const clean=String(text||'').trim();const first
 function whatsapp(text){return 'https://wa.me/5521969946938?text='+encodeURIComponent(text);}
 function editorialDetails(it,lang){
  const detail=it.details?`<dl class="bz-editorial-details">${it.details.map(d=>`<dt>${esc(value(d.title,lang))}</dt><dd>${esc(value(d.text,lang))}</dd>`).join('')}</dl>`:'';
+ const actions=it.actions?.length?`<div class="bz-editorial-actions">${it.actions.map(a=>{const href=a.href||'';const external=/^https?:/.test(href);return `<a href="${esc(href)}"${external?' target="_blank" rel="noopener noreferrer"':''}>${esc(value(a.label,lang))} →</a>`;}).join('')}</div>`:'';
  const slot='';
- return detail+slot;
+ return detail+actions+slot;
 }
 function editorialMatrix(matrix,lang){if(!matrix)return '';const copy={ES:{profile:'Perfil y playa cercana',more:'Ver los 18 criterios',all:'12 zonas · 18 dimensiones'},PT:{profile:'Perfil e praia próxima',more:'Ver os 18 critérios',all:'12 regiões · 18 dimensões'},EN:{profile:'Best fit and nearby beach',more:'See all 18 criteria',all:'12 areas · 18 dimensions'}}[lang];return `<div class="bz-zone-atlas" aria-label="${esc(copy.all)}">${matrix.rows.map(([name,cells],i)=>`<article class="bz-zone-card"><span class="bz-card-number">${String(i+1).padStart(2,'0')}</span><h3>${esc(name)}</h3><p class="bz-zone-label">${esc(copy.profile)}</p><p>${esc(shortCopy(value(cells[0],lang),138))}</p><details><summary>${esc(copy.more)}</summary><dl>${matrix.columns.map((column,j)=>`<dt>${esc(value(column,lang))}</dt><dd>${esc(value(cells[j],lang))}</dd>`).join('')}</dl></details></article>`).join('')}</div>`;}
 function render(){
