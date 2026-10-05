@@ -4,6 +4,7 @@ import { beachProfiles } from '/assets/js/buzios-beaches.js';
 import { beachDecisions } from '/assets/js/buzios-beach-decisions.js';
 import { beachFields, beachCompletion } from '/assets/js/buzios-beach-content.js';
 import { buziosPhotos } from '/assets/js/buzios-photos.js';
+import { resolveBeachPhotos } from '/assets/js/buzios-cloudinary.js';
 
 const language = getLanguage();
 document.body.classList.add('ec-buzios-beach-v2');
@@ -38,8 +39,8 @@ if (!beach || !root) {
 const profile = local(beachProfiles.find(([name]) => name === beach.name)?.[1]);
 const decision = local(beachDecisions[beach.name]);
 const content = beachCompletion.find(([name]) => name === beach.name)?.[1] || [];
-const images = [...new Set(beach.images || [])];
-const leadImage = images[0];
+let images = [...new Set(beach.images || [])];
+let leadImage = images[0];
 const title = `${beach.name}${L.title} | Ernestinho Carioca`;
 const description = `${beach.name}: ${L.description}`;
 document.title = title;
@@ -62,30 +63,46 @@ let canonicalNode = document.querySelector('link[rel="canonical"]');
 if (!canonicalNode) { canonicalNode = document.createElement('link'); canonicalNode.rel = 'canonical'; document.head.append(canonicalNode); }
 canonicalNode.href = canonical;
 
-function photoFigure(src, index) {
+function photoFigure(src, index, owner=false) {
   const photo = Object.values(buziosPhotos).find(item => item.src === src);
   const alt = language === 'PT' ? `Praia ${beach.name} em Búzios` : language === 'EN' ? `${beach.name} beach in Búzios` : `Playa ${beach.name} en Búzios`;
-  const credit = photo
-    ? `${escape(photo.artist)} · <a href="${escape(photo.source)}" target="_blank" rel="noopener noreferrer">${L.source}</a> · <a href="${escape(photo.licenseUrl)}" target="_blank" rel="license noopener noreferrer">${escape(photo.license)}</a>`
-    : '';
-  return `<figure class="bz2-photo ${index === 0 ? 'bz2-photo-lead' : ''}"><img src="${escape(src)}" alt="${escape(alt)}" width="${photo?.width || 1200}" height="${photo?.height || 800}" ${index === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">${credit ? `<figcaption>${credit}</figcaption>` : ''}</figure>`;
+  const credit = owner
+    ? (language === 'PT' ? 'Foto Ernestinho Carioca' : language === 'EN' ? 'Photo · Ernestinho Carioca' : 'Foto · Ernestinho Carioca')
+    : photo
+      ? `${escape(photo.artist)} · <a href="${escape(photo.source)}" target="_blank" rel="noopener noreferrer">${L.source}</a> · <a href="${escape(photo.licenseUrl)}" target="_blank" rel="license noopener noreferrer">${escape(photo.license)}</a>`
+      : '';
+  return `<figure class="bz2-photo ${index === 0 ? 'bz2-photo-lead' : ''}"><img src="${escape(src)}" alt="${escape(alt)}" width="${photo?.width || 1600}" height="${photo?.height || 1067}" ${index === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">${credit ? `<figcaption>${credit}</figcaption>` : ''}</figure>`;
 }
 
-const introPhoto = leadImage ? photoFigure(leadImage, 0) : `<div class="bz2-photo-pending" role="img" aria-label="${escape(L.pending)}"><span>${escape(L.pending)}</span></div>`;
-const story = content.map((copy, index) => {
-  const heading = local(beachFields[index]);
-  const extraPhoto = images[index + 1] ? photoFigure(images[index + 1], index + 1) : '';
-  const isTip = index === content.length - 1;
-  return `${extraPhoto}<section class="bz2-story-step ${isTip ? 'bz2-story-tip' : ''}"><span class="bz2-num">${String(index + 2).padStart(2, '0')}</span><h2>${escape(heading)}</h2><p>${escape(local(copy))}</p></section>`;
-}).join('');
-const visualGap = !leadImage ? `<aside class="bz2-photo-reminder">${escape(L.pending)}</aside>` : '';
+async function renderBeach(){
+  const resolved=await resolveBeachPhotos(beach,4);
+  images=resolved.map(x=>x.src);
+  leadImage=images[0];
 
-root.innerHTML = `<main class="bz2-shell bz2-beach-page">
-  <header class="bz2-detail-intro"><div class="bz2-story-wrap"><a class="bz2-back" href="${prefix}/destinos/buzios/playas/">${L.back}</a><p class="bz2-kicker">${L.eyebrow}</p><h1>${escape(beach.name)}</h1></div></header>
-  <div class="bz2-story-wrap">${introPhoto}
-    <section class="bz2-story-step bz2-story-identity"><span class="bz2-num">01</span><h2>${escape(L.identity)}</h2><p>${escape(profile)}</p></section>
-    <blockquote class="bz2-my-take"><span>${escape(L.take)}</span><p>${escape(decision)}</p></blockquote>
-    ${visualGap}${story}
-  </div>
-  <footer class="bz2-detail-footer"><div class="bz2-story-wrap"><a href="${prefix}/destinos/buzios/playas/">${L.back}</a></div></footer>
-</main>`;
+  if(leadImage){
+    setMeta('meta[property="og:image"]','content',new URL(leadImage,'https://www.ernestinhocarioca.com.br').href);
+    setMeta('meta[name="twitter:image"]','content',new URL(leadImage,'https://www.ernestinhocarioca.com.br').href);
+  }
+
+  const introPhoto = resolved[0] ? photoFigure(resolved[0].src,0,resolved[0].owner) : `<div class="bz2-photo-pending" role="img" aria-label="${escape(L.pending)}"><span>${escape(L.pending)}</span></div>`;
+  const story = content.map((copy, index) => {
+    const heading = local(beachFields[index]);
+    const extra = resolved[index + 1];
+    const extraPhoto = extra ? photoFigure(extra.src,index + 1,extra.owner) : '';
+    const isTip = index === content.length - 1;
+    return `${extraPhoto}<section class="bz2-story-step ${isTip ? 'bz2-story-tip' : ''}"><span class="bz2-num">${String(index + 2).padStart(2, '0')}</span><h2>${escape(heading)}</h2><p>${escape(local(copy))}</p></section>`;
+  }).join('');
+  const visualGap = !leadImage ? `<aside class="bz2-photo-reminder">${escape(L.pending)}</aside>` : '';
+
+  root.innerHTML = `<main class="bz2-shell bz2-beach-page">
+    <header class="bz2-detail-intro"><div class="bz2-story-wrap"><a class="bz2-back" href="${prefix}/destinos/buzios/playas/">${L.back}</a><p class="bz2-kicker">${L.eyebrow}</p><h1>${escape(beach.name)}</h1></div></header>
+    <div class="bz2-story-wrap">${introPhoto}
+      <section class="bz2-story-step bz2-story-identity"><span class="bz2-num">01</span><h2>${escape(L.identity)}</h2><p>${escape(profile)}</p></section>
+      <blockquote class="bz2-my-take"><span>${escape(L.take)}</span><p>${escape(decision)}</p></blockquote>
+      ${visualGap}${story}
+    </div>
+    <footer class="bz2-detail-footer"><div class="bz2-story-wrap"><a href="${prefix}/destinos/buzios/playas/">${L.back}</a></div></footer>
+  </main>`;
+}
+renderBeach();
+

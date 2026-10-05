@@ -3,6 +3,7 @@ import { beachIndex } from '/assets/js/buzios-beach-v2-data.js';
 import { beachProfiles } from '/assets/js/buzios-beaches.js';
 import { beachCompletion, beachFields } from '/assets/js/buzios-beach-content.js';
 import { buziosPhotos } from '/assets/js/buzios-photos.js';
+import { resolveBeachPhotos } from '/assets/js/buzios-cloudinary.js';
 
 const language = getLanguage();
 document.body.classList.add('ec-buzios-beach-v2');
@@ -60,28 +61,16 @@ const photoAltFor = name => language === 'PT' ? `Praia ${name} em Búzios` : lan
 for (const beach of beachIndex) {
   const identity = local(beachProfiles.find(([name]) => name === beach.name)?.[1]);
   const content = beachCompletion.find(([name]) => name === beach.name)?.[1] || [];
-  const photo = [...new Set(beach.images || [])][0];
-  const sea = local(content[0]);
-  const access = local(content[2]);
   const card = document.createElement('a');
   card.className = 'bz2-card';
   card.href = `${prefix}/destinos/buzios/playas/${beach.slug}/`;
   card.setAttribute('aria-label', `${beach.name} — ${L.open}`);
 
   const media = document.createElement('div');
-  media.className = `bz2-thumb${photo ? '' : ' empty'}`;
-  if (photo) {
-    const img = document.createElement('img');
-    img.src = photo;
-    img.alt = photoAltFor(beach.name);
-    img.loading = 'lazy';
-    img.decoding = 'async';
-    media.append(img);
-  } else {
-    const label = document.createElement('span');
-    label.textContent = L.photoMissing;
-    media.append(label);
-  }
+  media.className = 'bz2-thumb empty';
+  const loading = document.createElement('span');
+  loading.textContent = L.photoMissing;
+  media.append(loading);
 
   const body = document.createElement('div');
   body.className = 'bz2-card-copy';
@@ -91,6 +80,8 @@ for (const beach of beachIndex) {
   summary.textContent = excerpt(identity, 142);
   const tags = document.createElement('ul');
   tags.className = 'bz2-card-facts';
+  const sea = local(content[0]);
+  const access = local(content[2]);
   for (const [label, value] of [[language === 'PT' ? 'Mar' : language === 'EN' ? 'Sea' : 'Mar', sea], [language === 'PT' ? 'Acesso' : language === 'EN' ? 'Access' : 'Acceso', access]]) {
     const item = document.createElement('li');
     const strong = document.createElement('strong');
@@ -104,6 +95,19 @@ for (const beach of beachIndex) {
   body.append(name, summary, tags, action);
   card.append(media, body);
   grid?.append(card);
+
+  resolveBeachPhotos(beach,1).then(([photo])=>{
+    if(!photo) return;
+    media.className='bz2-thumb';
+    media.replaceChildren();
+    const img=document.createElement('img');
+    img.src=photo.src;
+    img.alt=photoAltFor(beach.name);
+    img.loading='lazy';
+    img.decoding='async';
+    media.append(img);
+    if(photo.owner) card.dataset.ecPhoto='own';
+  });
 }
 
 const footer = document.createElement('p');
