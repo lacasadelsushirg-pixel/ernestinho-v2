@@ -122,3 +122,12 @@ export const buziosPhotos={
     "description": "Armação Beach in Búzios, Brazil"
   }
 };
+
+// MTur page has Public Domain marking and no expiry restriction for this asset.
+buziosPhotos['Porto da Barra']={src:'/assets/images/buzios/porto-da-barra-mtur.webp',name:'Porto da Barra',width:1024,height:683,artist:'Thiago Freitas / MTur',license:'Public Domain',licenseUrl:'https://creativecommons.org/publicdomain/mark/1.0/',source:'https://www.flickr.com/photos/mturdestinos/41052070561',description:'Entrada comercial de Porto da Barra; no representa un atardecer.'};
+
+buziosPhotos["Ferradura"]={"src": "/assets/images/buzios/ferradura-mtur.webp", "name": "Ferradura", "width": 1024, "height": 683, "artist": "Thiago Freitas / MTur", "license": "Public Domain", "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/", "source": "https://www.flickr.com/photos/mturdestinos/26181544077", "description": "Ferradura; MTur 2018, imagen editorial histórica."};
+
+buziosPhotos["Paisaje de Búzios"]={"src": "/assets/images/buzios/panorama-mtur.webp", "name": "Paisaje de Búzios", "width": 1024, "height": 684, "artist": "Carlos Erbs Jr. / MTur", "license": "Public Domain", "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/", "source": "https://www.flickr.com/photos/mturdestinos/41052097181", "description": "Paisaje de Búzios; MTur 2018, imagen editorial histórica."};
+
+buziosPhotos["Brigitte Bardot"]={"src": "/assets/images/buzios/bardot-mtur.webp", "name": "Brigitte Bardot", "width": 1024, "height": 683, "artist": "Thiago Freitas / MTur", "license": "Public Domain", "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/", "source": "https://www.flickr.com/photos/mturdestinos/40343777174", "description": "Brigitte Bardot; MTur 2018, imagen editorial histórica."};

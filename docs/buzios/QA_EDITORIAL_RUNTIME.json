@@ -1,0 +1,5846 @@
+{
+  "routes": 36,
+  "combinations": 216,
+  "failures": 0,
+  "performanceScope": "Local synthetic observations, with eager-image QA. Not field CWV or INP certification.",
+  "rows": [
+    {
+      "title": "Búzios: otro ritmo, otro mar | Ernestinho Carioca",
+      "description": "Guía profunda de Búzios para elegir playas, zona, alojamiento, experiencias, gastronomía, movilidad y excursiones desde la ciudad.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/",
+      "og": "Búzios: otro ritmo, otro mar | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1194,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 4508
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios: outro ritmo, outro mar | Ernestinho Carioca",
+      "description": "Guia completo de Búzios para escolher praias, região, hospedagem, experiências, gastronomia, mobilidade e passeios saindo da cidade.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/",
+      "og": "Búzios: outro ritmo, outro mar | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 1196,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 120
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios: a different rhythm, a different sea | Ernestinho Carioca",
+      "description": "An in-depth Búzios guide to choosing beaches, areas, accommodation, experiences, food, transport and day trips from town.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/",
+      "og": "Búzios: a different rhythm, a different sea | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 1156,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 172
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios con movilidad reducida: comprobar cada acceso | Ernestinho Carioca",
+      "description": "Pendientes, escalones, arena, transporte y alojamiento: compara barreras concretas sin prometer accesibilidad universal.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/accesibilidad/",
+      "og": "Búzios con movilidad reducida: comprobar cada acceso | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 447,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 112
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/accesibilidad/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios com mobilidade reduzida: conferir cada acesso | Ernestinho Carioca",
+      "description": "Ladeiras, degraus, areia, transporte e hospedagem: compare barreiras reais sem prometer acessibilidade universal.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/accesibilidad/",
+      "og": "Búzios com mobilidade reduzida: conferir cada acesso | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 372,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 72
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/accesibilidad/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios with reduced mobility: check every approach | Ernestinho Carioca",
+      "description": "Slopes, steps, sand, transport and accommodation: compare actual barriers without promising universal accessibility.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/accesibilidad/",
+      "og": "Búzios with reduced mobility: check every approach | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 394,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 100
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/accesibilidad/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Dónde alojarse en Búzios sin equivocarte de base | Ernestinho Carioca",
+      "description": "Guía de 12 zonas de Búzios para elegir alojamiento según playa, noche, tranquilidad, familia, auto, pendientes y forma de moverse.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/alojamiento/",
+      "og": "Dónde alojarse en Búzios sin equivocarte de base | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 3174,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 184
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 12,
+        "zoneColumns": 9
+      },
+      "route": "/destinos/buzios/alojamiento/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Onde ficar em Búzios sem errar na base | Ernestinho Carioca",
+      "description": "Guia de 12 regiões de Búzios para escolher hospedagem conforme praia, noite, tranquilidade, família, carro, ladeiras e mobilidade.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/alojamiento/",
+      "og": "Onde ficar em Búzios sem errar na base | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 2833,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 136
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 12,
+        "zoneColumns": 9
+      },
+      "route": "/destinos/buzios/alojamiento/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Where to stay in Búzios without choosing the wrong base | Ernestinho Carioca",
+      "description": "A guide to 12 Búzios areas for choosing accommodation by beach, nightlife, calm, family needs, car use, slopes and mobility.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/alojamiento/",
+      "og": "Where to stay in Búzios without choosing the wrong base | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 2889,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 196
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 12,
+        "zoneColumns": 9
+      },
+      "route": "/destinos/buzios/alojamiento/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios mes a mes: clima y mejor época | Ernestinho Carioca",
+      "description": "Compara temporadas, demanda, viento y planes alternativos sin prometer sol ni condiciones del mar en tiempo real.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/clima/",
+      "og": "Búzios mes a mes: clima y mejor época | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 430,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 136
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/clima/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios mês a mês: clima e melhor época | Ernestinho Carioca",
+      "description": "Compare épocas, movimento, vento e alternativas sem prometer sol ou condições do mar ao vivo.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/clima/",
+      "og": "Búzios mês a mês: clima e melhor época | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 364,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 132
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/clima/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios month by month: weather and seasons | Ernestinho Carioca",
+      "description": "Compare seasons, demand, wind and alternatives without promising sunshine or real-time sea conditions.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/clima/",
+      "og": "Búzios month by month: weather and seasons | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 361,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 124
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/clima/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Dónde comer y salir en Búzios según tu momento | Ernestinho Carioca",
+      "description": "Guía por zonas y perfiles para gastronomía, cafés, cena romántica, familia, opciones económicas, noche, música, beach clubs y compras en Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/",
+      "og": "Dónde comer y salir en Búzios según tu momento | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1017,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 128
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/comer-y-salir/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Onde comer e sair em Búzios conforme o momento | Ernestinho Carioca",
+      "description": "Guia por regiões e perfis para gastronomia, cafés, jantar romântico, família, opções econômicas, noite, música, beach clubs e compras em Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/",
+      "og": "Onde comer e sair em Búzios conforme o momento | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 915,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 128
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/comer-y-salir/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Where to eat and go out in Búzios for the moment you want | Ernestinho Carioca",
+      "description": "A guide by area and profile for food, cafés, romantic dinners, families, budget options, nightlife, music, beach clubs and shopping in Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/",
+      "og": "Where to eat and go out in Búzios for the moment you want | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 958,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 108
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/comer-y-salir/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Cómo llegar a Búzios desde Río, GIG, SDU o Cabo Frio | Ernestinho Carioca",
+      "description": "Compara bus, traslado privado y auto para llegar a Búzios desde Río, Galeão, Santos Dumont o Cabo Frio, incluyendo el último tramo.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/como-llegar/",
+      "og": "Cómo llegar a Búzios desde Río, GIG, SDU o Cabo Frio | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 746,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 148
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/como-llegar/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Como chegar a Búzios saindo do Rio, GIG, SDU ou Cabo Frio | Ernestinho Carioca",
+      "description": "Compare ônibus, transfer privativo e carro para chegar a Búzios saindo do Rio, Galeão, Santos Dumont ou Cabo Frio, incluindo o último trecho.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/como-llegar/",
+      "og": "Como chegar a Búzios saindo do Rio, GIG, SDU ou Cabo Frio | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 670,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 160
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/como-llegar/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "How to reach Búzios from Rio, GIG, SDU or Cabo Frio | Ernestinho Carioca",
+      "description": "Compare bus, private transfer and car for reaching Búzios from Rio, Galeão, Santos Dumont or Cabo Frio, including the final leg.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/como-llegar/",
+      "og": "How to reach Búzios from Rio, GIG, SDU or Cabo Frio | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 695,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/como-llegar/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Compras en Búzios, con identidad local | Ernestinho Carioca",
+      "description": "Boutiques, beachwear, surf, artesanía y ferias: elige dónde ir según lo que quieres comprar.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/compras/",
+      "og": "Compras en Búzios, con identidad local | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 420,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/compras/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Compras em Búzios com identidade local | Ernestinho Carioca",
+      "description": "Boutiques, moda praia, surfe, artesanato e feiras: escolha onde ir pelo que quer comprar.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/compras/",
+      "og": "Compras em Búzios com identidade local | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 365,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 96
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/compras/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Shopping in Búzios with local character | Ernestinho Carioca",
+      "description": "Boutiques, beachwear, surf shops, crafts and markets: choose where to go by what you need.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/compras/",
+      "og": "Shopping in Búzios with local character | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 363,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 104
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/compras/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios con bebé, niños y adolescentes | Ernestinho Carioca",
+      "description": "Playas, cochecito, alojamiento y actividades según la edad: prepara una estadía familiar que también permita descansar.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/con-ninos/",
+      "og": "Búzios con bebé, niños y adolescentes | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 527,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 128
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/con-ninos/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios com bebê, crianças e adolescentes | Ernestinho Carioca",
+      "description": "Praias, carrinho, hospedagem e atividades por idade: planeje uma estadia familiar com espaço para descansar.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/con-ninos/",
+      "og": "Búzios com bebê, crianças e adolescentes | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 437,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 132
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/con-ninos/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios with babies, children and teenagers | Ernestinho Carioca",
+      "description": "Beaches, pushchairs, accommodation and activities by age: plan a family stay that leaves room to rest.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/con-ninos/",
+      "og": "Búzios with babies, children and teenagers | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 464,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 176
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/con-ninos/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios práctico: clima, familia, pagos e itinerarios | Ernestinho Carioca",
+      "description": "Consejos para preparar Búzios: temporadas, lluvia, qué llevar, familias, dinero, PIX, tarjetas, internet, salud, compras e itinerarios de 1 a 4+ días.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/consejos/",
+      "og": "Búzios práctico: clima, familia, pagos e itinerarios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1153,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 180
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/consejos/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios prático: clima, família, pagamentos e roteiros | Ernestinho Carioca",
+      "description": "Dicas para preparar Búzios: temporadas, chuva, o que levar, famílias, dinheiro, Pix, cartões, internet, saúde, compras e roteiros de 1 a 4+ dias.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/consejos/",
+      "og": "Búzios prático: clima, família, pagamentos e roteiros | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 1099,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/consejos/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Practical Búzios: weather, families, payments and itineraries | Ernestinho Carioca",
+      "description": "Advice for Búzios: seasons, rain, packing, families, money, Pix, cards, internet, health, shopping and one-to-four-plus-day plans.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/consejos/",
+      "og": "Practical Búzios: weather, families, payments and itineraries | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 1078,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 176
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/consejos/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Pocas horas en Búzios: decide con el reloj del barco | Ernestinho Carioca",
+      "description": "Guía para pasajeros de crucero en Búzios: desembarque, tender, tiempo real en tierra, paseo corto y regreso al barco.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/cruceros/",
+      "og": "Pocas horas en Búzios: decide con el reloj del barco | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1269,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 196
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/cruceros/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Poucas horas em Búzios: decida pelo relógio do navio | Ernestinho Carioca",
+      "description": "Guia para passageiros de cruzeiro em Búzios: desembarque, tender, tempo real em terra, passeio curto e retorno ao navio.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/cruceros/",
+      "og": "Poucas horas em Búzios: decida pelo relógio do navio | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 1079,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 152
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/cruceros/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "A few hours in Búzios: plan around the ship’s clock | Ernestinho Carioca",
+      "description": "A Búzios guide for cruise passengers covering tender operations, actual time ashore, short visits and return to the ship.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/cruceros/",
+      "og": "A few hours in Búzios: plan around the ship’s clock | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 1177,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 180
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/cruceros/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Dinero, tarjetas y PIX en Búzios | Ernestinho Carioca",
+      "description": "Cómo pagar, retirar y comparar cambio sin suponer que todo turista tiene PIX ni inventar un presupuesto diario.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/dinero/",
+      "og": "Dinero, tarjetas y PIX en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 470,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 176
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/dinero/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Dinheiro, cartões e PIX em Búzios | Ernestinho Carioca",
+      "description": "Como pagar, sacar e comparar câmbio sem presumir PIX para todo turista ou inventar orçamento diário.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/dinero/",
+      "og": "Dinheiro, cartões e PIX em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 375,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 148
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/dinero/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Money, cards and PIX in Búzios | Ernestinho Carioca",
+      "description": "How to pay, withdraw and compare exchange without assuming every visitor has PIX or inventing a daily budget.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/dinero/",
+      "og": "Money, cards and PIX in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 412,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 152
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/dinero/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Eventos en Búzios: el calendario cambia tu viaje | Ernestinho Carioca",
+      "description": "Música, gastronomía, cultura y deporte: consulta la agenda vigente y anticipa alojamiento, tránsito y regreso.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/eventos/",
+      "og": "Eventos en Búzios: el calendario cambia tu viaje | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 810,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 160
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/eventos/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Eventos em Búzios: o calendário muda sua viagem | Ernestinho Carioca",
+      "description": "Música, gastronomia, cultura e esporte: confira a agenda atual e antecipe hospedagem, trânsito e retorno.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/eventos/",
+      "og": "Eventos em Búzios: o calendário muda sua viagem | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 695,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 180
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/eventos/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios events: the calendar changes your trip | Ernestinho Carioca",
+      "description": "Music, food, culture and sport: check current programmes and plan accommodation, traffic and your return.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/eventos/",
+      "og": "Búzios events: the calendar changes your trip | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 745,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 128
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/eventos/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Experiencias para quien ya está en Búzios | Ernestinho Carioca",
+      "description": "Hub comercial de paseos y excursiones con salida desde Búzios: barco, buggy, buceo, trekking, Arraial, Cabo Frio, Río y Full Day local.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/",
+      "og": "Experiencias para quien ya está en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1774,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 172
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Experiências para quem já está em Búzios | Ernestinho Carioca",
+      "description": "Hub comercial de passeios e excursões saindo de Búzios: barco, buggy, mergulho, trilha, Arraial, Cabo Frio, Rio e Full Day local.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/",
+      "og": "Experiências para quem já está em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 1532,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 240
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Experiences for travellers already in Búzios | Ernestinho Carioca",
+      "description": "Commercial hub for trips departing Búzios: boat, buggy, diving, trekking, Arraial, Cabo Frio, Rio and a local Full Day.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/",
+      "og": "Experiences for travellers already in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 1589,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 244
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Un pedacito de Argentina en Búzios | Ernestinho Carioca",
+      "description": "Parrilla, bodegón, empanadas y merienda son experiencias distintas: elige por comida, zona y regreso.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/gastronomia-argentina/",
+      "og": "Un pedacito de Argentina en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 726,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 116
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/gastronomia-argentina/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Um pedacinho da Argentina em Búzios | Ernestinho Carioca",
+      "description": "Parrilla, bodegón, empanadas e café são experiências diferentes: escolha pela comida, região e volta.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/gastronomia-argentina/",
+      "og": "Um pedacinho da Argentina em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 639,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 128
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/gastronomia-argentina/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "A little Argentina in Búzios | Ernestinho Carioca",
+      "description": "Parrilla, bodegón, empanadas and café stops offer different experiences: choose by food, area and return.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/gastronomia-argentina/",
+      "og": "A little Argentina in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 661,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/gastronomia-argentina/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "¿Extrañas Chile? Un sabor familiar en Búzios | Ernestinho Carioca",
+      "description": "Cómo buscar cocina chilena sin inventar cartas: compara menú vigente, dirección y el momento que quieres compartir.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/gastronomia-chilena/",
+      "og": "¿Extrañas Chile? Un sabor familiar en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 497,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 132
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/gastronomia-chilena/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Saudade do Chile? Um sabor familiar em Búzios | Ernestinho Carioca",
+      "description": "Como buscar cozinha chilena sem inventar cardápio: compare menu atual, endereço e o momento que deseja compartilhar.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/gastronomia-chilena/",
+      "og": "Saudade do Chile? Um sabor familiar em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 431,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/gastronomia-chilena/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Missing Chile? Familiar flavours in Búzios | Ernestinho Carioca",
+      "description": "Find Chilean food without invented menus: compare current menus, addresses and the occasion you want to share.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/gastronomia-chilena/",
+      "og": "Missing Chile? Familiar flavours in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 445,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 152
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/gastronomia-chilena/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Internet y eSIM en Búzios: llega conectado | Ernestinho Carioca",
+      "description": "Compara roaming, chip brasileño, eSIM y Wi-Fi; prepara mapas offline y una conexión útil para llegada, playas y cruceros.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/internet/",
+      "og": "Internet y eSIM en Búzios: llega conectado | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 401,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 148
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/internet/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Internet e eSIM em Búzios: chegue conectado | Ernestinho Carioca",
+      "description": "Compare roaming, chip brasileiro, eSIM e Wi-Fi; prepare mapas offline e conexão útil na chegada, praias e cruzeiros.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/internet/",
+      "og": "Internet e eSIM em Búzios: chegue conectado | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 332,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 176
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/internet/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Internet and eSIM in Búzios: arrive connected | Ernestinho Carioca",
+      "description": "Compare roaming, Brazilian SIMs, eSIM and Wi-Fi; prepare offline maps and connectivity for arrival, beaches and cruises.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/internet/",
+      "og": "Internet and eSIM in Búzios: arrive connected | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 346,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 144
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/internet/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios con mascotas: confirma antes de reservar | Ernestinho Carioca",
+      "description": "Alojamiento, restaurantes, transporte y ayuda veterinaria: prepara el viaje sin suponer que todas las playas admiten perros.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/mascotas/",
+      "og": "Búzios con mascotas: confirma antes de reservar | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 597,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/mascotas/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios com pets: confirme antes de reservar | Ernestinho Carioca",
+      "description": "Hospedagem, restaurantes, transporte e apoio veterinário: planeje sem presumir que todas as praias aceitam cães.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/mascotas/",
+      "og": "Búzios com pets: confirme antes de reservar | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 503,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 152
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/mascotas/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios with pets: confirm before booking | Ernestinho Carioca",
+      "description": "Accommodation, restaurants, transport and veterinary help: plan without assuming every beach admits dogs.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/mascotas/",
+      "og": "Búzios with pets: confirm before booking | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 521,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 156
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/mascotas/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Cómo moverse por Búzios sin perder el día | Ernestinho Carioca",
+      "description": "Guía práctica para caminar, usar vans, taxi, aplicaciones, auto, buggy y alternativas marítimas en Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/moverse/",
+      "og": "Cómo moverse por Búzios sin perder el día | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1073,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 128
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/moverse/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Como se locomover em Búzios sem perder o dia | Ernestinho Carioca",
+      "description": "Guia prático para caminhar, usar vans, táxi, aplicativos, carro, buggy e alternativas marítimas em Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/moverse/",
+      "og": "Como se locomover em Búzios sem perder o dia | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 934,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 208
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/moverse/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "How to get around Búzios without losing the day | Ernestinho Carioca",
+      "description": "A practical guide to walking, vans, taxis, apps, cars, buggies and water transport in Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/moverse/",
+      "og": "How to get around Búzios without losing the day | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 1025,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 192
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/moverse/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios según tu forma de viajar | Ernestinho Carioca",
+      "description": "Elige tu perfil y compara base, playas, comida, transporte y precauciones para construir un viaje que te sirva.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/perfiles/",
+      "og": "Búzios según tu forma de viajar | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1214,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 252
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/perfiles/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": [],
+      "profileVisible": 1
+    },
+    {
+      "title": "Búzios conforme seu jeito de viajar | Ernestinho Carioca",
+      "description": "Escolha perfil e compare base, praias, comida, transporte e cuidados para montar sua viagem.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/perfiles/",
+      "og": "Búzios conforme seu jeito de viajar | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 972,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 140
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/perfiles/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": [],
+      "profileVisible": 1
+    },
+    {
+      "title": "Búzios for your travel style | Ernestinho Carioca",
+      "description": "Choose a profile and compare bases, beaches, food, transport and practical cautions for your trip.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/perfiles/",
+      "og": "Búzios for your travel style | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 1041,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 152
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/perfiles/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": [],
+      "profileVisible": 1
+    },
+    {
+      "title": "Playas de Búzios: elige por el día que quieres vivir | Ernestinho Carioca",
+      "description": "Comparador editorial de 23 playas de Búzios por ambiente, mar, acceso, estructura, deporte y perfil de viaje.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/",
+      "og": "Playas de Búzios: elige por el día que quieres vivir | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 8290,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 188
+      },
+      "editorial": {
+        "beaches": 23,
+        "detailPairs": 207,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/playas/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Praias de Búzios: escolha pelo dia que quer viver | Ernestinho Carioca",
+      "description": "Comparador editorial de 23 praias de Búzios por ambiente, mar, acesso, estrutura, esporte e perfil de viagem.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/",
+      "og": "Praias de Búzios: escolha pelo dia que quer viver | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 7276,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 132
+      },
+      "editorial": {
+        "beaches": 23,
+        "detailPairs": 207,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/playas/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios beaches: choose the day you want to have | Ernestinho Carioca",
+      "description": "An editorial comparison of 23 Búzios beaches by atmosphere, sea, access, facilities, sport and traveller profile.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/",
+      "og": "Búzios beaches: choose the day you want to have | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 7647,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 188
+      },
+      "editorial": {
+        "beaches": 23,
+        "detailPairs": 207,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/playas/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Qué hacer en Búzios según tu energía y tu viaje | Ernestinho Carioca",
+      "description": "Ideas de mar, aventura, naturaleza, familia, cultura y días de lluvia para personas alojadas en Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/que-hacer/",
+      "og": "Qué hacer en Búzios según tu energía y tu viaje | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 518,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 148
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/que-hacer/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "O que fazer em Búzios conforme sua energia e sua viagem | Ernestinho Carioca",
+      "description": "Ideias de mar, aventura, natureza, família, cultura e dias de chuva para quem está hospedado em Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/que-hacer/",
+      "og": "O que fazer em Búzios conforme sua energia e sua viagem | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 492,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 156
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/que-hacer/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Things to do in Búzios for your energy and travel style | Ernestinho Carioca",
+      "description": "Sea, adventure, nature, family, culture and rainy-day ideas for travellers staying in Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/que-hacer/",
+      "og": "Things to do in Búzios for your energy and travel style | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 510,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/que-hacer/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Salud, farmacias y emergencias en Búzios | Ernestinho Carioca",
+      "description": "Distingue farmacia, evaluación médica y emergencia; prepara atención pública, seguro y medicamentos antes del viaje.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/salud/",
+      "og": "Salud, farmacias y emergencias en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 629,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 320
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/salud/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Saúde, farmácias e emergências em Búzios | Ernestinho Carioca",
+      "description": "Diferencie farmácia, avaliação médica e emergência; prepare atendimento público, seguro e medicamentos antes de viajar.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/salud/",
+      "og": "Saúde, farmácias e emergências em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 520,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/salud/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Health, pharmacies and emergencies in Búzios | Ernestinho Carioca",
+      "description": "Distinguish pharmacy needs, medical assessment and emergencies; prepare public-care, insurance and medication information before travelling.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/salud/",
+      "og": "Health, pharmacies and emergencies in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 571,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 348
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/salud/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Seguridad en Búzios: qué hago si pasa algo | Ernestinho Carioca",
+      "description": "Precauciones prácticas para playa, pagos, alquileres y regreso, con un protocolo para celular o documentos perdidos.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/seguridad/",
+      "og": "Seguridad en Búzios: qué hago si pasa algo | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 453,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 180
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/seguridad/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Segurança em Búzios: o que fazer se acontecer algo | Ernestinho Carioca",
+      "description": "Cuidados na praia, pagamentos, aluguel e retorno, com protocolo para celular ou documentos perdidos.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/seguridad/",
+      "og": "Segurança em Búzios: o que fazer se acontecer algo | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 378,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 148
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/seguridad/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios safety: what to do if something happens | Ernestinho Carioca",
+      "description": "Practical precautions for beaches, payments, rentals and returning, with steps for lost phones or documents.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/seguridad/",
+      "og": "Búzios safety: what to do if something happens | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 405,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 152
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/seguridad/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Necesito resolver algo en Búzios | Ernestinho Carioca",
+      "description": "Lavandería, combustible, estacionamiento, información turística y trámites cotidianos sin perder un día de viaje.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/servicios/",
+      "og": "Necesito resolver algo en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 442,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 136
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/servicios/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Preciso resolver algo em Búzios | Ernestinho Carioca",
+      "description": "Lavanderia, combustível, estacionamento, informação turística e tarefas cotidianas sem perder um dia de viagem.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/servicios/",
+      "og": "Preciso resolver algo em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 387,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 192
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/servicios/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Practical services in Búzios | Ernestinho Carioca",
+      "description": "Laundry, fuel, parking, tourist information and everyday tasks without losing a day of your trip.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/servicios/",
+      "og": "Practical services in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 408,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/servicios/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Supermercados en Búzios: tu primera compra | Ernestinho Carioca",
+      "description": "Dónde abastecerte según tu barrio, qué comprar para un departamento y cómo organizar agua, desayuno, hielo y delivery.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/supermercados/",
+      "og": "Supermercados en Búzios: tu primera compra | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 515,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/supermercados/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Supermercados em Búzios: sua primeira compra | Ernestinho Carioca",
+      "description": "Onde comprar conforme o bairro, o que levar para um apartamento e como organizar água, café da manhã, gelo e delivery.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/supermercados/",
+      "og": "Supermercados em Búzios: sua primeira compra | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 441,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 156
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/supermercados/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios groceries: your first shopping trip | Ernestinho Carioca",
+      "description": "Where to shop by area, what to buy for an apartment and how to arrange water, breakfast, ice and delivery.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/supermercados/",
+      "og": "Búzios groceries: your first shopping trip | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 480,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 144
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/supermercados/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Qué noche quieres vivir en Búzios | Ernestinho Carioca",
+      "description": "Sunset, cena, bar, música y club son planes diferentes: elige ambiente, zona y regreso antes de salir.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/vida-nocturna/",
+      "og": "Qué noche quieres vivir en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 390,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 156
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/vida-nocturna/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Que noite quer viver em Búzios | Ernestinho Carioca",
+      "description": "Pôr do sol, jantar, bar, música e clube são planos diferentes: escolha ambiente, região e volta antes de sair.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/vida-nocturna/",
+      "og": "Que noite quer viver em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 330,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/vida-nocturna/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Choose your Búzios night out | Ernestinho Carioca",
+      "description": "Sunset, dinner, bars, live music and clubs are different plans: choose atmosphere, area and return before leaving.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/vida-nocturna/",
+      "og": "Choose your Búzios night out | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 344,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 124
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/vida-nocturna/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Alquiler de buggy en Búzios | Ernestinho Carioca",
+      "description": "Elegir movilidad para conducir durante tu estadía. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/alquiler-buggy/",
+      "og": "Alquiler de buggy en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 418,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 132
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/alquiler-buggy/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Aluguel de buggy em Búzios | Ernestinho Carioca",
+      "description": "Escolher mobilidade para dirigir na estadia. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/alquiler-buggy/",
+      "og": "Aluguel de buggy em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 394,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 164
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/alquiler-buggy/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Buggy rental in Búzios | Ernestinho Carioca",
+      "description": "Choose transport to drive during your stay. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/alquiler-buggy/",
+      "og": "Buggy rental in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 410,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 176
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/alquiler-buggy/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Arraial do Cabo desde Búzios | Ernestinho Carioca",
+      "description": "El contraste de Arraial desde tu base en Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/arraial-do-cabo/",
+      "og": "Arraial do Cabo desde Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 419,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0.05547021689730023,
+        "lcp": 168
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/arraial-do-cabo/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Arraial do Cabo saindo de Búzios | Ernestinho Carioca",
+      "description": "O contraste de Arraial saindo da sua base em Búzios. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/arraial-do-cabo/",
+      "og": "Arraial do Cabo saindo de Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 401,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0.05547021689730023,
+        "lcp": 180
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/arraial-do-cabo/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Arraial do Cabo from Búzios | Ernestinho Carioca",
+      "description": "Arraial’s contrast from your Búzios base. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/arraial-do-cabo/",
+      "og": "Arraial do Cabo from Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 400,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 212
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/arraial-do-cabo/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Buceo de bautismo en Búzios | Ernestinho Carioca",
+      "description": "Primer contacto con el buceo, con orientación. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/buceo/",
+      "og": "Buceo de bautismo en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 446,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 208
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/buceo/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Batismo de mergulho em Búzios | Ernestinho Carioca",
+      "description": "Primeiro contato com o mergulho, com orientação. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/buceo/",
+      "og": "Batismo de mergulho em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 407,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/buceo/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Introductory scuba diving in Búzios | Ernestinho Carioca",
+      "description": "An introduction to scuba with guidance. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/buceo/",
+      "og": "Introductory scuba diving in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 426,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 200
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/buceo/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Cabo Frio desde Búzios | Ernestinho Carioca",
+      "description": "Una salida regional con otro ambiente urbano y costero. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/cabo-frio/",
+      "og": "Cabo Frio desde Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 420,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 232
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/cabo-frio/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Cabo Frio saindo de Búzios | Ernestinho Carioca",
+      "description": "Uma saída regional com outro ambiente urbano e litorâneo. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/cabo-frio/",
+      "og": "Cabo Frio saindo de Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 398,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 208
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/cabo-frio/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Cabo Frio from Búzios | Ernestinho Carioca",
+      "description": "A regional outing with a different town and coast. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/cabo-frio/",
+      "og": "Cabo Frio from Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 417,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 196
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/cabo-frio/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Full Day Búzios para quien ya está alojado allí | Ernestinho Carioca",
+      "description": "Una jornada para combinar mar y tierra. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/full-day-buzios/",
+      "og": "Full Day Búzios para quien ya está alojado allí | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 452,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0.17236219122757584,
+        "lcp": 176
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/full-day-buzios/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Full Day Búzios para quem já está hospedado na cidade | Ernestinho Carioca",
+      "description": "Um dia para combinar mar e terra. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/full-day-buzios/",
+      "og": "Full Day Búzios para quem já está hospedado na cidade | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 434,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0.08618109561378792,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/full-day-buzios/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Full Day Búzios for travellers already staying there | Ernestinho Carioca",
+      "description": "A day combining sea and land. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/full-day-buzios/",
+      "og": "Full Day Búzios for travellers already staying there | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 439,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0.08618109561378792,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/full-day-buzios/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Jardinera panorámica por Búzios | Ernestinho Carioca",
+      "description": "Una lectura panorámica por tierra. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/jardinera/",
+      "og": "Jardinera panorámica por Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 401,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/jardinera/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Jardineira panorâmica por Búzios | Ernestinho Carioca",
+      "description": "Uma visão panorâmica por terra. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/jardinera/",
+      "og": "Jardineira panorâmica por Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 373,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 176
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/jardinera/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Panoramic open vehicle tour of Búzios | Ernestinho Carioca",
+      "description": "A panoramic land-based overview. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/jardinera/",
+      "og": "Panoramic open vehicle tour of Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 385,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 184
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/jardinera/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Paseos de barco en Búzios: escuna o catamarán | Ernestinho Carioca",
+      "description": "Ver la península desde el mar. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/paseo-barco/",
+      "og": "Paseos de barco en Búzios: escuna o catamarán | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 441,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0.06261209045584046,
+        "lcp": 200
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/paseo-barco/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Passeios de barco em Búzios: escuna ou catamarã | Ernestinho Carioca",
+      "description": "Ver a península a partir do mar. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/paseo-barco/",
+      "og": "Passeios de barco em Búzios: escuna ou catamarã | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 411,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 192
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/paseo-barco/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios boat trips: schooner or catamaran | Ernestinho Carioca",
+      "description": "See the peninsula from the sea. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/paseo-barco/",
+      "og": "Búzios boat trips: schooner or catamaran | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 424,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 184
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/paseo-barco/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Paseo en buggy por Búzios | Ernestinho Carioca",
+      "description": "Un recorrido, no un vehículo para llevarte. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/paseo-buggy/",
+      "og": "Paseo en buggy por Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 427,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 172
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/paseo-buggy/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Passeio de buggy por Búzios | Ernestinho Carioca",
+      "description": "Um passeio, não um veículo para levar. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/paseo-buggy/",
+      "og": "Passeio de buggy por Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 385,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 168
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/paseo-buggy/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guided buggy tour in Búzios | Ernestinho Carioca",
+      "description": "A tour, not a vehicle to take away. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/paseo-buggy/",
+      "og": "Guided buggy tour in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 410,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/paseo-buggy/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Full Day Río desde Búzios | Ernestinho Carioca",
+      "description": "Visitar Río sin cambiar tu alojamiento en Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/rio-desde-buzios/",
+      "og": "Full Day Río desde Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 442,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 176
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/rio-desde-buzios/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Full Day Rio saindo de Búzios | Ernestinho Carioca",
+      "description": "Visitar o Rio sem trocar sua hospedagem em Búzios. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/rio-desde-buzios/",
+      "og": "Full Day Rio saindo de Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 422,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0.0771540359103317,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/rio-desde-buzios/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Full Day Rio from Búzios | Ernestinho Carioca",
+      "description": "Visit Rio while keeping your Búzios accommodation. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/rio-desde-buzios/",
+      "og": "Full Day Rio from Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 422,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 280
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/rio-desde-buzios/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Trekking en Búzios | Ernestinho Carioca",
+      "description": "Caminar para conocer otra Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/trekking/",
+      "og": "Trekking en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 414,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 196
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/trekking/",
+      "language": "ES",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Trekking em Búzios | Ernestinho Carioca",
+      "description": "Caminhar para conhecer outra Búzios. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/trekking/",
+      "og": "Trekking em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 392,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 192
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/trekking/",
+      "language": "PT",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Trekking in Búzios | Ernestinho Carioca",
+      "description": "Walk to discover another side of Búzios. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/trekking/",
+      "og": "Trekking in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 403,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 240
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/trekking/",
+      "language": "EN",
+      "width": 1365,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios: otro ritmo, otro mar | Ernestinho Carioca",
+      "description": "Guía profunda de Búzios para elegir playas, zona, alojamiento, experiencias, gastronomía, movilidad y excursiones desde la ciudad.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/",
+      "og": "Búzios: otro ritmo, otro mar | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1194,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 152
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios: outro ritmo, outro mar | Ernestinho Carioca",
+      "description": "Guia completo de Búzios para escolher praias, região, hospedagem, experiências, gastronomia, mobilidade e passeios saindo da cidade.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/",
+      "og": "Búzios: outro ritmo, outro mar | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 1196,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 124
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios: a different rhythm, a different sea | Ernestinho Carioca",
+      "description": "An in-depth Búzios guide to choosing beaches, areas, accommodation, experiences, food, transport and day trips from town.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/",
+      "og": "Búzios: a different rhythm, a different sea | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 1156,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 144
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios con movilidad reducida: comprobar cada acceso | Ernestinho Carioca",
+      "description": "Pendientes, escalones, arena, transporte y alojamiento: compara barreras concretas sin prometer accesibilidad universal.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/accesibilidad/",
+      "og": "Búzios con movilidad reducida: comprobar cada acceso | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 447,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 72
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/accesibilidad/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios com mobilidade reduzida: conferir cada acesso | Ernestinho Carioca",
+      "description": "Ladeiras, degraus, areia, transporte e hospedagem: compare barreiras reais sem prometer acessibilidade universal.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/accesibilidad/",
+      "og": "Búzios com mobilidade reduzida: conferir cada acesso | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 372,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 60
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/accesibilidad/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios with reduced mobility: check every approach | Ernestinho Carioca",
+      "description": "Slopes, steps, sand, transport and accommodation: compare actual barriers without promising universal accessibility.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/accesibilidad/",
+      "og": "Búzios with reduced mobility: check every approach | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 394,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 72
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/accesibilidad/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Dónde alojarse en Búzios sin equivocarte de base | Ernestinho Carioca",
+      "description": "Guía de 12 zonas de Búzios para elegir alojamiento según playa, noche, tranquilidad, familia, auto, pendientes y forma de moverse.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/alojamiento/",
+      "og": "Dónde alojarse en Búzios sin equivocarte de base | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 3174,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 176
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 12,
+        "zoneColumns": 9
+      },
+      "route": "/destinos/buzios/alojamiento/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Onde ficar em Búzios sem errar na base | Ernestinho Carioca",
+      "description": "Guia de 12 regiões de Búzios para escolher hospedagem conforme praia, noite, tranquilidade, família, carro, ladeiras e mobilidade.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/alojamiento/",
+      "og": "Onde ficar em Búzios sem errar na base | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 2833,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 108
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 12,
+        "zoneColumns": 9
+      },
+      "route": "/destinos/buzios/alojamiento/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Where to stay in Búzios without choosing the wrong base | Ernestinho Carioca",
+      "description": "A guide to 12 Búzios areas for choosing accommodation by beach, nightlife, calm, family needs, car use, slopes and mobility.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/alojamiento/",
+      "og": "Where to stay in Búzios without choosing the wrong base | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 2889,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 68
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 12,
+        "zoneColumns": 9
+      },
+      "route": "/destinos/buzios/alojamiento/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios mes a mes: clima y mejor época | Ernestinho Carioca",
+      "description": "Compara temporadas, demanda, viento y planes alternativos sin prometer sol ni condiciones del mar en tiempo real.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/clima/",
+      "og": "Búzios mes a mes: clima y mejor época | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 430,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/clima/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios mês a mês: clima e melhor época | Ernestinho Carioca",
+      "description": "Compare épocas, movimento, vento e alternativas sem prometer sol ou condições do mar ao vivo.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/clima/",
+      "og": "Búzios mês a mês: clima e melhor época | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 364,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/clima/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios month by month: weather and seasons | Ernestinho Carioca",
+      "description": "Compare seasons, demand, wind and alternatives without promising sunshine or real-time sea conditions.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/clima/",
+      "og": "Búzios month by month: weather and seasons | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 361,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 76
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/clima/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Dónde comer y salir en Búzios según tu momento | Ernestinho Carioca",
+      "description": "Guía por zonas y perfiles para gastronomía, cafés, cena romántica, familia, opciones económicas, noche, música, beach clubs y compras en Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/",
+      "og": "Dónde comer y salir en Búzios según tu momento | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1017,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/comer-y-salir/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Onde comer e sair em Búzios conforme o momento | Ernestinho Carioca",
+      "description": "Guia por regiões e perfis para gastronomia, cafés, jantar romântico, família, opções econômicas, noite, música, beach clubs e compras em Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/",
+      "og": "Onde comer e sair em Búzios conforme o momento | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 915,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/comer-y-salir/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Where to eat and go out in Búzios for the moment you want | Ernestinho Carioca",
+      "description": "A guide by area and profile for food, cafés, romantic dinners, families, budget options, nightlife, music, beach clubs and shopping in Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/",
+      "og": "Where to eat and go out in Búzios for the moment you want | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 958,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/comer-y-salir/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Cómo llegar a Búzios desde Río, GIG, SDU o Cabo Frio | Ernestinho Carioca",
+      "description": "Compara bus, traslado privado y auto para llegar a Búzios desde Río, Galeão, Santos Dumont o Cabo Frio, incluyendo el último tramo.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/como-llegar/",
+      "og": "Cómo llegar a Búzios desde Río, GIG, SDU o Cabo Frio | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 746,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/como-llegar/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Como chegar a Búzios saindo do Rio, GIG, SDU ou Cabo Frio | Ernestinho Carioca",
+      "description": "Compare ônibus, transfer privativo e carro para chegar a Búzios saindo do Rio, Galeão, Santos Dumont ou Cabo Frio, incluindo o último trecho.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/como-llegar/",
+      "og": "Como chegar a Búzios saindo do Rio, GIG, SDU ou Cabo Frio | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 670,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 96
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/como-llegar/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "How to reach Búzios from Rio, GIG, SDU or Cabo Frio | Ernestinho Carioca",
+      "description": "Compare bus, private transfer and car for reaching Búzios from Rio, Galeão, Santos Dumont or Cabo Frio, including the final leg.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/como-llegar/",
+      "og": "How to reach Búzios from Rio, GIG, SDU or Cabo Frio | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 695,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/como-llegar/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Compras en Búzios, con identidad local | Ernestinho Carioca",
+      "description": "Boutiques, beachwear, surf, artesanía y ferias: elige dónde ir según lo que quieres comprar.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/compras/",
+      "og": "Compras en Búzios, con identidad local | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 420,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 84
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/compras/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Compras em Búzios com identidade local | Ernestinho Carioca",
+      "description": "Boutiques, moda praia, surfe, artesanato e feiras: escolha onde ir pelo que quer comprar.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/compras/",
+      "og": "Compras em Búzios com identidade local | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 365,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 76
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/compras/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Shopping in Búzios with local character | Ernestinho Carioca",
+      "description": "Boutiques, beachwear, surf shops, crafts and markets: choose where to go by what you need.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/compras/",
+      "og": "Shopping in Búzios with local character | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 363,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/compras/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios con bebé, niños y adolescentes | Ernestinho Carioca",
+      "description": "Playas, cochecito, alojamiento y actividades según la edad: prepara una estadía familiar que también permita descansar.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/con-ninos/",
+      "og": "Búzios con bebé, niños y adolescentes | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 527,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 84
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/con-ninos/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios com bebê, crianças e adolescentes | Ernestinho Carioca",
+      "description": "Praias, carrinho, hospedagem e atividades por idade: planeje uma estadia familiar com espaço para descansar.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/con-ninos/",
+      "og": "Búzios com bebê, crianças e adolescentes | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 437,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/con-ninos/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios with babies, children and teenagers | Ernestinho Carioca",
+      "description": "Beaches, pushchairs, accommodation and activities by age: plan a family stay that leaves room to rest.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/con-ninos/",
+      "og": "Búzios with babies, children and teenagers | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 464,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/con-ninos/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios práctico: clima, familia, pagos e itinerarios | Ernestinho Carioca",
+      "description": "Consejos para preparar Búzios: temporadas, lluvia, qué llevar, familias, dinero, PIX, tarjetas, internet, salud, compras e itinerarios de 1 a 4+ días.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/consejos/",
+      "og": "Búzios práctico: clima, familia, pagos e itinerarios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1153,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/consejos/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios prático: clima, família, pagamentos e roteiros | Ernestinho Carioca",
+      "description": "Dicas para preparar Búzios: temporadas, chuva, o que levar, famílias, dinheiro, Pix, cartões, internet, saúde, compras e roteiros de 1 a 4+ dias.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/consejos/",
+      "og": "Búzios prático: clima, família, pagamentos e roteiros | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 1099,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/consejos/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Practical Búzios: weather, families, payments and itineraries | Ernestinho Carioca",
+      "description": "Advice for Búzios: seasons, rain, packing, families, money, Pix, cards, internet, health, shopping and one-to-four-plus-day plans.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/consejos/",
+      "og": "Practical Búzios: weather, families, payments and itineraries | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 1078,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/consejos/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Pocas horas en Búzios: decide con el reloj del barco | Ernestinho Carioca",
+      "description": "Guía para pasajeros de crucero en Búzios: desembarque, tender, tiempo real en tierra, paseo corto y regreso al barco.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/cruceros/",
+      "og": "Pocas horas en Búzios: decide con el reloj del barco | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1269,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 108
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/cruceros/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Poucas horas em Búzios: decida pelo relógio do navio | Ernestinho Carioca",
+      "description": "Guia para passageiros de cruzeiro em Búzios: desembarque, tender, tempo real em terra, passeio curto e retorno ao navio.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/cruceros/",
+      "og": "Poucas horas em Búzios: decida pelo relógio do navio | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 1079,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/cruceros/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "A few hours in Búzios: plan around the ship’s clock | Ernestinho Carioca",
+      "description": "A Búzios guide for cruise passengers covering tender operations, actual time ashore, short visits and return to the ship.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/cruceros/",
+      "og": "A few hours in Búzios: plan around the ship’s clock | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 1177,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 128
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/cruceros/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Dinero, tarjetas y PIX en Búzios | Ernestinho Carioca",
+      "description": "Cómo pagar, retirar y comparar cambio sin suponer que todo turista tiene PIX ni inventar un presupuesto diario.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/dinero/",
+      "og": "Dinero, tarjetas y PIX en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 470,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/dinero/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Dinheiro, cartões e PIX em Búzios | Ernestinho Carioca",
+      "description": "Como pagar, sacar e comparar câmbio sem presumir PIX para todo turista ou inventar orçamento diário.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/dinero/",
+      "og": "Dinheiro, cartões e PIX em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 375,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/dinero/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Money, cards and PIX in Búzios | Ernestinho Carioca",
+      "description": "How to pay, withdraw and compare exchange without assuming every visitor has PIX or inventing a daily budget.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/dinero/",
+      "og": "Money, cards and PIX in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 412,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/dinero/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Eventos en Búzios: el calendario cambia tu viaje | Ernestinho Carioca",
+      "description": "Música, gastronomía, cultura y deporte: consulta la agenda vigente y anticipa alojamiento, tránsito y regreso.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/eventos/",
+      "og": "Eventos en Búzios: el calendario cambia tu viaje | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 810,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/eventos/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Eventos em Búzios: o calendário muda sua viagem | Ernestinho Carioca",
+      "description": "Música, gastronomia, cultura e esporte: confira a agenda atual e antecipe hospedagem, trânsito e retorno.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/eventos/",
+      "og": "Eventos em Búzios: o calendário muda sua viagem | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 695,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 92
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/eventos/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios events: the calendar changes your trip | Ernestinho Carioca",
+      "description": "Music, food, culture and sport: check current programmes and plan accommodation, traffic and your return.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/eventos/",
+      "og": "Búzios events: the calendar changes your trip | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 745,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/eventos/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Experiencias para quien ya está en Búzios | Ernestinho Carioca",
+      "description": "Hub comercial de paseos y excursiones con salida desde Búzios: barco, buggy, buceo, trekking, Arraial, Cabo Frio, Río y Full Day local.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/",
+      "og": "Experiencias para quien ya está en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1774,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 164
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Experiências para quem já está em Búzios | Ernestinho Carioca",
+      "description": "Hub comercial de passeios e excursões saindo de Búzios: barco, buggy, mergulho, trilha, Arraial, Cabo Frio, Rio e Full Day local.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/",
+      "og": "Experiências para quem já está em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 1532,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 176
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Experiences for travellers already in Búzios | Ernestinho Carioca",
+      "description": "Commercial hub for trips departing Búzios: boat, buggy, diving, trekking, Arraial, Cabo Frio, Rio and a local Full Day.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/",
+      "og": "Experiences for travellers already in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 1589,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 160
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Un pedacito de Argentina en Búzios | Ernestinho Carioca",
+      "description": "Parrilla, bodegón, empanadas y merienda son experiencias distintas: elige por comida, zona y regreso.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/gastronomia-argentina/",
+      "og": "Un pedacito de Argentina en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 726,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 104
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/gastronomia-argentina/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Um pedacinho da Argentina em Búzios | Ernestinho Carioca",
+      "description": "Parrilla, bodegón, empanadas e café são experiências diferentes: escolha pela comida, região e volta.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/gastronomia-argentina/",
+      "og": "Um pedacinho da Argentina em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 639,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 104
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/gastronomia-argentina/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "A little Argentina in Búzios | Ernestinho Carioca",
+      "description": "Parrilla, bodegón, empanadas and café stops offer different experiences: choose by food, area and return.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/gastronomia-argentina/",
+      "og": "A little Argentina in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 661,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/gastronomia-argentina/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "¿Extrañas Chile? Un sabor familiar en Búzios | Ernestinho Carioca",
+      "description": "Cómo buscar cocina chilena sin inventar cartas: compara menú vigente, dirección y el momento que quieres compartir.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/gastronomia-chilena/",
+      "og": "¿Extrañas Chile? Un sabor familiar en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 497,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/gastronomia-chilena/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Saudade do Chile? Um sabor familiar em Búzios | Ernestinho Carioca",
+      "description": "Como buscar cozinha chilena sem inventar cardápio: compare menu atual, endereço e o momento que deseja compartilhar.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/gastronomia-chilena/",
+      "og": "Saudade do Chile? Um sabor familiar em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 431,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/gastronomia-chilena/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Missing Chile? Familiar flavours in Búzios | Ernestinho Carioca",
+      "description": "Find Chilean food without invented menus: compare current menus, addresses and the occasion you want to share.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/gastronomia-chilena/",
+      "og": "Missing Chile? Familiar flavours in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 445,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/gastronomia-chilena/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Internet y eSIM en Búzios: llega conectado | Ernestinho Carioca",
+      "description": "Compara roaming, chip brasileño, eSIM y Wi-Fi; prepara mapas offline y una conexión útil para llegada, playas y cruceros.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/internet/",
+      "og": "Internet y eSIM en Búzios: llega conectado | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 401,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 108
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/internet/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Internet e eSIM em Búzios: chegue conectado | Ernestinho Carioca",
+      "description": "Compare roaming, chip brasileiro, eSIM e Wi-Fi; prepare mapas offline e conexão útil na chegada, praias e cruzeiros.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/internet/",
+      "og": "Internet e eSIM em Búzios: chegue conectado | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 332,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 104
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/internet/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Internet and eSIM in Búzios: arrive connected | Ernestinho Carioca",
+      "description": "Compare roaming, Brazilian SIMs, eSIM and Wi-Fi; prepare offline maps and connectivity for arrival, beaches and cruises.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/internet/",
+      "og": "Internet and eSIM in Búzios: arrive connected | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 346,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/internet/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios con mascotas: confirma antes de reservar | Ernestinho Carioca",
+      "description": "Alojamiento, restaurantes, transporte y ayuda veterinaria: prepara el viaje sin suponer que todas las playas admiten perros.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/mascotas/",
+      "og": "Búzios con mascotas: confirma antes de reservar | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 597,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 104
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/mascotas/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios com pets: confirme antes de reservar | Ernestinho Carioca",
+      "description": "Hospedagem, restaurantes, transporte e apoio veterinário: planeje sem presumir que todas as praias aceitam cães.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/mascotas/",
+      "og": "Búzios com pets: confirme antes de reservar | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 503,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/mascotas/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios with pets: confirm before booking | Ernestinho Carioca",
+      "description": "Accommodation, restaurants, transport and veterinary help: plan without assuming every beach admits dogs.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/mascotas/",
+      "og": "Búzios with pets: confirm before booking | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 521,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 100
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/mascotas/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Cómo moverse por Búzios sin perder el día | Ernestinho Carioca",
+      "description": "Guía práctica para caminar, usar vans, taxi, aplicaciones, auto, buggy y alternativas marítimas en Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/moverse/",
+      "og": "Cómo moverse por Búzios sin perder el día | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1073,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/moverse/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Como se locomover em Búzios sem perder o dia | Ernestinho Carioca",
+      "description": "Guia prático para caminhar, usar vans, táxi, aplicativos, carro, buggy e alternativas marítimas em Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/moverse/",
+      "og": "Como se locomover em Búzios sem perder o dia | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 934,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/moverse/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "How to get around Búzios without losing the day | Ernestinho Carioca",
+      "description": "A practical guide to walking, vans, taxis, apps, cars, buggies and water transport in Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/moverse/",
+      "og": "How to get around Búzios without losing the day | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 1025,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 128
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/moverse/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios según tu forma de viajar | Ernestinho Carioca",
+      "description": "Elige tu perfil y compara base, playas, comida, transporte y precauciones para construir un viaje que te sirva.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/perfiles/",
+      "og": "Búzios según tu forma de viajar | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 1214,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 124
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/perfiles/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": [],
+      "profileVisible": 1
+    },
+    {
+      "title": "Búzios conforme seu jeito de viajar | Ernestinho Carioca",
+      "description": "Escolha perfil e compare base, praias, comida, transporte e cuidados para montar sua viagem.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/perfiles/",
+      "og": "Búzios conforme seu jeito de viajar | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 972,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 108
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/perfiles/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": [],
+      "profileVisible": 1
+    },
+    {
+      "title": "Búzios for your travel style | Ernestinho Carioca",
+      "description": "Choose a profile and compare bases, beaches, food, transport and practical cautions for your trip.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/perfiles/",
+      "og": "Búzios for your travel style | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 1041,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 132
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/perfiles/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": [],
+      "profileVisible": 1
+    },
+    {
+      "title": "Playas de Búzios: elige por el día que quieres vivir | Ernestinho Carioca",
+      "description": "Comparador editorial de 23 playas de Búzios por ambiente, mar, acceso, estructura, deporte y perfil de viaje.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/",
+      "og": "Playas de Búzios: elige por el día que quieres vivir | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 8290,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 248
+      },
+      "editorial": {
+        "beaches": 23,
+        "detailPairs": 207,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/playas/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Praias de Búzios: escolha pelo dia que quer viver | Ernestinho Carioca",
+      "description": "Comparador editorial de 23 praias de Búzios por ambiente, mar, acesso, estrutura, esporte e perfil de viagem.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/",
+      "og": "Praias de Búzios: escolha pelo dia que quer viver | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 7276,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 204
+      },
+      "editorial": {
+        "beaches": 23,
+        "detailPairs": 207,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/playas/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios beaches: choose the day you want to have | Ernestinho Carioca",
+      "description": "An editorial comparison of 23 Búzios beaches by atmosphere, sea, access, facilities, sport and traveller profile.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/",
+      "og": "Búzios beaches: choose the day you want to have | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 7647,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 156
+      },
+      "editorial": {
+        "beaches": 23,
+        "detailPairs": 207,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/playas/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Qué hacer en Búzios según tu energía y tu viaje | Ernestinho Carioca",
+      "description": "Ideas de mar, aventura, naturaleza, familia, cultura y días de lluvia para personas alojadas en Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/que-hacer/",
+      "og": "Qué hacer en Búzios según tu energía y tu viaje | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 518,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 132
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/que-hacer/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "O que fazer em Búzios conforme sua energia e sua viagem | Ernestinho Carioca",
+      "description": "Ideias de mar, aventura, natureza, família, cultura e dias de chuva para quem está hospedado em Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/que-hacer/",
+      "og": "O que fazer em Búzios conforme sua energia e sua viagem | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 492,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/que-hacer/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Things to do in Búzios for your energy and travel style | Ernestinho Carioca",
+      "description": "Sea, adventure, nature, family, culture and rainy-day ideas for travellers staying in Búzios.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/que-hacer/",
+      "og": "Things to do in Búzios for your energy and travel style | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 510,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 140
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/que-hacer/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Salud, farmacias y emergencias en Búzios | Ernestinho Carioca",
+      "description": "Distingue farmacia, evaluación médica y emergencia; prepara atención pública, seguro y medicamentos antes del viaje.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/salud/",
+      "og": "Salud, farmacias y emergencias en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 629,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/salud/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Saúde, farmácias e emergências em Búzios | Ernestinho Carioca",
+      "description": "Diferencie farmácia, avaliação médica e emergência; prepare atendimento público, seguro e medicamentos antes de viajar.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/salud/",
+      "og": "Saúde, farmácias e emergências em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 520,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 116
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/salud/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Health, pharmacies and emergencies in Búzios | Ernestinho Carioca",
+      "description": "Distinguish pharmacy needs, medical assessment and emergencies; prepare public-care, insurance and medication information before travelling.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/salud/",
+      "og": "Health, pharmacies and emergencies in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 571,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/salud/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Seguridad en Búzios: qué hago si pasa algo | Ernestinho Carioca",
+      "description": "Precauciones prácticas para playa, pagos, alquileres y regreso, con un protocolo para celular o documentos perdidos.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/seguridad/",
+      "og": "Seguridad en Búzios: qué hago si pasa algo | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 453,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/seguridad/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Segurança em Búzios: o que fazer se acontecer algo | Ernestinho Carioca",
+      "description": "Cuidados na praia, pagamentos, aluguel e retorno, com protocolo para celular ou documentos perdidos.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/seguridad/",
+      "og": "Segurança em Búzios: o que fazer se acontecer algo | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 378,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/seguridad/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios safety: what to do if something happens | Ernestinho Carioca",
+      "description": "Practical precautions for beaches, payments, rentals and returning, with steps for lost phones or documents.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/seguridad/",
+      "og": "Búzios safety: what to do if something happens | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 405,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/seguridad/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Necesito resolver algo en Búzios | Ernestinho Carioca",
+      "description": "Lavandería, combustible, estacionamiento, información turística y trámites cotidianos sin perder un día de viaje.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/servicios/",
+      "og": "Necesito resolver algo en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 442,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/servicios/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Preciso resolver algo em Búzios | Ernestinho Carioca",
+      "description": "Lavanderia, combustível, estacionamento, informação turística e tarefas cotidianas sem perder um dia de viagem.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/servicios/",
+      "og": "Preciso resolver algo em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 387,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 112
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/servicios/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Practical services in Búzios | Ernestinho Carioca",
+      "description": "Laundry, fuel, parking, tourist information and everyday tasks without losing a day of your trip.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/servicios/",
+      "og": "Practical services in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 408,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 104
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/servicios/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Supermercados en Búzios: tu primera compra | Ernestinho Carioca",
+      "description": "Dónde abastecerte según tu barrio, qué comprar para un departamento y cómo organizar agua, desayuno, hielo y delivery.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/supermercados/",
+      "og": "Supermercados en Búzios: tu primera compra | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 515,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/supermercados/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Supermercados em Búzios: sua primeira compra | Ernestinho Carioca",
+      "description": "Onde comprar conforme o bairro, o que levar para um apartamento e como organizar água, café da manhã, gelo e delivery.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/supermercados/",
+      "og": "Supermercados em Búzios: sua primeira compra | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 441,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 120
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/supermercados/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios groceries: your first shopping trip | Ernestinho Carioca",
+      "description": "Where to shop by area, what to buy for an apartment and how to arrange water, breakfast, ice and delivery.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/supermercados/",
+      "og": "Búzios groceries: your first shopping trip | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 480,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/supermercados/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Qué noche quieres vivir en Búzios | Ernestinho Carioca",
+      "description": "Sunset, cena, bar, música y club son planes diferentes: elige ambiente, zona y regreso antes de salir.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/vida-nocturna/",
+      "og": "Qué noche quieres vivir en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 390,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/vida-nocturna/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Que noite quer viver em Búzios | Ernestinho Carioca",
+      "description": "Pôr do sol, jantar, bar, música e clube são planos diferentes: escolha ambiente, região e volta antes de sair.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/vida-nocturna/",
+      "og": "Que noite quer viver em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 330,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 128
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/vida-nocturna/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Choose your Búzios night out | Ernestinho Carioca",
+      "description": "Sunset, dinner, bars, live music and clubs are different plans: choose atmosphere, area and return before leaving.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/vida-nocturna/",
+      "og": "Choose your Búzios night out | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 344,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/vida-nocturna/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Alquiler de buggy en Búzios | Ernestinho Carioca",
+      "description": "Elegir movilidad para conducir durante tu estadía. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/alquiler-buggy/",
+      "og": "Alquiler de buggy en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 418,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/alquiler-buggy/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Aluguel de buggy em Búzios | Ernestinho Carioca",
+      "description": "Escolher mobilidade para dirigir na estadia. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/alquiler-buggy/",
+      "og": "Aluguel de buggy em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 394,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/alquiler-buggy/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Buggy rental in Búzios | Ernestinho Carioca",
+      "description": "Choose transport to drive during your stay. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/alquiler-buggy/",
+      "og": "Buggy rental in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 410,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 124
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/alquiler-buggy/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Arraial do Cabo desde Búzios | Ernestinho Carioca",
+      "description": "El contraste de Arraial desde tu base en Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/arraial-do-cabo/",
+      "og": "Arraial do Cabo desde Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 419,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/arraial-do-cabo/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Arraial do Cabo saindo de Búzios | Ernestinho Carioca",
+      "description": "O contraste de Arraial saindo da sua base em Búzios. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/arraial-do-cabo/",
+      "og": "Arraial do Cabo saindo de Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 401,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/arraial-do-cabo/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Arraial do Cabo from Búzios | Ernestinho Carioca",
+      "description": "Arraial’s contrast from your Búzios base. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/arraial-do-cabo/",
+      "og": "Arraial do Cabo from Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 400,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 140
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/arraial-do-cabo/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Buceo de bautismo en Búzios | Ernestinho Carioca",
+      "description": "Primer contacto con el buceo, con orientación. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/buceo/",
+      "og": "Buceo de bautismo en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 446,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/buceo/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Batismo de mergulho em Búzios | Ernestinho Carioca",
+      "description": "Primeiro contato com o mergulho, com orientação. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/buceo/",
+      "og": "Batismo de mergulho em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 407,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/buceo/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Introductory scuba diving in Búzios | Ernestinho Carioca",
+      "description": "An introduction to scuba with guidance. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/buceo/",
+      "og": "Introductory scuba diving in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 426,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 124
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/buceo/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Cabo Frio desde Búzios | Ernestinho Carioca",
+      "description": "Una salida regional con otro ambiente urbano y costero. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/cabo-frio/",
+      "og": "Cabo Frio desde Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 420,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 212
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/cabo-frio/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Cabo Frio saindo de Búzios | Ernestinho Carioca",
+      "description": "Uma saída regional com outro ambiente urbano e litorâneo. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/cabo-frio/",
+      "og": "Cabo Frio saindo de Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 398,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 136
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/cabo-frio/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Cabo Frio from Búzios | Ernestinho Carioca",
+      "description": "A regional outing with a different town and coast. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/cabo-frio/",
+      "og": "Cabo Frio from Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 417,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 156
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/cabo-frio/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Full Day Búzios para quien ya está alojado allí | Ernestinho Carioca",
+      "description": "Una jornada para combinar mar y tierra. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/full-day-buzios/",
+      "og": "Full Day Búzios para quien ya está alojado allí | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 452,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 128
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/full-day-buzios/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Full Day Búzios para quem já está hospedado na cidade | Ernestinho Carioca",
+      "description": "Um dia para combinar mar e terra. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/full-day-buzios/",
+      "og": "Full Day Búzios para quem já está hospedado na cidade | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 434,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/full-day-buzios/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Full Day Búzios for travellers already staying there | Ernestinho Carioca",
+      "description": "A day combining sea and land. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/full-day-buzios/",
+      "og": "Full Day Búzios for travellers already staying there | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 439,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/full-day-buzios/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Jardinera panorámica por Búzios | Ernestinho Carioca",
+      "description": "Una lectura panorámica por tierra. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/jardinera/",
+      "og": "Jardinera panorámica por Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 401,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/jardinera/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Jardineira panorâmica por Búzios | Ernestinho Carioca",
+      "description": "Uma visão panorâmica por terra. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/jardinera/",
+      "og": "Jardineira panorâmica por Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 373,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/jardinera/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Panoramic open vehicle tour of Búzios | Ernestinho Carioca",
+      "description": "A panoramic land-based overview. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/jardinera/",
+      "og": "Panoramic open vehicle tour of Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 385,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 132
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/jardinera/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Paseos de barco en Búzios: escuna o catamarán | Ernestinho Carioca",
+      "description": "Ver la península desde el mar. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/paseo-barco/",
+      "og": "Paseos de barco en Búzios: escuna o catamarán | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 441,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/paseo-barco/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Passeios de barco em Búzios: escuna ou catamarã | Ernestinho Carioca",
+      "description": "Ver a península a partir do mar. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/paseo-barco/",
+      "og": "Passeios de barco em Búzios: escuna ou catamarã | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 411,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/paseo-barco/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Búzios boat trips: schooner or catamaran | Ernestinho Carioca",
+      "description": "See the peninsula from the sea. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/paseo-barco/",
+      "og": "Búzios boat trips: schooner or catamaran | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 424,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/paseo-barco/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Paseo en buggy por Búzios | Ernestinho Carioca",
+      "description": "Un recorrido, no un vehículo para llevarte. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/paseo-buggy/",
+      "og": "Paseo en buggy por Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 427,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/paseo-buggy/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Passeio de buggy por Búzios | Ernestinho Carioca",
+      "description": "Um passeio, não um veículo para levar. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/paseo-buggy/",
+      "og": "Passeio de buggy por Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 385,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/paseo-buggy/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Guided buggy tour in Búzios | Ernestinho Carioca",
+      "description": "A tour, not a vehicle to take away. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/paseo-buggy/",
+      "og": "Guided buggy tour in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 410,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/paseo-buggy/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Full Day Río desde Búzios | Ernestinho Carioca",
+      "description": "Visitar Río sin cambiar tu alojamiento en Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/rio-desde-buzios/",
+      "og": "Full Day Río desde Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 442,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 140
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/rio-desde-buzios/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Full Day Rio saindo de Búzios | Ernestinho Carioca",
+      "description": "Visitar o Rio sem trocar sua hospedagem em Búzios. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/rio-desde-buzios/",
+      "og": "Full Day Rio saindo de Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 422,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/rio-desde-buzios/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Full Day Rio from Búzios | Ernestinho Carioca",
+      "description": "Visit Rio while keeping your Búzios accommodation. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/rio-desde-buzios/",
+      "og": "Full Day Rio from Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 422,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/rio-desde-buzios/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Trekking en Búzios | Ernestinho Carioca",
+      "description": "Caminar para conocer otra Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/trekking/",
+      "og": "Trekking en Búzios | Ernestinho Carioca",
+      "lang": "es",
+      "h1": 1,
+      "words": 414,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/trekking/",
+      "language": "ES",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Trekking em Búzios | Ernestinho Carioca",
+      "description": "Caminhar para conhecer outra Búzios. Consulte valor atualizado, roteiro e condições para sua data.",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/trekking/",
+      "og": "Trekking em Búzios | Ernestinho Carioca",
+      "lang": "pt-BR",
+      "h1": 1,
+      "words": 392,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 0
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/trekking/",
+      "language": "PT",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    },
+    {
+      "title": "Trekking in Búzios | Ernestinho Carioca",
+      "description": "Walk to discover another side of Búzios. Ask for the current price, itinerary and terms for your date.",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/trekking/",
+      "og": "Trekking in Búzios | Ernestinho Carioca",
+      "lang": "en",
+      "h1": 1,
+      "words": 403,
+      "broken": [],
+      "alt": [],
+      "overflow": false,
+      "metrics": {
+        "cls": 0,
+        "lcp": 160
+      },
+      "editorial": {
+        "beaches": 0,
+        "detailPairs": 0,
+        "zoneRows": 0,
+        "zoneColumns": -1
+      },
+      "route": "/destinos/buzios/experiencias/trekking/",
+      "language": "EN",
+      "width": 390,
+      "errors": [],
+      "missingLocalLinks": []
+    }
+  ]
+}
