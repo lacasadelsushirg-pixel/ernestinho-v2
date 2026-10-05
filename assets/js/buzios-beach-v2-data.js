@@ -256,9 +256,7 @@ export const beachIndex=[
       "EN": "Orla y muelles"
     },
     "images": [
-      "/assets/images/buzios/armacao.webp",
-      "/assets/images/buzios/orla-bardot.webp",
-      "/assets/images/buzios/bardot-mtur.webp"
+      "/assets/images/buzios/armacao.webp"
     ]
   },
   {
@@ -300,8 +298,7 @@ export const beachIndex=[
       "EN": "Frente costero amplio"
     },
     "images": [
-      "/assets/images/buzios/manguinhos.webp",
-      "/assets/images/buzios/porto-da-barra-mtur.webp"
+      "/assets/images/buzios/manguinhos.webp"
     ]
   },
   {

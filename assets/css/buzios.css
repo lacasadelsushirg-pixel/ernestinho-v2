@@ -15,3 +15,30 @@ body{background:#fff;color:var(--bz-ink)}
 
 /* Búzios editorial detail and comparison; scoped to the existing guide. */
 .bz-editorial-details{margin:20px 0 0}.bz-editorial-details dt{font-weight:700;margin-top:16px}.bz-editorial-details dd{margin:6px 0 0;line-height:1.65}.bz-visual-slot{margin-top:20px;padding:16px;border:1px dashed #9eafad;border-radius:10px;font-size:.85rem}.bz-matrix-scroll{max-width:100%;overflow-x:auto;margin-top:24px}.bz-matrix{border-collapse:collapse;min-width:1800px;font-size:.9rem;line-height:1.5}.bz-matrix caption{text-align:left;font-weight:700;padding:12px}.bz-matrix th,.bz-matrix td{border:1px solid #d6dfdd;padding:14px;vertical-align:top;min-width:165px}.bz-matrix th{text-align:left;background:#edf3f0}.bz-matrix tbody th{min-width:185px}
+
+/* Búzios indices show an editorial selection first; full guidance remains one click away. */
+.bz-intro-lead{max-width:720px;color:var(--bz-muted);font:400 clamp(17px,2vw,21px)/1.75 var(--sans)}
+.bz-card-summary{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3;min-height:4.8em}
+.bz-card-more{margin-top:10px}
+.bz-card-more summary{width:max-content;max-width:100%;cursor:pointer;color:#0a8178;font:800 10px/1.5 var(--sans);letter-spacing:.05em;text-transform:uppercase}
+.bz-card-more[open]{padding-top:9px;border-top:1px solid var(--bz-line)}
+.bz-card-more[open] p{margin:10px 0;color:var(--bz-muted);font-size:14px;line-height:1.7}
+.bz-editorial-details{padding-top:3px}
+.bz-zone-atlas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+body.ec-buzios-zone-atlas .ec-global-actions{display:none!important}
+.bz-zone-card{min-width:0;padding:23px;border:1px solid var(--bz-line);border-radius:22px;background:#fff}
+.bz-zone-card h3{margin:12px 0;font:600 25px/1.1 var(--serif)}
+.bz-zone-label{margin:0 0 5px;color:#0a8178;font:900 10px/1.4 var(--sans);letter-spacing:.07em;text-transform:uppercase}
+.bz-zone-card>p:not(.bz-zone-label){color:var(--bz-muted);font-size:14px;line-height:1.65}
+.bz-zone-card details{margin-top:14px;padding-top:12px;border-top:1px solid var(--bz-line)}
+.bz-zone-card summary{cursor:pointer;color:#0a8178;font:800 10px/1.5 var(--sans);letter-spacing:.05em;text-transform:uppercase}
+.bz-zone-card dl{margin:14px 0 0}
+.bz-zone-card dt{margin-top:13px;color:#47625c;font:800 10px/1.4 var(--sans);letter-spacing:.04em}
+.bz-zone-card dd{margin:4px 0 0;color:var(--bz-muted);font-size:13px;line-height:1.6}
+.bz-card-photo{margin:16px 0 20px;overflow:hidden;border-radius:16px;background:var(--bz-petrol)}
+.bz-card-photo img{display:block;width:100%;max-height:230px;aspect-ratio:16/10;object-fit:cover}
+.bz-card-photo figcaption{padding:9px 11px;color:#dce9e6;font:500 10px/1.5 var(--sans)}
+.bz-card-photo figcaption a{color:#f0c76f}
+.bz-card a{margin-top:16px}
+@media(max-width:900px){.bz-zone-atlas{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.bz-zone-atlas{grid-template-columns:1fr}.bz-zone-card{padding:20px}.bz-card-summary{min-height:0}.bz-intro{padding:44px 0 16px}}
