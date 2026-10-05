@@ -40,3 +40,14 @@ Fecha: 2026-10-04. Estas confirmaciones completan la oferta sin reconstruir la a
 6. Transfer, cruceristas, partners y testimonios personales.
 
 Pendientes congelados de Río (805/605/Venti, Angra, selector ES de Partido, imagen Maracanã Tour, estudio-1-1 y otros cierres previos) continúan fuera de Búzios V1.
+
+
+## Búzios V1.5 + Bounce — decisiones pendientes
+
+| Página | Producto | Campo | Prioridad | Qué necesitamos | Por qué | Bloquea publicación |
+|---|---|---|---|---|---|---|
+| Guía equipaje e integraciones | Bounce | Cuatro creatividades | P0 | Confirmar/corregir las URLs ES vertical, ES ancho, EN vertical y EN compacto. Los archivos recibidos muestran otro idioma. | Mantener el mapeo recibido sin mostrar un idioma incorrecto. Se utilizan únicamente cinco creatividades verificadas. | No bloquea guía; sí el uso de esas cuatro imágenes |
+| Búzios, portal/playas | Fotografías | Originales de playas/zonas/productos | P1 | Fotos propias con identificación del lugar y autorización. | Once fotos Commons licenciadas amplían variedad editorial; no representan productos/proveedores EC. | No |
+| Todas las experiencias Búzios | Catálogo confirmado | Operación y precios | P0 | Mantener la lista operativa existente de precios, proveedor, encuentro, recorrido, inclusiones y políticas. | La profundización no confirma condiciones ni publica netos históricos. | Sí para afirmar condiciones o venta cerrada; no para consulta |
+
+Las URLs y el nombre de archivo no se usan para inferir idioma. La inspección visual de las nueve URLs y el pantallazo del usuario coinciden: ES vertical/ancho tienen inglés; EN vertical/compacto tienen español. No se intercambiaron URLs entre idiomas ni se crearon imágenes nuevas. Para ES se utiliza el compacto verificado; para EN el ancho verificado; PT conserva sus tres variantes. El enlace afiliado suministrado queda intacto y centralizado.

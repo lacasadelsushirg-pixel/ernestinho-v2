@@ -1,0 +1,55 @@
+{
+  "base": "c6af73472db5ef7c32c6aca4d684a26ab489b750",
+  "frozen_base_differences": 586,
+  "frozen_current_differences": 586,
+  "new_frozen_differences": [],
+  "resolved_frozen_differences": [],
+  "no_frozen_manifest_regeneration": true,
+  "affiliate_and_architecture_sources": [
+    {
+      "file": "guia/internet/index.html",
+      "unchanged": true,
+      "sha256": "b6cdd79385bb628b9f85cf685391455627d2542203672a6c0b66a50ea5a5d42c"
+    },
+    {
+      "file": "guia/alquiler-auto/index.html",
+      "unchanged": true,
+      "sha256": "c0be6cb64f57d6013bd3e0b05cf88daa423038ab390ad7f8ba1396b3872071e6"
+    },
+    {
+      "file": "transportes/alquiler-vehiculo/index.html",
+      "unchanged": true,
+      "sha256": "e531ce1f8af4a0fc0fed2f596cc3c25cd3b81bf2b404e987fd49992442b12663"
+    },
+    {
+      "file": "guia/seguro/index.html",
+      "unchanged": true,
+      "sha256": "40304189f1364f4bf918361c6ddd53fdc46b69fb73164715f7f3c777dde1ef9a"
+    },
+    {
+      "file": "guia/emergencias/index.html",
+      "unchanged": true,
+      "sha256": "ec755f75282e224199e9747eed975e4166586528be83c256714afee63eaf84bf"
+    },
+    {
+      "file": "assets/js/site.js",
+      "unchanged": true,
+      "sha256": "124bdbc48c942604cc46709e95b77d52c9532117ba91c2e13275e020a6920e2d"
+    },
+    {
+      "file": "assets/js/locale-routing.js",
+      "unchanged": true,
+      "sha256": "83f167795bcbb339d999a6d1c33cf0c3bc6ada7f4b6eabe1ad9a229bef7bcfe9"
+    },
+    {
+      "file": "docs/FROZEN_PAGES_20260930.json",
+      "unchanged": true,
+      "sha256": "085561d9cee462ee28313fe94567111cf78f3b80979b7718c1240a45614f0e3f"
+    }
+  ],
+  "local_photographs": 11,
+  "local_photograph_bytes": 1750742,
+  "no_push": true,
+  "no_production": true,
+  "no_main_changes": true
+}

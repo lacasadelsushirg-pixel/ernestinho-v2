@@ -85,22 +85,19 @@ Object.assign(ES, {
   "buzios.kicker":"SEGUNDO NÚCLEO ERNESTINHO",
   "buzios.title":"BÚZIOS",
   "buzios.copy":"Otro ritmo. Otro mar. Playas, experiencias, alojamiento y todo lo que necesitas para vivir Búzios como destino, no solamente como una excursión desde Río.",
-  "buzios.cta":"DESCUBRIR BÚZIOS",
-  "buzios.photo":"Fotografía temporal del archivo actual de Ernestinho. Reemplazo propio pendiente."
+  "buzios.cta":"DESCUBRIR BÚZIOS"
 });
 Object.assign(PT, {
   "buzios.kicker":"SEGUNDO NÚCLEO ERNESTINHO",
   "buzios.title":"BÚZIOS",
   "buzios.copy":"Outro ritmo. Outro mar. Praias, experiências, hospedagem e tudo o que você precisa para viver Búzios como destino, não apenas como um passeio saindo do Rio.",
-  "buzios.cta":"DESCOBRIR BÚZIOS",
-  "buzios.photo":"Fotografia temporária do acervo atual de Ernestinho. Substituição própria pendente."
+  "buzios.cta":"DESCOBRIR BÚZIOS"
 });
 Object.assign(EN, {
   "buzios.kicker":"ERNESTINHO’S SECOND HUB",
   "buzios.title":"BÚZIOS",
   "buzios.copy":"A different rhythm. A different sea. Beaches, experiences, places to stay and everything you need to experience Búzios as a destination—not only as a day trip from Rio.",
-  "buzios.cta":"DISCOVER BÚZIOS",
-  "buzios.photo":"Temporary image from Ernestinho’s current archive. Original replacement pending."
+  "buzios.cta":"DISCOVER BÚZIOS"
 });
 document.documentElement.dataset.i18nModule = "home";
 registerTranslations("home", { ES, PT, EN });

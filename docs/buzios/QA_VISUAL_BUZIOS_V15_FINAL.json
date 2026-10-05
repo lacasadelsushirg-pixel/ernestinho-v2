@@ -1,0 +1,345 @@
+{
+  "combinations": 6,
+  "realSelectorNavigations": 18,
+  "failures": 0,
+  "rows": [
+    {
+      "route": "/destinos/buzios/",
+      "width": 1365,
+      "cycles": [
+        {
+          "pathname": "/pt/destinos/buzios/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": []
+        },
+        {
+          "pathname": "/en/destinos/buzios/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": []
+        },
+        {
+          "pathname": "/destinos/buzios/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": []
+        }
+      ],
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/guia/guarda-equipaje/",
+      "width": 1365,
+      "cycles": [
+        {
+          "pathname": "/pt/guia/guarda-equipaje/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": [
+            {
+              "language": "PT",
+              "variant": "vertical",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153276/Descubra_o_Rio_sem_Malas.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            },
+            {
+              "language": "PT",
+              "variant": "wide",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/Confira_o_Rio_Sem_Malas.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            },
+            {
+              "language": "PT",
+              "variant": "compact",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Explore_o_Rio_Sem_Malas.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            }
+          ]
+        },
+        {
+          "pathname": "/en/guia/guarda-equipaje/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": [
+            {
+              "language": "EN",
+              "variant": "wide",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Anuncio_de_viaje_en_R%C3%ADo_con_Bounce.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            },
+            {
+              "language": "EN",
+              "variant": "wide",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Anuncio_de_viaje_en_R%C3%ADo_con_Bounce.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            },
+            {
+              "language": "EN",
+              "variant": "wide",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Anuncio_de_viaje_en_R%C3%ADo_con_Bounce.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            }
+          ]
+        },
+        {
+          "pathname": "/guia/guarda-equipaje/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": [
+            {
+              "language": "ES",
+              "variant": "compact",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/%C3%9Altimo_d%C3%ADa_en_R%C3%ADo_sin_maletas.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            },
+            {
+              "language": "ES",
+              "variant": "compact",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/%C3%9Altimo_d%C3%ADa_en_R%C3%ADo_sin_maletas.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            },
+            {
+              "language": "ES",
+              "variant": "compact",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/%C3%9Altimo_d%C3%ADa_en_R%C3%ADo_sin_maletas.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            }
+          ]
+        }
+      ],
+      "errors": [],
+      "brokenImages": [],
+      "tracking": [
+        [
+          "event",
+          "bounce_view",
+          {
+            "bounce_source": "guia-equipaje"
+          }
+        ],
+        [
+          "event",
+          "bounce_click",
+          {
+            "bounce_source": "guia-equipaje"
+          }
+        ]
+      ]
+    },
+    {
+      "route": "/guia/",
+      "width": 1365,
+      "cycles": [
+        {
+          "pathname": "/pt/guia/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": []
+        },
+        {
+          "pathname": "/en/guia/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": []
+        },
+        {
+          "pathname": "/guia/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": []
+        }
+      ],
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/destinos/buzios/",
+      "width": 390,
+      "cycles": [
+        {
+          "pathname": "/pt/destinos/buzios/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": []
+        },
+        {
+          "pathname": "/en/destinos/buzios/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": []
+        },
+        {
+          "pathname": "/destinos/buzios/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": []
+        }
+      ],
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/guia/guarda-equipaje/",
+      "width": 390,
+      "cycles": [
+        {
+          "pathname": "/pt/guia/guarda-equipaje/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": [
+            {
+              "language": "PT",
+              "variant": "vertical",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153276/Descubra_o_Rio_sem_Malas.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            },
+            {
+              "language": "PT",
+              "variant": "wide",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/Confira_o_Rio_Sem_Malas.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            },
+            {
+              "language": "PT",
+              "variant": "compact",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Explore_o_Rio_Sem_Malas.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            }
+          ]
+        },
+        {
+          "pathname": "/en/guia/guarda-equipaje/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": [
+            {
+              "language": "EN",
+              "variant": "wide",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Anuncio_de_viaje_en_R%C3%ADo_con_Bounce.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            },
+            {
+              "language": "EN",
+              "variant": "wide",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Anuncio_de_viaje_en_R%C3%ADo_con_Bounce.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            },
+            {
+              "language": "EN",
+              "variant": "wide",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Anuncio_de_viaje_en_R%C3%ADo_con_Bounce.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            }
+          ]
+        },
+        {
+          "pathname": "/guia/guarda-equipaje/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": [
+            {
+              "language": "ES",
+              "variant": "compact",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/%C3%9Altimo_d%C3%ADa_en_R%C3%ADo_sin_maletas.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            },
+            {
+              "language": "ES",
+              "variant": "compact",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/%C3%9Altimo_d%C3%ADa_en_R%C3%ADo_sin_maletas.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            },
+            {
+              "language": "ES",
+              "variant": "compact",
+              "src": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/%C3%9Altimo_d%C3%ADa_en_R%C3%ADo_sin_maletas.png",
+              "loaded": true,
+              "href": "https://go.bounce.com/ERNESTINHO8980973466"
+            }
+          ]
+        }
+      ],
+      "errors": [],
+      "brokenImages": [],
+      "tracking": [
+        [
+          "event",
+          "bounce_view",
+          {
+            "bounce_source": "guia-equipaje"
+          }
+        ],
+        [
+          "event",
+          "bounce_click",
+          {
+            "bounce_source": "guia-equipaje"
+          }
+        ]
+      ]
+    },
+    {
+      "route": "/guia/",
+      "width": 390,
+      "cycles": [
+        {
+          "pathname": "/pt/guia/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": []
+        },
+        {
+          "pathname": "/en/guia/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": []
+        },
+        {
+          "pathname": "/guia/",
+          "search": "?qa=1",
+          "hash": "#bz-app",
+          "overflow": false,
+          "banners": []
+        }
+      ],
+      "errors": [],
+      "brokenImages": []
+    }
+  ]
+}

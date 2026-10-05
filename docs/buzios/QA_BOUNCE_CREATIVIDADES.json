@@ -1,0 +1,99 @@
+{
+  "mapping_preserved": true,
+  "visually_inspected": 9,
+  "active_creatives": 5,
+  "withheld_creatives": 4,
+  "cross_locale_substitutions": false,
+  "rows": [
+    {
+      "mapped_locale": "ES",
+      "variant": "vertical",
+      "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/Guarda_tu_equipaje_y_disfruta_R%C3%ADo.png",
+      "width": 887,
+      "height": 1774,
+      "visible_language": "EN",
+      "active": false,
+      "sha256_inspected_file": "c69531917126a9896cc2d6a436cfa04d3c5f962f6c28da5feaf06768d0174738"
+    },
+    {
+      "mapped_locale": "ES",
+      "variant": "compact",
+      "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/%C3%9Altimo_d%C3%ADa_en_R%C3%ADo_sin_maletas.png",
+      "width": 1942,
+      "height": 809,
+      "visible_language": "ES",
+      "active": true,
+      "sha256_inspected_file": "c132aaa97eb104d0244850695c5fdb396aebba69e2d447b280d5598c8f07ccee"
+    },
+    {
+      "mapped_locale": "ES",
+      "variant": "wide",
+      "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Disfruta_R%C3%ADo_sin_cargar_maletas.png",
+      "width": 1942,
+      "height": 809,
+      "visible_language": "EN",
+      "active": false,
+      "sha256_inspected_file": "57fd3913ef703d9413c0be8a4dcf2518edfddb3eccf768b3f8a114d8556c4196"
+    },
+    {
+      "mapped_locale": "PT",
+      "variant": "vertical",
+      "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153276/Descubra_o_Rio_sem_Malas.png",
+      "width": 887,
+      "height": 1774,
+      "visible_language": "PT",
+      "active": true,
+      "sha256_inspected_file": "4d0aa1683a7d13ee5d620eb126b886a950921b7cf372fa773dcbbbe2788776a9"
+    },
+    {
+      "mapped_locale": "PT",
+      "variant": "compact",
+      "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Explore_o_Rio_Sem_Malas.png",
+      "width": 1942,
+      "height": 809,
+      "visible_language": "PT",
+      "active": true,
+      "sha256_inspected_file": "dd98de7d3be897eac2f58f5ff4c263f3e04906b512daaf88b02d88f1582f721a"
+    },
+    {
+      "mapped_locale": "PT",
+      "variant": "wide",
+      "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/Confira_o_Rio_Sem_Malas.png",
+      "width": 1536,
+      "height": 1024,
+      "visible_language": "PT",
+      "active": true,
+      "sha256_inspected_file": "3e28f08ee0cc010910486cb97804bbf5e30fca27a184ca11bc385cde1d1c43ee"
+    },
+    {
+      "mapped_locale": "EN",
+      "variant": "vertical",
+      "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153280/Guarda_Maletas_y_Descubre_R%C3%ADo.png",
+      "width": 887,
+      "height": 1774,
+      "visible_language": "ES",
+      "active": false,
+      "sha256_inspected_file": "642c19a82d0546d2b0fb96507f131ad9c900baa98fec6fcaef15b1f7d2753f21"
+    },
+    {
+      "mapped_locale": "EN",
+      "variant": "compact",
+      "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153275/Escapada_a_R%C3%ADo_sin_maletas.png",
+      "width": 1374,
+      "height": 1145,
+      "visible_language": "ES",
+      "active": false,
+      "sha256_inspected_file": "84ec12ed925d4715f5438a83c7d0ab6ff6348b5f841a6f6df475e163a90f783d"
+    },
+    {
+      "mapped_locale": "EN",
+      "variant": "wide",
+      "url": "https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Anuncio_de_viaje_en_R%C3%ADo_con_Bounce.png",
+      "width": 1536,
+      "height": 1024,
+      "visible_language": "EN",
+      "active": true,
+      "sha256_inspected_file": "9b02e48a7d76f4a25345e07365f5e4f499206d9cb3ed8e432e3e95059e587fc0"
+    }
+  ]
+}

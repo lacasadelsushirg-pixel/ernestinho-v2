@@ -100,6 +100,7 @@ async function worker(){
     if(site)(await import(site.src)).apply(language);
     const buzios=scripts.find(s=>s.src.endsWith('/assets/js/buzios-page.js'));
     if(buzios)(await import(buzios.src)).apply(language);
+    for(const name of ['luggage-page.js','bounce-integration.js']){const script=scripts.find(s=>s.src.endsWith('/assets/js/'+name));if(script)(await import(script.src)).apply(language);}
     await new Promise(r=>setTimeout(r,80));
    },target.language);
    const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar})=>{

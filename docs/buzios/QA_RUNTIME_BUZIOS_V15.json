@@ -1,0 +1,1808 @@
+{
+  "tested": 180,
+  "failures": 0,
+  "externalServicesExcluded": true,
+  "rows": [
+    {
+      "route": "/consejos/maletas-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Preparando las maletas para Río | Consejos Ernestinho",
+      "bodyLength": 4553,
+      "description": "Preparando las maletas para Río | Consejos Ernestinho. Calor, playa, lluvia repentina y aire acondicionado pueden aparecer en el mismo viaje. La maleta…",
+      "expectedDescription": "Preparando las maletas para Río | Consejos Ernestinho. Calor, playa, lluvia repentina y aire acondicionado pueden aparecer en el mismo viaje. La maleta…"
+    },
+    {
+      "route": "/consejos/maletas-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Preparando las maletas para Río | Consejos Ernestinho",
+      "bodyLength": 4565,
+      "description": "Preparando las maletas para Río | Consejos Ernestinho. Calor, playa, lluvia repentina y aire acondicionado pueden aparecer en el mismo viaje. La maleta…",
+      "expectedDescription": "Preparando las maletas para Río | Consejos Ernestinho. Calor, playa, lluvia repentina y aire acondicionado pueden aparecer en el mismo viaje. La maleta…"
+    },
+    {
+      "route": "/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guía de Río de Janeiro y tours | Ernestinho Carioca",
+      "bodyLength": 2424,
+      "description": "Vive Río con mi mirada local: qué hacer, playas, restaurantes, transporte, apartamentos en Copacabana y experiencias con Ernestinho Carioca.",
+      "expectedDescription": "Vive Río con mi mirada local: qué hacer, playas, restaurantes, transporte, apartamentos en Copacabana y experiencias con Ernestinho Carioca."
+    },
+    {
+      "route": "/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guía de Río de Janeiro y tours | Ernestinho Carioca",
+      "bodyLength": 2456,
+      "description": "Vive Río con mi mirada local: qué hacer, playas, restaurantes, transporte, apartamentos en Copacabana y experiencias con Ernestinho Carioca.",
+      "expectedDescription": "Vive Río con mi mirada local: qué hacer, playas, restaurantes, transporte, apartamentos en Copacabana y experiencias con Ernestinho Carioca."
+    },
+    {
+      "route": "/consejos/revisar-alojamiento/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Qué revisar antes de salir del alojamiento | Ernestinho Carioca",
+      "bodyLength": 1212,
+      "description": "Una comprobación de dos minutos puede evitar perder tiempo durante el día.",
+      "expectedDescription": "Una comprobación de dos minutos puede evitar perder tiempo durante el día."
+    },
+    {
+      "route": "/consejos/rio-1-a-7-dias/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Río en 1, 2, 3, 4, 5, 6 o 7 días | Ernestinho Carioca",
+      "bodyLength": 1595,
+      "description": "Itinerarios por zonas para aprovechar el tiempo sin pasar el viaje dentro del tránsito.",
+      "expectedDescription": "Itinerarios por zonas para aprovechar el tiempo sin pasar el viaje dentro del tránsito."
+    },
+    {
+      "route": "/consejos/rio-1-a-7-dias/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Río en 1, 2, 3, 4, 5, 6 o 7 días | Ernestinho Carioca",
+      "bodyLength": 1583,
+      "description": "Itinerarios por zonas para aprovechar el tiempo sin pasar el viaje dentro del tránsito.",
+      "expectedDescription": "Itinerarios por zonas para aprovechar el tiempo sin pasar el viaje dentro del tránsito."
+    },
+    {
+      "route": "/consejos/revisar-alojamiento/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Qué revisar antes de salir del alojamiento | Ernestinho Carioca",
+      "bodyLength": 1224,
+      "description": "Una comprobación de dos minutos puede evitar perder tiempo durante el día.",
+      "expectedDescription": "Una comprobación de dos minutos puede evitar perder tiempo durante el día."
+    },
+    {
+      "route": "/destinos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Destinos para vivir, no solamente visitar | Ernestinho Carioca",
+      "bodyLength": 1821,
+      "description": "La puerta editorial a los destinos que Ernestinho Carioca desarrolla con profundidad. Río sigue siendo el corazón; Búzios abre un segundo universo.",
+      "expectedDescription": "La puerta editorial a los destinos que Ernestinho Carioca desarrolla con profundidad. Río sigue siendo el corazón; Búzios abre un segundo universo."
+    },
+    {
+      "route": "/destinos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Destinos para vivir, no solamente visitar | Ernestinho Carioca",
+      "bodyLength": 1833,
+      "description": "La puerta editorial a los destinos que Ernestinho Carioca desarrolla con profundidad. Río sigue siendo el corazón; Búzios abre un segundo universo.",
+      "expectedDescription": "La puerta editorial a los destinos que Ernestinho Carioca desarrolla con profundidad. Río sigue siendo el corazón; Búzios abre un segundo universo."
+    },
+    {
+      "route": "/destinos/buzios/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios: otro ritmo, otro mar | Ernestinho Carioca",
+      "bodyLength": 4875,
+      "description": "Guía profunda de Búzios para elegir playas, zona, alojamiento, experiencias, gastronomía, movilidad y excursiones desde la ciudad.",
+      "expectedDescription": "Guía profunda de Búzios para elegir playas, zona, alojamiento, experiencias, gastronomía, movilidad y excursiones desde la ciudad."
+    },
+    {
+      "route": "/destinos/buzios/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios: otro ritmo, otro mar | Ernestinho Carioca",
+      "bodyLength": 4863,
+      "description": "Guía profunda de Búzios para elegir playas, zona, alojamiento, experiencias, gastronomía, movilidad y excursiones desde la ciudad.",
+      "expectedDescription": "Guía profunda de Búzios para elegir playas, zona, alojamiento, experiencias, gastronomía, movilidad y excursiones desde la ciudad."
+    },
+    {
+      "route": "/destinos/buzios/alojamiento/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Dónde alojarse en Búzios sin equivocarte de base | Ernestinho Carioca",
+      "bodyLength": 10578,
+      "description": "Guía de 12 zonas de Búzios para elegir alojamiento según playa, noche, tranquilidad, familia, auto, pendientes y forma de moverse.",
+      "expectedDescription": "Guía de 12 zonas de Búzios para elegir alojamiento según playa, noche, tranquilidad, familia, auto, pendientes y forma de moverse."
+    },
+    {
+      "route": "/destinos/buzios/alojamiento/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Dónde alojarse en Búzios sin equivocarte de base | Ernestinho Carioca",
+      "bodyLength": 10590,
+      "description": "Guía de 12 zonas de Búzios para elegir alojamiento según playa, noche, tranquilidad, familia, auto, pendientes y forma de moverse.",
+      "expectedDescription": "Guía de 12 zonas de Búzios para elegir alojamiento según playa, noche, tranquilidad, familia, auto, pendientes y forma de moverse."
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Dónde comer y salir en Búzios según tu momento | Ernestinho Carioca",
+      "bodyLength": 5766,
+      "description": "Guía por zonas y perfiles para gastronomía, cafés, cena romántica, familia, opciones económicas, noche, música, beach clubs y compras en Búzios.",
+      "expectedDescription": "Guía por zonas y perfiles para gastronomía, cafés, cena romántica, familia, opciones económicas, noche, música, beach clubs y compras en Búzios."
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Dónde comer y salir en Búzios según tu momento | Ernestinho Carioca",
+      "bodyLength": 5754,
+      "description": "Guía por zonas y perfiles para gastronomía, cafés, cena romántica, familia, opciones económicas, noche, música, beach clubs y compras en Búzios.",
+      "expectedDescription": "Guía por zonas y perfiles para gastronomía, cafés, cena romántica, familia, opciones económicas, noche, música, beach clubs y compras en Búzios."
+    },
+    {
+      "route": "/destinos/buzios/como-llegar/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Cómo llegar a Búzios desde Río, GIG, SDU o Cabo Frio | Ernestinho Carioca",
+      "bodyLength": 4057,
+      "description": "Compara bus, traslado privado y auto para llegar a Búzios desde Río, Galeão, Santos Dumont o Cabo Frio, incluyendo el último tramo.",
+      "expectedDescription": "Compara bus, traslado privado y auto para llegar a Búzios desde Río, Galeão, Santos Dumont o Cabo Frio, incluyendo el último tramo."
+    },
+    {
+      "route": "/destinos/buzios/como-llegar/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Cómo llegar a Búzios desde Río, GIG, SDU o Cabo Frio | Ernestinho Carioca",
+      "bodyLength": 4069,
+      "description": "Compara bus, traslado privado y auto para llegar a Búzios desde Río, Galeão, Santos Dumont o Cabo Frio, incluyendo el último tramo.",
+      "expectedDescription": "Compara bus, traslado privado y auto para llegar a Búzios desde Río, Galeão, Santos Dumont o Cabo Frio, incluyendo el último tramo."
+    },
+    {
+      "route": "/destinos/buzios/consejos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios práctico: clima, familia, pagos e itinerarios | Ernestinho Carioca",
+      "bodyLength": 4913,
+      "description": "Consejos para preparar Búzios: temporadas, lluvia, qué llevar, familias, dinero, PIX, tarjetas, internet, salud, compras e itinerarios de 1 a 4+ días.",
+      "expectedDescription": "Consejos para preparar Búzios: temporadas, lluvia, qué llevar, familias, dinero, PIX, tarjetas, internet, salud, compras e itinerarios de 1 a 4+ días."
+    },
+    {
+      "route": "/destinos/buzios/consejos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios práctico: clima, familia, pagos e itinerarios | Ernestinho Carioca",
+      "bodyLength": 4925,
+      "description": "Consejos para preparar Búzios: temporadas, lluvia, qué llevar, familias, dinero, PIX, tarjetas, internet, salud, compras e itinerarios de 1 a 4+ días.",
+      "expectedDescription": "Consejos para preparar Búzios: temporadas, lluvia, qué llevar, familias, dinero, PIX, tarjetas, internet, salud, compras e itinerarios de 1 a 4+ días."
+    },
+    {
+      "route": "/destinos/buzios/cruceros/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Pocas horas en Búzios: decide con el reloj del barco | Ernestinho Carioca",
+      "bodyLength": 3719,
+      "description": "Guía para pasajeros de crucero en Búzios: desembarque, tender, tiempo real en tierra, paseo corto y regreso al barco.",
+      "expectedDescription": "Guía para pasajeros de crucero en Búzios: desembarque, tender, tiempo real en tierra, paseo corto y regreso al barco."
+    },
+    {
+      "route": "/destinos/buzios/cruceros/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Pocas horas en Búzios: decide con el reloj del barco | Ernestinho Carioca",
+      "bodyLength": 3731,
+      "description": "Guía para pasajeros de crucero en Búzios: desembarque, tender, tiempo real en tierra, paseo corto y regreso al barco.",
+      "expectedDescription": "Guía para pasajeros de crucero en Búzios: desembarque, tender, tiempo real en tierra, paseo corto y regreso al barco."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Experiencias para quien ya está en Búzios | Ernestinho Carioca",
+      "bodyLength": 5029,
+      "description": "Hub comercial de paseos y excursiones con salida desde Búzios: barco, buggy, buceo, trekking, Arraial, Cabo Frio, Río y Full Day local.",
+      "expectedDescription": "Hub comercial de paseos y excursiones con salida desde Búzios: barco, buggy, buceo, trekking, Arraial, Cabo Frio, Río y Full Day local."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Experiencias para quien ya está en Búzios | Ernestinho Carioca",
+      "bodyLength": 5017,
+      "description": "Hub comercial de paseos y excursiones con salida desde Búzios: barco, buggy, buceo, trekking, Arraial, Cabo Frio, Río y Full Day local.",
+      "expectedDescription": "Hub comercial de paseos y excursiones con salida desde Búzios: barco, buggy, buceo, trekking, Arraial, Cabo Frio, Río y Full Day local."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/alquiler-buggy/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Alquiler de buggy en Búzios | Ernestinho Carioca",
+      "bodyLength": 3367,
+      "description": "Elegir movilidad para conducir durante tu estadía. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Elegir movilidad para conducir durante tu estadía. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/alquiler-buggy/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Alquiler de buggy en Búzios | Ernestinho Carioca",
+      "bodyLength": 3379,
+      "description": "Elegir movilidad para conducir durante tu estadía. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Elegir movilidad para conducir durante tu estadía. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/arraial-do-cabo/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Arraial do Cabo desde Búzios | Ernestinho Carioca",
+      "bodyLength": 3171,
+      "description": "El contraste de Arraial desde tu base en Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "El contraste de Arraial desde tu base en Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/arraial-do-cabo/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Arraial do Cabo desde Búzios | Ernestinho Carioca",
+      "bodyLength": 3159,
+      "description": "El contraste de Arraial desde tu base en Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "El contraste de Arraial desde tu base en Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/buceo/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Buceo de bautismo en Búzios | Ernestinho Carioca",
+      "bodyLength": 3437,
+      "description": "Primer contacto con el buceo, con orientación. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Primer contacto con el buceo, con orientación. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/buceo/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Buceo de bautismo en Búzios | Ernestinho Carioca",
+      "bodyLength": 3449,
+      "description": "Primer contacto con el buceo, con orientación. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Primer contacto con el buceo, con orientación. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/cabo-frio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Cabo Frio desde Búzios | Ernestinho Carioca",
+      "bodyLength": 3200,
+      "description": "Una salida regional con otro ambiente urbano y costero. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Una salida regional con otro ambiente urbano y costero. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/cabo-frio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Cabo Frio desde Búzios | Ernestinho Carioca",
+      "bodyLength": 3188,
+      "description": "Una salida regional con otro ambiente urbano y costero. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Una salida regional con otro ambiente urbano y costero. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/full-day-buzios/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Full Day Búzios para quien ya está alojado allí | Ernestinho Carioca",
+      "bodyLength": 3391,
+      "description": "Una jornada para combinar mar y tierra. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Una jornada para combinar mar y tierra. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/full-day-buzios/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Full Day Búzios para quien ya está alojado allí | Ernestinho Carioca",
+      "bodyLength": 3403,
+      "description": "Una jornada para combinar mar y tierra. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Una jornada para combinar mar y tierra. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/jardinera/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Jardinera panorámica por Búzios | Ernestinho Carioca",
+      "bodyLength": 3170,
+      "description": "Una lectura panorámica por tierra. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Una lectura panorámica por tierra. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/jardinera/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Jardinera panorámica por Búzios | Ernestinho Carioca",
+      "bodyLength": 3158,
+      "description": "Una lectura panorámica por tierra. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Una lectura panorámica por tierra. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/paseo-barco/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Paseos de barco en Búzios: escuna o catamarán | Ernestinho Carioca",
+      "bodyLength": 3370,
+      "description": "Ver la península desde el mar. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Ver la península desde el mar. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/paseo-barco/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Paseos de barco en Búzios: escuna o catamarán | Ernestinho Carioca",
+      "bodyLength": 3358,
+      "description": "Ver la península desde el mar. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Ver la península desde el mar. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/paseo-buggy/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Paseo en buggy por Búzios | Ernestinho Carioca",
+      "bodyLength": 3259,
+      "description": "Un recorrido, no un vehículo para llevarte. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Un recorrido, no un vehículo para llevarte. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/paseo-buggy/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Paseo en buggy por Búzios | Ernestinho Carioca",
+      "bodyLength": 3247,
+      "description": "Un recorrido, no un vehículo para llevarte. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Un recorrido, no un vehículo para llevarte. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/trekking/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Trekking en Búzios | Ernestinho Carioca",
+      "bodyLength": 3211,
+      "description": "Caminar para conocer otra Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Caminar para conocer otra Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/rio-desde-buzios/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Full Day Río desde Búzios | Ernestinho Carioca",
+      "bodyLength": 3243,
+      "description": "Visitar Río sin cambiar tu alojamiento en Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Visitar Río sin cambiar tu alojamiento en Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/rio-desde-buzios/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Full Day Río desde Búzios | Ernestinho Carioca",
+      "bodyLength": 3231,
+      "description": "Visitar Río sin cambiar tu alojamiento en Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Visitar Río sin cambiar tu alojamiento en Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/experiencias/trekking/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Trekking en Búzios | Ernestinho Carioca",
+      "bodyLength": 3223,
+      "description": "Caminar para conocer otra Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha.",
+      "expectedDescription": "Caminar para conocer otra Búzios. Consulta valor actualizado, recorrido y condiciones para tu fecha."
+    },
+    {
+      "route": "/destinos/buzios/moverse/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Cómo moverse por Búzios sin perder el día | Ernestinho Carioca",
+      "bodyLength": 4032,
+      "description": "Guía práctica para caminar, usar vans, taxi, aplicaciones, auto, buggy y alternativas marítimas en Búzios.",
+      "expectedDescription": "Guía práctica para caminar, usar vans, taxi, aplicaciones, auto, buggy y alternativas marítimas en Búzios."
+    },
+    {
+      "route": "/destinos/buzios/playas/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Playas de Búzios: elige por el día que quieres vivir | Ernestinho Carioca",
+      "bodyLength": 16411,
+      "description": "Comparador editorial de 23 playas de Búzios por ambiente, mar, acceso, estructura, deporte y perfil de viaje.",
+      "expectedDescription": "Comparador editorial de 23 playas de Búzios por ambiente, mar, acceso, estructura, deporte y perfil de viaje."
+    },
+    {
+      "route": "/destinos/buzios/playas/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Playas de Búzios: elige por el día que quieres vivir | Ernestinho Carioca",
+      "bodyLength": 16423,
+      "description": "Comparador editorial de 23 playas de Búzios por ambiente, mar, acceso, estructura, deporte y perfil de viaje.",
+      "expectedDescription": "Comparador editorial de 23 playas de Búzios por ambiente, mar, acceso, estructura, deporte y perfil de viaje."
+    },
+    {
+      "route": "/destinos/buzios/moverse/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Cómo moverse por Búzios sin perder el día | Ernestinho Carioca",
+      "bodyLength": 4020,
+      "description": "Guía práctica para caminar, usar vans, taxi, aplicaciones, auto, buggy y alternativas marítimas en Búzios.",
+      "expectedDescription": "Guía práctica para caminar, usar vans, taxi, aplicaciones, auto, buggy y alternativas marítimas en Búzios."
+    },
+    {
+      "route": "/destinos/buzios/que-hacer/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Qué hacer en Búzios según tu energía y tu viaje | Ernestinho Carioca",
+      "bodyLength": 2931,
+      "description": "Ideas de mar, aventura, naturaleza, familia, cultura y días de lluvia para personas alojadas en Búzios.",
+      "expectedDescription": "Ideas de mar, aventura, naturaleza, familia, cultura y días de lluvia para personas alojadas en Búzios."
+    },
+    {
+      "route": "/destinos/buzios/que-hacer/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Qué hacer en Búzios según tu energía y tu viaje | Ernestinho Carioca",
+      "bodyLength": 2919,
+      "description": "Ideas de mar, aventura, naturaleza, familia, cultura y días de lluvia para personas alojadas en Búzios.",
+      "expectedDescription": "Ideas de mar, aventura, naturaleza, familia, cultura y días de lluvia para personas alojadas en Búzios."
+    },
+    {
+      "route": "/en/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio de Janeiro Travel Guide & Tours | Ernestinho Carioca",
+      "bodyLength": 2492,
+      "description": "Experience Rio through my local perspective: things to do, beaches, restaurants, transport, Copacabana apartments and tours with Ernestinho Carioca.",
+      "expectedDescription": "Experience Rio through my local perspective: things to do, beaches, restaurants, transport, Copacabana apartments and tours with Ernestinho Carioca."
+    },
+    {
+      "route": "/en/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio de Janeiro Travel Guide & Tours | Ernestinho Carioca",
+      "bodyLength": 2453,
+      "description": "Experience Rio through my local perspective: things to do, beaches, restaurants, transport, Copacabana apartments and tours with Ernestinho Carioca.",
+      "expectedDescription": "Experience Rio through my local perspective: things to do, beaches, restaurants, transport, Copacabana apartments and tours with Ernestinho Carioca."
+    },
+    {
+      "route": "/en/consejos/revisar-alojamiento/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "What to check before leaving your accommodation | Ernestinho Carioca",
+      "bodyLength": 1146,
+      "description": "A two-minute check can save you time during the day.",
+      "expectedDescription": "A two-minute check can save you time during the day."
+    },
+    {
+      "route": "/en/consejos/revisar-alojamiento/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "What to check before leaving your accommodation | Ernestinho Carioca",
+      "bodyLength": 1134,
+      "description": "A two-minute check can save you time during the day.",
+      "expectedDescription": "A two-minute check can save you time during the day."
+    },
+    {
+      "route": "/en/consejos/maletas-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Packing for Rio | Ernestinho Tips",
+      "bodyLength": 4462,
+      "description": "Packing for Rio | Ernestinho Tips. Heat, beach days, sudden rain and air conditioning can all feature in the same trip. Packing in layers works better than planning for just one type of weather.",
+      "expectedDescription": "Packing for Rio | Ernestinho Tips. Heat, beach days, sudden rain and air conditioning can all feature in the same trip. Packing in layers works better than planning for just one type of weather."
+    },
+    {
+      "route": "/en/consejos/maletas-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Packing for Rio | Ernestinho Tips",
+      "bodyLength": 4450,
+      "description": "Packing for Rio | Ernestinho Tips. Heat, beach days, sudden rain and air conditioning can all feature in the same trip. Packing in layers works better than planning for just one type of weather.",
+      "expectedDescription": "Packing for Rio | Ernestinho Tips. Heat, beach days, sudden rain and air conditioning can all feature in the same trip. Packing in layers works better than planning for just one type of weather."
+    },
+    {
+      "route": "/en/destinos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Destinations to experience, not just visit | Ernestinho Carioca",
+      "bodyLength": 1797,
+      "description": "The editorial gateway to destinations Ernestinho Carioca covers in depth. Rio remains the heart; Búzios opens a second travel universe.",
+      "expectedDescription": "The editorial gateway to destinations Ernestinho Carioca covers in depth. Rio remains the heart; Búzios opens a second travel universe."
+    },
+    {
+      "route": "/en/destinos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Destinations to experience, not just visit | Ernestinho Carioca",
+      "bodyLength": 1809,
+      "description": "The editorial gateway to destinations Ernestinho Carioca covers in depth. Rio remains the heart; Búzios opens a second travel universe.",
+      "expectedDescription": "The editorial gateway to destinations Ernestinho Carioca covers in depth. Rio remains the heart; Búzios opens a second travel universe."
+    },
+    {
+      "route": "/en/consejos/rio-1-a-7-dias/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio in 1, 2, 3, 4, 5, 6 or 7 days | Ernestinho Carioca",
+      "bodyLength": 1577,
+      "description": "Itineraries by area to make the most of your time without spending your trip in traffic.",
+      "expectedDescription": "Itineraries by area to make the most of your time without spending your trip in traffic."
+    },
+    {
+      "route": "/en/consejos/rio-1-a-7-dias/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio in 1, 2, 3, 4, 5, 6 or 7 days | Ernestinho Carioca",
+      "bodyLength": 1565,
+      "description": "Itineraries by area to make the most of your time without spending your trip in traffic.",
+      "expectedDescription": "Itineraries by area to make the most of your time without spending your trip in traffic."
+    },
+    {
+      "route": "/en/destinos/buzios/alojamiento/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Where to stay in Búzios without choosing the wrong base | Ernestinho Carioca",
+      "bodyLength": 9605,
+      "description": "A guide to 12 Búzios areas for choosing accommodation by beach, nightlife, calm, family needs, car use, slopes and mobility.",
+      "expectedDescription": "A guide to 12 Búzios areas for choosing accommodation by beach, nightlife, calm, family needs, car use, slopes and mobility."
+    },
+    {
+      "route": "/en/destinos/buzios/alojamiento/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Where to stay in Búzios without choosing the wrong base | Ernestinho Carioca",
+      "bodyLength": 9593,
+      "description": "A guide to 12 Búzios areas for choosing accommodation by beach, nightlife, calm, family needs, car use, slopes and mobility.",
+      "expectedDescription": "A guide to 12 Búzios areas for choosing accommodation by beach, nightlife, calm, family needs, car use, slopes and mobility."
+    },
+    {
+      "route": "/en/destinos/buzios/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios: a different rhythm, a different sea | Ernestinho Carioca",
+      "bodyLength": 4855,
+      "description": "An in-depth Búzios guide to choosing beaches, areas, accommodation, experiences, food, transport and day trips from town.",
+      "expectedDescription": "An in-depth Búzios guide to choosing beaches, areas, accommodation, experiences, food, transport and day trips from town."
+    },
+    {
+      "route": "/en/destinos/buzios/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios: a different rhythm, a different sea | Ernestinho Carioca",
+      "bodyLength": 4867,
+      "description": "An in-depth Búzios guide to choosing beaches, areas, accommodation, experiences, food, transport and day trips from town.",
+      "expectedDescription": "An in-depth Búzios guide to choosing beaches, areas, accommodation, experiences, food, transport and day trips from town."
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Where to eat and go out in Búzios for the moment you want | Ernestinho Carioca",
+      "bodyLength": 5642,
+      "description": "A guide by area and profile for food, cafés, romantic dinners, families, budget options, nightlife, music, beach clubs and shopping in Búzios.",
+      "expectedDescription": "A guide by area and profile for food, cafés, romantic dinners, families, budget options, nightlife, music, beach clubs and shopping in Búzios."
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Where to eat and go out in Búzios for the moment you want | Ernestinho Carioca",
+      "bodyLength": 5630,
+      "description": "A guide by area and profile for food, cafés, romantic dinners, families, budget options, nightlife, music, beach clubs and shopping in Búzios.",
+      "expectedDescription": "A guide by area and profile for food, cafés, romantic dinners, families, budget options, nightlife, music, beach clubs and shopping in Búzios."
+    },
+    {
+      "route": "/en/destinos/buzios/como-llegar/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "How to reach Búzios from Rio, GIG, SDU or Cabo Frio | Ernestinho Carioca",
+      "bodyLength": 3898,
+      "description": "Compare bus, private transfer and car for reaching Búzios from Rio, Galeão, Santos Dumont or Cabo Frio, including the final leg.",
+      "expectedDescription": "Compare bus, private transfer and car for reaching Búzios from Rio, Galeão, Santos Dumont or Cabo Frio, including the final leg."
+    },
+    {
+      "route": "/en/destinos/buzios/como-llegar/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "How to reach Búzios from Rio, GIG, SDU or Cabo Frio | Ernestinho Carioca",
+      "bodyLength": 3886,
+      "description": "Compare bus, private transfer and car for reaching Búzios from Rio, Galeão, Santos Dumont or Cabo Frio, including the final leg.",
+      "expectedDescription": "Compare bus, private transfer and car for reaching Búzios from Rio, Galeão, Santos Dumont or Cabo Frio, including the final leg."
+    },
+    {
+      "route": "/en/destinos/buzios/consejos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Practical Búzios: weather, families, payments and itineraries | Ernestinho Carioca",
+      "bodyLength": 4609,
+      "description": "Advice for Búzios: seasons, rain, packing, families, money, Pix, cards, internet, health, shopping and one-to-four-plus-day plans.",
+      "expectedDescription": "Advice for Búzios: seasons, rain, packing, families, money, Pix, cards, internet, health, shopping and one-to-four-plus-day plans."
+    },
+    {
+      "route": "/en/destinos/buzios/consejos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Practical Búzios: weather, families, payments and itineraries | Ernestinho Carioca",
+      "bodyLength": 4621,
+      "description": "Advice for Búzios: seasons, rain, packing, families, money, Pix, cards, internet, health, shopping and one-to-four-plus-day plans.",
+      "expectedDescription": "Advice for Búzios: seasons, rain, packing, families, money, Pix, cards, internet, health, shopping and one-to-four-plus-day plans."
+    },
+    {
+      "route": "/en/destinos/buzios/cruceros/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "A few hours in Búzios: plan around the ship’s clock | Ernestinho Carioca",
+      "bodyLength": 3589,
+      "description": "A Búzios guide for cruise passengers covering tender operations, actual time ashore, short visits and return to the ship.",
+      "expectedDescription": "A Búzios guide for cruise passengers covering tender operations, actual time ashore, short visits and return to the ship."
+    },
+    {
+      "route": "/en/destinos/buzios/cruceros/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "A few hours in Búzios: plan around the ship’s clock | Ernestinho Carioca",
+      "bodyLength": 3577,
+      "description": "A Búzios guide for cruise passengers covering tender operations, actual time ashore, short visits and return to the ship.",
+      "expectedDescription": "A Búzios guide for cruise passengers covering tender operations, actual time ashore, short visits and return to the ship."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/alquiler-buggy/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Buggy rental in Búzios | Ernestinho Carioca",
+      "bodyLength": 3153,
+      "description": "Choose transport to drive during your stay. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "Choose transport to drive during your stay. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/alquiler-buggy/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Buggy rental in Búzios | Ernestinho Carioca",
+      "bodyLength": 3165,
+      "description": "Choose transport to drive during your stay. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "Choose transport to drive during your stay. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Experiences for travellers already in Búzios | Ernestinho Carioca",
+      "bodyLength": 4695,
+      "description": "Commercial hub for trips departing Búzios: boat, buggy, diving, trekking, Arraial, Cabo Frio, Rio and a local Full Day.",
+      "expectedDescription": "Commercial hub for trips departing Búzios: boat, buggy, diving, trekking, Arraial, Cabo Frio, Rio and a local Full Day."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Experiences for travellers already in Búzios | Ernestinho Carioca",
+      "bodyLength": 4707,
+      "description": "Commercial hub for trips departing Búzios: boat, buggy, diving, trekking, Arraial, Cabo Frio, Rio and a local Full Day.",
+      "expectedDescription": "Commercial hub for trips departing Búzios: boat, buggy, diving, trekking, Arraial, Cabo Frio, Rio and a local Full Day."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/buceo/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Introductory scuba diving in Búzios | Ernestinho Carioca",
+      "bodyLength": 3305,
+      "description": "An introduction to scuba with guidance. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "An introduction to scuba with guidance. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/arraial-do-cabo/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Arraial do Cabo from Búzios | Ernestinho Carioca",
+      "bodyLength": 2964,
+      "description": "Arraial’s contrast from your Búzios base. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "Arraial’s contrast from your Búzios base. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/buceo/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Introductory scuba diving in Búzios | Ernestinho Carioca",
+      "bodyLength": 3317,
+      "description": "An introduction to scuba with guidance. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "An introduction to scuba with guidance. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/arraial-do-cabo/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Arraial do Cabo from Búzios | Ernestinho Carioca",
+      "bodyLength": 2976,
+      "description": "Arraial’s contrast from your Búzios base. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "Arraial’s contrast from your Búzios base. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/cabo-frio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Cabo Frio from Búzios | Ernestinho Carioca",
+      "bodyLength": 3049,
+      "description": "A regional outing with a different town and coast. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "A regional outing with a different town and coast. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/full-day-buzios/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Full Day Búzios for travellers already staying there | Ernestinho Carioca",
+      "bodyLength": 3262,
+      "description": "A day combining sea and land. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "A day combining sea and land. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/full-day-buzios/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Full Day Búzios for travellers already staying there | Ernestinho Carioca",
+      "bodyLength": 3274,
+      "description": "A day combining sea and land. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "A day combining sea and land. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/cabo-frio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Cabo Frio from Búzios | Ernestinho Carioca",
+      "bodyLength": 3061,
+      "description": "A regional outing with a different town and coast. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "A regional outing with a different town and coast. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/paseo-barco/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios boat trips: schooner or catamaran | Ernestinho Carioca",
+      "bodyLength": 3146,
+      "description": "See the peninsula from the sea. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "See the peninsula from the sea. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/paseo-barco/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios boat trips: schooner or catamaran | Ernestinho Carioca",
+      "bodyLength": 3134,
+      "description": "See the peninsula from the sea. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "See the peninsula from the sea. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/jardinera/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Panoramic open vehicle tour of Búzios | Ernestinho Carioca",
+      "bodyLength": 2996,
+      "description": "A panoramic land-based overview. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "A panoramic land-based overview. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/jardinera/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Panoramic open vehicle tour of Búzios | Ernestinho Carioca",
+      "bodyLength": 3008,
+      "description": "A panoramic land-based overview. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "A panoramic land-based overview. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/paseo-buggy/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guided buggy tour in Búzios | Ernestinho Carioca",
+      "bodyLength": 3017,
+      "description": "A tour, not a vehicle to take away. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "A tour, not a vehicle to take away. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/paseo-buggy/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guided buggy tour in Búzios | Ernestinho Carioca",
+      "bodyLength": 3005,
+      "description": "A tour, not a vehicle to take away. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "A tour, not a vehicle to take away. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/rio-desde-buzios/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Full Day Rio from Búzios | Ernestinho Carioca",
+      "bodyLength": 3084,
+      "description": "Visit Rio while keeping your Búzios accommodation. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "Visit Rio while keeping your Búzios accommodation. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/rio-desde-buzios/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Full Day Rio from Búzios | Ernestinho Carioca",
+      "bodyLength": 3096,
+      "description": "Visit Rio while keeping your Búzios accommodation. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "Visit Rio while keeping your Búzios accommodation. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/trekking/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Trekking in Búzios | Ernestinho Carioca",
+      "bodyLength": 3138,
+      "description": "Walk to discover another side of Búzios. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "Walk to discover another side of Búzios. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/experiencias/trekking/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Trekking in Búzios | Ernestinho Carioca",
+      "bodyLength": 3126,
+      "description": "Walk to discover another side of Búzios. Ask for the current price, itinerary and terms for your date.",
+      "expectedDescription": "Walk to discover another side of Búzios. Ask for the current price, itinerary and terms for your date."
+    },
+    {
+      "route": "/en/destinos/buzios/moverse/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "How to get around Búzios without losing the day | Ernestinho Carioca",
+      "bodyLength": 3894,
+      "description": "A practical guide to walking, vans, taxis, apps, cars, buggies and water transport in Búzios.",
+      "expectedDescription": "A practical guide to walking, vans, taxis, apps, cars, buggies and water transport in Búzios."
+    },
+    {
+      "route": "/en/destinos/buzios/moverse/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "How to get around Búzios without losing the day | Ernestinho Carioca",
+      "bodyLength": 3906,
+      "description": "A practical guide to walking, vans, taxis, apps, cars, buggies and water transport in Búzios.",
+      "expectedDescription": "A practical guide to walking, vans, taxis, apps, cars, buggies and water transport in Búzios."
+    },
+    {
+      "route": "/en/destinos/buzios/playas/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios beaches: choose the day you want to have | Ernestinho Carioca",
+      "bodyLength": 14612,
+      "description": "An editorial comparison of 23 Búzios beaches by atmosphere, sea, access, facilities, sport and traveller profile.",
+      "expectedDescription": "An editorial comparison of 23 Búzios beaches by atmosphere, sea, access, facilities, sport and traveller profile."
+    },
+    {
+      "route": "/en/destinos/buzios/playas/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios beaches: choose the day you want to have | Ernestinho Carioca",
+      "bodyLength": 14600,
+      "description": "An editorial comparison of 23 Búzios beaches by atmosphere, sea, access, facilities, sport and traveller profile.",
+      "expectedDescription": "An editorial comparison of 23 Búzios beaches by atmosphere, sea, access, facilities, sport and traveller profile."
+    },
+    {
+      "route": "/en/destinos/buzios/que-hacer/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Things to do in Búzios for your energy and travel style | Ernestinho Carioca",
+      "bodyLength": 2874,
+      "description": "Sea, adventure, nature, family, culture and rainy-day ideas for travellers staying in Búzios.",
+      "expectedDescription": "Sea, adventure, nature, family, culture and rainy-day ideas for travellers staying in Búzios."
+    },
+    {
+      "route": "/en/destinos/buzios/que-hacer/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Things to do in Búzios for your energy and travel style | Ernestinho Carioca",
+      "bodyLength": 2886,
+      "description": "Sea, adventure, nature, family, culture and rainy-day ideas for travellers staying in Búzios.",
+      "expectedDescription": "Sea, adventure, nature, family, culture and rainy-day ideas for travellers staying in Búzios."
+    },
+    {
+      "route": "/en/guia/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Planning a Trip to Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1587,
+      "description": "Practical Rio de Janeiro guide: documents, health, internet, transport, money, consulates and accessibility.",
+      "expectedDescription": "Practical Rio de Janeiro guide: documents, health, internet, transport, money, consulates and accessibility."
+    },
+    {
+      "route": "/en/guia/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Planning a Trip to Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1575,
+      "description": "Practical Rio de Janeiro guide: documents, health, internet, transport, money, consulates and accessibility.",
+      "expectedDescription": "Practical Rio de Janeiro guide: documents, health, internet, transport, money, consulates and accessibility."
+    },
+    {
+      "route": "/en/guia/aeropuertos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Getting to Rio: Galeão and Santos Dumont | Ernestinho Carioca",
+      "bodyLength": 3119,
+      "description": "Rio de Janeiro has two main airports. Always check your flight code: GIG and SDU are in different areas and transfer times can vary greatly.",
+      "expectedDescription": "Rio de Janeiro has two main airports. Always check your flight code: GIG and SDU are in different areas and transfer times can vary greatly."
+    },
+    {
+      "route": "/en/guia/aeropuertos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Getting to Rio: Galeão and Santos Dumont | Ernestinho Carioca",
+      "bodyLength": 3131,
+      "description": "Rio de Janeiro has two main airports. Always check your flight code: GIG and SDU are in different areas and transfer times can vary greatly.",
+      "expectedDescription": "Rio de Janeiro has two main airports. Always check your flight code: GIG and SDU are in different areas and transfer times can vary greatly."
+    },
+    {
+      "route": "/en/guia/guarda-equipaje/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Where to store luggage in Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 6807,
+      "description": "Early checkout, a late flight or an early arrival: compare Rio luggage storage options, plan collection and enjoy those hours without your bags.",
+      "expectedDescription": "Early checkout, a late flight or an early arrival: compare Rio luggage storage options, plan collection and enjoy those hours without your bags."
+    },
+    {
+      "route": "/en/guia/guarda-equipaje/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Where to store luggage in Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 6795,
+      "description": "Early checkout, a late flight or an early arrival: compare Rio luggage storage options, plan collection and enjoy those hours without your bags.",
+      "expectedDescription": "Early checkout, a late flight or an early arrival: compare Rio luggage storage options, plan collection and enjoy those hours without your bags."
+    },
+    {
+      "route": "/en/guia/terminales/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Novo Rio Bus Terminal and International Cruise Terminal | Ernestinho Carioca",
+      "bodyLength": 3279,
+      "description": "The bus terminal and port receive thousands of travelers, but they are in different areas. Before arriving, it helps to know where to wait, how to continue your journey and what to do with your luggage.",
+      "expectedDescription": "The bus terminal and port receive thousands of travelers, but they are in different areas. Before arriving, it helps to know where to wait, how to continue your journey and what to do with your luggage."
+    },
+    {
+      "route": "/en/guia/terminales/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Novo Rio Bus Terminal and International Cruise Terminal | Ernestinho Carioca",
+      "bodyLength": 3267,
+      "description": "The bus terminal and port receive thousands of travelers, but they are in different areas. Before arriving, it helps to know where to wait, how to continue your journey and what to do with your luggage.",
+      "expectedDescription": "The bus terminal and port receive thousands of travelers, but they are in different areas. Before arriving, it helps to know where to wait, how to continue your journey and what to do with your luggage."
+    },
+    {
+      "route": "/en/hospedaje/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Copacabana Holiday Apartments | Ernestinho Carioca",
+      "bodyLength": 4156,
+      "description": "Find your Copacabana apartment with Ernestinho Carioca. Explore accommodation for couples, families and groups and enquire on WhatsApp.",
+      "expectedDescription": "Find your Copacabana apartment with Ernestinho Carioca. Explore accommodation for couples, families and groups and enquire on WhatsApp."
+    },
+    {
+      "route": "/en/hospedaje/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Copacabana Holiday Apartments | Ernestinho Carioca",
+      "bodyLength": 4144,
+      "description": "Find your Copacabana apartment with Ernestinho Carioca. Explore accommodation for couples, families and groups and enquire on WhatsApp.",
+      "expectedDescription": "Find your Copacabana apartment with Ernestinho Carioca. Explore accommodation for couples, families and groups and enquire on WhatsApp."
+    },
+    {
+      "route": "/guia/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guía para viajar a Río de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1594,
+      "description": "Guía práctica de Río de Janeiro: documentos, salud, internet, transporte, dinero, consulados y accesibilidad.",
+      "expectedDescription": "Guía práctica de Río de Janeiro: documentos, salud, internet, transporte, dinero, consulados y accesibilidad."
+    },
+    {
+      "route": "/guia/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guía para viajar a Río de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1582,
+      "description": "Guía práctica de Río de Janeiro: documentos, salud, internet, transporte, dinero, consulados y accesibilidad.",
+      "expectedDescription": "Guía práctica de Río de Janeiro: documentos, salud, internet, transporte, dinero, consulados y accesibilidad."
+    },
+    {
+      "route": "/guia/aeropuertos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Llegar a Río: Galeão y Santos Dumont | Ernestinho Carioca",
+      "bodyLength": 3278,
+      "description": "Río de Janeiro tiene dos aeropuertos principales. Comprueba siempre el código de tu vuelo: GIG y SDU están en zonas diferentes y el tiempo de traslado puede cambiar mucho.",
+      "expectedDescription": "Río de Janeiro tiene dos aeropuertos principales. Comprueba siempre el código de tu vuelo: GIG y SDU están en zonas diferentes y el tiempo de traslado puede cambiar mucho."
+    },
+    {
+      "route": "/guia/aeropuertos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Llegar a Río: Galeão y Santos Dumont | Ernestinho Carioca",
+      "bodyLength": 3266,
+      "description": "Río de Janeiro tiene dos aeropuertos principales. Comprueba siempre el código de tu vuelo: GIG y SDU están en zonas diferentes y el tiempo de traslado puede cambiar mucho.",
+      "expectedDescription": "Río de Janeiro tiene dos aeropuertos principales. Comprueba siempre el código de tu vuelo: GIG y SDU están en zonas diferentes y el tiempo de traslado puede cambiar mucho."
+    },
+    {
+      "route": "/guia/guarda-equipaje/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Dónde guardar las maletas en Río de Janeiro | Ernestinho Carioca",
+      "bodyLength": 7505,
+      "description": "Checkout, vuelo nocturno o llegada temprana: compara opciones para guardar equipaje en Río, organiza la retirada y aprovecha esas horas sin maletas.",
+      "expectedDescription": "Checkout, vuelo nocturno o llegada temprana: compara opciones para guardar equipaje en Río, organiza la retirada y aprovecha esas horas sin maletas."
+    },
+    {
+      "route": "/guia/guarda-equipaje/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Dónde guardar las maletas en Río de Janeiro | Ernestinho Carioca",
+      "bodyLength": 7493,
+      "description": "Checkout, vuelo nocturno o llegada temprana: compara opciones para guardar equipaje en Río, organiza la retirada y aprovecha esas horas sin maletas.",
+      "expectedDescription": "Checkout, vuelo nocturno o llegada temprana: compara opciones para guardar equipaje en Río, organiza la retirada y aprovecha esas horas sin maletas."
+    },
+    {
+      "route": "/guia/terminales/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rodoviária Novo Rio y Terminal Internacional de Cruceros | Ernestinho Carioca",
+      "bodyLength": 3394,
+      "description": "La terminal de autobuses y el puerto reciben miles de viajeros, pero están en sectores distintos. Antes de llegar conviene saber dónde esperar, cómo continuar el viaje y qué hacer con el equipaje.",
+      "expectedDescription": "La terminal de autobuses y el puerto reciben miles de viajeros, pero están en sectores distintos. Antes de llegar conviene saber dónde esperar, cómo continuar el viaje y qué hacer con el equipaje."
+    },
+    {
+      "route": "/guia/terminales/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rodoviária Novo Rio y Terminal Internacional de Cruceros | Ernestinho Carioca",
+      "bodyLength": 3382,
+      "description": "La terminal de autobuses y el puerto reciben miles de viajeros, pero están en sectores distintos. Antes de llegar conviene saber dónde esperar, cómo continuar el viaje y qué hacer con el equipaje.",
+      "expectedDescription": "La terminal de autobuses y el puerto reciben miles de viajeros, pero están en sectores distintos. Antes de llegar conviene saber dónde esperar, cómo continuar el viaje y qué hacer con el equipaje."
+    },
+    {
+      "route": "/hospedaje/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Apartamentos en Copacabana: alquiler temporal | Ernestinho",
+      "bodyLength": 2327,
+      "description": "Encuentra tu apartamento en Copacabana con Ernestinho Carioca. Conoce las unidades para parejas, familias y grupos y consulta por WhatsApp.",
+      "expectedDescription": "Encuentra tu apartamento en Copacabana con Ernestinho Carioca. Conoce las unidades para parejas, familias y grupos y consulta por WhatsApp."
+    },
+    {
+      "route": "/pt/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guia do Rio de Janeiro e passeios | Ernestinho Carioca",
+      "bodyLength": 2543,
+      "description": "Viva o Rio com meu olhar local: o que fazer, praias, restaurantes, transporte, apartamentos em Copacabana e experiências com Ernestinho Carioca.",
+      "expectedDescription": "Viva o Rio com meu olhar local: o que fazer, praias, restaurantes, transporte, apartamentos em Copacabana e experiências com Ernestinho Carioca."
+    },
+    {
+      "route": "/hospedaje/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Apartamentos en Copacabana: alquiler temporal | Ernestinho",
+      "bodyLength": 4284,
+      "description": "Encuentra tu apartamento en Copacabana con Ernestinho Carioca. Conoce las unidades para parejas, familias y grupos y consulta por WhatsApp.",
+      "expectedDescription": "Encuentra tu apartamento en Copacabana con Ernestinho Carioca. Conoce las unidades para parejas, familias y grupos y consulta por WhatsApp."
+    },
+    {
+      "route": "/pt/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guia do Rio de Janeiro e passeios | Ernestinho Carioca",
+      "bodyLength": 2502,
+      "description": "Viva o Rio com meu olhar local: o que fazer, praias, restaurantes, transporte, apartamentos em Copacabana e experiências com Ernestinho Carioca.",
+      "expectedDescription": "Viva o Rio com meu olhar local: o que fazer, praias, restaurantes, transporte, apartamentos em Copacabana e experiências com Ernestinho Carioca."
+    },
+    {
+      "route": "/pt/consejos/maletas-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Fazendo as malas para o Rio | Dicas Ernestinho",
+      "bodyLength": 4539,
+      "description": "Fazendo as malas para o Rio | Dicas Ernestinho. Calor, praia, chuva repentina e ar-condicionado podem aparecer na mesma viagem. Fazer a mala por camadas funciona melhor do que tentar prever um único tipo de clima.",
+      "expectedDescription": "Fazendo as malas para o Rio | Dicas Ernestinho. Calor, praia, chuva repentina e ar-condicionado podem aparecer na mesma viagem. Fazer a mala por camadas funciona melhor do que tentar prever um único tipo de clima."
+    },
+    {
+      "route": "/pt/consejos/revisar-alojamiento/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "O que conferir antes de sair da hospedagem | Ernestinho Carioca",
+      "bodyLength": 1229,
+      "description": "Uma checagem de dois minutos pode evitar perda de tempo durante o dia.",
+      "expectedDescription": "Uma checagem de dois minutos pode evitar perda de tempo durante o dia."
+    },
+    {
+      "route": "/pt/consejos/maletas-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Fazendo as malas para o Rio | Dicas Ernestinho",
+      "bodyLength": 4527,
+      "description": "Fazendo as malas para o Rio | Dicas Ernestinho. Calor, praia, chuva repentina e ar-condicionado podem aparecer na mesma viagem. Fazer a mala por camadas funciona melhor do que tentar prever um único tipo de clima.",
+      "expectedDescription": "Fazendo as malas para o Rio | Dicas Ernestinho. Calor, praia, chuva repentina e ar-condicionado podem aparecer na mesma viagem. Fazer a mala por camadas funciona melhor do que tentar prever um único tipo de clima."
+    },
+    {
+      "route": "/pt/consejos/revisar-alojamiento/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "O que conferir antes de sair da hospedagem | Ernestinho Carioca",
+      "bodyLength": 1217,
+      "description": "Uma checagem de dois minutos pode evitar perda de tempo durante o dia.",
+      "expectedDescription": "Uma checagem de dois minutos pode evitar perda de tempo durante o dia."
+    },
+    {
+      "route": "/pt/consejos/rio-1-a-7-dias/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio em 1, 2, 3, 4, 5, 6 ou 7 dias | Ernestinho Carioca",
+      "bodyLength": 1581,
+      "description": "Roteiros por regiões para aproveitar o tempo sem passar a viagem no trânsito.",
+      "expectedDescription": "Roteiros por regiões para aproveitar o tempo sem passar a viagem no trânsito."
+    },
+    {
+      "route": "/pt/consejos/rio-1-a-7-dias/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio em 1, 2, 3, 4, 5, 6 ou 7 dias | Ernestinho Carioca",
+      "bodyLength": 1569,
+      "description": "Roteiros por regiões para aproveitar o tempo sem passar a viagem no trânsito.",
+      "expectedDescription": "Roteiros por regiões para aproveitar o tempo sem passar a viagem no trânsito."
+    },
+    {
+      "route": "/pt/destinos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Destinos para viver, não apenas visitar | Ernestinho Carioca",
+      "bodyLength": 1848,
+      "description": "A porta editorial para os destinos que Ernestinho Carioca desenvolve em profundidade. O Rio continua sendo o coração; Búzios abre um segundo universo.",
+      "expectedDescription": "A porta editorial para os destinos que Ernestinho Carioca desenvolve em profundidade. O Rio continua sendo o coração; Búzios abre um segundo universo."
+    },
+    {
+      "route": "/pt/destinos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Destinos para viver, não apenas visitar | Ernestinho Carioca",
+      "bodyLength": 1836,
+      "description": "A porta editorial para os destinos que Ernestinho Carioca desenvolve em profundidade. O Rio continua sendo o coração; Búzios abre um segundo universo.",
+      "expectedDescription": "A porta editorial para os destinos que Ernestinho Carioca desenvolve em profundidade. O Rio continua sendo o coração; Búzios abre um segundo universo."
+    },
+    {
+      "route": "/pt/destinos/buzios/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios: outro ritmo, outro mar | Ernestinho Carioca",
+      "bodyLength": 4915,
+      "description": "Guia completo de Búzios para escolher praias, região, hospedagem, experiências, gastronomia, mobilidade e passeios saindo da cidade.",
+      "expectedDescription": "Guia completo de Búzios para escolher praias, região, hospedagem, experiências, gastronomia, mobilidade e passeios saindo da cidade."
+    },
+    {
+      "route": "/pt/destinos/buzios/alojamiento/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Onde ficar em Búzios sem errar na base | Ernestinho Carioca",
+      "bodyLength": 9469,
+      "description": "Guia de 12 regiões de Búzios para escolher hospedagem conforme praia, noite, tranquilidade, família, carro, ladeiras e mobilidade.",
+      "expectedDescription": "Guia de 12 regiões de Búzios para escolher hospedagem conforme praia, noite, tranquilidade, família, carro, ladeiras e mobilidade."
+    },
+    {
+      "route": "/pt/destinos/buzios/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios: outro ritmo, outro mar | Ernestinho Carioca",
+      "bodyLength": 4903,
+      "description": "Guia completo de Búzios para escolher praias, região, hospedagem, experiências, gastronomia, mobilidade e passeios saindo da cidade.",
+      "expectedDescription": "Guia completo de Búzios para escolher praias, região, hospedagem, experiências, gastronomia, mobilidade e passeios saindo da cidade."
+    },
+    {
+      "route": "/pt/destinos/buzios/alojamiento/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Onde ficar em Búzios sem errar na base | Ernestinho Carioca",
+      "bodyLength": 9457,
+      "description": "Guia de 12 regiões de Búzios para escolher hospedagem conforme praia, noite, tranquilidade, família, carro, ladeiras e mobilidade.",
+      "expectedDescription": "Guia de 12 regiões de Búzios para escolher hospedagem conforme praia, noite, tranquilidade, família, carro, ladeiras e mobilidade."
+    },
+    {
+      "route": "/pt/destinos/buzios/como-llegar/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Como chegar a Búzios saindo do Rio, GIG, SDU ou Cabo Frio | Ernestinho Carioca",
+      "bodyLength": 3860,
+      "description": "Compare ônibus, transfer privativo e carro para chegar a Búzios saindo do Rio, Galeão, Santos Dumont ou Cabo Frio, incluindo o último trecho.",
+      "expectedDescription": "Compare ônibus, transfer privativo e carro para chegar a Búzios saindo do Rio, Galeão, Santos Dumont ou Cabo Frio, incluindo o último trecho."
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Onde comer e sair em Búzios conforme o momento | Ernestinho Carioca",
+      "bodyLength": 5488,
+      "description": "Guia por regiões e perfis para gastronomia, cafés, jantar romântico, família, opções econômicas, noite, música, beach clubs e compras em Búzios.",
+      "expectedDescription": "Guia por regiões e perfis para gastronomia, cafés, jantar romântico, família, opções econômicas, noite, música, beach clubs e compras em Búzios."
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Onde comer e sair em Búzios conforme o momento | Ernestinho Carioca",
+      "bodyLength": 5500,
+      "description": "Guia por regiões e perfis para gastronomia, cafés, jantar romântico, família, opções econômicas, noite, música, beach clubs e compras em Búzios.",
+      "expectedDescription": "Guia por regiões e perfis para gastronomia, cafés, jantar romântico, família, opções econômicas, noite, música, beach clubs e compras em Búzios."
+    },
+    {
+      "route": "/pt/destinos/buzios/como-llegar/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Como chegar a Búzios saindo do Rio, GIG, SDU ou Cabo Frio | Ernestinho Carioca",
+      "bodyLength": 3848,
+      "description": "Compare ônibus, transfer privativo e carro para chegar a Búzios saindo do Rio, Galeão, Santos Dumont ou Cabo Frio, incluindo o último trecho.",
+      "expectedDescription": "Compare ônibus, transfer privativo e carro para chegar a Búzios saindo do Rio, Galeão, Santos Dumont ou Cabo Frio, incluindo o último trecho."
+    },
+    {
+      "route": "/pt/destinos/buzios/cruceros/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Poucas horas em Búzios: decida pelo relógio do navio | Ernestinho Carioca",
+      "bodyLength": 3525,
+      "description": "Guia para passageiros de cruzeiro em Búzios: desembarque, tender, tempo real em terra, passeio curto e retorno ao navio.",
+      "expectedDescription": "Guia para passageiros de cruzeiro em Búzios: desembarque, tender, tempo real em terra, passeio curto e retorno ao navio."
+    },
+    {
+      "route": "/pt/destinos/buzios/consejos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios prático: clima, família, pagamentos e roteiros | Ernestinho Carioca",
+      "bodyLength": 4667,
+      "description": "Dicas para preparar Búzios: temporadas, chuva, o que levar, famílias, dinheiro, Pix, cartões, internet, saúde, compras e roteiros de 1 a 4+ dias.",
+      "expectedDescription": "Dicas para preparar Búzios: temporadas, chuva, o que levar, famílias, dinheiro, Pix, cartões, internet, saúde, compras e roteiros de 1 a 4+ dias."
+    },
+    {
+      "route": "/pt/destinos/buzios/cruceros/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Poucas horas em Búzios: decida pelo relógio do navio | Ernestinho Carioca",
+      "bodyLength": 3513,
+      "description": "Guia para passageiros de cruzeiro em Búzios: desembarque, tender, tempo real em terra, passeio curto e retorno ao navio.",
+      "expectedDescription": "Guia para passageiros de cruzeiro em Búzios: desembarque, tender, tempo real em terra, passeio curto e retorno ao navio."
+    },
+    {
+      "route": "/pt/destinos/buzios/consejos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Búzios prático: clima, família, pagamentos e roteiros | Ernestinho Carioca",
+      "bodyLength": 4655,
+      "description": "Dicas para preparar Búzios: temporadas, chuva, o que levar, famílias, dinheiro, Pix, cartões, internet, saúde, compras e roteiros de 1 a 4+ dias.",
+      "expectedDescription": "Dicas para preparar Búzios: temporadas, chuva, o que levar, famílias, dinheiro, Pix, cartões, internet, saúde, compras e roteiros de 1 a 4+ dias."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/alquiler-buggy/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Aluguel de buggy em Búzios | Ernestinho Carioca",
+      "bodyLength": 3190,
+      "description": "Escolher mobilidade para dirigir na estadia. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Escolher mobilidade para dirigir na estadia. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/alquiler-buggy/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Aluguel de buggy em Búzios | Ernestinho Carioca",
+      "bodyLength": 3178,
+      "description": "Escolher mobilidade para dirigir na estadia. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Escolher mobilidade para dirigir na estadia. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Experiências para quem já está em Búzios | Ernestinho Carioca",
+      "bodyLength": 4674,
+      "description": "Hub comercial de passeios e excursões saindo de Búzios: barco, buggy, mergulho, trilha, Arraial, Cabo Frio, Rio e Full Day local.",
+      "expectedDescription": "Hub comercial de passeios e excursões saindo de Búzios: barco, buggy, mergulho, trilha, Arraial, Cabo Frio, Rio e Full Day local."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Experiências para quem já está em Búzios | Ernestinho Carioca",
+      "bodyLength": 4686,
+      "description": "Hub comercial de passeios e excursões saindo de Búzios: barco, buggy, mergulho, trilha, Arraial, Cabo Frio, Rio e Full Day local.",
+      "expectedDescription": "Hub comercial de passeios e excursões saindo de Búzios: barco, buggy, mergulho, trilha, Arraial, Cabo Frio, Rio e Full Day local."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/arraial-do-cabo/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Arraial do Cabo saindo de Búzios | Ernestinho Carioca",
+      "bodyLength": 3057,
+      "description": "O contraste de Arraial saindo da sua base em Búzios. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "O contraste de Arraial saindo da sua base em Búzios. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/arraial-do-cabo/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Arraial do Cabo saindo de Búzios | Ernestinho Carioca",
+      "bodyLength": 3045,
+      "description": "O contraste de Arraial saindo da sua base em Búzios. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "O contraste de Arraial saindo da sua base em Búzios. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/buceo/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Batismo de mergulho em Búzios | Ernestinho Carioca",
+      "bodyLength": 3308,
+      "description": "Primeiro contato com o mergulho, com orientação. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Primeiro contato com o mergulho, com orientação. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/buceo/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Batismo de mergulho em Búzios | Ernestinho Carioca",
+      "bodyLength": 3320,
+      "description": "Primeiro contato com o mergulho, com orientação. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Primeiro contato com o mergulho, com orientação. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/full-day-buzios/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Full Day Búzios para quem já está hospedado na cidade | Ernestinho Carioca",
+      "bodyLength": 3251,
+      "description": "Um dia para combinar mar e terra. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Um dia para combinar mar e terra. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/cabo-frio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Cabo Frio saindo de Búzios | Ernestinho Carioca",
+      "bodyLength": 3054,
+      "description": "Uma saída regional com outro ambiente urbano e litorâneo. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Uma saída regional com outro ambiente urbano e litorâneo. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/full-day-buzios/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Full Day Búzios para quem já está hospedado na cidade | Ernestinho Carioca",
+      "bodyLength": 3263,
+      "description": "Um dia para combinar mar e terra. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Um dia para combinar mar e terra. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/cabo-frio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Cabo Frio saindo de Búzios | Ernestinho Carioca",
+      "bodyLength": 3042,
+      "description": "Uma saída regional com outro ambiente urbano e litorâneo. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Uma saída regional com outro ambiente urbano e litorâneo. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/jardinera/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Jardineira panorâmica por Búzios | Ernestinho Carioca",
+      "bodyLength": 2943,
+      "description": "Uma visão panorâmica por terra. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Uma visão panorâmica por terra. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/paseo-barco/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Passeios de barco em Búzios: escuna ou catamarã | Ernestinho Carioca",
+      "bodyLength": 3182,
+      "description": "Ver a península a partir do mar. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Ver a península a partir do mar. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/jardinera/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Jardineira panorâmica por Búzios | Ernestinho Carioca",
+      "bodyLength": 2955,
+      "description": "Uma visão panorâmica por terra. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Uma visão panorâmica por terra. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/paseo-barco/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Passeios de barco em Búzios: escuna ou catamarã | Ernestinho Carioca",
+      "bodyLength": 3194,
+      "description": "Ver a península a partir do mar. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Ver a península a partir do mar. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/paseo-buggy/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Passeio de buggy por Búzios | Ernestinho Carioca",
+      "bodyLength": 3005,
+      "description": "Um passeio, não um veículo para levar. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Um passeio, não um veículo para levar. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/rio-desde-buzios/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Full Day Rio saindo de Búzios | Ernestinho Carioca",
+      "bodyLength": 3071,
+      "description": "Visitar o Rio sem trocar sua hospedagem em Búzios. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Visitar o Rio sem trocar sua hospedagem em Búzios. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/paseo-buggy/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Passeio de buggy por Búzios | Ernestinho Carioca",
+      "bodyLength": 3017,
+      "description": "Um passeio, não um veículo para levar. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Um passeio, não um veículo para levar. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/rio-desde-buzios/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Full Day Rio saindo de Búzios | Ernestinho Carioca",
+      "bodyLength": 3083,
+      "description": "Visitar o Rio sem trocar sua hospedagem em Búzios. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Visitar o Rio sem trocar sua hospedagem em Búzios. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/moverse/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Como se locomover em Búzios sem perder o dia | Ernestinho Carioca",
+      "bodyLength": 3866,
+      "description": "Guia prático para caminhar, usar vans, táxi, aplicativos, carro, buggy e alternativas marítimas em Búzios.",
+      "expectedDescription": "Guia prático para caminhar, usar vans, táxi, aplicativos, carro, buggy e alternativas marítimas em Búzios."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/trekking/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Trekking em Búzios | Ernestinho Carioca",
+      "bodyLength": 3087,
+      "description": "Caminhar para conhecer outra Búzios. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Caminhar para conhecer outra Búzios. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/experiencias/trekking/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Trekking em Búzios | Ernestinho Carioca",
+      "bodyLength": 3075,
+      "description": "Caminhar para conhecer outra Búzios. Consulte valor atualizado, roteiro e condições para sua data.",
+      "expectedDescription": "Caminhar para conhecer outra Búzios. Consulte valor atualizado, roteiro e condições para sua data."
+    },
+    {
+      "route": "/pt/destinos/buzios/moverse/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Como se locomover em Búzios sem perder o dia | Ernestinho Carioca",
+      "bodyLength": 3854,
+      "description": "Guia prático para caminhar, usar vans, táxi, aplicativos, carro, buggy e alternativas marítimas em Búzios.",
+      "expectedDescription": "Guia prático para caminhar, usar vans, táxi, aplicativos, carro, buggy e alternativas marítimas em Búzios."
+    },
+    {
+      "route": "/pt/destinos/buzios/playas/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praias de Búzios: escolha pelo dia que quer viver | Ernestinho Carioca",
+      "bodyLength": 14204,
+      "description": "Comparador editorial de 23 praias de Búzios por ambiente, mar, acesso, estrutura, esporte e perfil de viagem.",
+      "expectedDescription": "Comparador editorial de 23 praias de Búzios por ambiente, mar, acesso, estrutura, esporte e perfil de viagem."
+    },
+    {
+      "route": "/pt/destinos/buzios/que-hacer/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "O que fazer em Búzios conforme sua energia e sua viagem | Ernestinho Carioca",
+      "bodyLength": 2914,
+      "description": "Ideias de mar, aventura, natureza, família, cultura e dias de chuva para quem está hospedado em Búzios.",
+      "expectedDescription": "Ideias de mar, aventura, natureza, família, cultura e dias de chuva para quem está hospedado em Búzios."
+    },
+    {
+      "route": "/pt/destinos/buzios/playas/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praias de Búzios: escolha pelo dia que quer viver | Ernestinho Carioca",
+      "bodyLength": 14216,
+      "description": "Comparador editorial de 23 praias de Búzios por ambiente, mar, acesso, estrutura, esporte e perfil de viagem.",
+      "expectedDescription": "Comparador editorial de 23 praias de Búzios por ambiente, mar, acesso, estrutura, esporte e perfil de viagem."
+    },
+    {
+      "route": "/pt/destinos/buzios/que-hacer/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "O que fazer em Búzios conforme sua energia e sua viagem | Ernestinho Carioca",
+      "bodyLength": 2902,
+      "description": "Ideias de mar, aventura, natureza, família, cultura e dias de chuva para quem está hospedado em Búzios.",
+      "expectedDescription": "Ideias de mar, aventura, natureza, família, cultura e dias de chuva para quem está hospedado em Búzios."
+    },
+    {
+      "route": "/pt/guia/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guia para viajar ao Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1649,
+      "description": "Guia prático do Rio de Janeiro: documentos, saúde, internet, transporte, dinheiro, consulados e acessibilidade.",
+      "expectedDescription": "Guia prático do Rio de Janeiro: documentos, saúde, internet, transporte, dinheiro, consulados e acessibilidade."
+    },
+    {
+      "route": "/pt/guia/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Guia para viajar ao Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 1637,
+      "description": "Guia prático do Rio de Janeiro: documentos, saúde, internet, transporte, dinheiro, consulados e acessibilidade.",
+      "expectedDescription": "Guia prático do Rio de Janeiro: documentos, saúde, internet, transporte, dinheiro, consulados e acessibilidade."
+    },
+    {
+      "route": "/pt/guia/aeropuertos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Chegar ao Rio: Galeão e Santos Dumont | Ernestinho Carioca",
+      "bodyLength": 3286,
+      "description": "O Rio de Janeiro tem dois aeroportos principais. Confira sempre o código do seu voo: GIG e SDU ficam em regiões diferentes e o tempo de deslocamento pode variar muito.",
+      "expectedDescription": "O Rio de Janeiro tem dois aeroportos principais. Confira sempre o código do seu voo: GIG e SDU ficam em regiões diferentes e o tempo de deslocamento pode variar muito."
+    },
+    {
+      "route": "/pt/guia/aeropuertos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Chegar ao Rio: Galeão e Santos Dumont | Ernestinho Carioca",
+      "bodyLength": 3274,
+      "description": "O Rio de Janeiro tem dois aeroportos principais. Confira sempre o código do seu voo: GIG e SDU ficam em regiões diferentes e o tempo de deslocamento pode variar muito.",
+      "expectedDescription": "O Rio de Janeiro tem dois aeroportos principais. Confira sempre o código do seu voo: GIG e SDU ficam em regiões diferentes e o tempo de deslocamento pode variar muito."
+    },
+    {
+      "route": "/pt/guia/guarda-equipaje/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Onde guardar malas no Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 6763,
+      "description": "Check-out, voo à noite ou chegada antecipada: compare opções de guarda-volumes no Rio, organize a retirada e aproveite essas horas sem malas.",
+      "expectedDescription": "Check-out, voo à noite ou chegada antecipada: compare opções de guarda-volumes no Rio, organize a retirada e aproveite essas horas sem malas."
+    },
+    {
+      "route": "/pt/guia/terminales/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rodoviária Novo Rio e Terminal Internacional de Cruzeiros | Ernestinho Carioca",
+      "bodyLength": 3369,
+      "description": "A rodoviária e o porto recebem milhares de viajantes, mas ficam em regiões diferentes. Antes de chegar, é importante saber onde esperar, como continuar a viagem e o que fazer com a bagagem.",
+      "expectedDescription": "A rodoviária e o porto recebem milhares de viajantes, mas ficam em regiões diferentes. Antes de chegar, é importante saber onde esperar, como continuar a viagem e o que fazer com a bagagem."
+    },
+    {
+      "route": "/pt/guia/terminales/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rodoviária Novo Rio e Terminal Internacional de Cruzeiros | Ernestinho Carioca",
+      "bodyLength": 3381,
+      "description": "A rodoviária e o porto recebem milhares de viajantes, mas ficam em regiões diferentes. Antes de chegar, é importante saber onde esperar, como continuar a viagem e o que fazer com a bagagem.",
+      "expectedDescription": "A rodoviária e o porto recebem milhares de viajantes, mas ficam em regiões diferentes. Antes de chegar, é importante saber onde esperar, como continuar a viagem e o que fazer com a bagagem."
+    },
+    {
+      "route": "/pt/guia/guarda-equipaje/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Onde guardar malas no Rio de Janeiro | Ernestinho Carioca",
+      "bodyLength": 6751,
+      "description": "Check-out, voo à noite ou chegada antecipada: compare opções de guarda-volumes no Rio, organize a retirada e aproveite essas horas sem malas.",
+      "expectedDescription": "Check-out, voo à noite ou chegada antecipada: compare opções de guarda-volumes no Rio, organize a retirada e aproveite essas horas sem malas."
+    },
+    {
+      "route": "/pt/hospedaje/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Apartamentos em Copacabana: aluguel temporada | Ernestinho",
+      "bodyLength": 2398,
+      "description": "Encontre seu apartamento em Copacabana com Ernestinho Carioca. Conheça as unidades para casais, famílias e grupos e consulte pelo WhatsApp.",
+      "expectedDescription": "Encontre seu apartamento em Copacabana com Ernestinho Carioca. Conheça as unidades para casais, famílias e grupos e consulte pelo WhatsApp."
+    },
+    {
+      "route": "/pt/hospedaje/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Apartamentos em Copacabana: aluguel temporada | Ernestinho",
+      "bodyLength": 4281,
+      "description": "Encontre seu apartamento em Copacabana com Ernestinho Carioca. Conheça as unidades para casais, famílias e grupos e consulte pelo WhatsApp.",
+      "expectedDescription": "Encontre seu apartamento em Copacabana com Ernestinho Carioca. Conheça as unidades para casais, famílias e grupos e consulte pelo WhatsApp."
+    }
+  ],
+  "focused_final_reruns": 48
+}
