@@ -808,6 +808,209 @@ PAGES['/destinos/buzios/comer-y-salir/'].sections.push(
   )
 );
 
+
+PAGES['/destinos/buzios/comer-y-salir/'].sections.push(
+  section(
+    T('Búzios cotidiano: 12 mesas que amplían la guía','Búzios do dia a dia: 12 mesas que ampliam o guia','Everyday Búzios: 12 more places that broaden the guide'),
+    T('Aquí entran casas que ayudan a entender la ciudad más allá de la cena romántica: comida brasileña, pescado, árabe, parrilla, café argentino, jugos, boteco y música. Solo incorporé nombres que pude verificar como activos; varios nombres de listas secundarias quedaron fuera hasta tener evidencia suficiente.','Aqui entram casas que ajudam a entender a cidade além do jantar romântico: comida brasileira, peixe, árabe, parrilla, café argentino, sucos, boteco e música. Só incluí nomes que consegui verificar como ativos; vários nomes de listas secundárias ficaram de fora até haver evidência suficiente.','These places help explain the town beyond romantic dinners: Brazilian food, seafood, Middle Eastern cooking, parrilla, Argentine café culture, juices, boteco culture and live music. I only included venues I could verify as active; several names from secondary lists remain out until there is enough evidence.'),
+    A(
+      venue(
+        T('Restaurante do David · pescado brasileño sin ceremonia','Restaurante do David · peixe brasileiro sem cerimônia','Restaurante do David · Brazilian seafood without ceremony'),
+        T('Una casa tradicional del Centro enfocada en cocina brasileña y frutos del mar. Es una buena respuesta cuando quieres pescado, moqueca o platos generosos sin convertir la comida en una experiencia de alta cocina.','Casa tradicional do Centro focada em cozinha brasileira e frutos do mar. É boa resposta quando você quer peixe, moqueca ou pratos generosos sem transformar a refeição em experiência de alta gastronomia.','A traditional central restaurant focused on Brazilian food and seafood. It is useful when you want fish, moqueca or generous plates without turning the meal into a fine-dining event.'),
+        'Orla Bardot',
+        A(
+          item(T('Qué buscar','O que procurar','What to look for'),T('Pescados, mariscos y preparaciones brasileñas. Si son varios, compara platos para compartir antes de pedir individualmente: en este tipo de casa puede cambiar mucho el costo final.','Peixes, frutos do mar e preparações brasileiras. Em grupo, compare pratos para dividir antes de pedir individualmente: nesse tipo de casa isso pode mudar bastante o custo final.','Fish, seafood and Brazilian preparations. In a group, compare sharing plates before ordering individually; that can materially change the final cost.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Me gusta para una comida práctica en el Centro cuando la prioridad es comer bien y seguir caminando, no fotografiar cada plato.','Gosto para uma refeição prática no Centro quando a prioridade é comer bem e continuar caminhando, não fotografar cada prato.','I like it for a practical central meal when the priority is eating well and continuing your walk, not photographing every plate.')),
+          item(T('Dirección','Endereço','Address'),T('Rua Manoel Turíbio de Farias, 260 · Centro','Rua Manoel Turíbio de Farias, 260 · Centro','Rua Manoel Turíbio de Farias, 260 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Restaurante+do+David+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226232981'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/cantinadodavid/'}
+        )
+      ),
+      venue(
+        T('Bananaland · brasileño contemporáneo para todos','Bananaland · brasileiro contemporâneo para todos','Bananaland · contemporary Brazilian for almost everyone'),
+        T('Una de las casas consolidadas del Centro, con cocina brasileña contemporánea, carnes, pescados, ensaladas, platos infantiles y opciones vegetarianas/veganas. Es especialmente útil para grupos con gustos distintos.','Uma das casas consolidadas do Centro, com cozinha brasileira contemporânea, carnes, peixes, saladas, pratos infantis e opções vegetarianas/veganas. É especialmente útil para grupos com gostos diferentes.','One of the established central restaurants, serving contemporary Brazilian food, meat, fish, salads, children’s dishes and vegetarian/vegan options. It is especially useful for groups with mixed tastes.'),
+        'Orla Bardot',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Familias, grupos y quien quiere cocina brasileña sin limitarse únicamente a frutos del mar.','Famílias, grupos e quem quer cozinha brasileira sem ficar limitado apenas a frutos do mar.','Families, groups and travellers who want Brazilian food without being restricted to seafood.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Si viajas con varias generaciones, esta clase de carta amplia suele funcionar mejor que una especialidad demasiado cerrada.','Se viaja com várias gerações, esse tipo de cardápio amplo costuma funcionar melhor do que uma especialidade muito fechada.','When travelling with several generations, this type of broad menu often works better than a narrowly specialised restaurant.')),
+          item(T('Dirección','Endereço','Address'),T('Rua Manoel Turíbio de Farias, 50 · Centro','Rua Manoel Turíbio de Farias, 50 · Centro','Rua Manoel Turíbio de Farias, 50 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Bananaland+Buzios'},
+          {label:T('WhatsApp','WhatsApp','WhatsApp'),href:'https://wa.me/5522999725270'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/bananalandbuzios/'},
+          {label:T('Web oficial','Site oficial','Official site'),href:'https://bananalandrestaurante.com.br/'}
+        )
+      ),
+      venue(
+        T('Pimenta Síria · árabe y libanés en el Centro','Pimenta Síria · árabe e libanês no Centro','Pimenta Síria · Middle Eastern cooking in the centre'),
+        T('Una de las mejores formas de salir de la secuencia pizza-pescado-parrilla. Trabaja cocina árabe/libanesa y aporta además alternativas vegetarianas, por lo que suma diversidad real a la guía.','Uma das melhores formas de sair da sequência pizza-peixe-parrilla. Trabalha cozinha árabe/libanesa e ainda oferece alternativas vegetarianas, trazendo diversidade real ao guia.','One of the best ways to break the pizza-seafood-parrilla cycle. It focuses on Middle Eastern/Lebanese cooking and also adds useful vegetarian alternatives.'),
+        'Orla Bardot',
+        A(
+          item(T('Qué pedir','O que pedir','What to order'),T('Empieza por mezze para compartir y después decide si necesitas plato principal. En cocina árabe, pedir demasiadas entradas puede terminar siendo una comida completa sin darte cuenta.','Comece por mezze para dividir e depois decida se precisa de prato principal. Na cozinha árabe, pedir entradas demais pode virar uma refeição completa sem perceber.','Start with mezze to share, then decide whether you still need mains. In Middle Eastern cooking, several starters can quietly become a complete meal.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Es una excelente carta para una noche en que ya comiste mucho pescado durante el viaje y quieres cambiar completamente de sabor.','É ótima escolha para uma noite em que você já comeu muito peixe durante a viagem e quer mudar completamente de sabor.','It is a very good choice when you have already eaten plenty of seafood during the trip and want a complete change of flavour.')),
+          item(T('Dirección','Endereço','Address'),T('Rua César Augusto São Luís, 225 · Centro','Rua César Augusto São Luís, 225 · Centro','Rua César Augusto São Luís, 225 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Pimenta+Siria+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226239091'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/pimentasiriabuzios/'},
+          {label:T('Web oficial','Site oficial','Official site'),href:'https://pimentasiria.com/'}
+        )
+      ),
+      venue(
+        T('Don Juan · parrilla y cocina argentina','Don Juan · parrilla e cozinha argentina','Don Juan · parrilla and Argentine cooking'),
+        T('Una parrilla céntrica con carnes, pastas, pizza, risotto y clásicos argentinos. No la reduciría únicamente a “carne”: funciona también cuando un grupo quiere sentarse en una parrilla pero no todos desean pedir un corte.','Parrilla central com carnes, massas, pizza, risoto e clássicos argentinos. Eu não reduziria apenas a “carne”: funciona também quando um grupo quer sentar numa parrilla mas nem todos querem pedir corte.','A central parrilla serving meat, pasta, pizza, risotto and Argentine classics. I would not reduce it to “steak”: it also works when the group wants a parrilla atmosphere but not everyone wants a cut of beef.'),
+        'Orla Bardot',
+        A(
+          item(T('Qué mirar','O que observar','What to look for'),T('Pregunta gramaje y acompañamientos antes de pedir cortes grandes. En parrilla, comparar solo el precio del plato puede engañar si una opción viene prácticamente sin guarnición.','Pergunte gramatura e acompanhamentos antes de pedir cortes grandes. Em parrilla, comparar só o preço do prato pode enganar quando uma opção vem quase sem guarnição.','Ask about cut weight and sides before ordering large steaks. With parrilla, comparing only the headline plate price can mislead if one option comes with almost no sides.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Para argentinos y chilenos puede ser una pausa familiar en medio de muchos días de pescado, pero yo aprovecharía Búzios para alternar, no para comer parrilla todas las noches.','Para argentinos e chilenos pode ser uma pausa familiar depois de vários dias de peixe, mas eu aproveitaria Búzios para alternar, não para comer parrilla todas as noites.','For Argentine and Chilean travellers it can be a familiar break after several seafood-heavy days, but I would use Búzios to alternate styles rather than eat parrilla every night.')),
+          item(T('Dirección','Endereço','Address'),T('Rua das Pedras, 178 · Centro','Rua das Pedras, 178 · Centro','Rua das Pedras, 178 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Don+Juan+RestoBar+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552230370695'}
+        )
+      ),
+      venue(
+        T('Café Porteño · desayuno y merienda argentina','Café Porteño · café da manhã e lanche argentino','Café Porteño · Argentine breakfast and snack stop'),
+        T('Una alternativa argentina para desayuno, brunch, empanadas y comidas ligeras. Es especialmente útil porque amplía la guía a horarios que normalmente quedan olvidados entre “almuerzo” y “cena”.','Alternativa argentina para café da manhã, brunch, empanadas e refeições leves. É especialmente útil porque amplia o guia para horários que normalmente ficam esquecidos entre “almoço” e “jantar”.','An Argentine option for breakfast, brunch, empanadas and lighter meals. It is particularly useful because it covers times of day often ignored between lunch and dinner.'),
+        'Orla Bardot',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Desayuno tardío, café, empanadas, familias y viajeros que quieren sentarse sin hacer una comida pesada.','Café da manhã tardio, café, empanadas, famílias e viajantes que querem sentar sem fazer refeição pesada.','Late breakfast, coffee, empanadas, families and travellers wanting to sit down without a heavy meal.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('En días de playa es muy útil comer algo liviano antes de terminar pidiendo un almuerzo enorme por hambre acumulada.','Em dia de praia é muito útil comer algo leve antes de acabar pedindo um almoço enorme por fome acumulada.','On beach days, a lighter stop can prevent you from ordering an enormous lunch simply because you waited too long to eat.')),
+          item(T('Dirección','Endereço','Address'),T('Rua César Augusto São Luiz, 165 · Centro','Rua César Augusto São Luiz, 165 · Centro','Rua César Augusto São Luiz, 165 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Cafe+Porteno+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226230974'}
+        )
+      ),
+      venue(
+        T('Bar dos Pescadores · Manguinhos con identidad marinera','Bar dos Pescadores · Manguinhos com identidade pesqueira','Bar dos Pescadores · Manguinhos with fishing-town identity'),
+        T('Una casa histórica de Porto da Barra ligada a pescado y frutos del mar. Más que “otro restaurante con vista”, representa bien la relación de Manguinhos con el muelle, los pescadores y la cocina marina de la península.','Casa histórica do Porto da Barra ligada a peixes e frutos do mar. Mais do que “outro restaurante com vista”, representa bem a relação de Manguinhos com o cais, pescadores e cozinha marinha da península.','A long-established Porto da Barra restaurant centred on fish and seafood. More than another place with a view, it reflects Manguinhos’ relationship with the pier, fishermen and the peninsula’s maritime cooking.'),
+        'Porto da Barra',
+        A(
+          item(T('Qué buscar','O que procurar','What to look for'),T('Pescado y mariscos preparados de forma directa. Pregunta siempre qué pesca está disponible realmente ese día en vez de escoger solo por una foto de menú.','Peixe e frutos do mar em preparações diretas. Pergunte qual pescado está realmente disponível no dia em vez de escolher apenas pela foto do cardápio.','Look for straightforward fish and seafood dishes. Ask what catch is actually available that day rather than choosing from a menu photograph alone.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Si quieres entender el lado más marinero de Manguinhos, esta ficha tiene más sentido que elegir únicamente el restaurante más moderno del complejo.','Se quer entender o lado mais pesqueiro de Manguinhos, esta casa faz mais sentido do que escolher apenas o restaurante mais moderno do complexo.','If you want to understand Manguinhos’ fishing identity, this place tells you more than simply picking the newest venue in the complex.')),
+          item(T('Dirección','Endereço','Address'),T('Porto da Barra · Av. José Bento Ribeiro Dantas, 2900 · loja 37','Porto da Barra · Av. José Bento Ribeiro Dantas, 2900 · loja 37','Porto da Barra · Av. José Bento Ribeiro Dantas, 2900 · unit 37'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Bar+dos+Pescadores+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226231517'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/bardospescadoresbz/'},
+          {label:T('Web','Site','Website'),href:'https://bardospescadores.com/'}
+        )
+      ),
+      venue(
+        T('Sanse · cocina afectiva en João Fernandes','Sanse · cozinha afetiva em João Fernandes','Sanse · thoughtful cooking in João Fernandes'),
+        T('Una casa muy bien valorada en João Fernandes que combina cocina latina, propuestas saludables, café y platos contemporáneos. Me interesa especialmente porque da una alternativa real a quien se aloja en esa zona y no quiere bajar al Centro para cada comida.','Casa muito bem avaliada em João Fernandes que combina cozinha latina, propostas saudáveis, café e pratos contemporâneos. Interessa especialmente porque dá alternativa real para quem fica nessa região e não quer descer ao Centro em toda refeição.','A highly rated João Fernandes restaurant combining Latin flavours, healthy choices, coffee and contemporary dishes. It matters because it gives travellers staying in the area a genuine alternative to heading into the centre for every meal.'),
+        'João Fernandes',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Almuerzo, cena tranquila, pareja, opciones vegetarianas y quien duerme en João Fernandes.','Almoço, jantar tranquilo, casal, opções vegetarianas e quem fica em João Fernandes.','Lunch, relaxed dinner, couples, vegetarian choices and travellers staying in João Fernandes.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Si tu pousada está en una calle alta de João Fernandes, decide antes si después de cenar quieres caminar de regreso o pedir transporte. La distancia corta puede incluir una subida importante.','Se sua pousada fica numa rua alta de João Fernandes, decida antes se depois do jantar quer voltar a pé ou pedir transporte. Distância curta pode incluir subida importante.','If your pousada is high in João Fernandes, decide before dinner whether you want to walk back or arrange transport. A short distance can still involve a serious climb.')),
+          item(T('Dirección','Endereço','Address'),T('Rua João Fernandes, 0 · Village de Búzios','Rua João Fernandes, 0 · Village de Búzios','Rua João Fernandes, 0 · Village de Búzios'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Sanse+Cozinha+Afetiva+Buzios'},
+          {label:T('WhatsApp','WhatsApp','WhatsApp'),href:'https://wa.me/5522999984646'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/sanse_buzios/'}
+        )
+      ),
+      venue(
+        T('Sukão · jugos y lanche con excelente relación práctica','Sukão · sucos e lanche com ótima praticidade','Sukão · juices and a practical quick meal'),
+        T('Un clásico informal de João Fernandes para jugos, sándwiches, ensaladas y comidas rápidas. Es exactamente el tipo de lugar que una guía completa necesita porque no todos los viajeros quieren sentarse dos horas cada vez que tienen hambre.','Clássico informal de João Fernandes para sucos, sanduíches, saladas e refeições rápidas. É exatamente o tipo de lugar que um guia completo precisa porque nem todo viajante quer sentar duas horas toda vez que sente fome.','An informal João Fernandes classic for juices, sandwiches, salads and quick meals. This is exactly the type of venue a complete guide needs because not every traveller wants a two-hour meal whenever they get hungry.'),
+        'João Fernandes',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Desayuno informal, lanche, jugos, familia, antes o después de playa.','Café da manhã informal, lanche, sucos, família, antes ou depois da praia.','Casual breakfast, snacks, juices, families, before or after the beach.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Cuando estás varios días en Búzios necesitas al menos un par de lugares así: rápidos, simples y que no te obliguen a transformar cada pausa en una reserva.','Quando fica vários dias em Búzios, precisa de pelo menos alguns lugares assim: rápidos, simples e sem transformar cada pausa numa reserva.','For a multi-day stay in Búzios you need a few places like this: quick, simple and without turning every food stop into a reservation.')),
+          item(T('Dirección','Endereço','Address'),T('Rua João Fernandes, 142 · Village de Búzios','Rua João Fernandes, 142 · Village de Búzios','Rua João Fernandes, 142 · Village de Búzios'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Sukao+Buzios'}
+        )
+      ),
+      venue(
+        T('Xerelete · bar brasileño para gastar menos','Xerelete · bar brasileiro para gastar menos','Xerelete · Brazilian bar for a lower-cost meal'),
+        T('Una de las opciones económicas mejor valoradas de Búzios: cocina brasileña, bar y drinks sobre el eje de Orla Bardot. Sirve para equilibrar una guía que, si miramos solo hoteles y beach clubs, puede parecer mucho más cara de lo que realmente tiene que ser.','Uma das opções econômicas mais bem avaliadas de Búzios: cozinha brasileira, bar e drinks no eixo da Orla Bardot. Ajuda a equilibrar um guia que, olhando só hotéis e beach clubs, pode parecer muito mais caro do que precisa ser.','One of Búzios’ better-rated lower-cost choices: Brazilian food, a bar and drinks on the Orla Bardot axis. It balances a guide that can look far more expensive than necessary if you only consider hotels and beach clubs.'),
+        'Orla Bardot',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Presupuesto cuidado, almuerzo o cena informal, drinks y viajeros que quieren seguir cerca del Centro.','Orçamento controlado, almoço ou jantar informal, drinks e viajantes que querem continuar perto do Centro.','Budget-conscious travellers, informal lunch or dinner, drinks and anyone wanting to stay close to the centre.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('No confundas “económico” con “mala experiencia”. En una estadía larga, saber dónde comer bien sin pagar ambiente premium es información tan importante como saber dónde celebrar una noche especial.','Não confunda “econômico” com “experiência ruim”. Numa estadia longa, saber onde comer bem sem pagar ambiente premium é tão importante quanto saber onde celebrar uma noite especial.','Do not confuse “budget-friendly” with “bad experience”. On a longer stay, knowing where to eat well without paying for premium atmosphere matters as much as knowing where to celebrate a special night.')),
+          item(T('Dirección','Endereço','Address'),T('Orla Bardot, 514 · Centro','Orla Bardot, 514 · Centro','Orla Bardot, 514 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Xerelete+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522998454051'}
+        )
+      ),
+      venue(
+        T('Quintal dos Búzios · pequeño y local','Quintal dos Búzios · pequeno e local','Quintal dos Búzios · small and local'),
+        T('Una casa pequeña con cocina brasileña y frutos del mar, muy bien valorada dentro de la categoría económica. La incluyo porque una guía de verdad también necesita lugares que no dependen de una dirección famosa o un salón espectacular.','Casa pequena com cozinha brasileira e frutos do mar, muito bem avaliada dentro da categoria econômica. Incluo porque um guia de verdade também precisa de lugares que não dependem de endereço famoso ou salão espetacular.','A small Brazilian and seafood restaurant that rates strongly in the budget category. It belongs here because a real guide also needs places that do not depend on a famous address or spectacular dining room.'),
+        'Orla Bardot',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Almuerzo sencillo, presupuesto cuidado y quien disfruta descubrir casas pequeñas.','Almoço simples, orçamento controlado e quem gosta de descobrir casas pequenas.','Simple lunch, budget-conscious travellers and anyone who enjoys discovering small independent places.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('En lugares pequeños confirma funcionamiento antes de desplazarte. El encanto de una casa familiar también significa que horarios y días pueden cambiar más que en una cadena.','Em casas pequenas, confirme funcionamento antes de se deslocar. O charme de um negócio familiar também significa que horários e dias podem mudar mais do que numa rede.','With small venues, confirm opening before travelling over. The charm of a family-run place also means schedules can change more than at a chain.')),
+          item(T('Dirección','Endereço','Address'),T('Rua da Paz, 12 · Centro','Rua da Paz, 12 · Centro','Rua da Paz, 12 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Quintal+dos+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522997065103'}
+        )
+      ),
+      venue(
+        T('Noi · cerveza artesanal y comida de bar','Noi · cerveja artesanal e comida de bar','Noi · craft beer and bar food'),
+        T('Cervecería/restaurante en el Centro con cerveza artesanal propia, cocina brasileña y ambiente de bar. Sirve para quien quiere hacer de la cerveza parte de la salida y no simplemente pedir una botella durante la cena.','Cervejaria/restaurante no Centro com cerveja artesanal própria, cozinha brasileira e clima de bar. Funciona para quem quer fazer da cerveja parte do programa e não apenas pedir uma garrafa durante o jantar.','A central brewery/restaurant with its own craft beer, Brazilian food and a bar atmosphere. It works for travellers who want beer to be part of the outing rather than just another drink with dinner.'),
+        'Orla Bardot',
+        A(
+          item(T('Qué mirar','O que observar','What to look for'),T('Pregunta por estilos disponibles y tamaño de servicio antes de pedir una secuencia. La gracia está en comparar cervezas, no en terminar la primera demasiado rápido.','Pergunte pelos estilos disponíveis e tamanho das doses antes de pedir uma sequência. A graça está em comparar cervejas, não em terminar a primeira rápido demais.','Ask which styles are available and the serving size before ordering a sequence. The point is to compare beers, not finish the first one too quickly.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Buena parada para una noche informal y para quien quiere cerveza artesanal sin salir del circuito del Centro.','Boa parada para noite informal e para quem quer cerveja artesanal sem sair do circuito do Centro.','A useful informal-night stop for anyone wanting craft beer without leaving the central circuit.')),
+          item(T('Dirección','Endereço','Address'),T('Rua Manoel Turíbio de Farias, 110 · Centro','Rua Manoel Turíbio de Farias, 110 · Centro','Rua Manoel Turíbio de Farias, 110 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Noi+Cervejaria+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522997231980'}
+        )
+      ),
+      venue(
+        T('The House of Rock & Roll · rock en vivo','The House of Rock & Roll · rock ao vivo','The House of Rock & Roll · live rock'),
+        T('Un bar temático del Centro dedicado al rock, con bebidas, petiscos y presentaciones en vivo según programación. No compite con Privilège: es otra noche, más de banda, cerveza y ambiente de pub.','Bar temático no Centro dedicado ao rock, com bebidas, petiscos e apresentações ao vivo conforme programação. Não compete com o Privilège: é outra noite, mais banda, cerveja e clima de pub.','A central rock-themed bar with drinks, snacks and live performances depending on the programme. It is not competing with Privilège: this is a different night built around bands, beer and pub atmosphere.'),
+        'Orla Bardot',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Fans del rock, pareja informal, grupos y quien prefiere música en vivo a DJ.','Fãs de rock, casal informal, grupos e quem prefere música ao vivo a DJ.','Rock fans, casual couples, groups and anyone who prefers live music to DJs.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Revisa la banda del día. En un bar de rock, la programación cambia mucho más la experiencia que la decoración.','Confira a banda do dia. Em bar de rock, a programação muda muito mais a experiência do que a decoração.','Check which band is playing. In a rock bar, the programme changes the experience far more than the décor does.')),
+          item(T('Dirección','Endereço','Address'),T('Rua Manoel José de Carvalho, 174 · Centro','Rua Manoel José de Carvalho, 174 · Centro','Rua Manoel José de Carvalho, 174 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=The+House+of+Rock+and+Roll+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522988437561'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/thehouseofrockandroll/'},
+          {label:T('Web','Site','Website'),href:'https://thehouseofrockandroll.com.br/'}
+        )
+      ),
+      venue(
+        T('Garagem Restobar · Ferradura fuera del circuito obvio','Garagem Restobar · Ferradura fora do circuito óbvio','Garagem Restobar · Ferradura beyond the obvious circuit'),
+        T('Una opción pequeña de Ferradura con cocina brasileña, frutos del mar y perfil informal. La mantengo como recomendación de descubrimiento, no como imprescindible: sirve sobre todo para quien ya está alojado o pasando el día en esa zona.','Opção pequena da Ferradura com cozinha brasileira, frutos do mar e perfil informal. Mantenho como descoberta, não como imperdível: serve principalmente para quem já está hospedado ou passando o dia nessa região.','A small Ferradura option serving Brazilian food and seafood in an informal setting. I keep it as a discovery rather than a must: it is most useful for travellers already staying or spending the day in that area.'),
+        'Ferradura',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Almuerzo informal y quien quiere evitar desplazarse al Centro.','Almoço informal e quem quer evitar deslocamento ao Centro.','Informal lunch and travellers who want to avoid a trip into town.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('En Búzios no siempre gana el restaurante “más famoso”; si estás en Ferradura, un buen lugar cercano puede ser mejor decisión que atravesar tránsito para comer en Rua das Pedras.','Em Búzios nem sempre vence o restaurante “mais famoso”; se você está na Ferradura, um bom lugar próximo pode ser decisão melhor do que atravessar trânsito para comer na Rua das Pedras.','In Búzios the “most famous” restaurant does not always win; if you are in Ferradura, a good nearby place can be a better decision than crossing traffic to eat on Rua das Pedras.')),
+          item(T('Dirección','Endereço','Address'),T('Rua J III, 921 · Portal da Ferradura','Rua J III, 921 · Portal da Ferradura','Rua J III, 921 · Portal da Ferradura'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Garagem+Restobar+Buzios'},
+          {label:T('WhatsApp','WhatsApp','WhatsApp'),href:'https://wa.me/5522981364178'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/garagem_restobar/'}
+        )
+      )
+    ),
+    'alt'
+  )
+);
+
 PAGES['/destinos/buzios/consejos/'].sections.splice(1,0,section(T('El año cambia el ritmo de Búzios','O ano muda o ritmo de Búzios','The year changes Búzios’ rhythm'),T('Además del clima, revisa vacaciones, feriados y eventos. El día de la semana puede cambiar tanto el viaje como la estación.','Além do clima, confira férias, feriados e eventos. O dia da semana pode mudar a viagem tanto quanto a estação.','Alongside weather, check holidays and events. The day of the week can change a trip as much as the season.'),A(
  item(T('Verano','Verão','Summer'),T('De diciembre a marzo, organiza la estadía pensando en calor, protección solar y períodos de vacaciones. Planifica sombra y agua, y deja margen para tránsito y cambios de tiempo. Las salidas por mar dependen de la operación confirmada, no de que el calendario diga verano.','De dezembro a março, planeje calor, proteção solar e períodos de férias. Inclua sombra e água, com margem para trânsito e mudanças do tempo. Passeios no mar dependem da operação confirmada, não apenas da estação.','From December to March, plan for heat, sun protection and holiday periods. Include shade and water, allowing for traffic and weather changes. Boat trips depend on confirmed operations rather than the summer label.')),
  item(T('Otoño','Outono','Autumn'),T('De marzo a junio, compara fechas concretas en vez de asumir baja temporada continua. Feriados y fines de semana pueden concentrar movimiento. Una capa ligera ayuda a adaptar playa, paseo y cena; revisa el pronóstico cerca del viaje y conserva una alternativa si cambia el mar.','De março a junho, compare datas em vez de presumir baixa temporada contínua. Feriados e fins de semana podem concentrar movimento. Agasalho leve ajuda entre praia, passeio e jantar; confira a previsão e mantenha alternativa se o mar mudar.','From March to June, compare dates rather than assuming uninterrupted low season. Holidays and weekends can bring crowds. A light layer helps between beach, walks and dinner; check the forecast and keep an alternative if sea conditions change.')),
