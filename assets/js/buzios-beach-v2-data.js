@@ -61,7 +61,10 @@ export const beachIndex=[
       "PT": "Escaleras y acceso final",
       "EN": "Escaleras y acceso final"
     },
-    "images": []
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Buzios-JoaoFernandinho1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Buzios-JoaoFernandinho2.jpg"
+]
   },
   {
     "slug": "ferradura",
@@ -147,7 +150,11 @@ export const beachIndex=[
       "PT": "Continuación desde Azeda",
       "EN": "Continuación desde Azeda"
     },
-    "images": []
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Praia_da_Azedinha_01.jpg",
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Praia_da_Azedinha_03.jpg",
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Praia_da_Azedinha_04.jpg"
+]
   },
   {
     "slug": "tartaruga",
@@ -277,7 +284,11 @@ export const beachIndex=[
       "PT": "Acceso central",
       "EN": "Acceso central"
     },
-    "images": []
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Buzios-Arma%C3%A7ao1.jpg",
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Buzios-Arma%C3%A7ao2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Buzios_RJ_Brasil_-_Pier_da_Praia_do_Canto_-_panoramio.jpg/1280px-Buzios_RJ_Brasil_-_Pier_da_Praia_do_Canto_-_panoramio.jpg"
+]
   },
   {
     "slug": "manguinhos",
@@ -319,7 +330,11 @@ export const beachIndex=[
       "PT": "Mayor dependencia de transporte",
       "EN": "Mayor dependencia de transporte"
     },
-    "images": []
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Buzios-PraiaRasa1.jpg",
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Buzios-PraiaRasa2.jpg",
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Buzios-PraiaRasa3.jpg"
+]
   },
   {
     "slug": "tucuns",
