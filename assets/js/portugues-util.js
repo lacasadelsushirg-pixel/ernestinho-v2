@@ -16,9 +16,65 @@ function langKey() {
   const lang = getLanguage();
   return lang === "PT" ? "pt" : lang === "EN" ? "en" : "es";
 }
-function audioUrl(item) {
-  return `https://res.cloudinary.com/${data.cloudName}/video/upload/${data.audioBase}/${item.id}.mp3`;
+
+function cleanPhrase(value) {
+  return String(value || "")
+    .replace(/[.?!,:;]+$/g, "")
+    .trim();
 }
+
+function ascii(value) {
+  return cleanPhrase(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9 ]+/g, "")
+    .trim();
+}
+
+function cloudUrl(publicId) {
+  const encoded = publicId.split("/").map(encodeURIComponent).join("/");
+  return `https://res.cloudinary.com/${data.cloudName}/video/upload/${encoded}.mp3`;
+}
+
+function audioCandidates(item) {
+  if (item.audioUrl) return [item.audioUrl];
+
+  const phrase = cleanPhrase(item.pt);
+  const phraseAscii = ascii(phrase);
+  const names = [
+    item.audioPublicId,
+    item.id,
+    phrase,
+    phraseAscii,
+    phrase.replace(/\s+/g, "_"),
+    phraseAscii.replace(/\s+/g, "_"),
+    phrase.replace(/\s+/g, "-"),
+    phraseAscii.replace(/\s+/g, "-"),
+    phrase.toLowerCase(),
+    phraseAscii.toLowerCase(),
+    phraseAscii.toLowerCase().replace(/\s+/g, "_"),
+    phraseAscii.toLowerCase().replace(/\s+/g, "-")
+  ].filter(Boolean);
+
+  const bases = [
+    data.audioBase,
+    "ernestinho/portugues-util/audio",
+    "portugues-util/audio",
+    "audio",
+    ""
+  ];
+
+  const out = [];
+  for (const name of names) {
+    for (const base of bases) {
+      const publicId = base ? `${base}/${name}` : name;
+      const url = cloudUrl(publicId);
+      if (!out.includes(url)) out.push(url);
+    }
+  }
+  return out;
+}
+
 function stopAudio() {
   if (!currentAudio) return;
   currentAudio.pause();
@@ -29,29 +85,48 @@ function stopAudio() {
     btn.setAttribute("aria-pressed","false");
   });
 }
+
 function play(item, button, rate = 1) {
   stopAudio();
-  const audio = new Audio(audioUrl(item));
-  audio.preload = "none";
-  audio.playbackRate = rate;
-  currentAudio = audio;
-  button.classList.add("is-playing");
-  button.setAttribute("aria-pressed","true");
-  audio.addEventListener("ended", () => {
-    button.classList.remove("is-playing");
-    button.setAttribute("aria-pressed","false");
-    currentAudio = null;
-  }, { once:true });
-  audio.addEventListener("error", () => {
-    button.classList.remove("is-playing");
-    button.setAttribute("aria-pressed","false");
-    if (status) status.textContent = "Audio todavía no disponible para esta frase.";
-    currentAudio = null;
-  }, { once:true });
-  audio.play().catch(() => {
-    if (status) status.textContent = "No se pudo reproducir el audio.";
-  });
+  if (status) status.textContent = "";
+
+  const candidates = audioCandidates(item);
+  let index = 0;
+
+  const tryNext = () => {
+    if (index >= candidates.length) {
+      button.classList.remove("is-playing");
+      button.setAttribute("aria-pressed","false");
+      currentAudio = null;
+      if (status) status.textContent = "No encontré el audio de esta frase en Cloudinary.";
+      return;
+    }
+
+    const audio = new Audio(candidates[index++]);
+    audio.preload = "none";
+    audio.playbackRate = rate;
+    currentAudio = audio;
+    button.classList.add("is-playing");
+    button.setAttribute("aria-pressed","true");
+
+    audio.addEventListener("ended", () => {
+      button.classList.remove("is-playing");
+      button.setAttribute("aria-pressed","false");
+      currentAudio = null;
+    }, { once:true });
+
+    audio.addEventListener("error", () => {
+      if (currentAudio === audio) tryNext();
+    }, { once:true });
+
+    audio.play().catch(() => {
+      if (currentAudio === audio) tryNext();
+    });
+  };
+
+  tryNext();
 }
+
 function renderFilters() {
   const key = langKey();
   filters.innerHTML = "";
@@ -72,6 +147,7 @@ function renderFilters() {
     filters.appendChild(button);
   });
 }
+
 function renderGrid() {
   const key = langKey();
   const rows = activeCategory === "all" ? data.phrases : data.phrases.filter(x => x.category === activeCategory);
@@ -93,6 +169,7 @@ function renderGrid() {
     grid.appendChild(card);
   });
 }
+
 function renderFalseFriends() {
   if (!falseFriends) return;
   falseFriends.innerHTML = "";
@@ -102,11 +179,13 @@ function renderFalseFriends() {
     falseFriends.appendChild(li);
   });
 }
+
 function render() {
   renderFilters();
   renderGrid();
   renderFalseFriends();
 }
+
 fetch(dataUrl)
   .then(r => {
     if (!r.ok) throw new Error(`HTTP ${r.status}`);

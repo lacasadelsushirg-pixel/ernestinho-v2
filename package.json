@@ -4,11 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/prebuild_audio.mjs && node scripts/build_multilingual.mjs",
-    "check:locales": "python3 scripts/audit_multilingual.py",
-    "audio:portugues": "node scripts/generate_portugues_audio.mjs",
-    "audio:portugues:dry": "node scripts/generate_portugues_audio.mjs --dry-run",
-    "audio:portugues:voices": "node scripts/generate_portugues_audio.mjs --list-voices"
+    "build": "node scripts/build_multilingual.mjs",
+    "check:locales": "python3 scripts/audit_multilingual.py"
   },
   "engines": {
     "node": ">=20"
