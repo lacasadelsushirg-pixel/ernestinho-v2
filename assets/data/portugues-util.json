@@ -1,0 +1,681 @@
+{
+  "version": 1,
+  "cloudName": "tdez3h4t",
+  "audioBase": "ernestinho/portugues-util/audio",
+  "categories": [
+    {
+      "id": "basico",
+      "icon": "👋",
+      "es": "Lo básico",
+      "pt": "O básico",
+      "en": "Basics"
+    },
+    {
+      "id": "llegada",
+      "icon": "✈️",
+      "es": "Llegada",
+      "pt": "Chegada",
+      "en": "Arrival"
+    },
+    {
+      "id": "transporte",
+      "icon": "🚇",
+      "es": "Transporte",
+      "pt": "Transporte",
+      "en": "Transport"
+    },
+    {
+      "id": "praia",
+      "icon": "🏖️",
+      "es": "Playa",
+      "pt": "Praia",
+      "en": "Beach"
+    },
+    {
+      "id": "restaurante",
+      "icon": "🍽️",
+      "es": "Restaurante",
+      "pt": "Restaurante",
+      "en": "Restaurant"
+    },
+    {
+      "id": "pagos",
+      "icon": "💳",
+      "es": "Compras y pagos",
+      "pt": "Compras e pagamentos",
+      "en": "Shopping & payments"
+    },
+    {
+      "id": "saude",
+      "icon": "🏥",
+      "es": "Salud",
+      "pt": "Saúde",
+      "en": "Health"
+    },
+    {
+      "id": "seguranca",
+      "icon": "🛡️",
+      "es": "Seguridad",
+      "pt": "Segurança",
+      "en": "Safety"
+    },
+    {
+      "id": "hospedagem",
+      "icon": "🏨",
+      "es": "Hospedaje",
+      "pt": "Hospedagem",
+      "en": "Accommodation"
+    },
+    {
+      "id": "eventos",
+      "icon": "🎟️",
+      "es": "Eventos",
+      "pt": "Eventos",
+      "en": "Events"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "bom-dia",
+      "category": "basico",
+      "pt": "Bom dia.",
+      "es": "Buenos días.",
+      "en": "Good morning."
+    },
+    {
+      "id": "boa-tarde",
+      "category": "basico",
+      "pt": "Boa tarde.",
+      "es": "Buenas tardes.",
+      "en": "Good afternoon."
+    },
+    {
+      "id": "boa-noite",
+      "category": "basico",
+      "pt": "Boa noite.",
+      "es": "Buenas noches.",
+      "en": "Good evening."
+    },
+    {
+      "id": "tudo-bem",
+      "category": "basico",
+      "pt": "Oi, tudo bem?",
+      "es": "Hola, ¿todo bien?",
+      "en": "Hi, how are you?"
+    },
+    {
+      "id": "obrigado",
+      "category": "basico",
+      "pt": "Obrigado / Obrigada.",
+      "es": "Gracias.",
+      "en": "Thank you."
+    },
+    {
+      "id": "nao-entendi",
+      "category": "basico",
+      "pt": "Não entendi.",
+      "es": "No entendí.",
+      "en": "I didn't understand."
+    },
+    {
+      "id": "fale-devagar",
+      "category": "basico",
+      "pt": "Pode falar mais devagar?",
+      "es": "¿Puede hablar más despacio?",
+      "en": "Could you speak more slowly?"
+    },
+    {
+      "id": "falar-espanhol",
+      "category": "basico",
+      "pt": "Você fala espanhol?",
+      "es": "¿Habla español?",
+      "en": "Do you speak Spanish?"
+    },
+    {
+      "id": "onde-saida",
+      "category": "llegada",
+      "pt": "Onde fica a saída?",
+      "es": "¿Dónde está la salida?",
+      "en": "Where is the exit?"
+    },
+    {
+      "id": "onde-uber",
+      "category": "llegada",
+      "pt": "Onde pego o Uber?",
+      "es": "¿Dónde tomo el Uber?",
+      "en": "Where do I get the Uber?"
+    },
+    {
+      "id": "ponto-taxi",
+      "category": "llegada",
+      "pt": "Onde fica o ponto de táxi?",
+      "es": "¿Dónde está la parada de taxis?",
+      "en": "Where is the taxi stand?"
+    },
+    {
+      "id": "retirar-bagagem",
+      "category": "llegada",
+      "pt": "Onde retiro minha bagagem?",
+      "es": "¿Dónde retiro mi equipaje?",
+      "en": "Where do I collect my luggage?"
+    },
+    {
+      "id": "mala-nao-chegou",
+      "category": "llegada",
+      "pt": "Minha mala não chegou.",
+      "es": "Mi maleta no llegó.",
+      "en": "My suitcase didn't arrive."
+    },
+    {
+      "id": "terminal-correto",
+      "category": "llegada",
+      "pt": "Este é o terminal correto?",
+      "es": "¿Este es el terminal correcto?",
+      "en": "Is this the correct terminal?"
+    },
+    {
+      "id": "tempo-copacabana",
+      "category": "llegada",
+      "pt": "Quanto tempo demora até Copacabana?",
+      "es": "¿Cuánto demora hasta Copacabana?",
+      "en": "How long does it take to Copacabana?"
+    },
+    {
+      "id": "deixar-endereco",
+      "category": "llegada",
+      "pt": "Pode me deixar neste endereço?",
+      "es": "¿Puede dejarme en esta dirección?",
+      "en": "Can you drop me at this address?"
+    },
+    {
+      "id": "para-quem-veio",
+      "category": "transporte",
+      "pt": "Para quem você veio?",
+      "es": "¿A quién vino a buscar?",
+      "en": "Who are you here to pick up?"
+    },
+    {
+      "id": "placa-confere",
+      "category": "transporte",
+      "pt": "A placa é esta?",
+      "es": "¿Esta es la matrícula?",
+      "en": "Is this the license plate?"
+    },
+    {
+      "id": "parar-aqui",
+      "category": "transporte",
+      "pt": "Pode parar aqui, por favor?",
+      "es": "¿Puede parar aquí, por favor?",
+      "en": "Can you stop here, please?"
+    },
+    {
+      "id": "quanto-falta",
+      "category": "transporte",
+      "pt": "Quanto falta?",
+      "es": "¿Cuánto falta?",
+      "en": "How much longer?"
+    },
+    {
+      "id": "onibus-vai",
+      "category": "transporte",
+      "pt": "Este ônibus vai para Copacabana?",
+      "es": "¿Este autobús va a Copacabana?",
+      "en": "Does this bus go to Copacabana?"
+    },
+    {
+      "id": "onde-desco",
+      "category": "transporte",
+      "pt": "Onde eu desço?",
+      "es": "¿Dónde me bajo?",
+      "en": "Where do I get off?"
+    },
+    {
+      "id": "estacao-usar",
+      "category": "transporte",
+      "pt": "Qual estação devo usar?",
+      "es": "¿Qué estación debo usar?",
+      "en": "Which station should I use?"
+    },
+    {
+      "id": "trocar-linha",
+      "category": "transporte",
+      "pt": "Preciso trocar de linha?",
+      "es": "¿Tengo que cambiar de línea?",
+      "en": "Do I need to change lines?"
+    },
+    {
+      "id": "preco-cadeira",
+      "category": "praia",
+      "pt": "Quanto custa a cadeira?",
+      "es": "¿Cuánto cuesta la silla?",
+      "en": "How much is the beach chair?"
+    },
+    {
+      "id": "preco-guarda-sol",
+      "category": "praia",
+      "pt": "Quanto custa o guarda-sol?",
+      "es": "¿Cuánto cuesta la sombrilla?",
+      "en": "How much is the beach umbrella?"
+    },
+    {
+      "id": "consumo-minimo",
+      "category": "praia",
+      "pt": "Tem consumo mínimo?",
+      "es": "¿Hay consumo mínimo?",
+      "en": "Is there a minimum spend?"
+    },
+    {
+      "id": "quanto-tudo",
+      "category": "praia",
+      "pt": "Quanto custa tudo?",
+      "es": "¿Cuánto cuesta todo?",
+      "en": "How much is everything?"
+    },
+    {
+      "id": "banheiro-praia",
+      "category": "praia",
+      "pt": "Tem banheiro por aqui?",
+      "es": "¿Hay baño por aquí?",
+      "en": "Is there a bathroom nearby?"
+    },
+    {
+      "id": "mar-perigoso",
+      "category": "praia",
+      "pt": "O mar está perigoso hoje?",
+      "es": "¿El mar está peligroso hoy?",
+      "en": "Is the sea dangerous today?"
+    },
+    {
+      "id": "salva-vidas",
+      "category": "praia",
+      "pt": "Tem salva-vidas perto?",
+      "es": "¿Hay guardavidas cerca?",
+      "en": "Is there a lifeguard nearby?"
+    },
+    {
+      "id": "posto-quatro",
+      "category": "praia",
+      "pt": "Onde fica o Posto 4?",
+      "es": "¿Dónde queda el Posto 4?",
+      "en": "Where is Posto 4?"
+    },
+    {
+      "id": "mesa-duas",
+      "category": "restaurante",
+      "pt": "Tem mesa para duas pessoas?",
+      "es": "¿Tiene mesa para dos personas?",
+      "en": "Do you have a table for two?"
+    },
+    {
+      "id": "cardapio",
+      "category": "restaurante",
+      "pt": "Pode trazer o cardápio?",
+      "es": "¿Puede traer el menú?",
+      "en": "Could you bring the menu?"
+    },
+    {
+      "id": "recomenda",
+      "category": "restaurante",
+      "pt": "O que você recomenda?",
+      "es": "¿Qué recomienda?",
+      "en": "What do you recommend?"
+    },
+    {
+      "id": "serve-duas",
+      "category": "restaurante",
+      "pt": "Serve duas pessoas?",
+      "es": "¿Sirve para dos personas?",
+      "en": "Does it serve two people?"
+    },
+    {
+      "id": "apimentado",
+      "category": "restaurante",
+      "pt": "É apimentado?",
+      "es": "¿Es picante?",
+      "en": "Is it spicy?"
+    },
+    {
+      "id": "sem-carne",
+      "category": "restaurante",
+      "pt": "Tem opção sem carne?",
+      "es": "¿Tiene opción sin carne?",
+      "en": "Do you have a meat-free option?"
+    },
+    {
+      "id": "conta",
+      "category": "restaurante",
+      "pt": "A conta, por favor.",
+      "es": "La cuenta, por favor.",
+      "en": "The bill, please."
+    },
+    {
+      "id": "couvert",
+      "category": "restaurante",
+      "pt": "Tem couvert artístico?",
+      "es": "¿Hay couvert artístico?",
+      "en": "Is there a live-music cover charge?"
+    },
+    {
+      "id": "quanto-custa",
+      "category": "pagos",
+      "pt": "Quanto custa?",
+      "es": "¿Cuánto cuesta?",
+      "en": "How much is it?"
+    },
+    {
+      "id": "aceita-cartao",
+      "category": "pagos",
+      "pt": "Aceita cartão?",
+      "es": "¿Acepta tarjeta?",
+      "en": "Do you accept cards?"
+    },
+    {
+      "id": "aceita-pix",
+      "category": "pagos",
+      "pt": "Aceita Pix?",
+      "es": "¿Acepta Pix?",
+      "en": "Do you accept Pix?"
+    },
+    {
+      "id": "mostrar-maquina",
+      "category": "pagos",
+      "pt": "Pode mostrar o valor na máquina?",
+      "es": "¿Puede mostrarme el valor en la máquina?",
+      "en": "Can you show me the amount on the card machine?"
+    },
+    {
+      "id": "pagamento-passou",
+      "category": "pagos",
+      "pt": "O pagamento passou?",
+      "es": "¿El pago pasó?",
+      "en": "Did the payment go through?"
+    },
+    {
+      "id": "outro-tamanho",
+      "category": "pagos",
+      "pt": "Tem outro tamanho?",
+      "es": "¿Tiene otra talla?",
+      "en": "Do you have another size?"
+    },
+    {
+      "id": "posso-trocar",
+      "category": "pagos",
+      "pt": "Posso trocar?",
+      "es": "¿Lo puedo cambiar?",
+      "en": "Can I exchange it?"
+    },
+    {
+      "id": "nota-fiscal",
+      "category": "pagos",
+      "pt": "Tem nota fiscal?",
+      "es": "¿Tiene comprobante/factura?",
+      "en": "Can I get a receipt?"
+    },
+    {
+      "id": "farmacia",
+      "category": "saude",
+      "pt": "Preciso de uma farmácia.",
+      "es": "Necesito una farmacia.",
+      "en": "I need a pharmacy."
+    },
+    {
+      "id": "farmacia-24h",
+      "category": "saude",
+      "pt": "Tem farmácia 24 horas por aqui?",
+      "es": "¿Hay una farmacia 24 horas por aquí?",
+      "en": "Is there a 24-hour pharmacy nearby?"
+    },
+    {
+      "id": "estou-febre",
+      "category": "saude",
+      "pt": "Estou com febre.",
+      "es": "Tengo fiebre.",
+      "en": "I have a fever."
+    },
+    {
+      "id": "estou-dor",
+      "category": "saude",
+      "pt": "Estou com dor.",
+      "es": "Tengo dolor.",
+      "en": "I'm in pain."
+    },
+    {
+      "id": "alergia",
+      "category": "saude",
+      "pt": "Tenho alergia a isto.",
+      "es": "Soy alérgico/a a esto.",
+      "en": "I'm allergic to this."
+    },
+    {
+      "id": "preciso-medico",
+      "category": "saude",
+      "pt": "Preciso de um médico.",
+      "es": "Necesito un médico.",
+      "en": "I need a doctor."
+    },
+    {
+      "id": "preciso-upa",
+      "category": "saude",
+      "pt": "Preciso ir a uma UPA.",
+      "es": "Necesito ir a una UPA.",
+      "en": "I need to go to an urgent care unit."
+    },
+    {
+      "id": "chame-samu",
+      "category": "saude",
+      "pt": "Chame o SAMU, por favor.",
+      "es": "Llame al SAMU, por favor.",
+      "en": "Please call SAMU."
+    },
+    {
+      "id": "preciso-ajuda",
+      "category": "seguranca",
+      "pt": "Preciso de ajuda.",
+      "es": "Necesito ayuda.",
+      "en": "I need help."
+    },
+    {
+      "id": "fui-roubado",
+      "category": "seguranca",
+      "pt": "Fui roubado / roubada.",
+      "es": "Me robaron.",
+      "en": "I was robbed."
+    },
+    {
+      "id": "perdi-celular",
+      "category": "seguranca",
+      "pt": "Perdi meu celular.",
+      "es": "Perdí mi celular.",
+      "en": "I lost my phone."
+    },
+    {
+      "id": "perdi-passaporte",
+      "category": "seguranca",
+      "pt": "Perdi meu passaporte.",
+      "es": "Perdí mi pasaporte.",
+      "en": "I lost my passport."
+    },
+    {
+      "id": "onde-delegacia",
+      "category": "seguranca",
+      "pt": "Onde fica a delegacia?",
+      "es": "¿Dónde está la comisaría?",
+      "en": "Where is the police station?"
+    },
+    {
+      "id": "registrar-ocorrencia",
+      "category": "seguranca",
+      "pt": "Quero registrar uma ocorrência.",
+      "es": "Quiero hacer una denuncia.",
+      "en": "I want to file a police report."
+    },
+    {
+      "id": "chamar-policia",
+      "category": "seguranca",
+      "pt": "Pode chamar a polícia?",
+      "es": "¿Puede llamar a la policía?",
+      "en": "Can you call the police?"
+    },
+    {
+      "id": "estou-perdido",
+      "category": "seguranca",
+      "pt": "Estou perdido / perdida.",
+      "es": "Estoy perdido/a.",
+      "en": "I'm lost."
+    },
+    {
+      "id": "tenho-reserva",
+      "category": "hospedagem",
+      "pt": "Tenho uma reserva.",
+      "es": "Tengo una reserva.",
+      "en": "I have a reservation."
+    },
+    {
+      "id": "senha-wifi",
+      "category": "hospedagem",
+      "pt": "Qual é a senha do Wi-Fi?",
+      "es": "¿Cuál es la contraseña del Wi-Fi?",
+      "en": "What's the Wi-Fi password?"
+    },
+    {
+      "id": "elevador",
+      "category": "hospedagem",
+      "pt": "Onde fica o elevador?",
+      "es": "¿Dónde está el ascensor?",
+      "en": "Where is the elevator?"
+    },
+    {
+      "id": "agua-quente",
+      "category": "hospedagem",
+      "pt": "A água quente está funcionando?",
+      "es": "¿Funciona el agua caliente?",
+      "en": "Is the hot water working?"
+    },
+    {
+      "id": "ar-condicionado",
+      "category": "hospedagem",
+      "pt": "O ar-condicionado não está funcionando.",
+      "es": "El aire acondicionado no funciona.",
+      "en": "The air conditioning isn't working."
+    },
+    {
+      "id": "preciso-toalhas",
+      "category": "hospedagem",
+      "pt": "Preciso de toalhas.",
+      "es": "Necesito toallas.",
+      "en": "I need towels."
+    },
+    {
+      "id": "deixar-bagagem",
+      "category": "hospedagem",
+      "pt": "Posso deixar a bagagem?",
+      "es": "¿Puedo dejar el equipaje?",
+      "en": "Can I leave my luggage?"
+    },
+    {
+      "id": "horario-checkout",
+      "category": "hospedagem",
+      "pt": "Qual é o horário do check-out?",
+      "es": "¿A qué hora es el check-out?",
+      "en": "What time is check-out?"
+    },
+    {
+      "id": "onde-entrada",
+      "category": "eventos",
+      "pt": "Onde fica a entrada?",
+      "es": "¿Dónde está la entrada?",
+      "en": "Where is the entrance?"
+    },
+    {
+      "id": "qual-setor",
+      "category": "eventos",
+      "pt": "Qual é o setor?",
+      "es": "¿Cuál es el sector?",
+      "en": "Which section is it?"
+    },
+    {
+      "id": "fila-ingresso",
+      "category": "eventos",
+      "pt": "Esta fila é para este ingresso?",
+      "es": "¿Esta fila es para esta entrada?",
+      "en": "Is this line for this ticket?"
+    },
+    {
+      "id": "entrar-mochila",
+      "category": "eventos",
+      "pt": "Posso entrar com mochila?",
+      "es": "¿Puedo entrar con mochila?",
+      "en": "Can I enter with a backpack?"
+    },
+    {
+      "id": "que-horas-comeca",
+      "category": "eventos",
+      "pt": "Que horas começa?",
+      "es": "¿A qué hora empieza?",
+      "en": "What time does it start?"
+    },
+    {
+      "id": "onde-metro-evento",
+      "category": "eventos",
+      "pt": "Onde fica o metrô?",
+      "es": "¿Dónde está el metro?",
+      "en": "Where is the metro?"
+    },
+    {
+      "id": "ponto-encontro",
+      "category": "eventos",
+      "pt": "Onde vamos nos encontrar depois?",
+      "es": "¿Dónde nos encontramos después?",
+      "en": "Where are we meeting afterwards?"
+    },
+    {
+      "id": "ingresso-nao-abre",
+      "category": "eventos",
+      "pt": "Meu ingresso não está abrindo.",
+      "es": "Mi entrada no abre.",
+      "en": "My ticket isn't opening."
+    }
+  ],
+  "falseFriends": [
+    {
+      "pt": "grávida",
+      "es": "embarazada",
+      "note": "En portugués, embaraçada significa avergonzada o incómoda."
+    },
+    {
+      "pt": "oficina",
+      "es": "taller mecánico",
+      "note": "Para oficina de trabajo se usa escritório."
+    },
+    {
+      "pt": "presunto",
+      "es": "jamón",
+      "note": "No significa “presunto” en español."
+    },
+    {
+      "pt": "apelido",
+      "es": "apodo",
+      "note": "Sobrenome significa apellido."
+    },
+    {
+      "pt": "esquisito",
+      "es": "raro / extraño",
+      "note": "No significa exquisito."
+    },
+    {
+      "pt": "borracha",
+      "es": "goma de borrar / caucho",
+      "note": "Bêbado/bêbada es “borracho/a”."
+    },
+    {
+      "pt": "gorjeta",
+      "es": "propina",
+      "note": "Es la palabra habitual para tip."
+    },
+    {
+      "pt": "pasta",
+      "es": "carpeta / pasta según contexto",
+      "note": "En comida, el término depende del plato: massa, macarrão, espaguete."
+    }
+  ]
+}

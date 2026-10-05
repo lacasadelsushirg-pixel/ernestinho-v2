@@ -4,10 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build_multilingual.mjs",
-    "check:locales": "python3 scripts/audit_multilingual.py"
+    "build": "node scripts/prebuild_audio.mjs && node scripts/build_multilingual.mjs",
+    "check:locales": "python3 scripts/audit_multilingual.py",
+    "audio:portugues": "node scripts/generate_portugues_audio.mjs",
+    "audio:portugues:dry": "node scripts/generate_portugues_audio.mjs --dry-run",
+    "audio:portugues:voices": "node scripts/generate_portugues_audio.mjs --list-voices"
   },
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "@sparticuz/chromium": "143.0.4",
     "playwright-core": "1.58.2"
