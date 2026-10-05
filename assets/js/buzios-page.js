@@ -651,6 +651,163 @@ PAGES['/destinos/buzios/comer-y-salir/'].sections.push(
   )
 );
 
+
+PAGES['/destinos/buzios/comer-y-salir/'].sections.push(
+  section(
+    T('De lo casual a la noche: 10 opciones más','Do casual à noite: mais 10 opções','From casual bites to nightlife: 10 more options'),
+    T('Esta tanda completa perfiles que faltaban: hamburguesa, japonés, playa, sunset, beach club y pista. En vida nocturna no publico una programación fija: agenda, entrada, consumo y horario deben confirmarse para la fecha.','Esta seleção completa perfis que faltavam: hambúrguer, japonês, praia, sunset, beach club e pista. Na vida noturna não publico programação fixa: agenda, entrada, consumo e horário devem ser confirmados para a data.','This batch fills missing profiles: burgers, Japanese food, beach dining, sunset, beach clubs and dancing. For nightlife I do not publish a fixed programme: line-up, admission, minimum spend and hours must be checked for your date.'),
+    A(
+      venue(
+        T('Mr. Waiz · hamburguesa sin complicaciones','Mr. Waiz · hambúrguer sem complicação','Mr. Waiz · an easy burger stop'),
+        T('Una hamburguesería artesanal útil cuando quieres comer algo reconocible, rápido y céntrico antes de seguir caminando. La guía oficial de Búzios la destaca en Rua das Pedras, así que encaja bien como opción casual para familias, adolescentes y grupos que no quieren una cena larga.','Hamburgueria artesanal útil quando você quer algo reconhecível, rápido e central antes de continuar caminhando. O guia oficial de Búzios destaca a casa na Rua das Pedras, então funciona bem para famílias, adolescentes e grupos que não querem jantar demorado.','An artisan burger stop for when you want something familiar, quick and central before continuing your walk. The official Búzios guide highlights its Rua das Pedras location, making it a useful casual option for families, teens and groups not looking for a long dinner.'),
+        'Orla Bardot',
+        A(
+          item(T('Qué pedir','O que pedir','What to order'),T('Hamburguesa artesanal y acompañamiento. Si el grupo quiere comer rápido, acuerden primero si van a sentarse o seguir caminando: eso cambia bastante el ritmo de Rua das Pedras.','Hambúrguer artesanal e acompanhamento. Se o grupo quer comer rápido, decidam antes se vão sentar ou continuar caminhando: isso muda bastante o ritmo da Rua das Pedras.','Artisan burger and sides. If the group wants a quick meal, decide first whether you are sitting down or continuing to walk; that changes the pace of Rua das Pedras.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Lo usaría como comodín cuando hay niños o gustos difíciles. No hace falta convertir cada comida del viaje en una experiencia gastronómica formal.','Eu usaria como coringa quando há crianças ou gostos difíceis. Nem toda refeição da viagem precisa virar experiência gastronômica formal.','I would use it as a reliable fallback when there are children or picky eaters. Not every meal on a trip needs to become a formal dining experience.')),
+          item(T('Dirección','Endereço','Address'),T('Rua das Pedras, 286 · loja 1 · Centro','Rua das Pedras, 286 · loja 1 · Centro','Rua das Pedras, 286 · unit 1 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Mr+Waiz+Rua+das+Pedras+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522988036759'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/mrwaizoficial/'},
+          {label:T('Web','Site','Website'),href:'https://mrwaiz.com/'}
+        )
+      ),
+      venue(
+        T('Sushi Bardot · japonés en la Orla','Sushi Bardot · japonês na Orla','Sushi Bardot · Japanese on the waterfront'),
+        T('Para quien quiere sushi sin salir del circuito Bardot. Trabaja à la carte y formato rodízio premium según la oferta vigente. Lo recomendaría para pareja, familia o amigos que quieren cena japonesa con una ubicación fácil de combinar con paseo por la Orla.','Para quem quer sushi sem sair do circuito Bardot. Trabalha à la carte e com rodízio premium conforme a oferta vigente. Eu indicaria para casal, família ou amigos que querem jantar japonês fácil de combinar com passeio pela Orla.','For travellers who want sushi without leaving the Bardot circuit. It offers à la carte service and a premium all-you-can-eat format depending on the current offer. I would suggest it for couples, families or friends combining Japanese food with an Orla walk.'),
+        'Orla Bardot',
+        A(
+          item(T('Qué mirar','O que observar','What to look for'),T('Compara à la carte con rodízio antes de sentarte: si comen poco o quieren platos específicos, el formato libre no siempre es la mejor compra.','Compare à la carte e rodízio antes de sentar: se comem pouco ou querem peças específicas, o formato livre nem sempre é a melhor compra.','Compare à la carte with the all-you-can-eat option before sitting down. If you eat lightly or want specific pieces, unlimited service is not always the best value.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Con sushi soy exigente con rotación y frescura: mira movimiento de la casa, conservación y lo que realmente sale de cocina esa noche, no solo fotos antiguas del Instagram.','Com sushi eu sou exigente com giro e frescor: observe movimento da casa, conservação e o que realmente está saindo da cozinha naquela noite, não só fotos antigas do Instagram.','With sushi I care about turnover and freshness: look at how busy the venue is, storage and what is actually coming out of the kitchen that night, not just old Instagram photos.')),
+          item(T('Dirección','Endereço','Address'),T('Av. José Bento Ribeiro Dantas, 500 · Centro / Orla Bardot','Av. José Bento Ribeiro Dantas, 500 · Centro / Orla Bardot','Av. José Bento Ribeiro Dantas, 500 · Centro / Orla Bardot'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Sushi+Bardot+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522988097552'}
+        )
+      ),
+      venue(
+        T('Rocka · Praia Brava con comida como protagonista','Rocka · Praia Brava com a comida como protagonista','Rocka · Praia Brava with food at the centre'),
+        T('Restaurante y beach lounge directamente en Praia Brava, con propuesta mediterránea, coctelería y almuerzo frente al mar. Para mí entra más como experiencia de comida y playa que como “club de fiesta”: vas por el escenario, el servicio y el tiempo largo junto al mar.','Restaurante e beach lounge diretamente na Praia Brava, com proposta mediterrânea, coquetelaria e almoço de frente para o mar. Para mim entra mais como experiência de comida e praia do que como “club de festa”: você vai pelo cenário, serviço e tempo longo junto ao mar.','A restaurant and beach lounge directly on Praia Brava, with Mediterranean food, cocktails and lunch by the sea. I see it more as a food-and-beach experience than a party club: go for the setting, service and a long stretch by the water.'),
+        'Brava',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Pareja, almuerzo largo, ocasión especial y quien quiere quedarse en Praia Brava sin bajar al Centro a comer.','Casal, almoço longo, ocasião especial e quem quer ficar na Praia Brava sem descer ao Centro para comer.','Couples, long lunches, special occasions and travellers who want to stay at Praia Brava rather than head into town for food.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Reserva tiempo de verdad. Llegar, comer y salir corriendo le quita sentido a una casa de playa de este perfil.','Reserve tempo de verdade. Chegar, comer e sair correndo tira o sentido de uma casa de praia desse perfil.','Give it real time. Arriving, eating and rushing away defeats the point of this kind of beach restaurant.')),
+          item(T('Dirección','Endereço','Address'),T('Rua da Praia, 13 · Praia Brava','Rua da Praia, 13 · Praia Brava','Rua da Praia, 13 · Praia Brava'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Rocka+Restaurant+Beach+Lounge+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226236159'}
+        )
+      ),
+      venue(
+        T('Fishbone · Geribá, playa y ambiente','Fishbone · Geribá, praia e ambiente','Fishbone · Geribá beach atmosphere'),
+        T('Uno de los nombres históricos asociados a Geribá. Funciona como punto de playa, comida, drinks y ambiente, y el propio destino lo identifica como uno de los beach clubs más conocidos de la ciudad. La programación cambia, así que no prometo música o fiesta sin revisar la fecha.','Um dos nomes históricos ligados a Geribá. Funciona como ponto de praia, comida, drinks e ambiente, e o próprio destino o identifica como um dos beach clubs mais conhecidos da cidade. A programação muda, então não prometo música ou festa sem conferir a data.','One of the names historically associated with Geribá. It works as a beach stop for food, drinks and atmosphere, and the destination itself identifies it as one of Búzios’ best-known beach clubs. Programming changes, so I do not promise music or parties without checking the date.'),
+        'Geribá',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Día de Geribá que quieres prolongar sin cambiar de barrio; grupos y viajeros que prefieren playa activa a cala tranquila.','Dia de Geribá que você quer prolongar sem trocar de bairro; grupos e viajantes que preferem praia ativa a enseada tranquila.','A Geribá day you want to extend without changing neighbourhoods; groups and travellers who prefer an active beach over a quiet cove.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('No llegues esperando discoteca porque viste un video de otro fin de semana. Confirma agenda, consumo y formato del día; Geribá cambia mucho según temporada y evento.','Não chegue esperando balada porque viu vídeo de outro fim de semana. Confirme agenda, consumo e formato do dia; Geribá muda bastante conforme temporada e evento.','Do not arrive expecting a nightclub because you saw a video from another weekend. Check the programme, spending conditions and the day’s format; Geribá changes a lot by season and event.')),
+          item(T('Dirección','Endereço','Address'),T('Rua Gerbert Périssé, 1196 · Geribá','Rua Gerbert Périssé, 1196 · Geribá','Rua Gerbert Périssé, 1196 · Geribá'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Fishbone+Buzios+Geriba'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522998525440'}
+        )
+      ),
+      venue(
+        T('Silk Beach Club · Brava más sofisticada','Silk Beach Club · Brava mais sofisticada','Silk Beach Club · a more polished Brava'),
+        T('Beach club en Praia Brava con lounges, restaurante, bar y eventos. Aquí el objetivo no es solo comer: pagas también por ambiente, ubicación y formato de club. Puede ser espectacular para quien busca ese perfil y completamente innecesario para quien solo quiere una buena playa.','Beach club na Praia Brava com lounges, restaurante, bar e eventos. Aqui o objetivo não é só comer: você paga também por ambiente, localização e formato de club. Pode ser ótimo para quem busca esse perfil e totalmente desnecessário para quem só quer uma boa praia.','A Praia Brava beach club with lounges, restaurant, bar and events. The point is not only the meal: you are also paying for atmosphere, location and the club format. It can be excellent for travellers who want that profile and unnecessary for anyone simply looking for a good beach.'),
+        'Brava',
+        A(
+          item(T('Antes de ir','Antes de ir','Before going'),T('Confirma reserva, evento, política de consumo y qué área estás contratando. Un día normal de beach club y una fecha especial pueden ser experiencias y precios totalmente distintos.','Confirme reserva, evento, política de consumo e qual área está contratando. Um dia comum de beach club e uma data especial podem ter experiências e preços totalmente diferentes.','Confirm bookings, events, spending policy and which area you are reserving. A normal beach-club day and a special event can have completely different experiences and prices.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('No lo vendería como “la mejor playa de Búzios”. Es un producto de ambiente sobre Praia Brava; primero decide si quieres club o playa.','Eu não venderia como “a melhor praia de Búzios”. É um produto de ambiente sobre a Praia Brava; primeiro decida se você quer club ou praia.','I would not sell it as “Búzios’ best beach”. It is an atmosphere-led product on Praia Brava; first decide whether you want a club or simply a beach.')),
+          item(T('Dirección','Endereço','Address'),T('Lote 14 · Rua Dezessete · Praia Brava','Lote 14 · Rua Dezessete · Praia Brava','Lot 14 · Rua Dezessete · Praia Brava'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Silk+Beach+Club+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522999728191'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/silkbeachclubbuzios/'}
+        )
+      ),
+      venue(
+        T('Buda Beach · música y comida en la Orla','Buda Beach · música e comida na Orla','Buda Beach · music and food on the Orla'),
+        T('Casa grande sobre Orla Bardot que mezcla restaurante, drinks y entretenimiento. Es para quien quiere cenar en un lugar visual y animado sin separar demasiado “comida” de “salida”.','Casa grande na Orla Bardot que mistura restaurante, drinks e entretenimento. É para quem quer jantar num lugar visual e animado sem separar demais “comida” de “saída”.','A large venue on Orla Bardot mixing restaurant service, drinks and entertainment. It suits travellers who want a lively, visual dinner without drawing a hard line between eating and going out.'),
+        'Orla Bardot',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Grupos, primera noche en Búzios y quien quiere movimiento sin entrar directamente a una discoteca.','Grupos, primeira noite em Búzios e quem quer movimento sem entrar diretamente numa boate.','Groups, a first night in Búzios and anyone wanting energy without going straight into a nightclub.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Mira la programación del día. Un local con escenario cambia completamente cuando hay show, evento o noche tranquila.','Veja a programação do dia. Um local com palco muda completamente quando há show, evento ou noite tranquila.','Check the day’s programme. A venue with a stage feels completely different during a show, an event or a quiet night.')),
+          item(T('Dirección','Endereço','Address'),T('Av. José Bento Ribeiro Dantas, 534 · Orla Bardot','Av. José Bento Ribeiro Dantas, 534 · Orla Bardot','Av. José Bento Ribeiro Dantas, 534 · Orla Bardot'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Buda+Beach+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522999274728'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/budabeachbuzios/'},
+          {label:T('Web','Site','Website'),href:'https://www.budabeachbrasil.com.br/'}
+        )
+      ),
+      venue(
+        T('Anexo Praia · drinks y cena en Manguinhos','Anexo Praia · drinks e jantar em Manguinhos','Anexo Praia · drinks and dinner in Manguinhos'),
+        T('Gastrobar en Porto da Barra para combinar sunset, bebidas y comida sin salir de Manguinhos. Encaja mejor como fin de tarde que como destino al que llegar muy tarde solo para cenar.','Gastrobar no Porto da Barra para combinar sunset, bebidas e comida sem sair de Manguinhos. Funciona melhor como fim de tarde do que como destino para chegar muito tarde apenas para jantar.','A Porto da Barra gastrobar for combining sunset, drinks and food without leaving Manguinhos. It works better as a late-afternoon plan than as somewhere to arrive very late only for dinner.'),
+        'Porto da Barra',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Pareja informal, grupos pequeños y quien quiere hacer sunset + drinks + cena en un solo lugar.','Casal informal, grupos pequenos e quem quer fazer sunset + drinks + jantar no mesmo lugar.','Casual couples, small groups and anyone wanting sunset + drinks + dinner in one place.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('La mejor logística es llegar con luz. Si apareces cuando ya está oscuro, pierdes una parte importante de por qué Porto da Barra funciona.','A melhor logística é chegar com luz. Se você chega quando já está escuro, perde parte importante do motivo pelo qual o Porto da Barra funciona.','The best logistics are to arrive while it is still light. If you turn up after dark, you miss a large part of why Porto da Barra works.')),
+          item(T('Dirección','Endereço','Address'),T('Porto da Barra · Av. José Bento Ribeiro Dantas, 2900 · loja 28','Porto da Barra · Av. José Bento Ribeiro Dantas, 2900 · loja 28','Porto da Barra · Av. José Bento Ribeiro Dantas, 2900 · unit 28'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Anexo+Praia+Buzios+Porto+da+Barra'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522997084990'}
+        )
+      ),
+      venue(
+        T('Privilège · cuando quieres pista de verdad','Privilège · quando você quer pista de verdade','Privilège · when you actually want a nightclub'),
+        T('La referencia clásica de club nocturno en Búzios. Aquí sí estamos hablando de pista, DJs y noche que puede terminar tarde, no de bar con música de fondo. La agenda manda: una fecha fuerte y una noche sin evento no son la misma experiencia.','A referência clássica de club noturno em Búzios. Aqui estamos falando de pista, DJs e noite que pode terminar tarde, não de bar com música ambiente. A agenda manda: data forte e noite sem evento não são a mesma experiência.','The classic nightclub reference in Búzios. This means a proper dance floor, DJs and a late night, not a bar with background music. The programme matters: a major event night and a quiet date are not the same experience.'),
+        'Orla Bardot',
+        A(
+          item(T('Antes de ir','Antes de ir','Before going'),T('Revisa evento, entrada, edad mínima, lista, horario de apertura y regreso. No dependas de encontrar transporte improvisado al salir.','Confira evento, entrada, idade mínima, lista, horário de abertura e volta. Não dependa de encontrar transporte improvisado na saída.','Check the event, admission, minimum age, guest list, opening time and return plan. Do not rely on finding transport spontaneously when leaving.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Si vas a bailar, resuelve el regreso antes de entrar. Es la diferencia entre terminar una buena noche tranquilo o pasar la última hora mirando el celular.','Se vai dançar, resolva a volta antes de entrar. É a diferença entre terminar uma boa noite tranquilo ou passar a última hora olhando o celular.','If you are going dancing, sort out the return before you enter. It is the difference between ending a good night calmly and spending the last hour staring at your phone.')),
+          item(T('Dirección','Endereço','Address'),T('Av. José Bento Ribeiro Dantas, 550 · Centro','Av. José Bento Ribeiro Dantas, 550 · Centro','Av. José Bento Ribeiro Dantas, 550 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Privilege+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226235472'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/privilegebuzios/'},
+          {label:T('Web','Site','Website'),href:'https://www.privilegebrasil.com/'}
+        )
+      ),
+      venue(
+        T('Mr. Brad · comida, drinks y música','Mr. Brad · comida, drinks e música','Mr. Brad · food, drinks and music'),
+        T('Una opción híbrida del Centro para quien no quiere elegir entre restaurante y salida: cocina de inspiración mexicana, bar y música en una misma parada. La programación debe verificarse porque el componente musical puede cambiar según el día.','Opção híbrida no Centro para quem não quer escolher entre restaurante e saída: cozinha de inspiração mexicana, bar e música no mesmo lugar. A programação deve ser conferida porque o componente musical pode mudar conforme o dia.','A hybrid central option for travellers who do not want to choose between dinner and going out: Mexican-inspired food, a bar and music in one stop. Check the programme because the musical side can vary by day.'),
+        'Orla Bardot',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Grupos, noche informal y quien quiere seguir en el Centro sin cambiar de local después de comer.','Grupos, noite informal e quem quer continuar no Centro sem trocar de lugar depois de comer.','Groups, an informal night and anyone who wants to stay in the centre without changing venue after eating.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Úsalo cuando el grupo tiene energías distintas: algunos quieren comer, otros beber y otros escuchar música. Un lugar híbrido puede evitar dividir la noche.','Use quando o grupo está com energias diferentes: alguns querem comer, outros beber e outros ouvir música. Um lugar híbrido pode evitar dividir a noite.','Use it when the group has mixed energy: some want food, others drinks and others music. A hybrid venue can keep the night together.')),
+          item(T('Dirección','Endereço','Address'),T('Rua Manoel Turíbio de Farias, 223 · Centro','Rua Manoel Turíbio de Farias, 223 · Centro','Rua Manoel Turíbio de Farias, 223 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Mr+Brad+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226236641'}
+        )
+      ),
+      venue(
+        T('The Cake Dreams · café y pausa dulce','The Cake Dreams · café e pausa doce','The Cake Dreams · coffee and a sweet break'),
+        T('Café y pastelería muy cerca de Rua das Pedras, útil para una pausa de tarde, postre o merienda sin convertir todo el día en almuerzo y cena. Tiene café, tortas, postres, sándwiches y salados.','Café e confeitaria perto da Rua das Pedras, útil para pausa da tarde, sobremesa ou lanche sem transformar todo o dia em almoço e jantar. Tem café, bolos, sobremesas, sanduíches e salgados.','A café and cake shop near Rua das Pedras, useful for an afternoon break, dessert or snack without turning the whole day into lunch and dinner. It serves coffee, cakes, desserts, sandwiches and savoury snacks.'),
+        'Orla Bardot',
+        A(
+          item(T('Perfil','Perfil','Best for'),T('Merienda, familia, lluvia corta o cuando necesitas sentarte un rato sin hacer una comida completa.','Lanche, família, chuva curta ou quando você precisa sentar um pouco sem fazer refeição completa.','Afternoon snack, families, a short rain break or when you need to sit down without having a full meal.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Una guía gastronómica buena también tiene que decirte dónde parar entre comidas. A veces un café a tiempo evita terminar cenando demasiado temprano solo por cansancio.','Um bom guia gastronômico também precisa dizer onde parar entre refeições. Às vezes um café na hora certa evita jantar cedo demais só por cansaço.','A good food guide also needs to tell you where to stop between meals. Sometimes a well-timed coffee prevents you from having dinner far too early just because you are tired.')),
+          item(T('Dirección','Endereço','Address'),T('Rua Manoel José de Carvalho, 50 · Centro','Rua Manoel José de Carvalho, 50 · Centro','Rua Manoel José de Carvalho, 50 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=The+Cake+Dreams+Buzios'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+5522998956040'}
+        )
+      )
+    )
+  )
+);
+
 PAGES['/destinos/buzios/consejos/'].sections.splice(1,0,section(T('El año cambia el ritmo de Búzios','O ano muda o ritmo de Búzios','The year changes Búzios’ rhythm'),T('Además del clima, revisa vacaciones, feriados y eventos. El día de la semana puede cambiar tanto el viaje como la estación.','Além do clima, confira férias, feriados e eventos. O dia da semana pode mudar a viagem tanto quanto a estação.','Alongside weather, check holidays and events. The day of the week can change a trip as much as the season.'),A(
  item(T('Verano','Verão','Summer'),T('De diciembre a marzo, organiza la estadía pensando en calor, protección solar y períodos de vacaciones. Planifica sombra y agua, y deja margen para tránsito y cambios de tiempo. Las salidas por mar dependen de la operación confirmada, no de que el calendario diga verano.','De dezembro a março, planeje calor, proteção solar e períodos de férias. Inclua sombra e água, com margem para trânsito e mudanças do tempo. Passeios no mar dependem da operação confirmada, não apenas da estação.','From December to March, plan for heat, sun protection and holiday periods. Include shade and water, allowing for traffic and weather changes. Boat trips depend on confirmed operations rather than the summer label.')),
  item(T('Otoño','Outono','Autumn'),T('De marzo a junio, compara fechas concretas en vez de asumir baja temporada continua. Feriados y fines de semana pueden concentrar movimiento. Una capa ligera ayuda a adaptar playa, paseo y cena; revisa el pronóstico cerca del viaje y conserva una alternativa si cambia el mar.','De março a junho, compare datas em vez de presumir baixa temporada contínua. Feriados e fins de semana podem concentrar movimento. Agasalho leve ajuda entre praia, passeio e jantar; confira a previsão e mantenha alternativa se o mar mudar.','From March to June, compare dates rather than assuming uninterrupted low season. Holidays and weekends can bring crowds. A light layer helps between beach, walks and dinner; check the forecast and keep an alternative if sea conditions change.')),
