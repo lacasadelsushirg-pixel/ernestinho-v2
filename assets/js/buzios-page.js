@@ -529,7 +529,7 @@ function shortCopy(text,max=152){const clean=String(text||'').trim();const first
 function whatsapp(text){return 'https://wa.me/5521969946938?text='+encodeURIComponent(text);}
 function editorialDetails(it,lang){
  const detail=it.details?`<dl class="bz-editorial-details">${it.details.map(d=>`<dt>${esc(value(d.title,lang))}</dt><dd>${esc(value(d.text,lang))}</dd>`).join('')}</dl>`:'';
- const slot=it.visualSlot?`<div class="bz-visual-slot" data-beach="${esc(it.visualSlot)}" aria-label="${esc(T('Espacio visual de ','Espaço visual de ','Visual area for ')[lang]+it.visualSlot)}">${esc(T('Galería complementaria en preparación.','Galeria complementar em preparação.','Additional gallery in preparation.')[lang])}</div>`:'';
+ const slot='';
  return detail+slot;
 }
 function editorialMatrix(matrix,lang){if(!matrix)return '';const copy={ES:{profile:'Perfil y playa cercana',more:'Ver los 18 criterios',all:'12 zonas · 18 dimensiones'},PT:{profile:'Perfil e praia próxima',more:'Ver os 18 critérios',all:'12 regiões · 18 dimensões'},EN:{profile:'Best fit and nearby beach',more:'See all 18 criteria',all:'12 areas · 18 dimensions'}}[lang];return `<div class="bz-zone-atlas" aria-label="${esc(copy.all)}">${matrix.rows.map(([name,cells],i)=>`<article class="bz-zone-card"><span class="bz-card-number">${String(i+1).padStart(2,'0')}</span><h3>${esc(name)}</h3><p class="bz-zone-label">${esc(copy.profile)}</p><p>${esc(shortCopy(value(cells[0],lang),138))}</p><details><summary>${esc(copy.more)}</summary><dl>${matrix.columns.map((column,j)=>`<dt>${esc(value(column,lang))}</dt><dd>${esc(value(cells[j],lang))}</dd>`).join('')}</dl></details></article>`).join('')}</div>`;}
