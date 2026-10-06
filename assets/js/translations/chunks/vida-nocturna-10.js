@@ -247,13 +247,13 @@ export default {
     "PT": "Bosque Bar · foto 6",
     "EN": "Bosque Bar · photo 6"
   },
-  "24 canillas de chope registradas en Tripadvisor; la selección conectada cambia. Menú específico disponible en el canal oficial.": {
-    "PT": "24 torneiras de chope registradas no Tripadvisor; a seleção conectada muda. Cardápio específico disponível no canal oficial.",
-    "EN": "24 draught-beer taps recorded on Tripadvisor; the connected selection changes. A branch-specific menu is available through the official channel."
+  "22 canillas según la propia marca; la selección conectada cambia. Menú específico disponible en el canal oficial.": {
+    "PT": "22 torneiras segundo a própria marca; a seleção conectada muda. Cardápio específico disponível no canal oficial.",
+    "EN": "22 taps according to the brand; the connected selection changes. A branch-specific menu is available through the official channel."
   },
-  "24 canillas de chope, petiscos, sándwiches y platos": {
-    "PT": "24 torneiras de chope, petiscos, sanduíches e pratos",
-    "EN": "24 draught-beer taps, snacks, sandwiches and dishes"
+  "22 canillas de chope, petiscos, sándwiches y platos": {
+    "PT": "22 torneiras de chope, petiscos, sanduíches e pratos",
+    "EN": "22 draught-beer taps, snacks, sandwiches and dishes"
   },
   "Cerveza artesanal · Terraza · Botafogo": {
     "PT": "Cerveja artesanal · Terraço · Botafogo",
@@ -287,9 +287,9 @@ export default {
     "PT": "O cardápio da unidade e seus canais oficiais reúnem a oferta de cervejas, comidas e reservas. A casa trabalha uma proposta de pub e boteco, com chopes variados e comida para acompanhar. Abra o cardápio pelo link do Brew Botafogo, em vez de um genérico da rede: cada unidade pode ter opções próprias.",
     "EN": "The branch menu and official channels bring together beers, food and bookings. The venue combines a pub and Brazilian bar concept, with varied draught beers and accompanying food. Open the menu linked from Brew Botafogo instead of a generic chain menu: each branch may have its own options."
   },
-  "Este Brewteco no se siente como una sucursal de calle: está en el terraço del Botafogo Praia Shopping, frente a la bahía. Tripadvisor registra 24 canillas de chope y la ubicación como una de las razones principales para ir. Desde las mesas exteriores la postal mira hacia la Enseada de Botafogo y el Pão de Açúcar; para mí, la mejor combinación es llegar con luz y ver cómo cambia el paisaje al anochecer.": {
-    "PT": "Este Brewteco não parece uma unidade de rua: fica no terraço do Botafogo Praia Shopping, em frente à baía. O Tripadvisor registra 24 torneiras de chope e a localização como uma das principais razões para ir. Das mesas externas, a vista se abre para a Enseada de Botafogo e o Pão de Açúcar; para mim, a melhor combinação é chegar com luz e ver a paisagem mudar ao anoitecer.",
-    "EN": "This Brewteco does not feel like a street-level branch: it is on Botafogo Praia Shopping’s terrace facing the bay. Tripadvisor records 24 draught-beer taps and the location as a main reason to visit. Outdoor tables look towards Enseada de Botafogo and Sugarloaf Mountain; for me, the best combination is arriving in daylight and watching the landscape change at dusk."
+  "Este Brewteco no se siente como una sucursal de calle: está en la terraza del Botafogo Praia Shopping, frente a la bahía. La propia marca presenta Brew Botafogo como su postal y menciona 22 canillas de chope; la selección conectada cambia, así que revisa las opciones actuales antes de elegir. Desde las mesas exteriores la postal mira hacia la Enseada de Botafogo y el Pão de Açúcar; para mí, la mejor combinación es llegar con luz y ver cómo cambia el paisaje al anochecer.": {
+    "PT": "Este Brewteco não parece uma unidade de rua: fica no terraço do Botafogo Praia Shopping, em frente à baía. A própria marca apresenta o Brew Botafogo como seu cartão-postal e menciona 22 torneiras de chope; a seleção conectada muda, então confira as opções atuais antes de escolher. Das mesas externas, a vista se abre para a Enseada de Botafogo e o Pão de Açúcar; para mim, a melhor combinação é chegar com luz e ver a paisagem mudar ao anoitecer.",
+    "EN": "This Brewteco feels different from a street-level branch: it is on Botafogo Praia Shopping’s terrace facing the bay. The brand presents Brew Botafogo as its postcard venue and mentions 22 draught-beer taps; the connected selection changes, so check the current options before choosing. Outdoor tables look towards Enseada de Botafogo and Sugarloaf Mountain; for me, the best combination is arriving in daylight and watching the landscape change at dusk."
   },
   "Horario y reservas": {
     "PT": "Horário e reservas",
@@ -307,6 +307,10 @@ export default {
     "PT": "O terraço ganha quando o tempo ajuda. Se você vai pela panorâmica, pergunte se há mesa externa disponível e tenha um plano alternativo caso chova ou vente. Para tirar fotos sem comprometer a noite toda, alguns fazem uma visita breve; para jantar, reserve e confira o cardápio da unidade.",
     "EN": "The terrace is at its best in good weather. If you go for the panorama, ask whether an outdoor table is available and have an alternative plan for rain or wind. Some people make a brief visit for photos without committing the whole evening; for dinner, book and check the branch menu."
   },
+  "La unidad publica DJ los domingos (16:00–21:00), de lunes a miércoles (17:00–22:00) y samba los jueves (18:30–21:30), con DJ alrededor de la presentación. Si piensas ir viernes o sábado, o quieres asistir a la samba, confirma la agenda, apertura y cierre directamente con el local: la programación puede variar por fecha.": {
+    "PT": "A unidade anuncia DJ aos domingos (16h–21h), de segunda a quarta (17h–22h) e samba às quintas (18h30–21h30), com DJs na programação em torno da apresentação. Se pretende ir na sexta ou no sábado, ou quer assistir ao samba, confirme a agenda, a abertura e o fechamento diretamente com a casa: a programação pode variar conforme a data.",
+    "EN": "The branch lists DJs on Sundays (4–9 pm), Monday to Wednesday (5–10 pm), and samba on Thursdays (6:30–9:30 pm), with DJs around the performance. If you plan to visit on Friday or Saturday, or want to attend the samba, confirm the programme, opening and closing times directly with the venue: the schedule may vary by date."
+  },
   "La vista forma parte de la salida": {
     "PT": "A vista faz parte da saída",
     "EN": "The view is part of the outing"
@@ -315,7 +319,7 @@ export default {
     "PT": "As opiniões também apontam limites: alguns clientes consideram o preço alto para a qualidade de certos pratos e mencionam demora quando o local está cheio. Comentários de 2025–2026 incluem visitas muito boas e experiências irregulares com buffet e atendimento. Eu não transformaria uma avaliação em regra; a usaria para ajustar expectativas e reservar se a prioridade for uma mesa com vista.",
     "EN": "Reviews also highlight limitations: some customers consider prices high for the quality of certain dishes and mention delays when it is busy. Comments from 2025–2026 include both very good visits and inconsistent buffet and service experiences. I would not turn one review into a rule; I would use it to adjust expectations and book if securing a table with a view is the priority."
   },
-  "Praia de Botafogo, 400 · loja 900 · terraço del shopping": {
+  "Praia de Botafogo, 400 · loja 900 · terraza del shopping": {
     "PT": "Praia de Botafogo, 400 · loja 900 · terraço do shopping",
     "EN": "Praia de Botafogo, 400 · unit 900 · shopping-centre terrace"
   },
@@ -327,7 +331,7 @@ export default {
     "PT": "Se a vista faz parte do seu programa, reserve ou chegue cedo e peça mesa no terraço. Em uma noite cheia, eu não presumiria que haverá lugar fora; se for pedir várias cervejas, confira as opções do dia nas torneiras conectadas.",
     "EN": "If the view is part of your plan, book or arrive early and request a terrace table. On a busy evening I would not assume outdoor space will be available; if you plan to order several beers, check the day’s options on the connected taps."
   },
-  "Subo al terraço del Botafogo Praia Shopping por la vista de la bahía y el Pão de Açúcar; me quedo por las canillas de chope y el formato de boteco.": {
+  "Subo a la terraza del Botafogo Praia Shopping por la vista de la bahía y el Pão de Açúcar; me quedo por las canillas de chope y el formato de boteco.": {
     "PT": "Subo ao terraço do Botafogo Praia Shopping pela vista da baía e do Pão de Açúcar; fico pelas torneiras de chope e pelo formato de boteco.",
     "EN": "I head up to Botafogo Praia Shopping’s terrace for the bay and Sugarloaf views; I stay for the draught-beer taps and Brazilian bar format."
   },
@@ -335,13 +339,13 @@ export default {
     "PT": "Terraço com vista para a Enseada de Botafogo e o Pão de Açúcar",
     "EN": "Terrace overlooking Enseada de Botafogo and Sugarloaf Mountain"
   },
-  "Terraço del Botafogo Praia Shopping": {
+  "Terraza del Botafogo Praia Shopping": {
     "PT": "Terraço do Botafogo Praia Shopping",
     "EN": "Botafogo Praia Shopping terrace"
   },
-  "Un bar de cerveza artesanal en el terraço del Botafogo Praia Shopping: 24 canillas, vista a la bahía y una experiencia con pros y contras.": {
-    "PT": "Um bar de cerveja artesanal no terraço do Botafogo Praia Shopping: 24 torneiras, vista para a baía e uma experiência com prós e contras.",
-    "EN": "A craft-beer bar on Botafogo Praia Shopping’s terrace: 24 taps, bay views and an experience with pros and cons."
+  "Un bar de cerveza artesanal en la terraza del Botafogo Praia Shopping: 22 canillas de chope, vista a la bahía y una experiencia con pros y contras.": {
+    "PT": "Um bar de cerveja artesanal no terraço do Botafogo Praia Shopping: 22 torneiras de chope, vista para a baía e uma experiência com prós e contras.",
+    "EN": "A craft-beer bar on Botafogo Praia Shopping’s terrace: 22 draught-beer taps, bay views and an experience with pros and cons."
   },
   "Yo lo elegiría si el grupo disfruta probar estilos distintos de cerveza y quiere una mesa amplia con vista. En reseñas recientes aparecen referencias positivas a la variedad de chopes, sándwiches, petiscos y porciones bien servidas. Es un formato práctico para almorzar, hacer una parada después del shopping o empezar la noche sin salir todavía al circuito de bares.": {
     "PT": "Eu o escolheria se o grupo gosta de provar estilos diferentes de cerveja e quer mesa ampla com vista. Avaliações recentes elogiam a variedade de chopes, sanduíches, petiscos e porções bem servidas. É um formato prático para almoçar, parar depois do shopping ou começar a noite sem entrar ainda no circuito de bares.",
@@ -382,5 +386,13 @@ export default {
   "Brewteco Botafogo · foto 7": {
     "PT": "Brewteco Botafogo · foto 7",
     "EN": "Brewteco Botafogo · photo 7"
-  }
+  },
+  "El FAQ oficial fija clasificación de 18 años: no entran menores, aunque vayan con sus padres. También prohíbe mochilas, chanclas, camisetas sin mangas y camisetas de fútbol. Pasada la hora de cierre de puertas no se admite el ingreso, ni siquiera con entrada anticipada; si se alcanza el aforo máximo antes, la casa puede cerrar las puertas para quienes no compraron ticket. Lleva documento, viaja ligero y confirma las reglas de tu evento.": {
+    "PT": "O FAQ oficial estabelece classificação etária de 18 anos: menores não entram, mesmo acompanhados pelos pais. Também proíbe mochilas, chinelos, camisetas sem mangas e camisas de time. Depois do horário de fechamento das portas, não é permitida a entrada, nem mesmo com ingresso antecipado; se a lotação máxima for atingida antes, a casa pode fechar as portas para quem não comprou ingresso. Leve um documento, carregue pouca coisa e confirme as regras do seu evento.",
+    "EN": "The official FAQ sets an 18+ age rating: under-18s are not admitted, even with a parent. It also bans backpacks, flip-flops, sleeveless tops and football shirts. After the door-closing time, entry is not allowed even with an advance ticket; if the venue reaches capacity earlier, it may close the doors to anyone without a ticket. Bring ID, travel light and confirm the rules for your event."
+  },
+  "Consulta el FAQ oficial para revisar las reglas vigentes.": {
+    "PT": "Consulte o FAQ oficial para conferir as regras vigentes.",
+    "EN": "Check the official FAQ for the current rules."
+  },
 };

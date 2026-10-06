@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://www.rockinrio.com/rio/pt-br/novidade/7-dias-gigantes-na-cidade-do-rock/",
+    "label": "Rock in Rio · balanço oficial da edição de 2026",
+    "checked": "2026-10-05",
+    "routes": [
+      "/eventos/"
+    ],
+    "use": "Confirma que a edição 2026 terminou após sete dias e anuncia retorno em 2028; consultar para corrigir status e distinguir arquivo de calendário futuro.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://rockinrio.com/rio/pt-br/line-up/",
+    "label": "Rock in Rio · line-up oficial 2026",
+    "checked": "2026-10-05",
+    "routes": [
+      "/eventos/"
+    ],
+    "use": "Referência oficial para as datas da edição de 2026 e arquivo do line-up; verificar novas datas no futuro.",
+    "imageReusePermission": false
+  }
+]

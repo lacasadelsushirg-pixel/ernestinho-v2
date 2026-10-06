@@ -526,5 +526,9 @@ export default {
   "Mapa de Sítio Roberto Burle Marx": {
     "PT": "Mapa de Sítio Roberto Burle Marx",
     "EN": "Map of Sítio Roberto Burle Marx"
-  }
+  },
+  "Con bebé o cochecito, yo confirmaría antes si el lugar tiene acceso cómodo, baño y espacio para una pausa; no asumiría que todos los edificios o trayectos ofrecen lo mismo. Si hay alerta oficial, lluvia fuerte o calles anegadas, dejaría la visita para otro día y seguiría las indicaciones locales.": {
+    "PT": "Com bebê ou carrinho, eu confirmaria antes se o local tem acesso confortável, banheiro e espaço para uma pausa; não presumiria que todos os edifícios ou trajetos oferecem as mesmas condições. Se houver alerta oficial, chuva forte ou ruas alagadas, deixaria a visita para outro dia e seguiria as orientações locais.",
+    "EN": "With a baby or stroller, I would first check whether the venue has easy access, a restroom, and space for a break; I would not assume every building or route offers the same conditions. If there is an official alert, heavy rain, or flooded streets, I would postpone the visit and follow local guidance."
+  },
 };

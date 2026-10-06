@@ -2858,5 +2858,41 @@ export default {
   "Rock in Rio en Río de Janeiro": {
     "PT": "Rock in Rio no Rio de Janeiro",
     "EN": "Rock in Rio in Rio de Janeiro"
-  }
+  },
+  "Edición 2026 finalizada · próxima en 2028": {
+    "PT": "Edição de 2026 encerrada · próxima em 2028",
+    "EN": "2026 edition concluded · next in 2028"
+  },
+  "2026: 4–7 y 11–13 de septiembre · próxima edición en 2028, fechas por anunciar": {
+    "PT": "2026: 4–7 e 11–13 de setembro · próxima edição em 2028, datas a anunciar",
+    "EN": "2026: September 4–7 and 11–13 · next edition in 2028, dates to be announced"
+  },
+  "La edición 2026 terminó tras siete jornadas en la Cidade do Rock. Rock in Rio anunció su regreso en 2028; las próximas fechas aún están por anunciar.": {
+    "PT": "A edição de 2026 terminou após sete dias na Cidade do Rock. O Rock in Rio anunciou seu retorno em 2028; as próximas datas ainda serão divulgadas.",
+    "EN": "The 2026 edition ended after seven days at Cidade do Rock. Rock in Rio announced its return in 2028; the dates have not yet been announced."
+  },
+  "La edición de 2026 ya terminó; esta ficha conserva su información como referencia. Para la próxima, yo no organizaría el día sólo por artistas: la Cidade do Rock es enorme y el regreso exige planificación. Rock in Rio anunció que vuelve en 2028, pero todavía faltan fechas y operación; cuando se publiquen, confirma horarios, transporte, accesos y reglas en el canal oficial.": {
+    "PT": "A edição de 2026 já terminou; esta ficha conserva as informações como referência. Na próxima, eu não organizaria o dia só pelos artistas: a Cidade do Rock é enorme e a volta exige planejamento. O Rock in Rio anunciou seu retorno em 2028, mas ainda faltam datas e detalhes da operação; quando forem divulgados, confirme horários, transporte, acessos e regras no canal oficial.",
+    "EN": "The 2026 edition has ended; this listing keeps its details for reference. For the next one, I would plan around more than the artists: Cidade do Rock is huge and getting back takes planning. Rock in Rio announced its return in 2028, but dates and operating details are still pending; once published, confirm times, transport, access and rules through official channels."
+  },
+  "Edición 2026 realizada del 4 al 13 de septiembre": {
+    "PT": "Edição de 2026 realizada de 4 a 13 de setembro",
+    "EN": "2026 edition held September 4–13"
+  },
+  "Siete jornadas en la Cidade do Rock": {
+    "PT": "Sete dias na Cidade do Rock",
+    "EN": "Seven days at Cidade do Rock"
+  },
+  "Próxima edición anunciada para 2028 · fechas pendientes": {
+    "PT": "Próxima edição anunciada para 2028 · datas pendentes",
+    "EN": "Next edition announced for 2028 · dates pending"
+  },
+  "Revisar el canal oficial cuando se abra la nueva edición": {
+    "PT": "Confira o canal oficial quando a nova edição for aberta",
+    "EN": "Check the official channel when the next edition opens"
+  },
+  "Última actualización editorial: 5 de octubre de 2026. Horarios, accesos, precios y programación pueden cambiar.": {
+    "PT": "Última atualização editorial: 5 de outubro de 2026. Horários, acessos, preços e programação podem mudar.",
+    "EN": "Last editorial update: October 5, 2026. Times, access routes, prices and programs may change."
+  },
 };

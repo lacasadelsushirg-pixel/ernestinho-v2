@@ -1,0 +1,184 @@
+[
+  {
+    "url": "https://www.circovoador.com.br/",
+    "label": "Circo Voador · official programme",
+    "checked": "2026-10-06",
+    "routes": [
+      "/vida-nocturna/circo-voador/"
+    ],
+    "use": "Current event listings and ticket availability; event-specific terms.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.feirasaocristovao.com/",
+    "label": "Feira de São Cristóvão · official visitor information",
+    "checked": "2026-10-06",
+    "routes": [
+      "/vida-nocturna/feira-sao-cristovao-noite/"
+    ],
+    "use": "Current opening and admission information; terms can vary by date.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.fundicaoprogresso.com.br/",
+    "label": "Fundição Progresso · official programme",
+    "checked": "2026-10-06",
+    "routes": [
+      "/vida-nocturna/fundicao-progresso/"
+    ],
+    "use": "Current programme and event-specific ticket details.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/que_fazer/lapa-40/",
+    "label": "Riotur · Lapa 40°",
+    "checked": "2026-10-06",
+    "routes": [
+      "/vida-nocturna/lapa-40-graus/"
+    ],
+    "use": "Venue identity and contact listing; event-level programme and schedule must be checked for the date.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/que_fazer/pequena-africa/",
+    "label": "Riotur · Pequena África itinerary",
+    "checked": "2026-10-06",
+    "routes": [
+      "/vida-nocturna/pedra-do-sal/"
+    ],
+    "use": "Historical and cultural context for Pedra do Sal; event details remain date-dependent.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.rioscenarium.com.br/",
+    "label": "Rio Scenarium · official programme",
+    "checked": "2026-10-06",
+    "routes": [
+      "/vida-nocturna/rio-scenarium/"
+    ],
+    "use": "Current distinction between daytime feijoada and night shows.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/en/que_fazer/trapiche-gamboa-2/",
+    "label": "Riotur · Trapiche Gamboa",
+    "checked": "2026-10-06",
+    "routes": [
+      "/vida-nocturna/trapiche-gamboa/"
+    ],
+    "use": "Venue context; event-specific schedules and age terms should be checked with the venue.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://vejario.abril.com.br/comer-e-beber/chopperia-botafogo-homenageia-braseiros-bairro/",
+    "label": "VEJA Rio · Chopperia Botafogo at the former Comuna address",
+    "checked": "2026-10-06",
+    "routes": [
+      "/vida-nocturna/comuna/",
+      "/vida-nocturna/chopperia-botafogo/"
+    ],
+    "use": "Confirms Rua Sorocaba, 585 now houses Chopperia Botafogo, which opened in late 2025 in the former Comuna building; Comuna’s page remains an archive and links to the current venue.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.tripadvisor.com.br/Restaurant_Review-g303506-d8298920-Reviews-Canastra_Bar-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html",
+    "label": "Tripadvisor · Canastra Bar recent visitor reports",
+    "checked": "2026-10-05",
+    "routes": [
+      "/vida-nocturna/canastra-bar/",
+      "/vida-nocturna/pizzaria-canastra/"
+    ],
+    "use": "Recent Jan 2026 visitor review reports the former wine bar no longer exists at this address and identifies Pizzaria Canastra as its successor; use only for venue identity/status, not hours, prices, or image reuse.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://vejario.abril.com.br/coluna/lu-lacerda/galeria-cafe-famoso-endereco-lgbt-fecha-depois-de-28-anos/",
+    "label": "VEJA Rio · Galeria Café closure after 28 years",
+    "checked": "2026-10-05",
+    "routes": [
+      "/vida-nocturna/galeria-cafe/"
+    ],
+    "use": "Reports the co-owner’s announcement on 9 February 2026 that the Ipanema venue was closing after 28 years; supports archived status and historical context, not image reuse.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/onde_comer/xepa-bar/",
+    "label": "Riotur · Xepa Bar",
+    "checked": "2026-10-05",
+    "routes": [
+      "/vida-nocturna/xepa/"
+    ],
+    "use": "Venue address, menu character and house specialties; current hours differ from some other listings, so confirm directly.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://vejario.abril.com.br/estabelecimento/xepa/",
+    "label": "VEJA Rio · Xepa listing and June 2026 price check",
+    "checked": "2026-10-05",
+    "routes": [
+      "/vida-nocturna/xepa/"
+    ],
+    "use": "Menu examples, venue listing and statement that prices were checked in June 2026; no reuse permission for images.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.barbosquebar.com/faq",
+    "label": "Bosque Bar · official FAQ and access rules",
+    "checked": "2026-10-05",
+    "routes": [
+      "/vida-nocturna/bosque-bar/"
+    ],
+    "use": "Age rating (18+), prohibited items, and door-closing/capacity rules; confirm current event terms before visiting.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.barbosquebar.com/programacao",
+    "label": "Bosque Bar · official programme and opening schedule",
+    "checked": "2026-10-05",
+    "routes": [
+      "/vida-nocturna/bosque-bar/"
+    ],
+    "use": "Venue-announced programme, Thursday-to-Sunday opening from 20:00, and address; event times and admission terms can vary.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://brewteco.com.br/brew-botafogo/",
+    "label": "Brewteco · official Brew Botafogo unit page",
+    "checked": "2026-10-05",
+    "routes": [
+      "/vida-nocturna/brewteco-botafogo/"
+    ],
+    "use": "Unit address, current programming schedule, and links to hours, menu, reservations, directions and tapped beers; verify the selected date directly with the unit.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://brewteco.com.br/07-brews-para-voce-achar-o-seu/",
+    "label": "Brewteco · official profile of Brew Botafogo and tap count",
+    "checked": "2026-10-05",
+    "routes": [
+      "/vida-nocturna/brewteco-botafogo/"
+    ],
+    "use": "Brand profile describes Brew Botafogo as a postcard location and states it has 22 draught-beer taps; live tapped selection changes.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.barcariocadagema.com.br/",
+    "label": "Carioca da Gema · official programme and operating times",
+    "checked": "2026-10-05",
+    "routes": [
+      "/vida-nocturna/carioca-da-gema/"
+    ],
+    "use": "Date-specific opening and show times, admission listing, address and table-reservation cutoff; confirm the chosen event directly.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.barcariocadagema.com.br/devolucao",
+    "label": "Carioca da Gema · official ticket refund policy",
+    "checked": "2026-10-05",
+    "routes": [
+      "/vida-nocturna/carioca-da-gema/"
+    ],
+    "use": "Cancellation requests accepted up to 24 hours before the purchased show; tickets cannot be exchanged for another date; check required details and procedure on the policy page.",
+    "imageReusePermission": false
+  }
+]

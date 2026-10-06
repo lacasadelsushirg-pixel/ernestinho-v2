@@ -1,0 +1,560 @@
+[
+  {
+    "url": "https://www.drogariavenancio.com.br/institucional/nossas-lojas",
+    "label": "Venancio · buscador de tiendas",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/servicios-practicos/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.drogariaspacheco.com.br/institucional/nossas-lojas",
+    "label": "Pacheco · buscador de tiendas",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/servicios-practicos/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.banco24horas.com.br/para-voce/encontre-um-caixa/",
+    "label": "Banco24Horas · localizador",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/servicios-practicos/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.correios.com.br/",
+    "label": "Correios · agencias y servicios",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/servicios-practicos/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.correios.com.br/atendimento/balcao-do-cidadao/achados-e-perdidos",
+    "label": "Correios · documentos encontrados",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/servicios-practicos/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.1746.rio/hc/pt-br/articles/10870740379803-Verifica%C3%A7%C3%A3o-de-achados-e-perdidos-em-t%C3%A1xis",
+    "label": "1746 · objetos olvidados en taxi",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/servicios-practicos/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.google.com/maps/search/?api=1&query=Posto%204%20Copacabana%20Rio%20de%20Janeiro",
+    "label": "Mapa · Posto 4 de Copacabana",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/playa-barracas-quiosques/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.inea.rj.gov.br/ar-agua-e-solo/balneabilidade-das-praias/",
+    "label": "INEA · estado del agua",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/playa-barracas-quiosques/",
+      "/consejos/estado-del-mar-playas/",
+      "/playas/flamengo/",
+      "/playas/barra-de-guaratiba/",
+      "/playas/pontal/",
+      "/playas/macumba/",
+      "/playas/barra-da-tijuca/",
+      "/playas/pepe/",
+      "/playas/prainha/",
+      "/playas/grumari/",
+      "/playas/praia-do-secreto/",
+      "/playas/praia-da-urca/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.inea.rj.gov.br/rio-de-janeiro/",
+    "label": "INEA · playas del municipio de Río",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/estado-del-mar-playas/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.cbmerj.rj.gov.br/bombeiros-orientam-sobre-os-perigos-de-mergulhar-em-mar-de-ressaca/",
+    "label": "CBMERJ · prevención durante ressaca",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/estado-del-mar-playas/",
+      "/playas/praia-do-secreto/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.cbmerj.rj.gov.br/corpo-de-bombeiros-rj-prepara-guarda-vidas-para-reforcar-seguranca-nas-praias-do-estado/",
+    "label": "CBMERJ · significado de las banderas",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/estado-del-mar-playas/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://cor.rio/",
+    "label": "Centro de Operações Rio · alertas",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/estado-del-mar-playas/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.gov.br/agricultura/pt-br/assuntos/vigilancia-agropecuaria/animais-estimacao/entrar-no-brasil",
+    "label": "MAPA · entrada de perros y gatos",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/mascotas-rio/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://e.camara.rj.gov.br/Arquivo/Documents/legislacao/html/L66422019.html?identificador=36003200380039003A004C00",
+    "label": "Câmara do Rio · Ley 6.642/2019",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/mascotas-rio/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.metrorio.com.br/VadeMetro/GuiaDoUsuario?p_interna=6",
+    "label": "MetrôRio · transporte de animales",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/mascotas-rio/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://trilhos.motiva.com.br/vltrio/duvidas-frequentes/",
+    "label": "VLT · preguntas frecuentes",
+    "checked": "2026-10-05",
+    "routes": [
+      "/consejos/mascotas-rio/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/editorial/praias/",
+    "label": "Riotur · acceso y litoral selvagem",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/praias-selvagens/",
+      "/playas/macumba/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/wp-content/uploads/2023/05/Rotas-Cariocas-RIO-PRAIAS.pdf",
+    "label": "Riotur · preparación de senderos",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/praias-selvagens/",
+      "/playas/perigoso/",
+      "/playas/barra-de-guaratiba/",
+      "/playas/grumari/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://ambienteclima.prefeitura.rio/wp-content/uploads/sites/81/2023/05/Plano-de-Manejo-PNM-Prainha-Grumari_compressed-1.pdf",
+    "label": "SMAC · contexto de la unidad de conservación",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/praias-selvagens/",
+      "/playas/perigoso/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.riofilmcommission.com/locacoes/praia-do-flamengo/",
+    "label": "Rio Film Commission · paisaje y ubicación",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/flamengo/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/es/que_fazer/barra-de-guaratiba-3/",
+    "label": "Riotur · Guaratiba y acceso regional",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/barra-de-guaratiba/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/es/que_fazer/recreio-dos-bandeirantes-3/",
+    "label": "Riotur · contexto de Pontal y Recreio",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/pontal/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.riofilmcommission.com/locacoes/praia-da-macumba/",
+    "label": "Rio Film Commission · piedra y conexión",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/pontal/",
+      "/playas/macumba/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/que_fazer/barra-da-tijuca/",
+    "label": "Riotur · orla y contexto de Barra",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/barra-da-tijuca/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.riofilmcommission.com/locacoes/praia-do-pepe/",
+    "label": "Rio Film Commission · identidad del Pepê",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/pepe/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/que_fazer/prainha/",
+    "label": "Riotur · Prainha",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/prainha/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://ambienteclima.prefeitura.rio/parque-nacional-municipal-da-prainha/",
+    "label": "Prefeitura · parque de Prainha",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/prainha/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/que_fazer/grumari/",
+    "label": "Riotur · Grumari",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/grumari/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://pt.linkedin.com/posts/riotur_praiasdorio-praiasrj-piscinasnaturaisrj-activity-6887027963263520769-nJxb",
+    "label": "Riotur · formación y barreras de acceso",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/praia-do-secreto/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.riofilmcommission.com/locacoes/praia-da-urca/",
+    "label": "Rio Film Commission · ubicación y entorno",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/praia-da-urca/"
+    ],
+    "use": "Editorial context; not a live-conditions, opening-hours or image-rights certification",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/que_fazer/sao-conrado/",
+    "label": "Riotur · São Conrado",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/sao-conrado/"
+    ],
+    "use": "Contexto geográfico y zona de aterrizaje de vuelos libres; disponibilidad operativa debe verificarse con proveedores y autoridades.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/que_fazer/paodeacucar/",
+    "label": "Riotur · Pão de Açúcar y Praia Vermelha",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/praia-vermelha/",
+      "/playas/botafogo/"
+    ],
+    "use": "Relación geográfica entre Praia Vermelha, Urca y la ensenada de Botafogo; no certifica servicios de playa.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.metrorio.com.br/",
+    "label": "MetrôRio · estaciones y conexiones",
+    "checked": "2026-10-05",
+    "routes": [
+      "/playas/leblon/",
+      "/playas/prainha-vidigal/",
+      "/playas/praia-vermelha/",
+      "/playas/botafogo/",
+      "/playas/sao-conrado/",
+      "/playas/praia-da-reserva/",
+      "/playas/recreio/",
+      "/playas/abrico/"
+    ],
+    "use": "Orientación de estaciones y conexiones; consultar el mapa y la operación vigentes antes de viajar.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/minc-e-iphan-apresentam-restauracao-do-palacio-gustavo-capanema-icone-da-arquitetura-modernista-brasileira-1",
+    "label": "Iphan · restauración y arquitectura del Palácio Gustavo Capanema",
+    "checked": "2026-10-05",
+    "routes": [
+      "/cultura/arquitectura/"
+    ],
+    "use": "Historia y contexto arquitectónico; horarios, apertura y visitas son dinámicos.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.gov.br/bn/pt-br/acesso-a-informacao-2/institucional/sobre-a-fbn/enderecos-e-atendimento/biblioteca-nacional-sede",
+    "label": "Fundação Biblioteca Nacional · sede histórica",
+    "checked": "2026-10-05",
+    "routes": [
+      "/cultura/arquitectura/"
+    ],
+    "use": "Contexto del edificio y localización; no garantiza acceso a todas las salas.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.gov.br/bn/pt-br/acesso-a-informacao-2/acoes-e-programas/atividades-da-bn/visita-orientada",
+    "label": "Fundação Biblioteca Nacional · visita orientada",
+    "checked": "2026-10-05",
+    "routes": [
+      "/cultura/arquitectura/"
+    ],
+    "use": "Información institucional de visitas; consultar agenda y condiciones vigentes.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://museudeartedorio.org.br/visite/horarios-e-ingresso/",
+    "label": "Museu de Arte do Rio · visita y entradas",
+    "checked": "2026-10-05",
+    "routes": [
+      "/cultura/arquitectura/",
+      "/guia/terminales/"
+    ],
+    "use": "Confirmar operación, horarios y entradas directamente antes de la visita.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://museudoamanha.org.br/visite/como-chegar",
+    "label": "Museu do Amanhã · cómo llegar",
+    "checked": "2026-10-05",
+    "routes": [
+      "/cultura/arquitectura/",
+      "/guia/terminales/"
+    ],
+    "use": "Orientación oficial de ubicación, acceso y transporte; comprobar cambios el día del viaje.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://piermaua.rio/",
+    "label": "Pier Mauá · terminal y avisos del puerto",
+    "checked": "2026-10-05",
+    "routes": [
+      "/guia/terminales/"
+    ],
+    "use": "Confirmar terminal, procedimientos, avisos y puntos operativos por navío/fecha.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://piermaua.rio/infraestrutura/",
+    "label": "Pier Mauá · infraestructura del terminal",
+    "checked": "2026-10-05",
+    "routes": [
+      "/guia/terminales/"
+    ],
+    "use": "Contexto del terminal; servicios y procedimiento deben verificarse con la naviera y puerto.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://trilhos.motiva.com.br/vltrio/linha-1---azul/parada-dos-museus/",
+    "label": "VLT Carioca · Parada dos Museus",
+    "checked": "2026-10-05",
+    "routes": [
+      "/guia/terminales/"
+    ],
+    "use": "Referencia de parada próxima a Praça Mauá; consultar operación y ruta vigentes.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.aquariomarinhodorio.com.br/duvidas/",
+    "label": "AquaRio · información y cómo llegar",
+    "checked": "2026-10-05",
+    "routes": [
+      "/guia/terminales/"
+    ],
+    "use": "Comprobar horario, entradas y acceso oficial para la fecha.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://metrorio.com.br/GuiaDoCliente/Acessibilidade",
+    "label": "MetrôRio · acessibilidade por estação",
+    "checked": "2026-10-06",
+    "routes": [
+      "/guia/accesibilidad/"
+    ],
+    "use": "Station-specific information for step-free journey planning; reconfirm availability on the day.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.gov.br/mcom/pt-br/noticias/noticias_alt/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda",
+    "label": "Ministério das Comunicações · emergency numbers",
+    "checked": "2026-10-06",
+    "routes": [
+      "/guia/emergencias/"
+    ],
+    "use": "Official distinctions between 190, 192, 193 and 199 and what information callers should provide.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.gov.br/saude/pt-br/vacinacao/viajantes",
+    "label": "Ministério da Saúde · vaccination for travellers",
+    "checked": "2026-10-06",
+    "routes": [
+      "/guia/vacunas/"
+    ],
+    "use": "Current traveller guidance; yellow-fever indication depends on recommended areas and at least 10 days before travel when indicated.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.gov.br/anatel/pt-br/regulado/numeracao/codigos-nacionais/servicos-de-utilidade-publica-e-de-emergencia",
+    "label": "Anatel · public utility and emergency numbers",
+    "checked": "2026-10-06",
+    "routes": [
+      "/guia/emergencias/"
+    ],
+    "use": "Official national emergency-number directory.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://websempre.rio.rj.gov.br/estacoes/",
+    "label": "Sistema Alerta Rio · monitoramento e alertas de chuva",
+    "checked": "2026-10-06",
+    "routes": [
+      "/familia/lluvia/"
+    ],
+    "use": "Consultar condições e alertas meteorológicos antes de deslocar a família; em chuva forte ou alerta, seguir a orientação local.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.gov.br/iphan/pt-br/unidades-especiais/sitio-roberto-burle-marx",
+    "label": "IPHAN · Sítio Roberto Burle Marx",
+    "checked": "2026-10-06",
+    "routes": [
+      "/naturaleza/sitio-burle-marx/"
+    ],
+    "use": "Verificar visitação mediada, necessidade de reserva, endereço e canais oficiais para planejar a visita.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://sitioburlemarx.org/perguntas-e-respostas-faq/",
+    "label": "Sítio Burle Marx · FAQ oficial",
+    "checked": "2026-10-06",
+    "routes": [
+      "/naturaleza/sitio-burle-marx/"
+    ],
+    "use": "Confirmar percurso a pé, extensão aproximada de 1,8 km e desnível aproximado de 45 m; rever condições antes da visita.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://mercadaodemadureira.com.br/",
+    "label": "Mercadão de Madureira · sitio oficial",
+    "checked": "2026-10-06",
+    "routes": [
+      "/compras/"
+    ],
+    "use": "Verificar funcionamiento, comunicación y acceso vigentes; no fijar horarios ni operaciones por tiendas.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.gov.br/pt-br/servicos/inscrever-no-cpf",
+    "label": "Receita Federal · CPF registration service",
+    "checked": "2026-10-05",
+    "routes": [
+      "/guia/cpf/"
+    ],
+    "use": "Eligibility for Brazilian and foreign individuals, resident and non-resident; official registration routes and current fee distinction for partnered units.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.gov.br/pt-br/servicos/inscrever-no-cpf-no-exterior",
+    "label": "Receita Federal · CPF registration from abroad",
+    "checked": "2026-10-05",
+    "routes": [
+      "/guia/cpf/"
+    ],
+    "use": "Foreign residents abroad should use the consular office for their jurisdiction and its e-consular process; procedure and appointment details may vary by post.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.gov.br/receitafederal/pt-br/canais_atendimento/fale-conosco/e-mail/estado/",
+    "label": "Receita Federal · email and in-person CPF guidance",
+    "checked": "2026-10-05",
+    "routes": [
+      "/guia/cpf/"
+    ],
+    "use": "Passport-only foreign applicants may need in-person service; foreigners abroad cannot make first CPF registration by email.",
+    "imageReusePermission": false
+  }
+]

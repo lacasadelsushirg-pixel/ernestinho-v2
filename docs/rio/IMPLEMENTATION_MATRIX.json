@@ -1,0 +1,1702 @@
+{
+  "base": "185c43bf0de0356276df8966bbb1bb3e90404162",
+  "branch": "revision/rendimiento-traducciones-81a904c",
+  "date": "2026-10-05",
+  "buziosPreview": {
+    "deployment": "dpl_77g9gG8jCgxeEo467GM4KtVDzQNk",
+    "state": "READY",
+    "access": "browser authenticated through GitHub",
+    "url": "https://ernestinho-v2-b1om0903x-lacasadelsushirg-8125.vercel.app/destinos/buzios/"
+  },
+  "scope": "MASTER_RIO_20261005.md",
+  "routes": [
+    {
+      "route": "/playas/barra-da-tijuca/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/playas/pepe/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/playas/pontal/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/playas/macumba/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/playas/prainha/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/playas/grumari/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/playas/praia-do-secreto/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/playas/barra-de-guaratiba/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/playas/praia-da-urca/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/playas/flamengo/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/playas/praias-selvagens/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/playas/perigoso/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/consejos/mascotas-rio/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/consejos/servicios-practicos/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/consejos/playa-barracas-quiosques/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/consejos/estado-del-mar-playas/",
+      "action": "create",
+      "status": "CONTENIDO_ES_PT_EN; FOTOS_Y_QA_EDITORIAL_FINAL_PENDIENTES"
+    },
+    {
+      "route": "/gastronomia/padarias/",
+      "action": "create",
+      "status": "CONTENT_ES_PT_EN; OFFICIAL_SOURCES_RECORDED; BUILD_3_LOCALES_PASS; PHOTO_GAP"
+    },
+    {
+      "route": "/gastronomia/casas-de-suco/",
+      "action": "create",
+      "status": "CONTENT_ES_PT_EN; OFFICIAL_SOURCES_RECORDED; BUILD_3_LOCALES_PASS; PHOTO_GAP"
+    },
+    {
+      "route": "/gastronomia/espetinhos/",
+      "action": "create",
+      "status": "CONTENT_ES_PT_EN; OFFICIAL_SOURCES_RECORDED; BUILD_3_LOCALES_PASS; PHOTO_GAP"
+    },
+    {
+      "route": "/gastronomia/lanches-cariocas/",
+      "action": "create",
+      "status": "CONTENT_ES_PT_EN; OFFICIAL_SOURCES_RECORDED; BUILD_3_LOCALES_PASS; PHOTO_GAP"
+    },
+    {
+      "route": "/gastronomia/fast-food/",
+      "action": "create",
+      "status": "CONTENT_ES_PT_EN; OFFICIAL_SOURCES_RECORDED; BUILD_3_LOCALES_PASS; PHOTO_GAP"
+    },
+    {
+      "route": "/cultura/arquitectura/",
+      "action": "create",
+      "status": "CONTENT_ES_PT_EN; CULTURE_HUB_LINKED; BUILD_3_LOCALES_PASS; NEW_PAGE_PHOTO_GAP"
+    },
+    {
+      "route": "/guia/cruceros/",
+      "action": "discard_duplicate; deepen_canonical",
+      "status": "COVERED_AND_DEEPENED_AT_/guia/terminales/; NO_SEPARATE_ROUTE"
+    },
+    {
+      "route": "/barrios/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "HUB_BUILD_3_LOCALES_PASS; LOCALE_METADATA_HREFLANG_AND_LINK_QA_PASS; EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "b6681c4f9e777bcbf9cbf6f609891f8a32fdfb85bd57776490da2b4b5247a2fd"
+    },
+    {
+      "route": "/barrios/barra-da-tijuca/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "ba542522090eb4355726c9739eaee9cf19e11f901ec8f100236a8af39f669bdd"
+    },
+    {
+      "route": "/barrios/barra-oeste/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_OVERVIEW_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "28dd97257803fce48016ac7f84b4a7445c8d4e08b7e3849758ae0ef0bc45485c"
+    },
+    {
+      "route": "/barrios/botafogo-urca/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_OVERVIEW_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "1d30ed38710786600c5196bfc7aca71596706ee4e67a1286bc315f98a8003152"
+    },
+    {
+      "route": "/barrios/botafogo/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "f1e59a814637ed607632e5d735dec57c0fb474bb271e3a70dcbb0b11d74552e3"
+    },
+    {
+      "route": "/barrios/cadeg/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "9396f3b448bf189e267c9c5555fbf21f90ccba999e31b4fdbe8879b839b094ef"
+    },
+    {
+      "route": "/barrios/catete/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "561e5cf416ca7f7e08afd9756ba93d49ec287da37e3754371fe06357b2fa5502"
+    },
+    {
+      "route": "/barrios/centro-maua/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_OVERVIEW_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "9bdaac6a1c8222fcd84e7b89e0df210a9f23ab4b58b75e549ef619b4b3ce9240"
+    },
+    {
+      "route": "/barrios/centro/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "e95f3a1fb284d12d27df2373ca87abe4ac02d6791b1e930150390e8d048cc77c"
+    },
+    {
+      "route": "/barrios/copacabana/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "4c8343028cfc3ffe88565d5904e8de6c285d0266c0cd3547e81cadb5b09b5f74"
+    },
+    {
+      "route": "/barrios/flamengo-gloria/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_OVERVIEW_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "d095a568f170b7e98c3a8501987e973f234a7d80dbd608a9426ec80a96392dde"
+    },
+    {
+      "route": "/barrios/flamengo/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "dfa6cd7d5c7f9387f4d62dd20e4cb76df2262dcef86ffe0a9b026a70ef21b8c6"
+    },
+    {
+      "route": "/barrios/gavea-jardim-lagoa/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_OVERVIEW_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "fe0b8e0a3baebfa0e54e19d0fcbfe6fe5a031abdb737076fcc13a7d70a4d997f"
+    },
+    {
+      "route": "/barrios/gavea/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "f7feed54ab337ae43367ddf1c1d8403ed26ac82ece005f887d8b3ef7b3ca1fba"
+    },
+    {
+      "route": "/barrios/gloria/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "ed94ef1562d6f93954ea8f2858a950948ff7a2e92164d3cac9f58670e6703979"
+    },
+    {
+      "route": "/barrios/guaratiba/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "8fa9d437dbb2fe8e6e1157c5f4840eb3b63016008eefd0a6e35e4b4e5edc6de7"
+    },
+    {
+      "route": "/barrios/ilha-da-gigoia/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "cdebc7743a8c20c4faf2c081ce9d22309ca0441d998e3246ca36597829909a26"
+    },
+    {
+      "route": "/barrios/ipanema-leblon/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_OVERVIEW_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "3ba7b7d334558c5ebeb76f01a55f180122b91f11f9efae8208eb45ff49ac4b92"
+    },
+    {
+      "route": "/barrios/ipanema/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "e5780bdb28960537df1de03104f51540f9a4bc6c0db581f3812bae2eb12f48fa"
+    },
+    {
+      "route": "/barrios/jacarepagua/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "8b6a5fea9b262f4dd76c2af7a3ef11b65d24d6b107722b639c60a66653d91923"
+    },
+    {
+      "route": "/barrios/jardim-botanico/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "5cbdb3155c82f0677eeb1611cc282715501cd7242000ca6fc9638caca03e1fe6"
+    },
+    {
+      "route": "/barrios/lagoa/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "4d16683a758c3a9932965bd431f438abaed3100a4944094e192b3c61d2317a93"
+    },
+    {
+      "route": "/barrios/lapa/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "1882634c011e3f27272f9ad4e9ec440369398b7595c15879a3d7c13763933830"
+    },
+    {
+      "route": "/barrios/laranjeiras/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "0f8c2c964dea2f68977f8c99f0724edf3733e08ba1df6fe889f4a79eb4d15c62"
+    },
+    {
+      "route": "/barrios/leblon/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "5742be76fe43353db14eee0d55e0f186158cdf706b979f316c33f2189bd9c457"
+    },
+    {
+      "route": "/barrios/madureira/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "e26cba59fd5b383c8fd35ba25f322f9194e4fc45d50fbd98e926a5f8ac214f98"
+    },
+    {
+      "route": "/barrios/maracana/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "480664c78562af91d76be694d3bfdbe4c696fbe38cec76dceebd3791718ffe41"
+    },
+    {
+      "route": "/barrios/recreio/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "9d22fb058d6894267d9e7ced7eba8f03ef0dd1b79bfbe72116e750c62a1d87b2"
+    },
+    {
+      "route": "/barrios/santa-lapa/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_OVERVIEW_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "1a2a28af2677ae53a84a4d1619c975a36164c8e7126a30ac02e3301cfcf4a9e2"
+    },
+    {
+      "route": "/barrios/santa-teresa/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "c7e49d009b93bf0e8b38d6827a40efbd91ba89dd9fd159b3d56c0134e21880f6"
+    },
+    {
+      "route": "/barrios/sao-conrado/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "396ed89d40b995152339f584000a809e4cc00ef7d4ca44348548af8471aad86d"
+    },
+    {
+      "route": "/barrios/sao-cristovao/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "0b0ba2e9ec1062d280f20f56f13471eb753db9cc2ab3819e85f53c6a93f835e0"
+    },
+    {
+      "route": "/barrios/sepetiba/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "aed272de67726091fc4d3447595ac731e039c928e8de074501bd76f37d0501fe"
+    },
+    {
+      "route": "/barrios/tijuca/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "5f2e0d3dbb12aba17ec578e7fb6dd7e51806d79eabe3d2b113f05ab7abed6d34"
+    },
+    {
+      "route": "/barrios/urca/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "0fe18a1244e7f043c55d584ab637af9f159c1335a5eb6b3c330932ade4e12983"
+    },
+    {
+      "route": "/barrios/vargens/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "0593fc4d3760a2a2e3d889c27131b70d6c094a25abee0dd6de3c4ab589b8a265"
+    },
+    {
+      "route": "/barrios/zona-norte/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_OVERVIEW_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "603311e6fb5a90009ae04e088a4ef6261ed55b0344e669362eed104fb7c6d5d2"
+    },
+    {
+      "route": "/compras/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_CONTENT_PRESERVED; ORIGINAL_IMAGES_PRESERVED; OFFICIAL_SOURCE_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "9c849de0a1510f291260ef651da5b4b9d1aed3cf7a9117f7399a2d5f1e8b6c1e"
+    },
+    {
+      "route": "/consejos/20-consejos/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "f6ae8510257fc9456c7846be7f95b95d0bb5f13e062d301a0231e51e1c7f171e"
+    },
+    {
+      "route": "/consejos/errores-rio/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "804c952e6395a3291869e886e2db2f942d838b4a8ab8b789bc7e11e4e367e57b"
+    },
+    {
+      "route": "/consejos/lluvia/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "669832a6ea6203c6b624da531927beec1af94edff722ad4c1fc15d246469628f"
+    },
+    {
+      "route": "/consejos/maletas-rio/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "cc302217b372cadf5985c673204a861bd9876651a6c8a8f9a2ed190c67b9fe5b"
+    },
+    {
+      "route": "/consejos/perfiles-viajero/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "ccdc39347414a6a6b77399cd17101e0d734e19da6016e3f1b9ce2212829a3302"
+    },
+    {
+      "route": "/consejos/portugues/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "8dc8fe230428bd0431601ca8df5a7f0c4a2532a4ecc2349106a223dd1f982995"
+    },
+    {
+      "route": "/consejos/que-hacer-cada-dia/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "f814648cd6c44e9fcd420b843e26cc937f55d412cca5a243357baa89f874abfe"
+    },
+    {
+      "route": "/consejos/recorrido-zona-portuaria/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "a9b664d0208d5d72459a34659fd288a70de64c2ece974124460700c9c15eaa9e"
+    },
+    {
+      "route": "/consejos/rio-1-a-7-dias/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "20419e075f52887559c44ba57a609d0648f571aa3aae7e80b62a1c02a0510e96"
+    },
+    {
+      "route": "/consejos/sol-calor/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "dc6178473ca5af7cf4680b6d66c1d7dcb531f79ac699ff4b15ce94a3cfbc4ba9"
+    },
+    {
+      "route": "/consejos/souvenirs/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "d3f2ee20bc39befad6bf438034072990b68317c6ca39f482942a26502e77d4e1"
+    },
+    {
+      "route": "/consejos/supermercados/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "dc1d5e2b372626dc9d52c7ed4f3e1c36c897dd318aea257e889ec52fe028389b"
+    },
+    {
+      "route": "/consejos/trampas-turista/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "49338ffb141e4ce4963337f95025c37e411dcab546cac839646be19e080d2e7d"
+    },
+    {
+      "route": "/cultura/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; INTERNAL_LINKS_ADDED_TO_EXISTING_GUIDES; ORIGINAL_IMAGES_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "9398dfbd0600c950180563273553f850997dce4e4e402da985a75c0c0e5222f9"
+    },
+    {
+      "route": "/eventos/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "DYNAMIC_EVENT_FACTS_REFRESHED_ES_PT_EN; 2026_ARCHIVED; OFFICIAL_2028_RETURN_RECORDED; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "ace88994b4642626bbdc2ba354a2cc7474e6b543bd0bd1a6ce31f2e07fefddbb",
+      "dataSourceSha256": "a8d9d41d4e811513f488cee5e605c6d55706bc7be939f3006042658f675fc174",
+      "rendererSha256": "aa16787e27be7557bfe1da3abf0e53342393d9f3b45e729a17eb35b7a6ac9713"
+    },
+    {
+      "route": "/familia/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_CONTENT_PRESERVED; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "2bb6d0b2c68d21927b2bcd7e66e1a448c03d799092ea48e86c51225594293b99"
+    },
+    {
+      "route": "/familia/lluvia/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_CONTENT_PRESERVED; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "760fc015ecad048e2fa624fb0af8ef4344ae771def4f1e494d2a331d1eef586e"
+    },
+    {
+      "route": "/gastronomia/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "f2567e1c94b99c1841325fd5b7684889c53ce68439de02e0ff09ceba3ff6a44e"
+    },
+    {
+      "route": "/guia/accesibilidad/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_PAGE_CONTENT_PRESERVED; ORIGINAL_IMAGES_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "608ea3200573963be264bce9ce2a8c1ecaced83c293fbab2a283b94326af5480"
+    },
+    {
+      "route": "/guia/cpf/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "RECEITA_FEDERAL_RULES_CROSS_CHECKED; THREE_PRIMARY_SOURCES_RECORDED; ES_PT_EN_CONTENT_PRESENT; BUILD_3_LOCALES_PASS",
+      "sourceSha256": "7245586b445c328ffeb85a46c3a0dab9ad432c542c868dacce1f8991ef73d067"
+    },
+    {
+      "route": "/guia/donde-alojarse/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "84def741e2e537236db09cfb048a4bd8a6626324ede273bc5e284c5fecb045cb"
+    },
+    {
+      "route": "/guia/emergencias/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_PAGE_CONTENT_PRESERVED; ORIGINAL_IMAGES_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "cca044b9d7ac0f2b3e92dbbc81b53be9c66a6e3ea37353c2e1775b3121f76de7"
+    },
+    {
+      "route": "/guia/mes-a-mes/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "bccb5b0844815efdc734d7a4d344952c517d27d5acefcb4781a43072e18bc41a"
+    },
+    {
+      "route": "/guia/seguro/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_PAGE_CONTENT_PRESERVED; ORIGINAL_IMAGES_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "3a70f218cffc6a9bcab05ee8d081320ac19d2f5f4f138624e03d80273e1b1e03"
+    },
+    {
+      "route": "/guia/vacunas/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_PAGE_CONTENT_PRESERVED; ORIGINAL_IMAGES_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "47d40db24475d36b621322e66d206f0b8cd403d1ab9cf78480d0c3da2129faa4"
+    },
+    {
+      "route": "/guia/viajar-solo/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_PAGE_CONTENT_PRESERVED; ORIGINAL_IMAGES_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "8fd4332aad8b900d4e1fd981d8e107608486849441a80a70f27af6a393148369"
+    },
+    {
+      "route": "/naturaleza/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "b2038b0eecc37ff264c16bfe3f0826e55cc5b3fe6a21496f477e4705f4f9a5e7"
+    },
+    {
+      "route": "/naturaleza/bico-papagaio/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "7034e209071a0de90fd1396993e61516ccc02803258e13f984d758f25ebdb22d"
+    },
+    {
+      "route": "/naturaleza/catacumba/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "43914a85bb073cc8e87be7205608b28e62ceb1ee90ae38e787dd53deaa065afd"
+    },
+    {
+      "route": "/naturaleza/circuito-grutas/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "74cd72e14bce261230ad1dd1259829ad86abcc65b069b236a71713c5255c765b"
+    },
+    {
+      "route": "/naturaleza/dois-irmaos-trek/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "ae0960ee78717d6450f3398957e85301929e878257d5b0f75193be30aae6b114"
+    },
+    {
+      "route": "/naturaleza/parque-flamengo/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "a9df97d51da0f06b14b55be43af2015aca02cd18d733c8ac6c6a81329f0463d6"
+    },
+    {
+      "route": "/naturaleza/pedra-bonita-trek/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "fe711dce5969c66e5716412c2cdbf0b68c1ec6a984a9b65591c33a4751f90c4a"
+    },
+    {
+      "route": "/naturaleza/pedra-gavea-trek/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "56f94059f1d3954667815c6663ef1860eb0bc8279a51f21e58e9d717f7306c48"
+    },
+    {
+      "route": "/naturaleza/pico-tijuca/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "4e6f41e978b9e2d128ff63f7d95ae6592ba89e410bbebe907af1919cbe0cab8a"
+    },
+    {
+      "route": "/naturaleza/pontal/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "ae6040ad9e6da744abe46dcafd8eca2f03ae66c4546afe11395f8b4ea29fc1b8"
+    },
+    {
+      "route": "/naturaleza/primatas/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "1590fb156e669a7acc1e9143510ca868e5a7c3856d17778c0aa256c7d5ecb98a"
+    },
+    {
+      "route": "/naturaleza/sitio-burle-marx/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_CONTENT_PRESERVED; ORIGINAL_IMAGES_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "6d4a245c71d88b32bc39e4351f21fbf1d1b18df9c96687e9cc25596166fbd1e4"
+    },
+    {
+      "route": "/naturaleza/telegrafo-trek/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "011290ef8136ec461f3fcff7be1efa44e20e3c90bbfcd9160cbd5d53d98ca748"
+    },
+    {
+      "route": "/playas/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "dcb445c63521cfb78e517c7c84f956f1cafa2298c4279fcc353e4c5e949eb9c9"
+    },
+    {
+      "route": "/playas/abrico/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "eb91745710ce8bf93905dd4812b4ae093d64f98d10dc9d09c9aaeba23372819e"
+    },
+    {
+      "route": "/playas/arpoador/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "c9d765e6a48252a13a758a0c5b4c45430dc305b51f43ac56e3ac24511dfa23e0"
+    },
+    {
+      "route": "/playas/botafogo/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "6a1d006a5b3a7aea3b0225c23c910b76670f230b32e06a834bb9c39685fca8f5"
+    },
+    {
+      "route": "/playas/copacabana/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "e3b2df08e0475cace57ebaa9b8c47c85c5f9319130ce57bf22603b1a3c3033fd"
+    },
+    {
+      "route": "/playas/ipanema/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "51535bf009191472fc91f7f4e7376df1d72eebb585544e6598da3821cd778606"
+    },
+    {
+      "route": "/playas/joatinga/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "ab13a3e4bd489d0cdaa14454f67efdb2e23068f5b30533cac556bfa282995182"
+    },
+    {
+      "route": "/playas/leblon/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "a8670df28a4b93953f11b7aea86d876b1021f690c56433e38b994086cf0d08fc"
+    },
+    {
+      "route": "/playas/leme/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "0813ad8e64369bc22747b9d49c271f4987c5f64c847fed8f2029c87b15e2924a"
+    },
+    {
+      "route": "/playas/praia-da-reserva/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "e652f81f119d5d4754acb30fa94394f292e914b5572b4f09e83e969ffd6b0691"
+    },
+    {
+      "route": "/playas/praia-do-diabo/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "a0e31e2127b3f54c662d7f6b650bce0e946552fcdbc37f5cb1161faea3f1377f"
+    },
+    {
+      "route": "/playas/praia-dos-amores/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "36679d5a887bb13f621e9414e66cdb7b4cd5dcf4157ec6094e11f0a3f6dc4b6c"
+    },
+    {
+      "route": "/playas/praia-vermelha/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "0383ce8a4f6a15840eb1bbe9eea99f31926b1121ae7f3ad274cac558cbc3f465"
+    },
+    {
+      "route": "/playas/prainha-vidigal/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "05d99e2f0a7caa277a1896fcbf7d4950777e42be90620bf113563764aae1c7ba"
+    },
+    {
+      "route": "/playas/recreio/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "9f1d9b1d6a3baffc8f5f6070dd13b2ba601340854e12a226fe12c9c535170cd7"
+    },
+    {
+      "route": "/playas/sao-conrado/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; MAPS_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "2a8f020997e8260534d9063bb6bd3fdc849f0f60bd9e693661dfbfe7cd7780bc"
+    },
+    {
+      "route": "/vida-nocturna/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "SEARCH_COUNT_SYNCED_45_LISTED_CARDS_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_LAYOUT_AND_IMAGES_PRESERVED",
+      "sourceSha256": "c1c3c9872d11a36cb6e43762ea8bc787e3f088a1b455064c6528ee971fb4e9b4"
+    },
+    {
+      "route": "/vida-nocturna/all-in/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "f2a62f664ee4bbf451e271913f89747f5ec9c10c4e4b9f52fb2fa299333d2cb0"
+    },
+    {
+      "route": "/vida-nocturna/armazem-do-senado/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "7224ad92b91c3ad844ff6ebf611aff316440e76c543826325b4bbed69ca95410"
+    },
+    {
+      "route": "/vida-nocturna/bafo-da-prainha/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "b164871b3105ebdfc698b0db09f1080fe1912f389bac9da3442abbbfb6403f08"
+    },
+    {
+      "route": "/vida-nocturna/bar-bukowski/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "c5859eee2cacbf69604ba6ebda7aaaff8adb0755ac7176a722dae2205a27ec8f"
+    },
+    {
+      "route": "/vida-nocturna/bar-da-cachaca/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "e0722d0e302b08638ed18c478934782c7ce4b7f285898efdc89eef19c74bc480"
+    },
+    {
+      "route": "/vida-nocturna/bar-do-omar/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "f5db96cb31b000535edf1caa70180cba8aca702fbc6a304e941ba8b8f47b9ae0"
+    },
+    {
+      "route": "/vida-nocturna/beco-das-garrafas/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "8a621b4c2d5890bd71409f2c718a472cd54696132aceba2b9ac0ba194cfd8072"
+    },
+    {
+      "route": "/vida-nocturna/beco-do-rato/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "f4fb4820a44a65e4c8286ead2eaa3016ee69bb086f8469ddddcb8bb9c8bf4c0d"
+    },
+    {
+      "route": "/vida-nocturna/bip-bip/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "3c6cafbad9917daeb109766283231f608dc5505d008c4069705c84a6baa6fa33"
+    },
+    {
+      "route": "/vida-nocturna/blue-note-rio/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "d705c1870164886557b392e3436cfff4c452b0e1de13153980c786bb3562e547"
+    },
+    {
+      "route": "/vida-nocturna/boa-praca-ipanema/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "ab758e51aea63f5e7ae6e1277d3acb45d5adad3d7da1669388011dd29d54456e"
+    },
+    {
+      "route": "/vida-nocturna/bosque-bar/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "ACCESS_RULES_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_AND_LAYOUT_PRESERVED; OFFICIAL_FAQ_SOURCE_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "5be5983f69281527c837ee42e75a114224974f225a91668dc990f74557b91fed"
+    },
+    {
+      "route": "/vida-nocturna/brewteco-botafogo/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "OFFICIAL_TAP_COUNT_AND_SCHEDULE_REFRESHED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; LAYOUT_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "42f78ed47b4bbf2acf00e64960c0869292062634caab752fa2c90020133aa21b"
+    },
+    {
+      "route": "/vida-nocturna/cacique-de-ramos/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; NON_PARAGRAPH_STRUCTURE_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "8e185def2758c7cc6a28a0bed9d6f402aed74eaa6bcc38b6cddcb308d0e95cdc"
+    },
+    {
+      "route": "/vida-nocturna/canastra-bar/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "ARCHIVE_STRUCTURED_METADATA_ALIGNED_WITH_VISIBLE_COPY; SUCCESSOR_ROUTE_LINKED; SOURCE_RECORDED; ORIGINAL_PHOTO_PRESERVED",
+      "sourceSha256": "cba8e2a9f76d50cabaf187bb707b4aa8e4b4c6dee6d5dc7282a6463630c9811a"
+    },
+    {
+      "route": "/vida-nocturna/carioca-da-gema/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "SHOW_TIMES_AND_REFUND_POLICY_REFRESHED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_AND_LAYOUT_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "019d2d4564c697efa396f287c00fb1badae36c91fce528355f1398369891f705"
+    },
+    {
+      "route": "/vida-nocturna/chopperia-botafogo/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "8759260f076f63c2676e8c162c583b4609664e907899646abd9e683fc1d1a18c"
+    },
+    {
+      "route": "/vida-nocturna/circo-voador/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "VOLATILE_FACTS_REVALIDATED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_AND_MARKUP_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "05a7e789806bf2df4053c332438c07d335bd03494d30134e7342d56a3701abaa"
+    },
+    {
+      "route": "/vida-nocturna/coisas-de-bamba/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "aa93dd73168c70e493bec9f51d691f3d60ff7b854edb4b80923a8f9a0ad3197f"
+    },
+    {
+      "route": "/vida-nocturna/comuna/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "ARCHIVE_AND_CURRENT_ADDRESS_SUCCESSOR_VERIFIED; VEJA_RIO_SOURCE_RECORDED; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGE_PRESERVED",
+      "sourceSha256": "5c328c7e52dc15fb98fb1e33e05c061d5edb6cc23b85ac7f59e8cffa4904186f"
+    },
+    {
+      "route": "/vida-nocturna/coordenadas-bar/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "24189ce80329627a19958106ebee84d9e22bb671130021418cd979fd018ca356"
+    },
+    {
+      "route": "/vida-nocturna/feira-sao-cristovao-noite/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "VOLATILE_FACTS_REVALIDATED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_AND_MARKUP_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "9e0811308aaa4c3a72ddc6a7185d5cc8da8a097293b8b8cca5a4653de25c0853"
+    },
+    {
+      "route": "/vida-nocturna/fogo-de-chao-botafogo/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; NON_PARAGRAPH_STRUCTURE_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "63bc4b4f69335ecf4fc0b71dd4ecd5c99232336d45afb2a07fe6f860c8d5d547"
+    },
+    {
+      "route": "/vida-nocturna/fundicao-progresso/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "VOLATILE_FACTS_REVALIDATED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_AND_MARKUP_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "e42f2b74e48844dc0fda20fc11393d779e0dfd21ccdd474d4f2e71e73bedbcb8"
+    },
+    {
+      "route": "/vida-nocturna/galeria-cafe/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "ARCHIVE_SCHEMA_ALIGNED_WITH_VISIBLE_STATUS; CLOSURE_SOURCE_RECORDED; BUILD_3_LOCALES_PASS; ORIGINAL_PHOTO_PRESERVED",
+      "sourceSha256": "bca802bb379ecf3c93419c480cfc4dda679b225ea1097b91ad239c27ae06e583"
+    },
+    {
+      "route": "/vida-nocturna/isabel-lounge/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "f794b84555a36445cfb9ef9bd123741f2983ae94784006382bdbc0943fdadca5"
+    },
+    {
+      "route": "/vida-nocturna/lapa-40-graus/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "VOLATILE_FACTS_REVALIDATED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_AND_MARKUP_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "8225cd7ccca1c23865dee0f731ae4995285ade193ace18baefae29419261da02"
+    },
+    {
+      "route": "/vida-nocturna/leviano-bar/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; NON_PARAGRAPH_STRUCTURE_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "1aa121b5c7a140ba9708b770724a4e5925cf2674a85335192e63892195524797"
+    },
+    {
+      "route": "/vida-nocturna/macuna/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "eb0190553f57161aa9b7576be155fb23ef37dadc224aadacef85490162c16922"
+    },
+    {
+      "route": "/vida-nocturna/moonlounge/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "922c1b6063c3a80f9e2f83ba510ce2d88a1f9460621688e4070c4786e7678865"
+    },
+    {
+      "route": "/vida-nocturna/nosso/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "834dd876af3b1cb54349275c95289c5af170458c4468048c0214f33ba48d742c"
+    },
+    {
+      "route": "/vida-nocturna/ocya-ilha-primeira/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; NON_PARAGRAPH_STRUCTURE_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "1b926797c3be907bfcc2a3be49ffc48d0f606d2caa18271366adf15e46e516f3"
+    },
+    {
+      "route": "/vida-nocturna/pedra-do-sal/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "VOLATILE_FACTS_REVALIDATED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_AND_MARKUP_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "1081112c4df493f89543dc8575b94f2105a7aedb3a68cfe4631a0e8129156a9d"
+    },
+    {
+      "route": "/vida-nocturna/pink-flamingo/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "34fc59b233c2a9d3e098c7ffb5c49601fa330eee46db130bccb731f4ac7f4988"
+    },
+    {
+      "route": "/vida-nocturna/pizzaria-canastra/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "45df11a8fffad4b33fa950bb938f2686e543c5080d3cad7a49c0a4e20ece6065"
+    },
+    {
+      "route": "/vida-nocturna/portela/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; NON_PARAGRAPH_STRUCTURE_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "97e6fdebff4152b3f70603bd2e5042886d0dfd4756923b3973f45a227fd0c945"
+    },
+    {
+      "route": "/vida-nocturna/quadra-mangueira/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; NON_PARAGRAPH_STRUCTURE_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "1bb0f2477bdbf1a19e14d73dd05f8b85693db66e7d6cd9e11ed4c995e78917a7"
+    },
+    {
+      "route": "/vida-nocturna/quadra-salgueiro/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; NON_PARAGRAPH_STRUCTURE_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "4f5b9ea58325e598fb7382e46a4c515d2ff952d35e9df2c46e29861f94bc5163"
+    },
+    {
+      "route": "/vida-nocturna/quartinho/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "f87d92506cf952df9a5e0f2b1980a163232557fd5242ea1bad2d55b4356bf9e4"
+    },
+    {
+      "route": "/vida-nocturna/renascenca-clube/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; NON_PARAGRAPH_STRUCTURE_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "96604cc17082593491efa53a8e0b8142d8ddb7b2f65ba442dc21e3d03d7aa569"
+    },
+    {
+      "route": "/vida-nocturna/rio-scenarium/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "VOLATILE_FACTS_REVALIDATED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_AND_MARKUP_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "0a6e5f877e2e2ba5b0dbeab620197ffae85f8a2061797c3e15e5a8b91dc00136"
+    },
+    {
+      "route": "/vida-nocturna/sacadura-154/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "df877c83be668cbab666340a9eba7366496d6d8fa89d8739cd8d60056d660d67"
+    },
+    {
+      "route": "/vida-nocturna/trapiche-gamboa/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "VOLATILE_FACTS_REVALIDATED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_AND_MARKUP_PRESERVED; OFFICIAL_SOURCES_RECORDED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "e31e628d92f0f88c45bd89f73a1dfe2225e0b868df45dd9936106e250ba53028"
+    },
+    {
+      "route": "/vida-nocturna/vaca-atolada/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "2263f5caa1b8d86ce987dd44fa5f04e9c470f869eac0b0f9ab48dc0e7ab60118"
+    },
+    {
+      "route": "/vida-nocturna/vitrinni/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; NON_PARAGRAPH_STRUCTURE_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "2dd5ddbf5eef57ae04fe22a8605a78ab9258e4a4821bb09f61663b3e90fca20e"
+    },
+    {
+      "route": "/vida-nocturna/xepa/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_MENU_GUIDANCE_ADDED_ES_PT_EN; RIOTUR_AND_VEJA_SOURCES_RECORDED; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED",
+      "sourceSha256": "585bbe3aa12e92594444399f84f787b85349b827c33de1bbc187aba135bcdeb4"
+    },
+    {
+      "route": "/vida-nocturna/yoo2/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "EDITORIAL_DEPTH_ADDED_ES_PT_EN; BUILD_3_LOCALES_PASS; ORIGINAL_IMAGES_PRESERVED; NON_PARAGRAPH_STRUCTURE_PRESERVED; FULL_EDITORIAL_REVIEW_OPEN",
+      "sourceSha256": "a95cbc1e84a007ee16fdf177469fb2f02a7e20160603ff983004de772200b0f4"
+    },
+    {
+      "route": "/vida-nocturna/zeca-vogue/",
+      "action": "preserve_and_review_defined_gap",
+      "status": "PENDIENTE",
+      "sourceSha256": "4ea0978216bc5f176d28541c5a97d76299c6cb996edb0e273068ce4956fde71d"
+    }
+  ],
+  "protectedBuziosFiles": {
+    "destinos/buzios/accesibilidad/index.html": "741060d6ad73f8b6a9dc567e7fa906a8ff89bb808f82588b5b8b91cbbb473ad3",
+    "destinos/buzios/alojamiento/index.html": "dc4b4d31d7620cfb76a43ac6eb03a4f072f9e092dbd1b98bffdb097c9a5e23de",
+    "destinos/buzios/clima/index.html": "202f0c3f061af4efc0192110276aefe3da2a69882a79d8d9e06fe325da92d162",
+    "destinos/buzios/comer-y-salir/74-restaurant/index.html": "df8395420bb41e5aa73c3243cfc1033bcdec4289412e721837d5aa0d327291b2",
+    "destinos/buzios/comer-y-salir/agaleria/index.html": "c97a03cb6b68ddd4631dad6fc95c43c5fa4792f6b6714b7571d9516ad0470eb3",
+    "destinos/buzios/comer-y-salir/altto/index.html": "232836022343f20e890d5f7ba3db14f0d0e31a6bc209ce26912533052d486af1",
+    "destinos/buzios/comer-y-salir/anexo-praia/index.html": "303faf1303ece72888a2915933a7e3e4b7338d1b6dc3fcad18d1ceda3c3a6227",
+    "destinos/buzios/comer-y-salir/farinatta/index.html": "5d52c239a78b1e48cc64ec96acc338013669db7617b9273076b46abe51b18306",
+    "destinos/buzios/comer-y-salir/index.html": "51ac5f0fd487be78de09616361195b13c5dddd0d649c2a3dfd1243a1f47792c3",
+    "destinos/buzios/comer-y-salir/la-gare/index.html": "092cc5064a619716f87276ad8fe2ec9589780e6d8d00caf9774513f80b06c0aa",
+    "destinos/buzios/comer-y-salir/macaw/index.html": "0fe31c7a0bd01abdf14bc3013cc78bbfd61eb459e981ee461743af725b70ee30",
+    "destinos/buzios/comer-y-salir/octopous/index.html": "e52158b4aa60835d378bdbd64aed9788c666591eb7028d822c5186f928d8ea94",
+    "destinos/buzios/comer-y-salir/pescadores/index.html": "5375e15046feafb91b8b6e8554c775d12d7f9b50cdb1b89074fb763903a13ad9",
+    "destinos/buzios/comer-y-salir/san-telmo/index.html": "2d150bedded4a8a70242b615f7d17e795e647bd3278a6fc61e03b2df1c8a3a17",
+    "destinos/buzios/comer-y-salir/tawa-beach/index.html": "446b413dc6b92701e42eabbbc055f89aee01788eecde23ad44ee216dce31aa75",
+    "destinos/buzios/como-llegar/index.html": "5f87d74ff800c53b9a82b446864038541ceafa6bd27de145868d5ed55781c26d",
+    "destinos/buzios/compras/index.html": "4b01f9dc22066ada639556ebdee6748a90d010e798cb37be989c40a63e840cc5",
+    "destinos/buzios/con-ninos/index.html": "161f658147afe1450f93b8b576f30cee6c43203a2e05a4d06f49a9c5777547ef",
+    "destinos/buzios/consejos/index.html": "26939dc34167d93439fe3b4037dfcda579fcaeb12ab4dc5770288b53369def13",
+    "destinos/buzios/cruceros/index.html": "f11922983d410a21d44527f11ed26858c834721f6cff5fb53800ec6d06e1f2e1",
+    "destinos/buzios/dinero/index.html": "8f62be6741abd67bf995dae3c92c0b8c07cebfc4d4dd7e1ceafb2eeffb44f100",
+    "destinos/buzios/eventos/index.html": "87561b1983cdcc7a549d2bd686ebf5de466c1fcb501a6c2a6c41bb7e289193c4",
+    "destinos/buzios/experiencias/alquiler-buggy/index.html": "05d89305bf0d90f7e6501cc7299b45e4ac19726639a469699f06b0cfa21e4f58",
+    "destinos/buzios/experiencias/arraial-do-cabo/index.html": "5e3faf9d5e1288d8ac3bcc9b74e3aaa81c2504cd3143d6f9cdc624caa69fce09",
+    "destinos/buzios/experiencias/buceo/index.html": "e9cd23718f3c9be38554066f9543a6c109fdfce384118a8f63f65f83efa161bc",
+    "destinos/buzios/experiencias/cabo-frio/index.html": "118f9ddddf181f9c73ab5d2b35d3d5844cf57b7597cfe3992e912bcdb16f159b",
+    "destinos/buzios/experiencias/full-day-buzios/index.html": "fdf3a9b227eb0d77626f0caed6f7689ba5ecd1ba7252c7ac60fb7068e564cd30",
+    "destinos/buzios/experiencias/index.html": "e56dd4e43753fadf82f9d8da75cfda61888747a378d649e5bab78c00b8c749c5",
+    "destinos/buzios/experiencias/jardinera/index.html": "4518746ff918cbbc2120defb99f4c6759ebe393a491ca0b7ddbb218c4ae8aee9",
+    "destinos/buzios/experiencias/paseo-barco/index.html": "fa7e6e6b9cf70f265c38504e46020d6fd049b20f45eb8f4478adee62835cd24d",
+    "destinos/buzios/experiencias/paseo-buggy/index.html": "2f003cadfc6b4e6e1c57001d1ae78c666aebece49cf934d52fe10475b0c6c608",
+    "destinos/buzios/experiencias/rio-desde-buzios/index.html": "d1e6c476ba35948379cdba2913863264b34f1cee9194d9113d345806ef867609",
+    "destinos/buzios/experiencias/trekking/index.html": "e32266fb557927385d49b930f8b89f931b325381c62ea1120a58dc76edaf7982",
+    "destinos/buzios/gastronomia-argentina/index.html": "3bfa3752781f83c47c7483942bdbac1eb4a87d7f808f2d85f9d2e3393bf3d9b7",
+    "destinos/buzios/gastronomia-chilena/index.html": "d707c5d8c31ca3e661ddf4f491a0f26141d80598774a519f60c815417970022d",
+    "destinos/buzios/index.html": "c05e9c11534a543947900154acb71a0dcf6ffb96889b60bb7d32ee0f15865606",
+    "destinos/buzios/internet/index.html": "80ba80608bfd2913ec63534e9bed739d09d67de4c35175911f8ce0b425af78d0",
+    "destinos/buzios/mascotas/index.html": "3ca255bf73ae5f7236e2c35ff7ef4e24198e47ac5a7c0c69efb9ce86bf350b50",
+    "destinos/buzios/moverse/index.html": "073dfb2c0f537f148d26982be18bc9358cc86b65e9747b6f63d600d89847981b",
+    "destinos/buzios/perfiles/index.html": "4b030581231ead307418151025ebdf1b8fe6e8180257fb73987b5177633195ca",
+    "destinos/buzios/playas/amores/index.html": "5e555b82641f93e3b5ca8035ce7ef48be4e6bc7bc8cc183d5c4c457e6980821a",
+    "destinos/buzios/playas/armacao/index.html": "943bf15e18e98c83aff1ff8d12b1bc527d0281bae6e03788fc4564474efab65f",
+    "destinos/buzios/playas/azeda/index.html": "8b4ed405de367440a4eb214c4f92c84b3eee1d2873c259221bd66bb6251fd0e1",
+    "destinos/buzios/playas/azedinha/index.html": "0f12c93fa70741ea0d2beac853f0a7b345a04b9727f0974ccc3ce0d2bbef06ae",
+    "destinos/buzios/playas/brava/index.html": "d9702d9f9cfb61ffaa7923acbb76cc07487247c0eee8a8479b813f12e8a2df3a",
+    "destinos/buzios/playas/canto/index.html": "423ce01ad78b3fc603bad86cf38526522975d50d0840298f7f8e6bef36066505",
+    "destinos/buzios/playas/caravelas/index.html": "610ed9f6f5643f263ad1b5ad938c92f1294a8f92fdfbefc1fccb3924af18c12e",
+    "destinos/buzios/playas/ferradura/index.html": "45837e17b0760645dda9e211679d66ec7660fe1fd8f3d92620d0d7f43c8b2951",
+    "destinos/buzios/playas/ferradurinha/index.html": "c9c87a510d438c0b3cfff67b158ca1303bb4a540b776c103c8572fc3a7597e3e",
+    "destinos/buzios/playas/foca/index.html": "e04218d2c540231b0c8e112168176fa7342b9150f2050296a590f1893cb017bd",
+    "destinos/buzios/playas/forno/index.html": "e6019b66cd93cb7a1212dc16dbe3c263497a6750e4adb8ee6a60ac5705560698",
+    "destinos/buzios/playas/geriba/index.html": "eb680bea39ff3c745b2403d82e6d1d5a904a704e0ae4b65a2184e340a709b288",
+    "destinos/buzios/playas/gorda/index.html": "527df43e1de3b30bc93816fd4ff1a35b4ae8cce8d1dacb1a64187df51032a67d",
+    "destinos/buzios/playas/index.html": "0eb6ea3a4c3be7401a73bfa8c2215c6fdbbe6836cc4ca5e9fc0ed6ff9013762d",
+    "destinos/buzios/playas/joao-fernandes/index.html": "5546feb7d7f4b47abfced261eb206555c4e5c451d514193f11e0eab197d171dd",
+    "destinos/buzios/playas/joao-fernandinho/index.html": "1c998a90052fc5fdeb2ebcdf02d22eb387948a6168f91736259db48086859906",
+    "destinos/buzios/playas/jose-goncalves/index.html": "2540e2ceb50323a75f47f0ba918565e24498a794c94726d5979376d4caa8ad20",
+    "destinos/buzios/playas/manguinhos/index.html": "3d356a0d9c86254ab72a08f8f187426a86d8ff45cbf7b458daa200ed6eae6076",
+    "destinos/buzios/playas/olho-de-boi/index.html": "68792791c88671ba331f82fc3a613f32795f1777b79582bffa77ae0cb443f120",
+    "destinos/buzios/playas/ossos/index.html": "a6c4f1d38c05d8963220b65c7207d98aa69474c0c60cc4a559cc682bdd3ffaf4",
+    "destinos/buzios/playas/rasa/index.html": "61556dcddf069656d73ad1341c790446e6a01d03416d40eada1ea81581ea7596",
+    "destinos/buzios/playas/tartaruga/index.html": "acd111dce3510d6318d1558ef2bdcf779270995d6faad3f713d0511c79996b61",
+    "destinos/buzios/playas/tucuns/index.html": "fd1343e216e0c0f2dadef64da1ea349d3602a8ea7a05705dda6d3b372883af31",
+    "destinos/buzios/playas/virgens/index.html": "f97bc0eff3b9da5303cff120926d348c98f3f38680a9a1b544f5dcdefedb8ad9",
+    "destinos/buzios/que-hacer/index.html": "1e94f7a32f1d71dcd7b4d72e6908040461952dffe06e4d99d8925b29d7d10bcc",
+    "destinos/buzios/salud/index.html": "f6d4c422ba49f4bf593d524a7f1c6ab9d9b080b8e42824b887199c102ee4a9fe",
+    "destinos/buzios/seguridad/index.html": "4612e23401c90250761f37d453eefc80baf0b1d287987d27632a35c055545465",
+    "destinos/buzios/servicios/index.html": "b9fa0826758aacd51eacee6ce3ecd3096ff9a6011460e13d31228063230b25b9",
+    "destinos/buzios/supermercados/index.html": "36653505e28564bb5b26ddca085bc8c516d24a18b49b1fe62785c36ba3a380ce",
+    "destinos/buzios/vida-nocturna/index.html": "3034713a80c3da2e46186fbc4a306adac10df5ad977bf4898e1b3169a7a73722",
+    "assets/css/buzios-beach-v2.css": "70eead5468991e7c00609ef96911f48ddbc83f5c0160eef1efbdc41574e55290",
+    "assets/css/buzios.css": "496eb3227c92a33a400d060f4c39b8f1be8d4de0c5139eb4fdcc96a84c3326da",
+    "assets/data/buzios-accommodations.json": "13b4b9b7f5c4f25ea8c988049f56fac5194525f16c60e8a9d03f1470eeca3230",
+    "assets/js/buzios-areas.js": "15261e059aeb749b5560ab3d82e86f5a13710632a8e800ba4180d2048155818e",
+    "assets/js/buzios-beach-content.js": "fab11e2d5edfed6f4260a81fb627d91505b91ac4998b84273eff1ede129364c0",
+    "assets/js/buzios-beach-decisions.js": "02d43b1522b5cdb6a731efb23d128b1d787511486a2f9ce92ccb7a8f011e6849",
+    "assets/js/buzios-beach-detail-v2.js": "c6f638d9f2cf4d06788ba8d3a065721518428e826f41390d279d5dd184c9611c",
+    "assets/js/buzios-beach-hub-v2.js": "ee0995dd668b639e95c011cc965cb5229b54e3695574fee9beb752961df4ce8e",
+    "assets/js/buzios-beach-v2-data.js": "0c62f907dbf1ed86e5d9aaf613f16c948d3cf62661bb564aa5de1da7c8cec5f6",
+    "assets/js/buzios-beaches.js": "2def4aa720587741d90ad353c4984161e47ad084ef0075ef0031b3a862a7d76a",
+    "assets/js/buzios-closure.js": "3a15f1304a789992ad214cf5e204e237e4c3336a3f65be3a201c398d03061fb7",
+    "assets/js/buzios-cloudinary.js": "abe0067edc654b36d85754a3c1f78706ef36ffc6244ed50c30f40677d96c9776",
+    "assets/js/buzios-depth.js": "91e8d66c3a986f0822b327697eeb6e348ac0e5e5df17c89dfd489fcb703d32e5",
+    "assets/js/buzios-editorial.js": "f6dd2fa8d571796ca9039b7e036b0ce1f33f79811ec29981ab6efbe1611d9fba",
+    "assets/js/buzios-integration.js": "7211e222592049189228bae8181d1ed2928378174afd4a12e72e09dc1bf3f86c",
+    "assets/js/buzios-page.js": "00411f71f1f34d5c396ac49af2983005ef657cf4b72452ca6bc5161be6bdf9af",
+    "assets/js/buzios-photos.js": "24a00c052b4e0ddba015f6a135ad9b05ff8cdb30b9a2ba10ce599b81e591d5ae",
+    "assets/js/buzios-restaurant-profile-view.js": "7395794ae96b97b059b7ea66c82848ad8cb4dca6c16f07bbe7b076dd4fcf7b0f",
+    "assets/js/buzios-restaurant-profiles.js": "cecaaf5083304dddfc0a961a0cc12a4284c19b7c5d4d344f42cec74131272e4c"
+  },
+  "duplicateDecisions": [
+    {
+      "topic": "Mercadão de Madureira",
+      "canonical": "/compras/mercadao-madureira/",
+      "decision": "Preserve existing deep profile; do not create duplicate"
+    },
+    {
+      "topic": "Meio, Funda, Inferno",
+      "canonical": "/playas/praias-selvagens/",
+      "decision": "Grouped beach profile; no individual thin routes"
+    },
+    {
+      "topic": "Safety, health, climate, seniors, Portuguese",
+      "decision": "Preserve existing canonical routes; no parallel section"
+    }
+  ],
+  "sourcePrompt": "Texto pegado(9).txt",
+  "protectedBuzios": "Frozen: no re-audit or source changes. Complementary photography remains separate.",
+  "checkpoint": {
+    "date": "2026-10-06",
+    "newPracticalGuides": 4,
+    "newBeachGuides": 12,
+    "runtime": {
+      "tested": 96,
+      "failures": 0
+    },
+    "protectedBuziosFilesUnchanged": 89,
+    "publication": "NONE — master scope incomplete",
+    "next": "Review the 19 explicitly PENDIENTE routes, complete only verified editorial gaps, then perform visual desktop/mobile and console QA. Keep Búzios frozen and photo/server migration paused.",
+    "newGastronomyHubs": 5,
+    "sourcePrompt": "Texto pegado(9).txt",
+    "gastronomyBuild": {
+      "testedHtml": 18,
+      "routes": 6,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "failures": 0
+    },
+    "hubIntegration": {
+      "testedHtml": 54,
+      "routes": 18,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "verifiedLinks": 48,
+      "failures": 0
+    },
+    "photoAudit": {
+      "existingRioBeaches": 15,
+      "existingImagesInventoried": 30,
+      "changedImages": 0
+    },
+    "existingBeachDepth": {
+      "routes": 15,
+      "testedHtml": 45,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "mapAndImagePreservation": "PASS",
+      "failures": 0
+    },
+    "architectureGuide": {
+      "route": "/cultura/arquitectura/",
+      "linkedFrom": "/cultura/",
+      "testedHtml": 9,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "failures": 0,
+      "photoStatus": "FALTA — ERNESTO (hub reuses existing approved MAM thumbnail)"
+    },
+    "cruiseGuide": {
+      "canonicalRoute": "/guia/terminales/",
+      "deepenedHtml": 3,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "duplicateRoute": "/guia/cruceros/ discarded because terminales is canonical and already covers Pier Mauá",
+      "failures": 0
+    },
+    "neighborhoodDepth": {
+      "routes": [
+        "/barrios/copacabana/",
+        "/barrios/ipanema/",
+        "/barrios/leblon/",
+        "/barrios/botafogo/",
+        "/barrios/centro/",
+        "/barrios/barra-da-tijuca/",
+        "/barrios/recreio/",
+        "/barrios/santa-teresa/",
+        "/barrios/lapa/",
+        "/barrios/urca/",
+        "/barrios/flamengo/",
+        "/barrios/catete/",
+        "/barrios/gloria/",
+        "/barrios/maracana/",
+        "/barrios/sao-cristovao/",
+        "/barrios/madureira/",
+        "/barrios/lagoa/",
+        "/barrios/jardim-botanico/",
+        "/barrios/sao-conrado/",
+        "/barrios/gavea/",
+        "/barrios/guaratiba/",
+        "/barrios/cadeg/",
+        "/barrios/ilha-da-gigoia/",
+        "/barrios/jacarepagua/",
+        "/barrios/laranjeiras/",
+        "/barrios/sepetiba/",
+        "/barrios/tijuca/",
+        "/barrios/vargens/",
+        "/barrios/barra-oeste/",
+        "/barrios/botafogo-urca/",
+        "/barrios/centro-maua/",
+        "/barrios/flamengo-gloria/",
+        "/barrios/gavea-jardim-lagoa/",
+        "/barrios/ipanema-leblon/",
+        "/barrios/santa-lapa/",
+        "/barrios/zona-norte/"
+      ],
+      "testedHtml": 108,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "originalImagesPreserved": true,
+      "failures": 0,
+      "latestBatch": {
+        "routes": [
+          "/barrios/barra-oeste/",
+          "/barrios/botafogo-urca/",
+          "/barrios/centro-maua/",
+          "/barrios/flamengo-gloria/",
+          "/barrios/gavea-jardim-lagoa/",
+          "/barrios/ipanema-leblon/",
+          "/barrios/santa-lapa/",
+          "/barrios/zona-norte/"
+        ],
+        "testedHtml": 24,
+        "languages": [
+          "ES",
+          "PT",
+          "EN"
+        ],
+        "failures": 0,
+        "details": "Added area-specific planning guidance to existing overview layouts. Verified translations, metadata/hreflang, no runtime placeholders and original image src references."
+      }
+    },
+    "neighborhoodSectionQA": {
+      "routes": 37,
+      "testedHtml": 111,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "runtimePlaceholders": 0,
+      "historyReadLocaleMatches": true,
+      "metadataAndHreflang": "PASS",
+      "localizedBarriosLinksChecked": 969,
+      "localizedBarriosLinksBroken": 0,
+      "sourceImageReferencesMatchHead": true,
+      "failures": 0,
+      "finding": "Fixed locale selection in assets/js/barrios-editorial.js. Before the fix, EN history/read content rendered as undefined, and the ES/PT slots were misaligned."
+    },
+    "photoReplacementInventory": {
+      "file": "docs/rio/FOTOS_CLOUDINARY_RIO_REEMPLAZO.json",
+      "scope": "Rio HTML pages and shared HTML/JS/JSON/CSS sources; Buzios paths excluded",
+      "routesScanned": 618,
+      "pagesWithReferences": 592,
+      "sourceFilesScanned": 775,
+      "oldHostOccurrences": 4796,
+      "uniqueUrlVariants": 2064,
+      "uniquePhotoIds": 1885,
+      "status": "INVENTORY_COMPLETE; NEW_SERVER_MAPPING_PENDING"
+    },
+    "neighborhoodsEditorialBatch": {
+      "routes": [
+        "/barrios/ilha-da-gigoia/",
+        "/barrios/jacarepagua/",
+        "/barrios/laranjeiras/",
+        "/barrios/sepetiba/",
+        "/barrios/tijuca/",
+        "/barrios/vargens/"
+      ],
+      "generatedHtml": 18,
+      "localeChecks": 18,
+      "metadataAndHreflang": "PASS",
+      "runtimePlaceholders": 0,
+      "originalImageReferencesMatchHead": true,
+      "failures": 0
+    },
+    "priorityPhotoInventory": {
+      "file": "docs/rio/FOTOS_RIO_PRIORIDAD_URGENTE.json",
+      "requestedSections": {
+        "restaurantes": {
+          "photoIds": 1073,
+          "occurrences": 2551,
+          "routes": 181
+        },
+        "museos_cultura": {
+          "photoIds": 169,
+          "occurrences": 464,
+          "routes": 130
+        },
+        "atracciones": {
+          "photoIds": 9,
+          "occurrences": 26,
+          "routes": 9
+        },
+        "experiencias": {
+          "photoIds": 58,
+          "occurrences": 125,
+          "routes": 23
+        },
+        "vida_nocturna": {
+          "photoIds": 1,
+          "occurrences": 98,
+          "routes": 49
+        }
+      },
+      "status": "PRIORITY_INVENTORY_DONE; NEW_HOST_MAPPING_PENDING; NO_COMMIT"
+    },
+    "neighborhoodOverviewEditorialBatch": {
+      "routes": [
+        "/barrios/barra-oeste/",
+        "/barrios/botafogo-urca/",
+        "/barrios/centro-maua/",
+        "/barrios/flamengo-gloria/",
+        "/barrios/gavea-jardim-lagoa/",
+        "/barrios/ipanema-leblon/",
+        "/barrios/santa-lapa/",
+        "/barrios/zona-norte/"
+      ],
+      "generatedHtml": 24,
+      "localeChecks": 24,
+      "metadataAndHreflang": "PASS",
+      "runtimePlaceholders": 0,
+      "originalImageReferencesMatchHead": true,
+      "failures": 0
+    },
+    "natureEditorialBatch": {
+      "routes": [
+        "/naturaleza/bico-papagaio/",
+        "/naturaleza/catacumba/",
+        "/naturaleza/circuito-grutas/",
+        "/naturaleza/dois-irmaos-trek/",
+        "/naturaleza/parque-flamengo/",
+        "/naturaleza/pedra-bonita-trek/",
+        "/naturaleza/pedra-gavea-trek/",
+        "/naturaleza/pico-tijuca/",
+        "/naturaleza/pontal/",
+        "/naturaleza/primatas/",
+        "/naturaleza/telegrafo-trek/"
+      ],
+      "testedHtml": 33,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "originalImagesPreserved": true,
+      "nonParagraphStructurePreserved": true,
+      "failures": 0,
+      "details": "Added route-specific access, weather, safety, equipment and return planning in the existing layout; review remains open."
+    },
+    "adviceEditorialBatch": {
+      "routes": [
+        "/consejos/20-consejos/",
+        "/consejos/errores-rio/",
+        "/consejos/lluvia/",
+        "/consejos/maletas-rio/",
+        "/consejos/perfiles-viajero/",
+        "/consejos/portugues/",
+        "/consejos/que-hacer-cada-dia/",
+        "/consejos/recorrido-zona-portuaria/",
+        "/consejos/rio-1-a-7-dias/",
+        "/consejos/sol-calor/",
+        "/consejos/souvenirs/",
+        "/consejos/supermercados/",
+        "/consejos/trampas-turista/"
+      ],
+      "testedHtml": 39,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "originalImagesPreserved": true,
+      "nonParagraphStructurePreserved": true,
+      "failures": 0,
+      "details": "Added decision-focused travel planning notes to existing advice pages; full editorial review remains open."
+    },
+    "nightlifeEditorialBatch": {
+      "routes": [
+        "/vida-nocturna/all-in/",
+        "/vida-nocturna/armazem-do-senado/",
+        "/vida-nocturna/bafo-da-prainha/",
+        "/vida-nocturna/bar-bukowski/",
+        "/vida-nocturna/bar-da-cachaca/",
+        "/vida-nocturna/bar-do-omar/",
+        "/vida-nocturna/beco-das-garrafas/",
+        "/vida-nocturna/beco-do-rato/",
+        "/vida-nocturna/bip-bip/",
+        "/vida-nocturna/blue-note-rio/"
+      ],
+      "testedHtml": 30,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "originalImagesPreserved": true,
+      "nonParagraphStructurePreserved": true,
+      "failures": 0,
+      "details": "Added event-specific planning, entry, price-confirmation and safe-return guidance within the existing nightlife page layouts; full editorial review remains open."
+    },
+    "nightlifeRouteCoverage": {
+      "totalRoutes": 165,
+      "workedRoutes": 146,
+      "pendingRoutes": 19,
+      "percent": 88
+    },
+    "nightlifeGapsBuild": {
+      "testedHtml": 30,
+      "routes": 10,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "originalImagesPreserved": true,
+      "nonParagraphStructurePreserved": true,
+      "failures": 0
+    },
+    "guideGapBatch": {
+      "routes": [
+        "/guia/accesibilidad/",
+        "/guia/emergencias/",
+        "/guia/seguro/",
+        "/guia/vacunas/",
+        "/guia/viajar-solo/"
+      ],
+      "testedHtml": 15,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "originalSourceContentPreserved": true,
+      "originalImagesPreserved": true,
+      "officialSourcesRecorded": true,
+      "failures": 0
+    },
+    "nightlifeFactsRefresh": {
+      "routes": [
+        "/vida-nocturna/circo-voador/",
+        "/vida-nocturna/fundicao-progresso/",
+        "/vida-nocturna/feira-sao-cristovao-noite/",
+        "/vida-nocturna/lapa-40-graus/",
+        "/vida-nocturna/pedra-do-sal/",
+        "/vida-nocturna/rio-scenarium/",
+        "/vida-nocturna/trapiche-gamboa/"
+      ],
+      "testedHtml": 21,
+      "languages": [
+        "ES",
+        "PT",
+        "EN"
+      ],
+      "paragraphCountsAndMarkupPreserved": true,
+      "originalImagesPreserved": true,
+      "officialSourcesRecorded": true,
+      "failures": 0
+    },
+    "socialImageFallbackRefresh": {
+      "routes": 16,
+      "generatedLocales": 48,
+      "socialImage": "/assets/brand/ec-mark.png",
+      "editorialPhotography": "PENDING; no images replaced or migrated",
+      "rioFailures": 0
+    },
+    "fullMultilingualBuildAudit": {
+      "generatedHtml": 2070,
+      "languages": [
+        "ES",
+        "PT-BR",
+        "EN"
+      ],
+      "indexablePerLanguage": 683,
+      "sitemapUrls": 2049,
+      "rioPagesAudited": 1860,
+      "rioFailures": 0,
+      "buziosPagesAudited": 210,
+      "buziosFailures": 57,
+      "buziosFinding": "Missing og:image on frozen pages; excluded from this Rio scope",
+      "visualDesktopMobile": "PENDING",
+      "browserConsole": "PENDING"
+    }
+  },
+  "nightlifeGapsEditorialBatch": {
+    "routes": [
+      "/vida-nocturna/cacique-de-ramos/",
+      "/vida-nocturna/fogo-de-chao-botafogo/",
+      "/vida-nocturna/ocya-ilha-primeira/",
+      "/vida-nocturna/portela/",
+      "/vida-nocturna/quadra-mangueira/",
+      "/vida-nocturna/quadra-salgueiro/",
+      "/vida-nocturna/renascenca-clube/",
+      "/vida-nocturna/vitrinni/",
+      "/vida-nocturna/yoo2/",
+      "/vida-nocturna/leviano-bar/"
+    ],
+    "testedHtml": 30,
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "originalImagesPreserved": true,
+    "nonParagraphStructurePreserved": true,
+    "onePracticalParagraphPerRoute": true,
+    "failures": 0,
+    "details": "Added decision-focused guidance to ten short existing nightlife pages: samba-school etiquette, event formats, boat-crossing logistics, public access, and event-specific entry planning."
+  },
+  "existingBeachEditorialBatch": {
+    "routes": [
+      "/playas/leme/",
+      "/playas/copacabana/",
+      "/playas/arpoador/",
+      "/playas/praia-do-diabo/",
+      "/playas/ipanema/",
+      "/playas/leblon/",
+      "/playas/prainha-vidigal/",
+      "/playas/praia-vermelha/",
+      "/playas/botafogo/",
+      "/playas/sao-conrado/",
+      "/playas/joatinga/",
+      "/playas/praia-da-reserva/",
+      "/playas/praia-dos-amores/",
+      "/playas/recreio/",
+      "/playas/abrico/"
+    ],
+    "testedHtml": 45,
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "originalImagesPreserved": true,
+    "mapsPreserved": true,
+    "failures": 0,
+    "details": "Recorded the completed existing-beach editorial batch already documented and verified in the checkpoint; added route statuses that were previously left PENDIENTE."
+  },
+  "guideEditorialBatch": {
+    "routes": [
+      "/guia/accesibilidad/",
+      "/guia/emergencias/",
+      "/guia/seguro/",
+      "/guia/vacunas/",
+      "/guia/viajar-solo/"
+    ],
+    "testedHtml": 15,
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "originalSourceContentPreserved": true,
+    "originalImagesPreserved": true,
+    "officialSourcesRecorded": true,
+    "failures": 0,
+    "details": "Added practical information on station-by-station accessibility, Brazilian emergency numbers, insurance records, yellow-fever recommendations and solo-travel check-ins."
+  },
+  "nightlifeFactsRefreshBatch": {
+    "routes": [
+      "/vida-nocturna/circo-voador/",
+      "/vida-nocturna/fundicao-progresso/",
+      "/vida-nocturna/feira-sao-cristovao-noite/",
+      "/vida-nocturna/lapa-40-graus/",
+      "/vida-nocturna/pedra-do-sal/",
+      "/vida-nocturna/rio-scenarium/",
+      "/vida-nocturna/trapiche-gamboa/"
+    ],
+    "testedHtml": 21,
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "paragraphCountsAndMarkupPreserved": true,
+    "originalImagesPreserved": true,
+    "officialSourcesRecorded": true,
+    "failures": 0,
+    "details": "Removed expired September 2026 references and event-dependent hours, prices and schedules from seven existing pages; directed visitors to the date-specific official listing."
+  },
+  "familyEditorialBatch": {
+    "routes": [
+      "/familia/",
+      "/familia/lluvia/"
+    ],
+    "testedHtml": 6,
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "originalImagesPreserved": true,
+    "originalPageStructurePreserved": true,
+    "failures": 0,
+    "details": "Added family planning guidance for age/energy fit and rain-day accessibility and safety. Full editorial review remains open."
+  },
+  "natureBurleMarxEditorialBatch": {
+    "route": "/naturaleza/sitio-burle-marx/",
+    "testedHtml": 3,
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "originalImagesPreserved": true,
+    "originalStructurePreserved": true,
+    "officialSourcesRecorded": true,
+    "failures": 0,
+    "details": "Added route planning using official visit and walking-route information; full editorial review remains open."
+  },
+  "shoppingMercadaoEditorialBatch": {
+    "route": "/compras/",
+    "testedHtml": 3,
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "originalImagesPreserved": true,
+    "originalLayoutPreserved": true,
+    "officialSourceRecorded": true,
+    "failures": 0,
+    "details": "Added decision guidance about pairing Mercadão de Madureira with the neighborhood and checking live operations."
+  },
+  "nightlifeRouteCoverage": {
+    "totalRoutes": 165,
+    "workedRoutes": 146,
+    "pendingRoutes": 19,
+    "percent": 88
+  },
+  "eventEditorialRefresh": {
+    "routes": [
+      "/eventos/"
+    ],
+    "testedHtml": 3,
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "dynamicFactsRefreshed": true,
+    "originalImagesPreserved": true,
+    "failures": 0,
+    "details": "Archived Rock in Rio 2026 as concluded, recorded announced 2028 return with dates pending, and removed stale future schedule placeholders."
+  },
+  "culturePequenaAfricaBatch": {
+    "route": "/cultura/",
+    "testedHtml": 3,
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "originalImagesPreserved": true,
+    "existingRoutesLinked": true,
+    "officialSourcesRecorded": true,
+    "failures": 0,
+    "details": "Added contextual framing of Pequena África, MUHCAB and Cais do Valongo without creating a duplicate route or changing images."
+  },
+  "bosqueBarAccessEditorialRefresh": {
+    "route": "/vida-nocturna/bosque-bar/",
+    "testedHtml": 3,
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "originalImagesPreserved": true,
+    "existingLayoutPreserved": true,
+    "officialFaqSourceRecorded": true,
+    "failures": 0,
+    "details": "Added current official 18+ admission, prohibited-item, and door-closing guidance with a link to the FAQ; all three language pages generated and checked."
+  },
+  "brewtecoBotafogoOfficialFactsRefresh": {
+    "route": "/vida-nocturna/brewteco-botafogo/",
+    "testedHtml": 3,
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "originalImagesPreserved": true,
+    "existingLayoutPreserved": true,
+    "officialSourcesRecorded": true,
+    "failures": 0,
+    "details": "Corrected the outdated 24-tap claim to the brand-published count of 22 and added the unit’s current weekly music schedule with a date-check caveat."
+  },
+  "cariocaDaGemaOfficialOperationsRefresh": {
+    "route": "/vida-nocturna/carioca-da-gema/",
+    "testedHtml": 3,
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "originalImagesPreserved": true,
+    "existingLayoutPreserved": true,
+    "officialSourcesRecorded": true,
+    "failures": 0,
+    "details": "Clarified weekday-specific door and show times and linked the official ticket cancellation terms; all three language versions generated and checked."
+  }
+}

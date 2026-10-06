@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://rio.rj.gov.br/web/muhcab/apresentacao",
+    "label": "MUHCAB · presentación oficial",
+    "checked": "2026-10-05",
+    "routes": [
+      "/cultura/"
+    ],
+    "use": "Describe la misión del museo en Pequena África y su relación con la memoria y cultura afrobrasileñas.",
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://whc.unesco.org/en/list/1548",
+    "label": "UNESCO · Cais do Valongo Archaeological Site",
+    "checked": "2026-10-05",
+    "routes": [
+      "/cultura/"
+    ],
+    "use": "Contexto patrimonial e histórico del Cais do Valongo como lugar de desembarco de africanos esclavizados en las Américas.",
+    "imageReusePermission": false
+  }
+]

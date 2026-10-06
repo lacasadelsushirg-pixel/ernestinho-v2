@@ -1,8 +1,237 @@
 {
-  "generated": 1788,
-  "indexable": 1767,
-  "indexable_per_language": 589,
-  "failed": 0,
-  "errors": [],
+  "generated": 2070,
+  "indexable": 2049,
+  "indexable_per_language": 683,
+  "failed": 57,
+  "errors": [
+    {
+      "route": "/destinos/buzios/comer-y-salir/74-restaurant/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/agaleria/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/altto/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/anexo-praia/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/farinatta/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/la-gare/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/macaw/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/octopous/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/pescadores/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/san-telmo/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/comer-y-salir/tawa-beach/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/playas/amores/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/playas/caravelas/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/playas/foca/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/playas/gorda/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/playas/jose-goncalves/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/playas/olho-de-boi/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/playas/tucuns/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/destinos/buzios/playas/virgens/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/74-restaurant/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/agaleria/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/altto/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/anexo-praia/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/farinatta/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/la-gare/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/macaw/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/octopous/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/pescadores/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/san-telmo/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/comer-y-salir/tawa-beach/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/playas/amores/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/playas/caravelas/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/playas/foca/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/playas/gorda/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/playas/jose-goncalves/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/playas/olho-de-boi/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/playas/tucuns/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/en/destinos/buzios/playas/virgens/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/74-restaurant/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/agaleria/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/altto/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/anexo-praia/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/farinatta/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/la-gare/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/macaw/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/octopous/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/pescadores/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/san-telmo/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/comer-y-salir/tawa-beach/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/playas/amores/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/playas/caravelas/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/playas/foca/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/playas/gorda/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/playas/jose-goncalves/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/playas/olho-de-boi/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/playas/tucuns/",
+      "error": "Missing og:image"
+    },
+    {
+      "route": "/pt/destinos/buzios/playas/virgens/",
+      "error": "Missing og:image"
+    }
+  ],
   "static_content_without_javascript": true
 }

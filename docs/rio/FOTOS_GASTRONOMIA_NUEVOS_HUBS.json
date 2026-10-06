@@ -1,0 +1,102 @@
+[
+  {
+    "route": "/gastronomia/padarias/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior1": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior2": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "note": "No stock or unrelated food image inserted; source and license selection remains open."
+  },
+  {
+    "route": "/gastronomia/casas-de-suco/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior1": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior2": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "note": "No stock or unrelated food image inserted; source and license selection remains open."
+  },
+  {
+    "route": "/gastronomia/espetinhos/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior1": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior2": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "note": "No stock or unrelated food image inserted; source and license selection remains open."
+  },
+  {
+    "route": "/gastronomia/lanches-cariocas/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior1": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior2": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "note": "No stock or unrelated food image inserted; source and license selection remains open."
+  },
+  {
+    "route": "/gastronomia/fast-food/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior1": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior2": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "note": "No stock or unrelated food image inserted; source and license selection remains open."
+  }
+]

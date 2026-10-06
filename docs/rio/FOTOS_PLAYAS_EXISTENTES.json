@@ -1,0 +1,437 @@
+[
+  {
+    "route": "/playas/leme/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?auto=format&fit=crop&q=80&w=800",
+      "alt": "Playa de Leme foto 1",
+      "source": "images.unsplash.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://st3.depositphotos.com/2169563/14131/i/450/depositphotos_141317238-stock-photo-famous-portuguese-style-mosaic.jpg",
+      "alt": "Playa de Leme foto 2",
+      "source": "st3.depositphotos.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/copacabana/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://megustavolar.iberia.com/wp-content/uploads/mgv/Copabacana_Brasil_Rio_Janeiro_Catarina-Belova_Shutterstock-640x428.jpg",
+      "alt": "Playa de Copacabana foto 1",
+      "source": "megustavolar.iberia.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://external-preview.redd.it/7xayvBrYtrkR-kgn6oAPGJj2zMm2aYcvKvGYdXD9ze4.jpg?auto=webp&s=5f91c554f6e3d9486a8ccfd7fbfcffedc7042c8a",
+      "alt": "Playa de Copacabana foto 2",
+      "source": "external-preview.redd.it",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/arpoador/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://a.cdn-hotels.com/gdcs/production70/d1191/8aa1310a-1226-4628-962d-6beffa746837.jpg",
+      "alt": "Playa de Arpoador foto 1",
+      "source": "a.cdn-hotels.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://www.viajali.com.br/wp-content/uploads/2019/01/arpoador-00.jpg",
+      "alt": "Playa de Arpoador foto 2",
+      "source": "www.viajali.com.br",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/praia-do-diabo/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://www.tevejopelomundo.com.br/wp-content/uploads/2020/04/praia-do-diabo-mare-baixa.jpg",
+      "alt": "Praia do Diabo (Playa del Diablo) foto 1",
+      "source": "www.tevejopelomundo.com.br",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://www.tevejopelomundo.com.br/wp-content/uploads/2020/04/praia-do-diabo-google-maps.jpeg",
+      "alt": "Praia do Diabo (Playa del Diablo) foto 2",
+      "source": "www.tevejopelomundo.com.br",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/ipanema/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://a.cdn-hotels.com/gdcs/production165/d100/5e0a7326-4dd3-40cc-9eb7-3af978f69b3d.jpg",
+      "alt": "Playa de Ipanema foto 1",
+      "source": "a.cdn-hotels.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://www.viajali.com.br/wp-content/uploads/2020/05/praia-de-ipanema-11.jpg",
+      "alt": "Playa de Ipanema foto 2",
+      "source": "www.viajali.com.br",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/leblon/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://www.transportal.com.br/noticias/wp-content/uploads/2020/07/Leblon.jpg",
+      "alt": "Playa de Leblon foto 1",
+      "source": "www.transportal.com.br",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://external-preview.redd.it/3323iLDW5vqbLVtUm8DOZRv0CDDD1YhzdsR67qjvaJM.jpg?auto=webp&s=dbdc48e9bc3f9016be6903685ef94c8799e9eed4",
+      "alt": "Playa de Leblon foto 2",
+      "source": "external-preview.redd.it",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/prainha-vidigal/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://ogimg.infoglobo.com.br/in/18641983-d9f-34e/FT1086A/2016-885149432-201602021235295503.jpg_20160202.jpg",
+      "alt": "Prainha do Vidigal foto 1",
+      "source": "ogimg.infoglobo.com.br",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://tevejopelomundo.com.br/wp-content/uploads/2017/11/praia-do-vidigal-vista-das-pedras.jpg",
+      "alt": "Prainha do Vidigal foto 2",
+      "source": "tevejopelomundo.com.br",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/praia-vermelha/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://a.cdn-hotels.com/gdcs/production41/d1240/968d4064-1c6a-40dd-a825-0d93debe5ad9.jpg",
+      "alt": "Praia Vermelha foto 1",
+      "source": "a.cdn-hotels.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://a.cdn-hotels.com/gdcs/production179/d1982/ad9dc07c-7c0d-4f35-bd60-7f52f294d526.jpg",
+      "alt": "Praia Vermelha foto 2",
+      "source": "a.cdn-hotels.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/botafogo/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://images.mnstatic.com/1a/fa/1afa6f0082e3a41a2c52453d4947facc.jpg?quality=75&format=pjpg&fit=crop&width=980&height=880&aspect_ratio=980%3A880",
+      "alt": "Playa de Botafogo foto 1",
+      "source": "images.mnstatic.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/4f/39/3b/20170128-142713-largejpg.jpg?w=1200&h=-1&s=1",
+      "alt": "Playa de Botafogo foto 2",
+      "source": "dynamic-media-cdn.tripadvisor.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/sao-conrado/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/64000/64417-Sao-Conrado-Beach.jpg",
+      "alt": "Playa de São Conrado foto 1",
+      "source": "a.travel-assets.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/64000/64416-Sao-Conrado-Beach.jpg",
+      "alt": "Playa de São Conrado foto 2",
+      "source": "a.travel-assets.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/joatinga/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://www.dicasdeviagem.com/wp-content/uploads/2015/06/Joatinga-praia-rj.jpg",
+      "alt": "Playa de Joatinga foto 1",
+      "source": "www.dicasdeviagem.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://a.cdn-hotels.com/gdcs/production142/d846/0f298f20-3ae6-470d-b388-b1b7d90e6e0e.jpg",
+      "alt": "Playa de Joatinga foto 2",
+      "source": "a.cdn-hotels.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/praia-dos-amores/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://diariodorio.com/wp-content/uploads/2021/09/praia-dos-amores-696x522.jpg",
+      "alt": "Praia dos Amores (Barra) foto 1",
+      "source": "diariodorio.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://www.cariocasemfronteiras.com.br/wp-content/uploads/2020/08/Praia-dos-Amores-Quebra-Mar-Barra-da-Tijuca-1024x768.jpg",
+      "alt": "Praia dos Amores (Barra) foto 2",
+      "source": "www.cariocasemfronteiras.com.br",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/praia-da-reserva/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://imgmd.net/images/v1/guia/1689728/praia-da-reserva.jpg",
+      "alt": "Praia da Reserva foto 1",
+      "source": "imgmd.net",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://imgmd.net/images/v1/guia/1689726/praia-da-reserva.jpg",
+      "alt": "Praia da Reserva foto 2",
+      "source": "imgmd.net",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/recreio/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://diariodorio.com/wp-content/uploads/2019/07/praia-do-recreio-rio-de-janeiro-1280x720.jpeg",
+      "alt": "Playa de Recreio dos Bandeirantes foto 1",
+      "source": "diariodorio.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://diariodorio.com/wp-content/uploads/2019/06/o-que-fazer-no-recreio-dos-bandeirantes-7.jpg",
+      "alt": "Playa de Recreio dos Bandeirantes foto 2",
+      "source": "diariodorio.com",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  },
+  {
+    "route": "/playas/abrico/",
+    "hero": {
+      "url": null,
+      "status": "FALTA — ERNESTO",
+      "reason": "No dedicated, rights-cleared hero image is recorded for this page."
+    },
+    "interior1": {
+      "url": "https://www.viagenspossiveis.com.br/wp-content/uploads/2013/03/praia-nudismo-abrico-rj-42.jpg",
+      "alt": "Playa de Abricó foto 1",
+      "source": "www.viagenspossiveis.com.br",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior2": {
+      "url": "https://www.fbrn.org.br/wp-content/uploads/2021/05/anabricopage1720x480.png",
+      "alt": "Playa de Abricó foto 2",
+      "source": "www.fbrn.org.br",
+      "license": null,
+      "status": "REEMPLAZAR",
+      "reason": "The source/license is not documented in the Rio repository; third-party editorial, stock, hotel, social or image-aggregator URL. Do not reuse without rights evidence."
+    },
+    "interior3": {
+      "url": null,
+      "status": "FALTA — ERNESTO"
+    },
+    "review": "Inventory audit only; no public images changed. Confirm any prior image approvals before replacing."
+  }
+]

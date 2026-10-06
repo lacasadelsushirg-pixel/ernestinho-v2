@@ -1,14 +1,14 @@
 const GRANDES_EVENTOS = [
   {
-    id:'rock-in-rio', nombre:'Rock in Rio', icon:'🎸', mes:'Septiembre', tipo:'Música', gratis:false, estado:'Confirmado', fecha:'4, 5, 6, 7, 11, 12 y 13 de septiembre de 2026', lugar:'Cidade do Rock · Parque Olímpico · Barra da Tijuca',
+    id:'rock-in-rio', nombre:'Rock in Rio', icon:'🎸', mes:'Septiembre', tipo:'Música', gratis:false, estado:'Edición 2026 finalizada · próxima en 2028', fecha:'2026: 4–7 y 11–13 de septiembre · próxima edición en 2028, fechas por anunciar', lugar:'Cidade do Rock · Parque Olímpico · Barra da Tijuca',
     miniatura:'https://classic.exame.com/wp-content/uploads/2024/09/RIR_240911_PalcoMundo_ArielMartini_6628-Edit.jpg',
     hero:'https://www.gordinhadealma.com.br/wp-content/uploads/2024/01/IHF_RIR22_Dia09-Publico-ArielMartini-0054.jpg',
-    resumen:'La Cidade do Rock vuelve a encender Río con siete jornadas, grandes escenarios y artistas de distintos estilos.',
-    intro:'Rock in Rio no es simplemente comprar una entrada y llegar para ver a tu artista favorito. La Cidade do Rock es enorme, vas a caminar muchísimo y el regreso puede ser tan importante como el concierto. Si yo estuviera organizando tu día, elegiría primero los artistas imperdibles y recién después armaría el recorrido.',
+    resumen:'La edición 2026 terminó tras siete jornadas en la Cidade do Rock. Rock in Rio anunció su regreso en 2028; las próximas fechas aún están por anunciar.',
+    intro:'La edición de 2026 ya terminó; esta ficha conserva su información como referencia. Para la próxima, yo no organizaría el día sólo por artistas: la Cidade do Rock es enorme y el regreso exige planificación. Rock in Rio anunció que vuelve en 2028, pero todavía faltan fechas y operación; cuando se publiquen, confirma horarios, transporte, accesos y reglas en el canal oficial.',
     galeria:[['Palco Mundo y escala de la Cidade do Rock','https://classic.exame.com/wp-content/uploads/2024/09/RIR_240911_PalcoMundo_ArielMartini_6628-Edit.jpg','Exame · foto de la edición 2024'],['El público viviendo una jornada completa de festival','https://www.gordinhadealma.com.br/wp-content/uploads/2024/01/IHF_RIR22_Dia09-Publico-ArielMartini-0054.jpg','Archivo Rock in Rio · Ariel Martini'],['Atardecer, escenario y rueda gigante','https://novabrasilfm.com.br/app/uploads/2024/09/Rock-in-Rio-Div-tempo.jpg','Novabrasil · edición 2024']],
     voz:[['Lo que yo haría','Llegaría con tiempo, ubicaría agua y baños, guardaría el mapa sin conexión y definiría dos o tres shows realmente prioritarios. Intentar verlo todo termina convirtiendo la noche en una carrera.'],['El error que debes evitar','No calcules la salida como si estuvieras dejando un shopping. Cuando cien mil personas se mueven juntas, caminar, esperar y conectar con el transporte lleva tiempo.'],['Mi consejo para el regreso','Guarda energía, batería y un punto de encuentro. Si vas con un grupo, acuerden de antemano qué harán si la señal desaparece.'],['¿Barra o Copacabana?','Barra acorta la logística; Copacabana ofrece la experiencia turística completa, pero exige aceptar un regreso más largo. La respuesta depende de cuántos días vienes y cuántas jornadas del festival tendrás.']],
     historia:['La primera edición se realizó en 1985 y reunió nombres como Queen, AC/DC, Iron Maiden, Rod Stewart, Ozzy Osbourne y artistas brasileños.','Con el tiempo llegó a Lisboa, Madrid y Las Vegas, mientras Río continuó siendo su casa histórica. La Cidade do Rock actual funciona junto al Parque Olímpico, en Barra da Tijuca.','Cada edición cambia de programación y estructura. Por eso, line-up, horarios, entradas, accesos y objetos permitidos deben comprobarse nuevamente antes de salir.'],
-    destacados:['Siete días confirmados en 2026','Puertas: 14:00 · cierre: 03:00','Último acceso informado: 00:00','Entradas únicamente por canales oficiales'],
+    destacados:['Edición 2026 realizada del 4 al 13 de septiembre','Siete jornadas en la Cidade do Rock','Próxima edición anunciada para 2028 · fechas pendientes','Revisar el canal oficial cuando se abra la nueva edición'],
     comoLlegar:['Desde Zona Sul, la combinación habitual es Metro hasta Jardim Oceânico y conexión con el transporte especial anunciado para el festival.','Desde Barra o Recreio, sigue exclusivamente la operación extraordinaria de BRT y los puntos oficiales de embarque.','No recomiendo automóvil: existen bloqueos, áreas sin estacionamiento y alta demanda de vehículos por aplicación al terminar. Reserva margen para filas y caminatas.'],
     llevar:['Documento y entrada cargada también sin conexión','Calzado muy cómodo y protección para lluvia','Botella permitida según reglamento vigente','Protector solar y batería portátil'],
     noLlevar:['Vidrio, objetos cortantes o elementos prohibidos por la edición','Bolsos grandes que dificulten controles y desplazamientos','Entradas compradas por reventa no autorizada'],
@@ -16,14 +16,14 @@ const GRANDES_EVENTOS = [
     alojamiento:'Barra y Jacarepaguá reducen el trayecto; Zona Sul ofrece más vida turística, pero exige una vuelta larga de madrugada. Reserva temprano y no calcules el desplazamiento como un día normal.',
     fuentes:[['Line-up oficial','https://rockinrio.com/rio/pt-br/line-up/'],['Información oficial','https://rockinrio.com/rio/pt-br/informacoes/'],['Preguntas frecuentes','https://rockinrio.com/rio/pt-br/faq/'],['Historia del festival','https://rockinrio.com/rio/pt-br/historia/']],
     artistas:[
-      ['04 SEP','Palco Mundo','Horario por confirmar','Foo Fighters','Rock','Principal','Confirmado'],
-      ['04 SEP','Palco Mundo','Horario por confirmar','Rise Against','Punk rock','—','Confirmado'],
-      ['04 SEP','Palco Mundo','Horario por confirmar','The Hives','Rock','—','Confirmado'],
-      ['05 SEP','Palco Mundo','Horario por confirmar','Avenged Sevenfold','Metal','Principal','Confirmado'],
-      ['05 SEP','Palco Mundo','Horario por confirmar','Bring Me The Horizon','Rock / metal','—','Confirmado'],
-      ['05 SEP','Palco Mundo','Horario por confirmar','mgk','Rock / pop','—','Confirmado'],
-      ['05 SEP','Palco Mundo','Horario por confirmar','Sepultura','Metal','—','Confirmado'],
-      ['07 SEP','Palco Mundo','Horario por confirmar','Elton John','Pop / rock','Principal','Confirmado']
+      ['04 SEP','Palco Mundo','—','Foo Fighters','Rock','Principal','Confirmado'],
+      ['04 SEP','Palco Mundo','—','Rise Against','Punk rock','—','Confirmado'],
+      ['04 SEP','Palco Mundo','—','The Hives','Rock','—','Confirmado'],
+      ['05 SEP','Palco Mundo','—','Avenged Sevenfold','Metal','Principal','Confirmado'],
+      ['05 SEP','Palco Mundo','—','Bring Me The Horizon','Rock / metal','—','Confirmado'],
+      ['05 SEP','Palco Mundo','—','mgk','Rock / pop','—','Confirmado'],
+      ['05 SEP','Palco Mundo','—','Sepultura','Metal','—','Confirmado'],
+      ['07 SEP','Palco Mundo','—','Elton John','Pop / rock','Principal','Confirmado']
     ]
   },
   {

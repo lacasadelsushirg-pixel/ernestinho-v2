@@ -1,0 +1,218 @@
+[
+  {
+    "url": "https://www.thebakers.com.br/lojas/",
+    "label": "The Bakers: Copacabana open; Ipanema operation closed",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/padarias/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.talhocapixaba.com.br/contato",
+    "label": "Talho Capixaba: official location contacts",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/padarias/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://alvapadariaartesanal.com.br/pages/contact",
+    "label": "Alva: official contact/location",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/padarias/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.araucariapaes.com/",
+    "label": "Araucária: official history and Lapa salão",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/padarias/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://vejario.abril.com.br/estabelecimento/dianna-bakery/",
+    "label": "Veja Rio: Dianna Bakery profile",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/padarias/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://vejario.abril.com.br/estabelecimento/the-slow-bakery/",
+    "label": "Veja Rio: The Slow Bakery profile",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/padarias/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://polisucos.com.br/nossa-historia/",
+    "label": "Polis Sucos: official history",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/casas-de-suco/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.bigpolis.com.br/",
+    "label": "Big Polis: official unit directory",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/casas-de-suco/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.bigbi.com.br/pt",
+    "label": "BigBi: official unit directory",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/casas-de-suco/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://riotur.rio/en/onde_comer/bibi-sucos-2/",
+    "label": "Riotur: Bibi Sucos profile",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/casas-de-suco/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://espettocarioca.com.br/lojas/rio-de-janeiro/",
+    "label": "Espetto Carioca: official Rio store list",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/espetinhos/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://espettocarioca.com.br/lojas/rio-de-janeiro/olegario/",
+    "label": "Espetto Carioca: Olegário unit",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/espetinhos/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://espettocarioca.com.br/lojas/rio-de-janeiro/recreio/",
+    "label": "Espetto Carioca: Recreio unit",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/espetinhos/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://espettocarioca.com.br/lojas/rio-de-janeiro/copacabana/",
+    "label": "Espetto Carioca: Copacabana unit",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/espetinhos/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://bobs.com.br/onde-tem-bobs",
+    "label": "Bob’s: official store locator",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/fast-food/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.giraffas.com.br/",
+    "label": "Giraffas: official brand",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/fast-food/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.habibs.com.br/",
+    "label": "Habib’s: official brand",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/fast-food/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.mcdonalds.com.br/",
+    "label": "McDonald’s Brasil: official brand",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/fast-food/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.burgerking.com.br/",
+    "label": "Burger King Brasil: official brand",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/fast-food/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.subway.com/pt-BR",
+    "label": "Subway Brasil: official brand",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/fast-food/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://linktr.ee/padariasanta.marta",
+    "label": "Padaria Santa Marta: official store and contact links",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/padarias/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://bobs.com.br/sobre-o-bobs",
+    "label": "Bob’s: origin in Copacabana, Rio",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/fast-food/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.giraffas.com.br/cardapio/",
+    "label": "Giraffas: official menu",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/fast-food/"
+    ],
+    "imageReusePermission": false
+  },
+  {
+    "url": "https://www.habibs.com.br/institucional/nossa-historia",
+    "label": "Habib’s: official history and menu identity",
+    "checked": "2026-10-05",
+    "routes": [
+      "/gastronomia/fast-food/"
+    ],
+    "imageReusePermission": false
+  }
+]

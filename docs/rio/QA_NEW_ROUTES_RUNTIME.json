@@ -1,0 +1,967 @@
+{
+  "tested": 96,
+  "failures": 0,
+  "externalServicesExcluded": true,
+  "rows": [
+    {
+      "route": "/consejos/estado-del-mar-playas/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Estado del mar en Río: cómo elegir playa hoy | Ernestinho",
+      "bodyLength": 4951,
+      "description": "Distingue oleaje, viento, ressaca y balneabilidad en Río. Consulta INEA, alertas y guardavidas para decidir qué playa y qué actividad tienen sentido hoy.",
+      "expectedDescription": "Distingue oleaje, viento, ressaca y balneabilidad en Río. Consulta INEA, alertas y guardavidas para decidir qué playa y qué actividad tienen sentido hoy."
+    },
+    {
+      "route": "/consejos/estado-del-mar-playas/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Estado del mar en Río: cómo elegir playa hoy | Ernestinho",
+      "bodyLength": 4963,
+      "description": "Distingue oleaje, viento, ressaca y balneabilidad en Río. Consulta INEA, alertas y guardavidas para decidir qué playa y qué actividad tienen sentido hoy.",
+      "expectedDescription": "Distingue oleaje, viento, ressaca y balneabilidad en Río. Consulta INEA, alertas y guardavidas para decidir qué playa y qué actividad tienen sentido hoy."
+    },
+    {
+      "route": "/consejos/mascotas-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Río con mascotas: playa, documentos y transporte | Ernestinho",
+      "bodyLength": 5400,
+      "description": "Prepara Río con tu mascota: documentos de entrada, ley de perros en playas, calor, transporte, alojamiento y cómo verificar atención veterinaria.",
+      "expectedDescription": "Prepara Río con tu mascota: documentos de entrada, ley de perros en playas, calor, transporte, alojamiento y cómo verificar atención veterinaria."
+    },
+    {
+      "route": "/consejos/mascotas-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Río con mascotas: playa, documentos y transporte | Ernestinho",
+      "bodyLength": 5412,
+      "description": "Prepara Río con tu mascota: documentos de entrada, ley de perros en playas, calor, transporte, alojamiento y cómo verificar atención veterinaria.",
+      "expectedDescription": "Prepara Río con tu mascota: documentos de entrada, ley de perros en playas, calor, transporte, alojamiento y cómo verificar atención veterinaria."
+    },
+    {
+      "route": "/consejos/playa-barracas-quiosques/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barracas, quiosques y ambulantes en Río | Ernestinho",
+      "bodyLength": 4647,
+      "description": "Entiende un día de playa en Río: barraca, quiosque y ambulante, silla, sombrilla, cuenta y pertenencias. Referencia EC: Barraca Rio 122 en Posto 4.",
+      "expectedDescription": "Entiende un día de playa en Río: barraca, quiosque y ambulante, silla, sombrilla, cuenta y pertenencias. Referencia EC: Barraca Rio 122 en Posto 4."
+    },
+    {
+      "route": "/consejos/playa-barracas-quiosques/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barracas, quiosques y ambulantes en Río | Ernestinho",
+      "bodyLength": 4659,
+      "description": "Entiende un día de playa en Río: barraca, quiosque y ambulante, silla, sombrilla, cuenta y pertenencias. Referencia EC: Barraca Rio 122 en Posto 4.",
+      "expectedDescription": "Entiende un día de playa en Río: barraca, quiosque y ambulante, silla, sombrilla, cuenta y pertenencias. Referencia EC: Barraca Rio 122 en Posto 4."
+    },
+    {
+      "route": "/consejos/servicios-practicos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Servicios prácticos en Río: resolver el día a día | Ernestinho",
+      "bodyLength": 5877,
+      "description": "Farmacias, lavanderías, cajeros, cambio, Correios, impresión, llaves y objetos perdidos en Río: cómo localizar, preguntar y verificar antes de salir.",
+      "expectedDescription": "Farmacias, lavanderías, cajeros, cambio, Correios, impresión, llaves y objetos perdidos en Río: cómo localizar, preguntar y verificar antes de salir."
+    },
+    {
+      "route": "/consejos/servicios-practicos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Servicios prácticos en Río: resolver el día a día | Ernestinho",
+      "bodyLength": 5889,
+      "description": "Farmacias, lavanderías, cajeros, cambio, Correios, impresión, llaves y objetos perdidos en Río: cómo localizar, preguntar y verificar antes de salir.",
+      "expectedDescription": "Farmacias, lavanderías, cajeros, cambio, Correios, impresión, llaves y objetos perdidos en Río: cómo localizar, preguntar y verificar antes de salir."
+    },
+    {
+      "route": "/en/consejos/estado-del-mar-playas/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio Sea Conditions: Choosing a Beach Today | Ernestinho",
+      "bodyLength": 4618,
+      "description": "Understand waves, wind, storm swell and bathing-water quality in Rio. Use INEA reports, alerts and lifeguard advice to choose today’s beach and activity.",
+      "expectedDescription": "Understand waves, wind, storm swell and bathing-water quality in Rio. Use INEA reports, alerts and lifeguard advice to choose today’s beach and activity."
+    },
+    {
+      "route": "/en/consejos/mascotas-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio with Pets: Beaches, Documents & Transport | Ernestinho",
+      "bodyLength": 4904,
+      "description": "Plan Rio with your pet: entry documents, beach dog rules, heat, transport, accommodation and how to check veterinary care.",
+      "expectedDescription": "Plan Rio with your pet: entry documents, beach dog rules, heat, transport, accommodation and how to check veterinary care."
+    },
+    {
+      "route": "/en/consejos/mascotas-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio with Pets: Beaches, Documents & Transport | Ernestinho",
+      "bodyLength": 4916,
+      "description": "Plan Rio with your pet: entry documents, beach dog rules, heat, transport, accommodation and how to check veterinary care.",
+      "expectedDescription": "Plan Rio with your pet: entry documents, beach dog rules, heat, transport, accommodation and how to check veterinary care."
+    },
+    {
+      "route": "/en/consejos/estado-del-mar-playas/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio Sea Conditions: Choosing a Beach Today | Ernestinho",
+      "bodyLength": 4630,
+      "description": "Understand waves, wind, storm swell and bathing-water quality in Rio. Use INEA reports, alerts and lifeguard advice to choose today’s beach and activity.",
+      "expectedDescription": "Understand waves, wind, storm swell and bathing-water quality in Rio. Use INEA reports, alerts and lifeguard advice to choose today’s beach and activity."
+    },
+    {
+      "route": "/en/consejos/playa-barracas-quiosques/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio Beach Stalls, Kiosks & Vendors | Ernestinho",
+      "bodyLength": 4315,
+      "description": "Understand a Rio beach day: stalls, kiosks, vendors, chairs, umbrellas, bills and belongings. EC reference: Barraca Rio 122 at Posto 4.",
+      "expectedDescription": "Understand a Rio beach day: stalls, kiosks, vendors, chairs, umbrellas, bills and belongings. EC reference: Barraca Rio 122 at Posto 4."
+    },
+    {
+      "route": "/en/consejos/servicios-practicos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Practical Services in Rio: Everyday Solutions | Ernestinho",
+      "bodyLength": 5409,
+      "description": "Pharmacies, laundry, cash machines, exchange, post offices, printing, keys and lost belongings in Rio: what to ask and check before setting out.",
+      "expectedDescription": "Pharmacies, laundry, cash machines, exchange, post offices, printing, keys and lost belongings in Rio: what to ask and check before setting out."
+    },
+    {
+      "route": "/en/consejos/playa-barracas-quiosques/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio Beach Stalls, Kiosks & Vendors | Ernestinho",
+      "bodyLength": 4327,
+      "description": "Understand a Rio beach day: stalls, kiosks, vendors, chairs, umbrellas, bills and belongings. EC reference: Barraca Rio 122 at Posto 4.",
+      "expectedDescription": "Understand a Rio beach day: stalls, kiosks, vendors, chairs, umbrellas, bills and belongings. EC reference: Barraca Rio 122 at Posto 4."
+    },
+    {
+      "route": "/en/consejos/servicios-practicos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Practical Services in Rio: Everyday Solutions | Ernestinho",
+      "bodyLength": 5421,
+      "description": "Pharmacies, laundry, cash machines, exchange, post offices, printing, keys and lost belongings in Rio: what to ask and check before setting out.",
+      "expectedDescription": "Pharmacies, laundry, cash machines, exchange, post offices, printing, keys and lost belongings in Rio: what to ask and check before setting out."
+    },
+    {
+      "route": "/en/playas/barra-da-tijuca/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barra da Tijuca Beach: Choosing a Stretch & Getting There | Ernestinho",
+      "bodyLength": 4171,
+      "description": "Barra is not one meeting point: compare stretches, sea, sports, kiosks, transport, parking, family needs and accessibility before choosing.",
+      "expectedDescription": "Barra is not one meeting point: compare stretches, sea, sports, kiosks, transport, parking, family needs and accessibility before choosing."
+    },
+    {
+      "route": "/en/playas/barra-da-tijuca/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barra da Tijuca Beach: Choosing a Stretch & Getting There | Ernestinho",
+      "bodyLength": 4159,
+      "description": "Barra is not one meeting point: compare stretches, sea, sports, kiosks, transport, parking, family needs and accessibility before choosing.",
+      "expectedDescription": "Barra is not one meeting point: compare stretches, sea, sports, kiosks, transport, parking, family needs and accessibility before choosing."
+    },
+    {
+      "route": "/en/playas/barra-de-guaratiba/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barra de Guaratiba: Beach, Neighbourhood & Return | Ernestinho",
+      "bodyLength": 4396,
+      "description": "A western Rio outing to Barra de Guaratiba: the neighbourhood beach, food, access, transport, families and its difference from the wild beaches.",
+      "expectedDescription": "A western Rio outing to Barra de Guaratiba: the neighbourhood beach, food, access, transport, families and its difference from the wild beaches."
+    },
+    {
+      "route": "/en/playas/barra-de-guaratiba/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barra de Guaratiba: Beach, Neighbourhood & Return | Ernestinho",
+      "bodyLength": 4408,
+      "description": "A western Rio outing to Barra de Guaratiba: the neighbourhood beach, food, access, transport, families and its difference from the wild beaches.",
+      "expectedDescription": "A western Rio outing to Barra de Guaratiba: the neighbourhood beach, food, access, transport, families and its difference from the wild beaches."
+    },
+    {
+      "route": "/en/playas/flamengo/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Flamengo Beach: Bay, Park & Waterfront Walks | Ernestinho",
+      "bodyLength": 4011,
+      "description": "Flamengo as a beach-and-park outing: water reports to check, sports, transport, food, families, mobility and links with Catete and MAM.",
+      "expectedDescription": "Flamengo as a beach-and-park outing: water reports to check, sports, transport, food, families, mobility and links with Catete and MAM."
+    },
+    {
+      "route": "/en/playas/flamengo/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Flamengo Beach: Bay, Park & Waterfront Walks | Ernestinho",
+      "bodyLength": 3999,
+      "description": "Flamengo as a beach-and-park outing: water reports to check, sports, transport, food, families, mobility and links with Catete and MAM.",
+      "expectedDescription": "Flamengo as a beach-and-park outing: water reports to check, sports, transport, food, families, mobility and links with Catete and MAM."
+    },
+    {
+      "route": "/en/playas/grumari/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Grumari: Beach, Access & Protected Surroundings | Ernestinho",
+      "bodyLength": 4585,
+      "description": "Choosing Grumari: an ocean beach in western Rio, kiosks, parking, the return journey, children, access barriers and neighbouring Abricó.",
+      "expectedDescription": "Choosing Grumari: an ocean beach in western Rio, kiosks, parking, the return journey, children, access barriers and neighbouring Abricó."
+    },
+    {
+      "route": "/en/playas/grumari/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Grumari: Beach, Access & Protected Surroundings | Ernestinho",
+      "bodyLength": 4573,
+      "description": "Choosing Grumari: an ocean beach in western Rio, kiosks, parking, the return journey, children, access barriers and neighbouring Abricó.",
+      "expectedDescription": "Choosing Grumari: an ocean beach in western Rio, kiosks, parking, the return journey, children, access barriers and neighbouring Abricó."
+    },
+    {
+      "route": "/en/playas/macumba/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Macumba: Surf, Waterfront & Planning a Visit | Ernestinho",
+      "bodyLength": 4203,
+      "description": "Macumba in Recreio: surfing identity, ocean conditions, kiosks, cycle path, access, children, mobility and its difference from Pontal and Prainha.",
+      "expectedDescription": "Macumba in Recreio: surfing identity, ocean conditions, kiosks, cycle path, access, children, mobility and its difference from Pontal and Prainha."
+    },
+    {
+      "route": "/en/playas/macumba/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Macumba: Surf, Waterfront & Planning a Visit | Ernestinho",
+      "bodyLength": 4191,
+      "description": "Macumba in Recreio: surfing identity, ocean conditions, kiosks, cycle path, access, children, mobility and its difference from Pontal and Prainha.",
+      "expectedDescription": "Macumba in Recreio: surfing identity, ocean conditions, kiosks, cycle path, access, children, mobility and its difference from Pontal and Prainha."
+    },
+    {
+      "route": "/en/playas/pepe/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Pepê: Beach, Sports & Jardim Oceânico | Ernestinho",
+      "bodyLength": 4217,
+      "description": "The Pepê stretch at the start of Barra: finding it, sea and sports, access, kiosks, children and combinations in Jardim Oceânico.",
+      "expectedDescription": "The Pepê stretch at the start of Barra: finding it, sea and sports, access, kiosks, children and combinations in Jardim Oceânico."
+    },
+    {
+      "route": "/en/playas/pepe/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Pepê: Beach, Sports & Jardim Oceânico | Ernestinho",
+      "bodyLength": 4229,
+      "description": "The Pepê stretch at the start of Barra: finding it, sea and sports, access, kiosks, children and combinations in Jardim Oceânico.",
+      "expectedDescription": "The Pepê stretch at the start of Barra: finding it, sea and sports, access, kiosks, children and combinations in Jardim Oceânico."
+    },
+    {
+      "route": "/en/playas/perigoso/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Perigoso: Trail, Beach & Return Planning | Ernestinho",
+      "bodyLength": 4302,
+      "description": "Perigoso near Guaratiba: a wild beach requiring planning for access, water, effort, sea, children, mobility barriers and a daylight return.",
+      "expectedDescription": "Perigoso near Guaratiba: a wild beach requiring planning for access, water, effort, sea, children, mobility barriers and a daylight return."
+    },
+    {
+      "route": "/en/playas/perigoso/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Perigoso: Trail, Beach & Return Planning | Ernestinho",
+      "bodyLength": 4290,
+      "description": "Perigoso near Guaratiba: a wild beach requiring planning for access, water, effort, sea, children, mobility barriers and a daylight return.",
+      "expectedDescription": "Perigoso near Guaratiba: a wild beach requiring planning for access, water, effort, sea, children, mobility barriers and a daylight return."
+    },
+    {
+      "route": "/en/playas/pontal/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Pontal: Beach, Pedra do Pontal & Tides | Ernestinho",
+      "bodyLength": 4130,
+      "description": "The Pontal stretch in Recreio: sand, sea, its difference from Macumba, access, services and why climbing the rock is a separate outing.",
+      "expectedDescription": "The Pontal stretch in Recreio: sand, sea, its difference from Macumba, access, services and why climbing the rock is a separate outing."
+    },
+    {
+      "route": "/en/playas/pontal/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Pontal: Beach, Pedra do Pontal & Tides | Ernestinho",
+      "bodyLength": 4142,
+      "description": "The Pontal stretch in Recreio: sand, sea, its difference from Macumba, access, services and why climbing the rock is a separate outing.",
+      "expectedDescription": "The Pontal stretch in Recreio: sand, sea, its difference from Macumba, access, services and why climbing the rock is a separate outing."
+    },
+    {
+      "route": "/en/playas/praia-da-urca/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia da Urca: Waterfront Walks, Bay & Access | Ernestinho",
+      "bodyLength": 4537,
+      "description": "Praia da Urca on Guanabara Bay: a neighbourhood outing, its difference from Praia Vermelha, access, families, mobility, food and water quality.",
+      "expectedDescription": "Praia da Urca on Guanabara Bay: a neighbourhood outing, its difference from Praia Vermelha, access, families, mobility, food and water quality."
+    },
+    {
+      "route": "/en/playas/praia-da-urca/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia da Urca: Waterfront Walks, Bay & Access | Ernestinho",
+      "bodyLength": 4525,
+      "description": "Praia da Urca on Guanabara Bay: a neighbourhood outing, its difference from Praia Vermelha, access, families, mobility, food and water quality.",
+      "expectedDescription": "Praia da Urca on Guanabara Bay: a neighbourhood outing, its difference from Praia Vermelha, access, families, mobility, food and water quality."
+    },
+    {
+      "route": "/en/playas/praia-do-secreto/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Secreto: Tides, Rocks & Access Limits | Ernestinho",
+      "bodyLength": 4132,
+      "description": "Secreto’s rock pool is not an urban beach: steep access, rocks, tides, waves, children, mobility and when to choose another outing.",
+      "expectedDescription": "Secreto’s rock pool is not an urban beach: steep access, rocks, tides, waves, children, mobility and when to choose another outing."
+    },
+    {
+      "route": "/en/playas/praia-do-secreto/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Secreto: Tides, Rocks & Access Limits | Ernestinho",
+      "bodyLength": 4144,
+      "description": "Secreto’s rock pool is not an urban beach: steep access, rocks, tides, waves, children, mobility and when to choose another outing.",
+      "expectedDescription": "Secreto’s rock pool is not an urban beach: steep access, rocks, tides, waves, children, mobility and when to choose another outing."
+    },
+    {
+      "route": "/en/playas/praias-selvagens/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Wild Beaches: Perigoso, Meio, Funda & Inferno | Ernestinho",
+      "bodyLength": 4340,
+      "description": "Choosing a Guaratiba wild-beach outing: effort, trails, sea, lack of guaranteed facilities, return planning and alternatives.",
+      "expectedDescription": "Choosing a Guaratiba wild-beach outing: effort, trails, sea, lack of guaranteed facilities, return planning and alternatives."
+    },
+    {
+      "route": "/en/playas/praias-selvagens/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Wild Beaches: Perigoso, Meio, Funda & Inferno | Ernestinho",
+      "bodyLength": 4328,
+      "description": "Choosing a Guaratiba wild-beach outing: effort, trails, sea, lack of guaranteed facilities, return planning and alternatives.",
+      "expectedDescription": "Choosing a Guaratiba wild-beach outing: effort, trails, sea, lack of guaranteed facilities, return planning and alternatives."
+    },
+    {
+      "route": "/en/playas/prainha/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Prainha: Surf, Access & Planning Your Day | Ernestinho",
+      "bodyLength": 4583,
+      "description": "Prainha in western Rio: ocean conditions, protected surroundings, getting there and back, children, accessibility and facilities to check before visiting.",
+      "expectedDescription": "Prainha in western Rio: ocean conditions, protected surroundings, getting there and back, children, accessibility and facilities to check before visiting."
+    },
+    {
+      "route": "/en/playas/prainha/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Prainha: Surf, Access & Planning Your Day | Ernestinho",
+      "bodyLength": 4571,
+      "description": "Prainha in western Rio: ocean conditions, protected surroundings, getting there and back, children, accessibility and facilities to check before visiting.",
+      "expectedDescription": "Prainha in western Rio: ocean conditions, protected surroundings, getting there and back, children, accessibility and facilities to check before visiting."
+    },
+    {
+      "route": "/playas/barra-da-tijuca/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Playa de Barra da Tijuca: elegir el sector y llegar | Ernestinho",
+      "bodyLength": 4558,
+      "description": "Barra no es un único punto: compara sectores, mar, deportes, quiosques, transporte, estacionamiento, familias y accesibilidad antes de elegir.",
+      "expectedDescription": "Barra no es un único punto: compara sectores, mar, deportes, quiosques, transporte, estacionamiento, familias y accesibilidad antes de elegir."
+    },
+    {
+      "route": "/playas/barra-da-tijuca/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Playa de Barra da Tijuca: elegir el sector y llegar | Ernestinho",
+      "bodyLength": 4546,
+      "description": "Barra no es un único punto: compara sectores, mar, deportes, quiosques, transporte, estacionamiento, familias y accesibilidad antes de elegir.",
+      "expectedDescription": "Barra no es un único punto: compara sectores, mar, deportes, quiosques, transporte, estacionamiento, familias y accesibilidad antes de elegir."
+    },
+    {
+      "route": "/playas/barra-de-guaratiba/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barra de Guaratiba: playa, pueblo y regreso | Ernestinho",
+      "bodyLength": 4684,
+      "description": "Barra de Guaratiba como salida al oeste de Río: playa del barrio, comida, acceso, transporte, familias y diferencia con las playas selvagens.",
+      "expectedDescription": "Barra de Guaratiba como salida al oeste de Río: playa del barrio, comida, acceso, transporte, familias y diferencia con las playas selvagens."
+    },
+    {
+      "route": "/playas/barra-de-guaratiba/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barra de Guaratiba: playa, pueblo y regreso | Ernestinho",
+      "bodyLength": 4696,
+      "description": "Barra de Guaratiba como salida al oeste de Río: playa del barrio, comida, acceso, transporte, familias y diferencia con las playas selvagens.",
+      "expectedDescription": "Barra de Guaratiba como salida al oeste de Río: playa del barrio, comida, acceso, transporte, familias y diferencia con las playas selvagens."
+    },
+    {
+      "route": "/playas/flamengo/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Playa de Flamengo: bahía, parque y paseo | Ernestinho",
+      "bodyLength": 4557,
+      "description": "Flamengo como paseo de playa y parque: balneabilidad que verificar, deportes, transporte, comida, familias, movilidad y conexión con Catete y MAM.",
+      "expectedDescription": "Flamengo como paseo de playa y parque: balneabilidad que verificar, deportes, transporte, comida, familias, movilidad y conexión con Catete y MAM."
+    },
+    {
+      "route": "/playas/flamengo/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Playa de Flamengo: bahía, parque y paseo | Ernestinho",
+      "bodyLength": 4545,
+      "description": "Flamengo como paseo de playa y parque: balneabilidad que verificar, deportes, transporte, comida, familias, movilidad y conexión con Catete y MAM.",
+      "expectedDescription": "Flamengo como paseo de playa y parque: balneabilidad que verificar, deportes, transporte, comida, familias, movilidad y conexión con Catete y MAM."
+    },
+    {
+      "route": "/playas/grumari/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Grumari: playa, acceso y entorno protegido | Ernestinho",
+      "bodyLength": 4936,
+      "description": "Cómo elegir Grumari: playa oceánica del oeste de Río, quiosques, estacionamiento, regreso, niños, barreras de acceso y relación con Abricó.",
+      "expectedDescription": "Cómo elegir Grumari: playa oceánica del oeste de Río, quiosques, estacionamiento, regreso, niños, barreras de acceso y relación con Abricó."
+    },
+    {
+      "route": "/playas/grumari/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Grumari: playa, acceso y entorno protegido | Ernestinho",
+      "bodyLength": 4948,
+      "description": "Cómo elegir Grumari: playa oceánica del oeste de Río, quiosques, estacionamiento, regreso, niños, barreras de acceso y relación con Abricó.",
+      "expectedDescription": "Cómo elegir Grumari: playa oceánica del oeste de Río, quiosques, estacionamiento, regreso, niños, barreras de acceso y relación con Abricó."
+    },
+    {
+      "route": "/playas/macumba/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Macumba: surf, orla y cómo organizar la visita | Ernestinho",
+      "bodyLength": 4486,
+      "description": "Macumba en Recreio: identidad de surf, mar oceánico, quiosques, ciclovía, acceso, niños, movilidad y diferencia con Pontal y Prainha.",
+      "expectedDescription": "Macumba en Recreio: identidad de surf, mar oceánico, quiosques, ciclovía, acceso, niños, movilidad y diferencia con Pontal y Prainha."
+    },
+    {
+      "route": "/playas/macumba/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Macumba: surf, orla y cómo organizar la visita | Ernestinho",
+      "bodyLength": 4498,
+      "description": "Macumba en Recreio: identidad de surf, mar oceánico, quiosques, ciclovía, acceso, niños, movilidad y diferencia con Pontal y Prainha.",
+      "expectedDescription": "Macumba en Recreio: identidad de surf, mar oceánico, quiosques, ciclovía, acceso, niños, movilidad y diferencia con Pontal y Prainha."
+    },
+    {
+      "route": "/playas/pepe/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Pepê: playa, deportes y Jardim Oceânico | Ernestinho",
+      "bodyLength": 4569,
+      "description": "El sector del Pepê al inicio de Barra: cómo ubicarlo, mar y deportes, llegada, quiosques, niños, acceso y qué combinar en Jardim Oceânico.",
+      "expectedDescription": "El sector del Pepê al inicio de Barra: cómo ubicarlo, mar y deportes, llegada, quiosques, niños, acceso y qué combinar en Jardim Oceânico."
+    },
+    {
+      "route": "/playas/pepe/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Pepê: playa, deportes y Jardim Oceânico | Ernestinho",
+      "bodyLength": 4581,
+      "description": "El sector del Pepê al inicio de Barra: cómo ubicarlo, mar y deportes, llegada, quiosques, niños, acceso y qué combinar en Jardim Oceânico.",
+      "expectedDescription": "El sector del Pepê al inicio de Barra: cómo ubicarlo, mar y deportes, llegada, quiosques, niños, acceso y qué combinar en Jardim Oceânico."
+    },
+    {
+      "route": "/playas/perigoso/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Perigoso: sendero, playa y regreso | Ernestinho",
+      "bodyLength": 4631,
+      "description": "Perigoso en Guaratiba: una playa selvagem para preparar acceso, agua, esfuerzo, mar, niños, barreras de movilidad y regreso con luz.",
+      "expectedDescription": "Perigoso en Guaratiba: una playa selvagem para preparar acceso, agua, esfuerzo, mar, niños, barreras de movilidad y regreso con luz."
+    },
+    {
+      "route": "/playas/perigoso/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Perigoso: sendero, playa y regreso | Ernestinho",
+      "bodyLength": 4619,
+      "description": "Perigoso en Guaratiba: una playa selvagem para preparar acceso, agua, esfuerzo, mar, niños, barreras de movilidad y regreso con luz.",
+      "expectedDescription": "Perigoso en Guaratiba: una playa selvagem para preparar acceso, agua, esfuerzo, mar, niños, barreras de movilidad y regreso con luz."
+    },
+    {
+      "route": "/playas/pontal/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Pontal: playa, Pedra do Pontal y marea | Ernestinho",
+      "bodyLength": 4355,
+      "description": "El sector del Pontal en Recreio: arena, mar, diferencia con Macumba, acceso, servicios y por qué la subida a la piedra es otro paseo.",
+      "expectedDescription": "El sector del Pontal en Recreio: arena, mar, diferencia con Macumba, acceso, servicios y por qué la subida a la piedra es otro paseo."
+    },
+    {
+      "route": "/playas/pontal/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Pontal: playa, Pedra do Pontal y marea | Ernestinho",
+      "bodyLength": 4367,
+      "description": "El sector del Pontal en Recreio: arena, mar, diferencia con Macumba, acceso, servicios y por qué la subida a la piedra es otro paseo.",
+      "expectedDescription": "El sector del Pontal en Recreio: arena, mar, diferencia con Macumba, acceso, servicios y por qué la subida a la piedra es otro paseo."
+    },
+    {
+      "route": "/playas/praia-da-urca/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia da Urca: paseo, bahía y cómo llegar | Ernestinho",
+      "bodyLength": 4843,
+      "description": "Praia da Urca junto a la Bahía de Guanabara: paseo de barrio, diferencia con Praia Vermelha, acceso, familias, movilidad, comida y balneabilidad.",
+      "expectedDescription": "Praia da Urca junto a la Bahía de Guanabara: paseo de barrio, diferencia con Praia Vermelha, acceso, familias, movilidad, comida y balneabilidad."
+    },
+    {
+      "route": "/playas/praia-da-urca/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia da Urca: paseo, bahía y cómo llegar | Ernestinho",
+      "bodyLength": 4831,
+      "description": "Praia da Urca junto a la Bahía de Guanabara: paseo de barrio, diferencia con Praia Vermelha, acceso, familias, movilidad, comida y balneabilidad.",
+      "expectedDescription": "Praia da Urca junto a la Bahía de Guanabara: paseo de barrio, diferencia con Praia Vermelha, acceso, familias, movilidad, comida y balneabilidad."
+    },
+    {
+      "route": "/playas/praia-do-secreto/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Secreto: marea, rocas y límites de acceso | Ernestinho",
+      "bodyLength": 4463,
+      "description": "La piscina natural de Secreto no es una playa urbana: acceso inclinado, rocas, marea, oleaje, niños, movilidad y cuándo cambiar de plan.",
+      "expectedDescription": "La piscina natural de Secreto no es una playa urbana: acceso inclinado, rocas, marea, oleaje, niños, movilidad y cuándo cambiar de plan."
+    },
+    {
+      "route": "/playas/praias-selvagens/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Playas selvagens: Perigoso, Meio, Funda e Inferno | Ernestinho",
+      "bodyLength": 4833,
+      "description": "Cómo decidir una salida a las playas selvagens de Guaratiba: esfuerzo, senderos, mar, ausencia de servicios garantizados, regreso y alternativas.",
+      "expectedDescription": "Cómo decidir una salida a las playas selvagens de Guaratiba: esfuerzo, senderos, mar, ausencia de servicios garantizados, regreso y alternativas."
+    },
+    {
+      "route": "/playas/praia-do-secreto/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Secreto: marea, rocas y límites de acceso | Ernestinho",
+      "bodyLength": 4475,
+      "description": "La piscina natural de Secreto no es una playa urbana: acceso inclinado, rocas, marea, oleaje, niños, movilidad y cuándo cambiar de plan.",
+      "expectedDescription": "La piscina natural de Secreto no es una playa urbana: acceso inclinado, rocas, marea, oleaje, niños, movilidad y cuándo cambiar de plan."
+    },
+    {
+      "route": "/playas/praias-selvagens/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Playas selvagens: Perigoso, Meio, Funda e Inferno | Ernestinho",
+      "bodyLength": 4845,
+      "description": "Cómo decidir una salida a las playas selvagens de Guaratiba: esfuerzo, senderos, mar, ausencia de servicios garantizados, regreso y alternativas.",
+      "expectedDescription": "Cómo decidir una salida a las playas selvagens de Guaratiba: esfuerzo, senderos, mar, ausencia de servicios garantizados, regreso y alternativas."
+    },
+    {
+      "route": "/playas/prainha/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Prainha: surf, acceso y cómo preparar el día | Ernestinho",
+      "bodyLength": 4896,
+      "description": "Prainha en el oeste de Río: mar oceánico, entorno protegido, llegada, regreso, niños, accesibilidad y servicios que debes confirmar antes de ir.",
+      "expectedDescription": "Prainha en el oeste de Río: mar oceánico, entorno protegido, llegada, regreso, niños, accesibilidad y servicios que debes confirmar antes de ir."
+    },
+    {
+      "route": "/pt/consejos/estado-del-mar-playas/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Mar no Rio: como escolher a praia hoje | Ernestinho",
+      "bodyLength": 4833,
+      "description": "Diferencie ondas, vento, ressaca e balneabilidade no Rio. Consulte INEA, alertas e guarda-vidas para escolher a praia e a atividade de hoje.",
+      "expectedDescription": "Diferencie ondas, vento, ressaca e balneabilidade no Rio. Consulte INEA, alertas e guarda-vidas para escolher a praia e a atividade de hoje."
+    },
+    {
+      "route": "/pt/consejos/estado-del-mar-playas/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Mar no Rio: como escolher a praia hoje | Ernestinho",
+      "bodyLength": 4845,
+      "description": "Diferencie ondas, vento, ressaca e balneabilidade no Rio. Consulte INEA, alertas e guarda-vidas para escolher a praia e a atividade de hoje.",
+      "expectedDescription": "Diferencie ondas, vento, ressaca e balneabilidade no Rio. Consulte INEA, alertas e guarda-vidas para escolher a praia e a atividade de hoje."
+    },
+    {
+      "route": "/playas/prainha/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Prainha: surf, acceso y cómo preparar el día | Ernestinho",
+      "bodyLength": 4908,
+      "description": "Prainha en el oeste de Río: mar oceánico, entorno protegido, llegada, regreso, niños, accesibilidad y servicios que debes confirmar antes de ir.",
+      "expectedDescription": "Prainha en el oeste de Río: mar oceánico, entorno protegido, llegada, regreso, niños, accesibilidad y servicios que debes confirmar antes de ir."
+    },
+    {
+      "route": "/pt/consejos/mascotas-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio com pets: praia, documentos e transporte | Ernestinho",
+      "bodyLength": 5196,
+      "description": "Prepare o Rio com seu pet: documentos de entrada, lei de cães nas praias, calor, transporte, hospedagem e como conferir atendimento veterinário.",
+      "expectedDescription": "Prepare o Rio com seu pet: documentos de entrada, lei de cães nas praias, calor, transporte, hospedagem e como conferir atendimento veterinário."
+    },
+    {
+      "route": "/pt/consejos/playa-barracas-quiosques/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barracas, quiosques e ambulantes no Rio | Ernestinho",
+      "bodyLength": 4535,
+      "description": "Entenda um dia de praia no Rio: barraca, quiosque e ambulante, cadeira, guarda-sol, conta e pertences. Referência EC: Barraca Rio 122 no Posto 4.",
+      "expectedDescription": "Entenda um dia de praia no Rio: barraca, quiosque e ambulante, cadeira, guarda-sol, conta e pertences. Referência EC: Barraca Rio 122 no Posto 4."
+    },
+    {
+      "route": "/pt/consejos/playa-barracas-quiosques/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barracas, quiosques e ambulantes no Rio | Ernestinho",
+      "bodyLength": 4523,
+      "description": "Entenda um dia de praia no Rio: barraca, quiosque e ambulante, cadeira, guarda-sol, conta e pertences. Referência EC: Barraca Rio 122 no Posto 4.",
+      "expectedDescription": "Entenda um dia de praia no Rio: barraca, quiosque e ambulante, cadeira, guarda-sol, conta e pertences. Referência EC: Barraca Rio 122 no Posto 4."
+    },
+    {
+      "route": "/pt/consejos/mascotas-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio com pets: praia, documentos e transporte | Ernestinho",
+      "bodyLength": 5208,
+      "description": "Prepare o Rio com seu pet: documentos de entrada, lei de cães nas praias, calor, transporte, hospedagem e como conferir atendimento veterinário.",
+      "expectedDescription": "Prepare o Rio com seu pet: documentos de entrada, lei de cães nas praias, calor, transporte, hospedagem e como conferir atendimento veterinário."
+    },
+    {
+      "route": "/pt/consejos/servicios-practicos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Serviços práticos no Rio: resolver o dia a dia | Ernestinho",
+      "bodyLength": 5566,
+      "description": "Farmácias, lavanderias, caixas, câmbio, Correios, impressão, chaves e objetos perdidos no Rio: como localizar, perguntar e conferir antes de sair.",
+      "expectedDescription": "Farmácias, lavanderias, caixas, câmbio, Correios, impressão, chaves e objetos perdidos no Rio: como localizar, perguntar e conferir antes de sair."
+    },
+    {
+      "route": "/pt/consejos/servicios-practicos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Serviços práticos no Rio: resolver o dia a dia | Ernestinho",
+      "bodyLength": 5578,
+      "description": "Farmácias, lavanderias, caixas, câmbio, Correios, impressão, chaves e objetos perdidos no Rio: como localizar, perguntar e conferir antes de sair.",
+      "expectedDescription": "Farmácias, lavanderias, caixas, câmbio, Correios, impressão, chaves e objetos perdidos no Rio: como localizar, perguntar e conferir antes de sair."
+    },
+    {
+      "route": "/pt/playas/barra-da-tijuca/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia da Barra da Tijuca: escolher o trecho e chegar | Ernestinho",
+      "bodyLength": 4237,
+      "description": "Barra não é um único ponto: compare trechos, mar, esportes, quiosques, transporte, estacionamento, famílias e acessibilidade antes de escolher.",
+      "expectedDescription": "Barra não é um único ponto: compare trechos, mar, esportes, quiosques, transporte, estacionamento, famílias e acessibilidade antes de escolher."
+    },
+    {
+      "route": "/pt/playas/barra-da-tijuca/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia da Barra da Tijuca: escolher o trecho e chegar | Ernestinho",
+      "bodyLength": 4225,
+      "description": "Barra não é um único ponto: compare trechos, mar, esportes, quiosques, transporte, estacionamento, famílias e acessibilidade antes de escolher.",
+      "expectedDescription": "Barra não é um único ponto: compare trechos, mar, esportes, quiosques, transporte, estacionamento, famílias e acessibilidade antes de escolher."
+    },
+    {
+      "route": "/pt/playas/barra-de-guaratiba/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barra de Guaratiba: praia, bairro e volta | Ernestinho",
+      "bodyLength": 4516,
+      "description": "Barra de Guaratiba como passeio no oeste do Rio: praia do bairro, comida, acesso, transporte, famílias e diferença das praias selvagens.",
+      "expectedDescription": "Barra de Guaratiba como passeio no oeste do Rio: praia do bairro, comida, acesso, transporte, famílias e diferença das praias selvagens."
+    },
+    {
+      "route": "/pt/playas/barra-de-guaratiba/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barra de Guaratiba: praia, bairro e volta | Ernestinho",
+      "bodyLength": 4528,
+      "description": "Barra de Guaratiba como passeio no oeste do Rio: praia do bairro, comida, acesso, transporte, famílias e diferença das praias selvagens.",
+      "expectedDescription": "Barra de Guaratiba como passeio no oeste do Rio: praia do bairro, comida, acesso, transporte, famílias e diferença das praias selvagens."
+    },
+    {
+      "route": "/pt/playas/flamengo/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Flamengo: baía, parque e passeio | Ernestinho",
+      "bodyLength": 4262,
+      "description": "Flamengo como passeio de praia e parque: balneabilidade para conferir, esportes, transporte, comida, famílias, mobilidade e ligação com Catete e MAM.",
+      "expectedDescription": "Flamengo como passeio de praia e parque: balneabilidade para conferir, esportes, transporte, comida, famílias, mobilidade e ligação com Catete e MAM."
+    },
+    {
+      "route": "/pt/playas/flamengo/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Flamengo: baía, parque e passeio | Ernestinho",
+      "bodyLength": 4274,
+      "description": "Flamengo como passeio de praia e parque: balneabilidade para conferir, esportes, transporte, comida, famílias, mobilidade e ligação com Catete e MAM.",
+      "expectedDescription": "Flamengo como passeio de praia e parque: balneabilidade para conferir, esportes, transporte, comida, famílias, mobilidade e ligação com Catete e MAM."
+    },
+    {
+      "route": "/pt/playas/grumari/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Grumari: praia, acesso e entorno protegido | Ernestinho",
+      "bodyLength": 4733,
+      "description": "Como escolher Grumari: praia oceânica da Zona Oeste, quiosques, estacionamento, volta, crianças, barreiras de acesso e relação com Abricó.",
+      "expectedDescription": "Como escolher Grumari: praia oceânica da Zona Oeste, quiosques, estacionamento, volta, crianças, barreiras de acesso e relação com Abricó."
+    },
+    {
+      "route": "/pt/playas/grumari/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Grumari: praia, acesso e entorno protegido | Ernestinho",
+      "bodyLength": 4745,
+      "description": "Como escolher Grumari: praia oceânica da Zona Oeste, quiosques, estacionamento, volta, crianças, barreiras de acesso e relação com Abricó.",
+      "expectedDescription": "Como escolher Grumari: praia oceânica da Zona Oeste, quiosques, estacionamento, volta, crianças, barreiras de acesso e relação com Abricó."
+    },
+    {
+      "route": "/pt/playas/macumba/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Macumba: surfe, orla e como organizar a visita | Ernestinho",
+      "bodyLength": 4271,
+      "description": "Macumba no Recreio: identidade de surfe, mar oceânico, quiosques, ciclovia, acesso, crianças, mobilidade e diferença de Pontal e Prainha.",
+      "expectedDescription": "Macumba no Recreio: identidade de surfe, mar oceânico, quiosques, ciclovia, acesso, crianças, mobilidade e diferença de Pontal e Prainha."
+    },
+    {
+      "route": "/pt/playas/macumba/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Macumba: surfe, orla e como organizar a visita | Ernestinho",
+      "bodyLength": 4283,
+      "description": "Macumba no Recreio: identidade de surfe, mar oceânico, quiosques, ciclovia, acesso, crianças, mobilidade e diferença de Pontal e Prainha.",
+      "expectedDescription": "Macumba no Recreio: identidade de surfe, mar oceânico, quiosques, ciclovia, acesso, crianças, mobilidade e diferença de Pontal e Prainha."
+    },
+    {
+      "route": "/pt/playas/pepe/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Pepê: praia, esportes e Jardim Oceânico | Ernestinho",
+      "bodyLength": 4310,
+      "description": "O trecho do Pepê no início da Barra: localização, mar e esportes, acesso, quiosques, crianças e combinações no Jardim Oceânico.",
+      "expectedDescription": "O trecho do Pepê no início da Barra: localização, mar e esportes, acesso, quiosques, crianças e combinações no Jardim Oceânico."
+    },
+    {
+      "route": "/pt/playas/pepe/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Pepê: praia, esportes e Jardim Oceânico | Ernestinho",
+      "bodyLength": 4322,
+      "description": "O trecho do Pepê no início da Barra: localização, mar e esportes, acesso, quiosques, crianças e combinações no Jardim Oceânico.",
+      "expectedDescription": "O trecho do Pepê no início da Barra: localização, mar e esportes, acesso, quiosques, crianças e combinações no Jardim Oceânico."
+    },
+    {
+      "route": "/pt/playas/perigoso/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Perigoso: trilha, praia e volta | Ernestinho",
+      "bodyLength": 4370,
+      "description": "Perigoso em Guaratiba: praia selvagem para preparar acesso, água, esforço, mar, crianças, barreiras de mobilidade e volta com luz.",
+      "expectedDescription": "Perigoso em Guaratiba: praia selvagem para preparar acesso, água, esforço, mar, crianças, barreiras de mobilidade e volta com luz."
+    },
+    {
+      "route": "/pt/playas/perigoso/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Perigoso: trilha, praia e volta | Ernestinho",
+      "bodyLength": 4382,
+      "description": "Perigoso em Guaratiba: praia selvagem para preparar acesso, água, esforço, mar, crianças, barreiras de mobilidade e volta com luz.",
+      "expectedDescription": "Perigoso em Guaratiba: praia selvagem para preparar acesso, água, esforço, mar, crianças, barreiras de mobilidade e volta com luz."
+    },
+    {
+      "route": "/pt/playas/pontal/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Pontal: praia, Pedra do Pontal e maré | Ernestinho",
+      "bodyLength": 4137,
+      "description": "O trecho do Pontal no Recreio: areia, mar, diferença da Macumba, acesso, serviços e por que subir a pedra é outro passeio.",
+      "expectedDescription": "O trecho do Pontal no Recreio: areia, mar, diferença da Macumba, acesso, serviços e por que subir a pedra é outro passeio."
+    },
+    {
+      "route": "/pt/playas/pontal/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Pontal: praia, Pedra do Pontal e maré | Ernestinho",
+      "bodyLength": 4149,
+      "description": "O trecho do Pontal no Recreio: areia, mar, diferença da Macumba, acesso, serviços e por que subir a pedra é outro passeio.",
+      "expectedDescription": "O trecho do Pontal no Recreio: areia, mar, diferença da Macumba, acesso, serviços e por que subir a pedra é outro passeio."
+    },
+    {
+      "route": "/pt/playas/praia-da-urca/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia da Urca: passeio, baía e como chegar | Ernestinho",
+      "bodyLength": 4604,
+      "description": "Praia da Urca na Baía de Guanabara: passeio de bairro, diferença da Praia Vermelha, acesso, famílias, mobilidade, comida e balneabilidade.",
+      "expectedDescription": "Praia da Urca na Baía de Guanabara: passeio de bairro, diferença da Praia Vermelha, acesso, famílias, mobilidade, comida e balneabilidade."
+    },
+    {
+      "route": "/pt/playas/praia-da-urca/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia da Urca: passeio, baía e como chegar | Ernestinho",
+      "bodyLength": 4616,
+      "description": "Praia da Urca na Baía de Guanabara: passeio de bairro, diferença da Praia Vermelha, acesso, famílias, mobilidade, comida e balneabilidade.",
+      "expectedDescription": "Praia da Urca na Baía de Guanabara: passeio de bairro, diferença da Praia Vermelha, acesso, famílias, mobilidade, comida e balneabilidade."
+    },
+    {
+      "route": "/pt/playas/praia-do-secreto/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Secreto: maré, pedras e limites de acesso | Ernestinho",
+      "bodyLength": 4310,
+      "description": "A piscina natural do Secreto não é praia urbana: acesso íngreme, pedras, maré, ondas, crianças, mobilidade e quando mudar o plano.",
+      "expectedDescription": "A piscina natural do Secreto não é praia urbana: acesso íngreme, pedras, maré, ondas, crianças, mobilidade e quando mudar o plano."
+    },
+    {
+      "route": "/pt/playas/praia-do-secreto/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praia do Secreto: maré, pedras e limites de acesso | Ernestinho",
+      "bodyLength": 4322,
+      "description": "A piscina natural do Secreto não é praia urbana: acesso íngreme, pedras, maré, ondas, crianças, mobilidade e quando mudar o plano.",
+      "expectedDescription": "A piscina natural do Secreto não é praia urbana: acesso íngreme, pedras, maré, ondas, crianças, mobilidade e quando mudar o plano."
+    },
+    {
+      "route": "/pt/playas/praias-selvagens/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praias selvagens: Perigoso, Meio, Funda e Inferno | Ernestinho",
+      "bodyLength": 4600,
+      "description": "Como decidir um passeio às praias selvagens de Guaratiba: esforço, trilhas, mar, ausência de serviços garantidos, volta e alternativas.",
+      "expectedDescription": "Como decidir um passeio às praias selvagens de Guaratiba: esforço, trilhas, mar, ausência de serviços garantidos, volta e alternativas."
+    },
+    {
+      "route": "/pt/playas/praias-selvagens/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Praias selvagens: Perigoso, Meio, Funda e Inferno | Ernestinho",
+      "bodyLength": 4588,
+      "description": "Como decidir um passeio às praias selvagens de Guaratiba: esforço, trilhas, mar, ausência de serviços garantidos, volta e alternativas.",
+      "expectedDescription": "Como decidir um passeio às praias selvagens de Guaratiba: esforço, trilhas, mar, ausência de serviços garantidos, volta e alternativas."
+    },
+    {
+      "route": "/pt/playas/prainha/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Prainha: surfe, acesso e como preparar o dia | Ernestinho",
+      "bodyLength": 4685,
+      "description": "Prainha na Zona Oeste do Rio: mar oceânico, entorno protegido, ida, volta, crianças, acessibilidade e serviços para conferir antes de sair.",
+      "expectedDescription": "Prainha na Zona Oeste do Rio: mar oceânico, entorno protegido, ida, volta, crianças, acessibilidade e serviços para conferir antes de sair."
+    },
+    {
+      "route": "/pt/playas/prainha/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Prainha: surfe, acesso e como preparar o dia | Ernestinho",
+      "bodyLength": 4697,
+      "description": "Prainha na Zona Oeste do Rio: mar oceânico, entorno protegido, ida, volta, crianças, acessibilidade e serviços para conferir antes de sair.",
+      "expectedDescription": "Prainha na Zona Oeste do Rio: mar oceânico, entorno protegido, ida, volta, crianças, acessibilidade e serviços para conferir antes de sair."
+    }
+  ]
+}

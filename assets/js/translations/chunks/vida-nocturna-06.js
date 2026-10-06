@@ -43,6 +43,14 @@ export default {
     "PT": "A casa oferece mesas e pista. Para sentar, confira a reserva daquela data: a informação oficial diz que as mesas são mantidas até as 21h. Chego com antecedência para entrar, pedir algo e me acomodar antes da música. Recomendo como programa principal, não como parada rápida entre bares.",
     "EN": "The venue offers tables and a dance floor. If you want a seat, check reservations for that date: official information says tables are held until 9 pm. I arrive early to enter, order and settle in before the music. I recommend it as the main plan rather than a quick stop between bars."
   },
+  "Si cambias de planes, la política oficial permite pedir la cancelación de la entrada hasta 24 horas antes del show y no permite cambiarla por otra fecha.": {
+    "PT": "Se seus planos mudarem, a política oficial permite solicitar o cancelamento do ingresso até 24 horas antes do show e não permite trocá-lo por outra data.",
+    "EN": "If your plans change, the official refund policy lets you request a ticket cancellation up to 24 hours before the show; tickets cannot be exchanged for another date."
+  },
+  "Envía la solicitud por correo con los datos de compra dentro del plazo.": {
+    "PT": "Envie a solicitação por e-mail, com os dados da compra, dentro do prazo.",
+    "EN": "Send the request by email with your purchase details within the stated deadline."
+  },
   "La música decide la fecha": {
     "PT": "A música decide a data",
     "EN": "The music decides the date"
@@ -51,9 +59,9 @@ export default {
     "PT": "Os comentários costumam destacar o ambiente e a música; em datas movimentadas, o espaço pode ficar apertado e o atendimento variar. Para conversar, peça uma mesa afastada da pista. Para curtir samba, aproxime-se do palco e aceite que o volume faz parte do plano.",
     "EN": "Visitor comments often praise the atmosphere and music; on busy dates the space can become crowded and service may vary. For conversation, request a table away from the dance floor. For samba, move closer to the stage and accept that volume is part of the plan."
   },
-  "Mar–jue abre 19:30; viernes y sábado tienen apertura y shows en horarios distintos. La cartelera publica cada fecha.": {
-    "PT": "Ter–qui abre às 19h30; sextas e sábados têm abertura e shows em horários diferentes. A agenda publica cada data.",
-    "EN": "Tue–Thu opens at 7:30 pm; Fridays and Saturdays have different opening and show times. The programme lists each date."
+  "Mar–jue abre 19:30; viernes abre 19:30 (un show a las 20:00 y el principal a las 22:00); sábado abre 20:30 (show principal a las 22:00). Confirma cada fecha en la cartelera.": {
+    "PT": "Ter–qui abre às 19h30; sexta abre às 19h30 (um show às 20h e o principal às 22h); sábado abre às 20h30 (show principal às 22h). Confira cada data na programação.",
+    "EN": "Tue–Thu doors open at 7:30 pm; Friday doors open at 7:30 pm (one show at 8 pm and the main show at 10 pm); Saturday doors open at 8:30 pm (main show at 10 pm). Check each date on the programme."
   },
   "Qué esperar": {
     "PT": "O que esperar",

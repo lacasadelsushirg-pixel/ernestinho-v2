@@ -1,0 +1,67 @@
+{
+  "tested": 6,
+  "failures": 0,
+  "externalServicesExcluded": true,
+  "rows": [
+    {
+      "route": "/en/consejos/mascotas-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio with Pets: Beaches, Documents & Transport | Ernestinho",
+      "bodyLength": 4904,
+      "description": "Plan Rio with your pet: entry documents, beach dog rules, heat, transport, accommodation and how to check veterinary care.",
+      "expectedDescription": "Plan Rio with your pet: entry documents, beach dog rules, heat, transport, accommodation and how to check veterinary care."
+    },
+    {
+      "route": "/en/consejos/mascotas-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio with Pets: Beaches, Documents & Transport | Ernestinho",
+      "bodyLength": 4916,
+      "description": "Plan Rio with your pet: entry documents, beach dog rules, heat, transport, accommodation and how to check veterinary care.",
+      "expectedDescription": "Plan Rio with your pet: entry documents, beach dog rules, heat, transport, accommodation and how to check veterinary care."
+    },
+    {
+      "route": "/consejos/mascotas-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Río con mascotas: playa, documentos y transporte | Ernestinho",
+      "bodyLength": 5400,
+      "description": "Prepara Río con tu mascota: documentos de entrada, ley de perros en playas, calor, transporte, alojamiento y cómo verificar atención veterinaria.",
+      "expectedDescription": "Prepara Río con tu mascota: documentos de entrada, ley de perros en playas, calor, transporte, alojamiento y cómo verificar atención veterinaria."
+    },
+    {
+      "route": "/consejos/mascotas-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Río con mascotas: playa, documentos y transporte | Ernestinho",
+      "bodyLength": 5412,
+      "description": "Prepara Río con tu mascota: documentos de entrada, ley de perros en playas, calor, transporte, alojamiento y cómo verificar atención veterinaria.",
+      "expectedDescription": "Prepara Río con tu mascota: documentos de entrada, ley de perros en playas, calor, transporte, alojamiento y cómo verificar atención veterinaria."
+    },
+    {
+      "route": "/pt/consejos/mascotas-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio com pets: praia, documentos e transporte | Ernestinho",
+      "bodyLength": 5196,
+      "description": "Prepare o Rio com seu pet: documentos de entrada, lei de cães nas praias, calor, transporte, hospedagem e como conferir atendimento veterinário.",
+      "expectedDescription": "Prepare o Rio com seu pet: documentos de entrada, lei de cães nas praias, calor, transporte, hospedagem e como conferir atendimento veterinário."
+    },
+    {
+      "route": "/pt/consejos/mascotas-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio com pets: praia, documentos e transporte | Ernestinho",
+      "bodyLength": 5208,
+      "description": "Prepare o Rio com seu pet: documentos de entrada, lei de cães nas praias, calor, transporte, hospedagem e como conferir atendimento veterinário.",
+      "expectedDescription": "Prepare o Rio com seu pet: documentos de entrada, lei de cães nas praias, calor, transporte, hospedagem e como conferir atendimento veterinário."
+    }
+  ]
+}

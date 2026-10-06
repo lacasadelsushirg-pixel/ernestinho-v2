@@ -1,0 +1,247 @@
+{
+  "tested": 24,
+  "failures": 0,
+  "externalServicesExcluded": true,
+  "rows": [
+    {
+      "route": "/consejos/mascotas-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Río con mascotas: playa, documentos y transporte | Ernestinho",
+      "bodyLength": 5400,
+      "description": "Prepara Río con tu mascota: documentos de entrada, ley de perros en playas, calor, transporte, alojamiento y cómo verificar atención veterinaria.",
+      "expectedDescription": "Prepara Río con tu mascota: documentos de entrada, ley de perros en playas, calor, transporte, alojamiento y cómo verificar atención veterinaria."
+    },
+    {
+      "route": "/consejos/estado-del-mar-playas/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Estado del mar en Río: cómo elegir playa hoy | Ernestinho",
+      "bodyLength": 4951,
+      "description": "Distingue oleaje, viento, ressaca y balneabilidad en Río. Consulta INEA, alertas y guardavidas para decidir qué playa y qué actividad tienen sentido hoy.",
+      "expectedDescription": "Distingue oleaje, viento, ressaca y balneabilidad en Río. Consulta INEA, alertas y guardavidas para decidir qué playa y qué actividad tienen sentido hoy."
+    },
+    {
+      "route": "/consejos/estado-del-mar-playas/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Estado del mar en Río: cómo elegir playa hoy | Ernestinho",
+      "bodyLength": 4963,
+      "description": "Distingue oleaje, viento, ressaca y balneabilidad en Río. Consulta INEA, alertas y guardavidas para decidir qué playa y qué actividad tienen sentido hoy.",
+      "expectedDescription": "Distingue oleaje, viento, ressaca y balneabilidad en Río. Consulta INEA, alertas y guardavidas para decidir qué playa y qué actividad tienen sentido hoy."
+    },
+    {
+      "route": "/consejos/mascotas-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Río con mascotas: playa, documentos y transporte | Ernestinho",
+      "bodyLength": 5412,
+      "description": "Prepara Río con tu mascota: documentos de entrada, ley de perros en playas, calor, transporte, alojamiento y cómo verificar atención veterinaria.",
+      "expectedDescription": "Prepara Río con tu mascota: documentos de entrada, ley de perros en playas, calor, transporte, alojamiento y cómo verificar atención veterinaria."
+    },
+    {
+      "route": "/consejos/playa-barracas-quiosques/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barracas, quiosques y ambulantes en Río | Ernestinho",
+      "bodyLength": 4647,
+      "description": "Entiende un día de playa en Río: barraca, quiosque y ambulante, silla, sombrilla, cuenta y pertenencias. Referencia EC: Barraca Rio 122 en Posto 4.",
+      "expectedDescription": "Entiende un día de playa en Río: barraca, quiosque y ambulante, silla, sombrilla, cuenta y pertenencias. Referencia EC: Barraca Rio 122 en Posto 4."
+    },
+    {
+      "route": "/consejos/servicios-practicos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Servicios prácticos en Río: resolver el día a día | Ernestinho",
+      "bodyLength": 5877,
+      "description": "Farmacias, lavanderías, cajeros, cambio, Correios, impresión, llaves y objetos perdidos en Río: cómo localizar, preguntar y verificar antes de salir.",
+      "expectedDescription": "Farmacias, lavanderías, cajeros, cambio, Correios, impresión, llaves y objetos perdidos en Río: cómo localizar, preguntar y verificar antes de salir."
+    },
+    {
+      "route": "/consejos/playa-barracas-quiosques/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barracas, quiosques y ambulantes en Río | Ernestinho",
+      "bodyLength": 4659,
+      "description": "Entiende un día de playa en Río: barraca, quiosque y ambulante, silla, sombrilla, cuenta y pertenencias. Referencia EC: Barraca Rio 122 en Posto 4.",
+      "expectedDescription": "Entiende un día de playa en Río: barraca, quiosque y ambulante, silla, sombrilla, cuenta y pertenencias. Referencia EC: Barraca Rio 122 en Posto 4."
+    },
+    {
+      "route": "/consejos/servicios-practicos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Servicios prácticos en Río: resolver el día a día | Ernestinho",
+      "bodyLength": 5889,
+      "description": "Farmacias, lavanderías, cajeros, cambio, Correios, impresión, llaves y objetos perdidos en Río: cómo localizar, preguntar y verificar antes de salir.",
+      "expectedDescription": "Farmacias, lavanderías, cajeros, cambio, Correios, impresión, llaves y objetos perdidos en Río: cómo localizar, preguntar y verificar antes de salir."
+    },
+    {
+      "route": "/en/consejos/estado-del-mar-playas/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio Sea Conditions: Choosing a Beach Today | Ernestinho",
+      "bodyLength": 4618,
+      "description": "Understand waves, wind, storm swell and bathing-water quality in Rio. Use INEA reports, alerts and lifeguard advice to choose today’s beach and activity.",
+      "expectedDescription": "Understand waves, wind, storm swell and bathing-water quality in Rio. Use INEA reports, alerts and lifeguard advice to choose today’s beach and activity."
+    },
+    {
+      "route": "/en/consejos/mascotas-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio with Pets: Beaches, Documents & Transport | Ernestinho",
+      "bodyLength": 4904,
+      "description": "Plan Rio with your pet: entry documents, beach dog rules, heat, transport, accommodation and how to check veterinary care.",
+      "expectedDescription": "Plan Rio with your pet: entry documents, beach dog rules, heat, transport, accommodation and how to check veterinary care."
+    },
+    {
+      "route": "/en/consejos/estado-del-mar-playas/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio Sea Conditions: Choosing a Beach Today | Ernestinho",
+      "bodyLength": 4630,
+      "description": "Understand waves, wind, storm swell and bathing-water quality in Rio. Use INEA reports, alerts and lifeguard advice to choose today’s beach and activity.",
+      "expectedDescription": "Understand waves, wind, storm swell and bathing-water quality in Rio. Use INEA reports, alerts and lifeguard advice to choose today’s beach and activity."
+    },
+    {
+      "route": "/en/consejos/mascotas-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio with Pets: Beaches, Documents & Transport | Ernestinho",
+      "bodyLength": 4916,
+      "description": "Plan Rio with your pet: entry documents, beach dog rules, heat, transport, accommodation and how to check veterinary care.",
+      "expectedDescription": "Plan Rio with your pet: entry documents, beach dog rules, heat, transport, accommodation and how to check veterinary care."
+    },
+    {
+      "route": "/en/consejos/playa-barracas-quiosques/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio Beach Stalls, Kiosks & Vendors | Ernestinho",
+      "bodyLength": 4315,
+      "description": "Understand a Rio beach day: stalls, kiosks, vendors, chairs, umbrellas, bills and belongings. EC reference: Barraca Rio 122 at Posto 4.",
+      "expectedDescription": "Understand a Rio beach day: stalls, kiosks, vendors, chairs, umbrellas, bills and belongings. EC reference: Barraca Rio 122 at Posto 4."
+    },
+    {
+      "route": "/en/consejos/servicios-practicos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Practical Services in Rio: Everyday Solutions | Ernestinho",
+      "bodyLength": 5409,
+      "description": "Pharmacies, laundry, cash machines, exchange, post offices, printing, keys and lost belongings in Rio: what to ask and check before setting out.",
+      "expectedDescription": "Pharmacies, laundry, cash machines, exchange, post offices, printing, keys and lost belongings in Rio: what to ask and check before setting out."
+    },
+    {
+      "route": "/en/consejos/servicios-practicos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Practical Services in Rio: Everyday Solutions | Ernestinho",
+      "bodyLength": 5421,
+      "description": "Pharmacies, laundry, cash machines, exchange, post offices, printing, keys and lost belongings in Rio: what to ask and check before setting out.",
+      "expectedDescription": "Pharmacies, laundry, cash machines, exchange, post offices, printing, keys and lost belongings in Rio: what to ask and check before setting out."
+    },
+    {
+      "route": "/en/consejos/playa-barracas-quiosques/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio Beach Stalls, Kiosks & Vendors | Ernestinho",
+      "bodyLength": 4327,
+      "description": "Understand a Rio beach day: stalls, kiosks, vendors, chairs, umbrellas, bills and belongings. EC reference: Barraca Rio 122 at Posto 4.",
+      "expectedDescription": "Understand a Rio beach day: stalls, kiosks, vendors, chairs, umbrellas, bills and belongings. EC reference: Barraca Rio 122 at Posto 4."
+    },
+    {
+      "route": "/pt/consejos/estado-del-mar-playas/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Mar no Rio: como escolher a praia hoje | Ernestinho",
+      "bodyLength": 4833,
+      "description": "Diferencie ondas, vento, ressaca e balneabilidade no Rio. Consulte INEA, alertas e guarda-vidas para escolher a praia e a atividade de hoje.",
+      "expectedDescription": "Diferencie ondas, vento, ressaca e balneabilidade no Rio. Consulte INEA, alertas e guarda-vidas para escolher a praia e a atividade de hoje."
+    },
+    {
+      "route": "/pt/consejos/mascotas-rio/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio com pets: praia, documentos e transporte | Ernestinho",
+      "bodyLength": 5196,
+      "description": "Prepare o Rio com seu pet: documentos de entrada, lei de cães nas praias, calor, transporte, hospedagem e como conferir atendimento veterinário.",
+      "expectedDescription": "Prepare o Rio com seu pet: documentos de entrada, lei de cães nas praias, calor, transporte, hospedagem e como conferir atendimento veterinário."
+    },
+    {
+      "route": "/pt/consejos/estado-del-mar-playas/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Mar no Rio: como escolher a praia hoje | Ernestinho",
+      "bodyLength": 4845,
+      "description": "Diferencie ondas, vento, ressaca e balneabilidade no Rio. Consulte INEA, alertas e guarda-vidas para escolher a praia e a atividade de hoje.",
+      "expectedDescription": "Diferencie ondas, vento, ressaca e balneabilidade no Rio. Consulte INEA, alertas e guarda-vidas para escolher a praia e a atividade de hoje."
+    },
+    {
+      "route": "/pt/consejos/mascotas-rio/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Rio com pets: praia, documentos e transporte | Ernestinho",
+      "bodyLength": 5208,
+      "description": "Prepare o Rio com seu pet: documentos de entrada, lei de cães nas praias, calor, transporte, hospedagem e como conferir atendimento veterinário.",
+      "expectedDescription": "Prepare o Rio com seu pet: documentos de entrada, lei de cães nas praias, calor, transporte, hospedagem e como conferir atendimento veterinário."
+    },
+    {
+      "route": "/pt/consejos/playa-barracas-quiosques/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barracas, quiosques e ambulantes no Rio | Ernestinho",
+      "bodyLength": 4523,
+      "description": "Entenda um dia de praia no Rio: barraca, quiosque e ambulante, cadeira, guarda-sol, conta e pertences. Referência EC: Barraca Rio 122 no Posto 4.",
+      "expectedDescription": "Entenda um dia de praia no Rio: barraca, quiosque e ambulante, cadeira, guarda-sol, conta e pertences. Referência EC: Barraca Rio 122 no Posto 4."
+    },
+    {
+      "route": "/pt/consejos/servicios-practicos/",
+      "viewport": 1365,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Serviços práticos no Rio: resolver o dia a dia | Ernestinho",
+      "bodyLength": 5566,
+      "description": "Farmácias, lavanderias, caixas, câmbio, Correios, impressão, chaves e objetos perdidos no Rio: como localizar, perguntar e conferir antes de sair.",
+      "expectedDescription": "Farmácias, lavanderias, caixas, câmbio, Correios, impressão, chaves e objetos perdidos no Rio: como localizar, perguntar e conferir antes de sair."
+    },
+    {
+      "route": "/pt/consejos/playa-barracas-quiosques/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Barracas, quiosques e ambulantes no Rio | Ernestinho",
+      "bodyLength": 4535,
+      "description": "Entenda um dia de praia no Rio: barraca, quiosque e ambulante, cadeira, guarda-sol, conta e pertences. Referência EC: Barraca Rio 122 no Posto 4.",
+      "expectedDescription": "Entenda um dia de praia no Rio: barraca, quiosque e ambulante, cadeira, guarda-sol, conta e pertences. Referência EC: Barraca Rio 122 no Posto 4."
+    },
+    {
+      "route": "/pt/consejos/servicios-practicos/",
+      "viewport": 390,
+      "problems": [],
+      "runtimeExceptions": [],
+      "title": "Serviços práticos no Rio: resolver o dia a dia | Ernestinho",
+      "bodyLength": 5578,
+      "description": "Farmácias, lavanderias, caixas, câmbio, Correios, impressão, chaves e objetos perdidos no Rio: como localizar, perguntar e conferir antes de sair.",
+      "expectedDescription": "Farmácias, lavanderias, caixas, câmbio, Correios, impressão, chaves e objetos perdidos no Rio: como localizar, perguntar e conferir antes de sair."
+    }
+  ]
+}
