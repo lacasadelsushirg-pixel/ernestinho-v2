@@ -3,7 +3,7 @@ import {ready as navigationReady} from './site.js';
 import {bounceMarkup,mountBounce} from './bounce.js';
 import {luggageMeta,luggageSections,luggageFaq} from './luggage-content.js';
 const T=(ES,PT,EN)=>({ES,PT,EN});
-const photos=['https://res.cloudinary.com/tdez3h4t/image/upload/v1791159666/bounce_03.jpg','https://res.cloudinary.com/tdez3h4t/image/upload/v1791159667/bounce_02.jpg','https://res.cloudinary.com/tdez3h4t/image/upload/v1791159666/bounce_1.png'];
+const photos=['https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/GUARDA%20EQUIPAJE/bounce%2003.jpg','https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/GUARDA%20EQUIPAJE/bounce%2002.jpg','https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/GUARDA%20EQUIPAJE/bounce%201.png'];
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function apply(){
  const {language:lang}=routeParts(),v=x=>x[lang],href=p=>localizedPath(p,lang),title=v(luggageMeta.title),description=v(luggageMeta.description);

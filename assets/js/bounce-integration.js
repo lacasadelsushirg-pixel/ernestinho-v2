@@ -1,7 +1,7 @@
 import {routeParts,localizedPath} from './locale-routing.js';
 import {ready as navigationReady} from './site.js';
 import {bounceMarkup,mountBounce} from './bounce.js';
-const thumbnail='https://res.cloudinary.com/tdez3h4t/image/upload/v1791159666/boton_maletas_bounce.png';
+const thumbnail='https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/MINIATURA%20GUIA%20RIO%20GUARDA%20EQUIPAJE.png';
 const routes={
  '/hospedaje/':['hospedaje','compact'],
  '/guia/aeropuertos/':['aeropuerto','wide'],

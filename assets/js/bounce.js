@@ -1,17 +1,13 @@
 // The image language is editorially approved; never infer it from filenames.
 export const BOUNCE_URL='https://go.bounce.com/ERNESTINHO8980973466';
 export const BOUNCE_IMAGES={
- ES:{vertical:'https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/Guarda_tu_equipaje_y_disfruta_R%C3%ADo.png',compact:'https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/%C3%9Altimo_d%C3%ADa_en_R%C3%ADo_sin_maletas.png',wide:'https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Disfruta_R%C3%ADo_sin_cargar_maletas.png'},
- PT:{vertical:'https://res.cloudinary.com/tdez3h4t/image/upload/v1791153276/Descubra_o_Rio_sem_Malas.png',compact:'https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Explore_o_Rio_Sem_Malas.png',wide:'https://res.cloudinary.com/tdez3h4t/image/upload/v1791153274/Confira_o_Rio_Sem_Malas.png'},
- EN:{vertical:'https://res.cloudinary.com/tdez3h4t/image/upload/v1791153280/Guarda_Maletas_y_Descubre_R%C3%ADo.png',compact:'https://res.cloudinary.com/tdez3h4t/image/upload/v1791153275/Escapada_a_R%C3%ADo_sin_maletas.png',wide:'https://res.cloudinary.com/tdez3h4t/image/upload/v1791153272/Anuncio_de_viaje_en_R%C3%ADo_con_Bounce.png'}
+ ES:{vertical:'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/GUARDA%20EQUIPAJE/GUARDA%20EQUIPAJE%20ESPA%C3%91OL%20(1).png',compact:'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/GUARDA%20EQUIPAJE/GUARDA%20EQUIPAJE%20ESPA%C3%91OL%20(2).png',wide:'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/GUARDA%20EQUIPAJE/GUARDA%20EQUIPAJE%20ESPA%C3%91OL%20(3).png'},
+ PT:{vertical:'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/GUARDA%20EQUIPAJE/GUARDA%20EQUIPAJE%20PT%20(1).png',compact:'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/GUARDA%20EQUIPAJE/GUARDA%20EQUIPAJE%20PT%20(2).png',wide:'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/GUARDA%20EQUIPAJE/GUARDA%20EQUIPAJE%20PT%20(3).png'},
+ EN:{vertical:'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/GUARDA%20EQUIPAJE/GUARDA%20EQUIPAJE%20ENG%20(1).png',compact:'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/GUARDA%20EQUIPAJE/GUARDA%20EQUIPAJE%20ENG%20(2).png',wide:'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/GUIADORIO/GUARDA%20EQUIPAJE/GUARDA%20EQUIPAJE%20ENG%20(3).png'}
 };
 const copy={ES:{cta:'Buscar guarda equipaje en Bounce',alt:'Bounce: disfruta Río sin maletas',disclosure:'Enlace de afiliación: Ernestinho puede recibir una comisión por una reserva. Revisa ubicación, horario, precio y condiciones en Bounce antes de pagar.'},PT:{cta:'Buscar guarda-volumes na Bounce',alt:'Bounce: aproveite o Rio sem malas',disclosure:'Link de afiliado: Ernestinho pode receber uma comissão por uma reserva. Confira localização, horário, preço e condições na Bounce antes de pagar.'},EN:{cta:'Find luggage storage on Bounce',alt:'Bounce: enjoy Rio without luggage',disclosure:'Affiliate link: Ernestinho may earn a commission from a booking. Check the location, hours, price and terms on Bounce before paying.'}};
 export function bounceMarkup(language,variant='compact',source='guia-equipaje'){
  if(!BOUNCE_IMAGES[language]?.[variant])throw new Error('Unknown Bounce locale or variant');
- // Keep the supplied map intact. Four files contradict their approved visual language.
- // Until corrected creatives arrive, show only a verified file from the same locale.
- if(language==='ES'&&variant!=='compact')variant='compact';
- if(language==='EN'&&variant!=='wide')variant='wide';
  if(!/^[a-z-]+$/.test(source))throw new Error('Invalid Bounce source');
  const c=copy[language];
  const [width,height]=variant==='vertical'?[887,1774]:language==='EN'||variant==='wide'&&language==='PT'?[1536,1024]:[1942,809];
