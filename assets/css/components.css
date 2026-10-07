@@ -6,3 +6,27 @@ img{max-width:100%;height:auto}.topbar a,.door,.feature{-webkit-tap-highlight-co
 
 /* Home category copy uses a light card surface so every label stays readable. */
 body .door{display:flex;flex-direction:column;justify-content:flex-start;min-height:0;padding:0;background:#fff!important;background-image:none!important;color:#071c1b!important;text-shadow:none!important}body .door .card-image{position:static;width:100%;height:auto;aspect-ratio:1.55;object-fit:cover}body .door .card-shade,body .door .arrow{display:none}body .door .door-copy{display:flex;flex-direction:column;align-items:flex-start;padding:17px 18px 20px;background:#fff}body .door b{color:#071c1b!important;text-shadow:none!important}body .door .card-copy{display:block;opacity:1;color:#43544e!important;font-size:13px;line-height:1.55}body .door small{align-self:flex-start;color:#805812!important;text-shadow:none!important}
+
+
+/* Vida Nocturna detail pages: keep the intended dark palette after shared V2 styles load. */
+body:has(> .topbar + header.hero + main.wrap){
+  background:#07110f!important;
+  color:#f4efe6!important;
+}
+body:has(> .topbar + header.hero + main.wrap) main.wrap{
+  color:#f4efe6!important;
+}
+body:has(> .topbar + header.hero + main.wrap) .facts>.fact,
+body:has(> .topbar + header.hero + main.wrap) .content>.card,
+body:has(> .topbar + header.hero + main.wrap) .content .card{
+  color:#f4efe6!important;
+}
+body:has(> .topbar + header.hero + main.wrap) .facts>.fact b{
+  color:#f3b94f!important;
+}
+body:has(> .topbar + header.hero + main.wrap) .content h2,
+body:has(> .topbar + header.hero + main.wrap) .content h3,
+body:has(> .topbar + header.hero + main.wrap) .content p,
+body:has(> .topbar + header.hero + main.wrap) .content strong{
+  color:inherit;
+}
