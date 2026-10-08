@@ -9,24 +9,51 @@ body .door{display:flex;flex-direction:column;justify-content:flex-start;min-hei
 
 
 /* Vida Nocturna detail pages: keep the intended dark palette after shared V2 styles load. */
-body:has(> .topbar + header.hero + main.wrap){
+body:has(> .topbar ~ header.hero + main.wrap > .facts + .content){
   background:#07110f!important;
   color:#f4efe6!important;
 }
-body:has(> .topbar + header.hero + main.wrap) main.wrap{
+body:has(> .topbar ~ header.hero + main.wrap > .facts + .content) main.wrap{
   color:#f4efe6!important;
 }
-body:has(> .topbar + header.hero + main.wrap) .facts>.fact,
-body:has(> .topbar + header.hero + main.wrap) .content>.card,
-body:has(> .topbar + header.hero + main.wrap) .content .card{
+body:has(> .topbar ~ header.hero + main.wrap > .facts + .content) .facts>.fact,
+body:has(> .topbar ~ header.hero + main.wrap > .facts + .content) .content>.card,
+body:has(> .topbar ~ header.hero + main.wrap > .facts + .content) .content .card{
   color:#f4efe6!important;
 }
-body:has(> .topbar + header.hero + main.wrap) .facts>.fact b{
+body:has(> .topbar ~ header.hero + main.wrap > .facts + .content) .facts>.fact b{
   color:#f3b94f!important;
 }
-body:has(> .topbar + header.hero + main.wrap) .content h2,
-body:has(> .topbar + header.hero + main.wrap) .content h3,
-body:has(> .topbar + header.hero + main.wrap) .content p,
-body:has(> .topbar + header.hero + main.wrap) .content strong{
+body:has(> .topbar ~ header.hero + main.wrap > .facts + .content) .content h2,
+body:has(> .topbar ~ header.hero + main.wrap > .facts + .content) .content h3,
+body:has(> .topbar ~ header.hero + main.wrap > .facts + .content) .content p,
+body:has(> .topbar ~ header.hero + main.wrap > .facts + .content) .content strong{
   color:inherit;
+}
+
+
+/* Global contrast corrections for light editorial surfaces and selected controls. */
+.intro > .kicker,
+.editorial .kicker,
+.transport > .kicker,
+.lodging-guide-link .kicker,
+.stay-wrap > .kicker,
+.stay-story > .kicker,
+.stay-fit > .kicker,
+.stay-enquiry > .kicker,
+.products-head .kicker {
+  color: #805812 !important;
+}
+.editorial.night .kicker,
+.night .editorial .kicker {
+  color: var(--amber) !important;
+}
+.experiences-catalog .exp-group-head > small {
+  color: #52615c !important;
+}
+.family-practical .family-info-card > p {
+  color: #0f766e !important;
+}
+#eventos-root button.bg-teal-500 {
+  color: var(--ink, #061817) !important;
 }
