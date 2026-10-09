@@ -84,6 +84,21 @@ dictionary.ES["listing.card.studio"]="Copacabana · Para 2 personas.";
 dictionary.PT["listing.card.studio"]="Copacabana · Para 2 pessoas.";
 dictionary.EN["listing.card.studio"]="Copacabana · For 2 guests.";
 registerTranslations("lodging",dictionary);
+function renderNewStayCard(){
+  if(document.body.dataset.lodgingIndex!=="true")return;
+  const id="casa-candida",stay=STAYS[id],grid=document.querySelector(".feature-grid");
+  if(!stay||!grid||grid.querySelector('a[href="./'+id+'/"]'))return;
+  const card=document.createElement("a");
+  card.className="feature";card.href="./"+id+"/";card.target="_blank";card.rel="noopener noreferrer";
+  card.dataset.stayCard=id;card.style.setProperty("--card-image",'url("'+stay.cover+'")');
+  const title=document.createElement("b");title.textContent=stay.name;
+  const summary=document.createElement("span");summary.className="card-copy";
+  const cta=document.createElement("small");
+  card.append(title,summary,cta);grid.append(card);
+  const apply=()=>{const lang=getLanguage(),locale=lang==="PT"?"pt":lang==="EN"?"en":"es";summary.textContent=dictionary[lang]["listing.card."+id]||stay.place+" · "+stay.guests+" · "+stay.desc[locale];cta.textContent=dictionary[lang]["index.cta"];};
+  apply();onLanguageChange(apply);
+}
+renderNewStayCard();
 
 const labels={ES:[["huésped","huéspedes"],["habitación","habitaciones"],["cama","camas"],["baño","baños"]],PT:[["hóspede","hóspedes"],["quarto","quartos"],["cama","camas"],["banheiro","banheiros"]],EN:[["guest","guests"],["bedroom","bedrooms"],["bed","beds"],["bathroom","bathrooms"]]};
 const body=document.body,stayId=body.dataset.stayId,stay=stayId?STAYS[stayId]:null;
