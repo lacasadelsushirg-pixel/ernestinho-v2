@@ -1074,7 +1074,15 @@ const uploadedBuziosThumbs={
  'Salud y urgencias':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20salud%20buzios.jpg',
  'Compras y servicios':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20supermercados%20en%20buzios.webp',
  'Compras con identidad local':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20compras%20en%20buzios.jpg',
- 'Música y fiesta':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20que%20noche%20quieres%20vivir%20en%20buzios.jpg'
+ 'Música y fiesta':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20que%20noche%20quieres%20vivir%20en%20buzios.jpg',
+ '¿Extrañas Chile? Un sabor familiar en Búzios':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniaturas%20chilenos%20en%20buzios.jpg',
+ 'Necesito resolver algo en Búzios':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20necesito%20resolver%20algo%20en%20buzios.jpg',
+ 'Eventos en Búzios: el calendario cambia tu viaje':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniaturas%20eventos%20en%20buzios.jpg',
+ 'Búzios con mascotas: confirma antes de reservar':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20buzios%20con%20mascotas.jpg',
+ 'Un pedacito de Argentina en Búzios':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniaturas%20argentinos%20en%20buzios.jpg',
+ 'Búzios según tu forma de viajar':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20buzios%20segun%20tu%20forma%20de%20viajar.jpg',
+ 'Seguridad en Búzios: qué hago si pasa algo':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20seguridad%20buzios.jpg',
+ 'Búzios con movilidad reducida: comprobar cada acceso':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20movilidad%20reduzida.jpg'
 };
 function uploadedBuziosFigure(it,lang){
  const src=uploadedBuziosThumbs[value(it.title,'ES')];
