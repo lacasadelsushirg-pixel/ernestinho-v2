@@ -81,6 +81,7 @@ function GrandesEventosPage({ onBack }) {
                                 React.createElement("div", { className: "bg-slate-100 rounded-2xl p-4" },
                                     React.createElement("b", null, "Referencia usada"),
                                     React.createElement("p", { className: "text-xs text-slate-600 mt-1" }, x.referencia)),
+                                x.galeria && React.createElement("div", { className: "grid sm:grid-cols-2 gap-3" }, x.galeria.map(([titulo, url, credito]) => React.createElement("figure", { key: url, className: "overflow-hidden rounded-2xl bg-slate-100" }, React.createElement("img", { src: url, alt: titulo, loading: "lazy", className: "w-full aspect-[16/9] object-cover" }), React.createElement("figcaption", { className: "p-3 text-xs text-slate-600" }, React.createElement("strong", { className: "block text-slate-900" }, titulo), credito)))),
                                 React.createElement("a", { href: x.fuente, target: "_blank", rel: "noopener noreferrer", className: "inline-flex bg-slate-950 text-white rounded-full px-4 py-2 text-xs font-black" }, "Fuente oficial / principal \u2192")))))))));
     const e = seleccionado;
     const rockRows = e.artistas ? (diaRock === 'Todos' ? e.artistas : e.artistas.filter(x => x[0] === diaRock)) : [];
