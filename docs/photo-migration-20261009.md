@@ -56,3 +56,31 @@ Además se reparó en Experiencias una referencia a Pedra do Sal: el nombre de l
 Las 98 fotos referenciadas corresponden a 103 asociaciones página-foto; cuatro archivos tienen una segunda colocación válida en una tarjeta de sección.
 
 La segunda tanda incorporó la miniatura de Búzios en Home; cinco fotos de Búzios en Goleta; cuatro fotos y la ficha propia de Boa Praça Leblon; y dos fotos y la ficha de la feria de Saens Peña. La unidad Leblon queda separada de la ficha existente de Ipanema. Esta tanda añadió Casa Cândida con sus 11 fotos propias; su tarjeta se genera desde el catálogo de hospedaje y su URL figura en el sitemap.
+
+
+## Auditoría completa de referencias — 9 de octubre de 2026
+
+Este corte recorre el inventario completo de Hostinger y el código de páginas de la rama. Una foto se considera referenciada únicamente si la ruta exacta aparece asociada a una página existente. La mera presencia en el inventario no cuenta como migración.
+
+- **Fotos únicas en el inventario:** 3.085 rutas distintas de imágenes. Es unicidad por ruta; no se calcularon hashes de contenido para encontrar copias renombradas.
+- **Fotos únicas con al menos una referencia válida:** 3.051.
+- **Referencias válidas página-foto:** 3.303.
+- **Archivos pendientes de referencia válida:** 34: 31 sin referencia exacta y 3 con diferencia de mayúsculas/minúsculas en una referencia directa.
+- **Cobertura de código:** se revisaron 854 archivos fuente; el mapa de referencias masivas contiene 2.892 rutas para 453 páginas. Las páginas asociadas incluyen `assets/js/site.js`, que carga el integrador.
+- Las asociaciones existen en el código y las rutas coinciden con el inventario, pero algunas fotos se muestran mediante una galería genérica insertada al final del contenido. Por ello, este conteo acredita referencia en la página, no la ubicación editorial exacta ni una comprobación visual de cada foto.
+- La respuesta HTTP y el tipo MIME de las imágenes no se pudieron verificar desde este entorno. No se declara comprobación de carga extremo a extremo.
+- No se cambió el código del sitio ni se desplegó a producción. Las tres rutas con diferencias de mayúsculas están en páginas congeladas y quedan fuera del conteo válido.
+
+### Pendientes identificados
+
+| Grupo | Archivos | Estado |
+|---|---:|---|
+| Buceo y bautismo de Búzios | 11 | Aplazados para Experiencias, por instrucción del propietario |
+| Videos TV sin referencia | 11 | Aplazados; 2 elementos adicionales de esa carpeta ya tienen referencia en Televisión |
+| Penedo | 7 | Fuera por instrucción del propietario |
+| Restaurante con nombre UUID | 1 | Destino sin confirmar |
+| Portada de Experiencia Búzios | 1 | Pendiente de confirmar destino; su página está congelada |
+| Referencias con mayúsculas/minúsculas distintas | 3 | No cuentan como válidas: dos fotos de Casa Goia y la portada de Alquiler de Vehículo |
+| **Total** | **34** | **Pendientes de referencia válida** |
+
+Los CSV adjuntos registran por separado el inventario de fotos únicas, las asociaciones página-foto válidas y cada pendiente. Esta auditoría total complementa la reconciliación anterior de la lista de 129; no modifica sus conteos de esa tanda.
