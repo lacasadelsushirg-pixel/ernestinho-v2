@@ -1061,20 +1061,20 @@ PAGES['/destinos/buzios/comer-y-salir/'].heroPhoto=portoPhoto;
 const cultureCard=PAGES['/destinos/buzios/que-hacer/'].sections.flatMap(s=>s.items).find(it=>value(it.title,'ES')==='Cultura e identidad');
 if(cultureCard)cultureCard.photo='Brigitte Bardot';
 const uploadedBuziosThumbs={
- 'Playas con personalidades distintas':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniatura%20playas%20con%20personalidades%20distintas.jpg',
- 'Una zona para cada ritmo':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniatura%20una%20zona%20para%20cada%20ritmo.jpg',
- 'Actividades con salida local':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniaturas%20actividades%20con%20salida%20local.jpg',
- 'Llegada completa':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/minitatura%20llegada%20complet.jpg',
- 'Comer, pasear y volver':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniatura%20comer%20pasear%20y%20volver.jpg',
- 'Viaje sin sorpresas evitables':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniatura%20viaje%20sin%20sopresas.jpg',
- 'Cuándo ir':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniatura%20buzios%20mes%20a%20mes.jpeg',
- 'Con niños':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniatura%20buzios%20con%20bebes%20ni%C3%B1os%20y%20adolecentes.jpg',
- 'Dinero, PIX y tarjetas':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniatura%20dinero%20tarjeta%20pix%20buzios.jpg',
- 'Internet':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/minitatura%20internet%20sim%20buzios.jpg',
- 'Salud y urgencias':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/minitatura%20salud%20buzios.jpg',
- 'Compras y servicios':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniatura%20supermercados%20en%20buzios.webp',
- 'Compras con identidad local':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniatura%20compras%20en%20buzios.jpg',
- 'Música y fiesta':'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniatura%20que%20noche%20quieres%20vivir%20en%20buzios.jpg'
+ 'Playas con personalidades distintas':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20playas%20con%20personalidades%20distintas.jpg',
+ 'Una zona para cada ritmo':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20una%20zona%20para%20cada%20ritmo.jpg',
+ 'Actividades con salida local':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniaturas%20actividades%20con%20salida%20local.jpg',
+ 'Llegada completa':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20llegada%20complet.jpg',
+ 'Comer, pasear y volver':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20comer%20pasear%20y%20volver.jpg',
+ 'Viaje sin sorpresas evitables':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20viaje%20sin%20sopresas.jpg',
+ 'Cuándo ir':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20buzios%20mes%20a%20mes.jpeg',
+ 'Con niños':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20buzios%20con%20bebes%20ni%C3%B1os%20y%20adolecentes.jpg',
+ 'Dinero, PIX y tarjetas':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20dinero%20tarjeta%20pix%20buzios.jpg',
+ 'Internet':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20internet%20sim%20buzios.jpg',
+ 'Salud y urgencias':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20salud%20buzios.jpg',
+ 'Compras y servicios':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20supermercados%20en%20buzios.webp',
+ 'Compras con identidad local':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20compras%20en%20buzios.jpg',
+ 'Música y fiesta':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20que%20noche%20quieres%20vivir%20en%20buzios.jpg'
 };
 function uploadedBuziosFigure(it,lang){
  const src=uploadedBuziosThumbs[value(it.title,'ES')];
@@ -1082,14 +1082,14 @@ function uploadedBuziosFigure(it,lang){
  return `<figure class="bz-card-photo"><img src="${esc(src)}" alt="${esc(value(it.title,lang))}" width="1200" height="675" loading="lazy" decoding="async"></figure>`;
 }
 const portalCards=[
- ['playas',T('Playas','Praias','Beaches'),'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/minitatura%20para%20playas%20buzios.jpg'],
- ['alojamiento',T('Dónde alojarse','Onde ficar','Where to stay'),'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/minitatura%20para%20donde%20alojarse%20buzios.jpg'],
- ['comer-y-salir',T('Comer y salir','Comer e sair','Food and nightlife'),'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/minitatura%20para%20donde%20comer%20buzios.jpg'],
- ['que-hacer',T('Qué hacer','O que fazer','Things to do'),'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/minitatura%20para%20donde%20comeue%20hacer%20buzios.jpg'],
- ['experiencias',T('Experiencias','Experiências','Experiences'),'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/minitatura%20para%20experiencias%20buzios.jpg'],
- ['moverse',T('Cómo moverse','Como circular','Getting around'),'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/minitatura%20para%20como%20moverse%20buzios.jpg'],
- ['perfiles',T('Elige tu perfil','Escolha seu perfil','Choose your travel style'),'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniatura%20elige%20tu%20perfil%20buzios.png'],
- ['cruceros',T('Cruceros','Cruzeiros','Cruises'),'https://ernestinho-images.lacasadelsushi-rg.workers.dev/V2GUIADERIO/HOME/BUZIOS/miniatura%20cruceros%20en%20buzios%20MSC-Armonia-Buzios.jpg']
+ ['playas',T('Playas','Praias','Beaches'),'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20para%20playas%20buzios.jpg'],
+ ['alojamiento',T('Dónde alojarse','Onde ficar','Where to stay'),'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20para%20donde%20alojarse%20buzios.jpg'],
+ ['comer-y-salir',T('Comer y salir','Comer e sair','Food and nightlife'),'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20para%20donde%20comer%20buzios.jpg'],
+ ['que-hacer',T('Qué hacer','O que fazer','Things to do'),'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20para%20donde%20comeue%20hacer%20buzios.jpg'],
+ ['experiencias',T('Experiencias','Experiências','Experiences'),'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20para%20experiencias%20buzios.jpg'],
+ ['moverse',T('Cómo moverse','Como circular','Getting around'),'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20para%20como%20moverse%20buzios.jpg'],
+ ['perfiles',T('Elige tu perfil','Escolha seu perfil','Choose your travel style'),'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20elige%20tu%20perfil%20buzios.png'],
+ ['cruceros',T('Cruceros','Cruzeiros','Cruises'),'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20cruceros%20en%20buzios%20MSC-Armonia-Buzios.jpg']
 ];
 function photoFigure(photo,lang,caption=true){if(!photo)return '';const alt=T('Vista de '+photo.name+' en Búzios','Vista de '+photo.name+' em Búzios','View of '+photo.name+' in Búzios')[lang];return `<figure class="bz-card-photo"><img src="${esc(photo.src)}" alt="${esc(alt)}" width="${photo.width}" height="${photo.height}" loading="lazy" decoding="async">${caption?`<figcaption>${esc(photo.name)} · <a href="${esc(photo.source)}" target="_blank" rel="noopener noreferrer">${esc(photo.artist)}</a> · <a href="${esc(photo.licenseUrl)}" target="_blank" rel="license noopener noreferrer">${esc(photo.license)}</a></figcaption>`:''}</figure>`;}
 
