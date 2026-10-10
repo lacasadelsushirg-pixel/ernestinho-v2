@@ -1,6 +1,6 @@
 # Playas de Río — auditoría maestra local
 
-**Estado:** cambios locales sin commit, push ni despliegue. Rama `revision/rendimiento-traducciones-81a904c`; checkout local `29ab6a9`; último HEAD remoto observado previamente: `ff76300becbb08c1a1893f46d2ca9005f25b845f`. Durante esta continuación, la consulta nueva del remoto falló por falta de conexión; el objeto remoto no está presente en la base de objetos del checkout local. No se hizo reconciliación ni integración y cualquier futura actualización queda pendiente de verificar el HEAD y comparar cambios. No se modificó Búzios ni el código de Carioc-IA.
+**Estado:** cierre de Playas integrado en preview, con QA visual de escritorio parcial. Rama `revision/rendimiento-traducciones-81a904c`; HEAD remoto verificado antes de integrar: `ff76300becbb08c1a1893f46d2ca9005f25b845f`. El commit remoto reciente de Carioc-IA se conservó como padre; el cierre de Playas se integró sobre ese estado. No se modificó Búzios ni el código de Carioc-IA.
 
 ## Alcance y datos comprobados
 
@@ -102,3 +102,8 @@ La portada ahora distingue las 27 guías de playa de nueve referencias oficiales
 - `git diff --check`, `node --check assets/js/playas-photo-i18n.js`, la revisión de enlaces locales y el control de metadatos de imágenes pasan. El sitio local no pudo servirse en un navegador en este entorno; no se declara revisado el render visual en escritorio/iPhone ni el estado HTTP de cada imagen dentro de la web.
 - El álbum completo de Hostinger no permite enumeración desde el directorio público; no se marca ninguna foto propia como inexistente y no se pide subir archivos sin confirmar ausencia.
 - La integración se limita a Playas y documentación de Playas. El remoto de Carioc-IA se mantiene intacto; no se tocan Gastronomía, Vida Nocturna, Búzios ni producción.
+
+
+### Cierre en preview y corrección tras QA visual — 10-10-2026
+
+El preview `dimgrey-hyena-256947.hostingersite.com` está conectado a la rama indicada y desplegó el cierre. En Chrome de escritorio verifiqué portada y ficha de Urca; su imagen y crédito aparecen correctamente. Esa revisión reveló una cifra sin fuente en la tarjeta de São Conrado, que se quitó antes del enlace final. La pasada complementaria conserva el resto del trabajo y sólo afecta Playas y sus documentos de QA. La revisión visual de móvil/iPhone y la comprobación completa de las imágenes servidas siguen pendientes.

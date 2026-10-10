@@ -79,3 +79,10 @@ La consulta también separó tres fuentes que no deben confundirse: INEA publica
 - Con esa incorporación, las 27 guías de `playas/` tienen al menos una imagen de contenido en su HTML. La matriz `PLAYAS_FOTOS_MAPEO.csv` queda en 168 registros; 11 corresponden a fuentes de Wikimedia Commons agregadas o reutilizadas.
 - La fuente Commons confirma la identidad descrita como Praia da Urca y el autor/licencia; el render de la ficha alojada no se pudo comprobar desde este entorno. Sigue pendiente validar que todas las URL carguen en preview y revisar el aspecto responsive real.
 - No se encontraron evidencias para pedir nuevas fotografías al propietario: el índice de Hostinger sigue devolviendo 403 y no permite certificar la ausencia global.
+
+
+### Verificación del preview Hostinger — 10-10-2026
+
+- Tras desplegar la rama, abrí la portada `/playas/` y la ficha `/playas/praia-da-urca/` en Chrome de escritorio. La portada mostró sus tarjetas y las imágenes; en la ficha se cargó la nueva imagen de Urca completa, con atribución visible y sin recorte editorial.
+- La revisión del texto servido detectó una cifra heredada no sustentada sobre la población de Rocinha en la tarjeta de São Conrado. Se retiró esa cifra y se dejó una descripción sin número.
+- Falta comprobar la carga de todas las imágenes Commons restantes en sus páginas servidas y hacer QA visual de móvil/iPhone. No se presenta esa parte como certificada.
