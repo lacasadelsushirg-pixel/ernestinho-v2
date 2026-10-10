@@ -2,7 +2,7 @@
 
 **Corte:** 10 de octubre de 2026  
 **Rama:** `revision/rendimiento-traducciones-81a904c`  
-**HEAD:** `581d359ff5ea776e67d8119e797282f7ed738902`
+**Commit final de implementación del sitio:** `581d359ff5ea776e67d8119e797282f7ed738902`
 
 ## Alcance y conciliación
 
