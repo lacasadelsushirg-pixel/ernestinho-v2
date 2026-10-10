@@ -62,7 +62,7 @@
 .family-history p,.family-experience>p{margin:0;color:#475569;font:400 clamp(1rem,2.2vw,1.125rem)/1.7 var(--sans,Arial,sans-serif)}
 .family-gallery{display:grid;gap:3rem;width:min(100%,56rem);margin:3rem auto}
 .family-gallery figure{overflow:hidden;margin:0;border-radius:1.5rem;background:#e2e8f0}
-.family-gallery img{display:block;width:100%;height:auto;max-height:48rem;object-fit:contain;background:#f1f5f9}
+.family-gallery img{display:block;width:100%;height:auto;max-height:48rem}
 .family-info-grid{display:grid;grid-template-columns:1fr;gap:1.25rem;margin:0 0 2rem}
 .family-info-card{padding:1.5rem;border:1px solid #ccfbf1;border-radius:1.5rem;background:#f0fdfa}
 .family-info-card>p{margin:0 0 .75rem;color:#0f766e;font:900 11px/1.4 var(--sans,Arial,sans-serif);letter-spacing:.1em;text-transform:uppercase}
