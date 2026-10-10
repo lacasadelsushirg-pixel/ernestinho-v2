@@ -25,9 +25,13 @@ export function mountCariocIA() {
   if (document.querySelector(".ec-cariocia")) return;
   const css = document.createElement("link");
   css.rel = "stylesheet";
-  css.href = new URL("../css/carioc-ia.css?v=20261010-avatar2", import.meta.url).href;
+  css.href = new URL("../css/carioc-ia.css?v=20261010-mobile1", import.meta.url).href;
   css.dataset.ecCariociaStyle = "";
   document.head.appendChild(css);
+  const controlsStyle = document.createElement("style");
+  controlsStyle.dataset.ecCariociaControls = "";
+  controlsStyle.textContent = "@media(max-width:600px){body.ec-cariocia-open .ec-global-actions{visibility:hidden!important;pointer-events:none!important}}";
+  document.head.appendChild(controlsStyle);
 
   let language = getLanguage();
   let isOpen = false;
@@ -176,6 +180,7 @@ export function mountCariocIA() {
   function setOpen(next, focus) {
     const wasOpen = isOpen;
     isOpen = Boolean(next);
+    document.body.classList.toggle("ec-cariocia-open", isOpen);
     panel.getAnimations().forEach(animation => animation.cancel());
     if (isOpen) {
       panel.hidden = false;
