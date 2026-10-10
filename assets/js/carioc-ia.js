@@ -25,7 +25,7 @@ export function mountCariocIA() {
   if (document.querySelector(".ec-cariocia")) return;
   const css = document.createElement("link");
   css.rel = "stylesheet";
-  css.href = new URL("../css/carioc-ia.css?v=20261010-avatar", import.meta.url).href;
+  css.href = new URL("../css/carioc-ia.css?v=20261010-avatar2", import.meta.url).href;
   css.dataset.ecCariociaStyle = "";
   document.head.appendChild(css);
 
@@ -45,6 +45,10 @@ export function mountCariocIA() {
   const icon = makeElement("img", "ec-cariocia-avatar");
   icon.src = new URL("../brand/carioc-ia-avatar.png", import.meta.url).href;
   icon.alt = "";
+  icon.style.objectFit = "cover";
+  icon.style.objectPosition = "center 12%";
+  icon.style.transform = "scale(1.55)";
+  icon.style.transformOrigin = "center 20%";
   icon.width = 64;
   icon.height = 64;
   icon.decoding = "async";
@@ -61,6 +65,10 @@ export function mountCariocIA() {
   const headerAvatar = makeElement("img", "ec-cariocia-header-avatar");
   headerAvatar.src = new URL("../brand/carioc-ia-avatar.png", import.meta.url).href;
   headerAvatar.alt = "";
+  headerAvatar.style.objectFit = "cover";
+  headerAvatar.style.objectPosition = "center 12%";
+  headerAvatar.style.transform = "scale(1.5)";
+  headerAvatar.style.transformOrigin = "center 20%";
   headerAvatar.width = 48;
   headerAvatar.height = 48;
   headerAvatar.decoding = "async";
