@@ -31,6 +31,7 @@ function appendFamilyGallery(anchor,id,photos){
     const image=document.createElement('img');
     image.src=familyPhotoUrl(photo.folder,photo.file);
     image.alt=photo.alt;
+    image.dataset.ecAl=photo.alt;
     image.loading='lazy';
     image.decoding='async';
     image.width=photo.width;
@@ -49,6 +50,7 @@ function placeFamilyEditorialPhotos(){
     if(hero){
       hero.src=familyPhotoUrl('FAMILIA ilha fiscal','ILHAF2.jpg');
       hero.alt='Ilha Fiscal vista desde la bahía';
+      hero.dataset.ecAl=hero.alt;
       hero.width=782;
       hero.height=472;
     }
@@ -57,6 +59,7 @@ function placeFamilyEditorialPhotos(){
     if(first){
       first.src=familyPhotoUrl('FAMILIA ilha fiscal','FB_IMG_1696133943368(1).jpg');
       first.alt='Fachada de Ilha Fiscal entre las palmeras';
+      first.dataset.ecAl=first.alt;
       first.width=782;
       first.height=960;
     }
@@ -68,6 +71,7 @@ function placeFamilyEditorialPhotos(){
     if(hero){
       hero.src=familyPhotoUrl('FAMILIA jadin botanico','jardim botanico.jpg');
       hero.alt='Pérgola y sendero del Jardim Botânico de Río';
+      hero.dataset.ecAl=hero.alt;
       hero.width=1600;
       hero.height=1014;
     }
@@ -77,6 +81,7 @@ function placeFamilyEditorialPhotos(){
       if(image){
         image.src=familyPhotoUrl('FAMILIA jadin botanico',file);
         image.alt=index===0?'Jardín del Jardim Botânico con el Morro Dois Irmãos al fondo':'Palmeras imperiales en el Jardim Botânico';
+        image.dataset.ecAl=image.alt;
         image.width=720;
         image.height=480;
       }
@@ -88,6 +93,7 @@ function placeFamilyEditorialPhotos(){
     if(duplicate){
       duplicate.src=familyPhotoUrl('FAMILIA bosque da barra','IMG_20230305_160135338_HDR(1).jpg');
       duplicate.alt='Ernestinho junto a capibaras en el Bosque da Barra';
+      duplicate.dataset.ecAl=duplicate.alt;
       duplicate.width=2320;
       duplicate.height=1740;
     }
@@ -100,7 +106,7 @@ function placeFamilyEditorialPhotos(){
       ['PARQLA1.heic','PARQLA1.jpg','Parque Lage · otra mirada de la experiencia']
     ]){
       const image=[...document.querySelectorAll('.family-gallery img')].find(item=>item.getAttribute('src')?.includes(heic));
-      if(image){image.src=familyPhotoUrl('FAMILIA parque lage',jpeg);image.alt=alt;}
+      if(image){image.src=familyPhotoUrl('FAMILIA parque lage',jpeg);image.alt=alt;image.dataset.ecAl=alt;}
     }
     return;
   }
@@ -109,6 +115,7 @@ function placeFamilyEditorialPhotos(){
     if(broken){
       broken.src=familyPhotoUrl('FAMILIA CARNAVAL EXPERIENCE FAMILIA','CARNAVAL EXPERIENCE PARA FAMILIA.jpg');
       broken.alt='Ernestinho y visitantes en el espacio de Carnaval Experience dedicado a Zeca Pagodinho';
+      broken.dataset.ecAl=broken.alt;
       const figure=broken.closest('figure');
       if(figure){const oldGallery=figure.parentElement;figure.remove();appendFamilyGallery(experience,id,[]);const gallery=document.createElement('div');gallery.className='family-gallery';gallery.dataset.familyPhotoGallery=id;gallery.append(figure);experience.insertAdjacentElement('afterend',gallery);if(oldGallery&&!oldGallery.children.length)oldGallery.remove();}
     }
