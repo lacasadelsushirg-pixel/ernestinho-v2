@@ -42,10 +42,13 @@ export function mountCariocIA() {
   launcher.setAttribute("aria-haspopup", "dialog");
   launcher.setAttribute("aria-expanded", "false");
 
-  const icon = makeElement("span", "ec-cariocia-avatar", "EC");
-  icon.setAttribute("aria-hidden", "true");
-  const launchText = makeElement("span", "ec-cariocia-launcher-label");
-  launcher.append(icon, launchText);
+  const icon = makeElement("img", "ec-cariocia-avatar");
+  icon.src = new URL("../brand/carioc-ia-avatar.png", import.meta.url).href;
+  icon.alt = "";
+  icon.width = 64;
+  icon.height = 64;
+  icon.decoding = "async";
+  launcher.append(icon);
 
   const panel = makeElement("section", "ec-cariocia-panel");
   panel.id = "ec-cariocia-panel";
@@ -55,6 +58,12 @@ export function mountCariocIA() {
   panel.setAttribute("aria-labelledby", "ec-cariocia-title");
 
   const header = makeElement("header", "ec-cariocia-header");
+  const headerAvatar = makeElement("img", "ec-cariocia-header-avatar");
+  headerAvatar.src = new URL("../brand/carioc-ia-avatar.png", import.meta.url).href;
+  headerAvatar.alt = "";
+  headerAvatar.width = 48;
+  headerAvatar.height = 48;
+  headerAvatar.decoding = "async";
   const identity = makeElement("div", "ec-cariocia-identity");
   const title = makeElement("strong", "", "");
   title.id = "ec-cariocia-title";
@@ -63,7 +72,7 @@ export function mountCariocIA() {
   close.type = "button";
   close.setAttribute("aria-label", "Cerrar asistente");
   identity.append(title, subtitle);
-  header.append(identity, close);
+  header.append(headerAvatar, identity, close);
 
   const messages = makeElement("div", "ec-cariocia-messages");
   messages.setAttribute("role", "log");
@@ -92,7 +101,6 @@ export function mountCariocIA() {
     const words = copy();
     title.textContent = words.name;
     subtitle.textContent = words.subtitle;
-    launchText.textContent = words.name;
     launcher.setAttribute("aria-label", words.open);
     close.setAttribute("aria-label", words.close);
     input.placeholder = words.placeholder;
