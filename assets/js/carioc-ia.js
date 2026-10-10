@@ -25,7 +25,7 @@ export function mountCariocIA() {
   if (document.querySelector(".ec-cariocia")) return;
   const css = document.createElement("link");
   css.rel = "stylesheet";
-  css.href = new URL("../css/carioc-ia.css", import.meta.url).href;
+  css.href = new URL("../css/carioc-ia.css?v=20261010-avatar", import.meta.url).href;
   css.dataset.ecCariociaStyle = "";
   document.head.appendChild(css);
 
