@@ -126,7 +126,7 @@ export const INTENTS = [
   },
   {
     id: "transport",
-    keywords: ["transporte", "transportes", "moverme", "moverse", "muevo", "como me muevo", "como llego a", "como llegar", "get around", "how do i get around rio", "aeropuerto", "uber", "metro", "brt", "vlt", "onibus", "ônibus", "getting around", "transport", "airport", "subway", "como me locomover", "metrô", "ônibus", "aeroporto"],
+    keywords: ["transporte", "transportes", "moverme", "moverse", "muevo", "como me muevo", "como me locomuevo por el rio", "como llego a", "como llegar", "get around", "how do i get around rio", "aeropuerto", "uber", "metro", "brt", "vlt", "onibus", "ônibus", "getting around", "transport", "airport", "subway", "como me locomover", "como me locomovo pelo rio", "metrô", "ônibus", "aeroporto"],
     answer: t(
       "La mejor opción depende del trayecto. La guía explica metro, VLT, BRT, buses, apps y traslados; si llegas en avión, revisa primero si tu vuelo aterriza en GIG o SDU.",
       "A melhor opção depende do trajeto. O guia explica metrô, VLT, BRT, ônibus, aplicativos e traslados; se você chega de avião, confira primeiro se seu voo pousa no GIG ou no SDU.",
@@ -246,7 +246,7 @@ export const INTENTS = [
   },
   {
     id: "weather",
-    keywords: ["clima", "tempo", "mejor epoca", "cuando viajar", "mes a mes", "weather", "best time", "when to visit", "clima no rio", "época", "chuva"],
+    keywords: ["clima", "tempo", "mejor epoca", "cuando viajar", "mes a mes", "pronostico", "que tiempo hara", "weather", "weather forecast", "forecast", "best time", "when to visit", "clima no rio", "época", "chuva"],
     answer: t(
       "La guía mes a mes reúne clima, playas, eventos y movimiento de la ciudad para planificar la época del viaje. Para el pronóstico de un día concreto, revisa una fuente meteorológica actualizada cerca de tu salida.",
       "O guia mês a mês reúne clima, praias, eventos e movimento da cidade para ajudar a escolher a época da viagem. Para a previsão de um dia específico, consulte uma fonte meteorológica atualizada perto da data.",
@@ -256,7 +256,7 @@ export const INTENTS = [
   },
   {
     id: "today",
-    keywords: ["que hacer hoy", "hoy en rio", "hoy", "agenda", "eventos", "evento", "today", "what's on", "events", "o que fazer hoje", "hoje", "eventos no rio"],
+    keywords: ["que hacer hoy", "hoy en rio", "hoy", "agenda", "eventos", "evento", "today", "what's on", "what should i do today", "what to do today", "events today", "events", "o que fazer hoje", "hoje no rio", "eventos no rio"],
     answer: t(
       "Para ideas del día, revisa Rio Hoje en la portada y la agenda de eventos. La programación puede cambiar, así que confirma fecha, lugar y entradas en la página del evento antes de salir.",
       "Para ideias do dia, veja o Rio Hoje na página inicial e a agenda de eventos. A programação pode mudar; confirme data, local e ingressos na página do evento antes de sair.",

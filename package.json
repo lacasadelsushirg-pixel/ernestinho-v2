@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build_multilingual.mjs",
-    "check:locales": "python3 scripts/audit_multilingual.py"
+    "check:locales": "python3 scripts/audit_multilingual.py",
+    "test:cariocia": "node scripts/test_carioc_ia.mjs"
   },
   "engines": {
     "node": ">=20"

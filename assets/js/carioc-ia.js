@@ -1,10 +1,11 @@
 import { getLanguage } from "./i18n.js";
 import { hasLocaleRoutes, localizedPath } from "./locale-routing.js";
-import { findIntent, getLocalized } from "./carioc-ia-engine.js";
+import { getLocalized, normalizeQuestion, resolveQuestion } from "./carioc-ia-engine.js?v=20261010-cariocia2";
 import { FALLBACK_LINKS, UI } from "./carioc-ia-knowledge.js";
+import { INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261010-cariocia2";
+import { buildWhatsAppHref } from "./carioc-ia-whatsapp.js?v=20261010-cariocia2";
 
 const STORAGE_KEY = "ec-cariocia-panel-open";
-const WHATSAPP = "https://wa.me/5521969946938";
 
 function makeElement(tag, className, text) {
   const node = document.createElement(tag);
@@ -21,11 +22,54 @@ function track(name, topic) {
   else if (Array.isArray(window.dataLayer)) window.dataLayer.push({ event: eventName, topic: detail.topic });
 }
 
+function followupCopy(id, language) {
+  const options = {
+    ES: ["Tranquila", "Con surf", "Natural", "Para ir con niños", "Atardecer"],
+    PT: ["Tranquila", "Com surfe", "Natural", "Para ir com crianças", "Pôr do sol"],
+    EN: ["Quiet", "For surfing", "Natural", "Family-friendly", "Sunset"]
+  };
+  return id === "beach_clarify" ? options[language] || options.ES : [];
+}
+
+function menuActionCopy(language) {
+  return ({ ES: "Volver al menú", PT: "Voltar ao menu", EN: "Back to menu" })[language] || "Volver al menú";
+}
+
+function bookingCopy(language) {
+  const options = {
+    ES: {
+      add: "Añadir datos opcionales",
+      skip: "Contactar ahora",
+      prompt: "Si quieres, escribe la experiencia, la fecha y cuántas personas son. Es opcional; también puedes contactar ahora. Solo se añadirán al mensaje si abres WhatsApp.",
+      saved: "Listo. Solo incluiré esos datos en el mensaje si decides abrir WhatsApp.",
+      retry: "No pude reconocer una experiencia, fecha o cantidad de personas. Puedes intentarlo de nuevo o contactar ahora sin completar nada.",
+      skipReply: "Sin problema. Puedes continuar por WhatsApp sin completar los datos."
+    },
+    PT: {
+      add: "Adicionar dados opcionais",
+      skip: "Falar agora",
+      prompt: "Se quiser, escreva a experiência, a data e quantas pessoas são. É opcional; você também pode falar agora. Os dados só serão incluídos na mensagem se abrir o WhatsApp.",
+      saved: "Pronto. Só vou incluir esses dados na mensagem se você decidir abrir o WhatsApp.",
+      retry: "Não consegui identificar uma experiência, data ou quantidade de pessoas. Tente novamente ou fale agora sem preencher nada.",
+      skipReply: "Tudo bem. Você pode continuar pelo WhatsApp sem preencher os dados."
+    },
+    EN: {
+      add: "Add optional details",
+      skip: "Contact now",
+      prompt: "If you like, enter the experience, date, and number of people. This is optional; you can also contact us now. Details are added only if you open WhatsApp.",
+      saved: "Done. I will include those details only if you choose to open WhatsApp.",
+      retry: "I couldn't identify an experience, date, or group size. Try again or contact us now without filling anything in.",
+      skipReply: "No problem. You can continue on WhatsApp without adding details."
+    }
+  };
+  return options[language] || options.ES;
+}
+
 export function mountCariocIA() {
   if (document.querySelector(".ec-cariocia")) return;
   const css = document.createElement("link");
   css.rel = "stylesheet";
-  css.href = new URL("../css/carioc-ia.css?v=20261010-mobile1", import.meta.url).href;
+  css.href = new URL("../css/carioc-ia.css?v=20261010-cariocia2", import.meta.url).href;
   css.dataset.ecCariociaStyle = "";
   document.head.appendChild(css);
   const controlsStyle = document.createElement("style");
@@ -36,6 +80,8 @@ export function mountCariocIA() {
   let language = getLanguage();
   let isOpen = false;
   let hasInteracted = false;
+  let conversationContext = { pending: null, category: null };
+  const bookingContext = { experience: "", date: "", people: "" };
   try { isOpen = sessionStorage.getItem(STORAGE_KEY) === "true"; } catch (_) {}
 
   const root = makeElement("div", "ec-cariocia");
@@ -147,7 +193,7 @@ export function mountCariocIA() {
 
   function whatsappLink(words, topic) {
     const link = makeElement("a", "ec-cariocia-whatsapp", words.whatsapp);
-    link.href = WHATSAPP + "?text=" + encodeURIComponent(words.whatsappMessage);
+    link.href = buildWhatsAppHref({ language, baseMessage: words.whatsappMessage, ...bookingContext });
     link.target = "_blank";
     link.rel = "noopener noreferrer";
     link.dataset.topic = topic || "whatsapp";
@@ -162,12 +208,15 @@ export function mountCariocIA() {
     if (options.title) message.appendChild(makeElement("strong", "ec-cariocia-link-heading", options.title));
     addLinkList(message, options.links, options.topic);
     if (options.whatsapp) message.appendChild(whatsappLink(copy(), options.topic));
-    if (options.suggestions) {
+    if (options.suggestions || (kind === "assistant" && options.topic !== "welcome")) {
       const list = makeElement("div", "ec-cariocia-suggestions");
-      options.suggestions.forEach(question => {
-        const chip = makeElement("button", "ec-cariocia-chip", question);
+      const suggestions = [...(options.suggestions || [])];
+      if (kind === "assistant" && options.topic !== "welcome") suggestions.push(menuActionCopy(language));
+      suggestions.forEach(question => {
+        const label = getLocalized(question, language) || String(question);
+        const chip = makeElement("button", "ec-cariocia-chip", label);
         chip.type = "button";
-        chip.dataset.question = question;
+        chip.dataset.question = label;
         list.appendChild(chip);
       });
       message.appendChild(list);
@@ -206,16 +255,83 @@ export function mountCariocIA() {
     if (wasOpen !== isOpen) track(isOpen ? "open" : "close", "widget");
   }
 
+  function clearBookingContext() {
+    bookingContext.experience = "";
+    bookingContext.date = "";
+    bookingContext.people = "";
+  }
+
+  function rememberOptionalBookingDetails(question, allowBareExperience = false) {
+    const text = normalizeQuestion(question);
+    const party = text.match(/\b(?:somos|vamos|viajamos|we are|party of|group of|somos|estamos em)\s*(\d{1,2})\s*(?:personas|pax|people|travelers|travellers|pessoas)?\b/);
+    const anyParty = text.match(/\b(\d{1,2})\s*(?:personas|pax|people|travelers|travellers|pessoas)\b/);
+    const date = String(question || "").match(/\b(?:\d{1,2}[/-]\d{1,2}(?:[/-]\d{2,4})?|\d{4}-\d{2}-\d{2})\b/);
+    if (party || anyParty) bookingContext.people = (party || anyParty)[1];
+    if (date) bookingContext.date = date[0];
+    const normalized = text;
+    const experiences = [
+      ["Angra + Ilha Grande", /\b(angra|ilha grande|isla grande)\b/],
+      ["Arraial do Cabo", /\b(arraial|arraial do cabo)\b/],
+      ["Búzios", /\bbuzios\b/],
+      ["Cristo + City Tour", /\b(cristo|corcovado)\b/],
+      ["tour privado", /\b(privado|privada|private)\b/]
+    ];
+    const selected = experiences.find(([, pattern]) => pattern.test(normalized));
+    if (selected && (allowBareExperience || /\b(tour|reserva|reservar|experiencia|passeio|booking|book)\b/.test(normalized))) bookingContext.experience = selected[0];
+    return Boolean(party || anyParty || date || bookingContext.experience);
+  }
+
   function answerQuestion(question, source) {
     const text = String(question || "").trim().slice(0, 300);
     if (!text) return;
     hasInteracted = true;
     addMessage(text, "visitor");
-    const intent = findIntent(text);
     const words = copy();
+    const normalized = normalizeQuestion(text);
+    const bookingWords = bookingCopy(language);
+    if (conversationContext.pending === "booking_details") {
+      if ([normalizeQuestion(bookingWords.skip), "ahora no", "no gracias", "skip", "not now"].includes(normalized)) {
+        conversationContext.pending = null;
+        clearBookingContext();
+        addMessage(bookingWords.skipReply, "assistant", { whatsapp: true, topic: "booking" });
+        return;
+      }
+      const captured = rememberOptionalBookingDetails(text, true);
+      if (captured) {
+        conversationContext.pending = null;
+        addMessage(bookingWords.saved, "assistant", { whatsapp: true, topic: "booking" });
+        return;
+      }
+      const possibleTopicChange = resolveQuestion(text);
+      if (!possibleTopicChange.intent) {
+        addMessage(bookingWords.retry, "assistant", { suggestions: [bookingWords.skip], whatsapp: true, topic: "booking" });
+        return;
+      }
+      conversationContext.pending = null;
+      clearBookingContext();
+    }
+    if ([normalizeQuestion(bookingWords.add), "add booking details", "add optional details"].includes(normalized)) {
+      conversationContext.pending = "booking_details";
+      bookingContext.date = "";
+      bookingContext.people = "";
+      addMessage(bookingWords.prompt, "assistant", { suggestions: [bookingWords.skip], topic: "booking_details" });
+      return;
+    }
+    const result = resolveQuestion(text, conversationContext);
+    if (result.contextUpdate) conversationContext = { ...conversationContext, ...result.contextUpdate };
+    if (result.clarification) {
+      track("clarification", result.candidates?.[0]?.category || conversationContext.category || "ambiguous");
+      addMessage(getLocalized(result.clarification, language), "assistant", {
+        suggestions: result.suggestions?.length ? result.suggestions.map(label => getLocalized(label, language) || label) : followupCopy("beach_clarify", language),
+        topic: "clarification"
+      });
+      return;
+    }
+    const intent = result.intent;
     if (!intent) {
+      clearBookingContext();
       track("unresolved", "unknown");
-      addMessage(words.fallback, "assistant", {
+      addMessage(getLocalized(INTENT_GUIDANCE.outOfScope, language) || words.fallback, "assistant", {
         title: words.fallbackTitle,
         links: FALLBACK_LINKS,
         whatsapp: true,
@@ -223,11 +339,32 @@ export function mountCariocIA() {
       });
       return;
     }
+    const explicitBooking = intent.id === "booking" || intent.id === "christ_booking"
+      || /\b(reservar|reserva|book|booking|comprar ingresso|buy tickets|comprar entrada)\b/.test(normalized);
+    if (explicitBooking) {
+      clearBookingContext();
+      rememberOptionalBookingDetails(text);
+    } else if (intent.id !== "contact") clearBookingContext();
+    if (intent.id === "menu") {
+      conversationContext = { pending: null, category: null };
+      clearBookingContext();
+      messages.replaceChildren();
+      addMessage(words.greeting, "assistant", { suggestions: words.suggestions, topic: "welcome" });
+      return;
+    }
+    if (intent.id === "beach_clarify") conversationContext = { pending: "beach_style", category: "beaches" };
+    else if (intent.category) conversationContext = { pending: null, category: intent.category };
     track(source === "suggestion" ? "suggestion_click" : "question", intent.id);
+    const isCommercial = intent.category === "commercial" || intent.category === "comparisons" || intent.category === "experiences" || intent.id === "booking";
+    const bookingOffer = explicitBooking || /^experience_(angra|arraial|buzios)$/.test(intent.id);
+    const suggestions = bookingOffer
+      ? [bookingWords.add]
+      : intent.id === "beach_clarify" ? followupCopy(intent.id, language) : intent.followups;
     addMessage(getLocalized(intent.answer, language), "assistant", {
       links: intent.links,
-      whatsapp: Boolean(intent.whatsapp),
-      topic: intent.id
+      whatsapp: Boolean(intent.whatsapp || isCommercial),
+      topic: intent.id,
+      suggestions
     });
   }
 

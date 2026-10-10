@@ -3,7 +3,7 @@ import { routeParts, hasLocaleRoutes, localeHref, localizeLinks, syncLocaleMetad
 import { applySeoMetadata } from './seo-metadata.js';
 import { addTransportPhotoReferences } from "./transport-photo-references.js";
 import { addBulkPhotoReferences } from "./bulk-photo-references.js";
-import { mountCariocIA } from "./carioc-ia.js?v=20261010-mobile1";
+import { mountCariocIA } from "./carioc-ia.js?v=20261010-cariocia2";
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", mountCariocIA, { once: true });
 else mountCariocIA();
 if (!document.querySelector('link[href*="components.css"]') && !document.querySelector("[data-ec-brand-type]")) { const fontSheet=document.createElement("link"); fontSheet.rel="stylesheet"; fontSheet.href=new URL("../css/type.css",import.meta.url).href; fontSheet.dataset.ecBrandType=""; document.head.append(fontSheet); }
