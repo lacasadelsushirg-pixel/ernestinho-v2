@@ -1,6 +1,6 @@
 import { getLanguage, onLanguageChange } from "./i18n.js";
 const zones={
-  sul:['copacabana','ipanema','leblon','botafogo','urca','flamengo','laranjeiras','catete','gloria','lagoa','jardim-botanico','gavea','sao-conrado','humaita','cosme-velho','largo-do-machado'],
+  sul:['copacabana','leme','ipanema','leblon','botafogo','urca','flamengo','laranjeiras','catete','gloria','lagoa','jardim-botanico','gavea','sao-conrado','humaita','cosme-velho','largo-do-machado','rocinha','vidigal','santa-marta'],
   centro:['lapa','centro','centro-maua','cinelandia','pequena-africa','santa-teresa','catete','gloria','flamengo','paqueta'],
   norte:['tijuca','maracana','sao-cristovao','madureira','cadeg','zona-norte','alto-da-boa-vista'],
   oeste:['barra-da-tijuca','ilha-da-gigoia','recreio','vargens','guaratiba','sepetiba','jacarepagua','barra-oeste'],
