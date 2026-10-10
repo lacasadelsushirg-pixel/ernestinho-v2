@@ -110,9 +110,13 @@ export function mountCariocIA() {
     title.textContent = words.name;
     subtitle.textContent = words.subtitle;
     launcher.setAttribute("aria-label", words.open);
+    launcher.dataset.ecAriaLabel = words.open;
     close.setAttribute("aria-label", words.close);
+    close.dataset.ecAriaLabel = words.close;
     input.placeholder = words.placeholder;
     input.setAttribute("aria-label", words.placeholder);
+    input.dataset.ecPlaceholder = words.placeholder;
+    input.dataset.ecAriaLabel = words.placeholder;
     send.textContent = words.send;
     privacy.textContent = words.privacy;
   }
