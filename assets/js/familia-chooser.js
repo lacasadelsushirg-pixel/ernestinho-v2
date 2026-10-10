@@ -16,7 +16,6 @@ const FAMILY_ART_PHOTOS={
     {folder:'FAMILIA lagoa',file:'FAMILIA LAGOA (6).jpg',alt:'Familia disfruta un paseo junto a la Lagoa Rodrigo de Freitas',width:1400,height:1400}
   ],
   'meta-kart':[{folder:'FAMILIA meta kart',file:'metakart4.jpg',alt:'Grupo con trajes de karting en Meta Kart Indoor',width:1400,height:1050}],
-  'jardim-botanico':[{folder:'FAMILIA jadin botanico',file:'jardim botanico.jpg',alt:'Pérgola y sendero en el Jardim Botânico de Río',width:1600,height:1014}],
   'maracana-tour':[
     {folder:'FAMILIA MARACANA',file:'FAMILIA MARACANA (1).avif',alt:'Vista aérea del estadio Maracanã',width:1600,height:1000},
     {folder:'FAMILIA MARACANA',file:'FAMILIA MARACANA (2).avif',alt:'Exposición de objetos históricos del Maracanã',width:1600,height:1000}
@@ -45,6 +44,45 @@ function placeFamilyEditorialPhotos(){
   const id=document.body.dataset.familyId;
   const experience=document.querySelector('.family-experience');
   if(!id||!experience)return;
+  if(id==='ilha-fiscal'){
+    const hero=document.querySelector('.family-hero img');
+    if(hero){
+      hero.src=familyPhotoUrl('FAMILIA ilha fiscal','ILHAF2.jpg');
+      hero.alt='Ilha Fiscal vista desde la bahía';
+      hero.width=782;
+      hero.height=472;
+    }
+    const figures=[...document.querySelectorAll('.family-gallery figure')];
+    const first=figures[0]?.querySelector('img');
+    if(first){
+      first.src=familyPhotoUrl('FAMILIA ilha fiscal','FB_IMG_1696133943368(1).jpg');
+      first.alt='Fachada de Ilha Fiscal entre las palmeras';
+      first.width=782;
+      first.height=960;
+    }
+    figures.slice(1).forEach(figure=>figure.remove());
+    return;
+  }
+  if(id==='jardim-botanico'){
+    const hero=document.querySelector('.family-hero img');
+    if(hero){
+      hero.src=familyPhotoUrl('FAMILIA jadin botanico','jardim botanico.jpg');
+      hero.alt='Pérgola y sendero del Jardim Botânico de Río';
+      hero.width=1600;
+      hero.height=1014;
+    }
+    const photos=[...document.querySelectorAll('.family-gallery img')];
+    for(const [index,file] of ['JARDIMB2.jpg','JARDIMB3.jpg'].entries()){
+      const image=photos[index];
+      if(image){
+        image.src=familyPhotoUrl('FAMILIA jadin botanico',file);
+        image.alt=index===0?'Jardín del Jardim Botânico con el Morro Dois Irmãos al fondo':'Palmeras imperiales en el Jardim Botânico';
+        image.width=720;
+        image.height=480;
+      }
+    }
+    return;
+  }
   if(id==='bosque-barra'){
     const duplicate=[...document.querySelectorAll('.family-gallery img')].find(image=>image.getAttribute('src')?.includes('IMG_20230305_160207100_HDR'));
     if(duplicate){
