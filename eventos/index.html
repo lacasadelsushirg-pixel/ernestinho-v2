@@ -60,6 +60,6 @@
 <div id="eventos-root"></div>
 <script>const {useState,useEffect}=React;var EventoTabla=({headers,rows})=>React.createElement("div",{className:"overflow-x-auto rounded-2xl border border-slate-200 bg-white"},React.createElement("table",{className:"w-full min-w-[720px] text-sm"},React.createElement("thead",{className:"bg-slate-900 text-white"},React.createElement("tr",null,...headers.map(h=>React.createElement("th",{key:h,className:"text-left px-4 py-3 font-black"},h)))),React.createElement("tbody",null,...rows.map((row,i)=>React.createElement("tr",{key:i,className:"border-t border-slate-100 odd:bg-white even:bg-slate-50"},...row.map((cell,j)=>React.createElement("td",{key:j,className:"px-4 py-3 align-top"},cell)))))));</script>
 <script src="./eventos-data.js"></script>
-<script src="./grandes-eventos-page.js"></script>
+<script src="./grandes-eventos-page.js?v=a6c0c7a"></script>
 <script>ReactDOM.createRoot(document.getElementById("eventos-root")).render(React.createElement(GrandesEventosPage,{onBack:()=>history.back()}));</script>
 <script type="module" src="/assets/js/standalone-i18n.js"></script></body></html>
