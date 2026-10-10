@@ -145,7 +145,7 @@ function GrandesEventosPage({ onBack }) {
                         React.createElement("span", { className: "text-xs font-black uppercase tracking-widest text-teal-700" }, "As\u00ED se vive"),
                         React.createElement("h2", { className: "text-3xl font-black mt-1" }, "Las fotograf\u00EDas tambi\u00E9n cuentan la historia")),
                     React.createElement("p", { className: "text-sm text-slate-500 max-w-md" }, "Cada imagen corresponde al evento indicado; el cr\u00E9dito queda visible para identificar su procedencia.")),
-                React.createElement("div", { className: "grid sm:grid-cols-2 lg:grid-cols-3 gap-5" }, e.galeria.map(([titulo, url, credito], i) => React.createElement("figure", { key: url, className: `${i === 0 ? 'sm:col-span-2 lg:col-span-1' : ''} bg-white border rounded-[1.7rem] overflow-hidden ` },
+                React.createElement("div", { className: "grid sm:grid-cols-2 lg:grid-cols-3 gap-5" }, e.galeria.filter(item => Array.isArray(item) && item.length >= 2).map(([titulo, url, credito], i) => React.createElement("figure", { key: url, className: `${i === 0 ? 'sm:col-span-2 lg:col-span-1' : ''} bg-white border rounded-[1.7rem] overflow-hidden ` },
                     React.createElement("div", { className: "aspect-[4/3] bg-slate-200 overflow-hidden" },
                         React.createElement("img", { src: url, alt: titulo, loading: "lazy", className: "w-full h-full object-cover", onError: ev => { ev.currentTarget.style.display = 'none'; ev.currentTarget.parentElement.classList.add('bg-slate-300'); } })),
                     React.createElement("figcaption", { className: "p-5" },
