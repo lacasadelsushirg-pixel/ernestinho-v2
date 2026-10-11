@@ -3052,4 +3052,45 @@ export default {
     "PT": "Praia do Recreio e morro junto à costa",
     "EN": "Recreio beach and the hill along the shore"
   }
+,
+  "Guía de Ilha da Gigóia: canales, casas junto al agua y vida local. Cómo llegar y combinar la visita con Barra da Tijuca.": {
+    "PT": "Guia da Ilha da Gigóia: canais, casas junto à água e vida local. Como chegar e combinar o passeio com a Barra da Tijuca.",
+    "EN": "Ilha da Gigóia guide: canals, waterside houses and local life. How to get there and combine a visit with Barra da Tijuca."
+  },
+  "Casas junto al agua y vegetación de Ilha da Gigóia": {
+    "PT": "Casas junto à água e vegetação na Ilha da Gigóia",
+    "EN": "Waterside houses and greenery on Ilha da Gigóia"
+  },
+  "Guía de Vargens: paisaje rural, capillas y caminos de la Zona Oeste. Cómo elegir una parada y planificar transporte y regreso.": {
+    "PT": "Guia das Vargens: paisagem rural, capelas e caminhos da Zona Oeste. Como escolher uma parada e planejar transporte e volta.",
+    "EN": "Vargens guide: rural scenery, chapels and roads in the West Zone. How to choose a stop and plan transport and the return trip."
+  },
+  "Capilla y paisaje verde de Vargens, en la Zona Oeste de Río": {
+    "PT": "Capela e paisagem verde das Vargens, na Zona Oeste do Rio",
+    "EN": "Chapel and green landscape in Rio’s West Zone Vargens"
+  },
+  "Guía de Guaratiba: costa oeste, miradores y naturaleza. Cómo planificar accesos, horarios y regreso para pasar el día con margen.": {
+    "PT": "Guia de Guaratiba: costa oeste, mirantes e natureza. Como planejar acessos, horários e volta com tempo de sobra.",
+    "EN": "Guaratiba guide: the western coast, viewpoints and nature. How to plan access, timing and your return with room to spare."
+  },
+  "Pedra do Telégrafo sobre la costa de Guaratiba": {
+    "PT": "Pedra do Telégrafo sobre a costa de Guaratiba",
+    "EN": "Pedra do Telégrafo above the Guaratiba coast"
+  },
+  "Guía de São Cristóvão: patrimonio imperial, Quinta da Boa Vista y cultura popular. Cómo combinar el barrio y organizar los trayectos.": {
+    "PT": "Guia de São Cristóvão: patrimônio imperial, Quinta da Boa Vista e cultura popular. Como combinar o bairro e organizar os trajetos.",
+    "EN": "São Cristóvão guide: imperial heritage, Quinta da Boa Vista and popular culture. How to combine the neighborhood and plan your routes."
+  },
+  "Puestos de la Feira de São Cristóvão en Río de Janeiro": {
+    "PT": "Barracas da Feira de São Cristóvão, no Rio de Janeiro",
+    "EN": "Stalls at Feira de São Cristóvão in Rio de Janeiro"
+  },
+  "Guía de Madureira: Parque Madureira, comercio y cultura popular. Qué combinar en el barrio y cómo organizar transporte y regreso.": {
+    "PT": "Guia de Madureira: Parque Madureira, comércio e cultura popular. O que combinar no bairro e como organizar transporte e volta.",
+    "EN": "Madureira guide: Parque Madureira, local commerce and popular culture. What to pair in the neighborhood and how to plan transport and your return."
+  },
+  "Áreas verdes y espacios públicos del Parque Madureira": {
+    "PT": "Áreas verdes e espaços públicos do Parque Madureira",
+    "EN": "Green areas and public spaces in Parque Madureira"
+  }
 };
