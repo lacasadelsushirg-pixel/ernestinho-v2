@@ -3011,4 +3011,45 @@ export default {
     "PT": "Fonte e licença ↗",
     "EN": "Source and license ↗"
   }
+,
+  "Guía de Laranjeiras: arquitectura, calles residenciales y acceso a Santa Teresa. Qué combinar y cómo moverte por la Zona Sul.": {
+    "PT": "Guia de Laranjeiras: arquitetura, ruas residenciais e acesso a Santa Teresa. O que combinar e como circular pela Zona Sul.",
+    "EN": "Laranjeiras guide: architecture, residential streets and access to Santa Teresa. What to combine and how to get around the South Zone."
+  },
+  "Casas históricas y arbolado de Laranjeiras": {
+    "PT": "Casas históricas e árvores em Laranjeiras",
+    "EN": "Historic houses and leafy streets in Laranjeiras"
+  },
+  "Guía de Glória: patrimonio, plazas y conexión entre Centro y Zona Sul. Cómo organizar una visita alrededor del Outeiro da Glória.": {
+    "PT": "Guia da Glória: patrimônio, praças e conexão entre o Centro e a Zona Sul. Como organizar uma visita pelo Outeiro da Glória.",
+    "EN": "Glória guide: heritage, squares and the link between downtown and the South Zone. How to plan a visit around Outeiro da Glória."
+  },
+  "Iglesia y monumento del Outeiro da Glória en Río de Janeiro": {
+    "PT": "Igreja e monumento do Outeiro da Glória, no Rio de Janeiro",
+    "EN": "Church and monument at Outeiro da Glória in Rio de Janeiro"
+  },
+  "Guía de Santa Teresa: arquitectura, arte y calles de ladera. Cómo organizar un paseo con tiempo para las subidas y el regreso.": {
+    "PT": "Guia de Santa Teresa: arquitetura, arte e ruas de encosta. Como organizar o passeio com tempo para as subidas e a volta.",
+    "EN": "Santa Teresa guide: architecture, art and hillside streets. How to allow time for climbs and the return trip."
+  },
+  "Casas antiguas y calle empedrada de Santa Teresa": {
+    "PT": "Casas antigas e rua de paralelepípedos em Santa Teresa",
+    "EN": "Historic houses and a cobbled street in Santa Teresa"
+  },
+  "Guía de Lapa: Arcos, cultura y vida nocturna. Cómo combinar la visita con el Centro y organizar el regreso con antelación.": {
+    "PT": "Guia da Lapa: Arcos, cultura e vida noturna. Como combinar a visita com o Centro e planejar a volta com antecedência.",
+    "EN": "Lapa guide: the Arches, culture and nightlife. How to pair a visit with downtown and plan your return ahead of time."
+  },
+  "Arcos da Lapa iluminados por el sol en Río de Janeiro": {
+    "PT": "Arcos da Lapa iluminados pelo sol no Rio de Janeiro",
+    "EN": "Lapa Arches in Rio de Janeiro lit by the sun"
+  },
+  "Guía de Recreio: playa extensa, paisaje costero y grandes distancias. Cómo elegir un tramo y planificar transporte y regreso.": {
+    "PT": "Guia do Recreio: praia extensa, paisagem costeira e grandes distâncias. Como escolher um trecho e planejar transporte e volta.",
+    "EN": "Recreio guide: a long beach, coastal scenery and great distances. How to choose a stretch and plan transport and your return."
+  },
+  "Playa del Recreio y morro junto a la costa": {
+    "PT": "Praia do Recreio e morro junto à costa",
+    "EN": "Recreio beach and the hill along the shore"
+  }
 };
