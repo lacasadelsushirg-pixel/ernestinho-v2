@@ -3187,10 +3187,7 @@ export default {
     "PT": "Guia de Botafogo e Urca: baía, mirantes e Pão de Açúcar. Como conectar os dois bairros e organizar os trajetos.",
     "EN": "Botafogo and Urca guide: bay views, lookouts and Sugarloaf. How to connect the two neighborhoods and plan your routes."
   },
-  "Orla de Urca, barcos y montañas junto a la bahía": {
-    "PT": "Orla da Urca, barcos e montanhas junto à baía",
-    "EN": "Urca waterfront, boats and mountains beside the bay"
-  },
+
   "Guía de Centro y Praça Mauá: arquitectura, museos y paseo portuario. Cómo elegir un sector y combinar la visita de día.": {
     "PT": "Guia do Centro e da Praça Mauá: arquitetura, museus e passeio portuário. Como escolher uma área e combinar o roteiro durante o dia.",
     "EN": "Downtown and Praça Mauá guide: architecture, museums and the port district. How to choose an area and plan a daytime visit."
@@ -3226,25 +3223,10 @@ export default {
   "Guía de Zona Norte de Río: cultura popular, parques, barrios residenciales y grandes instituciones. Cómo elegir un destino y planificar el recorrido.": {
     "PT": "Guia da Zona Norte do Rio: cultura popular, parques, bairros residenciais e grandes instituições. Como escolher um destino e planejar o roteiro.",
     "EN": "Rio's North Zone guide: popular culture, parks, residential neighborhoods and major institutions. How to choose a destination and plan your visit."
-  },
-  "Pedra do Telégrafo sobre la costa de Guaratiba": {
-    "PT": "Pedra do Telégrafo sobre a costa de Guaratiba",
-    "EN": "Pedra do Telégrafo above the coast of Guaratiba"
-  },
-  "Vista aérea histórica de la Lagoa Rodrigo de Freitas y el Jardim Botânico": {
-    "PT": "Vista aérea histórica da Lagoa Rodrigo de Freitas e do Jardim Botânico",
-    "EN": "Historic aerial view of Lagoa Rodrigo de Freitas and Jardim Botânico"
-  },
-  "Playa de Ipanema con el Morro Dois Irmãos al fondo": {
-    "PT": "Praia de Ipanema com o Morro Dois Irmãos ao fundo",
-    "EN": "Ipanema Beach with Morro Dois Irmãos in the background"
-  },
-  "Casas antiguas y calle empedrada de Santa Teresa": {
-    "PT": "Casas antigas e rua de paralelepípedos em Santa Teresa",
-    "EN": "Old houses and a cobblestone street in Santa Teresa"
-  },
-  "Puestos de la Feira de São Cristóvão en Río de Janeiro": {
-    "PT": "Barracas da Feira de São Cristóvão no Rio de Janeiro",
-    "EN": "Stalls at Feira de São Cristóvão in Rio de Janeiro"
   }
+
+
+
+
+
 };
