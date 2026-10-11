@@ -2941,4 +2941,74 @@ export default {
     "PT": "Aterro do Flamengo e Marina da Glória vistos da baía",
     "EN": "Aterro do Flamengo and Marina da Glória seen from the bay"
   }
+,
+  "Guía de Ipanema: playa, cultura y calles interiores. Cómo combinar la orla con Arpoador y organizar un paseo por la Zona Sul.": {
+    "PT": "Guia de Ipanema: praia, cultura e ruas internas. Como combinar a orla com o Arpoador e organizar um passeio pela Zona Sul.",
+    "EN": "Ipanema guide: beach, culture and inner streets. How to pair the seafront with Arpoador and plan a South Zone walk."
+  },
+  "Playa de Ipanema con el Morro Dois Irmãos al fondo": {
+    "PT": "Praia de Ipanema com o Morro Dois Irmãos ao fundo",
+    "EN": "Ipanema Beach with Dois Irmãos Hill in the background"
+  },
+  "Guía de Leblon: playa, miradores y vida residencial. Qué recorrer entre Jardim de Alah, la orla y las calles comerciales.": {
+    "PT": "Guia do Leblon: praia, mirantes e vida residencial. O que percorrer entre o Jardim de Alah, a orla e as ruas comerciais.",
+    "EN": "Leblon guide: beach, viewpoints and residential life. What to explore between Jardim de Alah, the seafront and shopping streets."
+  },
+  "Praia do Leblon y Morro Dois Irmãos en Río de Janeiro": {
+    "PT": "Praia do Leblon e Morro Dois Irmãos no Rio de Janeiro",
+    "EN": "Leblon Beach and Dois Irmãos Hill in Rio de Janeiro"
+  },
+  "Guía de Urca: bahía, Praia Vermelha y Pão de Açúcar. Cómo organizar el acceso, la visita y el regreso desde este barrio.": {
+    "PT": "Guia da Urca: baía, Praia Vermelha e Pão de Açúcar. Como organizar o acesso, a visita e a volta a partir do bairro.",
+    "EN": "Urca guide: bay views, Praia Vermelha and Sugarloaf. How to plan access, your visit and the trip back from this neighborhood."
+  },
+  "Orla de Urca, barcos y montañas junto a la bahía": {
+    "PT": "Orla da Urca, barcos e montanhas junto à baía",
+    "EN": "Urca waterfront, boats and mountains beside the bay"
+  },
+  "Guía de Gávea: barrio residencial, cultura y montaña. Cómo combinar una visita con Jardim Botânico, Lagoa y los barrios vecinos.": {
+    "PT": "Guia da Gávea: bairro residencial, cultura e montanha. Como combinar a visita com Jardim Botânico, Lagoa e os bairros vizinhos.",
+    "EN": "Gávea guide: residential streets, culture and mountain scenery. How to combine a visit with Jardim Botânico, Lagoa and nearby areas."
+  },
+  "Registro histórico da Rua Jardim Botânico, Pedra da Gávea e Lagoa Rodrigo de Freitas": {
+    "PT": "Registro histórico da Rua Jardim Botânico, Pedra da Gávea y Lagoa Rodrigo de Freitas",
+    "EN": "Historical view of Rua Jardim Botânico, Pedra da Gávea and Rodrigo de Freitas Lagoon"
+  },
+  "Imagem histórica c. 1861–1871: George Leuzinger / Acervo Instituto Moreira Salles. Domínio público, Wikimedia Commons.": {
+    "PT": "Imagem histórica c. 1861–1871: George Leuzinger / Acervo Instituto Moreira Salles. Domínio público, Wikimedia Commons.",
+    "EN": "Historical image c. 1861–1871: George Leuzinger / Instituto Moreira Salles Collection. Public domain, Wikimedia Commons."
+  },
+  "Guía de Jardim Botânico: jardín histórico, verde urbano y cultura. Cómo planificar la visita y combinarla con Lagoa y Gávea.": {
+    "PT": "Guia do Jardim Botânico: jardim histórico, verde urbano e cultura. Como planejar a visita e combiná-la com Lagoa e Gávea.",
+    "EN": "Jardim Botânico guide: historic gardens, urban greenery and culture. How to plan your visit and pair it with Lagoa and Gávea."
+  },
+  "Vista aérea histórica da Lagoa Rodrigo de Freitas y del Jardim Botânico": {
+    "PT": "Vista aérea histórica da Lagoa Rodrigo de Freitas e do Jardim Botânico",
+    "EN": "Historic aerial view of Rodrigo de Freitas Lagoon and Jardim Botânico"
+  },
+  "Fotografía aérea c. 1916–1926: Jorge Kfuri / Acervo Instituto Moreira Salles. Domínio público, Wikimedia Commons.": {
+    "PT": "Fotografia aérea c. 1916–1926: Jorge Kfuri / Acervo Instituto Moreira Salles. Domínio público, Wikimedia Commons.",
+    "EN": "Aerial photograph c. 1916–1926: Jorge Kfuri / Instituto Moreira Salles Collection. Public domain, Wikimedia Commons."
+  }
+,
+  "Vista histórica de Rua Jardim Botânico, Pedra da Gávea y Lagoa Rodrigo de Freitas": {
+    "PT": "Vista histórica da Rua Jardim Botânico, Pedra da Gávea e Lagoa Rodrigo de Freitas",
+    "EN": "Historical view of Rua Jardim Botânico, Pedra da Gávea and Rodrigo de Freitas Lagoon"
+  },
+  "Imagen histórica c. 1861–1871: George Leuzinger / Acervo Instituto Moreira Salles. Dominio público, Wikimedia Commons.": {
+    "PT": "Imagem histórica c. 1861–1871: George Leuzinger / Acervo Instituto Moreira Salles. Domínio público, Wikimedia Commons.",
+    "EN": "Historical image c. 1861–1871: George Leuzinger / Instituto Moreira Salles Collection. Public domain, Wikimedia Commons."
+  },
+  "Vista aérea histórica de la Lagoa Rodrigo de Freitas y el Jardim Botânico": {
+    "PT": "Vista aérea histórica da Lagoa Rodrigo de Freitas e do Jardim Botânico",
+    "EN": "Historic aerial view of Rodrigo de Freitas Lagoon and Jardim Botânico"
+  },
+  "Fotografía aérea c. 1916–1926: Jorge Kfuri / Acervo Instituto Moreira Salles. Dominio público, Wikimedia Commons.": {
+    "PT": "Fotografia aérea c. 1916–1926: Jorge Kfuri / Acervo Instituto Moreira Salles. Domínio público, Wikimedia Commons.",
+    "EN": "Aerial photograph c. 1916–1926: Jorge Kfuri / Instituto Moreira Salles Collection. Public domain, Wikimedia Commons."
+  },
+  "Fuente y licencia ↗": {
+    "PT": "Fonte e licença ↗",
+    "EN": "Source and license ↗"
+  }
 };

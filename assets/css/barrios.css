@@ -35,3 +35,9 @@
 .bh-hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(0deg,#061817e8,#06181722)}
 .bh-hero-image{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;object-position:center 48%}
 .bh-hero .hero-copy{position:relative;z-index:2}
+
+
+/* Historical image credits for neighborhood guides. */
+.bh-hero-credit{position:absolute;z-index:2;left:clamp(18px,5vw,56px);bottom:12px;margin:0;max-width:min(80%,850px);padding:7px 10px;border-radius:6px;background:#061817b8;color:#fff;font:500 11px/1.45 Arial,sans-serif}
+
+.bh-hero-credit a{color:#fff;text-decoration:underline;text-underline-offset:2px}
