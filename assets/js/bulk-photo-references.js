@@ -31,6 +31,8 @@ export function addBulkPhotoReferences() {
   const route = pathname === "/"
     ? (PHOTO_PATHS_BY_ROUTE["/"] ? "/" : null)
     : Object.keys(PHOTO_PATHS_BY_ROUTE).find((candidate) => pathname.endsWith(candidate));
+  // Copacabana se edita como guia ilustrada: sin galeria automatica de sobrantes.
+  if (route === "/barrios/copacabana") return;
   if (!route || document.querySelector("[data-bulk-photo-reference-route]")) return;
   const main = document.querySelector("main") || document.body;
   const photos = PHOTO_PATHS_BY_ROUTE[route];
