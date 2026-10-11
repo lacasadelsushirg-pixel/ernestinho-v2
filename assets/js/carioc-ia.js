@@ -1,6 +1,6 @@
 import { getLanguage } from "./i18n.js";
 import { hasLocaleRoutes, localizedPath } from "./locale-routing.js";
-import { getLocalized, normalizeQuestion, resolveQuestion } from "./carioc-ia-engine.js?v=20261011-welcomeqa2";
+import { getLocalized, normalizeQuestion, resolveQuestion, recommendGuideLinks } from "./carioc-ia-engine.js?v=20261011-welcomeqa2";
 import { FALLBACK_LINKS, UI } from "./carioc-ia-knowledge.js";
 import { INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261010-cariocia2";
 import { buildWhatsAppHref } from "./carioc-ia-whatsapp.js?v=20261010-cariocia2";
@@ -362,8 +362,9 @@ export function mountCariocIA() {
     const suggestions = bookingOffer
       ? [bookingWords.add]
       : intent.id === "beach_clarify" ? followupCopy(intent.id, language) : intent.followups;
+    const additionalLinks = recommendGuideLinks(intent, text, Math.max(0, 3 - (intent.links || []).length));
     addMessage(getLocalized(intent.answer, language), "assistant", {
-      links: intent.links,
+      links: [...(intent.links || []), ...additionalLinks],
       whatsapp: Boolean(intent.whatsapp || isCommercial),
       topic: intent.id,
       suggestions

@@ -423,6 +423,41 @@ export function resolveQuestion(question, context = {}) {
     contextUpdate: top.intent.pending ? { pending: top.intent.pending, category: top.intent.category, lastEverydayId: top.intent.id } : { lastEverydayId: null } };
 }
 
+// Lightweight, verified-link index built exclusively from already authored guide intents.
+// This is not a live business directory; routes and editorial copy still require review.
+export function recommendGuideLinks(intent, question = "", limit = 3) {
+  if (!intent || !intent.category || intent.category === "commercial") return [];
+  const category = intent.category;
+  const query = normalizeQuestion(question);
+  const tokenSet = new Set(query.split(" ").filter(word => word.length >= 4));
+  const chosen = new Set((intent.links || []).map(link => link.href));
+  const scored = [];
+  for (const candidate of ACTIVE_INTENTS) {
+    if (candidate.id === intent.id || candidate.category !== category || candidate.status !== "approved") continue;
+    const relevance = (candidate.keywords || []).reduce((best, raw) => {
+      const normalized = normalizeQuestion(raw);
+      if (!normalized) return best;
+      const tokens = normalized.split(" ");
+      const overlaps = tokens.filter(word => word.length >= 4 && tokenSet.has(word)).length;
+      return Math.max(best, phraseMatches(query, normalized) ? 20 + tokens.length : overlaps);
+    }, 0);
+    if (!relevance && !["gastronomy", "beaches", "family", "lodging", "transport", "experiences"].includes(category)) continue;
+    for (const link of candidate.links || []) {
+      if (!/^\/(?!\/)[a-z0-9/_-]+\/?$/i.test(link.href) || chosen.has(link.href)) continue;
+      scored.push({ link, score: relevance + (candidate.priority || 0) / 100, id: candidate.id });
+    }
+  }
+  scored.sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
+  const out = [];
+  for (const item of scored) {
+    if (chosen.has(item.link.href)) continue;
+    chosen.add(item.link.href);
+    out.push(item.link);
+    if (out.length >= Math.max(0, Math.min(3, limit))) break;
+  }
+  return out;
+}
+
 export function findIntent(question, context = {}) {
   return resolveQuestion(question, context).intent || null;
 }
