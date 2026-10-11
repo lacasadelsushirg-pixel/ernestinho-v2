@@ -700,7 +700,7 @@ export const BARRIO_CHAPTERS = {
       ["The Arches and a night in Lapa", "The Lapa Arches recall the old aqueduct and lead into an area known for music and nightlife. For a show, confirm the venue, schedule, and ticket before going. Do not assume every bar will be open or that the street will have the same activity every night."],
       ["Decide on the return in advance", "For a night out, save addresses, agree on a meeting point, and choose your return transport before entering the venue. Avoid improvising long walks between quieter areas. For a cultural day, start uphill and descend along a familiar route with time to spare."]
     ]
-  }
+  },
   "ipanema": {
       "ES": [
         [
