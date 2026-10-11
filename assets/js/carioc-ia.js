@@ -1,6 +1,6 @@
 import { getLanguage } from "./i18n.js";
 import { hasLocaleRoutes, localizedPath } from "./locale-routing.js";
-import { getLocalized, normalizeQuestion, resolveQuestion } from "./carioc-ia-engine.js?v=20261010-cariocia2";
+import { getLocalized, normalizeQuestion, resolveQuestion } from "./carioc-ia-engine.js?v=20261011-everyday1";
 import { FALLBACK_LINKS, UI } from "./carioc-ia-knowledge.js";
 import { INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261010-cariocia2";
 import { buildWhatsAppHref } from "./carioc-ia-whatsapp.js?v=20261010-cariocia2";
@@ -352,8 +352,10 @@ export function mountCariocIA() {
       addMessage(words.greeting, "assistant", { suggestions: words.suggestions, topic: "welcome" });
       return;
     }
-    if (intent.id === "beach_clarify") conversationContext = { pending: "beach_style", category: "beaches" };
-    else if (intent.category) conversationContext = { pending: null, category: intent.category };
+    if (intent.id === "beach_clarify") conversationContext = { pending: "beach_style", category: "beaches", lastEverydayId: null };
+    else if (result.contextUpdate && Object.prototype.hasOwnProperty.call(result.contextUpdate, "pending")) {
+      conversationContext = { ...conversationContext, ...result.contextUpdate };
+    } else if (intent.category) conversationContext = { pending: null, category: intent.category, lastEverydayId: null };
     track(source === "suggestion" ? "suggestion_click" : "question", intent.id);
     const isCommercial = intent.category === "commercial" || intent.category === "comparisons" || intent.category === "experiences" || intent.id === "booking";
     const bookingOffer = explicitBooking || /^experience_(angra|arraial|buzios)$/.test(intent.id);
