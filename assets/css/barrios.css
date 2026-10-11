@@ -41,3 +41,14 @@
 .bh-hero-credit{position:absolute;z-index:2;left:clamp(18px,5vw,56px);bottom:12px;margin:0;max-width:min(80%,850px);padding:7px 10px;border-radius:6px;background:#061817b8;color:#fff;font:500 11px/1.45 Arial,sans-serif}
 
 .bh-hero-credit a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+
+
+/* Localized editorial chapters for neighborhood guides. */
+.ec-neighborhood-chapters{padding-top:16px}
+.ec-neighborhood-chapters-title{margin:0 0 10px;font:400 clamp(28px,4vw,42px)/1.1 Georgia,serif;color:#102c29}
+.ec-neighborhood-chapters-intro{margin:0 0 22px;color:#66716c;line-height:1.65}
+.ec-neighborhood-chapters-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.ec-neighborhood-chapter h3{margin:9px 0 10px;font:600 clamp(19px,2vw,24px)/1.2 Georgia,serif;color:#123d39}
+.ec-neighborhood-chapter p{margin:0;line-height:1.75;color:#46514d}
+.ec-neighborhood-chapter-number{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:#f1ebdf;color:#967025;font-size:12px;font-weight:800}
+@media(max-width:760px){.ec-neighborhood-chapters-grid{grid-template-columns:1fr}}
