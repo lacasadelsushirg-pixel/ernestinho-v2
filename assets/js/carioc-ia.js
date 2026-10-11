@@ -1,6 +1,6 @@
 import { getLanguage } from "./i18n.js";
 import { hasLocaleRoutes, localizedPath } from "./locale-routing.js";
-import { getLocalized, normalizeQuestion, resolveQuestion } from "./carioc-ia-engine.js?v=20261011-everyday1";
+import { getLocalized, normalizeQuestion, resolveQuestion } from "./carioc-ia-engine.js?v=20261011-welcomeqa2";
 import { FALLBACK_LINKS, UI } from "./carioc-ia-knowledge.js";
 import { INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261010-cariocia2";
 import { buildWhatsAppHref } from "./carioc-ia-whatsapp.js?v=20261010-cariocia2";
