@@ -180,7 +180,8 @@ function resolveEverydayFollowup(query, context) {
   const airport = query.match(/^(?:gig|galeao|sdu|santos dumont)$/);
   const budget = /^(?:barato|economico|econ[oô]mico|low cost|cheap|budget|mais barato|o mais barato|lo mas barato|the cheapest)$/.test(query);
   const comfort = /^(?:comodo|comodidad|comfort|comfortable|conforto|sem caminhar|sin caminar mucho)$/.test(query);
-  if (!zone && !(airport && context.pending === "airport") && !budget && !comfort) return null;
+  const openNow = /^(?:abierto ahora|algo abierto ahora|que este abierto|esta abierto|aberto agora|aberto nesse momento|open now|anything open now|still open)$/.test(query);
+  if (!zone && !(airport && context.pending === "airport") && !budget && !comfort && !openNow) return null;
   const topic = EVERYDAY_INTENTS.find(x => x.id === context.lastEverydayId);
   if (!topic) return null;
   const label = zone?.[1] || (airport ? airport[0].toUpperCase() : "");
@@ -192,13 +193,17 @@ function resolveEverydayFollowup(query, context) {
     "Perfecto, llegaste a " + label + ". ¿A qué barrio vas y llevas muchas maletas?",
     "Perfeito, você chegou ao " + label + ". Para qual bairro vai e está com muitas malas?",
     "Got it, you arrived at " + label + ". Which neighborhood are you heading to, and do you have a lot of luggage?"
+  ) : openNow ? ecT(
+    "Entendido: buscas algo abierto ahora. No tengo horarios en vivo; confirma la apertura del establecimiento en su canal oficial antes de ir. ¿Tienes una calle o punto de referencia?",
+    "Entendi: você quer um lugar aberto agora. Não tenho horários ao vivo; confirme o funcionamento no canal oficial antes de ir. Tem uma rua ou ponto de referência?",
+    "Got it: you need somewhere open now. I don\u0027t have live opening hours; verify with the business before going. Do you have a nearby street or landmark?"
   ) : ecT(
     "Perfecto, priorizamos " + (budget ? "opciones económicas" : "comodidad") + ". ¿En qué barrio estás o desde dónde sales? Los precios y la disponibilidad necesitan confirmación.",
     "Perfeito, vamos priorizar " + (budget ? "opções econômicas" : "conforto") + ". Em qual bairro está ou de onde sai? Preços e disponibilidade precisam de confirmação.",
     "Got it, let's prioritize " + (budget ? "budget-friendly options" : "comfort") + ". Which neighborhood or starting point? Prices and availability must be confirmed."
   );
   return { intent: { ...topic, id: topic.id + "_followup", answer: where }, candidates: [topic],
-    contextUpdate: { pending: zone ? null : context.pending, category: topic.category, lastEverydayId: zone ? null : topic.id } };
+    contextUpdate: { pending: context.pending, category: topic.category, lastEverydayId: topic.id } };
 }
 
 function ambiguousEntity(query) {
