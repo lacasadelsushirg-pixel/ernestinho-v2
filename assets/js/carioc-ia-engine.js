@@ -65,7 +65,7 @@ const EVERYDAY_INTENTS = [
     ecT("Si llueve, podemos cambiar la playa por un plan bajo techo. ¿En qué barrio estás y viajas con niños? Tenemos museos, AquaRio y otras opciones en la guía; confirma horarios antes de salir.",
     "Se chover, podemos trocar a praia por um programa coberto. Em qual bairro você está e vem com crianças? Temos museus, AquaRio e outras opções no guia; confirme horários antes de sair.",
     "On a rainy day we can switch to an indoor plan. Which neighborhood are you in, and are you traveling with children? Our guide covers museums, AquaRio and other ideas; verify opening hours first."),
-    [ecL("/familia/", "Planes familiares", "Passeios em família", "Family activities"),ecL("/museos/", "Museos", "Museus", "Museums")], "location"),
+    [ecL("/familia/", "Planes familiares", "Passeios em família", "Family activities"),ecL("/cultura/museos/", "Museos", "Museus", "Museums")], "location"),
   ecEveryday("daily_airport", "transport",
     ["acabo de llegar al aeropuerto", "llegue al aeropuerto", "llegue al galeao", "llegue a santos dumont", "del aeropuerto a copacabana", "como voy del aeropuerto", "cheguei ao aeroporto", "cheguei no galeao", "cheguei no santos dumont", "aeroporto ate copacabana", "just landed at the airport", "just arrived at gig", "just arrived at sdu", "airport to copacabana", "how to get from airport"],
     ecT("¡Bienvenido a Río! ¿Llegaste a Galeão (GIG) o Santos Dumont (SDU), y a qué barrio vas? Con equipaje y horario puedo comparar las opciones sin inventar precios.",
