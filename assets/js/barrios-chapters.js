@@ -100,5 +100,105 @@ export const BARRIO_CHAPTERS = {
       ["MAM, the marina, and the cultural landscape", "The corridor connects with the Museum of Modern Art and Marina da Glória, and continues toward Glória and downtown. Each venue has its own hours and schedule; check opening, tickets, and activities before going. You can pair a cultural visit with a walk by the bay, while allowing time for travel between stops."],
       ["My favorite walk", "I start near a metro station, walk toward the water, and choose one part of the park before deciding whether to visit MAM or continue toward Glória. Sunset is a good time to slow down, but plan the return ahead and do not rely on a single park exit."]
     ]
+  },
+  ipanema: {
+    ES: [
+      ["La plaza como centro del barrio", "General Osório reúne metro, feria en días establecidos y calles que conectan el interior con la playa. Desde allí, sigue una calle transversal hasta el mar y vuelve por otra: así se entiende la cuadrícula y cómo cambian el comercio y el ritmo a pocos metros de la arena."],
+      ["La playa tiene tramos y rutinas", "Ipanema no se vive igual en cada puesto: el flujo, el deporte y el paisaje cambian a lo largo de la orla. Elige un punto de referencia que el grupo pueda reconocer y consulta el estado del mar. Para una caminata más completa, enlaza el paseo con Arpoador sin convertir el atardecer en una carrera por llegar."],
+      ["Cultura que salió de la calle", "La música, la moda y la conversación sobre la ciudad forman parte de la imagen de Ipanema, pero su vida diaria está también en librerías, cafés, tiendas y calles residenciales. Mira más allá de la Avenida Vieira Souto y busca una pausa en una calle interior antes de decidir dónde comer."],
+      ["Cómo la recorrería", "Empieza en General Osório, cruza hacia la playa, camina un tramo de orla y regresa por calles interiores. Ese circuito corto mezcla paisaje y vida cotidiana sin exigir recorrer todo el barrio. En días de mucho calor, limita el tramo a pie y deja tiempo para sombra y agua." ]
+    ],
+    PT: [
+      ["A praça como centro do bairro", "A Praça General Osório reúne metrô, feira em dias específicos e ruas que ligam o interior à praia. De lá, siga por uma transversal até o mar e volte por outra: assim dá para entender o traçado e perceber como o comércio e o ritmo mudam a poucos metros da areia."],
+      ["A praia tem trechos e rotinas", "Ipanema não é igual em todos os postos: movimento, esporte e paisagem mudam ao longo da orla. Escolha um ponto de referência fácil de reconhecer e consulte as condições do mar. Para uma caminhada mais completa, siga até o Arpoador sem transformar o pôr do sol em uma corrida."],
+      ["Cultura que nasceu na rua", "Música, moda e conversas sobre a cidade fazem parte da imagem de Ipanema, mas o cotidiano também está em livrarias, cafés, lojas e ruas residenciais. Olhe além da Avenida Vieira Souto e faça uma pausa em uma rua interna antes de escolher onde comer."],
+      ["Como eu percorreria o bairro", "Comece na General Osório, cruze em direção à praia, caminhe um trecho da orla e volte pelas ruas internas. Esse circuito curto mistura paisagem e vida cotidiana sem exigir que você atravesse o bairro inteiro. Em dias muito quentes, reduza a caminhada e reserve tempo para sombra e água."]
+    ],
+    EN: [
+      ["The square at the neighborhood’s center", "General Osório brings together the metro, a market on selected days, and streets connecting the inner neighborhood to the beach. Walk from there along a cross street to the water, then return on another: you will see how the street grid works and how shops and pace change just steps from the sand."],
+      ["The beach has different sections and routines", "Ipanema does not feel the same at every lifeguard post: crowds, sports, and scenery shift along the waterfront. Choose an easy landmark for your group to recognize and check sea conditions. For a longer walk, continue toward Arpoador without turning sunset into a race."],
+      ["Culture that grew from the street", "Music, fashion, and conversations about the city are part of Ipanema’s image, but daily life also happens in bookshops, cafés, stores, and residential streets. Look beyond Avenida Vieira Souto and pause on an inner street before choosing where to eat."],
+      ["How I would explore it", "Start at General Osório, cross toward the beach, walk part of the waterfront, and return through the inner streets. This short loop combines scenery with daily life without requiring you to cross the whole neighborhood. On very hot days, keep the walk short and make time for shade and water."]
+    ]
+  },
+  leblon: {
+    ES: [
+      ["Del canal al Dois Irmãos", "El canal Jardim de Alah marca el encuentro con Ipanema; al otro extremo, el Morro Dois Irmãos domina la vista de la playa. No intentes leer Leblon solo desde la arena: sus calles interiores muestran restaurantes, librerías, comercio cotidiano y edificios residenciales."],
+      ["Un barrio para caminar por capas", "Puedes seguir la orla hasta el mirador del Leblon y regresar por una calle interior, o hacer el recorrido al revés. La distancia parece corta, pero el calor y el sol abierto cambian el esfuerzo. Lleva agua, usa cruces marcados y elige un punto de salida para el regreso."],
+      ["Comida y vida cotidiana", "Leblon combina mesas de barrio y restaurantes conocidos con panaderías y servicios cotidianos. Si tienes una dirección específica, confirma reserva y horario; no supongas que los locales contiguos tienen la misma dinámica. Una pausa para comer también ayuda a repartir la caminata."],
+      ["Mi combinación con Ipanema", "Los dos barrios se conectan caminando por la orla, pero cada uno merece su tiempo. Yo escogería una comida o paseo en Leblon y dejaría otra parte del día para Ipanema. Si vas al mirador, reserva margen para volver y revisa desde qué calle te conviene pedir transporte." ]
+    ],
+    PT: [
+      ["Do canal ao Dois Irmãos", "O canal do Jardim de Alah marca o encontro com Ipanema; no outro extremo, o Morro Dois Irmãos domina a vista da praia. Não tente conhecer o Leblon apenas pela areia: as ruas internas mostram restaurantes, livrarias, comércio cotidiano e edifícios residenciais."],
+      ["Um bairro para caminhar por camadas", "Você pode seguir pela orla até o mirante do Leblon e voltar por uma rua interna, ou fazer o caminho inverso. A distância parece curta, mas o calor e o sol aberto mudam o esforço. Leve água, use travessias sinalizadas e escolha um ponto de saída para a volta."],
+      ["Comida e vida cotidiana", "O Leblon mistura restaurantes conhecidos e mesas de bairro com padarias e serviços do dia a dia. Se tiver um endereço específico, confirme reserva e horário; não presuma que locais vizinhos funcionem do mesmo jeito. Uma pausa para comer também ajuda a dividir a caminhada."],
+      ["Como eu combinaria com Ipanema", "Os dois bairros se conectam pela orla, mas cada um merece tempo próprio. Eu escolheria uma refeição ou passeio no Leblon e deixaria outra parte do dia para Ipanema. Se for ao mirante, reserve tempo para voltar e confira de qual rua é melhor chamar o transporte."]
+    ],
+    EN: [
+      ["From the canal to Dois Irmãos", "Jardim de Alah canal marks the meeting point with Ipanema; at the other end, Dois Irmãos Hill frames the beach. Do not try to understand Leblon from the sand alone: its inner streets reveal restaurants, bookshops, everyday shops, and residential buildings."],
+      ["A neighborhood to explore in layers", "Follow the waterfront to the Leblon lookout and return along an inner street, or reverse the route. The distance looks short, but heat and full sun change the effort. Carry water, use marked crossings, and choose an exit point for your return."],
+      ["Food and everyday life", "Leblon mixes well-known restaurants and neighborhood tables with bakeries and everyday services. If you have a specific address in mind, check reservations and hours; nearby venues may operate differently. A meal break also gives your walk a natural pause."],
+      ["How I would pair it with Ipanema", "The two neighborhoods connect along the waterfront, but each deserves its own time. I would choose a meal or walk in Leblon and leave another part of the day for Ipanema. If you visit the lookout, allow time to return and check which street is best for your ride."]
+    ]
+  },
+  urca: {
+    ES: [
+      ["La península y la entrada de la bahía", "Urca es una península pequeña con una historia ligada a la defensa de la bahía y a los primeros tiempos de Río. Praia Vermelha, el Pão de Açúcar y las instalaciones militares ocupan espacios distintos; confirma acceso y horarios antes de construir un recorrido alrededor de ellos."],
+      ["Mureta y vida local", "La Mureta da Urca es un lugar para mirar el agua y sentarse un rato, no una atracción que haya que consumir deprisa. Respeta a quienes viven allí, deja libre el paso y no bloquees entradas o muelles para hacer fotos. El atardecer concentra visitantes, así que organiza cómo volver."],
+      ["Bondinho y sendero: experiencias diferentes", "El teleférico del Bondinho y el sendero hacia Morro da Urca son alternativas distintas, con reglas, esfuerzo y operación propios. Revisa las indicaciones oficiales sobre entradas, horarios, estado del sendero y posibles cierres; no improvises el acceso por áreas militares o restringidas."],
+      ["Un paseo corto, con regreso previsto", "Puedes combinar Praia Vermelha, un tramo junto a la bahía y la Mureta, pero calcula cómo llegar y regresar: la geografía y las conexiones son diferentes de un barrio con varias estaciones de metro. Guarda un punto exacto de recogida y evita dejar el regreso para después de que oscurezca." ]
+    ],
+    PT: [
+      ["A península e a entrada da baía", "A Urca é uma pequena península com história ligada à defesa da baía e aos primeiros tempos do Rio. Praia Vermelha, Pão de Açúcar e instalações militares ocupam espaços diferentes; confirme acesso e horários antes de montar um roteiro em torno deles."],
+      ["Mureta e vida local", "A Mureta da Urca é um lugar para olhar a água e sentar um pouco, não uma atração para consumir com pressa. Respeite quem mora ali, deixe a passagem livre e não bloqueie entradas ou píeres para fotografar. O pôr do sol atrai visitantes; planeje a volta."],
+      ["Bondinho e trilha são experiências diferentes", "O teleférico do Bondinho e a trilha para o Morro da Urca são opções distintas, com regras, esforço e operação próprios. Confira as orientações oficiais sobre ingressos, horários, condições da trilha e eventuais fechamentos; não tente entrar por áreas militares ou restritas."],
+      ["Um passeio curto com a volta planejada", "Você pode combinar Praia Vermelha, um trecho junto à baía e a Mureta, mas calcule ida e volta: a geografia e as conexões são diferentes das de um bairro com várias estações de metrô. Salve um ponto exato para o transporte e não deixe a volta para depois de escurecer."]
+    ],
+    EN: [
+      ["The peninsula and the bay entrance", "Urca is a small peninsula with a history tied to the bay’s defense and Rio’s early years. Praia Vermelha, Sugarloaf Mountain, and military facilities occupy separate areas; check access and hours before building a route around them."],
+      ["The seawall and local life", "Mureta da Urca is a place to look out over the water and sit for a while, not an attraction to rush through. Respect residents, keep the path clear, and do not block entrances or docks for photos. Sunset draws visitors, so plan your return."],
+      ["The cable car and trail are different experiences", "The Bondinho cable car and the trail to Morro da Urca are distinct options, each with its own rules, effort, and operations. Check official information about tickets, hours, trail conditions, and closures; do not try to enter military or restricted areas."],
+      ["A short walk with a planned return", "You can combine Praia Vermelha, a stretch by the bay, and the seawall, but plan both arrival and return: the geography and connections differ from a neighborhood with several metro stations. Save an exact pickup point and do not leave the return until after dark."]
+    ]
+  },
+  gavea: {
+    ES: [
+      ["Baixo Gávea y la plaza", "La Praça Santos Dumont y sus calles próximas forman un núcleo de encuentro con bares, restaurantes y vida universitaria. El movimiento depende del día y de la agenda, así que elige un lugar concreto y confirma si habrá actividad antes de trasladarte hasta allí."],
+      ["Cultura y universidades", "Gávea combina instituciones culturales y educativas con un tejido residencial. Una visita a un teatro o museo requiere revisar programación, entradas y horarios en su canal oficial. Si tu plan es simplemente caminar, presta atención a las pendientes y al trayecto de regreso."],
+      ["La montaña está cerca, pero no es una caminata urbana", "El paisaje de Gávea está marcado por la Floresta da Tijuca y por pendientes fuertes. No conviertas una salida por el barrio en una excursión de senderismo improvisada: revisa el acceso, el nivel del recorrido, el clima y las reglas del parque para cada ruta."],
+      ["Cómo combinar la zona", "Gávea se enlaza con Jardim Botânico y Lagoa, pero no todos los puntos quedan a una caminata corta. Escoge una actividad principal y calcula el transporte hacia la siguiente; para una noche en Baixo Gávea, verifica con anticipación la vuelta desde el establecimiento elegido." ]
+    ],
+    PT: [
+      ["Baixo Gávea e a praça", "A Praça Santos Dumont e as ruas próximas formam um núcleo de encontro com bares, restaurantes e vida universitária. O movimento depende do dia e da programação; escolha um endereço específico e confirme se haverá atividade antes de se deslocar até lá."],
+      ["Cultura e universidades", "A Gávea combina instituições culturais e de ensino com uma área residencial. Para visitar um teatro ou museu, confira programação, ingressos e horários nos canais oficiais. Se a ideia for apenas caminhar, considere as ladeiras e o trajeto de volta."],
+      ["A montanha está perto, mas não é uma caminhada urbana", "A paisagem da Gávea é marcada pela Floresta da Tijuca e por ladeiras íngremes. Não transforme um passeio pelo bairro em trilha improvisada: verifique acesso, nível do percurso, clima e regras do parque para cada caminho."],
+      ["Como combinar a região", "A Gávea se conecta ao Jardim Botânico e à Lagoa, mas nem todos os pontos ficam a uma curta caminhada. Escolha uma atividade principal e calcule o transporte até a próxima; para uma noite no Baixo Gávea, confira antes a volta a partir do local escolhido."]
+    ],
+    EN: [
+      ["Baixo Gávea and the square", "Praça Santos Dumont and nearby streets form a meeting point for bars, restaurants, and university life. The area’s pace depends on the day and schedule, so choose a specific venue and check whether anything is happening before making the trip."],
+      ["Culture and universities", "Gávea combines cultural and educational institutions with residential streets. For a theater or museum visit, check schedules, tickets, and hours through the venue’s official channel. If you are simply walking, account for slopes and the return route."],
+      ["The forest is close, but this is not an urban hike", "Gávea’s landscape is shaped by Tijuca Forest and steep slopes. Do not turn a neighborhood outing into an improvised hike: check access, route difficulty, weather, and park rules for each trail."],
+      ["How to combine the area", "Gávea connects with Jardim Botânico and Lagoa, but not every point is a short walk away. Choose one main activity and calculate transport to the next; for an evening in Baixo Gávea, check the return from your chosen venue in advance."]
+    ]
+  },
+  "jardim-botanico": {
+    ES: [
+      ["El jardín necesita tiempo", "El Jardim Botânico do Rio es una colección viva y un espacio de investigación, no una parada rápida para una sola foto. Consulta entradas, horario, reglas de visita y accesibilidad en el sitio oficial; calcula el recorrido según el tamaño del grupo y reserva tiempo para sentarte y observar."],
+      ["Parque Lage es otra visita", "Parque Lage y el Jardim Botânico pueden combinarse por su cercanía, pero son espacios diferentes con accesos y funcionamiento propios. No cuentes con ver ambos a fondo en una mañana corta. Revisa la información de cada lugar y deja tiempo para el desplazamiento entre sus entradas."],
+      ["La Mata Atlántica dentro de la ciudad", "El barrio se apoya en la ladera del macizo de Tijuca, donde jardines, bosque y calles residenciales conviven. Mantente en los caminos habilitados y no alimentes a la fauna. Después de lluvias, el estado de los senderos puede cambiar: verifica avisos antes de caminar fuera de las zonas urbanas."],
+      ["Una mañana verde bien armada", "Yo llegaría temprano, dedicaría el bloque principal al jardín y decidiría después si queda energía para Parque Lage o una comida cercana. Lleva agua y calzado cómodo; el terreno y la sombra varían. Para salir, confirma el transporte desde la puerta que realmente usarás." ]
+    ],
+    PT: [
+      ["O jardim precisa de tempo", "O Jardim Botânico do Rio é uma coleção viva e um espaço de pesquisa, não uma parada rápida para uma foto. Consulte ingressos, horário, regras de visita e acessibilidade no site oficial; calcule o percurso conforme o grupo e reserve tempo para sentar e observar."],
+      ["O Parque Lage é outra visita", "O Parque Lage e o Jardim Botânico podem ser combinados pela proximidade, mas são espaços diferentes, com acessos e funcionamento próprios. Não conte em conhecer os dois a fundo numa manhã curta. Confira as informações de cada lugar e reserve tempo para o deslocamento entre as entradas."],
+      ["Mata Atlântica dentro da cidade", "O bairro fica na encosta do maciço da Tijuca, onde jardins, floresta e ruas residenciais convivem. Permaneça nos caminhos autorizados e não alimente os animais. Depois de chuva, as trilhas podem mudar de condição: confira os avisos antes de caminhar fora das áreas urbanas."],
+      ["Uma manhã verde bem planejada", "Eu chegaria cedo, dedicaria o bloco principal ao jardim e decidiria depois se ainda há tempo para o Parque Lage ou uma refeição por perto. Leve água e calçado confortável; terreno e sombra variam. Para sair, confira o transporte a partir do portão que realmente vai usar."]
+    ],
+    EN: [
+      ["Give the botanical garden time", "Rio’s Botanical Garden is a living collection and research institution, not a quick stop for a single photo. Check tickets, hours, visitor rules, and accessibility on the official site; plan the route for your group and leave time to sit and observe."],
+      ["Parque Lage is a separate visit", "Parque Lage and the Botanical Garden can be combined because they are nearby, but they are different sites with separate entrances and operations. Do not expect to explore both fully in a short morning. Check each venue’s information and allow time to travel between entrances."],
+      ["Atlantic Forest within the city", "The neighborhood sits on the slope of the Tijuca massif, where gardens, forest, and residential streets meet. Stay on authorized paths and do not feed wildlife. Trail conditions can change after rain, so check notices before walking beyond the urban areas."],
+      ["A well-planned green morning", "I would arrive early, give the garden the main part of the day, and then decide whether there is time for Parque Lage or a nearby meal. Bring water and comfortable shoes; terrain and shade vary. For your exit, check transport from the gate you will actually use."]
+    ]
   }
 };
