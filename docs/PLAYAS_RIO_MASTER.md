@@ -107,3 +107,7 @@ La portada ahora distingue las 27 guías de playa de nueve referencias oficiales
 ### Cierre en preview y corrección tras QA visual — 10-10-2026
 
 El preview `dimgrey-hyena-256947.hostingersite.com` está conectado a la rama indicada y desplegó el cierre. En Chrome de escritorio verifiqué portada y ficha de Urca; su imagen y crédito aparecen correctamente. Esa revisión reveló una cifra sin fuente en la tarjeta de São Conrado, que se quitó antes del enlace final. La pasada complementaria conserva el resto del trabajo y sólo afecta Playas y sus documentos de QA. La revisión visual de móvil/iPhone y la comprobación completa de las imágenes servidas siguen pendientes.
+
+## Adaptación premium local — 11-10-2026
+
+La estructura visual premium se aplicó localmente a las 27 fichas individuales: Copacabana conserva su modelo editorial y las 26 fichas restantes usan el mismo sistema tipográfico y cromático, con galerías sin recorte fijo. Todas cargan `playas.css` y `playas-photo-i18n.js` con caché `20261011-playas-premium-2`. QA estático registró 27 H1 únicos, 74 etiquetas de imagen en total (47 de contenido y 27 logotipos), todas con ALT y dimensiones y cero destinos locales inexistentes. `node --check` y `git diff --check` pasan. La vista renderizada en preview y la revisión responsive siguen pendientes; no se afirma aprobación visual ni se modifica producción.

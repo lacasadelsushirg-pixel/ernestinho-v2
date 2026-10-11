@@ -1,6 +1,6 @@
 # QA local — Playas de Río
 
-**Estado: trabajo local parcial; no declarar finalizadas las fichas ni publicar.** No se hizo commit, push, despliegue, rollback o cambio de rama. No se modificó Búzios ni el código de Carioc-IA. El último HEAD remoto observado en la sesión anterior fue `ff76300becbb08c1a1893f46d2ca9005f25b845f`; en esta continuación no se pudo volver a consultar GitHub (`git ls-remote` no conectó y la API web no fue accesible). El checkout local está en `29ab6a9` y no contiene el objeto remoto. No se integró ni se sobrescribió ningún cambio; cualquier futura integración queda bloqueada hasta verificar el remoto y reconciliar diferencias.
+**Estado: reconstrucción local de las 27 fichas individuales, preparada para el preview Hostinger.** Rama `revision/rendimiento-traducciones-81a904c`; HEAD remoto verificado antes de integrar: `2bd84c4605cf88f95ef4506eb9c196a691053079`. `git fetch origin` no conectó; se compararon los árboles mediante la API de GitHub y se preparó el cambio sobre el árbol remoto actual, conservando sus contenidos. Producción, Búzios y Carioc-IA quedan fuera de esta publicación.
 
 ## Verificaciones ejecutadas
 
@@ -86,3 +86,10 @@ La consulta también separó tres fuentes que no deben confundirse: INEA publica
 - Tras desplegar la rama, abrí la portada `/playas/` y la ficha `/playas/praia-da-urca/` en Chrome de escritorio. La portada mostró sus tarjetas y las imágenes; en la ficha se cargó la nueva imagen de Urca completa, con atribución visible y sin recorte editorial.
 - La revisión del texto servido detectó una cifra heredada no sustentada sobre la población de Rocinha en la tarjeta de São Conrado. Se retiró esa cifra y se dejó una descripción sin número.
 - Falta comprobar la carga de todas las imágenes Commons restantes en sus páginas servidas y hacer QA visual de móvil/iPhone. No se presenta esa parte como certificada.
+
+## Adaptación visual premium local — 11-10-2026
+
+- Se extendió el sistema visual de la ficha modelo de Copacabana a las 26 fichas individuales restantes mediante una clase limitada a `main` y tokens existentes (`Fraunces`, `DM Sans`, petróleo, crema y ámbar). Las galerías conservan su proporción natural y no fuerzan `cover` en fotografías editoriales.
+- Las 27 fichas individuales, incluida Copacabana, cargan `playas.css` y `playas-photo-i18n.js` con la referencia de caché `20261011-playas-premium-2`. Las rutas que antes sólo usaban `rio-practical.css` ahora incorporan también la hoja compartida.
+- QA estático de 27 fichas: 27 encabezados H1 únicos; 27 contenedores de playa bajo el sistema premium; 74 imágenes con ALT, dimensiones intrínsecas y sin destinos locales rotos. El único conjunto sin `loading` es el logotipo de 44 px del encabezado; las imágenes de contenido mantienen carga declarada. `node --check assets/js/playas-photo-i18n.js` y `git diff --check` pasan.
+- No se pudo renderizar el HTML local en navegador ni obtener capturas de escritorio/móvil; el acabado visual sigue pendiente de revisión en el preview Hostinger, incluidos Safari/iPhone. Esta publicación se limita al preview; producción queda intacta.

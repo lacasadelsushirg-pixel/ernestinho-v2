@@ -11,6 +11,14 @@ function syncBeachLanguage() {
     const translated = node.dataset[`ecText${suffix}`];
     if (translated) node.textContent = translated;
   });
+  document.querySelectorAll('[data-ec-meta-es]').forEach((meta) => {
+    const translated = meta.dataset[`ecMeta${suffix}`];
+    if (translated) meta.content = translated;
+  });
+  document.querySelectorAll('[data-ec-aria-es]').forEach((node) => {
+    const translated = node.dataset[`ecAria${suffix}`];
+    if (translated) node.setAttribute('aria-label', translated);
+  });
 }
 
 syncBeachLanguage();
