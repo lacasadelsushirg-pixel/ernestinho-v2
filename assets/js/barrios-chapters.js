@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 34424)
+Total output lines: 704
+
 // Chapters for the first complete editorial batch. Each entry is kept in ES/PT/EN
 // so the existing language switch never leaves newly added copy in Spanish.
 export const BARRIO_CHAPTERS = {
@@ -303,95 +306,7 @@ export const BARRIO_CHAPTERS = {
   },
   guaratiba: {
     ES: [
-      ["El oeste pide otra escala", "Guaratiba es una salida de paisaje, no una extensión inmediata de la Zona Sul. Los accesos, el tiempo de viaje y la disponibilidad de servicios pesan en el plan. Elige una playa o actividad como objetivo principal y confirma cómo regresar antes de dejar el corredor urbano."],
-      ["Costa, manglar y áreas protegidas", "En el entorno conviven costa, humedales y áreas de conservación. Mantente en caminos habilitados, respeta límites y no dejes residuos; la vegetación y los accesos son frágiles. Consulta avisos municipales si el plan incluye un área natural y evita internarte por senderos sin señalización."],
-      ["Comida con tiempo reservado", "La zona es conocida por salidas de comida junto al mar, pero el trayecto hace que una reserva o un horario de cocina importen más que en un barrio céntrico. Confirma apertura, dirección y transporte de vuelta directamente con el establecimiento antes de salir."],
-      ["Una jornada sin apuros", "Yo separaría el día para una sola franja de costa, una comida y el regreso. Lleva agua, protección solar y una alternativa por si llueve o el mar no acompaña. No cuentes con resolver sobre la marcha cada tramo: guarda direcciones y deja margen para el tráfico."]
-    ],
-    PT: [
-      ["O oeste pede outra escala", "Guaratiba é um passeio de paisagem, não uma extensão imediata da Zona Sul. Acesso, tempo de viagem e disponibilidade de serviços influenciam o plano. Escolha uma praia ou atividade como objetivo principal e confirme a volta antes de deixar o eixo urbano."],
-      ["Costa, manguezal e áreas protegidas", "Na região convivem litoral, áreas úmidas e espaços de conservação. Fique nos caminhos autorizados, respeite limites e não deixe resíduos; vegetação e acessos são frágeis. Consulte avisos municipais se o plano incluir uma área natural e evite trilhas sem sinalização."],
-      ["Comida com tempo reservado", "A região é conhecida por passeios gastronômicos à beira-mar, mas o deslocamento torna reserva e horário da cozinha mais importantes do que num bairro central. Confirme abertura, endereço e transporte de volta diretamente com o estabelecimento."],
-      ["Um dia sem pressa", "Eu reservaria o dia para um trecho de costa, uma refeição e a volta. Leve água, proteção solar e uma alternativa caso chova ou o mar não esteja bom. Não deixe cada trecho para resolver na hora: salve os endereços e reserve tempo para o trânsito."]
-    ],
-    EN: [
-      ["The west side needs a different scale", "Guaratiba is a landscape-focused outing, not an immediate extension of the South Zone. Access, travel time, and available services shape the plan. Choose one beach or activity as the main goal and confirm your return before leaving the urban corridor."],
-      ["Coastline, wetlands, and protected areas", "The area brings together shoreline, wetlands, and conservation spaces. Stay on authorized paths, respect boundaries, and leave no waste; vegetation and access points are fragile. Check municipal notices if your plan includes a natural area and avoid unmarked trails."],
-      ["Allow time for a meal", "The area is known for meals by the sea, but the journey makes reservations and kitchen hours more important than in a central neighborhood. Confirm opening, address, and return transport directly with the venue before setting out."],
-      ["A day without rushing", "I would set aside the day for one stretch of coast, a meal, and the return trip. Bring water and sun protection, with a backup plan for rain or poor sea conditions. Do not leave every leg to chance: save addresses and allow time for traffic."]
-    ]
-  },
-  "ilha-da-gigoia": {
-    ES: [
-      ["La travesía es parte de la visita", "El acceso a Ilha da Gigoia se hace en barco desde los decks del continente; no hay calles para llegar en coche a la isla. Confirma el punto de embarque, la forma de pago y cómo opera el regreso con el operador elegido. Guarda la dirección del deck para no confundirlo con otro acceso."],
-      ["Camina con calma por los pasajes", "La isla tiene una escala peatonal y residencial. Deja paso libre, respeta la privacidad y pregunta antes de fotografiar patios o muelles. Un recorrido corto te permite ver canales y vida cotidiana sin tratar el lugar como escenografía; evita entrar en propiedades privadas o senderos cerrados."],
-      ["Comida y horarios", "Hay restaurantes y bares que atraen visitantes, pero cada negocio maneja sus horarios y la demanda puede cambiar entre semana y fin de semana. Elige el lugar antes de cruzar si tienes una hora fija, y confirma la última travesía de regreso directamente con el barquero o el establecimiento."],
-      ["Qué llevar y cómo salir", "Lleva efectivo o confirma los medios de pago, usa calzado cómodo y acuerda un punto de encuentro visible. Si llueve fuerte o el canal está agitado, sigue las indicaciones del operador. La vuelta en barco forma parte del plan, no la dejes para resolver cuando ya sea tarde."]
-    ],
-    PT: [
-      ["A travessia faz parte da visita", "O acesso à Ilha da Gigóia é feito de barco a partir dos decks no continente; não há ruas para chegar de carro à ilha. Confirme o ponto de embarque, a forma de pagamento e o funcionamento da volta com o operador escolhido. Salve o endereço do deck para não confundir os acessos."],
-      ["Caminhe com calma pelos caminhos", "A ilha tem escala de pedestres e moradores. Deixe a passagem livre, respeite a privacidade e peça autorização antes de fotografar quintais ou píeres. Um passeio curto permite observar canais e cotidiano sem tratar o lugar como cenário; não entre em propriedades ou trilhas fechadas."],
-      ["Comida e horários", "Restaurantes e bares atraem visitantes, mas cada negócio tem seu próprio horário e a demanda pode mudar entre semana e fim de semana. Escolha o local antes de atravessar se tiver hora marcada e confirme a última travessia de volta com o barqueiro ou o estabelecimento."],
-      ["O que levar e como voltar", "Leve dinheiro ou confirme os meios de pagamento, use calçado confortável e combine um ponto de encontro visível. Se chover forte ou o canal estiver agitado, siga as orientações do operador. A volta de barco faz parte do plano; não deixe para resolver quando já estiver tarde."]
-    ],
-    EN: [
-      ["The boat crossing is part of the visit", "Access to Ilha da Gigoia is by boat from mainland docks; there are no streets for driving onto the island. Confirm the boarding point, payment method, and return service with your chosen operator. Save the dock address so you do not confuse it with another access point."],
-      ["Walk slowly through the lanes", "The island has a pedestrian, residential scale. Keep paths clear, respect privacy, and ask before photographing yards or docks. A short walk lets you notice canals and daily life without treating the place as a stage; do not enter private property or closed paths."],
-      ["Food and opening times", "Restaurants and bars draw visitors, but each business sets its own hours and demand can shift between weekdays and weekends. Choose a venue before crossing if you have a fixed schedule, and confirm the last return crossing directly with the boat operator or venue."],
-      ["What to bring and how to return", "Carry cash or confirm payment options, wear comfortable shoes, and agree on a visible meeting point. In heavy rain or rough canal conditions, follow the operator’s instructions. The boat ride back is part of the plan; do not leave it until late."]
-    ]
-  },
-  "sao-cristovao": {
-    ES: [
-      ["Una zona de historia y encuentro", "São Cristóvão reúne Quinta da Boa Vista, instituciones culturales y la tradición de la Feira de São Cristóvão. Son visitas distintas y no conviene suponer que todo abre al mismo tiempo. Revisa la operación de cada espacio antes de salir y calcula los desplazamientos entre sus accesos."],
-      ["Quinta da Boa Vista merece un plan propio", "El parque es amplio y conecta paisajes, monumentos y edificios con funciones diferentes. Elige un recorrido razonable y confirma qué instituciones están abiertas: la historia del conjunto no implica que cada edificio tenga visita disponible. Lleva agua y define un punto de salida claro."],
-      ["La Feira de São Cristóvão es cultura viva", "La feria reúne comida, música y productos vinculados a las tradiciones del Nordeste brasileño. Consulta agenda, entradas y horarios en los canales oficiales; los días de show pueden cambiar el movimiento y la salida. Ve con tiempo para comer y escuchar, sin intentar cruzar la feria deprisa."],
-      ["Conexiones y regreso", "La estación de tren y las rutas de superficie conectan el barrio con otras zonas, pero el mejor camino depende del lugar exacto y del horario. Guarda el acceso de la feria o del parque y mira cómo volver antes de entrar. En días de evento, añade margen para filas y transporte."]
-    ],
-    PT: [
-      ["Uma região de história e encontro", "São Cristóvão reúne a Quinta da Boa Vista, instituições culturais e a tradição da Feira de São Cristóvão. São visitas diferentes; não presuma que tudo abre ao mesmo tempo. Confira o funcionamento de cada espaço antes de sair e calcule os deslocamentos entre os acessos."],
-      ["A Quinta da Boa Vista merece um plano próprio", "O parque é amplo e conecta paisagens, monumentos e edifícios com funções diferentes. Escolha um percurso razoável e confira quais instituições estão abertas: a história do conjunto não significa que todos os prédios recebam visitantes. Leve água e defina um ponto de saída."],
-      ["A Feira de São Cristóvão é cultura viva", "A feira reúne comida, música e produtos ligados às tradições do Nordeste brasileiro. Consulte programação, ingressos e horários nos canais oficiais; dias de show podem mudar o movimento e a saída. Vá com tempo para comer e ouvir música, sem tentar atravessar tudo com pressa."],
-      ["Conexões e volta", "A estação de trem e as linhas de superfície conectam o bairro a outras regiões, mas o melhor caminho depende do endereço e do horário. Salve o acesso da feira ou do parque e confira a volta antes de entrar. Em dias de evento, reserve tempo para filas e transporte."]
-    ],
-    EN: [
-      ["A district of history and gathering", "São Cristóvão brings together Quinta da Boa Vista, cultural institutions, and the tradition of the Feira de São Cristóvão. These are separate visits, and you should not assume everything opens at the same time. Check each venue’s operations and allow travel time between entrances."],
-      ["Quinta da Boa Vista deserves its own plan", "The park is large and links landscapes, monuments, and buildings with different purposes. Choose a reasonable route and check which institutions are open: the site’s history does not mean every building welcomes visitors. Carry water and choose a clear exit point."],
-      ["Feira de São Cristóvão is living culture", "The fair brings together food, music, and products linked to traditions from Brazil’s Northeast. Check schedules, tickets, and hours through official channels; show days can change crowds and exits. Leave time to eat and listen instead of rushing across the fair."],
-      ["Connections and the return", "The train station and surface routes connect the neighborhood with other areas, but the best trip depends on your exact destination and time. Save the park or fair entrance and check the return before going in. On event days, allow extra time for queues and transport."]
-    ]
-  },
-  madureira: {
-    ES: [
-      ["Samba con territorio", "Madureira está ligada a escuelas y tradiciones de samba como Portela e Império Serrano. Una quadra no funciona como atracción diaria: consulta el calendario oficial, reglas de entrada y transporte antes de ir. Si coincide con ensayo o evento, llega con margen y acuerda dónde reunirte al salir."],
-      ["Mercadão: comercio de muchas escalas", "El Mercadão de Madureira forma parte de la historia comercial del barrio y ofrece una experiencia distinta a los centros comerciales del sur. Recorre los pasillos con una lista simple, revisa horarios y pregunta antes de fotografiar puestos. Es un mercado de trabajo cotidiano, no solo una postal."],
-      ["Parque Madureira", "El parque ofrece un espacio público amplio en medio de una zona urbana de gran movimiento. Escoge una entrada y un sector antes de caminar, ya que el tamaño y los eventos cambian la circulación. Confirma las actividades del día y organiza la vuelta desde el acceso que realmente uses."],
-      ["Cómo llegar sin perder el día", "Madureira es un nodo de transporte y comercio, así que puede haber mucho movimiento alrededor de estaciones y avenidas. Agrupa Mercadão, parque o samba como planes separados y verifica los horarios de cada uno. Para una primera visita, yo elegiría un eje y dejaría el resto para otra jornada."]
-    ],
-    PT: [
-      ["Samba com território", "Madureira está ligada a escolas e tradições de samba como Portela e Império Serrano. Uma quadra não funciona como atração diária: consulte a agenda oficial, regras de entrada e transporte antes de ir. Se houver ensaio ou evento, chegue com tempo e combine onde se encontrar na saída."],
-      ["Mercadão: comércio em muitas escalas", "O Mercadão de Madureira faz parte da história comercial do bairro e oferece uma experiência diferente dos shoppings da Zona Sul. Percorra os corredores com uma lista simples, confira horários e pergunte antes de fotografar as barracas. É um mercado de trabalho cotidiano, não apenas um cartão-postal."],
-      ["Parque Madureira", "O parque oferece um amplo espaço público em uma área urbana movimentada. Escolha uma entrada e um setor antes de caminhar, pois o tamanho e os eventos mudam a circulação. Confira as atividades do dia e organize a volta pelo acesso que realmente usar."],
-      ["Como chegar sem perder o dia", "Madureira é um polo de transporte e comércio, então pode haver muito movimento perto das estações e avenidas. Agrupe Mercadão, parque ou samba como programas separados e confira o horário de cada um. Na primeira visita, eu escolheria um eixo e deixaria o resto para outra ocasião."]
-    ],
-    EN: [
-      ["Samba rooted in place", "Madureira is tied to samba schools and traditions including Portela and Império Serrano. A samba school venue is not an everyday attraction: check the official calendar, entry rules, and transport before going. For a rehearsal or event, arrive with time and agree on a meeting point for the way out."],
-      ["Mercadão: commerce at many scales", "Mercadão de Madureira is part of the neighborhood’s commercial history and feels different from shopping malls in the South Zone. Walk the aisles with a simple list, check opening hours, and ask before photographing stalls. It is a working market, not just a postcard."],
-      ["Madureira Park", "The park offers a large public space within a busy urban area. Choose an entrance and section before walking, since its size and events affect movement. Check the day’s activities and plan your return from the entrance you actually use."],
-      ["Getting there without losing the day", "Madureira is a transport and shopping hub, so the areas around stations and avenues can be busy. Treat the market, park, and samba as separate plans and check each schedule. For a first visit, I would choose one focus and save the rest for another day."]
-    ]
-  },
-  vargens: {
-    ES: [
-      ["Una transición entre ciudad y naturaleza", "Vargens combina barrios residenciales, antiguas áreas rurales y paisajes de humedales y bosque. El entorno cambia rápido, así que no uses la distancia en línea recta como medida del viaje. Elige un destino concreto y verifica las condiciones de acceso y transporte antes de salir."],
-      ["Protección ambiental y vida cotidiana", "Parte de la región forma parte de áreas protegidas y corredores verdes. Sigue la señalización, permanece en caminos autorizados y no entres en terrenos privados. Si un itinerario depende de una trilha, confirma que esté abierta y que el clima permita recorrerla con seguridad."],
-      ["Vargem Grande y Vargem Pequena no son intercambiables", "Los nombres cercanos pueden confundir al planear un traslado: confirma el barrio y la dirección exacta de cada actividad. Los restaurantes, parques y accesos naturales pueden quedar separados por avenidas y largos trayectos. Guarda la ubicación del punto de encuentro y la de regreso."],
-      ["Un plan con pocas paradas", "Yo escogería una experiencia principal —comida, paseo rural o naturaleza— y no intentaría sumar Barra, Recreio y Guaratiba el mismo día. Lleva agua y protección solar si pasarás tiempo al aire libre, y consulta avisos locales sobre accesos y conservación antes de entrar a un área verde."]
-    ],
-    PT: [
-      ["Uma transição entre cidade e natureza", "Vargens combina áreas residenciais, antigas zonas rurais e paisagens de áreas úmidas e floresta. O entorno muda rápido; não use a distância em linha reta como medida do trajeto. Escolha um destino específico e confira acesso e transporte antes de sair."],
-      ["Proteção ambiental e vida cotidiana", "Parte da região integra áreas protegidas e corredores verdes. Siga a sinalização, permaneça nos caminhos autorizados e não entre em terrenos privados. Se o roteiro depender de trilha, confirme se está aberta e se o clima permite percorrê-la com segurança."],
-      ["Vargem Grande e Vargem Pequena são diferentes", "Nomes próximos podem confundir o deslocamento: confirme o bairro e o endereço exato de cada atividade. Restaurantes, parques e acessos naturais podem ficar separados por avenidas e trajetos longos. Salve o local do encontro e o endereço da volta."],
+      ["El oeste pide otra escala", "Guaratiba es una salida de paisaj…4424 tokens truncated…amento: confirme o bairro e o endereço exato de cada atividade. Restaurantes, parques e acessos naturais podem ficar separados por avenidas e trajetos longos. Salve o local do encontro e o endereço da volta."],
       ["Um plano com poucas paradas", "Eu escolheria uma experiência principal — comida, passeio rural ou natureza — e não tentaria incluir Barra, Recreio e Guaratiba no mesmo dia. Leve água e proteção solar se for ficar ao ar livre e consulte avisos locais de acesso e conservação antes de entrar numa área verde."]
     ],
     EN: [
@@ -599,6 +514,106 @@ export const BARRIO_CHAPTERS = {
       ["Valley, slopes, and urban growth", "The region stretches between lowlands and the Tijuca massif, where established neighborhoods meet areas of urban growth. Notice how density and terrain shift as you travel. For trails or natural areas, check park access and rules, not just the map location."],
       ["Choose a local center", "Taquara and Freguesia have shops and services, but they are not interchangeable starting points for every attraction. Decide where to eat, shop, or meet your group, then check the route from the nearest station or arrival point."],
       ["Do not compress it with distant areas", "I would set aside Jacarepaguá for activities in the region and leave Barra, Recreio, or downtown for another block. Check return transport and save an alternative if traffic changes. On hot days, plan indoor breaks between trips."]
+    ]
+  },
+  "gavea-jardim-lagoa": {
+    ES: [
+      ["Tres barrios verdes, tres ritmos", "Gávea tiene calles residenciales e instituciones culturales; Jardim Botânico gira alrededor del jardín y el Parque Lage; Lagoa es un paseo abierto junto al agua. No los trates como un único parque: decide qué experiencia quieres y calcula el traslado entre los accesos."],
+      ["Jardín Botánico y Parque Lage", "Ambos merecen tiempo y tienen entradas, reglas y funcionamiento propios. Comprueba la información oficial para cada uno y no supongas que podrás entrar por cualquier lado. Si quieres visitar los dos, organiza la jornada alrededor de horarios y descansos, no solo de la distancia en el mapa."],
+      ["La Lagoa se disfruta por sectores", "El contorno es amplio y la pista junto al agua invita a caminar o pedalear, pero puedes elegir solo un tramo. Define dónde empiezas y terminas, lleva agua y acuerda un punto reconocible. La combinación con los jardines funciona mejor si dejas un margen para el sol y el transporte."],
+      ["Mi día verde", "Yo escogería una visita principal —jardín, parque o cultura en Gávea— y cerraría con una pausa junto a la Lagoa si queda tiempo. Revisa entradas y transporte para cada lugar y deja un plan cubierto por si llueve. Así la zona se disfruta sin convertirla en una carrera de accesos."]
+    ],
+    PT: [
+      ["Três bairros verdes, três ritmos", "A Gávea tem ruas residenciais e instituições culturais; o Jardim Botânico gira em torno do jardim e do Parque Lage; a Lagoa é um passeio aberto junto à água. Não trate tudo como um único parque: escolha a experiência e calcule o deslocamento entre os acessos."],
+      ["Jardim Botânico e Parque Lage", "Os dois merecem tempo e têm entradas, regras e funcionamento próprios. Confira as informações oficiais de cada um e não presuma que seja possível entrar por qualquer lado. Se quiser visitar ambos, organize o dia pelos horários e pausas, não apenas pela distância no mapa."],
+      ["A Lagoa se aproveita por trechos", "O contorno é amplo e a pista junto à água convida a caminhar ou pedalar, mas você pode escolher só um trecho. Defina onde começa e termina, leve água e combine um ponto fácil de reconhecer. A combinação com os jardins funciona melhor com margem para sol e transporte."],
+      ["Meu dia verde", "Eu escolheria uma visita principal — jardim, parque ou cultura na Gávea — e terminaria com uma pausa junto à Lagoa se ainda houvesse tempo. Confira ingressos e transporte para cada lugar e deixe uma opção coberta para chuva. Assim a região é aproveitada sem correria entre acessos."]
+    ],
+    EN: [
+      ["Three green neighborhoods, three rhythms", "Gávea has residential streets and cultural institutions; Jardim Botânico centers on the botanical garden and Parque Lage; Lagoa offers an open walk by the water. Do not treat them as one park: choose the experience you want and plan the trip between entrances."],
+      ["The Botanical Garden and Parque Lage", "Both deserve time and have their own entrances, rules, and operations. Check official information for each and do not assume you can enter from any side. If visiting both, plan around hours and breaks rather than map distance alone."],
+      ["Enjoy Lagoa in sections", "The shoreline is broad and the waterside path invites walking and cycling, but you can choose just one stretch. Decide where you will start and finish, carry water, and agree on an easy landmark. Pairing the lagoon with the gardens works best when you allow for sun and transport."],
+      ["My green day", "I would choose one main visit—a garden, park, or cultural stop in Gávea—and finish with a break beside Lagoa if time allows. Check tickets and transport for each place, and keep an indoor option for rain. That way the area feels relaxed instead of a race between entrances."]
+    ]
+  },
+  "ipanema-leblon": {
+    ES: [
+      ["Dos barrios conectados por la orla", "Ipanema y Leblon se enlazan por la playa y por el canal Jardim de Alah, pero cada uno tiene su propio centro comercial y residencial. Puedes caminar entre ambos, aunque conviene elegir un punto de salida y otro de llegada antes de empezar, especialmente con calor o un grupo grande."],
+      ["De General Osório a las calles de Leblon", "En Ipanema, General Osório ayuda a orientarse entre metro, comercio y mar. En Leblon, las calles interiores tienen restaurantes y servicios de barrio. Alterna la orla con una calle transversal para comprender cómo cambian el ritmo y la sombra a medida que te alejas de la arena."],
+      ["Arpoador y el mirador son pausas, no metas", "Arpoador y el mirador del Leblon ofrecen puntos para parar, pero pueden concentrar visitantes en la tarde. Llega con tiempo, respeta los espacios residenciales y planifica el regreso desde el extremo donde termines. No es necesario recorrer toda la orla para disfrutar el paisaje."],
+      ["Una jornada equilibrada", "Yo elegiría una playa o paseo en Ipanema, una comida en Leblon y un solo tramo de caminata entre ambos. Si quieres sumar compras o una visita con horario, revisa el tiempo de traslado y deja una pausa. Consulta el estado del mar y usa puntos reconocibles para reunirte."]
+    ],
+    PT: [
+      ["Dois bairros conectados pela orla", "Ipanema e Leblon se ligam pela praia e pelo canal do Jardim de Alah, mas cada um tem seu próprio centro comercial e residencial. Dá para caminhar entre eles, mas escolha um ponto de saída e outro de chegada antes de começar, especialmente com calor ou grupo grande."],
+      ["Da General Osório às ruas do Leblon", "Em Ipanema, a General Osório ajuda a se orientar entre metrô, comércio e mar. No Leblon, as ruas internas têm restaurantes e serviços de bairro. Alterne a orla com uma rua transversal para perceber como ritmo e sombra mudam ao se afastar da areia."],
+      ["Arpoador e o mirante são pausas, não metas", "Arpoador e o mirante do Leblon oferecem pontos para parar, mas podem concentrar visitantes no fim da tarde. Chegue com tempo, respeite áreas residenciais e planeje a volta a partir do trecho onde terminar. Não é preciso percorrer toda a orla para aproveitar a paisagem."],
+      ["Um dia equilibrado", "Eu escolheria uma praia ou passeio em Ipanema, uma refeição no Leblon e apenas um trecho de caminhada entre os dois. Se quiser incluir compras ou uma visita com horário, confira o deslocamento e reserve uma pausa. Consulte as condições do mar e combine pontos fáceis de reconhecer."]
+    ],
+    EN: [
+      ["Two neighborhoods linked by the waterfront", "Ipanema and Leblon connect along the beach and at Jardim de Alah canal, but each has its own commercial and residential center. You can walk between them, though it helps to choose a starting and ending point first, especially in the heat or with a larger group."],
+      ["From General Osório to Leblon’s streets", "In Ipanema, General Osório helps orient you between the metro, shops, and the sea. In Leblon, inner streets hold restaurants and local services. Alternate the waterfront with a cross street to notice how pace and shade change away from the sand."],
+      ["Arpoador and the lookout are pauses, not checkboxes", "Arpoador and the Leblon lookout are good places to stop, but they can draw crowds in late afternoon. Arrive with time, respect residential areas, and plan your return from the end of your walk. You do not need to cover the full waterfront to enjoy the view."],
+      ["A balanced day", "I would choose one beach or walk in Ipanema, a meal in Leblon, and just one connecting stretch on foot. If adding shopping or a timed visit, check the travel time and leave room for a break. Check sea conditions and agree on easy-to-recognize meeting points."]
+    ]
+  },
+  "barra-oeste": {
+    ES: [
+      ["Barra y el oeste no son un solo destino", "La guía reúne Barra, Recreio, Vargens, Guaratiba y otros sectores amplios. Define el barrio y la dirección exacta de cada actividad; la costa y las áreas naturales quedan separadas por avenidas y trayectos largos. No planifiques el día solo mirando distancias en línea recta."],
+      ["Una playa como base", "Elige un tramo de costa que corresponda a tu plan: playa urbana, surf, paseo o descanso. Consulta el estado del mar, los accesos y los servicios vigentes. Para Prainha o Grumari, revisa condiciones y transporte con más cuidado; no des por hecho que habrá una alternativa cercana si algo cambia."],
+      ["Reservas y naturaleza", "La Reserva de Marapendi, restinga, lagunas y áreas protegidas forman una parte importante del oeste. Sigue las reglas de conservación y usa solo accesos habilitados. Si piensas caminar, confirma que el recorrido esté abierto y lleva agua; el calor y la distancia hacen que una salida improvisada sea difícil."],
+      ["Distribuye los traslados", "Yo escogería una actividad principal y como máximo una parada cercana. Combinar playa, centros comerciales y playas aisladas puede consumir el día en carretera. Confirma la vuelta desde el destino final y guarda una opción bajo techo por si cambia el tiempo o el mar."]
+    ],
+    PT: [
+      ["Barra e o oeste não são um único destino", "Esta guia reúne Barra, Recreio, Vargens, Guaratiba e outros setores extensos. Defina o bairro e o endereço exato de cada atividade; litoral e áreas naturais ficam separados por avenidas e trajetos longos. Não planeje o dia apenas pela distância em linha reta."],
+      ["Escolha uma praia como base", "Escolha um trecho de costa conforme o plano: praia urbana, surfe, passeio ou descanso. Consulte condições do mar, acessos e serviços disponíveis. Para Prainha ou Grumari, confira transporte e condições com mais cuidado; não conte com uma alternativa próxima se algo mudar."],
+      ["Reservas e natureza", "A Reserva de Marapendi, restingas, lagoas e áreas protegidas são parte importante do oeste. Siga as regras de conservação e use somente acessos autorizados. Se for caminhar, confirme que o percurso está aberto e leve água; calor e distância tornam difícil improvisar."],
+      ["Distribua os deslocamentos", "Eu escolheria uma atividade principal e no máximo uma parada próxima. Combinar praia, shopping e praias isoladas pode consumir o dia na estrada. Confira a volta a partir do destino final e salve uma opção coberta caso o tempo ou o mar mudem."]
+    ],
+    EN: [
+      ["Barra and the west side are not one destination", "This guide spans Barra, Recreio, Vargens, Guaratiba, and other large areas. Confirm the neighborhood and exact address for each activity; the coast and natural areas are separated by major roads and long trips. Do not plan the day from straight-line distances alone."],
+      ["Choose one beach as your base", "Pick a stretch of coast for your plan: an urban beach, surfing, a walk, or rest. Check sea conditions, access, and current services. For Prainha or Grumari, check transport and conditions carefully; do not assume there will be a nearby alternative if plans change."],
+      ["Reserves and nature", "Marapendi Reserve, restinga, lagoons, and protected areas are an important part of the west side. Follow conservation rules and use authorized access only. If you plan to walk, confirm the route is open and carry water; heat and distance make improvised outings difficult."],
+      ["Spread out the travel", "I would choose one main activity and at most one nearby stop. Combining a beach, malls, and remote beaches can use up the day on the road. Check the return from your final destination and save an indoor option in case weather or sea conditions change."]
+    ]
+  },
+  "zona-norte": {
+    ES: [
+      ["Una región de muchos centros", "La Zona Norte no tiene un único centro turístico: Maracanã, São Cristóvão, Madureira, Tijuca y Benfica tienen identidades propias. Escoge una subzona y un motivo de visita; enlazar varias requiere traslados separados y puede ser más lento de lo que sugiere el mapa."],
+      ["Fútbol, parques y agenda", "Maracanã y Quinta da Boa Vista pueden formar una jornada, siempre que compruebes por separado la visita al estadio y la operación de las áreas del parque. En día de partido, considera filas, controles y salida. No programes otra actividad con hora fija inmediatamente después."],
+      ["Feira y mercados son visitas con su propio ritmo", "La Feira de São Cristóvão, el Mercadão de Madureira y CADEG son espacios de comercio y cultura diferentes. Revisa horarios y programación oficiales, lleva tiempo para comer o comprar y deja libres los pasillos de trabajo. Escoge uno como foco, en vez de intentar recorrer los tres en un día."],
+      ["Muévete con un plan de vuelta", "El tren, metro y autobús sirven a varios ejes, pero el mejor servicio depende de tu destino y horario. Guarda la estación o entrada exacta y revisa el regreso antes de comenzar. Para eventos, sigue la señalización y acuerda un punto de encuentro fuera de las salidas más concurridas."]
+    ],
+    PT: [
+      ["Uma região com vários centros", "A Zona Norte não tem um único centro turístico: Maracanã, São Cristóvão, Madureira, Tijuca e Benfica têm identidades próprias. Escolha uma sub-região e um motivo para a visita; combinar várias exige deslocamentos separados e pode levar mais do que o mapa sugere."],
+      ["Futebol, parques e programação", "Maracanã e Quinta da Boa Vista podem formar um dia de passeio, desde que você confira separadamente a visita ao estádio e o funcionamento das áreas do parque. Em dia de jogo, considere filas, controles e saída. Não marque outra atividade com hora fixa logo depois."],
+      ["Feiras e mercados têm seu próprio ritmo", "A Feira de São Cristóvão, o Mercadão de Madureira e o CADEG são espaços diferentes de comércio e cultura. Confira horários e programação oficiais, reserve tempo para comer ou comprar e mantenha livres os corredores de trabalho. Escolha um como foco, em vez de tentar ver os três no mesmo dia."],
+      ["Desloque-se com a volta planejada", "Trem, metrô e ônibus atendem vários eixos, mas o melhor serviço depende do destino e horário. Salve a estação ou entrada exata e confira a volta antes de começar. Em eventos, siga a sinalização e combine um ponto de encontro longe das saídas mais movimentadas."]
+    ],
+    EN: [
+      ["A region with many centers", "The North Zone has no single visitor center: Maracanã, São Cristóvão, Madureira, Tijuca, and Benfica each have their own identity. Choose one subarea and one reason to visit; linking several requires separate trips and may take longer than a map suggests."],
+      ["Football, parks, and schedules", "Maracanã and Quinta da Boa Vista can make a day out if you check stadium tours and park operations separately. On match days, account for queues, security, and departure. Do not schedule another timed activity immediately afterward."],
+      ["Fairs and markets each have their own pace", "Feira de São Cristóvão, Mercadão de Madureira, and CADEG are different spaces for commerce and culture. Check official hours and programming, leave time to eat or shop, and keep working aisles clear. Choose one as your focus instead of trying to see all three in one day."],
+      ["Travel with a return plan", "Trains, metro, and buses serve several corridors, but the best option depends on your destination and time. Save the exact station or entrance and check the return before starting. At events, follow signs and agree on a meeting point away from the busiest exits."]
+    ]
+  },
+  "santa-lapa": {
+    ES: [
+      ["Santa Teresa y Lapa piden horarios distintos", "Las cuestas, miradores y espacios culturales de Santa Teresa suelen encajar mejor de día; Lapa puede ser el plan nocturno. Elige qué barrio priorizarás y reserva tiempo para cambiar de zona. El Bondinho y las calles empinadas tienen operación y accesibilidad propias; comprueba todo antes de salir."],
+      ["Patrimonio en la ladera", "En Santa Teresa, combina un punto cultural con un paseo breve por las calles cercanas. Verifica apertura y accesibilidad de cada lugar, y no trates una visita exterior como acceso al interior. Si llueve, el adoquín puede complicar las pendientes y conviene acortar el recorrido."],
+      ["Los Arcos y la noche de Lapa", "Los Arcos da Lapa recuerdan el antiguo acueducto y conectan con una zona conocida por su música y vida nocturna. Para un show, confirma el local, la programación y el ticket antes de ir. No supongas que todos los bares estarán abiertos o que la calle tendrá el mismo movimiento cada noche."],
+      ["La vuelta se decide antes", "Para una noche fuera, guarda las direcciones, acuerda un punto de encuentro y elige el transporte de regreso antes de entrar al local. Evita improvisar caminatas largas entre sectores menos activos. Para un día cultural, empieza arriba y baja con una ruta conocida y un margen de tiempo."]
+    ],
+    PT: [
+      ["Santa Teresa e Lapa pedem horários diferentes", "Ladeiras, mirantes e espaços culturais de Santa Teresa costumam funcionar melhor de dia; a Lapa pode ser o programa noturno. Escolha qual bairro será prioridade e reserve tempo para mudar de área. O Bondinho e as ruas íngremes têm operação e acessibilidade próprias; confira tudo antes de sair."],
+      ["Patrimônio na encosta", "Em Santa Teresa, combine um ponto cultural com uma caminhada curta pelas ruas próximas. Verifique abertura e acessibilidade de cada lugar e não confunda visita externa com acesso ao interior. Se chover, o calçamento pode dificultar as ladeiras; reduza o percurso."],
+      ["Os Arcos e a noite da Lapa", "Os Arcos da Lapa lembram o antigo aqueduto e se conectam a uma área conhecida por música e vida noturna. Para um show, confirme casa, programação e ingresso antes de ir. Não presuma que todos os bares estarão abertos ou que a rua terá o mesmo movimento toda noite."],
+      ["A volta se decide antes", "Para sair à noite, salve os endereços, combine um ponto de encontro e escolha o transporte de volta antes de entrar. Evite improvisar caminhadas longas entre setores menos movimentados. Para um dia cultural, comece no alto e desça por uma rota conhecida com tempo de sobra."]
+    ],
+    EN: [
+      ["Santa Teresa and Lapa need different schedules", "Santa Teresa’s hills, viewpoints, and cultural venues usually fit better by day; Lapa can be the evening plan. Choose which neighborhood to prioritize and allow time to move between them. The tram and steep streets have their own operations and accessibility considerations; check before setting out."],
+      ["Heritage on the hillside", "In Santa Teresa, pair one cultural stop with a short walk through nearby streets. Check opening and accessibility for each place, and do not mistake an exterior visit for indoor access. In rain, cobblestones can make the slopes harder; shorten the route."],
+      ["The Arches and a night in Lapa", "The Lapa Arches recall the old aqueduct and lead into an area known for music and nightlife. For a show, confirm the venue, schedule, and ticket before going. Do not assume every bar will be open or that the street will have the same activity every night."],
+      ["Decide on the return in advance", "For a night out, save addresses, agree on a meeting point, and choose your return transport before entering the venue. Avoid improvising long walks between quieter areas. For a cultural day, start uphill and descend along a familiar route with time to spare."]
     ]
   }
 };
