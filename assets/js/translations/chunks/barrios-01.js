@@ -3093,4 +3093,69 @@ export default {
     "PT": "Áreas verdes e espaços públicos do Parque Madureira",
     "EN": "Green areas and public spaces in Parque Madureira"
   }
+,
+  "Guía de Lagoa: paisaje de la laguna, paseo al aire libre y vistas de la Pedra da Gávea. Cómo combinarla con Ipanema y Jardim Botânico.": {
+    "PT": "Guia da Lagoa: paisagem da lagoa, passeio ao ar livre e vista da Pedra da Gávea. Como combinar o roteiro com Ipanema e Jardim Botânico.",
+    "EN": "Lagoa guide: lagoon scenery, outdoor walks and views of Pedra da Gávea. How to pair the area with Ipanema and Jardim Botânico."
+  },
+  "Lagoa Rodrigo de Freitas con la Pedra da Gávea al fondo": {
+    "PT": "Lagoa Rodrigo de Freitas com a Pedra da Gávea ao fundo",
+    "EN": "Rodrigo de Freitas Lagoon with Pedra da Gávea in the background"
+  },
+  "Foto: Kisselgrj / Wikimedia Commons.": {
+    "PT": "Foto: Kisselgrj / Wikimedia Commons.",
+    "EN": "Foto: Kisselgrj / Wikimedia Commons."
+  },
+  "Guía de São Conrado: playa, montaña y paisaje de costa. Cómo planificar accesos, paseo y regreso desde la Zona Sul.": {
+    "PT": "Guia de São Conrado: praia, montanha e paisagem costeira. Como planejar acesso, passeio e volta a partir da Zona Sul.",
+    "EN": "São Conrado guide: beach, mountains and coastal scenery. How to plan access, your visit and the return trip from the South Zone."
+  },
+  "Praia de São Conrado y Morro Dois Irmãos vistos desde la costa": {
+    "PT": "Praia de São Conrado e Morro Dois Irmãos vistos da costa",
+    "EN": "São Conrado Beach and Dois Irmãos Hill viewed from the coast"
+  },
+  "Foto: VinnyWiki / Wikimedia Commons.": {
+    "PT": "Foto: VinnyWiki / Wikimedia Commons.",
+    "EN": "Foto: VinnyWiki / Wikimedia Commons."
+  },
+  "Guía de Sepetiba: playa de bahía y vida en la Zona Oeste. Cómo organizar el paseo y consultar las condiciones locales antes de salir.": {
+    "PT": "Guia de Sepetiba: praia de baía e vida na Zona Oeste. Como organizar o passeio e conferir as condições locais antes de sair.",
+    "EN": "Sepetiba guide: a bay beach and life in the West Zone. How to plan the visit and check local conditions before setting out."
+  },
+  "Playa y costa de Sepetiba en la Zona Oeste de Río": {
+    "PT": "Praia e costa de Sepetiba, na Zona Oeste do Rio",
+    "EN": "Sepetiba beach and coast in Rio’s West Zone"
+  },
+  "Foto: Rcandre / Wikimedia Commons.": {
+    "PT": "Foto: Rcandre / Wikimedia Commons.",
+    "EN": "Foto: Rcandre / Wikimedia Commons."
+  },
+  "Guía de Tijuca: plazas, vida residencial y acceso al metro. Qué combinar cerca de Saens Peña y cómo organizar el recorrido.": {
+    "PT": "Guia da Tijuca: praças, vida residencial e acesso ao metrô. O que combinar perto da Saens Peña e como organizar o passeio.",
+    "EN": "Tijuca guide: squares, residential life and Metro access. What to combine near Saens Peña and how to plan your route."
+  },
+  "Entrada A de la estación Saens Peña / Tijuca del metro de Río": {
+    "PT": "Entrada A da estação Saens Peña / Tijuca do metrô do Rio",
+    "EN": "Entrance A of Rio Metro’s Saens Peña / Tijuca station"
+  },
+  "Foto: Avelludo / Wikimedia Commons.": {
+    "PT": "Foto: Avelludo / Wikimedia Commons.",
+    "EN": "Foto: Avelludo / Wikimedia Commons."
+  },
+  "Guía de Maracanã: estadio, patrimonio deportivo y transporte. Cómo preparar una visita y revisar horarios, accesos y eventos.": {
+    "PT": "Guia do Maracanã: estádio, patrimônio esportivo e transporte. Como preparar a visita e conferir horários, acessos e eventos.",
+    "EN": "Maracanã guide: stadium, sporting heritage and transport. How to prepare for a visit and check opening times, access and events."
+  },
+  "Estadio Maracanã en Río de Janeiro": {
+    "PT": "Estádio do Maracanã, no Rio de Janeiro",
+    "EN": "Maracanã Stadium in Rio de Janeiro"
+  },
+  "Foto: The Gentle / Wikimedia Commons.": {
+    "PT": "Foto: The Gentle / Wikimedia Commons.",
+    "EN": "Foto: The Gentle / Wikimedia Commons."
+  },
+  "Fuente ↗": {
+    "PT": "Fonte ↗",
+    "EN": "Source ↗"
+  }
 };
