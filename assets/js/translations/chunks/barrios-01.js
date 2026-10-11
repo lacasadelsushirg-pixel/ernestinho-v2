@@ -3206,5 +3206,45 @@ export default {
   "Aterro do Flamengo y Marina da Glória junto a la bahía": {
     "PT": "Aterro do Flamengo e Marina da Glória junto à baía",
     "EN": "Aterro do Flamengo and Marina da Glória beside the bay"
+  },
+  "Guía de Barra y Zona Oeste: playas extensas, lagunas y reservas naturales. Cómo elegir un sector y planificar los traslados.": {
+    "PT": "Guia da Barra e da Zona Oeste: praias extensas, lagoas e reservas naturais. Como escolher uma área e planejar os deslocamentos.",
+    "EN": "Barra and West Zone guide: long beaches, lagoons and nature reserves. How to choose an area and plan your routes."
+  },
+  "Guía de Gávea, Jardim Botânico y Lagoa: jardines, montaña y paseo junto a la laguna. Cómo combinar el recorrido.": {
+    "PT": "Guia da Gávea, do Jardim Botânico e da Lagoa: jardins, montanha e passeio junto à lagoa. Como combinar o roteiro.",
+    "EN": "Gávea, Jardim Botânico and Lagoa guide: gardens, mountain and a walk by the lagoon. How to combine the route."
+  },
+  "Guía de Ipanema y Leblon: playa, cultura y calles residenciales. Cómo recorrer la orla y combinar estos barrios vecinos.": {
+    "PT": "Guia de Ipanema e Leblon: praia, cultura e ruas residenciais. Como percorrer a orla e combinar esses bairros vizinhos.",
+    "EN": "Ipanema and Leblon guide: beach, culture and residential streets. How to explore the waterfront and combine these neighboring districts."
+  },
+  "Guía de Santa Teresa y Lapa: arte, arquitectura, Arcos y vida nocturna. Cómo planificar las subidas, el paseo y el regreso.": {
+    "PT": "Guia de Santa Teresa e da Lapa: arte, arquitetura, Arcos e vida noturna. Como planejar as subidas, o passeio e a volta.",
+    "EN": "Santa Teresa and Lapa guide: art, architecture, the Arcos and nightlife. How to plan the uphill routes, visit and return."
+  },
+  "Guía de Zona Norte de Río: cultura popular, parques, barrios residenciales y grandes instituciones. Cómo elegir un destino y planificar el recorrido.": {
+    "PT": "Guia da Zona Norte do Rio: cultura popular, parques, bairros residenciais e grandes instituições. Como escolher um destino e planejar o roteiro.",
+    "EN": "Rio's North Zone guide: popular culture, parks, residential neighborhoods and major institutions. How to choose a destination and plan your visit."
+  },
+  "Pedra do Telégrafo sobre la costa de Guaratiba": {
+    "PT": "Pedra do Telégrafo sobre a costa de Guaratiba",
+    "EN": "Pedra do Telégrafo above the coast of Guaratiba"
+  },
+  "Vista aérea histórica de la Lagoa Rodrigo de Freitas y el Jardim Botânico": {
+    "PT": "Vista aérea histórica da Lagoa Rodrigo de Freitas e do Jardim Botânico",
+    "EN": "Historic aerial view of Lagoa Rodrigo de Freitas and Jardim Botânico"
+  },
+  "Playa de Ipanema con el Morro Dois Irmãos al fondo": {
+    "PT": "Praia de Ipanema com o Morro Dois Irmãos ao fundo",
+    "EN": "Ipanema Beach with Morro Dois Irmãos in the background"
+  },
+  "Casas antiguas y calle empedrada de Santa Teresa": {
+    "PT": "Casas antigas e rua de paralelepípedos em Santa Teresa",
+    "EN": "Old houses and a cobblestone street in Santa Teresa"
+  },
+  "Puestos de la Feira de São Cristóvão en Río de Janeiro": {
+    "PT": "Barracas da Feira de São Cristóvão no Rio de Janeiro",
+    "EN": "Stalls at Feira de São Cristóvão in Rio de Janeiro"
   }
 };
