@@ -109,6 +109,23 @@ for (const [language, expectedLabels] of [["ES", ["Experiencia:", "Fecha:", "Per
   const message = parsed.searchParams.get("text");
   for (const label of expectedLabels) assert.ok(message.includes(label), `Falta la etiqueta ${label} (${language}).`);
 }
+const newWelcomeCases = [
+  ["Quiero conocer los tours", "experiences"], ["Busco dónde hospedarme", "stay"],
+  ["¿Dónde puedo guardar mi maleta?", "quick_luggage"], ["Necesito un traslado", "daily_transfer"],
+  ["¿Qué hacer en familia?", "family"], ["¿Cómo me muevo por Río?", "transport"],
+  ["¿Dónde puedo comer?", "daily_food"], ["¿Qué puedo hacer hoy?", "today"],
+  ["Onde posso guardar minha mala?", "quick_luggage"],
+  ["Where can I store my luggage?", "quick_luggage"]
+];
+for (const [question, expected] of newWelcomeCases) {
+  assert.equal(resolveQuestion(question).intent?.id, expected, "Chip V2: " + question);
+}
+const luggageStart = resolveQuestion("¿Dónde puedo guardar mi maleta?");
+assert.equal(luggageStart.contextUpdate?.pending, "location", "Equipaje debe solicitar zona y conservar contexto.");
+const luggageNext = resolveQuestion("Copacabana", luggageStart.contextUpdate);
+assert.equal(luggageNext.intent?.id, "quick_luggage_followup", "Equipaje debe comprender barrio como seguimiento.");
+assert.ok(luggageNext.intent.answer.ES.includes("Copacabana"), "Seguimiento debe conservar el barrio.");
+
 const bareWhatsApp = new URL(buildWhatsAppHref({ language: "EN", baseMessage: "Hello" }));
 assert.equal(bareWhatsApp.searchParams.get("text"), "Hello", "WhatsApp debe estar disponible sin pedir datos opcionales.");
 assert.equal(resolveQuestion("precio hoy en el centro para un tour").intent, null, "Palabras frecuentes no deben forzar una respuesta comercial.");

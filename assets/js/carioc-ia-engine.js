@@ -304,6 +304,16 @@ function resolveEverydayFollowup(query, context) {
   const openNow = /^(?:abierto ahora|algo abierto ahora|que este abierto|esta abierto|aberto agora|aberto nesse momento|open now|anything open now|still open)$/.test(query);
   const foodPreference = topic.category === "gastronomy" && /^(?:brasilena|comida brasilena|brasileira|brazilian|carnes|carne|seafood|mariscos|frutos do mar|vegetariano|vegetariana|vegetarian|vegano|vegan|pizza|sushi|cafe|cafeteria|padaria)$/.test(query);
   if (!zone && !airport && !budget && !comfort && !openNow && !foodPreference) return null;
+  if (topic.id === "quick_luggage" && zone) {
+    const name = EC_NEIGHBORHOODS[zone] || zone;
+    const intent = { ...topic, id: "quick_luggage_followup",
+      answer: ecT(
+        "Entendido, buscas guardar maletas en " + name + ". ¿Hasta qué hora las necesitas dejar? Consulta las condiciones y horarios de una consigna antes de ir; no puedo garantizar una plaza.",
+        "Entendi, você precisa guardar malas em " + name + ". Até que horas precisa deixá-las? Confira as condições e o horário do guarda-volumes antes de ir; não posso garantir disponibilidade.",
+        "Got it, you need luggage storage in " + name + ". Until what time do you need it? Check the storage provider's conditions and hours before going; I can't guarantee availability."
+      ) };
+    return { intent, candidates: [], contextUpdate: { ...context, location: zone, pending: null, lastEverydayId: null } };
+  }
   const location = zone || context.location;
   const pref = budget ? "budget" : comfort ? "comfort" : context.preference || null;
   let intent;
@@ -361,9 +371,11 @@ export function resolveQuestion(question, context = {}) {
 
   const welcomeIntent = WELCOME_CHIP_IDS[query];
   if (welcomeIntent) {
-    return { intent: ACTIVE_INTENTS.find(intent => intent.id === welcomeIntent) || null,
-      candidates: [], contextUpdate: { pending: welcomeIntent === "beach_clarify" ? "beach_style" : null,
-        category: null, lastEverydayId: null } };
+    const intent = ACTIVE_INTENTS.find(item => item.id === welcomeIntent) || null;
+    return { intent, candidates: [],
+      contextUpdate: { pending: intent?.pending || (welcomeIntent === "beach_clarify" ? "beach_style" : null),
+        category: intent?.category || null,
+        lastEverydayId: EVERYDAY_INTENTS.some(item => item.id === welcomeIntent) ? welcomeIntent : null } };
   }
 
   const contextual = getContextualMatch(query, context);
