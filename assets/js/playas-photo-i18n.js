@@ -1,7 +1,7 @@
-import { getLanguage, onLanguageChange } from './i18n.js';
+import { getLanguage } from './i18n.js';
 
-function syncBeachLanguage() {
-  const language = getLanguage().toLowerCase();
+function syncBeachLanguage(language = getLanguage()) {
+  language = String(language).slice(0, 2).toLowerCase();
   const suffix = language === 'pt' ? 'Pt' : language === 'en' ? 'En' : 'Es';
   document.querySelectorAll('[data-ec-alt-es]').forEach((image) => {
     const translated = image.dataset[`ecAlt${suffix}`];
@@ -22,4 +22,4 @@ function syncBeachLanguage() {
 }
 
 syncBeachLanguage();
-onLanguageChange(syncBeachLanguage);
+document.addEventListener('ec:language', (event) => syncBeachLanguage(event.detail?.lang || getLanguage()));
