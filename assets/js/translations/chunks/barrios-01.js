@@ -3228,5 +3228,13 @@ export default {
 
 
 
-
+,
+  "Puestos de flores dentro del CADEG, mercado de Benfica en Río": {
+    "PT": "Bancas de flores dentro do CADEG, mercado de Benfica no Rio",
+    "EN": "Flower stalls inside CADEG, the market in Benfica, Rio"
+  },
+  "Foto: Sheila Tostes / Wikimedia Commons; recorte de portada.": {
+    "PT": "Foto: Sheila Tostes / Wikimedia Commons; recorte para a capa.",
+    "EN": "Photo: Sheila Tostes / Wikimedia Commons; cropped for the cover."
+  }
 };
