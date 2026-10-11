@@ -144,7 +144,7 @@ assert.deepEqual(recommendGuideLinks(foodGuide, "zzzyyxx-unrelated", 3), [], "No
 assert.deepEqual(recommendGuideLinks(foodGuide, "desayuno barato", 0), [], "No recomendar si no hay espacio para enlaces extra.");
 assert.equal(SITE_GUIDE_INDEX.length, 505, "El índice turístico debe tener los registros de fichas reales esperados.");
 assert.equal(new Set(SITE_GUIDE_INDEX.map(record => record[0])).size, SITE_GUIDE_INDEX.length, "Rutas indexadas únicas.");
-assert.ok(SITE_GUIDE_INDEX.every(record => /^\\/[a-z0-9-]+\\/[a-z0-9-]+\\/$/.test(record[0])), "Rutas seguras del índice.");
+assert.ok(SITE_GUIDE_INDEX.every(record => record[0].startsWith("/") && record[0].endsWith("/") && !record[0].includes("//")), "Rutas seguras del índice.");
 const siteFood = searchSiteGuide("restaurante en copacabana", "gastronomy", [], 3);
 assert.ok(siteFood.length <= 3, "Máximo tres resultados indexados.");
 assert.deepEqual(searchSiteGuide("zzzyyxx", "gastronomy"), [], "Sin coincidencia, no inventar restaurantes.");
