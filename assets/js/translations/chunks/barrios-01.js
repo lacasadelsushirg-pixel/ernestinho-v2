@@ -3158,4 +3158,53 @@ export default {
     "PT": "Fonte ↗",
     "EN": "Source ↗"
   }
+,
+  "Guía de CADEG: mercado mayorista y gastronomía en Benfica. Cómo organizar una visita y combinarla con São Cristóvão.": {
+    "PT": "Guia do CADEG: mercado atacadista e gastronomia em Benfica. Como organizar a visita e combiná-la com São Cristóvão.",
+    "EN": "CADEG guide: wholesale market and food in Benfica. How to plan a visit and pair it with São Cristóvão."
+  },
+  "Fachada del CADEG, mercado mayorista de Benfica, en Río": {
+    "PT": "Fachada do CADEG, mercado atacadista de Benfica, no Rio",
+    "EN": "CADEG wholesale market facade in Benfica, Rio"
+  },
+  "Foto: André Sampaio / Wikimedia Commons.": {
+    "PT": "Foto: André Sampaio / Wikimedia Commons.",
+    "EN": "Photo: André Sampaio / Wikimedia Commons."
+  },
+  "Guía de Jacarepaguá: paisaje de lagunas, historia local y grandes distancias. Cómo elegir una zona y planificar el traslado.": {
+    "PT": "Guia de Jacarepaguá: paisagem de lagoas, história local e grandes distâncias. Como escolher uma área e planejar o deslocamento.",
+    "EN": "Jacarepaguá guide: lagoon scenery, local history and long distances. How to choose an area and plan your trip."
+  },
+  "Vista del barrio de Jacarepaguá con colinas verdes": {
+    "PT": "Vista do bairro de Jacarepaguá com morros verdes",
+    "EN": "View of the Jacarepaguá neighborhood with green hills"
+  },
+  "Imagen de Junius / Wikimedia Commons; dedicada al dominio público.": {
+    "PT": "Imagem de Junius / Wikimedia Commons; dedicada ao domínio público.",
+    "EN": "Image by Junius / Wikimedia Commons; dedicated to the public domain."
+  },
+  "Guía de Botafogo y Urca: bahía, miradores y Pão de Açúcar. Cómo conectar los dos barrios y organizar los trayectos.": {
+    "PT": "Guia de Botafogo e Urca: baía, mirantes e Pão de Açúcar. Como conectar os dois bairros e organizar os trajetos.",
+    "EN": "Botafogo and Urca guide: bay views, lookouts and Sugarloaf. How to connect the two neighborhoods and plan your routes."
+  },
+  "Orla de Urca, barcos y montañas junto a la bahía": {
+    "PT": "Orla da Urca, barcos e montanhas junto à baía",
+    "EN": "Urca waterfront, boats and mountains beside the bay"
+  },
+  "Guía de Centro y Praça Mauá: arquitectura, museos y paseo portuario. Cómo elegir un sector y combinar la visita de día.": {
+    "PT": "Guia do Centro e da Praça Mauá: arquitetura, museus e passeio portuário. Como escolher uma área e combinar o roteiro durante o dia.",
+    "EN": "Downtown and Praça Mauá guide: architecture, museums and the port district. How to choose an area and plan a daytime visit."
+  },
+  "Praça XV en el Centro histórico de Río de Janeiro": {
+    "PT": "Praça XV no Centro histórico do Rio de Janeiro",
+    "EN": "Praça XV in historic downtown Rio de Janeiro"
+  },
+  "Guía de Flamengo y Glória: Aterro, bahía, jardines y espacios culturales. Cómo conectar las zonas y planificar el paseo.": {
+    "PT": "Guia do Flamengo e da Glória: Aterro, baía, jardins e espaços culturais. Como conectar as áreas e planejar o passeio.",
+    "EN": "Flamengo and Glória guide: Aterro, bay, gardens and cultural spaces. How to connect the areas and plan your visit."
+  },
+  "Aterro do Flamengo y Marina da Glória junto a la bahía": {
+    "PT": "Aterro do Flamengo e Marina da Glória junto à baía",
+    "EN": "Aterro do Flamengo and Marina da Glória beside the bay"
+  }
 };
