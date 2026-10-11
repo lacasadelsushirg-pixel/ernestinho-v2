@@ -1,0 +1,21 @@
+.ec-beach-list{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px!important;align-items:stretch}
+.ec-beach-card.ec-beach-card--compact{display:flex!important;flex-direction:column!important;gap:0!important;padding:0!important;overflow:hidden;border-radius:20px;border:1px solid #e1e8e6;background:#fff;box-shadow:0 8px 25px rgba(4,42,42,.09);transition:transform .2s,box-shadow .2s}
+.ec-beach-card--compact:hover{transform:translateY(-3px);box-shadow:0 14px 35px rgba(4,42,42,.14)}
+.ec-beach-card--compact .ec-beach-photo-cover{display:block;aspect-ratio:16/10;overflow:hidden;background:#dbece8}
+.ec-beach-card--compact .ec-beach-photo-cover img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .25s}
+.ec-beach-card--compact:hover .ec-beach-photo-cover img{transform:scale(1.035)}
+.ec-beach-card--compact .ec-beach-mini-content{display:flex;flex-direction:column;flex:1;gap:9px;padding:19px}
+.ec-beach-card--compact .ec-beach-tag{font:700 11px/1.4 system-ui,sans-serif;color:#06787c;letter-spacing:.06em}
+.ec-beach-card--compact h2{font:800 clamp(20px,2vw,26px)/1.2 system-ui,sans-serif;color:#082f35;margin:0}
+.ec-beach-card--compact .ec-beach-discover{display:flex;justify-content:center;align-items:center;min-height:44px;margin-top:auto;border-radius:10px;background:#087d80;color:#fff;text-decoration:none;font:800 14px/1.25 system-ui,sans-serif;padding:12px}
+.ec-beach-card--compact .ec-beach-discover:hover,.ec-beach-card--compact .ec-beach-discover:focus-visible{background:#05595e;outline-offset:3px}
+.ec-beach-media-block{width:min(100%,1050px);margin:28px auto;clear:both}
+.ec-beach-media-block h2{font:800 clamp(22px,2.6vw,29px)/1.2 system-ui,sans-serif;color:#113b40;margin:0 0 14px}
+.ec-beach-video-frame{aspect-ratio:16/9;overflow:hidden;border-radius:16px;background:#0a2026}
+.ec-beach-video-frame iframe{display:block;width:100%;height:100%;border:0}
+.ec-beach-map-frame{height:330px;overflow:hidden;border:1px solid #dbebe6;border-radius:17px;background:#dbece7}
+.ec-beach-map-frame iframe{display:block;width:100%;height:100%;border:0}
+.ec-beach-map-link{display:inline-block;margin:13px 0;color:#076a70;font:800 14px system-ui,sans-serif}
+@media(max-width:850px){.ec-beach-list{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:560px){.ec-beach-list{grid-template-columns:1fr!important;gap:18px!important}.ec-beach-card--compact .ec-beach-mini-content{padding:17px}.ec-beach-map-frame{height:290px}}
+@media(prefers-reduced-motion:reduce){.ec-beach-card--compact,.ec-beach-card--compact img{transition:none!important}}
