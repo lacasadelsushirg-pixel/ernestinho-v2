@@ -4,6 +4,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { ACTIVE_INTENTS, ALL_INTENTS, getIntentCount, getQuestionVariantCount, resolveQuestion, recommendGuideLinks, validateIntentLibrary } from "../assets/js/carioc-ia-engine.js";
 import { buildWhatsAppHref, WHATSAPP_BASE } from "../assets/js/carioc-ia-whatsapp.js";
+import { SITE_GUIDE_INDEX, searchSiteGuide } from "../assets/js/carioc-ia-site-index.js";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const legacyBeachAlias = new Map([["beaches", "beach_clarify"]]);
@@ -141,6 +142,13 @@ assert.ok(supplementaryFood.every(link => link.href.startsWith("/") && !link.hre
 assert.deepEqual(recommendGuideLinks(null, "comer"), [], "No debe recomendar enlaces sin intención.");
 assert.deepEqual(recommendGuideLinks(foodGuide, "zzzyyxx-unrelated", 3), [], "No recomendar fichas sin relación temática explícita.");
 assert.deepEqual(recommendGuideLinks(foodGuide, "desayuno barato", 0), [], "No recomendar si no hay espacio para enlaces extra.");
+assert.equal(SITE_GUIDE_INDEX.length, 505, "El índice turístico debe tener los registros de fichas reales esperados.");
+assert.equal(new Set(SITE_GUIDE_INDEX.map(record => record[0])).size, SITE_GUIDE_INDEX.length, "Rutas indexadas únicas.");
+assert.ok(SITE_GUIDE_INDEX.every(record => /^\\/[a-z0-9-]+\\/[a-z0-9-]+\\/$/.test(record[0])), "Rutas seguras del índice.");
+const siteFood = searchSiteGuide("restaurante en copacabana", "gastronomy", [], 3);
+assert.ok(siteFood.length <= 3, "Máximo tres resultados indexados.");
+assert.deepEqual(searchSiteGuide("zzzyyxx", "gastronomy"), [], "Sin coincidencia, no inventar restaurantes.");
+assert.deepEqual(searchSiteGuide("copacabana", "commercial"), [], "No usar fichas para cotizaciones.");
 const bareWhatsApp = new URL(buildWhatsAppHref({ language: "EN", baseMessage: "Hello" }));
 assert.equal(bareWhatsApp.searchParams.get("text"), "Hello", "WhatsApp debe estar disponible sin pedir datos opcionales.");
 assert.equal(resolveQuestion("precio hoy en el centro para un tour").intent, null, "Palabras frecuentes no deben forzar una respuesta comercial.");
