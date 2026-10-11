@@ -299,26 +299,35 @@ function resolveEverydayFollowup(query, context) {
   if (!topic) return null;
   const zone = getEverydayLocation(query);
   const airport = /^(?:gig|galeao|sdu|santos dumont)$/.test(query) && context.pending === "airport";
-  const budget = /^(?:barato|economico|low cost|cheap|budget|mais barato|o mais barato|lo mas barato|the cheapest)$/.test(query);
+  const budget = /\b(?:barato|economico|economica|cheap|budget|mais barato|lo mas barato|low cost|the cheapest)\b/.test(query);
   const comfort = /^(?:comodo|comodidad|comfort|comfortable|conforto|sem caminhar|sin caminar mucho)$/.test(query);
   const openNow = /^(?:abierto ahora|algo abierto ahora|que este abierto|esta abierto|aberto agora|aberto nesse momento|open now|anything open now|still open)$/.test(query);
   const foodPreference = topic.category === "gastronomy" && /^(?:brasilena|comida brasilena|brasileira|brazilian|carnes|carne|seafood|mariscos|frutos do mar|vegetariano|vegetariana|vegetarian|vegano|vegan|pizza|sushi|cafe|cafeteria|padaria)$/.test(query);
-  if (!zone && !airport && !budget && !comfort && !openNow && !foodPreference) return null;
-  if (topic.id === "quick_luggage" && zone) {
-    const name = EC_NEIGHBORHOODS[zone] || zone;
+  const mixedZone = !zone && topic.category === "gastronomy"
+    ? Object.keys(EC_NEIGHBORHOODS).sort((a,b) => b.length - a.length).find(x => phraseMatches(query,x)) : null;
+  const selectedZone = zone || mixedZone;
+  const luggageHour = topic.id === "quick_luggage" && context.pending === "luggage_time"
+    ? query.match(/(?:hasta|ate|até|until|as|las|at)?\s*(\d{1,2})(?::(\d{2}))?\s*(?:h|hrs|horas|hours)?$/) : null;
+  if (!selectedZone && !airport && !budget && !comfort && !openNow && !foodPreference && !luggageHour) return null;
+  if (topic.id === "quick_luggage" && (selectedZone || luggageHour)) {
+    const area = selectedZone || context.location;
+    const name = area ? (EC_NEIGHBORHOODS[area] || area) : null;
+    const hours = luggageHour ? Number(luggageHour[1]) : null;
+    const time = hours !== null && hours <= 23 && hours >= 0 ? String(hours).padStart(2,"0") + ":" + (luggageHour[2] || "00") : null;
     const intent = { ...topic, id: "quick_luggage_followup",
       answer: ecT(
-        "Entendido, buscas guardar maletas en " + name + ". ¿Hasta qué hora las necesitas dejar? Consulta las condiciones y horarios de una consigna antes de ir; no puedo garantizar una plaza.",
-        "Entendi, você precisa guardar malas em " + name + ". Até que horas precisa deixá-las? Confira as condições e o horário do guarda-volumes antes de ir; não posso garantir disponibilidade.",
-        "Got it, you need luggage storage in " + name + ". Until what time do you need it? Check the storage provider's conditions and hours before going; I can't guarantee availability."
+        (name ? "Buscas guardar maletas en " + name + ". " : "") + (time ? "Retiro previsto: " + time + ". " : "¿Hasta qué hora? ") + "Confirma horario, precio y disponibilidad con la consigna.",
+        (name ? "Você procura guarda-volumes em " + name + ". " : "") + (time ? "Retirada prevista: " + time + ". " : "Até que horas? ") + "Confirme funcionamento, preço e disponibilidade com o serviço.",
+        (name ? "You're looking for luggage storage in " + name + ". " : "") + (time ? "Expected pickup: " + time + ". " : "Until what time? ") + "Confirm hours, pricing and availability with the provider."
       ) };
-    return { intent, candidates: [], contextUpdate: { ...context, location: zone, pending: null, lastEverydayId: null } };
+    return { intent, candidates: [topic], contextUpdate: { ...context, location: area,
+      pending: time ? null : "luggage_time", lastEverydayId: time ? null : "quick_luggage" } };
   }
-  const location = zone || context.location;
+  const location = selectedZone || context.location;
   const pref = budget ? "budget" : comfort ? "comfort" : context.preference || null;
   let intent;
-  if (zone) {
-    intent = everydayContextAnswer(topic, { ...context, preference: pref }, zone);
+  if (selectedZone) {
+    intent = everydayContextAnswer(topic, { ...context, preference: pref }, selectedZone);
   } else if (airport) {
     const label = query.toUpperCase();
     intent = { ...topic, id: topic.id + "_followup", answer: ecT(
@@ -349,7 +358,7 @@ function resolveEverydayFollowup(query, context) {
   }
   return { intent, candidates: [topic], contextUpdate: {
     pending: context.pending, category: topic.category, lastEverydayId: topic.id,
-    ...(zone ? { location: zone } : {}), ...(budget || comfort ? { preference: pref } : {})
+    ...(selectedZone ? { location: selectedZone } : {}), ...(budget || comfort ? { preference: pref } : {})
   }};
 }
 
