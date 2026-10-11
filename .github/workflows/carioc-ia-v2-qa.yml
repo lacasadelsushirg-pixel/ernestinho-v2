@@ -39,7 +39,7 @@ jobs:
       - name: Existing Carioc-IA tests
         run: npm run test:cariocia
       - name: V2 scenario diagnostics (non-blocking editorial coverage)
-        run: npm run audit:cariocia:v2
+        run: npm run audit:cariocia:v2:strict
       - name: Upload diagnostic report
         if: always()
         uses: actions/upload-artifact@v4

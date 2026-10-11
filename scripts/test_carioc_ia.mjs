@@ -152,6 +152,19 @@ const siteFood = searchSiteGuide("restaurante en copacabana", "gastronomy", [], 
 assert.ok(siteFood.length <= 3, "Máximo tres resultados indexados.");
 assert.deepEqual(searchSiteGuide("zzzyyxx", "gastronomy"), [], "Sin coincidencia, no inventar restaurantes.");
 assert.deepEqual(searchSiteGuide("copacabana", "commercial"), [], "No usar fichas para cotizaciones.");
+const reviewedAliasSamples = [
+  ["¿Hay paseos culturales para mañana?", "experiences"],
+  ["Un departamento para cinco personas", "stay"],
+  ["Necesito consigna después del check-out", "quick_luggage"],
+  ["I need a private pickup at Galeão", "daily_transfer"],
+  ["We need stroller-friendly activities", "family"],
+  ["Como uso o VLT no Centro?", "daily_brt_vlt"],
+  ["I want Brazilian food without seafood", "daily_food_restrictions"],
+  ["What is there to do near me right now?", "today"]
+];
+for (const [question, expected] of reviewedAliasSamples) {
+  assert.equal(resolveQuestion(question).intent?.id, expected, "V2 reviewed variant: " + question);
+}
 const bareWhatsApp = new URL(buildWhatsAppHref({ language: "EN", baseMessage: "Hello" }));
 assert.equal(bareWhatsApp.searchParams.get("text"), "Hello", "WhatsApp debe estar disponible sin pedir datos opcionales.");
 assert.equal(resolveQuestion("precio hoy en el centro para un tour").intent, null, "Palabras frecuentes no deben forzar una respuesta comercial.");

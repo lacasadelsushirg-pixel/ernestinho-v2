@@ -175,6 +175,210 @@ const WELCOME_CHIP_IDS = {
   "quero reservar": "booking",
   "i want to book": "booking"
 };
+// Reviewed exact question variants from the V2 diagnostic. These route to existing
+// authored answers; they never claim live prices, bookings or availability.
+const V2_EXACT_QUESTION_ALIASES = new Map([
+  [
+    "hay paseos culturales para manana",
+    "experiences"
+  ],
+  [
+    "are there cultural tours tomorrow",
+    "experiences"
+  ],
+  [
+    "i want to see available tours",
+    "experiences"
+  ],
+  [
+    "quero fazer parapente como reservo",
+    "experiences"
+  ],
+  [
+    "cuanto sale visitar el cristo con guia",
+    "christ_booking"
+  ],
+  [
+    "quanto custa visitar o cristo com guia",
+    "christ_booking"
+  ],
+  [
+    "how much is a guided christ the redeemer tour",
+    "christ_booking"
+  ],
+  [
+    "un departamento para cinco personas",
+    "stay"
+  ],
+  [
+    "tienen disponibilidad para febrero",
+    "stay"
+  ],
+  [
+    "um apartamento para cinco pessoas",
+    "stay"
+  ],
+  [
+    "which area is best for a first time visitor",
+    "stay"
+  ],
+  [
+    "an apartment for five people",
+    "stay"
+  ],
+  [
+    "do you have vacancies in february",
+    "stay"
+  ],
+  [
+    "tengo que dejar las valijas cerca de posto 4",
+    "quick_luggage"
+  ],
+  [
+    "necesito consigna despues del check out",
+    "quick_luggage"
+  ],
+  [
+    "preciso deixar as malas perto do posto 4",
+    "quick_luggage"
+  ],
+  [
+    "i need bag storage near posto 4",
+    "quick_luggage"
+  ],
+  [
+    "where can i keep my bags until tonight",
+    "quick_luggage"
+  ],
+  [
+    "necesito un traslado desde galeao",
+    "daily_transfer"
+  ],
+  [
+    "busco auto con conductor para seis",
+    "daily_transfer"
+  ],
+  [
+    "llegamos de madrugada con muchas maletas",
+    "daily_transfer"
+  ],
+  [
+    "preciso de transfer saindo do galeao",
+    "daily_transfer"
+  ],
+  [
+    "procuro carro com motorista para seis",
+    "daily_transfer"
+  ],
+  [
+    "chegamos de madrugada com muitas malas",
+    "daily_transfer"
+  ],
+  [
+    "i need a private pickup at galeao",
+    "daily_transfer"
+  ],
+  [
+    "i need a driver for six people",
+    "daily_transfer"
+  ],
+  [
+    "we arrive very late with lots of luggage",
+    "daily_transfer"
+  ],
+  [
+    "llueve y tengo un nino pequeno",
+    "family"
+  ],
+  [
+    "quiero planes para adolescentes",
+    "family"
+  ],
+  [
+    "esta chovendo e tenho uma crianca pequena",
+    "family"
+  ],
+  [
+    "quero programas para adolescentes",
+    "family"
+  ],
+  [
+    "what can we do with kids in rio",
+    "family"
+  ],
+  [
+    "any ideas for teenagers",
+    "family"
+  ],
+  [
+    "we need stroller friendly activities",
+    "family"
+  ],
+  [
+    "como uso el vlt desde el centro",
+    "daily_brt_vlt"
+  ],
+  [
+    "como uso o vlt no centro",
+    "daily_brt_vlt"
+  ],
+  [
+    "how do i use the vlt downtown",
+    "daily_brt_vlt"
+  ],
+  [
+    "hay algo para cenar cerca del posto 6",
+    "daily_food"
+  ],
+  [
+    "onde jantar perto do posto 6",
+    "daily_food"
+  ],
+  [
+    "i need an inexpensive restaurant",
+    "daily_food"
+  ],
+  [
+    "i want brazilian food without seafood",
+    "daily_food_restrictions"
+  ],
+  [
+    "busco algo gratis esta tarde",
+    "today"
+  ],
+  [
+    "que puedo hacer cerca de mi ahora",
+    "today"
+  ],
+  [
+    "quero fazer algo gratis hoje a tarde",
+    "today"
+  ],
+  [
+    "o que fazer perto de mim agora",
+    "today"
+  ],
+  [
+    "what should i do in rio today",
+    "today"
+  ],
+  [
+    "any free activities this afternoon",
+    "today"
+  ],
+  [
+    "what can i do in lapa tonight",
+    "today"
+  ],
+  [
+    "what is there to do near me right now",
+    "today"
+  ],
+  [
+    "esta chovendo o que visitar",
+    "daily_rain"
+  ]
+]);
 const MENU_PHRASES = ["volver al menu", "volver al inicio", "cambiar de tema", "reiniciar conversacion", "empezar de nuevo", "start over", "back to menu", "change topic", "voltar ao menu", "mudar de assunto", "comecar de novo"];
 
 export function normalizeQuestion(value) {
@@ -385,6 +589,15 @@ export function resolveQuestion(question, context = {}) {
       contextUpdate: { pending: intent?.pending || (welcomeIntent === "beach_clarify" ? "beach_style" : null),
         category: intent?.category || null,
         lastEverydayId: EVERYDAY_INTENTS.some(item => item.id === welcomeIntent) ? welcomeIntent : null } };
+  }
+
+  const reviewedAlias = V2_EXACT_QUESTION_ALIASES.get(query);
+  if (reviewedAlias) {
+    const intent = ACTIVE_INTENTS.find(candidate => candidate.id === reviewedAlias) || null;
+    if (intent) return { intent, candidates: [intent], contextUpdate: {
+      pending: intent.pending || null, category: intent.category,
+      lastEverydayId: EVERYDAY_INTENTS.some(item => item.id === intent.id) ? intent.id : null
+    } };
   }
 
   const contextual = getContextualMatch(query, context);
