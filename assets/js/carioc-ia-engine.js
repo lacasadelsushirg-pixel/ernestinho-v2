@@ -191,36 +191,103 @@ function getContextualMatch(query, context) {
 }
 
 
+const EC_NEIGHBORHOODS = {
+  copacabana: "Copacabana", ipanema: "Ipanema", leblon: "Leblon", leme: "Leme", botafogo: "Botafogo",
+  flamengo: "Flamengo", urca: "Urca", centro: "Centro", lapa: "Lapa", "barra da tijuca": "Barra da Tijuca",
+  barra: "Barra da Tijuca", recreio: "Recreio", "santa teresa": "Santa Teresa", tijuca: "Tijuca",
+  gloria: "Glória", catete: "Catete", humaita: "Humaitá", gavea: "Gávea",
+  "jardim botanico": "Jardim Botânico", arpoador: "Arpoador"
+};
+const EC_ZONE_PAGE = {
+  copacabana: "/barrios/copacabana/", ipanema: "/barrios/ipanema/", leblon: "/barrios/leblon/",
+  leme: "/barrios/leme/", botafogo: "/barrios/botafogo/", flamengo: "/barrios/flamengo/",
+  urca: "/barrios/urca/", centro: "/barrios/centro/", lapa: "/barrios/lapa/",
+  "barra da tijuca": "/barrios/barra-da-tijuca/", "santa teresa": "/barrios/santa-teresa/"
+};
+const EC_AREA = /(copacabana|ipanema|leblon|leme|botafogo|flamengo|urca|centro|lapa|barra da tijuca|barra|recreio|santa teresa|tijuca|gloria|catete|humaita|gavea|jardim botanico|arpoador)/;
+function getEverydayLocation(query) {
+  const trimmed = query.replace(/^(?:(?:estoy|estamos|me encuentro|estou|ficamos|i am|im|we are|near|perto de|cerca de|en|em|in|at)\s+){0,2}/, "");
+  const match = trimmed.match(new RegExp("^" + EC_AREA.source + "$"));
+  return match?.[1] || null;
+}
+function everydayContextAnswer(topic, context, location, extra = "") {
+  const name = EC_NEIGHBORHOODS[location] || location;
+  const isFood = topic.category === "gastronomy";
+  const isShopping = topic.category === "shopping";
+  const isNight = topic.category === "nightlife";
+  const isTransportation = topic.category === "transport";
+  const isExperience = topic.category === "experiences";
+  const type = isFood ? ecT("restaurantes", "restaurantes", "restaurants")
+    : isShopping ? ecT("compras y servicios", "compras e serviços", "shops and services")
+    : isNight ? ecT("vida nocturna", "vida noturna", "nightlife")
+    : isTransportation ? ecT("transporte", "transporte", "transport")
+    : isExperience ? ecT("experiencias", "experiências", "experiences")
+    : ecT("actividades", "atividades", "activities");
+  const priority = context?.preference || extra;
+  const detail = priority === "budget"
+    ? ecT(" Tendremos en cuenta el presupuesto, sin asegurar tarifas no verificadas.", " Vamos considerar o orçamento, sem garantir preços não verificados.", " We'll keep budget in mind without guessing current prices.")
+    : priority === "comfort" ? ecT(" Priorizaremos comodidad y menos traslados.", " Vamos priorizar conforto e menos deslocamentos.", " We'll prioritize comfort and fewer transfers.")
+    : "";
+  const answer = ecT(
+    "¡Perfecto! Para " + name + " podemos empezar por nuestra guía de " + type.ES + "." + detail.ES + " ¿Qué tipo de " + (isFood ? "comida" : isShopping ? "producto o servicio" : isNight ? "ambiente" : "plan") + " buscas? No puedo afirmar qué negocio es el más cercano ni qué está abierto sin consultar datos actuales.",
+    "Perfeito! Para " + name + ", podemos começar pelo nosso guia de " + type.PT + "." + detail.PT + " Qual tipo de " + (isFood ? "comida" : isShopping ? "produto ou serviço" : isNight ? "ambiente" : "programa") + " procura? Não posso afirmar qual estabelecimento está mais perto ou aberto sem dados atualizados.",
+    "Great! For " + name + ", let's start with our guide to " + type.EN + "." + detail.EN + " What kind of " + (isFood ? "food" : isShopping ? "product or service" : isNight ? "night out" : "activity") + " would you prefer? I can't confirm the nearest business or current opening hours without live information."
+  );
+  const links = [...topic.links];
+  const neighborhoodLink = EC_ZONE_PAGE[location];
+  if (neighborhoodLink && !links.some(x => x.href === neighborhoodLink)) {
+    links.push(ecL(neighborhoodLink, "Guía de " + name, "Guia de " + name, name + " guide"));
+  }
+  return { ...topic, id: topic.id + "_followup", answer, links };
+}
 function resolveEverydayFollowup(query, context) {
   if (!context?.pending || !context?.lastEverydayId) return null;
-  const zone = query.match(/^(?:(?:estoy|estamos|me encuentro|estou|ficamos|i am|im|we are|near|perto de|cerca de|en|em|in|at)\s+){0,2}(copacabana|ipanema|leblon|leme|botafogo|flamengo|urca|centro|lapa|barra(?: da tijuca)?|recreio|santa teresa|tijuca|gloria|catete|humaita|gavea|jardim botanico|arpoador|posto\s*[1-6])$/);
-  const airport = query.match(/^(?:gig|galeao|sdu|santos dumont)$/);
-  const budget = /^(?:barato|economico|econ[oô]mico|low cost|cheap|budget|mais barato|o mais barato|lo mas barato|the cheapest)$/.test(query);
-  const comfort = /^(?:comodo|comodidad|comfort|comfortable|conforto|sem caminhar|sin caminar mucho)$/.test(query);
-  const openNow = /^(?:abierto ahora|algo abierto ahora|que este abierto|esta abierto|aberto agora|aberto nesse momento|open now|anything open now|still open)$/.test(query);
-  if (!zone && !(airport && context.pending === "airport") && !budget && !comfort && !openNow) return null;
   const topic = EVERYDAY_INTENTS.find(x => x.id === context.lastEverydayId);
   if (!topic) return null;
-  const label = zone?.[1] || (airport ? airport[0].toUpperCase() : "");
-  const where = zone ? ecT(
-    "Perfecto, tomo " + label + " como referencia. No tengo acceso a tu GPS ni a horarios en vivo; revisa las opciones de la guía y verifica dirección y apertura antes de salir.",
-    "Perfeito, vou considerar " + label + " como referência. Não tenho acesso ao GPS nem a horários ao vivo; confira endereço e funcionamento antes de sair.",
-    "Got it, I'll use " + label + " as your reference. I don't have GPS or live hours; check the address and opening times before heading out."
-  ) : airport ? ecT(
-    "Perfecto, llegaste a " + label + ". ¿A qué barrio vas y llevas muchas maletas?",
-    "Perfeito, você chegou ao " + label + ". Para qual bairro vai e está com muitas malas?",
-    "Got it, you arrived at " + label + ". Which neighborhood are you heading to, and do you have a lot of luggage?"
-  ) : openNow ? ecT(
-    "Entendido: buscas algo abierto ahora. No tengo horarios en vivo; confirma la apertura del establecimiento en su canal oficial antes de ir. ¿Tienes una calle o punto de referencia?",
-    "Entendi: você quer um lugar aberto agora. Não tenho horários ao vivo; confirme o funcionamento no canal oficial antes de ir. Tem uma rua ou ponto de referência?",
-    "Got it: you need somewhere open now. I don\u0027t have live opening hours; verify with the business before going. Do you have a nearby street or landmark?"
-  ) : ecT(
-    "Perfecto, priorizamos " + (budget ? "opciones económicas" : "comodidad") + ". ¿En qué barrio estás o desde dónde sales? Los precios y la disponibilidad necesitan confirmación.",
-    "Perfeito, vamos priorizar " + (budget ? "opções econômicas" : "conforto") + ". Em qual bairro está ou de onde sai? Preços e disponibilidade precisam de confirmação.",
-    "Got it, let's prioritize " + (budget ? "budget-friendly options" : "comfort") + ". Which neighborhood or starting point? Prices and availability must be confirmed."
-  );
-  return { intent: { ...topic, id: topic.id + "_followup", answer: where }, candidates: [topic],
-    contextUpdate: { pending: context.pending, category: topic.category, lastEverydayId: topic.id, ...(zone ? { location: label } : {}) } };
+  const zone = getEverydayLocation(query);
+  const airport = /^(?:gig|galeao|sdu|santos dumont)$/.test(query) && context.pending === "airport";
+  const budget = /^(?:barato|economico|low cost|cheap|budget|mais barato|o mais barato|lo mas barato|the cheapest)$/.test(query);
+  const comfort = /^(?:comodo|comodidad|comfort|comfortable|conforto|sem caminhar|sin caminar mucho)$/.test(query);
+  const openNow = /^(?:abierto ahora|algo abierto ahora|que este abierto|esta abierto|aberto agora|aberto nesse momento|open now|anything open now|still open)$/.test(query);
+  const foodPreference = topic.category === "gastronomy" && /^(?:brasilena|comida brasilena|brasileira|brazilian|carnes|carne|seafood|mariscos|frutos do mar|vegetariano|vegetariana|vegetarian|vegano|vegan|pizza|sushi|cafe|cafeteria|padaria)$/.test(query);
+  if (!zone && !airport && !budget && !comfort && !openNow && !foodPreference) return null;
+  const location = zone || context.location;
+  const pref = budget ? "budget" : comfort ? "comfort" : context.preference || null;
+  let intent;
+  if (zone) {
+    intent = everydayContextAnswer(topic, { ...context, preference: pref }, zone);
+  } else if (airport) {
+    const label = query.toUpperCase();
+    intent = { ...topic, id: topic.id + "_followup", answer: ecT(
+      "Perfecto, llegaste a " + label + ". ¿A qué barrio vas y llevas muchas maletas?",
+      "Perfeito, você chegou ao " + label + ". Para qual bairro vai e está com muitas malas?",
+      "Got it, you arrived at " + label + ". Which neighborhood are you heading to, and do you have much luggage?"
+    ) };
+  } else if (openNow) {
+    intent = { ...topic, id: topic.id + "_followup", answer: ecT(
+      "Entendido: quieres algo abierto ahora" + (location ? " en " + (EC_NEIGHBORHOODS[location] || location) : "") + ". No tengo horarios en vivo; confirma apertura y ubicación con el establecimiento antes de salir.",
+      "Entendi: você procura algo aberto agora" + (location ? " em " + (EC_NEIGHBORHOODS[location] || location) : "") + ". Não tenho horários ao vivo; confirme endereço e funcionamento com o local.",
+      "Got it: you need somewhere open now" + (location ? " in " + (EC_NEIGHBORHOODS[location] || location) : "") + ". I don't have live opening hours; verify the address and availability before visiting."
+    ) };
+  } else if (foodPreference) {
+    intent = { ...topic, id: topic.id + "_followup", answer: ecT(
+      "¡Excelente! Busquemos " + query + (location ? " en " + EC_NEIGHBORHOODS[location] : "") + ". La guía gastronómica es el punto de partida; confirma menú, dirección y horario con cada local.",
+      "Ótimo! Vamos procurar " + query + (location ? " em " + EC_NEIGHBORHOODS[location] : "") + ". Comece pelo guia e confirme cardápio, endereço e horário com o local.",
+      "Great! Let's look for " + query + (location ? " in " + EC_NEIGHBORHOODS[location] : "") + ". Start with the food guide and verify menu, address and hours."
+    ) };
+  } else if (location) {
+    intent = everydayContextAnswer(topic, { ...context, preference: pref }, location);
+  } else {
+    intent = { ...topic, id: topic.id + "_followup", answer: ecT(
+      "Perfecto, priorizamos " + (budget ? "opciones económicas" : "comodidad") + ". ¿En qué barrio estás? Los precios y la disponibilidad requieren confirmación.",
+      "Perfeito, vamos priorizar " + (budget ? "opções econômicas" : "conforto") + ". Em qual bairro está? Preços e disponibilidade precisam de confirmação.",
+      "Got it, let's prioritize " + (budget ? "budget-friendly options" : "comfort") + ". Which neighborhood are you in? Prices and availability need confirmation."
+    ) };
+  }
+  return { intent, candidates: [topic], contextUpdate: {
+    pending: context.pending, category: topic.category, lastEverydayId: topic.id,
+    ...(zone ? { location: zone } : {}), ...(budget || comfort ? { preference: pref } : {})
+  }};
 }
 
 function ambiguousEntity(query) {
