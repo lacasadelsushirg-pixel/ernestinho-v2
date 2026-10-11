@@ -123,6 +123,27 @@ const EVERYDAY_INTENTS = [
 export const ALL_INTENTS = [...LEGACY_INTENTS, ...CURATED_INTENTS, ...EVERYDAY_INTENTS];
 export const ACTIVE_INTENTS = ALL_INTENTS.filter(intent => intent.status !== "pending");
 const MIN_SCORE = 7.5;
+// The welcome chips must always resolve to a useful, authored intent in all three languages.
+const WELCOME_CHIP_IDS = {
+  "que hacer en rio en 3 dias": "first_visit",
+  "o que fazer no rio em 3 dias": "first_visit",
+  "what should i do in rio in 3 days": "first_visit",
+  "que playas me recomiendas": "beach_clarify",
+  "quais praias voce recomenda": "beach_clarify",
+  "which beaches do you recommend": "beach_clarify",
+  "como me muevo por rio": "transport",
+  "como me locomover pelo rio": "transport",
+  "how do i get around rio": "transport",
+  "viajo con ninos": "family",
+  "viajo com criancas": "experience_family",
+  "i m traveling with kids": "experience_family",
+  "que experiencia me recomiendas": "experiences",
+  "qual experiencia voce recomenda": "experiences",
+  "which experience do you recommend": "experiences",
+  "quiero reservar": "booking",
+  "quero reservar": "booking",
+  "i want to book": "booking"
+};
 const MENU_PHRASES = ["volver al menu", "volver al inicio", "cambiar de tema", "reiniciar conversacion", "empezar de nuevo", "start over", "back to menu", "change topic", "voltar ao menu", "mudar de assunto", "comecar de novo"];
 
 export function normalizeQuestion(value) {
@@ -306,6 +327,13 @@ export function resolveQuestion(question, context = {}) {
   if (!query) return { intent: null, candidates: [], clarification: null, suggestions: [] };
 
   if (isMenuRequest(query)) return { intent: ACTIVE_INTENTS.find(intent => intent.id === "menu"), candidates: [], contextUpdate: { pending: null, category: null, booking: null } };
+
+  const welcomeIntent = WELCOME_CHIP_IDS[query];
+  if (welcomeIntent) {
+    return { intent: ACTIVE_INTENTS.find(intent => intent.id === welcomeIntent) || null,
+      candidates: [], contextUpdate: { pending: welcomeIntent === "beach_clarify" ? "beach_style" : null,
+        category: null, lastEverydayId: null } };
+  }
 
   const contextual = getContextualMatch(query, context);
   if (contextual?.intent) return { ...contextual, candidates: [] };
