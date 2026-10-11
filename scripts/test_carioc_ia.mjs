@@ -139,6 +139,8 @@ assert.ok(supplementaryFood.length <= 3, "Las recomendaciones complementarias ti
 assert.equal(new Set(supplementaryFood.map(link => link.href)).size, supplementaryFood.length, "No debe repetir páginas.");
 assert.ok(supplementaryFood.every(link => link.href.startsWith("/") && !link.href.startsWith("//")), "Solo rutas internas revisables.");
 assert.deepEqual(recommendGuideLinks(null, "comer"), [], "No debe recomendar enlaces sin intención.");
+assert.deepEqual(recommendGuideLinks(foodGuide, "zzzyyxx-unrelated", 3), [], "No recomendar fichas sin relación temática explícita.");
+assert.deepEqual(recommendGuideLinks(foodGuide, "desayuno barato", 0), [], "No recomendar si no hay espacio para enlaces extra.");
 const bareWhatsApp = new URL(buildWhatsAppHref({ language: "EN", baseMessage: "Hello" }));
 assert.equal(bareWhatsApp.searchParams.get("text"), "Hello", "WhatsApp debe estar disponible sin pedir datos opcionales.");
 assert.equal(resolveQuestion("precio hoy en el centro para un tour").intent, null, "Palabras frecuentes no deben forzar una respuesta comercial.");

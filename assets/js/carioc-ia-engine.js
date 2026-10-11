@@ -441,7 +441,7 @@ export function recommendGuideLinks(intent, question = "", limit = 3) {
       const overlaps = tokens.filter(word => word.length >= 4 && tokenSet.has(word)).length;
       return Math.max(best, phraseMatches(query, normalized) ? 20 + tokens.length : overlaps);
     }, 0);
-    if (!relevance && !["gastronomy", "beaches", "family", "lodging", "transport", "experiences"].includes(category)) continue;
+    if (!relevance) continue; // Never suggest a guide solely because it shares a category.
     for (const link of candidate.links || []) {
       if (!/^\/(?!\/)[a-z0-9/_-]+\/?$/i.test(link.href) || chosen.has(link.href)) continue;
       scored.push({ link, score: relevance + (candidate.priority || 0) / 100, id: candidate.id });
