@@ -6,6 +6,7 @@ on:
     paths:
       - 'assets/js/carioc-ia*.js'
       - 'scripts/test_carioc_ia.mjs'
+      - 'assets/js/carioc-ia-site-index.js'
       - 'scripts/audit_carioc_ia_v2_120.mjs'
       - 'docs/CARIOC_IA_V2_120_QUESTIONS.csv'
       - 'package.json'

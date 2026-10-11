@@ -142,6 +142,9 @@ assert.ok(supplementaryFood.every(link => link.href.startsWith("/") && !link.hre
 assert.deepEqual(recommendGuideLinks(null, "comer"), [], "No debe recomendar enlaces sin intención.");
 assert.deepEqual(recommendGuideLinks(foodGuide, "zzzyyxx-unrelated", 3), [], "No recomendar fichas sin relación temática explícita.");
 assert.deepEqual(recommendGuideLinks(foodGuide, "desayuno barato", 0), [], "No recomendar si no hay espacio para enlaces extra.");
+const expectedIndexedCategories = {"barrios":36,"cultura":130,"experiencias":25,"familia":24,"gastronomia":188,"hospedaje":14,"playas":27,"transportes":12,"vida-nocturna":49};
+const actualIndexedCategories = Object.fromEntries(Object.keys(expectedIndexedCategories).map(category => [category, SITE_GUIDE_INDEX.filter(record => record[1] === category).length]));
+assert.deepEqual(actualIndexedCategories, expectedIndexedCategories, "Recuento por categoría del índice turístico.");
 assert.equal(SITE_GUIDE_INDEX.length, 505, "El índice turístico debe tener los registros de fichas reales esperados.");
 assert.equal(new Set(SITE_GUIDE_INDEX.map(record => record[0])).size, SITE_GUIDE_INDEX.length, "Rutas indexadas únicas.");
 assert.ok(SITE_GUIDE_INDEX.every(record => record[0].startsWith("/") && record[0].endsWith("/") && !record[0].includes("//")), "Rutas seguras del índice.");

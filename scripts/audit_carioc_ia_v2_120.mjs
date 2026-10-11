@@ -5,23 +5,38 @@ import { resolveQuestion } from "../assets/js/carioc-ia-engine.js";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const input = readFileSync(path.join(root, "docs/CARIOC_IA_V2_120_QUESTIONS.csv"), "utf8");
 const rows = input.trim().split(/\r?\n/).slice(1).map(line => {
-  const matches = [...line.matchAll(/"(?:[^"]|"")*"(?:,|$)/g)].map(x => x[0].replace(/,$/,"").slice(1,-1).replace(/""/g,'"'));
-  if (matches.length!==4) throw new Error("Invalid fixture row: "+line);
-  return {id:matches[0],category:matches[1],language:matches[2],question:matches[3]};
+  const values = [];
+  const pattern = /"((?:[^"]|"")*)"(?:,|$)/g;
+  let match;
+  while ((match = pattern.exec(line))) values.push(match[1].replace(/""/g, '"'));
+  if (values.length !== 4) throw new Error("Invalid fixture row: " + line);
+  return { id: values[0], category: values[1], language: values[2], question: values[3] };
 });
-if(rows.length!==120)throw new Error("Expected 120 scenarios, got "+rows.length);
-const diagnostics = rows.map(row=>{
+if (rows.length !== 120) throw new Error("Expected 120 scenarios, got " + rows.length);
+if (new Set(rows.map(row => row.id)).size !== 120) throw new Error("Duplicate scenario IDs");
+const expectedLanguages = ["ES", "PT", "EN"];
+const counts = Object.fromEntries(expectedLanguages.map(lang => [lang, 0]));
+for (const row of rows) {
+  if (!expectedLanguages.includes(row.language)) throw new Error("Unsupported language: " + row.language);
+  counts[row.language]++;
+}
+if (expectedLanguages.some(lang => counts[lang] !== 40)) throw new Error("Expected 40 scenarios per language");
+const diagnostics = rows.map(row => {
   try {
-    const result=resolveQuestion(row.question);
-    const valid=!!(result.intent||result.clarification);
-    return {...row,resolved:valid,intent:result.intent?.id||null,needs_review:!valid};
-  } catch(error) {
-    return {...row,resolved:false,intent:null,needs_review:true,error:String(error)};
+    const result = resolveQuestion(row.question);
+    const recognized = Boolean(result.intent || result.clarification);
+    return {...row, recognized, intent:result.intent?.id ?? null,
+      clarification: Boolean(result.clarification), needs_review:!recognized };
+  } catch (error) {
+    return {...row, recognized:false, intent:null, needs_review:true, error:String(error)};
   }
 });
-const unresolved=diagnostics.filter(x=>!x.resolved);
-const report={count:rows.length,resolved:rows.length-unresolved.length,unresolved:unresolved.length,cases:diagnostics};
-writeFileSync(path.join(root,"CARIOC_IA_V2_DIAGNOSTIC.json"),JSON.stringify(report,null,2)+"\n");
-console.log("Carioc-IA V2: "+report.resolved+"/"+report.count+" recognized; "+report.unresolved+" require editorial or engine review.");
-if(unresolved.length)console.log(unresolved.map(x=>x.id+" ["+x.language+"]: "+x.question).join("\n"));
-if(process.argv.includes("--strict")&&unresolved.length)process.exitCode=1;
+const unresolved = diagnostics.filter(row => !row.recognized);
+const report = {count:rows.length, recognized:rows.length-unresolved.length,
+  unresolved:unresolved.length, countsByLanguage:counts,
+  notice:"Recognition is not proof of answer accuracy; editorial and browser QA remain required.",
+  cases:diagnostics};
+writeFileSync(path.join(root, "CARIOC_IA_V2_DIAGNOSTIC.json"), JSON.stringify(report,null,2)+"\n");
+console.log("Carioc-IA V2: " + report.recognized + "/" + report.count + " recognized; " + report.unresolved + " need review.");
+if (unresolved.length) console.log(unresolved.map(row => row.id + " [" + row.language + "]: " + row.question).join("\n"));
+if (process.argv.includes("--strict") && unresolved.length) process.exitCode=1;
