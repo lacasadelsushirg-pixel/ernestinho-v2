@@ -200,5 +200,105 @@ export const BARRIO_CHAPTERS = {
       ["Atlantic Forest within the city", "The neighborhood sits on the slope of the Tijuca massif, where gardens, forest, and residential streets meet. Stay on authorized paths and do not feed wildlife. Trail conditions can change after rain, so check notices before walking beyond the urban areas."],
       ["A well-planned green morning", "I would arrive early, give the garden the main part of the day, and then decide whether there is time for Parque Lage or a nearby meal. Bring water and comfortable shoes; terrain and shade vary. For your exit, check transport from the gate you will actually use."]
     ]
+  },
+  "santa-teresa": {
+    ES: [
+      ["Las cuestas son parte del recorrido", "Santa Teresa se construye entre laderas, calles curvas y miradores; una distancia corta puede incluir una subida exigente. Decide cuánto quieres caminar y dónde parar. Con lluvia, el adoquín puede ser resbaladizo: usa calzado firme y comprueba el transporte antes de depender del Bondinho."],
+      ["El Bondinho conecta y también es patrimonio", "El tranvía forma parte de la identidad del barrio y sus servicios pueden cambiar por mantenimiento u operación. Confirma recorrido, horarios, filas y reglas en el canal oficial el día de la visita. No cuentes con él como única alternativa: define un plan de regreso por transporte de superficie."],
+      ["Miradores, talleres y casas culturales", "Santa Teresa se disfruta sin correr entre puntos. Escoge un mirador o una visita cultural, y deja espacio para caminar por el entorno. Horarios, entradas y apertura de espacios pequeños varían; comprueba cada lugar antes de subir, especialmente si el grupo tiene movilidad reducida."],
+      ["De día arriba, de noche con dirección", "El barrio cambia de ritmo al anochecer. Para cenar o escuchar música, elige un establecimiento, guarda su dirección y acuerda cómo volver antes de salir. No improvises un descenso a pie por calles desconocidas: pendientes, iluminación y actividad cambian de una ruta a otra."]
+    ],
+    PT: [
+      ["As ladeiras fazem parte do passeio", "Santa Teresa se espalha por encostas, ruas curvas e mirantes; uma distância curta pode incluir uma subida exigente. Decida quanto quer caminhar e onde parar. Com chuva, o calçamento pode ficar escorregadio: use calçado firme e confira o transporte antes de depender do Bondinho."],
+      ["O Bondinho conecta e também é patrimônio", "O bonde faz parte da identidade do bairro e o serviço pode mudar por manutenção ou operação. Confira trajeto, horários, filas e regras no canal oficial no dia da visita. Não conte com ele como única alternativa: defina uma volta por transporte de superfície."],
+      ["Mirantes, ateliês e espaços culturais", "Santa Teresa é melhor sem correr entre atrações. Escolha um mirante ou uma visita cultural e deixe tempo para caminhar pelo entorno. Horários e abertura de espaços menores variam; confirme cada lugar antes de subir, principalmente se alguém do grupo tiver mobilidade reduzida."],
+      ["De dia na ladeira, à noite com endereço", "O bairro muda de ritmo depois que escurece. Para jantar ou ouvir música, escolha um estabelecimento, salve o endereço e combine a volta antes de sair. Não improvise uma descida a pé por ruas desconhecidas: inclinação, iluminação e movimento variam conforme o caminho."]
+    ],
+    EN: [
+      ["The hills are part of the route", "Santa Teresa sits across slopes, winding streets, and viewpoints; a short distance may involve a steep climb. Decide how far you want to walk and where to pause. Wet cobblestones can be slippery, so wear sturdy shoes and check transport before relying on the tram."],
+      ["The tram is both a link and part of the heritage", "The tram is part of the neighborhood’s identity, and its service can change due to maintenance or operations. Check route, hours, queues, and rules through the official channel on the day. Do not rely on it as your only option; plan a return by surface transport too."],
+      ["Viewpoints, studios, and cultural spaces", "Santa Teresa is better explored without rushing between attractions. Choose one viewpoint or cultural visit and leave time to walk nearby. Hours and access at smaller venues vary; check each place before going uphill, especially if anyone in your group has limited mobility."],
+      ["Explore by day; choose an address at night", "The neighborhood changes pace after dark. For dinner or live music, choose a venue, save its address, and agree on the return plan before leaving. Do not improvise a downhill walk through unfamiliar streets: slope, lighting, and activity vary by route."]
+    ]
+  },
+  gloria: {
+    ES: [
+      ["Una iglesia que dio nombre a la zona", "El Outeiro da Glória ocupa una posición elevada junto a la bahía y ayuda a entender la geografía histórica del barrio. Consulta las condiciones de visita antes de ir; después puedes enlazar con el parque y la Marina da Glória, que son espacios distintos y requieren sus propios accesos."],
+      ["El parque conecta Glória con Flamengo", "El Aterro y sus jardines acercan Glória al borde de la bahía y al barrio de Flamengo. Elige un tramo según el tiempo disponible: cruzarlo entero puede ser más largo de lo que aparenta. Revisa cierres, eventos y condiciones de circulación para tu fecha."],
+      ["Marina, museo y calendario cultural", "La Marina da Glória y el MAM quedan en el corredor costero, pero cada uno tiene agenda, entrada y operación propias. Mira la programación oficial y calcula el tiempo entre lugares. Un evento puede cambiar el flujo y el transporte de la zona, así que confirma también el regreso."],
+      ["Una visita compacta", "Yo combinaría un punto patrimonial con un paseo breve por la orla, dejando el museo para cuando haya tiempo de visitarlo con calma. Lleva agua y acuerda una estación de regreso. Si planeas ir al caer la tarde, define antes la ruta de vuelta y el punto de recogida."]
+    ],
+    PT: [
+      ["Uma igreja que deu nome à região", "O Outeiro da Glória fica em posição elevada junto à baía e ajuda a entender a geografia histórica do bairro. Confira as condições de visita antes de ir; depois, você pode seguir para o parque e a Marina da Glória, que são espaços diferentes e têm acessos próprios."],
+      ["O parque conecta Glória e Flamengo", "O Aterro e seus jardins aproximam a Glória da baía e do Flamengo. Escolha um trecho conforme o tempo disponível: atravessá-lo inteiro pode levar mais do que parece. Confira fechamentos, eventos e condições de circulação para a data."],
+      ["Marina, museu e agenda cultural", "A Marina da Glória e o MAM ficam no corredor costeiro, mas cada um tem programação, entrada e funcionamento próprios. Consulte a agenda oficial e calcule o tempo entre os lugares. Um evento pode mudar o fluxo e o transporte da região; confirme também a volta."],
+      ["Uma visita compacta", "Eu combinaria um ponto histórico com uma caminhada curta pela orla e deixaria o museu para quando houver tempo de visitá-lo com calma. Leve água e escolha uma estação para voltar. Se planejar ir no fim da tarde, defina antes o trajeto e o local de embarque."]
+    ],
+    EN: [
+      ["A church that gave the area its name", "Outeiro da Glória stands above the bay and helps explain the neighborhood’s historic geography. Check visitor arrangements before going; afterward, you can continue toward the park and Marina da Glória, which are separate places with their own access points."],
+      ["The park links Glória with Flamengo", "The Aterro and its gardens bring Glória closer to the bayfront and Flamengo. Choose a section according to your time: crossing the entire park can take longer than it appears. Check closures, events, and traffic arrangements for your date."],
+      ["The marina, museum, and cultural calendar", "Marina da Glória and MAM sit along the waterfront corridor, but each has its own schedule, entry, and operations. Check official programming and allow time between venues. An event can affect crowd flow and local transport, so confirm your return too."],
+      ["A compact visit", "I would pair one heritage stop with a short walk by the water and save the museum for a day when you can explore it without rushing. Carry water and choose a return station. If you plan to stay until late afternoon, decide the route and pickup point in advance."]
+    ]
+  },
+  recreio: {
+    ES: [
+      ["Una playa no es todo Recreio", "El barrio reúne frentes de mar, lagunas, zonas residenciales y accesos hacia el oeste. Define qué tramo de costa quieres visitar antes de salir: los puestos, el oleaje, el transporte y los servicios cambian a lo largo de la playa."],
+      ["Pontal, Prainha y Grumari son planes separados", "Pedra do Pontal, Prainha y Grumari implican accesos y esfuerzos distintos. Revisa el clima, las condiciones del mar y las reglas de áreas protegidas; no asumas que habrá servicios disponibles en playas más alejadas. Deja margen para volver y evita intentar encadenarlo todo en una jornada."],
+      ["La naturaleza necesita cuidado", "Restingas, dunas, lagunas y vegetación costera son parte del paisaje y requieren permanecer en senderos y accesos autorizados. No dejes residuos ni atravieses áreas cerradas para llegar a la arena. Si un acceso está limitado, sigue la señalización y escoge otra playa abierta."],
+      ["Un día realista en el oeste", "Yo elegiría una playa como base y sumaría solo un complemento cercano. Comprueba el transporte de ida y vuelta y lleva agua, sombra y protección solar. Si el mar o el tiempo cambian, cambia también el plan; no conviertas una parada en una ruta improvisada por caminos aislados."]
+    ],
+    PT: [
+      ["A praia não é todo o Recreio", "O bairro reúne trechos de mar, lagoas, áreas residenciais e acessos para o oeste. Defina qual pedaço da costa quer visitar antes de sair: postos, ondas, transporte e serviços mudam ao longo da praia."],
+      ["Pontal, Prainha e Grumari são planos separados", "Pedra do Pontal, Prainha e Grumari têm acessos e esforços diferentes. Confira clima, condições do mar e regras de áreas protegidas; não presuma que haverá serviços em praias mais afastadas. Reserve tempo para voltar e evite tentar encaixar tudo no mesmo dia."],
+      ["A natureza precisa de cuidado", "Restingas, dunas, lagoas e vegetação costeira fazem parte da paisagem e pedem que se usem trilhas e acessos autorizados. Não deixe resíduos nem atravesse áreas fechadas para chegar à areia. Se o acesso estiver limitado, siga a sinalização e escolha outra praia aberta."],
+      ["Um dia realista no oeste", "Eu escolheria uma praia como base e acrescentaria apenas um complemento próximo. Confira o transporte de ida e volta e leve água, proteção contra o sol e algo para fazer sombra. Se o mar ou o tempo mudarem, ajuste o plano; não improvise caminhos por áreas isoladas."]
+    ],
+    EN: [
+      ["A beach is not all of Recreio", "The neighborhood brings together oceanfront areas, lagoons, residential districts, and routes farther west. Decide which stretch of coast you want before setting out: lifeguard posts, surf, transport, and services vary along the shore."],
+      ["Pontal, Prainha, and Grumari are separate plans", "Pedra do Pontal, Prainha, and Grumari involve different access and effort. Check weather, sea conditions, and protected-area rules; do not assume services will be available at more remote beaches. Leave time to return and avoid trying to fit everything into one day."],
+      ["Take care around natural areas", "Restinga, dunes, lagoons, and coastal plants shape the landscape; use authorized trails and access points. Do not leave waste or cross closed areas to reach the sand. If access is limited, follow signs and choose another open beach."],
+      ["A realistic day in the west", "I would choose one beach as a base and add only one nearby stop. Check transport in both directions and carry water and sun protection. If the sea or weather changes, adjust the plan; do not improvise a route through isolated roads."]
+    ]
+  },
+  laranjeiras: {
+    ES: [
+      ["El valle del río Carioca", "La geografía de Laranjeiras sigue el valle del río Carioca, hoy canalizado o cubierto en varios tramos. La forma del terreno ayuda a entender las calles que suben hacia Cosme Velho y la conexión con Flamengo. Mira el relieve al caminar: cuenta una historia que no siempre se ve en la superficie."],
+      ["Largo do Machado y la vida diaria", "Largo do Machado funciona como punto de encuentro entre metro, comercio y calles residenciales. Desde allí, elige un recorrido corto hacia el interior o hacia Flamengo. Es una zona para descubrir a pie y sin una lista rígida de atracciones; observa cómo cambian los usos de las calles."],
+      ["Palacios e instituciones", "Laranjeiras conserva edificios residenciales e institucionales de distintas épocas. Algunos lugares no son de acceso turístico regular, por lo que conviene distinguir el exterior visitable de los espacios privados. Comprueba antes cualquier exposición, visita guiada o evento y respeta las áreas de trabajo y residencia."],
+      ["Una subida que conviene calcular", "Hacia Cosme Velho y las laderas, el recorrido gana pendiente. Si el grupo tiene movilidad limitada, elige un tramo accesible y revisa opciones de transporte para volver. Para un paseo sencillo, empieza en Largo do Machado, deja tiempo para una pausa y evita medir la ruta solo por kilómetros." ]
+    ],
+    PT: [
+      ["O vale do Rio Carioca", "A geografia de Laranjeiras acompanha o vale do Rio Carioca, hoje canalizado ou coberto em vários trechos. O relevo ajuda a entender as ruas que sobem em direção a Cosme Velho e a conexão com o Flamengo. Observe a inclinação ao caminhar: ela conta uma história que nem sempre aparece na superfície."],
+      ["Largo do Machado e o cotidiano", "O Largo do Machado funciona como ponto de encontro entre metrô, comércio e ruas residenciais. De lá, escolha um percurso curto para o interior ou em direção ao Flamengo. É uma área para descobrir a pé e sem uma lista rígida de atrações; observe como o uso das ruas muda."],
+      ["Palacetes e instituições", "Laranjeiras preserva edifícios residenciais e institucionais de várias épocas. Alguns não têm visitação turística regular; diferencie o exterior acessível dos espaços privados. Confira antes exposições, visitas guiadas ou eventos e respeite áreas de trabalho e moradia."],
+      ["Uma subida para calcular", "Na direção de Cosme Velho e das encostas, o percurso fica mais íngreme. Se alguém do grupo tiver mobilidade reduzida, escolha um trecho acessível e confira o transporte de volta. Para um passeio fácil, comece no Largo do Machado, faça uma pausa e não calcule a rota apenas pelos quilômetros."]
+    ],
+    EN: [
+      ["The valley of the Carioca River", "Laranjeiras follows the valley of the Carioca River, now channelled or covered along several stretches. The terrain helps explain streets climbing toward Cosme Velho and the link with Flamengo. Notice the slope as you walk: it tells a story that is not always visible at street level."],
+      ["Largo do Machado and everyday life", "Largo do Machado is a meeting point for the metro, shops, and residential streets. From there, choose a short route inland or toward Flamengo. It is an area to discover on foot without a rigid attraction checklist; notice how street life changes as you go."],
+      ["Mansions and institutions", "Laranjeiras retains residential and institutional buildings from different periods. Some are not regularly open to tourists, so distinguish accessible exteriors from private spaces. Check exhibitions, guided visits, or events in advance and respect working and residential areas."],
+      ["A climb worth planning", "Toward Cosme Velho and the hillsides, the route gets steeper. If anyone in your group has limited mobility, choose an accessible section and check transport for the return. For an easy walk, start at Largo do Machado, leave time for a break, and do not judge the route by distance alone."]
+    ]
+  },
+  lapa: {
+    ES: [
+      ["Los Arcos: acueducto antes que postal", "Los Arcos da Lapa fueron parte del Acueducto da Carioca y hoy son un emblema del paisaje urbano. Observa el monumento desde distintos puntos y respeta el flujo del tranvía y del tránsito. La historia del lugar se entiende mejor al relacionarlo con Santa Teresa y el antiguo abastecimiento de agua."],
+      ["De día y de noche son dos visitas", "La Lapa diurna tiene otra escala que la nocturna. Para una noche de música, elige la casa o el espectáculo antes de llegar, confirma la programación y guarda el acceso exacto. No dependas de encontrar algo al azar si hay una hora de entrada o entradas limitadas."],
+      ["Música con agenda, no por suposición", "Samba, conciertos y fiestas forman parte de la identidad cultural de Lapa, pero cada local y fecha son distintos. Comprueba edad mínima, entradas, horario y reglas en la fuente oficial del evento. Una cena temprana puede ayudar a elegir el lugar con calma y evitar cruzar el barrio sin plan."],
+      ["La vuelta también es parte del plan", "Antes de salir, guarda la dirección del local y decide cómo regresar al alojamiento. Las calles y el movimiento cambian con la hora y los eventos; usa rutas claras y transporte de confianza. Si visitas también Santa Teresa, hazlo de día y trata el traslado entre zonas como un tramo separado."]
+    ],
+    PT: [
+      ["Os Arcos: aqueduto antes de cartão-postal", "Os Arcos da Lapa fizeram parte do Aqueduto da Carioca e hoje são um símbolo da paisagem urbana. Observe o monumento de diferentes pontos e respeite a circulação do bonde e do trânsito. A história se entende melhor quando relacionada a Santa Teresa e ao antigo abastecimento de água."],
+      ["De dia e à noite são duas visitas", "A Lapa durante o dia tem outro ritmo à noite. Para ouvir música, escolha a casa ou o espetáculo antes de chegar, confirme a programação e salve o acesso exato. Não dependa de encontrar algo por acaso se houver horário de entrada ou ingressos limitados."],
+      ["Música com programação, não por suposição", "Samba, shows e festas fazem parte da identidade cultural da Lapa, mas cada local e data são diferentes. Confira classificação etária, ingressos, horário e regras no canal oficial do evento. Jantar cedo ajuda a escolher com calma e evita atravessar o bairro sem plano."],
+      ["A volta também faz parte do plano", "Antes de sair, salve o endereço do local e decida como voltar à hospedagem. Ruas e movimento mudam conforme o horário e os eventos; use rotas claras e transporte confiável. Se também visitar Santa Teresa, faça isso de dia e trate o deslocamento entre áreas como um trecho separado."]
+    ],
+    EN: [
+      ["The Arches: an aqueduct before a postcard", "The Lapa Arches were part of the Carioca Aqueduct and are now an emblem of the urban landscape. View the structure from different points and respect tram and traffic flow. Its history becomes clearer when you connect it with Santa Teresa and the city’s former water supply."],
+      ["Daytime and nighttime are different visits", "Lapa by day has a different pace from Lapa at night. For live music, choose a venue or show before arriving, confirm the schedule, and save the exact entrance. Do not count on finding something at random if entry times or tickets are limited."],
+      ["Music with a schedule, not an assumption", "Samba, concerts, and parties are part of Lapa’s cultural identity, but each venue and date is different. Check age limits, tickets, times, and rules through the event’s official source. An early meal can help you choose calmly and avoid crossing the neighborhood without a plan."],
+      ["The return trip is part of the plan", "Before going out, save the venue address and decide how you will return to your stay. Streets and crowd levels change with the hour and events; use clear routes and trusted transport. If you also visit Santa Teresa, do so during the day and treat the trip between areas as a separate leg."]
+    ]
   }
 };
