@@ -23,6 +23,13 @@ const ecEveryday = (id, category, keywords, answer, links, pending = null, prior
   reviewedOn: "2026-10-10", followups: []
 });
 const EVERYDAY_INTENTS = [
+  ecEveryday("quick_luggage", "lodging",
+    ["donde guardar maleta", "guardar maletas", "consigna de equipaje", "guardar valijas", "onde guardar malas", "guardar bagagem", "guarda volumes", "where to store luggage", "luggage storage", "where can i leave my bags"],
+    ecT("¡Claro! ¿En qué barrio o cerca de qué lugar necesitas guardar tu equipaje, y hasta qué hora? Puedo orientarte hacia opciones para verificar, pero no confirmar disponibilidad u horarios en tiempo real.",
+      "Claro! Em qual bairro ou perto de qual lugar você precisa guardar a bagagem, e até que horas? Posso indicar opções para conferir, mas não confirmar vagas ou horários em tempo real.",
+      "Sure! Which neighborhood or landmark do you need luggage storage near, and until what time? I can point you toward options to check, but can't confirm live availability or hours."),
+    [ecL("/hospedaje/", "Hospedaje y opciones", "Hospedagem e opções", "Accommodation and options")], "location", 45),
+
   ecEveryday("daily_food", "gastronomy",
     ["quiero salir a comer", "quiero salir a cenar", "quiero ir a comer", "quiero comer algo", "tengo hambre", "donde puedo cenar", "quiero cenar", "salir a cenar", "comer barato", "algo para comer", "quero sair para comer", "estou com fome", "to com fome", "quero jantar", "onde posso jantar", "comer barato no rio", "i want to eat out", "i am hungry", "im hungry", "i m hungry", "where can i have dinner", "where to have dinner", "cheap eats"],
     ecT("¡Vamos a comer rico! ¿En qué barrio estás y qué te apetece: comida brasileña, carnes, mariscos, algo económico o una cafetería? Mientras tanto, puedes mirar nuestra guía gastronómica.",
@@ -125,6 +132,30 @@ export const ACTIVE_INTENTS = ALL_INTENTS.filter(intent => intent.status !== "pe
 const MIN_SCORE = 7.5;
 // The welcome chips must always resolve to a useful, authored intent in all three languages.
 const WELCOME_CHIP_IDS = {
+  "quiero conocer los tours": "experiences",
+  "busco donde hospedarme": "stay",
+  "donde puedo guardar mi maleta": "quick_luggage",
+  "necesito un traslado": "daily_transfer",
+  "que hacer en familia": "family",
+  "como me muevo por rio": "transport",
+  "donde puedo comer": "daily_food",
+  "que puedo hacer hoy": "today",
+  "quero conhecer os passeios": "experiences",
+  "estou procurando hospedagem": "stay",
+  "onde posso guardar minha mala": "quick_luggage",
+  "preciso de um transfer": "daily_transfer",
+  "o que fazer em familia": "family",
+  "como me locomover pelo rio": "transport",
+  "onde posso comer": "daily_food",
+  "o que posso fazer hoje": "today",
+  "i want to explore tours": "experiences",
+  "i m looking for a place to stay": "stay",
+  "where can i store my luggage": "quick_luggage",
+  "i need a transfer": "daily_transfer",
+  "what can we do as a family": "family",
+  "how do i get around rio": "transport",
+  "where should i eat": "daily_food",
+  "what can i do today": "today",
   "que hacer en rio en 3 dias": "first_visit",
   "o que fazer no rio em 3 dias": "first_visit",
   "what should i do in rio in 3 days": "first_visit",

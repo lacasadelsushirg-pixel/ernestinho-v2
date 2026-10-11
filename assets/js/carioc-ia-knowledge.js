@@ -12,12 +12,14 @@ export const UI = {
     whatsapp: "Hablar con Ernestinho",
     whatsappMessage: "Hola Ernestinho, necesito ayuda para planificar mi viaje a Río.",
     suggestions: [
-      "¿Qué hacer en Río en 3 días?",
-      "¿Qué playas me recomiendas?",
+      "Quiero conocer los tours",
+      "Busco dónde hospedarme",
+      "¿Dónde puedo guardar mi maleta?",
+      "Necesito un traslado",
+      "¿Qué hacer en familia?",
       "¿Cómo me muevo por Río?",
-      "Viajo con niños",
-      "¿Qué experiencia me recomiendas?",
-      "Quiero reservar"
+      "¿Dónde puedo comer?",
+      "¿Qué puedo hacer hoy?"
     ],
     fallback: "Todavía no tengo esa respuesta exacta en mi guía. Puedo acercarte a una sección relacionada o ayudarte a hablar con Ernestinho por WhatsApp.",
     fallbackTitle: "Te puede servir",
@@ -35,12 +37,14 @@ export const UI = {
     whatsapp: "Falar com Ernestinho",
     whatsappMessage: "Olá Ernestinho, preciso de ajuda para planejar minha viagem ao Rio.",
     suggestions: [
-      "O que fazer no Rio em 3 dias?",
-      "Quais praias você recomenda?",
+      "Quero conhecer os passeios",
+      "Estou procurando hospedagem",
+      "Onde posso guardar minha mala?",
+      "Preciso de um transfer",
+      "O que fazer em família?",
       "Como me locomover pelo Rio?",
-      "Viajo com crianças",
-      "Qual experiência você recomenda?",
-      "Quero reservar"
+      "Onde posso comer?",
+      "O que posso fazer hoje?"
     ],
     fallback: "Ainda não tenho essa resposta exata no meu guia. Posso indicar uma seção relacionada ou ajudar você a falar com Ernestinho pelo WhatsApp.",
     fallbackTitle: "Pode ajudar",
@@ -58,12 +62,14 @@ export const UI = {
     whatsapp: "Talk to Ernestinho",
     whatsappMessage: "Hi Ernestinho, I need help planning my trip to Rio.",
     suggestions: [
-      "What should I do in Rio in 3 days?",
-      "Which beaches do you recommend?",
+      "I want to explore tours",
+      "I'm looking for a place to stay",
+      "Where can I store my luggage?",
+      "I need a transfer",
+      "What can we do as a family?",
       "How do I get around Rio?",
-      "I'm traveling with kids",
-      "Which experience do you recommend?",
-      "I want to book"
+      "Where should I eat?",
+      "What can I do today?"
     ],
     fallback: "I don't have that exact answer in my guide yet. I can point you to a related section or help you contact Ernestinho on WhatsApp.",
     fallbackTitle: "This may help",
