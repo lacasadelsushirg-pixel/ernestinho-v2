@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 24689)
-Total output lines: 504
-
 // Chapters for the first complete editorial batch. Each entry is kept in ES/PT/EN
 // so the existing language switch never leaves newly added copy in Spanish.
 export const BARRIO_CHAPTERS = {
@@ -241,7 +238,24 @@ export const BARRIO_CHAPTERS = {
       ["A church that gave the area its name", "Outeiro da Glória stands above the bay and helps explain the neighborhood’s historic geography. Check visitor arrangements before going; afterward, you can continue toward the park and Marina da Glória, which are separate places with their own access points."],
       ["The park links Glória with Flamengo", "The Aterro and its gardens bring Glória closer to the bayfront and Flamengo. Choose a section according to your time: crossing the entire park can take longer than it appears. Check closures, events, and traffic arrangements for your date."],
       ["The marina, museum, and cultural calendar", "Marina da Glória and MAM sit along the waterfront corridor, but each has its own schedule, entry, and operations. Check official programming and allow time between venues. An event can affect crowd flow and local transport, so confirm your return too."],
-      ["A compact visit", "I would pair one heritage stop with a short walk by the water and save the museum for a day when you can explore it without rushing. Carry water and choose a return station. If you plan to stay until late afternoon, d…689 tokens truncated…cide which stretch of coast you want before setting out: lifeguard posts, surf, transport, and services vary along the shore."],
+      ["A compact visit", "I would pair one heritage stop with a short walk by the water and save the museum for a day when you can explore it without rushing. Carry water and choose a return station. If you plan to stay until late afternoon, decide the route and pickup point in advance."]
+    ]
+  },
+  recreio: {
+    ES: [
+      ["Una playa no es todo Recreio", "El barrio reúne frentes de mar, lagunas, zonas residenciales y accesos hacia el oeste. Define qué tramo de costa quieres visitar antes de salir: los puestos, el oleaje, el transporte y los servicios cambian a lo largo de la playa."],
+      ["Pontal, Prainha y Grumari son planes separados", "Pedra do Pontal, Prainha y Grumari implican accesos y esfuerzos distintos. Revisa el clima, las condiciones del mar y las reglas de áreas protegidas; no asumas que habrá servicios disponibles en playas más alejadas. Deja margen para volver y evita intentar encadenarlo todo en una jornada."],
+      ["La naturaleza necesita cuidado", "Restingas, dunas, lagunas y vegetación costera son parte del paisaje y requieren permanecer en senderos y accesos autorizados. No dejes residuos ni atravieses áreas cerradas para llegar a la arena. Si un acceso está limitado, sigue la señalización y escoge otra playa abierta."],
+      ["Un día realista en el oeste", "Yo elegiría una playa como base y sumaría solo un complemento cercano. Comprueba el transporte de ida y vuelta y lleva agua, sombra y protección solar. Si el mar o el tiempo cambian, cambia también el plan; no conviertas una parada en una ruta improvisada por caminos aislados."]
+    ],
+    PT: [
+      ["A praia não é todo o Recreio", "O bairro reúne trechos de mar, lagoas, áreas residenciais e acessos para o oeste. Defina qual pedaço da costa quer visitar antes de sair: postos, ondas, transporte e serviços mudam ao longo da praia."],
+      ["Pontal, Prainha e Grumari são planos separados", "Pedra do Pontal, Prainha e Grumari têm acessos e esforços diferentes. Confira clima, condições do mar e regras de áreas protegidas; não presuma que haverá serviços em praias mais afastadas. Reserve tempo para voltar e evite tentar encaixar tudo no mesmo dia."],
+      ["A natureza precisa de cuidado", "Restingas, dunas, lagoas e vegetação costeira fazem parte da paisagem e pedem que se usem trilhas e acessos autorizados. Não deixe resíduos nem atravesse áreas fechadas para chegar à areia. Se o acesso estiver limitado, siga a sinalização e escolha outra praia aberta."],
+      ["Um dia realista no oeste", "Eu escolheria uma praia como base e acrescentaria apenas um complemento próximo. Confira o transporte de ida e volta e leve água, proteção contra o sol e algo para fazer sombra. Se o mar ou o tempo mudarem, ajuste o plano; não improvise caminhos por áreas isoladas."]
+    ],
+    EN: [
+      ["A beach is not all of Recreio", "The neighborhood brings together oceanfront areas, lagoons, residential districts, and routes farther west. Decide which stretch of coast you want before setting out: lifeguard posts, surf, transport, and services vary along the shore."],
       ["Pontal, Prainha, and Grumari are separate plans", "Pedra do Pontal, Prainha, and Grumari involve different access and effort. Check weather, sea conditions, and protected-area rules; do not assume services will be available at more remote beaches. Leave time to return and avoid trying to fit everything into one day."],
       ["Take care around natural areas", "Restinga, dunes, lagoons, and coastal plants shape the landscape; use authorized trails and access points. Do not leave waste or cross closed areas to reach the sand. If access is limited, follow signs and choose another open beach."],
       ["A realistic day in the west", "I would choose one beach as a base and add only one nearby stop. Check transport in both directions and carry water and sun protection. If the sea or weather changes, adjust the plan; do not improvise a route through isolated roads."]
@@ -485,6 +499,106 @@ export const BARRIO_CHAPTERS = {
       ["Free flight only with an authorized operator", "The free-flight launch at Pedra Bonita is within the Tijuca National Park area and operations depend on weather. If you plan to fly, confirm requirements, transport, conditions, and an authorized operator; do not improvise the activity on arrival at the beach."],
       ["Pedra Bonita deserves a separate visit", "The Pedra Bonita hike has its own park access and rules. Check trail status, allowed hours, effort level, and transport to the starting point. Do not combine it with a long beach day unless you have time for the return."],
       ["Plan from your final stop", "São Conrado is spread out and slopes affect travel. Decide whether your priority is the beach, free flight, or nature, then plan how to return from that exact point. If combining with another neighborhood, check connections at the time; a short map distance may take a slow route."]
+    ]
+  },
+  "flamengo-gloria": {
+    ES: [
+      ["Dos barrios, dos ritmos", "Flamengo se organiza alrededor del parque, la bahía y sus calles residenciales; Glória combina patrimonio, metro y accesos al Aterro. Conviene escoger un sentido para el paseo y confirmar dónde empezar, porque el corredor verde es extenso y las conexiones no quedan todas junto a una misma esquina."],
+      ["Aterro: elige una sección", "El parque conecta ambas áreas con el borde de la bahía. Escoge un tramo concreto, identifica una salida y consulta si hay evento o cierre. El sol y las distancias hacen más agradable una caminata corta con pausas que intentar cruzar todo el parque sin plan."],
+      ["Patrimonio y cultura", "Outeiro da Glória, MAM y Marina da Glória corresponden a visitas distintas y tienen accesos y horarios propios. Confirma qué está abierto y si hace falta entrada. Un paseo exterior puede completarse con una visita cultural, pero deja tiempo suficiente entre lugares."],
+      ["Una combinación que funciona", "Yo empezaría con un punto histórico en Glória, caminaría un tramo del Aterro y terminaría cerca de Flamengo para comer o tomar el metro. Comprueba el regreso desde el punto final y ajusta el plan si hay calor intenso, lluvia o actividad especial en el parque."]
+    ],
+    PT: [
+      ["Dois bairros, dois ritmos", "O Flamengo se organiza em torno do parque, da baía e das ruas residenciais; a Glória combina patrimônio, metrô e acessos ao Aterro. Vale escolher um sentido para o passeio e confirmar onde começar, pois o corredor verde é extenso e as conexões não ficam todas na mesma esquina."],
+      ["Aterro: escolha um trecho", "O parque conecta as duas áreas à orla da baía. Escolha um trecho, identifique uma saída e confira se há evento ou fechamento. Sol e distância tornam mais agradável uma caminhada curta com pausas do que tentar atravessar todo o parque sem planejamento."],
+      ["Patrimônio e cultura", "O Outeiro da Glória, o MAM e a Marina da Glória são visitas diferentes, com acessos e horários próprios. Confirme o que está aberto e se é preciso ingresso. Um passeio externo pode ser combinado com uma visita cultural, mas reserve tempo entre os lugares."],
+      ["Uma combinação que funciona", "Eu começaria por um ponto histórico na Glória, caminharia um trecho do Aterro e terminaria perto do Flamengo para comer ou pegar o metrô. Confira a volta a partir do ponto final e ajuste o plano se houver calor intenso, chuva ou atividade especial no parque."]
+    ],
+    EN: [
+      ["Two neighborhoods, two rhythms", "Flamengo centers on the park, bay, and residential streets; Glória combines heritage, metro access, and entrances to the Aterro. Choose a direction for your walk and confirm where to start: the green corridor is long, and its connections do not all meet at one corner."],
+      ["The Aterro: choose one section", "The park links both areas with the bayfront. Choose a specific stretch, identify an exit, and check for events or closures. Sun and distance make a shorter walk with breaks more enjoyable than trying to cross the entire park without a plan."],
+      ["Heritage and culture", "Outeiro da Glória, MAM, and Marina da Glória are separate visits with their own access and hours. Check what is open and whether tickets are needed. A walk outdoors can pair with a cultural visit, but leave enough time between venues."],
+      ["A combination that works", "I would start with a historic site in Glória, walk one stretch of the Aterro, and finish near Flamengo for food or the metro. Check the return from your final stop and adjust for intense heat, rain, or a special park event."]
+    ]
+  },
+  "botafogo-urca": {
+    ES: [
+      ["La ensenada y la península", "Botafogo abre una vista amplia de la bahía; Urca entra en ella como una península compacta, junto al Pão de Açúcar. Aunque se ven cerca, tienen recorridos y conexiones diferentes. Elige cuál será el centro del paseo y planifica el traslado al otro barrio como un tramo separado."],
+      ["Botafogo: calles, servicios y cultura", "El barrio combina una orla panorámica con comercio, restaurantes y espacios culturales en sus calles interiores. Escoge una actividad concreta y reserva tiempo para cruzar avenidas con seguridad. Para comer, comprueba dirección y horario; el sector es grande y los puntos no forman una única calle peatonal."],
+      ["Urca: paisaje con accesos propios", "Praia Vermelha, la Mureta y el Bondinho son experiencias diferentes. Confirma operación, entradas y condiciones del sendero si planeas subir; algunas áreas tienen acceso restringido. Disfruta la península sin entrar en zonas militares ni bloquear los pasos residenciales."],
+      ["Cómo conectar ambos barrios", "Una buena jornada puede comenzar con una vuelta corta por Botafogo y continuar hacia Urca antes del atardecer. Deja margen de transporte y acuerda dónde terminarás; la distancia visual no garantiza un trayecto directo. Si cambia el clima, prioriza la parte urbana y deja la subida para otro día."]
+    ],
+    PT: [
+      ["A enseada e a península", "Botafogo abre uma vista ampla da baía; a Urca avança sobre ela como uma península compacta, junto ao Pão de Açúcar. Embora pareçam perto, os percursos e conexões são diferentes. Escolha qual será o foco do passeio e planeje o deslocamento ao outro bairro como um trecho separado."],
+      ["Botafogo: ruas, serviços e cultura", "O bairro combina uma orla panorâmica com comércio, restaurantes e espaços culturais nas ruas internas. Escolha uma atividade concreta e reserve tempo para atravessar avenidas com segurança. Para comer, confira endereço e horário; a área é grande e os pontos não formam uma única rua de pedestres."],
+      ["Urca: paisagem com acessos próprios", "Praia Vermelha, Mureta e Bondinho são experiências diferentes. Confira funcionamento, ingressos e condições da trilha se planejar subir; algumas áreas têm acesso restrito. Aproveite a península sem entrar em áreas militares nem bloquear passagens residenciais."],
+      ["Como conectar os dois bairros", "Um bom dia pode começar com uma volta curta por Botafogo e continuar até a Urca antes do pôr do sol. Reserve tempo para o deslocamento e combine onde vai terminar; a distância visual não garante um trajeto direto. Se o clima mudar, priorize a parte urbana e deixe a subida para outro dia."]
+    ],
+    EN: [
+      ["The inlet and the peninsula", "Botafogo opens a wide view across the bay; Urca projects into it as a compact peninsula beside Sugarloaf Mountain. They look close, but their routes and connections differ. Choose which area anchors your visit and plan travel to the other as a separate leg."],
+      ["Botafogo: streets, services, and culture", "The neighborhood pairs a scenic waterfront with shops, restaurants, and cultural venues on its inner streets. Choose one specific activity and allow time to cross major avenues safely. For a meal, check the address and hours; the area is large and its stops do not form one pedestrian street."],
+      ["Urca: scenery with its own access", "Praia Vermelha, the seawall, and the Bondinho are different experiences. Check operations, tickets, and trail conditions if you plan to climb; some areas have restricted access. Enjoy the peninsula without entering military areas or blocking residential paths."],
+      ["Connecting the two neighborhoods", "A good day could start with a short loop in Botafogo and continue to Urca before sunset. Allow time for transport and agree on your endpoint; visual distance does not guarantee a direct trip. If the weather changes, prioritize the urban part and save the climb for another day."]
+    ]
+  },
+  cadeg: {
+    ES: [
+      ["Un mercado que abastece y recibe visitantes", "CADEG es un mercado municipal mayorista y minorista en Benfica. Aquí conviven comerciantes, compradores profesionales y visitantes que vienen por flores, productos frescos, comida y tiendas especializadas. Para aprovecharlo, piensa qué quieres comprar y deja tiempo para recorrer los pasillos sin estorbar el trabajo diario."],
+      ["Flores, frutas y tiendas tienen otros ritmos", "El mercado de flores puede funcionar desde muy temprano y los horarios no son iguales para todos los locales. Confirma la información oficial del sector y de cada tienda antes de planear la visita; no supongas que el horario de un área aplica al mercado entero."],
+      ["Cómo recorrerlo con respeto", "Lleva una bolsa reutilizable, pregunta antes de fotografiar a comerciantes y compara precios y formatos con calma. Algunas zonas tienen movimiento de carga y descarga: mantén libres los pasillos y sigue la señalización. Si vas a comprar productos perecederos, planifica cómo transportarlos después."],
+      ["Una visita con objetivo", "Yo elegiría un foco —flores, compras de despensa o una comida— y luego añadiría un recorrido corto por el resto. Revisa cómo llegar y volver desde Benfica, y confirma el horario de apertura el día anterior. CADEG es un mercado de trabajo además de un paseo gastronómico."]
+    ],
+    PT: [
+      ["Um mercado que abastece e recebe visitantes", "O CADEG é um mercado municipal atacadista e varejista em Benfica. Ali convivem comerciantes, compradores profissionais e visitantes interessados em flores, produtos frescos, comida e lojas especializadas. Para aproveitar, escolha o que quer comprar e reserve tempo para caminhar sem atrapalhar o trabalho diário."],
+      ["Flores, frutas e lojas têm ritmos diferentes", "O mercado de flores pode funcionar muito cedo e os horários variam entre estabelecimentos. Confira as informações oficiais de cada setor e loja antes de planejar a visita; o horário de uma área não vale necessariamente para todo o mercado."],
+      ["Como circular com respeito", "Leve uma sacola reutilizável, peça autorização antes de fotografar comerciantes e compare preços e formatos com calma. Algumas áreas têm carga e descarga: mantenha os corredores livres e siga a sinalização. Se comprar perecíveis, planeje como transportá-los depois."],
+      ["Uma visita com objetivo", "Eu escolheria um foco — flores, compras para casa ou uma refeição — e depois faria uma volta curta pelo restante. Confira como chegar e voltar de Benfica e confirme a abertura na véspera. O CADEG é um mercado de trabalho, além de um passeio gastronômico."]
+    ],
+    EN: [
+      ["A market that supplies businesses and welcomes visitors", "CADEG is a municipal wholesale and retail market in Benfica. Traders, professional buyers, and visitors come for flowers, fresh produce, food, and specialist shops. Choose what you want to buy and leave time to explore without disrupting daily work."],
+      ["Flowers, produce, and shops keep different hours", "The flower market can operate very early, and hours vary between businesses. Check official information for each area and shop before planning a visit; one section’s schedule may not apply to the whole market."],
+      ["How to move through respectfully", "Bring a reusable bag, ask before photographing traders, and compare prices and sizes at an easy pace. Some areas handle loading and deliveries: keep aisles clear and follow signs. If buying perishables, plan how you will carry them afterward."],
+      ["A visit with a purpose", "I would choose one focus—flowers, grocery shopping, or a meal—and then take a short look around the rest. Check how to reach and leave Benfica, and confirm opening information the day before. CADEG is a working market as well as a food outing."]
+    ]
+  },
+  "centro-maua": {
+    ES: [
+      ["Praça Mauá abre el corredor portuario", "La plaza conecta el Centro histórico con espacios culturales del frente portuario y permite leer la transformación reciente del borde marítimo. El Museu de Arte do Rio ocupa edificios de épocas y estilos distintos; revisa exposiciones, entradas y accesibilidad en su web antes de ir."],
+      ["Museu do Amanhã: una visita temática", "El museo organiza la experiencia alrededor de preguntas sobre futuros posibles y sostenibilidad. Para disfrutarlo, reserva tiempo para las salas y consulta sus horarios y entradas oficiales. No lo conviertas en una parada de pocos minutos entre otros lugares distantes."],
+      ["Pequena África y memoria afrobrasileña", "El área portuaria guarda lugares vinculados a la historia afrobrasileña, entre ellos el Cais do Valongo. Recorre estos espacios con respeto y contexto: no son solo escenarios fotográficos. Comprueba accesibilidad, señalización y actividades guiadas si buscas una visita más interpretativa."],
+      ["Traza el recorrido por paradas", "Yo elegiría dos puntos —por ejemplo, un museo y una caminata exterior— y usaría el VLT u otro transporte según el tramo. Confirma el servicio, las entradas y la apertura del día; cada institución tiene un horario propio. Guarda el acceso exacto para coordinar la salida."]
+    ],
+    PT: [
+      ["A Praça Mauá abre o corredor portuário", "A praça conecta o Centro histórico a espaços culturais da frente portuária e ajuda a entender as transformações recentes da orla. O Museu de Arte do Rio ocupa edifícios de épocas e estilos diferentes; consulte exposições, ingressos e acessibilidade no site antes de ir."],
+      ["Museu do Amanhã: uma visita temática", "O museu organiza a experiência em torno de perguntas sobre futuros possíveis e sustentabilidade. Reserve tempo para as salas e consulte horários e ingressos oficiais. Não o transforme numa parada rápida entre lugares distantes."],
+      ["Pequena África e memória afro-brasileira", "A região portuária guarda lugares ligados à história afro-brasileira, entre eles o Cais do Valongo. Percorra esses espaços com respeito e contexto: não são apenas cenários para fotos. Confira acessibilidade, sinalização e visitas guiadas se quiser uma experiência interpretativa."],
+      ["Trace o roteiro por paradas", "Eu escolheria dois pontos — por exemplo, um museu e uma caminhada externa — e usaria o VLT ou outro transporte conforme o trecho. Confira serviço, ingressos e abertura do dia; cada instituição tem seu horário. Salve o acesso exato para combinar a saída."]
+    ],
+    EN: [
+      ["Praça Mauá opens the port corridor", "The square links historic downtown with cultural venues on the waterfront and helps explain recent changes to the harbor edge. Museu de Arte do Rio occupies buildings from different periods and styles; check exhibitions, tickets, and accessibility on its website before going."],
+      ["Museu do Amanhã: a thematic visit", "The museum structures its experience around questions about possible futures and sustainability. Allow time for the galleries and check official hours and tickets. Do not turn it into a brief stop between distant destinations."],
+      ["Pequena África and Afro-Brazilian memory", "The port area holds places connected with Afro-Brazilian history, including Cais do Valongo. Explore with respect and context: these are not just photo settings. Check accessibility, signs, and guided visits if you want a more interpretive experience."],
+      ["Build the route around a few stops", "I would choose two points—perhaps one museum and an outdoor walk—and use the VLT or other transport for the distance between them. Check service, tickets, and opening status for the day; each institution has its own hours. Save the exact entrance to coordinate your exit."]
+    ]
+  },
+  jacarepagua: {
+    ES: [
+      ["Jacarepaguá es una región amplia", "El nombre abarca sectores residenciales y comerciales con paisajes y conexiones diferentes. Antes de salir, confirma el barrio y la dirección completa de tu destino: las distancias entre Taquara, Freguesia, Anil y otros sectores pueden convertir un plan sencillo en varios traslados."],
+      ["Valle, laderas y urbanización", "La región se extiende entre llanuras y el Maciço da Tijuca, donde conviven barrios consolidados y áreas de crecimiento urbano. Observa cómo cambian densidad y relieve a medida que te mueves. Para senderos o áreas naturales, consulta accesos y normas del parque, no solo la ubicación del mapa."],
+      ["Elige un centro local", "Taquara y Freguesia concentran comercio y servicios, pero no son intercambiables para llegar a cada atractivo. Decide dónde comer, comprar o encontrarte con el grupo y verifica el trayecto desde la estación o punto de llegada más cercano."],
+      ["Evita comprimirlo con otros extremos", "Yo reservaría Jacarepaguá para actividades de la propia región y dejaría Barra, Recreio o Centro para otro bloque. Comprueba el transporte de regreso y guarda una alternativa si cambia el tráfico. En días calurosos, planea pausas bajo techo entre trayectos."]
+    ],
+    PT: [
+      ["Jacarepaguá é uma região extensa", "O nome abrange setores residenciais e comerciais com paisagens e conexões diferentes. Antes de sair, confirme o bairro e o endereço completo do destino: as distâncias entre Taquara, Freguesia, Anil e outras áreas podem transformar um plano simples em vários deslocamentos."],
+      ["Vale, encostas e urbanização", "A região se estende entre planícies e o Maciço da Tijuca, onde convivem bairros consolidados e áreas em expansão. Observe como densidade e relevo mudam pelo caminho. Para trilhas ou áreas naturais, consulte acessos e regras do parque, não apenas a localização no mapa."],
+      ["Escolha um centro local", "Taquara e Freguesia concentram comércio e serviços, mas não são intercambiáveis para chegar a cada atração. Decida onde comer, fazer compras ou encontrar o grupo e confira o trajeto desde a estação ou ponto de chegada mais próximo."],
+      ["Evite juntar extremos da cidade", "Eu reservaria Jacarepaguá para atividades da própria região e deixaria Barra, Recreio ou Centro para outro bloco. Confira o transporte de volta e salve uma alternativa caso o trânsito mude. Em dias quentes, planeje pausas em locais cobertos entre os trajetos."]
+    ],
+    EN: [
+      ["Jacarepaguá is a large region", "The name covers residential and commercial areas with different landscapes and connections. Before setting out, confirm the neighborhood and full address of your destination: distances between Taquara, Freguesia, Anil, and other areas can turn a simple plan into several trips."],
+      ["Valley, slopes, and urban growth", "The region stretches between lowlands and the Tijuca massif, where established neighborhoods meet areas of urban growth. Notice how density and terrain shift as you travel. For trails or natural areas, check park access and rules, not just the map location."],
+      ["Choose a local center", "Taquara and Freguesia have shops and services, but they are not interchangeable starting points for every attraction. Decide where to eat, shop, or meet your group, then check the route from the nearest station or arrival point."],
+      ["Do not compress it with distant areas", "I would set aside Jacarepaguá for activities in the region and leave Barra, Recreio, or downtown for another block. Check return transport and save an alternative if traffic changes. On hot days, plan indoor breaks between trips."]
     ]
   }
 };
