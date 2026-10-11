@@ -2900,4 +2900,45 @@ export default {
     "PT": "CADEG →",
     "EN": "CADEG →"
   }
+,
+  "Guía de Barra da Tijuca: playas, lagunas y grandes distancias. Elige un sector y organiza el transporte antes de salir.": {
+    "PT": "Guia da Barra da Tijuca: praias, lagoas e grandes distâncias. Escolha um setor e organize o transporte antes de sair.",
+    "EN": "Barra da Tijuca guide: beaches, lagoons and long distances. Choose one area and plan transport before setting out."
+  },
+  "Playa y skyline de Barra da Tijuca en Río de Janeiro": {
+    "PT": "Praia e skyline da Barra da Tijuca no Rio de Janeiro",
+    "EN": "Barra da Tijuca beach and skyline in Rio de Janeiro"
+  },
+  "Guía de Botafogo: bahía, cultura y gastronomía local. Qué ver, cómo llegar y cuándo usarlo como base en Río.": {
+    "PT": "Guia de Botafogo: baía, cultura e gastronomia local. O que ver, como chegar e quando usar o bairro como base no Rio.",
+    "EN": "Botafogo guide: bay views, culture and local food. What to see, how to get around and when to use it as a Rio base."
+  },
+  "Enseada de Botafogo con el Pan de Azúcar al fondo": {
+    "PT": "Enseada de Botafogo com o Pão de Açúcar ao fundo",
+    "EN": "Botafogo Bay with Sugarloaf Mountain in the background"
+  },
+  "Guía de Catete: Museu da República, comercio local y conexión entre Zona Sul y Centro. Ideas para organizar una visita.": {
+    "PT": "Guia do Catete: Museu da República, comércio local e conexão entre a Zona Sul e o Centro. Ideias para organizar a visita.",
+    "EN": "Catete guide: Museu da República, local shops and a link between the South Zone and downtown. Ideas for planning a visit."
+  },
+  "Jardines del Museu da República en Catete": {
+    "PT": "Jardins do Museu da República, no Catete",
+    "EN": "Gardens of the Museu da República in Catete"
+  },
+  "Guía del Centro de Río: Praça XV, arquitectura, museos y Pequena África. Elige un sector y planifica los trayectos.": {
+    "PT": "Guia do Centro do Rio: Praça XV, arquitetura, museus e Pequena África. Escolha um setor e planeje os trajetos.",
+    "EN": "Rio downtown guide: Praça XV, architecture, museums and Pequena África. Choose one area and plan your routes."
+  },
+  "Praça XV en el Centro de Río de Janeiro": {
+    "PT": "Praça XV no Centro do Rio de Janeiro",
+    "EN": "Praça XV in downtown Rio de Janeiro"
+  },
+  "Guía de Flamengo: Aterro, parque y bahía. Qué combinar con MAM y Catete y cómo planificar una visita.": {
+    "PT": "Guia do Flamengo: Aterro, parque e baía. O que combinar com o MAM e Catete e como planejar a visita.",
+    "EN": "Flamengo guide: Aterro, parkland and bay views. What to combine with MAM and Catete, and how to plan your visit."
+  },
+  "Aterro do Flamengo y Marina da Glória vistos desde la bahía": {
+    "PT": "Aterro do Flamengo e Marina da Glória vistos da baía",
+    "EN": "Aterro do Flamengo and Marina da Glória seen from the bay"
+  }
 };

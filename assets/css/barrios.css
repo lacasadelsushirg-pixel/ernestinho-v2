@@ -28,3 +28,10 @@
 .bh-individual-index{padding-top:36px}
 @media(max-width:900px){.bh-clusters{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.bh-clusters{grid-template-columns:1fr}.bh-cluster{min-height:0}}
+
+
+/* Lote 01: accessible photo hero for editorial neighborhood guides. */
+.bh-hero{position:relative;isolation:isolate;overflow:hidden;background:#123d39!important}
+.bh-hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(0deg,#061817e8,#06181722)}
+.bh-hero-image{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;object-position:center 48%}
+.bh-hero .hero-copy{position:relative;z-index:2}
