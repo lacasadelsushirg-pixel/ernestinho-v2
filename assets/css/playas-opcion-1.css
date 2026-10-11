@@ -19,3 +19,13 @@
 @media(max-width:850px){.ec-beach-list{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:560px){.ec-beach-list{grid-template-columns:1fr!important;gap:18px!important}.ec-beach-card--compact .ec-beach-mini-content{padding:17px}.ec-beach-map-frame{height:290px}}
 @media(prefers-reduced-motion:reduce){.ec-beach-card--compact,.ec-beach-card--compact img{transition:none!important}}
+/* Galerías de imágenes de Wikimedia con crédito y licencia visibles. */
+.ec-beach-licensed-gallery .ec-beach-license-photo{margin:0;border:1px solid #dbe8e3;border-radius:16px;overflow:hidden;background:#f6f8f5}
+.ec-beach-licensed-gallery .ec-beach-license-photo img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain;background:#eaf0ed}
+.ec-beach-licensed-gallery .ec-beach-license-photo figcaption{padding:.7rem .9rem;color:#475569;font:400 .78rem/1.55 Arial,sans-serif}
+.ec-beach-licensed-gallery .ec-beach-license-photo figcaption a{color:#076a70;text-underline-offset:2px}
+
+/* Créditos compactos para las miniaturas con licencia Creative Commons. */
+.ec-beach-image-credit{margin:0;color:#64716e;font:400 10px/1.45 Arial,sans-serif}
+.ec-beach-image-credit span{font-style:italic}
+.ec-beach-image-credit a{color:#076a70;text-underline-offset:2px}
