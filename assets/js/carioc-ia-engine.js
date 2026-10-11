@@ -426,7 +426,7 @@ export function resolveQuestion(question, context = {}) {
 // Lightweight, verified-link index built exclusively from already authored guide intents.
 // This is not a live business directory; routes and editorial copy still require review.
 export function recommendGuideLinks(intent, question = "", limit = 3) {
-  if (!intent || !intent.category || intent.category === "commercial") return [];
+  if (!intent || !intent.category || intent.category === "commercial" || !Number.isFinite(limit) || limit <= 0) return [];
   const category = intent.category;
   const query = normalizeQuestion(question);
   const tokenSet = new Set(query.split(" ").filter(word => word.length >= 4));
