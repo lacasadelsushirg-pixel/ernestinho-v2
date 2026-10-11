@@ -701,4 +701,1180 @@ export const BARRIO_CHAPTERS = {
       ["Decide on the return in advance", "For a night out, save addresses, agree on a meeting point, and choose your return transport before entering the venue. Avoid improvising long walks between quieter areas. For a cultural day, start uphill and descend along a familiar route with time to spare."]
     ]
   }
+  "ipanema": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Ipanema creció con la expansión de la Zona Sul y el tranvía que acercó la costa al Centro a fines del siglo XIX. El antiguo loteo de la Companhia de Bondes de Villa Ipanema organizó calles y plazas; después, música, literatura, moda y movimientos sociales la convirtieron en una referencia cultural. La playa no resume el barrio: General Osório y las calles interiores explican mejor su vida cotidiana."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "La playa no resume el barrio: General Osório y las calles interiores explican mejor su vida cotidiana."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Mira los cruces entre playa, comercio y edificios residenciales. Ipanema se disfruta mejor como paseo de varias escalas, no como una lista de locales."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "Si el plan incluye playa, revisa el estado del mar, las banderas y el clima; define también dónde vas a terminar y cómo volver."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "Ipanema cresceu com a expansão da Zona Sul e com o bonde que aproximou o litoral do Centro no fim do século XIX. O loteamento da Companhia de Bondes de Villa Ipanema organizou ruas e praças; depois, música, literatura, moda e movimentos sociais fizeram do bairro uma referência cultural. A praia não resume o lugar: a Praça General Osório e as ruas internas explicam melhor o cotidiano."
+        ],
+        [
+          "O que observar pelo caminho",
+          "A praia não resume o lugar: a Praça General Osório e as ruas internas explicam melhor o cotidiano."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Observe os encontros entre praia, comércio e edifícios residenciais. Ipanema funciona melhor como passeio de várias escalas do que como lista de endereços."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Se o plano inclui praia, confira as condições do mar, as bandeiras e o clima; defina também onde terminar e como voltar."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Ipanema grew with the expansion of the South Zone and the tram that brought the coast closer to downtown in the late 19th century. The Villa Ipanema tram company’s subdivision laid out its streets and squares; music, literature, fashion, and social movements later made it a cultural reference point. The beach alone cannot explain it: General Osório Square and the inner streets reveal more of daily life."
+        ],
+        [
+          "What to notice along the way",
+          "The beach alone cannot explain it: General Osório Square and the inner streets reveal more of daily life."
+        ],
+        [
+          "A way to plan your visit",
+          "Notice where beach life, shops, and apartment buildings meet. Ipanema rewards a walk across several scales rather than a checklist of venues."
+        ],
+        [
+          "My tip for the walk",
+          "If your plan includes the beach, check sea conditions, flags, and weather; also decide where you will finish and how you will return."
+        ]
+      ]
+    },
+  "leblon": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Leblon se urbanizó más tarde que el Centro y Botafogo, al compás de la apertura de caminos, tranvías y nuevos loteos hacia el extremo de la Zona Sul. El canal y el Jardim de Alah marcan una frontera visible con Ipanema, mientras la playa se prolonga hasta el Morro Dois Irmãos. Su identidad combina barrio residencial, comercio de cercanía y una vida cultural que no nació solo del turismo."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "Su identidad combina barrio residencial, comercio de cercanía y una vida cultural que no nació solo del turismo."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Así se entienden sus dos ritmos: el paseo abierto del mar y las cuadras de restaurantes, librerías y servicios. Confirma antes cualquier visita con horario o transporte específico."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "Si el plan incluye playa, revisa el estado del mar, las banderas y el clima; define también dónde vas a terminar y cómo volver."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "Leblon foi urbanizado depois do Centro e de Botafogo, acompanhando a abertura de caminhos, linhas de bonde e novos loteamentos no extremo da Zona Sul. O canal e o Jardim de Alah formam uma fronteira visível com Ipanema, enquanto a praia segue até o Morro Dois Irmãos. Sua identidade combina moradia, comércio de bairro e vida cultural que não nasceu apenas do turismo."
+        ],
+        [
+          "O que observar pelo caminho",
+          "Sua identidade combina moradia, comércio de bairro e vida cultural que não nasceu apenas do turismo."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "O caminho mostra dois ritmos: o passeio aberto junto ao mar e as quadras de restaurantes, livrarias e serviços. Confirme antes qualquer visita com hora marcada ou transporte específico."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Se o plano inclui praia, confira as condições do mar, as bandeiras e o clima; defina também onde terminar e como voltar."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Leblon urbanized later than downtown and Botafogo, as roads, trams, and new subdivisions extended toward the edge of the South Zone. The canal and Jardim de Alah mark a visible boundary with Ipanema, while the beach runs to Dois Irmãos Hill. Its identity combines residential life, neighborhood commerce, and a cultural scene that did not begin with tourism."
+        ],
+        [
+          "What to notice along the way",
+          "Its identity combines residential life, neighborhood commerce, and a cultural scene that did not begin with tourism."
+        ],
+        [
+          "A way to plan your visit",
+          "The route shows two rhythms: the open seafront and blocks of restaurants, bookshops, and services. Check ahead for any timed visit or specific transport arrangements."
+        ],
+        [
+          "My tip for the walk",
+          "If your plan includes the beach, check sea conditions, flags, and weather; also decide where you will finish and how you will return."
+        ]
+      ]
+    },
+  "botafogo": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "La ensenada convirtió a Botafogo en un punto de conexión entre el puerto, las chacras del valle y las rutas hacia la Zona Sul. Los tranvías del siglo XIX impulsaron su crecimiento residencial; en el XX, la cercanía de hospitales, escuelas, cines y comercio consolidó una centralidad propia. La vista al Pão de Açúcar es célebre, pero el barrio también se entiende mirando sus calles comerciales y edificios de distintas épocas."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "La vista al Pão de Açúcar es célebre, pero el barrio también se entiende mirando sus calles comerciales y edificios de distintas épocas."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Reserva un rato para mirar hacia Urca desde la ensenada y otro para recorrer una calle comercial sin apuro."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "No intentes abarcarlo todo: elige un eje de la visita y deja tiempo para mirar cómo cambia el lugar entre sus calles, espacios públicos y puntos de interés. Confirma antes los horarios, accesos y transporte del día."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "A enseada fez de Botafogo um ponto de ligação entre o porto, as chácaras do vale e os caminhos para a Zona Sul. Os bondes do século XIX impulsionaram o crescimento residencial; no século XX, hospitais, escolas, cinemas e comércio consolidaram uma centralidade própria. A vista para o Pão de Açúcar é famosa, mas o bairro também se entende pelas ruas comerciais e edifícios de várias épocas."
+        ],
+        [
+          "O que observar pelo caminho",
+          "A vista para o Pão de Açúcar é famosa, mas o bairro também se entende pelas ruas comerciais e edifícios de várias épocas."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Reserve um tempo para olhar a Urca a partir da enseada e outro para percorrer uma rua comercial sem pressa."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Não tente fazer tudo: escolha um eixo para a visita e reserve tempo para observar como o lugar muda entre ruas, espaços públicos e pontos de interesse. Confira antes os horários, acessos e transporte do dia."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "The bay made Botafogo a link between the port, valley estates, and routes toward the South Zone. 19th-century trams helped drive residential growth; in the 20th century, hospitals, schools, cinemas, and shops gave it a center of its own. The Pão de Açúcar view is famous, but the neighborhood also speaks through its commercial streets and buildings from different eras."
+        ],
+        [
+          "What to notice along the way",
+          "The Pão de Açúcar view is famous, but the neighborhood also speaks through its commercial streets and buildings from different eras."
+        ],
+        [
+          "A way to plan your visit",
+          "Take time to look toward Urca from the inlet, then explore a shopping street at an easy pace."
+        ],
+        [
+          "My tip for the walk",
+          "Do not try to cover everything: choose one focus and leave time to notice how the area changes between its streets, public spaces, and landmarks. Check opening times, access, and transport before setting out."
+        ]
+      ]
+    },
+  "urca": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "La península de Urca guarda una relación directa con los primeros años de la ciudad: las fortificaciones de São João y la defensa de la entrada de la bahía preceden al barrio residencial moderno. Su trazado compacto y la presencia del Pão de Açúcar hacen que el paisaje domine la experiencia; la Mureta, Praia Vermelha y la antigua fortaleza muestran usos militares, turísticos y vecinales superpuestos."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "Su trazado compacto y la presencia del Pão de Açúcar hacen que el paisaje domine la experiencia; la Mureta, Praia Vermelha y la antigua fortaleza muestran usos militares, turísticos y vecinales superpuestos."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Camina por la Praia Vermelha y la Mureta, y reserva la visita al teleférico o a las áreas militares solo tras comprobar horarios, entradas y condiciones del día."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "No intentes abarcarlo todo: elige un eje de la visita y deja tiempo para mirar cómo cambia el lugar entre sus calles, espacios públicos y puntos de interés. Confirma antes los horarios, accesos y transporte del día."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "A península da Urca tem ligação direta com os primeiros anos da cidade: as fortificações de São João e a defesa da entrada da baía antecedem o bairro residencial moderno. O traçado compacto e o Pão de Açúcar fazem da paisagem parte central da experiência; a Mureta, a Praia Vermelha e a antiga fortaleza mostram usos militares, turísticos e de vizinhança sobrepostos."
+        ],
+        [
+          "O que observar pelo caminho",
+          "O traçado compacto e o Pão de Açúcar fazem da paisagem parte central da experiência; a Mureta, a Praia Vermelha e a antiga fortaleza mostram usos militares, turísticos e de vizinhança sobrepostos."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Caminhe pela Praia Vermelha e pela Mureta; visite o bondinho ou áreas militares somente depois de conferir horários, ingressos e condições do dia."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Não tente fazer tudo: escolha um eixo para a visita e reserve tempo para observar como o lugar muda entre ruas, espaços públicos e pontos de interesse. Confira antes os horários, acessos e transporte do dia."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "The Urca peninsula is closely tied to the city’s early years: the São João fortifications and defense of the bay entrance predate the modern residential neighborhood. Its compact street plan and Sugarloaf Mountain make landscape central to the experience; the seawall, Praia Vermelha, and the old fortress layer military, visitor, and neighborhood uses."
+        ],
+        [
+          "What to notice along the way",
+          "Its compact street plan and Sugarloaf Mountain make landscape central to the experience; the seawall, Praia Vermelha, and the old fortress layer military, visitor, and neighborhood uses."
+        ],
+        [
+          "A way to plan your visit",
+          "Walk Praia Vermelha and the seawall; visit the cable car or military areas only after checking hours, tickets, and conditions for the day."
+        ],
+        [
+          "My tip for the walk",
+          "Do not try to cover everything: choose one focus and leave time to notice how the area changes between its streets, public spaces, and landmarks. Check opening times, access, and transport before setting out."
+        ]
+      ]
+    },
+  "flamengo": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Flamengo pasó de quintas y playas de la bahía a un barrio urbano conectado por tranvías y avenidas. El gran cambio del siglo XX fue el Aterro: una obra de relleno que creó parque, vías y nuevas perspectivas sobre el agua. Su paisaje actual mezcla edificios residenciales, museos y un espacio público de escala metropolitana, cuya historia también habla de cómo la ciudad transformó su litoral."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "Su paisaje actual mezcla edificios residenciales, museos y un espacio público de escala metropolitana, cuya historia también habla de cómo la ciudad transformó su litoral."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "El Aterro es extenso: elige un tramo, ubica un punto de regreso y comprueba accesos y actividades del parque ese día."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "No intentes abarcarlo todo: elige un eje de la visita y deja tiempo para mirar cómo cambia el lugar entre sus calles, espacios públicos y puntos de interés. Confirma antes los horarios, accesos y transporte del día."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "O Flamengo passou de chácaras e praias da baía a bairro urbano conectado por bondes e avenidas. A grande transformação do século XX foi o Aterro: uma obra sobre terrenos conquistados ao mar que criou parque, vias e novas perspectivas da água. A paisagem atual mistura edifícios residenciais, museus e espaço público metropolitano, contando também como a cidade transformou seu litoral."
+        ],
+        [
+          "O que observar pelo caminho",
+          "A paisagem atual mistura edifícios residenciais, museus e espaço público metropolitano, contando também como a cidade transformou seu litoral."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "O Aterro é extenso: escolha um trecho, defina um ponto de retorno e confira acessos e atividades do parque no dia."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Não tente fazer tudo: escolha um eixo para a visita e reserve tempo para observar como o lugar muda entre ruas, espaços públicos e pontos de interesse. Confira antes os horários, acessos e transporte do dia."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Flamengo grew from country estates and bay beaches into an urban neighborhood linked by trams and avenues. Its major 20th-century transformation was the Aterro, landfill that created a park, roads, and new views across the water. Today residential buildings, museums, and metropolitan-scale public space meet here, telling a story about how the city reshaped its shoreline."
+        ],
+        [
+          "What to notice along the way",
+          "Today residential buildings, museums, and metropolitan-scale public space meet here, telling a story about how the city reshaped its shoreline."
+        ],
+        [
+          "A way to plan your visit",
+          "The Aterro is extensive: choose a section, set a return point, and check access and park activities for that day."
+        ],
+        [
+          "My tip for the walk",
+          "Do not try to cover everything: choose one focus and leave time to notice how the area changes between its streets, public spaces, and landmarks. Check opening times, access, and transport before setting out."
+        ]
+      ]
+    },
+  "laranjeiras": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "La ocupación de Laranjeiras siguió el valle del río Carioca, uno de los cursos de agua que abastecieron la ciudad colonial. Chacras y caminos dieron paso a calles residenciales, palacetes e instituciones; el Palacio Guanabara suma una capa republicana a una zona cuyo crecimiento estuvo ligado a Catete y Flamengo. El relieve y los antiguos cursos de agua ayudan a leer por qué algunas calles suben hacia Cosme Velho."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "El relieve y los antiguos cursos de agua ayudan a leer por qué algunas calles suben hacia Cosme Velho."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Busca las huellas del río en la geografía urbana y combina el paseo con una visita que hayas confirmado de antemano."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "No intentes abarcarlo todo: elige un eje de la visita y deja tiempo para mirar cómo cambia el lugar entre sus calles, espacios públicos y puntos de interés. Confirma antes los horarios, accesos y transporte del día."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "A ocupação de Laranjeiras acompanhou o vale do Rio Carioca, um dos cursos d’água que abasteciam a cidade colonial. Chácaras e caminhos deram lugar a ruas residenciais, palacetes e instituições; o Palácio Guanabara acrescenta uma camada republicana a uma região ligada ao Catete e ao Flamengo. O relevo e os antigos cursos d’água ajudam a entender as ruas que sobem em direção a Cosme Velho."
+        ],
+        [
+          "O que observar pelo caminho",
+          "O relevo e os antigos cursos d’água ajudam a entender as ruas que sobem em direção a Cosme Velho."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Procure as marcas do rio na geografia urbana e combine a caminhada com uma visita previamente confirmada."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Não tente fazer tudo: escolha um eixo para a visita e reserve tempo para observar como o lugar muda entre ruas, espaços públicos e pontos de interesse. Confira antes os horários, acessos e transporte do dia."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Laranjeiras developed along the valley of the Carioca River, one of the waterways that supplied colonial Rio. Country estates and paths gave way to residential streets, mansions, and institutions; Guanabara Palace adds a republican layer to an area linked with Catete and Flamengo. The terrain and former waterways help explain why some streets climb toward Cosme Velho."
+        ],
+        [
+          "What to notice along the way",
+          "The terrain and former waterways help explain why some streets climb toward Cosme Velho."
+        ],
+        [
+          "A way to plan your visit",
+          "Look for traces of the river in the urban landscape and pair the walk with a visit you have checked in advance."
+        ],
+        [
+          "My tip for the walk",
+          "Do not try to cover everything: choose one focus and leave time to notice how the area changes between its streets, public spaces, and landmarks. Check opening times, access, and transport before setting out."
+        ]
+      ]
+    },
+  "catete": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Catete reúne dos relatos que conviene mirar juntos: fue corredor de expansión entre el Centro y los barrios del sur, y albergó el palacio que funcionó como sede presidencial hasta 1960. La avenida, el Palacio do Catete y el Museo de la República hacen visible el paso de residencias y quintas a una calle de intenso comercio y transporte. El barrio no es solo memoria política: sigue siendo una centralidad cotidiana."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "El barrio no es solo memoria política: sigue siendo una centralidad cotidiana."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Reserva tiempo para el museo y sus jardines, verificando apertura y exposiciones; luego busca las calles laterales para una escala más vecinal."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "Comprueba la apertura de museos, iglesias y visitas guiadas. En fines de semana y feriados, el ritmo y los servicios pueden cambiar."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "O Catete reúne duas histórias que vale observar juntas: foi corredor de expansão entre o Centro e os bairros do sul e abrigou o palácio que serviu como sede presidencial até 1960. A avenida, o Palácio do Catete e o Museu da República mostram a passagem de residências e chácaras para uma rua de comércio e transporte intensos. O bairro não é só memória política: continua sendo uma centralidade cotidiana."
+        ],
+        [
+          "O que observar pelo caminho",
+          "O bairro não é só memória política: continua sendo uma centralidade cotidiana."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Reserve tempo para o museu e os jardins, conferindo a abertura e as exposições; depois explore as ruas laterais."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Confirme a abertura de museus, igrejas e visitas guiadas. Nos fins de semana e feriados, o ritmo e os serviços podem mudar."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Catete brings together two stories worth reading side by side: it was an expansion corridor between downtown and the southern neighborhoods, and home to the palace that served as the presidential seat until 1960. The avenue, Catete Palace, and the Republic Museum reveal the shift from country houses to a busy street of commerce and transit. This is not only political memory; it remains a daily hub."
+        ],
+        [
+          "What to notice along the way",
+          "This is not only political memory; it remains a daily hub."
+        ],
+        [
+          "A way to plan your visit",
+          "Allow time for the museum and gardens, checking opening details and exhibitions, then explore the side streets for a neighborhood scale."
+        ],
+        [
+          "My tip for the walk",
+          "Check opening times for museums, churches, and guided visits. Weekends and holidays can change the area’s pace and services."
+        ]
+      ]
+    },
+  "gloria": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Glória fue uno de los primeros corredores de crecimiento desde el núcleo colonial hacia el sur. La iglesia de Nossa Senhora da Glória do Outeiro domina la colina y conecta paisaje, devoción y vistas de la bahía; abajo, los sucesivos aterros alteraron la relación entre el barrio y el agua. Entre la iglesia, la Marina y el borde del parque se superponen siglos de transformación urbana."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "Entre la iglesia, la Marina y el borde del parque se superponen siglos de transformación urbana."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Son dos escalas muy distintas: barrio antiguo y gran espacio público junto al agua."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "Comprueba la apertura de museos, iglesias y visitas guiadas. En fines de semana y feriados, el ritmo y los servicios pueden cambiar."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "A Glória foi um dos primeiros corredores de crescimento a partir do núcleo colonial em direção ao sul. A Igreja de Nossa Senhora da Glória do Outeiro domina a colina e une paisagem, devoção e vista da baía; embaixo, sucessivos aterros mudaram a relação do bairro com a água. Entre a igreja, a Marina e a borda do parque, várias épocas da transformação urbana se sobrepõem."
+        ],
+        [
+          "O que observar pelo caminho",
+          "Entre a igreja, a Marina e a borda do parque, várias épocas da transformação urbana se sobrepõem."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "São duas escalas distintas: bairro antigo e grande espaço público junto à água."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Confirme a abertura de museus, igrejas e visitas guiadas. Nos fins de semana e feriados, o ritmo e os serviços podem mudar."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Glória was one of the earliest growth corridors from the colonial core toward the south. The church of Nossa Senhora da Glória do Outeiro crowns the hill, joining landscape, devotion, and bay views; below, successive landfills changed the neighborhood’s relationship with the water. Around the church, marina, and park edge, centuries of urban change overlap."
+        ],
+        [
+          "What to notice along the way",
+          "Around the church, marina, and park edge, centuries of urban change overlap."
+        ],
+        [
+          "A way to plan your visit",
+          "They reveal two very different scales: an old neighborhood and a major public space by the water."
+        ],
+        [
+          "My tip for the walk",
+          "Check opening times for museums, churches, and guided visits. Weekends and holidays can change the area’s pace and services."
+        ]
+      ]
+    },
+  "lapa": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Los Arcos da Lapa se construyeron como acueducto en el siglo XVIII para llevar agua hacia la ciudad; el tranvía a Santa Teresa aprovechó después su estructura. Alrededor, Lapa pasó por distintas etapas de vivienda, bohemia, abandono y renovación, hasta convertirse en un símbolo de música y noche. La Escadaria Selarón añadió una obra pública contemporánea a un entorno de capas coloniales y republicanas."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "La Escadaria Selarón añadió una obra pública contemporánea a un entorno de capas coloniales y republicanas."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Lapa cambia mucho según horario y evento: el mismo recorrido no ofrece la misma experiencia."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "Comprueba la apertura de museos, iglesias y visitas guiadas. En fines de semana y feriados, el ritmo y los servicios pueden cambiar."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "Os Arcos da Lapa foram construídos no século XVIII como aqueduto para levar água à cidade; mais tarde, o bonde para Santa Teresa aproveitou sua estrutura. A Lapa atravessou fases de moradia, boemia, abandono e renovação até virar símbolo de música e vida noturna. A Escadaria Selarón acrescentou uma obra pública contemporânea a um entorno de camadas coloniais e republicanas."
+        ],
+        [
+          "O que observar pelo caminho",
+          "A Escadaria Selarón acrescentou uma obra pública contemporânea a um entorno de camadas coloniais e republicanas."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "A Lapa muda bastante conforme o horário e o evento: o mesmo passeio não oferece sempre a mesma experiência."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Confirme a abertura de museus, igrejas e visitas guiadas. Nos fins de semana e feriados, o ritmo e os serviços podem mudar."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "The Lapa Arches were built in the 18th century as an aqueduct to bring water into the city; later, the Santa Teresa tram used the structure. Lapa has passed through eras of housing, bohemian life, decline, and renewal, becoming a symbol of music and nightlife. The Selarón Staircase added a contemporary public artwork to a setting shaped by colonial and republican layers."
+        ],
+        [
+          "What to notice along the way",
+          "The Selarón Staircase added a contemporary public artwork to a setting shaped by colonial and republican layers."
+        ],
+        [
+          "A way to plan your visit",
+          "Lapa changes greatly with the hour and the event, so the same route can feel very different."
+        ],
+        [
+          "My tip for the walk",
+          "Check opening times for museums, churches, and guided visits. Weekends and holidays can change the area’s pace and services."
+        ]
+      ]
+    },
+  "centro": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "El Centro conserva en pocas cuadras las etapas que formaron Río: calles del puerto colonial, conventos y plazas, edificios imperiales, instituciones republicanas y avenidas abiertas en las reformas del siglo XX. La expansión hacia Glória, Catete y los suburbios puede leerse en antiguos caminos y estaciones. Aquí la historia no está aislada en un museo: convive con oficinas, comercios, cultura y el uso diario de la ciudad."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "Aquí la historia no está aislada en un museo: convive con oficinas, comercios, cultura y el uso diario de la ciudad."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Las distancias parecen cortas, pero el tráfico, las obras y los horarios cambian el recorrido; deja margen y plan de retorno."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "Comprueba la apertura de museos, iglesias y visitas guiadas. En fines de semana y feriados, el ritmo y los servicios pueden cambiar."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "O Centro preserva, em poucas quadras, etapas que formaram o Rio: ruas do porto colonial, conventos e praças, edifícios imperiais, instituições republicanas e avenidas abertas nas reformas do século XX. A expansão em direção à Glória, ao Catete e aos subúrbios pode ser lida em antigos caminhos e estações. A história aqui não fica isolada num museu: convive com escritórios, comércio, cultura e o uso cotidiano da cidade."
+        ],
+        [
+          "O que observar pelo caminho",
+          "A história aqui não fica isolada num museu: convive com escritórios, comércio, cultura e o uso cotidiano da cidade."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "As distâncias parecem curtas, mas trânsito, obras e horários mudam o passeio; reserve tempo e planeje a volta."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Confirme a abertura de museus, igrejas e visitas guiadas. Nos fins de semana e feriados, o ritmo e os serviços podem mudar."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Downtown preserves, within a few blocks, the layers that shaped Rio: streets of the colonial port, convents and squares, imperial buildings, republican institutions, and avenues opened during 20th-century reforms. The city’s growth toward Glória, Catete, and the suburbs can be traced through old roads and stations. History is not isolated in a museum here; it lives alongside offices, shops, culture, and daily urban life."
+        ],
+        [
+          "What to notice along the way",
+          "History is not isolated in a museum here; it lives alongside offices, shops, culture, and daily urban life."
+        ],
+        [
+          "A way to plan your visit",
+          "Distances look short, but traffic, construction, and hours change a route; leave time and plan your return."
+        ],
+        [
+          "My tip for the walk",
+          "Check opening times for museums, churches, and guided visits. Weekends and holidays can change the area’s pace and services."
+        ]
+      ]
+    },
+  "lagoa": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "La laguna dio nombre y forma a un barrio cuyo paisaje también fue alterado por rellenos, avenidas y obras de saneamiento. Durante siglos, las tierras de sus bordes se vincularon a ingenios y propiedades rurales; la urbanización moderna convirtió el contorno en paseo y frente residencial. El nombre Rodrigo de Freitas recuerda una de esas antiguas propiedades: la naturaleza visible está entrelazada con una historia de ocupación y transformación."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "El nombre Rodrigo de Freitas recuerda una de esas antiguas propiedades: la naturaleza visible está entrelazada con una historia de ocupación y transformación."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Para conocer el barrio, combina el borde con una calle interior; así no reduces Lagoa a una postal o a una vuelta completa."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "No intentes abarcarlo todo: elige un eje de la visita y deja tiempo para mirar cómo cambia el lugar entre sus calles, espacios públicos y puntos de interés. Confirma antes los horarios, accesos y transporte del día."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "A lagoa deu nome e forma ao bairro, mas sua paisagem também mudou com aterros, avenidas e obras de saneamento. Durante séculos, as terras ao redor estiveram ligadas a engenhos e propriedades rurais; a urbanização moderna transformou a margem em passeio e área residencial. O nome Rodrigo de Freitas lembra uma dessas antigas propriedades: a natureza visível se mistura à história de ocupação e transformação."
+        ],
+        [
+          "O que observar pelo caminho",
+          "O nome Rodrigo de Freitas lembra uma dessas antigas propriedades: a natureza visível se mistura à história de ocupação e transformação."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Para conhecer o bairro, combine a margem com uma rua interna; assim Lagoa não se resume a um cartão-postal ou a uma volta completa."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Não tente fazer tudo: escolha um eixo para a visita e reserve tempo para observar como o lugar muda entre ruas, espaços públicos e pontos de interesse. Confira antes os horários, acessos e transporte do dia."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "The lagoon gave the neighborhood its name and shape, but its landscape was also changed by landfill, roads, and sanitation works. For centuries, its shores were linked to sugar estates and rural properties; modern urbanization turned the edge into a promenade and residential frontage. The name Rodrigo de Freitas recalls one of those former estates: visible nature is intertwined with a history of settlement and transformation."
+        ],
+        [
+          "What to notice along the way",
+          "The name Rodrigo de Freitas recalls one of those former estates: visible nature is intertwined with a history of settlement and transformation."
+        ],
+        [
+          "A way to plan your visit",
+          "Pair the shore with an inner street to understand the neighborhood beyond a postcard or a full loop."
+        ],
+        [
+          "My tip for the walk",
+          "Do not try to cover everything: choose one focus and leave time to notice how the area changes between its streets, public spaces, and landmarks. Check opening times, access, and transport before setting out."
+        ]
+      ]
+    },
+  "gavea": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Gávea se formó entre antiguas tierras agrícolas, laderas de la Tijuca y la expansión residencial del siglo XX. Su identidad actual mezcla instituciones universitarias, casas y edificios, cultura y la cercanía de la montaña. El nombre y los límites del barrio esconden una geografía de valles y pendientes: moverse de una zona a otra puede llevar más tiempo del que sugiere el mapa."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "El nombre y los límites del barrio esconden una geografía de valles y pendientes: moverse de una zona a otra puede llevar más tiempo del que sugiere el mapa."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "El barrio se presta a una pausa larga, pero no conviene juntar puntos alejados sin calcular el trayecto."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "No intentes abarcarlo todo: elige un eje de la visita y deja tiempo para mirar cómo cambia el lugar entre sus calles, espacios públicos y puntos de interés. Confirma antes los horarios, accesos y transporte del día."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "A Gávea se formou entre antigas terras agrícolas, encostas da Tijuca e a expansão residencial do século XX. Sua identidade atual combina instituições universitárias, casas e edifícios, cultura e proximidade da montanha. O nome e os limites do bairro escondem uma geografia de vales e ladeiras: ir de uma área a outra pode levar mais tempo do que o mapa sugere."
+        ],
+        [
+          "O que observar pelo caminho",
+          "O nome e os limites do bairro escondem uma geografia de vales e ladeiras: ir de uma área a outra pode levar mais tempo do que o mapa sugere."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "O bairro convida a uma pausa longa, mas evite juntar pontos distantes sem calcular o trajeto."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Não tente fazer tudo: escolha um eixo para a visita e reserve tempo para observar como o lugar muda entre ruas, espaços públicos e pontos de interesse. Confira antes os horários, acessos e transporte do dia."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Gávea took shape between former agricultural lands, Tijuca’s slopes, and 20th-century residential expansion. Today it combines universities, houses and apartment buildings, culture, and proximity to the mountains. Its geography of valleys and hills means getting from one part to another can take longer than the map suggests."
+        ],
+        [
+          "What to notice along the way",
+          "Its geography of valleys and hills means getting from one part to another can take longer than the map suggests."
+        ],
+        [
+          "A way to plan your visit",
+          "The neighborhood invites a long pause, but avoid combining distant stops without checking the route."
+        ],
+        [
+          "My tip for the walk",
+          "Do not try to cover everything: choose one focus and leave time to notice how the area changes between its streets, public spaces, and landmarks. Check opening times, access, and transport before setting out."
+        ]
+      ]
+    },
+  "recreio": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Recreio dos Bandeirantes creció con la expansión hacia el oeste, sobre una franja costera de playas largas, dunas, lagunas y áreas naturales. Su urbanización se aceleró con nuevas conexiones de carretera y transporte en las últimas décadas, sin borrar el valor ambiental de las restingas y la cercanía del Parque Estadual da Pedra Branca. La distancia respecto del Centro cambia el modo de planear la visita."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "La distancia respecto del Centro cambia el modo de planear la visita."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Prainha y Grumari no son una extensión sencilla de cualquier otro punto de Recreio; evita combinarlas sin revisar distancias y condiciones."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "Si el plan incluye playa, revisa el estado del mar, las banderas y el clima; define también dónde vas a terminar y cómo volver."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "O Recreio dos Bandeirantes cresceu com a expansão para oeste, numa faixa costeira de praias longas, dunas, lagoas e áreas naturais. A urbanização acelerou com novas ligações rodoviárias e de transporte nas últimas décadas, sem apagar a importância ambiental das restingas e a proximidade do Parque Estadual da Pedra Branca. A distância do Centro muda o modo de planejar a visita."
+        ],
+        [
+          "O que observar pelo caminho",
+          "A distância do Centro muda o modo de planejar a visita."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Prainha e Grumari não são uma extensão simples de qualquer ponto do Recreio; não as combine sem verificar distâncias e condições."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Se o plano inclui praia, confira as condições do mar, as bandeiras e o clima; defina também onde terminar e como voltar."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Recreio dos Bandeirantes grew with the westward expansion, along a coastal strip of long beaches, dunes, lagoons, and natural areas. Urbanization accelerated with new road and transit connections in recent decades, while the ecological value of the sandbanks and proximity to Pedra Branca State Park remain important. Its distance from downtown changes how a visit should be planned."
+        ],
+        [
+          "What to notice along the way",
+          "Its distance from downtown changes how a visit should be planned."
+        ],
+        [
+          "A way to plan your visit",
+          "Prainha and Grumari are not an easy add-on to every part of Recreio; do not combine them without checking distances and conditions."
+        ],
+        [
+          "My tip for the walk",
+          "If your plan includes the beach, check sea conditions, flags, and weather; also decide where you will finish and how you will return."
+        ]
+      ]
+    },
+  "vargens": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Vargem Grande y Vargem Pequena conservan una relación directa con la historia rural de la Baixada de Jacarepaguá. La región se repartió entre grandes propiedades desde el siglo XVI y, en los siglos siguientes, se organizó en torno a ingenios y producción agrícola sostenidos por trabajo esclavizado. Hoy conviven urbanización reciente, caminos largos, áreas de Mata Atlántica y memoria de esas antiguas haciendas."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "Hoy conviven urbanización reciente, caminos largos, áreas de Mata Atlántica y memoria de esas antiguas haciendas."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Si vas por senderos o espacios naturales, verifica acceso y reglas; no improvises una vuelta sin transporte confirmado."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "No intentes abarcarlo todo: elige un eje de la visita y deja tiempo para mirar cómo cambia el lugar entre sus calles, espacios públicos y puntos de interés. Confirma antes los horarios, accesos y transporte del día."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "Vargem Grande e Vargem Pequena mantêm uma relação direta com a história rural da Baixada de Jacarepaguá. A região foi dividida entre grandes propriedades a partir do século XVI e, nos séculos seguintes, se organizou em torno de engenhos e produção agrícola sustentados pelo trabalho escravizado. Hoje convivem urbanização recente, caminhos longos, Mata Atlântica e memória das antigas fazendas."
+        ],
+        [
+          "O que observar pelo caminho",
+          "Hoje convivem urbanização recente, caminhos longos, Mata Atlântica e memória das antigas fazendas."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Se for a trilhas ou áreas naturais, confira acesso e regras; não improvise a volta sem transporte confirmado."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Não tente fazer tudo: escolha um eixo para a visita e reserve tempo para observar como o lugar muda entre ruas, espaços públicos e pontos de interesse. Confira antes os horários, acessos e transporte do dia."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Vargem Grande and Vargem Pequena remain tied to the rural history of the Jacarepaguá lowlands. From the 16th century, the area was divided among large estates and later organized around sugar mills and farming sustained by enslaved labor. Today recent urbanization, long roads, Atlantic Forest, and the memory of old farms coexist."
+        ],
+        [
+          "What to notice along the way",
+          "Today recent urbanization, long roads, Atlantic Forest, and the memory of old farms coexist."
+        ],
+        [
+          "A way to plan your visit",
+          "Check access and rules before visiting trails or natural areas, and do not improvise a return without confirmed transport."
+        ],
+        [
+          "My tip for the walk",
+          "Do not try to cover everything: choose one focus and leave time to notice how the area changes between its streets, public spaces, and landmarks. Check opening times, access, and transport before setting out."
+        ]
+      ]
+    },
+  "guaratiba": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Guaratiba reúne costa, manglares, montañas y antiguos caminos de la Zona Oeste. La región participó de redes coloniales de haciendas y producción agrícola, pero su historia también incluye ocupaciones indígenas y una relación intensa con la bahía de Sepetiba. El Sítio Roberto Burle Marx conserva una colección paisajística y botánica de valor excepcional, mientras otras áreas mantienen una escala de pueblo y naturaleza."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "El Sítio Roberto Burle Marx conserva una colección paisajística y botánica de valor excepcional, mientras otras áreas mantienen una escala de pueblo y naturaleza."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Confirma previamente entradas y horarios del Sítio, acceso a playas o senderos, clima y transporte de vuelta. Elige un solo sector para recorrer con tiempo y evita depender de servicios que no hayas comprobado."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "Si el plan incluye playa, revisa el estado del mar, las banderas y el clima; define también dónde vas a terminar y cómo volver."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "Guaratiba reúne litoral, manguezais, montanhas e antigos caminhos da Zona Oeste. A região participou de redes coloniais de fazendas e produção agrícola, mas sua história também inclui ocupações indígenas e uma relação intensa com a Baía de Sepetiba. O Sítio Roberto Burle Marx preserva uma coleção paisagística e botânica excepcional, enquanto outras áreas mantêm uma escala de vila e natureza."
+        ],
+        [
+          "O que observar pelo caminho",
+          "O Sítio Roberto Burle Marx preserva uma coleção paisagística e botânica excepcional, enquanto outras áreas mantêm uma escala de vila e natureza."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Confirme antes ingressos e horários do Sítio, acesso a praias ou trilhas, clima e transporte de volta. Escolha um setor para conhecer com tempo e evite depender de serviços que não tenha verificado."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Se o plano inclui praia, confira as condições do mar, as bandeiras e o clima; defina também onde terminar e como voltar."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Guaratiba brings together coastline, mangroves, hills, and old roads of the West Zone. It was part of colonial estate and agricultural networks, but its history also includes Indigenous occupation and a close relationship with Sepetiba Bay. The Sítio Roberto Burle Marx preserves an exceptional landscape and botanical collection, while other areas retain a village and nature scale."
+        ],
+        [
+          "What to notice along the way",
+          "The Sítio Roberto Burle Marx preserves an exceptional landscape and botanical collection, while other areas retain a village and nature scale."
+        ],
+        [
+          "A way to plan your visit",
+          "Check tickets and hours for the Sítio, access to beaches or trails, weather, and return transport in advance. Choose one sector to explore slowly and avoid relying on services you have not confirmed."
+        ],
+        [
+          "My tip for the walk",
+          "If your plan includes the beach, check sea conditions, flags, and weather; also decide where you will finish and how you will return."
+        ]
+      ]
+    },
+  "sepetiba": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Sepetiba se desarrolló en torno a la bahía y a la antigua Fazenda de Santa Cruz, cuyos dominios coloniales abarcaron grandes extensiones del oeste. La costa fue lugar de circulación, pesca y ocupación mucho antes de la urbanización contemporánea. La relación entre barrio, bahía y actividad industrial recuerda que el paisaje costero también refleja decisiones sobre saneamiento, trabajo y crecimiento metropolitano."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "La relación entre barrio, bahía y actividad industrial recuerda que el paisaje costero también refleja decisiones sobre saneamiento, trabajo y crecimiento metropolitano."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Planea ida y vuelta y considera el tiempo de traslado antes de sumar Sepetiba a otro paseo lejano."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "Si el plan incluye playa, revisa el estado del mar, las banderas y el clima; define también dónde vas a terminar y cómo volver."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "Sepetiba se desenvolveu junto à baía e à antiga Fazenda de Santa Cruz, cujos domínios coloniais cobriam grandes áreas do oeste. O litoral foi lugar de circulação, pesca e ocupação muito antes da urbanização contemporânea. A relação entre bairro, baía e atividade industrial lembra que a paisagem costeira também reflete decisões sobre saneamento, trabalho e crescimento metropolitano."
+        ],
+        [
+          "O que observar pelo caminho",
+          "A relação entre bairro, baía e atividade industrial lembra que a paisagem costeira também reflete decisões sobre saneamento, trabalho e crescimento metropolitano."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Planeje ida e volta e considere o tempo de deslocamento antes de combinar Sepetiba com outro passeio distante."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Se o plano inclui praia, confira as condições do mar, as bandeiras e o clima; defina também onde terminar e como voltar."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Sepetiba developed around the bay and the former Santa Cruz estate, whose colonial lands covered large areas of the west. The coast was a place of movement, fishing, and settlement long before contemporary urbanization. The relationship among neighborhood, bay, and industry shows that coastal landscapes also reflect choices about sanitation, work, and metropolitan growth."
+        ],
+        [
+          "What to notice along the way",
+          "The relationship among neighborhood, bay, and industry shows that coastal landscapes also reflect choices about sanitation, work, and metropolitan growth."
+        ],
+        [
+          "A way to plan your visit",
+          "Plan your return and travel time before combining Sepetiba with another distant outing."
+        ],
+        [
+          "My tip for the walk",
+          "If your plan includes the beach, check sea conditions, flags, and weather; also decide where you will finish and how you will return."
+        ]
+      ]
+    },
+  "tijuca": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Tijuca se consolidó como barrio urbano cuando caminos, tranvías y ferrocarril acercaron los antiguos arrabales al Centro durante el siglo XIX. Su crecimiento residencial dio lugar a plazas, comercio de calle y una vida barrial muy marcada, mientras la Floresta da Tijuca recuerda la historia de deforestación cafetalera y reforestación imperial del macizo. Es una puerta urbana hacia la montaña, no un parque aislado de la ciudad."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "Es una puerta urbana hacia la montaña, no un parque aislado de la ciudad."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Comprueba el acceso específico que quieres usar y deja margen para pendientes, calor y transporte entre sectores."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "No intentes abarcarlo todo: elige un eje de la visita y deja tiempo para mirar cómo cambia el lugar entre sus calles, espacios públicos y puntos de interés. Confirma antes los horarios, accesos y transporte del día."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "A Tijuca se consolidou como bairro urbano quando caminhos, bondes e ferrovias aproximaram os antigos arrabaldes do Centro durante o século XIX. Seu crescimento residencial formou praças, comércio de rua e uma vida de bairro marcante, enquanto a Floresta da Tijuca lembra a história de desmatamento para o café e reflorestamento imperial do maciço. É uma porta urbana para a montanha, não um parque isolado da cidade."
+        ],
+        [
+          "O que observar pelo caminho",
+          "É uma porta urbana para a montanha, não um parque isolado da cidade."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Confira o acesso específico que pretende usar e reserve tempo para ladeiras, calor e deslocamentos."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Não tente fazer tudo: escolha um eixo para a visita e reserve tempo para observar como o lugar muda entre ruas, espaços públicos e pontos de interesse. Confira antes os horários, acessos e transporte do dia."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Tijuca became an urban neighborhood as roads, trams, and rail brought former outskirts closer to downtown in the 19th century. Residential growth created squares, street commerce, and a strong local identity, while Tijuca Forest recalls the history of coffee-driven deforestation and imperial reforestation. The neighborhood is an urban gateway to the mountain, not a park apart from the city."
+        ],
+        [
+          "What to notice along the way",
+          "The neighborhood is an urban gateway to the mountain, not a park apart from the city."
+        ],
+        [
+          "A way to plan your visit",
+          "Check the exact access point you plan to use and allow for hills, heat, and travel between sections."
+        ],
+        [
+          "My tip for the walk",
+          "Do not try to cover everything: choose one focus and leave time to notice how the area changes between its streets, public spaces, and landmarks. Check opening times, access, and transport before setting out."
+        ]
+      ]
+    },
+  "maracana": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "El estadio abrió en 1950 para el Mundial y transformó una parte de la ciudad en escenario de encuentros deportivos, políticos y musicales de escala nacional. Su entorno conecta Tijuca, São Cristóvão y la zona central mediante grandes avenidas y transporte ferroviario. Maracanã es también un nombre de barrio: distinguir el estadio de la zona que lo rodea evita reducir la visita a un único edificio."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "Maracanã es también un nombre de barrio: distinguir el estadio de la zona que lo rodea evita reducir la visita a un único edificio."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "En jornadas tranquilas, observa el estadio desde su entorno y conecta el paseo con Quinta da Boa Vista o la zona de São Cristóvão."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "Comprueba la apertura de museos, iglesias y visitas guiadas. En fines de semana y feriados, el ritmo y los servicios pueden cambiar."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "O estádio foi inaugurado em 1950 para a Copa do Mundo e transformou parte da cidade em cenário de encontros esportivos, políticos e musicais de alcance nacional. O entorno conecta Tijuca, São Cristóvão e a área central por grandes avenidas e transporte ferroviário. Maracanã também é nome de bairro: distinguir o estádio da região ao redor evita reduzir a visita a um único edifício."
+        ],
+        [
+          "O que observar pelo caminho",
+          "Maracanã também é nome de bairro: distinguir o estádio da região ao redor evita reduzir a visita a um único edifício."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Em dias tranquilos, observe o estádio pelo entorno e combine o passeio com a Quinta da Boa Vista ou São Cristóvão."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Confirme a abertura de museus, igrejas e visitas guiadas. Nos fins de semana e feriados, o ritmo e os serviços podem mudar."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "The stadium opened in 1950 for the World Cup and turned part of the city into a stage for major sporting, political, and musical gatherings. Its surroundings link Tijuca, São Cristóvão, and central Rio through major roads and rail. Maracanã is also a neighborhood name: distinguishing the stadium from the surrounding area prevents the visit from shrinking to one building."
+        ],
+        [
+          "What to notice along the way",
+          "Maracanã is also a neighborhood name: distinguishing the stadium from the surrounding area prevents the visit from shrinking to one building."
+        ],
+        [
+          "A way to plan your visit",
+          "On quieter days, view the stadium from its surroundings and link the walk with Quinta da Boa Vista or São Cristóvão."
+        ],
+        [
+          "My tip for the walk",
+          "Check opening times for museums, churches, and guided visits. Weekends and holidays can change the area’s pace and services."
+        ]
+      ]
+    },
+  "madureira": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Madureira creció junto al ferrocarril y se transformó en un gran centro de comercio para los suburbios. Mercadão, estaciones y calles concurridas ayudan a entender esa centralidad; Portela e Império Serrano sitúan al barrio en el mapa del samba. El Baile Charme de Madureira, nacido en los años noventa, es otra historia de cultura creada y sostenida por la comunidad, no un espectáculo diseñado para visitantes."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "El Baile Charme de Madureira, nacido en los años noventa, es otra historia de cultura creada y sostenida por la comunidad, no un espectáculo diseñado para visitantes."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Horarios y programación cambian; consulta a los espacios antes de salir y deja tiempo para orientarte en los cruces entre estación, mercado y plazas."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "Consulta qué puestos y espacios estarán abiertos ese día, y organiza la vuelta pensando en compras, eventos y horario."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "Madureira cresceu junto à ferrovia e se tornou um grande centro comercial dos subúrbios. O Mercadão, as estações e as ruas movimentadas ajudam a entender essa centralidade; Portela e Império Serrano colocam o bairro no mapa do samba. O Baile Charme de Madureira, surgido nos anos 1990, é outra história de cultura criada e mantida pela comunidade, não um espetáculo feito para visitantes."
+        ],
+        [
+          "O que observar pelo caminho",
+          "O Baile Charme de Madureira, surgido nos anos 1990, é outra história de cultura criada e mantida pela comunidade, não um espetáculo feito para visitantes."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Horários e programação mudam; consulte os espaços antes de sair e reserve tempo para se orientar entre estação, mercado e praças."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Confira quais lojas e espaços estarão abertos no dia e planeje a volta considerando compras, eventos e horário."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Madureira grew alongside the railway and became a major commercial center for Rio’s suburbs. The Mercadão, stations, and busy streets help explain this centrality; Portela and Império Serrano place the neighborhood on the samba map. Madureira’s Charme dance, which began in the 1990s, tells another story of culture created and sustained by its community rather than staged for visitors."
+        ],
+        [
+          "What to notice along the way",
+          "Madureira’s Charme dance, which began in the 1990s, tells another story of culture created and sustained by its community rather than staged for visitors."
+        ],
+        [
+          "A way to plan your visit",
+          "Hours and programs change; check with venues before setting out and allow time to navigate between the station, market, and squares."
+        ],
+        [
+          "My tip for the walk",
+          "Check which stalls and venues will be open, then plan your return around shopping, events, and the day’s schedule."
+        ]
+      ]
+    },
+  "cadeg": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "El CADEG nació como mercado municipal de abastecimiento y se volvió una referencia comercial y gastronómica para la ciudad. Su nombre aún remite a la antigua Companhia de Armazéns e Entrepostos Gerais; el actual Mercado Municipal do Rio reúne floristas, alimentos, bodegas y restaurantes en un enorme edificio del barrio de Benfica. Entenderlo como mercado de trabajo y abastecimiento permite mirar más allá de la visita gastronómica."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "Entenderlo como mercado de trabajo y abastecimiento permite mirar más allá de la visita gastronómica."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Lleva una lista corta: el edificio es extenso, hay mucha oferta y el movimiento cambia según el día. Verifica transporte y acceso antes de combinarlo con otros barrios."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "Consulta qué puestos y espacios estarán abiertos ese día, y organiza la vuelta pensando en compras, eventos y horario."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "O CADEG nasceu como mercado municipal de abastecimento e virou referência comercial e gastronômica da cidade. Seu nome ainda remete à antiga Companhia de Armazéns e Entrepostos Gerais; o atual Mercado Municipal do Rio reúne floristas, alimentos, adegas e restaurantes num grande edifício em Benfica. Entendê-lo como mercado de trabalho e abastecimento ajuda a olhar além do passeio gastronômico."
+        ],
+        [
+          "O que observar pelo caminho",
+          "Entendê-lo como mercado de trabalho e abastecimento ajuda a olhar além do passeio gastronômico."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Faça uma lista curta: o edifício é grande, há muitas opções e o ritmo muda conforme o dia. Confira transporte e acesso antes de combinar com outros bairros."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Confira quais lojas e espaços estarão abertos no dia e planeje a volta considerando compras, eventos e horário."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "CADEG began as a municipal wholesale market and became a commercial and food landmark for the city. Its name recalls the former Companhia de Armazéns e Entrepostos Gerais; today’s Rio Municipal Market brings together florists, food sellers, wine shops, and restaurants in a large building in Benfica. Seeing it as a workplace and supply hub reveals more than a food outing."
+        ],
+        [
+          "What to notice along the way",
+          "Seeing it as a workplace and supply hub reveals more than a food outing."
+        ],
+        [
+          "A way to plan your visit",
+          "Keep a short list: the building is large, choices are plentiful, and activity varies by day. Check transport and access before combining it with other neighborhoods."
+        ],
+        [
+          "My tip for the walk",
+          "Check which stalls and venues will be open, then plan your return around shopping, events, and the day’s schedule."
+        ]
+      ]
+    },
+  "jacarepagua": {
+      "ES": [
+        [
+          "La historia que sigue presente",
+          "Jacarepaguá significa, em tupi, algo próximo a “lagoa rasa dos jacarés”, e a región fue conocida como la Planície dos Onze Engenhos por su producción azucarera. En esas fincas hubo trabajo esclavizado y concentración de tierras; sus caminos y capillas aún ayudan a leer la formación del oeste. El barrio administrativo moderno se fragmentó en áreas con identidades propias, desde Taquara hasta Freguesia y las Vargens."
+        ],
+        [
+          "Qué observar al recorrerlo",
+          "El barrio administrativo moderno se fragmentó en áreas con identidades propias, desde Taquara hasta Freguesia y las Vargens."
+        ],
+        [
+          "Una forma de organizar la visita",
+          "Comprueba tiempos y conexiones; no des por hecho que dos sitios con dirección en Jacarepaguá queden cerca."
+        ],
+        [
+          "Mi consejo para el paseo",
+          "No intentes abarcarlo todo: elige un eje de la visita y deja tiempo para mirar cómo cambia el lugar entre sus calles, espacios públicos y puntos de interés. Confirma antes los horarios, accesos y transporte del día."
+        ]
+      ],
+      "PT": [
+        [
+          "A história que ainda está presente",
+          "Jacarepaguá significa, em tupi, algo próximo a “lagoa rasa dos jacarés”, e a região ficou conhecida como Planície dos Onze Engenhos por sua produção açucareira. Nessas fazendas houve trabalho escravizado e concentração de terras; caminhos e capelas ainda ajudam a entender a formação do oeste. O bairro administrativo moderno se dividiu em áreas com identidades próprias, de Taquara à Freguesia e às Vargens."
+        ],
+        [
+          "O que observar pelo caminho",
+          "O bairro administrativo moderno se dividiu em áreas com identidades próprias, de Taquara à Freguesia e às Vargens."
+        ],
+        [
+          "Uma forma de organizar a visita",
+          "Confira tempos e conexões; não presuma que dois endereços em Jacarepaguá sejam próximos."
+        ],
+        [
+          "Minha dica para o passeio",
+          "Não tente fazer tudo: escolha um eixo para a visita e reserve tempo para observar como o lugar muda entre ruas, espaços públicos e pontos de interesse. Confira antes os horários, acessos e transporte do dia."
+        ]
+      ],
+      "EN": [
+        [
+          "History that is still present",
+          "Jacarepaguá’s name is often translated from Tupi as something like “shallow alligator lagoon,” and the region became known as the Plain of Eleven Mills because of its sugar production. These estates relied on enslaved labor and concentrated land ownership; old paths and chapels still help explain the West Zone’s formation. The modern administrative neighborhood split into areas with their own identities, from Taquara to Freguesia and the Vargens."
+        ],
+        [
+          "What to notice along the way",
+          "The modern administrative neighborhood split into areas with their own identities, from Taquara to Freguesia and the Vargens."
+        ],
+        [
+          "A way to plan your visit",
+          "Check travel times and connections; two addresses in Jacarepaguá are not necessarily close."
+        ],
+        [
+          "My tip for the walk",
+          "Do not try to cover everything: choose one focus and leave time to notice how the area changes between its streets, public spaces, and landmarks. Check opening times, access, and transport before setting out."
+        ]
+      ]
+    },
 };
