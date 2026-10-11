@@ -126,6 +126,13 @@ const luggageNext = resolveQuestion("Copacabana", luggageStart.contextUpdate);
 assert.equal(luggageNext.intent?.id, "quick_luggage_followup", "Equipaje debe comprender barrio como seguimiento.");
 assert.ok(luggageNext.intent.answer.ES.includes("Copacabana"), "Seguimiento debe conservar el barrio.");
 
+const luggageTime = resolveQuestion("hasta las 20", luggageNext.contextUpdate);
+assert.equal(luggageTime.intent?.id, "quick_luggage_followup", "La consigna debe entender la hora de retiro.");
+assert.ok(luggageTime.intent?.answer?.ES?.includes("20:00"), "Debe conservar la hora indicada.");
+const foodWelcome = resolveQuestion("¿Dónde puedo comer?");
+const foodCombined = resolveQuestion("Copacabana, algo económico", foodWelcome.contextUpdate);
+assert.ok(foodCombined.intent?.answer?.ES?.includes("Copacabana"), "Debe detectar barrio en una respuesta mixta.");
+assert.ok(foodCombined.intent?.answer?.ES?.includes("presupuesto"), "Debe detectar preferencia económica.");
 const bareWhatsApp = new URL(buildWhatsAppHref({ language: "EN", baseMessage: "Hello" }));
 assert.equal(bareWhatsApp.searchParams.get("text"), "Hello", "WhatsApp debe estar disponible sin pedir datos opcionales.");
 assert.equal(resolveQuestion("precio hoy en el centro para un tour").intent, null, "Palabras frecuentes no deben forzar una respuesta comercial.");
