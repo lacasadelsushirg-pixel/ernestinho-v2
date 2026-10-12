@@ -1,0 +1,2022 @@
+[
+  {
+    "href": "/barrios/barra-da-tijuca/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/barra-oeste/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/botafogo-urca/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/botafogo/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/cadeg/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/catete/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/centro-maua/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/centro/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/copacabana/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/flamengo-gloria/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/flamengo/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/gavea-jardim-lagoa/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/gavea/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/gloria/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/guaratiba/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/ilha-da-gigoia/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/ipanema-leblon/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/ipanema/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/jacarepagua/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/jardim-botanico/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/lagoa/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/lapa/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/laranjeiras/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/leblon/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/madureira/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/maracana/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/recreio/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/santa-lapa/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/santa-teresa/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/sao-conrado/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/sao-cristovao/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/sepetiba/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/tijuca/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/urca/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/vargens/",
+    "category": "barrios"
+  },
+  {
+    "href": "/barrios/zona-norte/",
+    "category": "barrios"
+  },
+  {
+    "href": "/cultura/academia-brasileira-letras/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/acao-cidadania/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/acude/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/amanha/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/antiga-se/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/armando-gonzaga/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/arqueologia-itaipu/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/arquitectura/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/arthur-azevedo/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/benjamin-constant/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/bibliomaison/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/biblioteca-ccbb/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/biblioteca-ccjf/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/biblioteca-ims/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/biblioteca-mam/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/biblioteca-manguinhos/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/biblioteca-nacional/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/biblioteca-parque-estadual/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/biblioteca-rocinha/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/bibliotecas/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/bonsucesso/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/cacilda-becker/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/caixa-cultural/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/candelaria/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/capela-mayrink/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/capuchinhos/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/carlos-gomes/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/casa-da-leitura/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/casa-deodoro/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/casa-franca/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/casa-rui-barbosa/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/catedral-metropolitana/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/ccbb/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/ccjf/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/centros-culturales/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/chacara-ceu/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/conceicao-boa-morte/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/copacabana/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/correios/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/dulcina/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/ecovilla/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/espaco-bndes/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/espaco-marinha/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/fatima-recreio/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/fernanda-montenegro/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/folclore-edison-carneiro/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/fortaleza-conceicao/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/fortaleza-sao-joao/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/forte-barao-rio-branco/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/forte-copacabana/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/forte-duque-caxias/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/forte-gragoata/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/forte-imbui/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/forte-laje/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/forte-pico/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/forte-sao-luiz/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/fuertes/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/glauce-rocha/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/gloria-outeiro/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/helio-oiticica/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/iglesias/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/ihgb/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/imperator/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/joao-caetano/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/jose-bonifacio/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/lampadosa/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/lapa-mercadores/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/laura-alvim/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/leonardo-da-vinci/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/livraria-argumento/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/maas/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/mac-niteroi/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/maison-france/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/mam-rio/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/mar/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/mast/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/mhn/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/midiateca-crab/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/miguel-falabella/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/mnba/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/mosteiro-sao-bento/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/muhcab/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/musal/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/museos/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/museu-flamengo/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/museu-historico-cidade/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/museu-light/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/museu-nacional-ufrj/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/museu-pontal/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/museu-republica/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/museu-samba/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/museu-vida-fiocruz/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/naval/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/nossa-senhora-brasil/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/nossa-senhora-paz/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/nossa-senhora-penna/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/nossa-senhora-saude/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/observatorio-valongo/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/ordem-terceira-carmo/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/paco-imperial/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/penha/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/povos-indigenas/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/pretos-novos/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/real-gabinete/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/riachuelo-rio/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/rival-petrobras/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/rosario-pretos/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/sala-cecilia/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/santa-cruz-barra/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/santa-cruz-militares/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/santa-luzia/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/santa-margarida/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/santa-rita/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/santo-antonio/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/sao-francisco-paula/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/sao-francisco-penitencia/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/sao-francisco-prainha/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/sao-jose-lagoa/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/sao-judas/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/sbba/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/sesc-ginastico/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/sesc-tijuca/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/teatro-dos-quatro/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/teatro-ipanema/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/teatro-multiplan/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/teatros/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/theatro-municipal/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/travessa-ipanema/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/villa-lobos/",
+    "category": "cultura"
+  },
+  {
+    "href": "/cultura/ziembinski/",
+    "category": "cultura"
+  },
+  {
+    "href": "/experiencias/ala-delta/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/angra-ilha-grande/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/aquario-boulevard/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/arraial-do-cabo/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/bioparque/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/buzios/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/carnaval-experience/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/cristo-city-tour/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/full-day-rio/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/helicoptero/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/lancha-privada/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/maracana-experience/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/morro-dois-irmaos/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/paracaidas/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/parasail/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/partido-maracana/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/pedra-bonita/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/pedra-telegrafo/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/pequena-africa/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/rapel/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/rio-samba-bus/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/rocinha/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/santa-marta/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/vidigal/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/experiencias/vuelo-en-parapente/",
+    "category": "experiencias"
+  },
+  {
+    "href": "/familia/aquario/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/aterro-do-flamengo/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/barra-bowling-grill/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/bioparque/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/bosque-da-barra/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/carnaval-experience/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/escape-60-copacabana/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/feira-sao-cristovao/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/hotzone-barrashopping/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/ilha-fiscal/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/jardim-botanico/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/jardines-palacio-do-catete/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/lagoa-rodrigo-de-freitas/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/lluvia/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/maracana-tour/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/meta-kart-indoor/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/parque-da-catacumba/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/parque-lage/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/parques/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/pista-claudio-coutinho/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/planetario/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/playas/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/sitio-roberto-burle-marx/",
+    "category": "familia"
+  },
+  {
+    "href": "/familia/yup-star/",
+    "category": "familia"
+  },
+  {
+    "href": "/gastronomia/aconchego-carioca/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/adega-da-velha/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/adega-perola/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/aipo-aipim-391/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/aipo-aipim-605/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/aipo-aipim-920/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/alfaia/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/alloro/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/amendoeira/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/amir/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/angu-do-gomes/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/aprazivel/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/arab-leblon/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/armazem-sao-thiago/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/arp-bar/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/assador/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/babbo-osteria/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bafo-da-prainha/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bar-da-frente/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bar-da-gema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bar-da-portuguesa/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bar-do-mineiro/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bar-do-momo/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bar-do-omar/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bar-luiz/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bar-madrid/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bar-urca/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/basha/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bb-lanches/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/belmonte-copa/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/belmonte-ipanema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bira-de-guaratiba/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/boa-praca-ipanema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/bracarense/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/brota/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/cabanna/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/cachambeer/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/cafe-do-alto/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/cafe-lamas/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/cais-do-oriente/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/cantinho-legal-tia-penha/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/canton/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/carretao-ipanema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/carretao-lido/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/carretao-siqueira/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/casa-201/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/casa-cave/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/casa-do-sardo/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/casa-feijoada/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/casa-mohamed/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/casa-porto/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/casas-de-suco/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/cavalo-marinho/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/cervantes-copacabana/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/chama-rio-copacabana/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/chez-claude/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/churrascaria-palace/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/churrasqueira-rio/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/cipriani/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/classico-beach-club-barra/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/classico-beach-club-urca/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/classico-leme/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/coisa-de-carioca/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/coisas-de-bamba/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/colombo-do-forte/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/confeitaria-colombo/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/confeitaria-manon/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/corrientes-348/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/cosmopolita/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/ct-boucherie/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/curto-cafe/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/deck-buffet/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/delirio-centro/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/delirio-tropical-rio-sul/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/delirio/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/don-camillo/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/don-pascual/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/dumare-copa/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/dumare/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/eclipse/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/elena/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/escama/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/espaco-7zero6/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/espetinhos/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/espeto-carioca-leme/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/espetto-quiosque/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/esquimo/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/explorer/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/faenza-copacabana/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/fast-food/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/feira-sao-cristovao/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/ferro-e-farinha/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/fiorino/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/flor-do-ceu/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/fogo-de-chao-botafogo/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/frontera-ipanema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/galeto-liceu/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/galeto-sats/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/garota-de-ipanema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/ginga/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/giuseppe-mar/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/gruta-do-fado/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/guacamole-copa/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/guacamole-copacabana/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/gurume/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/haru/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/hollandaise/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/iraja-redux/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/joaquina/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/jobi/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/jojo/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/k08/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/kilograma-centro/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/koral/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/kurt-leblon/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/la-bicyclette/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/la-fiorentina-ipanema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/labuta-bar/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/lanches-cariocas/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/lasai/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/lilia/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/majorica/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/margutta-ipanema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/marius-degustare/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/maska/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/mee/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/merci/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/mocellin-steak/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/mosteiro/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/naga/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/nido-ristorante/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/nino-cucina-ipanema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/noa-ipanema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/nova-capela/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/ocya-ilha/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/ocya-leblon/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/oficina-do-peixe/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/oro/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/oteque/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/otto/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/padarias/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/pavao-azul/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/pergula/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/pescados-na-brasa/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/pesqueiro/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/pilograma-centro/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/pilograma-prime-grill/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/plage-cafe/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/pobre-juan/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/point-de-grumari/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/polis-sucos/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/polvo-marisqueria/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/praia-skol-copa/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/prana/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/proa/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/quartinho/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/quiteria/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/rampinha/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/reino-vegetal/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/rio-scenarium/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/rotisseria-sirio-libanesa/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/rufino-parrilla/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/ryu/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/sabor-das-aguas/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/samba-social/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/satyricon/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/sel-ipanema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/shiso/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/spesso/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/spicy-fish/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/stalos/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/stambul-copa/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/sud-passaro-verde/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/sushi-leblon/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/tacaca-do-norte/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/talho-capixaba-ipanema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/temperarte-bolivar/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/temperarte-posto6/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/terra-brasilis/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/teva/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/tia-palmira/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/toca-da-traira/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/umai/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/venga-ipanema/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/xian/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/xodozin-copa/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/yusha/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/gastronomia/zaza-bistro-tropical/",
+    "category": "gastronomia"
+  },
+  {
+    "href": "/hospedaje/1008/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/1015/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/1221/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/217/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/54/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/605/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/621/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/702/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/805/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/casa-candida/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/estudio-1-1/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/goia/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/nata/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/hospedaje/venti/",
+    "category": "hospedaje"
+  },
+  {
+    "href": "/playas/abrico/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/arpoador/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/barra-da-tijuca/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/barra-de-guaratiba/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/botafogo/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/copacabana/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/flamengo/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/grumari/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/ipanema/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/joatinga/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/leblon/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/leme/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/macumba/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/pepe/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/perigoso/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/pontal/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/praia-da-reserva/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/praia-da-urca/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/praia-do-diabo/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/praia-do-secreto/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/praia-dos-amores/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/praia-vermelha/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/praias-selvagens/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/prainha-vidigal/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/prainha/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/recreio/",
+    "category": "playas"
+  },
+  {
+    "href": "/playas/sao-conrado/",
+    "category": "playas"
+  },
+  {
+    "href": "/transportes/alquiler-vehiculo/",
+    "category": "transportes"
+  },
+  {
+    "href": "/transportes/barcas/",
+    "category": "transportes"
+  },
+  {
+    "href": "/transportes/bicicletas/",
+    "category": "transportes"
+  },
+  {
+    "href": "/transportes/bonde-santa-teresa/",
+    "category": "transportes"
+  },
+  {
+    "href": "/transportes/brt/",
+    "category": "transportes"
+  },
+  {
+    "href": "/transportes/metro/",
+    "category": "transportes"
+  },
+  {
+    "href": "/transportes/onibus/",
+    "category": "transportes"
+  },
+  {
+    "href": "/transportes/terminal-gentileza/",
+    "category": "transportes"
+  },
+  {
+    "href": "/transportes/transporte-privado/",
+    "category": "transportes"
+  },
+  {
+    "href": "/transportes/trenes/",
+    "category": "transportes"
+  },
+  {
+    "href": "/transportes/uber/",
+    "category": "transportes"
+  },
+  {
+    "href": "/transportes/vlt/",
+    "category": "transportes"
+  },
+  {
+    "href": "/vida-nocturna/all-in/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/armazem-do-senado/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/bafo-da-prainha/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/bar-bukowski/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/bar-da-cachaca/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/bar-do-omar/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/beco-das-garrafas/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/beco-do-rato/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/bip-bip/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/blue-note-rio/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/boa-praca-ipanema/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/boa-praca-leblon/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/bosque-bar/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/brewteco-botafogo/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/cacique-de-ramos/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/canastra-bar/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/carioca-da-gema/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/chopperia-botafogo/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/circo-voador/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/coisas-de-bamba/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/comuna/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/coordenadas-bar/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/feira-sao-cristovao-noite/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/fogo-de-chao-botafogo/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/fundicao-progresso/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/galeria-cafe/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/isabel-lounge/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/lapa-40-graus/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/leviano-bar/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/macuna/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/moonlounge/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/nosso/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/ocya-ilha-primeira/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/pedra-do-sal/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/pink-flamingo/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/pizzaria-canastra/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/portela/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/quadra-mangueira/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/quadra-salgueiro/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/quartinho/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/renascenca-clube/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/rio-scenarium/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/sacadura-154/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/trapiche-gamboa/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/vaca-atolada/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/vitrinni/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/xepa/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/yoo2/",
+    "category": "vida-nocturna"
+  },
+  {
+    "href": "/vida-nocturna/zeca-vogue/",
+    "category": "vida-nocturna"
+  }
+]

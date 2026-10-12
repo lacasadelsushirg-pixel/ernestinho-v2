@@ -24,14 +24,14 @@ const ecEveryday = (id, category, keywords, answer, links, pending = null, prior
 });
 const EVERYDAY_INTENTS = [
   ecEveryday("quick_luggage", "lodging",
-    ["donde guardar maleta", "guardar maletas", "consigna de equipaje", "guardar valijas", "onde guardar malas", "guardar bagagem", "guarda volumes", "where to store luggage", "luggage storage", "where can i leave my bags"],
+    ["donde guardar maleta", "donde puedo guardar mi maleta", "donde guardar mi equipaje", "guardar maletas", "consigna de equipaje", "guardar valijas", "onde guardar mala", "onde posso guardar minha mala", "onde guardar malas", "guardar bagagem", "guarda volumes", "where to store luggage", "where can i store my luggage", "luggage storage", "where can i leave my bags"],
     ecT("¡Claro! ¿En qué barrio o cerca de qué lugar necesitas guardar tu equipaje, y hasta qué hora? Puedo orientarte hacia opciones para verificar, pero no confirmar disponibilidad u horarios en tiempo real.",
       "Claro! Em qual bairro ou perto de qual lugar você precisa guardar a bagagem, e até que horas? Posso indicar opções para conferir, mas não confirmar vagas ou horários em tempo real.",
       "Sure! Which neighborhood or landmark do you need luggage storage near, and until what time? I can point you toward options to check, but can't confirm live availability or hours."),
     [ecL("/hospedaje/", "Hospedaje y opciones", "Hospedagem e opções", "Accommodation and options")], "location", 45),
 
   ecEveryday("daily_food", "gastronomy",
-    ["quiero salir a comer", "quiero salir a cenar", "quiero ir a comer", "quiero comer algo", "tengo hambre", "donde puedo cenar", "quiero cenar", "salir a cenar", "comer barato", "algo para comer", "quero sair para comer", "estou com fome", "to com fome", "quero jantar", "onde posso jantar", "comer barato no rio", "i want to eat out", "i am hungry", "im hungry", "i m hungry", "where can i have dinner", "where to have dinner", "cheap eats"],
+    ["quiero salir a comer", "quiero salir a cenar", "quiero ir a comer", "quiero comer algo", "tengo hambre", "donde puedo cenar", "quiero cenar", "salir a cenar", "comer barato", "algo para comer", "desayuno barato", "donde desayunar", "desayuno en", "quiero desayunar", "cafe para desayunar", "cafe da manha", "quero tomar cafe da manha", "onde tomar cafe da manha", "cheap breakfast", "breakfast in", "where can i get breakfast", "where to have breakfast", "quero sair para comer", "estou com fome", "to com fome", "quero jantar", "onde posso jantar", "comer barato no rio", "i want to eat out", "i am hungry", "im hungry", "i m hungry", "where can i have dinner", "where to have dinner", "find a restaurant", "restaurant in", "restaurants in", "where to eat in", "cheap eats"],
     ecT("¡Vamos a comer rico! ¿En qué barrio estás y qué te apetece: comida brasileña, carnes, mariscos, algo económico o una cafetería? Mientras tanto, puedes mirar nuestra guía gastronómica.",
     "Vamos comer bem! Em qual bairro você está e o que prefere: comida brasileira, carnes, frutos do mar, algo econômico ou uma cafeteria? Enquanto isso, confira o guia de gastronomia.",
     "Let's find something tasty! Which neighborhood are you in, and what sounds good: Brazilian food, grilled meat, seafood, budget-friendly food, or a café? You can also browse our food guide."),
@@ -108,7 +108,7 @@ const EVERYDAY_INTENTS = [
     "Qual praia e dia você pretende visitar? A acessibilidade e serviços como cadeiras anfíbias precisam ser confirmados por praia e data.",
     "Which beach and day are you planning to visit? Accessibility and services such as amphibious chairs must be confirmed for each beach and date."),
     [ecL("/playas/", "Ver playas", "Ver praias", "Explore beaches")], null),
-  ecEveryday("daily_food_family", "gastronomy", ["restaurante con ninos","donde comer con ninos","restaurante familiar","restaurante com criancas","family friendly restaurant"], ecT("¿En qué barrio están y qué edades tienen los niños? Te ayudo a revisar restaurantes y servicios familiares.", "Em qual bairro vocês estão e qual a idade das crianças? Vamos buscar restaurantes com serviços para famílias.", "What neighborhood are you in, and how old are the children? Let's look for suitable restaurants."), [ecL("/gastronomia/", "gastronomy", "gastronomy", "gastronomy")], "location", 38),
+  ecEveryday("daily_food_family", "gastronomy", ["restaurante con ninos","donde comer con ninos","restaurante familiar","restaurante com criancas","family friendly restaurant","where can we eat with kids","where to eat with children","onde comer com criancas","onde podemos comer com criancas"], ecT("¿En qué barrio están y qué edades tienen los niños? Te ayudo a revisar restaurantes y servicios familiares.", "Em qual bairro vocês estão e qual a idade das crianças? Vamos buscar restaurantes com serviços para famílias.", "What neighborhood are you in, and how old are the children? Let's look for suitable restaurants."), [ecL("/gastronomia/", "gastronomy", "gastronomy", "gastronomy")], "location", 38),
   ecEveryday("daily_food_restrictions", "gastronomy", ["soy vegetariano","comida vegana cerca","sin gluten","alergia alimentaria","sou vegetariano","sem gluten","alergia alimentar","vegan restaurant nearby","food allergies","gluten free food"], ecT("¿En qué barrio estás y qué restricción necesitas? Si hay alergia, confirma ingredientes y contaminación cruzada directamente con el restaurante.", "Qual bairro e qual restrição alimentar? Se houver alergia, confirme ingredientes e contaminação cruzada com o restaurante.", "Which neighborhood and dietary restriction? For allergies, confirm ingredients and cross-contact with the restaurant."), [ecL("/gastronomia/", "gastronomy", "gastronomy", "gastronomy")], "location", 38),
   ecEveryday("daily_food_open", "gastronomy", ["restaurante abierto ahora","donde cenar ahora","comer a esta hora","restaurante aberto agora","onde jantar agora","restaurant open now","where can i eat right now"], ecT("¿En qué barrio estás? Te ayudo a elegir, pero los horarios de apertura deben comprobarse con el local.", "Em qual bairro está? Ajudo a escolher, mas é importante confirmar o funcionamento com o local.", "Which neighborhood are you in? I can help you choose, but please verify opening hours with the venue."), [ecL("/gastronomia/", "gastronomy", "gastronomy", "gastronomy")], "location", 38),
   ecEveryday("daily_food_delivery", "gastronomy", ["delivery de comida","pedir comida al departamento","quero pedir delivery","entrega de comida","food delivery","order food to apartment"], ecT("¿En qué barrio estás? Verifica cobertura y cargos del servicio de entrega; mientras tanto, nuestra guía te ayuda a elegir qué comer.", "Em qual bairro está? Confira a cobertura e as taxas do delivery; nosso guia ajuda a escolher.", "Which neighborhood are you in? Check delivery coverage and fees; our guide can help choose the food."), [ecL("/gastronomia/", "gastronomy", "gastronomy", "gastronomy")], "location", 38),
@@ -178,6 +178,18 @@ const WELCOME_CHIP_IDS = {
 // Reviewed exact question variants from the V2 diagnostic. These route to existing
 // authored answers; they never claim live prices, bookings or availability.
 const V2_EXACT_QUESTION_ALIASES = new Map([
+  ["como llego al cristo redentor", "christ_access"],
+  ["como llegar al cristo redentor", "christ_access"],
+  ["como chegar ao cristo redentor", "christ_access"],
+  ["como chegar no cristo redentor", "christ_access"],
+  ["how to reach christ the redeemer", "christ_access"],
+  ["how do i get to christ the redeemer", "christ_access"],
+  ["como llego al cristo redentor", "christ_access"],
+  ["como llegar al cristo redentor", "christ_access"],
+  ["como chegar ao cristo redentor", "christ_access"],
+  ["como chegar no cristo redentor", "christ_access"],
+  ["how to reach christ the redeemer", "christ_access"],
+  ["how do i get to christ the redeemer", "christ_access"],
   [
     "hay paseos culturales para manana",
     "experiences"
@@ -416,6 +428,15 @@ function scoreIntent(query, intent) {
         && !/\b(cristo|corcovado|angra|arraial|buzios|entrada|ingreso|experiencia|experience|passeio|reserva|booking)\b/.test(query)) continue;
     if (!phraseMatches(query, phrase)) continue;
     const words = phrase.split(" ").length;
+    const asksAboutNeighborhood = /\b(neighborhood|bairro|barrio|district|tell me about|what is .* like|what's .* like|como e|como eh)\b/.test(query);
+    const isNeighborhoodName = intent.id === "neighborhoods"
+      && Object.prototype.hasOwnProperty.call(EC_NEIGHBORHOODS, phrase);
+    if (isNeighborhoodName && query !== phrase && !asksAboutNeighborhood) continue;
+    const isGroupOnlyCommercialMatch = intent.id === "commercial_unknown"
+      && /\b(somos|we are|we're|party of|group of)\b/.test(phrase)
+      && /\b(angra|ilha grande|arraial|buzios|buzios|buzios|buzios|buzios|buzios)\b/.test(query)
+      && /\b(queremos|quero|vamos|viajar|ir a|go to|want to|visit|trip|tour)\b/.test(query);
+    if (isGroupOnlyCommercialMatch) continue;
     const phraseScore = (words * 7) + Math.min(phrase.length, 48) * 0.12;
     if (phraseScore > score) {
       score = phraseScore;
@@ -576,11 +597,55 @@ function ambiguousEntity(query) {
   return null;
 }
 
+export function extractConversationDetails(question, previous = {}) {
+  const q=normalizeQuestion(question), details={...previous};
+  const places=["copacabana","ipanema","leblon","botafogo","centro","lapa","santa teresa","barra da tijuca","urca","flamengo","recreio","tijuca","gávea","gavea","lagoa","são conrado","sao conrado","angra","búzios","buzios","arraial do cabo"];
+  const location=places.find(place=>q.includes(normalizeQuestion(place)));
+  if(location) details.location=location;
+  if(/\b(barato|barata|economico|economica|budget|cheap|affordable|em conta)\b/.test(q)) details.budget="budget";
+  if(/\b(conforto|confortavel|comfort|comfortable|premium|luxo|luxury)\b/.test(q)) details.budget="comfort";
+  if(/\b(criancas|crianças|niños|ninos|children|kids|familia|family)\b/.test(q)) details.profile="family";
+  else if(/\b(acessivel|acessibilidade|cadeirante|wheelchair|accessible|accessibility)\b/.test(q)) details.profile="accessible";
+  else if(/\b(casal|pareja|couple|romantico|romantica)\b/.test(q)) details.profile="couple";
+  else if(/\b(sozinho|sozinha|solo|sola|alone|solo traveler)\b/.test(q)) details.profile="solo";
+  const partyText=q.replace(/\b(um|one|uno)\b/g,"1").replace(/\b(dois|duas|two|dos)\b/g,"2").replace(/\b(tres|three)\b/g,"3").replace(/\b(quatro|cuatro|four)\b/g,"4").replace(/\b(cinco|five)\b/g,"5").replace(/\b(seis|six)\b/g,"6").replace(/\b(sete|siete|seven)\b/g,"7").replace(/\b(oito|ocho|eight)\b/g,"8").replace(/\b(nove|nine)\b/g,"9").replace(/\b(dez|diez|ten)\b/g,"10");
+  const party=partyText.match(/\b(?:somos|vamos|viajamos|estamos em|grupo de|we are|party of|group of)\s*(\d{1,2})\s*(?:personas|pessoas|people|pax|viajeros|travelers|travellers)?\b|\b(\d{1,2})\s*(?:personas|pessoas|people|pax|viajeros|travelers|travellers)\b/);
+  if(party) details.partySize=party[1]||party[2];
+  const weekdays={domingo:"sunday",lunes:"monday",segunda:"monday",martes:"tuesday",terca:"tuesday",quarta:"wednesday",miercoles:"wednesday",quinta:"thursday",jueves:"thursday",sexta:"friday",viernes:"friday",sabado:"saturday",saturday:"saturday",sunday:"sunday",monday:"monday",tuesday:"tuesday",wednesday:"wednesday",thursday:"thursday",friday:"friday"};
+  const day=Object.keys(weekdays).find(x=>new RegExp("\\b"+x+"\\b").test(q)); if(day) details.weekday=weekdays[day];
+  const date=String(question||"").match(/\b(?:\d{1,2}[/-]\d{1,2}(?:[/-]\d{2,4})?|\d{4}-\d{2}-\d{2})\b/); if(date) details.date=date[0];
+  const experience=[[/\b(angra|ilha grande|isla grande)\b/,"Angra + Ilha Grande"],[/\b(arraial|arraial do cabo)\b/,"Arraial do Cabo"],[/\bbuzios\b/,"Búzios"],[/\b(cristo|corcovado)\b/,"Cristo + City Tour"]].find(([pattern])=>pattern.test(q));
+  if(experience) details.experience=experience[1];
+
+  const time=String(question||"").match(/\b(?:\d{1,2}(?::\d{2})?\s*(?:h|hs|am|pm)|\d{1,2}:\d{2})\b/i);if(time)details.time=time[0];
+  if(/\b(almuerzo|lunch|comida)\b/.test(q)) details.meal="lunch";
+  else if(/\b(cena|dinner|jantar)\b/.test(q)) details.meal="dinner";
+  else if(/\b(desayuno|cafe da manha|breakfast)\b/.test(q)) details.meal="breakfast";
+  if(/\b(vegano|vegana|vegan)\b/.test(q)) details.food="vegan";
+  else if(/\b(vegetariano|vegetariana|vegetarian)\b/.test(q)) details.food="vegetarian";
+  if(/\b(abierto ahora|aberta agora|open now)\b/.test(q)) details.openNow=true;
+  if(/\b(metro|metr[oô]|subte|subway|public transport|transporte publico)\b/.test(q)) details.transport="public";
+  else if(/\b(taxi|uber|carro|coche|carro|car|private transfer|transporte privado)\b/.test(q)) details.transport="private";
+  return details;
+}
+
 export function resolveQuestion(question, context = {}) {
   const query = normalizeQuestion(question);
   if (!query) return { intent: null, candidates: [], clarification: null, suggestions: [] };
 
   if (isMenuRequest(query)) return { intent: ACTIVE_INTENTS.find(intent => intent.id === "menu"), candidates: [], contextUpdate: { pending: null, category: null, booking: null } };
+
+  const detailContext = extractConversationDetails(question, context);
+  if (detailContext.location || detailContext.profile || detailContext.budget || detailContext.partySize || detailContext.weekday || detailContext.date || detailContext.time || detailContext.meal || detailContext.food || detailContext.openNow || detailContext.transport) context = { ...context, ...detailContext };
+
+  const turnDetails = extractConversationDetails(question, {});
+  const detailFields = ["partySize","weekday","date","time","profile","budget","location","transport","meal","food","openNow"];
+  const hasTurnDetail = detailFields.some(key => turnDetails[key] !== undefined);
+  const topicTerms = /\b(restaurant|where to eat|comer|comida|restaurante|breakfast|desayuno|cafe da manha|praia|beach|playa|tour|passeio|experiencia|experience|hotel|hostel|hospedagem|lodging|luggage|bagagem|maleta|mala|samba|nightlife|vida noturna|transporte|transport|cristo|sugarloaf|pao de acucar|museum|museu|bairro|neighborhood|bar|museo)\b/;
+  if (context.lastIntentId && hasTurnDetail && !turnDetails.experience && !topicTerms.test(query)) {
+    const retained = ACTIVE_INTENTS.find(item => item.id === context.lastIntentId);
+    if (retained) return { intent: retained, candidates: [retained], contextUpdate: { ...context, ...turnDetails, pending: retained.pending || null, category: retained.category, lastIntentId: retained.id, detailRefinement: true } };
+  }
 
   const welcomeIntent = WELCOME_CHIP_IDS[query];
   if (welcomeIntent) {
@@ -678,6 +743,30 @@ export function findIntent(question, context = {}) {
 export function getLocalized(value, language) {
   if (typeof value === "string") return value;
   return value?.[language] || value?.ES || "";
+}
+
+export function getContextualIntentAnswer(intent, context = {}, language = "ES") {
+  const rawLocation = normalizeQuestion(context.location || "");
+  if (!rawLocation) return getLocalized(intent?.answer, language);
+  const location = EC_NEIGHBORHOODS[rawLocation] || String(context.location);
+  const copy = {
+    daily_food: {
+      ES: "Busquemos opciones en " + location + ". ¿Qué prefieres: comida brasileña, carnes, mariscos, desayuno o cafetería? Puedo mostrarte fichas de la guía; confirma horarios y precios directamente.",
+      PT: "Vamos buscar opções em " + location + ". O que você prefere: comida brasileira, carnes, frutos do mar, café da manhã ou cafeteria? Posso mostrar fichas do guia; confirme horários e preços diretamente.",
+      EN: "Let's look for options in " + location + ". What do you prefer: Brazilian food, grilled meat, seafood, breakfast, or a café? I can show guide listings; confirm hours and prices directly."
+    },
+    daily_food_family: {
+      ES: "Para comer con niños en " + location + ", ¿qué edades tienen? Puedo buscar fichas gastronómicas, pero confirma directamente si el lugar ofrece los servicios que necesitan.",
+      PT: "Para comer com crianças em " + location + ", qual a idade delas? Posso buscar fichas gastronômicas; confirme diretamente se o local oferece os serviços que vocês precisam.",
+      EN: "For eating with children in " + location + ", how old are they? I can look for food listings; please confirm directly that a place has the services you need."
+    },
+    quick_luggage: {
+      ES: "Para guardar el equipaje cerca de " + location + ", ¿hasta qué hora lo necesitas? Puedo orientarte hacia opciones para verificar, pero no confirmar disponibilidad ni horarios en tiempo real.",
+      PT: "Para guardar a bagagem perto de " + location + ", até que horas você precisa? Posso indicar opções para conferir, mas não confirmar disponibilidade nem horários em tempo real.",
+      EN: "For luggage storage near " + location + ", until what time do you need it? I can point you toward options to check, but can't confirm live availability or hours."
+    }
+  };
+  return copy[intent?.id]?.[language] || getLocalized(intent?.answer, language);
 }
 
 export function getIntentCount() { return ACTIVE_INTENTS.length; }

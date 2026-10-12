@@ -5,6 +5,10 @@ on:
       - revision/rendimiento-traducciones-81a904c
     paths:
       - 'assets/js/carioc-ia*.js'
+      - 'assets/js/app.js'
+      - 'assets/js/site.js'
+      - 'scripts/build_carioc_ia_site_index.mjs'
+      - 'docs/CARIOC_IA_SITE_INDEX_ROUTES.json'
       - 'scripts/test_carioc_ia.mjs'
       - 'assets/js/carioc-ia-site-index.js'
       - 'scripts/audit_carioc_ia_v2_120.mjs'
@@ -32,6 +36,11 @@ jobs:
           node --check assets/js/carioc-ia-engine.js
           node --check assets/js/carioc-ia-site-index.js
           node --check assets/js/carioc-ia.js
+          node --check assets/js/carioc-ia-bootstrap.js
+          node --check assets/js/app.js
+          node --check assets/js/site.js
+          node --check scripts/build_carioc_ia_site_index.mjs
+          node scripts/build_carioc_ia_site_index.mjs
           node --check assets/js/carioc-ia-knowledge.js
           node --check assets/js/carioc-ia-library.js
           node --check scripts/test_carioc_ia.mjs

@@ -1,12 +1,13 @@
 import { getLanguage } from "./i18n.js";
 import { hasLocaleRoutes, localizedPath } from "./locale-routing.js";
-import { getLocalized, normalizeQuestion, resolveQuestion, recommendGuideLinks } from "./carioc-ia-engine.js?v=20261011-relevancev3";
-import { searchSiteGuide } from "./carioc-ia-site-index.js?v=20261011-indexv1";
+import { extractConversationDetails, getLocalized, normalizeQuestion, resolveQuestion, recommendGuideLinks } from "./carioc-ia-engine.js?v=20261012-cariocia4";
+import { searchSiteGuide } from "./carioc-ia-site-index.js?v=20261012-cariocia4";
 import { FALLBACK_LINKS, UI } from "./carioc-ia-knowledge.js";
-import { INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261010-cariocia2";
-import { buildWhatsAppHref } from "./carioc-ia-whatsapp.js?v=20261010-cariocia2";
+import { INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261012-cariocia4";
+import { buildWhatsAppHref } from "./carioc-ia-whatsapp.js?v=20261012-cariocia4";
 
 const STORAGE_KEY = "ec-cariocia-panel-open";
+const mountedWidgets = new WeakSet();
 
 function makeElement(tag, className, text) {
   const node = document.createElement(tag);
@@ -67,10 +68,13 @@ function bookingCopy(language) {
 }
 
 export function mountCariocIA() {
-  if (document.querySelector(".ec-cariocia")) return;
+  const prerendered = document.querySelector(".ec-cariocia");
+  if (prerendered && mountedWidgets.has(prerendered)) return;
+  // The multilingual build may serialize the widget into HTML; replace that inert markup before wiring events.
+  prerendered?.remove();
   const css = document.createElement("link");
   css.rel = "stylesheet";
-  css.href = new URL("../css/carioc-ia.css?v=20261010-cariocia2", import.meta.url).href;
+  css.href = new URL("../css/carioc-ia.css?v=20261012-cariocia4", import.meta.url).href;
   css.dataset.ecCariociaStyle = "";
   document.head.appendChild(css);
   const controlsStyle = document.createElement("style");
@@ -87,6 +91,7 @@ export function mountCariocIA() {
 
   const root = makeElement("div", "ec-cariocia");
   root.setAttribute("data-widget", "ernestinho-carioc-ia");
+  mountedWidgets.add(root);
 
   const launcher = makeElement("button", "ec-cariocia-launcher");
   launcher.type = "button";
@@ -180,7 +185,15 @@ export function mountCariocIA() {
     if (!links || !links.length) return;
     const list = makeElement("div", "ec-cariocia-links");
     for (const item of links.slice(0, 4)) {
-      const link = makeElement("a", "ec-cariocia-link", getLocalized(item.label, language));
+      const link = makeElement("a", "ec-cariocia-link");
+      const image = item.image ? makeElement("img", "ec-cariocia-card-image") : null;
+      if (image) { image.src = item.image; image.alt = ""; image.loading = "lazy"; image.decoding = "async"; link.appendChild(image); }
+      const body = makeElement("span", "ec-cariocia-card-body");
+      body.appendChild(makeElement("strong", "ec-cariocia-card-title", getLocalized(item.label, language)));
+      const summary = language === "ES" ? (getLocalized(item.summary, language) || "") : "";
+      if (summary) body.appendChild(makeElement("span", "ec-cariocia-card-summary", summary));
+      if (item.neighborhood) body.appendChild(makeElement("span", "ec-cariocia-card-place", item.neighborhood));
+      link.appendChild(body);
       link.href = localizedHref(item.href);
       link.dataset.topic = topic || "recommendation";
       if (item.href.startsWith("http")) {
@@ -262,6 +275,13 @@ export function mountCariocIA() {
     bookingContext.people = "";
   }
 
+  function localizedWeekday(value) {
+    const index={sunday:0,monday:1,tuesday:2,wednesday:3,thursday:4,friday:5,saturday:6}[value];
+    if(index===undefined)return value;
+    const labels={ES:["domingo","lunes","martes","miércoles","jueves","viernes","sábado"],PT:["domingo","segunda-feira","terça-feira","quarta-feira","quinta-feira","sexta-feira","sábado"],EN:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]};
+    return labels[language]?.[index] || labels.ES[index];
+  }
+
   function rememberOptionalBookingDetails(question, allowBareExperience = false) {
     const text = normalizeQuestion(question);
     const party = text.match(/\b(?:somos|vamos|viajamos|we are|party of|group of|somos|estamos em)\s*(\d{1,2})\s*(?:personas|pax|people|travelers|travellers|pessoas)?\b/);
@@ -269,6 +289,9 @@ export function mountCariocIA() {
     const date = String(question || "").match(/\b(?:\d{1,2}[/-]\d{1,2}(?:[/-]\d{2,4})?|\d{4}-\d{2}-\d{2})\b/);
     if (party || anyParty) bookingContext.people = (party || anyParty)[1];
     if (date) bookingContext.date = date[0];
+    const detail = extractConversationDetails(question, conversationContext);
+    if (detail.partySize) bookingContext.people = detail.partySize;
+    if (detail.date || detail.weekday) bookingContext.date = detail.date || localizedWeekday(detail.weekday);
     const normalized = text;
     const experiences = [
       ["Angra + Ilha Grande", /\b(angra|ilha grande|isla grande)\b/],
@@ -318,8 +341,20 @@ export function mountCariocIA() {
       addMessage(bookingWords.prompt, "assistant", { suggestions: [bookingWords.skip], topic: "booking_details" });
       return;
     }
-    const result = resolveQuestion(text, conversationContext);
+    const previousContext = conversationContext;
+    const turnDetails = extractConversationDetails(text, conversationContext);
+    const result = resolveQuestion(text, { ...conversationContext, ...turnDetails });
+    const nextCategory = result.contextUpdate?.category || result.intent?.category || conversationContext.category;
+    const changedTopic = Boolean(conversationContext.category && nextCategory && conversationContext.category !== nextCategory);
+    const activeDetails = changedTopic ? extractConversationDetails(text, {}) : turnDetails;
+    conversationContext = { ...(changedTopic ? { pending: null, category: null } : conversationContext), ...activeDetails };
     if (result.contextUpdate) conversationContext = { ...conversationContext, ...result.contextUpdate };
+    if (result.intent && result.intent.id !== "menu") conversationContext.lastIntentId = result.intent.id;
+    if (changedTopic) clearBookingContext();
+    if (activeDetails.location) bookingContext.origin = activeDetails.location;
+    if (activeDetails.partySize) bookingContext.people = activeDetails.partySize;
+    if (activeDetails.date || activeDetails.weekday) bookingContext.date = activeDetails.date || localizedWeekday(activeDetails.weekday);
+    if (activeDetails.experience) bookingContext.experience = activeDetails.experience;
     if (result.clarification) {
       track("clarification", result.candidates?.[0]?.category || conversationContext.category || "ambiguous");
       addMessage(getLocalized(result.clarification, language), "assistant", {
@@ -330,7 +365,6 @@ export function mountCariocIA() {
     }
     const intent = result.intent;
     if (!intent) {
-      clearBookingContext();
       track("unresolved", "unknown");
       addMessage(getLocalized(INTENT_GUIDANCE.outOfScope, language) || words.fallback, "assistant", {
         title: words.fallbackTitle,
@@ -345,7 +379,10 @@ export function mountCariocIA() {
     if (explicitBooking) {
       clearBookingContext();
       rememberOptionalBookingDetails(text);
-    } else if (intent.id !== "contact") clearBookingContext();
+    } else if (intent.id !== "contact" && !result.contextUpdate?.detailRefinement) clearBookingContext();
+    if (activeDetails.experience) bookingContext.experience = activeDetails.experience;
+    if (activeDetails.partySize) bookingContext.people = activeDetails.partySize;
+    if (activeDetails.date || activeDetails.weekday) bookingContext.date = activeDetails.date || localizedWeekday(activeDetails.weekday);
     if (intent.id === "menu") {
       conversationContext = { pending: null, category: null };
       clearBookingContext();
@@ -356,7 +393,7 @@ export function mountCariocIA() {
     if (intent.id === "beach_clarify") conversationContext = { pending: "beach_style", category: "beaches", lastEverydayId: null };
     else if (result.contextUpdate && Object.prototype.hasOwnProperty.call(result.contextUpdate, "pending")) {
       conversationContext = { ...conversationContext, ...result.contextUpdate };
-    } else if (intent.category) conversationContext = { pending: null, category: intent.category, lastEverydayId: null };
+    } else if (intent.category) conversationContext = { ...conversationContext, pending: null, category: intent.category, lastEverydayId: null };
     track(source === "suggestion" ? "suggestion_click" : "question", intent.id);
     const isCommercial = intent.category === "commercial" || intent.category === "comparisons" || intent.category === "experiences" || intent.id === "booking";
     const bookingOffer = explicitBooking || /^experience_(angra|arraial|buzios)$/.test(intent.id);
@@ -364,10 +401,10 @@ export function mountCariocIA() {
       ? [bookingWords.add]
       : intent.id === "beach_clarify" ? followupCopy(intent.id, language) : intent.followups;
     const remaining = Math.max(0, 3 - (intent.links || []).length);
-    const indexedLinks = searchSiteGuide(text, intent.category, (intent.links || []).map(item => item.href), remaining);
+    const indexedLinks = searchSiteGuide(text, intent.category, (intent.links || []).map(item => item.href), remaining, conversationContext);
     const additionalLinks = [...indexedLinks, ...recommendGuideLinks(intent, text, Math.max(0, remaining - indexedLinks.length))]
       .filter((link, i, all) => all.findIndex(item => item.href === link.href) === i).slice(0, remaining);
-    addMessage(getLocalized(intent.answer, language), "assistant", {
+    addMessage(getContextualIntentAnswer(intent, conversationContext, language), "assistant", {
       links: [...(intent.links || []), ...additionalLinks],
       whatsapp: Boolean(intent.whatsapp || isCommercial),
       topic: intent.id,

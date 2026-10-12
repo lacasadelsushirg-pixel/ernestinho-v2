@@ -161,7 +161,7 @@ export const INTENTS = [
   },
   {
     id: "family",
-    keywords: ["familia", "familias", "ninos", "niños", "niño", "kids", "children", "family", "crianças", "criancas", "viajo con niños", "com crianças"],
+    keywords: ["familia", "familias", "ninos", "niños", "niño", "kids", "children", "family", "crianças", "criancas", "viajo con niños", "com crianças", "que hacer hoy con ninos", "que puedo hacer hoy con ninos", "o que fazer hoje com criancas", "o que fazer hoje em familia", "what to do today with kids", "what can i do today with kids", "things to do today with children"],
     answer: t(
       "La sección Familia reúne planes de animales, ciencia, fútbol, carnaval, naturaleza y juegos para niños y adolescentes. Revisa cada ficha para ver qué lugar encaja mejor con tu grupo.",
       "A seção Família reúne opções de animais, ciência, futebol, carnaval, natureza e diversão para crianças e adolescentes. Consulte cada ficha para escolher o que combina com o seu grupo.",

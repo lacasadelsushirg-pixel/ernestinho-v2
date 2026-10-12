@@ -42,3 +42,5 @@
 .ec-cariocia-message{max-width:98%}
 }
 @media(prefers-reduced-motion:reduce){.ec-cariocia-launcher{transition:none}}
+
+.ec-cariocia-link{display:flex;gap:10px;align-items:stretch;overflow:hidden}.ec-cariocia-card-image{width:74px;min-width:74px;min-height:74px;max-height:96px;object-fit:cover;border-radius:10px}.ec-cariocia-card-body{display:flex;flex-direction:column;gap:4px;min-width:0}.ec-cariocia-card-title{font-weight:700}.ec-cariocia-card-summary,.ec-cariocia-card-place{font-size:.86em;line-height:1.35;opacity:.82}

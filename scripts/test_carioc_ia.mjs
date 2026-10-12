@@ -2,11 +2,79 @@ import assert from "node:assert/strict";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { ACTIVE_INTENTS, ALL_INTENTS, getIntentCount, getQuestionVariantCount, resolveQuestion, recommendGuideLinks, validateIntentLibrary } from "../assets/js/carioc-ia-engine.js";
+import { ACTIVE_INTENTS, ALL_INTENTS, extractConversationDetails, getContextualIntentAnswer, getIntentCount, getQuestionVariantCount, resolveQuestion, recommendGuideLinks, validateIntentLibrary } from "../assets/js/carioc-ia-engine.js";
 import { buildWhatsAppHref, WHATSAPP_BASE } from "../assets/js/carioc-ia-whatsapp.js";
 import { SITE_GUIDE_INDEX, searchSiteGuide } from "../assets/js/carioc-ia-site-index.js";
+import { SITE_GUIDE_DOCUMENTS } from "../assets/js/carioc-ia-site-index-data.js";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const detailCases = extractConversationDetails("Somos cuatro en Copacabana, barato, con niños, el martes a las 18:00 y en metro");
+assert.equal(detailCases.location, "copacabana");
+assert.equal(detailCases.budget, "budget");
+assert.equal(detailCases.profile, "family");
+assert.equal(detailCases.partySize, "4");
+assert.equal(detailCases.weekday, "tuesday");
+assert.equal(detailCases.time, "18:00");
+assert.equal(detailCases.transport, "public");
+const breakfastIntent = resolveQuestion("¿Hay desayuno barato en Copacabana?").intent;
+const contextualFoodAnswer = getContextualIntentAnswer(breakfastIntent, { location: "copacabana" }, "ES");
+assert.match(contextualFoodAnswer, /Copacabana/);
+assert.doesNotMatch(contextualFoodAnswer, /¿En qué barrio/);
+const contextualLuggageAnswer = getContextualIntentAnswer(resolveQuestion("Where can I store my luggage in Copacabana?").intent, { location: "copacabana" }, "EN");
+assert.match(contextualLuggageAnswer, /near Copacabana/);
+assert.doesNotMatch(contextualLuggageAnswer, /Which neighborhood/);
+const contextualFamilyAnswer = getContextualIntentAnswer(resolveQuestion("Where can we eat with kids in Ipanema?").intent, { location: "ipanema" }, "EN");
+assert.match(contextualFamilyAnswer, /Ipanema/);
+assert.doesNotMatch(contextualFamilyAnswer, /What neighborhood are you in/);
+for (const [question, expected] of [["Como chegar ao Cristo Redentor", "christ_access"], ["How to reach Christ the Redeemer", "christ_access"], ["Cómo llego al Cristo Redentor", "christ_access"]]) assert.equal(resolveQuestion(question).intent?.id, expected);
+for (const question of ["Quiero un restaurante en Copacabana", "Quero um restaurante em Copacabana", "Find a restaurant in Copacabana"]) assert.equal(resolveQuestion(question).intent?.category, "gastronomy", `restaurant request should route to gastronomy: ${question}`);
+const compositionalCases = [
+  ["¿Qué puedo hacer hoy con niños en Copacabana?", "family"],
+  ["O que fazer hoje com crianças em Copacabana?", "family"],
+  ["What can I do today with kids in Copacabana?", "family"],
+  ["¿Hay desayuno barato en Copacabana?", "daily_food"],
+  ["Onde posso guardar minha mala em Copacabana?", "quick_luggage"],
+  ["Where can I store my luggage in Copacabana?", "quick_luggage"],
+  ["Can I book Christ today?", "christ_booking"],
+  ["¿Cómo llego al Cristo desde Copacabana?", "christ_access"],
+  ["Como chego ao Cristo saindo de Copacabana?", "christ_access"],
+  ["How can I reach Christ the Redeemer from Copacabana?", "christ_access"],
+  ["Where can we eat with kids in Ipanema?", "daily_food_family"],
+  ["Somos cuatro y queremos ir a Angra", "experience_angra"],
+  ["We are four and want to go to Angra", "experience_angra"],
+  ["Somos quatro e queremos ir para Angra", "experience_angra"]
+];
+for (const [question, expected] of compositionalCases) {
+  assert.equal(resolveQuestion(question).intent?.id, expected, "composite request should preserve its primary intent: " + question);
+}
+
+const firstAngra = resolveQuestion("Quiero ir a Angra");
+const partyRefinement = resolveQuestion("Somos cuatro personas", { ...firstAngra.contextUpdate, lastIntentId: firstAngra.intent.id });
+const dayRefinement = resolveQuestion("el martes", { ...partyRefinement.contextUpdate, lastIntentId: firstAngra.intent.id });
+assert.equal(partyRefinement.intent?.id, firstAngra.intent.id, "retiene la experiencia al indicar el grupo");
+assert.equal(dayRefinement.intent?.id, firstAngra.intent.id, "retiene la experiencia al indicar el día");
+assert.equal(dayRefinement.contextUpdate?.partySize, "4");
+assert.equal(dayRefinement.contextUpdate?.weekday, "tuesday");
+assert.equal(dayRefinement.contextUpdate?.detailRefinement, true);
+const angraWhatsApp = new URL(buildWhatsAppHref({ language: "EN", experience: "Angra + Ilha Grande", date: "Tuesday", people: "4" }));
+for (const detail of ["Angra", "Tuesday", "4"]) assert.ok(decodeURIComponent(angraWhatsApp.searchParams.get("text")).includes(detail), "WhatsApp retains " + detail);
+assert.equal(SITE_GUIDE_INDEX.length, 505, "el índice cubre las 505 rutas verificadas");
+assert.equal(SITE_GUIDE_DOCUMENTS.length, SITE_GUIDE_INDEX.length, "cada ruta tiene una ficha de guía");
+assert.equal(new Set(SITE_GUIDE_DOCUMENTS.map(item => item.href)).size, SITE_GUIDE_DOCUMENTS.length, "no hay rutas duplicadas");
+for (const item of SITE_GUIDE_DOCUMENTS) {
+  assert.ok(item.title.trim(), "cada ficha tiene título: " + item.href);
+  assert.ok(item.summary.trim(), "cada ficha tiene resumen: " + item.href);
+  assert.ok(existsSync(path.join(repoRoot, item.href, "index.html")), "cada recomendación apunta a una página fuente: " + item.href);
+}
+const barraGuide = SITE_GUIDE_DOCUMENTS.find(item => item.href === "/barrios/barra-da-tijuca/");
+assert.equal(barraGuide?.neighborhood, "Barra da Tijuca", "el barrio viene de la página, no del menú compartido");
+const copacabanaFood = searchSiteGuide("restaurant Copacabana", "gastronomy", [], 4, { location: "copacabana" });
+assert.ok(copacabanaFood.length > 0, "hay fichas gastronómicas de Copacabana");
+assert.ok(copacabanaFood.every(item => item.href.startsWith("/gastronomia/") && item.neighborhood === "Copacabana"), "las recomendaciones respetan categoría y barrio");
+assert.ok(searchSiteGuide("restaurant Copacabana", "beaches", [], 4).every(item => item.href.startsWith("/playas/")), "mantiene la categoría solicitada");
+assert.equal(searchSiteGuide("restaurant Copacabana", "gastronomy", [], 4, { budget: "budget" }).length, 0, "no inventa coincidencias de precio");
+assert.equal(searchSiteGuide("breakfast Copacabana", "gastronomy", [], 4, { location: "copacabana" }).length, 0, "no convierte el filtro de barrio en una coincidencia de desayuno");
+
 const legacyBeachAlias = new Map([["beaches", "beach_clarify"]]);
 const cases = ACTIVE_INTENTS.map(intent => ({
   question: intent.keywords[0],

@@ -1,0 +1,1213 @@
+{
+  "count": 120,
+  "recognized": 120,
+  "unresolved": 0,
+  "countsByLanguage": {
+    "ES": 40,
+    "PT": 40,
+    "EN": 40
+  },
+  "notice": "Recognition is not proof of answer accuracy; editorial and browser QA remain required.",
+  "cases": [
+    {
+      "id": "001",
+      "category": "Tours",
+      "language": "ES",
+      "question": "Quiero conocer los tours",
+      "recognized": true,
+      "intent": "experiences",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "002",
+      "category": "Tours",
+      "language": "ES",
+      "question": "¿Cuánto sale visitar el Cristo con guía?",
+      "recognized": true,
+      "intent": "christ_booking",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "003",
+      "category": "Tours",
+      "language": "ES",
+      "question": "Somos cuatro y queremos ir a Angra",
+      "recognized": true,
+      "intent": "experience_angra",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "004",
+      "category": "Tours",
+      "language": "ES",
+      "question": "¿Hay paseos culturales para mañana?",
+      "recognized": true,
+      "intent": "experiences",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "005",
+      "category": "Tours",
+      "language": "ES",
+      "question": "Quiero hacer parapente, ¿cómo reservo?",
+      "recognized": true,
+      "intent": "daily_adventure",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "006",
+      "category": "Tours",
+      "language": "PT",
+      "question": "Quero conhecer os passeios",
+      "recognized": true,
+      "intent": "experiences",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "007",
+      "category": "Tours",
+      "language": "PT",
+      "question": "Quanto custa visitar o Cristo com guia?",
+      "recognized": true,
+      "intent": "christ_booking",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "008",
+      "category": "Tours",
+      "language": "PT",
+      "question": "Somos quatro e queremos ir para Angra",
+      "recognized": true,
+      "intent": "experience_angra",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "009",
+      "category": "Tours",
+      "language": "PT",
+      "question": "Tem passeios culturais para amanhã?",
+      "recognized": true,
+      "intent": "experiences",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "010",
+      "category": "Tours",
+      "language": "PT",
+      "question": "Quero fazer parapente, como reservo?",
+      "recognized": true,
+      "intent": "experiences",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "011",
+      "category": "Tours",
+      "language": "EN",
+      "question": "I want to see available tours",
+      "recognized": true,
+      "intent": "experiences",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "012",
+      "category": "Tours",
+      "language": "EN",
+      "question": "How much is a guided Christ the Redeemer tour?",
+      "recognized": true,
+      "intent": "christ_booking",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "013",
+      "category": "Tours",
+      "language": "EN",
+      "question": "Four of us want to visit Angra",
+      "recognized": true,
+      "intent": "experience_angra",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "014",
+      "category": "Tours",
+      "language": "EN",
+      "question": "Are there cultural tours tomorrow?",
+      "recognized": true,
+      "intent": "experiences",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "015",
+      "category": "Tours",
+      "language": "EN",
+      "question": "I want to go paragliding. How do I book?",
+      "recognized": true,
+      "intent": "booking",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "016",
+      "category": "Hospedaje",
+      "language": "ES",
+      "question": "Busco hospedaje en Copacabana",
+      "recognized": true,
+      "intent": "stay",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "017",
+      "category": "Hospedaje",
+      "language": "ES",
+      "question": "¿Qué barrio conviene para alojarse por primera vez?",
+      "recognized": true,
+      "intent": "first_visit",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "018",
+      "category": "Hospedaje",
+      "language": "ES",
+      "question": "Un departamento para cinco personas",
+      "recognized": true,
+      "intent": "stay",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "019",
+      "category": "Hospedaje",
+      "language": "ES",
+      "question": "Quiero quedarme cerca del metro",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "020",
+      "category": "Hospedaje",
+      "language": "ES",
+      "question": "¿Tienen disponibilidad para febrero?",
+      "recognized": true,
+      "intent": "stay",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "021",
+      "category": "Hospedaje",
+      "language": "PT",
+      "question": "Procuro hospedagem em Copacabana",
+      "recognized": true,
+      "intent": "stay",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "022",
+      "category": "Hospedaje",
+      "language": "PT",
+      "question": "Qual bairro é bom para ficar na primeira viagem?",
+      "recognized": true,
+      "intent": "neighborhoods",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "023",
+      "category": "Hospedaje",
+      "language": "PT",
+      "question": "Um apartamento para cinco pessoas",
+      "recognized": true,
+      "intent": "stay",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "024",
+      "category": "Hospedaje",
+      "language": "PT",
+      "question": "Quero ficar perto do metrô",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "025",
+      "category": "Hospedaje",
+      "language": "PT",
+      "question": "Tem disponibilidade para fevereiro?",
+      "recognized": true,
+      "intent": "booking",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "026",
+      "category": "Hospedaje",
+      "language": "EN",
+      "question": "I need accommodation in Copacabana",
+      "recognized": true,
+      "intent": "stay",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "027",
+      "category": "Hospedaje",
+      "language": "EN",
+      "question": "Which area is best for a first-time visitor?",
+      "recognized": true,
+      "intent": "stay",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "028",
+      "category": "Hospedaje",
+      "language": "EN",
+      "question": "An apartment for five people",
+      "recognized": true,
+      "intent": "stay",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "029",
+      "category": "Hospedaje",
+      "language": "EN",
+      "question": "I want to stay close to a metro station",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "030",
+      "category": "Hospedaje",
+      "language": "EN",
+      "question": "Do you have vacancies in February?",
+      "recognized": true,
+      "intent": "stay",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "031",
+      "category": "Equipaje",
+      "language": "ES",
+      "question": "¿Dónde puedo guardar mi maleta?",
+      "recognized": true,
+      "intent": "quick_luggage",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "032",
+      "category": "Equipaje",
+      "language": "ES",
+      "question": "Tengo que dejar las valijas cerca de Posto 4",
+      "recognized": true,
+      "intent": "quick_luggage",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "033",
+      "category": "Equipaje",
+      "language": "ES",
+      "question": "Necesito consigna después del check-out",
+      "recognized": true,
+      "intent": "quick_luggage",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "034",
+      "category": "Equipaje",
+      "language": "ES",
+      "question": "¿Puedo dejar equipaje junto al aeropuerto?",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "035",
+      "category": "Equipaje",
+      "language": "ES",
+      "question": "¿Hay dónde guardar bolsos hasta la noche?",
+      "recognized": true,
+      "intent": "nightlife",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "036",
+      "category": "Equipaje",
+      "language": "PT",
+      "question": "Onde posso guardar minha mala?",
+      "recognized": true,
+      "intent": "quick_luggage",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "037",
+      "category": "Equipaje",
+      "language": "PT",
+      "question": "Preciso deixar as malas perto do Posto 4",
+      "recognized": true,
+      "intent": "quick_luggage",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "038",
+      "category": "Equipaje",
+      "language": "PT",
+      "question": "Preciso de guarda-volumes depois do check-out",
+      "recognized": true,
+      "intent": "quick_luggage",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "039",
+      "category": "Equipaje",
+      "language": "PT",
+      "question": "Posso deixar bagagem perto do aeroporto?",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "040",
+      "category": "Equipaje",
+      "language": "PT",
+      "question": "Onde guardar bolsas até a noite?",
+      "recognized": true,
+      "intent": "nightlife",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "041",
+      "category": "Equipaje",
+      "language": "EN",
+      "question": "Where can I store my luggage?",
+      "recognized": true,
+      "intent": "quick_luggage",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "042",
+      "category": "Equipaje",
+      "language": "EN",
+      "question": "I need bag storage near Posto 4",
+      "recognized": true,
+      "intent": "quick_luggage",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "043",
+      "category": "Equipaje",
+      "language": "EN",
+      "question": "I need luggage storage after checkout",
+      "recognized": true,
+      "intent": "quick_luggage",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "044",
+      "category": "Equipaje",
+      "language": "EN",
+      "question": "Can I store bags near the airport?",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "045",
+      "category": "Equipaje",
+      "language": "EN",
+      "question": "Where can I keep my bags until tonight?",
+      "recognized": true,
+      "intent": "quick_luggage",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "046",
+      "category": "Traslados privados",
+      "language": "ES",
+      "question": "Necesito un traslado desde Galeão",
+      "recognized": true,
+      "intent": "daily_transfer",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "047",
+      "category": "Traslados privados",
+      "language": "ES",
+      "question": "¿Tienen transfer privado a Búzios?",
+      "recognized": true,
+      "intent": "buzios",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "048",
+      "category": "Traslados privados",
+      "language": "ES",
+      "question": "Busco auto con conductor para seis",
+      "recognized": true,
+      "intent": "daily_transfer",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "049",
+      "category": "Traslados privados",
+      "language": "ES",
+      "question": "Llegamos de madrugada con muchas maletas",
+      "recognized": true,
+      "intent": "daily_transfer",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "050",
+      "category": "Traslados privados",
+      "language": "ES",
+      "question": "Quiero reservar transporte al aeropuerto",
+      "recognized": true,
+      "intent": "booking",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "051",
+      "category": "Traslados privados",
+      "language": "PT",
+      "question": "Preciso de transfer saindo do Galeão",
+      "recognized": true,
+      "intent": "daily_transfer",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "052",
+      "category": "Traslados privados",
+      "language": "PT",
+      "question": "Tem transfer privativo para Búzios?",
+      "recognized": true,
+      "intent": "buzios",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "053",
+      "category": "Traslados privados",
+      "language": "PT",
+      "question": "Procuro carro com motorista para seis",
+      "recognized": true,
+      "intent": "daily_transfer",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "054",
+      "category": "Traslados privados",
+      "language": "PT",
+      "question": "Chegamos de madrugada com muitas malas",
+      "recognized": true,
+      "intent": "daily_transfer",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "055",
+      "category": "Traslados privados",
+      "language": "PT",
+      "question": "Quero reservar transporte ao aeroporto",
+      "recognized": true,
+      "intent": "booking",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "056",
+      "category": "Traslados privados",
+      "language": "EN",
+      "question": "I need a private pickup at Galeão",
+      "recognized": true,
+      "intent": "daily_transfer",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "057",
+      "category": "Traslados privados",
+      "language": "EN",
+      "question": "Do you offer private transfers to Búzios?",
+      "recognized": true,
+      "intent": "buzios",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "058",
+      "category": "Traslados privados",
+      "language": "EN",
+      "question": "I need a driver for six people",
+      "recognized": true,
+      "intent": "daily_transfer",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "059",
+      "category": "Traslados privados",
+      "language": "EN",
+      "question": "We arrive very late with lots of luggage",
+      "recognized": true,
+      "intent": "daily_transfer",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "060",
+      "category": "Traslados privados",
+      "language": "EN",
+      "question": "I want to book an airport transfer",
+      "recognized": true,
+      "intent": "booking",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "061",
+      "category": "Familias",
+      "language": "ES",
+      "question": "¿Qué hacer con niños en Río?",
+      "recognized": true,
+      "intent": "family",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "062",
+      "category": "Familias",
+      "language": "ES",
+      "question": "Llueve y tengo un niño pequeño",
+      "recognized": true,
+      "intent": "family",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "063",
+      "category": "Familias",
+      "language": "ES",
+      "question": "Quiero planes para adolescentes",
+      "recognized": true,
+      "intent": "family",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "064",
+      "category": "Familias",
+      "language": "ES",
+      "question": "¿El AquaRio sirve para niños de cuatro años?",
+      "recognized": true,
+      "intent": "attraction_aquario",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "065",
+      "category": "Familias",
+      "language": "ES",
+      "question": "Necesitamos paseo accesible con cochecito",
+      "recognized": true,
+      "intent": "experiences",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "066",
+      "category": "Familias",
+      "language": "PT",
+      "question": "O que fazer com crianças no Rio?",
+      "recognized": true,
+      "intent": "family",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "067",
+      "category": "Familias",
+      "language": "PT",
+      "question": "Está chovendo e tenho uma criança pequena",
+      "recognized": true,
+      "intent": "family",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "068",
+      "category": "Familias",
+      "language": "PT",
+      "question": "Quero programas para adolescentes",
+      "recognized": true,
+      "intent": "family",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "069",
+      "category": "Familias",
+      "language": "PT",
+      "question": "O AquaRio é bom para criança de quatro anos?",
+      "recognized": true,
+      "intent": "attraction_aquario",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "070",
+      "category": "Familias",
+      "language": "PT",
+      "question": "Precisamos de passeio com carrinho de bebê",
+      "recognized": true,
+      "intent": "experiences",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "071",
+      "category": "Familias",
+      "language": "EN",
+      "question": "What can we do with kids in Rio?",
+      "recognized": true,
+      "intent": "family",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "072",
+      "category": "Familias",
+      "language": "EN",
+      "question": "It is raining and I have a toddler",
+      "recognized": true,
+      "intent": "daily_rain",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "073",
+      "category": "Familias",
+      "language": "EN",
+      "question": "Any ideas for teenagers?",
+      "recognized": true,
+      "intent": "family",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "074",
+      "category": "Familias",
+      "language": "EN",
+      "question": "Is AquaRio suitable for a four-year-old?",
+      "recognized": true,
+      "intent": "attraction_aquario",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "075",
+      "category": "Familias",
+      "language": "EN",
+      "question": "We need stroller-friendly activities",
+      "recognized": true,
+      "intent": "family",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "076",
+      "category": "Transporte público",
+      "language": "ES",
+      "question": "¿Cómo me muevo por Río?",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "077",
+      "category": "Transporte público",
+      "language": "ES",
+      "question": "¿Cómo llego al Cristo desde Copacabana?",
+      "recognized": true,
+      "intent": "christ_access",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "078",
+      "category": "Transporte público",
+      "language": "ES",
+      "question": "¿Qué metro tomo para Maracaná?",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "079",
+      "category": "Transporte público",
+      "language": "ES",
+      "question": "¿Conviene Uber o metro a Botafogo?",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "080",
+      "category": "Transporte público",
+      "language": "ES",
+      "question": "¿Cómo uso el VLT desde el centro?",
+      "recognized": true,
+      "intent": "daily_brt_vlt",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "081",
+      "category": "Transporte público",
+      "language": "PT",
+      "question": "Como me locomovo pelo Rio?",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "082",
+      "category": "Transporte público",
+      "language": "PT",
+      "question": "Como chego ao Cristo saindo de Copacabana?",
+      "recognized": true,
+      "intent": "christ_access",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "083",
+      "category": "Transporte público",
+      "language": "PT",
+      "question": "Qual metrô pego para o Maracanã?",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "084",
+      "category": "Transporte público",
+      "language": "PT",
+      "question": "É melhor Uber ou metrô para Botafogo?",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "085",
+      "category": "Transporte público",
+      "language": "PT",
+      "question": "Como uso o VLT no Centro?",
+      "recognized": true,
+      "intent": "daily_brt_vlt",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "086",
+      "category": "Transporte público",
+      "language": "EN",
+      "question": "How do I get around Rio?",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "087",
+      "category": "Transporte público",
+      "language": "EN",
+      "question": "How can I reach Christ the Redeemer from Copacabana?",
+      "recognized": true,
+      "intent": "christ_access",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "088",
+      "category": "Transporte público",
+      "language": "EN",
+      "question": "Which metro should I take to Maracanã?",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "089",
+      "category": "Transporte público",
+      "language": "EN",
+      "question": "Uber or metro to Botafogo?",
+      "recognized": true,
+      "intent": "transport",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "090",
+      "category": "Transporte público",
+      "language": "EN",
+      "question": "How do I use the VLT downtown?",
+      "recognized": true,
+      "intent": "daily_brt_vlt",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "091",
+      "category": "Gastronomía",
+      "language": "ES",
+      "question": "Quiero desayunar en Copacabana",
+      "recognized": true,
+      "intent": "daily_coffee",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "092",
+      "category": "Gastronomía",
+      "language": "ES",
+      "question": "Busco un restaurante barato",
+      "recognized": true,
+      "intent": "food",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "093",
+      "category": "Gastronomía",
+      "language": "ES",
+      "question": "¿Dónde comer con niños en Ipanema?",
+      "recognized": true,
+      "intent": "daily_food_family",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "094",
+      "category": "Gastronomía",
+      "language": "ES",
+      "question": "Quiero comida brasileña sin mariscos",
+      "recognized": true,
+      "intent": "food",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "095",
+      "category": "Gastronomía",
+      "language": "ES",
+      "question": "¿Hay algo para cenar cerca del Posto 6?",
+      "recognized": true,
+      "intent": "daily_food",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "096",
+      "category": "Gastronomía",
+      "language": "PT",
+      "question": "Quero tomar café da manhã em Copacabana",
+      "recognized": true,
+      "intent": "daily_coffee",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "097",
+      "category": "Gastronomía",
+      "language": "PT",
+      "question": "Procuro restaurante barato",
+      "recognized": true,
+      "intent": "food",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "098",
+      "category": "Gastronomía",
+      "language": "PT",
+      "question": "Onde comer com crianças em Ipanema?",
+      "recognized": true,
+      "intent": "daily_food_family",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "099",
+      "category": "Gastronomía",
+      "language": "PT",
+      "question": "Quero comida brasileira sem frutos do mar",
+      "recognized": true,
+      "intent": "food",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "100",
+      "category": "Gastronomía",
+      "language": "PT",
+      "question": "Onde jantar perto do Posto 6?",
+      "recognized": true,
+      "intent": "daily_food",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "101",
+      "category": "Gastronomía",
+      "language": "EN",
+      "question": "I want breakfast in Copacabana",
+      "recognized": true,
+      "intent": "daily_food",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "102",
+      "category": "Gastronomía",
+      "language": "EN",
+      "question": "I need an inexpensive restaurant",
+      "recognized": true,
+      "intent": "daily_food",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "103",
+      "category": "Gastronomía",
+      "language": "EN",
+      "question": "Where can we eat with kids in Ipanema?",
+      "recognized": true,
+      "intent": "daily_food_family",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "104",
+      "category": "Gastronomía",
+      "language": "EN",
+      "question": "I want Brazilian food without seafood",
+      "recognized": true,
+      "intent": "daily_food_restrictions",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "105",
+      "category": "Gastronomía",
+      "language": "EN",
+      "question": "Where can I have dinner near Posto 6?",
+      "recognized": true,
+      "intent": "daily_food",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "106",
+      "category": "Qué hacer hoy",
+      "language": "ES",
+      "question": "¿Qué hago hoy en Río?",
+      "recognized": true,
+      "intent": "today",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "107",
+      "category": "Qué hacer hoy",
+      "language": "ES",
+      "question": "Está lloviendo, ¿qué puedo visitar?",
+      "recognized": true,
+      "intent": "daily_rain",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "108",
+      "category": "Qué hacer hoy",
+      "language": "ES",
+      "question": "Busco algo gratis esta tarde",
+      "recognized": true,
+      "intent": "today",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "109",
+      "category": "Qué hacer hoy",
+      "language": "ES",
+      "question": "¿Qué hay para hacer esta noche en Lapa?",
+      "recognized": true,
+      "intent": "nightlife",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "110",
+      "category": "Qué hacer hoy",
+      "language": "ES",
+      "question": "¿Qué puedo hacer cerca de mí ahora?",
+      "recognized": true,
+      "intent": "today",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "111",
+      "category": "Qué hacer hoy",
+      "language": "PT",
+      "question": "O que fazer hoje no Rio?",
+      "recognized": true,
+      "intent": "today",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "112",
+      "category": "Qué hacer hoy",
+      "language": "PT",
+      "question": "Está chovendo, o que visitar?",
+      "recognized": true,
+      "intent": "daily_rain",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "113",
+      "category": "Qué hacer hoy",
+      "language": "PT",
+      "question": "Quero fazer algo grátis hoje à tarde",
+      "recognized": true,
+      "intent": "today",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "114",
+      "category": "Qué hacer hoy",
+      "language": "PT",
+      "question": "O que fazer hoje à noite na Lapa?",
+      "recognized": true,
+      "intent": "today",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "115",
+      "category": "Qué hacer hoy",
+      "language": "PT",
+      "question": "O que fazer perto de mim agora?",
+      "recognized": true,
+      "intent": "today",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "116",
+      "category": "Qué hacer hoy",
+      "language": "EN",
+      "question": "What should I do in Rio today?",
+      "recognized": true,
+      "intent": "today",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "117",
+      "category": "Qué hacer hoy",
+      "language": "EN",
+      "question": "It is raining, what can I visit?",
+      "recognized": true,
+      "intent": "daily_rain",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "118",
+      "category": "Qué hacer hoy",
+      "language": "EN",
+      "question": "Any free activities this afternoon?",
+      "recognized": true,
+      "intent": "today",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "119",
+      "category": "Qué hacer hoy",
+      "language": "EN",
+      "question": "What can I do in Lapa tonight?",
+      "recognized": true,
+      "intent": "today",
+      "clarification": false,
+      "needs_review": false
+    },
+    {
+      "id": "120",
+      "category": "Qué hacer hoy",
+      "language": "EN",
+      "question": "What is there to do near me right now?",
+      "recognized": true,
+      "intent": "today",
+      "clarification": false,
+      "needs_review": false
+    }
+  ]
+}
