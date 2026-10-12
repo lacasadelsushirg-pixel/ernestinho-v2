@@ -22,6 +22,18 @@ const breakfastIntent = resolveQuestion("¿Hay desayuno barato en Copacabana?").
 const contextualFoodAnswer = getContextualIntentAnswer(breakfastIntent, { location: "copacabana" }, "ES");
 assert.match(contextualFoodAnswer, /Copacabana/);
 assert.doesNotMatch(contextualFoodAnswer, /¿En qué barrio/);
+const spokenBreakfast = resolveQuestion("¿Dónde puedo desayunar en Copacabana?").intent;
+assert.equal(spokenBreakfast?.id, "daily_coffee");
+assert.equal(extractConversationDetails("¿Dónde puedo desayunar en Copacabana?").meal, "breakfast");
+const todayIntent = resolveQuestion("¿Qué puedo hacer hoy?").intent;
+const breakfastAfterToday = resolveQuestion("¿Dónde puedo desayunar en Copacabana?", {
+  lastIntentId: todayIntent?.id,
+  category: todayIntent?.category
+}).intent;
+assert.equal(breakfastAfterToday?.id, "daily_coffee");
+const contextualCoffeeAnswer = getContextualIntentAnswer(breakfastAfterToday, { location: "copacabana" }, "ES");
+assert.match(contextualCoffeeAnswer, /En Copacabana/);
+assert.doesNotMatch(contextualCoffeeAnswer, /¿En qué barrio/);
 const contextualLuggageAnswer = getContextualIntentAnswer(resolveQuestion("Where can I store my luggage in Copacabana?").intent, { location: "copacabana" }, "EN");
 assert.match(contextualLuggageAnswer, /near Copacabana/);
 assert.doesNotMatch(contextualLuggageAnswer, /Which neighborhood/);
