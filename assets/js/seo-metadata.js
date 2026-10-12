@@ -1,3 +1,4 @@
+import ATTRACTION_SEO from './attraction-seo.js';
 // Controlled on-page plan: metadata only. Editorial HTML remains unchanged.
 import { routeParts } from './locale-routing.js';
 export const SEO_METADATA = {
@@ -62,10 +63,23 @@ export const SEO_METADATA = {
     EN: ['Maracanã Football Matches & Tickets | Ernestinho', 'Experience a football match at the Maracanã with Ernestinho Carioca. Check upcoming fixtures and experience details before booking.']
   }
 };
+Object.assign(SEO_METADATA, ATTRACTION_SEO);
 export function applySeoMetadata(language, route = routeParts().path) {
   const copy = SEO_METADATA[route]?.[language];
   if (!copy) return;
   document.title = copy[0];
+  for (const script of document.querySelectorAll('script[type="application/ld+json"]')) {
+    try {
+      const data = JSON.parse(script.textContent);
+      for (const node of data['@graph'] || [data]) {
+        if (!['WebPage', 'Article'].includes(node['@type'])) continue;
+        if (node.url && new URL(node.url, location.href).pathname !== route) continue;
+        node.name = copy[0]; node.description = copy[1];
+        node.inLanguage = language === 'PT' ? 'pt-BR' : language.toLowerCase();
+      }
+      script.textContent = JSON.stringify(data);
+    } catch { /* Preserve unrelated or invalid legacy markup. */ }
+  }
   for (const [key, value] of [['description',copy[1]], ['og:title',copy[0]], ['og:description',copy[1]], ['twitter:title',copy[0]], ['twitter:description',copy[1]]]) {
     const node = document.querySelector(`meta[name="${key}"],meta[property="${key}"]`);
     if (node) node.content = value;
