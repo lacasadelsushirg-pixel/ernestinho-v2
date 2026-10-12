@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { ACTIVE_INTENTS, ALL_INTENTS, extractConversationDetails, getContextualIntentAnswer, getIntentCount, getQuestionVariantCount, resolveQuestion, recommendGuideLinks, validateIntentLibrary } from "../assets/js/carioc-ia-engine.js";
@@ -8,6 +8,8 @@ import { SITE_GUIDE_INDEX, searchSiteGuide } from "../assets/js/carioc-ia-site-i
 import { SITE_GUIDE_DOCUMENTS } from "../assets/js/carioc-ia-site-index-data.js";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const widgetSource = readFileSync(path.join(repoRoot, "assets/js/carioc-ia.js"), "utf8");
+assert.match(widgetSource, /import\s*\{[^}]*\bgetContextualIntentAnswer\b[^}]*\}\s*from\s*["']\.\/carioc-ia-engine\.js/);
 const detailCases = extractConversationDetails("Somos cuatro en Copacabana, barato, con niños, el martes a las 18:00 y en metro");
 assert.equal(detailCases.location, "copacabana");
 assert.equal(detailCases.budget, "budget");
