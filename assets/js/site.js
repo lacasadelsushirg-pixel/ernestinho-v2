@@ -1,7 +1,7 @@
 import { LANGS, getLanguage, cycleLanguage, setLanguage, applyTranslations } from "./i18n.js";
 import { routeParts, hasLocaleRoutes, localeHref, localizeLinks, syncLocaleMetadata } from './locale-routing.js';
 import { localizeAttractionBooking } from './attraction-booking.js';
-import { applySeoMetadata } from './seo-metadata.js';
+import { applySeoMetadata } from './seo-metadata.js?v=20261012-attractions-i18n';
 import { addTransportPhotoReferences } from "./transport-photo-references.js";
 import { addBulkPhotoReferences } from "./bulk-photo-references.js";
 import { mountCariocIA } from "./carioc-ia.js?v=20261012-cariocia7";
@@ -294,7 +294,7 @@ async function init() {
     const selected = event.detail?.lang || getLanguage();
     applyEmbeddedShoppingCopy(selected);
     translateText(document.head, selected); translateText(document.body, selected); translateAttrs(selected); applyTranslations(document, selected);
-    applySeoMetadata(selected); syncLocaleMetadata();
+    applySeoMetadata(selected); localizeAttractionBooking(selected); syncLocaleMetadata();
   });
   // Bridge shared language controls to pages that render their own ES/PT/EN copy.
   let syncingEmbeddedLanguage = false;

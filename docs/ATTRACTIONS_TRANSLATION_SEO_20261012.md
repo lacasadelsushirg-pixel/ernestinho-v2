@@ -15,6 +15,8 @@ Base: `108d3afb8af240364810d43751b743599264a542`, current production branch `rev
 
 `node scripts/check_attraction_locales.mjs` passed: 17 pages, 34 PT/EN render checks, return to Spanish, chapter anchors, image URL preservation, photo/accessibility translations, structured-data language, and no main-content horizontal overflow at 390px. Actual booking controls were checked in three languages; the existing Full Day modal was submitted locally with window opening intercepted. No WhatsApp message was sent.
 
+The existing multilingual builder also passed a three-page pilot (Cristo, BioParque and Full Day), producing nine ES/PT/EN HTML files. Visible mobile language controls were exercised in the locale render audit.
+
 `node --check` and `git diff --check` passed. Public HTML/JS/JSON search found no Full Day R$410 price. Static body and image preservation assertions passed.
 
 Mandatory `python3 scripts/check_frozen_pages.py` was run before edits and again before publication. The September manifest already reports 562 changed pages on the clean production base; final output is byte-for-byte identical to that baseline. The manifest was not regenerated. Current explicitly authorised SEO metadata and Maracanã conversion changes do not add any newly failing page.
@@ -22,3 +24,5 @@ Mandatory `python3 scripts/check_frozen_pages.py` was run before edits and again
 ## Deployment limits
 
 The current Hostinger source deployment uses one URL with client-side language switching. This change does not advertise absent `/pt/` or `/en/` URLs or add unsupported alternate-language links. The existing full multilingual build can produce separate language URLs, but deploying that complete output is a separate hosting integration. Translation coverage here is these 17 pages, not a claim that every site section has been completed.
+
+Production verification found cached old shared modules despite updated HTML. The 17 entry scripts and SEO module import have a release query parameter; the multilingual builder recognises versioned script URLs.

@@ -96,7 +96,7 @@ async function worker(){
     const scripts=[...document.querySelectorAll('script[type="module"][src]')];
     for(const script of scripts){if(new URL(script.src).origin===location.origin){const module=await import(script.src);if(module.ready)await module.ready;}}
     const i18n=await import('/assets/js/i18n.js');i18n.setLanguage(language);
-    const site=scripts.find(s=>s.src.endsWith('/assets/js/site.js'));
+    const site=scripts.find(s=>new URL(s.src).pathname.endsWith('/assets/js/site.js'));
     if(site)(await import(site.src)).apply(language);
     const buzios=scripts.find(s=>s.src.endsWith('/assets/js/buzios-page.js'));
     if(buzios)(await import(buzios.src)).apply(language);

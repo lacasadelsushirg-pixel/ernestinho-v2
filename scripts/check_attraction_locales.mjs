@@ -30,14 +30,15 @@ try {
   const page = await context.newPage();
   for (const route of routes) {
     await page.goto(base + route);
-    await page.evaluate(async () => { await (await import('/assets/js/site.js')).ready; (await import('/assets/js/site.js')).apply('ES'); });
+    await page.evaluate(async () => { await (await import(document.querySelector('script[src*="/assets/js/site.js"]').src)).ready; (await import(document.querySelector('script[src*="/assets/js/site.js"]').src)).apply('ES'); });
     const before = await page.evaluate(() => ({ text: document.querySelector('main').textContent, images: [...document.querySelectorAll('main img')].map(i => i.getAttribute('src')), attrs: [...document.querySelectorAll('main img[alt], main [aria-label]')].map(el => ({ alt: el.getAttribute('alt'), aria: el.getAttribute('aria-label') })) }));
     const name = route === '/atracciones/' ? 'atracciones-index' : route.slice(1,-1).replaceAll('/', '-');
     const chunk = path.join(root, `assets/js/translations/chunks/encyclopedia-${name}.js`);
     const dictionary = fs.existsSync(chunk) ? (await import(chunk)).default : {};
     for (const language of ['PT', 'EN']) {
+      await page.locator(`[data-ec-language="${language}"]`).click();
       const result = await page.evaluate(async ({language, dictionary, originalAttrs}) => {
-        (await import('/assets/js/site.js')).apply(language);
+        (await import(document.querySelector('script[src*="/assets/js/site.js"]').src)).apply(language);
         const main = document.querySelector('main');
         const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT), texts = [];
         let node;
@@ -61,7 +62,7 @@ try {
       assert.ok(result.overflow < 3, `${route} ${language}: mobile horizontal overflow ${result.overflow}px`);
       results.push({ route, language, translatedMessages: Object.keys(dictionary).length, mobileOverflow: result.overflow });
     }
-    await page.evaluate(async () => (await import('/assets/js/site.js')).apply('ES'));
+    await page.evaluate(async () => (await import(document.querySelector('script[src*="/assets/js/site.js"]').src)).apply('ES'));
     const restored = await page.evaluate(() => document.querySelector('main').textContent);
     assert.equal(restored, before.text, `${route}: Spanish failed to restore`);
     const broken = await page.evaluate(() => [...document.querySelectorAll('main a[href^="#"]')].map(a => a.getAttribute('href').slice(1)).filter(id => id && !document.getElementById(decodeURIComponent(id))));
@@ -78,9 +79,9 @@ try {
   }
   for (const route of routes.filter(r => r.startsWith('/experiencias/'))) {
     await page.goto(base + route);
-    await page.evaluate(async () => { await (await import('/assets/js/site.js')).ready; window.open = url => { window.ecTestBookingUrl = url; }; });
+    await page.evaluate(async () => { await (await import(document.querySelector('script[src*="/assets/js/site.js"]').src)).ready; window.open = url => { window.ecTestBookingUrl = url; }; });
     for (const language of ['ES','PT','EN']) {
-      await page.evaluate(async lang => (await import('/assets/js/site.js')).apply(lang), language);
+      await page.evaluate(async lang => (await import(document.querySelector('script[src*="/assets/js/site.js"]').src)).apply(lang), language);
       if (route === '/experiencias/full-day-rio/') continue;
       const button = page.locator('button.reserve').first();
       let url;
@@ -91,7 +92,7 @@ try {
   }
   // Exercise the actual existing modal and submission; capture the URL, never contact WhatsApp.
   await page.goto(base + '/experiencias/full-day-rio/');
-  await page.evaluate(async () => { const site = await import('/assets/js/site.js'); await site.ready; site.apply('EN'); window.open = url => { window.ecTestBookingUrl = url; }; });
+  await page.evaluate(async () => { const site = await import(document.querySelector('script[src*="/assets/js/site.js"]').src); await site.ready; site.apply('EN'); window.open = url => { window.ecTestBookingUrl = url; }; });
   await page.locator('#open-reserve').click();
   await page.locator('[name=nombre]').fill('Ana');
   await page.locator('[name=fecha]').fill('2026-11-12');
