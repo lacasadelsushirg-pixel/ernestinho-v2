@@ -34,6 +34,18 @@ assert.equal(breakfastAfterToday?.id, "daily_coffee");
 const contextualCoffeeAnswer = getContextualIntentAnswer(breakfastAfterToday, { location: "copacabana" }, "ES");
 assert.match(contextualCoffeeAnswer, /En Copacabana/);
 assert.doesNotMatch(contextualCoffeeAnswer, /¿En qué barrio/);
+const rainIntent = resolveQuestion("¿Qué puedo hacer si llueve en Río?").intent;
+assert.equal(rainIntent?.id, "daily_rain");
+const rainAfterChrist = resolveQuestion("¿Qué puedo hacer si llueve en Río?", {
+  lastIntentId: "christ_access",
+  category: "attractions",
+  location: "copacabana"
+}).intent;
+assert.equal(rainAfterChrist?.id, "daily_rain");
+assert.equal(rainAfterChrist?.links?.[0]?.href, "/consejos/lluvia/");
+const contextualRainAnswer = getContextualIntentAnswer(rainAfterChrist, { location: "copacabana" }, "ES");
+assert.match(contextualRainAnswer, /llueve en Copacabana/);
+assert.doesNotMatch(contextualRainAnswer, /¿En qué barrio estás/);
 const contextualLuggageAnswer = getContextualIntentAnswer(resolveQuestion("Where can I store my luggage in Copacabana?").intent, { location: "copacabana" }, "EN");
 assert.match(contextualLuggageAnswer, /near Copacabana/);
 assert.doesNotMatch(contextualLuggageAnswer, /Which neighborhood/);

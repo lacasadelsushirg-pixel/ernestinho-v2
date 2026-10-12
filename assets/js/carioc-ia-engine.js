@@ -61,11 +61,11 @@ const EVERYDAY_INTENTS = [
     "Would you prefer a beachfront drink, a quiet bar, live music or a café? Tell me your neighborhood so I can narrow it down."),
     [ecL("/vida-nocturna/", "Vida nocturna", "Vida noturna", "Nightlife")], "location"),
   ecEveryday("daily_rain", "family",
-    ["esta lloviendo que hacemos", "llueve que hacer", "planes con lluvia", "esta lloviendo", "que hacemos si llueve", "esta chovendo o que fazer", "chovendo no rio", "o que fazer na chuva", "rainy day activities", "it is raining", "what to do when it rains", "indoor activities in rio"],
-    ecT("Si llueve, podemos cambiar la playa por un plan bajo techo. ¿En qué barrio estás y viajas con niños? Tenemos museos, AquaRio y otras opciones en la guía; confirma horarios antes de salir.",
+    ["esta lloviendo que hacemos", "llueve que hacer", "planes con lluvia", "esta lloviendo", "que hacemos si llueve", "que puedo hacer si llueve", "que hacer si llueve en rio", "que hacer con lluvia", "un dia de lluvia en rio", "esta chovendo o que fazer", "chovendo no rio", "o que fazer na chuva", "o que fazer no rio com chuva", "rainy day activities", "it is raining", "what to do when it rains", "what to do in rio when it rains", "indoor activities in rio"],
+    ecT("Si llueve, cambia la playa por un plan bajo techo: museos, centros culturales o AquaRio. Dime tu barrio, si viajas con niños y cuánto tiempo tienes para recomendarte opciones de la guía. Confirma horarios antes de salir.",
     "Se chover, podemos trocar a praia por um programa coberto. Em qual bairro você está e vem com crianças? Temos museus, AquaRio e outras opções no guia; confirme horários antes de sair.",
     "On a rainy day we can switch to an indoor plan. Which neighborhood are you in, and are you traveling with children? Our guide covers museums, AquaRio and other ideas; verify opening hours first."),
-    [ecL("/familia/", "Planes familiares", "Passeios em família", "Family activities"),ecL("/cultura/museos/", "Museos", "Museus", "Museums")], "location"),
+    [ecL("/consejos/lluvia/", "Qué hacer si llueve", "O que fazer se chover", "What to do when it rains"),ecL("/cultura/museos/", "Museos", "Museus", "Museums")], "location"),
   ecEveryday("daily_airport", "transport",
     ["acabo de llegar al aeropuerto", "llegue al aeropuerto", "llegue al galeao", "llegue a santos dumont", "del aeropuerto a copacabana", "como voy del aeropuerto", "cheguei ao aeroporto", "cheguei no galeao", "cheguei no santos dumont", "aeroporto ate copacabana", "just landed at the airport", "just arrived at gig", "just arrived at sdu", "airport to copacabana", "how to get from airport"],
     ecT("¡Bienvenido a Río! ¿Llegaste a Galeão (GIG) o Santos Dumont (SDU), y a qué barrio vas? Con equipaje y horario puedo comparar las opciones sin inventar precios.",
@@ -641,7 +641,7 @@ export function resolveQuestion(question, context = {}) {
   const turnDetails = extractConversationDetails(question, {});
   const detailFields = ["partySize","weekday","date","time","profile","budget","location","transport","meal","food","openNow"];
   const hasTurnDetail = detailFields.some(key => turnDetails[key] !== undefined);
-  const topicTerms = /\b(restaurant|where to eat|comer|comida|restaurante|breakfast|desayuno|cafe da manha|desayunar|praia|beach|playa|tour|passeio|experiencia|experience|hotel|hostel|hospedagem|lodging|luggage|bagagem|maleta|mala|samba|nightlife|vida noturna|transporte|transport|cristo|sugarloaf|pao de acucar|museum|museu|bairro|neighborhood|bar|museo)\b/;
+  const topicTerms = /\b(restaurant|where to eat|comer|comida|restaurante|breakfast|desayuno|cafe da manha|desayunar|llueve|lluvia|rain|chuva|praia|beach|playa|tour|passeio|experiencia|experience|hotel|hostel|hospedagem|lodging|luggage|bagagem|maleta|mala|samba|nightlife|vida noturna|transporte|transport|cristo|sugarloaf|pao de acucar|museum|museu|bairro|neighborhood|bar|museo)\b/;
   if (context.lastIntentId && hasTurnDetail && !turnDetails.experience && !topicTerms.test(query)) {
     const retained = ACTIVE_INTENTS.find(item => item.id === context.lastIntentId);
     if (retained) return { intent: retained, candidates: [retained], contextUpdate: { ...context, ...turnDetails, pending: retained.pending || null, category: retained.category, lastIntentId: retained.id, detailRefinement: true } };
@@ -759,6 +759,11 @@ export function getContextualIntentAnswer(intent, context = {}, language = "ES")
       ES: "En " + location + ", busquemos una padaria o cafetería para desayunar. ¿Prefieres un desayuno completo, algo rápido o café con algo dulce? Revisa la guía y confirma los horarios directamente.",
       PT: "Em " + location + ", vamos procurar uma padaria ou cafeteria para tomar café da manhã. Você prefere um café completo, algo rápido ou café com um doce? Confira o guia e confirme os horários diretamente.",
       EN: "In " + location + ", let's look for a bakery or café for breakfast. Would you prefer a full breakfast, something quick, or coffee and something sweet? Check the guide and confirm opening hours directly."
+    },
+    daily_rain: {
+      ES: "Si llueve en " + location + ", cambia la playa por un plan bajo techo: museos, centros culturales o AquaRio. Revisa la guía de lluvia y confirma horarios antes de salir.",
+      PT: "Se chover em " + location + ", troque a praia por um programa coberto: museus, centros culturais ou AquaRio. Confira o guia para dias de chuva e confirme os horários antes de sair.",
+      EN: "If it rains in " + location + ", switch the beach for an indoor plan: museums, cultural centers or AquaRio. Check the rainy-day guide and confirm opening hours before you go."
     },
     daily_food_family: {
       ES: "Para comer con niños en " + location + ", ¿qué edades tienen? Puedo buscar fichas gastronómicas, pero confirma directamente si el lugar ofrece los servicios que necesitan.",
