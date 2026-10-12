@@ -1,5 +1,5 @@
-import { INTENTS } from "./carioc-ia-knowledge.js?v=20261010-cariocia2";
-import { CURATED_INTENTS, FOLLOWUP_MAPS, INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261010-cariocia2";
+import { INTENTS } from "./carioc-ia-knowledge.js?v=20261012-cariocia8";
+import { CURATED_INTENTS, FOLLOWUP_MAPS, INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261012-cariocia8";
 
 const LEGACY_CATEGORIES = {
   contact: "commercial", booking: "commercial", first_visit: "general", beaches: "beaches", transport: "transport",
@@ -132,6 +132,9 @@ export const ACTIVE_INTENTS = ALL_INTENTS.filter(intent => intent.status !== "pe
 const MIN_SCORE = 7.5;
 // The welcome chips must always resolve to a useful, authored intent in all three languages.
 const WELCOME_CHIP_IDS = {
+  "quiero un tour": "experiences",
+  "quero um passeio": "experiences",
+  "i want a tour": "experiences",
   "quiero conocer los tours": "experiences",
   "busco donde hospedarme": "stay",
   "donde puedo guardar mi maleta": "quick_luggage",

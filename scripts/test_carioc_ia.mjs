@@ -7,6 +7,14 @@ import { buildWhatsAppHref, WHATSAPP_BASE } from "../assets/js/carioc-ia-whatsap
 import { SITE_GUIDE_INDEX, searchSiteGuide } from "../assets/js/carioc-ia-site-index.js";
 import { SITE_GUIDE_DOCUMENTS } from "../assets/js/carioc-ia-site-index-data.js";
 
+import { UI } from "../assets/js/carioc-ia-knowledge.js";
+
+const expectedWelcomeIntents = ["experiences", "daily_transfer", "daily_food", "quick_luggage", "transport"];
+for (const language of ["ES", "PT", "EN"]) {
+  assert.equal(UI[language].suggestions.length, 5, `${language}: exactly five initial questions`);
+  UI[language].suggestions.forEach((question, index) => assert.equal(resolveQuestion(question).intent?.id, expectedWelcomeIntents[index], `${language}: ${question}`));
+}
+
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const widgetSource = readFileSync(path.join(repoRoot, "assets/js/carioc-ia.js"), "utf8");
 assert.match(widgetSource, /import\s*\{[^}]*\bgetContextualIntentAnswer\b[^}]*\}\s*from\s*["']\.\/carioc-ia-engine\.js/);
