@@ -177,40 +177,26 @@ export function mountCariocIA() {
     privacy.textContent = words.privacy;
   }
 
-  function luggageLinks(location = "") {
-    const copacabana = String(location || "").toLowerCase().includes("copacabana");
-    const radical = copacabana
-      ? "https://radicalstorage.com/luggage-storage/rio-de-janeiro/copacabana"
-      : "https://radicalstorage.com/luggage-storage/rio-de-janeiro";
-    const bounce = copacabana
-      ? "https://bounce.com/luggage-storage/rio-de-janeiro/copacabana-beach"
-      : "https://bounce.com/luggage-storage/rio-de-janeiro";
-    return [
-      {
-        href: radical,
-        label: { ES: copacabana ? "Radical Storage · Copacabana" : "Radical Storage · Río", PT: copacabana ? "Radical Storage · Copacabana" : "Radical Storage · Rio", EN: copacabana ? "Radical Storage · Copacabana" : "Radical Storage · Rio" },
-        summary: { ES: "Consulta ubicación, horario y precio vigentes antes de reservar.", PT: "Confira endereço, horário e preço atualizados antes de reservar.", EN: "Check current location, hours, and price before booking." }
-      },
-      {
-        href: bounce,
-        label: { ES: copacabana ? "Bounce · Copacabana" : "Bounce · Río", PT: copacabana ? "Bounce · Copacabana" : "Bounce · Rio", EN: copacabana ? "Bounce · Copacabana" : "Bounce · Rio" },
-        summary: { ES: "Elige ubicación y horario; verifica disponibilidad y condiciones.", PT: "Escolha local e horário; confirme disponibilidade e condições.", EN: "Choose a location and time; confirm availability and terms." }
-      }
-    ];
+  function luggageLinks() {
+    return [{
+      href: "/guia/guarda-equipaje/",
+      label: { ES: "Guía de guarda-equipaje", PT: "Guia de guarda-volumes", EN: "Luggage storage guide" },
+      summary: { ES: "Consulta la opción de Bounce y verifica dirección, horario, precio y disponibilidad.", PT: "Consulte a opção da Bounce e confirme endereço, horário, preço e disponibilidade.", EN: "Check Bounce options, then confirm address, hours, price, and availability." }
+    }];
   }
 
   function luggageAnswer(language, location = "") {
     const area = String(location || "").replace(/[-_]/g, " ").trim();
     const copy = {
       ES: area
-        ? `Cerca de ${area}, revisa estas opciones de guarda-equipaje. Elige fecha y hora en la plataforma y confirma allí dirección, disponibilidad, horario y precio antes de reservar.`
-        : "Para dejar el equipaje en Río, compara estas opciones. Elige barrio, fecha y hora en la plataforma y confirma allí dirección, disponibilidad, horario y precio. ¿En qué zona estás?",
+        ? `Para guardar equipaje cerca de ${area}, revisa nuestra guía de guarda-equipaje y confirma allí la opción de Bounce, dirección, horario, precio y disponibilidad para tu fecha.`
+        : "Para guardar equipaje en Río, revisa nuestra guía de guarda-equipaje y consulta allí la opción de Bounce. Confirma dirección, horario, precio y disponibilidad para tu fecha. ¿En qué zona estás?",
       PT: area
-        ? `Perto de ${area}, confira estas opções de guarda-volumes. Escolha data e horário na plataforma e confirme endereço, disponibilidade, funcionamento e preço antes de reservar.`
-        : "Para guardar a bagagem no Rio, compare estas opções. Escolha bairro, data e horário na plataforma e confirme endereço, disponibilidade, funcionamento e preço. Em qual região você está?",
+        ? `Para guardar bagagem perto de ${area}, consulte nosso guia de guarda-volumes e confirme a opção da Bounce, endereço, horário, preço e disponibilidade para sua data.`
+        : "Para guardar bagagem no Rio, consulte nosso guia de guarda-volumes e veja a opção da Bounce. Confirme endereço, horário, preço e disponibilidade para sua data. Em qual região você está?",
       EN: area
-        ? `Near ${area}, check these luggage-storage options. Choose your date and time on the platform, then confirm the address, availability, hours, and price before booking.`
-        : "To store luggage in Rio, compare these options. Choose a neighborhood, date, and time on the platform, then confirm the address, availability, hours, and price. Which area are you in?"
+        ? `To store luggage near ${area}, check our luggage-storage guide and confirm the Bounce option, address, hours, price, and availability for your date.`
+        : "To store luggage in Rio, check our luggage-storage guide and see the Bounce option there. Confirm the address, hours, price, and availability for your date. Which area are you in?"
     };
     return copy[language] || copy.ES;
   }
