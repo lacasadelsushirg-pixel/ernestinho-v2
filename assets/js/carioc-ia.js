@@ -177,8 +177,46 @@ export function mountCariocIA() {
     privacy.textContent = words.privacy;
   }
 
+  function luggageLinks(location = "") {
+    const copacabana = String(location || "").toLowerCase().includes("copacabana");
+    const radical = copacabana
+      ? "https://radicalstorage.com/luggage-storage/rio-de-janeiro/copacabana"
+      : "https://radicalstorage.com/luggage-storage/rio-de-janeiro";
+    const bounce = copacabana
+      ? "https://bounce.com/luggage-storage/rio-de-janeiro/copacabana-beach"
+      : "https://bounce.com/luggage-storage/rio-de-janeiro";
+    return [
+      {
+        href: radical,
+        label: { ES: copacabana ? "Radical Storage · Copacabana" : "Radical Storage · Río", PT: copacabana ? "Radical Storage · Copacabana" : "Radical Storage · Rio", EN: copacabana ? "Radical Storage · Copacabana" : "Radical Storage · Rio" },
+        summary: { ES: "Consulta ubicación, horario y precio vigentes antes de reservar.", PT: "Confira endereço, horário e preço atualizados antes de reservar.", EN: "Check current location, hours, and price before booking." }
+      },
+      {
+        href: bounce,
+        label: { ES: copacabana ? "Bounce · Copacabana" : "Bounce · Río", PT: copacabana ? "Bounce · Copacabana" : "Bounce · Rio", EN: copacabana ? "Bounce · Copacabana" : "Bounce · Rio" },
+        summary: { ES: "Elige ubicación y horario; verifica disponibilidad y condiciones.", PT: "Escolha local e horário; confirme disponibilidade e condições.", EN: "Choose a location and time; confirm availability and terms." }
+      }
+    ];
+  }
+
+  function luggageAnswer(language, location = "") {
+    const area = String(location || "").replace(/[-_]/g, " ").trim();
+    const copy = {
+      ES: area
+        ? `Cerca de ${area}, revisa estas opciones de guarda-equipaje. Elige fecha y hora en la plataforma y confirma allí dirección, disponibilidad, horario y precio antes de reservar.`
+        : "Para dejar el equipaje en Río, compara estas opciones. Elige barrio, fecha y hora en la plataforma y confirma allí dirección, disponibilidad, horario y precio. ¿En qué zona estás?",
+      PT: area
+        ? `Perto de ${area}, confira estas opções de guarda-volumes. Escolha data e horário na plataforma e confirme endereço, disponibilidade, funcionamento e preço antes de reservar.`
+        : "Para guardar a bagagem no Rio, compare estas opções. Escolha bairro, data e horário na plataforma e confirme endereço, disponibilidade, funcionamento e preço. Em qual região você está?",
+      EN: area
+        ? `Near ${area}, check these luggage-storage options. Choose your date and time on the platform, then confirm the address, availability, hours, and price before booking.`
+        : "To store luggage in Rio, compare these options. Choose a neighborhood, date, and time on the platform, then confirm the address, availability, hours, and price. Which area are you in?"
+    };
+    return copy[language] || copy.ES;
+  }
+
   function localizedHref(href) {
-    return hasLocaleRoutes() ? localizedPath(href, language) : href;
+    return /^https?:\/\//i.test(href) ? href : hasLocaleRoutes() ? localizedPath(href, language) : href;
   }
 
   function addLinkList(container, links, topic) {
@@ -344,7 +382,7 @@ export function mountCariocIA() {
     const previousContext = conversationContext;
     const turnDetails = extractConversationDetails(text, conversationContext);
     const result = resolveQuestion(text, { ...conversationContext, ...turnDetails });
-    const nextCategory = result.contextUpdate?.category || result.intent?.category || conversationContext.category;
+    const nextCategory = result.contextUpdate?.category || (result.intent?.id === "quick_luggage" ? "storage" : result.intent?.category) || conversationContext.category;
     const changedTopic = Boolean(conversationContext.category && nextCategory && conversationContext.category !== nextCategory);
     const activeDetails = changedTopic ? extractConversationDetails(text, {}) : turnDetails;
     conversationContext = { ...(changedTopic ? { pending: null, category: null } : conversationContext), ...activeDetails };
@@ -363,7 +401,7 @@ export function mountCariocIA() {
       });
       return;
     }
-    const intent = result.intent;
+    const intent = result.intent?.id === "quick_luggage" ? { ...result.intent, category: "storage", links: luggageLinks(conversationContext.location) } : result.intent;
     if (!intent) {
       track("unresolved", "unknown");
       addMessage(getLocalized(INTENT_GUIDANCE.outOfScope, language) || words.fallback, "assistant", {
@@ -405,7 +443,7 @@ export function mountCariocIA() {
     const indexedLinks = searchSiteGuide(text, intent.category, (intent.links || []).map(item => item.href), remaining, conversationContext);
     const additionalLinks = [...indexedLinks, ...recommendGuideLinks(intent, text, Math.max(0, remaining - indexedLinks.length))]
       .filter((link, i, all) => all.findIndex(item => item.href === link.href) === i).slice(0, remaining);
-    addMessage(getContextualIntentAnswer(intent, conversationContext, language), "assistant", {
+    addMessage(intent.id === "quick_luggage" ? luggageAnswer(language, conversationContext.location) : getContextualIntentAnswer(intent, conversationContext, language), "assistant", {
       links: [...(intent.links || []), ...additionalLinks],
       whatsapp: Boolean(intent.whatsapp || isCommercial),
       topic: intent.id,
