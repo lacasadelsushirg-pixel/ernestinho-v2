@@ -1,4 +1,4 @@
-import { resolveDining } from "./carioc-ia-dining.js?v=20261013-cariocia13";
+import { resolveDining } from "./carioc-ia-dining.js?v=20261013-cariocia14";
 import { INTENTS } from "./carioc-ia-knowledge.js?v=20261013-cariocia10";
 import { CURATED_INTENTS, FOLLOWUP_MAPS, INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261013-cariocia10";
 

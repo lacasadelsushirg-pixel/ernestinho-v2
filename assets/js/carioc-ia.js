@@ -1,6 +1,6 @@
 import { getLanguage } from "./i18n.js";
 import { hasLocaleRoutes, localizedPath } from "./locale-routing.js";
-import { extractConversationDetails, getContextualIntentAnswer, getLocalized, normalizeQuestion, resolveQuestion, recommendGuideLinks } from "./carioc-ia-engine.js?v=20261013-cariocia14";
+import { extractConversationDetails, getContextualIntentAnswer, getLocalized, normalizeQuestion, resolveQuestion, recommendGuideLinks } from "./carioc-ia-engine.js?v=20261013-cariocia15";
 import { searchSiteGuide } from "./carioc-ia-site-index.js?v=20261013-cariocia13";
 import { FALLBACK_LINKS, UI } from "./carioc-ia-knowledge.js?v=20261013-cariocia13";
 import { INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261013-cariocia13";
