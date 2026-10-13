@@ -181,17 +181,20 @@ export const INTENTS = [
   },
   {
     id: "experiences",
-    keywords: ["experiencia", "experiencias", "tour", "tours", "que tours puedo hacer en rio", "what tours can i take in rio", "que passeios posso fazer no rio", "excursion", "excursiones", "paseo", "full day", "cristo", "recommend an experience", "experiences", "tour", "passeio", "passeios", "experiência", "experiências"],
+    keywords: ["experiencia", "experiencias", "tour", "tours", "que tours puedo hacer en rio", "que experiencia me recomiendas", "what experience do you recommend", "qual experiencia voce recomenda", "what tours can i take in rio", "que passeios posso fazer no rio", "excursion", "excursiones", "paseo", "full day", "cristo", "recommend an experience", "experiences", "tour", "passeio", "passeios", "experiência", "experiências"],
     answer: t(
-      "En Experiencias puedes comparar paseos por tipo: ciudad, mar, cultura, aventura o planes privados. Abre cada ficha para revisar qué incluye y consulta con Ernestinho los valores y la disponibilidad de tu fecha.",
-      "Em Experiências você pode comparar passeios por estilo: cidade, mar, cultura, aventura ou opções privadas. Abra cada ficha para conferir o que inclui e consulte Ernestinho sobre valores e disponibilidade para a sua data.",
-      "The Experiences section lets you compare city, sea, culture, adventure, and private outings. Open each guide to see what's included, then ask Ernestinho about prices and availability for your date."
+      "Depende de tu estilo y del tiempo que tengas. Puedes comparar los imperdibles de Río, una experiencia VIP o privada, trekking, aventura, walking tour y fútbol en vivo en el Maracanã. ¿Qué te atrae más y cuántas horas tienes? Los recorridos, precios y disponibilidad se confirman para tus fechas.",
+      "Depende do seu estilo e do tempo disponível. Você pode comparar os passeios imperdíveis do Rio, uma experiência VIP ou privativa, trekking, aventura, walking tour e futebol ao vivo no Maracanã. O que mais interessa e quantas horas você tem? Roteiros, valores e disponibilidade precisam ser confirmados para suas datas.",
+      "It depends on your style and how much time you have. Compare Rio highlights, a VIP or private experience, trekking, adventure, a walking tour, or live football at the Maracanã. Which sounds best, and how many hours do you have? Routes, prices, and availability need to be confirmed for your dates."
     ),
     links: [
-      { href: "/experiencias/", label: t("Ver todas las experiencias", "Ver todas as experiências", "Browse all experiences") },
-      { href: "/experiencias/full-day-rio/", label: t("Full Day Río", "Full Day Rio", "Full Day Rio") },
-      { href: "/experiencias/cristo-city-tour/", label: t("Cristo + City Tour", "Cristo + City Tour", "Christ + City Tour") }
-    ]
+      { href: "/experiencias/", label: t("Ver experiencias", "Ver experiências", "Browse experiences") },
+      { href: "/experiencias/full-day-rio/", label: t("Imperdibles de Río", "Imperdíveis do Rio", "Rio highlights") },
+      { href: "/experiencias/cristo-city-tour/", label: t("Walking tour y ciudad", "Walking tour e cidade", "Walking tour and city") },
+      { href: "/naturaleza/", label: t("Trekking y aventura", "Trekking e aventura", "Trekking and adventure") },
+      { href: "/experiencias/partido-maracana/", label: t("Fútbol en vivo", "Futebol ao vivo", "Live football") }
+    ],
+    followups: ["Imperdibles", "VIP", "Trekking", "Aventura", "Walking tour", "Fútbol en vivo"]
   },
   {
     id: "buzios",
