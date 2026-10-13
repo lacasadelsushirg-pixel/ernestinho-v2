@@ -44,6 +44,8 @@ assert.match(luggageSource, /import \{BOUNCE_URL/);
 assert.match(luggageSource, /data-bounce-source="guia-equipaje-foto-/);
 assert.ok(luggageSource.includes("href=\"") && luggageSource.includes("BOUNCE_URL"), "image banner is an affiliate link");
 assert.match(luggageSource, /data-bounce-click/);
+assert.ok(luggageSource.includes("Consultar guarda equipaje con Bounce"), "ES photo banner uses Spanish copy");
+assert.ok(luggageSource.includes("Consultar opciones de guarda equipaje"), "ES photo CTA uses Spanish copy");
 for (const photo of ["photo(0)", "photo(1)", "photo(2)"]) assert.ok(luggageSource.includes(photo), "each of the three image banners is rendered and linked: " + photo);
 for (const route of ["/hospedaje/", "/guia/aeropuertos/", "/guia/terminales/"]) assert.ok(integrationSource.includes(route), "Bounce integration covers " + route);
 assert.equal(BOUNCE_URL, "https://go.bounce.com/ERNESTINHO8980973466");
