@@ -32,6 +32,10 @@ for(const [language,question,sushi] of [['ES','¿Dónde puedo comer?','Sushi / j
   assert.ok(zoneFirst.intent.answer[language].includes('Copacabana'));
   const changed=resolveQuestion('Necesito un traslado',type.contextUpdate);
   assert.equal(changed.intent.id,'daily_transfer','New topic exits dining flow');
+  const rental=resolveQuestion('alquilar un auto',type.contextUpdate);
+  assert.equal(rental.intent.id,'daily_car_rental','Car rental exits dining flow');
+  const internet=resolveQuestion('internet',type.contextUpdate);
+  assert.equal(internet.intent.id,'daily_internet','Internet questions exit dining flow');
 }
 const cheap=resolveQuestion('Copacabana, algo económico',resolveQuestion('quiero comer').contextUpdate);
 const affordableMeat=resolveQuestion('Carnes / churrasco',cheap.contextUpdate);

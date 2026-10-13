@@ -39,7 +39,7 @@ export function resolveDining(query, context = {}) {
   const selected = cuisines.find(c=>c.pattern.test(query));
   const meal = mealFor(query) || context.diningMeal || null;
   // A new topic must leave the food flow rather than being mistaken for a cuisine or district.
-  if (active && /\b(tour|tours|passeio|passeios|experience|experiencias|experiences|traslado|transfer|airport|aeroporto|aeropuerto|maletas?|equipajes?|luggages?|bagagem|malas?|cristo|christ|redeemer|playas?|praias?|beach(?:es)?|lluvia|llueve|rain|rains|rainy|chuva|chover|weather|clima|hotel|hospedaje|hostel|museum|museo|museu|shopping|compras|nightlife|samba|metro|subway|uber|taxi|transport|transporte|check in)\b/.test(query) && !selected) return null;
+  if (active && /\b(tour|tours|passeio|passeios|experience|experiencias|experiences|traslado|transfer|airport|aeroporto|aeropuerto|maletas?|equipajes?|luggages?|bagagem|malas?|cristo|christ|redeemer|playas?|praias?|beach(?:es)?|lluvia|llueve|rain|rains|rainy|chuva|chover|weather|clima|hotel|hospedaje|hostel|museum|museo|museu|shopping|compras|nightlife|samba|metro|subway|uber|taxi|transport|transporte|check in|internet|wifi|wi fi|esim|e sim|sim card|roaming|chip|alquilar|alquiler|rentar|rent|hire|alugar|locacao|locação)\b/.test(query) && !selected) return null;
   const cuisine = selected || cuisines.find(c=>c.id === context.diningCuisine);
   let location = context.location || '';
   if (!location && context.pending === 'dining_location' && !selected && !generic.test(query) && /^[a-z]+(?: [a-z]+){0,3}$/.test(query) && !/\b(otra|outro|other|barato|economico|budget|cheap|somos|we|quiero|quero|necesito)\b/.test(query)) location=query;
