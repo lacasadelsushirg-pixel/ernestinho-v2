@@ -4,7 +4,7 @@ import { localizeAttractionBooking } from './attraction-booking.js';
 import { applySeoMetadata } from './seo-metadata.js?v=20261012-attractions-i18n';
 import { addTransportPhotoReferences } from "./transport-photo-references.js";
 import { addBulkPhotoReferences } from "./bulk-photo-references.js";
-import { mountCariocIA } from "./carioc-ia.js?v=20261013-cariocia11";
+import { mountCariocIA } from "./carioc-ia.js?v=20261013-cariocia12";
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", mountCariocIA, { once: true });
 else mountCariocIA();
 if (!document.querySelector('link[href*="components.css"]') && !document.querySelector("[data-ec-brand-type]")) { const fontSheet=document.createElement("link"); fontSheet.rel="stylesheet"; fontSheet.href=new URL("../css/type.css",import.meta.url).href; fontSheet.dataset.ecBrandType=""; document.head.append(fontSheet); }

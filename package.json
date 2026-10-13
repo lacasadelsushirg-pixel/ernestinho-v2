@@ -7,6 +7,7 @@
     "build": "node scripts/build_multilingual.mjs",
     "check:locales": "python3 scripts/audit_multilingual.py",
     "test:cariocia": "node scripts/test_carioc_ia.mjs",
+    "test:cariocia:extended": "node scripts/test_carioc_ia_quality.mjs && node scripts/test_carioc_ia_dining.mjs && node scripts/test_carioc_ia_customer_matrix.mjs && node scripts/test_carioc_ia_conversations_2000.mjs",
     "audit:cariocia:v2": "node scripts/audit_carioc_ia_v2_120.mjs",
     "audit:cariocia:v2:strict": "node scripts/audit_carioc_ia_v2_120.mjs --strict"
   },

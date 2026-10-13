@@ -1,3 +1,4 @@
+import { resolveDining } from "./carioc-ia-dining.js?v=20261013-cariocia12";
 import { INTENTS } from "./carioc-ia-knowledge.js?v=20261013-cariocia10";
 import { CURATED_INTENTS, FOLLOWUP_MAPS, INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261013-cariocia10";
 
@@ -649,6 +650,9 @@ export function resolveQuestion(question, context = {}) {
 
   const detailContext = extractConversationDetails(question, context);
   if (detailContext.location || detailContext.profile || detailContext.budget || detailContext.partySize || detailContext.weekday || detailContext.date || detailContext.time || detailContext.meal || detailContext.food || detailContext.openNow || detailContext.transport || detailContext.mobility || detailContext.duration) context = { ...context, ...detailContext };
+
+  const dining = resolveDining(query, context);
+  if (dining) return dining;
 
   const turnDetails = extractConversationDetails(question, {});
   const detailFields = ["partySize","weekday","date","time","profile","budget","location","transport","meal","food","openNow","mobility","duration"];

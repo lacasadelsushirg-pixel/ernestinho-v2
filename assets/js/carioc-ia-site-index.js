@@ -4,7 +4,7 @@ export const SITE_GUIDE_INDEX = [["/barrios/barra-da-tijuca/","barrios","barra d
 import { SITE_GUIDE_DOCUMENTS } from "./carioc-ia-site-index-data.js?v=20261013-cariocia10";
 const CATEGORY_GROUPS = { gastronomy:["gastronomia"], beaches:["playas"], lodging:["hospedaje"], experiences:["experiencias"], transport:["transportes"], family:["familia"], neighborhoods:["barrios"], nightlife:["vida-nocturna"], culture:["cultura"] };
 const normalize = input => String(input || "").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
-const GUIDE_STOP_WORDS = new Set(["the","for","from","with","what","where","which","near","need","find","want","can","you","your","and","how","are","is","to","in","on","of","a","an","que","como","donde","dónde","para","por","con","una","uno","de","del","el","la","los","las","y","en","o","um","uma","onde","como","qual","quais","com","em","no","na","do","da","dos","das","pra","pro","meu","minha","quiero","quero"]);
+const GUIDE_STOP_WORDS = new Set(["the","for","from","with","what","where","which","near","need","find","want","can","could","should","you","your","and","how","are","is","to","in","on","of","a","an","que","como","donde","dónde","para","por","con","una","uno","de","del","el","la","los","las","y","en","o","um","uma","onde","qual","quais","com","em","no","na","do","da","dos","das","pra","pro","meu","minha","quiero","quero","puedo","podria","posso","gostaria"]);
 const GUIDE_LOCATION_TERMS = new Set(SITE_GUIDE_DOCUMENTS.flatMap(item => normalize(item.neighborhood).split(" ").filter(Boolean)));
 const GUIDE_CATEGORY_TERMS = {
   gastronomy: new Set(["restaurant","restaurants","restaurante","restaurantes","food","comida","comer","eat","eating","jantar","dinner","cafe","cafeteria","cafeteria","gastronomia"]),
@@ -25,6 +25,10 @@ export function searchSiteGuide(question, category, exclusions = [], limit = 3, 
   const q=normalize(question), skip=new Set(exclusions);
   const requestedLocation=normalize(context.location || "");
   const words=new Set(q.split(" ").filter(word=>word.length>=3 && !GUIDE_STOP_WORDS.has(word) && !GUIDE_LOCATION_TERMS.has(word)));
+  const categoryTerms=GUIDE_CATEGORY_TERMS[category];
+  // A broad request such as “where should I eat?” is not enough to select a venue.
+  // Wait for a cuisine, dish, meal, or neighborhood before returning individual pages.
+  if (category === "gastronomy" && !requestedLocation && [...words].every(word => categoryTerms?.has(word))) return [];
   const profile=normalize(context.profile || "");
   const budget=normalize(context.budget || "");
   // The index does not contain verified current prices. Do not return a budget match as if it were confirmed.
@@ -35,7 +39,6 @@ export function searchSiteGuide(question, category, exclusions = [], limit = 3, 
     if(profile && profile!=="solo" && profile!=="couple" && profile!=="family" && profile!=="accessible") return null;
     if(profile && !item.tags.includes(profile)) return null;
     const haystack=normalize([item.title,item.summary,item.slug,...item.tags].join(" "));
-    const categoryTerms=GUIDE_CATEGORY_TERMS[category];
     const terms=[...words].filter(word=>haystack.includes(word)||categoryTerms?.has(word));
     if(!terms.length) return null;
     return {item,score:terms.length/Math.max(words.size,1)};

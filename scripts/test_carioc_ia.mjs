@@ -109,7 +109,7 @@ assert.ok(searchSiteGuide("restaurant Copacabana", "beaches", [], 4).every(item 
 assert.equal(searchSiteGuide("restaurant Copacabana", "gastronomy", [], 4, { budget: "budget" }).length, 0, "no inventa coincidencias de precio");
 assert.equal(searchSiteGuide("breakfast Copacabana", "gastronomy", [], 4, { location: "copacabana" }).length, 0, "no convierte el filtro de barrio en una coincidencia de desayuno");
 
-const legacyBeachAlias = new Map([["beaches", "beach_clarify"]]);
+const legacyBeachAlias = new Map([["beaches", "beach_clarify"], ["food", "daily_food"]]);
 const cases = ACTIVE_INTENTS.map(intent => ({
   question: intent.keywords[0],
   expected: legacyBeachAlias.get(intent.id) || intent.id,

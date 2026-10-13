@@ -1,9 +1,9 @@
 import { getLanguage } from "./i18n.js";
 import { hasLocaleRoutes, localizedPath } from "./locale-routing.js";
-import { extractConversationDetails, getContextualIntentAnswer, getLocalized, normalizeQuestion, resolveQuestion, recommendGuideLinks } from "./carioc-ia-engine.js?v=20261013-cariocia11";
-import { searchSiteGuide } from "./carioc-ia-site-index.js?v=20261013-cariocia11";
-import { FALLBACK_LINKS, UI } from "./carioc-ia-knowledge.js?v=20261013-cariocia11";
-import { INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261013-cariocia11";
+import { extractConversationDetails, getContextualIntentAnswer, getLocalized, normalizeQuestion, resolveQuestion, recommendGuideLinks } from "./carioc-ia-engine.js?v=20261013-cariocia12";
+import { searchSiteGuide } from "./carioc-ia-site-index.js?v=20261013-cariocia12";
+import { FALLBACK_LINKS, UI } from "./carioc-ia-knowledge.js?v=20261013-cariocia12";
+import { INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261013-cariocia12";
 import { buildWhatsAppHref } from "./carioc-ia-whatsapp.js?v=20261013-cariocia11";
 
 const STORAGE_KEY = "ec-cariocia-panel-open";
@@ -74,7 +74,7 @@ export function mountCariocIA() {
   prerendered?.remove();
   const css = document.createElement("link");
   css.rel = "stylesheet";
-  css.href = new URL("../css/carioc-ia.css?v=20261013-cariocia11", import.meta.url).href;
+  css.href = new URL("../css/carioc-ia.css?v=20261013-cariocia12", import.meta.url).href;
   css.dataset.ecCariociaStyle = "";
   document.head.appendChild(css);
   const controlsStyle = document.createElement("style");
@@ -426,10 +426,13 @@ export function mountCariocIA() {
       ? [bookingWords.add]
       : intent.id === "beach_clarify" ? followupCopy(intent.id, language) : intent.followups;
     const remaining = Math.max(0, 3 - (intent.links || []).length);
-    const indexedLinks = searchSiteGuide(text, intent.category, (intent.links || []).map(item => item.href), remaining, conversationContext);
-    const additionalLinks = [...indexedLinks, ...recommendGuideLinks(intent, text, Math.max(0, remaining - indexedLinks.length))]
+    const indexedLinks = intent.suppressRecommendations ? [] : searchSiteGuide(text, intent.category, (intent.links || []).map(item => item.href), remaining, conversationContext);
+    const additionalLinks = intent.suppressRecommendations ? [] : [...indexedLinks, ...recommendGuideLinks(intent, text, Math.max(0, remaining - indexedLinks.length))]
       .filter((link, i, all) => all.findIndex(item => item.href === link.href) === i).slice(0, remaining);
-    addMessage(intent.id === "quick_luggage" ? luggageAnswer(language, conversationContext.location) : getContextualIntentAnswer(intent, conversationContext, language), "assistant", {
+    const reply = intent.id === "quick_luggage" ? luggageAnswer(language, conversationContext.location)
+      : intent.directAnswer ? getLocalized(intent.answer, language)
+      : getContextualIntentAnswer(intent, conversationContext, language);
+    addMessage(reply, "assistant", {
       links: [...(intent.links || []), ...additionalLinks],
       whatsapp: Boolean(intent.whatsapp || isCommercial),
       topic: intent.id,

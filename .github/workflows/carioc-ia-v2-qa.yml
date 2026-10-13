@@ -10,6 +10,8 @@ on:
       - 'scripts/build_carioc_ia_site_index.mjs'
       - 'docs/CARIOC_IA_SITE_INDEX_ROUTES.json'
       - 'scripts/test_carioc_ia.mjs'
+      - 'scripts/test_carioc_ia_*.mjs'
+      - 'CARIOC_IA_MATRIZ_PREGUNTAS_1440.jsonl'
       - 'assets/js/carioc-ia-site-index.js'
       - 'scripts/audit_carioc_ia_v2_120.mjs'
       - 'docs/CARIOC_IA_V2_120_QUESTIONS.csv'
@@ -34,6 +36,7 @@ jobs:
       - name: JavaScript syntax
         run: |
           node --check assets/js/carioc-ia-engine.js
+          node --check assets/js/carioc-ia-dining.js
           node --check assets/js/carioc-ia-site-index.js
           node --check assets/js/carioc-ia.js
           node --check assets/js/carioc-ia-bootstrap.js
@@ -44,9 +47,12 @@ jobs:
           node --check assets/js/carioc-ia-knowledge.js
           node --check assets/js/carioc-ia-library.js
           node --check scripts/test_carioc_ia.mjs
+          node --check scripts/test_carioc_ia_conversations_2000.mjs
           node --check scripts/audit_carioc_ia_v2_120.mjs
       - name: Existing Carioc-IA tests
         run: npm run test:cariocia
+      - name: Extended question and conversation evaluation
+        run: npm run test:cariocia:extended
       - name: V2 scenario diagnostics (non-blocking editorial coverage)
         run: npm run audit:cariocia:v2:strict
       - name: Upload diagnostic report
