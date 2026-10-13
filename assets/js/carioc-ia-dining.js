@@ -15,7 +15,15 @@ const cuisines = [
   {id:'peruvian',hidden:true,label:t('Comida peruana','Comida peruana','Peruvian food'),pattern:/\b(peruana|peruano|peruvian|ceviche)\b/,evidence:/peruan|peruvian/},
   {id:'mexican',hidden:true,label:t('Comida mexicana','Comida mexicana','Mexican food'),pattern:/\b(mexicana|mexicano|mexican|tacos)\b/,evidence:/mexican|tacos/}
 ];
-const generic = /\b(?:quiero comer|quiero comida|quiero un restaurante|donde comer|donde puedo comer|busco donde comer|onde comer|onde posso comer|quero comer|quero um restaurante|where should i eat|where can i eat|where to eat|i want to eat|find a restaurant)\b/;
+const generic = /\b(?:quiero comer|quiero comida|quiero un restaurante|donde comer|donde puedo comer|busco donde comer|donde almorzar|donde puedo almorzar|quiero almorzar|donde merendar|donde puedo merendar|quiero merendar|donde tomar una merienda|tomar algo por la tarde|donde cenar|donde puedo cenar|quiero cenar|onde comer|onde posso comer|onde almocar|onde almoçar|onde posso almocar|onde posso almoçar|quero almocar|quero almoçar|onde lanchar|onde tomar um lanche|quero fazer um lanche|quero jantar|onde jantar|quero comer|quero um restaurante|where should i eat|where can i eat|where to eat|where can i have lunch|where can i get lunch|where to get lunch|where to have lunch|where can i get dinner|where can i have dinner|where to get dinner|where to have dinner|where can i get a snack|where to get a snack|where can i get an afternoon snack|where to get an afternoon snack|i want to eat|find a restaurant)\b/;
+const mealFor = query => {
+  if (/\b(desayun|cafe da manha|breakfast)\b/.test(query)) return 'breakfast';
+  if (/\b(almorzar|almuerzo|almocar|almoco|lunch)\b/.test(query)) return 'lunch';
+  if (/\b(merienda|merendar|lanche|lanchar|afternoon snack|snack|por la tarde)\b/.test(query)) return 'snack';
+  if (/\b(cenar|jantar|dinner)\b/.test(query)) return 'dinner';
+  return null;
+};
+const mealName = {breakfast:t('desayunar','tomar café da manhã','have breakfast'),lunch:t('almorzar','almoçar','have lunch'),snack:t('merendar','fazer um lanche','get an afternoon snack'),dinner:t('cenar','jantar','have dinner')};
 const guide = {href:'/gastronomia/',label:t('Ver toda la gastronomía','Ver toda a gastronomia','Browse the food guide')};
 const zones = ['Copacabana','Ipanema','Leblon','Botafogo','Centro'];
 const displayZone = zone => String(zone || '').split(' ').map(word=>word.charAt(0).toUpperCase()+word.slice(1)).join(' ');
@@ -29,6 +37,7 @@ export function resolveDining(query, context = {}) {
   // Preserve the existing authored answers for a specific dish or landmark on a fresh request.
   if (!active && /\b(feijoada|cristo|corcovado|sugarloaf|pao de acucar|pan de azucar|maracana|aquario)\b/.test(query)) return null;
   const selected = cuisines.find(c=>c.pattern.test(query));
+  const meal = mealFor(query) || context.diningMeal || null;
   // A new topic must leave the food flow rather than being mistaken for a cuisine or district.
   if (active && /\b(tour|tours|passeio|passeios|experience|experiencias|experiences|traslado|transfer|airport|aeroporto|aeropuerto|maletas?|equipajes?|luggages?|bagagem|malas?|cristo|christ|redeemer|playas?|praias?|beach(?:es)?|lluvia|llueve|rain|rains|rainy|chuva|chover|weather|clima|hotel|hospedaje|hostel|museum|museo|museu|shopping|compras|nightlife|samba|metro|subway|uber|taxi|transport|transporte|check in)\b/.test(query) && !selected) return null;
   const cuisine = selected || cuisines.find(c=>c.id === context.diningCuisine);
@@ -42,12 +51,12 @@ export function resolveDining(query, context = {}) {
   let answer, followups, links=[guide], stage;
   if (!cuisine) {
     answer=t(
-      `${label ? 'En '+label+', ' : 'Claro. '}¿Qué te gustaría comer? Elige un tipo de comida o cuéntame lo que buscas. También puedes abrir mi guía de gastronomía.`,
-      `${label ? 'Em '+label+', ' : 'Claro. '}O que você gostaria de comer? Escolha um tipo de comida ou conte o que procura. Você também pode abrir meu guia gastronômico.`,
-      `${label ? 'In '+label+', ' : 'Of course. '}What would you like to eat? Choose a type of food or tell me what you are looking for. You can also browse my food guide.`);
+      `${label ? 'En '+label+', ' : 'Claro. '}${meal ? 'para '+mealName[meal].ES : ''}${meal ? ', ¿qué tipo de comida te apetece y en qué barrio? ' : '¿Qué te gustaría comer? Elige un tipo de comida o cuéntame lo que buscas. '}También puedes abrir mi guía de gastronomía.`,
+      `${label ? 'Em '+label+', ' : 'Claro. '}${meal ? 'para '+mealName[meal].PT : ''}${meal ? ', que tipo de comida você prefere e em qual bairro? ' : 'O que você gostaria de comer? Escolha um tipo de comida ou conte o que procura. '}Você também pode abrir meu guia gastronômico.`,
+      `${label ? 'In '+label+', ' : 'Of course. '}${meal ? 'for '+mealName[meal].EN : ''}${meal ? ', what kind of food would you like, and in which neighborhood? ' : 'What would you like to eat? Choose a type of food or tell me what you are looking for. '}You can also browse my food guide.`);
     followups=cuisines.filter(c=>!c.hidden).map(c=>c.label);stage='dining_cuisine';
   } else if (!location) {
-    answer=t(`Perfecto, buscamos ${foodLabel.ES.toLowerCase()}. ¿En qué barrio estás o quieres comer? Puedes elegir una zona o escribir otra.`,`Perfeito, vamos procurar ${foodLabel.PT.toLowerCase()}. Em qual bairro você está ou quer comer? Escolha uma região ou escreva outra.`,`Great, let's look for ${foodLabel.EN.toLowerCase()}. Which neighbourhood are you in or would you like to eat in? Choose an area or type another.`);
+      answer=t(`Perfecto${meal ? ', buscamos dónde '+mealName[meal].ES : ''}, con ${foodLabel.ES.toLowerCase()}. ¿En qué barrio estás o quieres comer? Puedes elegir una zona o escribir otra.`,`Perfeito${meal ? ', vamos procurar um lugar para '+mealName[meal].PT : ''}, com ${foodLabel.PT.toLowerCase()}. Em qual bairro você está ou quer comer? Escolha uma região ou escreva outra.`,`Great${meal ? ', let us find a place to '+mealName[meal].EN : ''}, with ${foodLabel.EN.toLowerCase()}. Which neighbourhood are you in or would you like to eat in? Choose an area or type another.`);
     followups=zones;stage='dining_location';
   } else {
     const veganOnly=cuisine.id === 'vegan' || (selected?.id !== 'vegetarian' && context.diningVegan === true);
@@ -66,5 +75,5 @@ export function resolveDining(query, context = {}) {
     answer.PT += ' Vou considerar seu orçamento, sem garantir preços não confirmados.';
     answer.EN += ' I will keep your budget in mind without claiming unverified prices.';
   }
-  return {intent:{id:'daily_food',category:'gastronomy',answer,links,followups,pending:stage,directAnswer:true,suppressRecommendations:true},candidates:[],contextUpdate:{pending:stage,category:'gastronomy',lastEverydayId:null,diningCuisine:cuisine?.id || null,diningDish:requestedDish,diningVegan: cuisine?.id === 'vegan' || (selected?.id !== 'vegetarian' && Boolean(context.diningVegan)),...(context.budget?{budget:context.budget}:{}),...(location?{location}:{})}};
+  return {intent:{id:'daily_food',category:'gastronomy',answer,links,followups,pending:stage,directAnswer:true,suppressRecommendations:true},candidates:[],contextUpdate:{pending:stage,category:'gastronomy',lastEverydayId:null,diningCuisine:cuisine?.id || null,diningDish:requestedDish,diningVegan: cuisine?.id === 'vegan' || (selected?.id !== 'vegetarian' && Boolean(context.diningVegan)),diningMeal:meal,...(context.budget?{budget:context.budget}:{}),...(location?{location}:{})}};
 }

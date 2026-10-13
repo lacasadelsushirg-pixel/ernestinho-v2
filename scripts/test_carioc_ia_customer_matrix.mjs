@@ -15,7 +15,7 @@ const accepted = {
   airport:["daily_airport"], transfer:["daily_transfer"], metro:["daily_metro"], uber:["daily_uber"], vlt_brt:["daily_brt_vlt"], route:["daily_route"],
   food:["food"], breakfast:["daily_coffee"], budget_food:["daily_food"], brazilian_food:["food"], vegetarian:["daily_food_restrictions"], food_kids:["daily_food_family"], food_open:["daily_food_open"],
   luggage:["quick_luggage"], stay_area:["neighborhood_first"], early_checkin:["daily_stay"], today:["today"], rain:["daily_rain"], weather:["weather"], family:["family"],
-  aquario:["attraction_aquario"], bioparque:["family"], museums:["attraction_museum"], beach_choice:["beach_clarify"], beach_safety:["daily_swim"], surf:["beach_surf"], nightlife:["nightlife"], samba:["night_samba"], shopping:["shopping"], emergency:["safety"]
+  aquario:["attraction_aquario"], bioparque:["family"], museums:["attraction_museum"], beach_choice:["beach_clarify"], beach_safety:["daily_swim"], surf:["beach_surf"], nightlife:["nightlife","night_active"], samba:["night_samba"], shopping:["shopping"], emergency:["safety"]
 };
 const contextOf = row => extractConversationDetails(row.context_detail || "");
 const failures = [];
