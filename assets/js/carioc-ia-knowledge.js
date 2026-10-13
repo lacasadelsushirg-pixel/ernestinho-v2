@@ -167,7 +167,7 @@ export const INTENTS = [
   },
   {
     id: "food",
-    keywords: ["donde comer", "comer en", "restaurante", "restaurantes", "gastronomia", "gastronomía", "comida", "churrascaria", "brunch", "where to eat", "restaurants", "food", "onde comer", "restaurante", "gastronomia", "comida", "churrascaria"],
+    keywords: ["donde comer", "comer en", "restaurante", "restaurantes", "gastronomia", "gastronomía", "comida", "churrascaria", "brunch", "where to eat","where can i try traditional brazilian food","where do you recommend eating in rio", "where do you recommend eating in rio", "restaurants", "food", "onde comer", "onde voce recomenda comer no rio", "restaurante", "gastronomia", "comida", "churrascaria"],
     answer: t(
       "La guía gastronómica reúne restaurantes investigados y fichas por establecimiento. Puedes buscar por barrio o estilo y revisar la ficha antes de decidir; confirma horarios y disponibilidad con el local.",
       "O guia gastronômico reúne restaurantes pesquisados e fichas por estabelecimento. Você pode buscar por bairro ou estilo e consultar a ficha antes de escolher; confirme horários e disponibilidade com o local.",
@@ -181,7 +181,7 @@ export const INTENTS = [
   },
   {
     id: "experiences",
-    keywords: ["experiencia", "experiencias", "tour", "tours", "excursion", "excursiones", "paseo", "full day", "cristo", "recommend an experience", "experiences", "tour", "passeio", "passeios", "experiência", "experiências"],
+    keywords: ["experiencia", "experiencias", "tour", "tours", "que tours puedo hacer en rio", "what tours can i take in rio", "que passeios posso fazer no rio", "excursion", "excursiones", "paseo", "full day", "cristo", "recommend an experience", "experiences", "tour", "passeio", "passeios", "experiência", "experiências"],
     answer: t(
       "En Experiencias puedes comparar paseos por tipo: ciudad, mar, cultura, aventura o planes privados. Abre cada ficha para revisar qué incluye y consulta con Ernestinho los valores y la disponibilidad de tu fecha.",
       "Em Experiências você pode comparar passeios por estilo: cidade, mar, cultura, aventura ou opções privadas. Abra cada ficha para conferir o que inclui e consulte Ernestinho sobre valores e disponibilidade para a sua data.",
@@ -243,17 +243,17 @@ export const INTENTS = [
   },
   {
     id: "weather",
-    keywords: ["clima", "tempo", "mejor epoca", "cuando viajar", "mes a mes", "pronostico", "que tiempo hara", "weather", "weather forecast", "forecast", "best time", "when to visit", "clima no rio", "época", "chuva"],
+    keywords: ["clima","como estara el tiempo para organizar mi dia", "tempo", "mejor epoca", "cuando viajar", "mes a mes", "pronostico", "que tiempo hara", "weather", "weather forecast", "forecast", "best time", "when to visit", "clima no rio", "época", "chuva"],
     answer: t(
       "La guía mes a mes reúne clima, playas, eventos y movimiento de la ciudad para planificar la época del viaje. Para el pronóstico de un día concreto, revisa una fuente meteorológica actualizada cerca de tu salida.",
       "O guia mês a mês reúne clima, praias, eventos e movimento da cidade para ajudar a escolher a época da viagem. Para a previsão de um dia específico, consulte uma fonte meteorológica atualizada perto da data.",
       "The month-by-month guide brings together weather, beaches, events, and the city's rhythm to help plan your travel season. For a specific day's forecast, check an up-to-date weather source closer to departure."
     ),
-    links: [{ href: "/guia/mes-a-mes/", label: t("Río mes a mes", "Rio mês a mês", "Rio month by month") }]
+    links: [{ href: "/rio-en-vivo/", label: t("Río en vivo", "Rio ao vivo", "Rio live guide") }, { href: "/guia/mes-a-mes/", label: t("Río mes a mes", "Rio mês a mês", "Rio month by month") }]
   },
   {
     id: "today",
-    keywords: ["que hacer hoy", "hoy en rio", "hoy", "agenda", "eventos", "evento", "today", "what's on", "what should i do today", "what to do today", "events today", "events", "o que fazer hoje", "hoje no rio", "eventos no rio"],
+    keywords: ["que hacer hoy", "hoy en rio", "que puedo hacer hoy en rio", "what can i do today in rio","what can i do in rio today", "o que posso fazer hoje no rio", "hoy", "agenda", "eventos", "evento", "today", "what's on", "what should i do today", "what to do today", "events today", "events", "o que fazer hoje","o que posso fazer hoje no rio", "hoje no rio", "eventos no rio"],
     answer: t(
       "Para ideas del día, revisa Rio Hoje en la portada y la agenda de eventos. La programación puede cambiar, así que confirma fecha, lugar y entradas en la página del evento antes de salir.",
       "Para ideias do dia, veja o Rio Hoje na página inicial e a agenda de eventos. A programação pode mudar; confirme data, local e ingressos na página do evento antes de sair.",
@@ -261,7 +261,8 @@ export const INTENTS = [
     ),
     links: [
       { href: "/#hoy", label: t("Rio Hoje", "Rio Hoje", "Rio Hoje") },
-      { href: "/eventos/", label: t("Agenda de eventos", "Agenda de eventos", "Events guide") }
+      { href: "/eventos/", label: t("Agenda de eventos", "Agenda de eventos", "Events guide") },
+      { href: "/hoy/", label: t("Qué hacer hoy", "O que fazer hoje", "Things to do today") }
     ]
   },
   {
@@ -276,7 +277,7 @@ export const INTENTS = [
   },
   {
     id: "nightlife",
-    keywords: ["vida nocturna", "noche", "salir de noche", "bares", "nightlife", "night out", "bars at night", "vida noturna", "noite", "sair à noite"],
+    keywords: ["vida nocturna", "noche", "salir de noche", "bares", "nightlife", "night out", "bars at night", "vida noturna", "o que posso fazer esta noite no rio", "what can i do in rio tonight", "noite", "sair à noite"],
     answer: t(
       "La guía de Vida Nocturna reúne fichas por barrio, música y tipo de noche. Revisa la ficha del lugar que te interese y confirma su programación y horario antes de ir.",
       "O guia de Vida Noturna reúne fichas por bairro, música e estilo de noite. Consulte a ficha do local que interessa e confirme a programação e o horário antes de ir.",
@@ -286,7 +287,7 @@ export const INTENTS = [
   },
   {
     id: "shopping",
-    keywords: ["compras", "shopping", "where can i shop", "where to shop", "feria", "ferias", "mercado", "feira", "markets", "shopping mall", "onde comprar", "onde fazer compras"],
+    keywords: ["compras", "shopping", "quais feiras ou mercados vale a pena conhecer", "which fairs or markets are worth visiting", "where can i shop", "where to shop", "feria", "ferias", "mercado", "feira", "markets", "shopping mall", "onde comprar", "onde fazer compras"],
     answer: t(
       "La sección Compras reúne shoppings, ferias y mercados populares, con fichas para elegir según la zona y lo que buscas.",
       "A seção Compras reúne shoppings, feiras e mercados populares, com fichas para escolher conforme a região e o que você procura.",
