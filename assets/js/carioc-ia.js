@@ -1,9 +1,9 @@
 import { getLanguage } from "./i18n.js";
 import { hasLocaleRoutes, localizedPath } from "./locale-routing.js";
-import { extractConversationDetails, getContextualIntentAnswer, getLocalized, normalizeQuestion, resolveQuestion, recommendGuideLinks } from "./carioc-ia-engine.js?v=20261013-cariocia12";
-import { searchSiteGuide } from "./carioc-ia-site-index.js?v=20261013-cariocia12";
-import { FALLBACK_LINKS, UI } from "./carioc-ia-knowledge.js?v=20261013-cariocia12";
-import { INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261013-cariocia12";
+import { extractConversationDetails, getContextualIntentAnswer, getLocalized, normalizeQuestion, resolveQuestion, recommendGuideLinks } from "./carioc-ia-engine.js?v=20261013-cariocia13";
+import { searchSiteGuide } from "./carioc-ia-site-index.js?v=20261013-cariocia13";
+import { FALLBACK_LINKS, UI } from "./carioc-ia-knowledge.js?v=20261013-cariocia13";
+import { INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261013-cariocia13";
 import { buildWhatsAppHref } from "./carioc-ia-whatsapp.js?v=20261013-cariocia11";
 
 const STORAGE_KEY = "ec-cariocia-panel-open";
@@ -74,7 +74,7 @@ export function mountCariocIA() {
   prerendered?.remove();
   const css = document.createElement("link");
   css.rel = "stylesheet";
-  css.href = new URL("../css/carioc-ia.css?v=20261013-cariocia12", import.meta.url).href;
+  css.href = new URL("../css/carioc-ia.css?v=20261013-cariocia13", import.meta.url).href;
   css.dataset.ecCariociaStyle = "";
   document.head.appendChild(css);
   const controlsStyle = document.createElement("style");
