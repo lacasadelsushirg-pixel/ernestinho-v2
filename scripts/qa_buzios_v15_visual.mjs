@@ -33,15 +33,16 @@ try{
    if(route==='/guia/'){await page.locator('#ec-luggage-guide-card').screenshot({path:'/tmp/buzios-v15-shots/guide-thumbnail-'+width+'.png'});}
    if(route==='/guia/guarda-equipaje/'){
     await page.locator('[data-bounce-source]').first().scrollIntoViewIfNeeded();await page.waitForTimeout(250);
-    await page.evaluate(()=>{const a=document.querySelector('[data-bounce-click]');a.addEventListener('click',e=>e.preventDefault());a.click();});
+    await page.evaluate(()=>{const a=document.querySelector('.ec-bounce[data-bounce-source="guia-equipaje"] [data-bounce-click]');a.addEventListener('click',e=>e.preventDefault());a.click();});
     const events=await page.evaluate(()=>window.__bounceEvents);for(const name of ['bounce_view','bounce_click'])if(!events.some(e=>e[1]===name&&e[2].bounce_source==='guia-equipaje'))throw Error('Bounce tracking missing: '+name);row.tracking=events;
    }
    for(const language of ['PT','EN','ES']){const selector=width===390?`.ec-mobile-language-row a[data-ec-language="${language}"]`:`.ec-desktop-language a[data-desktop-language="${language}"]`;const expected=(language==='ES'?'':'/'+language.toLowerCase())+route;await Promise.all([page.waitForURL(base+expected+'?qa=1#bz-app'),page.locator(selector).first().click()]);await page.evaluate(async()=>{for(const s of document.querySelectorAll('script[type="module"][src]')){const m=await import(s.src);if(m.ready)await m.ready;}});const value=await page.evaluate(()=>({pathname:location.pathname,search:location.search,hash:location.hash,overflow:document.documentElement.scrollWidth>innerWidth+1}));if(value.pathname!==expected||value.search!=='?qa=1'||value.hash!=='#bz-app'||value.overflow)throw Error('Locale cycle failed: '+JSON.stringify(value));await page.evaluate(async()=>{for(const image of document.querySelectorAll('[data-bounce-source] img')){image.loading='eager';try{await image.decode();}catch{}}});
     const banners=await page.evaluate(()=>[...document.querySelectorAll('[data-bounce-source]')].map(n=>({language:n.dataset.bounceLanguage,variant:n.dataset.bounceVariant,src:n.querySelector('img').src,loaded:n.querySelector('img').naturalWidth>0,href:n.querySelector('a').href})));
+    if(route==='/guia/guarda-equipaje/'&&banners.length!==6)throw Error('Expected six linked Bounce banners on the luggage guide, got '+banners.length);
     if(banners.some(n=>n.language!==language||!n.loaded||n.href!=='https://go.bounce.com/ERNESTINHO8980973466'))throw Error('Bounce locale/image/link failed: '+route+' '+language+' '+JSON.stringify(banners));row.cycles.push({...value,banners});}
    rows.push(row);
   }
-  await page.goto(base+'/',{waitUntil:'load'});await page.locator('.home-buzios').scrollIntoViewIfNeeded();await page.locator('.home-buzios').screenshot({path:'/tmp/buzios-v15-shots/home-block-'+width+'.png'});
+  if(!routeFilter||routeFilter.includes('/')){await page.goto(base+'/',{waitUntil:'load'});await page.locator('.home-buzios').scrollIntoViewIfNeeded();await page.locator('.home-buzios').screenshot({path:'/tmp/buzios-v15-shots/home-block-'+width+'.png'});}
   await ctx.close();
  }
 }finally{await browser.close();server.close();}
