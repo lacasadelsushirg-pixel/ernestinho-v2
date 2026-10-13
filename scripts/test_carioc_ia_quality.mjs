@@ -37,6 +37,7 @@ assert.ok(luggage.links.some(link => link.href === "/guia/guarda-equipaje/"), "c
 assert.match(luggage.answer.ES, /barrio|lugar/i);
 
 const luggageSource = readFileSync(new URL("../assets/js/luggage-page.js", import.meta.url), "utf8");
+const chatSource = readFileSync(new URL("../assets/js/carioc-ia.js", import.meta.url), "utf8");
 const integrationSource = readFileSync(new URL("../assets/js/bounce-integration.js", import.meta.url), "utf8");
 const bounceSource = readFileSync(new URL("../assets/js/bounce.js", import.meta.url), "utf8");
 assert.match(luggageSource, /import \{BOUNCE_URL/);
@@ -46,7 +47,7 @@ assert.match(luggageSource, /data-bounce-click/);
 for (const photo of ["photo(0)", "photo(1)", "photo(2)"]) assert.ok(luggageSource.includes(photo), "each of the three image banners is rendered and linked: " + photo);
 for (const route of ["/hospedaje/", "/guia/aeropuertos/", "/guia/terminales/"]) assert.ok(integrationSource.includes(route), "Bounce integration covers " + route);
 assert.equal(BOUNCE_URL, "https://go.bounce.com/ERNESTINHO8980973466");
-assert.doesNotMatch(luggageSource + integrationSource + bounceSource, /radicalstorage\.com|bounce\.com\/luggage-storage/i);
+assert.doesNotMatch(chatSource + luggageSource + integrationSource + bounceSource, /radicalstorage\.com|bounce\.com\/luggage-storage/i, "all luggage journeys stay on our guide and affiliate route");
 for (const language of ["ES", "PT", "EN"]) {
   for (const variant of ["vertical", "compact", "wide"]) {
     const markup = bounceMarkup(language, variant, "guia-equipaje");
