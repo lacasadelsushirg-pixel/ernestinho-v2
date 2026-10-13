@@ -1,5 +1,5 @@
-import { INTENTS } from "./carioc-ia-knowledge.js?v=20261012-cariocia8";
-import { CURATED_INTENTS, FOLLOWUP_MAPS, INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261012-cariocia8";
+import { INTENTS } from "./carioc-ia-knowledge.js?v=20261013-cariocia10";
+import { CURATED_INTENTS, FOLLOWUP_MAPS, INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261013-cariocia10";
 
 const LEGACY_CATEGORIES = {
   contact: "commercial", booking: "commercial", first_visit: "general", beaches: "beaches", transport: "transport",
