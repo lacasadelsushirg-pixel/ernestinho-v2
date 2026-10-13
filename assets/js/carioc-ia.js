@@ -426,8 +426,9 @@ export function mountCariocIA() {
       ? [bookingWords.add]
       : intent.id === "beach_clarify" ? followupCopy(intent.id, language) : intent.followups;
     const remaining = Math.max(0, 3 - (intent.links || []).length);
-    const indexedLinks = intent.suppressRecommendations ? [] : searchSiteGuide(text, intent.category, (intent.links || []).map(item => item.href), remaining, conversationContext);
-    const additionalLinks = intent.suppressRecommendations ? [] : [...indexedLinks, ...recommendGuideLinks(intent, text, Math.max(0, remaining - indexedLinks.length))]
+    const suppressAdditionalRecommendations = Boolean(intent.suppressRecommendations || intent.pending);
+    const indexedLinks = suppressAdditionalRecommendations ? [] : searchSiteGuide(text, intent.category, (intent.links || []).map(item => item.href), remaining, conversationContext);
+    const additionalLinks = suppressAdditionalRecommendations ? [] : [...indexedLinks, ...recommendGuideLinks(intent, text, Math.max(0, remaining - indexedLinks.length))]
       .filter((link, i, all) => all.findIndex(item => item.href === link.href) === i).slice(0, remaining);
     const reply = intent.id === "quick_luggage" ? luggageAnswer(language, conversationContext.location)
       : intent.directAnswer ? getLocalized(intent.answer, language)

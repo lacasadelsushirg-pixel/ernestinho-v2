@@ -40,6 +40,7 @@ assert.deepEqual(affordableMeat.intent.links.map(l=>l.href),['/gastronomia/'],'U
 assert.match(affordableMeat.intent.answer.ES,/precios actuales confirmados/);
 for(const question of initialQuestions) assert.deepEqual(searchSiteGuide(question,'gastronomy'),[],'Generic requests cannot produce arbitrary indexed venues');
 const widget=readFileSync(new URL('../assets/js/carioc-ia.js',import.meta.url),'utf8');
-assert.match(widget,/intent\.suppressRecommendations \? \[\] : searchSiteGuide/,'Food preferences suppress indexed venue recommendations');
+assert.match(widget,/suppressAdditionalRecommendations \? \[\] : searchSiteGuide/,'Food preferences suppress indexed venue recommendations');
+assert.match(widget,/Boolean\(intent\.suppressRecommendations \|\| intent\.pending\)/,'Any intent asking a follow-up suppresses premature venue recommendations');
 assert.match(widget,/intent\.directAnswer \? getLocalized\(intent\.answer, language\)/,'Widget renders the selected dining flow reply');
 console.log('Dining flow passed: six entry phrases, three languages, cuisine/area in both orders, strict matches, empty results, budget and topic changes.');
