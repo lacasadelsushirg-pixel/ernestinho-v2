@@ -36,6 +36,8 @@ for(const [language,question,sushi] of [['ES','¿Dónde puedo comer?','Sushi / j
   assert.equal(rental.intent.id,'daily_car_rental','Car rental exits dining flow');
   const internet=resolveQuestion('internet',type.contextUpdate);
   assert.equal(internet.intent.id,'daily_internet','Internet questions exit dining flow');
+  const favela=resolveQuestion('quiero ir a la favela',type.contextUpdate);
+  assert.equal(favela.intent.id,'experience_rocinha','Favela tours exit dining flow');
 }
 const cheap=resolveQuestion('Copacabana, algo económico',resolveQuestion('quiero comer').contextUpdate);
 const affordableMeat=resolveQuestion('Carnes / churrasco',cheap.contextUpdate);
