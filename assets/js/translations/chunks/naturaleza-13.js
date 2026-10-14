@@ -1,0 +1,12 @@
+const T={};const a=(es,pt,en)=>{T[es]={PT:pt,EN:en};};
+a("Núcleo Camorim","Núcleo Camorim","Camorim Park Centre");
+a("Una entrada a la Mata Atlántica y a la historia del agua, con sendero hacia el Açude. Te cuento qué confirmar antes de subir.","Uma entrada para a Mata Atlântica e para a história da água, com trilha até o Açude. Conto o que confirmar antes de subir.","A gateway to the Atlantic Forest and water history, with a trail to the reservoir. I’ll tell you what to check before heading uphill.");
+a("Transcarioca · Trecho 06","Transcarioca · Trecho 06","Transcarioca · Section 06");
+a("13,4 km y unas seis horas de referencia entre bosque, embalse y patrimonio. Una jornada larga con dificultad alta y señalización parcial.","13,4 km e cerca de seis horas de referência entre mata, represa e patrimônio. Um dia longo, de dificuldade alta e sinalização parcial.","A reference 13.4 km and roughly six hours through forest, reservoir and heritage. A long outing with high difficulty and partial signage.");
+a("Açude do Camorim","Açude do Camorim","Açude do Camorim Reservoir");
+a("Un embalse de 1908 entre montañas. El baño está prohibido y su agua no es apta para consumo: la visita es desde la orilla.","Uma represa de 1908 entre montanhas. O banho é proibido e a água não é própria para consumo: a visita é feita da margem.","A 1908 reservoir among the mountains. Swimming is prohibited and the water is not potable; enjoy it from the shore.");
+a("Cachoeira Véu da Noiva","Cachoeira Véu da Noiva","Cachoeira Véu da Noiva Waterfall");
+a("Agua y patrimonio hidráulico en el bosque. Te explico qué se sabe del circuito y qué falta confirmar sobre el baño.","Água e patrimônio hidráulico na mata. Explico o que se sabe sobre o circuito e o que falta confirmar sobre o banho.","Water and hydraulic heritage in the forest. I explain what is known about the circuit and what still needs checking about swimming.");
+a("Aqueduto do Pau da Fome","Aqueduto do Pau da Fome","Aqueduto do Pau da Fome Aqueduct");
+a("Una estructura entre la vegetación que nos permite leer la relación entre agua, montaña y ciudad. Fecha y acceso individual aún por confirmar.","Uma estrutura entre a vegetação que nos ajuda a entender a relação entre água, montanha e cidade. Data e acesso individual ainda precisam ser confirmados.","A structure among the trees that helps us read the relationship between water, mountain and city. Its date and independent access still need confirmation.");
+export default T;

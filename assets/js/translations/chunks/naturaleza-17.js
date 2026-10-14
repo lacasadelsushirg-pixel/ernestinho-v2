@@ -1,0 +1,12 @@
+const T={};const a=(es,pt,en)=>{T[es]={PT:pt,EN:en};};
+a("Trilha Transcarioca · Trecho 11","Trilha Transcarioca · Trecho 11","Transcarioca Trail · Section 11");
+a("Un recorrido exigente de 9,5 km; la represa es de abastecimiento y el baño está prohibido.","Um percurso exigente de 9,5 km; a represa abastece a cidade e o banho é proibido.","A demanding 9.5 km route; the reservoir supplies water and swimming is prohibited.");
+a("Trilha Transcarioca · Trecho 12","Trilha Transcarioca · Trecho 12","Transcarioca Trail · Section 12");
+a("6,6 km y unas cuatro horas, con ascenso de escalaminhada hacia Bico do Papagaio.","6,6 km e cerca de quatro horas, com subida de escalaminhada em direção ao Bico do Papagaio.","6.6 km and about four hours, with a scrambling climb towards Bico do Papagaio.");
+a("Trilha Transcarioca · Trecho 13","Trilha Transcarioca · Trecho 13","Transcarioca Trail · Section 13");
+a("4,6 km con bosque, miradores y paradas culturales; confirma los servicios abiertos.","4,6 km com floresta, mirantes e paradas culturais; confira quais serviços estão abertos.","4.6 km of forest, viewpoints and cultural stops; check which services are open.");
+a("Trilha Transcarioca · Trecho 14","Trilha Transcarioca · Trecho 14","Transcarioca Trail · Section 14");
+a("Un tramo de miradores con métricas oficiales en conflicto; planifica con la versión larga.","Um trecho de mirantes com métricas oficiais divergentes; planeje pela estimativa mais longa.","A viewpoint trail with conflicting official metrics; plan for the longer estimate.");
+a("Trilha Transcarioca · Trecho 15","Trilha Transcarioca · Trecho 15","Transcarioca Trail · Section 15");
+a("Un sendero de 1,6 km entre dos miradores; lleva agua y organiza el regreso.","Uma trilha de 1,6 km entre dois mirantes; leve água e planeje o retorno.","A 1.6 km trail between two viewpoints; bring water and plan your return.");
+export default T;

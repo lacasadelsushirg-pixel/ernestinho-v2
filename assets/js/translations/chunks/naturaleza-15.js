@@ -1,0 +1,10 @@
+const T={};const a=(es,pt,en)=>{T[es]={PT:pt,EN:en};};
+a("Núcleo Pau da Fome","Núcleo Pau da Fome","Pau da Fome Park Centre");
+a("La puerta del parque para conocer la exposición, revisar avisos y decidir si el día pide una caminata.","A entrada do parque para conhecer a exposição, conferir avisos e decidir se o dia pede uma caminhada.","A park gateway to explore the exhibition, check notices and decide whether the day calls for a hike.");
+a("Transcarioca · Trecho 07","Transcarioca · Trecho 07","Transcarioca · Section 07");
+a("11,7 km y unas seis horas entre dos sedes. Alta dificultad, orientación difícil y logística de regreso por resolver.","11,7 km e cerca de seis horas entre duas sedes. Dificuldade alta, orientação difícil e logística de retorno a resolver.","11.7 km and roughly six hours between two park centres. High difficulty, difficult navigation and return logistics to arrange.");
+a("Pico da Pedra Branca","Pico da Pedra Branca","Pico da Pedra Branca");
+a("El punto culminante de Río, con altitud publicada de 1.024–1.025 m. La ruta específica debe confirmarse antes de planear la subida.","O ponto culminante do Rio, com altitude publicada de 1.024–1.025 m. A trilha específica precisa ser confirmada antes de planejar a subida.","Rio’s highest point, with a published elevation of 1,024–1,025 m. Verify the specific route before planning a climb.");
+a("Aqueduto do Barata","Aqueduto do Barata","Aqueduto do Barata Aqueduct");
+a("Una estructura de agua reconocida en la Transcarioca. Te cuento su contexto y cómo observarla sin trepar.","Uma estrutura hídrica reconhecida na Transcarioca. Conto seu contexto e como observá-la sem subir nela.","A water structure recognised on the Transcarioca. I share its context and how to view it without climbing.");
+export default T;

@@ -1,0 +1,17 @@
+const T={};const a=(es,pt,en)=>{T[es]={PT:pt,EN:en};};
+a("Agua, ingeniería y paisaje","Água, engenharia e paisagem","Water, engineering and landscape");
+a("El agua de la ciudad también tiene una historia construida. Yo conecto los acueductos y puentes-canal con el paisaje y el abastecimiento, distinguiendo las obras técnicas de los lugares abiertos a visitas.","A água da cidade também tem uma história construída. Conecto aquedutos e pontes-canais à paisagem e ao abastecimento, distinguindo obras técnicas de lugares abertos à visitação.","The city’s water has a built history too. I connect aqueducts and canal bridges to the landscape and water supply, while distinguishing technical infrastructure from places open to visitors.");
+a("El agua invisible del Guandu","A água invisível do Guandu","The Guandu’s invisible water");
+a("Un recorrido editorial por el sistema de aducción y sus hitos, sin convertir instalaciones técnicas en rutas de visita.","Um panorama editorial do sistema de adução e seus marcos, sem transformar instalações técnicas em roteiros de visita.","An editorial overview of the water conveyance system and its milestones, without turning technical sites into visitor routes.");
+a("Aqueduto do Catonho","Aqueduto do Catonho","Aqueduto do Catonho Aqueduct");
+a("La parte visible de una obra metropolitana, con historia y límites claros sobre el acceso.","A parte visível de uma obra metropolitana, com história e limites claros de acesso.","A visible part of a metropolitan water project, with its history and clear access boundaries.");
+a("Ponte da Cachoeira","Ponte da Cachoeira","Ponte da Cachoeira Canal Bridge");
+a("Una estructura de aducción de unos 164 m; no es una cascada ni un acceso de baño.","Uma estrutura de adução de cerca de 164 m; não é uma cachoeira nem um local de banho.","A roughly 164 m water conveyance structure; it is not a waterfall or swimming spot.");
+a("Ponte do Governo","Ponte do Governo","Ponte do Governo Canal Bridge");
+a("Una puente-canal del sistema del Guandu, distinta de la Rua do Governo que lleva a Piraquara.","Uma ponte-canal do sistema do Guandu, diferente da Rua do Governo que leva a Piraquara.","A canal bridge in the Guandu system, distinct from Rua do Governo, which leads to Piraquara.");
+a("Trilha Transcarioca · Trecho 09","Trilha Transcarioca · Trecho 09","Transcarioca Trail · Section 09");
+a("7,3 km y unas cinco horas, con una discrepancia entre el resumen y la ficha técnica que conviene resolver antes de salir.","7,3 km e cerca de cinco horas, com uma divergência entre o resumo e a ficha técnica que precisa ser esclarecida antes da caminhada.","7.3 km and about five hours, with a discrepancy between the summary and technical listing to resolve before setting out.");
+a("Fotos que faltan","Fotos que faltam","Photos still needed");
+a("Con qué combinarlo","Como combinar","What to combine it with");
+a("Mapa de contexto","Mapa de contexto","Context map");
+export default T;

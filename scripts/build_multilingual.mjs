@@ -6,6 +6,7 @@ import {createRequire} from 'node:module';
 import {execFileSync} from 'node:child_process';
 import {loadBuildLibraries} from './build_vendor.mjs';
 import {buildBrowserOptions} from './build_browser.mjs';
+import {SEO_METADATA} from '../assets/js/seo-metadata.js';
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
@@ -103,12 +104,25 @@ async function worker(){
     for(const name of ['luggage-page.js','bounce-integration.js']){const script=scripts.find(s=>s.src.endsWith('/assets/js/'+name));if(script)(await import(script.src)).apply(language);}
     await new Promise(r=>setTimeout(r,80));
    },target.language);
-   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar})=>{
+   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy})=>{
     const language=document.documentElement.lang;
     const canonical=origin+route;
     const sourcePath=route.replace(/^\/(pt|en)(?=\/|$)/,'')||'/';
     const prefix=(r,l)=>l==='es'?r:'/'+l+r;
-    const setMeta=(key,content)=>{let m=document.querySelector(`meta[property="${key}"],meta[name="${key}"]`);if(!m){m=document.createElement('meta');m.setAttribute(key.includes(':')?'property':'name',key);document.head.appendChild(m);}m.content=content;m.removeAttribute('data-ec-content');};
+    const setMeta=(key,content,attribute=key.includes(':')?'property':'name')=>{let m=document.querySelector(`meta[property="${key}"],meta[name="${key}"]`);if(!m){m=document.createElement('meta');m.setAttribute(attribute,key);document.head.appendChild(m);}m.content=content;m.removeAttribute('data-ec-content');};
+    if(sourcePath.startsWith('/naturaleza/')){
+     if(seoCopy){
+      document.title=seoCopy[0];
+      setMeta('description',seoCopy[1],'name');
+      setMeta('og:title',seoCopy[0]);setMeta('og:description',seoCopy[1]);
+     }
+     setMeta('twitter:title',document.title,'name');
+     setMeta('twitter:description',document.querySelector('meta[name="description"]')?.content||'','name');
+     const heroAlt=document.querySelector('main img:not([src*="/assets/brand/"])')?.alt?.trim();
+     const imageAlt=heroAlt||(language==='pt-BR'?'Paisagem natural do Rio de Janeiro':language==='en'?'Nature landscape in Rio de Janeiro':'Paisaje natural de Río de Janeiro');
+     setMeta('og:image:alt',imageAlt);
+     if(!document.querySelector('meta[name="twitter:card"]'))setMeta('twitter:card','summary_large_image','name');
+    }
     const title=document.title,description=document.querySelector('meta[name="description"]')?.content;
     if(!title||!description)throw Error('Missing title/description');
     let link=document.querySelector('link[rel="canonical"]');
@@ -165,7 +179,7 @@ async function worker(){
      const s=document.createElement('script');s.type='application/ld+json';s.dataset.ecBreadcrumb='';s.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});document.head.appendChild(s);
     }
     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1:document.querySelectorAll('h1').length};
-   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source)});
+   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null});
    // Redirect-only source documents remain redirect-only and never get hreflang.
    const original=fs.readFileSync(target.file,'utf8');const refresh=original.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(refresh){value.html=value.html.replace('</head>',refresh[0].replace(/(url=)([^"'>]+)/i,(_,p,destination)=>{const u=new URL(destination,base+target.route);return p+prefix(u.pathname,target.language)+u.search+u.hash;})+'</head>');}

@@ -1,0 +1,12 @@
+const T={};const a=(es,pt,en)=>{T[es]={PT:pt,EN:en};};
+a('Trilha Transcarioca · Trecho 21','Trilha Transcarioca · Trecho 21','Transcarioca Trail · Section 21');
+a('Un circuito corto entre esculturas, Mata Atlántica y los miradores de Sacopã y Urubu.','Um circuito curto entre esculturas, Mata Atlântica e os mirantes do Sacopã e do Urubu.','A short circuit among outdoor sculptures, Atlantic Forest and the Sacopã and Urubu viewpoints.');
+a('Trilha Transcarioca · Trecho 23','Trilha Transcarioca · Trecho 23','Transcarioca Trail · Section 23');
+a('La ficha actual recomienda una ida y vuelta desde el parque hasta Morro São João; el acceso original no está disponible.','A ficha atual recomenda ida e volta do parque até o Morro São João; o acesso original não está disponível.','The current trail guidance recommends an out-and-back from the park to Morro São João; the original approach is unavailable.');
+a('Trilha Transcarioca · Trecho 24','Trilha Transcarioca · Trecho 24','Transcarioca Trail · Section 24');
+a('Ruta de montaña con riesgo alto y guía local recomendado; distingue circuito y trecho lineal.','Rota de montanha com risco alto e guia local recomendado; diferencie circuito e trecho linear.','A mountain route with high risk and a recommended local guide; distinguish the circuit from the linear section.');
+a('Trilha Transcarioca · Trecho 25','Trilha Transcarioca · Trecho 25','Transcarioca Trail · Section 25');
+a('Subida de 1,9 km hacia Morro da Urca; la caminata y el Bondinho tienen horarios y reglas distintos.','Subida de 1,9 km até o Morro da Urca; trilha e Bondinho têm horários e regras diferentes.','A 1.9 km climb to Morro da Urca; the hike and cable car have different hours and rules.');
+a('Trilha Transcarioca · Trecho 26','Trilha Transcarioca · Trecho 26','Transcarioca Trail · Section 26');
+a('Trilha da Comprida en Ilha Comprida: visita condicionada al protocolo, al mar y a servicios habilitados.','Trilha da Comprida na Ilha Comprida: visita sujeita ao protocolo, às condições do mar e a serviços habilitados.','Trilha da Comprida on Ilha Comprida: visits depend on protocols, sea conditions and authorized services.');
+export default T;

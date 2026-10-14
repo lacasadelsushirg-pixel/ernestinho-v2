@@ -1,0 +1,12 @@
+const T={};const a=(es,pt,en)=>{T[es]={PT:pt,EN:en};};
+a('Trilha Transcarioca · Trecho 16','Trilha Transcarioca · Trecho 16','Transcarioca Trail · Section 16');
+a('3,5 km y unas 2 h 30; el circuito opcional del Parque da Cidade suma distancia y tiempo.','3,5 km e cerca de 2h30; o circuito opcional do Parque da Cidade aumenta a distância e o tempo.','3.5 km and about 2.5 hours; the optional Parque da Cidade circuit adds distance and time.');
+a('Trilha Transcarioca · Trecho 17','Trilha Transcarioca · Trecho 17','Transcarioca Trail · Section 17');
+a('3,9 km entre cascadas, mirador y un jequitibá centenario; observa sin salir del sendero.','3,9 km entre cachoeiras, mirante e um jequitibá centenário; observe sem sair da trilha.','3.9 km among waterfalls, a viewpoint and an old jequitibá; stay on the trail.');
+a('Trilha Transcarioca · Trecho 18','Trilha Transcarioca · Trecho 18','Transcarioca Trail · Section 18');
+a('4,2 km hacia Paineiras, con exposición solar alta y alternativas de salida que conviene planear.','4,2 km até Paineiras, com alta exposição ao sol e alternativas de saída que devem ser planejadas.','4.2 km towards Paineiras, with high sun exposure and exit options to plan.');
+a('Trilha Transcarioca · Trecho 19','Trilha Transcarioca · Trecho 19','Transcarioca Trail · Section 19');
+a('3,3 km con escalaminhada y riesgo técnico alto; atención al terreno y al tránsito.','3,3 km com escalaminhada e risco técnico alto; atenção ao terreno e ao trânsito.','3.3 km with scrambling and high technical risk; watch the terrain and traffic.');
+a('Trilha Transcarioca · Trecho 20','Trilha Transcarioca · Trecho 20','Transcarioca Trail · Section 20');
+a('Una caminata urbana; el resumen y la ficha técnica publican distancias diferentes.','Uma caminhada urbana; o resumo e a ficha técnica informam distâncias diferentes.','An urban walk; the overview and technical sheet list different distances.');
+export default T;
