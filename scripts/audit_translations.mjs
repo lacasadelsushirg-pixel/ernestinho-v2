@@ -8,7 +8,14 @@ for(const file of fs.readdirSync(path.join(root,'assets/js/translations/chunks')
  const source=fs.readFileSync(path.join(root,'assets/js/translations/chunks',file),'utf8');
  const data=(await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'))).default;
  if(!data || typeof data!=='object')throw Error('Invalid dictionary: '+file);
- for(const [original,pair] of Object.entries(data))for(const lang of ['PT','EN'])if(typeof pair[lang]!=='string'||!pair[lang].trim())throw Error('Missing '+lang+' in '+file+': '+original);
+ for(const [original,pair] of Object.entries(data)){
+  // Proper names that are identical in every locale use an identity passthrough.
+  if(typeof pair==='string'){
+   if(pair!==original)throw Error('Invalid identity passthrough in '+file+': '+original);
+   continue;
+  }
+  for(const lang of ['PT','EN'])if(typeof pair[lang]!=='string'||!pair[lang].trim())throw Error('Missing '+lang+' in '+file+': '+original);
+ }
  chunks[file]=data;
 }
 const site=fs.readFileSync(path.join(root,'assets/js/site.js'),'utf8');
@@ -32,7 +39,7 @@ class P(HTMLParser):
   if not self.skip and t.strip():self.text.append(t.strip())
 rows=[]
 for f in sorted(Path('.').rglob('*.html')):
- if '.git' in f.parts:continue
+ if any(part in ('.git','dist','node_modules') for part in f.parts):continue
  p=P();p.feed(f.read_text());rows.append({'path':str(f),'section':f.parts[0] if len(f.parts)>1 else 'home','phrases':sorted(set(p.text+p.attributes))})
 print(json.dumps(rows,ensure_ascii=False))
 `],{cwd:root,encoding:'utf8',maxBuffer:16*1024*1024});

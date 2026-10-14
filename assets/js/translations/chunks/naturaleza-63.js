@@ -1,0 +1,23 @@
+const T = Object.create(null);
+const a = (es, pt, en) => { T[es] = { PT: pt, EN: en }; };
+a("TRILHA TRANSCARIOCA · LAGOA / CATACUMBA", "TRILHA TRANSCARIOCA · LAGOA / CATACUMBA", "TRANSCARIOCA TRAIL · LAGOA / CATACUMBA");
+a("Mapa general del Parque Natural Municipal da Catacumba", "Mapa geral do Parque Natural Municipal da Catacumba", "General map of Catacumba Municipal Natural Park");
+a("TRILHA TRANSCARIOCA · URCA / PÃO DE AÇÚCAR", "TRILHA TRANSCARIOCA · URCA / PÃO DE AÇÚCAR", "TRANSCARIOCA TRAIL · URCA / SUGARLOAF MOUNTAIN");
+a("Mapa general de Praia Vermelha y Praça General Tibúrcio", "Mapa geral da Praia Vermelha e da Praça General Tibúrcio", "General map of Praia Vermelha and Praça General Tibúrcio");
+a("Pabellón y paisaje desde Vista Chinesa", "Pavilhão e paisagem vistos da Vista Chinesa", "Pavilion and scenery from Vista Chinesa");
+a("Mapa de Vista Chinesa en Río de Janeiro", "Mapa da Vista Chinesa no Rio de Janeiro", "Map of Vista Chinesa in Rio de Janeiro");
+a("Mapa regional de la Zona Oeste de Río de Janeiro", "Mapa regional da Zona Oeste do Rio de Janeiro", "Regional map of Rio de Janeiro’s West Zone");
+a("Mapa general del Parque Estadual da Pedra Branca", "Mapa geral do Parque Estadual da Pedra Branca", "General map of Pedra Branca State Park");
+a("Mapa de referencia del Núcleo Camorim para el Circuito das Águas", "Mapa de referência do Núcleo Camorim para o Circuito das Águas", "Reference map of Núcleo Camorim for Circuito das Águas");
+a("No es un árbol urbano con entrada pública directa. La ubicación precisa no está publicada aquí porque el acceso, la identidad del ejemplar y la autorización deben confirmarse primero. Si existe una actividad mediada y autorizada, confirma con la administración del parque y con la organización local el punto de encuentro, la ruta permitida, el horario y la duración.", "Não é uma árvore urbana com entrada pública direta. A localização precisa não é divulgada aqui porque o acesso, a identificação do exemplar e a autorização precisam ser confirmados. Se houver uma atividade mediada e autorizada, confirme com a administração do parque e a organização local o ponto de encontro, a rota permitida, o horário e a duração.", "This is not an urban tree with direct public access. Its precise location is not published here because access, the tree’s identity and authorization must first be confirmed. If a guided, authorized activity is available, check the meeting point, permitted route, hours and duration with park staff and the local organizer.");
+a("El INEA publica para el Parque Estadual da Pedra Branca el horario general de martes a domingo, 8:00–17:00. El horario del parque no confirma por sí solo que este punto o su camino estén abiertos al público ese día.", "O INEA divulga o horário geral do Parque Estadual da Pedra Branca como terça a domingo, das 8h às 17h. Esse horário não confirma, por si só, que este ponto ou seu caminho estejam abertos ao público naquele dia.", "INEA lists general Pedra Branca State Park hours as Tuesday to Sunday, 8 am–5 pm. Those hours alone do not confirm that this point or its path is open to the public on a given day.");
+a("Mapa de Observación de aves en Guaratiba", "Mapa de observação de aves em Guaratiba", "Birdwatching map in Guaratiba");
+a("Parque do Flamengo (Aterro do Flamengo)", "Parque do Flamengo (Aterro do Flamengo)", "Parque do Flamengo (Aterro do Flamengo)");
+a("Mapa de Parque Natural Municipal de Grumari", "Mapa do Parque Natural Municipal de Grumari", "Map of Grumari Municipal Natural Park");
+a("Mapa de referencia de Estrada da Batalha en Rio da Prata", "Mapa de referência da Estrada da Batalha, no Rio da Prata", "Reference map of Estrada da Batalha in Rio da Prata");
+a("Mapa general del barrio Vargem Grande en Río de Janeiro", "Mapa geral do bairro de Vargem Grande, no Rio de Janeiro", "General map of Vargem Grande neighborhood in Rio de Janeiro");
+a("Vista Chinesa, punto de partida asociado al Trecho 16", "Vista Chinesa, ponto de partida associado ao Trecho 16", "Vista Chinesa, starting point associated with Section 16");
+a("Mapa de referencia del Parque Lage, extremo del Trecho 19", "Mapa de referência do Parque Lage, extremidade do Trecho 19", "Reference map of Parque Lage, the endpoint of Section 19");
+a("Mapa de referencia de Lagoa Rodrigo de Freitas entre los dos parques", "Mapa de referência da Lagoa Rodrigo de Freitas entre os dois parques", "Reference map of Lagoa Rodrigo de Freitas between the two parks");
+
+export default T;
