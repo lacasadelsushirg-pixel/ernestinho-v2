@@ -12,7 +12,9 @@ export async function buildBrowserOptions() {
   const bundled=require('@sparticuz/chromium');
   const tar=createRequire(entry)('tar-fs');
   const bin=path.resolve(path.dirname(entry),'../../bin');
-  const dest=path.join(os.tmpdir(),'ec-seo-chromium');
+  // Some managed build containers mount /tmp with noexec. Keep the extracted
+  // browser in the user's writable home cache unless an explicit path is set.
+  const dest=process.env.EC_CHROMIUM_CACHE||path.join(os.homedir(),'.cache','ec-seo-chromium');
   fs.mkdirSync(dest,{recursive:true});
   const executable=path.join(dest,'chromium');
   if(!fs.existsSync(path.join(dest,'.ready'))){
