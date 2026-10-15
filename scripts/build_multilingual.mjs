@@ -74,7 +74,29 @@ const browser=await chromium.launch(await buildBrowserOptions());
 let next=0;const manifest=[];const prunedRoutes=new Set();const errors=[];
 async function worker(){
  const context=await browser.newContext({viewport:{width:1365,height:900}});
- await context.route('**/*',r=>new URL(r.request().url()).origin===base?r.continue():r.fulfill({status:200,body:libraries.get(r.request().url())||'',contentType:r.request().resourceType()==='script'?'text/javascript':'text/plain'}));
+ await context.route('**/*',async r=>{
+   const requestUrl=new URL(r.request().url());
+   if(requestUrl.origin===base){
+    const requestPath=decodeURIComponent(requestUrl.pathname);
+    const sourcePath=requestPath.replace(/^\/(?:pt|en)(?=\/|$)/i,'')||'/';
+    let file=path.resolve(root,'.'+sourcePath);
+    if(!file.startsWith(root+path.sep)&&file!==root)return r.fulfill({status:403,body:'Forbidden'});
+    if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');
+    if(!fs.existsSync(file))return r.fulfill({status:404,body:'Not found'});
+    const contentType=types[path.extname(file)]||'application/octet-stream';
+    if(file.endsWith('.html')){
+     let html=adaptLegacyScripts(fs.readFileSync(file,'utf8'),sourcePath).replace(/<html\b/i,'<html data-ec-locale-routes="true"');
+     html=html.replace('src="https://cdn.tailwindcss.com"','src="https://cdn.tailwindcss.com/3.4.17"')
+      .replace('src="https://unpkg.com/react@18/','src="https://unpkg.com/react@18.3.1/')
+      .replace('src="https://unpkg.com/react-dom@18/','src="https://unpkg.com/react-dom@18.3.1/');
+     html=html.replace(/<head>/i,'<head><base data-ec-build-base href="'+sourcePath+'">'+bootstrap)
+      .replace(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/gi,'');
+     return r.fulfill({status:200,body:html,contentType});
+    }
+    return r.fulfill({status:200,body:fs.readFileSync(file),contentType});
+   }
+   return r.fulfill({status:200,body:libraries.get(r.request().url())||'',contentType:r.request().resourceType()==='script'?'text/javascript':'text/plain'});
+  });
  const page=await context.newPage();
  while(next<targets.length){
  const target=targets[next++],route=prefix(target.route,target.language);
