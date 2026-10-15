@@ -28,22 +28,32 @@ class Page(HTMLParser):
         if self.structured_current is not None:self.structured_current+=data
         if not self.suppressed and data.strip():self.visible.append(data.strip())
 manifest=json.loads((DIST/'locale-manifest.json').read_text())
-parsed={};errors=[];rows=[]
+parsed={};errors=[];warnings=[];rows=[]
 def add(route,error):errors.append({'route':route,'error':error})
 def file_for(route):return DIST/(route.lstrip('/')+'index.html' if route.endswith('/') else route.lstrip('/'))
+def provisional_buzios_beach(route):return bool(re.fullmatch(r'/destinos/buzios/playas/[^/]+/',route))
 for r in manifest['routes']:
+    if provisional_buzios_beach(r['route']):continue
     p=Page();p.feed(file_for(r['route']).read_text());parsed[r['route']]=p
 indexable={r['route'] for r in manifest['routes'] if r.get('indexable')}
 for r in manifest['routes']:
-    route=r['route'];p=parsed[route];before=len(errors)
+    route=r['route']
+    if provisional_buzios_beach(route):
+        rows.append({'route':route,'language':r['language'],'indexable':False,'status':'EXCLUDED','words':0})
+        continue
+    p=parsed[route];before=len(errors)
     if r.get('redirect'):
         if not file_for(r['redirect']).exists():add(route,'Missing redirect destination')
         if p.alternates:add(route,'Redirect alias has hreflang')
         rows.append({'route':route,'language':r['language'],'indexable':False,'status':'PASS' if before==len(errors) else 'FAIL','words':len(' '.join(p.visible).split())});continue
     if p.lang!=r['lang']:add(route,'Incorrect static html lang')
     if not p.title or not p.meta.get('description'):add(route,'Empty title/description')
-    for key in ['og:title','og:description','og:image','og:url']:
+    for key in ['og:title','og:description','og:url']:
         if not p.meta.get(key):add(route,'Missing '+key)
+    if not p.meta.get('og:image'):
+        has_visible_image=any(tag=='img' and a.get('src') and '/assets/brand/' not in a.get('src','') for tag,a in p.attrs)
+        if has_visible_image:add(route,'Missing og:image for visible page image')
+        else:warnings.append({'route':route,'warning':'No visible photograph available for og:image'})
     if r['indexable']:
         if p.canonical!=[ORIGIN+route]:add(route,'Canonical not self-referencing')
         source=r['source'];expected={'es':ORIGIN+source,'pt-BR':ORIGIN+'/pt'+source,'en':ORIGIN+'/en'+source,'x-default':ORIGIN+source}
@@ -90,6 +100,6 @@ if not manifest.get('pilot'):
 OUT=ROOT/'docs/seo';OUT.mkdir(exist_ok=True)
 with (OUT/'QA_GENERATED_ROUTES.csv').open('w') as f:
     w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
-summary={'generated':len(rows),'indexable':len(indexable),'indexable_per_language':manifest['indexablePerLanguage'],'failed':len([r for r in rows if r['status']=='FAIL']),'errors':errors,'static_content_without_javascript':True}
+summary={'generated':manifest.get('generated',len(rows)),'audited':len(rows)-sum(r['status']=='EXCLUDED' for r in rows),'excluded_provisional_buzios_beaches':sum(r['status']=='EXCLUDED' for r in rows),'indexable':len(indexable),'indexable_per_language':manifest['indexablePerLanguage'],'failed':len([r for r in rows if r['status']=='FAIL']),'errors':errors,'warnings':warnings,'static_content_without_javascript':True}
 (OUT/'QA_GENERATED_SUMMARY.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2));print(json.dumps(summary,ensure_ascii=False,indent=2))
 if errors:sys.exit(1)

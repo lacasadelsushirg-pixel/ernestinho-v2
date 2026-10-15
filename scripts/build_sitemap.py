@@ -8,6 +8,7 @@ from xml.sax.saxutils import escape
 import os
 import json
 import argparse
+import re
 
 origin = os.environ.get("SITE_ORIGIN", "https://www.ernestinhocarioca.com.br").strip().rstrip("/")
 parsed = urlsplit(origin)
@@ -51,6 +52,8 @@ for page in sorted(root.rglob("*.html")):
     metadata = Metadata()
     metadata.feed(page.read_text(encoding='utf-8'))
     source_route = route[3:] if route.startswith(('/pt/', '/en/')) else route
+    if re.fullmatch(r'/destinos/buzios/playas/[^/]+/', source_route):
+        continue
     if metadata.excluded or (source_route.rstrip('/') or '/') in redirects:
         continue
     if metadata.canonical != origin + route:

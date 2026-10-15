@@ -18,7 +18,8 @@ const ignore=new Set(['.git','node_modules','dist','.vercel','docs','scripts','u
 function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>ignore.has(e.name)?[]:e.isDirectory()?walk(path.join(dir,e.name)):e.name.endsWith('.html')?[path.join(dir,e.name)]:[]);}
 const files=walk(root).sort();
 const routeFor=f=>{const rel=path.relative(root,f).replaceAll(path.sep,'/');return rel==='index.html'?'/':rel.endsWith('/index.html')?'/'+rel.slice(0,-10):'/'+rel;};
-const indexable=f=>{const html=fs.readFileSync(f,'utf8');return !/404\.html$/.test(f)&&!redirects.has(routeFor(f).replace(/\/$/,'')||'/')&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(html);};
+const provisionalBuziosBeach=route=>/^\/destinos\/buzios\/playas\/[^/]+\/$/.test(route);
+const indexable=f=>{const route=routeFor(f),html=fs.readFileSync(f,'utf8');return !/404\.html$/.test(f)&&!provisionalBuziosBeach(route)&&!redirects.has(route.replace(/\/$/,'')||'/')&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(html);};
 const indexableRoutes=new Set(files.filter(indexable).map(routeFor));
 const prefix=(route,lang)=>lang==='ES'?route:'/'+lang.toLowerCase()+route;
 const pilot=process.argv.find(a=>a.startsWith('--routes='))?.slice(9).split(',');
@@ -70,7 +71,7 @@ function copy(dir,dest){for(const e of fs.readdirSync(dir,{withFileTypes:true}))
 }}
 copy(root,out);
 const browser=await chromium.launch(await buildBrowserOptions());
-let next=0;const manifest=[];const errors=[];
+let next=0;const manifest=[];const prunedRoutes=new Set();const errors=[];
 async function worker(){
  const context=await browser.newContext({viewport:{width:1365,height:900}});
  await context.route('**/*',r=>new URL(r.request().url()).origin===base?r.continue():r.fulfill({status:200,body:libraries.get(r.request().url())||'',contentType:r.request().resourceType()==='script'?'text/javascript':'text/plain'}));
@@ -78,6 +79,18 @@ async function worker(){
  while(next<targets.length){
  const target=targets[next++],route=prefix(target.route,target.language);
   try{
+   if(provisionalBuziosBeach(target.route)){
+    const destination=path.join(out,route.endsWith('/')?route.slice(1)+'index.html':route.slice(1));
+    if(target.language==='ES'){
+     fs.mkdirSync(path.dirname(destination),{recursive:true});
+     fs.copyFileSync(target.file,destination);
+     manifest.push({route,source:target.route,language:target.language,lang:'es',indexable:false,generated:true,passthrough:true});
+    }else{
+     if(fs.existsSync(destination))fs.unlinkSync(destination);
+     prunedRoutes.add(route);
+    }
+    continue;
+   }
    const source=fs.readFileSync(target.file,'utf8');
    const alias=source.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(alias){
@@ -109,6 +122,7 @@ async function worker(){
     const canonical=origin+route;
     const sourcePath=route.replace(/^\/(pt|en)(?=\/|$)/,'')||'/';
     const prefix=(r,l)=>l==='es'?r:'/'+l+r;
+    const isProvisionalBuziosBeach=r=>/^\/destinos\/buzios\/playas\/[^/]+\/$/.test(r);
     const setMeta=(key,content,attribute=key.includes(':')?'property':'name')=>{let m=document.querySelector(`meta[property="${key}"],meta[name="${key}"]`);if(!m){m=document.createElement('meta');m.setAttribute(attribute,key);document.head.appendChild(m);}m.content=content;m.removeAttribute('data-ec-content');};
     if(sourcePath.startsWith('/naturaleza/')){
      if(seoCopy){
@@ -125,6 +139,15 @@ async function worker(){
     }
     const title=document.title,description=document.querySelector('meta[name="description"]')?.content;
     if(!title||!description)throw Error('Missing title/description');
+    setMeta('og:title',title);setMeta('og:description',description);
+    setMeta('twitter:title',title,'name');setMeta('twitter:description',description,'name');
+    if(!document.querySelector('meta[property="og:image"]')){
+     const image=document.querySelector('main img:not([src*="/assets/brand/"])');
+     if(image?.getAttribute('src')){
+      setMeta('og:image',new URL(image.getAttribute('src'),origin+sourcePath).href);
+      if(image.alt)setMeta('og:image:alt',image.alt);
+     }
+    }
     let link=document.querySelector('link[rel="canonical"]');
     if(link)link.href=canonical;
     setMeta('og:url',canonical);setMeta('og:locale',language==='pt-BR'?'pt_BR':language==='en'?'en_US':'es_ES');
@@ -138,7 +161,10 @@ async function worker(){
      for(const attr of ['src','href','poster','action']){
       const raw=el.getAttribute(attr);if(!raw||raw.startsWith('#')||/^(?:data:|mailto:|tel:|javascript:)/i.test(raw))continue;
       const url=new URL(raw,sourceBase);
-      if(url.origin===location.origin)el.setAttribute(attr,url.pathname+url.search+url.hash);
+      if(url.origin===location.origin){
+       const unlocalized=url.pathname.replace(/^\/(?:pt|en)(?=\/|$)/i,'')||'/';
+       el.setAttribute(attr,(isProvisionalBuziosBeach(unlocalized)?unlocalized:url.pathname)+url.search+url.hash);
+      }
      }
     }
     // srcset URLs and inline CSS resources retain their original ES base.
@@ -193,7 +219,7 @@ async function worker(){
 }
 try{await Promise.all(Array.from({length:Number(process.env.EC_BUILD_WORKERS||4)},worker));}finally{await browser.close();server.close();}
 if(errors.length)throw Error(JSON.stringify(errors));
-if(previous){const changed=new Set(manifest.map(r=>r.route));manifest.push(...previous.routes.filter(r=>!changed.has(r.route)));}
+if(previous){const changed=new Set([...manifest.map(r=>r.route),...prunedRoutes]);manifest.push(...previous.routes.filter(r=>!changed.has(r.route)));}
 manifest.sort((a,b)=>a.route.localeCompare(b.route));
 const isPilot=previous?previous.pilot:!!pilot;
 fs.writeFileSync(path.join(out,'locale-manifest.json'),JSON.stringify({sourceDocuments:files.length,indexablePerLanguage:indexableRoutes.size,generated:manifest.length,pilot:isPilot,routes:manifest},null,2));

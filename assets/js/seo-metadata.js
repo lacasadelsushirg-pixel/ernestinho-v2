@@ -313,9 +313,9 @@ export const SEO_METADATA = {
     EN: ['Planning a Trip to Rio de Janeiro | Ernestinho Carioca', 'Plan your Rio trip with practical advice on documents, money, PIX, internet, airports, safety and where to stay from Ernestinho.']
   },
   '/experiencias/': {
-    ES: ['Tours y paseos en Río de Janeiro | Ernestinho Carioca', 'Elige tu experiencia en Río: Cristo Redentor, Maracaná, Rocinha, aventura y excursiones a Búzios, Arraial do Cabo y Angra con Ernestinho Carioca.'],
-    PT: ['Passeios e tours no Rio de Janeiro | Ernestinho Carioca', 'Escolha sua experiência no Rio: Cristo Redentor, Maracanã, Rocinha, aventura e passeios a Búzios, Arraial do Cabo e Angra com Ernestinho Carioca.'],
-    EN: ['Rio de Janeiro Tours & Day Trips | Ernestinho Carioca', 'Find your Rio experience: Christ the Redeemer, Maracanã, Rocinha, adventure and day trips to Búzios, Arraial do Cabo and Angra with Ernestinho Carioca.']
+    ES: ['Tours en Río de Janeiro | Experiencias con Ernestinho Carioca', 'Descubre tours, paseos y excursiones en Río de Janeiro: Cristo Redentor, Maracaná, Rocinha y aventuras locales para disfrutar la ciudad con Ernestinho Carioca.'],
+    PT: ['Passeios no Rio de Janeiro | Tours com Ernestinho Carioca', 'Descubra o que fazer no Rio de Janeiro: passeios, excursões e atividades locais, do Cristo Redentor ao Maracanã e a experiências de aventura.'],
+    EN: ['Rio de Janeiro Tours | Day Trips & Experiences', 'Plan things to do in Rio with local tours and day trips, from Christ the Redeemer and Maracanã to guided visits to Rocinha and outdoor adventures.']
   },
   '/atracciones/': {
     ES: ['Qué visitar en Río de Janeiro: atracciones | Ernestinho', 'Descubre qué visitar en Río de Janeiro: lugares emblemáticos y atracciones para organizar tu viaje con la mirada local de Ernestinho Carioca.'],
@@ -564,28 +564,38 @@ export const SEO_METADATA = {
   },
   '/naturaleza/ilha-de-guaratiba-contexto-natural/': {
     ES: ['Ilha de Guaratiba | Ernestinho Carioca', 'Una guía para entender Ilha de Guaratiba como barrio y paisaje periurbano: memoria, vegetación y la relación con los espacios protegidos de la Zona Oeste.'],
-    PT: ['Ilha de Guaratiba: território e paisagem | Ernestinho Carioca', 'Meu guia de contexto em Guaratiba, com atenção à conservação, ao acesso responsável e às informações que precisam ser confirmadas antes da visita.'],
-    EN: ['Ilha de Guaratiba: place and landscape | Ernestinho Carioca', 'A context guide to Guaratiba, with care for conservation, responsible access and details to confirm before visiting.']
+    PT: ['Ilha de Guaratiba: território e paisagem | Ernestinho Carioca', 'Conheça o encontro entre a vida de bairro, as áreas verdes e a expansão urbana em Ilha de Guaratiba, respeitando ruas residenciais e propriedades privadas.'],
+    EN: ['Ilha de Guaratiba: place and landscape | Ernestinho Carioca', 'Explore the meeting of neighbourhood life, green areas and urban growth in Ilha de Guaratiba, while respecting residential streets and private land.']
   },
   '/naturaleza/apa-das-brisas/': {
     ES: ['APA das Brisas | Ernestinho Carioca', 'Qué significa la APA das Brisas en Guaratiba, cómo leer su función de conservación y por qué una unidad territorial no equivale a un parque con entrada y horario.'],
-    PT: ['APA das Brisas: conservação em Guaratiba | Ernestinho Carioca', 'Meu guia de contexto em Guaratiba, com atenção à conservação, ao acesso responsável e às informações que precisam ser confirmadas antes da visita.'],
-    EN: ['APA das Brisas: conservation in Guaratiba | Ernestinho Carioca', 'A context guide to Guaratiba, with care for conservation, responsible access and details to confirm before visiting.']
+    PT: ['APA das Brisas: conservação em Guaratiba | Ernestinho Carioca', 'A APA das Brisas integra o sistema municipal de áreas protegidas do Rio. Entenda o que ela protege e confirme o acesso antes de planejar a visita.'],
+    EN: ['APA das Brisas: conservation in Guaratiba | Ernestinho Carioca', 'APA das Brisas belongs to Rio’s municipal protected-area system. Learn what it protects and confirm access before planning a visit.']
   },
   '/naturaleza/parque-natural-municipal-serra-capoeira-grande/': {
     ES: ['Parque Natural Municipal da Serra da Capoeira Grande | Ernestinho Carioca', 'Mi guía de contexto del Parque Natural Municipal da Serra da Capoeira Grande: ecosistemas, biodiversidad y qué confirmar antes de planear una visita.'],
-    PT: ['Parque Natural Municipal da Serra da Capoeira Grande | Ernestinho Carioca', 'Meu guia de contexto em Guaratiba, com atenção à conservação, ao acesso responsável e às informações que precisam ser confirmadas antes da visita.'],
-    EN: ['Serra da Capoeira Grande Municipal Natural Park | Ernestinho Carioca', 'A context guide to Guaratiba, with care for conservation, responsible access and details to confirm before visiting.']
+    PT: ['Parque Natural Municipal da Serra da Capoeira Grande | Ernestinho Carioca', 'Conheça a mata, a restinga e o manguezal da Serra da Capoeira Grande, em Guaratiba; confirme as condições de acesso com a SMAC antes de ir.'],
+    EN: ['Serra da Capoeira Grande Municipal Natural Park | Ernestinho Carioca', 'Explore the forest, restinga and mangroves of Serra da Capoeira Grande in Guaratiba; check access conditions with SMAC before setting out.']
   },
   '/naturaleza/observacao-aves-guaratiba/': {
     ES: ['Observación de aves en Guaratiba | Ernestinho Carioca', 'Cómo disfrutar la observación de aves en Guaratiba con paciencia, fuentes confiables y respeto por las áreas protegidas y sus restricciones de acceso.'],
-    PT: ['Observação de aves em Guaratiba | Ernestinho Carioca', 'Meu guia de contexto em Guaratiba, com atenção à conservação, ao acesso responsável e às informações que precisam ser confirmadas antes da visita.'],
-    EN: ['Birdwatching in Guaratiba | Ernestinho Carioca', 'A context guide to Guaratiba, with care for conservation, responsible access and details to confirm before visiting.']
+    PT: ['Observação de aves em Guaratiba | Ernestinho Carioca', 'Guia de observação de aves em Guaratiba: conheça manguezais e áreas de mata, observe de pontos autorizados e respeite as áreas protegidas.'],
+    EN: ['Birdwatching in Guaratiba | Ernestinho Carioca', 'A guide to birdwatching in Guaratiba’s mangroves and woodland, with advice on authorised viewpoints and respect for protected areas.']
   },
   '/naturaleza/pesca-artesanal-guaratiba/': {
     ES: ['Pesca artesanal en Guaratiba | Ernestinho Carioca', 'Una lectura respetuosa de la pesca artesanal y su relación con la Baía de Sepetiba, los manglares y las comunidades de Guaratiba, sin convertir el trabajo local en espectáculo.'],
-    PT: ['Pesca artesanal em Guaratiba | Ernestinho Carioca', 'Meu guia de contexto em Guaratiba, com atenção à conservação, ao acesso responsável e às informações que precisam ser confirmadas antes da visita.'],
-    EN: ['Artisanal fishing in Guaratiba | Ernestinho Carioca', 'A context guide to Guaratiba, with care for conservation, responsible access and details to confirm before visiting.']
+    PT: ['Pesca artesanal em Guaratiba | Ernestinho Carioca', 'Entenda a relação histórica entre a pesca artesanal de Guaratiba e a Baía de Sepetiba, com respeito às comunidades e ao trabalho local.'],
+    EN: ['Artisanal fishing in Guaratiba | Ernestinho Carioca', 'Explore the long-standing link between Guaratiba’s artisanal fishing and Sepetiba Bay, with respect for local communities and their work.']
+  },
+  '/experiencias/morro-dois-irmaos/': {
+    ES: ['Morro Dois Irmãos: tour por Vidigal | Ernestinho Carioca', 'Sube por Vidigal y conquista Morro Dois Irmãos: trilha, miradores y una panorámica espectacular de la Zona Sur y Rocinha.'],
+    PT: ['Passeio ao Morro Dois Irmãos pelo Vidigal | Ernestinho Carioca', 'Suba pelo Vidigal e conquiste o Morro Dois Irmãos: trilha, mirantes e uma panorâmica espetacular da Zona Sul e da Rocinha.'],
+    EN: ['Morro Dois Irmãos Tour from Vidigal | Ernestinho Carioca', 'Head up through Vidigal and conquer Morro Dois Irmãos: hiking, viewpoints and a spectacular panorama of the South Zone and Rocinha.']
+  },
+  '/gastronomia/la-bicyclette/': {
+    ES: ['La Bicyclette: guía completa | Ernestinho Carioca', 'Guía editorial de La Bicyclette: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.'],
+    PT: ['La Bicyclette: guia completo | Ernestinho Carioca', 'Guia editorial da La Bicyclette no Rio: identidade, história, recomendações, horários, transporte e mapa.'],
+    EN: ['La Bicyclette: Complete Guide | Ernestinho Carioca', 'An editorial guide to La Bicyclette in Rio, with its story, recommendations, opening hours, transport and map.']
   }
 };
 Object.assign(SEO_METADATA, ATTRACTION_SEO);
@@ -607,6 +617,10 @@ export function applySeoMetadata(language, route = routeParts().path) {
   }
   for (const [key, value] of [['description',copy[1]], ['og:title',copy[0]], ['og:description',copy[1]], ['twitter:title',copy[0]], ['twitter:description',copy[1]]]) {
     const node = document.querySelector(`meta[name="${key}"],meta[property="${key}"]`);
-    if (node) node.content = value;
+    if (node) {
+      node.content = value;
+      node.removeAttribute('data-ec-content');
+      delete node.dataset.ecContent;
+    }
   }
 }
