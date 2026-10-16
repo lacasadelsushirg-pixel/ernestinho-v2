@@ -30,7 +30,15 @@ for(const name of fs.readdirSync(path.join(root,'gastronomia'))){
    }
    buttons.find(b=>b.dataset.lang==='pt').handlers.forEach(fn=>fn());
    // Portuguese content must retain all original paragraphs; labels are translated.
-   initial.forEach((p,i)=>{const strip=x=>x.replace(/<strong>.*?<\/strong>/,'');if(strip(p)!==strip(paragraphs[i].innerHTML))throw Error('Portuguese source changed at '+i)});
+   const translatedSpanishParagraphs=name==='classico-leme'?new Set([7,9]):new Set();
+   initial.forEach((p,i)=>{
+    if(translatedSpanishParagraphs.has(i)){
+     if(paragraphs[i].innerHTML===p)throw Error('Spanish paragraph was not translated at '+i);
+     return;
+    }
+    const strip=x=>x.replace(/<strong>.*?<\/strong>/,'');
+    if(strip(p)!==strip(paragraphs[i].innerHTML))throw Error('Portuguese source changed at '+i);
+   });
   }
   checked++;
  }catch(error){errors.push({name,error:error.message})}

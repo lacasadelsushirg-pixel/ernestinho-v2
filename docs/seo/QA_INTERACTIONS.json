@@ -5,7 +5,7 @@
   "rows": [
     {
       "route": "/",
-      "width": 1365,
+      "width": 390,
       "problems": [],
       "cycles": [
         {
@@ -34,7 +34,7 @@
     },
     {
       "route": "/",
-      "width": 390,
+      "width": 1365,
       "problems": [],
       "cycles": [
         {
@@ -62,26 +62,26 @@
       "inheritedUnavailableImages": []
     },
     {
-      "route": "/guia/",
+      "route": "/compras/",
       "width": 390,
       "problems": [],
       "cycles": [
         {
-          "path": "/pt/guia/",
+          "path": "/pt/compras/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
           "overflow": false
         },
         {
-          "path": "/en/guia/",
+          "path": "/en/compras/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
           "overflow": false
         },
         {
-          "path": "/guia/",
+          "path": "/compras/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
@@ -91,26 +91,84 @@
       "inheritedUnavailableImages": []
     },
     {
-      "route": "/guia/",
+      "route": "/compras/",
       "width": 1365,
       "problems": [],
       "cycles": [
         {
-          "path": "/pt/guia/",
+          "path": "/pt/compras/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
           "overflow": false
         },
         {
-          "path": "/en/guia/",
+          "path": "/en/compras/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
           "overflow": false
         },
         {
-          "path": "/guia/",
+          "path": "/compras/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/cultura/",
+      "width": 390,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/cultura/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/cultura/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/cultura/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/cultura/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/cultura/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/cultura/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/cultura/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
@@ -179,7 +237,7 @@
     },
     {
       "route": "/gastronomia/",
-      "width": 1365,
+      "width": 390,
       "problems": [],
       "cycles": [
         {
@@ -208,7 +266,7 @@
     },
     {
       "route": "/gastronomia/",
-      "width": 390,
+      "width": 1365,
       "problems": [],
       "cycles": [
         {
@@ -236,171 +294,55 @@
       "inheritedUnavailableImages": []
     },
     {
-      "route": "/cultura/",
+      "route": "/guia/",
+      "width": 390,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/guia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/guia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/guia/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/guia/",
       "width": 1365,
       "problems": [],
       "cycles": [
         {
-          "path": "/pt/cultura/",
+          "path": "/pt/guia/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
           "overflow": false
         },
         {
-          "path": "/en/cultura/",
+          "path": "/en/guia/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
           "overflow": false
         },
         {
-          "path": "/cultura/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "es",
-          "overflow": false
-        }
-      ],
-      "inheritedUnavailableImages": []
-    },
-    {
-      "route": "/cultura/",
-      "width": 390,
-      "problems": [],
-      "cycles": [
-        {
-          "path": "/pt/cultura/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "pt-BR",
-          "overflow": false
-        },
-        {
-          "path": "/en/cultura/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "en",
-          "overflow": false
-        },
-        {
-          "path": "/cultura/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "es",
-          "overflow": false
-        }
-      ],
-      "inheritedUnavailableImages": []
-    },
-    {
-      "route": "/vida-nocturna/",
-      "width": 390,
-      "problems": [],
-      "cycles": [
-        {
-          "path": "/pt/vida-nocturna/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "pt-BR",
-          "overflow": false
-        },
-        {
-          "path": "/en/vida-nocturna/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "en",
-          "overflow": false
-        },
-        {
-          "path": "/vida-nocturna/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "es",
-          "overflow": false
-        }
-      ],
-      "inheritedUnavailableImages": []
-    },
-    {
-      "route": "/compras/",
-      "width": 390,
-      "problems": [],
-      "cycles": [
-        {
-          "path": "/pt/compras/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "pt-BR",
-          "overflow": false
-        },
-        {
-          "path": "/en/compras/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "en",
-          "overflow": false
-        },
-        {
-          "path": "/compras/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "es",
-          "overflow": false
-        }
-      ],
-      "inheritedUnavailableImages": []
-    },
-    {
-      "route": "/transportes/",
-      "width": 390,
-      "problems": [],
-      "cycles": [
-        {
-          "path": "/pt/transportes/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "pt-BR",
-          "overflow": false
-        },
-        {
-          "path": "/en/transportes/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "en",
-          "overflow": false
-        },
-        {
-          "path": "/transportes/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "es",
-          "overflow": false
-        }
-      ],
-      "inheritedUnavailableImages": []
-    },
-    {
-      "route": "/vida-nocturna/",
-      "width": 1365,
-      "problems": [],
-      "cycles": [
-        {
-          "path": "/pt/vida-nocturna/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "pt-BR",
-          "overflow": false
-        },
-        {
-          "path": "/en/vida-nocturna/",
-          "search": "?localeQa=1",
-          "hash": "#locale-proof",
-          "lang": "en",
-          "overflow": false
-        },
-        {
-          "path": "/vida-nocturna/",
+          "path": "/guia/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
@@ -439,26 +381,55 @@
       "inheritedUnavailableImages": []
     },
     {
-      "route": "/compras/",
+      "route": "/hospedaje/",
       "width": 1365,
       "problems": [],
       "cycles": [
         {
-          "path": "/pt/compras/",
+          "path": "/pt/hospedaje/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
           "overflow": false
         },
         {
-          "path": "/en/compras/",
+          "path": "/en/hospedaje/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
           "overflow": false
         },
         {
-          "path": "/compras/",
+          "path": "/hospedaje/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/transportes/",
+      "width": 390,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/transportes/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/transportes/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/transportes/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
@@ -497,26 +468,55 @@
       "inheritedUnavailableImages": []
     },
     {
-      "route": "/hospedaje/",
-      "width": 1365,
+      "route": "/vida-nocturna/",
+      "width": 390,
       "problems": [],
       "cycles": [
         {
-          "path": "/pt/hospedaje/",
+          "path": "/pt/vida-nocturna/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
           "overflow": false
         },
         {
-          "path": "/en/hospedaje/",
+          "path": "/en/vida-nocturna/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
           "overflow": false
         },
         {
-          "path": "/hospedaje/",
+          "path": "/vida-nocturna/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "es",
+          "overflow": false
+        }
+      ],
+      "inheritedUnavailableImages": []
+    },
+    {
+      "route": "/vida-nocturna/",
+      "width": 1365,
+      "problems": [],
+      "cycles": [
+        {
+          "path": "/pt/vida-nocturna/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "pt-BR",
+          "overflow": false
+        },
+        {
+          "path": "/en/vida-nocturna/",
+          "search": "?localeQa=1",
+          "hash": "#locale-proof",
+          "lang": "en",
+          "overflow": false
+        },
+        {
+          "path": "/vida-nocturna/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",

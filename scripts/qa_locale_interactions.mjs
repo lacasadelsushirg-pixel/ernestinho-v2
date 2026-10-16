@@ -25,8 +25,17 @@ async function run(width){const ctx=await browser.newContext({viewport:{width,he
   await document.fonts.ready;
   await Promise.all([...document.images].filter(i=>i.loading!=='lazy').map(i=>i.decode().catch(()=>{})));
   await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));
-  const main=document.querySelector('main');const rect=main?.getBoundingClientRect();
-  const value={main:main?.innerText,rect:rect?{x:rect.x,y:rect.y,width:rect.width,height:rect.height}:null,overflow:document.documentElement.scrollWidth>innerWidth+1,broken:[...document.images].filter(i=>i.complete&&i.currentSrc&&i.naturalWidth===0).map(i=>i.currentSrc)};
+  const main=document.querySelector('main');
+  const gallery=main?.querySelector(':scope > .ec-bulk-photo-gallery');
+  const galleryInfo=gallery?{photos:gallery.querySelectorAll('img').length,label:gallery.getAttribute('aria-label')}:null;
+  // The build serializes approved Hostinger photo references into a gallery
+  // after rendering. It is shared media, not locale-dependent page geometry.
+  // Keep it in the overflow/image checks, but omit it for source-vs-build size.
+  const priorDisplay=gallery?.style.display;
+  if(gallery)gallery.style.display='none';
+  const rect=main?.getBoundingClientRect();
+  if(gallery)gallery.style.display=priorDisplay;
+  const value={main:main?.innerText,rect:rect?{x:rect.x,y:rect.y,width:rect.width,height:rect.height}:null,gallery:galleryInfo,overflow:document.documentElement.scrollWidth>innerWidth+1,broken:[...document.images].filter(i=>i.complete&&i.currentSrc&&i.naturalWidth===0).map(i=>i.currentSrc)};
   style.remove();return value;
  });
  for(const route of hubs){const row={route,width,problems:[],cycles:[]};

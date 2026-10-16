@@ -262,7 +262,7 @@ function ensureCorporateClosing(){
       <a href="https://wa.me/5521969946938?text=Hola%20Ernestinho%2C%20quiero%20conocer%20R%C3%ADo%20contigo." target="_blank" rel="noopener noreferrer"><span aria-hidden="true">●</span> HABLAR CON ERNESTINHO POR WHATSAPP</a>
     </div>
     <footer class="ec-corporate-footer">
-      <div class="ec-footer-brand"><img src="https://res.cloudinary.com/qa301cbc/image/upload/f_auto,q_auto/89161BC4-595E-455D-8211-87277AC58B53" alt="Ernestinho Carioca"><div><strong>ERNESTINHO <em>CARIOCA</em></strong><small>RÍO DE JANEIRO, DESDE MI MIRADA</small></div></div>
+      <div class="ec-footer-brand"><img src="/assets/brand/ec-mark.png" alt="Ernestinho Carioca" width="60" height="60" decoding="async"><div><strong>ERNESTINHO <em>CARIOCA</em></strong><small>RÍO DE JANEIRO, DESDE MI MIRADA</small></div></div>
       <div class="ec-footer-legal"><p>© 2026 Ernestinho Carioca. Todos los derechos reservados.</p><p>Diseñado para viajeros que buscan vivir Río de forma real y auténtica.</p><a href="/privacidad-precios-condiciones/">Privacidad, precios y condiciones</a></div>
     </footer>`;
   if(oldFooter)oldFooter.replaceWith(root);else document.body.appendChild(root);

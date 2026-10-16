@@ -945,7 +945,7 @@
       "language": "ES",
       "question": "Quiero comida brasileña sin mariscos",
       "recognized": true,
-      "intent": "food",
+      "intent": "daily_food",
       "clarification": false,
       "needs_review": false
     },
@@ -1015,7 +1015,7 @@
       "language": "EN",
       "question": "I want breakfast in Copacabana",
       "recognized": true,
-      "intent": "daily_food",
+      "intent": "daily_coffee",
       "clarification": false,
       "needs_review": false
     },

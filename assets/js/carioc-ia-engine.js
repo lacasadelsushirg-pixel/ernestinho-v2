@@ -724,6 +724,7 @@ export function resolveQuestion(question, context = {}) {
   const conversationalRoute = [
     [/\b(llueve|lloviendo|lluvia|llover|rain\w*|chuva|chov\w*|chover)\b/, "daily_rain"],
     [/\b(what can i do|what to do|que puedo hacer|que hacer|o que fazer|o que posso fazer)\b.{0,35}\b(hoy|hoje|today)\b.{0,25}\b(ninos?|criancas?|children|kids?|familia|family)\b|\b(what can i do|what to do|que puedo hacer|que hacer|o que fazer|o que posso fazer)\b.{0,35}\b(ninos?|criancas?|children|kids?|familia|family)\b.{0,25}\b(hoy|hoje|today)\b/, "family"],
+    [/\b(what can i do|what to do|what can we do|things to do|que puedo hacer|que hacer|o que fazer|o que posso fazer)\b.{0,45}\b(ninos?|ninas?|criancas?|children|kids?|familia|family)\b|\b(ninos?|ninas?|criancas?|children|kids?|familia|family)\b.{0,45}\b(what can i do|what to do|what can we do|things to do|que puedo hacer|que hacer|o que fazer|o que posso fazer)\b/, "family"],
     [/\b(what should i do|what to do|what can i do|que hago|que hacer|que puedo hacer|o que fazer|o que posso fazer)\b.{0,30}\b(hoy|hoje|today)\b|\b(today|hoy|hoje)\b.{0,25}\b(what to do|what can i do|que hacer|que puedo hacer|o que fazer)\b/, "today"],
     [/\b(reservar|reserva|book|booking|tickets?|ingresos?|entradas?)\b.{0,60}\b(cristo|christ|corcovado|redeemer)\b|\b(cristo|christ|corcovado|redeemer)\b.{0,60}\b(reservar|reserva|book|booking|tickets?|ingresos?|entradas?)\b/, "christ_booking"],
     [/\b(desayuno|desayunar|cafe da manha|breakfast)\b.{0,25}\b(barato|economico|cheap|affordable|budget|em conta)\b|\b(barato|economico|cheap|affordable|budget|em conta)\b.{0,25}\b(desayuno|desayunar|cafe da manha|breakfast)\b/, "daily_food"],
@@ -742,6 +743,7 @@ export function resolveQuestion(question, context = {}) {
   if (conversationalRoute) {
     const intent = ACTIVE_INTENTS.find(candidate => candidate.id === conversationalRoute) || null;
     if (intent) return { intent, candidates: [intent], contextUpdate: {
+      ...turnDetails,
       pending: intent.pending || null, category: intent.category,
       lastEverydayId: EVERYDAY_INTENTS.some(item => item.id === intent.id) ? intent.id : null
     } };

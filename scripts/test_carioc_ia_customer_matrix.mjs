@@ -67,4 +67,25 @@ for (const [breakfast, airport] of [
   assert.equal(resolveQuestion(airport, previous).intent?.id, "daily_airport", `airport question must interrupt breakfast follow-up: ${airport}`);
 }
 assert.equal(resolveQuestion("Copacabana", { pending: "location", category: "gastronomy", lastEverydayId: "daily_coffee" }).intent?.id, "daily_coffee_followup", "a short location reply still completes the current follow-up");
+for (const [question, language] of [
+  ["¿Qué hacer con niños en Río?", "ES"],
+  ["O que fazer com crianças no Rio?", "PT"],
+  ["What can we do with kids in Rio?", "EN"]
+]) {
+  const result = resolveQuestion(question);
+  assert.equal(result.intent?.id, "family", "family planning stays in the family guide: " + question);
+  assert.ok(result.intent?.links?.some(link => link.href === "/familia/"), "family guide link is present: " + question);
+}
+for (const [question, language] of [
+  ["¿Dónde puedo desayunar en Copacabana?", "ES"],
+  ["Quero tomar café da manhã em Copacabana", "PT"],
+  ["I want breakfast in Copacabana", "EN"]
+]) {
+  const result = resolveQuestion(question);
+  assert.equal(result.intent?.id, "daily_coffee", "breakfast question is recognized: " + question);
+  assert.equal(result.contextUpdate?.location, "copacabana", "provided neighborhood is retained: " + question);
+  const answer = getContextualIntentAnswer(result.intent, result.contextUpdate, language);
+  assert.match(answer, /Copacabana/i);
+  assert.doesNotMatch(answer, /¿En qué barrio|Em qual bairro|Which neighborhood/i, "do not ask for the neighborhood twice: " + question);
+}
 console.log(`Carioc-IA customer matrix: ${rows.length}/${rows.length} cases passed; 480 per language.`);
