@@ -69,7 +69,6 @@ for page in sorted(root.rglob("*.html")):
     count += 1
 output = root / "sitemap.xml"
 register_namespace('xhtml', 'http://www.w3.org/1999/xhtml')
-from xml.etree.ElementTree import tostring, indent
-indent(urlset, space='  ')
+from xml.etree.ElementTree import tostring
 output.write_bytes(b'<?xml version="1.0" encoding="UTF-8"?>\n' + tostring(urlset, encoding='utf-8') + b'\n')
 print(f"Wrote {output.name} from {count} routes at {origin}")
