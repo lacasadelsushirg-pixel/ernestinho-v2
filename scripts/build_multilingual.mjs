@@ -7,6 +7,7 @@ import {execFileSync} from 'node:child_process';
 import {loadBuildLibraries} from './build_vendor.mjs';
 import {buildBrowserOptions} from './build_browser.mjs';
 import {SEO_METADATA} from '../assets/js/seo-metadata.js';
+import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/translations/chunks/experiencias-standalone.js';
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
@@ -145,8 +146,20 @@ async function worker(){
     for(const name of ['luggage-page.js','bounce-integration.js']){const script=scripts.find(s=>s.src.endsWith('/assets/js/'+name));if(script)(await import(script.src)).apply(language);}
     await new Promise(r=>setTimeout(r,80));
    },target.language);
-   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy})=>{
+   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations})=>{
     const language=document.documentElement.lang;
+    if(standaloneTranslations&&/^\/experiencias\/pedra-(?:telegrafo|gavea|bonita)\/$/.test(route.replace(/^\/(?:pt|en)(?=\/|$)/,''))){
+     const selected=language==='pt-BR'?'PT':language==='en'?'EN':'ES';
+     if(selected!=='ES'){
+      const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+      let node;while((node=walker.nextNode())){
+       const parent=node.parentElement;
+       if(!parent||['SCRIPT','STYLE','NOSCRIPT'].includes(parent.tagName))continue;
+       const original=node.nodeValue,trimmed=original.trim(),translation=standaloneTranslations[trimmed]?.[selected];
+       if(translation)node.nodeValue=original.replace(trimmed,translation);
+      }
+     }
+    }
     const canonical=origin+route;
     const sourcePath=route.replace(/^\/(pt|en)(?=\/|$)/,'')||'/';
     const prefix=(r,l)=>l==='es'?r:'/'+l+r;
@@ -233,7 +246,7 @@ async function worker(){
      const s=document.createElement('script');s.type='application/ld+json';s.dataset.ecBreadcrumb='';s.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});document.head.appendChild(s);
     }
     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1:document.querySelectorAll('h1').length};
-   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null});
+   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS});
    // Redirect-only source documents remain redirect-only and never get hreflang.
    const original=fs.readFileSync(target.file,'utf8');const refresh=original.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(refresh){value.html=value.html.replace('</head>',refresh[0].replace(/(url=)([^"'>]+)/i,(_,p,destination)=>{const u=new URL(destination,base+target.route);return p+prefix(u.pathname,target.language)+u.search+u.hash;})+'</head>');}
