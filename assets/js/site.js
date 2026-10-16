@@ -10,28 +10,28 @@ else mountCariocIA();
 if (!document.querySelector('link[href*="components.css"]') && !document.querySelector("[data-ec-brand-type]")) { const fontSheet=document.createElement("link"); fontSheet.rel="stylesheet"; fontSheet.href=new URL("../css/type.css",import.meta.url).href; fontSheet.dataset.ecBrandType=""; document.head.append(fontSheet); }
 const common={"Guía de Río":{"PT":"Guia do Rio","EN":"Rio Guide"},"Tours":{"PT":"Passeios","EN":"Tours"},"Tours y Experiencias":{"PT":"Passeios e Experiências","EN":"Tours & Experiences"},"Transportes":{"PT":"Transportes","EN":"Transport"},"Eventos":{"PT":"Eventos","EN":"Events"},"Hospedaje":{"PT":"Hospedagem","EN":"Stay"},"Compras":{"PT":"Compras","EN":"Shopping"},"Barrios":{"PT":"Bairros","EN":"Neighborhoods"},"Gastronomía":{"PT":"Gastronomia","EN":"Food"},"Consejos":{"PT":"Dicas","EN":"Tips"},"Naturaleza":{"PT":"Natureza","EN":"Nature"},"Playas":{"PT":"Praias","EN":"Beaches"},"Vida Nocturna":{"PT":"Vida Noturna","EN":"Nightlife"},"Familia":{"PT":"Família","EN":"Family"},"Atracciones":{"PT":"Atrações","EN":"Attractions"},"Fotografía":{"PT":"Fotografia","EN":"Photography"},"Río no se visita. Se vive.":{"PT":"O Rio não se visita. Se vive.","EN":"Rio isn't just visited. It's lived."},"ABRIR GUÍA →":{"PT":"ABRIR GUIA →","EN":"OPEN GUIDE →"},"DESCUBRIR →":{"PT":"DESCOBRIR →","EN":"DISCOVER →"},"EXPLORAR →":{"PT":"EXPLORAR →","EN":"EXPLORE →"},"VER FICHA →":{"PT":"VER FICHA →","EN":"VIEW GUIDE →"},"Volver a Gastronomía":{"PT":"Voltar à Gastronomia","EN":"Back to Food"},"Antes de ir":{"PT":"Antes de ir","EN":"Before you go"},"Mi lectura":{"PT":"Minha leitura","EN":"My take"},"Buscar por nombre, barrio o estilo…":{"PT":"Buscar por nome, bairro ou estilo…","EN":"Search by name, neighborhood or style…"},"TODOS":{"PT":"TODOS","EN":"ALL"},"PESCADOS / MAR":{"PT":"PEIXES / MAR","EN":"SEAFOOD"},"ASIÁTICA":{"PT":"ASIÁTICA","EN":"ASIAN"},"ALMUERZO / BUFFET":{"PT":"ALMOÇO / BUFFET","EN":"LUNCH / BUFFET"},"VEGETARIANA":{"PT":"VEGETARIANA","EN":"VEGETARIAN"},"QUIOSQUES":{"PT":"QUIOSQUES","EN":"KIOSKS"},"EXPERIENCIAS":{"PT":"EXPERIÊNCIAS","EN":"EXPERIENCES"},"Ficha rápida":{"PT":"Informações rápidas","EN":"Quick facts"},"Barrio mostrado":{"PT":"Bairro","EN":"Neighborhood"},"Clasificación de la ficha":{"PT":"Categoria","EN":"Category"},"Estado de la información":{"PT":"Estado das informações","EN":"Information status"},"Verificación necesaria":{"PT":"Precisa confirmar","EN":"Please confirm"},"Lo que consta en las fuentes":{"PT":"O que consta nas fontes","EN":"What the sources say"},"Café Río":{"PT":"Café Rio","EN":"Rio Coffee"},"Sitio anterior":{"PT":"Site anterior","EN":"Previous site"},"Volver":{"PT":"Voltar","EN":"Back"},"Volver a la página anterior":{"PT":"Voltar à página anterior","EN":"Go back"},"Compartir":{"PT":"Compartilhar","EN":"Share"},"Compartir esta página":{"PT":"Compartilhe esta página","EN":"Share this page"},"Compartir en WhatsApp":{"PT":"Compartilhar pelo WhatsApp","EN":"Share on WhatsApp"},"Compartir en Instagram":{"PT":"Compartilhar no Instagram","EN":"Share on Instagram"},"Compartir en Facebook":{"PT":"Compartilhar no Facebook","EN":"Share on Facebook"},"Más aplicaciones":{"PT":"Mais aplicativos","EN":"More apps"},"Enlace copiado. Puedes pegarlo en Instagram.":{"PT":"Link copiado. Você pode colá-lo no Instagram.","EN":"Link copied. You can paste it into Instagram."},"Enlace copiado.":{"PT":"Link copiado.","EN":"Link copied."},"No se pudo copiar el enlace.":{"PT":"Não foi possível copiar o link.","EN":"Could not copy the link."},"Abrir TikTok":{"PT":"Abrir TikTok","EN":"Open TikTok"},"Abrir Instagram":{"PT":"Abrir Instagram","EN":"Open Instagram"},"Contactar por WhatsApp":{"PT":"Falar pelo WhatsApp","EN":"Contact on WhatsApp"},"Cambiar idioma":{"PT":"Mudar idioma","EN":"Change language"},"Español":{"PT":"Espanhol","EN":"Spanish"},"Português":{"PT":"Português","EN":"Portuguese"},"English":{"PT":"Inglês","EN":"English"}};
 const sectionChunks = {
-  "experiencias": ["experiencias-01.js", "experiencias-02.js", "experiencias-03.js", "experiencias-04.js", "experiencias-standalone.js", "page-fixes-01.js"],
+  "experiencias": ["experiencias-01.js", "experiencias-02.js", "experiencias-03.js", "experiencias-04.js", "experiencias-standalone.js", "rio-residual-experiencias-01.js", "page-fixes-01.js"],
   "atracciones": ["atracciones-01.js", "atracciones-02.js"],
   "barrios": ["barrios-01.js", "barrios-02.js", "barrios-longform-01.js", "page-fixes-01.js"],
   "cafe-rio": ["cafe-rio-01.js"],
-  "compras": ["compras-01.js"],
+  "compras": ["compras-01.js", "rio-residual-compras-01.js"],
   "cultura": ["cultura-01.js", "cultura-02.js", "cultura-03.js", "cultura-04.js", "cultura-05.js", "cultura-06.js", "cultura-07.js", "cultura-08.js", "cultura-09.js", "cultura-10.js", "cultura-11.js", "cultura-12.js", "cultura-13.js", "cultura-14.js", "cultura-15.js"],
-  "consejos": ["consejos-01.js", "consejos-02.js", "consejos-03.js"],
+  "consejos": ["consejos-01.js", "consejos-02.js", "consejos-03.js", "rio-residual-consejos-01.js"],
   "eventos": ["eventos-01.js", "eventos-02.js"],
   "familia": ["familia-01.js", "familia-02.js", "familia-03.js", "familia-04.js", "familia-05.js", "familia-06.js", "familia-07.js", "familia-08.js"],
   "fotografia": ["fotografia-01.js", "fotografia-02.js"],
-  "gastronomia": ["gastronomia-01.js", "gastronomia-02.js", "gastronomia-03.js", "page-fixes-01.js"],
-  "guia": ["guia-01.js", "guia-02.js", "guia-03.js"],
+  "gastronomia": ["gastronomia-01.js", "gastronomia-02.js", "gastronomia-03.js", "rio-residual-gastronomia-01.js", "page-fixes-01.js"],
+  "guia": ["guia-01.js", "guia-02.js", "guia-03.js", "rio-residual-guia-01.js"],
   "home": ["home-01.js"],
   "historia": ["historia-01.js"],
   "television": ["television-01.js"],
-  "hospedaje": ["hospedaje-01.js"],
+  "hospedaje": ["hospedaje-01.js", "rio-residual-hospedaje-01.js"],
   "hoy": ["hoy-01.js"],
   "naturaleza": ["naturaleza-01.js", "naturaleza-02.js", "naturaleza-03.js", "naturaleza-04.js", "naturaleza-05.js", "naturaleza-06.js", "naturaleza-07.js", "naturaleza-08.js", "naturaleza-09.js", "naturaleza-10.js", "naturaleza-11.js", "naturaleza-12.js", "naturaleza-13.js", "naturaleza-14.js", "naturaleza-15.js", "naturaleza-16.js", "naturaleza-17.js", "naturaleza-18.js", "naturaleza-19.js", "naturaleza-20.js", "naturaleza-21.js", "naturaleza-22.js", "naturaleza-23.js", "naturaleza-24.js", "naturaleza-25.js", "naturaleza-26.js", "naturaleza-27.js", "naturaleza-28.js", "naturaleza-29.js", "naturaleza-30.js", "naturaleza-31.js", "naturaleza-32.js", "naturaleza-33.js", "naturaleza-34.js", "naturaleza-35.js", "naturaleza-36.js", "naturaleza-37.js", "naturaleza-38.js", "naturaleza-39.js", "naturaleza-40.js", "naturaleza-41.js", "naturaleza-42.js", "naturaleza-43.js", "naturaleza-44.js", "naturaleza-45.js", "naturaleza-46.js", "naturaleza-47.js", "naturaleza-48.js", "naturaleza-49.js", "naturaleza-50.js", "naturaleza-51.js", "naturaleza-52.js", "naturaleza-53.js", "naturaleza-54.js", "naturaleza-55.js", "naturaleza-56.js", "naturaleza-57.js", "naturaleza-58.js", "naturaleza-59.js", "naturaleza-60.js", "naturaleza-61.js", "naturaleza-62.js", "naturaleza-63.js", "naturaleza-64.js", "naturaleza-65.js", "naturaleza-66.js", "naturaleza-67.js", "naturaleza-68.js"],
-  "playas": ["playas-01.js", "playas-02.js"],
+  "playas": ["playas-01.js", "playas-02.js", "rio-residual-playas-01.js"],
   "quiero": ["quiero-01.js"],
-  "transportes": ["transportes-01.js"],
-  "vida-nocturna": ["vida-nocturna-01.js", "vida-nocturna-02.js", "vida-nocturna-03.js", "vida-nocturna-04.js", "vida-nocturna-05.js", "vida-nocturna-06.js", "vida-nocturna-07.js", "vida-nocturna-08.js", "vida-nocturna-09.js", "vida-nocturna-10.js", "vida-nocturna-11.js"],
+  "transportes": ["transportes-01.js", "rio-residual-transportes-01.js"],
+  "vida-nocturna": ["vida-nocturna-01.js", "vida-nocturna-02.js", "vida-nocturna-03.js", "vida-nocturna-04.js", "vida-nocturna-05.js", "vida-nocturna-06.js", "vida-nocturna-07.js", "vida-nocturna-08.js", "vida-nocturna-09.js", "vida-nocturna-10.js", "vida-nocturna-11.js", "rio-residual-vida-nocturna-01.js"],
 };
 const encyclopediaChunks = {
   "/atracciones/": "encyclopedia-atracciones-index.js",
@@ -64,7 +64,19 @@ function translatePhrase(text, lang = getLanguage()) {
   return lang === "ES" ? text : common[text]?.[lang] ?? text;
 }
 const original = new WeakMap();
+const originalLongBlocks = new WeakMap();
 function translateText(root, lang) {
+  // Some long editorial paragraphs are formatted with source line breaks. A
+  // text-node-only lookup cannot match those paragraphs as a whole, so match
+  // their normalized text before walking individual text nodes.
+  if (root?.querySelectorAll) for (const block of root.querySelectorAll("p, .notice")) {
+    if (block.closest("[data-i18n], [data-live], [data-ch-es], [data-tj-es]") || [...block.childNodes].some(child => child.nodeType !== Node.TEXT_NODE)) continue;
+    if (!originalLongBlocks.has(block)) originalLongBlocks.set(block, block.textContent);
+    const base = originalLongBlocks.get(block), key = base.trim().replace(/\s+/g, " ");
+    const hit = key.length > 80 ? common[key] : null;
+    if (hit && lang !== "ES") block.textContent = hit[lang] || key;
+    else block.textContent = base;
+  }
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
   let node;
   while ((node = walker.nextNode())) {

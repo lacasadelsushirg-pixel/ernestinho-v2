@@ -254,7 +254,7 @@ async function worker(){
    fs.mkdirSync(path.dirname(destination),{recursive:true});fs.writeFileSync(destination,value.html);
    delete value.html;manifest.push({route,source:target.route,language:target.language,...value});
    if(manifest.length%100===0)console.log(`Generated ${manifest.length}/${targets.length}`);
-  }catch(e){errors.push({route,error:e.message});console.error(route,e.message);}
+  }catch(e){errors.push({route,error:e.message});console.error(`[build route ${route}]`,e.stack||e.message);}
  }
  await context.close();
 }
