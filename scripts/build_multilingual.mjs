@@ -27,6 +27,12 @@ const updating=process.argv.includes('--update');
 if(updating&&!pilot)throw Error('--update requires --routes');
 const previous=updating?JSON.parse(fs.readFileSync(path.join(out,'locale-manifest.json'))):null;
 const targets=files.filter(f=>!pilot||pilot.includes(routeFor(f))).flatMap(f=>['ES','PT','EN'].map(language=>({file:f,route:routeFor(f),language})));
+// A legacy page shipped two plain-text meta declarations inside <head> without
+// their opening angle bracket. Browsers treat those lines as body text. Repair
+// only bare meta declarations in the head before either locale rendering path.
+function repairBareHeadMeta(html){
+ return html.replace(/<head\b[^>]*>[\s\S]*?<\/head>/i,head=>head.replace(/(^|\n)(\s*)meta\s+(?=(?:property|name)=["'])/g,'$1$2<meta '));
+}
 // Marker exists only in build output. Preserve legacy source preview for audits.
 const bootstrap=`<script data-ec-locale-bootstrap>(function(){var m=location.pathname.match(new RegExp('^/(pt|en)(?=/|$)','i')),l=m?m[1].toUpperCase():'ES';document.documentElement.lang=l==='PT'?'pt-BR':l.toLowerCase();try{localStorage.setItem('ec-lang',l);localStorage.setItem('ec-language',l.toLowerCase());localStorage.setItem('ec_lang',l.toLowerCase());}catch(_){}})();</script>`;
 const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp'};
@@ -48,7 +54,7 @@ const server=http.createServer((req,res)=>{
  if(!fs.existsSync(file)){res.writeHead(404).end();return;}
  res.setHeader('Content-Type',types[path.extname(file)]||'application/octet-stream');
  if(file.endsWith('.html')){
-   let html=adaptLegacyScripts(fs.readFileSync(file,'utf8'),sourcePath).replace(/<html\b/i,'<html data-ec-locale-routes="true"');
+   let html=repairBareHeadMeta(adaptLegacyScripts(fs.readFileSync(file,'utf8'),sourcePath)).replace(/<html\b/i,'<html data-ec-locale-routes="true"');
    html=html.replace('src="https://cdn.tailwindcss.com"','src="https://cdn.tailwindcss.com/3.4.17"')
      .replace('src="https://unpkg.com/react@18/','src="https://unpkg.com/react@18.3.1/')
      .replace('src="https://unpkg.com/react-dom@18/','src="https://unpkg.com/react-dom@18.3.1/');
@@ -85,7 +91,7 @@ async function worker(){
     if(!fs.existsSync(file))return r.fulfill({status:404,body:'Not found'});
     const contentType=types[path.extname(file)]||'application/octet-stream';
     if(file.endsWith('.html')){
-     let html=adaptLegacyScripts(fs.readFileSync(file,'utf8'),sourcePath).replace(/<html\b/i,'<html data-ec-locale-routes="true"');
+     let html=repairBareHeadMeta(adaptLegacyScripts(fs.readFileSync(file,'utf8'),sourcePath)).replace(/<html\b/i,'<html data-ec-locale-routes="true"');
      html=html.replace('src="https://cdn.tailwindcss.com"','src="https://cdn.tailwindcss.com/3.4.17"')
       .replace('src="https://unpkg.com/react@18/','src="https://unpkg.com/react@18.3.1/')
       .replace('src="https://unpkg.com/react-dom@18/','src="https://unpkg.com/react-dom@18.3.1/');
