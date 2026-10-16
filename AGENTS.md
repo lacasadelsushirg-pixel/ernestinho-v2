@@ -1,5 +1,9 @@
 # Ernestinho: conservación obligatoria
 
+## Producción
+
+Hostinger es la única fuente de publicación y validación del sitio. Para comprobar estado, archivos, compilaciones y contenido publicado, utilizar exclusivamente Hostinger. No consultar ni proponer otras plataformas de alojamiento como referencia para este proyecto.
+
 El usuario ha congelado el contenido, diseño, fotografías, banners, widgets, enlaces y estructura aprobados. Traducir NO autoriza reescribir, sustituir, simplificar ni eliminar ninguno de esos elementos.
 
 Antes de trabajar, ejecutar git fetch origin y confirmar que la base contiene el commit de recuperación registrado en docs/RECOVERY_20260930.md. No iniciar desde main o un checkout antiguo ni sustituir directorios completos con una versión histórica.

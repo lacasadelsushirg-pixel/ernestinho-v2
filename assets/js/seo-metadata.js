@@ -620,6 +620,11 @@ Object.assign(SEO_METADATA, {
     PT: ['Onde se hospedar no Rio | Guia Ernestinho Carioca', 'Guia de hospedagem por bairros do Rio de Janeiro: Copacabana, Ipanema, Barra, Centro e outras áreas, com fotos originais.'],
     EN: ['Where to Stay in Rio | Ernestinho Carioca Guide', 'A neighborhood guide to accommodation in Rio de Janeiro, from Copacabana and Ipanema to Barra and Centro, with original photography.']
   },
+  '/guia/moverse/': {
+    ES: ['Cómo moverse por Río | Ernestinho Carioca', 'Cómo moverse por Río de Janeiro: metro, VLT, BRT, buses, apps y consejos prácticos para elegir el transporte según cada recorrido.'],
+    PT: ['Como se locomover pelo Rio | Ernestinho Carioca', 'Saiba como se locomover pelo Rio: metrô, VLT, BRT, ônibus e aplicativos, com dicas práticas para escolher o transporte em cada trajeto.'],
+    EN: ['Getting Around Rio | Ernestinho Carioca', 'Find your way around Rio by metro, VLT, BRT, bus and apps, with practical tips for choosing transport for each journey.']
+  },
   '/guia/mes-a-mes/': {
     ES: ['Río mes a mes | Ernestinho Carioca', 'Guía de clima, playa, eventos, movimiento y planificación de Río durante los doce meses del año.'],
     PT: ['Rio mês a mês | Ernestinho Carioca', 'Guia do clima, das praias, dos eventos, do movimento e do planejamento no Rio ao longo dos doze meses do ano.'],
@@ -700,10 +705,125 @@ Object.assign(SEO_METADATA, {
     PT: ['Bar do Zeca Pagodinho | Vida Noturna no Rio | Ernestinho Carioca', 'O Bar do Zeca Pagodinho é uma escolha direta para quem quer uma noite de samba e pagode na Barra, com estrutura de bar-restaurante e programação musical.'],
     EN: ['Bar do Zeca Pagodinho | Nightlife in Rio | Ernestinho Carioca', 'Bar do Zeca Pagodinho is a straightforward choice for a night of samba and pagode in Barra, with a bar-restaurant setup and live music programming.']
   },
-  '/guia/moverse/': {
-    ES: ['Cómo moverse por Río | Ernestinho Carioca', 'Cómo moverse por Río de Janeiro: metro, VLT, BRT, buses, apps y consejos prácticos para elegir el transporte según cada recorrido.'],
-    PT: ['Como se locomover pelo Rio | Ernestinho Carioca', 'Saiba como se locomover pelo Rio: metrô, VLT, BRT, ônibus e aplicativos, com dicas práticas para escolher o transporte em cada trajeto.'],
-    EN: ['Getting Around Rio | Ernestinho Carioca', 'Find your way around Rio by metro, VLT, BRT, bus and apps, with practical tips for choosing transport for each journey.']
+  '/barrios/botafogo/': {
+    ES: ['Botafogo | Barrios de Río | Ernestinho Carioca', 'La bahía como escenario, la cultura en las calles y una vida gastronómica que no se termina con el atardecer.'],
+    PT: ['Botafogo | Bairros do Rio | Ernestinho Carioca', 'A baía como cenário, a cultura nas ruas e uma vida gastronômica que continua depois do pôr do sol.'],
+    EN: ['Botafogo | Rio Neighborhoods | Ernestinho Carioca', 'The bay as a backdrop, culture in the streets and a food scene that keeps going after sunset.']
+  },
+  '/barrios/leblon/': {
+    ES: ['Leblon | Barrios de Río | Ernestinho Carioca', 'De la playa a las mesas de Dias Ferreira: historia, paisajes, gastronomía y vida de barrio.'],
+    PT: ['Leblon | Bairros do Rio | Ernestinho Carioca', 'Da praia às mesas da Dias Ferreira: história, paisagens, gastronomia e vida de bairro.'],
+    EN: ['Leblon | Rio Neighborhoods | Ernestinho Carioca', 'From the beach to the tables on Dias Ferreira: history, scenery, food and neighborhood life.']
+  },
+  '/barrios/urca/': {
+    ES: ['Urca | Barrios de Río | Ernestinho Carioca', 'Rocas, mar, memoria y la mureta: un rincón residencial de Río que merece recorrerse despacio.'],
+    PT: ['Urca | Bairros do Rio | Ernestinho Carioca', 'Rochas, mar, memória e a mureta: um canto residencial do Rio que merece ser percorrido sem pressa.'],
+    EN: ['Urca | Rio Neighborhoods | Ernestinho Carioca', 'Rocks, sea, memory and the waterfront wall: a residential corner of Rio best explored at an easy pace.']
+  },
+  '/compras/barrashopping/': {
+    ES: ['BarraShopping en Barra da Tijuca | Guía de compras | Ernestinho Carioca', 'Guía de BarraShopping en Barra da Tijuca: organiza la visita, explora sus tiendas y consulta servicios y horarios oficiales.'],
+    PT: ['BarraShopping na Barra da Tijuca | Guia de compras | Ernestinho Carioca', 'Guia do BarraShopping na Barra da Tijuca: planeje a visita, conheça as lojas e consulte serviços e horários oficiais.'],
+    EN: ['BarraShopping in Barra da Tijuca | Shopping Guide | Ernestinho Carioca', 'A guide to BarraShopping in Barra da Tijuca: plan your visit, explore its stores and check official services and opening hours.']
+  },
+  '/compras/botafogo-praia-shopping/': {
+    ES: ['Botafogo Praia Shopping | Guía de compras | Ernestinho Carioca', 'Guía de Botafogo Praia Shopping: ubicación, tiendas, opciones para comer y consejos para organizar tu visita en Botafogo.'],
+    PT: ['Botafogo Praia Shopping | Guia de compras | Ernestinho Carioca', 'Guia do Botafogo Praia Shopping: localização, lojas, opções para comer e dicas para planejar sua visita em Botafogo.'],
+    EN: ['Botafogo Praia Shopping | Shopping Guide | Ernestinho Carioca', 'A guide to Botafogo Praia Shopping: location, stores, places to eat and tips for planning your visit in Botafogo.']
+  },
+  '/compras/downtown/': {
+    ES: ['Shopping Downtown en Barra da Tijuca | Ernestinho Carioca', 'Guía de Shopping Downtown en Barra da Tijuca con orientación para llegar, recorrer sus espacios y organizar la visita.'],
+    PT: ['Shopping Downtown na Barra da Tijuca | Ernestinho Carioca', 'Guia do Shopping Downtown na Barra da Tijuca com orientações de acesso, passeio pelos espaços e planejamento da visita.'],
+    EN: ['Shopping Downtown in Barra da Tijuca | Ernestinho Carioca', 'A guide to Shopping Downtown in Barra da Tijuca, with directions, an overview of the complex and visit-planning tips.']
+  },
+  '/compras/feira-saens-pena/': {
+    ES: ['Feria de Saens Peña | Ernestinho Carioca', 'Feria de artesanía y artistas en Praça Saens Peña, Tijuca, con fotos y fuente municipal.'],
+    PT: ['Feira de Saens Peña | Ernestinho Carioca', 'Feira de artesanato e artistas na Praça Saens Peña, na Tijuca, com fotos e fonte municipal.'],
+    EN: ['Saens Peña Fair | Ernestinho Carioca', 'A craft and artists’ fair at Praça Saens Peña in Tijuca, with photos and a municipal source.']
+  },
+  '/compras/metropolitano-barra/': {
+    ES: ['Shopping Metropolitano Barra | Guía de compras | Ernestinho Carioca', 'Guía del Shopping Metropolitano Barra: ubicación, tiendas, opciones para comer y consejos para organizar tu visita.'],
+    PT: ['Shopping Metropolitano Barra | Guia de compras | Ernestinho Carioca', 'Guia do Shopping Metropolitano Barra: localização, lojas, opções para comer e dicas para planejar sua visita.'],
+    EN: ['Shopping Metropolitano Barra | Shopping Guide | Ernestinho Carioca', 'A guide to Shopping Metropolitano Barra: location, stores, places to eat and tips for planning your visit.']
+  },
+  '/compras/shopping-leblon/': {
+    ES: ['Shopping Leblon | Guía de compras | Ernestinho Carioca', 'Guía práctica del Shopping Leblon con ubicación, tiendas, opciones para comer y consejos para organizar la visita.'],
+    PT: ['Shopping Leblon | Guia de compras | Ernestinho Carioca', 'Guia prático do Shopping Leblon com localização, lojas, opções para comer e dicas para planejar a visita.'],
+    EN: ['Shopping Leblon | Shopping Guide | Ernestinho Carioca', 'A practical guide to Shopping Leblon, with its location, stores, places to eat and visit-planning tips.']
+  },
+  '/consejos/atardeceres-inolvidables/': {
+    ES: ['Atardeceres inolvidables en Río | Ernestinho Carioca', 'Consejos y fotografías para disfrutar el atardecer en Río de Janeiro.'],
+    PT: ['Pôr do sol inesquecível no Rio | Ernestinho Carioca', 'Dicas e fotos para aproveitar o pôr do sol no Rio de Janeiro.'],
+    EN: ['Unforgettable Sunsets in Rio | Ernestinho Carioca', 'Tips and photos for enjoying the sunset in Rio de Janeiro.']
+  },
+  '/consejos/portugues/': {
+    ES: ['Portugués para sobrevivir en Río | Ernestinho Carioca', '80 frases de portugués brasileño con traducción y audio: aeropuerto, transporte, playa, restaurantes, pagos, salud, seguridad y eventos en Río.'],
+    PT: ['Português para se virar no Rio | Ernestinho Carioca', '80 frases úteis em português brasileiro, com tradução e áudio, para aeroporto, transporte, praia, restaurantes, pagamentos, saúde, segurança e eventos.'],
+    EN: ['Portuguese to Get By in Rio | Ernestinho Carioca', '80 useful Brazilian Portuguese phrases with translations and audio for the airport, transport, beach, restaurants, payments, health, safety and events.']
+  },
+  '/experiencias/ala-delta/': {
+    ES: ['Vuelo de ala delta en São Conrado | R$1.350 | Ernestinho Carioca', 'Vuela en ala delta desde Pedra Bonita en São Conrado. R$1.350 con seguro, tasas y traslado a la rampa. Consulta fotos, cámaras y reserva.'],
+    PT: ['Voo de asa-delta em São Conrado | R$1.350 | Ernestinho Carioca', 'Voe de asa-delta a partir da Pedra Bonita, em São Conrado. R$1.350 com seguro, taxas e traslado até a rampa. Veja fotos, câmeras e reserva.'],
+    EN: ['Hang Gliding in São Conrado | R$1,350 | Ernestinho Carioca', 'Fly from Pedra Bonita in São Conrado. R$1,350 includes insurance, fees and transport to the launch site. See photos, cameras and booking details.']
+  },
+  '/experiencias/carnaval-experience/': {
+    ES: ['Carnaval Experience Río | Tour Cidade do Samba | Ernestinho Carioca', 'Descubre Carnaval Experience en Cidade do Samba: taller de fantasías, historia, fotos, clase de samba y caipirinha. Reserva con enlace de Ernestinho.'],
+    PT: ['Carnaval Experience no Rio | Cidade do Samba | Ernestinho Carioca', 'Conheça o Carnaval Experience na Cidade do Samba: oficina de fantasias, história, fotos, aula de samba e caipirinha. Reserve pelo link do Ernestinho.'],
+    EN: ['Rio Carnival Experience | Cidade do Samba | Ernestinho Carioca', 'Explore Carnaval Experience at Cidade do Samba: costume workshop, carnival history, photos, a samba lesson and caipirinha. Book through Ernestinho.']
+  },
+  '/experiencias/parasail/': {
+    ES: ['Parasail en Río de Janeiro | Vuelo sobre el mar | Ernestinho Carioca', 'Vive el parasail en la Bahía de Guanabara: salida en lancha, vistas de Río y vuelo sobre el mar. Información, condiciones y solicitud de reserva.'],
+    PT: ['Parasail no Rio de Janeiro | Voo sobre o mar | Ernestinho Carioca', 'Viva o parasail na Baía de Guanabara: saída de lancha, vistas do Rio e voo sobre o mar. Informações, condições e solicitação de reserva.'],
+    EN: ['Parasailing in Rio de Janeiro | Guanabara Bay | Ernestinho Carioca', 'Try parasailing in Guanabara Bay: boat departure, views of Rio and a flight over the sea. Find information, conditions and booking requests.']
+  },
+  '/experiencias/pedra-bonita/': {
+    ES: ['Pedra Bonita: tour y reserva | Ernestinho Carioca', 'Pedra Bonita reúne selva, montaña y costa en una caminata. Desde la cima se abre una panorámica de Río de Janeiro.'],
+    PT: ['Trilha da Pedra Bonita: passeio e reserva | Ernestinho Carioca', 'A Pedra Bonita reúne floresta, montanha e litoral em uma trilha. Do alto, a vista panorâmica revela o Rio de Janeiro.'],
+    EN: ['Pedra Bonita Hike: Rio Tour and Booking | Ernestinho Carioca', 'Pedra Bonita brings forest, mountains and coastline together on one hike, with panoramic views of Rio de Janeiro from the summit.']
+  },
+  '/experiencias/pedra-gavea/': {
+    ES: ['Pedra da Gávea: tour y reserva | Ernestinho Carioca', 'Subir Pedra da Gávea exige preparación: hay desnivel, roca expuesta y un tramo técnico. Revisa la dificultad y organiza la salida con cuidado.'],
+    PT: ['Pedra da Gávea: passeio e reserva | Ernestinho Carioca', 'Subir a Pedra da Gávea exige preparo: há forte desnível, trechos de rocha exposta e uma passagem técnica. Confira a dificuldade e planeje com cuidado.'],
+    EN: ['Pedra da Gávea Hike: Rio Tour and Booking | Ernestinho Carioca', 'Climbing Pedra da Gávea takes preparation, with steep elevation, exposed rock and a technical section. Check the difficulty and plan carefully.']
+  },
+  '/experiencias/pedra-telegrafo/': {
+    ES: ['Pedra do Telégrafo: tour y reserva | Ernestinho Carioca', 'Camina por la Mata Atlántica de Barra de Guaratiba entre montañas, mar y playas salvajes hasta la roca famosa por sus fotos.'],
+    PT: ['Pedra do Telégrafo: passeio e reserva | Ernestinho Carioca', 'Caminhe pela Mata Atlântica de Barra de Guaratiba entre montanhas, mar e praias selvagens até a pedra famosa pelas fotos.'],
+    EN: ['Pedra do Telégrafo Hike: Rio Tour and Booking | Ernestinho Carioca', 'Walk through Barra de Guaratiba’s Atlantic Forest, between mountains, sea and wild beaches, to the rock known for its photos.']
+  },
+  '/experiencias/rapel/': {
+    ES: ['Rapel en Río de Janeiro | Ernestinho Carioca', 'Fotos e información sobre la experiencia de rapel en Río de Janeiro.'],
+    PT: ['Rapel no Rio de Janeiro | Ernestinho Carioca', 'Fotos e informações sobre a experiência de rapel no Rio de Janeiro.'],
+    EN: ['Rappelling in Rio de Janeiro | Ernestinho Carioca', 'Photos and information about the rappelling experience in Rio de Janeiro.']
+  },
+  '/experiencias/rio-samba-bus/': {
+    ES: ['Rio Samba Bus: rutas, Nightlife y Super Ticket | Ernestinho Carioca', 'Descubre las tres opciones de Rio Samba Bus: ruta panorámica, Nightlife y Super Ticket. Compara modalidades, mira fotos y reserva desde Ernestinho Carioca.'],
+    PT: ['Rio Samba Bus: rotas, Nightlife e Super Ticket | Ernestinho Carioca', 'Conheça as três opções do Rio Samba Bus: rota panorâmica, Nightlife e Super Ticket. Compare modalidades, veja fotos e reserve pelo Ernestinho Carioca.'],
+    EN: ['Rio Samba Bus: routes, Nightlife and Super Ticket | Ernestinho Carioca', 'Explore three Rio Samba Bus options: the panoramic route, Nightlife and Super Ticket. Compare them, view photos and book through Ernestinho Carioca.']
+  },
+  '/gastronomia/chama-rio-copacabana/': {
+    ES: ['Chama Rio Choperia e Grill en Copacabana | Ernestinho Carioca', 'Guía de Chama Rio Choperia e Grill en Copacabana: carnes a la parrilla, platos para compartir, mariscos, pizzas, ambiente, horarios y cómo llegar.'],
+    PT: ['Chama Rio Choperia e Grill em Copacabana | Ernestinho Carioca', 'Guia do Chama Rio Choperia e Grill em Copacabana: carnes na brasa, porções para compartilhar, frutos do mar, pizzas, ambiente, horários e como chegar.'],
+    EN: ['Chama Rio Choperia e Grill in Copacabana | Ernestinho Carioca', 'A guide to Chama Rio Choperia e Grill in Copacabana: grilled meats, sharing plates, seafood, pizza, atmosphere, opening hours and directions.']
+  },
+  '/gastronomia/merci/': {
+    ES: ['Merci Bar Secreto | Ernestinho Carioca', 'Guía del Merci Bar Secreto en Vogue Square, Barra da Tijuca, con fotos y fuentes recientes.'],
+    PT: ['Merci Bar Secreto | Ernestinho Carioca', 'Guia do Merci Bar Secreto no Vogue Square, na Barra da Tijuca, com fotos e fontes recentes.'],
+    EN: ['Merci Bar Secreto | Ernestinho Carioca', 'A guide to Merci Bar Secreto at Vogue Square in Barra da Tijuca, with photos and recent sources.']
+  },
+  '/gastronomia/plage-cafe/': {
+    ES: ['Plage Café | Ernestinho Carioca', 'Plage Café en Parque Lage: ubicación, fotos y aviso de cierre temporal durante las obras del palacete.'],
+    PT: ['Plage Café | Ernestinho Carioca', 'Plage Café no Parque Lage: localização, fotos e aviso de fechamento temporário durante as obras do palacete.'],
+    EN: ['Plage Café | Ernestinho Carioca', 'Plage Café at Parque Lage: location, photos and a notice about its temporary closure during restoration work at the palace.']
+  },
+  '/hospedaje/1015/': {
+    ES: ['AP 1015 | Hospedaje Ernestinho', 'AP 1015 en Copacabana: estudio para hasta 4 personas, a unos 100 m de la playa, con Wi-Fi rápido, Smart TV, aire acondicionado y cocina equipada.'],
+    PT: ['AP 1015 | Hospedagem Ernestinho', 'AP 1015 em Copacabana: estúdio para até 4 pessoas, a cerca de 100 m da praia, com Wi-Fi rápido, Smart TV, ar-condicionado e cozinha equipada.'],
+    EN: ['AP 1015 | Ernestinho Stays', 'AP 1015 in Copacabana: a studio for up to 4 guests, about 100 m from the beach, with fast Wi-Fi, Smart TV, air conditioning and a fitted kitchen.']
+  },
+  '/playas/leme/': {
+    ES: ['Playa de Leme | Ernestinho Carioca', 'En Leme, Río de Janeiro, disfruta una playa más tranquila, el Caminho dos Pescadores y las vistas del Forte Duque de Caxias. Consejos, fotos y mapa.'],
+    PT: ['Praia do Leme | Ernestinho Carioca', 'No Leme, aproveite uma praia mais tranquila, o Caminho dos Pescadores e a vista do Forte Duque de Caxias. Dicas, fotos e mapa.'],
+    EN: ['Leme Beach | Ernestinho Carioca', 'Enjoy a quieter beach in Leme, Rio, the Caminho dos Pescadores and views of Forte Duque de Caxias. Tips, photos and a map.']
   },
   '/vida-nocturna/boa-praca-leblon/': {
     ES: ['Boa Praça Leblon | Ernestinho Carioca', 'Fotos e información oficial de Boteco Boa Praça, unidad Leblon.'],

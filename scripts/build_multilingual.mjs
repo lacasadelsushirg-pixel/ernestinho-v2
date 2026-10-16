@@ -146,12 +146,12 @@ async function worker(){
     const prefix=(r,l)=>l==='es'?r:'/'+l+r;
     const isProvisionalBuziosBeach=r=>/^\/destinos\/buzios\/playas\/[^/]+\/$/.test(r);
     const setMeta=(key,content,attribute=key.includes(':')?'property':'name')=>{let m=document.querySelector(`meta[property="${key}"],meta[name="${key}"]`);if(!m){m=document.createElement('meta');m.setAttribute(attribute,key);document.head.appendChild(m);}m.content=content;m.removeAttribute('data-ec-content');};
+    if(seoCopy){
+     document.title=seoCopy[0];
+     setMeta('description',seoCopy[1],'name');
+     setMeta('og:title',seoCopy[0]);setMeta('og:description',seoCopy[1]);
+    }
     if(sourcePath.startsWith('/naturaleza/')){
-     if(seoCopy){
-      document.title=seoCopy[0];
-      setMeta('description',seoCopy[1],'name');
-      setMeta('og:title',seoCopy[0]);setMeta('og:description',seoCopy[1]);
-     }
      setMeta('twitter:title',document.title,'name');
      setMeta('twitter:description',document.querySelector('meta[name="description"]')?.content||'','name');
      const heroAlt=document.querySelector('main img:not([src*="/assets/brand/"])')?.alt?.trim();

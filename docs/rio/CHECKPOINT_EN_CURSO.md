@@ -4,6 +4,17 @@ Base local: `185c43bf0de0356276df8966bbb1bb3e90404162`.
 Rama: `revision/rendimiento-traducciones-81a904c`.
 Alcance vigente: `MASTER_RIO_20261005.md`, copia del prompt Texto pegado(9).
 
+## Auditoría SEO multilingüe — 2026-10-16
+
+- Hostinger es la única fuente de publicación y validación del sitio.
+- El barrido del manifiesto de las 752 rutas indexables detectó descriptions en español repetidas en PT/EN. Se añadieron metadatos ES/PT/EN específicos a 42 fichas; dos hubs adicionales incluidos en el QA ya tenían sus metadatos localizados.
+- Se ajustó `scripts/build_multilingual.mjs` para aplicar `SEO_METADATA` al HTML generado aunque la página no cargue `site.js` (tres fichas independientes de Experiencias). También se cambió la versión de caché de `seo-metadata.js` en `site.js`.
+- QA estático: 132 HTML (44 fichas × 3 idiomas) con title, description, Open Graph, Twitter, canonical, lang y Schema; 0 errores. QA de navegador: 246 combinaciones desktop/móvil en 41 fichas con navegación común; 0 fallos.
+- Auditoría global: 0 descriptions ES idénticas en PT/EN en las 752 familias de rutas. `audit_multilingual.py`: 2.303 HTML generados, 2.256 URLs indexables, 0 errores; las 33 advertencias corresponden a `og:image` de Búzios, que sigue fuera de alcance.
+- La revisión SEO no cierra la revisión editorial integral. Las 19 rutas `PENDIENTE` siguen abiertas para revisión de contenido, además del QA visual integral desktop/móvil y consola.
+- `check_frozen_pages.py` continúa señalando 230 HTML protegidos divergentes de su baseline; el lote SEO no cambia HTML de páginas fuente, diseño ni fotografía.
+- La migración de fotos/servidor y Búzios siguen pausados según el alcance vigente.
+
 ## Trabajo conservado
 
 - Búzios integrado y publicado en la base, con Preview READY y acceso comprobado.
@@ -29,7 +40,7 @@ Alcance vigente: `MASTER_RIO_20261005.md`, copia del prompt Texto pegado(9).
 - Priorización solicitada de fotos (`FOTOS_RIO_PRIORIDAD_URGENTE.json`): restaurantes 1.073 IDs; museos/cultura 169; atracciones 9; experiencias 58; vida nocturna 1. Registra rutas y referencias del servidor anterior. El cruce con Cloudflare queda pendiente del commit con las nuevas URLs; sin cambios públicos.
 - Fuentes concretas en `FUENTES_NUEVAS_GUIAS.json`; no implican permiso de reutilizar fotos.
 - Sin cambios de fotografías existentes, main o producción.
-- El checkpoint local reúne el trabajo de Río acumulado hasta esta revisión. No se hizo push ni deploy; el alcance integral sigue incompleto.
+- El checkpoint reúne el trabajo acumulado de Río; la revisión integral sigue incompleta. Para cada lote, verificar compilación, publicación y archivos servidos directamente en Hostinger.
 
 ## Comprobaciones realizadas
 
