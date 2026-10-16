@@ -61,7 +61,7 @@ for page in sorted(root.rglob("*.html")):
     url = SubElement(urlset, "{http://www.sitemaps.org/schemas/sitemap/0.9}url")
     SubElement(url, "{http://www.sitemaps.org/schemas/sitemap/0.9}loc").text = origin + route
     for language, href in metadata.alternates:
-        destination = href.removeprefix(origin).lstrip('/')
+        destination = (href[len(origin):] if href.startswith(origin) else href).lstrip('/')
         target = root / destination
         if target.is_dir(): target /= 'index.html'
         if not target.is_file(): raise SystemExit(f'Alternate does not exist: {href}')
