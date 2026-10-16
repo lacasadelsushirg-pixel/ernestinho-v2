@@ -210,5 +210,13 @@ export default {
   "Chama Rio Choperia e Grill en Copacabana | Ernestinho Carioca": {
     "PT": "Chama Rio Choperia e Grill em Copacabana | Ernestinho Carioca",
     "EN": "Chama Rio Choperia e Grill in Copacabana | Ernestinho Carioca"
+  },
+  "Plage Café funciona en el Palacete del Parque Lage, en Rua Jardim Botânico, 414. Está temporalmente cerrado durante el restauro del edificio. La EAV informa que el Palacete permanece cerrado y que el restaurante interior suspendió su servicio; el área verde del parque sigue abierta. No hay fecha confirmada de reapertura del café. Revisado el 9 de octubre de 2026.": {
+    "PT": "O Plage Café funciona no Palacete do Parque Lage, na Rua Jardim Botânico, 414. Está temporariamente fechado durante a restauração do edifício. A EAV informa que o Palacete permanece fechado e que o restaurante interno suspendeu o serviço; a área verde do parque continua aberta. Ainda não há data confirmada para a reabertura do café. Revisado em 9 de outubro de 2026.",
+    "EN": "Plage Café is located in the Palacete at Parque Lage, at Rua Jardim Botânico, 414. It is temporarily closed while the building is being restored. EAV reports that the Palacete remains closed and the indoor restaurant has suspended service; the park’s green area remains open. No reopening date for the café has been confirmed. Reviewed on October 9, 2026."
+  },
+  "Las fotos de esta ficha son de archivo y muestran el café antes del cierre temporal. Comprueba las publicaciones oficiales de la EAV antes de organizar la visita; la reapertura del café todavía no está confirmada.": {
+    "PT": "As fotos desta ficha são de arquivo e mostram o café antes do fechamento temporário. Consulte as publicações oficiais da EAV antes de planejar a visita; a reabertura do café ainda não foi confirmada.",
+    "EN": "The photos in this listing are archival and show the café before its temporary closure. Check EAV’s official updates before planning a visit; the café’s reopening has not yet been confirmed."
   }
 };

@@ -12,7 +12,7 @@ const common={"Guía de Río":{"PT":"Guia do Rio","EN":"Rio Guide"},"Tours":{"PT
 const sectionChunks = {
   "experiencias": ["experiencias-01.js", "experiencias-02.js", "experiencias-03.js", "experiencias-04.js", "experiencias-standalone.js", "page-fixes-01.js"],
   "atracciones": ["atracciones-01.js", "atracciones-02.js"],
-  "barrios": ["barrios-01.js", "barrios-02.js", "page-fixes-01.js"],
+  "barrios": ["barrios-01.js", "barrios-02.js", "barrios-longform-01.js", "page-fixes-01.js"],
   "cafe-rio": ["cafe-rio-01.js"],
   "compras": ["compras-01.js"],
   "cultura": ["cultura-01.js", "cultura-02.js", "cultura-03.js", "cultura-04.js", "cultura-05.js", "cultura-06.js", "cultura-07.js", "cultura-08.js", "cultura-09.js", "cultura-10.js", "cultura-11.js", "cultura-12.js", "cultura-13.js", "cultura-14.js", "cultura-15.js"],
