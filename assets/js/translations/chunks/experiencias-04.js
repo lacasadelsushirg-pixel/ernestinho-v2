@@ -2039,6 +2039,18 @@ export default {
   "Vuelo biplaza con instructor desde Parque da Cidade, Niterói, con vistas panorámicas de la bahía y Río.": {
     "PT": "Voo duplo com instrutor a partir do Parque da Cidade, Niterói, com vistas panorâmicas da baía e do Rio.",
     "EN": "Tandem flight with an instructor from Parque da Cidade, Niterói, with panoramic views of the bay and Rio."
+  },
+  "Fotos y consulta de disponibilidad para esta actividad de aventura.": {
+    "PT": "Fotos e consulta de disponibilidade para esta atividade de aventura.",
+    "EN": "Photos and availability enquiries for this adventure activity."
+  },
+  "Vuelo tándem desde Pedra Bonita. Incluye seguro, tasas y traslado desde el club a la rampa.": {
+    "PT": "Voo duplo a partir da Pedra Bonita. Inclui seguro, taxas e traslado do clube até a rampa.",
+    "EN": "Tandem hang-gliding flight from Pedra Bonita. Includes insurance, fees and transfer from the club to the launch ramp."
+  },
+  "Ascenso exigente, aventura en la Carrasqueira y vistas increíbles de Río con guía especializado.": {
+    "PT": "Subida exigente, aventura na Carrasqueira e vistas incríveis do Rio com guia especializado.",
+    "EN": "A demanding climb, the Carrasqueira challenge and incredible views of Rio with a specialist guide."
   }
 
 };

@@ -69,7 +69,7 @@ try {
     assert.deepEqual(broken, [], `${route}: broken chapter anchors`);
   }
   for (const language of ['ES','PT','EN']) {
-    const details = { nombre: 'Ana & João', fecha: '2026-11-12', pasajeros: '3', hotel: 'Hotel São João', mensaje: 'Necesito accesibilidad & ayuda.' };
+    const details = { nombre: 'Ana & João', fecha: '2026-11-12', pasajeros: '3', hotel: 'Hotel São João', telefono: '+55 21 99999-0000', mensaje: 'Necesito accesibilidad & ayuda.' };
     const url = new URL(bookingUrl('/experiencias/full-day-rio/', language, details));
     assert.equal(url.searchParams.get('text'), bookingMessage('/experiencias/full-day-rio/', language, details));
     assert.ok(url.searchParams.get('text').includes('R$430'));
@@ -93,15 +93,18 @@ try {
   // Exercise the actual existing modal and submission; capture the URL, never contact WhatsApp.
   await page.goto(base + '/experiencias/full-day-rio/');
   await page.evaluate(async () => { const site = await import(document.querySelector('script[src*="/assets/js/site.js"]').src); await site.ready; site.apply('EN'); window.open = url => { window.ecTestBookingUrl = url; }; });
-  await page.locator('#open-reserve').click();
+  await page.locator('a.reserve[href="#reserva-full-day"]').click();
+  assert.equal(new URL(page.url()).hash, '#reserva-full-day');
   await page.locator('[name=nombre]').fill('Ana');
   await page.locator('[name=fecha]').fill('2026-11-12');
   await page.locator('[name=pasajeros]').fill('3');
+  await page.locator('[name=telefono]').fill('+55 21 99999-0000');
   await page.locator('[name=hotel]').fill('Copacabana');
   await page.locator('#reserve-form button[type=submit]').click();
   const submitted = await page.evaluate(() => window.ecTestBookingUrl);
   assert.ok(new URL(submitted).searchParams.get('text').startsWith('Hi Ernestinho,'));
   assert.ok(new URL(submitted).searchParams.get('text').includes('Passengers: 3'));
+  assert.ok(new URL(submitted).searchParams.get('text').includes('Contact WhatsApp: +55 21 99999-0000'));
   console.log(JSON.stringify({ pages: routes.length, localeChecks: results.length, booking: 'passed', results }, null, 2));
 } finally {
   if (browser) await browser.close();

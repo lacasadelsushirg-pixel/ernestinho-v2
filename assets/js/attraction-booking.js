@@ -10,9 +10,9 @@ const experiences = {
   '/experiencias/partido-maracana/': { ES: 'un partido en Maracanã', PT: 'um jogo no Maracanã', EN: 'a match at Maracanã' }
 };
 const copy = {
-  ES: { greeting: 'Hola Ernestinho, quiero consultar', name: 'Nombre', date: 'Fecha', passengers: 'Pasajeros', hotel: 'Hotel / hospedaje', message: 'Mensaje', price: 'Valor publicado', children: 'Edades de los niños', lunch: 'Con o sin almuerzo', match: 'Partido / sector de interés' },
-  PT: { greeting: 'Olá Ernestinho, quero consultar', name: 'Nome', date: 'Data', passengers: 'Passageiros', hotel: 'Hotel / hospedagem', message: 'Mensagem', price: 'Valor publicado', children: 'Idades das crianças', lunch: 'Com ou sem almoço', match: 'Jogo / setor de interesse' },
-  EN: { greeting: 'Hi Ernestinho, I would like to enquire about', name: 'Name', date: 'Date', passengers: 'Passengers', hotel: 'Hotel / accommodation', message: 'Message', price: 'Published price', children: 'Children’s ages', lunch: 'With or without lunch', match: 'Match / preferred section' }
+  ES: { greeting: 'Hola Ernestinho, quiero consultar', name: 'Nombre', date: 'Fecha', passengers: 'Pasajeros', hotel: 'Hotel / hospedaje', phone: 'WhatsApp de contacto', message: 'Mensaje', price: 'Valor publicado', children: 'Edades de los niños', lunch: 'Con o sin almuerzo', match: 'Partido / sector de interés' },
+  PT: { greeting: 'Olá Ernestinho, quero consultar', name: 'Nome', date: 'Data', passengers: 'Passageiros', hotel: 'Hotel / hospedagem', phone: 'WhatsApp para contato', message: 'Mensagem', price: 'Valor publicado', children: 'Idades das crianças', lunch: 'Com ou sem almoço', match: 'Jogo / setor de interesse' },
+  EN: { greeting: 'Hi Ernestinho, I would like to enquire about', name: 'Name', date: 'Date', passengers: 'Passengers', hotel: 'Hotel / accommodation', phone: 'Contact WhatsApp', message: 'Message', price: 'Published price', children: 'Children’s ages', lunch: 'With or without lunch', match: 'Match / preferred section' }
 };
 
 export function bookingMessage(route, language, details = {}) {
@@ -24,6 +24,7 @@ export function bookingMessage(route, language, details = {}) {
   for (const [key, label] of [['nombre', 'name'], ['fecha', 'date'], ['pasajeros', 'passengers'], ['hotel', 'hotel']]) {
     if (key !== 'nombre' || details[key]) lines.push(`${labels[label]}: ${details[key] || '____'}`);
   }
+  if (details.telefono) lines.push(`${labels.phone}: ${details.telefono}`);
   if (route.endsWith('/cristo-city-tour/')) lines.push(`${labels.lunch}: ____`);
   if (route.endsWith('/bioparque/') || route.endsWith('/cristo-city-tour/')) lines.push(`${labels.children}: ____`);
   if (route.endsWith('/partido-maracana/')) lines.push(`${labels.match}: ____`);

@@ -18,18 +18,18 @@ export async function buildBrowserOptions() {
   fs.mkdirSync(dest,{recursive:true});
   const executable=path.join(dest,'chromium');
   const ready=path.join(dest,'.ready');
-  if(!fs.existsSync(ready)||fs.readFileSync(ready,'utf8')!=='133.0.0-al2'){
+  if(!fs.existsSync(ready)||fs.readFileSync(ready,'utf8')!=='133.0.0-al2023'){
     await pipeline(fs.createReadStream(path.join(bin,'chromium.br')),createBrotliDecompress(),fs.createWriteStream(executable,{mode:0o700}));
-    for(const [archive,folder] of [['fonts.tar.br','fonts'],['swiftshader.tar.br',''],['al2.tar.br','al2']]){
+    for(const [archive,folder] of [['fonts.tar.br','fonts'],['swiftshader.tar.br',''],['al2023.tar.br','al2023']]){
       const directory=path.join(dest,folder);fs.mkdirSync(directory,{recursive:true});
       await pipeline(fs.createReadStream(path.join(bin,archive)),createBrotliDecompress(),tar.extract(directory,{chown:false}));
     }
-    fs.writeFileSync(ready,'133.0.0-al2');
+    fs.writeFileSync(ready,'133.0.0-al2023');
   }
   const fontConfig=path.join(dest,'fonts/fonts.conf');
   const config=fs.readFileSync(fontConfig,'utf8').replaceAll('/tmp/fonts',path.join(dest,'fonts'));
   fs.writeFileSync(fontConfig,config);
   process.env.FONTCONFIG_PATH=path.join(dest,'fonts');
-  process.env.LD_LIBRARY_PATH=[path.join(dest,'al2/lib'),dest,process.env.LD_LIBRARY_PATH].filter(Boolean).join(':');
+  process.env.LD_LIBRARY_PATH=[path.join(dest,'al2023/lib'),dest,process.env.LD_LIBRARY_PATH].filter(Boolean).join(':');
   return {executablePath:executable,headless:true,args:bundled.args.filter(a=>a!=='--single-process')};
 }
