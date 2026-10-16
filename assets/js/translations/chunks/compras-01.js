@@ -1645,8 +1645,8 @@ export default {
     "EN": "Atmosphere food-focused de CADEG"
   },
   "CADEG: sabores, productos frescos y vida carioca en el mercado de Benfica": {
-    "PT": "CADEG: sabores, produtos frescos y vida carioca en el mercado de Benfica",
-    "EN": "CADEG: flavours, products fresh y Rio life en el market de Benfica"
+    "PT": "CADEG: sabores, produtos frescos e vida carioca no mercado de Benfica.",
+    "EN": "CADEG: flavors, fresh produce and everyday Rio life at Benfica’s market."
   },
   "Compra y transporta con atención": {
     "PT": "Compra y transporta con atención",
@@ -1713,40 +1713,40 @@ export default {
     "EN": "What I would buy en CADEG"
   },
   "Sabores, productos frescos y vida carioca en el mercado de Benfica": {
-    "PT": "Sabores, produtos frescos y vida carioca en el mercado de Benfica",
-    "EN": "Flavours, products fresh y Rio life en el market de Benfica"
+    "PT": "Sabores, produtos frescos e vida carioca no mercado de Benfica.",
+    "EN": "Flavors, fresh produce and everyday Rio life at Benfica’s market."
   },
   "Un mercado activo, práctico y lleno de movimiento": {
     "PT": "Um mercado activo, práctico y lleno de movimiento",
     "EN": "Un market activo, práctico y lleno de movimiento"
   },
   "Un mercado para mirar, comer y resolver": {
-    "PT": "Um mercado para mirar, comer y resolver",
-    "EN": "Un market para mirar, comer y resolver"
+    "PT": "Um mercado para olhar, comer e resolver.",
+    "EN": "A market to browse, eat and get things done."
   },
   "Un mercado que se compra, se huele y se saborea": {
     "PT": "Um mercado que se compra, se huele y se saborea",
     "EN": "Un market que se compra, se huele y se saborea"
   },
   "Una visita para comprar con todos los sentidos": {
-    "PT": "Uma visita para comprar con todos los sentidos",
-    "EN": "A visit para comprar con todos los sentidos"
+    "PT": "Uma visita para comprar com todos os sentidos.",
+    "EN": "A visit that engages all the senses."
   },
   "Ven con una idea y deja espacio para descubrir": {
-    "PT": "Venha com una idea y deja espacio para descobrir",
-    "EN": "Come with una idea y deja espacio para descubrir"
+    "PT": "Venha com uma ideia e deixe espaço para descobrir.",
+    "EN": "Bring an idea, but leave room for discovery."
   },
   "Visitantes y comercio en CADEG": {
     "PT": "Visitantes y comercio en CADEG",
     "EN": "Visitors y comercio en CADEG"
   },
   "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y gastronómico que no se parece a un shopping. Para mí, es un lugar donde conviven productos frescos, flores, bebidas, restaurantes, comerciantes y compradores que vienen a reso": {
-    "PT": "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y gastronômico que no se parece a un shopping. Para mí, es un lugar donde conviven produtos frescos, flores, bebidas, restaurantes, comerciantes y compradores que vienen a reso",
-    "EN": "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y food-focused que no se parece a un shopping. Para mí, es un lugar donde conviven products fresh, flores, drinks, restaurantes, comerciantes y compradores que vienen a reso"
+    "PT": "Recomendo conhecer o CADEG para ver um lado comercial e gastronômico do Rio, bem diferente de um shopping. Para mim, é um lugar onde convivem produtos frescos, flores, bebidas, restaurantes, comerciantes e compradores.",
+    "EN": "I recommend visiting CADEG for a look at Rio’s commercial and food scene, far removed from a shopping mall. To me, it is a place where fresh produce, flowers, drinks, restaurants, vendors and shoppers come together."
   },
   "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y gastronómico que no se parece a un shopping. Para mí, es un lugar donde conviven productos frescos, flores, bebidas, restaurantes, comerciantes y compradores que vienen a resolver desde una compra pequeña hasta las necesidades de una cocina profesional.": {
-    "PT": "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y gastronômico que no se parece a un shopping. Para mí, es un lugar donde conviven produtos frescos, flores, bebidas, restaurantes, comerciantes y compradores que vienen a resolver desde una compra pequeña hasta las necesidades de una cocina profesional.",
-    "EN": "Yo te recomiendo conocer CADEG si quieres ver un Río comercial y food-focused que no se parece a un shopping. Para mí, es un lugar donde conviven products fresh, flores, drinks, restaurantes, comerciantes y compradores que vienen a resolver desde una compra pequeña hasta las necesidades de una cocina profesional."
+    "PT": "Recomendo conhecer o CADEG se você quiser ver um lado comercial e gastronômico do Rio bem diferente de um shopping. Para mim, é um lugar onde convivem produtos frescos, flores, bebidas, restaurantes, comerciantes e compradores, desde quem faz uma compra pequena até quem abastece uma cozinha profissional.",
+    "EN": "I recommend visiting CADEG if you want to see Rio’s commercial and food scene, which is very different from a shopping mall. To me, it is a place where fresh produce, flowers, drinks, restaurants, vendors and shoppers come together, from people picking up a few things to professional kitchens stocking up."
   },
   "Ambiente de la Feira de São Cristóvão": {
     "PT": "Ambiente de la Feira de São Cristóvão",
@@ -1769,8 +1769,8 @@ export default {
     "EN": "Shoppings con identidad"
   },
   "Cultura nordestina, sabores y música en el corazón de Río": {
-    "PT": "Cultura nordestina, sabores y música en el coração de Río",
-    "EN": "Northeastern culture, flavours y music en el heart de Río"
+    "PT": "Cultura nordestina, sabores e música no coração do Rio.",
+    "EN": "Northeastern culture, flavors and music in the heart of Rio."
   },
   "Disfruta con respeto y sentido común": {
     "PT": "Aproveite com respeito e bom senso",
@@ -1789,8 +1789,8 @@ export default {
     "EN": "Feira de São Cristóvão · Ernestinho Carioca"
   },
   "Feira de São Cristóvão: cultura nordestina, sabores y música en el corazón de Río": {
-    "PT": "Feira de São Cristóvão: cultura nordestina, sabores y música en el coração de Río",
-    "EN": "Feira de São Cristóvão: cultura nordestina, flavours y music en el heart de Río"
+    "PT": "Feira de São Cristóvão: cultura nordestina, sabores e música no coração do Rio.",
+    "EN": "Feira de São Cristóvão: Northeastern culture, flavors and music in the heart of Rio."
   },
   "Forró, baile y tradiciones vivas": {
     "PT": "Forró, dança e tradições vivas",
@@ -1837,8 +1837,8 @@ export default {
     "EN": "A piece of the Northeast in Rio"
   },
   "Una experiencia para comer, escuchar y descubrir": {
-    "PT": "Una experiencia para comer, escuchar y descobrir",
-    "EN": "An experience to eat, listen and discover"
+    "PT": "Uma experiência para comer, ouvir e descobrir.",
+    "EN": "An experience to eat, listen and discover."
   },
   "Ven con tiempo y con curiosidad": {
     "PT": "Venha com tiempo y con curiosidad",
@@ -1849,20 +1849,20 @@ export default {
     "EN": "Visitors y stalls de la Feira de São Cristóvão"
   },
   "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar música: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los productos regionales y las historias de qu": {
-    "PT": "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar música: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los produtos regionaises y las historias de qu",
-    "EN": "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar music: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los products regionales y las historias de qu"
+    "PT": "Recomendo conhecer a Feira de São Cristóvão com tempo e respeito. Para mim, ela é mais do que um lugar para comer ou ouvir música: é uma referência da cultura nordestina no Rio, com gastronomia, artesanato, forró, produtos regionais e histórias de quem chegou à cidade.",
+    "EN": "I recommend taking your time at Feira de São Cristóvão and approaching it with respect. To me, it is more than a place to eat or listen to music: it is a touchstone of Northeastern culture in Rio, with food, crafts, forró, regional products and stories of people who came to the city."
   },
   "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar música: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los productos regionales y las historias de quienes llegaron a la ciudad se encuentran.": {
-    "PT": "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar música: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los produtos regionaises y las historias de quienes llegaron a la ciudad se encuentran.",
-    "EN": "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar music: es una referencia de la cultura nordestina en Río, donde la gastronomía, la artesanía, el forró, los products regionales y las historias de quienes llegaron a la ciudad se encuentran."
+    "PT": "Recomendo conhecer a Feira de São Cristóvão com tempo e respeito. Para mim, ela não é apenas um lugar para comer ou ouvir música: é uma referência da cultura nordestina no Rio, onde se encontram gastronomia, artesanato, forró, produtos regionais e as histórias de quem chegou à cidade.",
+    "EN": "I recommend taking your time at Feira de São Cristóvão and approaching it with respect. To me, it is more than a place to eat or listen to music: it is a reference point for Rio’s Northeastern culture, where food, crafts, forró, regional products and the stories of people who came to the city meet."
   },
   "Caminar, comparar y descubrir tiendas diferentes": {
     "PT": "Caminhar, comparar y descobrir lojas diferentes",
     "EN": "Walk, comparar y descubrir different shops"
   },
   "Compra con atención y disfruta el Centro": {
-    "PT": "Compre com atenção e aproveite o Centro",
-    "EN": "Shopping con atención y disfruta el Centro"
+    "PT": "Compre com atenção e aproveite o Centro.",
+    "EN": "Shop mindfully and enjoy downtown."
   },
   "Compradores recorriendo Saara": {
     "PT": "Compradores recorriendo Saara",
@@ -1881,8 +1881,8 @@ export default {
     "EN": "Market detail de las compras en Saara"
   },
   "El mercado popular donde Río compra, compara y resuelve": {
-    "PT": "O mercado popular onde o Rio compra, compara e resolve",
-    "EN": "El market popular donde Río compra, compara y resuelve"
+    "PT": "O mercado popular onde o Rio compra, compara e resolve.",
+    "EN": "The street market where Rio shops, compares and gets things done."
   },
   "Fuente de referencia": {
     "PT": "Fonte de referência",
@@ -1913,8 +1913,8 @@ export default {
     "EN": "Saara en el Centro de Río"
   },
   "Saara: el mercado popular donde Río compra, compara y resuelve": {
-    "PT": "Saara: el mercado popular donde Río compra, compara y resuelve",
-    "EN": "Saara: el market popular donde Río compra, compara y resuelve"
+    "PT": "Saara: o mercado popular onde o Rio compra, compara e resolve.",
+    "EN": "Saara: Rio’s street market for shopping, comparing and getting things done."
   },
   "Tiendas y calles comerciales de Saara": {
     "PT": "Lojas e ruas comerciais de Saara",
@@ -1925,16 +1925,16 @@ export default {
     "EN": "A lively, popular and commercial Rio"
   },
   "Ven con una lista, pero deja espacio para descubrir": {
-    "PT": "Venha com una lista, pero deja espacio para descobrir",
-    "EN": "Come with una lista, pero deja espacio para descubrir"
+    "PT": "Venha com uma lista, mas deixe espaço para descobrir.",
+    "EN": "Bring a list, but leave room for discovery."
   },
   "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una feria de fin de semana: es un conjunto de calles, tiendas y galerías donde los cario": {
-    "PT": "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una feira de fin de semana: es un conjunto de calles, tiendas y galerías donde los cario",
-    "EN": "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una fair de fin de semana: es un conjunto de calles, tiendas y galerías donde los cario"
+    "PT": "Recomendo conhecer a Saara para fazer compras, comparar preços e sentir um pouco da rotina do Centro do Rio. Para mim, não é um shopping fechado nem uma feira de fim de semana: é um conjunto de ruas, lojas e galerias onde os cariocas...",
+    "EN": "I recommend visiting Saara to shop, compare prices and get a feel for everyday life in central Rio. To me, it is neither an enclosed mall nor a weekend fair, but a network of streets, stores and galleries where locals..."
   },
   "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una feria de fin de semana: es un conjunto de calles, tiendas y galerías donde los cariocas resuelven compras reales y donde el viajero puede encontrar casi de todo.": {
-    "PT": "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una feira de fin de semana: es un conjunto de calles, tiendas y galerías donde los cariocas resuelven compras reales y donde el viajero puede encontrar casi de todo.",
-    "EN": "Yo te recomiendo conocer Saara si quieres comprar, comparar y entender una parte muy cotidiana del Centro de Río. Para mí, no es un shopping cerrado ni una fair de fin de semana: es un conjunto de calles, tiendas y galerías donde los cariocas resuelven compras reales y donde el viajero puede encontrar casi de todo."
+    "PT": "Recomendo conhecer a Saara se você quiser fazer compras, comparar preços e entender um pouco da rotina do Centro do Rio. Para mim, ela não é um shopping fechado nem uma feira de fim de semana: é um conjunto de ruas, lojas e galerias onde os cariocas resolvem compras do dia a dia e onde o visitante encontra quase de tudo.",
+    "EN": "I recommend visiting Saara if you want to shop, compare prices and get a feel for everyday life in central Rio. To me, it is neither an enclosed mall nor a weekend fair: it is a network of streets, stores and galleries where locals take care of everyday errands and visitors can find almost anything."
   },
   "WhatsApp": {
     "PT": "WhatsApp",
@@ -1981,12 +1981,12 @@ export default {
     "EN": "Cómo llegar y mapa"
   },
   "De día combinaría la Feira con Quinta da Boa Vista y BioParque, dejando primero el paseo al aire libre y después el almuerzo. El Maracanã también está en la región, pero un partido altera tráfico y demanda: no mezclaría ambos planes sin revisar calendario. Por la noche, la propia Feira ya contiene comida y espectáculo; añadir otra atracción solo reduciría la experiencia.": {
-    "PT": "De día combinaría la Feira con Quinta da Boa Vista y BioParque, dejando primero el paseo al aire libre y después el almuerzo. El Maracanã también está en la región, pero un partido altera tráfico y demanda: no mezclaría ambos planes sin revisar calendario. Por la noche, la propia Feira ya contiene comida y espectáculo; añadir otra atracción solo reduciría la experiencia.",
-    "EN": "De día combinaría la Feira con Quinta da Boa Vista y BioParque, dejando primero el paseo al aire libre y después el almuerzo. El Maracanã también está en la región, pero un partido altera tráfico y demanda: no mezclaría ambos planes sin revisar calendario. Por la noche, la propia Feira ya contiene comida y espectáculo; añadir otra atracción solo reduciría la experiencia."
+    "PT": "Durante o dia, eu combinaria a Feira com a Quinta da Boa Vista e o BioParque, começando pelo passeio ao ar livre e almoçando depois. O Maracanã também fica na região, mas um jogo muda o trânsito e a demanda: eu não juntaria os dois programas sem conferir o calendário. À noite, a própria Feira já oferece comida e espetáculo; acrescentar outra atração só reduziria o tempo para aproveitá-la.",
+    "EN": "During the day, I would pair the Feira with Quinta da Boa Vista and BioParque, starting outdoors and having lunch afterward. Maracanã is also in the area, but a match changes traffic and demand, so I would not combine the two plans without checking the schedule. At night, the Feira already offers food and entertainment; adding another attraction would only leave less time to enjoy it."
   },
   "El recinto no requiere una única reserva; restaurantes internos y shows pueden operar con reglas propias.": {
-    "PT": "El recinto no requiere una única reserva; restaurantes internos y shows pueden operar con reglas propias.",
-    "EN": "El recinto no requiere una única reserva; restaurantes internos y shows pueden operar con reglas propias."
+    "PT": "O espaço não exige uma reserva única; os restaurantes e shows internos podem ter regras próprias.",
+    "EN": "The venue does not require one overall reservation; restaurants and shows inside may have their own rules."
   },
   "El ritmo cambia radicalmente durante el fin de semana.": {
     "PT": "El ritmo cambia radicalmente durante el fin de semana.",
@@ -1997,8 +1997,8 @@ export default {
     "EN": "Entrada gratuita martes a jueves; R$10 viernes a domingo, salvo eventos especiales. Cada restaurante cobra su propia carta."
   },
   "Entraría con un presupuesto dividido entre comida, entrada, artesanía y transporte. Fotografiaría el nombre del puesto antes de alejarme y acordaría un punto de encuentro si el grupo se separa. En una noche de show no confiaría en encontrar mesa al llegar: escogería temprano, confirmaría si hay consumo mínimo y usaría transporte por aplicación para el último tramo.": {
-    "PT": "Entraría con un presupuesto dividido entre comida, entrada, artesanía y transporte. Fotografiaría el nombre del puesto antes de alejarme y acordaría un punto de encuentro si el grupo se separa. En una noche de show no confiaría en encontrar mesa al llegar: escogería temprano, confirmaría si hay consumo mínimo y usaría transporte por aplicación para el último tramo.",
-    "EN": "Entraría con un presupuesto dividido entre comida, entrada, artesanía y transporte. Fotografiaría el nombre del puesto antes de alejarme y acordaría un punto de encuentro si el grupo se separa. En una noche de show no confiaría en encontrar mesa al llegar: escogería temprano, confirmaría si hay consumo mínimo y usaría transporte por aplicación para el último tramo."
+    "PT": "Eu separaria o orçamento entre comida, entrada, artesanato e transporte. Fotografaria o nome da barraca antes de me afastar e combinaria um ponto de encontro caso o grupo se separasse. Em uma noite de show, não contaria com encontrar mesa ao chegar: escolheria cedo, confirmaria se há consumação mínima e usaria um carro por aplicativo no último trecho.",
+    "EN": "I would split the budget between food, admission, crafts and transport. I would take a photo of the stall name before walking away and agree on a meeting point in case the group gets separated. On a show night, I would not count on finding a table on arrival: I would choose one early, check for a minimum spend and use a ride-hailing app for the final leg."
   },
   "Ernestinho Carioca · São Cristóvão": {
     "PT": "Ernestinho Carioca · São Cristóvão",
@@ -2029,8 +2029,8 @@ export default {
     "EN": "Galería completa"
   },
   "Gran pabellón con circulación amplia; confirma baños, sillas, filas y acceso específico para el evento elegido.": {
-    "PT": "Gran pabellón con circulación amplia; confirma baños, sillas, filas y acceso específico para el evento elegido.",
-    "EN": "Gran pabellón con circulación amplia; confirma baños, sillas, filas y acceso específico para el evento elegido."
+    "PT": "Pavilhão amplo, com boa circulação; confirme banheiros, assentos, filas e o acesso específico para o evento escolhido.",
+    "EN": "A large pavilion with spacious walkways; check restroom, seating, queueing and event-specific access arrangements."
   },
   "Guía editorial de Feira de São Cristóvão: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.": {
     "PT": "Guia editorial de Feira de São Cristóvão: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.",
@@ -2049,16 +2049,16 @@ export default {
     "EN": "Official information: (21) 98860-3660; Riotur también publica (21) 4108-9248."
   },
   "La Feira ocupa un pabellón de 37 mil metros cuadrados y se siente como un pequeño barrio cubierto. Calles internas, escenarios, luces, restaurantes grandes, puestos de tapioca, artesanía y música compiten por la atención. Las fotografías de comida no pertenecen a una cocina única: representan posibilidades dentro del recinto. De día se percibe mercado; viernes y sábado por la noche, el forró y los shows transforman el espacio en una celebración colectiva.": {
-    "PT": "La Feira ocupa un pabellón de 37 mil metros cuadrados y se siente como un pequeño barrio cubierto. Calles internas, escenarios, luces, restaurantes grandes, barracas de tapioca, artesanía y música compiten por la atención. Las fotografías de comida no pertenecen a una cocina única: representan posibilidades dentro del recinto. De día se percibe mercado; viernes y sábado por la noche, el forró y los shows transforman el espacio en una celebración colectiva.",
-    "EN": "La Feira ocupa un pabellón de 37 mil metros cuadrados y se siente como un pequeño barrio cubierto. Calles internas, escenarios, luces, restaurantes grandes, stalls de tapioca, artesanía y music compiten por la atención. Las fotografías de comida no pertenecen a una cocina única: representan posibilidades dentro del recinto. De día se percibe market; viernes y sábado por la noche, el forró y los shows transforman el espacio en una celebración colectiva."
+    "PT": "A Feira ocupa um pavilhão de 37 mil metros quadrados e parece um pequeno bairro coberto. Ruas internas, palcos, luzes, restaurantes grandes, barracas de tapioca, artesanato e música disputam a atenção. As fotos de comida não representam uma única cozinha: mostram algumas das opções do espaço. Durante o dia, o ambiente lembra um mercado; nas noites de sexta e sábado, o forró e os shows transformam o lugar em uma celebração coletiva.",
+    "EN": "The Feira fills a 37,000-square-metre pavilion and feels like a small covered neighborhood. Its indoor streets, stages, lights, large restaurants, tapioca stalls, crafts and music all compete for your attention. The food photos do not represent a single kitchen; they show some of the options inside. By day, it feels like a market; on Friday and Saturday nights, forró and live shows turn the venue into a shared celebration."
   },
   "La abundancia es parte de muchos restaurantes internos.": {
     "PT": "La abundancia es parte de muchos restaurantes internos.",
     "EN": "La abundancia es parte de muchos restaurantes internos."
   },
   "La dirección es Campo de São Cristóvão, sin número. La estación São Cristóvão sirve como referencia ferroviaria y de metro, pero el tramo final no siempre resulta intuitivo; de noche prefiero completarlo en taxi o aplicación. El recinto informa unas 700 plazas de estacionamiento con tarifa, sujeta a cambios en eventos. Usa la entrada indicada en la programación del día.": {
-    "PT": "La dirección es Campo de São Cristóvão, sin número. La estación São Cristóvão sirve como referencia ferroviaria y de metro, pero el tramo final no siempre resulta intuitivo; de noche prefiero completarlo en taxi o aplicación. El recinto informa unas 700 plazas de estacionamiento con tarifa, sujeta a cambios en eventos. Usa la entrada indicada en la programación del día.",
-    "EN": "La dirección es Campo de São Cristóvão, sin número. La estación São Cristóvão sirve como referencia ferroviaria y de metro, pero el tramo final no siempre resulta intuitivo; de noche prefiero completarlo en taxi o aplicación. El recinto informa unas 700 plazas de estacionamiento con tarifa, sujeta a cambios en eventos. Usa la entrada indicada en la programación del día."
+    "PT": "O endereço é Campo de São Cristóvão, s/n. A estação São Cristóvão serve como referência para trem e metrô, mas o trecho final nem sempre é intuitivo; à noite, prefiro completar o trajeto de táxi ou carro por aplicativo. O espaço informa cerca de 700 vagas de estacionamento pago, sujeito a mudanças em dias de evento. Use a entrada indicada na programação do dia.",
+    "EN": "The address is Campo de São Cristóvão, with no street number. São Cristóvão station is a rail and metro landmark, but the final stretch is not always straightforward; at night, I prefer to take a taxi or ride-hailing car for that last leg. The venue lists around 700 paid parking spaces, subject to change during events. Use the entrance shown in the day’s program."
   },
   "Los sabores representan distintas regiones del Nordeste.": {
     "PT": "Los sabores representan distintas regiones del Nordeste.",
@@ -2069,12 +2069,12 @@ export default {
     "EN": "Map of Feira de São Cristóvão"
   },
   "Martes a jueves 10:00–18:00; viernes y sábado 10:00–04:00; domingo 10:00–20:00; lunes cerrado. Eventos pueden alterar el horario.": {
-    "PT": "Martes a jueves 10:00–18:00; viernes y sábado 10:00–04:00; domingo 10:00–20:00; lunes cerrado. Eventos pueden alterar el horario.",
-    "EN": "Martes a jueves 10:00–18:00; viernes y sábado 10:00–04:00; domingo 10:00–20:00; lunes cerrado. Eventos pueden alterar el horario."
+    "PT": "Terça a quinta, 10h–18h; sexta e sábado, 10h–4h; domingo, 10h–20h; segunda-feira, fechado. Eventos podem alterar os horários.",
+    "EN": "Tuesday to Thursday, 10:00–18:00; Friday and Saturday, 10:00–04:00; Sunday, 10:00–20:00; closed Monday. Events may change these hours."
   },
   "Martes a jueves, de 10:00 a 18:00, favorece compras y almuerzo sin espectáculo nocturno. Viernes y sábado el horario oficial llega hasta las 04:00, con otra densidad de público y música. Domingo funciona de 10:00 a 20:00 y suele ser apropiado para familias, aunque también muy concurrido. La entrada es gratuita de martes a jueves y cuesta R$10 de viernes a domingo, salvo feriados y eventos especiales.": {
-    "PT": "Martes a jueves, de 10:00 a 18:00, favorece compras y almuerzo sin espectáculo nocturno. Viernes y sábado el horario oficial llega hasta las 04:00, con otra densidad de público y música. Domingo funciona de 10:00 a 20:00 y suele ser apropiado para familias, aunque también muy concurrido. La entrada es gratuita de martes a jueves y cuesta R$10 de viernes a domingo, salvo feirados y eventos especiales.",
-    "EN": "Martes a jueves, de 10:00 a 18:00, favorece compras y almuerzo sin espectáculo nocturno. Viernes y sábado el horario oficial llega hasta las 04:00, con otra densidad de público y music. Domingo funciona de 10:00 a 20:00 y suele ser apropiado para familias, aunque también muy concurrido. La entrada es gratuita de martes a jueves y cuesta R$10 de viernes a domingo, salvo fairdos y eventos especiales."
+    "PT": "De terça a quinta, das 10h às 18h, é melhor para compras e almoço sem espetáculo noturno. Na sexta e no sábado, o horário oficial vai até as 4h, com outro ritmo de público e música. No domingo, funciona das 10h às 20h e costuma ser uma boa opção para famílias, embora também fique bem cheio. A entrada é gratuita de terça a quinta e custa R$10 de sexta a domingo, exceto em feriados e eventos especiais.",
+    "EN": "Tuesday to Thursday, 10:00–18:00, is best for shopping and lunch without the night show. On Friday and Saturday, official hours run until 04:00, with a different crowd and music scene. On Sunday, it is open 10:00–20:00 and can work well for families, though it is often busy. Admission is free Tuesday to Thursday and costs R$10 Friday to Sunday, except on holidays and during special events."
   },
   "Mercado cultural con restaurantes, puestos, artesanía, escenarios y música en vivo.": {
     "PT": "Mercado cultural con restaurantes, barracas, artesanía, escenarios y música en vivo.",
@@ -2113,8 +2113,8 @@ export default {
     "EN": "Noche cultural en la Feira"
   },
   "Once imágenes muestran platos, pabellón, ambiente y un restaurante interno; su variedad refleja que la Feira no tiene una sola mesa ni una carta única.": {
-    "PT": "Once imágenes muestran platos, pabellón, ambiente y un restaurante interno; su variedad refleja que la Feira no tiene una sola mesa ni una carta única.",
-    "EN": "Once imágenes muestran platos, pabellón, ambiente y un restaurante interno; su variedad refleja que la Feira no tiene una sola mesa ni una carta única."
+    "PT": "Onze imagens mostram pratos, o pavilhão, o ambiente e um restaurante interno; essa variedade mostra que a Feira não tem uma única mesa nem um cardápio só.",
+    "EN": "Eleven images show dishes, the pavilion, its atmosphere and an in-house restaurant; their variety reflects how the Feira has no single table or menu."
   },
   "Otra preparación regional de la Feira": {
     "PT": "Otra preparación regionais de la Feira",
@@ -2133,8 +2133,8 @@ export default {
     "EN": "Precios"
   },
   "Primero recorrería una vuelta completa antes de sentarme. Compararía cardápios, tamaño de las porciones y movimiento de cada cocina. Carne de sol con baião de dois, macaxeira, buchada, sarapatel, tapioca, acarajé y dulces regionales pueden aparecer, pero no todos pertenecen al mismo estado ni al mismo puesto. Para dos personas evitaría una fuente familiar sin preguntar cuántos comen. Probar un plato salado y luego un dulce o bebida regional enseña más que comprar varias comidas pesadas a la vez.": {
-    "PT": "Primero recorrería una vuelta completa antes de sentarme. Compararía cardápios, tamaño de las porciones y movimiento de cada cocina. Carne de sol con baião de dois, macaxeira, buchada, sarapatel, tapioca, acarajé y dulces regionaises pueden aparecer, pero no todos pertenecen al mismo estado ni al mismo puesto. Para dos personas evitaría una fuente familiar sin preguntar cuántos comen. Probar un plato salado y luego un dulce o bebida regionais enseña más que comprar varias comidas pesadas a la vez.",
-    "EN": "Primero recorrería una vuelta completa antes de sentarme. Compararía cardápios, tamaño de las porciones y movimiento de cada cocina. Carne de sol con baião de dois, macaxeira, buchada, sarapatel, tapioca, acarajé y dulces regionales pueden aparecer, pero no todos pertenecen al mismo estado ni al mismo puesto. Para dos personas evitaría una fuente familiar sin preguntar cuántos comen. Probar un plato salado y luego un dulce o bebida regional enseña más que comprar varias comidas pesadas a la vez."
+    "PT": "Eu daria uma volta completa antes de me sentar. Compararia os cardápios, o tamanho das porções e o movimento de cada cozinha. Carne de sol com baião de dois, macaxeira, buchada, sarapatel, tapioca, acarajé e doces regionais podem aparecer, mas nem todos são do mesmo estado ou da mesma barraca. Para duas pessoas, eu evitaria pedir uma porção familiar sem perguntar para quantas pessoas serve. Provar um prato salgado e depois um doce ou uma bebida regional ensina mais do que pedir várias refeições pesadas de uma vez.",
+    "EN": "I would do a full lap before sitting down. I would compare menus, portion sizes and how busy each kitchen is. Carne de sol with baião de dois, macaxeira, buchada, sarapatel, tapioca, acarajé and regional sweets may be on offer, but they do not all come from the same state or stall. For two people, I would avoid ordering a family-sized platter without asking how many it serves. Trying one savory dish followed by a sweet or regional drink tells you more than ordering several heavy meals at once."
   },
   "Qué combinar cerca": {
     "PT": "Qué combinar cerca",
@@ -2149,8 +2149,8 @@ export default {
     "EN": "Restaurante dentro de la Feira de São Cristóvão"
   },
   "Su nombre oficial es Centro Luiz Gonzaga de Tradições Nordestinas. Nació de la presencia de migrantes nordestinos en Río y se consolidó como espacio de encuentro, memoria y comercio regional. Allí conviven cocinas de varios estados del Nordeste, productos de mercearia, cordel, cuero, ropa, cachaça y música. Tratarla solamente como “un restaurante” borraría la dimensión cultural que explica por qué merece una ficha propia.": {
-    "PT": "Su nombre oficial es Centro Luiz Gonzaga de Tradições Nordestinas. Nació de la presencia de migrantes nordestinos en Río y se consolidó como espacio de encuentro, memoria y comercio regionais. Allí conviven cocinas de varios estados del Nordeste, produtos de mercearia, cordel, cuero, ropa, cachaça y música. Tratarla solamente como “un restaurante” borraría la dimensión cultural que explica por qué merece una ficha propia.",
-    "EN": "Su nombre oficial es Centro Luiz Gonzaga de Tradições Nordestinas. Nació de la presencia de migrantes nordestinos en Río y se consolidó como espacio de encuentro, memoria y comercio regional. Allí conviven cocinas de varios estados del Nordeste, products de mercearia, cordel, cuero, ropa, cachaça y music. Tratarla solamente como “un restaurante” borraría la dimensión cultural que explica por qué merece una ficha propia."
+    "PT": "Seu nome oficial é Centro Luiz Gonzaga de Tradições Nordestinas. O espaço nasceu da presença de migrantes nordestinos no Rio e se consolidou como ponto de encontro, memória e comércio regional. Ali convivem cozinhas de vários estados do Nordeste, produtos de mercearia, literatura de cordel, artigos de couro, roupas, cachaça e música. Tratá-lo apenas como “um restaurante” apagaria a dimensão cultural que justifica uma página própria.",
+    "EN": "Its official name is Centro Luiz Gonzaga de Tradições Nordestinas. It grew out of the presence of Northeastern migrants in Rio and became a place for gathering, memory and regional commerce. Kitchens from several Northeastern states sit alongside pantry goods, cordel literature, leather goods, clothing, cachaça and music. Calling it simply “a restaurant” would erase the cultural dimension that merits its own page."
   },
   "São Cristóvão, Zona Norte, dentro del Centro Luiz Gonzaga de Tradições Nordestinas.": {
     "PT": "São Cristóvão, Zona Norte, dentro del Centro Luiz Gonzaga de Tradições Nordestinas.",
@@ -2165,12 +2165,12 @@ export default {
     "EN": "Una experiencia cultural de gran escala."
   },
   "Una muestra entre muchas cocinas del pabellón.": {
-    "PT": "Una muestra entre muchas cocinas del pabellón.",
-    "EN": "Una muestra entre muchas cocinas del pabellón."
+    "PT": "Uma amostra entre as muitas cozinhas do pavilhão.",
+    "EN": "One of many kitchens in the pavilion."
   },
   "Yo la recomiendo como experiencia de medio día o de noche completa, no como una parada para fotografiar un plato y salir. El viajero debe elegir entre dos versiones: martes a jueves, más tranquila para explorar; o fin de semana, más intensa, con programación y multitudes. Familias pueden disfrutar temprano. Quien se incomoda con volumen alto, calor, vendedores, grandes porciones o decisiones constantes necesita planificar mejor la hora.": {
-    "PT": "Yo la recomiendo como experiencia de medio día o de noche completa, no como una parada para fotografiar un plato y salir. El viajero debe elegir entre dos versiones: martes a jueves, más tranquila para explorar; o fin de semana, más intensa, con programación y multitudes. Familias pueden disfrutar temprano. Quien se incomoda con volumen alto, calor, vendedores, grandes porciones o decisiones constantes necesita planificar mejor la hora.",
-    "EN": "Yo la recomiendo como experiencia de medio día o de noche completa, no como una parada para fotografiar un plato y salir. El viajero debe elegir entre dos versiones: martes a jueves, más tranquila para explorar; o fin de semana, más intensa, con programación y multitudes. Familias pueden disfrutar temprano. Quien se incomoda con volumen alto, calor, vendedores, grandes porciones o decisiones constantes necesita planificar mejor la hora."
+    "PT": "Eu a recomendo como um passeio de meio dia ou uma noite inteira, não como uma parada para fotografar um prato e ir embora. O visitante pode escolher entre dois ritmos: de terça a quinta, mais tranquilo para explorar; ou no fim de semana, mais intenso, com programação e multidões. Famílias podem aproveitar melhor chegando cedo. Quem se incomoda com volume alto, calor, vendedores, porções grandes ou muitas decisões deve planejar melhor o horário.",
+    "EN": "I recommend setting aside half a day or a full evening, rather than stopping just to photograph a dish and leave. Visitors can choose between two moods: Tuesday to Thursday is quieter for exploring, while the weekend is livelier, with shows and crowds. Families may enjoy an earlier visit. If you are sensitive to loud music, heat, vendors, large portions or constant choices, plan your timing carefully."
   },
   "© Ernestinho Carioca · Guía independiente de Río de Janeiro": {
     "PT": "© Ernestinho Carioca · Guia independiente de Río de Janeiro",
@@ -2453,8 +2453,8 @@ export default {
     "EN": "Visitors browsing Feira Hippie de Ipanema"
   },
   "Yo te recomiendo visitar la Feria Hippie de Ipanema no solamente para comprar. Para mí, la feria es una forma de conocer el barrio desde adentro: artistas, artesanos, vecinos, viajeros y curiosos se encuentran en la Praça General Osório para mirar, conversar y descubrir objetos q": {
-    "PT": "Yo te recomiemdo visitar la Feira Hippie de Ipanema no solamemte para comprar. Para mí, la feria es una forma de conocer el barrio desde ademtro: artistas, artesanos, vecinos, viajeros e curiosos se emcuemtran em la Praça Gemeral Osório para mirar, conversar e descubrir objetos q",
-    "EN": "Yo te recomiindo visitar la Fair Hippie de Ipanema no solaminte para comprar. Para mí, la feria es una forma de conocer el barrio desde adintro: artistas, artesanos, vecinos, viajeros and curiosos se incuintran in la Praça Gineral Osório para mirar, conversar and descubrir objetos q"
+    "PT": "Recomendo visitar a Feira Hippie de Ipanema não apenas para fazer compras. Para mim, a feira é uma forma de conhecer o bairro por dentro: artistas, artesãos, moradores, viajantes e curiosos se encontram na Praça General Osório para olhar, conversar e descobrir peças interessantes.",
+    "EN": "I recommend visiting Ipanema’s Hippie Fair for more than shopping. To me, it is a way to get to know the neighborhood from the inside: artists, craftspeople, residents, travelers and curious visitors meet at Praça General Osório to browse, talk and discover interesting finds."
   },
   "Yo te recomiendo visitar la Feria Hippie de Ipanema no solamente para comprar. Para mí, la feria es una forma de conocer el barrio desde adentro: artistas, artesanos, vecinos, viajeros y curiosos se encuentran en la Praça General Osório para mirar, conversar y descubrir objetos que no aparecen en una tienda convencional.": {
     "PT": "Eu recomendo visitar a Feira Hippie de Ipanema não apenas para comprar. Para mim, a feira é uma forma de conhecer o bairro por dentro: artistas, artesãos, moradores, viajantes e curiosos se encontram na Praça General Osório para observar, conversar e descobrir objetos que não aparecem em uma loja convencional.",
@@ -2569,8 +2569,8 @@ export default {
     "EN": "View of Feira do Lavradio"
   },
   "Yo te recomiendo la Feria do Lavradio si quieres conocer un Río de objetos, memoria y arquitectura. Para mí, la experiencia no consiste solamente en comprar una antigüedad: consiste en caminar por una calle histórica, mirar el trabajo de los expositores y descubrir cómo Lapa conv": {
-    "PT": "Yo te recomiemdo la Feira do Lavradio si quieres conocer un Río de objetos, memoria e arquitectura. Para mí, la experiemcia no consiste solamemte em comprar una antigüedad: consiste em caminar por una calle histórica, mirar el trabajo de los expositores e descubrir cómo Lapa conv",
-    "EN": "Yo te recomiindo la Fair do Lavradio si quieres conocer un Río de objetos, memoria and arquitectura. Para mí, la experiincia no consiste solaminte in comprar una antigüedad: consiste in caminar por una calle histórica, mirar el trabajo de los expositores and descubrir cómo Lapa conv"
+    "PT": "Recomendo a Feira do Lavradio para quem quer conhecer um Rio de objetos, memória e arquitetura. Para mim, a experiência não se resume a comprar uma antiguidade: é caminhar por uma rua histórica, observar o trabalho dos expositores e descobrir a história da Lapa.",
+    "EN": "I recommend Feira do Lavradio if you want to explore Rio through its objects, memory and architecture. To me, the experience is not just about buying an antique; it is about walking along a historic street, seeing the exhibitors’ work and discovering Lapa’s history."
   },
   "Yo te recomiendo la Feria do Lavradio si quieres conocer un Río de objetos, memoria y arquitectura. Para mí, la experiencia no consiste solamente en comprar una antigüedad: consiste en caminar por una calle histórica, mirar el trabajo de los expositores y descubrir cómo Lapa convierte su pasado en una experiencia viva.": {
     "PT": "Eu recomendo a Feira do Lavradio se você quiser conhecer um Rio de objetos, memória e arquitetura. Para mim, a experiência não consiste apenas em comprar uma antiguidade: consiste em caminhar por uma rua histórica, observar o trabalho dos expositores e descobrir como a Lapa transforma seu passado em uma experiência viva.",
@@ -2876,10 +2876,28 @@ export default {
     "PT": "Glória, Memorial Getúlio Vargas, Parque do Flamengo, Marina da Glória e Catete.",
     "EN": "Glória, Memorial Getúlio Vargas, Flamengo Park, Marina da Glória and Catete."
   },
-"quien se hospeda en Copacabana, busca recuerdos sin alejarse de la playa o quiere un paseo ligero después del día de turismo.": {"PT": "quem se hospeda em Copacabana, procura lembranças sem se afastar da praia ou quer um passeio leve depois do dia de turismo.", "EN": "those staying in Copacabana who want souvenirs near the beach or a relaxed walk after a day of sightseeing."},
-"préstamo de coche de bebé y silla de ruedas, Espacio Familia, Correios, cajeros, bicicletario, Wi‑Fi y estacionamiento 24 horas. También tiene hoteles integrados al complejo. Confirma condiciones y disponibilidad el día de la visita.": {"PT": "empréstimo de carrinho de bebê e cadeira de rodas, Espaço Família, Correios, caixas eletrônicos, bicicletário, Wi-Fi e estacionamento 24 horas. O complexo também tem hotéis integrados. Confirme as condições e a disponibilidade no dia da visita.", "EN": "stroller and wheelchair loans, a family area, Correios, ATMs, bicycle parking, Wi-Fi and 24-hour parking. The complex also includes hotels. Confirm conditions and availability on the day of your visit."},
-"viajeros que estén por Zona Norte, familias, quien quiera llegar fácilmente en metro o quien necesite resolver varias cosas en un solo lugar.": {"PT": "viajantes que estejam na Zona Norte, famílias, quem queira chegar facilmente de metrô ou resolver várias coisas em um só lugar.", "EN": "travelers in Zona Norte, families, anyone wanting easy metro access or to take care of several things in one place."},
-"familias, viajeros que estén por Leme/Copacabana y quien prefiera mirar artesanía con tiempo durante el día o la tarde.": {"PT": "famílias, viajantes em Leme/Copacabana e quem prefere olhar artesanato com calma durante o dia ou à tarde.", "EN": "families, travelers in Leme/Copacabana and anyone who prefers browsing crafts at leisure during the day or afternoon."},
-"Esta sí es una feria para garimpar. Yo llegaría por la mañana, sin prisa, porque entre las bancas pueden aparecer fotografías, vinilos, monedas, libros, juguetes, decoración, ropa, porcelana y objetos de otras épocas. No es solo comprar: para mí también es una forma muy entretenida de mirar la memoria cotidiana de Río.": {"PT": "Esta é uma feira para garimpar de verdade. Eu chegaria de manhã, sem pressa, porque entre as bancas podem aparecer fotografias, vinis, moedas, livros, brinquedos, decoração, roupas, porcelanas e objetos de outras épocas. Não é só comprar: para mim também é uma forma muito divertida de observar a memória cotidiana do Rio.", "EN": "This is a fair for treasure hunting. I would arrive in the morning and take my time: the stalls can hold photographs, vinyl records, coins, books, toys, decorations, clothes, porcelain and objects from other eras. It is more than shopping: for me, it is also a fascinating way to explore Rio's everyday memories."},
-"coleccionistas, curiosos, amantes de historia, fotografía y viajeros que disfrutan descubrir piezas inesperadas.": {"PT": "colecionadores, curiosos, amantes de história e fotografia e viajantes que gostam de descobrir peças inesperadas.", "EN": "collectors, curious visitors, history and photography lovers, and travelers who enjoy finding unexpected pieces."}
+  "quien se hospeda en Copacabana, busca recuerdos sin alejarse de la playa o quiere un paseo ligero después del día de turismo.": {
+    "PT": "quem se hospeda em Copacabana, procura lembranças sem se afastar da praia ou quer um passeio leve depois do dia de turismo.",
+    "EN": "those staying in Copacabana who want souvenirs near the beach or a relaxed walk after a day of sightseeing."
+  },
+  "préstamo de coche de bebé y silla de ruedas, Espacio Familia, Correios, cajeros, bicicletario, Wi‑Fi y estacionamiento 24 horas. También tiene hoteles integrados al complejo. Confirma condiciones y disponibilidad el día de la visita.": {
+    "PT": "empréstimo de carrinho de bebê e cadeira de rodas, Espaço Família, Correios, caixas eletrônicos, bicicletário, Wi-Fi e estacionamento 24 horas. O complexo também tem hotéis integrados. Confirme as condições e a disponibilidade no dia da visita.",
+    "EN": "stroller and wheelchair loans, a family area, Correios, ATMs, bicycle parking, Wi-Fi and 24-hour parking. The complex also includes hotels. Confirm conditions and availability on the day of your visit."
+  },
+  "viajeros que estén por Zona Norte, familias, quien quiera llegar fácilmente en metro o quien necesite resolver varias cosas en un solo lugar.": {
+    "PT": "viajantes que estejam na Zona Norte, famílias, quem queira chegar facilmente de metrô ou resolver várias coisas em um só lugar.",
+    "EN": "travelers in Zona Norte, families, anyone wanting easy metro access or to take care of several things in one place."
+  },
+  "familias, viajeros que estén por Leme/Copacabana y quien prefiera mirar artesanía con tiempo durante el día o la tarde.": {
+    "PT": "famílias, viajantes em Leme/Copacabana e quem prefere olhar artesanato com calma durante o dia ou à tarde.",
+    "EN": "families, travelers in Leme/Copacabana and anyone who prefers browsing crafts at leisure during the day or afternoon."
+  },
+  "Esta sí es una feria para garimpar. Yo llegaría por la mañana, sin prisa, porque entre las bancas pueden aparecer fotografías, vinilos, monedas, libros, juguetes, decoración, ropa, porcelana y objetos de otras épocas. No es solo comprar: para mí también es una forma muy entretenida de mirar la memoria cotidiana de Río.": {
+    "PT": "Esta é uma feira para garimpar de verdade. Eu chegaria de manhã, sem pressa, porque entre as bancas podem aparecer fotografias, vinis, moedas, livros, brinquedos, decoração, roupas, porcelanas e objetos de outras épocas. Não é só comprar: para mim também é uma forma muito divertida de observar a memória cotidiana do Rio.",
+    "EN": "This is a fair for treasure hunting. I would arrive in the morning and take my time: the stalls can hold photographs, vinyl records, coins, books, toys, decorations, clothes, porcelain and objects from other eras. It is more than shopping: for me, it is also a fascinating way to explore Rio's everyday memories."
+  },
+  "coleccionistas, curiosos, amantes de historia, fotografía y viajeros que disfrutan descubrir piezas inesperadas.": {
+    "PT": "colecionadores, curiosos, amantes de história e fotografia e viajantes que gostam de descobrir peças inesperadas.",
+    "EN": "collectors, curious visitors, history and photography lovers, and travelers who enjoy finding unexpected pieces."
+  }
 };
