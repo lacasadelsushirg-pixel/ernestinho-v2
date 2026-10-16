@@ -52,9 +52,14 @@ async function run(width){const ctx=await browser.newContext({viewport:{width,he
    const selector=width===390?`.ec-mobile-language-row a[data-ec-language="${language}"]`:`.ec-desktop-language a[data-desktop-language="${language}"]`;
    const pathname=(language==='ES'?'':'/'+language.toLowerCase())+route;
    await Promise.all([page.waitForURL(base+pathname+'?localeQa=1#locale-proof'),page.locator(selector).first().click()]);await ready();
-   const actual=await page.evaluate(()=>({path:location.pathname,search:location.search,hash:location.hash,lang:document.documentElement.lang,overflow:document.documentElement.scrollWidth>innerWidth+1}));
+   const actual=await page.evaluate(()=>({path:location.pathname,search:location.search,hash:location.hash,lang:document.documentElement.lang,overflow:document.documentElement.scrollWidth>innerWidth+1,highlights:(()=>{const section=document.querySelector('.home-highlights');return section?{label:section.getAttribute('aria-label'),cards:[...section.querySelectorAll('.home-highlight')].slice(1).map(card=>({text:card.innerText,alt:card.querySelector('img')?.alt}))}:null})()}));
    if(actual.path!==pathname||actual.search!=='?localeQa=1'||actual.hash!=='#locale-proof')row.problems.push('Selector lost equivalent URL/query/hash '+language);
    if(actual.overflow)row.problems.push('Overflow '+language);
+   if(route==='/'&&actual.highlights){
+    const expected={ES:{label:'Río en vivo, Ernestinho en TV y eventos',media:'Enlaces originales a programas, entrevistas y coberturas en Chile y Argentina.',event:'Fiestas, festivales y encuentros para sumar a tu viaje.',mediaAlt:'Ernestinho durante una aparición en televisión',eventAlt:'Eventos de Río de Janeiro'},PT:{label:'Rio ao vivo, Ernestinho na TV e eventos',media:'Links originais para programas, entrevistas e reportagens no Chile e na Argentina.',event:'Festas, festivais e encontros para incluir na sua viagem.',mediaAlt:'Ernestinho durante uma participação na televisão',eventAlt:'Eventos do Rio de Janeiro'},EN:{label:'Rio live, Ernestinho on TV and events',media:'Original links to TV programs, interviews and coverage in Chile and Argentina.',event:'Festivals and gatherings to add to your trip.',mediaAlt:'Ernestinho during a television appearance',eventAlt:'Events in Rio de Janeiro'}}[language];
+    const [media,event]=actual.highlights.cards;
+    if(actual.highlights.label!==expected.label||!media.text.includes(expected.media)||!event.text.includes(expected.event)||media.alt!==expected.mediaAlt||event.alt!==expected.eventAlt)row.problems.push('Home highlight card copy/alt is not localized '+language);
+   }
    row.cycles.push(actual);
   }
   rows.push(row);

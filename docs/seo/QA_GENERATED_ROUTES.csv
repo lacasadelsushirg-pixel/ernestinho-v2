@@ -310,7 +310,7 @@ route,language,indexable,status,words
 /destinos/buzios/servicios/,ES,True,PASS,642
 /destinos/buzios/supermercados/,ES,True,PASS,735
 /destinos/buzios/vida-nocturna/,ES,True,PASS,588
-/en/,EN,True,PASS,673
+/en/,EN,True,PASS,671
 /en/404.html,EN,False,PASS,30
 /en/atracciones/,EN,True,PASS,304
 /en/atracciones/aquario/,EN,True,PASS,1412

@@ -99,6 +99,21 @@ Object.assign(EN, {
   "buzios.copy":"A different rhythm. A different sea. Beaches, experiences, places to stay and everything you need to experience Búzios as a destination—not only as a day trip from Rio.",
   "buzios.cta":"DISCOVER BÚZIOS"
 });
+Object.assign(ES, {
+ "home.highlights.label":"Río en vivo, Ernestinho en TV y eventos",
+ "home.media.kicker":"APARICIONES Y PROGRAMAS","home.media.title":"Ernestinho en TV","home.media.copy":"Enlaces originales a programas, entrevistas y coberturas en Chile y Argentina.","home.media.cta":"VER APARICIONES →","home.media.alt":"Ernestinho durante una aparición en televisión",
+ "home.events.kicker":"AGENDA DE RÍO","home.events.title":"Eventos","home.events.copy":"Fiestas, festivales y encuentros para sumar a tu viaje.","home.events.cta":"VER EVENTOS →","home.events.alt":"Eventos de Río de Janeiro"
+});
+Object.assign(PT, {
+ "home.highlights.label":"Rio ao vivo, Ernestinho na TV e eventos",
+ "home.media.kicker":"PARTICIPAÇÕES E PROGRAMAS","home.media.title":"Ernestinho na TV","home.media.copy":"Links originais para programas, entrevistas e reportagens no Chile e na Argentina.","home.media.cta":"VER PARTICIPAÇÕES →","home.media.alt":"Ernestinho durante uma participação na televisão",
+ "home.events.kicker":"AGENDA DO RIO","home.events.title":"Eventos","home.events.copy":"Festas, festivais e encontros para incluir na sua viagem.","home.events.cta":"VER EVENTOS →","home.events.alt":"Eventos do Rio de Janeiro"
+});
+Object.assign(EN, {
+ "home.highlights.label":"Rio live, Ernestinho on TV and events",
+ "home.media.kicker":"MEDIA APPEARANCES","home.media.title":"Ernestinho on TV","home.media.copy":"Original links to TV programs, interviews and coverage in Chile and Argentina.","home.media.cta":"SEE APPEARANCES →","home.media.alt":"Ernestinho during a television appearance",
+ "home.events.kicker":"RIO EVENTS","home.events.title":"Events","home.events.copy":"Festivals and gatherings to add to your trip.","home.events.cta":"SEE EVENTS →","home.events.alt":"Events in Rio de Janeiro"
+});
 document.documentElement.dataset.i18nModule = "home";
 registerTranslations("home", { ES, PT, EN });
 const localizeBuziosImage=language=>{const image=document.querySelector('.home-buzios-media img');if(image){const alt={ES:'Costa de Búzios',PT:'Litoral de Búzios',EN:'Búzios coastline'}[language];image.alt=alt;image.dataset.ecAlt=alt;}};

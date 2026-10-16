@@ -13,21 +13,60 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": {
+            "label": "Rio ao vivo, Ernestinho na TV e eventos",
+            "cards": [
+              {
+                "text": "PARTICIPAÇÕES E PROGRAMAS\n\nErnestinho na TV\n\nLinks originais para programas, entrevistas e reportagens no Chile e na Argentina.\n\nVER PARTICIPAÇÕES →",
+                "alt": "Ernestinho durante uma participação na televisão"
+              },
+              {
+                "text": "AGENDA DO RIO\n\nEventos\n\nFestas, festivais e encontros para incluir na sua viagem.\n\nVER EVENTOS →",
+                "alt": "Eventos do Rio de Janeiro"
+              }
+            ]
+          }
         },
         {
           "path": "/en/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": {
+            "label": "Rio live, Ernestinho on TV and events",
+            "cards": [
+              {
+                "text": "MEDIA APPEARANCES\n\nErnestinho on TV\n\nOriginal links to TV programs, interviews and coverage in Chile and Argentina.\n\nSEE APPEARANCES →",
+                "alt": "Ernestinho during a television appearance"
+              },
+              {
+                "text": "RIO EVENTS\n\nEvents\n\nFestivals and gatherings to add to your trip.\n\nSEE EVENTS →",
+                "alt": "Events in Rio de Janeiro"
+              }
+            ]
+          }
         },
         {
           "path": "/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": {
+            "label": "Río en vivo, Ernestinho en TV y eventos",
+            "cards": [
+              {
+                "text": "APARICIONES Y PROGRAMAS\n\nErnestinho en TV\n\nEnlaces originales a programas, entrevistas y coberturas en Chile y Argentina.\n\nVER APARICIONES →",
+                "alt": "Ernestinho durante una aparición en televisión"
+              },
+              {
+                "text": "AGENDA DE RÍO\n\nEventos\n\nFiestas, festivales y encuentros para sumar a tu viaje.\n\nVER EVENTOS →",
+                "alt": "Eventos de Río de Janeiro"
+              }
+            ]
+          }
         }
       ],
       "inheritedUnavailableImages": []
@@ -42,21 +81,60 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": {
+            "label": "Rio ao vivo, Ernestinho na TV e eventos",
+            "cards": [
+              {
+                "text": "PARTICIPAÇÕES E PROGRAMAS\n\nErnestinho na TV\n\nLinks originais para programas, entrevistas e reportagens no Chile e na Argentina.\n\nVER PARTICIPAÇÕES →",
+                "alt": "Ernestinho durante uma participação na televisão"
+              },
+              {
+                "text": "AGENDA DO RIO\n\nEventos\n\nFestas, festivais e encontros para incluir na sua viagem.\n\nVER EVENTOS →",
+                "alt": "Eventos do Rio de Janeiro"
+              }
+            ]
+          }
         },
         {
           "path": "/en/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": {
+            "label": "Rio live, Ernestinho on TV and events",
+            "cards": [
+              {
+                "text": "MEDIA APPEARANCES\n\nErnestinho on TV\n\nOriginal links to TV programs, interviews and coverage in Chile and Argentina.\n\nSEE APPEARANCES →",
+                "alt": "Ernestinho during a television appearance"
+              },
+              {
+                "text": "RIO EVENTS\n\nEvents\n\nFestivals and gatherings to add to your trip.\n\nSEE EVENTS →",
+                "alt": "Events in Rio de Janeiro"
+              }
+            ]
+          }
         },
         {
           "path": "/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": {
+            "label": "Río en vivo, Ernestinho en TV y eventos",
+            "cards": [
+              {
+                "text": "APARICIONES Y PROGRAMAS\n\nErnestinho en TV\n\nEnlaces originales a programas, entrevistas y coberturas en Chile y Argentina.\n\nVER APARICIONES →",
+                "alt": "Ernestinho durante una aparición en televisión"
+              },
+              {
+                "text": "AGENDA DE RÍO\n\nEventos\n\nFiestas, festivales y encuentros para sumar a tu viaje.\n\nVER EVENTOS →",
+                "alt": "Eventos de Río de Janeiro"
+              }
+            ]
+          }
         }
       ],
       "inheritedUnavailableImages": []
@@ -71,21 +149,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/compras/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/compras/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -100,21 +181,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/compras/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/compras/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -129,21 +213,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/cultura/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/cultura/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -158,21 +245,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/cultura/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/cultura/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -187,21 +277,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/experiencias/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/experiencias/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -216,21 +309,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/experiencias/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/experiencias/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -245,21 +341,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/gastronomia/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/gastronomia/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -274,21 +373,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/gastronomia/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/gastronomia/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -303,21 +405,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/guia/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/guia/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -332,21 +437,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/guia/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/guia/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -361,21 +469,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/hospedaje/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/hospedaje/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -390,21 +501,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/hospedaje/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/hospedaje/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -419,21 +533,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/transportes/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/transportes/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -448,21 +565,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/transportes/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/transportes/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -477,21 +597,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/vida-nocturna/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/vida-nocturna/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []
@@ -506,21 +629,24 @@
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "pt-BR",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/en/vida-nocturna/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "en",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         },
         {
           "path": "/vida-nocturna/",
           "search": "?localeQa=1",
           "hash": "#locale-proof",
           "lang": "es",
-          "overflow": false
+          "overflow": false,
+          "highlights": null
         }
       ],
       "inheritedUnavailableImages": []

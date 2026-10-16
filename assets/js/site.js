@@ -214,7 +214,7 @@ function ensureGlobalActions() {
 function translateAttrs(lang) {
   const attrs = [
     ["placeholder", "ecPlaceholder", "i18nPlaceholder"], ["aria-label", "ecAriaLabel", "i18nAriaLabel"],
-    ["title", "ecTitle", "i18nTitle"], ["alt", "ecAlt", null], ["content", "ecContent", "i18nContent"]
+    ["title", "ecTitle", "i18nTitle"], ["alt", "ecAlt", "i18nAlt"], ["content", "ecContent", "i18nContent"]
   ];
   document.querySelectorAll('[placeholder], [aria-label]:not(#lang):not([data-lang-toggle]):not([data-ec-desktop-language-group]), [title], img[alt], meta[name=description], meta[name^="twitter:"], meta[property^="og:"]').forEach(el => {
     for (const [attr, originalKey, translationKey] of attrs) {
