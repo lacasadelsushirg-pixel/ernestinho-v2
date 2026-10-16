@@ -258,7 +258,7 @@ async function worker(){
  }
  await context.close();
 }
-try{await Promise.all(Array.from({length:Number(process.env.EC_BUILD_WORKERS||4)},worker));}finally{await browser.close();server.close();}
+try{await Promise.all(Array.from({length:Number(process.env.EC_BUILD_WORKERS||6)},worker));}finally{await browser.close();server.close();}
 if(errors.length)throw Error(JSON.stringify(errors));
 if(previous){const changed=new Set([...manifest.map(r=>r.route),...prunedRoutes]);manifest.push(...previous.routes.filter(r=>!changed.has(r.route)));}
 manifest.sort((a,b)=>a.route.localeCompare(b.route));
