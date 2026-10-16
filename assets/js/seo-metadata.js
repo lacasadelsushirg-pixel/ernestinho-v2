@@ -599,6 +599,23 @@ export const SEO_METADATA = {
   }
 };
 Object.assign(SEO_METADATA, ATTRACTION_SEO);
+Object.assign(SEO_METADATA, {
+  '/barrios/copacabana/': {
+    ES: ['Copacabana | Barrios de Río | Ernestinho Carioca', 'Descubre Copacabana más allá de la playa: su historia, ferias, paseos, música, gastronomía y rincones cotidianos con los consejos de Ernestinho Carioca.'],
+    PT: ['Copacabana além da praia | Bairros do Rio | Ernestinho Carioca', 'Conheça Copacabana além da praia: história, feiras, passeios, música, gastronomia e cantinhos do dia a dia com as dicas de Ernestinho Carioca.'],
+    EN: ['Copacabana Beyond the Beach | Rio Neighborhoods | Ernestinho Carioca', 'Explore Copacabana beyond the beach, from its history and markets to walks, music, food and everyday corners through Ernestinho Carioca’s local perspective.']
+  },
+  '/barrios/ipanema/': {
+    ES: ['Ipanema | Barrios de Río | Ernestinho Carioca', 'La playa es solo el comienzo: arte, bossa nova, plazas, feria y una de las horas doradas más lindas de Río.'],
+    PT: ['Ipanema | Bairros do Rio | Ernestinho Carioca', 'A praia é só o começo: arte, bossa nova, praças, feira e um dos pores do sol mais bonitos do Rio.'],
+    EN: ['Ipanema | Rio Neighborhoods | Ernestinho Carioca', 'The beach is only the beginning: discover art, bossa nova, squares, street markets and one of Rio’s loveliest golden hours.']
+  },
+  '/gastronomia/spesso/': {
+    ES: ['Spesso: guía completa | Ernestinho Carioca', 'Guía editorial de Spesso: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.'],
+    PT: ['Spesso Copacabana: guia completo | Ernestinho Carioca', 'Conheça a unidade de Copacabana: proposta italiana, ambiente, dicas de visita, horários, transporte e mapa. Confirme o endereço da Rua Sousa Lima antes de ir.'],
+    EN: ['Spesso Copacabana: Complete Guide | Ernestinho Carioca', 'A guide to Spesso in Copacabana, with its Italian concept, atmosphere, visit tips, opening hours, transport and map. Confirm the Sousa Lima address before setting out.']
+  }
+});
 export function applySeoMetadata(language, route = routeParts().path) {
   const copy = SEO_METADATA[route]?.[language];
   if (!copy) return;
