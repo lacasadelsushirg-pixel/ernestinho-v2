@@ -34,6 +34,16 @@ const targets=files.filter(f=>!pilot||pilot.includes(routeFor(f))).flatMap(f=>['
 function repairBareHeadMeta(html){
  return html.replace(/<head\b[^>]*>[\s\S]*?<\/head>/i,head=>head.replace(/(^|\n)(\s*)meta\s+(?=(?:property|name)=["'])/g,'$1$2<meta '));
 }
+const escapeHtml=value=>String(value).replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+function setHtmlMeta(html,attribute,key,value){
+ let replaced=false;const escaped=escapeHtml(value),matchAttr=new RegExp(`\\b${attribute}=["']${key}["']`,'i');
+ html=html.replace(/<meta\b[^>]*>/gi,tag=>{
+  if(replaced||!matchAttr.test(tag))return tag;
+  replaced=true;
+  return /\bcontent\s*=/i.test(tag)?tag.replace(/\bcontent\s*=\s*(["'])[\s\S]*?\1/i,`content="${escaped}"`):tag.replace(/\s*\/?>(?=$)/,` content="${escaped}">`);
+ });
+ return replaced?html:html.replace(/<\/head>/i,`<meta ${attribute}="${key}" content="${escaped}"></head>`);
+}
 // Marker exists only in build output. Preserve legacy source preview for audits.
 const bootstrap=`<script data-ec-locale-bootstrap>(function(){var m=location.pathname.match(new RegExp('^/(pt|en)(?=/|$)','i')),l=m?m[1].toUpperCase():'ES';document.documentElement.lang=l==='PT'?'pt-BR':l.toLowerCase();try{localStorage.setItem('ec-lang',l);localStorage.setItem('ec-language',l.toLowerCase());localStorage.setItem('ec_lang',l.toLowerCase());}catch(_){}})();</script>`;
 const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp'};
@@ -125,11 +135,22 @@ async function worker(){
    if(alias){
     const destination=new URL(alias[0].match(/url=([^"'>]+)/i)[1],base+target.route);
     const finalPath=prefix(destination.pathname,target.language)+destination.search+destination.hash;
-    const html=source.replace(/<html\b[^>]*>/i,`<html lang="${target.language==='PT'?'pt-BR':target.language.toLowerCase()}">`)
+    let html=source.replace(/<html\b[^>]*>/i,`<html lang="${target.language==='PT'?'pt-BR':target.language.toLowerCase()}">`)
       .replace(/(url=)([^"'>]+)/i,(_,key)=>key+finalPath)
       .replace(/window\.location\.replace\([^)]*\)/,`window.location.replace(${JSON.stringify(finalPath)})`)
       .replace(/(<link[^>]*rel=["']canonical["'][^>]*href=)["'][^"']*["']/i,`$1"${origin+finalPath}"`)
       .replace(/href=["']\.\.\/[^"']+["']/g,`href="${finalPath}"`);
+    const seoCopy=SEO_METADATA[target.route]?.[target.language];
+    if(seoCopy){
+     const [title,description]=seoCopy;
+     html=html.replace(/<title\b[^>]*>[\s\S]*?<\/title>/i,`<title>${escapeHtml(title)}</title>`);
+     html=setHtmlMeta(html,'name','description',description);
+     html=setHtmlMeta(html,'property','og:title',title);
+     html=setHtmlMeta(html,'property','og:description',description);
+     html=setHtmlMeta(html,'property','og:url',origin+finalPath);
+     html=setHtmlMeta(html,'name','twitter:title',title);
+     html=setHtmlMeta(html,'name','twitter:description',description);
+    }
     const dest=path.join(out,route.slice(1)+'index.html');fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,html);
     manifest.push({route,source:target.route,language:target.language,indexable:false,redirect:finalPath});continue;
    }
