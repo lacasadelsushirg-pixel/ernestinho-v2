@@ -614,6 +614,91 @@ Object.assign(SEO_METADATA, {
     ES: ['Spesso: guía completa | Ernestinho Carioca', 'Guía editorial de Spesso: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.'],
     PT: ['Spesso Copacabana: guia completo | Ernestinho Carioca', 'Conheça a unidade de Copacabana: proposta italiana, ambiente, dicas de visita, horários, transporte e mapa. Confirme o endereço da Rua Sousa Lima antes de ir.'],
     EN: ['Spesso Copacabana: Complete Guide | Ernestinho Carioca', 'A guide to Spesso in Copacabana, with its Italian concept, atmosphere, visit tips, opening hours, transport and map. Confirm the Sousa Lima address before setting out.']
+  },
+  '/guia/donde-alojarse/': {
+    ES: ['Dónde alojarse en Río | Guía Ernestinho Carioca', 'Guía de hospedaje por barrios de Río de Janeiro: Copacabana, Ipanema, Barra, Centro y otras zonas, con fotografías originales.'],
+    PT: ['Onde se hospedar no Rio | Guia Ernestinho Carioca', 'Guia de hospedagem por bairros do Rio de Janeiro: Copacabana, Ipanema, Barra, Centro e outras áreas, com fotos originais.'],
+    EN: ['Where to Stay in Rio | Ernestinho Carioca Guide', 'A neighborhood guide to accommodation in Rio de Janeiro, from Copacabana and Ipanema to Barra and Centro, with original photography.']
+  },
+  '/guia/mes-a-mes/': {
+    ES: ['Río mes a mes | Ernestinho Carioca', 'Guía de clima, playa, eventos, movimiento y planificación de Río durante los doce meses del año.'],
+    PT: ['Rio mês a mês | Ernestinho Carioca', 'Guia do clima, das praias, dos eventos, do movimento e do planejamento no Rio ao longo dos doze meses do ano.'],
+    EN: ['Rio Month by Month | Ernestinho Carioca', 'A month-by-month guide to Rio’s weather, beaches, events, crowds and trip planning throughout the year.']
+  },
+  '/playas/': {
+    ES: ['Playas de Río | Ernestinho Carioca', 'Playas de Río | Ernestinho Carioca. Cada playa tiene su ritmo. Aquí tienes las fichas reales que ya habíamos construido para elegir mejor.'],
+    PT: ['Praias do Rio | Ernestinho Carioca', 'Cada praia tem seu ritmo. Consulte nossos guias das praias do Rio para comparar trechos, mar, acesso e escolher melhor onde passar o dia.'],
+    EN: ['Rio Beaches | Ernestinho Carioca', 'Every beach has its own pace. Explore our Rio beach guides to compare areas, sea conditions and access, and choose where to spend the day.']
+  },
+  '/vida-nocturna/boa-praca-ipanema/': {
+    ES: ['Boa Praça Ipanema | Vida Nocturna en Río | Ernestinho Carioca', 'Un boteco de playa con feijoada, chope, música y ambiente festivo frente a Ipanema. Incluyo la dirección exacta y cómo revisar agenda.'],
+    PT: ['Boa Praça Ipanema | Vida Noturna no Rio | Ernestinho Carioca', 'Um boteco à beira-mar com feijoada, chope, música e clima animado em frente a Ipanema. Veja o endereço e saiba como conferir a programação.'],
+    EN: ['Boa Praça Ipanema | Nightlife in Rio | Ernestinho Carioca', 'A beachfront boteco serving feijoada and draft beer, with music and a lively atmosphere across from Ipanema. Find the address and check the event schedule.']
+  },
+  '/vida-nocturna/chopperia-botafogo/': {
+    ES: ['Chopperia Botafogo | Vida Nocturna en Río | Ernestinho Carioca', 'Brasa alta, chope gelado y ambiente de bar de barrio en Botafogo. Te cuento qué pedir, cuándo ir y qué cambió en Rua Sorocaba, 585.'],
+    PT: ['Chopperia Botafogo | Vida Noturna no Rio | Ernestinho Carioca', 'Churrasco na brasa, chope gelado e clima de bar de bairro em Botafogo. Veja o que pedir, quando ir e o que mudou na Rua Sorocaba, 585.'],
+    EN: ['Chopperia Botafogo | Nightlife in Rio | Ernestinho Carioca', 'Charcoal-grilled food, cold draft beer and a neighborhood-bar feel in Botafogo. Find out what to order, when to go and what changed at Rua Sorocaba, 585.']
+  },
+  '/vida-nocturna/coisas-de-bamba/': {
+    ES: ['Coisas de Bamba | Vida Nocturna en Copacabana | Ernestinho Carioca', 'Coisas de Bamba: samba en vivo frente al mar en el Posto 4 de Copacabana, abierto 24 horas y con programación musical frecuente.'],
+    PT: ['Coisas de Bamba | Vida Noturna em Copacabana | Ernestinho Carioca', 'Coisas de Bamba: samba ao vivo de frente para o mar no Posto 4 de Copacabana, aberto 24 horas e com programação musical frequente.'],
+    EN: ['Coisas de Bamba | Nightlife in Copacabana | Ernestinho Carioca', 'Coisas de Bamba: live samba by the sea at Copacabana’s Posto 4, open 24 hours with frequent music programming.']
+  },
+  '/vida-nocturna/coordenadas-bar/': {
+    ES: ['Coordenadas Bar: shows y pista en Botafogo | Ernestinho Carioca', 'Mi guía de Coordenadas Bar en Botafogo: shows, happy hour, reservas, horarios publicados, reglas de la casa, accesibilidad y opiniones.'],
+    PT: ['Coordenadas Bar: shows e pista em Botafogo | Ernestinho Carioca', 'Meu guia do Coordenadas Bar em Botafogo: shows, happy hour, reservas, horários publicados, regras da casa, acessibilidade e avaliações.'],
+    EN: ['Coordenadas Bar: shows and dancing in Botafogo | Ernestinho Carioca', 'My guide to Coordenadas Bar in Botafogo: live shows, happy hour, bookings, published hours, house rules, accessibility and visitor reviews.']
+  },
+  '/vida-nocturna/isabel-lounge/': {
+    ES: ['Isabel Lounge: rooftop del Hilton Copacabana | Ernestinho Carioca', 'Mi guía de Isabel Lounge en el Hilton Copacabana: vista 360°, gastronomía brasileña contemporánea, DJs de viernes y sábado, reservas y acceso al público.'],
+    PT: ['Isabel Lounge: rooftop do Hilton Copacabana | Ernestinho Carioca', 'Meu guia do Isabel Lounge no Hilton Copacabana: vista de 360°, cozinha brasileira contemporânea, DJs às sextas e sábados, reservas e acesso para não hóspedes.'],
+    EN: ['Isabel Lounge: Hilton Copacabana rooftop | Ernestinho Carioca', 'My guide to Isabel Lounge at the Hilton Copacabana: 360-degree views, Brazilian cuisine, weekend DJs, reservations and access for non-guests.']
+  },
+  '/vida-nocturna/macuna/': {
+    ES: ['Macuna | Vida Nocturna en Río | Ernestinho Carioca', 'Macuna Arte es un bar cultural de Botafogo con música y DJs. Su perfil oficial publica horarios y dirección; confirma agenda y acceso antes de salir.'],
+    PT: ['Macuna | Vida Noturna no Rio | Ernestinho Carioca', 'O Macuna Arte é um bar cultural em Botafogo com música e DJs. O perfil oficial informa horários e endereço; confirme a programação e o acesso antes de sair.'],
+    EN: ['Macuna | Nightlife in Rio | Ernestinho Carioca', 'Macuna Arte is a cultural bar in Botafogo with music and DJs. Its official profile lists hours and address; check the schedule and entry details before you go.']
+  },
+  '/vida-nocturna/moonlounge/': {
+    ES: ['Moonlounge: rooftop bar del JW Marriott en Copacabana | Ernestinho Carioca', 'Mi guía de Moonlounge en el JW Marriott Copacabana: vistas de la orla, cocina de calle, horarios de Riotur y acceso.'],
+    PT: ['Moonlounge: rooftop bar do JW Marriott em Copacabana | Ernestinho Carioca', 'Meu guia do Moonlounge no JW Marriott Copacabana: vista para a orla, comida inspirada na rua, horários publicados pela Riotur e como confirmar o acesso.'],
+    EN: ['Moonlounge: JW Marriott rooftop bar in Copacabana | Ernestinho Carioca', 'My guide to Moonlounge at the JW Marriott Copacabana: oceanfront views, street-food-inspired dishes, hours listed by Riotur and how to confirm access.']
+  },
+  '/vida-nocturna/nosso/': {
+    ES: ['Nosso | Vida Nocturna en Río | Ernestinho Carioca', 'Coctelería de autor, cocina contemporánea y una casa de varios ambientes en Ipanema. Mi guía para ir a cenar, tomar algo y reservar.'],
+    PT: ['Nosso | Vida Noturna no Rio | Ernestinho Carioca', 'Coquetelaria autoral, cozinha contemporânea e vários ambientes em Ipanema. Meu guia para jantar, tomar um drinque e fazer reserva.'],
+    EN: ['Nosso | Nightlife in Rio | Ernestinho Carioca', 'Signature cocktails, contemporary cuisine and several spaces in Ipanema. My guide to having dinner, grabbing a drink and booking a table.']
+  },
+  '/vida-nocturna/pink-flamingo/': {
+    ES: ['Pink Flamingo | Vida Nocturna en Río | Ernestinho Carioca', 'Fiestas pop, DJs y shows drag en Copacabana. Te explico cómo escoger la fecha, dónde queda y qué dicen las reseñas recientes.'],
+    PT: ['Pink Flamingo | Vida Noturna no Rio | Ernestinho Carioca', 'Festas pop, DJs e shows de drag em Copacabana. Veja como escolher a data, onde fica e o que dizem as avaliações recentes.'],
+    EN: ['Pink Flamingo | Nightlife in Rio | Ernestinho Carioca', 'Pop parties, DJs and drag shows in Copacabana. Find out how to choose a date, where it is and what recent reviews say.']
+  },
+  '/vida-nocturna/pizzaria-canastra/': {
+    ES: ['Pizzaria Canastra en Ipanema | Ernestinho Carioca', 'La antigua vinoteca Canastra ahora es Pizzaria Canastra, en Ipanema. Consulta dirección, horario, pizzas para compartir y cómo planear la visita.'],
+    PT: ['Pizzaria Canastra em Ipanema | Ernestinho Carioca', 'A antiga vinoteca Canastra agora é a Pizzaria Canastra, em Ipanema. Veja endereço, horário, pizzas para compartilhar e como planejar a visita.'],
+    EN: ['Pizzaria Canastra in Ipanema | Ernestinho Carioca', 'The former Canastra wine bar is now Pizzaria Canastra in Ipanema. See its address, hours, shareable pizzas and visit tips.']
+  },
+  '/vida-nocturna/quartinho/': {
+    ES: ['Quartinho | Vida Nocturna en Río | Ernestinho Carioca', 'Quartinho es una buena muestra de la noche actual de Botafogo: pequeño, creativo, informal y con una carta que tiene personalidad propia.'],
+    PT: ['Quartinho | Vida Noturna no Rio | Ernestinho Carioca', 'O Quartinho representa bem a noite atual de Botafogo: pequeno, criativo, informal e com um cardápio cheio de personalidade.'],
+    EN: ['Quartinho | Nightlife in Rio | Ernestinho Carioca', 'Quartinho captures Botafogo’s current nightlife: small, creative and casual, with a menu full of its own character.']
+  },
+  '/vida-nocturna/sacadura-154/': {
+    ES: ['Sacadura 154 | Vida Nocturna en Río | Ernestinho Carioca', 'Sacadura 154 es un espacio de grandes eventos, no para improvisar cualquier noche: revisa la programación y organiza tu salida.'],
+    PT: ['Sacadura 154 | Vida Noturna no Rio | Ernestinho Carioca', 'A Sacadura 154 não é um lugar para chegar em qualquer noite: é um grande espaço de eventos. Primeiro escolha a programação, depois organize a saída.'],
+    EN: ['Sacadura 154 | Nightlife in Rio | Ernestinho Carioca', 'Sacadura 154 is not a venue to visit on just any night. Treat it as a large event space: check the lineup first, then plan your night out.']
+  },
+  '/vida-nocturna/vaca-atolada/': {
+    ES: ['Vaca Atolada | Vida Nocturna en Río | Ernestinho Carioca', 'Una noche espontánea de Lapa con boteco, cerveza y samba en Vaca Atolada: canciones que alargan la salida más de lo previsto.'],
+    PT: ['Vaca Atolada | Vida Noturna no Rio | Ernestinho Carioca', 'O Vaca Atolada é uma daquelas noites que associo a uma Lapa espontânea: boteco, cerveja, samba e gente que acaba cantando e ficando bem mais do que imaginava.'],
+    EN: ['Vaca Atolada | Nightlife in Rio | Ernestinho Carioca', 'Vaca Atolada is the kind of night I associate with spontaneous Lapa: a boteco, beer, samba and people singing and staying far longer than they planned.']
+  },
+  '/vida-nocturna/zeca-vogue/': {
+    ES: ['Bar do Zeca Pagodinho | Vida Nocturna en Río | Ernestinho Carioca', 'El Bar do Zeca Pagodinho es una opción directa para quien quiere una noche de samba y pagode en Barra, con estructura de bar-restaurante y programación musical.'],
+    PT: ['Bar do Zeca Pagodinho | Vida Noturna no Rio | Ernestinho Carioca', 'O Bar do Zeca Pagodinho é uma escolha direta para quem quer uma noite de samba e pagode na Barra, com estrutura de bar-restaurante e programação musical.'],
+    EN: ['Bar do Zeca Pagodinho | Nightlife in Rio | Ernestinho Carioca', 'Bar do Zeca Pagodinho is a straightforward choice for a night of samba and pagode in Barra, with a bar-restaurant setup and live music programming.']
   }
 });
 export function applySeoMetadata(language, route = routeParts().path) {
