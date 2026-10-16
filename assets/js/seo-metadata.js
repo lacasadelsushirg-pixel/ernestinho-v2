@@ -699,6 +699,16 @@ Object.assign(SEO_METADATA, {
     ES: ['Bar do Zeca Pagodinho | Vida Nocturna en Río | Ernestinho Carioca', 'El Bar do Zeca Pagodinho es una opción directa para quien quiere una noche de samba y pagode en Barra, con estructura de bar-restaurante y programación musical.'],
     PT: ['Bar do Zeca Pagodinho | Vida Noturna no Rio | Ernestinho Carioca', 'O Bar do Zeca Pagodinho é uma escolha direta para quem quer uma noite de samba e pagode na Barra, com estrutura de bar-restaurante e programação musical.'],
     EN: ['Bar do Zeca Pagodinho | Nightlife in Rio | Ernestinho Carioca', 'Bar do Zeca Pagodinho is a straightforward choice for a night of samba and pagode in Barra, with a bar-restaurant setup and live music programming.']
+  },
+  '/guia/moverse/': {
+    ES: ['Cómo moverse por Río | Ernestinho Carioca', 'Cómo moverse por Río de Janeiro: metro, VLT, BRT, buses, apps y consejos prácticos para elegir el transporte según cada recorrido.'],
+    PT: ['Como se locomover pelo Rio | Ernestinho Carioca', 'Saiba como se locomover pelo Rio: metrô, VLT, BRT, ônibus e aplicativos, com dicas práticas para escolher o transporte em cada trajeto.'],
+    EN: ['Getting Around Rio | Ernestinho Carioca', 'Find your way around Rio by metro, VLT, BRT, bus and apps, with practical tips for choosing transport for each journey.']
+  },
+  '/vida-nocturna/boa-praca-leblon/': {
+    ES: ['Boa Praça Leblon | Ernestinho Carioca', 'Fotos e información oficial de Boteco Boa Praça, unidad Leblon.'],
+    PT: ['Boa Praça Leblon | Ernestinho Carioca', 'Fotos e informações oficiais do Boteco Boa Praça, unidade de Leblon.'],
+    EN: ['Boa Praça Leblon | Ernestinho Carioca', 'Official photos and information about the Boteco Boa Praça venue in Leblon.']
   }
 });
 export function applySeoMetadata(language, route = routeParts().path) {
