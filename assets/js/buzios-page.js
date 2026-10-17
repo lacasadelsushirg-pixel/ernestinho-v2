@@ -1045,6 +1045,8 @@ enhanceExisting(PAGES);
 closeEditorial(PAGES);
 // The home shows only main destinations; practical guides live under their parent topics.
 PAGES['/destinos/buzios/'].sections=PAGES['/destinos/buzios/'].sections.filter(s=>s.title?.ES!=='Resuelve tu viaje por tema');
+const practicalPage=PAGES['/destinos/buzios/consejos/'];
+if(practicalPage)practicalPage.sections=practicalPage.sections.filter(s=>s.title?.ES!=='Resuelve tu viaje por tema');
 const sub=(title,href,copy)=>link(title,href,copy);
 const addSubtopics=(route,items)=>{const p=PAGES[route];if(!p)return;const seen=new Set(items.map(x=>x.href));p.related=[...items,...(p.related||[]).filter(x=>!seen.has(x.href))];};
 addSubtopics('/destinos/buzios/playas/',A(
