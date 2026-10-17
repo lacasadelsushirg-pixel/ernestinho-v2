@@ -247,6 +247,18 @@ function applyEmbeddedShoppingCopy(lang) {
     if (text) text.nodeValue = value;
   });
 }
+function localizeCorporateWhatsApp(lang) {
+  const link = document.querySelector(".ec-closing-cta a[href*='5521969946938']");
+  if (!link) return;
+  const messages = {
+    ES: "Hola Ernestinho, quiero conocer Río contigo.",
+    PT: "Olá Ernestinho, quero conhecer o Rio com você.",
+    EN: "Hi Ernestinho, I’d like to explore Rio with you."
+  };
+  const selected = String(lang || getLanguage()).slice(0, 2).toUpperCase();
+  link.href = "https://wa.me/5521969946938?text=" + encodeURIComponent(messages[selected] || messages.ES);
+}
+
 function apply(lang) {
   const selected = setLanguage(lang);
   applyEmbeddedShoppingCopy(selected);
@@ -260,6 +272,7 @@ function apply(lang) {
   applySeoMetadata(selected);
   localizeAttractionBooking(selected);
   localizeLinks(document, selected);
+  localizeCorporateWhatsApp(selected);
   syncLocaleMetadata();
 }
 function ensureGuideAdn(){const p=routeParts().path;if(!p.startsWith('/guia/'))return;if(document.querySelector('link[data-guide-adn]'))return;const l=document.createElement('link');l.rel='stylesheet';l.href=new URL('../css/guia-adn.css',import.meta.url).href;l.dataset.guideAdn='';document.head.appendChild(l);}
@@ -305,7 +318,7 @@ async function init() {
     const selected = event.detail?.lang || getLanguage();
     applyEmbeddedShoppingCopy(selected);
     translateText(document.head, selected); translateText(document.body, selected); translateAttrs(selected); applyTranslations(document, selected);
-    applySeoMetadata(selected); localizeAttractionBooking(selected); syncLocaleMetadata();
+    applySeoMetadata(selected); localizeAttractionBooking(selected); localizeCorporateWhatsApp(selected); syncLocaleMetadata();
   });
   // Bridge shared language controls to pages that render their own ES/PT/EN copy.
   let syncingEmbeddedLanguage = false;
