@@ -7,6 +7,7 @@ import { addEditorial, enhanceExisting } from './buzios-editorial.js';
 import { closeEditorial } from './buzios-closure.js';
 import { buziosPhotos } from './buzios-photos.js';
 import { ready as navigationReady } from './site.js';
+import { apply as renderFoodGuide } from './buzios-food-guide.js';
 
 const T=(es,pt,en)=>({ES:es,PT:pt,EN:en});
 const A=(...items)=>items;
@@ -1147,5 +1148,5 @@ function render(){
   const schema=document.querySelector('script[type="application/ld+json"]');if(schema)schema.textContent=JSON.stringify({'@context':'https://schema.org','@type':'WebPage',name:document.title,description,url:canonical,inLanguage:document.documentElement.lang,isPartOf:{'@type':'WebSite',name:'Ernestinho Carioca',url:'https://www.ernestinhocarioca.com.br/'}});
 }
 
-export function apply(){render();}
-export const ready=navigationReady.then(()=>render());
+export function apply(){render();if(routeParts().path==='/destinos/buzios/comer-y-salir/')renderFoodGuide();}
+export const ready=navigationReady.then(()=>{render();if(routeParts().path==='/destinos/buzios/comer-y-salir/')renderFoodGuide();});
