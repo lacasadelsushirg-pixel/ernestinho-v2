@@ -1,5 +1,6 @@
-const CLOUD='tdez3h4t';
-const transform='f_auto,q_auto:good,c_limit,w_1800';
+import { buziosBeachGallery } from '/assets/js/buzios-beach-gallery.js';
+
+const HOST='https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/';
 
 const ascii=value=>String(value||'')
   .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
@@ -7,9 +8,7 @@ const ascii=value=>String(value||'')
 
 const human=value=>String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9]+/g,'_').replace(/^_+|_+$/g,'');
 
-function delivery(id){
-  return `https://res.cloudinary.com/${CLOUD}/image/upload/${transform}/${id}`;
-}
+const delivery = path => HOST + path.split('/').map(encodeURIComponent).join('/');
 
 export function candidateIds(beach,index=1){
   const slug=beach.slug;
@@ -43,22 +42,10 @@ export function probe(url){
 }
 
 export async function findCloudPhoto(beach,index=1){
-  for(const id of candidateIds(beach,index)){
-    const url=delivery(id);
-    if(await probe(url)) return {src:url,owner:true,publicId:id};
-  }
-  return null;
+  const path=(buziosBeachGallery[beach.slug]||[])[index-1];
+  return path ? {src:delivery(path),owner:true,publicId:path} : null;
 }
 
 export async function resolveBeachPhotos(beach,max=4){
-  const found=[];
-  for(let i=1;i<=max;i++){
-    const hit=await findCloudPhoto(beach,i);
-    if(hit && !found.some(x=>x.src===hit.src)) found.push(hit);
-  }
-  for(const src of (beach.images||[])){
-    if(found.length>=max) break;
-    if(src && !found.some(x=>x.src===src)) found.push({src,owner:false});
-  }
-  return found.slice(0,max);
+  return (buziosBeachGallery[beach.slug]||[]).slice(0,max).map(path=>({src:delivery(path),owner:true,publicId:path}));
 }

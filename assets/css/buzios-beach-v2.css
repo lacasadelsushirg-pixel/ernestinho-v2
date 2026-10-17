@@ -40,3 +40,44 @@
 @media(max-width:430px){.bz2-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.bz2-card-copy{padding:13px 12px 16px}.bz2-card h2{font-size:19px}.bz2-card p{font-size:11px;line-height:1.45}.bz2-card-facts{font-size:10px}.bz2-card .bz2-open{font-size:9px}.bz2-thumb{aspect-ratio:1/1}.bz2-photo-pending{min-height:230px}}
 /* The page has its own in-flow back links; floating global controls obscured mobile copy. */
 body.ec-buzios-beach-v2 .ec-global-actions{display:none!important}
+/* Búzios beach guides use the same dark petrol, sand and amber editorial system as Rio beaches. */
+.bz2-beach-page .bp-hero__photo{width:min(1180px,92vw);margin:0 auto 14px}
+.bz2-beach-page .bp-hero__photo img{width:100%;height:auto;max-height:720px;aspect-ratio:auto;object-fit:contain;background:#071c1b}
+.bz2-beach-page .bp-hero__photo figcaption{padding:12px 16px;color:#e5eeeb;font-size:13px;line-height:1.5}
+.bz2-beach-page .bp-hero__facts{padding-bottom:10px}
+.bz2-beach-page .bp-toc{position:sticky;top:74px;z-index:8;display:flex;gap:8px;overflow:auto;padding:14px 2px;margin:0 0 22px;background:rgba(6,24,23,.96);scrollbar-width:none}
+.bz2-beach-page .bp-toc a{flex:0 0 auto;white-space:nowrap;color:#e9e1cf;border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:9px 13px;font-size:11px;font-weight:700;text-decoration:none}
+.bz2-beach-page .bp-toc a:hover,.bz2-beach-page .bp-toc a:focus-visible{background:#e7b85c;color:#061817;outline:none}
+.bz2-photo-band{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:18px;margin:28px auto 34px;max-width:1180px}
+.bz2-photo-band .bp-photo{min-width:0}
+.bz2-photo-band .bp-photo img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain;background:#071c1b}
+.bz2-map-link{display:inline-flex;margin:12px 0;padding:13px 18px;border-radius:999px;background:#0b312d;color:#fff;font-weight:850;text-decoration:none}
+.bz2-map-link:hover{background:#145148;color:#fff}
+.bz2-source-note{margin:18px auto 0;max-width:780px;color:#5a6d69;font-size:13px;line-height:1.65}
+.bz2-beach-page .bp-combine-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:26px}
+.bz2-beach-page .bp-combine{padding:23px;border-radius:20px;background:#0b312d;color:#f7f2e8;box-shadow:0 14px 34px #06181724;text-decoration:none;transition:transform .2s ease,background .2s ease}
+.bz2-beach-page .bp-combine:hover{transform:translateY(-3px);background:#123d39}
+.bz2-beach-page .bp-combine h3{margin:0 0 10px;color:#f7f2e8;font:400 clamp(20px,2vw,26px)/1.12 var(--serif)}
+.bz2-beach-page .bp-combine p{min-height:88px;margin:0 0 12px;color:#cedbd7;font-size:14px;line-height:1.7}
+.bz2-beach-page .bp-combine b,.bz2-beach-page .bp-combine span{color:#e7b85c;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+.bz2-thumb img{object-fit:contain;background:#071c1b}
+@media(max-width:700px){.bz2-photo-band{grid-template-columns:1fr;gap:14px;margin:20px auto 26px}.bz2-beach-page .bp-toc{top:60px}.bz2-beach-page .bp-combine-grid{grid-template-columns:1fr}.bz2-beach-page .bp-combine p{min-height:0}.bz2-beach-page .bp-hero__photo{width:100%;border-radius:18px}}
+/* Copacabana's editorial photo-story treatment, shared by every Búzios beach page. */
+.bz2-beach-page .ec-copa-photo-story{max-width:1260px;margin:0 auto;padding:clamp(24px,5vw,60px) clamp(18px,4vw,54px);background:#071c1b;color:#f7f2e8}
+.bz2-beach-page .ec-copa-photo-story:nth-of-type(even){background:#10312f}
+.bz2-beach-page .ec-copa-photo-story .ec-copa-photo-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:clamp(12px,2vw,22px)}
+.bz2-beach-page .ec-copa-photo-story figure{grid-column:span 3;margin:0;min-width:0}
+.bz2-beach-page .ec-copa-photo-story figure:first-child:nth-last-child(3){grid-column:span 4}
+.bz2-beach-page .ec-copa-photo-story figure:nth-child(2):nth-last-child(2){grid-column:span 2}
+.bz2-beach-page .ec-copa-photo-story figure:last-child:nth-child(3){grid-column:span 6}
+.bz2-beach-page .ec-copa-photo-story img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain;border-radius:14px;background:#092522}
+.bz2-beach-page .ec-copa-photo-story figcaption p{margin:8px 0 0;color:#f0e9d9;font-weight:400}
+.bz2-beach-page .ec-copa-photo-story figcaption strong{display:block;color:#e7b85c;font-size:17px}
+.bz2-beach-page .ec-copa-photo-story figcaption{padding:10px 3px 0;color:#e7c58b;font-size:clamp(13px,1.2vw,16px);line-height:1.5}
+.bz2-beach-page .ec-copa-photo-story .ec-copa-caption{margin:0 0 20px;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#e7b85c}
+.bz2-beach-page .bp-section h3{margin:24px 0 10px;color:inherit;font:600 clamp(21px,2.5vw,29px)/1.15 var(--serif)}
+.bz2-beach-page .bp-activity-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.bz2-beach-page .bp-practical-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.bz2-beach-page .bp-copy-wide h3{color:inherit}
+@media(max-width:850px){.bz2-beach-page .bp-activity-grid,.bz2-beach-page .bp-practical-grid,.bz2-beach-page .bp-combine-grid{grid-template-columns:1fr}.bz2-beach-page .bp-combine p{min-height:0}}
+@media(max-width:680px){.bz2-beach-page .ec-copa-photo-story{padding:24px 16px}.bz2-beach-page .ec-copa-photo-story .ec-copa-photo-grid{grid-template-columns:1fr;gap:22px}.bz2-beach-page .ec-copa-photo-story figure,.bz2-beach-page .ec-copa-photo-story figure:first-child:nth-last-child(3),.bz2-beach-page .ec-copa-photo-story figure:nth-child(2):nth-last-child(2),.bz2-beach-page .ec-copa-photo-story figure:last-child:nth-child(3){grid-column:1}.bz2-beach-page .ec-copa-photo-story img{max-height:520px}.bz2-beach-page .bp-activity-grid,.bz2-beach-page .bp-practical-grid,.bz2-beach-page .bp-combine-grid{grid-template-columns:1fr}}
