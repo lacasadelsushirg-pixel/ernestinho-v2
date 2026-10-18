@@ -82,19 +82,52 @@ function figure(path, index, hero=false) {
 }
 function photoStory(paths, start) {
   if (!paths.length) return '';
-  const headings = {ES:'EL PAISAJE CAMBIA CON CADA PASO', PT:'A PAISAGEM MUDA A CADA PASSO', EN:'THE LANDSCAPE CHANGES WITH EVERY STEP'};
   const grid = paths.map((path, i) => {
-    const label = prettyPhoto(path, start + i);
-    const captions = {
-      ES:[`Yo me fijo en la línea de costa y en cómo se encuentran la arena, las rocas y el agua en ${beach.name}.`, `Esta imagen me ayuda a imaginar el ambiente, pero el color y el movimiento del mar cambian con la luz y el tiempo.`, `Yo usaría esta vista para reconocer el paisaje; para nadar, siempre comprobaría las condiciones del día.`, `Un ángulo distinto completa la visita: mira el entorno, ubica el acceso y deja espacio para descubrirlo en persona.`],
-      PT:[`Eu observo a linha da costa e o encontro entre areia, pedras e água em ${beach.name}.`, `Esta imagem ajuda a imaginar o ambiente, mas a cor e o movimento do mar mudam com a luz e o tempo.`, `Eu usaria esta vista para reconhecer a paisagem; para nadar, conferiria as condições do dia.`, `Outro ângulo completa a visita: observe o entorno, identifique o acesso e deixe espaço para descobrir o lugar.`],
-      EN:[`I look at the shoreline and the meeting of sand, rocks and water at ${beach.name}.`, `This image helps me picture the atmosphere, but sea colour and movement change with the light and weather.`, `I would use this view to recognise the landscape; before swimming, I would check the day’s conditions.`, `A different angle rounds out the visit: take in the setting, note the access and leave room to discover it in person.`]
+    const geriba = {
+      ES:[
+        'Las olas y la orilla abierta muestran el carácter surfeable de Geribá; el mar del día siempre merece una mirada antes de entrar.',
+        'La franja amplia de arena se abre hacia el agua y deja ver el morro rocoso que enmarca un extremo de la ensenada.',
+        'Personas con tablas recorren la orilla: una escena cotidiana que revela el pulso de surf de esta playa.',
+        'Desde la arena, el perfil verde y rocoso acompaña el movimiento de las olas a lo largo de la costa.'
+      ],
+      PT:[
+        'As ondas e a faixa aberta da praia mostram o perfil de surfe de Geribá; vale observar as condições do mar antes de entrar.',
+        'A ampla faixa de areia se abre para o mar e revela o costão rochoso que contorna uma das pontas da enseada.',
+        'Pessoas com pranchas caminham pela beira-mar: uma cena cotidiana que mostra o ritmo do surfe nesta praia.',
+        'Da areia, o contorno verde e rochoso acompanha o movimento das ondas ao longo da costa.'
+      ],
+      EN:[
+        'The breaking waves and open shoreline show Geribá’s surf character; check the sea on the day before heading in.',
+        'A broad stretch of sand opens onto the water, with the rocky headland framing one end of the bay.',
+        'Surfers carrying boards walk along the waterline, a familiar scene that captures the beach’s surf rhythm.',
+        'From the sand, a green rocky headland frames the waves rolling along the shore.'
+      ]
     };
-    const detail = (captions[language] || captions.ES)[(start + i) % 4];
-    const alt = language === 'PT' ? `${beach.name} em Búzios — ${label}` : language === 'EN' ? `${beach.name} in Búzios — ${label}` : `${beach.name} en Búzios — ${label}`;
-    return `<figure><img src="${escape(photoUrl(path))}" alt="${escape(alt)}" loading="lazy" decoding="async"><figcaption><strong>${escape(label)}</strong><p>${escape(detail)}</p></figcaption></figure>`;
+    const general = {
+      ES:[
+        `La línea de arena y el agua dibujan el paisaje de ${beach.name}; el oleaje puede cambiar durante el día.`,
+        `Esta vista deja reconocer cómo la costa y el entorno se encuentran en ${beach.name}.`,
+        `La perspectiva desde la orilla ayuda a imaginar el paseo y a elegir dónde detenerse.`,
+        `El paisaje alrededor de ${beach.name} completa la experiencia más allá del baño.`
+      ],
+      PT:[
+        `A faixa de areia e o mar desenham a paisagem de ${beach.name}; as ondas podem mudar ao longo do dia.`,
+        `Esta vista mostra como o litoral e o entorno se encontram em ${beach.name}.`,
+        `A perspectiva da beira-mar ajuda a imaginar o passeio e escolher onde parar.`,
+        `A paisagem ao redor de ${beach.name} completa a experiência além do banho de mar.`
+      ],
+      EN:[
+        `The shoreline and water shape the landscape at ${beach.name}; waves can change throughout the day.`,
+        `This view shows how the coast and its surroundings meet at ${beach.name}.`,
+        `The view from the water’s edge helps picture the walk and choose where to pause.`,
+        `The setting around ${beach.name} adds to the visit beyond swimming.`
+      ]
+    };
+    const detail = ((slug === 'geriba' ? geriba : general)[language] || (slug === 'geriba' ? geriba : general).ES)[i % 4];
+    return `<figure><img src="${escape(photoUrl(path))}" alt="${escape(detail)}" loading="lazy" decoding="async"><figcaption><p>${escape(detail)}</p></figcaption></figure>`;
   }).join('');
-  return `<aside class="ec-copa-photo-story" aria-label="${headings[language]}"><p class="ec-copa-caption">${headings[language]}</p><div class="ec-copa-photo-grid">${grid}</div></aside>`;
+  const galleryLabel = language === 'PT' ? `Fotografias de ${beach.name}` : language === 'EN' ? `Photos of ${beach.name}` : `Fotografías de ${beach.name}`;
+  return `<aside class="ec-copa-photo-story" aria-label="${escape(galleryLabel)}"><div class="ec-copa-photo-grid">${grid}</div></aside>`;
 }
 function section(index, body, style='deep') {
   return `<section class="bp-section bp-section--${style}" id="${['vida','hacer','mar','llegar','practica','recomiendo','combinar','mapa'][index]}"><p class="bp-number">${L.labels[index]}</p><div class="bp-copy-wide"><h2>${L.sections[index]}</h2>${body}</div></section>`;

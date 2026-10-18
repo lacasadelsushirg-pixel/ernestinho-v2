@@ -76,6 +76,12 @@ body.ec-buzios-beach-v2 .ec-global-actions{display:none!important}
 .bz2-beach-page .ec-copa-photo-story figcaption{padding:10px 3px 0;color:#e7c58b;font-size:clamp(13px,1.2vw,16px);line-height:1.5}
 .bz2-beach-page .ec-copa-photo-story .ec-copa-caption{margin:0 0 20px;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#e7b85c}
 .bz2-beach-page .bp-section h3{margin:24px 0 10px;color:inherit;font:600 clamp(21px,2.5vw,29px)/1.15 var(--serif)}
+.bz2-beach-page .bp-section .bp-practical-grid article{background:#f4ecd9;color:#061817}
+.bz2-beach-page .bp-section .bp-practical-grid article h3{color:#0b312d}
+.bz2-beach-page .bp-section .bp-practical-grid article p{color:#40514d}
+.bz2-beach-page .ec-copa-photo-story .ec-copa-caption{display:none}
+.bz2-beach-page .ec-copa-photo-story figcaption strong{display:none}
+.bz2-beach-page .ec-copa-photo-story figcaption p{margin:8px 0 0;color:#f0e9d9;font-weight:400}
 .bz2-beach-page .bp-activity-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 .bz2-beach-page .bp-practical-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 .bz2-beach-page .bp-copy-wide h3{color:inherit}
