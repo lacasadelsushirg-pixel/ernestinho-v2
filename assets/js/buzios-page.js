@@ -1,3 +1,4 @@
+import { installBuziosTransport } from './buzios-transport-content.js';
 import { routeParts } from './locale-routing.js';
 import { beachProfiles } from './buzios-beaches.js';
 import { areaProfiles } from './buzios-areas.js';
@@ -697,6 +698,7 @@ PAGES['/destinos/buzios/transportes/']={
   ),'alt')
  ),related:A(link(T('Cómo llegar','Como chegar','Getting here'),'/destinos/buzios/como-llegar/',T('Compara bus, transfer y auto','Compare ônibus, transfer e carro','Compare bus, transfer and car')),link(T('Cómo moverse','Como se locomover','Getting around'),'/destinos/buzios/moverse/',T('Decisiones dentro de la península','Decisões dentro da península','Getting around the peninsula')),link(T('Eventos','Eventos','Events'),'/destinos/buzios/eventos/',T('Anticipa cambios de tránsito','Antecipe mudanças no trânsito','Plan around traffic changes')))
 };
+installBuziosTransport(PAGES);
 PAGES['/destinos/buzios/fotografias/']={
  eyebrow:T('BÚZIOS EN IMÁGENES','BÚZIOS EM IMAGENS','BÚZIOS IN PICTURES'),title:T('Fotografías de Búzios','Fotografias de Búzios','Búzios photography'),
  description:T('Galería visual de playas, costa, calles y rincones de Búzios. Cada foto editorial conserva su fuente y licencia para que puedas cambiarla con tranquilidad.','Galeria visual de praias, litoral, ruas e cantos de Búzios. Cada foto editorial mantém sua fonte e licença para que você possa substituí-la com tranquilidade.','A visual gallery of Búzios beaches, coastline, streets and corners. Each editorial photo keeps its source and licence so you can replace it with confidence.'),
