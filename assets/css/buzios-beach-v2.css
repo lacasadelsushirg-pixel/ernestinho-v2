@@ -79,6 +79,9 @@ body.ec-buzios-beach-v2 .ec-global-actions{display:none!important}
 .bz2-beach-page .bp-section .bp-practical-grid article{background:#f4ecd9;color:#061817}
 .bz2-beach-page .bp-section .bp-practical-grid article h3{color:#0b312d}
 .bz2-beach-page .bp-section .bp-practical-grid article p{color:#40514d}
+.bz2-beach-page .bp-section--sand .bp-activity{background:#0b312d;color:#f7f2e8;border-color:rgba(6,24,23,.12)}
+.bz2-beach-page .bp-section--sand .bp-activity h3{color:#f7f2e8}
+.bz2-beach-page .bp-section--sand .bp-activity p{color:#e2eae7}
 .bz2-beach-page .ec-copa-photo-story .ec-copa-caption{display:none}
 .bz2-beach-page .ec-copa-photo-story figcaption strong{display:none}
 .bz2-beach-page .ec-copa-photo-story figcaption p{margin:8px 0 0;color:#f0e9d9;font-weight:400}
