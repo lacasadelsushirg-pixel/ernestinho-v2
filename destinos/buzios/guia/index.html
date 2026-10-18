@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#071c1b">
+  <title>Guía práctica de Búzios | Ernestinho Carioca</title>
+  <meta name="description" content="Mi guía práctica para organizar Búzios: llegada, terminal, movilidad, temporadas, salud, accesibilidad y consejos para vivir la península a tu ritmo.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Guía práctica de Búzios | Ernestinho Carioca">
+  <meta property="og:description" content="Todo lo que conviene resolver para disfrutar Búzios con más claridad, desde la llegada hasta el último paseo.">
+  <meta property="og:url" content="https://www.ernestinhocarioca.com.br/destinos/buzios/guia/">
+  <meta property="og:site_name" content="Ernestinho Carioca">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1675684319707-a4506df55169?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8&ixlib=rb-4.1.0&q=80&w=2000">
+  <meta property="og:image:alt" content="Vista aérea de una playa de Búzios">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Guía práctica de Búzios | Ernestinho Carioca">
+  <meta name="twitter:description" content="Mi guía para organizar una estadía en Búzios.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1675684319707-a4506df55169?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8&ixlib=rb-4.1.0&q=80&w=2000">
+  <link rel="canonical" href="https://www.ernestinhocarioca.com.br/destinos/buzios/guia/">
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/buzios.css?v=20261018-buzios-guide-draft">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/brand/ec-mark.png">
+  <link rel="apple-touch-icon" href="/assets/brand/ec-mark.png">
+  <style>
+    :root{--guide-ink:#092522;--guide-petrol:#0d3b37;--guide-gold:#e7b85c;--guide-muted:#53635d;--guide-line:#ded7ca}
+    body{background:#fff;color:var(--guide-ink)}
+    .g-guide-hero{min-height:420px;display:grid;position:relative;overflow:hidden;background:#071c1b;color:#fff}
+    .g-guide-hero>img{grid-area:1/1;width:100%;height:100%;min-height:420px;object-fit:cover;object-position:center 52%}
+    .g-guide-hero:after{content:"";grid-area:1/1;background:linear-gradient(90deg,rgba(3,17,16,.88),rgba(3,17,16,.5) 55%,rgba(3,17,16,.08));z-index:1}
+    .g-guide-hero-copy{grid-area:1/1;z-index:2;align-self:center;max-width:780px;padding:64px clamp(22px,7vw,110px)}
+    .g-guide-hero .kicker{color:#f2cd78}
+    .g-guide-hero h1{max-width:720px;margin:12px 0;font:500 clamp(43px,7vw,78px)/.98 Georgia,serif;color:#fff}
+    .g-guide-hero p{max-width:650px;color:#f5f3ec;line-height:1.75;font-size:17px}
+    .g-guide-hero .g-back{display:inline-flex;margin-top:10px;padding:11px 15px;border:1px solid #f3d28c;border-radius:99px;color:#fff;text-decoration:none;font:800 10px Arial;letter-spacing:.1em;text-transform:uppercase}
+    .g-guide-intro{max-width:1050px;margin:0 auto;padding:52px 24px 18px}
+    .g-guide-intro h2{font:500 clamp(30px,4vw,42px)/1.1 Georgia,serif;margin:0 0 13px}
+    .g-guide-intro p{max-width:900px;margin:0;color:#4f5f59;line-height:1.8;font-size:17px}
+    .guide-group{max-width:1180px;margin:auto;padding:25px 20px 34px}
+    .guide-group h2{font:400 32px Georgia,serif;color:var(--guide-ink);margin:0 0 17px}
+    .guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .guide-grid a{min-height:215px;padding:20px;border-radius:20px;background:#092522;border:1px solid rgba(255,255,255,.18);text-decoration:none;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden;isolation:isolate}
+    .guide-grid .guide-thumb{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;transition:transform .4s}
+    .guide-grid a:hover .guide-thumb{transform:scale(1.035)}
+    .guide-grid a:after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(3,17,16,.02) 20%,rgba(3,17,16,.9) 100%)}
+    .guide-grid b,.guide-grid span{position:relative;z-index:2}
+    .guide-grid b{font:400 22px Georgia,serif;text-shadow:0 2px 8px rgba(0,0,0,.5)}
+    .guide-grid span{font:800 9px Arial;letter-spacing:.12em;color:#f0c56d;margin-top:12px}
+    .guide-grid a:focus-visible{outline:3px solid var(--guide-gold);outline-offset:3px}
+    .guide-grid a.guide-reuse{background:#f6f2e8;color:#0c312c;border:1px solid #d7cba9}
+    .guide-grid a.guide-reuse:after{background:linear-gradient(180deg,rgba(3,17,16,.02) 8%,rgba(3,17,16,.76) 100%)}
+    .guide-grid a.guide-reuse b{color:#fff}
+    .g-contents{max-width:1120px;margin:auto;padding:24px 22px 90px}
+    .g-contents>header{padding:24px 0 6px}
+    .g-contents>header h2{font:500 clamp(34px,5vw,52px)/1.04 Georgia,serif;margin:0 0 12px}
+    .g-contents>header p{max-width:850px;color:var(--guide-muted);line-height:1.75}
+    .g-topic{scroll-margin-top:94px;margin:22px 0;padding:28px clamp(20px,4vw,42px);border:1px solid #e1ded5;border-radius:24px;background:#fff;box-shadow:0 9px 30px rgba(9,37,34,.055)}
+    .g-topic h2{margin:0 0 12px;font:500 clamp(27px,4vw,38px)/1.12 Georgia,serif;color:#0a3933}
+    .g-topic h3{margin:24px 0 8px;font:600 20px/1.25 Georgia,serif;color:#123e38}
+    .g-topic p,.g-topic li{font:400 16px/1.78 Arial,sans-serif;color:#40514d}
+    .g-topic p{margin:10px 0}
+    .g-topic ul,.g-topic ol{padding-left:22px}
+    .g-topic li{margin:8px 0}
+    .g-topic .eyeline{display:block;margin-bottom:9px;color:#9a711e;font:800 10px Arial;letter-spacing:.14em;text-transform:uppercase}
+    .g-tip{margin:22px 0;padding:21px 23px;border-radius:20px;background:#082a27;color:#fff}
+    .g-tip b{display:block;margin-bottom:7px;color:#f0c56d;font:800 11px Arial;letter-spacing:.12em;text-transform:uppercase}
+    .g-tip p{margin:0;color:#eef3ef}
+    .g-picture{margin:25px 0 8px;border-radius:22px;overflow:hidden;background:#092522}
+    .g-picture img{display:block;width:100%;max-height:490px;object-fit:cover}
+    .g-picture figcaption{padding:13px 17px;color:#f3d48e;font:600 12px/1.55 Arial}
+    .g-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:17px 0}
+    .g-card{padding:18px 19px;border:1px solid #e4ddce;border-radius:17px;background:#faf8f1}
+    .g-card h3{margin:0 0 8px;font:600 19px/1.2 Georgia,serif;color:#0b5149}
+    .g-card p{margin:0}
+    .g-table{width:100%;border-collapse:collapse;margin:18px 0;border:1px solid #ddd4c1;border-radius:14px;overflow:hidden}
+    .g-table th,.g-table td{padding:12px 13px;border-bottom:1px solid #e6e0d4;text-align:left;line-height:1.5}
+    .g-table th{background:#0d3b37;color:#fff;font-size:13px}
+    .g-table td{background:#fff;color:#40514d;font-size:14px}
+    .g-table tr:last-child td{border-bottom:0}
+    .g-links{display:flex;flex-wrap:wrap;gap:9px;margin:22px 0 5px}
+    .g-links a{display:inline-flex;align-items:center;padding:11px 15px;border-radius:999px;background:#123b36;color:#fff;text-decoration:none;font:700 11px Arial;letter-spacing:.02em}
+    .g-links a:hover{background:#0a5c51}
+    .g-note{margin:21px 0;padding:19px 22px;border-left:4px solid #ddb352;border-radius:7px 16px 16px 7px;background:#fbf5e8}
+    .g-note p{margin:0}
+    .g-faq details{padding:15px 0;border-bottom:1px solid #ded7ca}
+    .g-faq summary{cursor:pointer;color:#12433c;font-weight:800;line-height:1.5}
+    .g-faq details p{margin-bottom:0}
+    .g-guide-end{margin:32px 0;padding:32px;border-radius:24px;background:#0b302c;color:#fff}
+    .g-guide-end h2{margin:0 0 10px;font:500 31px Georgia,serif;color:#fff}
+    .g-guide-end p{max-width:800px;color:#e6efea;line-height:1.75}
+    .g-guide-end a{display:inline-flex;margin:8px 8px 0 0;padding:13px 18px;border-radius:99px;background:#efc66b;color:#0a2925;text-decoration:none;font:800 11px Arial;letter-spacing:.05em}
+    footer{padding:28px 20px;text-align:center;background:#071c1b;color:#fff}
+    footer p{color:#c6d5d0}
+    @media(max-width:760px){.guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.g-guide-hero,.g-guide-hero>img{min-height:420px}.g-grid{grid-template-columns:1fr}.g-table{display:block;overflow-x:auto;white-space:nowrap}}
+    @media(max-width:520px){.guide-grid{grid-template-columns:1fr}.guide-grid a{min-height:180px}.g-guide-hero-copy{align-self:end;padding:42px 22px}.g-guide-hero p{font-size:15px}.g-topic{padding:22px 18px}.g-contents{padding-left:15px;padding-right:15px}}
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Guía práctica de Búzios | Ernestinho Carioca","description":"Guía práctica para organizar una estadía en Búzios.","url":"https://www.ernestinhocarioca.com.br/destinos/buzios/guia/","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"Ernestinho Carioca","url":"https://www.ernestinhocarioca.com.br/"}}</script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/" aria-label="Ernestinho Carioca"><img src="/assets/brand/ec-mark.png" alt="Ernestinho Carioca" width="44" height="44"></a><nav><a href="/destinos/buzios/">Búzios</a><a href="/destinos/buzios/playas/">Playas</a><a href="/destinos/buzios/alojamiento/">Barrios y alojamiento</a><a href="/destinos/buzios/que-hacer/">Qué hacer</a><a href="/destinos/buzios/moverse/">Transportes</a></nav><div class="tools"></div></header>
+  <main>
+    <section class="g-guide-hero" aria-labelledby="guide-title">
+      <img src="https://images.unsplash.com/photo-1675684319707-a4506df55169?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8&ixlib=rb-4.1.0&q=80&w=2000" alt="Vista aérea de una playa de Búzios" fetchpriority="high">
+      <div class="g-guide-hero-copy">
+        <p class="kicker">ANTES Y DURANTE TU VIAJE · BÚZIOS</p>
+        <h1 id="guide-title">Guía de Búzios.</h1>
+        <p>Yo te ayudo a preparar la llegada, elegir cómo moverte y resolver lo práctico sin perder de vista lo mejor del viaje: vivir Búzios a tu ritmo.</p>
+        <a class="g-back" href="/destinos/buzios/">← Volver a Búzios</a>
+      </div>
+    </section>
+    <section class="g-guide-intro">
+      <h2>Lo esencial, con la mirada puesta en Búzios</h2>
+      <p>Hay temas de Brasil que no cambian por dormir en Búzios: documentos de entrada, reglas para menores, CPF, vacunas, seguro, dinero e internet. Para no repetir información que ya está desarrollada en mi Guía de Río, te llevo directamente a esas explicaciones. Y donde el destino sí cambia la respuesta —aeropuerto, terminal, movilidad local, buggy, accesibilidad, salud y temporada— te cuento lo que conviene saber aquí.</p>
+    </section>
+    <section class="guide-group" aria-labelledby="group-before">
+      <h2 id="group-before">Antes de viajar</h2>
+      <div class="guide-grid">
+        <a class="guide-reuse" href="/guia/documentos/"><img class="guide-thumb" src="/assets/images/buzios/orla-bardot.webp" alt="" loading="lazy"><b>Documentos y entrada</b><span>ABRIR GUÍA DE RÍO ↗</span></a>
+        <a class="guide-reuse" href="/guia/menores/"><img class="guide-thumb" src="/assets/images/buzios/joao-fernandes.webp" alt="" loading="lazy"><b>Viajar con menores</b><span>ABRIR GUÍA DE RÍO ↗</span></a>
+        <a class="guide-reuse" href="/guia/permanencia/"><img class="guide-thumb" src="/assets/images/buzios/panorama-mtur.webp" alt="" loading="lazy"><b>Permanencia y extensión</b><span>ABRIR GUÍA DE RÍO ↗</span></a>
+        <a href="#solo"><img class="guide-thumb" src="/assets/images/buzios/orla-bardot.webp" alt="" loading="lazy"><b>Viajar solo o sola en Búzios</b><span>VER CONSEJOS LOCALES ↓</span></a>
+        <a class="guide-reuse" href="/guia/seguro/"><img class="guide-thumb" src="/assets/images/buzios/tartaruga.webp" alt="" loading="lazy"><b>Seguro y salud del viajero</b><span>ABRIR GUÍA DE RÍO ↗</span></a>
+        <a class="guide-reuse" href="/guia/vacunas/"><img class="guide-thumb" src="/assets/images/buzios/joao-fernandes.webp" alt="" loading="lazy"><b>Vacunas</b><span>ABRIR GUÍA DE RÍO ↗</span></a>
+        <a class="guide-reuse" href="/guia/cpf/"><img class="guide-thumb" src="/assets/images/buzios/panorama-mtur.webp" alt="" loading="lazy"><b>CPF para extranjeros</b><span>ABRIR GUÍA DE RÍO ↗</span></a>
+        <a class="guide-reuse" href="/guia/dinero/"><img class="guide-thumb" src="/assets/images/buzios/orla-bardot.webp" alt="" loading="lazy"><b>Dinero y tarjetas</b><span>ABRIR GUÍA DE RÍO ↗</span></a>
+        <a href="#mes-a-mes"><img class="guide-thumb" src="/assets/images/buzios/panorama-mtur.webp" alt="" loading="lazy"><b>Búzios mes a mes</b><span>VER GUÍA LOCAL ↓</span></a>
+      </div>
+    </section>
+    <section class="guide-group" aria-labelledby="group-connected">
+      <h2 id="group-connected">Conectado y preparado</h2>
+      <div class="guide-grid">
+        <a class="guide-reuse" href="/guia/internet/"><img class="guide-thumb" src="/assets/images/buzios/joao-fernandes.webp" alt="" loading="lazy"><b>Internet y eSIM</b><span>ABRIR GUÍA DE RÍO ↗</span></a>
+        <a class="guide-reuse" href="/guia/apps/"><img class="guide-thumb" src="/assets/images/buzios/orla-bardot.webp" alt="" loading="lazy"><b>Aplicaciones útiles</b><span>ABRIR GUÍA DE RÍO ↗</span></a>
+        <a href="#salud"><img class="guide-thumb" src="/assets/images/buzios/tartaruga.webp" alt="" loading="lazy"><b>Salud y emergencias en Búzios</b><span>VER DATOS LOCALES ↓</span></a>
+        <a href="#consulados"><img class="guide-thumb" src="/assets/images/buzios/panorama-mtur.webp" alt="" loading="lazy"><b>Consulados y asistencia consular</b><span>VER ORIENTACIÓN ↓</span></a>
+        <a href="#accesibilidad"><img class="guide-thumb" src="/assets/images/buzios/joao-fernandes.webp" alt="" loading="lazy"><b>Accesibilidad en Búzios</b><span>VER GUÍA COMPLETA ↓</span></a>
+      </div>
+    </section>
+    <section class="guide-group" aria-labelledby="group-move">
+      <h2 id="group-move">Moverse por Búzios</h2>
+      <div class="guide-grid">
+        <a href="#aeropuertos"><img class="guide-thumb" src="/assets/images/buzios/panorama-mtur.webp" alt="" loading="lazy"><b>Aeropuertos y llegada</b><span>VER GIG · SDU · CABO FRIO ↓</span></a>
+        <a href="#terminal"><img class="guide-thumb" src="/assets/images/buzios/orla-bardot.webp" alt="" loading="lazy"><b>Terminal de Búzios</b><span>VER DIRECCIÓN Y EMBARQUE ↓</span></a>
+        <a class="guide-reuse" href="/destinos/buzios/moverse/"><img class="guide-thumb" src="/assets/images/buzios/joao-fernandes.webp" alt="" loading="lazy"><b>Cómo moverse por la península</b><span>ABRIR GUÍA DE BÚZIOS ↗</span></a>
+        <a href="#carro"><img class="guide-thumb" src="/assets/images/buzios/tartaruga.webp" alt="" loading="lazy"><b>Alquiler de auto desde Búzios</b><span>RUTA REGIONAL Y CONSEJOS ↓</span></a>
+        <a href="#buggy"><img class="guide-thumb" src="/assets/images/buzios/panorama-mtur.webp" alt="" loading="lazy"><b>Alquiler de buggy</b><span>DIFERENCIAS Y QUÉ CONFIRMAR ↓</span></a>
+      </div>
+    </section>
+    <section class="guide-group" aria-labelledby="group-stay">
+      <h2 id="group-stay">Organiza tu estadía</h2>
+      <div class="guide-grid">
+        <a class="guide-reuse" href="/destinos/buzios/alojamiento/"><img class="guide-thumb" src="/assets/images/buzios/orla-bardot.webp" alt="" loading="lazy"><b>Barrios y dónde alojarse</b><span>ABRIR GUÍA DE BÚZIOS ↗</span></a>
+        <a class="guide-reuse" href="/guia/pix/"><img class="guide-thumb" src="/assets/images/buzios/panorama-mtur.webp" alt="" loading="lazy"><b>Guía completa de Pix</b><span>ABRIR GUÍA DE RÍO ↗</span></a>
+        <a class="guide-reuse" href="/consejos/maletas-rio/"><img class="guide-thumb" src="/assets/images/buzios/tartaruga.webp" alt="" loading="lazy"><b>Maleta y clima</b><span>ABRIR GUÍA DE RÍO ↗</span></a>
+        <a class="guide-reuse" href="/consejos/electricidad-adaptadores/"><img class="guide-thumb" src="/assets/images/buzios/joao-fernandes.webp" alt="" loading="lazy"><b>Enchufes y voltaje</b><span>ABRIR GUÍA DE RÍO ↗</span></a>
+        <a href="#mes-a-mes"><img class="guide-thumb" src="/assets/images/buzios/panorama-mtur.webp" alt="" loading="lazy"><b>El mejor mes para ir</b><span>LEER SEGÚN TEMPORADA ↓</span></a>
+      </div>
+    </section>
+    <section class="g-contents" aria-labelledby="local-guide">
+      <header><p class="kicker">CONTENIDO LOCAL · ACTUALIZADO AL 18 DE OCTUBRE DE 2026</p><h2 id="local-guide">Lo que sí cambia cuando el viaje es en Búzios</h2><p>Acá desarrollo las decisiones que necesitan datos del destino. Los horarios, rutas, disponibilidad de servicios y precios pueden cambiar; cuando un dato tenga vigencia, te lo indico para que sepas cuándo volver a confirmarlo.</p></header>
+
+      <article class="g-topic" id="aeropuertos">
+        <span class="eyeline">01 · Llegada</span>
+        <h2>¿A qué aeropuerto conviene llegar para ir a Búzios?</h2>
+        <p>Yo empezaría por una aclaración: Búzios sí tiene el Aeródromo Umberto Modiano, pero no es el aeropuerto de vuelos comerciales regulares que la mayoría de los viajeros necesita para comprar un pasaje. Para un viaje normal, las búsquedas suelen hacerse por Río de Janeiro —Galeão (GIG) o Santos Dumont (SDU)— y, cuando hay una ruta que encaja con tus fechas, por el Aeropuerto de Cabo Frio (CFB), en la Região dos Lagos.</p>
+        <p>No compres el tramo terrestre hasta revisar el vuelo completo. La oferta de Cabo Frio puede cambiar por temporada y por compañía; además, un anuncio de una ruta pasada no prueba que exista el día de tu viaje. En Río, GIG y SDU tampoco son intercambiables: el aeropuerto de llegada cambia el punto de encuentro, el traslado hasta la terminal y la hora razonable de salida.</p>
+        <div class="g-grid">
+          <div class="g-card"><h3>Si aterrizas en GIG</h3><p>Confirma dónde te recogerán y si el servicio es directo al alojamiento o requiere conexión. Si eliges bus, revisa en el pasaje la terminal exacta de salida; no des por hecho que el mostrador de una empresa dentro del aeropuerto significa que todos sus buses salen desde allí.</p></div>
+          <div class="g-card"><h3>Si llegas a SDU</h3><p>Define primero el traslado desde el centro de Río al punto real de partida. Añade margen para tránsito, equipaje y hora del día, especialmente si tu vuelo llega tarde o durante un fin de semana largo.</p></div>
+          <div class="g-card"><h3>Si aparece un vuelo a Cabo Frio</h3><p>Compara el costo y la disponibilidad del vuelo con el traslado final hasta tu dirección en Búzios. El aeropuerto más cercano no siempre produce el itinerario más sencillo: cuenta el horario, el equipaje y si hay auto o transfer disponible al aterrizar.</p></div>
+          <div class="g-card"><h3>Si alguien te ofrece “volar a Búzios”</h3><p>Pide el aeropuerto, operador y número de vuelo exactos. Un vuelo ejecutivo, charter o de aviación general es distinto a una ruta comercial regular que puedas buscar y comprar como cualquier pasaje de línea aérea.</p></div>
+        </div>
+        <figure class="g-picture"><img src="/assets/images/buzios/panorama-mtur.webp" alt="Vista costera de Búzios" loading="lazy"><figcaption>La llegada se planifica hasta la puerta del alojamiento, no solo hasta el aeropuerto.</figcaption></figure>
+        <h3>Transfer privado desde Galeão: tarifas visibles y vigencia</h3>
+        <p>En la tarifa publicada de traslado privado que tengo disponible, la ruta de Galeão a la Região dos Lagos figura en <strong>R$ 420 en sedán, R$ 470 en Spin y R$ 620 en Doblò</strong>. Esa tabla indica vigencia hasta el <strong>31 de octubre de 2026</strong>. Como el valor está publicado para la región y no identifica por sí solo cada dirección de Búzios, antes de reservar te confirmo si aplica al barrio, número de pasajeros, equipaje, horario y fecha de tu viaje. Después de esa vigencia, se debe solicitar la tarifa actualizada.</p>
+        <p>No incluyo SDU como si tuviera esa misma tarifa. Es otra salida y necesita cotización con origen exacto. Para pedirla, envíame aeropuerto, fecha, número de vuelo, pasajeros, maletas y alojamiento. También pregunta por espera ante retrasos y por el punto de encuentro.</p>
+        <div class="g-links"><a href="/transportes/transporte-privado/">Ver traslado privado y consultar tarifa ↗</a><a href="https://wa.me/5521969946938?text=Hola%20Ernestinho%2C%20quiero%20cotizar%20un%20traslado%20desde%20GIG%20a%20B%C3%BAzios.%20Fecha%3A%20__%20%7C%20Vuelo%3A%20__%20%7C%20Pasajeros%3A%20__%20%7C%20Maletas%3A%20__%20%7C%20Alojamiento%3A%20__" target="_blank" rel="noopener noreferrer">Cotizar mi traslado a Búzios ↗</a></div>
+        <div class="g-note"><p><strong>Consejo de Ernestinho:</strong> si tu vuelo llega de madrugada, es internacional o viene con demora frecuente, organiza el encuentro antes de embarcar. No planifiques una conexión terrestre ajustada a la hora teórica de aterrizaje.</p></div>
+      </article>
+
+      <article class="g-topic" id="terminal">
+        <span class="eyeline">02 · Bus</span>
+        <h2>Terminal de Búzios: dónde queda y qué revisar</h2>
+        <p>La terminal de ómnibus que aparece como referencia para la llegada de Auto Viação 1001 está en <strong>Estrada da Usina Velha, 444, Loteamento Triângulo de Búzios</strong>. Está en el área urbana, pero no necesariamente a una distancia cómoda para caminar con valijas hasta tu pousada. Antes de comprar, confirma en tu pasaje el nombre de la terminal, el punto de embarque y si tu servicio sale de Río, Niterói u otra ciudad.</p>
+        <p>La dirección te sirve para orientarte al llegar; el boleto y la empresa son los que mandan para el embarque. Horarios, rutas y precio varían por fecha. Verifica la parada final, las condiciones de equipaje y si la terminal vende o solo atiende los pasajes de esa operación.</p>
+        <div class="g-grid">
+          <div class="g-card"><h3>Antes de salir</h3><p>Guarda el billete fuera de línea, comprueba documento y equipaje, y llega con margen. En feriados y verano, considera el tránsito de la carretera antes de elegir una conexión.</p></div>
+          <div class="g-card"><h3>Al bajar en Búzios</h3><p>Ten claro cómo vas desde la terminal a tu alojamiento: dirección completa, número de teléfono, punto de encuentro y alternativa si no aparece un auto por aplicación. Confirma previamente si el alojamiento permite dejar maletas antes del check-in.</p></div>
+        </div>
+        <div class="g-tip"><b>Mi consejo</b><p>No pongas “Búzios” como único destino en la aplicación y te subas sin mirar el punto final del boleto. Revisa la terminal y luego coordina el último tramo con la ubicación exacta de tu estadía.</p></div>
+        <div class="g-links"><a href="/destinos/buzios/moverse/">Ver opciones para moverte en Búzios ↗</a><a href="https://www.autoviacao1001.com.br/" target="_blank" rel="noopener noreferrer">Consultar la empresa de ómnibus ↗</a></div>
+      </article>
+
+      <article class="g-topic" id="mes-a-mes">
+        <span class="eyeline">03 · Clima y temporada</span>
+        <h2>Búzios mes a mes: qué mirar al elegir fecha</h2>
+        <p>Yo no te voy a prometer doce climas exactos: el tiempo de un año no garantiza el siguiente y una semana puede cambiar el plan de playa o navegación. Esta lectura es estacional. Para decidir, combínala con el pronóstico de la semana, el calendario de feriados y la disponibilidad real del alojamiento.</p>
+        <div class="g-grid">
+          <div class="g-card"><h3>Enero</h3><p>Vacaciones de verano, más movimiento en playas y restaurantes, y demanda alta en puentes y fines de semana. Reserva temprano y organiza dónde estacionar y cómo volver de noche.</p></div>
+          <div class="g-card"><h3>Febrero</h3><p>El Carnaval puede cambiar mucho la ocupación, el tránsito y los precios. Confirma si tu estadía incluye las noches del feriado y no bases el itinerario en una agenda de fiestas aún no publicada.</p></div>
+          <div class="g-card"><h3>Marzo</h3><p>Después de los picos de vacaciones, algunos días se sienten más tranquilos; fines de semana y feriados siguen teniendo su propio ritmo. Mantén flexibilidad para lluvia y viento.</p></div>
+          <div class="g-card"><h3>Abril</h3><p>La transición al otoño suele favorecer un viaje con menos calor intenso, aunque el mar y el cielo no obedecen un calendario fijo. Revisa Semana Santa y otros feriados antes de elegir.</p></div>
+          <div class="g-card"><h3>Mayo</h3><p>Puede ser una buena fecha para priorizar paseos tranquilos, gastronomía y caminatas. Mira los horarios de servicios que sean importantes para ti y lleva una capa liviana para la noche.</p></div>
+          <div class="g-card"><h3>Junio</h3><p>Los días frescos y los cambios de luz invitan a combinar playa con planes urbanos. Confirma la operación de barco, buggy o buceo para la fecha; no todos los productos funcionan igual cada día.</p></div>
+          <div class="g-card"><h3>Julio</h3><p>Vacaciones escolares pueden elevar la demanda aunque sea invierno. Lleva abrigo liviano, protección solar y un plan de actividades que no dependa exclusivamente del baño de mar.</p></div>
+          <div class="g-card"><h3>Agosto</h3><p>El viento puede sentirse con fuerza en una península abierta. Compara playas por abrigo y exposición, pregunta por la condición del mar y evita asumir que todas las calas estarán igual.</p></div>
+          <div class="g-card"><h3>Septiembre</h3><p>La primavera se acerca, pero todavía conviene preparar una jornada con alternativas. Los días laborales pueden tener menos movimiento que los fines de semana, salvo eventos y feriados.</p></div>
+          <div class="g-card"><h3>Octubre</h3><p>La temporada va cambiando y los feriados pueden concentrar visitantes. Revisa el pronóstico y confirma horarios antes de salir, sobre todo si planeas navegar o hacer un traslado regional.</p></div>
+          <div class="g-card"><h3>Noviembre</h3><p>Es un mes de transición hacia el verano: mira el calendario escolar y los puentes, y deja una mañana flexible por si el tiempo altera tu plan de playa.</p></div>
+          <div class="g-card"><h3>Diciembre</h3><p>La demanda sube alrededor de Navidad y Año Nuevo. Reserva alojamiento, cena y transporte de regreso con anticipación; no supongas que habrá disponibilidad espontánea.</p></div>
+        </div>
+        <div class="g-note"><p>Los cuadros no son una predicción meteorológica ni una estadística mensual. Para mar, viento, lluvia y navegación, consulta las condiciones cercanas a la fecha y la decisión del operador.</p></div>
+      </article>
+
+      <article class="g-topic" id="carro">
+        <span class="eyeline">04 · Auto</span>
+        <h2>Alquiler de auto en Búzios para conocer Cabo Frio y Arraial</h2>
+        <p>Alquilar en Búzios tiene una lógica distinta a retirar un auto en el aeropuerto de Río: ya resolviste el trayecto largo y ahora buscas libertad para moverte por la Região dos Lagos. Puede convenir si tu alojamiento está fuera del Centro, si viajas en grupo o si vas a combinar Búzios con Cabo Frio y Arraial do Cabo. Para una estadía concentrada en playas cercanas, el auto puede pasar más tiempo estacionado que en movimiento.</p>
+        <div class="g-grid">
+          <div class="g-card"><h3>Antes de reservar</h3><p>Confirma dónde se retira y devuelve el vehículo, horarios, kilometraje, política de combustible, depósito, protección, franquicia, asistencia mecánica y qué documentos acepta la arrendadora. Revisa si el precio incluye segundo conductor o silla infantil cuando la necesitas.</p></div>
+          <div class="g-card"><h3>Compara la ruta completa</h3><p>Pregunta qué carreteras utilizarás, si hay peajes y cuánto equipaje cabe de verdad. Verifica dirección del alojamiento, estacionamiento disponible y posibles cobros antes de contratar.</p></div>
+          <div class="g-card"><h3>Conducir fuera de Búzios</h3><p>Para Cabo Frio y Arraial, comprueba ruta, tránsito, estacionamiento y horario de regreso de cada parada. En días de playa concurridos, llegar en auto no garantiza encontrar una plaza cerca.</p></div>
+          <div class="g-card"><h3>Licencia y contrato</h3><p>La arrendadora debe confirmar por escrito qué licencia y documento acepta para tu nacionalidad, y por cuánto tiempo. No supongas que la traducción, una foto del carnet o una regla leída para otra ciudad será suficiente.</p></div>
+        </div>
+        <p>Si llegas por GIG o SDU y planeas usar el auto también en Río, compara el costo de los días de alquiler con traslado privado, bus y estacionamiento. No siempre conviene llevar un coche por toda la estadía solo para hacer una excursión.</p>
+        <div class="g-guide-end"><h2>¿Quieres organizar un auto para tu viaje?</h2><p>Cuéntame en qué zona te alojas, en qué fechas quieres conducir y si el plan incluye Cabo Frio o Arraial. Primero confirmamos disponibilidad, punto de retiro, condiciones y precio para ese período.</p><a href="https://wa.me/5521969946938?text=Hola%20Ernestinho%2C%20quiero%20consultar%20alquiler%20de%20auto%20desde%20B%C3%BAzios.%20Fechas%3A%20__%20%7C%20Alojamiento%3A%20__%20%7C%20Pasajeros%3A%20__%20%7C%20Destino%3A%20Cabo%20Frio%20%2F%20Arraial%20%2F%20ambos." target="_blank" rel="noopener noreferrer">Consultar alquiler de auto ↗</a></div>
+      </article>
+
+      <article class="g-topic" id="buggy">
+        <span class="eyeline">05 · Buggy</span>
+        <h2>Alquiler de buggy: conducirlo tú no es hacer un paseo guiado</h2>
+        <p>En Búzios se ofrecen dos experiencias distintas. En un paseo turístico, un conductor o guía conduce y tú vas como pasajero por un itinerario acordado. En un alquiler, te entregan un vehículo para que lo conduzcas y el contrato, la habilitación, la franquicia y el área autorizada pasan a ser centrales. Yo no las presentaría como si fueran el mismo producto.</p>
+        <div class="g-grid">
+          <div class="g-card"><h3>Antes de entregar documentos</h3><p>Pregunta edad mínima, categoría y vigencia de licencia, documentos aceptados para visitante extranjero, depósito, franquicia, cobertura, combustible, casco o cinturón, capacidad y procedimiento en caso de avería. Pide que el área permitida quede escrita en el contrato.</p></div>
+          <div class="g-card"><h3>Revisa el vehículo</h3><p>Fotografía carrocería, neumáticos, luces, cinturones, nivel de combustible y daños previos junto con el responsable. Comprueba cómo se cierra el alquiler y a quién llamar si necesitas asistencia.</p></div>
+          <div class="g-card"><h3>Conduce con cuidado</h3><p>El buggy de paseo por la ciudad no es una invitación a conducir sobre dunas, arena, senderos o playas. Respeta las vías permitidas, la señalización, peatones, límites y condiciones meteorológicas.</p></div>
+          <div class="g-card"><h3>Qué preguntar al operador</h3><p>¿Es alquiler para conducir o paseo con conductor? ¿Cuál es la duración real? ¿Qué incluye el precio? ¿Dónde se retira? ¿Puedo salir de la península? ¿Qué pasa con lluvia, atraso o cancelación?</p></div>
+        </div>
+        <div class="g-tip"><b>Mi consejo</b><p>Si no tienes experiencia con transmisión manual, laderas o tráfico local, compara el buggy con un paseo guiado. La foto del vehículo no te cuenta las condiciones del contrato.</p></div>
+        <div class="g-links"><a href="/destinos/buzios/experiencias/alquiler-buggy/">Ver alquiler de buggy ↗</a><a href="/destinos/buzios/experiencias/paseo-buggy/">Comparar con paseo guiado ↗</a></div>
+      </article>
+
+      <article class="g-topic g-faq" id="accesibilidad">
+        <span class="eyeline">06 · Accesibilidad</span>
+        <h2>Accesibilidad en Búzios: planifica cada tramo, no solo el destino</h2>
+        <p>Búzios tiene playas, calles con desnivel y veredas de condiciones diferentes. La accesibilidad depende de la persona, el equipo de movilidad y el tramo concreto. Una rampa o una silla anfibia en una acción de playa no significa que toda la playa, el baño, el transporte y el recorrido desde el alojamiento sean accesibles.</p>
+        <figure class="g-picture"><img src="/assets/images/buzios/joao-fernandes.webp" alt="Una cala de Búzios rodeada de laderas" loading="lazy"><figcaption>En Búzios importa revisar la ruta completa, desde la puerta hasta el punto donde quieres llegar.</figcaption></figure>
+        <h3>Cómo evaluar una playa</h3>
+        <p>Antes de salir, pregunta si el acceso tiene rampa, escalones, pasarela sobre la arena, sombra, baño accesible, silla anfibia y personal de apoyo en la fecha y horario de tu visita. Pregunta también hasta dónde llega la ayuda: entrada al área de playa, arena firme o aproximación al agua. La disponibilidad puede depender de programa, temporada, personal y condiciones del mar.</p>
+        <p>En la zona de Azeda se han divulgado acciones y estructuras de acceso; confirma en la fecha si el dispositivo está abierto y qué tramo conecta. Aun cuando exista una rampa, la arena, el desnivel, las escaleras de aproximación y la marea pueden cambiar lo que una persona puede hacer sin asistencia. No la describo como acceso universal ni garantizo silla anfibia todos los días.</p>
+        <h3>Calles, centro y recorridos</h3>
+        <p>En Orla Bardot, Centro, Rua das Pedras y los accesos a las playas conviven pavimentos, adoquines, bordes, pendientes, cruces y tramos estrechos. Pregunta por una ruta específica, no solamente por la distancia en el mapa. Para una silla manual o eléctrica, solicita fotos recientes de la acera, la entrada al local y el baño; para una persona con baja visión, pide información sobre desniveles, señalización y asistencia al embarcar.</p>
+        <h3>Alojamiento y transporte</h3>
+        <p>Confirma la habitación exacta: escalones desde la calle, ascensor, ancho de puertas, ducha, barras, altura de cama, espacio de giro, recepción y acceso al desayuno. Pregunta si el estacionamiento y el desembarque están dentro del predio. Para traslado, informa dimensiones del equipo, necesidad de rampa o elevador, asistencia de transferencia y espacio para acompañante. “Auto amplio” no significa “auto adaptado”.</p>
+        <h3>Barcos y actividades</h3>
+        <p>Pregunta por escalón o pasarela de embarque, estabilidad de la lancha, lugar para guardar silla, ayuda física, baño a bordo, duración y política de suspensión por mar. Para buggy, buceo o senderismo, consulta la actividad concreta y solicita respuesta del operador antes de pagar. No deduzcas que una atracción es accesible porque otro servicio de la misma zona sí lo es.</p>
+        <h3>Un plan cómodo y realista</h3>
+        <ol>
+          <li>Envía al alojamiento la lista de necesidades funcionales y pide fotos o medidas concretas de la habitación y del acceso.</li>
+          <li>Elige una actividad principal por día y deja tiempo para descansos, hidratación y cambios de traslado.</li>
+          <li>Verifica baño, sombra, lugar para bajar del vehículo y distancia sobre el terreno, además de la entrada principal.</li>
+          <li>Guarda un plan alternativo para viento, lluvia, ascensor fuera de servicio o falta de equipo de apoyo.</li>
+        </ol>
+        <div class="g-tip"><b>Consejo de Ernestinho</b><p>Cuando me preguntes si un lugar “es accesible”, te voy a pedir que me cuentes qué necesitas para disfrutarlo. Después confirmamos juntos el recorrido exacto, el baño y la asistencia disponible para tus fechas.</p></div>
+      </article>
+
+      <article class="g-topic" id="consulados">
+        <span class="eyeline">07 · Asistencia consular</span>
+        <h2>Consulados: qué hacer si necesitas ayuda en Búzios</h2>
+        <p>No tomes una jornada consular itinerante como si hubiera un consulado permanente en Búzios. La Prefeitura ha anunciado atención itinerante para ciudadanos argentinos en fechas determinadas; esas jornadas se programan y terminan. Antes de moverte, comprueba si hay una convocatoria vigente para tu nacionalidad, qué trámite admite, qué documentos pide y si requiere cita.</p>
+        <p>Si no hay jornada activa, contacta al consulado o embajada que corresponda a tu nacionalidad en Río de Janeiro o a través del directorio oficial de tu país. Guarda fuera del teléfono el número de asistencia consular de emergencia. El consulado no reemplaza a la policía, a un hospital, a la compañía aérea ni a un abogado local, pero puede orientar sobre documentos, detención, fallecimiento o una emergencia familiar según sus competencias.</p>
+        <div class="g-grid">
+          <div class="g-card"><h3>Robo o pérdida del pasaporte</h3><p>Haz la denuncia en la autoridad policial cuando corresponda, guarda el número del reporte y pide al consulado instrucciones para documento de emergencia. Si tienes una copia segura del pasaporte, agiliza identificarte; no reemplaza el documento original.</p></div>
+          <div class="g-card"><h3>Antes de viajar</h3><p>Anota la dirección y teléfono de tu representación, un contacto familiar y la póliza del seguro. Consulta el canal oficial de tu país para emergencias consulares y verifica horarios antes de salir desde Búzios.</p></div>
+        </div>
+        <div class="g-links"><a href="https://www.gov.br/mre/pt-br/assuntos/portal-consular" target="_blank" rel="noopener noreferrer">Portal consular de Brasil ↗</a><a href="https://www.cancilleria.gob.ar/es/representaciones" target="_blank" rel="noopener noreferrer">Directorio consular de Argentina ↗</a><a href="https://wa.me/5521969946938?text=Hola%20Ernestinho%2C%20necesito%20orientaci%C3%B3n%20consular%20en%20B%C3%BAzios." target="_blank" rel="noopener noreferrer">Pedir orientación práctica ↗</a></div>
+      </article>
+
+      <article class="g-topic" id="salud">
+        <span class="eyeline">08 · Emergencias</span>
+        <h2>Salud y emergencias en Búzios</h2>
+        <p>Si hay riesgo inmediato para la vida, llama al <strong>SAMU 192</strong>. Es gratuito y funciona las 24 horas en Brasil. Di “Armação dos Búzios”, comparte la dirección o el punto de referencia más claro y describe qué ocurrió. Para un incendio o rescate, el número nacional de Bomberos es <strong>193</strong>; para una emergencia policial, <strong>190</strong>.</p>
+        <div class="g-grid">
+          <div class="g-card"><h3>Hospital Municipal Dr. Rodolpho Perissé</h3><p>Es el hospital municipal de referencia en Búzios. La ficha pública consultada lo ubica en Estrada dos Búzios, s/n, Hospital São José, CEP 28958-580, y registra el teléfono <a href="tel:+552226237622">(22) 2623-7622</a>. Antes de trasladarte por un caso no urgente, llama para confirmar entrada, servicio y disponibilidad; la ficha no garantiza una especialidad concreta ni una vacante.</p></div>
+          <div class="g-card"><h3>UPA y unidades de salud</h3><p>La apertura, el horario y la capacidad de una unidad pueden cambiar. No te dirijas a una UPA porque viste una noticia de obra, homologación o inauguración: confirma primero que esté atendiendo al público y cuál es su dirección vigente. En una urgencia, llama al 192 y sigue la orientación de la central.</p></div>
+          <div class="g-card"><h3>Para una consulta que no es urgencia</h3><p>Contacta tu seguro de viaje antes de ir a una clínica privada; pide nombre de unidad, cobertura, copago y cómo se autoriza la atención. Lleva identificación, datos de la póliza, alergias y medicación habitual.</p></div>
+          <div class="g-card"><h3>En playa o excursión</h3><p>Indica playa, punto de acceso, quiosco o referencia visible. Si no tienes dirección, comparte ubicación del teléfono. No muevas a alguien con lesión grave salvo que exista un peligro inmediato; sigue instrucciones de la emergencia.</p></div>
+        </div>
+        <div class="g-note"><p><strong>Guarda estos números:</strong> SAMU 192 · Bomberos 193 · Policía 190 · Hospital municipal (22) 2623-7622. Confirma el contacto y la disponibilidad de servicios cuando llegues, porque teléfonos y operación pueden cambiar.</p></div>
+        <div class="g-links"><a href="/guia/seguro/">Leer mi guía de seguro y salud ↗</a><a href="/guia/vacunas/">Consultar vacunas antes del viaje ↗</a><a href="tel:192">Llamar al SAMU 192</a></div>
+      </article>
+
+      <article class="g-topic" id="solo">
+        <span class="eyeline">09 · Viajar por tu cuenta</span>
+        <h2>Viajar solo o sola en Búzios</h2>
+        <p>Búzios puede ser un viaje muy disfrutable en solitario: tienes paseos a pie, playas distintas, restaurantes y actividades compartidas. La clave está en hacer planes que también funcionen cuando no dependes de otra persona para orientarte, cuidar tus cosas o volver a la noche.</p>
+        <div class="g-grid">
+          <div class="g-card"><h3>Elige base pensando en la noche</h3><p>Si quieres cenar y volver caminando, compara alojamientos del Centro, Canto y alrededores con la distancia real, ruido y condiciones de la calle. Si eliges una zona más apartada, averigua cómo vuelve el transporte a la hora que planeas salir.</p></div>
+          <div class="g-card"><h3>En la playa</h3><p>Lleva solo lo necesario, mantén contigo documento y teléfono, y no dejes objetos de valor sin cuidado al entrar al agua. Si vas a alquilar silla o sombrilla, organiza también dónde queda tu bolso y cuál es el último transporte de regreso.</p></div>
+          <div class="g-card"><h3>En paseos compartidos</h3><p>Verifica el operador, el lugar de encuentro, la duración, las inclusiones y la hora de regreso. Avisa a alguien de confianza qué actividad harás y conserva la dirección de tu alojamiento fuera de línea.</p></div>
+          <div class="g-card"><h3>Para volver de noche</h3><p>Antes de sentarte a cenar, mira cómo regresar. Comprueba punto de recogida, batería y conexión; ten a mano una alternativa oficial si la aplicación no encuentra vehículo. No subas a un transporte que no confirmaste o cuyo conductor no puedas identificar.</p></div>
+        </div>
+        <div class="g-tip"><b>Mi consejo</b><p>Si es tu primera noche, elige un plan sencillo: paseo por una zona activa, una mesa reservada y regreso decidido con anticipación. Al día siguiente tendrás más confianza para explorar otros sectores.</p></div>
+        <div class="g-links"><a href="/destinos/buzios/alojamiento/">Comparar zonas para alojarte ↗</a><a href="/destinos/buzios/moverse/">Leer cómo moverte por Búzios ↗</a><a href="/destinos/buzios/comer-y-salir/">Elegir dónde cenar y salir ↗</a></div>
+      </article>
+
+      <article class="g-topic" id="temas-brasil">
+        <span class="eyeline">10 · Información general de Brasil</span>
+        <h2>Estos temas de la Guía de Río también sirven para Búzios</h2>
+        <p>La entrada migratoria, los requisitos para menores, la prórroga de permanencia, las reglas generales de CPF, salud del viajero, dinero, conectividad y aplicaciones no se vuelven distintos por cambiar de ciudad. Por eso prefiero llevarte al tema completo que ya está desarrollado y mantener esta página concentrada en lo que cambia en Búzios.</p>
+        <div class="g-links">
+          <a href="/guia/documentos/">Documentos y entrada ↗</a><a href="/guia/menores/">Viajar con menores ↗</a><a href="/guia/permanencia/">Permanencia y extensión ↗</a><a href="/guia/seguro/">Seguro y salud ↗</a><a href="/guia/vacunas/">Vacunas ↗</a><a href="/guia/cpf/">CPF ↗</a><a href="/guia/dinero/">Dinero y tarjetas ↗</a><a href="/guia/pix/">Pix ↗</a><a href="/guia/internet/">Internet y eSIM ↗</a><a href="/guia/apps/">Aplicaciones ↗</a><a href="/consejos/electricidad-adaptadores/">Enchufes y voltaje ↗</a><a href="/consejos/maletas-rio/">Maleta y clima ↗</a>
+        </div>
+      </article>
+
+      <section class="g-guide-end">
+        <h2>Ahora sí: arma tu Búzios</h2>
+        <p>Primero define fechas y zona; después resolvemos llegada, movilidad y el ritmo de cada día. Para elegir playa, paseo, comida o alojamiento, sigue con las guías de Búzios que preparé con el mismo criterio: información concreta, contexto y una recomendación de Ernestinho.</p>
+        <a href="/destinos/buzios/playas/">Ver playas</a><a href="/destinos/buzios/alojamiento/">Elegir barrio y alojamiento</a><a href="/destinos/buzios/que-hacer/">Qué hacer</a><a href="/destinos/buzios/consejos/">Consejos prácticos</a><a href="/destinos/buzios/">Volver a Búzios</a>
+      </section>
+    </section>
+  </main>
+  <footer><strong>ERNESTINHO CARIOCA</strong><p>Río no se visita. Se vive. Y Búzios también.</p><a href="/destinos/buzios/">← Volver a la guía de Búzios</a></footer>
+  <script type="module" src="/assets/js/site.js"></script>
+  <script type="module" src="/assets/js/buzios-integration.js"></script>
+</body>
+</html>
