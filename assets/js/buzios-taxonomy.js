@@ -1,5 +1,5 @@
 export const buziosMainCategories = [
-  { key: 'guide', path: '/destinos/buzios/#explora', ES: 'Guía de Búzios', PT: 'Guia de Búzios', EN: 'Búzios guide' },
+  { key: 'guide', path: '/destinos/buzios/guia/', ES: 'Guía de Búzios', PT: 'Guia de Búzios', EN: 'Búzios guide' },
   { key: 'experiences', path: '/destinos/buzios/experiencias/', ES: 'Tours y experiencias', PT: 'Passeios e experiências', EN: 'Tours and experiences' },
   { key: 'food', path: '/destinos/buzios/comer-y-salir/', ES: 'Dónde comer', PT: 'Onde comer', EN: 'Where to eat' },
   { key: 'things', path: '/destinos/buzios/que-hacer/', ES: 'Qué hacer', PT: 'O que fazer', EN: 'Things to do' },
