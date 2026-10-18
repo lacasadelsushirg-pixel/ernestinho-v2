@@ -7,7 +7,7 @@ import { addEditorial, enhanceExisting } from './buzios-editorial.js';
 import { closeEditorial } from './buzios-closure.js';
 import { buziosPhotos } from './buzios-photos.js';
 import { ready as navigationReady } from './site.js';
-import { renderBuziosCategoryNav, renderBuziosSubtopics } from './buzios-taxonomy.js';
+import { renderBuziosCategoryNav, renderBuziosSubtopics } from './buzios-taxonomy.js?v=20261018-guide-link-fix-3';
 
 const T=(es,pt,en)=>({ES:es,PT:pt,EN:en});
 const A=(...items)=>items;
