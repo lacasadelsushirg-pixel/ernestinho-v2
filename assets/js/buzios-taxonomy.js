@@ -5,7 +5,9 @@ export const buziosMainCategories = [
   { key: 'things', path: '/destinos/buzios/que-hacer/', ES: 'Qué hacer', PT: 'O que fazer', EN: 'Things to do' },
   { key: 'beaches', path: '/destinos/buzios/playas/', ES: 'Playas', PT: 'Praias', EN: 'Beaches' },
   { key: 'neighborhoods', path: '/destinos/buzios/alojamiento/', ES: 'Barrios', PT: 'Bairros', EN: 'Neighborhoods' },
-  { key: 'transport', path: '/destinos/buzios/como-llegar/', ES: 'Transporte', PT: 'Transporte', EN: 'Transport' },
+  { key: 'transport', path: '/destinos/buzios/transportes/', ES: 'Transportes', PT: 'Transportes', EN: 'Transport' },
+  { key: 'events', path: '/destinos/buzios/eventos/', ES: 'Eventos', PT: 'Eventos', EN: 'Events' },
+  { key: 'photos', path: '/destinos/buzios/fotografias/', ES: 'Fotografías', PT: 'Fotografias', EN: 'Photography' },
   { key: 'tips', path: '/destinos/buzios/consejos/', ES: 'Consejos', PT: 'Dicas', EN: 'Tips' }
 ];
 
@@ -29,7 +31,14 @@ export const buziosSubtopics = {
     ['/destinos/buzios/vida-nocturna/', { ES: 'Vida nocturna', PT: 'Vida noturna', EN: 'Nightlife' }, { ES: 'Ideas para cenar, caminar y organizar el regreso al alojamiento.', PT: 'Ideias para jantar, caminhar e planejar a volta à hospedagem.', EN: 'Ideas for dinner, an evening walk and getting back to your stay.' }]
   ],
   transport: [
+    ['/destinos/buzios/como-llegar/', { ES: 'Cómo llegar desde Río y los aeropuertos', PT: 'Como chegar do Rio e dos aeroportos', EN: 'Getting here from Rio and the airports' }, { ES: 'Compara bus, transfer y auto según tu origen, horario y destino final.', PT: 'Compare ônibus, transfer e carro conforme sua origem, horário e destino final.', EN: 'Compare bus, transfer and car by origin, time and final destination.' }],
     ['/destinos/buzios/moverse/', { ES: 'Cómo moverse en Búzios', PT: 'Como se locomover em Búzios', EN: 'Getting around Búzios' }, { ES: 'Opciones locales para conectar alojamiento, playas y planes del día.', PT: 'Opções locais para conectar hospedagem, praias e programas do dia.', EN: 'Local options for connecting your stay, beaches and daily plans.' }]
+  ],
+  events: [
+    ['/destinos/buzios/eventos/', { ES: 'Agenda viva de Búzios', PT: 'Agenda viva de Búzios', EN: 'Búzios live calendar' }, { ES: 'Festivales, cultura, gastronomía, deporte y vida comunitaria: confirma fechas en la agenda oficial.', PT: 'Festivais, cultura, gastronomia, esporte e vida comunitária: confira as datas na agenda oficial.', EN: 'Festivals, culture, food, sport and community life: verify dates in the official calendar.' }]
+  ],
+  photos: [
+    ['/destinos/buzios/fotografias/', { ES: 'Galería de Búzios', PT: 'Galeria de Búzios', EN: 'Búzios photo gallery' }, { ES: 'Paisajes, playas y rincones del destino con créditos y fuentes de cada imagen.', PT: 'Paisagens, praias e cantos do destino com créditos e fontes de cada imagem.', EN: 'Landscapes, beaches and corners of the destination with image credits and sources.' }]
   ],
   tips: [
     ['/destinos/buzios/clima/', { ES: 'Clima y temporadas', PT: 'Clima e temporadas', EN: 'Weather and seasons' }, { ES: 'Estacionalidad, cambios de tiempo y decisiones útiles para empacar.', PT: 'Sazonalidade, mudanças do tempo e escolhas úteis para fazer a mala.', EN: 'Seasonality, changing weather and useful packing decisions.' }],

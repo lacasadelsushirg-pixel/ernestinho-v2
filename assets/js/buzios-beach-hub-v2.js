@@ -1,27 +1,18 @@
 import { getLanguage } from '/assets/js/i18n.js';
 import { beachIndex } from '/assets/js/buzios-beach-v2-data.js';
-import { beachProfiles } from '/assets/js/buzios-beaches.js';
-import { beachCompletion, beachFields } from '/assets/js/buzios-beach-content.js';
 import { buziosPhotos } from '/assets/js/buzios-photos.js';
 import { resolveBeachPhotos } from '/assets/js/buzios-cloudinary.js';
 
 const language = getLanguage();
-document.body.classList.add('ec-buzios-beach-v2');
+document.body.classList.add('ec-buzios-beach-v2','ec-buzios-page');
 const prefix = location.pathname.startsWith('/pt/') ? '/pt' : location.pathname.startsWith('/en/') ? '/en' : '';
 const copy = {
-  ES: { title: '23 playas. Elige la que combina contigo.', description: 'Playas de Búzios: compara el mar, el ambiente y el acceso. Cada playa tiene su propia guía editorial.', lead: 'Mira las playas por separado. Entra en cada guía para conocer el acceso, el mar, el ambiente y mi lectura del lugar.', note: 'Yo reuní las fotos por playa para que puedas comparar sus paisajes y elegir el plan que mejor encaja contigo.', open: 'Abrir playa', photoMissing: 'Ver guía de playa', kicker: 'GUÍA DE PLAYAS · BÚZIOS', source: 'Fuente', license: 'Licencia', beaches: 'Playas de Búzios', footer: '23 playas · condiciones y accesos pueden cambiar; verifica el día de tu visita.' },
-  PT: { title: '23 praias. Escolha a que combina com você.', description: 'Praias de Búzios: compare o mar, o ambiente e o acesso. Cada praia tem seu próprio guia editorial.', lead: 'Veja cada praia separadamente. Abra o guia para conhecer acesso, mar, ambiente e minha leitura do lugar.', note: 'Reuni as fotos por praia para você comparar as paisagens e escolher o passeio que combina melhor com seu dia.', open: 'Abrir praia', photoMissing: 'Ver guia da praia', kicker: 'GUIA DE PRAIAS · BÚZIOS', source: 'Fonte', license: 'Licença', beaches: 'Praias de Búzios', footer: '23 praias · condições e acessos podem mudar; confira no dia da visita.' },
-  EN: { title: '23 beaches. Find the one that suits your trip.', description: 'Búzios beaches: compare the sea, atmosphere and access. Each beach has its own editorial guide.', lead: 'Browse beaches one by one. Open each guide for access, sea conditions, atmosphere and my take on the place.', note: 'I have grouped the photos by beach so you can compare the scenery and choose the outing that suits your day.', open: 'Open beach', photoMissing: 'View beach guide', kicker: 'BEACH GUIDE · BÚZIOS', source: 'Source', license: 'Licence', beaches: 'Búzios beaches', footer: '23 beaches · conditions and access can change; check on the day of your visit.' }
+  ES: { title: '23 playas. Elige la que combina contigo.', description: 'Playas de Búzios: compara el mar, el ambiente y el acceso. Cada playa tiene su propia guía editorial.', lead: 'Elige una playa para abrir su guía completa.', note: 'Las condiciones del mar y los accesos pueden cambiar; revisa la información para el día de tu visita.', open: 'Descubrir', photoMissing: 'Descubrir', kicker: 'GUÍA DE PLAYAS · BÚZIOS', source: 'Fuente', license: 'Licencia', beaches: 'Playas de Búzios', footer: '23 playas · condiciones y accesos pueden cambiar; verifica el día de tu visita.' },
+  PT: { title: '23 praias. Escolha a que combina com você.', description: 'Praias de Búzios: compare o mar, o ambiente e o acesso. Cada praia tem seu próprio guia editorial.', lead: 'Escolha uma praia para abrir o guia completo.', note: 'As condições do mar e os acessos podem mudar; confira as informações para o dia da visita.', open: 'Descobrir', photoMissing: 'Descobrir', kicker: 'GUIA DE PRAIAS · BÚZIOS', source: 'Fonte', license: 'Licença', beaches: 'Praias de Búzios', footer: '23 praias · condições e acessos podem mudar; confira no dia da visita.' },
+  EN: { title: '23 beaches. Find the one that suits your trip.', description: 'Búzios beaches: compare the sea, atmosphere and access. Each beach has its own editorial guide.', lead: 'Choose a beach to open its full guide.', note: 'Sea conditions and access can change; check information for the day of your visit.', open: 'Discover', photoMissing: 'Discover', kicker: 'BEACH GUIDE · BÚZIOS', source: 'Source', license: 'Licence', beaches: 'Búzios beaches', footer: '23 beaches · conditions and access can change; check on the day of your visit.' }
 };
 const L = copy[language] || copy.ES;
 const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
-const local = value => value && typeof value === 'object' ? (value[language] || value.ES || '') : (value || '');
-const excerpt = (text, max = 128) => {
-  const first = String(text || '').trim().split(/(?<=[.!?])\s+/)[0] || '';
-  if (first.length <= max) return first;
-  const cut = first.slice(0, max - 1).replace(/\s+\S*$/, '');
-  return `${cut}…`;
-};
 const heroLabels = { ES: ['Panorama de la costa de Búzios; no identifica una playa concreta.', 'Panorama costero de Búzios'], PT: ['Panorama do litoral de Búzios; não identifica uma praia específica.', 'Panorama do litoral de Búzios'], EN: ['A panorama of the Búzios coast; it does not identify a specific beach.', 'Búzios coastal panorama'] };
 const heroPhoto = buziosPhotos['Paisaje de Búzios'];
 const photoAlt = heroLabels[language] || heroLabels.ES;
@@ -44,9 +35,6 @@ const kicker = document.querySelector('.bz2-hero .bz2-kicker');
 if (h1) h1.textContent = L.title;
 if (lead) lead.textContent = L.lead;
 if (kicker) kicker.textContent = L.kicker;
-const note = document.querySelector('.bz2-note');
-if (note) note.textContent = L.note;
-
 if (heroPhoto && !document.querySelector('.bz2-hub-panorama')) {
   const figure = document.createElement('figure');
   figure.className = 'bz2-hub-panorama';
@@ -59,58 +47,38 @@ grid?.replaceChildren();
 document.querySelector('.bz2-hub-footnote')?.remove();
 const photoAltFor = name => language === 'PT' ? `Praia ${name} em Búzios` : language === 'EN' ? `${name} beach in Búzios` : `Playa ${name} en Búzios`;
 for (const beach of beachIndex) {
-  const identity = local(beachProfiles.find(([name]) => name === beach.name)?.[1]);
-  const content = beachCompletion.find(([name]) => name === beach.name)?.[1] || [];
-  const card = document.createElement('a');
-  card.className = 'bz2-card';
-  card.href = `${prefix}/destinos/buzios/playas/${beach.slug}/`;
+  const href = `${prefix}/destinos/buzios/playas/${beach.slug}/`;
+  const card = document.createElement('article');
+  card.className = 'ec-beach-card ec-beach-card--compact bz2-card';
   card.setAttribute('aria-label', `${beach.name} — ${L.open}`);
 
-  const media = document.createElement('div');
-  media.className = 'bz2-thumb empty';
-  const loading = document.createElement('span');
-  loading.textContent = L.photoMissing;
-  media.append(loading);
+  const media = document.createElement('a');
+  media.className = 'ec-beach-photo-cover';
+  media.href = href;
+  media.setAttribute('aria-label', `${L.open} ${beach.name}`);
+  const image = document.createElement('img');
+  image.alt = photoAltFor(beach.name);
+  image.loading = 'lazy';
+  image.decoding = 'async';
+  image.width = 800;
+  image.height = 500;
+  media.append(image);
 
   const body = document.createElement('div');
-  body.className = 'bz2-card-copy';
+  body.className = 'ec-beach-mini-content';
   const name = document.createElement('h2');
   name.textContent = beach.name;
-  const summary = document.createElement('p');
-  summary.textContent = excerpt(identity, 142);
-  const tags = document.createElement('ul');
-  tags.className = 'bz2-card-facts';
-  const sea = local(content[0]);
-  const access = local(content[2]);
-  for (const [label, value] of [[language === 'PT' ? 'Mar' : language === 'EN' ? 'Sea' : 'Mar', sea], [language === 'PT' ? 'Acesso' : language === 'EN' ? 'Access' : 'Acceso', access]]) {
-    const item = document.createElement('li');
-    const strong = document.createElement('strong');
-    strong.textContent = `${label} · `;
-    item.append(strong, document.createTextNode(excerpt(value, 64)));
-    tags.append(item);
-  }
-  const action = document.createElement('span');
-  action.className = 'bz2-open';
+  const action = document.createElement('a');
+  action.className = 'ec-beach-discover';
+  action.href = href;
   action.textContent = `${L.open} →`;
-  body.append(name, summary, tags, action);
+  body.append(name, action);
   card.append(media, body);
   grid?.append(card);
 
   resolveBeachPhotos(beach,1).then(([photo])=>{
     if(!photo) return;
-    media.className='bz2-thumb';
-    media.replaceChildren();
-    const img=document.createElement('img');
-    img.src=photo.src;
-    img.alt=photoAltFor(beach.name);
-    img.loading='lazy';
-    img.decoding='async';
-    media.append(img);
+    image.src=photo.src;
     if(photo.owner) card.dataset.ecPhoto='own';
   });
 }
-
-const footer = document.createElement('p');
-footer.className = 'bz2-hub-footnote';
-footer.textContent = L.footer;
-grid?.after(footer);

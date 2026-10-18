@@ -184,6 +184,20 @@ body.ec-buzios-full-day .hero.bz-page-hero{display:none}
 .bz-page-hero .hero-visual img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center}
 .bz-page-hero:after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(3,17,16,.84),rgba(3,17,16,.55) 43%,rgba(3,17,16,.04) 78%)}
 .bz-page-hero .hero-copy{grid-area:1/1;align-self:center;position:relative;z-index:2;max-width:760px;padding:7vw}
+body.ec-buzios-page .bz-page-hero .hero-copy h1,body.ec-buzios-page .bz-page-hero .hero-copy h1 span,body.ec-buzios-page .bz-page-hero .hero-copy h1 em{text-shadow:none!important}
+body.ec-buzios-page .bz-portal .door,body.ec-buzios-page .bz-portal .door *{text-shadow:none!important}
 .bz-page-hero .bz-page-back{display:inline-block;margin:18px 0 0 10px;color:#fff;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
 .bz-page-hero.bz-hero-text{min-height:320px;background:linear-gradient(120deg,#061817,#123d39 70%)}
 @media(max-width:700px){.bz-page-hero .hero-visual img{aspect-ratio:4/5;object-fit:cover}.bz-page-hero.bz-hero-portal .hero-visual img{object-position:78% center}.bz-page-hero .hero-copy{align-self:end;padding:12vw 6vw}.bz-page-hero.bz-hero-text{min-height:360px}}
+
+/* Búzios photo gallery: editorial imagery with persistent source and licence credits. */
+.bz-photo-gallery{padding:14px 0 84px}
+.bz-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.bz-photo-grid figure{margin:0;overflow:hidden;border:1px solid var(--bz-line);border-radius:20px;background:#082a27;color:#f4f7f6}
+.bz-photo-grid img{display:block;width:100%;height:250px;object-fit:cover}
+.bz-photo-grid figcaption{display:grid;gap:6px;padding:14px 16px;font-size:11px;line-height:1.5}
+.bz-photo-grid figcaption strong{color:#fff;font:500 21px/1.15 var(--serif)}
+.bz-photo-grid figcaption span{color:#c4d4d0}
+.bz-photo-grid figcaption a{color:var(--bz-amber);text-decoration:underline;text-underline-offset:2px}
+@media(max-width:900px){.bz-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.bz-photo-grid{grid-template-columns:1fr}.bz-photo-grid img{height:auto;aspect-ratio:4/3}}
