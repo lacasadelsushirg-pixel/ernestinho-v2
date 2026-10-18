@@ -3,7 +3,7 @@ import { beachIndex } from '/assets/js/buzios-beach-v2-data.js';
 import { beachProfiles } from '/assets/js/buzios-beaches.js';
 import { beachDecisions } from '/assets/js/buzios-beach-decisions.js';
 import { beachCompletion } from '/assets/js/buzios-beach-content.js';
-import { buziosBeachGallery } from '/assets/js/buzios-beach-gallery.js';
+import { buziosBeachGallery } from '/assets/js/buzios-beach-gallery.js?v=20261018-geriba-gallery-cleanup';
 
 const language = getLanguage();
 const prefix = location.pathname.startsWith('/pt/') ? '/pt' : location.pathname.startsWith('/en/') ? '/en' : '';
@@ -85,22 +85,22 @@ function photoStory(paths, start) {
   const grid = paths.map((path, i) => {
     const geriba = {
       ES:[
-        'Las olas y la orilla abierta muestran el carácter surfeable de Geribá; el mar del día siempre merece una mirada antes de entrar.',
-        'La franja amplia de arena se abre hacia el agua y deja ver el morro rocoso que enmarca un extremo de la ensenada.',
-        'Personas con tablas recorren la orilla: una escena cotidiana que revela el pulso de surf de esta playa.',
-        'Desde la arena, el perfil verde y rocoso acompaña el movimiento de las olas a lo largo de la costa.'
+        'Sombrillas de colores y filas de sillas muestran el ambiente animado de este tramo; conviene confirmar qué servicios están disponibles ese día.',
+        'Dos surfistas salen del agua con sus tablas, con olas y un morro rocoso al fondo: el mar pide observarse antes de entrar.',
+        'La espuma llega a la arena frente al paredón rocoso; la luz y el oleaje cambian la escena a lo largo del día.',
+        'La vista abierta muestra la extensión de arena y un quiosco junto al extremo arbolado, como referencia visual del entorno.'
       ],
       PT:[
-        'As ondas e a faixa aberta da praia mostram o perfil de surfe de Geribá; vale observar as condições do mar antes de entrar.',
-        'A ampla faixa de areia se abre para o mar e revela o costão rochoso que contorna uma das pontas da enseada.',
-        'Pessoas com pranchas caminham pela beira-mar: uma cena cotidiana que mostra o ritmo do surfe nesta praia.',
-        'Da areia, o contorno verde e rochoso acompanha o movimento das ondas ao longo da costa.'
+        'Guarda-sóis coloridos e fileiras de cadeiras mostram o movimento deste trecho; vale confirmar quais serviços estão disponíveis no dia.',
+        'Dois surfistas saem da água com suas pranchas, com ondas e um costão ao fundo: observe o mar antes de entrar.',
+        'A espuma chega à areia diante do paredão rochoso; a luz e as ondas mudam a paisagem ao longo do dia.',
+        'A vista aberta mostra a extensão da areia e um quiosque perto da ponta arborizada, uma referência visual do entorno.'
       ],
       EN:[
-        'The breaking waves and open shoreline show Geribá’s surf character; check the sea on the day before heading in.',
-        'A broad stretch of sand opens onto the water, with the rocky headland framing one end of the bay.',
-        'Surfers carrying boards walk along the waterline, a familiar scene that captures the beach’s surf rhythm.',
-        'From the sand, a green rocky headland frames the waves rolling along the shore.'
+        'Colourful umbrellas and rows of chairs give this stretch a lively feel; check which facilities are available on the day.',
+        'Two surfers leave the water carrying their boards, with waves and a rocky headland behind them: check the sea before swimming.',
+        'Foam reaches the sand below the rocky cliff; changing light and surf reshape the view through the day.',
+        'The open view shows a long stretch of sand and a kiosk near the wooded headland, a useful landmark in the setting.'
       ]
     };
     const general = {

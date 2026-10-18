@@ -40,13 +40,10 @@ export const buziosBeachGallery = {
     "OSSOS/caption.jpg"
   ],
   "geriba": [
-    "GERIBÁ/b2826267-8e8c-4c6a-8791-c5ce3e6c4d82.webp",
     "GERIBÁ/praia-de-geriba.jpg",
     "GERIBÁ/praia-de-geriba (1).webp",
     "GERIBÁ/cbc50b8c-092b-4552-801a-fa1ed0454ec4.jpg",
     "GERIBÁ/praia-de-geriba.webp",
-    "GERIBÁ/97906fbb-3d9e-4cab-b79a-9fe257091bb0.webp",
-    "GERIBÁ/41485da6-6a24-416d-92cc-7ce37e99b413.webp",
     "GERIBÁ/0d5d052e-9665-4ff6-aa2b-44cf93861c14.jpg"
   ],
   "armacao": [
