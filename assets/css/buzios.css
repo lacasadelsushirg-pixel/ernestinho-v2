@@ -297,3 +297,11 @@ body.ec-buzios-page .bz-page-hero.bz-hero-portal .hero-visual img{filter:none!im
 .bz-mm-deep p{max-width:1050px;font:400 16px/1.85 Arial,sans-serif;color:#465653;margin:0 0 18px}
 .bz-mm-deep p strong{color:#a77430;font-weight:800}
 @media(max-width:1100px){.bz-mm-feature-photo,.bz-mm-feature-info{grid-column:1;grid-row:auto}.bz-mm-deep{grid-column:1}}
+
+/* Working expandable recommendations below Búzios month-by-month cards. */
+.bz-mm-profile-answer{margin-top:11px;border-top:1px solid #e5dbc7;padding-top:12px}
+.bz-mm-profile-answer summary{color:#986519;font:800 11px/1.5 Arial,sans-serif;letter-spacing:.04em;cursor:pointer;list-style-position:inside}
+.bz-mm-profile-answer[open]{background:#fff9eb;border-radius:8px;padding:12px}
+.bz-mm-profile-answer p{font:400 14px/1.7 Arial,sans-serif;color:#3e5452}
+.bz-mm-profile-answer a{color:#0c5253!important;text-decoration:underline!important;text-underline-offset:3px}
+#bz-mm-selector{scroll-margin-top:110px}
