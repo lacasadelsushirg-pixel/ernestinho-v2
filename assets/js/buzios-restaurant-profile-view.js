@@ -82,6 +82,8 @@ const pescadoresPhotos=routeSlug==='pescadores'?[
  '130253254_3474059582675866_134587023623395522_n.jpg'
 ].map(f=>'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/BAR%20DOS%20PESCADORES/'+encodeURIComponent(f)):[];
 const photosLabel=pescadoresPhotos.length?`Fotos del material compartido: ${pescadoresPhotos.length} fotografías`:copy.photos;
+const pescadoresInline=(i)=>pescadoresPhotos[i]?`<figure class="inline-photo"><img src="${esc(pescadoresPhotos[i])}" alt="${esc(name)} · fotografía ${i+1}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(i+1).padStart(2,'0')}</figcaption></figure>`:'';
+const legacyFirstFive=new Set(['farinatta','altto','agaleria','tawa','macaw']).has(slug);
 const sections=[['identity',pick(p.intro)],['history',pick(p.history)],['ambience',pick(p.ambience)],['read',pick(p.read)],['order',pick(p.order)],['time',pick(p.time)],['advice',pick(p.advice)],['nearby',pick(p.nearby)]];
 const routePlan=[
  `Yo empezaría ubicando ${name} en el mapa desde el alojamiento y confirmando la dirección que publica el restaurante. La zona indicada es ${pick(p.zone)}; con ese dato calculo cuánto demora el traslado y si conviene llegar caminando, en taxi o por aplicación. Si la ficha o la reserva muestran otra referencia, confirmo directamente con la casa antes de organizar el resto del día.`,
@@ -94,11 +96,11 @@ document.querySelector('#profile').innerHTML=`
   <nav class="back"><a href="${localized(root)}">${copy.back}</a><span>${['es','pt','en'].map(l=>`<a class="lang" href="${l==='es'?'':'/'+l}${root+routeSlug}/">${l.toUpperCase()}</a>`).join('')}</span></nav>
   <header class="hero"><div><p class="ey">${esc(copy.guide)} · ${esc(pick(p.zone))}</p><div class="tags">${pick(p.tags).split(' · ').map(t=>`<span>${esc(t)}</span>`).join('')}</div><h1>${esc(name)}</h1><p class="lead">${esc(pick(p.intro))}</p><p class="hero-note">${esc(photosLabel)}</p></div></header>
   <main class="wrap">
-   ${sections.map(([key,text])=>`<section class="card"><h2>${esc(copy[key])}</h2><p>${esc(text)}</p></section>`).join('')}
+   ${sections.map(([key,text],i)=>`<section class="card"><h2>${esc(copy[key])}</h2><p>${esc(text)}</p></section>${pescadoresPhotos.length&&i<4?pescadoresInline(i):''}`).join('')}
    <section class="card"><h2>${lang==='es'?'Mi plan para organizar la visita':lang==='pt'?'Meu plano para organizar a visita':'My plan for organising the visit'}</h2>${routePlan.map(text=>`<p>${esc(text)}</p>`).join('')}</section>
    <section class="card"><h2>${esc(copy.practical)}</h2><p>${esc(pick(p.practical))}</p><p><strong>${esc(copy.address)}:</strong> ${esc(pick(p.zone))}</p>${contact.map(c=>`<p>${c}</p>`).join('')}<p>${esc(copy.follow)}</p></section>
    <section class="card"><h2>${esc(copy.map)}</h2><p>${esc(pick(p.zone))}. ${esc(copy.follow)}</p><p>${link(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.map)}`,copy.mapLink)}</p><iframe class="map" title="${esc(copy.map+' · '+name)}" src="https://www.google.com/maps?q=${encodeURIComponent(p.map)}&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
-   <section class="card"><h2>${esc(copy.gallery)}</h2>${pescadoresPhotos.length?`<div class="gallery">${pescadoresPhotos.map((src,i)=>`<figure><img src="${esc(src)}" alt="${esc(name)} · ${i+1}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(i+1).padStart(2,'0')}</figcaption></figure>`).join('')}</div><p>${esc(copy.follow)}</p>`:`<div class="photo-gap"><strong>${esc(copy.missing)}</strong><p>${esc(copy.missingDetail)}</p><p>${esc(pick(p.photoGap))}</p><small>${esc(copy.credits)}</small></div>`}</section>
+   <section class="card"><h2>${esc(copy.gallery)}</h2>${pescadoresPhotos.length?`<div class="gallery">${pescadoresPhotos.slice(4).map((src,i)=>`<figure><img src="${esc(src)}" alt="${esc(name)} · ${i+5}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(i+5).padStart(2,'0')}</figcaption></figure>`).join('')}</div><p>${esc(copy.follow)}</p>`:`<div class="photo-gap"><strong>${esc(copy.missing)}</strong><p>${esc(copy.missingDetail)}</p><p>${esc(pick(p.photoGap))}</p><small>${esc(copy.credits)}</small></div>`}</section>
    <section class="card"><h2>${esc(copy.sources)}</h2><ul>${p.sources.map(([label,url])=>`<li>${link(url,pick(label))}</li>`).join('')}</ul></section>
    <p class="back"><a href="${localized(root)}">${copy.back}</a></p>
   </main>`;
