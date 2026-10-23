@@ -17,7 +17,7 @@ const T=(es,pt,en)=>({ES:es,PT:pt,EN:en});
 const A=(...items)=>items;
 const img={
   coast:'/assets/images/buzios/panorama-mtur.webp',
-  sea:'/assets/images/buzios/joao-fernandes.webp',
+  sea:'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20para%20playas%20buzios.jpg',
   turtle:'/assets/images/buzios/tartaruga.webp',
   street:'/assets/images/buzios/orla-bardot.webp'
 };
@@ -909,10 +909,10 @@ function renderBuziosSoloEditorial(page,lang,sections){
  const t=(es,pt,en)=>({ES:es,PT:pt,EN:en})[lang];
  const img=[
  '/assets/images/buzios/orla-bardot.webp',
- '/assets/images/buzios/rua-das-pedras.webp',
+ 'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20una%20zona%20para%20cada%20ritmo.jpg',
  '/assets/images/buzios/joao-fernandes.webp',
- '/assets/images/buzios/geriba.webp',
- '/assets/images/buzios/porto-da-barra.webp'
+ 'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20para%20experiencias%20buzios.jpg',
+ 'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20buzios%20mes%20a%20mes.jpeg'
  ];
  const pic=(index)=>img[index%img.length];
  const chapters=sections.map((section,si)=>{
