@@ -24,10 +24,49 @@ const indexable=f=>{const route=routeFor(f),html=fs.readFileSync(f,'utf8');retur
 const indexableRoutes=new Set(files.filter(indexable).map(routeFor));
 const prefix=(route,lang)=>lang==='ES'?route:'/'+lang.toLowerCase()+route;
 const pilot=process.argv.find(a=>a.startsWith('--routes='))?.slice(9).split(',');
-const updating=process.argv.includes('--update');
-if(updating&&!pilot)throw Error('--update requires --routes');
-const previous=updating?JSON.parse(fs.readFileSync(path.join(out,'locale-manifest.json'))):null;
-const targets=files.filter(f=>!pilot||pilot.includes(routeFor(f))).flatMap(f=>['ES','PT','EN'].map(language=>({file:f,route:routeFor(f),language})));
+const manualUpdating=process.argv.includes('--update');
+if(manualUpdating&&!pilot)throw Error('--update requires --routes');
+const liveRoot=path.resolve(root,'../../../public_html');
+const liveManifestPath=path.join(liveRoot,'locale-manifest.json');
+let liveManifest=null;
+if(!manualUpdating&&!process.argv.includes('--full')){
+ try{
+  const candidate=JSON.parse(fs.readFileSync(liveManifestPath,'utf8'));
+  if(Array.isArray(candidate.routes)&&candidate.routes.length&&fs.existsSync(path.join(liveRoot,'index.html')))liveManifest=candidate;
+ }catch{}
+}
+const currentCommit=execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim();
+const deletedSourceRoutes=new Set();
+let incrementalRoutes=null;
+let requiresFull=process.argv.includes('--full')||!liveManifest;
+if(liveManifest&&!manualUpdating&&!requiresFull){
+ const baseCommit=liveManifest.sourceCommit||'34a2e081f39d95245f6720a1fb3296bde3f5891d';
+ let changes;
+ try{
+  changes=execFileSync('git',['diff','--name-status','--no-renames',baseCommit+'..'+currentCommit],{cwd:root,encoding:'utf8'}).trim().split('\n').filter(Boolean);
+ }catch(error){throw Error('Cannot compare this build with the last deployed source commit: '+error.message);}
+ const routes=new Set();let allBuzios=false;let fullRequired=false;
+ for(const line of changes){
+  const [status,file]=line.split('\t');if(!file)continue;
+  if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
+   const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
+  }
+  if(/^assets\/js\/buzios-[^/]+\.js$/.test(file)||file==='assets/css/buzios.css'){allBuzios=true;continue;}
+  if(file.endsWith('.html')){fullRequired=true;continue;}
+  if(/^assets\/js\/.+\.js$/.test(file)||file==='package.json'||file==='package-lock.json'){fullRequired=true;continue;}
+ }
+ if(fullRequired)requiresFull=true;
+ else{
+  if(allBuzios)for(const file of files){const route=routeFor(file);if(route.startsWith('/destinos/buzios/'))routes.add(route);}
+  incrementalRoutes=routes;
+ }
+}
+const useLiveIncremental=!!liveManifest&&!manualUpdating&&!requiresFull;
+const updating=manualUpdating||useLiveIncremental;
+const previous=manualUpdating?JSON.parse(fs.readFileSync(path.join(out,'locale-manifest.json'))):useLiveIncremental?liveManifest:null;
+const selectedRoutes=pilot?new Set(pilot):useLiveIncremental?incrementalRoutes:null;
+const targets=files.filter(f=>!selectedRoutes||selectedRoutes.has(routeFor(f))).flatMap(f=>['ES','PT','EN'].map(language=>({file:f,route:routeFor(f),language})));
+console.log('Build mode: '+(useLiveIncremental?'incremental':'full')+'; rendering '+targets.length+' of '+(files.length*3)+' locale pages; source '+currentCommit);
 // A legacy page shipped two plain-text meta declarations inside <head> without
 // their opening angle bracket. Browsers treat those lines as body text. Repair
 // only bare meta declarations in the head before either locale rendering path.
@@ -79,7 +118,12 @@ const server=http.createServer((req,res)=>{
 await new Promise(r=>server.listen(0,'127.0.0.1',r));
 const base=`http://127.0.0.1:${server.address().port}`;
 const libraries=await loadBuildLibraries();
-if(!updating)fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
+if(useLiveIncremental){
+ fs.rmSync(out,{recursive:true,force:true});
+ fs.cpSync(liveRoot,out,{recursive:true,dereference:true});
+ console.log('Seeded '+previous.routes.length+' published routes from public_html before incremental build');
+}else if(!updating)fs.rmSync(out,{recursive:true,force:true});
+fs.mkdirSync(out,{recursive:true});
 // Copy assets and route-local modules/data; exclude editorial/report/build inputs.
 function copy(dir,dest){for(const e of fs.readdirSync(dir,{withFileTypes:true})){
  if(ignore.has(e.name)||e.name.startsWith('.')||['package.json','package-lock.json','AGENTS.md','README.md','vercel.json','sitemap.xml'].includes(e.name))continue;
@@ -87,7 +131,12 @@ function copy(dir,dest){for(const e of fs.readdirSync(dir,{withFileTypes:true}))
  if(e.isDirectory()){fs.mkdirSync(to,{recursive:true});copy(from,to);}else if(!e.name.endsWith('.html'))fs.copyFileSync(from,to);
 }}
 copy(root,out);
-const browser=await chromium.launch(await buildBrowserOptions());
+for(const route of deletedSourceRoutes)for(const language of ['ES','PT','EN']){
+ const localized=prefix(route,language);
+ const destination=path.join(out,localized.endsWith('/')?localized.slice(1)+'index.html':localized.slice(1));
+ fs.rmSync(destination,{force:true});
+}
+const browser=targets.length?await chromium.launch(await buildBrowserOptions()):null;
 let next=0;const manifest=[];const prunedRoutes=new Set();const errors=[];
 async function worker(){
  const context=await browser.newContext({viewport:{width:1365,height:900}});
@@ -279,11 +328,11 @@ async function worker(){
  }
  await context.close();
 }
-try{await Promise.all(Array.from({length:Math.max(1,Math.min(3,Number(process.env.EC_BUILD_WORKERS||3)))},worker));}finally{await browser.close();server.close();}
+try{if(browser)await Promise.all(Array.from({length:Math.max(1,Math.min(3,Number(process.env.EC_BUILD_WORKERS||3)))},worker));}finally{if(browser)await browser.close().catch(error=>console.warn('Browser close after build:',error.message));server.close();}
 if(errors.length)throw Error(JSON.stringify(errors));
-if(previous){const changed=new Set([...manifest.map(r=>r.route),...prunedRoutes]);manifest.push(...previous.routes.filter(r=>!changed.has(r.route)));}
+if(previous){const changed=new Set([...manifest.map(r=>r.route),...prunedRoutes]);manifest.push(...previous.routes.filter(r=>!changed.has(r.route)&&!deletedSourceRoutes.has(r.source)));}
 manifest.sort((a,b)=>a.route.localeCompare(b.route));
 const isPilot=previous?previous.pilot:!!pilot;
-fs.writeFileSync(path.join(out,'locale-manifest.json'),JSON.stringify({sourceDocuments:files.length,indexablePerLanguage:indexableRoutes.size,generated:manifest.length,pilot:isPilot,routes:manifest},null,2));
+fs.writeFileSync(path.join(out,'locale-manifest.json'),JSON.stringify({sourceDocuments:files.length,indexablePerLanguage:indexableRoutes.size,generated:manifest.length,pilot:isPilot,sourceCommit:currentCommit,routes:manifest},null,2));
 if(!isPilot)execFileSync('python3',[path.join(root,'scripts/build_sitemap.py'),'--root',out],{stdio:'inherit'});
 console.log(`Complete: ${manifest.length} generated HTML; ${indexableRoutes.size} indexable URLs per language.`);
