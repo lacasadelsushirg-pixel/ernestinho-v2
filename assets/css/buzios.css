@@ -233,3 +233,31 @@ body.bz-rio-active .bz-page-hero,body.bz-rio-active .bz-hero-credit{display:none
 .bz-page-hero.bz-hero-portal .hero-copy{position:relative;z-index:1}
 .bz-page-hero.bz-hero-portal:before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,rgba(3,22,21,.85),rgba(3,22,21,.45) 57%,rgba(3,22,21,.12))}
 @media(max-width:760px){.bz-page-hero.bz-hero-portal{min-height:560px}.bz-page-hero.bz-hero-portal .hero-visual img{object-position:55% center}}
+
+/* Búzios home 2026: approved coastal editorial design, scoped to the destination home. */
+body.ec-buzios-page .bz-shell:has(.bz-home-intro){background:#faf8f4}
+body.ec-buzios-page .bz-hero-portal.bz-page-hero{min-height:clamp(490px,55vw,690px);background:#062f30}
+body.ec-buzios-page .bz-hero-portal.bz-page-hero .hero-visual img{height:100%;min-height:clamp(490px,55vw,690px);aspect-ratio:auto;object-fit:cover;object-position:center}
+body.ec-buzios-page .bz-hero-portal.bz-page-hero:after{background:linear-gradient(90deg,rgba(1,34,36,.78) 0%,rgba(1,34,36,.41) 43%,rgba(1,34,36,.02) 82%)}
+body.ec-buzios-page .bz-hero-portal.bz-page-hero:before{display:none}
+body.ec-buzios-page .bz-hero-portal .hero-copy{max-width:1120px;width:min(90%,1230px);margin:0 auto;padding:92px 0 74px;align-self:center}
+body.ec-buzios-page .bz-hero-portal .hero-copy h1{font:500 clamp(48px,6vw,94px)/.96 Georgia,serif;letter-spacing:-.035em;max-width:1000px;color:#fff;text-shadow:none!important}
+body.ec-buzios-page .bz-hero-portal .hero-copy h1 em{font-style:normal;color:#edc681;text-shadow:none!important}
+body.ec-buzios-page .bz-hero-portal .hero-copy .lead{font-size:clamp(16px,1.5vw,21px);max-width:670px;line-height:1.55;color:#fff;text-shadow:none!important}
+body.ec-buzios-page .bz-hero-portal .hero-copy .kicker{color:#efd19c;letter-spacing:.18em;text-shadow:none!important}
+body.ec-buzios-page .bz-hero-portal .hero-copy .primary{display:inline-flex;align-items:center;background:#063c3d;border:1px solid #e6c487;color:#fff;border-radius:14px;padding:16px 23px;box-shadow:none;text-shadow:none;font-weight:750}
+body.ec-buzios-page .bz-home-intro{padding:62px 5vw 34px;background:#faf8f4}
+body.ec-buzios-page .bz-home-intro h2{color:#073b3c}
+body.ec-buzios-page .bz-portal{background:#faf8f4;padding:0 clamp(18px,4vw,65px) 90px;color:#083b3a}
+body.ec-buzios-page .bz-portal .door-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:19px}
+body.ec-buzios-page .bz-portal .door{background:#fffefa;border:1px solid rgba(5,64,61,.09);box-shadow:0 8px 22px rgba(6,46,45,.06);border-radius:12px;transition:transform .18s ease,box-shadow .18s ease}
+body.ec-buzios-page .bz-portal .door:hover{box-shadow:0 14px 26px rgba(6,46,45,.13)}
+body.ec-buzios-page .bz-portal .door .card-image{aspect-ratio:1.65;object-fit:cover}
+body.ec-buzios-page .bz-portal .door-copy{padding:18px 17px 22px}
+body.ec-buzios-page .bz-portal .door b{font:650 clamp(16px,1.45vw,22px)/1.2 Georgia,serif;text-transform:none;letter-spacing:0;color:#0a3a38}
+body.ec-buzios-page .bz-portal .door .card-copy{display:block;-webkit-line-clamp:unset;color:#53605e;font:400 13px/1.55 Arial,sans-serif}
+body.ec-buzios-page .bz-portal .door small{font:750 11px/1.4 Arial,sans-serif;color:#a67022;letter-spacing:.04em}
+body.ec-buzios-page .bz-portal .door *{text-shadow:none!important}
+@media(max-width:1050px){body.ec-buzios-page .bz-portal .door-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){body.ec-buzios-page .bz-hero-portal.bz-page-hero,body.ec-buzios-page .bz-hero-portal.bz-page-hero .hero-visual img{min-height:585px}body.ec-buzios-page .bz-hero-portal.bz-page-hero .hero-visual img{object-position:55% center}body.ec-buzios-page .bz-hero-portal .hero-copy{width:88%;padding:85px 0 50px;align-self:end}body.ec-buzios-page .bz-hero-portal .hero-copy h1{font-size:clamp(42px,10vw,62px)}body.ec-buzios-page .bz-portal .door-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}body.ec-buzios-page .bz-portal .door-copy{padding:14px}body.ec-buzios-page .bz-home-intro{padding:50px 6vw 25px}}
+@media(max-width:410px){body.ec-buzios-page .bz-portal .door-grid{grid-template-columns:1fr}}
