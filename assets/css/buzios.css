@@ -287,3 +287,13 @@ body.ec-buzios-page .bz-page-hero.bz-hero-portal .hero-visual img{filter:none!im
 .bz-mm-cta{min-height:210px;padding:35px max(5vw,calc((100vw - 1190px)/2));display:flex;justify-content:space-between;align-items:center;gap:25px;background:linear-gradient(90deg,rgba(2,35,36,.9),rgba(2,35,36,.4)),url('https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20buzios%20mes%20a%20mes.jpeg') center/cover;color:#fff}.bz-mm-cta h2{font:500 clamp(24px,3vw,36px) Georgia,serif;max-width:600px;color:#fff}.bz-mm-cta a{display:inline-block;white-space:nowrap;padding:15px 24px;border-radius:70px;color:#092e30;background:#e9bb6c;font-size:12px;font-weight:800;text-decoration:none}
 @media(max-width:1100px){.bz-mm-selector{grid-template-columns:repeat(6,minmax(0,1fr));width:94vw}.bz-mm-detail{grid-template-columns:1fr}.bz-mm-feature-photo{min-height:350px}.bz-mm-facts{grid-template-columns:repeat(4,minmax(0,1fr))}.bz-mm-lifestyle-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:680px){.bz-mm-hero{min-height:350px;padding:38px 6vw}.bz-mm-hero h1{font-size:52px}.bz-mm-hero p{font-size:14px}.bz-mm-selector{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}.bz-mm-month small{font-size:9px}.bz-mm-main{padding:0 14px}.bz-mm-feature-info{padding:14px}.bz-mm-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.bz-mm-facts section:nth-child(2){border-right:0}.bz-mm-tip h3{font-size:20px}.bz-mm-lifestyle-grid{grid-template-columns:1fr}.bz-mm-travel{padding:45px 14px}.bz-mm-cta{display:block;padding:28px 20px}.bz-mm-cta a{margin-top:8px}}
+
+/* Detailed January-March editorial copy beneath each featured month. */
+.bz-mm-detail{grid-template-rows:auto auto}
+.bz-mm-feature-photo{grid-column:1;grid-row:1}
+.bz-mm-feature-info{grid-column:2;grid-row:1}
+.bz-mm-deep{grid-column:1/-1;padding:29px clamp(20px,4vw,58px) 37px;background:#fffefa;border-top:1px solid #eee0c8}
+.bz-mm-deep h3{font:500 clamp(25px,3vw,36px)/1.2 Georgia,serif;color:#0c3a3b;margin:0 0 19px}
+.bz-mm-deep p{max-width:1050px;font:400 16px/1.85 Arial,sans-serif;color:#465653;margin:0 0 18px}
+.bz-mm-deep p strong{color:#a77430;font-weight:800}
+@media(max-width:1100px){.bz-mm-feature-photo,.bz-mm-feature-info{grid-column:1;grid-row:auto}.bz-mm-deep{grid-column:1}}
