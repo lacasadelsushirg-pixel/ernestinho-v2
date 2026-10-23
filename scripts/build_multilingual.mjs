@@ -45,14 +45,25 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  try{
   changes=execFileSync('git',['diff','--name-status','--no-renames',baseCommit+'..'+currentCommit],{cwd:root,encoding:'utf8'}).trim().split('\n').filter(Boolean);
  }catch(error){
-  console.warn('Local Git history is shallow; resolving changed files through GitHub compare API.');
-  const response=await fetch('https://api.github.com/repos/lacasadelsushirg-pixel/ernestinho-v2/compare/'+baseCommit+'...'+currentCommit+'?per_page=100',{headers:{Accept:'application/vnd.github+json','User-Agent':'ernestinho-hostinger-build'},signal:AbortSignal.timeout(20000)});
-  if(!response.ok)throw Error('Cannot compare this build with the last deployed source commit through Git or GitHub: '+error.message+'; GitHub HTTP '+response.status);
-  const comparison=await response.json();
-  if(!Array.isArray(comparison.files))throw Error('GitHub compare API returned no file list; refusing an incomplete incremental publication.');
-  changes=comparison.files.flatMap(file=>file.status==='renamed'&&file.previous_filename?['D\\t'+file.previous_filename,'A\\t'+file.filename]:[(file.status==='removed'?'D':file.status==='added'?'A':'M')+'\\t'+file.filename]);
+  console.warn('Local Git history is shallow; deepening the Hostinger checkout before using GitHub compare API.');
+  try{
+   execFileSync('git',['fetch','--deepen=100','origin','revision/rendimiento-traducciones-81a904c'],{cwd:root,stdio:'pipe'});
+   changes=execFileSync('git',['diff','--name-status','--no-renames',baseCommit+'..'+currentCommit],{cwd:root,encoding:'utf8'}).trim().split('\n').filter(Boolean);
+  }catch(fetchError){
+   console.warn('History fetch unavailable; resolving changed files through GitHub compare API.');
+   const response=await fetch('https://api.github.com/repos/lacasadelsushirg-pixel/ernestinho-v2/compare/'+baseCommit+'...'+currentCommit+'?per_page=100',{headers:{Accept:'application/vnd.github+json','User-Agent':'ernestinho-hostinger-build'},signal:AbortSignal.timeout(20000)});
+   if(!response.ok)throw Error('Cannot compare this build with the last deployed source commit through Git or GitHub: '+error.message+'; history fetch: '+fetchError.message+'; GitHub HTTP '+response.status);
+   const comparison=await response.json();
+   if(!Array.isArray(comparison.files))throw Error('GitHub compare API returned no file list; refusing an incomplete incremental publication.');
+   console.log('GitHub compare: '+comparison.status+', '+comparison.ahead_by+' commits ahead, '+comparison.files.length+' changed files.');
+   changes=comparison.files.flatMap(file=>file.status==='renamed'&&file.previous_filename?['D\t'+file.previous_filename,'A\t'+file.filename]:[(file.status==='removed'?'D':file.status==='added'?'A':'M')+'\t'+file.filename]);
+  }
  }
- const routes=new Set();let allBuzios=false;let fullRequired=false;
+ const routes=new Set();let allBuzios=baseCommit==='25e117329015a3d8a7544787b6e2ab0fff5a7508';let fullRequired=false;
+ if(!changes.length&&baseCommit!==currentCommit&&baseCommit!=='25e117329015a3d8a7544787b6e2ab0fff5a7508'){
+  console.warn('The commit comparison is empty despite different SHAs; forcing a safe complete rebuild instead of publishing stale HTML.');
+  fullRequired=true;
+ }
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
