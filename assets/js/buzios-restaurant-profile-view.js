@@ -32,7 +32,7 @@ if(foodPlace){
  const link=(url,label)=>`<a class="btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`;
  // Reviewed editorial batches: distribute restaurant-specific Hostinger photographs throughout the narrative.
  // Remaining profiles retain the existing layout until their own five-at-a-time review.
- const firstBatch=new Set(['belli-belli','resto-canto','mistico','chamas-buzios','mr-waiz','nami','chez-michou','sushi-bardot','casa-blanca','primitivo','bar-do-ze','rocka','madame-bardot','buzin','fishbone','bananaland','pimenta-siria','chilenazo','maria-italiana','santo-cozy']).has(foodPlace.slug);
+ const firstBatch=new Set(['belli-belli','resto-canto','mistico','chamas-buzios','mr-waiz','nami','chez-michou','sushi-bardot','casa-blanca','primitivo','bar-do-ze','rocka','madame-bardot','buzin','fishbone','bananaland','pimenta-siria','chilenazo','maria-italiana','santo-cozy','cafe-porteno','buda-beach','clube-da-sfiha','restaurante-do-david','patio-michou']).has(foodPlace.slug);
  const figure=(index,cl='inline-photo')=>foodPlace.photos[index]?`<figure class="${cl}"><img src="${esc(foodPlace.photos[index])}" alt="${esc(name)} · ${esc(t.photo)} ${index+1}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(index+1).padStart(2,'0')}</figcaption></figure>`:'';
  const inlineIndices=firstBatch?[0,1,2,3].filter(i=>i<foodPlace.photos.length):[0];
  const galleryStart=firstBatch?inlineIndices.length:0;
