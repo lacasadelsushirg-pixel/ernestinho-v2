@@ -30,18 +30,27 @@ if(foodPlace){
  for(const [key,val] of [['og:title',title],['og:description',description],['og:url',canonical],['twitter:title',title],['twitter:description',description]])document.querySelector(`meta[property="${key}"],meta[name="${key}"]`).content=val;
  const css=document.createElement('link');css.rel='stylesheet';css.href='/assets/css/buzios-food.css?v=20261017-food-rio-pattern';document.head.append(css);
  const link=(url,label)=>`<a class="btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`;
- const photos=foodPlace.photos.map((src,i)=>`<figure><img src="${esc(src)}" alt="${esc(name)} · ${esc(t.photo)} ${i+1}" loading="lazy" decoding="async"><figcaption>${esc(t.photo)} ${String(i+1).padStart(2,'0')}</figcaption></figure>`).join('');
+ // First editorial batch: use restaurant-specific Hostinger photographs throughout the narrative.
+ // Other profiles retain the existing layout until their own five-at-a-time review.
+ const firstBatch=new Set(['belli-belli','resto-canto','mistico','chamas-buzios','mr-waiz']).has(foodPlace.slug);
+ const figure=(index,cl='inline-photo')=>foodPlace.photos[index]?`<figure class="${cl}"><img src="${esc(foodPlace.photos[index])}" alt="${esc(name)} · ${esc(t.photo)} ${index+1}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(index+1).padStart(2,'0')}</figcaption></figure>`:'';
+ const inlineIndices=firstBatch?[0,1,2,3].filter(i=>i<foodPlace.photos.length):[0];
+ const galleryStart=firstBatch?inlineIndices.length:0;
+ const photos=foodPlace.photos.slice(galleryStart).map((src,i)=>`<figure><img src="${esc(src)}" alt="${esc(name)} · ${esc(t.photo)} ${i+galleryStart+1}" loading="lazy" decoding="async"><figcaption>${esc(t.photo)} ${String(i+galleryStart+1).padStart(2,'0')}</figcaption></figure>`).join('');
  const mapUrl=`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(foodPlace.map)}`;
  document.querySelector('#profile').innerHTML=`<div class="food-profile"><nav class="back"><a href="${localized(root)}">${t.back}</a><span>${['es','pt','en'].map(l=>`<a class="lang" href="${l==='es'?'':'/'+l}${root+foodPlace.slug}/">${l.toUpperCase()}</a>`).join('')}</span></nav>
  <header class="hero" style="--hero:url('${esc(foodPlace.photos[0]||'')}')"><div><p class="ey">${t.guide} · ${esc(foodPlace.zone)}</p><div class="tags">${pick(foodPlace.tags).split(' · ').map(x=>`<span class="tag">${esc(x)}</span>`).join('')}</div><h1>${esc(name)}</h1><p>${esc(pick(foodPlace.description))}</p></div></header>
  <main class="wrap"><div class="grid"><section>
  <article class="card"><h2>${t.identity}</h2><p>${esc(pick(foodPlace.description))}</p><p>${esc(pick(foodPlace.story))}</p></article>
- <figure class="inline-photo"><img src="${esc(foodPlace.photos[0]||'')}" alt="${esc(name)} · ${t.photo} 1" loading="eager"><figcaption>${t.note}</figcaption></figure>
+ ${firstBatch?figure(0):`<figure class="inline-photo"><img src="${esc(foodPlace.photos[0]||'')}" alt="${esc(name)} · ${t.photo} 1" loading="eager"><figcaption>${t.note}</figcaption></figure>`}
  <article class="card"><h2>${t.read}</h2><p>${esc(pick(foodPlace.recommend))}</p><p>${esc(pick(foodPlace.combine))}</p></article>
+ ${firstBatch?figure(1):''}
  <article class="card"><h2>${t.order}</h2><p>${esc(pick(foodPlace.order))}</p><div class="notice">${t.note}</div></article>
+ ${firstBatch?figure(2):''}
  <article class="card"><h2>${t.combine}</h2><p>${esc(pick(foodPlace.combine))}</p><p>${esc(t.check)}</p></article>
+ ${firstBatch?figure(3):''}
  </section><aside><article class="card facts"><h2>${t.practical}</h2><p>📍 <strong>${lang==='es'?'Zona':lang==='pt'?'Região':'Area'}</strong><br>${esc(foodPlace.zone)}</p><p>🍽️ <strong>${lang==='es'?'Estilo':lang==='pt'?'Estilo':'Style'}</strong><br>${esc(foodPlace.cuisine)}</p><p>🕐 ${esc(t.check)}</p><p>${esc(pick(foodPlace.practical))}</p>${link(foodPlace.official,t.open)}<a class="btn" href="${esc(mapUrl)}" target="_blank" rel="noopener noreferrer">${lang==='es'?'Abrir Google Maps':lang==='pt'?'Abrir Google Maps':'Open Google Maps'} ↗</a></article></aside></div>
- <article class="card"><h2>${t.gallery}</h2><p>${esc(t.note)}</p><div class="gallery">${photos}</div></article>
+ ${photos?`<article class="card"><h2>${t.gallery}</h2><p>${esc(t.note)}</p><div class="gallery">${photos}</div></article>`:''}
  <article class="card"><h2>${lang==='es'?'Mi plan para aprovechar la visita':lang==='pt'?'Meu plano para aproveitar a visita':'My plan for making the most of the visit'}</h2>${visitPlan.map(p=>`<p>${esc(p)}</p>`).join('')}</article>
  <article class="card"><h2>${t.map}</h2><p>${esc(pick(foodPlace.practical))} ${esc(t.check)}</p><iframe class="map" title="${esc(t.map+' · '+name)}" src="https://www.google.com/maps?q=${encodeURIComponent(foodPlace.map)}&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><p>${link(mapUrl,lang==='es'?'Abrir el mapa':lang==='pt'?'Abrir o mapa':'Open map')}</p></article>
  <p class="back"><a href="${localized(root)}">${t.return}</a></p></main></div>`;
