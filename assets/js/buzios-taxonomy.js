@@ -64,15 +64,12 @@ export function renderBuziosSubtopics(category, language = 'ES') {
 export function renderBuziosCategoryNav(language = 'ES') {
   const lang = ['ES', 'PT', 'EN'].includes(language) ? language : 'ES';
   const prefix = lang === 'ES' ? '' : `/${lang.toLowerCase()}`;
-  const label = { ES: 'Categorías de Búzios', PT: 'Categorias de Búzios', EN: 'Búzios categories' }[lang];
-  const links = buziosMainCategories.map(category =>
+  const home = `${prefix}/destinos/buzios/`;
+  const label = { ES: 'Explorar Búzios', PT: 'Explorar Búzios', EN: 'Explore Búzios' }[lang];
+  const main = { ES: 'Inicio Búzios', PT: 'Início Búzios', EN: 'Búzios home' }[lang];
+  const links = [`<a href="${home}">${main}</a>`, ...buziosMainCategories.map(category =>
     `<a href="${prefix}${category.path}">${category[lang]}</a>`
-  ).join('');
-  const primary = document.querySelector('.topbar > nav');
-  if (primary) {
-    primary.classList.add('ec-primary-nav', 'bz-primary-nav');
-    primary.setAttribute('aria-label', label);
-    primary.innerHTML = links;
-  }
-  return '';
+  )].join('');
+  // Preserve the global Río/Ernestinho header. Destination navigation lives below it.
+  return `<nav class="bz-destination-nav" aria-label="${label}"><div class="bz-destination-nav-inner"><span class="bz-destination-brand">BÚZIOS <small>360°</small></span><div class="bz-destination-links">${links}</div></div></nav>`;
 }
