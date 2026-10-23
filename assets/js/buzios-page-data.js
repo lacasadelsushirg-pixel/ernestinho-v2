@@ -76,7 +76,7 @@ const PAGES={
     title:T('Búzios no se visita. Se vive.','Búzios não se visita. Se vive.','Búzios is not just visited. It is lived.'),
     description:T('Mi guía para descubrir Búzios como lo vivo yo: playas que tienen su propio carácter, buenos paseos, sabores locales y decisiones que hacen más fácil cada día.','Meu guia para descobrir Búzios como eu vivo: praias com personalidade, bons passeios, sabores locais e escolhas que deixam cada dia mais fácil.','My guide to discovering Búzios as I experience it: beaches with character, memorable outings, local flavours and choices that make each day easier.'),
     intro:T('Búzios cambia mucho según la playa que eliges, la calle donde duermes y la forma en que piensas moverte. Esta home organiza el destino por decisiones reales: primero tu base y tu ritmo; después las experiencias.','Búzios muda muito conforme a praia escolhida, a rua onde você fica e a forma de se locomover. Esta home organiza o destino por decisões reais: primeiro sua base e seu ritmo; depois as experiências.','Búzios changes considerably depending on your beach, the street where you stay and how you plan to get around. This hub is organised around real decisions: choose your base and pace first, then your experiences.'),
-    hero:'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/ENCABEZADO%20BUZIOS.png',
+    hero:'/assets/images/buzios/orla-bardot.webp',
     heroPhoto:null,
     heroWidth:1600,
     heroHeight:686,
