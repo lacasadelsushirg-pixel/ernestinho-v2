@@ -81,7 +81,41 @@ const pescadoresPhotos=routeSlug==='pescadores'?[
  '470113770_8732038650211240_231656855877582957_n.jpg',
  '130253254_3474059582675866_134587023623395522_n.jpg'
 ].map(f=>'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/BAR%20DOS%20PESCADORES/'+encodeURIComponent(f)):[];
-const photosLabel=pescadoresPhotos.length?`Fotos del material compartido: ${pescadoresPhotos.length} fotografías`:copy.photos;
+const addedHostingerPhotos={
+ "farinatta": [
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/FARINATTA/photo1jpg.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/FARINATTA/164603239_5195158927224557_3581316875594454189_n.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/FARINATTA/caption.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/FARINATTA/caption%20(1).jpg"
+ ],
+ "altto": [
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/787841985_1395495512672900_6962775377558563638_n.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/altto-ristorante%20(2).jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/altto-ristorante.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/altto-ristorante%20(1).jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/843839666_1432902422265542_2305850004833946595_n.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/altto-ristorante%20(3).jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/caption.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/658151722_1271991598356626_4256178372021074206_n.jpg"
+ ],
+ "agaleria": [
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/AGALERIA/caption%20(3).jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/AGALERIA/caption%20(2).jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/AGALERIA/caption.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/AGALERIA/caption%20(1).jpg"
+ ],
+ "octopous": [
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/OCTUPUS%20BAR%20BISTRO/853092080_1768953441897242_4081720751989769690_n.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/OCTUPUS%20BAR%20BISTRO/octopous-bar-bistro-bazar%20(1).jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/OCTUPUS%20BAR%20BISTRO/710598463_1630654209060500_6860181964755643026_n.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/OCTUPUS%20BAR%20BISTRO/835450502_1756793653113221_2774256286192295512_n.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/OCTUPUS%20BAR%20BISTRO/octopous-bar-bistro-bazar.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/OCTUPUS%20BAR%20BISTRO/770918983_18453377641139825_3874292164597701402_n.jpg"
+ ]
+};
+const legacyPhotos=pescadoresPhotos.length?pescadoresPhotos:(addedHostingerPhotos[slug]||[]);
+const legacyInline=(i)=>legacyPhotos[i]?`<figure class="inline-photo"><img src="${esc(legacyPhotos[i])}" alt="${esc(name)} · ${i+1}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(i+1).padStart(2,'0')}</figcaption></figure>`:'';
+const photosLabel=legacyPhotos.length?`${legacyPhotos.length} fotografías del establecimiento`:'';
 const pescadoresInline=(i)=>pescadoresPhotos[i]?`<figure class="inline-photo"><img src="${esc(pescadoresPhotos[i])}" alt="${esc(name)} · fotografía ${i+1}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(i+1).padStart(2,'0')}</figcaption></figure>`:'';
 const legacyFirstFive=new Set(['farinatta','altto','agaleria','tawa','macaw']).has(slug);
 const sections=[['identity',pick(p.intro)],['history',pick(p.history)],['ambience',pick(p.ambience)],['read',pick(p.read)],['order',pick(p.order)],['time',pick(p.time)],['advice',pick(p.advice)],['nearby',pick(p.nearby)]];
@@ -96,11 +130,11 @@ document.querySelector('#profile').innerHTML=`
   <nav class="back"><a href="${localized(root)}">${copy.back}</a><span>${['es','pt','en'].map(l=>`<a class="lang" href="${l==='es'?'':'/'+l}${root+routeSlug}/">${l.toUpperCase()}</a>`).join('')}</span></nav>
   <header class="hero"><div><p class="ey">${esc(copy.guide)} · ${esc(pick(p.zone))}</p><div class="tags">${pick(p.tags).split(' · ').map(t=>`<span>${esc(t)}</span>`).join('')}</div><h1>${esc(name)}</h1><p class="lead">${esc(pick(p.intro))}</p><p class="hero-note">${esc(photosLabel)}</p></div></header>
   <main class="wrap">
-   ${sections.map(([key,text],i)=>`<section class="card"><h2>${esc(copy[key])}</h2><p>${esc(text)}</p></section>${pescadoresPhotos.length&&i<4?pescadoresInline(i):''}`).join('')}
+   ${sections.map(([key,text],i)=>`<section class="card"><h2>${esc(copy[key])}</h2><p>${esc(text)}</p></section>${legacyPhotos.length&&i<4?legacyInline(i):''}`).join('')}
    <section class="card"><h2>${lang==='es'?'Mi plan para organizar la visita':lang==='pt'?'Meu plano para organizar a visita':'My plan for organising the visit'}</h2>${routePlan.map(text=>`<p>${esc(text)}</p>`).join('')}</section>
    <section class="card"><h2>${esc(copy.practical)}</h2><p>${esc(pick(p.practical))}</p><p><strong>${esc(copy.address)}:</strong> ${esc(pick(p.zone))}</p>${contact.map(c=>`<p>${c}</p>`).join('')}<p>${esc(copy.follow)}</p></section>
    <section class="card"><h2>${esc(copy.map)}</h2><p>${esc(pick(p.zone))}. ${esc(copy.follow)}</p><p>${link(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.map)}`,copy.mapLink)}</p><iframe class="map" title="${esc(copy.map+' · '+name)}" src="https://www.google.com/maps?q=${encodeURIComponent(p.map)}&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
-   ${pescadoresPhotos.length?`<section class="card"><h2>${esc(copy.gallery)}</h2>`<div class="gallery">${pescadoresPhotos.slice(4).map((src,i)=>`<figure><img src="${esc(src)}" alt="${esc(name)} · ${i+5}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(i+5).padStart(2,'0')}</figcaption></figure>`).join('')}</div><p>${esc(copy.follow)}</p>`:`<div class="photo-gap"><strong>${esc(copy.missing)}</strong><p>${esc(copy.missingDetail)}</p><p>${esc(pick(p.photoGap))}</p><small>${esc(copy.credits)}</small>${legacyFirstFive&&p.website?`<p>${link(p.website,lang==='es'?'Ver fotos y detalles en el sitio oficial':lang==='pt'?'Ver fotos e detalhes no site oficial':'See photographs on the official website')}</p>`:''}</div>`}</section>`:''}
+   ${legacyPhotos.length>4?`<section class="card"><h2>${esc(copy.gallery)}</h2>`<div class="gallery">${legacyPhotos.slice(4).map((src,i)=>`<figure><img src="${esc(src)}" alt="${esc(name)} · ${i+5}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(i+5).padStart(2,'0')}</figcaption></figure>`).join('')}</div><p>${esc(copy.follow)}</p>`:`<div class="photo-gap"><strong>${esc(copy.missing)}</strong><p>${esc(copy.missingDetail)}</p><p>${esc(pick(p.photoGap))}</p><small>${esc(copy.credits)}</small>${legacyFirstFive&&p.website?`<p>${link(p.website,lang==='es'?'Ver fotos y detalles en el sitio oficial':lang==='pt'?'Ver fotos e detalhes no site oficial':'See photographs on the official website')}</p>`:''}</div>`}</section>`:''}
    <section class="card"><h2>${esc(copy.sources)}</h2><ul>${p.sources.map(([label,url])=>`<li>${link(url,pick(label))}</li>`).join('')}</ul></section>
    <p class="back"><a href="${localized(root)}">${copy.back}</a></p>
   </main>`;
