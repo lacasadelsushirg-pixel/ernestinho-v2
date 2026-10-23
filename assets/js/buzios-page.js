@@ -935,7 +935,7 @@ function render(){
   if(isBuziosHome&&!document.querySelector('.mini-strip')){
     const strip=document.createElement('div');
     strip.className='mini-strip bz-mini-strip';
-    strip.innerHTML=`<span class="badge"><strong>BÚZIOS</strong> guía local</span><span>ARMAÇÃO DOS BÚZIOS</span><span>Planifica menos. Vive más.</span>`;
+    strip.innerHTML=`<span class="badge"><strong>BÚZIOS</strong> ${esc(T('guía local','guia local','local guide')[lang])}</span><span>ARMAÇÃO DOS BÚZIOS</span><span>${esc(T('Planifica menos. Vive más.','Planeje menos. Viva mais.','Plan less. Live more.')[lang])}</span>`;
     document.querySelector('.topbar')?.before(strip);
   }
   const relatedSection=`<section class="bz-related"><div class="bz-wrap"><p class="bz-eyebrow">${esc(l.related)}</p><h2>${esc(l.related)}</h2><div class="bz-related-grid">${related}</div></div></section>`;
