@@ -907,23 +907,49 @@ function renderBuziosMonthEditorial(page,lang,sections){
 
 function renderBuziosSoloEditorial(page,lang,sections){
  const t=(es,pt,en)=>({ES:es,PT:pt,EN:en})[lang];
- const img=[
- '/assets/images/buzios/orla-bardot.webp',
- 'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20una%20zona%20para%20cada%20ritmo.jpg',
- '/assets/images/buzios/joao-fernandes.webp',
- 'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20para%20experiencias%20buzios.jpg',
- 'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20buzios%20mes%20a%20mes.jpeg'
- ];
- const pic=(index)=>img[index%img.length];
+ const photoRoot='https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/';
+ const soloRoot=photoRoot+'GUIA%20BUZIOS/VIAJANDO%20SOLA/';
+ const uploaded=(path,name,alt)=>({src:photoRoot+path,name,alt});
+ const solo={
+  cover:{src:soloRoot+'1122e2c0350059b4af30dbb27835fc8b.jpg',alt:T('Viajera caminando sola por una playa rocosa de Búzios','Viajante caminhando sozinha por uma praia rochosa de Búzios','Solo traveller walking along a rocky beach in Búzios')},
+  waterfront:{src:soloRoot+'669f3f69ad6e72f6c57f806d10c9393a.jpg',name:'Viajera junto al mar',alt:T('Viajera disfrutando sola de la costa de Búzios','Viajante aproveitando sozinha a costa de Búzios','Solo traveller enjoying the Búzios coastline')},
+  beach:{src:soloRoot+'c82eade186edfbdb48d78228a8a925f5.jpg',name:'Viajera en una playa de Búzios',alt:T('Viajera sola junto al mar en Búzios','Viajante sozinha junto ao mar em Búzios','Solo traveller by the sea in Búzios')}
+ };
+ const visuals={
+  '1. Elige alojamiento por la ruta completa':{src:'/assets/images/buzios/panorama-mtur.webp',name:'Paisaje de Búzios',alt:T('Paisaje costero de Búzios para ubicar la estadía','Paisagem costeira de Búzios para escolher a hospedagem','Búzios coastline for planning where to stay')},
+  '2. Decide qué barrio combina con tu ritmo':uploaded('miniatura%20una%20zona%20para%20cada%20ritmo.jpg','Una zona para cada ritmo',T('Zona costera y paseo de Búzios','Região costeira e passeio de Búzios','Búzios waterfront and promenade')),
+  '3. Comparte el itinerario con alguien de confianza':solo.waterfront,
+  '4. Organiza llegada y primera noche':uploaded('minitatura%20llegada%20complet.jpg','Llegada a Búzios',T('Señal de Búzios en una calle del destino','Placa de Búzios em uma rua do destino','Búzios sign at a town street')),
+  '5. Muévete de día con una ruta y una alternativa':buziosPhotos['Tartaruga'],
+  '6. Disfruta las playas cuidando tus pertenencias':solo.beach,
+  '7. Salir a cenar, tomar algo y volver':uploaded('miniatura%20comer%20pasear%20y%20volver.jpg','Centro de Búzios por la noche',T('Mesas y restaurantes en una calle concurrida de Búzios','Mesas e restaurantes em uma rua movimentada de Búzios','Restaurant tables on a lively Búzios street')),
+  '8. Excursiones, barcos y buggy':uploaded('minitatura%20para%20experiencias%20buzios.jpg','Paseo de barco en grupo',T('Grupo de viajeros a bordo de un barco en Búzios','Grupo de viajantes a bordo de um barco em Búzios','Group of travellers aboard a boat in Búzios')),
+  '9. Cuida de salud, descanso y presupuesto':buziosPhotos['Ferradura'],
+  '10. Si algo sale mal':uploaded('minitatura%20salud%20buzios.jpg','Hospital Municipal de Búzios',T('Hospital Municipal Dr. Rodolpho Perissé en Búzios','Hospital Municipal Dr. Rodolpho Perissé em Búzios','Dr Rodolpho Perissé Municipal Hospital in Búzios')),
+  '11. Socializar con calma y sin presión':uploaded('miniaturas%20actividades%20con%20salida%20local.jpg','Actividad local en Búzios',T('Actividad turística organizada con salida desde Búzios','Atividade turística organizada com saída de Búzios','Organised local activity departing from Búzios')),
+  '12. Lista para el día antes de salir':uploaded('miniatura%20viaje%20sin%20sopresas.jpg','Rua das Pedras al anochecer',T('Calle empedrada de Búzios para planificar el paseo','Rua de pedras de Búzios para planejar o passeio','Búzios cobbled street for planning an evening out')),
+  '01 · Tu primera caminata por Búzios':buziosPhotos['Orla Bardot'],
+  '02 · Conversar, conocer gente o disfrutar del silencio':buziosPhotos['Porto da Barra'],
+  '03 · Playas y paisajes sin correr':buziosPhotos['Ferradurinha'],
+  'Una base práctica y un plan flexible':buziosPhotos['Paisaje de Búzios']
+ };
+ const photoFor=(it)=>{
+  const title=value(it.title,'ES');
+  if(Object.prototype.hasOwnProperty.call(visuals,title))return visuals[title];
+  const declared=it.photo&&typeof it.photo==='object'&&it.photo.src?it.photo:buziosPhotoFor(it.photo);
+  return declared&&declared.src?declared:null;
+ };
  const chapters=sections.map((section,si)=>{
    const items=section.items.map((it,j)=>{
-     const photo=(it.photo&&it.photo.src)||pic(si+j);
-     return '<article class="bz-solo-story" id="bz-solo-story-'+si+'-'+j+'"><div class="bz-solo-story-copy"><span class="bz-solo-eyebrow">'+String(si+1).padStart(2,'0')+' / '+String(j+1).padStart(2,'0')+'</span><h3>'+esc(value(it.title,lang))+'</h3><p>'+esc(value(it.text,lang))+'</p></div><figure class="bz-solo-story-photo"><img src="'+esc(photo)+'" loading="lazy" alt="'+esc(value(it.title,lang))+'"></figure></article>';
+     const title=value(it.title,lang),photo=photoFor(it);
+     const alt=photo?(photo.alt?value(photo.alt,lang):(photo.name?photo.name+' · Búzios':title)):title;
+     const image=photo?'<figure class="bz-solo-story-photo"><img src="'+esc(photo.src)+'" loading="lazy" alt="'+esc(alt)+'"></figure>':'';
+     return '<article class="bz-solo-story" id="bz-solo-story-'+si+'-'+j+'"><div class="bz-solo-story-copy"><span class="bz-solo-eyebrow">'+String(si+1).padStart(2,'0')+' / '+String(j+1).padStart(2,'0')+'</span><h3>'+esc(title)+'</h3><p>'+esc(value(it.text,lang))+'</p></div>'+image+'</article>';
    }).join('');
    return '<section class="bz-solo-chapter" id="bz-solo-chapter-'+si+'"><div class="bz-solo-chapter-intro"><span class="bz-solo-eyebrow">'+String(si+1).padStart(2,'0')+' / '+esc(t('GUÍA INDEPENDIENTE','GUIA INDEPENDENTE','INDEPENDENT GUIDE'))+'</span><h2>'+esc(value(section.title,lang))+'</h2><p>'+esc(value(section.lead,lang))+'</p></div>'+items+'</section>';
  }).join('');
  const nav=sections.map((sec,i)=>'<a href="#bz-solo-chapter-'+i+'"><span>'+String(i+1).padStart(2,'0')+'</span>'+esc(value(sec.title,lang))+'</a>').join('');
- return '<div class="bz-solo"><div class="bz-solo-wrap"><div class="bz-solo-topline">'+esc(t('GUÍA PRÁCTICA · BÚZIOS','GUIA PRÁTICO · BÚZIOS','PRACTICAL GUIDE · BÚZIOS'))+'</div><figure class="bz-solo-cover"><img src="'+img[0]+'" alt="'+esc(t('Costa y paseo de Orla Bardot, Búzios','Orla Bardot e costa de Búzios','Orla Bardot coastline, Búzios'))+'"></figure><header class="bz-solo-heading"><span class="bz-solo-eyebrow">01 / '+esc(t('VIAJE INDEPENDIENTE','VIAGEM INDEPENDENTE','SOLO TRAVEL'))+'</span><h1>'+esc(t('Viajar solo. Vivir Búzios a tu ritmo.','Viajar só. Viver Búzios no seu ritmo.','Travel solo. Discover Búzios your way.'))+'</h1><p>'+esc(value(page.intro,lang))+'</p></header><nav class="bz-solo-nav" aria-label="'+esc(t('Secciones de esta guía','Seções deste guia','Guide sections'))+'">'+nav+'</nav><aside class="bz-solo-ernestinho"><span>✦ '+esc(t('DATO DE ERNESTINHO','DICA DO ERNESTINHO','ERNESTINHO’S TIP'))+'</span><p>'+esc(t('Si viajas sin compañía, vale mucho poder regresar caminando a tu alojamiento después de cenar. Compara ubicación, luz, pendientes y accesos antes que una tarifa que parece muy económica.','Viajando por conta própria, poder voltar a pé após o jantar faz diferença. Compare localização, iluminação, ladeiras e acesso antes de escolher só pela tarifa.','When travelling solo, being able to walk back after dinner matters. Compare location, lighting, hills and access rather than choosing on price alone.'))+'</p></aside>'+chapters+'<section class="bz-solo-finish"><span class="bz-solo-eyebrow">'+esc(t('TU VIAJE · TUS TIEMPOS','SUA VIAGEM · SEU RITMO','YOUR TRIP · YOUR PACE'))+'</span><h2>'+esc(t('No necesitas compañía para vivir momentos inolvidables.','Você não precisa de companhia para viver momentos inesquecíveis.','You do not need company to make unforgettable memories.'))+'</h2><p>'+esc(value(page.notice,lang))+'</p><a href="'+localizedHref('/destinos/buzios/guia/',lang)+'">'+esc(t('Explorar la guía de Búzios →','Explorar o guia de Búzios →','Explore the Búzios guide →'))+'</a></section></div></div>';
+ return '<div class="bz-solo"><div class="bz-solo-wrap"><div class="bz-solo-topline">'+esc(t('GUÍA PRÁCTICA · BÚZIOS','GUIA PRÁTICO · BÚZIOS','PRACTICAL GUIDE · BÚZIOS'))+'</div><figure class="bz-solo-cover"><img src="'+esc(solo.cover.src)+'" alt="'+esc(value(solo.cover.alt,lang))+'"></figure><header class="bz-solo-heading"><span class="bz-solo-eyebrow">01 / '+esc(t('VIAJE INDEPENDIENTE','VIAGEM INDEPENDENTE','SOLO TRAVEL'))+'</span><h1>'+esc(t('Viajar solo. Vivir Búzios a tu ritmo.','Viajar só. Viver Búzios no seu ritmo.','Travel solo. Discover Búzios your way.'))+'</h1><p>'+esc(value(page.intro,lang))+'</p></header><nav class="bz-solo-nav" aria-label="'+esc(t('Secciones de esta guía','Seções deste guia','Guide sections'))+'">'+nav+'</nav><aside class="bz-solo-ernestinho"><span>✦ '+esc(t('DATO DE ERNESTINHO','DICA DO ERNESTINHO','ERNESTINHO’S TIP'))+'</span><p>'+esc(t('Si viajas sin compañía, vale mucho poder regresar caminando a tu alojamiento después de cenar. Compara ubicación, luz, pendientes y accesos antes que una tarifa que parece muy económica.','Viajando por conta própria, poder voltar a pé após o jantar faz diferença. Compare localização, iluminação, ladeiras e acesso antes de escolher só pela tarifa.','When travelling solo, being able to walk back after dinner matters. Compare location, lighting, hills and access rather than choosing on price alone.'))+'</p></aside>'+chapters+'<section class="bz-solo-finish"><span class="bz-solo-eyebrow">'+esc(t('TU VIAJE · TUS TIEMPOS','SUA VIAGEM · SEU RITMO','YOUR TRIP · YOUR PACE'))+'</span><h2>'+esc(t('No necesitas compañía para vivir momentos inolvidables.','Você não precisa de companhia para viver momentos inesquecíveis.','You do not need company to make unforgettable memories.'))+'</h2><p>'+esc(value(page.notice,lang))+'</p><a href="'+localizedHref('/destinos/buzios/guia/',lang)+'">'+esc(t('Explorar la guía de Búzios →','Explorar o guia de Búzios →','Explore the Búzios guide →'))+'</a></section></div></div>';
 }
 function renderRioStyle(page,path,lang){
  if(path.endsWith('/viajar-solo/'))return renderBuziosSoloEditorial(page,lang,(page.sections||[]).filter(x=>x.items&&x.items.length));
