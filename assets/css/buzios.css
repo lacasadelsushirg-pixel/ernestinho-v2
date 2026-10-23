@@ -261,3 +261,10 @@ body.ec-buzios-page .bz-portal .door *{text-shadow:none!important}
 @media(max-width:1050px){body.ec-buzios-page .bz-portal .door-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:700px){body.ec-buzios-page .bz-hero-portal.bz-page-hero,body.ec-buzios-page .bz-hero-portal.bz-page-hero .hero-visual img{min-height:585px}body.ec-buzios-page .bz-hero-portal.bz-page-hero .hero-visual img{object-position:55% center}body.ec-buzios-page .bz-hero-portal .hero-copy{width:88%;padding:85px 0 50px;align-self:end}body.ec-buzios-page .bz-hero-portal .hero-copy h1{font-size:clamp(42px,10vw,62px)}body.ec-buzios-page .bz-portal .door-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}body.ec-buzios-page .bz-portal .door-copy{padding:14px}body.ec-buzios-page .bz-home-intro{padding:50px 6vw 25px}}
 @media(max-width:410px){body.ec-buzios-page .bz-portal .door-grid{grid-template-columns:1fr}}
+
+/* Final Búzios home correction: no heavy shadow over the supplied photo or text. */
+body.ec-buzios-page .bz-page-hero.bz-hero-portal:before{display:none!important}
+body.ec-buzios-page .bz-page-hero.bz-hero-portal:after{background:linear-gradient(90deg,rgba(1,28,28,.32),rgba(1,28,28,.09) 48%,transparent 80%)!important}
+body.ec-buzios-page .bz-page-hero.bz-hero-portal .hero-copy,
+body.ec-buzios-page .bz-page-hero.bz-hero-portal .hero-copy *{text-shadow:none!important;filter:none!important}
+body.ec-buzios-page .bz-page-hero.bz-hero-portal .hero-visual img{filter:none!important;opacity:1!important}
