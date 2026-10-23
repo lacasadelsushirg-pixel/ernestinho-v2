@@ -11,7 +11,7 @@ import { closeEditorial } from './buzios-closure.js';
 import { buziosPhotos } from './buzios-photos.js';
 import { ready as navigationReady } from './site.js';
 import { renderBuziosCategoryNav, renderBuziosSubtopics } from './buzios-taxonomy.js?v=20261023-buzios-header';
-import { PAGES } from './buzios-page-data.js';
+import { PAGES } from './buzios-page-data.js?v=20261023-encabezado-buzios-foto';
 
 const T=(es,pt,en)=>({ES:es,PT:pt,EN:en});
 const A=(...items)=>items;
