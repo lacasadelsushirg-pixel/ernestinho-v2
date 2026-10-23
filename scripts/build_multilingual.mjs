@@ -44,7 +44,14 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  let changes;
  try{
   changes=execFileSync('git',['diff','--name-status','--no-renames',baseCommit+'..'+currentCommit],{cwd:root,encoding:'utf8'}).trim().split('\n').filter(Boolean);
- }catch(error){throw Error('Cannot compare this build with the last deployed source commit: '+error.message);}
+ }catch(error){
+  console.warn('Local Git history is shallow; resolving changed files through GitHub compare API.');
+  const response=await fetch('https://api.github.com/repos/lacasadelsushirg-pixel/ernestinho-v2/compare/'+baseCommit+'...'+currentCommit+'?per_page=100',{headers:{Accept:'application/vnd.github+json','User-Agent':'ernestinho-hostinger-build'},signal:AbortSignal.timeout(20000)});
+  if(!response.ok)throw Error('Cannot compare this build with the last deployed source commit through Git or GitHub: '+error.message+'; GitHub HTTP '+response.status);
+  const comparison=await response.json();
+  if(!Array.isArray(comparison.files))throw Error('GitHub compare API returned no file list; refusing an incomplete incremental publication.');
+  changes=comparison.files.flatMap(file=>file.status==='renamed'&&file.previous_filename?['D\\t'+file.previous_filename,'A\\t'+file.filename]:[(file.status==='removed'?'D':file.status==='added'?'A':'M')+'\\t'+file.filename]);
+ }
  const routes=new Set();let allBuzios=false;let fullRequired=false;
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
