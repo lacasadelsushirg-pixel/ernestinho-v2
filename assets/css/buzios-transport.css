@@ -55,3 +55,18 @@ body.bz-transport-page{background:#071c1b;color:#f5f1e7}
  .bz-transport-page .hero-visual img{height:auto;max-height:360px}
  .bz-transport-page .bz-grid{grid-template-columns:1fr}
 }
+
+/* Verified route and fare tables: high contrast, keyboard-scrollable on small screens. */
+.bz-transport-page .bz-transport-data{background:#071c1b;color:#f5f1e7;padding:36px 0;border-top:1px solid rgba(200,166,106,.55)}
+.bz-transport-page .bz-transport-data .bz-section-head h2{color:#fffaf0}
+.bz-transport-page .bz-transport-data .bz-section-head p{max-width:900px;color:#d8e4dd;line-height:1.75}
+.bz-transport-page .bz-transport-data .bz-table-scroll{overflow:auto;border:1px solid #9c865a}
+.bz-transport-page .bz-transport-data table{width:100%;min-width:930px;border-collapse:collapse}
+.bz-transport-page .bz-transport-data th,.bz-transport-page .bz-transport-data td{vertical-align:top;text-align:left;padding:14px;border-bottom:1px solid rgba(200,166,106,.42);line-height:1.55}
+.bz-transport-page .bz-transport-data th{color:#f2d58e;background:#0b2926;font-size:.82rem;letter-spacing:.04em}
+.bz-transport-page .bz-transport-data td{color:#e4e8df}
+.bz-transport-page .bz-transport-sources{padding:12px 0 28px;background:#071c1b}
+.bz-transport-page .bz-transport-sources .bz-wrap{display:flex;flex-wrap:wrap;gap:12px}
+.bz-transport-page .bz-transport-sources a{display:inline-block;padding:12px 15px;border:1px solid #c8a66a;color:#f0d597;text-decoration:none}
+.bz-transport-page .bz-transport-sources a:focus-visible{outline:3px solid #f2d58e;outline-offset:3px}
+@media(max-width:700px){.bz-transport-page .bz-transport-data{padding:26px 0}.bz-transport-page .bz-transport-data .bz-wrap{padding-left:16px;padding-right:16px}.bz-transport-page .bz-transport-sources .bz-wrap{padding-left:16px;padding-right:16px}.bz-transport-clone{padding:26px 16px 56px}.bz-transport-clone .tgrid{grid-template-columns:1fr;gap:14px}.bz-transport-clone .transport-thumb{max-height:none}.bz-transport-page .hero-visual img{height:auto;max-height:390px;object-fit:contain}}
