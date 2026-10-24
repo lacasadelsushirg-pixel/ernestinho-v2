@@ -1,26 +1,57 @@
-/* Transportes Búzios · patrón de tarjetas de /transportes/ Río */
-.bz-transport-clone{max-width:1100px;margin:0 auto;padding:45px 20px 90px}
-.bz-transport-clone .tgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
-.bz-transport-clone .tcard{background:#fff;border:1px solid #ded5c6;border-radius:22px;overflow:hidden}
-.bz-transport-clone .transport-thumb{display:block;width:100%;height:205px;object-fit:cover}
-.bz-transport-clone .transport-content{padding:22px}
-.bz-transport-clone i{font-style:normal;font-size:28px}
-.bz-transport-clone b{display:block;font:400 24px Georgia,serif;margin:8px 0;color:#18332f}
-.bz-transport-clone strong{font:700 12px/1.5 Arial;color:#17645b}
-.bz-transport-clone p{line-height:1.6;color:#465650}
-.bz-transport-clone .detail-link{display:inline-block;margin:16px 0 0;padding:11px 14px;background:#123b36;color:white!important;border-radius:999px;font:700 12px Arial;text-decoration:none}
-.bz-transport-clone .detail-link:hover{background:#17645b}
-.bz-transfer-booking{max-width:1100px;margin:30px auto 80px;padding:28px;background:#fff;border:1px solid #ded5c6;border-radius:24px;color:#18332f}
-.bz-transfer-booking h2{font-size:clamp(23px,4vw,36px);color:#123b36;margin:15px 0}
-.bz-transfer-booking p{line-height:1.7;color:#465650}
+/* Búzios transport editorial system · scoped to the six transport routes */
+body.bz-transport-page{background:#071c1b;color:#f5f1e7}
+.bz-transport-page .bz-shell{background:#071c1b;color:#f5f1e7}
+.bz-transport-page .hero{background:#0b2926;border-bottom:1px solid #c7a96d}
+.bz-transport-page .hero-visual{background:#0b2926}
+.bz-transport-page .hero-visual img{display:block;width:100%;height:clamp(230px,38vw,510px);object-fit:contain;background:#0b2926}
+.bz-transport-page .hero-copy{color:#f5f1e7}
+.bz-transport-page .hero-copy h1,.bz-transport-page .hero-copy h2{color:#fffaf0}
+.bz-transport-page .hero-copy .lead{color:#d7e5dc}
+.bz-transport-page .hero-copy .kicker,.bz-transport-page .bz-eyebrow,.bz-transport-page .bz-card-number,.bz-transport-page .transport-index-number{color:#e2c17c}
+.bz-transport-page .hero-copy a.primary{background:#c8a66a;color:#071c1b}
+.bz-transport-page .bz-page-back,.bz-transport-page .bz-breadcrumb a,.bz-transport-page .bz-card a{color:#f0d597}
+.bz-transport-page .bz-intro,.bz-transport-page .bz-section{background:#071c1b;color:#f5f1e7;border-top:1px solid rgba(200,166,106,.42)}
+.bz-transport-page .bz-intro-lead,.bz-transport-page .bz-section-head>p{color:#d8e4dd}
+.bz-transport-page .bz-section-head h2{color:#fffaf0}
+.bz-transport-page .bz-card{background:#0b2926;border:1px solid #9c865a;border-radius:2px;color:#f5f1e7;box-shadow:none}
+.bz-transport-page .bz-card h3{color:#fffaf0}
+.bz-transport-page .bz-card p,.bz-transport-page .bz-card details{color:#d8e4dd}
+.bz-transport-page .bz-card-photo{margin:0 0 18px;background:#0b2926}
+.bz-transport-page .bz-card-photo img{display:block;width:100%;height:auto;max-height:560px;object-fit:contain;background:#0b2926}
+.bz-transport-page .bz-card-photo figcaption{padding:9px 12px;color:#d7c69d;font-size:.82rem}
+.bz-transport-page .bz-related-section{background:#071c1b;color:#f5f1e7;border-top:1px solid #9c865a}
+.bz-transport-page .bz-related-card{background:#0b2926;border:1px solid #9c865a;color:#f5f1e7;box-shadow:none}
+.bz-transport-page a:focus-visible,.bz-transport-page button:focus-visible,.bz-transport-page input:focus-visible,.bz-transport-page select:focus-visible{outline:3px solid #f2d58e;outline-offset:3px}
+.bz-transport-clone{max-width:1180px;margin:0 auto;padding:38px 22px 86px;background:#071c1b;color:#f5f1e7}
+.bz-transport-clone .tgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.bz-transport-clone .tcard{background:#0b2926;border:1px solid #9c865a;border-radius:2px;overflow:hidden}
+.bz-transport-clone .transport-thumb{display:block;width:100%;height:auto;max-height:320px;object-fit:contain;background:#102c29}
+.bz-transport-clone .transport-content{padding:22px 24px 25px}
+.bz-transport-clone .transport-index-number{display:block;font:700 12px/1 Arial,sans-serif;letter-spacing:.17em;color:#e2c17c;margin-bottom:9px}
+.bz-transport-clone i{font-style:normal;font-size:24px}
+.bz-transport-clone h2{font:400 clamp(23px,3vw,30px)/1.2 Georgia,serif;margin:8px 0 10px;color:#fffaf0}
+.bz-transport-clone strong{font:700 12px/1.5 Arial,sans-serif;color:#e2c17c}
+.bz-transport-clone p{line-height:1.65;color:#d8e4dd}
+.bz-transport-clone .detail-link{display:inline-block;margin:12px 0 0;padding:12px 16px;background:#c8a66a;color:#071c1b!important;border:1px solid #c8a66a;border-radius:1px;font:700 12px Arial,sans-serif;text-decoration:none}
+.bz-transport-clone .detail-link:hover{background:#e6cf98}
+.bz-transfer-booking{max-width:1100px;margin:30px auto 80px;padding:28px;background:#0b2926;border:1px solid #c0a365;border-radius:2px;color:#f5f1e7}
+.bz-transfer-booking h2{font:400 clamp(23px,4vw,36px)/1.2 Georgia,serif;color:#fffaf0;margin:15px 0}
+.bz-transfer-booking p{line-height:1.7;color:#d8e4dd}
 .bz-transfer-booking .rate-scroll{overflow:auto;margin:24px 0 36px}
 .bz-transfer-booking table{width:100%;border-collapse:collapse;min-width:570px}
-.bz-transfer-booking th,.bz-transfer-booking td{padding:13px;border-bottom:1px solid #dae4df;text-align:left}
-.bz-transfer-booking th{color:#17645b;background:#f3f8f5}
+.bz-transfer-booking th,.bz-transfer-booking td{padding:13px;border-bottom:1px solid #756c4d;text-align:left}
+.bz-transfer-booking th{color:#f0d597;background:#12352f}
 .bz-transfer-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-.bz-transfer-fields label{display:flex;flex-direction:column;gap:7px;font-weight:700;color:#173c36}
-.bz-transfer-fields input,.bz-transfer-fields select{padding:12px;border:1px solid #bbcfc6;border-radius:12px;background:white;color:#18332f;font:inherit;min-width:0}
-.bz-transfer-fields button{grid-column:1/-1;padding:15px;border:0;border-radius:999px;background:#123b36;color:white;font-weight:800;cursor:pointer}
-.bz-rentcars-banner{display:block;max-width:1050px;margin:22px auto 65px;border-radius:20px;overflow:hidden;border:1px solid #d5dfda;background:white}
+.bz-transfer-fields label{display:flex;flex-direction:column;gap:7px;font-weight:700;color:#f5f1e7}
+.bz-transfer-fields input,.bz-transfer-fields select{padding:12px;border:1px solid #a58e5f;border-radius:1px;background:#f7f4eb;color:#102622;font:inherit;min-width:0}
+.bz-transfer-fields button{grid-column:1/-1;padding:15px;border:1px solid #d8bc7b;border-radius:1px;background:#c8a66a;color:#071c1b;font-weight:800;cursor:pointer}
+.bz-rentcars-banner{display:block;max-width:1050px;margin:22px auto 65px;border:1px solid #c0a365;border-radius:2px;overflow:hidden;background:#0b2926}
 .bz-rentcars-banner img{width:100%;height:auto;display:block}
-@media(max-width:760px){.bz-transport-clone .tgrid,.bz-transfer-fields{grid-template-columns:1fr}.bz-transfer-booking{margin:20px 12px;padding:18px}}
+@media(max-width:760px){
+ .bz-transport-clone{padding:24px 14px 56px}
+ .bz-transport-clone .tgrid,.bz-transfer-fields{grid-template-columns:1fr}
+ .bz-transport-clone .transport-content{padding:18px}
+ .bz-transfer-booking{margin:20px 12px;padding:18px}
+ .bz-transport-page .hero-visual img{height:auto;max-height:360px}
+ .bz-transport-page .bz-grid{grid-template-columns:1fr}
+}
