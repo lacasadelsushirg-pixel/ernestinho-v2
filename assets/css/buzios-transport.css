@@ -70,3 +70,35 @@ body.bz-transport-page{background:#071c1b;color:#f5f1e7}
 .bz-transport-page .bz-transport-sources a{display:inline-block;padding:12px 15px;border:1px solid #c8a66a;color:#f0d597;text-decoration:none}
 .bz-transport-page .bz-transport-sources a:focus-visible{outline:3px solid #f2d58e;outline-offset:3px}
 @media(max-width:700px){.bz-transport-page .bz-transport-data{padding:26px 0}.bz-transport-page .bz-transport-data .bz-wrap{padding-left:16px;padding-right:16px}.bz-transport-page .bz-transport-sources .bz-wrap{padding-left:16px;padding-right:16px}.bz-transport-clone{padding:26px 16px 56px}.bz-transport-clone .tgrid{grid-template-columns:1fr;gap:14px}.bz-transport-clone .transport-thumb{max-height:none}.bz-transport-page .hero-visual img{height:auto;max-height:390px;object-fit:contain}}
+
+
+/* Desktop editorial grid: all card images occupy identical frames; featured vans. */
+@media(min-width:900px){
+ .bz-transport-clone{max-width:1240px;padding:46px 28px 88px}
+ .bz-transport-clone .tgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:stretch}
+ .bz-transport-clone .tcard:first-child{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(300px,1fr);min-height:370px}
+ .bz-transport-clone .tcard:first-child .transport-thumb{height:100%;max-height:none;aspect-ratio:auto}
+ .bz-transport-clone .tcard:first-child .transport-content{display:flex;flex-direction:column;justify-content:center;padding:34px 40px}
+ .bz-transport-clone .tcard:first-child h2{font-size:clamp(32px,3.6vw,48px)}
+ .bz-transport-clone .tcard:first-child .detail-link{align-self:flex-start}
+ .bz-transport-clone .tcard:not(:first-child){display:flex;flex-direction:column}
+ .bz-transport-clone .tcard:not(:first-child) .transport-content{flex:1;display:flex;flex-direction:column}
+ .bz-transport-clone .tcard:not(:first-child) .detail-link{align-self:flex-start;margin-top:auto}
+}
+.bz-transport-clone .transport-thumb{width:100%;height:auto;aspect-ratio:16/10;max-height:none;object-fit:cover;object-position:center;display:block;background:#102c29}
+.bz-transport-clone .tcard{box-shadow:none}
+.bz-transport-clone .transport-content strong{display:block;margin-bottom:12px}
+.bz-transport-clone .transport-content strong+p{display:none}
+.bz-transport-clone .tcard .detail-link:focus-visible{outline:3px solid #fff1b6;outline-offset:3px}
+@media(max-width:899px){
+ .bz-transport-clone .tcard:first-child{display:block}
+ .bz-transport-clone .transport-thumb{aspect-ratio:16/10;height:auto}
+}
+@media(min-width:761px) and (max-width:899px){.bz-transport-clone .tgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.bz-transport-clone .transport-thumb{aspect-ratio:16/10;object-fit:cover}}
+/* Readable long-form boat-taxi and other transport guides on large monitors. */
+@media(min-width:1024px){
+ .bz-transport-page .bz-section-head>p{max-width:76ch}
+ .bz-transport-page .bz-card p,.bz-transport-page .bz-card details{line-height:1.78}
+ .bz-transport-page .bz-transport-data .bz-table-scroll{max-width:100%;scrollbar-gutter:stable}
+}
