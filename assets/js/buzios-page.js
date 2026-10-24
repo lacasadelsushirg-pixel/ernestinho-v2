@@ -1,4 +1,4 @@
-import { installBuziosTransport } from './buzios-transport-content.js?v=20261024-transport-v1';
+import { installBuziosTransport } from './buzios-transport-content.js?v=20261024-transport-v2';
 import { routeParts } from './locale-routing.js';
 import { beachProfiles } from './buzios-beaches.js';
 import { areaProfiles } from './buzios-areas.js';
