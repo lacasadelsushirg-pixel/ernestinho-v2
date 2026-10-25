@@ -64,3 +64,10 @@ body.ec-buzios-neighborhood-page .bz-neighborhood-story>p{color:#e5e9e3!importan
 body.ec-buzios-neighborhood-page, body.ec-buzios-neighborhood-page .bz-shell, body.ec-buzios-neighborhood-page #bz-app, body.ec-buzios-neighborhood-page #bz-app main, body.ec-buzios-neighborhood-page .bz-rio-structured.bz-neighborhood-detail { background-color:#082c2c!important; color:#f7f2e8!important; }
 body.ec-buzios-neighborhood-page .bz-rio-structured.bz-neighborhood-detail .ec-rio-section, body.ec-buzios-neighborhood-page .bz-rio-structured.bz-neighborhood-detail .ec-rio-guide { background-color:transparent!important; }
 body.ec-buzios-neighborhood-page .bz-rio-structured.bz-neighborhood-detail .bz-neighborhood-story>p { color:#e5e9e3!important; }
+
+.bz-neighborhood-header{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.9fr);gap:38px;align-items:center;padding:30px 0 38px;border-bottom:1px solid rgba(211,177,100,.55);margin-bottom:24px}
+.bz-neighborhood-header h1{color:#fff;font:500 clamp(36px,5vw,62px)/1.08 Georgia,serif;margin:8px 0 16px}
+.bz-neighborhood-header>div>p:last-child{color:#dce7e1;font-size:17px;line-height:1.7;max-width:580px}
+.bz-neighborhood-header figure{margin:0;border:1px solid rgba(207,174,102,.65);background:#103b39;overflow:hidden}
+.bz-neighborhood-header img{display:block;width:100%;height:auto;max-height:420px;object-fit:contain;background:#062524}
+@media(max-width:740px){.bz-neighborhood-header{grid-template-columns:1fr;gap:18px;padding:18px 0 26px}.bz-neighborhood-header h1{font-size:clamp(34px,9vw,48px)}.bz-neighborhood-header>div>p:last-child{font-size:15px}.bz-neighborhood-header img{max-height:300px}}

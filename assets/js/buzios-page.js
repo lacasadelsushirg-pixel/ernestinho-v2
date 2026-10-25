@@ -1,5 +1,5 @@
-Warning: truncated output (original token count: 79642)
-Total output lines: 1180
+Warning: truncated output (original token count: 79793)
+Total output lines: 1183
 
 import { installBuziosTransport } from './buzios-transport-content.js?v=20261024-transport-v2';
 import { routeParts } from './locale-routing.js';
@@ -12,7 +12,7 @@ import { buziosAreaPages } from './buzios-area-content.js';
 import { addEditorial, enhanceExisting } from './buzios-editorial.js';
 import { closeEditorial } from './buzios-closure.js';
 import { buziosPhotos } from './buzios-photos.js';
-import { buziosNeighborhoodPages, buziosNeighborhoods } from './buzios-neighborhoods.js?v=20261025-barrios-r6';
+import { buziosNeighborhoodPages, buziosNeighborhoods } from './buzios-neighborhoods.js?v=20261025-barrios-r7';
 import { ready as navigationReady } from './site.js';
 import { renderBuziosCategoryNav, renderBuziosSubtopics } from './buzios-taxonomy.js?v=20261025-barrios-r2';
 import { PAGES } from './buzios-page-data.js?v=20261025-barrios-r2';
@@ -126,7 +126,50 @@ PAGES['/destinos/buzios/comer-y-salir/'].sections.push(
         T('Pasta, pizza, vino y una ubicación que funciona muy bien para una cena antes o después de caminar por el centro. Es una opción más sentada y gastronómica que Chez Michou, sin perder el ritmo de Rua das Pedras.','Massas, pizza, vinho e uma localização que funciona muito bem para jantar antes ou depois de caminhar pelo centro. É uma opção mais sentada e gastronômica que o Chez Michou, sem perder o ritmo da Rua das Pedras.','Pasta, pizza, wine and a location that works well before or after walking through the centre. It is a more sit-down, food-focused choice than Chez Michou while keeping the Rua das Pedras energy.'),
         'Orla Bardot',
         A(
-          item(T('Qué pedir','O que pedir','What to order'),T('Pizza de fermentación trabajada, pastas y platos italianos. Si van varios, compartir entradas y pizza permite probar más sin convertir la cena en una sucesión de platos pesados.','Pizza de fermentação trabalhada, massas e pratos italianos. Em grupo, dividir entradas e pizza ajuda a provar mais sem t…69642 tokens truncated…/experiencias/');
+          item(T('Qué pedir','O que pedir','What to order'),T('Pizza de fermentación trabajada, pastas y platos italianos. Si van varios, compartir entradas y pizza permite probar más sin convertir la cena en una sucesión de platos pesados.','Pizza de fermentação trabalhada, massas e pratos italianos. Em grupo, dividir entradas e pizza ajuda a provar mais sem transformar o jantar numa sequência pesada.','Pizza, pasta and Italian dishes. With a group, sharing starters and pizza lets you try more without turning dinner into a heavy sequence.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Buena elección para pareja o familia que quiere sentarse con calma pero seguir en pleno Centro. En fechas fuertes, confirma espera antes de organizar el resto de la noche.','Boa escolha para casal ou família que quer sentar com calma sem sair do Centro. Em datas concorridas, confirme a espera antes de organizar o resto da noite.','A good choice for couples or families who want a proper sit-down meal without leaving the centre. On busy dates, check the wait before planning the rest of the evening.')),
+          item(T('Dirección','Endereço','Address'),T('Rua das Pedras, 60 · Centro','Rua das Pedras, 60 · Centro','Rua das Pedras, 60 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Primitivo+Buzios+Rua+das+Pedras+60'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226239951'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/primitivobuzios/'},
+          {label:T('Web oficial','Site oficial','Official site'),href:'https://primitivobuzios.com.br/'}
+        )
+      ),
+      venue(
+        T('Buzin · variedad para grupos','Buzin · variedade para grupos','Buzin · variety for groups'),
+        T('Una casa grande y tradicional del Centro que funciona bien cuando el grupo quiere comer cosas distintas: buffet, carnes, sushi, masas, bebidas y estructura amplia. No es mi opción para una cena íntima; sí para resolver diferencias de gusto en una sola mesa.','Casa grande e tradicional do Centro que funciona bem quando o grupo quer coisas diferentes: buffet, carnes, sushi, massas, bebidas e estrutura ampla. Não é minha escolha para jantar íntimo; é ótima para resolver gostos diferentes numa mesa.','A large, established central restaurant that works well when a group wants different things: buffet, meats, sushi, pasta, drinks and plenty of space. Not my pick for an intimate dinner, but very useful for mixed tastes.'),
+        'Orla Bardot',
+        A(
+          item(T('Qué pedir','O que pedir','What to order'),T('La fortaleza es la variedad. Mira primero el buffet y las estaciones antes de llenar el plato: así eliges con criterio en vez de mezclar por impulso.','A força é a variedade. Veja primeiro o buffet e as estações antes de montar o prato: assim você escolhe com critério em vez de misturar por impulso.','Its strength is variety. Look over the buffet and stations before filling your plate so you choose deliberately rather than mixing everything at once.')),
+          item(T('Dato de Ernestinho','Dado do Ernestinho','Ernestinho tip'),T('Para familias y grupos grandes puede ser más práctico que dividirse entre restaurantes. También sirve cuando nadie logra ponerse de acuerdo entre carne, pescado, sushi o pasta.','Para famílias e grupos grandes pode ser mais prático do que se dividir entre restaurantes. Também ajuda quando ninguém decide entre carne, peixe, sushi ou massa.','For families and larger groups it can be easier than splitting up. It is especially useful when nobody can agree between meat, fish, sushi or pasta.')),
+          item(T('Dirección','Endereço','Address'),T('Rua Manoel Turíbio de Farias, 273 · Centro','Rua Manoel Turíbio de Farias, 273 · Centro','Rua Manoel Turíbio de Farias, 273 · Centro'))
+        ),
+        A(
+          {label:T('Mapa','Mapa','Map'),href:'https://www.google.com/maps/search/?api=1&query=Buzin+Gastronomia+Buzios'},
+          {label:T('WhatsApp','WhatsApp','WhatsApp'),href:'https://wa.me/5522999206594'},
+          {label:T('Teléfono','Telefone','Phone'),href:'tel:+552226237051'},
+          {label:T('Instagram','Instagram','Instagram'),href:'https://www.instagram.com/b…67793 tokens truncated…rong><p>'+esc(value(desc[i],lang))+'</p><a class="detail-link" href="'+esc(localizedHref(root+slug+'/',lang))+'">'+esc(T('Abrir guía completa','Abrir guia completo','Read full guide')[lang])+' →</a></div></article>').join('')+'</div></section>';
+}
+function renderBzTransferBooking(lang){
+ const rates=[['Galeão (GIG)',420,470,620],['Zona Sur / Zona Sul',420,470,620],['Barra da Tijuca',470,540,650],['Recreio',500,600,690]];
+ const labels={ES:['Origen en Río','Sedán','Spin','Doblò','Tabla de referencia Río → Búzios','Tarifas hasta 31/10/2026; confirma dirección y precio vigente antes de reservar. El trayecto inverso se cotiza.','Solicita tu traslado Río ↔ Búzios','Trayecto','Fecha','Hora','Vehículo','Pasajeros','Maletas','Nombre','WhatsApp','Vuelo (opcional)','Dirección de origen','Dirección de destino','Notas (opcional)','Preparar mensaje en WhatsApp','La consulta no confirma la reserva.'],PT:['Origem no Rio','Sedã','Spin','Doblò','Tabela de referência Rio → Búzios','Tarifas até 31/10/2026; confirme endereço e preço vigente. Retorno sob consulta.','Solicite seu transfer Rio ↔ Búzios','Trajeto','Data','Horário','Veículo','Passageiros','Malas','Nome','WhatsApp','Voo (opcional)','Endereço de origem','Endereço de destino','Observações (opcional)','Preparar WhatsApp','Consulta não confirma reserva.'],EN:['Origin in Rio','Sedan','Spin','Doblò','Indicative Rio → Búzios rates','Rates through 31 Oct 2026; confirm address and current price. Return quoted separately.','Request a Rio ↔ Búzios transfer','Route','Date','Time','Vehicle','Passengers','Bags','Name','WhatsApp','Flight (optional)','Pickup address','Drop-off address','Notes (optional)','Prepare WhatsApp message','Enquiry does not confirm a booking.']}[lang];
+ const field=(title,name,type='text',required=true)=>'<label>'+esc(title)+'<input name="'+name+'" type="'+type+'" '+(required?'required ':'')+'></label>';
+ const opts='<option value="Rio → Búzios">Rio → Búzios</option><option value="Búzios → Rio">Búzios → Rio</option><option value="GIG → Búzios">GIG → Búzios</option><option value="Búzios → GIG">Búzios → GIG</option>';
+ return '<section class="bz-transfer-booking"><h2>'+esc(labels[4])+'</h2><p>'+esc(labels[5])+'</p><div class="rate-scroll"><table><thead><tr>'+labels.slice(0,4).map(x=>'<th>'+esc(x)+'</th>').join('')+'</tr></thead><tbody>'+rates.map(r=>'<tr><th>'+esc(r[0])+'</th>'+r.slice(1).map(n=>'<td>R$ '+n+'</td>').join('')+'</tr>').join('')+'</tbody></table></div><h2>'+esc(labels[6])+'</h2><form id="bz-transfer-form" class="bz-transfer-fields"><label>'+esc(labels[7])+'<select name="route" required>'+opts+'</select></label>'+field(labels[8],'date','date')+field(labels[9],'time','time')+'<label>'+esc(labels[10])+'<select name="vehicle"><option>Sedán</option><option>Spin</option><option>Doblò</option><option>Consultar vehículo</option></select></label>'+field(labels[11],'passengers','number')+field(labels[12],'bags','number')+field(labels[13],'name')+field(labels[14],'phone','tel')+field(labels[15],'flight','text',false)+field(labels[16],'origin')+field(labels[17],'destination')+field(labels[18],'notes','text',false)+'<button type="submit">'+esc(labels[19])+' →</button></form><p>'+esc(labels[20])+'</p></section>';
+}
+
+function render(){
+  const {language,path}=routeParts();
+  const lang=language,l=L[lang],page=PAGES[path];
+  if(!page)return;
+  document.body.classList.toggle('ec-buzios-zone-atlas',path==='/destinos/buzios/alojamiento/');
+  document.body.classList.toggle('ec-buzios-area-index',path==='/destinos/buzios/alojamiento/');
+  document.body.classList.toggle('ec-buzios-neighborhood-index',path==='/destinos/buzios/barrios/');
+  document.body.classList.toggle('ec-buzios-neighborhood-page',Boolean(page.neighborhood));
+  document.body.classList.toggle('ec-buzios-experience-index',path==='/destinos/buzios/experiencias/');
+  document.body.classList.toggle('ec-buzios-experience-index',path==='/destinos/buzios/experiencias/');
   document.body.classList.toggle('ec-buzios-full-day',path==='/destinos/buzios/experiencias/full-day-buzios/');
   document.body.classList.toggle('ec-buzios-page',path.startsWith('/destinos/buzios/'));
   document.body.classList.toggle('bz-transport-page',path.startsWith('/destinos/buzios/transportes/'));
