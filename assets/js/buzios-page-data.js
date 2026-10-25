@@ -487,7 +487,7 @@ PAGES['/destinos/buzios/que-hacer/naturaleza/']={eyebrow:T('QUÉ HACER · NATURA
 
 
 const qhBase='https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/';
-const qhPhoto=(path,title,width=1200,height=800)=>({src:qhBase+path.split('/').map(encodeURIComponent).join('/'),name:title,width,height,alt:title,caption:title});
+const qhPhoto=(path,title,width=1200,height=800)=>({src:qhBase+path.split('/').map(encodeURIComponent).join('/'),name:title,width,height,alt:title});
 const qhMaps=(title)=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(title+', Armação dos Búzios, RJ');
 const qhCards=(records,tip)=>records.map(([names,copies,path,w,h])=>{const title=T(...names);return venue(title,T(...copies),qhPhoto(path,title,w,h),[
  {title:T('Mi consejo de Ernestinho','Minha dica do Ernestinho','Ernestinho’s tip'),text:tip},
