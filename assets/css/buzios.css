@@ -436,3 +436,23 @@ body.bz-rio-active:has(.bz-solo){background:#103d3c}
 .bz-section.bz-things-category .bz-card{height:100%}
 @media(max-width:700px){.bz-things-index{padding:30px 18px 48px}.bz-things-grid{grid-template-columns:1fr;gap:14px}.bz-things-card{display:grid;grid-template-columns:40% 1fr;align-items:stretch}.bz-things-card img{height:100%;min-height:155px;aspect-ratio:auto}.bz-things-card-copy{padding:13px;gap:7px}.bz-things-card-copy strong{font-size:20px}.bz-things-card-copy>span{font-size:13px}.bz-things-card-copy b{font-size:11px}.bz-section.bz-things-category .bz-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.bz-section.bz-things-category .bz-grid{grid-template-columns:1fr}}
+
+
+/* Photography field guide */
+.bz-photo-guide{padding:clamp(30px,5vw,72px) 0;background:var(--bz-soft)}
+.bz-photo-guide .bz-section-head{max-width:760px;margin:0 auto 34px;text-align:center}
+.bz-photo-guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:1fr;gap:22px;align-items:stretch}
+.bz-photo-guide-card{height:100%;overflow:hidden;display:flex;flex-direction:column;background:#fff;border:1px solid var(--bz-line);border-radius:18px}
+.bz-photo-guide-card figure{margin:0;aspect-ratio:16/10;overflow:hidden;background:#dbe5e2}
+.bz-photo-guide-card img{display:block;width:100%;height:100%;object-fit:cover}
+.bz-photo-guide-copy{display:flex;flex:1;flex-direction:column;padding:22px}
+.bz-photo-guide-time{align-self:flex-start;margin:0 0 12px;padding:7px 11px;border-radius:999px;background:#e4f4f1;color:var(--bz-petrol);font-size:.78rem;font-weight:700;letter-spacing:.02em}
+.bz-photo-guide-card h3{margin:0 0 10px;color:var(--bz-ink);font-size:1.28rem;line-height:1.2}
+.bz-photo-guide-card p{line-height:1.58}
+.bz-photo-guide-advice{margin-top:8px;padding:14px 15px;background:#f7f5ef;border-left:3px solid var(--bz-amber);border-radius:0 10px 10px 0}
+.bz-photo-guide-advice strong{color:var(--bz-petrol);font-size:.88rem}
+.bz-photo-guide-advice p{margin:6px 0 0;font-size:.94rem}
+.bz-photo-guide-map{display:inline-flex;align-items:center;gap:6px;margin-top:auto;padding-top:18px;color:var(--bz-petrol);font-weight:750;text-decoration:none}
+.bz-photo-guide-map:hover{text-decoration:underline}
+@media(max-width:920px){.bz-photo-guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.bz-photo-guide-grid{grid-template-columns:1fr;gap:16px}.bz-photo-guide-copy{padding:18px}}
