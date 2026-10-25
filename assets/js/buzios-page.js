@@ -9,7 +9,7 @@ import { buziosAreaPages } from './buzios-area-content.js';
 import { addEditorial, enhanceExisting } from './buzios-editorial.js';
 import { closeEditorial } from './buzios-closure.js';
 import { buziosPhotos } from './buzios-photos.js';
-import { buziosNeighborhoodPages, buziosNeighborhoods } from './buzios-neighborhoods.js?v=20261025-barrios-r6';
+import { buziosNeighborhoodPages, buziosNeighborhoods } from './buzios-neighborhoods.js?v=20261025-barrios-r7';
 import { ready as navigationReady } from './site.js';
 import { renderBuziosCategoryNav, renderBuziosSubtopics } from './buzios-taxonomy.js?v=20261025-barrios-r2';
 import { PAGES } from './buzios-page-data.js?v=20261025-buzios-categories';
