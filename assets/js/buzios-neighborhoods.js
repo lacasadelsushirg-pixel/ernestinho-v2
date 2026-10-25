@@ -4,6 +4,7 @@ const T=(ES,PT,EN)=>({ES,PT,EN});
 const root='/destinos/buzios/barrios/';
 const host='https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/';
 const dimensions={
+ 'centro.webp':[3840,2160], 'armacao de buzios.jpg':[960,514], 'ossos.jpg':[1100,818], 'barrio joao fernandes.jpg':[1200,806], 'geriba.jpg':[1200,1200],
  'BRAVA.jpg':[800,600], 'praia-canto.jpg':[1344,756], 'praia-do-canto-buzios 1.jpg':[1600,900],
  'praia-do-canto.jpg':[1400,788], 'praia-do-canto-buzios 12.jpg':[1600,900], 'praia-do-canto-buzios.jpg':[1600,1066],
  'ARMACAO.jpg':[1536,1365], 'ARMACAO1.jpg':[1536,1365], 'ARMACAO2.jpg':[1536,1365], 'ARMACAO3.jpg':[1536,1365], 'ARMACAO4.jpg':[798,598],
@@ -18,19 +19,19 @@ const dimensions={
 const hosted=(path,name)=>{const [width,height]=dimensions[path.split('/').at(-1)]||[1600,900];return {src:host+path.split('/').map(encodeURIComponent).join('/'),name,width,height};};
 const local=(key)=>buziosPhotos[key];
 const img={
-  centroThumb:hosted('PLAYAS/CANTOS/praia-do-canto-buzios 1.jpg','Praia do Canto','Praia do Canto, en el entorno del Centro'),
+  centroThumb:hosted('barrios/centro.webp','Centro de Búzios'),
   centroHero:hosted('PLAYAS/CANTOS/praia-canto.jpg','Praia do Canto','Praia do Canto y su entorno urbano'),
   centroBody:[hosted('PLAYAS/ARMACAO/ARMACAO.jpg','Armação','La bahía de Armação junto al Centro'),hosted('PLAYAS/CANTOS/praia-do-canto.jpg','Praia do Canto','La ensenada de Praia do Canto'),hosted('PLAYAS/ARMACAO/ARMACAO1.jpg','Armação','La orla y las embarcaciones de Armação'),hosted('PLAYAS/CANTOS/praia-do-canto-buzios.jpg','Praia do Canto','Casas y comercios junto al agua')],
-  armacaoThumb:hosted('PLAYAS/ARMACAO/ARMACAO2.jpg','Armação','Barcos en la ensenada de Armação'),
+  armacaoThumb:hosted('barrios/armacao de buzios.jpg','Armação y Orla Bardot'),
   armacaoHero:local('Armação'),
   armacaoBody:[hosted('PLAYAS/ARMACAO/ARMACAO.jpg','Armação','La costa de Armação'),hosted('PLAYAS/ARMACAO/ARMACAO1.jpg','Armação','La ensenada y sus embarcaciones'),hosted('PLAYAS/ARMACAO/ARMACAO3.jpg','Armação','Vista de la bahía de Armação'),hosted('PLAYAS/ARMACAO/ARMACAO4.jpg','Armação','La bahía al atardecer')],
-  ossosThumb:local('Ossos'),
+  ossosThumb:hosted('barrios/ossos.jpg','Praia dos Ossos'),
   ossosHero:hosted('PLAYAS/OSSOS/praia-dos-ossos.jpg','Praia dos Ossos','Vista de Praia dos Ossos'),
   ossosBody:[hosted('PLAYAS/OSSOS/buzios-armacao-dos-buzios.jpg','Praia dos Ossos','La ensenada y el caserío de Ossos'),hosted('PLAYAS/OSSOS/praia-do-ossos.jpg','Praia dos Ossos','Praia dos Ossos al final del día'),hosted('PLAYAS/OSSOS/buzios-armacao-dos-buzios (1).jpg','Praia dos Ossos','La orilla de Ossos'),hosted('PLAYAS/OSSOS/lindissima-praia-dos.jpg','Praia dos Ossos','Embarcaciones frente a Ossos'),hosted('PLAYAS/OSSOS/caption.jpg','Praia dos Ossos','Un rincón de la playa')],
-  joaoThumb:local('João Fernandes'),
+  joaoThumb:hosted('barrios/barrio joao fernandes.jpg','João Fernandes'),
   joaoHero:hosted('PLAYAS/JOAO FERNANDES/121e5b1b-7531-4da7-9762-a0db1ebc9ca6.webp','João Fernandes','La ensenada de João Fernandes'),
   joaoBody:[hosted('PLAYAS/JOAO FERNANDES/921bb156-69be-4c54-8445-ae6f7f1d0c1f.jpg','João Fernandes','La orilla y la ensenada de João Fernandes'),hosted('PLAYAS/JOAO FERNANDES/caption (4).jpg','João Fernandes','Servicios junto al mar'),hosted('PLAYAS/JOAO FERNANDES/caption (2).jpg','João Fernandes','Un tramo de la playa'),hosted('PLAYAS/JOAO FERNANDES/caption (5).jpg','João Fernandes','Actividades en el agua'),hosted('PLAYAS/JOAO FERNANDES/2b9b49ed-1c45-49ec-aae0-d5cf379e824c.jpg','João Fernandes','La costa vista desde la playa')],
-  geribaThumb:local('Geribá'),
+  geribaThumb:hosted('barrios/geriba.jpg','Geribá'),
   geribaHero:hosted('PLAYAS/GERIBÁ/praia-de-geriba.jpg','Geribá','La franja de arena de Geribá'),
   geribaBody:[hosted('PLAYAS/GERIBÁ/b2826267-8e8c-4c6a-8791-c5ce3e6c4d82.webp','Geribá','Geribá y su paisaje costero'),hosted('PLAYAS/GERIBÁ/praia-de-geriba (1).webp','Geribá','Servicios de playa en Geribá'),hosted('PLAYAS/GERIBÁ/cbc50b8c-092b-4552-801a-fa1ed0454ec4.jpg','Geribá','El mar abierto de Geribá'),hosted('PLAYAS/GERIBÁ/praia-de-geriba.webp','Geribá','Un sector de la playa'),hosted('PLAYAS/GERIBÁ/97906fbb-3d9e-4cab-b79a-9fe257091bb0.webp','Geribá','La playa en un día concurrido'),hosted('PLAYAS/GERIBÁ/41485da6-6a24-416d-92cc-7ce37e99b413.webp','Geribá','Oleaje en Geribá')]
 };
