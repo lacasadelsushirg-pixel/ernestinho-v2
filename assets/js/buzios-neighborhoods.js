@@ -20,7 +20,7 @@ const local=(key)=>buziosPhotos[key];
 const img={
   centroThumb:hosted('PLAYAS/CANTOS/praia-do-canto-buzios 1.jpg','Praia do Canto','Praia do Canto, en el entorno del Centro'),
   centroHero:hosted('PLAYAS/CANTOS/praia-canto.jpg','Praia do Canto','Praia do Canto y su entorno urbano'),
-  centroBody:[hosted('PLAYAS/CANTOS/praia-do-canto-buzios 1.jpg','Rua das Pedras','Rua das Pedras, en el Centro'),hosted('PLAYAS/CANTOS/praia-do-canto.jpg','Praia do Canto','La ensenada de Praia do Canto'),hosted('PLAYAS/CANTOS/praia-do-canto-buzios 12.jpg','Praia do Canto','El frente costero de Canto'),hosted('PLAYAS/CANTOS/praia-do-canto-buzios.jpg','Praia do Canto','Casas y comercios junto al agua')],
+  centroBody:[hosted('PLAYAS/ARMACAO/ARMACAO.jpg','Armação','La bahía de Armação junto al Centro'),hosted('PLAYAS/CANTOS/praia-do-canto.jpg','Praia do Canto','La ensenada de Praia do Canto'),hosted('PLAYAS/ARMACAO/ARMACAO1.jpg','Armação','La orla y las embarcaciones de Armação'),hosted('PLAYAS/CANTOS/praia-do-canto-buzios.jpg','Praia do Canto','Casas y comercios junto al agua')],
   armacaoThumb:hosted('PLAYAS/ARMACAO/ARMACAO2.jpg','Armação','Barcos en la ensenada de Armação'),
   armacaoHero:local('Armação'),
   armacaoBody:[hosted('PLAYAS/ARMACAO/ARMACAO.jpg','Armação','La costa de Armação'),hosted('PLAYAS/ARMACAO/ARMACAO1.jpg','Armação','La ensenada y sus embarcaciones'),hosted('PLAYAS/ARMACAO/ARMACAO3.jpg','Armação','Vista de la bahía de Armação'),hosted('PLAYAS/ARMACAO/ARMACAO4.jpg','Armação','La bahía al atardecer')],
