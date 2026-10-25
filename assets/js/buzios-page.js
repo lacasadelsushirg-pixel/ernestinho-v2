@@ -8,6 +8,7 @@ import { buziosGuidePages } from './buzios-guide-content.js';
 import { buziosAreaPages } from './buzios-area-content.js';
 import { addEditorial, enhanceExisting } from './buzios-editorial.js';
 import { closeEditorial } from './buzios-closure.js';
+import { enhanceBuziosThings } from './buzios-things.js?v=20261025-que-hacer-r1';
 import { buziosPhotos } from './buzios-photos.js';
 import { buziosNeighborhoodPages, buziosNeighborhoods } from './buzios-neighborhoods.js?v=20261025-barrios-r10';
 import { ready as navigationReady } from './site.js';
@@ -658,6 +659,7 @@ Object.assign(PAGES,buziosNeighborhoodPages);
 addEditorial(PAGES);
 enhanceExisting(PAGES);
 closeEditorial(PAGES);
+enhanceBuziosThings(PAGES);
 PAGES['/destinos/buzios/'].notice=null;
 PAGES['/destinos/'].facts[1].value=T('Búzios','Búzios','Búzios');
 for(const route of ['/destinos/buzios/alojamiento/','/destinos/buzios/moverse/','/destinos/buzios/consejos/'])PAGES[route].notice=null;
@@ -753,7 +755,7 @@ const uploadedBuziosThumbs={
  ,'Viajar solo o sola':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20buzios%20segun%20tu%20forma%20de%20viajar.jpg'
  ,'Accesibilidad en Búzios':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/minitatura%20movilidad%20reduzida.jpg'
  ,'Aeropuertos y cómo llegar':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/GUIA%20DE%20RIO/AEROPUERTOS/AEROPUERTOS%20aeroporto%20galeao.jpg'
- 
+
  ,'Terminal de autobuses de Búzios':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/transportes/TRANSPORTES%20MINIATURA%20RODOVIARIA.jpg'
  ,'Cómo moverse':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20viaje%20sin%20sopresas.jpg'
  ,'Alquiler de auto y buggy':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20buzios%20segun%20tu%20forma%20de%20viajar.jpg'
@@ -1162,7 +1164,7 @@ function render(){
   const customGuide=['/destinos/buzios/guia/salud-emergencias/','/destinos/buzios/guia/consulados/','/destinos/buzios/guia/terminal/','/destinos/buzios/guia/aeropuertos/','/destinos/buzios/guia/mes-a-mes/','/destinos/buzios/guia/viajar-solo/','/destinos/buzios/guia/accesibilidad/'].includes(path)||Boolean(page.neighborhood);
   document.body.classList.toggle('bz-rio-active',customGuide);
   const customBody=customGuide?renderRioStyle(page,path,lang):'';
-  const standardBody=`${path==='/destinos/buzios/guia/'?'':breadcrumbIntro}${topicSelector}${page.gallery?photoGallery:sections}${transportMatrix}${transportLinks}${bookingTable}${page.gallery||topicCategory==='events'?'':renderBuziosSubtopics(topicCategory,lang)}${noticeBlock}${relatedSection}`;
+  const standardBody=`${path==='/destinos/buzios/guia/'?'':breadcrumbIntro}${topicSelector}${page.gallery?photoGallery:sections}${transportMatrix}${transportLinks}${bookingTable}${page.gallery||topicCategory==='events'||topicCategory==='things'?'':renderBuziosSubtopics(topicCategory,lang)}${noticeBlock}${relatedSection}`;
   const pageBody=path==='/destinos/buzios/barrios/'?renderBuziosNeighborhoodIndex(lang):path==='/destinos/buzios/transportes/'?renderBzTransportIndex(lang):path==='/destinos/buzios/transportes/transporte-privado/'?standardBody+renderBzTransferBooking(lang):path==='/destinos/buzios/transportes/alquiler-autos/'?standardBody+'<a class="bz-rentcars-banner" href="https://www.rentcars.com/es/?requestorid=11142&amp;utm_source=www.ernestinhocarioca.com.br&amp;utm_medium=afiliado-link" target="_blank" rel="sponsored noopener noreferrer"><img src="https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/GUIA%20DE%20RIO/ALQUILER%20DE%20AUTO/banner%20rent%20cars.png" loading="lazy" alt="Rentcars · comparar alquiler de autos"></a>':customGuide?customBody:isBuziosHome?homeBody:path==='/destinos/buzios/guia/'?renderPracticalGuideIndex(page,lang):isExperienceIndex?experienceBody():path==='/destinos/buzios/alojamiento/'?areaIndexBody():path==='/destinos/buzios/experiencias/full-day-buzios/'?renderBuziosFullDay(page,lang,whatsapp(msg)):standardBody;
   document.getElementById('bz-app').innerHTML=`
     ${renderBuziosCategoryNav(lang)}
