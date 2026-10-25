@@ -418,3 +418,21 @@ body.bz-rio-active:has(.bz-solo){background:#103d3c}
 .bz-air-verified-note p{margin:8px 0}
 .bz-air-verified-note a{display:inline-block;color:#f3d79f;margin:8px 16px 0 0;text-underline-offset:4px}
 .bz-terminal-photo-pending{background:transparent}
+/* Qué hacer en Búzios: cuatro entradas visuales y fichas coherentes con el ADN editorial. */
+.bz-things-index{background:#082c2c;color:#f7f2e8;padding:38px max(5vw,calc((100vw - 1230px)/2)) 70px}
+.bz-things-index-head{max-width:760px;margin:0 auto 28px}
+.bz-things-index-head .ec-rio-kicker{color:#d4b36d;letter-spacing:.14em;font-weight:700}
+.bz-things-index-head h2{color:#fff;font:500 clamp(30px,4vw,48px)/1.08 Georgia,serif;margin:8px 0 12px}
+.bz-things-index-head>p:last-child{color:#d9e4df;max-width:690px;line-height:1.65}
+.bz-things-grid{display:grid;grid-auto-flow:row;grid-auto-rows:1fr;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;max-width:1230px;margin:0 auto}
+.bz-things-card{display:flex;flex-direction:column;min-width:0;color:#fff;text-decoration:none;border:1px solid rgba(207,174,102,.62);background:#0e3938}
+.bz-things-card img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:center}
+.bz-things-card-copy{display:grid;gap:9px;padding:17px 19px 19px}
+.bz-things-card-copy strong{color:#fff;font:500 clamp(21px,2.4vw,29px)/1.16 Georgia,serif}
+.bz-things-card-copy>span{color:#d6e1dc;font-size:15px;line-height:1.55}
+.bz-things-card-copy b{color:#e5c77f;font-size:12px;letter-spacing:.08em;margin-top:3px}
+.bz-things-card:hover,.bz-things-card:focus-visible{border-color:#e6c778;outline:2px solid #e6c778;outline-offset:3px}
+.bz-section.bz-things-category .bz-grid{grid-auto-flow:row;grid-auto-rows:1fr;align-items:stretch}
+.bz-section.bz-things-category .bz-card{height:100%}
+@media(max-width:700px){.bz-things-index{padding:30px 18px 48px}.bz-things-grid{grid-template-columns:1fr;gap:14px}.bz-things-card{display:grid;grid-template-columns:40% 1fr;align-items:stretch}.bz-things-card img{height:100%;min-height:155px;aspect-ratio:auto}.bz-things-card-copy{padding:13px;gap:7px}.bz-things-card-copy strong{font-size:20px}.bz-things-card-copy>span{font-size:13px}.bz-things-card-copy b{font-size:11px}.bz-section.bz-things-category .bz-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.bz-section.bz-things-category .bz-grid{grid-template-columns:1fr}}
