@@ -28,6 +28,9 @@ export function addBulkPhotoReferences() {
   if (pathname !== "/") {
     while (pathname.endsWith("/")) pathname = pathname.slice(0, -1);
   }
+  // Las fichas de Búzios tienen galerías editoriales propias. Evita que una ruta
+  // de Río con el mismo sufijo (por ejemplo /barrios/centro) se aplique aquí.
+  if (pathname.includes("/destinos/buzios/")) return;
   const route = pathname === "/"
     ? (PHOTO_PATHS_BY_ROUTE["/"] ? "/" : null)
     : Object.keys(PHOTO_PATHS_BY_ROUTE).find((candidate) => pathname.endsWith(candidate));
