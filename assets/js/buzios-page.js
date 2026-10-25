@@ -9,7 +9,7 @@ import { buziosAreaPages } from './buzios-area-content.js';
 import { addEditorial, enhanceExisting } from './buzios-editorial.js';
 import { closeEditorial } from './buzios-closure.js';
 import { buziosPhotos } from './buzios-photos.js';
-import { buziosNeighborhoodPages, buziosNeighborhoods } from './buzios-neighborhoods.js?v=20261025-barrios-r8';
+import { buziosNeighborhoodPages, buziosNeighborhoods } from './buzios-neighborhoods.js?v=20261025-barrios-r9';
 import { ready as navigationReady } from './site.js';
 import { renderBuziosCategoryNav, renderBuziosSubtopics } from './buzios-taxonomy.js?v=20261025-barrios-r2';
 import { PAGES } from './buzios-page-data.js?v=20261025-barrios-r2';
@@ -715,7 +715,7 @@ PAGES['/destinos/buzios/cruceros/'].notice=T('Confirma con tu naviera las instru
 // Topic and product pages only carry a photograph when it documents that exact subject.
 // Beach landscapes are never used as substitutes for lodging, transport, cruises or activities.
 for(const [route,page] of Object.entries(PAGES)){
-  if(route.startsWith('/destinos/buzios/')&&route!=='/destinos/buzios/'&&route!=='/destinos/buzios/comer-y-salir/'&&!route.startsWith('/destinos/buzios/guia/')&&!/^\/destinos\/buzios\/alojamiento\/[^/]+\/$/.test(route)){
+  if(route.startsWith('/destinos/buzios/')&&route!=='/destinos/buzios/'&&route!=='/destinos/buzios/comer-y-salir/'&&!route.startsWith('/destinos/buzios/guia/')&&!/^\/destinos\/buzios\/alojamiento\/[^/]+\/$/.test(route)&&!page.neighborhood){
     page.hero=null;
     delete page.heroPhoto;
   }
