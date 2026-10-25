@@ -3,7 +3,7 @@ import { routeParts, hasLocaleRoutes, localeHref, localizeLinks, syncLocaleMetad
 import { localizeAttractionBooking } from './attraction-booking.js';
 import { applySeoMetadata } from './seo-metadata.js?v=20261016-rio-seo';
 import { addTransportPhotoReferences } from "./transport-photo-references.js";
-import { addBulkPhotoReferences } from "./bulk-photo-references.js";
+import { addBulkPhotoReferences } from "./bulk-photo-references.js?v=20261025-buzios-neighborhoods";
 import { mountCariocIA } from "./carioc-ia.js?v=20261013-cariocia17";
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", mountCariocIA, { once: true });
 else mountCariocIA();
