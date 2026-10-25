@@ -7,7 +7,7 @@
 .bz-neighborhood-index-head .ec-rio-kicker,.bz-neighborhood-detail .ec-rio-kicker{color:#d4b36d;letter-spacing:.14em;font-weight:700}
 .bz-neighborhood-index-head h2{color:#fff;font:500 clamp(30px,4vw,48px)/1.08 Georgia,serif;margin:8px 0 12px}
 .bz-neighborhood-index-head>p:last-child{color:#d9e4df;max-width:690px;line-height:1.65}
-.bz-neighborhood-grid{display:grid;grid-auto-flow:row;align-items:stretch;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;max-width:1230px;margin:0 auto}
+.bz-neighborhood-grid{display:grid;grid-auto-flow:row;grid-auto-rows:1fr;align-items:stretch;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;max-width:1230px;margin:0 auto}
 .bz-neighborhood-card{display:flex;flex-direction:column;color:#fff;text-decoration:none;border:1px solid rgba(207,174,102,.62);background:#0e3938;min-width:0}
 .bz-neighborhood-card img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:center}
 .bz-neighborhood-card-copy{display:grid;gap:8px;padding:16px 17px 18px}
