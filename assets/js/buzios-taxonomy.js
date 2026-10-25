@@ -4,7 +4,7 @@ export const buziosMainCategories = [
   { key: 'food', path: '/destinos/buzios/comer-y-salir/', ES: 'Dónde comer', PT: 'Onde comer', EN: 'Where to eat' },
   { key: 'things', path: '/destinos/buzios/que-hacer/', ES: 'Qué hacer', PT: 'O que fazer', EN: 'Things to do' },
   { key: 'beaches', path: '/destinos/buzios/playas/', ES: 'Playas', PT: 'Praias', EN: 'Beaches' },
-  { key: 'neighborhoods', path: '/destinos/buzios/alojamiento/', ES: 'Barrios', PT: 'Bairros', EN: 'Neighborhoods' },
+  { key: 'neighborhoods', path: '/destinos/buzios/barrios/', ES: 'Barrios', PT: 'Bairros', EN: 'Neighborhoods' },
   { key: 'transport', path: '/destinos/buzios/transportes/', ES: 'Transportes', PT: 'Transportes', EN: 'Transport' },
   { key: 'events', path: '/destinos/buzios/eventos/', ES: 'Eventos', PT: 'Eventos', EN: 'Events' },
   { key: 'photos', path: '/destinos/buzios/fotografias/', ES: 'Fotografías', PT: 'Fotografias', EN: 'Photography' },

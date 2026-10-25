@@ -1,0 +1,66 @@
+/* Barrios Búzios: same petrol, teal and gold system as the Rio editorial guides. */
+.ec-buzios-neighborhood-index .bz-page-hero .primary,
+.ec-buzios-neighborhood-index .bz-page-hero .bz-page-back{display:none}
+.ec-buzios-neighborhood-index .bz-page-hero{min-height:230px}
+.bz-neighborhood-index{background:#082c2c;color:#f7f2e8;padding:36px max(5vw,calc((100vw - 1230px)/2)) 70px}
+.bz-neighborhood-index-head{max-width:760px;margin:0 auto 28px}
+.bz-neighborhood-index-head .ec-rio-kicker,.bz-neighborhood-detail .ec-rio-kicker{color:#d4b36d;letter-spacing:.14em;font-weight:700}
+.bz-neighborhood-index-head h2{color:#fff;font:500 clamp(30px,4vw,48px)/1.08 Georgia,serif;margin:8px 0 12px}
+.bz-neighborhood-index-head>p:last-child{color:#d9e4df;max-width:690px;line-height:1.65}
+.bz-neighborhood-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-flow:row;align-items:stretch;gap:20px;max-width:1230px;margin:0 auto}
+.bz-neighborhood-card{display:flex;flex-direction:column;height:100%;color:#fff;text-decoration:none;border:1px solid rgba(207,174,102,.62);background:#0e3938;min-width:0}
+.bz-neighborhood-card img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:center}
+.bz-neighborhood-card-copy{display:grid;grid-template-rows:auto auto 1fr auto;gap:8px;flex:1;padding:16px 17px 18px}
+.bz-neighborhood-card-copy small{color:#d8b96f;font:700 14px/1 Georgia,serif;letter-spacing:.13em}
+.bz-neighborhood-card-copy strong{font:500 23px/1.15 Georgia,serif;color:#fff}
+.bz-neighborhood-card-copy>span{color:#d6e1dc;font-size:14px;line-height:1.5}
+.bz-neighborhood-card-copy b{color:#e5c77f;font-size:12px;letter-spacing:.08em;margin-top:3px}
+.bz-neighborhood-card .bz-photo-credit{padding:0 16px 12px;color:#b9c9c2;font-size:10px;line-height:1.4}
+.bz-neighborhood-card:nth-child(13):last-child{grid-column:2}
+.bz-neighborhood-card .bz-photo-credit a,.bz-hero-credit a{color:#dec781;text-decoration:underline;text-underline-offset:2px}
+.bz-neighborhood-card:hover,.bz-neighborhood-card:focus-visible{border-color:#e6c778;outline:2px solid #e6c778;outline-offset:3px}
+.bz-neighborhood-detail{background:#082c2c;color:#f7f2e8;padding:22px 18px 64px}
+/* Override the generic white editorial canvas in buzios.css without changing
+   the shared Río renderer used by other destination pages. */
+.bz-rio-structured.bz-neighborhood-detail{background:#082c2c!important;color:#f7f2e8}
+.bz-rio-structured.bz-neighborhood-detail .ec-rio-kicker{color:#d4b36d}
+.bz-rio-structured.bz-neighborhood-detail .ec-rio-section>h2{color:#fff}
+.bz-rio-structured.bz-neighborhood-detail .ec-rio-section{background:transparent}
+.bz-rio-structured.bz-neighborhood-detail .bz-neighborhood-story>p{color:#e5e9e3}
+.bz-rio-structured.bz-neighborhood-detail .bz-neighborhood-map h2{color:#fff}
+body.ec-buzios-neighborhood-page{background:#082c2c!important}
+body.ec-buzios-neighborhood-page .bz-rio-structured.bz-neighborhood-detail{background:#082c2c!important;color:#f7f2e8!important;min-height:75vh}
+body.ec-buzios-neighborhood-page .bz-neighborhood-detail .ec-rio-section h2,
+body.ec-buzios-neighborhood-page .bz-neighborhood-detail .bz-neighborhood-map h2{color:#fff!important}
+body.ec-buzios-neighborhood-page .bz-neighborhood-detail .ec-rio-kicker{color:#d4b36d!important}
+body.ec-buzios-neighborhood-page .bz-neighborhood-story>p{color:#e5e9e3!important}
+.bz-neighborhood-detail .ec-rio-guide{max-width:1060px;margin:0 auto}
+.bz-neighborhood-detail .ec-rio-section{border-top:1px solid rgba(211,177,100,.45);padding:32px 0;margin:0}
+.bz-neighborhood-detail .ec-rio-section h2,.bz-neighborhood-map h2{color:#fff;font:500 clamp(25px,3.2vw,38px)/1.15 Georgia,serif;margin:6px 0 20px}
+.bz-neighborhood-story{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.88fr);align-items:center;gap:30px}
+.bz-neighborhood-story>p{color:#e5e9e3;font-size:17px;line-height:1.8;margin:0}
+.bz-neighborhood-story .bz-card-photo{margin:0;border:1px solid rgba(207,174,102,.6);background:#103b39}
+.bz-neighborhood-story .bz-card-photo img{display:block;width:100%;height:auto;max-height:440px;object-fit:contain;background:#062524}
+.bz-neighborhood-story .bz-card-photo figcaption{display:none}
+.bz-neighborhood-photo-credits{margin:18px 0 6px;color:#b9c9c2;font-size:12px}
+.bz-neighborhood-photo-credits summary{color:#dec781;cursor:pointer}
+.bz-neighborhood-photo-credits ul{padding-left:20px;line-height:1.7}
+.bz-neighborhood-photo-credits a{color:#dec781}
+.bz-neighborhood-tip{margin:28px 0 38px!important;border:1px solid #c6a65f!important;border-left:4px solid #c6a65f!important;background:#103b39!important;color:#f4efe5!important;padding:20px 22px!important}
+.bz-neighborhood-tip b{color:#edce83}
+.bz-neighborhood-tip p{line-height:1.65;margin:8px 0 0}
+.bz-neighborhood-map{border-top:1px solid rgba(211,177,100,.6);padding:30px 0 20px}
+.bz-neighborhood-map-frame{height:390px;border:1px solid #c6a65f;background:#103b39}
+.bz-neighborhood-map-frame iframe{width:100%;height:100%;border:0}
+.bz-neighborhood-map>a{display:inline-block;color:#e7c878;margin-top:12px}
+.bz-neighborhood-detail .ec-rio-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+.bz-neighborhood-detail .ec-rio-links a{display:inline-block;border:1px solid #c6a65f;color:#f1d481;padding:12px 15px;text-decoration:none}
+@media(max-width:850px){.bz-neighborhood-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.bz-neighborhood-card:nth-child(13):last-child{grid-column:auto}.bz-neighborhood-story{grid-template-columns:1fr;gap:18px}.bz-neighborhood-story .bz-card-photo{max-width:700px}}
+@media(max-width:560px){.ec-buzios-neighborhood-index .bz-page-hero{min-height:190px}.bz-neighborhood-index{padding:30px 18px 46px}.bz-neighborhood-index-head{margin-bottom:20px}.bz-neighborhood-grid{grid-template-columns:1fr;gap:13px}.bz-neighborhood-card{display:grid;grid-template-columns:42% 1fr;align-items:stretch}.bz-neighborhood-card:nth-child(13):last-child{grid-column:auto}.bz-neighborhood-card img{height:100%;min-height:150px;aspect-ratio:auto}.bz-neighborhood-card-copy{padding:12px;gap:6px}.bz-neighborhood-card-copy strong{font-size:19px}.bz-neighborhood-card-copy>span{font-size:13px}.bz-neighborhood-detail{padding:14px 18px 42px}.bz-neighborhood-detail .ec-rio-section{padding:24px 0}.bz-neighborhood-story>p{font-size:15px;line-height:1.7}.bz-neighborhood-map-frame{height:310px}.bz-neighborhood-detail .ec-rio-links{display:grid}.bz-neighborhood-detail .ec-rio-links a{text-align:center}}
+
+.bz-neighborhood-stays{display:grid;gap:6px;max-width:1230px;margin:22px auto 0;padding:17px 19px;border:1px solid rgba(207,174,102,.62);color:#fff;text-decoration:none;background:#0e3938}.bz-neighborhood-stays strong{color:#e5c77f;font:500 20px/1.2 Georgia,serif}.bz-neighborhood-stays span{color:#d6e1dc;font-size:14px;line-height:1.55}.bz-neighborhood-stays:focus-visible{outline:2px solid #e6c778;outline-offset:3px}
+
+/* Keep the neighborhood renderer inside the Búzios dark canvas on localized routes too. */
+body.ec-buzios-neighborhood-page, body.ec-buzios-neighborhood-page .bz-shell, body.ec-buzios-neighborhood-page #bz-app, body.ec-buzios-neighborhood-page #bz-app main, body.ec-buzios-neighborhood-page .bz-rio-structured.bz-neighborhood-detail { background-color:#082c2c!important; color:#f7f2e8!important; }
+body.ec-buzios-neighborhood-page .bz-rio-structured.bz-neighborhood-detail .ec-rio-section, body.ec-buzios-neighborhood-page .bz-rio-structured.bz-neighborhood-detail .ec-rio-guide { background-color:transparent!important; }
+body.ec-buzios-neighborhood-page .bz-rio-structured.bz-neighborhood-detail .bz-neighborhood-story>p { color:#e5e9e3!important; }
