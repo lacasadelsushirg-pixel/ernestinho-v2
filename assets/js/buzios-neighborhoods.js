@@ -4,7 +4,7 @@ const T=(ES,PT,EN)=>({ES,PT,EN});
 const root='/destinos/buzios/barrios/';
 const host='https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/';
 const dimensions={
- 'BRAVA.jpg':[800,600], 'rua-das-pedras.jpg':[550,413], 'praia-canto.jpg':[1344,756], 'praia-do-canto-buzios 1.jpg':[1600,900],
+ 'BRAVA.jpg':[800,600], 'praia-canto.jpg':[1344,756], 'praia-do-canto-buzios 1.jpg':[1600,900],
  'praia-do-canto.jpg':[1400,788], 'praia-do-canto-buzios 12.jpg':[1600,900], 'praia-do-canto-buzios.jpg':[1600,1066],
  'ARMACAO.jpg':[1536,1365], 'ARMACAO1.jpg':[1536,1365], 'ARMACAO2.jpg':[1536,1365], 'ARMACAO3.jpg':[1536,1365], 'ARMACAO4.jpg':[798,598],
  'praia-dos-ossos.jpg':[1600,900], 'buzios-armacao-dos-buzios.jpg':[1400,933], 'praia-do-ossos.jpg':[1600,1200],
@@ -20,7 +20,7 @@ const local=(key)=>buziosPhotos[key];
 const img={
   centroThumb:hosted('PLAYAS/CANTOS/praia-do-canto-buzios 1.jpg','Praia do Canto','Praia do Canto, en el entorno del Centro'),
   centroHero:hosted('PLAYAS/CANTOS/praia-canto.jpg','Praia do Canto','Praia do Canto y su entorno urbano'),
-  centroBody:[hosted('PLAYAS/CANTOS/rua-das-pedras.jpg','Rua das Pedras','Rua das Pedras, en el Centro'),hosted('PLAYAS/CANTOS/praia-do-canto.jpg','Praia do Canto','La ensenada de Praia do Canto'),hosted('PLAYAS/CANTOS/praia-do-canto-buzios 12.jpg','Praia do Canto','El frente costero de Canto'),hosted('PLAYAS/CANTOS/praia-do-canto-buzios.jpg','Praia do Canto','Casas y comercios junto al agua')],
+  centroBody:[hosted('PLAYAS/CANTOS/praia-do-canto-buzios 1.jpg','Rua das Pedras','Rua das Pedras, en el Centro'),hosted('PLAYAS/CANTOS/praia-do-canto.jpg','Praia do Canto','La ensenada de Praia do Canto'),hosted('PLAYAS/CANTOS/praia-do-canto-buzios 12.jpg','Praia do Canto','El frente costero de Canto'),hosted('PLAYAS/CANTOS/praia-do-canto-buzios.jpg','Praia do Canto','Casas y comercios junto al agua')],
   armacaoThumb:hosted('PLAYAS/ARMACAO/ARMACAO2.jpg','Armação','Barcos en la ensenada de Armação'),
   armacaoHero:local('Armação'),
   armacaoBody:[hosted('PLAYAS/ARMACAO/ARMACAO.jpg','Armação','La costa de Armação'),hosted('PLAYAS/ARMACAO/ARMACAO1.jpg','Armação','La ensenada y sus embarcaciones'),hosted('PLAYAS/ARMACAO/ARMACAO3.jpg','Armação','Vista de la bahía de Armação'),hosted('PLAYAS/ARMACAO/ARMACAO4.jpg','Armação','La bahía al atardecer')],
