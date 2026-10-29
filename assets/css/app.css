@@ -18,3 +18,15 @@
 .door b,.door .card-title{color:#fff!important;text-shadow:0 2px 8px rgba(0,0,0,.92)!important}
 .door small{color:#ffe0a0!important;text-shadow:0 2px 6px rgba(0,0,0,.92)!important}
 .door .card-copy,.door span{color:#f7f2e8!important;text-shadow:0 2px 5px rgba(0,0,0,.9)!important}
+
+/* Hero titles must wrap inside the viewport; fixes oversized, clipped headings across the site. */
+body header:not(.topbar) h1,
+body .hero h1 {
+  max-width: 100%;
+  min-width: 0;
+  white-space: normal !important;
+  overflow-wrap: break-word;
+  word-break: normal;
+  font-size: clamp(2rem, 6vw, 6.8rem) !important;
+  line-height: 1.02 !important;
+}
