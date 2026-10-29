@@ -1,3 +1,28 @@
+const detalleEventoFueraRio = (evento) => {
+    const fuera = {
+        'rio-ostras-jazz': {
+            ES: { estado: '2027 pendiente · referencia 2026 · fuera de la ciudad de Río', alt: 'Rio das Ostras Jazz & Blues Festival · evento fuera de la ciudad de Río de Janeiro' },
+            PT: { estado: '2027 pendente · referência 2026 · fora da cidade do Rio', alt: 'Rio das Ostras Jazz & Blues Festival · evento fora da cidade do Rio de Janeiro' },
+            EN: { estado: '2027 pending · 2026 reference · outside Rio city', alt: 'Rio das Ostras Jazz & Blues Festival · event outside Rio de Janeiro city' }
+        },
+        'saquarema-wsl': {
+            ES: { estado: '2027 pendiente · referencia 2026 · fuera de la ciudad de Río', alt: 'WSL · Mundial de Surf en Saquarema · evento fuera de la ciudad de Río de Janeiro' },
+            PT: { estado: '2027 pendente · referência 2026 · fora da cidade do Rio', alt: 'WSL · Mundial de Surf em Saquarema · evento fora da cidade do Rio de Janeiro' },
+            EN: { estado: '2027 pending · 2026 reference · outside Rio city', alt: 'WSL · Saquarema World Surfing event · outside Rio de Janeiro city' }
+        },
+        'flip': {
+            ES: { estado: '2027 pendiente · referencia 2026 · fuera de la ciudad de Río', alt: 'FLIP · Festa Literária Internacional de Paraty · evento fuera de la ciudad de Río de Janeiro' },
+            PT: { estado: '2027 pendente · referência 2026 · fora da cidade do Rio', alt: 'FLIP · Festa Literária Internacional de Paraty · evento fora da cidade do Rio de Janeiro' },
+            EN: { estado: '2027 pending · 2026 reference · outside Rio city', alt: 'FLIP · Paraty International Literary Festival · event outside Rio de Janeiro city' }
+        }
+    }[evento.id];
+    if (!fuera) return null;
+    const pathname = window.location.pathname.toLowerCase();
+    const lang = pathname.startsWith('/pt/') || document.documentElement.lang.toLowerCase().startsWith('pt') ? 'PT'
+        : pathname.startsWith('/en/') || document.documentElement.lang.toLowerCase().startsWith('en') ? 'EN' : 'ES';
+    return fuera[lang];
+};
+
 function GrandesEventosPage({ onBack }) {
     const [seleccionado, setSeleccionado] = useState(null);
     const [filtro, setFiltro] = useState('Todos');
@@ -25,10 +50,10 @@ function GrandesEventosPage({ onBack }) {
                 React.createElement("div", { className: "flex gap-2 overflow-x-auto no-scrollbar py-8" }, tipos.map(t => React.createElement("button", { key: t, onClick: () => setFiltro(t), className: `shrink-0 px-5 py-3 rounded-full text-sm font-black ${filtro === t ? 'bg-teal-500 text-white' : 'bg-white/10 text-slate-200 hover:bg-white/20'}` }, t))),
                 React.createElement("div", { className: "grid sm:grid-cols-2 lg:grid-cols-3 gap-6" }, visibles.map(e => React.createElement("article", { key: e.id, className: "group bg-white text-slate-900 rounded-[2rem] overflow-hidden  flex flex-col" },
                     React.createElement("button", { onClick: () => setSeleccionado(e), className: "relative aspect-[4/3] overflow-hidden text-left" },
-                        e.miniatura ? React.createElement("img", { src: e.miniatura, alt: `${e.nombre} en Río de Janeiro`, className: "w-full h-full object-cover group-hover:scale-105 transition duration-500" }) : React.createElement("div", { className: "w-full h-full bg-gradient-to-br from-red-800 via-emerald-900 to-slate-950 flex items-center justify-center" },
+                        e.miniatura ? React.createElement("img", { src: e.miniatura, alt: detalleEventoFueraRio(e)?.alt || `${e.nombre} · ${e.lugar}`, className: "w-full h-full object-cover group-hover:scale-105 transition duration-500" }) : React.createElement("div", { className: "w-full h-full bg-gradient-to-br from-red-800 via-emerald-900 to-slate-950 flex items-center justify-center" },
                             React.createElement("span", { className: "text-7xl" }, e.icon)),
                         React.createElement("div", { className: "absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" }),
-                        React.createElement("span", { className: "absolute top-4 left-4 bg-white/95 text-slate-950 rounded-full px-3 py-1 text-xs font-black" }, e.estado),
+                        React.createElement("span", { className: "absolute top-4 left-4 bg-white/95 text-slate-950 rounded-full px-3 py-1 text-xs font-black" }, detalleEventoFueraRio(e)?.estado || e.estado),
                         React.createElement("h2", { className: "absolute bottom-5 left-5 right-5 text-2xl font-black text-white" },
                             e.icon,
                             " ",
@@ -87,12 +112,12 @@ function GrandesEventosPage({ onBack }) {
     const rockRows = e.artistas ? (diaRock === 'Todos' ? e.artistas : e.artistas.filter(x => x[0] === diaRock)) : [];
     return React.createElement("article", { className: "min-h-screen bg-slate-50 pb-24" },
         React.createElement("div", { className: "relative h-[26rem] sm:h-[34rem] overflow-hidden" },
-            e.hero ? React.createElement("img", { src: e.hero, alt: `${e.nombre} en Río de Janeiro`, className: "w-full h-full object-cover" }) : React.createElement("div", { className: "w-full h-full bg-gradient-to-br from-red-800 via-emerald-900 to-slate-950 flex items-center justify-center" },
+            e.hero ? React.createElement("img", { src: e.hero, alt: detalleEventoFueraRio(e)?.alt || `${e.nombre} · ${e.lugar}`, className: "w-full h-full object-cover" }) : React.createElement("div", { className: "w-full h-full bg-gradient-to-br from-red-800 via-emerald-900 to-slate-950 flex items-center justify-center" },
                 React.createElement("span", { className: "text-9xl" }, e.icon)),
             React.createElement("div", { className: "absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-black/10" }),
             React.createElement("button", { onClick: () => setSeleccionado(null), className: "absolute top-5 left-5 bg-white text-slate-900 rounded-full px-5 py-3 text-sm font-black " }, "\u2190 Grandes eventos"),
             React.createElement("div", { className: "absolute inset-x-0 bottom-0 max-w-6xl mx-auto px-5 sm:px-8 pb-9 text-white" },
-                React.createElement("span", { className: "inline-block bg-amber-300 text-slate-950 rounded-full px-4 py-1 text-xs font-black" }, e.estado),
+                React.createElement("span", { className: "inline-block bg-amber-300 text-slate-950 rounded-full px-4 py-1 text-xs font-black" }, detalleEventoFueraRio(e)?.estado || e.estado),
                 React.createElement("h1", { className: "text-4xl sm:text-6xl font-black mt-4" },
                     e.icon,
                     " ",
