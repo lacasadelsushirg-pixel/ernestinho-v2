@@ -39,6 +39,8 @@ const currentCommit=execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'
 const deletedSourceRoutes=new Set();
 let incrementalRoutes=null;
 let requiresFull=process.argv.includes('--full')||!liveManifest;
+// Runtime-only modules are copied during incremental builds; they don't require rerendering every locale page.
+const runtimeOnlyJsAssets=new Set(['assets/js/site.js','assets/js/bulk-photo-references.js']);
 if(liveManifest&&!manualUpdating&&!requiresFull){
  const baseCommit=liveManifest.sourceCommit||'34a2e081f39d95245f6720a1fb3296bde3f5891d';
  let changes;
@@ -71,7 +73,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   }
   if(/^assets\/js\/buzios-[^/]+\.js$/.test(file)||file==='assets/css/buzios.css'){allBuzios=true;continue;}
   if(file.endsWith('.html')){fullRequired=true;continue;}
-  if(/^assets\/js\/.+\.js$/.test(file)||file==='package.json'||file==='package-lock.json'){fullRequired=true;continue;}
+  if((/^assets\/js\/.+\.js$/.test(file)&&!runtimeOnlyJsAssets.has(file))||file==='package.json'||file==='package-lock.json'){fullRequired=true;continue;}
  }
  if(fullRequired)requiresFull=true;
  else{
