@@ -503,4 +503,3 @@ const ready = document.readyState === "loading"
 // EC preview trigger: 2026-09-29 guide-and-corporate-closing
 // Force GitHub→Vercel preview: 2026-09-29T01:15 Rio
 export { apply, translatePhrase, ready };
-7a9fef1a91a6eca9be15339c51a0d2e48dc9b00f
