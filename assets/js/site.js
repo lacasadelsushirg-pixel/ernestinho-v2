@@ -292,11 +292,167 @@ function ensureCorporateClosing(){
   if(oldFooter)oldFooter.replaceWith(root);else document.body.appendChild(root);
 }
 
+// Cadastur details live in one place so links, copy, and the official logo stay consistent.
+const CADASTUR_LOGO = "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/Logotipo%20Cadastur%20en%20transparencia.png";
+const CADASTUR_VERIFY = "https://cadastur.turismo.gov.br/cadastur/#!/public/qrcode/69849314000160";
+const CADASTUR_MESSAGES = {
+  ES: {
+    logo: "Logotipo oficial de Cadastur",
+    homeTitle: "Viaja seguro.",
+    homeCopy: "Estamos registrados en Cadastur, el sistema oficial de prestadores de servicios turísticos del Ministerio de Turismo de Brasil.",
+    homeLink: "Consultar registro oficial",
+    footer: "Estamos registrados en Cadastur.",
+    about: "Ernestinho Carioca cuenta con registro vigente en Cadastur, el sistema oficial de prestadores de servicios turísticos de Brasil.",
+    inline: "Registro oficial Cadastur · Verificar",
+  },
+  PT: {
+    logo: "Logotipo oficial do Cadastur",
+    homeTitle: "Viaje com segurança.",
+    homeCopy: "Estamos cadastrados no Cadastur, o sistema oficial de cadastro de prestadores de serviços turísticos do Ministério do Turismo do Brasil.",
+    homeLink: "Consultar cadastro oficial",
+    footer: "Estamos cadastrados no Cadastur.",
+    about: "Ernestinho Carioca possui registro vigente no Cadastur, o sistema oficial de cadastro de prestadores de serviços turísticos do Brasil.",
+    inline: "Cadastro oficial Cadastur · Verificar",
+  },
+  EN: {
+    logo: "Official Cadastur logo",
+    homeTitle: "Travel with confidence.",
+    homeCopy: "We are registered with Cadastur, Brazil's Ministry of Tourism official registry of tourism service providers.",
+    homeLink: "Verify official registration",
+    footer: "Registered with Cadastur.",
+    about: "Ernestinho Carioca holds current registration with Cadastur, Brazil's official registry of tourism service providers.",
+    inline: "Official Cadastur registration · Verify",
+  },
+};
+
+function cadasturNode(tag, className, key) {
+  const element = document.createElement(tag);
+  if (className) element.className = className;
+  if (key) {
+    element.dataset.i18n = key;
+    element.dataset.i18nModule = "cadastur";
+  }
+  return element;
+}
+
+function cadasturLogo(className) {
+  const image = document.createElement("img");
+  image.className = className;
+  image.src = CADASTUR_LOGO;
+  image.width = 1600;
+  image.height = 533;
+  image.loading = "lazy";
+  image.decoding = "async";
+  image.alt = "";
+  image.setAttribute("data-i18n-alt", "logo");
+  image.dataset.i18nModule = "cadastur";
+  return image;
+}
+
+function cadasturLink(className, key) {
+  const link = cadasturNode("a", className, key);
+  link.href = CADASTUR_VERIFY;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  return link;
+}
+
+function ensureCadasturStyles() {
+  if (document.querySelector("style[data-cadastur-styles]")) return;
+  const style = document.createElement("style");
+  style.dataset.cadasturStyles = "";
+  style.textContent = `
+    .ec-cadastur-home{display:grid;grid-template-columns:minmax(115px,175px) 1fr;align-items:center;gap:clamp(18px,4vw,42px);max-width:1180px;margin:34px auto 58px;padding:24px clamp(20px,4vw,42px);border:1px solid rgba(154,113,30,.22);border-radius:22px;background:#fffdf8;color:#102b28}
+    .ec-cadastur-home img{display:block;width:100%;height:auto;object-fit:contain}
+    .ec-cadastur-home h2{margin:0 0 7px;font:400 clamp(25px,3vw,36px)/1.1 Georgia,serif;color:#0a2926}
+    .ec-cadastur-home p{margin:0 0 12px;line-height:1.6;color:#53635d}
+    .ec-cadastur-link{color:#755611;font-weight:750;text-underline-offset:3px}
+    .ec-cadastur-footer{display:flex;align-items:center;gap:12px;margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.12)}
+    .ec-cadastur-footer img{display:block;width:76px;height:auto;object-fit:contain;flex:none}
+    .ec-cadastur-footer a{color:inherit;text-underline-offset:3px;font-size:13px;line-height:1.45}
+    .ec-cadastur-inline{display:inline-flex;align-items:center;gap:9px;max-width:100%;margin:12px 0 0;color:#755611;font-size:13px;font-weight:700;line-height:1.4;text-decoration:none}
+    .ec-cadastur-inline img{display:block;width:64px;height:auto;object-fit:contain}
+    .ec-cadastur-inline span{text-decoration:underline;text-underline-offset:3px}
+    .ec-cadastur-about{margin:22px auto 0;padding-top:16px;border-top:1px solid rgba(255,255,255,.18);max-width:650px;font-size:14px;line-height:1.6}
+    .ec-cadastur-about p{margin:0 0 7px}
+    @media(max-width:620px){.ec-cadastur-home{grid-template-columns:92px 1fr;gap:16px;margin:26px 16px 42px;padding:18px 16px;border-radius:18px}.ec-cadastur-home p{font-size:14px}.ec-cadastur-footer{gap:10px}.ec-cadastur-footer img{width:65px}.ec-cadastur-inline{font-size:12px}.ec-cadastur-inline img{width:56px}}
+  `;
+  document.head.appendChild(style);
+}
+
+function mountCadastur() {
+  if (!document.body || document.querySelector("[data-cadastur-mounted]")) return;
+  ensureCadasturStyles();
+  const path = routeParts().path;
+
+  const footer = document.querySelector(".ec-corporate-footer .ec-footer-legal");
+  if (footer) {
+    const block = cadasturNode("div", "ec-cadastur-footer");
+    block.dataset.cadasturMounted = "";
+    block.append(cadasturLogo(""), cadasturLink("", "footer"));
+    const legalLink = footer.querySelector("a");
+    if (legalLink) footer.insertBefore(block, legalLink);
+    else footer.appendChild(block);
+  }
+
+  if (path === "/" && !document.querySelector(".ec-cadastur-home")) {
+    const home = cadasturNode("section", "ec-cadastur-home");
+    home.setAttribute("aria-label", "Cadastur");
+    home.appendChild(cadasturLogo(""));
+    const copy = document.createElement("div");
+    const title = cadasturNode("h2", "", "homeTitle");
+    const description = cadasturNode("p", "", "homeCopy");
+    copy.append(title, description, cadasturLink("ec-cadastur-link", "homeLink"));
+    home.appendChild(copy);
+    const target = document.querySelector("#experiencias");
+    if (target) target.insertAdjacentElement("afterend", home);
+    else document.querySelector("main")?.appendChild(home);
+  }
+
+  if (path === "/historia/" && !document.querySelector(".ec-cadastur-about")) {
+    const story = document.querySelector(".story-end");
+    if (story) {
+      const block = cadasturNode("div", "ec-cadastur-about");
+      block.dataset.cadasturMounted = "";
+      const description = cadasturNode("p", "", "about");
+      block.append(description, cadasturLink("ec-cadastur-link", "homeLink"));
+      const primary = story.querySelector(".primary");
+      if (primary) story.insertBefore(block, primary);
+      else story.appendChild(block);
+    }
+  }
+
+  if (path.startsWith("/experiencias/") && !path.startsWith("/experiencias/buzios/") && !document.querySelector(".ec-cadastur-inline")) {
+    const badge = cadasturNode("a", "ec-cadastur-inline", "inline");
+    badge.href = CADASTUR_VERIFY;
+    badge.target = "_blank";
+    badge.rel = "noopener noreferrer";
+    const image = cadasturLogo("");
+    image.alt = "";
+    image.removeAttribute("data-i18n-alt");
+    const label = document.createElement("span");
+    label.dataset.i18n = "inline";
+    label.dataset.i18nModule = "cadastur";
+    badge.append(image, label);
+    const target = document.querySelector(".experiences-catalog .section-head")
+      || document.querySelector(".pp-booking, .fd-inline-booking, [id*='reservar'], [id*='reserva'], .booking")
+      || document.querySelector("main a.primary[href*='wa.me'], main a.cta[href*='wa.me']")
+      || document.querySelector("main");
+    if (target?.matches(".experiences-catalog .section-head")) target.appendChild(badge);
+    else if (target?.matches("main a.primary, main a.cta")) target.insertAdjacentElement("afterend", badge);
+    else if (target) target.appendChild(badge);
+  }
+
+  import("./i18n.js").then(({ registerTranslations }) => registerTranslations("cadastur", CADASTUR_MESSAGES));
+}
+
+
 async function init() {
   addTransportPhotoReferences();
   addBulkPhotoReferences();
   ensureGuideAdn();
   ensureCorporateClosing();
+  mountCadastur();
   ensureGlobalStyles();
   ensureTopbarNav();
   ensureSocialLinks();
@@ -347,3 +503,4 @@ const ready = document.readyState === "loading"
 // EC preview trigger: 2026-09-29 guide-and-corporate-closing
 // Force GitHub→Vercel preview: 2026-09-29T01:15 Rio
 export { apply, translatePhrase, ready };
+7a9fef1a91a6eca9be15339c51a0d2e48dc9b00f
