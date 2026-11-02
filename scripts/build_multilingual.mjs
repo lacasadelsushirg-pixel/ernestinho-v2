@@ -329,10 +329,12 @@ async function worker(){
     const canonical=origin+route;
     const sourcePath=route.replace(/^\/(pt|en)(?=\/|$)/,'')||'/';
     const prefix=(r,l)=>l==='es'?r:'/'+l+r;
-    // The shared photo renderer may restore Spanish ALT labels after the
-    // inline PT/EN dictionary has translated the page. Apply the dictionary
-    // once more to image ALT attributes, without changing image URLs or files.
-    if(/^\/gastronomia\/(?:adega-perola|churrascaria-palace|lasai|rio-scenarium|polis-sucos)\/$/.test(sourcePath)&&language!=='es'){
+    // Source-backed PT/EN microcopy: many legacy restaurant pages contain
+    // complete inline T dictionaries for gallery captions and ALT labels.
+    // The shared site renderer can restore their Spanish originals later in
+    // the render cycle. Reapply translations to *these attributes and labels*
+    // at serialization, without altering images or paragraph content.
+    if(/^\/gastronomia\/[^/]+\/$/.test(sourcePath)&&language!=='es'){
      const scripts=[...document.querySelectorAll('script:not([src])')].map(n=>n.textContent);
      let dictionary=null;
      if(sourcePath==='/gastronomia/polis-sucos/'){
@@ -343,18 +345,23 @@ async function worker(){
      }else{
       const code=scripts.find(s=>s.includes('const T={')&&s.includes(';const title='));
       const block=code?.match(/const T=(\{[\s\S]*?\});const title=/);
-      if(!block)throw Error('Photo translations unavailable for '+sourcePath);
-      dictionary=JSON.parse(block[1])[language==='pt-BR'?'pt':'en'];
+      if(block)dictionary=JSON.parse(block[1])[language==='pt-BR'?'pt':'en'];
      }
-     if(!dictionary)throw Error('Photo dictionary missing for '+sourcePath);
-     for(const img of document.querySelectorAll('img[alt]')){
-      const original=(img.getAttribute('data-ec-alt')||img.getAttribute('alt')||'').trim();
-      const localized=dictionary[original]||(language==='pt-BR'
-       ?original.replace(/: fotografía (\d+)$/i,': fotografia $1')
-       :original.replace(/: fotografía (\d+)$/i,': photograph $1'));
-      if(localized&&localized!==original){
-       img.setAttribute('alt',localized);
-       if(img.hasAttribute('data-ec-alt'))img.setAttribute('data-ec-alt',localized);
+     if(dictionary){
+      for(const img of document.querySelectorAll('img[alt]')){
+       const original=(img.getAttribute('data-ec-alt')||img.getAttribute('alt')||'').trim();
+       const localized=dictionary[original]||(language==='pt-BR'
+        ?original.replace(/: fotografía (\d+)$/i,': fotografia $1')
+        :original.replace(/: fotografía (\d+)$/i,': photograph $1'));
+       if(localized&&localized!==original){
+        img.setAttribute('alt',localized);
+        if(img.hasAttribute('data-ec-alt'))img.setAttribute('data-ec-alt',localized);
+       }
+      }
+      for(const node of document.querySelectorAll('figcaption,.notice')){
+       if(node.childElementCount)continue;
+       const text=node.textContent.trim(),translated=dictionary[text];
+       if(translated&&translated!==text)node.textContent=translated;
       }
      }
     }
