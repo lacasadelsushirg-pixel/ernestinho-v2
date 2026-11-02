@@ -2,6 +2,21 @@
 
 **Estado:** trabajo fuente en la rama `seo/traducciones-continuacion-lote2-20261102` y PR #13 (borrador) contra `seo/indexacion-20261102` del PR #12. **NO publicado en Hostinger, NO integrado y NO verificado con Google Search Console.**
 
+## Resumen ejecutivo actualizado — 2 de noviembre de 2026
+
+**Estado del código al último lote:** **528 claves nuevas ES→PT/EN** (55 Compras + 473 Gastronomía) respecto a la rama base del PR #12; **52 fichas de Río** cubiertas por diccionarios compartidos, con alrededor de **562 bloques HTML largos** auditados; otras **4 fichas con traductores internos** corregidas directamente en su contenido de origen. En total **56 fichas de Río + Madame Bardot Búzios = 57 rutas** para la última prueba selectiva. El último workflow configurado genera solo esas rutas, no toda la web.
+
+**Excepciones especiales corregidas en fuente:**
+- **Arp Bar:** 11 párrafos que estaban en PT en HTML español traducidos a ES, preservando D.pt/D.en internos.
+- **Clássico Leme:** 10 párrafos largos más texto de portada traducidos a ES, preservando el selector y sus diccionarios PT/EN.
+- **Quitéria:** 11 párrafos largos del HTML inicial corregidos a ES, preservando el resto.
+- **Majórica:** 2 textos PT de fuente corregidos a ES y 10 claves residuales bilingües nuevas.
+- **Cosmopolita:** ficha histórica (NO se confirma un restaurante activo). Dirección histórica corregida a Travessa do Mosqueira 4, **Lapa**, reemplazando Glória/Santa Teresa; 20 párrafos reescritos en ES/PT/EN, meta description, título y mapa corregidos. Imágenes históricas todavía necesitan verificar identidad y uso. Fuentes de verificación: Riotur (dirección histórica), crónica de 2021 y registro municipal de uso del local en 2025. Esta página no debe recomendar comida ni reservas.
+
+La validación de las cuatro fichas con diccionarios internos se realiza mediante `scripts/verify_embedded_locale_pages.mjs`, verificando doce HTML de ES/PT/EN y señales de fuga de idioma. El estado de la última ejecución debe comprobarse en GitHub Actions antes de aprobar el lote.
+
+**Sin publicación:** no se ha desplegado nada en Hostinger, no se ha hecho merge ni se ha alterado Carioc-IA, fotos, estilos, sitemap o robots. Las correcciones del HTML español son excepciones deliberadas frente a la norma anterior de no modificar HTML original. Tampoco se confirma que las **82 variantes** reportadas por Work estén resueltas en producción ni que Google vuelva a indexarlas.
+
 ## Resultados comprobados en código
 
 - **281 claves de traducción exacta ES → PT y EN añadidas**: 55 en `assets/js/translations/chunks/rio-residual-compras-01.js` y 226 en `assets/js/translations/chunks/rio-residual-gastronomia-01.js`.
@@ -88,6 +103,6 @@ GitHub Actions, run `41470578184` (2 de noviembre de 2026): **success**.
 
 ## Protección aplicada
 
-Ninguna modificación en contenido fuente español, HTML, estilos CSS, fotos, URL, sitemap, robots o Carioc-IA. Los cambios del PR #13 se limitan a los dos diccionarios, los dos módulos específicos de Madame Bardot, documentación y scripts de auditoría, el generador de idiomas y dos flujos GitHub Actions **sin despliegue**. No se ha modificado ningún HTML fuente, diseño, foto o Carioc-IA.
+**Excepción controlada a la norma inicial:** sí se modificaron cinco HTML fuente de fichas gastronómicas específicas para corregir el idioma español inicial y la ubicación/estatus histórico erróneos de Cosmopolita. Se preservaron estilos, imágenes, datos PT/EN existentes (salvo Cosmopolita, cuya información histórica se corrigió) y sus estructuras. También se modificaron dos diccionarios, dos módulos de Madame Bardot, el generador de idiomas, documentación, scripts de QA y flujos GitHub Actions **sin despliegue**. No se tocaron Carioc-IA, CSS, robots, sitemap ni Hostinger.
 
 **Conclusión:** avance editorial amplio y verificable a nivel de repositorio; la publicación, QA en producción y recuperación de indexación permanecen pendientes; la prueba de generación aislada y QA de bloques largos ya ha pasado.
