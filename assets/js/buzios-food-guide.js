@@ -65,4 +65,9 @@ q.addEventListener('input',refreshFilters);zone.addEventListener('change',refres
 document.querySelectorAll('[data-slide]').forEach(b=>b.addEventListener('click',()=>document.querySelector('#featured').scrollBy({left:Number(b.dataset.slide)*400,behavior:'smooth'})));
 refreshFilters();
 }
-if(location.pathname.replace(/^\/(pt|en)(?=\/)/,'')==='/destinos/buzios/comer-y-salir/')apply();
+// The shared Búzios renderer finishes after navigation is ready. Wait for its
+// actual script instance so it cannot replace this route's specialized catalogue.
+const sharedRenderer=[...document.scripts].find(script=>script.type==='module'&&script.src&&new URL(script.src).origin===location.origin&&new URL(script.src).pathname==='/assets/js/buzios-page.js');
+export const ready=(sharedRenderer?import(sharedRenderer.src).then(module=>module.ready):Promise.resolve()).then(()=>{
+ if(location.pathname.replace(/^\/(pt|en)(?=\/)/,'')==='/destinos/buzios/comer-y-salir/')apply();
+});
