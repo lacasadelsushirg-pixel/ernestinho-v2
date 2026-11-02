@@ -1,0 +1,54 @@
+{
+  "urls": [
+    {
+      "url": "https://www.ernestinhocarioca.com.br/gastronomia/nino-cucina-ipanema/",
+      "http": 200,
+      "canonical_correcta": true,
+      "hreflang_correcto": true,
+      "robots_permite": true,
+      "texto_traducido_comprobado": false
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/gastronomia/temperarte-bolivar/",
+      "http": 200,
+      "canonical_correcta": true,
+      "hreflang_correcto": true,
+      "robots_permite": true,
+      "texto_traducido_comprobado": false
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/nino-cucina-ipanema/",
+      "http": 200,
+      "canonical_correcta": true,
+      "hreflang_correcto": true,
+      "robots_permite": true,
+      "texto_traducido_comprobado": true
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/temperarte-bolivar/",
+      "http": 200,
+      "canonical_correcta": true,
+      "hreflang_correcto": true,
+      "robots_permite": true,
+      "texto_traducido_comprobado": true
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/nino-cucina-ipanema/",
+      "http": 200,
+      "canonical_correcta": true,
+      "hreflang_correcto": true,
+      "robots_permite": true,
+      "texto_traducido_comprobado": true
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/temperarte-bolivar/",
+      "http": 200,
+      "canonical_correcta": true,
+      "hreflang_correcto": true,
+      "robots_permite": true,
+      "texto_traducido_comprobado": true
+    }
+  ],
+  "sitemap_sin_cambios": true,
+  "diccionario_publicado_identico": true
+}

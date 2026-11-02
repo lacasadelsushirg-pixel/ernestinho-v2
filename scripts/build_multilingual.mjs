@@ -71,6 +71,9 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
   }
+  if(file==='assets/js/buzios-food-guide.js'){
+   routes.add('/destinos/buzios/comer-y-salir/');continue;
+  }
   if(/^assets\/js\/buzios-[^/]+\.js$/.test(file)||file==='assets/css/buzios.css'){allBuzios=true;continue;}
   if(file.endsWith('.html')){const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;}
   if((/^assets\/js\/.+\.js$/.test(file)&&!runtimeOnlyJsAssets.has(file)&&!/^assets\/js\/carioc-ia(?:-[a-z-]+)?\.js$/.test(file))||file==='package.json'||file==='package-lock.json'){fullRequired=true;continue;}
@@ -233,6 +236,9 @@ async function worker(){
     if(site)(await import(site.src)).apply(language);
     const buzios=scripts.find(s=>s.src.endsWith('/assets/js/buzios-page.js'));
     if(buzios)(await import(buzios.src)).apply(language);
+    // The specialized food catalogue owns this route after the shared Búzios renderer.
+    const foodGuide=scripts.find(s=>new URL(s.src).pathname.endsWith('/assets/js/buzios-food-guide.js'));
+    if(foodGuide)(await import(foodGuide.src)).apply(language);
     for(const name of ['luggage-page.js','bounce-integration.js']){const script=scripts.find(s=>s.src.endsWith('/assets/js/'+name));if(script)(await import(script.src)).apply(language);}
     await new Promise(r=>setTimeout(r,80));
     if(typeof window.ecApplyPracticalSummaryLocale==="function")window.ecApplyPracticalSummaryLocale(language);

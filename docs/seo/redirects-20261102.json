@@ -1,0 +1,722 @@
+[
+  {
+    "source": "/compras/barra-shopping.html",
+    "destination": "/compras/barrashopping/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/botafogo-praia-shopping.html",
+    "destination": "/compras/botafogo-praia-shopping/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/cadeg.html",
+    "destination": "/compras/cadeg/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/fashion-mall.html",
+    "destination": "/compras/fashion-mall/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/feria-antiguedades-plaza-xv.html",
+    "destination": "/compras/praca-xv/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/feria-da-gloria.html",
+    "destination": "/compras/feira-da-gloria/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/feria-da-providencia.html",
+    "destination": "/compras/feira-da-providencia/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/feria-das-yabas.html",
+    "destination": "/compras/feira-das-yabas/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/feria-de-sao-cristovao.html",
+    "destination": "/compras/feira-sao-cristovao/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/feria-hippie-ipanema.html",
+    "destination": "/compras/feira-hippie-ipanema/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/feria-lavradio.html",
+    "destination": "/compras/lavradio/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/feria-nocturna-copacabana.html",
+    "destination": "/compras/feira-noturna-copacabana/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/feria-organica-da-gloria.html",
+    "destination": "/compras/feira-organica-gloria/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/feria-organica.html",
+    "destination": "/compras/feira-organica-gloria/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/feria-praca-do-lido.html",
+    "destination": "/compras/praca-lido/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/mercadao-madureira.html",
+    "destination": "/compras/mercadao-madureira/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/mercado-sao-pedro.html",
+    "destination": "/compras/mercado-sao-pedro/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/saara.html",
+    "destination": "/compras/saara/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/shopping-downtown.html",
+    "destination": "/compras/downtown/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/shopping-leblon.html",
+    "destination": "/compras/shopping-leblon/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/shopping-metropolitano-barra.html",
+    "destination": "/compras/metropolitano-barra/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/shopping-nova-america.html",
+    "destination": "/compras/nova-america/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/shopping-rio-sul.html",
+    "destination": "/compras/rio-sul/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/shopping-tijuca.html",
+    "destination": "/compras/shopping-tijuca/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/uruguaiana.html",
+    "destination": "/compras/uruguaiana/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/compras/village-mall.html",
+    "destination": "/compras/village-mall/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/vida-nocturna/armazem-senado/",
+    "destination": "/vida-nocturna/armazem-do-senado/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/vida-nocturna/feira-sao-cristovao/",
+    "destination": "/vida-nocturna/feira-sao-cristovao-noite/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/vida-nocturna/yoo2-rooftop/",
+    "destination": "/vida-nocturna/yoo2/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/barra-shopping.html",
+    "destination": "/pt/compras/barrashopping/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/botafogo-praia-shopping.html",
+    "destination": "/pt/compras/botafogo-praia-shopping/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/cadeg.html",
+    "destination": "/pt/compras/cadeg/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/fashion-mall.html",
+    "destination": "/pt/compras/fashion-mall/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/feria-antiguedades-plaza-xv.html",
+    "destination": "/pt/compras/praca-xv/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/feria-da-gloria.html",
+    "destination": "/pt/compras/feira-da-gloria/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/feria-da-providencia.html",
+    "destination": "/pt/compras/feira-da-providencia/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/feria-das-yabas.html",
+    "destination": "/pt/compras/feira-das-yabas/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/feria-de-sao-cristovao.html",
+    "destination": "/pt/compras/feira-sao-cristovao/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/feria-hippie-ipanema.html",
+    "destination": "/pt/compras/feira-hippie-ipanema/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/feria-lavradio.html",
+    "destination": "/pt/compras/lavradio/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/feria-nocturna-copacabana.html",
+    "destination": "/pt/compras/feira-noturna-copacabana/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/feria-organica-da-gloria.html",
+    "destination": "/pt/compras/feira-organica-gloria/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/feria-organica.html",
+    "destination": "/pt/compras/feira-organica-gloria/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/feria-praca-do-lido.html",
+    "destination": "/pt/compras/praca-lido/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/mercadao-madureira.html",
+    "destination": "/pt/compras/mercadao-madureira/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/mercado-sao-pedro.html",
+    "destination": "/pt/compras/mercado-sao-pedro/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/saara.html",
+    "destination": "/pt/compras/saara/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/shopping-downtown.html",
+    "destination": "/pt/compras/downtown/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/shopping-leblon.html",
+    "destination": "/pt/compras/shopping-leblon/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/shopping-metropolitano-barra.html",
+    "destination": "/pt/compras/metropolitano-barra/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/shopping-nova-america.html",
+    "destination": "/pt/compras/nova-america/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/shopping-rio-sul.html",
+    "destination": "/pt/compras/rio-sul/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/shopping-tijuca.html",
+    "destination": "/pt/compras/shopping-tijuca/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/uruguaiana.html",
+    "destination": "/pt/compras/uruguaiana/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/compras/village-mall.html",
+    "destination": "/pt/compras/village-mall/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/vida-nocturna/armazem-senado/",
+    "destination": "/pt/vida-nocturna/armazem-do-senado/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/vida-nocturna/feira-sao-cristovao/",
+    "destination": "/pt/vida-nocturna/feira-sao-cristovao-noite/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/pt/vida-nocturna/yoo2-rooftop/",
+    "destination": "/pt/vida-nocturna/yoo2/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/barra-shopping.html",
+    "destination": "/en/compras/barrashopping/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/botafogo-praia-shopping.html",
+    "destination": "/en/compras/botafogo-praia-shopping/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/cadeg.html",
+    "destination": "/en/compras/cadeg/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/fashion-mall.html",
+    "destination": "/en/compras/fashion-mall/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/feria-antiguedades-plaza-xv.html",
+    "destination": "/en/compras/praca-xv/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/feria-da-gloria.html",
+    "destination": "/en/compras/feira-da-gloria/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/feria-da-providencia.html",
+    "destination": "/en/compras/feira-da-providencia/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/feria-das-yabas.html",
+    "destination": "/en/compras/feira-das-yabas/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/feria-de-sao-cristovao.html",
+    "destination": "/en/compras/feira-sao-cristovao/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/feria-hippie-ipanema.html",
+    "destination": "/en/compras/feira-hippie-ipanema/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/feria-lavradio.html",
+    "destination": "/en/compras/lavradio/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/feria-nocturna-copacabana.html",
+    "destination": "/en/compras/feira-noturna-copacabana/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/feria-organica-da-gloria.html",
+    "destination": "/en/compras/feira-organica-gloria/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/feria-organica.html",
+    "destination": "/en/compras/feira-organica-gloria/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/feria-praca-do-lido.html",
+    "destination": "/en/compras/praca-lido/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/mercadao-madureira.html",
+    "destination": "/en/compras/mercadao-madureira/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/mercado-sao-pedro.html",
+    "destination": "/en/compras/mercado-sao-pedro/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/saara.html",
+    "destination": "/en/compras/saara/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/shopping-downtown.html",
+    "destination": "/en/compras/downtown/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/shopping-leblon.html",
+    "destination": "/en/compras/shopping-leblon/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/shopping-metropolitano-barra.html",
+    "destination": "/en/compras/metropolitano-barra/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/shopping-nova-america.html",
+    "destination": "/en/compras/nova-america/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/shopping-rio-sul.html",
+    "destination": "/en/compras/rio-sul/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/shopping-tijuca.html",
+    "destination": "/en/compras/shopping-tijuca/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/uruguaiana.html",
+    "destination": "/en/compras/uruguaiana/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/compras/village-mall.html",
+    "destination": "/en/compras/village-mall/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/vida-nocturna/armazem-senado/",
+    "destination": "/en/vida-nocturna/armazem-do-senado/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/vida-nocturna/feira-sao-cristovao/",
+    "destination": "/en/vida-nocturna/feira-sao-cristovao-noite/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/en/vida-nocturna/yoo2-rooftop/",
+    "destination": "/en/vida-nocturna/yoo2/",
+    "reason": "Legacy redirect already declared in source, missing on Hostinger",
+    "before": 404
+  },
+  {
+    "source": "/guia/viajar-a-brasil-con-menores-de-edad",
+    "destination": "/guia/menores/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": "301 already fixed (first trial)"
+  },
+  {
+    "source": "/gastronomia/aipo-aipim-copacabana-605",
+    "destination": "/gastronomia/aipo-aipim-605/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/gastronomia/aipo-aipim-copacabana-920",
+    "destination": "/gastronomia/aipo-aipim-920/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/gastronomia/fiorino-ristorante",
+    "destination": "/gastronomia/fiorino/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/gastronomia/guacamole-taqueria-copacabana",
+    "destination": "/gastronomia/guacamole-copacabana/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/guia/alquiler-de-auto-en-rio-y-brasil",
+    "destination": "/guia/alquiler-auto/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/guia/como-moverse-por-rio",
+    "destination": "/transportes/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/guia/documentos-y-visado-para-entrar-a-brasil",
+    "destination": "/guia/documentos/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/guia/vacunas-y-fiebre-amarilla-antes-de-viajar-a-brasil",
+    "destination": "/guia/vacunas/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/museos",
+    "destination": "/cultura/museos/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/copacabana",
+    "destination": "/barrios/copacabana/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/pt/guia/viajar-a-brasil-con-menores-de-edad",
+    "destination": "/pt/guia/menores/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/pt/gastronomia/aipo-aipim-copacabana-605",
+    "destination": "/pt/gastronomia/aipo-aipim-605/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/pt/gastronomia/aipo-aipim-copacabana-920",
+    "destination": "/pt/gastronomia/aipo-aipim-920/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/pt/gastronomia/fiorino-ristorante",
+    "destination": "/pt/gastronomia/fiorino/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/pt/gastronomia/guacamole-taqueria-copacabana",
+    "destination": "/pt/gastronomia/guacamole-copacabana/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/pt/guia/alquiler-de-auto-en-rio-y-brasil",
+    "destination": "/pt/guia/alquiler-auto/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/pt/guia/como-moverse-por-rio",
+    "destination": "/pt/transportes/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/pt/guia/documentos-y-visado-para-entrar-a-brasil",
+    "destination": "/pt/guia/documentos/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/pt/guia/vacunas-y-fiebre-amarilla-antes-de-viajar-a-brasil",
+    "destination": "/pt/guia/vacunas/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/pt/museos",
+    "destination": "/pt/cultura/museos/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/pt/copacabana",
+    "destination": "/pt/barrios/copacabana/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/en/guia/viajar-a-brasil-con-menores-de-edad",
+    "destination": "/en/guia/menores/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/en/gastronomia/aipo-aipim-copacabana-605",
+    "destination": "/en/gastronomia/aipo-aipim-605/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/en/gastronomia/aipo-aipim-copacabana-920",
+    "destination": "/en/gastronomia/aipo-aipim-920/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/en/gastronomia/fiorino-ristorante",
+    "destination": "/en/gastronomia/fiorino/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/en/gastronomia/guacamole-taqueria-copacabana",
+    "destination": "/en/gastronomia/guacamole-copacabana/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/en/guia/alquiler-de-auto-en-rio-y-brasil",
+    "destination": "/en/guia/alquiler-auto/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/en/guia/como-moverse-por-rio",
+    "destination": "/en/transportes/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/en/guia/documentos-y-visado-para-entrar-a-brasil",
+    "destination": "/en/guia/documentos/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/en/guia/vacunas-y-fiebre-amarilla-antes-de-viajar-a-brasil",
+    "destination": "/en/guia/vacunas/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/en/museos",
+    "destination": "/en/cultura/museos/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  },
+  {
+    "source": "/en/copacabana",
+    "destination": "/en/barrios/copacabana/",
+    "reason": "Historical URL with equivalent current page verified by title and subject",
+    "before": 404
+  }
+]
