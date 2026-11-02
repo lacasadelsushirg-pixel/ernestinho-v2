@@ -29,6 +29,18 @@ jobs:
           python3 -m pip install --quiet --break-system-packages cryptography requests
       - name: Build 37 distinct pages across three locales; NO site rebuild
         run: node scripts/build_multilingual.mjs --routes=/hospedaje/,/compras/feira-saens-pena/,/compras/mercados-populares/,/consejos/atardeceres-inolvidables/,/experiencias/bioparque/,/experiencias/vidigal/,/destinos/buzios/,/destinos/buzios/playas/,/cultura/nossa-senhora-paz/,/cultura/bonsucesso/,/cultura/capuchinhos/,/cultura/conceicao-boa-morte/,/cultura/copacabana/,/cultura/nossa-senhora-brasil/,/cultura/nossa-senhora-penna/,/cultura/nossa-senhora-saude/,/cultura/santa-margarida/,/cultura/santa-rita/,/cultura/sao-francisco-paula/,/cultura/sao-jose-lagoa/,/cultura/sao-judas/,/gastronomia/merci/,/gastronomia/plage-cafe/,/vida-nocturna/boa-praca-leblon/,/vida-nocturna/portela/,/vida-nocturna/yoo2/,/vida-nocturna/quadra-salgueiro/,/vida-nocturna/canastra-bar/,/vida-nocturna/galeria-cafe/,/gastronomia/delirio-centro/,/gastronomia/fiorino/,/gastronomia/confeitaria-manon/,/gastronomia/curto-cafe/,/gastronomia/casa-cave/,/gastronomia/galeto-liceu/,/gastronomia/adega-perola/,/gastronomia/cafe-lamas/
+      - name: Generate one-time public key (private key never leaves this runner)
+        run: |
+          openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:3072 -out /tmp/ec-hostinger-key.pem 2>/dev/null
+          openssl pkey -in /tmp/ec-hostinger-key.pem -pubout -out ec-hostinger-ephemeral-public.pem 2>/dev/null
+          cp ec-hostinger-ephemeral-public.pem /tmp/ec-hostinger-public.pem
+      - name: Publish harmless public key to workflow artifact during execution
+        uses: actions/upload-artifact@v4
+        with:
+          name: ec-hostinger-ephemeral-public-key
+          path: ec-hostinger-ephemeral-public.pem
+          if-no-files-found: error
+          retention-days: 1
       - name: Run one-time secure incremental publisher, with rollback and backups
         run: python3 -u scripts/publish_hostinger_encrypted_incremental.py
       - name: Save pre-release backups and full release manifest for audit
