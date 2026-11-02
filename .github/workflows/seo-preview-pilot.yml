@@ -1,4 +1,4 @@
-name: SEO selected-locale preview (NO DEPLOY)
+name: SEO locale-isolation preview (NO DEPLOY)
 on:
   push:
     branches:
