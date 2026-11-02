@@ -106,3 +106,19 @@ GitHub Actions, run `41470578184` (2 de noviembre de 2026): **success**.
 **Excepción controlada a la norma inicial:** sí se modificaron cinco HTML fuente de fichas gastronómicas específicas para corregir el idioma español inicial y la ubicación/estatus histórico erróneos de Cosmopolita. Se preservaron estilos, imágenes, datos PT/EN existentes (salvo Cosmopolita, cuya información histórica se corrigió) y sus estructuras. También se modificaron dos diccionarios, dos módulos de Madame Bardot, el generador de idiomas, documentación, scripts de QA y flujos GitHub Actions **sin despliegue**. No se tocaron Carioc-IA, CSS, robots, sitemap ni Hostinger.
 
 **Conclusión:** avance editorial amplio y verificable a nivel de repositorio; la publicación, QA en producción y recuperación de indexación permanecen pendientes; la prueba de generación aislada y QA de bloques largos ya ha pasado.
+
+
+## Cierre validado de las 82 variantes en código — 02/11/2026
+
+**Evidencia final:** [GitHub Actions #41487286142](https://github.com/lacasadelsushirg-pixel/ernestinho-v2/actions/runs/41487286142) — `success`, commit `c3179035`.
+La compilación se realizó **solo en un runner de GitHub** para 57 rutas × ES/PT/EN = **171 HTML**. No se publicó en Hostinger.
+
+- De las **84 variantes inicialmente señaladas**, **2** (PT Nino Cucina Ipanema y PT Temperarte Bolívar) habían sido corregidas y verificadas en producción previamente. La nueva auditoría cubrió las otras **82 variantes** en código renderizado: **82 comprobadas, 0 HTML faltantes, 0 ejemplos originales detectados sin traducir, 0 enlaces canonical/hreflang faltantes y 0 fugas de expresiones cortas españolas** según la lista comprobada.
+- **Dos falsos positivos históricos** del informe original eran párrafos naturalmente portugueses en **Arp Bar PT** y **Quitéria PT**; no se cambiaron arbitrariamente a otra traducción.
+- **Un problema real en Polis Sucos EN** se debía a un diccionario interno con una copia ES corrupta y un selector cuya base estaba en PT. Se corrigió la base ES, se habilitó la selección PT/EN en la generación aislada, se revisaron pies de foto, etiquetas, textos ALT, avisos y encabezados. Además, se tradujeron los **9 párrafos adicionales de V2** a PT/EN. El diccionario interno de Polis pasó a **28 párrafos por cada idioma**, y la auditoría de **15 variantes** de las cinco fichas especiales se completó sin incidencias.
+- **1.122 comparaciones de bloques largos, 0 errores de traducción literal no resuelta**. Quedaron **268 redacciones alternativas** a las entradas nuevas del diccionario: la prueba verifica que el español origen no permanece visible, pero no demuestra por sí sola equivalencia semántica ni perfección editorial. Se generó un JSON completo para revisión.
+- **SEO de las 57 rutas:** **0 errores críticos**, **0 metadescripciones idénticas al español**, **0 metadatos ausentes**; doce títulos coinciden con el español por mantener nombres propios o denominaciones que no requieren traducción. Madame Bardot Búzios también aprobó la revisión de PT/EN.
+- Evidencia descargable de ambas auditorías: [artifact de GitHub Actions #13164215000](https://github.com/lacasadelsushirg-pixel/ernestinho-v2/actions/runs/41487286142/artifacts/13164215000) (`audit-82-flagged-variants.json` y `editorial-alternatives.json`).
+- Se agregó además un **workflow rápido de Polis Sucos (3 HTML)** para evitar la regeneración de 171 páginas en cada corrección específica.
+
+**Límite imprescindible:** el cierre anterior corresponde **al repositorio y su compilación aislada**. Las 82 variantes **no se pueden declarar corregidas en la web pública** hasta una publicación incremental controlada, con comparación de los archivos vigentes y verificación en Hostinger URL por URL. Tampoco implica indexación de Google. **NO MERGE / NO DEPLOY / NO reconstrucción completa del sitio.**
