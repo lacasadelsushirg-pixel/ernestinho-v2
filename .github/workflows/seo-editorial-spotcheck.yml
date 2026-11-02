@@ -1,10 +1,14 @@
-name: Editorial locale spotcheck (4 routes, NO DEPLOY)
+name: Editorial locale spotcheck (8 routes, NO DEPLOY)
 on:
   push:
     branches:
       - seo/traducciones-continuacion-lote2-20261102
     paths:
       - '.github/workflows/seo-editorial-spotcheck.yml'
+      - 'gastronomia/adega-perola/index.html'
+      - 'gastronomia/churrascaria-palace/index.html'
+      - 'gastronomia/rio-scenarium/index.html'
+      - 'gastronomia/lasai/index.html'
   workflow_dispatch:
 permissions:
   contents: read
@@ -23,8 +27,8 @@ jobs:
           cache: npm
       - name: Install build dependencies
         run: npm ci --no-audit --no-fund
-      - name: Render four routes only (12 HTML, never deploy)
-        run: node scripts/build_multilingual.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/polis-sucos/
+      - name: Render eight routes only (24 HTML, never deploy)
+        run: node scripts/build_multilingual.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/polis-sucos/,/gastronomia/adega-perola/,/gastronomia/churrascaria-palace/,/gastronomia/rio-scenarium/,/gastronomia/lasai/
       - name: Package PT and EN rendered pages for editorial verification
         uses: actions/upload-artifact@v4
         with:
@@ -38,6 +42,14 @@ jobs:
             dist/en/compras/uruguaiana/index.html
             dist/pt/gastronomia/polis-sucos/index.html
             dist/en/gastronomia/polis-sucos/index.html
+            dist/pt/gastronomia/adega-perola/index.html
+            dist/en/gastronomia/adega-perola/index.html
+            dist/pt/gastronomia/churrascaria-palace/index.html
+            dist/en/gastronomia/churrascaria-palace/index.html
+            dist/pt/gastronomia/rio-scenarium/index.html
+            dist/en/gastronomia/rio-scenarium/index.html
+            dist/pt/gastronomia/lasai/index.html
+            dist/en/gastronomia/lasai/index.html
           retention-days: 7
       - name: Confirm no deployment
         run: echo 'Rendering is isolated to GitHub Actions; no publishing, upload, or sitemap changes.'
