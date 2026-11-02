@@ -31,6 +31,23 @@ for(const [lang,expected] of Object.entries(data)){
   .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'')
   .replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
  const missing=Object.entries(expected).filter(([,phrase])=>!text.includes(phrase)).map(([key])=>key);
+ const expectedAdvice={
+  es:['En Polis Sucos, una buena idea es elegir primero el jugo natural','Combinaría Polis con la Playa de Ipanema','La casa de jugos funciona como una pausa ligera'],
+  pt:['No Polis Sucos, uma boa ideia é escolher primeiro o suco natural','Eu combinaria o Polis com a Praia de Ipanema','A casa de sucos é uma pausa leve'],
+  en:['At Polis Sucos, start with a fresh juice','I would combine Polis with Ipanema beach','The juice shop is a light break']
+ };
+ for(const phrase of expectedAdvice[lang])if(!text.includes(phrase))errors.push(lang+': missing or shifted itinerary paragraph '+phrase);
+ const expectedFacts={
+  es:['Dirección','Barrio y zona','Horarios','Precios','Tipo de servicio','Contacto','Reservas','Accesibilidad','Transporte'],
+  pt:['Endereço','Bairro e região','Horários','Preços','Tipo de serviço','Contato','Reservas','Acessibilidade','Transporte'],
+  en:['Address','Neighborhood and area','Opening hours','Prices','Type of service','Contact','Reservations','Accessibility','Transportation']
+ };
+ const paras=[...html.matchAll(/<p\\b[^>]*>([\\s\\S]*?)<\\/p>/gi)].map(m=>m[1].replace(/<[^>]*>/g,' ').replace(/\\s+/g,' ').trim());
+ for(let n=0;n<9;n++){
+  const label=expectedFacts[lang][n];
+  if(!paras[10+n]||!paras[10+n].includes(label))errors.push(lang+': misaligned quick fact '+(n+10)+' '+label);
+ }
+
  if(missing.length)errors.push(lang+': missing '+missing.join(', '));
  if(lang!=='es'){
   for(const stale of ['Polis Suclos tem a energia visual','La referencia de esta ficha es Avenida',
