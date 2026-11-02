@@ -122,3 +122,16 @@ La compilación se realizó **solo en un runner de GitHub** para 57 rutas × ES/
 - Se agregó además un **workflow rápido de Polis Sucos (3 HTML)** para evitar la regeneración de 171 páginas en cada corrección específica.
 
 **Límite imprescindible:** el cierre anterior corresponde **al repositorio y su compilación aislada**. Las 82 variantes **no se pueden declarar corregidas en la web pública** hasta una publicación incremental controlada, con comparación de los archivos vigentes y verificación en Hostinger URL por URL. Tampoco implica indexación de Google. **NO MERGE / NO DEPLOY / NO reconstrucción completa del sitio.**
+
+
+## Reparación de diccionarios internos: 28 fichas — 02/11/2026
+
+Se detectó un problema editorial que el conteo de claves no había capturado: en varias fichas gastronómicas el selector de idioma ubicaba párrafos traducidos en índices incorrectos. Esto podía ocultar consejos originales y mostrar información práctica en secciones equivocadas. Se corrigió en fuente con cambios **acotados a la rama y el PR #13**, sin publicación.
+
+**28 fichas reparadas:** Adega Pérola, Churrascaria Palace, Rio Scenarium, Lasai, Angu do Gomes, Assador, Confeitaria Colombo, Cachambeer, Carretão Siqueira, Casa do Sardo, BB Lanches, Cavalo Marinho, Confeitaria Manon, Casa Porto, Ferro e Farinha, Gurumê, Jobi, Arab Leblon, Coisas de Bamba, Spesso, Eclipse, Aipo & Aipim 391, Aipo & Aipim 605, Bar da Gema, Café do Alto, Aipo & Aipim 920, Cabanna y Bar Luiz. Polis Sucos se corrigió aparte con 28 párrafos en cada idioma.
+
+En las 28 fichas se reconstruyó el orden de los diccionarios PT/EN y se recuperaron los párrafos añadidos que faltaban. El verificador `scripts/verify_legacy_page_dicts.mjs` comprueba alineación en fuente y en HTML renderizado, con un tratamiento independiente para el patrón de un solo párrafo faltante de Bar Luiz. No se sobreescribieron los textos españoles de origen para crear la traducción.
+
+**Prueba completa y aislada:** [GitHub Actions #41491122736](https://github.com/lacasadelsushirg-pixel/ernestinho-v2/actions/runs/41491122736) — `success` sobre commit `b0a7553c`. Se generaron **171 HTML** (57 rutas, tres idiomas), se verificaron **1.010 posiciones de párrafos PT/EN en 28 fichas: 0 errores**, y **1.122 comparaciones editoriales: 0 errores**. La auditoría de 82 variantes originales mantuvo **0 ejemplos españoles residuales, 0 HTML faltantes, 0 canonical/hreflang faltantes**. Los SEO de 57 rutas conservaron 0 metadescripciones idénticas al español y 0 errores críticos. Las redacciones alternativas detectadas se redujeron de **268 a 182**, sin sustituir variaciones válidas solo por no coincidir literalmente con el diccionario.
+
+Las fichas restantes con diccionarios internos no se consideran automáticamente completas; requieren un análisis por estructura porque no todas comparten el mismo desfase. Tampoco se afirma que los cambios de esta rama estén publicados ni indexados. **NO MERGE / NO DEPLOY / NO Hostinger / NO build global**. El run descrito valida el commit indicado; nuevos commits deberán revalidarse antes de cualquier integración.
