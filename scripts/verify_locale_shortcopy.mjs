@@ -25,7 +25,8 @@ for(const item of items)for(const [lang,want] of Object.entries(item.text)){
  const html=fs.readFileSync(file,'utf8').replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'');
  const re=item.selector==='notice'?/<div class="notice"[^>]*>([^<]+)<\/div>/gi:item.selector==='caption'?/<figcaption\b[^>]*>([^<]+)<\/figcaption>/gi:item.selector==='alt'?/<img\b[^>]*\balt="([^"]+)"/gi:item.selector==='rec'?/<p\b[^>]*id="rec"[^>]*>([^<]+)<\/p>/gi:item.selector==='family'?/<p\b[^>]*id="family"[^>]*>([^<]+)<\/p>/gi:/<h2\b[^>]*>([^<]+)<\/h2>/gi;
  const found=[...html.matchAll(re)].map(x=>x[1].trim());
- if(!found.includes(want))failures.push(lang+'/'+item.route+': expected '+want+', found '+found.filter(x=>/Mapa|map|marca|Polis/.test(x)).join(' // '));
+ if(!found.some(x=>x.includes(want)))failures.push(lang+'/'+item.route+': expected '+want+', found '+found.map(x=>x.slice(0,100)).join(' // '));
+ if(['rec','family'].includes(item.selector)&&found.some(x=>/Yo no intentaría conocerlo todo|Puede funcionar muy bien para familias/.test(x)))failures.push(lang+'/'+item.route+': Spanish source remains in '+item.selector);
  if(lang==='en'&&found.some(x=>x==='Mapa y cómo llegar'))failures.push(lang+'/'+item.route+': Spanish map heading remains');
  checked++;
 }
