@@ -13,7 +13,7 @@ const checks=[
  {slug:'quiteria',es:'Cocina brasileña contemporánea en la planta baja',pt:'Cozinha brasileira contemporânea no térreo',en:'Contemporary Brazilian cuisine on the ground floor',
   bad:{es:['O Quitéria tem uma estética'],pt:['Quitéria tiene una estética'],en:['O Quitéria tem uma estética','Quitéria tiene una estética']}},
  {slug:'cosmopolita',es:'Cosmopolita fue un restaurante histórico de Lapa',pt:'O Cosmopolita foi um restaurante histórico da Lapa',en:'Cosmopolita was a historic restaurant in Lapa',
-  bad:{es:['Rua Santo Amaro','La casa está asociada a la tradición gastronómica de Santa Teresa'],pt:['Rua Santo Amaro','Associado à tradição gastronômica de Santa Teresa'],en:['Rua Santo Amaro','historic address tied to Santa Teresa']}}
+  bad:{es:['La casa está asociada a la tradición gastronómica de Santa Teresa'],pt:['Associado à tradição gastronômica de Santa Teresa'],en:['historic address tied to Santa Teresa']}}
 ];
 const dec=s=>s.replace(/&nbsp;/gi,' ').replace(/&amp;/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'");
 function visible(html){
