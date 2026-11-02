@@ -1,0 +1,43 @@
+name: SEO pilot locale preview (NO DEPLOY)
+on:
+  push:
+    branches:
+      - seo/traducciones-continuacion-lote2-20261102
+    paths:
+      - '.github/workflows/seo-preview-pilot.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      VERCEL: '1'
+      EC_BUILD_WORKERS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - name: Install existing build dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Build two selected routes only (ES/PT/EN) in isolated runner
+        run: node scripts/build_multilingual.mjs --routes=/compras/uruguaiana/,/gastronomia/adega-perola/
+      - name: Verify generated locale HTML and editorial translations
+        shell: bash
+        run: |
+          set -euo pipefail
+          for loc in pt en; do
+            test -s "dist/$loc/compras/uruguaiana/index.html"
+            test -s "dist/$loc/gastronomia/adega-perola/index.html"
+          done
+          grep -q 'Para mim, a Uruguaiana' dist/pt/compras/uruguaiana/index.html
+          grep -q 'To me, Uruguaiana' dist/en/compras/uruguaiana/index.html
+          grep -q 'A Adega Pérola fica' dist/pt/gastronomia/adega-perola/index.html
+          grep -q 'Adega Pérola is located' dist/en/gastronomia/adega-perola/index.html
+          grep -q 'hreflang' dist/pt/compras/uruguaiana/index.html
+          grep -q 'canonical' dist/en/gastronomia/adega-perola/index.html
+      - name: Record pilot result (no hosting publication)
+        run: echo 'Pilot preview passed. No deployment, sitemap change or public file upload was performed.'
