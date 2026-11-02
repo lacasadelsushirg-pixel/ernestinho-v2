@@ -1,0 +1,11 @@
+/* Content enrichment batch 1. Scoped to editorial blocks so existing layouts,
+   image galleries, language selectors and shopping/tour cards stay unchanged. */
+.ec-editorial-lote1{max-width:1000px;margin:30px auto;padding:clamp(22px,4vw,36px);background:#fff;border:1px solid #e5e0d4;border-radius:20px;color:#243e38;box-shadow:0 8px 22px rgba(0,30,23,.045)}
+.ec-editorial-lote1 h2{font:700 clamp(23px,3vw,32px)/1.2 Georgia,serif;color:#123d39;margin:24px 0 13px}
+.ec-editorial-lote1 h2:first-child{margin-top:0}
+.ec-editorial-lote1 p{line-height:1.82;font-size:16px;color:#344a43;margin:0 0 16px;max-width:950px}
+.ec-editorial-lote1 .ec-info-note{border-left:3px solid #ac8431;padding-left:15px;color:#5c6159}
+.ec-editorial-lote1 a{color:#1d6958;text-decoration:underline;text-underline-offset:3px}
+.ec-editorial-lote1 a:hover{color:#9a722e}
+.ec-editorial-lote1.ec-editorial-compact{margin:25px auto}
+@media(max-width:700px){.ec-editorial-lote1{margin:18px 12px;padding:19px 18px;border-radius:14px}.ec-editorial-lote1 p{font-size:15px;line-height:1.75}}

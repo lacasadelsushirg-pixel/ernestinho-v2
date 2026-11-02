@@ -106,7 +106,32 @@ function ensureTopbarNav() {
   nav.setAttribute("aria-label","Navegación principal");
   const links=[["Guía de Río","/guia/"],["Tours y Experiencias","/experiencias/"],["Transportes","/transportes/"],["Hospedaje","/hospedaje/"],["Compras","/compras/"],["Café Río","/cafe-rio/"],["Búzios","/destinos/buzios/"],["Consejos","/consejos/"]];
   nav.replaceChildren();
-  for(const [label,href] of links){const a=document.createElement("a");a.href=href;a.textContent=label;nav.appendChild(a);}
+  for(const [label,href] of links){const a=document.createElement("a");a.href=href;a.dataset.ecNavKey=label;a.textContent=label;nav.appendChild(a);}
+  syncTopbarNavLanguage(getLanguage());
+}
+function syncTopbarNavLanguage(lang=getLanguage()){
+  // Keep navigation localized independently of editorial text dictionaries and
+  // renderers that rebuild the header after initial page translation.
+  const selected=String(lang||"ES").toUpperCase();
+  const labels={
+    "Guía de Río":{PT:"Guia do Rio",EN:"Rio Guide"},
+    "Tours y Experiencias":{PT:"Passeios e Experiências",EN:"Tours & Experiences"},
+    "Transportes":{PT:"Transportes",EN:"Transport"},
+    "Hospedaje":{PT:"Hospedagem",EN:"Stays"},
+    "Compras":{PT:"Compras",EN:"Shopping"},
+    "Café Río":{PT:"Café Rio",EN:"Rio Coffee"},
+    "Búzios":{PT:"Búzios",EN:"Búzios"},
+    "Consejos":{PT:"Dicas",EN:"Tips"}
+  };
+  const nav=document.querySelector(".topbar .ec-primary-nav");
+  if(!nav)return;
+  const aria={ES:"Navegación principal",PT:"Navegação principal",EN:"Main navigation"}[selected]||"Main navigation";
+  if(nav.getAttribute("aria-label")!==aria)nav.setAttribute("aria-label",aria);
+  nav.querySelectorAll("a[data-ec-nav-key]").forEach(a=>{
+    const key=a.dataset.ecNavKey;
+    const desired=(labels[key]&&labels[key][selected])||key;
+    if(a.textContent!==desired)a.textContent=desired;
+  });
 }
 function ensureSocialLinks() {
   const bar=document.querySelector(".topbar");
@@ -264,6 +289,7 @@ function apply(lang) {
   applyEmbeddedShoppingCopy(selected);
   translateText(document.head, selected);
   translateText(document.body, selected);
+  syncTopbarNavLanguage(selected);
   translateAttrs(selected);
   applyTranslations(document, selected);
   document.querySelectorAll("[data-desktop-language]").forEach(button => { button.classList.toggle("is-active",button.dataset.desktopLanguage===selected); button.setAttribute("aria-pressed",String(button.dataset.desktopLanguage===selected)); });
@@ -468,12 +494,15 @@ async function init() {
   const observer = new MutationObserver(records => {
     const added = records.flatMap(record => [...record.addedNodes]).filter(node => node.nodeType === Node.ELEMENT_NODE);
     if (added.length) for (const node of added) { translateText(node, getLanguage()); translateAttrs(getLanguage()); applyTranslations(node, getLanguage()); localizeLinks(node); }
+    // Some legacy widgets replace header labels after navigation initializes.
+    // This is idempotent and avoids mutation loops once text matches the locale.
+    if (records.some(r=>r.target?.closest?.(".topbar") || (r.target?.classList?.contains("topbar")))) syncTopbarNavLanguage(getLanguage());
   });
   observer.observe(document.body, { childList: true, subtree: true });
   document.addEventListener("ec:language", event => {
     const selected = event.detail?.lang || getLanguage();
     applyEmbeddedShoppingCopy(selected);
-    translateText(document.head, selected); translateText(document.body, selected); translateAttrs(selected); applyTranslations(document, selected);
+    translateText(document.head, selected); translateText(document.body, selected); syncTopbarNavLanguage(selected); translateAttrs(selected); applyTranslations(document, selected);
     applySeoMetadata(selected); localizeAttractionBooking(selected); localizeCorporateWhatsApp(selected); syncLocaleMetadata();
   });
   // Bridge shared language controls to pages that render their own ES/PT/EN copy.
