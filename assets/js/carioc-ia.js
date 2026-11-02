@@ -1,6 +1,6 @@
 import { getLanguage } from "./i18n.js";
 import { hasLocaleRoutes, localizedPath } from "./locale-routing.js";
-import { extractConversationDetails, getContextualIntentAnswer, getLocalized, normalizeQuestion, resolveQuestion, recommendGuideLinks } from "./carioc-ia-engine.js?v=20261013-cariocia16";
+import { extractConversationDetails, getContextualIntentAnswer, getLocalized, normalizeQuestion, resolveQuestion, recommendGuideLinks } from "./carioc-ia-engine.js?v=20261102-visitor1";
 import { searchSiteGuide } from "./carioc-ia-site-index.js?v=20261013-cariocia13";
 import { FALLBACK_LINKS, UI } from "./carioc-ia-knowledge.js?v=20261013-cariocia13";
 import { INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261013-cariocia13";
@@ -368,6 +368,10 @@ export function mountCariocIA() {
     const previousContext = conversationContext;
     const turnDetails = extractConversationDetails(text, conversationContext);
     const result = resolveQuestion(text, { ...conversationContext, ...turnDetails });
+    if (result.contextUpdate?.socialTurn && result.intent) {
+      addMessage(getLocalized(result.intent.answer, language), "assistant", { topic: result.intent.id });
+      return;
+    }
     const nextCategory = result.contextUpdate?.category || (result.intent?.id === "quick_luggage" ? "storage" : result.intent?.category) || conversationContext.category;
     const changedTopic = Boolean(conversationContext.category && nextCategory && conversationContext.category !== nextCategory);
     const activeDetails = changedTopic ? extractConversationDetails(text, {}) : turnDetails;

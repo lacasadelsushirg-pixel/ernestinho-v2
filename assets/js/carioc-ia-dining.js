@@ -1,4 +1,4 @@
-import { SITE_GUIDE_DOCUMENTS } from './carioc-ia-site-index-data.js?v=20261013-cariocia10';
+import { SITE_GUIDE_DOCUMENTS } from './carioc-ia-site-index-data.js?v=20261102-visitor1';
 
 const normalize = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
 const t = (ES,PT,EN) => ({ES,PT,EN});
@@ -30,10 +30,12 @@ const displayZone = zone => String(zone || '').split(' ').map(word=>word.charAt(
 
 export function resolveDining(query, context = {}) {
   const active = String(context.pending || '').startsWith('dining_');
-  if (!generic.test(query) && !active) return null;
+  const explicitCuisine = /\bpizza\b/.test(query);
+  if (!active && /\b(vegano|vegana|vegan|vegetariano|vegetariana|vegetarian|gluten|alergia|allergy|allergies)\b/.test(query)) return null;
+  if (!generic.test(query) && !active && !explicitCuisine) return null;
   // Keep specific one-turn requests on their dedicated intents (families, dietary needs,
   // allergies, delivery, opening hours, or budget) instead of restarting the preference flow.
-  if (!active && /\b(ninos|ninas|crianca|criancas|children|child|kids|vegetariano|vegetariana|vegetarian|vegano|vegana|vegan|gluten|alergia|allergy|delivery|entrega|open now|aberto agora|aberta agora|barato|barata|economico|economica|budget|cheap|precio|preco|price|valor|valores)\b/.test(query)) return null;
+  if (!active && !/\bpizza\b/.test(query) && /\b(ninos|ninas|crianca|criancas|children|child|kids|vegetariano|vegetariana|vegetarian|vegano|vegana|vegan|gluten|alergia|allergy|delivery|entrega|open now|aberto agora|aberta agora|barato|barata|economico|economica|budget|cheap|precio|preco|price|valor|valores)\b/.test(query)) return null;
   // Preserve the existing authored answers for a specific dish or landmark on a fresh request.
   if (!active && /\b(feijoada|cristo|corcovado|sugarloaf|pao de acucar|pan de azucar|maracana|aquario)\b/.test(query)) return null;
   const selected = cuisines.find(c=>c.pattern.test(query));
@@ -60,13 +62,13 @@ export function resolveDining(query, context = {}) {
     followups=zones;stage='dining_location';
   } else {
     const veganOnly=cuisine.id === 'vegan' || (selected?.id !== 'vegetarian' && context.diningVegan === true);
-    const records=context.budget === 'budget' ? [] : SITE_GUIDE_DOCUMENTS.filter(item=>item.category==='gastronomia' && normalize(item.neighborhood)===normalize(location) && cuisine.evidence.test(normalize([item.title,...item.tags].join(' '))) && (!requestedDish || normalize([item.title,...item.tags].join(' ')).includes(requestedDish)) && (!veganOnly || /vegan/.test(normalize(item.tags.join(' '))))).slice(0,3);
+    const records=context.budget === 'budget' && requestedDish !== 'pizza' ? [] : SITE_GUIDE_DOCUMENTS.filter(item=>item.category==='gastronomia' && normalize(item.neighborhood)===normalize(location) && cuisine.evidence.test(normalize([item.title,...item.tags].join(' '))) && (!requestedDish || normalize([item.title,...item.tags].join(' ')).includes(requestedDish)) && (!veganOnly || /vegan/.test(normalize(item.tags.join(' '))))).slice(0,3);
     const available=records.length>0;
     answer=t(
-      available ? `Para ${foodLabel.ES.toLowerCase()} en ${label}, estas fichas de mi guía coinciden con el tipo de comida y la zona. Revisa cada una y confirma menú, precios y horarios con el local.` : `No encuentro una ficha que confirme ${foodLabel.ES.toLowerCase()} en ${label}. Prefiero decirte eso antes que recomendarte otro tipo de comida o un local de otra zona. Puedes explorar la guía o cambiar tu elección.`,
-      available ? `Para ${foodLabel.PT.toLowerCase()} em ${label}, estas fichas do meu guia correspondem à comida e à região. Confira cada uma e confirme cardápio, preços e horários com o local.` : `Não encontro uma ficha que confirme ${foodLabel.PT.toLowerCase()} em ${label}. Prefiro explicar isso a indicar outra comida ou um local de outra região. Você pode explorar o guia ou mudar sua escolha.`,
-      available ? `For ${foodLabel.EN.toLowerCase()} in ${label}, these guide listings match the food and area. Read each listing and confirm the menu, prices and opening hours with the venue.` : `I cannot find a listing confirming ${foodLabel.EN.toLowerCase()} in ${label}. I would rather tell you than suggest different food or a place in another area. You can explore the guide or change your choice.`);
-    if (context.budget === 'budget') answer=t(`Buscamos ${foodLabel.ES.toLowerCase()} en ${label}, pero no tengo precios actuales confirmados para filtrar por presupuesto. Abre la guía para comparar menús y consulta el valor con cada local.`,`Procuramos ${foodLabel.PT.toLowerCase()} em ${label}, mas não tenho preços atuais confirmados para filtrar pelo orçamento. Abra o guia para comparar cardápios e confirme os valores com cada local.`,`We are looking for ${foodLabel.EN.toLowerCase()} in ${label}, but I do not have confirmed current prices to filter by budget. Browse the guide to compare menus and confirm prices with each venue.`);
+      available ? `Para ${foodLabel.ES.toLowerCase()} en ${label}, ${records.map(item=>item.title).join(', ')}: estas fichas de mi guía coinciden con el tipo de comida y la zona. Revisa cada una y confirma menú, precios y horarios con el local.` : `No encuentro una ficha que confirme ${foodLabel.ES.toLowerCase()} en ${label}. Prefiero decirte eso antes que recomendarte otro tipo de comida o un local de otra zona. Puedes explorar la guía o cambiar tu elección.`,
+      available ? `Para ${foodLabel.PT.toLowerCase()} em ${label}, ${records.map(item=>item.title).join(', ')}: estas fichas do meu guia correspondem à comida e à região. Confira cada uma e confirme cardápio, preços e horários com o local.` : `Não encontro uma ficha que confirme ${foodLabel.PT.toLowerCase()} em ${label}. Prefiro explicar isso a indicar outra comida ou um local de outra região. Você pode explorar o guia ou mudar sua escolha.`,
+      available ? `For ${foodLabel.EN.toLowerCase()} in ${label}, ${records.map(item=>item.title).join(', ')}: these guide listings match the food and area. Read each listing and confirm the menu, prices and opening hours with the venue.` : `I cannot find a listing confirming ${foodLabel.EN.toLowerCase()} in ${label}. I would rather tell you than suggest different food or a place in another area. You can explore the guide or change your choice.`);
+    if (context.budget === 'budget' && !available) answer=t(`Buscamos ${foodLabel.ES.toLowerCase()} en ${label}, pero no tengo precios actuales confirmados para filtrar por presupuesto. Abre la guía para comparar menús y consulta el valor con cada local.`,`Procuramos ${foodLabel.PT.toLowerCase()} em ${label}, mas não tenho preços atuais confirmados para filtrar pelo orçamento. Abra o guia para comparar cardápios e confirme os valores com cada local.`,`We are looking for ${foodLabel.EN.toLowerCase()} in ${label}, but I do not have confirmed current prices to filter by budget. Browse the guide to compare menus and confirm prices with each venue.`);
     links=[...records.map(item=>({href:item.href,label:t(item.title,item.title,item.title),image:item.image,neighborhood:item.neighborhood})),guide];
     followups=cuisines.filter(c=>!c.hidden).map(c=>c.label);stage='dining_refine';
   }

@@ -1,4 +1,5 @@
-import { resolveDining } from "./carioc-ia-dining.js?v=20261013-cariocia15";
+import { VISITOR_INTENTS, VISITOR_ANSWERS, visitorRoute } from "./carioc-ia-visitor.js?v=20261102-visitor1";
+import { resolveDining } from "./carioc-ia-dining.js?v=20261102-visitor1";
 import { INTENTS } from "./carioc-ia-knowledge.js?v=20261013-cariocia10";
 import { CURATED_INTENTS, FOLLOWUP_MAPS, INTENT_GUIDANCE } from "./carioc-ia-library.js?v=20261013-cariocia10";
 
@@ -133,7 +134,7 @@ const EVERYDAY_INTENTS = [
   ecEveryday("daily_lost_documents", "general", ["perdi mi celular","perdi mis documentos","me robaron el pasaporte","perdi meu celular","perdi meus documentos","i lost my phone","lost my passport"], ecT("¿Qué perdiste y en qué zona? Prioriza tu seguridad. Para documentos, puede ser necesario denunciar y contactar el consulado; no compartas datos sensibles aquí.", "O que perdeu e em qual região? Priorize sua segurança. Para documentos, pode ser necessário registrar ocorrência e falar com o consulado; não envie dados sensíveis.", "What did you lose and where? Prioritize safety. For documents, you may need a police report and consulate; don't share sensitive details."), [ecL("/guia/", "general", "general", "general")], null, 38)
 ];
 
-export const ALL_INTENTS = [...LEGACY_INTENTS, ...CURATED_INTENTS, ...EVERYDAY_INTENTS];
+export const ALL_INTENTS = [...LEGACY_INTENTS, ...CURATED_INTENTS, ...EVERYDAY_INTENTS, ...VISITOR_INTENTS].map(intent => VISITOR_ANSWERS[intent.id] ? { ...intent, answer: VISITOR_ANSWERS[intent.id] } : intent);
 export const ACTIVE_INTENTS = ALL_INTENTS.filter(intent => intent.status !== "pending");
 const MIN_SCORE = 7.5;
 // The welcome chips must always resolve to a useful, authored intent in all three languages.
@@ -688,6 +689,17 @@ export function resolveQuestion(question, context = {}) {
   const detailContext = extractConversationDetails(question, context);
   if (detailContext.location || detailContext.profile || detailContext.budget || detailContext.partySize || detailContext.weekday || detailContext.date || detailContext.time || detailContext.meal || detailContext.food || detailContext.openNow || detailContext.transport || detailContext.mobility || detailContext.duration) context = { ...context, ...detailContext };
 
+  const visitorId = visitorRoute(query, context);
+  if (visitorId) {
+    const intent = ACTIVE_INTENTS.find(item => item.id === visitorId);
+    if (intent) {
+      const social = visitorId === 'visitor_greeting' || visitorId === 'visitor_thanks';
+      return { intent, candidates: [intent], contextUpdate: social
+        ? { ...context, socialTurn: true }
+        : { ...detailContext, pending: null, category: intent.category, lastIntentId: intent.id, lastEverydayId: null } };
+    }
+  }
+
   const dining = resolveDining(query, context);
   if (dining) return dining;
 
@@ -753,6 +765,7 @@ export function resolveQuestion(question, context = {}) {
   if (contextual?.intent) return { ...contextual, candidates: [] };
 
   const ranked = ACTIVE_INTENTS
+    .filter(intent => !["visitor_greeting", "visitor_thanks"].includes(intent.id))
     .map(intent => scoreIntent(query, intent))
     .filter(result => result && result.score >= MIN_SCORE)
     .sort((a, b) => b.score - a.score);

@@ -73,7 +73,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   }
   if(/^assets\/js\/buzios-[^/]+\.js$/.test(file)||file==='assets/css/buzios.css'){allBuzios=true;continue;}
   if(file.endsWith('.html')){const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;}
-  if((/^assets\/js\/.+\.js$/.test(file)&&!runtimeOnlyJsAssets.has(file))||file==='package.json'||file==='package-lock.json'){fullRequired=true;continue;}
+  if((/^assets\/js\/.+\.js$/.test(file)&&!runtimeOnlyJsAssets.has(file)&&!/^assets\/js\/carioc-ia(?:-[a-z-]+)?\.js$/.test(file))||file==='package.json'||file==='package-lock.json'){fullRequired=true;continue;}
  }
  if(fullRequired)requiresFull=true;
  else{

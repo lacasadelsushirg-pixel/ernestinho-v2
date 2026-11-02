@@ -29,7 +29,10 @@ for (const [href,category,slug] of routes) {
   const intro=decode(main.match(/<p\b[^>]*>([\s\S]*?)<\/p>/i)?.[1] || "");
   const genericDescription=/^(?:gu[ií]a editorial de .{1,100}: identidad, historia, recomendaciones, horarios, transporte y mapa en r[ií]o\.?|mi gu[ií]a de .{1,100}: qu[eé] esperar, c[oó]mo encajarlo en tu viaje)/i.test(description);
   const summary=lead || (description && !genericDescription ? description : intro || description || h1);
-  const localityText=normalize([slug,h1,lead].join(" "));
+  // Reviewed source fallback for Stalos: its heading is outside <main>.
+  // Do not infer districts from mentions of other venues in the article body.
+  const practicalLocation = href === "/gastronomia/stalos/" ? decode(main.match(/<strong[^>]*>Barrio y zona<\/strong>\s*<br\s*\/?>([\s\S]*?)<\/p>/i)?.[1] || "") : "";
+  const localityText=normalize([slug,h1,lead,practicalLocation].join(" "));
   const neighborhood=locations.find(n=>hasLocation(localityText,normalize(n))) || "";
   const pageTags=[...main.matchAll(/<(?:span|a)\b[^>]*class=["'][^"']*\btag\b[^"']*["'][^>]*>([\s\S]*?)<\/(?:span|a)>/gi)]
     .map(match=>decode(match[1])).filter(tag=>tag && !/precio|price|faixa|cost/i.test(tag));
