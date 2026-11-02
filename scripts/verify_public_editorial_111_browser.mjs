@@ -53,7 +53,7 @@ try{
      if(c.lang==='es'&&c.route==='gastronomia/cafe-lamas'&&!d.text.includes('21 de octubre de 2026'))record.issues.push('Café Lamas reopening not rendered');
      if(c.lang==='en'&&c.route==='vida-nocturna/galeria-cafe'&&!/closed in February 2026/i.test(d.text))record.issues.push('Closure notice not in English');
      if(c.lang==='en'&&c.route==='hospedaje'&&!(d.text.includes('Where you stay should be part of the holiday')||d.text.includes('Choose from apartments')))record.issues.push('New English lodging pitch absent');
-     if(c.lang==='en'&&c.route==='hospedaje'&&!d.nav.some(x=>x.includes('Rio Guide')))record.issues.push('Header not in English');
+     if(c.lang==='en'&&c.route==='hospedaje'&&!d.nav.some(x=>x.toUpperCase().includes('RIO GUIDE')))record.issues.push('Header not in English');
      record.characters=d.text.length;
      if(record.issues.length){record.renderedTitle=d.title;record.nav=d.nav;record.textPreview=d.text.slice(0,450)}
     }catch(err){record.issues.push('Browser '+err.message.slice(0,200))}
