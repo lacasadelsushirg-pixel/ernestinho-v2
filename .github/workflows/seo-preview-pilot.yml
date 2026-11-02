@@ -8,6 +8,10 @@ on:
       - 'scripts/build_multilingual.mjs'
       - 'scripts/verify_rendered_editorial.mjs'
       - 'scripts/verify_embedded_locale_pages.mjs'
+      - 'gastronomia/arp-bar/index.html'
+      - 'gastronomia/classico-leme/index.html'
+      - 'gastronomia/quiteria/index.html'
+      - 'gastronomia/cosmopolita/index.html'
       - 'assets/js/buzios-food-places.js'
       - 'assets/js/buzios-restaurant-profile-view.js'
   workflow_dispatch:

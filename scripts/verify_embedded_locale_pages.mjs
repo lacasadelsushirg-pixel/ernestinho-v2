@@ -15,6 +15,8 @@ const checks=[
  {slug:'cosmopolita',es:'Cosmopolita fue un restaurante histórico de Lapa',pt:'O Cosmopolita foi um restaurante histórico da Lapa',en:'Cosmopolita was a historic restaurant in Lapa',
   bad:{es:['La casa está asociada a la tradición gastronómica de Santa Teresa'],pt:['Associado à tradição gastronômica de Santa Teresa'],en:['historic address tied to Santa Teresa']}}
 ];
+// Also verify short visible strings, not just paragraph text.
+const shortChecks={"arp-bar":{"es":"La terraza acerca la mesa a la playa de Arpoador.","pt":"A varanda aproxima a mesa da Praia do Arpoador.","en":"The terrace brings diners closer to Arpoador Beach."},"classico-leme":{"es":"La costa forma parte de la experiencia.","pt":"A orla entra diretamente na experiência.","en":"The beachfront is part of the experience."},"quiteria":{"es":"Un salón luminoso en la planta baja del Ipanema Inn.","pt":"Um salão claro no térreo do Ipanema Inn.","en":"A bright dining room on the ground floor of the Ipanema Inn."},"cosmopolita":{"es":"Referencia histórica: no hay servicio gastronómico actual confirmado.","pt":"Referência histórica: não há atendimento gastronômico atual confirmado.","en":"Historic reference: no current restaurant service is confirmed."}};
 const dec=s=>s.replace(/&nbsp;/gi,' ').replace(/&amp;/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'");
 function visible(html){
  return dec(html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'')
@@ -38,7 +40,10 @@ for(const test of checks){
    if(lang==='pt'&&!v.includes('Não há serviço gastronômico atual confirmado'))errors.push('pt/cosmopolita: no closure warning');
    if(lang==='en'&&!v.includes('No current restaurant service is confirmed'))errors.push('en/cosmopolita: no closure warning');
   }
-  results.push({route:lang+'/gastronomia/'+test.slug+'/',expectedText:ok,incorrectPhrases:unwanted.length});
+  const shortText=shortChecks[test.slug]?.[lang];
+  if(shortText&&!v.includes(shortText))errors.push(lang+'/'+test.slug+': short localized text missing');
+  if(lang!=='es'&&v.includes('Guía independiente de Río de Janeiro'))errors.push(lang+'/'+test.slug+': untranslated Spanish footer');
+  results.push({route:lang+'/gastronomia/'+test.slug+'/',expectedText:ok,incorrectPhrases:unwanted.length,shortTextOk:!shortText||v.includes(shortText)});
  }
 }
 console.log(JSON.stringify({pages:results.length,checked:results,failures:errors},null,2));
