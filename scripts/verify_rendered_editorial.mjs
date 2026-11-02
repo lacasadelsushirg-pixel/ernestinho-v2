@@ -49,7 +49,7 @@ for(const route of routes){
   if(!html.includes('hreflang'))errors.push(lang+route+': missing hreflang');
   const body=visible(html);
   if(process.argv.includes('--diagnostics')){
-   const longParagraphs=[...withoutScripts(html).matchAll(/<p\\b[^>]*>([\\s\\S]*?)<\\/p>/gi)]
+   const longParagraphs=[...withoutScripts(html).matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
     .map(m=>norm(m[1].replace(/<[^>]+>/g,' '))).filter(t=>t.length>100).slice(0,5);
    console.log('RENDERED '+lang+route+' '+JSON.stringify(longParagraphs.map(t=>t.slice(0,410))));
   }
