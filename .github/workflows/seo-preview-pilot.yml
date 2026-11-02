@@ -1,4 +1,4 @@
-name: SEO pilot locale preview (NO DEPLOY)
+name: SEO selected-locale preview (NO DEPLOY)
 on:
   push:
     branches:
@@ -23,21 +23,9 @@ jobs:
           cache: npm
       - name: Install existing build dependencies
         run: npm ci --no-audit --no-fund
-      - name: Build two selected routes only (ES/PT/EN) in isolated runner
-        run: node scripts/build_multilingual.mjs --routes=/compras/uruguaiana/,/gastronomia/adega-perola/
-      - name: Verify generated locale HTML and editorial translations
-        shell: bash
-        run: |
-          set -euo pipefail
-          for loc in pt en; do
-            test -s "dist/$loc/compras/uruguaiana/index.html"
-            test -s "dist/$loc/gastronomia/adega-perola/index.html"
-          done
-          grep -q 'Para mim, a Uruguaiana' dist/pt/compras/uruguaiana/index.html
-          grep -q 'To me, Uruguaiana' dist/en/compras/uruguaiana/index.html
-          grep -q 'A Adega Pérola fica' dist/pt/gastronomia/adega-perola/index.html
-          grep -q 'Adega Pérola is located' dist/en/gastronomia/adega-perola/index.html
-          grep -q 'hreflang' dist/pt/compras/uruguaiana/index.html
-          grep -q 'canonical' dist/en/gastronomia/adega-perola/index.html
-      - name: Record pilot result (no hosting publication)
-        run: echo 'Pilot preview passed. No deployment, sitemap change or public file upload was performed.'
+      - name: Render ONLY 18 selected routes in ES/PT/EN (isolated runner)
+        run: node scripts/build_multilingual.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/,/gastronomia/bb-lanches/,/gastronomia/cavalo-marinho/
+      - name: Verify 36 translated pages using source dictionaries and generated HTML
+        run: node scripts/verify_rendered_editorial.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/,/gastronomia/bb-lanches/,/gastronomia/cavalo-marinho/
+      - name: Confirm non-public isolated preview
+        run: echo 'Only GitHub runner dist/ was generated. No Hostinger deploy or production sitemap modification.'
