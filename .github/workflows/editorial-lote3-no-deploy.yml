@@ -1,0 +1,101 @@
+name: SEO lote 3 - Gastronomia y vida nocturna ES PT EN (NO DEPLOY)
+on:
+  pull_request:
+    paths:
+      - 'gastronomia/merci/index.html'
+      - 'gastronomia/plage-cafe/index.html'
+      - 'vida-nocturna/boa-praca-leblon/index.html'
+      - 'vida-nocturna/portela/index.html'
+      - 'vida-nocturna/yoo2/index.html'
+      - 'vida-nocturna/quadra-salgueiro/index.html'
+      - 'vida-nocturna/canastra-bar/index.html'
+      - 'vida-nocturna/galeria-cafe/index.html'
+      - 'assets/js/translations/editorial-lote3.js'
+      - 'scripts/build_multilingual.mjs'
+      - '.github/workflows/editorial-lote3-no-deploy.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    env:
+      VERCEL: '1'
+      EC_BUILD_WORKERS: '2'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Validate JavaScript translations syntax
+        run: node --check assets/js/translations/editorial-lote3.js
+      - name: Build ONLY 8 routes x 3 locales
+        run: node scripts/build_multilingual.mjs --routes=/gastronomia/merci/,/gastronomia/plage-cafe/,/vida-nocturna/boa-praca-leblon/,/vida-nocturna/portela/,/vida-nocturna/yoo2/,/vida-nocturna/quadra-salgueiro/,/vida-nocturna/canastra-bar/,/vida-nocturna/galeria-cafe/
+      - name: Check all 24 HTML pages and no original Spanish in English or Portuguese paragraphs
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,re
+          from html import unescape
+          routes=["gastronomia/merci","gastronomia/plage-cafe","vida-nocturna/boa-praca-leblon","vida-nocturna/portela","vida-nocturna/yoo2","vida-nocturna/quadra-salgueiro","vida-nocturna/canastra-bar","vida-nocturna/galeria-cafe"]
+          data=Path('assets/js/translations/editorial-lote3.js').read_text()
+          translations=json.loads(re.search(r'registerTranslations\("editorial-lote3", (\{[\s\S]*\})\);\s*$',data).group(1))
+          assert len(translations['ES'])==len(translations['PT'])==len(translations['EN'])==152
+          errors=[]
+          ids={'merci':'gastronomia/merci','plage':'gastronomia/plage-cafe','boa':'vida-nocturna/boa-praca-leblon','portela':'vida-nocturna/portela','yoo2':'vida-nocturna/yoo2','salgueiro':'vida-nocturna/quadra-salgueiro','canastra':'vida-nocturna/canastra-bar','galeria':'vida-nocturna/galeria-cafe'}
+          for id,route in ids.items():
+           for lang,prefix in (('ES',''),('PT','pt/'),('EN','en/')):
+            p=Path('dist')/prefix/route/'index.html'
+            if not p.is_file():
+             errors.append((str(p),'missing output'));continue
+            s=unescape(p.read_text())
+            if 'rel="canonical"' not in s: errors.append((str(p),'canonical missing'))
+            if not re.search(r'<html\b[^>]*\blang=',s):errors.append((str(p),'language attribute missing'))
+            for k in (f'batch3_{id}_title',f'batch3_{id}_description',f'batch3_{id}_0',f'batch3_{id}_1'):
+             expected=translations[lang][k]
+             if expected not in s:errors.append((str(p),'localized text missing',k,expected[:45]))
+            if lang!='ES':
+             for k in (f'batch3_{id}_0',f'batch3_{id}_1'):
+              es=translations['ES'][k]
+              if es in s:errors.append((str(p),'ES body still present',k))
+            if id in ('canastra','galeria'):
+             k=f'batch3_{id}_archive_h1'
+             if translations[lang][k] not in s:errors.append((str(p),'archive status not translated'))
+             if not re.search(r'archivo|arquivo|archive|closed|cerrado|fechad',s,re.I):errors.append((str(p),'archive status missing'))
+             if lang=='EN' and '← Vida nocturna' in s:errors.append((str(p),'Spanish archive back link'))
+            if id=='plage':
+             if not re.search(r'cerrad|fechad|clos',s,re.I):errors.append((str(p),'cafe closed status missing'))
+            if id in ('merci','plage','boa'):
+             if 'class="photo-gallery"' not in s:errors.append((str(p),'original gallery missing'))
+            if id in ('portela','yoo2','salgueiro') and 'class="gallery"' not in s:
+             errors.append((str(p),'original gallery missing'))
+          assert not errors,json.dumps(errors[:50],ensure_ascii=False)
+          print('PASS: 24 HTML localized, original photos retained, archival warnings and SEO metadata confirmed.')
+          PY
+      - name: Package exact 24 HTML and one module, no production changes
+        run: |
+          python3 - <<'PY'
+          import zipfile,hashlib,json
+          from pathlib import Path
+          routes=["gastronomia/merci","gastronomia/plage-cafe","vida-nocturna/boa-praca-leblon","vida-nocturna/portela","vida-nocturna/yoo2","vida-nocturna/quadra-salgueiro","vida-nocturna/canastra-bar","vida-nocturna/galeria-cafe"]
+          entries=[(Path('dist')/prefix/route/'index.html',prefix+route+'/index.html') for prefix in ('','pt/','en/') for route in routes]
+          entries.append((Path('assets/js/translations/editorial-lote3.js'),'assets/js/translations/editorial-lote3.js'))
+          assert len(entries)==25 and all(p.is_file() for p,_ in entries)
+          path=Path('lote3-editorial-8-guias-24-html-NO-PUBLICADO.zip')
+          with zipfile.ZipFile(path,'w',zipfile.ZIP_DEFLATED) as z:
+           for p,dst in entries:z.write(p,dst)
+           z.writestr('LEER_ANTES_DE_PUBLICAR.txt','ARCHIVO DE REVISION, NO PUBLICADO. Incluye solo 8 rutas x ES/PT/EN y un modulo de traducciones. Conciliar con las paginas reales, respaldar antes de subir. No actualizar sitemap.xml, robots.txt, site.js ni Carioc-IA. Subida incremental exclusivamente cuando se compruebe que se conservan los avances actuales.')
+           z.writestr('SHA256.json',json.dumps({dst:hashlib.sha256(p.read_bytes()).hexdigest() for p,dst in entries},indent=2))
+          print('Selective bundle',path.stat().st_size,'bytes',len(entries),'files')
+          PY
+      - name: Store selective publication package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-lote3-gastronomia-noche-selectivo
+          path: lote3-editorial-8-guias-24-html-NO-PUBLICADO.zip
+          retention-days: 15
+          if-no-files-found: warn
