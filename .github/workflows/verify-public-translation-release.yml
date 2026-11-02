@@ -4,6 +4,7 @@ on:
     paths:
       - 'scripts/verify_public_translation_release.mjs'
       - 'scripts/audit_full_site_readonly_20261102.mjs'
+      - 'scripts/audit_full_site_browser_samples_20261102.mjs'
       - 'scripts/verify_public_translation_browser.mjs'
       - '.github/workflows/verify-public-translation-release.yml'
   workflow_dispatch:
@@ -24,6 +25,10 @@ jobs:
         run: node scripts/audit_full_site_readonly_20261102.mjs
       - name: Install Chromium browser dependencies
         run: npm ci --no-audit --no-fund
+      - name: Check representative untranslated PT-EN pages in a real Chromium browser
+        env:
+          VERCEL: '1'
+        run: node scripts/audit_full_site_browser_samples_20261102.mjs
       - name: Inspect all 84 live URLs after client-side JavaScript
         env:
           VERCEL: '1'
@@ -37,4 +42,5 @@ jobs:
             qa-public-20261102.json
             qa-public-browser-20261102.json
             site-wide-audit-20261102.json
+            site-wide-audit-browser-sample-20261102.json
           retention-days: 30
