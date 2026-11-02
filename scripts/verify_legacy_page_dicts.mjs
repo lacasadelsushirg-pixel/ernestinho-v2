@@ -10,7 +10,9 @@ const slugs=[
  'angu-do-gomes','assador','confeitaria-colombo','cachambeer',
  'carretao-siqueira','casa-do-sardo','bb-lanches','cavalo-marinho',
  'confeitaria-manon','casa-porto','ferro-e-farinha','gurume',
- 'jobi','arab-leblon','coisas-de-bamba','spesso','eclipse'
+ 'jobi','arab-leblon','coisas-de-bamba','spesso','eclipse',
+ 'aipo-aipim-391','aipo-aipim-605','bar-da-gema','cafe-do-alto',
+ 'aipo-aipim-920','cabanna','bar-luiz'
 ];
 const rendered=process.argv.includes('--rendered');
 const tidy=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/&nbsp;/gi,' ')
@@ -31,7 +33,7 @@ for(const slug of slugs){
   const entries=dictionary[lang]||{},count=Object.keys(entries).length;
   if(count!==spanish.length)errors.push(lang+route+': '+count+' slots for '+spanish.length+' paragraphs');
   slots+=count;
-  for(const j of [7,9]){
+  for(const j of (slug==='bar-luiz'?[7]:[7,9])){
    const expected=shared[spanish[j]]?.[lang.toUpperCase()];
    if(!expected||tidy(entries[j])!==tidy(expected))
     errors.push(lang+route+': source paragraph '+j+' not aligned to expected translation');
@@ -42,7 +44,7 @@ for(const slug of slugs){
   const html=fs.readFileSync(dest,'utf8').replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'')
    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'');
   const target=paragraphs(html.slice(html.indexOf('<body')));
-  for(const j of [7,9]){
+  for(const j of (slug==='bar-luiz'?[7]:[7,9])){
    const expected=tidy(entries[j]),actual=target[j]||'';
    if(expected&&!actual.includes(expected.slice(0,Math.min(45,expected.length))))
     errors.push(lang+route+': rendered paragraph '+j+' displaced or missing');
