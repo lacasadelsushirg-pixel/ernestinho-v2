@@ -74,7 +74,9 @@ registerTranslations("editorial-lote1", {
     "vidigal_pretitle": "EXPERIENCIA EN PREPARACIÓN",
     "vidigal_teaser_h2": "Conoce la historia antes de elegir un tour",
     "vidigal_teaser_p": "Vidigal tiene mucho más que vistas espectaculares. Aquí encontrarás información para conocer su cultura, su comunidad y la caminata al Morro Dois Irmãos con respeto. Todavía no anuncio una salida cerrada: puedes consultar opciones con prestadores locales.",
-    "paz_h1": "Iglesia de Nuestra Señora de la Paz"
+    "paz_h1": "Iglesia de Nuestra Señora de la Paz",
+    "paz_meta_title": "Nuestra Señora de la Paz: historia e iglesia en Ipanema | Ernestinho Carioca",
+    "paz_meta_desc": "Iglesia de Nuestra Señora de la Paz en Ipanema: historia desde 1918, arquitectura de Gastão Bahiana, vitrales y consejos de visita."
   },
   "PT": {
     "feira_0": "A feira que revela o cotidiano da Tijuca",
@@ -150,7 +152,9 @@ registerTranslations("editorial-lote1", {
     "vidigal_pretitle": "EXPERIÊNCIA EM PREPARAÇÃO",
     "vidigal_teaser_h2": "Conheça a história antes de escolher um passeio",
     "vidigal_teaser_p": "O Vidigal tem muito mais do que vistas impressionantes. Aqui você encontra informações sobre sua cultura, comunidade e a trilha do Morro Dois Irmãos com respeito. Ainda não anuncio uma saída fechada: consulte opções com prestadores locais.",
-    "paz_h1": "Igreja de Nossa Senhora da Paz"
+    "paz_h1": "Igreja de Nossa Senhora da Paz",
+    "paz_meta_title": "Igreja Nossa Senhora da Paz em Ipanema | Ernestinho Carioca",
+    "paz_meta_desc": "Igreja Nossa Senhora da Paz em Ipanema: história desde 1918, arquitetura de Gastão Bahiana, vitrais e dicas de visita."
   },
   "EN": {
     "feira_0": "An artisan market at the heart of Tijuca",
@@ -226,6 +230,8 @@ registerTranslations("editorial-lote1", {
     "vidigal_pretitle": "EXPERIENCE IN DEVELOPMENT",
     "vidigal_teaser_h2": "Discover the story before choosing a tour",
     "vidigal_teaser_p": "Vidigal has much more to offer than extraordinary views. Explore its culture, community life and the Two Brothers hike respectfully. There is not yet a confirmed tour for sale; you can ask about options with local providers.",
-    "paz_h1": "Our Lady of Peace Church"
+    "paz_h1": "Our Lady of Peace Church",
+    "paz_meta_title": "Our Lady of Peace Church in Ipanema | Ernestinho Carioca",
+    "paz_meta_desc": "Our Lady of Peace Church in Ipanema: history since 1918, architecture by Gastão Bahiana, stained glass and visiting tips."
   }
 });
