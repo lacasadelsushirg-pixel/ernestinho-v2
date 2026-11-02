@@ -777,4 +777,8 @@ export default {
 "Sitio oficial de Don Pascual · Menú publicado por el restaurante": {"PT": "Site oficial do Don Pascual · Cardápio publicado pelo restaurante", "EN": "Don Pascual official website · Menu published by the restaurant"},
 "Site oficial ↗ · Cardápio à la carte ↗ · Contato oficial ↗": {"PT": "Site oficial ↗ · Cardápio à la carte ↗ · Contato oficial ↗", "EN": "Official website ↗ · À-la-carte menu ↗ · Official contact ↗"},
 "Sitio indicado en directorios ↗Ver dirección en Google Maps ↗": {"PT": "Site indicado em diretórios ↗Ver endereço no Google Maps ↗", "EN": "Website listed in directories ↗View address on Google Maps ↗"},
+"🌐 Sitio oficial": {"PT": "🌐 Site oficial", "EN": "🌐 Official website"},
+"🌐 Sitio": {"PT": "🌐 Site", "EN": "🌐 Website"},
+"🌐 Sitio web": {"PT": "🌐 Site", "EN": "🌐 Website"},
+"Sitio oficial de Sushi Leblon · Pedidos online": {"PT": "Site oficial do Sushi Leblon · Pedidos online", "EN": "Sushi Leblon official website · Online ordering"},
 };

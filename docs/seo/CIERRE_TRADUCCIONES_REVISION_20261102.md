@@ -32,7 +32,7 @@ Se realinearon las 14 fichas con problemas visibles en la primera comparación: 
 
 Se completaron las posiciones de `pilograma-prime-grill`, `nido-ristorante` y `delirio` para activar sus traductores sin desplazar ni perder contenido. En Nino Cucina y Temperarte Bolívar, previamente intervenidas en producción, también se corrigieron los índices internos antiguos para no reintroducir el problema al regenerarlas; no se realizó una nueva publicación.
 
-Al activar los traductores internos se preservaron las traducciones completas que ya aparecían correctamente en el HTML anterior. Se corrigieron entradillas, rótulos de fotografías, enlaces textuales y párrafos cortos que no entraban en la auditoría de ALT/pies/avisos. Se añadieron claves exactas a los diccionarios; no se cambió el contenido de los enlaces ni sus destinos.
+Al activar los traductores internos se preservaron las traducciones completas que ya aparecían correctamente en el HTML anterior. Se corrigieron entradillas, rótulos de fotografías, enlaces textuales y párrafos cortos que no entraban en la auditoría de ALT/pies/avisos. La revisión final de enlaces añadió 74 correcciones de etiquetas de enlaces y dos referencias breves de Sushi Leblon en PT/EN («Sitio oficial», «Sitio», «Sitio web»); la auditoría ahora cubre enlaces y botones, además de ALT, pies, encabezados, avisos y párrafos cortos. Se añadieron claves exactas a los diccionarios; no se cambió el contenido de los enlaces ni sus destinos.
 
 La generación selectiva activa el selector propio cuando existe y resuelve después encabezados/rótulos mediante claves exactas, sin volver a ejecutar `site.apply` y deshacer los párrafos alineados. No se desactiva ningún control ni se modifica el sitemap de producción.
 
