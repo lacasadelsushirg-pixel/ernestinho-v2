@@ -46,6 +46,12 @@ La prueba estricta anterior había fallado por **96 diferencias de redacción** 
 
 **Limitaciones:** este QA se ejecuta sobre HTML generado en GitHub, no sobre la versión desplegada en Hostinger; todavía no se ha inspeccionado completamente la fidelidad editorial de las traducciones alternativas ni el contenido final del navegador público. No se puede afirmar que se han corregido las 82 variantes detectadas inicialmente por Work o que Google las indexará.
 
+### Prueba ampliada con Madame Bardot, Búzios
+
+La prueba de renderización de la ficha Madame Bardot detectó inicialmente un error real de JavaScript (`ReferenceError: Cannot access 'displayCuisine' before initialization`) introducido al adaptar la página. **Se corrigió antes de publicar.** La prueba posterior, run de GitHub Actions `41467079499`, generó correctamente **19 rutas x 3 idiomas = 57 páginas HTML**, verificó las **36 variantes PT/EN** de las 18 fichas de Río y confirmó mediante búsquedas en el HTML final las frases propias de Madame Bardot en portugués e inglés, así como los títulos localizados del plan de visita.
+
+Estado final de esa ejecución: **success** en generación selectiva, control de diccionarios renderizados y comprobación de Madame Bardot. La ejecución no subió archivos a Hostinger.
+
 ## Cómo revisar SIN dañar el sitio
 
 1. Antes de fusionar, comprobar cambios recientes en la rama de producción y en el PR #12, preservando el trabajo simultáneo de Carioc-IA y otros componentes.
