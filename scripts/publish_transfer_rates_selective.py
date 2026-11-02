@@ -24,7 +24,7 @@ PAT_GROUP=r'<section class="ec-rate-group"><h3>[\s\S]*?</table></div></section>'
 PAT_PRICE_SECTION=r'<section class="guide-section ec-transfer-prices" id="tarifas-traslado">[\s\S]*?(?=<section class="transfer-benefits">)'
 PAT_FACT=r'<div class="fact-pill">[\s\S]*?</div>'
 PAT_SOURCE=r'<p class="source-date">[\s\S]*?</p>'
-PAT_ALERT_JS=r'<script data-ec-tarifas-nov2026>[\s\S]*?</script>'
+PAT_ALERT_JS=r'<script data-ec-tarifas-nov2026(?:="")?>[\s\S]*?</script>'
 PAT_OLD_PREVIEW=r'function updatePrice\(\)\{[^\n]*\}'
 PAT_ARRAY=r'const tariffRows=(\[[^\n]*\]);\s*const lookup='
 EXPECTED_HEADERS={'':'Navidad, Año Nuevo y Carnaval','pt/':'Natal, Réveillon e Carnaval',
@@ -83,7 +83,7 @@ def patch_live(original,compiled,label):
     s=s.replace(submitPattern,"const price=validDateForPublicRate(x.date)?lookup[x.route]?.[x.vehicle]:null;const labels=",1)
     # Separate ES/PT/EN seasonal script. It only translates 5 localized new elements.
     inline=exactly(PAT_ALERT_JS,compiled,'generated language switcher')
-    marker='<script type="module" src="../../assets/js/site.js"></script>'
+    marker='<script type="module" src="/assets/js/site.js"></script>'
     if marker not in s:raise RuntimeError(label+': main site module missing')
     s=s.replace(marker,inline+marker,1)
     if groups(s)!=EXPECTED_NEW:raise RuntimeError(label+': final table not correct')
