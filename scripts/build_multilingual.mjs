@@ -194,7 +194,7 @@ async function worker(){
  await context.addInitScript(() => {
   try {
    const pathname=location.pathname;
-   const language=/^\\/pt(?:\\/|$)/i.test(pathname)?'pt':/^\\/en(?:\\/|$)/i.test(pathname)?'en':'es';
+   const language=/^\/pt(?:\/|$)/i.test(pathname)?'pt':/^\/en(?:\/|$)/i.test(pathname)?'en':'es';
    localStorage.setItem('lang',language);
    localStorage.setItem('ec-lang',language.toUpperCase());
    localStorage.setItem('uLang',language);
