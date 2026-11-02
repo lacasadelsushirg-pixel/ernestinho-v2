@@ -186,6 +186,20 @@ async function worker(){
    }
    return r.fulfill({status:200,body:libraries.get(r.request().url())||'',contentType:r.request().resourceType()==='script'?'text/javascript':'text/plain'});
   });
+ // Each route must begin in its own requested language. Some legacy pages
+ // read localStorage.lang while parsing their inline scripts; otherwise a PT
+ // page can leave that value behind and contaminate the next EN build.
+ // This init script runs before page JavaScript on EVERY navigation, and only
+ // inside the isolated build browser (never on the public website).
+ await context.addInitScript(() => {
+  try {
+   const pathname=location.pathname;
+   const language=/^\\/pt(?:\\/|$)/i.test(pathname)?'pt':/^\\/en(?:\\/|$)/i.test(pathname)?'en':'es';
+   localStorage.setItem('lang',language);
+   localStorage.setItem('ec-lang',language.toUpperCase());
+   localStorage.setItem('uLang',language);
+  } catch {}
+ });
  const page=await context.newPage();
  while(next<targets.length){
  const target=targets[next++],route=prefix(target.route,target.language);
