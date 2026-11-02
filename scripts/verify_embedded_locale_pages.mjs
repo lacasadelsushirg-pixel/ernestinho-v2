@@ -44,6 +44,15 @@ for(const test of checks){
   if(!ok)errors.push(lang+'/'+test.slug+': correct-language hero text missing');
   let unwanted=(test.bad[lang]||[]).filter(s=>v.includes(s));
   if(unwanted.length)errors.push(lang+'/'+test.slug+': stale text '+unwanted.join(', '));
+  if(test.slug==='polis-sucos'){
+   const supplement=lang==='es'?'La referencia de esta ficha es Avenida Visconde de Pirajá':
+     lang==='pt'?'A referência desta ficha é a Avenida Visconde de Pirajá':
+     'This listing refers to Avenida Visconde de Pirajá';
+   const history=lang==='es'?'Polis Sucos cuenta que nació en 1958':
+     lang==='pt'?'A Polis Sucos informa que foi fundada em 1958':
+     "Polis Sucos says it was founded in 1958";
+   if(!v.includes(supplement)||!v.includes(history))errors.push(lang+'/polis-sucos: untranslated supplemental V2 text');
+  }
   if(test.slug==='cosmopolita'){
    if(!v.includes('Travessa do Mosqueira'))errors.push(lang+'/cosmopolita: missing historic Lapa location');
    if(lang==='es'&&!v.includes('No hay servicio gastronómico actual confirmado'))errors.push('es/cosmopolita: no closure warning');
