@@ -11,6 +11,7 @@ on:
       - 'gastronomia/lasai/index.html'
       - 'gastronomia/polis-sucos/index.html'
       - 'scripts/verify_locale_shortcopy.mjs'
+      - 'scripts/build_multilingual.mjs'
   workflow_dispatch:
 permissions:
   contents: read
