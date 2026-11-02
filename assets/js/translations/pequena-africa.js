@@ -41,7 +41,9 @@ registerTranslations("pequena-africa", {
     "source_riotur": "Riotur: recorrido por Pequeña África ↗",
     "source_unesco": "UNESCO: Cais do Valongo ↗",
     "source_ipn": "Instituto Pretos Novos: visitas ↗",
-    "footer": "Río no se visita. Se vive."
+    "footer": "Río no se visita. Se vive.",
+    "nav_aria": "Navegación principal",
+    "image_alt": "Pedra do Sal: patrimonio afrobrasileño de Río"
   },
   "PT": {
     "meta_title": "Pequena África: história e passeio a pé no Rio | Ernestinho Carioca",
@@ -83,7 +85,9 @@ registerTranslations("pequena-africa", {
     "source_riotur": "Riotur: roteiro da Pequena África ↗",
     "source_unesco": "UNESCO: Cais do Valongo ↗",
     "source_ipn": "Instituto Pretos Novos: visitas ↗",
-    "footer": "O Rio não se visita. Se vive."
+    "footer": "O Rio não se visita. Se vive.",
+    "nav_aria": "Navegação principal",
+    "image_alt": "Pedra do Sal: patrimônio afro-brasileiro do Rio"
   },
   "EN": {
     "meta_title": "Little Africa Rio: history and walking tour | Ernestinho Carioca",
@@ -125,6 +129,8 @@ registerTranslations("pequena-africa", {
     "source_riotur": "Riotur: Little Africa heritage route ↗",
     "source_unesco": "UNESCO: Valongo Wharf ↗",
     "source_ipn": "Pretos Novos Institute: visits ↗",
-    "footer": "Rio isn't just visited. It's lived."
+    "footer": "Rio isn't just visited. It's lived.",
+    "nav_aria": "Main navigation",
+    "image_alt": "Pedra do Sal, an Afro-Brazilian heritage site in Rio"
   }
 });
