@@ -23,6 +23,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Validate long-form PT/EN keys on 16 target sources
+      - name: Validate long-form PT/EN keys on 18 target sources
         run: |
-          node scripts/audit_editorial_translations.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/ --json
+          node scripts/audit_editorial_translations.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/,/gastronomia/bb-lanches/,/gastronomia/cavalo-marinho/ --json
