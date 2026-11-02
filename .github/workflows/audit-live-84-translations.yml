@@ -1,0 +1,33 @@
+name: Audit published 84 translations PT EN in real browser
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/audit-live-84-translations.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Check 84 live source HTML and original Spanish editorial fragments
+        run: node scripts/verify_public_translation_release.mjs
+      - name: Check same 84 URLs after all public JavaScript runs in Chromium
+        if: always()
+        run: node scripts/verify_public_translation_browser.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: translation-84-public-browser-audit-after-release
+          path: |
+            qa-public-20261102.json
+            qa-public-browser-20261102.json
+          retention-days: 10
+          if-no-files-found: warn
