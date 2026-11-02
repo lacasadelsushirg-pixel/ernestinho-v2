@@ -35,7 +35,7 @@ jobs:
           slugs=["bonsucesso","capuchinhos","conceicao-boa-morte","copacabana","nossa-senhora-brasil","nossa-senhora-penna","nossa-senhora-saude","santa-margarida","santa-rita","sao-francisco-paula","sao-jose-lagoa","sao-judas"]
           mod=Path('assets/js/translations/iglesias-lote2.js').read_text()
           d=json.loads(re.search(r'registerTranslations\("iglesias-lote2", (\{[\s\S]*\})\);',mod).group(1))
-          assert len(d['ES'])==len(d['PT'])==len(d['EN'])==120,len(d['EN'])
+          assert len(d['ES'])==len(d['PT'])==len(d['EN'])==156,len(d['EN'])
           failures=[]
           for slug in slugs:
            keybase='church2_'+slug.replace('-','_')
@@ -52,7 +52,7 @@ jobs:
               es=d['ES'][key]
               if es in text: failures.append((str(path),'original Spanish still shown',key))
             if 'rel="canonical"' not in text:failures.append((str(path),'canonical missing'))
-            if '<html lang="' not in text:failures.append((str(path),'lang missing'))
+            if not re.search(r'<html\\b[^>]*\\blang=',text):failures.append((str(path),'lang missing'))
             if text.count('culture-gallery')<1:failures.append((str(path),'gallery missing'))
             visible=re.sub(r'<script\b[^>]*>[\s\S]*?</script>',' ',text)
             visible=re.sub(r'<style\b[^>]*>[\s\S]*?</style>',' ',visible)
