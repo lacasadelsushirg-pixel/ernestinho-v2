@@ -5,6 +5,7 @@ on:
       - 'hospedaje/index.html'
       - 'assets/css/hospedaje.css'
       - 'assets/js/hospedaje.js'
+      - 'assets/js/site.js'
       - 'assets/css/editorial-lote1.css'
       - 'assets/js/translations/editorial-lote1.js'
       - 'compras/feira-saens-pena/index.html'
@@ -62,12 +63,23 @@ jobs:
              if lang!='es': assert keys[route][0] not in html,(str(p),'ES found')
             if route=='experiencias/bioparque':
              assert ('Reino dos Axolotes' in html or 'Kingdom of Axolotls' in html),p
+            if route=='experiencias/vidigal' and lang!='es':
+             assert 'Estamos preparando algo espectacular para ti' not in html,p
+             assert '¡En breve tendremos una experiencia espectacular para ti!' not in html,p
+            if route=='compras/feira-saens-pena' and lang=='en':
+             assert 'Saens Peña craft fair in Tijuca' in html,p
+            if route=='cultura/nossa-senhora-paz' and lang=='en':
+             assert 'Our Lady of Peace Church' in html,p
              assert len(re.sub(r'<[^>]+>',' ',html))>3000,p
             if route=='hospedaje':
              assert html.count('class="feature stay-feature"')==12,(str(p),'cards')
              assert html.count('class="stay-feature-photo"')==12,(str(p),'photos')
              assert 'index.editorial2' in html or 'Where you stay should be part of the holiday' in html
-             if lang=='en': assert 'Where you stay should be part of the holiday' in html
+             if lang=='en':
+              assert 'Where you stay should be part of the holiday' in html
+              assert 'Rio Guide' in html and 'Tours & Experiences' in html and 'Stays' in html,p
+             if lang=='pt':
+              assert 'Guia do Rio' in html and 'Passeios e Experiências' in html,p
           print('PASS 27 locale HTML; 12 full-image lodging cards; scoped content and translations.')
           PY
       - name: Preserve all existing assets; do not deploy or publish a pilot sitemap
