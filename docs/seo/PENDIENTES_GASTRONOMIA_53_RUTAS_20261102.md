@@ -5,7 +5,7 @@ Revisión del 2 de noviembre de 2026, sobre la rama `seo/traducciones-continuaci
 ## Criterio de esta auditoría
 
 - Se leyeron los HTML fuente de **53 rutas gastronómicas** presentes en el reporte original de Work y se compararon con las claves exactas del diccionario residual de Gastronomía.
-- Tras las correcciones del PR #13, **15 rutas gastronómicas** tienen cobertura de los bloques largos visibles examinados; siguen **38 rutas** con **389 bloques visibles de más de 100 caracteres sin traducción PT/EN en ese diccionario**.
+- Tras las correcciones del PR #13, **25 rutas gastronómicas** tienen cobertura de los bloques largos visibles examinados; siguen **28 rutas** con **297 bloques visibles de más de 100 caracteres sin traducción PT/EN en ese diccionario**.
 - Estos 389 bloques NO son el número de variantes URL sin indexar ni un conteo de todos los elementos sin traducir; los títulos breves, elementos compuestos, metadatos y contenido JavaScript dinámico quedan fuera del alcance del patrón.
 - El informe Work de 82 variantes pendientes sigue vigente hasta que se compruebe el contenido real de las URL publicadas. **No confundir trabajo de fuente con indexación.**
 
@@ -26,11 +26,9 @@ Revisión del 2 de noviembre de 2026, sobre la rama `seo/traducciones-continuaci
 | `/gastronomia/delirio/` | 11 |
 | `/gastronomia/eclipse/` | 11 |
 | `/gastronomia/sabor-das-aguas/` | 11 |
-| `/gastronomia/nova-capela/` | 10 |
 | `/gastronomia/point-de-grumari/` | 10 |
 | `/gastronomia/temperarte-posto6/` | 10 |
 | `/gastronomia/xian/` | 10 |
-| `/gastronomia/arab-leblon/` | 10 |
 | `/gastronomia/bira-de-guaratiba/` | 10 |
 | `/gastronomia/kilograma-centro/` | 10 |
 | `/gastronomia/lasai/` | 10 |
@@ -38,24 +36,20 @@ Revisión del 2 de noviembre de 2026, sobre la rama `seo/traducciones-continuaci
 | `/gastronomia/nido-ristorante/` | 10 |
 | `/gastronomia/rufino-parrilla/` | 10 |
 | `/gastronomia/shiso/` | 10 |
-| `/gastronomia/confeitaria-manon/` | 9 |
 | `/gastronomia/cosmopolita/` | 9 |
-| `/gastronomia/ferro-e-farinha/` | 9 |
-| `/gastronomia/gurume/` | 9 |
 | `/gastronomia/pesqueiro/` | 9 |
-| `/gastronomia/aipo-aipim-920/` | 9 |
 | `/gastronomia/cabanna/` | 9 |
-| `/gastronomia/cafe-do-alto/` | 9 |
-| `/gastronomia/casa-porto/` | 9 |
-| `/gastronomia/churrascaria-palace/` | 9 |
 | `/gastronomia/coisas-de-bamba/` | 9 |
-| `/gastronomia/jobi/` | 9 |
 | `/gastronomia/pilograma-prime-grill/` | 8 |
-| **Total: 38 rutas** | **389** |
+| **Total: 28 rutas** | **297** |
 
 ## Casos especiales de idioma de origen
 
 Las fichas `/gastronomia/arp-bar/`, `/gastronomia/classico-leme/` y `/gastronomia/quiteria/` contienen bloques de prosa originales en **portugués**, aunque la ruta de origen es la española. No basta con agregar traducciones PT/EN en el diccionario, ya que ello podría dejar el texto en portugués para visitantes que navegan en español. Revisar estos casos en una intervención separada, preservando su estructura y sentido.
+
+## Avance del lote ampliado
+
+Diez fichas pasaron a cobertura de bloques largos PT/EN en código: Confeitaria Manon, Café do Alto, Casa Porto, Ferro e Farinha Botafogo, Gurumê, Nova Capela, Jobi, Aipo & Aipim 920, Arab Leblon y Churrascaria Palace. Se incorporaron **92 entradas** bilingües nuevas; otras seis claves de estas diez fichas ya existían. La publicación y la revisión real de idiomas no se infieren de este avance.
 
 ## Próximos lotes seguros
 
