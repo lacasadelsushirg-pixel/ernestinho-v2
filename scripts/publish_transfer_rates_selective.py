@@ -94,7 +94,7 @@ def patch_live(original,compiled,label):
     return s.encode('utf-8')
 
 # Read and back up ALL three public pages before any write.
-previous,updated={}
+previous={}
 updates={}
 for uri,p in CANDIDATES.items():
     if not p.is_file():raise RuntimeError('Missing localized build '+str(p))
