@@ -13,6 +13,41 @@ const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
 const out=path.join(root,'dist');
 const origin='https://www.ernestinhocarioca.com.br';
+// Route-scoped SEO corrections for editorial profiles; no global runtime or full build.
+const EDITORIAL_META_OVERRIDES={
+  "/gastronomia/arp-bar/": {
+    "PT": {
+      "title": "Arp Bar: guia gastronômico em Ipanema | Ernestinho Carioca"
+    },
+    "EN": {
+      "title": "Arp Bar: dining guide in Ipanema | Ernestinho Carioca"
+    }
+  },
+  "/gastronomia/bafo-da-prainha/": {
+    "PT": {
+      "title": "Bafo da Prainha: guia de visita | Ernestinho Carioca"
+    },
+    "EN": {
+      "title": "Bafo da Prainha: visitor guide | Ernestinho Carioca"
+    }
+  },
+  "/gastronomia/quiteria/": {
+    "PT": {
+      "title": "Quitéria em Ipanema: guia gastronômico | Ernestinho Carioca"
+    },
+    "EN": {
+      "title": "Quitéria in Ipanema: dining guide | Ernestinho Carioca"
+    }
+  },
+  "/gastronomia/cosmopolita/": {
+    "PT": {
+      "description": "História do antigo restaurante Cosmopolita na Lapa e do filé à Oswaldo Aranha. Endereço histórico; não há serviço gastronômico atual confirmado."
+    },
+    "EN": {
+      "description": "History of the former Cosmopolita restaurant in Lapa and filé à Oswaldo Aranha. Historic address; no current restaurant service is confirmed."
+    }
+  }
+};
 const configs=JSON.parse(fs.readFileSync(path.join(root,'vercel.json')));
 const redirects=new Set(configs.redirects.map(r=>r.source.replace(/\/$/,'')||'/'));
 const ignore=new Set(['.git','node_modules','dist','.vercel','docs','scripts','upload']);
@@ -267,7 +302,7 @@ async function worker(){
      switcher.click();
     }
    },target.language);
-   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations})=>{
+   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,editorialMetaOverride,standaloneTranslations})=>{
     const language=document.documentElement.lang;
     if(standaloneTranslations&&/^\/experiencias\/pedra-(?:telegrafo|gavea|bonita)\/$/.test(route.replace(/^\/(?:pt|en)(?=\/|$)/,''))){
      const selected=language==='pt-BR'?'PT':language==='en'?'EN':'ES';
@@ -291,6 +326,8 @@ async function worker(){
      setMeta('description',seoCopy[1],'name');
      setMeta('og:title',seoCopy[0]);setMeta('og:description',seoCopy[1]);
     }
+    if(editorialMetaOverride?.title)document.title=editorialMetaOverride.title;
+    if(editorialMetaOverride?.description)setMeta('description',editorialMetaOverride.description,'name');
     if(sourcePath.startsWith('/naturaleza/')){
      setMeta('twitter:title',document.title,'name');
      setMeta('twitter:description',document.querySelector('meta[name="description"]')?.content||'','name');
@@ -367,7 +404,7 @@ async function worker(){
      const s=document.createElement('script');s.type='application/ld+json';s.dataset.ecBreadcrumb='';s.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});document.head.appendChild(s);
     }
     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1:document.querySelectorAll('h1').length};
-   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS});
+   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,editorialMetaOverride:EDITORIAL_META_OVERRIDES[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS});
    // Redirect-only source documents remain redirect-only and never get hreflang.
    const original=fs.readFileSync(target.file,'utf8');const refresh=original.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(refresh){value.html=value.html.replace('</head>',refresh[0].replace(/(url=)([^"'>]+)/i,(_,p,destination)=>{const u=new URL(destination,base+target.route);return p+prefix(u.pathname,target.language)+u.search+u.hash;})+'</head>');}

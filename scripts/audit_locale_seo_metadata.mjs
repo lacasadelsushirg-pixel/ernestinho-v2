@@ -29,7 +29,12 @@ for(const route of routes){
   if(!data.missing&&!es.missing&&data.description===es.description&&es.description.length>30)repeatedDescription.push(lang+route);
  }
 }
-console.log(JSON.stringify({auditedRoutes:routes.length,localizedVariants:routes.length*2,
+const criticalTitles=['pt/gastronomia/arp-bar/','en/gastronomia/arp-bar/','pt/gastronomia/quiteria/','en/gastronomia/quiteria/','pt/gastronomia/bafo-da-prainha/','en/gastronomia/bafo-da-prainha/'];
+const criticalDescriptions=['pt/gastronomia/cosmopolita/','en/gastronomia/cosmopolita/'];
+const criticalErrors=[...criticalTitles.filter(x=>repeatedTitle.includes(x)),...criticalDescriptions.filter(x=>repeatedDescription.includes(x))];
+console.log(JSON.stringify({auditedRoutes:routes.length,localizedVariants:routes.length*2,criticalErrors,
  identicalSpanishTitles:repeatedTitle.length,identicalSpanishDescriptions:repeatedDescription.length,
  missingMetadata:missing.length,titleRoutes:repeatedTitle.slice(0,80),
  descriptionRoutes:repeatedDescription.slice(0,150),missingRoutes:missing.slice(0,60)},null,2));
+
+if(criticalErrors.length)process.exitCode=1;
