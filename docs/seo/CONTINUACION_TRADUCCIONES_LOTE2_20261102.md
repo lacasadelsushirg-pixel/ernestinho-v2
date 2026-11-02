@@ -36,6 +36,16 @@
 
 La página Feira de São Cristóvão incluye un diccionario propio dentro de HTML y un bloque de historia inyectado por JavaScript: ambos necesitan prueba visual y de idioma por separado. En varias fichas hay títulos cortos y textos dentro de elementos compuestos que este control no captura. El conteo de bloques y claves nuevas no equivale al número de variantes URL resueltas.
 
+## QA real de generación selectiva — resultado verificado
+
+Un flujo de GitHub Actions generó en un **runner aislado**, mediante `node scripts/build_multilingual.mjs --routes=<18 rutas>`, **54 HTML** (18 rutas x 3 idiomas). Su ejecución completó correctamente en el run `41466349009`.
+
+El verificador `scripts/verify_rendered_editorial.mjs` examinó las 36 variantes PT/EN generadas: **362 revisiones de bloques, 0 fallos** bajo el criterio de ausencia de texto fuente no traducido y presencia de las variantes correctas. Se registraron **132 coincidencias de traducciones alternativas** de renderizadores internos, por lo que no corresponden exactamente a la redacción de la clave nueva. Una traducción alternativa NO es garantía por sí sola de calidad editorial; la revisión de títulos cortos y contenido dinámico sigue pendiente.
+
+La prueba estricta anterior había fallado por **96 diferencias de redacción** y por contaminación del idioma PT en EN. El diagnóstico identificó que páginas antiguas eligen el idioma desde `localStorage.lang` y comparten un contexto de navegador durante la generación. Se añadió `context.addInitScript` en `scripts/build_multilingual.mjs` para inicializar `lang`, `ec-lang` y `uLang` de acuerdo con cada URL antes de ejecutar scripts HTML. Es un cambio **exclusivamente del generador**, no de los scripts de la web pública. El HTML inglés de Mercadão de Madureira, que antes comenzaba en portugués, se observó después en inglés correcto. También se agregó una comprobación de regresión específica contra la fuga de portugués.
+
+**Limitaciones:** este QA se ejecuta sobre HTML generado en GitHub, no sobre la versión desplegada en Hostinger; todavía no se ha inspeccionado completamente la fidelidad editorial de las traducciones alternativas ni el contenido final del navegador público. No se puede afirmar que se han corregido las 82 variantes detectadas inicialmente por Work o que Google las indexará.
+
 ## Cómo revisar SIN dañar el sitio
 
 1. Antes de fusionar, comprobar cambios recientes en la rama de producción y en el PR #12, preservando el trabajo simultáneo de Carioc-IA y otros componentes.
@@ -48,6 +58,6 @@ La página Feira de São Cristóvão incluye un diccionario propio dentro de HTM
 
 ## Protección aplicada
 
-Ninguna modificación en contenido fuente español, HTML, estilos CSS, fotos, URL, sitemap, robots o Carioc-IA. Los cambios del PR #13 están limitados a dos diccionarios, dos módulos específicos de Madame Bardot, documentos de auditoría, un script de verificación y un flujo GitHub Actions de solo lectura, sin despliegue.
+Ninguna modificación en contenido fuente español, HTML, estilos CSS, fotos, URL, sitemap, robots o Carioc-IA. Los cambios del PR #13 se limitan a los dos diccionarios, los dos módulos específicos de Madame Bardot, documentación y scripts de auditoría, el generador de idiomas y dos flujos GitHub Actions **sin despliegue**. No se ha modificado ningún HTML fuente, diseño, foto o Carioc-IA.
 
-**Conclusión:** avance editorial amplio y verificable a nivel de repositorio; la publicación, QA multilingüe real y recuperación de indexación permanecen pendientes.
+**Conclusión:** avance editorial amplio y verificable a nivel de repositorio; la publicación, QA en producción y recuperación de indexación permanecen pendientes; la prueba de generación aislada y QA de bloques largos ya ha pasado.
