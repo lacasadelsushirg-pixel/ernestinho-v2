@@ -1,0 +1,77 @@
+name: Traslado privado — 3 idiomas / tarifas 15 diciembre (NO DEPLOY)
+on:
+  pull_request:
+    paths:
+      - 'transportes/transporte-privado/index.html'
+      - '.github/workflows/transfer-rates-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    env:
+      EC_BUILD_WORKERS: '2'
+      VERCEL: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Only generate private transfer ES/PT/EN
+        run: node scripts/build_multilingual.mjs --routes=/transportes/transporte-privado/
+      - name: Verify 3 locale pages, four price blocks, booking lookup and holiday notice
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re,json,html
+          old=[[[130,170,270],[180,200,320],[210,230,300]],[[420,470,620],[420,470,620],[470,540,650],[500,600,690]],[[450,530,650],[450,530,650],[450,550,700],[450,550,700]],[[590,650,750],[590,650,750],[630,700,800],[630,700,800]]]
+          target=[old[0],[[p+50 for p in row] for row in old[1]],[[p+50 for p in row] for row in old[2]],old[3]]
+          cases={'':('es','Navidad, Año Nuevo y Carnaval','15 de diciembre de 2026'),
+                 'pt/':('pt','Natal, Réveillon e Carnaval','15 de dezembro de 2026'),
+                 'en/':('en','Christmas, New Year and Carnival','15 December 2026')}
+          for prefix,(lang,alert,date) in cases.items():
+           page=Path('dist')/prefix/'transportes/transporte-privado/index.html'
+           assert page.is_file(),f'No output: {page}'
+           s=html.unescape(page.read_text())
+           groups=re.findall(r'<section class="ec-rate-group">([\s\S]*?)</section>',s)
+           assert len(groups)==4,(lang,'wrong number of price blocks',len(groups))
+           found=[]
+           for group in groups:
+            trs=re.findall(r'<tr>[\s\S]*?</tr>',group)
+            found.append([[int(v) for v in re.findall(r'<td>R\$\s*(\d+)</td>',tr)] for tr in trs if '<td>R$' in tr])
+           assert found==target,(lang,'price matrix different',found)
+           arr=re.search(r'const tariffRows=(\[[\s\S]*?\]);\s*const lookup=',s)
+           assert arr,(lang,'booking tariff lookup missing')
+           rows=json.loads(arr.group(1))
+           assert [[n for n in row[1:]] for row in rows]==[row for block in target for row in block],(lang,'booking rate differs')
+           assert '2026-12-15' in s and 'validDateForPublicRate' in s,(lang,'expired-booking guard missing')
+           assert '<aside class="ec-transfer-season-alert"' in s,(lang,'season alert missing')
+           assert alert in s and date in s,(lang,'season or validity not translated')
+           assert '<span id="ec-rate-source">' in s,(lang,'source validity missing')
+           assert 'rel="canonical"' in s,(lang,'canonical missing')
+           assert s.count('ec-transfer-season-alert')>=2,(lang,'warning CSS absent')
+           print(f'PASS: {lang} / 4 blocks / 45 prices / holiday notice / booking mirrors prices')
+          PY
+      - name: Package ONLY three translated HTML, no deploy or sitemap
+        run: |
+          python3 - <<'PY'
+          import zipfile,hashlib,json
+          from pathlib import Path
+          files=[(Path('dist')/p/'transportes/transporte-privado/index.html',p+'transportes/transporte-privado/index.html') for p in ('','pt/','en/')]
+          assert all(src.is_file() for src,_ in files)
+          with zipfile.ZipFile('tarifas-privadas-15-diciembre-es-pt-en-NO-PUBLICADO.zip','w',zipfile.ZIP_DEFLATED) as z:
+           for source,dest in files:z.write(source,dest)
+           z.writestr('SHA256.json',json.dumps({dest:hashlib.sha256(src.read_bytes()).hexdigest() for src,dest in files},indent=2))
+          print('Three HTML prepared')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tarifas-privadas-15-diciembre-tres-idiomas
+          path: tarifas-privadas-15-diciembre-es-pt-en-NO-PUBLICADO.zip
+          retention-days: 7
+          if-no-files-found: warn
