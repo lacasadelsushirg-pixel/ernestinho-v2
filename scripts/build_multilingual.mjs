@@ -8,6 +8,7 @@ import {loadBuildLibraries} from './build_vendor.mjs';
 import {buildBrowserOptions} from './build_browser.mjs';
 import {SEO_METADATA} from '../assets/js/seo-metadata.js';
 import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/translations/chunks/experiencias-standalone.js';
+import {SHORTCOPY_TRANSLATIONS} from './editorial_shortcopy_translations.mjs';
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
@@ -312,7 +313,7 @@ async function worker(){
      switcher.click();
     }
    },target.language);
-   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,editorialMetaOverride,standaloneTranslations})=>{
+   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,editorialMetaOverride,standaloneTranslations,shortCopyTranslations})=>{
     const language=document.documentElement.lang;
     if(standaloneTranslations&&/^\/experiencias\/pedra-(?:telegrafo|gavea|bonita)\/$/.test(route.replace(/^\/(?:pt|en)(?=\/|$)/,''))){
      const selected=language==='pt-BR'?'PT':language==='en'?'EN':'ES';
@@ -329,12 +330,10 @@ async function worker(){
     const canonical=origin+route;
     const sourcePath=route.replace(/^\/(pt|en)(?=\/|$)/,'')||'/';
     const prefix=(r,l)=>l==='es'?r:'/'+l+r;
-    // Source-backed PT/EN microcopy: many legacy restaurant pages contain
-    // complete inline T dictionaries for gallery captions and ALT labels.
-    // The shared site renderer can restore their Spanish originals later in
-    // the render cycle. Reapply translations to *these attributes and labels*
-    // at serialization, without altering images or paragraph content.
-    if(/^\/gastronomia\/[^/]+\/$/.test(sourcePath)&&language!=='es'){
+    // Localized photo labels, captions and notices: prefer a page's editorial
+    // dictionary; fall back to human-reviewed exact strings or safe templates.
+    // Never alter image URLs, ordinary prose, metadata or site runtime.
+    if(/^\/(?:gastronomia|compras)\/[^/]+\/$/.test(sourcePath)&&language!=='es'){
      const scripts=[...document.querySelectorAll('script:not([src])')].map(n=>n.textContent);
      let dictionary=null;
      if(sourcePath==='/gastronomia/polis-sucos/'){
@@ -347,22 +346,43 @@ async function worker(){
       const block=code?.match(/const T=(\{[\s\S]*?\});const title=/);
       if(block)dictionary=JSON.parse(block[1])[language==='pt-BR'?'pt':'en'];
      }
-     if(dictionary){
-      for(const img of document.querySelectorAll('img[alt]')){
-       const original=(img.getAttribute('data-ec-alt')||img.getAttribute('alt')||'').trim();
-       const localized=dictionary[original]||(language==='pt-BR'
-        ?original.replace(/: fotografía (\d+)$/i,': fotografia $1')
-        :original.replace(/: fotografía (\d+)$/i,': photograph $1'));
-       if(localized&&localized!==original){
-        img.setAttribute('alt',localized);
-        if(img.hasAttribute('data-ec-alt'))img.setAttribute('data-ec-alt',localized);
-       }
+     const key=language==='pt-BR'?'PT':'EN';
+     const generic=text=>{
+      const isPT=key==='PT';
+      const patterns=[
+       [/^(.+?) — fotografía editorial\.?$/i,isPT?'$1 — fotografia editorial':'$1 — editorial photograph'],
+       [/^(.+?) ([:—]) fotografía (\d+)\.?$/i,isPT?'$1 $2 fotografia $3':'$1 $2 photograph $3'],
+       [/^Fotografía real · registro (\d+)$/i,isPT?'Fotografia real · registro $1':'Real photograph · record $1'],
+       [/^Fotografía (\d+) de (.+)\.$/i,isPT?'Fotografia $1 de $2.':'Photo $1 of $2.'],
+       [/^Fotografía de (.+)\.$/i,isPT?'Fotografia de $1.':'Photograph of $1.'],
+       [/^(.+?) — imagen de la experiencia\.$/i,isPT?'$1 — imagem da experiência.':'$1 — image of the experience.'],
+       [/^(.+?): imagen (\d+)$/i,isPT?'$1: imagem $2':'$1: image $2'],
+       [/^(.+?): plato o bebida$/i,isPT?'$1: prato ou bebida':'$1: dish or drink'],
+       [/^(.+?): experiencia del restaurante$/i,isPT?'$1: experiência do restaurante':'$1: restaurant experience'],
+       [/^(.+?) — ambiente y carácter visual$/i,isPT?'$1 — ambiente e caráter visual':'$1 — atmosphere and visual character'],
+       [/^(.+?) — fachada o espacio histórico$/i,isPT?'$1 — fachada ou espaço histórico':'$1 — façade or historic space'],
+       [/^(.+?) — preparación representativa$/i,isPT?'$1 — preparação representativa':'$1 — representative dish'],
+       [/^(.+?) — experiencia de la casa$/i,isPT?'$1 — experiência da casa':'$1 — the venue experience']
+      ];
+      for(const [re,to] of patterns)if(re.test(text))return text.replace(re,to);
+      return text;
+     };
+     const translate=text=>{
+      const direct=dictionary?.[text]||shortCopyTranslations?.[text]?.[key];
+      return direct&&direct!==text?direct:generic(text);
+     };
+     for(const img of document.querySelectorAll('img[alt]')){
+      const original=(img.getAttribute('data-ec-alt')||img.getAttribute('alt')||'').trim();
+      const localized=translate(original);
+      if(localized&&localized!==original){
+       img.setAttribute('alt',localized);
+       if(img.hasAttribute('data-ec-alt'))img.setAttribute('data-ec-alt',localized);
       }
-      for(const node of document.querySelectorAll('figcaption,.notice')){
-       if(node.childElementCount)continue;
-       const text=node.textContent.trim(),translated=dictionary[text];
-       if(translated&&translated!==text)node.textContent=translated;
-      }
+     }
+     for(const node of document.querySelectorAll('figcaption,.notice')){
+      if(node.childElementCount)continue;
+      const original=node.textContent.trim(),translated=translate(original);
+      if(translated&&translated!==original)node.textContent=translated;
      }
     }
     const isProvisionalBuziosBeach=r=>/^\/destinos\/buzios\/playas\/[^/]+\/$/.test(r);
@@ -450,7 +470,7 @@ async function worker(){
      const s=document.createElement('script');s.type='application/ld+json';s.dataset.ecBreadcrumb='';s.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});document.head.appendChild(s);
     }
     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1:document.querySelectorAll('h1').length};
-   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,editorialMetaOverride:EDITORIAL_META_OVERRIDES[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS});
+   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,editorialMetaOverride:EDITORIAL_META_OVERRIDES[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS,shortCopyTranslations:SHORTCOPY_TRANSLATIONS});
    // Redirect-only source documents remain redirect-only and never get hreflang.
    const original=fs.readFileSync(target.file,'utf8');const refresh=original.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(refresh){value.html=value.html.replace('</head>',refresh[0].replace(/(url=)([^"'>]+)/i,(_,p,destination)=>{const u=new URL(destination,base+target.route);return p+prefix(u.pathname,target.language)+u.search+u.hash;})+'</head>');}
