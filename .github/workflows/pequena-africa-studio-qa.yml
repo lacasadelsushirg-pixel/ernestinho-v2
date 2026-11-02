@@ -3,6 +3,8 @@ on:
   pull_request:
     paths:
       - 'experiencias/pequena-africa/index.html'
+      - 'index.html'
+      - 'assets/js/translations/home.js'
       - 'hospedaje/estudio-1-1/index.html'
       - 'assets/js/translations/pequena-africa.js'
       - 'assets/js/translations/hospedaje-estudio-retirado.js'
@@ -29,7 +31,7 @@ jobs:
           node --check assets/js/translations/pequena-africa.js
           node --check assets/js/translations/hospedaje-estudio-retirado.js
       - name: Build ONLY Pequena Africa and retired Studio in ES-PT-EN
-        run: node scripts/build_multilingual.mjs --routes=/experiencias/pequena-africa/,/hospedaje/estudio-1-1/
+        run: node scripts/build_multilingual.mjs --routes=/,/experiencias/pequena-africa/,/hospedaje/estudio-1-1/
       - name: Assert translated page and retirement semantics
         run: |
           python3 - <<'PY'
@@ -60,6 +62,12 @@ jobs:
             for text in ('Pequena África','Uma caminhada para conhecer','A história que essas ruas contam','Guia do Rio','Passeios e Experiências'):
              assert text in h,(lang,text)
             assert 'Mucho más que un paseo' not in h
+          for lang,prefix,expected in [('es','','TOURS Y EXPERIENCIAS'),('pt','pt/','PASSEIOS E EXPERIÊNCIAS'),('en','en/','TOURS & EXPERIENCES')]:
+           home=root/prefix/'index.html'
+           assert home.exists(),home
+           home_text=unescape(home.read_text())
+           assert expected in home_text,(lang,expected)
+           if lang!='es': assert 'TOURS Y EXPERIENCIAS</p>' not in home_text,lang
           # A route-scoped preview deliberately renders the retired page; its
           # noindex must survive in all three preview HTML variants.
           for lang,prefix in [('es',''),('pt','pt/'),('en','en/')]:
@@ -82,5 +90,14 @@ jobs:
             dist/experiencias/pequena-africa/index.html
             dist/pt/experiencias/pequena-africa/index.html
             dist/en/experiencias/pequena-africa/index.html
+            dist/index.html
+            dist/pt/index.html
+            dist/en/index.html
+            dist/hospedaje/estudio-1-1/index.html
+            dist/pt/hospedaje/estudio-1-1/index.html
+            dist/en/hospedaje/estudio-1-1/index.html
+            assets/js/translations/pequena-africa.js
+            assets/js/translations/hospedaje-estudio-retirado.js
+            assets/js/translations/home.js
           if-no-files-found: warn
           retention-days: 14
