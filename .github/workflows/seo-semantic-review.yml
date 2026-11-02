@@ -11,7 +11,7 @@ on:
       - '.github/workflows/seo-semantic-review.yml'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   isolated-render:
     runs-on: ubuntu-latest
@@ -94,6 +94,45 @@ jobs:
             incremental-translation-release-manifest.json
           if-no-files-found: error
           retention-days: 14
+      - name: Prepare separate minimal Git release branch for Hostinger staging (NO LIVE DEPLOY)
+        run: |
+          set -euo pipefail
+          release=release/pt-en-reviewed-20261102
+          stage=/tmp/ernestinho-20261102-release
+          if git ls-remote --exit-code --heads origin "$release" >/dev/null 2>&1; then
+            echo "Reviewed release branch already exists. Never overwrite it."
+            exit 0
+          fi
+          mkdir -p "$stage/assets/js/translations/chunks"
+          cp -a dist/pt dist/en "$stage/"
+          for f in assets/js/site.js assets/js/translations/chunks/rio-residual-gastronomia-01.js assets/js/translations/chunks/rio-residual-compras-01.js assets/js/buzios-food-places.js assets/js/buzios-restaurant-profile-view.js; do
+            cp -p "dist/$f" "$stage/$f"
+          done
+          cp scripts/publish_incremental_118_hostinger.sh "$stage/release.sh"
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          st=Path('/tmp/ernestinho-20261102-release')
+          fs=sorted(p for loc in ('pt','en') for p in (st/loc).rglob('index.html'))
+          assert len(fs)==118, len(fs)
+          names=[str(p.relative_to(st)) for p in fs]
+          (st/'release-filelist.txt').write_text('\n'.join(names)+'\n')
+          src=['assets/js/site.js','assets/js/translations/chunks/rio-residual-gastronomia-01.js','assets/js/translations/chunks/rio-residual-compras-01.js','assets/js/buzios-food-places.js','assets/js/buzios-restaurant-profile-view.js']
+          assert all((st/n).is_file() for n in src)
+          (st/'release-manifest.json').write_text(json.dumps({'count':118,'origin':'seo/cierre-traducciones-revision-20261102','files':{n:hashlib.sha256((st/n).read_bytes()).hexdigest() for n in names+src}},indent=2))
+          print('Staged',len(names),'HTML and',len(src),'JS for manual reconciliation')
+          PY
+          bash -n "$stage/release.sh"
+          git config user.email "actions@users.noreply.github.com"
+          git config user.name "EC audited release bot"
+          git checkout --orphan "$release"
+          git rm -rf -q .
+          cp -a "$stage/pt" "$stage/en" "$stage/assets" .
+          cp "$stage/release.sh" "$stage/release-filelist.txt" "$stage/release-manifest.json" .
+          git add pt en assets release.sh release-filelist.txt release-manifest.json
+          git commit -m "Audited immutable translation snapshot: 118 HTML, 5 scripts, no sitemap"
+          git push origin "HEAD:refs/heads/$release"
+          echo "Created isolated branch $release. No public site modified."
       - name: Save isolated QA evidence; never upload website files
         if: always()
         uses: actions/upload-artifact@v4
