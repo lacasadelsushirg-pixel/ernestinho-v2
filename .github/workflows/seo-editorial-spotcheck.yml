@@ -1,0 +1,43 @@
+name: Editorial locale spotcheck (4 routes, NO DEPLOY)
+on:
+  push:
+    branches:
+      - seo/traducciones-continuacion-lote2-20261102
+    paths:
+      - '.github/workflows/seo-editorial-spotcheck.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      VERCEL: '1'
+      EC_BUILD_WORKERS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - name: Install build dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Render four routes only (12 HTML, never deploy)
+        run: node scripts/build_multilingual.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/polis-sucos/
+      - name: Package PT and EN rendered pages for editorial verification
+        uses: actions/upload-artifact@v4
+        with:
+          name: locale-copy-spotcheck
+          path: |
+            dist/pt/compras/feira-sao-cristovao/index.html
+            dist/en/compras/feira-sao-cristovao/index.html
+            dist/pt/compras/mercadao-madureira/index.html
+            dist/en/compras/mercadao-madureira/index.html
+            dist/pt/compras/uruguaiana/index.html
+            dist/en/compras/uruguaiana/index.html
+            dist/pt/gastronomia/polis-sucos/index.html
+            dist/en/gastronomia/polis-sucos/index.html
+          retention-days: 7
+      - name: Confirm no deployment
+        run: echo 'Rendering is isolated to GitHub Actions; no publishing, upload, or sitemap changes.'
