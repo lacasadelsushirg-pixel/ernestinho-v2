@@ -30,7 +30,7 @@ try{
     const record={url:c.url,issues:[],characters:0};
     try{
      const res=await page.goto(c.url+'?ec_browser_postdeploy=20261102',{waitUntil:'domcontentloaded',timeout:33000});
-     await page.waitForTimeout(450);
+     await page.waitForTimeout(1350);
      const d=await page.evaluate(()=>({
       lang:document.documentElement.lang||'',
       canonical:document.querySelector('link[rel="canonical"]')?.href||'',
@@ -55,6 +55,7 @@ try{
      if(c.lang==='en'&&c.route==='hospedaje'&&!(d.text.includes('Where you stay should be part of the holiday')||d.text.includes('Choose from apartments')))record.issues.push('New English lodging pitch absent');
      if(c.lang==='en'&&c.route==='hospedaje'&&!d.nav.some(x=>x.includes('Rio Guide')))record.issues.push('Header not in English');
      record.characters=d.text.length;
+     if(record.issues.length){record.renderedTitle=d.title;record.nav=d.nav;record.textPreview=d.text.slice(0,450)}
     }catch(err){record.issues.push('Browser '+err.message.slice(0,200))}
     seen.push(record);if(record.issues.length)errors.push(record);
    }
