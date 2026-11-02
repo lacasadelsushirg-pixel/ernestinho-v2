@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
       - 'scripts/verify_public_translation_release.mjs'
+      - 'scripts/audit_full_site_readonly_20261102.mjs'
       - 'scripts/verify_public_translation_browser.mjs'
       - '.github/workflows/verify-public-translation-release.yml'
   workflow_dispatch:
@@ -11,7 +12,7 @@ permissions:
 jobs:
   public:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 18
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -19,6 +20,8 @@ jobs:
           node-version: '20'
       - name: Inspect production (read only; 84 URLs plus sitemap, robots and language metadata)
         run: node scripts/verify_public_translation_release.mjs
+      - name: Audit all live sitemap URLs and PT-EN body similarity (READ ONLY)
+        run: node scripts/audit_full_site_readonly_20261102.mjs
       - name: Install Chromium browser dependencies
         run: npm ci --no-audit --no-fund
       - name: Inspect all 84 live URLs after client-side JavaScript
@@ -33,4 +36,5 @@ jobs:
           path: |
             qa-public-20261102.json
             qa-public-browser-20261102.json
+            site-wide-audit-20261102.json
           retention-days: 30
