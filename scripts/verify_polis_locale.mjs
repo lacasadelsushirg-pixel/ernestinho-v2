@@ -42,7 +42,7 @@ for(const [lang,expected] of Object.entries(data)){
   pt:['Endereço','Bairro e região','Horários','Preços','Tipo de serviço','Contato','Reservas','Acessibilidade','Transporte'],
   en:['Address','Neighborhood and area','Opening hours','Prices','Type of service','Contact','Reservations','Accessibility','Transportation']
  };
- const paras=[...html.matchAll(/<p\\b[^>]*>([\\s\\S]*?)<\\/p>/gi)].map(m=>m[1].replace(/<[^>]*>/g,' ').replace(/\\s+/g,' ').trim());
+ const paras=[...html.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].map(m=>m[1].replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim());
  for(let n=0;n<9;n++){
   const label=expectedFacts[lang][n];
   if(!paras[10+n]||!paras[10+n].includes(label))errors.push(lang+': misaligned quick fact '+(n+10)+' '+label);
