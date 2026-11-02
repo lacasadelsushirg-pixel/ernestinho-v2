@@ -7,6 +7,8 @@ on:
       - '.github/workflows/seo-preview-pilot.yml'
       - 'scripts/build_multilingual.mjs'
       - 'scripts/verify_rendered_editorial.mjs'
+      - 'assets/js/buzios-food-places.js'
+      - 'assets/js/buzios-restaurant-profile-view.js'
   workflow_dispatch:
 permissions:
   contents: read
