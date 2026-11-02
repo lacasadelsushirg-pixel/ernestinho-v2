@@ -51,7 +51,7 @@ cipher=None
 for trial in range(160):
     cp=subprocess.run(['git','fetch','--quiet','origin',branch],capture_output=True,text=True)
     if cp.returncode==0:
-        cp=subprocess.run(['git','show','FETCH_HEAD:.release/hostinger-upload.enc'],capture_output=True,text=True)
+        cp=subprocess.run(['git','show','FETCH_HEAD:.release/hostinger-upload-'+os.environ['GITHUB_RUN_ID']+'.enc'],capture_output=True,text=True)
         if cp.returncode==0 and cp.stdout.strip().startswith('{'):
             try:
                 cipher=json.loads(cp.stdout)
