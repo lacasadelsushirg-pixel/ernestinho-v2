@@ -1,0 +1,80 @@
+name: Pequena Africa ES-PT-EN and retired studio SEO QA (NO DEPLOY)
+on:
+  pull_request:
+    paths:
+      - 'experiencias/pequena-africa/index.html'
+      - 'hospedaje/estudio-1-1/index.html'
+      - 'assets/js/translations/pequena-africa.js'
+      - 'assets/js/translations/hospedaje-estudio-retirado.js'
+      - '.github/workflows/pequena-africa-studio-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      VERCEL: '1'
+      EC_BUILD_WORKERS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci --no-audit --no-fund
+      - name: Verify JavaScript syntax
+        run: |
+          node --check assets/js/translations/pequena-africa.js
+          node --check assets/js/translations/hospedaje-estudio-retirado.js
+      - name: Build ONLY Pequena Africa and retired Studio in ES-PT-EN
+        run: node scripts/build_multilingual.mjs --routes=/experiencias/pequena-africa/,/hospedaje/estudio-1-1/
+      - name: Assert translated page and retirement semantics
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html import unescape
+          from html.parser import HTMLParser
+          import re
+          root=Path('dist')
+          source=Path('hospedaje/estudio-1-1/index.html').read_text()
+          assert re.search(r'<meta\s+name="robots"\s+content="noindex,follow"',source)
+          assert 'reservas' in source
+          paths={
+           'es':root/'experiencias/pequena-africa/index.html',
+           'pt':root/'pt/experiencias/pequena-africa/index.html',
+           'en':root/'en/experiencias/pequena-africa/index.html',
+          }
+          for lang,p in paths.items():
+           assert p.exists() and p.stat().st_size>4000,p
+           h=unescape(p.read_text())
+           assert '<link rel="canonical"' in h or 'rel="canonical"' in h
+           assert '<meta name="description"' in h
+           if lang=='en':
+            for text in ('Little Africa','Valongo Wharf','A walk through the stories','The history held in these streets','Rio Guide','Tours & Experiences'):
+             assert text in h,(lang,text)
+            for bad in ('Un recorrido para conocer','Mucho más que un paseo','Guía de Río','Yo te recomiendo'):
+             assert bad not in h,(lang,bad)
+           if lang=='pt':
+            for text in ('Pequena África','Uma caminhada para conhecer','A história que essas ruas contam','Guia do Rio','Passeios e Experiências'):
+             assert text in h,(lang,text)
+            assert 'Mucho más que un paseo' not in h
+          # The retirement must not create an indexable URL entry in the partial sitemap.
+          manifest=root/'locale-manifest.json'
+          if manifest.exists():
+           import json
+           routes=json.loads(manifest.read_text())['routes']
+           assert not any('estudio-1-1' in x['route'] for x in routes)
+          print('Pequena Africa ES/PT/EN and studio retirement: PASS (not published)')
+          PY
+      - name: Save isolated generated files for review (NO DEPLOY)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pequena-africa-isolated-preview
+          path: |
+            dist/experiencias/pequena-africa/index.html
+            dist/pt/experiencias/pequena-africa/index.html
+            dist/en/experiencias/pequena-africa/index.html
+          if-no-files-found: warn
+          retention-days: 14
