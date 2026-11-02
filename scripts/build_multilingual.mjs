@@ -299,7 +299,7 @@ async function worker(){
     // The shared site.apply does not update those indexed paragraphs. Activate
     // the original language switcher during isolated rendering only.
     const routeWithoutLocale=location.pathname.replace(/^\/(?:pt|en)(?=\/|$)/i,'')||'/';
-    if(/^\/gastronomia\/(?:arp-bar|classico-leme|quiteria|cosmopolita|polis-sucos|adega-perola|churrascaria-palace)\/$/.test(routeWithoutLocale)){
+    if(/^\/gastronomia\/(?:arp-bar|classico-leme|quiteria|cosmopolita|polis-sucos|adega-perola|churrascaria-palace|lasai)\/$/.test(routeWithoutLocale)){
      const code=language.toLowerCase();
      const switcher=document.querySelector('.lang-switcher button[data-lang="'+code+'"]');
      if(!switcher)throw Error('Legacy language switcher absent: '+routeWithoutLocale+' '+code);
