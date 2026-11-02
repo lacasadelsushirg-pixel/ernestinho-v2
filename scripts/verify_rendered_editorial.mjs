@@ -52,9 +52,16 @@ for(const route of routes){
    const hit=dictionaries[section][block]?.[lang.toUpperCase()];
    if(!hit){errors.push(lang+route+': missing dictionary key '+block.slice(0,65));continue}
    checked++;
-   if(!body.includes(norm(hit)))errors.push(lang+route+': translated visible paragraph absent '+block.slice(0,65));
+   if(!body.includes(norm(hit))){
+    const sourceText=norm(block),translation=norm(hit);
+    errors.push(lang+route+': translated visible paragraph absent '+block.slice(0,65)
+      +' | originalStillVisible='+body.includes(sourceText)
+      +' | originalPrefix='+body.includes(sourceText.slice(0,72))
+      +' | translatedPrefix='+body.includes(translation.slice(0,72))
+      +' | langTag='+html.match(/<html[^>]*lang=["']([^"']+)/i)?.[1]);
+   }
   }
  }
 }
-console.log(JSON.stringify({routes:routes.length,checkedTranslatedBlocks:checked,failures:errors.length,examples:errors.slice(0,30)},null,2));
+console.log(JSON.stringify({routes:routes.length,checkedTranslatedBlocks:checked,failures:errors.length,examples:errors.slice(0,96)},null,2));
 if(errors.length)process.exitCode=1;
