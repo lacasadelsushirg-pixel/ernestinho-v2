@@ -23,9 +23,9 @@ jobs:
           cache: npm
       - name: Install existing build dependencies
         run: npm ci --no-audit --no-fund
-      - name: Render ONLY 2 diagnostic routes in ES/PT/EN (isolated runner)
-        run: node scripts/build_multilingual.mjs --routes=/compras/mercadao-madureira/,/gastronomia/adega-perola/
-      - name: Verify 4 translated pages using source dictionaries and generated HTML
-        run: node scripts/verify_rendered_editorial.mjs --routes=/compras/mercadao-madureira/,/gastronomia/adega-perola/ --diagnostics
+      - name: Render ONLY 18 target routes in ES/PT/EN (isolated runner)
+        run: node scripts/build_multilingual.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/,/gastronomia/bb-lanches/,/gastronomia/cavalo-marinho/
+      - name: Verify 36 translated pages using source dictionaries and generated HTML
+        run: node scripts/verify_rendered_editorial.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/,/gastronomia/bb-lanches/,/gastronomia/cavalo-marinho/
       - name: Confirm non-public isolated preview
         run: echo 'Only GitHub runner dist/ was generated. No Hostinger deploy or production sitemap modification.'
