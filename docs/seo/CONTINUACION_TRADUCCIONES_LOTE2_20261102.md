@@ -66,6 +66,16 @@ Estado final de esa ejecución: **success** en generación selectiva, control de
 
 Se añadieron 92 claves PT/EN en diez fichas más de Gastronomía, manteniendo seis traducciones ya presentes en el diccionario. Las nuevas fichas son Confeitaria Manon, Café do Alto, Casa Porto, Ferro e Farinha Botafogo, Gurumê, Nova Capela, Jobi, Aipo & Aipim 920, Arab Leblon y Churrascaria Palace. Sus 98 bloques largos HTML identificados tienen claves PT/EN en la rama, pero este conteo aún no implica una publicación ni valida las variantes del sitio abierto. Un workflow selectivo de 29 rutas (28 Río + Madame Bardot) fue configurado para probar el HTML renderizado.
 
+### Validación del lote ampliado de 29 rutas — aprobada
+
+GitHub Actions, run `41470578184` (2 de noviembre de 2026): **success**.
+
+- Renderización selectiva **29 rutas × tres idiomas = 87 HTML**: 28 fichas de Río (56 variantes PT/EN) y Madame Bardot Búzios en ES/PT/EN. La palabra `full` que aparece en el registro del generador significa que no estaba sembrado un manifiesto previo en el runner; con `--routes=` se procesaron **solo 87 de 2.574 posibles páginas**, no una reconstrucción completa de producción.
+- Prueba de los **56 HTML PT/EN de Río**: **556 comprobaciones de bloques, 0 incidencias** según el verificador de ausencia de fuente original; 172 casos muestran traducciones alternativas de renderizadores internos y deben revisarse editorialmente antes de afirmar que las páginas están totalmente perfectas.
+- La ficha **Madame Bardot** pasa los controles de párrafos y títulos localizados en PT/EN.
+- La auditoría de claves exactas para las **28 fichas de Río** también terminó con éxito. El diccionario acumuló **281 claves nuevas bilingües** respecto de `seo/indexacion-20261102`; de ellas, 92 provienen del último lote de diez restaurantes.
+- Ninguna de estas pruebas despliega cambios en Hostinger, modifica sitemap público, ni equivale a que Google haya indexado las páginas.
+
 ## Cómo revisar SIN dañar el sitio
 
 1. Antes de fusionar, comprobar cambios recientes en la rama de producción y en el PR #12, preservando el trabajo simultáneo de Carioc-IA y otros componentes.
