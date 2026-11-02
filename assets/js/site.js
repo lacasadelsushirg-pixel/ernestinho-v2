@@ -89,7 +89,7 @@ function translateText(root, lang) {
 }
 function ensureTopbarNav() {
   let bar=document.querySelector(".topbar");
-  const gastronomyDetail=/^\/gastronomia\/[^/]+\/?$/.test(location.pathname);
+  const gastronomyDetail=/^\/gastronomia\/[^/]+\/?$/.test(routeParts().path);
   if(!bar&&gastronomyDetail){
     bar=document.createElement("header");
     bar.className="topbar ec-gastronomy-detail-topbar";

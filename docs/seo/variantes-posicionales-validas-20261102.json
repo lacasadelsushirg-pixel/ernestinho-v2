@@ -1,0 +1,44 @@
+[
+  {
+    "route": "/gastronomia/cabanna/",
+    "locale": "en",
+    "index": 11,
+    "accepted": "🏘️ Neighborhood and area Copacabana, Rio de Janeiro",
+    "reason": "Etiqueta o frase equivalente de la ficha, revisada semánticamente; se conserva sin forzar literalidad."
+  },
+  {
+    "route": "/gastronomia/oro/",
+    "locale": "pt",
+    "index": 11,
+    "accepted": "🏘️ Bairro e região Rua General San Martin, 889, Leblon.",
+    "reason": "Etiqueta o frase equivalente de la ficha, revisada semánticamente; se conserva sin forzar literalidad."
+  },
+  {
+    "route": "/gastronomia/oro/",
+    "locale": "en",
+    "index": 11,
+    "accepted": "🏘️ Neighborhood and area Rua General San Martin, 889, Leblon.",
+    "reason": "Etiqueta o frase equivalente de la ficha, revisada semánticamente; se conserva sin forzar literalidad."
+  },
+  {
+    "route": "/gastronomia/don-pascual/",
+    "locale": "en",
+    "index": 16,
+    "accepted": "📅 Reservations Check availability based on day and party size",
+    "reason": "Etiqueta o frase equivalente de la ficha, revisada semánticamente; se conserva sin forzar literalidad."
+  },
+  {
+    "route": "/gastronomia/don-pascual/",
+    "locale": "en",
+    "index": 17,
+    "accepted": "♿ Accessibility Accessibility not verified",
+    "reason": "Etiqueta o frase equivalente de la ficha, revisada semánticamente; se conserva sin forzar literalidad."
+  },
+  {
+    "route": "/gastronomia/don-pascual/",
+    "locale": "en",
+    "index": 18,
+    "accepted": "🚇 Transportation Check most convenient route",
+    "reason": "Etiqueta o frase equivalente de la ficha, revisada semánticamente; se conserva sin forzar literalidad."
+  }
+]

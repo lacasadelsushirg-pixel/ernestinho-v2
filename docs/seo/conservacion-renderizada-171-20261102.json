@@ -1,0 +1,1033 @@
+{
+  "files": 171,
+  "failures": 0,
+  "errors": [],
+  "details": [
+    {
+      "file": "compras/feira-sao-cristovao/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "compras/uruguaiana/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "compras/mercadao-madureira/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "destinos/buzios/comer-y-salir/madame-bardot/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/compras/feira-sao-cristovao/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/compras/uruguaiana/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/compras/mercadao-madureira/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/destinos/buzios/comer-y-salir/madame-bardot/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/bar-da-gema/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/aipo-aipim-605/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/quiteria/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/joaquina/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/churrascaria-palace/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/temperarte-posto6/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/casa-do-sardo/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/polis-sucos/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/nova-capela/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/rio-scenarium/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/kilograma-centro/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/prana/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/cafe-do-alto/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/confeitaria-manon/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/cabanna/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/oro/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/cachambeer/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/bb-lanches/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/bar-luiz/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/confeitaria-colombo/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/aipo-aipim-920/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/classico-leme/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/cavalo-marinho/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/eclipse/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/don-pascual/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/sabor-das-aguas/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/casa-porto/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/xian/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/coisas-de-bamba/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/pilograma-prime-grill/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/lasai/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/angu-do-gomes/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/spesso/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/sushi-leblon/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/nido-ristorante/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/gurume/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/majorica/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/jobi/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/shiso/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/arp-bar/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/arab-leblon/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/ferro-e-farinha/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/adega-perola/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/delirio/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/aipo-aipim-391/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/point-de-grumari/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/carretao-siqueira/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/cosmopolita/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/pesqueiro/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/bira-de-guaratiba/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/rufino-parrilla/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/bafo-da-prainha/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "en/gastronomia/assador/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/bar-da-gema/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/aipo-aipim-605/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/quiteria/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/joaquina/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/churrascaria-palace/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/temperarte-posto6/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/casa-do-sardo/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/polis-sucos/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/nova-capela/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/rio-scenarium/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/kilograma-centro/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/prana/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/cafe-do-alto/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/confeitaria-manon/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/cabanna/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/oro/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/cachambeer/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/bb-lanches/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/bar-luiz/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/confeitaria-colombo/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/aipo-aipim-920/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/classico-leme/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/cavalo-marinho/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/eclipse/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/don-pascual/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/sabor-das-aguas/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/casa-porto/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/xian/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/coisas-de-bamba/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/pilograma-prime-grill/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/lasai/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/angu-do-gomes/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/spesso/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/sushi-leblon/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/nido-ristorante/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/gurume/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/majorica/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/jobi/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/shiso/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/arp-bar/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/arab-leblon/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/ferro-e-farinha/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/adega-perola/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/delirio/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/aipo-aipim-391/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/point-de-grumari/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/carretao-siqueira/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/cosmopolita/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/pesqueiro/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/bira-de-guaratiba/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/rufino-parrilla/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/bafo-da-prainha/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "gastronomia/assador/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/compras/feira-sao-cristovao/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/compras/uruguaiana/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/compras/mercadao-madureira/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/destinos/buzios/comer-y-salir/madame-bardot/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/bar-da-gema/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/aipo-aipim-605/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/quiteria/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/joaquina/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/churrascaria-palace/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/temperarte-posto6/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/casa-do-sardo/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/polis-sucos/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/nova-capela/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/rio-scenarium/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/kilograma-centro/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/prana/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/cafe-do-alto/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/confeitaria-manon/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/cabanna/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/oro/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/cachambeer/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/bb-lanches/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/bar-luiz/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/confeitaria-colombo/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/aipo-aipim-920/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/classico-leme/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/cavalo-marinho/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/eclipse/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/don-pascual/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/sabor-das-aguas/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/casa-porto/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/xian/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/coisas-de-bamba/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/pilograma-prime-grill/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/lasai/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/angu-do-gomes/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/spesso/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/sushi-leblon/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/nido-ristorante/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/gurume/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/majorica/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/jobi/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/shiso/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/arp-bar/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/arab-leblon/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/ferro-e-farinha/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/adega-perola/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/delirio/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/aipo-aipim-391/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/point-de-grumari/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/carretao-siqueira/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/cosmopolita/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/pesqueiro/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/bira-de-guaratiba/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/rufino-parrilla/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/bafo-da-prainha/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    },
+    {
+      "file": "pt/gastronomia/assador/index.html",
+      "images_unchanged": true,
+      "maps_unchanged": true,
+      "links_unchanged": true
+    }
+  ]
+}

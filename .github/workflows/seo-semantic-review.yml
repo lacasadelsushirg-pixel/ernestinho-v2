@@ -1,0 +1,144 @@
+name: Semantic translation closure (59 routes, NO DEPLOY)
+on:
+  pull_request:
+    paths:
+      - 'gastronomia/**'
+      - 'compras/**'
+      - 'assets/js/site.js'
+      - 'assets/js/translations/**'
+      - 'scripts/**'
+      - 'docs/seo/**'
+      - '.github/workflows/seo-semantic-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  isolated-render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      VERCEL: '1'
+      EC_BUILD_WORKERS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Generate exactly 59 source routes in ES, PT-BR and EN
+        run: node scripts/build_multilingual.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/,/gastronomia/bb-lanches/,/gastronomia/cavalo-marinho/,/gastronomia/confeitaria-manon/,/gastronomia/cafe-do-alto/,/gastronomia/casa-porto/,/gastronomia/ferro-e-farinha/,/gastronomia/gurume/,/gastronomia/nova-capela/,/gastronomia/jobi/,/gastronomia/aipo-aipim-920/,/gastronomia/arab-leblon/,/gastronomia/churrascaria-palace/,/gastronomia/pilograma-prime-grill/,/gastronomia/pesqueiro/,/gastronomia/kilograma-centro/,/gastronomia/point-de-grumari/,/gastronomia/temperarte-posto6/,/gastronomia/xian/,/gastronomia/shiso/,/gastronomia/nido-ristorante/,/gastronomia/sabor-das-aguas/,/gastronomia/rufino-parrilla/,/gastronomia/prana/,/gastronomia/cabanna/,/gastronomia/coisas-de-bamba/,/gastronomia/oro/,/gastronomia/lasai/,/gastronomia/sushi-leblon/,/gastronomia/polis-sucos/,/gastronomia/don-pascual/,/gastronomia/bira-de-guaratiba/,/gastronomia/joaquina/,/gastronomia/delirio/,/gastronomia/spesso/,/gastronomia/eclipse/,/gastronomia/majorica/,/gastronomia/arp-bar/,/gastronomia/classico-leme/,/gastronomia/quiteria/,/gastronomia/cosmopolita/,/destinos/buzios/comer-y-salir/madame-bardot/,/gastronomia/nino-cucina-ipanema/,/gastronomia/temperarte-bolivar/
+      - name: Verify reviewed meaning, position, metadata and unchanged approved markup
+        run: |
+          node scripts/verify_semantic_review.mjs
+          node scripts/verify_legacy_page_dicts.mjs --rendered
+          node scripts/verify_translation_scope.mjs
+          node scripts/audit_flagged_variants.mjs
+          node scripts/verify_embedded_locale_pages.mjs
+          node scripts/verify_locale_shortcopy.mjs
+          node scripts/verify_rendered_editorial.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/,/gastronomia/bb-lanches/,/gastronomia/cavalo-marinho/,/gastronomia/confeitaria-manon/,/gastronomia/cafe-do-alto/,/gastronomia/casa-porto/,/gastronomia/ferro-e-farinha/,/gastronomia/gurume/,/gastronomia/nova-capela/,/gastronomia/jobi/,/gastronomia/aipo-aipim-920/,/gastronomia/arab-leblon/,/gastronomia/churrascaria-palace/,/gastronomia/pilograma-prime-grill/,/gastronomia/pesqueiro/,/gastronomia/kilograma-centro/,/gastronomia/point-de-grumari/,/gastronomia/temperarte-posto6/,/gastronomia/xian/,/gastronomia/shiso/,/gastronomia/nido-ristorante/,/gastronomia/sabor-das-aguas/,/gastronomia/rufino-parrilla/,/gastronomia/prana/,/gastronomia/cabanna/,/gastronomia/coisas-de-bamba/,/gastronomia/oro/,/gastronomia/lasai/,/gastronomia/sushi-leblon/,/gastronomia/polis-sucos/,/gastronomia/don-pascual/,/gastronomia/bira-de-guaratiba/,/gastronomia/joaquina/,/gastronomia/delirio/,/gastronomia/spesso/,/gastronomia/eclipse/,/gastronomia/majorica/ --evidence
+          node scripts/audit_rendered_shortcopy.mjs --strict
+          node scripts/audit_locale_seo_metadata.mjs
+      - name: Prepare an exact PT-EN incremental release archive (no deployment)
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, zipfile
+          from pathlib import Path
+          m=json.loads(Path('dist/locale-manifest.json').read_text())
+          pages=sorted(set('dist/'+x['route'].lstrip('/')+'index.html' for x in m['routes'] if x['language'] in ('PT','EN')))
+          assert len(m['routes'])==177 and len(pages)==118, (len(m['routes']),len(pages))
+          runtime=[
+            'assets/js/site.js',
+            'assets/js/translations/chunks/rio-residual-gastronomia-01.js',
+            'assets/js/translations/chunks/rio-residual-compras-01.js',
+            'assets/js/buzios-food-places.js',
+            'assets/js/buzios-restaurant-profile-view.js'
+          ]
+          release=Path('incremental-translation-release.zip')
+          entries=[]
+          for item in pages:
+              p=Path(item)
+              assert p.is_file() and p.stat().st_size>1024, item
+              entries.append((p, item.removeprefix('dist/'), 'localized_html'))
+          for item in runtime:
+              p=Path('dist')/item
+              assert p.is_file() and p.stat().st_size>100, item
+              entries.append((p,item,'shared_runtime_review_before_overwrite'))
+          forbidden={'sitemap.xml','locale-manifest.json','robots.txt','index.html'}
+          assert len(entries)==123 and all(name not in forbidden for _,name,_ in entries)
+          checklist=('REVISAR ANTES DE PUBLICAR. Paquete incremental: 118 HTML PT/EN + 5 scripts '
+                     'compartidos. No contiene sitemap, manifiesto global, robots ni portada. '
+                     'NO se ha publicado ni fusionado nada. Respaldar los archivos existentes, '
+                     'comparar los 5 scripts con Hostinger y respetar cambios posteriores. '
+                     'Extraer SOLO en la raiz public_html cuando esos controles se cumplan. '
+                     'Validar 84 URLs, HTML renderizado, canonical y hreflang. '
+                     'No pedir indexacion hasta verificar la web publica.\n')
+          with zipfile.ZipFile(release,'w',zipfile.ZIP_DEFLATED,compresslevel=7) as z:
+              for src,arc,typ in entries:z.write(src,arc)
+              z.writestr('INSTRUCCIONES_PUBLICACION.txt',checklist)
+          record={'commit': '58413ec19dee14d447c4d4a6c9ac9061a0f4a87f', 'routes':59, 'generated_html':177,
+                  'publish_html':118,'runtime_assets':runtime,
+                  'sha256':hashlib.sha256(release.read_bytes()).hexdigest(),
+                  'files':[{'path':name,'type':typ,'size':src.stat().st_size,
+                            'sha256':hashlib.sha256(src.read_bytes()).hexdigest()}
+                           for src,name,typ in entries]}
+          Path('incremental-translation-release-manifest.json').write_text(json.dumps(record,indent=2,ensure_ascii=False))
+          print('SAFE RELEASE:',release.stat().st_size,'bytes,',len(entries),'files')
+          PY
+      - name: Archive reviewed incremental files; NO automatic Hostinger upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: incremental-translation-release-reviewed
+          path: |
+            incremental-translation-release.zip
+            incremental-translation-release-manifest.json
+          if-no-files-found: error
+          retention-days: 14
+      - name: Prepare separate minimal Git release branch for Hostinger staging (NO LIVE DEPLOY)
+        run: |
+          set -euo pipefail
+          release=release/pt-en-reviewed-20261102
+          stage=/tmp/ernestinho-20261102-release
+          if git ls-remote --exit-code --heads origin "$release" >/dev/null 2>&1; then
+            echo "Reviewed release branch already exists. Never overwrite it."
+            exit 0
+          fi
+          mkdir -p "$stage/assets/js/translations/chunks"
+          cp -a dist/pt dist/en "$stage/"
+          for f in assets/js/site.js assets/js/translations/chunks/rio-residual-gastronomia-01.js assets/js/translations/chunks/rio-residual-compras-01.js assets/js/buzios-food-places.js assets/js/buzios-restaurant-profile-view.js; do
+            cp -p "dist/$f" "$stage/$f"
+          done
+          cp scripts/publish_incremental_118_hostinger.sh "$stage/release.sh"
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          st=Path('/tmp/ernestinho-20261102-release')
+          fs=sorted(p for loc in ('pt','en') for p in (st/loc).rglob('index.html'))
+          assert len(fs)==118, len(fs)
+          names=[str(p.relative_to(st)) for p in fs]
+          (st/'release-filelist.txt').write_text('\n'.join(names)+'\n')
+          src=['assets/js/site.js','assets/js/translations/chunks/rio-residual-gastronomia-01.js','assets/js/translations/chunks/rio-residual-compras-01.js','assets/js/buzios-food-places.js','assets/js/buzios-restaurant-profile-view.js']
+          assert all((st/n).is_file() for n in src)
+          (st/'release-manifest.json').write_text(json.dumps({'count':118,'origin':'seo/cierre-traducciones-revision-20261102','files':{n:hashlib.sha256((st/n).read_bytes()).hexdigest() for n in names+src}},indent=2))
+          print('Staged',len(names),'HTML and',len(src),'JS for manual reconciliation')
+          PY
+          bash -n "$stage/release.sh"
+          git config user.email "actions@users.noreply.github.com"
+          git config user.name "EC audited release bot"
+          git checkout --orphan "$release"
+          git rm -rf -q .
+          cp -a "$stage/pt" "$stage/en" "$stage/assets" .
+          cp "$stage/release.sh" "$stage/release-filelist.txt" "$stage/release-manifest.json" .
+          git add pt en assets release.sh release-filelist.txt release-manifest.json
+          git commit -m "Audited immutable translation snapshot: 118 HTML, 5 scripts, no sitemap"
+          git push origin "HEAD:refs/heads/$release"
+          echo "Created isolated branch $release. No public site modified."
+      - name: Save isolated QA evidence; never upload website files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reviewed-translations-no-deploy
+          path: |
+            dist/audit-*.json
+            dist/editorial-alternatives.json
+          retention-days: 14

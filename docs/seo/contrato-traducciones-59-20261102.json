@@ -1,0 +1,241 @@
+{
+  "base": "58cc1532a25e5cb397872f920ab0e4bc59d9034c",
+  "routes": [
+    {
+      "file": "compras/feira-sao-cristovao/index.html",
+      "approvedMarkupHash": "b8df5f8bf443a7bf16235a1ea43645a7691be38d86c96bab3e650b9e90ecc4e6"
+    },
+    {
+      "file": "compras/mercadao-madureira/index.html",
+      "approvedMarkupHash": "8cbabfd5b912fa8cb832dda3d0a93af0ec003ee91330563b0301801ac2d8e47a"
+    },
+    {
+      "file": "compras/uruguaiana/index.html",
+      "approvedMarkupHash": "253d9dd2e13171b6bdcff85f055fa74e444da3f99ce42f0f7c00fa8e4a748972"
+    },
+    {
+      "file": "gastronomia/adega-perola/index.html",
+      "approvedMarkupHash": "83fa07dd1b54273058eb5c6b3a31e5262f1066837dc2ebc092915314fbb44e30"
+    },
+    {
+      "file": "gastronomia/aipo-aipim-391/index.html",
+      "approvedMarkupHash": "05bf469624c27d4e91d519ed4673a1ea70d19bae69419a869965492919f2ea41"
+    },
+    {
+      "file": "gastronomia/aipo-aipim-605/index.html",
+      "approvedMarkupHash": "0fac742b2aefa970cc00137a82415796b0066beedd1b0ee8b7dad19200581727"
+    },
+    {
+      "file": "gastronomia/angu-do-gomes/index.html",
+      "approvedMarkupHash": "0701cfd2da6849ab38d7779532446b623786f18be7e29d106d5035450136bc8f"
+    },
+    {
+      "file": "gastronomia/assador/index.html",
+      "approvedMarkupHash": "02dd1aa945eab20f4ea77b955f2b55b1149dc2c718a3dbdfbc9bcb6d5d0f0963"
+    },
+    {
+      "file": "gastronomia/bar-da-gema/index.html",
+      "approvedMarkupHash": "2697b81393c78af3dbd91e4229a74818db3de04d4f7b07a7ef43d8e76b33ab81"
+    },
+    {
+      "file": "gastronomia/bafo-da-prainha/index.html",
+      "approvedMarkupHash": "c99103044dda548f6b74544ed603c7e62ff31edb81eb603f973c541a5b5b79ee"
+    },
+    {
+      "file": "gastronomia/bar-luiz/index.html",
+      "approvedMarkupHash": "277fc50c01359440c2bc82a94e22d67069cbf23f434b0ed84a3c1d2b1d946d8f"
+    },
+    {
+      "file": "gastronomia/confeitaria-colombo/index.html",
+      "approvedMarkupHash": "d70fa8640e478c2fa1d81176dcc9bfec616c33b8bda10d00d7845230809261dd"
+    },
+    {
+      "file": "gastronomia/rio-scenarium/index.html",
+      "approvedMarkupHash": "3cd765d61729998353c82e3778d74ab2e76f874ca6524bf8fd7881b6269aca36"
+    },
+    {
+      "file": "gastronomia/cachambeer/index.html",
+      "approvedMarkupHash": "8ddba1ceb1bb985e9f2a52ca9aeb6129cf2ef5006787d2c7e22890117a075f82"
+    },
+    {
+      "file": "gastronomia/carretao-siqueira/index.html",
+      "approvedMarkupHash": "da67658e22f36b549208ac5cefae0d4db7a6f73dd51116bef6a0a4c6b29a225a"
+    },
+    {
+      "file": "gastronomia/casa-do-sardo/index.html",
+      "approvedMarkupHash": "98820a3add46a1fd40e7b638c7996ad8a86acf9e7a128a6c7fc1c5854fd09c09"
+    },
+    {
+      "file": "gastronomia/bb-lanches/index.html",
+      "approvedMarkupHash": "7607454b47076bae11dde729662801289027c0cdc2718c4fb42922118fdf0091"
+    },
+    {
+      "file": "gastronomia/cavalo-marinho/index.html",
+      "approvedMarkupHash": "c29aef72203ff97bc240fc9ce4011bc6a4329e3447085c07727553c726fd1f43"
+    },
+    {
+      "file": "gastronomia/confeitaria-manon/index.html",
+      "approvedMarkupHash": "792e858ab03dc64bb8f5447b9a2d53d3b2feb5362b8867a75cf81c642c27d90d"
+    },
+    {
+      "file": "gastronomia/cafe-do-alto/index.html",
+      "approvedMarkupHash": "c81a5f962a9508e4a9a25328d45a7a9612405978dbada6397bbdd8314718a69f"
+    },
+    {
+      "file": "gastronomia/casa-porto/index.html",
+      "approvedMarkupHash": "4e5e367599f30ba3f18ba725f5c0a8863166506e442dd83ce19df39304e812d7"
+    },
+    {
+      "file": "gastronomia/ferro-e-farinha/index.html",
+      "approvedMarkupHash": "eb321b33cb81971d96f6fd08ee02ff9b57ffa44ec4037bc732e28504ff7cc5e6"
+    },
+    {
+      "file": "gastronomia/gurume/index.html",
+      "approvedMarkupHash": "c04600054dbcfbbcceb97bcaf7e1545ad9a2ba72ae930e77da9f80344da8eb1a"
+    },
+    {
+      "file": "gastronomia/nova-capela/index.html",
+      "approvedMarkupHash": "a0f109d912f3a2619ccb8a9e131d60329381b2a585c2f0754eb9daed5514e551"
+    },
+    {
+      "file": "gastronomia/jobi/index.html",
+      "approvedMarkupHash": "b9ee2f83c3a1471c6a516870c01b2367c9619e5d37028d1ab4dea805f9c8382b"
+    },
+    {
+      "file": "gastronomia/aipo-aipim-920/index.html",
+      "approvedMarkupHash": "329f8d88a396f8932715e01f61f128134f5d2b1d1ff8cddaa5304feac706c8ce"
+    },
+    {
+      "file": "gastronomia/arab-leblon/index.html",
+      "approvedMarkupHash": "611a59fecf9056ffa9d2f630edfe3a0c07de1d12af8b57f03109f71d42c7bbde"
+    },
+    {
+      "file": "gastronomia/churrascaria-palace/index.html",
+      "approvedMarkupHash": "5f68c924c7389b9255dfb0bada553232dea787db7af3711fc66e64addfb1a2a6"
+    },
+    {
+      "file": "gastronomia/pilograma-prime-grill/index.html",
+      "approvedMarkupHash": "89e7b7416fbd668e0682899d34cd084a648f420a4415229c2863f9d0c0981d54"
+    },
+    {
+      "file": "gastronomia/pesqueiro/index.html",
+      "approvedMarkupHash": "6154e22515056e49612fac6a4b743adc235e20e5a0e62dc65ed08ae19c553011"
+    },
+    {
+      "file": "gastronomia/kilograma-centro/index.html",
+      "approvedMarkupHash": "b8292d5234a8cc84c49fdf4f94626dbff64137c06430f4481b2606024c2c3f54"
+    },
+    {
+      "file": "gastronomia/point-de-grumari/index.html",
+      "approvedMarkupHash": "62451eee5448b5edc79f584f89cceb619f24f50b0c72d53219803f9e40d0e613"
+    },
+    {
+      "file": "gastronomia/temperarte-posto6/index.html",
+      "approvedMarkupHash": "47aa217c30956cb9b434d978e1098e5a3a9b149be0b58d037c23a7e36ab177d5"
+    },
+    {
+      "file": "gastronomia/xian/index.html",
+      "approvedMarkupHash": "99538a4fa3e5e347fa7b9c77a50ae6de9cc7ed9c063446610e2109e47f954850"
+    },
+    {
+      "file": "gastronomia/shiso/index.html",
+      "approvedMarkupHash": "751dd9a6edd11a55206e86a9a90eb52bbe7eec780846c870012c2aa66dfe7c99"
+    },
+    {
+      "file": "gastronomia/nido-ristorante/index.html",
+      "approvedMarkupHash": "337677263c66eef23d13f7e4ddbd0e70dfd54cc19ee5f198a80d531a4466b0fc"
+    },
+    {
+      "file": "gastronomia/sabor-das-aguas/index.html",
+      "approvedMarkupHash": "17d2b2c414ed31888f37e1bfe654e6118f6b0fb19d5c2f3316d4b1b80bbb06eb"
+    },
+    {
+      "file": "gastronomia/rufino-parrilla/index.html",
+      "approvedMarkupHash": "4b8db9542bfe3b94234225d90eb78757760a0d9e8a70d13dbdb23820ba0ea972"
+    },
+    {
+      "file": "gastronomia/prana/index.html",
+      "approvedMarkupHash": "23056d24c320f569103ed9dcc9e7a8fb5a7e015c18167190217f95d7bb32d372"
+    },
+    {
+      "file": "gastronomia/cabanna/index.html",
+      "approvedMarkupHash": "cf93cb7cca6660d481fb44eb65db5e443306fe32ed0ca79c7971a98639b00549"
+    },
+    {
+      "file": "gastronomia/coisas-de-bamba/index.html",
+      "approvedMarkupHash": "b6d6cb3b2c9498e24aebadbc6b2516a04af2510d0f21c976f4da248be53bd523"
+    },
+    {
+      "file": "gastronomia/oro/index.html",
+      "approvedMarkupHash": "f904b21cbbfd95630ccba0395c0d83ef7b627d4279becdcdd3b5fe69b9bdc267"
+    },
+    {
+      "file": "gastronomia/lasai/index.html",
+      "approvedMarkupHash": "3eb9e4f23bc965d751ebe79b1b0c5225dd41f8955da753b93ae5865c53bad584"
+    },
+    {
+      "file": "gastronomia/sushi-leblon/index.html",
+      "approvedMarkupHash": "a6e1d9cfc652ecb46eb375493229ce80d3971c832129b5e891263100eacc3d17"
+    },
+    {
+      "file": "gastronomia/polis-sucos/index.html",
+      "approvedMarkupHash": "e1f19118313ac6fb62e117cca77a3e573aa67d57e5c87c0921f7537302a9096c"
+    },
+    {
+      "file": "gastronomia/don-pascual/index.html",
+      "approvedMarkupHash": "5d6ee6b685ec81b30c60f566325b4aafa14ebd7c2ea5ca8f83d0d696ef3d1fc1"
+    },
+    {
+      "file": "gastronomia/bira-de-guaratiba/index.html",
+      "approvedMarkupHash": "fc28fc8c9fdfeaec4a6f33d3471df6105a07aaf6f695adc98970b804acf91ac2"
+    },
+    {
+      "file": "gastronomia/joaquina/index.html",
+      "approvedMarkupHash": "f8f4ddde22938d677179045d089261d692ad4ab4d8bf17fe5f11e788a0213367"
+    },
+    {
+      "file": "gastronomia/delirio/index.html",
+      "approvedMarkupHash": "a8b203a765e1f5f635102e1e94018cd48b5fdde3c55d539168b48141dc27f561"
+    },
+    {
+      "file": "gastronomia/spesso/index.html",
+      "approvedMarkupHash": "55a3409c1d0a8b25d5f7a77453d52902ae01f612e570c307e6aca60eda56dd4c"
+    },
+    {
+      "file": "gastronomia/eclipse/index.html",
+      "approvedMarkupHash": "379fddda0c21780f2542e3baa7bbd0e721f6b3b977a8f8c342063ea7dc93118e"
+    },
+    {
+      "file": "gastronomia/majorica/index.html",
+      "approvedMarkupHash": "fd8d691d0655bae09140a92d0d73d6c74439a933fdf1bb07b2b23d1b1bb0f4a0"
+    },
+    {
+      "file": "gastronomia/arp-bar/index.html",
+      "approvedMarkupHash": "fc9647104aa184a7b087e21f7a53d9d540b5b12809abbe696658ac635855a5cb"
+    },
+    {
+      "file": "gastronomia/classico-leme/index.html",
+      "approvedMarkupHash": "a1cc51d30280e247f8bc5ce4f956584d7109316cf1550bbdf4861e4f0e161cf2"
+    },
+    {
+      "file": "gastronomia/quiteria/index.html",
+      "approvedMarkupHash": "da08afa0e8ed7d39ab4983276dbd146be7f1105787cbb4254f1fd6a44babf28a"
+    },
+    {
+      "file": "gastronomia/cosmopolita/index.html",
+      "approvedMarkupHash": "49f46cf9a44e0e6f161712ea02c7bcce4e324aa9f6a9369a526bfe6727c80c46"
+    },
+    {
+      "file": "destinos/buzios/comer-y-salir/madame-bardot/index.html",
+      "approvedMarkupHash": "70a2b2dd8846ab4cd98b7dae83e2ef0e190d82740ded828f274533a77c309422"
+    },
+    {
+      "file": "gastronomia/nino-cucina-ipanema/index.html",
+      "approvedMarkupHash": "ae3c196fcfecfd1c957c971291f16f16a6095ed90769b5a0652dc80e3c295992"
+    },
+    {
+      "file": "gastronomia/temperarte-bolivar/index.html",
+      "approvedMarkupHash": "07a71ead90e53fad0bf19a235185005f75d5ffc79fbd36e95846f21956a95dd0"
+    }
+  ]
+}
