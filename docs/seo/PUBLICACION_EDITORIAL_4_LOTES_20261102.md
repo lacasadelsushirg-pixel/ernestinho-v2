@@ -69,3 +69,13 @@
 4. Al hacer cambios sobre una ficha, contrastar con producción primero para no revertir traducciones o historial.
 5. Publicar cambios solo por reemplazo selectivo con backup previo y verificación HTTP y navegador.
 6. La publicación de contenido no equivale a indexación de Google. El sitemap principal no se ha tocado.
+
+
+## Cierre adicional posterior a la publicación
+- **Corrección SEO pública completada:** https://github.com/lacasadelsushirg-pixel/ernestinho-v2/actions/runs/41539998668
+- Los 111 títulos y descripciones de las 37 rutas quedaron sincronizados también en el **código fuente**, manteniendo las demás reglas del SEO global existentes en producción.
+- **Auditoría en navegador real completada 111/111, sin fallos:** https://github.com/lacasadelsushirg-pixel/ernestinho-v2/actions/runs/41540649972
+- Validó idioma visual, canonical, hreflang, texto en DOM y 12 tarjetas de alojamiento con `object-fit:contain`.
+- La copia de seguridad del módulo SEO anterior quedó en el artifact `guarded-seo-metadata-original-backup-and-proof` del run 41539998668.
+- Los workflows de publicación de una sola ejecución y las autorizaciones cifradas temporales fueron retirados.
+- Quedan fuera de este cierre las demás fichas no pertenecientes a estas 37 rutas y los informes de indexación de Google.
