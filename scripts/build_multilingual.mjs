@@ -305,7 +305,7 @@ async function worker(){
      if(typeof window.setLang!=='function')throw Error('Feira localizer not found');
      window.setLang(language.toLowerCase());
     }
-    if(/^\/gastronomia\/(?:arp-bar|classico-leme|quiteria|cosmopolita|polis-sucos|adega-perola|churrascaria-palace|lasai)\/$/.test(routeWithoutLocale)){
+    if(/^\/gastronomia\/(?:arp-bar|classico-leme|quiteria|cosmopolita|polis-sucos|adega-perola|churrascaria-palace|lasai|rio-scenarium)\/$/.test(routeWithoutLocale)){
      const code=language.toLowerCase();
      const switcher=document.querySelector('.lang-switcher button[data-lang="'+code+'"]');
      if(!switcher)throw Error('Legacy language switcher absent: '+routeWithoutLocale+' '+code);
@@ -329,16 +329,24 @@ async function worker(){
     const canonical=origin+route;
     const sourcePath=route.replace(/^\/(pt|en)(?=\/|$)/,'')||'/';
     const prefix=(r,l)=>l==='es'?r:'/'+l+r;
-    // The shared photo renderer can restore Spanish ALT values after inline
-    // locale switchers have correctly localized captions. Preserve the
-    // route-specific inline T dictionary as the source of translated ALT text.
-    if(/^\/gastronomia\/(?:adega-perola|churrascaria-palace|lasai)\/$/.test(sourcePath) && language!=='es'){
-     const legacy=[...document.querySelectorAll('script:not([src])')]
-      .map(x=>x.textContent).find(x=>x.includes('const T={')&&x.includes(';const title='));
-     const block=legacy?.match(/const T=(\{[\s\S]*?\});const title=/);
-     if(!block)throw Error('Inline photo translations unavailable for '+sourcePath);
-     const dictionary=JSON.parse(block[1])[language==='pt-BR'?'pt':'en'];
-     if(!dictionary)throw Error('Photo locale dictionary missing for '+sourcePath);
+    // The shared photo renderer may restore Spanish ALT labels after the
+    // inline PT/EN dictionary has translated the page. Apply the dictionary
+    // once more to image ALT attributes, without changing image URLs or files.
+    if(/^\/gastronomia\/(?:adega-perola|churrascaria-palace|lasai|rio-scenarium|polis-sucos)\/$/.test(sourcePath)&&language!=='es'){
+     const scripts=[...document.querySelectorAll('script:not([src])')].map(n=>n.textContent);
+     let dictionary=null;
+     if(sourcePath==='/gastronomia/polis-sucos/'){
+      const code=scripts.find(s=>s.includes('const P={')&&s.includes('},E={'));
+      const block=code?.match(/const P=(\{[\s\S]*?\}),E=(\{[\s\S]*?\}),O=\[\]/);
+      if(!block)throw Error('Polis photo dictionary not found');
+      dictionary=JSON.parse(language==='pt-BR'?block[1]:block[2]);
+     }else{
+      const code=scripts.find(s=>s.includes('const T={')&&s.includes(';const title='));
+      const block=code?.match(/const T=(\{[\s\S]*?\});const title=/);
+      if(!block)throw Error('Photo translations unavailable for '+sourcePath);
+      dictionary=JSON.parse(block[1])[language==='pt-BR'?'pt':'en'];
+     }
+     if(!dictionary)throw Error('Photo dictionary missing for '+sourcePath);
      for(const img of document.querySelectorAll('img[alt]')){
       const original=(img.getAttribute('data-ec-alt')||img.getAttribute('alt')||'').trim();
       const localized=dictionary[original]||(language==='pt-BR'

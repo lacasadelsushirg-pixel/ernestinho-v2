@@ -9,6 +9,7 @@ on:
       - 'gastronomia/churrascaria-palace/index.html'
       - 'gastronomia/rio-scenarium/index.html'
       - 'gastronomia/lasai/index.html'
+      - 'gastronomia/rio-scenarium/index.html'
       - 'gastronomia/polis-sucos/index.html'
       - 'scripts/verify_locale_shortcopy.mjs'
       - 'scripts/build_multilingual.mjs'

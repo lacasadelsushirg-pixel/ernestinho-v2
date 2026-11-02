@@ -15,6 +15,9 @@ const items=[
  {route:'gastronomia/adega-perola',selector:'alt',text:{pt:'A fachada e a chegada ao restaurante',en:'The façade and arrival at the restaurant'}},
  {route:'gastronomia/churrascaria-palace',selector:'alt',text:{pt:'A fachada e a chegada ao restaurante',en:'The façade and arrival at the restaurant'}},
  {route:'gastronomia/lasai',selector:'alt',text:{pt:'Lasai: prato ou bebida',en:'Lasai: dish or drink'}},
+ {route:'gastronomia/polis-sucos',selector:'alt',text:{pt:'Polis Sucos em Ipanema',en:'Polis Sucos in Ipanema'}},
+ {route:'gastronomia/rio-scenarium',selector:'alt',text:{pt:'Rio Scenarium — ambiente e caráter visual',en:'Rio Scenarium — atmosphere and visual character'}},
+ {route:'gastronomia/rio-scenarium',selector:'caption',text:{pt:'Rio Scenarium: imagem 1',en:'Rio Scenarium: image 1'}},
  {route:'compras/feira-sao-cristovao',selector:'rec',text:{pt:'Eu não tentaria conhecer tudo em uma visita.',en:'I would not try to see everything in one visit.'}},
  {route:'compras/feira-sao-cristovao',selector:'family',text:{pt:'Pode funcionar para famílias, casais e viajantes.',en:'It can work for families, couples and solo travelers.'}}
 ];
