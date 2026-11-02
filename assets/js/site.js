@@ -496,7 +496,7 @@ async function init() {
     if (added.length) for (const node of added) { translateText(node, getLanguage()); translateAttrs(getLanguage()); applyTranslations(node, getLanguage()); localizeLinks(node); }
     // Some legacy widgets replace header labels after navigation initializes.
     // This is idempotent and avoids mutation loops once text matches the locale.
-    if (added.length && records.some(r=>r.target?.closest?.(".topbar") || (r.target?.classList?.contains("topbar")))) syncTopbarNavLanguage(getLanguage());
+    if (records.some(r=>r.target?.closest?.(".topbar") || (r.target?.classList?.contains("topbar")))) syncTopbarNavLanguage(getLanguage());
   });
   observer.observe(document.body, { childList: true, subtree: true });
   document.addEventListener("ec:language", event => {
