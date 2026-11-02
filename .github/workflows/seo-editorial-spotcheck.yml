@@ -9,6 +9,8 @@ on:
       - 'gastronomia/churrascaria-palace/index.html'
       - 'gastronomia/rio-scenarium/index.html'
       - 'gastronomia/lasai/index.html'
+      - 'gastronomia/polis-sucos/index.html'
+      - 'scripts/verify_locale_shortcopy.mjs'
   workflow_dispatch:
 permissions:
   contents: read
@@ -29,6 +31,8 @@ jobs:
         run: npm ci --no-audit --no-fund
       - name: Render eight routes only (24 HTML, never deploy)
         run: node scripts/build_multilingual.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/polis-sucos/,/gastronomia/adega-perola/,/gastronomia/churrascaria-palace/,/gastronomia/rio-scenarium/,/gastronomia/lasai/
+      - name: Check untranslated Portuguese and English notices and map headings
+        run: node scripts/verify_locale_shortcopy.mjs
       - name: Package PT and EN rendered pages for editorial verification
         uses: actions/upload-artifact@v4
         with:
