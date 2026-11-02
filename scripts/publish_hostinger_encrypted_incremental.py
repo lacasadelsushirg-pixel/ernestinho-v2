@@ -39,8 +39,9 @@ assert not any(x in FILES for x in ['index.html','sitemap.xml','robots.txt','ass
 print('PREPARED: '+str(len(ROUTES))+' routes x 3 + '+str(len(SHARED))+' scoped assets',flush=True)
 
 # One ephemeral private key in runner memory / tmp. Never committed to GitHub.
-subprocess.run(['openssl','genpkey','-algorithm','RSA','-pkeyopt','rsa_keygen_bits:3072','-out','/tmp/ec-hostinger-key.pem'],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
-subprocess.run(['openssl','pkey','-in','/tmp/ec-hostinger-key.pem','-pubout','-out','/tmp/ec-hostinger-public.pem'],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+if not pathlib.Path('/tmp/ec-hostinger-key.pem').is_file():
+    subprocess.run(['openssl','genpkey','-algorithm','RSA','-pkeyopt','rsa_keygen_bits:3072','-out','/tmp/ec-hostinger-key.pem'],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+    subprocess.run(['openssl','pkey','-in','/tmp/ec-hostinger-key.pem','-pubout','-out','/tmp/ec-hostinger-public.pem'],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
 print('BEGIN_EPHEMERAL_PUBLIC_KEY',flush=True)
 print(pathlib.Path('/tmp/ec-hostinger-public.pem').read_text(),end='',flush=True)
 print('END_EPHEMERAL_PUBLIC_KEY',flush=True)
