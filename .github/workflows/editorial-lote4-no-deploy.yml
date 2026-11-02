@@ -1,0 +1,106 @@
+name: SEO lote 4 — Gastronomia ocho fichas ES PT EN (NO DEPLOY)
+on:
+  pull_request:
+    paths:
+      - 'gastronomia/delirio-centro/index.html'
+      - 'gastronomia/fiorino/index.html'
+      - 'gastronomia/confeitaria-manon/index.html'
+      - 'gastronomia/curto-cafe/index.html'
+      - 'gastronomia/casa-cave/index.html'
+      - 'gastronomia/galeto-liceu/index.html'
+      - 'gastronomia/adega-perola/index.html'
+      - 'gastronomia/cafe-lamas/index.html'
+      - 'assets/js/translations/gastronomia-lote4.js'
+      - 'scripts/build_multilingual.mjs'
+      - '.github/workflows/editorial-lote4-no-deploy.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      VERCEL: '1'
+      EC_BUILD_WORKERS: '2'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Validate ES PT EN translation module
+        run: node --check assets/js/translations/gastronomia-lote4.js
+      - name: Generate only 8 restaurant pages in three languages
+        run: node scripts/build_multilingual.mjs --routes=/gastronomia/delirio-centro/,/gastronomia/fiorino/,/gastronomia/confeitaria-manon/,/gastronomia/curto-cafe/,/gastronomia/casa-cave/,/gastronomia/galeto-liceu/,/gastronomia/adega-perola/,/gastronomia/cafe-lamas/
+      - name: Verify 24 pages, titles, text, photos and corrected locations
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,re
+          from html import unescape
+          routes=["delirio-centro","fiorino","confeitaria-manon","curto-cafe","casa-cave","galeto-liceu","adega-perola","cafe-lamas"]
+          raw=Path('assets/js/translations/gastronomia-lote4.js').read_text()
+          locales=json.loads(re.search(r'registerTranslations\("gastronomia-lote4", (\{[\s\S]*\})\);\s*$',raw).group(1))
+          assert len(locales['ES'])==len(locales['PT'])==len(locales['EN'])==64,len(locales['ES'])
+          errors=[]
+          for slug in routes:
+           base='lote4_'+slug.replace('-','_')
+           for lang,prefix in (('ES',''),('PT','pt/'),('EN','en/')):
+            p=Path('dist')/prefix/'gastronomia'/slug/'index.html'
+            if not p.is_file():
+             errors.append((str(p),'missing'));continue
+            s=unescape(p.read_text())
+            if 'rel="canonical"' not in s:errors.append((str(p),'missing canonical'))
+            if not re.search(r'<html\b[^>]*\blang=',s):errors.append((str(p),'missing html lang'))
+            for key in (base+'_title',base+'_desc',base+'_0',base+'_1',base+'_2'):
+             if locales[lang][key] not in s:errors.append((str(p),'translation missing',key))
+            if lang!='ES':
+             for key in (base+'_0',base+'_1',base+'_2'):
+              if locales['ES'][key] in s:errors.append((str(p),'ES text leaked',key))
+            if '<img' not in s:errors.append((str(p),'image missing'))
+            if slug=='curto-cafe':
+             if 'Rua da Assembleia, 10' not in s:errors.append((str(p),'new verified address missing'))
+             if 'Curto%20Cafe%20Rua%20do%20Senado' in s:errors.append((str(p),'old map present'))
+            if slug=='galeto-liceu':
+             if 'Rua Senador Dantas, 118' not in s:errors.append((str(p),'correct address missing'))
+             if 'Galeto%20Liceu%20Rua%20do%20Lavradio' in s:errors.append((str(p),'old map present'))
+             if 'Centro/Lapa' in s:errors.append((str(p),'old neighborhood label present'))
+            if slug=='cafe-lamas' and '21 de octubre de 2026' not in s and lang=='ES':errors.append((str(p),'reopen news missing'))
+          assert not errors,json.dumps(errors[:45],ensure_ascii=False)
+          print('PASS — 24 ES/PT/EN restaurant HTML; corrected venue addresses, canonical, translations and images.')
+          PY
+      - name: Browser audit of all 111 published pages, language and lodging image framing
+        run: node scripts/verify_public_editorial_111_browser.mjs
+      - name: Preserve real-browser SEO and visual QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: 111-public-browser-live-ui-qa
+          path: qa-public-editorial-111-browser.json
+          retention-days: 10
+          if-no-files-found: warn
+      - name: Build exact scope ZIP, no full deploy
+        run: |
+          python3 - <<'PY'
+          import zipfile,hashlib,json
+          from pathlib import Path
+          routes=["delirio-centro","fiorino","confeitaria-manon","curto-cafe","casa-cave","galeto-liceu","adega-perola","cafe-lamas"]
+          entries=[(Path('dist')/prefix/'gastronomia'/slug/'index.html',prefix+'gastronomia/'+slug+'/index.html')
+             for prefix in ('','pt/','en/') for slug in routes]
+          entries.append((Path('assets/js/translations/gastronomia-lote4.js'),'assets/js/translations/gastronomia-lote4.js'))
+          assert len(entries)==25 and all(p.is_file() for p,_ in entries)
+          dst=Path('ernestinho-lote4-24-paginas-revision-selectiva.zip')
+          with zipfile.ZipFile(dst,'w',zipfile.ZIP_DEFLATED) as z:
+           for p,name in entries:z.write(p,name)
+           z.writestr('INSTRUCCIONES.txt','No publicado. Conciliar con Hostinger y respaldar todos los archivos antes de subir. Subir solo 8 rutas en ES/PT/EN y un modulo de traducciones. No sobrescribir public_html completo, sitemap.xml, robots.txt, site.js, traducciones ajenas, Carioc-IA ni archivos compartidos. Confirmar estado en vivo antes de indexar.')
+           z.writestr('SHA256.json',json.dumps({name:hashlib.sha256(p.read_bytes()).hexdigest() for p,name in entries},indent=2))
+          print('Staged 25 files',dst.stat().st_size,'bytes')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ernesto-lote4-8-gastronomia-24html-no-deploy
+          path: ernestinho-lote4-24-paginas-revision-selectiva.zip
+          retention-days: 15
+          if-no-files-found: error
