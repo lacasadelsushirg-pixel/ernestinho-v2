@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
       - 'scripts/verify_public_translation_release.mjs'
+      - 'scripts/verify_public_translation_browser.mjs'
       - '.github/workflows/verify-public-translation-release.yml'
   workflow_dispatch:
 permissions:
@@ -18,10 +19,18 @@ jobs:
           node-version: '20'
       - name: Inspect production (read only; 84 URLs plus sitemap, robots and language metadata)
         run: node scripts/verify_public_translation_release.mjs
+      - name: Install Chromium browser dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Inspect all 84 live URLs after client-side JavaScript
+        env:
+          VERCEL: '1'
+        run: node scripts/verify_public_translation_browser.mjs
       - name: Save per-URL public evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: live-84-pt-en-evidence
-          path: qa-public-20261102.json
+          path: |
+            qa-public-20261102.json
+            qa-public-browser-20261102.json
           retention-days: 30
