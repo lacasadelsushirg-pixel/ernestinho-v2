@@ -8,6 +8,8 @@ on:
       - 'scripts/build_multilingual.mjs'
       - 'scripts/verify_rendered_editorial.mjs'
       - 'scripts/verify_embedded_locale_pages.mjs'
+      - 'scripts/verify_legacy_page_dicts.mjs'
+      - 'gastronomia/**/index.html'
       - 'scripts/audit_locale_seo_metadata.mjs'
       - 'scripts/audit_flagged_variants.mjs'
       - 'gastronomia/arp-bar/index.html'
@@ -43,6 +45,8 @@ jobs:
         run: node scripts/audit_flagged_variants.mjs
       - name: Verify 104 translated pages using source dictionaries and generated HTML
         run: node scripts/verify_rendered_editorial.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/,/gastronomia/bb-lanches/,/gastronomia/cavalo-marinho/,/gastronomia/confeitaria-manon/,/gastronomia/cafe-do-alto/,/gastronomia/casa-porto/,/gastronomia/ferro-e-farinha/,/gastronomia/gurume/,/gastronomia/nova-capela/,/gastronomia/jobi/,/gastronomia/aipo-aipim-920/,/gastronomia/arab-leblon/,/gastronomia/churrascaria-palace/,/gastronomia/pilograma-prime-grill/,/gastronomia/pesqueiro/,/gastronomia/kilograma-centro/,/gastronomia/point-de-grumari/,/gastronomia/temperarte-posto6/,/gastronomia/xian/,/gastronomia/shiso/,/gastronomia/nido-ristorante/,/gastronomia/sabor-das-aguas/,/gastronomia/rufino-parrilla/,/gastronomia/prana/,/gastronomia/cabanna/,/gastronomia/coisas-de-bamba/,/gastronomia/oro/,/gastronomia/lasai/,/gastronomia/sushi-leblon/,/gastronomia/polis-sucos/,/gastronomia/don-pascual/,/gastronomia/bira-de-guaratiba/,/gastronomia/joaquina/,/gastronomia/delirio/,/gastronomia/spesso/,/gastronomia/eclipse/,/gastronomia/majorica/ --evidence
+      - name: Verify alignment of 21 repaired PT/EN restaurant dictionaries
+        run: node scripts/verify_legacy_page_dicts.mjs --rendered
       - name: Verify 15 inline-locale generated pages
         run: node scripts/verify_embedded_locale_pages.mjs
       - name: Verify Madame Bardot Búzios content in Portuguese and English
