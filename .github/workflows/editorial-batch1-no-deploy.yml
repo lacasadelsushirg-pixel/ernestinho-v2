@@ -86,6 +86,43 @@ jobs:
         run: |
           echo 'READ-ONLY BUILD: 9 routes × 3 languages. No Hostinger deploy.'
           echo 'No sitemap.xml, locale-manifest.json or shared production JS publication.'
+      - name: Prepare scoped release package only (NO HOSTINGER DEPLOY)
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from hashlib import sha256
+          import zipfile,json
+          routes=['hospedaje','compras/feira-saens-pena','compras/mercados-populares','consejos/atardeceres-inolvidables','experiencias/bioparque','experiencias/vidigal','destinos/buzios','destinos/buzios/playas','cultura/nossa-senhora-paz']
+          html=[(Path('dist')/prefix/route/'index.html',prefix+route+'/index.html') for prefix in ('','pt/','en/') for route in routes]
+          assert len(html)==27 and all(p.is_file() for p,_ in html)
+          runtime=['assets/css/hospedaje.css','assets/css/editorial-lote1.css','assets/js/hospedaje.js','assets/js/site.js','assets/js/translations/editorial-lote1.js']
+          assert all(Path(p).is_file() for p in runtime)
+          archive=Path('editorial-lote1-review-before-upload.zip')
+          instructions=('LOTE 1 — PRUEBAS COMPLETADAS, NO PUBLICADO AUTOMÁTICAMENTE.\n'
+            '27 HTML ES/PT/EN + 5 archivos compartidos de estilos y scripts.\n'
+            'Respaldar cada archivo público ANTES de modificarlo.\n'
+            'IMPORTANTÍSIMO: no sobrescribir assets/js/site.js sin comparar con la versión vigente en Hostinger: puede contener otros avances de Carioc-IA u otros módulos.\n'
+            'Conciliar igualmente los demás archivos compartidos.\n'
+            'Publicar ÚNICAMENTE las rutas revisadas mediante copia incremental.\n'
+            'NO contiene ni debe sobreescribir sitemap.xml, robots.txt, locale-manifest.json ni la portada general index.html.\n'
+            'Verificar tres idiomas, fotografías enteras, menú global y rastreo después de publicar.\n'
+            'El paquete no debe ejecutarse como despliegue completo.\n')
+          entries=[(p,d,'html') for p,d in html]+[(Path(p),p,'runtime-review') for p in runtime]
+          manifest={'html_count':len(html),'runtime_count':len(runtime),'manual_review_required':True,'no_full_deploy':True,
+            'files':[{'path':dst,'kind':kind,'sha256':sha256(p.read_bytes()).hexdigest()} for p,dst,kind in entries]}
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=7) as z:
+           for p,dst,_ in entries:z.write(p,dst)
+           z.writestr('INSTRUCCIONES_PUBLICACION_SELECTIVA.txt',instructions)
+           z.writestr('MANIFEST_SHA256.json',json.dumps(manifest,ensure_ascii=False,indent=2))
+          print('Release staged:',archive,'files',len(entries),'bytes',archive.stat().st_size)
+          PY
+      - name: Archive approved selective release for manual reconciliation
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-lote1-publicacion-selectiva-revisada
+          path: editorial-lote1-review-before-upload.zip
+          if-no-files-found: error
+          retention-days: 14
       - name: Save 27 reviewed HTML as downloadable evidence
         if: always()
         uses: actions/upload-artifact@v4
