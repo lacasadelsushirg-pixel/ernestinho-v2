@@ -32,7 +32,7 @@ const withoutScripts=s=>s.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'')
  .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'')
  .replace(/<!--[ \s\S]*?-->/g,'');
 const visible=s=>norm(withoutScripts(s).replace(/<[^>]+>/g,' '));
-let checked=0;const errors=[];const alternatives=[];
+let checked=0;const errors=[];const alternatives=[];const alternativeDetails=[];
 for(const route of routes){
  if(!/^\/(compras|gastronomia)\/[^/]+\/$/.test(route))throw Error('Unsupported route '+route);
  const section=route.split('/')[1];
@@ -70,10 +70,20 @@ for(const route of routes){
    if(!body.includes(norm(hit))){
     const src=norm(block);
     if(body.includes(src)||body.includes(src.slice(0,90)))errors.push(lang+route+': untranslated original visible '+block.slice(0,72));
-    else alternatives.push(lang+route+': different localized wording '+block.slice(0,65));
+    else{
+     alternatives.push(lang+route+': different localized wording '+block.slice(0,65));
+     alternativeDetails.push({locale:lang,route,spanishSource:src,dictionaryExpected:norm(hit),
+      renderedSourceAbsent:!body.includes(src)&&!body.includes(src.slice(0,90))});
+    }
    }
   }
  }
 }
 console.log(JSON.stringify({routes:routes.length,checkedTranslatedBlocks:checked,failures:errors.length,alternativeLocalizations:alternatives.length,alternativeExamples:alternatives.slice(0,16),examples:errors.slice(0,96)},null,2));
+if(process.argv.includes('--evidence')){
+ const output=path.join(root,'dist','editorial-alternatives.json');
+ fs.writeFileSync(output,JSON.stringify({count:alternativeDetails.length,
+  explanation:'Alternatives are visible localized wording different from dictionary values; original Spanish source has been checked as absent. Manual semantic review still required.',
+  details:alternativeDetails},null,2)+'\n');
+}
 if(errors.length)process.exitCode=1;
