@@ -5,7 +5,7 @@ Revisión del 2 de noviembre de 2026, sobre la rama `seo/traducciones-continuaci
 ## Criterio de esta auditoría
 
 - Se leyeron los HTML fuente de **53 rutas gastronómicas** presentes en el reporte original de Work y se compararon con las claves exactas del diccionario residual de Gastronomía.
-- Tras las correcciones del PR #13, **25 rutas gastronómicas** tienen cobertura de los bloques largos visibles examinados; siguen **28 rutas** con **297 bloques visibles de más de 100 caracteres sin traducción PT/EN en ese diccionario**.
+- Tras las correcciones del PR #13, **48 rutas gastronómicas** tienen cobertura de los bloques largos visibles examinados; siguen **5 rutas** con **53 bloques visibles de más de 100 caracteres sin traducción PT/EN en ese diccionario**.
 - Estos 389 bloques NO son el número de variantes URL sin indexar ni un conteo de todos los elementos sin traducir; los títulos breves, elementos compuestos, metadatos y contenido JavaScript dinámico quedan fuera del alcance del patrón.
 - El informe Work de 82 variantes pendientes sigue vigente hasta que se compruebe el contenido real de las URL publicadas. **No confundir trabajo de fuente con indexación.**
 
@@ -13,35 +13,12 @@ Revisión del 2 de noviembre de 2026, sobre la rama `seo/traducciones-continuaci
 
 | Ruta gastronómica | Bloques largos sin cobertura residual |
 |---|---:|
-| `/gastronomia/oro/` | 14 |
-| `/gastronomia/polis-sucos/` | 13 |
-| `/gastronomia/sushi-leblon/` | 13 |
-| `/gastronomia/don-pascual/` | 13 |
 | `/gastronomia/classico-leme/` | 12 |
 | `/gastronomia/arp-bar/` | 11 |
-| `/gastronomia/joaquina/` | 11 |
-| `/gastronomia/prana/` | 11 |
 | `/gastronomia/quiteria/` | 11 |
-| `/gastronomia/spesso/` | 11 |
-| `/gastronomia/delirio/` | 11 |
-| `/gastronomia/eclipse/` | 11 |
-| `/gastronomia/sabor-das-aguas/` | 11 |
-| `/gastronomia/point-de-grumari/` | 10 |
-| `/gastronomia/temperarte-posto6/` | 10 |
-| `/gastronomia/xian/` | 10 |
-| `/gastronomia/bira-de-guaratiba/` | 10 |
-| `/gastronomia/kilograma-centro/` | 10 |
-| `/gastronomia/lasai/` | 10 |
 | `/gastronomia/majorica/` | 10 |
-| `/gastronomia/nido-ristorante/` | 10 |
-| `/gastronomia/rufino-parrilla/` | 10 |
-| `/gastronomia/shiso/` | 10 |
 | `/gastronomia/cosmopolita/` | 9 |
-| `/gastronomia/pesqueiro/` | 9 |
-| `/gastronomia/cabanna/` | 9 |
-| `/gastronomia/coisas-de-bamba/` | 9 |
-| `/gastronomia/pilograma-prime-grill/` | 8 |
-| **Total: 28 rutas** | **297** |
+| **Total: 5 rutas** | **53** |
 
 ## Casos especiales de idioma de origen
 
@@ -50,6 +27,12 @@ Las fichas `/gastronomia/arp-bar/`, `/gastronomia/classico-leme/` y `/gastronomi
 ## Avance del lote ampliado
 
 Diez fichas pasaron a cobertura de bloques largos PT/EN en código: Confeitaria Manon, Café do Alto, Casa Porto, Ferro e Farinha Botafogo, Gurumê, Nova Capela, Jobi, Aipo & Aipim 920, Arab Leblon y Churrascaria Palace. Se incorporaron **92 entradas** bilingües nuevas; otras seis claves de estas diez fichas ya existían. La publicación y la revisión real de idiomas no se infieren de este avance.
+
+## Estado tras el lote de 23 fichas (sin publicación)
+
+Se completaron las traducciones de los bloques largos de otras **23 fichas** con **237 claves ES→PT/EN nuevas**, manteniendo entradas que ya existían. La cobertura acumulada alcanza 48 fichas gastronómicas de las 53 originales de Work. Continúan cinco fichas **de naturaleza distinta**: `arp-bar`, `classico-leme` y `quiteria` presentan prosa en portugués dentro del archivo fuente que debería ser español; `majorica` tiene también bloques fuente en portugués; `cosmopolita` presenta referencias de barrios/localización contradictorias y requiere verificar el establecimiento antes de traducir. Una mera clave PT/EN no corrige el texto español ni la información ambigua.
+
+Se configuraron acciones de QA para las **51 fichas de Río** cubiertas (incluyendo Compras) y Madame Bardot; el resultado de ejecución debe revisarse antes de integrar. **No se ha tocado Hostinger, el sitemap público ni Carioc-IA.**
 
 ## Próximos lotes seguros
 
