@@ -45,6 +45,12 @@ for(const test of checks){
   if(notice){const expected=notice[lang==='es'?'es':lang];if(!v.includes(expected))errors.push(lang+'/'+test.slug+': translated notice missing');if(lang!=='es'&&v.includes(notice.es))errors.push(lang+'/'+test.slug+': Spanish notice leaked')}
   if(test.slug==='classico-leme'&&lang!=='es'&&v.includes('← Volver a Gastronomía'))errors.push(lang+'/'+test.slug+': Spanish navigation leaked');
   if(test.slug==='classico-leme'&&lang!=='es'&&v.includes('Identidad y ambiente visual'))errors.push(lang+'/'+test.slug+': Spanish section heading leaked');
+  if(test.slug==='classico-leme'&&lang!=='es'){
+   const expectedTitle=lang==='pt'?'Clássico Beach Club Leme: guia completo | Ernestinho Carioca':'Clássico Beach Club Leme: complete guide | Ernestinho Carioca';
+   const expectedMeta=lang==='pt'?"Guia do Clássico Beach Club Leme: ambiente à beira-mar, pratos, horários, transporte, mapa e dicas para planejar a visita no Rio.":"Clássico Beach Club Leme guide: beachfront atmosphere, food, opening hours, transport, a map and tips for planning a visit to Rio.";
+   if(!html.includes('<title>'+expectedTitle+'</title>'))errors.push(lang+'/classico-leme: HTML title not localized');
+   if(!html.includes('content="'+expectedMeta+'"'))errors.push(lang+'/classico-leme: SEO description not localized');
+  }
   const shortText=shortChecks[test.slug]?.[lang];
   if(shortText&&!v.includes(shortText))errors.push(lang+'/'+test.slug+': short localized text missing');
   if(lang!=='es'&&v.includes('Guía independiente de Río de Janeiro'))errors.push(lang+'/'+test.slug+': untranslated Spanish footer');
