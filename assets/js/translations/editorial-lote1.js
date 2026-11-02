@@ -68,7 +68,13 @@ registerTranslations("editorial-lote1", {
     "paz_8": "La plaza y una caminata por Ipanema",
     "paz_9": "La plaza de enfrente también tiene su propia historia. El espacio formó parte del proyecto de urbanización de Ipanema a fines del siglo XIX y recibió diferentes nombres antes de adoptar oficialmente el de Nossa Senhora da Paz en 1934. Hoy sus árboles, senderos y bancos ofrecen una pausa entre las calles comerciales. Puedes combinar la iglesia con un paseo por el barrio, acercarte a las tiendas de Visconde de Pirajá o continuar hacia la playa. La estación de metro Nossa Senhora da Paz facilita llegar sin automóvil.",
     "paz_10": "Consejos para una visita respetuosa",
-    "paz_11": "La dirección es Rua Visconde de Pirajá, 339, frente a la plaza. La iglesia es un espacio de culto activo: los horarios para turistas pueden variar por misas, celebraciones y trabajos de mantenimiento, por lo que recomiendo confirmarlos antes de desplazarte. Si hay una ceremonia, evita caminar por el altar o fotografiar a los participantes sin permiso. Viste de manera respetuosa, guarda silencio y consulta la accesibilidad de las entradas si viajas con personas de movilidad reducida. No necesitas una excursión especial para apreciarla; puedes incluirla en una caminata cultural por Ipanema."
+    "paz_11": "La dirección es Rua Visconde de Pirajá, 339, frente a la plaza. La iglesia es un espacio de culto activo: los horarios para turistas pueden variar por misas, celebraciones y trabajos de mantenimiento, por lo que recomiendo confirmarlos antes de desplazarte. Si hay una ceremonia, evita caminar por el altar o fotografiar a los participantes sin permiso. Viste de manera respetuosa, guarda silencio y consulta la accesibilidad de las entradas si viajas con personas de movilidad reducida. No necesitas una excursión especial para apreciarla; puedes incluirla en una caminata cultural por Ipanema.",
+    "feira_h1": "Feira Saens Peña: artesanía en Tijuca",
+    "feira_kicker": "TIJUCA · ARTE Y ARTESANÍA",
+    "vidigal_pretitle": "EXPERIENCIA EN PREPARACIÓN",
+    "vidigal_teaser_h2": "Conoce la historia antes de elegir un tour",
+    "vidigal_teaser_p": "Vidigal tiene mucho más que vistas espectaculares. Aquí encontrarás información para conocer su cultura, su comunidad y la caminata al Morro Dois Irmãos con respeto. Todavía no anuncio una salida cerrada: puedes consultar opciones con prestadores locales.",
+    "paz_h1": "Iglesia de Nuestra Señora de la Paz"
   },
   "PT": {
     "feira_0": "A feira que revela o cotidiano da Tijuca",
@@ -138,7 +144,13 @@ registerTranslations("editorial-lote1", {
     "paz_8": "A praça e uma caminhada por Ipanema",
     "paz_9": "A praça em frente também tem história. Ela fez parte do projeto de urbanização de Ipanema no fim do século XIX e recebeu nomes diferentes antes de adotar oficialmente Nossa Senhora da Paz em 1934. Hoje, árvores, caminhos e bancos oferecem uma pausa entre as ruas comerciais. Combine a igreja com uma caminhada pelo bairro, pelas lojas da Visconde de Pirajá ou até a praia. A estação de metrô Nossa Senhora da Paz facilita o acesso.",
     "paz_10": "Dicas para uma visita respeitosa",
-    "paz_11": "O endereço é Rua Visconde de Pirajá, 339, diante da praça. A igreja é um espaço de culto ativo: horários de visita podem mudar por missas, celebrações ou manutenção, por isso recomendo conferir antes de sair. Durante cerimônias, evite circular junto ao altar ou fotografar participantes sem permissão. Vista-se com respeito, mantenha o silêncio e consulte os acessos caso tenha necessidades de mobilidade. É possível incluí-la em uma caminhada cultural por Ipanema, sem necessidade de passeio especial."
+    "paz_11": "O endereço é Rua Visconde de Pirajá, 339, diante da praça. A igreja é um espaço de culto ativo: horários de visita podem mudar por missas, celebrações ou manutenção, por isso recomendo conferir antes de sair. Durante cerimônias, evite circular junto ao altar ou fotografar participantes sem permissão. Vista-se com respeito, mantenha o silêncio e consulte os acessos caso tenha necessidades de mobilidade. É possível incluí-la em uma caminhada cultural por Ipanema, sem necessidade de passeio especial.",
+    "feira_h1": "Feira Saens Peña: artesanato na Tijuca",
+    "feira_kicker": "TIJUCA · ARTE E ARTESANATO",
+    "vidigal_pretitle": "EXPERIÊNCIA EM PREPARAÇÃO",
+    "vidigal_teaser_h2": "Conheça a história antes de escolher um passeio",
+    "vidigal_teaser_p": "O Vidigal tem muito mais do que vistas impressionantes. Aqui você encontra informações sobre sua cultura, comunidade e a trilha do Morro Dois Irmãos com respeito. Ainda não anuncio uma saída fechada: consulte opções com prestadores locais.",
+    "paz_h1": "Igreja de Nossa Senhora da Paz"
   },
   "EN": {
     "feira_0": "An artisan market at the heart of Tijuca",
@@ -208,6 +220,12 @@ registerTranslations("editorial-lote1", {
     "paz_8": "The square and a walk through Ipanema",
     "paz_9": "The square opposite the church has its own history. It formed part of the late-nineteenth-century urban planning of Ipanema and had different names before officially becoming Nossa Senhora da Paz in 1934. Today its trees, paths and benches offer a welcome break from busy shopping streets. Combine the church with a walk along Visconde de Pirajá, neighborhood shops or the beach. Nossa Senhora da Paz metro station makes access easy.",
     "paz_10": "Advice for a respectful visit",
-    "paz_11": "The address is Rua Visconde de Pirajá 339, opposite the square. This is an active place of worship, so tourist access may vary around services, celebrations and maintenance. Check before visiting. During ceremonies, avoid moving near the altar or photographing participants without permission. Dress respectfully, keep quiet and ask about accessible entrances if needed. The church fits naturally into a cultural walk through Ipanema."
+    "paz_11": "The address is Rua Visconde de Pirajá 339, opposite the square. This is an active place of worship, so tourist access may vary around services, celebrations and maintenance. Check before visiting. During ceremonies, avoid moving near the altar or photographing participants without permission. Dress respectfully, keep quiet and ask about accessible entrances if needed. The church fits naturally into a cultural walk through Ipanema.",
+    "feira_h1": "Saens Peña craft fair in Tijuca",
+    "feira_kicker": "TIJUCA · ARTS & CRAFTS",
+    "vidigal_pretitle": "EXPERIENCE IN DEVELOPMENT",
+    "vidigal_teaser_h2": "Discover the story before choosing a tour",
+    "vidigal_teaser_p": "Vidigal has much more to offer than extraordinary views. Explore its culture, community life and the Two Brothers hike respectfully. There is not yet a confirmed tour for sale; you can ask about options with local providers.",
+    "paz_h1": "Our Lady of Peace Church"
   }
 });
