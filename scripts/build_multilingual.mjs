@@ -323,6 +323,27 @@ async function worker(){
     const canonical=origin+route;
     const sourcePath=route.replace(/^\/(pt|en)(?=\/|$)/,'')||'/';
     const prefix=(r,l)=>l==='es'?r:'/'+l+r;
+    // The shared photo renderer can restore Spanish ALT values after inline
+    // locale switchers have correctly localized captions. Preserve the
+    // route-specific inline T dictionary as the source of translated ALT text.
+    if(/^\/gastronomia\/(?:adega-perola|churrascaria-palace|lasai)\/$/.test(sourcePath) && language!=='es'){
+     const legacy=[...document.querySelectorAll('script:not([src])')]
+      .map(x=>x.textContent).find(x=>x.includes('const T={')&&x.includes(';const title='));
+     const block=legacy?.match(/const T=(\{[\s\S]*?\});const title=/);
+     if(!block)throw Error('Inline photo translations unavailable for '+sourcePath);
+     const dictionary=JSON.parse(block[1])[language==='pt-BR'?'pt':'en'];
+     if(!dictionary)throw Error('Photo locale dictionary missing for '+sourcePath);
+     for(const img of document.querySelectorAll('img[alt]')){
+      const original=(img.getAttribute('data-ec-alt')||img.getAttribute('alt')||'').trim();
+      const localized=dictionary[original]||(language==='pt-BR'
+       ?original.replace(/: fotografía (\d+)$/i,': fotografia $1')
+       :original.replace(/: fotografía (\d+)$/i,': photograph $1'));
+      if(localized&&localized!==original){
+       img.setAttribute('alt',localized);
+       if(img.hasAttribute('data-ec-alt'))img.setAttribute('data-ec-alt',localized);
+      }
+     }
+    }
     const isProvisionalBuziosBeach=r=>/^\/destinos\/buzios\/playas\/[^/]+\/$/.test(r);
     const setMeta=(key,content,attribute=key.includes(':')?'property':'name')=>{let m=document.querySelector(`meta[property="${key}"],meta[name="${key}"]`);if(!m){m=document.createElement('meta');m.setAttribute(attribute,key);document.head.appendChild(m);}m.content=content;m.removeAttribute('data-ec-content');};
     if(seoCopy){

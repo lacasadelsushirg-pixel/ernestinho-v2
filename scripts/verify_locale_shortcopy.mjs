@@ -11,14 +11,17 @@ const items=[
  }},
  {route:'gastronomia/adega-perola',selector:'map',text:{pt:'Mapa e como chegar',en:'Map and directions'}},
  {route:'gastronomia/churrascaria-palace',selector:'map',text:{pt:'Mapa e como chegar',en:'Map and directions'}},
- {route:'gastronomia/lasai',selector:'caption',text:{pt:'O ambiente que define a experiência',en:'The atmosphere that defines the experience'}}
+ {route:'gastronomia/lasai',selector:'caption',text:{pt:'O ambiente que define a experiência',en:'The atmosphere that defines the experience'}},
+ {route:'gastronomia/adega-perola',selector:'alt',text:{pt:'A fachada e a chegada ao restaurante',en:'The façade and arrival at the restaurant'}},
+ {route:'gastronomia/churrascaria-palace',selector:'alt',text:{pt:'A fachada e a chegada ao restaurante',en:'The façade and arrival at the restaurant'}},
+ {route:'gastronomia/lasai',selector:'alt',text:{pt:'Lasai: prato ou bebida',en:'Lasai: dish or drink'}}
 ];
 let checked=0;const failures=[];
 for(const item of items)for(const [lang,want] of Object.entries(item.text)){
  const file=path.join(root,'dist',lang,item.route,'index.html');
  if(!fs.existsSync(file)){failures.push(lang+'/'+item.route+': file missing');continue;}
  const html=fs.readFileSync(file,'utf8').replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'');
- const re=item.selector==='notice'?/<div class="notice"[^>]*>([^<]+)<\/div>/gi:item.selector==='caption'?/<figcaption\b[^>]*>([^<]+)<\/figcaption>/gi:/<h2\b[^>]*>([^<]+)<\/h2>/gi;
+ const re=item.selector==='notice'?/<div class="notice"[^>]*>([^<]+)<\/div>/gi:item.selector==='caption'?/<figcaption\b[^>]*>([^<]+)<\/figcaption>/gi:item.selector==='alt'?/<img\b[^>]*\balt="([^"]+)"/gi:/<h2\b[^>]*>([^<]+)<\/h2>/gi;
  const found=[...html.matchAll(re)].map(x=>x[1].trim());
  if(!found.includes(want))failures.push(lang+'/'+item.route+': expected '+want+', found '+found.filter(x=>/Mapa|map|marca|Polis/.test(x)).join(' // '));
  if(lang==='en'&&found.some(x=>x==='Mapa y cómo llegar'))failures.push(lang+'/'+item.route+': Spanish map heading remains');
