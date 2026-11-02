@@ -52,7 +52,7 @@ jobs:
               es=d['ES'][key]
               if es in text: failures.append((str(path),'original Spanish still shown',key))
             if 'rel="canonical"' not in text:failures.append((str(path),'canonical missing'))
-            if not re.search(r'<html\\b[^>]*\\blang=',text):failures.append((str(path),'lang missing'))
+            if not re.search(r'<html\b[^>]*\blang=',text):failures.append((str(path),'lang missing'))
             if text.count('culture-gallery')<1:failures.append((str(path),'gallery missing'))
             visible=re.sub(r'<script\b[^>]*>[\s\S]*?</script>',' ',text)
             visible=re.sub(r'<style\b[^>]*>[\s\S]*?</style>',' ',visible)
