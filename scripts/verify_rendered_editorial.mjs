@@ -48,6 +48,16 @@ for(const route of routes){
   if(!html.includes('rel="canonical"'))errors.push(lang+route+': missing canonical');
   if(!html.includes('hreflang'))errors.push(lang+route+': missing hreflang');
   const body=visible(html);
+  // Regression guard for the legacy in-page language switcher: a reused build
+  // browser once leaked Portuguese paragraphs into the English Mercadão page.
+  if(route==='/compras/mercadao-madureira/'&&lang==='en'){
+   if(!body.includes('I take you to discover an intense, everyday Rio') ||
+      !body.includes('To me, Mercadão de Madureira is not a quick stop'))
+    errors.push('en'+route+': core English copy missing; check legacy language selection');
+   if(body.includes('Eu te levo para conhecer um Rio de Janeiro') ||
+      body.includes('Para mim, o Mercadão de Madureira'))
+    errors.push('en'+route+': Portuguese legacy text leaked into English');
+  }
   if(process.argv.includes('--diagnostics')){
    const longParagraphs=[...withoutScripts(html).matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
     .map(m=>norm(m[1].replace(/<[^>]+>/g,' '))).filter(t=>t.length>100).slice(0,5);
