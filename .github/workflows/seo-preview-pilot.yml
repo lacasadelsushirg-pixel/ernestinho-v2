@@ -12,6 +12,7 @@ on:
       - 'gastronomia/**/index.html'
       - 'scripts/audit_locale_seo_metadata.mjs'
       - 'scripts/audit_flagged_variants.mjs'
+      - 'scripts/audit_rendered_shortcopy.mjs'
       - 'gastronomia/arp-bar/index.html'
       - 'gastronomia/classico-leme/index.html'
       - 'gastronomia/quiteria/index.html'
@@ -59,6 +60,8 @@ jobs:
           grep -q 'I would arrive with the evening still ahead' dist/en/destinos/buzios/comer-y-salir/madame-bardot/index.html
           grep -q 'Meu plano para aproveitar a visita' dist/pt/destinos/buzios/comer-y-salir/madame-bardot/index.html
           grep -q 'My plan for making the most of the visit' dist/en/destinos/buzios/comer-y-salir/madame-bardot/index.html
+      - name: Audit visible short text and image labels across 57 routes (report only)
+        run: node scripts/audit_rendered_shortcopy.mjs
       - name: Confirm non-public isolated preview
         run: echo 'Only GitHub runner dist/ was generated. No Hostinger deploy or production sitemap modification.'
       - name: Save QA evidence from isolated build
@@ -69,5 +72,6 @@ jobs:
           path: |
             dist/audit-82-flagged-variants.json
             dist/editorial-alternatives.json
+            dist/audit-rendered-shortcopy.json
           if-no-files-found: ignore
           retention-days: 14
