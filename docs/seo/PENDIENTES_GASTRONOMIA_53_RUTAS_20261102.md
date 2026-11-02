@@ -1,45 +1,31 @@
-# SEO: inventario de fichas gastronómicas pendientes de traducción
+# Cierre de la revisión fuente de 53 fichas gastronómicas — 2 de noviembre de 2026
 
-Revisión del 2 de noviembre de 2026, sobre la rama `seo/traducciones-continuacion-lote2-20261102`, basada en el informe del PR #12.
+**Rama:** `seo/traducciones-continuacion-lote2-20261102` · PR #13, basado en la rama del PR SEO #12.
 
-## Criterio de esta auditoría
+## Resultado al cierre del lote de código fuente
 
-- Se leyeron los HTML fuente de **53 rutas gastronómicas** presentes en el reporte original de Work y se compararon con las claves exactas del diccionario residual de Gastronomía.
-- Tras las correcciones del PR #13, **48 rutas gastronómicas** tienen cobertura de los bloques largos visibles examinados; siguen **5 rutas** con **53 bloques visibles de más de 100 caracteres sin traducción PT/EN en ese diccionario**.
-- Estos 389 bloques NO son el número de variantes URL sin indexar ni un conteo de todos los elementos sin traducir; los títulos breves, elementos compuestos, metadatos y contenido JavaScript dinámico quedan fuera del alcance del patrón.
-- El informe Work de 82 variantes pendientes sigue vigente hasta que se compruebe el contenido real de las URL publicadas. **No confundir trabajo de fuente con indexación.**
+La auditoría editorial partió de **53 fichas gastronómicas** de Río incluidas en las variantes pendientes detectadas por Work. Ahora:
 
-## Rutas pendientes según conteo de bloques HTML largos
+- **49 fichas gastronómicas** tienen claves ES→PT/EN de sus bloques largos en el diccionario residual, combinadas con las claves existentes y renderizadores por página cuando corresponde.
+- Las **4 fichas restantes** (`arp-bar`, `classico-leme`, `quiteria`, `cosmopolita`) usan sus propios diccionarios incrustados PT/EN y se corrigió directamente su HTML español. **No se añadieron claves residuales a estos cuatro porque ya tenían su mecanismo PT/EN.**
+- **Majórica** se corrigió por dos frentes: dos párrafos portugueses de HTML fuente se convirtieron a ES y se incorporaron 10 nuevas claves bilingües para el contenido largo restante.
+- **Cosmopolita** fue reescrito como ficha histórica de la antigua casa de Lapa (Travessa do Mosqueira 4), con advertencia de que **no hay restaurante actual confirmado**, porque antes la guía la enviaba equivocadamente a Glória/Santa Teresa. Se corrigieron 20 párrafos en tres idiomas, título, metadatos y enlaces de mapa. La identidad de las fotografías archivadas sigue por verificar.
 
-| Ruta gastronómica | Bloques largos sin cobertura residual |
-|---|---:|
-| `/gastronomia/classico-leme/` | 12 |
-| `/gastronomia/arp-bar/` | 11 |
-| `/gastronomia/quiteria/` | 11 |
-| `/gastronomia/majorica/` | 10 |
-| `/gastronomia/cosmopolita/` | 9 |
-| **Total: 5 rutas** | **53** |
+**No quedan fichas sin intervención de traducción/corrección de sus bloques largos entre las 53 fuentes señaladas.** Este resultado es de **fuente GitHub** y NO demuestra todavía una publicación correcta en Hostinger ni resuelve por sí mismo las 82 variantes URL originales.
 
-## Casos especiales de idioma de origen
+## Cobertura / método
 
-Las fichas `/gastronomia/arp-bar/`, `/gastronomia/classico-leme/` y `/gastronomia/quiteria/` contienen bloques de prosa originales en **portugués**, aunque la ruta de origen es la española. No basta con agregar traducciones PT/EN en el diccionario, ya que ello podría dejar el texto en portugués para visitantes que navegan en español. Revisar estos casos en una intervención separada, preservando su estructura y sentido.
+La rama añade en total **528 claves bilingües nuevas**: 55 del área Compras y 473 del área Gastronomía. Se verifican con `scripts/audit_editorial_translations.mjs`. Para las páginas con diccionarios dentro del HTML se utiliza además `scripts/verify_embedded_locale_pages.mjs`. La prueba de generación selectiva en GitHub Actions incluye 56 rutas de Río (52 de diccionario compartido, 4 internas) y Madame Bardot de Búzios: **57 rutas x 3 idiomas**. Hay que consultar el resultado de la última ejecución antes de considerarla aprobada.
 
-## Avance del lote ampliado
+Un conteo de claves, bloques o rutas NO verifica otros textos breves, atributos, textos alternativos de las imágenes, metadatos de los tres idiomas, contenido generado dinámicamente, traducciones alternativas o enlaces de cada ficha. Tampoco garantiza indexación.
 
-Diez fichas pasaron a cobertura de bloques largos PT/EN en código: Confeitaria Manon, Café do Alto, Casa Porto, Ferro e Farinha Botafogo, Gurumê, Nova Capela, Jobi, Aipo & Aipim 920, Arab Leblon y Churrascaria Palace. Se incorporaron **92 entradas** bilingües nuevas; otras seis claves de estas diez fichas ya existían. La publicación y la revisión real de idiomas no se infieren de este avance.
+## Pendientes reales (no confundidos con más traducciones de párrafos)
 
-## Estado tras el lote de 23 fichas (sin publicación)
+1. Confirmar QA de las 57 rutas generadas en ES/PT/EN y corregir cualquier error de la prueba de doce páginas con diccionarios internos.
+2. Hacer revisión editorial y visual en navegador real, especialmente las traducciones alternativas propias de cada ficha, H1/títulos breves, meta description, ALT, mapas y enlaces.
+3. Validar fuentes actuales y fotografías de Cosmopolita, y revisar que su ficha se presente como patrimonio histórico, nunca restaurante reservable. Tampoco asignar una apertura sin evidencia fiable.
+4. Reconciliar cambios concurrentes y dependencias del PR #12 y de la rama publicada; no sobrescribir trabajo de Carioc-IA.
+5. Publicar de forma **incremental** solo archivos necesarios, conservar el manifiesto multilingüe y el sitemap global, sin ejecutar una reconstrucción completa de más de 2.500 páginas.
+6. Verificar después de publicar HTTP 200, canonical, hreflang, sitemap, contenido PT/EN servido en producción y cobertura de Google Search Console. **Mantener las 82 variantes originalmente reportadas como pendientes hasta que exista evidencia en cada URL.**
 
-Se completaron las traducciones de los bloques largos de otras **23 fichas** con **237 claves ES→PT/EN nuevas**, manteniendo entradas que ya existían. La cobertura acumulada alcanza 48 fichas gastronómicas de las 53 originales de Work. Continúan cinco fichas **de naturaleza distinta**: `arp-bar`, `classico-leme` y `quiteria` presentan prosa en portugués dentro del archivo fuente que debería ser español; `majorica` tiene también bloques fuente en portugués; `cosmopolita` presenta referencias de barrios/localización contradictorias y requiere verificar el establecimiento antes de traducir. Una mera clave PT/EN no corrige el texto español ni la información ambigua.
-
-Se configuraron acciones de QA para las **51 fichas de Río** cubiertas (incluyendo Compras) y Madame Bardot; el resultado de ejecución debe revisarse antes de integrar. **No se ha tocado Hostinger, el sitemap público ni Carioc-IA.**
-
-## Próximos lotes seguros
-
-1. Continuar por rutas donde tanto contenido como fuente son claramente españoles y elaborar traducciones naturales exactas de todos sus bloques. Priorizar por impacto/editorial: Confeitaria Manon, Gurumê, Nova Capela, Sushi Leblon, Ferro e Farinha, Jóbi, Oro y otras.
-2. Distinguir los casos de origen portugués y planificar ES/PT/EN de origen, no solo una cobertura estadística.
-3. Probar en navegador ES, PT-BR e EN y en el HTML inicial; revisar títulos, ALT y metadatos además de párrafos.
-4. Compilar solo rutas explícitas con estado previo seguro del manifiesto y publicar incrementalmente sin tocar Carioc-IA.
-5. Verificar después de publicar HTTP 200, canonical, hreflang y sitemap por URL, y rastreo de Google cuando proceda.
-
-**No se ha publicado ni hecho merge en esta auditoría.** Los hallazgos son un inventario fuente para evitar conclusiones erróneas sobre el estado de la web pública.
+**Sin merge / sin despliegue:** no se ha modificado Hostinger, Search Console, Carioc-IA, fotos, CSS, sitemap ni robots.
