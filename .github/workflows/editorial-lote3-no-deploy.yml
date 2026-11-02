@@ -11,6 +11,7 @@ on:
       - 'vida-nocturna/canastra-bar/index.html'
       - 'vida-nocturna/galeria-cafe/index.html'
       - 'assets/js/translations/editorial-lote3.js'
+      - 'scripts/build_multilingual.mjs'
       - '.github/workflows/editorial-lote3-no-deploy.yml'
   workflow_dispatch:
 permissions:
@@ -42,7 +43,7 @@ jobs:
           routes=["gastronomia/merci","gastronomia/plage-cafe","vida-nocturna/boa-praca-leblon","vida-nocturna/portela","vida-nocturna/yoo2","vida-nocturna/quadra-salgueiro","vida-nocturna/canastra-bar","vida-nocturna/galeria-cafe"]
           data=Path('assets/js/translations/editorial-lote3.js').read_text()
           translations=json.loads(re.search(r'registerTranslations\("editorial-lote3", (\{[\s\S]*\})\);\s*$',data).group(1))
-          assert len(translations['ES'])==len(translations['PT'])==len(translations['EN'])==93
+          assert len(translations['ES'])==len(translations['PT'])==len(translations['EN'])==152
           errors=[]
           ids={'merci':'gastronomia/merci','plage':'gastronomia/plage-cafe','boa':'vida-nocturna/boa-praca-leblon','portela':'vida-nocturna/portela','yoo2':'vida-nocturna/yoo2','salgueiro':'vida-nocturna/quadra-salgueiro','canastra':'vida-nocturna/canastra-bar','galeria':'vida-nocturna/galeria-cafe'}
           for id,route in ids.items():
@@ -64,6 +65,7 @@ jobs:
              k=f'batch3_{id}_archive_h1'
              if translations[lang][k] not in s:errors.append((str(p),'archive status not translated'))
              if not re.search(r'archivo|arquivo|archive|closed|cerrado|fechad',s,re.I):errors.append((str(p),'archive status missing'))
+             if lang=='EN' and '← Vida nocturna' in s:errors.append((str(p),'Spanish archive back link'))
             if id=='plage':
              if not re.search(r'cerrad|fechad|clos',s,re.I):errors.append((str(p),'cafe closed status missing'))
             if id in ('merci','plage','boa'):
