@@ -1,0 +1,72 @@
+name: Publicar tarifas de traslado privado — solo 3 HTML con backup
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/publish-transfer-rates-once.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  publicacion-selectiva:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      VERCEL: '1'
+      EC_BUILD_WORKERS: '2'
+      HEAD_BRANCH: ${{ github.head_ref }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - name: Install deterministic browser build and encrypted uploader dependencies
+        run: |
+          npm ci --no-audit --no-fund
+          python3 -m pip install --quiet --break-system-packages cryptography requests
+      - name: Build only one transfer route across ES PT EN
+        run: node scripts/build_multilingual.mjs --routes=/transportes/transporte-privado/
+      - name: Check new prices in 3 compiled languages before any upload
+        run: |
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          target=[
+          [[130,170,270],[180,200,320],[210,230,300]],
+          [[470,520,670],[470,520,670],[520,590,700],[550,650,740]],
+          [[500,580,700],[500,580,700],[500,600,750],[500,600,750]],
+          [[590,650,750],[590,650,750],[630,700,800],[630,700,800]]]
+          for prefix,holiday in (('', 'Navidad, Año Nuevo y Carnaval'),('pt/','Natal, Réveillon e Carnaval'),('en/','Christmas, New Year and Carnival')):
+           s=(Path('dist')/prefix/'transportes/transporte-privado/index.html').read_text()
+           blocks=re.findall(r'<section class="ec-rate-group"><h3>[\s\S]*?</table></div></section>',s)
+           assert len(blocks)==4, (prefix,'missing tariff sections')
+           got=[[[int(v) for v in re.findall(r'<td>R\$\s*(\d+)</td>',row)]
+             for row in re.findall(r'<tr>[\s\S]*?</tr>',block) if '<td>R$' in row] for block in blocks]
+           assert got==target,(prefix,got)
+           assert holiday in s and '2026-12-15' in s, prefix
+           print('Tariffs and holiday warning verified '+(prefix or 'es'))
+          PY
+      - name: Generate ephemeral RSA key in runner only
+        run: |
+          openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:3072 -out /tmp/ec-transfer-upload-private.pem 2>/dev/null
+          openssl pkey -in /tmp/ec-transfer-upload-private.pem -pubout -out ec-transfer-upload-public.pem 2>/dev/null
+          cp ec-transfer-upload-public.pem /tmp/ec-transfer-upload-public.pem
+      - name: Share public key ONLY (not authentication credentials)
+        uses: actions/upload-artifact@v4
+        with:
+          name: temporary-transfer-upload-public-key
+          path: ec-transfer-upload-public.pem
+          retention-days: 1
+          if-no-files-found: error
+      - name: Guarded upload of only three live pages with full prior backup
+        run: python3 -u scripts/publish_transfer_rates_selective.py
+      - name: Preserve originals and verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: respaldo-transporte-privado-es-pt-en-20261102
+          path: release-evidence-transfer/
+          retention-days: 10
+          if-no-files-found: warn
