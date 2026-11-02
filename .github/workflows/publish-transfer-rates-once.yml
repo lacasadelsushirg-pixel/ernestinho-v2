@@ -60,7 +60,7 @@ jobs:
           path: ec-transfer-upload-public.pem
           retention-days: 1
           if-no-files-found: error
-      - name: Guarded upload of only three live pages with full prior backup
+      - name: Corrected guarded upload of exactly 3 HTML and full existing-file backup
         run: python3 -u scripts/publish_transfer_rates_selective.py
       - name: Preserve originals and verification evidence
         if: always()
