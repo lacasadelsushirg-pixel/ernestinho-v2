@@ -106,8 +106,9 @@ def upload(path,data):
     post=S.post(endpoint,headers=h,timeout=50)
     if post.status_code!=201:
         raise RuntimeError('TUS create failed for '+path+': HTTP '+str(post.status_code)+': '+post.text[:110])
-    loc=post.headers.get('Location')
-    target=urllib.parse.urljoin(endpoint,loc) if loc else endpoint
+    # Hostinger TUS API documents PATCH to the EXACT SAME URL as the POST.
+    # Its Location response can point at an internal browser path that denies PATCH.
+    target=endpoint
     h=dict(headers,**{'Content-Type':'application/offset+octet-stream','Upload-Offset':'0'})
     patch=S.patch(target,headers=h,data=data,timeout=70)
     if patch.status_code!=204 or (patch.headers.get('Upload-Offset') and int(patch.headers['Upload-Offset'])!=len(data)):
