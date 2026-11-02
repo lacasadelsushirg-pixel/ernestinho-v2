@@ -5,6 +5,8 @@ on:
       - seo/traducciones-continuacion-lote2-20261102
     paths:
       - '.github/workflows/seo-preview-pilot.yml'
+      - 'scripts/build_multilingual.mjs'
+      - 'scripts/verify_rendered_editorial.mjs'
   workflow_dispatch:
 permissions:
   contents: read
