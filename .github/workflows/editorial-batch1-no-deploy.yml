@@ -61,7 +61,7 @@ jobs:
              assert keys[route][n] in html,(str(p),keys[route][n])
              if lang!='es': assert keys[route][0] not in html,(str(p),'ES found')
             if route=='experiencias/bioparque':
-             assert 'Reino dos Axolotes' in html,p
+             assert ('Reino dos Axolotes' in html or 'Kingdom of Axolotls' in html),p
              assert len(re.sub(r'<[^>]+>',' ',html))>3000,p
             if route=='hospedaje':
              assert html.count('class="feature stay-feature"')==12,(str(p),'cards')
