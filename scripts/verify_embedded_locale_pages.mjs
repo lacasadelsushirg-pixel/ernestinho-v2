@@ -25,7 +25,7 @@ function visible(html){
 const errors=[],results=[];
 for(const test of checks){
  for(const lang of ['es','pt','en']){
-  const dest=path.join(root,'dist',lang,'gastronomia',test.slug,'index.html');
+  const dest=lang==='es'?path.join(root,'dist','gastronomia',test.slug,'index.html'):path.join(root,'dist',lang,'gastronomia',test.slug,'index.html');
   if(!fs.existsSync(dest)){errors.push(lang+'/'+test.slug+': missing generated HTML');continue;}
   const html=fs.readFileSync(dest,'utf8'),v=visible(html);
   let ok=v.includes(test[lang]);
