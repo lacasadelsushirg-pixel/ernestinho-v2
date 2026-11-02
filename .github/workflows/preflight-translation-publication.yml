@@ -1,0 +1,37 @@
+name: Preflight translations publication (118 PT EN), NO DEPLOY
+on:
+  pull_request:
+    paths:
+      - 'scripts/translation_publish_preflight.py'
+      - '.github/workflows/preflight-translation-publication.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      VERCEL: '1'
+      EC_BUILD_WORKERS: '2'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Generate exact 59 routes in isolated runner only
+        run: |
+          routes="$(node -e 'let d=require("./docs/seo/contrato-traducciones-59-20261102.json");console.log(d.routes.map(r=>"/"+r.file.replace(/index.html$/,"")).join(","))')"
+          node scripts/build_multilingual.mjs --routes="$routes"
+      - name: Compare all 118 generated PT/EN pages against public files and detect preservation risks
+        run: python3 scripts/translation_publish_preflight.py
+      - name: Archive evidence of safe/unsafe diffs (NO PUBLICATION)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: translation-publication-preflight-118
+          path: preflight-pt-en-live-vs-pr14.json
+          retention-days: 7
+          if-no-files-found: warn
