@@ -1,0 +1,3319 @@
+{
+  "timestamp": "2026-11-02T19:09:08.179395+00:00",
+  "sourceBase": "58413ec19dee14d447c4d4a6c9ac9061a0f4a87f",
+  "scope": {
+    "routes": 59,
+    "html": 177,
+    "javascript": 6,
+    "uniqueUploadedFiles": 183
+  },
+  "summary": {
+    "http200": 177,
+    "browserParagraphFailures": 0,
+    "browserTitleFailures": 0,
+    "browserDescriptionLanguageFailures": 0,
+    "validDescriptionAlternatives": 4,
+    "productionChecksPassed": 9,
+    "originalFlaggedVariantsVerified": 82
+  },
+  "protected": [
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "preserved": true,
+      "sha256": "f26d317ca2857a45c6003231cce7dd13c437333e54b3b76b57fd95bebacee7de"
+    },
+    {
+      "path": "locale-manifest.json",
+      "status": 200,
+      "preserved": true,
+      "sha256": "676f709799d82c66a8135ea904802a48ffd611e226b6e5a8bc0fc4e6458a1a2b"
+    }
+  ],
+  "checks": [
+    {
+      "check": "scripts/verify_semantic_review.mjs",
+      "exitCode": 0
+    },
+    {
+      "check": "scripts/verify_legacy_page_dicts.mjs",
+      "exitCode": 0
+    },
+    {
+      "check": "scripts/verify_translation_scope.mjs",
+      "exitCode": 0
+    },
+    {
+      "check": "scripts/audit_flagged_variants.mjs",
+      "exitCode": 0
+    },
+    {
+      "check": "scripts/verify_embedded_locale_pages.mjs",
+      "exitCode": 0
+    },
+    {
+      "check": "scripts/verify_locale_shortcopy.mjs",
+      "exitCode": 0
+    },
+    {
+      "check": "scripts/verify_rendered_editorial.mjs",
+      "exitCode": 0
+    },
+    {
+      "check": "scripts/audit_rendered_shortcopy.mjs",
+      "exitCode": 0
+    },
+    {
+      "check": "scripts/audit_locale_seo_metadata.mjs",
+      "exitCode": 0
+    }
+  ],
+  "files": [
+    {
+      "path": "compras/feira-sao-cristovao/index.html",
+      "sha256": "8877dc74caa56ab6619371048471de4485d535054a14af94d51483143d7b6efe",
+      "bytes": 64578,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/compras/feira-sao-cristovao/index.html",
+      "sha256": "3152f4310ae92616b2f7e7fbb428ad6035c720eb2d1ee8c2d279d4a2b13ea979",
+      "bytes": 63273,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/compras/feira-sao-cristovao/index.html",
+      "sha256": "d4fa2617cd79b95b3b2288cbbafd6af77bd0d1b6de7356a03d3b5cf3d74d03af",
+      "bytes": 63056,
+      "publicStatus": 200
+    },
+    {
+      "path": "compras/mercadao-madureira/index.html",
+      "sha256": "0787c24e943b17dfac21fbb4837836f1f2511028fc97405e72e1f25c8b970045",
+      "bytes": 70078,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/compras/mercadao-madureira/index.html",
+      "sha256": "e844ce506aa800e7f5d47e313cde9b44a04441cff2369dbe021c71d7e663f11a",
+      "bytes": 69945,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/compras/mercadao-madureira/index.html",
+      "sha256": "1c5f838888d040af240430103064e33154d12e91f4d551ce5c7c9d9b201b90e4",
+      "bytes": 69330,
+      "publicStatus": 200
+    },
+    {
+      "path": "compras/uruguaiana/index.html",
+      "sha256": "26f98a93ce0f21eb360ad7c2b1815fecbb2310f71411909cedb70ffe56515974",
+      "bytes": 68354,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/compras/uruguaiana/index.html",
+      "sha256": "31797c4dfc2972e29f88effc1a767521513c83e574ed9802d9185b3926b97da1",
+      "bytes": 67825,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/compras/uruguaiana/index.html",
+      "sha256": "8a5da03fdb92d8cffd08dafea1880a14bacc97aea23ebfc32cc02ea24fd639f3",
+      "bytes": 67534,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/adega-perola/index.html",
+      "sha256": "477a3b3eaef809bd7b5519954f58dc883c7eeaae0251b7eefa3f2f2b0835822c",
+      "bytes": 53549,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/adega-perola/index.html",
+      "sha256": "ccf68f2525c365c411e3dbf9d2e24719b149e05a6c2d69c39039244c0c63ceb0",
+      "bytes": 53468,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/adega-perola/index.html",
+      "sha256": "de72def99855e3d2981c2ad0635f773d13e897e96060ffdba405c482ad09b99a",
+      "bytes": 53143,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/aipo-aipim-391/index.html",
+      "sha256": "dbea4e1f83095155fcd8f81ddd7687eaf964be360dff1c49e63fb3be707e0d75",
+      "bytes": 53184,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/aipo-aipim-391/index.html",
+      "sha256": "1e04aa9b4fb0a49aabb164497d3eaadf2b68b3bcee611dadf9888451c5f72671",
+      "bytes": 52835,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/aipo-aipim-391/index.html",
+      "sha256": "20b4e0468d89cbade9bb410ab1382f71db0e4c78d6b1c28f27516561b559115f",
+      "bytes": 52453,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/aipo-aipim-605/index.html",
+      "sha256": "76fc3419f01686783cd51756883b761d65d2cb289beb08a47ac8880b5389c874",
+      "bytes": 52327,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/aipo-aipim-605/index.html",
+      "sha256": "7692b9bee7846daa11406bb2abc3fdc7c60c72ab05e7ebfb04bb5556308cf7ab",
+      "bytes": 51925,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/aipo-aipim-605/index.html",
+      "sha256": "30c3fdb6892e40ad628c7fbf1a4be1fd9ca7a5bafebd7fe962ff5b5abf20cb94",
+      "bytes": 51395,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/angu-do-gomes/index.html",
+      "sha256": "cd397c93971d475d5a6fc6d084f308ea04c257a10d1d73333de734e68246be7f",
+      "bytes": 52688,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/angu-do-gomes/index.html",
+      "sha256": "e42d6b7e176b71e1c8a98143453fd6d20f1966d7ab62734cba01da2c2bc29080",
+      "bytes": 52877,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/angu-do-gomes/index.html",
+      "sha256": "bb5da4cf5d9ac1cc78df94e878c81bcf5cdad77a6333fbc60c6b2ec2b5c7cb26",
+      "bytes": 52338,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/assador/index.html",
+      "sha256": "471ba2c59d24faf04b6f81a3b07743fed4c86accc3078693ae7352b3d0bcc1bb",
+      "bytes": 51331,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/assador/index.html",
+      "sha256": "b83f17b1c0ba9dc18e4729912e4148bd91a281511e5a7815e8ef1f41af21ad7f",
+      "bytes": 51336,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/assador/index.html",
+      "sha256": "fd2169548bb38fbd4cca9860723a5100b9f9a969420aaca1a8f0d8e9f637de60",
+      "bytes": 50944,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/bar-da-gema/index.html",
+      "sha256": "a6ee80ea697b8e0c8376151a730941740b6fb6d69de8a66a4a0d3bea49e1156d",
+      "bytes": 48439,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/bar-da-gema/index.html",
+      "sha256": "235c681ca3fe515f686b9e677edb8c72bdf3912b10f3173f524a765c2cfc5eac",
+      "bytes": 48445,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/bar-da-gema/index.html",
+      "sha256": "9395504d11b51cfa7a8104eace3733ad21a46a098521a9cafba22378ea9963ab",
+      "bytes": 47982,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/bafo-da-prainha/index.html",
+      "sha256": "1c5ec9325e23e3fe5d9b0a0bdef2a32bcddb493a6e9e363c660458b6080577a8",
+      "bytes": 46100,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/bafo-da-prainha/index.html",
+      "sha256": "07f8ef1a225f52bb3715de528c61b270faf5b74d5fdbf117cd826832f020118a",
+      "bytes": 46051,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/bafo-da-prainha/index.html",
+      "sha256": "7887e2f16db5c7781984243611e7021cf3d4a0b0db9e1cbc3291a0cc08dcaabb",
+      "bytes": 45950,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/bar-luiz/index.html",
+      "sha256": "8305261c2779deba19ecd5c4ed64a94a640a964127d3875f9ab033c31426d646",
+      "bytes": 51420,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/bar-luiz/index.html",
+      "sha256": "e8c8f566083a1630e239a98f76ca9044dbdb288af904040bed48af1cadf3e16b",
+      "bytes": 51637,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/bar-luiz/index.html",
+      "sha256": "b159dc8cfa7f9142beb31ae657661f17950227112ab8a80b00f4c869f48bd0b3",
+      "bytes": 51247,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/confeitaria-colombo/index.html",
+      "sha256": "cf305a05b2355b62a5a7c3857cac695cb5d794526de79aca917ef81c9481dadf",
+      "bytes": 52743,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/confeitaria-colombo/index.html",
+      "sha256": "f2448e42d0cc294a24bb53a677b16c82199c621c52e3010fe78fa0bba9b6c342",
+      "bytes": 52749,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/confeitaria-colombo/index.html",
+      "sha256": "c658a2298b9c7f8116385b7c139ecd04bf0acc276952d0b177840d2929f2036e",
+      "bytes": 52551,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/rio-scenarium/index.html",
+      "sha256": "21e6aaedc54101163e6dc16a4db560656a1b3f62d0816a06fe222c5323d99aa7",
+      "bytes": 52632,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/rio-scenarium/index.html",
+      "sha256": "0ad7abc0ba7908240ad08f1d7f95038a8a62e022198c39573e28990dac32fc21",
+      "bytes": 52919,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/rio-scenarium/index.html",
+      "sha256": "3cdc30fc97fa7ac2d5bfc5b7dde1752f65aad27727645150c811602e30bbaa86",
+      "bytes": 52479,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/cachambeer/index.html",
+      "sha256": "e4356b1fe6112daa33dea5c9744c4d6544e5663f4fd2fb9410516adeb22ac3c3",
+      "bytes": 49451,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/cachambeer/index.html",
+      "sha256": "378b34226a79568c3ed09e4b21b1869f390b0b14ceca897e09f2efea7a483962",
+      "bytes": 49805,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/cachambeer/index.html",
+      "sha256": "44fe5c80ef8219566c3fd2a29686f5756f54f880a335328526f7714c65826db3",
+      "bytes": 49500,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/carretao-siqueira/index.html",
+      "sha256": "3162ac8ac57a181d3297aa2e3938a32e1c76ce8f62a75468ba0bc7da6cc247a5",
+      "bytes": 47260,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/carretao-siqueira/index.html",
+      "sha256": "e68d0f9eb662905b1ab643aadbd5dc7f8421679c54e1fded29f030ecb77f3b6d",
+      "bytes": 47042,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/carretao-siqueira/index.html",
+      "sha256": "3df98485ff732ca592743c05e485b04b75a28e8ceda171cb7cfd505f41d17c81",
+      "bytes": 46786,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/casa-do-sardo/index.html",
+      "sha256": "0c057b8b04e32a6590e3c72e1f06a35c195ff77432cc0d4dd4f1e2474e84e5db",
+      "bytes": 48196,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/casa-do-sardo/index.html",
+      "sha256": "87e518f39281b4e32b0c66783823467a5f244aec7a835defb2bceff6ea8e341a",
+      "bytes": 48106,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/casa-do-sardo/index.html",
+      "sha256": "b0cf597cd3edb4519b07c71d303e3b34784da37f1cbfbaf76499bd69864d5601",
+      "bytes": 47723,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/bb-lanches/index.html",
+      "sha256": "1371f323d7eecf7c2b475e913f8f245bab4cf4efad7fa424474a1c614ecec765",
+      "bytes": 43306,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/bb-lanches/index.html",
+      "sha256": "b695cbb5b5bf88276983b8df01f69236a809841fe1394fe838f284ffa69f08a1",
+      "bytes": 42904,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/bb-lanches/index.html",
+      "sha256": "ba9b67d252bce5a66354d18be94ff10748f9e1fa0501237be3107897e2b674d7",
+      "bytes": 42521,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/cavalo-marinho/index.html",
+      "sha256": "a90715db8fb98d1c2872f694d04261a40e4c91bf5db3295a3c9a2238f53b4141",
+      "bytes": 48933,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/cavalo-marinho/index.html",
+      "sha256": "d3fa627d62322d8cc522dd0272d02b3940b88f0ba29904699a4e1095b45417f7",
+      "bytes": 48810,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/cavalo-marinho/index.html",
+      "sha256": "38be2bbfb9761303cf179563cbd343666791d4336f6e8d63cc53f8b92049cda3",
+      "bytes": 48355,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/confeitaria-manon/index.html",
+      "sha256": "8257e150f0ccafc78ba31409b97ac227501a8e50048cfbd00579d4fbfb50770c",
+      "bytes": 44692,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/confeitaria-manon/index.html",
+      "sha256": "f68c387e84c99605d6f8dfaad53083a5c9bd14c2023aad28b13959585f5a2c9f",
+      "bytes": 44698,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/confeitaria-manon/index.html",
+      "sha256": "9d34a6eb7f2e3bf2a689e372ca9ab1ec60be3e3d9470c48f64d0f4893ab614c1",
+      "bytes": 44434,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/cafe-do-alto/index.html",
+      "sha256": "f8f621cba679c8b87267ff81c96eabb6c3f8f3199a85073cc42a10b832bfbea0",
+      "bytes": 47930,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/cafe-do-alto/index.html",
+      "sha256": "1446340f88290c9ee5c04d6d69e676e992e2ca0e3e750ae75ff84dbf6046b867",
+      "bytes": 47755,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/cafe-do-alto/index.html",
+      "sha256": "5a0087059f26ae933703251d25c161dfa4f7da9a493f64ef3b831cd7da097132",
+      "bytes": 47428,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/casa-porto/index.html",
+      "sha256": "226b477794f33fe8cfc92d7793b97a002ed2d383e79424a19c939eefced97242",
+      "bytes": 47783,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/casa-porto/index.html",
+      "sha256": "dff2fc8c38c2bb303c3f9f827b3b954c35b30ec55d04acff67b306bd5f1cfd82",
+      "bytes": 47366,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/casa-porto/index.html",
+      "sha256": "e998f2ead0041768c9fa8ed39d782907ad8763f2fb88554dc827fea4b9571695",
+      "bytes": 47013,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/ferro-e-farinha/index.html",
+      "sha256": "b9830a14def1700e27c55ac0525ba0eb0235752b71ac0ccb3991931f681452db",
+      "bytes": 50015,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/ferro-e-farinha/index.html",
+      "sha256": "d9926f75919e7722d412912c5930decb73f5aaa90eda1506553a4b53cb238367",
+      "bytes": 49840,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/ferro-e-farinha/index.html",
+      "sha256": "3dd61e3a7927a95294d2192ef2f3975a8ff32fe3178d9bcbb8aada49b0c311c3",
+      "bytes": 49666,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/gurume/index.html",
+      "sha256": "482139cd3df6574d6066de8ab7520371aa5c4f2df44efb5771b87c1de9c33776",
+      "bytes": 50451,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/gurume/index.html",
+      "sha256": "729306d1fa94868517589e24d38410487ffaa1f3def9ca663089975dbb8f761c",
+      "bytes": 50253,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/gurume/index.html",
+      "sha256": "a44e1446207fa47dab182c29b7eec874ba3a3cbf76f385927541db4ed6e2ec9d",
+      "bytes": 49905,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/nova-capela/index.html",
+      "sha256": "992c313e685bab18527ae2af2901aa68c5492b7be0422999d8405e1f2f132aeb",
+      "bytes": 46027,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/nova-capela/index.html",
+      "sha256": "09cfded154cea1e00a68bea652d80000346feb917b775815916cfb24eed35f59",
+      "bytes": 45949,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/nova-capela/index.html",
+      "sha256": "98d8a1ced80ca2b68735ab5a83a08d6c8fce205c25a6ac7633fffa6e29d6efc3",
+      "bytes": 45573,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/jobi/index.html",
+      "sha256": "24e35a8371dc62a2c1d3a6c4c0c354e268e6c21c067e62678fb931f966fa47ab",
+      "bytes": 49032,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/jobi/index.html",
+      "sha256": "b3f1579db1ce9c8cc420fefc459cd04443843e8d7740e4b30e1ba6a832446c67",
+      "bytes": 48843,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/jobi/index.html",
+      "sha256": "49d1584ae2ab8e91e08f63ab0d2fec7601b1699c5181d0bda43b88837a1c528d",
+      "bytes": 48574,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/aipo-aipim-920/index.html",
+      "sha256": "f28ae56790f0a6c9460809730dbf0018ca02110258fd8698ac3e648525d1906e",
+      "bytes": 49890,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/aipo-aipim-920/index.html",
+      "sha256": "5a18a56d66beaaf4b3921ad71db467dde4441df207d3b6564c186a2ddc243a04",
+      "bytes": 48863,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/aipo-aipim-920/index.html",
+      "sha256": "17c7d0dedeec40bf303fcf96b1b2e4ae73675d7ecf8d71564f81e0a246939531",
+      "bytes": 48533,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/arab-leblon/index.html",
+      "sha256": "5b94560e52442906d8d75426915ffa9411fb907b2cd623b1721131ada6e0596f",
+      "bytes": 49130,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/arab-leblon/index.html",
+      "sha256": "b7a221d16dbb2cc01759576797e76f1d998d5f78b4648c837d47a208cca98aa6",
+      "bytes": 48336,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/arab-leblon/index.html",
+      "sha256": "7087f9b769273a12bcfe352f70a19fbed1920e56ad875111772d2172395c3c78",
+      "bytes": 48049,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/churrascaria-palace/index.html",
+      "sha256": "8f3d89e40f13e5db9f083c1c81f657f2dde336f5de372c27e043e97346a59bf0",
+      "bytes": 52788,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/churrascaria-palace/index.html",
+      "sha256": "fb9d77a0fb32ba9e2c06e32cf30934051abb85f75802b29b9f546bdbf4bb663b",
+      "bytes": 51940,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/churrascaria-palace/index.html",
+      "sha256": "ecb9c81c553b465dd9dc51113ad0512c83194a16b3b793edd7e5cda55379edbd",
+      "bytes": 51691,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/pilograma-prime-grill/index.html",
+      "sha256": "1486381075a1e8048df618aa04aa59e18348e6b7c90b0c3b6e73cb482db38643",
+      "bytes": 43923,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/pilograma-prime-grill/index.html",
+      "sha256": "25f4e301046d14441312fde5b6e9da5f8ab5adf63183ae08ba24b4f3ffd39777",
+      "bytes": 43692,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/pilograma-prime-grill/index.html",
+      "sha256": "115b9c5fceec8031cdf5b024edb818937e379a0f603fd48332b0a4d793e53c7e",
+      "bytes": 43352,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/pesqueiro/index.html",
+      "sha256": "6690b18092d09130c673eb036a202214d0673a2ea862c84ff0fff781d8234da7",
+      "bytes": 43318,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/pesqueiro/index.html",
+      "sha256": "b952fb11b2b6208b091bd576b84f24c9100fb7a7fa78161333f6a22b11234b88",
+      "bytes": 43275,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/pesqueiro/index.html",
+      "sha256": "f0ceac87f8808e33cfd9b917f123eb6f0e5fd03bc570d72d46dcaf62145a8368",
+      "bytes": 43113,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/kilograma-centro/index.html",
+      "sha256": "e8a450258ececc2deceea45929cfc53a7d7d098128e3329b5b182331a1bc1013",
+      "bytes": 47231,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/kilograma-centro/index.html",
+      "sha256": "b647a8b5084f07eeedb545d6782105ea7f885639099703717e723a6f8c3c5dcc",
+      "bytes": 46619,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/kilograma-centro/index.html",
+      "sha256": "3ca80e55712ef3131685537ea5bed1f66c231246f7db0cf14bfa45a93b62a9ed",
+      "bytes": 46332,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/point-de-grumari/index.html",
+      "sha256": "4b137fb2639038105c089d14dde1d943e926834a40c39bf7f697a8cabe22e588",
+      "bytes": 46784,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/point-de-grumari/index.html",
+      "sha256": "c8bab0461d8f7f06fd9ce1b622f0c8f116ee2bb7a64a040c949b3cda91803674",
+      "bytes": 46185,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/point-de-grumari/index.html",
+      "sha256": "408574eda43d77dd74ce416af0fa2a76fc78fce220236db3fef431c139bd5788",
+      "bytes": 45778,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/temperarte-posto6/index.html",
+      "sha256": "1c072b7665096a03b8e80a6ec27ad39977acd7d0e25a70e84157b8eed99f1640",
+      "bytes": 46095,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/temperarte-posto6/index.html",
+      "sha256": "6ab659277d29684d70f47cd9b2f2a738b002155a6d343326c745c27d597f911b",
+      "bytes": 45834,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/temperarte-posto6/index.html",
+      "sha256": "9d1504e5bb49d9783e1adf90906a7626b5b62d16eddd7020b240cb16e34441cb",
+      "bytes": 45568,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/xian/index.html",
+      "sha256": "525b750af55cd4565b21d184c7778ab10fb8f9c02ffe9eb6ee2fb6e481e15502",
+      "bytes": 44654,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/xian/index.html",
+      "sha256": "5acc3867659692bfb74d8557cb1ccc6e57e572392158e91e98a411b627d83906",
+      "bytes": 44332,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/xian/index.html",
+      "sha256": "1be01a2b9cfdcdb6d5cd785c5142288540ff9eb0798bf49256905ec3031c0867",
+      "bytes": 44032,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/shiso/index.html",
+      "sha256": "298a813aa6f3fb36d9fb6265d0efa73673df5cdd87ab93c1e9c2d13c42b15e79",
+      "bytes": 43185,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/shiso/index.html",
+      "sha256": "65a608ec5cde9c1077a01a17b695dc324a88636d3765a92a87fde8b07bf2100b",
+      "bytes": 43082,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/shiso/index.html",
+      "sha256": "88a154405d5cdf2b7e0ccef3d7855a51f6c5acb85a9788da389d133bcb42dbf6",
+      "bytes": 42834,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/nido-ristorante/index.html",
+      "sha256": "a3b9bdfd7dcc56f8a3eb21a80c7eb0ef10811eafbbeaf030388053b7b35dab60",
+      "bytes": 47800,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/nido-ristorante/index.html",
+      "sha256": "a4eb88e02d4a39e188234db21a21ef2e9a28e295856409c33d521b3428c72587",
+      "bytes": 47219,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/nido-ristorante/index.html",
+      "sha256": "64acb8614e53c94257e18651c4c6c2b38179ed342a5a2a1bc9d8db78c0da9dd5",
+      "bytes": 46710,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/sabor-das-aguas/index.html",
+      "sha256": "f1a7dc5506bf3701bfecdb16dbd7f2428c84c321768bfbb735e3b6e3a3012850",
+      "bytes": 45049,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/sabor-das-aguas/index.html",
+      "sha256": "a462aac06cbe42fb9075b6a156a3b2210d1a9e2c7d198266687f6eb22578f097",
+      "bytes": 44885,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/sabor-das-aguas/index.html",
+      "sha256": "a727ac397e717b20344bbdbe23c18111c8c0aa2659490887038f3a0c1b3b85cb",
+      "bytes": 44560,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/rufino-parrilla/index.html",
+      "sha256": "aa6f5f1c38e3d746feef112108d71c152756c84bd61d8275ef51e2e082db62c4",
+      "bytes": 44103,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/rufino-parrilla/index.html",
+      "sha256": "ea6f5365037159cfea43dad148c31ac6632d94052b56f33e37f650fe730a114d",
+      "bytes": 43986,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/rufino-parrilla/index.html",
+      "sha256": "76052b6ff11aab9c9b05225f1f03c72695d0791db66ccca53d7d40379118a3ce",
+      "bytes": 43806,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/prana/index.html",
+      "sha256": "a3501cbbd15ae52780e8c7af651548b1d15a68a13dbb9954639df7bc64e0bf93",
+      "bytes": 48349,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/prana/index.html",
+      "sha256": "9faef51ea82e8f3c791fe1358f714677b2334f31b8b085191e5de3e859863dcc",
+      "bytes": 47705,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/prana/index.html",
+      "sha256": "6ea2307ade347b65e43735bcedd1f2c22224e476da5790c8c4f097303c370187",
+      "bytes": 47389,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/cabanna/index.html",
+      "sha256": "e24800f1dd797d137de2335e86a68bb81efa523767d704379400b925f9c510ad",
+      "bytes": 44030,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/cabanna/index.html",
+      "sha256": "6afca89b8ccab421cf321b2d9ba62d140274a7fbc01dfdddd0d54045117fcc37",
+      "bytes": 42840,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/cabanna/index.html",
+      "sha256": "9415ad828e566bea09a4a67a55d2fb27c41b03976936593cdaad1235e3dc7543",
+      "bytes": 42557,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/coisas-de-bamba/index.html",
+      "sha256": "af9b5c19ec7e7e242df45e19854e82d95b874e43d17e8e679fd58a6248718f59",
+      "bytes": 47057,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/coisas-de-bamba/index.html",
+      "sha256": "0ae22380c5965e64f49f2145ddf3cb2526f02c2a2d9bb9664ade194f628f554a",
+      "bytes": 46132,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/coisas-de-bamba/index.html",
+      "sha256": "0aba23abeeb88a09d642903d5a7711b20dfba95b4e64fc2982d6be1f2e8fbe74",
+      "bytes": 45879,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/oro/index.html",
+      "sha256": "b3b3d87f243acac60f1eea35bc386aa8112433cf460ee2676920de716408e945",
+      "bytes": 49183,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/oro/index.html",
+      "sha256": "4a55a34c203f70bea1a415c57a5b770dd95c774a3b4b57aa7146d99505bf70cf",
+      "bytes": 48441,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/oro/index.html",
+      "sha256": "7b82fccf1d65c60c9b0640d0b06601f37eca61ee6e1e11d6f941ec28738757b0",
+      "bytes": 48097,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/lasai/index.html",
+      "sha256": "50aa79907bf34c6d8739a88cc0a7e054d2d9cfdb07afc45ec320499707f90a94",
+      "bytes": 49498,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/lasai/index.html",
+      "sha256": "0336685f568b871ccd56130f55b4f2b3c456fa3514170e353044e8bd5c84b6d8",
+      "bytes": 49466,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/lasai/index.html",
+      "sha256": "77c85572c5edc1a6d2ec8ef1bba6d7d6a36c39d2283dfed60a892429f4533a4b",
+      "bytes": 49234,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/sushi-leblon/index.html",
+      "sha256": "1b6e774da1f02cffa6c7179658753a096892787deda52e9aada0c5fe27e59611",
+      "bytes": 47518,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/sushi-leblon/index.html",
+      "sha256": "3b2df316c21aac0277d5d09a2a65eda966184580abf96cb7446f5992daad90dc",
+      "bytes": 46983,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/sushi-leblon/index.html",
+      "sha256": "03002b90ad997cd536e8670a8c95cfee2b8e729426a06747a146e12b7a1b8824",
+      "bytes": 46759,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/polis-sucos/index.html",
+      "sha256": "463682d014980840d6a39182239067b1828be71bf0191d2f248da443d83fccac",
+      "bytes": 60741,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/polis-sucos/index.html",
+      "sha256": "bad0b1103149b579ad272c308997dd8ff8b8317039ac6b0309370ffcf24dfaf2",
+      "bytes": 60467,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/polis-sucos/index.html",
+      "sha256": "359625e26c3e82a38b9e630883bf312a15d45fcc945f64a5639c938d4e979e14",
+      "bytes": 60063,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/don-pascual/index.html",
+      "sha256": "4cfde1fb1add30abfa706c152afc0daf5f1240bae3a7a3d648270506b7306396",
+      "bytes": 49747,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/don-pascual/index.html",
+      "sha256": "93de4cafb9d83d522ab68a7418dd65d116dc3952ed8a7ba35f1cc07c442ae8a0",
+      "bytes": 48647,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/don-pascual/index.html",
+      "sha256": "4390b2e0ec8ec4ed298774f674e0bf05e15dc8d9dc067560e1b0364de5402a56",
+      "bytes": 48277,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/bira-de-guaratiba/index.html",
+      "sha256": "d11954abe79e70d1a5d47da2390e94f26957a1242ebaf3ee2b48c64f3d3e29f0",
+      "bytes": 56257,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/bira-de-guaratiba/index.html",
+      "sha256": "019e6788c0625038785c9bbfd533c0eb489448e692db34a73c5199d532dcd464",
+      "bytes": 55658,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/bira-de-guaratiba/index.html",
+      "sha256": "931b84d85325e72dafd81bab2b1994b4b303027ce008b6c33151c98063324db1",
+      "bytes": 55396,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/joaquina/index.html",
+      "sha256": "116dbe3f13555c1c2c71f73ce78211b1f80d25d44d875438c2739d823b16f112",
+      "bytes": 49448,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/joaquina/index.html",
+      "sha256": "44c3467d54a6b007dcf5f572b6fd66ae3afc6ddfc1bf7d901089ef163007c0da",
+      "bytes": 48458,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/joaquina/index.html",
+      "sha256": "f2876a327c651d6ff789c5631f83b532222f3c8a390577cb044b0b154b1072bb",
+      "bytes": 48027,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/delirio/index.html",
+      "sha256": "39a1905cf2aa4683a06fdc6e6a750ac0350351c633beb665cac647b3759acb0a",
+      "bytes": 50369,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/delirio/index.html",
+      "sha256": "062f7b6873d6d05a042d9b75769088a7cac6850e68ed3d191bf9bc02ef1c56ca",
+      "bytes": 49281,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/delirio/index.html",
+      "sha256": "56bafcf994aacccd40c8b8add6f97bfb4193238f28fea162c586ef55e0c34894",
+      "bytes": 48951,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/spesso/index.html",
+      "sha256": "193c91d2b53e3f435d51359c70f21b24191e010363081f9bdcef82e3cd763694",
+      "bytes": 50600,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/spesso/index.html",
+      "sha256": "a0b6348c04c0cc694a2f2d178cf6ed0c5d6a5a7e656b697a008db358950177c1",
+      "bytes": 49300,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/spesso/index.html",
+      "sha256": "6d5fea5626d0d7b12b916a8b06d3825a57cece974100d82dbd5e413394febfb1",
+      "bytes": 48873,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/eclipse/index.html",
+      "sha256": "d33e62fc4d6378eda8ad792f635471834b427116d709f3528be47df8faafd321",
+      "bytes": 50268,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/eclipse/index.html",
+      "sha256": "550eb1e3121ad92ec822c54830006444a74371b1cc6ba1563eaecad1e2a5a2c4",
+      "bytes": 49011,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/eclipse/index.html",
+      "sha256": "c8bdbc9fb8838b6f623e27bb9e59c6781c3a3102584f663dcf6e1eea5f7f3484",
+      "bytes": 48655,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/majorica/index.html",
+      "sha256": "2eead1b8f9f076467a09ad93817621f12086dd43ae631226fc4d89a8770fe784",
+      "bytes": 40971,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/majorica/index.html",
+      "sha256": "959385291a9c2cad2a024cd34b7d884bb9aa38d94c2bac437c5a9e73f8c31e83",
+      "bytes": 40975,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/majorica/index.html",
+      "sha256": "7412d2ebce95bf84bc62ef2cba908b1042bf27813cf8b073cbf03aeaaa163bb4",
+      "bytes": 40744,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/arp-bar/index.html",
+      "sha256": "0734478659e4e3555c586aec888b03d75f8fe1213a7d78696feac8fa7596621a",
+      "bytes": 53516,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/arp-bar/index.html",
+      "sha256": "ac6c396c8fa7e25ae36be625256c6055c77c262fdc30fb3fc4272a7999f1ede3",
+      "bytes": 53725,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/arp-bar/index.html",
+      "sha256": "4af668432782829134c704e4d97839aa301fedaf5a6932bfdd01aa8f7b558c97",
+      "bytes": 53355,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/classico-leme/index.html",
+      "sha256": "fe7a3d97b41e0e2496932e436a83e7ac7e66fbddf209ce069c99733a940b95fa",
+      "bytes": 58495,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/classico-leme/index.html",
+      "sha256": "49d96b959304679207dfc352d493cb8275feaf24aea111c18dd12b1cef8ce37a",
+      "bytes": 58544,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/classico-leme/index.html",
+      "sha256": "482f79bbf99d868be2cf3feda0b604d822f4ef300a7a39315d529856432c076e",
+      "bytes": 58005,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/quiteria/index.html",
+      "sha256": "28c8a31e1a9887a3c752d4e104a0f5e500a6130cce487d20d8cc968d77dabee4",
+      "bytes": 53517,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/quiteria/index.html",
+      "sha256": "0a12484ac326119fd18361ca289d93dfff81c879816a129f5de4a322c5a97bbc",
+      "bytes": 53673,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/quiteria/index.html",
+      "sha256": "7f90d331155f68326cdcdc7124c604785a462c2150efe99958e61b65b4d80753",
+      "bytes": 53104,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/cosmopolita/index.html",
+      "sha256": "0747282ca5851d8c74daeb3abce6e465c2f4f383fc13701bbe40bda265f0affe",
+      "bytes": 49523,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/cosmopolita/index.html",
+      "sha256": "9e04293bd7c5d9cb464a1a061dd816386e717ef54497c795f6fda31a27d7e2b8",
+      "bytes": 49101,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/cosmopolita/index.html",
+      "sha256": "e31485e8e45fde9c11a6797467bbf83e5d6b04de4907674551a46472899cce72",
+      "bytes": 48580,
+      "publicStatus": 200
+    },
+    {
+      "path": "destinos/buzios/comer-y-salir/madame-bardot/index.html",
+      "sha256": "a82d34f245f96e1918a8c64b9cb26477a35f10682ad6e95e72137295e294a33c",
+      "bytes": 13434,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/destinos/buzios/comer-y-salir/madame-bardot/index.html",
+      "sha256": "c3c1459785ec2d2151967b500b44d617c554b117fac344aea39cb43471222d74",
+      "bytes": 12501,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/destinos/buzios/comer-y-salir/madame-bardot/index.html",
+      "sha256": "afed3939cef09e5b618afe1ee1511360ac6dc92a897b8ad20ef8a38ecb36e208",
+      "bytes": 12439,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/nino-cucina-ipanema/index.html",
+      "sha256": "affa1efecc375fec1767a1893ab3db0597e9e0d75970920efddf681fd81a19de",
+      "bytes": 49221,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/nino-cucina-ipanema/index.html",
+      "sha256": "a34e3dc892b0c5b29b0ed01469dab8ffa5ec6026f01e3371c728df3d40112a75",
+      "bytes": 49028,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/nino-cucina-ipanema/index.html",
+      "sha256": "2145a236fc1b93adb2333a5a0b058f32a44f7976bf7d51a19f651371aaf0b3a8",
+      "bytes": 48743,
+      "publicStatus": 200
+    },
+    {
+      "path": "gastronomia/temperarte-bolivar/index.html",
+      "sha256": "343c203615281c4efbcab6f3e1761910c1a0943a2b9d66afdf8b0b570a85c59a",
+      "bytes": 46975,
+      "publicStatus": 200
+    },
+    {
+      "path": "pt/gastronomia/temperarte-bolivar/index.html",
+      "sha256": "5b6d049cf51591e89eaf0b6e934c64ea0c06330e6f66eb8289fd7537589469db",
+      "bytes": 47080,
+      "publicStatus": 200
+    },
+    {
+      "path": "en/gastronomia/temperarte-bolivar/index.html",
+      "sha256": "feada684f54ac1efe20a4c0950af8801c631a9a3639ee60a6a04e148d2852770",
+      "bytes": 46693,
+      "publicStatus": 200
+    },
+    {
+      "path": "assets/js/site.js",
+      "sha256": "98bfc500ef8ebd8e349050f6b6ab582bae5b52e83813033c4a17a7b4adb056ec",
+      "bytes": 47879,
+      "publicStatus": 200
+    },
+    {
+      "path": "assets/js/translations/chunks/rio-residual-gastronomia-01.js",
+      "sha256": "24c7e3033d2e9ed8d1fdb065c10b3d96dcad195c2929a260fff49e67e2f1e690",
+      "bytes": 636147,
+      "publicStatus": 200
+    },
+    {
+      "path": "assets/js/translations/chunks/rio-residual-compras-01.js",
+      "sha256": "f53b826ebb7b456b42d248cef988957a4e3d88bdb07b5dddf19765510701cd70",
+      "bytes": 45870,
+      "publicStatus": 200
+    },
+    {
+      "path": "assets/js/buzios-food-places.js",
+      "sha256": "c5cd51b4eb3e8fd5a039de1f1578703b47a9fd3267f4c4ddeac1d53d4e5a403b",
+      "bytes": 64787,
+      "publicStatus": 200
+    },
+    {
+      "path": "assets/js/buzios-restaurant-profile-view.js",
+      "sha256": "ad9d6cdffd545b23e50bf238ad451bb5fa3d4ca903ad52126fa4484c3a965434",
+      "bytes": 29138,
+      "publicStatus": 200
+    },
+    {
+      "path": "assets/js/editorial-locale-metadata.js",
+      "sha256": "15d4a9b1b5633b140861c6e13d3ac58ae6f4416ec9f1b1cfb0fe4c0dd281d2bd",
+      "bytes": 3495,
+      "publicStatus": 200
+    }
+  ],
+  "runtime": [
+    {
+      "path": "compras/feira-sao-cristovao/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/compras/feira-sao-cristovao/",
+      "title": "Feira de São Cristóvão · Ernestinho Carioca",
+      "descriptionSHA256": "585fa67823b10ee1ca1b9f49b1ab0aebb435e9d0400dbf7016724904a69add17",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/adega-perola/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/adega-perola/",
+      "title": "Adega Pérola: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "1448cdebdc69268385208e14ae5101aeedc7ce3744db71ab8eaf0b5e67a00721",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 18,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/compras/feira-sao-cristovao/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/compras/feira-sao-cristovao/",
+      "title": "Feira de São Cristóvão · Ernestinho Carioca",
+      "descriptionSHA256": "0516db3b92a7cb6f739d3906a58fffb00da7eb28ff05ad85bba4d0906cba9f20",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/compras/feira-sao-cristovao/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/compras/feira-sao-cristovao/",
+      "title": "Feira de São Cristóvão · Ernestinho Carioca",
+      "descriptionSHA256": "92798a215655c9f94626efb44d6910424bed36e0ac11fb679aab38022f81150a",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/compras/uruguaiana/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/compras/uruguaiana/",
+      "title": "Uruguaiana | Ernestinho Carioca",
+      "descriptionSHA256": "f51d83f132954a4abec4823bdcbba05746c295c3787645a421de8f8ac4933484",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 31,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/compras/uruguaiana/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/compras/uruguaiana/",
+      "title": "Uruguaiana | Ernestinho Carioca",
+      "descriptionSHA256": "ff03e7d4c8d8089b756b3adb11973513663f885c7197d6e3262d68c658cc0768",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 31,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/compras/mercadao-madureira/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/compras/mercadao-madureira/",
+      "title": "Mercadão de Madureira | Ernestinho Carioca",
+      "descriptionSHA256": "74c086dcdecbdb2d27e5944a8b49edcd7fc34d25c79e8eb1a0c69b461cde38d2",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 30,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "compras/uruguaiana/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/compras/uruguaiana/",
+      "title": "Uruguaiana | Ernestinho Carioca",
+      "descriptionSHA256": "fd226553ba301a8255cc1ab7e631392ce392aaa46ab642a1d5385f49bab15f75",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 31,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "compras/mercadao-madureira/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/compras/mercadao-madureira/",
+      "title": "Mercadão de Madureira | Ernestinho Carioca",
+      "descriptionSHA256": "ee150145a5111bc9d5331fc9a367435334bc1e2c3da7c9f0a48d2da13aac122e",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 30,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/compras/mercadao-madureira/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/compras/mercadao-madureira/",
+      "title": "Mercadão de Madureira | Ernestinho Carioca",
+      "descriptionSHA256": "bdc8e8f5aef12ab45571db02e49d236c8d0c6285c7e22cb953413e05a0a597b3",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 30,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/adega-perola/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/adega-perola/",
+      "title": "Adega Pérola: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "8e9eec067b61368e4d2ddcf06854c8088e33e4f7a25624ba9dd01fbf57a45460",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 18,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/adega-perola/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/adega-perola/",
+      "title": "Adega Pérola: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "aab9e53147402602e5d6661f36e237007f3547d2da597113f5e9c50b0601727c",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 18,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/aipo-aipim-391/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/aipo-aipim-391/",
+      "title": "Aipo & Aipim Copacabana 391: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "d65015aaba2e9ec2a55ffdb5f06aac980e49ce1325cda48a67333866b60970c4",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/aipo-aipim-605/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/aipo-aipim-605/",
+      "title": "Aipo & Aipim Copacabana 605: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "cba54b84bc482fcf1996e0b6f42d9c451d798c8426107b5eaee20a6cfa65b79b",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/angu-do-gomes/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/angu-do-gomes/",
+      "title": "Angu do Gomes | Ernestinho Carioca: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "b0dcbf048ee41d55753eeceb1628678c6f5ef3b2d782fbb3e48a6ea526f2a870",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 15,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/angu-do-gomes/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/angu-do-gomes/",
+      "title": "Angu do Gomes | Ernestinho Carioca",
+      "descriptionSHA256": "e9fd28c4ebedbfd8372937e4f615d057de8b4a4c2fb6995af968ec826b4d0972",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 15,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/aipo-aipim-391/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/aipo-aipim-391/",
+      "title": "Aipo & Aipim Copacabana 391: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "719e4fc0ec2cf6caa302e0d5a30092725efa811bfd77c6a3136affc573b6abfb",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/aipo-aipim-605/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/aipo-aipim-605/",
+      "title": "Aipo & Aipim Copacabana 605: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "f86b89ec366147aadff768b43ec25028ac774d105f46805491bb34a9b570c93b",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/aipo-aipim-391/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/aipo-aipim-391/",
+      "title": "Aipo & Aipim Copacabana 391: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "1f552c8aeecd41a07be47f041eab15d853ef189bfc24241f9ed5e395bf5311aa",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/aipo-aipim-605/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/aipo-aipim-605/",
+      "title": "Aipo & Aipim Copacabana 605: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "5c2647d5257b410961db60721519e22982911cf023dc81c3cded6453bf966657",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/angu-do-gomes/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/angu-do-gomes/",
+      "title": "Angu do Gomes | Ernestinho Carioca: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "282d87be1c20c06cc96ad0ca6c175afe8b3b618b1bd60c6e559d0a9e9da0ef14",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 15,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/assador/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/assador/",
+      "title": "Assador: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "05c72a98139257778dfb679be07ac6ce810f2f4367dad8c56c8009dcd7f2bb63",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/assador/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/assador/",
+      "title": "Assador: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "d00d56fc9ef42d9fa02cf8edacc8fe9bfc05a4045d6e1b0f20022aad2bf908c8",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/assador/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/assador/",
+      "title": "Assador: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "f84f8dcb420068b23dcebd91f3c633af9604f47bd8771b78ba83c459dc57a443",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/bar-da-gema/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/bar-da-gema/",
+      "title": "Bar da Gema: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "417ab51ad6b0e731b5223283fa2b704caa7efef611a4bc26afa9938cfc956e87",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/bar-da-gema/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/bar-da-gema/",
+      "title": "Bar da Gema: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "c3dbffabdfd8b526c03a916b47c8e866cd3a77ae80ea5049fdd8c0c046e6cec5",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/bafo-da-prainha/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/bafo-da-prainha/",
+      "title": "Bafo da Prainha: guía de Ernestinho Carioca",
+      "descriptionSHA256": "4cb3397e2b975544d0e2bb0ff50c47edaad9c74e62d3e34e3218130d1c17fb54",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/bar-da-gema/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bar-da-gema/",
+      "title": "Bar da Gema: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "163b58c12eeac7d655d4b490f7ba8b0d04f3294826cafa5a71781dc3bd990b80",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/bafo-da-prainha/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/bafo-da-prainha/",
+      "title": "Bafo da Prainha: visitor guide | Ernestinho Carioca",
+      "descriptionSHA256": "9a502f71a6fb4e5ef7a79f78cdb1a70bb51701de3c71833a11dc580a31d1fd62",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/bafo-da-prainha/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bafo-da-prainha/",
+      "title": "Bafo da Prainha: guia de visita | Ernestinho Carioca",
+      "descriptionSHA256": "18d24e8e0e45380e2644098a65a12359100a9b23382ef263c6de537d3655ccde",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/bar-luiz/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/bar-luiz/",
+      "title": "Bar Luiz | Ernestinho Carioca",
+      "descriptionSHA256": "0d8eb56c5343e864a45b0d30ee5648ca45d05acc823373201fd70eca23235887",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 14,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/bar-luiz/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bar-luiz/",
+      "title": "Bar Luiz | Ernestinho Carioca: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "61196a9d954dcea1030069e13d8bb30eca7f93e3119671ed221e888198d67d53",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 14,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/confeitaria-colombo/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/confeitaria-colombo/",
+      "title": "Confeitaria Colombo: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "52c20dc3bf42c128f21edbf9083dcbf25323e199ad8ff7d3a312d75621fa3215",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/bar-luiz/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/bar-luiz/",
+      "title": "Bar Luiz | Ernestinho Carioca: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "ffa8a999b7057b661a68fc5079e7a3c8636b95d2f49c31644aca3c4a599e4ea0",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 14,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/confeitaria-colombo/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/confeitaria-colombo/",
+      "title": "Confeitaria Colombo: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "49f348d3aaab7cb57d39a6660a5cc4ae6fd2f737e8f169c5265397db61cee48c",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/rio-scenarium/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/rio-scenarium/",
+      "title": "Rio Scenarium | Ernestinho Carioca",
+      "descriptionSHA256": "bfd4a20722d914b61c7819ae99b88732536c0f08db99b22ea757fdea85f5818a",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 15,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/confeitaria-colombo/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/confeitaria-colombo/",
+      "title": "Confeitaria Colombo: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "3e53c51ca3e5cc9ce3f9a0f894d0e420e68c07054186e9d4be051316e82de52c",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/rio-scenarium/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/rio-scenarium/",
+      "title": "Rio Scenarium | Ernestinho Carioca: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "9a05d51b7aae5bd1cbfb01b705396ce286dd3298c6d794a10a62866e172e57a2",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 15,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/rio-scenarium/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/rio-scenarium/",
+      "title": "Rio Scenarium | Ernestinho Carioca: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "2ff588ea7d3497ea4464ffccaa8dae76763c7d4346b92da6126812cb4bc042c0",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 15,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/cachambeer/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/cachambeer/",
+      "title": "Cachambeer | Ernestinho Carioca",
+      "descriptionSHA256": "a149ab7f944c6f9b87b302588931d0dd9106bbe8f766468d557a8bf404cd8104",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 15,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/cachambeer/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/cachambeer/",
+      "title": "Cachambeer | Ernestinho Carioca: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "909c70d0178c99fb1f5ad6b26b122b3f9640c1128a07cba9d8344196a1fd7c05",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 15,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/cachambeer/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/cachambeer/",
+      "title": "Cachambeer | Ernestinho Carioca: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "7ed7aed7cc4a8a0d8e9f9a1a632f3ab19970b350ae8d36111831c1512350ac1e",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 15,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/carretao-siqueira/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/carretao-siqueira/",
+      "title": "Carretão Copacabana — Siqueira Campos: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "869c94007774f452e0dd0ae18f1e3a5f3f6d48def370e49c67c74c05496ef09f",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/carretao-siqueira/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/carretao-siqueira/",
+      "title": "Carretão Copacabana — Siqueira Campos: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "b81b94459bc50101c424e9493337f6038c7033f202d9d0624a14d7b98fe99781",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/carretao-siqueira/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/carretao-siqueira/",
+      "title": "Carretão Copacabana — Siqueira Campos: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "88f1fb57acc44295a58a535cbc1ff598ca984fa314d6ccac150268fc169e7c7b",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/casa-do-sardo/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/casa-do-sardo/",
+      "title": "Casa do Sardo: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "7982be99a5ee7b999fcf54b4f6c833e2c7c0e336088d4765ec6f99656de2d5b8",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/casa-do-sardo/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/casa-do-sardo/",
+      "title": "Casa do Sardo: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "b4de708b7ecd8473bf32faeecef6866171d3e9f471173057189d69c3b49c8530",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/casa-do-sardo/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/casa-do-sardo/",
+      "title": "Casa do Sardo: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "9af38d42acfc1552fe381448799e9c7bb3988565260d77bc150e836d7da3564c",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/bb-lanches/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/bb-lanches/",
+      "title": "BB Lanches | Ernestinho Carioca",
+      "descriptionSHA256": "95211689bc6a7cbfaab9ccb12bb41410f671765c3ecf1d2b33fa42a9ac228781",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 12,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/bb-lanches/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bb-lanches/",
+      "title": "BB Lanches | Ernestinho Carioca",
+      "descriptionSHA256": "b525fdcbac658e988066ac363aa4eed372866b84da851770197c429d67e5ca87",
+      "descriptionMatchesApproved": false,
+      "validAlternative": true,
+      "paragraphs": 12,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/bb-lanches/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/bb-lanches/",
+      "title": "BB Lanches | Ernestinho Carioca",
+      "descriptionSHA256": "53c4498a1f1a8b33ad9380d67db7fa6d9b0fe428714f867b981e837bc1d28780",
+      "descriptionMatchesApproved": false,
+      "validAlternative": true,
+      "paragraphs": 12,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/cavalo-marinho/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/cavalo-marinho/",
+      "title": "Cavalo Marinho: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "561a47a4d7a4ee4461069e5db858d482aab96a8ebb93f6a01dc65833fbd625be",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/cavalo-marinho/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/cavalo-marinho/",
+      "title": "Cavalo Marinho: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "68035c52bd73eb361da1d5319ca8bf0d877b6f7f1d7a95ead531f1740d482686",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/cavalo-marinho/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/cavalo-marinho/",
+      "title": "Cavalo Marinho: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "34fdcabc47cc4fdfb579d53d75f9667596143082430b78d392c8cdf72358a6d4",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/confeitaria-manon/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/confeitaria-manon/",
+      "title": "Confeitaria Manon: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "44cde896c22f2ad21344b34a92274b13a54bdcbe9d8d2809b4818ac76c42cbe5",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/confeitaria-manon/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/confeitaria-manon/",
+      "title": "Confeitaria Manon: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "03a5305ff4d73793aecabd514d4e341ac2b0adf169530b005e15ef4013fc8a53",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/confeitaria-manon/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/confeitaria-manon/",
+      "title": "Confeitaria Manon: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "3fc34181c1ef3a06b7d5cd39d7a767226ffc31c5bad6b1ba14ed79044e0097c2",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/cafe-do-alto/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/cafe-do-alto/",
+      "title": "Café do Alto: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "c40fec2d61794b6bf5ed62cd8a0b56d2746a4afb29fc8630e8caa064ebe6136c",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/cafe-do-alto/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/cafe-do-alto/",
+      "title": "Café do Alto: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "7a372c641d7c55ed76ce87d2786bdc0acbca92404282295216dee7cabbd5a617",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/cafe-do-alto/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/cafe-do-alto/",
+      "title": "Café do Alto: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "75eb7b1e62ae45b1355f207887bbb3f8e76a5c61367c941e66a11b1c179c4092",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/casa-porto/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/casa-porto/",
+      "title": "Casa Porto: guía de Ernestinho Carioca",
+      "descriptionSHA256": "8ce054ebc719b264e760248413ed1e3aa1b134249a273537a7a3085dc2fe96fd",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/casa-porto/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/casa-porto/",
+      "title": "Casa Porto: guia de Ernestinho Carioca",
+      "descriptionSHA256": "8fa2f34705c6485fbbeaabccb5aa94afc76b505441a0401034ab82bcf3613c78",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/casa-porto/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/casa-porto/",
+      "title": "Casa Porto: Ernestinho Carioca guide",
+      "descriptionSHA256": "4fecc41af3c3811e8eab394e60cace34bbed96801e2ae41769a448532bea1d91",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/ferro-e-farinha/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/ferro-e-farinha/",
+      "title": "Ferro e Farinha: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "675b570e5482371f01a80c6accc04835173cc909911f41da7549cad4154df450",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/ferro-e-farinha/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/ferro-e-farinha/",
+      "title": "Ferro e Farinha: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "e14c02af3e769a1d8b158f253208db4bbab0f1cc2f8dffff64bb4479b8505138",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/ferro-e-farinha/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/ferro-e-farinha/",
+      "title": "Ferro e Farinha: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "afd8f99fb29a4ca838a26a801ebde98a386f8b1c9af845cda17114753eeb5d15",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/gurume/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/gurume/",
+      "title": "Gurumê: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "e231c564e67b4bc5fb4ff1f12cd70ba484364c0cedecc5464325f981fe316608",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/gurume/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/gurume/",
+      "title": "Gurumê: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "5a701976969ac149661804d420071c0aeae83b801367a4d629724da2760fb24d",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/nova-capela/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/nova-capela/",
+      "title": "Nova Capela: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "bc9cd1945386fc760e1e2d743c3e7f01595d6afda2f649f90f6fa21e1935a65c",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 28,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/gurume/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/gurume/",
+      "title": "Gurumê: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "3ca6b7db093d764d70fd28da8e45043ba45dc3c86baf68eee6170bfce5b27f8c",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/nova-capela/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/nova-capela/",
+      "title": "Nova Capela: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "64ab2727872f9b9fd87c1123fa574de4b19a4da14b7f2387c6e300171330d1a8",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 28,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/nova-capela/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/nova-capela/",
+      "title": "Nova Capela: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "c09e475d92f5a676dec6a39142d6c21ac124109cb16f806e7ab956128e0d059f",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 28,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/jobi/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/jobi/",
+      "title": "Jobi: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "f765782f2222682d786e43e991c80b7dc1d4620d52de4e507ee1a4ee371dfff0",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/jobi/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/jobi/",
+      "title": "Jobi: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "c429e1350278752e09fdbc3b691e33e5c7648074bc6cb2a879e78925b458dc67",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/jobi/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/jobi/",
+      "title": "Jobi: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "5e9b0dce165c17edf14562a2e711f7150c3d1b637f4132c7c9c3cddabe6ef6e9",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/aipo-aipim-920/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/aipo-aipim-920/",
+      "title": "Aipo & Aipim Copacabana 920: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "387e6a3943ee7447bf08249ca698b25278ab554b602878239f1e23bcee5f07af",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/aipo-aipim-920/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/aipo-aipim-920/",
+      "title": "Aipo & Aipim Copacabana 920: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "e3c70baf7140942f2965432f6cbde3b3962c16af638c6c0142e1084ea0480c5c",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/aipo-aipim-920/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/aipo-aipim-920/",
+      "title": "Aipo & Aipim Copacabana 920: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "555333a248edaefa951cc82a071c3e0d395be57ba3f65bb311a9ca86f8174342",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/arab-leblon/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/arab-leblon/",
+      "title": "Arab Leblon: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "54b5091264ffe71e16596b91de5f6e1cced613a3c0f2fe90e5c8eed662bb5913",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/arab-leblon/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/arab-leblon/",
+      "title": "Arab Leblon: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "deb41dd3f5bfca77d0e126621dd09663067b9c6a66b02656474ecb7be4d5014b",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/arab-leblon/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/arab-leblon/",
+      "title": "Arab Leblon: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "73bb5918d2f652e7c0b7b75c0d47d4297b098f556ee90b5e6c725daada19776d",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/churrascaria-palace/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/",
+      "title": "Churrascaria Palace: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "fdfcb176b032c7eaa368d0b50b84ec9bc6afc9bf3ab608b8d1ad79b7502bbdea",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 18,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/churrascaria-palace/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/churrascaria-palace/",
+      "title": "Churrascaria Palace: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "1804e7e228e8ee6c3280a06d7999dc8ba5915ef24d942fcebc16cc137198b702",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 18,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/churrascaria-palace/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/churrascaria-palace/",
+      "title": "Churrascaria Palace: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "c8c7e0640dbb6dd35b08a125824849b0581a0e41900ea4d1a386acc123c00164",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 18,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/pilograma-prime-grill/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/pilograma-prime-grill/",
+      "title": "Pilograma Prime Grill: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "1b520213c36e987867709c48db4e6dc958abac3cd152b92b4ab13117cc6a5cea",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 24,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/pilograma-prime-grill/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/pilograma-prime-grill/",
+      "title": "Pilograma Prime Grill: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "701de949699a90ed8af494a89bb188dea239d20de2c4ec64ae3c6645196edc39",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 24,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/pilograma-prime-grill/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/pilograma-prime-grill/",
+      "title": "Pilograma Prime Grill: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "95dc43feba2e4f6c1c7f3cee1094b97a1368668769bdc165e643b786d769ae4b",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 24,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/pesqueiro/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/pesqueiro/",
+      "title": "Pesqueiro: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "537ad97eb5f9d31cfd89cb785db40993398aa2c400758b65e17b3f1298921a03",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/pesqueiro/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/pesqueiro/",
+      "title": "Pesqueiro: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "83ce9d7bf6eddde68d26331e6642edfc8f9da98f001bf3a074a196505b68ae30",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/pesqueiro/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/pesqueiro/",
+      "title": "Pesqueiro: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "4ac00e9ffca570f791314f06e90762be76cab1e1c18ee789258de6437dd1dd87",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/kilograma-centro/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/kilograma-centro/",
+      "title": "Kilograma Centro: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "3785397da7993171dfc7b147cd989ab1dab397d5a956c917832bb48062c8f668",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 26,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/kilograma-centro/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/kilograma-centro/",
+      "title": "Kilograma Centro: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "11b87f784f7beb9bbaa072f95f82e47cfe4ec40ed2e2a5473cb5a4b46a952332",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 26,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/point-de-grumari/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/point-de-grumari/",
+      "title": "Point de Grumari: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "cc2f87bc3e87647e1603022d1b2a56d4e2376ee4829d4bb7bee57ac1040a5005",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/kilograma-centro/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/kilograma-centro/",
+      "title": "Kilograma Centro: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "e86103b6556268a0cfb0edbd855695a66e4e448329d54f39e304716df7d8a8cf",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 26,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/point-de-grumari/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/point-de-grumari/",
+      "title": "Point de Grumari: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "cdddaae3a4611d0240ddac43dc1789103b939aa99805c05213b9abfa599d1f30",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/point-de-grumari/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/point-de-grumari/",
+      "title": "Point de Grumari: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "5e265f0e6e167ca6a17c24b8615d7797bb1a413d0fafa191edb67c8b0ef36b9b",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/temperarte-posto6/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/temperarte-posto6/",
+      "title": "Temperarte Posto 6: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "a4e86c33cff4ce420a14796a1fe10beabeaa33df1380d6cfb4e5da0cc891edef",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 26,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/temperarte-posto6/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/temperarte-posto6/",
+      "title": "Temperarte Posto 6: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "bb81107a6d129399fc1f1631efe090f390347d42cf95185513157792f07dc09f",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 26,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/temperarte-posto6/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/temperarte-posto6/",
+      "title": "Temperarte Posto 6: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "a220efa1a8e0fa33bc52f323863aef492061cdea861ad0b008c4e1ae85a2137c",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 26,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/xian/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/xian/",
+      "title": "Xian: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "c0357edef3de1f245377b1c8ec38796e4aa65e73953fdf26832a22d7e6bcf8e7",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 28,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/xian/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/xian/",
+      "title": "Xian: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "27672116fcd68032a7ba2e30ecd8c4c212ebd777d8757d9e46f7dbac990fd1b5",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 28,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/xian/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/xian/",
+      "title": "Xian: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "85eccc5bbf13db398f335828b18585f98982d58c65380e2fd4ffb8b2bf945ef1",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 28,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/shiso/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/shiso/",
+      "title": "Shiso: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "abae68b1effdf1256076db75568cada2ecac4b166cb78e297406798cb05914b2",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/shiso/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/shiso/",
+      "title": "Shiso: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "43b4196ebe47b04edf2b6a153cb43318a527806a25131f3a765141e7f63458e6",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/nido-ristorante/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/nido-ristorante/",
+      "title": "Nido Ristorante | Ernestinho Carioca",
+      "descriptionSHA256": "c179fcd66de7e7673794f7660ec1a9047f1d9a5dad7246f6d89f1ecdd1089276",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/shiso/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/shiso/",
+      "title": "Shiso: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "e600a82db6b9e9ee78ec327a35b239dd9714004fd90ee637f8e5f98b5474e99f",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/nido-ristorante/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/nido-ristorante/",
+      "title": "Nido Ristorante | Ernestinho Carioca",
+      "descriptionSHA256": "a93474bb34b88dd661fd1942957e29d07f38b315cbc88eef8b6f23d2f0fb9c55",
+      "descriptionMatchesApproved": false,
+      "validAlternative": true,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/sabor-das-aguas/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/sabor-das-aguas/",
+      "title": "Sabor das Águas: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "f7652a7b681edfa236bff7126b25e654a36a8a38e070da77c5b40b609dde42a3",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/nido-ristorante/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/nido-ristorante/",
+      "title": "Nido Ristorante | Ernestinho Carioca",
+      "descriptionSHA256": "f8bbe849f013afa51ee44f62f7f7d7e35cb5e47f607d533247abbcf5f377dcfc",
+      "descriptionMatchesApproved": false,
+      "validAlternative": true,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/sabor-das-aguas/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/sabor-das-aguas/",
+      "title": "Sabor das Águas: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "88073e1870fc8085bd3a10c3ec21fdd3a8be8a9cf09258c032fe50639d872286",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/sabor-das-aguas/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/sabor-das-aguas/",
+      "title": "Sabor das Águas: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "2d60642e9d70eb4748127f92b88e0846e3e6ca27b970a50497266d07d26d0507",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/rufino-parrilla/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/rufino-parrilla/",
+      "title": "Rufino Parrilla: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "837607efb5111e422c631b49d66e624cf09ab7e2eaa8d7fccd85967ef4e85156",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 26,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/rufino-parrilla/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/rufino-parrilla/",
+      "title": "Rufino Parrilla: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "296892f236c1d6174a5107ea1eadb40cba174a98fcd134f1b9a59cf333f9eaf8",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 26,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/rufino-parrilla/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/rufino-parrilla/",
+      "title": "Rufino Parrilla: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "c2bea5b5e38e5e943014ea1595a75bd777bd3927fa7421dd77a53e9b9b05d41d",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 26,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/prana/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/prana/",
+      "title": "Prana Vegetariano: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "b4b353218d861a1c80b69e6dfb8bcd771edbd7aa1e6c8358db1a264edc3157f7",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 28,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/prana/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/prana/",
+      "title": "Prana Vegetariano: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "a2efe0d07e8f5bb739443e49eda1040e9ba990e512946a4883cfaab224b89ac4",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 28,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/prana/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/prana/",
+      "title": "Prana Vegetariano: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "4f1c2582aa61592b2749d19cf0fc2047008d5eaf89c0dc6d80132e4e00796f62",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 28,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/cabanna/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/cabanna/",
+      "title": "Quiosque Cabanna: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "c3d5205f7efb81316c1c34409ff976a4a1c96f410a23171cf02674747287df55",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/cabanna/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/cabanna/",
+      "title": "Quiosque Cabanna: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "5439662934480dcbe491ddb672a1939eb4983dd1162351ca97329cac66fa31c4",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/coisas-de-bamba/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/coisas-de-bamba/",
+      "title": "Coisas de Bamba: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "d8af1a59542283c427f62ccd8e8bc1d16c5a2e43db6e4ef696163cf46252213b",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/cabanna/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/cabanna/",
+      "title": "Quiosque Cabanna: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "27bfa1f76a1f3ad22e591320a33badfe4a86392b233a79063725048b8f7007eb",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/coisas-de-bamba/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/coisas-de-bamba/",
+      "title": "Coisas de Bamba: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "a8381df9a44fb0e3ac9d0b7552475a16357921ee0225f74e1f592e5d187c6d5d",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/coisas-de-bamba/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/coisas-de-bamba/",
+      "title": "Coisas de Bamba: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "5d74467a5d84c79e6ca51f14d33222f0e61aaa00732f0f6fec58c8ae8c3e1365",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/oro/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/oro/",
+      "title": "Oro: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "55122cb7fbe312ef51a1cc9ebc6aac9dc6c1221883a761ef4302ffe96dd98d10",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 29,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/oro/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/oro/",
+      "title": "Oro: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "98a330e8f94fc08281f21dab0c796221734c2737183cec45c3d5c2c414df4d0b",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 29,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/lasai/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/lasai/",
+      "title": "Lasai: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "58f02a1aa9bf48235dfaffac29d0dd1614596f63e8c0005a49a48b2a8ba4a81d",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/oro/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/oro/",
+      "title": "Oro: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "386f64b96ebca781fcaa3ca5dc10237242d32720f95e0c820247d393f63d03d5",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 29,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/lasai/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/lasai/",
+      "title": "Lasai: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "18b1dd6ffd2a99c20be8cd8d11235973838c0ba8aa5c89eb5aa95d85c4642778",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/sushi-leblon/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/",
+      "title": "Sushi Leblon: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "a137999312a8667ece957bf361cbc2e839f49494321156a3d2ab79c50712d655",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 28,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/sushi-leblon/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/sushi-leblon/",
+      "title": "Sushi Leblon: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "f8cb663443f418b620cdfdd968de2d59ca668847d174ad9a2dea95ba044e1b52",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 28,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/lasai/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/lasai/",
+      "title": "Lasai: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "30d9813e99d5d975eb47909ec2d013fac4b0b602a3a13508c39c15c17c404268",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 17,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/sushi-leblon/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/sushi-leblon/",
+      "title": "Sushi Leblon: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "84f2926727a022e3eb1fc1eee17e819c54701b7b1c58aa9ade63a2d1e3d31d55",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 28,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/polis-sucos/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/polis-sucos/",
+      "title": "Polis Sucos: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "97ddd9e103a3b0d3f6feb6ff94c3d83ec2ddb6ab786391471ebc7f374d5b98ae",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 29,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/polis-sucos/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/polis-sucos/",
+      "title": "Polis Sucos: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "d2619275f1befa2ee9145af9607a33173ea2685979208164bc9a1cca83351063",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 29,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/don-pascual/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/don-pascual/",
+      "title": "Don Pascual: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "e5f4c64998c2e1334af83fbc737171295f228f6f9b37887642b0a6b840fe7354",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 29,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/polis-sucos/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/polis-sucos/",
+      "title": "Polis Sucos: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "8e87852701794ef4d255daba3dc1e3e0ffa65362a7d24420e4e406157d550cdd",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 29,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/don-pascual/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/don-pascual/",
+      "title": "Don Pascual: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "4ba555660cec14be2d1c9715f7f1bc857c891caf45b7f3369a234bf9ea8a1413",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 29,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/bira-de-guaratiba/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/bira-de-guaratiba/",
+      "title": "Bira de Guaratiba: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "30faf461745a9de7d83c98b189311c7634387cee438965e087f3b981b6b1d616",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/bira-de-guaratiba/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bira-de-guaratiba/",
+      "title": "Bira de Guaratiba: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "08def320a1e99af7c1d236bd4aa2923014a669930ebd5cf831b092f707197997",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/don-pascual/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/don-pascual/",
+      "title": "Don Pascual: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "4f4491cd7da12e60c68aeabfd6278d7585e85217e34b3e37b7cfba67ff87c119",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 29,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/bira-de-guaratiba/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/bira-de-guaratiba/",
+      "title": "Bira de Guaratiba: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "af2a0d9bdab6ff40eb50d04ef5a9f4b7474590602d212cc060ff7865c50e8f23",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/joaquina/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/joaquina/",
+      "title": "Joaquina · Leme: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "01b9292a55c35610ba782f9c0a2a649046bad8ff8afafa53e4cc192b79eaf36b",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/joaquina/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/joaquina/",
+      "title": "Joaquina · Leme: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "10c1cc37986749cb68128392847c7566feaccc8894b803544475ee9551cbade3",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/delirio/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/delirio/",
+      "title": "Delírio Tropical Ipanema: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "e42a75db2f1f850d8a8cbdf88749ca09eb6f7d1be96fe08c6a377e64301c73dc",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 25,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/delirio/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/delirio/",
+      "title": "Delírio Tropical Ipanema: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "c75727d1c94f65d0ed826dc4128045e7d3a38ade93d88407bd814d641a593422",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 25,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/joaquina/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/joaquina/",
+      "title": "Joaquina · Leme: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "fec9d6d2aea852546b27ecfa5d968ff5ab2f834797f4c787ff2bcc4b012e5c1c",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/spesso/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/spesso/",
+      "title": "Spesso: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "278921fc283343304c04f19306898fd613b1cebed31c0382b987dccd96dca0f3",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/spesso/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/spesso/",
+      "title": "Spesso Copacabana: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "893b9d522ba971f388ea3b63b4879f22f2e2967198471b80aec59c57e8e982df",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/delirio/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/delirio/",
+      "title": "Delírio Tropical Ipanema: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "662fd98343c009d45b8a0a67b173498ae081f54c5cb18823d086187704d60ada",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 25,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/eclipse/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/eclipse/",
+      "title": "Eclipse: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "6dd192b44dd3e509dfc6836eee5594327475b3348ad6e00f9f60338dede7fb24",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/spesso/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/spesso/",
+      "title": "Spesso Copacabana: Complete Guide | Ernestinho Carioca",
+      "descriptionSHA256": "fe285ddb3fa9f0a9eb2f9b3e74dd322d289fef1eb89342a8313bd213a5f0e0d4",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/eclipse/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/eclipse/",
+      "title": "Eclipse: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "8f9d8386d0d84bf0327133179e0184aad4f4c2ad9fd93e8dbe1640b17883e314",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/majorica/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/majorica/",
+      "title": "Majórica | Ernestinho Carioca",
+      "descriptionSHA256": "dc441a231c37a47d6ff23d7555b818772ce6f39e1c486fbc370da3588f2b3080",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/majorica/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/majorica/",
+      "title": "Majórica | Ernestinho Carioca",
+      "descriptionSHA256": "9925d581aeb821c83ce96b8a1a3e2605913b33e3396f72c82160d89de5000874",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/arp-bar/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/arp-bar/",
+      "title": "Arp Bar: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "2313de77508f6ab41f197b1d8daeb9fa56344c7a4b17d427e4fe2cae28784e1c",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/majorica/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/majorica/",
+      "title": "Majórica | Ernestinho Carioca",
+      "descriptionSHA256": "b9dc761de3b47904791b18b16090302755a7fde0e764a092a31812d809371277",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/eclipse/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/eclipse/",
+      "title": "Eclipse: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "831e7e6a4454f9631ad0fe051bbad037fe6ea8d00ea3af020e43ab8a81fe605c",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/arp-bar/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/arp-bar/",
+      "title": "Arp Bar: dining guide in Ipanema | Ernestinho Carioca",
+      "descriptionSHA256": "3708dbeddfe6914716d82a6f9c29d2eb837a51b1eaac08d63607de7fc6fa7db0",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/classico-leme/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/classico-leme/",
+      "title": "Clássico Beach Club Leme: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "cd06158a889d07bc7748986e2f84f83e621c2d139c930a447ca22a9e498de745",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/arp-bar/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/arp-bar/",
+      "title": "Arp Bar: guia gastronômico em Ipanema | Ernestinho Carioca",
+      "descriptionSHA256": "83bb6022ecd54727aebe1d3e43315fdf5c99bd3dec83394e4fa95f2525944660",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/classico-leme/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/classico-leme/",
+      "title": "Clássico Beach Club Leme: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "9d6a6939192f255a3bbc236498dd2aa1c21e0cacaa6180395cbbd9ebf2db3c68",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/classico-leme/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/classico-leme/",
+      "title": "Clássico Beach Club Leme: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "b4f5b5134ffa29a5a5f6ca55c31bec1ab3884f1d90408a03ad3bedf1877fdbcc",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/quiteria/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/quiteria/",
+      "title": "Quitéria em Ipanema: guia gastronômico | Ernestinho Carioca",
+      "descriptionSHA256": "0e40a12d2fd8364c8893a8ca8e55b44050af88bb01f8b1848cbc89089df84a9f",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/quiteria/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/quiteria/",
+      "title": "Quitéria in Ipanema: dining guide | Ernestinho Carioca",
+      "descriptionSHA256": "7698efd30f0dc71a6b3b00546444440505467b59fbb15b460efecd472535faba",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/quiteria/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/quiteria/",
+      "title": "Quitéria: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "601d03c629a4370bc005cb0aae6df87737056c9335ffdaffea60eff2a12a13e1",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 20,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/cosmopolita/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/cosmopolita/",
+      "title": "Cosmopolita en Lapa: historia del Filé à Oswaldo Aranha | Ernestinho Carioca",
+      "descriptionSHA256": "54218af8ca6462341a61c5ca4d18f48cd9fa629acba2053ae9da7e4c65ea0fde",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/cosmopolita/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/cosmopolita/",
+      "title": "Cosmopolita in Lapa: the history of filé à Oswaldo Aranha | Ernestinho Carioca",
+      "descriptionSHA256": "93ebfe6bd5e883ae6f8d7f0204acb5a63ac38aa90f1313eb7b39da2061fa194a",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/cosmopolita/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/cosmopolita/",
+      "title": "Cosmopolita na Lapa: história do filé à Oswaldo Aranha | Ernestinho Carioca",
+      "descriptionSHA256": "4f2a788d7f28af487a03af668d97ec7f9132f5db4446930b1448537002b5dc8b",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 21,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "destinos/buzios/comer-y-salir/madame-bardot/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/madame-bardot/",
+      "title": "Madame Bardot: guía para comer en Búzios | Ernestinho Carioca",
+      "descriptionSHA256": "446c2091d2401b25878e87d42df7a4e91606b5fdc22aae06bd03ed42758f04a9",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/destinos/buzios/comer-y-salir/madame-bardot/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/madame-bardot/",
+      "title": "Madame Bardot: dining guide in Búzios | Ernestinho Carioca",
+      "descriptionSHA256": "d4b7c9f012e8e18a0c78ca9d6479c146f74c09c34bd71dc3fc10c424edb94508",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/nino-cucina-ipanema/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/nino-cucina-ipanema/",
+      "title": "Nino Cucina Ipanema: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "95a5dc470bf9db76047842b21be9c5d69cae415609b09da9c9d8e89d4cb2170d",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/nino-cucina-ipanema/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/nino-cucina-ipanema/",
+      "title": "Nino Cucina Ipanema: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "5f70cdccd04fc4870d4783283e19d8f6ae2c3ec287fe097ad2f2eabf62f75267",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/nino-cucina-ipanema/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/nino-cucina-ipanema/",
+      "title": "Nino Cucina Ipanema: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "99b11028d4fd5b725ba6cf05addb95bffdee52ff13113c9240a48e96e1dc8dff",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "gastronomia/temperarte-bolivar/index.html",
+      "status": 200,
+      "lang": "es",
+      "canonical": "https://www.ernestinhocarioca.com.br/gastronomia/temperarte-bolivar/",
+      "title": "Temperarte Bolívar: guía completa | Ernestinho Carioca",
+      "descriptionSHA256": "6f14fac7c4eb606d34dd858c982525f340175fb373ac92e46cd166feb564cb1d",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/gastronomia/temperarte-bolivar/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/temperarte-bolivar/",
+      "title": "Temperarte Bolívar: guia completo | Ernestinho Carioca",
+      "descriptionSHA256": "b45e3046102807430f7a93fff47c93b0daccd410b9cd21af688e3037748c5c85",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "en/gastronomia/temperarte-bolivar/index.html",
+      "status": 200,
+      "lang": "en",
+      "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/temperarte-bolivar/",
+      "title": "Temperarte Bolívar: complete guide | Ernestinho Carioca",
+      "descriptionSHA256": "6553b64ac83a105162add2128d73b9346ea24bcfbcd6a65818504a3d57ff2d45",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 27,
+      "paragraphDifferences": 0
+    },
+    {
+      "path": "pt/destinos/buzios/comer-y-salir/madame-bardot/index.html",
+      "status": 200,
+      "lang": "pt-BR",
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/madame-bardot/",
+      "title": "Madame Bardot: guia gastronômico em Búzios | Ernestinho Carioca",
+      "descriptionSHA256": "d87c5406ee43243996007d2b36e13fed2ef4ecaa0692f24242d65322067adde5",
+      "descriptionMatchesApproved": true,
+      "validAlternative": false,
+      "paragraphs": 22,
+      "paragraphDifferences": 0
+    }
+  ],
+  "validDescriptionAlternatives": [
+    {
+      "path": "pt/gastronomia/bb-lanches/index.html",
+      "actual": "Guia editorial de BB Lanches: identidade, história, recomendações, horários, transporte e mapa no Rio.",
+      "approved": "Guia editorial do BB Lanches: identidade, história, recomendações, horários, transporte e mapa no Rio."
+    },
+    {
+      "path": "en/gastronomia/bb-lanches/index.html",
+      "actual": "Editorial guide to BB Lanches: identity, history, recommendations, hours, transport and a map in Rio.",
+      "approved": "Editorial guide to BB Lanches: identity, history, recommendations, opening hours, transport, and map in Rio."
+    },
+    {
+      "path": "pt/gastronomia/nido-ristorante/index.html",
+      "actual": "Guia editorial de Nido Ristorante: identidade, história, recomendações, horários, transporte e mapa no Rio.",
+      "approved": "Guia editorial do Nido Ristorante: identidade, história, recomendações, horários, transporte e mapa no Rio."
+    },
+    {
+      "path": "en/gastronomia/nido-ristorante/index.html",
+      "actual": "Editorial guide to Nido Ristorante: identity, history, recommendations, opening hours, transport and a map in Rio.",
+      "approved": "Editorial guide to Nido Ristorante: identity, history, recommendations, opening hours, transport, and map in Rio."
+    }
+  ]
+}

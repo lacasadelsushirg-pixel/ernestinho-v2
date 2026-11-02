@@ -15,44 +15,7 @@ const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
 const out=path.join(root,'dist');
 const origin='https://www.ernestinhocarioca.com.br';
 // Route-scoped SEO corrections for editorial profiles; no global runtime or full build.
-const EDITORIAL_META_OVERRIDES={
-  "/gastronomia/arp-bar/": {
-    "PT": {
-      "title": "Arp Bar: guia gastronômico em Ipanema | Ernestinho Carioca"
-    },
-    "EN": {
-      "title": "Arp Bar: dining guide in Ipanema | Ernestinho Carioca"
-    }
-  },
-  "/gastronomia/bafo-da-prainha/": {
-    "PT": {
-      "title": "Bafo da Prainha: guia de visita | Ernestinho Carioca"
-    },
-    "EN": {
-      "title": "Bafo da Prainha: visitor guide | Ernestinho Carioca"
-    }
-  },
-  "/gastronomia/quiteria/": {
-    "PT": {
-      "title": "Quitéria em Ipanema: guia gastronômico | Ernestinho Carioca"
-    },
-    "EN": {
-      "title": "Quitéria in Ipanema: dining guide | Ernestinho Carioca"
-    }
-  },
-  "/gastronomia/classico-leme/": {
-    "PT": {"description": "Guia do Clássico Beach Club Leme: ambiente à beira-mar, pratos, horários, transporte, mapa e dicas para planejar a visita no Rio."},
-    "EN": {"description": "Clássico Beach Club Leme guide: beachfront atmosphere, food, opening hours, transport, a map and tips for planning a visit to Rio."}
-  },
-  "/gastronomia/cosmopolita/": {
-    "PT": {
-      "description": "História do antigo restaurante Cosmopolita na Lapa e do filé à Oswaldo Aranha. Endereço histórico; não há serviço gastronômico atual confirmado."
-    },
-    "EN": {
-      "description": "History of the former Cosmopolita restaurant in Lapa and filé à Oswaldo Aranha. Historic address; no current restaurant service is confirmed."
-    }
-  }
-};
+import {EDITORIAL_META_OVERRIDES} from '../assets/js/editorial-locale-metadata.js';
 const configs=JSON.parse(fs.readFileSync(path.join(root,'vercel.json')));
 const redirects=new Set(configs.redirects.map(r=>r.source.replace(/\/$/,'')||'/'));
 const ignore=new Set(['.git','node_modules','dist','.vercel','docs','scripts','upload']);
@@ -408,6 +371,9 @@ async function worker(){
      setMeta('og:title',seoCopy[0]);setMeta('og:description',seoCopy[1]);
     }
     if(editorialMetaOverride?.title)document.title=editorialMetaOverride.title;
+    if(/^\/gastronomia\/[^/]+\/$/.test(sourcePath)&&language!=='es'){
+     document.title=language==='pt-BR'?document.title.replace(/guía completa/gi,'guia completo'):document.title.replace(/guía completa/gi,'complete guide');
+    }
     if(editorialMetaOverride?.description)setMeta('description',editorialMetaOverride.description,'name');
     if(sourcePath.startsWith('/naturaleza/')){
      setMeta('twitter:title',document.title,'name');
@@ -483,6 +449,16 @@ async function worker(){
      }
      crumbs.push({name:document.querySelector('h1')?.textContent.trim()||title,item:canonical});
      const s=document.createElement('script');s.type='application/ld+json';s.dataset.ecBreadcrumb='';s.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});document.head.appendChild(s);
+    }
+    // These four source pages initialize legacy localizers in Spanish (or
+    // localStorage) on every load. Locale output already contains the reviewed
+    // copy and uses real locale links; replaying those scripts loses that copy.
+    if(language!=='es'&&(/^\/compras\/(?:feira-sao-cristovao|mercadao-madureira|uruguaiana)\/$/.test(sourcePath)||sourcePath==='/gastronomia/classico-leme/')){
+     for(const script of document.querySelectorAll('script:not([src]):not([type])')){
+      if(/\b(?:setLang|full)\s*\(/.test(script.textContent)){
+       script.type='text/plain';script.dataset.ecPrerenderedLocalizer='';
+      }
+     }
     }
     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1:document.querySelectorAll('h1').length};
    },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,editorialMetaOverride:EDITORIAL_META_OVERRIDES[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS,shortCopyTranslations:SHORTCOPY_TRANSLATIONS});

@@ -1,7 +1,18 @@
 import { LANGS, getLanguage, cycleLanguage, setLanguage, applyTranslations } from "./i18n.js";
 import { routeParts, hasLocaleRoutes, localeHref, localizeLinks, syncLocaleMetadata } from './locale-routing.js';
 import { localizeAttractionBooking } from './attraction-booking.js';
-import { applySeoMetadata } from './seo-metadata.js?v=20261016-rio-seo';
+import { applySeoMetadata as applySourceSeoMetadata } from './seo-metadata.js?v=20261016-rio-seo';
+import {EDITORIAL_META_OVERRIDES,localizeEditorialTitle} from './editorial-locale-metadata.js';
+function applySeoMetadata(lang) {
+ applySourceSeoMetadata(lang);
+ const key=String(lang).slice(0,2).toUpperCase(),route=routeParts().path;
+ const override=EDITORIAL_META_OVERRIDES[route]?.[key];
+ if(key==='ES'||(!/^\/gastronomia\/[^/]+\/$/.test(route)&&!override))return;
+ document.title=override?.title||localizeEditorialTitle(document.title,key);
+ for(const [selector,value] of [["meta[name='description']",override?.description],["meta[property='og:title']",document.title],["meta[name='twitter:title']",document.title],["meta[property='og:description']",override?.description],["meta[name='twitter:description']",override?.description]]) {
+  const node=document.querySelector(selector);if(node&&value){node.content=value;node.removeAttribute('data-ec-content');}
+ }
+}
 import { addTransportPhotoReferences } from "./transport-photo-references.js";
 import { addBulkPhotoReferences } from "./bulk-photo-references.js?v=20261025-buzios-neighborhoods";
 import { mountCariocIA } from "./carioc-ia.js?v=20261102-visitor1";
