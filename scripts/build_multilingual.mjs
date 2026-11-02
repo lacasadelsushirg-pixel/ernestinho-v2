@@ -8,11 +8,51 @@ import {loadBuildLibraries} from './build_vendor.mjs';
 import {buildBrowserOptions} from './build_browser.mjs';
 import {SEO_METADATA} from '../assets/js/seo-metadata.js';
 import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/translations/chunks/experiencias-standalone.js';
+import {SHORTCOPY_TRANSLATIONS} from './editorial_shortcopy_translations.mjs';
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
 const out=path.join(root,'dist');
 const origin='https://www.ernestinhocarioca.com.br';
+// Route-scoped SEO corrections for editorial profiles; no global runtime or full build.
+const EDITORIAL_META_OVERRIDES={
+  "/gastronomia/arp-bar/": {
+    "PT": {
+      "title": "Arp Bar: guia gastronômico em Ipanema | Ernestinho Carioca"
+    },
+    "EN": {
+      "title": "Arp Bar: dining guide in Ipanema | Ernestinho Carioca"
+    }
+  },
+  "/gastronomia/bafo-da-prainha/": {
+    "PT": {
+      "title": "Bafo da Prainha: guia de visita | Ernestinho Carioca"
+    },
+    "EN": {
+      "title": "Bafo da Prainha: visitor guide | Ernestinho Carioca"
+    }
+  },
+  "/gastronomia/quiteria/": {
+    "PT": {
+      "title": "Quitéria em Ipanema: guia gastronômico | Ernestinho Carioca"
+    },
+    "EN": {
+      "title": "Quitéria in Ipanema: dining guide | Ernestinho Carioca"
+    }
+  },
+  "/gastronomia/classico-leme/": {
+    "PT": {"description": "Guia do Clássico Beach Club Leme: ambiente à beira-mar, pratos, horários, transporte, mapa e dicas para planejar a visita no Rio."},
+    "EN": {"description": "Clássico Beach Club Leme guide: beachfront atmosphere, food, opening hours, transport, a map and tips for planning a visit to Rio."}
+  },
+  "/gastronomia/cosmopolita/": {
+    "PT": {
+      "description": "História do antigo restaurante Cosmopolita na Lapa e do filé à Oswaldo Aranha. Endereço histórico; não há serviço gastronômico atual confirmado."
+    },
+    "EN": {
+      "description": "History of the former Cosmopolita restaurant in Lapa and filé à Oswaldo Aranha. Historic address; no current restaurant service is confirmed."
+    }
+  }
+};
 const configs=JSON.parse(fs.readFileSync(path.join(root,'vercel.json')));
 const redirects=new Set(configs.redirects.map(r=>r.source.replace(/\/$/,'')||'/'));
 const ignore=new Set(['.git','node_modules','dist','.vercel','docs','scripts','upload']);
@@ -186,6 +226,20 @@ async function worker(){
    }
    return r.fulfill({status:200,body:libraries.get(r.request().url())||'',contentType:r.request().resourceType()==='script'?'text/javascript':'text/plain'});
   });
+ // Each route must begin in its own requested language. Some legacy pages
+ // read localStorage.lang while parsing their inline scripts; otherwise a PT
+ // page can leave that value behind and contaminate the next EN build.
+ // This init script runs before page JavaScript on EVERY navigation, and only
+ // inside the isolated build browser (never on the public website).
+ await context.addInitScript(() => {
+  try {
+   const pathname=location.pathname;
+   const language=/^\/pt(?:\/|$)/i.test(pathname)?'pt':/^\/en(?:\/|$)/i.test(pathname)?'en':'es';
+   localStorage.setItem('lang',language);
+   localStorage.setItem('ec-lang',language.toUpperCase());
+   localStorage.setItem('uLang',language);
+  } catch {}
+ });
  const page=await context.newPage();
  while(next<targets.length){
  const target=targets[next++],route=prefix(target.route,target.language);
@@ -242,8 +296,24 @@ async function worker(){
     for(const name of ['luggage-page.js','bounce-integration.js']){const script=scripts.find(s=>s.src.endsWith('/assets/js/'+name));if(script)(await import(script.src)).apply(language);}
     await new Promise(r=>setTimeout(r,80));
     if(typeof window.ecApplyPracticalSummaryLocale==="function")window.ecApplyPracticalSummaryLocale(language);
+    // These legacy gastronomy profiles use an independent inline D dictionary.
+    // The shared site.apply does not update those indexed paragraphs. Activate
+    // the original language switcher during isolated rendering only.
+    const routeWithoutLocale=location.pathname.replace(/^\/(?:pt|en)(?=\/|$)/i,'')||'/';
+    // Feira de São Cristóvão owns its copy in a separate inline D structure.
+    // Shared i18n alone misses the recommendation and family paragraphs.
+    if(routeWithoutLocale==='/compras/feira-sao-cristovao/'){
+     if(typeof window.setLang!=='function')throw Error('Feira localizer not found');
+     window.setLang(language.toLowerCase());
+    }
+    if(/^\/gastronomia\/(?:arp-bar|classico-leme|quiteria|cosmopolita|polis-sucos|adega-perola|churrascaria-palace|lasai|rio-scenarium)\/$/.test(routeWithoutLocale)){
+     const code=language.toLowerCase();
+     const switcher=document.querySelector('.lang-switcher button[data-lang="'+code+'"]');
+     if(!switcher)throw Error('Legacy language switcher absent: '+routeWithoutLocale+' '+code);
+     switcher.click();
+    }
    },target.language);
-   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations})=>{
+   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,editorialMetaOverride,standaloneTranslations,shortCopyTranslations})=>{
     const language=document.documentElement.lang;
     if(standaloneTranslations&&/^\/experiencias\/pedra-(?:telegrafo|gavea|bonita)\/$/.test(route.replace(/^\/(?:pt|en)(?=\/|$)/,''))){
      const selected=language==='pt-BR'?'PT':language==='en'?'EN':'ES';
@@ -260,6 +330,61 @@ async function worker(){
     const canonical=origin+route;
     const sourcePath=route.replace(/^\/(pt|en)(?=\/|$)/,'')||'/';
     const prefix=(r,l)=>l==='es'?r:'/'+l+r;
+    // Localized photo labels, captions and notices: prefer a page's editorial
+    // dictionary; fall back to human-reviewed exact strings or safe templates.
+    // Never alter image URLs, ordinary prose, metadata or site runtime.
+    if(/^\/(?:gastronomia|compras)\/[^/]+\/$/.test(sourcePath)&&language!=='es'){
+     const scripts=[...document.querySelectorAll('script:not([src])')].map(n=>n.textContent);
+     let dictionary=null;
+     if(sourcePath==='/gastronomia/polis-sucos/'){
+      const code=scripts.find(s=>s.includes('const P={')&&s.includes('},E={'));
+      const block=code?.match(/const P=(\{[\s\S]*?\}),E=(\{[\s\S]*?\}),O=\[\]/);
+      if(!block)throw Error('Polis photo dictionary not found');
+      dictionary=JSON.parse(language==='pt-BR'?block[1]:block[2]);
+     }else{
+      const code=scripts.find(s=>s.includes('const T={')&&s.includes(';const title='));
+      const block=code?.match(/const T=(\{[\s\S]*?\});const title=/);
+      if(block)dictionary=JSON.parse(block[1])[language==='pt-BR'?'pt':'en'];
+     }
+     const key=language==='pt-BR'?'PT':'EN';
+     const generic=text=>{
+      const isPT=key==='PT';
+      const patterns=[
+       [/^(.+?) — fotografía editorial\.?$/i,isPT?'$1 — fotografia editorial':'$1 — editorial photograph'],
+       [/^(.+?)([:—]) fotografía (\d+)\.?$/i,isPT?'$1$2 fotografia $3':'$1$2 photograph $3'],
+       [/^Fotografía real · registro (\d+)$/i,isPT?'Fotografia real · registro $1':'Real photograph · record $1'],
+       [/^Fotografía (\d+) de (.+)\.$/i,isPT?'Fotografia $1 de $2.':'Photo $1 of $2.'],
+       [/^Fotografía de (.+)\.$/i,isPT?'Fotografia de $1.':'Photograph of $1.'],
+       [/^(.+?) — imagen de la experiencia\.$/i,isPT?'$1 — imagem da experiência.':'$1 — image of the experience.'],
+       [/^(.+?): imagen (\d+)$/i,isPT?'$1: imagem $2':'$1: image $2'],
+       [/^(.+?): plato o bebida$/i,isPT?'$1: prato ou bebida':'$1: dish or drink'],
+       [/^(.+?): experiencia del restaurante$/i,isPT?'$1: experiência do restaurante':'$1: restaurant experience'],
+       [/^(.+?) — ambiente y carácter visual$/i,isPT?'$1 — ambiente e caráter visual':'$1 — atmosphere and visual character'],
+       [/^(.+?) — fachada o espacio histórico$/i,isPT?'$1 — fachada ou espaço histórico':'$1 — façade or historic space'],
+       [/^(.+?) — preparación representativa$/i,isPT?'$1 — preparação representativa':'$1 — representative dish'],
+       [/^(.+?) — experiencia de la casa$/i,isPT?'$1 — experiência da casa':'$1 — the venue experience']
+      ];
+      for(const [re,to] of patterns)if(re.test(text))return text.replace(re,to);
+      return text;
+     };
+     const translate=text=>{
+      const direct=dictionary?.[text]||shortCopyTranslations?.[text]?.[key];
+      return direct&&direct!==text?direct:generic(text);
+     };
+     for(const img of document.querySelectorAll('img[alt]')){
+      const original=(img.getAttribute('data-ec-alt')||img.getAttribute('alt')||'').trim();
+      const localized=translate(original);
+      if(localized&&localized!==original){
+       img.setAttribute('alt',localized);
+       if(img.hasAttribute('data-ec-alt'))img.setAttribute('data-ec-alt',localized);
+      }
+     }
+     for(const node of document.querySelectorAll('figcaption,.notice')){
+      if(node.childElementCount)continue;
+      const original=node.textContent.trim(),translated=translate(original);
+      if(translated&&translated!==original)node.textContent=translated;
+     }
+    }
     const isProvisionalBuziosBeach=r=>/^\/destinos\/buzios\/playas\/[^/]+\/$/.test(r);
     const setMeta=(key,content,attribute=key.includes(':')?'property':'name')=>{let m=document.querySelector(`meta[property="${key}"],meta[name="${key}"]`);if(!m){m=document.createElement('meta');m.setAttribute(attribute,key);document.head.appendChild(m);}m.content=content;m.removeAttribute('data-ec-content');};
     if(seoCopy){
@@ -267,6 +392,8 @@ async function worker(){
      setMeta('description',seoCopy[1],'name');
      setMeta('og:title',seoCopy[0]);setMeta('og:description',seoCopy[1]);
     }
+    if(editorialMetaOverride?.title)document.title=editorialMetaOverride.title;
+    if(editorialMetaOverride?.description)setMeta('description',editorialMetaOverride.description,'name');
     if(sourcePath.startsWith('/naturaleza/')){
      setMeta('twitter:title',document.title,'name');
      setMeta('twitter:description',document.querySelector('meta[name="description"]')?.content||'','name');
@@ -343,7 +470,7 @@ async function worker(){
      const s=document.createElement('script');s.type='application/ld+json';s.dataset.ecBreadcrumb='';s.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});document.head.appendChild(s);
     }
     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1:document.querySelectorAll('h1').length};
-   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS});
+   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,editorialMetaOverride:EDITORIAL_META_OVERRIDES[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS,shortCopyTranslations:SHORTCOPY_TRANSLATIONS});
    // Redirect-only source documents remain redirect-only and never get hreflang.
    const original=fs.readFileSync(target.file,'utf8');const refresh=original.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(refresh){value.html=value.html.replace('</head>',refresh[0].replace(/(url=)([^"'>]+)/i,(_,p,destination)=>{const u=new URL(destination,base+target.route);return p+prefix(u.pathname,target.language)+u.search+u.hash;})+'</head>');}
