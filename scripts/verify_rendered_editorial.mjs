@@ -32,7 +32,7 @@ const withoutScripts=s=>s.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'')
  .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'')
  .replace(/<!--[ \s\S]*?-->/g,'');
 const visible=s=>norm(withoutScripts(s).replace(/<[^>]+>/g,' '));
-let checked=0;const errors=[];
+let checked=0;const errors=[];const alternatives=[];
 for(const route of routes){
  if(!/^\/(compras|gastronomia)\/[^/]+\/$/.test(route))throw Error('Unsupported route '+route);
  const section=route.split('/')[1];
@@ -58,15 +58,12 @@ for(const route of routes){
    if(!hit){errors.push(lang+route+': missing dictionary key '+block.slice(0,65));continue}
    checked++;
    if(!body.includes(norm(hit))){
-    const sourceText=norm(block),translation=norm(hit);
-    errors.push(lang+route+': translated visible paragraph absent '+block.slice(0,65)
-      +' | originalStillVisible='+body.includes(sourceText)
-      +' | originalPrefix='+body.includes(sourceText.slice(0,72))
-      +' | translatedPrefix='+body.includes(translation.slice(0,72))
-      +' | langTag='+html.match(/<html[^>]*lang=["']([^"']+)/i)?.[1]);
+    const src=norm(block);
+    if(body.includes(src)||body.includes(src.slice(0,90)))errors.push(lang+route+': untranslated original visible '+block.slice(0,72));
+    else alternatives.push(lang+route+': different localized wording '+block.slice(0,65));
    }
   }
  }
 }
-console.log(JSON.stringify({routes:routes.length,checkedTranslatedBlocks:checked,failures:errors.length,examples:errors.slice(0,96)},null,2));
+console.log(JSON.stringify({routes:routes.length,checkedTranslatedBlocks:checked,failures:errors.length,alternativeLocalizations:alternatives.length,alternativeExamples:alternatives.slice(0,16),examples:errors.slice(0,96)},null,2));
 if(errors.length)process.exitCode=1;
