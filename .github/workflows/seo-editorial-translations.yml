@@ -1,0 +1,28 @@
+name: Verify SEO editorial translations (source only)
+on:
+  push:
+    branches:
+      - seo/traducciones-continuacion-lote2-20261102
+    paths:
+      - 'assets/js/translations/chunks/**'
+      - 'scripts/audit_editorial_translations.mjs'
+      - '.github/workflows/seo-editorial-translations.yml'
+  pull_request:
+    paths:
+      - 'assets/js/translations/chunks/**'
+      - 'scripts/audit_editorial_translations.mjs'
+      - '.github/workflows/seo-editorial-translations.yml'
+permissions:
+  contents: read
+jobs:
+  audit-exact-keys:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validate long-form PT/EN keys on 16 target sources
+        run: |
+          node scripts/audit_editorial_translations.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/ --json
