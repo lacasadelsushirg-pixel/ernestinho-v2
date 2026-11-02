@@ -85,7 +85,7 @@ La prioridad es editorial/comercial, no una puntuación de Google ni una promesa
 - `scripts/build_multilingual.mjs` conserva el HTML previo para publicar por rutas. La corrección ejecutada usó `--routes=/destinos/buzios/comer-y-salir/`: el registro confirmó **3 de 2.574 páginas de idioma**, y la salida local contiene solo tres HTML. Aunque el mensaje histórico del script llama «full» al modo sin manifiesto local, **no se ejecutó la reconstrucción de las 2.574 páginas**.
 - Solo se transfirieron esos tres archivos HTML y `assets/js/buzios-food-guide.js`. No se publicó el sitemap ni el manifiesto de esa salida reducida. No se cambió robots.txt, la política de canonical, la configuración de idiomas ni la configuración de compilación de Hostinger.
 
-**Continuidad de código:** el cambio permanente del compilador está preparado en la rama SEO. La rama habitual de publicación no se actualizó ni se activó su despliegue automático, para preservar el trabajo concurrente y evitar una sincronización masiva. El cambio debe incorporarse desde esa rama SEO antes de una futura regeneración de esta ruta; hasta entonces la corrección publicada se conserva en los tres HTML actuales.
+**Continuidad de código:** el cambio permanente del compilador está preparado en la rama SEO. La rama habitual de publicación no se actualizó ni se activó su despliegue automático, para preservar el trabajo concurrente y evitar una sincronización masiva. El cambio debe incorporarse desde esa rama SEO antes de una futura regeneración de esta ruta. La rama también limita explícitamente los cambios de `buzios-food-guide.js` a este único hub para evitar regenerar el resto de Búzios; hasta entonces la corrección publicada se conserva en los tres HTML actuales.
 
 ## 4. Investigación del cambio de octubre
 
@@ -131,7 +131,7 @@ Los tres archivos descargados de producción coinciden byte a byte con los tres 
 
 ### Archivos de código y evidencia
 
-- `scripts/build_multilingual.mjs`: tres líneas para respetar el renderizador especializado al finalizar la compilación.
+- `scripts/build_multilingual.mjs`: orden final del renderizador especializado y dependencia incremental limitada al único hub que usa el módulo gastronómico.
 - `assets/js/buzios-food-guide.js`: espera explícita del renderizador general; sin reescritura de contenido.
 - `destinos/buzios/comer-y-salir/index.html`: actualización del token de caché del módulo gastronómico.
 - `scripts/check_buzios_food_catalogue.py`: comprobación de enlaces a las fichas fuente y metadatos de las tres variantes.

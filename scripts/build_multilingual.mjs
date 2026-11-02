@@ -71,6 +71,9 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
   }
+  if(file==='assets/js/buzios-food-guide.js'){
+   routes.add('/destinos/buzios/comer-y-salir/');continue;
+  }
   if(/^assets\/js\/buzios-[^/]+\.js$/.test(file)||file==='assets/css/buzios.css'){allBuzios=true;continue;}
   if(file.endsWith('.html')){const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;}
   if((/^assets\/js\/.+\.js$/.test(file)&&!runtimeOnlyJsAssets.has(file)&&!/^assets\/js\/carioc-ia(?:-[a-z-]+)?\.js$/.test(file))||file==='package.json'||file==='package-lock.json'){fullRequired=true;continue;}
