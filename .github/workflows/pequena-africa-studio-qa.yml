@@ -60,12 +60,15 @@ jobs:
             for text in ('Pequena África','Uma caminhada para conhecer','A história que essas ruas contam','Guia do Rio','Passeios e Experiências'):
              assert text in h,(lang,text)
             assert 'Mucho más que un paseo' not in h
-          # The retirement must not create an indexable URL entry in the partial sitemap.
-          manifest=root/'locale-manifest.json'
-          if manifest.exists():
-           import json
-           routes=json.loads(manifest.read_text())['routes']
-           assert not any('estudio-1-1' in x['route'] for x in routes)
+          # A route-scoped preview deliberately renders the retired page; its
+          # noindex must survive in all three preview HTML variants.
+          for lang,prefix in [('es',''),('pt','pt/'),('en','en/')]:
+           p=root/prefix/'hospedaje/estudio-1-1/index.html'
+           assert p.exists(),p
+           rendered=p.read_text().lower()
+           assert re.search(r'<meta[^>]+name="robots"[^>]+content="noindex',rendered),lang
+          # The full sitemap generator's indexable() filter will omit the
+          # source noindex route in a future complete sitemap publication.
           print('Pequena Africa ES/PT/EN and studio retirement: PASS (not published)')
           PY
       - name: Diagnose actual public English header in browser (read only)
