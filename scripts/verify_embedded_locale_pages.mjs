@@ -6,6 +6,14 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const checks=[
+ {slug:'polis-sucos',
+  es:'Polis Sucos tiene la energía visual de una cafetería carioca',
+  pt:'Polis Sucos tem a energia visual de uma lanchonete carioca',
+  en:'Polis Sucos has the visual energy of a Rio juice bar',
+  bad:{es:['Polis Suclos tem a energia visual'],
+       pt:['Polis Suclos tem a energia visual'],
+       en:['Polis Suclos tem a energia visual','Polis Sucos tiene la energía visual']}},
+
  {slug:'arp-bar',es:'El mar llega a la mesa en un bar de hotel',pt:'O mar chega à mesa em um bar de hotel',en:'The ocean reaches your table at a hotel bar',
   bad:{es:['O mar chega à mesa'],pt:['El mar llega a la mesa'],en:['O mar chega à mesa','El mar llega a la mesa']}},
  {slug:'classico-leme',es:'Playa, música y cocina de quiosco',pt:'Praia, música e cozinha de quiosque',en:'Beach, music and kiosk cuisine',

@@ -21,6 +21,8 @@ const renderedText=html=>cleaned(html.replace(/<head\b[^>]*>[\s\S]*?<\/head>/gi,
 const suspects=['← Volver a Gastronomía','Mi lectura personal como Ernestinho',
  'Qué pedir y por qué','Información práctica','Cómo llegar y mapa','Mi consejo específico',
  'Experiencia según el momento del día','Yo te recomiendo','Para mí,'];
+// The original external alert mistakenly treated two genuinely Portuguese paragraphs as Spanish.
+const verifiedNativePortuguese=new Set(['/pt/gastronomia/arp-bar/','/pt/gastronomia/quiteria/']);
 const results=[];
 for(const entry of report){
  const pathname=new URL(entry.url).pathname;
@@ -30,7 +32,7 @@ for(const entry of report){
  const dest=path.join(dist,pathname.slice(1),'index.html');
  if(!['pt','en'].includes(lang))throw Error('Unexpected target '+pathname);
  const current={pathname,lang,source:base,reportExampleLength:entry.ejemplo?.length||0,
-  htmlPresent:fs.existsSync(dest),exampleStillVisible:false,similarBeginningVisible:false,
+  htmlPresent:fs.existsSync(dest),exampleStillVisible:false,similarBeginningVisible:false,nativePortugueseExcerpt:verifiedNativePortuguese.has(pathname),
   canonicalPresent:false,hreflangPresent:false,suspectSpanishPhrases:[]};
  if(current.htmlPresent){
   const html=fs.readFileSync(dest,'utf8'),body=renderedText(html),example=cleaned(entry.ejemplo);
@@ -43,12 +45,13 @@ for(const entry of report){
  results.push(current);
 }
 const missing=results.filter(r=>!r.htmlPresent);
-const stale=results.filter(r=>r.exampleStillVisible||r.similarBeginningVisible);
+const stale=results.filter(r=>!r.nativePortugueseExcerpt&&(r.exampleStillVisible||r.similarBeginningVisible));
+const nativePortuguese=results.filter(r=>r.nativePortugueseExcerpt);
 const metadata=results.filter(r=>!r.canonicalPresent||!r.hreflangPresent);
 const possible=results.filter(r=>r.suspectSpanishPhrases.length);
 const out={originalFlagged:report.length,alreadyPublishedVariants:published.size,
  checkedVariants:results.length,expected:82,missingHTML:missing.length,
- stillVisibleSpanishExamples:stale.length,missingCanonicalOrHreflang:metadata.length,
+ stillVisibleSpanishExamples:stale.length,nativePortugueseExamples:nativePortuguese.length,missingCanonicalOrHreflang:metadata.length,
  possibleShortSpanishLeaks:possible.length,
  missing,stale,metadata,possible:possible.map(({pathname,suspectSpanishPhrases})=>({pathname,suspectSpanishPhrases})),
  results};
