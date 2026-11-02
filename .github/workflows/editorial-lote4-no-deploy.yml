@@ -71,6 +71,16 @@ jobs:
           assert not errors,json.dumps(errors[:45],ensure_ascii=False)
           print('PASS — 24 ES/PT/EN restaurant HTML; corrected venue addresses, canonical, translations and images.')
           PY
+      - name: Browser audit of all 111 published pages, language and lodging image framing
+        run: node scripts/verify_public_editorial_111_browser.mjs
+      - name: Preserve real-browser SEO and visual QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: 111-public-browser-live-ui-qa
+          path: qa-public-editorial-111-browser.json
+          retention-days: 10
+          if-no-files-found: warn
       - name: Build exact scope ZIP, no full deploy
         run: |
           python3 - <<'PY'
