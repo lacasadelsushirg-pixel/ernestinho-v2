@@ -256,6 +256,16 @@ async function worker(){
     for(const name of ['luggage-page.js','bounce-integration.js']){const script=scripts.find(s=>s.src.endsWith('/assets/js/'+name));if(script)(await import(script.src)).apply(language);}
     await new Promise(r=>setTimeout(r,80));
     if(typeof window.ecApplyPracticalSummaryLocale==="function")window.ecApplyPracticalSummaryLocale(language);
+    // These legacy gastronomy profiles use an independent inline D dictionary.
+    // The shared site.apply does not update those indexed paragraphs. Activate
+    // the original language switcher during isolated rendering only.
+    const routeWithoutLocale=location.pathname.replace(/^\/(?:pt|en)(?=\/|$)/i,'')||'/';
+    if(/^\/gastronomia\/(?:arp-bar|classico-leme|quiteria|cosmopolita)\/$/.test(routeWithoutLocale)){
+     const code=language.toLowerCase();
+     const switcher=document.querySelector('.lang-switcher button[data-lang="'+code+'"]');
+     if(!switcher)throw Error('Legacy language switcher absent: '+routeWithoutLocale+' '+code);
+     switcher.click();
+    }
    },target.language);
    const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations})=>{
     const language=document.documentElement.lang;
