@@ -7,6 +7,7 @@ on:
       - 'assets/js/translations/pequena-africa.js'
       - 'assets/js/translations/hospedaje-estudio-retirado.js'
       - '.github/workflows/pequena-africa-studio-qa.yml'
+      - 'scripts/check_public_english_header_20261102.mjs'
   workflow_dispatch:
 permissions:
   contents: read
@@ -67,6 +68,8 @@ jobs:
            assert not any('estudio-1-1' in x['route'] for x in routes)
           print('Pequena Africa ES/PT/EN and studio retirement: PASS (not published)')
           PY
+      - name: Diagnose actual public English header in browser (read only)
+        run: node scripts/check_public_english_header_20261102.mjs
       - name: Save isolated generated files for review (NO DEPLOY)
         if: always()
         uses: actions/upload-artifact@v4
