@@ -1,0 +1,27 @@
+name: Verify 84 LIVE PT-EN translation URLs after targeted publication
+on:
+  pull_request:
+    paths:
+      - 'scripts/verify_public_translation_release.mjs'
+      - '.github/workflows/verify-public-translation-release.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Inspect production (read only; 84 URLs plus sitemap, robots and language metadata)
+        run: node scripts/verify_public_translation_release.mjs
+      - name: Save per-URL public evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-84-pt-en-evidence
+          path: qa-public-20261102.json
+          retention-days: 30
