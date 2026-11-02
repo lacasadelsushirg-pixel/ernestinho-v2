@@ -1,52 +1,51 @@
-# SEO — Continuación de traducciones, lote amplio (2 de noviembre de 2026)
+# Continuación SEO — lote amplio PT/EN (02-11-2026)
 
-## Alcance y estado
+**Estado:** trabajo fuente en la rama `seo/traducciones-continuacion-lote2-20261102` y PR #13 (borrador) contra `seo/indexacion-20261102` del PR #12. **NO publicado en Hostinger, NO integrado y NO verificado con Google Search Console.**
 
-**Rama:** `seo/traducciones-continuacion-lote2-20261102`, derivada de `seo/indexacion-20261102` (código del PR SEO #12).
+## Resultados comprobados en código
 
-**Estado:** modificaciones de código fuente confirmadas en GitHub. NO publicadas en Hostinger. NO se integró el PR #12, no se reconstruyó el sitio, no se subió un sitemap ni se solicitó indexación. No equiparar diccionarios corregidos con variantes de producción corregidas.
+- **172 claves de traducción exacta ES → PT y EN añadidas**: 55 en `assets/js/translations/chunks/rio-residual-compras-01.js` y 117 en `assets/js/translations/chunks/rio-residual-gastronomia-01.js`.
+- Ambos diccionarios pasan parseo y todas las entradas tienen valores PT y EN no vacíos.
+- **16 fichas de Río** auditadas contra los bloques visibles en HTML original (p, div, span, li y encabezados con más de 100 caracteres, sin contar JS dinámico): **161 de 161 bloques cubiertos** por diccionario bilingüe. Esto NO demuestra traducción completa de títulos breves, atributos, código dinámico, metadatos o las copias actualmente publicadas.
+- **Madame Bardot, Búzios:** siete campos editoriales traducidos, más cinco párrafos del plan de visita y el título/estilo específico en PT/EN. Dos módulos JS comprobados sintácticamente, pero todavía pendientes de pruebas en navegador.
+- Script nuevo, **solo lectura**, `scripts/audit_editorial_translations.mjs`; permite señalar rutas con `--routes=` y consultar resultados en JSON. El script fue comprobado sintácticamente y el análisis equivalente de 16 rutas se realizó por lectura de los archivos GitHub. No se ejecutó dentro de Node con un checkout local.
 
-## Resultado detallado
+## Cobertura de bloques HTML largos auditada
 
-- **55 claves nuevas ES → PT/EN en Compras**, en `assets/js/translations/chunks/rio-residual-compras-01.js`.
-- **54 claves nuevas ES → PT/EN en Gastronomía Río**, en `assets/js/translations/chunks/rio-residual-gastronomia-01.js`.
-- Total: **109 bloques de traducción exacta**, con ambos idiomas. La sintaxis de ambos objetos fue validada mediante parseo estructural; todos los registros tienen PT y EN no vacíos.
-- **Madame Bardot (Búzios):** localización específica de 7 campos editoriales con `tr(es,pt,en)` sin afectar las demás fichas, título y estilo localizados, más los cinco párrafos del plan de visita en PT/EN. Se comprobó sintaxis JavaScript de ambos módulos mediante parseo en código.
-- El área de Río original, imágenes, rutas, URL, canonical y hreflang fuente no fueron modificados.
-
-### Páginas cuyos bloques editoriales largos extraídos del HTML fuente tienen traducción exacta en el diccionario
-
-| Ficha | Bloques largos examinados | Cobertura en diccionario |
+| Ruta original | Bloques >100 caracteres | Traducción PT + EN |
 |---|---:|---:|
-| Compras — Feira São Cristóvão | 1 | 1 |
-| Compras — Mercadão Madureira | 20 | 20 |
-| Compras — Uruguaiana | 20 | 20 |
-| Gastronomía — Adega Pérola | 9 | 9 |
-| Gastronomía — Aipo & Aipim 391 | 9 | 9 |
-| Gastronomía — Aipo & Aipim 605 | 9 | 9 |
-| Gastronomía — Angu do Gomes | 9 | 9 |
-| Gastronomía — Assador | 9 | 9 |
-| Gastronomía — Bar da Gema | 10 | 10 |
+| `/compras/feira-sao-cristovao/` | 1 | 1 |
+| `/compras/mercadao-madureira/` | 20 | 20 |
+| `/compras/uruguaiana/` | 20 | 20 |
+| `/gastronomia/adega-perola/` | 9 | 9 |
+| `/gastronomia/aipo-aipim-391/` | 9 | 9 |
+| `/gastronomia/aipo-aipim-605/` | 9 | 9 |
+| `/gastronomia/angu-do-gomes/` | 9 | 9 |
+| `/gastronomia/assador/` | 9 | 9 |
+| `/gastronomia/bar-da-gema/` | 10 | 10 |
+| `/gastronomia/bafo-da-prainha/` | 9 | 9 |
+| `/gastronomia/bar-luiz/` | 8 | 8 |
+| `/gastronomia/confeitaria-colombo/` | 10 | 10 |
+| `/gastronomia/rio-scenarium/` | 9 | 9 |
+| `/gastronomia/cachambeer/` | 9 | 9 |
+| `/gastronomia/carretao-siqueira/` | 10 | 10 |
+| `/gastronomia/casa-do-sardo/` | 10 | 10 |
+| **TOTAL** | **161** | **161** |
 
-La cobertura mide bloques textuales largos extraídos mediante patrón de etiquetas HTML (más de 100 caracteres), no demuestra que todos los textos cortos, atributos, fragmentos JS o párrafos generados dinámicamente estén completos. La página Feira São Cristóvão contiene además un diccionario propio integrado en HTML, que necesita comprobación específica en navegador.
+La página Feira de São Cristóvão incluye un diccionario propio dentro de HTML y un bloque de historia inyectado por JavaScript: ambos necesitan prueba visual y de idioma por separado. En varias fichas hay títulos cortos y textos dentro de elementos compuestos que este control no captura. El conteo de bloques y claves nuevas no equivale al número de variantes URL resueltas.
 
-Los módulos de traducción están ya referenciados desde `assets/js/site.js`: Compras incluye `rio-residual-compras-01.js` y Gastronomía incluye `rio-residual-gastronomia-01.js`. El mecanismo de traducción busca claves exactas de texto y se debe validar en su ejecución real.
+## Cómo revisar SIN dañar el sitio
 
-## Estado del PR SEO #12 y publicación
+1. Antes de fusionar, comprobar cambios recientes en la rama de producción y en el PR #12, preservando el trabajo simultáneo de Carioc-IA y otros componentes.
+2. Ejecutar, en un checkout local, `node scripts/audit_editorial_translations.mjs --routes=/gastronomia/adega-perola/,/compras/uruguaiana/ --json` y ampliar a las 16 rutas.
+3. Verificar en navegador ES/PT/EN con la carga real de `assets/js/site.js` y de `assets/js/buzios-restaurant-profile-view.js`, comparando textos al cargar y tras el idioma seleccionado. Registrar diferencias de HTML inicial y DOM final.
+4. `scripts/build_multilingual.mjs` admite `--routes=` y `--update`, pero `--update` requiere un `dist/locale-manifest.json` anterior válido. **No ejecutar el build completo ni generar un sitemap basado en un subconjunto sin conservar el manifiesto existente.**
+5. Seleccionar/publicar incrementalmente solo los HTML afectados y los JS que requieran sincronización; contrastar con Hostinger antes de sobreescribir. La API de Hostinger aquí solo expone lectura directa y URL de carga TUS que exige un cliente con conectividad, así que no se ha realizado publicación.
+6. Verificar HTTP 200, canonical, hreflang, sitemap y que no se alteren fotos, links, estilo ni Carioc-IA. Después, actualizar el informe de las 84 variantes con la evidencia de cada URL real.
+7. Seguir corrigiendo el resto de fichas gastronómicas del informe. **No marcar como corregidas las 82 variantes originales** hasta publicación y verificación reales.
 
-El trabajo de este lote parte de la rama fuente del PR #12, NO de la rama de publicación. Antes de mezclar:
+## Protección aplicada
 
-1. Comparar la rama SEO con el estado actual de publicación; preservar cambios concurrentes, especialmente Carioc-IA.
-2. Validar en navegador local las variantes PT/EN de estas nueve fichas y de Madame Bardot con el renderizador real y verificar idioma tanto en el HTML inicial como después de JavaScript.
-3. Contrastar el contenido vigente en producción antes de cualquier carga; aplicar exclusivamente sustituciones exactas sobre los HTML publicados, sin regenerar masivamente páginas.
-4. Publicar incrementos por ruta solo después de comprobar imágenes, enlaces, scripts, canonical, hreflang y sitemap.
-5. Reevaluar el informe `revision-traducciones-84-20261102.json` después de la publicación y pruebas. **Las 82 variantes que Work dejó pendientes NO pueden descontarse por el simple hecho de incorporar traducciones fuente.**
-6. Mantener el resto de gastronomía, otras secciones y las limitaciones de acceso a Google Search Console como trabajos pendientes separados.
+Ninguna modificación en contenido fuente español, HTML, estilos CSS, fotos, URL, sitemap, robots o Carioc-IA. Los cambios del PR #13 están limitados a dos diccionarios, dos módulos específicos de Madame Bardot, este documento y un nuevo script de auditoría.
 
-## Restricciones cumplidas
-
-- Ninguna operación de publicación en Hostinger ni despliegue Git.
-- Ninguna modificación de HTML original ni del diseño Río, fotografías o rutas.
-- Ninguna modificación de archivos Carioc-IA.
-- No se ejecutó un build masivo del sitio, ni se tocaron sitemap, robots o canonical.
-- El resultado es un avance en fuente, **no una afirmación de indexación ni de corrección pública**.
+**Conclusión:** avance editorial amplio y verificable a nivel de repositorio; la publicación, QA multilingüe real y recuperación de indexación permanecen pendientes.
