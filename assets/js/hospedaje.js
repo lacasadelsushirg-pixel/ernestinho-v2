@@ -44,7 +44,7 @@ const UI = {
     "index.title1":"Your place","index.title2":"in Rio.",
     "index.lead":"Selected locations, WhatsApp assistance and options for couples, families and groups. I do not publish prices or availability; first, we find what fits your trip.",
     "index.region":"COPACABANA · ILHA DA GIGÓIA","index.section":"Choose your base in Rio.",
-    "index.editorial":"I want your stay to be part of the trip, not just the place where you leave your bags.",
+    "index.editorial":"Where you stay should be part of the holiday. Choose from apartments in convenient areas of Copacabana, close to the beach and neighborhood life, with a comfortable base for couples, families or friends after a day exploring Rio.","index.editorial2":"Explore apartments for two or larger groups, and discover a different setting on Ilha da Gigóia. Check the photos and details of each property, then send me your dates on WhatsApp: I’ll help you find a suitable option and confirm the terms before you book.",
     "index.cta":"VIEW STAY","index.footer":"WhatsApp assistance.","stay.footer":"WhatsApp assistance.",
     "stay.guests":"guests","stay.rooms":"bedrooms","stay.beds":"beds","stay.baths":"bathrooms",
     "stay.amenities":"What this place offers","stay.gallery":"Photo gallery",
