@@ -147,7 +147,12 @@ registerTranslations("editorial-lote3", {
     "batch3_salgueiro_ui_address": "Dirección",
     "batch3_salgueiro_ui_maps": "Abrir en Google Maps",
     "batch3_salgueiro_ui_official": "Canal oficial / referencia",
-    "batch3_salgueiro_ui_footer": "Ernestinho Carioca · Río no se visita. Se vive."
+    "batch3_salgueiro_ui_footer": "Ernestinho Carioca · Río no se visita. Se vive.",
+    "batch3_canastra_ui_back": "← Vida nocturna",
+    "batch3_canastra_ui_footer": "Ernestinho Carioca · Río no se visita. Se vive.",
+    "batch3_canastra_ui_pizza": "Ver Pizzaria Canastra",
+    "batch3_galeria_ui_back": "← Vida nocturna",
+    "batch3_galeria_ui_footer": "Ernestinho Carioca · Río no se visita. Se vive."
   },
   "PT": {
     "batch3_merci_0": "Um jantar com clima de bar secreto na Barra",
@@ -296,7 +301,12 @@ registerTranslations("editorial-lote3", {
     "batch3_salgueiro_ui_address": "Endereço",
     "batch3_salgueiro_ui_maps": "Abrir no Google Maps",
     "batch3_salgueiro_ui_official": "Canal oficial / referência",
-    "batch3_salgueiro_ui_footer": "Ernestinho Carioca · O Rio não se visita. Se vive."
+    "batch3_salgueiro_ui_footer": "Ernestinho Carioca · O Rio não se visita. Se vive.",
+    "batch3_canastra_ui_back": "← Vida Noturna",
+    "batch3_canastra_ui_footer": "Ernestinho Carioca · O Rio não se visita. Se vive.",
+    "batch3_canastra_ui_pizza": "Ver Pizzaria Canastra",
+    "batch3_galeria_ui_back": "← Vida Noturna",
+    "batch3_galeria_ui_footer": "Ernestinho Carioca · O Rio não se visita. Se vive."
   },
   "EN": {
     "batch3_merci_0": "A secret-bar atmosphere in Barra da Tijuca",
@@ -445,6 +455,11 @@ registerTranslations("editorial-lote3", {
     "batch3_salgueiro_ui_address": "Address",
     "batch3_salgueiro_ui_maps": "Open in Google Maps",
     "batch3_salgueiro_ui_official": "Official channel / reference",
-    "batch3_salgueiro_ui_footer": "Ernestinho Carioca · Rio isn't just visited. It's lived."
+    "batch3_salgueiro_ui_footer": "Ernestinho Carioca · Rio isn't just visited. It's lived.",
+    "batch3_canastra_ui_back": "← Nightlife",
+    "batch3_canastra_ui_footer": "Ernestinho Carioca · Rio isn't just visited. It's lived.",
+    "batch3_canastra_ui_pizza": "Read about Pizzaria Canastra",
+    "batch3_galeria_ui_back": "← Nightlife",
+    "batch3_galeria_ui_footer": "Ernestinho Carioca · Rio isn't just visited. It's lived."
   }
 });
