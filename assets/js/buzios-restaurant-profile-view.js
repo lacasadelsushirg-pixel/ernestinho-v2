@@ -1,0 +1,161 @@
+import { buziosRestaurantProfiles } from './buzios-restaurant-profiles.js';
+import { buziosFoodPlaces } from './buzios-food-places.js';
+
+const lang=location.pathname.match(/^\/(pt|en)(?=\/)/)?.[1]||'es';
+const root='/destinos/buzios/comer-y-salir/';
+const slug=document.body.dataset.restaurant;
+const routeSlug=slug==='tawa'?'tawa-beach':slug;
+const localized=(url)=>`${lang==='es'?'':'/'+lang}${url}`;
+const p=buziosRestaurantProfiles[slug];
+const foodPlace=buziosFoodPlaces.find(x=>x.slug===routeSlug);
+if(!p&&!foodPlace)throw new Error(`Unknown Búzios restaurant profile: ${slug}`);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pick=x=>typeof x==='string'?x:(x?.[lang]??'');
+if(foodPlace){
+ const t={es:{back:'← Volver a Gastronomía de Búzios',guide:'Guía de Búzios · Ernestinho Carioca',identity:'Lo que hace distinta esta mesa',read:'Mi lectura como Ernestinho',order:'Qué pedir y cómo elegir',combine:'Con qué combinar la visita',advice:'Lo que recomiendo confirmar',practical:'Información práctica',gallery:'Galería completa',map:'Cómo llegar y mapa',open:'Canal y contacto',photo:'Foto del restaurante',note:'Las imágenes conservan su encuadre original. La carta y la disponibilidad de cada plato deben confirmarse con el establecimiento.',return:'Volver a la guía',check:'Confirma dirección, horario, menú, reserva y accesibilidad directamente antes de salir.'},pt:{back:'← Voltar à Gastronomia de Búzios',guide:'Guia de Búzios · Ernestinho Carioca',identity:'O que torna esta mesa diferente',read:'Minha leitura como Ernestinho',order:'O que pedir e como escolher',combine:'O que combinar com a visita',advice:'O que recomendo confirmar',practical:'Informações práticas',gallery:'Galeria completa',map:'Como chegar e mapa',open:'Contato e informações',photo:'Foto do restaurante',note:'As imagens preservam o enquadramento original. Confirme o cardápio e a disponibilidade dos pratos com o estabelecimento.',return:'Voltar ao guia',check:'Confirme endereço, horário, menu, reserva e acessibilidade diretamente antes de sair.'},en:{back:'← Back to Búzios food guide',guide:'Búzios guide · Ernestinho Carioca',identity:'What makes this table distinct',read:'My take as Ernestinho',order:'What to order and how to choose',combine:'What I would pair with the visit',advice:'What I recommend checking',practical:'Practical information',gallery:'Full gallery',map:'Getting there and map',open:'Contact and details',photo:'Restaurant photo',note:'Images preserve their original framing. Check the current menu and dish availability directly with the venue.',return:'Return to the guide',check:'Confirm address, hours, menu, booking and accessibility directly before setting out.'}}[lang];
+ const name=foodPlace.name,root='/destinos/buzios/comer-y-salir/',canonical='https://www.ernestinhocarioca.com.br'+localized(root+foodPlace.slug+'/');
+ const area=foodPlace.zone.toLowerCase().includes('manguinhos')?'Porto da Barra y Manguinhos':foodPlace.zone.toLowerCase().includes('orla')||foodPlace.zone.toLowerCase().includes('humait')?'la Orla Bardot y Humaitá':foodPlace.zone.toLowerCase().includes('gerib')?'Geribá':foodPlace.zone.toLowerCase().includes('joão')||foodPlace.zone.toLowerCase().includes('joao')?'João Fernandes':foodPlace.zone.toLowerCase().includes('brava')?'Praia Brava':'el Centro y Rua das Pedras';
+ const visitPlan=[
+  `Yo empezaría por confirmar que la dirección de ${name} corresponde a la unidad de ${area} que quiero visitar. En Búzios, una diferencia de barrio modifica el traslado y también lo que puedo combinar en el día; por eso reviso el mapa desde mi alojamiento, miro el tiempo estimado y confirmo la puerta exacta en el canal del restaurante antes de salir.`,
+  `La hora también forma parte de la elección. Si la comida es antes o después de la playa, consulto el horario de cocina y pregunto si el servicio funciona en esa franja. Si busco una cena con más calma, reservo o escribo antes, sobre todo en fines de semana y vacaciones. Cuando la vista o una mesa exterior importan, lo digo al reservar: la ubicación del local no garantiza que cada mesa tenga el mismo paisaje.`,
+  `Al revisar la carta, yo comparo ingredientes, guarniciones, tamaño de porción y precio antes de decidir. La cocina de ${foodPlace.cuisine} puede cambiar por temporada, disponibilidad y servicio del día; las fotografías ayudan a imaginar la experiencia, pero no son una promesa de menú. Si el equipo menciona una sugerencia, pregunto qué incluye y si alcanza para compartir, así la mesa pide con intención y evita desperdiciar.`,
+  `Para viajar con familia o amigos, suelo acordar primero el ritmo de la comida: algo informal, un almuerzo sentado o una noche para quedarse conversando. Si alguien tiene alergia, intolerancia o una preferencia alimentaria, doy el detalle exacto al personal y pregunto por ingredientes y preparación, sin asumir que una sustitución es segura. También confirmo si hay espacio para cochecito, silla o una mesa grande cuando esa necesidad forma parte del grupo.`,
+  `Después de comer, yo organizo el siguiente tramo según la zona y no sobrecargo el itinerario. Desde ${area} puedo seguir con el paseo cercano si el grupo tiene energía; para regresar a otro barrio, defino el transporte antes de que termine la noche. Antes de pagar reviso la cuenta, el servicio y cualquier consumo adicional. Este pequeño orden me deja disfrutar la comida y cerrar la salida sin correr ni improvisar el regreso.`
+ ];
+ // Scope these paragraph translations to Madame Bardot; other profiles are unchanged.
+ const localizedVisitPlan=foodPlace.slug==='madame-bardot'&&lang!=='es'?{
+  pt:[
+   'Eu começaria confirmando o endereço e a entrada do Madame Bardot na Orla Bardot. Antes de sair, verificaria o mapa a partir da hospedagem e os horários atuais do restaurante.',
+   'Para jantar com calma, perguntaria sobre mesas disponíveis, reserva e programação musical, sobretudo em fins de semana e feriados. Uma mesa com vista para o mar depende da disponibilidade, então vale pedir essa preferência sem presumir que esteja garantida.',
+   'Antes de pedir, eu compararia ingredientes, acompanhamentos, porções e preços no cardápio atual. Fotos ajudam a imaginar a experiência, mas pratos e bebidas podem mudar. Uma entrada para compartilhar, um prato principal e uma bebida podem ser um bom começo.',
+   'Com crianças, idosos ou alguém com restrição alimentar, eu confirmaria previamente o espaço e os ingredientes com a equipe. Não presumiria que adaptações são seguras sem orientação do restaurante.',
+   'Depois de comer, eu aproveitaria a Orla Bardot e a Rua das Pedras conforme o movimento do dia. Antes de encerrar a noite, conferiria a conta e organizaria a volta à hospedagem.'
+  ],
+  en:[
+   'I would begin by confirming Madame Bardot’s location and entrance along Orla Bardot. Before leaving, I would check the route from my accommodation and the restaurant’s current opening hours.',
+   'For a relaxed dinner, I would ask about tables, reservations and any music scheduled for the evening, especially on weekends and holidays. A sea-view table depends on availability, so it is worth requesting without assuming it is guaranteed.',
+   'Before ordering, I would compare ingredients, side dishes, serving sizes and prices on the current menu. Photos help show the atmosphere, but dishes and drinks may change. A shared starter, main course and drink can be a good place to begin.',
+   'With children, older travelers or anyone with dietary restrictions, I would check seating and ingredients with staff in advance. I would not assume substitutions are safe without confirmation from the restaurant.',
+   'After the meal, I would enjoy Orla Bardot and Rua das Pedras if conditions allow. Before ending the evening, I would check the bill and arrange transport back to my accommodation.'
+  ]
+ }[lang]:visitPlan;
+ const displayCuisine=foodPlace.slug==='madame-bardot'?(lang==='pt'?'Bar · gastronomia · coquetelaria':lang==='en'?'Bar · food · cocktails':foodPlace.cuisine):foodPlace.cuisine;
+ const title=foodPlace.slug==='madame-bardot'?(lang==='pt'?name+': guia gastronômico em Búzios | Ernestinho Carioca':lang==='en'?name+': dining guide in Búzios | Ernestinho Carioca':name+': guía para comer en Búzios | Ernestinho Carioca'):`${name}: guía para comer en Búzios | Ernestinho Carioca`;
+ const description=pick(foodPlace.description);
+ document.documentElement.lang=lang==='pt'?'pt-BR':lang;document.title=title;
+ document.querySelector('meta[name="description"]').content=description;
+ document.querySelector('link[rel="canonical"]').href=canonical;
+ for(const [key,val] of [['og:title',title],['og:description',description],['og:url',canonical],['twitter:title',title],['twitter:description',description]])document.querySelector(`meta[property="${key}"],meta[name="${key}"]`).content=val;
+ const css=document.createElement('link');css.rel='stylesheet';css.href='/assets/css/buzios-food.css?v=20261017-food-rio-pattern';document.head.append(css);
+ const link=(url,label)=>`<a class="btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`;
+ // Reviewed editorial batches: distribute restaurant-specific Hostinger photographs throughout the narrative.
+ // Remaining profiles retain the existing layout until their own five-at-a-time review.
+ const firstBatch=new Set(['belli-belli','resto-canto','mistico','chamas-buzios','mr-waiz','nami','chez-michou','sushi-bardot','casa-blanca','primitivo','bar-do-ze','rocka','madame-bardot','buzin','fishbone','bananaland','pimenta-siria','chilenazo','maria-italiana','santo-cozy','cafe-porteno','buda-beach','clube-da-sfiha','restaurante-do-david','patio-michou','huna-bistro','sanse','noi', 'quintal-dos-buzios','mayam','la-gare','balthazar-bakery']).has(foodPlace.slug);
+ const figure=(index,cl='inline-photo')=>foodPlace.photos[index]?`<figure class="${cl}"><img src="${esc(foodPlace.photos[index])}" alt="${esc(name)} · ${esc(t.photo)} ${index+1}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(index+1).padStart(2,'0')}</figcaption></figure>`:'';
+ const inlineIndices=firstBatch?[0,1,2,3].filter(i=>i<foodPlace.photos.length):[0];
+ const galleryStart=firstBatch?inlineIndices.length:0;
+ const photos=foodPlace.photos.slice(galleryStart).map((src,i)=>`<figure><img src="${esc(src)}" alt="${esc(name)} · ${esc(t.photo)} ${i+galleryStart+1}" loading="lazy" decoding="async"><figcaption>${esc(t.photo)} ${String(i+galleryStart+1).padStart(2,'0')}</figcaption></figure>`).join('');
+ const mapUrl=`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(foodPlace.map)}`;
+ document.querySelector('#profile').innerHTML=`<div class="food-profile"><nav class="back"><a href="${localized(root)}">${t.back}</a><span>${['es','pt','en'].map(l=>`<a class="lang" href="${l==='es'?'':'/'+l}${root+foodPlace.slug}/">${l.toUpperCase()}</a>`).join('')}</span></nav>
+ <header class="hero" style="--hero:url('${esc(foodPlace.photos[0]||'')}')"><div><p class="ey">${t.guide} · ${esc(foodPlace.zone)}</p><div class="tags">${pick(foodPlace.tags).split(' · ').map(x=>`<span class="tag">${esc(x)}</span>`).join('')}</div><h1>${esc(name)}</h1><p>${esc(pick(foodPlace.description))}</p></div></header>
+ <main class="wrap"><div class="grid"><section>
+ <article class="card"><h2>${t.identity}</h2><p>${esc(pick(foodPlace.description))}</p><p>${esc(pick(foodPlace.story))}</p></article>
+ ${firstBatch?figure(0):`<figure class="inline-photo"><img src="${esc(foodPlace.photos[0]||'')}" alt="${esc(name)} · ${t.photo} 1" loading="eager"><figcaption>${t.note}</figcaption></figure>`}
+ <article class="card"><h2>${t.read}</h2><p>${esc(pick(foodPlace.recommend))}</p><p>${esc(pick(foodPlace.combine))}</p></article>
+ ${firstBatch?figure(1):''}
+ <article class="card"><h2>${t.order}</h2><p>${esc(pick(foodPlace.order))}</p><div class="notice">${t.note}</div></article>
+ ${firstBatch?figure(2):''}
+ <article class="card"><h2>${t.combine}</h2><p>${esc(pick(foodPlace.combine))}</p><p>${esc(t.check)}</p></article>
+ ${firstBatch?figure(3):''}
+ </section><aside><article class="card facts"><h2>${t.practical}</h2><p>📍 <strong>${lang==='es'?'Zona':lang==='pt'?'Região':'Area'}</strong><br>${esc(foodPlace.zone)}</p><p>🍽️ <strong>${lang==='es'?'Estilo':lang==='pt'?'Estilo':'Style'}</strong><br>${esc(displayCuisine)}</p><p>🕐 ${esc(t.check)}</p><p>${esc(pick(foodPlace.practical))}</p>${link(foodPlace.official,t.open)}<a class="btn" href="${esc(mapUrl)}" target="_blank" rel="noopener noreferrer">${lang==='es'?'Abrir Google Maps':lang==='pt'?'Abrir Google Maps':'Open Google Maps'} ↗</a></article></aside></div>
+ ${photos?`<article class="card"><h2>${t.gallery}</h2><p>${esc(t.note)}</p><div class="gallery">${photos}</div></article>`:''}
+ <article class="card"><h2>${lang==='es'?'Mi plan para aprovechar la visita':lang==='pt'?'Meu plano para aproveitar a visita':'My plan for making the most of the visit'}</h2>${localizedVisitPlan.map(p=>`<p>${esc(p)}</p>`).join('')}</article>
+ <article class="card"><h2>${t.map}</h2><p>${esc(pick(foodPlace.practical))} ${esc(t.check)}</p><iframe class="map" title="${esc(t.map+' · '+name)}" src="https://www.google.com/maps?q=${encodeURIComponent(foodPlace.map)}&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><p>${link(mapUrl,lang==='es'?'Abrir el mapa':lang==='pt'?'Abrir o mapa':'Open map')}</p></article>
+ <p class="back"><a href="${localized(root)}">${t.return}</a></p></main></div>`;
+ const schema=document.createElement('script');schema.type='application/ld+json';schema.textContent=JSON.stringify({'@context':'https://schema.org','@type':'WebPage',name:title,description,url:canonical,inLanguage:lang==='pt'?'pt-BR':lang,'isPartOf':{'@type':'WebSite',name:'Ernestinho Carioca',url:'https://www.ernestinhocarioca.com.br/'}});document.head.append(schema);
+}else{
+const copy={
+  es:{guide:'Gastronomía de Búzios · Guía Ernestinho',back:'← Volver a Comer y salir',title:'Guía de {name} en Búzios | Ernestinho Carioca',desc:'Guía editorial de {name} en {zone}, Búzios: propuesta, qué pedir, experiencia, datos prácticos, mapa y fuentes oficiales.',identity:'Identidad y ambiente visual',history:'Historia y propuesta',ambience:'El ambiente y la identidad del restaurante',read:'Mi lectura personal como Ernestinho',order:'Qué pedir y por qué',time:'Experiencia según el momento del día',advice:'Mi consejo específico',nearby:'Qué combinar cerca',practical:'Información práctica',map:'Mapa y cómo llegar',gallery:'Galería completa',missing:'Cobertura fotográfica propia pendiente',missingDetail:'Esta ficha no usa imágenes de otros negocios ni fotografías sin licencia confirmada. Faltan cuatro fotografías reales y reutilizables antes de cerrar la galería.',photos:'Fotos publicadas: 0 de 4 · sin imágenes incorporadas',address:'Zona / dirección',phone:'Teléfono',whatsapp:'WhatsApp',web:'Web oficial',instagram:'Instagram oficial',mapLink:'Abrir mapa',sources:'Fuentes consultadas',follow:'Consulta disponibilidad directamente antes de salir.',credits:'Fotos: inventario pendiente de imágenes propias o autorizadas. No se reutilizan imágenes de plataformas de reseñas.'},
+  pt:{guide:'Gastronomia de Búzios · Guia Ernestinho',back:'← Voltar a Comer e sair',title:'Guia do {name} em Búzios | Ernestinho Carioca',desc:'Guia editorial do {name} em {zone}, Búzios: proposta, o que pedir, experiência, informações práticas, mapa e fontes oficiais.',identity:'Identidade e ambiente visual',history:'História e proposta',ambience:'O ambiente e a identidade do restaurante',read:'Minha leitura pessoal como Ernestinho',order:'O que pedir e por quê',time:'Experiência conforme o momento do dia',advice:'Meu conselho específico',nearby:'O que combinar por perto',practical:'Informações práticas',map:'Mapa e como chegar',gallery:'Galeria completa',missing:'Cobertura fotográfica própria pendente',missingDetail:'Esta ficha não usa imagens de outros estabelecimentos nem fotografias sem licença confirmada. Faltam quatro fotos reais e reutilizáveis para completar a galeria.',photos:'Fotos publicadas: 0 de 4 · nenhuma imagem incorporada',address:'Região / endereço',phone:'Telefone',whatsapp:'WhatsApp',web:'Site oficial',instagram:'Instagram oficial',mapLink:'Abrir mapa',sources:'Fontes consultadas',follow:'Consulte disponibilidade diretamente antes de sair.',credits:'Fotos: inventário pendente de imagens próprias ou autorizadas. Não reutilizamos imagens de plataformas de avaliações.'},
+  en:{guide:'Búzios food guide · Ernestinho',back:'← Back to Eat and go out',title:'{name} in Búzios: guide | Ernestinho Carioca',desc:'An editorial guide to {name} in {zone}, Búzios: concept, what to order, experience, practical details, map and official sources.',identity:'Identity and visual atmosphere',history:'History and concept',ambience:'The restaurant’s atmosphere and identity',read:'My personal take as Ernestinho',order:'What to order and why',time:'Experience by time of day',advice:'My specific advice',nearby:'What to combine nearby',practical:'Practical information',map:'Map and directions',gallery:'Full gallery',missing:'Own-photo coverage pending',missingDetail:'This profile does not use images from other businesses or photographs without confirmed reuse rights. Four real, reusable photographs are still needed to complete the gallery.',photos:'Photos published: 0 of 4 · no images incorporated',address:'Area / address',phone:'Phone',whatsapp:'WhatsApp',web:'Official website',instagram:'Official Instagram',mapLink:'Open map',sources:'Sources consulted',follow:'Check availability directly before setting out.',credits:'Photos: awaiting own or authorized images. Images from review platforms are not reused.'}
+}[lang];
+const name=p.name;
+const title=copy.title.replace('{name}',name);
+const description=copy.desc.replace('{name}',name).replace('{zone}',pick(p.zone));
+document.documentElement.lang=lang==='pt'?'pt-BR':lang;
+document.title=title;
+document.querySelector('meta[name="description"]').content=description;
+document.querySelector('link[rel="canonical"]').href='https://www.ernestinhocarioca.com.br'+localized(root+routeSlug+'/');
+for(const [key,val] of [['og:title',title],['og:description',description],['og:url','https://www.ernestinhocarioca.com.br'+localized(root+routeSlug+'/')],['twitter:title',title],['twitter:description',description]])document.querySelector(`meta[property="${key}"],meta[name="${key}"]`).content=val;
+document.querySelectorAll('link[hreflang]').forEach(e=>e.remove());
+for(const [h,l] of [['es','es'],['pt-BR','pt'],['en','en']]){const link=document.createElement('link');link.rel='alternate';link.hreflang=h;link.href=`https://www.ernestinhocarioca.com.br${l==='es'?'':'/'+l}${root+routeSlug}/`;document.head.append(link);}
+const link=(url,label)=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`;
+const pescadoresPhotos=routeSlug==='pescadores'?[
+ '158283059_3725081194240369_8651047164443847744_n.jpg',
+ '481285212_1169876628478961_1822966023196503822_n.jpg',
+ '144106572_3615903258491497_3783733785992341351_n.jpg',
+ '107540463_3030486220366540_908612452987890887_n.jpg',
+ '155922213_3704766409605181_3746765757866372041_n.jpg',
+ '470113770_8732038650211240_231656855877582957_n.jpg',
+ '130253254_3474059582675866_134587023623395522_n.jpg'
+].map(f=>'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/BAR%20DOS%20PESCADORES/'+encodeURIComponent(f)):[];
+const addedHostingerPhotos={
+ "farinatta": [
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/FARINATTA/photo1jpg.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/FARINATTA/164603239_5195158927224557_3581316875594454189_n.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/FARINATTA/caption.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/FARINATTA/caption%20(1).jpg"
+ ],
+ "altto": [
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/787841985_1395495512672900_6962775377558563638_n.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/altto-ristorante%20(2).jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/altto-ristorante.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/altto-ristorante%20(1).jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/843839666_1432902422265542_2305850004833946595_n.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/altto-ristorante%20(3).jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/caption.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/ALTO%20RISTORANTE/658151722_1271991598356626_4256178372021074206_n.jpg"
+ ],
+ "agaleria": [
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/AGALERIA/caption%20(3).jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/AGALERIA/caption%20(2).jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/AGALERIA/caption.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/AGALERIA/caption%20(1).jpg"
+ ],
+ "octopous": [
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/OCTUPUS%20BAR%20BISTRO/853092080_1768953441897242_4081720751989769690_n.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/OCTUPUS%20BAR%20BISTRO/octopous-bar-bistro-bazar%20(1).jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/OCTUPUS%20BAR%20BISTRO/710598463_1630654209060500_6860181964755643026_n.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/OCTUPUS%20BAR%20BISTRO/835450502_1756793653113221_2774256286192295512_n.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/OCTUPUS%20BAR%20BISTRO/octopous-bar-bistro-bazar.jpg",
+  "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/OCTUPUS%20BAR%20BISTRO/770918983_18453377641139825_3874292164597701402_n.jpg"
+ ]
+};
+const legacyPhotos=pescadoresPhotos.length?pescadoresPhotos:(addedHostingerPhotos[slug]||[]);
+const legacyInline=(i)=>legacyPhotos[i]?`<figure class="inline-photo"><img src="${esc(legacyPhotos[i])}" alt="${esc(name)} · ${i+1}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(i+1).padStart(2,'0')}</figcaption></figure>`:'';
+const photosLabel=legacyPhotos.length?`${legacyPhotos.length} fotografías del establecimiento`:'';
+const pescadoresInline=(i)=>pescadoresPhotos[i]?`<figure class="inline-photo"><img src="${esc(pescadoresPhotos[i])}" alt="${esc(name)} · fotografía ${i+1}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(i+1).padStart(2,'0')}</figcaption></figure>`:'';
+const legacyFirstFive=new Set(['farinatta','altto','agaleria','tawa','macaw']).has(slug);
+const sections=[['identity',pick(p.intro)],['history',pick(p.history)],['ambience',pick(p.ambience)],['read',pick(p.read)],['order',pick(p.order)],['time',pick(p.time)],['advice',pick(p.advice)],['nearby',pick(p.nearby)]];
+const routePlan=[
+ `Yo empezaría ubicando ${name} en el mapa desde el alojamiento y confirmando la dirección que publica el restaurante. La zona indicada es ${pick(p.zone)}; con ese dato calculo cuánto demora el traslado y si conviene llegar caminando, en taxi o por aplicación. Si la ficha o la reserva muestran otra referencia, confirmo directamente con la casa antes de organizar el resto del día.`,
+ `La hora de la visita la elegiría después de comprobar el horario de cocina, no solo el horario general del local. Si quiero almorzar tras la playa, pregunto por vestimenta, último pedido y si el servicio de día está disponible. Para una cena, confirmo reserva, tiempo aproximado de mesa y condiciones para grupos. En los días de mayor movimiento, prefiero tener la respuesta antes de salir para evitar cambiar el plan en la puerta.`,
+ `Al sentarme, yo miraría la propuesta de ${pick(p.tags)} y la carta vigente como una orientación para conversar con el equipo. Pregunto qué platos siguen disponibles, cuánto trae cada porción, cuáles son los acompañamientos y si una preparación puede compartirse. Si tengo una alergia o una restricción, la explico con precisión y consulto ingredientes y manipulación; no doy por hecho que una adaptación sea segura solo porque el plato parezca sencillo.`,
+ `Para que la comida no quede aislada del viaje, yo seguiría la combinación cercana que describo en esta ficha y dejaría margen entre la reserva y cualquier actividad con horario fijo. Si una caminata, una subida o un trayecto largo forma parte del recorrido, considero la energía del grupo y la vuelta antes de decidir la hora. Así puedo disfrutar la mesa sin apresurar el servicio ni depender de encontrar transporte a último momento.`
+];
+const contact=[p.phone&&`${copy.phone}: ${p.phone}`,p.whatsapp&&`${copy.whatsapp}: ${p.whatsapp}`,p.website&&`${copy.web}: ${link(p.website,p.website)}`,p.instagram&&`${pick(p.instagramLabel)||copy.instagram}: ${link(p.instagram,p.instagram)}`].filter(Boolean);
+document.querySelector('#profile').innerHTML=`
+  <nav class="back"><a href="${localized(root)}">${copy.back}</a><span>${['es','pt','en'].map(l=>`<a class="lang" href="${l==='es'?'':'/'+l}${root+routeSlug}/">${l.toUpperCase()}</a>`).join('')}</span></nav>
+  <header class="hero"><div><p class="ey">${esc(copy.guide)} · ${esc(pick(p.zone))}</p><div class="tags">${pick(p.tags).split(' · ').map(t=>`<span>${esc(t)}</span>`).join('')}</div><h1>${esc(name)}</h1><p class="lead">${esc(pick(p.intro))}</p><p class="hero-note">${esc(photosLabel)}</p></div></header>
+  <main class="wrap">
+   ${sections.map(([key,text],i)=>`<section class="card"><h2>${esc(copy[key])}</h2><p>${esc(text)}</p></section>${legacyPhotos.length&&i<4?legacyInline(i):''}`).join('')}
+   <section class="card"><h2>${lang==='es'?'Mi plan para organizar la visita':lang==='pt'?'Meu plano para organizar a visita':'My plan for organising the visit'}</h2>${routePlan.map(text=>`<p>${esc(text)}</p>`).join('')}</section>
+   <section class="card"><h2>${esc(copy.practical)}</h2><p>${esc(pick(p.practical))}</p><p><strong>${esc(copy.address)}:</strong> ${esc(pick(p.zone))}</p>${contact.map(c=>`<p>${c}</p>`).join('')}<p>${esc(copy.follow)}</p></section>
+   <section class="card"><h2>${esc(copy.map)}</h2><p>${esc(pick(p.zone))}. ${esc(copy.follow)}</p><p>${link(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.map)}`,copy.mapLink)}</p><iframe class="map" title="${esc(copy.map+' · '+name)}" src="https://www.google.com/maps?q=${encodeURIComponent(p.map)}&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+   ${legacyPhotos.length>4?`<section class="card"><h2>${esc(copy.gallery)}</h2><div class="gallery">${legacyPhotos.slice(4).map((src,i)=>`<figure><img src="${esc(src)}" alt="${esc(name)} · ${i+5}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(i+5).padStart(2,'0')}</figcaption></figure>`).join('')}</div><p>${esc(copy.follow)}</p></section>`:`<section class="card"><div class="photo-gap"><strong>${esc(copy.missing)}</strong><p>${esc(copy.missingDetail)}</p><p>${esc(pick(p.photoGap))}</p><small>${esc(copy.credits)}</small>${legacyFirstFive&&p.website?`<p>${link(p.website,lang==='es'?'Ver fotos y detalles en el sitio oficial':lang==='pt'?'Ver fotos e detalhes no site oficial':'See photographs on the official website')}</p>`:''}</div></section>`}
+   <section class="card"><h2>${esc(copy.sources)}</h2><ul>${p.sources.map(([label,url])=>`<li>${link(url,pick(label))}</li>`).join('')}</ul></section>
+   <p class="back"><a href="${localized(root)}">${copy.back}</a></p>
+  </main>`;
+const schema={'@context':'https://schema.org','@type':'WebPage',name:title,description,url:'https://www.ernestinhocarioca.com.br'+localized(root+routeSlug+'/'),inLanguage:lang==='pt'?'pt-BR':lang,'isPartOf':{'@type':'WebSite',name:'Ernestinho Carioca',url:'https://www.ernestinhocarioca.com.br/'}};
+const ld=document.createElement('script');ld.type='application/ld+json';ld.textContent=JSON.stringify(schema);document.head.append(ld);
+}
