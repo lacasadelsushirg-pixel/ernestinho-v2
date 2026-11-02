@@ -41,7 +41,7 @@ jobs:
           path: ec-hostinger-ephemeral-public.pem
           if-no-files-found: error
           retention-days: 1
-      - name: Run corrected one-time TUS publisher, with rollback and backups
+      - name: Run scoped release with per-run sealed credentials, backup and rollback
         run: python3 -u scripts/publish_hostinger_encrypted_incremental.py
       - name: Save pre-release backups and full release manifest for audit
         if: always()
