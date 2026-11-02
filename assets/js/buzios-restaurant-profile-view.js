@@ -18,11 +18,29 @@ if(foodPlace){
  const visitPlan=[
   `Yo empezaría por confirmar que la dirección de ${name} corresponde a la unidad de ${area} que quiero visitar. En Búzios, una diferencia de barrio modifica el traslado y también lo que puedo combinar en el día; por eso reviso el mapa desde mi alojamiento, miro el tiempo estimado y confirmo la puerta exacta en el canal del restaurante antes de salir.`,
   `La hora también forma parte de la elección. Si la comida es antes o después de la playa, consulto el horario de cocina y pregunto si el servicio funciona en esa franja. Si busco una cena con más calma, reservo o escribo antes, sobre todo en fines de semana y vacaciones. Cuando la vista o una mesa exterior importan, lo digo al reservar: la ubicación del local no garantiza que cada mesa tenga el mismo paisaje.`,
-  `Al revisar la carta, yo comparo ingredientes, guarniciones, tamaño de porción y precio antes de decidir. La cocina de ${foodPlace.cuisine} puede cambiar por temporada, disponibilidad y servicio del día; las fotografías ayudan a imaginar la experiencia, pero no son una promesa de menú. Si el equipo menciona una sugerencia, pregunto qué incluye y si alcanza para compartir, así la mesa pide con intención y evita desperdiciar.`,
+  `Al revisar la carta, yo comparo ingredientes, guarniciones, tamaño de porción y precio antes de decidir. La cocina de ${displayCuisine} puede cambiar por temporada, disponibilidad y servicio del día; las fotografías ayudan a imaginar la experiencia, pero no son una promesa de menú. Si el equipo menciona una sugerencia, pregunto qué incluye y si alcanza para compartir, así la mesa pide con intención y evita desperdiciar.`,
   `Para viajar con familia o amigos, suelo acordar primero el ritmo de la comida: algo informal, un almuerzo sentado o una noche para quedarse conversando. Si alguien tiene alergia, intolerancia o una preferencia alimentaria, doy el detalle exacto al personal y pregunto por ingredientes y preparación, sin asumir que una sustitución es segura. También confirmo si hay espacio para cochecito, silla o una mesa grande cuando esa necesidad forma parte del grupo.`,
   `Después de comer, yo organizo el siguiente tramo según la zona y no sobrecargo el itinerario. Desde ${area} puedo seguir con el paseo cercano si el grupo tiene energía; para regresar a otro barrio, defino el transporte antes de que termine la noche. Antes de pagar reviso la cuenta, el servicio y cualquier consumo adicional. Este pequeño orden me deja disfrutar la comida y cerrar la salida sin correr ni improvisar el regreso.`
  ];
- const title=`${name}: guía para comer en Búzios | Ernestinho Carioca`;
+ // Scope these paragraph translations to Madame Bardot; other profiles are unchanged.
+ const localizedVisitPlan=foodPlace.slug==='madame-bardot'&&lang!=='es'?{
+  pt:[
+   'Eu começaria confirmando o endereço e a entrada do Madame Bardot na Orla Bardot. Antes de sair, verificaria o mapa a partir da hospedagem e os horários atuais do restaurante.',
+   'Para jantar com calma, perguntaria sobre mesas disponíveis, reserva e programação musical, sobretudo em fins de semana e feriados. Uma mesa com vista para o mar depende da disponibilidade, então vale pedir essa preferência sem presumir que esteja garantida.',
+   'Antes de pedir, eu compararia ingredientes, acompanhamentos, porções e preços no cardápio atual. Fotos ajudam a imaginar a experiência, mas pratos e bebidas podem mudar. Uma entrada para compartilhar, um prato principal e uma bebida podem ser um bom começo.',
+   'Com crianças, idosos ou alguém com restrição alimentar, eu confirmaria previamente o espaço e os ingredientes com a equipe. Não presumiria que adaptações são seguras sem orientação do restaurante.',
+   'Depois de comer, eu aproveitaria a Orla Bardot e a Rua das Pedras conforme o movimento do dia. Antes de encerrar a noite, conferiria a conta e organizaria a volta à hospedagem.'
+  ],
+  en:[
+   'I would begin by confirming Madame Bardot’s location and entrance along Orla Bardot. Before leaving, I would check the route from my accommodation and the restaurant’s current opening hours.',
+   'For a relaxed dinner, I would ask about tables, reservations and any music scheduled for the evening, especially on weekends and holidays. A sea-view table depends on availability, so it is worth requesting without assuming it is guaranteed.',
+   'Before ordering, I would compare ingredients, side dishes, serving sizes and prices on the current menu. Photos help show the atmosphere, but dishes and drinks may change. A shared starter, main course and drink can be a good place to begin.',
+   'With children, older travelers or anyone with dietary restrictions, I would check seating and ingredients with staff in advance. I would not assume substitutions are safe without confirmation from the restaurant.',
+   'After the meal, I would enjoy Orla Bardot and Rua das Pedras if conditions allow. Before ending the evening, I would check the bill and arrange transport back to my accommodation.'
+  ]
+ }[lang]:visitPlan;
+ const displayCuisine=foodPlace.slug==='madame-bardot'?(lang==='pt'?'Bar · gastronomia · coquetelaria':lang==='en'?'Bar · food · cocktails':foodPlace.cuisine):foodPlace.cuisine;
+ const title=foodPlace.slug==='madame-bardot'?(lang==='pt'?name+': guia gastronômico em Búzios | Ernestinho Carioca':lang==='en'?name+': dining guide in Búzios | Ernestinho Carioca':name+': guía para comer en Búzios | Ernestinho Carioca'):`${name}: guía para comer en Búzios | Ernestinho Carioca`;
  const description=pick(foodPlace.description);
  document.documentElement.lang=lang==='pt'?'pt-BR':lang;document.title=title;
  document.querySelector('meta[name="description"]').content=description;
@@ -49,9 +67,9 @@ if(foodPlace){
  ${firstBatch?figure(2):''}
  <article class="card"><h2>${t.combine}</h2><p>${esc(pick(foodPlace.combine))}</p><p>${esc(t.check)}</p></article>
  ${firstBatch?figure(3):''}
- </section><aside><article class="card facts"><h2>${t.practical}</h2><p>📍 <strong>${lang==='es'?'Zona':lang==='pt'?'Região':'Area'}</strong><br>${esc(foodPlace.zone)}</p><p>🍽️ <strong>${lang==='es'?'Estilo':lang==='pt'?'Estilo':'Style'}</strong><br>${esc(foodPlace.cuisine)}</p><p>🕐 ${esc(t.check)}</p><p>${esc(pick(foodPlace.practical))}</p>${link(foodPlace.official,t.open)}<a class="btn" href="${esc(mapUrl)}" target="_blank" rel="noopener noreferrer">${lang==='es'?'Abrir Google Maps':lang==='pt'?'Abrir Google Maps':'Open Google Maps'} ↗</a></article></aside></div>
+ </section><aside><article class="card facts"><h2>${t.practical}</h2><p>📍 <strong>${lang==='es'?'Zona':lang==='pt'?'Região':'Area'}</strong><br>${esc(foodPlace.zone)}</p><p>🍽️ <strong>${lang==='es'?'Estilo':lang==='pt'?'Estilo':'Style'}</strong><br>${esc(displayCuisine)}</p><p>🕐 ${esc(t.check)}</p><p>${esc(pick(foodPlace.practical))}</p>${link(foodPlace.official,t.open)}<a class="btn" href="${esc(mapUrl)}" target="_blank" rel="noopener noreferrer">${lang==='es'?'Abrir Google Maps':lang==='pt'?'Abrir Google Maps':'Open Google Maps'} ↗</a></article></aside></div>
  ${photos?`<article class="card"><h2>${t.gallery}</h2><p>${esc(t.note)}</p><div class="gallery">${photos}</div></article>`:''}
- <article class="card"><h2>${lang==='es'?'Mi plan para aprovechar la visita':lang==='pt'?'Meu plano para aproveitar a visita':'My plan for making the most of the visit'}</h2>${visitPlan.map(p=>`<p>${esc(p)}</p>`).join('')}</article>
+ <article class="card"><h2>${lang==='es'?'Mi plan para aprovechar la visita':lang==='pt'?'Meu plano para aproveitar a visita':'My plan for making the most of the visit'}</h2>${localizedVisitPlan.map(p=>`<p>${esc(p)}</p>`).join('')}</article>
  <article class="card"><h2>${t.map}</h2><p>${esc(pick(foodPlace.practical))} ${esc(t.check)}</p><iframe class="map" title="${esc(t.map+' · '+name)}" src="https://www.google.com/maps?q=${encodeURIComponent(foodPlace.map)}&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><p>${link(mapUrl,lang==='es'?'Abrir el mapa':lang==='pt'?'Abrir o mapa':'Open map')}</p></article>
  <p class="back"><a href="${localized(root)}">${t.return}</a></p></main></div>`;
  const schema=document.createElement('script');schema.type='application/ld+json';schema.textContent=JSON.stringify({'@context':'https://schema.org','@type':'WebPage',name:title,description,url:canonical,inLanguage:lang==='pt'?'pt-BR':lang,'isPartOf':{'@type':'WebSite',name:'Ernestinho Carioca',url:'https://www.ernestinhocarioca.com.br/'}});document.head.append(schema);
