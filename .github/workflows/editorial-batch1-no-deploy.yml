@@ -1,0 +1,111 @@
+name: Editorial batch 1 — 9 routes, ES PT EN (NO DEPLOY)
+on:
+  pull_request:
+    paths:
+      - 'hospedaje/index.html'
+      - 'assets/css/hospedaje.css'
+      - 'assets/js/hospedaje.js'
+      - 'assets/css/editorial-lote1.css'
+      - 'assets/js/translations/editorial-lote1.js'
+      - 'compras/feira-saens-pena/index.html'
+      - 'compras/mercados-populares/index.html'
+      - 'consejos/atardeceres-inolvidables/index.html'
+      - 'experiencias/bioparque/index.html'
+      - 'experiencias/vidigal/index.html'
+      - 'destinos/buzios/index.html'
+      - 'destinos/buzios/playas/index.html'
+      - 'cultura/nossa-senhora-paz/index.html'
+      - '.github/workflows/editorial-batch1-no-deploy.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    env:
+      VERCEL: '1'
+      EC_BUILD_WORKERS: '2'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci --no-audit --no-fund
+      - name: Verify translation module syntax
+        run: node --check assets/js/translations/editorial-lote1.js
+      - name: Render exactly 9 editorial routes in three locales, never full rebuild
+        run: node scripts/build_multilingual.mjs --routes=/hospedaje/,/compras/feira-saens-pena/,/compras/mercados-populares/,/consejos/atardeceres-inolvidables/,/experiencias/bioparque/,/experiencias/vidigal/,/destinos/buzios/,/destinos/buzios/playas/,/cultura/nossa-senhora-paz/
+      - name: Verify 27 published-format pages in three languages
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          from html import unescape
+          import re
+          routes=['hospedaje','compras/feira-saens-pena','compras/mercados-populares','consejos/atardeceres-inolvidables','experiencias/bioparque','experiencias/vidigal','destinos/buzios','destinos/buzios/playas','cultura/nossa-senhora-paz']
+          root=Path('dist')
+          keys={'compras/feira-saens-pena':('La feria que muestra el lado cotidiano','A feira que revela o cotidiano','An artisan market at the heart'),
+                'experiencias/bioparque':('BioParque do Rio: naturaleza','BioParque do Rio: natureza','BioParque do Rio: wildlife'),
+                'experiencias/vidigal':('Vidigal: una comunidad','Vidigal: uma comunidade','Vidigal: a community'),
+                'destinos/buzios/playas':('No todas las playas','Nem todas as praias','Not all Búzios beaches'),
+                'cultura/nossa-senhora-paz':('Una iglesia que cuenta la historia','Uma igreja que conta a história','A church that tells the story')}
+          for route in routes:
+           for n,(lang,prefix) in enumerate([('es',''),('pt','pt/'),('en','en/')]):
+            p=root/prefix/route/'index.html'
+            assert p.is_file(),p
+            html=unescape(p.read_text())
+            assert 'rel="canonical"' in html,(p,'canonical')
+            if route in keys:
+             assert keys[route][n] in html,(str(p),keys[route][n])
+             if lang!='es': assert keys[route][0] not in html,(str(p),'ES found')
+            if route=='experiencias/bioparque':
+             assert 'Reino dos Axolotes' in html,p
+             assert len(re.sub(r'<[^>]+>',' ',html))>3000,p
+            if route=='hospedaje':
+             assert html.count('class="feature stay-feature"')==12,(str(p),'cards')
+             assert html.count('class="stay-feature-photo"')==12,(str(p),'photos')
+             assert 'index.editorial2' in html or 'Where you stay should be part of the holiday' in html
+             if lang=='en': assert 'Where you stay should be part of the holiday' in html
+          print('PASS 27 locale HTML; 12 full-image lodging cards; scoped content and translations.')
+          PY
+      - name: Preserve all existing assets; do not deploy or publish a pilot sitemap
+        run: |
+          echo 'READ-ONLY BUILD: 9 routes × 3 languages. No Hostinger deploy.'
+          echo 'No sitemap.xml, locale-manifest.json or shared production JS publication.'
+      - name: Save 27 reviewed HTML as downloadable evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-lote1-27-pages-no-deploy
+          path: |
+            dist/hospedaje/index.html
+            dist/pt/hospedaje/index.html
+            dist/en/hospedaje/index.html
+            dist/compras/feira-saens-pena/index.html
+            dist/pt/compras/feira-saens-pena/index.html
+            dist/en/compras/feira-saens-pena/index.html
+            dist/compras/mercados-populares/index.html
+            dist/pt/compras/mercados-populares/index.html
+            dist/en/compras/mercados-populares/index.html
+            dist/consejos/atardeceres-inolvidables/index.html
+            dist/pt/consejos/atardeceres-inolvidables/index.html
+            dist/en/consejos/atardeceres-inolvidables/index.html
+            dist/experiencias/bioparque/index.html
+            dist/pt/experiencias/bioparque/index.html
+            dist/en/experiencias/bioparque/index.html
+            dist/experiencias/vidigal/index.html
+            dist/pt/experiencias/vidigal/index.html
+            dist/en/experiencias/vidigal/index.html
+            dist/destinos/buzios/index.html
+            dist/pt/destinos/buzios/index.html
+            dist/en/destinos/buzios/index.html
+            dist/destinos/buzios/playas/index.html
+            dist/pt/destinos/buzios/playas/index.html
+            dist/en/destinos/buzios/playas/index.html
+            dist/cultura/nossa-senhora-paz/index.html
+            dist/pt/cultura/nossa-senhora-paz/index.html
+            dist/en/cultura/nossa-senhora-paz/index.html
+          retention-days: 15
+          if-no-files-found: warn
