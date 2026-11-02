@@ -306,11 +306,26 @@ async function worker(){
      if(typeof window.setLang!=='function')throw Error('Feira localizer not found');
      window.setLang(language.toLowerCase());
     }
-    if(/^\/gastronomia\/(?:arp-bar|classico-leme|quiteria|cosmopolita|polis-sucos|adega-perola|churrascaria-palace|lasai|rio-scenarium)\/$/.test(routeWithoutLocale)){
+    if(/^\/gastronomia\/[^/]+\/$/.test(routeWithoutLocale)){
      const code=language.toLowerCase();
      const switcher=document.querySelector('.lang-switcher button[data-lang="'+code+'"]');
-     if(!switcher)throw Error('Legacy language switcher absent: '+routeWithoutLocale+' '+code);
-     switcher.click();
+     if(switcher)switcher.click();
+     else if(/^\/gastronomia\/(?:arp-bar|classico-leme|quiteria|cosmopolita|polis-sucos|adega-perola|churrascaria-palace|lasai|rio-scenarium)\/$/.test(routeWithoutLocale))throw Error('Legacy language switcher absent: '+routeWithoutLocale+' '+code);
+    }
+    // Legacy switchers may restore Spanish headings or short labels after the
+    // shared translator ran. Resolve exact dictionary keys without replaying
+    // site.apply, which would reset the newly aligned paragraph dictionaries.
+    if(site&&language!=='ES'){
+     const {translatePhrase}=await import(site.src);
+     for(const area of document.querySelectorAll('main,header.hero,nav.back')){
+      const walker=document.createTreeWalker(area,NodeFilter.SHOW_TEXT);
+      let node;while((node=walker.nextNode())){
+       if(node.parentElement?.closest('script,style,noscript'))continue;
+       const original=node.nodeValue,key=original.trim();
+       if(key){const translated=translatePhrase(key,language);if(translated!==key)node.nodeValue=original.replace(key,translated);}
+      }
+      for(const image of area.querySelectorAll('img[alt]'))image.alt=translatePhrase(image.alt,language);
+     }
     }
    },target.language);
    const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,editorialMetaOverride,standaloneTranslations,shortCopyTranslations})=>{

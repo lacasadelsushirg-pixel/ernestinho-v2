@@ -1,0 +1,254 @@
+{
+  "baseHead": "58cc1532a25e5cb397872f920ab0e4bc59d9034c",
+  "generatedRoutes": 59,
+  "generatedHTML": 177,
+  "checks": [
+    {
+      "command": "node scripts/verify_semantic_review.mjs",
+      "exit_code": 0,
+      "result": {
+        "reviewedAlternatives": 212,
+        "semanticAndArrayChecks": 252,
+        "localizedHeaders": 165,
+        "failures": 0,
+        "errors": []
+      }
+    },
+    {
+      "command": "node scripts/verify_legacy_page_dicts.mjs --rendered",
+      "exit_code": 0,
+      "result": {
+        "routes": 49,
+        "localeSlots": 2040,
+        "rendered": true,
+        "failures": 0,
+        "examples": []
+      }
+    },
+    {
+      "command": "node scripts/verify_translation_scope.mjs",
+      "exit_code": 0,
+      "result": {
+        "sourceMarkupContracts": 59,
+        "localeDocuments": 177,
+        "failures": 0,
+        "errors": []
+      }
+    },
+    {
+      "command": "node scripts/audit_flagged_variants.mjs",
+      "exit_code": 0,
+      "result": {
+        "originalFlagged": 84,
+        "alreadyPublishedVariants": 2,
+        "checkedVariants": 82,
+        "expected": 82,
+        "missingHTML": 0,
+        "stillVisibleSpanishExamples": 0,
+        "nativePortugueseExamples": 2,
+        "missingCanonicalOrHreflang": 0,
+        "possibleShortSpanishLeaks": 0,
+        "missing": [],
+        "stale": [],
+        "metadata": [],
+        "possible": []
+      }
+    },
+    {
+      "command": "node scripts/verify_embedded_locale_pages.mjs",
+      "exit_code": 0,
+      "result": {
+        "pages": 15,
+        "checked": [
+          {
+            "route": "es/gastronomia/polis-sucos/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "pt/gastronomia/polis-sucos/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "en/gastronomia/polis-sucos/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "es/gastronomia/arp-bar/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "pt/gastronomia/arp-bar/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "en/gastronomia/arp-bar/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "es/gastronomia/classico-leme/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "pt/gastronomia/classico-leme/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "en/gastronomia/classico-leme/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "es/gastronomia/quiteria/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "pt/gastronomia/quiteria/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "en/gastronomia/quiteria/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "es/gastronomia/cosmopolita/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "pt/gastronomia/cosmopolita/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          },
+          {
+            "route": "en/gastronomia/cosmopolita/",
+            "expectedText": true,
+            "incorrectPhrases": 0,
+            "shortTextOk": true
+          }
+        ],
+        "failures": []
+      }
+    },
+    {
+      "command": "node scripts/verify_locale_shortcopy.mjs",
+      "exit_code": 0,
+      "result": {
+        "checked": 24,
+        "errors": 0,
+        "failures": []
+      }
+    },
+    {
+      "command": "node scripts/verify_rendered_editorial.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/,/gastronomia/bb-lanches/,/gastronomia/cavalo-marinho/,/gastronomia/confeitaria-manon/,/gastronomia/cafe-do-alto/,/gastronomia/casa-porto/,/gastronomia/ferro-e-farinha/,/gastronomia/gurume/,/gastronomia/nova-capela/,/gastronomia/jobi/,/gastronomia/aipo-aipim-920/,/gastronomia/arab-leblon/,/gastronomia/churrascaria-palace/,/gastronomia/pilograma-prime-grill/,/gastronomia/pesqueiro/,/gastronomia/kilograma-centro/,/gastronomia/point-de-grumari/,/gastronomia/temperarte-posto6/,/gastronomia/xian/,/gastronomia/shiso/,/gastronomia/nido-ristorante/,/gastronomia/sabor-das-aguas/,/gastronomia/rufino-parrilla/,/gastronomia/prana/,/gastronomia/cabanna/,/gastronomia/coisas-de-bamba/,/gastronomia/oro/,/gastronomia/lasai/,/gastronomia/sushi-leblon/,/gastronomia/polis-sucos/,/gastronomia/don-pascual/,/gastronomia/bira-de-guaratiba/,/gastronomia/joaquina/,/gastronomia/delirio/,/gastronomia/spesso/,/gastronomia/eclipse/,/gastronomia/majorica/ --evidence",
+      "exit_code": 0,
+      "result": {
+        "routes": 52,
+        "checkedTranslatedBlocks": 1122,
+        "failures": 0,
+        "alternativeLocalizations": 196,
+        "alternativeExamples": [
+          "pt/compras/feira-sao-cristovao/: different localized wording Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y r",
+          "en/compras/feira-sao-cristovao/: different localized wording Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y r",
+          "pt/compras/mercadao-madureira/: different localized wording Yo te llevo a conocer un Río de Janeiro intenso, cotidiano y llen",
+          "pt/compras/mercadao-madureira/: different localized wording Para mí, el Mercadão de Madureira no es una parada rápida ni un d",
+          "pt/compras/mercadao-madureira/: different localized wording Madureira queda lejos de la imagen de postal de Copacabana, Ipane",
+          "pt/compras/mercadao-madureira/: different localized wording El Mercadão funciona como una concentración de posibilidades. Hay",
+          "pt/compras/mercadao-madureira/: different localized wording En el Mercadão puedes encontrar artículos asociados a tradiciones",
+          "pt/compras/mercadao-madureira/: different localized wording Mi consejo es sencillo: observa, pregunta con educación y no foto",
+          "pt/compras/mercadao-madureira/: different localized wording Yo no entraría intentando comprarlo todo. Elegiría una categoría,",
+          "pt/compras/mercadao-madureira/: different localized wording Telas, ropa, accesorios, artículos para fiestas, carnaval, decora",
+          "pt/compras/mercadao-madureira/: different localized wording Cosmética, perfumería, cabello, calzado y accesorios. Yo pregunta",
+          "pt/compras/mercadao-madureira/: different localized wording Artículos religiosos, referencias afrobrasileñas, productos regio",
+          "pt/compras/mercadao-madureira/: different localized wording Yo vendría con calzado cómodo y una bolsa pequeña para tener las ",
+          "pt/compras/mercadao-madureira/: different localized wording Compara, pregunta si aceptan tarjeta, confirma la política de cam",
+          "pt/compras/mercadao-madureira/: different localized wording Ojo con los horarios especiales y con el movimiento de fin de sem",
+          "pt/compras/mercadao-madureira/: different localized wording Si vienes con niños, yo mantendría el grupo cerca y elegiría un h"
+        ],
+        "examples": []
+      }
+    },
+    {
+      "command": "node scripts/audit_rendered_shortcopy.mjs --strict",
+      "exit_code": 0,
+      "result": {
+        "sourcesExamined": 58,
+        "localizedVariants": 116,
+        "sourceEqualSpanishMicrocopy": 0,
+        "validPortugueseSharedWithSource": 11,
+        "byKind": {},
+        "byLocale": {},
+        "byConfidence": {},
+        "topRoutes": [],
+        "explanation": "Exact matches between visible PT/EN labels and Spanish source; high means clear Spanish language markers, review means editorial inspection needed. Proper names can be valid. This is NOT a production audit.",
+        "details": []
+      }
+    },
+    {
+      "command": "node scripts/audit_locale_seo_metadata.mjs",
+      "exit_code": 0,
+      "result": {
+        "auditedRoutes": 59,
+        "localizedVariants": 118,
+        "criticalErrors": [],
+        "identicalSpanishTitles": 26,
+        "identicalSpanishDescriptions": 0,
+        "missingMetadata": 0,
+        "titleRoutes": [
+          "pt/compras/feira-sao-cristovao/",
+          "en/compras/feira-sao-cristovao/",
+          "pt/compras/mercadao-madureira/",
+          "en/compras/mercadao-madureira/",
+          "pt/compras/uruguaiana/",
+          "en/compras/uruguaiana/",
+          "pt/gastronomia/aipo-aipim-391/",
+          "en/gastronomia/aipo-aipim-391/",
+          "pt/gastronomia/aipo-aipim-605/",
+          "en/gastronomia/aipo-aipim-605/",
+          "pt/gastronomia/aipo-aipim-920/",
+          "en/gastronomia/aipo-aipim-920/",
+          "pt/gastronomia/arab-leblon/",
+          "en/gastronomia/arab-leblon/",
+          "pt/gastronomia/bar-da-gema/",
+          "en/gastronomia/bar-da-gema/",
+          "pt/gastronomia/bb-lanches/",
+          "en/gastronomia/bb-lanches/",
+          "pt/gastronomia/cafe-do-alto/",
+          "en/gastronomia/cafe-do-alto/",
+          "pt/gastronomia/carretao-siqueira/",
+          "en/gastronomia/carretao-siqueira/",
+          "pt/gastronomia/majorica/",
+          "en/gastronomia/majorica/",
+          "pt/gastronomia/nido-ristorante/",
+          "en/gastronomia/nido-ristorante/"
+        ],
+        "descriptionRoutes": [],
+        "missingRoutes": []
+      }
+    }
+  ]
+}

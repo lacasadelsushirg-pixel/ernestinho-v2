@@ -18,13 +18,14 @@ const decode=t=>String(t||'').replace(/&nbsp;/ig,' ').replace(/&amp;/ig,'&')
  .replace(/&#x([a-f0-9]+);/ig,(_,n)=>String.fromCodePoint(parseInt(n,16)));
 const clean=t=>decode(String(t||'').replace(/<[^>]*>/g,' ')).replace(/\s+/g,' ').trim();
 const extract=html=>{
- const out={alt:[],caption:[],heading:[],notice:[]};
+ const out={alt:[],caption:[],heading:[],notice:[],paragraph:[]};
  const withoutScripts=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/ig,'')
   .replace(/<style\b[^>]*>[\s\S]*?<\/style>/ig,'');
  for(const hit of withoutScripts.matchAll(/<img\b[^>]*\balt=(["'])(.*?)\1/ig))out.alt.push(clean(hit[2]));
  for(const hit of withoutScripts.matchAll(/<figcaption\b[^>]*>([\s\S]*?)<\/figcaption>/ig))out.caption.push(clean(hit[1]));
  for(const hit of withoutScripts.matchAll(/<h[2-4]\b[^>]*>([\s\S]*?)<\/h[2-4]>/ig))out.heading.push(clean(hit[1]));
  for(const hit of withoutScripts.matchAll(/<div\b[^>]*class=["'][^"']*\bnotice\b[^"']*["'][^>]*>([\s\S]*?)<\/div>/ig))out.notice.push(clean(hit[1]));
+ for(const hit of withoutScripts.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/ig)){const text=clean(hit[1]);if(text.length<100)out.paragraph.push(text);}
  return out;
 };
 const spanishMarker=/\b(?:comercio|productos|calle|mercanc[ií]as|escaparates|fotograf[ií]a|im[aá]genes?|la|el|las|los|un|una|para|del|por|qu[eé]|c[oó]mo|volver|direcci[oó]n|fachada|sal[oó]n|preparaci[oó]n|experiencia|plato|restaurante|gu[ií]a|consejo|historia|galer[ií]a|visita|servicio|bebida|a[cç]a[ií] con)\b/i;
@@ -32,6 +33,10 @@ const highlySpanish=/\b(?:fotograf[ií]a|im[aá]genes?|volver|direcci[oó]n|prep
 // Some Spanish source files were written with genuinely Portuguese image names.
 const nativePortugueseSameAsSource=new Set([
  'Mesa do restaurante Arp','Delírio Tropical em Ipanema',
+ '📅 Reservas Recomendável para pôr do sol, varanda e jantar.',
+ '📅 Reservas Recomendável para fins de semana, pôr do sol, lounges e grupos.',
+ 'FLAMENGO · CHURRASCO À LA CARTE · DESDE 1961',
+ 'Site oficial ↗ · Cardápio à la carte ↗ · Contato oficial ↗',
  'Balcão do Delírio Tropical','Prato do Delírio Tropical',
  'Sobremesa do Delírio','Restaurante Quitéria','Fachada do Quitéria'
 ]);
@@ -71,4 +76,5 @@ const result={sourcesExamined:sources.length,localizedVariants:sources.length*2,
  details:matches};
 fs.writeFileSync(reportFile,JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify({...result,details:matches.slice(0,24)},null,2));
-// Intentionally nonblocking: provides a ranked repair queue, not a publication gate.
+// Existing diagnostic mode stays nonblocking; CI can explicitly require closure.
+if(process.argv.includes('--strict')&&matches.length)process.exitCode=1;
