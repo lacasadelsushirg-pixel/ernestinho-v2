@@ -59,7 +59,7 @@ for(const test of checks){
    const expectedMeta=lang==='pt'?"Guia do Clássico Beach Club Leme: ambiente à beira-mar, pratos, horários, transporte, mapa e dicas para planejar a visita no Rio.":"Clássico Beach Club Leme guide: beachfront atmosphere, food, opening hours, transport, a map and tips for planning a visit to Rio.";
    if(!html.includes('<title>'+expectedTitle+'</title>'))errors.push(lang+'/classico-leme: HTML title not localized');
    const actualDescription=html.match(/<meta\b[^>]*name=["']description["'][^>]*content=["']([^"']*)["']/i)?.[1]||'';
-   if(!actualDescription||actualDescription.includes('Guía editorial de Clássico Beach Club Leme'))errors.push(lang+'/classico-leme: SEO description remains in Spanish');
+   if(actualDescription!==expectedMeta)errors.push(lang+'/classico-leme: expected PT/EN SEO description missing');
   }
   const shortText=shortChecks[test.slug]?.[lang];
   if(shortText&&!v.includes(shortText))errors.push(lang+'/'+test.slug+': short localized text missing');

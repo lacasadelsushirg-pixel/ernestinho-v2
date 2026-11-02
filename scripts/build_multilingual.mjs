@@ -39,6 +39,10 @@ const EDITORIAL_META_OVERRIDES={
       "title": "Quitéria in Ipanema: dining guide | Ernestinho Carioca"
     }
   },
+  "/gastronomia/classico-leme/": {
+    "PT": {"description": "Guia do Clássico Beach Club Leme: ambiente à beira-mar, pratos, horários, transporte, mapa e dicas para planejar a visita no Rio."},
+    "EN": {"description": "Clássico Beach Club Leme guide: beachfront atmosphere, food, opening hours, transport, a map and tips for planning a visit to Rio."}
+  },
   "/gastronomia/cosmopolita/": {
     "PT": {
       "description": "História do antigo restaurante Cosmopolita na Lapa e do filé à Oswaldo Aranha. Endereço histórico; não há serviço gastronômico atual confirmado."
