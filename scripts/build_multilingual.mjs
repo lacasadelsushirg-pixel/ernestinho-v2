@@ -351,7 +351,7 @@ async function worker(){
       const isPT=key==='PT';
       const patterns=[
        [/^(.+?) — fotografía editorial\.?$/i,isPT?'$1 — fotografia editorial':'$1 — editorial photograph'],
-       [/^(.+?) ([:—]) fotografía (\d+)\.?$/i,isPT?'$1 $2 fotografia $3':'$1 $2 photograph $3'],
+       [/^(.+?)([:—]) fotografía (\d+)\.?$/i,isPT?'$1$2 fotografia $3':'$1$2 photograph $3'],
        [/^Fotografía real · registro (\d+)$/i,isPT?'Fotografia real · registro $1':'Real photograph · record $1'],
        [/^Fotografía (\d+) de (.+)\.$/i,isPT?'Fotografia $1 de $2.':'Photo $1 of $2.'],
        [/^Fotografía de (.+)\.$/i,isPT?'Fotografia de $1.':'Photograph of $1.'],

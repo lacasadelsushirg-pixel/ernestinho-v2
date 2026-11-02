@@ -27,8 +27,15 @@ const extract=html=>{
  for(const hit of withoutScripts.matchAll(/<div\b[^>]*class=["'][^"']*\bnotice\b[^"']*["'][^>]*>([\s\S]*?)<\/div>/ig))out.notice.push(clean(hit[1]));
  return out;
 };
-const spanishMarker=/\b(?:fotograf[ií]a|im[aá]genes?|la|el|las|los|un|una|para|del|por|qu[eé]|c[oó]mo|volver|direcci[oó]n|fachada|sal[oó]n|preparaci[oó]n|experiencia|plato|restaurante|gu[ií]a|consejo|historia|galer[ií]a|visita|servicio|bebida|a[cç]a[ií] con)\b/i;
+const spanishMarker=/\b(?:comercio|productos|calle|mercanc[ií]as|escaparates|fotograf[ií]a|im[aá]genes?|la|el|las|los|un|una|para|del|por|qu[eé]|c[oó]mo|volver|direcci[oó]n|fachada|sal[oó]n|preparaci[oó]n|experiencia|plato|restaurante|gu[ií]a|consejo|historia|galer[ií]a|visita|servicio|bebida|a[cç]a[ií] con)\b/i;
 const highlySpanish=/\b(?:fotograf[ií]a|im[aá]genes?|volver|direcci[oó]n|preparaci[oó]n|galer[ií]a|plato servido|la fachada|el ambiente|y car[aá]cter|y propuesta|por qu[eé])\b/i;
+// Some Spanish source files were written with genuinely Portuguese image names.
+const nativePortugueseSameAsSource=new Set([
+ 'Mesa do restaurante Arp','Delírio Tropical em Ipanema',
+ 'Balcão do Delírio Tropical','Prato do Delírio Tropical',
+ 'Sobremesa do Delírio','Restaurante Quitéria','Fachada do Quitéria'
+]);
+let acceptedNativePortuguese=0;
 const matches=[];const routeCounts={};
 for(const source of sources){
  const srcFile=path.join(root,source.slice(1),'index.html');
@@ -43,6 +50,7 @@ for(const source of sources){
    const seen=new Set();
    for(const text of translated[kind]){
     if(!spanishSet.has(text)||seen.has(kind+'|'+text))continue;
+    if(locale==='pt'&&nativePortugueseSameAsSource.has(text)){acceptedNativePortuguese++;continue;}
     seen.add(kind+'|'+text);
     matches.push({source,locale,kind,text,confidence:highlySpanish.test(text)?'high':'review'});
     routeCounts[locale+source]=(routeCounts[locale+source]||0)+1;
@@ -57,7 +65,7 @@ for(const hit of matches){
  byConfidence[hit.confidence]=(byConfidence[hit.confidence]||0)+1;
 }
 const result={sourcesExamined:sources.length,localizedVariants:sources.length*2,
- sourceEqualSpanishMicrocopy:matches.length,byKind,byLocale,byConfidence,
+ sourceEqualSpanishMicrocopy:matches.length,validPortugueseSharedWithSource:acceptedNativePortuguese,byKind,byLocale,byConfidence,
  topRoutes:Object.entries(routeCounts).sort((a,b)=>b[1]-a[1]).slice(0,25),
  explanation:'Exact matches between visible PT/EN labels and Spanish source; high means clear Spanish language markers, review means editorial inspection needed. Proper names can be valid. This is NOT a production audit.',
  details:matches};

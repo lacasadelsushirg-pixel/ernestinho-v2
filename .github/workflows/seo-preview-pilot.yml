@@ -13,6 +13,7 @@ on:
       - 'scripts/audit_locale_seo_metadata.mjs'
       - 'scripts/audit_flagged_variants.mjs'
       - 'scripts/audit_rendered_shortcopy.mjs'
+      - 'scripts/editorial_shortcopy_translations.mjs'
       - 'gastronomia/arp-bar/index.html'
       - 'gastronomia/classico-leme/index.html'
       - 'gastronomia/quiteria/index.html'
