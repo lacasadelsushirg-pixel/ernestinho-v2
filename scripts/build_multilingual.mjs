@@ -299,6 +299,12 @@ async function worker(){
     // The shared site.apply does not update those indexed paragraphs. Activate
     // the original language switcher during isolated rendering only.
     const routeWithoutLocale=location.pathname.replace(/^\/(?:pt|en)(?=\/|$)/i,'')||'/';
+    // Feira de São Cristóvão owns its copy in a separate inline D structure.
+    // Shared i18n alone misses the recommendation and family paragraphs.
+    if(routeWithoutLocale==='/compras/feira-sao-cristovao/'){
+     if(typeof window.setLang!=='function')throw Error('Feira localizer not found');
+     window.setLang(language.toLowerCase());
+    }
     if(/^\/gastronomia\/(?:arp-bar|classico-leme|quiteria|cosmopolita|polis-sucos|adega-perola|churrascaria-palace|lasai)\/$/.test(routeWithoutLocale)){
      const code=language.toLowerCase();
      const switcher=document.querySelector('.lang-switcher button[data-lang="'+code+'"]');
