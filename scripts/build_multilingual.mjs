@@ -77,7 +77,9 @@ const ignore=new Set(['.git','node_modules','dist','.vercel','docs','scripts','u
 function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>ignore.has(e.name)?[]:e.isDirectory()?walk(path.join(dir,e.name)):e.name.endsWith('.html')?[path.join(dir,e.name)]:[]);}
 const files=walk(root).sort();
 const routeFor=f=>{const rel=path.relative(root,f).replaceAll(path.sep,'/');return rel==='index.html'?'/':rel.endsWith('/index.html')?'/'+rel.slice(0,-10):'/'+rel;};
-const provisionalBuziosBeach=route=>/^\/destinos\/buzios\/playas\/[^/]+\/$/.test(route);
+const officialBeachData=fs.readFileSync(path.join(root,'assets/js/buzios-beach-v2-data.js'),'utf8');
+const officialBeachRoutes=new Set([...officialBeachData.matchAll(/\"slug\":\s*\"([^\"]+)\"/g)].map(m=>'/destinos/buzios/playas/'+m[1]+'/'));
+const provisionalBuziosBeach=route=>/^\/destinos\/buzios\/playas\/[^/]+\/$/.test(route)&&!officialBeachRoutes.has(route);
 const indexable=f=>{const route=routeFor(f),html=fs.readFileSync(f,'utf8');return !/404\.html$/.test(f)&&!provisionalBuziosBeach(route)&&!redirects.has(route.replace(/\/$/,'')||'/')&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(html);};
 const indexableRoutes=new Set(files.filter(indexable).map(routeFor));
 const prefix=(route,lang)=>lang==='ES'?route:'/'+lang.toLowerCase()+route;
@@ -418,7 +420,7 @@ async function worker(){
       if(translated&&translated!==original)node.textContent=translated;
      }
     }
-    const isProvisionalBuziosBeach=r=>/^\/destinos\/buzios\/playas\/[^/]+\/$/.test(r);
+    const isProvisionalBuziosBeach=r=>/^\/destinos\/buzios\/playas\/[^/]+\/$/.test(r)&&!allRoutes.includes(r);
     const setMeta=(key,content,attribute=key.includes(':')?'property':'name')=>{let m=document.querySelector(`meta[property="${key}"],meta[name="${key}"]`);if(!m){m=document.createElement('meta');m.setAttribute(attribute,key);document.head.appendChild(m);}m.content=content;m.removeAttribute('data-ec-content');};
     if(seoCopy){
      document.title=seoCopy[0];
@@ -457,7 +459,8 @@ async function worker(){
     const sourceBase=document.querySelector('base[data-ec-build-base]').href;
     for(const el of document.querySelectorAll('[src],[href],[poster],[action]')){
      for(const attr of ['src','href','poster','action']){
-      const raw=el.getAttribute(attr);if(!raw||raw.startsWith('#')||/^(?:data:|mailto:|tel:|javascript:)/i.test(raw))continue;
+      const raw=el.getAttribute(attr);if(!raw||/^(?:data:|mailto:|tel:|javascript:)/i.test(raw))continue;
+      if(attr==='href'&&raw.startsWith('#')){el.setAttribute(attr,route+raw);continue;}
       const url=new URL(raw,sourceBase);
       if(url.origin===location.origin){
        const unlocalized=url.pathname.replace(/^\/(?:pt|en)(?=\/|$)/i,'')||'/';
@@ -517,6 +520,9 @@ async function worker(){
 }
 try{if(browser)await Promise.all(Array.from({length:Math.max(1,Math.min(3,Number(process.env.EC_BUILD_WORKERS||3)))},worker));}finally{if(browser)await browser.close().catch(error=>console.warn('Browser close after build:',error.message));server.close();}
 if(errors.length)throw Error(JSON.stringify(errors));
+// Preserve scoped Hostinger redirects and related navigation in future builds.
+if(fs.existsSync(path.join(root,'.htaccess')))fs.copyFileSync(path.join(root,'.htaccess'),path.join(out,'.htaccess'));
+execFileSync('python3',[path.join(root,'scripts/patch_gsc_hub_links.py'),out],{stdio:'inherit'});
 if(previous){const changed=new Set([...manifest.map(r=>r.route),...prunedRoutes]);manifest.push(...previous.routes.filter(r=>!changed.has(r.route)&&!deletedSourceRoutes.has(r.source)));}
 manifest.sort((a,b)=>a.route.localeCompare(b.route));
 const isPilot=previous?previous.pilot:!!pilot;

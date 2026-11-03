@@ -1,5 +1,6 @@
+import {localizedRestaurantPlan} from './translations/chunks/buzios-gsc-reviewed.js';
 import { buziosRestaurantProfiles } from './buzios-restaurant-profiles.js';
-import { buziosFoodPlaces } from './buzios-food-places.js';
+import { buziosFoodPlaces } from './buzios-food-places.js?v=20261103-gsc';
 
 const lang=location.pathname.match(/^\/(pt|en)(?=\/)/)?.[1]||'es';
 const root='/destinos/buzios/comer-y-salir/';
@@ -23,7 +24,7 @@ if(foodPlace){
   `Después de comer, yo organizo el siguiente tramo según la zona y no sobrecargo el itinerario. Desde ${area} puedo seguir con el paseo cercano si el grupo tiene energía; para regresar a otro barrio, defino el transporte antes de que termine la noche. Antes de pagar reviso la cuenta, el servicio y cualquier consumo adicional. Este pequeño orden me deja disfrutar la comida y cerrar la salida sin correr ni improvisar el regreso.`
  ];
  // Scope these paragraph translations to Madame Bardot; other profiles are unchanged.
- const localizedVisitPlan=foodPlace.slug==='madame-bardot'&&lang!=='es'?{
+ const localizedVisitPlan=foodPlace.visitPlan?.[lang]||(foodPlace.slug==='madame-bardot'&&lang!=='es'?{
   pt:[
    'Eu começaria confirmando o endereço e a entrada do Madame Bardot na Orla Bardot. Antes de sair, verificaria o mapa a partir da hospedagem e os horários atuais do restaurante.',
    'Para jantar com calma, perguntaria sobre mesas disponíveis, reserva e programação musical, sobretudo em fins de semana e feriados. Uma mesa com vista para o mar depende da disponibilidade, então vale pedir essa preferência sem presumir que esteja garantida.',
@@ -38,9 +39,10 @@ if(foodPlace){
    'With children, older travelers or anyone with dietary restrictions, I would check seating and ingredients with staff in advance. I would not assume substitutions are safe without confirmation from the restaurant.',
    'After the meal, I would enjoy Orla Bardot and Rua das Pedras if conditions allow. Before ending the evening, I would check the bill and arrange transport back to my accommodation.'
   ]
- }[lang]:visitPlan;
- const displayCuisine=foodPlace.slug==='madame-bardot'?(lang==='pt'?'Bar · gastronomia · coquetelaria':lang==='en'?'Bar · food · cocktails':foodPlace.cuisine):foodPlace.cuisine;
- const title=foodPlace.slug==='madame-bardot'?(lang==='pt'?name+': guia gastronômico em Búzios | Ernestinho Carioca':lang==='en'?name+': dining guide in Búzios | Ernestinho Carioca':name+': guía para comer en Búzios | Ernestinho Carioca'):`${name}: guía para comer en Búzios | Ernestinho Carioca`;
+ }[lang]:visitPlan);
+ if(foodPlace.archiveNote)t.note=pick(foodPlace.archiveNote);
+ const displayCuisine=foodPlace.cuisineLocalized?.[lang]||(foodPlace.slug==='madame-bardot'?(lang==='pt'?'Bar · gastronomia · coquetelaria':lang==='en'?'Bar · food · cocktails':foodPlace.cuisine):foodPlace.cuisine);
+ const title=foodPlace.slug==='madame-bardot'?(lang==='pt'?name+': guia gastronômico em Búzios | Ernestinho Carioca':lang==='en'?name+': dining guide in Búzios | Ernestinho Carioca':name+': guía para comer en Búzios | Ernestinho Carioca'):(lang==='pt'?`${name}: guia para comer em Búzios | Ernestinho Carioca`:lang==='en'?`${name}: dining guide in Búzios | Ernestinho Carioca`:`${name}: guía para comer en Búzios | Ernestinho Carioca`);
  const description=pick(foodPlace.description);
  document.documentElement.lang=lang==='pt'?'pt-BR':lang;document.title=title;
  document.querySelector('meta[name="description"]').content=description;
@@ -133,16 +135,16 @@ const addedHostingerPhotos={
 };
 const legacyPhotos=pescadoresPhotos.length?pescadoresPhotos:(addedHostingerPhotos[slug]||[]);
 const legacyInline=(i)=>legacyPhotos[i]?`<figure class="inline-photo"><img src="${esc(legacyPhotos[i])}" alt="${esc(name)} · ${i+1}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(i+1).padStart(2,'0')}</figcaption></figure>`:'';
-const photosLabel=legacyPhotos.length?`${legacyPhotos.length} fotografías del establecimiento`:'';
+const photosLabel=legacyPhotos.length?`${legacyPhotos.length} ${lang==='pt'?'fotografias do estabelecimento':lang==='en'?'photographs of the venue':'fotografías del establecimiento'}`:'';
 const pescadoresInline=(i)=>pescadoresPhotos[i]?`<figure class="inline-photo"><img src="${esc(pescadoresPhotos[i])}" alt="${esc(name)} · fotografía ${i+1}" loading="lazy" decoding="async"><figcaption>${esc(name)} · ${String(i+1).padStart(2,'0')}</figcaption></figure>`:'';
 const legacyFirstFive=new Set(['farinatta','altto','agaleria','tawa','macaw']).has(slug);
 const sections=[['identity',pick(p.intro)],['history',pick(p.history)],['ambience',pick(p.ambience)],['read',pick(p.read)],['order',pick(p.order)],['time',pick(p.time)],['advice',pick(p.advice)],['nearby',pick(p.nearby)]];
-const routePlan=[
+const routePlan=localizedRestaurantPlan(lang,name,pick(p.zone),pick(p.tags),[
  `Yo empezaría ubicando ${name} en el mapa desde el alojamiento y confirmando la dirección que publica el restaurante. La zona indicada es ${pick(p.zone)}; con ese dato calculo cuánto demora el traslado y si conviene llegar caminando, en taxi o por aplicación. Si la ficha o la reserva muestran otra referencia, confirmo directamente con la casa antes de organizar el resto del día.`,
  `La hora de la visita la elegiría después de comprobar el horario de cocina, no solo el horario general del local. Si quiero almorzar tras la playa, pregunto por vestimenta, último pedido y si el servicio de día está disponible. Para una cena, confirmo reserva, tiempo aproximado de mesa y condiciones para grupos. En los días de mayor movimiento, prefiero tener la respuesta antes de salir para evitar cambiar el plan en la puerta.`,
  `Al sentarme, yo miraría la propuesta de ${pick(p.tags)} y la carta vigente como una orientación para conversar con el equipo. Pregunto qué platos siguen disponibles, cuánto trae cada porción, cuáles son los acompañamientos y si una preparación puede compartirse. Si tengo una alergia o una restricción, la explico con precisión y consulto ingredientes y manipulación; no doy por hecho que una adaptación sea segura solo porque el plato parezca sencillo.`,
  `Para que la comida no quede aislada del viaje, yo seguiría la combinación cercana que describo en esta ficha y dejaría margen entre la reserva y cualquier actividad con horario fijo. Si una caminata, una subida o un trayecto largo forma parte del recorrido, considero la energía del grupo y la vuelta antes de decidir la hora. Así puedo disfrutar la mesa sin apresurar el servicio ni depender de encontrar transporte a último momento.`
-];
+]);
 const contact=[p.phone&&`${copy.phone}: ${p.phone}`,p.whatsapp&&`${copy.whatsapp}: ${p.whatsapp}`,p.website&&`${copy.web}: ${link(p.website,p.website)}`,p.instagram&&`${pick(p.instagramLabel)||copy.instagram}: ${link(p.instagram,p.instagram)}`].filter(Boolean);
 document.querySelector('#profile').innerHTML=`
   <nav class="back"><a href="${localized(root)}">${copy.back}</a><span>${['es','pt','en'].map(l=>`<a class="lang" href="${l==='es'?'':'/'+l}${root+routeSlug}/">${l.toUpperCase()}</a>`).join('')}</span></nav>

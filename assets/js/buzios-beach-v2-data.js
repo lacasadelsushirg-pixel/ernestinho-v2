@@ -1,3 +1,4 @@
+import labels from './translations/chunks/buzios-beach-labels.js';
 export const beachIndex=[
   {
     "slug": "geriba",
@@ -497,3 +498,11 @@ export const beachIndex=[
     "images": []
   }
 ];
+
+for (const beach of beachIndex) {
+ for (const key of ['profile','sea','access']) {
+  const value=beach[key];const translated=labels[value?.ES];
+  if(!translated)throw Error('Missing reviewed beach label: '+value?.ES);
+  value.PT=translated.PT;value.EN=translated.EN;
+ }
+}
