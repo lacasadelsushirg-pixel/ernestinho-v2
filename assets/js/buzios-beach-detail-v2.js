@@ -265,7 +265,7 @@ root.innerHTML = `<main class="beach-premium bz2-beach-page" id="contenido">
     ${photos[0] ? figure(photos[0],0,true) : ''}${quickFacts}
   </section>
   <div class="bp-shell">
-    <nav class="bp-toc" aria-label="${language === 'PT' ? 'Nesta guia' : language === 'EN' ? 'In this guide' : 'En esta guía'}">${L.toc.map((label,i)=>`<a href="#${ids[i]}">${label}</a>`).join('')}</nav>
+    <nav class="bp-toc" aria-label="${language === 'PT' ? 'Nesta guia' : language === 'EN' ? 'In this guide' : 'En esta guía'}">${L.toc.map((label,i)=>`<a href="${window.location.pathname}#${ids[i]}">${label}</a>`).join('')}</nav>
     ${section(0,`<h3>${escape(L.identity)}</h3><p>${escape(N.life1)}</p><p>${escape(N.life2)}</p><p>${escape(N.life3)}</p><aside class="bp-tip bp-tip--gold"><p class="bp-tip__label">${L.tip}</p><p>${escape(decision || introDecision)}</p></aside>`,'deep')}
     ${picture(0)}
     ${section(1,`<p>${escape(N.activities)}</p><p>${escape(N.activity2)}</p><h3>${escape(activityHeading)}</h3>${activityCards}`,'sand')}

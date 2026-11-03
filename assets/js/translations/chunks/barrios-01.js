@@ -1,3 +1,4 @@
+import gscReviewed from './gsc-reviewed-20261102.js';
 // Exact ES-to-PT/EN phrase translations.
 export default {
   "Almuerzo": {
@@ -2900,4 +2901,5 @@ export default {
     "PT": "CADEG →",
     "EN": "CADEG →"
   }
+,...gscReviewed
 };

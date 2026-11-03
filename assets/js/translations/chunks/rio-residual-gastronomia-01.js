@@ -1,3 +1,4 @@
+import gscReviewed from './gsc-reviewed-20261102.js';
 export default {
   "La casa aparece con numeraciones distintas en publicaciones antiguas. Los canales recientes sitúan la unidad en Rua Barão de Iguatemi 379; confirma la puerta al reservar.": { PT: "O restaurante aparece com números diferentes em publicações antigas. Os canais recentes indicam a unidade na Rua Barão de Iguatemi, 379; confirme a entrada ao reservar.", EN: "Older listings give different street numbers for the restaurant. Recent channels place it at Rua Barão de Iguatemi, 379; confirm the entrance when booking." },
   "Esta parada tiene más sentido si aprovechas para caminar por el barrio y conocer el entorno, en lugar de depender de un único restaurante para toda la salida. Comprueba las opciones de transporte de regreso si terminas tarde.": { PT: "Esta parada faz mais sentido se você aproveitar para caminhar pelo bairro e conhecer a região, em vez de depender de um único restaurante durante todo o passeio. Confira as opções de transporte para voltar se terminar tarde.", EN: "This stop makes more sense as part of a walk around the neighborhood than as the only destination for your outing. Check return transport options if you finish late." },
@@ -781,4 +782,5 @@ export default {
 "🌐 Sitio": {"PT": "🌐 Site", "EN": "🌐 Website"},
 "🌐 Sitio web": {"PT": "🌐 Site", "EN": "🌐 Website"},
 "Sitio oficial de Sushi Leblon · Pedidos online": {"PT": "Site oficial do Sushi Leblon · Pedidos online", "EN": "Sushi Leblon official website · Online ordering"},
+...gscReviewed
 };

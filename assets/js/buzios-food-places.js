@@ -1,3 +1,4 @@
+import {summaryTranslations,reviewedFoodPlaces,featuredShortTranslations} from './translations/chunks/buzios-gsc-reviewed.js';
 import { buziosFoodImagePaths } from './buzios-food-images.js';
 import { buziosFoodNewImagePaths } from './buzios-food-new-images.js';
 const allFoodImagePaths=[...buziosFoodImagePaths,...buziosFoodNewImagePaths];
@@ -66,3 +67,13 @@ export const buziosFoodPlaces=raw.map(([slug,name,zone,cuisine,short,description
  return item;
 });
 function folderSlug(slug){return ({'belli-belli':'BELLI BELLI','resto-canto':'RESTO CANTO','mistico':'MISTICO','chamas-buzios':'CHAMAS BUZIOS','mr-waiz':'MR WAIZ','nami':'NAMI','chez-michou':'CHEZ MICHOU','sushi-bardot':'SUSHI BARDOT','casa-blanca':'CASA BLANCA','primitivo':'PRIMITIVO','bar-do-ze':'BAR DO ZE','rocka':'ROCKA','madame-bardot':'MADAME BARDOT','buzin':'BUZIN','fishbone':'FISHBONE','bananaland':'BANANALAND','pimenta-siria':'PIMIENTA SIRIA','chilenazo':'CHILENAZO','maria-italiana':'MARIA ITALIANA','santo-cozy':'SANTO COZY','cafe-porteno':'CAFE PORTEÑO','buda-beach':'BUDA','clube-da-sfiha':'CLUBE DA SFIHA','restaurante-do-david':'RESTAURANTE DO DAVID','patio-michou':'PATIO MICHOU','huna-bistro':'HUNA BISTRO','sanse':'SANSE','noi':'NOI','quintal-dos-buzios':'QUINTAL DOS BUZIOS','mayam':'MAYAM','la-gare':'LA GARE','balthazar-bakery':'BALTHAZAR BAKERY'})[slug];}
+
+for (const place of buziosFoodPlaces) {
+ const summary=summaryTranslations[place.slug];
+ if(summary){
+  if(place.description.pt===place.description.es)place.description.pt=summary[0];
+  if(place.description.en===place.description.es)place.description.en=summary[1];
+ }
+ if(featuredShortTranslations[place.slug])Object.assign(place.short,featuredShortTranslations[place.slug]);
+ if(reviewedFoodPlaces[place.slug])Object.assign(place,reviewedFoodPlaces[place.slug]);
+}
