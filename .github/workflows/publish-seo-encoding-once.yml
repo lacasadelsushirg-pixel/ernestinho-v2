@@ -1,0 +1,43 @@
+name: Publish verified 91 SEO encoding fixes (one file, reversible)
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/publish-seo-encoding-once.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    env:
+      HEAD_BRANCH: ${{ github.head_ref }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install isolated upload prerequisites
+        run: python3 -m pip install --quiet --break-system-packages cryptography requests
+      - name: Generate private ephemeral RSA key on runner
+        run: |
+          openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:3072 -out /tmp/ec-index-seo-key.pem 2>/dev/null
+          openssl pkey -in /tmp/ec-index-seo-key.pem -pubout -out ec-index-seo-public-key.pem 2>/dev/null
+      - name: Publish harmless public key artifact for one-time encrypted Hostinger authorization
+        uses: actions/upload-artifact@v4
+        with:
+          name: ec-index-seo-temporary-public-key
+          path: ec-index-seo-public-key.pem
+          retention-days: 1
+      - name: Reconcile existing production, backup, patch one JS and verify
+        run: python3 -u scripts/publish_seo_encoding_fix.py
+      - name: Save old JS and proof (on failure also)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-91-encoding-fixes-backup-and-proof
+          path: seo-encoding-publication-evidence/
+          retention-days: 10
+          if-no-files-found: warn
