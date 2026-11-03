@@ -1,4 +1,4 @@
-import { buziosFoodPlaces } from './buzios-food-places.js';
+import { buziosFoodPlaces } from './buzios-food-places.js?v=20261103-gsc';
 import { buziosRestaurantProfiles } from './buzios-restaurant-profiles.js';
 
 export function apply(){

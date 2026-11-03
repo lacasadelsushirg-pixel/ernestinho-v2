@@ -30,3 +30,19 @@ for route,targets in mappings.items():
  assert '</body>'in text,str(path)
  text=text.replace('</body>',nav+'</body>',1);path.write_text(text)
  print(route)
+
+# Refresh changed renderers while preserving site.js and Carioc-IA.
+for path in ROOT.rglob("index.html"):
+ text=path.read_text();updated=text
+ for entry in ['buzios-beach-detail-v2.js','buzios-restaurant-profile-view.js','buzios-food-guide.js']:
+  pattern=r"(src=[\"'][^\"']*"+re.escape(entry)+r")(?:\?[^\"']*)?([\"'])"
+  updated=re.sub(pattern,lambda m:m[1]+'?v=20261103-gsc'+m[2],updated)
+ if updated!=text:path.write_text(updated)
+
+# The standalone restaurant renderer does not import the common text translator.
+for path in ROOT.rglob("index.html"):
+ text=path.read_text();route='/'+str(path.relative_to(ROOT))
+ if 'buzios-restaurant-profile-view.js' not in text:continue
+ label='Guia independente de Búzios' if route.startswith('/pt/') else 'Independent guide to Búzios' if route.startswith('/en/') else 'Guía independiente de Búzios'
+ updated=text.replace('Guía independiente de Búzios',label)
+ if updated!=text:path.write_text(updated)

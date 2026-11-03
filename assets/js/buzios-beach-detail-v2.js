@@ -1,5 +1,5 @@
 import { getLanguage } from '/assets/js/i18n.js';
-import { beachIndex } from '/assets/js/buzios-beach-v2-data.js';
+import { beachIndex } from '/assets/js/buzios-beach-v2-data.js?v=20261103-gsc';
 import { beachProfiles } from '/assets/js/buzios-beaches.js';
 import { beachDecisions } from '/assets/js/buzios-beach-decisions.js';
 import { beachCompletion } from '/assets/js/buzios-beach-content.js';

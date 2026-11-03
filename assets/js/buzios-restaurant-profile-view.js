@@ -1,6 +1,6 @@
 import {localizedRestaurantPlan} from './translations/chunks/buzios-gsc-reviewed.js';
 import { buziosRestaurantProfiles } from './buzios-restaurant-profiles.js';
-import { buziosFoodPlaces } from './buzios-food-places.js';
+import { buziosFoodPlaces } from './buzios-food-places.js?v=20261103-gsc';
 
 const lang=location.pathname.match(/^\/(pt|en)(?=\/)/)?.[1]||'es';
 const root='/destinos/buzios/comer-y-salir/';
