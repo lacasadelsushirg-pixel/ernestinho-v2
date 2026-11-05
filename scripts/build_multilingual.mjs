@@ -314,6 +314,8 @@ async function worker(){
     // The specialized food catalogue owns this route after the shared Búzios renderer.
     const foodGuide=scripts.find(s=>new URL(s.src).pathname.endsWith('/assets/js/buzios-food-guide.js'));
     if(foodGuide)(await import(foodGuide.src)).apply(language);
+    const buziosAdvice=scripts.find(s=>new URL(s.src).pathname.endsWith('/assets/js/buzios-advice.js'));
+    if(buziosAdvice)(await import(buziosAdvice.src)).apply();
     for(const name of ['luggage-page.js','bounce-integration.js']){const script=scripts.find(s=>s.src.endsWith('/assets/js/'+name));if(script)(await import(script.src)).apply(language);}
     await new Promise(r=>setTimeout(r,80));
     if(typeof window.ecApplyPracticalSummaryLocale==="function")window.ecApplyPracticalSummaryLocale(language);
