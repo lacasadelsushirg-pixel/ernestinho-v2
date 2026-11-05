@@ -17,3 +17,5 @@ Pendiente del encargo integral: continuar la comparación y corrección de las d
 Conservación adicional: la rama incorpora el archivo de verificación de Google y la excepción ya aprobada para copiarlo de forma estática, sin variantes de idioma ni entradas de sitemap. Las publicaciones de este lote no lo sustituyen.
 
 Publicación comprobada por SHA-256: seis HTML y los dos módulos propios. El ajuste final del encabezado de alquiler se publica como una sustitución protegida de sus tres HTML y su módulo, conservando el respaldo original.
+
+Cierre en producción: 12 de 12 comprobaciones correctas, con ambos artículos en ES/PT-BR/EN a 1440 y 390 px. La revisión interrumpida de inglés se completó con dos casos adicionales, sin repetir los diez ya correctos. Se conserva evidencia unificada en el registro de comprobaciones.
