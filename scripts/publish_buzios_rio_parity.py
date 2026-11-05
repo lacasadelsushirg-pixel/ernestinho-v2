@@ -1,6 +1,6 @@
 """Publish only the reviewed Búzios release plan, with per-file concurrency protection."""
 import argparse,pathlib,json,hashlib,urllib.parse,concurrent.futures,requests,zipfile,threading,time
-ap=argparse.ArgumentParser();ap.add_argument('--release',required=True);ap.add_argument('--auth',required=True);ap.add_argument('--publish',action='store_true');args=ap.parse_args()
+ap=argparse.ArgumentParser();ap.add_argument('--release',required=True);ap.add_argument('--auth',required=True);ap.add_argument('--publish',action='store_true');ap.add_argument('--resume-manifest');args=ap.parse_args()
 r=pathlib.Path(args.release);plan=json.loads((r/'release-plan.json').read_text());stage=r/'stage'
 assert len([x for x in plan if x.get('photo')])==3
 assert all(x['path'].startswith(('assets/','destinos/buzios/','pt/destinos/buzios/','en/destinos/buzios/'))for x in plan)
@@ -28,6 +28,14 @@ assert len(qa_shell)==84
 qa+=list(qa_shell.values())
 assert not any(x['scroll']>x['width'] or x['errors'] or ('/destinos/buzios/' in x['path']and(x['nav']!=1 or x['footer']!=1))or('/destinos/buzios/fotografias/' in x['path']and(x['cards']!=12 or x['broken'])) for x in qa),'QA failed'
 manifest={'written':[],'failed':[],'planned':len(plan)}
+if args.resume_manifest:
+ prior=json.loads(pathlib.Path(args.resume_manifest).read_text())
+ allowed={x['path'] for x in plan}
+ for row in prior['written']:
+  assert row['path'] in allowed and row['sha256']==sha((stage/row['path']).read_bytes())
+  manifest['written'].append(row)
+completed={x['path'] for x in manifest['written']}
+assert len(completed)==len(manifest['written'])
 manifestpath=r/'publication.json'
 def save():manifestpath.write_text(json.dumps(manifest,indent=2))
 headers={'X-Auth':cred['auth_key'],'X-Auth-Rest':cred['rest_auth_key'],'Tus-Resumable':'1.0.0'}
@@ -55,11 +63,13 @@ order=['assets/css/buzios-photography.css','assets/js/buzios-photography.js','as
 assets.sort(key=lambda x:order.index(x['path'])if x['path']in order else 20)
 try:
  for x in assets:
+  if x['path'] in completed:continue
   manifest['written'].append(put(x));save();print('ASSET',x['path'],flush=True)
  groups=sorted(set(x['group']for x in plan)-{'00-assets'},key=lambda x:(x!='fotografias',x))
  with concurrent.futures.ThreadPoolExecutor(max_workers=4)as pool:
   for group in groups:
-   rows=[x for x in plan if x['group']==group]
+   rows=[x for x in plan if x['group']==group and x['path'] not in completed]
+   if not rows:continue
    # Reuse HTTP connections and workers, while verifying one section at a time.
    for result in pool.map(put,rows):manifest['written'].append(result);save()
    print('SECTION VERIFIED',group,len(rows),'total',len(manifest['written']),flush=True)

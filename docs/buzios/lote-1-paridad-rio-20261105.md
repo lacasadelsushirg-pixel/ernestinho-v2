@@ -42,3 +42,7 @@ La publicación emplea un plan explícito, respaldo de los bytes previos, compar
 Este lote no completa las trece secciones. Quedan la adaptación de las plantillas de Guía práctica y sus artículos (incluida la equivalencia de vacunas), Consejos con todos los temas aplicables y los ocho artículos prioritarios, y la comparación/corrección completa de las demás secciones contra Río. No se declara paridad visual de esas secciones por haber corregido el encabezado.
 
 No falta una fotografía para estas doce tarjetas. Las galerías o puntos adicionales requieren identificar primero el material ya inventariado; no se solicitan ni descargan fotografías nuevas.
+
+## Cierre de publicación
+
+444 archivos comprobados en Hostinger: nueve recursos compartidos de Búzios, tres páginas de Fotografía reconstruidas y 432 páginas con cambio exclusivo de referencias de scripts. Respaldo previo: 441 archivos existentes. Validación común: 84 casos; validación visual y páginas de muestra: 32 casos; Fotografía en producción: seis casos, todos correctos. El repositorio conserva esta implementación en una rama independiente, sin merge ni cambios en Río o Carioc-IA.
