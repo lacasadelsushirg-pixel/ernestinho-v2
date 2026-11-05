@@ -77,7 +77,9 @@ const configs=JSON.parse(fs.readFileSync(path.join(root,'vercel.json')));
 const redirects=new Set(configs.redirects.map(r=>r.source.replace(/\/$/,'')||'/'));
 const ignore=new Set(['.git','node_modules','dist','.vercel','docs','scripts','upload']);
 function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>ignore.has(e.name)?[]:e.isDirectory()?walk(path.join(dir,e.name)):e.name.endsWith('.html')?[path.join(dir,e.name)]:[]);}
-const files=walk(root).sort();
+// Ownership tokens stay static and must never become localized pages.
+const isGoogleVerification=f=>path.dirname(f)===root&&/^google[a-f0-9]+\.html$/i.test(path.basename(f));
+const files=walk(root).filter(f=>!isGoogleVerification(f)).sort();
 const routeFor=f=>{const rel=path.relative(root,f).replaceAll(path.sep,'/');return rel==='index.html'?'/':rel.endsWith('/index.html')?'/'+rel.slice(0,-10):'/'+rel;};
 const officialBeachData=fs.readFileSync(path.join(root,'assets/js/buzios-beach-v2-data.js'),'utf8');
 const officialBeachRoutes=new Set([...officialBeachData.matchAll(/\"slug\":\s*\"([^\"]+)\"/g)].map(m=>'/destinos/buzios/playas/'+m[1]+'/'));
@@ -215,7 +217,7 @@ fs.mkdirSync(out,{recursive:true});
 function copy(dir,dest){for(const e of fs.readdirSync(dir,{withFileTypes:true})){
  if(ignore.has(e.name)||e.name.startsWith('.')||['package.json','package-lock.json','AGENTS.md','README.md','vercel.json','sitemap.xml'].includes(e.name))continue;
  const from=path.join(dir,e.name),to=path.join(dest,e.name);
- if(e.isDirectory()){fs.mkdirSync(to,{recursive:true});copy(from,to);}else if(!e.name.endsWith('.html'))fs.copyFileSync(from,to);
+ if(e.isDirectory()){fs.mkdirSync(to,{recursive:true});copy(from,to);}else if(!e.name.endsWith('.html')||isGoogleVerification(from))fs.copyFileSync(from,to);
 }}
 copy(root,out);
 for(const route of deletedSourceRoutes)for(const language of ['ES','PT','EN']){
@@ -329,7 +331,8 @@ async function worker(){
     if(foodGuide)(await import(foodGuide.src)).apply(language);
     const buziosAdvice=scripts.find(s=>new URL(s.src).pathname.endsWith('/assets/js/buzios-advice.js'));
     if(buziosAdvice)(await import(buziosAdvice.src)).apply();
-    for(const name of ['luggage-page.js','bounce-integration.js','buzios-rental-adn.js']){const script=scripts.find(s=>s.src.endsWith('/assets/js/'+name));if(script)(await import(script.src)).apply(language);}
+    const rentalAdn=scripts.find(s=>new URL(s.src).pathname.endsWith('/assets/js/buzios-rental-adn.js'));if(rentalAdn)(await import(rentalAdn.src)).apply();
+    for(const name of ['luggage-page.js','bounce-integration.js']){const script=scripts.find(s=>s.src.endsWith('/assets/js/'+name));if(script)(await import(script.src)).apply(language);}
     await new Promise(r=>setTimeout(r,80));
     if(typeof window.ecApplyPracticalSummaryLocale==="function")window.ecApplyPracticalSummaryLocale(language);
     // These legacy gastronomy profiles use an independent inline D dictionary.

@@ -4,7 +4,8 @@ ap=argparse.ArgumentParser();ap.add_argument('--release',required=True);ap.add_a
 assets=['assets/js/buzios-season-tabs.js','assets/js/buzios-rental-adn.js']
 for rel in assets:
  target=stage/rel;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(pathlib.Path(rel).read_bytes())
-paths=assets+sorted(str(x.relative_to(stage))for x in stage.rglob('index.html'));assert len(paths)==8 and all(p in assets or any('/destinos/buzios/guia/'+s+'/index.html'in '/'+p for s in ['mes-a-mes','alquiler-auto'])for p in paths)
+polish=(r/'polish-only').exists()
+paths=(['assets/js/buzios-rental-adn.js']+[pre+'destinos/buzios/guia/alquiler-auto/index.html'for pre in ['','pt/','en/']])if polish else assets+sorted(str(x.relative_to(stage))for x in stage.rglob('index.html'));expected=4 if polish else 8;assert len(paths)==expected and all(p in assets or any('/destinos/buzios/guia/'+s+'/index.html'in '/'+p for s in ['mes-a-mes','alquiler-auto'])for p in paths)
 sha=lambda b:hashlib.sha256(b).hexdigest()
 def get(p):
  for i in range(3):
@@ -21,12 +22,12 @@ if not bp.exists():
   status,b=get(p);assert status==200 or p in assets and status==404,p;dest=before/p;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(b);return {'path':p,'old':sha(b)if status==200 else None,'new':sha((stage/p).read_bytes())}
  with concurrent.futures.ThreadPoolExecutor(max_workers=3)as pool:rows=list(pool.map(capture,paths))
  bp.write_text(json.dumps(rows,indent=2))
-rows=json.loads(bp.read_text());assert len(rows)==8
+rows=json.loads(bp.read_text());assert len(rows)==expected
 with zipfile.ZipFile(r/'respaldo-mes-a-mes-alquiler-auto.zip','w',zipfile.ZIP_DEFLATED)as z:
  for row in rows:
   if row['old']:
    b=(before/row['path']).read_bytes();assert sha(b)==row['old'];z.write(before/row['path'],row['path'])
-print('6 existing pages backed up; two dedicated scripts; no sitemap or shared asset writes',flush=True)
+print(str(len(rows))+' scoped targets; '+str(sum(bool(x['old'])for x in rows))+' existing files backed up; no sitemap or shared asset writes',flush=True)
 if not a.publish:raise SystemExit(0)
 qa=json.loads((r/'qa/results.json').read_text());assert len(qa)==12
 assert all(x['width']==x['scroll']and x['nav']==1 and x['footer']==1 and not x['errors']and not x['broken']and len(x['h1'])==1 and not x['expired']for x in qa)
@@ -44,12 +45,13 @@ def upload(row):
    assert x.status==(201 if method=='POST'else 204),(p,x.status)
  status,check=get(p);assert sha(check)==row['new'],'Public-byte check failed '+p
  return dict(row,state='published-and-verified')
-for row in rows[:2]:
+resource_count=1 if polish else 2
+for row in rows[:resource_count]:
  manifest['written'].append(upload(row));(r/'publication.json').write_text(json.dumps(manifest,indent=2));print('Published controller',row['path'],flush=True)
 with concurrent.futures.ThreadPoolExecutor(max_workers=3)as pool:
- futures={pool.submit(upload,row):row for row in rows[2:]}
+ futures={pool.submit(upload,row):row for row in rows[resource_count:]}
  for f in concurrent.futures.as_completed(futures):
   try:result=f.result();manifest['written'].append(result);print(result['state'],result['path'],flush=True)
   except Exception as e:manifest['failed'].append({'path':futures[f]['path'],'error':str(e)});print('FAILED',str(e),flush=True)
   (r/'publication.json').write_text(json.dumps(manifest,indent=2))
-assert not manifest['failed']and len(manifest['written'])==8
+assert not manifest['failed']and len(manifest['written'])==expected
