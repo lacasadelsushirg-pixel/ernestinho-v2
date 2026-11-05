@@ -15,3 +15,7 @@ Se respaldan los 18 HTML de producción antes de reemplazarlos. El publicador co
 `check_frozen_pages.py` conserva los fallos históricos de la propia base, ya documentados en el primer lote. Ningún archivo protegido de Río cambia respecto a esa base; no se revierte material aprobado para hacer pasar ese control.
 
 Pendientes del encargo integral: comprobar el resto de secciones contra Río, completar los demás temas de Consejos, adaptar Mes a mes y Alquiler de auto si la comparación de sus plantillas lo requiere y cerrar el inventario único de fotos al terminar todo el trabajo. Este lote no declara finalizada toda la guía de Búzios.
+
+## Cierre comprobado
+
+Publicados y verificados por SHA-256 los 18 HTML previstos. La revisión directa en producción completó 36 casos (ES/PT-BR/EN a 1440/390 px), todos correctos. Las 12 comparaciones de componentes con sus equivalentes de Río no muestran diferencias. El lote anterior de Consejos y Guía permanece publicado. No se modificó el sitemap ni se hizo una compilación global.
