@@ -1,3 +1,4 @@
+import './buzios-shell.js?v=20261105-rio-parity';
 import {localizedRestaurantPlan} from './translations/chunks/buzios-gsc-reviewed.js';
 import { buziosRestaurantProfiles } from './buzios-restaurant-profiles.js';
 import { buziosFoodPlaces } from './buzios-food-places.js?v=20261103-gsc';

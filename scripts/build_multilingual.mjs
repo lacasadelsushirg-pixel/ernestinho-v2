@@ -191,6 +191,7 @@ const server=http.createServer((req,res)=>{
    html=html.replace('src="https://cdn.tailwindcss.com"','src="https://cdn.tailwindcss.com/3.4.17"')
      .replace('src="https://unpkg.com/react@18/','src="https://unpkg.com/react@18.3.1/')
      .replace('src="https://unpkg.com/react-dom@18/','src="https://unpkg.com/react-dom@18.3.1/');
+   if(sourcePath.startsWith('/destinos/buzios/'))html=html.replace(/(buzios-(?:page|beach-hub-v2|beach-detail-v2|restaurant-profile-view)\.js)(?:\?[^\"']*)?/g,'$1?v=20261105-rio-parity');
    // Base resolves original relative modules/assets against the unchanged ES tree.
    html=html.replace(/<head>/i,`<head><base data-ec-build-base href="${sourcePath}">${bootstrap}`);
    // Prevent aliases navigating away before the build can preserve their redirect.
