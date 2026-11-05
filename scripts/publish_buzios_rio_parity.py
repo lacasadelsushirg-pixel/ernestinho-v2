@@ -18,6 +18,10 @@ with zipfile.ZipFile(r/'rollback-buzios-parity.zip','w',zipfile.ZIP_DEFLATED)as 
 print('Backup verified:',sum(bool(x['old'])for x in plan),'existing files; scoped plan:',len(plan),flush=True)
 if not args.publish:raise SystemExit('Dry run; zero remote writes')
 qa=json.loads((r/'qa-release/results.json').read_text())
+qa_shell={(x['path'],x['width']):x for x in json.loads((r/'qa-shell/results.json').read_text())}
+for x in json.loads((r/'qa-wrap/results.json').read_text()):qa_shell[(x['path'],x['width'])]=x
+assert len(qa_shell)==84
+qa+=list(qa_shell.values())
 assert not any(x['scroll']>x['width'] or x['errors'] or ('/destinos/buzios/' in x['path']and(x['nav']!=1 or x['footer']!=1))or('/destinos/buzios/fotografias/' in x['path']and(x['cards']!=12 or x['broken'])) for x in qa),'QA failed'
 manifest={'written':[],'failed':[],'planned':len(plan)}
 manifestpath=r/'publication.json'
