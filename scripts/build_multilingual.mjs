@@ -7,6 +7,7 @@ import {execFileSync} from 'node:child_process';
 import {loadBuildLibraries} from './build_vendor.mjs';
 import {buildBrowserOptions} from './build_browser.mjs';
 import {SEO_METADATA} from '../assets/js/seo-metadata.js';
+import {renderBuziosGuideArticle,guideArticleRoutes} from './build_buzios_guide_articles.mjs';
 import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/translations/chunks/experiencias-standalone.js';
 import {SHORTCOPY_TRANSLATIONS} from './editorial_shortcopy_translations.mjs';
 const require=createRequire(import.meta.url);
@@ -278,6 +279,11 @@ async function worker(){
     continue;
    }
    const source=fs.readFileSync(target.file,'utf8');
+   if(source.includes('data-bz-guide-article=')&&guideArticleRoutes.includes(target.route)){
+    const destination=path.join(out,route.slice(1)+'index.html');fs.mkdirSync(path.dirname(destination),{recursive:true});
+    fs.writeFileSync(destination,renderBuziosGuideArticle(target.route,target.language));
+    manifest.push({route,source:target.route,language:target.language,indexable:true,generated:true});continue;
+   }
    const alias=source.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(alias){
     const destination=new URL(alias[0].match(/url=([^"'>]+)/i)[1],base+target.route);
