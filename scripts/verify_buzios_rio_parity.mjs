@@ -5,6 +5,7 @@ import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
 const run=promisify(execFile), cache=new Map();
 const smoke=process.env.EC_QA_SMOKE==='1';
+const base=process.env.EC_QA_BASE||'http://127.0.0.1:8766';
 const out=process.env.EC_QA_OUTPUT||'/tmp/buzios-parity-qa';fs.mkdirSync(out,{recursive:true});
 const browser=await chromium.launch(await buildBrowserOptions());
 const context=await browser.newContext();
@@ -23,7 +24,7 @@ for(const width of [1440,390]){
  for(const locale of ['','pt/','en/'])for(const path of (process.env.EC_QA_TARGET?[process.env.EC_QA_TARGET]:smoke?['','guia/','experiencias/','comer-y-salir/','que-hacer/','playas/','barrios/','transportes/','consejos/','eventos/','vida-nocturna/','alojamiento/','comer-y-salir/rocka/','barrios/tartaruga/'].map(s=>'destinos/buzios/'+s):['fotografia/','destinos/buzios/fotografias/','destinos/buzios/','destinos/buzios/guia/','destinos/buzios/playas/','destinos/buzios/playas/rasa/'])){
   if(locale&&path==='fotografia/')continue;
   const errors=[];p.on('pageerror',e=>errors.push(e.message));
-  await p.goto('http://127.0.0.1:8766/'+locale+path,{waitUntil:'networkidle',timeout:90000});
+  await p.goto(base+'/'+locale+path,{waitUntil:'networkidle',timeout:90000});
   await p.addStyleTag({content:'html{scroll-behavior:auto!important}'});
   await p.evaluate(()=>document.querySelectorAll('img').forEach(i=>i.loading='eager'));
   if(!smoke)await p.evaluate(async()=>{for(let y=0;y<document.body.scrollHeight;y+=800){scrollTo({top:y,behavior:'instant'});await new Promise(r=>setTimeout(r,35));}await Promise.race([Promise.all([...document.images].map(i=>i.decode().catch(()=>{}))),new Promise(r=>setTimeout(r,40000))]);scrollTo({top:0,behavior:'instant'});});
