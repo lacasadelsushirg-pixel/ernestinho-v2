@@ -8,6 +8,7 @@ import {loadBuildLibraries} from './build_vendor.mjs';
 import {buildBrowserOptions} from './build_browser.mjs';
 import {SEO_METADATA} from '../assets/js/seo-metadata.js';
 import {renderBuziosGuideArticle,guideArticleRoutes} from './build_buzios_guide_articles.mjs';
+import {renderBuziosSeasonRental,seasonRentalRoutes} from './build_buzios_season_rental.mjs';
 import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/translations/chunks/experiencias-standalone.js';
 import {SHORTCOPY_TRANSLATIONS} from './editorial_shortcopy_translations.mjs';
 const require=createRequire(import.meta.url);
@@ -101,7 +102,7 @@ const deletedSourceRoutes=new Set();
 let incrementalRoutes=null;
 let requiresFull=process.argv.includes('--full')||!liveManifest;
 // Runtime-only modules are copied during incremental builds; they don't require rerendering every locale page.
-const runtimeOnlyJsAssets=new Set(['assets/js/site.js','assets/js/bulk-photo-references.js']);
+const runtimeOnlyJsAssets=new Set(['assets/js/site.js','assets/js/bulk-photo-references.js','assets/js/buzios-rental-adn.js','assets/js/buzios-season-tabs.js']);
 if(liveManifest&&!manualUpdating&&!requiresFull){
  const baseCommit=liveManifest.sourceCommit||'34a2e081f39d95245f6720a1fb3296bde3f5891d';
  let changes;
@@ -129,13 +130,14 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  }
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
+  if(file==='assets/data/buzios-season-rental.json'||file==='scripts/build_buzios_season_rental.mjs'){routes.add('/destinos/buzios/guia/mes-a-mes/');continue;}
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
   }
   if(file==='assets/js/buzios-food-guide.js'){
    routes.add('/destinos/buzios/comer-y-salir/');continue;
   }
-  if(/^assets\/js\/buzios-[^/]+\.js$/.test(file)||file==='assets/css/buzios.css'){allBuzios=true;continue;}
+  if((/^assets\/js\/buzios-[^/]+\.js$/.test(file)&&!runtimeOnlyJsAssets.has(file))||file==='assets/css/buzios.css'){allBuzios=true;continue;}
   if(file.endsWith('.html')){const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;}
   if((/^assets\/js\/.+\.js$/.test(file)&&!runtimeOnlyJsAssets.has(file)&&!/^assets\/js\/carioc-ia(?:-[a-z-]+)?\.js$/.test(file))||file==='package.json'||file==='package-lock.json'){fullRequired=true;continue;}
  }
@@ -279,6 +281,11 @@ async function worker(){
     continue;
    }
    const source=fs.readFileSync(target.file,'utf8');
+   if(source.includes('data-bz-season-rental=')&&seasonRentalRoutes.includes(target.route)){
+    const destination=path.join(out,route.slice(1)+'index.html');fs.mkdirSync(path.dirname(destination),{recursive:true});
+    fs.writeFileSync(destination,renderBuziosSeasonRental(target.route,target.language));
+    manifest.push({route,source:target.route,language:target.language,indexable:true,generated:true});continue;
+   }
    if(source.includes('data-bz-guide-article=')&&guideArticleRoutes.includes(target.route)){
     const destination=path.join(out,route.slice(1)+'index.html');fs.mkdirSync(path.dirname(destination),{recursive:true});
     fs.writeFileSync(destination,renderBuziosGuideArticle(target.route,target.language));
@@ -322,7 +329,7 @@ async function worker(){
     if(foodGuide)(await import(foodGuide.src)).apply(language);
     const buziosAdvice=scripts.find(s=>new URL(s.src).pathname.endsWith('/assets/js/buzios-advice.js'));
     if(buziosAdvice)(await import(buziosAdvice.src)).apply();
-    for(const name of ['luggage-page.js','bounce-integration.js']){const script=scripts.find(s=>s.src.endsWith('/assets/js/'+name));if(script)(await import(script.src)).apply(language);}
+    for(const name of ['luggage-page.js','bounce-integration.js','buzios-rental-adn.js']){const script=scripts.find(s=>s.src.endsWith('/assets/js/'+name));if(script)(await import(script.src)).apply(language);}
     await new Promise(r=>setTimeout(r,80));
     if(typeof window.ecApplyPracticalSummaryLocale==="function")window.ecApplyPracticalSummaryLocale(language);
     // These legacy gastronomy profiles use an independent inline D dictionary.
