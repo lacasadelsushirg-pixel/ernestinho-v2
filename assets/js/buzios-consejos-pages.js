@@ -2035,5 +2035,5 @@ export const buziosConsejosIndex={
  description:T('Guía de consejos para Búzios con 20 recomendaciones, 50 respuestas, errores a evitar, supermercados, barracas, lluvia, itinerarios y atardeceres.','Guia de dicas de Búzios com 20 recomendações, 50 respostas, erros comuns, supermercados, barracas, chuva, roteiros e pôr do sol.','A Búzios tips guide with 20 recommendations, 50 answers, common mistakes, groceries, beach kiosks, rain plans, itineraries and sunsets.'),
  intro:T('Ocho guías prácticas para decidir mejor antes y durante el viaje, con información específica de Búzios.','Oito guias práticos para decidir melhor antes e durante a viagem, com informação específica de Búzios.','Eight practical guides to help make better decisions before and during your Búzios trip.'),
  sections:[{title:T('Explora los consejos por tema','Explore as dicas por assunto','Explore tips by topic'),lead:T('Entra en cada guía para ver recomendaciones concretas.','Abra cada guia para recomendações concretas.','Open each guide for actionable advice.'),
- items:specs.map(p=>({title:tx(p.title),text:tx(p.desc),href:ROOT+p.slug+'/',photo:p.hero}))}]
+ items:specs.map(p=>({title:tx(p.title),text:tx(p.desc),href:ROOT+p.slug+'/',photo:{src:p.hero,name:p.title[0],alt:tx(p.title),width:1200,height:800}}))}]
 };

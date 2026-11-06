@@ -1,3 +1,4 @@
+import { buziosSeguroPage } from './buzios-seguro-content.js?v=20261106-1';
 import { buziosConsejosPages, buziosConsejosIndex } from './buzios-consejos-pages.js?v=20261106-1';
 import { installBuziosTransport } from './buzios-transport-content.js?v=20261024-transport-v2';
 import { routeParts } from './locale-routing.js';
@@ -655,6 +656,7 @@ PAGES['/destinos/buzios/moverse/'].sections.push(section(T('Alquiler de auto des
 
 deepenBuzios(PAGES);
 Object.assign(PAGES,buziosGuidePages);
+PAGES['/destinos/buzios/guia/seguro/']=buziosSeguroPage;
 Object.assign(PAGES,buziosAreaPages);
 Object.assign(PAGES,buziosNeighborhoodPages);
 addEditorial(PAGES);
@@ -722,7 +724,7 @@ PAGES['/destinos/buzios/cruceros/'].notice=T('Confirma con tu naviera las instru
 // Topic and product pages only carry a photograph when it documents that exact subject.
 // Beach landscapes are never used as substitutes for lodging, transport, cruises or activities.
 for(const [route,page] of Object.entries(PAGES)){
-  if(route.startsWith('/destinos/buzios/')&&route!=='/destinos/buzios/'&&route!=='/destinos/buzios/comer-y-salir/'&&!route.startsWith('/destinos/buzios/guia/')&&!/^\/destinos\/buzios\/alojamiento\/[^/]+\/$/.test(route)&&!page.neighborhood){
+  if(route.startsWith('/destinos/buzios/')&&route!=='/destinos/buzios/'&&route!=='/destinos/buzios/comer-y-salir/'&&!route.startsWith('/destinos/buzios/guia/')&&!route.startsWith('/destinos/buzios/consejos/')&&!/^\/destinos\/buzios\/alojamiento\/[^/]+\/$/.test(route)&&!page.neighborhood){
     page.hero=null;
     delete page.heroPhoto;
   }
@@ -734,6 +736,7 @@ PAGES['/destinos/buzios/comer-y-salir/'].heroPhoto=portoPhoto;
 const cultureCard=PAGES['/destinos/buzios/que-hacer/'].sections.flatMap(s=>s.items).find(it=>value(it.title,'ES')==='Cultura e identidad');
 if(cultureCard)cultureCard.photo='Brigitte Bardot';
 const uploadedBuziosThumbs={
+ 'Seguro y salud del viajero':'/assets/images/buzios/ossos.webp',
  'Playas con personalidades distintas':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20playas%20con%20personalidades%20distintas.jpg',
  'Una zona para cada ritmo':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20una%20zona%20para%20cada%20ritmo.jpg',
  'Actividades con salida local':'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniaturas%20actividades%20con%20salida%20local.jpg',
