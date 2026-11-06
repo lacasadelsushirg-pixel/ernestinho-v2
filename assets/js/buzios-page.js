@@ -1,3 +1,4 @@
+import { buziosConsejosPages, buziosConsejosIndex } from './buzios-consejos-pages.js?v=20261106-1';
 import { installBuziosTransport } from './buzios-transport-content.js?v=20261024-transport-v2';
 import { routeParts } from './locale-routing.js';
 import { beachProfiles } from './buzios-beaches.js';
@@ -702,6 +703,10 @@ PAGES['/destinos/buzios/transportes/']={
   ),'alt')
  ),related:A(link(T('Cómo llegar','Como chegar','Getting here'),'/destinos/buzios/como-llegar/',T('Compara bus, transfer y auto','Compare ônibus, transfer e carro','Compare bus, transfer and car')),link(T('Cómo moverse','Como se locomover','Getting around'),'/destinos/buzios/moverse/',T('Decisiones dentro de la península','Decisões dentro da península','Getting around the peninsula')),link(T('Eventos','Eventos','Events'),'/destinos/buzios/eventos/',T('Anticipa cambios de tránsito','Antecipe mudanças no trânsito','Plan around traffic changes')))
 };
+Object.assign(PAGES,buziosConsejosPages);
+const consejosIndex=PAGES['/destinos/buzios/consejos/'];
+Object.assign(consejosIndex,{title:buziosConsejosIndex.title,description:buziosConsejosIndex.description,intro:buziosConsejosIndex.intro});
+consejosIndex.sections.unshift(...buziosConsejosIndex.sections);
 installBuziosTransport(PAGES);
 PAGES['/destinos/buzios/fotografias/']={
  eyebrow:T('BÚZIOS EN IMÁGENES','BÚZIOS EM IMAGENS','BÚZIOS IN PICTURES'),title:T('Fotografías de Búzios','Fotografias de Búzios','Búzios photography'),
