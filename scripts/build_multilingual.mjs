@@ -11,6 +11,7 @@ import {renderBuziosGuideArticle,guideArticleRoutes} from './build_buzios_guide_
 import {renderBuziosSeasonRental,seasonRentalRoutes} from './build_buzios_season_rental.mjs';
 import {renderBuziosTransport,transportParityRoutes} from './build_buzios_transport.mjs';
 import {renderBuziosThingsParity,thingsParityRoutes} from './build_buzios_things_parity.mjs';
+import {renderBuziosEvents,eventRoutes} from './build_buzios_events.mjs';
 import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/translations/chunks/experiencias-standalone.js';
 import {SHORTCOPY_TRANSLATIONS} from './editorial_shortcopy_translations.mjs';
 const require=createRequire(import.meta.url);
@@ -106,7 +107,7 @@ const deletedSourceRoutes=new Set();
 let incrementalRoutes=null;
 let requiresFull=process.argv.includes('--full')||!liveManifest;
 // Runtime-only modules are copied during incremental builds; they don't require rerendering every locale page.
-const runtimeOnlyJsAssets=new Set(['assets/js/site.js','assets/js/bulk-photo-references.js','assets/js/buzios-rental-adn.js','assets/js/buzios-season-tabs.js']);
+const runtimeOnlyJsAssets=new Set(['assets/js/site.js','assets/js/bulk-photo-references.js','assets/js/buzios-rental-adn.js','assets/js/buzios-season-tabs.js','assets/js/buzios-events.js']);
 if(liveManifest&&!manualUpdating&&!requiresFull){
  const baseCommit=liveManifest.sourceCommit||'34a2e081f39d95245f6720a1fb3296bde3f5891d';
  let changes;
@@ -134,6 +135,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  }
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
+  if(file==='assets/js/translations/chunks/buzios-events.js'||file==='scripts/build_buzios_events.mjs'){for(const route of eventRoutes)routes.add(route);continue;}
   if(file==='assets/data/buzios-season-rental.json'||file==='scripts/build_buzios_season_rental.mjs'){routes.add('/destinos/buzios/guia/mes-a-mes/');continue;}
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
@@ -285,6 +287,11 @@ async function worker(){
     continue;
    }
    const source=fs.readFileSync(target.file,'utf8');
+   if(source.includes('data-bz-events=')&&eventRoutes.includes(target.route)){
+    const destination=path.join(out,route.slice(1)+'index.html');fs.mkdirSync(path.dirname(destination),{recursive:true});
+    fs.writeFileSync(destination,renderBuziosEvents(target.route,target.language));
+    manifest.push({route,source:target.route,language:target.language,indexable:true,generated:true});continue;
+   }
    if(source.includes('data-bz-things-parity=')&&thingsParityRoutes.includes(target.route)){
     const destination=path.join(out,route.slice(1)+'index.html');fs.mkdirSync(path.dirname(destination),{recursive:true});
     fs.writeFileSync(destination,renderBuziosThingsParity(target.route,target.language));
