@@ -1,104 +1,95 @@
-/* Búzios transport editorial system · scoped to the six transport routes */
-body.bz-transport-page{background:#071c1b;color:#f5f1e7}
-.bz-transport-page .bz-shell{background:#071c1b;color:#f5f1e7}
-.bz-transport-page .hero{background:#0b2926;border-bottom:1px solid #c7a96d}
-.bz-transport-page .hero-visual{background:#0b2926}
-.bz-transport-page .hero-visual img{display:block;width:100%;height:clamp(230px,38vw,510px);object-fit:contain;background:#0b2926}
-.bz-transport-page .hero-copy{color:#f5f1e7}
-.bz-transport-page .hero-copy h1,.bz-transport-page .hero-copy h2{color:#fffaf0}
-.bz-transport-page .hero-copy .lead{color:#d7e5dc}
-.bz-transport-page .hero-copy .kicker,.bz-transport-page .bz-eyebrow,.bz-transport-page .bz-card-number,.bz-transport-page .transport-index-number{color:#e2c17c}
-.bz-transport-page .hero-copy a.primary{background:#c8a66a;color:#071c1b}
-.bz-transport-page .bz-page-back,.bz-transport-page .bz-breadcrumb a,.bz-transport-page .bz-card a{color:#f0d597}
-.bz-transport-page .bz-intro,.bz-transport-page .bz-section{background:#071c1b;color:#f5f1e7;border-top:1px solid rgba(200,166,106,.42)}
-.bz-transport-page .bz-intro-lead,.bz-transport-page .bz-section-head>p{color:#d8e4dd}
-.bz-transport-page .bz-section-head h2{color:#fffaf0}
-.bz-transport-page .bz-card{background:#0b2926;border:1px solid #9c865a;border-radius:2px;color:#f5f1e7;box-shadow:none}
-.bz-transport-page .bz-card h3{color:#fffaf0}
-.bz-transport-page .bz-card p,.bz-transport-page .bz-card details{color:#d8e4dd}
-.bz-transport-page .bz-card-photo{margin:0 0 18px;background:#0b2926}
-.bz-transport-page .bz-card-photo img{display:block;width:100%;height:auto;max-height:560px;object-fit:contain;background:#0b2926}
-.bz-transport-page .bz-card-photo figcaption{padding:9px 12px;color:#d7c69d;font-size:.82rem}
-.bz-transport-page .bz-related-section{background:#071c1b;color:#f5f1e7;border-top:1px solid #9c865a}
-.bz-transport-page .bz-related-card{background:#0b2926;border:1px solid #9c865a;color:#f5f1e7;box-shadow:none}
-.bz-transport-page a:focus-visible,.bz-transport-page button:focus-visible,.bz-transport-page input:focus-visible,.bz-transport-page select:focus-visible{outline:3px solid #f2d58e;outline-offset:3px}
-.bz-transport-clone{max-width:1180px;margin:0 auto;padding:38px 22px 86px;background:#071c1b;color:#f5f1e7}
-.bz-transport-clone .tgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.bz-transport-clone .tcard{background:#0b2926;border:1px solid #9c865a;border-radius:2px;overflow:hidden}
-.bz-transport-clone .transport-thumb{display:block;width:100%;height:auto;max-height:320px;object-fit:contain;background:#102c29}
-.bz-transport-clone .transport-content{padding:22px 24px 25px}
-.bz-transport-clone .transport-index-number{display:block;font:700 12px/1 Arial,sans-serif;letter-spacing:.17em;color:#e2c17c;margin-bottom:9px}
-.bz-transport-clone i{font-style:normal;font-size:24px}
-.bz-transport-clone h2{font:400 clamp(23px,3vw,30px)/1.2 Georgia,serif;margin:8px 0 10px;color:#fffaf0}
-.bz-transport-clone strong{font:700 12px/1.5 Arial,sans-serif;color:#e2c17c}
-.bz-transport-clone p{line-height:1.65;color:#d8e4dd}
-.bz-transport-clone .detail-link{display:inline-block;margin:12px 0 0;padding:12px 16px;background:#c8a66a;color:#071c1b!important;border:1px solid #c8a66a;border-radius:1px;font:700 12px Arial,sans-serif;text-decoration:none}
-.bz-transport-clone .detail-link:hover{background:#e6cf98}
-.bz-transfer-booking{max-width:1100px;margin:30px auto 80px;padding:28px;background:#0b2926;border:1px solid #c0a365;border-radius:2px;color:#f5f1e7}
-.bz-transfer-booking h2{font:400 clamp(23px,4vw,36px)/1.2 Georgia,serif;color:#fffaf0;margin:15px 0}
-.bz-transfer-booking p{line-height:1.7;color:#d8e4dd}
-.bz-transfer-booking .rate-scroll{overflow:auto;margin:24px 0 36px}
-.bz-transfer-booking table{width:100%;border-collapse:collapse;min-width:570px}
-.bz-transfer-booking th,.bz-transfer-booking td{padding:13px;border-bottom:1px solid #756c4d;text-align:left}
-.bz-transfer-booking th{color:#f0d597;background:#12352f}
-.bz-transfer-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-.bz-transfer-fields label{display:flex;flex-direction:column;gap:7px;font-weight:700;color:#f5f1e7}
-.bz-transfer-fields input,.bz-transfer-fields select{padding:12px;border:1px solid #a58e5f;border-radius:1px;background:#f7f4eb;color:#102622;font:inherit;min-width:0}
-.bz-transfer-fields button{grid-column:1/-1;padding:15px;border:1px solid #d8bc7b;border-radius:1px;background:#c8a66a;color:#071c1b;font-weight:800;cursor:pointer}
-.bz-rentcars-banner{display:block;max-width:1050px;margin:22px auto 65px;border:1px solid #c0a365;border-radius:2px;overflow:hidden;background:#0b2926}
-.bz-rentcars-banner img{width:100%;height:auto;display:block}
-@media(max-width:760px){
- .bz-transport-clone{padding:24px 14px 56px}
- .bz-transport-clone .tgrid,.bz-transfer-fields{grid-template-columns:1fr}
- .bz-transport-clone .transport-content{padding:18px}
- .bz-transfer-booking{margin:20px 12px;padding:18px}
- .bz-transport-page .hero-visual img{height:auto;max-height:360px}
- .bz-transport-page .bz-grid{grid-template-columns:1fr}
-}
-
-/* Verified route and fare tables: high contrast, keyboard-scrollable on small screens. */
-.bz-transport-page .bz-transport-data{background:#071c1b;color:#f5f1e7;padding:36px 0;border-top:1px solid rgba(200,166,106,.55)}
-.bz-transport-page .bz-transport-data .bz-section-head h2{color:#fffaf0}
-.bz-transport-page .bz-transport-data .bz-section-head p{max-width:900px;color:#d8e4dd;line-height:1.75}
-.bz-transport-page .bz-transport-data .bz-table-scroll{overflow:auto;border:1px solid #9c865a}
-.bz-transport-page .bz-transport-data table{width:100%;min-width:930px;border-collapse:collapse}
-.bz-transport-page .bz-transport-data th,.bz-transport-page .bz-transport-data td{vertical-align:top;text-align:left;padding:14px;border-bottom:1px solid rgba(200,166,106,.42);line-height:1.55}
-.bz-transport-page .bz-transport-data th{color:#f2d58e;background:#0b2926;font-size:.82rem;letter-spacing:.04em}
-.bz-transport-page .bz-transport-data td{color:#e4e8df}
-.bz-transport-page .bz-transport-sources{padding:12px 0 28px;background:#071c1b}
-.bz-transport-page .bz-transport-sources .bz-wrap{display:flex;flex-wrap:wrap;gap:12px}
-.bz-transport-page .bz-transport-sources a{display:inline-block;padding:12px 15px;border:1px solid #c8a66a;color:#f0d597;text-decoration:none}
-.bz-transport-page .bz-transport-sources a:focus-visible{outline:3px solid #f2d58e;outline-offset:3px}
-@media(max-width:700px){.bz-transport-page .bz-transport-data{padding:26px 0}.bz-transport-page .bz-transport-data .bz-wrap{padding-left:16px;padding-right:16px}.bz-transport-page .bz-transport-sources .bz-wrap{padding-left:16px;padding-right:16px}.bz-transport-clone{padding:26px 16px 56px}.bz-transport-clone .tgrid{grid-template-columns:1fr;gap:14px}.bz-transport-clone .transport-thumb{max-height:none}.bz-transport-page .hero-visual img{height:auto;max-height:390px;object-fit:contain}}
-
-
-/* Desktop editorial grid: all card images occupy identical frames; featured vans. */
-@media(min-width:900px){
- .bz-transport-clone{max-width:1240px;padding:46px 28px 88px}
- .bz-transport-clone .tgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:stretch}
- .bz-transport-clone .tcard:first-child{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(300px,1fr);min-height:370px}
- .bz-transport-clone .tcard:first-child .transport-thumb{height:100%;max-height:none;aspect-ratio:auto}
- .bz-transport-clone .tcard:first-child .transport-content{display:flex;flex-direction:column;justify-content:center;padding:34px 40px}
- .bz-transport-clone .tcard:first-child h2{font-size:clamp(32px,3.6vw,48px)}
- .bz-transport-clone .tcard:first-child .detail-link{align-self:flex-start}
- .bz-transport-clone .tcard:not(:first-child){display:flex;flex-direction:column}
- .bz-transport-clone .tcard:not(:first-child) .transport-content{flex:1;display:flex;flex-direction:column}
- .bz-transport-clone .tcard:not(:first-child) .detail-link{align-self:flex-start;margin-top:auto}
-}
-.bz-transport-clone .transport-thumb{width:100%;height:auto;aspect-ratio:16/10;max-height:none;object-fit:cover;object-position:center;display:block;background:#102c29}
-.bz-transport-clone .tcard{box-shadow:none}
-.bz-transport-clone .transport-content strong{display:block;margin-bottom:12px}
-.bz-transport-clone .transport-content strong+p{display:none}
-.bz-transport-clone .tcard .detail-link:focus-visible{outline:3px solid #fff1b6;outline-offset:3px}
-@media(max-width:899px){
- .bz-transport-clone .tcard:first-child{display:block}
- .bz-transport-clone .transport-thumb{aspect-ratio:16/10;height:auto}
-}
-@media(min-width:761px) and (max-width:899px){.bz-transport-clone .tgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:760px){.bz-transport-clone .transport-thumb{aspect-ratio:16/10;object-fit:cover}}
-/* Readable long-form boat-taxi and other transport guides on large monitors. */
-@media(min-width:1024px){
- .bz-transport-page .bz-section-head>p{max-width:76ch}
- .bz-transport-page .bz-card p,.bz-transport-page .bz-card details{line-height:1.78}
- .bz-transport-page .bz-transport-data .bz-table-scroll{max-width:100%;scrollbar-gutter:stable}
-}
+/* Búzios transport: faithful Rio transport visual DNA (light cards, rounded corners, green pills).
+   Applies only to Búzios transport pages; preserves all approved affiliates and forms. */
+body.bz-transport-page{background:#fff;color:#18332f}
+.bz-transport-page .bz-shell{background:#fff;color:#18332f}
+.bz-transport-page .hero{min-height:50vh;background:radial-gradient(circle at 75% 30%,#245e56 0,transparent 34%),linear-gradient(120deg,#061817,#123d39 70%);color:#fff}
+.bz-transport-page .hero-copy{max-width:770px}
+.bz-transport-page .hero h1{color:#fff;font-size:clamp(40px,6.7vw,86px);line-height:1}
+.bz-transport-page .hero-copy .lead{color:#d7e0de}
+.bz-transport-page .hero-copy .kicker{color:var(--amber)}
+.bz-transport-page .bz-page-back{color:#f4d79d}
+.bz-transport-page .hero-visual img{width:100%;height:100%;object-fit:cover}
+.bz-transport-page .bz-section,.bz-transport-page .bz-intro,.bz-transport-page .bz-related{background:#fff;color:#18332f}
+.bz-transport-page .bz-section-head h2,.bz-transport-page .bz-intro h2{color:#18332f}
+.bz-transport-page .bz-card{border:1px solid #ded5c6;border-radius:22px;background:#fff;color:#18332f}
+.bz-transport-page .bz-card p,.bz-transport-page .bz-card details{color:#465650}
+.bz-transport-page .bz-related-card{border-radius:20px}
+.bz-transport-page a:focus-visible,.bz-transport-page button:focus-visible,.bz-transport-page input:focus-visible{outline:3px solid #b87f23;outline-offset:3px}
+.bz-transport-wrap{width:min(1100px,90vw);margin:auto}
+.bz-overline{font:800 11px/1.5 Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#16766d}
+.bz-transport-intro{padding:48px 0 30px;background:#f7f5f0}
+.bz-transport-intro h2,.bz-transport-clone h2,.bz-transport-advice h2{font:400 clamp(30px,4.5vw,48px)/1.15 Georgia,serif;color:#18332f;margin:8px 0 14px;max-width:850px}
+.bz-transport-intro>div>p:not(.bz-overline){font:400 17px/1.7 Arial,sans-serif;color:#465650;max-width:820px}
+.bz-transport-quick{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:28px}
+.bz-quick-link{display:flex;flex-direction:column;align-items:flex-start;min-height:138px;padding:18px;border:1px solid #ded5c6;border-radius:20px;background:#fff;color:#18332f;text-decoration:none;box-shadow:0 5px 18px #123b3610}
+.bz-quick-link:hover,.bz-quick-link:focus-visible{border-color:#17645b;background:#f4fbf7}
+.bz-quick-icon{font-size:23px}.bz-quick-link strong{display:block;font:700 15px/1.3 Arial;margin:10px 0 5px}.bz-quick-link small{color:#566761;font:400 13px/1.4 Arial}
+.bz-transport-clone{padding:38px 0 78px;background:#fff}
+.bz-transport-clone .tgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:25px}
+.bz-transport-clone .tcard{display:flex;flex-direction:column;min-width:0;background:#fff;border:1px solid #ded5c6;border-radius:22px;overflow:hidden;box-shadow:0 8px 28px #123b360a}
+.bz-transport-clone .transport-thumb{display:block;width:100%;height:205px;aspect-ratio:16/10;object-fit:cover;object-position:center;background:#f2f3f0}
+.bz-transport-clone .transport-content{display:flex;flex:1;flex-direction:column;padding:22px;color:#18332f}
+.bz-card-count{font:700 12px Arial;color:#17645b}
+.bz-transport-clone h3{font:400 27px/1.2 Georgia,serif;color:#18332f;margin:10px 0}
+.bz-transport-clone strong{font:700 13px/1.55 Arial;color:#17645b}
+.bz-transport-clone p{font:400 15px/1.65 Arial,sans-serif;color:#465650;margin:9px 0 0}
+.bz-transport-clone ul{margin:12px 0 15px;padding-left:20px;color:#465650;font:400 13px/1.55 Arial}
+.bz-transport-clone .detail-link{display:inline-block;align-self:flex-start;margin-top:auto;padding:12px 16px;border-radius:999px;background:#123b36;color:#fff;text-decoration:none;font:700 12px Arial}
+.bz-transport-clone .detail-link:hover{background:#17645b}
+.bz-transport-advice{background:#f7f5f0;padding:58px 0 75px}
+.bz-practical-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.bz-transport-advice .bz-practical-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.bz-practical-grid>article{border:1px solid #ded5c6;border-radius:20px;background:#fff;padding:23px;min-width:0}
+.bz-practical-grid h3{font:400 24px/1.25 Georgia,serif;color:#18332f;margin:0 0 10px}
+.bz-practical-grid p{font:400 15px/1.75 Arial,sans-serif;color:#465650;margin:0 0 14px}
+.bz-text-link{display:inline-block;padding:10px 15px;margin:8px 8px 5px 0;border-radius:999px;background:#123b36;color:white!important;text-decoration:none;font:700 12px/1.4 Arial}
+.bz-text-link:hover{background:#17645b}
+.bz-transport-resources{margin-top:35px;border-top:1px solid #ded5c6;padding-top:25px}
+.bz-transport-resources h3{font:400 26px Georgia,serif;color:#18332f}
+.bz-transport-resources>div{display:flex;flex-wrap:wrap;gap:9px}
+.bz-resource-link{display:inline-block;border:1px solid #d0d7d1;border-radius:999px;padding:10px 13px;color:#123b36;background:#fff;text-decoration:none;font:700 12px Arial}
+.bz-transport-detail-top{padding:42px 0 33px;background:#f7f5f0}
+.bz-transport-detail-top h2{margin:5px 0 12px;color:#18332f;font:400 clamp(30px,4vw,44px)/1.2 Georgia,serif}
+.bz-transport-detail-top>div>p:not(.bz-overline){max-width:850px;font:400 16px/1.7 Arial;color:#465650}
+.bz-detail-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin:22px 0}
+.bz-detail-facts>div{background:#fff;border:1px solid #ded5c6;border-radius:14px;padding:16px}
+.bz-detail-facts small{display:block;color:#5c6e67;font:700 10px/1.3 Arial;text-transform:uppercase;letter-spacing:.06em}
+.bz-detail-facts strong{display:block;margin-top:7px;color:#18332f;font:700 14px/1.45 Arial}
+.bz-transport-alert{background:#fff8e9;border-left:4px solid #d4a54d;border-radius:12px;padding:17px 20px;color:#5b513e;font:400 14px/1.65 Arial}
+.bz-transport-chapters{background:#fff}
+.bz-guide-chapter{padding:47px 0;border-bottom:1px solid #e5e3dc}
+.bz-guide-chapter:nth-child(even){background:#f9f8f5}
+.bz-chapter-head{display:flex;gap:18px;align-items:flex-start;margin-bottom:22px}
+.bz-chapter-head>span{font:800 13px Arial;color:#17645b;padding-top:7px}
+.bz-chapter-head h2{margin:0 0 8px;color:#18332f;font:400 clamp(27px,4vw,40px)/1.1 Georgia,serif}
+.bz-chapter-head p{font:400 16px/1.65 Arial;color:#566761;margin:0}
+.bz-practical-card details{margin-top:15px;border-top:1px solid #e7e1d6;padding-top:13px}
+.bz-practical-card summary{cursor:pointer;font-weight:700;color:#17645b}
+.bz-practical-card dl{margin:16px 0 0}.bz-practical-card dt{font-weight:800;color:#18332f;margin:12px 0 4px}
+.bz-practical-card dd{margin:0;color:#465650;line-height:1.65}
+.bz-affiliate-mini{display:block;margin-top:15px}.bz-affiliate-mini img{max-width:100%;height:auto;border-radius:14px}
+.bz-transport-page .bz-transport-data{padding:45px 0;background:#f9f8f5;color:#18332f}
+.bz-transport-page .bz-transport-data .bz-section-head h2{color:#18332f}
+.bz-transport-page .bz-transport-data .bz-section-head p{color:#465650;line-height:1.7}
+.bz-transport-page .bz-transport-data .bz-table-scroll{overflow:auto;border:1px solid #ded5c6;border-radius:18px;background:#fff}
+.bz-transport-page .bz-transport-data table{border-collapse:collapse;width:100%;min-width:770px}
+.bz-transport-page .bz-transport-data th,.bz-transport-page .bz-transport-data td{padding:15px;border-bottom:1px solid #e7e1d8;text-align:left;vertical-align:top;color:#344942;line-height:1.55}
+.bz-transport-page .bz-transport-data th{color:#18332f;background:#eaf2ed;font-weight:800}
+.bz-transport-page .bz-transport-sources{padding:22px 0;background:#f9f8f5}
+.bz-transport-page .bz-transport-sources .bz-wrap{display:flex;flex-wrap:wrap;gap:10px}
+.bz-transport-page .bz-transport-sources a{display:inline-block;border-radius:999px;background:#123b36;color:white;padding:11px 15px;text-decoration:none}
+.bz-transfer-booking{max-width:1100px;margin:34px auto 80px;padding:27px;background:#f7f5f0;border:1px solid #ded5c6;border-radius:22px;color:#18332f}
+.bz-transfer-booking h2{font:400 clamp(25px,3vw,35px)/1.2 Georgia,serif;color:#18332f}
+.bz-transfer-booking p{color:#465650;line-height:1.65}
+.bz-transfer-booking form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.bz-transfer-booking label{display:flex;flex-direction:column;gap:7px;color:#18332f;font-weight:700}
+.bz-transfer-booking input,.bz-transfer-booking select{padding:12px;background:white;color:#18332f;border:1px solid #c4cdc6;border-radius:12px;min-width:0}
+.bz-transfer-booking button{padding:13px 17px;border-radius:99px;border:0;background:#123b36;color:#fff;font-weight:800;cursor:pointer}
+.bz-transfer-booking .rate-scroll{overflow-x:auto}
+.bz-transfer-booking table{width:100%;border-collapse:collapse}
+.bz-transfer-booking th,.bz-transfer-booking td{padding:12px;text-align:left;border-bottom:1px solid #ded5c6}
+.bz-rentcars-banner{display:block;max-width:1050px;margin:28px auto 65px;border:1px solid #ded5c6;border-radius:22px;overflow:hidden;background:white}
+.bz-rentcars-banner img{display:block;width:100%;height:auto}
+@media(max-width:960px){.bz-transport-quick{grid-template-columns:repeat(2,minmax(0,1fr))}.bz-transport-advice .bz-practical-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.bz-transport-clone .tgrid,.bz-practical-grid,.bz-transport-advice .bz-practical-grid,.bz-detail-facts,.bz-transfer-booking form{grid-template-columns:1fr}.bz-transport-wrap{width:min(100% - 32px,1100px)}.bz-transport-clone .transport-thumb{height:auto;aspect-ratio:16/10;object-fit:cover}.bz-transport-clone{padding:28px 0 50px}.bz-transport-intro{padding:32px 0}.bz-transport-advice{padding:36px 0 50px}.bz-transport-page .hero{min-height:48vh}.bz-transport-page .hero h1{font-size:clamp(36px,9vw,62px)}.bz-guide-chapter{padding:36px 0}.bz-transport-page .bz-transport-data table{min-width:0}.bz-transport-page .bz-transport-data thead{display:none}.bz-transport-page .bz-transport-data tbody tr{display:block;border-bottom:2px solid #ded5c6}.bz-transport-page .bz-transport-data tbody td{display:block;padding:12px 16px}.bz-transport-page .bz-transport-data tbody td::before{content:attr(data-label);display:block;color:#17645b;font-size:11px;font-weight:800;text-transform:uppercase;margin-bottom:5px}.bz-transfer-booking{margin:22px 14px 60px;padding:18px}}
+@media(max-width:470px){.bz-transport-quick{grid-template-columns:1fr 1fr}.bz-quick-link{min-height:126px;padding:14px}.bz-quick-link strong{font-size:13px}.bz-quick-link small{font-size:12px}}
