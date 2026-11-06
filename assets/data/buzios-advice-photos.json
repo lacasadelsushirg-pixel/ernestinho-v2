@@ -87,6 +87,22 @@
     "height": 480,
     "size_bytes": 91831
   },
+  "370": {
+    "id": 370,
+    "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/HUNA%20BISTRO/caption%20%282%29.jpg",
+    "path": "DONDE COMER/HUNA BISTRO/caption (2).jpg",
+    "width": 828,
+    "height": 570,
+    "size_bytes": 122590
+  },
+  "386": {
+    "id": 386,
+    "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/QUINTAL%20DOS%20BUZIOS/quintal-dos-buzios%20%281%29.jpg",
+    "path": "DONDE COMER/QUINTAL DOS BUZIOS/quintal-dos-buzios (1).jpg",
+    "width": 1400,
+    "height": 630,
+    "size_bytes": 215458
+  },
   "398": {
     "id": 398,
     "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/GUIA%20BUZIOS/SALUD%20Y%20EMERGENCIAS/UNIDADE%20DE%20URGENCIA%20DA%20RASA.jpg",
@@ -127,6 +143,14 @@
     "height": 715,
     "size_bytes": 151032
   },
+  "547": {
+    "id": 547,
+    "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20supermercados%20en%20buzios.webp",
+    "path": "miniatura supermercados en buzios.webp",
+    "width": 2048,
+    "height": 1365,
+    "size_bytes": 481366
+  },
   "548": {
     "id": 548,
     "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20buzios%20con%20mascotas.jpg",
@@ -151,28 +175,16 @@
     "height": 430,
     "size_bytes": 43997
   },
-  "370": {
-    "id": 370,
-    "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/HUNA%20BISTRO/caption%20%282%29.jpg",
-    "path": "DONDE COMER/HUNA BISTRO/caption (2).jpg",
-    "width": 828,
-    "height": 570,
-    "size_bytes": 122590
-  },
-  "386": {
-    "id": 386,
-    "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/QUINTAL%20DOS%20BUZIOS/quintal-dos-buzios%20%281%29.jpg",
-    "path": "DONDE COMER/QUINTAL DOS BUZIOS/quintal-dos-buzios (1).jpg",
-    "width": 1400,
-    "height": 630,
-    "size_bytes": 215458
-  },
-  "547": {
-    "id": 547,
-    "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/miniatura%20supermercados%20en%20buzios.webp",
-    "path": "miniatura supermercados en buzios.webp",
-    "width": 2048,
-    "height": 1365,
-    "size_bytes": 481366
+  "8001": {
+    "id": 8001,
+    "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/ARMACAO/ARMACAO4.jpg",
+    "path": "PLAYAS/ARMACAO/ARMACAO4.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": [
+      "Barcos en Praia da Armação",
+      "Barcos na Praia da Armação",
+      "Boats at Praia da Armação"
+    ]
   }
 }

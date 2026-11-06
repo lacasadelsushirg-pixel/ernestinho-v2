@@ -2035,7 +2035,15 @@
       "playas-barracas",
       "lluvia",
       "itinerarios",
-      "atardeceres"
+      "atardeceres",
+      "equipaje",
+      "lo-que-nadie-explica",
+      "revisar-alojamiento",
+      "que-hacer-cada-dia",
+      "souvenirs",
+      "trampas-turista",
+      "estado-del-mar",
+      "paseo-centro-orla"
     ],
     "related": [
       {
@@ -2331,6 +2339,696 @@
           }
         ]
       }
+    ]
+  },
+  "equipaje": {
+    "title": [
+      "Qué llevar a Búzios: mi maleta sin excesos",
+      "O que levar a Búzios: minha mala sem excessos",
+      "What to pack for Búzios: my lighter suitcase"
+    ],
+    "intro": [
+      "Yo haría la maleta pensando en playa, caminatas y noches junto al mar. Estas son las cosas que usaría de verdad y lo que resolvería antes de cargar de más.",
+      "Eu faria a mala pensando em praia, caminhadas e noites à beira-mar. Veja o que eu realmente usaria e o que resolveria antes de levar peso demais.",
+      "I would pack for beaches, walks and evenings by the sea. Here is what I would actually use and what I would arrange before adding more weight."
+    ],
+    "photo": 412,
+    "icon": "🧳",
+    "sections": [
+      {
+        "title": [
+          "Ropa que puedas combinar",
+          "Roupas que combinam entre si",
+          "Clothes that work together"
+        ],
+        "body": [
+          "Llevaría prendas ligeras que puedas repetir y combinar, más una capa para el viento o el aire acondicionado del viaje. Si tu estadía es larga, pregunta por lavandería y tiempo de secado en la pousada: puede ayudarte a viajar con una maleta más pequeña.",
+          "Eu levaria peças leves para repetir e combinar, além de uma camada para vento ou ar-condicionado na viagem. Se a estadia for longa, pergunte sobre lavanderia e tempo de secagem na pousada: isso pode ajudar a viajar com uma mala menor.",
+          "I would bring light clothes that mix and match, plus a layer for wind or air conditioning on the journey. For a longer stay, ask the pousada about laundry and drying arrangements; this can help you travel with a smaller suitcase."
+        ]
+      },
+      {
+        "title": [
+          "Dos tipos de calzado",
+          "Dois tipos de calçado",
+          "Two kinds of footwear"
+        ],
+        "body": [
+          "Yo separaría un par cómodo para caminar y otro para la playa. Rua das Pedras, los accesos y las pendientes merecen más atención que una foto de sandalias bonitas. Prueba el calzado antes del viaje; para una caminata específica, revisa primero el terreno y lo que exige la actividad.",
+          "Eu separaria um par confortável para caminhar e outro para a praia. Rua das Pedras, acessos e ladeiras merecem mais atenção do que uma foto de sandálias bonitas. Experimente o calçado antes da viagem; para uma caminhada específica, confira o terreno e as exigências da atividade.",
+          "I would bring comfortable walking shoes and a separate pair for the beach. Rua das Pedras, access paths and hills deserve more thought than a photograph of stylish sandals. Try your shoes before travelling; for a particular walk, check the terrain and the activity’s requirements first."
+        ],
+        "link": "/destinos/buzios/barrios/"
+      },
+      {
+        "title": [
+          "Una bolsa de playa pequeña",
+          "Uma bolsa de praia pequena",
+          "A small beach bag"
+        ],
+        "body": [
+          "Traje de baño, toalla si el alojamiento no la presta, protección para el sol, agua y una bolsa para la ropa mojada. Yo llevaría solo lo necesario para ese día. Guarda el teléfono y los documentos de modo que no dependas de dejar una mochila valiosa sin compañía cuando entres al agua.",
+          "Roupa de banho, toalha se a hospedagem não emprestar, proteção para o sol, água e saco para roupa molhada. Eu levaria só o necessário para aquele dia. Organize celular e documentos para não depender de deixar uma mochila valiosa sozinha ao entrar na água.",
+          "Swimwear, a towel if your accommodation does not lend one, sun protection, water and a bag for wet clothes. I would carry only what I need that day. Arrange your phone and documents so entering the water does not mean leaving a valuable bag unattended."
+        ],
+        "link": "/destinos/buzios/consejos/playas-barracas/"
+      },
+      {
+        "title": [
+          "Documentos, cargadores y reservas",
+          "Documentos, carregadores e reservas",
+          "Documents, chargers and bookings"
+        ],
+        "body": [
+          "Antes de cerrar la maleta, yo guardaría reservas y dirección del hospedaje también sin conexión. Revisa cargadores y enchufes en nuestra guía de Brasil; evita comprar adaptadores al azar. Lleva los documentos que corresponden a tu viaje y mantén una copia de respaldo separada de los originales.",
+          "Antes de fechar a mala, eu salvaria reservas e endereço da hospedagem também sem conexão. Confira carregadores e tomadas no nosso guia do Brasil; evite comprar adaptadores ao acaso. Leve os documentos adequados à viagem e mantenha uma cópia separada dos originais.",
+          "Before closing the suitcase, I would save bookings and the accommodation address offline. Check chargers and plugs in our Brazil guide instead of buying adapters at random. Carry the documents required for your trip and keep a backup copy separate from the originals."
+        ],
+        "link": "/consejos/electricidad-adaptadores/"
+      },
+      {
+        "title": [
+          "La maleta también cambia el traslado",
+          "A mala também muda o transporte",
+          "Luggage also changes your transfer"
+        ],
+        "body": [
+          "Si llegas en autobús, piensa en el último tramo hasta la pousada; si reservas un vehículo, informa cuántas maletas llevan y su tamaño. Yo no elegiría el auto solo por el número de pasajeros. Deja espacio para lo que compres y revisa el límite de equipaje de tu pasaje.",
+          "Se chegar de ônibus, pense no último trecho até a pousada; ao reservar um veículo, informe quantidade e tamanho das malas. Eu não escolheria o carro apenas pelo número de passageiros. Deixe espaço para compras e confira o limite de bagagem da passagem.",
+          "If arriving by bus, think about the last leg to the pousada; when booking a vehicle, give the number and size of your bags. I would not choose a car by passenger count alone. Leave room for purchases and check your ticket’s luggage allowance."
+        ],
+        "link": "/destinos/buzios/transportes/"
+      }
+    ],
+    "sources": []
+  },
+  "lo-que-nadie-explica": {
+    "title": [
+      "Lo que me gustaría explicarte antes de llegar a Búzios",
+      "O que eu gostaria de explicar antes de você chegar a Búzios",
+      "What I would tell you before arriving in Búzios"
+    ],
+    "intro": [
+      "Búzios se disfruta más cuando entiendes sus pequeñas diferencias. Yo tendría estas ideas claras antes de elegir alojamiento, playa y transporte.",
+      "Búzios fica melhor quando você entende suas pequenas diferenças. Eu teria estas ideias claras antes de escolher hospedagem, praia e transporte.",
+      "Búzios is easier to enjoy when you understand its small differences. I would keep these points in mind before choosing accommodation, beaches and transport."
+    ],
+    "photo": 139,
+    "icon": "💬",
+    "sections": [
+      {
+        "title": [
+          "Cerca del mar no significa cerca de la arena",
+          "Perto do mar não significa perto da areia",
+          "Near the sea does not mean near the sand"
+        ],
+        "body": [
+          "Una dirección con vista al mar puede tener una subida, una escalera o un acceso que no aparece en la foto de la habitación. Yo miraría el camino desde la puerta del alojamiento hasta el punto donde realmente quieres estar. Pregunta por ese recorrido, no solo por la distancia anunciada.",
+          "Um endereço com vista para o mar pode ter ladeira, escada ou acesso que não aparece na foto do quarto. Eu olharia o caminho da porta da hospedagem até o lugar onde você realmente quer estar. Pergunte por esse percurso, não só pela distância anunciada.",
+          "A sea-view address may involve a hill, steps or an entrance missing from the room photograph. I would check the route from the accommodation door to the place you actually want to reach. Ask about that journey, not just the advertised distance."
+        ],
+        "link": "/destinos/buzios/alojamiento/"
+      },
+      {
+        "title": [
+          "Ferradura y Ferradurinha son decisiones distintas",
+          "Ferradura e Ferradurinha são escolhas diferentes",
+          "Ferradura and Ferradurinha are different choices"
+        ],
+        "body": [
+          "Los nombres se parecen, pero no son dos accesos intercambiables de la misma playa. Yo guardaría el nombre completo y el punto de llegada antes de pedir transporte. Aplica lo mismo a una pousada con nombre parecido a otra: confirma la dirección del establecimiento, no solo el nombre que recuerda el conductor.",
+          "Os nomes parecem, mas não são dois acessos intercambiáveis da mesma praia. Eu salvaria o nome completo e o ponto de chegada antes de pedir transporte. O mesmo vale para pousadas de nomes parecidos: confirme o endereço do estabelecimento, não apenas o nome que o motorista lembra.",
+          "The names sound alike, but these are not interchangeable entrances to the same beach. I would save the full name and arrival point before requesting transport. The same applies to similarly named pousadas: confirm the property address rather than relying on a remembered name."
+        ],
+        "link": "/destinos/buzios/playas/"
+      },
+      {
+        "title": [
+          "La vuelta forma parte del plan",
+          "A volta faz parte do plano",
+          "The return is part of the plan"
+        ],
+        "body": [
+          "Llegar a una playa no resuelve cómo volver después de la puesta de sol. Yo guardaría un punto de encuentro reconocible y una alternativa de regreso antes de salir. Si dependes de un barco taxi o de un servicio local, pregunta las condiciones del retorno al contratar la ida.",
+          "Chegar à praia não resolve a volta depois do pôr do sol. Eu salvaria um ponto de encontro fácil e uma alternativa de retorno antes de sair. Se depender de táxi aquático ou serviço local, pergunte as condições da volta ao combinar a ida.",
+          "Reaching a beach does not settle how to return after sunset. I would save a recognisable meeting point and a backup return option before leaving. If using a water taxi or local service, ask about the return arrangements when organising the outward trip."
+        ],
+        "link": "/destinos/buzios/transportes/"
+      },
+      {
+        "title": [
+          "Una playa bonita no define el mar de hoy",
+          "Praia bonita não define o mar de hoje",
+          "A beautiful beach does not describe today’s sea"
+        ],
+        "body": [
+          "Una fotografía puede mostrar otro día, otro viento y otra temporada. Yo separaría el paisaje de la decisión de entrar al agua. Revisa las condiciones, las indicaciones locales y el boletín de balneabilidad; también puedes dedicar la salida a caminar, comer o mirar la bahía.",
+          "Uma foto pode mostrar outro dia, outro vento e outra temporada. Eu separaria a paisagem da decisão de entrar na água. Confira condições, orientações locais e boletim de balneabilidade; você também pode aproveitar para caminhar, comer ou apreciar a baía.",
+          "A photograph may show another day, wind direction or season. I would separate enjoying the scenery from deciding to enter the water. Check conditions, local instructions and the bathing-water bulletin; walking, eating or admiring the bay can still make a worthwhile outing."
+        ],
+        "link": "/destinos/buzios/consejos/estado-del-mar/"
+      },
+      {
+        "title": [
+          "No necesitas coleccionar playas",
+          "Você não precisa colecionar praias",
+          "You do not need to collect beaches"
+        ],
+        "body": [
+          "Yo prefiero una mañana bien vivida y una tarde que combine con ella antes que cinco paradas con el reloj encima. Elegir una zona te deja descubrir una cafetería, conversar y quedarte más tiempo donde te guste. Usa los itinerarios como punto de partida, no como una lista que debas completar.",
+          "Eu prefiro uma manhã bem vivida e uma tarde que combine com ela a cinco paradas olhando o relógio. Escolher uma região deixa espaço para um café, uma conversa e ficar mais onde você gostar. Use os roteiros como começo, não como lista obrigatória.",
+          "I prefer a well-spent morning and a matching afternoon to five stops under time pressure. Choosing one area leaves room for a café, a conversation or staying longer somewhere you enjoy. Use the itineraries as a starting point, not a compulsory checklist."
+        ],
+        "link": "/destinos/buzios/consejos/itinerarios/"
+      }
+    ],
+    "sources": []
+  },
+  "revisar-alojamiento": {
+    "title": [
+      "Antes de salir de tu alojamiento en Búzios",
+      "Antes de sair da hospedagem em Búzios",
+      "Before leaving your accommodation in Búzios"
+    ],
+    "intro": [
+      "Yo haría esta revisión en unos minutos, con el café todavía en la mano. Te ayuda a salir con lo necesario y a evitar una vuelta solo porque faltó un detalle.",
+      "Eu faria esta revisão em poucos minutos, ainda com o café na mão. Ela ajuda a sair com o necessário e evita voltar por um detalhe esquecido.",
+      "I would do this quick check with coffee still in hand. It helps you leave with what you need and avoids an unnecessary trip back for one forgotten detail."
+    ],
+    "photo": 138,
+    "icon": "🔑",
+    "sections": [
+      {
+        "title": [
+          "El acceso exacto y la vuelta",
+          "O acesso exato e a volta",
+          "The actual entrance and the return"
+        ],
+        "body": [
+          "Guarda la dirección completa de la pousada, el nombre de tu destino y el punto donde bajarás. Yo revisaría también el último tramo a pie: una playa y su acceso no siempre coinciden con el mismo pin. Si el teléfono se queda sin batería, tener la dirección anotada puede simplificar el regreso.",
+          "Salve endereço completo da pousada, nome do destino e ponto de desembarque. Eu conferiria também o último trecho a pé: a praia e seu acesso nem sempre ficam no mesmo pin. Se a bateria acabar, ter o endereço anotado pode facilitar a volta.",
+          "Save the full pousada address, destination name and drop-off point. I would also check the last walking section: a beach and its entrance do not always share the same map pin. A written address can make returning easier if your phone battery runs out."
+        ],
+        "link": "/destinos/buzios/transportes/"
+      },
+      {
+        "title": [
+          "Tiempo, mar y un plan alternativo",
+          "Tempo, mar e um plano alternativo",
+          "Weather, sea and a backup plan"
+        ],
+        "body": [
+          "Mira el pronóstico y las condiciones de la actividad que elegiste. Yo tendría una alternativa cercana para no atravesar Búzios bajo lluvia o viento solo por mantener el programa original. Un paseo por la orla, una comida o una visita cultural pueden cambiar el ritmo del día sin convertirlo en un día perdido.",
+          "Veja a previsão e as condições da atividade escolhida. Eu teria uma alternativa próxima para não cruzar Búzios sob chuva ou vento só para manter o programa original. Uma caminhada na orla, uma refeição ou visita cultural podem mudar o ritmo sem perder o dia.",
+          "Check the forecast and the conditions for your chosen activity. I would have a nearby alternative instead of crossing Búzios in rain or wind just to keep the original plan. A waterfront walk, meal or cultural visit can change the pace without wasting the day."
+        ],
+        "link": "/destinos/buzios/consejos/lluvia/"
+      },
+      {
+        "title": [
+          "Teléfono y forma de pagar",
+          "Celular e forma de pagar",
+          "Your phone and payment options"
+        ],
+        "body": [
+          "Comprueba batería, conexión y una forma de pago que puedas usar. Yo no dependería de encontrar señal justo cuando debo mostrar una reserva o pedir el regreso. Descarga lo importante y lleva solo el dinero y los objetos que necesitas para el día; revisa el importe antes de confirmar un pago.",
+          "Confira bateria, conexão e uma forma de pagamento disponível. Eu não dependeria de encontrar sinal na hora de mostrar reserva ou pedir a volta. Salve o importante e leve apenas dinheiro e objetos necessários para o dia; confira o valor antes de confirmar um pagamento.",
+          "Check your battery, connection and an available payment method. I would not rely on finding a signal when showing a booking or requesting a return ride. Download important details and take only the money and belongings needed that day; check the amount before confirming payment."
+        ],
+        "link": "/destinos/buzios/dinero/"
+      },
+      {
+        "title": [
+          "La bolsa de hoy, no la maleta entera",
+          "A bolsa de hoje, não a mala inteira",
+          "Today’s bag, not your whole suitcase"
+        ],
+        "body": [
+          "Para playa, caminata o cena llevarás cosas diferentes. Yo separaría agua, protección para el sol, una capa si hace falta y lo que pide la actividad. Revisa toalla, cambio de ropa o entradas antes de cerrar la puerta; confirma con tu alojamiento qué puedes dejar guardado y cuándo podrás volver a entrar.",
+          "Praia, caminhada e jantar pedem coisas diferentes. Eu separaria água, proteção para o sol, uma camada se precisar e o que a atividade exige. Confira toalha, muda de roupa ou ingressos antes de sair; combine com a hospedagem o que pode guardar e como será o retorno.",
+          "A beach day, walk and dinner call for different things. I would pack water, sun protection, a layer if needed and whatever the activity requires. Check towels, spare clothes or tickets before leaving, and agree storage and re-entry arrangements with your accommodation."
+        ],
+        "link": "/destinos/buzios/consejos/equipaje/"
+      },
+      {
+        "title": [
+          "Una decisión para todos",
+          "Uma decisão para todo o grupo",
+          "A decision that works for everyone"
+        ],
+        "body": [
+          "Si viajas con niños o alguien con movilidad reducida, pregunta cómo está el grupo antes de sumar otra parada. Yo elegiría un acceso y un regreso que todos puedan hacer, dejando tiempo para baño, comida y descanso. Una reserva o una fotografía no justifican improvisar un trayecto que el grupo no puede disfrutar.",
+          "Se viajar com crianças ou alguém com mobilidade reduzida, veja como o grupo está antes de somar outra parada. Eu escolheria acesso e volta possíveis para todos, com tempo para banheiro, comida e descanso. Uma reserva ou foto não justificam improvisar um trajeto ruim para o grupo.",
+          "If travelling with children or someone with reduced mobility, check how everyone feels before adding another stop. I would choose access and return arrangements that work for all, with time for toilets, food and rest. A booking or photograph is no reason to improvise an unsuitable journey."
+        ],
+        "link": "/destinos/buzios/guia/accesibilidad/"
+      }
+    ],
+    "sources": []
+  },
+  "que-hacer-cada-dia": {
+    "title": [
+      "Una semana en Búzios, día por día",
+      "Uma semana em Búzios, dia a dia",
+      "A week in Búzios, day by day"
+    ],
+    "intro": [
+      "Yo organizaría la semana por zonas y energía, dejando margen para cambiar playa y paseo. Adapta estas ideas a tu llegada, al tiempo y a la programación de cada lugar.",
+      "Eu organizaria a semana por regiões e disposição, deixando espaço para mudar praia e passeio. Adapte as ideias à chegada, ao tempo e à programação de cada lugar.",
+      "I would organise the week by area and energy level, leaving room to switch beaches and outings. Adapt these ideas to your arrival, the weather and each place’s programme."
+    ],
+    "photo": 402,
+    "icon": "📅",
+    "sections": [
+      {
+        "title": [
+          "Lunes: reconocer tu base",
+          "Segunda: conhecer sua base",
+          "Monday: get to know your base"
+        ],
+        "body": [
+          "Yo empezaría cerca del alojamiento: localiza el acceso a la playa, dónde comprar agua y un lugar para cenar sin un traslado largo. Si llegas cansado, guarda los planes de más recorrido para otro día. Familiarizarte con tu barrio te ayuda a decidir mejor el resto de la semana.",
+          "Eu começaria perto da hospedagem: localize o acesso à praia, onde comprar água e um lugar para jantar sem deslocamento longo. Se chegar cansado, deixe os passeios mais extensos para outro dia. Conhecer o bairro ajuda a escolher melhor o restante da semana.",
+          "I would start near the accommodation: find the beach entrance, somewhere to buy water and a dinner option without a long journey. If tired on arrival, save longer outings for another day. Getting to know your neighbourhood makes the rest of the week easier to plan."
+        ],
+        "link": "/destinos/buzios/barrios/"
+      },
+      {
+        "title": [
+          "Martes: Centro y Orla Bardot",
+          "Terça: Centro e Orla Bardot",
+          "Tuesday: town centre and Orla Bardot"
+        ],
+        "body": [
+          "Dedicaría parte del día a caminar por el Centro y seguir por la Orla Bardot. Deja tiempo para las esculturas, una pausa y la vista de los barcos. Si quieres entrar a un espacio cultural o a una iglesia, confirma antes su apertura para tu fecha.",
+          "Eu reservaria parte do dia para o Centro e a Orla Bardot. Deixe tempo para esculturas, uma pausa e a vista dos barcos. Se quiser entrar num espaço cultural ou igreja, confirme antes a abertura para sua data.",
+          "I would spend part of the day walking through the centre and along Orla Bardot. Leave time for sculptures, a break and the boats in the bay. If you want to enter a cultural venue or church, check opening arrangements for your date first."
+        ],
+        "link": "/destinos/buzios/consejos/paseo-centro-orla/"
+      },
+      {
+        "title": [
+          "Miércoles: una zona de playa",
+          "Quarta: uma região de praia",
+          "Wednesday: one beach area"
+        ],
+        "body": [
+          "Yo elegiría una zona para disfrutarla sin correr, en vez de saltar entre extremos de la península. Compara acceso, condiciones del mar y regreso antes de decidir. Puedes sumar una segunda parada cercana si el grupo sigue con ganas, sin convertirla en una obligación.",
+          "Eu escolheria uma região para aproveitar sem pressa, em vez de atravessar a península várias vezes. Compare acesso, condições do mar e volta antes de decidir. Uma segunda parada próxima pode entrar se o grupo tiver disposição, sem virar obrigação.",
+          "I would choose one area to enjoy without rushing rather than repeatedly crossing the peninsula. Compare access, sea conditions and the return before deciding. Add a nearby second stop if everyone feels like it, without making it compulsory."
+        ],
+        "link": "/destinos/buzios/playas/"
+      },
+      {
+        "title": [
+          "Jueves: una experiencia elegida",
+          "Quinta: uma experiência escolhida",
+          "Thursday: one chosen experience"
+        ],
+        "body": [
+          "Este sería mi día para el paseo que más te entusiasma: una actividad guiada, un recorrido terrestre o una salida al mar si la operación lo permite. Confirma duración, encuentro, inclusiones y cancelación. Deja la tarde flexible para no encadenar reservas que después se pisan.",
+          "Eu usaria este dia para o passeio que mais anima você: atividade guiada, percurso terrestre ou saída ao mar se a operação permitir. Confirme duração, encontro, inclusões e cancelamento. Deixe a tarde flexível para não encadear reservas que podem se sobrepor.",
+          "I would use this day for the experience you most want: a guided activity, land excursion or sea outing when operating conditions allow. Confirm duration, meeting point, inclusions and cancellation terms. Leave the afternoon flexible so bookings do not overlap."
+        ],
+        "link": "/destinos/buzios/experiencias/"
+      },
+      {
+        "title": [
+          "Viernes: otra mirada de Búzios",
+          "Sexta: outro olhar sobre Búzios",
+          "Friday: another side of Búzios"
+        ],
+        "body": [
+          "Yo combinaría una visita cultural o un ateliê con tiempo para elegir dónde comer. Mira las fichas y consulta la agenda, especialmente si el espacio recibe con cita. Después puedes caminar por el Centro o volver a tu barrio, según el ritmo que quieras darle a la noche.",
+          "Eu combinaria uma visita cultural ou ateliê com tempo para escolher onde comer. Consulte as fichas e a agenda, principalmente quando o espaço recebe com horário marcado. Depois, caminhe pelo Centro ou volte ao seu bairro, conforme o ritmo desejado para a noite.",
+          "I would combine a cultural venue or studio with time to choose somewhere to eat. Check the profiles and programme, particularly for appointment-only visits. Afterwards, walk through the centre or return to your neighbourhood depending on the evening you want."
+        ],
+        "link": "/destinos/buzios/que-hacer/"
+      },
+      {
+        "title": [
+          "Sábado: tarde y atardecer en Manguinhos",
+          "Sábado: tarde e pôr do sol em Manguinhos",
+          "Saturday: afternoon and sunset in Manguinhos"
+        ],
+        "body": [
+          "Reservaría una tarde para Manguinhos y Porto da Barra, con margen para pasear y elegir mesa. La puesta de sol depende del cielo y de la época: disfruta también el entorno si no aparece el color esperado. En fechas de mucha demanda, organiza la cena y el regreso con anticipación.",
+          "Eu reservaria uma tarde para Manguinhos e Porto da Barra, com tempo para passear e escolher mesa. O pôr do sol depende do céu e da época: aproveite o entorno mesmo sem as cores esperadas. Em datas concorridas, organize jantar e volta antes.",
+          "I would set aside an afternoon for Manguinhos and Porto da Barra, with time to wander and choose a table. Sunset depends on the sky and season, so enjoy the surroundings even if the expected colours do not appear. On busy dates, plan dinner and the return ahead."
+        ],
+        "link": "/destinos/buzios/consejos/atardeceres/"
+      },
+      {
+        "title": [
+          "Domingo: repetir lo que te gustó",
+          "Domingo: repetir o que você gostou",
+          "Sunday: return to a favourite"
+        ],
+        "body": [
+          "Yo dejaría el último día para volver a ese lugar que te quedó dando vueltas, comprar algún regalo o simplemente desayunar sin prisa. Si sales de Búzios, manda primero el horario del transporte: el check-out, las maletas y el viaje merecen un margen propio.",
+          "Eu deixaria o último dia para voltar ao lugar que ficou na memória, comprar um presente ou tomar café sem pressa. Se for sair de Búzios, organize primeiro o horário do transporte: check-out, malas e viagem precisam de uma margem própria.",
+          "I would leave the final day for revisiting a favourite place, buying a gift or simply enjoying breakfast slowly. If leaving Búzios, settle your transport time first: check-out, luggage and the journey need their own time allowance."
+        ],
+        "link": "/destinos/buzios/guia/terminal/"
+      }
+    ],
+    "sources": []
+  },
+  "souvenirs": {
+    "title": [
+      "Qué llevarte de Búzios: regalos con sentido",
+      "O que levar de Búzios: presentes com sentido",
+      "What to bring home from Búzios: thoughtful gifts"
+    ],
+    "intro": [
+      "Yo elegiría algo que puedas relacionar con lo vivido aquí y que llegue bien a casa. Antes de comprar, mira quién lo hizo, cómo lo llevarás y cuánto espacio queda en tu maleta.",
+      "Eu escolheria algo ligado ao que você viveu aqui e que chegue bem em casa. Antes de comprar, veja quem fez, como levar e quanto espaço ainda há na mala.",
+      "I would choose something connected to your time here that will travel home well. Before buying, find out who made it, how to carry it and how much space remains in your suitcase."
+    ],
+    "photo": 143,
+    "icon": "🎁",
+    "sections": [
+      {
+        "title": [
+          "Artesanía y piezas de ateliê",
+          "Artesanato e peças de ateliê",
+          "Crafts and studio pieces"
+        ],
+        "body": [
+          "En una galería o taller yo preguntaría por el autor, el material y el proceso de la pieza. Una conversación puede darle mucho más sentido al regalo. Confirma embalaje, peso y cuidado antes de comprar algo frágil; una escultura que cabe en la tienda no siempre cabe bien en el equipaje.",
+          "Numa galeria ou ateliê eu perguntaria por autor, material e processo da peça. Uma conversa pode dar muito mais sentido ao presente. Confira embalagem, peso e cuidados antes de comprar algo frágil; uma escultura que cabe na loja nem sempre cabe na bagagem.",
+          "In a gallery or studio, I would ask about the maker, material and process. A conversation can make the gift more meaningful. Check packaging, weight and care before buying something fragile; a sculpture that fits in the shop may not travel easily in your luggage."
+        ],
+        "link": "/destinos/buzios/que-hacer/cultura/"
+      },
+      {
+        "title": [
+          "Un café para prolongar el viaje",
+          "Um café para prolongar a viagem",
+          "Coffee to extend the holiday"
+        ],
+        "body": [
+          "Café brasileño, en grano o molido, puede ser una buena elección si sabes cómo lo prepara la persona que lo recibirá. Yo revisaría el envase, la fecha y el tamaño antes de elegir. Guarda la compra cerrada y compara también opciones en cafeterías y supermercados durante tus paseos.",
+          "Café brasileiro, em grãos ou moído, pode funcionar bem se você souber como a pessoa prepara a bebida. Eu conferiria embalagem, data e tamanho antes de escolher. Mantenha a compra fechada e compare opções em cafeterias e supermercados durante os passeios.",
+          "Brazilian coffee, whole-bean or ground, can work well if you know how the recipient prepares it. I would check the packaging, date and size before choosing. Keep it sealed and compare options in cafés and supermarkets as you explore."
+        ],
+        "link": "/destinos/buzios/consejos/supermercados/"
+      },
+      {
+        "title": [
+          "Ropa y accesorios que sí usarás",
+          "Roupas e acessórios que você vai usar",
+          "Clothes and accessories you will use"
+        ],
+        "body": [
+          "Yo probaría la prenda y comprobaría material, terminaciones y cuidado antes de llevarla. Compara el valor total, pregunta las condiciones de cambio y guarda el comprobante. El mejor recuerdo no tiene por qué llevar el nombre de Búzios: puede ser una pieza que te acompañe después del viaje.",
+          "Eu provaria a peça e conferiria tecido, acabamento e cuidados antes de levar. Compare o valor total, pergunte as condições de troca e guarde o comprovante. A melhor lembrança não precisa ter o nome de Búzios: pode ser algo que acompanhe você depois da viagem.",
+          "I would try clothes on and check material, finishing and care instructions. Compare the full price, ask about exchange terms and keep the receipt. The best souvenir need not have Búzios printed on it; it may simply be something you continue using after the trip."
+        ],
+        "link": "/destinos/buzios/compras/"
+      },
+      {
+        "title": [
+          "Sabores y botellas: piensa en el viaje de vuelta",
+          "Sabores e garrafas: pense na volta",
+          "Food and bottles: think about the journey home"
+        ],
+        "body": [
+          "Antes de elegir alimentos o bebidas para llevar, yo comprobaría el embalaje y las reglas del transporte y del país de llegada en sus canales oficiales. Evita decidir en la caja del aeropuerto. Para probar algo durante la estadía, compra una cantidad pequeña antes de llenar la maleta con un sabor que todavía no conoces.",
+          "Antes de escolher alimentos ou bebidas para levar, eu consultaria embalagem e regras do transporte e do país de chegada nos canais oficiais. Evite decidir no caixa do aeroporto. Para provar durante a estadia, compre pouco antes de encher a mala com um sabor desconhecido.",
+          "Before buying food or drinks to take home, I would check packaging and the transport and destination-country rules through official channels. Avoid leaving the decision until the airport checkout. Try a small amount during your stay before filling a suitcase with an unfamiliar flavour."
+        ]
+      },
+      {
+        "title": [
+          "Una última compra sin apuro",
+          "Uma última compra sem correria",
+          "A final purchase without rushing"
+        ],
+        "body": [
+          "Dejaría un rato para comprar después de conocer mejor el Centro, en vez de resolver todos los regalos en la primera tienda. Guarda lugar y presupuesto, pregunta por el embalaje y termina antes del horario de salida. Yo prefiero un recuerdo elegido con calma a una bolsa que después complica el traslado.",
+          "Eu reservaria tempo para comprar depois de conhecer melhor o Centro, em vez de resolver todos os presentes na primeira loja. Separe espaço e orçamento, pergunte pela embalagem e termine antes da saída. Prefiro uma lembrança escolhida com calma a uma sacola que dificulte o transporte.",
+          "I would leave time to shop after getting to know the centre rather than buying every gift in the first shop. Set aside space and a budget, ask about packaging and finish before departure time. I prefer one carefully chosen souvenir to a bag that complicates the transfer."
+        ],
+        "link": "/destinos/buzios/consejos/equipaje/"
+      }
+    ],
+    "sources": []
+  },
+  "trampas-turista": {
+    "title": [
+      "Precios y cobros en Búzios: qué comprobar antes de aceptar",
+      "Preços e cobranças em Búzios: o que conferir antes de aceitar",
+      "Prices and charges in Búzios: what to check first"
+    ],
+    "intro": [
+      "Yo prefiero resolver una duda antes de sentarme, embarcar o pagar. Estas preguntas sencillas te ayudan a entender el precio completo y a disfrutar sin una cuenta inesperada al final.",
+      "Eu prefiro esclarecer dúvidas antes de sentar, embarcar ou pagar. Estas perguntas ajudam a entender o preço completo e aproveitar sem uma conta inesperada no final.",
+      "I prefer to clear up questions before sitting down, boarding or paying. These simple checks help you understand the full price and avoid an unexpected bill at the end."
+    ],
+    "photo": 568,
+    "icon": "🧾",
+    "sections": [
+      {
+        "title": [
+          "Silla, sombrilla y consumo",
+          "Cadeira, guarda-sol e consumo",
+          "Chairs, umbrellas and orders"
+        ],
+        "body": [
+          "Antes de instalarte en la playa, yo preguntaría qué se cobra por separado y qué condiciones tiene el uso de la estructura. Aclara si el precio es por persona, por conjunto o por tiempo. Repite el acuerdo con quien te atiende y revisa también bebidas y comida antes de pedir.",
+          "Antes de se instalar na praia, eu perguntaria o que é cobrado separadamente e quais são as condições da estrutura. Esclareça se o valor é por pessoa, conjunto ou tempo. Confirme o combinado com quem atende e confira bebidas e comida antes de pedir.",
+          "Before settling on the beach, I would ask what is charged separately and what conditions apply to the equipment. Clarify whether the price is per person, set or period. Confirm the arrangement with the attendant and check food and drink prices before ordering."
+        ],
+        "link": "/destinos/buzios/consejos/playas-barracas/"
+      },
+      {
+        "title": [
+          "Un plato puede tener distintas medidas",
+          "Um prato pode ter medidas diferentes",
+          "A dish can have different price units"
+        ],
+        "body": [
+          "Yo miraría si el menú indica porción individual, para compartir, por peso o por unidad. Pregunta qué acompañamientos entran y cuánto cuesta lo que se agrega. Si el plato es para dos, comprueba que esa cantidad encaje con tu grupo antes de convertir una palabra del menú en una expectativa.",
+          "Eu olharia se o cardápio indica porção individual, para compartilhar, por peso ou por unidade. Pergunte quais acompanhamentos entram e o preço dos adicionais. Se o prato serve duas pessoas, veja se a quantidade combina com seu grupo antes de criar uma expectativa só pelo nome.",
+          "I would check whether the menu price is for one person, sharing, weight or an individual item. Ask which sides are included and what extras cost. If a dish is described as serving two, check whether that quantity suits your group rather than relying on the wording alone."
+        ],
+        "link": "/destinos/buzios/comer-y-salir/"
+      },
+      {
+        "title": [
+          "En barco taxi, acuerda el recorrido",
+          "No táxi aquático, combine o percurso",
+          "Agree the water-taxi journey"
+        ],
+        "body": [
+          "Antes de subir, yo confirmaría destino, precio, número de pasajeros y si el acuerdo incluye la vuelta. Pregunta dónde desembarcas y cómo se organiza el retorno si cambian las condiciones. No des por incluido un regreso que solo imaginaste cuando escuchaste el precio de la ida.",
+          "Antes de embarcar, eu confirmaria destino, valor, passageiros e se o combinado inclui a volta. Pergunte onde desembarcar e como organizar o retorno se as condições mudarem. Não considere incluída uma volta que você apenas imaginou ao ouvir o preço da ida.",
+          "Before boarding, I would confirm the destination, price, passengers and whether a return is included. Ask where you will land and how the return is handled if conditions change. Do not assume a return journey is included in an outward fare."
+        ],
+        "link": "/destinos/buzios/transportes/barco-taxi/"
+      },
+      {
+        "title": [
+          "Mira la pantalla antes de pagar",
+          "Veja a tela antes de pagar",
+          "Look at the screen before paying"
+        ],
+        "body": [
+          "Con tarjeta o Pix, yo comprobaría el valor y los datos del destinatario antes de confirmar. Si la máquina o el teléfono muestran algo distinto de lo acordado, detén el pago y pregunta. Guarda el comprobante y revisa la cuenta del local con el detalle de lo que realmente pediste.",
+          "Com cartão ou Pix, eu conferiria valor e dados do destinatário antes de confirmar. Se a máquina ou o celular mostrarem algo diferente do combinado, pare e pergunte. Guarde o comprovante e confira a conta do estabelecimento com o que você realmente pediu.",
+          "With a card or Pix, I would check the amount and recipient details before confirming. If the terminal or phone shows something different from the agreement, stop and ask. Keep the receipt and compare the itemised bill with what you actually ordered."
+        ],
+        "link": "/destinos/buzios/dinero/"
+      },
+      {
+        "title": [
+          "Una reserva debe explicar qué estás comprando",
+          "A reserva precisa explicar o que você compra",
+          "A booking should explain what you are buying"
+        ],
+        "body": [
+          "Antes de enviar una señal, yo guardaría por escrito fecha, servicio, punto de encuentro, inclusiones, valor final y condiciones de cambio o cancelación. Una consulta por WhatsApp todavía necesita una confirmación concreta. Si algo importante no aparece en la propuesta, pide que lo aclaren antes de pagar.",
+          "Antes de enviar um sinal, eu guardaria por escrito data, serviço, encontro, inclusões, valor final e condições de alteração ou cancelamento. Uma consulta por WhatsApp ainda precisa de confirmação concreta. Se algo importante não estiver na proposta, peça esclarecimento antes de pagar.",
+          "Before paying a deposit, I would keep written details of the date, service, meeting point, inclusions, final price and change or cancellation terms. A WhatsApp enquiry still needs a clear confirmation. If an important detail is missing from the offer, have it clarified before paying."
+        ],
+        "link": "/destinos/buzios/experiencias/"
+      }
+    ],
+    "sources": []
+  },
+  "estado-del-mar": {
+    "title": [
+      "Cómo elijo la playa de hoy en Búzios",
+      "Como escolho a praia de hoje em Búzios",
+      "How I choose today’s beach in Búzios"
+    ],
+    "intro": [
+      "Yo miraría dos cosas por separado: la calidad del agua para baño y las condiciones del mar. Una foto bonita no responde ninguna de las dos; también puedes disfrutar la costa sin entrar al agua.",
+      "Eu olharia duas coisas separadamente: qualidade da água para banho e condições do mar. Uma foto bonita não responde nenhuma delas; você também pode curtir a costa sem entrar na água.",
+      "I would check two things separately: bathing-water quality and sea conditions. A beautiful photograph answers neither; you can also enjoy the coast without entering the water."
+    ],
+    "photo": 36,
+    "icon": "🌊",
+    "sections": [
+      {
+        "title": [
+          "Busca Búzios en el boletín del INEA",
+          "Procure Búzios no boletim do INEA",
+          "Find Búzios in the INEA bulletin"
+        ],
+        "body": [
+          "El INEA publica un boletín específico de Búzios. Yo abriría el más reciente y comprobaría fecha y punto de muestreo, en lugar de usar una lista antigua de playas. La clasificación del agua no describe oleaje, corrientes ni todos los tramos de la arena.",
+          "O INEA publica boletim específico de Búzios. Eu abriria o mais recente e conferiria data e ponto de amostragem, em vez de usar uma lista antiga de praias. A classificação da água não descreve ondas, correntes nem todos os trechos da areia.",
+          "INEA publishes a Búzios bathing-water bulletin. I would open the latest one and check its date and sampling point rather than use an old beach list. The water classification does not describe waves, currents or every part of the beach."
+        ],
+        "link": "https://www.inea.rj.gov.br/buzios/"
+      },
+      {
+        "title": [
+          "El cielo y el mar cuentan historias distintas",
+          "O céu e o mar contam histórias diferentes",
+          "The sky and sea tell different stories"
+        ],
+        "body": [
+          "Yo no elegiría el baño solo porque salió el sol. Antes de decidir una playa o una salida en barco, consulta el pronóstico costero y los avisos de la Marina. Comprueba el lugar y el período al que se refiere el aviso; una captura reenviada puede corresponder a otra fecha o región.",
+          "Eu não decidiria entrar na água só porque abriu sol. Antes de escolher praia ou passeio de barco, consulte previsão costeira e avisos da Marinha. Confira local e período do aviso; uma captura encaminhada pode ser de outra data ou região.",
+          "I would not decide to swim simply because the sun has appeared. Before choosing a beach or boat outing, check the coastal forecast and Navy warnings. Verify the warning’s location and period; a forwarded screenshot may concern another date or region."
+        ],
+        "link": "https://www.marinha.mil.br/chm/dados-do-smm-meteoromarinha/previsao-24-horas"
+      },
+      {
+        "title": [
+          "Después de lluvia intensa",
+          "Depois de chuva forte",
+          "After heavy rain"
+        ],
+        "body": [
+          "El INEA recomienda evitar el baño durante las primeras 24 horas después de lluvias de mayor intensidad y cerca de salidas de canales o desagües. Yo aprovecharía ese margen para un paseo, una comida o una visita cultural, y volvería a consultar las condiciones antes de planear el baño.",
+          "O INEA recomenda evitar banho nas primeiras 24 horas após chuvas de maior intensidade e perto de saídas de canais ou galerias pluviais. Eu aproveitaria para caminhar, comer ou visitar um espaço cultural e consultaria novamente as condições antes de planejar o banho.",
+          "INEA recommends avoiding bathing during the first 24 hours after heavy rain and near channel or storm-drain outlets. I would use that time for a walk, meal or cultural visit and check conditions again before planning to swim."
+        ],
+        "link": "https://www.inea.rj.gov.br/ar-agua-e-solo/balneabilidade-das-praias/"
+      },
+      {
+        "title": [
+          "Pregunta por el tramo concreto",
+          "Pergunte pelo trecho específico",
+          "Ask about the specific beach section"
+        ],
+        "body": [
+          "Al llegar, yo observaría la señalización y seguiría las indicaciones de los guardavidas. Pregunta por el tramo donde piensas estar y la actividad que quieres hacer; no traslades automáticamente la experiencia de una playa a otra. Si hay una restricción o una duda, cambia el plan y disfruta desde tierra.",
+          "Ao chegar, eu observaria a sinalização e seguiria as orientações dos guarda-vidas. Pergunte pelo trecho e pela atividade que pretende fazer; não transfira automaticamente a experiência de uma praia para outra. Com restrição ou dúvida, mude o plano e aproveite em terra.",
+          "On arrival, I would look at the signs and follow lifeguard instructions. Ask about the specific section and intended activity instead of assuming conditions match another beach. If there is a restriction or uncertainty, change the plan and enjoy the coast from land."
+        ]
+      },
+      {
+        "title": [
+          "Un día de costa también puede ser un paseo",
+          "Um dia no litoral também pode ser um passeio",
+          "A coastal day can also be a walk"
+        ],
+        "body": [
+          "Para mí, mirar los barcos desde la Orla Bardot o recorrer el Centro también es vivir Búzios. Si hay avisos de mar agitado, evita acercarte a las piedras y a zonas alcanzadas por las olas para una foto. Elige un recorrido en tierra que respete las indicaciones del lugar.",
+          "Para mim, ver os barcos da Orla Bardot ou passear pelo Centro também é viver Búzios. Com aviso de mar agitado, não se aproxime de pedras ou áreas atingidas pelas ondas para fotografar. Escolha um percurso em terra respeitando as orientações locais.",
+          "For me, watching the boats from Orla Bardot or exploring the centre is also part of Búzios. When rough-sea warnings apply, do not approach rocks or areas reached by waves for a photograph. Choose a land route that follows local instructions."
+        ],
+        "link": "/destinos/buzios/consejos/paseo-centro-orla/"
+      }
+    ],
+    "sources": [
+      [
+        "https://www.inea.rj.gov.br/buzios/",
+        "INEA · boletín de Búzios",
+        "INEA · boletim de Búzios",
+        "INEA · Búzios bulletin"
+      ],
+      [
+        "https://www.marinha.mil.br/chm/node/1046602",
+        "Marina · avisos de mal tiempo",
+        "Marinha · avisos de mau tempo",
+        "Brazilian Navy · weather warnings"
+      ]
+    ]
+  },
+  "paseo-centro-orla": {
+    "title": [
+      "Mi paseo a pie por el Centro y la Orla Bardot",
+      "Meu passeio a pé pelo Centro e pela Orla Bardot",
+      "My walk through the centre and Orla Bardot"
+    ],
+    "intro": [
+      "Yo lo recorrería por tramos, dejando tiempo para mirar los barcos, descubrir una escultura y sentarme junto al mar. Puedes terminar en cualquiera de estas paradas según el calor, el grupo y tu regreso.",
+      "Eu faria o percurso por trechos, com tempo para ver barcos, descobrir uma escultura e sentar à beira-mar. Você pode terminar em qualquer parada conforme calor, grupo e volta.",
+      "I would take this walk in sections, leaving time for the boats, a sculpture and a seat by the sea. Finish at whichever stop suits the heat, your group and the return journey."
+    ],
+    "photo": 128,
+    "icon": "🚶",
+    "sections": [
+      {
+        "title": [
+          "Centro y Rua das Pedras",
+          "Centro e Rua das Pedras",
+          "Town centre and Rua das Pedras"
+        ],
+        "body": [
+          "Yo empezaría por reconocer el Centro sin prisa: mira las vidrieras, los pasajes y las opciones para una pausa antes de continuar hacia la costa. Rua das Pedras puede ser parte de un paseo de compras o simplemente el comienzo de la caminata. Lleva calzado con el que camines bien sobre superficies irregulares. Si vas con cochecito o necesitas un acceso más fácil, revisa el recorrido completo antes de salir del alojamiento.",
+          "Eu começaria conhecendo o Centro sem pressa: veja vitrines, passagens e opções para uma pausa antes de seguir à orla. A Rua das Pedras pode fazer parte das compras ou apenas iniciar a caminhada. Use calçado confortável em superfícies irregulares. Com carrinho ou necessidade de acesso mais fácil, confira o percurso inteiro antes de sair da hospedagem.",
+          "I would start by exploring the centre slowly: look at the shopfronts, passages and places for a break before continuing towards the water. Rua das Pedras can be part of a shopping outing or simply the start of the walk. Wear shoes suited to uneven surfaces. With a pushchair or specific access needs, check the full route before leaving your accommodation."
+        ],
+        "link": "https://www.google.com/maps/search/?api=1&query=Rua+das+Pedras+Buzios",
+        "image": 143
+      },
+      {
+        "title": [
+          "Orla Bardot: esculturas y bahía",
+          "Orla Bardot: esculturas e baía",
+          "Orla Bardot: sculptures and the bay"
+        ],
+        "body": [
+          "Sigue hacia la Orla Bardot y cambia el ritmo: aquí yo dejaría que la vista de la bahía organice las paradas. Busca la escultura de Brigitte Bardot y observa el movimiento de los barcos sin bloquear el paso para hacer fotos. Puedes detenerte a tomar algo y continuar después. No hace falta recorrer todo de una vez ni esperar una hora específica para disfrutar este tramo.",
+          "Siga para a Orla Bardot e mude o ritmo: eu deixaria a vista da baía organizar as paradas. Procure a escultura de Brigitte Bardot e observe os barcos sem bloquear a passagem para fotos. Faça uma pausa para beber algo e continue depois. Não é preciso percorrer tudo de uma vez nem esperar uma hora específica para aproveitar.",
+          "Continue towards Orla Bardot and slow down; I would let the bay views guide the stops here. Look for the Brigitte Bardot sculpture and watch the boats without blocking the walkway for photographs. Stop for a drink and continue afterwards. You do not need to cover everything at once or wait for a particular hour to enjoy this stretch."
+        ],
+        "link": "https://www.google.com/maps/search/?api=1&query=Orla+Bardot+Buzios",
+        "image": 128
+      },
+      {
+        "title": [
+          "Armação y los pescadores",
+          "Armação e os pescadores",
+          "Armação and the fishermen"
+        ],
+        "body": [
+          "Continuaría por Armação para mirar la costa desde otro ángulo y encontrar la escultura de los pescadores. A mí me gusta esta parte porque invita a pensar en la vida de la bahía, además de buscar la foto. Quédate en el paseo y respeta los accesos y el trabajo de las embarcaciones. Si el grupo necesita una pausa, este puede ser el final del recorrido antes de volver a comer al Centro.",
+          "Eu continuaria pela Armação para ver a costa de outro ângulo e encontrar a escultura dos pescadores. Gosto deste trecho porque convida a pensar na vida da baía, além da foto. Fique no passeio e respeite acessos e trabalho das embarcações. Se o grupo precisar descansar, termine aqui antes de voltar para comer no Centro.",
+          "I would continue along Armação for another view of the coast and the fishermen sculpture. I like this section because it encourages you to notice the life of the bay as well as take pictures. Stay on the promenade and respect boat access and working areas. If the group needs a break, finish here before returning to the centre for a meal."
+        ],
+        "link": "https://www.google.com/maps/search/?api=1&query=Escultura+dos+Pescadores+Buzios",
+        "image": 8001
+      },
+      {
+        "title": [
+          "Ossos y el entorno de Sant’Anna",
+          "Ossos e o entorno de Sant’Anna",
+          "Ossos and the area around Sant’Anna"
+        ],
+        "body": [
+          "Si todavía tienes ganas, sigue hasta Ossos y considera el entorno de la iglesia de Sant’Anna. Yo comprobaría la pendiente y la energía del grupo antes de añadir la subida; para visitar el interior, consulta la apertura correspondiente a tu fecha. Este paseo no necesita terminar con otra playa. Puedes regresar por la misma zona, reservar tiempo para comer o continuar solo si el acceso y las condiciones acompañan.",
+          "Se ainda tiver disposição, siga até Ossos e considere o entorno da igreja de Sant’Anna. Eu conferiria a subida e a energia do grupo antes de acrescentá-la; para entrar na igreja, consulte a abertura para sua data. O passeio não precisa terminar em outra praia. Volte pela mesma região, pare para comer ou continue apenas se acessos e condições ajudarem.",
+          "If everyone still feels like walking, continue to Ossos and consider the area around Sant’Anna church. I would assess the hill and the group’s energy before adding the climb; check opening arrangements for your date if you want to visit inside. The walk need not end with another beach. Retrace your route, stop for a meal or continue only if access and conditions suit you."
+        ],
+        "link": "https://www.google.com/maps/search/?api=1&query=Igreja+de+Sant+Anna+Buzios",
+        "image": 539
+      }
+    ],
+    "sources": [
+      [
+        "https://pitrj.rj.gov.br/pt/blog/artigo/pontos-turisticos-de-buzios",
+        "Turismo del estado de Río · atractivos de Búzios",
+        "Turismo do estado do Rio · atrações de Búzios",
+        "Rio state tourism · Búzios attractions"
+      ]
     ]
   }
 }
