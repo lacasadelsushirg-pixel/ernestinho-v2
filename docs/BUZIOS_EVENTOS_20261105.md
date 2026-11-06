@@ -21,3 +21,5 @@ The agenda distinguishes an event announcement from the municipal planning calen
 60 local browser cases (10 routes × 3 languages × 2 widths: 1440 and 390). No broken main images, JavaScript errors, horizontal document overflow, missing canonical/hreflang, duplicate destination bars or missing corporate footer. Category, monthly, year/upcoming and empty-state filters exercised in every language and width. Sao Paulo midnight and inclusive edition expiry checked. Measured Río index component properties match at both widths.
 
 check_frozen_pages.py still reports the same pre-existing protected-page differences as the baseline captured before this work. No Río content, protected manifest or unrelated section was changed. Publication is scoped to 30 HTML pages, 9 images, Events CSS/JS and an additive sitemap update retaining all 2,601 existing URLs and adding 27.
+
+The exported header language links are also generated for the current Events route, so the static HTML retains the event when switching locale. All 90 static language destinations are checked before publication; runtime language destinations are included in the final browser audit.
