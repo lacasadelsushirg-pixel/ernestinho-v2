@@ -149,16 +149,8 @@ buziosGuidePages[ROOT].sections=[
   item(T('Consulados y asistencia consular','Consulados e assistência consular','Consulates and consular assistance'),T('Qué hacer si pierdes documentos o necesitas apoyo.','O que fazer se perder documentos ou precisar de assistência.','What to do if you lose documents or need assistance.'),ROOT+'consulados/')
  ))
 ];
-buziosGuidePages[ROOT+'aeropuertos/'].bookingTable={
- title:T('Tarifas publicadas de transfer privado desde Galeão (GIG)','Tarifas publicadas de transfer privativo saindo do Galeão (GIG)','Published private transfer fares from Galeão (GIG)'),
- valid:T('Vigentes hasta el 31 de octubre de 2026; confirmar precio y disponibilidad al reservar.','Válidas até 31 de outubro de 2026; confirme preço e disponibilidade ao reservar.','Valid through 31 October 2026; confirm price and availability when booking.'),
- columns:[T('Vehículo','Veículo','Vehicle'),T('Tarifa publicada','Tarifa publicada','Published fare'),T('Reserva directa','Reserva direta','Book directly')],
- rows:[
-  {car:T('Sedán','Sedã','Sedan'),price:'R$ 420',href:WHATS+'Hola%20Ernestinho%2C%20quiero%20consultar%20transfer%20privado%20GIG%20-%20B%C3%BAzios%20sed%C3%A1n.%20Fecha%3A%20__%20%7C%20Vuelo%3A%20__%20%7C%20Pasajeros%3A%20__%20%7C%20Maletas%3A%20__%20%7C%20Alojamiento%3A%20__'},
-  {car:T('Spin','Spin','Spin'),price:'R$ 470',href:WHATS+'Hola%20Ernestinho%2C%20quiero%20consultar%20transfer%20privado%20GIG%20-%20B%C3%BAzios%20Spin.%20Fecha%3A%20__%20%7C%20Vuelo%3A%20__%20%7C%20Pasajeros%3A%20__%20%7C%20Maletas%3A%20__%20%7C%20Alojamiento%3A%20__'},
-  {car:T('Doblò','Doblò','Doblò'),price:'R$ 620',href:WHATS+'Hola%20Ernestinho%2C%20quiero%20consultar%20transfer%20privado%20GIG%20-%20B%C3%BAzios%20Dobl%C3%B2.%20Fecha%3A%20__%20%7C%20Vuelo%3A%20__%20%7C%20Pasajeros%3A%20__%20%7C%20Maletas%3A%20__%20%7C%20Alojamiento%3A%20__'}
- ]
-};
+// Published transfer fares expired on 31/10/2026: never display an outdated price table.
+buziosGuidePages[ROOT+'aeropuertos/'].bookingTable=null;
 
 // Búzios-specific practical guidance: the three pages below intentionally
 // explain the whole process for a visitor who has never been to the peninsula.
@@ -322,4 +314,38 @@ const bzEcSection=(es,pt,en,esIntro,ptIntro,enIntro,arr)=>section(T(es,pt,en),T(
  bzEcCard('04 · Qué es una silla anfibia','04 · O que é uma cadeira anfíbia','04 · What is an amphibious chair?','Una silla anfibia está diseñada para facilitar el desplazamiento sobre arena y la entrada asistida en el agua. No debe confundirse con una silla de ruedas convencional ni asumirse que funciona sin personal de apoyo. Pregunta cómo se realiza la transferencia, si hay un protocolo de seguridad, y si el equipamiento se adapta a tus necesidades.','Uma cadeira anfíbia facilita o deslocamento na areia e a entrada assistida na água. Ela não substitui uma cadeira convencional nem dispensa apoio. Pergunte sobre transferência, segurança e adaptação às necessidades individuais.','An amphibious chair can help with movement over sand and assisted water entry. It is not an ordinary wheelchair and should not be assumed to work without support. Ask about transfers, safety procedures and suitability.',bzEcPhotos.access[3])
  ]));
  p.notice=T('Dato de Ernestinho: Mar para Todos (Búzios) no es el mismo proyecto que Praia Para Todos del Instituto Novo Ser. Confirma con la Secretaría municipal el funcionamiento actual antes de organizar tu visita a Praia da Azeda.','Dica do Ernestinho: Mar para Todos (Búzios) não é o mesmo projeto que Praia Para Todos, do Instituto Novo Ser. Confirme com a Secretaria municipal o funcionamento atual antes de visitar a Azeda.','Ernestinho’s tip: Búzios’ Mar para Todos is different from the Instituto Novo Ser’s Praia Para Todos. Confirm current municipal arrangements before planning an Azeda visit.');
+}
+
+// Editorial closure 06/11/2026: the index above is overwritten by a simplified hub.
+// Restore helpful intros and the live Búzios insurance and vaccine guide links.
+{
+ const hub=buziosGuidePages[ROOT];
+ hub.intro=T('Resuelve primero fechas, movilidad y asistencia; cada tema abre una guía propia de Búzios.','Resolva primeiro datas, mobilidade e assistência; cada tema abre seu guia específico de Búzios.','Plan dates, transport and healthcare with dedicated Búzios guides.');
+ const leads=[
+  T('Clima, accesibilidad y cómo viajar a tu ritmo.','Clima, acessibilidade e sua forma de viajar.','Weather, access and travel at your pace.'),
+  T('La llegada, el transporte local y el último tramo a tu dirección.','Chegada, transporte local e último trecho até seu endereço.','Arriving, moving locally and reaching your exact address.'),
+  T('Prevención y ayuda: vacunas, emergencias, consulado y seguro.','Prevenção e assistência: vacinas, emergências, consulado e seguro.','Preparation and support: vaccines, emergencies, consulates and insurance.')
+ ];
+ hub.sections.slice(0,3).forEach((sec,i)=>{sec.lead=leads[i]});
+ if(!hub.sections[2].items.some(it=>it.href===ROOT+'vacunas/'))
+  hub.sections[2].items.push(item(T('Vacunas y prevención','Vacinas e prevenção','Vaccines and prevention'),T('Recomendaciones oficiales de vacunación y protección contra mosquitos.','Recomendações oficiais de vacinação e proteção contra mosquitos.','Official vaccine and mosquito-bite prevention guidance.'),ROOT+'vacunas/'));
+ if(!hub.sections[2].items.some(it=>it.href===ROOT+'seguro/'))
+  hub.sections[2].items.push(item(T('Seguro de viaje y salud','Seguro viagem e saúde','Travel insurance and health'),T('Cobertura, asistencia y enlace propio de Assist Card.','Cobertura, assistência e link próprio da Assist Card.','Coverage, assistance and Ernestinho’s Assist Card link.'),ROOT+'seguro/'));
+ const air=buziosGuidePages[ROOT+'aeropuertos/'];
+ air.bookingTable=null;
+ for(const sec of air.sections||[]){
+  for(const it of sec.items||[]){
+   const wording=[it.title?.ES||'',it.text?.ES||''].join(' ');
+   if(/Traslado privado desde GIG: tarifas disponibles|Tarifa publicada para Galeão|R\$ 420|R\$ 470|R\$ 620/.test(wording)){
+    it.title=T('Traslado privado desde GIG: cotización actual','Transfer privativo do GIG: cotação atual','Private transfer from GIG: current quote');
+    it.text=T('Los precios publicados hasta octubre de 2026 ya no están vigentes. Solicita un valor actualizado por escrito para Búzios según fecha, origen, barrio, pasajeros, equipaje y vehículo; comprueba la política de espera y cancelación.','Os preços publicados até outubro de 2026 não estão mais vigentes. Solicite cotação atual por escrito para Búzios conforme data, origem, bairro, passageiros, bagagem e veículo; confira espera e cancelamento.','Prices published through October 2026 have expired. Request a current written quote for Búzios based on date, pick-up point, area, passengers, luggage and vehicle; check waiting and cancellation terms.');
+    it.actions=[action(['Consultar traslado actual','Consultar transfer atual','Request a current transfer quote'],WHATS+'Hola%20Ernestinho%2C%20quiero%20cotizar%20traslado%20GIG%20a%20Buzios.%20Fecha%3A%20__%20Pasajeros%3A%20__%20Maletas%3A%20__%20Barrio%3A%20__')];
+   }
+   if(/Una tabla para reservar desde Galeão|tabla de abajo muestra los valores publicados/.test(wording)){
+    it.title=T('Solicita una cotización actualizada','Peça uma cotação atualizada','Request a current quote');
+    it.text=T('No utilices tarifas vencidas. Para cotizar informa vuelo, fecha, hora, pasajeros, equipaje, dirección final y necesidades especiales. Confirma precio total y condiciones antes de pagar.','Não use tarifas vencidas. Informe voo, data, horário, passageiros, bagagem, endereço final e necessidades especiais. Confirme valor total e condições antes de pagar.','Do not rely on expired fares. Provide flight, date, time, passenger and luggage counts, final address and special needs. Confirm total price and terms before paying.');
+    it.actions=[action(['Consultar por WhatsApp','Consultar pelo WhatsApp','Enquire on WhatsApp'],WHATS+'Hola%20Ernestinho%2C%20me%20puedes%20cotizar%20un%20traslado%20a%20Buzios%3F')];
+   }
+  }
+ }
 }
