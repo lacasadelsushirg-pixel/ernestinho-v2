@@ -64,7 +64,7 @@ for(const route of routes){
   <div id="bz-app"><main><h1>Búzios con Ernestinho Carioca</h1><p>Guía editorial y experiencias para preparar una estadía en Búzios.</p></main></div>
   <section class="ec-corporate-closing" id="bz-footer"></section>
   <script type="module" src="/assets/js/site.js"></script>
-  <script type="module" src="/assets/js/buzios-page.js"></script>
+  <script type="module" src="/assets/js/buzios-page.js?v=20261106-catalog-fotos"></script>
 </body>
 </html>`;
   fs.mkdirSync(path.dirname(destination),{recursive:true});

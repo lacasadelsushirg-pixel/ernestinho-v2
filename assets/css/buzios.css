@@ -421,3 +421,6 @@ body.bz-rio-active:has(.bz-solo){background:#103d3c}
 
 /* Allow existing neighbourhood related links to wrap on narrow screens. */
 .bz-neighborhood-related{flex-wrap:wrap;min-width:0}.bz-neighborhood-related>a{min-width:0;max-width:100%;overflow-wrap:anywhere}
+
+/* Supplement panels inherit their available width on mobile. */
+.bz-experience-supplement .bz-wrap{width:100%;max-width:100%;box-sizing:border-box}
