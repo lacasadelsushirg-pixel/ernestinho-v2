@@ -1,0 +1,3009 @@
+{
+  "date": "2026-11-06",
+  "checkedSourceCommit": "e4d611ec0576f35676cfa0e277593bce96980053",
+  "serverPages": 249,
+  "failures": [],
+  "rows": [
+    {
+      "path": "pt/destinos/buzios/eventos/aniversario/index.html",
+      "bytes": 12737,
+      "h1": [
+        "Aniversário de Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/eventos/aniversario/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/eventos/aniversario/index.html",
+      "bytes": 12656,
+      "h1": [
+        "Aniversario de Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/eventos/aniversario/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/eventos/degusta/index.html",
+      "bytes": 11036,
+      "h1": [
+        "Degusta Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/eventos/degusta/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/eventos/aniversario/index.html",
+      "bytes": 12525,
+      "h1": [
+        "Búzios City Anniversary"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/eventos/aniversario/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/eventos/degusta/index.html",
+      "bytes": 11138,
+      "h1": [
+        "Degusta Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/eventos/degusta/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/eventos/carnaval/index.html",
+      "bytes": 11003,
+      "h1": [
+        "Carnival in Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/eventos/carnaval/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/eventos/degusta/index.html",
+      "bytes": 10931,
+      "h1": [
+        "Degusta Búzios Food Festival"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/eventos/degusta/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/eventos/carnaval/index.html",
+      "bytes": 11086,
+      "h1": [
+        "Carnaval en Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/eventos/carnaval/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/eventos/festa-literaria/index.html",
+      "bytes": 11263,
+      "h1": [
+        "Festa Literária"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/eventos/festa-literaria/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/eventos/carnaval/index.html",
+      "bytes": 11074,
+      "h1": [
+        "Carnaval em Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/eventos/carnaval/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/eventos/festa-literaria/index.html",
+      "bytes": 11317,
+      "h1": [
+        "Festa Literária"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/eventos/festa-literaria/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/eventos/festa-literaria/index.html",
+      "bytes": 11151,
+      "h1": [
+        "Búzios Literary Festival"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/eventos/festa-literaria/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/eventos/sailing-week/index.html",
+      "bytes": 10981,
+      "h1": [
+        "Búzios Sailing Week"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/eventos/sailing-week/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/eventos/jazz-blues/index.html",
+      "bytes": 11035,
+      "h1": [
+        "Jazz &amp; Blues"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/eventos/jazz-blues/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/eventos/jazz-blues/index.html",
+      "bytes": 11105,
+      "h1": [
+        "Jazz &amp; Blues"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/eventos/jazz-blues/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/eventos/reveillon/index.html",
+      "bytes": 11120,
+      "h1": [
+        "Año Nuevo en Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/eventos/reveillon/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/eventos/reveillon/index.html",
+      "bytes": 11115,
+      "h1": [
+        "Réveillon em Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/eventos/reveillon/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/eventos/reveillon/index.html",
+      "bytes": 10996,
+      "h1": [
+        "New Year in Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/eventos/reveillon/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/eventos/jazz-blues/index.html",
+      "bytes": 10870,
+      "h1": [
+        "Jazz &amp; Blues"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/eventos/jazz-blues/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/eventos/santanna/index.html",
+      "bytes": 11123,
+      "h1": [
+        "Fiesta de Sant’Anna"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/eventos/santanna/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/eventos/sailing-week/index.html",
+      "bytes": 11188,
+      "h1": [
+        "Búzios Sailing Week"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/eventos/sailing-week/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/eventos/santanna/index.html",
+      "bytes": 11150,
+      "h1": [
+        "Festa de Sant’Anna"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/eventos/santanna/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/eventos/sailing-week/index.html",
+      "bytes": 11167,
+      "h1": [
+        "Búzios Sailing Week"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/eventos/sailing-week/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/eventos/santanna/index.html",
+      "bytes": 10889,
+      "h1": [
+        "Sant’Anna Festival"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/eventos/santanna/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/eventos/wine-in-buzios/index.html",
+      "bytes": 11144,
+      "h1": [
+        "Wine in Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/eventos/wine-in-buzios/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/eventos/wine-in-buzios/index.html",
+      "bytes": 11229,
+      "h1": [
+        "Wine in Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/eventos/wine-in-buzios/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/eventos/wine-in-buzios/index.html",
+      "bytes": 10932,
+      "h1": [
+        "Wine in Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/eventos/wine-in-buzios/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/apps/index.html",
+      "bytes": 9569,
+      "h1": [
+        "Apps útiles · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/apps/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/apps/index.html",
+      "bytes": 9254,
+      "h1": [
+        "Aplicativos úteis · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/apps/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/apps/index.html",
+      "bytes": 9041,
+      "h1": [
+        "Useful apps · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/apps/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/donde-alojarse/index.html",
+      "bytes": 13123,
+      "h1": [
+        "Dónde alojarse en Búzios · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/donde-alojarse/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/donde-alojarse/index.html",
+      "bytes": 12620,
+      "h1": [
+        "Onde ficar em Búzios · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/donde-alojarse/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/donde-alojarse/index.html",
+      "bytes": 12449,
+      "h1": [
+        "Where to stay in Búzios · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/donde-alojarse/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/documentos/index.html",
+      "bytes": 25814,
+      "h1": [
+        "Documentos y entrada · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/documentos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/documentos/index.html",
+      "bytes": 26032,
+      "h1": [
+        "Documentos e entrada · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/documentos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/documentos/index.html",
+      "bytes": 25440,
+      "h1": [
+        "Documents and entry · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/documentos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/permanencia/index.html",
+      "bytes": 18741,
+      "h1": [
+        "Permanencia y extensión · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/permanencia/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/permanencia/index.html",
+      "bytes": 18733,
+      "h1": [
+        "Permanência e prorrogação · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/permanencia/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/permanencia/index.html",
+      "bytes": 18472,
+      "h1": [
+        "Length of stay and extensions · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/permanencia/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/moverse/index.html",
+      "bytes": 19181,
+      "h1": [
+        "Cómo moverse · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/moverse/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/moverse/index.html",
+      "bytes": 18308,
+      "h1": [
+        "Como se locomover · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/moverse/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/moverse/index.html",
+      "bytes": 18079,
+      "h1": [
+        "Getting around · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/moverse/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/armacao/index.html",
+      "bytes": 11338,
+      "h1": [
+        "Armação e Orla Bardot"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/armacao/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/armacao/index.html",
+      "bytes": 11208,
+      "h1": [
+        "Armação and Orla Bardot"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/armacao/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/brava/index.html",
+      "bytes": 10729,
+      "h1": [
+        "Brava"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/brava/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/ferradura/index.html",
+      "bytes": 10757,
+      "h1": [
+        "Ferradura"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/ferradura/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/brava/index.html",
+      "bytes": 10602,
+      "h1": [
+        "Brava"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/brava/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/ferradura/index.html",
+      "bytes": 10679,
+      "h1": [
+        "Ferradura"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/ferradura/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/brava/index.html",
+      "bytes": 10389,
+      "h1": [
+        "Brava"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/brava/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/ferradura/index.html",
+      "bytes": 10533,
+      "h1": [
+        "Ferradura"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/ferradura/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/armacao/index.html",
+      "bytes": 11544,
+      "h1": [
+        "Armação y Orla Bardot"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/armacao/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/centro/index.html",
+      "bytes": 11709,
+      "h1": [
+        "Centro, Rua das Pedras y Canto"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/centro/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/centro/index.html",
+      "bytes": 11567,
+      "h1": [
+        "Centro, Rua das Pedras e Canto"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/centro/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/centro/index.html",
+      "bytes": 11356,
+      "h1": [
+        "Downtown, Rua das Pedras and Canto"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/centro/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/geriba/index.html",
+      "bytes": 11870,
+      "h1": [
+        "Geribá"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/geriba/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/geriba/index.html",
+      "bytes": 11688,
+      "h1": [
+        "Geribá"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/geriba/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/geriba/index.html",
+      "bytes": 11483,
+      "h1": [
+        "Geribá"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/geriba/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/humaita/index.html",
+      "bytes": 10709,
+      "h1": [
+        "Humaitá"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/humaita/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/humaita/index.html",
+      "bytes": 10544,
+      "h1": [
+        "Humaitá"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/humaita/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/manguinhos-porto-da-barra/index.html",
+      "bytes": 11108,
+      "h1": [
+        "Manguinhos y Porto da Barra"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/manguinhos-porto-da-barra/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/manguinhos-porto-da-barra/index.html",
+      "bytes": 11013,
+      "h1": [
+        "Manguinhos e Porto da Barra"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/manguinhos-porto-da-barra/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/humaita/index.html",
+      "bytes": 10457,
+      "h1": [
+        "Humaitá"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/humaita/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/joao-fernandes/index.html",
+      "bytes": 12004,
+      "h1": [
+        "João Fernandes"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/joao-fernandes/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/manguinhos-porto-da-barra/index.html",
+      "bytes": 10837,
+      "h1": [
+        "Manguinhos and Porto da Barra"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/manguinhos-porto-da-barra/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/joao-fernandes/index.html",
+      "bytes": 11739,
+      "h1": [
+        "João Fernandes"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/joao-fernandes/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/jose-goncalves-caravelas/index.html",
+      "bytes": 11060,
+      "h1": [
+        "José Gonçalves y Caravelas"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/jose-goncalves-caravelas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/joao-fernandes/index.html",
+      "bytes": 11488,
+      "h1": [
+        "João Fernandes"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/joao-fernandes/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/jose-goncalves-caravelas/index.html",
+      "bytes": 10989,
+      "h1": [
+        "José Gonçalves e Caravelas"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/jose-goncalves-caravelas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/jose-goncalves-caravelas/index.html",
+      "bytes": 10843,
+      "h1": [
+        "José Gonçalves and Caravelas"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/jose-goncalves-caravelas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/ossos/index.html",
+      "bytes": 11707,
+      "h1": [
+        "Ossos"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/ossos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/ossos/index.html",
+      "bytes": 11500,
+      "h1": [
+        "Ossos"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/ossos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/ossos/index.html",
+      "bytes": 11163,
+      "h1": [
+        "Ossos"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/ossos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/rasa-marina-baia-formosa/index.html",
+      "bytes": 10854,
+      "h1": [
+        "Rasa, Marina y Baía Formosa"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/rasa-marina-baia-formosa/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/rasa-marina-baia-formosa/index.html",
+      "bytes": 10756,
+      "h1": [
+        "Rasa, Marina e Baía Formosa"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/rasa-marina-baia-formosa/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/rasa-marina-baia-formosa/index.html",
+      "bytes": 10603,
+      "h1": [
+        "Rasa, Marina and Baía Formosa"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/rasa-marina-baia-formosa/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/tartaruga/index.html",
+      "bytes": 10910,
+      "h1": [
+        "Tartaruga"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/tartaruga/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/tartaruga/index.html",
+      "bytes": 10821,
+      "h1": [
+        "Tartaruga"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/tartaruga/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/tartaruga/index.html",
+      "bytes": 10553,
+      "h1": [
+        "Tartaruga"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/tartaruga/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/tucuns-cem-bracas/index.html",
+      "bytes": 10572,
+      "h1": [
+        "Tucuns y Cem Braças"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/tucuns-cem-bracas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/tucuns-cem-bracas/index.html",
+      "bytes": 10434,
+      "h1": [
+        "Tucuns e Cem Braças"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/tucuns-cem-bracas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/tucuns-cem-bracas/index.html",
+      "bytes": 10346,
+      "h1": [
+        "Tucuns and Cem Braças"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/tucuns-cem-bracas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/con-ninos/index.html",
+      "bytes": 14564,
+      "h1": [
+        "Búzios con niños: juegos, cine y playa"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/con-ninos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/con-ninos/index.html",
+      "bytes": 14434,
+      "h1": [
+        "Búzios com crianças: brincadeiras, cinema e praia"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/con-ninos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/eventos/index.html",
+      "bytes": 31132,
+      "h1": [
+        "Eventos en Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/eventos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/eventos/index.html",
+      "bytes": 31432,
+      "h1": [
+        "Eventos em Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/eventos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/eventos/index.html",
+      "bytes": 31075,
+      "h1": [
+        "Events in Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/eventos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": true,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/fotografias/index.html",
+      "bytes": 15514,
+      "h1": [
+        "Fotografiar Búzios."
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/fotografias/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/con-ninos/index.html",
+      "bytes": 14339,
+      "h1": [
+        "Búzios with children: play, cinema and the beach"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/con-ninos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/compras/index.html",
+      "bytes": 14642,
+      "h1": [
+        "Compras en Búzios, con identidad local"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/compras/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/fotografias/index.html",
+      "bytes": 15383,
+      "h1": [
+        "Fotografar Búzios."
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/fotografias/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/compras/index.html",
+      "bytes": 14374,
+      "h1": [
+        "Compras em Búzios com identidade local"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/compras/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/fotografias/index.html",
+      "bytes": 15211,
+      "h1": [
+        "Photographing Búzios."
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/fotografias/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/compras/index.html",
+      "bytes": 14284,
+      "h1": [
+        "Shopping in Búzios with local character"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/compras/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/accesibilidad/index.html",
+      "bytes": 19473,
+      "h1": [
+        "Accesibilidad en Búzios: cómo comprobar cada tramo"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/accesibilidad/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/accesibilidad/index.html",
+      "bytes": 14119,
+      "h1": [
+        "Acessibilidade em Búzios: como conferir cada trecho"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/accesibilidad/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/accesibilidad/index.html",
+      "bytes": 13982,
+      "h1": [
+        "Accessibility in Búzios: check every part of the journey"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/accesibilidad/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/alquiler-auto/index.html",
+      "bytes": 14991,
+      "h1": [
+        "Alquiler de auto y buggy"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/alquiler-auto/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/alquiler-auto/index.html",
+      "bytes": 14436,
+      "h1": [
+        "Aluguel de carro e buggy"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/alquiler-auto/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/index.html",
+      "bytes": 11988,
+      "h1": [
+        "Guía de Búzios."
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/",
+      "topics": 23,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/index.html",
+      "bytes": 12085,
+      "h1": [
+        "Guia de Búzios."
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/",
+      "topics": 23,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/alquiler-auto/index.html",
+      "bytes": 14026,
+      "h1": [
+        "Car and buggy rental"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/alquiler-auto/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/index.html",
+      "bytes": 12059,
+      "h1": [
+        "Búzios guide."
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/",
+      "topics": 23,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/salud-emergencias/index.html",
+      "bytes": 14929,
+      "h1": [
+        "Salud y emergencias en Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/salud-emergencias/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/consulados/index.html",
+      "bytes": 13190,
+      "h1": [
+        "Consulados y asistencia consular desde Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/consulados/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/salud-emergencias/index.html",
+      "bytes": 11353,
+      "h1": [
+        "Saúde e emergências em Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/salud-emergencias/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/consulados/index.html",
+      "bytes": 9922,
+      "h1": [
+        "Consulados e assistência consular a partir de Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/consulados/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/salud-emergencias/index.html",
+      "bytes": 11122,
+      "h1": [
+        "Health and emergencies in Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/salud-emergencias/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/consulados/index.html",
+      "bytes": 9860,
+      "h1": [
+        "Consulates and consular assistance from Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/consulados/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/terminal/index.html",
+      "bytes": 13285,
+      "h1": [
+        "Terminal de autobuses de Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/terminal/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/terminal/index.html",
+      "bytes": 11356,
+      "h1": [
+        "Rodoviária de Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/terminal/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/terminal/index.html",
+      "bytes": 11260,
+      "h1": [
+        "Búzios bus terminal"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/terminal/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/mes-a-mes/index.html",
+      "bytes": 40087,
+      "h1": [
+        "Búzios mes a mes: cómo elegir cuándo ir"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/mes-a-mes/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/mes-a-mes/index.html",
+      "bytes": 35293,
+      "h1": [
+        "Búzios mês a mês: como escolher quando ir"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/mes-a-mes/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/mes-a-mes/index.html",
+      "bytes": 33892,
+      "h1": [
+        "Búzios month by month: when to go"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/mes-a-mes/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/seguro/index.html",
+      "bytes": 11198,
+      "h1": [
+        "Seguro de viaje y atención médica en Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/seguro/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/seguro/index.html",
+      "bytes": 10995,
+      "h1": [
+        "Seguro viagem e atendimento médico em Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/seguro/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/seguro/index.html",
+      "bytes": 10863,
+      "h1": [
+        "Travel insurance and healthcare in Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/seguro/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/armacao/index.html",
+      "bytes": 10071,
+      "h1": [
+        "Armação · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/armacao/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/vacunas/index.html",
+      "bytes": 11301,
+      "h1": [
+        "Vacunas y prevención para viajar a Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/vacunas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/viajar-solo/index.html",
+      "bytes": 18836,
+      "h1": [
+        "Viajar solo o sola a Búzios: una guía completa"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/viajar-solo/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/vacunas/index.html",
+      "bytes": 11048,
+      "h1": [
+        "Vacinas e prevenção para viajar a Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/vacunas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/vacunas/index.html",
+      "bytes": 10638,
+      "h1": [
+        "Vaccines and prevention for Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/vacunas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/viajar-solo/index.html",
+      "bytes": 11026,
+      "h1": [
+        "Viajar sozinho ou sozinha a Búzios: guia completo"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/viajar-solo/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/amores/index.html",
+      "bytes": 9647,
+      "h1": [
+        "Amores · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/amores/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/viajar-solo/index.html",
+      "bytes": 10770,
+      "h1": [
+        "Solo travel to Búzios: a complete guide"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/viajar-solo/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/amores/index.html",
+      "bytes": 9440,
+      "h1": [
+        "Amores · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/amores/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/armacao/index.html",
+      "bytes": 10218,
+      "h1": [
+        "Armação · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/armacao/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/amores/index.html",
+      "bytes": 9467,
+      "h1": [
+        "Amores · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/amores/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/armacao/index.html",
+      "bytes": 9991,
+      "h1": [
+        "Armação · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/armacao/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/canto/index.html",
+      "bytes": 9557,
+      "h1": [
+        "Canto · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/canto/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/canto/index.html",
+      "bytes": 9245,
+      "h1": [
+        "Canto · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/canto/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/canto/index.html",
+      "bytes": 9277,
+      "h1": [
+        "Canto · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/canto/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/brava/index.html",
+      "bytes": 9700,
+      "h1": [
+        "Brava · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/brava/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/brava/index.html",
+      "bytes": 9442,
+      "h1": [
+        "Brava · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/brava/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/brava/index.html",
+      "bytes": 9499,
+      "h1": [
+        "Brava · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/brava/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/foca/index.html",
+      "bytes": 9467,
+      "h1": [
+        "Foca · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/foca/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/foca/index.html",
+      "bytes": 9214,
+      "h1": [
+        "Foca · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/foca/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/foca/index.html",
+      "bytes": 9299,
+      "h1": [
+        "Foca · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/foca/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/caravelas/index.html",
+      "bytes": 9729,
+      "h1": [
+        "Caravelas · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/caravelas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/caravelas/index.html",
+      "bytes": 9453,
+      "h1": [
+        "Caravelas · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/caravelas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/caravelas/index.html",
+      "bytes": 9382,
+      "h1": [
+        "Caravelas · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/caravelas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/ferradurinha/index.html",
+      "bytes": 9770,
+      "h1": [
+        "Ferradurinha · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/ferradurinha/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/geriba/index.html",
+      "bytes": 9613,
+      "h1": [
+        "Geribá · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/geriba/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/ferradurinha/index.html",
+      "bytes": 9458,
+      "h1": [
+        "Ferradurinha · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/ferradurinha/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/manguinhos/index.html",
+      "bytes": 10028,
+      "h1": [
+        "Manguinhos · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/manguinhos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/manguinhos/index.html",
+      "bytes": 9769,
+      "h1": [
+        "Manguinhos · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/manguinhos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/ferradurinha/index.html",
+      "bytes": 9474,
+      "h1": [
+        "Ferradurinha · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/ferradurinha/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/manguinhos/index.html",
+      "bytes": 9707,
+      "h1": [
+        "Manguinhos · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/manguinhos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/geriba/index.html",
+      "bytes": 9776,
+      "h1": [
+        "Geribá · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/geriba/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/jose-goncalves/index.html",
+      "bytes": 9869,
+      "h1": [
+        "José Gonçalves · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/jose-goncalves/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/geriba/index.html",
+      "bytes": 9517,
+      "h1": [
+        "Geribá · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/geriba/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/jose-goncalves/index.html",
+      "bytes": 9532,
+      "h1": [
+        "José Gonçalves · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/jose-goncalves/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/jose-goncalves/index.html",
+      "bytes": 9709,
+      "h1": [
+        "José Gonçalves · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/jose-goncalves/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/ossos/index.html",
+      "bytes": 9689,
+      "h1": [
+        "Ossos · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/ossos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/ossos/index.html",
+      "bytes": 9417,
+      "h1": [
+        "Ossos · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/ossos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/ossos/index.html",
+      "bytes": 9537,
+      "h1": [
+        "Ossos · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/ossos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/rasa/index.html",
+      "bytes": 9490,
+      "h1": [
+        "Rasa · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/rasa/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/rasa/index.html",
+      "bytes": 9205,
+      "h1": [
+        "Rasa · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/rasa/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/rasa/index.html",
+      "bytes": 9148,
+      "h1": [
+        "Rasa · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/rasa/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/tucuns/index.html",
+      "bytes": 9422,
+      "h1": [
+        "Tucuns · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/tucuns/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/tucuns/index.html",
+      "bytes": 9134,
+      "h1": [
+        "Tucuns · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/tucuns/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/tucuns/index.html",
+      "bytes": 9202,
+      "h1": [
+        "Tucuns · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/tucuns/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/virgens/index.html",
+      "bytes": 9122,
+      "h1": [
+        "Virgens · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/virgens/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/virgens/index.html",
+      "bytes": 8857,
+      "h1": [
+        "Virgens · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/virgens/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/virgens/index.html",
+      "bytes": 8910,
+      "h1": [
+        "Virgens · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/virgens/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/que-hacer/cultura/index.html",
+      "bytes": 14509,
+      "h1": [
+        "Cultura de Búzios: arte, memoria y vida local"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/que-hacer/cultura/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/que-hacer/cultura/index.html",
+      "bytes": 14255,
+      "h1": [
+        "Cultura em Búzios: arte, memória e vida local"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/que-hacer/cultura/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/que-hacer/cultura/index.html",
+      "bytes": 14155,
+      "h1": [
+        "Búzios culture: art, memory and local life"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/que-hacer/cultura/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/que-hacer/museos-teatros-iglesias/index.html",
+      "bytes": 15290,
+      "h1": [
+        "Museus, teatros e igrejas de Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/que-hacer/museos-teatros-iglesias/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/que-hacer/museos-teatros-iglesias/index.html",
+      "bytes": 14586,
+      "h1": [
+        "Museums, theatres and churches in Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/que-hacer/museos-teatros-iglesias/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/transportes/uber-99/index.html",
+      "bytes": 9798,
+      "h1": [
+        "Uber y 99 en Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/transportes/uber-99/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/que-hacer/index.html",
+      "bytes": 11700,
+      "h1": [
+        "Qué hacer en Búzios: cuatro ideas para empezar"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/que-hacer/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/transportes/uber-99/index.html",
+      "bytes": 9403,
+      "h1": [
+        "Uber e 99 em Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/transportes/uber-99/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/que-hacer/index.html",
+      "bytes": 11690,
+      "h1": [
+        "O que fazer em Búzios: quatro caminhos para começar"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/que-hacer/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/transportes/uber-99/index.html",
+      "bytes": 9388,
+      "h1": [
+        "Uber and 99 in Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/transportes/uber-99/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/que-hacer/index.html",
+      "bytes": 11535,
+      "h1": [
+        "Things to do in Búzios: four ways to start"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/que-hacer/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/transportes/barco-taxi/index.html",
+      "bytes": 9340,
+      "h1": [
+        "Taxi acuático en Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/transportes/barco-taxi/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/que-hacer/museos-teatros-iglesias/index.html",
+      "bytes": 14897,
+      "h1": [
+        "Museos, teatros e iglesias de Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/que-hacer/museos-teatros-iglesias/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/transportes/barco-taxi/index.html",
+      "bytes": 8960,
+      "h1": [
+        "Táxi aquático em Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/transportes/barco-taxi/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/transportes/barco-taxi/index.html",
+      "bytes": 8889,
+      "h1": [
+        "Water taxis in Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/transportes/barco-taxi/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/transportes/alquiler-autos/index.html",
+      "bytes": 15047,
+      "h1": [
+        "Alquiler de auto y buggy"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/transportes/alquiler-autos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/transportes/alquiler-autos/index.html",
+      "bytes": 14492,
+      "h1": [
+        "Aluguel de carro e buggy"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/transportes/alquiler-autos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/transportes/alquiler-autos/index.html",
+      "bytes": 14082,
+      "h1": [
+        "Car and buggy rental"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/transportes/alquiler-autos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/transportes/onibus/index.html",
+      "bytes": 19250,
+      "h1": [
+        "Ómnibus en Búzios: Cabo Frio, Arraial y llegada"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/transportes/onibus/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/transportes/onibus/index.html",
+      "bytes": 18284,
+      "h1": [
+        "Ônibus em Búzios: Cabo Frio, Arraial e chegada"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/transportes/onibus/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/transportes/onibus/index.html",
+      "bytes": 18068,
+      "h1": [
+        "Búzios buses: Cabo Frio, Arraial and arrivals"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/transportes/onibus/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/transportes/vans/index.html",
+      "bytes": 19231,
+      "h1": [
+        "Vans en Búzios: rutas, playas y cómo usarlas"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/transportes/vans/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/transportes/vans/index.html",
+      "bytes": 18353,
+      "h1": [
+        "Vans em Búzios: trajetos, praias e como usar"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/transportes/vans/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/transportes/vans/index.html",
+      "bytes": 18127,
+      "h1": [
+        "Búzios vans: routes, beaches and how to ride"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/transportes/vans/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/cpf/index.html",
+      "bytes": 20001,
+      "h1": [
+        "CPF for foreign visitors · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/cpf/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/dinero/index.html",
+      "bytes": 18282,
+      "h1": [
+        "Dinero y tarjetas · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/dinero/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/guarda-equipaje/index.html",
+      "bytes": 25096,
+      "h1": [
+        "Guarda equipaje · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/guarda-equipaje/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/dinero/index.html",
+      "bytes": 18145,
+      "h1": [
+        "Dinheiro e cartões · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/dinero/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/guarda-equipaje/index.html",
+      "bytes": 24112,
+      "h1": [
+        "Guarda-volumes · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/guarda-equipaje/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/dinero/index.html",
+      "bytes": 18025,
+      "h1": [
+        "Money and cards · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/dinero/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/guarda-equipaje/index.html",
+      "bytes": 23874,
+      "h1": [
+        "Luggage storage · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/guarda-equipaje/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/cpf/index.html",
+      "bytes": 20551,
+      "h1": [
+        "CPF para extranjeros · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/cpf/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/electricidad/index.html",
+      "bytes": 16333,
+      "h1": [
+        "Enchufes y voltaje · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/electricidad/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/cpf/index.html",
+      "bytes": 20346,
+      "h1": [
+        "CPF para estrangeiros · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/cpf/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/electricidad/index.html",
+      "bytes": 16317,
+      "h1": [
+        "Tomadas e voltagem · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/electricidad/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/electricidad/index.html",
+      "bytes": 16103,
+      "h1": [
+        "Plugs and voltage · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/electricidad/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/internet/index.html",
+      "bytes": 20937,
+      "h1": [
+        "Internet y eSIM · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/internet/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/internet/index.html",
+      "bytes": 20727,
+      "h1": [
+        "Internet e eSIM · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/internet/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/internet/index.html",
+      "bytes": 20660,
+      "h1": [
+        "Internet and eSIM · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/internet/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/pix/index.html",
+      "bytes": 21919,
+      "h1": [
+        "Guía completa de Pix · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/pix/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/pix/index.html",
+      "bytes": 21743,
+      "h1": [
+        "Guia completo de Pix · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/pix/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/menores/index.html",
+      "bytes": 20725,
+      "h1": [
+        "Viajar com menores · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/menores/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/pix/index.html",
+      "bytes": 21384,
+      "h1": [
+        "Complete Pix guide · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/pix/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/maletas/index.html",
+      "bytes": 18184,
+      "h1": [
+        "Maleta y clima · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/maletas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/menores/index.html",
+      "bytes": 20605,
+      "h1": [
+        "Travelling with children · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/menores/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/barrios/index.html",
+      "bytes": 7911,
+      "h1": [
+        "Barrios de Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/barrios/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/maletas/index.html",
+      "bytes": 17867,
+      "h1": [
+        "Mala e clima · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/maletas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/maletas/index.html",
+      "bytes": 17707,
+      "h1": [
+        "Packing and weather · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/maletas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/barrios/index.html",
+      "bytes": 7987,
+      "h1": [
+        "Bairros de Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/barrios/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/menores/index.html",
+      "bytes": 20909,
+      "h1": [
+        "Viajar con menores · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/menores/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/barrios/index.html",
+      "bytes": 8025,
+      "h1": [
+        "Búzios neighbourhoods"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/barrios/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/guia/aeropuertos/index.html",
+      "bytes": 16742,
+      "h1": [
+        "Aeropuertos y cómo llegar a Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/aeropuertos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/guia/aeropuertos/index.html",
+      "bytes": 14824,
+      "h1": [
+        "Aeroportos e como chegar a Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/guia/aeropuertos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/ferradura/index.html",
+      "bytes": 9621,
+      "h1": [
+        "Ferradura · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/ferradura/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/ferradura/index.html",
+      "bytes": 9304,
+      "h1": [
+        "Ferradura · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/ferradura/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/guia/aeropuertos/index.html",
+      "bytes": 14705,
+      "h1": [
+        "Airports and getting to Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/aeropuertos/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/ferradura/index.html",
+      "bytes": 9259,
+      "h1": [
+        "Ferradura · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/ferradura/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/azedinha/index.html",
+      "bytes": 9155,
+      "h1": [
+        "Azedinha · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/azedinha/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/azeda/index.html",
+      "bytes": 9557,
+      "h1": [
+        "Azeda · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/azeda/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/azeda/index.html",
+      "bytes": 9098,
+      "h1": [
+        "Azeda · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/azeda/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/azedinha/index.html",
+      "bytes": 8788,
+      "h1": [
+        "Azedinha · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/azedinha/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/azedinha/index.html",
+      "bytes": 8818,
+      "h1": [
+        "Azedinha · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/azedinha/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/azeda/index.html",
+      "bytes": 9031,
+      "h1": [
+        "Azeda · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/azeda/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/forno/index.html",
+      "bytes": 9051,
+      "h1": [
+        "Forno · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/forno/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/forno/index.html",
+      "bytes": 9117,
+      "h1": [
+        "Forno · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/forno/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/index.html",
+      "bytes": 21505,
+      "h1": [
+        "Las playas de Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/joao-fernandes/index.html",
+      "bytes": 10935,
+      "h1": [
+        "João Fernandes · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/joao-fernandes/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/index.html",
+      "bytes": 21605,
+      "h1": [
+        "As praias de Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/index.html",
+      "bytes": 21637,
+      "h1": [
+        "The beaches of Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/joao-fernandes/index.html",
+      "bytes": 10598,
+      "h1": [
+        "João Fernandes · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/joao-fernandes/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/forno/index.html",
+      "bytes": 9427,
+      "h1": [
+        "Forno · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/forno/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/joao-fernandes/index.html",
+      "bytes": 10628,
+      "h1": [
+        "João Fernandes · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/joao-fernandes/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/gorda/index.html",
+      "bytes": 9230,
+      "h1": [
+        "Gorda · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/gorda/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/gorda/index.html",
+      "bytes": 9021,
+      "h1": [
+        "Gorda · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/gorda/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/gorda/index.html",
+      "bytes": 9002,
+      "h1": [
+        "Gorda · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/gorda/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/olho-de-boi/index.html",
+      "bytes": 9525,
+      "h1": [
+        "Olho de Boi · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/olho-de-boi/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/olho-de-boi/index.html",
+      "bytes": 9322,
+      "h1": [
+        "Olho de Boi · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/olho-de-boi/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/olho-de-boi/index.html",
+      "ok": true,
+      "h1": [
+        "Olho de Boi · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/olho-de-boi/"
+    },
+    {
+      "path": "en/destinos/buzios/playas/tartaruga/index.html",
+      "bytes": 9417,
+      "h1": [
+        "Tartaruga · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/tartaruga/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "destinos/buzios/playas/joao-fernandinho/index.html",
+      "bytes": 9925,
+      "h1": [
+        "João Fernandinho · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/joao-fernandinho/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/joao-fernandinho/index.html",
+      "bytes": 9570,
+      "h1": [
+        "João Fernandinho · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/joao-fernandinho/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "en/destinos/buzios/playas/joao-fernandinho/index.html",
+      "ok": true,
+      "h1": [
+        "João Fernandinho · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/joao-fernandinho/"
+    },
+    {
+      "path": "destinos/buzios/playas/tartaruga/index.html",
+      "bytes": 9678,
+      "h1": [
+        "Tartaruga · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/tartaruga/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    },
+    {
+      "path": "pt/destinos/buzios/playas/tartaruga/index.html",
+      "bytes": 9350,
+      "h1": [
+        "Tartaruga · Búzios"
+      ],
+      "canonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/tartaruga/",
+      "topics": null,
+      "captions": 0,
+      "cacheVersion": null,
+      "ok": true
+    }
+  ],
+  "visualChecks": {
+    "local": 84,
+    "widths": [
+      1440,
+      390
+    ],
+    "languages": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "publicCriticalObserved": 20,
+    "publicExtendedObserved": 61,
+    "complete": false,
+    "interruption": "Executor became unavailable. Full public visual comparison and the native-CSS follow-up need review."
+  },
+  "sitemap": {
+    "valid": true,
+    "urls": 2604,
+    "missingMirroredIndexableUrls": 0
+  }
+}
