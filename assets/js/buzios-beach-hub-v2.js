@@ -1,3 +1,4 @@
+import './buzios-shell.js?v=20261105-rio-parity';
 import { getLanguage } from '/assets/js/i18n.js';
 import { beachIndex } from '/assets/js/buzios-beach-v2-data.js';
 import { buziosPhotos } from '/assets/js/buzios-photos.js';

@@ -1,0 +1,78 @@
+name: SEO locale-isolation preview (NO DEPLOY)
+on:
+  push:
+    branches:
+      - seo/traducciones-continuacion-lote2-20261102
+    paths:
+      - '.github/workflows/seo-preview-pilot.yml'
+      - 'scripts/build_multilingual.mjs'
+      - 'scripts/verify_rendered_editorial.mjs'
+      - 'scripts/verify_embedded_locale_pages.mjs'
+      - 'scripts/verify_legacy_page_dicts.mjs'
+      - 'gastronomia/**/index.html'
+      - 'scripts/audit_locale_seo_metadata.mjs'
+      - 'scripts/audit_flagged_variants.mjs'
+      - 'scripts/audit_rendered_shortcopy.mjs'
+      - 'scripts/editorial_shortcopy_translations.mjs'
+      - 'gastronomia/arp-bar/index.html'
+      - 'gastronomia/classico-leme/index.html'
+      - 'gastronomia/quiteria/index.html'
+      - 'gastronomia/cosmopolita/index.html'
+      - 'gastronomia/polis-sucos/index.html'
+      - 'assets/js/buzios-food-places.js'
+      - 'assets/js/buzios-restaurant-profile-view.js'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      VERCEL: '1'
+      EC_BUILD_WORKERS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - name: Install existing build dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Render ONLY 57 target routes, including Madame Bardot in ES/PT/EN (isolated runner)
+        run: node scripts/build_multilingual.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/,/gastronomia/bb-lanches/,/gastronomia/cavalo-marinho/,/gastronomia/confeitaria-manon/,/gastronomia/cafe-do-alto/,/gastronomia/casa-porto/,/gastronomia/ferro-e-farinha/,/gastronomia/gurume/,/gastronomia/nova-capela/,/gastronomia/jobi/,/gastronomia/aipo-aipim-920/,/gastronomia/arab-leblon/,/gastronomia/churrascaria-palace/,/gastronomia/pilograma-prime-grill/,/gastronomia/pesqueiro/,/gastronomia/kilograma-centro/,/gastronomia/point-de-grumari/,/gastronomia/temperarte-posto6/,/gastronomia/xian/,/gastronomia/shiso/,/gastronomia/nido-ristorante/,/gastronomia/sabor-das-aguas/,/gastronomia/rufino-parrilla/,/gastronomia/prana/,/gastronomia/cabanna/,/gastronomia/coisas-de-bamba/,/gastronomia/oro/,/gastronomia/lasai/,/gastronomia/sushi-leblon/,/gastronomia/polis-sucos/,/gastronomia/don-pascual/,/gastronomia/bira-de-guaratiba/,/gastronomia/joaquina/,/gastronomia/delirio/,/gastronomia/spesso/,/gastronomia/eclipse/,/gastronomia/majorica/,/gastronomia/arp-bar/,/gastronomia/classico-leme/,/gastronomia/quiteria/,/gastronomia/cosmopolita/,/destinos/buzios/comer-y-salir/madame-bardot/
+      - name: Audit ES/PT/EN SEO titles and descriptions on selected HTML (non-blocking)
+        run: node scripts/audit_locale_seo_metadata.mjs
+      - name: Audit 82 originally flagged PT/EN variants against isolated output
+        run: node scripts/audit_flagged_variants.mjs
+      - name: Verify 104 translated pages using source dictionaries and generated HTML
+        run: node scripts/verify_rendered_editorial.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/,/gastronomia/bb-lanches/,/gastronomia/cavalo-marinho/,/gastronomia/confeitaria-manon/,/gastronomia/cafe-do-alto/,/gastronomia/casa-porto/,/gastronomia/ferro-e-farinha/,/gastronomia/gurume/,/gastronomia/nova-capela/,/gastronomia/jobi/,/gastronomia/aipo-aipim-920/,/gastronomia/arab-leblon/,/gastronomia/churrascaria-palace/,/gastronomia/pilograma-prime-grill/,/gastronomia/pesqueiro/,/gastronomia/kilograma-centro/,/gastronomia/point-de-grumari/,/gastronomia/temperarte-posto6/,/gastronomia/xian/,/gastronomia/shiso/,/gastronomia/nido-ristorante/,/gastronomia/sabor-das-aguas/,/gastronomia/rufino-parrilla/,/gastronomia/prana/,/gastronomia/cabanna/,/gastronomia/coisas-de-bamba/,/gastronomia/oro/,/gastronomia/lasai/,/gastronomia/sushi-leblon/,/gastronomia/polis-sucos/,/gastronomia/don-pascual/,/gastronomia/bira-de-guaratiba/,/gastronomia/joaquina/,/gastronomia/delirio/,/gastronomia/spesso/,/gastronomia/eclipse/,/gastronomia/majorica/ --evidence
+      - name: Verify alignment of 21 repaired PT/EN restaurant dictionaries
+        run: node scripts/verify_legacy_page_dicts.mjs --rendered
+      - name: Verify 15 inline-locale generated pages
+        run: node scripts/verify_embedded_locale_pages.mjs
+      - name: Verify Madame Bardot Búzios content in Portuguese and English
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s dist/pt/destinos/buzios/comer-y-salir/madame-bardot/index.html
+          test -s dist/en/destinos/buzios/comer-y-salir/madame-bardot/index.html
+          grep -q 'Eu chegaria com a noite ainda pela frente' dist/pt/destinos/buzios/comer-y-salir/madame-bardot/index.html
+          grep -q 'I would arrive with the evening still ahead' dist/en/destinos/buzios/comer-y-salir/madame-bardot/index.html
+          grep -q 'Meu plano para aproveitar a visita' dist/pt/destinos/buzios/comer-y-salir/madame-bardot/index.html
+          grep -q 'My plan for making the most of the visit' dist/en/destinos/buzios/comer-y-salir/madame-bardot/index.html
+      - name: Audit visible short text and image labels across 57 routes (report only)
+        run: node scripts/audit_rendered_shortcopy.mjs
+      - name: Confirm non-public isolated preview
+        run: echo 'Only GitHub runner dist/ was generated. No Hostinger deploy or production sitemap modification.'
+      - name: Save QA evidence from isolated build
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-translation-qa-evidence
+          path: |
+            dist/audit-82-flagged-variants.json
+            dist/editorial-alternatives.json
+            dist/audit-rendered-shortcopy.json
+          if-no-files-found: ignore
+          retention-days: 14

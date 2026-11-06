@@ -1,0 +1,77 @@
+[
+  {
+    "page": "/destinos/buzios/guia/vacunas/",
+    "need": "Fotografía real sin texto añadido sobre preparación sanitaria o vacunación; no se usa una clínica como si fuera un punto de vacunación confirmado.",
+    "status": "pending at final delivery"
+  },
+  {
+    "page": "/destinos/buzios/guia/",
+    "topic": "Documentos de viaje",
+    "linked_page": "/guia/documentos/",
+    "need": "Miniatura temática propia sin texto añadido; tarjeta mantiene presentación limpia mientras falta identificación adecuada."
+  },
+  {
+    "page": "/destinos/buzios/guia/",
+    "topic": "Viajar con menores",
+    "linked_page": "/guia/menores/",
+    "need": "Miniatura temática propia sin texto añadido; tarjeta mantiene presentación limpia mientras falta identificación adecuada."
+  },
+  {
+    "page": "/destinos/buzios/guia/",
+    "topic": "Permanencia en Brasil",
+    "linked_page": "/guia/permanencia/",
+    "need": "Miniatura temática propia sin texto añadido; tarjeta mantiene presentación limpia mientras falta identificación adecuada."
+  },
+  {
+    "page": "/destinos/buzios/guia/",
+    "topic": "Vacunas y preparación sanitaria",
+    "linked_page": "/destinos/buzios/guia/vacunas/",
+    "need": "Miniatura temática propia sin texto añadido; tarjeta mantiene presentación limpia mientras falta identificación adecuada."
+  },
+  {
+    "page": "/destinos/buzios/guia/",
+    "topic": "Seguro de viaje",
+    "linked_page": "/consejos/seguro-viaje/",
+    "need": "Miniatura temática propia sin texto añadido; tarjeta mantiene presentación limpia mientras falta identificación adecuada."
+  },
+  {
+    "page": "/destinos/buzios/guia/",
+    "topic": "Pix para viajeros",
+    "linked_page": "/guia/pix/",
+    "need": "Miniatura temática propia sin texto añadido; tarjeta mantiene presentación limpia mientras falta identificación adecuada."
+  },
+  {
+    "page": "/destinos/buzios/guia/",
+    "topic": "CPF: qué debes comprobar",
+    "linked_page": "/guia/cpf/",
+    "need": "Miniatura temática propia sin texto añadido; tarjeta mantiene presentación limpia mientras falta identificación adecuada."
+  },
+  {
+    "page": "/destinos/buzios/guia/",
+    "topic": "Aeropuertos y llegada",
+    "linked_page": "/destinos/buzios/guia/aeropuertos/",
+    "need": "Miniatura temática propia sin texto añadido; tarjeta mantiene presentación limpia mientras falta identificación adecuada."
+  },
+  {
+    "page": "/destinos/buzios/guia/",
+    "topic": "Alquiler de auto y buggy",
+    "linked_page": "/destinos/buzios/guia/alquiler-auto/",
+    "need": "Miniatura temática propia sin texto añadido; tarjeta mantiene presentación limpia mientras falta identificación adecuada."
+  },
+  {
+    "page": "/destinos/buzios/guia/",
+    "topic": "Consulados y asistencia",
+    "linked_page": "/destinos/buzios/guia/consulados/",
+    "need": "Miniatura temática propia sin texto añadido; tarjeta mantiene presentación limpia mientras falta identificación adecuada."
+  },
+  {
+    "page": "/destinos/buzios/consejos/lluvia/",
+    "topic": "Bienestar y spa",
+    "need": "Interior de spa o actividad de bienestar de Búzios, sin letras añadidas."
+  },
+  {
+    "page": "/destinos/buzios/consejos/supermercados/",
+    "topic": "Resumen de compras: desayuno, productos y etiquetas",
+    "need": "Fotografías propias de productos o compra sin texto añadido; priorizar las carpetas generales ya disponibles antes del cierre."
+  }
+]

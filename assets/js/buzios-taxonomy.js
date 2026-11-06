@@ -7,6 +7,8 @@ export const buziosMainCategories = [
   { key: 'neighborhoods', path: '/destinos/buzios/barrios/', ES: 'Barrios', PT: 'Bairros', EN: 'Neighborhoods' },
   { key: 'transport', path: '/destinos/buzios/transportes/', ES: 'Transportes', PT: 'Transportes', EN: 'Transport' },
   { key: 'events', path: '/destinos/buzios/eventos/', ES: 'Eventos', PT: 'Eventos', EN: 'Events' },
+  { key: 'nightlife', path: '/destinos/buzios/vida-nocturna/', ES: 'Vida nocturna', PT: 'Vida noturna', EN: 'Nightlife' },
+  { key: 'stay', path: '/destinos/buzios/alojamiento/', ES: 'Hospedaje', PT: 'Hospedagem', EN: 'Where to stay' },
   { key: 'photos', path: '/destinos/buzios/fotografias/', ES: 'Fotografías', PT: 'Fotografias', EN: 'Photography' },
   { key: 'tips', path: '/destinos/buzios/consejos/', ES: 'Consejos', PT: 'Dicas', EN: 'Tips' }
 ];
@@ -71,10 +73,10 @@ export function renderBuziosCategoryNav(language = 'ES') {
     `<a href="${prefix}${category.path}">${category[lang]}</a>`
   )].join('');
   // Ensure every Búzios subpage receives the updated secondary-nav CSS despite old HTML cache keys.
-  if (!document.querySelector('link[data-bz-secondary-nav]')) {
+  if (typeof document !== 'undefined' && !document.querySelector('link[data-bz-secondary-nav]')) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
-    stylesheet.href = '/assets/css/buzios.css?v=20261023-buzios-header-home';
+    stylesheet.href = '/assets/css/buzios.css?v=20261105-rio-parity';
     stylesheet.dataset.bzSecondaryNav = 'true';
     document.head.appendChild(stylesheet);
   }

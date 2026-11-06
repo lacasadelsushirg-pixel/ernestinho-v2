@@ -1,0 +1,33 @@
+name: Validate Polis Sucos locale (3 pages, NO DEPLOY)
+on:
+  push:
+    branches:
+      - seo/traducciones-continuacion-lote2-20261102
+    paths:
+      - '.github/workflows/seo-polis-pilot.yml'
+      - 'gastronomia/polis-sucos/index.html'
+      - 'scripts/verify_polis_locale.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      VERCEL: '1'
+      EC_BUILD_WORKERS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - name: Install dependencies for source preview
+        run: npm ci --no-audit --no-fund
+      - name: Render exactly one route in ES/PT/EN (3 HTML, no deployment)
+        run: node scripts/build_multilingual.mjs --routes=/gastronomia/polis-sucos/
+      - name: Check Spanish, Portuguese, English and canonical routing
+        run: node scripts/verify_polis_locale.mjs
+      - name: Confirm non-production verification
+        run: echo 'Only a local runner dist/ was generated; no changes to Hostinger.'

@@ -1,3 +1,5 @@
+import {renderPhotography,photographyCopy} from './buzios-photography.js?v=20261105-rio-parity';
+import './buzios-shell.js?v=20261105-rio-parity';
 import { installBuziosTransport } from './buzios-transport-content.js?v=20261024-transport-v2';
 import { routeParts } from './locale-routing.js';
 import { beachProfiles } from './buzios-beaches.js';
@@ -12,7 +14,7 @@ import { enhanceBuziosThings } from './buzios-things.js?v=20261025-que-hacer-r1'
 import { buziosPhotos } from './buzios-photos.js';
 import { buziosNeighborhoodPages, buziosNeighborhoods } from './buzios-neighborhoods.js?v=20261025-barrios-r10';
 import { ready as navigationReady } from './site.js';
-import { renderBuziosCategoryNav, renderBuziosSubtopics } from './buzios-taxonomy.js?v=20261025-barrios-r2';
+import { renderBuziosCategoryNav, renderBuziosSubtopics } from './buzios-taxonomy.js?v=20261105-rio-parity';
 import { PAGES } from './buzios-page-data.js?v=20261025-barrios-r2';
 
 const T=(es,pt,en)=>({ES:es,PT:pt,EN:en});
@@ -1203,7 +1205,9 @@ function render(){
   document.body.classList.toggle('ec-buzios-page',path.startsWith('/destinos/buzios/'));
   document.body.classList.toggle('bz-transport-page',path.startsWith('/destinos/buzios/transportes/'));
   document.body.classList.toggle('ec-buzios-guide-index',path==='/destinos/buzios/guia/');
-  const title=value(page.title,lang),description=value(page.description,lang),eyebrow=value(page.eyebrow,lang),intro=value(page.intro,lang);
+  const photography=path==='/destinos/buzios/fotografias/';
+  const photoCopy=photography?photographyCopy(lang):null;
+  const title=photography?photoCopy.title.replace(' | Ernestinho Carioca',''):value(page.title,lang),description=photography?photoCopy.description:value(page.description,lang),eyebrow=value(page.eyebrow,lang),intro=value(page.intro,lang);
   const skip=document.querySelector('.skip');if(skip)skip.textContent=T('Saltar al contenido','Pular para o conteúdo','Skip to content')[lang];
   document.title=title+' | Ernestinho Carioca';
   const setMeta=(selector,attr,val)=>{let node=document.querySelector(selector);if(!node){node=document.createElement('meta');if(selector.includes('property='))node.setAttribute('property',selector.match(/"([^"]+)/)[1]);else node.setAttribute('name',selector.match(/"([^"]+)/)[1]);document.head.appendChild(node);}node.setAttribute(attr,val);if(attr==='content')node.dataset.ecContent=val;};
@@ -1256,7 +1260,7 @@ function render(){
   const customBody=customGuide?(path==='/destinos/buzios/guia/alquiler-auto/'?renderBuziosCarRentalGuide(page,lang):renderRioStyle(page,path,lang)):'';
   const standardBody=`${path==='/destinos/buzios/guia/'?'':breadcrumbIntro}${topicSelector}${page.gallery?photoGallery:sections}${transportMatrix}${transportLinks}${bookingTable}${page.gallery||topicCategory==='events'||topicCategory==='things'?'':renderBuziosSubtopics(topicCategory,lang)}${noticeBlock}${relatedSection}`;
   const pageBody=path==='/destinos/buzios/barrios/'?renderBuziosNeighborhoodIndex(lang):path==='/destinos/buzios/transportes/'?renderBzTransportIndex(lang):path==='/destinos/buzios/transportes/transporte-privado/'?standardBody+renderBzTransferBooking(lang):path==='/destinos/buzios/transportes/alquiler-autos/'?standardBody+'<a class="bz-rentcars-banner" href="https://www.rentcars.com/es/?requestorid=11142&amp;utm_source=www.ernestinhocarioca.com.br&amp;utm_medium=afiliado-link" target="_blank" rel="sponsored noopener noreferrer"><img src="https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/GUIA%20DE%20RIO/ALQUILER%20DE%20AUTO/banner%20rent%20cars.png" loading="lazy" alt="Rentcars · comparar alquiler de autos"></a>':customGuide?customBody:isBuziosHome?homeBody:path==='/destinos/buzios/guia/'?renderPracticalGuideIndex(page,lang):isExperienceIndex?experienceBody():path==='/destinos/buzios/alojamiento/'?areaIndexBody():path==='/destinos/buzios/experiencias/full-day-buzios/'?renderBuziosFullDay(page,lang,whatsapp(msg)):standardBody;
-  document.getElementById('bz-app').innerHTML=`
+  document.getElementById('bz-app').innerHTML=photography?`${renderBuziosCategoryNav(lang)}<main>${renderPhotography(lang)}</main>`:`
     ${renderBuziosCategoryNav(lang)}
     <main class="bz-shell"><section class="hero bz-page-hero ${!page.hero?'bz-hero-text':''} ${path==='/destinos/buzios/'?'bz-hero-portal':''} ${path==='/destinos/buzios/alojamiento/'?'bz-area-page':''} ${path==='/destinos/buzios/barrios/'?'bz-neighborhood-page':''}">${page.hero?`<picture class="hero-visual"><img src="${esc(page.hero)}" alt="${esc(page.heroPhoto?.alt?value(page.heroPhoto.alt,lang):page.heroPhoto?.name==='Porto da Barra'?T('Entrada de Porto da Barra, en Manguinhos, Búzios','Entrada do Porto da Barra, em Manguinhos, Búzios','Entrance to Porto da Barra in Manguinhos, Búzios')[lang]:isBuziosHome?T('Vista costera de Búzios con la escultura de Brigitte Bardot','Vista costeira de Búzios com a escultura de Brigitte Bardot','Búzios coastline with the Brigitte Bardot sculpture')[lang]:T('Paisaje costero de Búzios','Paisagem do litoral de Búzios','Búzios coastal landscape')[lang])}" width="${page.heroPhoto?.width||page.heroWidth||1600}" height="${page.heroPhoto?.height||page.heroHeight||900}" fetchpriority="high" decoding="async"></picture>`:``}<div class="hero-copy"><p class="kicker">${path==='/destinos/buzios/guia/'?T('ANTES Y DURANTE TU VIAJE','ANTES E DURANTE SUA VIAGEM','BEFORE AND DURING YOUR TRIP')[lang]:path==='/destinos/buzios/alojamiento/'?T('BÚZIOS BARRIO A BARRIO','BÚZIOS BAIRRO A BAIRRO','BÚZIOS, AREA BY AREA')[lang]:'ERNESTINHO CARIOCA · BÚZIOS'}</p><${path==='/destinos/buzios/experiencias/full-day-buzios/'?'div':'h1'}>${isBuziosHome?`<span>${esc(T('Búzios no se visita.','Búzios não se visita.','Búzios is not just visited.')[lang])}</span><br><em>${esc(T('Se vive.','Se vive.','It is lived.')[lang])}</em>`:esc(title)}</${path==='/destinos/buzios/experiencias/full-day-buzios/'?'div':'h1'}><p class="lead">${esc(description)}</p><a class="primary" href="${isBuziosHome?'#explora':esc(primaryHref)}"${page.commercial?' target="_blank" rel="noopener noreferrer"':''}>${esc(isBuziosHome?T('DESCUBRIR BÚZIOS','DESCOBRIR BÚZIOS','DISCOVER BÚZIOS')[lang]:page.commercial?l.consult:l.read)}</a><a class="bz-page-back" href="${localizedHref('/destinos/buzios/',lang)}">${esc(l.back)}</a></div></section>
     ${page.heroPhoto?.source&&page.heroPhoto?.artist&&page.heroPhoto?.licenseUrl&&!isBuziosHome?`<div class="bz-hero-credit">${esc(page.heroPhoto.name)} · <a href="${esc(page.heroPhoto.source)}" target="_blank" rel="noopener noreferrer">${esc(page.heroPhoto.artist)}</a> · <a href="${esc(page.heroPhoto.licenseUrl)}" target="_blank" rel="license noopener noreferrer">${esc(page.heroPhoto.license)}</a></div>`:''}

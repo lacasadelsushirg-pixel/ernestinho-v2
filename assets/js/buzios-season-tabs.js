@@ -1,0 +1,3 @@
+// The three controls retain the Río month guide's card and panel markup.
+const grid=document.querySelector('#month-grid'),extra=document.querySelector('#month-extra');
+if(grid&&extra){const cards=[...grid.children];for(const button of document.querySelectorAll('[data-tab]'))button.addEventListener('click',()=>{const tab=button.dataset.tab;for(const b of document.querySelectorAll('[data-tab]'))b.setAttribute('aria-pressed',String(b===button));grid.replaceChildren();extra.replaceChildren();extra.hidden=tab==='month';if(tab==='month')grid.append(...cards);else{const template=document.getElementById('month-'+tab);if(template)extra.append(template.content.cloneNode(true));}});}

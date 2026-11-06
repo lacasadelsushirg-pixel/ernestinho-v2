@@ -1,0 +1,28 @@
+name: Verify SEO editorial translations (source only)
+on:
+  push:
+    branches:
+      - seo/traducciones-continuacion-lote2-20261102
+    paths:
+      - 'assets/js/translations/chunks/**'
+      - 'scripts/audit_editorial_translations.mjs'
+      - '.github/workflows/seo-editorial-translations.yml'
+  pull_request:
+    paths:
+      - 'assets/js/translations/chunks/**'
+      - 'scripts/audit_editorial_translations.mjs'
+      - '.github/workflows/seo-editorial-translations.yml'
+permissions:
+  contents: read
+jobs:
+  audit-exact-keys:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validate long-form PT/EN keys on 52 target sources
+        run: |
+          node scripts/audit_editorial_translations.mjs --routes=/compras/feira-sao-cristovao/,/compras/mercadao-madureira/,/compras/uruguaiana/,/gastronomia/adega-perola/,/gastronomia/aipo-aipim-391/,/gastronomia/aipo-aipim-605/,/gastronomia/angu-do-gomes/,/gastronomia/assador/,/gastronomia/bar-da-gema/,/gastronomia/bafo-da-prainha/,/gastronomia/bar-luiz/,/gastronomia/confeitaria-colombo/,/gastronomia/rio-scenarium/,/gastronomia/cachambeer/,/gastronomia/carretao-siqueira/,/gastronomia/casa-do-sardo/,/gastronomia/bb-lanches/,/gastronomia/cavalo-marinho/,/gastronomia/confeitaria-manon/,/gastronomia/cafe-do-alto/,/gastronomia/casa-porto/,/gastronomia/ferro-e-farinha/,/gastronomia/gurume/,/gastronomia/nova-capela/,/gastronomia/jobi/,/gastronomia/aipo-aipim-920/,/gastronomia/arab-leblon/,/gastronomia/churrascaria-palace/,/gastronomia/pilograma-prime-grill/,/gastronomia/pesqueiro/,/gastronomia/kilograma-centro/,/gastronomia/point-de-grumari/,/gastronomia/temperarte-posto6/,/gastronomia/xian/,/gastronomia/shiso/,/gastronomia/nido-ristorante/,/gastronomia/sabor-das-aguas/,/gastronomia/rufino-parrilla/,/gastronomia/prana/,/gastronomia/cabanna/,/gastronomia/coisas-de-bamba/,/gastronomia/oro/,/gastronomia/lasai/,/gastronomia/sushi-leblon/,/gastronomia/polis-sucos/,/gastronomia/don-pascual/,/gastronomia/bira-de-guaratiba/,/gastronomia/joaquina/,/gastronomia/delirio/,/gastronomia/spesso/,/gastronomia/eclipse/,/gastronomia/majorica/ --json

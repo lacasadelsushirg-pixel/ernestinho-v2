@@ -24,3 +24,27 @@
 
 /* Keep property photographs at a comfortable editorial size. */
 .stayhero{min-height:45vh;position:relative;isolation:isolate}.stayhero:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#061817d9,#06181712);z-index:1;pointer-events:none}.stayhero-image{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover}.stayhero .hero-copy{z-index:2}.stay-gallery{max-width:380px;margin:26px auto 10px}.stay-gallery-frame{aspect-ratio:16/9}.stay-gallery-frame img{object-fit:contain;background:#102522}@media(max-width:700px){.stayhero{min-height:40vh}.stay-gallery{max-width:min(88vw,380px)}.stay-gallery-frame{aspect-ratio:4/3}}
+
+
+/* Lodging hub cards: display each designed property image completely, no
+   background-size:cover cropping or duplicate text over baked-in photo labels. */
+body[data-lodging-index="true"] .feature-grid .stay-feature{
+ min-height:0;padding:0;display:flex;flex-direction:column;justify-content:initial;
+ background:#fff!important;background-image:none!important;color:#11332d;
+ border:1px solid #ddd6c8;border-radius:22px;overflow:hidden;
+ box-shadow:0 10px 30px rgba(14,41,36,.09);text-decoration:none;
+}
+body[data-lodging-index="true"] .stay-feature-photo{
+ display:block;width:100%;aspect-ratio:16/10;background:#092421;overflow:hidden;
+}
+body[data-lodging-index="true"] .stay-feature-photo img{
+ display:block;width:100%;height:100%;object-fit:contain;object-position:center;
+}
+body[data-lodging-index="true"] .stay-feature-body{
+ display:flex;flex-direction:column;align-items:flex-start;flex:1;gap:10px;padding:18px 20px 22px;
+}
+body[data-lodging-index="true"] .stay-feature-body b{font:700 25px Georgia,serif;color:#123d39}
+body[data-lodging-index="true"] .stay-feature-body .card-copy{font-size:14px;line-height:1.65;color:#384f49}
+body[data-lodging-index="true"] .stay-feature-body small{margin-top:auto;color:#90682a;font-weight:850;letter-spacing:.04em}
+body[data-lodging-index="true"] .stay-feature:hover{transform:translateY(-2px);box-shadow:0 14px 36px rgba(14,41,36,.14)}
+@media(max-width:800px){body[data-lodging-index="true"] .stay-feature-photo{aspect-ratio:16/10}}

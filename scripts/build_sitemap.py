@@ -24,6 +24,9 @@ configuration = Path(__file__).resolve().parents[1] / 'vercel.json'
 redirects = {item['source'].rstrip('/') or '/'
              for item in json.loads(configuration.read_text()).get('redirects', [])}
 
+beach_data = configuration.parent / 'assets/js/buzios-beach-v2-data.js'
+official_beaches = {f'/destinos/buzios/playas/{slug}/' for slug in re.findall(r'"slug":\s*"([^"]+)"', beach_data.read_text())}
+
 class Metadata(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -52,7 +55,7 @@ for page in sorted(root.rglob("*.html")):
     metadata = Metadata()
     metadata.feed(page.read_text(encoding='utf-8'))
     source_route = route[3:] if route.startswith(('/pt/', '/en/')) else route
-    if re.fullmatch(r'/destinos/buzios/playas/[^/]+/', source_route):
+    if re.fullmatch(r'/destinos/buzios/playas/[^/]+/', source_route) and source_route not in official_beaches:
         continue
     if metadata.excluded or (source_route.rstrip('/') or '/') in redirects:
         continue

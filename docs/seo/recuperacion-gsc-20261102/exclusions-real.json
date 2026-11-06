@@ -1,0 +1,3666 @@
+[
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/barra-oeste/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/botafogo-urca/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/centro-maua/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/centro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/gavea/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/gloria/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/jacarepagua/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/santa-lapa/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/tijuca/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/vargens/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/cafe-rio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cafe-rio",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/consejos/playa-barracas-quiosques/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/cultura/arquitectura/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/cultura/correios/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/cultura/folclore-edison-carneiro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/cultura/penha/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/accesibilidad/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/alojamiento/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/altto/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/anexo-praia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/farinatta/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/macaw/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/san-telmo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/como-llegar/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/cruceros/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/alquiler-buggy/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/experiencias/rio-desde-buzios/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/gastronomia-argentina/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/gastronomia-chilena/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/internet/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/mascotas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/perfiles/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/salud/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/seguridad/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/servicios/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/atracciones/aquario/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "atracciones",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/atracciones/pao-de-acucar/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "atracciones",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/atracciones/parque-lage/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "atracciones",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/barrios/cadeg/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/barrios/flamengo-gloria/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/barrios/ipanema-leblon/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/barrios/recreio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/barrios/sao-cristovao/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cafe-rio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cafe-rio",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/barrashopping/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/botafogo-praia-shopping/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/fashion-mall/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/feira-da-gloria/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/feira-hippie-ipanema/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/feira-sao-cristovao/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/mercadao-madureira/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/mercado-sao-pedro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/praca-xv/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/shopping-leblon/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/uruguaiana/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/consejos/20-consejos/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/consejos/estado-del-mar-playas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/consejos/lluvia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/consejos/maletas-rio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/consejos/que-hacer-cada-dia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/consejos/revisar-alojamiento/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/consejos/seguro-viaje/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/consejos/supermercados/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/academia-brasileira-letras/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/amanha/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/bibliomaison/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/biblioteca-ccbb/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/biblioteca-ccjf/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/bonsucesso/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/casa-da-leitura/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/casa-franca/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/catedral-metropolitana/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/ccbb/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/centros-culturales/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/chacara-ceu/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/dulcina/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/fernanda-montenegro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/forte-barao-rio-branco/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/forte-duque-caxias/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/forte-gragoata/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/forte-pico/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/forte-sao-luiz/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/gloria-outeiro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/ihgb/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/joao-caetano/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/jose-bonifacio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/laura-alvim/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/livraria-argumento/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/museos/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/museu-historico-cidade/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/museu-light/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/museu-pontal/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/nossa-senhora-paz/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/povos-indigenas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/santa-margarida/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/sao-judas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/sesc-ginastico/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/teatro-dos-quatro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/cultura/villa-lobos/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/accesibilidad/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/alojamiento/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/altto/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/anexo-praia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/farinatta/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/macaw/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/madame-bardot/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/octopous/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/san-telmo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/como-llegar/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/cruceros/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/alquiler-buggy/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/buceo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/experiencias/cabo-frio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/gastronomia-argentina/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/gastronomia-chilena/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/internet/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/mascotas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/perfiles/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/salud/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/seguridad/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/servicios/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/experiencias/ala-delta/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/experiencias/aquario-boulevard/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/experiencias/arraial-do-cabo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/experiencias/carnaval-experience/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/experiencias/paracaidas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/experiencias/pedra-bonita/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/experiencias/pequena-africa/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/experiencias/rocinha/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/familia/carnaval-experience/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "familia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/familia/jardines-palacio-do-catete/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "familia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/familia/lagoa-rodrigo-de-freitas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "familia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/familia/meta-kart-indoor/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "familia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/familia/parque-lage/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "familia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/familia/parques/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "familia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/familia/playas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "familia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/fotografia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "fotografia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/adega-perola/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/aipo-aipim-391/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/aipo-aipim-605/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/angu-do-gomes/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/arp-bar/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/assador/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/bafo-da-prainha/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/bar-da-gema/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/bar-luiz/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/bb-lanches/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/cachambeer/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/carretao-siqueira/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/casa-do-sardo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/cavalo-marinho/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/classico-leme/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/coisa-de-carioca/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/confeitaria-colombo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/confeitaria-manon/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/cosmopolita/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/dumare-copa/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/espetinhos/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/espeto-carioca-leme/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/ferro-e-farinha/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/gurume/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/iraja-redux/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/joaquina/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/majorica/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/marius-degustare/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/nova-capela/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/pesqueiro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/pilograma-prime-grill/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/point-de-grumari/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/polis-sucos/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/prana/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/quiteria/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/rio-scenarium/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/rufino-parrilla/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/spesso/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/sushi-leblon/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/temperarte-posto6/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/terra-brasilis/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/xian/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/yusha/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/guia/dinero/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "guia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/guia/internet/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "guia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/guia/viajar-solo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "guia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/historia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "historia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/hospedaje/1015/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "hospedaje",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/hospedaje/621/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "hospedaje",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/hospedaje/805/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "hospedaje",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/hospedaje/estudio-1-1/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "hospedaje",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/hospedaje/goia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "hospedaje",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/hospedaje/venti/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "hospedaje",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/naturaleza/agricultura-pedra-branca/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "naturaleza",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/naturaleza/pico-tijuca/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "naturaleza",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/naturaleza/sitio-burle-marx/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "naturaleza",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/playas/praias-selvagens/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "playas",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/playas/prainha/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "playas",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/playas/recreio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "playas",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/transportes/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "transportes",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/transportes/alquiler-vehiculo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "transportes",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/transportes/barcas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "transportes",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/transportes/brt/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "transportes",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/transportes/trenes/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "transportes",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/transportes/uber/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "transportes",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/bar-bukowski/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/carioca-da-gema/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/coordenadas-bar/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/isabel-lounge/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/lapa-40-graus/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/portela/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/quartinho/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/yoo2/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/zeca-vogue/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/experiencias/angra-ilha-grande/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/adega-perola/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/chama-rio-copacabana/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/espetinhos/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/pescados-na-brasa/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/hospedaje/1015/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "hospedaje",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/hospedaje/casa-candida/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "hospedaje",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/playas/praias-selvagens/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "playas",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/privacidad-precios-condiciones/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "privacidad-precios-condiciones",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/atracciones/aquario/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "atracciones",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/atracciones/jardim-botanico/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "atracciones",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/atracciones/pao-de-acucar/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "atracciones",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/barrios/catete/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/barrios/copacabana/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/barrios/flamengo-gloria/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/barrios/gavea-jardim-lagoa/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/barrios/ilha-da-gigoia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/barrios/ipanema-leblon/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/barrios/jacarepagua/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/barrios/recreio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "barrios",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cafe-rio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cafe-rio",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/barrashopping/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/fashion-mall/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/feira-da-gloria/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/feira-hippie-ipanema/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/feira-organica-gloria/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/feira-sao-cristovao/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/ferias/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/mercadao-madureira/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/nova-america/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/rio-sul/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/saara/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/shopping-leblon/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "compras",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/consejos/electricidad-adaptadores/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/consejos/errores-rio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/consejos/lluvia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/consejos/portugues/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/consejos/que-hacer-cada-dia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/consejos/revisar-alojamiento/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/consejos/seguro-viaje/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/consejos/supermercados/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "consejos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/academia-brasileira-letras/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/acude/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/bibliomaison/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/biblioteca-ccbb/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/biblioteca-ccjf/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/biblioteca-parque-estadual/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/casa-da-leitura/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/casa-franca/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/casa-rui-barbosa/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/catedral-metropolitana/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/ccbb/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/ccjf/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/centros-culturales/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/chacara-ceu/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/dulcina/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/fernanda-montenegro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/forte-barao-rio-branco/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/forte-duque-caxias/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/forte-pico/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/ihgb/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/joao-caetano/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/jose-bonifacio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/laura-alvim/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/mac-niteroi/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/mam-rio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/museos/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/museu-light/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/museu-pontal/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/nossa-senhora-paz/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/nossa-senhora-penna/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/rival-petrobras/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/sala-cecilia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/teatro-dos-quatro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/villa-lobos/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/cultura/ziembinski/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "cultura",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/accesibilidad/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/alojamiento/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/altto/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/anexo-praia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/farinatta/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/macaw/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/san-telmo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/como-llegar/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/cruceros/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/experiencias/alquiler-buggy/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/gastronomia-argentina/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/gastronomia-chilena/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/mascotas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/perfiles/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/salud/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/seguridad/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/servicios/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/experiencias/ala-delta/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/experiencias/aquario-boulevard/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/experiencias/arraial-do-cabo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/experiencias/buzios/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/experiencias/carnaval-experience/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/experiencias/maracana-experience/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/experiencias/vuelo-en-parapente/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "experiencias",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/familia/carnaval-experience/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "familia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/familia/jardines-palacio-do-catete/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "familia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/familia/meta-kart-indoor/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "familia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/familia/parques/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "familia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/familia/yup-star/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "familia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/fotografia/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "fotografia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/adega-perola/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/aipo-aipim-391/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/aipo-aipim-605/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/aipo-aipim-920/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/arab-leblon/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/arp-bar/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/assador/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bafo-da-prainha/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bar-da-gema/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bar-luiz/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bira-de-guaratiba/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/cabanna/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/cachambeer/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/cafe-do-alto/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/carretao-siqueira/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/casa-do-sardo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/casa-porto/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/churrascaria-palace/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/classico-leme/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/coisa-de-carioca/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/coisas-de-bamba/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/confeitaria-colombo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/confeitaria-manon/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/delirio/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/don-pascual/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/dumare-copa/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/eclipse/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/espetinhos/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/gurume/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/joaquina/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/jobi/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/kilograma-centro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/lasai/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/majorica/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/marius-degustare/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/nido-ristorante/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/nino-cucina-ipanema/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/nova-capela/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/oro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/pesqueiro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/point-de-grumari/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/prana/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/quartinho/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/quiteria/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/rio-scenarium/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/rufino-parrilla/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/sabor-das-aguas/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/shiso/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/spesso/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/temperarte-bolivar/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/terra-brasilis/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/guia/documentos/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "guia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/guia/guarda-equipaje/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "guia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/guia/terminales/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "guia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/guia/viajar-solo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "guia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/hospedaje/1015/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "hospedaje",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/hospedaje/621/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "hospedaje",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/naturaleza/cachoeira-do-camorim/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "naturaleza",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/naturaleza/catacumba/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "naturaleza",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/naturaleza/pedra-bonita-trek/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "naturaleza",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/naturaleza/rio-da-prata-campo-grande/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "naturaleza",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/naturaleza/sitio-burle-marx/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "naturaleza",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/playas/pepe/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "playas",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/playas/praia-do-secreto/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "playas",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/playas/praias-selvagens/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "playas",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/playas/prainha-vidigal/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "playas",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/transportes/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "transportes",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/transportes/alquiler-vehiculo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "transportes",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/transportes/brt/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "transportes",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/transportes/trenes/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "transportes",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/armazem-do-senado/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/bar-bukowski/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/chopperia-botafogo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/coisas-de-bamba/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/isabel-lounge/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/lapa-40-graus/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/pink-flamingo/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/portela/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/quadra-salgueiro/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/quartinho/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/trapiche-gamboa/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/yoo2/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/zeca-vogue/",
+    "category": "discovered",
+    "lastCrawlRaw": "1969-12-31",
+    "lastCrawl": null,
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/stambul-comida-arabe",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-24",
+    "lastCrawl": "2026-10-24",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/rasa/",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-23",
+    "lastCrawl": "2026-10-23",
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/ferradurinha/",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-23",
+    "lastCrawl": "2026-10-23",
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/armacao/",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-23",
+    "lastCrawl": "2026-10-23",
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/brava/",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-23",
+    "lastCrawl": "2026-10-23",
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/manguinhos/",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-23",
+    "lastCrawl": "2026-10-23",
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/quiosque-dumare",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-23",
+    "lastCrawl": "2026-10-23",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/ferradura/",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-23",
+    "lastCrawl": "2026-10-23",
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/joao-fernandinho/",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-23",
+    "lastCrawl": "2026-10-23",
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/manguinhos/",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-23",
+    "lastCrawl": "2026-10-23",
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/aipo-aipim-copacabana-391",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-22",
+    "lastCrawl": "2026-10-22",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/brava/",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-22",
+    "lastCrawl": "2026-10-22",
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/caravelas/",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-22",
+    "lastCrawl": "2026-10-22",
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/foca/",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-22",
+    "lastCrawl": "2026-10-22",
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/guia/consulados-y-ayuda-para-viajeros-extranjeros",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-22",
+    "lastCrawl": "2026-10-22",
+    "section": "guia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/guia/aplicaciones-que-facilitan-tu-viaje",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-21",
+    "lastCrawl": "2026-10-21",
+    "section": "guia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/guia/llegar-a-rio-galeao-y-santos-dumont",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-21",
+    "lastCrawl": "2026-10-21",
+    "section": "guia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/armazem-sao-thiago-bar-do-gomes",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-13",
+    "lastCrawl": "2026-10-13",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/cinelandia-lapa-santa-teresa",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-12",
+    "lastCrawl": "2026-10-12",
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/experiencias/rapel-con-ernestinho",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-12",
+    "lastCrawl": "2026-10-12",
+    "section": "experiencias",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/bar-da-amendoeira",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-12",
+    "lastCrawl": "2026-10-12",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/espetto-carioca-quiosque-leme",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-11",
+    "lastCrawl": "2026-10-11",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/carretao-copacabana-siqueira-campos",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-11",
+    "lastCrawl": "2026-10-11",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/centro-historico-pequena-africa",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-10",
+    "lastCrawl": "2026-10-10",
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/hola-soy-ernestinho",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-10",
+    "lastCrawl": "2026-10-10",
+    "section": "hola-soy-ernestinho",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/guia/internet-roaming-chip-y-esim",
+    "category": "404",
+    "lastCrawlRaw": "2026-10-10",
+    "lastCrawl": "2026-10-10",
+    "section": "guia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/balthazar-bakery/",
+    "category": "crawled",
+    "lastCrawlRaw": "2026-10-24",
+    "lastCrawl": "2026-10-24",
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/balthazar-bakery/",
+    "category": "crawled",
+    "lastCrawlRaw": "2026-10-24",
+    "lastCrawl": "2026-10-24",
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/belmonte-copa/",
+    "category": "crawled",
+    "lastCrawlRaw": "2026-10-24",
+    "lastCrawl": "2026-10-24",
+    "section": "gastronomia",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/guia/",
+    "category": "crawled",
+    "lastCrawlRaw": "2026-10-24",
+    "lastCrawl": "2026-10-24",
+    "section": "destinos",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/guia/",
+    "category": "crawled",
+    "lastCrawlRaw": "2026-10-24",
+    "lastCrawl": "2026-10-24",
+    "section": "destinos",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/rocka/",
+    "category": "crawled",
+    "lastCrawlRaw": "2026-10-23",
+    "lastCrawl": "2026-10-23",
+    "section": "destinos",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/pizzaria-canastra/",
+    "category": "crawled",
+    "lastCrawlRaw": "2026-10-06",
+    "lastCrawl": "2026-10-06",
+    "section": "vida-nocturna",
+    "language": "pt"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/jobi/",
+    "category": "crawled",
+    "lastCrawlRaw": "2026-10-05",
+    "lastCrawl": "2026-10-05",
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/sabor-das-aguas/",
+    "category": "crawled",
+    "lastCrawlRaw": "2026-10-04",
+    "lastCrawl": "2026-10-04",
+    "section": "gastronomia",
+    "language": "en"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/venga-ipanema",
+    "category": "redirect",
+    "lastCrawlRaw": "2026-10-21",
+    "lastCrawl": "2026-10-21",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/leblon",
+    "category": "redirect",
+    "lastCrawlRaw": "2026-10-12",
+    "lastCrawl": "2026-10-12",
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/arab-leblon",
+    "category": "redirect",
+    "lastCrawlRaw": "2026-10-11",
+    "lastCrawl": "2026-10-11",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/kurt-leblon",
+    "category": "redirect",
+    "lastCrawlRaw": "2026-10-10",
+    "lastCrawl": "2026-10-10",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/ipanema",
+    "category": "redirect",
+    "lastCrawlRaw": "2026-10-10",
+    "lastCrawl": "2026-10-10",
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/margutta-ipanema",
+    "category": "redirect",
+    "lastCrawlRaw": "2026-10-10",
+    "lastCrawl": "2026-10-10",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/barrios/copacabana",
+    "category": "redirect",
+    "lastCrawlRaw": "2026-10-10",
+    "lastCrawl": "2026-10-10",
+    "section": "barrios",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/faenza-copacabana",
+    "category": "redirect",
+    "lastCrawlRaw": "2026-10-10",
+    "lastCrawl": "2026-10-10",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/ocya-ilha",
+    "category": "redirect",
+    "lastCrawlRaw": "2026-10-10",
+    "lastCrawl": "2026-10-10",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/gruta-do-fado/",
+    "category": "duplicate",
+    "lastCrawlRaw": "2026-10-22",
+    "lastCrawl": "2026-10-22",
+    "section": "gastronomia",
+    "language": "es"
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/gastronomia/la-fiorentina-ipanema/",
+    "category": "duplicate",
+    "lastCrawlRaw": "2026-10-04",
+    "lastCrawl": "2026-10-04",
+    "section": "gastronomia",
+    "language": "es"
+  }
+]

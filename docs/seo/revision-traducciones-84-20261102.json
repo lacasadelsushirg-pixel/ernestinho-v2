@@ -1,0 +1,842 @@
+[
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/feira-sao-cristovao/",
+    "idioma": "en",
+    "seccion": "compras",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 10,
+    "ejemplo": "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar música: es una referencia de la cultura nordestina en Río, donde gastronomía, artesanía, forró, productos regionales e historias se encuentran.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 2
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/mercadao-madureira/",
+    "idioma": "en",
+    "seccion": "compras",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 15,
+    "ejemplo": "Para mí, el Mercadão de Madureira no es una parada rápida ni un decorado para una foto. Es un mercado popular de verdad, ligado a Madureira y a la Zona Norte, donde se cruzan compras del día a día, pequeños negocios, cultura, gastronomía y artículos que tienen un significado profundo para muchas comunidades. Como anfitrión, yo te recomiendo venir con curiosidad, tiempo y respeto.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 2
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/compras/uruguaiana/",
+    "idioma": "en",
+    "seccion": "compras",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 15,
+    "ejemplo": "Para mí, Uruguaiana no es solamente un lugar para comprar barato. Es una zona comercial popular del Centro, conectada con el movimiento de la Rua Uruguaiana, Saara y las estaciones de transporte. Aquí puedes buscar accesorios, tecnología, productos para la casa, moda, regalos y muchas cosas prácticas, pero la experiencia exige comparar, preguntar y cuidar tus pertenencias.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 2
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/madame-bardot/",
+    "idioma": "en",
+    "seccion": "destinos/buzios",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 10,
+    "ejemplo": "Yo llegaría con la noche todavía abierta y preguntaría por música, mesa y programación para la fecha. No asumiría que cada visita incluye el mismo ambiente o evento.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 2
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/adega-perola/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Adega Pérola funciona en Rua Siqueira Campos, 138-A, Copacabana, y su forma de comer empieza mirando la vitrina. Riotur sitúa el origen en 1957, fundada por hermanos portugueses; después de casi cerrar, clientes habituales asumieron la continuidad de la casa. Hoy es reconocida como Patrimonio Cultural Carioca. Yo la recomendaría a quien disfruta elegir bocados, compartir y comparar sabores, más que a quien busca un plato único con una secuencia de restaurante convencional.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/aipo-aipim-391/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "En la unidad 391 yo veo una opción muy útil para quien quiere comer bien sin convertir el almuerzo en un programa largo. El formato es el clásico restaurante por kilo carioca: entras, miras el buffet, armas tu plato y pagas según el peso. Eso permite que una pareja o una familia coma junta aunque cada uno tenga gustos completamente distintos. Aquí la gracia no está en una presentación sofisticada, sino en la libertad de combinar comida casera, ensaladas, preparaciones calientes y proteínas en una sola parada.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/aipo-aipim-605/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "La unidad 605 está en una parte muy central de Copacabana y, para mí, su mayor virtud es resolver una comida completa cuando no quieres sentarte a esperar una carta. El sistema por kilo te deja mirar todo antes de decidir y eso funciona especialmente bien cuando vienes con hambre pero todavía quieres controlar cantidad y presupuesto. El salón responde a una lógica práctica: mesas para comer sin formalidad, buffet amplio y una rotación que encaja con el ritmo del barrio, tanto para quien trabaja cerca como para quien está recorriendo Río.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/angu-do-gomes/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Angu do Gomes nació en 1955 ligado a carretillas que vendían angu por las calles de Río. La preparación —una base cremosa de maíz servida con guisos— terminó convirtiéndose en parte de la memoria urbana y en el nombre de la marca. La reapertura en la región de Largo de São Francisco da Prainha conectó esa historia con la Zona Portuaria y Pequena África. Yo la recomendaría como parte de un recorrido cultural, no como una simple curiosidad culinaria aislada.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/arp-bar/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 9,
+    "ejemplo": "Arp Bar é praticamente uma extensão da areia: varanda, luz natural, madeira clara e a praia do Arpoador logo adiante. As fotografias mostram um salão contemporâneo sem perder a informalidade de quem chega depois de caminhar. O mar é protagonista, mas não funciona como papel de parede: vento, sal, lotação e pôr do sol realmente interferem na mesa. A decoração clean deixa que a paisagem faça o trabalho de impacto.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/assador/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Assador ocupa Avenida Infante Dom Henrique, s/n, en el Aterro do Flamengo, con un salón acristalado orientado hacia la Baía de Guanabara y el Pão de Açúcar. La casa presenta su propuesta alrededor de carne, fuego y tradición de asador, mientras Visit Rio la describe como churrascaria de rodízio inspirada en el churrasco gaúcho. Yo la elegiría cuando la comida es uno de los planes principales del día y el grupo quiere combinar parrilla con una vista reconocible de Río.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/bafo-da-prainha/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 8,
+    "ejemplo": "Bafo da Prainha se entiende antes de sentarse: la plaza, las mesas externas, la iglesia y el Morro da Conceição crean un escenario que pertenece a la calle. Las fotografías muestran cerveza, porciones, gente reunida y una atmósfera abierta, más de encuentro que de comida silenciosa. El espacio gana fuerza cuando la ciudad está viva alrededor y la acera forma parte del salón.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/bar-da-gema/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Esta ficha corresponde al Bar da Gema creado por Luiza Souza y Leandro Amaral, hoy en Rua Dona Zulmira, 134, en el entorno de Maracanã/Tijuca. No debe confundirse con Carioca da Gema, la casa de samba de Lapa. Aquí el centro es la cocina de boteco: ambiente informal, platos contundentes y recetas populares reinterpretadas con humor y creatividad. Yo lo presentaría como una mesa para compartir y probar un repertorio más elaborado que el de un bar convencional.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/bar-luiz/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Bar Luiz es uno de los nombres históricos de Rua da Carioca, asociado a la dirección 39 y a una trayectoria que comienza en 1887. Sin embargo, esta ficha no debe funcionar hoy como recomendación activa: un reportaje de mayo de 2026 sobre la revitalización de Rua da Carioca todavía indicaba que el bar permanecía cerrado. La marca fue adquirida y se ha hablado de reapertura, pero comprar un nombre o anunciar un proyecto no equivale a tener salón y cocina abiertos.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/bb-lanches/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 8,
+    "ejemplo": "BB Lanches es una casa de lanches y jugos del Leblon pensada para resolver una pausa sin convertirla en una comida larga. Yo la presentaría como parte del cotidiano del barrio: sándwiches, ensaladas, açaí, bebidas de fruta y opciones rápidas que funcionan antes o después de la playa. La referencia a Brigitte Bardot como musa inspiradora forma parte del relato difundido sobre la casa, pero no hace falta convertir ese detalle en una historia turística mayor de lo que las fuentes sostienen.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/cachambeer/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Cachambeer habla el idioma de un boteco suburbano de porciones grandes: mesas llenas, cerveza fría y platos que llegan con presencia. Las fotografías de joelho pururuca, costela, palmito, camarón y pescado muestran una cocina sin miedo a la abundancia. La atmósfera es ruidosa, familiar y de celebración, lejos del diseño contenido de Zona Sul.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/carretao-siqueira/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Carretão trabaja con una escena de churrasquería: salón grande, circulación constante y una mesa pensada para recibir cortes, ensaladas y acompañamientos. Las imágenes muestran abundancia y variedad; el visitante debe esperar movimiento, no intimidad. Es un lugar donde el apetito y el ritmo del servicio mandan.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/casa-do-sardo/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Casa do Sardo no es simplemente un restaurante italiano: su identidad está centrada en Cerdeña, la isla de origen del chef y propietario Silvio Podda. La casa funciona en Rua São Cristóvão, 405, dentro de un inmueble con valor histórico. Yo la presentaría como una salida gastronómica con intención, especialmente para quien quiera conocer una cocina regional menos obvia y esté dispuesto a salir del circuito de Copacabana e Ipanema.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/cavalo-marinho/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Quiosque Cavalo Marinho está en la Praia da Reserva, en ese tramo costero entre Barra da Tijuca y Recreio. El propio sitio lo presenta dentro del entorno de la Reserva y destaca área cubierta, estacionamiento, baños, lounges externos y accesibilidad. Yo lo recomendaría a quien quiere hacer del día de playa una comida con más estructura, no como un lugar al que uno llega caminando desde Copacabana o Ipanema.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/classico-leme/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 11,
+    "ejemplo": "Clássico Leme no intenta ocultar que está en la playa: arena, mureta, madera, almohadones, mesas exteriores y la línea del mar son la decoración. Las fotografías muestran un quiosco organizado, con espacio para familias y grupos, pero expuesto al viento, al sol y al movimiento del paseo. La atmósfera es relajada y cuidada al mismo tiempo: la ropa de playa encaja, pero la carta y el servicio permiten una celebración más arreglada.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/confeitaria-colombo/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "La matriz de Confeitaria Colombo es un salón monumental de espejos belgas, vitrales, madera tallada y claraboyas. Las fotografías deben leerse como arquitectura antes que como decoración de fondo. La luz, las vitrinas y el movimiento del Centro convierten un café en visita patrimonial; en horas llenas, el ruido y la circulación forman parte inevitable de la escena.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/confeitaria-manon/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Manon aparece como una confeitaria de salón tradicional, con vitrinas y mesas que invitan a detener el paso. Las fotografías muestran una experiencia más reposada que la de un café de mostrador: hay espacio para observar, conversar y elegir algo dulce.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/cosmopolita/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Cosmopolita aparece en las fotos como una casa acogedora, de escala doméstica y decoración que invita a quedarse. No hay una puesta en escena de cadena: la personalidad nace de las mesas, la luz y los detalles de un restaurante que parece guardar historias.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/ferro-e-farinha/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Ferro e Farinha Botafogo ocupa dos niveles, con mesas en la acera, interior informal y un rooftop con bar. Las fotografías muestran horno, pizzas de bordes marcados, flor de burrata y bebidas. El conjunto transmite energía joven y urbana: es una pizzería para mirar cómo llega la masa, compartir y aceptar cierto movimiento en horas de mayor demanda.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/gurume/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Gurumê trabaja una estética japonesa contemporánea: madera, líneas limpias, luz controlada y platos donde el color del pescado lleva el protagonismo. Las fotografías muestran sushi, salmón, mariscos y un salón de diseño, pero también mesas ocupadas y una energía urbana. No es una barra tradicional de pocas plazas; está pensado para una experiencia social y visual en pleno Ipanema.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/joaquina/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 9,
+    "ejemplo": "Joaquina combina el frente marítimo del Leme con un salón colorido, cómodo y menos rígido que un restaurante de hotel. Las fotografías muestran platos servidos con cuidado, mesas preparadas para familias y una atmósfera brasileña contemporánea sin recurrir a caricaturas tropicales. La Avenida Atlântica aporta luz, peatones y el rumor constante de la orla. Una mesa exterior acerca el paisaje, pero recibe viento y tránsito; dentro, la comida y el servicio ocupan el centro.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/nova-capela/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Nova Capela tiene el aspecto de una casa que pertenece a la noche: salón tradicional, mesas próximas y una estética que no busca parecer nueva. Las fotografías transmiten platos abundantes y un ambiente de conversación, adecuado para quien llega después de caminar por los Arcos o salir de un espectáculo.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/pesqueiro/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Pesqueiro está construido alrededor del paisaje: playa, lagoa y mesas al aire libre. Las fotos muestran frutos del mar, cerveza, vino y un ambiente que puede pasar de almuerzo relajado a beach club.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/pilograma-prime-grill/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Pilograma Prime Grill es una alternativa gastronómica de Cidade Nova que conozco personalmente. Volví a comer allí hace pocos días, así que puedo confirmar por mi propia visita que estaba atendiendo. Me gusta recomendar lugares como este, donde el atractivo no es el lujo sino la posibilidad de comer rico sin gastar demasiado.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/point-de-grumari/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Point de Grumari está en Estrada de Grumari, 2710, Barra de Guaratiba, y se presenta como una casa abierta desde 1992. Su principal diferencial no es solo la carta: el restaurante integra la comida con una vista panorámica hacia el Atlántico y la Restinga da Marambaia. Yo lo elegiría cuando el plan sea dedicar varias horas a Grumari y su entorno, no como una parada rápida entre dos actividades distantes.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/polis-sucos/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 8,
+    "ejemplo": "Polis Suclos tem a energia visual de uma lanchonete carioca que conhece o calor: balcão, copos, frutas, pratlos diretlos e gente entrandel para resolver uma fome real. As fotografilas muestran que a casa vai além del suco, con refeições e açaí, mlas sin abandonar a rapidez. É um espaço de uso cotidiano, mais ligadel à rua e ao movimento de Ipanema del que à decoração de restaurante-destino.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/prana/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Prana es un restaurante vegetariano dirigido por el chef Marcos Freitas que nació en Cosme Velho y después se mudó a Rua Lopes Quintas, 37, Jardim Botânico. La propuesta busca desarrollar cocina vegetal con intención de restaurante, no limitarse a ensaladas. Yo lo recomendaría tanto a vegetarianos como a viajeros curiosos que quieran probar una comida distinta durante un día por Jardim Botânico.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/quiteria/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 8,
+    "ejemplo": "Quitéria tem uma estética clean e praiana, com a escala acolhedora de um restaurante de hotel boutique. As fotografias mostram salão claro, café da manhã e pratos montados com cuidado; não é uma casa de balcão nem um boteco de ruído constante. A Rua Maria Quitéria fica perto da praia, mas o ambiente interior cria uma pausa mais protegida do movimento de Ipanema.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/rio-scenarium/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Rio Scenarium es un laberinto de siete ambientes distribuidos en tres pisos, cargado de muebles, retratos, lámparas y objetos antiguos. Las fotografías no muestran simplemente un restaurante: muestran una casa de espectáculos donde decoración, circulación y música compiten por la atención. El visitante debe esperar escaleras, público numeroso y una noche más teatral que íntima.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/spesso/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Spesso se presenta como un italiano contemporáneo de escala contenida. Las imágenes muestran mesas próximas, vegetación, luz cálida y una puesta en escena más relajada que la de una cantina clásica. No hay manteles solemnes ni un salón monumental: la sensación es la de una dirección de barrio donde brunch, vino y cena pueden compartir el mismo espacio. Esa proximidad favorece parejas y grupos pequeños, aunque en una hora concurrida también puede elevar el ruido. La fotografía de portada debe leerse como atmósfera, no como promesa de una mesa específica.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/sushi-leblon/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Sushi Leblon tiene una estética de clásico urbano: salón activo, sushi bar y platos donde el pescado lleva el protagonismo. Las fotografías muestran una casa más social que ceremonial, con el ambiente cool que acompaña a Dias Ferreira. Es un lugar para ver y ser visto, pero también para sentarse frente al balcón del sushi bar y observar el trabajo de la cocina.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/temperarte-posto6/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Temperarte Posto 6 tiene la lógica de un restaurante de paso bien organizado: entrada visible, buffet, ensaladas y platos que permiten armar el almuerzo según el apetito. Las imágenes muestran variedad y un ambiente funcional, más preocupado por servir con rapidez que por crear una cena ceremonial.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/xian/",
+    "idioma": "en",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Xian se presenta en las imágenes con una sala agradable, terraza y una relación clara con el aire libre. La decoración es contemporánea y el paisaje de la Marina amplía la experiencia; no es un comedor escondido en una calle interior.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/feira-sao-cristovao/",
+    "idioma": "pt",
+    "seccion": "compras",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 10,
+    "ejemplo": "Yo te recomiendo conocer la Feira de São Cristóvão con tiempo y respeto. Para mí, no es solamente un lugar para comer o escuchar música: es una referencia de la cultura nordestina en Río, donde gastronomía, artesanía, forró, productos regionales e historias se encuentran.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 2
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/compras/mercadao-madureira/",
+    "idioma": "pt",
+    "seccion": "compras",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 15,
+    "ejemplo": "Para mí, el Mercadão de Madureira no es una parada rápida ni un decorado para una foto. Es un mercado popular de verdad, ligado a Madureira y a la Zona Norte, donde se cruzan compras del día a día, pequeños negocios, cultura, gastronomía y artículos que tienen un significado profundo para muchas comunidades. Como anfitrión, yo te recomiendo venir con curiosidad, tiempo y respeto.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 2
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/adega-perola/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Adega Pérola funciona en Rua Siqueira Campos, 138-A, Copacabana, y su forma de comer empieza mirando la vitrina. Riotur sitúa el origen en 1957, fundada por hermanos portugueses; después de casi cerrar, clientes habituales asumieron la continuidad de la casa. Hoy es reconocida como Patrimonio Cultural Carioca. Yo la recomendaría a quien disfruta elegir bocados, compartir y comparar sabores, más que a quien busca un plato único con una secuencia de restaurante convencional.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/aipo-aipim-391/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "En la unidad 391 yo veo una opción muy útil para quien quiere comer bien sin convertir el almuerzo en un programa largo. El formato es el clásico restaurante por kilo carioca: entras, miras el buffet, armas tu plato y pagas según el peso. Eso permite que una pareja o una familia coma junta aunque cada uno tenga gustos completamente distintos. Aquí la gracia no está en una presentación sofisticada, sino en la libertad de combinar comida casera, ensaladas, preparaciones calientes y proteínas en una sola parada.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/aipo-aipim-605/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "La unidad 605 está en una parte muy central de Copacabana y, para mí, su mayor virtud es resolver una comida completa cuando no quieres sentarte a esperar una carta. El sistema por kilo te deja mirar todo antes de decidir y eso funciona especialmente bien cuando vienes con hambre pero todavía quieres controlar cantidad y presupuesto. El salón responde a una lógica práctica: mesas para comer sin formalidad, buffet amplio y una rotación que encaja con el ritmo del barrio, tanto para quien trabaja cerca como para quien está recorriendo Río.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/aipo-aipim-920/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "La 920 es la unidad que yo miraría cuando el día está concentrado en el lado sur de Copacabana. Está cerca del eje de Cantagalo y funciona con la misma lógica de buffet por kilo de la red: tú decides cuánto comer y puedes mezclar ensaladas, platos calientes y proteínas sin quedar atado a un menú fijo. El ambiente es práctico y cotidiano, con un salón pensado para comer y seguir. No vendría buscando una experiencia formal; vendría porque necesitas variedad, una ubicación cómoda y la posibilidad de ajustar el plato a tu hambre.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/arab-leblon/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Arab Leblon me parece especialmente interesante porque puede funcionar de maneras muy distintas según la hora. No es solamente un restaurante para sentarse a cenar: la propia casa trabaja desayuno, buffet por kilo al mediodía y carta à la carte por la noche. Eso cambia por completo la experiencia. En una visita rápida puedes montar un plato con pequeñas porciones; en una cena tranquila puedes pedir mezzes para compartir y dejar que la mesa avance a otro ritmo. Para mí, esa flexibilidad es una de las razones para mantenerlo en una guía de Leblon.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/arp-bar/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 9,
+    "ejemplo": "Arp Bar é praticamente uma extensão da areia: varanda, luz natural, madeira clara e a praia do Arpoador logo adiante. As fotografias mostram um salão contemporâneo sem perder a informalidade de quem chega depois de caminhar. O mar é protagonista, mas não funciona como papel de parede: vento, sal, lotação e pôr do sol realmente interferem na mesa. A decoração clean deixa que a paisagem faça o trabalho de impacto.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/assador/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Assador ocupa Avenida Infante Dom Henrique, s/n, en el Aterro do Flamengo, con un salón acristalado orientado hacia la Baía de Guanabara y el Pão de Açúcar. La casa presenta su propuesta alrededor de carne, fuego y tradición de asador, mientras Visit Rio la describe como churrascaria de rodízio inspirada en el churrasco gaúcho. Yo la elegiría cuando la comida es uno de los planes principales del día y el grupo quiere combinar parrilla con una vista reconocible de Río.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bafo-da-prainha/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 8,
+    "ejemplo": "Bafo da Prainha se entiende antes de sentarse: la plaza, las mesas externas, la iglesia y el Morro da Conceição crean un escenario que pertenece a la calle. Las fotografías muestran cerveza, porciones, gente reunida y una atmósfera abierta, más de encuentro que de comida silenciosa. El espacio gana fuerza cuando la ciudad está viva alrededor y la acera forma parte del salón.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bar-da-gema/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Esta ficha corresponde al Bar da Gema creado por Luiza Souza y Leandro Amaral, hoy en Rua Dona Zulmira, 134, en el entorno de Maracanã/Tijuca. No debe confundirse con Carioca da Gema, la casa de samba de Lapa. Aquí el centro es la cocina de boteco: ambiente informal, platos contundentes y recetas populares reinterpretadas con humor y creatividad. Yo lo presentaría como una mesa para compartir y probar un repertorio más elaborado que el de un bar convencional.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bar-luiz/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Bar Luiz es uno de los nombres históricos de Rua da Carioca, asociado a la dirección 39 y a una trayectoria que comienza en 1887. Sin embargo, esta ficha no debe funcionar hoy como recomendación activa: un reportaje de mayo de 2026 sobre la revitalización de Rua da Carioca todavía indicaba que el bar permanecía cerrado. La marca fue adquirida y se ha hablado de reapertura, pero comprar un nombre o anunciar un proyecto no equivale a tener salón y cocina abiertos.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/bira-de-guaratiba/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 9,
+    "ejemplo": "Bira se abre hacia el agua y la vegetación de la Restinga da Marambaia. Madera, objetos vinculados a la pesca, terrazas y grandes visuales producen la sensación de llegar a una casa costera lejos del Río vertical. Las fotografías alternan vista, salón rústico y panelas abundantes. El paisaje es protagonista, pero no un decorado: explica la relación familiar con pescadores y la elección de una cocina basada en mariscos frescos.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/cabanna/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Cabanna es el quiosco QC 07 de Copacabana, frente al Copacabana Palace y a la altura de Rua Rodolfo Dantas. Yo lo presentaría como una experiencia de orla: sentarse junto al mar, descansar del paseo y decidir si quieres apenas una bebida, un petisco o una comida más completa. No es Cabana Burger ni un restaurante homónimo de otro país. Esa identificación parece un detalle menor, pero es importante porque el nombre produce resultados distintos en buscadores.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/cachambeer/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Cachambeer habla el idioma de un boteco suburbano de porciones grandes: mesas llenas, cerveza fría y platos que llegan con presencia. Las fotografías de joelho pururuca, costela, palmito, camarón y pescado muestran una cocina sin miedo a la abundancia. La atmósfera es ruidosa, familiar y de celebración, lejos del diseño contenido de Zona Sul.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/cafe-do-alto/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Café do Alto se presenta con color, madera y una decoración que remite al Nordeste sin convertirlo en escenografía superficial. Las imágenes muestran un salón cálido y mesas pensadas para desayunar con calma. La escala es más de casa gastronómica que de cafetería de paso: aquí conviene llegar con tiempo y dejar que la mañana se vuelva comida.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/carretao-siqueira/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Carretão trabaja con una escena de churrasquería: salón grande, circulación constante y una mesa pensada para recibir cortes, ensaladas y acompañamientos. Las imágenes muestran abundancia y variedad; el visitante debe esperar movimiento, no intimidad. Es un lugar donde el apetito y el ritmo del servicio mandan.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/casa-do-sardo/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Casa do Sardo no es simplemente un restaurante italiano: su identidad está centrada en Cerdeña, la isla de origen del chef y propietario Silvio Podda. La casa funciona en Rua São Cristóvão, 405, dentro de un inmueble con valor histórico. Yo la presentaría como una salida gastronómica con intención, especialmente para quien quiera conocer una cocina regional menos obvia y esté dispuesto a salir del circuito de Copacabana e Ipanema.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/casa-porto/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Casa Porto forma parte del Largo de São Francisco da Prainha, en Saúde, y su identidad mezcla comida brasileña, botequim y proyecto cultural. La casa nació en 2013 como centro cultural con biblioteca y fue evolucionando hacia restaurante y bar. Yo la presentaría como una parada que tiene sentido dentro de un recorrido por la Zona Portuaria, donde el entorno histórico, la plaza y la programación pesan tanto como el plato.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/churrascaria-palace/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 5,
+    "ejemplo": "El Palace se presenta como una churrasquería clásica de Copacabana: una fachada sobria, un salón amplio y una mesa que combina el ritual del fuego con un buffet de entrada. Las fotografías también muestran una barra más generosa de lo que uno espera de una casa dedicada solamente a la carne. La atmósfera apunta a una comida abundante, organizada y social, con espacio para familias, grupos y visitantes que quieren entender cómo funciona un rodízio brasileño.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/classico-leme/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 11,
+    "ejemplo": "Clássico Leme no intenta ocultar que está en la playa: arena, mureta, madera, almohadones, mesas exteriores y la línea del mar son la decoración. Las fotografías muestran un quiosco organizado, con espacio para familias y grupos, pero expuesto al viento, al sol y al movimiento del paseo. La atmósfera es relajada y cuidada al mismo tiempo: la ropa de playa encaja, pero la carta y el servicio permiten una celebración más arreglada.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/coisas-de-bamba/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Coisas de Bamba está en la Avenida Atlântica, cerca del Posto 4, y su identidad une quiosco de playa, samba y comida para compartir. La prensa de apertura describió esculturas de Moacyr Luz y Martinho da Vila en la entrada y referencias visuales a Dona Ivone Lara, Cartola y Monarco. Yo lo presentaría como un lugar donde la música forma parte del concepto, no como un restaurante silencioso al que uno va solamente por el plato.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/confeitaria-colombo/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "La matriz de Confeitaria Colombo es un salón monumental de espejos belgas, vitrales, madera tallada y claraboyas. Las fotografías deben leerse como arquitectura antes que como decoración de fondo. La luz, las vitrinas y el movimiento del Centro convierten un café en visita patrimonial; en horas llenas, el ruido y la circulación forman parte inevitable de la escena.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/confeitaria-manon/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Manon aparece como una confeitaria de salón tradicional, con vitrinas y mesas que invitan a detener el paso. Las fotografías muestran una experiencia más reposada que la de un café de mostrador: hay espacio para observar, conversar y elegir algo dulce.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/delirio/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 8,
+    "ejemplo": "La unidad de Ipanema tiene el aspecto de una casa concurrida de comida fresca: mostrador, bandejas de colores, mesas y platos que llegan ya compuestos. Las fotografías muestran variedad y practicidad, no una sala de estancia prolongada. Es el tipo de dirección en la que el viajero elige a golpe de vista, arma el plato según el hambre y vuelve rápidamente a la calle. Su encanto reside en la abundancia organizada, con apariencia ligera y ritmo de almuerzo.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/don-pascual/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 8,
+    "ejemplo": "Don Pascual funciona en Estrada do Sacarrão, 867, casa 12, Vargem Grande, y combina restaurante, pizzaria, pousada y experiencias. Yo lo presentaría como una salida de destino en la Zona Oeste, no como una parada espontánea de Copacabana. El entorno verde y la distancia hacen sensato reservar, mirar el mapa y pensar cómo llegar y regresar. Si quieres comer con tiempo fuera de los barrios centrales, esa logística es parte del plan.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/eclipse/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Eclipse ocupa una esquina grande al final de Copacabana y muestra una personalidad híbrida: bar, restaurante, pizzería y punto nocturno. Pantallas, barra, mesas numerosas y luz permanente producen un ambiente más entretenido que íntimo. Las fotografías dejan ver un salón preparado tanto para partidos como para comidas largas, mientras la fachada conecta con el movimiento de Posto 6. El piano agrega otra capa cuando existe programación. No esperes silencio; la gracia consiste en que varias escenas del barrio coinciden bajo el mismo techo.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/gurume/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Gurumê trabaja una estética japonesa contemporánea: madera, líneas limpias, luz controlada y platos donde el color del pescado lleva el protagonismo. Las fotografías muestran sushi, salmón, mariscos y un salón de diseño, pero también mesas ocupadas y una energía urbana. No es una barra tradicional de pocas plazas; está pensado para una experiencia social y visual en pleno Ipanema.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/joaquina/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 9,
+    "ejemplo": "Joaquina combina el frente marítimo del Leme con un salón colorido, cómodo y menos rígido que un restaurante de hotel. Las fotografías muestran platos servidos con cuidado, mesas preparadas para familias y una atmósfera brasileña contemporánea sin recurrir a caricaturas tropicales. La Avenida Atlântica aporta luz, peatones y el rumor constante de la orla. Una mesa exterior acerca el paisaje, pero recibe viento y tránsito; dentro, la comida y el servicio ocupan el centro.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/jobi/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Jobi tiene la imagen de un bar que nunca termina de vaciarse: fachada reconocible en Ataulfo de Paiva, salón compacto, barra y mesas donde conviven almuerzo, chope y madrugada. Las fotografías registran movimiento más que decoración. El visitante encontrará ruido, cercanía y una energía bohemia que puede resultar estimulante o cansadora según la hora.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/kilograma-centro/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Kilograma, en Rua Riachuelo, funciona mejor como opción práctica que como destino gastronómico. Las fuentes describen buffet con ensaladas y preparaciones calientes, y algunos registros también mencionan grill, sushi, pizza o rodízio. Como esos formatos no coinciden entre sí, yo no prometería que todas las estaciones funcionen en cada turno. Para el viajero, la idea útil es mirar lo que realmente está disponible y decidir si el buffet resuelve la comida.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/lasai/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Lasai concentra la experiencia alrededor de una gran mesa y una cocina abierta donde el trabajo del equipo queda a la vista. Las fotografías muestran un espacio contenido, pocos comensales y platos construidos con precisión. No funciona como un salón convencional: la proximidad al fuego, al chef y a los demás invitados vuelve cada movimiento parte de la cena.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/majorica/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 6,
+    "ejemplo": "La propuesta de Majórica se reconoce por su relación con Flamengo y por una carta que no busca parecerse a la del restaurante vecino. La información histórica y el menú deben confirmarse en sus canales actuales.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/nido-ristorante/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 8,
+    "ejemplo": "Nido Ristorante, en Avenida General San Martin, 1011, propone una comida italiana de salón donde la mesa merece tiempo. El propio restaurante explica que “Nido” significa nido y vincula el nombre con una atmósfera acogedora. Yo lo pondría en la lista para una ocasión especial, una cena planificada o un almuerzo con calma en Leblon, no como una parada rápida ni como una alternativa económica que pueda compararse con una lanchonete.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/nino-cucina-ipanema/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 25,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Nino Cucina apuesta por una estética de villa italiana en medio de Ipanema: salón cuidado, mesas próximas, luz cálida y una atmosfera pensada para pasta y vino. Las imágenes muestran una casa que quiere ser recordada por la experiência completa, no solamente por una fotografía de espagueti. La sala tiene un lado social y otro romántico; el tono cambia según la mesa y el horario.",
+    "estado": "corregida y verificada públicamente",
+    "prioridad_lote": 1
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/nova-capela/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Nova Capela tiene el aspecto de una casa que pertenece a la noche: salón tradicional, mesas próximas y una estética que no busca parecer nueva. Las fotografías transmiten platos abundantes y un ambiente de conversación, adecuado para quien llega después de caminar por los Arcos o salir de un espectáculo.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/oro/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Oro propone una sala contemporánea, sobria y cuidadosamente iluminada, donde el plato llega con la mesma importância que el espacio. Las fotos muestran salón, segundo piso, entradas y una preparación de cavaquinha y langosta. No es una casa para comer de cualquier manera: el ambiente pide atención, tiempo y una expectativa de alta gastronomia.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/pesqueiro/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Pesqueiro está construido alrededor del paisaje: playa, lagoa y mesas al aire libre. Las fotos muestran frutos del mar, cerveza, vino y un ambiente que puede pasar de almuerzo relajado a beach club.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/point-de-grumari/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Point de Grumari está en Estrada de Grumari, 2710, Barra de Guaratiba, y se presenta como una casa abierta desde 1992. Su principal diferencial no es solo la carta: el restaurante integra la comida con una vista panorámica hacia el Atlántico y la Restinga da Marambaia. Yo lo elegiría cuando el plan sea dedicar varias horas a Grumari y su entorno, no como una parada rápida entre dos actividades distantes.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/prana/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Prana es un restaurante vegetariano dirigido por el chef Marcos Freitas que nació en Cosme Velho y después se mudó a Rua Lopes Quintas, 37, Jardim Botânico. La propuesta busca desarrollar cocina vegetal con intención de restaurante, no limitarse a ensaladas. Yo lo recomendaría tanto a vegetarianos como a viajeros curiosos que quieran probar una comida distinta durante un día por Jardim Botânico.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/quiteria/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 8,
+    "ejemplo": "Quitéria tem uma estética clean e praiana, com a escala acolhedora de um restaurante de hotel boutique. As fotografias mostram salão claro, café da manhã e pratos montados com cuidado; não é uma casa de balcão nem um boteco de ruído constante. A Rua Maria Quitéria fica perto da praia, mas o ambiente interior cria uma pausa mais protegida do movimento de Ipanema.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/rio-scenarium/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Rio Scenarium es un laberinto de siete ambientes distribuidos en tres pisos, cargado de muebles, retratos, lámparas y objetos antiguos. Las fotografías no muestran simplemente un restaurante: muestran una casa de espectáculos donde decoración, circulación y música compiten por la atención. El visitante debe esperar escaleras, público numeroso y una noche más teatral que íntima.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/rufino-parrilla/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Rufino tiene una identidad de parrilla elegante: fuego, salón cálido, cortes y una carta de vinos que ordena la experiencia. Las fotos muestran una casa más sofisticada que un asador improvisado.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/sabor-das-aguas/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Sabor das Águas tiene una identidad de restaurante-bar especializado: salón cercano a la calle, platos de mar y una apresentação que busca despertar curiosidad. Las fotos sugieren un lugar menos ceremonial que un restaurante de alta cocina, pero más específico que un boteco.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/shiso/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Shiso trabaja con una estética minimalista y una sala que privilegia líneas limpias, madera y calma. Las fotos sugieren sushi, platos japoneses y un ambiente íntimo dentro del resort, separado del ruido de la avenida.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/spesso/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 0,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Spesso se presenta como un italiano contemporáneo de escala contenida. Las imágenes muestran mesas próximas, vegetación, luz cálida y una puesta en escena más relajada que la de una cantina clásica. No hay manteles solemnes ni un salón monumental: la sensación es la de una dirección de barrio donde brunch, vino y cena pueden compartir el mismo espacio. Esa proximidad favorece parejas y grupos pequeños, aunque en una hora concurrida también puede elevar el ruido. La fotografía de portada debe leerse como atmósfera, no como promesa de una mesa específica.",
+    "estado": "traducción pendiente",
+    "prioridad_lote": 3
+  },
+  {
+    "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/temperarte-bolivar/",
+    "idioma": "pt",
+    "seccion": "gastronomia",
+    "impresiones_octubre": 17,
+    "bloques_largos_coincidentes_es_antes": 7,
+    "ejemplo": "Temperarte Bolívar muestra una sala funcional y una línea de buffet donde frutas, ensaladas, salsas y platos calientes permiten elegir sin protocolo. Su ambiente es de barrio: práctico, luminoso y preparado para una comida que debe adaptarse a distintos apetitos.",
+    "estado": "corregida y verificada públicamente",
+    "prioridad_lote": 1
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "sitemap_urls": 2481,
+  "http_200": 2481,
+  "canonical_ok": 2481,
+  "hreflang_clusters": 2481,
+  "affected": 412,
+  "languages": {
+    "es": 47,
+    "en": 179,
+    "pt": 186
+  },
+  "sections": {
+    "barrios": 23,
+    "cafe-rio": 3,
+    "consejos": 17,
+    "cultura": 76,
+    "destinos/buzios": 66,
+    "atracciones": 6,
+    "compras": 24,
+    "experiencias": 16,
+    "familia": 12,
+    "fotografia": 2,
+    "gastronomia": 98,
+    "guia": 7,
+    "historia": 1,
+    "hospedaje": 10,
+    "naturaleza": 8,
+    "playas": 8,
+    "transportes": 10,
+    "vida-nocturna": 24,
+    "privacidad-precios-condiciones": 1
+  },
+  "priority": {
+    "P2": 359,
+    "P1": 51,
+    "P3": 2
+  },
+  "language_review_affected": 84,
+  "short_affected": 14,
+  "unreachable_affected": 9,
+  "unreachable_site": 30,
+  "redirects": 120,
+  "redirects_pass": 120
+}

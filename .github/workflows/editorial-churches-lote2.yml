@@ -1,0 +1,88 @@
+name: SEO lote 2 - Doce iglesias ES PT EN (NO DEPLOY)
+on:
+  pull_request:
+    paths:
+      - 'cultura/**'
+      - 'assets/js/translations/iglesias-lote2.js'
+      - '.github/workflows/editorial-churches-lote2.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      VERCEL: '1'
+      EC_BUILD_WORKERS: '2'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Check localized editorial source module
+        run: node --check assets/js/translations/iglesias-lote2.js
+      - name: Build just twelve church routes across 3 languages
+        run: node scripts/build_multilingual.mjs --routes=/cultura/bonsucesso/,/cultura/capuchinhos/,/cultura/conceicao-boa-morte/,/cultura/copacabana/,/cultura/nossa-senhora-brasil/,/cultura/nossa-senhora-penna/,/cultura/nossa-senhora-saude/,/cultura/santa-margarida/,/cultura/santa-rita/,/cultura/sao-francisco-paula/,/cultura/sao-jose-lagoa/,/cultura/sao-judas/
+      - name: Assert all 36 translated published-format pages
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html import unescape
+          import re,json
+          slugs=["bonsucesso","capuchinhos","conceicao-boa-morte","copacabana","nossa-senhora-brasil","nossa-senhora-penna","nossa-senhora-saude","santa-margarida","santa-rita","sao-francisco-paula","sao-jose-lagoa","sao-judas"]
+          mod=Path('assets/js/translations/iglesias-lote2.js').read_text()
+          d=json.loads(re.search(r'registerTranslations\("iglesias-lote2", (\{[\s\S]*\})\);',mod).group(1))
+          assert len(d['ES'])==len(d['PT'])==len(d['EN'])==156,len(d['EN'])
+          failures=[]
+          for slug in slugs:
+           keybase='church2_'+slug.replace('-','_')
+           for lang,prefix in (('ES',''),('PT','pt/'),('EN','en/')):
+            path=Path('dist')/prefix/'cultura'/slug/'index.html'
+            if not path.is_file():
+             failures.append((str(path),'missing output')); continue
+            text=unescape(path.read_text())
+            for key in (keybase+'_title',keybase+'_description',keybase+'_0',keybase+'_1',keybase+'_2'):
+             expect=d[lang][key]
+             if expect not in text:failures.append((str(path),'not translated',key,expect[:60]))
+            if lang!='ES':
+             for key in (keybase+'_0',keybase+'_1',keybase+'_2'):
+              es=d['ES'][key]
+              if es in text: failures.append((str(path),'original Spanish still shown',key))
+            if 'rel="canonical"' not in text:failures.append((str(path),'canonical missing'))
+            if not re.search(r'<html\b[^>]*\blang=',text):failures.append((str(path),'lang missing'))
+            if text.count('culture-gallery')<1:failures.append((str(path),'gallery missing'))
+            visible=re.sub(r'<script\b[^>]*>[\s\S]*?</script>',' ',text)
+            visible=re.sub(r'<style\b[^>]*>[\s\S]*?</style>',' ',visible)
+            visible=re.sub(r'<[^>]+>',' ',visible)
+            if len(visible)<2000:failures.append((str(path),'too short',len(visible)))
+            if slug=='sao-judas' and 'diocesepetropolis.com.br' in text:failures.append((str(path),'incorrect Petrópolis hero photo still present'))
+          assert not failures, json.dumps(failures[:40],ensure_ascii=False)
+          print('PASS: 36 locale HTML, 12 routes, no regression to ES main copy, images and metadata preserved')
+          PY
+      - name: Create tiny exact scope archive without live deploy
+        run: |
+          python3 - <<'PY'
+          import zipfile,json,hashlib
+          from pathlib import Path
+          slugs=["bonsucesso","capuchinhos","conceicao-boa-morte","copacabana","nossa-senhora-brasil","nossa-senhora-penna","nossa-senhora-saude","santa-margarida","santa-rita","sao-francisco-paula","sao-jose-lagoa","sao-judas"]
+          items=[(Path('dist')/prefix/'cultura'/slug/'index.html', prefix+'cultura/'+slug+'/index.html')
+                 for prefix in ('','pt/','en/') for slug in slugs]
+          items.append((Path('assets/js/translations/iglesias-lote2.js'),'assets/js/translations/iglesias-lote2.js'))
+          assert all(p.is_file() for p,_ in items)
+          out=Path('lote2-12-iglesias-es-pt-en-REVISAR-ANTES-DE-SUBIR.zip')
+          with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:
+           for p,dest in items:z.write(p,dest)
+           z.writestr('LEER_ANTES_DE_PUBLICAR.txt','BLOQUE NO PUBLICADO. Paquete selectivo: 36 HTML y 1 modulo de traduccion. Verificar las rutas existentes, las traducciones y los archivos compartidos antes de subir. NO reconstruir todo el sitio ni sobreescribir sitemap.xml, robots.txt, site.js, Carioc-IA, home o archivos ajenos. Subir solo con copia de seguridad; comprobar el contenido de cada idioma tras publicar.')
+           z.writestr('MANIFEST_SHA256.json',json.dumps({dest:hashlib.sha256(p.read_bytes()).hexdigest() for p,dest in items},indent=2))
+          print('RELEASE SCOPE OK:',len(items),'files',out.stat().st_size,'bytes')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lote2-iglesias-36-html-1-dictionary-NO-DEPLOY
+          path: lote2-12-iglesias-es-pt-en-REVISAR-ANTES-DE-SUBIR.zip
+          retention-days: 14
+          if-no-files-found: warn
