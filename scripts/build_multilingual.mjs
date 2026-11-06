@@ -8,6 +8,7 @@ import {loadBuildLibraries} from './build_vendor.mjs';
 import {buildBrowserOptions} from './build_browser.mjs';
 import {SEO_METADATA} from '../assets/js/seo-metadata.js';
 import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/translations/chunks/experiencias-standalone.js';
+import{renderBuziosMirror,mirrorRoutes}from'./build_buzios_mirror.mjs';
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
@@ -70,6 +71,9 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  }
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
+  const mirrorInputs=['assets/data/buzios-photo-review.json','scripts/build_buzios_detail_mirror.mjs','scripts/build_buzios_mirror.mjs','scripts/buzios_mirror_core.mjs','scripts/build_buzios_visual_mirror.mjs','scripts/build_buzios_guide_mirror.mjs','scripts/build_buzios_transport_mirror.mjs','scripts/build_buzios_events.mjs','scripts/build_buzios_things_parity.mjs','scripts/build_buzios_season_rental.mjs','assets/js/buzios-mirror-shell.js','assets/js/buzios-photography.js','assets/js/buzios-events.js','assets/js/buzios-events-2026.js','assets/js/buzios-season-tabs.js','assets/data/buzios-guide-rio-templates.json','assets/data/buzios-rental-preserved.json','assets/data/buzios-season-rental.json'];
+  if(mirrorInputs.includes(file)||/^assets\/js\/translations\/chunks\/buzios-(?:transport-mirror|bus-timetable|guide-context|apps-mirror|events|things-parity)\.js$/.test(file)){for(const route of mirrorRoutes)routes.add(route);continue;}
+  if(file==='assets/js/buzios-taxonomy.js')continue;
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
   }
@@ -189,6 +193,11 @@ async function worker(){
  while(next<targets.length){
  const target=targets[next++],route=prefix(target.route,target.language);
   try{
+   if(mirrorRoutes.includes(target.route)){
+    const destination=path.join(out,route.slice(1)+'index.html');fs.mkdirSync(path.dirname(destination),{recursive:true});
+    fs.writeFileSync(destination,renderBuziosMirror(target.route,target.language));
+    manifest.push({route,source:target.route,language:target.language,indexable:!provisionalBuziosBeach(target.route),generated:true});continue;
+   }
    if(provisionalBuziosBeach(target.route)){
     const destination=path.join(out,route.endsWith('/')?route.slice(1)+'index.html':route.slice(1));
     if(target.language==='ES'){

@@ -1,0 +1,8 @@
+/* Reuse Río's cultura.css components; keep the four doors separate from advice. */
+.ec-buzios-things-parity .bz-things-open{display:block;margin-top:16px;color:#14554b;font:700 12px Arial,sans-serif}
+.ec-buzios-things-parity .bz-things-profiles .culture-copy{margin:22px 0;scroll-margin-top:100px}
+.ec-buzios-things-parity .culture-copy h3{font:400 25px Georgia,serif;color:#123b35}.ec-buzios-things-parity .culture-copy a{display:inline-block;margin:10px 12px 10px 0;padding:11px 15px;border-radius:99px;background:#123b36;color:#fff;font-weight:700;font-size:13px;text-decoration:none}
+.ec-buzios-things-parity .culture-copy figure{margin:20px 0}.ec-buzios-things-parity .culture-copy img{display:block;width:100%;height:auto;max-height:480px;object-fit:contain;border-radius:18px}
+.ec-buzios-things-parity .culture-copy iframe{max-width:100%}.ec-buzios-things-parity .culture-card{min-width:0}.ec-buzios-things-parity .culture-note p{margin-bottom:0}
+.ec-buzios-things-parity main[data-bz-things-parity="hub"] .culture-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:600px){.ec-buzios-things-parity main[data-bz-things-parity="hub"] .culture-grid{grid-template-columns:1fr}}

@@ -302,3 +302,5 @@ export function renderBuziosEvents(lang){
  [T('Plan alternativo por clima','Plano alternativo pelo tempo','Weather backup'),T('Los eventos al aire libre y las regatas pueden cambiar con lluvia, viento o mar. Consulta los canales oficiales el mismo día.','Eventos ao ar livre e atividades náuticas podem mudar com chuva, vento ou mar. Confira os canais oficiais no dia.','Open-air events and sea activities can change with rain, wind or sea conditions. Check official channels on the day.')]
  ].map(it=>'<article><h3>'+t(it[0])+'</h3><p>'+t(it[1])+'</p></article>').join('')+'</div><div class="bz-event-ctas">'+link(T('Ver transportes de Búzios','Ver transportes de Búzios','View Búzios transport'),'/destinos/buzios/transportes/',lang,'bz-event-button')+link(T('Calendario de la Prefeitura','Calendário da Prefeitura','City Hall calendar'),source,lang,'bz-event-button')+link(T('Agenda complementaria ABIH-RJ','Agenda complementar ABIH-RJ','Supplementary ABIH-RJ calendar'),abih,lang,'bz-event-button')+'</div></div></section>';
 }
+
+export { events as currentBuziosCalendar };

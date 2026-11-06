@@ -1,0 +1,25 @@
+{
+  "reviewed": "2026-11-06",
+  "excluded": [
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/radical-parque-buzios.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/AZEDINHA/praia-da-azedinha.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/FORNO/praia-do-forno%20cartel.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/FORNO/indicador-praia-do-forno.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/GORDA/praia%20gorda%203.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/OLHO%20DE%20BOI/olho%20de%20boi.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/OLHO%20DE%20BOI/paraiso.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/JOAO%20FERNANDINHO/caption%20(1).jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/JOAO%20FERNANDES/caption%20(3).jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/FERRADURA/caption.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/AZEDA/caption.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/FORNO/panoramica-de-praia-do.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/FERRADURA/FERRADURA.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/TARTARUGAS/photo0jpg.jpg"
+  ],
+  "replacements": {
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/barrios/ossos.jpg": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/OSSOS/praia-dos-ossos.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/AZEDINHA/praia-da-azedinha.jpg": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/AZEDINHA/praia-da-azedinha%20(2).jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/FORNO/praia-do-forno%20cartel.jpg": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/FORNO/praia-do-forno.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/GUIA%20DE%20RIO/ALQUILER%20DE%20AUTO/banner%20rent%20cars.png": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/GUIA%20BUZIOS/ALQUILER%20DE%20AUTO/BANNER%20ALQUILER%20DE%20AUTO.png"
+  }
+}

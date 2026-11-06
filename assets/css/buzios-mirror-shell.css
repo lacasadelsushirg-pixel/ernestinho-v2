@@ -1,0 +1,17 @@
+/* Shared destination navigation retains the Río controls and scrolls inside the viewport. */
+.bz-destination-nav{display:block;max-width:100%;min-width:0}
+.bz-destination-nav-inner{box-sizing:border-box;width:100%;min-width:0}
+.bz-destination-links{max-width:100%;min-width:0}
+.guide-layout>*{min-width:0}.table-wrap{max-width:100%}
+/* Photos remain free of text; card copy follows the image in reading order. */
+[data-bz-mirror] .guide-grid a{padding:0;justify-content:flex-start;overflow:hidden}
+[data-bz-mirror] .guide-grid a::before,[data-bz-mirror] .guide-grid a::after{display:none}
+[data-bz-mirror] .guide-grid a .guide-thumb{position:static;inset:auto;display:block;width:100%;height:205px;object-fit:cover;opacity:1;filter:none;transform:none}
+[data-bz-mirror] .guide-grid a b,[data-bz-mirror] .guide-grid a span{position:static;display:block;margin:0;padding:14px 20px 0}
+[data-bz-mirror] .guide-grid a span{padding:8px 20px 18px}
+[data-bz-mirror] .bh-individual-index .topic{padding:0;overflow:hidden;justify-content:flex-start}
+[data-bz-mirror] .bh-individual-index .topic::before,[data-bz-mirror] .bh-individual-index .topic::after{display:none}
+[data-bz-mirror] .bh-individual-index .topic img{position:static;inset:auto;opacity:1;filter:none;transform:none;width:100%;height:220px;object-fit:cover}
+[data-bz-mirror] .bh-individual-index .topic b,[data-bz-mirror] .bh-individual-index .topic span{position:static;margin:0;padding:14px 20px 0}
+[data-bz-mirror] .bh-individual-index .topic span{padding:8px 20px 18px}
+@media(max-width:780px){.guide-layout{grid-template-columns:minmax(0,1fr)}}

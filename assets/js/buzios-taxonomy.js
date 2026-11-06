@@ -71,7 +71,7 @@ export function renderBuziosCategoryNav(language = 'ES') {
     `<a href="${prefix}${category.path}">${category[lang]}</a>`
   )].join('');
   // Ensure every Búzios subpage receives the updated secondary-nav CSS despite old HTML cache keys.
-  if (!document.querySelector('link[data-bz-secondary-nav]')) {
+  if (typeof document!=='undefined'&&!document.querySelector('link[data-bz-secondary-nav]')) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
     stylesheet.href = '/assets/css/buzios.css?v=20261023-buzios-header-home';
