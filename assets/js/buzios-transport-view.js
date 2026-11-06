@@ -22,7 +22,8 @@ const quick=[
 ];
 const refer=[
  {title:T('Cooper Búzios','Cooper Búzios','Cooper Búzios'),url:'https://cooperbuzios.com/'},
- {title:T('Coopergeribá · app en pruebas','Coopergeribá · app em testes','Coopergeribá · app in testing'),url:'https://www.coopergeriba.online/'},
+ {title:T('Coopergeribá · información de pruebas','Coopergeribá · informação sobre testes','Coopergeribá · testing notice'),url:'https://www.coopergeriba.online/'},
+ {title:T('Coopergeribá · aplicación Android','Coopergeribá · app Android','Coopergeribá · Android app'),url:'https://play.google.com/store/apps/details?id=com.coopergeribapassageiro'},
  {title:T('Uber en Búzios','Uber em Búzios','Uber in Búzios'),url:'https://www.uber.com/br/pt-br/r/cities/taxi/armacao-dos-buzios-rj-br/'},
  {title:T('Auto Viação 1001','Auto Viação 1001','Auto Viação 1001'),url:'https://www.autoviacao1001.com.br/'}
 ];
