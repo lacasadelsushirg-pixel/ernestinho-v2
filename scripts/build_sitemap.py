@@ -46,6 +46,10 @@ class Metadata(HTMLParser):
 
 for page in sorted(root.rglob("*.html")):
     relative = page.relative_to(root)
+    # Ownership verification tokens are required public files, but never sitemap pages.
+    # Keep them untouched in the published output; only exclude them from SEO indexing.
+    if relative.parent == Path('.') and re.fullmatch(r'google[a-f0-9]+\\.html', relative.name, flags=re.I):
+        continue
     if relative.name == "404.html" or any(p in relative.parts for p in ('.git', 'node_modules', 'dist', '.vercel', 'docs')):
         continue
     route = "/" if relative.as_posix() == "index.html" else "/" + relative.parent.as_posix().strip(".") + "/" if relative.name == "index.html" else "/" + relative.as_posix()
