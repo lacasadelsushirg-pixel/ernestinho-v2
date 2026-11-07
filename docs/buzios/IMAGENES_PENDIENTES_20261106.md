@@ -1,45 +1,23 @@
-# Búzios — inventario de imágenes editoriales pendientes (06/11/2026)
+# Búzios — lista final de reemplazos fotográficos, 6 de noviembre de 2026
 
-Estado: **inventario de reemplazos, no fotografías creadas ni verificadas en producción**. Prioridad definida para el cierre visual, exceptuando Hospedaje y Experiencias/Tours.
+Las páginas del lote tienen imágenes y las 23 fichas de playas conservan fotografías reales de cada lugar. Esta lista identifica mejoras editoriales: imágenes más específicas para sustituir referencias generales. No son bloqueos de publicación ni carteles de “foto faltante” en la web.
 
-## Reglas visuales
-- Utilizar fotos reales del lugar o servicio correspondiente, sin textos, letras añadidas, marcas de agua ni fondos repetitivos.
-- Preferir miniaturas horizontales **16:10** para tarjetas de Guía y Transportes; para Eventos, fotos horizontales **16:9**.
-- Confirmar autorización/licencia y conservar los créditos obligatorios; no atribuir una foto de paisaje a un evento real.
-- Mantener orden/encabezado, tarjeta y tipografía equivalentes a Río, con el encabezado distintivo de Búzios.
+Usar fotos reales y horizontales, sin títulos añadidos, firmas ni marcas de agua. Conservar autorizaciones y créditos exigibles fuera de la imagen. No retocar una foto para borrar su firma. Los banners comerciales de Rentcars y seguros se conservan porque forman parte de las integraciones solicitadas.
 
-## Prioridad 1 — Transportes
-| Ruta / ubicación | Reemplazo editorial solicitado | Situación actual |
+| Ubicación | Foto que convendría aportar | Imagen contextual disponible |
 | --- | --- | --- |
-| `transportes/vans/` y portada | Fotografía real distinta de una van de Cooper Búzios/Coopergeribá en una calle identificable de la península, sin placa legible | Portada usa foto de van Cooper Búzios; página de vans usa foto del paisaje de Manguinhos |
-| `transportes/uber-99/` | Auto de aplicación y lugar de embarque real en Búzios, sin datos privados ni logos inventados | Foto genérica reutilizada de Río |
-| `transportes/transporte-privado/` | Vehículo de traslado real en Búzios con el equipaje de turistas, autorización de retratados | Foto genérica reutilizada de Río |
-| `transportes/alquiler-autos/` | Vehículo de alquiler real en zona de Búzios, sin textos ni placa legible | Foto genérica de alquiler de Río (se conserva integración Rentcars) |
-| `transportes/barco-taxi/` | Barco-taxi real en embarcadero de Ossos/Armação, foto sin publicidad | Foto costera de Armação como contexto; no acredita barco-taxi específico |
-| `transportes/onibus/` | Autobús intermunicipal real de las líneas B152/B160 o 1001; confirmar derechos | Imagen interurbana genérica; último lugar en portada |
+| Uber/99 | Embarque real de un vehículo en Búzios | Uso del teléfono junto a la playa |
+| Taxi marítimo | Barco-taxi y embarque identificable de Ossos/Armação | Costa y embarcaciones de Ossos |
+| Alquiler de auto/buggy | Vehículo de alquiler en una calle de Búzios | Foto de buggy e integración comercial existentes |
+| Guía: documentos, CPF, Pix, equipaje, electricidad, apps | Una imagen específica por tema, sin números/documentos privados legibles | Fotografías contextuales de Búzios |
+| Guía: accesibilidad | Acceso real con rampa/pavimento de una ruta identificada | Referencia contextual existente |
+| Consejos: lluvia | Rua das Pedras o Centro bajo lluvia | Vista costera de Búzios |
+| Consejos: supermercados | Fachada o interior de supermercado local | Referencia contextual de Manguinhos |
+| Consejos: errores e itinerarios | Escaleras/cuesta y vista del recorrido, respectivamente | Paisajes de playas y Ferradura |
+| Consejos: atardeceres | Otra fotografía de puesta de sol en Porto da Barra | Referencia de la costa de Manguinhos |
+| Cine Teatro Rasa | Fachada o interior del teatro | Imagen de exposición de Zanine en la ficha conjunta de teatro y muestras |
+| Agenda de noviembre/diciembre | Fotos de Natal de Luz, carrera y Cantata, cuando existan | Contexto de Búzios, sin afirmar que representa el evento |
 
-## Prioridad 2 — Consejos
-| Página | Fotografía real requerida | Situación |
-| --- | --- | --- |
-| `consejos/20-consejos/` | Preparación de mochila/documentos antes de salir a la playa | Miniatura contextual de playa |
-| `consejos/50-preguntas/` | Mapa físico o planificación de Búzios, sin texto legible | Miniatura panorámica |
-| `consejos/errores-frecuentes/` | Acceso con escaleras o calle empinada en Búzios | Miniatura de playa |
-| `consejos/supermercados/` | Interior real de supermercado con autorización; sin marcas destacadas | Miniatura de Manguinhos |
-| `consejos/playas-barracas/` | Barracas, sombrillas y servicios reales en playa de Búzios | Miniatura de playa |
-| `consejos/lluvia/` | Rua das Pedras/centro bajo lluvia, escena real | Miniatura soleada de Orla Bardot |
-| `consejos/itinerarios/` | Vista elevada de la península con carreteras y playas | Foto de Ferradura |
-| `consejos/atardeceres/` | Atardecer auténtico en Porto da Barra/Manguinhos | Foto diurna de Porto da Barra |
+Ya hay fotografía útil para Radical Parque y una foto de Ferradura para la tarjeta de playa en familia: no es necesario solicitarlas otra vez. La foto de van local y la terminal proceden de la carpeta de Búzios; no se describen como fotos de Río. Las guías de Festa Literária, aniversario y vino disponen de fotos de eventos; una edición pasada no se presenta como una edición futura.
 
-## Prioridad 3 — Eventos, Guía y otras áreas
-- **Eventos:** fotos propias o licenciadas de Festa Literária, Festa da Cidade, Natal de Luz, Meia Maratona y Cantata, con autorización; las fotos actuales son **paisajes de Búzios**, nunca representaciones del evento.
-- **Guía — Terminal:** fotografía real de la terminal de Búzios y autobuses; evitar usar foto de Novo Rio para representar Búzios.
-- **Guía — Accesibilidad:** acceso real documentado con rampa o pavimento accesible; no prometer accesibilidad donde no está comprobada.
-- **Guía — Salud:** fachada real de una unidad de salud identificada y verificada en Búzios.
-- **Guía — Consulados:** foto contextual de preparación documental; no inventar un consulado dentro de Búzios.
-- **Fotografías:** se retiró del render un enlace a `/assets/images/buzios/ernestinho-orla-bardot.webp`, que **no existía** en el repositorio; no reemplazarlo por una foto con título falso.
-
-## Verificaciones previas a cerrar
-1. Comprobar respuesta HTTP e imagen visible en ES/PT/EN.
-2. Revisión de miniaturas a 1440 px y 390 px.
-3. Revisar ALT adecuados, proporciones y autor/licencia donde sea exigible.
-4. No marcar como foto pendiente completada hasta que el archivo exista y se vea en Hostinger.
+Playas: se excluyeron las imágenes con carteles, textos o marcas detectadas. Olho de Boi conserva otras fotografías después de retirar la imagen con firma.

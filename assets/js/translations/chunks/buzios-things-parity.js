@@ -1,3 +1,4 @@
+// Four categories; ES/PT-BR/EN editorial and supplied destination photos.
 export default {
   "/destinos/buzios/que-hacer/": {
     "ES": {
@@ -36,7 +37,7 @@ export default {
         {
           "title": "Planes en familia",
           "short": "Opciones para distintas edades, con juegos, cine y actividades que conviene confirmar antes de salir.",
-          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/radical-parque-buzios%20(1).jpg",
+          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/brinquedos-infantis-na.jpg",
           "alt": "Vista de Radical Parque Búzios en Búzios",
           "target": "/destinos/buzios/con-ninos/",
           "body": "<p class=\"bz-card-summary\">Opciones para distintas edades, con juegos, cine y actividades que conviene confirmar antes de salir.</p><a href=\"/destinos/buzios/con-ninos/\">Abrir guía →</a>",
@@ -81,7 +82,7 @@ export default {
         {
           "title": "Programas em família",
           "short": "Opções para diferentes idades, com brincadeiras, cinema e atividades que devem ser confirmadas.",
-          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/radical-parque-buzios%20(1).jpg",
+          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/brinquedos-infantis-na.jpg",
           "alt": "Vista de Radical Parque Búzios em Búzios",
           "target": "/pt/destinos/buzios/con-ninos/",
           "body": "<p class=\"bz-card-summary\">Opções para diferentes idades, com brincadeiras, cinema e atividades que devem ser confirmadas.</p><a href=\"/pt/destinos/buzios/con-ninos/\">Abrir guia →</a>",
@@ -126,7 +127,7 @@ export default {
         {
           "title": "Family outings",
           "short": "Options for different ages, including play, cinema and activities to check before setting out.",
-          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/radical-parque-buzios%20(1).jpg",
+          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/brinquedos-infantis-na.jpg",
           "alt": "View of Radical Parque Búzios in Búzios",
           "target": "/en/destinos/buzios/con-ninos/",
           "body": "<p class=\"bz-card-summary\">Options for different ages, including play, cinema and activities to check before setting out.</p><a href=\"/en/destinos/buzios/con-ninos/\">Open guide →</a>",
@@ -584,7 +585,7 @@ export default {
         {
           "title": "Radical Parque",
           "short": "Puede ser una salida activa para varias edades, pero cada atracción tiene límites de altura, edad y seguridad.",
-          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/radical-parque-buzios.jpg",
+          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/brinquedos-infantis-na.jpg",
           "alt": "Vista de Radical Parque Búzios en Búzios",
           "target": "",
           "body": "<div><div><p>Puede ser una salida activa para varias edades, pero cada atracción tiene límites de altura, edad y seguridad. Yo revisaría la operación y las reglas directamente con el parque, además del horario de ese día; no todos los juegos necesariamente están funcionando a la vez.</p><div class=\"bz-editorial-actions\"><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Radical%20Parque%2C%20Estrada%20da%20Usina%20Velha%2C%20B%C3%BAzios\" target=\"_blank\" rel=\"noopener noreferrer\">Abrir en el mapa →</a></div></div></div>",
@@ -593,8 +594,8 @@ export default {
         {
           "title": "Una mañana de playa en familia",
           "short": "Elige una playa según baños, sombra, acceso y distancia a tu alojamiento; el nombre de una ensenada no garantiza condiciones seguras del mar.",
-          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/brinquedos-infantis-na.jpg",
-          "alt": "Vista de Actividad familiar en Búzios en Búzios",
+          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/FERRADURA/FERRADURA%20PORT.jpg",
+          "alt": "Praia da Ferradura · Búzios",
           "target": "",
           "body": "<div><div><p>Elige una playa según baños, sombra, acceso y distancia a tu alojamiento; el nombre de una ensenada no garantiza condiciones seguras del mar. Yo saldría temprano, llevaría agua y protector, y acordaría un punto de encuentro. Mira arena, escalones y vuelta antes de cargar cochecito o equipo.</p><div class=\"bz-editorial-actions\"><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Praias%20de%20B%C3%BAzios\" target=\"_blank\" rel=\"noopener noreferrer\">Abrir en el mapa →</a></div></div></div>",
           "id": "lugar-4"
@@ -629,7 +630,7 @@ export default {
         {
           "title": "Radical Parque",
           "short": "Pode ser um passeio ativo para várias idades, mas cada atração tem limites de altura, idade e segurança.",
-          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/radical-parque-buzios.jpg",
+          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/brinquedos-infantis-na.jpg",
           "alt": "Vista de Radical Parque Búzios em Búzios",
           "target": "",
           "body": "<div><div><p>Pode ser um passeio ativo para várias idades, mas cada atração tem limites de altura, idade e segurança. Eu conferiria operação, regras e horário diretamente com o parque; nem todos os brinquedos funcionam necessariamente ao mesmo tempo.</p><div class=\"bz-editorial-actions\"><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Radical%20Parque%2C%20Estrada%20da%20Usina%20Velha%2C%20B%C3%BAzios\" target=\"_blank\" rel=\"noopener noreferrer\">Abrir no mapa →</a></div></div></div>",
@@ -638,8 +639,8 @@ export default {
         {
           "title": "Uma manhã de praia em família",
           "short": "Escolha praia por banheiro, sombra, acesso e distância; o nome de uma enseada não garante mar seguro.",
-          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/brinquedos-infantis-na.jpg",
-          "alt": "Vista de Actividad familiar en Búzios em Búzios",
+          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/FERRADURA/FERRADURA%20PORT.jpg",
+          "alt": "Praia da Ferradura · Búzios",
           "target": "",
           "body": "<div><div><p>Escolha praia por banheiro, sombra, acesso e distância; o nome de uma enseada não garante mar seguro. Eu iria cedo, levaria água e proteção solar e combinaria ponto de encontro. Confira areia, degraus e retorno antes de levar carrinho ou equipamento.</p><div class=\"bz-editorial-actions\"><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Praias%20de%20B%C3%BAzios\" target=\"_blank\" rel=\"noopener noreferrer\">Abrir no mapa →</a></div></div></div>",
           "id": "lugar-4"
@@ -674,7 +675,7 @@ export default {
         {
           "title": "Radical Parque",
           "short": "This can be an active outing for different ages, but each ride has height, age and safety rules.",
-          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/radical-parque-buzios.jpg",
+          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/brinquedos-infantis-na.jpg",
           "alt": "View of Radical Parque Búzios in Búzios",
           "target": "",
           "body": "<div><div><p>This can be an active outing for different ages, but each ride has height, age and safety rules. I would check operation, requirements and that day’s hours with the park; not every attraction is necessarily running at once.</p><div class=\"bz-editorial-actions\"><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Radical%20Parque%2C%20Estrada%20da%20Usina%20Velha%2C%20B%C3%BAzios\" target=\"_blank\" rel=\"noopener noreferrer\">Open in Maps →</a></div></div></div>",
@@ -683,8 +684,8 @@ export default {
         {
           "title": "A family beach morning",
           "short": "Choose a beach by toilets, shade, access and distance; a cove’s name does not guarantee safe sea conditions.",
-          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/QUE%20HACER/FAMILIA/RADICAL%20PARQUE/brinquedos-infantis-na.jpg",
-          "alt": "View of Actividad familiar en Búzios in Búzios",
+          "photo": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/PLAYAS/FERRADURA/FERRADURA%20PORT.jpg",
+          "alt": "Praia da Ferradura · Búzios",
           "target": "",
           "body": "<div><div><p>Choose a beach by toilets, shade, access and distance; a cove’s name does not guarantee safe sea conditions. I would go early, bring water and sun protection, and agree a meeting point. Check sand, steps and return before bringing a pushchair or gear.</p><div class=\"bz-editorial-actions\"><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Praias%20de%20B%C3%BAzios\" target=\"_blank\" rel=\"noopener noreferrer\">Open in Maps →</a></div></div></div>",
           "id": "lugar-4"
