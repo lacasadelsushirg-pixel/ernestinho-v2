@@ -9,6 +9,7 @@ import {buildBrowserOptions} from './build_browser.mjs';
 import {SEO_METADATA} from '../assets/js/seo-metadata.js';
 import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/translations/chunks/experiencias-standalone.js';
 import{renderBuziosMirror,mirrorRoutes}from'./build_buzios_mirror.mjs';
+import{beachEditorial}from'../assets/js/translations/chunks/buzios-beaches-reviewed.js';
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
@@ -22,7 +23,7 @@ function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>ig
 const isGoogleVerification=f=>path.dirname(f)===root&&/^google[a-f0-9]+\.html$/i.test(path.basename(f));
 const files=walk(root).filter(f=>!isGoogleVerification(f)).sort();
 const routeFor=f=>{const rel=path.relative(root,f).replaceAll(path.sep,'/');return rel==='index.html'?'/':rel.endsWith('/index.html')?'/'+rel.slice(0,-10):'/'+rel;};
-const provisionalBuziosBeach=route=>/^\/destinos\/buzios\/playas\/[^/]+\/$/.test(route);
+const provisionalBuziosBeach=route=>{const m=route.match(/^\/destinos\/buzios\/playas\/([^/]+)\/$/);return !!m&&!beachEditorial[m[1]];};
 const indexable=f=>{const route=routeFor(f),html=fs.readFileSync(f,'utf8');return !/404\.html$/.test(f)&&!provisionalBuziosBeach(route)&&!redirects.has(route.replace(/\/$/,'')||'/')&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(html);};
 const indexableRoutes=new Set(files.filter(indexable).map(routeFor));
 const prefix=(route,lang)=>lang==='ES'?route:'/'+lang.toLowerCase()+route;
@@ -71,7 +72,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  }
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
-  const mirrorInputs=['assets/data/buzios-photo-review.json','scripts/build_buzios_detail_mirror.mjs','scripts/build_buzios_mirror.mjs','scripts/buzios_mirror_core.mjs','scripts/build_buzios_visual_mirror.mjs','scripts/build_buzios_guide_mirror.mjs','scripts/build_buzios_transport_mirror.mjs','scripts/build_buzios_events.mjs','scripts/build_buzios_things_parity.mjs','scripts/build_buzios_season_rental.mjs','assets/js/buzios-mirror-shell.js','assets/js/buzios-photography.js','assets/js/buzios-events.js','assets/js/buzios-events-2026.js','assets/js/buzios-season-tabs.js','assets/data/buzios-guide-rio-templates.json','assets/data/buzios-rental-preserved.json','assets/data/buzios-season-rental.json'];
+  const mirrorInputs=['assets/js/translations/chunks/buzios-beaches-reviewed.js','assets/data/buzios-photo-review.json','scripts/build_buzios_detail_mirror.mjs','scripts/build_buzios_mirror.mjs','scripts/buzios_mirror_core.mjs','scripts/build_buzios_visual_mirror.mjs','scripts/build_buzios_guide_mirror.mjs','scripts/build_buzios_transport_mirror.mjs','scripts/build_buzios_events.mjs','scripts/build_buzios_things_parity.mjs','scripts/build_buzios_season_rental.mjs','assets/js/buzios-mirror-shell.js','assets/js/buzios-photography.js','assets/js/buzios-events.js','assets/js/buzios-events-2026.js','assets/js/buzios-season-tabs.js','assets/data/buzios-guide-rio-templates.json','assets/data/buzios-rental-preserved.json','assets/data/buzios-season-rental.json'];
   if(mirrorInputs.includes(file)||/^assets\/js\/translations\/chunks\/buzios-(?:transport-mirror|bus-timetable|guide-context|apps-mirror|events|things-parity)\.js$/.test(file)){for(const route of mirrorRoutes)routes.add(route);continue;}
   if(file==='assets/js/buzios-taxonomy.js')continue;
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
