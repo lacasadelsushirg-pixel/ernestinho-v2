@@ -261,7 +261,7 @@ ${navLink('/guia/', t('Guía de Río', 'Guia do Rio', 'Rio Guide'), language)}${
 ${breadcrumbs(destination, key, guide, route, language)}${body}</main>
 <nav class="rd-languages" aria-label="${text(t('Idiomas', 'Idiomas', 'Languages'), language)}">${languages}</nav>
 ${footer(destination, language)}
-<script type="module" src="/assets/js/site.js"></script></body></html>`;
+<script type="module" src="/assets/js/site.js?v=20261107-destinos"></script></body></html>`;
 }
 
 const stage = process.argv.find(arg => arg.startsWith('--stage='))?.slice('--stage='.length);
