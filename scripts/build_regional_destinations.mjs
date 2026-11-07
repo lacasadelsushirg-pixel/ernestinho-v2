@@ -126,7 +126,7 @@ function sectionTiles(destination, language) {
   for (const [key, title] of Object.entries(sections)) {
     const route = sectionPath(destination, key);
     const image = media[key];
-    if (image) featured.push(tile(route, title, language, image, '', sectionOpen));
+    if (image) featured.push(tile(route, title, language, image, image.alt || destination.name, sectionOpen));
     else compact.push(`<a href="${pre(language) + route}"><strong>${text(title, language)}</strong><span aria-hidden="true">→</span></a>`);
   }
   return `<section class="guide-group rd-group"><h2>${text(t('Qué ver y cómo organizar el viaje', 'O que ver e como organizar a viagem', 'What to see and how to plan your trip'), language)}</h2>
@@ -148,8 +148,12 @@ function guideIndex(destination, language) {
   const intro = t('Lo esencial para preparar tu visita, con el tiempo, los accesos y los trayectos que conviene decidir primero.', 'O essencial para preparar a visita, com tempo, acessos e deslocamentos que vale decidir primeiro.', 'The essentials for your visit, starting with timing, access and journeys.');
   const media = photos[destination.slug];
   const guidePhotos = [...new Set([media.guia, media.barrios, media.home, media.familia, media.cultura].filter(Boolean))];
+  // Keep every guide card visually complete while its own verified photograph is pending.
+  // Reused images are provisional: the thumbnail audit still requires distinct licensed photos.
   const tiles = Object.entries(destination.guide).map(([slug, guide], index) =>
-    tile(guidePath(destination, slug), guide.title, language, guidePhotos[index], '', guideOpen));
+    tile(guidePath(destination, slug), guide.title, language,
+      guidePhotos[index] || media.guia || media.home,
+      (guidePhotos[index] || media.guia || media.home)?.alt || destination.name, guideOpen));
   const heading = text(t('Empieza por lo esencial', 'Comece pelo essencial', 'Start with the essentials'), language);
   return hero(title, destination.name, intro, language) +
     destinationNav(destination, sectionPath(destination, 'guia'), language) +
