@@ -1,4 +1,4 @@
-import{page,T,v,pre,esc,para,photo}from'./buzios_mirror_core.mjs';
+import{page,T,v,pre,esc,para,photo,hosted}from'./buzios_mirror_core.mjs';
 import{buziosConsejosPages as pages,buziosConsejosIndex as hub}from'../assets/js/buzios-consejos-pages.js';
 export const tipsMirrorRoutes=['/destinos/buzios/consejos/',...Object.keys(pages)];
 const w=(l,es,pt,en)=>v(T(es,pt,en),l);
@@ -18,8 +18,13 @@ function renderTipsIndex(route, language) {
     href: '/destinos/buzios/guia/',
     photo: { src: '/assets/images/buzios/bardot-mtur.webp' },
   };
+  const covers = {
+    '/destinos/buzios/consejos/supermercados/': hosted('miniatura supermercados en buzios.webp'),
+    '/destinos/buzios/consejos/lluvia/': 'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/DONDE%20COMER/BALTHAZAR%20BAKERY/830754886_18446922934131610_6480389713568833620_n.jpg',
+    '/destinos/buzios/consejos/atardeceres/': hosted('barrios/porto-da-barra.jpg'),
+  };
   const tile = item => `<a class="ec-card" href="${pre(language)}${item.href}" aria-label="${copy(item.title)}">
-    <img src="${esc(item.photo.src)}" alt="${copy(item.title)}" loading="lazy"><span class="ec-label">${copy(item.title)}</span>
+    <img src="${esc(covers[item.href] ?? item.photo.src)}" alt="${copy(item.title)}" loading="lazy"><span class="ec-label">${copy(item.title)}</span>
   </a>`;
   const quick = [
     [T('Pix', 'Pix', 'Pix'), '/destinos/buzios/guia/pix/', T('Cómo organizar pagos y efectivo.', 'Como organizar pagamentos e dinheiro.', 'Planning payments and cash.')],
