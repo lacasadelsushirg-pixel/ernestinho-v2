@@ -9,6 +9,7 @@ import {buildBrowserOptions} from './build_browser.mjs';
 import {SEO_METADATA} from '../assets/js/seo-metadata.js';
 import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/translations/chunks/experiencias-standalone.js';
 import{renderBuziosMirror,mirrorRoutes}from'./build_buzios_mirror.mjs';
+import { regionalRoutes, renderRegionalRoute } from './build_regional_destinations.mjs';
 import{beachEditorial}from'../assets/js/translations/chunks/buzios-beaches-reviewed.js';
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
@@ -21,10 +22,12 @@ const ignore=new Set(['.git','node_modules','dist','.vercel','docs','scripts','u
 function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>ignore.has(e.name)?[]:e.isDirectory()?walk(path.join(dir,e.name)):e.name.endsWith('.html')?[path.join(dir,e.name)]:[]);}
 // Google ownership files are static tokens, never localized or added to the sitemap.
 const isGoogleVerification=f=>path.dirname(f)===root&&/^google[a-f0-9]+\.html$/i.test(path.basename(f));
-const files=walk(root).filter(f=>!isGoogleVerification(f)).sort();
+const regionalRouteSet = new Set(regionalRoutes);
+const regionalFiles = regionalRoutes.map(route => path.join(root, route.slice(1), 'index.html'));
+const files = [...new Set([...walk(root).filter(f => !isGoogleVerification(f)), ...regionalFiles])].sort();
 const routeFor=f=>{const rel=path.relative(root,f).replaceAll(path.sep,'/');return rel==='index.html'?'/':rel.endsWith('/index.html')?'/'+rel.slice(0,-10):'/'+rel;};
 const provisionalBuziosBeach=route=>{const m=route.match(/^\/destinos\/buzios\/playas\/([^/]+)\/$/);return !!m&&!beachEditorial[m[1]];};
-const indexable=f=>{const route=routeFor(f),html=fs.readFileSync(f,'utf8');return !/404\.html$/.test(f)&&!provisionalBuziosBeach(route)&&!redirects.has(route.replace(/\/$/,'')||'/')&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(html);};
+const indexable=f=>{const route=routeFor(f);if(regionalRouteSet.has(route))return true;const html=fs.readFileSync(f,'utf8');return !/404\.html$/.test(f)&&!provisionalBuziosBeach(route)&&!redirects.has(route.replace(/\/$/,'')||'/')&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(html);};
 const indexableRoutes=new Set(files.filter(indexable).map(routeFor));
 const prefix=(route,lang)=>lang==='ES'?route:'/'+lang.toLowerCase()+route;
 const pilot=process.argv.find(a=>a.startsWith('--routes='))?.slice(9).split(',');
@@ -72,6 +75,13 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  }
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
+  if (file === 'scripts/build_regional_destinations.mjs' ||
+      file === 'assets/data/regional-destination-photos.json' ||
+      file === 'assets/css/regional-destinations.css' ||
+      file.startsWith('assets/js/translations/destinos/')) {
+   for (const route of regionalRoutes) routes.add(route);
+   continue;
+  }
   const mirrorInputs=['scripts/buzios_approved_blocks.mjs','assets/js/translations/chunks/buzios-approved-blocks.js','scripts/buzios_neighborhood_corridors.mjs','assets/js/translations/chunks/buzios-neighborhood-corridors.js','scripts/buzios_transport_extras.mjs','assets/js/translations/chunks/buzios-transport-extras.js','scripts/build_buzios_dining_mirror.mjs','scripts/build_buzios_night_mirror.mjs','scripts/build_buzios_tips_mirror.mjs','assets/js/translations/chunks/buzios-dining-copy.js','assets/js/translations/chunks/buzios-dining-mirror.js','assets/js/translations/chunks/buzios-dining-editorial.js','assets/js/translations/chunks/buzios-night-mirror.js','assets/data/buzios-dining-photos.json','assets/js/buzios-catalog-controls.js','assets/js/translations/chunks/buzios-beaches-reviewed.js','assets/data/buzios-photo-review.json','scripts/build_buzios_detail_mirror.mjs','scripts/build_buzios_mirror.mjs','scripts/buzios_mirror_core.mjs','scripts/build_buzios_visual_mirror.mjs','scripts/build_buzios_guide_mirror.mjs','scripts/build_buzios_transport_mirror.mjs','scripts/build_buzios_events.mjs','scripts/build_buzios_things_parity.mjs','scripts/build_buzios_season_rental.mjs','assets/js/buzios-mirror-shell.js','assets/js/buzios-photography.js','assets/js/buzios-events.js','assets/js/buzios-events-2026.js','assets/js/buzios-season-tabs.js','assets/data/buzios-guide-rio-templates.json','assets/data/buzios-rental-preserved.json','assets/data/buzios-season-rental.json'];
   if(mirrorInputs.includes(file)||/^assets\/js\/translations\/chunks\/buzios-(?:transport-mirror|bus-timetable|guide-context|apps-mirror|events|things-parity)\.js$/.test(file)){for(const route of mirrorRoutes)routes.add(route);continue;}
   if(file==='assets/js/buzios-taxonomy.js')continue;
@@ -194,6 +204,13 @@ async function worker(){
  while(next<targets.length){
  const target=targets[next++],route=prefix(target.route,target.language);
   try{
+   if (regionalRouteSet.has(target.route)) {
+    const destination = path.join(out, route.slice(1), 'index.html');
+    fs.mkdirSync(path.dirname(destination), { recursive: true });
+    fs.writeFileSync(destination, renderRegionalRoute(target.route, target.language));
+    manifest.push({ route, source: target.route, language: target.language, indexable: true, generated: true });
+    continue;
+   }
    if(mirrorRoutes.includes(target.route)){
     const destination=path.join(out,route.slice(1)+'index.html');fs.mkdirSync(path.dirname(destination),{recursive:true});
     fs.writeFileSync(destination,renderBuziosMirror(target.route,target.language));
