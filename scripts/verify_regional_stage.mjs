@@ -40,8 +40,7 @@ for (const lang of langs) {
   for (const d of destinations) {
     for (const route of candidateRoutes(d)) {
       // El generador usa prefijos ES/PT/EN; resolver el nombre de directorio a partir de salida real.
-      const prefixed = [lang, lang === 'es' ? 'espanol' : lang === 'pt' ? 'portugues' : 'english'];
-      const candidates = [pageFile('/' + lang + route), ...prefixed.map(p => pageFile('/' + p + route))];
+      const candidates = [pageFile((lang === 'es' ? '' : '/' + lang) + route)];
       const file = candidates.find(fs.existsSync);
       if (!file) { issue('MISSING', candidates[0], 'No se encontró ruta en prefijos previstos'); continue; }
       pages++;
