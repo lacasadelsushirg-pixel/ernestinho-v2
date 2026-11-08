@@ -61,8 +61,8 @@ for (const lang of langs) {
       }
       // Cada sección de portada debe tener su propia imagen, sin repetir el hero.
       if (route === '/destinos/' + d.slug + '/') {
-        const thumbs = [...html.matchAll(/<img\\b[^>]*class=["'][^"']*guide-thumb[^"']*["'][^>]*>/gi)]
-          .map(m => m[0].match(/\\bsrc=["']([^"']+)["']/i)?.[1]).filter(Boolean);
+        const thumbs = [...html.matchAll(/<img\b[^>]*class=["'][^"']*guide-thumb[^"']*["'][^>]*>/gi)]
+          .map(m => m[0].match(/\bsrc=["']([^"']+)["']/i)?.[1]).filter(Boolean);
         if (thumbs.length < sections.length) issue('THUMBNAILS', file, thumbs.length + '/' + sections.length + ' tarjetas con miniatura');
         const duplicates = [...new Set(thumbs.filter((src, index) => thumbs.indexOf(src) !== index))];
         if (duplicates.length) issue('DUPLICATE_THUMBNAILS', file, duplicates.join(', '));
@@ -70,8 +70,8 @@ for (const lang of langs) {
       // Las subguías deben mostrar imágenes reales e independientes; una foto
       // reutilizada como fallback no significa que la miniatura esté terminada.
       if (route === '/destinos/' + d.slug + '/guia/') {
-        const thumbs = [...html.matchAll(/<img\\b[^>]*class=["'][^"']*guide-thumb[^"']*["'][^>]*>/gi)]
-          .map(m => m[0].match(/\\bsrc=["']([^"']+)["']/i)?.[1]).filter(Boolean);
+        const thumbs = [...html.matchAll(/<img\b[^>]*class=["'][^"']*guide-thumb[^"']*["'][^>]*>/gi)]
+          .map(m => m[0].match(/\bsrc=["']([^"']+)["']/i)?.[1]).filter(Boolean);
         const guideCount = Object.keys(d.guide || {}).length;
         if (thumbs.length < guideCount) issue('GUIDE_THUMBNAILS', file, thumbs.length + '/' + guideCount + ' subguías con foto');
         const duplicates = [...new Set(thumbs.filter((src, index) => thumbs.indexOf(src) !== index))];
