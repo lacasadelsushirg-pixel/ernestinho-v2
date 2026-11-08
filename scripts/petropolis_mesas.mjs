@@ -1,9 +1,16 @@
 import { esc, pre, styles, v } from './buzios_mirror_core.mjs';
 import { t } from '../assets/js/translations/destinos/modelo.js';
+import { regionalVenues } from '../assets/js/translations/destinos/mesas-regionales.js';
+import { petrExpansion } from '../assets/js/translations/destinos/petropolis-mesas-ampliacion.js';
 import { categories, venues } from '../assets/js/translations/destinos/petropolis-mesas.js';
 
-const root = '/destinos/petropolis/';
-export const venueRoutes = Object.entries(venues).flatMap(([section, items]) => Object.keys(items).map(slug => [section, slug]));
+const base = destination => '/destinos/' + destination.slug + '/';
+const petropolis = Object.fromEntries(Object.entries(venues).map(([section, items]) =>
+  [section, { ...items, ...petrExpansion[section] }]));
+const catalogs = { petropolis, ...regionalVenues };
+export const venueRoutes = Object.entries(petropolis).flatMap(([section, items]) => Object.keys(items).map(slug => [section, slug]));
+export const otherVenueRoutes = Object.entries(regionalVenues).flatMap(([city, catalog]) =>
+  Object.entries(catalog).flatMap(([section, items]) => Object.keys(items).map(slug => [city, section, slug])));
 const words = {
   gastronomia: t('Gastronomía en Petrópolis', 'Gastronomia em Petrópolis', 'Food in Petrópolis'),
   'vida-nocturna': t('Vida nocturna en Petrópolis', 'Vida noturna em Petrópolis', 'Nightlife in Petrópolis'),
@@ -52,11 +59,13 @@ const filterScript = `<script type="module">
   update();
 </script>`;
 
-function directory(section, lang) {
+function directory(destination, section, lang) {
   const food = section === 'gastronomia';
-  const title = words[section];
+  const title = destination.slug === 'petropolis' ? words[section] : food
+    ? t('Gastronomía en ' + destination.name, 'Gastronomia em ' + destination.name, 'Food in ' + destination.name)
+    : t('Vida nocturna en ' + destination.name, 'Vida noturna em ' + destination.name, 'Nightlife in ' + destination.name);
   const intro = words[food ? 'foodIntro' : 'nightIntro'];
-  const items = Object.entries(venues[section]);
+  const items = Object.entries(catalogs[destination.slug][section]);
   const types = [...new Set(items.map(([, item]) => item.category))];
   const search = `<label for="petr-venue-search">${text(words.search, lang)}</label>
     <input id="petr-venue-search" class="search" type="search" autocomplete="off">
@@ -68,7 +77,7 @@ function directory(section, lang) {
     const category = text(categories[item.category], lang);
     const label = esc(item.name);
     const description = text(item.summary, lang);
-    const href = pre(lang) + root + section + '/' + slug + '/';
+    const href = pre(lang) + base(destination) + section + '/' + slug + '/';
     return food
       ? `<a class="restaurant" href="${href}" data-venue data-category="${item.category}"><div class="restaurant-content">
         <h3>${label}</h3><p class="restaurant-place">${esc(item.area)} · ${category}</p>
@@ -88,14 +97,20 @@ function directory(section, lang) {
   return { title, intro, body: body + filterScript, inline: styles(section), css: ['petr-venues', ...(food ? [] : ['vida-nocturna'])] };
 }
 
-function detail(section, slug, lang) {
-  const item = venues[section][slug];
+function detail(destination, section, slug, lang) {
+  const item = catalogs[destination.slug][section][slug];
   const food = section === 'gastronomia';
   const category = categories[item.category];
-  const back = anchor(root + section + '/', words.return, lang, 'back');
-  const next = anchor(item.nearby, words.nearby, lang, 'btn');
-  const transit = anchor(root + 'transportes/', words.transit, lang, 'btn alt');
+  const back = anchor(base(destination) + section + '/', words.return, lang, 'back');
+  const next = anchor(item.nearby || base(destination) + 'barrios/', words.nearby, lang, 'btn');
+  const transit = anchor(base(destination) + 'transportes/', t('Cómo moverse', 'Como se locomover', 'Getting around'), lang, 'btn alt');
   const address = `<b>${text(words.location, lang)}</b> ${esc(item.address)} · ${esc(item.area)}`;
+  const query = item.name + ', ' + item.address + ', ' + (item.municipality || destination.name) + ', RJ, Brasil';
+  const map = '<iframe title="' + esc(item.name) + '" src="https://maps.google.com/maps?q=' +
+    encodeURIComponent(query) + '&amp;output=embed" loading="lazy" class="petr-venue-map" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+  const mapPanel = '<section class="wrap"><details class="card"><summary>' +
+    text(t('Cómo llegar y mapa', 'Como chegar e mapa', 'Directions and map'), lang) +
+    '</summary><p>' + esc(item.address) + ' · ' + esc(item.area) + '</p>' + map + '</details></section>';
   const experience = `<article class="card"><h2>${text(words[food ? 'experience' : 'evening'], lang)}</h2><p>${text(item.experience, lang)}</p></article>`;
   const advice = `<article class="card tip"><h2>${text(words.advice, lang)}</h2><p>${text(item.advice, lang)}</p></article>`;
   const hero = `<header class="hero petr-venue-hero"><div class="wrap">${back}<div class="${food ? 'ey' : 'eyebrow'}">${text(category, lang)} · ${esc(item.area)}</div>
@@ -108,10 +123,11 @@ function detail(section, slug, lang) {
       <div class="fact"><b>${text(words.format, lang)}</b>${text(category, lang)}</div></section>
       <div class="content"><section>${experience}${advice}</section><aside class="card"><h2>${text(words.practical, lang)}</h2>
       <div class="actions">${transit}${next}</div></aside></div></div>`;
-  return { title: item.name, intro: item.summary, body, bodyClass: 'petr-venue-detail', css: ['petr-venues'],
+  return { title: item.name, intro: item.summary, body: body + mapPanel, image: null, bodyClass: 'petr-venue-detail', css: ['petr-venues'],
     inline: styles(food ? 'gastronomia/aprazivel' : 'vida-nocturna/rio-scenarium') };
 }
 
-export function renderVenueSection(section, slug, lang) {
-  return slug ? detail(section, slug, lang) : directory(section, lang);
+export function renderVenueSection(destination, section, slug, lang) {
+  if (!catalogs[destination.slug]?.[section]) return null;
+  return slug ? detail(destination, section, slug, lang) : directory(destination, section, lang);
 }

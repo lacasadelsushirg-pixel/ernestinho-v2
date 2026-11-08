@@ -20,3 +20,14 @@
 body.petr-venue-detail .petr-venue-hero {
   background: linear-gradient(135deg, #071313, #123b3b);
 }
+
+.petr-venue-map {
+  width: 100%;
+  height: 340px;
+  border: 0;
+  border-radius: 18px;
+}
+.petr-venue-detail summary {
+  cursor: pointer;
+  font-weight: 700;
+}

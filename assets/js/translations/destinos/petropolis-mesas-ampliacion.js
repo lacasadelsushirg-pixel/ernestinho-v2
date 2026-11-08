@@ -1,0 +1,56 @@
+import { mesa } from './mesas-regionais-dados.js';
+
+const state = 'https://www.turismo.rj.gov.br/cidades/petropolis/';
+const food = 'https://www.pcvb.com.br/fondues/';
+const base = '/destinos/petropolis/';
+
+export const petrExpansion = {
+  gastronomia: {
+    'massas-luigi': mesa('Massas Luigi', 'Centro Histórico', 'Praça da Liberdade, 185', 'italian',
+      ['Pastas y pizzas frente a la Praça da Liberdade.', 'Massas e pizzas na Praça da Liberdade.', 'Pasta and pizza on Praça da Liberdade.'],
+      ['Pediría una pasta para una comida larga o una pizza si voy a compartir.', 'Eu pediria uma massa para almoçar sem pressa ou pizza para dividir.', 'I’d order pasta for a leisurely lunch or pizza to share.'],
+      ['Déjalo para después de la Casa de Santos Dumont. Así no partes el recorrido a pie.', 'Deixe para depois da Casa de Santos Dumont e faça o trecho a pé.', 'Save it for after Santos Dumont’s house to keep the walk together.'], state, base + 'cultura/casa-santos-dumont/'),
+    majorica: mesa('Majórica Restaurante e Churrascaria', 'Centro Histórico', 'Rua do Imperador, 754', 'grill',
+      ['Churrascaria de mesa en Rua do Imperador.', 'Churrascaria de mesa na Rua do Imperador.', 'A sit-down steakhouse on Rua do Imperador.'],
+      ['Preguntaría por los cortes y el tamaño de las guarniciones antes de pedir para compartir.', 'Eu perguntaria pelos cortes e pelo tamanho das guarnições antes de pedir para dividir.', 'I’d ask about cuts and side portions before ordering to share.'],
+      ['Es una parada para sentarse con tiempo. Deja el paseo por el centro para antes o después.', 'É uma parada para sentar sem pressa. Faça a caminhada pelo centro antes ou depois.', 'Give the meal time and walk around downtown before or after it.'], state, base + 'guia/primera-visita/'),
+    'restaurante-do-ton': mesa('Restaurante do Ton', 'Centro Histórico', 'Rua da Imperatriz, 242', 'restaurant',
+      ['Restaurante con desayunos, cocina internacional y postres cerca del Museu Imperial.', 'Restaurante com café da manhã, cozinha internacional e sobremesas perto do Museu Imperial.', 'Breakfast, international cooking and desserts near the Imperial Museum.'],
+      ['Buscaría la cestinha de pasta fresca con brisket si está disponible. Guarda espacio para un brownie si quieres probar el dulce de la casa.', 'Eu procuraria a cestinha de massa fresca com brisket, se disponível. Deixe espaço para um brownie se quiser provar o doce da casa.', 'I’d look for the fresh pasta basket with brisket if available. Save room for a brownie if you want the house sweet.'],
+      ['Puedes hacer el museo y comer en la misma calle. Si llevas mascota, consulta las mesas del área externa.', 'Dá para fazer museu e refeição na mesma rua. Com pet, consulte as mesas externas.', 'The museum and restaurant share a street. With a pet, ask about outdoor tables.'], 'https://www.browniedoton.com.br/restaurante', base + 'cultura/museu-imperial/'),
+    'casa-dangelo': mesa('Casa D’Angelo', 'Centro Histórico', 'Rua do Imperador, 700', 'cafe',
+      ['Casa de té y restaurante en la calle principal del Centro.', 'Casa de chá e restaurante na rua principal do Centro.', 'A tea room and restaurant on downtown’s main street.'],
+      ['La elegiría para una pausa de café a media tarde, sin desviar el paseo del casco histórico.', 'Eu escolheria para uma pausa de café à tarde, sem desviar do passeio pelo Centro Histórico.', 'I’d use it for an afternoon coffee without detouring from the historic centre.'],
+      ['Guarda el número 700 y combina la pausa con el paseo a pie por Rua do Imperador.', 'Salve o número 700 e combine a pausa com a caminhada pela Rua do Imperador.', 'Save number 700 and pair the stop with a walk along Rua do Imperador.'], state, base + 'guia/primera-visita/'),
+    'bendito-armazem': mesa('Bendito Armazém', 'Itaipava', 'Estrada União e Indústria, 10.216', 'cafe',
+      ['Café y restaurante en el Empório Maria Maria.', 'Café e restaurante no Empório Maria Maria.', 'A café and restaurant at Empório Maria Maria.'],
+      ['Lo consideraría para desayunar en Itaipava. Si buscas fondue, consulta el menú vigente.', 'Eu consideraria para tomar café da manhã em Itaipava. Se quiser fondue, confira o cardápio vigente.', 'I’d consider it for breakfast in Itaipava. If you want fondue, check the current menu.'],
+      ['Combínalo con una mañana en el parque de Itaipava y confirma la vuelta si vienes del Centro.', 'Combine com uma manhã no parque de Itaipava e confirme a volta se vier do Centro.', 'Pair it with a morning at Itaipava’s park and arrange your ride back if coming from downtown.'], food, base + 'familia/parque-itaipava/'),
+    'benvenuti-bistro': mesa('Benvenuti Bistrô', 'Itaipava', 'Estrada União e Indústria, 10.341 · Shopping Itaipava, loja 112', 'restaurant',
+      ['Bistró dentro del Shopping Itaipava.', 'Bistrô dentro do Shopping Itaipava.', 'A bistro inside Shopping Itaipava.'],
+      ['Miraría primero el menú del día. La ubicación es útil si ya vas a hacer compras en ese punto de Itaipava.', 'Eu olharia primeiro o cardápio do dia. A localização é prática se você já vai fazer compras nesse ponto de Itaipava.', 'I’d check the daily menu first. The location is useful if you are shopping in this part of Itaipava.'],
+      ['Usa el número y la tienda para llegar. Hay varios centros comerciales sobre la misma carretera.', 'Use o número e a loja para chegar. Há vários centros comerciais na mesma estrada.', 'Use the street and shop numbers. Several shopping centres share the same road.'], state, base + 'compras/'),
+    'cocotte-bistro': mesa('Cocotte Bistrô', 'Itaipava · Divisa', 'Estrada da Divisa, 807', 'restaurant',
+      ['Bistró en Estrada da Divisa, apartado del eje comercial de Itaipava.', 'Bistrô na Estrada da Divisa, fora do eixo comercial de Itaipava.', 'A bistro on Estrada da Divisa, away from Itaipava’s shopping strip.'],
+      ['Lo elegiría para una comida tranquila y preguntaría por el menú antes de ir.', 'Eu escolheria para uma refeição tranquila e perguntaria pelo cardápio antes de ir.', 'I’d choose it for a quiet meal and ask about the menu before heading out.'],
+      ['Guarda el punto exacto de Estrada da Divisa y acuerda recogida de vuelta si no tienes auto.', 'Salve o ponto exato na Estrada da Divisa e combine a volta se estiver sem carro.', 'Save the exact Estrada da Divisa location and arrange pickup if you do not have a car.'], state, base + 'transportes/'),
+    'barao-gastronomia': mesa('Barão Gastronomia', 'Itaipava', 'Estrada União e Indústria, 13.581', 'restaurant',
+      ['Restaurante en Itaipava con carta de mesa y propuestas de temporada.', 'Restaurante em Itaipava com serviço à mesa e propostas sazonais.', 'A sit-down restaurant in Itaipava with seasonal offerings.'],
+      ['Preguntaría por los platos del día y si la casa está sirviendo fondue en esa fecha.', 'Eu perguntaria pelos pratos do dia e se a casa está servindo fondue na data.', 'I’d ask about daily dishes and whether fondue is available on that date.'],
+      ['Confirma si necesitas reservar y compara el trayecto con tu visita en Itaipava antes de fijar la hora.', 'Confirme se precisa reservar e compare o trajeto com seu passeio em Itaipava antes de marcar a hora.', 'Check if you need a booking and fit the drive into your Itaipava plans before setting the time.'], state, base + 'transportes/'),
+  },
+  'vida-nocturna': {
+    'choperia-gehren': mesa('Choperia Gehren', 'Centro', 'Rua Montecaseros, 626', 'bar',
+      ['Chopería y restaurante en Montecaseros.', 'Choperia e restaurante na Montecaseros.', 'A draft beer bar and restaurant on Montecaseros.'],
+      ['La elegiría para comer y tomar un chopp con tiempo para conversar.', 'Eu escolheria para comer, tomar um chope e conversar com calma.', 'I’d choose it for food, draft beer and an unhurried chat.'],
+      ['Para volver, pide el auto por número de calle y confirma la entrada donde recogerá al grupo.', 'Na volta, peça o carro pelo número e confirme a entrada do embarque.', 'For the ride back, give the street number and confirm which entrance the driver should use.'], state, base + 'transportes/uber/'),
+    'o-soberano': mesa('O Soberano', 'Itaipava', 'Estrada União e Indústria, 11.000 · Shopping Estação Itaipava, loja 104', 'music',
+      ['Sala de espectáculos y restaurante con programación musical y teatral.', 'Casa de espetáculos e restaurante com programação musical e teatral.', 'A performance space and restaurant with music and theatre programming.'],
+      ['Elige primero el espectáculo. Confirma si el ingreso incluye mesa y cuándo empieza el servicio.', 'Escolha primeiro o espetáculo. Confirme se o ingresso inclui mesa e quando começa o serviço.', 'Choose the show first. Check whether the ticket includes a table and when service starts.'],
+      ['Desde el Centro, deja resuelto el transporte de vuelta desde Itaipava antes de comprar la entrada.', 'Saindo do Centro, resolva a volta de Itaipava antes de comprar o ingresso.', 'From downtown, arrange the return from Itaipava before buying a ticket.'], 'https://pcvb.com.br/o-que-fazer/perfil/-soberano/', base + 'transportes/'),
+    'pepper-bar-itaipava': mesa('Pepper Bar Itaipava', 'Itaipava', 'Estrada União e Indústria, 11.811 · Vila Provence', 'bar',
+      ['Bar y restaurante en Vila Provence con cocina de tradición alemana.', 'Bar e restaurante na Vila Provence com cozinha de tradição alemã.', 'A bar and restaurant at Vila Provence with German-style cooking.'],
+      ['Lo consideraría para cenar y pedir algo de la cocina junto con una cerveza. Confirma la programación si vas por música.', 'Eu consideraria para jantar e pedir algo da cozinha junto com uma cerveja. Confira a programação se for pela música.', 'I’d consider it for dinner and a beer. Check the programme if music is the reason for going.'],
+      ['Para volver, indica al conductor Vila Provence y la entrada acordada.', 'Na volta, informe ao motorista Vila Provence e a entrada combinada.', 'For the return, give the driver Vila Provence and the agreed entrance.'], state, base + 'transportes/'),
+  },
+};

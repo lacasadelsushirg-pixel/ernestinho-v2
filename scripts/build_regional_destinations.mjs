@@ -9,6 +9,8 @@ import arraial from '../assets/js/translations/destinos/arraial-do-cabo.js';
 import paraty from '../assets/js/translations/destinos/paraty.js';
 import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisHome, petropolisGuide, petropolisEditorial } from './build_petropolis.mjs';
 
+import { otherVenueRoutes, renderVenueSection } from './petropolis_mesas.mjs';
+
 const photos = JSON.parse(fs.readFileSync(new URL('../assets/data/regional-destination-photos.json', import.meta.url)));
 photos.petropolis = { home: petrPhotos['catedral-paisaje'] };
 const catalog = '/destinos/';
@@ -56,6 +58,11 @@ for (const destination of destinations) {
 }
 for (const [key, slug] of petrDetailRoutes) {
   routes.set(sectionPath(petropolis, key) + slug + '/', { destination: petropolis, key, slug });
+}
+for (const [city, key, slug] of otherVenueRoutes) {
+  const destination = destinations.find(item => item.slug === city);
+  if (!destination) throw new Error('Unknown destination for venue: ' + city);
+  routes.set(sectionPath(destination, key) + slug + '/', { destination, key, slug });
 }
 export const regionalRoutes = [...routes.keys()];
 
@@ -247,12 +254,13 @@ export function renderRegionalRoute(route, language) {
   const content = petr ? (!key ? petropolisHome(destination, sections, language) :
     key === 'guia' ? petropolisGuide(destination, guide, language) :
     renderPetropolis(destination, key, slug, language) || petropolisEditorial(destination, key, sections[key], language))
-    : route === catalog ? renderCatalog(language) : route === credits ? renderCredits(language) : null;
+    : destination ? renderVenueSection(destination, key, slug, language)
+      : route === catalog ? renderCatalog(language) : renderCredits(language);
   const title = content?.title || (guide ? destination.guide[guide].title : key === 'guia' ? guideTitle(destination, language) : key ? sections[key] : destination.name);
   const description = content?.intro || (guide ? destination.guide[guide].intro : key && key !== 'guia' ? destination.sections[key].intro : destination.intro);
   const body = content?.body || (!key ? renderHome(destination, language) :
     key === 'guia' && !guide ? guideIndex(destination, language) : renderSection(destination, key, guide, language, route));
-  const image = content?.image || (destination && (photos[destination.slug][key] || photos[destination.slug].home));
+  const image = content?.image === null ? null : content?.image || (destination && (photos[destination.slug][key] || photos[destination.slug].home));
   const metaTitle = key && key !== 'guia' && !v(title, language).includes(destination.name) ? `${v(title, language)} · ${destination.name}` : v(title, language);
   const locale = language === 'PT' ? 'pt-BR' : language.toLowerCase();
   const labels = { ES: 'Español', PT: 'Português', EN: 'English' };

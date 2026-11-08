@@ -1,6 +1,11 @@
 import { t } from './modelo.js';
 
 export const categories = {
+  seafood: t('Pescados y mariscos', 'Peixes e frutos do mar', 'Fish and seafood'),
+  italian: t('Cocina italiana y pizzas', 'Cozinha italiana e pizzas', 'Italian cooking and pizza'),
+  grill: t('Parrilla y carnes', 'Grelha e carnes', 'Grill and meats'),
+  portuguese: t('Cocina portuguesa', 'Cozinha portuguesa', 'Portuguese cooking'),
+  thai: t('Cocina tailandesa', 'Cozinha tailandesa', 'Thai cooking'),
   cafe: t('Cafés y meriendas', 'Cafés e lanches', 'Coffee and snacks'),
   restaurant: t('Restaurantes', 'Restaurantes', 'Restaurants'),
   beer: t('Cerveza artesanal', 'Cerveja artesanal', 'Craft beer'),

@@ -125,7 +125,7 @@ function transportLayout(city, slug, lang) {
 }
 
 export function renderPetropolis(city, key, slug, lang) {
-  if (key === 'gastronomia' || key === 'vida-nocturna') return renderVenueSection(key, slug, lang);
+  if (key === 'gastronomia' || key === 'vida-nocturna') return renderVenueSection(city, key, slug, lang);
   if (key === 'fotografias') return photography(city, lang);
   if (key === 'transportes') return transportLayout(city, slug, lang);
   if (placeSections[key]) return slug ? placeDetail(key, slug, lang) : placeList(city, key, lang);
