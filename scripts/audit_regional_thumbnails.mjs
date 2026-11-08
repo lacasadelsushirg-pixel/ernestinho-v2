@@ -22,7 +22,8 @@ for (const d of destinations) {
   const photos = manifest[d.slug] || {};
   const missing = sections.filter(s => !photos[s]);
   const guideCount = Object.keys(d.guide || {}).length;
-  const guidePhotoCount = [...new Set([photos.guia, photos.barrios, photos.home, photos.familia, photos.cultura].filter(Boolean).map(x => x.src))].length;
+  const guidePhotoCount = Object.keys(d.guide || {}).filter(slug => photos['guide-' + slug]?.src).length;
+  const missingGuidePhotos = Object.keys(d.guide || {}).filter(slug => !photos['guide-' + slug]?.src);
   const missingFiles = Object.entries(photos).filter(([,photo]) => {
     if (!photo.src || !photo.src.startsWith('/')) return true;
     const local = path.resolve(root, '.' + photo.src);
@@ -36,7 +37,8 @@ for (const d of destinations) {
   console.log('  Home: ' + (photos.home ? photos.home.src : 'FALTA'));
   console.log('  Secciones con miniatura: ' + (sections.length - missing.length) + '/' + sections.length);
   console.log('  Sin miniatura: ' + (missing.join(', ') || 'ninguna'));
-  console.log('  Guías: ' + guideCount + '; fotos candidatas únicas: ' + guidePhotoCount + (guideCount > guidePhotoCount ? ' [INSUFICIENTES]' : ''));
+  console.log('  Guías: ' + guideCount + '; miniaturas propias asignadas: ' + guidePhotoCount + (guideCount > guidePhotoCount ? ' [INCOMPLETO]' : ''));
+  console.log('  Guías sin foto propia: ' + (missingGuidePhotos.join(', ') || 'ninguna'));
   console.log('  Archivos locales ausentes: ' + (missingFiles.join(', ') || 'ninguno'));
   console.log('  Metadatos licencia/origen/autor incompletos: ' + (incomplete.join(', ') || 'ninguno'));
   console.log('  ALT no definido: ' + (missingAlt.join(', ') || 'ninguno (verificar calidad)'));
