@@ -197,7 +197,7 @@ export function petropolisGuide(city, slug, lang) {
   return { title, intro, body };
 }
 
-export function petropolisEditorial(city, key, title, lang) {
+export function petropolisEditorial(city, key, title, lang, agenda) {
   const data = city.sections[key];
   const cards = petropolisCards(key, data.cards);
   const hero = cover(title, data.intro, lang);
@@ -240,6 +240,6 @@ export function petropolisEditorial(city, key, title, lang) {
     t('16 al 20 de septiembre de 2026', '16 a 20 de setembro de 2026', '16 to 20 September 2026'),
     t('27 de noviembre de 2026 al 4 de enero de 2027', '27 de novembro de 2026 a 4 de janeiro de 2027', '27 November 2026 to 4 January 2027'),
   ];
-  return { title, intro: data.intro, body: hero + `<section class="editorial"><div class="section-head"><h2>${tx(edition, lang)}</h2></div><div class="bh-grid">
+  return { title, intro: data.intro, body: hero + agenda + `<section class="editorial"><div class="section-head"><h2>${tx(edition, lang)}</h2></div><div class="bh-grid">
     ${render((card, i) => `<article class="bh-card">${itemTitle(card)}${dates[i] ? `<strong>${tx(dates[i], lang)}</strong>` : ''}${p(card.copy, lang)}${action(card, i)}</article>`)}</div>${note(data.tip, lang)}</section>` };
 }

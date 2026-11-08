@@ -9,10 +9,12 @@ import arraial from '../assets/js/translations/destinos/arraial-do-cabo.js';
 import paraty from '../assets/js/translations/destinos/paraty.js';
 import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisHome, petropolisGuide, petropolisEditorial } from './build_petropolis.mjs';
 
+import { renderRegionalEvents } from './regional_events.mjs';
 import { renderRegionalPhotography } from './regional_photography.mjs';
 import { otherVenueRoutes, renderVenueSection } from './petropolis_mesas.mjs';
 
 const photos = JSON.parse(fs.readFileSync(new URL('../assets/data/regional-destination-photos.json', import.meta.url)));
+const petrEventsPhoto = photos.petropolis.eventos;
 photos.petropolis = { home: petrPhotos['catedral-paisaje'] };
 const catalog = '/destinos/';
 const credits = catalog + 'creditos-fotos/';
@@ -194,7 +196,7 @@ function related(destination, key, guide, language) {
   return `<nav class="rd-related" aria-label="${text(t('Sigue explorando', 'Continue explorando', 'Keep exploring'), language)}">${links.join('')}</nav>`;
 }
 
-function renderSection(destination, key, guide, language, route) {
+function renderSection(destination, key, guide, language, route, agenda) {
   const item = guide ? destination.guide[guide] : destination.sections[key];
   const title = guide ? item.title : sections[key];
   const media = photos[destination.slug];
@@ -206,7 +208,7 @@ function renderSection(destination, key, guide, language, route) {
     : t('Paradas y planes', 'Paradas e programas', 'Places and plans');
   const cards = item.cards.map(({ title, copy, action }) => `<article class="bh-card rd-card"><h3>${text(title, language)}</h3>
     ${paragraph(copy, language)}${actionLink(action, destination, language, title)}</article>`).join('');
-  return hero(title, destination.name, item.intro, language) + destinationNav(destination, route, language) +
+  return hero(title, destination.name, item.intro, language) + destinationNav(destination, route, language) + agenda +
     `<div class="rd-wrap bh-wrap">
       <section><h2>${text(heading, language)}</h2><div class="bh-grid rd-cards">${cards}</div></section>
       ${gallery.length ? `<div class="rd-gallery">${gallery.map(photo => `<figure>${photograph(photo, photo.alt || destination.name)}</figure>`).join('')}</div>` : ''}
@@ -227,7 +229,7 @@ function renderCatalog(language) {
 
 function renderCredits(language) {
   const intro = t('Imágenes redimensionadas para la web. Cada ficha enlaza a la fotografía original y a su licencia.', 'Imagens redimensionadas para a web. Cada ficha leva à foto original e à licença.', 'Images resized for the web. Each entry links to the original photograph and its licence.');
-  const groups = destinations.map(destination => `<section><h2>${esc(destination.name)}</h2><ul class="rd-credit-list">${Object.values(photos[destination.slug]).filter(photo => photo.source).map(photo =>
+  const groups = destinations.map(destination => `<section><h2>${esc(destination.name)}</h2><ul class="rd-credit-list">${[...Object.values(photos[destination.slug]), ...(destination === petropolis ? [petrEventsPhoto] : [])].filter(photo => photo?.source).map(photo =>
     `<li>${external(photo.source, photo.file.replaceAll('_', ' ').replace(/\.[^.]+$/, ''), language)}
     <span>${esc(photo.artist || v(t('Autoría en la ficha original', 'Autoria na ficha original', 'Author listed in the original record'), language))} ·
     ${photo.licenseUrl ? external(photo.licenseUrl, photo.license, language) : esc(photo.license)}</span></li>`).join('')}</ul></section>`).join('');
@@ -252,23 +254,25 @@ function footer(destination, language) {
 export function renderRegionalRoute(route, language) {
   const { destination, key, guide, slug } = routes.get(route);
   const petr = destination === petropolis;
+  const eventPhotos = petr ? { eventos: petrEventsPhoto } : photos[destination?.slug];
+  const agenda = key === 'eventos' ? renderRegionalEvents(destination, eventPhotos, language) : '';
   const content = petr ? (!key ? petropolisHome(destination, sections, language) :
     key === 'guia' ? petropolisGuide(destination, guide, language) :
-    renderPetropolis(destination, key, slug, language) || petropolisEditorial(destination, key, sections[key], language))
+    renderPetropolis(destination, key, slug, language) || petropolisEditorial(destination, key, sections[key], language, agenda))
     : destination ? (key === 'fotografias' && renderRegionalPhotography(destination, photos[destination.slug], language)) ||
       renderVenueSection(destination, key, slug, language)
       : route === catalog ? renderCatalog(language) : renderCredits(language);
   const title = content?.title || (guide ? destination.guide[guide].title : key === 'guia' ? guideTitle(destination, language) : key ? sections[key] : destination.name);
   const description = content?.intro || (guide ? destination.guide[guide].intro : key && key !== 'guia' ? destination.sections[key].intro : destination.intro);
   const body = content?.body || (!key ? renderHome(destination, language) :
-    key === 'guia' && !guide ? guideIndex(destination, language) : renderSection(destination, key, guide, language, route));
+    key === 'guia' && !guide ? guideIndex(destination, language) : renderSection(destination, key, guide, language, route, agenda));
   const image = content?.image === null ? null : content?.image || (destination && (photos[destination.slug][key] || photos[destination.slug].home));
   const metaTitle = key && key !== 'guia' && !v(title, language).includes(destination.name) ? `${v(title, language)} · ${destination.name}` : v(title, language);
   const locale = language === 'PT' ? 'pt-BR' : language.toLowerCase();
   const labels = { ES: 'Español', PT: 'Português', EN: 'English' };
   const languages = langs.map(code =>
     `<a href="${pre(code) + route}" hreflang="${code === 'PT' ? 'pt-BR' : code.toLowerCase()}"${code === language ? ' aria-current="page"' : ''}>${labels[code]}</a>`).join('');
-  const stylesheets = ['tokens', 'app', 'components', 'barrios', 'regional-destinations', ...(content?.css || [])]
+  const stylesheets = ['tokens', 'app', 'components', 'barrios', 'regional-destinations', ...(content?.css || []), ...(agenda ? ['regional-events'] : [])]
     .map(name => `<link rel="stylesheet" href="/assets/css/${name}.css${name === 'regional-destinations' ? '?v=20261107' : ''}">`).join('');
   return `<!doctype html>
 <html lang="${locale}" data-ec-locale-routes="true"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">

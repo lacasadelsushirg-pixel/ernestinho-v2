@@ -1,0 +1,48 @@
+.ec-agenda {
+  padding: clamp(24px, 4vw, 54px) 16px;
+  background: #020617;
+  color: #fff;
+}
+.ec-agenda-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: clamp(18px, 3vw, 32px);
+  border-radius: 32px;
+  background: #ffffff0d;
+}
+.ec-agenda-inner > h2 { margin: 0; font-size: clamp(1.7rem, 4vw, 2.3rem); font-weight: 900; line-height: 1.12; }
+.ec-agenda-inner > p { margin: 12px 0 18px; color: #cbd5e1; }
+.ec-agenda-filters { display: flex; gap: 8px; overflow-x: auto; margin: 16px 0 24px; padding: 4px; }
+.ec-agenda [hidden] { display: none; }
+.ec-agenda-filters button {
+  flex: 0 0 auto;
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 14px;
+  background: #1e293b;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+  cursor: pointer;
+}
+.ec-agenda-filters [aria-pressed="true"] { background: #fcd34d; color: #020617; }
+.ec-agenda-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: start; }
+.ec-agenda-card { overflow: hidden; background: #fff; color: #0f172a; border-radius: 24px; }
+.ec-agenda-card img { display: block; width: 100%; aspect-ratio: 16 / 7; object-fit: cover; }
+.ec-agenda-copy { padding: clamp(16px, 2.5vw, 24px); overflow-wrap: anywhere; }
+.ec-agenda-copy h3 { margin: 10px 0 6px; font-size: 1.25rem; font-weight: 900; }
+.ec-agenda-copy p { margin: 0 0 12px; color: #475569; }
+.ec-agenda-copy .ec-agenda-meta { font-size: .88rem; font-weight: 800; color: #0f766e; }
+.ec-agenda-organizer { font-size: .84rem; }
+.ec-agenda-status { display: inline-flex; border-radius: 999px; padding: 5px 11px; background: #e2e8f0; font-size: .68rem; font-weight: 900; text-transform: uppercase; }
+.ec-agenda-status.is-confirmed { background: #d1fae5; color: #065f46; }
+.ec-agenda-status.is-provisional, .ec-agenda-status.is-month { background: #fef3c7; color: #92400e; }
+.ec-agenda-copy summary { cursor: pointer; font-weight: 800; color: #0f766e; }
+.ec-agenda-copy details[open] summary { margin-bottom: 14px; }
+.ec-agenda-copy details h4 { margin: 10px 0 4px; }
+.ec-agenda-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.ec-agenda-links a { border-radius: 999px; padding: 7px 12px; background: #e2e8f0; color: #0f172a; font-size: .82rem; font-weight: 800; }
+.ec-agenda-links a.ec-agenda-official { background: #0f172a; color: #fff; }
+@media (max-width: 760px) {
+  .ec-agenda-grid { grid-template-columns: 1fr; }
+}
