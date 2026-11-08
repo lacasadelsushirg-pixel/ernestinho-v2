@@ -1,0 +1,22 @@
+[data-petr-venues] [data-venue][hidden],
+[data-petr-venues] [data-empty][hidden] {
+  display: none;
+}
+[data-petr-venues] input,
+[data-petr-venues] select {
+  min-width: 0;
+  max-width: 100%;
+}
+[data-petr-venues] .catalog-controls,
+[data-petr-venues] .night-search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .75rem;
+}
+[data-petr-venues] .gast-hero {
+  --gast-hero-image: linear-gradient(135deg, #071313, #123b3b);
+}
+body.petr-venue-detail .petr-venue-hero {
+  background: linear-gradient(135deg, #071313, #123b3b);
+}

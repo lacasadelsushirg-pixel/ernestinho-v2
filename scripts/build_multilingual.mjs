@@ -75,7 +75,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  }
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
-  if (file === 'scripts/build_petropolis.mjs' || file.startsWith('assets/js/translations/destinos/petropolis-')) {
+  if (['scripts/build_petropolis.mjs', 'scripts/petropolis_mesas.mjs', 'assets/css/petr-venues.css'].includes(file) || file.startsWith('assets/js/translations/destinos/petropolis-')) {
    for (const route of regionalRoutes) if (route.startsWith('/destinos/petropolis/')) routes.add(route);
    continue;
   }

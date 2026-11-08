@@ -31,10 +31,4 @@ export const extraCards = {
     card(t('Centro con niños', 'Centro com crianças', 'Downtown with children'), t('Combina los jardines del Museu Imperial con una merienda y el Palácio de Cristal. Para un día de lluvia, el Museu de Cera es una opción bajo techo.', 'Combine os jardins do Museu Imperial com lanche e Palácio de Cristal. Com chuva, o Museu de Cera é opção coberta.', 'Pair the Imperial Museum gardens with a snack and the Crystal Palace. The Wax Museum is an indoor option on rainy days.'), { route: '/destinos/petropolis/familia/' }),
     card(t('Antes de ir a Bonfim', 'Antes de ir ao Bonfim', 'Before going to Bonfim'), t('Elige entre el bosque bajo y la caminata a Véu da Noiva. Confirma acceso, condiciones y regreso antes de salir.', 'Escolha entre a mata baixa e a trilha ao Véu da Noiva. Confirme acesso, condições e volta antes de sair.', 'Choose between the lower forest and the Véu da Noiva hike. Confirm access, conditions and return before leaving.'), { route: '/destinos/petropolis/naturaleza/' }),
   ],
-  gastronomia: [
-    card('Casa do Alemão · Quitandinha', t('Una parada para probar croquetas y un sándwich de salchicha en un recorrido por Quitandinha. Déjala como pausa breve entre el palacio y el resto de la ciudad.', 'Uma parada para provar croquetes e sanduíche de linguiça num roteiro pelo Quitandinha. Deixe como pausa curta entre o palácio e o resto da cidade.', 'Stop for croquettes and a sausage sandwich during a Quitandinha outing. Make it a short break between the palace and the rest of town.'), { route: '/destinos/petropolis/cultura/palacio-quitandinha/' }),
-  ],
-  'vida-nocturna': [
-    card('Centro de Cultura Raul de Leoni', t('Una referencia para buscar funciones en el Centro Histórico. Comprueba la cartelera y define el regreso según la hora de salida.', 'Uma referência para procurar espetáculos no Centro Histórico. Confira a programação e defina a volta pelo horário de saída.', 'A venue to check for performances downtown. Check the programme and plan your return around the finish time.'), { route: '/destinos/petropolis/eventos/' }),
-  ],
 };

@@ -1,3 +1,4 @@
+import { renderVenueSection, venueRoutes } from './petropolis_mesas.mjs';
 import { esc, pre, styles, v } from './buzios_mirror_core.mjs';
 import { t } from '../assets/js/translations/destinos/modelo.js';
 import { places, placeSections, photoSpots } from '../assets/js/translations/destinos/petropolis-lugares.js';
@@ -20,6 +21,7 @@ const assets = {
 };
 export const petrPhotos = Object.fromEntries(Object.entries(assets).map(([key, [folder, alt]]) => [key, { src: folder + key + '.webp', alt }]));
 export const petrDetailRoutes = [
+  ...venueRoutes,
   ...Object.entries(placeSections).flatMap(([key, slugs]) => slugs.map(slug => [key, slug])),
   ...Object.keys(transport).map(slug => ['transportes', slug]),
 ];
@@ -123,6 +125,7 @@ function transportLayout(city, slug, lang) {
 }
 
 export function renderPetropolis(city, key, slug, lang) {
+  if (key === 'gastronomia' || key === 'vida-nocturna') return renderVenueSection(key, slug, lang);
   if (key === 'fotografias') return photography(city, lang);
   if (key === 'transportes') return transportLayout(city, slug, lang);
   if (placeSections[key]) return slug ? placeDetail(key, slug, lang) : placeList(city, key, lang);
@@ -137,8 +140,6 @@ const sectionsForCard = {
   barrios: ['guia/primera-visita/', 'cultura/palacio-quitandinha/', 'familia/parque-itaipava/'],
   experiencias: ['guia/primera-visita/', 'barrios/'],
   compras: ['barrios/', 'gastronomia/', 'familia/parque-itaipava/'],
-  gastronomia: ['barrios/', 'familia/parque-itaipava/', 'vida-nocturna/'],
-  'vida-nocturna': ['gastronomia/', 'barrios/', 'eventos/'],
   eventos: ['cultura/palacio-de-cristal/', 'cultura/', 'consejos/'],
 };
 
@@ -225,18 +226,6 @@ export function petropolisEditorial(city, key, title, lang) {
       <h2>${tx(t('Consejos esenciales', 'Dicas essenciais', 'Essential tips'), lang)}</h2><div class="ec-grid ec-grid-essential">${render((card, i) =>
         `<a class="ec-card" href="${pre(lang) + url(card, i)}">${image(petrPhotos[['museu', 'quitandinha', 'catedral-paisaje', 'cristal'][i]])}
         <span class="ec-label">${tx(card.title, lang)}</span></a>`)}</div></div></section>` };
-  }
-  if (key === 'vida-nocturna') {
-    return { title, intro: data.intro, css: ['vida-nocturna'], body: hero + `<section class="night-editorial">
-      <div class="night-grid">${render((card, i) => `<article class="night-card">${itemTitle(card)}${p(card.copy, lang)}${action(card, i)}</article>`)}</div>
-      <div class="night-note">${p(data.tip, lang)}</div></section>` };
-  }
-  if (key === 'gastronomia') {
-    return { title, intro: data.intro, inline: styles('gastronomia'), body: `<div class="gast-shell"><section class="gast-hero">
-      <div class="gast-hero-inner"><p class="gast-eyebrow">PETRÓPOLIS</p><h1>${tx(title, lang)}</h1><p class="gast-intro">${tx(data.intro, lang)}</p></div></section>
-      <section class="gast-catalog"><div class="gast-section-heading"><h2>${tx(t('Dónde parar a comer', 'Onde parar para comer', 'Where to stop for food'), lang)}</h2></div>
-      <div class="restaurant-grid">${render((card, i) => `<a class="restaurant" href="${pre(lang) + url(card, i)}">
-      <div class="restaurant-content">${itemTitle(card)}<p class="restaurant-description">${tx(card.copy, lang)}</p><span class="restaurant-link">${tx(open, lang)}</span></div></a>`)}</div></section></div>` };
   }
   if (key === 'compras') {
     return { title, intro: data.intro, css: ['compras'], inline: styles('compras'), body: hero + `<section class="shopping-editorial">
