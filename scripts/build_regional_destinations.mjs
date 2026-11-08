@@ -7,7 +7,7 @@ import angra from '../assets/js/translations/destinos/angra-ilha-grande.js';
 import caboFrio from '../assets/js/translations/destinos/cabo-frio.js';
 import arraial from '../assets/js/translations/destinos/arraial-do-cabo.js';
 import paraty from '../assets/js/translations/destinos/paraty.js';
-import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisHome, petropolisGuide, petropolisEditorial } from './build_petropolis.mjs';
+import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisHome, petropolisGuide, petropolisEditorial, regionalPlaceRoutes, renderRegionalPlaces } from './build_petropolis.mjs';
 
 import { renderRegionalEvents } from './regional_events.mjs';
 import { renderRegionalPhotography } from './regional_photography.mjs';
@@ -15,6 +15,7 @@ import { otherVenueRoutes, renderVenueSection } from './petropolis_mesas.mjs';
 
 const photos = JSON.parse(fs.readFileSync(new URL('../assets/data/regional-destination-photos.json', import.meta.url)));
 const petrEventsPhoto = photos.petropolis.eventos;
+const petrExtraCredits = Object.entries(photos.petropolis).filter(([key]) => key.startsWith('place-')).map(([, photo]) => photo);
 photos.petropolis = { home: petrPhotos['catedral-paisaje'] };
 const catalog = '/destinos/';
 const credits = catalog + 'creditos-fotos/';
@@ -62,9 +63,9 @@ for (const destination of destinations) {
 for (const [key, slug] of petrDetailRoutes) {
   routes.set(sectionPath(petropolis, key) + slug + '/', { destination: petropolis, key, slug });
 }
-for (const [city, key, slug] of otherVenueRoutes) {
+for (const [city, key, slug] of [...otherVenueRoutes, ...regionalPlaceRoutes]) {
   const destination = destinations.find(item => item.slug === city);
-  if (!destination) throw new Error('Unknown destination for venue: ' + city);
+  if (!destination) throw new Error('Unknown regional destination: ' + city);
   routes.set(sectionPath(destination, key) + slug + '/', { destination, key, slug });
 }
 export const regionalRoutes = [...routes.keys()];
@@ -229,7 +230,7 @@ function renderCatalog(language) {
 
 function renderCredits(language) {
   const intro = t('Imágenes redimensionadas para la web. Cada ficha enlaza a la fotografía original y a su licencia.', 'Imagens redimensionadas para a web. Cada ficha leva à foto original e à licença.', 'Images resized for the web. Each entry links to the original photograph and its licence.');
-  const groups = destinations.map(destination => `<section><h2>${esc(destination.name)}</h2><ul class="rd-credit-list">${[...Object.values(photos[destination.slug]), ...(destination === petropolis ? [petrEventsPhoto] : [])].filter(photo => photo?.source).map(photo =>
+  const groups = destinations.map(destination => `<section><h2>${esc(destination.name)}</h2><ul class="rd-credit-list">${[...Object.values(photos[destination.slug]), ...(destination === petropolis ? [petrEventsPhoto, ...petrExtraCredits] : [])].filter(photo => photo?.source).map(photo =>
     `<li>${external(photo.source, photo.file.replaceAll('_', ' ').replace(/\.[^.]+$/, ''), language)}
     <span>${esc(photo.artist || v(t('Autoría en la ficha original', 'Autoria na ficha original', 'Author listed in the original record'), language))} ·
     ${photo.licenseUrl ? external(photo.licenseUrl, photo.license, language) : esc(photo.license)}</span></li>`).join('')}</ul></section>`).join('');
@@ -260,7 +261,7 @@ export function renderRegionalRoute(route, language) {
     key === 'guia' ? petropolisGuide(destination, guide, language) :
     renderPetropolis(destination, key, slug, language) || petropolisEditorial(destination, key, sections[key], language, agenda))
     : destination ? (key === 'fotografias' && renderRegionalPhotography(destination, photos[destination.slug], language)) ||
-      renderVenueSection(destination, key, slug, language)
+      renderVenueSection(destination, key, slug, language) || renderRegionalPlaces(destination, key, slug, language, photos[destination.slug])
       : route === catalog ? renderCatalog(language) : renderCredits(language);
   const title = content?.title || (guide ? destination.guide[guide].title : key === 'guia' ? guideTitle(destination, language) : key ? sections[key] : destination.name);
   const description = content?.intro || (guide ? destination.guide[guide].intro : key && key !== 'guia' ? destination.sections[key].intro : destination.intro);

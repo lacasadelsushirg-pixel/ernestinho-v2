@@ -1,6 +1,7 @@
 import { renderVenueSection, venueRoutes } from './petropolis_mesas.mjs';
 import { esc, pre, styles, v } from './buzios_mirror_core.mjs';
 import { t } from '../assets/js/translations/destinos/modelo.js';
+import { regionalPlaces } from '../assets/js/translations/destinos/regional-lugares.js';
 import { places, placeSections, photoSpots } from '../assets/js/translations/destinos/petropolis-lugares.js';
 import { photographyCards } from './regional_photography.mjs';
 import { petrSpotInfo } from '../assets/js/translations/destinos/fotografia-regional.js';
@@ -20,6 +21,7 @@ const assets = {
   'casa-ipiranga': [current, 'Casa da Ipiranga'],
   castelo: [current, 'Castelo de Itaipava'],
   'catedral-paisaje': [current, 'Catedral São Pedro de Alcântara'],
+  'palacio-rio-negro': ['/assets/images/destinos/lugares/petropolis/', 'Palácio Rio Negro'],
 };
 export const petrPhotos = Object.fromEntries(Object.entries(assets).map(([key, [folder, alt]]) => [key, { src: folder + key + '.webp', alt }]));
 export const petrDetailRoutes = [
@@ -37,8 +39,8 @@ const back = t('← Volver a la sección', '← Voltar à seção', '← Back to
 const practical = t('Cómo organizar la visita', 'Como organizar a visita', 'Planning your visit');
 const combine = t('Con qué combinar', 'Com o que combinar', 'What to pair it with');
 const tip = t('Consejo de Ernestinho', 'Dica do Ernestinho', 'Ernestinho’s tip');
-const cover = (title, intro, lang) => `<section class="hero" style="min-height:52vh"><div class="hero-copy">
-  <p class="kicker">ERNESTINHO CARIOCA · PETRÓPOLIS</p><h1>${tx(title, lang)}</h1><p class="lead">${tx(intro, lang)}</p></div></section>`;
+const cover = (title, intro, lang, name = 'Petrópolis') => `<section class="hero" style="min-height:52vh"><div class="hero-copy">
+  <p class="kicker">ERNESTINHO CARIOCA · ${esc(name.toLocaleUpperCase('pt-BR'))}</p><h1>${tx(title, lang)}</h1><p class="lead">${tx(intro, lang)}</p></div></section>`;
 const note = (text, lang) => `<aside class="notice"><b>${tx(tip, lang)}</b>${p(text, lang)}</aside>`;
 const titleFor = {
   familia: t('Petrópolis en familia', 'Petrópolis em família', 'Petrópolis with children'),
@@ -48,19 +50,36 @@ const titleFor = {
   transportes: t('Cómo moverse en Petrópolis.', 'Como se locomover em Petrópolis.', 'Getting around Petrópolis.'),
 };
 
-function localPlaceLink(slug, lang) {
+const petropolisCatalog = { base, places, placeSections, photos: petrPhotos };
+
+export const regionalPlaceRoutes = Object.entries(regionalPlaces).flatMap(([city, { placeSections }]) =>
+  Object.entries(placeSections).flatMap(([key, slugs]) => slugs.map(slug => [city, key, slug])));
+
+export function renderRegionalPlaces(city, key, slug, lang, photos) {
+  const catalog = regionalPlaces[city.slug];
+  if (!catalog?.placeSections[key]) return null;
+  const config = { ...catalog, base: '/destinos/' + city.slug + '/', photos };
+  return slug ? placeDetail(key, slug, lang, config, city.name) : placeList(city, key, lang, config);
+}
+
+function localPlaceLink(slug, lang, { base, places, placeSections }) {
   const section = ['cultura', 'naturaleza', 'familia'].find(key => placeSections[key].includes(slug));
   return link(base + section + '/' + slug + '/', places[slug].name, lang, 'rd-action');
 }
 
-function placeList(city, key, lang) {
-  const title = titleFor[key];
+function placeList(city, key, lang, config = petropolisCatalog) {
+  const { base, places, placeSections, photos } = config;
+  const title = config === petropolisCatalog ? titleFor[key] : {
+    familia: t(`${city.name} en familia`, `${city.name} em família`, `${city.name} with children`),
+    cultura: t(`Arte y cultura en ${city.name}`, `Arte e cultura em ${city.name}`, `Art and culture in ${city.name}`),
+    naturaleza: t(`Naturaleza en ${city.name}`, `Natureza em ${city.name}`, `Nature in ${city.name}`),
+  }[key];
   const { intro, tip } = city.sections[key];
   const family = key === 'familia';
   const cards = placeSections[key].map(slug => {
     const place = places[slug];
     const url = pre(lang) + base + key + '/' + slug + '/';
-    const photo = petrPhotos[place.image];
+    const photo = photos[place.image];
     if (family) return `<a class="family-card" href="${url}">${photo ? `<div class="family-card-image">${image(photo)}</div>` : ''}
       <div class="family-card-copy"><span>${esc(place.area)}</span><h2>${esc(place.name)}</h2>
       ${p(place.description, lang)}<b>${tx(open, lang)}</b></div></a>`;
@@ -69,29 +88,32 @@ function placeList(city, key, lang) {
   }).join('');
   const body = family
     ? `<section class="family-index"><div class="family-wrap">${link(base, back, lang, 'family-back')}
-      <div class="family-index-intro"><span>Petrópolis</span><h1>${tx(title, lang)}</h1>${p(intro, lang)}</div>
-      <div class="family-card-grid">${cards}</div></div></section>`
-    : cover(title, intro, lang) + `<div class="culture-index"><section class="culture-section culture-categories">
+      <div class="family-index-intro"><span>${esc(city.name)}</span><h1>${tx(title, lang)}</h1>${p(intro, lang)}</div>
+      <div class="family-card-grid">${cards}</div>${config !== petropolisCatalog ? note(tip, lang) : ''}</div></section>`
+    : cover(title, intro, lang, city.name) + `<div class="culture-index"><section class="culture-section culture-categories">
       <p class="culture-kicker">ERNESTINHO CARIOCA</p><h2>${tx(t('Elige qué visitar', 'Escolha o que visitar', 'Choose what to visit'), lang)}</h2>
       <div class="culture-grid">${cards}</div></section><aside class="culture-note">${p(tip, lang)}</aside></div>`;
   return { title, intro, body, css: [family ? 'familia' : 'cultura'], bodyClass: family ? 'familia-index-page' : '' };
 }
 
-function placeDetail(key, slug, lang) {
+function placeDetail(key, slug, lang, config = petropolisCatalog, cityName = 'Petrópolis') {
+  const { base, places, photos } = config;
   const place = places[slug];
   const family = key === 'familia';
-  const photo = petrPhotos[place.image];
+  const photo = photos[place.image];
+  const mapUrl = place.map ? 'https://www.google.com/maps/search/?api=1&amp;query=' + encodeURIComponent(place.map + ', ' + cityName + ', RJ') : '';
+  const map = mapUrl ? `<a class="rd-action" href="${mapUrl}" target="_blank" rel="noopener noreferrer">${tx(t('Abrir en el mapa ↗', 'Abrir no mapa ↗', 'Open on map ↗'), lang)}</a>` : '';
   const body = family
     ? `<section class="family-detail"><div class="family-wrap">${link(base + key + '/', back, lang, 'family-back family-back-dark')}
       <div class="family-detail-intro"><span>${esc(place.area)}</span><h1>${esc(place.name)}</h1>${p(place.description, lang)}</div>
       ${photo ? `<div class="family-detail-hero"><div class="family-hero">${image(photo, '', true)}<div><span>${esc(place.area)}</span><h2>${esc(place.name)}</h2></div></div></div>` : ''}
-      <section class="family-experience"><h2>${tx(practical, lang)}</h2>${p(place.visit, lang)}</section>
-      <section class="family-experience"><h2>${tx(combine, lang)}</h2>${localPlaceLink(place.combine, lang)}</section></div></section>`
-    : cover(place.name, place.description, lang) + `<div class="culture-index">${link(base + key + '/', back, lang, 'culture-back')}
+      <section class="family-experience"><h2>${tx(practical, lang)}</h2>${p(place.visit, lang)}${map}</section>
+      <section class="family-experience"><h2>${tx(combine, lang)}</h2>${localPlaceLink(place.combine, lang, config)}</section></div></section>`
+    : cover(place.name, place.description, lang, cityName) + `<div class="culture-index">${link(base + key + '/', back, lang, 'culture-back')}
       ${photo ? `<div class="culture-gallery"><figure>${image(photo, '', true)}</figure></div>` : ''}
-      <section class="culture-section"><h2>${tx(practical, lang)}</h2>${p(place.visit, lang)}</section>
-      <aside class="culture-note"><b>${tx(combine, lang)}</b><p>${localPlaceLink(place.combine, lang)}</p></aside></div>`;
-  return { title: place.name, intro: place.description, image: photo, body, css: [family ? 'familia' : 'cultura'], bodyClass: family ? 'familia-detail-page' : '' };
+      <section class="culture-section"><h2>${tx(practical, lang)}</h2>${p(place.visit, lang)}${map}</section>
+      <aside class="culture-note"><b>${tx(combine, lang)}</b><p>${localPlaceLink(place.combine, lang, config)}</p></aside></div>`;
+  return { title: place.name, intro: place.description, image: config === petropolisCatalog ? photo : photo || null, body, css: [family ? 'familia' : 'cultura'], bodyClass: family ? 'familia-detail-page' : '' };
 }
 
 function photography(city, lang) {

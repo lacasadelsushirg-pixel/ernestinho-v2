@@ -40,7 +40,7 @@ export const places = {
     t('Una vivienda histórica que ayuda a leer la vida cotidiana de los colonos, con objetos domésticos y un contexto distinto al de los palacios.', 'Uma casa histórica para entender o cotidiano dos colonos, com objetos domésticos e um contexto diferente dos palácios.', 'A historic house that tells the story of settler life through domestic objects, offering a different perspective from the palaces.'),
     t('Está fuera del circuito principal a pie. Confirma la apertura y deja previsto cómo volver al Centro.', 'Fica fora do circuito principal a pé. Confira a abertura e planeje a volta ao Centro.', 'It’s outside the main walking circuit. Check opening and plan how to get back downtown.'),
     'palacio-quitandinha'),
-  'palacio-rio-negro': place('Palácio Rio Negro', 'Centro Histórico', null,
+  'palacio-rio-negro': place('Palácio Rio Negro', 'Centro Histórico', 'palacio-rio-negro',
     t('La antigua residencia de verano presidencial permite seguir la historia de Petrópolis después del Imperio. Mira el conjunto desde Avenida Koeler.', 'A antiga residência de verão presidencial permite seguir a história de Petrópolis depois do Império. Observe o conjunto pela Avenida Koeler.', 'The former presidential summer residence takes the story of Petrópolis beyond the Empire. View the grounds from Avenida Koeler.'),
     t('Cuenta con la parada exterior y confirma si el interior está abierto antes de planear la visita.', 'Conte com a parada externa e confirme se o interior está aberto antes de planejar a visita.', 'Plan for an exterior stop and check whether the interior is open before arranging a visit.'),
     'catedral'),

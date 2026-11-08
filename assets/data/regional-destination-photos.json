@@ -68,6 +68,22 @@
       "source": "https://commons.wikimedia.org/wiki/File:IlhaGrande-LopesMendes1.jpg",
       "src": "/FOTOS/HOME/DESTINOS/20261107/angra-ilha-grande/naturaleza.webp"
     },
+    "place-larangeiras": {
+      "artist": "Minerva97",
+      "file": "2024-09-04 Casa Laranjeiras, 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2024-09-04_Casa_Laranjeiras,_01.jpg",
+      "src": "/assets/images/destinos/lugares/angra-ilha-grande/larangeiras.webp"
+    },
+    "place-sao-sebastiao": {
+      "artist": "Fulviusbsas",
+      "file": "IlhaGrande-Abraao5.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:IlhaGrande-Abraao5.jpg",
+      "src": "/assets/images/destinos/lugares/angra-ilha-grande/sao-sebastiao.webp"
+    },
     "spot-dois-rios": {
       "artist": "Marianna Goret Rosa",
       "file": "Praia Dois Rios, Ilha grande.jpg",
@@ -120,6 +136,30 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Vista_Arraial_do_Cabo.jpg",
       "src": "/FOTOS/HOME/DESTINOS/20261107/arraial-do-cabo/home.webp"
+    },
+    "place-igreja-remedios": {
+      "artist": "Wusel007",
+      "file": "Igreja de Nossa Senhora dos Remédios Arraial do Cabo.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios_Arraial_do_Cabo.JPG",
+      "src": "/assets/images/destinos/lugares/arraial-do-cabo/igreja-remedios.webp"
+    },
+    "place-museu-oceanografico": {
+      "artist": "Marinha do Brasil",
+      "file": "Museu Oceanográfico, em Arraial do Cabo RJ (52247823379).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Museu_Oceanogr%C3%A1fico,_em_Arraial_do_Cabo_RJ_(52247823379).jpg",
+      "src": "/assets/images/destinos/lugares/arraial-do-cabo/museu-oceanografico.webp"
+    },
+    "place-praia-do-farol": {
+      "artist": "Edulonde",
+      "file": "Praia do Farol - Arraial do Cabo.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Praia_do_Farol_-_Arraial_do_Cabo.JPG",
+      "src": "/assets/images/destinos/lugares/arraial-do-cabo/praia-do-farol.webp"
     },
     "spot-pontal-do-atalaia": {
       "artist": "Gabriel Abreu",
@@ -251,6 +291,46 @@
       "source": "https://commons.wikimedia.org/wiki/File:Paraty_vista_da_serra.jpg",
       "src": "/FOTOS/HOME/DESTINOS/20261107/paraty/experiencias.webp"
     },
+    "place-casa-cultura": {
+      "artist": "Túllio F",
+      "file": "Casa da Cultura Câmara Torres.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_da_Cultura_C%C3%A2mara_Torres.jpg",
+      "src": "/assets/images/destinos/lugares/paraty/casa-cultura.webp"
+    },
+    "place-jabaquara": {
+      "artist": "ebalter",
+      "file": "Praia de Jabaquara, Paraty - panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Praia_de_Jabaquara,_Paraty_-_panoramio.jpg",
+      "src": "/assets/images/destinos/lugares/paraty/jabaquara.webp"
+    },
+    "place-mamangua": {
+      "artist": "Pedrogabrielmaciel",
+      "file": "Pico do Pão de Açucar no Saco do Mamanguá, Paraty-Rj. Serra da Bocaina ao longo.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pico_do_P%C3%A3o_de_A%C3%A7ucar_no_Saco_do_Mamangu%C3%A1,_Paraty-Rj._Serra_da_Bocaina_ao_longo.jpg",
+      "src": "/assets/images/destinos/lugares/paraty/mamangua.webp"
+    },
+    "place-paraty-mirim": {
+      "artist": "Pedrogabrielmaciel",
+      "file": "Paraty-mirim.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Paraty-mirim.jpg",
+      "src": "/assets/images/destinos/lugares/paraty/paraty-mirim.webp"
+    },
+    "place-trindade": {
+      "artist": "Attilio Zolin",
+      "file": "Praia do Meio em Trindade vista de trilha de acesso.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Praia_do_Meio_em_Trindade_vista_de_trilha_de_acesso.jpg",
+      "src": "/assets/images/destinos/lugares/paraty/trindade.webp"
+    },
     "spot-forte-defensor": {
       "artist": "Leonardo Salvato",
       "file": "Forte - Paraty.jpg",
@@ -352,6 +432,14 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Maria_Comprida.jpg",
       "src": "/FOTOS/HOME/DESTINOS/20261107/petropolis/naturaleza.webp"
+    },
+    "place-palacio-rio-negro": {
+      "artist": "Ministério da Cultura",
+      "file": "Palácio Rio Negro, Petrópolis 01.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Rio_Negro,_Petr%C3%B3polis_01.jpg",
+      "src": "/assets/images/destinos/lugares/petropolis/palacio-rio-negro.webp"
     }
   }
 }
