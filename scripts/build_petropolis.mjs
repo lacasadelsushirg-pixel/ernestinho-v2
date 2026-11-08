@@ -40,6 +40,10 @@ const back = t('← Volver a la sección', '← Voltar à seção', '← Back to
 const practical = t('Cómo organizar la visita', 'Como organizar a visita', 'Planning your visit');
 const combine = t('Con qué combinar', 'Com o que combinar', 'What to pair it with');
 const tip = t('Consejo de Ernestinho', 'Dica do Ernestinho', 'Ernestinho’s tip');
+const caboFrioTimetables = [
+  t('Horarios y pasajes de la 1001', 'Horários e passagens da 1001', '1001 timetables and tickets'),
+  t('Líneas y horarios de Salineira', 'Linhas e horários da Salineira', 'Salineira routes and timetables'),
+];
 const cover = (title, intro, lang, name = 'Petrópolis') => `<section class="hero" style="min-height:52vh"><div class="hero-copy">
   <p class="kicker">ERNESTINHO CARIOCA · ${esc(name.toLocaleUpperCase('pt-BR'))}</p><h1>${tx(title, lang)}</h1><p class="lead">${tx(intro, lang)}</p></div></section>`;
 const note = (text, lang) => `<aside class="notice"><b>${tx(tip, lang)}</b>${p(text, lang)}</aside>`;
@@ -138,21 +142,25 @@ export function renderRegionalTransport(city, key, slug, lang, photos) {
 function transportLayout(city, slug, lang, photos = {}) {
   const modes = regionalTransport[city.slug] || transport;
   const isPetr = modes === transport;
+  const isCaboFrio = city.slug === 'cabo-frio';
   const base = '/destinos/' + city.slug + '/';
-  const guide = { petropolis: 'llegada', 'arraial-do-cabo': 'llegada', 'angra-ilha-grande': 'embarque', paraty: 'llegada' }[city.slug];
+  const guide = city.slug === 'angra-ilha-grande' ? 'embarque' : 'llegada';
   const title = isPetr ? titleFor.transportes : t(`Cómo moverse en ${city.name}.`, `Como se locomover em ${city.name}.`, `Getting around ${city.name}.`);
   const { intro, tip } = city.sections.transportes;
   if (slug) {
-    const [, name, area, summary, returnTrip] = modes[slug];
+    const [, name, area, summary, returnTrip, ...sources] = modes[slug];
+    const timetables = isCaboFrio ? sources.map((url, index) =>
+      `<a class="text-action" href="${esc(url)}">${tx(caboFrioTimetables[slug === 'onibus' ? 1 : index], lang)}</a>`).join('') : '';
     const body = `<section class="transit-guide"><div class="breadcrumbs">${link(base + 'transportes/', back, lang)}</div>
       <div class="guide-intro"><p class="kicker">ERNESTINHO CARIOCA · ${esc(city.name.toLocaleUpperCase('pt-BR'))}</p><h1>${tx(name, lang)}</h1>
       <p class="guide-dek">${tx(summary, lang)}</p><span class="fact-pill">${esc(area)}</span></div>
       <div class="guide-layout"><article class="guide-copy"><section class="guide-section ec-adn ec-teal"><h2>${tx(isPetr ? practical : t('Embarque y regreso', 'Embarque e volta', 'Boarding and return'), lang)}</h2>${p(returnTrip, lang)}</section></article>
-      <aside class="guide-aside"><div class="aside-card">${link(base + 'guia/' + guide + '/', isPetr ? t('Cómo llegar desde Río', 'Como chegar do Rio', 'Getting here from Rio') : t('Planifica la llegada', 'Planeje a chegada', 'Plan your arrival'), lang, 'text-action')}</div></aside></div></section>`;
+      <aside class="guide-aside"><div class="aside-card">${link(base + 'guia/' + guide + '/', isPetr ? t('Cómo llegar desde Río', 'Como chegar do Rio', 'Getting here from Rio') : t('Planifica la llegada', 'Planeje a chegada', 'Plan your arrival'), lang, 'text-action')}${timetables}</div></aside></div></section>`;
     return { title: name, intro: summary, body, css: ['transit-guides'] };
   }
   const cards = Object.entries(modes).map(([mode, [icon, name, area, copy]]) => {
-    const photo = mode === 'barcos' ? photos['transportes-barcos'] || photos['spot-praia-dos-anjos'] :
+    const photo = isCaboFrio ? photos['transportes-' + mode] :
+      mode === 'barcos' ? photos['transportes-barcos'] || photos['spot-praia-dos-anjos'] :
       { src: '/FOTOS/HOME/DESTINOS/20261107-plantillas/transportes/' + mode + '.webp', alt: v(name, lang) };
     return `<article class="tcard source-transport">${image(photo && { ...photo, alt: photo.alt || v(name, lang) }, 'transport-thumb')}<div class="transport-content"><i aria-hidden="true">${icon}</i>
       <b>${tx(name, lang)}</b><strong>${esc(area)}</strong>${p(copy, lang)}</div>

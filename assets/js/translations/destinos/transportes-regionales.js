@@ -7,8 +7,47 @@ const apps = t('Uber, 99 y taxis', 'Uber, 99 e táxis', 'Uber, 99 and taxis');
 const bikes = t('Bicicletas', 'Bicicletas', 'Bicycles');
 const boats = t('Barcos y paseos náuticos', 'Barcos e passeios náuticos', 'Boats and boat trips');
 const mainland = 'https://www.costaverdetransportes.com.br/linhas-horarios';
+const salineira = 'https://www.salineira.com.br/linhas-e-horarios';
+const caboFrio1001 = 'https://www.autoviacao1001.com.br/passagem-de-onibus-cabo-frio';
 
 export const regionalTransport = {
+  'cabo-frio': {
+    vans: ['🚐', vans, 'Rodoviária Alexis Novellino · Praia do Forte · Passagem',
+      t('Si llegas con niños o maletas, acuerda la recogida en la Rodoviária Alexis Novellino, en la Avenida Júlia Kubitschek. Al reservar, indica el alojamiento y cuánto equipaje lleva el grupo.',
+        'Se chegar com crianças ou malas, combine o embarque na Rodoviária Alexis Novellino, na Avenida Júlia Kubitschek. Na reserva, informe a hospedagem e o volume de bagagem do grupo.',
+        'If arriving with children or luggage, arrange pickup at Rodoviária Alexis Novellino on Avenida Júlia Kubitschek. Give your accommodation address and luggage details when booking.'),
+      t('Para un día en Peró o Conchas, acuerda el punto de recogida en la calle y la hora de vuelta antes de ir a la arena. Si el traslado sigue hasta Arraial o Búzios, confirma que ese tramo está incluido.',
+        'Para um dia no Peró ou nas Conchas, combine o ponto de embarque na rua e o horário de volta antes de ir à areia. Se o traslado seguir até Arraial ou Búzios, confirme que esse trecho está incluído.',
+        'For a day at Peró or Conchas, agree on a street pickup point and return time before heading onto the sand. If continuing to Arraial or Búzios, check that the transfer covers that leg.')],
+    onibus: ['🚌', buses, 'São Cristóvão · Cajueiro · Peró',
+      t('Para ir a Peró, busca la línea municipal 328 de Salineira, São Cristóvão–Peró vía Cajueiro. Antes de salir del Centro, confirma qué parada te queda más cerca. La tarifa municipal publicada es R$ 5.',
+        'Para ir ao Peró, procure a linha municipal 328 da Salineira, São Cristóvão–Peró via Cajueiro. Antes de sair do Centro, confirme o ponto mais próximo. A tarifa municipal publicada é de R$ 5.',
+        'For Peró, look for Salineira’s local route 328, São Cristóvão–Peró via Cajueiro. Before leaving downtown, check your nearest stop. The published local fare is R$5.'),
+      t('Al bajar, identifica la parada en sentido São Cristóvão. Si también vas a Conchas, cuenta ese tramo por separado y revisa la última salida de regreso para tu día de viaje.',
+        'Ao descer, localize o ponto no sentido São Cristóvão. Se também for às Conchas, conte esse trecho à parte e confira a última saída de volta para o dia da viagem.',
+        'When you get off, locate the stop towards São Cristóvão. If visiting Conchas as well, allow time for that leg separately and check the last return service for your travel date.'), salineira],
+    uber: ['🚗', apps, 'Centro · Passagem · Peró',
+      t('En Passagem, fija la recogida en una calle abierta al tránsito cerca del Largo São Benedito. En Peró, indica el acceso que estás usando y añade una referencia que el conductor pueda ver desde la calle.',
+        'Na Passagem, marque o embarque em uma rua aberta ao trânsito perto do Largo São Benedito. No Peró, indique o acesso que está usando e uma referência visível da rua.',
+        'In Passagem, set pickup on a road open to traffic near Largo São Benedito. At Peró, specify which access you are using and give a landmark visible from the road.'),
+      t('Compara precio y espera antes de pedir el auto. Si vas a cenar en Passagem después de la playa, decide dónde cambiarte o dejar el equipaje para evitar una vuelta extra.',
+        'Compare preço e tempo de espera antes de pedir o carro. Se for jantar na Passagem depois da praia, decida onde se trocar ou deixar a bagagem para evitar uma viagem extra.',
+        'Compare fares and waiting times before booking. If you plan to eat in Passagem after the beach, decide where to change or drop off your bags to save an extra trip.')],
+    bicicletas: ['🚲', bikes, 'Praia do Forte · Canal Itajuru',
+      t('Para pedalear un rato, elige un tramo corto de la orla de Praia do Forte. Si sigues hacia el canal, revisa los cruces y qué tramos permiten bicicletas.',
+        'Para pedalar um pouco, escolha um trecho curto da orla da Praia do Forte. Se seguir até o canal, confira os cruzamentos e onde é permitido circular de bicicleta.',
+        'For a short ride, choose a stretch of the Praia do Forte waterfront. If continuing towards the canal, check the crossings and where cycling is permitted.'),
+      t('Si alquilas, confirma el punto de devolución, el candado y la hora límite. En los paseos llenos de gente, bájate y sigue a pie.',
+        'Se alugar, confirme o local de devolução, o cadeado e o horário limite. Nos passeios cheios de gente, desça e siga a pé.',
+        'If renting, confirm the return point, lock and closing time. Dismount and walk the bike along crowded promenades.')],
+    interurbanos: ['🚍', intercity, 'Rio · Cabo Frio · Arraial do Cabo · Búzios',
+      t('Desde Río, la 1001 vende billetes al Terminal Rodoviário Alexis Novellino de Cabo Frio. Para seguir a Arraial do Cabo, busca la B150 de Salineira. Para Búzios, busca la B160 directa o la B165 vía Guriri.',
+        'Saindo do Rio, a 1001 vende passagens para o Terminal Rodoviário Alexis Novellino, em Cabo Frio. Para Arraial do Cabo, procure a B150 da Salineira. Para Búzios, procure a B160 direta ou a B165 via Guriri.',
+        'From Rio, 1001 sells tickets to Terminal Rodoviário Alexis Novellino in Cabo Frio. For Arraial do Cabo, look for Salineira’s B150. For Búzios, look for the direct B160 or the B165 via Guriri.'),
+      t('La B150 pasa por una parada de calle cerca de la rodoviária. Al hacer conexión, confirma el lado de la avenida, el sentido y el punto de bajada. Para volver, consulta el horario del municipio desde el que vas a salir.',
+        'A B150 passa por um ponto de rua perto da rodoviária. Na conexão, confirme o lado da avenida, o sentido e o ponto de desembarque. Na volta, consulte o horário do município de onde vai sair.',
+        'The B150 uses a street stop near the coach station. When changing buses, confirm the side of the avenue, direction and drop-off. For your return, check the timetable from the town you will leave from.'), caboFrio1001, salineira],
+  },
   'arraial-do-cabo': {
     vans: ['🚐', vans, 'Rodoviária · Praia dos Anjos · Pontal do Atalaia',
       t('Para un grupo, reserva recogida y vuelta con dirección y número de pasajeros. Si vas al Pontal, confirma si el vehículo puede subir y dónde puede dejarte.', 'Para grupos, reserve ida e volta com endereço e número de passageiros. Para o Pontal, confirme se o veículo pode subir e onde pode desembarcar.', 'For a group, book both rides with an address and passenger count. For Pontal, check whether the vehicle can go up and where it can drop you.'),
