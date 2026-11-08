@@ -59,9 +59,23 @@ for (const lang of langs) {
           if (asset.startsWith(root + path.sep) && !fs.existsSync(asset)) issue('IMG', file, src);
         }
       }
+      // Cada sección de portada debe tener su propia imagen, sin repetir el hero.
       if (route === '/destinos/' + d.slug + '/') {
-        const cardImages = (html.match(/class=["'][^"']*guide-thumb/g) || []).length;
-        if (cardImages < sections.length) issue('THUMBNAILS', file, cardImages + '/' + sections.length + ' tarjetas con miniatura');
+        const thumbs = [...html.matchAll(/<img\\b[^>]*class=["'][^"']*guide-thumb[^"']*["'][^>]*>/gi)]
+          .map(m => m[0].match(/\\bsrc=["']([^"']+)["']/i)?.[1]).filter(Boolean);
+        if (thumbs.length < sections.length) issue('THUMBNAILS', file, thumbs.length + '/' + sections.length + ' tarjetas con miniatura');
+        const duplicates = [...new Set(thumbs.filter((src, index) => thumbs.indexOf(src) !== index))];
+        if (duplicates.length) issue('DUPLICATE_THUMBNAILS', file, duplicates.join(', '));
+      }
+      // Las subguías deben mostrar imágenes reales e independientes; una foto
+      // reutilizada como fallback no significa que la miniatura esté terminada.
+      if (route === '/destinos/' + d.slug + '/guia/') {
+        const thumbs = [...html.matchAll(/<img\\b[^>]*class=["'][^"']*guide-thumb[^"']*["'][^>]*>/gi)]
+          .map(m => m[0].match(/\\bsrc=["']([^"']+)["']/i)?.[1]).filter(Boolean);
+        const guideCount = Object.keys(d.guide || {}).length;
+        if (thumbs.length < guideCount) issue('GUIDE_THUMBNAILS', file, thumbs.length + '/' + guideCount + ' subguías con foto');
+        const duplicates = [...new Set(thumbs.filter((src, index) => thumbs.indexOf(src) !== index))];
+        if (duplicates.length) issue('DUPLICATE_GUIDE_THUMBNAILS', file, duplicates.join(', '));
       }
       if (/google\.com\/maps\/search/i.test(html)) issue('EXTERNAL_MAP', file, 'Se detectó Google Maps en vez de mapa interno');
       if (/href=["']https?:\/\/(?!wa\.me)/i.test(html)) {
