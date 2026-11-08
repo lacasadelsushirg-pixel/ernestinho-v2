@@ -150,10 +150,13 @@ function guideIndex(destination, language) {
   const guidePhotos = [...new Set([media.guia, media.barrios, media.home, media.familia, media.cultura].filter(Boolean))];
   // Keep every guide card visually complete while its own verified photograph is pending.
   // Reused images are provisional: the thumbnail audit still requires distinct licensed photos.
-  const tiles = Object.entries(destination.guide).map(([slug, guide], index) =>
-    tile(guidePath(destination, slug), guide.title, language,
-      guidePhotos[index] || media.guia || media.home,
-      (guidePhotos[index] || media.guia || media.home)?.alt || destination.name, guideOpen));
+  // A verified image can be assigned to each guide topic as "guide-<slug>" in the
+  // regional photo manifest. Until then, preserve the existing provisional fallback.
+  const tiles = Object.entries(destination.guide).map(([slug, guide], index) => {
+    const photo = media['guide-' + slug] || guidePhotos[index] || media.guia || media.home;
+    return tile(guidePath(destination, slug), guide.title, language,
+      photo, photo?.alt || v(guide.title, language), guideOpen);
+  });
   const heading = text(t('Empieza por lo esencial', 'Comece pelo essencial', 'Start with the essentials'), language);
   return hero(title, destination.name, intro, language) +
     destinationNav(destination, sectionPath(destination, 'guia'), language) +
