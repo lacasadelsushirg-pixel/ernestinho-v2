@@ -10,6 +10,12 @@ import cabo from '../assets/js/translations/destinos/cabo-frio.js';
 import paraty from '../assets/js/translations/destinos/paraty.js';
 import angra from '../assets/js/translations/destinos/angra-ilha-grande.js';
 import fs from 'node:fs';
+import { venues as petrVenues } from '../assets/js/translations/destinos/petropolis-mesas.js';
+import { petrExpansion } from '../assets/js/translations/destinos/petropolis-mesas-ampliacion.js';
+import { regionalVenues } from '../assets/js/translations/destinos/mesas-regionales.js';
+import { places as petrPlaces } from '../assets/js/translations/destinos/petropolis-lugares.js';
+import { regionalEvents } from '../assets/js/translations/destinos/eventos-regionales.js';
+import { regionalPlaces } from '../assets/js/translations/destinos/regional-lugares.js';
 const manifest = JSON.parse(fs.readFileSync(new URL('../assets/data/regional-destination-photos.json', import.meta.url), 'utf8'));
 const destinations = [petropolis, arraial, cabo, paraty, angra];
 const sections = ['transportes','fotografias','experiencias','barrios','cultura','familia','vida-nocturna','gastronomia','consejos','naturaleza','compras','eventos'];
@@ -73,7 +79,23 @@ for (const d of destinations) {
   fatal+=issues.filter(i=>!['EXTERNAL_MAP_DEPENDENCY','MISSING_SECTION_PHOTO','MISSING_GUIDE_PHOTO','SUSPECT_UNTRANSLATED'].includes(i.type)).length;
   report.push({destination:d.slug,sectionCount:Object.keys(d.sections||{}).length,guideCount:Object.keys(d.guide||{}).length,cards,guideCards:guides,photoEntries:Object.keys(photos).length,issues});
 }
-if(process.argv.includes('--json')) console.log(JSON.stringify({destinations:report,fatal},null,2));
+const venueCatalogs = {
+  petropolis: Object.fromEntries(Object.entries(petrVenues).map(([section, items]) =>
+    [section, { ...items, ...petrExpansion[section] }])),
+  ...regionalVenues,
+};
+const photoInventory = Object.fromEntries(Object.keys(venueCatalogs).map(city => {
+  const catalog = venueCatalogs[city];
+  const venues = Object.entries(catalog).flatMap(([section, items]) =>
+    Object.entries(items).filter(([, place]) => !place.image).map(([slug, place]) => ({ section, slug, name: place.name })));
+  const places = Object.entries(city === 'petropolis' ? petrPlaces : regionalPlaces[city].places)
+    .filter(([, place]) => !place.image || (city !== 'petropolis' && !manifest[city]?.[place.image]))
+    .map(([slug, place]) => ({ slug, name: place.name }));
+  const events = regionalEvents[city].filter(event => !event.photoKey || !manifest[city]?.[event.photoKey]).map(event => event.name);
+  return [city, { venues, places, events }];
+}));
+if (process.argv.includes('--photos')) console.log(JSON.stringify(photoInventory, null, 2));
+else if(process.argv.includes('--json')) console.log(JSON.stringify({destinations:report,photoInventory,fatal},null,2));
 else {
   for(const d of report) {
     const counts={};for(const issue of d.issues)counts[issue.type]=(counts[issue.type]||0)+1;

@@ -1,6 +1,7 @@
 import { renderVenueSection, venueRoutes } from './petropolis_mesas.mjs';
 import { esc, pre, styles, v } from './buzios_mirror_core.mjs';
 import { t } from '../assets/js/translations/destinos/modelo.js';
+import { regionalTransport } from '../assets/js/translations/destinos/transportes-regionales.js';
 import { regionalPlaces } from '../assets/js/translations/destinos/regional-lugares.js';
 import { places, placeSections, photoSpots } from '../assets/js/translations/destinos/petropolis-lugares.js';
 import { photographyCards } from './regional_photography.mjs';
@@ -126,25 +127,38 @@ function photography(city, lang) {
   return { title, intro, body: cover(title, intro, lang) + photographyCards(spots, lang, city.name), inline: styles('fotografia') };
 }
 
-function transportLayout(city, slug, lang) {
-  const title = titleFor.transportes;
+export const regionalTransportRoutes = Object.entries(regionalTransport).flatMap(([city, modes]) =>
+  Object.keys(modes).map(slug => [city, 'transportes', slug]));
+
+export function renderRegionalTransport(city, key, slug, lang, photos) {
+  if (key !== 'transportes' || !regionalTransport[city.slug]) return null;
+  return transportLayout(city, slug, lang, photos);
+}
+
+function transportLayout(city, slug, lang, photos = {}) {
+  const modes = regionalTransport[city.slug] || transport;
+  const isPetr = modes === transport;
+  const base = '/destinos/' + city.slug + '/';
+  const guide = { petropolis: 'llegada', 'arraial-do-cabo': 'llegada', 'angra-ilha-grande': 'embarque', paraty: 'llegada' }[city.slug];
+  const title = isPetr ? titleFor.transportes : t(`Cómo moverse en ${city.name}.`, `Como se locomover em ${city.name}.`, `Getting around ${city.name}.`);
   const { intro, tip } = city.sections.transportes;
   if (slug) {
-    const [, name, area, summary, returnTrip] = transport[slug];
+    const [, name, area, summary, returnTrip] = modes[slug];
     const body = `<section class="transit-guide"><div class="breadcrumbs">${link(base + 'transportes/', back, lang)}</div>
-      <div class="guide-intro"><p class="kicker">ERNESTINHO CARIOCA · PETRÓPOLIS</p><h1>${tx(name, lang)}</h1>
+      <div class="guide-intro"><p class="kicker">ERNESTINHO CARIOCA · ${esc(city.name.toLocaleUpperCase('pt-BR'))}</p><h1>${tx(name, lang)}</h1>
       <p class="guide-dek">${tx(summary, lang)}</p><span class="fact-pill">${esc(area)}</span></div>
-      <div class="guide-layout"><article class="guide-copy"><section class="guide-section ec-adn ec-teal"><h2>${tx(practical, lang)}</h2>${p(returnTrip, lang)}</section></article>
-      <aside class="guide-aside"><div class="aside-card">${link(base + 'guia/llegada/', t('Cómo llegar desde Río', 'Como chegar do Rio', 'Getting here from Rio'), lang, 'text-action')}</div></aside></div></section>`;
+      <div class="guide-layout"><article class="guide-copy"><section class="guide-section ec-adn ec-teal"><h2>${tx(isPetr ? practical : t('Embarque y regreso', 'Embarque e volta', 'Boarding and return'), lang)}</h2>${p(returnTrip, lang)}</section></article>
+      <aside class="guide-aside"><div class="aside-card">${link(base + 'guia/' + guide + '/', isPetr ? t('Cómo llegar desde Río', 'Como chegar do Rio', 'Getting here from Rio') : t('Planifica la llegada', 'Planeje a chegada', 'Plan your arrival'), lang, 'text-action')}</div></aside></div></section>`;
     return { title: name, intro: summary, body, css: ['transit-guides'] };
   }
-  const cards = Object.entries(transport).map(([mode, [icon, name, area, copy]]) => {
-    const photo = { src: '/FOTOS/HOME/DESTINOS/20261107-plantillas/transportes/' + mode + '.webp', alt: v(name, lang) };
-    return `<article class="tcard source-transport">${image(photo, 'transport-thumb')}<div class="transport-content"><i aria-hidden="true">${icon}</i>
+  const cards = Object.entries(modes).map(([mode, [icon, name, area, copy]]) => {
+    const photo = mode === 'barcos' ? photos['transportes-barcos'] || photos['spot-praia-dos-anjos'] :
+      { src: '/FOTOS/HOME/DESTINOS/20261107-plantillas/transportes/' + mode + '.webp', alt: v(name, lang) };
+    return `<article class="tcard source-transport">${image(photo && { ...photo, alt: photo.alt || v(name, lang) }, 'transport-thumb')}<div class="transport-content"><i aria-hidden="true">${icon}</i>
       <b>${tx(name, lang)}</b><strong>${esc(area)}</strong>${p(copy, lang)}</div>
       ${link(base + 'transportes/' + mode + '/', open, lang, 'detail-link')}</article>`;
   }).join('');
-  return { title, intro, body: cover(title, intro, lang) + `<section class="transport"><div class="tgrid">${cards}</div>${note(tip, lang)}</section>`, inline: styles('transportes') };
+  return { title, intro, body: cover(title, intro, lang, city.name) + `<section class="transport"><div class="tgrid">${cards}</div>${note(tip, lang)}</section>`, inline: styles('transportes') };
 }
 
 export function renderPetropolis(city, key, slug, lang) {

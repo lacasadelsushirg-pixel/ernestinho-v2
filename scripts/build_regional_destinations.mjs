@@ -7,7 +7,7 @@ import angra from '../assets/js/translations/destinos/angra-ilha-grande.js';
 import caboFrio from '../assets/js/translations/destinos/cabo-frio.js';
 import arraial from '../assets/js/translations/destinos/arraial-do-cabo.js';
 import paraty from '../assets/js/translations/destinos/paraty.js';
-import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisHome, petropolisGuide, petropolisEditorial, regionalPlaceRoutes, renderRegionalPlaces } from './build_petropolis.mjs';
+import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisHome, petropolisGuide, petropolisEditorial, regionalPlaceRoutes, renderRegionalPlaces, regionalTransportRoutes, renderRegionalTransport } from './build_petropolis.mjs';
 
 import { renderRegionalEvents } from './regional_events.mjs';
 import { renderRegionalPhotography } from './regional_photography.mjs';
@@ -63,7 +63,7 @@ for (const destination of destinations) {
 for (const [key, slug] of petrDetailRoutes) {
   routes.set(sectionPath(petropolis, key) + slug + '/', { destination: petropolis, key, slug });
 }
-for (const [city, key, slug] of [...otherVenueRoutes, ...regionalPlaceRoutes]) {
+for (const [city, key, slug] of [...otherVenueRoutes, ...regionalPlaceRoutes, ...regionalTransportRoutes]) {
   const destination = destinations.find(item => item.slug === city);
   if (!destination) throw new Error('Unknown regional destination: ' + city);
   routes.set(sectionPath(destination, key) + slug + '/', { destination, key, slug });
@@ -261,7 +261,8 @@ export function renderRegionalRoute(route, language) {
     key === 'guia' ? petropolisGuide(destination, guide, language) :
     renderPetropolis(destination, key, slug, language) || petropolisEditorial(destination, key, sections[key], language, agenda))
     : destination ? (key === 'fotografias' && renderRegionalPhotography(destination, photos[destination.slug], language)) ||
-      renderVenueSection(destination, key, slug, language) || renderRegionalPlaces(destination, key, slug, language, photos[destination.slug])
+      renderVenueSection(destination, key, slug, language) || renderRegionalPlaces(destination, key, slug, language, photos[destination.slug]) ||
+      renderRegionalTransport(destination, key, slug, language, photos[destination.slug])
       : route === catalog ? renderCatalog(language) : renderCredits(language);
   const title = content?.title || (guide ? destination.guide[guide].title : key === 'guia' ? guideTitle(destination, language) : key ? sections[key] : destination.name);
   const description = content?.intro || (guide ? destination.guide[guide].intro : key && key !== 'guia' ? destination.sections[key].intro : destination.intro);

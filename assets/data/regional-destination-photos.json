@@ -100,6 +100,15 @@
       "source": "https://commons.wikimedia.org/wiki/File:Lagoa_Verde_em_Ilha_Grande-RJ-Brasil_(1376956558).jpg",
       "src": "/assets/images/destinos/fotografia/angra-ilha-grande/lagoa-verde.webp"
     },
+    "transportes-barcos": {
+      "alt": "Cais do Abraão",
+      "artist": "TMbux",
+      "file": "Barcas para Ilha Grande - panoramio (6).jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Barcas_para_Ilha_Grande_-_panoramio_(6).jpg",
+      "src": "/assets/images/destinos/transportes/angra-ilha-grande/barcos.webp"
+    },
     "vida-nocturna": {
       "artist": "Jann Mayer",
       "file": "Angra_dos_Reis_sunset.jpg",
@@ -354,6 +363,15 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Praia_do_Pontal_Paraty.jpg",
       "src": "/assets/images/destinos/fotografia/paraty/praia-do-pontal.webp"
+    },
+    "transportes-barcos": {
+      "alt": "Barcos no Cais de Paraty",
+      "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+      "file": "At Paraty, Brazil 2017 007.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:At_Paraty,_Brazil_2017_007.jpg",
+      "src": "/assets/images/destinos/transportes/paraty/barcos.webp"
     }
   },
   "petropolis": {
