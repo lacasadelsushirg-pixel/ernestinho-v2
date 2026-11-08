@@ -236,6 +236,33 @@
     }
   },
   "cabo-frio": {
+    "bairro-centro": {
+      "alt": "Calçadão da Praia do Forte, Cabo Frio",
+      "artist": "Eduardo P",
+      "file": "Calçadão da Praia do Forte.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Praia_do_Forte.JPG",
+      "src": "/assets/images/destinos/barrios/cabo-frio/centro.webp"
+    },
+    "bairro-gamboa": {
+      "alt": "Canal Itajuru e Gamboa vistos do Morro da Guia",
+      "artist": "Josue Marinho",
+      "file": "Cabo Frio RJ Brasil - Canal Itajuru e Gamboa, vista do Morro da Guia - panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Cabo_Frio_RJ_Brasil_-_Canal_Itajuru_e_Gamboa%2C_vista_do_Morro_da_Guia_-_panoramio.jpg",
+      "src": "/assets/images/destinos/barrios/cabo-frio/gamboa.webp"
+    },
+    "bairro-pero": {
+      "alt": "Praia do Peró, Cabo Frio",
+      "artist": "Lyavelino",
+      "file": "Março 2008- 177.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Mar%C3%A7o_2008-_177.jpg",
+      "src": "/assets/images/destinos/barrios/cabo-frio/pero.webp"
+    },
     "barrios": {
       "artist": "Frenz 69",
       "file": "CaboFrio_BridgePanorama.JPG",
