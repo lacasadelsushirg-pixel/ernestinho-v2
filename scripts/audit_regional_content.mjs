@@ -15,9 +15,13 @@ import { petrExpansion } from '../assets/js/translations/destinos/petropolis-mes
 import { regionalVenues } from '../assets/js/translations/destinos/mesas-regionales.js';
 import { places as petrPlaces } from '../assets/js/translations/destinos/petropolis-lugares.js';
 import { regionalEvents } from '../assets/js/translations/destinos/eventos-regionales.js';
+import { regionalGuides } from '../assets/js/translations/destinos/guias-regionales.js';
+import { regionalNeighborhoods } from '../assets/js/translations/destinos/barrios-regionales.js';
+import { petrPhotos } from './build_petropolis.mjs';
 import { regionalPlaces } from '../assets/js/translations/destinos/regional-lugares.js';
 const manifest = JSON.parse(fs.readFileSync(new URL('../assets/data/regional-destination-photos.json', import.meta.url), 'utf8'));
-const destinations = [petropolis, arraial, cabo, paraty, angra];
+const destinations = [petropolis, arraial, cabo, paraty, angra].map(city =>
+  ({ ...city, guide: { ...city.guide, ...regionalGuides[city.slug] } }));
 const sections = ['transportes','fotografias','experiencias','barrios','cultura','familia','vida-nocturna','gastronomia','consejos','naturaleza','compras','eventos'];
 const langs = ['ES','PT','EN'];
 const report = [];
@@ -75,7 +79,7 @@ for (const d of destinations) {
   for(const key of sections) if(!d.sections?.[key])issues.push({type:'MISSING_SECTION',context:key});
   const photos=manifest[d.slug]||{};
   for(const key of ['home','guia',...sections]) if(!photos[key])issues.push({type:'MISSING_SECTION_PHOTO',context:key});
-  for(const key of Object.keys(d.guide||{})) if(!photos['guia-'+key])issues.push({type:'MISSING_GUIDE_PHOTO',context:key});
+  for(const key of Object.keys(d.guide||{})) if(!photos['guia-'+key] && !(d.slug === 'petropolis' ? petrPhotos[d.guide[key].image] : photos[d.guide[key].image]))issues.push({type:'MISSING_GUIDE_PHOTO',context:key});
   fatal+=issues.filter(i=>!['EXTERNAL_MAP_DEPENDENCY','MISSING_SECTION_PHOTO','MISSING_GUIDE_PHOTO','SUSPECT_UNTRANSLATED'].includes(i.type)).length;
   report.push({destination:d.slug,sectionCount:Object.keys(d.sections||{}).length,guideCount:Object.keys(d.guide||{}).length,cards,guideCards:guides,photoEntries:Object.keys(photos).length,issues});
 }
@@ -92,7 +96,10 @@ const photoInventory = Object.fromEntries(Object.keys(venueCatalogs).map(city =>
     .filter(([, place]) => !place.image || (city !== 'petropolis' && !manifest[city]?.[place.image]))
     .map(([slug, place]) => ({ slug, name: place.name }));
   const events = regionalEvents[city].filter(event => !event.photoKey || !manifest[city]?.[event.photoKey]).map(event => event.name);
-  return [city, { venues, places, events }];
+  const neighborhoods = Object.entries(regionalNeighborhoods[city]).filter(([, area]) =>
+    !(city === 'petropolis' ? petrPhotos[area.image] : manifest[city]?.[area.image]))
+    .map(([slug, area]) => ({ slug, name: area.name }));
+  return [city, { venues, places, events, neighborhoods }];
 }));
 if (process.argv.includes('--photos')) console.log(JSON.stringify(photoInventory, null, 2));
 else if(process.argv.includes('--json')) console.log(JSON.stringify({destinations:report,photoInventory,fatal},null,2));

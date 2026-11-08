@@ -2,13 +2,15 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { esc, head, langs, origin, pre, styles, v } from './buzios_mirror_core.mjs';
 import { t } from '../assets/js/translations/destinos/modelo.js';
-import petropolis from '../assets/js/translations/destinos/petropolis.js';
-import angra from '../assets/js/translations/destinos/angra-ilha-grande.js';
+import petropolisData from '../assets/js/translations/destinos/petropolis.js';
+import angraData from '../assets/js/translations/destinos/angra-ilha-grande.js';
 import caboFrio from '../assets/js/translations/destinos/cabo-frio.js';
-import arraial from '../assets/js/translations/destinos/arraial-do-cabo.js';
-import paraty from '../assets/js/translations/destinos/paraty.js';
-import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisHome, petropolisGuide, petropolisEditorial, regionalPlaceRoutes, renderRegionalPlaces, regionalTransportRoutes, renderRegionalTransport } from './build_petropolis.mjs';
+import arraialData from '../assets/js/translations/destinos/arraial-do-cabo.js';
+import paratyData from '../assets/js/translations/destinos/paraty.js';
+import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisHome, petropolisGuide, petropolisEditorial, regionalPlaceRoutes, renderRegionalPlaces, regionalTransportRoutes, renderRegionalTransport, renderGuideArticle } from './build_petropolis.mjs';
 
+import { regionalGuides } from '../assets/js/translations/destinos/guias-regionales.js';
+import { neighborhoodRoutes, renderRegionalNeighborhood } from './regional_neighborhoods.mjs';
 import { renderRegionalEvents } from './regional_events.mjs';
 import { renderRegionalPhotography } from './regional_photography.mjs';
 import { otherVenueRoutes, renderVenueSection } from './petropolis_mesas.mjs';
@@ -19,6 +21,11 @@ const petrExtraCredits = Object.entries(photos.petropolis).filter(([key]) => key
 photos.petropolis = { home: petrPhotos['catedral-paisaje'] };
 const catalog = '/destinos/';
 const credits = catalog + 'creditos-fotos/';
+const withLocalGuides = city => ({ ...city, guide: { ...city.guide, ...regionalGuides[city.slug] } });
+const petropolis = withLocalGuides(petropolisData);
+const angra = withLocalGuides(angraData);
+const arraial = withLocalGuides(arraialData);
+const paraty = withLocalGuides(paratyData);
 const destinations = [petropolis, angra, caboFrio, arraial, paraty];
 const sections = {
   guia: t('Guía', 'Guia', 'Guide'),
@@ -63,7 +70,7 @@ for (const destination of destinations) {
 for (const [key, slug] of petrDetailRoutes) {
   routes.set(sectionPath(petropolis, key) + slug + '/', { destination: petropolis, key, slug });
 }
-for (const [city, key, slug] of [...otherVenueRoutes, ...regionalPlaceRoutes, ...regionalTransportRoutes]) {
+for (const [city, key, slug] of [...otherVenueRoutes, ...regionalPlaceRoutes, ...regionalTransportRoutes, ...neighborhoodRoutes]) {
   const destination = destinations.find(item => item.slug === city);
   if (!destination) throw new Error('Unknown regional destination: ' + city);
   routes.set(sectionPath(destination, key) + slug + '/', { destination, key, slug });
@@ -169,16 +176,28 @@ function guideIndex(destination, language) {
   // Reused images are provisional: the thumbnail audit still requires distinct licensed photos.
   // A verified image can be assigned to each guide topic as "guide-<slug>" in the
   // regional photo manifest. Until then, preserve the existing provisional fallback.
-  const tiles = Object.entries(destination.guide).map(([slug, guide], index) => {
-    const photo = media['guide-' + slug] || guidePhotos[index] || media.guia || media.home;
-    return tile(guidePath(destination, slug), guide.title, language,
-      photo, photo?.alt || v(guide.title, language), guideOpen);
-  });
-  const heading = text(t('Empieza por lo esencial', 'Comece pelo essencial', 'Start with the essentials'), language);
+  const tiles = Object.fromEntries(Object.entries(destination.guide).map(([slug, guide], index) => {
+    const photo = media[guide.image] || media['guia-' + slug] || media['guide-' + slug] || guidePhotos[index] || media.guia || media.home;
+    return [slug, tile(guidePath(destination, slug), guide.title, language,
+      photo, photo?.alt || v(guide.title, language), guideOpen)];
+  }));
+  const guideGroups = {
+    'arraial-do-cabo': [['primera-visita', 'lluvia'], ['llegada', 'acceso-a-playas'], ['itinerarios-1-2-3-dias']],
+    'angra-ilha-grande': [['elegir-base', 'lluvia'], ['embarque', 'barco-y-regreso'], ['itinerarios-1-2-3-dias']],
+    paraty: [['primera-visita', 'lluvia'], ['llegada', 'centro-y-mareas'], ['itinerarios-1-2-3-dias']],
+  };
+  const topics = [
+    t('Antes de viajar', 'Antes de viajar', 'Before you travel'),
+    t('Moverse', 'Como se locomover', 'Getting around'),
+    t('Organiza tu estadía', 'Organize sua estadia', 'Plan your stay'),
+  ];
+  const groups = guideGroups[destination.slug]?.map((slugs, index) => [topics[index], slugs]) ||
+    [[t('Empieza por lo esencial', 'Comece pelo essencial', 'Start with the essentials'), Object.keys(tiles)]];
+  const cards = groups.map(([label, slugs]) =>
+    `<section class="guide-group rd-group"><h2>${text(label, language)}</h2><div class="guide-grid">${slugs.map(slug => tiles[slug]).join('')}</div></section>`).join('');
   return hero(title, destination.name, intro, language) +
-    destinationNav(destination, sectionPath(destination, 'guia'), language) +
-    `<section class="guide-group rd-group"><h2>${heading}</h2><div class="guide-grid">${tiles.join('')}</div></section>
-    <div class="rd-wrap">${recommendation(destination.plan, language)}</div>`;
+    destinationNav(destination, sectionPath(destination, 'guia'), language) + cards +
+    `<div class="rd-wrap">${recommendation(destination.plan, language)}</div>`;
 }
 
 function guideTitle(destination, language) {
@@ -257,13 +276,16 @@ export function renderRegionalRoute(route, language) {
   const petr = destination === petropolis;
   const eventPhotos = petr ? { eventos: petrEventsPhoto } : photos[destination?.slug];
   const agenda = key === 'eventos' ? renderRegionalEvents(destination, eventPhotos, language) : '';
-  const content = petr ? (!key ? petropolisHome(destination, sections, language) :
+  const neighborhood = key === 'barrios' ? renderRegionalNeighborhood(destination, slug, language, petr ? petrPhotos : photos[destination.slug]) : null;
+  const guideCopy = !petr && guide && regionalGuides[destination.slug]?.[guide];
+  const localGuide = guideCopy && renderGuideArticle(destination, guideCopy, photos[destination.slug][guideCopy.image], language);
+  const content = neighborhood || localGuide || (petr ? (!key ? petropolisHome(destination, sections, language) :
     key === 'guia' ? petropolisGuide(destination, guide, language) :
     renderPetropolis(destination, key, slug, language) || petropolisEditorial(destination, key, sections[key], language, agenda))
     : destination ? (key === 'fotografias' && renderRegionalPhotography(destination, photos[destination.slug], language)) ||
       renderVenueSection(destination, key, slug, language) || renderRegionalPlaces(destination, key, slug, language, photos[destination.slug]) ||
       renderRegionalTransport(destination, key, slug, language, photos[destination.slug])
-      : route === catalog ? renderCatalog(language) : renderCredits(language);
+      : route === catalog ? renderCatalog(language) : renderCredits(language));
   const title = content?.title || (guide ? destination.guide[guide].title : key === 'guia' ? guideTitle(destination, language) : key ? sections[key] : destination.name);
   const description = content?.intro || (guide ? destination.guide[guide].intro : key && key !== 'guia' ? destination.sections[key].intro : destination.intro);
   const body = content?.body || (!key ? renderHome(destination, language) :

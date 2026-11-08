@@ -1,5 +1,21 @@
 {
   "angra-ilha-grande": {
+    "bairro-aracatiba": {
+      "artist": "Monique Figueira",
+      "file": "Garça em Araçatiba.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gar%C3%A7a_em_Ara%C3%A7atiba.JPG",
+      "src": "/assets/images/destinos/barrios/angra-ilha-grande/aracatiba.webp"
+    },
+    "bairro-mambucaba": {
+      "artist": "Fulviusbsas",
+      "file": "Mambucaba8.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mambucaba8.jpg",
+      "src": "/assets/images/destinos/barrios/angra-ilha-grande/mambucaba.webp"
+    },
     "barrios": {
       "artist": "Fulviusbsas",
       "file": "AngraLuzia.jpg",
@@ -119,6 +135,14 @@
     }
   },
   "arraial-do-cabo": {
+    "bairro-figueira": {
+      "artist": "Vinícius94",
+      "file": "Praia em Figueira, Arraial do Cabo.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Praia_em_Figueira,_Arraial_do_Cabo.jpg",
+      "src": "/assets/images/destinos/barrios/arraial-do-cabo/figueira.webp"
+    },
     "barrios": {
       "alt": "Arraial do Cabo",
       "artist": "marcusrg",

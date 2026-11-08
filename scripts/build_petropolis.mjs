@@ -182,7 +182,6 @@ export function petropolisCards(key, cards) {
 }
 
 const sectionsForCard = {
-  barrios: ['guia/primera-visita/', 'cultura/palacio-quitandinha/', 'familia/parque-itaipava/'],
   experiencias: ['guia/primera-visita/', 'barrios/'],
   compras: ['barrios/', 'gastronomia/', 'familia/parque-itaipava/'],
   eventos: ['cultura/palacio-de-cristal/', 'cultura/', 'consejos/'],
@@ -214,29 +213,34 @@ export function petropolisHome(city, names, lang) {
   };
 }
 
+export function renderGuideArticle(city, guide, photo, lang) {
+  const base = '/destinos/' + city.slug + '/';
+  const items = guide.cards.map((card, index) => `<article><span>${String(index + 1).padStart(2, '0')}</span>
+    <h2>${tx(card.title, lang)}</h2>${p(card.copy, lang)}${card.action.route ? link(card.action.route, open, lang, 'rd-action') : card.action.page ? link(base + card.action.page + '/', open, lang, 'rd-action') : ''}</article>`).join('');
+  return {
+    title: guide.title, intro: guide.intro, ...(guide.image ? { image: photo || null } : {}), inline: styles('guia/documentos'), css: ['guia-adn'],
+    body: `<section class="guide"><p class="kicker">${esc(city.name.toLocaleUpperCase('pt-BR'))}</p><h1>${tx(guide.title, lang)}</h1>
+    <p class="intro">${tx(guide.intro, lang)}</p>${image(photo, 'heroimg', true)}
+    <aside class="tip"><b>${tx(tip, lang)}</b>${p(guide.tip, lang)}</aside><section class="items">${items}</section>
+    ${link(base + 'guia/', back, lang, 'back')}</section>`,
+  };
+}
+
 export function petropolisGuide(city, slug, lang) {
   const title = t('Guía de Petrópolis.', 'Guia de Petrópolis.', 'Petrópolis travel guide.');
   const intro = t('Cómo llegar desde Río, moverte por la sierra y armar un recorrido según el tiempo que tengas.', 'Como chegar do Rio, se locomover pela serra e montar um roteiro para o tempo disponível.', 'How to get here from Rio, get around the mountains and plan a route for the time you have.');
   const covers = { 'primera-visita': 'museu', llegada: 'palacio', 'clima-y-lluvia': 'quitandinha', accesibilidad: 'cristal' };
   if (slug) {
     const guide = city.guide[slug];
-    const items = guide.cards.map((card, index) => `<article><span>${String(index + 1).padStart(2, '0')}</span>
-      <h2>${tx(card.title, lang)}</h2>${p(card.copy, lang)}${card.action.page ? link(base + card.action.page + '/', open, lang, 'rd-action') : ''}</article>`).join('');
-    return {
-      title: guide.title, intro: guide.intro, inline: styles('guia/documentos'), css: ['guia-adn'],
-      body: `<section class="guide"><p class="kicker">PETRÓPOLIS</p><h1>${tx(guide.title, lang)}</h1>
-      <p class="intro">${tx(guide.intro, lang)}</p>${image(petrPhotos[covers[slug]], 'heroimg', true)}
-      <aside class="tip"><b>${tx(tip, lang)}</b>${p(guide.tip, lang)}</aside><section class="items">${items}</section>
-      ${link(base + 'guia/', back, lang, 'back')}</section>`,
-    };
+    return renderGuideArticle(city, guide, petrPhotos[guide.image || covers[slug]], lang);
   }
   const groups = [
     [t('Antes de viajar', 'Antes de viajar', 'Before you travel'), ['clima-y-lluvia', 'accesibilidad']],
-    [t('Moverse', 'Como se locomover', 'Getting around'), ['llegada']],
-    [t('Organiza tu estadía', 'Organize sua estadia', 'Plan your stay'), ['primera-visita']],
+    [t('Moverse', 'Como se locomover', 'Getting around'), ['llegada', 'sin-auto']],
+    [t('Organiza tu estadía', 'Organize sua estadia', 'Plan your stay'), ['primera-visita', 'itinerarios-1-2-3-dias']],
   ];
   const body = cover(title, intro, lang) + groups.map(([label, slugs]) => `<section class="guide-group"><h2>${tx(label, lang)}</h2>
-    <div class="guide-grid">${slugs.map(id => `<a href="${pre(lang) + base}guia/${id}/">${image(petrPhotos[covers[id]], 'guide-thumb')}
+    <div class="guide-grid">${slugs.map(id => `<a href="${pre(lang) + base}guia/${id}/">${image(petrPhotos[city.guide[id].image || covers[id]], 'guide-thumb')}
     <b>${tx(city.guide[id].title, lang)}</b><span>${tx(t('ABRIR GUÍA →', 'ABRIR GUIA →', 'OPEN GUIDE →'), lang)}</span></a>`).join('')}</div></section>`).join('');
   return { title, intro, body };
 }
@@ -249,15 +253,6 @@ export function petropolisEditorial(city, key, title, lang, agenda) {
   const render = fn => cards.map(fn).join('');
   const itemTitle = card => '<h3>' + tx(card.title, lang) + '</h3>';
   const action = (card, index, cls = 'rd-action') => link(url(card, index), open, lang, cls);
-  if (key === 'barrios') {
-    const media = [petrPhotos['catedral-paisaje'], petrPhotos.palacio, petrPhotos.castelo];
-    return { title, intro: data.intro, inline: styles('barrios'), body: hero + `<section class="editorial bh-individual-index">
-      <div class="section-head"><h2>${tx(t('Explora barrio por barrio', 'Explore bairro por bairro', 'Explore neighbourhood by neighbourhood'), lang)}</h2></div>
-      <div class="topic-grid">${render((card, i) => `<a class="topic" href="${pre(lang) + url(card, i)}">${image(media[i], 'bh-topic-mini')}
-      <b>${tx(card.title, lang)}</b><span>${tx(open, lang)}</span></a>`)}</div></section>
-      <section class="editorial bh-zone-index"><div class="bh-clusters">${render((card, i) => `<a class="bh-cluster" href="${pre(lang) + url(card, i)}">
-      ${itemTitle(card)}<p class="bh-cluster-intro">${tx(card.copy, lang)}</p><span class="bh-cluster-cta">${tx(open, lang)}</span></a>`)}</div></section>` };
-  }
   if (key === 'experiencias') {
     return { title, intro: data.intro, inline: styles('experiencias'), body: `<section class="editorial experiences-catalog">
       <header class="section-head"><p class="kicker">PETRÓPOLIS</p><h1>${tx(title, lang)}</h1>${p(data.intro, lang)}</header>
