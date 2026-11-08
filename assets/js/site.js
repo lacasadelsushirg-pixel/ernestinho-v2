@@ -452,7 +452,7 @@ async function init() {
   addBulkPhotoReferences();
   ensureGuideAdn();
   ensureCorporateClosing();
-  mountCadastur();
+  if (!document.body.hasAttribute("data-ec-petropolis")) mountCadastur();
   ensureGlobalStyles();
   ensureTopbarNav();
   if (routeParts().path === "/") {
@@ -465,7 +465,7 @@ async function init() {
       homeDestinations.append(link);
     }
   }
-  ensureSocialLinks();
+  if (!document.body.hasAttribute("data-ec-petropolis")) ensureSocialLinks();
   ensureMobileLanguageRow();
   hideEmbeddedLanguageControls();
   ensureGlobalActions();

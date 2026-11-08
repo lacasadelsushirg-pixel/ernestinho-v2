@@ -7,8 +7,10 @@ import angra from '../assets/js/translations/destinos/angra-ilha-grande.js';
 import caboFrio from '../assets/js/translations/destinos/cabo-frio.js';
 import arraial from '../assets/js/translations/destinos/arraial-do-cabo.js';
 import paraty from '../assets/js/translations/destinos/paraty.js';
+import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisHome, petropolisGuide, petropolisEditorial } from './build_petropolis.mjs';
 
 const photos = JSON.parse(fs.readFileSync(new URL('../assets/data/regional-destination-photos.json', import.meta.url)));
+photos.petropolis = { home: petrPhotos['catedral-paisaje'] };
 const catalog = '/destinos/';
 const credits = catalog + 'creditos-fotos/';
 const destinations = [petropolis, angra, caboFrio, arraial, paraty];
@@ -52,6 +54,9 @@ for (const destination of destinations) {
     routes.set(guidePath(destination, guide), { destination, key: 'guia', guide });
   }
 }
+for (const [key, slug] of petrDetailRoutes) {
+  routes.set(sectionPath(petropolis, key) + slug + '/', { destination: petropolis, key, slug });
+}
 export const regionalRoutes = [...routes.keys()];
 
 const navLink = (route, label, language, className = '', current = false) =>
@@ -82,11 +87,12 @@ function photograph(photo, alt, eager = false, className = '') {
   return `<img${className ? ` class="${className}"` : ''} src="${esc(photo.src)}" alt="${esc(alt)}" decoding="async" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'}>`;
 }
 
-function breadcrumbs(destination, key, guide, route, language) {
+function breadcrumbs(destination, key, guide, route, language, detailTitle) {
   const entries = [['/', home], [catalog, destinationsLabel]];
   if (destination) entries.push([destinationPath(destination), destination.name]);
   if (key) entries.push([sectionPath(destination, key), sections[key]]);
   if (guide) entries.push([guidePath(destination, guide), destination.guide[guide].title]);
+  if (detailTitle) entries.push([route, detailTitle]);
   if (route === credits) entries.push([credits, creditLabel]);
   const label = text(t('Ruta de navegación', 'Caminho de navegação', 'Breadcrumb'), language);
   return `<nav class="rd-breadcrumb" aria-label="${label}"><ol>${entries.map(([url, label]) =>
@@ -223,32 +229,36 @@ function renderCredits(language) {
 function footer(destination, language) {
   const title = destination ? t(`¿Planeas viajar a ${destination.name}?`, `Vai viajar para ${destination.name}?`, `Planning a trip to ${destination.name}?`) :
     t('¿Cuál es tu próximo destino?', 'Qual é o próximo destino?', 'Where are you going next?');
-  const copy = t('Cuéntame cuándo viajas y qué te gustaría conocer.', 'Conte quando viaja e o que gostaria de conhecer.', 'Tell me when you’re travelling and what you’d like to see.');
+  const copy = destination === petropolis ? t('Encuentra los lugares y recorridos de tu próximo viaje.', 'Encontre lugares e roteiros da sua próxima viagem.', 'Find places and routes for your next trip.') : t('Cuéntame cuándo viajas y qué te gustaría conocer.', 'Conte quando viaja e o que gostaria de conhecer.', 'Tell me when you’re travelling and what you’d like to see.');
   return `<section class="ec-corporate-closing"><div class="ec-closing-cta">
     <div><h2>${text(title, language)}</h2>${paragraph(copy, language)}</div>
-    ${external(contact(destination?.name || v(destinationsLabel, language), language), t('Hablar con Ernestinho', 'Falar com Ernestinho', 'Talk to Ernestinho'), language, 'rd-whatsapp')}
+    ${destination === petropolis ? navLink(sectionPath(destination, 'guia'), guideLabel, language) : external(contact(destination?.name || v(destinationsLabel, language), language), t('Hablar con Ernestinho', 'Falar com Ernestinho', 'Talk to Ernestinho'), language, 'rd-whatsapp')}
     </div><footer class="ec-corporate-footer">
     <div class="ec-footer-brand"><img src="/assets/brand/ec-mark.png" alt="" width="60" height="60" loading="lazy"><div><strong>ERNESTINHO <em>CARIOCA</em></strong><small>${text(t('RÍO DE JANEIRO, DESDE MI MIRADA', 'RIO DE JANEIRO, DO MEU JEITO', 'RIO DE JANEIRO THROUGH MY EYES'), language)}</small></div></div>
     <div class="ec-footer-legal"><p>© 2026 Ernestinho Carioca.</p>
-    ${navLink(catalog, destinationsLabel, language)} · ${navLink(credits, creditLabel, language)} ·
+    ${navLink(catalog, destinationsLabel, language)} · ${destination === petropolis ? '' : navLink(credits, creditLabel, language) + ' · '}
     ${navLink('/privacidad-precios-condiciones/', t('Privacidad, precios y condiciones', 'Privacidade, preços e condições', 'Privacy, prices and terms'), language)}</div>
     </footer></section>`;
 }
 
 export function renderRegionalRoute(route, language) {
-  const { destination, key, guide } = routes.get(route);
-  const content = route === catalog ? renderCatalog(language) : route === credits ? renderCredits(language) : null;
+  const { destination, key, guide, slug } = routes.get(route);
+  const petr = destination === petropolis;
+  const content = petr ? (!key ? petropolisHome(destination, sections, language) :
+    key === 'guia' ? petropolisGuide(destination, guide, language) :
+    renderPetropolis(destination, key, slug, language) || petropolisEditorial(destination, key, sections[key], language))
+    : route === catalog ? renderCatalog(language) : route === credits ? renderCredits(language) : null;
   const title = content?.title || (guide ? destination.guide[guide].title : key === 'guia' ? guideTitle(destination, language) : key ? sections[key] : destination.name);
   const description = content?.intro || (guide ? destination.guide[guide].intro : key && key !== 'guia' ? destination.sections[key].intro : destination.intro);
   const body = content?.body || (!key ? renderHome(destination, language) :
     key === 'guia' && !guide ? guideIndex(destination, language) : renderSection(destination, key, guide, language, route));
-  const image = destination && (photos[destination.slug][key] || photos[destination.slug].home);
-  const metaTitle = key && key !== 'guia' ? `${v(title, language)} · ${destination.name}` : v(title, language);
+  const image = content?.image || (destination && (photos[destination.slug][key] || photos[destination.slug].home));
+  const metaTitle = key && key !== 'guia' && !v(title, language).includes(destination.name) ? `${v(title, language)} · ${destination.name}` : v(title, language);
   const locale = language === 'PT' ? 'pt-BR' : language.toLowerCase();
   const labels = { ES: 'Español', PT: 'Português', EN: 'English' };
   const languages = langs.map(code =>
     `<a href="${pre(code) + route}" hreflang="${code === 'PT' ? 'pt-BR' : code.toLowerCase()}"${code === language ? ' aria-current="page"' : ''}>${labels[code]}</a>`).join('');
-  const stylesheets = ['tokens', 'app', 'components', 'barrios', 'regional-destinations']
+  const stylesheets = ['tokens', 'app', 'components', 'barrios', 'regional-destinations', ...(content?.css || [])]
     .map(name => `<link rel="stylesheet" href="/assets/css/${name}.css${name === 'regional-destinations' ? '?v=20261107' : ''}">`).join('');
   return `<!doctype html>
 <html lang="${locale}" data-ec-locale-routes="true"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -256,8 +266,8 @@ export function renderRegionalRoute(route, language) {
 <meta name="theme-color" content="#071c1b">
 ${head(route, language, metaTitle, v(description, language))}
 ${image ? `<meta property="og:image" content="${esc(origin + image.src)}"><meta name="twitter:image" content="${esc(origin + image.src)}">` : ''}
-${stylesheets}${rioGuideStyles}</head>
-<body class="ec-regional">
+${stylesheets}${rioGuideStyles}${content?.inline || ''}</head>
+<body class="ec-regional${content?.bodyClass ? ' ' + content.bodyClass : ''}"${petr ? ' data-ec-petropolis' : ''}>
 <a class="skip" href="#contenido">${text(t('Saltar al contenido', 'Pular para o conteúdo', 'Skip to content'), language)}</a>
 <header class="topbar">
 <a class="brand" href="${pre(language)}/" aria-label="Ernestinho Carioca"><img src="/assets/brand/ec-mark.png" alt="" width="44" height="44"></a>
@@ -265,10 +275,10 @@ ${stylesheets}${rioGuideStyles}</head>
 ${navLink('/guia/', t('Guía de Río', 'Guia do Rio', 'Rio Guide'), language)}${navLink(catalog, destinationsLabel, language)}${navLink('/destinos/buzios/', 'Búzios', language)}
 </nav><div class="tools"></div></header>
 <main id="contenido" data-live="regional">
-${breadcrumbs(destination, key, guide, route, language)}${body}</main>
+${breadcrumbs(destination, key, guide, route, language, slug ? title : null)}${body}</main>
 <nav class="rd-languages" aria-label="${text(t('Idiomas', 'Idiomas', 'Languages'), language)}">${languages}</nav>
 ${footer(destination, language)}
-<script type="module" src="/assets/js/site.js?v=20261107-destinos"></script></body></html>`;
+<script type="module" src="/assets/js/site.js?v=${petr ? '20261108-petropolis' : '20261107-destinos'}"></script></body></html>`;
 }
 
 const stage = process.argv.find(arg => arg.startsWith('--stage='))?.slice('--stage='.length);

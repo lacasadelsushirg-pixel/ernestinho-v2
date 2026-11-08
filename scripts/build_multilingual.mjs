@@ -75,6 +75,10 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  }
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
+  if (file === 'scripts/build_petropolis.mjs' || file.startsWith('assets/js/translations/destinos/petropolis-')) {
+   for (const route of regionalRoutes) if (route.startsWith('/destinos/petropolis/')) routes.add(route);
+   continue;
+  }
   if (file === 'scripts/build_regional_destinations.mjs' ||
       file === 'assets/data/regional-destination-photos.json' ||
       file === 'assets/css/regional-destinations.css' ||
