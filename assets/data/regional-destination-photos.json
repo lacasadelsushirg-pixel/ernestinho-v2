@@ -68,6 +68,22 @@
       "source": "https://commons.wikimedia.org/wiki/File:IlhaGrande-LopesMendes1.jpg",
       "src": "/FOTOS/HOME/DESTINOS/20261107/angra-ilha-grande/naturaleza.webp"
     },
+    "spot-dois-rios": {
+      "artist": "Marianna Goret Rosa",
+      "file": "Praia Dois Rios, Ilha grande.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Praia_Dois_Rios,_Ilha_grande.jpg",
+      "src": "/assets/images/destinos/fotografia/angra-ilha-grande/dois-rios.webp"
+    },
+    "spot-lagoa-verde": {
+      "artist": "Glauco Umbelino from Diamantina, Brasil",
+      "file": "Lagoa Verde em Ilha Grande-RJ-Brasil (1376956558).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lagoa_Verde_em_Ilha_Grande-RJ-Brasil_(1376956558).jpg",
+      "src": "/assets/images/destinos/fotografia/angra-ilha-grande/lagoa-verde.webp"
+    },
     "vida-nocturna": {
       "artist": "Jann Mayer",
       "file": "Angra_dos_Reis_sunset.jpg",
@@ -104,6 +120,46 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Vista_Arraial_do_Cabo.jpg",
       "src": "/FOTOS/HOME/DESTINOS/20261107/arraial-do-cabo/home.webp"
+    },
+    "spot-pontal-do-atalaia": {
+      "artist": "Gabriel Abreu",
+      "file": "Pontal do Atalaia, Arraial do Cabo - Rio de Janeiro.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pontal_do_Atalaia,_Arraial_do_Cabo_-_Rio_de_Janeiro.jpg",
+      "src": "/assets/images/destinos/fotografia/arraial-do-cabo/pontal-do-atalaia.webp"
+    },
+    "spot-praia-dos-anjos": {
+      "artist": "Eurico Zimbres",
+      "file": "Angel beach.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Angel_beach.jpg",
+      "src": "/assets/images/destinos/fotografia/arraial-do-cabo/praia-dos-anjos.webp"
+    },
+    "spot-praia-grande": {
+      "artist": "Larissa Fraga",
+      "file": "Praia Grande - Arraial do Cabo - panoramio (13).jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Praia_Grande_-_Arraial_do_Cabo_-_panoramio_(13).jpg",
+      "src": "/assets/images/destinos/fotografia/arraial-do-cabo/praia-grande.webp"
+    },
+    "spot-prainha": {
+      "artist": "Noel Portugal",
+      "file": "Prainha Arraial do Cabo.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Prainha_Arraial_do_Cabo.jpg",
+      "src": "/assets/images/destinos/fotografia/arraial-do-cabo/prainha.webp"
+    },
+    "spot-trilha-do-vigia": {
+      "artist": "Adriane Rado",
+      "file": "Arraial do Cabo-RJ Trilha do Vigia Praia Grande .jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Arraial_do_Cabo-RJ_Trilha_do_Vigia_Praia_Grande_.jpg",
+      "src": "/assets/images/destinos/fotografia/arraial-do-cabo/trilha-do-vigia.webp"
     }
   },
   "cabo-frio": {
@@ -194,6 +250,30 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Paraty_vista_da_serra.jpg",
       "src": "/FOTOS/HOME/DESTINOS/20261107/paraty/experiencias.webp"
+    },
+    "spot-forte-defensor": {
+      "artist": "Leonardo Salvato",
+      "file": "Forte - Paraty.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Forte_-_Paraty.jpg",
+      "src": "/assets/images/destinos/fotografia/paraty/forte-defensor.webp"
+    },
+    "spot-pereque-acu": {
+      "artist": "Fulviusbsas",
+      "file": "Parati-PerequeAcu.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Parati-PerequeAcu.jpg",
+      "src": "/assets/images/destinos/fotografia/paraty/pereque-acu.webp"
+    },
+    "spot-praia-do-pontal": {
+      "artist": "Túllio F",
+      "file": "Praia do Pontal Paraty.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Praia_do_Pontal_Paraty.jpg",
+      "src": "/assets/images/destinos/fotografia/paraty/praia-do-pontal.webp"
     }
   },
   "petropolis": {

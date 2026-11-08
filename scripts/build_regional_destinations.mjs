@@ -9,6 +9,7 @@ import arraial from '../assets/js/translations/destinos/arraial-do-cabo.js';
 import paraty from '../assets/js/translations/destinos/paraty.js';
 import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisHome, petropolisGuide, petropolisEditorial } from './build_petropolis.mjs';
 
+import { renderRegionalPhotography } from './regional_photography.mjs';
 import { otherVenueRoutes, renderVenueSection } from './petropolis_mesas.mjs';
 
 const photos = JSON.parse(fs.readFileSync(new URL('../assets/data/regional-destination-photos.json', import.meta.url)));
@@ -254,7 +255,8 @@ export function renderRegionalRoute(route, language) {
   const content = petr ? (!key ? petropolisHome(destination, sections, language) :
     key === 'guia' ? petropolisGuide(destination, guide, language) :
     renderPetropolis(destination, key, slug, language) || petropolisEditorial(destination, key, sections[key], language))
-    : destination ? renderVenueSection(destination, key, slug, language)
+    : destination ? (key === 'fotografias' && renderRegionalPhotography(destination, photos[destination.slug], language)) ||
+      renderVenueSection(destination, key, slug, language)
       : route === catalog ? renderCatalog(language) : renderCredits(language);
   const title = content?.title || (guide ? destination.guide[guide].title : key === 'guia' ? guideTitle(destination, language) : key ? sections[key] : destination.name);
   const description = content?.intro || (guide ? destination.guide[guide].intro : key && key !== 'guia' ? destination.sections[key].intro : destination.intro);

@@ -2,6 +2,8 @@ import { renderVenueSection, venueRoutes } from './petropolis_mesas.mjs';
 import { esc, pre, styles, v } from './buzios_mirror_core.mjs';
 import { t } from '../assets/js/translations/destinos/modelo.js';
 import { places, placeSections, photoSpots } from '../assets/js/translations/destinos/petropolis-lugares.js';
+import { photographyCards } from './regional_photography.mjs';
+import { petrSpotInfo } from '../assets/js/translations/destinos/fotografia-regional.js';
 import { extraCards, transport } from '../assets/js/translations/destinos/petropolis-practico.js';
 
 const base = '/destinos/petropolis/';
@@ -95,12 +97,11 @@ function placeDetail(key, slug, lang) {
 function photography(city, lang) {
   const title = titleFor.fotografias;
   const intro = city.sections.fotografias.intro;
-  const cards = photoSpots.map(([slug, photo, query, copy]) => {
-    const href = 'https://www.google.com/maps/search/?api=1&amp;query=' + encodeURIComponent(query + ', Petrópolis, RJ');
-    return `<article class="spot">${image(petrPhotos[photo], 'photo-thumb')}<div class="spot-body"><b>${esc(places[slug].name)}</b>
-      ${p(copy, lang)}<a class="photo-map" href="${href}" target="_blank" rel="noopener noreferrer">${tx(t('Abrir en el mapa ↗', 'Abrir no mapa ↗', 'Open on map ↗'), lang)}</a></div></article>`;
-  }).join('');
-  return { title, intro, body: cover(title, intro, lang) + `<section class="editorial"><div class="photo-grid">${cards}</div></section>`, inline: styles('fotografia') };
+  const spots = photoSpots.map(([slug, photo, query, copy], index) => {
+    const [area, time, access, arrival] = petrSpotInfo[index];
+    return { name: places[slug].name, photo: petrPhotos[photo], query, copy, area, time, access, arrival };
+  });
+  return { title, intro, body: cover(title, intro, lang) + photographyCards(spots, lang, city.name), inline: styles('fotografia') };
 }
 
 function transportLayout(city, slug, lang) {
