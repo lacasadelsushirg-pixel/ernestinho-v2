@@ -350,13 +350,52 @@ export function renderRegionalRoute(route, language) {
     `<a href="${pre(code) + route}" hreflang="${code === 'PT' ? 'pt-BR' : code.toLowerCase()}"${code === language ? ' aria-current="page"' : ''}>${labels[code]}</a>`).join('');
   const stylesheets = ['tokens', 'app', 'components', 'barrios', 'regional-destinations', ...(content?.css || []), ...(agenda ? ['regional-events'] : [])]
     .map(name => `<link rel="stylesheet" href="/assets/css/${name}.css${name === 'regional-destinations' ? '?v=20261107' : ''}">`).join('');
+  // Petrópolis-only mobile control dock. Other regions and Rio remain unchanged.
+  const petrMobileDock = petr ? `<style>
+  @media(max-width:600px){
+    body[data-ec-petropolis] .ec-cariocia{
+      left:10px!important;right:auto!important;
+      bottom:calc(10px + env(safe-area-inset-bottom,0px))!important
+    }
+    body[data-ec-petropolis] .ec-cariocia-launcher{
+      width:46px!important;height:46px!important;
+      box-shadow:0 3px 12px rgba(0,0,0,.2)
+    }
+    body[data-ec-petropolis] .ec-global-actions{
+      left:68px!important;right:10px!important;
+      bottom:calc(11px + env(safe-area-inset-bottom,0px))!important;
+      display:flex!important;flex-direction:row!important;
+      align-items:center!important;justify-content:flex-end!important;
+      gap:7px!important;pointer-events:none!important
+    }
+    body[data-ec-petropolis] .ec-global-actions>.ec-float-btn{
+      min-width:0!important;min-height:44px!important;
+      padding:9px 13px!important;font-size:12px!important;
+      white-space:nowrap;pointer-events:auto!important
+    }
+    body[data-ec-petropolis] .ec-global-actions>.ec-share-panel,
+    body[data-ec-petropolis] .ec-global-actions>.ec-share-status{
+      pointer-events:auto!important
+    }
+    body[data-ec-petropolis] .ec-cariocia-panel{
+      position:fixed!important;
+      inset:auto 10px calc(72px + env(safe-area-inset-bottom,0px)) 10px!important;
+      width:auto!important;height:min(70dvh,600px)!important;
+      min-height:min(320px,calc(100dvh - 110px))!important;
+      max-height:calc(100dvh - 95px)!important
+    }
+    body[data-ec-petropolis] main#contenido{
+      padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))
+    }
+  }
+  </style>` : '';
   return `<!doctype html>
 <html lang="${locale}" data-ec-locale-routes="true"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="icon" href="/assets/brand/ec-mark.png">
 <meta name="theme-color" content="#071c1b">
 ${head(route, language, metaTitle, v(description, language))}
 ${image ? `<meta property="og:image" content="${esc(origin + image.src)}"><meta name="twitter:image" content="${esc(origin + image.src)}">` : ''}
-${stylesheets}${rioGuideStyles}${content?.inline || ''}</head>
+${stylesheets}${rioGuideStyles}${content?.inline || ''}${petrMobileDock}</head>
 <body class="ec-regional${content?.bodyClass ? ' ' + content.bodyClass : ''}"${petr ? ' data-ec-petropolis' : ''}>
 <a class="skip" href="#contenido">${text(t('Saltar al contenido', 'Pular para o conteúdo', 'Skip to content'), language)}</a>
 <header class="topbar">
