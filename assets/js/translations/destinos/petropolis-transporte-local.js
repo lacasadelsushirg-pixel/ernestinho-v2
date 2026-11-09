@@ -7,6 +7,10 @@ export const transportDetails = {
         t('Reserva una van con conductor para tu grupo y acuerda un itinerario cerrado. Para ir solo entre terminales o distritos, consulta primero el ómnibus de línea. Algunos servicios urbanos usan microbuses, pero el número de línea y el destino son lo que debes mirar al embarcar.',
           'Reserve uma van com motorista para seu grupo e combine um roteiro fechado. Para ir sozinho entre terminais ou distritos, consulte primeiro o ônibus de linha. Algumas linhas usam micro-ônibus, mas confira o número e o destino antes de embarcar.',
           'Book a van and driver for your group and agree on an itinerary. If travelling alone between terminals or districts, check the scheduled bus first. Some routes use minibuses, so check the route number and destination before boarding.')],
+      [t('Vans colectivas y horarios publicados', 'Vans coletivas e horários publicados', 'Shared vans and published schedules'),
+        t('La consulta a fuentes municipales y operadores no permitió confirmar una red vigente de vans colectivas para turistas con tarifas, paradas y frecuencias publicadas. Para un viaje individual, consulta los autobuses urbanos o intermunicipales y confirma en el terminal la última salida.',
+          'A consulta a fontes municipais e operadoras não confirmou uma rede vigente de vans coletivas para turistas com tarifas, pontos e frequências publicados. Para viajar individualmente, consulte os ônibus urbanos ou intermunicipais e confirme a última saída no terminal.',
+          'Municipal and operator sources did not confirm an active shared tourist van network with published fares, stops and frequencies. For an individual trip, check local or intercity buses and confirm the last departure at the terminal.')],
       [t('Rutas que conviene cotizar', 'Trajetos que vale cotar', 'Routes worth pricing'),
         t('Desde Río, fija una recogida única y empieza por Quitandinha si está abierto. Pide que el conductor te deje en un punto del Centro para hacer el circuito a pie y te recoja al final. Para Itaipava, Araras o Vale das Videiras, incluye la espera y la vuelta desde el restaurante en el presupuesto. Para Bonfim, usa el acceso de Petrópolis del parque como punto de referencia y acuerda una hora de recogida.',
           'Saindo do Rio, marque um único embarque e comece pelo Quitandinha se estiver aberto. Peça desembarque no Centro para fazer o circuito a pé e recolha no fim. Para Itaipava, Araras ou Vale das Videiras, inclua espera e volta do restaurante na cotação. Para o Bonfim, use a portaria da sede Petrópolis como referência e combine o horário de volta.',
@@ -23,6 +27,7 @@ export const transportDetails = {
     links: [
       ['transportes/onibus/', t('Ver buses urbanos', 'Ver ônibus urbanos', 'See local buses')],
       ['barrios/itaipava/', t('Organizar una salida a Itaipava', 'Planejar uma ida a Itaipava', 'Plan a trip to Itaipava')],
+      ['https://www.gov.br/turismo/pt-br/acesso-a-informacao/acoes-e-programas/cadastur', t('Consultar registro turístico Cadastur', 'Consultar cadastro turístico Cadastur', 'Check the Cadastur tourism registry')],
       ['https://www.gov.br/antt/pt-br/assuntos/passageiros/transportefretamento/fretamentosupas/', t('ANTT: fretamento interestatal', 'ANTT: fretamento interestadual', 'ANTT: interstate charter rules')],
     ],
   },
