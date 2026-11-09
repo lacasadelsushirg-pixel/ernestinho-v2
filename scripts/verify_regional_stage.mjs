@@ -11,6 +11,7 @@ import petropolis from '../assets/js/translations/destinos/petropolis.js';
 import arraial from '../assets/js/translations/destinos/arraial-do-cabo.js';
 import cabo from '../assets/js/translations/destinos/cabo-frio.js';
 import paraty from '../assets/js/translations/destinos/paraty.js';
+import { regionalRoutes } from './build_regional_destinations.mjs';
 import angra from '../assets/js/translations/destinos/angra-ilha-grande.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -29,12 +30,10 @@ function pageFile(route) {
   const cleaned = route.replace(/^\/+/, '');
   return path.join(stage, cleaned, 'index.html');
 }
+// Incluir rutas editoriales y de lugares creadas dinámicamente por el generador.
 function candidateRoutes(d) {
-  return [
-    '/destinos/' + d.slug + '/',
-    ...sections.map(s => '/destinos/' + d.slug + '/' + s + '/'),
-    ...Object.keys(d.guide || {}).map(s => '/destinos/' + d.slug + '/guia/' + s + '/')
-  ];
+  const prefix = '/destinos/' + d.slug + '/';
+  return regionalRoutes.filter(route => route === prefix || route.startsWith(prefix));
 }
 for (const lang of langs) {
   for (const d of destinations) {
