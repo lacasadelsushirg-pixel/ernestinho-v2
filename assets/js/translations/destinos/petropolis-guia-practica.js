@@ -12,6 +12,11 @@ const alert = ['https://www.gov.br/anatel/pt-br/dados/utilidade-publica/alertas-
 const ibramAccess = ['https://www.gov.br/museus/pt-br/assuntos/legislacao-e-normas/outros-instrumentos-normativos/resolucao-normativa-ibram-no-31-de-25-de-novembro-de-2025', 'Ibram · Palácio Imperial'];
 const sesc = ['https://cultura.sescrio.org.br/espacos-culturais/centro-cultural-sesc-quitandinha', 'Centro Cultural Sesc Quitandinha'];
 const sescBowling = ['https://fecomercio-rj.portaldocomercio.org.br/sesc-rj/boliche-do-centro-cultural-sesc-quitandinha-e-reaberto-apos-reforma/', 'Fecomércio RJ · Boliche do Quitandinha'];
+const operatorContact = ['https://unica-facil.com.br/contato/', 'Única/Fácil · Contato e SAC'];
+const civilAlerts = ['https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/alertas-de-desastres-1', 'Defesa Civil Nacional · Cadastro de alertas'];
+const tourismInfo = ['https://www.pcvb.com.br/informacoes-turisticas', 'Convention Bureau · Centros de informação turística'];
+const corrêasRoute = ['https://linhas-preview.cittamobi.com.br/linha/transporte_publico-Petropolis-TurpTransporteUrbano-600-T.CorreasxCentro-fdacc0e625d3', '600 · Corrêas → Centro / Cittamobi'];
+const centroRoute = ['https://linhas-preview.cittamobi.com.br/linha/transporte_publico-Petropolis-TurpTransporteUrbano-500-CentroxT.CorreasviaEstradadaSaudade-ea566bc7a775', '500 · Centro → Corrêas / Cittamobi'];
 
 export const practicalGuides = {
   'mes-a-mes': petropolisMonths,
@@ -71,6 +76,20 @@ export const practicalGuides = {
           'Diga primeiro “Estou em Petrópolis, no bairro…” e informe rua, número, referência e telefone para retorno. Explique o que aconteceu e quantas pessoas precisam de ajuda. Para uma consulta que possa esperar, pergunte ao seguro ou ao serviço de saúde qual unidade procurar.',
           'Start with “Estou em Petrópolis, no bairro…” and give the street, number, landmark and callback number. Explain what happened and how many people need help. For a non-urgent consultation, ask your insurer or the health service which facility to use.'),
       },
+      {
+        id: 'alertas-multiples', title: t('Alertas de Defensa Civil: SMS y WhatsApp', 'Alertas da Defesa Civil: SMS e WhatsApp', 'Civil Defence alerts: SMS and WhatsApp'),
+        copy: t('Registra el CEP de la zona donde dormirás enviándolo por SMS al 40199. Puedes mandar CONSULTAR para ver los CEP registrados y AYUDA para recibir instrucciones. La Defensa Civil federal también ofrece un asistente por WhatsApp en el número +55 61 2034-4611: escribe “olá” y elige las áreas de interés. Los avisos complementan, pero no reemplazan, las instrucciones locales en una emergencia. Para ayuda inmediata en un desastre llama al 199.',
+          'Cadastre o CEP da região onde ficará por SMS ao 40199. Envie CONSULTAR para ver CEPs cadastrados e AJUDA para obter instruções. A Defesa Civil Nacional também oferece atendimento automático pelo WhatsApp +55 61 2034-4611: mande “olá” e escolha as áreas de interesse. Alertas não substituem orientações locais durante emergências. Para ajuda imediata em desastre, ligue 199.',
+          'Register the postcode where you are staying by texting it to 40199. Send CONSULTAR to list registered postcodes and AJUDA for instructions. Brazil’s Civil Defence also offers a WhatsApp alert bot at +55 61 2034-4611: send “olá” and select your areas of interest. Alerts do not replace instructions from local authorities. Call 199 for immediate civil-defence help.'),
+        phones: [['199', 'Defesa Civil']], links: [civilAlerts],
+      },
+      {
+        id: 'chuva-serra', title: t('Si llueve fuerte en la sierra', 'Se chover forte na serra', 'When heavy rain hits the mountains'),
+        copy: t('Si hay aviso de lluvia intensa, evita riberas, taludes y escaleras expuestas, no cruces agua en movimiento ni conduzcas por vías inundadas. Si la autoridad recomienda evacuar, sigue la ruta que indique Defensa Civil en lugar de improvisar un regreso a Río. Avisa al alojamiento y al operador del traslado; en caso de peligro inmediato busca un lugar seguro y llama al servicio que corresponda.',
+          'Com aviso de chuva intensa, evite margens de rios, encostas e escadarias expostas; não atravesse água corrente nem dirija em vias alagadas. Se houver orientação de evacuação, siga a rota da Defesa Civil em vez de improvisar retorno ao Rio. Avise a hospedagem e a transportadora; em perigo imediato busque local seguro e acione a emergência adequada.',
+          'During heavy-rain warnings avoid riverbanks, slopes and exposed steps; never cross moving water or drive through flooded roads. If authorities advise evacuation, follow Civil Defence routes rather than improvising a return to Rio. Tell your accommodation and transport provider; seek safety and contact emergency services when in danger.'),
+        links: [civilAlerts],
+      },
     ],
     faq: [
       [t('¿Qué guardo antes de salir de la ciudad hacia un distrito?', 'O que salvar antes de sair para um distrito?', 'What should I save before heading to an outlying district?'),
@@ -126,6 +145,22 @@ export const practicalGuides = {
           'Pergunte se pode entrar com carrinho e se há lugar para deixá-lo durante a visita. Se for útil, consulte sobre letra ampliada, acompanhamento, interpretação ou horários mais tranquilos. Salve o contato e peça confirmação para a data.',
           'Ask whether strollers are allowed inside and where you can leave one during a visit. If helpful, ask about large-print material, guided assistance, interpreting or quieter times. Save the venue’s contact and confirm for your date.'),
       },
+      {
+        id: 'acceso-oficial', title: t('Entrada accesible del Museu Imperial: confirmación oficial', 'Entrada acessível do Museu Imperial: confirmação oficial', 'Imperial Museum: official accessible entrance'),
+        copy: t('La página oficial del Museu Imperial confirma entrada especial con rampa para personas usuarias de silla de ruedas o con dificultad de movilidad y recomienda solicitar ayuda al personal de seguridad. La normativa Ibram documenta además una plataforma elevadora, pero eso no garantiza que esté operativa en el momento de tu visita. Contacta antes de ir y pregunta por la ruta accesible exacta, los baños y las salas que podrás conocer.',
+          'O site oficial do Museu Imperial confirma entrada especial com rampa para cadeirantes e pessoas com dificuldade de locomoção, com apoio dos seguranças. Norma do Ibram também registra plataforma elevatória, mas isso não garante funcionamento no momento da visita. Confirme antes o trajeto acessível, banheiros e salas disponíveis.',
+          'The Imperial Museum’s official visitor page confirms a special ramped entrance for wheelchair users and visitors with mobility difficulties, with staff assistance. Ibram regulations also document a lifting platform, but do not guarantee it will operate on your visit. Ask ahead about the exact step-free route, toilets and rooms available.'),
+        map: 'Museu Imperial, Rua da Imperatriz 220, Centro, Petrópolis, RJ',
+        links: [museum, ibramAccess],
+      },
+      {
+        id: 'ruta-amable', title: t('Un itinerario de menor esfuerzo, sin promesas de accesibilidad total', 'Um roteiro de menor esforço, sem prometer acessibilidade total', 'A lower-effort route without promising full access'),
+        copy: t('Como base elige Rua da Imperatriz y la zona de Praça Dom Pedro II, pero comprueba cada cruce y acera. Reserva el Museu Imperial como visita principal con acceso coordinado, y añade como alternativa un exterior próximo de Avenida Koeler solo si el pavimento y la distancia sirven para tus necesidades. Quitandinha, la Casa Santos Dumont y los valles requieren planificación independiente por sus desniveles y traslados.',
+          'Use a Rua da Imperatriz e a região da Praça Dom Pedro II como referência, mas confira cada travessia e calçada. Planeje o Museu Imperial como visita principal com acesso confirmado e considere um trecho externo da Avenida Koeler apenas se piso e distância servirem às suas necessidades. Quitandinha, Casa Santos Dumont e os vales exigem planejamento separado pelas ladeiras e deslocamentos.',
+          'Base yourself near Rua da Imperatriz and Praça Dom Pedro II but verify each crossing and pavement. Make the Imperial Museum your main stop with access arranged, adding nearby Avenida Koeler only if its surface and distance suit your needs. Quitandinha, Santos Dumont’s house and the valleys require separate planning for slopes and transfers.'),
+        map: 'Praça Dom Pedro II, Centro, Petrópolis, RJ',
+        route: 'barrios/centro-historico/',
+      },
     ],
     faq: [
       [t('¿Puedo dar por hecho que toda la atracción es accesible?', 'Posso contar com acesso a toda a atração?', 'Can I assume the whole venue is accessible?'),
@@ -175,6 +210,20 @@ export const practicalGuides = {
         copy: t('“Vocês guardam mala antes do check-in ou depois do check-out? Até que horas posso retirar? Tem custo e comprovante?” Para una maleta grande, añade las dimensiones y pregunta si debe reservarse.',
           '“Vocês guardam mala antes do check-in ou depois do check-out? Até que horas posso retirar? Tem custo e comprovante?” Para uma mala grande, informe as dimensões e pergunte se precisa reservar.',
           '“Vocês guardam mala antes do check-in ou depois do check-out? Até que horas posso retirar? Tem custo e comprovante?” This asks whether bags can be stored outside check-in or check-out, the collection time, cost and receipt. Give dimensions for a large bag.'),
+      },
+      {
+        id: 'verificar-deposito', title: t('No cuentes con una consigna sin confirmación', 'Não conte com guarda-volumes sem confirmação', 'Do not rely on luggage storage without confirmation'),
+        copy: t('La información pública de BlaBlaCar menciona guarda-volúmenes en la Rodoviária do Bingen, pero el operador Única/Fácil no publica tarifa, localización ni horario de ese servicio. Esto no equivale a una reserva confirmada. Pregunta si hay depósito abierto el día exacto, si recibe maletas grandes, cuánto cobra, si entrega comprobante y hasta qué hora permite retirar. El SAC de Única/Fácil sirve como contacto del operador, no como garantía de que gestione ese depósito.',
+          'A BlaBlaCar menciona guarda-volumes na Rodoviária do Bingen, mas a Única/Fácil não divulga preço, localização nem horário do serviço. Não é reserva garantida. Pergunte se funciona no dia exato, se aceita mala grande, preço, comprovante e limite de retirada. O SAC da Única/Fácil é contato da transportadora, não garantia de gestão do depósito.',
+          'BlaBlaCar mentions luggage storage at Bingen station, but Única/Fácil does not publish its fee, location or hours. That is not a confirmed reservation. Ask whether it operates on your date, accepts large bags, issues receipts and has a collection deadline. The coach operator’s customer service is a contact point, not a guarantee that it runs the facility.'),
+        map: bingen, links: [operator, operatorContact, luggageListing],
+      },
+      {
+        id: 'dia-sin-hotel', title: t('Si visitas Petrópolis solamente por el día', 'Se vier a Petrópolis apenas por um dia', 'If you are visiting Petrópolis for the day'),
+        copy: t('La alternativa más segura es viajar con mochila pequeña. Si llevas una maleta, confirma por escrito un depósito antes de salir de Río; no la dejes en restaurantes, atracciones ni vehículos sin acuerdo expreso. Para ir al Centro desde Bingen existe el autobús 100; no confundas su destino con el Terminal Corrêas de la línea 150. Reserva margen para volver, retirar la pieza y embarcar.',
+          'A alternativa mais segura é levar mochila pequena. Com mala, confirme por escrito um serviço de guarda antes de sair do Rio; não a deixe em restaurante, atração nem veículo sem acordo expresso. Do Bingen ao Centro há a linha 100; não a confunda com a 150 para Terminal Corrêas. Reserve tempo para voltar, retirar o volume e embarcar.',
+          'The simplest plan is a small daypack. If taking a suitcase, arrange storage in writing before leaving Rio; do not leave luggage at a restaurant, attraction or vehicle without explicit agreement. Route 100 links Bingen with downtown; 150 goes to Terminal Corrêas. Allow enough time to return, collect your bag and board your coach.'),
+        route: 'transportes/onibus/',
       },
     ],
     faq: [
@@ -228,6 +277,37 @@ export const practicalGuides = {
           'Confirme com a empresa as regras de bagagem e a assistência para sua saída. Se um carro buscar você, combine porta e lado de embarque e confira placa e motorista. Para passear entre dois ônibus, confira antes onde guardar a mala.',
           'Confirm baggage rules and assistance for your departure with the operator. For a car pickup, agree the door and pickup side and check the plate and driver. If sightseeing between buses, check where you can store your bag first.'),
         route: 'guia/guarda-equipaje/',
+      },
+      {
+        id: 'terminal-centro', title: t('Centro: dónde conectar sin volver a Bingen', 'Centro: onde fazer conexão sem voltar ao Bingen', 'Downtown: transfer without returning to Bingen'),
+        copy: t('Las líneas urbanas hacia Corrêas e Itaipava no obligan a regresar a la rodoviaria intermunicipal. Desde Rua Paulo Barbosa, 288, en el Centro, sale la línea 500 hacia Terminal Corrêas por Estrada da Saudade; la 700 comunica el Centro con Terminal Itaipava. Verifica el sentido exacto del cartel, parada y horario del día: no todos los buses llamados “Petrópolis” terminan en el mismo terminal.',
+          'As linhas urbanas para Corrêas e Itaipava não exigem retorno à rodoviária intermunicipal. Da Rua Paulo Barbosa, 288, no Centro, sai a linha 500 para Terminal Corrêas via Estrada da Saudade; a 700 liga Centro ao Terminal Itaipava. Confira o letreiro, o ponto e o horário do dia: nem todo ônibus identificado como “Petrópolis” termina no mesmo terminal.',
+          'You do not need to return to Bingen intercity station to reach Corrêas or Itaipava. Route 500 departs from Rua Paulo Barbosa 288 downtown towards Terminal Corrêas via Estrada da Saudade, while route 700 connects downtown with Terminal Itaipava. Confirm the destination sign, stop and day-specific schedule.'),
+        map: 'Rua Paulo Barbosa 288, Centro, Petrópolis, RJ, Brasil',
+        links: [centroRoute],
+      },
+      {
+        id: 'terminal-correas', title: 'Terminal Corrêas · Estrada União e Indústria, 1132',
+        copy: t('El Terminal Corrêas —denominado oficialmente Terminal Luiz Caubi da Silva desde 2024— está en Estrada União e Indústria, 1132. Es punto de intercambio para la línea 150 desde Bingen, la 600 hacia Centro, la 611 hacia Bonfim y las 602/610 hacia Vale das Videiras y Araras. La 600 tiene 36 paradas hacia el Centro según el itinerario consultado. Confirma las plataformas y las últimas salidas: no son el mismo dato que el horario de atención de una ventanilla.',
+          'O Terminal Corrêas, denominado oficialmente Terminal Luiz Caubi da Silva desde 2024, fica na Estrada União e Indústria, 1132. É conexão da 150 vindo do Bingen, da 600 ao Centro, da 611 ao Bonfim e das 602/610 ao Vale das Videiras e Araras. A 600 tem 36 pontos até o Centro no itinerário consultado. Confira plataformas e últimas partidas: isso não é o horário de um guichê.',
+          'Terminal Corrêas, officially named Terminal Luiz Caubi da Silva since 2024, is at Estrada União e Indústria 1132. It serves route 150 from Bingen, 600 towards downtown, 611 to Bonfim and 602/610 towards Vale das Videiras and Araras. The published 600 itinerary has 36 stops towards downtown. Check platforms and last departures independently of ticket-counter hours.'),
+        map: 'Terminal Corrêas, Estrada União e Indústria 1132, Petrópolis, RJ, Brasil',
+        links: [corrêasRoute],
+      },
+      {
+        id: 'terminal-itaipava', title: t('Terminal Itaipava: puerta a los valles', 'Terminal Itaipava: porta para os vales', 'Terminal Itaipava: gateway to the valleys'),
+        copy: t('La línea 700 conecta el Centro y Terminal Itaipava. Dentro del complejo se distinguen plataformas internas de las líneas 700/780 y un sector exterior para líneas alimentadoras; entre ellas 605 hacia Vale das Videiras y 617 hacia Araras. No supongas que el cambio de línea ocurre en la misma plataforma: busca el letrero, confirma la parada con el personal y guarda la hora de regreso antes de salir.',
+          'A linha 700 liga o Centro ao Terminal Itaipava. O conjunto tem plataformas internas para 700/780 e setor externo para alimentadoras, entre elas 605 para Vale das Videiras e 617 para Araras. Não presuma que a troca ocorra na mesma plataforma: localize o letreiro, confirme o ponto com a equipe e salve o horário de volta.',
+          'Route 700 links downtown with Terminal Itaipava. The interchange has internal platforms for routes 700/780 and external bays for feeder services including 605 to Vale das Videiras and 617 to Araras. Do not assume connections leave from the same platform: check signs, ask staff and save the return departure.'),
+        map: 'Terminal Itaipava, Petrópolis, RJ, Brasil',
+        route: 'transportes/entre-distritos/',
+      },
+      {
+        id: 'informacion', title: t('Dónde pedir información turística', 'Onde buscar informação turística', 'Where to find visitor information'),
+        copy: t('El Convention & Visitors Bureau publica puestos de información turística en la Rodoviária do Bingen, Palácio de Cristal y Praça da Liberdade, además de otros puntos. Para Bingen la referencia publicada es martes a sábado de 08:00 a 16:00, pero estos horarios pueden cambiar y no corresponden a la atención de Única/Fácil. Confirma el puesto antes de depender de él para hacer conexiones o guardar equipaje.',
+          'O Convention & Visitors Bureau informa centros de atendimento turístico na Rodoviária do Bingen, Palácio de Cristal e Praça da Liberdade, entre outros. Para o Bingen, o horário publicado é terça a sábado de 08h às 16h, sujeito a alterações e diferente do guichê da Única/Fácil. Confirme o posto antes de depender dele para conexões ou guarda de malas.',
+          'The Convention & Visitors Bureau lists tourist information desks at Bingen station, Palácio de Cristal and Praça da Liberdade, among others. Bingen’s published reference hours are Tuesday–Saturday, 08:00–16:00, subject to change; these are not Única/Fácil ticket-counter hours. Check the desk before relying on it for transfers or bag-storage advice.'),
+        map: bingen, links: [tourismInfo],
       },
     ],
     faq: [
