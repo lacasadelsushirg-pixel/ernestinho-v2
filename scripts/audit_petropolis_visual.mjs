@@ -68,14 +68,27 @@ try{
       try{
         await page.goto(serverUrl+pathname,{waitUntil:'domcontentloaded',timeout:25000});
         await page.locator('body').waitFor();
-        await page.evaluate(async()=>{await document.fonts.ready;});
-        await page.waitForTimeout(2200);
+        await page.evaluate(async()=>{
+          await document.fonts.ready;
+          const photos=[...document.images];
+          for(const img of photos) { img.loading='eager'; img.fetchPriority='high'; }
+          await Promise.all(photos.map(img => new Promise(resolve => {
+            if(img.complete) return resolve();
+            const done=()=>resolve();
+            img.addEventListener('load',done,{once:true});
+            img.addEventListener('error',done,{once:true});
+            setTimeout(done,18000);
+          })));
+        });
+        await page.waitForTimeout(350);
         const metrics=await page.evaluate(()=>{
           const imgs=[...document.images].map(img=>({src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0}));
           const main=document.querySelector('main');
           return {title:document.title,h1:document.querySelectorAll('h1').length,
             main:!!main,visiblePhotos:imgs.filter(x=>x.loaded).length,
             brokenPhotos:imgs.filter(x=>!x.loaded).map(x=>x.src),
+            brokenPhotoCards:[...document.querySelectorAll('.spot img')].filter(x=>x.complete&&x.naturalWidth===0).map(x=>x.getAttribute('src')),
+            pendingPhotoCards:[...document.querySelectorAll('.spot img')].filter(x=>!x.complete).map(x=>x.getAttribute('src')),
             overflowPx:Math.max(0,document.documentElement.scrollWidth-innerWidth),
             cards:document.querySelectorAll('.spot').length,
             photoGridColumns:getComputedStyle(document.querySelector('.photo-grid')||document.body).gridTemplateColumns,
@@ -85,6 +98,8 @@ try{
         recorded.push({route,viewport:vp.width,...metrics});
         if(metrics.h1!==1||!metrics.main||metrics.overflowPx>4)failures.push({route,viewport:vp.width,reason:'Structural/viewport anomaly',metrics});
         if(route.endsWith('/fotografias/')&&metrics.cards!==12)failures.push({route,viewport:vp.width,reason:'Expected 12 photo cards',metrics});
+        if(route.endsWith('/fotografias/')&&metrics.brokenPhotoCards.length)failures.push({route,viewport:vp.width,reason:'Photographic thumbnails genuinely failed to load',broken:metrics.brokenPhotoCards});
+        if(route.endsWith('/fotografias/')&&metrics.pendingPhotoCards.length)failures.push({route,viewport:vp.width,reason:'Photographic thumbnails never finished loading',pending:metrics.pendingPhotoCards});
       }catch(error){failures.push({route,viewport:vp.width,error:error.message});}
       finally{await page.close();}
     }
