@@ -1,0 +1,41 @@
+name: Petrópolis screenshots 1440-390
+
+on:
+  push:
+    branches: [revision/rendimiento-traducciones-81a904c]
+    paths:
+      - 'scripts/audit_petropolis_visual.mjs'
+      - 'scripts/build_petropolis.mjs'
+      - 'scripts/regional_neighborhoods.mjs'
+      - 'assets/js/translations/destinos/petropolis-fotografia-local.js'
+      - '.github/workflows/petropolis-visual-qa.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  visual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - name: Checkout editorial branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Use Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install existing project dependencies
+        run: npm install --no-audit --no-fund
+      - name: Render six Petrópolis routes in a temporary preview at desktop and mobile widths
+        run: node scripts/audit_petropolis_visual.mjs --out=/tmp/ernestinho-petropolis-visual
+      - name: Save screenshot and layout report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: petropolis-visual-1440-390
+          path: /tmp/ernestinho-petropolis-visual/
+          retention-days: 14
+          if-no-files-found: warn
