@@ -2,14 +2,69 @@ import { t } from './modelo.js';
 
 const cptrans = ['https://www.petropolis.rj.leg.br/institucional/noticias/sala-de-atendimento-ao-publico-na-sede-da-cptrans-homenageia-servidor-que-morreu-apos-as-chuvas-em-petropolis', 'CPTrans · Atendimento · Câmara Municipal de Petrópolis'];
 const bingen = 'Terminal Rodoviário Governador Leonel Brizola, Bingen, Petrópolis, RJ';
-const source100 = ['https://linhas-preview.cittamobi.com.br/linha/transporte_publico-Petropolis-SystemSatAPI-CidadeReal-AG_1-100-CENTRO-RODOVIARIABINGEN-858b1dbcd493', '100 · Cidade Real / Cittamobi'];
+const source100 = ['https://linhas.cittamobi.com.br/linha/transporte_publico-Petropolis-SystemSatAPI-CidadeReal-AG_1-100-CENTRO-RODOVIARIABINGEN-858b1dbcd493', '100 · Cidade Real / Cittamobi'];
 const source150 = ['https://linhas.cittamobi.com.br/linha/transporte_publico-Petropolis-SystemSatAPI-CidadeReal-AG_1-150-TERMINALCORREAS-RODOVIARIABINGEN-141c79662d8c', '150 · Cidade Real / Cittamobi'];
 const source649 = ['https://onibus.online/rj/petropolis/649-quitandinha-via-alto-da-serra/', '649 · Turp / Ônibus Online'];
 const source700 = ['https://www.petropolisemcena.com.br/2026/09/intervencao-da-turp-divulga-novos.html', '700 / 704 · Intervenção da Turp / Petrópolis em Cena'];
+const source100Inbound = ['https://linhas.cittamobi.com.br/linha/transporte_publico-Petropolis-SystemSatAPI-CidadeReal-AG_1-100-RODOVIARIABINGEN-CENTRO-07e68fb17022',
+  t('100 · Bingen → Centro', '100 · Bingen → Centro', '100 · Bingen → downtown')];
+const source150Inbound = ['https://linhas.cittamobi.com.br/linha/transporte_publico-Petropolis-SystemSatAPI-CidadeReal-AG_1-150-RODOVIARIABINGEN-TERMINALCORREAS-af3b76a8d2dc',
+  '150 · Bingen → Corrêas'];
+const coachOperator = ['https://unica-facil.com.br/pontos-de-venda/', 'Única/Fácil · Pontos de venda'];
+
+const connections = [
+  {
+    title: t('Bingen ↔ Centro', 'Bingen ↔ Centro', 'Bingen ↔ downtown'),
+    service: '100 · Cidade Real',
+    boarding: t('Desde la rodoviaria, busca la 100 con destino Centro. Para volver hacia Bingen, el itinerario publicado parte de Rua Doutor Porciúncula, 75.',
+      'Da rodoviária, procure a 100 com destino Centro. Para voltar ao Bingen, o itinerário publicado parte da Rua Doutor Porciúncula, 75.',
+      'From the station, look for the 100 towards downtown. For the return to Bingen, the published route starts at Rua Doutor Porciúncula, 75.'),
+    location: 'Rua Doutor Porciúncula, 75, Centro, Petrópolis, RJ',
+    links: [source100Inbound, [source100[0], t('100 · Centro → Bingen', '100 · Centro → Bingen', '100 · Downtown → Bingen')]],
+  },
+  {
+    title: 'Bingen ↔ Corrêas',
+    service: '150 · Cidade Real',
+    boarding: t('Conexión directa entre la rodoviaria y el Terminal Corrêas, Estrada União e Indústria, 1132. Consulta el sentido exacto: los dos recorridos tienen paradas distintas.',
+      'Ligação direta entre a rodoviária e o Terminal Corrêas, Estrada União e Indústria, 1132. Consulte o sentido certo: os dois itinerários têm pontos diferentes.',
+      'Direct connection between the intercity station and Terminal Corrêas, Estrada União e Indústria, 1132. Check the right direction: the two routes have different stops.'),
+    location: 'Terminal Corrêas, Estrada União e Indústria 1132, Petrópolis, RJ',
+    links: [source150Inbound, [source150[0], '150 · Corrêas → Bingen']],
+  },
+  {
+    title: t('Centro ↔ Quitandinha', 'Centro ↔ Quitandinha', 'Downtown ↔ Quitandinha'),
+    service: '649 · Turp',
+    boarding: t('El cuadro distingue las salidas de Rua do Imperador y Rua Genair Costa de Oliveira. Si vas al Sesc, confirma qué parada te deja cerca de la entrada cultural.',
+      'A tabela separa partidas da Rua do Imperador e da Rua Genair Costa de Oliveira. Se for ao Sesc, confirme qual ponto atende a entrada cultural.',
+      'The timetable separates departures from Rua do Imperador and Rua Genair Costa de Oliveira. For Sesc, check which stop serves the cultural centre entrance.'),
+    location: 'Centro Cultural Sesc Quitandinha, Petrópolis, RJ',
+    links: [source649],
+  },
+  {
+    title: t('Centro ↔ Itaipava', 'Centro ↔ Itaipava', 'Downtown ↔ Itaipava'),
+    service: '700 · Turp',
+    boarding: t('Verifica en qué punto del Centro sale el bus y, para volver, localiza el Terminal Itaipava. Si sigues hacia Madame Machado, consulta también la 704. El cuadro enlazado es de septiembre de 2026.',
+      'Confira o ponto de saída no Centro e, para voltar, localize o Terminal Itaipava. Se seguir para Madame Machado, consulte também a 704. A tabela vinculada é de setembro de 2026.',
+      'Check the downtown departure stop and find Terminal Itaipava for the return. If continuing to Madame Machado, check the 704 too. The linked timetable is from September 2026.'),
+    location: 'Terminal Itaipava, Petrópolis, RJ',
+    links: [source700],
+  },
+  {
+    title: 'Rio de Janeiro ↔ Petrópolis',
+    service: 'Única/Fácil',
+    boarding: t('Compra el pasaje por fecha y terminal. En Petrópolis, el operador lista las ventanillas 01, 02 y 06 de la rodoviaria de Bingen. Desde ahí, consulta la 100 para seguir al Centro.',
+      'Compre a passagem pela data e rodoviária. Em Petrópolis, a empresa lista os guichês 01, 02 e 06 na rodoviária do Bingen. De lá, consulte a 100 para seguir ao Centro.',
+      'Buy your ticket for the date and station you need. In Petrópolis, the operator lists counters 01, 02 and 06 at Bingen station. From there, check the 100 for downtown.'),
+    location: bingen,
+    links: [coachOperator],
+  },
+];
+
 
 export const transportDetails = {
   vans: {
     image: 'nogueira',
+    connections,
     tip: t('Yo resolvería Bingen–Centro con la 100 si el horario encaja y preguntaría por la 150 si voy a Corrêas. Para un almuerzo en un valle, con un grupo y varias paradas, cotizaría una van con regreso pactado.',
       'Eu faria Bingen–Centro com a 100 se o horário encaixar e perguntaria pela 150 se fosse a Corrêas. Para almoço num vale com grupo e várias paradas, cotaria uma van com volta combinada.',
       'I’d take the 100 between Bingen and downtown if the timetable fits and ask about the 150 for Corrêas. For a group lunch in a valley with several stops, I’d get a van quote with a confirmed return.'),
@@ -62,7 +117,7 @@ export const transportDetails = {
     ],
     sources: [
       cptrans, ['https://cidadedashortensias.com.br/', 'Cidade das Hortênsias'],
-      ['https://unica-facil.com.br/pontos-de-venda/', 'Única/Fácil · Pontos de venda'],
+      coachOperator,
       ['https://otimizapro.com/tarifa/rj/petropolis', t('Referencia tarifaria municipal con fuentes', 'Referência tarifária municipal com fontes', 'Sourced municipal fare reference')],
       ['https://www.gov.br/turismo/pt-br/acesso-a-informacao/acoes-e-programas/cadastur', 'Cadastur'],
       ['https://www.gov.br/antt/pt-br/assuntos/passageiros/transportefretamento/fretamentosupas/', 'ANTT · Fretamento'],

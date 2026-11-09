@@ -10,6 +10,7 @@ const detailsLabel = t('Ver guía relacionada', 'Ver guia relacionado', 'Read th
 const faqTitle = t('Preguntas frecuentes', 'Perguntas frequentes', 'Frequently asked questions');
 const sourceTitle = t('Fuentes y consultas', 'Fontes e consultas', 'Sources and travel information');
 const contentsTitle = t('En esta página', 'Nesta página', 'On this page');
+const connectionsTitle = t('Trayectos y paradas', 'Trajetos e pontos', 'Routes and stops');
 const tipTitle = t('Consejo de Ernestinho', 'Dica do Ernestinho', 'Ernestinho’s tip');
 
 const localLink = (route, label, lang, cls) =>
@@ -52,7 +53,7 @@ export function soloTravelPage(data, photos, lang) {
       <h2>${text(faqTitle, lang)}</h2>
       <section class="items">${faq.map(([q, a], index) => numbered(q, a, lang, index)).join('')}</section>
       <h2>${text(sourceTitle, lang)}</h2>${sources.map(source => external(source, lang, 'ext')).join('')}
-      ${localLink('transportes/vans/', t('Autobuses y vans', 'Ônibus e vans', 'Buses and vans'), lang, 'ext')}
+      ${localLink('transportes/vans/#trayectos', t('Trayectos y paradas de autobús', 'Trajetos e pontos de ônibus', 'Bus routes and stops'), lang, 'ext')}
       ${localLink('guia/', t('Volver a la guía', 'Voltar ao guia', 'Back to the guide'), lang, 'ext')}</section>`,
   };
 }
@@ -64,22 +65,39 @@ export function petropolisTransportPage(data, mode, title, intro, photos, lang) 
   const hero = vans ? `<img class="hero-image" src="${esc(image.src)}" alt="${esc(image.alt)}" fetchpriority="high">
     <div class="guide-photo-caption">${esc(image.alt)} · ${photoCredit(image, lang)}</div>` : picture(image, 'guide-photo guide-hero-photo', lang, true);
   const mapButton = location => map(location, v(mapLabel, lang)).replace('class="ext"', 'class="text-action"');
+  const connectionGuide = data.connections ? `<section id="trayectos" class="guide-section">
+    <h2>${text(connectionsTitle, lang)}</h2>
+    ${paragraph(t('Elige tu trayecto y consulta el sentido de ida y vuelta para el día que viajas.',
+      'Escolha seu trajeto e confira os sentidos de ida e volta para o dia da viagem.',
+      'Choose your route and check both directions for your travel date.'), lang)}
+    <ul class="petr-connections">${data.connections.map(({ title, service, boarding, location, links }) =>
+      `<li class="aside-card"><span class="fact-pill">${esc(service)}</span><h3>${text(title, lang)}</h3>
+        ${paragraph(boarding, lang)}${mapButton(location)}
+        <div class="source-list">${links.map(source => external(source, lang, 'source-link')).join('')}</div></li>`).join('')}</ul>
+    </section>` : '';
+  const navigation = data.connections ? [{ id: 'trayectos', title: connectionsTitle }, ...sections] : sections;
   const chapter = ({ id, title, copy, map: location, image, links = [], tone = '' }) =>
     `<section id="${id}" class="guide-section${tone ? ' ec-adn ' + tone : ''}"><h2>${text(title, lang)}</h2>${paragraph(copy, lang)}
       ${location ? mapButton(location) : ''}${links.map(source => external(source, lang, 'source-link')).join('')}</section>
       ${image ? picture(photos[image], 'guide-photo', lang) : ''}`;
   const side = `<aside class="guide-aside"><section class="aside-card"><h2>${text(contentsTitle, lang)}</h2>
-    ${contents(sections, lang, 'text-action')}</section><section class="aside-card"><h2>${text(t('Sigue organizando el viaje', 'Continue planejando a viagem', 'Keep planning your trip'), lang)}</h2>
-    ${localLink('transportes/' + related, mode === 'vans' ? t('Uber, 99 y taxis', 'Uber, 99 e táxis', 'Uber, 99 and taxis') : t('Vans y transporte colectivo', 'Vans e transporte coletivo', 'Vans and public transport'), lang, 'action')}
+    ${contents(navigation, lang, 'text-action')}</section><section class="aside-card"><h2>${text(t('Sigue organizando el viaje', 'Continue planejando a viagem', 'Keep planning your trip'), lang)}</h2>
+    ${localLink('transportes/' + related + (vans ? '' : '#trayectos'), mode === 'vans' ? t('Uber, 99 y taxis', 'Uber, 99 e táxis', 'Uber, 99 and taxis') : t('Vans y transporte colectivo', 'Vans e transporte coletivo', 'Vans and public transport'), lang, 'action')}
     ${localLink('guia/llegada/', t('Cómo llegar a Petrópolis', 'Como chegar a Petrópolis', 'Getting to Petrópolis'), lang, 'text-action')}</section></aside>`;
+  const connectionStyles = data.connections ? `<style>
+    .petr-connections{display:grid;gap:12px;padding:0;list-style:none}
+    .petr-connections .fact-pill{margin:0 0 8px}
+    .petr-connections h3{margin:0 0 8px}
+    .petr-connections .source-list{margin-top:10px}
+  </style>` : '';
   return {
-    title, intro, image, inline: styles('transportes/uber') + '<style>.guide-aside .petr-page-contents{display:block}.guide-photo-caption{margin-top:9px;color:#61706a;font-size:13px;line-height:1.5}</style>', css: ['transit-guides'],
+    title, intro, image, inline: styles('transportes/uber') + '<style>.guide-aside .petr-page-contents{display:block}.guide-photo-caption{margin-top:9px;color:#61706a;font-size:13px;line-height:1.5}</style>' + connectionStyles, css: ['transit-guides'],
     body: `<section class="transit-guide">${vans ? hero : ''}<div class="guide-intro"><p class="kicker">ERNESTINHO CARIOCA · PETRÓPOLIS</p>
       <h1>${text(title, lang)}</h1><p class="guide-dek">${text(intro, lang)}</p>
       <span class="fact-pill">${text(vans ? t('Autobús urbano · intermunicipal · van privada', 'Ônibus urbano · intermunicipal · van particular', 'Local bus · intercity coach · private van') :
         t('Tarifa dinámica · matrícula · punto de recogida', 'Tarifa dinâmica · placa · ponto de embarque', 'Dynamic fare · licence plate · pickup point'), lang)}</span></div>
       ${vans ? '' : hero}
-      <div class="guide-layout"><article class="guide-copy">${sections.map(chapter).join('')}
+      <div class="guide-layout"><article class="guide-copy">${connectionGuide}${sections.map(chapter).join('')}
       <section class="guide-section ec-adn ec-teal"><h2>⭐ ${text(tipTitle, lang)}</h2>${paragraph(data.tip, lang)}</section>
       <section class="guide-section ec-faq"><h2>${text(faqTitle, lang)}</h2>
       ${faq.map(([q, a]) => `<details><summary>${text(q, lang)}</summary>${paragraph(a, lang)}</details>`).join('')}</section>
