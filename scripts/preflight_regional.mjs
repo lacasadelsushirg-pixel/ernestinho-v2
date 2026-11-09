@@ -18,7 +18,7 @@ const steps = [
   ['Fotografías y licencias declaradas', 'scripts/verify_regional_photo_assets.mjs', ['--json']],
   ['Miniaturas regionales', 'scripts/audit_regional_thumbnails.mjs', []],
   ['Generación aislada', 'scripts/build_regional_destinations.mjs', ['--stage=' + stage]],
-  ['Rutas y HTML generados', 'scripts/verify_regional_stage.mjs', ['--stage=' + stage]],
+  ['Rutas y HTML generados', 'scripts/verify_regional_stage.mjs', [stage]],
 ];
 const results = [];
 try {
