@@ -2,9 +2,68 @@ import { t } from './modelo.js';
 
 const month = (title, low, high, rain, plan) => ({ title, low, high, rain, plan });
 
+
+const monthlyAdvice = [
+  // Recomendaciones prácticas, NO predicciones: basadas en patrones históricos y paseos existentes.
+  { carry: t('Impermeable ligero, calzado antideslizante y agua.', 'Capa de chuva leve, calçado antiderrapante e água.', 'Light raincoat, grippy shoes and water.'),
+    inside: t('Museu Imperial o una exposición confirmada en el Centro.', 'Museu Imperial ou exposição confirmada no Centro.', 'Imperial Museum or a confirmed downtown exhibition.') },
+  { carry: t('Paraguas compacto, calzado cerrado y bolsa impermeable.', 'Guarda-chuva compacto, sapato fechado e bolsa impermeável.', 'Compact umbrella, closed shoes and a waterproof bag.'),
+    inside: t('Programación cubierta en el Centro Cultural Sesc Quitandinha.', 'Programação coberta do Centro Cultural Sesc Quitandinha.', 'Indoor programming at Centro Cultural Sesc Quitandinha.') },
+  { carry: t('Capa para lluvia intensa y plan de regreso flexible.', 'Capa para chuva forte e plano de retorno flexível.', 'Rain protection and a flexible return plan.'),
+    inside: t('Casa Santos Dumont o museo cercano, solo si la ruta es segura.', 'Casa Santos Dumont ou museu próximo, só com rota segura.', 'Santos Dumont house or a nearby museum, only if roads are safe.') },
+  { carry: t('Chaqueta fina y paraguas para cambios de tiempo.', 'Casaco leve e guarda-chuva para mudanças de tempo.', 'Light jacket and umbrella for weather changes.'),
+    inside: t('Centro de Cultura Raul de Leoni: consulta la agenda del día.', 'Centro de Cultura Raul de Leoni: confira a agenda do dia.', 'Centro de Cultura Raul de Leoni: check daily programming.') },
+  { carry: t('Abrigo para mañana y tarde, zapatos cómodos.', 'Agasalho para manhã e fim do dia, sapato confortável.', 'Layers for mornings and evenings, comfortable shoes.'),
+    inside: t('Museu Casa do Colono, confirmando apertura y traslado.', 'Museu Casa do Colono, confirmando abertura e transporte.', 'Museu Casa do Colono, after confirming opening and transport.') },
+  { carry: t('Abrigo más cálido para fiestas y paseos nocturnos.', 'Agasalho mais quente para festas e passeios noturnos.', 'Warmer layers for evening festivities.'),
+    inside: t('Museu Imperial o espacios culturales abiertos durante la fiesta.', 'Museu Imperial ou espaços culturais abertos durante a festa.', 'Imperial Museum or indoor cultural venues open during festival dates.') },
+  { carry: t('Camiseta de manga larga y abrigo para salir temprano.', 'Manga comprida e casaco para sair cedo.', 'Long sleeves and a jacket for early starts.'),
+    inside: t('Museu da FEB o Palácio Rio Negro solo con visitas confirmadas.', 'Museu da FEB ou Palácio Rio Negro só com visita confirmada.', 'FEB Museum or Rio Negro Palace only when visits are confirmed.') },
+  { carry: t('Capas de ropa: mañana fresca y sol de mediodía.', 'Roupas em camadas: manhã fria e sol ao meio-dia.', 'Layered clothing for cool mornings and midday sun.'),
+    inside: t('Casa Stefan Zweig: revisa días y horarios de visita.', 'Casa Stefan Zweig: confira dias e horários de visita.', 'Casa Stefan Zweig: check visiting days and hours.') },
+  { carry: t('Chaqueta ligera, agua y protección para sol y lluvia.', 'Casaco leve, água e proteção para sol e chuva.', 'Light jacket, water and sun/rain protection.'),
+    inside: t('Centro de Cultura Raul de Leoni, según cartelera.', 'Centro de Cultura Raul de Leoni, conforme programação.', 'Centro de Cultura Raul de Leoni, depending on the schedule.') },
+  { carry: t('Calzado con buena suela y una capa de lluvia.', 'Sapato de boa aderência e capa de chuva.', 'Grippy footwear and a rain layer.'),
+    inside: t('Una exposición del Sesc Quitandinha, confirmando la entrada.', 'Uma exposição no Sesc Quitandinha, conferindo o acesso.', 'A Sesc Quitandinha exhibition, after checking access.') },
+  { carry: t('Impermeable y batería externa para consultar alertas.', 'Capa de chuva e bateria externa para consultar alertas.', 'Raincoat and power bank for checking alerts.'),
+    inside: t('Museu de Porcelana u otro espacio abierto, si el trayecto es seguro.', 'Museu de Porcelana ou outro local aberto, se o caminho for seguro.', 'Porcelain Museum or another open venue if routes remain safe.') },
+  { carry: t('Calzado cerrado, impermeable y tiempo extra para el tráfico.', 'Sapato fechado, capa e tempo extra para o trânsito.', 'Closed shoes, rainwear and extra travel time.'),
+    inside: t('Una actividad cubierta del calendario navideño, verificada para tu fecha.', 'Atividade coberta da agenda de Natal, confirmada para a data.', 'An indoor holiday-calendar activity confirmed for your date.') },
+];
+
 export const petropolisMonths = {
   title: t('Petrópolis mes a mes', 'Petrópolis mês a mês', 'Petrópolis month by month'),
   image: 'vista-trono',
+  seasonChoices: [
+    {
+      title: t('Diciembre a marzo', 'Dezembro a março', 'December to March'),
+      badge: t('Calor y más lluvia', 'Calor e mais chuva', 'Warmer and wetter'),
+      copy: t('Reserva actividades al aire libre para ventanas de tiempo seguro y prepara alternativas bajo techo. Con alertas de Defensa Civil, cambia el itinerario y evita caminos inundados.',
+        'Planeje atividades externas para janelas de tempo seguro e tenha opções cobertas. Com alertas da Defesa Civil, mude a programação e evite vias alagadas.',
+        'Choose outdoor time windows when conditions are safe and keep indoor alternatives. Follow Civil Defence alerts and avoid flooded routes.'),
+    },
+    {
+      title: t('Abril y mayo', 'Abril e maio', 'April and May'),
+      badge: t('Transición más templada', 'Transição mais amena', 'Milder transition'),
+      copy: t('Buen momento para combinar un paseo del Centro con otra zona, reservando abrigo y tiempo de traslado.',
+        'Boa época para combinar o Centro com outra região, prevendo agasalho e deslocamento.',
+        'Pair the historic centre with another district, allowing for layers and transport time.'),
+    },
+    {
+      title: t('Junio a agosto', 'Junho a agosto', 'June to August'),
+      badge: t('Más fresco y menos lluvioso', 'Mais frio e menos chuvoso', 'Cooler and historically drier'),
+      copy: t('Ideal para priorizar caminatas urbanas y patrimonio, con abrigo para la mañana. Verifica los grandes eventos antes de reservar.',
+        'Boa fase para caminhadas urbanas e patrimônio, com agasalho de manhã. Confira eventos antes de reservar.',
+        'Prioritise urban walks and heritage, bring warm layers for mornings and check festival calendars before booking.'),
+    },
+    {
+      title: t('Septiembre a noviembre', 'Setembro a novembro', 'September to November'),
+      badge: t('Lluvia en aumento', 'Chuva aumentando', 'Rainfall increasing'),
+      copy: t('A medida que avanza la primavera, vuelve a tener más peso el plan para lluvia y el margen para viajar de vuelta.',
+        'Com o avanço da primavera, priorize um plano de chuva e margem para a volta.',
+        'As spring progresses, build in a rainy-day plan and extra return-travel time.'),
+    },
+  ],
   intro: t('Doce meses para decidir cuándo subir a la sierra, qué llevar y cómo combinar una visita al aire libre con una alternativa bajo techo.',
     'Doze meses para decidir quando subir a serra, o que levar e como combinar um passeio ao ar livre com uma opção coberta.',
     'Twelve months to decide when to head up into the mountains, what to pack and how to pair outdoor plans with an indoor alternative.'),
@@ -60,10 +119,12 @@ export const petropolisMonths = {
       'Si vas por el Natal Imperial, confirma actividades y horarios por día. Combina un programa cubierto con una salida corta y organiza la vuelta antes de salir de noche.',
       'Se for pelo Natal Imperial, confira atividades e horários por dia. Combine um programa coberto com uma saída curta e organize a volta antes de sair à noite.',
       'If you’re coming for Natal Imperial, confirm the daily programme. Pair an indoor visit with a short outing and arrange your return before going out at night.')),
-  ],
+  ].map((entry,index)=>({ ...entry, ...monthlyAdvice[index] })),
   sources: [
     ['https://www.climatempo.com.br/climatologia/317/petropolis-br', 'Climatempo · Petrópolis'],
     ['https://linktr.ee/turismo.petropolis', 'Turispetro · Secretaria de Turismo'],
     ['https://diariodepetropolis.com.br/integra/prefeitura-lanca-calendario-de-eventos-2026-36904', 'Diário de Petrópolis · Calendário 2026'],
+    ['https://calendariodeeventos.abihrj.com.br/municipio/petropolis/', 'ABIH-RJ · Eventos Petrópolis 2026/2027'],
+    ['https://www.petropolis.rj.gov.br/boletim', 'Defesa Civil · Boletim meteorológico Petrópolis'],
   ],
 };
