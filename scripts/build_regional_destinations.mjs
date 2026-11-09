@@ -23,7 +23,14 @@ photos.petropolis = { home: petrPhotos['catedral-paisaje'] };
 const catalog = '/destinos/';
 const credits = catalog + 'creditos-fotos/';
 const withLocalGuides = city => ({ ...city, guide: { ...city.guide, ...regionalGuides[city.slug] } });
-const petropolis = withLocalGuides(petropolisData);
+// Petrópolis has its own editorial guide pages (including detailed itineraries).
+// Retain regional-only topics like "sin-auto" but never let an older generic
+// regional page overwrite an authored Petrópolis guide. Other destinations
+// continue using the existing merge order without changes.
+const petropolis = {
+  ...petropolisData,
+  guide: { ...(regionalGuides.petropolis || {}), ...petropolisData.guide },
+};
 const angra = withLocalGuides(angraData);
 const arraial = withLocalGuides(arraialData);
 const paraty = withLocalGuides(paratyData);
