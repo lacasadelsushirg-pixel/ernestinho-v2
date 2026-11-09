@@ -7,9 +7,10 @@ import angraData from '../assets/js/translations/destinos/angra-ilha-grande.js';
 import caboFrio from '../assets/js/translations/destinos/cabo-frio.js';
 import arraialData from '../assets/js/translations/destinos/arraial-do-cabo.js';
 import paratyData from '../assets/js/translations/destinos/paraty.js';
-import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisHome, petropolisGuide, petropolisEditorial, regionalPlaceRoutes, renderRegionalPlaces, regionalTransportRoutes, renderRegionalTransport, renderGuideArticle } from './build_petropolis.mjs';
+import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisCards, petropolisHome, petropolisGuide, petropolisEditorial, regionalPlaceRoutes, renderRegionalPlaces, regionalTransportRoutes, renderRegionalTransport, renderGuideArticle } from './build_petropolis.mjs';
 
 import { regionalGuides } from '../assets/js/translations/destinos/guias-regionales.js';
+import { regionalTips } from '../assets/js/translations/destinos/consejos-regionales.js';
 import { neighborhoodRoutes, renderRegionalNeighborhood } from './regional_neighborhoods.mjs';
 import { renderRegionalEvents } from './regional_events.mjs';
 import { renderRegionalPhotography } from './regional_photography.mjs';
@@ -236,6 +237,49 @@ function renderSection(destination, key, guide, language, route, agenda) {
     </div>`;
 }
 
+function renderTips(destination, language, route) {
+  const { intro, tip, cards: originalCards } = destination.sections.consejos;
+  const title = t(`Consejos para viajar a ${destination.name}`, `Dicas para viajar a ${destination.name}`, `Travel tips for ${destination.name}`);
+  const media = destination === petropolis ? petrPhotos : photos[destination.slug];
+  const cards = regionalTips[destination.slug].map(([imageKey, link, heading, copy]) => {
+    const photo = media[imageKey];
+    const relatedRoute = destinationPath(destination) + link;
+    if (!photo || !routes.has(relatedRoute)) throw Error(`Invalid tip resource for ${destination.slug}: ${imageKey}, ${link}`);
+    return `<article class="ec-card">
+      ${photograph(photo, photo.alt || v(heading, language))}
+      <div class="ec-label"><h3>${text(heading, language)}</h3>${paragraph(copy, language)}
+      ${navLink(relatedRoute, t('Abrir guía →', 'Abrir guia →', 'Open guide →'), language, 'ec-back')}</div>
+    </article>`;
+  }).join('');
+  const heading = t('Consejos esenciales', 'Dicas essenciais', 'Essential tips');
+  const more = t('Organiza y vive tu viaje', 'Organize e aproveite sua viagem', 'Plan and enjoy your trip');
+  const previous = destination === petropolis ? petropolisCards('consejos', originalCards) : originalCards;
+  const extra = previous.map(({ title, copy, action }) => `<article class="ec-note">
+    <h3>${text(title, language)}</h3>${paragraph(copy, language)}${actionLink(action, destination, language, title)}</article>`).join('');
+
+  const body = `<section class="ec-consejos-head"><div class="ec-wrap"><span>ERNESTINHO CARIOCA · ${esc(destination.name)}</span>
+    <h1>${text(title, language)}</h1>${paragraph(intro, language)}</div></section>
+    ${destinationNav(destination, route, language)}
+    <section class="ec-consejos-body"><div class="ec-wrap">
+      <h2>${text(heading, language)}</h2><div class="ec-grid ec-grid-essential">${cards}</div>
+      <h2 class="ec-second">${text(more, language)}</h2><div class="ec-grid">${extra}</div>
+      ${recommendation(tip, language)}
+    </div></section>`;
+  const inline = `<style>
+    .ec-consejos-body .ec-grid-essential .ec-label p {
+      font-size: .95rem;
+      font-weight: 400;
+      line-height: 1.55;
+    }
+    .ec-consejos-body .ec-grid-essential .ec-back {
+      display: inline-block;
+      min-height: 44px;
+      padding-block: 10px;
+    }
+  </style>`;
+  return { title, intro, body, css: ['consejos'], inline };
+}
+
 function renderCatalog(language) {
   const buzios = { src: 'https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/BUZIOS/ENCABEZADO%20BUZIOS.png' };
   const title = t('Destinos de Ernestinho', 'Destinos do Ernestinho', 'Destinations with Ernestinho');
@@ -279,7 +323,8 @@ export function renderRegionalRoute(route, language) {
   const neighborhood = key === 'barrios' ? renderRegionalNeighborhood(destination, slug, language, petr ? petrPhotos : photos[destination.slug]) : null;
   const guideCopy = !petr && guide && regionalGuides[destination.slug]?.[guide];
   const localGuide = guideCopy && renderGuideArticle(destination, guideCopy, photos[destination.slug][guideCopy.image], language);
-  const content = neighborhood || localGuide || (petr ? (!key ? petropolisHome(destination, sections, language) :
+  const tips = key === 'consejos' ? renderTips(destination, language, route) : null;
+  const content = tips || neighborhood || localGuide || (petr ? (!key ? petropolisHome(destination, sections, language) :
     key === 'guia' ? petropolisGuide(destination, guide, language) :
     renderPetropolis(destination, key, slug, language) || petropolisEditorial(destination, key, sections[key], language, agenda))
     : destination ? (key === 'fotografias' && renderRegionalPhotography(destination, photos[destination.slug], language)) ||

@@ -260,13 +260,6 @@ export function petropolisEditorial(city, key, title, lang, agenda) {
       <div class="exp-photo" style="--img:url('${petrPhotos[i === 0 ? 'museu' : 'palacio'].src}')"></div>
       <div class="exp-info">${itemTitle(card)}${p(card.copy, lang)}<span class="meta">${tx(open, lang)}</span></div></a>`)}</div></section></section>` };
   }
-  if (key === 'consejos') {
-    return { title, intro: data.intro, css: ['consejos'], body: `<section class="ec-consejos-head"><div class="ec-wrap"><span>Petrópolis</span>
-      <h1>${tx(title, lang)}</h1>${p(data.intro, lang)}</div></section><section class="ec-consejos-body"><div class="ec-wrap">
-      <h2>${tx(t('Consejos esenciales', 'Dicas essenciais', 'Essential tips'), lang)}</h2><div class="ec-grid ec-grid-essential">${render((card, i) =>
-        `<a class="ec-card" href="${pre(lang) + url(card, i)}">${image(petrPhotos[['museu', 'quitandinha', 'catedral-paisaje', 'cristal'][i]])}
-        <span class="ec-label">${tx(card.title, lang)}</span></a>`)}</div></div></section>` };
-  }
   if (key === 'compras') {
     return { title, intro: data.intro, css: ['compras'], inline: styles('compras'), body: hero + `<section class="shopping-editorial">
       <div class="section-head"><h2>${tx(t('Calles, ferias y polos de moda', 'Ruas, feiras e polos de moda', 'Streets, markets and clothing districts'), lang)}</h2></div>
