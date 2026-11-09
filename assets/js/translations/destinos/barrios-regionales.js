@@ -59,7 +59,7 @@ export const regionalNeighborhoods = {
       t('Visita la Casa do Colono en Rua Cristóvão Colombo, observa sus objetos cotidianos y compárala con el patrimonio imperial del Centro.',
         'Visite a Casa do Colono na Rua Cristóvão Colombo, observe os objetos do cotidiano e compare com os palácios do Centro.',
         'Visit Casa do Colono on Rua Cristóvão Colombo, examine everyday objects and compare the story with downtown palaces.'), 'cultura/casa-do-colono/'),
-    valparaiso: n('Valparaíso · Casa Stefan Zweig', null,
+    valparaiso: n('Valparaíso · Casa Stefan Zweig', 'vista-trono',
       t('La memoria literaria y del exilio europeo, más allá del circuito del Imperio.',
         'A memória literária e do exílio europeu, além do circuito imperial.',
         'Literary and European exile history beyond the imperial circuit.'),
