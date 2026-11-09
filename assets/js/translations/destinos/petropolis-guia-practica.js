@@ -23,6 +23,7 @@ export const practicalGuides = {
   emergencias: {
     title: t('Salud y emergencias en Petrópolis', 'Saúde e emergências em Petrópolis', 'Health and emergencies in Petrópolis'),
     image: 'palacio-rio-negro',
+    emergencyNumbers: [['192','SAMU'],['193',t('Bomberos','Bombeiros','Fire & rescue')],['190',t('Policía','Polícia','Police')],['199',t('Defensa Civil','Defesa Civil','Civil Defence')]],
     intro: t('Guarda los teléfonos de ayuda, ubica las unidades de urgencia y prepara un plan si hay alertas en la sierra.',
       'Salve os telefones de ajuda, localize as unidades de urgência e prepare um plano se houver alertas na serra.',
       'Save emergency numbers, locate urgent care facilities and plan what to do if mountain weather alerts are issued.'),
@@ -104,6 +105,11 @@ export const practicalGuides = {
   accesibilidad: {
     title: t('Accesibilidad en Petrópolis', 'Acessibilidade em Petrópolis', 'Accessibility in Petrópolis'),
     image: 'cristal',
+    quickFacts: [
+      [t('Museu Imperial','Museu Imperial','Imperial Museum'),t('Entrada con rampa','Entrada com rampa','Ramped entry'),t('Pedir confirmación de la plataforma','Confirmar plataforma antes de ir','Check lift availability before visiting')],
+      [t('Centro Histórico','Centro Histórico','Historic centre'),t('Recorrido corto','Roteiro curto','Short route'),t('Cruces y aceras deben verificarse','Confira travessias e calçadas','Check crossings and pavements')],
+      [t('Traslados','Traslados','Transfers'),t('Confirmar vehículo','Confirmar veículo','Confirm the vehicle'),t('Indicar equipo y apoyo necesario','Informe equipamento e apoio','Describe mobility equipment and assistance')],
+    ],
     intro: t('Organiza una visita según las pendientes, el punto de bajada y los accesos reales de cada edificio.',
       'Organize uma visita conforme as ladeiras, o desembarque e os acessos reais de cada prédio.',
       'Plan a visit around slopes, drop-off points and the actual entrances to each building.'),
@@ -172,6 +178,11 @@ export const practicalGuides = {
   'guarda-equipaje': {
     title: t('Dónde guardar maletas en Petrópolis', 'Onde guardar malas em Petrópolis', 'Luggage storage in Petrópolis'),
     image: 'casa-ipiranga',
+    quickFacts: [
+      [t('Con hotel','Com hotel','With a hotel'),t('Preguntar en recepción','Pergunte na recepção','Ask reception'),t('Confirmar horario de retiro y costo','Confirme retirada e custo','Confirm collection time and fee')],
+      [t('Solo por el día','Bate-volta','Day trip'),t('Consigna no garantizada','Guarda não garantida','Storage not guaranteed'),t('Comprueba antes de salir de Río','Confira antes de sair do Rio','Check before leaving Rio')],
+      [t('En la terminal','Na rodoviária','At the station'),t('Comprobante y regreso','Comprovante e volta','Receipt and return'),t('Conservar objetos valiosos contigo','Leve objetos valiosos com você','Keep valuables with you')],
+    ],
     intro: t('Qué preguntar antes del check-in, después del check-out o durante una visita en autobús con equipaje.',
       'O que perguntar antes do check-in, depois do check-out ou durante uma visita de ônibus com bagagem.',
       'What to ask before check-in, after check-out or on a coach trip with luggage.'),
@@ -234,8 +245,14 @@ export const practicalGuides = {
     relatedLinks: [['guia/terminales/', t('Terminal de Bingen', 'Rodoviária do Bingen', 'Bingen bus station')]],
   },
   terminales: {
-    title: t('Terminal de Bingen en Petrópolis', 'Rodoviária do Bingen em Petrópolis', 'Bingen bus station in Petrópolis'),
+    title: t('Terminales de Petrópolis: Bingen, Centro, Corrêas e Itaipava', 'Terminais de Petrópolis: Bingen, Centro, Corrêas e Itaipava', 'Petrópolis stations: Bingen, downtown, Corrêas and Itaipava'),
     image: 'terminal-bingen',
+    quickFacts: [
+      ['Bingen',t('Rodoviaria de Río','Rodoviária do Rio','Intercity coaches'),t('100 al Centro · 150 a Corrêas','100 ao Centro · 150 a Corrêas','100 downtown · 150 to Corrêas')],
+      [t('Centro','Centro','Downtown'),t('Buses municipales','Ônibus municipais','Local buses'),t('500 hacia Corrêas · 700 a Itaipava','500 para Corrêas · 700 para Itaipava','500 to Corrêas · 700 to Itaipava')],
+      ['Corrêas',t('Conexiones regionales','Conexões regionais','District interchange'),t('600 al Centro · 602 y 610 a valles','600 ao Centro · 602 e 610 aos vales','600 downtown · 602 and 610 to valleys')],
+      ['Itaipava',t('Conexión con los valles','Conexão com os vales','Valley connections'),t('605 al Vale · 617 a Araras','605 ao Vale · 617 a Araras','605 to Vale · 617 to Araras')],
+    ],
     intro: t('Dónde se encuentra la rodoviaria intermunicipal, cómo comprar el pasaje y cómo seguir al Centro, Corrêas o Quitandinha.',
       'Onde fica a rodoviária intermunicipal, como comprar a passagem e como seguir para o Centro, Corrêas ou Quitandinha.',
       'Where to find the intercity station, how to buy a ticket and how to continue to downtown, Corrêas or Quitandinha.'),
