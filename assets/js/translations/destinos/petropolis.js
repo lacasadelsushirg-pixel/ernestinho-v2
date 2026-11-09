@@ -3,6 +3,7 @@ import { soloGuide } from './petropolis-viajar-solo.js';
 import { practicalGuides } from './petropolis-guia-practica.js';
 import { arrivalGuide } from './petropolis-roteiros-chegada.js';
 import { itineraryGuide } from './petropolis-itinerarios.js';
+import { firstVisitGuide, withoutCarGuide } from './petropolis-primeira-sem-carro.js';
 
 const tourism = 'https://www.petropolis.rj.gov.br/turispetro/';
 const museum = 'https://museuimperial.museus.gov.br/';
@@ -17,13 +18,8 @@ export default {
   guide: {
     'viajar-solo': soloGuide,
     ...practicalGuides,
-    'primera-visita': {
-      title: t('Petrópolis en uno o dos días', 'Petrópolis em um ou dois dias', 'Petrópolis in one or two days'),
-      ...s(t('El Centro Histórico merece su propio ritmo. Puedes ver el exterior de varios edificios y reservar tiempo para entrar al que más te interese.', 'O Centro Histórico merece seu ritmo. Dá para ver o exterior de vários prédios e reservar tempo para entrar no que mais interessa.', 'Give the historic centre its own pace. You can see several buildings from outside and allow time to go inside the one that interests you most.'), [
-        c(t('Primer día', 'Primeiro dia', 'Day one'), t('Combina Museu Imperial, Catedral y Palácio de Cristal. Si quieres entrar al museo, empieza por su franja de visita y ajusta el resto del paseo a pie.', 'Combine Museu Imperial, Catedral e Palácio de Cristal. Se quiser entrar no museu, comece pelo horário da visita e ajuste o restante da caminhada.', 'Combine the Imperial Museum, cathedral and Crystal Palace. If you want to go inside the museum, build the walk around your visit time.'), { url: museum }),
-        c(t('Segundo día', 'Segundo dia', 'Day two'), t('Elige Quitandinha para arquitectura y lago, o Itaipava para almorzar y recorrer otro distrito. Calcula el traslado antes de reservar.', 'Escolha Quitandinha para arquitetura e lago ou Itaipava para almoçar e conhecer outro distrito. Calcule o deslocamento antes de reservar.', 'Choose Quitandinha for architecture and its lake, or Itaipava for lunch and a different district. Allow for the journey before booking.'), { page: 'barrios' }),
-      ], t('Yo reservaría un museo y una buena pausa para comer. Así queda espacio para mirar la ciudad entre una visita y otra.', 'Eu reservaria um museu e uma boa pausa para comer. Assim sobra tempo para observar a cidade entre as visitas.', 'I’d book one museum and leave time for lunch. That gives you room to notice the city between stops.')),
-    },
+    'primera-visita': firstVisitGuide,
+    'sin-auto': withoutCarGuide,
     'llegada': arrivalGuide,
     'itinerarios-1-2-3-dias': itineraryGuide,
     'clima-y-lluvia': {
