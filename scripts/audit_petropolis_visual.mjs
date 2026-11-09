@@ -80,7 +80,19 @@ try{
             setTimeout(done,18000);
           })));
         });
-        await page.waitForTimeout(350);
+        // Regional layouts reveal blocks on intersection; a full-page screenshot alone
+        // does not scroll and can incorrectly show blank content below the fold.
+        await page.evaluate(async()=>{
+          const step=Math.max(350,Math.floor(innerHeight*.72));
+          const bottom=document.documentElement.scrollHeight;
+          for(let y=0;y<bottom;y+=step){
+            window.scrollTo(0,y);
+            await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+          }
+          window.scrollTo(0,0);
+          await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+        });
+        await page.waitForTimeout(800);
         const metrics=await page.evaluate(()=>{
           const imgs=[...document.images].map(img=>({src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0}));
           const main=document.querySelector('main');
