@@ -1,0 +1,36 @@
+name: Petrópolis preview QA
+
+on:
+  push:
+    branches: [revision/rendimiento-traducciones-81a904c]
+    paths:
+      - 'scripts/audit_petropolis_preview.mjs'
+      - 'scripts/regional_neighborhoods.mjs'
+      - 'scripts/build_petropolis.mjs'
+      - 'scripts/petropolis_practical_pages.mjs'
+      - 'scripts/build_regional_destinations.mjs'
+      - 'assets/js/translations/destinos/barrios-regionales.js'
+      - 'assets/js/translations/destinos/petropolis-*.js'
+      - '.github/workflows/petropolis-preview-qa.yml'
+  pull_request:
+    branches: [revision/rendimiento-traducciones-81a904c]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  editorial-preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - name: Checkout repository source (not production)
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Use Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check guard and render Petrópolis without modifying production
+        run: node scripts/audit_petropolis_preview.mjs
