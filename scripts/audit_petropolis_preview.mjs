@@ -17,6 +17,7 @@ const requiredCulturalSites = 15;
 const requiredDetail = [
   area + 'barrios/', area + 'cultura/', area + 'transportes/',
   area + 'guia/llegada/', area + 'guia/itinerarios-1-2-3-dias/',
+  area + 'guia/sin-auto/', area + 'guia/primera-visita/',
 ];
 const errors = [], warnings = [];
 const previewArg = process.argv.find(arg => arg.startsWith('--out='));
@@ -82,10 +83,20 @@ for (const route of routes) {
       [area + 'guia/viajar-solo/', 3],
       [area + 'guia/llegada/', 3],
       [area + 'guia/itinerarios-1-2-3-dias/', 3],
+      [area + 'guia/sin-auto/', 4],
+      [area + 'guia/primera-visita/', 3],
     ];
     for (const [guideRoute, expected] of guideCardExpectations) {
       if (route === guideRoute && cardsByClass('petr-fact-card') !== expected) {
         errors.push(name + ': expected ' + expected + ' practical guide choice cards');
+      }
+    }
+    for (const guideRoute of [area+'guia/sin-auto/',area+'guia/primera-visita/']) {
+      if(route===guideRoute) {
+        const chapters=[...html.matchAll(/<article id="(chegada-bingen|centro-a-pie|quitandinha|correas|itaipava|bonfim|apps|tarifas|movilidad|antes-de-sair|museu-imperial|catedral-koeler|cristal|santos-dumont|presupuesto|practico)"/g)];
+        if(chapters.length!==9)errors.push(name+': expected 9 independent detailed chapters; got '+chapters.length);
+        if(!html.includes('museuimperial.museus.gov.br/organize-sua-visita/'))
+          errors.push(name+': missing official museum information');
       }
     }
     if (route === area + 'guia/llegada/') {
