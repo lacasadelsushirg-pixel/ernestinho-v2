@@ -34,7 +34,7 @@ function numbered(heading, copy, lang, index, extras = '', id = '') {
 }
 
 export function practicalGuidePage(data, photos, lang, template) {
-  const { title, intro, sections, faq, sources, quickFacts = [], emergencyNumbers = [] } = data;
+  const { title, intro, sections, faq, sources, quickFacts = [], emergencyNumbers = [], dayPlans = [] } = data;
   const image = photos[data.image];
   const urgent = emergencyNumbers.length ? `<nav class="petr-urgent-actions" aria-label="${text(t('Teléfonos de emergencia','Telefones de emergência','Emergency phone numbers'),lang)}">
     <h2>${text(t('¿Necesitas ayuda ahora?','Precisa de ajuda agora?','Need help right now?'),lang)}</h2>
@@ -46,6 +46,55 @@ export function practicalGuidePage(data, photos, lang, template) {
     <div class="petr-fact-grid">${quickFacts.map(([title,value,note]) => `<article class="petr-fact-card">
       <h3>${text(title,lang)}</h3><strong>${text(value,lang)}</strong><p>${text(note,lang)}</p></article>`).join('')}</div>
   </section>` : '';
+
+  // Optional itineraries share the approved Rio guide template, with Petrópolis-only
+  // editorial components. No new global CSS or edits to the 586 protected pages.
+  const planTabs = dayPlans.length ? `<nav class="petr-itin-tabs" aria-label="${text(t('Elegir itinerario', 'Escolher roteiro', 'Choose an itinerary'),lang)}">
+    ${dayPlans.map(({id,title})=>`<a href="#${esc('roteiro-'+id)}">${text(title,lang)}</a>`).join('')}
+  </nav>` : '';
+  const planCards = dayPlans.length ? `<section class="petr-itinerary-plans" id="planes">
+    <h2>${text(t('Recorridos con paradas reales','Roteiros com paradas reais','Routes with actual places to visit'),lang)}</h2>
+    ${planTabs}
+    <div class="petr-day-grid">${dayPlans.map(({id,title,subtitle,stops,transport,rain})=>`
+      <article id="roteiro-${esc(id)}" class="petr-day-card">
+        <header><h3>${text(title,lang)}</h3><p>${text(subtitle,lang)}</p></header>
+        <ol class="petr-day-stops">${stops.map(({when,title,copy,location})=>`
+          <li><span class="petr-when">${text(when,lang)}</span><h4>${esc(title)}</h4><p>${text(copy,lang)}</p>
+            ${location ? map(location,v(mapLabel,lang)) : ''}</li>`).join('')}
+        </ol>
+        <div class="petr-day-notes">
+          <section><strong>${text(t('Transporte y regreso','Transporte e volta','Transport and return'),lang)}</strong><p>${text(transport,lang)}</p></section>
+          <section><strong>${text(t('Alternativa si llueve','Alternativa se chover','Rainy-day alternative'),lang)}</strong><p>${text(rain,lang)}</p></section>
+        </div>
+      </article>`).join('')}</div>
+    </section>` : '';
+  const tripStyles = dayPlans.length ? `<style>
+    .petr-itinerary-plans{margin:28px 0 32px}
+    .petr-itinerary-plans>h2{color:#104f43;font-size:clamp(1.35rem,2.6vw,1.8rem);margin-bottom:15px}
+    .petr-itin-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 21px}
+    .petr-itin-tabs>a{border:1px solid #a9d0be;background:#f3faf6;border-radius:999px;padding:9px 13px;color:#0c5545;font-size:.85rem;text-decoration:none;font-weight:700}
+    .petr-itin-tabs>a:hover,.petr-itin-tabs>a:focus-visible{background:#daf1e3;outline:2px solid #0c6553}
+    .petr-day-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;align-items:start}
+    .petr-day-card{min-width:0;border:1px solid #c9e0d5;border-radius:21px;background:#f1f8f4;overflow:hidden;scroll-margin-top:90px;box-shadow:0 6px 16px rgba(10,60,47,.05)}
+    .petr-day-card:nth-child(3n+2){background:#fff8ea;border-color:#e9d6b5}
+    .petr-day-card>header{padding:21px 24px 12px}
+    .petr-day-card>header h3{font-size:1.28rem;color:#124c42;margin:0 0 6px}
+    .petr-day-card>header p{font-size:.92rem;color:#4c645b;margin:0;line-height:1.6}
+    .petr-day-stops{list-style:none;counter-reset:stop;display:grid;gap:0;padding:0 24px;margin:0}
+    .petr-day-stops li{position:relative;counter-increment:stop;border-left:2px solid #a9cdbf;margin-left:12px;padding:12px 0 21px 21px}
+    .petr-day-stops li:before{content:counter(stop);position:absolute;left:-14px;top:12px;width:25px;height:25px;border-radius:50%;background:#126250;color:white;font-size:.76rem;display:grid;place-items:center;font-weight:700}
+    .petr-day-stops li:last-child{border-left-color:transparent}
+    .petr-day-stops .petr-when{display:block;color:#985f28;font-size:.8rem;font-weight:800;margin-bottom:4px}
+    .petr-day-stops h4{color:#164c42;font-size:1.05rem;margin:0 0 7px}
+    .petr-day-stops p{font-size:.9rem;line-height:1.65;color:#3c594e;margin:0 0 9px}
+    .petr-day-stops a{font-size:.84rem;color:#0e5c4d;font-weight:700;text-decoration:none;border-bottom:1px solid #0e5c4d}
+    .petr-day-notes{display:grid;gap:12px;margin:0 22px 22px;border-top:1px solid #c9ddd0;padding-top:15px}
+    .petr-day-notes section{background:rgba(255,255,255,.74);padding:12px 15px;border-radius:11px}
+    .petr-day-notes section strong{color:#195143;font-size:.91rem}
+    .petr-day-notes section p{color:#4c6154;line-height:1.65;margin:6px 0 0;font-size:.9rem}
+    @media(max-width:820px){.petr-day-grid{grid-template-columns:1fr}.petr-day-card>header{padding:18px 18px 10px}.petr-day-stops{padding:0 18px}.petr-day-notes{margin:0 17px 17px}}
+    @media(max-width:560px){.petr-itin-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.petr-itin-tabs a{font-size:.76rem;padding:9px;min-width:0}.petr-day-stops li{padding-right:1px}}
+  </style>` : '';
   const photoClass = template === 'guia/emergencias' ? 'ec-guide-photo' : 'ec-inline-photo';
   const sectionCards = sections.map(({ id, title, copy, image, map: location, route, links = [], phones = [] }, index) => {
     const extra = (location ? map(location, v(mapLabel, lang)) : '') +
@@ -56,7 +105,7 @@ export function practicalGuidePage(data, photos, lang, template) {
       (image ? picture(photos[image], photoClass, lang) : '');
   }).join('');
   return {
-    title, intro, image, inline: styles(template) + `<style>
+    title, intro, image, inline: styles(template) + tripStyles + `<style>
       .guide .petr-page-contents{flex-wrap:wrap;gap:0}
       .guide .petr-urgent-actions{margin:18px 0 22px;padding:20px;background:#fff4e8;border:1px solid #e7c894;border-radius:18px}
       .guide .petr-urgent-actions h2,.guide .petr-quick-facts h2{font-size:clamp(1.24rem,2.5vw,1.55rem);color:#123e37;margin:0 0 14px}
@@ -95,6 +144,7 @@ export function practicalGuidePage(data, photos, lang, template) {
       <aside class="tip"><b>${text(tipTitle, lang)}</b>${paragraph(data.tip, lang)}</aside>
       ${picture(image, photoClass, lang, true)}
       ${contents(sections, lang, 'ext')}
+      ${planCards}
       <section class="items">${sectionCards}</section>
       <h2>${text(faqTitle, lang)}</h2>
       <section class="items">${faq.map(([q, a], index) => numbered(q, a, lang, index)).join('')}</section>
