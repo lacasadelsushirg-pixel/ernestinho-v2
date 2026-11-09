@@ -91,11 +91,15 @@ for (const route of routes) {
     if (route === area + 'guia/llegada/') {
       const chapters = [...html.matchAll(/<article id="(novo-rio|outros-pontos|aeropuertos|bingen|urbano|carro|volta|malas)"/g)];
       if (chapters.length !== 8) errors.push(name + ': expected 8 arrival chapters, got ' + chapters.length);
+      if (!html.includes('unica-facil.com.br/pontos-de-venda/'))
+        errors.push(name + ': missing official intercity operator reference');
     }
     if (route === area + 'guia/itinerarios-1-2-3-dias/') {
       if (cardsByClass('petr-day-card') !== 6) errors.push(name + ': expected 6 complete day-plan cards');
       if (cardsByClass('petr-when') !== 19) errors.push(name + ': expected 19 individually described itinerary stops');
       if (!html.includes('id="roteiro-tres-3"')) errors.push(name + ': missing third-day route');
+      if (!html.includes('museuimperial.museus.gov.br/organize-sua-visita/'))
+        errors.push(name + ': missing official Imperial Museum visitor source');
     }
     if (route === area + 'guia/mes-a-mes/') {
       if (cardsByClass('petr-month-card') !== 12 || cardsByClass('petr-season-card') !== 4)
