@@ -1,6 +1,8 @@
 import { t, card as c, section as s } from './modelo.js';
 import { soloGuide } from './petropolis-viajar-solo.js';
 import { practicalGuides } from './petropolis-guia-practica.js';
+import { arrivalGuide } from './petropolis-roteiros-chegada.js';
+import { itineraryGuide } from './petropolis-itinerarios.js';
 
 const tourism = 'https://www.petropolis.rj.gov.br/turispetro/';
 const museum = 'https://museuimperial.museus.gov.br/';
@@ -22,13 +24,8 @@ export default {
         c(t('Segundo día', 'Segundo dia', 'Day two'), t('Elige Quitandinha para arquitectura y lago, o Itaipava para almorzar y recorrer otro distrito. Calcula el traslado antes de reservar.', 'Escolha Quitandinha para arquitetura e lago ou Itaipava para almoçar e conhecer outro distrito. Calcule o deslocamento antes de reservar.', 'Choose Quitandinha for architecture and its lake, or Itaipava for lunch and a different district. Allow for the journey before booking.'), { page: 'barrios' }),
       ], t('Yo reservaría un museo y una buena pausa para comer. Así queda espacio para mirar la ciudad entre una visita y otra.', 'Eu reservaria um museu e uma boa pausa para comer. Assim sobra tempo para observar a cidade entre as visitas.', 'I’d book one museum and leave time for lunch. That gives you room to notice the city between stops.')),
     },
-    'llegada': {
-      title: t('Cómo llegar desde Río', 'Como chegar saindo do Rio', 'Getting here from Rio'),
-      ...s(t('El viaje empieza al comparar dónde sales en Río, en qué terminal llegas y cómo completas el último tramo.', 'A viagem começa comparando de onde você sai no Rio, a rodoviária de chegada e o último trecho.', 'Start by comparing where you leave from in Rio, your arrival terminal and the onward leg.'), [
-        c(t('Ómnibus intermunicipal', 'Ônibus intermunicipal', 'Intercity bus'), t('Busca Río → Petrópolis con la fecha exacta. Confirma las dos terminales y planifica la conexión desde el desembarque hasta tu primera parada.', 'Busque Rio → Petrópolis para a data exata. Confira as duas rodoviárias e planeje a conexão até sua primeira parada.', 'Search Rio → Petrópolis for your exact date. Check both terminals and plan the connection to your first stop.'), { map: 'Terminal Rodoviário Governador Leonel Brizola Petrópolis' }),
-        c(t('Auto o traslado', 'Carro ou traslado', 'Car or transfer'), t('Si vas directo desde un aeropuerto o viajas con equipaje, compara recogida y destino final. Para conducir, revisa la BR-040 y las condiciones de la sierra.', 'Se for direto do aeroporto ou viajar com bagagem, compare embarque e destino final. Se for dirigir, confira a BR-040 e as condições da serra.', 'If coming from an airport or travelling with luggage, compare pickup and drop-off. If driving, check BR-040 and conditions on the mountain road.'), { page: 'transportes' }),
-      ], t('Si vas y vuelves el mismo día, deja margen entre tu última visita y el regreso.', 'Se for e voltar no mesmo dia, deixe uma folga entre a última visita e a volta.', 'On a day trip, leave a buffer between your last visit and the return journey.')),
-    },
+    'llegada': arrivalGuide,
+    'itinerarios-1-2-3-dias': itineraryGuide,
     'clima-y-lluvia': {
       title: t('Clima de sierra y plan de lluvia', 'Clima de serra e plano de chuva', 'Mountain weather and rainy-day plans'),
       ...s(t('Prepara una capa extra y un plan bajo techo. Las vistas y los senderos lucen más cuando puedes elegir el momento.', 'Prepare uma camada extra e um programa coberto. Mirantes e trilhas rendem mais quando você pode escolher o momento.', 'Pack an extra layer and plan an indoor option. Viewpoints and trails are better when you can choose the timing.'), [
