@@ -1,0 +1,100 @@
+import { t } from './modelo.js';
+
+// Guías originales de Petrópolis. Fechas, precios y horarios de servicios sujetos a confirmación.
+const chapter = (id,title,copy,options={}) => ({id,title,copy,...options});
+const step = (time,title,copy,location) => ({time,title,copy,location});
+const day = (id,title,strap,steps,transport,rain) => ({id,title,strap,steps,transport,rain});
+const operator = ['https://unica-facil.com.br/pontos-de-venda/','Única/Fácil · puntos de venta y atención'];
+const museum = ['https://museuimperial.museus.gov.br/organize-sua-visita/','Museu Imperial · información oficial para visitantes'];
+const tourism = ['https://www.pcvb.com.br/como-chegar.asp','Convention Bureau · cómo llegar a Petrópolis'];
+const park = ['https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos/guia-do-visitante/guia-do-visitante-1','ICMBio · PARNASO guía de visitantes'];
+const cityEvents = ['https://www.petropolis.rj.gov.br/turispetro/','Turispetro · turismo municipal'];
+const cityMap = ['https://www.pcvb.com.br/informacoes-turisticas','Convention Bureau · puestos de información turística'];
+
+export const arrivalGuide = {
+  title:t('Cómo llegar a Petrópolis desde Río','Como chegar a Petrópolis saindo do Rio','Getting to Petrópolis from Rio'),
+  intro:t('No basta con elegir el transporte: distingue la salida en Río, la rodoviaria de Bingen y el último tramo hasta el Centro, Quitandinha o Itaipava. Aquí puedes organizar ambos sentidos del viaje.',
+    'Não basta escolher o transporte: diferencie o embarque no Rio, a rodoviária do Bingen e o último trecho até o Centro, Quitandinha ou Itaipava. Organize a ida e a volta.',
+    'Choosing a bus or car is only the beginning: distinguish your Rio departure point, Bingen intercity station and the final leg to downtown, Quitandinha or Itaipava. Plan both directions here.'),
+  image:'terminal-bingen',
+  quickFacts:[
+    [t('Bus desde Río','Ônibus saindo do Rio','Bus from Rio'), 'Única/Fácil',t('Novo Rio y otros puntos: consulta si tu servicio sale del terminal elegido.',
+      'Novo Rio e outros pontos: confira se a viagem parte do terminal escolhido.',
+      'Novo Rio and other locations: confirm the departure point for your specific service.')],
+    [t('Llegada a Petrópolis','Chegada a Petrópolis','Arriving in Petrópolis'),'Bingen',t('La rodoviaria intermunicipal no está junto a los museos del Centro.',
+      'A rodoviária intermunicipal não fica ao lado dos museus do Centro.',
+      'The intercity bus station is away from the downtown museums.')],
+    [t('Último tramo','Último trecho','Final connection'),'100 / 150',t('100 hacia el Centro; 150 hacia Terminal Corrêas. Confirma sentido y parada.',
+      '100 para o Centro; 150 para o Terminal Corrêas. Confira sentido e ponto.',
+      '100 towards downtown; 150 towards Terminal Corrêas. Check direction and stop.')],
+  ],
+  tip:t('En una excursión por el día, yo elegiría primero la hora del regreso a Río y recién después organizaría los museos. Desde Bingen hasta el Centro hay otro trayecto: no programes la última visita justo antes de la salida de tu bus.',
+    'Num bate-volta, eu escolheria primeiro o horário da volta ao Rio e só depois distribuiria os museus. Do Bingen ao Centro há outro deslocamento: não deixe a última visita colada no horário do ônibus.',
+    'For a day trip, I would choose the return coach first and build the museums around it. Bingen and downtown are separate stops; do not finish your last attraction just before your coach leaves.'),
+  sections:[
+    chapter('novo-rio',t('1. Salir desde la Rodoviária Novo Rio','1. Partir da Rodoviária Novo Rio','1. Depart from Rodoviária Novo Rio'),
+      t('La terminal intermunicipal Novo Rio queda en Avenida Francisco Bicalho 1, Santo Cristo. Única/Fácil publica ventanillas 82 y 83 para atención. Compra o consulta “Rio de Janeiro → Petrópolis” para tu fecha y verifica el punto exacto de embarque impreso en el billete. El horario de la ventanilla no significa que haya un bus saliendo a esa hora.',
+        'A Rodoviária Novo Rio fica na Avenida Francisco Bicalho 1, Santo Cristo. A Única/Fácil informa guichês 82 e 83. Na compra Rio de Janeiro → Petrópolis, confira a data e o local de embarque do bilhete. Horário de atendimento no guichê não é o mesmo que horário de partida dos ônibus.',
+        'Novo Rio intercity station is at Avenida Francisco Bicalho 1, Santo Cristo. Única/Fácil lists ticket desks 82 and 83. Book Rio de Janeiro → Petrópolis for your exact date and verify the boarding point printed on your ticket. Ticket-desk opening hours are not bus departure times.'),
+      {map:'Rodoviária Novo Rio, Avenida Francisco Bicalho 1, Santo Cristo, Rio de Janeiro, RJ, Brasil',links:[operator]}),
+    chapter('outros-pontos',t('2. Barra, Centro y otros puntos: consulta tu salida','2. Barra, Centro e outros pontos: confira sua partida','2. Barra, central Rio and other sales points'),
+      t('El operador publica atención en Terminal Alvorada (Barra), Terminal Menezes Cortes (Castelo) y otros lugares. Esos puntos pueden tener servicios y condiciones diferentes de Novo Rio. No compres un billete de Novo Rio suponiendo que puedes subir en Barra: consulta en la búsqueda o al operador si hay embarque en tu punto para la fecha, hora y sentido deseados.',
+        'A transportadora informa atendimento no Terminal Alvorada (Barra), Terminal Menezes Cortes (Castelo) e outros locais. Os serviços e condições podem diferir dos de Novo Rio. Não compre bilhete de Novo Rio presumindo embarque na Barra: confirme na busca ou com a empresa o ponto de embarque na data, hora e sentido escolhidos.',
+        'The operator lists service points at Terminal Alvorada in Barra and Terminal Menezes Cortes in Castelo, among others. These are not interchangeable with Novo Rio. Do not buy a Novo Rio ticket expecting to board in Barra: confirm whether your chosen origin is offered on the exact date, time and direction.'),
+      {map:'Terminal Alvorada, Barra da Tijuca, Rio de Janeiro, RJ, Brasil',links:[operator]}),
+    chapter('aeropuertos',t('3. Llegas por GIG o SDU: cómo conectar','3. Chegada pelo GIG ou SDU: como conectar','3. Arriving at GIG or SDU airports'),
+      t('Desde Galeão (GIG) y Santos Dumont (SDU) compara dos estrategias: ir hasta la terminal desde la que realmente parte tu bus, o reservar un traslado directo hasta tu dirección en Petrópolis. No supongas que existe un servicio intermunicipal desde la puerta del aeropuerto por tener un punto de venta en otro terminal. Con maletas, niños o un vuelo tardío, confirma el tiempo de conexión antes de comprar billetes separados.',
+        'Do Galeão (GIG) ou Santos Dumont (SDU), compare duas estratégias: ir até o terminal de partida efetivo do ônibus ou reservar traslado direto ao endereço em Petrópolis. Não presuma saída intermunicipal da porta do aeroporto só porque há guichê em outro terminal. Com malas, crianças ou voo tarde, confira tempo de conexão antes de comprar bilhetes separados.',
+        'From Galeão (GIG) or Santos Dumont (SDU), compare reaching your coach’s actual Rio departure terminal with a pre-booked door-to-door transfer. Do not assume an intercity coach leaves directly outside the airport. With luggage, children or a late arrival, check transfer time before buying separate tickets.'),
+      {map:'Aeroporto Internacional Tom Jobim GIG, Rio de Janeiro, RJ, Brasil',links:[operator]}),
+    chapter('bingen',t('4. Bingen: la rodoviaria de llegada','4. Bingen: a rodoviária de chegada','4. Bingen: your arrival station'),
+      t('Los buses intermunicipales de Río llegan al Terminal Rodoviário Governador Leonel Brizola, junto a la BR-040 (km 82,9). Es la rodoviaria de Petrópolis, pero no está en el Centro Histórico: el Museu Imperial y la Catedral requieren continuar el trayecto. En el interior hay un sector de buses urbanos y un punto de información turística cuyos horarios debes comprobar por separado.',
+        'Os ônibus intermunicipais do Rio chegam ao Terminal Rodoviário Governador Leonel Brizola, junto à BR-040 (km 82,9). É a rodoviária de Petrópolis, mas não fica no Centro Histórico: Museu Imperial e Catedral exigem deslocamento. Há setor de ônibus urbanos e atendimento de informação turística, com horários próprios.',
+        'Intercity coaches from Rio arrive at Terminal Rodoviário Governador Leonel Brizola by BR-040 (km 82.9). This is Petrópolis’s intercity bus station, not the historic centre: the Imperial Museum and cathedral require an onward trip. Local buses and a tourist-information point have separate opening and service arrangements.'),
+      {map:'Terminal Rodoviário Governador Leonel Brizola, Bingen, Petrópolis, RJ, Brasil',route:'guia/terminales/',links:[operator,cityMap]}),
+    chapter('urbano',t('5. Desde Bingen al Centro o a Corrêas','5. Do Bingen ao Centro ou a Corrêas','5. Bingen to downtown or Corrêas'),
+      t('La 100 conecta Rodoviária Bingen con el Centro; la 150 lleva hacia el Terminal Corrêas. Verifica el cartel de destino, sentido y plataforma. Para Museu Imperial, busca dónde bajar en el Centro y comprueba la distancia hasta Rua da Imperatriz 220. Quitandinha e Itaipava necesitan otros recorridos; no son dos paradas más de la línea 100.',
+        'A 100 liga Rodoviária Bingen ao Centro; a 150 segue ao Terminal Corrêas. Confira letreiro, sentido e plataforma. Para o Museu Imperial, escolha onde descer no Centro e veja a caminhada até Rua da Imperatriz 220. Quitandinha e Itaipava exigem outros deslocamentos; não são paradas seguintes da linha 100.',
+        'Route 100 links Bingen with downtown, while 150 heads towards Terminal Corrêas. Check the sign, direction and boarding area. For the Imperial Museum, choose a downtown stop and check the walk to Rua da Imperatriz 220. Quitandinha and Itaipava require other connections; they are not extra stops on route 100.'),
+      {map:'Terminal Rodoviário Governador Leonel Brizola, Bingen, Petrópolis, RJ, Brasil',route:'transportes/onibus/'}),
+    chapter('carro',t('6. Auto o traslado por la BR-040','6. Carro ou traslado pela BR-040','6. Car or transfer via BR-040'),
+      t('Desde Río, la BR-040 es el corredor principal de subida a Petrópolis. Elige de antemano si terminarás en Bingen, Centro, Quitandinha, Corrêas o Itaipava: el municipio es extenso y una dirección rural cambia mucho el costo y duración del recorrido. Antes de salir consulta tráfico, lluvia, peajes y restricciones vigentes. Evita prometer un tiempo fijo para un aeropuerto o un encuentro.',
+        'Do Rio, a BR-040 é o principal corredor de subida a Petrópolis. Defina antes se o destino final é Bingen, Centro, Quitandinha, Corrêas ou Itaipava: o município é extenso e endereços rurais mudam tempo e preço. Antes de sair confira trânsito, chuva, pedágios e restrições. Evite contar com horário fixo para conexões com voos.',
+        'BR-040 is the main road corridor from Rio into Petrópolis. Set your precise final destination—Bingen, downtown, Quitandinha, Corrêas or Itaipava—before comparing transfers: rural addresses can greatly change distance and cost. Check traffic, rain, tolls and restrictions before departure; never rely on a fixed journey time for a flight.'),
+      {map:'BR-040, Petrópolis, RJ, Brasil',links:[tourism]}),
+    chapter('volta',t('7. El regreso a Río: organiza antes de subir','7. A volta ao Rio: organize antes da subida','7. Returning to Rio: plan it before departure'),
+      t('Verifica en el billete de regreso desde qué terminal sale tu bus, la hora de presentación y las reglas de equipaje. No confundas la atención del guichê de Bingen con la última salida. Desde el Centro guarda el sentido de la línea 100 hacia Bingen o reserva un traslado que termine en la terminal correcta. En domingos, feriados y lluvias deja un margen extra para desplazarte.',
+        'Veja no bilhete de volta de qual terminal sai o ônibus, a antecedência exigida e as regras de bagagem. Não confunda o horário do guichê do Bingen com a última partida. Do Centro, salve o sentido da linha 100 para o Bingen ou combine traslado até a rodoviária correta. Em domingo, feriado ou chuva, deixe folga adicional.',
+        'Check the terminal, suggested arrival time and luggage rules on your return ticket. Bingen ticket-desk hours are not the last coach departure. From downtown, save route 100 in the direction of Bingen or prearrange transport to the correct station. Allow extra time on Sundays, public holidays and rainy days.'),
+      {map:'Terminal Rodoviário Governador Leonel Brizola, Bingen, Petrópolis, RJ, Brasil',links:[operator]}),
+    chapter('malas',t('8. Equipaje, accesibilidad y primer recorrido','8. Bagagem, acessibilidade e primeiro passeio','8. Bags, accessibility and your first itinerary'),
+      t('Con una mochila pequeña, el Centro puede recorrerse a pie entre las atracciones principales. Si llevas equipaje, confirma por adelantado una consigna o la recepción del alojamiento: no hay garantía de guarda-volúmenes abierto en Bingen. Si necesitas movilidad adaptada, acuerda la recogida y confirma cómo entrar al Museu Imperial. Con lluvia fuerte y alerta de Defensa Civil, no continúes automáticamente por calles inundadas.',
+        'Com mochila pequena, é fácil percorrer o Centro a pé entre as atrações principais. Com malas, confirme guarda-volumes ou recepção da hospedagem com antecedência: não há garantia de guarda aberto no Bingen. Se precisar de transporte adaptado, combine embarque e acesso ao Museu Imperial. Com chuva forte e alerta da Defesa Civil, não continue por áreas alagadas.',
+        'With a daypack, the historic centre is walkable. With luggage, confirm storage or accommodation reception ahead: an open luggage service at Bingen is not guaranteed. If you need an accessible vehicle, arrange pickup and confirm the Imperial Museum entrance. During serious rain or Civil Defence alerts, do not proceed through flooded streets.'),
+      {route:'guia/guarda-equipaje/'}),
+  ],
+  faq:[
+    [t('¿Se puede subir desde Río y volver el mismo día?','Dá para subir do Rio e voltar no mesmo dia?','Can I visit Petrópolis from Rio in one day?'),
+      t('Sí: reserva pasajes en ambos sentidos y elige un circuito compacto en el Centro. No planifiques Quitandinha, Itaipava y todos los museos juntos en el mismo día.',
+        'Sim: organize passagens nos dois sentidos e escolha roteiro compacto no Centro. Não tente juntar Quitandinha, Itaipava e todos os museus no mesmo bate-volta.',
+        'Yes. Plan the return coach and keep your visit compact in the historic centre rather than combining every museum with Quitandinha and Itaipava.')],
+    [t('¿Llego caminando de Bingen al Museu Imperial?','Dá para ir andando do Bingen ao Museu Imperial?','Can I walk from Bingen to Museu Imperial?'),
+      t('No es el traslado turístico práctico con maletas. Usa la 100 al Centro, taxi o aplicación, y revisa el último tramo hasta Rua da Imperatriz.',
+        'Não é o deslocamento turístico prático com malas. Use a linha 100 ao Centro, táxi ou aplicativo, e confira o trecho final até a Rua da Imperatriz.',
+        'It is not a practical tourist transfer with luggage. Take route 100 downtown, a taxi or a ride app, and check the final walk to Rua da Imperatriz.')],
+    [t('¿Novo Rio y Alvorada son la misma terminal?','Novo Rio e Alvorada são a mesma rodoviária?','Are Novo Rio and Alvorada the same station?'),
+      t('No. Son puntos diferentes de Río; el operador lista atención en ambos, pero debes comprobar la salida ofrecida para tu billete.',
+        'Não. São pontos distintos do Rio; a empresa indica atendimento em ambos, mas confira o embarque correspondente à passagem.',
+        'No. They are different locations in Rio. The operator lists service points at both, but you must confirm your ticket’s exact boarding point.')],
+    [t('¿Hay un precio u horario de viaje fijo?','Há tarifa ou tempo de viagem fixo?','Is the fare or journey time fixed?'),
+      t('No. El valor, disponibilidad, recorrido y duración dependen de la fecha y del punto de salida. Consulta la venta oficial y el estado de la BR-040.',
+        'Não. Preço, disponibilidade, itinerário e duração variam pela data e origem. Consulte a venda oficial e o trânsito na BR-040.',
+        'No. Prices, availability, routes and travel time vary by date and departure point. Check the operator and BR-040 conditions.')],
+  ],
+  relatedLinks:[
+    ['guia/terminales/',t('Terminales y correspondencias','Terminais e conexões','Stations and transfers')],
+    ['transportes/onibus/',t('Líneas 100 y 150','Linhas 100 e 150','Routes 100 and 150')],
+    ['guia/itinerarios-1-2-3-dias/',t('Itinerarios de 1, 2 y 3 días','Roteiros de 1, 2 e 3 dias','1, 2 and 3-day itineraries')],
+  ],
+  sources:[operator,museum,tourism,cityMap],
+};
