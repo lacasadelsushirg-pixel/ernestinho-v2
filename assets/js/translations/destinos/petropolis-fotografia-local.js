@@ -42,9 +42,9 @@ export const morePhotoSpots = [
     copy: t('En vez de buscar un palacio más, fotografía los detalles de una vivienda de colonos de 1847: materiales, ventanas y proporciones. Deja espacio para contar la historia de quienes construyeron la ciudad.',
       'Em vez de mais um palácio, fotografe os detalhes da casa de colonos de 1847: materiais, janelas e proporções. Deixe espaço para contar a história de quem construiu a cidade.',
       'Instead of another palace, photograph the details of an 1847 settler house: materials, windows and proportions. Leave room to tell the story of the people who built the city.'),
-    arrival: t('La Casa do Colono está en Rua Cristóvão Colombo 1034, fuera del circuito central a pie. Organiza la ida y la vuelta antes de salir.',
-      'A Casa do Colono fica na Rua Cristóvão Colombo 1034, fora do circuito central a pé. Planeje ida e volta.',
-      'Casa do Colono is at Rua Cristóvão Colombo 1034, beyond the downtown walking route. Plan your journeys in both directions.'),
+    arrival: t('La Casa do Colono está en Rua Cristóvão Colombo 1034, fuera del circuito de museos a pie. Desde el Centro compara una conexión urbana con taxi o app y confirma la ruta de regreso antes de salir.',
+      'A Casa do Colono fica na Rua Cristóvão Colombo 1034, fora do circuito de museus a pé. Do Centro, compare uma conexão de ônibus com táxi ou aplicativo e confira o trajeto de volta antes de sair.',
+      'Casa do Colono is at Rua Cristóvão Colombo 1034, beyond the downtown museum walk. From the centre compare a local bus connection with a taxi or app ride, and plan your return before leaving.'),
   },
   {
     name: 'Casa da Ipiranga · Casa dos Sete Erros', image: 'casa-ipiranga',
