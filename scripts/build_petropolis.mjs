@@ -8,6 +8,9 @@ import { photographyCards } from './regional_photography.mjs';
 import { petrSpotInfo } from '../assets/js/translations/destinos/fotografia-regional.js';
 import { extraCards, transport } from '../assets/js/translations/destinos/petropolis-practico.js';
 
+import { morePhotoSpots } from '../assets/js/translations/destinos/petropolis-fotografia-local.js';
+import { localPhotos, photoCredit } from '../assets/js/translations/destinos/petropolis-fotos.js';
+
 const base = '/destinos/petropolis/';
 const earlier = '/FOTOS/HOME/DESTINOS/20261107-plantillas/petropolis/';
 const current = '/FOTOS/HOME/DESTINOS/20261108-petropolis/';
@@ -24,7 +27,8 @@ const assets = {
   'catedral-paisaje': [current, 'Catedral São Pedro de Alcântara'],
   'palacio-rio-negro': ['/assets/images/destinos/lugares/petropolis/', 'Palácio Rio Negro'],
 };
-export const petrPhotos = Object.fromEntries(Object.entries(assets).map(([key, [folder, alt]]) => [key, { src: folder + key + '.webp', alt }]));
+const petrBasePhotos = Object.fromEntries(Object.entries(assets).map(([key, [folder, alt]]) => [key, { src: folder + key + '.webp', alt }]));
+export const petrPhotos = { ...petrBasePhotos, ...localPhotos };
 export const petrDetailRoutes = [
   ...venueRoutes,
   ...Object.entries(placeSections).flatMap(([key, slugs]) => slugs.map(slug => [key, slug])),
@@ -128,7 +132,10 @@ function photography(city, lang) {
     const [area, time, access, arrival] = petrSpotInfo[index];
     return { name: places[slug].name, photo: petrPhotos[photo], query, copy, area, time, access, arrival };
   });
-  return { title, intro, body: cover(title, intro, lang) + photographyCards(spots, lang, city.name), inline: styles('fotografia') };
+  spots.push(...morePhotoSpots.map(({ image, ...spot }) => ({ ...spot, photo: petrPhotos[image] })));
+  const credits = morePhotoSpots.map(({ image }) => photoCredit(petrPhotos[image], lang)).filter(Boolean);
+  return { title, intro, body: cover(title, intro, lang) + photographyCards(spots, lang, city.name) +
+    `<aside class="editorial"><ul>${credits.map(credit => '<li>' + credit + '</li>').join('')}</ul></aside>`, inline: styles('fotografia') };
 }
 
 export const regionalTransportRoutes = Object.entries(regionalTransport).flatMap(([city, modes]) =>
