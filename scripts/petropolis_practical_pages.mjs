@@ -98,19 +98,28 @@ export function petropolisTransportPage(data, mode, title, intro, photos, lang) 
   const hero = photoFirst ? `<img class="hero-image" src="${esc(image.src)}" alt="${esc(image.alt)}" fetchpriority="high">
     <div class="guide-photo-caption">${esc(image.alt)}${image.author ? ' · ' + photoCredit(image, lang) : ''}</div>` : picture(image, 'guide-photo guide-hero-photo', lang, true);
   const mapButton = location => map(location, v(mapLabel, lang)).replace('class="ext"', 'class="text-action"');
-  const planRoute = (from, to) => external([
+  const planRoute = (from, to, isReturn = false) => external([
     'https://www.google.com/maps/dir/?' + new URLSearchParams({ api: '1', origin: from, destination: to, travelmode: 'transit' }),
-    t('Planificar el trayecto en el mapa', 'Planejar o trajeto no mapa', 'Plan the trip on the map'),
+    isReturn
+      ? t('Planificar regreso en el mapa', 'Planejar a volta no mapa', 'Plan the return on the map')
+      : t('Planificar ida en el mapa', 'Planejar a ida no mapa', 'Plan the outbound trip on the map'),
   ], lang, 'source-link');
   const connectionGuide = data.connections ? `<section id="trayectos" class="guide-section">
     <h2>${text(connectionsTitle, lang)}</h2>
     ${paragraph(t('Elige tu trayecto y consulta el sentido de ida y vuelta para el día que viajas.',
       'Escolha seu trajeto e confira os sentidos de ida e volta para o dia da viagem.',
       'Choose your route and check both directions for your travel date.'), lang)}
-    <ul class="petr-connections">${data.connections.map(({ title, service, boarding, location, from, links }) =>
+    <p class="petr-info-date">${text(t('Recorridos y horarios de referencia consultados el 9 de noviembre de 2026. No son un rastreador de vehículos en vivo; confirma el servicio antes de salir.',
+      'Itinerários e horários de referência consultados em 9 de novembro de 2026. Não é rastreamento ao vivo; confira o serviço antes de sair.',
+      'Reference routes and timetables checked on 9 November 2026. This is not live vehicle tracking; confirm service before travelling.'), lang)}</p>
+    <ul class="petr-connections">${data.connections.map(({ title, service, boarding, location, from, links, stops = [], serviceNote }) =>
       `<li class="aside-card"><span class="fact-pill">${esc(service)}</span><h3>${text(title, lang)}</h3>
-        ${paragraph(boarding, lang)}${mapButton(location)}
-        <div class="source-list">${links.map(source => external(source, lang, 'source-link')).join('')}${from ? planRoute(from, location) : ''}</div></li>`).join('')}</ul>
+        ${paragraph(boarding, lang)}
+        ${stops.length ? `<div class="petr-route-stops"><strong>${text(t('Paradas y puntos de referencia principales', 'Pontos e referências principais', 'Key stops and landmarks'), lang)}</strong>
+          <ol>${stops.map(stop => `<li>${esc(stop)}</li>`).join('')}</ol></div>` : ''}
+        ${serviceNote ? `<div class="petr-service-note">${paragraph(serviceNote, lang)}</div>` : ''}
+        <div class="petr-route-actions">${mapButton(location)}${from ? planRoute(from, location) + planRoute(location, from, true) : ''}</div>
+        <div class="source-list">${links.map(source => external(source, lang, 'source-link')).join('')}</div></li>`).join('')}</ul>
     </section>` : '';
   const navigation = data.connections ? [{ id: 'trayectos', title: connectionsTitle }, ...sections] : sections;
   const chapter = ({ id, title, copy, map: location, image, links = [], tone = '' }) =>
@@ -128,6 +137,16 @@ export function petropolisTransportPage(data, mode, title, intro, photos, lang) 
     .petr-connections .fact-pill{margin:0 0 8px}
     .petr-connections h3{margin:0 0 8px}
     .petr-connections .source-list{margin-top:10px}
+    .petr-info-date{font-size:.88rem;line-height:1.6;color:#465d57;margin:1rem 0}
+    .petr-route-stops{margin:16px 0 12px}
+    .petr-route-stops strong{display:block;font-size:.88rem;margin-bottom:10px;color:#173d38}
+    .petr-route-stops ol{list-style:none;padding:0;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0}
+    .petr-route-stops li{display:inline-flex;align-items:center;background:#e9f4f1;color:#15554c;border:1px solid #c8e3db;border-radius:12px;padding:7px 9px;font-size:.85rem;line-height:1.4}
+    .petr-route-stops li+li::before{content:'→';font-weight:bold;margin-right:8px;color:#286e61}
+    .petr-service-note{border-left:4px solid #e5a735;padding:9px 12px;background:#fff7e9;margin:12px 0}
+    .petr-service-note p{margin:0;font-size:.95rem;line-height:1.7}
+    .petr-route-actions{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 6px}
+    @media(max-width:540px){.petr-route-stops ol{display:grid;gap:6px}.petr-route-stops li{width:100%;box-sizing:border-box}.petr-route-actions{display:grid}}
   </style>` : '';
   return {
     title, intro, image, inline: styles('transportes/uber') + '<style>.guide-aside .petr-page-contents{display:block}.guide-photo-caption{margin-top:9px;color:#61706a;font-size:13px;line-height:1.5}</style>' + connectionStyles, css: ['transit-guides'],
