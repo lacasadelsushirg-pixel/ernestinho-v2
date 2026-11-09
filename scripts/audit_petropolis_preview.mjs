@@ -76,11 +76,22 @@ for (const route of routes) {
       [area + 'guia/terminales/', 4],
       [area + 'guia/accesibilidad/', 3],
       [area + 'guia/guarda-equipaje/', 3],
+      [area + 'guia/viajar-solo/', 3],
     ];
     for (const [guideRoute, expected] of guideCardExpectations) {
       if (route === guideRoute && cardsByClass('petr-fact-card') !== expected) {
         errors.push(name + ': expected ' + expected + ' practical guide choice cards');
       }
+    }
+    if (route === area + 'guia/mes-a-mes/') {
+      if (cardsByClass('petr-month-card') !== 12 || cardsByClass('petr-season-card') !== 4)
+        errors.push(name + ': expected 12 month recommendations and 4 seasonal cards');
+      const rainyChoices = [...html.matchAll(/class="petr-month-advice"/g)];
+      if (rainyChoices.length !== 12) errors.push(name + ': incomplete practical month-by-month advice');
+    }
+    if (route === area + 'guia/viajar-solo/') {
+      const sections = [...html.matchAll(/<article id="(bingen-dia|dos-dias|lluvia-solo|senderos)"/g)];
+      if (sections.length !== 4) errors.push(name + ': missing new solo-travel routes');
     }
     if (route === area + 'guia/emergencias/') {
       const emergencyCalls = [...html.matchAll(/href="tel:(192|193|190|199)"/g)];
