@@ -27,6 +27,8 @@ const selected = [
   '/destinos/petropolis/guia/mes-a-mes/',
   '/destinos/petropolis/guia/llegada/',
   '/destinos/petropolis/guia/itinerarios-1-2-3-dias/',
+  '/destinos/petropolis/guia/sin-auto/',
+  '/destinos/petropolis/guia/primera-visita/',
 ];
 for (const route of selected) if (!regionalRoutes.includes(route)) throw Error('Missing selected route: ' + route);
 const outArg = process.argv.find(a => a.startsWith('--out='));
@@ -117,6 +119,17 @@ try{
             itineraryCards:document.querySelectorAll('.petr-day-card').length,
             itineraryStops:document.querySelectorAll('.petr-when').length,
             urgentDialLinks:document.querySelectorAll('.petr-urgent-actions a[href^="tel:"]').length,
+            iaMobileDock:(()=>{
+              const launcher=document.querySelector('.ec-cariocia-launcher');
+              const actions=document.querySelector('.ec-global-actions');
+              if(!launcher||!actions)return null;
+              const a=launcher.getBoundingClientRect(),b=actions.getBoundingClientRect();
+              return {avatar:{left:Math.round(a.left),right:Math.round(a.right),top:Math.round(a.top),bottom:Math.round(a.bottom)},
+                actions:{left:Math.round(b.left),right:Math.round(b.right),top:Math.round(b.top),bottom:Math.round(b.bottom)},
+                avatarVisible:a.width>0&&a.height>0,
+                sideBySide:a.right+3<=b.left,
+                bottomAligned:Math.abs(a.bottom-b.bottom)<=18};
+            })(),
             mobileGuideControls:(()=>{
               const dock=document.querySelector('.ec-global-actions');
               if(!dock||!document.querySelector('.petr-local-guide,.petr-month-guide'))return null;
@@ -155,6 +168,8 @@ try{
           '/destinos/petropolis/guia/viajar-solo/':3,
           '/destinos/petropolis/guia/llegada/':3,
           '/destinos/petropolis/guia/itinerarios-1-2-3-dias/':3,
+          '/destinos/petropolis/guia/sin-auto/':4,
+          '/destinos/petropolis/guia/primera-visita/':3,
         };
         if (Object.hasOwn(practicalCardCounts,route) && metrics.quickCards!==practicalCardCounts[route])
           failures.push({route,viewport:vp.width,reason:'Practical guide cards missing',count:metrics.quickCards});
@@ -167,7 +182,14 @@ try{
         if(route.includes('/guia/')&&vp.width===390){
           const dock=metrics.mobileGuideControls;
           if(!dock||!dock.visible||dock.flexDirection!=='row'||dock.top<vp.height-86)
-            failures.push({route,viewport:vp.width,reason:'Floating controls still obstruct main mobile reading area',dock});
+            failures.push({route,viewport:vp.width,reason:'Floating actions are not aligned near the mobile footer',dock});
+        }
+        if(vp.width===390){
+          const floating=metrics.iaMobileDock;
+          if(!floating||!floating.avatarVisible||!floating.sideBySide||!floating.bottomAligned
+             ||floating.avatar.top<vp.height-95||floating.actions.top<vp.height-95){
+            failures.push({route,viewport:vp.width,reason:'AI avatar and action buttons do not share safe mobile dock',floating});
+          }
         }
       }catch(error){failures.push({route,viewport:vp.width,error:error.message});}
       finally{await page.close();}
