@@ -2,11 +2,11 @@
 
 ## Qué se protege automáticamente
 La compilación de Hostinger se detiene ANTES de generar/persistir contenido cuando `scripts/guard_approved_content.mjs` detecta:
-- cambios en cualquiera de las 586 páginas HTML aprobadas enumeradas en `docs/FROZEN_PAGES_20260930.json`;
-- cambios en el registro de hashes mismo (su blob está anclado dentro del guard y NO puede regenerarse para justificar cambios);
+- cambios nuevos en cualquiera de las 586 páginas del registro, respecto de la última versión **efectivamente publicada** en Hostinger (commit `02968a27acd166e06b66c95df8f20074de881429`), mediante el snapshot provisional `docs/PUBLISHED_PROTECTION_SNAPSHOT_20261109.json`;
+- cambios en el registro de aprobaciones histórico **o** en el snapshot de publicación provisional (ambos anclados dentro del guard);
 - cambios en los recursos compartidos críticos de cabecera, estilos, idioma, portada y ruta /quiero/ enumerados en el guard.
 
-El guard también se ejecuta con `node scripts/guard_approved_content.mjs` y en el workflow CI `Protect approved content`. No modifica archivos.
+El guard se ejecuta con `node scripts/guard_approved_content.mjs` y en CI. **Hallazgo previo:** el manifiesto histórico ya difería en 246 de 586 archivos antes de instalar la barrera; estos 246 NO se consideran aprobados. Para seguir publicando mejoras ajenas sin darles aprobación, el guard bloquea cambios NUEVOS frente al último código publicado y deja intactos los hashes históricos. Ejecutar `node scripts/report_legacy_approval_drift.mjs` para obtener el inventario completo. GitHub Actions publica ese informe como artefacto. Los 246 deben revisarse individualmente, sin actualizar hashes en masa.
 
 ## Reglas para los asistentes y Work
 1. No tocar páginas aprobadas ni recursos críticos sin autorización *específica* del propietario para cada grupo de cambios. Solicitar autorización ANTES, no después.

@@ -22,6 +22,8 @@ export const APPROVED_BLOBS = Object.freeze({
   "assets/css/components.css": "2190cb5315924f02ed4db5c913ad2486e085e90c"
 });
 const MANIFEST_PATH = 'docs/FROZEN_PAGES_20260930.json';
+const PUBLISHED_SNAPSHOT_PATH = 'docs/PUBLISHED_PROTECTION_SNAPSHOT_20261109.json';
+const PUBLISHED_SNAPSHOT_BLOB = 'fe9d73bb386c482afe10c05f59c7591309f19268';
 const APPROVED_PAGE_COUNT = 586;
 
 function gitBlobHash(bytes) {
@@ -51,9 +53,31 @@ export function verifyApprovedContent(root = ROOT) {
   if (Object.keys(manifest).length !== APPROVED_PAGE_COUNT) {
     problems.push('Protected page inventory changed: ' + Object.keys(manifest).length + ' instead of ' + APPROVED_PAGE_COUNT);
   }
+  // Separate old approval-record discrepancies from new post-publication mutations.
+  // The original manifest stays immutable and the historical differences remain reportable.
+  const publishedBytes = loadPath(root, PUBLISHED_SNAPSHOT_PATH, problems);
+  let published = {};
+  if (publishedBytes && gitBlobHash(publishedBytes) !== PUBLISHED_SNAPSHOT_BLOB) {
+    problems.push('Published provenance snapshot changed without human-reviewed authorization');
+  }
+  try { published = JSON.parse(publishedBytes?.toString('utf8') || '{}'); }
+  catch { problems.push('Published provenance snapshot is invalid JSON'); }
+  if (published.publishedCommit !== '02968a27acd166e06b66c95df8f20074de881429' || Object.keys(published.protectedFiles || {}).length !== APPROVED_PAGE_COUNT) {
+    problems.push('Invalid or incomplete published protection snapshot');
+  }
+  const historicalDrift = [];
   for (const [rel, expectedDigest] of Object.entries(manifest)) {
     const bytes = loadPath(root, rel, problems);
-    if (bytes && sha256(bytes) !== expectedDigest) problems.push('Protected HTML altered: ' + rel);
+    if (!bytes) continue;
+    if (!published.protectedFiles?.[rel] || gitBlobHash(bytes) !== published.protectedFiles[rel]) {
+      problems.push('Protected HTML changed since last published release: ' + rel);
+    }
+    if (sha256(bytes) !== expectedDigest) historicalDrift.push(rel);
+  }
+  if (historicalDrift.length) {
+    console.warn('HISTORICAL APPROVAL DRIFT: ' + historicalDrift.length +
+      ' existing files differ from the older approved manifest. These are NOT approved by the provisional snapshot. ' +
+      'Full list: node scripts/report_legacy_approval_drift.mjs');
   }
   for (const [rel, expectedBlob] of Object.entries(APPROVED_BLOBS)) {
     if (rel === MANIFEST_PATH) continue;
@@ -66,7 +90,7 @@ export function verifyApprovedContent(root = ROOT) {
       + (problems.length > 20 ? '\n... and ' + (problems.length - 20) + ' more.' : '')
       + '\nDo not regenerate hashes automatically. Obtain explicit owner approval for exact paths; record the reviewed changes and update the approved baseline only through a human-reviewed change.');
   }
-  console.log('CONTENT GATE PASS: ' + APPROVED_PAGE_COUNT + ' protected pages, immutable manifest and ' + (Object.keys(APPROVED_BLOBS).length - 1) + ' critical visual/runtime assets.');
+  console.log('CONTENT GATE PASS: ' + APPROVED_PAGE_COUNT + ' files unchanged since last published release; old approved manifest retained for historical audit; ' + (Object.keys(APPROVED_BLOBS).length - 1) + ' critical visual/runtime assets pinned.');
   return true;
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

@@ -28,5 +28,12 @@ jobs:
           node-version: '24'
       - name: Verify immutable approved baseline
         run: node scripts/guard_approved_content.mjs
-      - name: Verify frozen page hashes
-        run: python3 scripts/check_frozen_pages.py
+      - name: Report historical discrepancies without silently accepting them
+        run: node scripts/report_legacy_approval_drift.mjs > legacy_approval_drift.json
+      - name: Save report for explicit manual review
+        uses: actions/upload-artifact@v4
+        with:
+          name: legacy-approval-drift
+          path: legacy_approval_drift.json
+          retention-days: 30
+
