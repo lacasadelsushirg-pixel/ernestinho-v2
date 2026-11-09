@@ -73,9 +73,23 @@ export function practicalGuidePage(data, photos, lang, template) {
       .guide .petr-fact-card h3{font-size:.94rem;color:#275448;margin:0 0 7px;font-weight:700}
       .guide .petr-fact-card strong{display:block;color:#0e5548;font-size:1.1rem;line-height:1.3;margin-bottom:8px}
       .guide .petr-fact-card p{color:#405b53;font-size:.91rem;line-height:1.6;margin:0}
-      @media(max-width:650px){.guide .petr-urgent-actions{padding:14px}.guide .petr-urgent-actions > div{grid-template-columns:repeat(2,minmax(0,1fr))}}
+      @media(max-width:650px){
+        .guide .petr-urgent-actions{padding:14px}
+        .guide .petr-urgent-actions > div{grid-template-columns:repeat(2,minmax(0,1fr))}
+        body:has(.petr-local-guide) .ec-global-actions{
+          left:10px!important;right:10px!important;bottom:calc(env(safe-area-inset-bottom,0px) + 8px)!important;
+          display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-end!important;
+          gap:8px!important;pointer-events:none!important
+        }
+        body:has(.petr-local-guide) .ec-global-actions > .ec-float-btn{
+          min-height:42px!important;padding:9px 13px!important;font-size:12px!important;pointer-events:auto!important
+        }
+        body:has(.petr-local-guide) .ec-global-actions > .ec-share-panel,
+        body:has(.petr-local-guide) .ec-global-actions > .ec-share-status{pointer-events:auto!important}
+        body:has(.petr-local-guide) .petr-local-guide{padding-bottom:calc(92px + env(safe-area-inset-bottom,0px))}
+      }
     </style>`,
-    body: `<section class="guide"><p class="kicker">ERNESTINHO CARIOCA · PETRÓPOLIS</p>
+    body: `<section class="guide petr-local-guide"><p class="kicker">ERNESTINHO CARIOCA · PETRÓPOLIS</p>
       <h1>${text(title, lang)}</h1><p class="intro">${text(intro, lang)}</p>
       ${urgent}${quick}
       <aside class="tip"><b>${text(tipTitle, lang)}</b>${paragraph(data.tip, lang)}</aside>
