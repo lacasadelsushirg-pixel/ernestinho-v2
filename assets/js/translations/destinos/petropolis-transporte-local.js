@@ -6,7 +6,8 @@ const bingen = 'Terminal Rodoviário Governador Leonel Brizola, Bingen, Petrópo
 const source100 = ['https://linhas.cittamobi.com.br/linha/transporte_publico-Petropolis-SystemSatAPI-CidadeReal-AG_1-100-CENTRO-RODOVIARIABINGEN-858b1dbcd493', '100 · Cidade Real / Cittamobi'];
 const source150 = ['https://linhas.cittamobi.com.br/linha/transporte_publico-Petropolis-SystemSatAPI-CidadeReal-AG_1-150-TERMINALCORREAS-RODOVIARIABINGEN-141c79662d8c', '150 · Cidade Real / Cittamobi'];
 const source649 = ['https://onibus.online/rj/petropolis/649-quitandinha-via-alto-da-serra/', '649 · Turp / Ônibus Online'];
-const source700 = ['https://www.petropolisemcena.com.br/2026/09/intervencao-da-turp-divulga-novos.html', '700 / 704 · Intervenção da Turp / Petrópolis em Cena'];
+const source700 = ['https://linhas.cittamobi.com.br/linha/transporte_publico-Petropolis-TurpTransporteUrbano-700-CentroxT.Itaipava-e25567d2b8fb', '700 · Centro → Itaipava / Cittamobi'];
+const source700Return = ['https://linhas.cittamobi.com.br/linha/transporte_publico-Petropolis-TurpTransporteUrbano-700-T.ItaipavaxCentro-4da6e8077503', '700 · Itaipava → Centro / Cittamobi'];
 const source100Inbound = ['https://linhas.cittamobi.com.br/linha/transporte_publico-Petropolis-SystemSatAPI-CidadeReal-AG_1-100-RODOVIARIABINGEN-CENTRO-07e68fb17022',
   t('100 · Bingen → Centro', '100 · Bingen → Centro', '100 · Bingen → downtown')];
 const source150Inbound = ['https://linhas.cittamobi.com.br/linha/transporte_publico-Petropolis-SystemSatAPI-CidadeReal-AG_1-150-RODOVIARIABINGEN-TERMINALCORREAS-af3b76a8d2dc',
@@ -17,6 +18,10 @@ const connections = [
   {
     title: t('Bingen ↔ Centro', 'Bingen ↔ Centro', 'Bingen ↔ downtown'),
     service: '100 · Cidade Real',
+    stops: ['Rodoviária Bingen', 'Rua Dr. Paulo Hervé', 'Rua Bingen', 'Praça da Liberdade', 'Rua Dr. Porciúncula · Centro'],
+    serviceNote: t('La 100 de Bingen al Centro tiene 30 paradas según Cittamobi. La franja publicada para días hábiles comienza a las 05:00; confirma la última salida según el día y el sentido. El regreso desde el Centro tiene 26 paradas y comienza en Rua Dr. Porciúncula, 75.',
+      'A 100 do Bingen ao Centro tem 30 pontos segundo o Cittamobi. A faixa publicada para dias úteis começa às 05h; confira a última partida conforme o dia e o sentido. A volta do Centro tem 26 pontos e parte da Rua Dr. Porciúncula, 75.',
+      'Route 100 has 30 stops from Bingen to downtown according to Cittamobi. Weekday listings start at 05:00; check the last departure for your day and direction. The return has 26 stops and begins at Rua Dr. Porciúncula, 75.'),
     boarding: t('Desde la rodoviaria, busca la 100 con destino Centro. Para volver hacia Bingen, el itinerario publicado parte de Rua Doutor Porciúncula, 75.',
       'Da rodoviária, procure a 100 com destino Centro. Para voltar ao Bingen, o itinerário publicado parte da Rua Doutor Porciúncula, 75.',
       'From the station, look for the 100 towards downtown. For the return to Bingen, the published route starts at Rua Doutor Porciúncula, 75.'),
@@ -27,6 +32,10 @@ const connections = [
   {
     title: 'Bingen ↔ Corrêas',
     service: '150 · Cidade Real',
+    stops: ['Rodoviária Bingen', 'Rodovia Washington Luiz / BR-040', 'Estrada União e Indústria', 'Terminal Corrêas'],
+    serviceNote: t('La 150 lista 34 paradas de Bingen a Corrêas y 38 en sentido contrario. El cuadro de noviembre de 2026 indica, como referencia de días hábiles, partidas desde Bingen entre las 05:00 y las 23:00 y desde Corrêas entre las 05:00 y las 22:00. No son horarios de paso por cada parada.',
+      'A 150 lista 34 pontos do Bingen a Corrêas e 38 no sentido oposto. O quadro de novembro de 2026 indica, como referência para dias úteis, saídas do Bingen entre 05h e 23h e de Corrêas entre 05h e 22h. Não são horários de passagem em cada ponto.',
+      'Route 150 lists 34 stops from Bingen to Corrêas and 38 in the other direction. As a November 2026 weekday reference, departures from Bingen run between 05:00 and 23:00 and from Corrêas between 05:00 and 22:00. These are terminal departure ranges, not times at each stop.'),
     boarding: t('Conexión directa entre la rodoviaria y el Terminal Corrêas, Estrada União e Indústria, 1132. Consulta el sentido exacto: los dos recorridos tienen paradas distintas.',
       'Ligação direta entre a rodoviária e o Terminal Corrêas, Estrada União e Indústria, 1132. Consulte o sentido certo: os dois itinerários têm pontos diferentes.',
       'Direct connection between the intercity station and Terminal Corrêas, Estrada União e Indústria, 1132. Check the right direction: the two routes have different stops.'),
@@ -37,6 +46,10 @@ const connections = [
   {
     title: t('Centro ↔ Quitandinha', 'Centro ↔ Quitandinha', 'Downtown ↔ Quitandinha'),
     service: '649 · Turp',
+    stops: ['Rua do Imperador · Centro', 'Alto da Serra', 'Quitandinha · Rua Genair Costa de Oliveira'],
+    serviceNote: t('El cuadro de la 649 actualizado el 19/09/2026 publica salidas de Rua do Imperador entre las 06:15 y las 21:50 y de Rua Genair Costa de Oliveira entre las 07:10 y las 20:50, de lunes a sábado. Antes de visitar el Sesc verifica el acceso y si hay operación el domingo o feriado.',
+      'A tabela da 649 atualizada em 19/09/2026 mostra partidas da Rua do Imperador entre 06h15 e 21h50 e da Rua Genair Costa de Oliveira entre 07h10 e 20h50, de segunda a sábado. Para visitar o Sesc, confira o acesso e a operação aos domingos e feriados.',
+      'The route 649 timetable updated 19 Sep 2026 lists departures from Rua do Imperador between 06:15 and 21:50 and Rua Genair Costa de Oliveira between 07:10 and 20:50, Monday to Saturday. Check the Sesc entrance and any Sunday or holiday service.'),
     boarding: t('El cuadro distingue las salidas de Rua do Imperador y Rua Genair Costa de Oliveira. Si vas al Sesc, confirma qué parada te deja cerca de la entrada cultural.',
       'A tabela separa partidas da Rua do Imperador e da Rua Genair Costa de Oliveira. Se for ao Sesc, confirme qual ponto atende a entrada cultural.',
       'The timetable separates departures from Rua do Imperador and Rua Genair Costa de Oliveira. For Sesc, check which stop serves the cultural centre entrance.'),
@@ -47,12 +60,16 @@ const connections = [
   {
     title: t('Centro ↔ Itaipava', 'Centro ↔ Itaipava', 'Downtown ↔ Itaipava'),
     service: '700 · Turp',
+    stops: ['Rua Paulo Barbosa · Centro', 'Rua da Imperatriz', 'Av. Barão do Rio Branco', 'Estrada União e Indústria', 'Itaipava'],
+    serviceNote: t('La 700 publicada en Cittamobi tiene 60 paradas hacia Itaipava y 62 de regreso. En el cuadro de noviembre de 2026 aparecen salidas del Centro desde las 04:15 y últimas partidas alrededor de las 23:10; desde Itaipava, de las 04:20 a las 23:45. La oferta cambia según el día y estas horas no equivalen al paso por tu parada.',
+      'A 700 no Cittamobi tem 60 pontos para Itaipava e 62 na volta. No quadro de novembro de 2026 há saídas do Centro a partir das 04h15 e últimas partidas por volta de 23h10; de Itaipava, das 04h20 às 23h45. A oferta varia conforme o dia e esses horários não indicam a passagem no seu ponto.',
+      'Cittamobi lists 60 stops to Itaipava and 62 for the return. November 2026 schedules show downtown departures from 04:15 to about 23:10, and Itaipava departures from 04:20 to 23:45. Service varies by day, and these are not times at every stop.'),
     boarding: t('Verifica en qué punto del Centro sale el bus y, para volver, localiza el Terminal Itaipava. Si sigues hacia Madame Machado, consulta también la 704. El cuadro enlazado es de septiembre de 2026.',
       'Confira o ponto de saída no Centro e, para voltar, localize o Terminal Itaipava. Se seguir para Madame Machado, consulte também a 704. A tabela vinculada é de setembro de 2026.',
       'Check the downtown departure stop and find Terminal Itaipava for the return. If continuing to Madame Machado, check the 704 too. The linked timetable is from September 2026.'),
     location: 'Terminal Itaipava, Petrópolis, RJ',
     from: 'Terminal Centro, Petrópolis, RJ',
-    links: [source700],
+    links: [source700, source700Return],
   },
   {
     title: 'Rio de Janeiro ↔ Petrópolis',
@@ -78,6 +95,10 @@ export const transportDetails = {
     badge: t('Tarifa municipal de referencia · R$ 5,90', 'Tarifa municipal de referência · R$ 5,90', 'Municipal reference fare · R$ 5.90'),
     connections: [...connections.slice(0, 4), {
       title: 'Corrêas ↔ Bonfim', service: '611 · Turp',
+      stops: ['Estrada do Bonfim', 'Terminal Corrêas'],
+      serviceNote: t('La ficha enlazada muestra el sentido Bonfim → Terminal Corrêas. Para la ida a Bonfim, consulta la dirección contraria y confirma la parada adecuada para tu sendero o alojamiento. No hay una hora de última salida verificada en esta guía.',
+        'A ficha vinculada mostra o sentido Bonfim → Terminal Corrêas. Para ir ao Bonfim, consulte o sentido contrário e confira o ponto útil para trilha ou hospedagem. Esta guia não informa último horário sem confirmação.',
+        'The linked route shows Bonfim → Terminal Corrêas. For the outbound trip, switch direction and check the right stop for your trail or accommodation. This guide does not claim an unverified last departure.'),
       boarding: t('El cuadro enlazado muestra la vuelta desde Estrada do Bonfim hacia Terminal Corrêas, con mapa y lista de paradas. Para ir hacia Bonfim, cambia de sentido en la ficha y confirma la parada más útil para tu entrada o alojamiento.',
         'A tabela vinculada mostra a volta da Estrada do Bonfim ao Terminal Corrêas, com mapa e lista de pontos. Para ir ao Bonfim, troque o sentido na ficha e confirme o ponto mais útil para sua entrada ou hospedagem.',
         'The linked timetable shows the return from Estrada do Bonfim to Terminal Corrêas, with a route map and stops. For Bonfim-bound service, switch direction and check the best stop for your entrance or accommodation.'),
@@ -106,7 +127,7 @@ export const transportDetails = {
         copy: t('Consulta la columna del día y el sentido antes de salir. Como referencia, el cuadro publicado para la 150 en días hábiles muestra última partida de Bingen a las 23:00 y de Corrêas a las 22:00. Son salidas de terminal, no horas de paso por tu parada. Para la 649 y 700, abre el cuadro enlazado y reconfirma vigencia. Si hay lluvia fuerte, feriado o evento, consulta al operador.',
           'Consulte o dia e o sentido antes de sair. Como referência, a tabela publicada da 150 em dias úteis mostra a última partida do Bingen às 23:00 e de Corrêas às 22:00. São partidas do terminal, não horários de passagem no ponto. Para a 649 e a 700, abra a tabela vinculada e reconfirme a vigência. Em chuva forte, feriado ou evento, consulte a operadora.',
           'Check the day and direction before leaving. As a reference, the published weekday route 150 timetable shows last departures at 23:00 from Bingen and 22:00 from Corrêas. These are terminal departures, not times at your stop. For the 649 and 700, open the linked schedule and confirm it still applies. Check with the operator in heavy rain, on holidays or during events.'),
-        links: [source150Inbound, source150, source700],
+        links: [source150Inbound, source150, source700, source700Return],
       },
       {
         id: 'cuando', title: t('Cuándo conviene la micro', 'Quando vale pegar ônibus', 'When the local bus makes sense'),
