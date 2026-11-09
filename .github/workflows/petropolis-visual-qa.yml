@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/audit_petropolis_visual.mjs'
       - 'scripts/build_petropolis.mjs'
+      - 'scripts/build_regional_destinations.mjs'
       - 'scripts/petropolis_practical_pages.mjs'
       - 'assets/js/translations/destinos/petropolis-guia-practica.js'
       - 'assets/js/translations/destinos/petropolis-viajar-solo.js'
