@@ -12,6 +12,7 @@ import { extraCards, transport } from '../assets/js/translations/destinos/petrop
 
 import { morePhotoSpots } from '../assets/js/translations/destinos/petropolis-fotografia-local.js';
 import { localPhotos, photoCredit } from '../assets/js/translations/destinos/petropolis-fotos.js';
+import { petropolisCultureEditorial } from '../assets/js/translations/destinos/petropolis-cultura-editorial.js';
 
 const base = '/destinos/petropolis/';
 const earlier = '/FOTOS/HOME/DESTINOS/20261107-plantillas/petropolis/';
@@ -78,6 +79,63 @@ function localPlaceLink(slug, lang, { base, places, placeSections }) {
   return link(base + section + '/' + slug + '/', places[slug].name, lang, 'rd-action');
 }
 
+const petrCultureCss = `<style>
+.petr-culture-overview{padding:20px 0 28px}
+.petr-culture-overview h2{color:#124c43;font-size:clamp(1.45rem,3vw,2rem);margin:0 0 14px}
+.petr-culture-overview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.petr-culture-overview-grid article{padding:22px;border:1px solid #c8e2d8;background:#edf7f3;border-radius:20px}
+.petr-culture-overview-grid article:nth-child(2){background:#fff5e6;border-color:#f0d7a7}
+.petr-culture-overview-grid h3{margin:0 0 10px;font-size:1.13rem;color:#125147}
+.petr-culture-overview-grid p{font-size:.95rem;line-height:1.75;margin:0}
+.petr-culture-depth{display:grid;gap:16px;margin:24px 0}
+.petr-culture-depth article{border-radius:20px;padding:clamp(18px,2.8vw,26px);border:1px solid #c9e0d8;background:#f0f7f4}
+.petr-culture-depth article:nth-child(2){background:#fff5e6;border-color:#edd9b5}
+.petr-culture-depth article:nth-child(3){background:#f6f8fa;border-color:#dae1e8}
+.petr-culture-depth h3{font-size:clamp(1.1rem,2vw,1.35rem);margin:0 0 10px;color:#0b5046}
+.petr-culture-depth p{line-height:1.8;margin:0;color:#254c43}
+.petr-culture-map{display:inline-block;padding:10px 16px;background:#125f53;color:#fff !important;font-weight:700;text-decoration:none;border-radius:999px;margin:14px 0}
+.petr-culture-sources{margin-top:18px;border-top:1px solid #d4e5df;padding-top:12px}
+.petr-culture-sources a{display:inline-block;color:#0b5549;margin:5px 12px 5px 0;font-size:.91rem}
+.culture-grid .culture-card:not(:has(img)){background:#f0f7f4;border:1px solid #d2e6df;border-radius:18px;padding:15px}
+@media(max-width:780px){.petr-culture-overview-grid{grid-template-columns:1fr}}
+</style>`;
+function cultureOverview(lang) {
+  const topics = [
+    [t('Imperio y arquitectura','Império e arquitetura','Empire and architecture'),
+      t('El palacio, la Catedral, los jardines y las casonas explican cómo nació la ciudad de veraneo de la corte.',
+        'Palácio, Catedral, jardins e casarões mostram como nasceu a cidade de veraneio da corte.',
+        'Palace, cathedral, gardens and mansions tell how the summer city of the court developed.')],
+    [t('República, guerra y memoria','República, guerra e memória','Republic, war and memory'),
+      t('Palácio Rio Negro, Casa Stefan Zweig y Museu da FEB revelan otros capítulos del siglo XX.',
+        'Palácio Rio Negro, Casa Stefan Zweig e Museu da FEB revelam outros capítulos do século XX.',
+        'Rio Negro Palace, Casa Stefan Zweig and the FEB museum tell other 20th-century stories.')],
+    [t('Arte, oficios e inmigración','Arte, ofícios e imigração','Art, craft and immigration'),
+      t('Casa do Colono, el centro cultural y los museos de porcelana y de cera amplían el recorrido más allá de los palacios.',
+        'Casa do Colono, centro cultural e museus de porcelana e cera ampliam o roteiro além dos palácios.',
+        'Casa do Colono, the cultural centre and porcelain and wax museums broaden the visit beyond palaces.')],
+  ];
+  return `<section class="petr-culture-overview">
+    <h2>${tx(t('Una ciudad, muchas historias','Uma cidade, muitas histórias','One city, many stories'), lang)}</h2>
+    <div class="petr-culture-overview-grid">${topics.map(([title,copy])=>`<article><h3>${tx(title,lang)}</h3>${p(copy,lang)}</article>`).join('')}</div>
+  </section>`;
+}
+function cultureDetail(slug,lang) {
+  const entry = petropolisCultureEditorial[slug];
+  if (!entry) return '';
+  const blocks = [
+    [t('La historia detrás de este lugar', 'A história por trás deste lugar', 'The history behind this place'), entry.history],
+    [t('Qué mirar durante la visita', 'O que observar na visita', 'What to look for'), entry.details],
+    [t('Acceso y consejos prácticos', 'Acesso e dicas práticas', 'Access and practical advice'), entry.access],
+  ];
+  const src = entry.sources.map(([url,label])=>`<a href="${esc(url)}" rel="noopener noreferrer" target="_blank">${esc(label)}</a>`).join('');
+  const href = 'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(entry.address);
+  return `<div class="petr-culture-depth">
+    ${blocks.map(([title,body])=>`<article><h3>${tx(title,lang)}</h3>${p(body,lang)}</article>`).join('')}
+    <div><a class="petr-culture-map" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${tx(t('Abrir dirección exacta en el mapa', 'Abrir endereço exato no mapa', 'Open exact address on map'),lang)}</a>
+    <div class="petr-culture-sources"><strong>${tx(t('Fuentes y enlaces útiles','Fontes e links úteis','Sources and useful links'),lang)}</strong><div>${src}</div></div></div>
+  </div>`;
+}
+
 function placeList(city, key, lang, config = petropolisCatalog) {
   const { base, places, placeSections, photos } = config;
   const title = config === petropolisCatalog ? titleFor[key] : {
@@ -87,6 +145,7 @@ function placeList(city, key, lang, config = petropolisCatalog) {
   }[key];
   const { intro, tip } = city.sections[key];
   const family = key === 'familia';
+  const petrCulture = config === petropolisCatalog && key === 'cultura';
   const cards = placeSections[key].map(slug => {
     const place = places[slug];
     const url = pre(lang) + base + key + '/' + slug + '/';
@@ -101,10 +160,10 @@ function placeList(city, key, lang, config = petropolisCatalog) {
     ? `<section class="family-index"><div class="family-wrap">${link(base, back, lang, 'family-back')}
       <div class="family-index-intro"><span>${esc(city.name)}</span><h1>${tx(title, lang)}</h1>${p(intro, lang)}</div>
       <div class="family-card-grid">${cards}</div>${config !== petropolisCatalog ? note(tip, lang) : ''}</div></section>`
-    : cover(title, intro, lang, city.name) + `<div class="culture-index"><section class="culture-section culture-categories">
+    : cover(title, intro, lang, city.name) + `<div class="culture-index">${petrCulture ? cultureOverview(lang) : ''}<section class="culture-section culture-categories">
       <p class="culture-kicker">ERNESTINHO CARIOCA</p><h2>${tx(t('Elige qué visitar', 'Escolha o que visitar', 'Choose what to visit'), lang)}</h2>
       <div class="culture-grid">${cards}</div></section><aside class="culture-note">${p(tip, lang)}</aside></div>`;
-  return { title, intro, body, css: [family ? 'familia' : 'cultura'], bodyClass: family ? 'familia-index-page' : '' };
+  return { title, intro, body, css: [family ? 'familia' : 'cultura'], bodyClass: family ? 'familia-index-page' : '', inline: petrCulture ? petrCultureCss : '' };
 }
 
 function placeDetail(key, slug, lang, config = petropolisCatalog, cityName = 'Petrópolis') {
@@ -112,7 +171,9 @@ function placeDetail(key, slug, lang, config = petropolisCatalog, cityName = 'Pe
   const place = places[slug];
   const family = key === 'familia';
   const photo = photos[place.image];
-  const mapUrl = place.map ? 'https://www.google.com/maps/search/?api=1&amp;query=' + encodeURIComponent(place.map + ', ' + cityName + ', RJ') : '';
+  const cultureData = config === petropolisCatalog && key === 'cultura' ? petropolisCultureEditorial[slug] : null;
+  const queryLocation = place.map ? place.map + ', ' + cityName + ', RJ' : cultureData?.address;
+  const mapUrl = queryLocation ? 'https://www.google.com/maps/search/?api=1&amp;query=' + encodeURIComponent(queryLocation) : '';
   const map = mapUrl ? `<a class="rd-action" href="${mapUrl}" target="_blank" rel="noopener noreferrer">${tx(t('Abrir en el mapa ↗', 'Abrir no mapa ↗', 'Open on map ↗'), lang)}</a>` : '';
   const body = family
     ? `<section class="family-detail"><div class="family-wrap">${link(base + key + '/', back, lang, 'family-back family-back-dark')}
@@ -122,9 +183,9 @@ function placeDetail(key, slug, lang, config = petropolisCatalog, cityName = 'Pe
       <section class="family-experience"><h2>${tx(combine, lang)}</h2>${localPlaceLink(place.combine, lang, config)}</section></div></section>`
     : cover(place.name, place.description, lang, cityName) + `<div class="culture-index">${link(base + key + '/', back, lang, 'culture-back')}
       ${photo ? `<div class="culture-gallery"><figure>${image(photo, '', true)}</figure></div>` : ''}
-      <section class="culture-section"><h2>${tx(practical, lang)}</h2>${p(place.visit, lang)}${map}</section>
+      <section class="culture-section"><h2>${tx(practical, lang)}</h2>${p(place.visit, lang)}${map}${cultureData ? cultureDetail(slug,lang) : ''}</section>
       <aside class="culture-note"><b>${tx(combine, lang)}</b><p>${localPlaceLink(place.combine, lang, config)}</p></aside></div>`;
-  return { title: place.name, intro: place.description, image: config === petropolisCatalog ? photo : photo || null, body, css: [family ? 'familia' : 'cultura'], bodyClass: family ? 'familia-detail-page' : '' };
+  return { title: place.name, intro: place.description, image: config === petropolisCatalog ? photo : photo || null, body, css: [family ? 'familia' : 'cultura'], bodyClass: family ? 'familia-detail-page' : '', inline: cultureData ? petrCultureCss : '' };
 }
 
 function photography(city, lang) {
