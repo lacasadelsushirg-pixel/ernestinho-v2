@@ -91,7 +91,7 @@ export function monthlyGuidePage(data, photos, lang) {
 }
 
 export function petropolisTransportPage(data, mode, title, intro, photos, lang) {
-  const { sections, faq, sources, related } = data;
+  const { sections, faq, sources, related, quickChoices = [] } = data;
   const image = photos[data.image];
   const vans = mode === 'vans';
   const photoFirst = vans || mode === 'onibus';
@@ -121,7 +121,13 @@ export function petropolisTransportPage(data, mode, title, intro, photos, lang) 
         <div class="petr-route-actions">${mapButton(location)}${from ? planRoute(from, location) + planRoute(location, from, true) : ''}</div>
         <div class="source-list">${links.map(source => external(source, lang, 'source-link')).join('')}</div></li>`).join('')}</ul>
     </section>` : '';
-  const navigation = data.connections ? [{ id: 'trayectos', title: connectionsTitle }, ...sections] : sections;
+  const navigation = [...(quickChoices.length ? [{ id: 'elegir', title: t('Qué transporte elegir', 'Qual transporte escolher', 'Which transport to choose') }] : []),
+    ...(data.connections ? [{ id: 'trayectos', title: connectionsTitle }] : []), ...sections];
+  const decisionGuide = quickChoices.length ? `<section id="elegir" class="petr-decision-block" aria-label="${text(t('Guía rápida de transporte', 'Guia rápida de transporte', 'Quick transport guide'), lang)}">
+    <h2>${text(t('Elige según tu recorrido', 'Escolha conforme o trajeto', 'Choose for your journey'), lang)}</h2>
+    <div class="petr-decision-grid">${quickChoices.map(({ title, value, detail }) => `<article class="petr-decision-card">
+      <h3>${text(title, lang)}</h3><strong>${text(value, lang)}</strong><p>${text(detail, lang)}</p>
+    </article>`).join('')}</div></section>` : '';
   const chapter = ({ id, title, copy, map: location, image, links = [], tone = '' }) =>
     `<section id="${id}" class="guide-section${tone ? ' ec-adn ' + tone : ''}"><h2>${text(title, lang)}</h2>${paragraph(copy, lang)}
       ${location ? mapButton(location) : ''}${links.map(source => external(source, lang, 'source-link')).join('')}</section>
@@ -132,7 +138,15 @@ export function petropolisTransportPage(data, mode, title, intro, photos, lang) 
     ${contents(navigation, lang, 'text-action')}</section><section class="aside-card"><h2>${text(t('Sigue organizando el viaje', 'Continue planejando a viagem', 'Keep planning your trip'), lang)}</h2>
     ${localLink(relatedRoute, relatedLabel, lang, 'action')}
     ${localLink('guia/llegada/', t('Cómo llegar a Petrópolis', 'Como chegar a Petrópolis', 'Getting to Petrópolis'), lang, 'text-action')}</section></aside>`;
-  const connectionStyles = data.connections ? `<style>
+  const connectionStyles = (data.connections || quickChoices.length) ? `<style>
+    .petr-decision-block{max-width:1180px;margin:16px auto 24px;padding:0 clamp(16px,3vw,32px)}
+    .petr-decision-block h2{color:#123e38;margin:0 0 14px;font-size:clamp(1.2rem,2.6vw,1.65rem)}
+    .petr-decision-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+    .petr-decision-card{border:1px solid #c9dfd9;border-radius:18px;padding:18px 20px;background:#f0f8f5;box-shadow:0 8px 18px rgba(6,49,41,.06)}
+    .petr-decision-card:nth-child(3n+2){background:#fff7e7;border-color:#eddfbb}
+    .petr-decision-card h3{font-size:.95rem;margin:0 0 8px;color:#234b45}
+    .petr-decision-card strong{display:block;font-size:1.35rem;color:#0c574b;line-height:1.3;margin:0 0 8px}
+    .petr-decision-card p{font-size:.91rem;line-height:1.55;color:#344f49;margin:0}
     .petr-connections{display:grid;gap:12px;padding:0;list-style:none}
     .petr-connections .fact-pill{margin:0 0 8px}
     .petr-connections h3{margin:0 0 8px}
@@ -146,6 +160,7 @@ export function petropolisTransportPage(data, mode, title, intro, photos, lang) 
     .petr-service-note{border-left:4px solid #e5a735;padding:9px 12px;background:#fff7e9;margin:12px 0}
     .petr-service-note p{margin:0;font-size:.95rem;line-height:1.7}
     .petr-route-actions{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 6px}
+    @media(max-width:780px){.petr-decision-grid{grid-template-columns:1fr}.petr-decision-card{padding:15px 17px}}
     @media(max-width:540px){.petr-route-stops ol{display:grid;gap:6px}.petr-route-stops li{width:100%;box-sizing:border-box}.petr-route-actions{display:grid}}
   </style>` : '';
   return {
@@ -155,6 +170,7 @@ export function petropolisTransportPage(data, mode, title, intro, photos, lang) 
       <span class="fact-pill">${text(data.badge || (vans ? t('Autobús urbano · intermunicipal · van privada', 'Ônibus urbano · intermunicipal · van particular', 'Local bus · intercity coach · private van') :
         t('Tarifa dinámica · matrícula · punto de recogida', 'Tarifa dinâmica · placa · ponto de embarque', 'Dynamic fare · licence plate · pickup point')), lang)}</span></div>
       ${photoFirst ? '' : hero}
+      ${decisionGuide}
       <div class="guide-layout"><article class="guide-copy">${connectionGuide}${sections.map(chapter).join('')}
       <section class="guide-section ec-adn ec-teal"><h2>⭐ ${text(tipTitle, lang)}</h2>${paragraph(data.tip, lang)}</section>
       <section class="guide-section ec-faq"><h2>${text(faqTitle, lang)}</h2>
