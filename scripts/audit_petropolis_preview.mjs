@@ -72,6 +72,21 @@ for (const route of routes) {
       .filter(match => match[1].split(' ').includes(className)).length;
     if (route === area + 'barrios/' && cardsByClass('topic') !== 11) errors.push(name + ': district index does not show 11 cards');
     if (route === area + 'cultura/' && (html.match(/class="culture-card"/g) || []).length !== 15) errors.push(name + ': culture index does not show 15 cards');
+    const guideCardExpectations = [
+      [area + 'guia/terminales/', 4],
+      [area + 'guia/accesibilidad/', 3],
+      [area + 'guia/guarda-equipaje/', 3],
+    ];
+    for (const [guideRoute, expected] of guideCardExpectations) {
+      if (route === guideRoute && cardsByClass('petr-fact-card') !== expected) {
+        errors.push(name + ': expected ' + expected + ' practical guide choice cards');
+      }
+    }
+    if (route === area + 'guia/emergencias/') {
+      const emergencyCalls = [...html.matchAll(/href="tel:(192|193|190|199)"/g)];
+      if (emergencyCalls.length < 4 || !html.includes('class="petr-urgent-actions"'))
+        errors.push(name + ': missing main emergency phone action panel');
+    }
     if (out) {
       const filename = path.join(out, pre(lang).slice(1), route.slice(1), 'index.html');
       fs.mkdirSync(path.dirname(filename), { recursive:true });
