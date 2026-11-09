@@ -14,7 +14,10 @@ const routes = regionalRoutes.filter(route => route.startsWith(area));
 const siteRoutes = new Set(regionalRoutes);
 const requiredDistricts = 11;
 const requiredCulturalSites = 15;
-const requiredDetail = [area + 'barrios/', area + 'cultura/', area + 'transportes/'];
+const requiredDetail = [
+  area + 'barrios/', area + 'cultura/', area + 'transportes/',
+  area + 'guia/llegada/', area + 'guia/itinerarios-1-2-3-dias/',
+];
 const errors = [], warnings = [];
 const previewArg = process.argv.find(arg => arg.startsWith('--out='));
 let out = null;
@@ -77,11 +80,22 @@ for (const route of routes) {
       [area + 'guia/accesibilidad/', 3],
       [area + 'guia/guarda-equipaje/', 3],
       [area + 'guia/viajar-solo/', 3],
+      [area + 'guia/llegada/', 3],
+      [area + 'guia/itinerarios-1-2-3-dias/', 3],
     ];
     for (const [guideRoute, expected] of guideCardExpectations) {
       if (route === guideRoute && cardsByClass('petr-fact-card') !== expected) {
         errors.push(name + ': expected ' + expected + ' practical guide choice cards');
       }
+    }
+    if (route === area + 'guia/llegada/') {
+      const chapters = [...html.matchAll(/<article id="(novo-rio|outros-pontos|aeropuertos|bingen|urbano|carro|volta|malas)"/g)];
+      if (chapters.length !== 8) errors.push(name + ': expected 8 arrival chapters, got ' + chapters.length);
+    }
+    if (route === area + 'guia/itinerarios-1-2-3-dias/') {
+      if (cardsByClass('petr-day-card') !== 6) errors.push(name + ': expected 6 complete day-plan cards');
+      if (cardsByClass('petr-when') !== 19) errors.push(name + ': expected 19 individually described itinerary stops');
+      if (!html.includes('id="roteiro-tres-3"')) errors.push(name + ': missing third-day route');
     }
     if (route === area + 'guia/mes-a-mes/') {
       if (cardsByClass('petr-month-card') !== 12 || cardsByClass('petr-season-card') !== 4)
