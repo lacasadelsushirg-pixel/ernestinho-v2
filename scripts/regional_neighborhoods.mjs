@@ -2,7 +2,18 @@ import { esc, pre, styles, v } from './buzios_mirror_core.mjs';
 import { t } from '../assets/js/translations/destinos/modelo.js';
 import { regionalNeighborhoods } from '../assets/js/translations/destinos/barrios-regionales.js';
 
-export const neighborhoodRoutes = Object.entries(regionalNeighborhoods).flatMap(([city, districts]) =>
+import { photoCredit } from '../assets/js/translations/destinos/petropolis-fotos.js';
+import { petrDistricts, originalDistrictHistory } from '../assets/js/translations/destinos/petropolis-barrios-locales.js';
+
+const catalog = {
+  ...regionalNeighborhoods,
+  petropolis: {
+    ...Object.fromEntries(Object.entries(regionalNeighborhoods.petropolis)
+      .map(([id, district]) => [id, { ...district, ...originalDistrictHistory[id] }])),
+    ...petrDistricts,
+  },
+};
+export const neighborhoodRoutes = Object.entries(catalog).flatMap(([city, districts]) =>
   Object.keys(districts).map(slug => [city, 'barrios', slug]));
 
 const text = (value, lang) => esc(v(value, lang));
@@ -14,7 +25,7 @@ const picture = (photo, name, cls, eager = false) => photo
   ? `<img class="${cls}" src="${esc(photo.src)}" alt="${esc(photo.alt || name)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">` : '';
 
 export function renderRegionalNeighborhood(city, slug, lang, photos) {
-  const districts = regionalNeighborhoods[city.slug];
+  const districts = catalog[city.slug];
   if (!districts) return null;
   const base = '/destinos/' + city.slug + '/';
   const key = 'barrios';
@@ -26,14 +37,23 @@ export function renderRegionalNeighborhood(city, slug, lang, photos) {
   if (slug) {
     const area = districts[slug];
     const photo = photos[area.image];
+    const more = city.slug === 'petropolis' ? `
+      ${area.history ? `<article class="bh-cluster"><h2>${text(t('Historia y patrimonio', 'História e patrimônio', 'History and heritage'), lang)}</h2>
+        <p>${text(area.history, lang)}</p></article>` : ''}
+      <article class="bh-cluster"><h2>${text(t('Mapa y conexiones', 'Mapa e conexões', 'Map and connections'), lang)}</h2>
+        <a class="rd-action" href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(area.name + ', Petrópolis, RJ')}">${text(t('Abrir en el mapa ↗', 'Abrir no mapa ↗', 'Open on map ↗'), lang)}</a>
+        ${area.connection ? navigate(path + area.connection + '/', districts[area.connection].name, lang, 'rd-action') : ''}
+        ${area.source ? `<a class="rd-action" href="${esc(area.source)}">${text(t('Consultar fuente ↗', 'Consultar fonte ↗', 'Check source ↗'), lang)}</a>` : ''}
+      </article>
+      ${area.advice ? `<aside class="notice"><b>${text(t('Consejo de Ernestinho', 'Dica do Ernestinho', 'Ernestinho’s tip'), lang)}</b><p>${text(area.advice, lang)}</p></aside>` : ''}` : '';
     const body = hero(area.name, area.summary) + `<section class="editorial bh-zone-index">
       ${navigate(path, back, lang, 'rd-action')}
-      ${photo ? `<div class="rd-gallery"><figure>${picture(photo, area.name, '', true)}</figure></div>` : ''}
+      ${photo ? `<div class="rd-gallery"><figure>${picture(photo, area.name, '', true)}${city.slug === 'petropolis' ? photoCredit(photo, lang) : ''}</figure></div>` : ''}
       <article class="bh-cluster">
         <h2>${text(t('Qué ver y cómo moverte', 'O que ver e como circular', 'What to see and how to get around'), lang)}</h2>
         <p class="bh-cluster-intro">${text(area.visit, lang)}</p>
         ${navigate(base + area.nearby, t('Una parada para combinar →', 'Uma parada para combinar →', 'A stop to pair it with →'), lang, 'rd-action')}
-        ${navigate(base + 'transportes/', t('Transportes', 'Transportes', 'Transport'), lang, 'rd-action')}</article></section>`;
+        ${navigate(base + 'transportes/', t('Transportes', 'Transportes', 'Transport'), lang, 'rd-action')}</article>${more}</section>`;
     return { title: area.name, intro: area.summary, body, image: photo || null, inline: styles('barrios') };
   }
   const title = t(`Barrios de ${city.name}`, `Bairros de ${city.name}`, `${city.name} neighbourhoods`);

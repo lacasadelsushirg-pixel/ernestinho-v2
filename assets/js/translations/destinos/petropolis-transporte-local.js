@@ -1,0 +1,128 @@
+import { t } from './modelo.js';
+
+export const transportDetails = {
+  vans: {
+    sections: [
+      [t('Qué servicio estás reservando', 'Qual serviço você está reservando', 'What you are booking'),
+        t('Reserva una van con conductor para tu grupo y acuerda un itinerario cerrado. Para ir solo entre terminales o distritos, consulta primero el ómnibus de línea. Algunos servicios urbanos usan microbuses, pero el número de línea y el destino son lo que debes mirar al embarcar.',
+          'Reserve uma van com motorista para seu grupo e combine um roteiro fechado. Para ir sozinho entre terminais ou distritos, consulte primeiro o ônibus de linha. Algumas linhas usam micro-ônibus, mas confira o número e o destino antes de embarcar.',
+          'Book a van and driver for your group and agree on an itinerary. If travelling alone between terminals or districts, check the scheduled bus first. Some routes use minibuses, so check the route number and destination before boarding.')],
+      [t('Rutas que conviene cotizar', 'Trajetos que vale cotar', 'Routes worth pricing'),
+        t('Desde Río, fija una recogida única y empieza por Quitandinha si está abierto. Pide que el conductor te deje en un punto del Centro para hacer el circuito a pie y te recoja al final. Para Itaipava, Araras o Vale das Videiras, incluye la espera y la vuelta desde el restaurante en el presupuesto. Para Bonfim, usa el acceso de Petrópolis del parque como punto de referencia y acuerda una hora de recogida.',
+          'Saindo do Rio, marque um único embarque e comece pelo Quitandinha se estiver aberto. Peça desembarque no Centro para fazer o circuito a pé e recolha no fim. Para Itaipava, Araras ou Vale das Videiras, inclua espera e volta do restaurante na cotação. Para o Bonfim, use a portaria da sede Petrópolis como referência e combine o horário de volta.',
+          'From Rio, pick one meeting point and start in Quitandinha if it is open. Arrange a downtown drop-off for a walk and a later pickup. For Itaipava, Araras or Vale das Videiras, include waiting time and restaurant pickup in your quote. For Bonfim, use the national park’s Petrópolis entrance as the pickup landmark and set a time.')],
+      [t('Qué pedir por escrito', 'O que pedir por escrito', 'What to get in writing'),
+        t('Indica fecha, pasajeros, edades, equipaje, sillas infantiles y necesidades de movilidad. Pide el valor total, peajes, estacionamiento, tiempo de espera, suplemento por hora, condiciones por lluvia, datos del operador y habilitación aplicable al trayecto.',
+          'Informe data, passageiros, idades, bagagem, cadeirinhas e necessidades de mobilidade. Peça preço total, pedágios, estacionamento, espera, hora extra, política em caso de chuva, dados da empresa e autorização aplicável ao trajeto.',
+          'Provide the date, passenger count, ages, luggage, child seats and mobility needs. Ask for the total price, tolls, parking, wait time, overtime, rain policy, operator details and the authorization relevant to the route.')],
+      [t('Embarque y última recogida', 'Embarque e última coleta', 'Boarding and final pickup'),
+        t('La frecuencia y la última salida de un traslado privado dependen del contrato. En hoteles y terminales comparte un pin, el nombre de la entrada y el teléfono del conductor. Antes de quedarte sin señal, descarga el mapa y guarda la hora de regreso.',
+          'A frequência e a última saída de um traslado particular dependem do contrato. Em hotéis e terminais, compartilhe um pin, o nome da entrada e o contato do motorista. Antes de perder o sinal, baixe o mapa e salve a hora da volta.',
+          'A private transfer runs to the agreed schedule. At hotels and bus stations, share a pin, the entrance name and the driver’s phone number. Download the map and save the pickup time before losing signal.')],
+    ],
+    links: [
+      ['transportes/onibus/', t('Ver buses urbanos', 'Ver ônibus urbanos', 'See local buses')],
+      ['barrios/itaipava/', t('Organizar una salida a Itaipava', 'Planejar uma ida a Itaipava', 'Plan a trip to Itaipava')],
+      ['https://www.gov.br/antt/pt-br/assuntos/passageiros/transportefretamento/fretamentosupas/', t('ANTT: fretamento interestatal', 'ANTT: fretamento interestadual', 'ANTT: interstate charter rules')],
+    ],
+  },
+  uber: {
+    sections: [
+      [t('Dónde usar Uber, 99 o taxi', 'Onde usar Uber, 99 ou táxi', 'Where to use Uber, 99 or a taxi'),
+        t('Uber publica cobertura para Petrópolis. Abre Uber o 99 y comprueba si tu origen y destino admiten una solicitud. En Bingen marca Terminal Rodoviário Governador Leonel Brizola y acuerda la puerta de salida. En Quitandinha distingue el acceso del Sesc, el lado del lago y tu entrada de alojamiento.',
+          'A Uber publica cobertura em Petrópolis. Abra Uber ou 99 e veja se o app aceita a origem e o destino. No Bingen, marque Terminal Rodoviário Governador Leonel Brizola e combine a saída. No Quitandinha, diferencie o acesso ao Sesc, o lado do lago e a entrada da hospedagem.',
+          'Uber lists Petrópolis as a service area. Open Uber or 99 to check whether your pickup and destination are served. In Bingen use Terminal Rodoviário Governador Leonel Brizola and agree on an exit. In Quitandinha distinguish the Sesc entrance, the lake and your accommodation entrance.')],
+      [t('Cómo comparar el precio', 'Como comparar o preço', 'How to compare fares'),
+        t('Compara la estimación para tu trayecto exacto en ambos apps y pregunta en el punto de taxis si prefieres salir enseguida. Lluvia, eventos y cambios de horario afectan espera y precio. Para maletas o un grupo, confirma capacidad y equipaje antes de aceptar.',
+          'Compare a estimativa para o trajeto exato nos dois apps e pergunte no ponto de táxi se quiser sair logo. Chuva, eventos e horários afetam espera e valor. Com malas ou grupo, confirme capacidade e bagagem antes de aceitar.',
+          'Compare both apps’ estimates for the exact journey and ask at the taxi rank if you need to leave immediately. Rain, events and time of day affect waits and fares. Check vehicle capacity and luggage space before accepting.')],
+      [t('Vuelta desde Itaipava, Bonfim y los valles', 'Volta de Itaipava, Bonfim e dos vales', 'Returning from Itaipava, Bonfim and the valleys'),
+        t('Antes de salir, simula también la vuelta. Para cenar en Itaipava, acuerda un taxi con el restaurante o una recogida fija si al consultar ves poca oferta. Para Bonfim y Vale das Videiras, guarda el pin sin conexión y un teléfono de contacto. La disponibilidad para la ida no garantiza la del regreso.',
+          'Antes de sair, simule também a volta. Para jantar em Itaipava, combine táxi com o restaurante ou horário fixo se a oferta parecer baixa. Para Bonfim e Vale das Videiras, salve o pin offline e um telefone de contato. Conseguir carro na ida não garante a volta.',
+          'Check the return journey before leaving. For dinner in Itaipava, arrange a taxi with the restaurant or a fixed pickup if there are few cars. For Bonfim and Vale das Videiras, save the pin offline and keep a phone contact. Finding a car outbound does not guarantee a return ride.')],
+      [t('Si cruzas la sierra desde Río', 'Se você subir a serra saindo do Rio', 'If you cross the mountains from Rio'),
+        t('Compara el total de ida y vuelta con bus intermunicipal más conexión a Bingen o traslado reservado. Si tienes vuelo o bus con hora fija, organiza un regreso con margen. Verifica matrícula y conductor en pantalla antes de subir.',
+          'Compare ida e volta com ônibus intermunicipal mais a conexão no Bingen ou com um traslado reservado. Se tiver voo ou ônibus com hora marcada, organize a volta com folga. Confira placa e motorista no app antes de entrar.',
+          'Compare the round-trip total with an intercity bus plus the Bingen connection or a booked transfer. Build in a buffer for a flight or scheduled bus. Check the driver and plate in the app before boarding.')],
+    ],
+    links: [
+      ['https://www.uber.com/global/pt-br/r/cities/petropolis-rj-br/', t('Consultar Uber en Petrópolis', 'Consultar Uber em Petrópolis', 'Check Uber in Petrópolis')],
+      ['https://99app.com/', t('Abrir el sitio de 99', 'Abrir o site da 99', 'Open 99’s website')],
+      ['transportes/vans/', t('Ver traslados reservados', 'Ver traslados reservados', 'See booked transfers')],
+    ],
+  },
+  onibus: {
+    sections: [
+      [t('Bingen, Centro e Itaipava', 'Bingen, Centro e Itaipava', 'Bingen, downtown and Itaipava'),
+        t('Separa la Rodoviária de Bingen, donde llega el bus de Río, del Terminal Centro, que distribuye líneas urbanas. Desde el Centro, pregunta por la conexión de Itaipava y confirma dónde bajar para el parque, el terminal o el castillo. Desde el Terminal Itaipava, consulta la línea local si tu destino queda fuera de la vía principal.',
+          'Separe a Rodoviária do Bingen, onde chega o ônibus do Rio, do Terminal Centro, que distribui linhas urbanas. Do Centro, pergunte pela conexão com Itaipava e confirme onde descer para o parque, o terminal ou o castelo. No Terminal Itaipava, consulte a linha local se o destino for fora do eixo principal.',
+          'Distinguish the Bingen intercity station from Terminal Centro, which serves local routes. From downtown, ask for the Itaipava connection and check where to get off for the park, terminal or castle. At Terminal Itaipava, ask about feeder buses for destinations off the main road.')],
+      [t('Frecuencia y último bus', 'Frequência e último ônibus', 'Frequency and last bus'),
+        t('Confirma línea, sentido, parada y horario para el día concreto. Hay cuadros distintos según el día y pueden cambiar cuando se reorganiza una concesión. Anota la penúltima salida además de la última y usa esa como margen si tienes otra conexión.',
+          'Confira linha, sentido, ponto e horário para o dia da viagem. As tabelas variam por dia e podem mudar com a reorganização do serviço. Anote também a penúltima saída e use-a como margem se tiver outra conexão.',
+          'Check the route, direction, stop and timetable for your travel date. Schedules vary by day and can change when services are reorganized. Note the second-to-last bus too and aim for it if making a connection.')],
+    ],
+    links: [['https://cidadedashortensias.com.br/', t('Consultar horarios del operador', 'Consultar horários da operadora', 'Check operator schedules')]],
+  },
+};
+
+export const additionalModes = {
+  privado: ['🚐', t('Transporte privado en Petrópolis', 'Transporte privativo em Petrópolis', 'Private transport in Petrópolis'), 'Rio · Petrópolis · Itaipava',
+    t('Traslado puerta a puerta para llegar desde Río o combinar visitas dispersas en la sierra.', 'Traslado porta a porta para chegar do Rio ou combinar visitas espalhadas pela serra.', 'Door-to-door transfer from Rio or between scattered mountain sights.'),
+    t('Define el lugar exacto de encuentro. Si llegas a GIG o SDU, comparte aeropuerto, número de vuelo, terminal y cantidad de maletas.', 'Defina o ponto de encontro. Chegando no GIG ou SDU, informe aeroporto, voo, terminal e quantidade de malas.', 'Set a precise meeting point. At GIG or SDU, provide the airport, flight number, terminal and luggage count.')],
+  'alquiler-de-auto': ['🚗', t('Alquiler de auto en Petrópolis', 'Aluguel de carro em Petrópolis', 'Car rental in Petrópolis'), 'Centro · Itaipava · valles',
+    t('Un auto sirve para varios distritos, almuerzos rurales o salidas con equipaje propio.', 'Carro ajuda para visitar vários distritos, almoçar em zona rural ou levar a própria bagagem.', 'A car helps with multiple districts, rural lunches and carrying your own gear.'),
+    t('Compara retirarlo en Río o en Petrópolis según tu llegada y devolución. Comprueba depósito, franquicia, kilometraje y si el contrato admite caminos sin pavimentar.', 'Compare retirada no Rio ou em Petrópolis conforme chegada e devolução. Confira caução, franquia, quilometragem e se o contrato permite vias sem pavimento.', 'Compare pickup in Rio and Petrópolis around your arrival and return. Check the deposit, excess, mileage and permission to drive on unpaved roads.')],
+  estacionamiento: ['🅿️', t('Estacionamiento en Petrópolis', 'Estacionamento em Petrópolis', 'Parking in Petrópolis'), 'Centro Histórico · Quitandinha · Itaipava',
+    t('Dónde conviene dejar el auto según si vas a un museo, un evento o a comer.', 'Onde deixar o carro conforme você vá a museu, evento ou restaurante.', 'Where to leave the car when visiting a museum, event or restaurant.'),
+    t('En el Centro, lee la señal de cada tramo y comprueba cómo activar el estacionamiento rotativo. Para varias horas, compara con un estacionamiento privado cerca de la primera visita.', 'No Centro, leia a sinalização do trecho e confira como ativar o rotativo. Para várias horas, compare com estacionamento particular perto da primeira visita.', 'Downtown, read the signs on your block and check how to activate metered parking. For several hours, compare with a garage near your first stop.')],
+  'entre-distritos': ['🧭', t('Cómo moverse entre los distritos', 'Como circular entre os distritos', 'Getting between districts'), 'Cascatinha · Itaipava · Pedro do Rio · Posse',
+    t('Organiza el trayecto troncal, el último tramo y la vuelta como tres decisiones diferentes.', 'Organize o eixo principal, o último trecho e a volta como três decisões diferentes.', 'Plan the main corridor, last leg and return as three separate decisions.'),
+    t('Fija el destino exacto: Corrêas no equivale a la entrada del PARNASO en Bonfim, ni el Terminal Itaipava al castillo.', 'Defina o destino exato: Corrêas não é a portaria do PARNASO no Bonfim, nem Terminal Itaipava é o castelo.', 'Pick the exact destination: Corrêas is separate from the Bonfim park entrance, and the Itaipava terminal is separate from the castle.')],
+};
+
+Object.assign(transportDetails, {
+  interurbanos: {
+    sections: [
+      [t('Compra y embarque desde Río', 'Compra e embarque no Rio', 'Booking and boarding in Rio'),
+        t('Busca en Única Fácil la salida para tu fecha y confirma Rodoviária do Rio y Bingen en el billete. Compara el horario de regreso antes de comprar la ida y guarda el comprobante y documento de viaje.',
+          'Busque na Única Fácil o horário da data e confirme Rodoviária do Rio e Bingen na passagem. Compare a volta antes de comprar a ida e guarde comprovante e documento.',
+          'Find your date on Única Fácil and check that the ticket shows Rodoviária do Rio and Bingen. Compare return times before buying outbound and keep the ticket and travel ID.')],
+      [t('Llegada y última conexión', 'Chegada e última conexão', 'Arrival and last connection'),
+        t('Desde Bingen, consulta el bus urbano, el punto de taxi o un viaje en app hasta tu visita. Si duermes en Itaipava, planifica la conexión antes de comprar el pasaje de regreso. El último bus a Río y el último bus local son horarios distintos.',
+          'Do Bingen, consulte ônibus urbano, ponto de táxi ou app até a visita. Se dormir em Itaipava, planeje a conexão antes de comprar a volta. O último ônibus para o Rio e o último local têm horários diferentes.',
+          'From Bingen, check local buses, the taxi rank or an app ride. If staying in Itaipava, plan the connection before booking your return. The last bus to Rio and the last local bus run to different schedules.')],
+    ],
+    links: [['https://unica-facil.com.br/pontos-de-venda/', t('Puntos de venta de Única Fácil', 'Pontos de venda da Única Fácil', 'Única Fácil ticket offices')],
+      ['transportes/onibus/', t('Conexión desde Bingen', 'Conexão do Bingen', 'Connection from Bingen')]],
+  },
+  privado: {
+    sections: [[t('Un día con dos zonas', 'Um dia com duas regiões', 'Two areas in one day'),
+      t('Para Quitandinha y Centro, pide una parada al lado de la entrada que utilizarás y un punto final de recogida después del recorrido a pie. Para un día en Itaipava, confirma espera, peajes y regreso desde el restaurante.',
+        'Para Quitandinha e Centro, peça desembarque perto da entrada que usará e um local de embarque depois da caminhada. Em Itaipava, confirme espera, pedágios e volta do restaurante.',
+        'For Quitandinha and downtown, arrange drop-off by the correct entrance and pickup after your walk. For Itaipava, confirm waiting time, tolls and pickup from the restaurant.')]],
+    links: [['transportes/vans/', t('Traslados para grupos', 'Traslados para grupos', 'Transfers for groups')]],
+  },
+  'alquiler-de-auto': {
+    sections: [[t('Cuándo usarlo', 'Quando usar', 'When to use it'),
+      t('Para una jornada de museos, deja el auto en un solo punto. Para Posse o Vale das Videiras, pregunta por el tramo final a tu anfitrión y revisa el estado de la carretera, sobre todo después de lluvia. Antes de devolverlo, confirma ubicación y horario de la agencia.',
+        'Em um dia de museus, deixe o carro em um ponto só. Para Posse ou Vale das Videiras, pergunte ao anfitrião sobre o acesso final e confira a estrada, principalmente após chuva. Antes de devolver, confira endereço e horário da agência.',
+        'For a museum day, leave the car in one place. For Posse or Vale das Videiras, ask your host about the last stretch and check road conditions, especially after rain. Confirm the agency’s return location and hours.')]],
+    links: [['https://www.localiza.com/brasil/pt-br/rede-de-agencias/petropolis', t('Consultar agencias en Petrópolis', 'Consultar agências em Petrópolis', 'Check rental branches in Petrópolis')],
+      ['transportes/estacionamiento/', t('Ver estacionamiento', 'Ver estacionamento', 'See parking')]],
+  },
+  estacionamiento: {
+    sections: [[t('Centro, Quitandinha e Itaipava', 'Centro, Quitandinha e Itaipava', 'Downtown, Quitandinha and Itaipava'),
+      t('Para el Centro, compara accesos cerca de Rua da Imperatriz o de Praça da Liberdade según tu primera parada. En Quitandinha consulta con el Sesc cuál es la entrada para tu actividad. En Itaipava verifica si tu restaurante o evento tiene estacionamiento y cómo salir a União e Indústria.',
+        'No Centro, compare acessos perto da Rua da Imperatriz ou da Praça da Liberdade conforme a primeira parada. No Quitandinha, veja com o Sesc qual entrada usar. Em Itaipava, confira estacionamento do restaurante ou evento e saída para a União e Indústria.',
+        'Downtown, compare parking near Rua da Imperatriz or Praça da Liberdade according to your first stop. In Quitandinha, ask Sesc which entrance to use. In Itaipava, check venue parking and the exit back to União e Indústria.')]],
+    links: [['https://web2.petropolis.rj.gov.br/cptrans/', t('Consultar CPTrans', 'Consultar CPTrans', 'Check CPTrans')]],
+  },
+  'entre-distritos': {
+    sections: [[t('Centro, Cascatinha e Itaipava', 'Centro, Cascatinha e Itaipava', 'Downtown, Cascatinha and Itaipava'),
+      t('Para el corredor urbano, consulta el bus entre el Centro y el punto más cercano a tu visita. Para Pedro do Rio, Secretário o Posse, distingue el eje principal de los caminos rurales y pacta el regreso si tu parada queda alejada.',
+        'No corredor urbano, consulte ônibus entre Centro e o ponto mais próximo da visita. Para Pedro do Rio, Secretário ou Posse, separe o eixo principal das estradas rurais e combine a volta se a parada ficar afastada.',
+        'For the urban corridor, check buses from downtown to the closest stop. For Pedro do Rio, Secretário or Posse, distinguish the main road from rural lanes and arrange a return pickup at outlying stops.')]],
+    links: [['barrios/', t('Ver barrios y distritos', 'Ver bairros e distritos', 'See neighbourhoods and districts')]],
+  },
+});

@@ -4,9 +4,11 @@ import { regionalVenues } from '../assets/js/translations/destinos/mesas-regiona
 import { petrExpansion } from '../assets/js/translations/destinos/petropolis-mesas-ampliacion.js';
 import { categories, venues } from '../assets/js/translations/destinos/petropolis-mesas.js';
 
+import { investigatedVenues } from '../assets/js/translations/destinos/petropolis-mesas-investigadas.js';
+
 const base = destination => '/destinos/' + destination.slug + '/';
 const petropolis = Object.fromEntries(Object.entries(venues).map(([section, items]) =>
-  [section, { ...items, ...petrExpansion[section] }]));
+  [section, { ...items, ...petrExpansion[section], ...investigatedVenues[section] }]));
 const catalogs = { petropolis, ...regionalVenues };
 export const venueRoutes = Object.entries(petropolis).flatMap(([section, items]) => Object.keys(items).map(slug => [section, slug]));
 export const otherVenueRoutes = Object.entries(regionalVenues).flatMap(([city, catalog]) =>
@@ -78,11 +80,12 @@ function directory(destination, section, lang) {
     const label = esc(item.name);
     const description = text(item.summary, lang);
     const href = pre(lang) + base(destination) + section + '/' + slug + '/';
+    const venueButton = destination.slug === 'petropolis' ? `<strong class="rd-action">${text(words.open, lang)}</strong>` : '';
     return food
       ? `<a class="restaurant" href="${href}" data-venue data-category="${item.category}"><div class="restaurant-content">
         <h3>${label}</h3><p class="restaurant-place">${esc(item.area)} · ${category}</p>
         <p class="restaurant-description">${description}</p><span class="restaurant-link">${text(words.open, lang)}</span></div></a>`
-      : `<a href="${href}" data-venue data-category="${item.category}"><b>${label}</b><span>${category} · ${description}</span></a>`;
+      : `<a href="${href}" data-venue data-category="${item.category}"><b>${label}</b><span>${category} · ${description}</span>${venueButton}</a>`;
   }).join('');
   const empty = `<p data-empty hidden>${text(words.empty, lang)}</p>`;
   const body = food
@@ -90,7 +93,7 @@ function directory(destination, section, lang) {
       <h1>${text(title, lang)}</h1><p class="gast-intro">${text(intro, lang)}</p></div></section>
       <section class="gast-catalog"><div class="gast-section-heading"><h2>${text(words.directory, lang)}</h2></div>
       <div class="catalog-controls">${search}</div><div class="restaurant-grid">${cards}</div>${empty}</section></div>`
-    : `<div data-petr-venues><section class="hero"><div class="hero-copy"><p class="kicker">ERNESTINHO CARIOCA</p>
+    : `<div data-petr-venues><section class="hero"${destination.slug === 'petropolis' ? ' style="min-height:48vh"' : ''}><div class="hero-copy"><p class="kicker">ERNESTINHO CARIOCA</p>
       <h1>${text(title, lang)}</h1><p class="lead">${text(intro, lang)}</p></div></section>
       <section class="night-editorial"><h2>${text(words.directory, lang)}</h2><div class="night-search">${search}</div></section>
       <section class="editorial"><div class="ec-list">${cards}</div>${empty}</section></div>`;
@@ -112,17 +115,19 @@ function detail(destination, section, slug, lang) {
     text(t('Cómo llegar y mapa', 'Como chegar e mapa', 'Directions and map'), lang) +
     '</summary><p>' + esc(item.address) + ' · ' + esc(item.area) + '</p>' + map + '</details></section>';
   const experience = `<article class="card"><h2>${text(words[food ? 'experience' : 'evening'], lang)}</h2><p>${text(item.experience, lang)}</p></article>`;
+  const arrival = destination.slug === 'petropolis' && item.arrival ? `<article class="card"><h2>${text(t('Cómo llegar', 'Como chegar', 'Getting there'), lang)}</h2><p>${text(item.arrival, lang)}</p></article>` : '';
+  const source = destination.slug === 'petropolis' && item.source ? `<a class="btn alt" href="${esc(item.source)}">${text(t('Consultar el establecimiento ↗', 'Consultar o estabelecimento ↗', 'Check venue information ↗'), lang)}</a>` : '';
   const advice = `<article class="card tip"><h2>${text(words.advice, lang)}</h2><p>${text(item.advice, lang)}</p></article>`;
   const hero = `<header class="hero petr-venue-hero"><div class="wrap">${back}<div class="${food ? 'ey' : 'eyebrow'}">${text(category, lang)} · ${esc(item.area)}</div>
     <h1>${esc(item.name)}</h1><p class="lead">${text(item.summary, lang)}</p></div></header>`;
   const body = food
     ? `${hero}<div class="wrap"><div class="tags"><span class="tag">${text(category, lang)}</span><span class="tag">${esc(item.area)}</span></div>
-      <div class="grid"><section>${experience}${advice}</section><aside class="card facts"><h2>${text(words.practical, lang)}</h2>
-      <p>${address}</p>${transit}${next}</aside></div></div>`
+      <div class="grid"><section>${experience}${arrival}${advice}</section><aside class="card facts"><h2>${text(words.practical, lang)}</h2>
+      <p>${address}</p>${transit}${next}${source}</aside></div></div>`
     : `${hero}<div class="wrap"><section class="facts"><div class="fact">${address}</div>
       <div class="fact"><b>${text(words.format, lang)}</b>${text(category, lang)}</div></section>
-      <div class="content"><section>${experience}${advice}</section><aside class="card"><h2>${text(words.practical, lang)}</h2>
-      <div class="actions">${transit}${next}</div></aside></div></div>`;
+      <div class="content"><section>${experience}${arrival}${advice}</section><aside class="card"><h2>${text(words.practical, lang)}</h2>
+      <div class="actions">${transit}${next}${source}</div></aside></div></div>`;
   return { title: item.name, intro: item.summary, body: body + mapPanel, image: null, bodyClass: 'petr-venue-detail', css: ['petr-venues'],
     inline: styles(food ? 'gastronomia/aprazivel' : 'vida-nocturna/rio-scenarium') };
 }

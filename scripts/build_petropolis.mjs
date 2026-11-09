@@ -3,13 +3,29 @@ import { esc, pre, styles, v } from './buzios_mirror_core.mjs';
 import { t } from '../assets/js/translations/destinos/modelo.js';
 import { regionalTransport } from '../assets/js/translations/destinos/transportes-regionales.js';
 import { regionalPlaces } from '../assets/js/translations/destinos/regional-lugares.js';
-import { places, placeSections, photoSpots } from '../assets/js/translations/destinos/petropolis-lugares.js';
+import { places as originalPlaces, placeSections as originalSections, photoSpots } from '../assets/js/translations/destinos/petropolis-lugares.js';
 import { photographyCards } from './regional_photography.mjs';
 import { petrSpotInfo } from '../assets/js/translations/destinos/fotografia-regional.js';
-import { extraCards, transport } from '../assets/js/translations/destinos/petropolis-practico.js';
+import { extraCards, transport as baseTransport } from '../assets/js/translations/destinos/petropolis-practico.js';
+
+import { additionalModes, transportDetails } from '../assets/js/translations/destinos/petropolis-transporte-local.js';
+
+import { morePlaces, addedPlaceSections, existingPlaceContext, visitFacts, familyFacts } from '../assets/js/translations/destinos/petropolis-cultura-familia.js';
 
 import { morePhotoSpots } from '../assets/js/translations/destinos/petropolis-fotografia-local.js';
 import { localPhotos, photoCredit } from '../assets/js/translations/destinos/petropolis-fotos.js';
+import { localTips, soloGuide } from '../assets/js/translations/destinos/petropolis-consejos-locales.js';
+
+export { localTips, soloGuide };
+const places = {
+  ...Object.fromEntries(Object.entries(originalPlaces).map(([id, place]) =>
+    [id, { ...place, ...existingPlaceContext[id] }])),
+  ...morePlaces,
+};
+const placeSections = Object.fromEntries(Object.entries(originalSections)
+  .map(([key, slugs]) => [key, [...slugs, ...(addedPlaceSections[key] || [])]]));
+
+const transport = { ...baseTransport, ...additionalModes };
 
 const base = '/destinos/petropolis/';
 const earlier = '/FOTOS/HOME/DESTINOS/20261107-plantillas/petropolis/';
@@ -27,10 +43,13 @@ const assets = {
   'catedral-paisaje': [current, 'Catedral São Pedro de Alcântara'],
   'palacio-rio-negro': ['/assets/images/destinos/lugares/petropolis/', 'Palácio Rio Negro'],
 };
-const petrBasePhotos = Object.fromEntries(Object.entries(assets).map(([key, [folder, alt]]) => [key, { src: folder + key + '.webp', alt }]));
-export const petrPhotos = { ...petrBasePhotos, ...localPhotos };
+export const petrPhotos = {
+  ...Object.fromEntries(Object.entries(assets).map(([key, [folder, alt]]) => [key, { src: folder + key + '.webp', alt }])),
+  ...localPhotos,
+};
 export const petrDetailRoutes = [
   ...venueRoutes,
+  ...Object.keys(localTips).map(slug => ['consejos', slug]),
   ...Object.entries(placeSections).flatMap(([key, slugs]) => slugs.map(slug => [key, slug])),
   ...Object.keys(transport).map(slug => ['transportes', slug]),
 ];
@@ -48,7 +67,7 @@ const caboFrioTimetables = [
   t('Horarios y pasajes de la 1001', 'Horários e passagens da 1001', '1001 timetables and tickets'),
   t('Líneas y horarios de Salineira', 'Linhas e horários da Salineira', 'Salineira routes and timetables'),
 ];
-const cover = (title, intro, lang, name = 'Petrópolis') => `<section class="hero" style="min-height:52vh"><div class="hero-copy">
+const cover = (title, intro, lang, name = 'Petrópolis', height = '52vh') => `<section class="hero"${height ? ' style="min-height:' + height + '"' : ''}><div class="hero-copy">
   <p class="kicker">ERNESTINHO CARIOCA · ${esc(name.toLocaleUpperCase('pt-BR'))}</p><h1>${tx(title, lang)}</h1><p class="lead">${tx(intro, lang)}</p></div></section>`;
 const note = (text, lang) => `<aside class="notice"><b>${tx(tip, lang)}</b>${p(text, lang)}</aside>`;
 const titleFor = {
@@ -72,7 +91,7 @@ export function renderRegionalPlaces(city, key, slug, lang, photos) {
 }
 
 function localPlaceLink(slug, lang, { base, places, placeSections }) {
-  const section = ['cultura', 'naturaleza', 'familia'].find(key => placeSections[key].includes(slug));
+  const section = ['cultura', 'naturaleza', 'familia'].find(key => placeSections[key]?.includes(slug));
   return link(base + section + '/' + slug + '/', places[slug].name, lang, 'rd-action');
 }
 
@@ -93,13 +112,13 @@ function placeList(city, key, lang, config = petropolisCatalog) {
       <div class="family-card-copy"><span>${esc(place.area)}</span><h2>${esc(place.name)}</h2>
       ${p(place.description, lang)}<b>${tx(open, lang)}</b></div></a>`;
     return `<a class="culture-card" href="${url}">${image(photo)}<span class="culture-card-copy"><small>${esc(place.area)}</small>
-      <h3>${esc(place.name)}</h3>${p(place.description, lang)}</span></a>`;
+      <h3>${esc(place.name)}</h3>${p(place.description, lang)}${config === petropolisCatalog ? `<strong class="rd-action">${tx(open, lang)}</strong>` : ''}</span></a>`;
   }).join('');
   const body = family
     ? `<section class="family-index"><div class="family-wrap">${link(base, back, lang, 'family-back')}
       <div class="family-index-intro"><span>${esc(city.name)}</span><h1>${tx(title, lang)}</h1>${p(intro, lang)}</div>
       <div class="family-card-grid">${cards}</div>${config !== petropolisCatalog ? note(tip, lang) : ''}</div></section>`
-    : cover(title, intro, lang, city.name) + `<div class="culture-index"><section class="culture-section culture-categories">
+    : cover(title, intro, lang, city.name, config === petropolisCatalog ? null : '52vh') + `<div class="culture-index"><section class="culture-section culture-categories">
       <p class="culture-kicker">ERNESTINHO CARIOCA</p><h2>${tx(t('Elige qué visitar', 'Escolha o que visitar', 'Choose what to visit'), lang)}</h2>
       <div class="culture-grid">${cards}</div></section><aside class="culture-note">${p(tip, lang)}</aside></div>`;
   return { title, intro, body, css: [family ? 'familia' : 'cultura'], bodyClass: family ? 'familia-index-page' : '' };
@@ -112,15 +131,27 @@ function placeDetail(key, slug, lang, config = petropolisCatalog, cityName = 'Pe
   const photo = photos[place.image];
   const mapUrl = place.map ? 'https://www.google.com/maps/search/?api=1&amp;query=' + encodeURIComponent(place.map + ', ' + cityName + ', RJ') : '';
   const map = mapUrl ? `<a class="rd-action" href="${mapUrl}" target="_blank" rel="noopener noreferrer">${tx(t('Abrir en el mapa ↗', 'Abrir no mapa ↗', 'Open on map ↗'), lang)}</a>` : '';
+  const supplement = (cls) => config !== petropolisCatalog ? '' : [
+    [t('Historia y contexto', 'História e contexto', 'History and context'), place.history],
+    [tip, place.advice],
+  ].filter(([, copy]) => copy).map(([heading, copy]) =>
+    `<section class="${cls}"><h2>${tx(heading, lang)}</h2>${p(copy, lang)}</section>`).join('');
+  const facts = config === petropolisCatalog ? visitFacts[slug] : null;
+  const familyPlan = family && config === petropolisCatalog ? familyFacts[slug] : null;
+  const familyGuide = familyPlan ? `<section class="family-experience">
+      <h2>${tx(t('Edades, tiempo y acceso', 'Idades, tempo e acesso', 'Ages, duration and access'), lang)}</h2>
+      <p>${tx(t('Edad orientativa', 'Idade sugerida', 'Suggested age'), lang)} · ${familyPlan.age} · ${familyPlan.minutes} min</p>
+      ${p(familyPlan.access, lang)}</section>` : '';
+  const source = config === petropolisCatalog && place.source ? `<a class="rd-action" href="${esc(place.source)}" target="_blank" rel="noopener noreferrer">${tx(t('Consultar fuente ↗', 'Consultar fonte ↗', 'Check source ↗'), lang)}</a>` : '';
   const body = family
     ? `<section class="family-detail"><div class="family-wrap">${link(base + key + '/', back, lang, 'family-back family-back-dark')}
       <div class="family-detail-intro"><span>${esc(place.area)}</span><h1>${esc(place.name)}</h1>${p(place.description, lang)}</div>
       ${photo ? `<div class="family-detail-hero"><div class="family-hero">${image(photo, '', true)}<div><span>${esc(place.area)}</span><h2>${esc(place.name)}</h2></div></div></div>` : ''}
-      <section class="family-experience"><h2>${tx(practical, lang)}</h2>${p(place.visit, lang)}${map}</section>
+      ${photoCredit(photo, lang)}<section class="family-experience"><h2>${tx(practical, lang)}</h2>${p(place.visit, lang)}${facts ? p(facts, lang) : ''}${map}${source}</section>${familyGuide}${supplement('family-experience')}
       <section class="family-experience"><h2>${tx(combine, lang)}</h2>${localPlaceLink(place.combine, lang, config)}</section></div></section>`
     : cover(place.name, place.description, lang, cityName) + `<div class="culture-index">${link(base + key + '/', back, lang, 'culture-back')}
-      ${photo ? `<div class="culture-gallery"><figure>${image(photo, '', true)}</figure></div>` : ''}
-      <section class="culture-section"><h2>${tx(practical, lang)}</h2>${p(place.visit, lang)}${map}</section>
+      ${photo ? `<div class="culture-gallery"><figure>${image(photo, '', true)}${photoCredit(photo, lang)}</figure></div>` : ''}
+      <section class="culture-section"><h2>${tx(practical, lang)}</h2>${p(place.visit, lang)}${facts ? p(facts, lang) : ''}${map}${source}</section>${supplement('culture-section')}
       <aside class="culture-note"><b>${tx(combine, lang)}</b><p>${localPlaceLink(place.combine, lang, config)}</p></aside></div>`;
   return { title: place.name, intro: place.description, image: config === petropolisCatalog ? photo : photo || null, body, css: [family ? 'familia' : 'cultura'], bodyClass: family ? 'familia-detail-page' : '' };
 }
@@ -154,30 +185,49 @@ function transportLayout(city, slug, lang, photos = {}) {
   const guide = city.slug === 'angra-ilha-grande' ? 'embarque' : 'llegada';
   const title = isPetr ? titleFor.transportes : t(`Cómo moverse en ${city.name}.`, `Como se locomover em ${city.name}.`, `Getting around ${city.name}.`);
   const { intro, tip } = city.sections.transportes;
+  const mapPins = {
+    onibus: 'Terminal Centro Petrópolis',
+    interurbanos: 'Terminal Rodoviário Governador Leonel Brizola Petrópolis',
+    vans: 'Palácio Quitandinha Petrópolis',
+    uber: 'Terminal Rodoviário Governador Leonel Brizola Petrópolis',
+    bicicletas: 'Parque Municipal Prefeito Paulo Rattes Itaipava',
+    privado: 'Museu Imperial Petrópolis',
+    'alquiler-de-auto': 'Aluguel de carros Petrópolis Centro',
+    estacionamiento: 'Estacionamento Praça da Liberdade Petrópolis',
+    'entre-distritos': 'Terminal Itaipava Petrópolis',
+  };
   if (slug) {
     const [, name, area, summary, returnTrip, ...sources] = modes[slug];
     const timetables = isCaboFrio ? sources.map((url, index) =>
       `<a class="text-action" href="${esc(url)}">${tx(caboFrioTimetables[slug === 'onibus' ? 1 : index], lang)}</a>`).join('') : '';
+    const detail = isPetr ? transportDetails[slug] : null;
+    const details = detail?.sections.map(([heading, copy]) =>
+      `<section class="guide-section"><h2>${tx(heading, lang)}</h2>${p(copy, lang)}</section>`).join('') || '';
+    const resources = detail?.links.map(([url, label]) => url.startsWith('https://')
+      ? `<a class="text-action" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${tx(label, lang)} ↗</a>`
+      : link(base + url, label, lang, 'text-action')).join('') || '';
+    const map = isPetr ? `<a class="text-action" href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(mapPins[slug])}">${tx(t('Ver punto de referencia ↗', 'Ver ponto de referência ↗', 'Open reference point ↗'), lang)}</a>` : '';
     const body = `<section class="transit-guide"><div class="breadcrumbs">${link(base + 'transportes/', back, lang)}</div>
       <div class="guide-intro"><p class="kicker">ERNESTINHO CARIOCA · ${esc(city.name.toLocaleUpperCase('pt-BR'))}</p><h1>${tx(name, lang)}</h1>
       <p class="guide-dek">${tx(summary, lang)}</p><span class="fact-pill">${esc(area)}</span></div>
-      <div class="guide-layout"><article class="guide-copy"><section class="guide-section ec-adn ec-teal"><h2>${tx(isPetr ? practical : t('Embarque y regreso', 'Embarque e volta', 'Boarding and return'), lang)}</h2>${p(returnTrip, lang)}</section></article>
-      <aside class="guide-aside"><div class="aside-card">${link(base + 'guia/' + guide + '/', isPetr ? t('Cómo llegar desde Río', 'Como chegar do Rio', 'Getting here from Rio') : t('Planifica la llegada', 'Planeje a chegada', 'Plan your arrival'), lang, 'text-action')}${timetables}</div></aside></div></section>`;
+      <div class="guide-layout"><article class="guide-copy"><section class="guide-section ec-adn ec-teal"><h2>${tx(isPetr ? practical : t('Embarque y regreso', 'Embarque e volta', 'Boarding and return'), lang)}</h2>${p(returnTrip, lang)}</section>${details}</article>
+      <aside class="guide-aside"><div class="aside-card">${link(base + 'guia/' + guide + '/', isPetr ? t('Cómo llegar desde Río', 'Como chegar do Rio', 'Getting here from Rio') : t('Planifica la llegada', 'Planeje a chegada', 'Plan your arrival'), lang, 'text-action')}${map}${timetables}${resources}</div></aside></div></section>`;
     return { title: name, intro: summary, body, css: ['transit-guides'] };
   }
   const cards = Object.entries(modes).map(([mode, [icon, name, area, copy]]) => {
-    const photo = isCaboFrio ? photos['transportes-' + mode] :
+    const photo = isPetr && additionalModes[mode] ? null : isCaboFrio ? photos['transportes-' + mode] :
       mode === 'barcos' ? photos['transportes-barcos'] || photos['spot-praia-dos-anjos'] :
       { src: '/FOTOS/HOME/DESTINOS/20261107-plantillas/transportes/' + mode + '.webp', alt: v(name, lang) };
     return `<article class="tcard source-transport">${image(photo && { ...photo, alt: photo.alt || v(name, lang) }, 'transport-thumb')}<div class="transport-content"><i aria-hidden="true">${icon}</i>
       <b>${tx(name, lang)}</b><strong>${esc(area)}</strong>${p(copy, lang)}</div>
       ${link(base + 'transportes/' + mode + '/', open, lang, 'detail-link')}</article>`;
   }).join('');
-  return { title, intro, body: cover(title, intro, lang, city.name) + `<section class="transport"><div class="tgrid">${cards}</div>${note(tip, lang)}</section>`, inline: styles('transportes') };
+  return { title, intro, body: cover(title, intro, lang, city.name, isPetr ? '50vh' : '52vh') + `<section class="transport"><div class="tgrid">${cards}</div>${note(tip, lang)}</section>`, inline: styles('transportes') };
 }
 
 export function renderPetropolis(city, key, slug, lang) {
   if (key === 'gastronomia' || key === 'vida-nocturna') return renderVenueSection(city, key, slug, lang);
+  if (key === 'consejos' && slug) return renderTipsArticle(localTips[slug], lang);
   if (key === 'fotografias') return photography(city, lang);
   if (key === 'transportes') return transportLayout(city, slug, lang);
   if (placeSections[key]) return slug ? placeDetail(key, slug, lang) : placeList(city, key, lang);
@@ -220,6 +270,22 @@ export function petropolisHome(city, names, lang) {
   };
 }
 
+function renderTipsArticle(guide, lang) {
+  const photo = petrPhotos[guide.image];
+  const cards = guide.cards.map(card => `<article class="ec-visual-card"><div class="copy">
+    <h2>${tx(card.title, lang)}</h2>${p(card.copy, lang)}${link(card.action.route, open, lang)}</div></article>`).join('');
+  return {
+    title: guide.title, intro: guide.intro, image: photo, css: ['consejos'],
+    body: `<section class="ec-detail"><article>
+      ${link(base + 'consejos/', t('← Volver a Consejos', '← Voltar a Dicas', '← Back to Tips'), lang, 'ec-back')}
+      <div class="ec-hero">${image(photo, '', true)}</div>${photoCredit(photo, lang)}
+      <h1>${tx(guide.title, lang)}</h1><p class="ec-intro">${tx(guide.intro, lang)}</p>
+      <div class="ec-visual-grid">${cards}</div>
+      <aside class="ec-special-tip"><b>${tx(tip, lang)}</b>${p(guide.tip, lang)}</aside>
+    </article></section>`,
+  };
+}
+
 export function renderGuideArticle(city, guide, photo, lang) {
   const base = '/destinos/' + city.slug + '/';
   const items = guide.cards.map((card, index) => `<article><span>${String(index + 1).padStart(2, '0')}</span>
@@ -242,7 +308,7 @@ export function petropolisGuide(city, slug, lang) {
     return renderGuideArticle(city, guide, petrPhotos[guide.image || covers[slug]], lang);
   }
   const groups = [
-    [t('Antes de viajar', 'Antes de viajar', 'Before you travel'), ['clima-y-lluvia', 'accesibilidad']],
+    [t('Antes de viajar', 'Antes de viajar', 'Before you travel'), ['clima-y-lluvia', 'accesibilidad', 'viajar-solo']],
     [t('Moverse', 'Como se locomover', 'Getting around'), ['llegada', 'sin-auto']],
     [t('Organiza tu estadía', 'Organize sua estadia', 'Plan your stay'), ['primera-visita', 'itinerarios-1-2-3-dias']],
   ];

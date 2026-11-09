@@ -7,7 +7,7 @@ import angraData from '../assets/js/translations/destinos/angra-ilha-grande.js';
 import caboFrio from '../assets/js/translations/destinos/cabo-frio.js';
 import arraialData from '../assets/js/translations/destinos/arraial-do-cabo.js';
 import paratyData from '../assets/js/translations/destinos/paraty.js';
-import { petrPhotos, petrDetailRoutes, renderPetropolis, petropolisCards, petropolisHome, petropolisGuide, petropolisEditorial, regionalPlaceRoutes, renderRegionalPlaces, regionalTransportRoutes, renderRegionalTransport, renderGuideArticle } from './build_petropolis.mjs';
+import { petrPhotos, petrDetailRoutes, localTips, soloGuide, renderPetropolis, petropolisCards, petropolisHome, petropolisGuide, petropolisEditorial, regionalPlaceRoutes, renderRegionalPlaces, regionalTransportRoutes, renderRegionalTransport, renderGuideArticle } from './build_petropolis.mjs';
 
 import { regionalGuides } from '../assets/js/translations/destinos/guias-regionales.js';
 import { regionalTips } from '../assets/js/translations/destinos/consejos-regionales.js';
@@ -23,7 +23,10 @@ photos.petropolis = { home: petrPhotos['catedral-paisaje'] };
 const catalog = '/destinos/';
 const credits = catalog + 'creditos-fotos/';
 const withLocalGuides = city => ({ ...city, guide: { ...city.guide, ...regionalGuides[city.slug] } });
-const petropolis = withLocalGuides(petropolisData);
+const petropolis = withLocalGuides({
+  ...petropolisData,
+  guide: { ...petropolisData.guide, 'viajar-solo': soloGuide },
+});
 const angra = withLocalGuides(angraData);
 const arraial = withLocalGuides(arraialData);
 const paraty = withLocalGuides(paratyData);
@@ -253,6 +256,10 @@ function renderTips(destination, language, route) {
   }).join('');
   const heading = t('Consejos esenciales', 'Dicas essenciais', 'Essential tips');
   const more = t('Organiza y vive tu viaje', 'Organize e aproveite sua viagem', 'Plan and enjoy your trip');
+  const featured = destination === petropolis ? Object.entries(localTips).map(([id, guide]) =>
+    `<article class="ec-card">${photograph(media[guide.image], media[guide.image].alt)}
+      <div class="ec-label"><h3>${text(guide.title, language)}</h3>${paragraph(guide.intro, language)}
+      ${navLink(sectionPath(destination, 'consejos') + id + '/', guideOpen, language, 'ec-back')}</div></article>`).join('') : '';
   const previous = destination === petropolis ? petropolisCards('consejos', originalCards) : originalCards;
   const extra = previous.map(({ title, copy, action }) => `<article class="ec-note">
     <h3>${text(title, language)}</h3>${paragraph(copy, language)}${actionLink(action, destination, language, title)}</article>`).join('');
@@ -260,7 +267,8 @@ function renderTips(destination, language, route) {
   const body = `<section class="ec-consejos-head"><div class="ec-wrap"><span>ERNESTINHO CARIOCA · ${esc(destination.name)}</span>
     <h1>${text(title, language)}</h1>${paragraph(intro, language)}</div></section>
     ${destinationNav(destination, route, language)}
-    <section class="ec-consejos-body"><div class="ec-wrap">
+    <section class="ec-consejos-body"><div class="ec-wrap">${featured ? `
+      <h2>${text(t('Guías completas', 'Guias completas', 'Full travel guides'), language)}</h2><div class="ec-grid ec-grid-essential">${featured}</div>` : ''}
       <h2>${text(heading, language)}</h2><div class="ec-grid ec-grid-essential">${cards}</div>
       <h2 class="ec-second">${text(more, language)}</h2><div class="ec-grid">${extra}</div>
       ${recommendation(tip, language)}
@@ -323,7 +331,7 @@ export function renderRegionalRoute(route, language) {
   const neighborhood = key === 'barrios' ? renderRegionalNeighborhood(destination, slug, language, petr ? petrPhotos : photos[destination.slug]) : null;
   const guideCopy = !petr && guide && regionalGuides[destination.slug]?.[guide];
   const localGuide = guideCopy && renderGuideArticle(destination, guideCopy, photos[destination.slug][guideCopy.image], language);
-  const tips = key === 'consejos' ? renderTips(destination, language, route) : null;
+  const tips = key === 'consejos' && !slug ? renderTips(destination, language, route) : null;
   const content = tips || neighborhood || localGuide || (petr ? (!key ? petropolisHome(destination, sections, language) :
     key === 'guia' ? petropolisGuide(destination, guide, language) :
     renderPetropolis(destination, key, slug, language) || petropolisEditorial(destination, key, sections[key], language, agenda))
