@@ -33,28 +33,60 @@ function numbered(heading, copy, lang, index, extras = '', id = '') {
     <h${id ? 2 : 3}>${text(heading, lang)}</h${id ? 2 : 3}>${paragraph(copy, lang)}${extras}</article>`;
 }
 
-export function soloTravelPage(data, photos, lang) {
+export function practicalGuidePage(data, photos, lang, template) {
   const { title, intro, sections, faq, sources } = data;
   const image = photos[data.image];
-  const sectionCards = sections.map(({ id, title, copy, image, map: location, route }, index) => {
+  const photoClass = template === 'guia/emergencias' ? 'ec-guide-photo' : 'ec-inline-photo';
+  const sectionCards = sections.map(({ id, title, copy, image, map: location, route, links = [], phones = [] }, index) => {
     const extra = (location ? map(location, v(mapLabel, lang)) : '') +
-      (route ? localLink(route, detailsLabel, lang, 'ext') : '');
+      (route ? localLink(route, detailsLabel, lang, 'ext') : '') +
+      phones.map(([number, label]) => `<a class="ext" href="tel:${number}">${text(label, lang)} · ${number}</a>`).join('') +
+      links.map(source => external(source, lang, 'ext')).join('');
     return numbered(title, copy, lang, index, extra, id) +
-      (image ? picture(photos[image], 'ec-inline-photo', lang) : '');
+      (image ? picture(photos[image], photoClass, lang) : '');
   }).join('');
   return {
-    title, intro, image, inline: styles('guia/viajar-solo') + '<style>.guide .petr-page-contents{flex-wrap:wrap;gap:0}</style>',
+    title, intro, image, inline: styles(template) + '<style>.guide .petr-page-contents{flex-wrap:wrap;gap:0}</style>',
     body: `<section class="guide"><p class="kicker">ERNESTINHO CARIOCA · PETRÓPOLIS</p>
       <h1>${text(title, lang)}</h1><p class="intro">${text(intro, lang)}</p>
       <aside class="tip"><b>${text(tipTitle, lang)}</b>${paragraph(data.tip, lang)}</aside>
-      ${picture(image, 'ec-inline-photo', lang, true)}
+      ${picture(image, photoClass, lang, true)}
       ${contents(sections, lang, 'ext')}
       <section class="items">${sectionCards}</section>
       <h2>${text(faqTitle, lang)}</h2>
       <section class="items">${faq.map(([q, a], index) => numbered(q, a, lang, index)).join('')}</section>
       <h2>${text(sourceTitle, lang)}</h2>${sources.map(source => external(source, lang, 'ext')).join('')}
-      ${localLink('transportes/vans/#trayectos', t('Trayectos y paradas de autobús', 'Trajetos e pontos de ônibus', 'Bus routes and stops'), lang, 'ext')}
+      ${(data.relatedLinks || [['transportes/vans/#trayectos', t('Trayectos y paradas de autobús', 'Trajetos e pontos de ônibus', 'Bus routes and stops')]])
+        .map(([route, label]) => localLink(route, label, lang, 'ext')).join('')}
       ${localLink('guia/', t('Volver a la guía', 'Voltar ao guia', 'Back to the guide'), lang, 'ext')}</section>`,
+  };
+}
+
+export function monthlyGuidePage(data, photos, lang) {
+  const { title, intro, months, tip, sources } = data;
+  const image = photos[data.image];
+  const monthCards = months.map(({ title, low, high, rain, plan }, index) =>
+    `<article id="mes-${index + 1}" class="month-card"><h2>${text(title, lang)}</h2>
+      <p><strong>${low}–${high} °C</strong> · ${rain} mm</p>
+      <h3>${text(t('Mi plan del mes', 'Meu plano do mês', 'My plan for the month'), lang)}</h3>
+      ${paragraph(plan, lang)}</article>`).join('');
+  return {
+    title, intro, image,
+    inline: styles('guia/mes-a-mes') + '<style>.season .month-toolbar{flex:initial}.season .month-toolbar a,.season .source-link{border:1px solid #0b6158;background:white;border-radius:999px;padding:.55rem .8rem;color:#064b44;font-weight:700}.season .ec-guide-photo a{color:inherit}</style>',
+    body: `<section class="season">${picture(image, 'ec-guide-photo', lang, true)}
+      ${localLink('guia/', t('Volver a la guía', 'Voltar ao guia', 'Back to the guide'), lang, 'ext')}
+      <p class="eyebrow">ERNESTINHO CARIOCA · PETRÓPOLIS</p><h1>${text(title, lang)}</h1><p class="season-intro">${text(intro, lang)}</p>
+      <p>${text(t('Las cifras muestran medias de temperaturas mínimas y máximas y lluvia mensual según la serie de Climatempo. Consulta el pronóstico para tus fechas.',
+        'Os números mostram médias de mínimas e máximas e chuva mensal segundo a série do Climatempo. Consulte a previsão para suas datas.',
+        'Figures show mean lows, highs and monthly rainfall from Climatempo’s historical series. Check the forecast for your dates.'), lang)}</p>
+      <nav class="month-toolbar" aria-label="${text(contentsTitle, lang)}">${months.map(({ title }, index) =>
+        `<a href="#mes-${index + 1}">${text(title, lang)}</a>`).join('')}</nav>
+      <div class="month-grid">${monthCards}</div>
+      <aside class="month-extra"><h2>${text(tipTitle, lang)}</h2>${paragraph(tip, lang)}
+      ${localLink('guia/clima-y-lluvia/', t('Plan de lluvia', 'Plano de chuva', 'Rainy-day plans'), lang, 'ext')} ·
+      ${localLink('eventos/', t('Calendario de eventos', 'Calendário de eventos', 'Events calendar'), lang, 'ext')}</aside>
+      <section class="month-extra"><h2>${text(sourceTitle, lang)}</h2>
+      <div class="source-list">${sources.map(source => external(source, lang, 'source-link')).join('')}</div></section></section>`,
   };
 }
 

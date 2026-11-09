@@ -1,4 +1,12 @@
 export const localPhotos = {
+  'terminal-bingen': {
+    src: '/assets/images/destinos/lugares/petropolis/terminal-bingen.webp',
+    alt: 'Terminal Rodoviário Governador Leonel Brizola, vista da BR-040 (2012)',
+    source: 'https://commons.wikimedia.org/wiki/File:Terminal_Rodovi%C3%A1rio_de_Petr%C3%B3polis.jpg',
+    author: 'Halley Pacheco de Oliveira',
+    license: 'CC BY-SA 3.0',
+    licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/',
+  },
   "koeler": {
     "src": "/assets/images/destinos/lugares/petropolis/koeler.webp",
     "alt": "Avenida Koeler e Catedral",

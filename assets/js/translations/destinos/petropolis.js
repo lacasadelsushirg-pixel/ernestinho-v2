@@ -1,5 +1,6 @@
 import { t, card as c, section as s } from './modelo.js';
 import { soloGuide } from './petropolis-viajar-solo.js';
+import { practicalGuides } from './petropolis-guia-practica.js';
 
 const tourism = 'https://www.petropolis.rj.gov.br/turispetro/';
 const museum = 'https://museuimperial.museus.gov.br/';
@@ -13,6 +14,7 @@ export default {
   plan: t('Empieza en el Museu Imperial, sigue a la Catedral y deja la tarde para el Palácio de Cristal o Quitandinha. Con dos días, yo reservaría el segundo para Itaipava.', 'Comece pelo Museu Imperial, siga para a Catedral e deixe a tarde para o Palácio de Cristal ou Quitandinha. Com dois dias, eu reservaria o segundo para Itaipava.', 'Start at the Imperial Museum, continue to the cathedral and leave the afternoon for the Crystal Palace or Quitandinha. With two days, I’d save the second for Itaipava.'),
   guide: {
     'viajar-solo': soloGuide,
+    ...practicalGuides,
     'primera-visita': {
       title: t('Petrópolis en uno o dos días', 'Petrópolis em um ou dois dias', 'Petrópolis in one or two days'),
       ...s(t('El Centro Histórico merece su propio ritmo. Puedes ver el exterior de varios edificios y reservar tiempo para entrar al que más te interese.', 'O Centro Histórico merece seu ritmo. Dá para ver o exterior de vários prédios e reservar tempo para entrar no que mais interessa.', 'Give the historic centre its own pace. You can see several buildings from outside and allow time to go inside the one that interests you most.'), [
@@ -33,13 +35,6 @@ export default {
         c(t('Un día con lluvia', 'Um dia com chuva', 'A rainy day'), t('Confirma si el Museu Imperial u otro espacio cultural recibe visitas y elige un café cerca para reducir los desplazamientos.', 'Confirme se o Museu Imperial ou outro espaço cultural recebe visitas e escolha um café perto para reduzir deslocamentos.', 'Check whether the Imperial Museum or another cultural venue is open, then pick a nearby café to keep travel short.'), { page: 'cultura' }),
         c(t('Antes de subir a la sierra', 'Antes de subir a serra', 'Before heading uphill'), t('Consulta el pronóstico y los avisos municipales. Si hay alerta, ajusta el trayecto y sigue la orientación local.', 'Consulte a previsão e os avisos municipais. Se houver alerta, ajuste o trajeto e siga a orientação local.', 'Check the forecast and municipal notices. If there’s a warning, adjust your route and follow local guidance.'), { url: tourism }),
       ], t('Yo dejaría el paseo al aire libre como plan flexible y confirmaría la visita bajo techo antes de salir.', 'Eu deixaria o passeio ao ar livre flexível e confirmaria a visita coberta antes de sair.', 'I’d keep the outdoor plan flexible and confirm the indoor visit before leaving.')),
-    },
-    'accesibilidad': {
-      title: t('Accesibilidad y ritmo de visita', 'Acessibilidade e ritmo da visita', 'Accessibility and pace'),
-      ...s(t('Antes de elegir una ficha, piensa en el acceso real desde la calle y en el tiempo que tu grupo quiere caminar.', 'Antes de escolher uma ficha, pense no acesso real desde a rua e em quanto seu grupo quer caminhar.', 'Before choosing a visit, think about street-level access and how long your group wants to walk.'), [
-        c(t('Edificios históricos', 'Edifícios históricos', 'Historic buildings'), t('Pregunta al espacio por la entrada accesible, desniveles, áreas visitables y baños. Una visita a los jardines puede tener condiciones distintas del interior.', 'Pergunte pela entrada acessível, desníveis, áreas visitáveis e banheiros. A visita aos jardins pode ter condições diferentes do interior.', 'Ask about the accessible entrance, level changes, which areas you can visit and toilets. Garden access may differ from the interior.'), { url: museum }),
-        c(t('Recorrido corto', 'Roteiro curto', 'A shorter route'), t('Elige dos paradas cercanas en el Centro y deja un punto de recogida claro. Para otros distritos, comprueba dónde puede parar el vehículo.', 'Escolha duas paradas próximas no Centro e combine um ponto claro de embarque. Em outros distritos, confira onde o veículo pode parar.', 'Choose two stops close together downtown and set a clear pickup point. In other districts, check where a vehicle can stop.'), { page: 'familia' }),
-      ], t('Yo preguntaría por la entrada concreta antes de armar todo el día alrededor de una visita.', 'Eu perguntaria pela entrada exata antes de montar o dia em torno de uma visita.', 'I’d confirm the exact entrance before planning the day around a visit.')),
     },
   },
   sections: {

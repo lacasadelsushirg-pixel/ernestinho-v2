@@ -6,7 +6,7 @@ import { regionalPlaces } from '../assets/js/translations/destinos/regional-luga
 import { places, placeSections, photoSpots } from '../assets/js/translations/destinos/petropolis-lugares.js';
 import { photographyCards } from './regional_photography.mjs';
 import { petrSpotInfo } from '../assets/js/translations/destinos/fotografia-regional.js';
-import { soloTravelPage, petropolisTransportPage } from './petropolis_practical_pages.mjs';
+import { practicalGuidePage, monthlyGuidePage, petropolisTransportPage } from './petropolis_practical_pages.mjs';
 import { transportDetails } from '../assets/js/translations/destinos/petropolis-transporte-local.js';
 import { extraCards, transport } from '../assets/js/translations/destinos/petropolis-practico.js';
 
@@ -239,15 +239,19 @@ export function renderGuideArticle(city, guide, photo, lang) {
 export function petropolisGuide(city, slug, lang) {
   const title = t('Guía de Petrópolis.', 'Guia de Petrópolis.', 'Petrópolis travel guide.');
   const intro = t('Cómo llegar desde Río, moverte por la sierra y armar un recorrido según el tiempo que tengas.', 'Como chegar do Rio, se locomover pela serra e montar um roteiro para o tempo disponível.', 'How to get here from Rio, get around the mountains and plan a route for the time you have.');
-  const covers = { 'primera-visita': 'museu', llegada: 'palacio', 'clima-y-lluvia': 'quitandinha', accesibilidad: 'cristal' };
+  const covers = { 'primera-visita': 'museu', llegada: 'palacio', 'clima-y-lluvia': 'quitandinha' };
   if (slug) {
     const guide = city.guide[slug];
-    if (slug === 'viajar-solo') return soloTravelPage(guide, petrPhotos, lang);
+    if (guide.months) return monthlyGuidePage(guide, petrPhotos, lang);
+    if (guide.sections) {
+      const template = ['emergencias', 'accesibilidad', 'terminales'].includes(slug) ? 'guia/' + slug : 'guia/viajar-solo';
+      return practicalGuidePage(guide, petrPhotos, lang, template);
+    }
     return renderGuideArticle(city, guide, petrPhotos[guide.image || covers[slug]], lang);
   }
   const groups = [
-    [t('Antes de viajar', 'Antes de viajar', 'Before you travel'), ['clima-y-lluvia', 'accesibilidad', 'viajar-solo']],
-    [t('Moverse', 'Como se locomover', 'Getting around'), ['llegada', 'sin-auto']],
+    [t('Antes de viajar', 'Antes de viajar', 'Before you travel'), ['clima-y-lluvia', 'mes-a-mes', 'accesibilidad', 'viajar-solo', 'emergencias']],
+    [t('Moverse', 'Como se locomover', 'Getting around'), ['llegada', 'terminales', 'sin-auto', 'guarda-equipaje']],
     [t('Organiza tu estadía', 'Organize sua estadia', 'Plan your stay'), ['primera-visita', 'itinerarios-1-2-3-dias']],
   ];
   const body = cover(title, intro, lang) + groups.map(([label, slugs]) => `<section class="guide-group"><h2>${tx(label, lang)}</h2>
