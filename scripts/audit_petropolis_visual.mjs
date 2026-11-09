@@ -23,6 +23,8 @@ const selected = [
   '/destinos/petropolis/guia/guarda-equipaje/',
   '/destinos/petropolis/guia/accesibilidad/',
   '/destinos/petropolis/guia/emergencias/',
+  '/destinos/petropolis/guia/viajar-solo/',
+  '/destinos/petropolis/guia/mes-a-mes/',
 ];
 for (const route of selected) if (!regionalRoutes.includes(route)) throw Error('Missing selected route: ' + route);
 const outArg = process.argv.find(a => a.startsWith('--out='));
@@ -108,10 +110,12 @@ try{
             overflowPx:Math.max(0,document.documentElement.scrollWidth-innerWidth),
             cards:document.querySelectorAll('.spot').length,
             quickCards:document.querySelectorAll('.petr-fact-card').length,
+            monthCards:document.querySelectorAll('.petr-month-card').length,
+            seasonCards:document.querySelectorAll('.petr-season-card').length,
             urgentDialLinks:document.querySelectorAll('.petr-urgent-actions a[href^="tel:"]').length,
             mobileGuideControls:(()=>{
               const dock=document.querySelector('.ec-global-actions');
-              if(!dock||!document.querySelector('.petr-local-guide'))return null;
+              if(!dock||!document.querySelector('.petr-local-guide,.petr-month-guide'))return null;
               const rect=dock.getBoundingClientRect();
               return {top:Math.round(rect.top),height:Math.round(rect.height),right:Math.round(innerWidth-rect.right),
                 flexDirection:getComputedStyle(dock).flexDirection,visible:rect.height>0};
@@ -144,9 +148,12 @@ try{
           '/destinos/petropolis/guia/terminales/':4,
           '/destinos/petropolis/guia/guarda-equipaje/':3,
           '/destinos/petropolis/guia/accesibilidad/':3,
+          '/destinos/petropolis/guia/viajar-solo/':3,
         };
         if (Object.hasOwn(practicalCardCounts,route) && metrics.quickCards!==practicalCardCounts[route])
           failures.push({route,viewport:vp.width,reason:'Practical guide cards missing',count:metrics.quickCards});
+        if(route.endsWith('/guia/mes-a-mes/')&&(metrics.monthCards!==12||metrics.seasonCards!==4))
+          failures.push({route,viewport:vp.width,reason:'Expected 12 months and 4 season cards',monthCards:metrics.monthCards,seasonCards:metrics.seasonCards});
         if(route.endsWith('/guia/emergencias/')&&metrics.urgentDialLinks!==4)
           failures.push({route,viewport:vp.width,reason:'Emergency call panel missing',count:metrics.urgentDialLinks});
         if(route.includes('/guia/')&&vp.width===390){
