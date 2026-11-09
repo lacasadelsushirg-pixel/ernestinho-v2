@@ -37,6 +37,17 @@ const petrCss = `<style>
 .petr-bairro-photo{max-height:460px;overflow:hidden;border-radius:20px}
 .petr-bairro-photo img{width:100%;max-height:460px;object-fit:cover}
 .petr-bairro-no-image{display:none}
+.petr-bairro-topic{display:flex;flex-direction:column;min-height:294px;overflow:hidden}
+.petr-bairro-topic img{display:block;width:100%;height:155px;object-fit:cover}
+.petr-bairro-topic b{display:block;line-height:1.3;padding:12px 14px 0}
+.petr-bairro-topic .petr-bairro-topic-summary{margin:8px 14px 12px;font-size:.88rem;line-height:1.5;color:#416059;flex:1}
+.petr-bairro-topic > span{display:block;margin-top:auto;padding:0 14px 16px;font-weight:800}
+.petr-bairro-topic--text{background:linear-gradient(138deg,#e9f5f0,#fcf7ec);border:1px solid #c9dfd4}
+.petr-bairro-topic--text b{padding-top:26px;font-size:1.16rem;color:#153e36}
+.petr-bairro-topic--text .petr-bairro-topic-summary{font-size:.96rem}
+.petr-bairro-photo-credit{display:block;font-size:.77rem;margin:6px 4px 0;color:#4a5c57}
+.petr-bairro-photo-credit a{color:#13564c;text-decoration:underline}
+@media(max-width:600px){.petr-bairro-topic{min-height:248px}.petr-bairro-topic img{height:145px}}
 @media(max-width:800px){.petr-bairro-panels{grid-template-columns:1fr}.petr-bairro-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.petr-bairro-cards{grid-template-columns:1fr}.petr-bairro-profile{padding:16px}.petr-bairro-stop{padding:18px}}
 </style>`;
@@ -73,7 +84,8 @@ export function renderRegionalNeighborhood(city, slug, lang, photos) {
     const detailed = city.slug === 'petropolis' ? petropolisDistrictEditorial[slug] : null;
     const body = hero(area.name, area.summary) + `<section class="editorial bh-zone-index">
       ${navigate(path, back, lang, 'rd-action')}
-      ${photo ? `<div class="petr-bairro-photo"><figure>${picture(photo, area.name, '', true)}</figure></div>` : ''}
+      ${photo ? `<div class="petr-bairro-photo"><figure>${picture(photo, area.name, '', true)}</figure>${photo.author && photo.source ?
+        `<small class="petr-bairro-photo-credit">${text(t('Fotografía', 'Fotografia', 'Photograph'),lang)}: <a href="${esc(photo.source)}" target="_blank" rel="noopener noreferrer">${esc(photo.author)}</a></small>` : ''}</div>` : ''}
       ${detailed ? petrProfile(area, detailed, base, lang) : ''}
       <article class="bh-cluster">
         <h2>${text(t('Qué ver y cómo moverte', 'O que ver e como circular', 'What to see and how to get around'), lang)}</h2>
@@ -85,8 +97,15 @@ export function renderRegionalNeighborhood(city, slug, lang, photos) {
   const title = t(`Barrios de ${city.name}`, `Bairros de ${city.name}`, `${city.name} neighbourhoods`);
   const { intro, tip } = city.sections[key];
   const entries = Object.entries(districts);
-  const tiles = entries.map(([id, area]) => `<a class="topic" href="${pre(lang) + path + id}/">
-    ${picture(photos[area.image], area.name, 'bh-topic-mini')}<b>${esc(area.name)}</b><span>${text(open, lang)}</span></a>`).join('');
+  const isPetropolis = city.slug === 'petropolis';
+  const tiles = entries.map(([id, area]) => {
+    const photo = area.image ? photos[area.image] : null;
+    const className = isPetropolis ? 'topic petr-bairro-topic' + (photo ? '' : ' petr-bairro-topic--text') : 'topic';
+    return `<a class="${className}" href="${pre(lang) + path + id}/">
+      ${picture(photo, area.name, 'bh-topic-mini')}<b>${esc(area.name)}</b>
+      ${isPetropolis ? `<p class="petr-bairro-topic-summary">${text(area.summary,lang)}</p>` : ''}
+      <span>${text(open, lang)}</span></a>`;
+  }).join('');
   const clusters = entries.map(([id, area]) => `<a class="bh-cluster" href="${pre(lang) + path + id}/">
     <h3>${esc(area.name)}</h3><p class="bh-cluster-intro">${text(area.summary, lang)}</p><span class="bh-cluster-cta">${text(open, lang)}</span></a>`).join('');
   const body = hero(title, intro) + `<section class="editorial bh-individual-index"><div class="section-head">
