@@ -19,6 +19,10 @@ const selected = [
   '/destinos/petropolis/cultura/',
   '/destinos/petropolis/cultura/casa-stefan-zweig/',
   '/destinos/petropolis/transportes/onibus/',
+  '/destinos/petropolis/guia/terminales/',
+  '/destinos/petropolis/guia/guarda-equipaje/',
+  '/destinos/petropolis/guia/accesibilidad/',
+  '/destinos/petropolis/guia/emergencias/',
 ];
 for (const route of selected) if (!regionalRoutes.includes(route)) throw Error('Missing selected route: ' + route);
 const outArg = process.argv.find(a => a.startsWith('--out='));
@@ -103,6 +107,8 @@ try{
             pendingPhotoCards:[...document.querySelectorAll('.spot img')].filter(x=>!x.complete).map(x=>x.getAttribute('src')),
             overflowPx:Math.max(0,document.documentElement.scrollWidth-innerWidth),
             cards:document.querySelectorAll('.spot').length,
+            quickCards:document.querySelectorAll('.petr-fact-card').length,
+            urgentDialLinks:document.querySelectorAll('.petr-urgent-actions a[href^="tel:"]').length,
             photoGridColumns:getComputedStyle(document.querySelector('.photo-grid')||document.body).gridTemplateColumns,
             links:document.querySelectorAll('a[href]').length};
         });
@@ -127,6 +133,15 @@ try{
         if(route.endsWith('/fotografias/')&&metrics.cards!==12)failures.push({route,viewport:vp.width,reason:'Expected 12 photo cards',metrics});
         if(route.endsWith('/fotografias/')&&metrics.brokenPhotoCards.length)failures.push({route,viewport:vp.width,reason:'Photographic thumbnails genuinely failed to load',broken:metrics.brokenPhotoCards});
         if(route.endsWith('/fotografias/')&&metrics.pendingPhotoCards.length)failures.push({route,viewport:vp.width,reason:'Photographic thumbnails never finished loading',pending:metrics.pendingPhotoCards});
+        const practicalCardCounts = {
+          '/destinos/petropolis/guia/terminales/':4,
+          '/destinos/petropolis/guia/guarda-equipaje/':3,
+          '/destinos/petropolis/guia/accesibilidad/':3,
+        };
+        if (Object.hasOwn(practicalCardCounts,route) && metrics.quickCards!==practicalCardCounts[route])
+          failures.push({route,viewport:vp.width,reason:'Practical guide cards missing',count:metrics.quickCards});
+        if(route.endsWith('/guia/emergencias/')&&metrics.urgentDialLinks!==4)
+          failures.push({route,viewport:vp.width,reason:'Emergency call panel missing',count:metrics.urgentDialLinks});
       }catch(error){failures.push({route,viewport:vp.width,error:error.message});}
       finally{await page.close();}
     }
