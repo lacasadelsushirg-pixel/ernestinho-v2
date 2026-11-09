@@ -1,0 +1,82 @@
+import { t } from './modelo.js';
+
+export const soloGuide = {
+  title: t('Viajar solo o sola a Petrópolis', 'Viajar sozinho ou sozinha para Petrópolis', 'Solo travel in Petrópolis'),
+  intro: t('Elige una base que funcione a pie, conoce gente sin depender de un grupo y organiza la vuelta antes de salir a los distritos de la sierra.',
+    'Escolha uma base que funcione a pé, conheça pessoas sem depender de um grupo e organize a volta antes de sair para os distritos da serra.',
+    'Choose a walkable base, meet people without relying on a group and plan your way back before heading into the mountain districts.'),
+  image: 'koeler',
+  tip: t('Yo dormiría cerca de Praça Dom Pedro II en una primera visita sin auto. Haría el Centro a pie con luz, dejaría Quitandinha para una salida aparte y reservaría la vuelta si decido cenar en Itaipava.',
+    'Na primeira visita sem carro, eu dormiria perto da Praça Dom Pedro II. Faria o Centro a pé de dia, deixaria o Quitandinha para outro passeio e reservaria a volta se decidisse jantar em Itaipava.',
+    'On a first trip without a car, I’d stay near Praça Dom Pedro II. I’d walk around the centre in daylight, visit Quitandinha separately and book a ride back if I decided to dine in Itaipava.'),
+  sections: [
+    {
+      id: 'centro', title: t('Centro Histórico: una base para moverte a pie', 'Centro Histórico: uma base para andar a pé', 'Historic centre: a walkable base'),
+      copy: t('Busca alojamiento alrededor de Praça Dom Pedro II o del eje Rua da Imperatriz–Avenida Koeler. Abre el mapa con la dirección exacta y verifica la pendiente, las aceras y el acceso desde la calle. Pregunta cómo se entra después del horario de recepción. Si llegas a la rodoviaria de Bingen con equipaje, resuelve el último tramo en autobús urbano, app o taxi.',
+        'Procure hospedagem perto da Praça Dom Pedro II ou do eixo Rua da Imperatriz–Avenida Koeler. Abra o mapa com o endereço exato e verifique ladeiras, calçadas e acesso pela rua. Pergunte como entrar fora do horário da recepção. Se chegar à rodoviária do Bingen com malas, faça o último trecho de ônibus urbano, carro por aplicativo ou táxi.',
+        'Look for accommodation around Praça Dom Pedro II or along Rua da Imperatriz and Avenida Koeler. Map the exact address and check slopes, pavements and street access. Ask how to get in after reception closes. If you arrive at Bingen bus station with luggage, take a local bus, app ride or taxi for the last leg.'),
+      map: 'Praça Dom Pedro II, Petrópolis, RJ',
+    },
+    {
+      id: 'quitandinha', title: t('Quitandinha: lago y programación cultural', 'Quitandinha: lago e programação cultural', 'Quitandinha: lake and cultural programme'),
+      copy: t('Quédate aquí si el entorno del lago o el Sesc es el centro de tu viaje y tu alojamiento tiene un acceso sencillo. Para una visita desde el Centro, revisa la cartelera del Sesc, identifica la puerta de entrada y guarda un punto de regreso. El acceso cultural, la orilla del lago y las entradas residenciales del palacio son referencias distintas.',
+        'Fique aqui se o lago ou o Sesc for o foco da viagem e a hospedagem tiver acesso fácil. Para visitar a partir do Centro, confira a programação do Sesc, identifique a entrada e salve um ponto de volta. O acesso cultural, a beira do lago e as entradas residenciais do palácio são referências diferentes.',
+        'Stay here if the lake or the Sesc cultural centre is the focus of your trip and the accommodation is easy to reach. From downtown, check the Sesc programme, find its entrance and save a pickup point. The cultural entrance, the lakeside and the palace’s residential entrances are separate landmarks.'),
+      image: 'quitandinha', map: 'Centro Cultural Sesc Quitandinha, Petrópolis, RJ',
+    },
+    {
+      id: 'itaipava', title: t('Itaipava: almuerzo, parque y vuelta', 'Itaipava: almoço, parque e volta', 'Itaipava: lunch, the park and a ride back'),
+      copy: t('El Parque Municipal Prefeito Paulo Rattes es un buen punto para ordenar un paseo diurno con almuerzo. Si tu plan principal es cenar o asistir a un evento en Itaipava, compara dormir cerca del lugar con reservar un regreso al Centro. Pregunta por la puerta exacta y comprueba si hay un tramo de carretera sin acera antes de aceptar una distancia aparentemente corta en el mapa.',
+        'O Parque Municipal Prefeito Paulo Rattes é uma boa referência para organizar um passeio de dia com almoço. Se o plano principal for jantar ou ir a um evento em Itaipava, compare ficar perto do local com reservar a volta para o Centro. Pergunte pela entrada exata e confira se há trecho de estrada sem calçada antes de confiar numa distância aparentemente curta no mapa.',
+        'Parque Municipal Prefeito Paulo Rattes makes a useful anchor for a daytime outing with lunch. If dinner or an event in Itaipava is your main plan, compare staying near the venue with booking a ride back downtown. Ask for the exact entrance and check for roads without pavements before trusting what looks like a short walk on the map.'),
+      map: 'Parque Municipal Prefeito Paulo Rattes, Itaipava, Petrópolis, RJ',
+    },
+    {
+      id: 'caminata', title: t('Un recorrido para orientarte sin compañía', 'Um roteiro para se orientar por conta própria', 'A walk to get your bearings'),
+      copy: t('Empieza en Museu Imperial, sigue a la Catedral por calles con movimiento y usa Avenida Koeler como referencia antes de continuar hacia Palácio de Cristal. Guarda el mapa sin conexión. Con lluvia, acorta el circuito y comprueba qué interiores están abiertos. Por la noche, prioriza calles iluminadas y evita atajos por tramos vacíos que no conoces.',
+        'Comece no Museu Imperial, siga para a Catedral por ruas movimentadas e use a Avenida Koeler como referência antes de ir ao Palácio de Cristal. Salve o mapa offline. Com chuva, encurte o circuito e confira quais espaços cobertos estão abertos. À noite, priorize ruas iluminadas e evite atalhos por trechos vazios que você não conhece.',
+        'Start at the Imperial Museum, take busy streets to the cathedral and use Avenida Koeler as a landmark before continuing to the Crystal Palace. Save the map offline. In rain, shorten the walk and check which indoor venues are open. After dark, favour well-lit streets and skip unfamiliar, deserted shortcuts.'),
+      map: 'Museu Imperial, Petrópolis, RJ',
+    },
+    {
+      id: 'sola', title: t('Si viajas sola: llegada, privacidad y ayuda', 'Se você viaja sozinha: chegada, privacidade e ajuda', 'Travelling alone as a woman: arrival, privacy and help'),
+      copy: t('Para llegar tarde, confirma antes el acceso al alojamiento y espera el auto dentro de la terminal o de un comercio abierto si es posible. Comparte el trayecto con alguien de confianza y evita publicar en tiempo real dónde duermes. Si una situación te incomoda, entra en un lugar atendido y pide apoyo al personal. Si hay peligro inmediato, llama al 190. El 180 orienta sobre violencia contra las mujeres.',
+        'Se for chegar tarde, confirme antes o acesso à hospedagem e, se possível, espere o carro dentro da rodoviária ou de um comércio aberto. Compartilhe a corrida com alguém de confiança e evite publicar em tempo real onde está hospedada. Se uma situação causar desconforto, entre em um local com atendimento e peça ajuda à equipe. Em perigo imediato, ligue 190. O 180 orienta sobre violência contra a mulher.',
+        'For a late arrival, confirm how to enter your accommodation and wait for your car inside the station or an open business when possible. Share the ride with someone you trust and avoid posting where you are staying in real time. If a situation feels uncomfortable, go into a staffed place and ask for help. Call 190 if you are in immediate danger. Call 180 for guidance on violence against women.'),
+    },
+    {
+      id: 'regreso', title: t('Autobús, aplicaciones y salida nocturna', 'Ônibus, aplicativos e saída à noite', 'Buses, ride apps and evenings out'),
+      copy: t('Para el bus comprueba el sentido, la parada del regreso y el horario del día. Para una cena, guarda el pin de una entrada iluminada donde un auto pueda detenerse. Antes de subir coteja matrícula y conductor en pantalla. En Bonfim, Araras o Vale das Videiras, yo pactaría la vuelta con el anfitrión o un conductor antes de salir, especialmente si no tienes señal estable.',
+        'Para o ônibus, confira o sentido, o ponto da volta e a tabela do dia. Para jantar, salve o pin de uma entrada iluminada onde o carro possa parar. Antes de entrar, compare placa e motorista com o app. No Bonfim, em Araras ou no Vale das Videiras, eu combinaria a volta com o anfitrião ou um motorista antes de sair, sobretudo se o sinal for instável.',
+        'For buses, check the direction, return stop and timetable for your day. For dinner, save a well-lit entrance where a car can pull over. Match the plate and driver against the app before getting in. For Bonfim, Araras or Vale das Videiras, I’d arrange the return with a host or driver before leaving, especially if mobile signal is unreliable.'),
+      route: 'transportes/uber/',
+    },
+    {
+      id: 'actividades', title: t('Qué hacer solo y cómo conocer gente', 'O que fazer por conta própria e como conhecer gente', 'Things to do alone and ways to meet people'),
+      copy: t('Elige una visita al Museu Imperial, una exposición en el Sesc o una caminata fotográfica por Koeler. Si quieres conversación, busca una visita guiada, un taller publicado por el centro cultural o un recorrido compartido con encuentro público. Antes de reservar, pregunta por idioma, duración, punto de encuentro y si aceptan una sola inscripción. Para senderismo en Bonfim, consulta las condiciones del parque y considera una salida guiada en grupo.',
+        'Escolha uma visita ao Museu Imperial, uma exposição no Sesc ou uma caminhada fotográfica pela Koeler. Para conversar com outras pessoas, procure visita guiada, oficina divulgada pelo centro cultural ou passeio compartilhado com encontro em local público. Antes de reservar, pergunte idioma, duração, ponto de encontro e se aceitam inscrição individual. Para trilha no Bonfim, confira as condições do parque e considere sair com um grupo guiado.',
+        'Choose an Imperial Museum visit, a Sesc exhibition or a photo walk along Koeler. For conversation, look for a guided visit, a workshop listed by the cultural centre or a shared tour with a public meeting point. Before booking, ask about language, duration, meeting point and solo registration. For a hike in Bonfim, check park conditions and consider a guided group.'),
+      route: 'cultura/',
+    },
+    {
+      id: 'emergencia', title: t('Qué hacer en una emergencia', 'O que fazer em uma emergência', 'What to do in an emergency'),
+      copy: t('Guarda 190 (Policía Militar), 192 (SAMU), 193 (bomberos) y 199 (Defensa Civil). Indica que estás en Petrópolis, el barrio, calle y número o un punto visible, y explica qué ocurre. Con lluvia intensa, sigue los avisos de Defensa Civil y cambia el plan si tu ruta pasa por un tramo inundado o con indicación de riesgo.',
+        'Salve 190 (Polícia Militar), 192 (SAMU), 193 (Bombeiros) e 199 (Defesa Civil). Diga que está em Petrópolis, informe bairro, rua e número ou uma referência visível e explique o que ocorreu. Em chuva forte, acompanhe os alertas da Defesa Civil e mude o plano se o caminho passar por alagamento ou área sinalizada de risco.',
+        'Save 190 (Military Police), 192 (SAMU medical emergency service), 193 (fire service) and 199 (Civil Defence). Say you are in Petrópolis, give the district, street and number or a visible landmark, and explain what is happening. In heavy rain, follow Civil Defence alerts and change plans if your route crosses a flooded or marked risk area.'),
+    },
+  ],
+  faq: [
+    [t('¿Puedo viajar sin auto?', 'Dá para viajar sem carro?', 'Can I visit without a car?'),
+      t('Sí. Haz el Centro a pie y combina bus, app o taxi para Quitandinha e Itaipava. Verifica el último tramo hasta tu destino y la vuelta.', 'Sim. Faça o Centro a pé e combine ônibus, app ou táxi para Quitandinha e Itaipava. Confira o último trecho e a volta.', 'Yes. Walk around downtown and use a bus, app or taxi for Quitandinha and Itaipava. Check both the last leg and the return.')],
+    [t('¿Qué hago si solo tengo un día?', 'O que fazer se eu só tiver um dia?', 'What if I have only one day?'),
+      t('Yo reservaría la mañana al Museu Imperial y a Koeler. Después elegiría Cristal a pie o Quitandinha con regreso confirmado.', 'Eu reservaria a manhã ao Museu Imperial e à Koeler. Depois escolheria o Cristal a pé ou o Quitandinha com volta confirmada.', 'I’d spend the morning at the Imperial Museum and Koeler. Then I’d choose the Crystal Palace on foot or Quitandinha with the return arranged.')],
+    [t('¿Dónde espero si llego de noche a Bingen?', 'Onde espero se chegar à noite ao Bingen?', 'Where should I wait if I arrive at Bingen at night?'),
+      t('Confirma el punto de encuentro con tu conductor o pide al personal que te indique el punto autorizado de taxis. Espera en un lugar iluminado y atendido mientras esté abierto.', 'Confirme o embarque com o motorista ou peça à equipe a indicação do ponto autorizado de táxi. Espere em área iluminada e com atendimento enquanto estiver aberta.', 'Confirm the pickup point with your driver or ask staff to direct you to the authorised taxi rank. Wait in a well-lit, staffed area while it is open.')],
+  ],
+  sources: [
+    ['https://linktr.ee/turismo.petropolis', 'Turispetro · Prefeitura de Petrópolis'],
+    ['https://www.gov.br/museus/pt-br/museus-ibram/museu-imperial', 'Museu Imperial · Ibram'],
+    ['https://cultura.sescrio.org.br/espacos-culturais/centro-cultural-sesc-quitandinha', 'Centro Cultural Sesc Quitandinha'],
+    ['https://www.gov.br/mcom/pt-br/noticias/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda', t('Teléfonos de emergencia en Brasil', 'Telefones de emergência no Brasil', 'Brazilian emergency phone numbers')],
+  ],
+};

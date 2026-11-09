@@ -1,4 +1,5 @@
 import { t, card as c, section as s } from './modelo.js';
+import { soloGuide } from './petropolis-viajar-solo.js';
 
 const tourism = 'https://www.petropolis.rj.gov.br/turispetro/';
 const museum = 'https://museuimperial.museus.gov.br/';
@@ -11,6 +12,7 @@ export default {
   intro: t('Yo empezaría por el Centro Histórico a pie. Después elegiría entre el lago del Quitandinha y una salida a Itaipava, según el tiempo que tengas.', 'Eu começaria pelo Centro Histórico a pé. Depois escolheria entre o lago do Quitandinha e uma ida a Itaipava, conforme o tempo disponível.', 'I’d start on foot in the historic centre. Then I’d choose between the Quitandinha lakeside and a trip to Itaipava, depending on how much time you have.'),
   plan: t('Empieza en el Museu Imperial, sigue a la Catedral y deja la tarde para el Palácio de Cristal o Quitandinha. Con dos días, yo reservaría el segundo para Itaipava.', 'Comece pelo Museu Imperial, siga para a Catedral e deixe a tarde para o Palácio de Cristal ou Quitandinha. Com dois dias, eu reservaria o segundo para Itaipava.', 'Start at the Imperial Museum, continue to the cathedral and leave the afternoon for the Crystal Palace or Quitandinha. With two days, I’d save the second for Itaipava.'),
   guide: {
+    'viajar-solo': soloGuide,
     'primera-visita': {
       title: t('Petrópolis en uno o dos días', 'Petrópolis em um ou dois dias', 'Petrópolis in one or two days'),
       ...s(t('El Centro Histórico merece su propio ritmo. Puedes ver el exterior de varios edificios y reservar tiempo para entrar al que más te interese.', 'O Centro Histórico merece seu ritmo. Dá para ver o exterior de vários prédios e reservar tempo para entrar no que mais interessa.', 'Give the historic centre its own pace. You can see several buildings from outside and allow time to go inside the one that interests you most.'), [

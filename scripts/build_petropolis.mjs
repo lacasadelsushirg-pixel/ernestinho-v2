@@ -6,6 +6,8 @@ import { regionalPlaces } from '../assets/js/translations/destinos/regional-luga
 import { places, placeSections, photoSpots } from '../assets/js/translations/destinos/petropolis-lugares.js';
 import { photographyCards } from './regional_photography.mjs';
 import { petrSpotInfo } from '../assets/js/translations/destinos/fotografia-regional.js';
+import { soloTravelPage, petropolisTransportPage } from './petropolis_practical_pages.mjs';
+import { transportDetails } from '../assets/js/translations/destinos/petropolis-transporte-local.js';
 import { extraCards, transport } from '../assets/js/translations/destinos/petropolis-practico.js';
 
 import { morePhotoSpots } from '../assets/js/translations/destinos/petropolis-fotografia-local.js';
@@ -156,6 +158,7 @@ function transportLayout(city, slug, lang, photos = {}) {
   const { intro, tip } = city.sections.transportes;
   if (slug) {
     const [, name, area, summary, returnTrip, ...sources] = modes[slug];
+    if (isPetr && transportDetails[slug]) return petropolisTransportPage(transportDetails[slug], slug, name, summary, petrPhotos, lang);
     const timetables = isCaboFrio ? sources.map((url, index) =>
       `<a class="text-action" href="${esc(url)}">${tx(caboFrioTimetables[slug === 'onibus' ? 1 : index], lang)}</a>`).join('') : '';
     const body = `<section class="transit-guide"><div class="breadcrumbs">${link(base + 'transportes/', back, lang)}</div>
@@ -166,7 +169,7 @@ function transportLayout(city, slug, lang, photos = {}) {
     return { title: name, intro: summary, body, css: ['transit-guides'] };
   }
   const cards = Object.entries(modes).map(([mode, [icon, name, area, copy]]) => {
-    const photo = isCaboFrio ? photos['transportes-' + mode] :
+    const photo = isPetr && transportDetails[mode] ? petrPhotos[transportDetails[mode].image] : isCaboFrio ? photos['transportes-' + mode] :
       mode === 'barcos' ? photos['transportes-barcos'] || photos['spot-praia-dos-anjos'] :
       { src: '/FOTOS/HOME/DESTINOS/20261107-plantillas/transportes/' + mode + '.webp', alt: v(name, lang) };
     return `<article class="tcard source-transport">${image(photo && { ...photo, alt: photo.alt || v(name, lang) }, 'transport-thumb')}<div class="transport-content"><i aria-hidden="true">${icon}</i>
@@ -239,10 +242,11 @@ export function petropolisGuide(city, slug, lang) {
   const covers = { 'primera-visita': 'museu', llegada: 'palacio', 'clima-y-lluvia': 'quitandinha', accesibilidad: 'cristal' };
   if (slug) {
     const guide = city.guide[slug];
+    if (slug === 'viajar-solo') return soloTravelPage(guide, petrPhotos, lang);
     return renderGuideArticle(city, guide, petrPhotos[guide.image || covers[slug]], lang);
   }
   const groups = [
-    [t('Antes de viajar', 'Antes de viajar', 'Before you travel'), ['clima-y-lluvia', 'accesibilidad']],
+    [t('Antes de viajar', 'Antes de viajar', 'Before you travel'), ['clima-y-lluvia', 'accesibilidad', 'viajar-solo']],
     [t('Moverse', 'Como se locomover', 'Getting around'), ['llegada', 'sin-auto']],
     [t('Organiza tu estadía', 'Organize sua estadia', 'Plan your stay'), ['primera-visita', 'itinerarios-1-2-3-dias']],
   ];
