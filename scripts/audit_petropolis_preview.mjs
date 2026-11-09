@@ -68,7 +68,9 @@ for (const route of routes) {
     }
     if ((route.startsWith(area + 'barrios/') && route !== area + 'barrios/') && !html.includes('petr-bairro-stops')) errors.push(name + ': missing district editorial');
     if ((route.startsWith(area + 'cultura/') && route !== area + 'cultura/') && !html.includes('petr-culture-depth')) errors.push(name + ': missing culture editorial');
-    if (route === area + 'barrios/' && (html.match(/class="topic"/g) || []).length !== 11) errors.push(name + ': district index does not show 11 cards');
+    const cardsByClass = className => [...html.matchAll(/class="([^"]+)"/g)]
+      .filter(match => match[1].split(' ').includes(className)).length;
+    if (route === area + 'barrios/' && cardsByClass('topic') !== 11) errors.push(name + ': district index does not show 11 cards');
     if (route === area + 'cultura/' && (html.match(/class="culture-card"/g) || []).length !== 15) errors.push(name + ': culture index does not show 15 cards');
     if (out) {
       const filename = path.join(out, pre(lang).slice(1), route.slice(1), 'index.html');
