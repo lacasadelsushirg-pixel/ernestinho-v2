@@ -197,8 +197,63 @@ function photography(city, lang) {
   });
   spots.push(...morePhotoSpots.map(({ image, ...spot }) => ({ ...spot, photo: petrPhotos[image] })));
   const credits = morePhotoSpots.map(({ image }) => photoCredit(petrPhotos[image], lang)).filter(Boolean);
-  return { title, intro, body: cover(title, intro, lang) + photographyCards(spots, lang, city.name) +
-    `<aside class="editorial"><ul>${credits.map(credit => '<li>' + credit + '</li>').join('')}</ul></aside>`, inline: styles('fotografia') };
+  const photoRoutes = [
+    {
+      name: t('Centro histórico a pie', 'Centro histórico a pé', 'Historic centre on foot'),
+      time: t('Medio día, sin museos largos', 'Meio dia, sem visitas longas a museus', 'Half a day without long museum visits'),
+      route: t('Museu Imperial → Catedral y Avenida Koeler → Palácio de Cristal → Casa da Ipiranga.',
+        'Museu Imperial → Catedral e Avenida Koeler → Palácio de Cristal → Casa da Ipiranga.',
+        'Museu Imperial → Cathedral and Avenida Koeler → Crystal Palace → Casa da Ipiranga.'),
+      guide: 'barrios/centro-historico/',
+      map: 'Museu Imperial, Rua da Imperatriz 220, Petrópolis, RJ',
+    },
+    {
+      name: t('Arquitectura y paisaje de la sierra', 'Arquitetura e paisagem da serra', 'Architecture and mountain scenery'),
+      time: t('Medio día o más con traslados', 'Meio dia ou mais com deslocamentos', 'Half a day or longer with transfers'),
+      route: t('Quitandinha y su lago → antigua Estação Nogueira → Itaipava. Elige solo las paradas que se adapten a tu tiempo; no es un trayecto a pie.',
+        'Quitandinha e o lago → antiga Estação Nogueira → Itaipava. Escolha paradas conforme seu tempo; não é roteiro a pé.',
+        'Quitandinha and its lake → old Estação Nogueira → Itaipava. Choose stops according to your time; this is not a walking route.'),
+      guide: 'transportes/entre-distritos/',
+      map: 'Centro Cultural Sesc Quitandinha, Petrópolis, RJ',
+    },
+  ];
+  const routesBody = `<section class="editorial petr-photo-routes" id="rutas-fotograficas">
+    <h2>${tx(t('Dos recorridos fotográficos que haría', 'Dois roteiros fotográficos que eu faria', 'Two photo walks I would plan'), lang)}</h2>
+    <p class="petr-photo-route-lead">${tx(t('No hace falta correr por todos los puntos. Combina lugares próximos y reserva el traslado para la sierra.',
+      'Não precisa correr por todos os pontos. Combine lugares próximos e reserve deslocamento para a serra.',
+      'You do not need to rush to every spot. Group nearby places and save transport time for the mountains.'), lang)}</p>
+    <div class="petr-photo-route-grid">${photoRoutes.map(route => `<article>
+      <span>${tx(route.time, lang)}</span><h3>${tx(route.name, lang)}</h3>${p(route.route, lang)}
+      <div class="petr-photo-route-links">
+        ${link(base + route.guide, t('Guía para organizarlo', 'Guia para organizar', 'How to plan this route'), lang, 'photo-map')}
+        <a class="photo-map" href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(route.map)}" target="_blank" rel="noopener noreferrer">${tx(t('Abrir el primer punto', 'Abrir primeira parada', 'Open first stop'), lang)}</a>
+      </div></article>`).join('')}</div>
+    </section>`;
+  const safetyBody = `<aside class="editorial petr-photo-safety">
+    <h2>${tx(t('Fotografiar con respeto y seguridad', 'Fotografar com respeito e segurança', 'Photography with care'), lang)}</h2>
+    ${p(t('Desde la calle, evita entrar a viviendas, jardines privados o locales cerrados. Antes de fotografiar dentro de iglesias o museos, pregunta por las reglas vigentes. En la sierra, la niebla y la lluvia pueden cambiar rápidamente la visibilidad: no te acerques a taludes, bordes del agua o carreteras para conseguir una toma.',
+      'Na rua, não entre em casas, jardins privados ou locais fechados. Antes de fotografar em igrejas ou museus, confira as regras. Na serra, neblina e chuva mudam a visibilidade rapidamente: não se aproxime de barrancos, margens ou pistas para conseguir uma foto.',
+      'From the street, stay off private property and out of closed venues. Check rules before photographing inside churches or museums. Mountain fog and rain can quickly change visibility: avoid embankments, shore edges and roadways for a photo.'), lang)}
+  </aside>`;
+  const photoExtrasCss = `<style>
+  .petr-photo-routes{padding-block:clamp(22px,4vw,45px)}
+  .petr-photo-routes h2,.petr-photo-safety h2{color:#153d36;font-size:clamp(1.4rem,3vw,2rem);margin:0 0 12px}
+  .petr-photo-route-lead{color:#3e5a52;font-size:1.02rem;line-height:1.7;max-width:72ch}
+  .petr-photo-route-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;margin-top:22px}
+  .petr-photo-route-grid article{border:1px solid #d4e1d9;background:#eff7f2;padding:clamp(18px,3vw,30px);border-radius:23px}
+  .petr-photo-route-grid article:nth-child(2){background:#fff7e8;border-color:#eddfc3}
+  .petr-photo-route-grid article>span{font-size:.82rem;font-weight:800;color:#16574d;display:block;margin-bottom:10px}
+  .petr-photo-route-grid h3{font-family:Georgia,serif;color:#153d36;font-size:clamp(1.17rem,2.4vw,1.5rem);margin:0 0 10px}
+  .petr-photo-route-grid p{line-height:1.75;color:#3e5a52;margin:0}
+  .petr-photo-route-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+  .petr-photo-route-links .photo-map{min-height:40px;align-items:center;justify-content:center;text-decoration:none}
+  .petr-photo-safety{border-left:4px solid #d19b45;background:#fbf6ea;padding-block:20px;margin-block:12px 28px}
+  .petr-photo-safety p{color:#34544b;line-height:1.75;max-width:86ch}
+  @media(max-width:680px){.petr-photo-route-grid{grid-template-columns:1fr}.petr-photo-route-links{flex-direction:column}.petr-photo-route-links .photo-map{width:100%;box-sizing:border-box}}
+  </style>`;
+  return { title, intro, body: cover(title, intro, lang) + routesBody + photographyCards(spots, lang, city.name) + safetyBody +
+    `<aside class="editorial"><ul>${credits.map(credit => '<li>' + credit + '</li>').join('')}</ul></aside>`,
+    inline: styles('fotografia') + photoExtrasCss };
 }
 
 export const regionalTransportRoutes = Object.entries(regionalTransport).flatMap(([city, modes]) =>
