@@ -159,10 +159,24 @@ export const transportDetails = {
   ...remainingTransport,
   onibus: {
     image: 'terminal-bingen',
+    quickChoices: [
+      { title: t('Llegada desde Río', 'Chegada do Rio', 'Arriving from Rio'),
+        value: '100 / 150', detail: t('Desde Bingen, la 100 va al Centro; la 150 va al Terminal Corrêas.',
+          'Do Bingen, a 100 vai ao Centro e a 150 ao Terminal Corrêas.',
+          'From Bingen, 100 serves downtown and 150 serves Terminal Corrêas.') },
+      { title: t('Paseo por Quitandinha o Itaipava', 'Passeio pelo Quitandinha ou Itaipava', 'Quitandinha or Itaipava trip'),
+        value: '649 / 700', detail: t('La 649 sirve Quitandinha; la 700 conecta Centro e Itaipava. Confirma el sentido.',
+          'A 649 atende o Quitandinha; a 700 liga Centro a Itaipava. Confira o sentido.',
+          '649 serves Quitandinha; 700 links downtown and Itaipava. Check direction.') },
+      { title: t('Araras o Vale das Videiras', 'Araras ou Vale das Videiras', 'Araras or Vale das Videiras'),
+        value: '602 · 605 · 610 · 617', detail: t('Conecta desde Corrêas o Itaipava. Son líneas de menor frecuencia: verifica la última salida.',
+          'Faça conexão por Corrêas ou Itaipava. São linhas menos frequentes: confira a última partida.',
+          'Connect via Corrêas or Itaipava. Service is less frequent: confirm the last departure.') },
+    ],
     related: 'interurbanos/',
     relatedLabel: t('Autobuses intermunicipales', 'Ônibus intermunicipais', 'Intercity buses'),
     badge: t('Tarifa municipal de referencia · R$ 5,90', 'Tarifa municipal de referência · R$ 5,90', 'Municipal reference fare · R$ 5.90'),
-    connections: [...connections.slice(0, 4), {
+    connections: [...connections.slice(0, 4), ...districtConnections, {
       title: 'Corrêas ↔ Bonfim', service: '611 · Turp',
       stops: ['Estrada do Bonfim', 'Terminal Corrêas'],
       serviceNote: t('La ficha enlazada muestra el sentido Bonfim → Terminal Corrêas. Para la ida a Bonfim, consulta la dirección contraria y confirma la parada adecuada para tu sendero o alojamiento. No hay una hora de última salida verificada en esta guía.',
