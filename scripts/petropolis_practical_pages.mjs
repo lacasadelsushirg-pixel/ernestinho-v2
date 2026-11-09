@@ -34,8 +34,18 @@ function numbered(heading, copy, lang, index, extras = '', id = '') {
 }
 
 export function practicalGuidePage(data, photos, lang, template) {
-  const { title, intro, sections, faq, sources } = data;
+  const { title, intro, sections, faq, sources, quickFacts = [], emergencyNumbers = [] } = data;
   const image = photos[data.image];
+  const urgent = emergencyNumbers.length ? `<nav class="petr-urgent-actions" aria-label="${text(t('Teléfonos de emergencia','Telefones de emergência','Emergency phone numbers'),lang)}">
+    <h2>${text(t('¿Necesitas ayuda ahora?','Precisa de ajuda agora?','Need help right now?'),lang)}</h2>
+    <div>${emergencyNumbers.map(([number,label]) => `<a href="tel:${number}" aria-label="${text(label,lang)} ${number}">
+      <strong>${number}</strong><span>${text(label,lang)}</span></a>`).join('')}</div>
+  </nav>` : '';
+  const quick = quickFacts.length ? `<section class="petr-quick-facts" aria-label="${text(t('Orientación rápida','Orientação rápida','Quick orientation'),lang)}">
+    <h2>${text(t('Encuentra tu opción','Encontre sua opção','Find your best option'),lang)}</h2>
+    <div class="petr-fact-grid">${quickFacts.map(([title,value,note]) => `<article class="petr-fact-card">
+      <h3>${text(title,lang)}</h3><strong>${text(value,lang)}</strong><p>${text(note,lang)}</p></article>`).join('')}</div>
+  </section>` : '';
   const photoClass = template === 'guia/emergencias' ? 'ec-guide-photo' : 'ec-inline-photo';
   const sectionCards = sections.map(({ id, title, copy, image, map: location, route, links = [], phones = [] }, index) => {
     const extra = (location ? map(location, v(mapLabel, lang)) : '') +
@@ -46,9 +56,28 @@ export function practicalGuidePage(data, photos, lang, template) {
       (image ? picture(photos[image], photoClass, lang) : '');
   }).join('');
   return {
-    title, intro, image, inline: styles(template) + '<style>.guide .petr-page-contents{flex-wrap:wrap;gap:0}</style>',
+    title, intro, image, inline: styles(template) + `<style>
+      .guide .petr-page-contents{flex-wrap:wrap;gap:0}
+      .guide .petr-urgent-actions{margin:18px 0 22px;padding:20px;background:#fff4e8;border:1px solid #e7c894;border-radius:18px}
+      .guide .petr-urgent-actions h2,.guide .petr-quick-facts h2{font-size:clamp(1.24rem,2.5vw,1.55rem);color:#123e37;margin:0 0 14px}
+      .guide .petr-urgent-actions > div{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+      .guide .petr-urgent-actions a{display:flex;flex-direction:column;gap:2px;align-items:center;justify-content:center;
+        border-radius:12px;padding:12px 10px;background:white;border:1px solid #dab48a;color:#19453c;text-decoration:none;min-height:64px}
+      .guide .petr-urgent-actions a strong{font-size:1.48rem;color:#8d351c;font-variant-numeric:tabular-nums}
+      .guide .petr-urgent-actions a span{font-size:.83rem;text-align:center}
+      .guide .petr-urgent-actions a:focus-visible,.guide .petr-urgent-actions a:hover{outline:2px solid #8d351c}
+      .guide .petr-quick-facts{padding:6px 0 18px;margin:15px 0}
+      .guide .petr-fact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,185px),1fr));gap:12px}
+      .guide .petr-fact-card{min-width:0;border:1px solid #cee3dc;border-radius:15px;padding:17px;background:#edf7f2}
+      .guide .petr-fact-card:nth-child(even){background:#fff8e9;border-color:#eaddb8}
+      .guide .petr-fact-card h3{font-size:.94rem;color:#275448;margin:0 0 7px;font-weight:700}
+      .guide .petr-fact-card strong{display:block;color:#0e5548;font-size:1.1rem;line-height:1.3;margin-bottom:8px}
+      .guide .petr-fact-card p{color:#405b53;font-size:.91rem;line-height:1.6;margin:0}
+      @media(max-width:650px){.guide .petr-urgent-actions{padding:14px}.guide .petr-urgent-actions > div{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    </style>`,
     body: `<section class="guide"><p class="kicker">ERNESTINHO CARIOCA · PETRÓPOLIS</p>
       <h1>${text(title, lang)}</h1><p class="intro">${text(intro, lang)}</p>
+      ${urgent}${quick}
       <aside class="tip"><b>${text(tipTitle, lang)}</b>${paragraph(data.tip, lang)}</aside>
       ${picture(image, photoClass, lang, true)}
       ${contents(sections, lang, 'ext')}
