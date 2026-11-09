@@ -106,22 +106,78 @@ export function practicalGuidePage(data, photos, lang, template) {
 }
 
 export function monthlyGuidePage(data, photos, lang) {
-  const { title, intro, months, tip, sources } = data;
+  const { title, intro, months, tip, sources, seasonChoices = [] } = data;
   const image = photos[data.image];
-  const monthCards = months.map(({ title, low, high, rain, plan }, index) =>
-    `<article id="mes-${index + 1}" class="month-card"><h2>${text(title, lang)}</h2>
-      <p><strong>${low}–${high} °C</strong> · ${rain} mm</p>
+  const rainPattern = rain => rain >= 200
+    ? t('Promedio muy lluvioso', 'Média muito chuvosa', 'Very wet average')
+    : rain >= 100 ? t('Lluvia moderada', 'Chuva moderada', 'Moderate rainfall')
+      : t('Mes históricamente más seco', 'Mês historicamente mais seco', 'Historically drier month');
+  const monthCards = months.map(({ title, low, high, rain, plan, carry, inside }, index) =>
+    `<article id="mes-${index + 1}" class="month-card petr-month-card">
+      <h2>${text(title, lang)}</h2>
+      <p class="petr-month-metrics"><strong>${low}–${high} °C</strong><span>${rain} mm</span></p>
+      <span class="petr-month-rain">${text(rainPattern(rain),lang)}</span>
       <h3>${text(t('Mi plan del mes', 'Meu plano do mês', 'My plan for the month'), lang)}</h3>
-      ${paragraph(plan, lang)}</article>`).join('');
+      ${paragraph(plan, lang)}
+      <div class="petr-month-advice">
+        <div><h4>${text(t('Qué llevar', 'O que levar', 'What to bring'),lang)}</h4>${paragraph(carry,lang)}</div>
+        <div><h4>${text(t('Si llueve', 'Se chover', 'If it rains'),lang)}</h4>${paragraph(inside,lang)}</div>
+      </div>
+    </article>`).join('');
+  const seasonCards = seasonChoices.length ? `<section class="petr-season-overview" aria-label="${text(t('Qué temporada elegir', 'Que estação escolher', 'Which season to choose'),lang)}">
+    <h2>${text(t('Cuándo visitar según tu estilo de viaje', 'Quando visitar conforme seu passeio', 'When to visit for your kind of trip'),lang)}</h2>
+    <div class="petr-season-grid">${seasonChoices.map(item=>`<article class="petr-season-card">
+      <h3>${text(item.title,lang)}</h3><strong>${text(item.badge,lang)}</strong>${paragraph(item.copy,lang)}
+    </article>`).join('')}</div>
+    <p class="petr-climate-note">${text(t('Las medias son referencias históricas, no pronósticos ni garantías de buen tiempo.',
+      'As médias são referências históricas, não previsões nem garantia de tempo bom.',
+      'These are historical averages, not forecasts or guarantees of good weather.'),lang)}</p>
+  </section>` : '';
   return {
     title, intro, image,
-    inline: styles('guia/mes-a-mes') + '<style>.season .month-toolbar{flex:initial}.season .month-toolbar a,.season .source-link{border:1px solid #0b6158;background:white;border-radius:999px;padding:.55rem .8rem;color:#064b44;font-weight:700}.season .ec-guide-photo a{color:inherit}</style>',
-    body: `<section class="season">${picture(image, 'ec-guide-photo', lang, true)}
+    inline: styles('guia/mes-a-mes') + `<style>
+      .season .month-toolbar{flex:initial}
+      .season .month-toolbar a,.season .source-link{border:1px solid #0b6158;background:white;border-radius:999px;padding:.55rem .8rem;color:#064b44;font-weight:700}
+      .season .ec-guide-photo a{color:inherit}
+      .petr-month-guide .petr-season-overview{margin:24px 0 30px}
+      .petr-month-guide .petr-season-overview>h2{font-size:clamp(1.32rem,2.7vw,1.9rem);color:#164a41;margin:0 0 17px}
+      .petr-month-guide .petr-season-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+      .petr-month-guide .petr-season-card{background:#eef7f2;border:1px solid #cbe0d5;border-radius:20px;padding:clamp(18px,2.5vw,26px)}
+      .petr-month-guide .petr-season-card:nth-child(3n+2){background:#fff8eb;border-color:#e9d9bd}
+      .petr-month-guide .petr-season-card h3{margin:0 0 8px;font-size:1.15rem;color:#175246}
+      .petr-month-guide .petr-season-card strong{display:block;margin-bottom:10px;color:#966222;font-size:.93rem}
+      .petr-month-guide .petr-season-card p{line-height:1.68;color:#43574e;margin:0}
+      .petr-month-guide .petr-climate-note{font-size:.9rem;line-height:1.6;color:#536b63;margin:14px 0}
+      .petr-month-guide .petr-month-card{min-width:0;scroll-margin-top:100px}
+      .petr-month-guide .petr-month-metrics{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:7px 0}
+      .petr-month-guide .petr-month-metrics span{font-variant-numeric:tabular-nums}
+      .petr-month-guide .petr-month-rain{display:inline-block;background:#e4f2eb;color:#175446;border-radius:999px;padding:7px 11px;font-size:.79rem;font-weight:750;margin:3px 0 13px}
+      .petr-month-guide .petr-month-advice{border-top:1px solid #d3e3da;margin-top:15px;padding-top:12px;display:grid;gap:12px}
+      .petr-month-guide .petr-month-advice h4{font-size:.93rem;margin:0 0 4px;color:#164d42}
+      .petr-month-guide .petr-month-advice p{line-height:1.6;margin:0;color:#43564f}
+      @media(max-width:690px){
+        .petr-month-guide .petr-season-grid{grid-template-columns:1fr}
+        .petr-month-guide .petr-season-card{padding:17px}
+        body:has(.petr-month-guide) .ec-global-actions{
+          left:10px!important;right:10px!important;bottom:calc(env(safe-area-inset-bottom,0px) + 8px)!important;
+          display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-end!important;
+          gap:8px!important;pointer-events:none!important
+        }
+        body:has(.petr-month-guide) .ec-global-actions>.ec-float-btn{
+          min-height:42px!important;padding:9px 13px!important;font-size:12px!important;pointer-events:auto!important
+        }
+        body:has(.petr-month-guide) .ec-global-actions>.ec-share-panel,
+        body:has(.petr-month-guide) .ec-global-actions>.ec-share-status{pointer-events:auto!important}
+        .petr-month-guide{padding-bottom:calc(92px + env(safe-area-inset-bottom,0px))}
+      }
+    </style>`,
+    body: `<section class="season petr-month-guide">${picture(image, 'ec-guide-photo', lang, true)}
       ${localLink('guia/', t('Volver a la guía', 'Voltar ao guia', 'Back to the guide'), lang, 'ext')}
       <p class="eyebrow">ERNESTINHO CARIOCA · PETRÓPOLIS</p><h1>${text(title, lang)}</h1><p class="season-intro">${text(intro, lang)}</p>
       <p>${text(t('Las cifras muestran medias de temperaturas mínimas y máximas y lluvia mensual según la serie de Climatempo. Consulta el pronóstico para tus fechas.',
         'Os números mostram médias de mínimas e máximas e chuva mensal segundo a série do Climatempo. Consulte a previsão para suas datas.',
         'Figures show mean lows, highs and monthly rainfall from Climatempo’s historical series. Check the forecast for your dates.'), lang)}</p>
+      ${seasonCards}
       <nav class="month-toolbar" aria-label="${text(contentsTitle, lang)}">${months.map(({ title }, index) =>
         `<a href="#mes-${index + 1}">${text(title, lang)}</a>`).join('')}</nav>
       <div class="month-grid">${monthCards}</div>
