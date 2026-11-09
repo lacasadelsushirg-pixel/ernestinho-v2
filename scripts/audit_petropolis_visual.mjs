@@ -106,6 +106,21 @@ try{
             photoGridColumns:getComputedStyle(document.querySelector('.photo-grid')||document.body).gridTemplateColumns,
             links:document.querySelectorAll('a[href]').length};
         });
+        if(route.endsWith('/fotografias/')) {
+          const firstSpot=page.locator('.spot').first();
+          await firstSpot.scrollIntoViewIfNeeded();
+          await page.waitForTimeout(650);
+          metrics.firstSpotDisplay=await firstSpot.evaluate(el=>({
+            display:getComputedStyle(el).display,
+            opacity:getComputedStyle(el).opacity,
+            visibility:getComputedStyle(el).visibility,
+            top:Math.round(el.getBoundingClientRect().top),
+            height:Math.round(el.getBoundingClientRect().height),
+            photoLoaded:el.querySelector('img')?.naturalWidth>0
+          }));
+          await page.screenshot({path:path.join(out,'fotografia-tarjetas-'+vp.width+'.png'),fullPage:false,animations:'disabled'});
+          await page.evaluate(()=>window.scrollTo(0,0));
+        }
         await page.screenshot({path:path.join(out,label+'-'+vp.width+'.png'),fullPage:true,animations:'disabled'});
         recorded.push({route,viewport:vp.width,...metrics});
         if(metrics.h1!==1||!metrics.main||metrics.overflowPx>4)failures.push({route,viewport:vp.width,reason:'Structural/viewport anomaly',metrics});
