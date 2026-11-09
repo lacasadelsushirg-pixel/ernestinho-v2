@@ -13,3 +13,7 @@ Las traducciones deben hacerse en los diccionarios de assets/js/translations/, c
 Ejecutar python scripts/check_frozen_pages.py antes de cada commit/deploy. No regenerar el manifiesto para esconder cambios. Si falla, restaurar los elementos protegidos y conservar únicamente las traducciones autorizadas.
 
 No hacer force-push ni rollback global: posteriores avances de Experiencias, Playas, Familia, Eventos y otras áreas deben conservarse.
+
+## Barrera de publicación (9 nov 2026)
+
+La publicación en Hostinger debe ejecutar `node scripts/guard_approved_content.mjs` ANTES de generar páginas. Este guard ancla el registro de 586 páginas aprobado y recursos de diseño globales. Ni Work ni otros agentes pueden autorizarse a sí mismos a modificar el guard, el manifiesto o sus anclajes. La excepción requiere autorización expresa del propietario para rutas concretas y revisión humana del cambio; NO neutralizar el gate por una compilación fallida. Leer `docs/PUBLISHING_PROTECTION.md` antes de cambiar componentes de producción. Las reglas de rama y los revisores humanos siguen siendo necesarias para prevenir bypass de un actor con acceso de escritura.

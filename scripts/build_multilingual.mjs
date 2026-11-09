@@ -1,4 +1,5 @@
 // Build all locale HTML with the existing renderers, never maintain three sources.
+import { verifyApprovedContent } from './guard_approved_content.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import http from 'node:http';
@@ -14,6 +15,8 @@ import{beachEditorial}from'../assets/js/translations/chunks/buzios-beaches-revie
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
+// Abort before staging or copying files when approved editorial content is altered.
+verifyApprovedContent(root);
 const out=path.join(root,'dist');
 const origin='https://www.ernestinhocarioca.com.br';
 const configs=JSON.parse(fs.readFileSync(path.join(root,'vercel.json')));

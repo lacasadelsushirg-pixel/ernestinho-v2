@@ -1,0 +1,32 @@
+name: Protect approved content
+
+on:
+  push:
+    branches:
+      - revision/rendimiento-traducciones-81a904c
+  pull_request:
+    branches:
+      - revision/rendimiento-traducciones-81a904c
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  protect:
+    name: Protect approved content
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Checkout exact candidate commit
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify immutable approved baseline
+        run: node scripts/guard_approved_content.mjs
+      - name: Verify frozen page hashes
+        run: python3 scripts/check_frozen_pages.py
