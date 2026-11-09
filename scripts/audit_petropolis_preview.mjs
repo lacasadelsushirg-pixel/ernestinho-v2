@@ -1,0 +1,86 @@
+// Read-only Petrópolis HTML preview / QA. Run: node scripts/audit_petropolis_preview.mjs
+// Optional --out=/tmp/ernestinho-petropolis-preview writes only to a temporary directory.
+// It never runs the live build, deploys files, or alters public_html / Rio source pages.
+import fs from 'node:fs';
+import path from 'node:path';
+import os from 'node:os';
+import { verifyApprovedContent } from './guard_approved_content.mjs';
+import { root, langs, pre } from './buzios_mirror_core.mjs';
+import { regionalRoutes, renderRegionalRoute } from './build_regional_destinations.mjs';
+
+verifyApprovedContent(root); // Fail closed before any rendering or filesystem mutation.
+const area = '/destinos/petropolis/';
+const routes = regionalRoutes.filter(route => route.startsWith(area));
+const siteRoutes = new Set(regionalRoutes);
+const requiredDistricts = 11;
+const requiredCulturalSites = 15;
+const requiredDetail = [area + 'barrios/', area + 'cultura/', area + 'transportes/'];
+const errors = [], warnings = [];
+const previewArg = process.argv.find(arg => arg.startsWith('--out='));
+let out = null;
+if (previewArg) {
+  out = path.resolve(previewArg.slice(6));
+  const temp = path.resolve(os.tmpdir());
+  if (out === temp || !out.startsWith(temp + path.sep)) {
+    throw Error('Preview must write into a dedicated subdirectory of the system temp folder, not into website, dist, or public_html');
+  }
+}
+const cultureSlugs = routes.filter(route => route.startsWith(area + 'cultura/') && route !== area + 'cultura/');
+const districtSlugs = routes.filter(route => route.startsWith(area + 'barrios/') && route !== area + 'barrios/');
+if (districtSlugs.length !== requiredDistricts) errors.push('Barrios: expected 11 detail routes, got ' + districtSlugs.length);
+if (cultureSlugs.length !== requiredCulturalSites) errors.push('Cultura: expected 15 detail routes, got ' + cultureSlugs.length);
+for (const route of requiredDetail) if (!siteRoutes.has(route)) errors.push('Missing section route ' + route);
+const records = [];
+for (const route of routes) {
+  for (const lang of langs) {
+    let html;
+    try { html = renderRegionalRoute(route, lang); }
+    catch (error) { errors.push(lang + ' ' + route + ': failed to render: ' + error.message); continue; }
+    const name = lang + ' ' + route;
+    if (!html.startsWith('<!doctype html>')) errors.push(name + ': missing HTML doctype');
+    const h1 = [...html.matchAll(/<h1\b/gi)].length;
+    if (h1 !== 1) errors.push(name + ': expected 1 h1, got ' + h1);
+    const head = html.match(/<head\b[^>]*>([\s\S]*?)<\/head>/i)?.[1] || '';
+    if (!head) errors.push(name + ': missing head');
+    const canonical = 'https://www.ernestinhocarioca.com.br' + pre(lang) + route;
+    if (!head.includes('href="' + canonical + '"')) errors.push(name + ': wrong canonical');
+    if (!html.includes('id="contenido"')) errors.push(name + ': missing main landmark');
+    if (!html.includes('data-ec-locale-routes="true"')) errors.push(name + ': missing locale routing');
+    const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]);
+    if (ids.length !== new Set(ids).size) errors.push(name + ': duplicate HTML IDs');
+    for (const anchor of html.matchAll(/href="#([^"]+)"/g)) {
+      if (!ids.includes(anchor[1])) errors.push(name + ': broken internal anchor #' + anchor[1]);
+    }
+    // Check internal links to generated Petrópolis routes; external targets and other sections are independent.
+    for (const anchor of html.matchAll(/<a\b[^>]*href="([^"]+)"/g)) {
+      const href = anchor[1].replaceAll('&amp;', '&');
+      if (!href.startsWith(pre(lang) + area)) continue;
+      const routePart = href.slice(pre(lang).length).split(/[?#]/)[0];
+      if (!siteRoutes.has(routePart)) errors.push(name + ': broken Petrópolis link ' + routePart);
+    }
+    const imgs = [...html.matchAll(/<img\b[^>]*>/g)].map(m => m[0]);
+    for (const img of imgs) {
+      if (!/\balt="[^"]*"/.test(img)) errors.push(name + ': image missing alt');
+      const src = img.match(/\bsrc="([^"]+)"/)?.[1] || '';
+      if (src.startsWith('/') && !src.startsWith('//') && !fs.existsSync(path.join(root, decodeURI(src).split('?')[0].slice(1)))) {
+        warnings.push(name + ': photo to verify on Hostinger ' + src);
+      }
+    }
+    if ((route.startsWith(area + 'barrios/') && route !== area + 'barrios/') && !html.includes('petr-bairro-stops')) errors.push(name + ': missing district editorial');
+    if ((route.startsWith(area + 'cultura/') && route !== area + 'cultura/') && !html.includes('petr-culture-depth')) errors.push(name + ': missing culture editorial');
+    if (route === area + 'barrios/' && (html.match(/class="topic"/g) || []).length !== 11) errors.push(name + ': district index does not show 11 cards');
+    if (route === area + 'cultura/' && (html.match(/class="culture-card"/g) || []).length !== 15) errors.push(name + ': culture index does not show 15 cards');
+    if (out) {
+      const filename = path.join(out, pre(lang).slice(1), route.slice(1), 'index.html');
+      fs.mkdirSync(path.dirname(filename), { recursive:true });
+      fs.writeFileSync(filename, html);
+    }
+    records.push({route, lang, bytes: Buffer.byteLength(html), images: imgs.length});
+  }
+}
+const counts = {regionalRoutes:routes.length, districtDetailRoutes:districtSlugs.length,
+  cultureDetailRoutes:cultureSlugs.length, generated: records.length,
+  errors: errors.length, imageWarnings: warnings.length};
+console.log(JSON.stringify({status: errors.length ? 'FAIL' : 'PASS', counts, errors,
+  warnings: [...new Set(warnings)].slice(0,40), output: out || '(check-only; no files written)'}, null, 2));
+if (errors.length) process.exitCode = 1;
