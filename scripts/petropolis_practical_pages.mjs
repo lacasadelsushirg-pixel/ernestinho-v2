@@ -94,27 +94,34 @@ export function petropolisTransportPage(data, mode, title, intro, photos, lang) 
   const { sections, faq, sources, related } = data;
   const image = photos[data.image];
   const vans = mode === 'vans';
-  const hero = vans ? `<img class="hero-image" src="${esc(image.src)}" alt="${esc(image.alt)}" fetchpriority="high">
-    <div class="guide-photo-caption">${esc(image.alt)} · ${photoCredit(image, lang)}</div>` : picture(image, 'guide-photo guide-hero-photo', lang, true);
+  const photoFirst = vans || mode === 'onibus';
+  const hero = photoFirst ? `<img class="hero-image" src="${esc(image.src)}" alt="${esc(image.alt)}" fetchpriority="high">
+    <div class="guide-photo-caption">${esc(image.alt)}${image.author ? ' · ' + photoCredit(image, lang) : ''}</div>` : picture(image, 'guide-photo guide-hero-photo', lang, true);
   const mapButton = location => map(location, v(mapLabel, lang)).replace('class="ext"', 'class="text-action"');
+  const planRoute = (from, to) => external([
+    'https://www.google.com/maps/dir/?' + new URLSearchParams({ api: '1', origin: from, destination: to, travelmode: 'transit' }),
+    t('Planificar el trayecto en el mapa', 'Planejar o trajeto no mapa', 'Plan the trip on the map'),
+  ], lang, 'source-link');
   const connectionGuide = data.connections ? `<section id="trayectos" class="guide-section">
     <h2>${text(connectionsTitle, lang)}</h2>
     ${paragraph(t('Elige tu trayecto y consulta el sentido de ida y vuelta para el día que viajas.',
       'Escolha seu trajeto e confira os sentidos de ida e volta para o dia da viagem.',
       'Choose your route and check both directions for your travel date.'), lang)}
-    <ul class="petr-connections">${data.connections.map(({ title, service, boarding, location, links }) =>
+    <ul class="petr-connections">${data.connections.map(({ title, service, boarding, location, from, links }) =>
       `<li class="aside-card"><span class="fact-pill">${esc(service)}</span><h3>${text(title, lang)}</h3>
         ${paragraph(boarding, lang)}${mapButton(location)}
-        <div class="source-list">${links.map(source => external(source, lang, 'source-link')).join('')}</div></li>`).join('')}</ul>
+        <div class="source-list">${links.map(source => external(source, lang, 'source-link')).join('')}${from ? planRoute(from, location) : ''}</div></li>`).join('')}</ul>
     </section>` : '';
   const navigation = data.connections ? [{ id: 'trayectos', title: connectionsTitle }, ...sections] : sections;
   const chapter = ({ id, title, copy, map: location, image, links = [], tone = '' }) =>
     `<section id="${id}" class="guide-section${tone ? ' ec-adn ' + tone : ''}"><h2>${text(title, lang)}</h2>${paragraph(copy, lang)}
       ${location ? mapButton(location) : ''}${links.map(source => external(source, lang, 'source-link')).join('')}</section>
       ${image ? picture(photos[image], 'guide-photo', lang) : ''}`;
+  const relatedRoute = 'transportes/' + related + (mode === 'uber' || vans ? '#trayectos' : '');
+  const relatedLabel = data.relatedLabel || t('Vans y transporte colectivo', 'Vans e transporte coletivo', 'Vans and public transport');
   const side = `<aside class="guide-aside"><section class="aside-card"><h2>${text(contentsTitle, lang)}</h2>
     ${contents(navigation, lang, 'text-action')}</section><section class="aside-card"><h2>${text(t('Sigue organizando el viaje', 'Continue planejando a viagem', 'Keep planning your trip'), lang)}</h2>
-    ${localLink('transportes/' + related + (vans ? '' : '#trayectos'), mode === 'vans' ? t('Uber, 99 y taxis', 'Uber, 99 e táxis', 'Uber, 99 and taxis') : t('Vans y transporte colectivo', 'Vans e transporte coletivo', 'Vans and public transport'), lang, 'action')}
+    ${localLink(relatedRoute, relatedLabel, lang, 'action')}
     ${localLink('guia/llegada/', t('Cómo llegar a Petrópolis', 'Como chegar a Petrópolis', 'Getting to Petrópolis'), lang, 'text-action')}</section></aside>`;
   const connectionStyles = data.connections ? `<style>
     .petr-connections{display:grid;gap:12px;padding:0;list-style:none}
@@ -124,11 +131,11 @@ export function petropolisTransportPage(data, mode, title, intro, photos, lang) 
   </style>` : '';
   return {
     title, intro, image, inline: styles('transportes/uber') + '<style>.guide-aside .petr-page-contents{display:block}.guide-photo-caption{margin-top:9px;color:#61706a;font-size:13px;line-height:1.5}</style>' + connectionStyles, css: ['transit-guides'],
-    body: `<section class="transit-guide">${vans ? hero : ''}<div class="guide-intro"><p class="kicker">ERNESTINHO CARIOCA · PETRÓPOLIS</p>
+    body: `<section class="transit-guide">${photoFirst ? hero : ''}<div class="guide-intro"><p class="kicker">ERNESTINHO CARIOCA · PETRÓPOLIS</p>
       <h1>${text(title, lang)}</h1><p class="guide-dek">${text(intro, lang)}</p>
-      <span class="fact-pill">${text(vans ? t('Autobús urbano · intermunicipal · van privada', 'Ônibus urbano · intermunicipal · van particular', 'Local bus · intercity coach · private van') :
-        t('Tarifa dinámica · matrícula · punto de recogida', 'Tarifa dinâmica · placa · ponto de embarque', 'Dynamic fare · licence plate · pickup point'), lang)}</span></div>
-      ${vans ? '' : hero}
+      <span class="fact-pill">${text(data.badge || (vans ? t('Autobús urbano · intermunicipal · van privada', 'Ônibus urbano · intermunicipal · van particular', 'Local bus · intercity coach · private van') :
+        t('Tarifa dinámica · matrícula · punto de recogida', 'Tarifa dinâmica · placa · ponto de embarque', 'Dynamic fare · licence plate · pickup point')), lang)}</span></div>
+      ${photoFirst ? '' : hero}
       <div class="guide-layout"><article class="guide-copy">${connectionGuide}${sections.map(chapter).join('')}
       <section class="guide-section ec-adn ec-teal"><h2>⭐ ${text(tipTitle, lang)}</h2>${paragraph(data.tip, lang)}</section>
       <section class="guide-section ec-faq"><h2>${text(faqTitle, lang)}</h2>

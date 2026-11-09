@@ -176,7 +176,13 @@ function transportLayout(city, slug, lang, photos = {}) {
       <b>${tx(name, lang)}</b><strong>${esc(area)}</strong>${p(copy, lang)}</div>
       ${link(base + 'transportes/' + mode + '/', open, lang, 'detail-link')}</article>`;
   }).join('');
-  return { title, intro, body: cover(title, intro, lang, city.name) + `<section class="transport"><div class="tgrid">${cards}</div>${note(tip, lang)}</section>`, inline: styles('transportes') };
+  const coverPhoto = isPetr && petrPhotos['catedral-paisaje'];
+  const banner = coverPhoto
+    ? `<section class="hero"><div class="hero-visual">${image(coverPhoto, '', true)}</div><div class="hero-copy">
+      <p class="kicker">ERNESTINHO CARIOCA · PETRÓPOLIS</p><h1>${tx(title, lang)}</h1><p class="lead">${tx(intro, lang)}</p>
+      ${link(base + 'transportes/onibus/#trayectos', t('Ver rutas de las micros', 'Ver linhas de ônibus', 'See local bus routes'), lang, 'primary')}</div></section>`
+    : cover(title, intro, lang, city.name);
+  return { title, intro, body: banner + `<section class="transport"><div class="tgrid">${cards}</div>${note(tip, lang)}</section>`, inline: styles('transportes') };
 }
 
 export function renderPetropolis(city, key, slug, lang) {

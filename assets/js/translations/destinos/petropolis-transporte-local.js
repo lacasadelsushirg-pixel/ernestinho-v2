@@ -1,4 +1,5 @@
 import { t } from './modelo.js';
+import { remainingTransport } from './petropolis-transporte-modalidades.js';
 
 const cptrans = ['https://www.petropolis.rj.leg.br/institucional/noticias/sala-de-atendimento-ao-publico-na-sede-da-cptrans-homenageia-servidor-que-morreu-apos-as-chuvas-em-petropolis', 'CPTrans · Atendimento · Câmara Municipal de Petrópolis'];
 const bingen = 'Terminal Rodoviário Governador Leonel Brizola, Bingen, Petrópolis, RJ';
@@ -20,6 +21,7 @@ const connections = [
       'Da rodoviária, procure a 100 com destino Centro. Para voltar ao Bingen, o itinerário publicado parte da Rua Doutor Porciúncula, 75.',
       'From the station, look for the 100 towards downtown. For the return to Bingen, the published route starts at Rua Doutor Porciúncula, 75.'),
     location: 'Rua Doutor Porciúncula, 75, Centro, Petrópolis, RJ',
+    from: bingen,
     links: [source100Inbound, [source100[0], t('100 · Centro → Bingen', '100 · Centro → Bingen', '100 · Downtown → Bingen')]],
   },
   {
@@ -29,6 +31,7 @@ const connections = [
       'Ligação direta entre a rodoviária e o Terminal Corrêas, Estrada União e Indústria, 1132. Consulte o sentido certo: os dois itinerários têm pontos diferentes.',
       'Direct connection between the intercity station and Terminal Corrêas, Estrada União e Indústria, 1132. Check the right direction: the two routes have different stops.'),
     location: 'Terminal Corrêas, Estrada União e Indústria 1132, Petrópolis, RJ',
+    from: bingen,
     links: [source150Inbound, [source150[0], '150 · Corrêas → Bingen']],
   },
   {
@@ -38,6 +41,7 @@ const connections = [
       'A tabela separa partidas da Rua do Imperador e da Rua Genair Costa de Oliveira. Se for ao Sesc, confirme qual ponto atende a entrada cultural.',
       'The timetable separates departures from Rua do Imperador and Rua Genair Costa de Oliveira. For Sesc, check which stop serves the cultural centre entrance.'),
     location: 'Centro Cultural Sesc Quitandinha, Petrópolis, RJ',
+    from: 'Rua do Imperador, Centro, Petrópolis, RJ',
     links: [source649],
   },
   {
@@ -47,6 +51,7 @@ const connections = [
       'Confira o ponto de saída no Centro e, para voltar, localize o Terminal Itaipava. Se seguir para Madame Machado, consulte também a 704. A tabela vinculada é de setembro de 2026.',
       'Check the downtown departure stop and find Terminal Itaipava for the return. If continuing to Madame Machado, check the 704 too. The linked timetable is from September 2026.'),
     location: 'Terminal Itaipava, Petrópolis, RJ',
+    from: 'Terminal Centro, Petrópolis, RJ',
     links: [source700],
   },
   {
@@ -61,7 +66,63 @@ const connections = [
 ];
 
 
+const fare = ['https://www.riocardmais.com.br/areasdeatuacao/Petropolis', 'Riocard Mais · Petrópolis'];
+const bonfim = ['https://linhas.cittamobi.com.br/linha/transporte_publico-Petropolis-TurpTransporteUrbano-611-BonfimxT.Correas-54a151407316', '611 · Turp / Cittamobi'];
+
 export const transportDetails = {
+  ...remainingTransport,
+  onibus: {
+    image: 'terminal-bingen',
+    related: 'interurbanos/',
+    relatedLabel: t('Autobuses intermunicipales', 'Ônibus intermunicipais', 'Intercity buses'),
+    badge: t('Tarifa municipal de referencia · R$ 5,90', 'Tarifa municipal de referência · R$ 5,90', 'Municipal reference fare · R$ 5.90'),
+    connections: [...connections.slice(0, 4), {
+      title: 'Corrêas ↔ Bonfim', service: '611 · Turp',
+      boarding: t('El cuadro enlazado muestra la vuelta desde Estrada do Bonfim hacia Terminal Corrêas, con mapa y lista de paradas. Para ir hacia Bonfim, cambia de sentido en la ficha y confirma la parada más útil para tu entrada o alojamiento.',
+        'A tabela vinculada mostra a volta da Estrada do Bonfim ao Terminal Corrêas, com mapa e lista de pontos. Para ir ao Bonfim, troque o sentido na ficha e confirme o ponto mais útil para sua entrada ou hospedagem.',
+        'The linked timetable shows the return from Estrada do Bonfim to Terminal Corrêas, with a route map and stops. For Bonfim-bound service, switch direction and check the best stop for your entrance or accommodation.'),
+      location: 'Terminal Corrêas, Estrada União e Indústria 1132, Petrópolis, RJ',
+      from: 'Estrada do Bonfim 600, Petrópolis, RJ', links: [bonfim],
+    }],
+    tip: t('Yo tomaría una micro para Bingen–Centro o para un paseo diurno con vuelta confirmada. Si salgo de un valle después de cenar o tengo un pasaje con poca holgura, pactaría la recogida de antemano.',
+      'Eu pegaria ônibus para Bingen–Centro ou um passeio diurno com volta confirmada. Para sair de um vale depois do jantar ou pegar uma passagem com pouco tempo, combinaria a coleta antes.',
+      'I’d take a bus from Bingen to downtown or for a daytime outing with a confirmed return. After dinner in a valley or with a tight coach connection, I’d arrange pickup in advance.'),
+    sections: [
+      {
+        id: 'tarifa', tone: 'ec-amber', title: t('Cuánto cuesta, cómo pagar y cuándo hay integración', 'Quanto custa, como pagar e quando há integração', 'Fare, payment and transfers'),
+        copy: t('Riocard Mais publica R$ 5,90 como valor de la integración municipal, y la referencia de tarifa común consultada publica el mismo importe. Si pagas en efectivo, calcula R$ 11,80 para dos embarques a ese valor. Con un Riocard Mais elegible, la integración permite dos líneas distintas en el mismo sentido dentro de una hora, con excepciones para trayectos largos. Pagar en efectivo o volver en sentido contrario implica otro pasaje. El bus intermunicipal se compra aparte.',
+          'A Riocard Mais publica R$ 5,90 como valor da integração municipal, e a referência consultada para a tarifa comum informa o mesmo valor. Em dinheiro, calcule R$ 11,80 para dois embarques a esse valor. Com Riocard Mais elegível, a integração permite duas linhas diferentes no mesmo sentido em até uma hora, com exceções para trajetos longos. Em dinheiro ou na volta em sentido contrário, paga-se outra passagem. O ônibus intermunicipal é comprado à parte.',
+          'Riocard Mais lists R$ 5.90 as the municipal transfer fare, and the standard fare reference lists the same amount. At that rate, budget R$ 11.80 for two cash boardings. An eligible Riocard Mais card allows transfers between different routes in the same direction within one hour, with exceptions for longer routes. Cash fares and return journeys require another fare. Intercity tickets are separate.'),
+        links: [fare],
+      },
+      {
+        id: 'sentidos', title: t('Recorrido, paradas y sentido correcto', 'Itinerário, pontos e sentido certo', 'Route, stops and the right direction'),
+        copy: t('Abre el enlace de tu sentido en el cuadro. En Cittamobi puedes ver el recorrido dibujado y la lista de paradas. El botón de mapa de esta guía ubica una referencia de embarque o visita. Guarda también la parada de vuelta, que puede quedar en otra acera o calle. En el Centro, la línea 100 hacia Bingen lista Rua Doutor Porciúncula, 75 como origen.',
+          'Abra no quadro o link do sentido certo. No Cittamobi dá para ver o trajeto desenhado e a lista de pontos. O botão de mapa desta guia localiza uma referência de embarque ou visita. Salve também o ponto de volta, que pode ficar em outra calçada ou rua. No Centro, a 100 para Bingen lista a Rua Doutor Porciúncula, 75 como origem.',
+          'Open the link for your direction in the route guide. Cittamobi shows the route drawn on a map and lists its stops. This guide’s map button locates a boarding or sightseeing landmark. Save the return stop too, as it may be on another street or side of the road. Downtown, the 100 towards Bingen lists Rua Doutor Porciúncula, 75 as its starting point.'),
+      },
+      {
+        id: 'horarios', title: t('Horarios de vuelta y días distintos', 'Horários de volta e tipos de dia', 'Return times and different service days'),
+        copy: t('Consulta la columna del día y el sentido antes de salir. Como referencia, el cuadro publicado para la 150 en días hábiles muestra última partida de Bingen a las 23:00 y de Corrêas a las 22:00. Son salidas de terminal, no horas de paso por tu parada. Para la 649 y 700, abre el cuadro enlazado y reconfirma vigencia. Si hay lluvia fuerte, feriado o evento, consulta al operador.',
+          'Consulte o dia e o sentido antes de sair. Como referência, a tabela publicada da 150 em dias úteis mostra a última partida do Bingen às 23:00 e de Corrêas às 22:00. São partidas do terminal, não horários de passagem no ponto. Para a 649 e a 700, abra a tabela vinculada e reconfirme a vigência. Em chuva forte, feriado ou evento, consulte a operadora.',
+          'Check the day and direction before leaving. As a reference, the published weekday route 150 timetable shows last departures at 23:00 from Bingen and 22:00 from Corrêas. These are terminal departures, not times at your stop. For the 649 and 700, open the linked schedule and confirm it still applies. Check with the operator in heavy rain, on holidays or during events.'),
+        links: [source150Inbound, source150, source700],
+      },
+      {
+        id: 'cuando', title: t('Cuándo conviene la micro', 'Quando vale pegar ônibus', 'When the local bus makes sense'),
+        copy: t('La recomiendo si el origen y el destino están cerca de una parada y puedes elegir el horario. En el circuito Museu Imperial–Koeler–Cristal, yo caminaría si el clima y la movilidad lo permiten. Si llevas maletas, necesitas una recogida accesible o vuelves tarde desde un valle, compara un taxi o traslado y confirma el acceso exacto.',
+          'Eu recomendo se origem e destino ficam perto do ponto e você pode escolher o horário. No circuito Museu Imperial–Koeler–Cristal, eu iria a pé se o tempo e a mobilidade permitirem. Com malas, necessidade de embarque acessível ou volta tarde de um vale, compare táxi ou traslado e confirme o acesso exato.',
+          'I recommend the bus when both ends are close to a stop and your time is flexible. For the Imperial Museum–Koeler–Crystal Palace circuit, I’d walk if the weather and mobility allow. With luggage, an accessible pickup or a late return from a valley, compare a taxi or transfer and confirm the exact access point.'),
+      },
+    ],
+    faq: [
+      [t('¿Necesito Riocard para subir?', 'Preciso de Riocard para embarcar?', 'Do I need Riocard to board?'),
+        t('Riocard Mais indica que puedes pagar en efectivo. Para que dos líneas integren, usa un medio elegible y cumple sus condiciones.', 'A Riocard Mais informa que é possível pagar em dinheiro. Para integrar duas linhas, use meio elegível e siga as condições.', 'Riocard Mais says you can pay in cash. For a transfer between two routes, use an eligible payment method and meet its conditions.')],
+      [t('¿El valor cubre la ida y la vuelta?', 'O valor cobre ida e volta?', 'Does the fare cover a round trip?'),
+        t('Cuenta un pago separado para el regreso. La integración exige líneas diferentes y el mismo sentido.', 'Conte outra passagem na volta. A integração exige linhas diferentes no mesmo sentido.', 'Budget another fare for the return. The transfer benefit requires different routes in the same direction.')],
+    ],
+    sources: [fare, cptrans, ['https://otimizapro.com/tarifa/rj/petropolis', 'Otimiza · Tarifa municipal']],
+  },
   vans: {
     image: 'nogueira',
     connections,
@@ -122,7 +183,8 @@ export const transportDetails = {
       ['https://www.gov.br/turismo/pt-br/acesso-a-informacao/acoes-e-programas/cadastur', 'Cadastur'],
       ['https://www.gov.br/antt/pt-br/assuntos/passageiros/transportefretamento/fretamentosupas/', 'ANTT · Fretamento'],
     ],
-    related: 'uber/',
+    related: 'onibus/',
+    relatedLabel: t('Micros urbanas: rutas, tarifa y pago', 'Ônibus urbanos: linhas, tarifa e pagamento', 'Local buses: routes, fare and payment'),
   },
   uber: {
     image: 'vista-trono',

@@ -1,7 +1,7 @@
 import { t, card } from './modelo.js';
 
 export const transport = {
-  onibus: ['🚌', t('Ómnibus urbanos', 'Ônibus urbanos', 'Local buses'), 'Bingen · Centro',
+  onibus: ['🚌', t('Micros y autobuses urbanos', 'Ônibus urbanos', 'Local buses'), 'Bingen · Centro',
     t('La línea 100 conecta Bingen con el Centro. En la rodoviária confirma el sentido Centro y dónde bajar para tu primera visita.', 'A linha 100 liga Bingen ao Centro. Na rodoviária, confirme o sentido Centro e onde descer para a primeira visita.', 'Line 100 connects Bingen and downtown. At the bus station, check the downtown direction and where to get off for your first stop.'),
     t('Para volver, confirma que el vehículo va a Rodoviária Bingen. Deja margen si tienes otro pasaje con hora fija.', 'Na volta, confirme que o veículo vai à Rodoviária Bingen. Dê folga se tiver outra passagem com hora marcada.', 'On the way back, confirm the bus goes to Rodoviária Bingen. Allow extra time if you have a fixed onward departure.')],
   interurbanos: ['🚍', t('Ómnibus interurbanos', 'Ônibus intermunicipais', 'Intercity buses'), 'Rio · Petrópolis',
@@ -13,6 +13,14 @@ export const transport = {
   uber: ['🚗', t('Uber, 99 y taxis', 'Uber, 99 e táxis', 'Uber, 99 and taxis'), 'Centro · Quitandinha · Bingen',
     t('Pide un auto desde la rodoviaria de Bingen, compara tarifas y organiza el regreso de Itaipava o los valles.', 'Peça um carro na rodoviária do Bingen, compare tarifas e organize a volta de Itaipava ou dos vales.', 'Request a car from Bingen bus station, compare fares and arrange your return from Itaipava or the valleys.'),
     t('Comprueba matrícula y conductor. Para volver de Itaipava, Araras o un valle, revisa disponibilidad y ten una alternativa.', 'Confira placa e motorista. Para voltar de Itaipava, Araras ou um vale, veja disponibilidade e tenha alternativa.', 'Check the plate and driver. From Itaipava, Araras or a valley, check availability and have a backup.')],
+  privado: ['🚘', t('Transporte privado', 'Transporte privativo', 'Private transfers'), 'Rio · Bingen · Petrópolis',
+    t('Coordina la recogida, paradas, equipaje y regreso.', 'Combine embarque, paradas, bagagem e volta.', 'Arrange pickup, stops, luggage and return.')],
+  'alquiler-de-auto': ['🚗', t('Alquiler de auto', 'Aluguel de carro', 'Car rental'), 'Centro · Itaipava · Araras',
+    t('Compara dónde retirar y devolver el auto según tus recorridos.', 'Compare onde retirar e devolver o carro conforme o roteiro.', 'Compare pickup and return locations for your itinerary.')],
+  estacionamiento: ['🅿️', t('Estacionamiento', 'Estacionamento', 'Parking'), 'Centro · Quitandinha · Itaipava',
+    t('Revisa sectores, tiempo máximo y condiciones de eventos.', 'Confira setores, tempo máximo e condições de eventos.', 'Check zones, time limits and event arrangements.')],
+  'entre-distritos': ['🧭', t('Moverse entre distritos', 'Como circular entre distritos', 'Getting between districts'), 'Corrêas · Bonfim · Itaipava',
+    t('Combina la línea principal, el último tramo y la vuelta.', 'Combine linha principal, último trecho e volta.', 'Plan the main route, final leg and return.')],
   bicicletas: ['🚲', t('Bicicletas', 'Bicicletas', 'Bicycles'), 'Centro · recorridos de sierra',
     t('Elige tramos cortos que permitan pedalear y revisa pendientes y piso. Para combinar los museos del Centro, caminar suele ser más práctico.', 'Escolha trechos curtos onde é permitido pedalar e veja subidas e piso. Para combinar museus do Centro, caminhar costuma ser mais prático.', 'Choose short permitted stretches and check gradients and surfaces. Walking is usually easier between the downtown museums.'),
     t('Si alquilas, confirma casco, candado y devolución. En rutas de sierra, evita improvisar un recorrido cuando llueve o se acerca la noche.', 'Se alugar, confirme capacete, cadeado e devolução. Na serra, evite improvisar roteiro com chuva ou perto da noite.', 'If renting, check helmet, lock and return. In the mountains, avoid impromptu rides in rain or close to dark.')],
