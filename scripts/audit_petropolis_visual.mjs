@@ -109,6 +109,13 @@ try{
             cards:document.querySelectorAll('.spot').length,
             quickCards:document.querySelectorAll('.petr-fact-card').length,
             urgentDialLinks:document.querySelectorAll('.petr-urgent-actions a[href^="tel:"]').length,
+            mobileGuideControls:(()=>{
+              const dock=document.querySelector('.ec-global-actions');
+              if(!dock||!document.querySelector('.petr-local-guide'))return null;
+              const rect=dock.getBoundingClientRect();
+              return {top:Math.round(rect.top),height:Math.round(rect.height),right:Math.round(innerWidth-rect.right),
+                flexDirection:getComputedStyle(dock).flexDirection,visible:rect.height>0};
+            })(),
             photoGridColumns:getComputedStyle(document.querySelector('.photo-grid')||document.body).gridTemplateColumns,
             links:document.querySelectorAll('a[href]').length};
         });
@@ -142,6 +149,11 @@ try{
           failures.push({route,viewport:vp.width,reason:'Practical guide cards missing',count:metrics.quickCards});
         if(route.endsWith('/guia/emergencias/')&&metrics.urgentDialLinks!==4)
           failures.push({route,viewport:vp.width,reason:'Emergency call panel missing',count:metrics.urgentDialLinks});
+        if(route.includes('/guia/')&&vp.width===390){
+          const dock=metrics.mobileGuideControls;
+          if(!dock||!dock.visible||dock.flexDirection!=='row'||dock.top<vp.height-86)
+            failures.push({route,viewport:vp.width,reason:'Floating controls still obstruct main mobile reading area',dock});
+        }
       }catch(error){failures.push({route,viewport:vp.width,error:error.message});}
       finally{await page.close();}
     }
