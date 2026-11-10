@@ -493,6 +493,194 @@ export const petrDeepDining = {
         "PT": "Reserva antecipada para almoço; a casa informa escadas e ausência de acessibilidade para cadeirantes.",
         "EN": "Lunch requires advance booking; the business reports stairs and no wheelchair accessibility."
       }
+    },
+    "farfarello-restaurante": {
+      "name": "Farfarello Restaurante",
+      "area": "Itaipava",
+      "address": "Estrada União e Indústria, 13.470",
+      "category": "italian",
+      "summary": {
+        "ES": "Cantina italiana tradicional de Itaipava desde 1985, famosa por pastas artesanales y cocina a la vista.",
+        "PT": "Cantina italiana tradicional em Itaipava desde 1985, conhecida pelas massas artesanais e cozinha à vista.",
+        "EN": "Traditional Italian restaurant in Itaipava since 1985, known for handmade pasta and its visible kitchen."
+      },
+      "experience": {
+        "ES": "Mi primera elección sería una lasaña o pasta rellena que represente las recetas tradicionales de la casa.",
+        "PT": "Minha primeira escolha seria uma lasanha ou massa recheada ligada às receitas tradicionais da casa.",
+        "EN": "My first choice would be a lasagna or stuffed pasta representing the house's longstanding recipes."
+      },
+      "advice": {
+        "ES": "Guarda el número 13.470 y reserva para fines de semana. No confundas Itaipava con el centro de Petrópolis.",
+        "PT": "Salve o número 13.470 e reserve aos fins de semana. Não confunda Itaipava com o centro de Petrópolis.",
+        "EN": "Save street number 13,470 and book for weekends. Itaipava is not central Petrópolis."
+      },
+      "reservation": {
+        "ES": "Para reservar, llama al (24) 2222-3120 y verifica horarios porque las fuentes publican franjas diferentes.",
+        "PT": "Para reservar, ligue para (24) 2222-3120 e confirme horários, pois as fontes publicam informações diferentes.",
+        "EN": "For bookings call +55 24 2222-3120 and verify hours, which differ between published sources."
+      },
+      "source": "https://www.farfarello.com.br/new/index.html",
+      "nearby": "/destinos/petropolis/barrios/itaipava/",
+      "sources": [
+        {
+          "label": "Farfarello · Sitio oficial",
+          "url": "https://www.farfarello.com.br/new/index.html"
+        },
+        {
+          "label": "Convention Bureau · Farfarello",
+          "url": "https://www.pcvb.com.br/onde-comer/perfil/farfarello-restaurante"
+        },
+        {
+          "label": "Sou Petrópolis · Historia y recetas (2019)",
+          "url": "https://soupetropolis.com/2019/12/05/farfarello-restaurante-une-tradicao-e-alta-gastronomia-italiana-ha-35-anos-em-petropolis/"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "Desde 1985: una historia de familias",
+            "PT": "Desde 1985: uma história de famílias",
+            "EN": "Since 1985: a family story"
+          },
+          "text": {
+            "ES": "Farfarello abrió en 1985, cuando Itaipava todavía no concentraba tantos restaurantes como ahora. Las investigaciones locales atribuyen su creación a Luigi Galli y Olímpio Pimentel, vinculados a recetas familiares italianas. No es una cantina nueva decorada con antigüedades: su historia está relacionada con generaciones que volvieron por platos conocidos. Esa continuidad ayuda a entender el lugar como parte de la gastronomía del distrito, no solo como otra opción de pasta.",
+            "PT": "O Farfarello abriu em 1985, quando Itaipava ainda não reunia tantos restaurantes. Pesquisas locais atribuem sua criação a Luigi Galli e Olímpio Pimentel, ligados a receitas italianas de família. Não é cantina nova com decoração antiga: a casa se relaciona a gerações de clientes que voltaram por pratos conhecidos. Essa continuidade a torna parte da história gastronômica do distrito, não apenas outra opção de massas.",
+            "EN": "Farfarello opened in 1985, before Itaipava developed its current concentration of restaurants. Local accounts credit Luigi Galli and Olímpio Pimentel, whose family Italian recipes shaped the menu. It is not a new trattoria dressed up as an old one: returning generations have associated the place with familiar dishes. That continuity makes the restaurant part of the district's food history rather than simply another pasta option."
+          }
+        },
+        {
+          "title": {
+            "ES": "Una cocina envidriada donde se trabaja la masa",
+            "PT": "Uma cozinha envidraçada com massas artesanais",
+            "EN": "A visible kitchen making pasta"
+          },
+          "text": {
+            "ES": "El restaurante y el Convention Bureau explican que las pastas se producen en la propia cocina. Una superficie de vidrio permite mirar parte del trabajo sin entrar en el sector de preparación, que continúa siendo de uso profesional. Es interesante observar que la cocina artesanal no se reduce a la foto del plato terminado: implica estirar, rellenar y cocinar masas con técnicas diferentes. Pregunta qué preparación está saliendo ese día y qué salsa se adapta mejor a su textura.",
+            "PT": "O restaurante e o Convention Bureau informam que as massas são produzidas na própria cozinha. Uma área envidraçada permite observar parte do trabalho sem entrar no espaço de preparo, reservado aos profissionais. Vale perceber que produção artesanal vai além da foto do prato: envolve abrir, rechear e cozinhar massas com técnicas distintas. Pergunte qual preparação está saindo no dia e que molho combina melhor com sua textura.",
+            "EN": "The restaurant and Convention Bureau report that pasta is prepared on site. A glass-fronted area allows guests to observe part of the work without entering the professional kitchen. Handmade preparation is more than the finished plate: dough is rolled, filled and cooked using different techniques. Ask which preparation is being made that day and what sauce best complements its texture."
+          }
+        },
+        {
+          "title": {
+            "ES": "Lasañas, ravioles y platos de tradición",
+            "PT": "Lasanhas, raviólis e pratos tradicionais",
+            "EN": "Lasagnas, ravioli and familiar dishes"
+          },
+          "text": {
+            "ES": "Reportajes de la ciudad destacaron las lasañas verde y blanca, el paglia e fieno, polpetone relleno con mozzarella de búfala y ravioles de higo y ricota. Estos nombres retratan una cocina de recetas italianas adaptadas a hábitos locales, con salsas de tomate, mantequilla y crema. No conviene transformar un artículo antiguo en un menú actual: los platos pueden cambiar o agotarse. Pide la carta vigente y pregunta por porciones, guarniciones y opciones para compartir.",
+            "PT": "Reportagens locais destacaram lasanhas verde e branca, paglia e fieno, polpetone recheado com muçarela de búfala e raviólis de figo com ricota. Os exemplos mostram receitas italianas integradas aos hábitos locais, com molhos de tomate, manteiga e creme. Não é correto transformar matéria antiga em cardápio atual: os pratos podem mudar ou acabar. Consulte a carta vigente e pergunte por porções, acompanhamentos e opções para dividir.",
+            "EN": "Local reporting has highlighted green and white lasagnas, paglia e fieno, buffalo-mozzarella-stuffed polpetone and fig-and-ricotta ravioli. These examples show Italian recipes adapted to local dining habits, with tomato, butter and cream sauces. An old article is not a current menu: dishes may change or sell out. Ask for today's selection, portion sizes, sides and choices suitable for sharing."
+          }
+        },
+        {
+          "title": {
+            "ES": "Qué ordenar si nunca has estado",
+            "PT": "O que pedir na primeira visita",
+            "EN": "What to order on a first visit"
+          },
+          "text": {
+            "ES": "Si es tu primera comida aquí, elegiría una entrada de la cocina italiana seguida por una de las pastas que representen la tradición de la casa. Para una pareja pueden funcionar dos platos diferentes, uno de salsa delicada y otro más intenso, según la carta de ese día. Antes de pedir varias entradas, averigua el tamaño real de las porciones. Un restaurante de cantina se disfruta mejor cuando la comida no se convierte en una carrera para probar todo el menú.",
+            "PT": "Na primeira visita, eu escolheria uma entrada italiana e depois uma massa que represente a tradição da casa. Um casal pode pedir dois pratos diferentes, um de molho delicado e outro mais intenso, conforme a carta do dia. Antes de pedir diversas entradas, descubra o tamanho das porções. Uma cantina é melhor apreciada sem transformar a refeição numa corrida para provar tudo o que existe no cardápio.",
+            "EN": "For a first visit I would choose an Italian starter followed by a pasta that represents the house tradition. A couple might order two contrasting dishes, one with a delicate sauce and another with bolder flavour, depending on the current menu. Before adding multiple starters, check portion sizes. A trattoria is best enjoyed without turning dinner into a race to sample everything."
+          }
+        },
+        {
+          "title": {
+            "ES": "El valor de conservar recetas familiares",
+            "PT": "O valor de conservar receitas de família",
+            "EN": "Why family recipes matter"
+          },
+          "text": {
+            "ES": "Las crónicas históricas mencionan la intención de mantener combinaciones que acompañaron al restaurante desde sus primeros años. Los sabores repetidos permiten que una comida se relacione con recuerdos familiares, aunque proveedores, ingredientes y presentaciones evolucionen. No toda continuidad exige que el plato sea idéntico al de 1985. Pregunta cuáles son las recetas más antiguas de la carta y si han incorporado propuestas recientes; es una manera de conocer la cultura local a través de la mesa.",
+            "PT": "Crônicas históricas lembram a intenção de manter combinações associadas à casa desde seus primeiros anos. Sabores recorrentes ligam refeições a lembranças de família, embora fornecedores, ingredientes e apresentações evoluam. Continuidade não exige que tudo seja idêntico a 1985. Pergunte quais receitas permanecem há mais tempo e se há propostas recentes; é uma maneira de descobrir a cultura local pela mesa.",
+            "EN": "Historical profiles describe a commitment to combinations associated with the restaurant's early years. Familiar flavours connect meals to family memories even as suppliers, ingredients and presentation evolve. Continuity does not require every plate to be identical to its 1985 version. Ask which recipes have the longest history and whether recent creations have been added; it is a way to explore local culture through food."
+          }
+        },
+        {
+          "title": {
+            "ES": "Vinos y bebidas según la salsa",
+            "PT": "Vinhos e bebidas conforme o molho",
+            "EN": "Wine and drinks according to the sauce"
+          },
+          "text": {
+            "ES": "Una pasta con salsa de tomate, una lasaña cremosa y una preparación de hierbas no tienen el mismo perfil. Pregunta qué vinos por copa están disponibles, qué botellas encajan en tu presupuesto y si hay opciones sin alcohol. No hace falta elegir automáticamente un tinto potente para cualquier pasta. Si pides vino, verifica el precio antes de abrir la botella y considera el transporte de regreso: Itaipava es un distrito disperso y no todos los visitantes tendrán un vehículo disponible de inmediato.",
+            "PT": "Massa com tomate, lasanha cremosa e preparo de ervas não têm o mesmo perfil. Pergunte pelos vinhos em taça, por garrafas dentro do orçamento e por opções sem álcool. Não é preciso escolher automaticamente um tinto encorpado para toda massa. Antes de abrir a garrafa, confira o preço e organize o retorno: Itaipava é uma região extensa e nem todo visitante terá carro disponível imediatamente.",
+            "EN": "Tomato-sauce pasta, creamy lasagna and herb-based dishes have different profiles. Ask about wines by the glass, bottles within your budget and alcohol-free alternatives. A powerful red is not automatically the right match for every pasta. Check the bottle price before opening it and plan your return: Itaipava is spread out and a vehicle may not be immediately available after dinner."
+          }
+        },
+        {
+          "title": {
+            "ES": "Para familias, parejas y pequeños grupos",
+            "PT": "Para famílias, casais e pequenos grupos",
+            "EN": "For families, couples and small groups"
+          },
+          "text": {
+            "ES": "Farfarello funciona como cantina donde la conversación acompaña la comida, más que como una degustación formal de platos diminutos. Es una opción para familias o grupos que buscan recetas reconocibles y tiempo alrededor de la mesa. Los fines de semana pueden aumentar la espera y el ruido, de modo que conviene reservar si tienes horario limitado. Si hay niños, confirma medias porciones o platos compartidos, en vez de suponer que existe un menú infantil permanente.",
+            "PT": "O Farfarello funciona como cantina de conversa e refeição sem pressa, não como degustação formal de pratos pequenos. É opção para famílias e grupos que preferem receitas conhecidas e tempo à mesa. Nos fins de semana pode haver espera e mais movimento, por isso vale reservar com horário apertado. Com crianças, pergunte por meias porções ou pratos divididos, sem presumir cardápio infantil fixo.",
+            "EN": "Farfarello is a trattoria for conversation and relaxed meals rather than a formal tasting menu of small courses. It suits families and groups seeking familiar food and time around a table. Weekends may bring queues and more noise, so book when working to a schedule. With children, ask about half portions or sharing rather than assuming there is a permanent children's menu."
+          }
+        },
+        {
+          "title": {
+            "ES": "Gluten, lácteos y restricciones",
+            "PT": "Glúten, laticínios e restrições",
+            "EN": "Gluten, dairy and dietary needs"
+          },
+          "text": {
+            "ES": "Una cocina italiana utiliza habitualmente trigo, huevo, leche y quesos; algunas salsas también incluyen frutos secos, mantequilla o caldos de carne. Una pasta hecha artesanalmente no es por eso libre de gluten. Comunica alergias o necesidades vegetarianas cuando reserves, pregunta qué puede adaptar la cocina y no supongas ausencia de contaminación cruzada. Si alguien no consume lácteos, una salsa que parece solo de verduras puede contener queso o mantequilla y necesita verificación.",
+            "PT": "Cozinha italiana usa frequentemente trigo, ovo, leite e queijos; alguns molhos incluem castanhas, manteiga ou caldos de carne. Massa artesanal não é automaticamente sem glúten. Comunique alergias e necessidades vegetarianas na reserva, pergunte sobre adaptações e não suponha ausência de contaminação cruzada. Para quem não consome laticínios, mesmo molho aparentemente vegetal pode conter queijo ou manteiga e precisa ser confirmado.",
+            "EN": "Italian cooking commonly uses wheat, eggs, milk and cheese; sauces may also contain nuts, butter or meat stock. Handmade pasta is not automatically gluten-free. Mention allergies and vegetarian needs when booking, ask what the kitchen can adapt and never assume there is no cross-contact. If avoiding dairy, even an apparently vegetable-based sauce may contain cheese or butter and must be checked."
+          }
+        },
+        {
+          "title": {
+            "ES": "Horarios que deben reconfirmarse",
+            "PT": "Horários que precisam de confirmação",
+            "EN": "Opening hours need direct confirmation"
+          },
+          "text": {
+            "ES": "Las fuentes consultadas no publican horarios idénticos. El sitio oficial indica servicio de miércoles a sábado y una franja más breve el domingo, mientras portales de turismo y perfiles externos muestran otras combinaciones. Por eso sería un error seleccionar una hora sin confirmarla y colocarla como verdad absoluta en la guía. La dirección Estrada União e Indústria 13.470 y el teléfono 24 2222-3120 son referencias concordantes. Llama antes, sobre todo en feriados o temporada de vacaciones.",
+            "PT": "As fontes consultadas não mostram horários idênticos. O site oficial informa atendimento de quarta a sábado e período mais curto no domingo, enquanto diretórios apresentam outras combinações. Por isso seria erro escolher uma delas e publicar como regra absoluta. O endereço Estrada União e Indústria, 13.470 e o telefone 24 2222-3120 coincidem nas referências. Ligue antes, principalmente em feriados ou férias.",
+            "EN": "Published hours are inconsistent. The restaurant's website shows service Wednesday to Saturday and a shorter Sunday session, while tourism directories display different combinations. It would be misleading to select one timetable and publish it as a permanent fact. The address, Estrada União e Indústria 13,470, and telephone +55 24 2222-3120 are consistent across sources. Call ahead, especially on holidays."
+          }
+        },
+        {
+          "title": {
+            "ES": "Cómo llegar sin confundir las zonas",
+            "PT": "Como chegar sem confundir regiões",
+            "EN": "Getting there without confusing districts"
+          },
+          "text": {
+            "ES": "La Estrada União e Indústria es una vía extensa con numerosos comercios y restaurantes; el número 13.470 resulta indispensable. La localización en Itaipava no es una caminata breve desde el Museu Imperial, en el Centro Histórico de Petrópolis. Si viajas sin auto, revisa el transporte de ida y vuelta antes de fijar la mesa. Con lluvia o por la noche, deja margen extra y guarda el punto exacto en tu mapa. No conviene tratar todos los lugares llamados Itaipava como si quedaran uno al lado del otro.",
+            "PT": "A Estrada União e Indústria é via extensa com muitas lojas e restaurantes; o número 13.470 é indispensável. Itaipava não fica a uma caminhada curta do Museu Imperial, no Centro Histórico. Sem carro, confira transporte de ida e volta antes de marcar a mesa. Com chuva ou à noite, deixe margem e salve o ponto exato no mapa. Não trate todos os lugares chamados Itaipava como se fossem vizinhos imediatos.",
+            "EN": "Estrada União e Indústria is a long road with many shops and restaurants; street number 13,470 is essential. Itaipava is not a short walk from the Imperial Museum in central Petrópolis. Without a car, check both directions of travel before booking. Allow extra time in rain or at night and save the exact map pin. Not everything labelled Itaipava is close together."
+          }
+        },
+        {
+          "title": {
+            "ES": "Qué combinar en el mismo día",
+            "PT": "O que combinar no mesmo dia",
+            "EN": "How to plan the rest of the day"
+          },
+          "text": {
+            "ES": "El parque municipal de Itaipava y establecimientos específicos del distrito pueden combinarse con el almuerzo si organizas los traslados. El Castelo de Itaipava es otra referencia regional, pero tiene usos privados y condiciones de visita independientes. No sugiero hacer todo a pie ni encadenar actividades como si la Estrada União e Indústria fuera un paseo peatonal continuo. Mejor elegir una atracción principal, comer sin apuro y dedicar tiempo suficiente al regreso hacia tu alojamiento.",
+            "PT": "O parque municipal de Itaipava e estabelecimentos do distrito podem combinar com o almoço, desde que os deslocamentos sejam planejados. O Castelo de Itaipava também é referência regional, mas tem usos privados e regras próprias. Não proponho fazer tudo a pé nem tratar a Estrada União e Indústria como passeio de pedestres contínuo. Melhor escolher atração principal, comer com calma e reservar tempo suficiente para voltar à hospedagem.",
+            "EN": "Itaipava's municipal park and selected local venues can accompany lunch when the drives are planned. Castelo de Itaipava is another regional landmark but has private uses and separate access rules. Do not treat the entire Estrada União e Indústria as one pedestrian attraction. Choose a main stop, enjoy an unhurried meal and allow sufficient time to return to your accommodation."
+          }
+        },
+        {
+          "title": {
+            "ES": "Presupuesto sin precios caducados",
+            "PT": "Orçamento sem preços ultrapassados",
+            "EN": "Budget without outdated prices"
+          },
+          "text": {
+            "ES": "Los artículos de 2019 y años anteriores mencionan precios de algunos platos, pero no deben usarse como tarifa confirmada en noviembre de 2026. Antes de elegir pide el menú actualizado, verifica si las guarniciones están incluidas y suma entradas, bebidas y servicio. Si planeas una comida de celebración, confirma si aceptan reservas para grupos y cómo manejan atrasos. Es preferible explicar la experiencia y orientar el gasto que dar cifras antiguas que podrían frustrar a un visitante.",
+            "PT": "Matérias de 2019 e anos anteriores citam valores de alguns pratos, mas não servem como preços confirmados em novembro de 2026. Peça o cardápio atual, confira acompanhamentos e considere entradas, bebidas e serviço. Numa celebração, pergunte por reserva de grupos e tolerância a atrasos. É melhor explicar a experiência e orientar o gasto do que divulgar números antigos capazes de frustrar o visitante.",
+            "EN": "Articles from 2019 and earlier include dish prices, but they are not verified November 2026 rates. Ask for the current menu, confirm whether sides are included and include starters, drinks and service in the budget. For celebrations, check group reservations and late-arrival policies. It is more helpful to explain the experience and spending decisions than publish obsolete numbers that could disappoint visitors."
+          }
+        }
+      ]
     }
   }
 };
