@@ -16,6 +16,12 @@ export const legacyLocaleRoutes = new Map([
   ['/gastronomia/proa/', ['setLang', 'full']],
   ['/gastronomia/elena/', ['setLang', 'full']],
   ['/gastronomia/sud-passaro-verde/', ['setLang', 'full']],
+  ['/gastronomia/boa-praca-ipanema/', ['setLang', 'full']],
+  ['/gastronomia/babbo-osteria/', ['setLang', 'full']],
+  ['/gastronomia/bb-lanches/', ['setLang', 'full']],
+  ['/gastronomia/bar-madrid/', ['setLang', 'full']],
+  ['/gastronomia/classico-beach-club-urca/', ['setLang', 'full']],
+  ['/gastronomia/kilograma-centro/', ['f', 'full']],
 ]);
 
 export function hideDuplicateLegacySelector(html, route) {
@@ -35,8 +41,8 @@ export function localizeLegacyStartup(code, route) {
     // This dictionary predates the practical summary and the supplemental
     // paragraphs. Keep its original paragraph order; those additions have
     // their own translations in the practical renderer and section chunk.
-    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/'].includes(route) ? ':not(.v2-supplement p)' : '';
-    const extraParagraphs = route === '/gastronomia/elena/' ? ':not(main>section>p:nth-of-type(n+2))' : '';
+    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/', '/gastronomia/kilograma-centro/'].includes(route) ? ':not(.v2-supplement p)' : '';
+    const extraParagraphs = ['/gastronomia/elena/', '/gastronomia/bb-lanches/'].includes(route) ? ':not(main>section>p:nth-of-type(n+2))' : '';
     code = code.replace("P=[...document.querySelectorAll('p')]",
       `P=[...document.querySelectorAll('p:not(.ec-q-kicker):not(article.card:not(.facts)>p:nth-of-type(n+2))${extraSections}${extraParagraphs}')]`);
   }

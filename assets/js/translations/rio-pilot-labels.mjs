@@ -547,4 +547,308 @@ export const pilotLabels = {
         "Listing and status on Veja Rio ↗ · Instagram linked to the restaurant ↗"
       ]
     },
+  "/gastronomia/boa-praca-ipanema/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Boa Praça Ipanema": [
+      "Mapa de Boa Praça Ipanema",
+      "Map of Boa Praça Ipanema"
+    ],
+    "Brasileira": [
+      "Brasileira",
+      "Brazilian food"
+    ],
+    "Chope": [
+      "Chope",
+      "Draft beer"
+    ],
+    "Música ao vivo": [
+      "Música ao vivo",
+      "Live music"
+    ],
+    "Orla": [
+      "Orla",
+      "Waterfront"
+    ],
+    "Madrugada": [
+      "Madrugada",
+      "Late night"
+    ],
+    "Boa Praça junto a la orla": [
+      "Boa Praça à beira-mar",
+      "Boa Praça by the waterfront"
+    ],
+    "El mar y la mesa comparten escenario.": [
+      "O mar faz parte do cenário à mesa.",
+      "The sea is part of the setting."
+    ],
+    "Agenda, horarios y mesas externas dependen de la programación y del clima.": [
+      "Agenda, horários e mesas externas dependem da programação e do clima.",
+      "Events, hours and outdoor seating depend on the schedule and weather."
+    ],
+    "Ambiente del boteco": [
+      "Ambiente do boteco",
+      "Inside the boteco"
+    ],
+    "La casa tiene una energía de plaza.": [
+      "A casa tem clima de praça.",
+      "The bar has the energy of a neighborhood square."
+    ],
+    "Detalle del Boa Praça": [
+      "Detalhe do Boa Praça",
+      "A detail at Boa Praça"
+    ],
+    "La propuesta favorece encuentros largos.": [
+      "O ambiente convida a ficar mais tempo.",
+      "The setting invites you to linger."
+    ],
+    "Mesa del restaurante": [
+      "Mesa do restaurante",
+      "A table at the restaurant"
+    ],
+    "Petiscos y bebidas organizan la visita.": [
+      "Petiscos e bebidas dão o ritmo da visita.",
+      "Snacks and drinks set the pace of the visit."
+    ],
+    "En Boa Praça Ipanema, pregunta por los petiscos del día y por las porciones para compartir. Es una opción informal de boteco; la experiencia depende también del movimiento y del tipo de mesa, así que comprueba la carta y las condiciones actuales.": [
+      "No Boa Praça Ipanema, pergunte pelos petiscos do dia e pelas porções para compartilhar. É um boteco informal, e o movimento e o tipo de mesa também mudam a experiência. Confira o cardápio e as condições atuais.",
+      "At Boa Praça Ipanema, ask about the snacks of the day and portions to share. It is a casual boteco, and how busy it is and where you sit will shape the visit. Check the current menu and conditions."
+    ],
+    "Puedes integrarlo con un paseo por Ipanema y su orla, especialmente si el plan es compartir comida y conversar sin una cena demasiado formal. En horarios concurridos puede haber espera.": [
+      "Dá para encaixar a visita em um passeio por Ipanema e pela orla, especialmente para dividir petiscos e conversar em um ambiente informal. Nos horários mais movimentados pode haver espera.",
+      "You can fit this into a walk around Ipanema and its waterfront, especially if you want to share food and talk over a casual meal. There may be a wait at busy times."
+    ],
+    "Un punto de reunión en Ipanema.": [
+      "Um ponto de encontro em Ipanema.",
+      "A meeting place in Ipanema."
+    ],
+    "La ubicación define el carácter del bar.": [
+      "A localização dá personalidade ao bar.",
+      "The location gives the bar its character."
+    ]
+  },
+  "/gastronomia/babbo-osteria/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Babbo Osteria": [
+      "Mapa de Babbo Osteria",
+      "Map of Babbo Osteria"
+    ],
+    "Para Babbo Osteria elegiría una cena con tiempo, no una comida de paso. Su propuesta italiana con guiños cariocas invita a revisar la carta de temporada y pedir orientación para combinar entrada, pasta y plato principal según el apetito. Conviene reservar y comprobar condiciones vigentes —como descorche, horarios o restricciones alimentarias— antes de confirmar una mesa.": [
+      "Para a Babbo Osteria, eu reservaria tempo para jantar com calma. A cozinha italiana com toques cariocas convida a olhar o cardápio da estação e pedir ajuda para combinar entrada, massa e prato principal conforme o apetite. Antes de confirmar a mesa, verifique horário, taxa de rolha e opções para restrições alimentares.",
+      "I would make time for a leisurely dinner at Babbo Osteria. The Italian cooking has a Rio touch. Check the seasonal menu and ask how to pair a starter, pasta and main course to suit your appetite. Before confirming the table, check the hours, corkage and options for dietary restrictions."
+    ],
+    "En Ipanema puedes construir un plan de tarde y noche sin grandes desplazamientos: un paseo por el barrio seguido de una cena tranquila. Babbo encaja más como una salida gastronómica pensada que como un buffet económico. Si viajas en pareja o quieres una celebración, confirma el presupuesto y el menú actual para que la experiencia responda a tus expectativas.": [
+      "Em Ipanema, dá para planejar uma tarde e uma noite sem grandes deslocamentos: caminhe pelo bairro e termine com um jantar tranquilo. A Babbo é uma saída gastronômica planejada, com orçamento diferente de um bufê econômico. Se estiver em casal ou comemorando, confirme o orçamento e o cardápio atual.",
+      "You can plan an afternoon and evening in Ipanema without much travel: walk around the neighborhood, then have a relaxed dinner. Babbo suits a planned meal out, with a different budget from an inexpensive buffet. For a date or celebration, check the budget and current menu."
+    ],
+    "Fotografía 1 de Babbo Osteria.": [
+      "Foto 1 de Babbo Osteria.",
+      "Photo 1 of Babbo Osteria."
+    ],
+    "Fotografía 2 de Babbo Osteria.": [
+      "Foto 2 de Babbo Osteria.",
+      "Photo 2 of Babbo Osteria."
+    ],
+    "Fotografía 3 de Babbo Osteria.": [
+      "Foto 3 de Babbo Osteria.",
+      "Photo 3 of Babbo Osteria."
+    ],
+    "Fotografía 4 de Babbo Osteria.": [
+      "Foto 4 de Babbo Osteria.",
+      "Photo 4 of Babbo Osteria."
+    ],
+    "Fotografía 5 de Babbo Osteria.": [
+      "Foto 5 de Babbo Osteria.",
+      "Photo 5 of Babbo Osteria."
+    ],
+    "Fotografía 6 de Babbo Osteria.": [
+      "Foto 6 de Babbo Osteria.",
+      "Photo 6 of Babbo Osteria."
+    ]
+  },
+  "/gastronomia/bb-lanches/": {
+    "BB Lanches — fotografía editorial": [
+      "BB Lanches — foto editorial",
+      "BB Lanches — editorial photo"
+    ],
+    "BB Lanches — detalle de la experiencia.": [
+      "BB Lanches — um detalhe da visita.",
+      "BB Lanches — a detail from the visit."
+    ],
+    "BB Lanches representa las tradicionales casas de jugos y sándwiches de Leblon. Recomiendo preguntar por frutas y lanches disponibles en el local, ya que el menú presencial puede diferir del delivery.": [
+      "O BB Lanches faz parte da tradição das casas de sucos e sanduíches do Leblon. Pergunte quais frutas e lanches estão disponíveis no local, pois o cardápio do salão pode ser diferente do delivery.",
+      "BB Lanches is part of Leblon’s tradition of juice and sandwich shops. Ask what fruit and snacks are available in person, as the menu may differ from the delivery menu."
+    ],
+    "Una parada de lanche o vitamina funciona muy bien dentro de un paseo por Leblon o después de la playa. Es una comida informal, no una cena larga; revisa los horarios de atención presencial.": [
+      "Uma parada para um lanche ou uma vitamina combina com um passeio pelo Leblon ou com a volta da praia. É uma refeição informal e rápida. Confira o horário de atendimento presencial.",
+      "A snack or fruit-and-milk smoothie fits a walk around Leblon or a trip back from the beach. It is a casual, quick meal. Check the hours for in-person service."
+    ],
+    "BB Lanches — fotografía 1": [
+      "BB Lanches — foto 1",
+      "BB Lanches — photo 1"
+    ],
+    "BB Lanches — fotografía 2": [
+      "BB Lanches — foto 2",
+      "BB Lanches — photo 2"
+    ],
+    "BB Lanches — fotografía 3": [
+      "BB Lanches — foto 3",
+      "BB Lanches — photo 3"
+    ],
+    "BB Lanches — fotografía 4": [
+      "BB Lanches — foto 4",
+      "BB Lanches — photo 4"
+    ],
+    "BB Lanches — fotografía 5": [
+      "BB Lanches — foto 5",
+      "BB Lanches — photo 5"
+    ]
+  },
+  "/gastronomia/bar-madrid/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Bar Madrid": [
+      "Mapa de Bar Madrid",
+      "Map of Bar Madrid"
+    ],
+    "Este es el Bar Madrid de Tijuca, una taberna carioca con influencias españolas. Conviene explorar las tapas y los platos disponibles ese día, sin trasladar precios antiguos ni confundirlo con bares homónimos de España.": [
+      "Este é o Bar Madrid da Tijuca, uma taberna carioca com influências espanholas. Explore as tapas e os pratos disponíveis no dia. Preços antigos e bares com o mesmo nome na Espanha são outras referências.",
+      "This is Bar Madrid in Tijuca, a Rio tavern with Spanish influences. Explore the tapas and dishes available that day. Older prices and bars of the same name in Spain belong to different listings."
+    ],
+    "Al desplazarte desde la Zona Sul, confirma la dirección y el horario. Yo organizaría una visita con tiempo para compartir diferentes platos y preguntar el tamaño de las porciones antes de encargar varios.": [
+      "Se vier da Zona Sul, confira o endereço e o horário. Eu reservaria tempo para dividir pratos diferentes e perguntaria o tamanho das porções antes de pedir várias.",
+      "If you are coming from the South Zone, check the address and hours. I would allow time to share several dishes and ask about portion sizes before ordering a few."
+    ],
+    "Fotografía 1 de Bar Madrid.": [
+      "Foto 1 de Bar Madrid.",
+      "Photo 1 of Bar Madrid."
+    ],
+    "Fotografía 2 de Bar Madrid.": [
+      "Foto 2 de Bar Madrid.",
+      "Photo 2 of Bar Madrid."
+    ],
+    "Fotografía 3 de Bar Madrid.": [
+      "Foto 3 de Bar Madrid.",
+      "Photo 3 of Bar Madrid."
+    ],
+    "Fotografía 4 de Bar Madrid.": [
+      "Foto 4 de Bar Madrid.",
+      "Photo 4 of Bar Madrid."
+    ],
+    "Fotografía 5 de Bar Madrid.": [
+      "Foto 5 de Bar Madrid.",
+      "Photo 5 of Bar Madrid."
+    ]
+  },
+  "/gastronomia/classico-beach-club-urca/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Clássico Beach Club Urca": [
+      "Mapa de Clássico Beach Club Urca",
+      "Map of Clássico Beach Club Urca"
+    ],
+    "La carta, los horarios y la disponibilidad pueden cambiar; conviene confirmar antes de ir.": [
+      "Cardápio, horários e disponibilidade podem mudar. Confira antes de ir.",
+      "The menu, hours and availability may change. Check before going."
+    ],
+    "En Clássico Beach Club Urca, una parte importante de la experiencia es la vista. Si buscas atardecer, confirma la mesa y si hay exposición al sol o al viento; la ubicación puede cambiar la comodidad durante la visita.": [
+      "No Clássico Beach Club Urca, a vista faz parte da experiência. Para ver o pôr do sol, confirme a mesa e pergunte sobre a exposição ao sol ou ao vento, pois a posição pode mudar o conforto durante a visita.",
+      "At Clássico Beach Club Urca, the view is part of the experience. If you are coming for sunset, confirm the table and ask how exposed it is to sun or wind, as that can affect your comfort."
+    ],
+    "Puedes combinar la salida con un paseo por Urca, dejando tiempo para disfrutar del paisaje. Antes de ir revisa horarios, condiciones de reserva y la posibilidad de cambios por el clima.": [
+      "Combine a saída com um passeio pela Urca e deixe tempo para apreciar a paisagem. Antes de ir, confira horários, condições de reserva e eventuais mudanças por causa do clima.",
+      "Pair the outing with a walk around Urca and leave time to take in the scenery. Before setting out, check hours, booking terms and possible weather-related changes."
+    ],
+    "Imagen 1 de Clássico Beach Club Urca.": [
+      "Foto 1 de Clássico Beach Club Urca.",
+      "Photo 1 of Clássico Beach Club Urca."
+    ],
+    "Imagen 2 de Clássico Beach Club Urca.": [
+      "Foto 2 de Clássico Beach Club Urca.",
+      "Photo 2 of Clássico Beach Club Urca."
+    ],
+    "Imagen 3 de Clássico Beach Club Urca.": [
+      "Foto 3 de Clássico Beach Club Urca.",
+      "Photo 3 of Clássico Beach Club Urca."
+    ],
+    "Imagen 4 de Clássico Beach Club Urca.": [
+      "Foto 4 de Clássico Beach Club Urca.",
+      "Photo 4 of Clássico Beach Club Urca."
+    ],
+    "Imagen 5 de Clássico Beach Club Urca.": [
+      "Foto 5 de Clássico Beach Club Urca.",
+      "Photo 5 of Clássico Beach Club Urca."
+    ]
+  },
+  "/gastronomia/kilograma-centro/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Kilograma Centro": [
+      "Mapa de Kilograma Centro",
+      "Map of Kilograma Centro"
+    ],
+    "Imagen de Kilograma Centro.": [
+      "Imagem do Kilograma Centro.",
+      "Photo of Kilograma Centro."
+    ],
+    "En Kilograma Centro, revisa si el almuerzo se cobra por kilo o bajo otra modalidad y observa la variedad disponible antes de servirte. En un buffet por peso conviene comenzar con una porción moderada para elegir mejor y controlar el coste.": [
+      "No Kilograma Centro, pergunte se o almoço é cobrado por quilo ou em outra modalidade e veja a variedade antes de se servir. Num bufê por peso, comece com uma porção moderada para escolher melhor e controlar o gasto.",
+      "At Kilograma Centro, ask whether lunch is charged by weight or another way and look at the selection before serving yourself. At a pay-by-weight buffet, start with a moderate portion so you can choose well and keep the cost down."
+    ],
+    "Es una parada práctica para una jornada de trámites o paseos por el Centro. Comprueba el horario, especialmente en fines de semana y feriados, cuando los restaurantes de la zona pueden atender de forma distinta.": [
+      "É uma parada prática durante um dia de compromissos ou passeios pelo Centro. Confira o horário, especialmente nos fins de semana e feriados, quando o atendimento na região pode mudar.",
+      "It makes a practical stop during a day of errands or sightseeing downtown. Check hours, particularly on weekends and public holidays, when restaurants in the area may operate differently."
+    ],
+    "La referencia a Rua do Riachuelo y al buffet por kilo procede de una ficha editorial previa; la ubicación actual no está verificada.": [
+      "A referência à Rua do Riachuelo e ao bufê por quilo vem de uma ficha editorial anterior. A localização atual ainda precisa ser confirmada.",
+      "The reference to Rua do Riachuelo and the pay-by-weight buffet comes from an older guide entry. The current location still needs confirmation."
+    ],
+    "CENTRO · REGISTRO ANTERIOR · CONFIRMAR": [
+      "CENTRO · REGISTRO ANTERIOR · CONFIRMAR",
+      "DOWNTOWN · OLDER LISTING · VERIFY"
+    ],
+    "Buscar el establecimiento en Google Maps ↗": [
+      "Buscar o estabelecimento no Google Maps ↗",
+      "Find the restaurant on Google Maps ↗"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Kilograma Centro — imagen 1": [
+      "Kilograma Centro — foto 1",
+      "Kilograma Centro — photo 1"
+    ],
+    "Kilograma Centro — imagen 2": [
+      "Kilograma Centro — foto 2",
+      "Kilograma Centro — photo 2"
+    ],
+    "Kilograma Centro — imagen 3": [
+      "Kilograma Centro — foto 3",
+      "Kilograma Centro — photo 3"
+    ],
+    "Kilograma Centro — imagen 4": [
+      "Kilograma Centro — foto 4",
+      "Kilograma Centro — photo 4"
+    ],
+    "Kilograma Centro — imagen 5": [
+      "Kilograma Centro — foto 5",
+      "Kilograma Centro — photo 5"
+    ]
+  },
 };
