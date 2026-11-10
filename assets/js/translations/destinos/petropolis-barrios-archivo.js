@@ -239,6 +239,18 @@ export const petropolisBarrioArchive = {
           "PT": "Bonfim combina uma comunidade rural com a entrada petropolitana do Parque Nacional da Serra dos Órgãos, criado em 1939. A história da conservação deve ser contada junto com a das famílias agricultoras que já viviam e trabalhavam ali. O próprio ICMBio registra um processo prolongado de ajustes dos limites da unidade na região. Na visita, diferencie comunidade, propriedades privadas e área protegida: a estrada até a portaria não torna todas as terras atrações turísticas. Trilhas, poços e cachoeiras exigem consulta às condições de acesso e de tempo.",
           "EN": "Bonfim combines a rural community with the Petrópolis entrance to Serra dos Órgãos National Park, created in 1939. Conservation history belongs alongside the story of farming families already living and working in the valley. ICMBio documents a long process of adjusting protected-area boundaries in this region. Distinguish the community, private property and park land: a road towards the park gate does not make every farm a visitor attraction. Trails, pools and waterfalls require checking access rules and weather."
         }
+      },
+      {
+        "title": {
+          "ES": "La conservación también tiene historia",
+          "PT": "A conservação também tem história",
+          "EN": "Conservation has a history too"
+        },
+        "body": {
+          "ES": "El Parque Nacional da Serra dos Órgãos fue creado el 30 de noviembre de 1939, cuando Brasil comenzaba a consolidar sus primeros parques nacionales. La región del Bonfim permite comprender tanto el valor de conservar bosques y nacientes como los desafíos de conciliar protección ambiental y presencia de comunidades rurales. El ICMBio documenta cambios posteriores en los límites del parque y en las condiciones de visita. Para una salida responsable, consulta la portería oficial, el estado de los senderos y la previsión de lluvia; un paseo por la parte baja no equivale a la exigente travesía Petrópolis–Teresópolis.",
+          "PT": "O Parque Nacional da Serra dos Órgãos foi criado em 30 de novembro de 1939, quando o Brasil consolidava seus primeiros parques nacionais. O Bonfim ajuda a compreender tanto o valor de conservar matas e nascentes quanto os desafios de conciliar proteção ambiental e comunidades rurais. O ICMBio documenta alterações posteriores de limites e nas condições de visitação. Para um passeio responsável, confira a portaria oficial, o estado das trilhas e a previsão de chuva; um circuito na parte baixa não equivale à exigente travessia Petrópolis–Teresópolis.",
+          "EN": "Serra dos Órgãos National Park was created on 30 November 1939 as Brazil established its first national parks. Bonfim illustrates both the importance of protecting forests and headwaters and the challenge of balancing conservation with long-established rural communities. ICMBio documents later changes to park boundaries and visitor arrangements. For a responsible visit, check official park access, trail conditions and rainfall forecasts. An easy lower-park walk is not comparable to the demanding Petrópolis–Teresópolis mountain traverse."
+        }
       }
     ],
     "sources": [
@@ -253,6 +265,10 @@ export const petropolisBarrioArchive = {
       [
         "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos/quem-somos/historia",
         "ICMBio · História do PARNASO"
+      ],
+      [
+        "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos/guia-do-visitante/guia-do-visitante-1/o-que-fazer/roteiros/sede-petropolis/sede-petropolis",
+        "ICMBio · Sede Petrópolis, roteiros e trilhas"
       ]
     ]
   },
