@@ -441,7 +441,7 @@ export function petropolisGuide(city, slug, lang) {
     .petr-guide-index .petr-guide-quick strong{font:400 clamp(22px,2.8vw,32px)/1.2 Georgia,serif;color:#153e36}
     .petr-guide-index .petr-guide-quick>div:first-child>span{font:400 15px/1.6 Arial,sans-serif;color:#50665e}
     .petr-guide-index .petr-guide-shortcuts{display:flex;flex-wrap:wrap;gap:9px}
-    .petr-guide-index .petr-guide-shortcuts a{display:inline-flex;align-items:center;gap:8px;padding:12px 15px;
+    .petr-guide-index .petr-guide-shortcuts a{display:inline-flex;align-items:center;gap:8px;padding:12px 15px;min-height:44px;box-sizing:border-box;
       background:#0d5144;color:white;border-radius:999px;text-decoration:none;font:700 13px Arial,sans-serif}
     .petr-guide-index .petr-guide-shortcuts a:hover,.petr-guide-index .petr-guide-shortcuts a:focus-visible{
       background:#0a7362;outline:2px solid #d7a43b;outline-offset:2px}
