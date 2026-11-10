@@ -1729,6 +1729,198 @@ export const petrDeepDining = {
           }
         }
       ]
+    },
+    "restaurante-nas-videiras": {
+      "name": "Restaurante Nas Videiras",
+      "area": "Vale das Videiras",
+      "address": "Estrada Almirante Paulo Meira, 8400",
+      "category": "italian",
+      "summary": {
+        "ES": "Restaurante de cocina italiana y brasileña en el Armazém das Videiras, con pizzas, pastas, platos a la carta y vinos.",
+        "PT": "Restaurante de cozinha italiana e brasileira no Armazém das Videiras, com pizzas, massas, pratos à la carte e vinhos.",
+        "EN": "Italian and Brazilian restaurant in Armazém das Videiras, offering pizza, pasta, à-la-carte dishes and wine."
+      },
+      "experience": {
+        "ES": "Empezaría por una pizza para apreciar la masa y consultaría las pastas y sugerencias de temporada.",
+        "PT": "Eu começaria por uma pizza para conhecer a massa e perguntaria pelas massas e sugestões sazonais.",
+        "EN": "I would start with a pizza to appreciate the crust, then ask about pasta and seasonal specials."
+      },
+      "advice": {
+        "ES": "Confirma los horarios directamente: los directorios difieren. El valle requiere transporte por carretera y regreso organizado.",
+        "PT": "Confirme o horário diretamente: diretórios divergem. O vale exige deslocamento rodoviário e volta planejada.",
+        "EN": "Confirm hours directly because listings disagree. The valley requires road transport and a planned return."
+      },
+      "reservation": {
+        "ES": "Reservas y horario: (24) 2225-8162. Comprueba el servicio específico para tu fecha.",
+        "PT": "Reservas e horários: (24) 2225-8162. Confira o serviço na data desejada.",
+        "EN": "Reservations and hours: +55 24 2225-8162. Verify the sitting on your chosen date."
+      },
+      "source": "https://descubrapetropolis.com.br/restaurante-nas-videiras/",
+      "nearby": "/destinos/petropolis/barrios/araras-vale-das-videiras/",
+      "sources": [
+        {
+          "label": "Descubra Petrópolis · Restaurante Nas Videiras",
+          "url": "https://descubrapetropolis.com.br/restaurante-nas-videiras/"
+        },
+        {
+          "label": "Tripadvisor · Dirección, menú y datos del restaurante",
+          "url": "https://www.tripadvisor.com.br/Restaurant_Review-g303504-d6864422-Reviews-Restaurante_Nas_Videiras_Ltda-Petropolis_State_of_Rio_de_Janeiro.html"
+        },
+        {
+          "label": "Casa dos Dados · Registro empresarial desde 2013",
+          "url": "https://casadosdados.com.br/solucao/cnpj/restaurante-nas-videiras-ltda-19366331000178"
+        },
+        {
+          "label": "VEJA RIO · Reseña histórica del restaurante",
+          "url": "https://vejario.abril.com.br/estabelecimento/nas-videiras/"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "Un restaurante dentro del Armazém das Videiras",
+            "PT": "Um restaurante dentro do Armazém das Videiras",
+            "EN": "A restaurant inside Armazém das Videiras"
+          },
+          "text": {
+            "ES": "Nas Videiras está en Estrada Almirante Paulo Meira 8400, en el núcleo de Vale das Videiras, dentro del conjunto comercial Armazém das Videiras. No está en el Centro Histórico de Petrópolis ni a pocos pasos de Itaipava. El restaurante ofrece cocina italiana y brasileña, con pizzas, pastas, carnes, pescados y una carta de vinos. El ambiente combina un salón de madera, vidrio y hierro con un paisaje rural que invita a reservar tiempo para comer, sin prisa por regresar a la ciudad.",
+            "PT": "O Nas Videiras fica na Estrada Almirante Paulo Meira, 8400, no núcleo do Vale das Videiras, dentro do Armazém das Videiras. Não está no Centro Histórico de Petrópolis nem a poucos passos de Itaipava. A casa oferece cozinha italiana e brasileira, com pizzas, massas, carnes, peixes e vinhos. O salão mistura madeira, vidro e ferro com ambiente rural que convida a dedicar tempo à refeição, sem correr para voltar à cidade.",
+            "EN": "Nas Videiras is at Estrada Almirante Paulo Meira 8400, in Vale das Videiras village, within the Armazém das Videiras complex. It is not in historic central Petrópolis or a short stroll from Itaipava. The restaurant offers Italian and Brazilian cooking, including pizza, pasta, meat, fish and wine. A dining room combining timber, glass and metal sits within a rural setting that encourages an unhurried visit rather than a quick stop."
+          }
+        },
+        {
+          "title": {
+            "ES": "Una empresa registrada desde 2013",
+            "PT": "Uma empresa registrada desde 2013",
+            "EN": "A business registered since 2013"
+          },
+          "text": {
+            "ES": "Los registros de empresas indican que Restaurante Nas Videiras fue constituido el 4 de diciembre de 2013. Esa fecha documenta una parte de su trayectoria comercial, aunque no demuestra por sí sola cuándo se sirvió la primera comida. La guía debe distinguir registro societario, apertura al público y cambios de chefs. Algunas críticas de años anteriores citan al cocinero italiano Nicola Giorgio; no afirmaremos que siga al mando sin una fuente reciente que lo confirme.",
+            "PT": "Registros empresariais informam que o Restaurante Nas Videiras foi constituído em 4 de dezembro de 2013. A data documenta parte da trajetória comercial, mas não prova sozinha o dia da primeira refeição servida. É importante distinguir registro da empresa, abertura ao público e mudanças de chefes. Críticas antigas citam o italiano Nicola Giorgio; não afirmaremos que ele continua comandando a cozinha sem confirmação recente.",
+            "EN": "Corporate records date Restaurante Nas Videiras to 4 December 2013. That documents part of its business history, but does not establish the exact first day it served food. A responsible guide distinguishes company registration, public opening and changes in chefs. Older reviews name Italian chef Nicola Giorgio; they should not be read as proof that he still leads the kitchen without newer confirmation."
+          }
+        },
+        {
+          "title": {
+            "ES": "Pizza como primera elección",
+            "PT": "Pizza como primeira escolha",
+            "EN": "Pizza as a first choice"
+          },
+          "text": {
+            "ES": "Las pizzas están entre los productos más elogiados por los visitantes. Hay referencias a margherita con mozzarella de búfala, combinaciones con jamón de Parma y opciones especiales de queso y vegetales. Algunas cartas antiguas incluyen pizzas preparadas con harina italiana tipo 00, pero los ingredientes y las recetas pueden variar. Si quieres apreciar la masa, pide una pizza de ingredientes sencillos antes de probar una versión con varias coberturas y consulta el tamaño para compartir.",
+            "PT": "As pizzas estão entre os itens mais elogiados pelos visitantes. Há relatos de margherita com muçarela de búfala, combinações com presunto de Parma e sabores especiais de queijos e vegetais. Cartas antigas mencionam farinha italiana tipo 00, mas ingredientes e receitas podem mudar. Para apreciar a massa, escolha uma pizza de cobertura simples antes de experimentar outra mais elaborada e confira o tamanho para dividir.",
+            "EN": "Pizza is among the most consistently praised choices. Visitors mention buffalo-mozzarella margherita, Parma-ham combinations and specials featuring cheese and vegetables. Older menus refer to Italian type-00 flour, but recipes and ingredients can change. To appreciate the crust, consider a simpler pizza before one with many toppings, and ask about portion size and whether it is intended for sharing."
+          }
+        },
+        {
+          "title": {
+            "ES": "Entradas para compartir sin exagerar",
+            "PT": "Entradas para dividir sem exagero",
+            "EN": "Starters for sharing without over-ordering"
+          },
+          "text": {
+            "ES": "El menú publicado en plataformas gastronómicas contiene ejemplos de focaccia, pizza bianca con cremas vegetales, antipastos italianos y steak tartare. Estas referencias ayudan a explicar el estilo, pero no deben anunciarse como disponibilidad garantizada. Antes de pedir varias entradas, consulta el tamaño de las porciones y qué viene incluido. Para dos personas que luego compartirán pizza o pasta, una entrada puede ser suficiente; una tabla de fiambres puede resultar demasiado abundante.",
+            "PT": "O cardápio publicado em plataformas gastronômicas inclui exemplos de focaccia, pizza bianca com pastas vegetais, antepastos italianos e steak tartare. São referências ao estilo, não promessas de estoque permanente. Antes de pedir várias entradas, confira tamanho e acompanhamentos. Para duas pessoas que depois vão dividir pizza ou massa, uma entrada pode bastar; tábua de frios talvez seja grande demais.",
+            "EN": "Menus posted on dining platforms include focaccia, pizza bianca with vegetable spreads, Italian antipasti and steak tartare. They illustrate the culinary style but cannot guarantee current availability. Before choosing several starters, check portion sizes and what is included. For two people planning to share pizza or pasta later, one starter may be enough; a full cured-meat platter may be excessive."
+          }
+        },
+        {
+          "title": {
+            "ES": "Pastas, polenta y recetas del frío serrano",
+            "PT": "Massas, polenta e receitas do frio serrano",
+            "EN": "Pasta, polenta and mountain-weather comfort food"
+          },
+          "text": {
+            "ES": "Además de las pizzas, las reseñas mencionan polenta cremosa con gorgonzola y hongos, ravioles, ñoquis y platos con risotto. Son comidas apropiadas para el ambiente más fresco del valle, aunque no hay que suponer que siempre figuren en el menú. Una pasta rellena puede ser más rica e intensa que una opción de tomate y albahaca; pregunta por las salsas del día y por las porciones. Si viajas con niños o con personas que comen poco, consulta la posibilidad de compartir.",
+            "PT": "Além das pizzas, resenhas mencionam polenta cremosa com gorgonzola e cogumelos, raviólis, nhoques e risotos. São pratos que combinam com o clima ameno do vale, sem significar presença permanente no cardápio. Massa recheada pode ser mais intensa que uma opção de tomate e manjericão; pergunte pelos molhos e tamanhos. Com crianças ou pessoas de menor apetite, consulte se os pratos podem ser divididos.",
+            "EN": "Beyond pizza, reviews mention creamy polenta with gorgonzola and mushrooms, ravioli, gnocchi and risotto dishes. They suit the cooler mountain setting, but should not be assumed to appear on every menu. Stuffed pasta may be richer than a simple tomato-and-basil option, so ask about current sauces and serving sizes. With children or smaller appetites, check whether sharing is suitable."
+          }
+        },
+        {
+          "title": {
+            "ES": "Carnes y pescados en la misma carta",
+            "PT": "Carnes e peixes no mesmo cardápio",
+            "EN": "Meat and fish beyond the pizza oven"
+          },
+          "text": {
+            "ES": "Las descripciones de la casa incluyen carnes, pescados y platos con ingredientes brasileños. Críticas antiguas citan turnedó con hierbas, ajo negro y risotto, además de ravioles de pato; reseñas más recientes mencionan carnes con queso y papas. La variedad importa si el grupo no quiere comer solamente pizza. Sin embargo, las recetas citadas reflejan diferentes épocas. El mejor consejo es preguntar qué preparaciones salen de la cocina hoy, y no perseguir un plato que apareció en una nota de hace años.",
+            "PT": "As descrições da casa incluem carnes, peixes e pratos com ingredientes brasileiros. Críticas antigas citam tournedos com ervas e alho negro, além de ravióli de pato; relatos mais recentes mencionam carnes com queijos e batatas. A variedade ajuda grupos que não querem apenas pizza. Mas os exemplos são de épocas diferentes. Melhor perguntar o que a cozinha prepara hoje, sem transformar prato de reportagem antiga em promessa atual.",
+            "EN": "The restaurant's descriptions include meat, fish and dishes with Brazilian ingredients. Older reviews mentioned herb-and-black-garlic beef and duck ravioli, while more recent diners describe meats with cheese and potatoes. Variety matters for groups who do not all want pizza. Yet these dishes come from different periods: ask what the kitchen is making today rather than expecting an old article's recipe to remain available."
+          }
+        },
+        {
+          "title": {
+            "ES": "La selección de vinos y cervezas",
+            "PT": "A seleção de vinhos e cervejas",
+            "EN": "Wine and beer choices"
+          },
+          "text": {
+            "ES": "El restaurante trabaja con vinos y cervezas, incluidas referencias a productores de la región. Una comida italiana puede acompañarse con tinto, blanco o una bebida sin alcohol, dependiendo de salsa y relleno. Pide la carta vigente, comprueba precios por copa o botella y pregunta por opciones de origen local si eso te interesa. Si vas a conducir por las carreteras del valle, lo más prudente es no beber alcohol; la experiencia gastronómica funciona perfectamente sin armonización alcohólica.",
+            "PT": "O restaurante trabalha com vinhos e cervejas, inclusive menções a produtores regionais. Uma refeição italiana combina com tinto, branco ou bebida sem álcool, conforme o molho e o recheio. Consulte carta atual, preços de taças e garrafas e pergunte por opções locais. Se vai dirigir nas estradas do vale, o mais prudente é não beber álcool; a experiência gastronômica pode ser completa sem harmonização alcoólica.",
+            "EN": "The restaurant serves wine and beer, with references to regional producers. Italian food can pair with red or white wine or a nonalcoholic drink depending on the sauce and filling. Ask for the current list, prices by glass or bottle and any local choices. If driving on the valley's rural roads, avoiding alcohol is the safer plan; a good meal does not require an alcoholic pairing."
+          }
+        },
+        {
+          "title": {
+            "ES": "El Armazém, la galería y las tiendas vecinas",
+            "PT": "O Armazém, a galeria e as lojas vizinhas",
+            "EN": "The surrounding Armazém, gallery and shops"
+          },
+          "text": {
+            "ES": "Nas Videiras ocupa un conjunto donde también se citan la Galeria A2 + Mul.ti.plo y una tienda de decoración llamada Berrante. Esta convivencia permite organizar una parada que incluya cultura y comercio local sin convertir el valle en un centro comercial de ciudad. Cada galería o tienda puede tener horario propio, así que comprueba qué estará abierto. Tampoco debe suponerse que el restaurante administra esos negocios o que todos los espacios forman parte de una misma reserva.",
+            "PT": "O Nas Videiras fica em conjunto que também é associado à Galeria A2 + Mul.ti.plo e à loja de decoração Berrante. A proximidade permite combinar gastronomia, arte e comércio local sem transformar o vale em shopping urbano. Galerias e lojas podem ter horários próprios; confira o que estará aberto. Não se deve supor que o restaurante administre os demais negócios ou que uma reserva inclua acesso a todas as atividades.",
+            "EN": "Nas Videiras is within a small complex also associated with Galeria A2 + Mul.ti.plo and the Berrante decoration shop. This makes it possible to combine a meal with art and local shopping without treating the rural valley like an urban mall. Galleries and stores may keep separate hours, so verify what is open. Restaurant bookings do not automatically cover other businesses in the complex."
+          }
+        },
+        {
+          "title": {
+            "ES": "Las distancias reales del Vale das Videiras",
+            "PT": "As distâncias reais do Vale das Videiras",
+            "EN": "The true distances in Vale das Videiras"
+          },
+          "text": {
+            "ES": "Las plataformas identifican el restaurante en el número 8400 de Estrada Almirante Paulo Meira. El valle está lejos de los circuitos peatonales del Museu Imperial y del Palácio de Cristal. Para llegar desde el Centro Histórico, Itaipava o Río, guarda la dirección exacta y consulta el trayecto por carretera con margen para curvas y clima. Algunos directorios antiguos calculan aproximadamente 35 kilómetros desde Petrópolis, pero la distancia y el tiempo dependen del punto de salida y de la ruta elegida.",
+            "PT": "As plataformas situam a casa no número 8400 da Estrada Almirante Paulo Meira. O vale fica longe das caminhadas do Museu Imperial e do Palácio de Cristal. Saindo do Centro Histórico, Itaipava ou Rio, salve o endereço e confira o trajeto rodoviário, deixando margem para curvas e clima. Diretórios antigos falam em cerca de 35 quilômetros de Petrópolis, mas distância e tempo variam conforme origem e estrada escolhida.",
+            "EN": "Listings locate the restaurant at number 8400 on Estrada Almirante Paulo Meira. The valley is far from the walking routes around the Imperial Museum and Crystal Palace. From central Petrópolis, Itaipava or Rio, save the exact address and plan the road journey, allowing for mountain bends and weather. Older directories mention roughly 35 kilometres from Petrópolis, but actual distance and time depend on where you start and which roads you use."
+          }
+        },
+        {
+          "title": {
+            "ES": "Horarios publicados diferentes: confirma la visita",
+            "PT": "Horários divergentes: confirme a visita",
+            "EN": "Published hours differ: confirm your visit"
+          },
+          "text": {
+            "ES": "Las fichas disponibles no muestran un horario completamente uniforme. Algunas indican cierre de lunes a miércoles y apertura a partir del jueves por la noche; otras listan un servicio de lunes o un jueves más amplio. No sería responsable escoger una versión sin aclararlo. Antes de viajar, llama al (24) 2225-8162, pregunta si habrá almuerzo o cena en tu fecha y consulta la reserva. En fines de semana largos, confirma también el horario de la cocina, que puede ser distinto de la apertura del salón.",
+            "PT": "As listagens não mostram horário uniforme. Algumas indicam fechamento de segunda a quarta e reabertura quinta à noite; outras incluem segunda ou um horário maior na quinta. Não seria responsável escolher uma versão sem ressalva. Antes de sair, ligue para (24) 2225-8162, pergunte sobre almoço ou jantar na data e faça a reserva. Em feriados prolongados, confira também o horário de pedidos da cozinha, que pode diferir da abertura do salão.",
+            "EN": "Published schedules are inconsistent. Some listings show closure Monday through Wednesday and reopening Thursday evening, while others include Monday service or longer Thursday hours. It would be irresponsible to select one without qualification. Before travelling, call +55 24 2225-8162, ask about lunch or dinner on your date and reserve. On holiday weekends, also verify the kitchen's order-taking hours, which can differ from the dining room's opening period."
+          }
+        },
+        {
+          "title": {
+            "ES": "Cuenta, estacionamiento y mesa adecuada",
+            "PT": "Conta, estacionamento e mesa adequada",
+            "EN": "Spending, parking and suitable seating"
+          },
+          "text": {
+            "ES": "Las reseñas actuales incluyen opiniones positivas sobre la comida y el servicio, pero también señalan que no es necesariamente una opción económica. Prefiero orientar al turista a consultar entradas, platos, bebidas y servicio antes de pedir. El estacionamiento se describe como disponible en la calle y algunas fuentes mencionan accesibilidad, aunque eso no sustituye una confirmación de entradas y baños para quien necesita silla de ruedas. Si quieres comer al aire libre o llevas un bebé, pregunta por mesa y silla adecuadas.",
+            "PT": "Avaliações recentes elogiam comida e atendimento, mas também observam que não é necessariamente uma refeição barata. É melhor conferir entradas, pratos, bebidas e serviço antes do pedido. As fontes mencionam estacionamento na rua e algumas indicam acessibilidade, mas isso não substitui confirmação sobre entrada e banheiro para cadeirantes. Para mesas externas ou bebês, pergunte por espaço e cadeira apropriados.",
+            "EN": "Recent reviews praise the food and service but also note that this is not necessarily a budget meal. Check starters, mains, drinks and service charges before ordering. Listings mention street parking and some accessibility provisions, but wheelchair users should confirm the actual entrance and bathroom arrangements. If seeking outdoor seating or bringing a baby, ask about a suitable table and high chair."
+          }
+        },
+        {
+          "title": {
+            "ES": "Alergias y mi consejo para disfrutar el valle",
+            "PT": "Alergias e minha dica para aproveitar o vale",
+            "EN": "Allergies and a practical valley recommendation"
+          },
+          "text": {
+            "ES": "Una carta de pizza, focaccia, quesos, pasta y salsas puede contener trigo, leche, huevo, frutos secos, pescado o ingredientes de cerdo. Si hay alergias, avisa cuando reserves y consulta qué adapta la cocina; el hecho de que haya opciones vegetarianas no demuestra que sea un establecimiento libre de contaminación cruzada. Mi consejo es dejar tiempo para conocer el Armazém y el paisaje, planificar el regreso antes de sentarte y tratar la comida como parte de un día en Vale das Videiras, no como una parada improvisada desde el Centro.",
+            "PT": "Cardápio com pizzas, focaccia, queijos, massas e molhos pode conter trigo, leite, ovo, castanhas, peixe ou ingredientes suínos. Com alergia, avise na reserva e pergunte quais adaptações são possíveis; opções vegetarianas não significam cozinha livre de contaminação cruzada. Minha dica é reservar tempo para o Armazém e a paisagem, combinar a volta antes de sentar e tratar a refeição como parte de um dia no Vale das Videiras, não parada improvisada do Centro.",
+            "EN": "A menu featuring pizza, focaccia, cheeses, pasta and sauces may include wheat, dairy, eggs, nuts, fish or pork-derived ingredients. If allergic, mention requirements when booking and ask what the kitchen can adapt; vegetarian choices do not establish an allergen-free facility. My recommendation is to allow time for the Armazém and valley scenery, arrange transport home before dining and treat the meal as part of a full Vale das Videiras outing rather than an improvised detour from town."
+          }
+        }
+      ]
     }
   }
 };
