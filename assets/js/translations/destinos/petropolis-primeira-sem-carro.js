@@ -7,6 +7,8 @@ const transit=['https://www.petropolis.rj.leg.br/institucional/noticias/projeto-
 const coach=['https://unica-facil.com.br/pontos-de-venda/','Única/Fácil · puntos de venta y consulta'];
 const tourism=['https://www.turismo.rj.gov.br/cidades/petropolis/','Turismo RJ · Petrópolis'];
 const park=['https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos/guia-do-visitante/guia-do-visitante-1','ICMBio · Parque Nacional da Serra dos Órgãos'];
+const fareReference=['https://otimizapro.com/tarifa/rj/petropolis','Tarifaoteca · tarifa municipal comprobada en octubre de 2026'];
+const fareProposal=['https://semove.org.br/noticias/setranspetro-calcula-tarifa-de-r-705-para-os-onibus-de-petropolis/','Setranspetro · R$7,05 era propuesta, no tarifa aprobada'];
 
 export const withoutCarGuide={
   title:t('Petrópolis sin auto: autobuses, a pie y aplicaciones','Petrópolis sem carro: ônibus, a pé e aplicativos','Petrópolis without a car: buses, walking and ride apps'),
@@ -60,10 +62,10 @@ export const withoutCarGuide={
         'Ride apps help with Bingen transfers or steep streets, but prices and available drivers vary by time, rain, demand and district. Check the fare and licence plate before boarding, and wait in a safe area. For valleys or night returns, a booked pickup is often more dependable than hoping a driver appears.'),
       {route:'transportes/uber/'}),
     part('tarifas',t('8. Tarifas, pagos y horarios que debes revisar','8. Tarifa, pagamento e horários para conferir','8. Fares, payment and timetables to verify'),
-      t('No confundas el precio del ómnibus intermunicipal desde Río con la tarifa municipal. Antes de salir verifica tarifa actual, si aceptan efectivo, tarjeta o medio digital, y horarios distintos de días hábiles, sábados y domingos. Los datos de las líneas cambian; la frecuencia del 700 no garantiza conexión inmediata con la 605. Guarda también las capturas de la última salida, porque la cobertura móvil puede fallar.',
-        'Não confunda passagem intermunicipal do Rio com tarifa municipal. Confira valor atual, pagamento em dinheiro/cartão/meio digital e quadros de dias úteis, sábados e domingos. Os horários mudam; frequência da 700 não garante integração imediata com a 605. Salve o último horário, pois pode faltar sinal de celular.',
-        'Do not confuse the Rio intercity coach ticket with municipal bus fares. Check current fares, accepted payments and separate weekday, Saturday and Sunday timetables. Route 700 frequency does not guarantee an immediate connection with 605. Save last-departure details offline in case mobile coverage fails.'),
-      {route:'transportes/onibus/',links:[transit]}),
+      t('Como referencia verificada en octubre de 2026, la tarifa municipal era R$5,90. Los R$7,05 mencionados en agosto eran una propuesta de cálculo, no un aumento aprobado. No confundas el bus municipal con el pasaje intermunicipal desde Río; verifica el valor actual, si aceptan efectivo o tarjeta y los horarios distintos de días hábiles, sábados y domingos. La 700 no garantiza conexión inmediata con la 605. Guarda las últimas salidas fuera de línea.',
+        'Em outubro de 2026, a tarifa municipal conferida era R$5,90. Os R$7,05 discutidos em agosto eram proposta de custo, não reajuste aprovado. Não confunda ônibus municipal com intermunicipal do Rio: confirme valor vigente, pagamento em dinheiro/cartão e horários de dias úteis, sábados e domingos. A 700 não garante conexão imediata com a 605. Salve o último horário offline.',
+        'October 2026 records put the local municipal fare at R$5.90. The R$7.05 figure reported in August was a proposed cost calculation, not an approved fare increase. Do not confuse municipal fares with the Rio intercity coach ticket; check current prices, cash/card payment and weekday, Saturday and Sunday timetables. Route 700 does not ensure an instant connection with 605; save last-departure details offline.'),
+      {route:'transportes/onibus/',links:[transit,fareReference,fareProposal]}),
     part('movilidad',t('9. Movilidad reducida, lluvia y equipaje','9. Mobilidade reduzida, chuva e bagagem','9. Accessibility, rain and luggage'),
       t('El Centro tiene aceras y desniveles variables. Si necesitas un viaje accesible, verifica vehículo, punto de embarque y acceso de cada atracción antes de salir. El Museu Imperial comunica entrada especial con rampa, con apoyo del personal. Con lluvia fuerte o avisos de Defesa Civil, no cruces vías inundadas ni empieces senderos. Para una excursión por el día viaja liviano; una consigna en Bingen no está garantizada.',
         'No Centro há calçadas e ladeiras variadas. Para percurso acessível, confira veículo, ponto e entrada de cada atração. O Museu Imperial informa acesso especial com rampa e apoio da equipe. Com chuva forte ou alertas da Defesa Civil, evite alagamentos e trilhas. Em bate-volta, leve pouca bagagem; guarda-volumes no Bingen não é garantido.',
@@ -94,7 +96,7 @@ export const withoutCarGuide={
     ['transportes/entre-distritos/',t('Conexiones entre distritos','Conexões entre distritos','Transfers between districts')],
     ['guia/emergencias/',t('Salud y emergencias','Saúde e emergências','Health and emergencies')],
   ],
-  sources:[transit,officialMuseum,coach,tourism,park],
+  sources:[transit,officialMuseum,coach,tourism,park,fareReference,fareProposal],
 };
 
 export const firstVisitGuide={
