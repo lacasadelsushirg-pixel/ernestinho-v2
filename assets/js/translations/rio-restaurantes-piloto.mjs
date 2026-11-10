@@ -135,4 +135,20 @@ export const updatedFacts = {
       18: "Full gallery with all available photos of Deck Buffet.",
     },
   },
+  "/gastronomia/k08/": {
+    "pt": {
+      "13": "☎️ <strong>Contato</strong><br>(21) 99514-4134 · adm@k08club.com"
+    },
+    "en": {
+      "13": "☎️ <strong>Contact</strong><br>(21) 99514-4134 · adm@k08club.com"
+    }
+  },
+  "/gastronomia/fogo-de-chao-botafogo/": {
+    "pt": {
+      "11": "🌐 <strong>Site / Instagram</strong><br><a class=\"btn\" href=\"https://fogodechao.com.br/location/botafogo/\" target=\"_blank\" rel=\"noopener\">Abrir canal oficial</a>"
+    },
+    "en": {
+      "11": "🌐 <strong>Website / Instagram</strong><br><a class=\"btn\" href=\"https://fogodechao.com.br/location/botafogo/\" target=\"_blank\" rel=\"noopener\">Open official channel</a>"
+    }
+  },
 };

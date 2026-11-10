@@ -993,4 +993,166 @@ export const pilotLabels = {
       "Venue photo · view 5"
     ]
   },
+  "/gastronomia/k08/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de K08": [
+      "Mapa de K08",
+      "Map of K08"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Para K08, consulta el menú vigente y el formato de servicio antes de reservar. Pregunta por los platos recomendados del día y por el tamaño de las porciones: así podrás adaptar el pedido al grupo y al presupuesto sin depender de referencias antiguas.": [
+      "No K08, confira o cardápio e o formato de atendimento antes de reservar. Pergunte pelos pratos recomendados do dia e pelo tamanho das porções para ajustar o pedido ao grupo e ao orçamento com informações atuais.",
+      "At K08, check the current menu and service format before booking. Ask which dishes are recommended that day and how large the portions are, so you can order to suit the group and budget."
+    ],
+    "Si piensas convertir la comida en una salida especial, deja tiempo para disfrutarla sin prisas. Comprueba la dirección, horarios y condiciones de reserva antes de salir.": [
+      "Se quiser transformar a refeição em um passeio especial, deixe tempo para aproveitar sem pressa. Confira endereço, horário e condições de reserva antes de sair.",
+      "If you want to make an outing of the meal, leave time to enjoy it at your own pace. Check the address, hours and booking terms before you set out."
+    ],
+    "Esta síntesis procede de la ficha editorial recuperada para K08. Sirve como orientación inicial sobre el tipo de lugar; no sustituye la carta ni confirma la operación actual.": [
+      "Este resumo vem da ficha editorial recuperada do K08 e dá uma primeira ideia do local. Consulte o quiosque para confirmar cardápio e atendimento atuais.",
+      "This summary comes from the recovered K08 guide entry and offers an initial sense of the venue. Check with the kiosk for the current menu and service."
+    ],
+    "Quiosque deportivo para desayunos, bebidas y ambiente de playa.": [
+      "Quiosque esportivo para café da manhã, bebidas e clima de praia.",
+      "Sports-oriented beach kiosk for breakfast, drinks and a laid-back beach setting."
+    ],
+    "Fotografía 1 de K08.": [
+      "Foto 1 do K08.",
+      "Photo 1 of K08."
+    ],
+    "Fotografía 2 de K08.": [
+      "Foto 2 do K08.",
+      "Photo 2 of K08."
+    ],
+    "Fotografía 3 de K08.": [
+      "Foto 3 do K08.",
+      "Photo 3 of K08."
+    ],
+    "Fotografía 4 de K08.": [
+      "Foto 4 do K08.",
+      "Photo 4 of K08."
+    ],
+    "Fotografía 5 de K08.": [
+      "Foto 5 do K08.",
+      "Photo 5 of K08."
+    ]
+  },
+  "/gastronomia/delirio-tropical-rio-sul/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Delírio Tropical Rio Sul": [
+      "Mapa de Delírio Tropical Rio Sul",
+      "Map of Delírio Tropical Rio Sul"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Fotografía de Delírio Tropical Rio Sul.": [
+      "Foto do Delírio Tropical Rio Sul.",
+      "Photo of Delírio Tropical Rio Sul."
+    ],
+    "La información operativa puede cambiar; conviene confirmar antes de ir.": [
+      "As informações de funcionamento podem mudar. Confira antes de ir.",
+      "Opening and service details may change. Check before going."
+    ],
+    "En Delírio Tropical del Rio Sul, una ventaja es poder combinar verduras, ensaladas y otras opciones de una manera flexible. Antes de elegir, mira los platos disponibles ese día y comprueba cómo se cobra el servicio. No conviene asumir que todas las unidades de la marca tienen carta idéntica.": [
+      "No Delírio Tropical do RioSul, você pode combinar legumes, saladas e outras opções conforme o apetite. Veja os pratos disponíveis no dia e confira como funciona a cobrança. O cardápio pode variar entre unidades.",
+      "At Delírio Tropical in RioSul, you can combine vegetables, salads and other options to suit your appetite. Look at the dishes available that day and check how they are priced. Menus can vary between branches."
+    ],
+    "Esta unidad puede servir para resolver el almuerzo cuando estás de compras en Rio Sul o recorriendo Botafogo. Revisa los horarios propios del centro comercial y del restaurante; no necesariamente coinciden.": [
+      "A unidade é uma opção para almoçar durante as compras no RioSul ou num passeio por Botafogo. Confira separadamente os horários do shopping e do restaurante, pois podem ser diferentes.",
+      "This branch works for lunch while shopping at RioSul or spending time in Botafogo. Check the mall and restaurant hours separately, as they can differ."
+    ],
+    "Esta síntesis procede de la ficha editorial recuperada para Delírio Tropical Rio Sul. Sirve como orientación inicial sobre el tipo de lugar; no sustituye la carta ni confirma la operación actual.": [
+      "Este resumo vem da ficha editorial recuperada do Delírio Tropical Rio Sul e dá uma primeira ideia do local. Consulte a unidade para confirmar cardápio e atendimento atuais.",
+      "This summary comes from the recovered Delírio Tropical Rio Sul guide entry and offers an initial sense of the venue. Check with the branch for the current menu and service."
+    ],
+    "Almuerzo · ensaladas · ligero": [
+      "Almoço · saladas · leve",
+      "Lunch · salads · light meals"
+    ],
+    "Ensaladas, platos saludables y buffet práctico para el almuerzo.": [
+      "Saladas, pratos saudáveis e bufê prático para o almoço.",
+      "Salads, healthy dishes and a convenient lunch buffet."
+    ],
+    "Delírio Tropical Rio Sul — imagen 1": [
+      "Delírio Tropical Rio Sul — foto 1",
+      "Delírio Tropical Rio Sul — photo 1"
+    ],
+    "Delírio Tropical Rio Sul — imagen 2": [
+      "Delírio Tropical Rio Sul — foto 2",
+      "Delírio Tropical Rio Sul — photo 2"
+    ],
+    "Delírio Tropical Rio Sul — imagen 3": [
+      "Delírio Tropical Rio Sul — foto 3",
+      "Delírio Tropical Rio Sul — photo 3"
+    ],
+    "Delírio Tropical Rio Sul — imagen 4": [
+      "Delírio Tropical Rio Sul — foto 4",
+      "Delírio Tropical Rio Sul — photo 4"
+    ],
+    "Delírio Tropical Rio Sul — imagen 5": [
+      "Delírio Tropical Rio Sul — foto 5",
+      "Delírio Tropical Rio Sul — photo 5"
+    ]
+  },
+  "/gastronomia/fogo-de-chao-botafogo/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Fogo de Chão Botafogo": [
+      "Mapa de Fogo de Chão Botafogo",
+      "Map of Fogo de Chão Botafogo"
+    ],
+    "Antes de comenzar el rodízio de Fogo de Chão, confirma el precio vigente, los cortes incluidos y lo que se cobra aparte, especialmente bebidas y postres. Recomiendo probar porciones pequeñas de distintos cortes antes de repetir los favoritos.": [
+      "Antes de começar o rodízio do Fogo de Chão, confirme o preço atual, os cortes incluídos e o que é cobrado à parte, especialmente bebidas e sobremesas. Recomendo provar porções pequenas de cortes diferentes antes de repetir os preferidos.",
+      "Before starting the rodízio at Fogo de Chão, confirm the current price, which cuts are included and what costs extra, especially drinks and desserts. I recommend trying small portions of several cuts before going back for your favorites."
+    ],
+    "La sede de Botafogo puede integrarse a un paseo por la ensenada y los alrededores, pero vale la pena reservar suficiente tiempo para la comida. No confundas esta ubicación con otras unidades de la cadena.": [
+      "A unidade de Botafogo combina com um passeio pela enseada e pelos arredores. Reserve tempo para a refeição e confira se a reserva é mesmo para Botafogo.",
+      "The Botafogo branch fits a walk around the bay and nearby streets. Allow enough time for the meal and make sure your reservation is for Botafogo."
+    ],
+    "Fotografía real · registro 8": [
+      "Foto do local · registro 8",
+      "Venue photo · view 8"
+    ],
+    "Fogo de Chão Botafogo: fotografía 1": [
+      "Fogo de Chão Botafogo: foto 1",
+      "Fogo de Chão Botafogo: photo 1"
+    ],
+    "Fogo de Chão Botafogo: fotografía 3": [
+      "Fogo de Chão Botafogo: foto 3",
+      "Fogo de Chão Botafogo: photo 3"
+    ],
+    "Fogo de Chão Botafogo: fotografía 6": [
+      "Fogo de Chão Botafogo: foto 6",
+      "Fogo de Chão Botafogo: photo 6"
+    ],
+    "Fogo de Chão Botafogo: fotografía 7": [
+      "Fogo de Chão Botafogo: foto 7",
+      "Fogo de Chão Botafogo: photo 7"
+    ],
+    "Fogo de Chão Botafogo: fotografía 8": [
+      "Fogo de Chão Botafogo: foto 8",
+      "Fogo de Chão Botafogo: photo 8"
+    ]
+  },
 };

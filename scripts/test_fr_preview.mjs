@@ -44,6 +44,9 @@ try {
       ['/gastronomia/belmonte-copa/', /Boteco Belmonte Copacabana/],
       ['/gastronomia/belmonte-ipanema/', /Boteco Belmonte Ipanema/],
       ['/gastronomia/polvo-marisqueria/', /Polvo Marisqueria/],
+      ['/gastronomia/k08/', /K08/],
+      ['/gastronomia/delirio-tropical-rio-sul/', /Delírio Tropical Rio Sul/],
+      ['/gastronomia/fogo-de-chao-botafogo/', /Fogo de Chão Botafogo/],
       ['/gastronomia/quartinho/', /Quartinho/],
       ['/gastronomia/deck-buffet/', /Deck Buffet/],
       ['/gastronomia/pavao-azul/', /Pavão Azul/],
@@ -92,7 +95,7 @@ try {
       assert.equal(await page.locator('html').getAttribute('lang'), 'en');
     }
     await context.close();
-    console.log(`25 page switches PT-BR → FR → EN at ${width}px`);
+    console.log(`28 page switches PT-BR → FR → EN at ${width}px`);
   }
 } finally {
   await browser.close();
