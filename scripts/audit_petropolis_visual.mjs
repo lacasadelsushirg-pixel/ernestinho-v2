@@ -92,6 +92,27 @@ try{
             setTimeout(done,18000);
           })));
         });
+        // Hostinger-hosted imagery may intermittently fail on the first request
+        // during deployment. Retry a failed source twice with cache-busting so
+        // a persistent 404 still fails QA, while one transient request does not.
+        await page.evaluate(async()=>{
+          const failed=[...document.images].filter(img=>img.getAttribute('src')&&(!img.complete||img.naturalWidth===0));
+          await Promise.all(failed.map(async img=>{
+            const source=img.getAttribute('src');
+            for(let attempt=1;attempt<=2&&img.naturalWidth===0;attempt++){
+              await new Promise(resolve=>{
+                let settled=false;
+                const done=()=>{if(settled)return;settled=true;resolve()};
+                img.addEventListener('load',done,{once:true});
+                img.addEventListener('error',done,{once:true});
+                const url=new URL(source,location.href);
+                url.searchParams.set('_ec_visual_retry',String(attempt));
+                img.src=url.href;
+                setTimeout(done,12000);
+              });
+            }
+          }));
+        });
         // Regional layouts reveal blocks on intersection; a full-page screenshot alone
         // does not scroll and can incorrectly show blank content below the fold.
         await page.evaluate(async()=>{
