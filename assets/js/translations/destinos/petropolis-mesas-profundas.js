@@ -2113,6 +2113,198 @@ export const petrDeepDining = {
           }
         }
       ]
+    },
+    "bordeaux-vinhos-ipiranga": {
+      "name": "Bordeaux Vinhos Ipiranga",
+      "area": "Centro Histórico",
+      "address": "Av. Ipiranga, 716",
+      "category": "restaurant",
+      "summary": {
+        "ES": "Restaurante y enoteca familiar fundado en 2006 en la antigua caballeriza de la Casa da Ipiranga, con cocina de bistró y vinos.",
+        "PT": "Restaurante e adega familiar inaugurado em 2006 na antiga estrebaria da Casa da Ipiranga, com cozinha de bistrô e vinhos.",
+        "EN": "Family-owned wine restaurant opened in 2006 in the former stable of Casa da Ipiranga, serving bistro-style food and wine."
+      },
+      "experience": {
+        "ES": "Preguntaría por vinos por copa, un plato de cocina de bistró y la disponibilidad de fondue en la temporada.",
+        "PT": "Eu perguntaria por vinhos em taça, prato de bistrô e disponibilidade de fondue na temporada.",
+        "EN": "Ask about wines by the glass, bistro mains and whether fondue is offered during your visit."
+      },
+      "advice": {
+        "ES": "Combina la comida con Casa de Petrópolis Instituto de Cultura solo después de confirmar horarios separados.",
+        "PT": "Combine refeição com a Casa de Petrópolis Instituto de Cultura somente após conferir horários separados.",
+        "EN": "Pair dining with the Casa de Petrópolis cultural visit only after checking their separate schedules."
+      },
+      "reservation": {
+        "ES": "Ipiranga: (24) 2242-5711; WhatsApp listado por el Convention Bureau: (24) 99325-4389.",
+        "PT": "Ipiranga: (24) 2242-5711; WhatsApp divulgado pelo Convention Bureau: (24) 99325-4389.",
+        "EN": "Ipiranga: +55 24 2242-5711; Convention Bureau WhatsApp: +55 24 99325-4389."
+      },
+      "source": "https://www.bordeauxvinhos.com.br/",
+      "nearby": "/destinos/petropolis/cultura/casa-ipiranga/",
+      "sources": [
+        {
+          "label": "Bordeaux · Historia oficial desde 1997 y unidades",
+          "url": "https://www.bordeauxvinhos.com.br/"
+        },
+        {
+          "label": "Sou Petrópolis · Historia familiar e Ipiranga (agosto 2026)",
+          "url": "https://soupetropolis.com/2026/08/31/dos-tecidos-aos-vinhos-conheca-a-historia-da-bordeaux-referencia-gastronomica-em-petropolis/"
+        },
+        {
+          "label": "Casa de Petrópolis Instituto de Cultura · Historia del inmueble",
+          "url": "https://culturacasadepetropolis.com.br/a-casa"
+        },
+        {
+          "label": "Convention Bureau · Bordeaux Ipiranga",
+          "url": "https://www.pcvb.com.br/onde-comer/perfil/bordeaux-vinhos-cia-ipiranga"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "De los tejidos finos a los vinos",
+            "PT": "Dos tecidos finos aos vinhos",
+            "EN": "From fine textiles to wine"
+          },
+          "text": {
+            "ES": "La historia de Bordeaux Vinhos & Cia comenzó como negocio de tejidos finos en Petrópolis. La propia marca explica que la palabra Bordeaux procedía del nombre de una tonalidad de tela comercializada. En 1997, con la entrada de un familiar como socio, el comercio se transformó en una tienda de conveniencia y luego en una casa especializada en vinos, al observar la demanda de consumidores locales. Por eso su identidad no nació en un restaurante instalado en un edificio histórico, sino de una empresa familiar que cambió de actividad.",
+            "PT": "A história da Bordeaux Vinhos & Cia começou com loja de tecidos finos em Petrópolis. A própria marca explica que Bordeaux era o nome de uma cor de tecido comercializado. Em 1997, com a entrada de um familiar como sócio, a loja virou conveniência e depois se especializou em vinhos, acompanhando a procura dos clientes locais. Portanto, a identidade não nasceu no restaurante instalado em imóvel histórico, mas de uma empresa familiar que mudou de atividade.",
+            "EN": "Bordeaux Vinhos & Cia began as a fine-textiles business in Petrópolis. According to the company, Bordeaux originally referred to one of the fabric colours it sold. In 1997, after another family member joined as a partner, the shop became a convenience store and later specialised in wine as demand developed. The brand therefore did not begin as a restaurant in a heritage building: it evolved from a family retail business that changed direction."
+          }
+        },
+        {
+          "title": {
+            "ES": "Primero Rua 16 de Março, después Itaipava",
+            "PT": "Primeiro Rua 16 de Março, depois Itaipava",
+            "EN": "Rua 16 de Março came before Itaipava"
+          },
+          "text": {
+            "ES": "La primera tienda funcionó en Rua 16 de Março, en el Centro, con vinos, productos importados y artículos locales. En 2001 la familia llegó a Itaipava: empezó con un pequeño espacio en el Shopping Itaipava y fue sumando mesas y platos hasta desarrollar un bistró. Esta secuencia es importante porque actualmente Bordeaux tiene locales con formatos diferentes, uno orientado a tienda y delicatessen y otros a comidas completas. No se deben mezclar sus menús, contactos ni reservas.",
+            "PT": "A primeira loja funcionou na Rua 16 de Março, no Centro, com vinhos, produtos importados e itens regionais. Em 2001 a família chegou a Itaipava: começou com pequeno espaço no Shopping Itaipava e ampliou mesas e pratos até tornar-se bistrô. A sequência é importante porque hoje a Bordeaux reúne unidades de formatos diferentes, algumas voltadas a loja e delicatessen e outras a refeições. Cardápios, contatos e reservas não devem ser misturados.",
+            "EN": "The first outlet opened on Rua 16 de Março in central Petrópolis, selling wines, imported foods and local products. In 2001 the family expanded to Itaipava, beginning in a small Shopping Itaipava space before adding tables and dishes to create a bistro. That sequence matters because Bordeaux now includes distinct formats: speciality retail and delicatessen at one location and full restaurant service at others. Their menus, contacts and bookings should not be mixed."
+          }
+        },
+        {
+          "title": {
+            "ES": "2006: un restaurante en la antigua caballeriza",
+            "PT": "2006: restaurante numa antiga estrebaria",
+            "EN": "2006: dining in a former stable"
+          },
+          "text": {
+            "ES": "En 2006 Bordeaux inauguró el restaurante Ipiranga dentro de la antigua caballeriza de la Casa da Ipiranga, conocida popularmente como Casa dos Sete Erros. Es una de las ubicaciones más singulares de la marca: el espacio de servicio de una mansión del siglo XIX se convirtió en restaurante, con un ambiente íntimo y una arquitectura distinta de un salón comercial moderno. La casa histórica y el restaurante no son lo mismo. Conviene reservar la mesa y comprobar por separado las condiciones para visitar el Instituto de Cultura.",
+            "PT": "Em 2006 a Bordeaux inaugurou a unidade Ipiranga na antiga estrebaria da Casa da Ipiranga, também conhecida como Casa dos Sete Erros. É uma das unidades mais singulares: área de serviço de mansão oitocentista tornou-se restaurante, com clima intimista e arquitetura diferente de um salão comercial moderno. A casa histórica e o restaurante não são a mesma operação. Reserve a mesa e confira separadamente condições de visita ao Instituto de Cultura.",
+            "EN": "In 2006 Bordeaux opened its Ipiranga restaurant in the former stable of Casa da Ipiranga, popularly known as Casa dos Sete Erros. It is among the brand's most distinctive locations: a nineteenth-century mansion's service building became a restaurant with an intimate, historically textured atmosphere. The heritage house and the restaurant are not the same operation. Book the meal and check cultural institute entry separately."
+          }
+        },
+        {
+          "title": {
+            "ES": "La mansión de 1879 y sus jardines",
+            "PT": "A mansão de 1879 e seus jardins",
+            "EN": "The mansion begun in 1879 and its gardens"
+          },
+          "text": {
+            "ES": "La Casa de Petrópolis Instituto de Cultura explica que la construcción de la residencia comenzó en 1879 y concluyó en 1884 para José Tavares Guerra. La ejecución estuvo a cargo de Karl Spangenberger y los jardines fueron diseñados por Auguste Glaziou. Esos datos dan contexto al ambiente de la antigua caballeriza: no fue vivienda de Dom Pedro II ni debemos atribuirle a la familia imperial un uso que no está documentado. Comer junto a la mansión permite reconocer capas de historia urbana sin confundirlas.",
+            "PT": "A Casa de Petrópolis Instituto de Cultura informa que a residência começou a ser construída em 1879 e foi concluída em 1884 para José Tavares Guerra. A obra foi executada por Karl Spangenberger e os jardins projetados por Auguste Glaziou. Esses dados contextualizam a antiga estrebaria: não foi moradia de Dom Pedro II, nem se deve atribuir ao imperador uso não documentado. Comer junto à mansão permite perceber camadas da história urbana sem misturá-las.",
+            "EN": "Casa de Petrópolis Instituto de Cultura dates construction of the residence to 1879–1884 for José Tavares Guerra. Karl Spangenberger directed its building, and Auguste Glaziou designed the gardens. These facts provide context for the former stable: the mansion was not Dom Pedro II's home, and no undocumented imperial use should be invented. Dining nearby offers a sense of the city's layered nineteenth-century history without conflating it with royal ownership."
+          }
+        },
+        {
+          "title": {
+            "ES": "Los vinos siguen siendo el centro de la marca",
+            "PT": "Os vinhos continuam no centro da marca",
+            "EN": "Wine remains central to the brand"
+          },
+          "text": {
+            "ES": "La empresa se presenta como tienda y restaurante con amplia selección de vinos de distintos orígenes. En Ipiranga es posible elegir una botella para acompañar la comida, pero antes hay que comprobar la carta actual y el precio final. Si no conoces mucho de vinos, explica si prefieres tinto suave, blanco fresco, espumante o una opción sin alcohol. El personal puede orientar según lo disponible, pero no existe obligación de pedir la etiqueta más cara. Una experiencia placentera también depende de mantener el gasto bajo control.",
+            "PT": "A empresa se apresenta como loja e restaurante com ampla seleção de vinhos de diferentes origens. No Ipiranga é possível escolher garrafa para a refeição, mas confira carta e preço atual. Se não conhece vinhos, diga se prefere tinto leve, branco fresco, espumante ou opção sem álcool. A equipe pode orientar conforme disponibilidade, sem obrigação de escolher rótulo caro. Uma experiência agradável também depende de controlar o gasto.",
+            "EN": "The company presents itself as both wine retailer and restaurant, with labels from different regions. At Ipiranga guests can choose wine with their meal, but should check the current list and total price. If unfamiliar with wine, say whether you prefer a light red, fresh white, sparkling wine or an alcohol-free option. Staff may suggest what is in stock, without pressure to select the most expensive bottle. An enjoyable outing also respects your budget."
+          }
+        },
+        {
+          "title": {
+            "ES": "Carnes, pastas, fondue y cocina de bistró",
+            "PT": "Carnes, massas, fondue e cozinha de bistrô",
+            "EN": "Grilled meats, pasta, fondue and bistro cooking"
+          },
+          "text": {
+            "ES": "Las guías turísticas describen un restaurante de carnes, fondues, quesos y platos de bistró. Los visitantes también mencionan pastas y risottos, pero la disponibilidad depende de la carta vigente. Si buscas una comida de montaña durante el frío, un fondue puede ser interesante, siempre que confirmes precio, cantidad de personas y acompañamientos. Para un almuerzo más breve, consulta las opciones de plato individual. No debemos convertir la descripción de un directorio en un menú definitivo de noviembre de 2026.",
+            "PT": "Guias turísticas descrevem restaurante de carnes, fondues, queijos e pratos de bistrô. Visitantes também mencionam massas e risotos, mas a disponibilidade depende do cardápio vigente. No frio, fondue pode ser boa escolha, desde que sejam confirmados valor, quantidade de pessoas e acompanhamentos. Para almoço mais rápido, veja opções individuais. Descrição de diretório não substitui menu atualizado de novembro de 2026.",
+            "EN": "Tourism guides describe grilled meats, fondue, cheeses and bistro-style dishes. Visitors also mention pasta and risotto, but availability depends on the current menu. In cold mountain weather fondue can be appealing, provided you confirm the price, intended party size and accompaniments. For a shorter lunch, ask about individual mains. A directory description is not a substitute for an up-to-date November 2026 menu."
+          }
+        },
+        {
+          "title": {
+            "ES": "Qué pedir si te gusta el fondue",
+            "PT": "O que pedir se gosta de fondue",
+            "EN": "What to consider when ordering fondue"
+          },
+          "text": {
+            "ES": "El fondue de queso y el de chocolate aparecen en reseñas del local, especialmente en épocas de temperaturas más bajas. Antes de pedir, pregunta qué ingredientes acompañan cada olla, si el valor es para dos personas y si habrá suficiente para el grupo. Una persona con intolerancia a la lactosa o alergia a lácteos debe consultar las recetas, y el fondue de chocolate también puede incluir otros alérgenos. No supongas que el menú de invierno está disponible con la misma oferta en cualquier temporada.",
+            "PT": "Fondue de queijo e chocolate aparecem em relatos da casa, especialmente nos períodos frios. Antes de pedir, pergunte pelos acompanhamentos, se a porção serve duas pessoas e se a quantidade atende ao grupo. Quem tem intolerância à lactose ou alergia ao leite precisa conferir ingredientes; fondue de chocolate também pode envolver outros alergênicos. Não presuma que o cardápio de inverno seja idêntico em todas as estações.",
+            "EN": "Cheese and chocolate fondue feature in diners' accounts, particularly during cooler weather. Before ordering, ask what comes with each pot, whether a serving is intended for two and how much food the group will receive. Guests with lactose intolerance or dairy allergies must check recipes, while chocolate fondue may contain other allergens. Do not assume the winter menu remains unchanged throughout the year."
+          }
+        },
+        {
+          "title": {
+            "ES": "La visita cultural es un programa independiente",
+            "PT": "A visita cultural é programa independente",
+            "EN": "The cultural visit is a separate activity"
+          },
+          "text": {
+            "ES": "El restaurante comparte la dirección Avenida Ipiranga 716 con la Casa de Petrópolis Instituto de Cultura, pero las actividades culturales, exposiciones y visitas patrimoniales tienen administración propia. Si quieres conocer la mansión y luego cenar, primero consulta los horarios del Instituto; algunos espacios pueden exigir entrada, reserva o cerrar antes del servicio nocturno. No prometemos que la puerta de la casa esté abierta simplemente porque Bordeaux esté atendiendo. Esta separación evita frustraciones y ayuda a ordenar el recorrido.",
+            "PT": "O restaurante compartilha a Avenida Ipiranga, 716 com a Casa de Petrópolis Instituto de Cultura, mas exposições e visitas patrimoniais têm gestão própria. Para conhecer a mansão e depois jantar, consulte primeiro os horários do Instituto; algumas áreas podem exigir ingresso, reserva ou fechar antes da noite. Não se deve prometer a casa aberta apenas porque a Bordeaux está atendendo. Separar os programas evita frustração e organiza melhor a visita.",
+            "EN": "The restaurant shares Avenida Ipiranga 716 with Casa de Petrópolis Instituto de Cultura, but exhibitions and heritage visits are administered separately. If hoping to tour the mansion before dinner, check the institute's schedule first: some spaces may require tickets, bookings or close before evening service. The mansion should not be assumed open simply because Bordeaux is serving food. Treating these as separate activities makes the itinerary more reliable."
+          }
+        },
+        {
+          "title": {
+            "ES": "Una experiencia adecuada para celebraciones",
+            "PT": "Uma experiência para comemorações",
+            "EN": "A setting for celebrations"
+          },
+          "text": {
+            "ES": "La antigua caballeriza y el entorno de jardines explican por qué Bordeaux Ipiranga aparece frecuentemente en recomendaciones para parejas, aniversarios y reuniones. El valor está tanto en el ambiente como en la carta. Para una celebración, conviene pedir mesa con anticipación y confirmar si hay sectores más silenciosos, condiciones para grupos o alguna mesa en el exterior. No des por hecho música en vivo, decoración especial o un servicio incluido solo por ser una fecha importante; todo debe acordarse con la casa.",
+            "PT": "A antiga estrebaria e o entorno de jardins explicam por que a Bordeaux Ipiranga é procurada por casais, aniversários e encontros. O ambiente importa tanto quanto o cardápio. Numa comemoração, reserve antes e confira mesas tranquilas, condições de grupos e área externa. Não presuma música ao vivo, decoração ou serviço extra apenas porque é data especial; tudo deve ser combinado com o estabelecimento.",
+            "EN": "The former stable and gardens help explain why Bordeaux Ipiranga often features in ideas for couples, anniversaries and gatherings. Atmosphere is as important as food. For a special occasion, book ahead and ask about quieter tables, group conditions and outdoor seating. Do not assume live music, decorations or special service simply because it is a celebration; extras must be agreed with the venue."
+          }
+        },
+        {
+          "title": {
+            "ES": "Tres unidades, tres experiencias",
+            "PT": "Três unidades, três experiências",
+            "EN": "Three Bordeaux locations, three different experiences"
+          },
+          "text": {
+            "ES": "En la actualidad Bordeaux comunica tres unidades: la tienda de Rua 16 de Março, el restaurante de Itaipava y el restaurante Ipiranga. La sucursal de Ipiranga fue inaugurada en 2006 y utiliza la antigua caballeriza; el negocio de Itaipava se desarrolló desde 2001 y ofrece otro ambiente. Si alguien te recomienda Bordeaux, pregunta cuál de las unidades conoce, porque no comparten necesariamente la misma cocina, ni los horarios ni las facilidades de estacionamiento. Esta ficha se refiere solamente a Avenida Ipiranga 716.",
+            "PT": "Atualmente a Bordeaux divulga três unidades: loja da Rua 16 de Março, restaurante de Itaipava e restaurante Ipiranga. O Ipiranga abriu em 2006 na antiga estrebaria; Itaipava cresceu a partir de 2001 e tem outra atmosfera. Quando alguém recomendar Bordeaux, pergunte qual unidade conhece, pois cozinha, horários e estacionamento podem variar. Esta ficha trata apenas da Avenida Ipiranga, 716.",
+            "EN": "Bordeaux currently advertises three locations: a Rua 16 de Março wine shop, an Itaipava restaurant and Ipiranga. The Ipiranga restaurant opened in 2006 inside the former stable; Itaipava developed from 2001 and has a different setting. When someone recommends Bordeaux, ask which location they mean, since food, opening hours and parking arrangements may differ. This guide specifically concerns Avenida Ipiranga 716."
+          }
+        },
+        {
+          "title": {
+            "ES": "Dirección, reservas y horarios que conviene confirmar",
+            "PT": "Endereço, reservas e horários para conferir",
+            "EN": "Address, booking and hours to verify"
+          },
+          "text": {
+            "ES": "Bordeaux Ipiranga está en Avenida Ipiranga 716, Centro de Petrópolis. El sitio de la marca informa teléfono (24) 2242-5711; el Convention Bureau también ofrece WhatsApp (24) 99325-4389. Los horarios generales de la web y los que muestran plataformas para el restaurante pueden no coincidir, por lo que confirma el servicio antes de viajar. Si vienes en auto, consulta estacionamiento y accesos; si vas a beber vino, considera transporte de regreso en vez de conducir.",
+            "PT": "A Bordeaux Ipiranga fica na Avenida Ipiranga, 716, Centro de Petrópolis. O site informa telefone (24) 2242-5711; o Convention Bureau também divulga WhatsApp (24) 99325-4389. Os horários gerais da marca nem sempre coincidem com os anúncios específicos do restaurante, portanto confira antes de viajar. De carro, consulte estacionamento e acesso; se pretende beber vinho, organize a volta com transporte em vez de dirigir.",
+            "EN": "Bordeaux Ipiranga is at Avenida Ipiranga 716 in central Petrópolis. The company lists phone +55 24 2242-5711; the Convention Bureau also provides WhatsApp +55 24 99325-4389. General brand opening hours may not match the restaurant's own sitting times, so confirm before travelling. Drivers should ask about parking and access; if planning to drink wine, arrange transport home instead of driving."
+          }
+        },
+        {
+          "title": {
+            "ES": "Alergias, presupuesto y mi consejo personal",
+            "PT": "Alergias, orçamento e minha dica pessoal",
+            "EN": "Allergies, budget and my practical tip"
+          },
+          "text": {
+            "ES": "Una carta con quesos, fondues, pastas y carnes puede incluir trigo, leche, huevos y otros alérgenos. Informa cualquier restricción cuando reserves y pregunta por opciones vegetarianas o adaptadas, sin suponer ausencia de contaminación cruzada. Los vinos pueden influir mucho en la cuenta: acuerda un presupuesto y pide la lista de precios antes de elegir. Mi consejo es combinar la visita cultural y la comida si los horarios lo permiten; de lo contrario, disfruta la antigua caballeriza como experiencia gastronómica independiente.",
+            "PT": "Cardápio com queijos, fondues, massas e carnes pode conter trigo, leite, ovos e outros alergênicos. Com restrições, avise na reserva e pergunte por opções vegetarianas ou adaptadas, sem presumir ausência de contaminação cruzada. Vinhos podem pesar bastante na conta: defina orçamento e consulte preços antes de escolher. Minha dica é combinar cultura e refeição se os horários permitirem; senão, aproveite a antiga estrebaria como experiência gastronômica por si só.",
+            "EN": "A menu with cheeses, fondue, pasta and meats may contain wheat, dairy, eggs and other allergens. Mention restrictions when booking and ask about vegetarian or adapted options without assuming an allergen-free kitchen. Wine can be a major part of the bill: decide on a budget and check prices before choosing. My tip is to combine the cultural visit and meal if schedules allow; otherwise enjoy the former stable as a distinctive dining experience in its own right."
+          }
+        }
+      ]
     }
   }
 };

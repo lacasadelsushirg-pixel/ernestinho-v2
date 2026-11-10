@@ -471,11 +471,13 @@
     },
     {
       "name": "Bordeaux Vinhos Ipiranga",
-      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "source": "https://www.bordeauxvinhos.com.br/",
       "sourceType": "fuente-adicional-verificar",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "status": "ficha-profunda-trilingue",
+      "areas": [
+        "Centro Histórico"
+      ],
+      "address": "Av. Ipiranga, 716"
     },
     {
       "name": "Benvenuti Bistrô",
@@ -503,11 +505,13 @@
     },
     {
       "name": "Restaurante do Ton",
-      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "source": "https://www.browniedoton.com.br/restaurante",
       "sourceType": "fuente-adicional-verificar",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "status": "ficha-profunda-trilingue",
+      "areas": [
+        "Centro Histórico"
+      ],
+      "address": "Rua da Imperatriz, 242"
     },
     {
       "name": "Majorica",
@@ -604,6 +608,15 @@
       ],
       "address": "Estrada Bernardo Coutinho, 1655",
       "source": "https://circuitoararasvideiras.com.br/alvorada-restaurante/",
+      "status": "ficha-profunda-trilingue"
+    },
+    {
+      "name": "Restaurante Nas Videiras",
+      "areas": [
+        "Vale das Videiras"
+      ],
+      "address": "Estrada Almirante Paulo Meira, 8400",
+      "source": "https://descubrapetropolis.com.br/restaurante-nas-videiras/",
       "status": "ficha-profunda-trilingue"
     }
   ]
