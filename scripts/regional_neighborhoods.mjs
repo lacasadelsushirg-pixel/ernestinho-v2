@@ -90,7 +90,7 @@ const petrCss = `<style>
 </style>`;
 function petrDeepCentre(base, lang) {
   const deep = petropolisBarriosProfundo.centroHistorico;
-  const label = name => name.replace(/^https?:\\/\\/[^/]+\\//,'').replaceAll('/',' › ');
+  const label = url => url.split('/').slice(2).join(' › ');
   const chapters = deep.chapters.map(({title,paragraphs,sources}) =>
     '<article class="petr-deep-chapter"><h3>'+text(title,lang)+'</h3>'+paragraphs.map(item=>p(item,lang)).join('')+
     '<div class="petr-deep-citations">'+sources.map(url=>'<a target="_blank" rel="noopener noreferrer" href="'+esc(url)+'">'+esc(label(url))+' ↗</a>').join('')+'</div></article>').join('');
