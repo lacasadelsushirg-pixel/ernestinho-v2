@@ -22,6 +22,9 @@ export const legacyLocaleRoutes = new Map([
   ['/gastronomia/bar-madrid/', ['setLang', 'full']],
   ['/gastronomia/classico-beach-club-urca/', ['setLang', 'full']],
   ['/gastronomia/kilograma-centro/', ['f', 'full']],
+  ['/gastronomia/quartinho/', ['f', 'full']],
+  ['/gastronomia/deck-buffet/', ['setLang', 'full']],
+  ['/gastronomia/pavao-azul/', ['setLang', 'full']],
 ]);
 
 export function hideDuplicateLegacySelector(html, route) {
@@ -41,7 +44,7 @@ export function localizeLegacyStartup(code, route) {
     // This dictionary predates the practical summary and the supplemental
     // paragraphs. Keep its original paragraph order; those additions have
     // their own translations in the practical renderer and section chunk.
-    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/', '/gastronomia/kilograma-centro/'].includes(route) ? ':not(.v2-supplement p)' : '';
+    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/', '/gastronomia/kilograma-centro/', '/gastronomia/quartinho/'].includes(route) ? ':not(.v2-supplement p)' : '';
     const extraParagraphs = ['/gastronomia/elena/', '/gastronomia/bb-lanches/'].includes(route) ? ':not(main>section>p:nth-of-type(n+2))' : '';
     code = code.replace("P=[...document.querySelectorAll('p')]",
       `P=[...document.querySelectorAll('p:not(.ec-q-kicker):not(article.card:not(.facts)>p:nth-of-type(n+2))${extraSections}${extraParagraphs}')]`);
@@ -60,7 +63,7 @@ export function localizeLegacyStartup(code, route) {
       const encodedCopy = JSON.stringify(replacements).replaceAll('<', '\\u003c');
       code = code.replace(initialize, `D[${locale}] && Object.assign(D[${locale}], (${encodedCopy})[${locale}]);${initialize}`);
     }
-    if (renderer === 'full' && positional && ['/gastronomia/polvo-marisqueria/', '/gastronomia/proa/', '/gastronomia/sud-passaro-verde/'].includes(route)) {
+    if (renderer === 'full' && positional && ['/gastronomia/polvo-marisqueria/', '/gastronomia/proa/', '/gastronomia/sud-passaro-verde/', '/gastronomia/quartinho/'].includes(route)) {
       const initialize = `full(${locale})`;
       // The historical facts use plain-text separators. Keep the approved
       // strong label and line break when applying those translations.

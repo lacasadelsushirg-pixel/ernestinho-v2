@@ -851,4 +851,146 @@ export const pilotLabels = {
       "Kilograma Centro — photo 5"
     ]
   },
+  "/gastronomia/quartinho/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Quartinho": [
+      "Mapa de Quartinho",
+      "Map of Quartinho"
+    ],
+    "Interior del Quartinho Bar en Botafogo": [
+      "Interior do Quartinho Bar em Botafogo",
+      "Inside Quartinho Bar in Botafogo"
+    ],
+    "Para visitar Quartinho, comprueba el horario y si habrá programación especial esa noche. Si tu prioridad es conversar, elige un momento menos concurrido; para disfrutar del ambiente, reserva margen y pregunta por la carta de bebidas y petiscos vigente.": [
+      "Para visitar o Quartinho, confira o horário e se haverá programação especial naquela noite. Se quiser conversar, vá num momento menos movimentado. Para curtir o ambiente, deixe tempo livre e pergunte pela carta atual de bebidas e petiscos.",
+      "Before visiting Quartinho, check the hours and whether anything special is on that night. If you want to talk, choose a quieter time. If you are going for the atmosphere, allow plenty of time and ask about the current drinks and snacks menu."
+    ],
+    "Es una parada para sumar a una salida nocturna, no necesariamente para organizar una cena larga. Planifica el regreso y evita depender de una programación anunciada en publicaciones antiguas.": [
+      "É uma parada para encaixar numa saída à noite. Planeje a volta e confira a programação atual antes de contar com um evento anunciado em publicações antigas.",
+      "It makes a stop on a night out, with the pace of a bar. Plan your trip back and check the current schedule before counting on an event mentioned in older listings."
+    ],
+    "Quartinho Bar · Visit Rio ↗ · Novedades · junio de 2026 ↗ · Instagram de Quartinho ↗": [
+      "Quartinho Bar · Visit Rio ↗ · Novidades · junho de 2026 ↗ · Instagram do Quartinho ↗",
+      "Quartinho Bar · Visit Rio ↗ · News · June 2026 ↗ · Quartinho on Instagram ↗"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Fotografía 1 de Quartinho.": [
+      "Foto 1 do Quartinho.",
+      "Photo 1 of Quartinho."
+    ],
+    "Fotografía 2 de Quartinho.": [
+      "Foto 2 do Quartinho.",
+      "Photo 2 of Quartinho."
+    ],
+    "Fotografía 3 de Quartinho.": [
+      "Foto 3 do Quartinho.",
+      "Photo 3 of Quartinho."
+    ],
+    "Fotografía 4 de Quartinho.": [
+      "Foto 4 do Quartinho.",
+      "Photo 4 of Quartinho."
+    ]
+  },
+  "/gastronomia/deck-buffet/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Deck Buffet": [
+      "Mapa de Deck Buffet",
+      "Map of Deck Buffet"
+    ],
+    "Detalle visual de Deck Buffet.": [
+      "Detalhe visual do Deck Buffet.",
+      "A detail from Deck Buffet."
+    ],
+    "La carta, los precios y la operación pueden cambiar; conviene confirmar antes de ir.": [
+      "Cardápio, preços e atendimento podem mudar. Confira antes de ir.",
+      "The menu, prices and service may change. Check before going."
+    ],
+    "En un buffet, la decisión más útil se toma antes de servirte: pregunta si se cobra por peso, por persona o con un precio distinto según el horario. Comprueba también qué bebidas y postres quedan fuera del valor anunciado. Si viajas con niños, consulta las condiciones específicas, porque no todos los establecimientos aplican las mismas reglas.": [
+      "No bufê, pergunte antes de se servir se a cobrança é por peso, por pessoa ou se o preço muda conforme o horário. Confira também quais bebidas e sobremesas são cobradas à parte. Se estiver com crianças, pergunte pelas condições específicas da casa.",
+      "Before serving yourself, ask whether the buffet is priced by weight, per person or differently at certain times. Check which drinks and desserts cost extra. If you are bringing children, ask what rules apply at this restaurant."
+    ],
+    "Conviene integrar Deck Buffet en un día por el barrio donde está situado, en lugar de convertirlo en un desplazamiento turístico por sí mismo. Así aprovechas la variedad del servicio para resolver una comida sin apresurar las demás actividades.": [
+      "Encaixe o Deck Buffet em um dia de passeio por Copacabana. A variedade facilita resolver a refeição com tempo de sobra para as outras atividades.",
+      "Fit Deck Buffet into a day in Copacabana. The variety makes it easy to find something to eat while leaving time for the other stops."
+    ],
+    "Fotos de deck buffet": [
+      "Fotos do Deck Buffet",
+      "Deck Buffet photos"
+    ],
+    "deck buffet: Deck Buffet1": [
+      "Deck Buffet: foto 1",
+      "Deck Buffet: photo 1"
+    ],
+    "Deck Buffet — imagen 1": [
+      "Deck Buffet — foto 1",
+      "Deck Buffet — photo 1"
+    ],
+    "Deck Buffet — imagen 2": [
+      "Deck Buffet — foto 2",
+      "Deck Buffet — photo 2"
+    ],
+    "Deck Buffet — imagen 3": [
+      "Deck Buffet — foto 3",
+      "Deck Buffet — photo 3"
+    ],
+    "Deck Buffet — imagen 4": [
+      "Deck Buffet — foto 4",
+      "Deck Buffet — photo 4"
+    ],
+    "Deck Buffet — imagen 5": [
+      "Deck Buffet — foto 5",
+      "Deck Buffet — photo 5"
+    ],
+    "Deck Buffet — imagen 6": [
+      "Deck Buffet — foto 6",
+      "Deck Buffet — photo 6"
+    ]
+  },
+  "/gastronomia/pavao-azul/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Pavão Azul": [
+      "Mapa de Pavão Azul",
+      "Map of Pavão Azul"
+    ],
+    "En Pavão Azul, lo que más atrae es el espíritu de boteco tradicional de Copacabana. Pregunta por los petiscos del día y el tamaño de las porciones para compartir. Si buscas el famoso bolinho de bacalhau, confirma que esté disponible antes de contar con él como único motivo de la visita.": [
+      "No Pavão Azul, o maior atrativo é o espírito de boteco tradicional de Copacabana. Pergunte pelos petiscos do dia e pelo tamanho das porções para compartilhar. Se for pelo famoso bolinho de bacalhau, confirme a disponibilidade antes.",
+      "Pavão Azul’s main draw is the atmosphere of a traditional Copacabana boteco. Ask about the day’s snacks and portion sizes for sharing. If you are going for the famous cod fritters, check that they are available."
+    ],
+    "Puedes integrarlo a un paseo por Copacabana y disfrutar de una pausa informal, sin esperar el ritmo de un restaurante de varios tiempos. En horarios concurridos quizá tengas que esperar: conviene mantener flexible el itinerario.": [
+      "Encaixe a visita num passeio por Copacabana para uma pausa informal, no ritmo de um bar de bairro. Nos horários de pico pode haver fila, então mantenha o roteiro flexível.",
+      "Fit it into a walk around Copacabana for a casual break at the pace of a neighborhood bar. There may be a wait at busy times, so keep your plans flexible."
+    ],
+    "Pavão Azul: fotografía 4": [
+      "Pavão Azul: foto 4",
+      "Pavão Azul: photo 4"
+    ],
+    "Fotografía real · registro 4": [
+      "Foto do local · registro 4",
+      "Venue photo · view 4"
+    ],
+    "Pavão Azul: fotografía 5": [
+      "Pavão Azul: foto 5",
+      "Pavão Azul: photo 5"
+    ],
+    "Fotografía real · registro 5": [
+      "Foto do local · registro 5",
+      "Venue photo · view 5"
+    ]
+  },
 };
