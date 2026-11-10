@@ -1117,5 +1117,758 @@ export const petropolisBarriosProfundo = {
         }
       }
     ]
+  },
+  "cascatinha-nogueira": {
+    "heading": {
+      "ES": "Cascatinha y Nogueira: la Petrópolis industrial y ferroviaria",
+      "PT": "Cascatinha e Nogueira: a Petrópolis industrial e ferroviária",
+      "EN": "Cascatinha and Nogueira: industrial and railway Petrópolis"
+    },
+    "intro": {
+      "ES": "El río Piabanha, la Companhia Petropolitana, las familias obreras italianas, las sociedades de ayuda mutua, la parroquia y el ferrocarril explican un territorio que existía antes de sus fábricas. Una guía para interpretar el patrimonio del trabajo sin confundir edificios históricos con espacios de libre acceso.",
+      "PT": "O rio Piabanha, a Companhia Petropolitana, as famílias operárias italianas, as sociedades de socorro mútuo, a paróquia e a ferrovia contam uma região anterior às próprias fábricas. Uma guia para entender o patrimônio do trabalho sem confundir prédios históricos com espaços abertos ao público.",
+      "EN": "The Piabanha River, the Petropolitana textile company, Italian working families, mutual-aid societies, parish life and railways reveal a region with a history predating its factories. Explore industrial heritage without assuming historic buildings are open to visitors."
+    },
+    "chapters": [
+      {
+        "title": {
+          "ES": "Antes de 1873: el quarteirão Westfália y la cascada",
+          "PT": "Antes de 1873: o quarteirão Westfália e a cascata",
+          "EN": "Before 1873: Westfália and the waterfall"
+        },
+        "paragraphs": [
+          {
+            "ES": "La localidad conocida como Cascatinha no nació en 1873. Los estudios de Paulo Roberto Martins de Oliveira, del Instituto Histórico de Petrópolis, localizan el futuro complejo textil dentro del antiguo quarteirão Westfália. El nombre del lugar se relaciona con una caída del río Piabanha, también llamada Cascata do Retiro dos Bulhões, identificada en cartografía anterior a la fábrica. Las parcelas y caminos ya formaban parte de la ocupación del valle. Esta diferencia es fundamental: la industrialización transformó un territorio existente, no fundó desde cero un barrio vacío.",
+            "PT": "A localidade chamada Cascatinha não nasceu em 1873. As pesquisas de Paulo Roberto Martins de Oliveira, do Instituto Histórico de Petrópolis, situam o futuro complexo têxtil no antigo quarteirão Westfália. O nome está ligado a uma queda do rio Piabanha, também conhecida como Cascata do Retiro dos Bulhões, registrada em mapas anteriores à fábrica. Prazos de terra e caminhos já faziam parte da ocupação do vale. É essencial distinguir: a industrialização transformou um território existente, não fundou um bairro vazio.",
+            "EN": "The place called Cascatinha did not begin in 1873. Historian Paulo Roberto Martins de Oliveira located the future textile complex in the old Westfália colonial allotment. Its name relates to a waterfall on the Piabanha River, also known as Cascata do Retiro dos Bulhões, recorded on maps before the factory. Land plots and tracks were already part of the valley's occupation. Industry reshaped an existing community rather than creating a settlement from nothing."
+          },
+          {
+            "ES": "La relación con el agua explica tanto la toponimia como la ubicación de la industria. El Piabanha ofrecía energía hidráulica y condicionaba puentes, accesos y movimiento de materiales. Hoy, la cascada, el cauce y los cambios del paisaje deben leerse también como historia ambiental: el río ha sido recurso industrial, parte del escenario urbano y elemento sensible frente a lluvias intensas. Ningún curso de agua debe anunciarse como lugar de baño sin confirmación de seguridad y acceso.",
+            "PT": "A relação com a água explica tanto o nome quanto a localização da indústria. O Piabanha fornecia energia hidráulica e condicionava pontes, acessos e transporte de materiais. Hoje, cascata, leito do rio e transformações da paisagem também são história ambiental: o rio foi recurso industrial, cenário urbano e elemento sensível a chuvas intensas. Nenhum trecho deve ser anunciado como local de banho sem verificação de segurança e acesso.",
+            "EN": "Water shaped both the place name and the industry's location. The Piabanha provided hydraulic power and determined bridges, access and the movement of materials. The river's altered landscape also tells an environmental story: industrial resource, townscape feature and a watercourse vulnerable to heavy rain. Visitors should never be encouraged to swim at an unverified site."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/primordios-da-companhia-petropolitana-no-quarteirao-westfalia/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Bernardo Caymari y la fundación de la Companhia Petropolitana",
+          "PT": "Bernardo Caymari e a fundação da Companhia Petropolitana",
+          "EN": "Bernardo Caymari and the Petropolitana textile company"
+        },
+        "paragraphs": [
+          {
+            "ES": "El empresario cubano Bernardo Caymari buscó en 1872 terrenos junto al río para instalar una fábrica de hilado y tejido que pudiera utilizar la fuerza del agua. Compró parcelas al propietario José Vieira de Christo y su esposa; la autorización imperial para la compañía llegó en septiembre de 1873. Documentos estudiados en el propio archivo de la empresa permiten reconstruir compras, puentes, financiación, contrataciones y decisiones técnicas. Son pruebas de un proceso empresarial, no una fecha de fundación del barrio.",
+            "PT": "O empresário cubano Bernardo Caymari procurou em 1872 terras junto ao rio para instalar fábrica de fiação e tecelagem movida pela água. Comprou parcelas de José Vieira de Christo e sua esposa; a autorização imperial para a companhia veio em setembro de 1873. Atas pesquisadas no arquivo da empresa revelam compras, pontes, empréstimos, contratações e escolhas técnicas. São etapas de formação industrial, e não a data de nascimento do bairro.",
+            "EN": "Cuban entrepreneur Bernardo Caymari sought riverside land in 1872 to establish a water-powered spinning and weaving enterprise. He bought plots from José Vieira de Christo and his wife, and imperial authorisation for the company followed in September 1873. Company records document land transactions, bridges, finance, recruitment and technical decisions. These are stages in an industrial undertaking, not the neighbourhood's founding date."
+          },
+          {
+            "ES": "La fábrica aumentó sus instalaciones mientras llegaban equipos y profesionales especializados. El historiador registra pruebas de producción en octubre de 1874 y el comienzo de las operaciones regulares a plena capacidad el 12 de enero de 1875. Esa cronología impide confundir tres cosas distintas: autorización legal, construcción y producción efectiva. La compañía se convirtió después en uno de los grandes motores industriales y demográficos de Petrópolis.",
+            "PT": "A fábrica ampliou estruturas enquanto chegavam equipamentos e trabalhadores especializados. O historiador registra testes de produção em outubro de 1874 e início das atividades regulares em 12 de janeiro de 1875. A cronologia evita misturar autorização, obras e produção efetiva. A companhia se tornaria um dos grandes motores industriais e demográficos de Petrópolis.",
+            "EN": "Facilities expanded while equipment and skilled workers arrived. The historian records trial production in October 1874 and full regular operations beginning on 12 January 1875. Distinguishing legal authorisation, construction and production makes this chronology more accurate. The company later became a major industrial and population driver for Petrópolis."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/primordios-da-companhia-petropolitana-no-quarteirao-westfalia/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Agua, máquinas y maestros de distintos países",
+          "PT": "Água, máquinas e mestres de vários países",
+          "EN": "Water, machinery and international expertise"
+        },
+        "paragraphs": [
+          {
+            "ES": "Las actas empresariales muestran que el proyecto no consistió solamente en levantar paredes. En 1874 se discutían obras hidráulicas, compra de telares, libros técnicos, viviendas para supervisores y un préstamo. Entre los especialistas contratados en Inglaterra figuran W. Forster, Waring y Thomas Robisson, además del tintorero Paul Hermann. La presencia de trabajadores con conocimientos diferentes revela una cadena productiva compleja: generación de energía, instalación de maquinaria, hilatura, tejido y tintura.",
+            "PT": "As atas mostram que o projeto não se limitou à construção de paredes. Em 1874 discutiam-se obras hidráulicas, compra de teares, livros técnicos, alojamento de mestres e empréstimos. Entre os profissionais contratados na Inglaterra aparecem W. Forster, Waring e Thomas Robisson, além do tintureiro Paul Hermann. A fábrica reunia conhecimento em geração de força, montagem de máquinas, fiação, tecelagem e tinturaria.",
+            "EN": "Company minutes reveal more than the construction of walls. In 1874 the directors debated hydraulic works, looms, technical manuals, housing for supervisors and finance. Workers recruited in England included W. Forster, Waring and Thomas Robisson, as well as dyer Paul Hermann. This was a complex production chain requiring power generation, machinery, spinning, weaving and dyeing expertise."
+          },
+          {
+            "ES": "El avance de una industria textil también reorganizó horarios, circulación y relaciones entre empresa y empleados. La arquitectura fabril debe observarse desde esa perspectiva: altura de galpones, proximidad del río y caminos de llegada tenían funciones concretas. Las construcciones visibles hoy han sufrido adaptaciones; no toda nave antigua mantiene equipamiento original ni está abierta al público.",
+            "PT": "O avanço da indústria têxtil reorganizou horários, deslocamentos e relações entre empresa e empregados. A arquitetura fabril precisa ser observada por esse ângulo: pé-direito dos galpões, proximidade do rio e acessos tinham funções precisas. Os edifícios sofreram adaptações; nem todo galpão conserva máquinas antigas nem recebe visitas.",
+            "EN": "The textile industry reshaped daily schedules, movement and employer-worker relationships. Factory architecture should be read functionally: shed heights, proximity to the river and transport routes mattered. Surviving buildings have been adapted and cannot be assumed to contain original machinery or accept public visits."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/primordios-da-companhia-petropolitana-no-quarteirao-westfalia/",
+          "https://ihp.org.br/petropolis-a-outra-um-invisivel-universo-operario/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Los italianos no fueron los colonos alemanes",
+          "PT": "Os italianos não eram os colonos alemães",
+          "EN": "Italian workers were not the earlier German settlers"
+        },
+        "paragraphs": [
+          {
+            "ES": "Los inmigrantes italianos que se concentraron en Cascatinha llegaron sobre todo como trabajadores de fábricas durante las últimas décadas del siglo XIX y las primeras del XX. No deben confundirse con los colonos germánicos que habían recibido parcelas agrícolas en la década de 1840. Enrico Carrano y Pedro Paulo Aiello Mesquita describen Cascatinha y Alto da Serra como polos de ese movimiento laboral e indican que los italianos representaban una proporción importante de la comunidad local. Las distintas migraciones cambiaron lenguas, oficios y sociabilidad.",
+            "PT": "Os imigrantes italianos que se concentraram na Cascatinha chegaram sobretudo para trabalhar em fábricas no fim do século XIX e começo do XX. Não devem ser confundidos com os colonos germânicos que receberam terras agrícolas na década de 1840. Enrico Carrano e Pedro Paulo Aiello Mesquita descrevem Cascatinha e Alto da Serra como polos da imigração operária e registram a importância dos italianos na comunidade. Migrações diferentes transformaram idiomas, trabalhos e convivência.",
+            "EN": "Italian immigrants who settled in Cascatinha mostly arrived as industrial workers in the late nineteenth and early twentieth centuries. They were not the same as German settlers allotted agricultural plots in the 1840s. Historians Enrico Carrano and Pedro Paulo Aiello Mesquita identify Cascatinha and Alto da Serra as centres of this labour migration. Different waves of migration reshaped languages, trades and community life."
+          },
+          {
+            "ES": "La historia del trabajo es más compleja que una celebración nostálgica de la inmigración. Jornadas, salarios, ausencia de derechos laborales modernos y la dependencia de empresas marcaron la vida de muchas familias. Investigaciones del IHP también advierten que algunas cifras de obreros y relatos de huelgas difundidos sin documentos suficientes son discutidos. En esta guía distinguimos hechos de archivo, testimonios y afirmaciones que necesitan verificación, sin presentar números controvertidos como certezas.",
+            "PT": "A história do trabalho é mais complexa que a celebração da imigração. Jornadas, salários, falta de direitos trabalhistas modernos e dependência das empresas marcaram famílias. Pesquisas do IHP advertem que certos números de operários e relatos de greves difundidos sem documentação sólida são discutidos. A guia diferencia registros de arquivo, testemunhos e afirmações ainda dependentes de verificação.",
+            "EN": "Working-class history is more complicated than nostalgic celebrations of immigration. Long hours, wages, limited labour protections and dependence on employers affected families. IHP research cautions that some widely repeated workforce figures and strike accounts lack sufficiently clear documentation. The guide distinguishes archival evidence from testimony and contested claims rather than treating uncertain numbers as fact."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/a-imigracao-italiana-em-petropolis/",
+          "https://ihp.org.br/petropolis-a-outra-um-invisivel-universo-operario/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Sociedades de ayuda mutua, vida familiar y tradiciones",
+          "PT": "Sociedades de socorro mútuo, famílias e tradições",
+          "EN": "Mutual aid, family life and cultural traditions"
+        },
+        "paragraphs": [
+          {
+            "ES": "Para enfrentar dificultades económicas y sociales, los inmigrantes fundaron asociaciones de ayuda mutua. El IHP registra la Società Operaria Italiana di Mutuo Soccorso di Cascatinha, constituida el 27 de octubre de 1902, y la Società Italiana de Beneficenza Principe di Piemonte, del 6 de agosto de 1905. Más allá de los nombres, estas instituciones fueron respuestas comunitarias a las necesidades de trabajadores y familias, en una época sin los sistemas de protección social actuales.",
+            "PT": "Para enfrentar dificuldades econômicas e sociais, imigrantes criaram sociedades de socorro mútuo. O IHP registra a Società Operaria Italiana di Mutuo Soccorso di Cascatinha, de 27 de outubro de 1902, e a Società Italiana de Beneficenza Principe di Piemonte, de 6 de agosto de 1905. Essas associações respondiam às necessidades de trabalhadores e famílias num período sem as redes de proteção social atuais.",
+            "EN": "Immigrants established mutual-aid societies to cope with economic and social hardship. IHP research records the Società Operaria Italiana di Mutuo Soccorso di Cascatinha, founded on 27 October 1902, and the Società Italiana de Beneficenza Principe di Piemonte, dated 6 August 1905. These organisations provided community responses to hardship before modern welfare systems."
+          },
+          {
+            "ES": "La memoria de Cascatinha también aparece en fiestas religiosas, juegos de bochas, cocina familiar, comercios y redes de parentesco. No debemos reducir la cultura italiana a platos típicos: sus asociaciones y espacios de reunión fueron parte esencial de la ciudad obrera. Los descendientes y vecinos actuales continúan dando nuevos sentidos a esa herencia, mezclada con muchas otras tradiciones brasileñas.",
+            "PT": "A memória da Cascatinha também aparece nas festas religiosas, na bocha, na culinária familiar, no comércio e nas redes de parentesco. Não se deve reduzir a cultura italiana à gastronomia: associações e espaços de encontro foram parte da cidade operária. Moradores e descendentes dão novos sentidos a essa herança, misturada a outras tradições brasileiras.",
+            "EN": "Cascatinha's memory lives in religious celebrations, bocce, family cooking, shops and kinship networks. Italian culture should not be reduced to food: associations and meeting spaces were central to the working community. Today's residents and descendants continue to reinterpret that heritage alongside many other Brazilian traditions."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/a-imigracao-italiana-em-petropolis/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "La iglesia de Sant'Ana e São Joaquim y la plaza obrera",
+          "PT": "A igreja de Sant'Ana e São Joaquim e a praça operária",
+          "EN": "The parish church and workers' square"
+        },
+        "paragraphs": [
+          {
+            "ES": "La comunidad obrera impulsó la construcción de una capilla a fines del siglo XIX. Fuentes de la Cámara Municipal registran obras iniciadas en 1895 y una inauguración en 1898. En 1912 la capilla fue elevada a parroquia, dedicada a Sant'Ana y São Joaquim. La iglesia, las viviendas obreras y la plaza histórica muestran cómo se organizaban religión, ocio y convivencia cerca de la fábrica. Es una lectura urbana mucho más rica que visitar un edificio aislado.",
+            "PT": "A comunidade operária participou da construção de uma capela no fim do século XIX. Fontes da Câmara Municipal registram início das obras em 1895 e inauguração em 1898. Em 1912 ela foi elevada a paróquia dedicada a Sant'Ana e São Joaquim. Igreja, casas operárias e praça histórica mostram como religião, lazer e convivência se organizavam perto da fábrica. A paisagem merece ser lida como conjunto, e não como monumento isolado.",
+            "EN": "The working community supported a chapel in the late nineteenth century. Municipal legislative records describe construction starting in 1895 and its inauguration in 1898. It became the parish of Sant'Ana and São Joaquim in 1912. Church, workers' homes and public square show how religion, recreation and community life developed around the factory. They are better understood as a connected historic landscape than as isolated monuments."
+          },
+          {
+            "ES": "La diócesis identifica la iglesia en Praça Monsenhor Achiles Melo, 1. Como se trata de un templo en actividad, conviene respetar celebraciones y confirmar el momento adecuado para conocer el interior. En la plaza se puede comparar el patrimonio religioso con el paisaje industrial y con la vida cotidiana del barrio sin entrar a propiedades privadas.",
+            "PT": "A Diocese informa o endereço Praça Monsenhor Achiles Melo, 1. Como a igreja segue em funcionamento, é importante respeitar as celebrações e confirmar quando o interior pode ser visitado. Na praça, observe a relação entre patrimônio religioso, paisagem industrial e cotidiano do bairro sem entrar em propriedades privadas.",
+            "EN": "The diocese lists the church at Praça Monsenhor Achiles Melo, 1. As an active place of worship, it calls for respect during services and confirmation of suitable visiting times. The square offers a public setting for comparing religious heritage, industrial architecture and everyday life without trespassing."
+          }
+        ],
+        "sources": [
+          "https://www.petropolis.rj.leg.br/institucional/noticias/festa-de-santanna-e-sao-joaquim-pode-ser-declarada-como-patrimonio-cultural-imaterial-de-petropolis",
+          "https://diocesepetropolis.com.br/paroquia-santana-e-sao-joaquim-cascatinha-petropolis/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Nogueira: alfarería, tierras y ferrocarril",
+          "PT": "Nogueira: olaria, terras e ferrovia",
+          "EN": "Nogueira: brickworks, land and railway"
+        },
+        "paragraphs": [
+          {
+            "ES": "Nogueira no es sinónimo de Cascatinha y merece su propia historia dentro de esta ficha territorial. Jeronymo Ferreira Alves Netto vincula su nombre con Domingos de Souza Nogueira, propietario rural que instaló una alfarería en 1891, en el sector donde se ubicaría la estación. Una noticia de la Tribuna de Petrópolis del 18 de junio de 1932, citada en esa investigación, afirma que el propietario promovió el establecimiento ferroviario y contribuyó con una franja de tierra y una gran cantidad de ladrillos.",
+            "PT": "Nogueira não é sinônimo de Cascatinha e merece história própria nesta ficha regional. Jeronymo Ferreira Alves Netto relaciona o nome a Domingos de Souza Nogueira, proprietário que instalou uma olaria em 1891 na área da futura estação. Uma notícia da Tribuna de Petrópolis de 18 de junho de 1932, citada pelo historiador, informa que ele incentivou a estação e contribuiu com faixa de terra e muitos tijolos.",
+            "EN": "Nogueira is not another name for Cascatinha and needs its own history within this regional guide. Historian Jeronymo Ferreira Alves Netto links the name to landowner Domingos de Souza Nogueira, who established a brickworks in 1891 near the later station. A Tribuna de Petrópolis article of 18 June 1932, quoted in the research, says he encouraged the railway stop and donated land and bricks."
+          },
+          {
+            "ES": "El ferrocarril ayudó a comunicar los valles y a transportar personas y productos. Observar la antigua estación desde lugares públicos permite reconstruir la lógica económica de una región que hoy puede parecer exclusivamente residencial y tranquila. Una estación histórica no equivale a una línea de pasajeros en funcionamiento: quien viaja actualmente debe consultar los transportes disponibles por carretera.",
+            "PT": "A ferrovia ajudou a ligar vales e transportar pessoas e produtos. Observar a antiga estação a partir de áreas públicas permite imaginar a economia regional, embora hoje Nogueira pareça sobretudo tranquila e residencial. Estação histórica não significa trem de passageiros em operação: para a viagem atual, consulte as opções rodoviárias.",
+            "EN": "Railways helped link mountain valleys and transport people and goods. Viewing the former station from public areas reveals an economic network in a place that can now seem mostly residential. A historic station is not evidence of an operating passenger service: present-day travel requires checking road transport."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/anotacoes-sobre-a-historia-de-itaipava/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Patrimonio industrial protegido: 1981 y 2026",
+          "PT": "Patrimônio industrial protegido: 1981 e 2026",
+          "EN": "Protected industrial heritage: 1981 and 2026"
+        },
+        "paragraphs": [
+          {
+            "ES": "La protección federal de Petrópolis fue incorporando gradualmente su historia fabril, incluida la Companhia Petropolitana, la villa obrera, la iglesia y la plaza del entorno. Este cambio en la interpretación del patrimonio fue decisivo: fábricas y viviendas de trabajadores también cuentan historia nacional, no solamente palacios. La política de preservación debe considerar cómo viven y trabajan las comunidades que siguen ocupando estos paisajes.",
+            "PT": "A proteção federal de Petrópolis passou a reconhecer também a história fabril, incluindo Companhia Petropolitana, vila operária, igreja e praça. Essa mudança foi decisiva: fábricas e casas de trabalhadores também são patrimônio, não apenas palácios. A preservação deve considerar as comunidades que continuam morando e trabalhando nessas paisagens.",
+            "EN": "Federal heritage protection gradually came to recognise the industrial ensemble, including Companhia Petropolitana, the workers' village, church and square. This shifted the historic narrative: factories and workers' homes, not just palaces, are part of national heritage. Conservation must also consider the communities still living and working in these landscapes."
+          },
+          {
+            "ES": "El IPHAN confirmó en abril de 2026 una ampliación y actualización del conjunto protegido. En Cascatinha se precisó la protección de elementos del complejo fabril, entre ellos puentes de hierro y pórticos, y se redefinieron límites de protección y entorno. Los planos oficiales distinguen las áreas directamente protegidas y su zona de influencia. Ninguna de esas delimitaciones da automáticamente permiso turístico para acceder al interior de un galpón, usina o inmueble particular.",
+            "PT": "Em abril de 2026, o Iphan confirmou ampliação e atualização da proteção. Na Cascatinha, foram incluídos e delimitados elementos do conjunto fabril, como pontes de ferro e pórticos, além de ajustes de área tombada e entorno. Os documentos distinguem a área protegida diretamente e a zona de ambiência. Tombamento não autoriza a entrada turística em galpões, usina ou propriedades particulares.",
+            "EN": "In April 2026 IPHAN confirmed expanded and updated protection. At Cascatinha, elements such as iron bridges and gateways received clearer protection, with revised listed-area and buffer boundaries. Official maps distinguish direct protection from surrounding setting. Listing does not grant tourists the right to enter factory buildings, power facilities or private premises."
+          }
+        ],
+        "sources": [
+          "https://www.gov.br/iphan/pt-br/assuntos/noticias/ampliacao-do-tombamento-de-petropolis-rj-e-homologada-pelo-ministerio-da-cultura"
+        ]
+      }
+    ],
+    "timeline": [
+      [
+        "Antes de 1873",
+        {
+          "ES": "La cascada y los caminos del quarteirão Westfália ya eran conocidos.",
+          "PT": "A cascata e caminhos do quarteirão Westfália já eram conhecidos.",
+          "EN": "Westfália's waterfall and tracks are already documented."
+        }
+      ],
+      [
+        "1872",
+        {
+          "ES": "Bernardo Caymari compra terrenos junto al Piabanha.",
+          "PT": "Bernardo Caymari compra terras junto ao Piabanha.",
+          "EN": "Bernardo Caymari acquires riverside land."
+        }
+      ],
+      [
+        "1873",
+        {
+          "ES": "Se autoriza la compañía textil; no es la fundación del barrio.",
+          "PT": "É autorizada a companhia têxtil; não é fundação do bairro.",
+          "EN": "The textile company is authorised; the neighbourhood predates it."
+        }
+      ],
+      [
+        "1875",
+        {
+          "ES": "Comienza la producción regular de la fábrica.",
+          "PT": "Começa a produção regular da fábrica.",
+          "EN": "Regular factory production begins."
+        }
+      ],
+      [
+        "1891",
+        {
+          "ES": "Domingos de Souza Nogueira instala su alfarería.",
+          "PT": "Domingos de Souza Nogueira instala olaria.",
+          "EN": "Domingos de Souza Nogueira establishes brickworks."
+        }
+      ],
+      [
+        "1898",
+        {
+          "ES": "Inauguración de la capilla de Cascatinha.",
+          "PT": "Inauguração da capela de Cascatinha.",
+          "EN": "The Cascatinha chapel opens."
+        }
+      ],
+      [
+        "1902–1905",
+        {
+          "ES": "Se forman asociaciones italianas de socorro mutuo.",
+          "PT": "Formam-se sociedades italianas de socorro mútuo.",
+          "EN": "Italian mutual-aid organisations are founded."
+        }
+      ],
+      [
+        "1912",
+        {
+          "ES": "La capilla pasa a ser parroquia.",
+          "PT": "A capela é elevada a paróquia.",
+          "EN": "The chapel becomes a parish."
+        }
+      ],
+      [
+        "1981–1982",
+        {
+          "ES": "La protección federal reconoce el patrimonio fabril y obrero.",
+          "PT": "A proteção federal incorpora patrimônio fabril e operário.",
+          "EN": "Federal heritage listing expands to industrial and workers' sites."
+        }
+      ],
+      [
+        "2026",
+        {
+          "ES": "El IPHAN homologa la ampliación del conjunto protegido.",
+          "PT": "O Iphan homologa ampliação do conjunto protegido.",
+          "EN": "IPHAN ratifies expanded heritage protection."
+        }
+      ]
+    ],
+    "stops": [
+      {
+        "name": "Antiga Companhia Petropolitana de Tecidos",
+        "note": {
+          "ES": "Contempla el conjunto fabril desde espacios públicos; los galpones pueden tener usos privados.",
+          "PT": "Observe o conjunto fabril dos espaços públicos; galpões podem ter usos privados.",
+          "EN": "View the industrial complex from public areas; buildings may have private uses."
+        },
+        "location": "Companhia Petropolitana de Tecidos Cascatinha Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Praça Monsenhor Achiles Melo",
+        "note": {
+          "ES": "Punto para interpretar la iglesia, la plaza y la memoria del trabajo.",
+          "PT": "Ponto para interpretar igreja, praça e memória operária.",
+          "EN": "Interpret the church, square and working-class heritage."
+        },
+        "location": "Praça Monsenhor Achiles Melo Cascatinha Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Paróquia Sant'Ana e São Joaquim",
+        "note": {
+          "ES": "Iglesia histórica activa; confirma momentos de visita fuera de celebraciones.",
+          "PT": "Igreja histórica em atividade; confira visita fora das celebrações.",
+          "EN": "Historic working parish; check appropriate visiting times."
+        },
+        "location": "Praça Monsenhor Achiles Melo 1 Cascatinha Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Estação de Nogueira",
+        "note": {
+          "ES": "Patrimonio ferroviario para observar desde la vía pública; no funciona como tren turístico.",
+          "PT": "Patrimônio ferroviário para observar da via pública; não é trem turístico em operação.",
+          "EN": "Historic railway station to see from public areas, not an operating tourist train."
+        },
+        "location": "Antiga Estação Ferroviária de Nogueira Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Estrada União e Indústria",
+        "note": {
+          "ES": "Corredor histórico que conecta estas localidades; no es una caminata continua.",
+          "PT": "Corredor histórico da região; não é um passeio a pé contínuo.",
+          "EN": "Historic regional transport corridor, not a continuous walking route."
+        },
+        "location": "Estrada União e Indústria Cascatinha Petrópolis RJ Brasil",
+        "route": "transportes/entre-distritos/"
+      }
+    ],
+    "bibliography": [
+      {
+        "label": "Paulo Roberto Martins de Oliveira · Primórdios da Companhia Petropolitana",
+        "url": "https://ihp.org.br/primordios-da-companhia-petropolitana-no-quarteirao-westfalia/",
+        "why": {
+          "ES": "Investigación de actas de la empresa, terrenos, primeros obreros y comienzo de la producción.",
+          "PT": "Pesquisa de atas, terrenos, operários e início da produção.",
+          "EN": "Archival study of company minutes, land, early workers and production."
+        }
+      },
+      {
+        "label": "Enrico Carrano y Pedro Paulo Aiello Mesquita · A imigração italiana em Petrópolis",
+        "url": "https://ihp.org.br/a-imigracao-italiana-em-petropolis/",
+        "why": {
+          "ES": "Estudio de inmigración obrera, asociaciones y costumbres.",
+          "PT": "Estudo da imigração operária, associações e costumes.",
+          "EN": "Research on labour immigration, associations and customs."
+        }
+      },
+      {
+        "label": "IHP · Petrópolis, a outra: um invisível universo operário",
+        "url": "https://ihp.org.br/petropolis-a-outra-um-invisivel-universo-operario/",
+        "why": {
+          "ES": "Examina trabajo, memoria obrera y cifras históricas discutidas.",
+          "PT": "Examina trabalho, memória operária e dados históricos debatidos.",
+          "EN": "Examines labour history and disputed industrial narratives."
+        }
+      },
+      {
+        "label": "Jeronymo Ferreira Alves Netto · Anotações sobre a história de Itaipava",
+        "url": "https://ihp.org.br/anotacoes-sobre-a-historia-de-itaipava/",
+        "why": {
+          "ES": "Referencia histórica para el origen de la estación Nogueira.",
+          "PT": "Referência histórica para a antiga estação de Nogueira.",
+          "EN": "Historical account of the Nogueira station."
+        }
+      },
+      {
+        "label": "IPHAN · Ampliação do tombamento de Petrópolis (2026)",
+        "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/ampliacao-do-tombamento-de-petropolis-rj-e-homologada-pelo-ministerio-da-cultura",
+        "why": {
+          "ES": "Decisión oficial y elementos protegidos del complejo de Cascatinha.",
+          "PT": "Decisão oficial sobre os elementos protegidos da Cascatinha.",
+          "EN": "Official 2026 update on protected industrial structures."
+        }
+      },
+      {
+        "label": "Diocese de Petrópolis · Paróquia Sant'Ana e São Joaquim",
+        "url": "https://diocesepetropolis.com.br/paroquia-santana-e-sao-joaquim-cascatinha-petropolis/",
+        "why": {
+          "ES": "Dirección institucional y vida parroquial actual.",
+          "PT": "Endereço institucional e vida paroquial.",
+          "EN": "Official parish location and information."
+        }
+      },
+      {
+        "label": "Brasiliana Fotográfica · Petrópolis, imágenes históricas",
+        "url": "https://brasilianafotografica.bn.gov.br/?tag=petropolis",
+        "why": {
+          "ES": "Catálogo de archivos fotográficos; la reutilización exige comprobar derechos.",
+          "PT": "Catálogo de fotos históricas; direitos de uso devem ser verificados.",
+          "EN": "Historic photo archive; verify image reuse rights."
+        }
+      },
+      {
+        "label": "Wilma Borsato · Cascatinha e os Italianos (estudio citado por el IHP)",
+        "url": "https://ihp.org.br/petropolis-a-outra-um-invisivel-universo-operario/",
+        "why": {
+          "ES": "Referencia bibliográfica indirecta: la obra se cita en la investigación, no se ha examinado el texto completo.",
+          "PT": "Referência bibliográfica indireta: citada pelo IHP, sem consulta à obra integral.",
+          "EN": "Indirect bibliographic lead cited by IHP; full text not independently reviewed."
+        }
+      }
+    ]
+  },
+  "castelanea": {
+    "heading": {
+      "ES": "Castelânea: una historia de familias, oficios y memoria germánica",
+      "PT": "Castelânea: famílias, ofícios e memória germânica",
+      "EN": "Castelânea: families, trades and German-Brazilian memory"
+    },
+    "intro": {
+      "ES": "Del trazado de Koeler a las parcelas de 41 colonos, las viviendas de pau-a-pique y la transformación de una residencia de 1847 en museo municipal. Una historia que distingue entre colonos agrícolas, otros inmigrantes y los descendientes que preservaron la memoria del barrio.",
+      "PT": "Da planta de Koeler aos lotes de 41 colonos, casas de pau-a-pique e transformação de residência de 1847 em museu municipal. Uma história que distingue colonos agrícolas, outros imigrantes e descendentes que preservaram a memória do bairro.",
+      "EN": "From Koeler's plan and plots granted to 41 settlers to timber-and-earth houses and the conversion of an 1847 residence into a municipal museum. Learn to distinguish agricultural settlers, other immigrants and the descendants who preserved local memory."
+    },
+    "chapters": [
+      {
+        "title": {
+          "ES": "El quarteirão Castelânea dentro de la ciudad de Koeler",
+          "PT": "O quarteirão Castelânea na cidade de Koeler",
+          "EN": "The Castelânea allotment in Koeler's planned town"
+        },
+        "paragraphs": [
+          {
+            "ES": "El plan de Júlio Frederico Koeler organizó Petrópolis mediante una Vila Imperial central y una serie de quarteirões destinados a alojar familias y actividades productivas. Castelânea fue uno de esos espacios, ligado a nombres de regiones germánicas y a caminos que atravesaban terrenos cercanos a cursos de agua. La historia del barrio no se comprende desde la postal del palacio, sino desde la distribución de parcelas, las viviendas y el trabajo cotidiano de quienes ayudaron a construir la ciudad.",
+            "PT": "O projeto de Júlio Frederico Koeler organizou Petrópolis entre uma Vila Imperial central e quarteirões destinados a famílias e atividades produtivas. Castelânea foi um deles, relacionado a referências germânicas e caminhos próximos aos cursos d'água. A história do bairro não está apenas na imagem do palácio, mas na distribuição dos prazos, nas moradias e no trabalho cotidiano de quem participou da construção da cidade.",
+            "EN": "Júlio Frederico Koeler planned Petrópolis around a central Imperial Villa and neighbourhood allotments for families and livelihoods. Castelânea belonged to those outer areas, with German geographic references and roads close to waterways. Its history is not told by palace postcards but by land grants, modest homes and the everyday work of people who helped build the town."
+          },
+          {
+            "ES": "Las denominaciones del siglo XIX no equivalen exactamente a los límites de los barrios actuales. Algunas calles cambiaron de nombre y las parcelas se subdividieron. Para interpretar Castelânea conviene usar documentos de época y reconocer dónde se superponen el quarteirão histórico, la zona residencial actual y los recorridos de visitantes. Nuestro mapa utiliza nombres reconocibles hoy sin inventar fronteras patrimoniales oficiales.",
+            "PT": "As denominações do século XIX não correspondem perfeitamente aos limites dos bairros de hoje. Ruas mudaram de nome e terrenos foram divididos. Para entender Castelânea, convém usar documentos de época e distinguir quarteirão histórico, bairro residencial atual e roteiro turístico. O mapa usa referências reconhecíveis sem inventar fronteiras oficiais de tombamento.",
+            "EN": "Nineteenth-century allotment names do not correspond precisely to today's neighbourhood boundaries. Street names changed and plots were subdivided. A sound history distinguishes the original allotment, today's residential district and visitor routes, rather than inventing official heritage borders."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/relembrando-alguns-colonos-e-os-esquecidos-quarteiroes/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Cuarenta y un colonos: de los registros a las familias",
+          "PT": "Quarenta e um colonos: dos registros às famílias",
+          "EN": "Forty-one settler households and their records"
+        },
+        "paragraphs": [
+          {
+            "ES": "Paulo Roberto Martins de Oliveira registra 41 colonos que recibieron parcelas en Castelânea. Entre los apellidos identificados figuran Hoelz, Hoffmann, Tesch, Ternes, Auler, Roux, Bauer y Zillig. La nómina no significa que todos llegaran juntos ni que tuvieran idénticos recursos. Los procesos de concesión de terrenos, trabajos y transmisión hereditaria son fundamentales para comprender una colonia que no se reducía a una sola nacionalidad o a la imagen de un campesino típico.",
+            "PT": "Paulo Roberto Martins de Oliveira registra 41 colonos que receberam prazos na Castelânea. Entre os sobrenomes aparecem Hoelz, Hoffmann, Tesch, Ternes, Auler, Roux, Bauer e Zillig. A lista não prova que tenham chegado juntos nem que possuíssem condições iguais. Concessão de terras, ofícios e heranças ajudam a compreender uma colônia que não se resumia à imagem de um agricultor típico.",
+            "EN": "Paulo Roberto Martins de Oliveira records 41 settlers who received land allotments in Castelânea. Family names include Hoelz, Hoffmann, Tesch, Ternes, Auler, Roux, Bauer and Zillig. The list does not imply identical arrival dates or living conditions. Land grants, trades and inheritance patterns are essential to understanding a diverse community rather than a single idealised image of a colonial farmer."
+          },
+          {
+            "ES": "Un ejemplo documentado es Christoph Hoelz, hijo de Johann Adam Hoelz. La investigación menciona su parcela nº 1615 y una adquisición posterior vinculada al antiguo Caminho Colonial, hoy Rua Saldanha Marinho. También registra la continuidad de vínculos familiares con algunos terrenos durante varias generaciones. Estas historias permiten acercarnos a las familias reales sin transformar sus antiguos hogares privados en museos abiertos al público.",
+            "PT": "Um exemplo documentado é Christoph Hoelz, filho de Johann Adam Hoelz. A pesquisa menciona o prazo n.º 1615 e aquisição posterior junto ao antigo Caminho Colonial, hoje Rua Saldanha Marinho. Também registra vínculos de descendentes com parte das terras ao longo de gerações. Essas histórias valorizam famílias reais sem transformar antigas casas particulares em atrações de entrada livre.",
+            "EN": "One documented case is Christoph Hoelz, son of Johann Adam Hoelz. Research identifies his plot no. 1615 and a later acquisition adjoining the old Caminho Colonial, now Rua Saldanha Marinho. Some family ties to the land continued for generations. Such stories recover real families without treating surviving private homes as public museum spaces."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/relembrando-alguns-colonos-e-os-esquecidos-quarteiroes/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1847: Johann Gottlieb Kaiser construye una casa",
+          "PT": "1847: Johann Gottlieb Kaiser constrói uma casa",
+          "EN": "1847: Johann Gottlieb Kaiser's house"
+        },
+        "paragraphs": [
+          {
+            "ES": "La actual Casa do Colono fue construida aproximadamente en 1847 por Johann Gottlieb Kaiser, de origen alemán y antiguo militar del Ejército Imperial Brasileño. Es un detalle importante: las investigaciones del IHP señalan que él no era uno de los agricultores colonos llegados en 1845. Kaiser adquirió terrenos identificados con los números 1632 y 1633 del quarteirão; las escrituras se formalizaron en junio de 1847. Construyó una vivienda para su familia junto al antiguo Caminho Colonial, cerca del río Verna.",
+            "PT": "A atual Casa do Colono foi construída por volta de 1847 por Johann Gottlieb Kaiser, de origem alemã e ex-militar do Exército Imperial Brasileiro. Detalhe importante: pesquisas do IHP destacam que ele não era um dos colonos agricultores chegados em 1845. Kaiser adquiriu prazos identificados pelos números 1632 e 1633; escrituras foram assinadas em junho de 1847. A casa familiar ficava junto ao antigo Caminho Colonial, perto do rio Verna.",
+            "EN": "Today's Casa do Colono was built around 1847 for Johann Gottlieb Kaiser, a German-born former soldier in Brazil's Imperial Army. IHP historians stress that he was not one of the agricultural settlers who arrived in 1845. He acquired plots numbered 1632 and 1633, signing deeds in June 1847. The family home stood beside the old colonial road near the Verna River."
+          },
+          {
+            "ES": "Según el mismo estudio, en 1865 Kaiser entregó la casa a su hija Anne Marie con ocasión de su matrimonio con Nicolau Sutter, hijo del colono Heinrich Sutter. Esa conexión familiar posterior ayuda a explicar por qué la residencia representa hoy la memoria de la colonización, aunque su primer propietario tuviera otra trayectoria. Contar ambas historias da más valor al museo que repetir una etiqueta simplificada.",
+            "PT": "Segundo o mesmo estudo, em 1865 Kaiser presenteou a filha Anne Marie com a casa por ocasião do casamento com Nicolau Sutter, filho do colono Heinrich Sutter. O vínculo familiar posterior ajuda a entender por que o imóvel representa hoje a memória da colonização, embora o primeiro proprietário tenha outra trajetória. Narrar ambas as histórias valoriza o museu mais que repetir rótulo simplificado.",
+            "EN": "The same research says Kaiser gave the house to his daughter Anne Marie in 1865 when she married Nicolau Sutter, a son of settler Heinrich Sutter. That later family connection helps explain the building's role in settlement memory despite its first owner's different background. The complete story is more valuable than a simplified museum label."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/raridades-da-imperial-colonia-de-petropolis/",
+          "https://ihp.org.br/historia-e-o-turismo-em-petropolis-a/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "La arquitectura doméstica: pau-a-pique, madera y cubierta",
+          "PT": "Arquitetura doméstica: pau-a-pique, madeira e cobertura",
+          "EN": "Domestic architecture: timber, earth and roofing"
+        },
+        "paragraphs": [
+          {
+            "ES": "La construcción recuerda técnicas presentes en viviendas de comunidades de la región alemana de Hunsrück y los valles del Mosela. Las descripciones institucionales destacan paredes de pau-a-pique, entramados de madera, barro y cubierta metálica, con ambientes organizados para la vida familiar. No es un pequeño palacio, sino una muestra material de otras formas de habitar Petrópolis. Para comprenderla hay que mirar la escala humana de las habitaciones, los materiales y las soluciones adaptadas al clima local.",
+            "PT": "A construção lembra técnicas de casas de comunidades da região alemã de Hunsrück e dos vales do Mosela. Fontes institucionais destacam paredes de pau-a-pique, estrutura de madeira, barro e cobertura metálica, com espaços voltados ao cotidiano familiar. Não é palacete: representa outras maneiras de habitar Petrópolis. Observe a escala dos cômodos, materiais e adaptações ao clima serrano.",
+            "EN": "The building recalls vernacular methods associated with communities from Germany's Hunsrück region and Moselle valleys. Institutional accounts describe wattle-and-daub walls, timber, earth and metal roofing, with rooms arranged around family life. This is not a miniature palace; it preserves a different way of living in Petrópolis. Look at room scale, materials and adaptation to the mountain climate."
+          },
+          {
+            "ES": "Los museos históricos también cambian con restauraciones y procesos de conservación. No todo objeto expuesto perteneció necesariamente al primer habitante: las colecciones pueden reunir donaciones de descendientes y piezas relacionadas con una época. Diferenciar el edificio original de los objetos incorporados después permite evitar una reconstrucción imaginaria de la vida de 1847.",
+            "PT": "Museus históricos também mudam com restaurações e ações de conservação. Nem todo objeto exposto pertenceu ao primeiro morador: o acervo pode reunir doações de descendentes e peças representativas de uma época. Distinguir construção original e objetos incorporados depois evita reconstruções imaginárias do cotidiano de 1847.",
+            "EN": "Historic museums also change through restoration and collection building. Not every object on display belonged to the first resident: collections can include descendants' donations and period artefacts. Distinguishing the house itself from later acquisitions prevents an invented reconstruction of a single household in 1847."
+          }
+        ],
+        "sources": [
+          "https://www.turismo.rj.gov.br/cidades/petropolis/",
+          "https://ihp.org.br/raridades-da-imperial-colonia-de-petropolis/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Objetos que cuentan el trabajo y la vida cotidiana",
+          "PT": "Objetos que contam o trabalho e o cotidiano",
+          "EN": "Objects that document work and daily life"
+        },
+        "paragraphs": [
+          {
+            "ES": "El Museu Casa do Colono reúne utensilios domésticos, herramientas vinculadas al trabajo agrícola, mobiliario, fotografías y objetos personales. Una visita atenta muestra cómo se preparaban alimentos, se conservaban provisiones y se organizaba una vivienda modesta. También abre preguntas sobre la división del trabajo doméstico, la infancia y las redes familiares. Los objetos son pruebas materiales: se deben interpretar y fechar cuando sea posible, sin atribuir historias específicas que los inventarios no registran.",
+            "PT": "O Museu Casa do Colono reúne utensílios domésticos, ferramentas de trabalho agrícola, móveis, fotografias e objetos pessoais. Uma visita cuidadosa mostra preparo de alimentos, conservação de provisões e organização de uma casa modesta. Também abre questões sobre trabalho doméstico, infância e redes familiares. Os objetos são fontes materiais: devem ser interpretados e datados quando possível, sem atribuir histórias não registradas no inventário.",
+            "EN": "Museu Casa do Colono displays household utensils, agricultural work tools, furniture, photographs and personal objects. Close observation reveals food preparation, storage and the organisation of a modest home. It also prompts questions about domestic labour, childhood and family networks. Artefacts are historical evidence, but they should be dated and attributed carefully rather than assigned imagined personal stories."
+          },
+          {
+            "ES": "Es un contraste enriquecedor con el Museu Imperial: en un mismo destino podemos recorrer la residencia de la élite y una vivienda asociada a memorias de trabajo e inmigración. El valor de Castelânea reside justamente en ampliar la idea de quién construyó la ciudad. La visita también puede servir para conversar sobre diferencias entre inmigrantes, colonos agrícolas y otras poblaciones que participaron de la historia petropolitana.",
+            "PT": "É um contraste produtivo com o Museu Imperial: no mesmo destino podemos conhecer residência da elite e casa ligada a memórias de trabalho e imigração. O valor da Castelânea está em ampliar a pergunta sobre quem construiu a cidade. A visita também ajuda a diferenciar imigrantes, colonos agrícolas e outras populações da história petropolitana.",
+            "EN": "The museum offers a revealing contrast with the Imperial Museum: visitors encounter both an elite residence and a house associated with migration and labour. Castelânea broadens the question of who built the city. It also helps distinguish immigrants, agricultural settlers and other communities involved in Petrópolis's past."
+          }
+        ],
+        "sources": [
+          "https://www.turismo.rj.gov.br/cidades/petropolis/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Del hogar familiar al museo municipal de 1976",
+          "PT": "Da casa familiar ao museu municipal de 1976",
+          "EN": "From family house to municipal museum in 1976"
+        },
+        "paragraphs": [
+          {
+            "ES": "Durante el siglo XX creció el interés en conservar objetos y edificios vinculados con la colonización germánica. Paulo Roberto Martins de Oliveira atribuye al historiador Gustavo Ernesto Bauer y a colaboradores una campaña que, desde fines de los años sesenta, buscó una vivienda apropiada para un museo. La familia propietaria y la municipalidad participaron en la adquisición y restauración de la casa. El Museu Casa do Colono abrió en 1976, un paso importante para llevar la memoria de los trabajadores y las familias al circuito cultural.",
+            "PT": "No século XX cresceu o interesse em conservar edifícios e objetos ligados à colonização germânica. Paulo Roberto Martins de Oliveira atribui ao historiador Gustavo Ernesto Bauer e a colaboradores a campanha iniciada no fim dos anos 1960 para instalar o museu. A família proprietária e a prefeitura participaram da aquisição e restauração. O Museu Casa do Colono abriu em 1976, dando espaço cultural à memória de famílias e trabalhadores.",
+            "EN": "In the twentieth century, interest grew in preserving buildings and objects associated with German settlement. Paulo Roberto Martins de Oliveira credits historian Gustavo Ernesto Bauer and collaborators with a late-1960s effort to establish a museum. The owning family and municipality participated in acquiring and restoring the house. Museu Casa do Colono opened in 1976, creating a public cultural space for family and working histories."
+          },
+          {
+            "ES": "La musealización no borró la historia residencial original, pero cambió el significado del edificio. Hoy funciona como patrimonio público y lugar de educación, con objetos reunidos de distintos orígenes. En 2026 la casa completó cincuenta años de actividad museística, un aniversario útil para discutir cómo los relatos sobre inmigración se han transformado y qué historias todavía necesitan mayor investigación.",
+            "PT": "A musealização não apagou a origem residencial, mas mudou o significado do prédio. Hoje é patrimônio público e espaço educativo, com acervo reunido de diferentes origens. Em 2026, a casa completou cinquenta anos como museu, ocasião para refletir sobre mudanças na memória da imigração e lacunas que ainda exigem pesquisa.",
+            "EN": "Turning the building into a museum did not erase its domestic past but changed its public meaning. It now serves educational purposes with a collection assembled over time. The museum marked its fiftieth anniversary in 2026, an opportunity to reflect on changing migration narratives and histories that still deserve research."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/raridades-da-imperial-colonia-de-petropolis/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Kastellaun, Hunsrück y la memoria del nombre",
+          "PT": "Kastellaun, Hunsrück e a memória do nome",
+          "EN": "Kastellaun, Hunsrück and the neighbourhood's name"
+        },
+        "paragraphs": [
+          {
+            "ES": "La tradición histórica y turística relaciona Castelânea con Kastellaun, localidad del Hunsrück alemán vinculada a los orígenes de familias que emigraron a Petrópolis. La permanencia de nombres germánicos en quarteirões permite estudiar la geografía cultural del proyecto colonial: trasladar topónimos era también conservar referencias familiares en un territorio nuevo. No debemos suponer que todos los habitantes actuales comparten ese origen: el barrio cambió y recibió poblaciones con diferentes trayectorias.",
+            "PT": "A tradição histórica e turística relaciona Castelânea a Kastellaun, localidade alemã do Hunsrück ligada à origem de famílias que emigraram para Petrópolis. A presença de nomes germânicos em quarteirões permite estudar a geografia cultural do projeto colonial: transportar topônimos também preservava referências familiares em outro território. Não significa que todos os moradores de hoje tenham a mesma origem; o bairro mudou e recebeu pessoas de trajetórias diversas.",
+            "EN": "Historical and tourism traditions connect Castelânea with Kastellaun in Germany's Hunsrück region, an area associated with some emigrant families. German-derived allotment names reveal the cultural geography of settlement: transplanted place names helped preserve ties to distant origins. This does not mean every modern resident shares that heritage; the district has evolved through many kinds of migration."
+          },
+          {
+            "ES": "Más allá de la etimología, la memoria local se construye con mapas, documentos familiares, asociaciones y educación patrimonial. Las historias de un quarteirão y las de la ciudad entera no son intercambiables. Castelânea necesita un relato propio, de escala humana y con fuentes, sin ser presentada como simple apéndice del Centro Histórico.",
+            "PT": "Além da etimologia, a memória local se constrói com mapas, documentos familiares, associações e educação patrimonial. A história de um quarteirão não é idêntica à da cidade inteira. Castelânea merece narrativa própria, de escala humana e sustentada em fontes, e não ser tratada como anexo do Centro Histórico.",
+            "EN": "Beyond etymology, local memory develops through maps, family records, associations and heritage education. A single allotment's history is not identical to that of the entire city. Castelânea deserves its own documented, human-scale narrative rather than being treated as an annex of the historic centre."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/relembrando-alguns-colonos-e-os-esquecidos-quarteiroes/",
+          "https://www.pcvb.com.br/o-que-fazer/perfil/museu-casa-do-colono"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Un recorrido real: cómo visitar Castelânea con respeto",
+          "PT": "Um roteiro real: como visitar Castelânea com respeito",
+          "EN": "A practical and respectful visit to Castelânea"
+        },
+        "paragraphs": [
+          {
+            "ES": "El eje de una visita es la Casa do Colono, en Rua Cristóvão Colombo 1034. Es un sector separado del conjunto peatonal del Museu Imperial y la Catedral: conviene calcular traslado de ida y regreso antes de salir. El portal estatal de Turismo RJ identifica el museo, su acervo y la entrada gratuita; como las fuentes publican horarios distintos en diversas épocas, lo responsable es confirmar la apertura con la institución antes de emprender el viaje.",
+            "PT": "O eixo da visita é a Casa do Colono, na Rua Cristóvão Colombo, 1034. Ela fica fora do circuito a pé do Museu Imperial e da Catedral: organize ida e volta antes de sair. O portal estadual Turismo RJ descreve o museu, acervo e gratuidade; como horários divulgados mudaram em diferentes épocas, confirme a abertura com a instituição antes do deslocamento.",
+            "EN": "Casa do Colono at Rua Cristóvão Colombo 1034 anchors the visit. It is separate from the walkable Imperial Museum and cathedral circuit, so plan transport both ways. The Rio de Janeiro state tourism portal lists the museum, collections and free entry; as opening hours differ among published sources, confirm the current schedule with the institution before travelling."
+          },
+          {
+            "ES": "Si continúas hacia el antiguo Caminho Colonial, hoy vinculado a Rua Saldanha Marinho, observa la topografía y el tejido residencial desde áreas públicas. No transformes casas antiguas en puntos de visita sin permiso. Para quien tiene movilidad reducida, una vivienda de 1847 puede presentar escalones y limitaciones de circulación: consulta las condiciones de accesibilidad directamente, sin prometer un acceso que no se ha comprobado.",
+            "PT": "Se continuar pelo antigo Caminho Colonial, hoje associado à Rua Saldanha Marinho, observe relevo e paisagem residencial das áreas públicas. Não trate casas antigas como espaços de visita sem autorização. Para pessoas com mobilidade reduzida, uma construção de 1847 pode ter degraus e restrições: consulte diretamente a acessibilidade, sem prometer acesso não confirmado.",
+            "EN": "If continuing towards the old colonial route associated with Rua Saldanha Marinho, observe the landscape from public areas. Historic private houses are not tourist venues unless permission is granted. A house dating from 1847 may present steps or movement restrictions, so visitors with reduced mobility should confirm accessibility directly rather than rely on unverified assurances."
+          }
+        ],
+        "sources": [
+          "https://www.turismo.rj.gov.br/cidades/petropolis/",
+          "https://ihp.org.br/relembrando-alguns-colonos-e-os-esquecidos-quarteiroes/"
+        ]
+      }
+    ],
+    "timeline": [
+      [
+        "1843–1845",
+        {
+          "ES": "Se organiza la colonia y llegan familias germánicas.",
+          "PT": "Organiza-se a colônia e chegam famílias germânicas.",
+          "EN": "The planned colony develops and German families arrive."
+        }
+      ],
+      [
+        "1847",
+        {
+          "ES": "Kaiser formaliza terrenos y construye la casa.",
+          "PT": "Kaiser formaliza terras e constrói sua casa.",
+          "EN": "Kaiser acquires land and builds his family house."
+        }
+      ],
+      [
+        "1865",
+        {
+          "ES": "La vivienda pasa a Anne Marie Kaiser, según estudio del IHP.",
+          "PT": "A casa passa a Anne Marie Kaiser, segundo pesquisa do IHP.",
+          "EN": "The home passes to Anne Marie Kaiser, according to IHP research."
+        }
+      ],
+      [
+        "Siglo XIX",
+        {
+          "ES": "Las familias desarrollan parcelas, oficios y caminos.",
+          "PT": "Famílias desenvolvem prazos, ofícios e caminhos.",
+          "EN": "Families develop plots, trades and roads."
+        }
+      ],
+      [
+        "1967 aprox.",
+        {
+          "ES": "Impulso a la creación de un museo de la colonización.",
+          "PT": "Mobilização pela criação do museu da colonização.",
+          "EN": "Campaign grows for a settlement-history museum."
+        }
+      ],
+      [
+        "1976",
+        {
+          "ES": "La antigua residencia abre como Museu Casa do Colono.",
+          "PT": "A antiga residência abre como Museu Casa do Colono.",
+          "EN": "The residence opens as Museu Casa do Colono."
+        }
+      ],
+      [
+        "2026",
+        {
+          "ES": "Cincuenta años de memoria museística.",
+          "PT": "Cinquenta anos de memória museológica.",
+          "EN": "Fifty years of museum history."
+        }
+      ]
+    ],
+    "stops": [
+      {
+        "name": "Museu Casa do Colono",
+        "note": {
+          "ES": "Vivienda de 1847 y colección de vida doméstica. Confirma apertura antes de ir.",
+          "PT": "Casa de 1847 e acervo doméstico. Confira funcionamento antes de ir.",
+          "EN": "1847 home and domestic-life museum; check opening in advance."
+        },
+        "location": "Rua Cristóvão Colombo 1034 Castelânea Petrópolis RJ Brasil",
+        "route": "cultura/casa-do-colono/"
+      },
+      {
+        "name": "Rua Cristóvão Colombo",
+        "note": {
+          "ES": "Eje del barrio para observar su escala, árboles y accesos, respetando casas privadas.",
+          "PT": "Eixo do bairro para observar escala, árvores e acessos, respeitando moradias.",
+          "EN": "Neighbourhood street for observing the setting; respect homes."
+        },
+        "location": "Rua Cristóvão Colombo Castelânea Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Rua Saldanha Marinho",
+        "note": {
+          "ES": "Relacionada al antiguo Caminho Colonial de los lotes históricos.",
+          "PT": "Relacionada ao antigo Caminho Colonial dos prazos históricos.",
+          "EN": "Associated with the former colonial route and historic land plots."
+        },
+        "location": "Rua Saldanha Marinho Castelânea Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Río Verna (paisaje del valle)",
+        "note": {
+          "ES": "Referencia geográfica en documentos del siglo XIX, no baño ni acceso garantizado.",
+          "PT": "Referência geográfica em documentos do século XIX, sem banho ou acesso garantido.",
+          "EN": "Historical landscape reference, not a swimming or guaranteed-access site."
+        },
+        "location": "Rio Verna Castelânea Petrópolis RJ Brasil"
+      }
+    ],
+    "bibliography": [
+      {
+        "label": "Paulo Roberto Martins de Oliveira · Raridades da Imperial Colônia de Petrópolis",
+        "url": "https://ihp.org.br/raridades-da-imperial-colonia-de-petropolis/",
+        "why": {
+          "ES": "Investigación sobre la casa, Kaiser, los terrenos y el museo.",
+          "PT": "Pesquisa sobre casa, Kaiser, prazos e museu.",
+          "EN": "Study of the house, Kaiser, the plots and museum history."
+        }
+      },
+      {
+        "label": "Paulo Roberto Martins de Oliveira · Relembrando alguns colonos e os esquecidos quarteirões",
+        "url": "https://ihp.org.br/relembrando-alguns-colonos-e-os-esquecidos-quarteiroes/",
+        "why": {
+          "ES": "Los 41 colonos, familias y parcelas de Castelânea.",
+          "PT": "Os 41 colonos, famílias e prazos de Castelânea.",
+          "EN": "The 41 settlers, families and land records."
+        }
+      },
+      {
+        "label": "IHP · História e o turismo em Petrópolis",
+        "url": "https://ihp.org.br/historia-e-o-turismo-em-petropolis-a/",
+        "why": {
+          "ES": "Correcciones a historias turísticas repetidas sin precisión.",
+          "PT": "Correções de versões turísticas imprecisas.",
+          "EN": "Corrections to historically inaccurate tourism narratives."
+        }
+      },
+      {
+        "label": "Turismo RJ · Museu Casa do Colono",
+        "url": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+        "why": {
+          "ES": "Información institucional del museo; horarios sujetos a confirmación.",
+          "PT": "Informações institucionais; horários devem ser confirmados.",
+          "EN": "Official museum listing; verify current hours."
+        }
+      },
+      {
+        "label": "MuseusBr / Mapa estadual · Casa do Colono",
+        "url": "https://mapa.secti.rj.gov.br/instituicao/museusbr-80203",
+        "why": {
+          "ES": "Registro de museo y dirección, no garantía de horario.",
+          "PT": "Cadastro da instituição e endereço, sem garantia de horário.",
+          "EN": "Museum registry and address, not a guaranteed schedule."
+        }
+      },
+      {
+        "label": "Petrópolis Convention & Visitors Bureau · Museu Casa do Colono",
+        "url": "https://www.pcvb.com.br/o-que-fazer/perfil/museu-casa-do-colono",
+        "why": {
+          "ES": "Contexto arquitectónico y referencia histórica al Hunsrück.",
+          "PT": "Contexto arquitetônico e referência ao Hunsrück.",
+          "EN": "Architecture and historical reference to Hunsrück."
+        }
+      },
+      {
+        "label": "Brasiliana Fotográfica · Vistas de Petrópolis",
+        "url": "https://brasilianafotografica.bn.gov.br/?tag=petropolis",
+        "why": {
+          "ES": "Fotografías del siglo XIX en acervos; verificar licencias antes de reproducir.",
+          "PT": "Fotografias do século XIX em acervos; verificar licenças antes do uso.",
+          "EN": "Archival nineteenth-century photographs; reuse rights need verification."
+        }
+      }
+    ]
   }
 };

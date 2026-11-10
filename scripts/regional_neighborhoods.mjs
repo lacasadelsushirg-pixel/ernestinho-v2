@@ -153,7 +153,7 @@ export function renderRegionalNeighborhood(city, slug, lang, photos) {
       ${photo ? `<div class="petr-bairro-photo"><figure>${picture(photo, area.name, '', true)}</figure>${photo.author && photo.source ?
         `<small class="petr-bairro-photo-credit">${text(t('Fotografía', 'Fotografia', 'Photograph'),lang)}: <a href="${esc(photo.source)}" target="_blank" rel="noopener noreferrer">${esc(photo.author)}</a></small>` : ''}</div>` : ''}
       ${detailed ? petrProfile(area, detailed, base, lang, slug) : ''}
-      ${city.slug === 'petropolis' && ['centro-historico','quitandinha','itaipava'].includes(slug) ? petrDeepCentre(base,lang,slug) : ''}
+      ${city.slug === 'petropolis' && ['centro-historico','quitandinha','itaipava','cascatinha-nogueira','castelanea'].includes(slug) ? petrDeepCentre(base,lang,slug) : ''}
       <article class="bh-cluster">
         <h2>${text(t('Qué ver y cómo moverte', 'O que ver e como circular', 'What to see and how to get around'), lang)}</h2>
         <p class="bh-cluster-intro">${text(area.visit, lang)}</p>
