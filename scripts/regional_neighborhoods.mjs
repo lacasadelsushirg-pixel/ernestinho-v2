@@ -2,6 +2,7 @@ import { esc, pre, styles, v } from './buzios_mirror_core.mjs';
 import { t } from '../assets/js/translations/destinos/modelo.js';
 import { regionalNeighborhoods } from '../assets/js/translations/destinos/barrios-regionales.js';
 import { petropolisDistrictEditorial } from '../assets/js/translations/destinos/petropolis-barrios-editorial.js';
+import { petropolisBarrioArchive } from '../assets/js/translations/destinos/petropolis-barrios-archivo.js';
 
 export const neighborhoodRoutes = Object.entries(regionalNeighborhoods).flatMap(([city, districts]) =>
   Object.keys(districts).map(slug => [city, 'barrios', slug]));
@@ -47,18 +48,32 @@ const petrCss = `<style>
 .petr-bairro-topic--text .petr-bairro-topic-summary{font-size:.96rem}
 .petr-bairro-photo-credit{display:block;font-size:.77rem;margin:6px 4px 0;color:#4a5c57}
 .petr-bairro-photo-credit a{color:#13564c;text-decoration:underline}
+.petr-bairro-chapters{display:grid;gap:21px;margin:28px 0 36px}
+.petr-bairro-chapter{padding:clamp(21px,3vw,35px);border-radius:20px;border:1px solid #d5e4de;background:#fff}
+.petr-bairro-chapter:nth-child(even){background:#f5faf7}
+.petr-bairro-chapter h2{color:#10564b;font-size:clamp(1.32rem,2.6vw,1.85rem);line-height:1.25;margin:0 0 14px}
+.petr-bairro-chapter p{max-width:85ch;line-height:1.95;font-size:1.02rem;margin:0;color:#25483f}
+.petr-bairro-archive-intro{max-width:1140px;margin:8px auto 26px;padding:clamp(20px,3vw,32px);border-radius:22px;background:#f1f7f4;border:1px solid #cfdfd7}
+.petr-bairro-archive-intro h2{font-size:clamp(1.35rem,3vw,1.85rem);color:#114d44;margin:0 0 12px}
+.petr-bairro-archive-intro p{max-width:96ch;line-height:1.85;margin:0 0 12px}
+.petr-bairro-archive-intro a{color:#125f53;font-weight:750}
 @media(max-width:600px){.petr-bairro-topic{min-height:248px}.petr-bairro-topic img{height:145px}}
 @media(max-width:800px){.petr-bairro-panels{grid-template-columns:1fr}.petr-bairro-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.petr-bairro-cards{grid-template-columns:1fr}.petr-bairro-profile{padding:16px}.petr-bairro-stop{padding:18px}}
 </style>`;
-function petrProfile(area, data, base, lang) {
+function petrProfile(area, data, base, lang, slug) {
+  const archive = petropolisBarrioArchive[slug];
+  const chapters = (archive?.chapters || []).map(chapter => `<article class="petr-bairro-chapter"><h2>${text(chapter.title, lang)}</h2>${p(chapter.body,lang)}</article>`).join('');
   const mapLink = query => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(query);
   const stops = data.points.map(point => `<article class="petr-bairro-stop"><h3>${esc(point.name)}</h3>${p(point.reason, lang)}
     <div class="petr-bairro-actions"><a target="_blank" rel="noopener noreferrer" href="${esc(mapLink(point.location))}">${text(t('Ver en el mapa', 'Ver no mapa', 'Open map'), lang)}</a>
     ${point.route ? navigate(base + point.route, t('Ver guía de visita', 'Abrir guia de visita', 'Read visitor guide'), lang) : ''}</div></article>`).join('');
-  const sources = data.sources.map(([url,name]) => `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(name)}</a>`).join('');
+  const sourceList = [...data.sources, ...(archive?.sources || [])];
+  const sources = [...new Map(sourceList.map(([url,name]) => [url,[url,name]])).values()]
+    .map(([url,name]) => `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(name)}</a>`).join('');
   return `<div class="petr-bairro-profile">
     <section class="petr-bairro-box"><h2>${text(t('Historia e identidad del barrio', 'História e identidade do bairro', 'History and local identity'),lang)}</h2><div class="petr-bairro-intro">${p(data.history,lang)}</div></section>
+    ${chapters ? `<section class="petr-bairro-chapters" aria-label="${text(t('Investigación histórica del barrio','Pesquisa histórica do bairro','Neighbourhood historical research'),lang)}">${chapters}</section>` : ''}
     <div class="petr-bairro-panels"><section class="petr-bairro-box"><h2>${text(t('Un recorrido que yo haría', 'Um passeio que eu faria', 'A route I would take'),lang)}</h2>${p(data.itinerary,lang)}</section>
       <section class="petr-bairro-box"><h2>${text(t('Cómo llegar y volver', 'Como chegar e voltar', 'How to get there and back'),lang)}</h2>${p(data.access,lang)}
       <span class="petr-bairro-time">${text(data.duration,lang)}</span></section></div>
@@ -86,7 +101,7 @@ export function renderRegionalNeighborhood(city, slug, lang, photos) {
       ${navigate(path, back, lang, 'rd-action')}
       ${photo ? `<div class="petr-bairro-photo"><figure>${picture(photo, area.name, '', true)}</figure>${photo.author && photo.source ?
         `<small class="petr-bairro-photo-credit">${text(t('Fotografía', 'Fotografia', 'Photograph'),lang)}: <a href="${esc(photo.source)}" target="_blank" rel="noopener noreferrer">${esc(photo.author)}</a></small>` : ''}</div>` : ''}
-      ${detailed ? petrProfile(area, detailed, base, lang) : ''}
+      ${detailed ? petrProfile(area, detailed, base, lang, slug) : ''}
       <article class="bh-cluster">
         <h2>${text(t('Qué ver y cómo moverte', 'O que ver e como circular', 'What to see and how to get around'), lang)}</h2>
         <p class="bh-cluster-intro">${text(area.visit, lang)}</p>
@@ -108,7 +123,8 @@ export function renderRegionalNeighborhood(city, slug, lang, photos) {
   }).join('');
   const clusters = entries.map(([id, area]) => `<a class="bh-cluster" href="${pre(lang) + path + id}/">
     <h3>${esc(area.name)}</h3><p class="bh-cluster-intro">${text(area.summary, lang)}</p><span class="bh-cluster-cta">${text(open, lang)}</span></a>`).join('');
-  const body = hero(title, intro) + `<section class="editorial bh-individual-index"><div class="section-head">
+  const archiveIntro = isPetropolis ? `<section class="editorial"><div class="petr-bairro-archive-intro"><h2>${text(t('Una ciudad que se cuenta barrio por barrio','Uma cidade contada bairro a bairro','A city told neighbourhood by neighbourhood'),lang)}</h2><p>${text(t('La historia de Petrópolis empieza mucho antes de sus monumentos. El plan de Koeler organizó la Vila Imperial y los quarteirões de familias trabajadoras e inmigrantes; después llegaron industrias, vías férreas, localidades rurales y nuevas formas de vivir en la sierra. Estas fichas reúnen capítulos históricos documentados y recorridos concretos.','A história de Petrópolis começa bem antes de seus monumentos. O plano de Koeler organizou a Vila Imperial e quarteirões de famílias trabalhadoras e imigrantes; depois vieram indústrias, ferrovias, regiões rurais e outras formas de viver na serra. As fichas reúnem pesquisa histórica documentada e roteiros concretos.','Petrópolis history begins long before its monuments. Koeler planned the Imperial Villa and neighbourhoods for working and immigrant families; industry, railways, rural communities and new ways of life followed. These guides bring documented history together with practical routes.'),lang)}</p><p>${text(t('Importante: los quarteirões históricos, los barrios actuales y los cinco distritos administrativos no son la misma división. Aquí usamos nombres útiles para el viajero y explicamos sus orígenes.','Importante: quarteirões históricos, bairros atuais e cinco distritos administrativos não são a mesma divisão. Usamos nomes úteis para o visitante e explicamos suas origens.','Important: historic allotments, modern neighbourhoods and the five administrative districts are different divisions. We use recognisable visitor-oriented names and explain their origins.'),lang)}</p><a href="https://ihp.org.br/os-quarteiroes/" target="_blank" rel="noopener noreferrer">${text(t('Consultar la investigación del Instituto Histórico de Petrópolis ↗','Consultar a pesquisa do Instituto Histórico de Petrópolis ↗','Read the Petrópolis Historical Institute research ↗'),lang)}</a></div></section>` : '';
+  const body = hero(title, intro) + archiveIntro + `<section class="editorial bh-individual-index"><div class="section-head">
     <h2>${text(t('Explora barrio por barrio', 'Explore bairro por bairro', 'Explore neighbourhood by neighbourhood'), lang)}</h2></div>
     <div class="topic-grid">${tiles}</div></section>
     <section class="editorial bh-zone-index"><div class="bh-clusters">${clusters}</div>
