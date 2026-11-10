@@ -4,6 +4,7 @@ import { practicalGuides } from './petropolis-guia-practica.js';
 import { arrivalGuide } from './petropolis-roteiros-chegada.js';
 import { itineraryGuide } from './petropolis-itinerarios.js';
 import { firstVisitGuide, withoutCarGuide } from './petropolis-primeira-sem-carro.js';
+import { frequentMistakesGuide } from './petropolis-errores-frecuentes.js';
 
 const tourism = 'https://www.petropolis.rj.gov.br/turispetro/';
 const museum = 'https://museuimperial.museus.gov.br/';
@@ -22,6 +23,7 @@ export default {
     'sin-auto': withoutCarGuide,
     'llegada': arrivalGuide,
     'itinerarios-1-2-3-dias': itineraryGuide,
+    'errores-frecuentes': frequentMistakesGuide,
     'clima-y-lluvia': {
       title: t('Clima de sierra y plan de lluvia', 'Clima de serra e plano de chuva', 'Mountain weather and rainy-day plans'),
       ...s(t('Prepara una capa extra y un plan bajo techo. Las vistas y los senderos lucen más cuando puedes elegir el momento.', 'Prepare uma camada extra e um programa coberto. Mirantes e trilhas rendem mais quando você pode escolher o momento.', 'Pack an extra layer and plan an indoor option. Viewpoints and trails are better when you can choose the timing.'), [
