@@ -1077,6 +1077,338 @@ export const petrDeepDining = {
           }
         }
       ]
+    },
+    "pizzeria-marambaia": {
+      "name": "Pizzeria Marambaia",
+      "area": "Corrêas",
+      "address": "Rua Dr. Agostinho Goulão, 2000",
+      "category": "italian",
+      "summary": {
+        "ES": "Pizzería contemporánea inaugurada en 2026 en Fazenda Marambaia, con pizzas de larga fermentación firmadas por Vitor Pizzi.",
+        "PT": "Pizzaria contemporânea inaugurada em 2026 na Fazenda Marambaia, com pizzas de longa fermentação criadas por Vitor Pizzi.",
+        "EN": "Contemporary pizzeria opened in 2026 at Fazenda Marambaia, featuring long-fermented pizzas by chef Vitor Pizzi."
+      },
+      "experience": {
+        "ES": "Probaría una pizza que destaque la masa y otra de ingredientes especiales; no confundirla con los otros restaurantes del complejo.",
+        "PT": "Eu provaria uma pizza que destaque a massa e outra de sabores autorais; não a confundiria com os demais restaurantes do complexo.",
+        "EN": "Try one pizza showcasing the dough and another with distinctive toppings; this is separate from the complex's other restaurants."
+      },
+      "advice": {
+        "ES": "La pizzería trabaja principalmente por la noche. Confirma la reserva, la entrada de Fazenda Marambaia y los horarios antes de conducir.",
+        "PT": "A pizzaria atende principalmente à noite. Confirme reserva, acesso à Fazenda Marambaia e horários antes de sair.",
+        "EN": "Primarily an evening venue. Confirm booking, Fazenda Marambaia access and opening times before setting off."
+      },
+      "reservation": {
+        "ES": "Teléfono publicado: +55 24 99288-7446. Verifica directamente horario y disponibilidad del menú.",
+        "PT": "Telefone divulgado: +55 24 99288-7446. Confirme diretamente horário e cardápio.",
+        "EN": "Published contact: +55 24 99288-7446. Verify current service and menu directly."
+      },
+      "source": "https://www.instagram.com/pizzeriamarambaia/",
+      "nearby": "/destinos/petropolis/barrios/correas-bonfim/",
+      "sources": [
+        {
+          "label": "Diário do Rio · Inauguración julio 2026",
+          "url": "https://diariodorio.com/pizzeria-marambaia-inaugura-em-correas-apostando-em-fermentacao-de-48-horas-e-receitas-inspiradas-na-tradicao-italiana/index.html"
+        },
+        {
+          "label": "VEJA RIO · Restaurantes de Petrópolis, julio 2026",
+          "url": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/"
+        },
+        {
+          "label": "Agenda Carioca · Pizzas de la casa, julio 2026",
+          "url": "https://agendacarioca.com.br/dia-da-pizza-lugares-para-celebrar-a-data-no-rio/"
+        },
+        {
+          "label": "Instagram oficial de la pizzería",
+          "url": "https://www.instagram.com/pizzeriamarambaia/"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "Un restaurante nuevo en la histórica Corrêas",
+            "PT": "Uma pizzaria nova na histórica Corrêas",
+            "EN": "A new restaurant in historic Corrêas"
+          },
+          "text": {
+            "ES": "La Pizzeria Marambaia abrió en 2026 dentro de Fazenda Marambaia, en Corrêas. La propuesta se centra en pizzas italianas contemporáneas y está dirigida por Vitor Pizzi, profesional especializado en cocina italiana. Aunque el entorno tenga aspecto de hacienda antigua, el restaurante no debe presentarse como centenario: la cocina de pizza es una incorporación reciente. Esta distinción ayuda a comprender la región, que reúne patrimonio rural, hospedajes y establecimientos gastronómicos modernos con identidades diferentes.",
+            "PT": "A Pizzeria Marambaia abriu em 2026 na Fazenda Marambaia, em Corrêas. A proposta gira em torno de pizzas italianas contemporâneas sob a direção de Vitor Pizzi, profissional especializado na cozinha da Itália. Embora a fazenda tenha atmosfera histórica, a pizzaria não deve ser chamada de centenária: sua operação é recente. A distinção ajuda a conhecer uma região com patrimônio rural, hospedagem e experiências gastronômicas modernas de identidades diferentes.",
+            "EN": "Pizzeria Marambaia opened in 2026 within Fazenda Marambaia in Corrêas. The restaurant focuses on contemporary Italian pizza under chef Vitor Pizzi, who specialises in Italian cooking. Although the farm setting has a historic atmosphere, the pizzeria itself is recent, not a century-old restaurant. This distinction matters in a district where rural heritage, boutique accommodation and several modern dining concepts coexist."
+          }
+        },
+        {
+          "title": {
+            "ES": "Quién es Vitor Pizzi y qué aporta",
+            "PT": "Quem é Vitor Pizzi e o que ele traz",
+            "EN": "Chef Vitor Pizzi and his approach"
+          },
+          "text": {
+            "ES": "La prensa gastronómica presenta a Vitor Pizzi como descendiente de italianos y cocinero con más de veinte años de experiencia. Sus estudios incluyen la Scuola Italiana Pizzaioli y el instituto ICIF, además de especializaciones en masa fresca. Su formación explica una carta donde la técnica de panadería tiene un papel protagonista. La guía no debe prometer que el chef estará personalmente en todas las mesas: su participación se refiere a la dirección y el concepto culinario del proyecto.",
+            "PT": "A imprensa apresenta Vitor Pizzi como descendente de italianos e cozinheiro com mais de vinte anos de carreira. Sua formação inclui a Scuola Italiana Pizzaioli, o ICIF e especializações em massas. Isso explica o destaque dado à técnica de panificação no cardápio. Não é correto prometer que o chef estará em cada atendimento; sua participação refere-se à proposta gastronômica e à condução culinária do projeto.",
+            "EN": "Food reports describe Vitor Pizzi as of Italian descent, with more than twenty years' experience and training at the Scuola Italiana Pizzaioli and ICIF, plus further pasta studies. That background explains why baking technique is central to the menu. It does not mean the chef personally serves every guest or prepares every individual pizza; his role is connected with the restaurant's culinary direction."
+          }
+        },
+        {
+          "title": {
+            "ES": "Biga y fermentación de 48 horas",
+            "PT": "Biga e fermentação de 48 horas",
+            "EN": "Biga and a 48-hour fermentation"
+          },
+          "text": {
+            "ES": "El proyecto utiliza una pre-fermentación llamada biga y un proceso que las notas de inauguración describen como de 48 horas. Trabaja con una mezcla de harinas italianas para obtener bordes elevados y un interior aireado, dentro de una interpretación moderna de la tradición napolitana. Fermentar durante más tiempo puede aportar aroma y estructura, pero no significa que el gluten desaparezca. Para valorar la masa, prueba el borde sin exceso de salsa antes de concentrarte en los ingredientes.",
+            "PT": "O projeto utiliza pré-fermento chamado biga e processo descrito nas matérias de inauguração como de 48 horas. Um blend de farinhas italianas busca bordas elevadas e interior aerado, numa interpretação contemporânea da pizza napolitana. Fermentação prolongada pode contribuir com aroma e estrutura, mas não elimina o glúten. Para conhecer a massa, prove a borda antes de se concentrar nos recheios.",
+            "EN": "The restaurant uses a pre-ferment called biga, with an approximately 48-hour process described in launch coverage. A blend of Italian flours creates raised crusts and an aerated interior in a contemporary interpretation of Neapolitan pizza. Longer fermentation may influence aroma and structure, but it does not eliminate gluten. Taste the crust before focusing on the toppings to appreciate the dough itself."
+          }
+        },
+        {
+          "title": {
+            "ES": "Veintitrés sabores en la carta de apertura",
+            "PT": "Vinte e três sabores no cardápio de abertura",
+            "EN": "Twenty-three pizzas on the opening menu"
+          },
+          "text": {
+            "ES": "Una publicación de julio de 2026 describió 23 sabores, desde combinaciones clásicas hasta versiones más creativas. Ese número corresponde a la carta anunciada en la época, no a una garantía de que todas las recetas continúen disponibles. Para elegir, pregunta qué pizzas se están preparando realmente, cuáles comparten ingredientes y si el tamaño es adecuado para una persona o para dividir. Conocer la variedad es útil, pero una carta antigua no debe sustituir la información del restaurante al reservar.",
+            "PT": "Uma publicação de julho de 2026 descreveu 23 sabores, entre clássicos e combinações criativas. O número corresponde à carta daquela época, não é promessa de que todos estejam disponíveis hoje. Antes de escolher, pergunte quais pizzas estão saindo, quais ingredientes aparecem em mais de uma receita e se o tamanho serve uma ou duas pessoas. A variedade ajuda a decidir, mas cardápio antigo não substitui informação atual da casa.",
+            "EN": "A July 2026 article described twenty-three pizza varieties ranging from familiar classics to more adventurous combinations. That figure refers to the opening period, not a promise of a permanent menu. Ask which pizzas are actually being served, whether certain ingredients overlap and whether a pizza is intended for one diner or for sharing. Historic menu variety is useful context but should never replace a current confirmation."
+          }
+        },
+        {
+          "title": {
+            "ES": "La Marambaia y la Brisket do Fuego",
+            "PT": "A Marambaia e a Brisket do Fuego",
+            "EN": "Marambaia and Brisket do Fuego pizzas"
+          },
+          "text": {
+            "ES": "Entre las recetas documentadas están Marambaia, con tomate San Marzano, fiordilatte, burrata, jamón de Parma y rúcula, y Brisket do Fuego, que combina carne de cocción lenta, quesos y notas cítricas. Ilustran la diferencia entre una pizza centrada en productos italianos y otra que dialoga con técnicas de carnes a la brasa. No aseguro que se mantengan en carta sin preguntar. Si evitas cerdo, lácteos o carne de res, consulta antes de pedir.",
+            "PT": "Entre receitas documentadas estão Marambaia, com tomate San Marzano, fiordilatte, burrata, presunto de Parma e rúcula, e Brisket do Fuego, que une carne de cocção lenta, queijos e notas cítricas. Mostram o contraste entre ingredientes italianos e influência da cozinha de brasa. Não se pode garantir presença permanente no cardápio sem conferir. Quem evita porco, leite ou carne bovina deve perguntar antes de pedir.",
+            "EN": "Documented opening dishes include the Marambaia pizza with San Marzano tomato, fiordilatte, burrata, Parma ham and rocket, and Brisket do Fuego, combining slow-cooked beef with cheeses and citrus notes. One foregrounds Italian ingredients; the other draws on fire-cooked meat traditions. Neither should be promised as permanently available. Diners avoiding pork, dairy or beef should check ingredients before ordering."
+          }
+        },
+        {
+          "title": {
+            "ES": "Guanciale, friarielli y combinaciones intensas",
+            "PT": "Guanciale, friarielli e sabores intensos",
+            "EN": "Guanciale, friarielli and bolder flavours"
+          },
+          "text": {
+            "ES": "VEJA RIO destacó la pizza guanciale e friarielli, con crema de ajo, quesos italianos, el vegetal friarielli, guanciale y pistacho tostado. La mezcla tiene sabores intensos, salados y cremosos, por lo que no es la elección más neutra para quien prefiere una margarita. El precio informado en julio de 2026 es solo una referencia histórica. Pregunta por el valor actual y por alérgenos como frutos secos o lácteos, especialmente si compartes con niños.",
+            "PT": "A VEJA RIO destacou a guanciale e friarielli, com creme de alho, queijos italianos, friarielli, guanciale e pistache torrado. É combinação intensa, salgada e cremosa, não necessariamente a primeira escolha para quem prefere margherita simples. O preço publicado em julho de 2026 é só referência de época. Confira valor vigente e alergênicos como castanhas e leite, especialmente ao dividir com crianças.",
+            "EN": "VEJA RIO highlighted guanciale e friarielli, combining garlic cream, Italian cheeses, friarielli greens, guanciale and toasted pistachio. This is a bold, salty and creamy combination rather than a neutral margherita. The July 2026 price is only a dated reference. Check the current price and allergens such as nuts and dairy, especially when sharing food with children."
+          }
+        },
+        {
+          "title": {
+            "ES": "No confundir con Fuego ni con Casa Marambaia",
+            "PT": "Não confundir com Fuego nem Casa Marambaia",
+            "EN": "Not the same as Fuego or Casa Marambaia"
+          },
+          "text": {
+            "ES": "Fazenda Marambaia reúne varias operaciones gastronómicas y de hospedaje. Pizzeria Marambaia, en el número 2000 de Rua Dr. Agostinho Goulão, no es lo mismo que Fuego Marambaia, especializado en brasa, ni que los restaurantes de Casa Marambaia, asociados a otra entrada del complejo. Puede que compartan paisaje, pero cada uno posee carta, horarios y reservas propios. Antes de salir indica al conductor el nombre completo Pizzeria Marambaia y comprueba la entrada correcta.",
+            "PT": "A Fazenda Marambaia reúne operações de gastronomia e hospedagem. A Pizzeria Marambaia, na Rua Dr. Agostinho Goulão, 2000, não é o mesmo restaurante que o Fuego Marambaia, voltado à brasa, nem os restaurantes da Casa Marambaia, ligados a outra entrada do conjunto. Compartilham região, mas têm cardápio, horários e reservas próprios. Informe ao motorista o nome completo e confira a portaria correta.",
+            "EN": "Fazenda Marambaia contains different dining and accommodation operations. Pizzeria Marambaia at Rua Dr. Agostinho Goulão 2000 is not Fuego Marambaia, which focuses on fire cooking, nor the restaurants of Casa Marambaia, associated with another entrance. They share the wider setting but have separate menus, hours and booking arrangements. Give your driver the full pizzeria name and verify the correct entrance."
+          }
+        },
+        {
+          "title": {
+            "ES": "Horarios de cena y reserva",
+            "PT": "Horários de jantar e reserva",
+            "EN": "Evening service and booking"
+          },
+          "text": {
+            "ES": "La noticia de inauguración indicaba atención de miércoles a domingo por la noche, con cierre más tarde los viernes y sábados. Horarios publicados en julio pueden haber cambiado en noviembre, por lo que una cena exige confirmación. El salón fue anunciado con capacidad para 112 personas, pero eso no garantiza mesa libre en temporada alta. Recomiendo reservar, preguntar por tolerancia a atrasos y confirmar si puede entrar quien no se hospeda en el complejo.",
+            "PT": "A notícia de inauguração indicava atendimento noturno de quarta a domingo, com fechamento mais tarde às sextas e sábados. Horários de julho podem ter mudado em novembro, então confirme antes de ir. A casa foi anunciada com 112 lugares, mas capacidade grande não garante mesa em datas disputadas. Recomendo reserva, consulta sobre atrasos e confirmação de acesso ao público que não está hospedado no complexo.",
+            "EN": "Launch reporting listed evening service Wednesday through Sunday, closing later on Fridays and Saturdays. July hours may have changed by November, so verify them before a dinner trip. Capacity was reported at 112 seats, but that does not guarantee a table on busy nights. Book ahead, ask about late arrivals and confirm the arrangements for guests who are not staying at the complex."
+          }
+        },
+        {
+          "title": {
+            "ES": "Para quién vale la pena y qué evitar",
+            "PT": "Para quem vale e o que evitar",
+            "EN": "Who it suits and what to avoid"
+          },
+          "text": {
+            "ES": "Es una elección para quienes buscan una cena de pizza con técnica, ingredientes especiales y un entorno más elaborado que una tienda de delivery. Si solo quieres una porción rápida al salir del museo, tendrás opciones más prácticas en el Centro. El desplazamiento a Corrêas debe planificarse por carretera; no es un paseo peatonal desde el Museu Imperial. Si hay lluvia, añade margen al trayecto y organiza el retorno, sobre todo si cenas tarde o consumes bebidas alcohólicas.",
+            "PT": "É escolha para quem busca pizza técnica, ingredientes especiais e ambiente mais elaborado que delivery de bairro. Para uma fatia rápida após o Museu Imperial, há opções mais práticas no Centro. O deslocamento a Corrêas exige estrada; não é caminhada do museu. Em dias de chuva, deixe margem e planeje a volta, principalmente para jantar tarde ou consumir bebidas alcoólicas.",
+            "EN": "This suits diners who want technically crafted pizza, distinctive ingredients and a more elaborate setting than a neighbourhood takeaway. For a quick slice after visiting the Imperial Museum, central Petrópolis has more convenient options. Reaching Corrêas requires road transport, not a walk from the museum. Allow extra time in rain and arrange the return, particularly for late dinners or if drinking alcohol."
+          }
+        },
+        {
+          "title": {
+            "ES": "Restricciones alimentarias y cuenta final",
+            "PT": "Restrições alimentares e conta final",
+            "EN": "Dietary requirements and the final bill"
+          },
+          "text": {
+            "ES": "La harina italiana tradicional contiene gluten, y la fermentación con biga no elimina ese problema para celíacos. Varias pizzas documentadas incluyen leche, cerdo y frutos secos; las alternativas vegetarianas o adaptadas deben confirmarse con la cocina. El presupuesto puede variar mucho entre una pizza sencilla, combinaciones con burrata o carnes y las bebidas. En vez de repetir precios fechados, pide el menú vigente y pregunta si hay servicio, couvert o algún cargo de reserva.",
+            "PT": "Farinha italiana tradicional contém glúten, e pré-fermentação com biga não a torna segura para celíacos. Algumas pizzas documentadas incluem leite, porco e castanhas; opções vegetarianas ou adaptadas precisam ser confirmadas. O gasto varia entre pizza simples, coberturas de burrata ou carne e bebidas. Em vez de repetir preços antigos, peça o cardápio atual e confira serviço, couvert e condições da reserva.",
+            "EN": "Traditional Italian wheat flour contains gluten, and using biga does not make it coeliac-safe. Documented pizzas include dairy, pork and nuts; vegetarian or other adaptations require confirmation with the kitchen. Spending can vary substantially between a basic pizza, burrata- or meat-heavy varieties and drinks. Instead of relying on old prices, ask for the current menu and check service, cover and booking charges."
+          }
+        }
+      ]
+    },
+    "restaurante-alvorada-araras": {
+      "name": "Restaurante Alvorada",
+      "area": "Araras",
+      "address": "Estrada Bernardo Coutinho, 1655",
+      "category": "restaurant",
+      "summary": {
+        "ES": "Restaurante de Araras abierto en 1987, conocido por sus asados a leña, cocina de temporada y mesas en un jardín con riachuelo.",
+        "PT": "Restaurante de Araras aberto em 1987, conhecido por assados à lenha, cozinha sazonal e mesas num jardim com riacho.",
+        "EN": "Araras restaurant open since 1987, noted for wood-fired cooking, seasonal dishes and garden tables beside a stream."
+      },
+      "experience": {
+        "ES": "Probaría un asado a leña o alguna preparación vegetal de temporada, dejando tiempo para disfrutar el jardín.",
+        "PT": "Eu provaria um assado à lenha ou prato vegetal da estação, com tempo para aproveitar o jardim.",
+        "EN": "Try a wood-fired main or a seasonal vegetable preparation and allow time for the garden."
+      },
+      "advice": {
+        "ES": "Es un restaurante de destino en Araras, no del Centro Histórico; reserva y comprueba horario de fin de semana.",
+        "PT": "É um restaurante de destino em Araras, não no Centro Histórico; reserve e confira os horários.",
+        "EN": "A destination restaurant in Araras, not downtown; book and check weekend opening."
+      },
+      "reservation": {
+        "ES": "Teléfono publicado: +55 24 2225-1118. Consulta disponibilidad de mesas al aire libre y menú.",
+        "PT": "Telefone divulgado: +55 24 2225-1118. Confirme mesas ao ar livre e cardápio.",
+        "EN": "Published telephone +55 24 2225-1118. Confirm garden seating and current menu."
+      },
+      "source": "https://circuitoararasvideiras.com.br/alvorada-restaurante/",
+      "nearby": "/destinos/petropolis/barrios/araras-vale-das-videiras/",
+      "sources": [
+        {
+          "label": "Circuito Araras Videiras · Restaurante Alvorada",
+          "url": "https://circuitoararasvideiras.com.br/alvorada-restaurante/"
+        },
+        {
+          "label": "Descubra Petrópolis · Araras e Videiras",
+          "url": "https://descubrapetropolis.com.br/araras-e-videiras/"
+        },
+        {
+          "label": "Guía regional y dirección",
+          "url": "https://www.turismo.rj.gov.br/cidades/petropolis/"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "Un restaurante de Araras desde 1987",
+            "PT": "Um restaurante de Araras desde 1987",
+            "EN": "An Araras restaurant since 1987"
+          },
+          "text": {
+            "ES": "El Alvorada comenzó a funcionar en 1987 y conserva una identidad estrechamente ligada al paisaje de Araras. El circuito gastronómico local relaciona el restaurante con el cocinero Paulo Pinho, conocido como Paulão, y con Marcia Marinho. No es una parada reciente de carretera ni una sucursal de comida industrial: se presenta como una casa donde la cocina y el ambiente fueron construyéndose con el paso de los años. La historia merece contarse sin confundirlo con otros negocios llamados Alvorada en Petrópolis.",
+            "PT": "O Alvorada abriu em 1987 e mantém identidade ligada à paisagem de Araras. O circuito gastronômico local associa a casa ao cozinheiro Paulo Pinho, conhecido como Paulão, e à parceria com Marcia Marinho. Não é parada recente de estrada nem franquia de comida industrial: a cozinha e o ambiente foram se formando ao longo de décadas. Essa história deve ser contada sem confundir o restaurante com outros estabelecimentos chamados Alvorada em Petrópolis.",
+            "EN": "Alvorada opened in 1987 and developed an identity closely connected with the Araras landscape. The local gastronomic circuit associates the restaurant with chef Paulo Pinho, known as Paulão, and his partner Marcia Marinho. It is not a recent roadside chain: both the kitchen and setting have evolved over decades. Its story should be distinguished from other businesses in Petrópolis that happen to use the name Alvorada."
+          }
+        },
+        {
+          "title": {
+            "ES": "El horno a leña es protagonista",
+            "PT": "O forno a lenha é protagonista",
+            "EN": "The wood-fired oven is central"
+          },
+          "text": {
+            "ES": "El elemento principal de su cocina son los asados a leña, descritos por el propio circuito local como parte central de la experiencia. El calor y los aromas del horno influyen en carnes, vegetales y preparaciones más sencillas. No todo plato pasa necesariamente por el mismo horno; conviene preguntar cuáles son las especialidades de leña disponibles ese día. Si te gusta comprender una cocina, elegir uno de esos asados es una forma más representativa de conocer la casa que pedir un plato genérico sin relación con su propuesta.",
+            "PT": "O destaque da cozinha são os assados à lenha, descritos pelo circuito local como parte da identidade do restaurante. Calor e aroma do forno influenciam carnes, vegetais e preparações simples. Isso não quer dizer que todo prato passe pelo mesmo forno: pergunte pelas especialidades à lenha do dia. Para conhecer a casa, escolher um assado costuma representar melhor a proposta do que pedir prato genérico sem relação com seu estilo.",
+            "EN": "Wood-fired roasting is a defining element, described by the local tourism circuit as central to the restaurant's approach. The oven's heat and aroma affect meat, vegetables and simpler dishes. It does not follow that every item is cooked in exactly the same way: ask which wood-fired preparations are available that day. Choosing one of those is often a better introduction than ordering something unrelated to the house's style."
+          }
+        },
+        {
+          "title": {
+            "ES": "Palmitos, trucha y pato a la leña",
+            "PT": "Palmitos, truta e pato à lenha",
+            "EN": "Palm hearts, trout and wood-roasted duck"
+          },
+          "text": {
+            "ES": "Las referencias gastronómicas mencionan palmito fresco asado, trucha y pato, además de otras preparaciones que cambian. Son ejemplos de cómo el horno sirve tanto productos vegetales como carnes y pescados. La trucha resulta apropiada para quien prefiere pescado, mientras el pato puede ofrecer sabores más intensos. No prometemos que estén todos los días: la disponibilidad depende de la carta, de los proveedores y de la cocina. Confirma guarniciones y tamaño antes de pedir para compartir.",
+            "PT": "As referências gastronômicas mencionam palmito fresco assado, truta e pato, além de preparações variáveis. São exemplos de como o forno serve produtos vegetais, peixes e carnes. A truta pode interessar a quem prefere peixe, enquanto o pato tem sabor mais intenso. Não prometemos todos os pratos diariamente: disponibilidade depende do cardápio e de fornecedores. Confira acompanhamentos e tamanho antes de dividir.",
+            "EN": "Gastronomic guides mention freshly roasted palm heart, trout and duck alongside other changing dishes. They show how the oven can bring out vegetables, fish and meat. Trout may suit fish lovers while duck offers richer flavours. These are documented examples, not guarantees for every day of the week: availability depends on the menu and suppliers. Check accompaniments and portion sizes before ordering to share."
+          }
+        },
+        {
+          "title": {
+            "ES": "El cordero y los purés brasileños",
+            "PT": "O cordeiro e os purês brasileiros",
+            "EN": "Lamb and Brazilian-style purées"
+          },
+          "text": {
+            "ES": "El cordero asado es una de las preparaciones tradicionalmente destacadas, acompañado en ciertas descripciones por puré de mandioca, batata baroa o papas rösti. El contraste entre carne de larga cocción y tubérculos es una buena muestra de cocina serrana con influencias diversas. Si buscas ese plato, pregunta directamente si está disponible y cuál es la cocción prevista; un restaurante con productos frescos puede no preparar todas las carnes todo el tiempo. Elige también según apetito y número de personas.",
+            "PT": "O cordeiro assado aparece entre especialidades citadas, acompanhado em algumas descrições por purê de aipim, batata-baroa ou batata rösti. A combinação de carne preparada com calma e raízes mostra cozinha serrana com influências diversas. Se deseja esse prato, confirme disponibilidade e preparo; uma casa de produtos frescos não precisa servir todas as carnes sempre. Escolha também conforme o apetite e quantidade de pessoas à mesa.",
+            "EN": "Roast lamb is among the regularly cited house specialities, with descriptions mentioning cassava, arracacha or rösti potato accompaniments. Slow-cooked meat and roots express a mountain style influenced by several cooking traditions. If planning to order lamb, check that it is being served and ask about preparation: a fresh-produce kitchen does not necessarily offer every meat each day. Consider appetite and party size before selecting accompaniments."
+          }
+        },
+        {
+          "title": {
+            "ES": "Moqueca de hongos y opciones vegetales",
+            "PT": "Moqueca de cogumelos e opções vegetais",
+            "EN": "Mushroom moqueca and vegetable choices"
+          },
+          "text": {
+            "ES": "El circuito Araras Videiras menciona una moqueca de hongos y vegetales asados a leña entre las opciones vegetarianas. Es una señal positiva para quien no come carne, pero no equivale a garantizar una cocina vegana sin contaminación cruzada. La moqueca puede incluir ingredientes muy diferentes según el cocinero, incluidos aceites y caldos que deben comprobarse. En tu reserva, explica restricciones de leche, pescado, huevos o gluten y solicita qué puede preparar el equipo en la fecha concreta.",
+            "PT": "O circuito Araras Videiras cita moqueca de cogumelos e legumes assados à lenha entre as opções vegetarianas. É boa notícia para quem não come carne, mas não garante cozinha vegana sem contaminação cruzada. Uma moqueca pode mudar de ingredientes conforme o cozinheiro, incluindo caldos e gorduras a conferir. Na reserva, comunique restrições de leite, peixe, ovo ou glúten e pergunte o que a equipe pode preparar na data.",
+            "EN": "The Araras Videiras circuit mentions mushroom moqueca and wood-roasted vegetables as vegetarian options. That is welcome for guests avoiding meat but does not establish an entirely vegan or cross-contact-free kitchen. Moqueca ingredients may vary, including stocks and cooking fats that need checking. When booking, mention restrictions involving dairy, fish, eggs or gluten and ask what the team can prepare on your specific date."
+          }
+        },
+        {
+          "title": {
+            "ES": "Una carta que cambia con las estaciones",
+            "PT": "Uma carta que muda com as estações",
+            "EN": "A menu shaped by the season"
+          },
+          "text": {
+            "ES": "El restaurante utiliza un pizarrón con sugerencias estacionales y productos que llegan de la sierra o de otras regiones de Brasil. Esto permite que la propuesta evolucione y no quede atrapada en un menú idéntico durante todo el año. Mi consejo es preguntar qué plato de temporada recomendaría la cocina antes de elegir una receta vista en una fotografía antigua. Los cambios de carta no son necesariamente falta de consistencia: pueden reflejar cosechas, clima y disponibilidad de ingredientes frescos.",
+            "PT": "O restaurante utiliza quadro de sugestões sazonais com produtos da serra e de outras regiões brasileiras. Isso permite evolução da cozinha sem repetir cardápio idêntico o ano inteiro. Minha dica é perguntar qual preparo da estação a equipe recomenda antes de escolher receita de foto antiga. Mudanças de carta não significam necessariamente falta de consistência: podem acompanhar safras, clima e disponibilidade de ingredientes frescos.",
+            "EN": "The restaurant uses a blackboard of seasonal suggestions, including produce from the mountains and elsewhere in Brazil. This allows the cooking to evolve instead of relying on the same menu all year. Ask which seasonal dish the kitchen recommends before choosing something seen in an older photograph. Changes are not necessarily inconsistency: they can reflect harvests, weather and fresh-ingredient supply."
+          }
+        },
+        {
+          "title": {
+            "ES": "Mesas, jardín y un arroyo",
+            "PT": "Mesas, jardim e um riacho",
+            "EN": "Garden tables and a stream"
+          },
+          "text": {
+            "ES": "El entorno es parte de la visita: una casa acogedora con arte, flores, chimeneas y espacios al aire libre, incluidos lugares bajo árboles cerca de un arroyo. Una mesa del jardín puede ser muy agradable en buen tiempo, pero no es automáticamente la mejor para lluvia intensa, frío o personas que necesitan caminar poco. Si te interesa comer afuera, consulta disponibilidad y condiciones antes de salir. El arroyo se aprecia como paisaje; no es motivo para entrar al agua o atravesar áreas privadas.",
+            "PT": "O ambiente participa da experiência: casa acolhedora com arte, flores, lareiras e mesas ao ar livre, inclusive sob árvores perto do riacho. Mesa de jardim é ótima em tempo bom, mas pode não ser ideal com chuva forte, frio ou dificuldade de locomoção. Se deseja comer fora, consulte disponibilidade e condições antes de sair. O riacho faz parte da paisagem, não é convite para entrar na água ou atravessar áreas particulares.",
+            "EN": "The setting is part of the meal: a welcoming house with art, flowers, fireplaces and outdoor seating, including places under trees near a stream. A garden table may be lovely in fine weather but unsuitable in heavy rain, cold or for someone with limited mobility. Ask about outdoor seating before travelling. Enjoy the stream as scenery rather than entering the water or crossing private areas."
+          }
+        },
+        {
+          "title": {
+            "ES": "Productores, vino y compras de la región",
+            "PT": "Produtores, vinho e compras na região",
+            "EN": "Local producers, wine and shopping"
+          },
+          "text": {
+            "ES": "El Alvorada ha participado de encuentros que combinan cocina y degustaciones de vino; además, referencias regionales mencionan un pequeño espacio de productos artesanales vinculado al terreno. La programación y el comercio pueden cambiar, por lo que conviene confirmar si habrá actividad en tu fecha. Si vas a comprar pan, queso u otros productos, pregunta por origen y conservación para el regreso. Una experiencia rural gana valor cuando se conoce quién produce los ingredientes y cómo sostienen las comunidades locales.",
+            "PT": "O Alvorada participa de encontros que unem cozinha e degustações de vinhos; referências regionais também mencionam pequeno espaço de produtos artesanais ligado à área. Programação e comércio podem mudar, portanto confira atividades na data. Ao comprar pão, queijo ou outros produtos, pergunte origem e conservação para a viagem. A experiência rural ganha sentido quando se conhece quem produz ingredientes e como o trabalho sustenta a comunidade.",
+            "EN": "Alvorada has hosted events pairing food with wine tasting, and regional sources mention a small artisan-products space associated with the property. Events and shops may change, so confirm current availability. When buying breads, cheese or other local goods, ask about producers and safe transport. A rural food outing gains depth when travellers understand who supplies ingredients and how those livelihoods support the community."
+          }
+        },
+        {
+          "title": {
+            "ES": "Como llegar y organizar una comida tranquila",
+            "PT": "Como chegar e organizar uma refeição sem pressa",
+            "EN": "Getting there and planning a relaxed meal"
+          },
+          "text": {
+            "ES": "Está en Estrada Bernardo Coutinho 1655, Araras, no en el Centro de Petrópolis. Las fuentes locales describen servicio concentrado en viernes, sábado, domingo y feriados, pero no debemos convertir horarios de directorios en promesa para todas las fechas. Para almorzar, reserva con antelación, guarda el número de la calle y calcula transporte de vuelta. Las carreteras rurales de Araras tienen curvas; no recomiendo terminar una comida larga y salir con un regreso demasiado ajustado.",
+            "PT": "Fica na Estrada Bernardo Coutinho, 1655, Araras, não no Centro de Petrópolis. Fontes locais registram atendimento principalmente sexta, sábado, domingo e feriados, mas horário de diretório não é garantia eterna. Para almoçar, reserve antes, salve o número e planeje a volta. Estradas rurais de Araras têm curvas; não recomendo terminar refeição longa com deslocamento de retorno apertado.",
+            "EN": "The restaurant is on Estrada Bernardo Coutinho 1655 in Araras, not central Petrópolis. Local sources describe service concentrated on Friday, Saturday, Sunday and holidays, but directory hours are not permanent guarantees. Reserve ahead, save the exact street number and plan the return trip. Rural roads around Araras have bends; avoid scheduling a rushed departure after a leisurely meal."
+          }
+        },
+        {
+          "title": {
+            "ES": "Para quién recomendaría el Alvorada",
+            "PT": "Para quem eu recomendaria o Alvorada",
+            "EN": "Who should choose Alvorada"
+          },
+          "text": {
+            "ES": "Es buena elección para quien valora cocinar con leña, un ambiente de jardín y tiempo para conversar. Para una pareja o una celebración pequeña puede ser más apropiado que un local de comida rápida. Sin embargo, los precios y el servicio deben comprobarse antes, especialmente si viajas con niños o necesitas una mesa accesible. Pregunta por la carta vigente, las opciones del pizarrón, las bebidas y cualquier condición de reserva. Mi recomendación es dedicarle un tramo importante del día, no usarlo como parada apresurada.",
+            "PT": "É escolha para quem valoriza forno a lenha, jardim e tempo para conversar. Para casal ou pequena celebração pode ser mais adequado que refeição rápida. Preços e condições precisam ser confirmados, sobretudo com crianças ou necessidade de acesso fácil. Confira carta, sugestões do quadro, bebidas e reserva. Minha dica é reservar parte importante do dia para aproveitar a experiência, sem tratar a casa como parada de poucos minutos.",
+            "EN": "This suits people who value wood-fired cooking, gardens and time to talk. For couples or smaller celebrations it may be more appropriate than a quick-service stop. Prices and practical conditions should be checked, especially with children or accessible seating requirements. Ask about the current menu, blackboard specials, drinks and booking rules. My recommendation is to give the restaurant a meaningful part of the day rather than rush in and out."
+          }
+        }
+      ]
     }
   }
 };

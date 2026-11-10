@@ -1,6 +1,6 @@
 {
   "project": "Ernestinho Carioca · Gastronomía de Petrópolis",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "editorialStandard": {
     "minimumVisibleTextCharsPerLocale": 3500,
     "locales": [
@@ -365,9 +365,9 @@
         "Corrêas"
       ],
       "address": "Rua Dr. Agostinho Goulão, 2000",
-      "source": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/",
+      "source": "https://diariodorio.com/pizzeria-marambaia-inaugura-em-correas-apostando-em-fermentacao-de-48-horas-e-receitas-inspiradas-na-tradicao-italiana/index.html",
       "sourceType": "articulo-2026",
-      "status": "fuente-reciente-pendiente-ficha"
+      "status": "ficha-profunda-trilingue"
     },
     {
       "name": "Catarina’s Bar e Bistrô",
@@ -592,6 +592,15 @@
       "status": "candidato-verificar",
       "areas": [],
       "address": null
+    },
+    {
+      "name": "Restaurante Alvorada",
+      "areas": [
+        "Araras"
+      ],
+      "address": "Estrada Bernardo Coutinho, 1655",
+      "source": "https://circuitoararasvideiras.com.br/alvorada-restaurante/",
+      "status": "ficha-profunda-trilingue"
     }
   ]
 }
