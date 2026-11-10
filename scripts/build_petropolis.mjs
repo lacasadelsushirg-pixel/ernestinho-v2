@@ -375,9 +375,9 @@ const guideVisual = {
 
 export function petropolisGuide(city, slug, lang) {
   const title = t('Guía de Petrópolis.', 'Guia de Petrópolis.', 'Petrópolis travel guide.');
-  const intro = t('Antes de salir, organiza tu llegada, elige los recorridos que realmente se adaptan a tu tiempo y guarda las conexiones de regreso. Esta guía te acompaña desde el primer plan hasta tu último paseo.',
-    'Antes de sair, organize a chegada, escolha roteiros para seu tempo e salve as conexões de volta. Este guia acompanha você do planejamento ao último passeio.',
-    'Plan your arrival, choose routes that fit your time and save your return connections. This guide helps you from your first decision to your last outing.');
+  const intro = t('Doce temas para organizar tu viaje: llegada desde Río, clima, transporte, seguridad, recorridos y consejos para disfrutar la Ciudad Imperial. Todo con información específica de Petrópolis.',
+    'Doze temas para organizar a viagem: chegada do Rio, clima, transporte, segurança, roteiros e dicas para aproveitar a Cidade Imperial. Tudo dedicado a Petrópolis.',
+    'Twelve practical topics for your trip: arriving from Rio, weather, transport, safety, itineraries and tips to enjoy the Imperial City. All written specifically for Petrópolis.');
   if (slug) {
     const guide = city.guide[slug];
     if (guide.months) return monthlyGuidePage(guide, petrPhotos, lang);
