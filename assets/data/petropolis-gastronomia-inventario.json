@@ -11,7 +11,7 @@
     "noImagesUntilUserSupplies": true,
     "rule": "Investigar nombre, dirección y actividad por establecimiento antes de publicar. No publicar fichas breves por alcanzar una cuota."
   },
-  "notes": "El directorio institucional puede contener listados que deben reconfirmarse. Este inventario NO representa establecimientos publicados ni funcionamiento actual comprobado.",
+  "notes": "Inventario de investigación, no lista de restaurantes con actividad confirmada para todas las fechas. El estado ficha-profunda-trilingue indica contenido editorial de 3500+ caracteres por idioma; fotografías aún pendientes.",
   "candidates": [
     {
       "name": "Soberano",
@@ -167,11 +167,13 @@
     },
     {
       "name": "Farfarello Restaurante",
-      "source": "https://www.pcvb.com.br/onde-comer",
+      "source": "https://www.farfarello.com.br/new/index.html",
       "sourceType": "directorio-turistico",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "status": "ficha-profunda-trilingue",
+      "areas": [
+        "Itaipava"
+      ],
+      "address": "Estrada União e Indústria, 13.470"
     },
     {
       "name": "Gaiatri Mercado Saudável",
@@ -383,9 +385,9 @@
         "Secretário"
       ],
       "address": "Estrada do Secretário, 246",
-      "source": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/",
+      "source": "https://www.instagram.com/maritsaforneria/",
       "sourceType": "articulo-2026",
-      "status": "fuente-reciente-pendiente-ficha"
+      "status": "ficha-profunda-trilingue"
     },
     {
       "name": "Sítio Gastronômico",
@@ -447,11 +449,13 @@
     },
     {
       "name": "Casa do Alemão · Quitandinha",
-      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "source": "https://www.casadoalemao.com.br/",
       "sourceType": "fuente-adicional-verificar",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "status": "ficha-profunda-trilingue",
+      "areas": [
+        "Quitandinha"
+      ],
+      "address": "Av. Ayrton Senna, 927"
     },
     {
       "name": "Casa Pellegrini",

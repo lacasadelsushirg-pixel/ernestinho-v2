@@ -885,6 +885,198 @@ export const petrDeepDining = {
           }
         }
       ]
+    },
+    "casa-do-alemao-quitandinha": {
+      "name": "Casa do Alemão · Quitandinha",
+      "area": "Quitandinha",
+      "address": "Av. Ayrton Senna, 927",
+      "category": "cafe",
+      "summary": {
+        "ES": "Panadería y snack bar de tradición desde 1945, conocido por croquetes, pão com linguiça y dulces.",
+        "PT": "Panificação e lanchonete tradicional desde 1945, conhecida por croquetes, pão com linguiça e doces.",
+        "EN": "Bakery and snack stop rooted in 1945, known for croquettes, sausage sandwiches and sweets."
+      },
+      "experience": {
+        "ES": "Probaría croquete de carne y pão com linguiça, con galletas de mantequilla para llevar.",
+        "PT": "Eu provaria croquete de carne e pão com linguiça, levando biscoitos amanteigados.",
+        "EN": "I would try a beef croquette and sausage roll, taking buttery biscuits home."
+      },
+      "advice": {
+        "ES": "Usa la dirección de Quitandinha, no la de las sucursales de Centro o Itaipava.",
+        "PT": "Use o endereço do Quitandinha, não o das unidades do Centro ou de Itaipava.",
+        "EN": "Use the Quitandinha address, not the Centro or Itaipava branches."
+      },
+      "reservation": {
+        "ES": "Confirma apertura y disponibilidad con Quitandinha: (24) 2291-4291.",
+        "PT": "Confirme abertura e produtos na unidade Quitandinha: (24) 2291-4291.",
+        "EN": "Confirm opening and availability with Quitandinha: +55 24 2291-4291."
+      },
+      "source": "https://www.casadoalemao.com.br/",
+      "nearby": "/destinos/petropolis/cultura/palacio-quitandinha/",
+      "sources": [
+        {
+          "label": "Casa do Alemão · Historia y sucursales oficiales",
+          "url": "https://www.casadoalemao.com.br/"
+        },
+        {
+          "label": "Casa do Alemão · Productos oficiales",
+          "url": "https://www.casadoalemao.com.br/produtos.asp"
+        },
+        {
+          "label": "Diário de Petrópolis · Historia y especialidades (2026)",
+          "url": "https://diariodepetropolis.com.br/integra/colunista-christianne-michelin-41045"
+        },
+        {
+          "label": "Convention Bureau · Unidad Quitandinha",
+          "url": "https://www.pcvb.com.br/onde-comer/perfil/casa-do-alemao-kern-"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "1945: Panificação Quitandinha",
+            "PT": "1945: Panificação Quitandinha",
+            "EN": "1945: Panificação Quitandinha"
+          },
+          "text": {
+            "ES": "Casa do Alemão nació en 1945 con otro nombre: Panificação Quitandinha. La pequeña panadería estaba administrada por integrantes de la familia Fontaine y tenía entre sus especialidades las galletas de mantequilla. La marca que hoy aparece en varias ciudades surgió de ese negocio familiar, mucho antes de las tiendas modernas de carretera. Conocer ese origen cambia la experiencia: no se visita solamente un lugar para comer una croqueta, sino un establecimiento relacionado con la memoria cotidiana de Petrópolis.",
+            "PT": "A Casa do Alemão nasceu em 1945 com outro nome: Panificação Quitandinha. A pequena padaria era administrada por integrantes da família Fontaine e tinha os biscoitos amanteigados entre suas especialidades. A marca conhecida hoje surgiu desse negócio familiar, bem antes das lojas modernas de estrada. Conhecer a origem muda a experiência: não é só parada para croquete, mas comércio associado à memória cotidiana de Petrópolis.",
+            "EN": "Casa do Alemão began in 1945 under another name: Panificação Quitandinha. Members of the Fontaine family ran the small bakery, known particularly for buttery biscuits. The widely recognised business grew from that family venture long before modern motorway shops became common. Knowing its origins changes the visit: this is not simply a place to grab a croquette but a business connected with everyday Petrópolis history."
+          }
+        },
+        {
+          "title": {
+            "ES": "Los Kern y el origen del nombre",
+            "PT": "Os Kern e a origem do nome",
+            "EN": "The Kern family and the name"
+          },
+          "text": {
+            "ES": "La empresa cuenta que Stephan y Julka Kern llegaron después y ampliaron la producción con dulces y embutidos. Stephan atendía a los clientes detrás del mostrador, conversando y ofreciendo degustaciones con su acento europeo. Los visitantes comenzaron a llamar al lugar la casa de aquel alemán, y el apodo terminó convirtiéndose en marca. Es importante distinguir esta historia comercial de la llegada de los primeros colonos germánicos a Petrópolis un siglo antes: son episodios diferentes.",
+            "PT": "A empresa conta que Stephan e Julka Kern chegaram depois e ampliaram a produção com doces e embutidos. Stephan atendia no balcão, conversava e oferecia provas com seu sotaque europeu. Os fregueses passaram a chamar o lugar de casa daquele alemão, e o apelido se tornou nome comercial. Não confunda essa história com a chegada dos primeiros colonos germânicos a Petrópolis quase cem anos antes: são momentos diferentes.",
+            "EN": "The company recounts how Stephan and Julka Kern later expanded production with sweets and cured meats. Stephan served customers at the counter, talked to them and offered samples with his pronounced European accent. Visitors began referring to the German man's house, and the nickname eventually became the brand. This commercial history is different from the arrival of the first German settlers in Petrópolis a century earlier."
+          }
+        },
+        {
+          "title": {
+            "ES": "El croquete de carne, un clásico local",
+            "PT": "O croquete de carne, um clássico local",
+            "EN": "The signature beef croquette"
+          },
+          "text": {
+            "ES": "Una de las preparaciones más asociadas a Casa do Alemão es el croquete de carne. El sitio oficial también enumera variantes de pollo y bacalao. Para la primera visita, sugeriría comenzar por el de carne y luego comparar otro sabor si existe en el mostrador de Quitandinha. Pregunta si el precio corresponde a una pieza y qué tan caliente se sirve. La popularidad de un producto no garantiza que todas las variedades estén disponibles siempre, ni que una sucursal tenga exactamente el mismo surtido.",
+            "PT": "Um dos produtos mais associados à Casa do Alemão é o croquete de carne. O site oficial também apresenta versões de frango e bacalhau. Na primeira visita, eu começaria pelo de carne e compararia outro sabor se estiver disponível no balcão do Quitandinha. Pergunte se o preço é por unidade e se o salgado está quente. Fama não garante que todas as variedades existam todos os dias nem que o estoque seja igual em cada loja.",
+            "EN": "One product particularly associated with Casa do Alemão is the beef croquette. The official product catalogue also lists chicken and salt-cod versions. On a first visit I would start with beef and compare another filling if available at the Quitandinha counter. Ask whether prices refer to individual pieces and whether the snack is served hot. Popularity does not mean every flavour is always stocked at every branch."
+          }
+        },
+        {
+          "title": {
+            "ES": "Pão com linguiça y otras opciones saladas",
+            "PT": "Pão com linguiça e outros salgados",
+            "EN": "Sausage rolls and savoury alternatives"
+          },
+          "text": {
+            "ES": "El pão com linguiça es otro símbolo de la parada en la sierra. La tienda trabaja además con salchichas tipo Viena y blancas, salchichones, lomo ahumado y fiambres que pueden formar parte de distintos sándwiches. Según el producto, el pan puede cambiar entre opciones tradicionales y brioche. Antes de pedir, pregunta por el tipo de embutido, el tamaño y los ingredientes del pan. No todos los rellenos son suaves ni adecuados para una persona que evita carne de cerdo o determinados condimentos.",
+            "PT": "O pão com linguiça é outro símbolo da parada na serra. A loja também trabalha com salsichas Viena e brancas, salsichões, lombo defumado e frios em sanduíches variados. Conforme o produto, pode haver pão tradicional ou brioche. Antes de pedir, confira tipo de embutido, tamanho e ingredientes do pão. Nem todo recheio é suave ou indicado a quem evita carne suína e certos temperos.",
+            "EN": "The sausage sandwich is another icon of a road stop in the mountains. The company also offers Vienna and white sausages, large sausages, smoked pork loin and cold cuts in various sandwiches. Bread choices may include traditional rolls or brioche depending on the product. Ask about the meat, size and bread ingredients before ordering. Not all fillings are mild or suitable for those who avoid pork or certain seasonings."
+          }
+        },
+        {
+          "title": {
+            "ES": "Dulces, strudel y repostería",
+            "PT": "Doces, strudel e confeitaria",
+            "EN": "Strudel, cakes and pastries"
+          },
+          "text": {
+            "ES": "El catálogo oficial incluye strudel de manzana, bombas rellenas de crema o chocolate, quindim, mil hojas y distintas tartas. Una parada puede combinar un salado y un dulce, pero para llevar productos al alojamiento conviene comprobar los ingredientes y cómo deben conservarse. Los postres con crema pueden requerir frío, especialmente si vas a bajar a Río en un auto caluroso. No confundas la existencia de una especialidad en el catálogo general con disponibilidad diaria garantizada en Quitandinha.",
+            "PT": "O catálogo oficial inclui strudel de maçã, bombas de creme ou chocolate, quindim, mil-folhas e tortas. A parada pode reunir salgado e doce, mas, para levar ao hotel, confira ingredientes e conservação. Sobremesas com creme podem precisar de frio, principalmente em viagem de carro ao Rio. Não confunda a existência de um produto no catálogo geral com disponibilidade garantida todos os dias na unidade do Quitandinha.",
+            "EN": "The official catalogue includes apple strudel, cream and chocolate éclairs, quindim, mille-feuille and assorted cakes. A visit can combine a savoury snack and dessert, but travellers taking food to a hotel should check ingredients and storage. Cream-filled products may need refrigeration, especially during a warm drive back to Rio. A product appearing in the chain catalogue is not a guarantee of daily availability at Quitandinha."
+          }
+        },
+        {
+          "title": {
+            "ES": "Galletas y panes para llevar",
+            "PT": "Biscoitos e pães para levar",
+            "EN": "Biscuits and breads to take home"
+          },
+          "text": {
+            "ES": "Las galletas de mantequilla son parte de la historia original y continúan siendo una opción interesante para llevar. También figuran palitos de queso, palmiers, distintas clases de pan y el conocido pão de forma Petrópolis. Para un regalo, revisa el envase, la fecha de consumo y si viajará varias horas. Una caja de galletas secas suele ser más práctica que una tarta fresca, pero puede contener trigo, leche o huevo. El producto correcto depende de quién lo recibirá y cómo se transportará.",
+            "PT": "Biscoitos amanteigados fazem parte da origem do negócio e continuam opção para levar. O catálogo mostra ainda palitos de queijo, palmiers, diferentes pães e o conhecido pão de forma Petrópolis. Como presente, confira embalagem, validade e duração do transporte. Biscoitos secos costumam viajar melhor que torta fresca, mas podem conter trigo, leite e ovos. A escolha certa depende de quem vai receber e da forma de levar.",
+            "EN": "Buttery biscuits are part of the company's original story and remain an appealing takeaway. The range also lists cheese sticks, palmiers, different breads and the well-known Petrópolis-style sliced loaf. For gifts, check packaging, use-by date and travel time. Dry biscuits generally transport more easily than fresh cream cakes but may contain wheat, milk and eggs. Choose according to the recipient and journey."
+          }
+        },
+        {
+          "title": {
+            "ES": "La unidad Quitandinha es una dirección precisa",
+            "PT": "A unidade Quitandinha tem endereço próprio",
+            "EN": "Quitandinha is one specific branch"
+          },
+          "text": {
+            "ES": "Esta guía se refiere únicamente a Avenida Ayrton Senna 927, Quitandinha. Casa do Alemão también informa locales en Rua 16 de Março 138, Centro, y Estrada União e Indústria 9.500, Itaipava, además de tiendas de carretera. La marca es la misma, pero horarios, estacionamiento, disposición de mesas y existencias pueden variar. Por eso es importante no mostrar el teléfono de Centro como contacto de Quitandinha ni recomendar caminar desde Itaipava creyendo que ambas tiendas quedan próximas.",
+            "PT": "Esta guia trata somente da Avenida Ayrton Senna, 927, Quitandinha. A Casa do Alemão informa também lojas na Rua 16 de Março, 138, Centro, e Estrada União e Indústria, 9.500, Itaipava, além de pontos em rodovias. A marca é a mesma, mas horários, estacionamento, mesas e estoque podem mudar. Por isso não se deve usar telefone de outra unidade nem imaginar que todas ficam próximas.",
+            "EN": "This guide concerns Avenida Ayrton Senna 927 in Quitandinha only. Casa do Alemão also lists Rua 16 de Março 138 in Centro and Estrada União e Indústria 9,500 in Itaipava, plus highway branches. Branding is shared, but hours, parking, seating and stock can differ. Do not use the downtown branch's phone for Quitandinha or assume the various Petrópolis locations are close together."
+          }
+        },
+        {
+          "title": {
+            "ES": "Una parada breve que también merece historia",
+            "PT": "Uma parada rápida que também tem história",
+            "EN": "A quick stop with a longer story"
+          },
+          "text": {
+            "ES": "Para quien llega desde Río, el croquete y el sándwich pueden ser una pausa práctica antes de seguir hacia el Centro o Itaipava. Pero la historia de Panificação Quitandinha convierte la parada en parte de la identidad gastronómica de la ciudad. Si tienes poco tiempo, pide algo sencillo y continúa el itinerario; si no hay apuro, mira las opciones de panadería y dulces. No hace falta transformar un local de bocados rápidos en un restaurante de menú degustación para valorarlo.",
+            "PT": "Para quem sobe do Rio, croquete e sanduíche podem ser pausa prática antes de seguir ao Centro ou Itaipava. Mas a história da Panificação Quitandinha torna essa parada parte da identidade gastronômica da cidade. Com pouco tempo, peça algo simples e siga viagem; sem pressa, conheça pães e doces. Não é necessário transformar uma casa de lanches em restaurante de degustação para reconhecer sua importância.",
+            "EN": "For travellers driving up from Rio, a croquette and sandwich can be an efficient stop before continuing towards Centro or Itaipava. Yet the Panificação Quitandinha story makes it part of the city's food identity. With little time, choose a simple snack and move on; without a tight schedule, explore the bakery and sweets. A snack house need not become a formal tasting restaurant to merit a thoughtful guide."
+          }
+        },
+        {
+          "title": {
+            "ES": "Combinar con el Palácio Quitandinha",
+            "PT": "Combinar com o Palácio Quitandinha",
+            "EN": "Pairing it with Palácio Quitandinha"
+          },
+          "text": {
+            "ES": "El antiguo hotel-casino Quitandinha y su lago son referencias importantes de la zona. Si quieres conocer el centro cultural del Sesc y después comer, comprueba las aperturas de ambos lugares de forma independiente. La tienda de Avenida Ayrton Senna no está dentro del palacio. Calcula el desplazamiento real y evita caminar por vías con tráfico sin una ruta segura. Lo más útil es decidir primero si la prioridad será el patrimonio, una merienda o la salida hacia otro distrito.",
+            "PT": "O antigo hotel-cassino Quitandinha e o lago são referências da região. Para visitar o centro cultural do Sesc e depois lanchar, confira funcionamento dos dois lugares separadamente. A loja da Avenida Ayrton Senna não fica dentro do palácio. Planeje o deslocamento e evite caminhar por vias de trânsito intenso sem caminho seguro. O ideal é definir se a prioridade do dia é patrimônio, lanche ou continuação a outro distrito.",
+            "EN": "The former Quitandinha hotel-casino and its lake are important landmarks. To visit the Sesc cultural centre before having food, check both venues' hours independently. The shop on Avenida Ayrton Senna is not inside the palace. Plan the actual journey and avoid walking along busy roads without a safe route. Decide whether your priority is the heritage site, a snack or continuing to another district."
+          }
+        },
+        {
+          "title": {
+            "ES": "Ingredientes, alergias y preferencias",
+            "PT": "Ingredientes, alergias e preferências",
+            "EN": "Ingredients, allergies and preferences"
+          },
+          "text": {
+            "ES": "Croquetes, panes, embutidos y pasteles pueden contener trigo, huevo, leche, pescado o cerdo según la receta. Si tienes alergias, intolerancias o prefieres comida vegetariana, pregunta al personal antes de elegir. Un croquete de bacalao contiene pescado, mientras que otros pueden incluir queso, mantequilla o harina que no se aprecia al mirarlos. No sería correcto prometer ausencia de gluten, contaminación cruzada o un menú vegano completo sin confirmación directa.",
+            "PT": "Croquetes, pães, embutidos e doces podem conter trigo, ovo, leite, peixe ou carne suína, conforme a receita. Com alergias, intolerâncias ou preferência vegetariana, pergunte antes de escolher. Croquete de bacalhau contém peixe, enquanto outros produtos podem levar queijo, manteiga ou farinha sem isso ficar evidente. Não é correto prometer ausência de glúten, contaminação cruzada ou cardápio vegano sem confirmação.",
+            "EN": "Croquettes, breads, cured meats and pastries may contain wheat, eggs, dairy, fish or pork depending on the recipe. If allergic, intolerant or vegetarian, ask staff before ordering. Salt-cod croquettes contain fish, while other products may hide cheese, butter or flour not apparent from their appearance. A gluten-free kitchen, absence of cross-contact or full vegan menu should not be promised without confirmation."
+          }
+        },
+        {
+          "title": {
+            "ES": "Cómo conservar los productos en el viaje",
+            "PT": "Como conservar os produtos na viagem",
+            "EN": "Keeping takeaways safe while travelling"
+          },
+          "text": {
+            "ES": "Embutidos, postres cremosos y otros perecibles pueden exigir cadena de frío. Si compras comida para llevar a Río u otra ciudad, confirma cuánto tiempo soporta fuera del refrigerador y utiliza una bolsa térmica adecuada cuando sea necesario. Los productos secos requieren cuidados diferentes, como evitar humedad y calor excesivo. Una guía útil no solo recomienda qué comprar: también explica cómo evitar que un souvenir gastronómico llegue en malas condiciones o represente un riesgo alimentario.",
+            "PT": "Embutidos, doces com creme e outros perecíveis podem exigir refrigeração. Ao comprar para levar ao Rio ou outra cidade, confirme quanto tempo suportam fora da geladeira e use bolsa térmica adequada quando necessário. Produtos secos pedem cuidados diferentes, como proteção contra umidade e calor. Uma guia útil não apenas recomenda compras: também ajuda a evitar que a lembrança chegue estragada ou represente risco alimentar.",
+            "EN": "Cured meats, cream-filled desserts and other perishable foods may need refrigeration. If taking them back to Rio or another city, ask how long they can safely remain outside a refrigerator and use a suitable insulated bag where necessary. Dry products need different care, such as protection from damp and heat. A useful guide explains not just what to buy but how to avoid spoiled or unsafe edible souvenirs."
+          }
+        },
+        {
+          "title": {
+            "ES": "Contacto, horarios y una visita sin sorpresas",
+            "PT": "Contato, horários e uma visita sem surpresas",
+            "EN": "Contacts, hours and a smooth stop"
+          },
+          "text": {
+            "ES": "El sitio oficial identifica la sucursal Quitandinha en Avenida Ayrton Senna 927, teléfono (24) 2291-4291. Como la marca tiene distintos tipos de local, no debemos copiar el horario de otra tienda. Antes de salir, consulta apertura, posibilidad de sentarte, precios vigentes y métodos de pago. Si conduces por la BR-040, comprueba la entrada que corresponde al sentido de tu viaje. Mi consejo es encajar la parada en el itinerario, en vez de realizar un desvío largo para un café que podría estar cerrado.",
+            "PT": "O site oficial identifica a unidade Quitandinha na Avenida Ayrton Senna, 927, telefone (24) 2291-4291. Como a marca tem diferentes tipos de loja, não copie o horário de outra unidade. Confirme abertura, lugares para sentar, preços e formas de pagamento. Na BR-040, confira o acesso permitido no sentido da viagem. Minha dica é encaixar a parada no roteiro, sem fazer grande desvio para uma loja que pode estar fechada.",
+            "EN": "The official website identifies the Quitandinha branch at Avenida Ayrton Senna 927, phone +55 24 2291-4291. Because the business has different kinds of branches, do not copy another shop's hours. Check opening, seating, current prices and payment methods before leaving. On BR-040, verify the correct approach for your direction of travel. Fit the stop into your itinerary rather than detouring a long way to a potentially closed café."
+          }
+        }
+      ]
     }
   }
 };
