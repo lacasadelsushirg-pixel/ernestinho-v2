@@ -404,7 +404,7 @@ export function petropolisGuide(city, slug, lang) {
     ['itinerarios-1-2-3-dias', t('Quiero armar mi ruta', 'Quero montar meu roteiro', 'I want an itinerary')],
   ];
   const openGuide = t('ABRIR GUÍA →', 'ABRIR GUIA →', 'OPEN GUIDE →');
-  const body = `<div class="petr-guide-index">
+  const body = `<div class="petr-guide-index" data-guide-topics="12">
     ${cover(title, intro, lang)}
     <nav class="petr-guide-quick" aria-label="${tx(t('Empieza por aquí','Comece por aqui','Start here'),lang)}">
       <div><strong>${tx(t('¿Qué necesitas resolver primero?', 'O que precisa resolver primeiro?', 'What do you need first?'),lang)}</strong>
