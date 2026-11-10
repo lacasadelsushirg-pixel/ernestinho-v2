@@ -11,7 +11,7 @@
     "noImagesUntilUserSupplies": true,
     "rule": "Investigar nombre, dirección y actividad por establecimiento antes de publicar. No publicar fichas breves por alcanzar una cuota."
   },
-  "notes": "Inventario de investigación, no lista de restaurantes con actividad confirmada para todas las fechas. El estado ficha-profunda-trilingue indica contenido editorial de 3500+ caracteres por idioma; fotografías aún pendientes.",
+  "notes": "Inventario de investigación, no garantía de operación actual. Estado ficha-profunda-trilingue: texto >=3500 caracteres por ES/PT/EN; fotografía y QA visual pendientes. Duetto's: esta ficha refiere a Casa da Princesa Isabel en Koeler 42, distinta de las referencias anteriores al Museu Imperial.",
   "candidates": [
     {
       "name": "Soberano",
@@ -163,11 +163,13 @@
     },
     {
       "name": "Duetto’s Café e Bistrô",
-      "source": "https://www.pcvb.com.br/onde-comer",
+      "source": "https://www1.folha.uol.com.br/blogs/cafe-na-prensa/2026/09/cafe-no-palacete-da-princesa-isabel-une-lanche-e-historia-em-petropolis.shtml",
       "sourceType": "directorio-turistico",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "status": "ficha-profunda-trilingue",
+      "areas": [
+        "Centro Histórico"
+      ],
+      "address": "Avenida Koeler, 42 · Casa da Princesa Isabel"
     },
     {
       "name": "Farfarello Restaurante",
@@ -279,11 +281,13 @@
     },
     {
       "name": "Majórica Restaurante e Churrascaria",
-      "source": "https://www.pcvb.com.br/onde-comer",
+      "source": "https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-churrascaria-majorica-e-reconhecida-como-patrimonio-gastronomico-de-petropolis",
       "sourceType": "directorio-turistico",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "status": "ficha-profunda-trilingue",
+      "areas": [
+        "Centro Histórico"
+      ],
+      "address": "Rua do Imperador, 754"
     },
     {
       "name": "Meat beer and co",
@@ -421,9 +425,9 @@
         "Fazenda Inglesa"
       ],
       "address": "Alameda das Mimosas, 30",
-      "source": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/",
+      "source": "https://www.pcvb.com.br/onde-ficar/perfil/locanda-della-mimosa-1/",
       "sourceType": "articulo-2026",
-      "status": "fuente-reciente-pendiente-ficha"
+      "status": "ficha-profunda-trilingue"
     },
     {
       "name": "…Lá Restaurante",
@@ -447,11 +451,13 @@
     },
     {
       "name": "Massas Luigi",
-      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "source": "https://massasluigi.com.br/contato",
       "sourceType": "fuente-adicional-verificar",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "status": "ficha-profunda-trilingue",
+      "areas": [
+        "Centro Histórico"
+      ],
+      "address": "Praça Rui Barbosa, 185"
     },
     {
       "name": "Casa do Alemão · Quitandinha",
