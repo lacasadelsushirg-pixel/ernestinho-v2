@@ -681,6 +681,210 @@ export const petrDeepDining = {
           }
         }
       ]
+    },
+    "maritsa-forneria": {
+      "name": "Maritsa Forneria",
+      "area": "Secretário · Pedro do Rio",
+      "address": "Estrada do Secretário, 246",
+      "category": "italian",
+      "summary": {
+        "ES": "Pizzas romanas y redondas de fermentación natural preparadas por la chef Silvana Catherine en Secretário.",
+        "PT": "Pizzas romanas e redondas de fermentação natural da chef Silvana Catherine no Secretário.",
+        "EN": "Naturally fermented Roman and round pizzas by chef Silvana Catherine in Secretário."
+      },
+      "experience": {
+        "ES": "Prueba porciones al taglio y pregunta por las combinaciones de temporada.",
+        "PT": "Prove fatias al taglio e pergunte pelas combinações de temporada.",
+        "EN": "Try al taglio slices and ask about seasonal specials."
+      },
+      "advice": {
+        "ES": "Secretário es una localidad rural: confirma apertura, dirección y regreso antes de salir.",
+        "PT": "Secretário é localidade rural: confirme horário, endereço e retorno antes de sair.",
+        "EN": "Secretário is a rural village: verify opening, address and return travel before setting off."
+      },
+      "reservation": {
+        "ES": "Contacto divulgado: WhatsApp +55 21 99568-7867; confirmar servicio de la fecha.",
+        "PT": "Contato divulgado: WhatsApp +55 21 99568-7867; conferir serviço na data.",
+        "EN": "Published WhatsApp +55 21 99568-7867; confirm service on your date."
+      },
+      "source": "https://www.instagram.com/maritsaforneria/",
+      "nearby": "/destinos/petropolis/barrios/pedro-do-rio-secretario/",
+      "sources": [
+        {
+          "label": "VEJA RIO · Maritsa en julio de 2026",
+          "url": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/"
+        },
+        {
+          "label": "Informa Rio · Historia y pizza (2025)",
+          "url": "https://informa-rio.com/2025/07/18/dia-da-pizza-descubra-a-maritsa-forneria-em-secretario-rj/"
+        },
+        {
+          "label": "Zé Ronaldo · Maritsa en Secretário (2025)",
+          "url": "https://zeronaldo.com.br/2025/onde-comer-em-secretario-rj/"
+        },
+        {
+          "label": "Cuenta oficial Maritsa",
+          "url": "https://www.instagram.com/maritsaforneria/"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "Del garaje a la cocina de Secretário",
+            "PT": "Da garagem à cozinha do Secretário",
+            "EN": "From a garage to a village kitchen"
+          },
+          "text": {
+            "ES": "Maritsa Forneria nació como un proyecto de la cocinera Silvana Catherine y Renan Abreu. Las entrevistas de 2025 cuentan que comenzaron preparando pedidos para entrega desde casa, mientras buscaban un espacio permanente en Secretário. El local de Estrada do Secretário 246 permitió trasladar esa iniciativa al centrinho. No se trata de una cadena que eligió la sierra al azar: la historia está vinculada a un cambio de vida, a la formación gastronómica y a la comunidad donde instalaron el negocio.",
+            "PT": "A Maritsa Forneria nasceu do projeto da chef Silvana Catherine e Renan Abreu. Entrevistas de 2025 relatam que começaram fazendo pedidos para entrega em casa enquanto procuravam espaço definitivo no Secretário. O ponto da Estrada do Secretário, 246 levou o projeto ao centrinho. Não é uma rede que escolheu a serra por acaso: a história está ligada a uma mudança de vida, à formação gastronômica e à comunidade onde a casa se instalou.",
+            "EN": "Maritsa Forneria grew from a project by chef Silvana Catherine and Renan Abreu. Interviews in 2025 describe them making delivery orders from home while looking for a permanent site in Secretário. Estrada do Secretário 246 brought the project into the small village centre. This is not a generic chain that chose the mountains at random: the story involves a career change, culinary training and a connection to the local community."
+          }
+        },
+        {
+          "title": {
+            "ES": "El nombre honra a una abuela griega",
+            "PT": "O nome homenageia a avó grega",
+            "EN": "Named after a Greek grandmother"
+          },
+          "text": {
+            "ES": "El nombre Maritsa homenajea a la abuela de Silvana, una mujer de origen griego cuya experiencia de migración y cocina familiar influyó en la chef. La identidad visual de la casa refleja también esa herencia mediterránea, mientras la especialidad principal se inspira en técnicas italianas. Esa mezcla explica por qué aquí pueden convivir una pizza romana y sabores que evocan Grecia u Oriente Medio. No es necesario inventar que la carta reproduce exactamente recetas de la abuela; el vínculo es biográfico y cultural.",
+            "PT": "O nome Maritsa homenageia a avó de Silvana, mulher de origem grega cuja história de migração e cozinha familiar influenciou a chef. A identidade visual também lembra essa herança mediterrânea, enquanto a especialidade principal utiliza técnicas italianas. Essa mistura explica a convivência entre pizza romana e referências da Grécia ou Oriente Médio. Não se deve inventar que cada prato reproduz receita exata da avó; o vínculo é biográfico e cultural.",
+            "EN": "Maritsa is named for Silvana's Greek grandmother, whose migration story and family cooking influenced the chef. The venue's visual identity also reflects Mediterranean heritage, while its principal speciality uses Italian techniques. This blend helps explain why Roman pizza can coexist with flavours reminiscent of Greece or the Middle East. There is no need to claim that every dish reproduces a specific grandmother's recipe; the connection is biographical and cultural."
+          }
+        },
+        {
+          "title": {
+            "ES": "Al taglio: la pizza que se prueba por porciones",
+            "PT": "Al taglio: pizza servida em fatias",
+            "EN": "Al taglio: pizza by the slice"
+          },
+          "text": {
+            "ES": "La especialidad inicial fue la pizza romana al taglio, preparada en formato rectangular y cortada en porciones. Resulta una forma interesante de comparar más de un sabor sin comprar varias pizzas completas. Antes de elegir, pregunta qué bandejas acaban de salir del horno, cuánto pesa o mide la porción y si el precio se calcula por unidad. La prensa de 2025 publicó importes por porción, pero no debemos mantener esos números como si fueran la tarifa actual.",
+            "PT": "A especialidade inicial foi a pizza romana al taglio, preparada em formato retangular e cortada em porções. É maneira interessante de comparar sabores sem comprar diversas pizzas inteiras. Antes de escolher, pergunte quais saíram do forno, qual o tamanho da fatia e como é calculado o valor. A imprensa de 2025 publicou preços por pedaço, mas esses números não podem ser tratados como tabela atual.",
+            "EN": "The original speciality was Roman pizza al taglio, baked in rectangular trays and cut into portions. It is an appealing way to compare more than one topping without buying several whole pizzas. Ask which trays are fresh from the oven, the size of a slice and whether pricing is by portion. Press reports from 2025 quoted slice prices, but those are not verified current rates."
+          }
+        },
+        {
+          "title": {
+            "ES": "Fermentación natural de 48 a 72 horas",
+            "PT": "Fermentação natural de 48 a 72 horas",
+            "EN": "Natural fermentation over 48 to 72 hours"
+          },
+          "text": {
+            "ES": "Las fuentes especializadas describen una mezcla de harinas italianas y fermentación natural con levain, durante aproximadamente 48 a 72 horas. Este proceso puede desarrollar sabor y estructura en la masa, aunque no garantiza digestibilidad para todas las personas. Al probarla, observa la relación entre la superficie horneada y el interior, incluso antes de añadir muchos ingredientes. Una masa artesanal se evalúa por su equilibrio, no solo por una frase de marketing que promete que es ligera.",
+            "PT": "As fontes descrevem mistura de farinhas italianas e fermentação natural com levain por cerca de 48 a 72 horas. O processo pode desenvolver sabor e estrutura, mas não garante digestibilidade a todas as pessoas. Ao provar, observe o contraste entre casca assada e interior, antes mesmo de olhar os recheios. Massa artesanal se percebe pelo equilíbrio, não apenas por frase de marketing que promete leveza.",
+            "EN": "Food reports describe a blend of Italian flours and a natural starter fermented for about 48 to 72 hours. The process can develop flavour and structure, but does not guarantee that everyone can digest it easily. Taste the crust and interior as well as the toppings. Artisan dough should be judged by its balance rather than a marketing promise that it will always feel light."
+          }
+        },
+        {
+          "title": {
+            "ES": "También hay pizzas redondas",
+            "PT": "Também existem pizzas redondas",
+            "EN": "Round pizzas are also available"
+          },
+          "text": {
+            "ES": "Con el tiempo, la forneria incorporó pizzas redondas italianas de aproximadamente treinta centímetros y, en algunos períodos, versiones de estilo neoyorquino. Los formatos no necesariamente están disponibles todos los días. Para una pareja, una pizza redonda puede ser más fácil de compartir; para quien busca conocer la técnica, dos porciones de al taglio ofrecen variedad. Pregunta por el tamaño actual y evita comparar precios sin considerar cuánta comida recibes.",
+            "PT": "Com o tempo, a casa incorporou pizzas redondas italianas de cerca de trinta centímetros e, em alguns períodos, versões no estilo de Nova York. Os formatos não precisam estar disponíveis diariamente. Para um casal, a pizza redonda pode ser fácil de dividir; para conhecer a técnica, duas fatias al taglio dão variedade. Confira o tamanho vigente e não compare preços sem considerar a quantidade.",
+            "EN": "The forneria later introduced Italian round pizzas of approximately thirty centimetres and, during some periods, New York-style versions. Not every format is necessarily offered daily. A round pizza can be convenient for a couple, while two al taglio slices allow comparison. Check current sizes and avoid comparing prices without considering the quantity of food."
+          }
+        },
+        {
+          "title": {
+            "ES": "Quesos artesanales y sabores creativos",
+            "PT": "Queijos artesanais e sabores criativos",
+            "EN": "Artisanal cheeses and inventive toppings"
+          },
+          "text": {
+            "ES": "Artículos sobre el restaurante mencionan una pizza con pera, gorgonzola de la Mantiqueira, pistacho y miel, además de otra con queso Lua Cheia y romero. Estas combinaciones revelan una cocina que observa los productos de la región y no se limita a los sabores más conocidos. No son necesariamente platos permanentes. Si visitas la casa buscando alguno, consulta antes de salir y pregunta por las especiales del día, que pueden depender de proveedores y temporadas.",
+            "PT": "Reportagens mencionam pizza com pera, gorgonzola da Mantiqueira, pistache e mel, além de outra com queijo Lua Cheia e alecrim. As combinações revelam cozinha atenta a produtos regionais, para além dos sabores tradicionais. Não são necessariamente itens permanentes. Se pretende provar um deles, confira antes de sair e pergunte pelas especiais do dia, sujeitas a fornecedores e safras.",
+            "EN": "Reports describe a pizza with pear, Mantiqueira gorgonzola, pistachio and honey, and another featuring Lua Cheia cheese and rosemary. These combinations demonstrate an interest in regional products beyond standard toppings. They are not necessarily permanent. If visiting specifically for one, ask in advance and check the day's specials, which may depend on suppliers and seasonal availability."
+          }
+        },
+        {
+          "title": {
+            "ES": "Una pizza asiática que apareció en 2026",
+            "PT": "Uma pizza asiática publicada em 2026",
+            "EN": "An Asian-inspired pizza reported in 2026"
+          },
+          "text": {
+            "ES": "En julio de 2026 VEJA RIO destacó una pizza con acelga sazonada con gochujang, hongos, nirá, queso y elementos de soja. Es un buen ejemplo del lado experimental de Maritsa y de cómo la cocina puede dialogar con influencias no italianas. La receta puede cambiar o desaparecer del menú. Además, quien evita picantes, soja, huevo o lácteos debe consultar ingredientes: las pizzas especiales pueden reunir alérgenos menos evidentes que una margarita tradicional.",
+            "PT": "Em julho de 2026, a VEJA RIO destacou pizza com acelga temperada com gochujang, cogumelos, nirá, queijo e elementos de soja. O exemplo mostra o lado experimental da Maritsa e a conversa com referências não italianas. A receita pode sair do menu. Quem evita pimenta, soja, ovo ou leite precisa conferir ingredientes, pois especiais podem reunir alergênicos menos óbvios que uma margherita.",
+            "EN": "In July 2026 VEJA RIO highlighted a pizza with gochujang-seasoned greens, mushrooms, garlic chives, cheese and soy-based elements. It illustrates Maritsa's experimental side and its openness to non-Italian influences. The recipe may change or disappear. Anyone avoiding heat, soy, egg or dairy should ask about ingredients, as specials may contain less obvious allergens than a conventional margherita."
+          }
+        },
+        {
+          "title": {
+            "ES": "La forneria y la vida cultural de Secretário",
+            "PT": "A forneria na vida cultural do Secretário",
+            "EN": "The forneria's role in village culture"
+          },
+          "text": {
+            "ES": "En agosto de 2025, la casa participó de actividades que relacionaron pizzas, arte y música con creadores locales. Una noticia sobre un evento específico no significa que funcione todos los sábados como festival. Sí muestra que Maritsa se integra en el centrinho y puede actuar como lugar de encuentro para visitantes y vecinos. Consulta las redes oficiales si quieres combinar la comida con una actividad cultural, y no confundas una programación especial con el horario habitual.",
+            "PT": "Em agosto de 2025, a casa participou de atividades que ligaram pizzas, arte e música a criadores locais. Notícia sobre um evento não significa festival todos os sábados. Mostra, porém, que a Maritsa integra o centrinho e funciona como ponto de encontro de visitantes e moradores. Confira o perfil oficial para combinar a refeição com atividades culturais, sem confundir programação especial com horário habitual.",
+            "EN": "In August 2025 the venue took part in an event linking pizza, art and music with local creators. A report about one event does not establish a weekly festival. It does show the forneria's relationship with village life as a meeting place for residents and visitors. Check official channels for cultural programmes rather than treating a special-event schedule as normal opening hours."
+          }
+        },
+        {
+          "title": {
+            "ES": "¿Para quién vale la pena desplazarse?",
+            "PT": "Para quem vale a viagem?",
+            "EN": "Who should make the trip?"
+          },
+          "text": {
+            "ES": "Recomendaría Maritsa a quien valora masas preparadas con técnica, ingredientes originales y un ambiente informal de pueblo. Puede ser una buena opción para una pareja o amigos que hacen una salida gastronómica por el cuarto distrito. No es lo mismo que un bufé a kilo ni que un menú largo de degustación. Si alguien busca una comida completamente tradicional, pregunta por las pizzas clásicas; no hay obligación de elegir la combinación más atrevida para disfrutar el lugar.",
+            "PT": "Eu recomendaria a Maritsa a quem valoriza massas técnicas, ingredientes diferentes e ambiente informal de vila. Pode funcionar para casal ou amigos num passeio gastronômico pelo quarto distrito. Não é buffet a quilo nem menu degustação longo. Quem prefere comida tradicional pode escolher pizzas clássicas; não é obrigatório pedir o sabor mais ousado para aproveitar a casa.",
+            "EN": "I would recommend Maritsa to diners who value carefully prepared dough, distinctive ingredients and an informal village setting. It may suit couples or friends exploring the fourth district. This is neither a pay-by-weight buffet nor an extended tasting menu. Those preferring familiar food can choose a classic pizza rather than feeling obliged to order the most experimental option."
+          }
+        },
+        {
+          "title": {
+            "ES": "Alérgenos: el levain no elimina el gluten",
+            "PT": "Alergênicos: levain não elimina o glúten",
+            "EN": "Allergens: a starter does not remove gluten"
+          },
+          "text": {
+            "ES": "La fermentación natural no vuelve segura una masa de trigo para personas celíacas. Tampoco es correcto llamar vegana a cualquier pizza sin carne: puede llevar mozzarella, miel u otros ingredientes animales. Algunas especialidades incluyen frutos secos, soja, picantes y huevos. Si tienes restricciones, escribe al establecimiento antes de reservar, consulta la preparación y pregunta por contaminación cruzada. No voy a prometer una cocina completamente libre de alérgenos sin confirmación de la casa.",
+            "PT": "Fermentação natural não torna massa de trigo segura para celíacos. Pizza sem carne também não é automaticamente vegana: pode conter muçarela, mel ou outros ingredientes animais. Algumas especiais usam castanhas, soja, pimenta e ovos. Com restrições, converse com o estabelecimento antes de reservar, confirme preparo e contaminação cruzada. Não é correto prometer cozinha totalmente livre de alergênicos sem garantia da casa.",
+            "EN": "Natural fermentation does not make wheat dough safe for coeliac diners. A meat-free pizza is not automatically vegan: mozzarella, honey and other animal-derived ingredients may appear. Specials can include nuts, soy, chillies and eggs. If you have dietary restrictions, contact the restaurant before booking and ask about preparation and cross-contact. A fully allergen-free kitchen cannot be assumed."
+          }
+        },
+        {
+          "title": {
+            "ES": "Horarios: diferenciar lo habitual de los festivales",
+            "PT": "Horários: separar rotina de festivais",
+            "EN": "Hours: distinguish normal service from events"
+          },
+          "text": {
+            "ES": "Las publicaciones de 2025 muestran atención nocturna en determinados días, pero también horarios más amplios durante el festival AgroSerra. Las plataformas digitales muestran datos distintos. Para no enviar turistas a una puerta cerrada, consulta directamente por WhatsApp al +55 21 99568-7867 o en el perfil oficial. Confirma si hay pizzas por porción, redondas, servicio en salón y reservas. Si el motivo del viaje es una pizza especial, pregúntala por su nombre antes de salir.",
+            "PT": "Publicações de 2025 mostram atendimento noturno em certos dias, mas também horários ampliados no festival AgroSerra. Plataformas digitais exibem dados diferentes. Para não levar visitante a porta fechada, confirme pelo WhatsApp +55 21 99568-7867 ou perfil oficial. Pergunte sobre fatias, redondas, salão e reservas. Se a viagem é por pizza especial, confirme disponibilidade antes de pegar a estrada.",
+            "EN": "Articles from 2025 show evening service on selected days, as well as expanded hours during the AgroSerra festival. Digital platforms display different schedules. To avoid arriving at a closed door, confirm via WhatsApp +55 21 99568-7867 or the official profile. Ask about slices, round pizzas, dine-in service and bookings. If travelling for a particular special, confirm it by name before setting off."
+          }
+        },
+        {
+          "title": {
+            "ES": "Llegar al centrinho y volver de noche",
+            "PT": "Chegar ao centrinho e voltar à noite",
+            "EN": "Getting to the village and home at night"
+          },
+          "text": {
+            "ES": "La dirección es Estrada do Secretário 246, en el centro de la localidad. No queda junto al Museu Imperial ni es una parada que puedas añadir caminando desde el Centro Histórico. Si sales de Itaipava o de Petrópolis, verifica la ruta por carretera y el punto exacto de llegada. Para una cena, organiza el regreso antes de sentarte, especialmente si no conduces. Secretário forma parte de una región rural y no debe suponerse la misma oferta de transporte inmediato que en una avenida principal de Río.",
+            "PT": "O endereço é Estrada do Secretário, 246, no centrinho da vila. Não fica ao lado do Museu Imperial e não é caminhada a partir do Centro Histórico. Saindo de Itaipava ou Petrópolis, confira o trajeto rodoviário e o ponto exato. Para jantar, combine a volta antes de sentar, sobretudo se não dirige. Secretário integra região rural e não oferece necessariamente a mesma disponibilidade imediata de carros de uma avenida movimentada do Rio.",
+            "EN": "The address is Estrada do Secretário 246 in the village centre. It is not beside the Imperial Museum and cannot be added as a stroll from the historic centre. From Itaipava or central Petrópolis, check the road route and the precise address. For dinner, plan the return before sitting down, especially without a car. Secretário is rural and cannot be assumed to offer the immediate transport of a busy Rio avenue."
+          }
+        },
+        {
+          "title": {
+            "ES": "Precios antiguos y presupuesto de hoy",
+            "PT": "Preços antigos e orçamento atual",
+            "EN": "Old prices versus today's budget"
+          },
+          "text": {
+            "ES": "Reportajes de 2025 y julio de 2026 mencionan precios por porción y por pizza completa. Son referencias fechadas, no una tarifa garantizada para noviembre de 2026. Los quesos, harinas importadas y productos de temporada pueden modificar la cuenta. Consulta el menú actual, el tamaño de cada pizza, los refrescos, postres y medios de pago. La función de Ernestinho es ayudarte a entender qué estás comprando y cuánto puede costar la salida, no copiar una cifra antigua sin avisar.",
+            "PT": "Reportagens de 2025 e julho de 2026 citam valores de fatias e pizzas inteiras. São referências datadas, não preço garantido para novembro de 2026. Queijos, farinhas importadas e produtos sazonais podem alterar a conta. Confira cardápio, tamanho, bebidas, sobremesas e pagamentos. O papel do Ernestinho é explicar a experiência e ajudar a planejar o gasto, não repetir valor antigo sem contexto.",
+            "EN": "Reports from 2025 and July 2026 quote slice and full-pizza prices. They are dated references, not guaranteed November 2026 rates. Cheeses, imported flour and seasonal products may affect the bill. Ask for the current menu, sizes, drinks, desserts and payment methods. Ernestinho's role is to explain what you are buying and help plan spending, rather than repeat an obsolete number without context."
+          }
+        }
+      ]
     }
   }
 };
