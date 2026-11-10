@@ -737,5 +737,720 @@ export const petropolisBarriosFinal = {
         }
       }
     ]
+  },
+  "alto-da-serra-rua-teresa": {
+    "heading": {
+      "ES": "Alto da Serra y Rua Teresa: caminos, trenes y trabajo",
+      "PT": "Alto da Serra e Rua Teresa: caminhos, trens e trabalho",
+      "EN": "Alto da Serra and Rua Teresa: roads, railways and work"
+    },
+    "intro": {
+      "ES": "La Rua Teresa fue puerta de Petrópolis antes de convertirse en centro comercial. Su historia abarca caminos portugueses, la Vila Teresa de Koeler, la estación ferroviaria, fábricas, villas obreras, corales, tranvías y la transformación de la moda.",
+      "PT": "A Rua Teresa foi porta de Petrópolis muito antes de se tornar polo comercial. Sua história inclui caminhos portugueses, Vila Teresa de Koeler, estação ferroviária, fábricas, vilas operárias, corais, bondes e moda.",
+      "EN": "Rua Teresa was a gateway before becoming a shopping district. Its layered history spans the old mountain road, Koeler's Vila Teresa, railways, mills, workers' housing, choirs, trams and fashion retail."
+    },
+    "chapters": [
+      {
+        "title": {
+          "ES": "1802–1809: el camino de piedra que abría la sierra",
+          "PT": "1802–1809: o caminho de pedra da serra",
+          "EN": "1802–1809: the stone-paved mountain road"
+        },
+        "paragraphs": [
+          {
+            "ES": "Alto da Serra fue una de las puertas de entrada a los terrenos de Córrego Seco, a través de rutas que partían de Porto da Estrela. Según Joaquim Eloy Duarte dos Santos, la Calçada de Pedra se construyó entre 1802 y 1809 por decisión de la Corona portuguesa. El aumento de viajeros y cargas pronto exigió mejoras como la Estrada Normal da Estrela. La vida local se organizó mucho antes de los hoteles imperiales.",
+            "PT": "O Alto da Serra era uma das portas do Córrego Seco, por caminhos vindos de Porto da Estrela. Segundo Joaquim Eloy Duarte dos Santos, a Calçada de Pedra foi construída de 1802 a 1809 por determinação da Coroa portuguesa. O aumento do movimento exigiu depois a Estrada Normal da Estrela. A vida local precedeu a cidade imperial.",
+            "EN": "Alto da Serra was an approach to Córrego Seco through routes from Porto da Estrela. According to Joaquim Eloy Duarte dos Santos, a stone-paved mountain road was built between 1802 and 1809 under Portuguese royal orders. Increasing traffic later demanded the improved Estrada Normal da Estrela. Settlement preceded the Imperial City."
+          },
+          {
+            "ES": "El recorrido histórico no es idéntico a las carreteras actuales. Por seguridad no recomendamos caminar por un arcén de montaña para reconstruirlo sin una ruta oficial señalizada.",
+            "PT": "A rota antiga não é igual às estradas atuais. Não recomendamos caminhar por acostamentos de serra sem percurso autorizado e seguro.",
+            "EN": "Historic alignments are not identical to modern highways. Recreating them on roadsides without a safe approved route is not recommended."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/uma-historia-para-teresa/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1846: la Vila Teresa homenajeaba a la emperatriz",
+          "PT": "1846: Vila Teresa homenageava a imperatriz",
+          "EN": "1846: Vila Teresa honoured the empress"
+        },
+        "paragraphs": [
+          {
+            "ES": "La planta de Koeler incluía Vila Teresa junto a Vila Imperial. El nombre recordaba a Teresa Cristina, esposa de Pedro II, y las parcelas recibieron familias como Hang, Diehl, Braun, Boeck, Klein y Roggenbach. La zona servía de paso entre la sierra y los espacios principales de Petrópolis. Su urbanismo reunía terrenos de colonos, casas, talleres y actividades cotidianas.",
+            "PT": "A planta de Koeler incluía Vila Teresa ao lado de Vila Imperial. O nome homenageava Teresa Cristina, esposa de Pedro II, e os prazos acolheram famílias como Hang, Diehl, Braun, Boeck, Klein e Roggenbach. A área ligava os acessos serranos ao núcleo da cidade e reunia moradias, oficinas e trabalho.",
+            "EN": "Koeler's plan placed Vila Teresa alongside Vila Imperial. Named for Empress Teresa Cristina, the allotments were home to families such as Hang, Diehl, Braun, Boeck, Klein and Roggenbach. It linked the mountain approach to the town centre and combined houses, workshops and livelihoods."
+          },
+          {
+            "ES": "La Rua Teresa actual conserva el nombre histórico, pero no debe confundirse automáticamente con los límites de la antigua villa. Las fuentes de época ayudan a situar las parcelas originales.",
+            "PT": "A Rua Teresa atual conserva o nome, mas não corresponde exatamente aos limites da Vila Teresa. Mapas e documentos ajudam a localizar os antigos prazos.",
+            "EN": "Today's Rua Teresa preserves the name but not necessarily the historic villa's exact boundaries. Old plans help interpret the plots."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/uma-historia-para-teresa/",
+          "https://ihp.org.br/planejamento-urbanistico-a-ser-lembrado-o/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1857: el periodismo también nació en Alto da Serra",
+          "PT": "1857: a imprensa também chegou ao Alto da Serra",
+          "EN": "1857: an early Petrópolis newspaper"
+        },
+        "paragraphs": [
+          {
+            "ES": "El periodista Bartolomeu Pereira Sudré instaló O Mercantil en Alto da Serra en 1857, según el Instituto Histórico de Petrópolis. El episodio muestra que el desarrollo intelectual no se limitó a los edificios más célebres del Centro Imperial. Más tarde existieron imprentas y talleres de reproducción tipográfica en Rua Teresa, destinados a una prensa local en expansión.",
+            "PT": "O jornalista Bartolomeu Pereira Sudré instalou O Mercantil no Alto da Serra em 1857, segundo o IHP. A imprensa não estava restrita aos palácios do Centro Imperial. Mais tarde, oficinas tipográficas e de clichês funcionaram na Rua Teresa, apoiando a atividade editorial da cidade.",
+            "EN": "Journalist Bartolomeu Pereira Sudré established O Mercantil in Alto da Serra in 1857, according to the Historical Institute. Local publishing was not confined to the imperial centre. Print and plate-making workshops later served the city's growing press from Rua Teresa."
+          },
+          {
+            "ES": "No podemos colocar una placa imaginaria sobre una fachada actual sin demostrar continuidad entre el inmueble y el antiguo establecimiento. Los archivos son más útiles que una atribución visual incierta.",
+            "PT": "Não se deve identificar um prédio atual como antiga redação sem comprovar sua continuidade. A documentação histórica é mais segura.",
+            "EN": "A modern building cannot be called the original newspaper office without evidence. Archival records take precedence over visual guesses."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/uma-historia-para-teresa/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1883: el tren cambia la puerta de la ciudad",
+          "PT": "1883: o trem transforma a entrada da cidade",
+          "EN": "1883: railways transform the gateway"
+        },
+        "paragraphs": [
+          {
+            "ES": "La llegada del ferrocarril en 1883 convirtió Alto da Serra en una estación de paso y cambio de la línea de cremallera. Viajeros, mercancías y técnicos circulaban entre las pendientes de la sierra y el núcleo urbano. Los trenes alteraron horarios de trabajo, vida comercial y paisaje sonoro. Este acceso continuó importante incluso después de que la carretera moderna Río–Petrópolis se inaugurara en 1928.",
+            "PT": "A ferrovia chegou em 1883 e tornou Alto da Serra ponto de circulação e muda dos trens de cremalheira. Passageiros, cargas e técnicos ligavam as encostas ao centro urbano. Os trens mudaram horários, comércio e sons do bairro. Esse acesso manteve importância mesmo após a estrada Rio–Petrópolis inaugurada em 1928.",
+            "EN": "Railways arrived in 1883 and made Alto da Serra a changing and transit station for trains using the rack section. Passengers, freight and railway workers moved between mountain slopes and the centre. Trains reshaped daily schedules and trade. The route remained important even after the Rio–Petrópolis motor road opened in 1928."
+          },
+          {
+            "ES": "La estación histórica no equivale a un tren turístico en funcionamiento. Las fotografías antiguas y el trazado ferroviario deben interpretarse sin prometer viajes que hoy no existen.",
+            "PT": "A estação histórica não significa trem turístico em operação. Fotos antigas devem ser lidas como memória, não serviço vigente.",
+            "EN": "The historic station does not imply a running tourist railway. Historic photographs document past transport rather than current service."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/uma-historia-para-teresa/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1889–1916: la industria textil y las casas obreras",
+          "PT": "1889–1916: indústria têxtil e vilas operárias",
+          "EN": "1889–1916: textile factories and workers' housing"
+        },
+        "paragraphs": [
+          {
+            "ES": "La fábrica Dona Isabel se estableció en 1889, Cometa en 1903 y Petrópolis Fabril en 1904; esta última sufrió un incendio en 1913. La Malharia Soares de Sá comenzó en 1916, prolongando una tradición de confección familiar. El IHP también describe la Serraria Falhauber, que fabricó puertas y ventanas para el palacio imperial. Las villas obreras muestran que los protagonistas no fueron solo empresarios: también hubo trabajadores y familias que formaron el barrio.",
+            "PT": "A fábrica Dona Isabel instalou-se em 1889, a Cometa em 1903 e Petrópolis Fabril em 1904, esta destruída por incêndio em 1913. A Malharia Soares de Sá surgiu em 1916, prolongando a tradição têxtil familiar. O IHP registra a Serraria Falhauber, fornecedora de portas e janelas para o palácio imperial. As vilas operárias lembram que trabalhadores e famílias também construíram o bairro.",
+            "EN": "Dona Isabel factory opened in 1889, Cometa in 1903 and Petrópolis Fabril in 1904; the latter burned in 1913. Malharia Soares de Sá followed in 1916, extending family-based knitwear manufacture. IHP also records Serraria Falhauber, which supplied palace doors and windows. Workers and families, not only factory owners, shaped the district."
+          },
+          {
+            "ES": "Muchos edificios industriales cambiaron o desaparecieron. Las fotografías y los testimonios pueden documentar esas pérdidas, sin atribuir a un galpón actual una historia que corresponde a otro solar.",
+            "PT": "Muitos prédios fabris mudaram ou desapareceram. Fotos e depoimentos ajudam a registrar perdas, sem atribuições duvidosas a edifícios atuais.",
+            "EN": "Many industrial buildings changed or disappeared. Photos document losses, but should not be used to misidentify present-day premises."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/uma-historia-para-teresa/",
+          "https://dami.museuimperial.museus.gov.br/handle/acervo/5715"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Clube Euterpe, Santo Antônio y la vida social",
+          "PT": "Clube Euterpe, Santo Antônio e vida social",
+          "EN": "Euterpe, Santo Antônio and community life"
+        },
+        "paragraphs": [
+          {
+            "ES": "El Clube Euterpe fue fundado en 1901 y llegó a ser un referente musical del Alto da Serra. La iglesia de Santo Antônio y el trabajo comunitario de los franciscanos también ayudaron a organizar la vida local. Estas instituciones permiten contar fiestas, aprendizajes y apoyo social en una zona de numerosos obreros. La historia del barrio no se entiende solo por sus chimeneas o tiendas.",
+            "PT": "O Clube Euterpe foi fundado em 1901 e tornou-se referência musical do Alto da Serra. A igreja de Santo Antônio e a atuação social dos franciscanos também marcaram a comunidade. Essas instituições mostram festas, aprendizado e solidariedade numa região operária. O bairro é mais que fábricas e comércio.",
+            "EN": "Clube Euterpe, founded in 1901, became a centre of musical life. Santo Antônio church and Franciscan social work also helped organise community activities. These institutions document gatherings, learning and solidarity among working families, adding culture to the district's industrial history."
+          },
+          {
+            "ES": "Al programar una visita, confirma si hay eventos musicales o celebraciones. Un nombre histórico no significa que la institución reciba turistas todos los días.",
+            "PT": "Ao planejar visita, confira eventos e cultos. Instituição histórica não significa acesso turístico diário.",
+            "EN": "Check events and services rather than assuming historic institutions are open to visitors every day."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/uma-historia-para-teresa/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1912–1939: la era del tranvía",
+          "PT": "1912–1939: a era dos bondes",
+          "EN": "1912–1939: the tram era"
+        },
+        "paragraphs": [
+          {
+            "ES": "La Companhia Brasileira de Energia Elétrica operaba redes de tranvías en Petrópolis desde 1912, incluida una ruta que recorría Rua Teresa. Era posible conectar el Alto da Serra con el Centro y otros sectores mediante estos vehículos. La investigación del IHP recuerda que el último tranvía partió de Rua Teresa el 15 de julio de 1939. Es una cronología de movilidad cotidiana que hoy resulta difícil imaginar entre vehículos y vitrinas.",
+            "PT": "A Companhia Brasileira de Energia Elétrica operava bondes em Petrópolis desde 1912, inclusive por toda a Rua Teresa. Eles ligavam Alto da Serra ao Centro e outros bairros. O IHP registra que o último bonde partiu da Rua Teresa em 15 de julho de 1939. É uma memória de transporte cotidiano difícil de imaginar entre carros e vitrines atuais.",
+            "EN": "Companhia Brasileira de Energia Elétrica operated trams from 1912, including a service along Rua Teresa connecting Alto da Serra to the centre. IHP records the last city tram departing along the street on 15 July 1939. It was once an everyday transport corridor, now remembered through archives."
+          },
+          {
+            "ES": "Para desplazarte hoy necesitas autobús urbano, taxi o traslado real; no existe una línea histórica de tranvía que deba anunciarse como servicio vigente.",
+            "PT": "Para circular hoje, consulte ônibus, táxi ou transporte contratado; não há bonde histórico em serviço.",
+            "EN": "Visitors must use present-day buses, taxis or transfers, not rely on a nonexistent heritage tram."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/uma-historia-para-teresa/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "La Rua Teresa comercial y la memoria que permanece",
+          "PT": "A Rua Teresa comercial e a memória que permanece",
+          "EN": "Modern Rua Teresa and surviving memory"
+        },
+        "paragraphs": [
+          {
+            "ES": "El polo de confecciones se consolidó a partir de los oficios textiles, talleres familiares y negocios que sucedieron a grandes fábricas. El Museu Imperial cataloga una fotografía del comercio minorista de Tecidos Cometa, en un edificio que fue demolido en 1979. La fuente recuerda que la memoria comercial necesita fotografías, inventarios y testimonios, no solo calles con vitrinas. Hoy la visita permite combinar compras y lectura del patrimonio de trabajo.",
+            "PT": "O polo de confecções cresceu com ofícios têxteis, malharias familiares e lojas que sucederam a fábricas. O Museu Imperial cataloga foto do varejo da Tecidos Cometa, em prédio demolido em 1979. A memória do comércio precisa de fotografias e registros, não só vitrines. Hoje a visita pode unir compras e história do trabalho.",
+            "EN": "The fashion district grew from textile trades, family knitting workshops and shops that replaced larger mills. The Imperial Museum holds a photograph of Tecidos Cometa's old retail building, demolished in 1979. Commercial memory requires archives and photographs, not simply shopfronts. Today's visitor can combine shopping with labour history."
+          },
+          {
+            "ES": "No es correcto fijar el mismo horario ni una cifra actual de tiendas para todo el corredor. Conviene elegir establecimientos, comprobar precios y condiciones mayoristas y calcular pendientes y transporte de regreso.",
+            "PT": "Não há horário único nem contagem fixa atual de lojas. Escolha estabelecimentos, confira atacado e calcule ladeiras e transporte de volta.",
+            "EN": "Shop opening hours and counts vary. Choose individual businesses, confirm wholesale conditions and allow for slopes and return transport."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/uma-historia-para-teresa/",
+          "https://dami.museuimperial.museus.gov.br/handle/acervo/5715"
+        ]
+      }
+    ],
+    "timeline": [
+      [
+        "1802–1809",
+        {
+          "ES": "Se construye la Calçada de Pedra.",
+          "PT": "É construída a Calçada de Pedra.",
+          "EN": "Stone road is built."
+        }
+      ],
+      [
+        "1846",
+        {
+          "ES": "Koeler registra Vila Teresa.",
+          "PT": "Koeler registra Vila Teresa.",
+          "EN": "Koeler maps Vila Teresa."
+        }
+      ],
+      [
+        "1857",
+        {
+          "ES": "Se instala O Mercantil.",
+          "PT": "Instala-se O Mercantil.",
+          "EN": "O Mercantil starts operating."
+        }
+      ],
+      [
+        "1883",
+        {
+          "ES": "Llega el ferrocarril.",
+          "PT": "Chega a ferrovia.",
+          "EN": "Railways arrive."
+        }
+      ],
+      [
+        "1889",
+        {
+          "ES": "Se instala la fábrica Dona Isabel.",
+          "PT": "Instala-se a fábrica Dona Isabel.",
+          "EN": "Dona Isabel factory opens."
+        }
+      ],
+      [
+        "1901",
+        {
+          "ES": "Se funda Clube Euterpe.",
+          "PT": "É fundado o Clube Euterpe.",
+          "EN": "Clube Euterpe is founded."
+        }
+      ],
+      [
+        "1903",
+        {
+          "ES": "Se instala la fábrica Cometa.",
+          "PT": "Instala-se a fábrica Cometa.",
+          "EN": "Cometa factory develops."
+        }
+      ],
+      [
+        "1912",
+        {
+          "ES": "Los tranvías recorren Rua Teresa.",
+          "PT": "Bondes percorrem a Rua Teresa.",
+          "EN": "Trams serve Rua Teresa."
+        }
+      ],
+      [
+        "1916",
+        {
+          "ES": "Surge Malharia Soares de Sá.",
+          "PT": "Surge Malharia Soares de Sá.",
+          "EN": "Knitwear business develops."
+        }
+      ],
+      [
+        "1939",
+        {
+          "ES": "Circula el último tranvía.",
+          "PT": "Circula o último bonde.",
+          "EN": "The final tram runs."
+        }
+      ]
+    ],
+    "stops": [
+      {
+        "name": "Rua Teresa — comercio",
+        "note": {
+          "ES": "Planifica tiendas individuales y regreso.",
+          "PT": "Planeje lojas e retorno.",
+          "EN": "Plan individual shops and return transport."
+        },
+        "location": "Rua Teresa Petrópolis RJ Brasil",
+        "route": "compras/"
+      },
+      {
+        "name": "Alto da Serra — antigua estación",
+        "note": {
+          "ES": "Referencia del ferrocarril, no tren turístico.",
+          "PT": "Memória ferroviária, sem trem turístico.",
+          "EN": "Railway heritage, not a running tourist train."
+        },
+        "location": "Antiga Estação Alto da Serra Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Paróquia Santo Antônio",
+        "note": {
+          "ES": "Memoria comunitaria y religiosa; consulta celebración.",
+          "PT": "Memória religiosa; confira celebrações.",
+          "EN": "Community history; check religious services."
+        },
+        "location": "Igreja Santo Antônio Alto da Serra Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Clube Euterpe",
+        "note": {
+          "ES": "Asociación musical histórica; consulta eventos.",
+          "PT": "Clube musical histórico; confira eventos.",
+          "EN": "Historic music society; check events."
+        },
+        "location": "Clube Euterpe Alto da Serra Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Antiguo acceso por Serra da Estrela",
+        "note": {
+          "ES": "Paisaje viario, no sendero turístico de libre acceso.",
+          "PT": "Paisagem viária, não trilha livre.",
+          "EN": "Historic road context, not a safe open walking trail."
+        },
+        "location": "Alto da Serra Petrópolis RJ Brasil"
+      }
+    ],
+    "bibliography": [
+      {
+        "label": "Joaquim Eloy Duarte dos Santos · Uma História para Teresa",
+        "url": "https://ihp.org.br/uma-historia-para-teresa/",
+        "why": {
+          "ES": "Investigación sobre camino, industrias, tren, tranvías y barrio.",
+          "PT": "Pesquisa sobre caminho, indústrias, trem, bondes e bairro.",
+          "EN": "Detailed historical essay about the district."
+        }
+      },
+      {
+        "label": "IHP · Planejamento urbanístico a ser lembrado",
+        "url": "https://ihp.org.br/planejamento-urbanistico-a-ser-lembrado-o/",
+        "why": {
+          "ES": "Vila Teresa en el plan original.",
+          "PT": "Vila Teresa no plano original.",
+          "EN": "Vila Teresa's place in the original urban plan."
+        }
+      },
+      {
+        "label": "Museu Imperial · Varejo da Fábrica de Tecidos Cometa",
+        "url": "https://dami.museuimperial.museus.gov.br/handle/acervo/5715",
+        "why": {
+          "ES": "Fotografía de inmueble demolido en 1979; reproducción requiere licencia.",
+          "PT": "Foto de prédio demolido em 1979; uso sujeito a direitos.",
+          "EN": "Archived photo of building demolished in 1979; rights apply."
+        }
+      },
+      {
+        "label": "IHP · Relembrando alguns colonos",
+        "url": "https://ihp.org.br/relembrando-alguns-colonos-e-os-esquecidos-quarteiroes/",
+        "why": {
+          "ES": "Cambios de nombres de quarteirões.",
+          "PT": "Nomes e mudanças dos quarteirões.",
+          "EN": "Historical allotment nomenclature."
+        }
+      }
+    ]
+  },
+  "pedro-do-rio-secretario": {
+    "heading": {
+      "ES": "Pedro do Rio y Secretário: sesmarías, caminos y ferrocarril",
+      "PT": "Pedro do Rio e Secretário: sesmarias, caminhos e ferrovia",
+      "EN": "Pedro do Rio and Secretário: estates, roads and railways"
+    },
+    "intro": {
+      "ES": "La historia del cuarto distrito empieza con presencia indígena, concesiones coloniales, tropas de mulas y haciendas, antes de las diligencias de la União e Indústria y del ferrocarril de 1886. Pedro do Rio y Secretário no son una sola localidad ni una extensión de Itaipava.",
+      "PT": "A história do quarto distrito começa com presença indígena, sesmarias, tropas de mulas e fazendas, antes das diligências da União e Indústria e da ferrovia de 1886. Pedro do Rio e Secretário não são uma localidade só nem extensão de Itaipava.",
+      "EN": "The fourth district's story includes Indigenous presence, land grants, mule trains and estates long before road coaches and the 1886 railway. Pedro do Rio and Secretário are distinct places, not an extension of Itaipava."
+    },
+    "chapters": [
+      {
+        "title": {
+          "ES": "Un territorio indígena antes de las fazendas",
+          "PT": "Um território indígena antes das fazendas",
+          "EN": "Indigenous history before the estates"
+        },
+        "paragraphs": [
+          {
+            "ES": "La región conocida en fuentes coloniales como Sertão do Piabanha no estaba vacía. Jeronymo Ferreira Alves Netto cita a Alberto Ribeiro Lamego para señalar la presencia de grupos indígenas Puri, presionados por la ocupación de los colonizadores. Las cartas antiguas documentan ríos y áreas de circulación, pero no representan toda la historia indígena. Un relato responsable reconoce sus límites y evita repetir el vocabulario discriminatorio empleado por algunos cronistas de época.",
+            "PT": "O território chamado Sertão do Piabanha pelas fontes coloniais não era vazio. Jeronymo Ferreira Alves Netto cita Alberto Ribeiro Lamego sobre grupos indígenas Puri pressionados pela ocupação colonial. Mapas registram rios e caminhos, mas não toda a história indígena. É necessário reconhecer lacunas e evitar reproduzir termos preconceituosos de cronistas antigos.",
+            "EN": "The region called Sertão do Piabanha by colonial sources was not empty. Jeronymo Ferreira Alves Netto cites historian Alberto Ribeiro Lamego on Puri Indigenous groups displaced by colonial expansion. Early maps identify rivers and routes but cannot tell the whole Indigenous story. Older discriminatory vocabulary should be contextualised, not adopted."
+          },
+          {
+            "ES": "Los estudios de propiedad suelen empezar con las concesiones portuguesas, pero esas fechas no marcan el inicio de la presencia humana en las montañas.",
+            "PT": "Pesquisas fundiárias começam pelas sesmarias portuguesas, mas essas datas não marcam o início da presença humana na serra.",
+            "EN": "Land records begin with Portuguese grants, not with the first human presence in the mountains."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/vila-de-pedro-do-rio-a/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "José Ferreira da Fonte y el origen de Secretário",
+          "PT": "José Ferreira da Fonte e a origem de Secretário",
+          "EN": "José Ferreira da Fonte and Secretário"
+        },
+        "paragraphs": [
+          {
+            "ES": "El nombre Secretário se relaciona con José Ferreira da Fonte, funcionario del gobierno colonial que obtuvo tierras en el valle del Fagundes durante la primera década del siglo XVIII. En 1734 consiguió también tierras que alcanzaban el Piabanha, relacionadas con la posterior región de Magé e Itaipava. Las concesiones y herencias dieron origen a haciendas, disputas de medición y poblados que se desarrollaron antes de la Ciudad Imperial.",
+            "PT": "O nome Secretário está ligado a José Ferreira da Fonte, secretário do governo colonial que recebeu terras no vale do Fagundes no começo do século XVIII. Em 1734 conseguiu outra área até o Piabanha, relacionada à região de Magé e Itaipava. Sesmarias e heranças originaram fazendas, conflitos de medição e localidades anteriores à Cidade Imperial.",
+            "EN": "The name Secretário is associated with José Ferreira da Fonte, a colonial government secretary granted land in the Fagundes valley in the early eighteenth century. In 1734 he received further land extending towards the Piabanha, associated with later Magé and Itaipava. Grants and inheritances gave rise to estates, boundary disputes and communities before the Imperial City."
+          },
+          {
+            "ES": "El patrimonio rural no puede describirse solo como paisaje pintoresco: la propiedad colonial dependía de jerarquías de poder, trabajo y acceso desigual a la tierra.",
+            "PT": "O patrimônio rural não é apenas paisagem: a propriedade colonial envolvia poder, trabalho e desigualdade na distribuição de terras.",
+            "EN": "Rural heritage is not only scenery: colonial property involved power, labour and unequal access to land."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/subsidios-para-uma-historia-de-secretario/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1758: Pedro do Rio y las tierras de Joaquim José Pegado",
+          "PT": "1758: Pedro do Rio e as terras de Joaquim José Pegado",
+          "EN": "1758: Pedro do Rio and an early land grant"
+        },
+        "paragraphs": [
+          {
+            "ES": "La Vila de Pedro do Rio se formó en tierras vinculadas a la sesmaría concedida a Joaquim José Pegado en 1758. La investigación local advierte que no se conoce con seguridad cuándo nació el nombre Pedro do Rio. Una tradición relata la existencia de dos ranchos atendidos por personas llamadas Pedro, uno junto al río y otro en la parte alta. Esta etimología debe aparecer como tradición, no como hecho demostrado.",
+            "PT": "A vila de Pedro do Rio cresceu em terras da sesmaria concedida a Joaquim José Pegado em 1758. A pesquisa observa que não há data segura para o surgimento do nome Pedro do Rio. Tradição local menciona dois ranchos de pessoas chamadas Pedro, um junto ao rio e outro no alto. É tradição, não fato documentalmente comprovado.",
+            "EN": "Pedro do Rio developed on land connected to a 1758 grant to Joaquim José Pegado. Local historians say the exact origin of the place name remains uncertain. Tradition describes two roadside inns operated by people named Pedro, one by the river and another uphill. This should be presented as tradition, not established fact."
+          },
+          {
+            "ES": "La localidad es sede del cuarto distrito, pero sus calles actuales y sus límites administrativos cambiaron mucho desde los siglos XVIII y XIX.",
+            "PT": "A localidade é sede do quarto distrito, mas vias e limites mudaram desde os séculos XVIII e XIX.",
+            "EN": "The settlement is now the fourth district's centre, but its roads and boundaries changed considerably."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/vila-de-pedro-do-rio-a/",
+          "https://ihp.org.br/subsidios-para-uma-historia-de-secretario/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1763: Nossa Senhora da Lapa, una capilla del camino",
+          "PT": "1763: Nossa Senhora da Lapa, capela do caminho",
+          "EN": "1763: Nossa Senhora da Lapa chapel"
+        },
+        "paragraphs": [
+          {
+            "ES": "La investigación de Secretário registra una provisión de 29 de abril de 1763 para la capilla de Nossa Senhora da Lapa, cuya fundación se atribuye a Manuel da Costa Guimarães. Se cuenta entre las referencias religiosas más antiguas de la región y vincula el mundo de las fazendas con la atención espiritual de familias y viajeros. Conservar una capilla no significa que todos sus elementos visibles pertenezcan al año original.",
+            "PT": "Pesquisa sobre Secretário registra provisão de 29 de abril de 1763 para a Capela Nossa Senhora da Lapa, atribuída a Manuel da Costa Guimarães. É uma das referências religiosas antigas, ligada a famílias de fazendas e viajantes. Preservação não significa que todos os elementos atuais sejam da primeira construção.",
+            "EN": "Research into Secretário records a provision dated 29 April 1763 for Nossa Senhora da Lapa chapel, attributed to Manuel da Costa Guimarães. It is one of the area's oldest religious landmarks, associated with estates and travellers. Its historic origins do not mean every visible architectural element dates from 1763."
+          },
+          {
+            "ES": "Para acceder, consulta a la comunidad religiosa: una capilla histórica no es necesariamente un museo con puertas abiertas todo el día.",
+            "PT": "Para visitar, consulte a comunidade religiosa: uma capela antiga não é museu com acesso permanente.",
+            "EN": "Check with the religious community; a historic chapel is not necessarily an always-open museum."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/subsidios-para-uma-historia-de-secretario/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Los ranchos de las tropas y el Camino de Minas",
+          "PT": "Os ranchos de tropas e o Caminho de Minas",
+          "EN": "Mule trains and the road to Minas"
+        },
+        "paragraphs": [
+          {
+            "ES": "Las rutas alternativas del Caminho Novo conectaban el interior con Río mediante transportes de mulas. Los ranchos ofrecían descanso, carga y alojamiento para animales y viajeros. Los relatos citados por el IHP mencionan la Fazenda Sumidouro, el Sítio do Alferes Caetano y el Rancho do Almeida. Eduardo Canabrava Barreiros relacionó el sitio de Alferes Caetano con Pedro do Rio actual. Es historia de comercio y movilidad, no un conjunto de hospedajes históricos abiertos hoy.",
+            "PT": "As variantes do Caminho Novo ligavam o interior ao Rio por tropas de muares. Ranchos ofereciam abrigo, descanso e serviços a animais e viajantes. Fontes citam Fazenda Sumidouro, Sítio do Alferes Caetano e Rancho do Almeida. Eduardo Canabrava Barreiros relacionou o sítio do Alferes Caetano à atual Pedro do Rio. Trata-se de história de comércio e circulação, não hotéis antigos ainda abertos.",
+            "EN": "Variants of Caminho Novo linked inland Brazil to Rio through mule trains. Roadside shelters served animals, freight and travellers. Historical studies mention Fazenda Sumidouro, Sítio do Alferes Caetano and Rancho do Almeida. Eduardo Canabrava Barreiros linked Alferes Caetano's site to present-day Pedro do Rio. These were historic transport services, not operating lodgings today."
+          },
+          {
+            "ES": "Muchos establecimientos solo sobreviven en documentos. No deben inventarse ruinas visitables ni recomendar entrada a propiedades rurales sin permiso.",
+            "PT": "Muitos ranchos sobrevivem apenas em documentos. Não invente ruínas visitáveis nem entre em fazendas sem autorização.",
+            "EN": "Many inns survive only in documents; visitors should not be directed to fictional ruins or private land."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/subsidios-para-uma-historia-de-secretario/",
+          "https://ihp.org.br/vila-de-pedro-do-rio-a/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1858: las diligencias de União e Indústria",
+          "PT": "1858: as diligências da União e Indústria",
+          "EN": "1858: the União e Indústria road coaches"
+        },
+        "paragraphs": [
+          {
+            "ES": "El 18 de marzo de 1858 se inauguró el tramo de la Estrada União e Indústria entre Petrópolis y Pedro do Rio, con presencia de Pedro II y Teresa Cristina. Sus almacenes y servicios de diligencias transportaban viajeros, mercancías y productos agrícolas. Los textos de época recuerdan el movimiento de mulas, carruajes y hospedajes como el de João Meyer. Pedro do Rio tuvo así una función de enlace regional antes del ferrocarril.",
+            "PT": "Em 18 de março de 1858 foi inaugurado o trecho Petrópolis–Pedro do Rio da Estrada União e Indústria, com Pedro II e Teresa Cristina. Armazéns e diligências transportavam pessoas, produtos e mercadorias. Relatos lembram tropas de muares, carruagens e hospedagens como a de João Meyer. Pedro do Rio tinha função de ligação regional antes da ferrovia.",
+            "EN": "The Petrópolis–Pedro do Rio stretch of Estrada União e Indústria opened on 18 March 1858 in the presence of Pedro II and Teresa Cristina. Depots and mule-drawn coaches served passengers and goods. Period accounts describe carriage traffic and lodgings such as João Meyer's. Pedro do Rio was a transport junction before railways arrived."
+          },
+          {
+            "ES": "Los anuncios de hoteles y diligencias del siglo XIX son fuentes históricas, no horarios o servicios que podamos reproducir como recomendaciones actuales.",
+            "PT": "Anúncios de hotéis e diligências antigos são fontes históricas, não serviços atuais.",
+            "EN": "Old hotel and coach adverts are historical sources, not present-day booking information."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/vila-de-pedro-do-rio-a/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1886–1964: una estación que marcó el distrito",
+          "PT": "1886–1964: uma estação que marcou o distrito",
+          "EN": "1886–1964: the railway era"
+        },
+        "paragraphs": [
+          {
+            "ES": "La sección ferroviaria Petrópolis–Pedro do Rio se completó el 10 de febrero de 1886, integrando la Estrada de Ferro Príncipe do Grão Pará. En 1890 pasó a formar parte de la red controlada por Leopoldina Railway. El tren facilitó desplazamientos y transporte de productos. El IHP documenta que la estación fue cerrada el 5 de noviembre de 1964, cuando se suprimió la línea: un giro importante hacia el predominio de las carreteras.",
+            "PT": "A seção Petrópolis–Pedro do Rio foi concluída em 10 de fevereiro de 1886, na Estrada de Ferro Príncipe do Grão Pará. Em 1890 passou à rede da Leopoldina Railway. Os trens levavam pessoas e produtos. O IHP registra fechamento da estação em 5 de novembro de 1964 com a extinção da linha, marcando a supremacia das rodovias.",
+            "EN": "The Petrópolis–Pedro do Rio railway section was completed on 10 February 1886 as part of Estrada de Ferro Príncipe do Grão Pará. It passed to Leopoldina Railway's control in 1890. Trains carried people and goods. The Historical Institute dates the station's closure to 5 November 1964, when the line was discontinued."
+          },
+          {
+            "ES": "La antigua estación puede ser referencia patrimonial, pero no debe anunciarse un servicio de trenes turísticos ni atravesar vías restringidas.",
+            "PT": "A antiga estação é patrimônio histórico, não trem turístico em serviço. Respeite áreas restritas.",
+            "EN": "The former station is heritage, not an operating tourist railway. Respect restricted areas."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/vila-de-pedro-do-rio-a/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1892: el cuarto distrito y su geografía propia",
+          "PT": "1892: o quarto distrito e sua geografia própria",
+          "EN": "1892: a fourth district with its own geography"
+        },
+        "paragraphs": [
+          {
+            "ES": "La reorganización municipal de mayo de 1892 creó el cuarto distrito de Pedro do Rio, con ajustes normativos en junio del mismo año. Sus localidades desarrollaron escuelas, puentes y servicios públicos en torno a la agricultura y el comercio. La investigación del IHP cita a José de Barros Franco Júnior entre los políticos vinculados a obras y organización local. La historia no se agota en los grandes propietarios: la vida comunitaria sostuvo servicios y rutas.",
+            "PT": "A reorganização municipal de maio de 1892 criou o quarto distrito de Pedro do Rio, ajustado em junho. Comunidades desenvolveram escolas, pontes e serviços em contexto rural. O IHP registra José de Barros Franco Júnior entre políticos ligados a melhorias locais. A história não se resume a fazendeiros: o cotidiano comunitário sustentou rotas e serviços.",
+            "EN": "Municipal reorganisation in May 1892 established the fourth district of Pedro do Rio, with adjustments that June. Its communities developed schools, bridges and services alongside agriculture and trade. IHP research names José de Barros Franco Júnior among officials involved in local improvements. Community life, not just major landowners, sustained the district."
+          },
+          {
+            "ES": "Pedro do Rio y Secretário exigen trayectos separados, con distancias rurales y conexiones de autobús que deben verificarse antes del viaje. No son una sola calle ni una extensión de Itaipava.",
+            "PT": "Pedro do Rio e Secretário exigem deslocamentos distintos e ônibus que devem ser conferidos. Não são uma rua só nem extensão de Itaipava.",
+            "EN": "Pedro do Rio and Secretário require separate rural travel planning and verified buses. They are not one street or an extension of Itaipava."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/subsidios-para-uma-historia-de-secretario/",
+          "https://ihp.org.br/vila-de-pedro-do-rio-a/"
+        ]
+      }
+    ],
+    "timeline": [
+      [
+        "Primera mitad s. XVIII",
+        {
+          "ES": "José Ferreira da Fonte obtiene tierras de Secretário.",
+          "PT": "José Ferreira da Fonte recebe terras em Secretário.",
+          "EN": "The Secretary obtains early land grants."
+        }
+      ],
+      [
+        "1758",
+        {
+          "ES": "Concesión vinculada a Joaquim José Pegado.",
+          "PT": "Sesmaria de Joaquim José Pegado.",
+          "EN": "Joaquim José Pegado land grant."
+        }
+      ],
+      [
+        "1763",
+        {
+          "ES": "Provisión para la capilla de Nossa Senhora da Lapa.",
+          "PT": "Provisão para a capela de Nossa Senhora da Lapa.",
+          "EN": "Chapel provision recorded."
+        }
+      ],
+      [
+        "1858",
+        {
+          "ES": "Se inaugura la carretera hasta Pedro do Rio.",
+          "PT": "Inaugura-se a estrada até Pedro do Rio.",
+          "EN": "Road coaches reach Pedro do Rio."
+        }
+      ],
+      [
+        "1886",
+        {
+          "ES": "Se completa la vía férrea.",
+          "PT": "Conclui-se a ferrovia.",
+          "EN": "Railway line is completed."
+        }
+      ],
+      [
+        "1892",
+        {
+          "ES": "Se establece el cuarto distrito.",
+          "PT": "Estabelece-se o quarto distrito.",
+          "EN": "Fourth district is organised."
+        }
+      ],
+      [
+        "1964",
+        {
+          "ES": "Cierra la estación ferroviaria.",
+          "PT": "Fecha a estação ferroviária.",
+          "EN": "The railway station closes."
+        }
+      ],
+      [
+        "Hoy",
+        {
+          "ES": "Conviven patrimonio rural y movilidad por carretera.",
+          "PT": "Convivem patrimônio rural e vias rodoviárias.",
+          "EN": "Rural heritage and road transport coexist."
+        }
+      ]
+    ],
+    "stops": [
+      {
+        "name": "Pedro do Rio — centro local",
+        "note": {
+          "ES": "Sede del cuarto distrito.",
+          "PT": "Centro do quarto distrito.",
+          "EN": "The fourth district's centre."
+        },
+        "location": "Centro Pedro do Rio Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Antiga Estação Pedro do Rio",
+        "note": {
+          "ES": "Memoria ferroviaria, sin tren turístico funcionando.",
+          "PT": "Memória ferroviária, sem trem turístico.",
+          "EN": "Former railway station; no running tourist train."
+        },
+        "location": "Antiga Estação Ferroviária Pedro do Rio Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Capela Nossa Senhora da Lapa",
+        "note": {
+          "ES": "Patrimonio religioso; confirma acceso.",
+          "PT": "Patrimônio religioso; confirme acesso.",
+          "EN": "Historic chapel; confirm access."
+        },
+        "location": "Capela Nossa Senhora da Lapa Secretário Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Secretário — núcleo rural",
+        "note": {
+          "ES": "Haciendas y antiguos caminos en la región.",
+          "PT": "Fazendas e caminhos rurais históricos.",
+          "EN": "Rural community with old roads and estates."
+        },
+        "location": "Secretário Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Estrada União e Indústria",
+        "note": {
+          "ES": "Ruta histórica por carretera, no caminata continua.",
+          "PT": "Eixo histórico rodoviário, não passeio a pé.",
+          "EN": "Historic road corridor, not a continuous walking route."
+        },
+        "location": "Estrada União e Indústria Pedro do Rio Petrópolis RJ Brasil",
+        "route": "transportes/entre-distritos/"
+      }
+    ],
+    "bibliography": [
+      {
+        "label": "Jeronymo Ferreira Alves Netto · A Vila de Pedro do Rio",
+        "url": "https://ihp.org.br/vila-de-pedro-do-rio-a/",
+        "why": {
+          "ES": "Viajeros, carretera, ferrocarril, 1892 y cierre de 1964.",
+          "PT": "Viagens, estrada, ferrovia, 1892 e fechamento.",
+          "EN": "Road and rail history, municipal organisation."
+        }
+      },
+      {
+        "label": "Jeronymo Ferreira Alves Netto · Subsídios para uma História de Secretário",
+        "url": "https://ihp.org.br/subsidios-para-uma-historia-de-secretario/",
+        "why": {
+          "ES": "Sesmarias, capilla, políticos y caminos.",
+          "PT": "Sesmarias, capela, política e caminhos.",
+          "EN": "Land grants, chapel, local figures and routes."
+        }
+      },
+      {
+        "label": "Carlos Oliveira Fróes · Petrópolis: A Saga de um Caminho",
+        "url": "https://ihp.org.br/petropolis-a-saga-de-um-caminho/",
+        "why": {
+          "ES": "Evolución del territorio y antiguos caminos.",
+          "PT": "Evolução territorial e caminhos.",
+          "EN": "Historical territorial and transport study."
+        }
+      },
+      {
+        "label": "Frei Estanislau Schaette · Fazendeiros e Fazendas de Serra Acima (1948)",
+        "url": "https://ihp.org.br/subsidios-para-uma-historia-de-secretario/",
+        "why": {
+          "ES": "Obra citada por el IHP; libro no consultado íntegramente.",
+          "PT": "Obra citada pelo IHP; não consultada integralmente.",
+          "EN": "Book cited by IHP; not read in full."
+        }
+      },
+      {
+        "label": "Eduardo Canabrava Barreiros · D. Pedro, Jornada a Minas Gerais em 1822",
+        "url": "https://ihp.org.br/vila-de-pedro-do-rio-a/",
+        "why": {
+          "ES": "Referencia bibliográfica sobre antiguas rutas.",
+          "PT": "Referência bibliográfica sobre antigos caminhos.",
+          "EN": "Book cited for early travel routes."
+        }
+      }
+    ]
   }
 };
