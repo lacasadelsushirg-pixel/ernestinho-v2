@@ -12,7 +12,7 @@ from build_fr_preview import LANGS, ROOT, ROUTES, read_page, route_file
 
 STATUSES = ('Pendiente', 'En revisión', 'Corregido o traducido', 'Validado', 'Publicado')
 COLUMNS = ('ES', 'PT-BR', 'EN', 'FR')
-RESTAURANTS = {'/gastronomia/carretao-ipanema/', '/gastronomia/ct-boucherie/'}
+RESTAURANTS = {route for route in ROUTES if route.startswith('/gastronomia/')}
 SPANISH = re.compile(r'\b(?:conviene|quienes|pide|luego|aprovecha|moverte|comprobar|puedes|según|menú|almuerzo|preguntaría|siempre|evita|consejo|guarniciones|después|aunque|reservar|horarios|una|lleva|cerca|también|donde|recorrido|ficha)\b', re.I)
 
 
@@ -89,7 +89,7 @@ def generate(production, reviewed, old_audit, old_index, output, revision, date)
             totals[group][lang][status] += 1
         historic = ''
         if route in RESTAURANTS:
-            historic = 'Diccionario PT/EN incrustado en la ficha y dos párrafos nuevos por establecimiento.'
+            historic = 'Diccionario PT/EN incrustado cotejado con el texto aprobado y complementos según la ficha.'
         elif ready:
             historic = 'HTML ES aprobado y traducciones vigentes del PR 24 cotejadas.'
         inventory.append({

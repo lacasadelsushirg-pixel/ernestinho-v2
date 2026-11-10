@@ -15,6 +15,7 @@ ORIGIN = 'https://www.ernestinhocarioca.com.br'
 ROUTES = (
     '/', '/guia/', '/guia/apps/', '/guia/dinero/', '/guia/permanencia/',
     '/gastronomia/carretao-ipanema/', '/gastronomia/ct-boucherie/',
+    '/gastronomia/belmonte-copa/', '/gastronomia/belmonte-ipanema/', '/gastronomia/polvo-marisqueria/',
 )
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (

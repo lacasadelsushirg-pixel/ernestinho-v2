@@ -87,7 +87,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
    for(const route of Object.keys(pilotLabels))routes.add(route);
    continue;
   }
-  if(file==='scripts/legacy_locale_routes.mjs'||file==='assets/js/translations/rio-restaurantes-piloto.mjs'){
+  if(file==='scripts/legacy_locale_routes.mjs'||file==='assets/js/translations/rio-restaurantes-piloto.mjs'||file==='assets/js/translations/belmonte-leme-legacy.mjs'){
    for(const route of legacyLocaleRoutes.keys())routes.add(route);
    continue;
   }
@@ -331,7 +331,11 @@ async function worker(){
       const value=pilotLabels[image.alt]?.[index];
       if(value){image.alt=value;image.dataset.ecAlt=value;}
      }
-     for(const link of document.querySelectorAll('a')){
+     for(const frame of document.querySelectorAll('iframe[title]')){
+      const value=pilotLabels[frame.title]?.[index];
+      if(value){frame.title=value;frame.dataset.ecTitle=value;}
+     }
+     for(const link of document.querySelectorAll('a, p, h2, h3, figcaption, .tag, .note')){
       const value=pilotLabels[link.textContent.trim()]?.[index];
       if(value&&link.childElementCount===0)link.textContent=value;
      }
