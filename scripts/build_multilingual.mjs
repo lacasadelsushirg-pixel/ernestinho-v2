@@ -7,6 +7,7 @@ import {createRequire} from 'node:module';
 import {execFileSync} from 'node:child_process';
 import {loadBuildLibraries} from './build_vendor.mjs';
 import {buildBrowserOptions} from './build_browser.mjs';
+import {legacyLocaleRoutes, localizeLegacyStartup} from './legacy_locale_routes.mjs';
 import {SEO_METADATA} from '../assets/js/seo-metadata.js';
 import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/translations/chunks/experiencias-standalone.js';
 import{renderBuziosMirror,mirrorRoutes}from'./build_buzios_mirror.mjs';
@@ -67,6 +68,8 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
    if(!response.ok)throw Error('Cannot compare this build with the last deployed source commit through Git or GitHub: '+error.message+'; history fetch: '+fetchError.message+'; GitHub HTTP '+response.status);
    const comparison=await response.json();
    if(!Array.isArray(comparison.files))throw Error('GitHub compare API returned no file list; refusing an incomplete incremental publication.');
+   // GitHub includes at most 300 changed files, even when commits are paginated.
+   if(comparison.status!=='ahead'||comparison.files.length>=300)throw Error('GitHub compare cannot prove a complete forward diff; fetch both revisions or validate a full build.');
    console.log('GitHub compare: '+comparison.status+', '+comparison.ahead_by+' commits ahead, '+comparison.files.length+' changed files.');
    changes=comparison.files.flatMap(file=>file.status==='renamed'&&file.previous_filename?['D\t'+file.previous_filename,'A\t'+file.filename]:[(file.status==='removed'?'D':file.status==='added'?'A':'M')+'\t'+file.filename]);
   }
@@ -78,6 +81,11 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  }
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
+  if(file.startsWith('docs/'))continue;
+  if(file==='scripts/legacy_locale_routes.mjs'){
+   for(const route of legacyLocaleRoutes.keys())routes.add(route);
+   continue;
+  }
   // A neighbourhood editor change requires its rendered HTML pages, not a zero-route build.
   // Preserve the existing approved pages outside the neighbourhood section.
   if (file === 'scripts/regional_neighborhoods.mjs' ||
@@ -108,6 +116,13 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   if(mirrorInputs.includes(file)||/^assets\/js\/translations\/chunks\/buzios-(?:transport-mirror|bus-timetable|guide-context|apps-mirror|events|things-parity)\.js$/.test(file)){for(const route of mirrorRoutes)routes.add(route);continue;}
   // This module only supplies texts for /quiero/; do not rebuild 3,522 unrelated locale pages.
   if(file==='assets/js/translations/quiero.js'){routes.add('/quiero/');continue;}
+  // site.js loads these dictionaries only for their respective sections.
+  const scopedSection=file==='assets/js/translations/chunks/transportes-01.js'?'/transportes/'
+   :file==='assets/js/translations/chunks/rio-residual-compras-01.js'?'/compras/':null;
+  if(scopedSection){
+   for(const source of files){const route=routeFor(source);if(route.startsWith(scopedSection))routes.add(route);}
+   continue;
+  }
   if(file==='assets/js/buzios-taxonomy.js')continue;
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
@@ -152,6 +167,7 @@ function adaptLegacyScripts(html,sourcePath){
   if(open.includes('application/ld+json'))return whole;
   // Sparse renderer dictionaries legitimately have no ES entry.
   code=code.replace(/T\[l\]\[k\]/g,'T[l]?.[k]');
+  code=localizeLegacyStartup(code,sourcePath);
   if(sourcePath==='/compras/mercado-sao-pedro/')code=code.replace(/function lang\(/g,'function ecMarketLanguage(').replace(/=>lang\(/g,'=>ecMarketLanguage(').replace(/;lang\(/g,';ecMarketLanguage(');
   return open+code+close;
  }).replace(sourcePath==='/compras/mercado-sao-pedro/'?/onclick="lang\(/g:/$^/g,'onclick="ecMarketLanguage(');
@@ -201,11 +217,13 @@ const browser=targets.length?await chromium.launch(await buildBrowserOptions()):
 let next=0;const manifest=[];const prunedRoutes=new Set();const errors=[];
 async function worker(){
  const context=await browser.newContext({viewport:{width:1365,height:900}});
+ const translationModules=new Set();
  await context.route('**/*',async r=>{
    const requestUrl=new URL(r.request().url());
    if(requestUrl.origin===base){
     const requestPath=decodeURIComponent(requestUrl.pathname);
     const sourcePath=requestPath.replace(/^\/(?:pt|en)(?=\/|$)/i,'')||'/';
+    if(r.request().resourceType()==='script'&&sourcePath.startsWith('/assets/js/translations/chunks/'))translationModules.add(requestUrl.href);
     let file=path.resolve(root,'.'+sourcePath);
     if(!file.startsWith(root+path.sep)&&file!==root)return r.fulfill({status:403,body:'Forbidden'});
     if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');
@@ -276,6 +294,7 @@ async function worker(){
     const dest=path.join(out,route.slice(1)+'index.html');fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,html);
     manifest.push({route,source:target.route,language:target.language,indexable:false,redirect:finalPath});continue;
    }
+   translationModules.clear();
    await page.goto(base+route,{waitUntil:'load',timeout:30000});
    if(new URL(page.url()).pathname!==route)throw Error('Unexpected client navigation '+page.url());
    await page.evaluate(async language=>{
@@ -290,6 +309,14 @@ async function worker(){
     await new Promise(r=>setTimeout(r,80));
     if(typeof window.ecApplyPracticalSummaryLocale==="function")window.ecApplyPracticalSummaryLocale(language);
    },target.language);
+   // site.js tolerates failed imports for visitors. Verify the same module URLs
+   // here after its ready promise, including errors swallowed by allSettled.
+   await page.evaluate(async urls=>{
+    const results=await Promise.allSettled(urls.map(url=>import(url)));
+    const failures=results.flatMap((result,index)=>result.status==='rejected'
+     ? [new URL(urls[index]).pathname+': '+String(result.reason)] : []);
+    if(failures.length)throw Error('Translation modules failed: '+failures.join(' | '));
+   },[...translationModules]);
    const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations})=>{
     const language=document.documentElement.lang;
     if(standaloneTranslations&&/^\/experiencias\/pedra-(?:telegrafo|gavea|bonita)\/$/.test(route.replace(/^\/(?:pt|en)(?=\/|$)/,''))){
@@ -407,6 +434,7 @@ if(errors.length)throw Error(JSON.stringify(errors));
 if(previous){const changed=new Set([...manifest.map(r=>r.route),...prunedRoutes]);manifest.push(...previous.routes.filter(r=>!changed.has(r.route)&&!deletedSourceRoutes.has(r.source)));}
 manifest.sort((a,b)=>a.route.localeCompare(b.route));
 const isPilot=previous?previous.pilot:!!pilot;
-fs.writeFileSync(path.join(out,'locale-manifest.json'),JSON.stringify({sourceDocuments:files.length,indexablePerLanguage:indexableRoutes.size,generated:manifest.length,pilot:isPilot,sourceCommit:currentCommit,routes:manifest},null,2));
-if(!isPilot)execFileSync('python3',[path.join(root,'scripts/build_sitemap.py'),'--root',out],{stdio:'inherit'});
+const outputManifest=path.join(out,'locale-manifest.json');
+fs.writeFileSync(outputManifest,JSON.stringify({sourceDocuments:files.length,indexablePerLanguage:indexableRoutes.size,generated:manifest.length,pilot:isPilot,sourceCommit:currentCommit,routes:manifest},null,2));
+if(!isPilot)execFileSync('python3',[path.join(root,'scripts/build_sitemap.py'),'--root',out,'--manifest',outputManifest],{stdio:'inherit'});
 console.log(`Complete: ${manifest.length} generated HTML; ${indexableRoutes.size} indexable URLs per language.`);

@@ -4,7 +4,6 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit
 from xml.etree.ElementTree import Element, SubElement, register_namespace
-from xml.sax.saxutils import escape
 import os
 import json
 import argparse
@@ -17,7 +16,18 @@ if origin != "https://www.ernestinhocarioca.com.br":
 register_namespace("", "http://www.sitemaps.org/schemas/sitemap/0.9")
 arguments = argparse.ArgumentParser()
 arguments.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[1])
-root = arguments.parse_args().root.resolve()
+arguments.add_argument('--manifest', type=Path, help='Require exactly the indexable routes from a completed locale build.')
+args = arguments.parse_args()
+root = args.root.resolve()
+expected_routes = None
+if args.manifest:
+    manifest = json.loads(args.manifest.read_text(encoding='utf-8'))
+    if manifest.get('pilot'):
+        raise SystemExit('Cannot generate the public sitemap from a pilot build')
+    expected_routes = {item['route'] for item in manifest['routes'] if item['indexable']}
+    if len(expected_routes) != manifest['indexablePerLanguage'] * 3:
+        raise SystemExit('Indexable route count disagrees with the locale manifest')
+emitted = set()
 urlset = Element("{http://www.sitemaps.org/schemas/sitemap/0.9}urlset")
 count = 0
 configuration = Path(__file__).resolve().parents[1] / 'vercel.json'
@@ -53,6 +63,8 @@ for page in sorted(root.rglob("*.html")):
     if relative.name == "404.html" or any(p in relative.parts for p in ('.git', 'node_modules', 'dist', '.vercel', 'docs')):
         continue
     route = "/" if relative.as_posix() == "index.html" else "/" + relative.parent.as_posix().strip(".") + "/" if relative.name == "index.html" else "/" + relative.as_posix()
+    if expected_routes is not None and route not in expected_routes:
+        continue
     metadata = Metadata()
     metadata.feed(page.read_text(encoding='utf-8'))
     source_route = route[3:] if route.startswith(('/pt/', '/en/')) else route
@@ -63,12 +75,18 @@ for page in sorted(root.rglob("*.html")):
     url = SubElement(urlset, "{http://www.sitemaps.org/schemas/sitemap/0.9}url")
     SubElement(url, "{http://www.sitemaps.org/schemas/sitemap/0.9}loc").text = origin + route
     for language, href in metadata.alternates:
+        if expected_routes is not None and (not href.startswith(origin + '/') or href[len(origin):] not in expected_routes):
+            raise SystemExit(f'Alternate is outside the indexable manifest: {route} -> {href}')
         destination = (href[len(origin):] if href.startswith(origin) else href).lstrip('/')
         target = root / destination
         if target.is_dir(): target /= 'index.html'
         if not target.is_file(): raise SystemExit(f'Alternate does not exist: {href}')
         SubElement(url, '{http://www.w3.org/1999/xhtml}link', {'rel':'alternate','hreflang':language,'href':href})
     count += 1
+    emitted.add(route)
+if expected_routes is not None and emitted != expected_routes:
+    missing = ', '.join(sorted(expected_routes - emitted)[:20])
+    raise SystemExit(f'Manifest routes missing from the sitemap: {missing}')
 output = root / "sitemap.xml"
 register_namespace('xhtml', 'http://www.w3.org/1999/xhtml')
 from xml.etree.ElementTree import tostring
