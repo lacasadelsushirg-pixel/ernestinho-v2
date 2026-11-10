@@ -58,7 +58,18 @@ async function loadSectionTranslations() {
   const encyclopedia = encyclopediaChunks[routeParts().path];
   if (encyclopedia) chunks.push(encyclopedia);
   const loaded = await Promise.allSettled(chunks.map(file => import(`./translations/chunks/${file}`)));
+  const failed = loaded.flatMap((result, index) => result.status === "rejected"
+    ? [`${chunks[index]}: ${result.reason?.message || String(result.reason)}`]
+    : []);
   for (const result of loaded) if (result.status === "fulfilled") Object.assign(common, result.value.default);
+  if (failed.length) {
+    // An incomplete locale bundle must never be silently published as a valid translation.
+    // Preview builds run against the localhost server; production browsing remains resilient.
+    console.error("Ernestinho: translation chunks failed to load", failed);
+    if (location.hostname === "127.0.0.1" || location.hostname === "localhost") {
+      throw new Error("Cannot build incomplete PT/EN pages: " + failed.join(" | "));
+    }
+  }
 }
 function translatePhrase(text, lang = getLanguage()) {
   return lang === "ES" ? text : common[text]?.[lang] ?? text;
