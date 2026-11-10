@@ -61,6 +61,6 @@ export const casaPellegrini = {
   sources: [
     { label: 'Casa Pellegrini · sitio oficial', url: 'https://casapellegrini.com.br/' },
     { label: 'Casa Pellegrini · cardápio oficial', url: 'https://casapellegrini.com.br/cardapio' },
-    { label: 'Casa Pellegrini · reservar por WhatsApp', url: 'https://wa.me/552422316110' },
+    { label: 'Casa Pellegrini · reservar por WhatsApp', url: 'https://api.whatsapp.com/send?phone=552422316110' },
   ],
 };

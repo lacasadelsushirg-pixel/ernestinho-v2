@@ -62,7 +62,7 @@ export const casaDAngelo = {
     { label: 'WhatsApp · Casa D’Angelo', url: 'https://wa.me/552422420888' },
     { label: 'Mercoserra · contacto y dirección', url: 'https://mercoserra.org.br/associados/detalhe/casa-dangelo-/' },
     { label: 'Instituto Histórico de Petrópolis · Casa D’Angelo', url: 'https://ihp.org.br/casa-dangelo/' },
-    { label: 'Descubra Petrópolis · Casa D’Angelo', url: 'https://descubrapetropolis.com.br/casa-dangelo/' },
+    { label: 'Petrópolis Sob Lentes · Historia de la casa', url: 'https://petropolisoblentes.com.br/casa-dangelo-104-anos-de-historia/' },
     { label: 'iPatrimônio · Conjunto urbano de Petrópolis', url: 'https://www.ipatrimonio.org/wp-content/uploads/2018/101/Lista-de-Bens-Tombados-RJ.pdf' },
     { label: 'Turispetro · Agenda histórica, noviembre 2025', url: 'https://www.afbndes.org.br/wp-content/uploads/2025/11/Agenda-de-Eventos-26-de-nov-a-03-de-dez.pdf' },
     { label: 'Tripadvisor · Casa D’Angelo', url: 'https://www.tripadvisor.com.br/Restaurant_Review-g303504-d1582903-Reviews-Casa_D_Angelo-Petropolis_State_of_Rio_de_Janeiro.html' },
