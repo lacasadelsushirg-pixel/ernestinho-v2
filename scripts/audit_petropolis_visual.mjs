@@ -29,6 +29,8 @@ const selected = [
   '/destinos/petropolis/guia/itinerarios-1-2-3-dias/',
   '/destinos/petropolis/guia/sin-auto/',
   '/destinos/petropolis/guia/primera-visita/',
+  '/destinos/petropolis/guia/',
+  '/destinos/petropolis/guia/errores-frecuentes/',
 ];
 for (const route of selected) if (!regionalRoutes.includes(route)) throw Error('Missing selected route: ' + route);
 const outArg = process.argv.find(a => a.startsWith('--out='));
@@ -115,6 +117,9 @@ try{
             cards:document.querySelectorAll('.spot').length,
             quickCards:document.querySelectorAll('.petr-fact-card').length,
             monthCards:document.querySelectorAll('.petr-month-card').length,
+            guideIndexCards:document.querySelectorAll('.petr-guide-card').length,
+            guideIndexShortcuts:document.querySelectorAll('.petr-guide-shortcuts a').length,
+            guideIndexDistinctPhotos:new Set([...document.querySelectorAll('.petr-guide-card img')].map(img=>img.getAttribute('src'))).size,
             seasonCards:document.querySelectorAll('.petr-season-card').length,
             itineraryCards:document.querySelectorAll('.petr-day-card').length,
             itineraryStops:document.querySelectorAll('.petr-when').length,
@@ -183,6 +188,8 @@ try{
         };
         if (Object.hasOwn(practicalCardCounts,route) && metrics.quickCards!==practicalCardCounts[route])
           failures.push({route,viewport:vp.width,reason:'Practical guide cards missing',count:metrics.quickCards});
+        if(route.endsWith('/guia/')&&(metrics.guideIndexCards!==12||metrics.guideIndexShortcuts!==3||metrics.guideIndexDistinctPhotos!==12))
+          failures.push({route,viewport:vp.width,reason:'Petrópolis guide index missing 12 original cards/unique photos or shortcuts',metrics});
         if(route.endsWith('/guia/mes-a-mes/')&&(metrics.monthCards!==12||metrics.seasonCards!==4))
           failures.push({route,viewport:vp.width,reason:'Expected 12 months and 4 season cards',monthCards:metrics.monthCards,seasonCards:metrics.seasonCards});
         if(route.endsWith('/guia/itinerarios-1-2-3-dias/')&&(metrics.itineraryCards!==6||metrics.itineraryStops!==19))
