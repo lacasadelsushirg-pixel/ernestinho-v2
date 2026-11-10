@@ -15,6 +15,7 @@ on:
       - 'assets/js/translations/destinos/petropolis-itinerarios.js'
       - 'assets/js/translations/destinos/petropolis.js'
       - 'assets/js/translations/destinos/petropolis-primeira-sem-carro.js'
+      - 'assets/js/translations/destinos/petropolis-errores-frecuentes.js'
       - 'scripts/regional_neighborhoods.mjs'
       - 'assets/js/translations/destinos/petropolis-fotografia-local.js'
       - '.github/workflows/petropolis-visual-qa.yml'
@@ -38,7 +39,7 @@ jobs:
           node-version: '24'
       - name: Install existing project dependencies
         run: npm install --no-audit --no-fund
-      - name: Render sixteen Petrópolis routes in a temporary preview at desktop and mobile widths
+      - name: Render eighteen Petrópolis routes in a temporary preview at desktop and mobile widths
         run: node scripts/audit_petropolis_visual.mjs --out=/tmp/ernestinho-petropolis-visual
       - name: Save screenshot and layout report
         if: always()
