@@ -4,11 +4,12 @@ import { regionalVenues } from '../assets/js/translations/destinos/mesas-regiona
 import { petrExpansion } from '../assets/js/translations/destinos/petropolis-mesas-ampliacion.js';
 import { petrDeepDining } from '../assets/js/translations/destinos/petropolis-mesas-profundas.js';
 import { casaDAngelo } from '../assets/js/translations/destinos/petropolis-casa-dangelo.js';
+import { casaPellegrini } from '../assets/js/translations/destinos/petropolis-casa-pellegrini.js';
 import { categories, venues } from '../assets/js/translations/destinos/petropolis-mesas.js';
 
 const base = destination => '/destinos/' + destination.slug + '/';
 const petropolis = Object.fromEntries(Object.entries(venues).map(([section, items]) =>
-  [section, { ...items, ...petrExpansion[section], ...(petrDeepDining[section] || {}), ...(section === 'gastronomia' ? { 'casa-dangelo': casaDAngelo } : {}) }]));
+  [section, { ...items, ...petrExpansion[section], ...(petrDeepDining[section] || {}), ...(section === 'gastronomia' ? { 'casa-dangelo': casaDAngelo, 'casa-pellegrini': casaPellegrini } : {}) }]));
 const catalogs = { petropolis, ...regionalVenues };
 export const venueRoutes = Object.entries(petropolis).flatMap(([section, items]) => Object.keys(items).map(slug => [section, slug]));
 export const otherVenueRoutes = Object.entries(regionalVenues).flatMap(([city, catalog]) =>

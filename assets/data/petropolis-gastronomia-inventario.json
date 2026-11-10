@@ -473,11 +473,13 @@
     },
     {
       "name": "Casa Pellegrini",
-      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
-      "sourceType": "fuente-adicional-verificar",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "source": "https://casapellegrini.com.br/cardapio",
+      "sourceType": "cardapio-oficial",
+      "status": "ficha-profunda-trilingue",
+      "areas": ["Centro Histórico"],
+      "address": "Rua Treze de Maio, 184",
+      "verifiedOn": "2026-11-10",
+      "chapterCharacters": { "ES": 4081, "PT": 3722, "EN": 3624 }
     },
     {
       "name": "Bordeaux Vinhos Ipiranga",
