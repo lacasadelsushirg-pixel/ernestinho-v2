@@ -4,6 +4,7 @@ import { regionalNeighborhoods } from '../assets/js/translations/destinos/barrio
 import { petropolisDistrictEditorial } from '../assets/js/translations/destinos/petropolis-barrios-editorial.js';
 import { petropolisBarrioArchive } from '../assets/js/translations/destinos/petropolis-barrios-archivo.js';
 import { petropolisBarriosProfundo } from '../assets/js/translations/destinos/petropolis-barrios-profundo.js';
+import { petropolisBarriosContinua } from '../assets/js/translations/destinos/petropolis-barrios-continua.js';
 
 export const neighborhoodRoutes = Object.entries(regionalNeighborhoods).flatMap(([city, districts]) =>
   Object.keys(districts).map(slug => [city, 'barrios', slug]));
@@ -89,7 +90,7 @@ const petrCss = `<style>
 @media(max-width:560px){.petr-bairro-cards{grid-template-columns:1fr}.petr-bairro-profile{padding:16px}.petr-bairro-stop{padding:18px}}
 </style>`;
 function petrDeepCentre(base, lang, slug = 'centro-historico') {
-  const deep = slug === 'centro-historico' ? petropolisBarriosProfundo.centroHistorico : petropolisBarriosProfundo[slug];
+  const deep = slug === 'centro-historico' ? petropolisBarriosProfundo.centroHistorico : (petropolisBarriosProfundo[slug] || petropolisBarriosContinua[slug]);
   if (!deep) return '';
   const defaultTitle = t('Centro Histórico: una historia que se puede caminar','Centro Histórico: uma história para percorrer','Historic Centre: a history you can walk');
   const defaultIntro = t('Una investigación que reúne la formación de la ciudad, sus arquitectos y trabajadores, la presencia negra, los cambios republicanos y la protección del patrimonio. Las referencias enlazan documentos de instituciones públicas e investigaciones históricas.','Uma pesquisa sobre a formação da cidade, arquitetos, trabalhadores, presença negra, transformações republicanas e preservação. As referências levam a instituições públicas e estudos históricos.','A researched guide covering the town’s origins, architects and workers, Black history, republican change and heritage protection, with links to public institutions and historical scholarship.');
@@ -153,7 +154,7 @@ export function renderRegionalNeighborhood(city, slug, lang, photos) {
       ${photo ? `<div class="petr-bairro-photo"><figure>${picture(photo, area.name, '', true)}</figure>${photo.author && photo.source ?
         `<small class="petr-bairro-photo-credit">${text(t('Fotografía', 'Fotografia', 'Photograph'),lang)}: <a href="${esc(photo.source)}" target="_blank" rel="noopener noreferrer">${esc(photo.author)}</a></small>` : ''}</div>` : ''}
       ${detailed ? petrProfile(area, detailed, base, lang, slug) : ''}
-      ${city.slug === 'petropolis' && ['centro-historico','quitandinha','itaipava','cascatinha-nogueira','castelanea'].includes(slug) ? petrDeepCentre(base,lang,slug) : ''}
+      ${city.slug === 'petropolis' && ['centro-historico','quitandinha','itaipava','cascatinha-nogueira','castelanea','bingen','correas-bonfim'].includes(slug) ? petrDeepCentre(base,lang,slug) : ''}
       <article class="bh-cluster">
         <h2>${text(t('Qué ver y cómo moverte', 'O que ver e como circular', 'What to see and how to get around'), lang)}</h2>
         <p class="bh-cluster-intro">${text(area.visit, lang)}</p>
