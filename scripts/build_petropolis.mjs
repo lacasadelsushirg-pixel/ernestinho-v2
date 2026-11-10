@@ -358,10 +358,26 @@ export function renderGuideArticle(city, guide, photo, lang) {
   };
 }
 
+const guideVisual = {
+  'clima-y-lluvia': ['quitandinha', t('Lluvia en la sierra, qué evitar y qué hacer bajo techo.', 'Chuva na serra, o que evitar e o que fazer em locais cobertos.', 'Mountain rain, what to avoid and indoor alternatives.')],
+  'mes-a-mes': ['vista-trono', t('Temperaturas, lluvias y planes para los doce meses.', 'Temperaturas, chuva e passeios nos doze meses.', 'Temperatures, rain and plans for every month.')],
+  'accesibilidad': ['cristal', t('Rutas con menos esfuerzo y accesos que conviene confirmar.', 'Roteiros com menos esforço e acessos a conferir.', 'Lower-effort routes and access to check ahead.')],
+  'viajar-solo': ['koeler', t('Paseos, seguridad y conexiones si vas por tu cuenta.', 'Passeios, segurança e conexões viajando sozinho.', 'Walking routes, safety and transport when travelling solo.')],
+  'emergencias': ['palacio-rio-negro', t('Atención médica, teléfonos útiles y alertas de lluvia.', 'Saúde, telefones úteis e alertas de chuva.', 'Medical care, emergency numbers and rain warnings.')],
+  'llegada': ['catedral-paisaje', t('Desde Río, GIG o SDU hasta Bingen y el Centro.', 'Do Rio, GIG ou SDU até Bingen e Centro.', 'From Rio and its airports to Bingen and downtown.')],
+  'terminales': ['terminal-bingen', t('Bingen, Centro, Corrêas e Itaipava: no los confundas.', 'Bingen, Centro, Corrêas e Itaipava: saiba diferenciar.', 'How to distinguish Bingen, downtown, Corrêas and Itaipava.')],
+  'sin-auto': ['santos-dumont', t('Buses 100, 649 y 700, conexiones y regreso.', 'Ônibus 100, 649 e 700, conexões e volta.', 'Buses 100, 649 and 700, transfers and return trips.')],
+  'guarda-equipaje': ['casa-ipiranga', t('Dónde preguntar y qué confirmar antes de dejar maletas.', 'Onde perguntar e o que confirmar antes de deixar malas.', 'Where to ask and what to confirm before storing bags.')],
+  'primera-visita': ['museu', t('Los mejores primeros pasos por la Ciudad Imperial.', 'Os primeiros passos pela Cidade Imperial.', 'The best starting points in the Imperial City.')],
+  'itinerarios-1-2-3-dias': ['catedral', t('Seis recorridos reales con mapas y alternativas.', 'Seis roteiros reais com mapas e alternativas.', 'Six detailed itineraries with maps and alternatives.')],
+  'errores-frecuentes': ['colono', t('Diez errores de horarios, traslados y organización.', 'Dez erros de horários, transporte e planejamento.', 'Ten timing, transport and planning mistakes to avoid.')],
+};
+
 export function petropolisGuide(city, slug, lang) {
   const title = t('Guía de Petrópolis.', 'Guia de Petrópolis.', 'Petrópolis travel guide.');
-  const intro = t('Cómo llegar desde Río, moverte por la sierra y armar un recorrido según el tiempo que tengas.', 'Como chegar do Rio, se locomover pela serra e montar um roteiro para o tempo disponível.', 'How to get here from Rio, get around the mountains and plan a route for the time you have.');
-  const covers = { 'primera-visita': 'museu', llegada: 'palacio', 'clima-y-lluvia': 'quitandinha' };
+  const intro = t('Antes de salir, organiza tu llegada, elige los recorridos que realmente se adaptan a tu tiempo y guarda las conexiones de regreso. Esta guía te acompaña desde el primer plan hasta tu último paseo.',
+    'Antes de sair, organize a chegada, escolha roteiros para seu tempo e salve as conexões de volta. Este guia acompanha você do planejamento ao último passeio.',
+    'Plan your arrival, choose routes that fit your time and save your return connections. This guide helps you from your first decision to your last outing.');
   if (slug) {
     const guide = city.guide[slug];
     if (guide.months) return monthlyGuidePage(guide, petrPhotos, lang);
@@ -369,17 +385,111 @@ export function petropolisGuide(city, slug, lang) {
       const template = ['emergencias', 'accesibilidad', 'terminales'].includes(slug) ? 'guia/' + slug : 'guia/viajar-solo';
       return practicalGuidePage(guide, petrPhotos, lang, template);
     }
-    return renderGuideArticle(city, guide, petrPhotos[guide.image || covers[slug]], lang);
+    return renderGuideArticle(city, guide, petrPhotos[guide.image], lang);
   }
   const groups = [
-    [t('Antes de viajar', 'Antes de viajar', 'Before you travel'), ['clima-y-lluvia', 'mes-a-mes', 'accesibilidad', 'viajar-solo', 'emergencias']],
-    [t('Moverse', 'Como se locomover', 'Getting around'), ['llegada', 'terminales', 'sin-auto', 'guarda-equipaje']],
-    [t('Organiza tu estadía', 'Organize sua estadia', 'Plan your stay'), ['primera-visita', 'itinerarios-1-2-3-dias']],
+    [t('Antes de viajar', 'Antes de viajar', 'Before you travel'),
+      t('El clima, los cuidados y las decisiones que facilitan la visita.', 'O clima, os cuidados e as escolhas que facilitam a visita.', 'Weather, safety and decisions to make before you leave.'),
+      ['clima-y-lluvia', 'mes-a-mes', 'accesibilidad', 'viajar-solo', 'emergencias']],
+    [t('Llegar y moverse', 'Chegar e circular', 'Arriving and getting around'),
+      t('De Río a la sierra: terminales, autobuses, aplicaciones y equipaje.', 'Do Rio à serra: terminais, ônibus, aplicativos e malas.', 'From Rio to the mountains: stations, buses, apps and luggage.'),
+      ['llegada', 'terminales', 'sin-auto', 'guarda-equipaje']],
+    [t('Organiza tu viaje', 'Organize sua viagem', 'Plan your visit'),
+      t('Empieza por lo esencial, arma cada día y evita errores de principiante.', 'Comece pelo essencial, monte cada dia e evite erros comuns.', 'Start with the essentials, plan each day and avoid common mistakes.'),
+      ['primera-visita', 'itinerarios-1-2-3-dias', 'errores-frecuentes']],
   ];
-  const body = cover(title, intro, lang) + groups.map(([label, slugs]) => `<section class="guide-group"><h2>${tx(label, lang)}</h2>
-    <div class="guide-grid">${slugs.map(id => `<a href="${pre(lang) + base}guia/${id}/">${image(petrPhotos[city.guide[id].image || covers[id]], 'guide-thumb')}
-    <b>${tx(city.guide[id].title, lang)}</b><span>${tx(t('ABRIR GUÍA →', 'ABRIR GUIA →', 'OPEN GUIDE →'), lang)}</span></a>`).join('')}</div></section>`).join('');
-  return { title, intro, body };
+  const quick = [
+    ['primera-visita', t('Es mi primera vez', 'É minha primeira vez', 'It is my first visit')],
+    ['llegada', t('Vengo desde Río', 'Venho do Rio', 'I am coming from Rio')],
+    ['itinerarios-1-2-3-dias', t('Quiero armar mi ruta', 'Quero montar meu roteiro', 'I want an itinerary')],
+  ];
+  const openGuide = t('ABRIR GUÍA →', 'ABRIR GUIA →', 'OPEN GUIDE →');
+  const body = `<div class="petr-guide-index">
+    ${cover(title, intro, lang)}
+    <nav class="petr-guide-quick" aria-label="${tx(t('Empieza por aquí','Comece por aqui','Start here'),lang)}">
+      <div><strong>${tx(t('¿Qué necesitas resolver primero?', 'O que precisa resolver primeiro?', 'What do you need first?'),lang)}</strong>
+        <span>${tx(t('Tres accesos rápidos para organizarte.', 'Três atalhos para se organizar.', 'Three quick ways to get started.'),lang)}</span></div>
+      <div class="petr-guide-shortcuts">${quick.map(([id,label])=>
+        `<a href="${pre(lang)+base}guia/${id}/">${tx(label,lang)} <span aria-hidden="true">→</span></a>`).join('')}</div>
+    </nav>
+    ${groups.map(([label,summary,slugs],i)=>`<section class="guide-group petr-guide-group" id="grupo-${i+1}">
+      <header class="petr-guide-group-head"><div><span class="petr-guide-count">0${i+1}</span>
+        <h2>${tx(label,lang)}</h2><p>${tx(summary,lang)}</p></div>
+        <span class="petr-guide-number">${slugs.length} ${tx(t('temas','temas','topics'),lang)}</span></header>
+      <div class="guide-grid">${slugs.map(id=>{
+        const data=city.guide[id], [photoKey,dek]=guideVisual[id]||[data?.image,data?.intro];
+        if(!data||!petrPhotos[photoKey]) throw Error('Petrópolis guide card missing data/photo: '+id);
+        const photo=petrPhotos[photoKey];
+        return `<a class="petr-guide-card" href="${pre(lang)+base}guia/${id}/">
+          ${image(photo, 'guide-thumb')}
+          <b>${tx(data.title,lang)}</b><p>${tx(dek,lang)}</p>
+          <span class="petr-guide-open">${tx(openGuide,lang)}</span>
+        </a>`;
+      }).join('')}</div></section>`).join('')}
+    <aside class="petr-guide-hint"><strong>${tx(t('Un consejo de Ernestinho', 'Uma dica do Ernestinho', 'Ernestinho’s tip'),lang)}</strong>
+      <p>${tx(t('Si solo tienes un día, concentra el recorrido en el Centro Histórico y confirma la vuelta a Bingen antes de añadir otra zona.',
+        'Se tiver apenas um dia, foque no Centro Histórico e confirme a volta ao Bingen antes de incluir outra região.',
+        'If you only have one day, focus on the historic centre and confirm the return to Bingen before adding another district.'),lang)}</p></aside>
+    <div class="petr-guide-credits">${['vista-trono','koeler','terminal-bingen'].map(key=>photoCredit(petrPhotos[key],lang)).filter(Boolean).join('')}</div>
+  </div>`;
+  const indexStyles = `<style>
+    .petr-guide-index{color:#153e36;background:linear-gradient(#f8faf7,#fff 30%,#f8faf7)}
+    .petr-guide-index .hero{margin:0 0 15px}
+    .petr-guide-index .petr-guide-quick{display:flex;align-items:center;gap:26px;justify-content:space-between;flex-wrap:wrap;
+      max-width:1180px;margin:0 auto;padding:30px 20px 16px}
+    .petr-guide-index .petr-guide-quick>div:first-child{display:grid;gap:5px}
+    .petr-guide-index .petr-guide-quick strong{font:400 clamp(22px,2.8vw,32px)/1.2 Georgia,serif;color:#153e36}
+    .petr-guide-index .petr-guide-quick>div:first-child>span{font:400 15px/1.6 Arial,sans-serif;color:#50665e}
+    .petr-guide-index .petr-guide-shortcuts{display:flex;flex-wrap:wrap;gap:9px}
+    .petr-guide-index .petr-guide-shortcuts a{display:inline-flex;align-items:center;gap:8px;padding:12px 15px;
+      background:#0d5144;color:white;border-radius:999px;text-decoration:none;font:700 13px Arial,sans-serif}
+    .petr-guide-index .petr-guide-shortcuts a:hover,.petr-guide-index .petr-guide-shortcuts a:focus-visible{
+      background:#0a7362;outline:2px solid #d7a43b;outline-offset:2px}
+    .petr-guide-index .petr-guide-group{max-width:1180px;padding:30px 20px 22px}
+    .petr-guide-index .petr-guide-group-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin:0 0 22px}
+    .petr-guide-index .petr-guide-group-head>div{max-width:770px}
+    .petr-guide-index .petr-guide-group h2{margin:0!important;font:400 clamp(30px,3.7vw,44px)/1.15 Georgia,serif!important;color:#123f38}
+    .petr-guide-index .petr-guide-count{color:#9b742d;letter-spacing:.14em;font:800 12px Arial,sans-serif;display:block;margin:0 0 9px}
+    .petr-guide-index .petr-guide-group-head p{color:#526b61;margin:9px 0 0;font:400 16px/1.6 Arial,sans-serif}
+    .petr-guide-index .petr-guide-number{flex:0 0 auto;color:#a17730;font:800 12px Arial,sans-serif;white-space:nowrap}
+    .petr-guide-index .guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .petr-guide-index .guide-grid a.petr-guide-card{min-height:300px;padding:20px 22px;border-radius:22px;
+      display:flex;flex-direction:column;justify-content:end;isolation:isolate;background:#092522;overflow:hidden}
+    .petr-guide-index .petr-guide-card .guide-thumb{object-position:center;filter:saturate(.96)}
+    .petr-guide-index .petr-guide-card:after{background:linear-gradient(180deg,rgba(3,17,16,.03) 18%,rgba(3,17,16,.84) 66%,rgba(3,17,16,.96) 100%)}
+    .petr-guide-index .petr-guide-card b{font:400 clamp(22px,2.2vw,27px)/1.1 Georgia,serif;color:white;margin:0}
+    .petr-guide-index .petr-guide-card p{z-index:2;position:relative;color:#e4efe9;font:400 13px/1.5 Arial,sans-serif;
+      margin:10px 0 0;max-width:34ch}
+    .petr-guide-index .petr-guide-card .petr-guide-open{display:block;margin-top:13px;color:#f1cf78;font-size:10px;letter-spacing:.12em}
+    .petr-guide-index .petr-guide-hint{max-width:1100px;margin:28px auto 12px;padding:25px 30px;background:#eaf4ed;
+      border-left:5px solid #c79a42;border-radius:0 20px 20px 0}
+    .petr-guide-index .petr-guide-hint strong{color:#155345;font:800 14px Arial,sans-serif}
+    .petr-guide-index .petr-guide-hint p{color:#38564a;font:400 16px/1.7 Arial,sans-serif;max-width:78ch;margin:9px 0 0}
+    .petr-guide-index .petr-guide-credits{display:flex;gap:6px 20px;flex-wrap:wrap;max-width:1180px;
+      margin:14px auto 26px;padding:0 20px}
+    .petr-guide-index .petr-guide-credits small{color:#546a60;line-height:1.5}
+    .petr-guide-index .petr-guide-credits a{color:#0c5d4d}
+    @media(max-width:960px){
+      .petr-guide-index .guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .petr-guide-index .guide-grid a.petr-guide-card{min-height:285px}
+    }
+    @media(max-width:650px){
+      .petr-guide-index .hero{min-height:clamp(300px,43vh,480px)!important}
+      .petr-guide-index .petr-guide-quick{padding:22px 16px 11px;gap:15px}
+      .petr-guide-index .petr-guide-shortcuts{width:100%;display:grid;grid-template-columns:1fr;gap:7px}
+      .petr-guide-index .petr-guide-shortcuts a{justify-content:space-between}
+      .petr-guide-index .petr-guide-group{padding:25px 16px 20px}
+      .petr-guide-index .petr-guide-group-head{align-items:start}
+      .petr-guide-index .petr-guide-number{padding-top:25px}
+      .petr-guide-index .petr-guide-group-head p{font-size:14px}
+      .petr-guide-index .guide-grid{grid-template-columns:1fr}
+      .petr-guide-index .guide-grid a.petr-guide-card{min-height:245px;padding:18px 19px}
+      .petr-guide-index .petr-guide-card b{font-size:25px}
+      .petr-guide-index .petr-guide-hint{margin:20px 16px 10px;padding:20px}
+      .petr-guide-index{padding-bottom:70px}
+    }
+  </style>`;
+  return { title, intro, inline:indexStyles, body };
 }
 
 export function petropolisEditorial(city, key, title, lang, agenda) {
