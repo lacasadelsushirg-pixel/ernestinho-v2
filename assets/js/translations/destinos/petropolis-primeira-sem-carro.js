@@ -11,7 +11,8 @@ const fareReference=['https://otimizapro.com/tarifa/rj/petropolis','Tarifaoteca 
 const fareProposal=['https://semove.org.br/noticias/setranspetro-calcula-tarifa-de-r-705-para-os-onibus-de-petropolis/','Setranspetro · R$7,05 era propuesta, no tarifa aprobada'];
 
 export const withoutCarGuide={
-  title:t('Petrópolis sin auto: autobuses, a pie y aplicaciones','Petrópolis sem carro: ônibus, a pé e aplicativos','Petrópolis without a car: buses, walking and ride apps'),
+  title:t('Petrópolis sin auto','Petrópolis sem carro','Petrópolis without a car'),
+  compactMobileIntro:true,
   intro:t('Es perfectamente posible conocer el Centro Histórico sin vehículo. Para Quitandinha, Corrêas, Itaipava y los valles hay que separar los trayectos y comprobar el regreso. Te explico por dónde empezar, qué líneas reconocer y dónde conviene cambiar de transporte.',
     'Dá para conhecer o Centro Histórico sem carro. Para Quitandinha, Corrêas, Itaipava e os vales, separe os deslocamentos e confira a volta. Aqui explico os primeiros passos, linhas e conexões.',
     'You can explore the historic centre without a car. Quitandinha, Corrêas, Itaipava and the valleys require separate journeys and a planned return. Here are the main routes, transfers and practical alternatives.'),
@@ -100,7 +101,8 @@ export const withoutCarGuide={
 };
 
 export const firstVisitGuide={
-  title:t('Primera visita a Petrópolis: qué ver y cómo organizarte','Primeira visita a Petrópolis: o que ver e como planejar','First visit to Petrópolis: what to see and how to plan'),
+  title:t('Primera visita a Petrópolis','Primeira visita a Petrópolis','First visit to Petrópolis'),
+  compactMobileIntro:true,
   intro:t('La ciudad imperial tiene más de un circuito turístico: palacios y casonas del Centro, el legado de Santos Dumont, Quitandinha y los valles de Itaipava. Esta guía te ayuda a elegir bien las primeras paradas, según tu horario, presupuesto y movilidad.',
     'A Cidade Imperial tem mais de um circuito: palácios e casarões do Centro, Santos Dumont, Quitandinha e os vales de Itaipava. Veja como escolher as primeiras paradas conforme horário, orçamento e mobilidade.',
     'The imperial city has several distinct visitor areas: downtown palaces, Santos Dumont’s legacy, Quitandinha and Itaipava’s valleys. Choose the right first stops based on time, budget and mobility.'),
