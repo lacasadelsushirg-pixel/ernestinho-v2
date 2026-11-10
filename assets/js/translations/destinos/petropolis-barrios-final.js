@@ -633,7 +633,7 @@ export const petropolisBarriosFinal = {
           "EN": "Exile and literary museum; verify opening."
         },
         "location": "Rua Gonçalves Dias 34 Valparaíso Petrópolis RJ Brasil",
-        "route": "cultura/"
+        "route": "cultura/casa-stefan-zweig/"
       },
       {
         "name": "Palácio Itaboraí / Fórum Itaboraí",

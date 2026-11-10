@@ -82,7 +82,9 @@ const petrCss = `<style>
 .petr-deep-walk a{color:#0b6253;font-weight:750}
 .petr-deep-bibliography{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
 .petr-deep-bibliography li{border:1px solid #d9e7dd;border-radius:16px;padding:17px;background:#f8faf7;list-style:none}
-.petr-deep-bibliography a{color:#095547;font-weight:800}
+.petr-deep-bibliography a{color:#095547;font-weight:800;overflow-wrap:anywhere}
+.petr-deep-citations a{max-width:100%;overflow-wrap:anywhere}
+.petr-deep-walk article,.petr-deep-bibliography li{min-width:0}
 .petr-deep-bibliography p{line-height:1.65;font-size:.92rem;margin:8px 0 0}
 @media(max-width:780px){.petr-deep-timeline{grid-template-columns:repeat(2,minmax(0,1fr))}.petr-deep-bibliography{grid-template-columns:1fr}}
 @media(max-width:580px){.petr-deep-timeline,.petr-deep-walk{grid-template-columns:1fr}.petr-deep{padding:0 15px}}
@@ -95,10 +97,10 @@ function petrDeepCentre(base, lang, slug = 'centro-historico') {
   if (!deep) return '';
   const defaultTitle = t('Centro Histórico: una historia que se puede caminar','Centro Histórico: uma história para percorrer','Historic Centre: a history you can walk');
   const defaultIntro = t('Una investigación que reúne la formación de la ciudad, sus arquitectos y trabajadores, la presencia negra, los cambios republicanos y la protección del patrimonio. Las referencias enlazan documentos de instituciones públicas e investigaciones históricas.','Uma pesquisa sobre a formação da cidade, arquitetos, trabalhadores, presença negra, transformações republicanas e preservação. As referências levam a instituições públicas e estudos históricos.','A researched guide covering the town’s origins, architects and workers, Black history, republican change and heritage protection, with links to public institutions and historical scholarship.');
-  const label = url => url.split('/').slice(2).join(' › ');
+  const label = url => url.split('/')[2]?.replace(/^www\./, '') || url;
   const chapters = deep.chapters.map(({title,paragraphs,sources}) =>
     '<article class="petr-deep-chapter"><h3>'+text(title,lang)+'</h3>'+paragraphs.map(item=>p(item,lang)).join('')+
-    '<div class="petr-deep-citations">'+sources.map(url=>'<a target="_blank" rel="noopener noreferrer" href="'+esc(url)+'">'+esc(label(url))+' ↗</a>').join('')+'</div></article>').join('');
+    '<div class="petr-deep-citations">'+sources.map((url,i)=>'<a target="_blank" rel="noopener noreferrer" title="'+esc(url)+'" href="'+esc(url)+'">'+text(t('Fuente','Fonte','Source'),lang)+' '+(i+1)+' · '+esc(label(url))+' ↗</a>').join('')+'</div></article>').join('');
   const history = deep.timeline.map(([date, event])=>'<li><strong>'+esc(date)+'</strong><span>'+text(event,lang)+'</span></li>').join('');
   const stops=deep.stops.map(({name,note,location,route})=>{
     const href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(location);
@@ -155,7 +157,7 @@ export function renderRegionalNeighborhood(city, slug, lang, photos) {
       ${photo ? `<div class="petr-bairro-photo"><figure>${picture(photo, area.name, '', true)}</figure>${photo.author && photo.source ?
         `<small class="petr-bairro-photo-credit">${text(t('Fotografía', 'Fotografia', 'Photograph'),lang)}: <a href="${esc(photo.source)}" target="_blank" rel="noopener noreferrer">${esc(photo.author)}</a></small>` : ''}</div>` : ''}
       ${detailed ? petrProfile(area, detailed, base, lang, slug) : ''}
-      ${city.slug === 'petropolis' && ['centro-historico','quitandinha','itaipava','cascatinha-nogueira','castelanea','bingen','correas-bonfim','araras-vale-das-videiras','valparaiso','alto-da-serra-rua-teresa','pedro-do-rio-secretario'].includes(slug) ? petrDeepCentre(base,lang,slug) : ''}
+      ${city.slug === 'petropolis' ? petrDeepCentre(base,lang,slug) : ''}
       <article class="bh-cluster">
         <h2>${text(t('Qué ver y cómo moverte', 'O que ver e como circular', 'What to see and how to get around'), lang)}</h2>
         <p class="bh-cluster-intro">${text(area.visit, lang)}</p>

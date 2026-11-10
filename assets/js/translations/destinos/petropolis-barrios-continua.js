@@ -653,7 +653,8 @@ export const petropolisBarriosContinua = {
           "PT": "Trilha leve de 600 m; confira condições.",
           "EN": "Easy 600 m trail; confirm current conditions."
         },
-        "location": "Poço Paraíso PARNASO Petrópolis RJ Brasil"
+        "location": "Poço Paraíso PARNASO Petrópolis RJ Brasil",
+        "route": "naturaleza/poco-paraiso/"
       }
     ],
     "bibliography": [

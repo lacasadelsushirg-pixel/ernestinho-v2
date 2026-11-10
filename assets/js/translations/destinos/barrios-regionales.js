@@ -65,7 +65,7 @@ export const regionalNeighborhoods = {
         'Literary and European exile history beyond the imperial circuit.'),
       t('Organiza la visita a la Casa Stefan Zweig, memoria del escritor y del refugio en Brasil. Comprueba apertura antes de trasladarte.',
         'Planeje visita à Casa Stefan Zweig, memória do escritor e do refúgio no Brasil. Confirme a abertura antes de sair.',
-        'Plan a visit to Casa Stefan Zweig, a memorial to the writer and refugees in Brazil. Check opening before travelling.'), 'cultura/'),
+        'Plan a visit to Casa Stefan Zweig, a memorial to the writer and refugees in Brazil. Check opening before travelling.'), 'cultura/casa-stefan-zweig/'),
     'cascatinha-nogueira': n('Cascatinha · Nogueira', 'nogueira',
       t('Patrimonio industrial textil y memoria ferroviaria de la sierra.',
         'Patrimônio têxtil e memória ferroviária da serra.',
