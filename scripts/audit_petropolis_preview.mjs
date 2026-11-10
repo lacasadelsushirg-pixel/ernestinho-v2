@@ -80,7 +80,7 @@ for (const route of routes) {
     if(route === area + 'guia/'){
       const guideBlocks=[...html.matchAll(/class="[^"]*petr-guide-card[^"]*"/g)];
       const hrefs=[...html.matchAll(/<a class="petr-guide-card" href="([^"]+)"/g)].map(x=>x[1]);
-      const cardPhotos=[...html.matchAll(/<a class="petr-guide-card"[\\s\\S]*?<img[^>]+src="([^"]+)"/g)].map(x=>x[1]);
+      const cardPhotos=[...html.matchAll(/<a class="petr-guide-card" href="[^"]+">([\s\S]*?)<\/a>/g)].map(x=>x[1].match(/<img[^>]+src="([^"]+)"/)?.[1]).filter(Boolean);
       if(guideBlocks.length!==12||hrefs.length!==12)errors.push(name+': expected exactly 12 index cards');
       if(new Set(hrefs).size!==12)errors.push(name+': repeated guide links in index');
       if(cardPhotos.length!==12||new Set(cardPhotos).size!==12)errors.push(name+': guide index needs 12 distinct verified photo references');
