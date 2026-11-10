@@ -1,0 +1,593 @@
+{
+  "project": "Ernestinho Carioca · Gastronomía de Petrópolis",
+  "updated": "2026-11-09",
+  "editorialStandard": {
+    "minimumVisibleTextCharsPerLocale": 3500,
+    "locales": [
+      "ES",
+      "PT",
+      "EN"
+    ],
+    "noImagesUntilUserSupplies": true,
+    "rule": "Investigar nombre, dirección y actividad por establecimiento antes de publicar. No publicar fichas breves por alcanzar una cuota."
+  },
+  "notes": "El directorio institucional puede contener listados que deben reconfirmarse. Este inventario NO representa establecimientos publicados ni funcionamiento actual comprobado.",
+  "candidates": [
+    {
+      "name": "Soberano",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "2 Vales Restaurante",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Barcellos Boulangerie & Pâtisserie",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Bendito Armazém",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Bordeaux Vinhos & Cia - Ipiranga",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Bordeaux Vinhos & Cia - Itaipava",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Brassaria Matriz",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Buenísimo Chocolate",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Casa do Alemão - Kern",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Casa D’Angelo",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Casarão da Cervejaria Odin",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Cervejaria Brewpoint",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Chocolates Katz",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Chopperia Luka’s",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Churrascada Parrilla Petrópolis",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Churrascaria Palhoça",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Confeitaria Willemsen",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Divino & Cucina - Itaipava",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Duetto’s Café e Bistrô",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Farfarello Restaurante",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Gaiatri Mercado Saudável",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Galpão Caipira",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Interlúdio Pizzaria",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Katsura - Culinária Oriental",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "La Bodega",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Lago Sul Churrascaria",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Le Rêve Gastronomia",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Locanda Centro Histórico",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Luka’s Bingen",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Luka’s Itaipava Pizzaria e Restaurante",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Luka’s",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Maffagio Restaurante",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Majórica Restaurante e Churrascaria",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Meat beer and co",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Pousada e Restaurante Fazenda Aroeira",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Princesa Isabel Gourmet",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Restaurante Bohemia",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Saint Café Itaipava",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Sampler Brew House",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Sítio do Moinho",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Sorvete Brasil",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Tortuga Craft Beer",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Viva la Vida Granja Brasil",
+      "source": "https://www.pcvb.com.br/onde-comer",
+      "sourceType": "directorio-turistico",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Pizzeria Marambaia",
+      "areas": [
+        "Corrêas"
+      ],
+      "address": "Rua Dr. Agostinho Goulão, 2000",
+      "source": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/",
+      "sourceType": "articulo-2026",
+      "status": "fuente-reciente-pendiente-ficha"
+    },
+    {
+      "name": "Catarina’s Bar e Bistrô",
+      "areas": [
+        "Secretário"
+      ],
+      "address": "Estrada do Secretário, 180",
+      "source": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/",
+      "sourceType": "articulo-2026",
+      "status": "fuente-reciente-pendiente-ficha"
+    },
+    {
+      "name": "Maritsa Forneria",
+      "areas": [
+        "Secretário"
+      ],
+      "address": "Estrada do Secretário, 246",
+      "source": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/",
+      "sourceType": "articulo-2026",
+      "status": "fuente-reciente-pendiente-ficha"
+    },
+    {
+      "name": "Sítio Gastronômico",
+      "areas": [
+        "Secretário"
+      ],
+      "address": "Estrada Francisco Guimarães, 1100",
+      "source": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/",
+      "sourceType": "articulo-2026",
+      "status": "fuente-reciente-pendiente-ficha"
+    },
+    {
+      "name": "Angá Ateliê Culinário",
+      "areas": [
+        "Nogueira"
+      ],
+      "address": "Rua Argentina, 393",
+      "source": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/",
+      "sourceType": "articulo-2026",
+      "status": "fuente-reciente-pendiente-ficha"
+    },
+    {
+      "name": "Locanda della Mimosa",
+      "areas": [
+        "Fazenda Inglesa"
+      ],
+      "address": "Alameda das Mimosas, 30",
+      "source": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/",
+      "sourceType": "articulo-2026",
+      "status": "fuente-reciente-pendiente-ficha"
+    },
+    {
+      "name": "…Lá Restaurante",
+      "areas": [
+        "Secretário"
+      ],
+      "address": "Estrada do Secretário, km 5,7",
+      "source": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/",
+      "sourceType": "articulo-2026",
+      "status": "fuente-reciente-pendiente-ficha"
+    },
+    {
+      "name": "Trutas do Rocio",
+      "areas": [
+        "Rocio"
+      ],
+      "address": "Estrada da Vargem Grande, 6333",
+      "source": "https://vejario.abril.com.br/comer-e-beber/onde-comer-serra-restaurantes-petropolis/",
+      "sourceType": "articulo-2026",
+      "status": "fuente-reciente-pendiente-ficha"
+    },
+    {
+      "name": "Massas Luigi",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Casa do Alemão · Quitandinha",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Casa Pellegrini",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Bordeaux Vinhos Ipiranga",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Benvenuti Bistrô",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Cocotte Bistrô",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Barão Gastronomia",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Restaurante do Ton",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Majorica",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Restaurante Tradição Imperial Itaipava",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Nikko Sushi",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Tourinho",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Farfarello",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Perugino Gastronomia",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Nas Videiras",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Rancho Alabama Comida Mineira",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Cafeteria Três Marias",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Doces Húngaros",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    },
+    {
+      "name": "Casa Stefan café",
+      "source": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "sourceType": "fuente-adicional-verificar",
+      "status": "candidato-verificar",
+      "areas": [],
+      "address": null
+    }
+  ]
+}
