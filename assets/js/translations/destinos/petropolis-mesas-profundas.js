@@ -2305,6 +2305,186 @@ export const petrDeepDining = {
           }
         }
       ]
+    },
+    "bendito-armazem": {
+      "name": "Bendito Armazém",
+      "area": "Itaipava",
+      "address": "Estrada União e Indústria, 10.216",
+      "category": "cafe",
+      "summary": {
+        "ES": "Panadería, armazén gourmet y bistró en Itaipava, con panes artesanales, comidas durante el día, vinos y fondues de temporada.",
+        "PT": "Padaria, armazém gourmet e bistrô em Itaipava, com pães artesanais, refeições, vinhos e fondue sazonal.",
+        "EN": "Bakery, speciality food shop and bistro in Itaipava offering artisan breads, all-day food, wines and seasonal fondue."
+      },
+      "experience": {
+        "ES": "Probaría un producto de panadería y preguntaría por la sugerencia de cocina o el fondue disponible en la fecha.",
+        "PT": "Eu provaria um produto de padaria e perguntaria pela sugestão da cozinha ou fondue da data.",
+        "EN": "Try an artisan bakery product and ask about the kitchen's recommendation or seasonal fondue."
+      },
+      "advice": {
+        "ES": "La unidad de Itaipava está en el número 10.216, distinto de la dirección del Empório Maria Maria; confirma servicio y horarios.",
+        "PT": "A unidade Itaipava fica no número 10.216, diferente do endereço do Empório Maria Maria; confira serviço e horários.",
+        "EN": "The Itaipava unit is number 10,216, distinct from the Empório Maria Maria address; verify service hours."
+      },
+      "reservation": {
+        "ES": "Consulta a la sucursal de Itaipava por WhatsApp (24) 98863-3711 para confirmar reservas y menú.",
+        "PT": "Consulte a unidade Itaipava no WhatsApp (24) 98863-3711 para confirmar reserva e cardápio.",
+        "EN": "Contact Itaipava via WhatsApp +55 24 98863-3711 to confirm bookings and current menu."
+      },
+      "source": "https://pcvb.com.br/mantenedores/perfil/bendito-armazem/",
+      "nearby": "/destinos/petropolis/barrios/itaipava/",
+      "sources": [
+        {
+          "label": "Petrópolis Convention Bureau · Bendito Armazém",
+          "url": "https://pcvb.com.br/mantenedores/perfil/bendito-armazem/"
+        },
+        {
+          "label": "Petrópolis Convention Bureau · Opciones de fondue",
+          "url": "https://www.pcvb.com.br/fondues/"
+        },
+        {
+          "label": "Tripadvisor · Bendito Armazém Itaipava",
+          "url": "https://www.tripadvisor.com.br/Restaurant_Review-g2720518-d12371612-Reviews-Bendito_Armazem-Itaipava_Petropolis_State_of_Rio_de_Janeiro.html"
+        },
+        {
+          "label": "Empório Maria Maria · Dirección propia, distinta",
+          "url": "https://emporiomariamaria.com.br/contato.php"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "Panadería, armazén y bistró en una misma casa",
+            "PT": "Padaria, armazém e bistrô na mesma casa",
+            "EN": "Bakery, delicatessen and bistro in one venue"
+          },
+          "text": {
+            "ES": "Bendito Armazém reúne en Itaipava una panadería, un armazén de productos seleccionados y un restaurante. El Convention Bureau describe una cocina que acompaña al visitante desde el desayuno hasta la cena, con productos propios y una selección de vinos. Esa combinación explica por qué no conviene clasificarlo únicamente como cafetería: alguien puede comprar pan, detenerse para almorzar o reservar una comida más extensa. Cada servicio requiere confirmar el horario y los productos disponibles, pues una tienda abierta no significa que la cocina sirva toda la carta a cualquier hora.",
+            "PT": "O Bendito Armazém reúne em Itaipava padaria, armazém de produtos selecionados e bistrô. O Convention Bureau descreve cozinha que acompanha o visitante do café da manhã ao jantar, com itens de produção própria e seleção de vinhos. Isso explica por que a casa não é apenas cafeteria: é possível comprar pão, almoçar ou sentar para refeição mais longa. Cada serviço exige conferir horário e produtos disponíveis, pois loja aberta não significa cozinha funcionando com cardápio completo o dia inteiro.",
+            "EN": "Bendito Armazém in Itaipava combines a bakery, speciality grocery shop and bistro. The Convention Bureau describes a kitchen serving different moments from breakfast through dinner, with house-made products and a wine selection. This is why it should not be classified merely as a café: visitors can buy bread, stop for lunch or sit down for a longer meal. Each activity requires current hours and availability, since an open shop does not guarantee full kitchen service throughout the day."
+          }
+        },
+        {
+          "title": {
+            "ES": "Dónde queda exactamente en Itaipava",
+            "PT": "Onde fica exatamente em Itaipava",
+            "EN": "The precise Itaipava address"
+          },
+          "text": {
+            "ES": "La dirección publicada para Bendito Armazém es Estrada União e Indústria 10.216, dentro del entorno comercial del Empório Maria Maria. Es importante usar el número 10.216: la empresa del emporio señala su dirección como 10.204, por lo que no debemos intercambiar los dos números en mapas o vehículos. Tampoco debe confundirse esta unidad con la de Benfica, en otra carretera. La misma marca puede tener distintas propuestas según la sucursal, de modo que direcciones y reservas deben mantenerse individualizadas.",
+            "PT": "O endereço divulgado para o Bendito Armazém é Estrada União e Indústria, 10.216, no entorno comercial do Empório Maria Maria. Guarde o número 10.216: o próprio emporio informa endereço 10.204, então não devemos trocar os números em mapas e transporte. Também não confunda esta unidade com a de Benfica, noutra rodovia. A mesma marca pode oferecer serviços diferentes conforme o endereço, portanto reservas e informações devem ser específicas da loja.",
+            "EN": "Bendito Armazém is listed at Estrada União e Indústria 10,216, within the Empório Maria Maria shopping area. Use number 10,216 specifically: the emporium itself gives 10,204, so those two numbers should not be mixed up in maps or transport arrangements. This unit is also distinct from the Benfica branch on another road. A shared brand does not guarantee identical services at different addresses, so bookings and details must remain location-specific."
+          }
+        },
+        {
+          "title": {
+            "ES": "Panes artesanales para empezar el día",
+            "PT": "Pães artesanais para começar o dia",
+            "EN": "Artisan bread to begin the day"
+          },
+          "text": {
+            "ES": "Las publicaciones de la casa muestran hornadas de panes artesanales y diferentes productos de panadería. Una visita de mañana permite conocer mejor ese lado del negocio, pero conviene preguntar a qué hora salen los panes y si hay opciones recién horneadas. No todas las variedades necesariamente están listas desde la apertura. Si viajas con un grupo, una cesta compartida puede ser práctica, aunque debes confirmar si existe esa opción en la carta actual. Una buena panadería se disfruta tanto por el producto como por el tiempo de la pausa.",
+            "PT": "Publicações da casa mostram fornadas de pães artesanais e diferentes produtos de padaria. Uma visita pela manhã permite conhecer melhor esse lado do negócio, mas vale perguntar quando saem os pães e quais estão frescos. Nem todas as variedades ficam prontas na abertura. Em grupo, uma cesta para dividir pode ser opção interessante, desde que conste do cardápio atual. Uma boa padaria é apreciada tanto pelo produto quanto pelo tempo dedicado à pausa.",
+            "EN": "The venue's communications feature artisan bread and bakery batches. A morning visit is a good way to explore this side of the business, but ask when fresh loaves emerge and what is available. Not every variety will necessarily be ready at opening time. Shared bread baskets may suit groups, provided they are offered on the current menu. A good bakery experience is about both the product and taking time to enjoy it."
+          }
+        },
+        {
+          "title": {
+            "ES": "Un armazén con productos para descubrir",
+            "PT": "Um armazém com produtos para descobrir",
+            "EN": "The shop as part of the outing"
+          },
+          "text": {
+            "ES": "El local mantiene estanterías de productos premium, conservas, embutidos y especialidades de producción propia o de proveedores seleccionados. Para el turista esto puede funcionar como una pequeña introducción a sabores de la sierra, sin necesidad de visitar un mercado mayorista. Pregunta qué productos son hechos en la casa, cuáles proceden de productores regionales y cuáles son importados: las tres categorías pueden convivir, pero no son equivalentes. Para llevar alimentos a Río, confirma siempre conservación, envase y fecha de consumo.",
+            "PT": "O espaço mantém prateleiras com produtos premium, conservas, frios e especialidades próprias ou de fornecedores escolhidos. Para o turista, é introdução aos sabores da serra sem precisar visitar mercado atacadista. Pergunte quais itens são feitos na casa, quais vêm de produtores regionais e quais são importados: as três categorias podem conviver, mas não são iguais. Para levar comida ao Rio, confira conservação, embalagem e validade.",
+            "EN": "The shop carries selected speciality foods, preserves, cured meats and products made in-house or sourced from suppliers. For visitors, it offers a manageable introduction to mountain-region flavours without needing a wholesale market. Ask which items are made on the premises, which come from local producers and which are imported: all may coexist but they are not interchangeable. Before taking food back to Rio, check storage, packaging and use-by dates."
+          }
+        },
+        {
+          "title": {
+            "ES": "Almorzar sin esperar a la noche",
+            "PT": "Almoçar sem esperar a noite",
+            "EN": "A practical lunch option"
+          },
+          "text": {
+            "ES": "El bistró ofrece distintas preparaciones a lo largo del día. Las publicaciones recientes muestran platos que pueden combinar pescado, vegetales y salsas, junto a opciones de cocina de confort. No debemos prometer una receta determinada solo porque apareció en una fotografía de mayo de 2026. Para almorzar, comienza por pedir la carta actual, revisar la sugerencia de cocina y calcular cuánto tiempo tienes antes de continuar hacia el parque, tiendas o alojamiento. Itaipava es extensa y no todo se conecta caminando.",
+            "PT": "O bistrô serve preparações diferentes ao longo do dia. Publicações recentes mostram pratos com peixe, vegetais e molhos, além de opções de cozinha de conforto. Não se deve prometer receita apenas porque apareceu em foto de maio de 2026. Para almoçar, peça cardápio atual, conheça a sugestão da cozinha e calcule quanto tempo tem antes de seguir ao parque, lojas ou hospedagem. Itaipava é extensa e nem tudo se conecta a pé.",
+            "EN": "The bistro serves different dishes across the day. Recent posts show plates involving fish, vegetables and sauces alongside comfort-food options. A dish should not be promised merely because it appeared in a May 2026 picture. For lunch, request the current menu, ask about the kitchen's recommendation and consider how much time remains for the park, shops or accommodation. Itaipava covers a broad area and not every venue is walkable."
+          }
+        },
+        {
+          "title": {
+            "ES": "Fondues de queso, carne y chocolate",
+            "PT": "Fondues de queijo, carne e chocolate",
+            "EN": "Cheese, meat and chocolate fondue"
+          },
+          "text": {
+            "ES": "El Convention Bureau incluye Bendito Armazém entre sus referencias de fondue, con versiones de queso, carne y chocolate. La información demuestra que la casa ha ofrecido esas opciones, pero los precios publicados en una lista turística no deben tratarse como tarifa vigente y la disponibilidad puede ser estacional. Antes de ir por fondue, pregunta si lo sirven esa semana, para cuántas personas está pensado, qué acompañamientos incluye y si exige reserva. Es especialmente útil en noches frías, sin reducir todo el restaurante a una oferta de invierno.",
+            "PT": "O Convention Bureau inclui o Bendito Armazém entre as opções de fondue, com versões de queijo, carne e chocolate. A fonte comprova que essas propostas foram divulgadas, mas preços de lista turística não são garantia atual e a disponibilidade pode mudar por estação. Antes de ir por fondue, confira se está servindo na semana, número de pessoas, acompanhamentos e reserva. É boa opção em noites frias, sem reduzir a casa a restaurante de inverno.",
+            "EN": "The Convention Bureau includes Bendito Armazém in its fondue directory, listing cheese, meat and chocolate versions. This confirms that those options have been advertised, but published tourism-directory prices are not guaranteed current rates and service may be seasonal. Before travelling specifically for fondue, ask whether it is available that week, how many people a serving suits, which accompaniments are included and whether reservations are required. It can suit cold evenings without defining the entire restaurant."
+          }
+        },
+        {
+          "title": {
+            "ES": "Cava de vinos: preguntar antes de elegir",
+            "PT": "Adega de vinhos: conferir antes de escolher",
+            "EN": "Exploring the wine selection"
+          },
+          "text": {
+            "ES": "Bendito informa una selección de vinos nacionales e importados dentro de su armazén. Es una oportunidad para explorar etiquetas si estás buscando una bebida para acompañar comida o regalar, pero la disponibilidad depende del stock. Pide orientación según presupuesto y estilo, no solamente según una región famosa. Si piensas conducir por las carreteras de Itaipava, elige bebida sin alcohol durante la visita. Y si compras botellas, verifica condiciones de empaque para que no se rompan durante el viaje.",
+            "PT": "O Bendito informa seleção de vinhos nacionais e importados no armazém. É oportunidade de explorar rótulos para refeição ou presente, conforme estoque. Peça orientação de acordo com orçamento e estilo, não apenas pela região mais famosa. Se vai dirigir nas estradas de Itaipava, prefira bebida sem álcool durante a visita. Ao comprar garrafas, confira embalagem para que não quebrem no transporte.",
+            "EN": "Bendito advertises a selection of Brazilian and imported wines in its shop. This allows visitors to explore bottles for a meal or gift, subject to stock. Ask for guidance based on budget and preferred style, not only a famous region name. If driving through Itaipava, choose a nonalcoholic drink while visiting. When purchasing bottles, ensure they are properly wrapped for transport."
+          }
+        },
+        {
+          "title": {
+            "ES": "Pet friendly no significa todas las áreas",
+            "PT": "Pet friendly não significa todas as áreas",
+            "EN": "Pet friendly does not mean every space"
+          },
+          "text": {
+            "ES": "El Convention Bureau identifica el establecimiento como pet friendly. Sin embargo, conviene confirmar en qué mesas se aceptan animales y si existen reglas de correa, tamaño o circulación dentro del armazén. Para visitar con cochecito de bebé o persona con movilidad reducida, consulta entradas, baños y acceso al sector de mesas. Un comentario favorable en un directorio no sustituye esa confirmación específica. También es razonable preguntar por mesas al aire libre cuando el tiempo está bueno.",
+            "PT": "O Convention Bureau identifica a casa como pet friendly. Mesmo assim, confirme em quais mesas os animais são aceitos e as regras de guia, porte ou circulação dentro do armazém. Com carrinho de bebê ou pessoa com mobilidade reduzida, pergunte por acesso, banheiros e caminhos até as mesas. Informação de diretório não substitui confirmação específica. Vale consultar também mesas externas quando o tempo ajuda.",
+            "EN": "The Convention Bureau identifies the venue as pet friendly. Nevertheless, confirm which seating areas accept animals and the rules for leads, size or circulation inside the shop. With a stroller or a guest with reduced mobility, ask about entrances, toilets and routes to the tables. A positive directory listing does not replace that specific confirmation. Outdoor seating may also be worth requesting in good weather."
+          }
+        },
+        {
+          "title": {
+            "ES": "Variaciones de horario entre los directorios",
+            "PT": "Horários diferentes em diretórios",
+            "EN": "Opening-hour differences across directories"
+          },
+          "text": {
+            "ES": "Algunas plataformas muestran servicio diario con cierre más tarde de jueves a sábado. Son datos útiles para orientarse, pero el horario de la panadería, la cocina y el armazén puede diferir; además los feriados producen cambios. Por eso no estableceré en esta ficha un único horario que parezca permanente. La casa ofrece WhatsApp (24) 98863-3711 según el Convention Bureau, además del teléfono que muestran otros perfiles. Conviene consultar el horario del servicio que deseas y confirmar que corresponde a Itaipava.",
+            "PT": "Algumas plataformas apresentam atendimento diário com fechamento mais tarde de quinta a sábado. A informação ajuda, mas horário de padaria, cozinha e armazém pode diferir, além de mudanças em feriados. Por isso não fixamos uma faixa eterna na ficha. O Convention Bureau divulga WhatsApp (24) 98863-3711, além de telefone em outros perfis. Consulte o horário do serviço desejado e confirme que a resposta é da unidade Itaipava.",
+            "EN": "Some platforms list daily service with later closing from Thursday through Saturday. Such listings provide orientation, but bakery, kitchen and shop hours may differ and holidays bring changes. This guide therefore avoids presenting one timetable as permanent. The Convention Bureau publishes WhatsApp +55 24 98863-3711, alongside phone numbers on other listings. Ask for the specific service and confirm that the answer concerns the Itaipava location."
+          }
+        },
+        {
+          "title": {
+            "ES": "Una visita práctica en el eje de Itaipava",
+            "PT": "Uma visita prática no eixo de Itaipava",
+            "EN": "Planning a visit along the Itaipava corridor"
+          },
+          "text": {
+            "ES": "La Estrada União e Indústria concentra restaurantes, comercios y hoteles, pero no funciona como un paseo peatonal continuo. Bendito Armazém está en el número 10.216 y conviene guardar ese punto exacto. Puedes combinar una pausa con compras o con una visita a un parque del distrito, calculando traslados reales. Si viajas desde el Centro Histórico de Petrópolis, reserva tiempo para el regreso, especialmente cuando llueve. Un lugar con diferentes servicios es una buena parada, siempre que no te desvíe de un itinerario mal planificado.",
+            "PT": "A Estrada União e Indústria reúne restaurantes, comércio e hotéis, mas não é passeio contínuo a pé. O Bendito Armazém fica no número 10.216 e vale salvar o ponto exato. Pode combinar lanche com compras ou parque do distrito, calculando os deslocamentos reais. Saindo do Centro Histórico de Petrópolis, reserve tempo para a volta, especialmente com chuva. Um local com serviços variados é parada útil, desde que não atrapalhe um roteiro mal planejado.",
+            "EN": "Estrada União e Indústria concentrates restaurants, shops and hotels but is not a continuous pedestrian promenade. Bendito Armazém is at number 10,216, which should be saved precisely. A stop can be paired with local shopping or a park visit while accounting for actual drives. From Petrópolis's historic centre, leave time for the return, especially in rain. A multipurpose venue is useful when incorporated thoughtfully rather than through an inconvenient detour."
+          }
+        },
+        {
+          "title": {
+            "ES": "Alergias, cuenta y consejo de Ernestinho",
+            "PT": "Alergias, conta e dica do Ernestinho",
+            "EN": "Allergies, final bill and Ernestinho's tip"
+          },
+          "text": {
+            "ES": "Panadería, quesos, charcutería, fondue y repostería pueden incluir trigo, leche, huevo, frutos secos o carne de cerdo. Informa restricciones y pregunta por preparación y contaminación cruzada, especialmente si eres celíaco. Para controlar el presupuesto, distingue consumo en restaurante de compras en el armazén, además de bebidas y posibles cargos de servicio. Mi consejo es usar el Bendito como parada flexible: café si queda poco tiempo, almuerzo si quieres comer con calma o compra de productos seleccionados para el alojamiento.",
+            "PT": "Padaria, queijos, charcutaria, fondue e confeitaria podem incluir trigo, leite, ovos, castanhas ou carne suína. Informe restrições e pergunte sobre preparo e contaminação cruzada, principalmente em caso de doença celíaca. Para organizar o orçamento, separe consumo do bistrô das compras no armazém, além de bebidas e serviço. Minha dica é usar o Bendito como parada flexível: café quando o tempo é curto, almoço sem pressa ou compra de produtos para a hospedagem.",
+            "EN": "Bakery products, cheese, charcuterie, fondue and pastries can contain wheat, dairy, eggs, nuts or pork. Disclose restrictions and ask about preparation and cross-contact, particularly with coeliac disease. For budgeting, separate restaurant spending from grocery purchases, drinks and any service charges. My suggestion is to use Bendito as a flexible stop: a coffee when short of time, a leisurely lunch or a small shop for provisions to take back to your accommodation."
+          }
+        }
+      ]
     }
   }
 };

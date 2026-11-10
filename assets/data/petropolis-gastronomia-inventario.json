@@ -39,11 +39,13 @@
     },
     {
       "name": "Bendito Armazém",
-      "source": "https://www.pcvb.com.br/onde-comer",
+      "source": "https://pcvb.com.br/mantenedores/perfil/bendito-armazem/",
       "sourceType": "directorio-turistico",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "status": "ficha-profunda-trilingue",
+      "areas": [
+        "Itaipava"
+      ],
+      "address": "Estrada União e Indústria, 10.216"
     },
     {
       "name": "Bordeaux Vinhos & Cia - Ipiranga",
