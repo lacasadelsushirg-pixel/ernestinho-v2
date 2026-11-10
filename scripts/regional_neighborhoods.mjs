@@ -3,6 +3,7 @@ import { t } from '../assets/js/translations/destinos/modelo.js';
 import { regionalNeighborhoods } from '../assets/js/translations/destinos/barrios-regionales.js';
 import { petropolisDistrictEditorial } from '../assets/js/translations/destinos/petropolis-barrios-editorial.js';
 import { petropolisBarrioArchive } from '../assets/js/translations/destinos/petropolis-barrios-archivo.js';
+import { petropolisBarriosProfundo } from '../assets/js/translations/destinos/petropolis-barrios-profundo.js';
 
 export const neighborhoodRoutes = Object.entries(regionalNeighborhoods).flatMap(([city, districts]) =>
   Object.keys(districts).map(slug => [city, 'barrios', slug]));
@@ -57,10 +58,56 @@ const petrCss = `<style>
 .petr-bairro-archive-intro h2{font-size:clamp(1.35rem,3vw,1.85rem);color:#114d44;margin:0 0 12px}
 .petr-bairro-archive-intro p{max-width:96ch;line-height:1.85;margin:0 0 12px}
 .petr-bairro-archive-intro a{color:#125f53;font-weight:750}
+.petr-deep{max-width:1180px;margin:14px auto 40px;padding:0 clamp(16px,3vw,32px)}
+.petr-deep-head{background:linear-gradient(115deg,#0f4e45,#267366);color:#fff;border-radius:23px;padding:clamp(24px,4vw,38px)}
+.petr-deep-head h2{color:#fff;font-size:clamp(1.6rem,3vw,2.2rem);margin:0 0 13px}
+.petr-deep-head p{font-size:1.06rem;line-height:1.8;margin:0;max-width:85ch}
+.petr-deep-section{margin-top:33px}
+.petr-deep-section>h2{font-size:clamp(1.4rem,3vw,1.9rem);color:#104d43;margin:0 0 17px}
+.petr-deep-timeline{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;list-style:none;padding:0;margin:0}
+.petr-deep-timeline li{background:#eff6f2;border:1px solid #d5e6dc;border-radius:15px;padding:17px}
+.petr-deep-timeline strong{color:#0b5d50;font-size:1.12rem;display:block;margin-bottom:7px}
+.petr-deep-timeline span{line-height:1.65;display:block;font-size:.94rem}
+.petr-deep-chapter{border-bottom:1px solid #dae7df;padding:clamp(22px,3vw,32px) 0}
+.petr-deep-chapter h3{margin:0 0 13px;font-size:clamp(1.23rem,2.5vw,1.65rem);color:#104e44}
+.petr-deep-chapter p{font-size:1.03rem;line-height:1.9;max-width:90ch;margin:0 0 15px}
+.petr-deep-citations{display:flex;flex-wrap:wrap;gap:8px;margin-top:9px}
+.petr-deep-citations a{display:inline-block;border-radius:999px;background:#e9f5ef;color:#125f51;border:1px solid #cde6d9;padding:8px 12px;text-decoration:none;font-size:.82rem;font-weight:700}
+.petr-deep-walk{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.petr-deep-walk article{padding:20px;border:1px solid #d6e4dd;background:#fff;border-radius:18px}
+.petr-deep-walk h3{font-size:1.04rem;color:#0e5146;margin:0 0 8px}
+.petr-deep-walk p{line-height:1.7;font-size:.94rem;margin:0 0 10px}
+.petr-deep-walk a{color:#0b6253;font-weight:750}
+.petr-deep-bibliography{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.petr-deep-bibliography li{border:1px solid #d9e7dd;border-radius:16px;padding:17px;background:#f8faf7;list-style:none}
+.petr-deep-bibliography a{color:#095547;font-weight:800}
+.petr-deep-bibliography p{line-height:1.65;font-size:.92rem;margin:8px 0 0}
+@media(max-width:780px){.petr-deep-timeline{grid-template-columns:repeat(2,minmax(0,1fr))}.petr-deep-bibliography{grid-template-columns:1fr}}
+@media(max-width:580px){.petr-deep-timeline,.petr-deep-walk{grid-template-columns:1fr}.petr-deep{padding:0 15px}}
 @media(max-width:600px){.petr-bairro-topic{min-height:248px}.petr-bairro-topic img{height:145px}}
 @media(max-width:800px){.petr-bairro-panels{grid-template-columns:1fr}.petr-bairro-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.petr-bairro-cards{grid-template-columns:1fr}.petr-bairro-profile{padding:16px}.petr-bairro-stop{padding:18px}}
 </style>`;
+function petrDeepCentre(base, lang) {
+  const deep = petropolisBarriosProfundo.centroHistorico;
+  const label = name => name.replace(/^https?:\\/\\/[^/]+\\//,'').replaceAll('/',' › ');
+  const chapters = deep.chapters.map(({title,paragraphs,sources}) =>
+    '<article class="petr-deep-chapter"><h3>'+text(title,lang)+'</h3>'+paragraphs.map(item=>p(item,lang)).join('')+
+    '<div class="petr-deep-citations">'+sources.map(url=>'<a target="_blank" rel="noopener noreferrer" href="'+esc(url)+'">'+esc(label(url))+' ↗</a>').join('')+'</div></article>').join('');
+  const history = deep.timeline.map(([date, event])=>'<li><strong>'+esc(date)+'</strong><span>'+text(event,lang)+'</span></li>').join('');
+  const stops=deep.stops.map(({name,note,location,route})=>{
+    const href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(location);
+    return '<article><h3>'+esc(name)+'</h3>'+p(note,lang)+'<div class="petr-bairro-actions"><a href="'+esc(href)+'" target="_blank" rel="noopener noreferrer">'+text(t('Abrir mapa','Abrir mapa','Open map'),lang)+'</a>'+
+      (route?navigate(base+route,t('Guía de la visita','Guia da visita','Visitor guide'),lang):'')+'</div></article>';
+  }).join('');
+  const bibliography=deep.bibliography.map(({label,url,why})=>'<li><a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(label)+' ↗</a>'+p(why,lang)+'</li>').join('');
+  return '<section class="petr-deep"><header class="petr-deep-head"><h2>'+text(t('Centro Histórico: una historia que se puede caminar','Centro Histórico: uma história para percorrer','Historic Centre: a history you can walk'),lang)+'</h2><p>'+
+    text(t('Una investigación que reúne la formación de la ciudad, sus arquitectos y trabajadores, la presencia negra, los cambios republicanos y la protección del patrimonio. Las referencias enlazan documentos de instituciones públicas e investigaciones históricas.','Uma pesquisa sobre a formação da cidade, arquitetos, trabalhadores, presença negra, transformações republicanas e preservação. As referências levam a instituições públicas e estudos históricos.','A researched guide covering the town’s origins, architects and workers, Black history, republican change and heritage protection, with links to public institutions and historical scholarship.'),lang)+'</p></header>'+
+    '<section class="petr-deep-section"><h2>'+text(t('Línea de tiempo documentada','Linha do tempo documentada','Documented timeline'),lang)+'</h2><ol class="petr-deep-timeline">'+history+'</ol></section>'+
+    '<section class="petr-deep-section"><h2>'+text(t('Capítulos para comprender el barrio','Capítulos para entender o bairro','Chapters to understand the area'),lang)+'</h2>'+chapters+'</section>'+
+    '<section class="petr-deep-section"><h2>'+text(t('Siete paradas para leer el Centro a pie','Sete paradas para conhecer o Centro a pé','Seven stops to explore the centre on foot'),lang)+'</h2><div class="petr-deep-walk">'+stops+'</div></section>'+
+    '<section class="petr-deep-section"><h2>'+text(t('Investigación y lecturas recomendadas','Pesquisa e leituras recomendadas','Research and further reading'),lang)+'</h2><ul class="petr-deep-bibliography">'+bibliography+'</ul></section></section>';
+}
 function petrProfile(area, data, base, lang, slug) {
   const archive = petropolisBarrioArchive[slug];
   const chapters = (archive?.chapters || []).map(chapter => `<article class="petr-bairro-chapter"><h2>${text(chapter.title, lang)}</h2>${p(chapter.body,lang)}</article>`).join('');
@@ -97,32 +144,35 @@ export function renderRegionalNeighborhood(city, slug, lang, photos) {
     if (!area) return null;
     const photo = area.image ? photos[area.image] : null;
     const detailed = city.slug === 'petropolis' ? petropolisDistrictEditorial[slug] : null;
-    const body = hero(area.name, area.summary) + `<section class="editorial bh-zone-index">
+    const summary = city.slug === 'petropolis' ? (petropolisBarriosProfundo.summaries[slug] || area.summary) : area.summary;
+    const body = hero(area.name, summary) + `<section class="editorial bh-zone-index">
       ${navigate(path, back, lang, 'rd-action')}
       ${photo ? `<div class="petr-bairro-photo"><figure>${picture(photo, area.name, '', true)}</figure>${photo.author && photo.source ?
         `<small class="petr-bairro-photo-credit">${text(t('Fotografía', 'Fotografia', 'Photograph'),lang)}: <a href="${esc(photo.source)}" target="_blank" rel="noopener noreferrer">${esc(photo.author)}</a></small>` : ''}</div>` : ''}
       ${detailed ? petrProfile(area, detailed, base, lang, slug) : ''}
+      ${city.slug === 'petropolis' && slug === 'centro-historico' ? petrDeepCentre(base,lang) : ''}
       <article class="bh-cluster">
         <h2>${text(t('Qué ver y cómo moverte', 'O que ver e como circular', 'What to see and how to get around'), lang)}</h2>
         <p class="bh-cluster-intro">${text(area.visit, lang)}</p>
         ${navigate(base + area.nearby, t('Una parada para combinar →', 'Uma parada para combinar →', 'A stop to pair it with →'), lang, 'rd-action')}
         ${navigate(base + 'transportes/', t('Transportes', 'Transportes', 'Transport'), lang, 'rd-action')}</article></section>`;
-    return { title: area.name, intro: area.summary, body, image: photo || null, inline: styles('barrios') + (detailed ? petrCss : '') };
+    return { title: area.name, intro: summary, body, image: photo || null, inline: styles('barrios') + (detailed ? petrCss : '') };
   }
   const title = t(`Barrios de ${city.name}`, `Bairros de ${city.name}`, `${city.name} neighbourhoods`);
   const { intro, tip } = city.sections[key];
   const entries = Object.entries(districts);
   const isPetropolis = city.slug === 'petropolis';
   const tiles = entries.map(([id, area]) => {
+    const summary = isPetropolis ? (petropolisBarriosProfundo.summaries[id] || area.summary) : area.summary;
     const photo = area.image ? photos[area.image] : null;
     const className = isPetropolis ? 'topic petr-bairro-topic' + (photo ? '' : ' petr-bairro-topic--text') : 'topic';
     return `<a class="${className}" href="${pre(lang) + path + id}/">
       ${picture(photo, area.name, 'bh-topic-mini')}<b>${esc(area.name)}</b>
-      ${isPetropolis ? `<p class="petr-bairro-topic-summary">${text(area.summary,lang)}</p>` : ''}
+      ${isPetropolis ? `<p class="petr-bairro-topic-summary">${text(summary,lang)}</p>` : ''}
       <span>${text(open, lang)}</span></a>`;
   }).join('');
   const clusters = entries.map(([id, area]) => `<a class="bh-cluster" href="${pre(lang) + path + id}/">
-    <h3>${esc(area.name)}</h3><p class="bh-cluster-intro">${text(area.summary, lang)}</p><span class="bh-cluster-cta">${text(open, lang)}</span></a>`).join('');
+    <h3>${esc(area.name)}</h3><p class="bh-cluster-intro">${text(isPetropolis ? (petropolisBarriosProfundo.summaries[id] || area.summary) : area.summary, lang)}</p><span class="bh-cluster-cta">${text(open, lang)}</span></a>`).join('');
   const archiveIntro = isPetropolis ? `<section class="editorial"><div class="petr-bairro-archive-intro"><h2>${text(t('Una ciudad que se cuenta barrio por barrio','Uma cidade contada bairro a bairro','A city told neighbourhood by neighbourhood'),lang)}</h2><p>${text(t('La historia de Petrópolis empieza mucho antes de sus monumentos. El plan de Koeler organizó la Vila Imperial y los quarteirões de familias trabajadoras e inmigrantes; después llegaron industrias, vías férreas, localidades rurales y nuevas formas de vivir en la sierra. Estas fichas reúnen capítulos históricos documentados y recorridos concretos.','A história de Petrópolis começa bem antes de seus monumentos. O plano de Koeler organizou a Vila Imperial e quarteirões de famílias trabalhadoras e imigrantes; depois vieram indústrias, ferrovias, regiões rurais e outras formas de viver na serra. As fichas reúnem pesquisa histórica documentada e roteiros concretos.','Petrópolis history begins long before its monuments. Koeler planned the Imperial Villa and neighbourhoods for working and immigrant families; industry, railways, rural communities and new ways of life followed. These guides bring documented history together with practical routes.'),lang)}</p><p>${text(t('Importante: los quarteirões históricos, los barrios actuales y los cinco distritos administrativos no son la misma división. Aquí usamos nombres útiles para el viajero y explicamos sus orígenes.','Importante: quarteirões históricos, bairros atuais e cinco distritos administrativos não são a mesma divisão. Usamos nomes úteis para o visitante e explicamos suas origens.','Important: historic allotments, modern neighbourhoods and the five administrative districts are different divisions. We use recognisable visitor-oriented names and explain their origins.'),lang)}</p><a href="https://ihp.org.br/os-quarteiroes/" target="_blank" rel="noopener noreferrer">${text(t('Consultar la investigación del Instituto Histórico de Petrópolis ↗','Consultar a pesquisa do Instituto Histórico de Petrópolis ↗','Read the Petrópolis Historical Institute research ↗'),lang)}</a></div></section>` : '';
   const body = hero(title, intro) + archiveIntro + `<section class="editorial bh-individual-index"><div class="section-head">
     <h2>${text(t('Explora barrio por barrio', 'Explore bairro por bairro', 'Explore neighbourhood by neighbourhood'), lang)}</h2></div>

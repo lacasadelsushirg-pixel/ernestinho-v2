@@ -85,7 +85,8 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
    for (const route of regionalRoutes) if (route.startsWith('/destinos/') && route.includes('/barrios/')) routes.add(route);
    continue;
   }
-  if (file === 'assets/js/translations/destinos/petropolis-barrios-archivo.js' ||
+  if (file === 'assets/js/translations/destinos/petropolis-barrios-profundo.js' ||
+      file === 'assets/js/translations/destinos/petropolis-barrios-archivo.js' ||
       file === 'assets/js/translations/destinos/petropolis-barrios-editorial.js') {
    for (const route of regionalRoutes) if (route.startsWith('/destinos/petropolis/barrios/')) routes.add(route);
    continue;
