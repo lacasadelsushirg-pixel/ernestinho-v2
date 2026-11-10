@@ -86,6 +86,11 @@ for (const route of routes) {
       if(cardPhotos.length!==12||new Set(cardPhotos).size!==12)errors.push(name+': guide index needs 12 distinct verified photo references');
       if(!html.includes('petr-guide-shortcuts'))errors.push(name+': missing fast decision navigation');
     }
+    if(route === area + 'guia/clima-y-lluvia/'){
+      const chapters=[...html.matchAll(/<article id="(estaciones|alertas|carretera|centro-lluvia|quitandinha-lluvia|senderos|vestimenta|cambios)"/g)];
+      if(chapters.length!==8)errors.push(name+': climate and rain guide needs 8 detailed sections');
+      if(cardsByClass('petr-fact-card')!==3)errors.push(name+': climate guide needs 3 quick decision cards');
+    }
     if(route === area + 'guia/errores-frecuentes/'){
       const sections=[...html.matchAll(/<article id="(rodoviaria|terminal|museo-lunes|muchos-lugares|lunes-guias|maleta|lluvia|app|taxa|pendientes)"/g)];
       if(sections.length!==10)errors.push(name+': expected ten original frequent mistakes');
