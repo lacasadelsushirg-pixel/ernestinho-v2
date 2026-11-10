@@ -122,6 +122,21 @@ export function practicalGuidePage(data, photos, lang, template) {
       .guide .petr-fact-card h3{font-size:.94rem;color:#275448;margin:0 0 7px;font-weight:700}
       .guide .petr-fact-card strong{display:block;color:#0e5548;font-size:1.1rem;line-height:1.3;margin-bottom:8px}
       .guide .petr-fact-card p{color:#405b53;font-size:.91rem;line-height:1.6;margin:0}
+      /* Only these two new guides use a shorter mobile header. Rio remains unchanged. */
+      @media(max-width:650px){
+        .guide.petr-compact-intro>h1{
+          font-size:clamp(2rem,9.5vw,2.5rem)!important;
+          line-height:1.07!important;
+          letter-spacing:-.025em;
+          margin:14px 0 14px!important;
+        }
+        .guide.petr-compact-intro>p.intro{
+          font-size:1rem!important;line-height:1.5!important;
+          margin:0 auto 23px!important;
+          max-width:36ch!important;
+        }
+        .guide.petr-compact-intro>.kicker{margin-bottom:12px!important}
+      }
       @media(max-width:650px){
         .guide .petr-urgent-actions{padding:14px}
         .guide .petr-urgent-actions > div{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -138,7 +153,7 @@ export function practicalGuidePage(data, photos, lang, template) {
         body:has(.petr-local-guide) .petr-local-guide{padding-bottom:calc(92px + env(safe-area-inset-bottom,0px))}
       }
     </style>`,
-    body: `<section class="guide petr-local-guide"><p class="kicker">ERNESTINHO CARIOCA · PETRÓPOLIS</p>
+    body: `<section class="guide petr-local-guide${data.compactMobileIntro ? ' petr-compact-intro' : ''}"><p class="kicker">ERNESTINHO CARIOCA · PETRÓPOLIS</p>
       <h1>${text(title, lang)}</h1><p class="intro">${text(intro, lang)}</p>
       ${urgent}${quick}
       <aside class="tip"><b>${text(tipTitle, lang)}</b>${paragraph(data.tip, lang)}</aside>
