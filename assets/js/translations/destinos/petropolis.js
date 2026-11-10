@@ -5,6 +5,7 @@ import { arrivalGuide } from './petropolis-roteiros-chegada.js';
 import { itineraryGuide } from './petropolis-itinerarios.js';
 import { firstVisitGuide, withoutCarGuide } from './petropolis-primeira-sem-carro.js';
 import { frequentMistakesGuide } from './petropolis-errores-frecuentes.js';
+import { mountainWeatherGuide } from './petropolis-clima-lluvia.js';
 
 const tourism = 'https://www.petropolis.rj.gov.br/turispetro/';
 const museum = 'https://museuimperial.museus.gov.br/';
@@ -24,13 +25,7 @@ export default {
     'llegada': arrivalGuide,
     'itinerarios-1-2-3-dias': itineraryGuide,
     'errores-frecuentes': frequentMistakesGuide,
-    'clima-y-lluvia': {
-      title: t('Clima de sierra y plan de lluvia', 'Clima de serra e plano de chuva', 'Mountain weather and rainy-day plans'),
-      ...s(t('Prepara una capa extra y un plan bajo techo. Las vistas y los senderos lucen más cuando puedes elegir el momento.', 'Prepare uma camada extra e um programa coberto. Mirantes e trilhas rendem mais quando você pode escolher o momento.', 'Pack an extra layer and plan an indoor option. Viewpoints and trails are better when you can choose the timing.'), [
-        c(t('Un día con lluvia', 'Um dia com chuva', 'A rainy day'), t('Confirma si el Museu Imperial u otro espacio cultural recibe visitas y elige un café cerca para reducir los desplazamientos.', 'Confirme se o Museu Imperial ou outro espaço cultural recebe visitas e escolha um café perto para reduzir deslocamentos.', 'Check whether the Imperial Museum or another cultural venue is open, then pick a nearby café to keep travel short.'), { page: 'cultura' }),
-        c(t('Antes de subir a la sierra', 'Antes de subir a serra', 'Before heading uphill'), t('Consulta el pronóstico y los avisos municipales. Si hay alerta, ajusta el trayecto y sigue la orientación local.', 'Consulte a previsão e os avisos municipais. Se houver alerta, ajuste o trajeto e siga a orientação local.', 'Check the forecast and municipal notices. If there’s a warning, adjust your route and follow local guidance.'), { url: tourism }),
-      ], t('Yo dejaría el paseo al aire libre como plan flexible y confirmaría la visita bajo techo antes de salir.', 'Eu deixaria o passeio ao ar livre flexível e confirmaria a visita coberta antes de sair.', 'I’d keep the outdoor plan flexible and confirm the indoor visit before leaving.')),
-    },
+    'clima-y-lluvia': mountainWeatherGuide,
   },
   sections: {
     transportes: s(t('Separa la subida desde Río del recorrido dentro de la ciudad. Centro, Quitandinha e Itaipava piden planes distintos.', 'Separe a subida desde o Rio do deslocamento na cidade. Centro, Quitandinha e Itaipava pedem planos diferentes.', 'Plan the trip up from Rio separately from getting around town. Downtown, Quitandinha and Itaipava call for different routes.'), [
