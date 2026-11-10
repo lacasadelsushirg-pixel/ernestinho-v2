@@ -3,11 +3,12 @@ import { t } from '../assets/js/translations/destinos/modelo.js';
 import { regionalVenues } from '../assets/js/translations/destinos/mesas-regionales.js';
 import { petrExpansion } from '../assets/js/translations/destinos/petropolis-mesas-ampliacion.js';
 import { petrDeepDining } from '../assets/js/translations/destinos/petropolis-mesas-profundas.js';
+import { casaDAngelo } from '../assets/js/translations/destinos/petropolis-casa-dangelo.js';
 import { categories, venues } from '../assets/js/translations/destinos/petropolis-mesas.js';
 
 const base = destination => '/destinos/' + destination.slug + '/';
 const petropolis = Object.fromEntries(Object.entries(venues).map(([section, items]) =>
-  [section, { ...items, ...petrExpansion[section], ...(petrDeepDining[section] || {}) }]));
+  [section, { ...items, ...petrExpansion[section], ...(petrDeepDining[section] || {}), ...(section === 'gastronomia' ? { 'casa-dangelo': casaDAngelo } : {}) }]));
 const catalogs = { petropolis, ...regionalVenues };
 export const venueRoutes = Object.entries(petropolis).flatMap(([section, items]) => Object.keys(items).map(slug => [section, slug]));
 export const otherVenueRoutes = Object.entries(regionalVenues).flatMap(([city, catalog]) =>

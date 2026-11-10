@@ -91,11 +91,13 @@
     },
     {
       "name": "Casa D’Angelo",
-      "source": "https://www.pcvb.com.br/onde-comer",
-      "sourceType": "directorio-turistico",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "source": "https://mercoserra.org.br/associados/detalhe/casa-dangelo-/",
+      "sourceType": "directorio-asociados",
+      "status": "ficha-profunda-trilingue",
+      "areas": ["Centro Histórico"],
+      "address": "Rua do Imperador, 700",
+      "verifiedOn": "2026-11-10",
+      "chapterCharacters": { "ES": 3992, "PT": 3687, "EN": 3591 }
     },
     {
       "name": "Casarão da Cervejaria Odin",
