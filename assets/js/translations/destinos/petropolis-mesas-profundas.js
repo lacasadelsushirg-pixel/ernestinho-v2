@@ -2485,6 +2485,366 @@ export const petrDeepDining = {
           }
         }
       ]
+    },
+    "duettos-cafe-bistro": {
+      "name": "Duetto’s Bistrô e Café · Casa da Princesa Isabel",
+      "area": "Centro Histórico",
+      "address": "Avenida Koeler, 42",
+      "category": "cafe",
+      "summary": {
+        "ES": "Café y bistró en los jardines de la Casa da Princesa Isabel, con desayuno, torradas Petrópolis, dulces y pastas artesanales.",
+        "PT": "Café e bistrô nos jardins da Casa da Princesa Isabel, com café da manhã, torradas Petrópolis, doces e massas artesanais.",
+        "EN": "Garden café and bistro at Casa da Princesa Isabel, offering breakfast, Petrópolis toast, sweets and handmade pasta."
+      },
+      "experience": {
+        "ES": "Mi elección sería una torrada Petrópolis con mermelada artesanal y un café, dejando tiempo para disfrutar el jardín.",
+        "PT": "Eu escolheria torrada Petrópolis com geleia artesanal e café, com tempo para aproveitar o jardim.",
+        "EN": "I would try Petrópolis toast with homemade preserves and a coffee while enjoying the garden."
+      },
+      "advice": {
+        "ES": "La ficha actual corresponde a Avenida Koeler 42, Casa da Princesa Isabel. No la confundas con la antigua referencia al café de los jardines del Museu Imperial.",
+        "PT": "Esta ficha atual corresponde à Avenida Koeler, 42, Casa da Princesa Isabel. Não confunda com a antiga referência ao café dos jardins do Museu Imperial.",
+        "EN": "This guide concerns Avenida Koeler 42 at Casa da Princesa Isabel, not older references to the Imperial Museum garden café."
+      },
+      "reservation": {
+        "ES": "Confirma la atención y la mesa exterior en el perfil oficial; el contacto divulgado es (24) 2020-1408.",
+        "PT": "Confira atendimento e mesa externa no perfil oficial; telefone divulgado (24) 2020-1408.",
+        "EN": "Confirm service and garden seating through the venue's channels; published phone +55 24 2020-1408."
+      },
+      "source": "https://www.instagram.com/duettospetropolis/",
+      "nearby": "/destinos/petropolis/cultura/casa-princesa-isabel/",
+      "sources": [
+        {
+          "label": "Folha de S.Paulo · Café en Casa da Princesa Isabel (23/09/2026)",
+          "url": "https://www1.folha.uol.com.br/blogs/cafe-na-prensa/2026/09/cafe-no-palacete-da-princesa-isabel-une-lanche-e-historia-em-petropolis.shtml"
+        },
+        {
+          "label": "Convention Bureau · Duetto’s, menú y dirección Koeler 42",
+          "url": "https://www.pcvb.com.br/gastronomia/perfil/duettos-cafe-e-bistro/"
+        },
+        {
+          "label": "Tribuna de Petrópolis · Historia de la marca (2016)",
+          "url": "https://tribunadepetropolis.com.br/noticias/cinco-anos-de-delicias-do-duettos-cafe-e-bistro-nos-jardins-do-museu-imperial/"
+        },
+        {
+          "label": "Tripadvisor · Casa da Princesa Isabel, contacto y ubicación",
+          "url": "https://www.tripadvisor.com.br/Restaurant_Review-g303504-d3570180-Reviews-Duetto_s_Bistro_e_Cafe_Casa_da_Princesa_Isabel-Petropolis_State_of_Rio_de_Janeiro.html"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "Un jardín histórico y un café con identidad",
+            "PT": "Um jardim histórico e um café com identidade",
+            "EN": "A historic garden and a distinctive café"
+          },
+          "text": {
+            "ES": "El Duetto’s de esta ficha está asociado a los jardines de la Casa da Princesa Isabel, en Avenida Koeler 42. La noticia publicada por Folha en septiembre de 2026 confirma la experiencia de desayunar o merendar frente al palacete. El atractivo no es únicamente la carta: el paisaje y el vínculo con la historia de la familia imperial justifican dedicar tiempo a la visita. No debemos confundir la residencia de Isabel con el Museu Imperial, que está en Rua da Imperatriz 220 y funciona como otra institución.",
+            "PT": "O Duetto’s desta ficha fica associado aos jardins da Casa da Princesa Isabel, na Avenida Koeler, 42. Reportagem da Folha de setembro de 2026 confirma a experiência de tomar café ou lanchar diante do palacete. O destaque vai além do cardápio: o paisagismo e a história da família imperial justificam visitar com calma. Não se deve confundir a residência de Isabel com o Museu Imperial, na Rua da Imperatriz, 220, outra instituição.",
+            "EN": "This Duetto’s operates in the gardens of Casa da Princesa Isabel at Avenida Koeler 42. A September 2026 Folha report confirms the appeal of breakfast or a snack facing the historic residence. The attraction extends beyond the menu: garden scenery and the imperial family's history reward an unhurried visit. Do not confuse Isabel's residence with the Imperial Museum at Rua da Imperatriz 220, which is a separate institution."
+          }
+        },
+        {
+          "title": {
+            "ES": "La historia del Duetto’s comenzó antes",
+            "PT": "A história do Duetto’s começou antes",
+            "EN": "Duetto’s began long before this visit"
+          },
+          "text": {
+            "ES": "El proyecto de café fue desarrollado por Marco Antônio Muller y Vanda Maria Ramos. Una crónica de Tribuna de Petrópolis de noviembre de 2016 registra que el negocio empezó con productos artesanales y abrió un local en Galeria Gelli en 2008, antes de ampliar operaciones a jardines históricos. La propuesta buscaba recuperar sabores familiares, como los pasteles caseros. Es importante diferenciar esa historia de la ubicación exacta de cada sucursal, que ha cambiado con los años.",
+            "PT": "O projeto foi desenvolvido por Marco Antônio Muller e Vanda Maria Ramos. Uma matéria da Tribuna de Petrópolis, de novembro de 2016, registra começo com produtos artesanais e loja na Galeria Gelli em 2008, antes da expansão para jardins históricos. A ideia era recuperar sabores de família, como bolos caseiros. É importante separar essa trajetória empresarial da localização exata das diferentes unidades, que mudou ao longo dos anos.",
+            "EN": "The café project was developed by Marco Antônio Muller and Vanda Maria Ramos. A November 2016 Tribuna de Petrópolis profile records an early artisanal-food focus and a Galeria Gelli shop in 2008, before expansion into historic gardens. The aim was to revive familiar flavours such as homemade cakes. That business history should be separated from the exact location of individual branches, which has changed over time."
+          }
+        },
+        {
+          "title": {
+            "ES": "La famosa torrada Petrópolis",
+            "PT": "A famosa torrada Petrópolis",
+            "EN": "The signature Petrópolis toast"
+          },
+          "text": {
+            "ES": "Una elección representativa es la torrada Petrópolis, descrita por el Convention Bureau con mermeladas artesanales. La experiencia es sencilla: pan tostado, un acompañamiento dulce y café o chocolate. Su valor se entiende al comer despacio mirando el jardín, no por un ingrediente raro o una presentación extravagante. Consulta el pan utilizado, el tamaño de la porción y las mermeladas del día, porque la versión servida puede cambiar. Para compartir entre dos, pregunta si resulta suficiente antes de agregar más platos.",
+            "PT": "Uma escolha representativa é a torrada Petrópolis, descrita pelo Convention Bureau com geleias artesanais. É experiência simples: pão tostado, acompanhamento doce e café ou chocolate. Seu valor está em comer com calma olhando o jardim, não em ingrediente raro ou apresentação extravagante. Confira o pão, tamanho da porção e geleias disponíveis, pois a versão pode mudar. Para dividir, pergunte se a quantidade atende a duas pessoas antes de acrescentar outros pedidos.",
+            "EN": "A representative choice is torrada Petrópolis, described by the Convention Bureau with artisan preserves. The experience is simple: toasted bread, a sweet accompaniment and coffee or chocolate. Its charm comes from enjoying familiar food in the garden rather than extravagant ingredients. Ask about the bread, portion size and available preserves because preparation may vary. If sharing between two, check whether the serving is substantial enough before adding more dishes."
+          }
+        },
+        {
+          "title": {
+            "ES": "Café, chocolate y desayunos prolongados",
+            "PT": "Café, chocolate e manhãs sem pressa",
+            "EN": "Coffee, chocolate and leisurely breakfasts"
+          },
+          "text": {
+            "ES": "La carta citada en directorios incluye cafés, tés, chocolate caliente, bebidas frías con café y opciones para el desayuno. Esto permite convertir una parada en un pequeño brunch. No todos los visitantes necesitan pedir un almuerzo entero para disfrutar el lugar; una bebida y un pastel pueden funcionar bien. Si eres exigente con el café, pregunta qué extracción y tamaño de taza ofrecen, y confirma ingredientes de bebidas especiales. Las opiniones sobre precio y atención varían según el momento, por lo que conviene ir sin horarios apretados.",
+            "PT": "O cardápio citado em guias inclui cafés, chás, chocolate quente, bebidas geladas de café e itens de café da manhã. Assim a visita pode virar brunch tranquilo. Não é preciso pedir almoço completo para aproveitar: bebida e bolo já funcionam. Para quem gosta de café, vale perguntar método de preparo e tamanho da xícara, além de ingredientes dos drinques especiais. Avaliações sobre preço e atendimento variam, então é melhor evitar programação apertada.",
+            "EN": "Directories list coffee, tea, hot chocolate, cold coffee drinks and breakfast options, allowing a stop to become a leisurely brunch. There is no obligation to order a full lunch: a drink and cake may be plenty. Coffee enthusiasts should ask about extraction method and cup size, while special drinks deserve an ingredient check. Reviews differ on prices and service, so avoid scheduling the visit between tightly timed attractions."
+          }
+        },
+        {
+          "title": {
+            "ES": "Más que una cafetería: pastas artesanales",
+            "PT": "Mais do que cafeteria: massas artesanais",
+            "EN": "More than a coffee shop: handmade pasta"
+          },
+          "text": {
+            "ES": "El Convention Bureau documenta una línea de pastas artesanales elaboradas con sémola de trigo duro y salsas de la casa. Entre los ejemplos históricos figuran ñoquis de batata baroa y ravioles rellenos de bobó de camarão, además de canelones y rondeles. Son platos de una propuesta de bistró, no solo un acompañamiento del café. Las recetas y formatos publicados pueden pertenecer a distintos períodos, así que consulta la oferta actual antes de esperar una pasta concreta.",
+            "PT": "O Convention Bureau documenta linha de massas artesanais com sêmola de trigo duro e molhos feitos na casa. Entre exemplos históricos estão nhoque de batata-baroa e ravióli recheado de bobó de camarão, além de canelones e rondeles. São pratos da proposta de bistrô, não apenas acompanhamentos do café. Receitas de guias podem se referir a épocas diferentes; confira o cardápio atual antes de esperar massa específica.",
+            "EN": "The Convention Bureau describes handmade pasta using durum-wheat semolina and house-made sauces. Historical examples include arracacha gnocchi, ravioli filled with shrimp bobó and baked cannelloni or rondelle. These belong to the bistro side of the business rather than simply supporting a coffee menu. Published recipes may date from different periods, so consult the current menu before expecting a particular pasta."
+          }
+        },
+        {
+          "title": {
+            "ES": "Dulces, brownies y recetas de familia",
+            "PT": "Doces, brownies e receitas de família",
+            "EN": "Cakes, brownies and family-style recipes"
+          },
+          "text": {
+            "ES": "Pasteles caseros, tartas, brownies y petit gâteau con helado aparecen en las descripciones gastronómicas de la marca. Para quien hace una visita cultural sin mucho tiempo, una merienda es una opción más natural que una comida larga. Pregunta qué producto salió del horno ese día y si necesita refrigeración para llevar. La historia original del negocio pone el acento en aromas y recetas familiares, pero eso no significa que cada dulce de un artículo de 2015 siga disponible.",
+            "PT": "Bolos caseiros, tortas, brownies e petit gâteau com sorvete aparecem nas descrições gastronômicas da marca. Para quem faz passeio cultural com pouco tempo, lanche pode ser melhor que refeição longa. Pergunte o que saiu do forno no dia e se é preciso refrigerar para levar. A história da empresa valoriza aromas e receitas de família, mas nem todo doce citado em matéria de 2015 continua no cardápio.",
+            "EN": "Homemade cakes, tarts, brownies and petit gâteau with ice cream feature in descriptions of the brand. For visitors on a shorter cultural outing, a sweet stop may work better than a long lunch. Ask which products are freshly made and whether takeaways require refrigeration. The original business emphasised family-style recipes and aromas, but not every dessert mentioned in a 2015 article remains on the menu today."
+          }
+        },
+        {
+          "title": {
+            "ES": "Dos jardines históricos, dos direcciones",
+            "PT": "Dois jardins históricos, dois endereços",
+            "EN": "Two historic gardens, two addresses"
+          },
+          "text": {
+            "ES": "Este punto es fundamental: las crónicas antiguas sitúan al Duetto’s en el jardín del Museu Imperial, Rua da Imperatriz 220; fuentes más recientes, incluida Folha de 2026 y la ficha específica de Casa da Princesa Isabel, lo sitúan en Avenida Koeler 42. No debemos enviar al visitante a una dirección antigua sin avisar. Esta guía utiliza la ubicación de Casa da Princesa Isabel y explica la diferencia. Antes de salir, consulta la cuenta oficial y confirma en cuál de los espacios habrá servicio ese día.",
+            "PT": "Este detalhe é essencial: matérias antigas localizam Duetto’s no jardim do Museu Imperial, Rua da Imperatriz, 220; fontes recentes, incluindo a Folha em 2026 e cadastro da Casa da Princesa Isabel, apontam Avenida Koeler, 42. Não devemos enviar turista ao endereço antigo sem aviso. Esta guia usa a localização da Casa da Princesa Isabel e explica a distinção. Antes de sair, confirme nos canais oficiais em qual espaço haverá serviço.",
+            "EN": "This distinction is essential: older profiles placed Duetto’s in the Imperial Museum garden at Rua da Imperatriz 220, while newer sources, including Folha in 2026 and the Casa da Princesa Isabel listing, identify Avenida Koeler 42. Visitors should not be sent to an old address without warning. This guide uses the Princesa Isabel location and explains the change in listings. Confirm the operating venue through official channels before travelling."
+          }
+        },
+        {
+          "title": {
+            "ES": "El Chá da Princesa no es un programa diario",
+            "PT": "Chá da Princesa não é programa diário",
+            "EN": "The Princess Tea is not a daily event"
+          },
+          "text": {
+            "ES": "Duetto’s ha presentado experiencias temáticas como Chá da Princesa, con menú definido y referencias a la época imperial. Es un evento gastronómico-cultural que requiere confirmar fechas, entradas, duración y reglas, no una actividad que se pueda contratar sin reserva en cualquier tarde. Si te interesa, revisa la programación oficial y pregunta si admiten adaptaciones alimentarias. La mesa normal del café y el evento especial son productos distintos y pueden tener precios, duración y condiciones diferentes.",
+            "PT": "O Duetto’s já apresentou experiências temáticas como Chá da Princesa, com menu fechado e referências à época imperial. É evento gastronômico-cultural que exige confirmar datas, ingressos, duração e regras, não atividade disponível todas as tardes sem reserva. Se houver interesse, consulte programação oficial e restrições alimentares. O atendimento normal do café e um evento especial são produtos diferentes, com preços e condições próprias.",
+            "EN": "Duetto’s has offered themed experiences such as Chá da Princesa, with a defined menu and references to imperial-era culture. This is a cultural dining event requiring confirmation of dates, tickets, duration and rules—not an activity available any afternoon without booking. Check official programming and dietary accommodations. Ordinary café service and a special themed event are distinct products with different prices and conditions."
+          }
+        },
+        {
+          "title": {
+            "ES": "Jardín, lluvia y accesibilidad real",
+            "PT": "Jardim, chuva e acessibilidade real",
+            "EN": "Garden seating, weather and accessibility"
+          },
+          "text": {
+            "ES": "Las mesas externas forman parte del encanto, pero el suelo de un jardín puede ser irregular o resbaladizo después de lluvias. Si viaja alguien con movilidad reducida, solicita detalles del acceso, distancia a los baños y eventual alternativa interior. Algunas plataformas anuncian accesibilidad, mientras comentarios de visitantes señalan dificultades concretas; lo responsable es preguntar por la ruta específica, no repetir una etiqueta genérica. Para niños, consulta sillas y espacio para cochecitos antes de reservar.",
+            "PT": "As mesas externas são parte do encanto, mas o piso do jardim pode ser irregular ou escorregadio depois da chuva. Com mobilidade reduzida, peça detalhes do acesso, banheiros e alternativa interna. Algumas plataformas anunciam acessibilidade enquanto visitantes relatam dificuldades específicas; o correto é perguntar pela rota real, não repetir selo genérico. Para crianças, confira cadeirões e espaço para carrinhos antes de reservar.",
+            "EN": "Outdoor tables are part of the appeal, but garden paths may be uneven or slippery after rain. For mobility-limited guests, request details of access, restroom routes and possible indoor seating. Some listings label the venue accessible while individual reviews report practical difficulties; the responsible approach is to ask about the actual route, not repeat a generic badge. For families, check highchairs and stroller space before booking."
+          }
+        },
+        {
+          "title": {
+            "ES": "Cómo organizar el paseo por Avenida Koeler",
+            "PT": "Como organizar passeio na Avenida Koeler",
+            "EN": "Planning an Avenida Koeler outing"
+          },
+          "text": {
+            "ES": "La Avenida Koeler permite apreciar una de las avenidas históricas más interesantes de Petrópolis, con casas antiguas y referencias de la ciudad imperial. Puedes combinar el café con una caminata corta por espacios públicos y otras atracciones del Centro, respetando la situación de los inmuebles privados. No toda mansión de la avenida está abierta. Para reservar un desayuno, consulta primero el horario del café, luego organiza los museos; las entradas patrimoniales y el servicio de restaurante no son una reserva conjunta.",
+            "PT": "A Avenida Koeler reúne casarões e referências do urbanismo imperial, sendo agradável para passeio curto por espaços públicos. Dá para combinar café e caminhada, respeitando imóveis privados, pois nem toda mansão está aberta. Para tomar café da manhã, confira primeiro o funcionamento da casa e depois organize os museus. Ingressos de atrações e serviço do restaurante são operações independentes e não formam reserva única.",
+            "EN": "Avenida Koeler is one of Petrópolis's more evocative historic avenues, with old residences and urban reminders of the imperial period. Combine the café with a short walk through public spaces, respecting private buildings because not every mansion welcomes visitors. For breakfast, check café hours before planning museum visits. Heritage admissions and restaurant service are independent and should not be treated as one booking."
+          }
+        },
+        {
+          "title": {
+            "ES": "Gastos, alergias y una recomendación personal",
+            "PT": "Gastos, alergias e minha recomendação",
+            "EN": "Spending, allergies and my recommendation"
+          },
+          "text": {
+            "ES": "Los comentarios de viajeros muestran opiniones diferentes sobre la relación entre precio y porción. Para evitar sorpresas, pregunta si el desayuno incluye bebidas, qué tamaño tienen tostadas y pastas y qué cargos se aplican al servicio. Los platos pueden contener trigo, leche, huevos, frutos secos o mariscos; avisa de alergias y solicita información sobre contaminación cruzada. Mi recomendación es visitar por el jardín y la historia, elegir una preparación representativa y dejar tiempo para disfrutarla.",
+            "PT": "As avaliações variam na percepção de preço e porções. Para evitar surpresas, confira bebidas incluídas no café da manhã, tamanho das torradas e massas e taxas de serviço. Pratos podem conter trigo, leite, ovos, castanhas ou camarão; informe alergias e pergunte por contaminação cruzada. Minha dica é visitar pelo jardim e pela história, escolher algo representativo e reservar tempo para apreciar a experiência.",
+            "EN": "Guest opinions vary on value and portion size. To avoid surprises, ask what a breakfast includes, how large the toast and pasta servings are and whether service charges apply. Dishes may contain wheat, dairy, eggs, nuts or shellfish; declare allergies and ask about cross-contact. My recommendation is to visit for the garden and history, select one representative dish and allow time to appreciate the setting."
+          }
+        }
+      ]
+    },
+    "massas-luigi": {
+      "name": "Massas Luigi",
+      "area": "Centro Histórico",
+      "address": "Praça Rui Barbosa, 185 · Praça da Liberdade",
+      "category": "italian",
+      "summary": {
+        "ES": "Restaurante italiano tradicional desde 1979, con lasañas, canelones, pizzería y gelatería artesanal propias junto a Praça da Liberdade.",
+        "PT": "Restaurante italiano tradicional desde 1979, com lasanhas, canelones, pizzaria e gelateria artesanal junto à Praça da Liberdade.",
+        "EN": "Traditional Italian restaurant since 1979, with house lasagna, cannelloni, pizza and artisan gelato by Praça da Liberdade."
+      },
+      "experience": {
+        "ES": "Probaría una lasaña de la casa y terminaría con un gelato Seleri; la pizzería ofrece otra experiencia.",
+        "PT": "Eu provaria uma lasanha da casa e terminaria com gelato Seleri; a pizzaria é outra experiência.",
+        "EN": "Try a house lasagna and finish with Seleri gelato; the pizzeria is another option."
+      },
+      "advice": {
+        "ES": "Utiliza Praça Rui Barbosa 185 como dirección postal; Praça da Liberdade es el nombre popular del entorno. Consulta promociones y tiempos de espera.",
+        "PT": "Use Praça Rui Barbosa, 185, no endereço; Praça da Liberdade é referência popular da área. Confirme promoções e espera.",
+        "EN": "Use Praça Rui Barbosa 185 as the postal address; Praça da Liberdade is the familiar area name. Verify promotions and waiting times."
+      },
+      "reservation": {
+        "ES": "Restaurante: (24) 2244-4444; reservas/escritorio (24) 2244-4422. Confirma horario del servicio.",
+        "PT": "Restaurante: (24) 2244-4444; reservas/escritório (24) 2244-4422. Confira horários.",
+        "EN": "Restaurant: +55 24 2244-4444; reservations/office +55 24 2244-4422. Confirm opening hours."
+      },
+      "source": "https://massasluigi.com.br/o-luigi",
+      "nearby": "/destinos/petropolis/cultura/casa-santos-dumont/",
+      "sources": [
+        {
+          "label": "Massas Luigi · Sitio oficial, historia desde 1979",
+          "url": "https://massasluigi.com.br/o-luigi"
+        },
+        {
+          "label": "Massas Luigi · Contactos oficiales y Praça Rui Barbosa 185",
+          "url": "https://massasluigi.com.br/contato"
+        },
+        {
+          "label": "Petrópolis Gourmet 2024 · Chef Christina Seleri y lasaña Sinfonia di Funghi",
+          "url": "https://petropolisgourmet.com.br/gastronomia/perfil/massas-luigi-2024/"
+        },
+        {
+          "label": "O Casal de Divi · Visita al restaurante (2019)",
+          "url": "https://ocasaldedivi.com.br/restaurante-massas-luigi-petropolis-rj/"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "Una referencia italiana desde 1979",
+            "PT": "Uma referência italiana desde 1979",
+            "EN": "An Italian reference since 1979"
+          },
+          "text": {
+            "ES": "Massas Luigi se presenta oficialmente como un restaurante italiano de Petrópolis desde 1979. Comenzó en una escala pequeña y se convirtió en un punto conocido del Centro Histórico, especialmente por sus pastas. La fecha corresponde a la trayectoria de la marca y no implica que cada salón actual exista sin modificaciones desde ese año. Para el visitante, la historia aporta una referencia de continuidad: es una casa que muchos petropolitanos conocen desde hace décadas y que mantiene cocina italiana como núcleo de su identidad.",
+            "PT": "O Massas Luigi se apresenta oficialmente como restaurante italiano de Petrópolis desde 1979. Começou em escala pequena e tornou-se referência no Centro Histórico, especialmente pelas massas. A data se refere à trajetória da marca, não significa que cada salão atual permaneça igual desde então. Para o visitante, essa história mostra continuidade: é casa conhecida por gerações de petropolitanos, mantendo a culinária italiana como centro da identidade.",
+            "EN": "Massas Luigi presents itself as a Petrópolis Italian restaurant operating since 1979. It began on a smaller scale and became a familiar historic-centre address, especially for pasta. That date refers to the brand's history, not a claim that every current dining room has been unchanged since then. For visitors, the long trajectory matters: generations of locals know the establishment, whose identity remains centred on Italian cooking."
+          }
+        },
+        {
+          "title": {
+            "ES": "Praça da Liberdade o Praça Rui Barbosa",
+            "PT": "Praça da Liberdade ou Praça Rui Barbosa",
+            "EN": "Praça da Liberdade versus Praça Rui Barbosa"
+          },
+          "text": {
+            "ES": "La dirección postal que figura en la página de contactos oficial es Praça Rui Barbosa 185, Centro. Otras páginas del propio restaurante utilizan Praça da Liberdade para referirse al entorno. Es una diferencia de nomenclatura que puede generar errores al solicitar un vehículo o usar mapas. Guarda el número 185 y comprueba el punto exacto. La posición es práctica para combinar el almuerzo con la Casa de Santos Dumont y paseos por el área histórica sin desplazarse a Itaipava.",
+            "PT": "O endereço postal na página oficial de contato é Praça Rui Barbosa, 185, Centro. Outras páginas da casa usam Praça da Liberdade como referência para a região. A diferença de nomenclatura pode confundir mapas e aplicativos. Salve o número 185 e confirme o ponto exato. A localização ajuda a combinar almoço com Casa de Santos Dumont e passeios pela área histórica, sem precisar se deslocar a Itaipava.",
+            "EN": "The official contact page gives Praça Rui Barbosa 185, Centro, while other pages from the restaurant refer to the surrounding Praça da Liberdade. This difference in local naming can confuse drivers or maps. Save number 185 and verify the pin. The location is convenient for combining lunch with Casa de Santos Dumont and a historic-centre walk without travelling to Itaipava."
+          }
+        },
+        {
+          "title": {
+            "ES": "Las lasañas son parte del patrimonio culinario",
+            "PT": "As lasanhas fazem parte da tradição",
+            "EN": "Lasagna as an enduring speciality"
+          },
+          "text": {
+            "ES": "El sitio del Luigi destaca lasañas, canelones y pastas de grano duro como especialidades centrales. En una visita de 2019, una pareja describió una lasaña de filet mignon al funghi con queso gratinado y porción abundante. El relato es útil para entender el estilo, pero no debe tratarse como menú fijo ni como garantía de tamaño para 2026. Pregunta cuáles son las lasañas del día, si las guarniciones están incluidas y si conviene compartir una entre dos personas.",
+            "PT": "O site do Luigi destaca lasanhas, canelones e massas de grano duro como especialidades. Num relato de 2019, visitantes descreveram lasanha de filé mignon ao funghi, com queijo gratinado e porção generosa. A experiência mostra o estilo, mas não é cardápio permanente nem garantia de tamanho em 2026. Pergunte quais lasanhas estão disponíveis, se acompanhamentos estão incluídos e se faz sentido dividir uma porção.",
+            "EN": "The Luigi website highlights lasagnas, cannelloni and durum-wheat pasta as principal specialities. A 2019 visitor account described a generously portioned filet-mignon-and-mushroom lasagna topped with browned cheese. That gives a sense of the cooking style but does not guarantee a permanent recipe or portion size in 2026. Ask which lasagnas are available, whether sides are included and whether one may be shared."
+          }
+        },
+        {
+          "title": {
+            "ES": "La pasta de trigo duro y las salsas",
+            "PT": "Massas de trigo duro e molhos",
+            "EN": "Durum-wheat pasta and sauces"
+          },
+          "text": {
+            "ES": "Las pastas de grano duro ofrecen texturas diferentes de una masa rellena suave o una lasaña horneada. La casa presenta un amplio repertorio de recetas italianas y una producción propia vinculada al restaurante. Para elegir, piensa primero si prefieres una salsa de tomate, crema, hongos o carne y pregunta cuál combina con cada pasta. Si tienes intolerancia al gluten, el hecho de utilizar harina de buena calidad o pasta artesanal no cambia su contenido de trigo; consulta adaptaciones directamente.",
+            "PT": "Massas de grano duro têm textura diferente de recheados delicados ou lasanhas ao forno. A casa apresenta repertório italiano amplo e fabricação própria ligada ao restaurante. Para escolher, pense em molho de tomate, creme, cogumelos ou carne e pergunte qual combina com cada massa. Para intolerância ao glúten, farinha de qualidade ou preparo artesanal não altera o trigo presente; confira adaptações diretamente com a equipe.",
+            "EN": "Durum-wheat pasta has a different texture from delicate filled pasta or baked lasagna. The restaurant presents a broad Italian repertoire and its own pasta production. When choosing, consider whether you prefer tomato, cream, mushroom or meat sauces and ask what works with each shape. For gluten-related restrictions, high-quality flour or artisanal techniques do not remove wheat; discuss adaptations with the kitchen."
+          }
+        },
+        {
+          "title": {
+            "ES": "La pizzaría es una propuesta diferenciada",
+            "PT": "A pizzaria é proposta diferenciada",
+            "EN": "The pizzeria is a separate attraction"
+          },
+          "text": {
+            "ES": "Luigi cuenta también con pizzería y masa de elaboración propia, además de servicio de entrega. La carta de pizzas y sus posibles promociones no tienen por qué coincidir con las opciones de pastas del restaurante principal. Algunos anuncios de años anteriores mencionan rodízios en días determinados; no sería correcto afirmar que siguen vigentes sin comprobarlo. Si quieres pizza, pregunta si se sirve en el sector que visitarás, el horario de horno y la existencia de alguna promoción actual.",
+            "PT": "O Luigi também tem pizzaria com massa de fabricação própria e serviço de entrega. O cardápio de pizza e eventuais promoções não precisam coincidir com o restaurante principal de massas. Anúncios antigos mencionam rodízios em dias específicos; não é certo que continuem sem confirmação. Quem deseja pizza deve conferir em qual setor é servida, horário do forno e promoções válidas na data.",
+            "EN": "Luigi also operates a pizzeria with house-made dough and a delivery service. Pizza menus and possible promotions need not match the main restaurant's pasta offer. Older advertisements mention all-you-can-eat pizza on certain days, but that should not be treated as a current guarantee. If pizza is the priority, ask where it is served, the oven's hours and any promotion that actually applies to your visit."
+          }
+        },
+        {
+          "title": {
+            "ES": "Seleri Gelateria y los helados artesanales",
+            "PT": "Seleri Gelateria e sorvetes artesanais",
+            "EN": "Seleri Gelateria and artisan gelato"
+          },
+          "text": {
+            "ES": "Una diferencia importante respecto de otros restaurantes italianos es la gelatería Seleri, vinculada al Luigi. La web oficial afirma que produce helados artesanales, utiliza materias primas seleccionadas y ha desarrollado más de cien sabores a lo largo de su historia. Eso no significa que los cien estén disponibles simultáneamente. Para terminar una comida puedes preguntar por sabores del día y por opciones con o sin leche, evitando atribuir automáticamente propiedades dietéticas a los productos.",
+            "PT": "Um diferencial da casa é a Seleri Gelateria, ligada ao Luigi. O site oficial afirma produzir gelatos artesanais com matérias-primas selecionadas e ter desenvolvido mais de cem sabores ao longo da história. Isso não significa cem opções disponíveis ao mesmo tempo. Para terminar o almoço, pergunte pelos sabores do dia e pelas alternativas com ou sem leite, sem atribuir propriedades dietéticas automáticas ao produto.",
+            "EN": "A distinctive feature is Seleri Gelateria, connected to Luigi. The official site says it produces artisan gelato using selected ingredients and has developed more than a hundred flavours over its history. That does not mean all one hundred are offered simultaneously. For dessert, ask about the day's flavours and dairy-free possibilities without assuming a particular dietary certification."
+          }
+        },
+        {
+          "title": {
+            "ES": "Los vinos de la propia bodega",
+            "PT": "Os vinhos da adega própria",
+            "EN": "The restaurant's own wine cellar"
+          },
+          "text": {
+            "ES": "La marca anuncia una bodega propia para acompañar las recetas italianas. Un vino blanco puede funcionar con una salsa más delicada, mientras algunas carnes y hongos admiten opciones tintas; no existe una combinación universal obligatoria. Pregunta qué botellas y copas están disponibles y solicita precios antes de elegir. Si vas a recorrer la ciudad en auto, considera bebida sin alcohol o un transporte seguro de regreso. El objetivo de la guía es ayudar a elegir, no convertir el vino en requisito.",
+            "PT": "A marca divulga adega própria para harmonizar receitas italianas. Vinho branco pode acompanhar molho delicado, enquanto carnes e cogumelos combinam com alguns tintos; não existe escolha obrigatória. Pergunte por garrafas e taças disponíveis e confira valores antes do pedido. Se vai dirigir, escolha bebida sem álcool ou transporte seguro na volta. O papel da guia é ajudar na decisão, não transformar vinho em obrigação.",
+            "EN": "The brand advertises its own wine cellar for pairing with Italian food. White wine may accompany delicate sauces while certain reds suit meats or mushrooms, but no match is obligatory. Ask which bottles or by-the-glass options are available and check prices first. If driving, choose alcohol-free drinks or arrange safe transport. The guide aims to help people choose, not make wine a condition of enjoying the food."
+          }
+        },
+        {
+          "title": {
+            "ES": "Festival Petrópolis Gourmet y recetas temporales",
+            "PT": "Festival Petrópolis Gourmet e receitas temporárias",
+            "EN": "Festival dishes are time-limited"
+          },
+          "text": {
+            "ES": "En Petrópolis Gourmet 2024, la chef Christina Seleri presentó Sinfonia di Funghi, una lasaña con filet mignon porcino, tres hongos, bacon, crema y queso. Es un dato concreto sobre creatividad y participación cultural del restaurante, pero se preparó para un festival específico. No deberíamos prometer que esté en el menú habitual ni repetir su precio de 2024 como vigente. Si quieres una receta especial, consulta si hay festivales en la fecha de viaje y qué platos participan realmente.",
+            "PT": "No Petrópolis Gourmet 2024, a chef Christina Seleri apresentou Sinfonia di Funghi, lasanha com filé mignon suíno, três cogumelos, bacon, creme e queijo. É exemplo concreto da participação cultural do restaurante, mas foi criada para festival específico. Não se deve prometer presença no menu regular nem repetir preço de 2024 como atual. Para provar receitas especiais, confira se há festival na data e quais pratos participam.",
+            "EN": "At Petrópolis Gourmet 2024 chef Christina Seleri presented Sinfonia di Funghi, a lasagna with pork tenderloin, three types of mushrooms, bacon, cream and cheese. It documents the restaurant's participation in a local culinary festival, but the dish was designed for a particular event. It should not be promised on today's menu or assigned its 2024 price. Ask about current festivals and participating dishes before travelling specifically for a special recipe."
+          }
+        },
+        {
+          "title": {
+            "ES": "Familias, grupos y porciones reales",
+            "PT": "Famílias, grupos e tamanho de porções",
+            "EN": "Families, groups and realistic portions"
+          },
+          "text": {
+            "ES": "Por su carta amplia y ubicación central, Luigi puede funcionar para familias que no coinciden en lo que quieren comer: unos eligen pasta, otros pizza o postre. Sin embargo, las opiniones recientes incluyen tanto elogios como críticas por tiempos de espera y temperatura de los platos cuando hay mucha gente. Si vas con niños o con agenda apretada, evita el pico de almuerzo, consulta las porciones y comunica necesidades al reservar. No promete un menú infantil concreto sin información confirmada.",
+            "PT": "Pelo cardápio amplo e localização central, Luigi pode atender famílias com gostos diferentes: uns preferem massa, outros pizza ou sobremesa. Avaliações recentes têm elogios e críticas sobre espera e temperatura dos pratos nos horários cheios. Com crianças ou compromisso marcado, evite pico do almoço, consulte porções e avise necessidades na reserva. Não é adequado prometer cardápio infantil específico sem confirmação.",
+            "EN": "With a broad menu and central location, Luigi can suit families with different preferences: some choose pasta, others pizza or gelato. Recent feedback includes praise as well as complaints about waits and food temperature when busy. With children or a tight itinerary, consider avoiding peak lunchtime, check portion sizes and explain requirements when booking. A particular children's menu should not be promised without confirmation."
+          }
+        },
+        {
+          "title": {
+            "ES": "Horario oficial y diferencias entre fuentes",
+            "PT": "Horário oficial e diferenças entre fontes",
+            "EN": "Official hours and conflicting listings"
+          },
+          "text": {
+            "ES": "El sitio oficial indica servicio de martes a domingo de 12:00 a 22:00, mientras otras plataformas presentan horarios más prolongados los viernes y sábados. Para una cena tardía no basta con tomar el dato que aparece primero en Google: confirma hasta qué hora recibe pedidos la cocina y si se admiten reservas. El teléfono del restaurante es (24) 2244-4444 y el de oficina y reservas (24) 2244-4422. Los feriados y eventos pueden alterar el servicio habitual.",
+            "PT": "O site oficial indica atendimento de terça a domingo, das 12h às 22h, enquanto outras plataformas informam encerramento mais tarde sexta e sábado. Para jantar tarde, confirme o último pedido da cozinha e se há reserva, em vez de confiar na primeira listagem. O telefone do restaurante é (24) 2244-4444 e o de escritório e reservas (24) 2244-4422. Feriados e eventos podem mudar a rotina.",
+            "EN": "The official website lists Tuesday-to-Sunday service from noon to 10 p.m., while some platforms show later hours on Fridays and Saturdays. For late dinner, confirm the kitchen's last order and reservation policy rather than trusting the first listing encountered. The restaurant phone is +55 24 2244-4444 and the reservations/office line is +55 24 2244-4422. Holidays and events can alter usual service."
+          }
+        },
+        {
+          "title": {
+            "ES": "Mi recomendación para un día en el Centro",
+            "PT": "Minha dica para um dia no Centro",
+            "EN": "My recommendation for a central day out"
+          },
+          "text": {
+            "ES": "Para una primera visita, organizaría la Casa de Santos Dumont y una caminata por Praça da Liberdade antes de sentarme a comer. Pediría una lasaña conocida de la casa, verificando su disponibilidad y tamaño, y dejaría espacio para gelato. Si la intención es probar pizza, no intentaría hacer ambas comidas completas por obligación. También revisaría los alérgenos: trigo, huevos, leche, cerdo y frutos secos aparecen en platos históricos. El mejor recorrido es el que permite conocer la ciudad sin correr.",
+            "PT": "Na primeira visita, eu organizaria Casa de Santos Dumont e caminhada pela Praça da Liberdade antes da refeição. Pediria uma lasanha tradicional, conferindo disponibilidade e tamanho, e guardaria espaço para gelato. Se a prioridade for pizza, não tentaria fazer duas refeições completas por obrigação. Confira alergênicos: trigo, ovos, leite, porco e castanhas aparecem em pratos históricos. O melhor roteiro é aquele em que se conhece a cidade sem pressa.",
+            "EN": "For a first visit, I would plan Casa de Santos Dumont and a walk around Praça da Liberdade before lunch. Order a traditional lasagna after checking availability and size, and leave room for gelato. If pizza is the priority, there is no reason to force two full meals into the stop. Review allergens too: wheat, eggs, dairy, pork and nuts appear in historical dishes. The best itinerary allows you to enjoy the city rather than rush."
+          }
+        }
+      ]
     }
   }
 };
