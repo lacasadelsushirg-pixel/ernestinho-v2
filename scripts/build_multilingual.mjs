@@ -78,6 +78,18 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  }
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
+  // A neighbourhood editor change requires its rendered HTML pages, not a zero-route build.
+  // Preserve the existing approved pages outside the neighbourhood section.
+  if (file === 'scripts/regional_neighborhoods.mjs' ||
+      file === 'assets/js/translations/destinos/barrios-regionales.js') {
+   for (const route of regionalRoutes) if (/^\\/destinos\\/[^/]+\\/barrios\\//.test(route)) routes.add(route);
+   continue;
+  }
+  if (file === 'assets/js/translations/destinos/petropolis-barrios-archivo.js' ||
+      file === 'assets/js/translations/destinos/petropolis-barrios-editorial.js') {
+   for (const route of regionalRoutes) if (route.startsWith('/destinos/petropolis/barrios/')) routes.add(route);
+   continue;
+  }
   if (['scripts/build_petropolis.mjs', 'scripts/petropolis_mesas.mjs', 'assets/css/petr-venues.css'].includes(file) || file.startsWith('assets/js/translations/destinos/petropolis-')) {
    for (const route of regionalRoutes) if (route.startsWith('/destinos/petropolis/')) routes.add(route);
    continue;

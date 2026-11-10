@@ -189,6 +189,18 @@ export const petropolisBarrioArchive = {
           "PT": "O visitante costuma conhecer o Bingen pela Rodoviária Governador Leonel Brizola e pelo polo comercial de moda. São funções mais recentes sobrepostas a uma história bem anterior. Dali partem ligações para o Centro e outras regiões; a rodoviária não fica ao lado do Museu Imperial ou da Catedral. Quem quiser explorar a região pode observar os eixos comerciais e sua transição para áreas residenciais, sem tratar todo o bairro como um simples ponto de passagem entre Rio e Petrópolis.",
           "EN": "Many visitors first encounter Bingen through Governador Leonel Brizola intercity bus station and the fashion-shopping district. Those are modern functions layered onto an older history. Connections spread from here towards downtown and other areas, but the station is not beside Museu Imperial or the cathedral. Visitors can read the shopping streets and their transition into residential valleys instead of seeing the district only as a transfer point between Rio and Petrópolis."
         }
+      },
+      {
+        "title": {
+          "ES": "Asociaciones, coros y memoria colectiva",
+          "PT": "Associações, corais e memória coletiva",
+          "EN": "Associations, choirs and shared memory"
+        },
+        "body": {
+          "ES": "La vida cultural de los quarteirões alemanes no dependía solamente de las familias y de los oficios. Las investigaciones del Instituto Histórico de Petrópolis documentan coros, clubes, asociaciones de socorro mutuo y espacios recreativos en localidades como Bingen, Nassau y Mosela. Estas instituciones ofrecían vínculos sociales, música y actividades compartidas, y algunas cambiaron de nombre con el tiempo. Para comprender Bingen hay que mirar también esa historia de integración y de identidades transformadas: la herencia germánica forma parte de la ciudad brasileña, no existe aislada de ella.",
+          "PT": "A vida cultural dos quarteirões alemães não dependia só das famílias e dos ofícios. Pesquisas do Instituto Histórico de Petrópolis registram corais, clubes, sociedades de socorro mútuo e associações recreativas em localidades como Bingen, Nassau e Mosela. Essas instituições criavam vínculos sociais, música e atividades coletivas; algumas mudaram de nome com o tempo. Entender o Bingen também exige olhar para essa história de integração e identidades em transformação: a herança germânica faz parte da cidade brasileira, não está separada dela.",
+          "EN": "Cultural life in the German-named neighbourhoods did not rest only on families and trades. Research from the Petrópolis Historical Institute documents choirs, clubs, mutual-aid societies and recreational associations in places including Bingen, Nassau and Mosela. They provided social networks, music and shared activities, and some changed their names over time. Understanding Bingen also means tracing this history of integration and evolving identities: its German heritage is part of a Brazilian city, not separate from it."
+        }
       }
     ],
     "sources": [
