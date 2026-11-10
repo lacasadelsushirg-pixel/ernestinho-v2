@@ -21,3 +21,26 @@ export default {
     },
   },
 };
+
+// Keep the qualifiers and formatting added to the approved practical notes.
+export const updatedFacts = {
+  '/gastronomia/casa-201/': {
+    pt: {
+      10: '🕐 <strong>Horários</strong><br>De terça a sábado, chegada às 20h. Domingo e segunda fechados, segundo referências públicas. Apenas com reserva.',
+      11: '💰 <strong>Preços</strong><br>A partir de R$590 por pessoa, sem bebidas, segundo as referências consultadas. Confirme o menu vigente.',
+    },
+    en: {
+      10: '🕐 <strong>Hours</strong><br>Tuesday to Saturday, arrival at 8 p.m. Closed Sunday and Monday according to public listings. Reservation required.',
+      11: '💰 <strong>Prices</strong><br>From R$590 per person, excluding drinks, according to the sources consulted. Confirm the current menu.',
+    },
+  },
+  '/gastronomia/angu-do-gomes/': {
+    pt: {
+      9: '<b>Especialidade</b><br>Comida brasileira · Carioca · Boteco · Econômico',
+      10: '🕐 <strong>Horários e preços</strong><br>Confirme antes de ir. As referências de 2025 são históricas.',
+    },
+    en: {
+      9: '<b>Specialty</b><br>Brazilian food · Carioca · Boteco · Affordable',
+    },
+  },
+};

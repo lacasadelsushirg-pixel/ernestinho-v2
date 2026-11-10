@@ -44,6 +44,9 @@ try {
       ['/gastronomia/belmonte-copa/', /Boteco Belmonte Copacabana/],
       ['/gastronomia/belmonte-ipanema/', /Boteco Belmonte Ipanema/],
       ['/gastronomia/polvo-marisqueria/', /Polvo Marisqueria/],
+      ['/gastronomia/labuta-bar/', /Labuta Bar/],
+      ['/gastronomia/casa-201/', /Casa 201/],
+      ['/gastronomia/angu-do-gomes/', /Angu do Gomes/],
     ]) {
       console.log(`Checking ${route} at ${width}px`);
       const original = await page.goto(origin + '/pt' + route, { waitUntil: 'load' });
@@ -77,7 +80,7 @@ try {
       assert.equal(await page.locator('html').getAttribute('lang'), 'en');
     }
     await context.close();
-    console.log(`10 page switches PT-BR → FR → EN at ${width}px`);
+    console.log(`13 page switches PT-BR → FR → EN at ${width}px`);
   }
 } finally {
   await browser.close();

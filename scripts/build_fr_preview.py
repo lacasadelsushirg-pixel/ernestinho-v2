@@ -16,6 +16,7 @@ ROUTES = (
     '/', '/guia/', '/guia/apps/', '/guia/dinero/', '/guia/permanencia/',
     '/gastronomia/carretao-ipanema/', '/gastronomia/ct-boucherie/',
     '/gastronomia/belmonte-copa/', '/gastronomia/belmonte-ipanema/', '/gastronomia/polvo-marisqueria/',
+    '/gastronomia/labuta-bar/', '/gastronomia/casa-201/', '/gastronomia/angu-do-gomes/',
 )
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (

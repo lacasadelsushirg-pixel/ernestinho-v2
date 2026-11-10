@@ -1,6 +1,178 @@
 // Attribute and control copy left in Spanish by the approved legacy sources.
 export const pilotLabels = {
   ...{
+  "/gastronomia/labuta-bar/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Ambiente do Labuta Bar": [
+      "Ambiente do Labuta Bar",
+      "Inside Labuta Bar"
+    ],
+    "Plato del almuerzo": [
+      "Prato do almoço",
+      "Lunch dish"
+    ],
+    "Petisco o preparación de la casa": [
+      "Petisco ou preparo da casa",
+      "House snack or dish"
+    ],
+    "Detalle del servicio": [
+      "Detalhe do serviço",
+      "A detail from service"
+    ],
+    "Mapa de Labuta Bar": [
+      "Mapa do Labuta Bar",
+      "Map of Labuta Bar"
+    ],
+    "Entrada e identidad de Labuta": [
+      "Entrada e identidade do Labuta",
+      "Labuta’s entrance and character"
+    ],
+    "Bar de calçada y comida popular en el Centro. Las fuentes recientes consultadas muestran más de una referencia de dirección; consulta el canal del local.": [
+      "Bar de calçada e comida popular no Centro. As fontes consultadas indicam mais de um endereço. Confira no canal do estabelecimento.",
+      "Sidewalk bar and everyday Brazilian food downtown. The sources consulted list more than one address. Check the bar’s own channel."
+    ],
+    "Veja Rio publicó Avenida Gomes Freire, 256, con entrada por Rua do Senado. Una guía de Visit Rio de 2026 apunta a Rua do Senado, 40. No pude confirmar si hubo traslado o si se trata de locales relacionados.": [
+      "A Veja Rio publicou Avenida Gomes Freire, 256, com entrada pela Rua do Senado. Um guia da Visit Rio de 2026 indica Rua do Senado, 40. Não consegui confirmar se houve mudança ou se são locais relacionados.",
+      "Veja Rio listed Avenida Gomes Freire, 256, with an entrance on Rua do Senado. A 2026 Visit Rio guide lists Rua do Senado, 40. I could not confirm whether the bar moved or whether these are related venues."
+    ],
+    "La cobertura editorial describe un botequim carioca con petiscos y platos de almuerzo. Los menús y el servicio pueden variar.": [
+      "A cobertura descreve um botequim carioca com petiscos e pratos de almoço. O cardápio e o serviço podem variar.",
+      "Coverage describes a Rio botequim serving bar snacks and lunch dishes. Menus and service may vary."
+    ],
+    "Confirma dirección y horario con el perfil de Instagram del Labuta Bar antes de desplazarte. No confundas esta ficha con Braseiro Labuta ni con Labuta Mar, que son nombres y referencias distintas.": [
+      "Confirme endereço e horário no Instagram do Labuta Bar antes de sair. Braseiro Labuta e Labuta Mar são nomes e referências diferentes.",
+      "Check the address and hours on Labuta Bar’s Instagram before setting out. Braseiro Labuta and Labuta Mar are separate listings."
+    ],
+    "Ficha de Labuta Bar · Veja Rio ↗ · Guía de direcciones · Visit Rio ↗ · Instagram de Labuta Bar ↗": [
+      "Ficha do Labuta Bar · Veja Rio ↗ · Guia de endereços · Visit Rio ↗ · Instagram do Labuta Bar ↗",
+      "Labuta Bar listing · Veja Rio ↗ · Address guide · Visit Rio ↗ · Labuta Bar Instagram ↗"
+    ],
+    "Datos revisados el 25 de septiembre de 2026. Confirma condiciones directamente antes de visitar.": [
+      "Dados revisados em 25 de setembro de 2026. Confirme as condições diretamente antes de visitar.",
+      "Details reviewed September 25, 2026. Confirm directly before visiting."
+    ],
+    "CENTRO · BAR CARIOCA · DIRECCIÓN A CONFIRMAR": [
+      "CENTRO · BAR CARIOCA · ENDEREÇO A CONFIRMAR",
+      "DOWNTOWN · RIO BAR · CONFIRM THE ADDRESS"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 guide"
+    ]
+  },
+  "/gastronomia/casa-201/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Registro visual de Casa 201.": [
+      "Foto da Casa 201.",
+      "Photo of Casa 201."
+    ],
+    "La carta y la operación pueden cambiar; conviene confirmar antes de ir.": [
+      "O cardápio e o funcionamento podem mudar. Confirme antes de ir.",
+      "The menu and service may change. Check before going."
+    ],
+    "Casa 201 es una experiencia gastronómica planificada: si eliges un menú degustación, confirma previamente su duración, precio, bebidas incluidas y adaptaciones alimentarias. La selección de platos cambia, por lo que es mejor valorar la propuesta del chef que llegar esperando una receta específica de una reseña antigua.": [
+      "A Casa 201 é uma experiência para planejar. Se escolher o menu degustação, confirme duração, preço, bebidas incluídas e adaptações alimentares. A seleção muda. Vale conhecer a proposta atual do chef, sem contar com uma receita específica de uma resenha antiga.",
+      "Casa 201 takes some planning. For the tasting menu, confirm the duration, price, included drinks and dietary accommodations. The selection changes, so go for the chef’s current menu and treat older reviews as a reference."
+    ],
+    "Para una ocasión especial, organiza el traslado y el horario de reserva con margen. Una cena de degustación merece ser el programa central de la noche, sin colocar otras actividades con horarios muy ajustados inmediatamente después.": [
+      "Para uma ocasião especial, deixe margem para o trajeto e o horário da reserva. Faça do jantar degustação o programa da noite e evite marcar outra atividade logo depois.",
+      "For a special occasion, allow time for the ride and your reservation. Make the tasting dinner the evening’s main event and avoid booking anything on a tight schedule afterward."
+    ],
+    "Mapa de Casa 201": [
+      "Mapa da Casa 201",
+      "Map of Casa 201"
+    ],
+    "Casa 201 — imagen 1": [
+      "Casa 201 — foto 1",
+      "Casa 201 — photo 1"
+    ],
+    "Casa 201 — imagen 2": [
+      "Casa 201 — foto 2",
+      "Casa 201 — photo 2"
+    ],
+    "Casa 201 — imagen 3": [
+      "Casa 201 — foto 3",
+      "Casa 201 — photo 3"
+    ],
+    "Casa 201 — imagen 4": [
+      "Casa 201 — foto 4",
+      "Casa 201 — photo 4"
+    ],
+    "Casa 201 — imagen 5": [
+      "Casa 201 — foto 5",
+      "Casa 201 — photo 5"
+    ]
+  },
+  "/gastronomia/angu-do-gomes/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Angu do Gomes — ambiente y carácter visual": [
+      "Angu do Gomes — ambiente e identidade visual",
+      "Angu do Gomes — atmosphere and character"
+    ],
+    "Angu do Gomes — fachada o espacio histórico": [
+      "Angu do Gomes — fachada ou espaço histórico",
+      "Angu do Gomes — exterior or historic setting"
+    ],
+    "Angu do Gomes — preparación representativa": [
+      "Angu do Gomes — preparo representativo",
+      "Angu do Gomes — signature preparation"
+    ],
+    "Angu do Gomes — experiencia de la casa": [
+      "Angu do Gomes — experiência da casa",
+      "Angu do Gomes — the experience"
+    ],
+    "Si quieres conocer el angu tradicional, pregunta por las opciones de salsa y acompañamientos disponibles ese día. Es una buena oportunidad para entender una preparación vinculada a la comida popular de Río, sin confundir recetas históricas con el menú vigente.": [
+      "Para conhecer o angu tradicional, pergunte quais molhos e acompanhamentos estão disponíveis no dia. É uma oportunidade de entender um preparo da comida popular do Rio, distinguindo a receita histórica do cardápio atual.",
+      "To try traditional angu, ask which sauces and sides are available that day. It is a chance to understand a dish from Rio’s everyday cooking while keeping the historic recipe and the current menu distinct."
+    ],
+    "La visita puede ser parte de un recorrido cultural y gastronómico por la región donde se encuentre la unidad que elijas. Comprueba la dirección y el servicio antes de salir, especialmente si el plan depende de una hora concreta.": [
+      "A visita pode fazer parte de um roteiro cultural e gastronômico na região da unidade que você escolher. Confirme endereço e serviço antes de sair, sobretudo se o passeio depender de um horário específico.",
+      "You can make the visit part of a food and culture outing around the branch you choose. Check the address and service before leaving, especially if your plans depend on a particular time."
+    ],
+    "Mapa de Angu do Gomes": [
+      "Mapa do Angu do Gomes",
+      "Map of Angu do Gomes"
+    ],
+    "Angu do Gomes — fotografía 1": [
+      "Angu do Gomes — foto 1",
+      "Angu do Gomes — photo 1"
+    ],
+    "Angu do Gomes: imagen 1": [
+      "Angu do Gomes — foto 1",
+      "Angu do Gomes — photo 1"
+    ],
+    "Angu do Gomes — fotografía 6": [
+      "Angu do Gomes — foto 6",
+      "Angu do Gomes — photo 6"
+    ],
+    "Angu do Gomes: imagen 6": [
+      "Angu do Gomes — foto 6",
+      "Angu do Gomes — photo 6"
+    ],
+    "Angu do Gomes — fotografía 7": [
+      "Angu do Gomes — foto 7",
+      "Angu do Gomes — photo 7"
+    ],
+    "Angu do Gomes: imagen 7": [
+      "Angu do Gomes — foto 7",
+      "Angu do Gomes — photo 7"
+    ]
+  }
+},
+  ...{
   "/gastronomia/belmonte-copa/": {
     "🌐 Sitio oficial": ["🌐 Site oficial", "🌐 Official website"],
     "La red posee varias unidades. Esta ficha corresponde a Avenida Atlântica 514; no uses horarios, teléfonos o menús de Ipanema, Leblon, Flamengo o Praça Mauá.": [

@@ -1,5 +1,5 @@
 import lemeParagraphs from '../assets/js/translations/belmonte-leme-legacy.mjs';
-import supplementaryCopy from '../assets/js/translations/rio-restaurantes-piloto.mjs';
+import supplementaryCopy, {updatedFacts} from '../assets/js/translations/rio-restaurantes-piloto.mjs';
 
 // These reviewed pages already have localized inline renderers. Initialize
 // them from the URL in built HTML, including when scripts run on a live visit.
@@ -10,6 +10,9 @@ export const legacyLocaleRoutes = new Map([
   ['/gastronomia/belmonte-copa/', ['setLang', 'full']],
   ['/gastronomia/belmonte-ipanema/', ['setLang', 'full']],
   ['/gastronomia/polvo-marisqueria/', ['setLang', 'full']],
+  ['/gastronomia/labuta-bar/', ['setLang', 'full']],
+  ['/gastronomia/casa-201/', ['setLang', 'full']],
+  ['/gastronomia/angu-do-gomes/', ['setLang', 'full']],
 ]);
 
 export function hideDuplicateLegacySelector(html, route) {
@@ -24,16 +27,20 @@ export function localizeLegacyStartup(code, route) {
   if (!renderers) return code;
   const supplement = supplementaryCopy[route];
   const positional = renderers.includes('full') && code.includes('function full(l)');
-  const replacements = route === '/gastronomia/belmonte-copa/' ? lemeParagraphs : null;
+  const replacements = route === '/gastronomia/belmonte-copa/' ? lemeParagraphs : updatedFacts[route];
   if (positional) {
     // This dictionary predates the practical summary and the supplemental
     // paragraphs. Keep its original paragraph order; those additions have
     // their own translations in the practical renderer and section chunk.
-    const extraSections = route === '/gastronomia/polvo-marisqueria/' ? ':not(.v2-supplement p)' : '';
+    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/'].includes(route) ? ':not(.v2-supplement p)' : '';
     code = code.replace("P=[...document.querySelectorAll('p')]",
       `P=[...document.querySelectorAll('p:not(.ec-q-kicker):not(article.card:not(.facts)>p:nth-of-type(n+2))${extraSections}')]`);
   }
   const locale = '(location.pathname.match(/^\\/(pt|en)(?=\\/|$)/i)?.[1].toLowerCase() || "es")';
+  if (route === '/gastronomia/angu-do-gomes/') {
+    // The approved title is already a proper name followed by the brand.
+    code = code.replace('document.title=tr(title,lang);', 'document.title=title;');
+  }
   for (const renderer of renderers) {
     // Match the final initialization in a script, never a language button.
     const startup = new RegExp(`\\b${renderer}\\('es'\\)(?=;?(?:\\}\\)\\(\\);?)?\\s*$)`);
