@@ -13,6 +13,9 @@ export const legacyLocaleRoutes = new Map([
   ['/gastronomia/labuta-bar/', ['setLang', 'full']],
   ['/gastronomia/casa-201/', ['setLang', 'full']],
   ['/gastronomia/angu-do-gomes/', ['setLang', 'full']],
+  ['/gastronomia/proa/', ['setLang', 'full']],
+  ['/gastronomia/elena/', ['setLang', 'full']],
+  ['/gastronomia/sud-passaro-verde/', ['setLang', 'full']],
 ]);
 
 export function hideDuplicateLegacySelector(html, route) {
@@ -32,9 +35,10 @@ export function localizeLegacyStartup(code, route) {
     // This dictionary predates the practical summary and the supplemental
     // paragraphs. Keep its original paragraph order; those additions have
     // their own translations in the practical renderer and section chunk.
-    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/'].includes(route) ? ':not(.v2-supplement p)' : '';
+    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/'].includes(route) ? ':not(.v2-supplement p)' : '';
+    const extraParagraphs = route === '/gastronomia/elena/' ? ':not(main>section>p:nth-of-type(n+2))' : '';
     code = code.replace("P=[...document.querySelectorAll('p')]",
-      `P=[...document.querySelectorAll('p:not(.ec-q-kicker):not(article.card:not(.facts)>p:nth-of-type(n+2))${extraSections}')]`);
+      `P=[...document.querySelectorAll('p:not(.ec-q-kicker):not(article.card:not(.facts)>p:nth-of-type(n+2))${extraSections}${extraParagraphs}')]`);
   }
   const locale = '(location.pathname.match(/^\\/(pt|en)(?=\\/|$)/i)?.[1].toLowerCase() || "es")';
   if (route === '/gastronomia/angu-do-gomes/') {
@@ -50,14 +54,14 @@ export function localizeLegacyStartup(code, route) {
       const encodedCopy = JSON.stringify(replacements).replaceAll('<', '\\u003c');
       code = code.replace(initialize, `D[${locale}] && Object.assign(D[${locale}], (${encodedCopy})[${locale}]);${initialize}`);
     }
-    if (renderer === 'full' && positional && route === '/gastronomia/polvo-marisqueria/') {
+    if (renderer === 'full' && positional && ['/gastronomia/polvo-marisqueria/', '/gastronomia/proa/', '/gastronomia/sud-passaro-verde/'].includes(route)) {
       const initialize = `full(${locale})`;
       // The historical facts use plain-text separators. Keep the approved
       // strong label and line break when applying those translations.
       code = code.replace(initialize, `{
         const facts = D[${locale}];
         if (facts) for (const index of [8,9,10,11,12,13,14,15,16]) {
-          facts[index] = facts[index].replace(/^(\\S+) (.+?) \\| (.+)$/, '$1 <strong>$2</strong><br>$3');
+          facts[index] = facts[index].replace('<strong>', '').replace('</strong>', '').replace(/^(\\S+) (.+?) \\| (.+)$/, '$1 <strong>$2</strong><br>$3');
         }
       }${initialize}`);
     }

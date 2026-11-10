@@ -377,4 +377,174 @@ export const pilotLabels = {
       ]];
     })),
   },
+  "/gastronomia/proa/": {
+      "Notas adicionales de la guía V2": [
+        "Notas adicionais do guia V2",
+        "Additional notes from the V2 guide"
+      ],
+      "Información adicional conservada de la ficha V2": [
+        "Informações adicionais preservadas da ficha V2",
+        "Additional details preserved from the V2 listing"
+      ],
+      "Mapa de Proa Cozinha Bar": [
+        "Mapa de Proa Cozinha Bar",
+        "Map of Proa Cozinha Bar"
+      ],
+      "🌐 Sitio oficial": [
+        "🌐 Site oficial",
+        "🌐 Official website"
+      ],
+      "Fotografía 1 de Proa Cozinha Bar.": [
+        "Foto 1 do Proa Cozinha Bar.",
+        "Photo 1 of Proa Cozinha Bar."
+      ],
+      "Fotografía 2 de Proa Cozinha Bar.": [
+        "Foto 2 do Proa Cozinha Bar.",
+        "Photo 2 of Proa Cozinha Bar."
+      ],
+      "Fotografía 3 de Proa Cozinha Bar.": [
+        "Foto 3 do Proa Cozinha Bar.",
+        "Photo 3 of Proa Cozinha Bar."
+      ],
+      "Fotografía 4 de Proa Cozinha Bar.": [
+        "Foto 4 do Proa Cozinha Bar.",
+        "Photo 4 of Proa Cozinha Bar."
+      ],
+      "Fotografía 5 de Proa Cozinha Bar.": [
+        "Foto 5 do Proa Cozinha Bar.",
+        "Photo 5 of Proa Cozinha Bar."
+      ],
+      "Fotografía 6 de Proa Cozinha Bar.": [
+        "Foto 6 do Proa Cozinha Bar.",
+        "Photo 6 of Proa Cozinha Bar."
+      ],
+      "Para comer en Proa, pregunta por la pesca disponible, la preparación recomendada y el tamaño de las porciones. El precio de pescados y mariscos puede depender del producto y de la temporada; los valores que figuran en reseñas antiguas son orientativos, no una tarifa garantizada.": [
+        "No Proa, pergunte qual é a pesca do dia, o preparo recomendado e o tamanho das porções. O preço de peixes e frutos do mar pode variar conforme o produto e a temporada. Valores de resenhas antigas servem como referência.",
+        "At Proa, ask what fish is available, how the kitchen recommends preparing it and how large the portions are. Fish and seafood prices can vary with the catch and season. Prices in older reviews are a rough guide."
+      ],
+      "Yo reservaría un espacio generoso para disfrutar una mesa de pescados y mariscos. Comprueba el horario y el lugar exacto antes de llegar, especialmente si pretendes combinar la comida con otras actividades del día.": [
+        "Eu deixaria tempo de sobra para aproveitar uma refeição de peixes e frutos do mar. Confira o horário e o endereço exato antes de sair, principalmente se quiser encaixar a refeição com outros programas do dia.",
+        "I would set aside plenty of time for a meal of fish and seafood. Check the hours and exact location before you go, especially if you are fitting the meal around other plans."
+      ],
+      "Perfil de Proa publicado por Riotur · Instagram de Proa": [
+        "Perfil do Proa publicado pela Riotur · Instagram do Proa",
+        "Riotur’s Proa listing · Proa on Instagram"
+      ],
+      "Perfil de Proa publicado por Riotur": [
+        "Perfil do Proa publicado pela Riotur",
+        "Riotur’s Proa listing"
+      ],
+      "Instagram de Proa": [
+        "Instagram do Proa",
+        "Proa on Instagram"
+      ]
+    },
+  "/gastronomia/elena/": {
+      "Notas adicionales de la guía V2": [
+        "Notas adicionais do guia V2",
+        "Additional notes from the V2 guide"
+      ],
+      "Información adicional conservada de la ficha V2": [
+        "Informações adicionais preservadas da ficha V2",
+        "Additional details preserved from the V2 listing"
+      ],
+      "Mapa de Elena Horto": [
+        "Mapa de Elena Horto",
+        "Map of Elena Horto"
+      ],
+      "Elena Horto — fotografía 1": [
+        "Elena Horto — foto 1",
+        "Elena Horto — photo 1"
+      ],
+      "Elena Horto — fotografía 2": [
+        "Elena Horto — foto 2",
+        "Elena Horto — photo 2"
+      ],
+      "Elena Horto — fotografía 3": [
+        "Elena Horto — foto 3",
+        "Elena Horto — photo 3"
+      ],
+      "Elena Horto — fotografía 4": [
+        "Elena Horto — foto 4",
+        "Elena Horto — photo 4"
+      ],
+      "Elena Horto — fotografía 5": [
+        "Elena Horto — foto 5",
+        "Elena Horto — photo 5"
+      ],
+      "Elena Horto — fotografía 6": [
+        "Elena Horto — foto 6",
+        "Elena Horto — photo 6"
+      ],
+      "Elena Horto — imagen de la experiencia.": [
+        "Elena Horto — um registro da experiência.",
+        "Elena Horto — a glimpse of the experience."
+      ],
+      "Para una noche en Elena, yo confirmaría la mesa y el espacio reservado, especialmente si la idea es disfrutar de una zona elevada o una vista particular. Pregunta por menú, bebidas y eventos del día; así no dependes de fotografías de otra temporada ni de una programación que puede cambiar.": [
+        "Para uma noite no Elena, eu confirmaria a mesa e o espaço reservado, principalmente se a ideia for ficar no rooftop ou ter uma vista específica. Pergunte pelo cardápio, pelas bebidas e pelos eventos do dia. Assim você não depende de fotos de outra época nem de uma programação que pode mudar.",
+        "For an evening at Elena, I would confirm the table and seating area, especially if you want a rooftop table or a particular view. Ask about the menu, drinks and any events that day so you have current information alongside the photos and listings."
+      ],
+      "Esta salida encaja mejor como un plan nocturno con tiempo que como una parada apresurada. Organiza el regreso y los desplazamientos antes de llegar, sobre todo si el programa incluye cena y permanencia después de comer.": [
+        "Essa saída combina mais com uma noite tranquila do que com uma parada rápida. Organize a ida e a volta antes de sair, principalmente se a ideia for jantar e ficar mais um pouco depois.",
+        "This works best as an evening you can take your time over. Plan the journey there and back before you arrive, especially if you want to stay after dinner."
+      ]
+    },
+  "/gastronomia/sud-passaro-verde/": {
+      "Notas adicionales de la guía V2": [
+        "Notas adicionais do guia V2",
+        "Additional notes from the V2 guide"
+      ],
+      "Información adicional conservada de la ficha V2": [
+        "Informações adicionais preservadas da ficha V2",
+        "Additional details preserved from the V2 listing"
+      ],
+      "Mapa de Sud, o Pássaro Verde": [
+        "Mapa de Sud, o Pássaro Verde",
+        "Map of Sud, o Pássaro Verde"
+      ],
+      "🌐 Sitio oficial": [
+        "🌐 Site oficial",
+        "🌐 Official website"
+      ],
+      "Sud, o Pássaro Verde — imagen 1": [
+        "Sud, o Pássaro Verde — foto 1",
+        "Sud, o Pássaro Verde — photo 1"
+      ],
+      "Sud, o Pássaro Verde — imagen 2": [
+        "Sud, o Pássaro Verde — foto 2",
+        "Sud, o Pássaro Verde — photo 2"
+      ],
+      "Sud, o Pássaro Verde — imagen 3": [
+        "Sud, o Pássaro Verde — foto 3",
+        "Sud, o Pássaro Verde — photo 3"
+      ],
+      "Sud, o Pássaro Verde — imagen 4": [
+        "Sud, o Pássaro Verde — foto 4",
+        "Sud, o Pássaro Verde — photo 4"
+      ],
+      "Sud, o Pássaro Verde — imagen 5": [
+        "Sud, o Pássaro Verde — foto 5",
+        "Sud, o Pássaro Verde — photo 5"
+      ],
+      "Para Sud, O Pássaro Verde, revisa el menú vigente y reserva con anticipación, especialmente si te interesa una comida larga con varios tiempos. La propuesta puede cambiar según la temporada y el producto disponible; confirma directamente qué opciones se adaptan a tus restricciones.": [
+        "Para o Sud, o Pássaro Verde, confira o cardápio atual e reserve com antecedência, especialmente para uma refeição longa em várias etapas. A proposta pode mudar conforme a temporada e a disponibilidade dos ingredientes. Confirme diretamente quais opções atendem às suas restrições alimentares.",
+        "For Sud, o Pássaro Verde, check the current menu and book ahead, especially for a leisurely meal with several courses. The menu may change with the season and available ingredients. Ask the restaurant directly which dishes can accommodate your dietary needs."
+      ],
+      "Si organizas una experiencia gastronómica especial, yo dejaría suficiente margen antes y después de la reserva. En lugar de sumar varias actividades ajustadas, disfruta la comida como parte central del día.": [
+        "Se estiver planejando uma experiência gastronômica especial, deixe tempo livre antes e depois da reserva. Faça da refeição o ponto alto do dia e distribua as outras atividades com folga.",
+        "If you are planning a special meal, leave plenty of time on either side of the reservation. Make the meal the main event of the day and space out the other activities."
+      ],
+      "Registro visual de Sud, o Pássaro Verde.": [
+        "Sud, o Pássaro Verde em imagens.",
+        "Sud, o Pássaro Verde in pictures."
+      ],
+      "Las fuentes consultadas no coinciden: Veja Rio marca el lugar como cerrado, mientras el perfil de Instagram publica información de reservas. Confirma directamente.": [
+        "As fontes consultadas divergem. A Veja Rio indica que o restaurante está fechado, enquanto o perfil do Instagram publica informações sobre reservas. Confirme diretamente com o restaurante.",
+        "The sources consulted disagree. Veja Rio lists the restaurant as closed, while the Instagram profile posts reservation information. Check with the restaurant directly."
+      ],
+      "Ficha y estado en Veja Rio ↗Instagram vinculado al restaurante ↗": [
+        "Ficha e situação na Veja Rio ↗ · Instagram vinculado ao restaurante ↗",
+        "Listing and status on Veja Rio ↗ · Instagram linked to the restaurant ↗"
+      ]
+    },
 };
