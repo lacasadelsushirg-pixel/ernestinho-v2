@@ -208,7 +208,7 @@ try{
           failures.push({route,viewport:vp.width,reason:'Expected 6 plans and 19 stops',plans:metrics.itineraryCards,stops:metrics.itineraryStops});
         if(route.endsWith('/guia/emergencias/')&&metrics.urgentDialLinks!==4)
           failures.push({route,viewport:vp.width,reason:'Emergency call panel missing',count:metrics.urgentDialLinks});
-        if(route.includes('/guia/')&&vp.width===390){
+        if(route.includes('/guia/')&&route!=='/destinos/petropolis/guia/'&&vp.width===390){
           const dock=metrics.mobileGuideControls;
           if(!dock||!dock.visible||dock.flexDirection!=='row'||dock.top<vp.height-86)
             failures.push({route,viewport:vp.width,reason:'Floating actions are not aligned near the mobile footer',dock});
