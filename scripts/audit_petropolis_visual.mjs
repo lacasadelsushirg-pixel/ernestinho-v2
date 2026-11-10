@@ -122,6 +122,14 @@ try{
             guideIndexDistinctPhotos:new Set([...document.querySelectorAll('.petr-guide-card img')].map(img=>img.getAttribute('src'))).size,
             guideIndexBrokenPhotos:[...document.querySelectorAll('.petr-guide-card img')].filter(img=>!img.complete||img.naturalWidth===0).map(img=>img.getAttribute('src')),
             guideIndexGroups:document.querySelectorAll('.petr-guide-group').length,
+            guideIndexShortcutBlocked:(()=>{
+              const links=[...document.querySelectorAll('.petr-guide-shortcuts a')];
+              const controls=[...document.querySelectorAll('.ec-cariocia-launcher,.ec-global-actions>.ec-float-btn')];
+              return links.some(el=>controls.some(control=>{
+                const x=el.getBoundingClientRect(),y=control.getBoundingClientRect();
+                return x.left<y.right&&x.right>y.left&&x.top<y.bottom&&x.bottom>y.top;
+              }));
+            })(),
             guideIndexGridColumns:(()=>{
               const grid=document.querySelector('.petr-guide-group .guide-grid');
               return grid?getComputedStyle(grid).gridTemplateColumns.split(' ').length:0;
@@ -201,6 +209,8 @@ try{
             failures.push({route,viewport:vp.width,reason:'Petrópolis guide index has photos that failed to load',photos:metrics.guideIndexBrokenPhotos});
           if(vp.width===390&&metrics.guideIndexGridColumns!==1)
             failures.push({route,viewport:vp.width,reason:'Guide cards must be single-column on a phone',columns:metrics.guideIndexGridColumns});
+          if(vp.width===390&&metrics.guideIndexShortcutBlocked)
+            failures.push({route,viewport:vp.width,reason:'Floating controls cover one or more quick guide links'});
         }
         if(route.endsWith('/guia/mes-a-mes/')&&(metrics.monthCards!==12||metrics.seasonCards!==4))
           failures.push({route,viewport:vp.width,reason:'Expected 12 months and 4 season cards',monthCards:metrics.monthCards,seasonCards:metrics.seasonCards});
