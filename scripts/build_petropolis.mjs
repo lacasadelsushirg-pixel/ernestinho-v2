@@ -474,7 +474,7 @@ export function petropolisGuide(city, slug, lang) {
       .petr-guide-index .guide-grid a.petr-guide-card{min-height:285px}
     }
     @media(max-width:650px){
-      .petr-guide-index .hero{min-height:clamp(300px,43vh,480px)!important}
+      .petr-guide-index .hero{min-height:clamp(270px,34vh,360px)!important}
       .petr-guide-index .petr-guide-quick{padding:22px 16px 11px;gap:15px}
       .petr-guide-index .petr-guide-shortcuts{width:100%;display:grid;grid-template-columns:1fr;gap:7px}
       .petr-guide-index .petr-guide-shortcuts a{justify-content:space-between}
