@@ -15,6 +15,7 @@ const siteRoutes = new Set(regionalRoutes);
 const requiredDistricts = 11;
 const requiredCulturalSites = 15;
 const requiredDetail = [
+  area + 'guia/', area + 'guia/errores-frecuentes/',
   area + 'barrios/', area + 'cultura/', area + 'transportes/',
   area + 'guia/llegada/', area + 'guia/itinerarios-1-2-3-dias/',
   area + 'guia/sin-auto/', area + 'guia/primera-visita/',
@@ -76,6 +77,20 @@ for (const route of routes) {
       .filter(match => match[1].split(' ').includes(className)).length;
     if (route === area + 'barrios/' && cardsByClass('topic') !== 11) errors.push(name + ': district index does not show 11 cards');
     if (route === area + 'cultura/' && (html.match(/class="culture-card"/g) || []).length !== 15) errors.push(name + ': culture index does not show 15 cards');
+    if(route === area + 'guia/'){
+      const guideBlocks=[...html.matchAll(/class="[^"]*petr-guide-card[^"]*"/g)];
+      const hrefs=[...html.matchAll(/<a class="petr-guide-card" href="([^"]+)"/g)].map(x=>x[1]);
+      const cardPhotos=[...html.matchAll(/<a class="petr-guide-card"[\\s\\S]*?<img[^>]+src="([^"]+)"/g)].map(x=>x[1]);
+      if(guideBlocks.length!==12||hrefs.length!==12)errors.push(name+': expected exactly 12 index cards');
+      if(new Set(hrefs).size!==12)errors.push(name+': repeated guide links in index');
+      if(cardPhotos.length!==12||new Set(cardPhotos).size!==12)errors.push(name+': guide index needs 12 distinct verified photo references');
+      if(!html.includes('petr-guide-shortcuts'))errors.push(name+': missing fast decision navigation');
+    }
+    if(route === area + 'guia/errores-frecuentes/'){
+      const sections=[...html.matchAll(/<article id="(rodoviaria|terminal|museo-lunes|muchos-lugares|lunes-guias|maleta|lluvia|app|taxa|pendientes)"/g)];
+      if(sections.length!==10)errors.push(name+': expected ten original frequent mistakes');
+      if(cardsByClass('petr-fact-card')!==3)errors.push(name+': expected three quick mistake prevention cards');
+    }
     const guideCardExpectations = [
       [area + 'guia/terminales/', 4],
       [area + 'guia/accesibilidad/', 3],
