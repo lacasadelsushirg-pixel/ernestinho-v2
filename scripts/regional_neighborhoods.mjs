@@ -88,8 +88,11 @@ const petrCss = `<style>
 @media(max-width:800px){.petr-bairro-panels{grid-template-columns:1fr}.petr-bairro-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.petr-bairro-cards{grid-template-columns:1fr}.petr-bairro-profile{padding:16px}.petr-bairro-stop{padding:18px}}
 </style>`;
-function petrDeepCentre(base, lang) {
-  const deep = petropolisBarriosProfundo.centroHistorico;
+function petrDeepCentre(base, lang, slug = 'centro-historico') {
+  const deep = slug === 'centro-historico' ? petropolisBarriosProfundo.centroHistorico : petropolisBarriosProfundo[slug];
+  if (!deep) return '';
+  const defaultTitle = t('Centro Histórico: una historia que se puede caminar','Centro Histórico: uma história para percorrer','Historic Centre: a history you can walk');
+  const defaultIntro = t('Una investigación que reúne la formación de la ciudad, sus arquitectos y trabajadores, la presencia negra, los cambios republicanos y la protección del patrimonio. Las referencias enlazan documentos de instituciones públicas e investigaciones históricas.','Uma pesquisa sobre a formação da cidade, arquitetos, trabalhadores, presença negra, transformações republicanas e preservação. As referências levam a instituições públicas e estudos históricos.','A researched guide covering the town’s origins, architects and workers, Black history, republican change and heritage protection, with links to public institutions and historical scholarship.');
   const label = url => url.split('/').slice(2).join(' › ');
   const chapters = deep.chapters.map(({title,paragraphs,sources}) =>
     '<article class="petr-deep-chapter"><h3>'+text(title,lang)+'</h3>'+paragraphs.map(item=>p(item,lang)).join('')+
@@ -101,11 +104,11 @@ function petrDeepCentre(base, lang) {
       (route?navigate(base+route,t('Guía de la visita','Guia da visita','Visitor guide'),lang):'')+'</div></article>';
   }).join('');
   const bibliography=deep.bibliography.map(({label,url,why})=>'<li><a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(label)+' ↗</a>'+p(why,lang)+'</li>').join('');
-  return '<section class="petr-deep"><header class="petr-deep-head"><h2>'+text(t('Centro Histórico: una historia que se puede caminar','Centro Histórico: uma história para percorrer','Historic Centre: a history you can walk'),lang)+'</h2><p>'+
-    text(t('Una investigación que reúne la formación de la ciudad, sus arquitectos y trabajadores, la presencia negra, los cambios republicanos y la protección del patrimonio. Las referencias enlazan documentos de instituciones públicas e investigaciones históricas.','Uma pesquisa sobre a formação da cidade, arquitetos, trabalhadores, presença negra, transformações republicanas e preservação. As referências levam a instituições públicas e estudos históricos.','A researched guide covering the town’s origins, architects and workers, Black history, republican change and heritage protection, with links to public institutions and historical scholarship.'),lang)+'</p></header>'+
+  return '<section class="petr-deep"><header class="petr-deep-head"><h2>'+text(deep.heading || defaultTitle,lang)+'</h2><p>'+
+    text(deep.intro || defaultIntro,lang)+'</p></header>'+
     '<section class="petr-deep-section"><h2>'+text(t('Línea de tiempo documentada','Linha do tempo documentada','Documented timeline'),lang)+'</h2><ol class="petr-deep-timeline">'+history+'</ol></section>'+
     '<section class="petr-deep-section"><h2>'+text(t('Capítulos para comprender el barrio','Capítulos para entender o bairro','Chapters to understand the area'),lang)+'</h2>'+chapters+'</section>'+
-    '<section class="petr-deep-section"><h2>'+text(t('Siete paradas para leer el Centro a pie','Sete paradas para conhecer o Centro a pé','Seven stops to explore the centre on foot'),lang)+'</h2><div class="petr-deep-walk">'+stops+'</div></section>'+
+    '<section class="petr-deep-section"><h2>'+text(t('Recorrido histórico y paradas útiles','Roteiro histórico e paradas úteis','Historic route and useful stops'),lang)+'</h2><div class="petr-deep-walk">'+stops+'</div></section>'+
     '<section class="petr-deep-section"><h2>'+text(t('Investigación y lecturas recomendadas','Pesquisa e leituras recomendadas','Research and further reading'),lang)+'</h2><ul class="petr-deep-bibliography">'+bibliography+'</ul></section></section>';
 }
 function petrProfile(area, data, base, lang, slug) {
@@ -150,7 +153,7 @@ export function renderRegionalNeighborhood(city, slug, lang, photos) {
       ${photo ? `<div class="petr-bairro-photo"><figure>${picture(photo, area.name, '', true)}</figure>${photo.author && photo.source ?
         `<small class="petr-bairro-photo-credit">${text(t('Fotografía', 'Fotografia', 'Photograph'),lang)}: <a href="${esc(photo.source)}" target="_blank" rel="noopener noreferrer">${esc(photo.author)}</a></small>` : ''}</div>` : ''}
       ${detailed ? petrProfile(area, detailed, base, lang, slug) : ''}
-      ${city.slug === 'petropolis' && slug === 'centro-historico' ? petrDeepCentre(base,lang) : ''}
+      ${city.slug === 'petropolis' && ['centro-historico','quitandinha','itaipava'].includes(slug) ? petrDeepCentre(base,lang,slug) : ''}
       <article class="bh-cluster">
         <h2>${text(t('Qué ver y cómo moverte', 'O que ver e como circular', 'What to see and how to get around'), lang)}</h2>
         <p class="bh-cluster-intro">${text(area.visit, lang)}</p>

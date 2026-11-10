@@ -504,5 +504,618 @@ export const petropolisBarriosProfundo = {
         }
       }
     ]
+  },
+  "quitandinha": {
+    "heading": {
+      "ES": "Quitandinha: más de ocho décadas de historias",
+      "PT": "Quitandinha: mais de oito décadas de histórias",
+      "EN": "Quitandinha: more than eight decades of stories"
+    },
+    "intro": {
+      "ES": "Del antiguo paisaje agrícola a la arquitectura del hotel-casino, la diplomacia de posguerra y las nuevas funciones del Centro Cultural Sesc. La historia del barrio va mucho más allá de la fachada del palacio.",
+      "PT": "Da paisagem rural ao hotel-cassino, à diplomacia do pós-guerra e às novas funções do Centro Cultural Sesc. A história do bairro vai muito além da fachada do palácio.",
+      "EN": "From its rural landscape to the hotel-casino, post-war diplomacy and today's Sesc Cultural Centre, the area's history goes far beyond the palace façade."
+    },
+    "chapters": [
+      {
+        "title": {
+          "ES": "Antes del palacio: el valle y la Fazenda Quitandinha",
+          "PT": "Antes do palácio: o vale e a Fazenda Quitandinha",
+          "EN": "Before the palace: the valley and Quitandinha estate"
+        },
+        "paragraphs": [
+          {
+            "ES": "El barrio no comenzó con el hotel. Las crónicas del Sesc recuerdan la Fazenda Quitandinha en el paisaje histórico de haciendas y caminos de la sierra. La llegada de un gran emprendimiento de ocio transformó el uso del suelo y la relación con los accesos a Petrópolis, pero no borró una historia previa de agricultura, tránsito y trabajo. Al observar el lago y la fachada, conviene imaginar también las transformaciones sociales que permitieron construir allí uno de los complejos hoteleros más ambiciosos de su tiempo.",
+            "PT": "O bairro não começou com o hotel. Registros do Sesc lembram a Fazenda Quitandinha na paisagem histórica de fazendas e caminhos serranos. A construção de um grande empreendimento de lazer mudou o uso da terra e os acessos a Petrópolis, sem apagar uma história anterior de agricultura, circulação e trabalho. Ao observar lago e fachada, vale imaginar também as transformações sociais que permitiram erguer ali um dos complexos hoteleiros mais ambiciosos da época.",
+            "EN": "The neighbourhood did not begin with the hotel. Sesc's histories identify Fazenda Quitandinha within an earlier landscape of estates and mountain routes. A huge leisure development transformed land use and approaches to Petrópolis without erasing the region's prior farming, travel and labour. The lakeside view should also prompt questions about the social transformations that made such an ambitious hospitality complex possible."
+          }
+        ],
+        "sources": [
+          "https://www.sescrio.org.br/noticias/cultura/sesc-rj-comemora-neste-fim-de-semana-78-anos-do-palacio-quitandinha/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Joaquim Rolla: la apuesta económica de 1944",
+          "PT": "Joaquim Rolla: a aposta econômica de 1944",
+          "EN": "Joaquim Rolla's 1944 economic gamble"
+        },
+        "paragraphs": [
+          {
+            "ES": "El empresario Joaquim Rolla imaginó un hotel-casino capaz de competir con grandes resorts internacionales. La piedra fundamental se colocó en 1941 y el complejo fue inaugurado en 1944, en plena Segunda Guerra Mundial. Reunía centenares de apartamentos, grandes salones y espacios de entretenimiento. La escala no era un detalle decorativo: expresaba una inversión en el turismo de lujo y en la idea de Petrópolis como prolongación del circuito social de Río. La investigación también debe reconocer el trabajo de quienes construyeron y mantuvieron el establecimiento.",
+            "PT": "O empresário Joaquim Rolla idealizou um hotel-cassino para competir com resorts internacionais. A pedra fundamental foi lançada em 1941 e o complexo abriu em 1944, durante a Segunda Guerra Mundial. Reunia centenas de apartamentos, grandes salões e espaços de entretenimento. A escala expressava um investimento no turismo de luxo e na proximidade social com o Rio de Janeiro. A história também exige reconhecer o trabalho de quem construiu e manteve o empreendimento.",
+            "EN": "Entrepreneur Joaquim Rolla envisioned a hotel-casino capable of competing with major international resorts. Its foundation stone was laid in 1941 and the complex opened in 1944 during the Second World War. Hundreds of rooms, vast halls and entertainment spaces expressed an investment in luxury tourism and Petrópolis's proximity to Rio society. Its history also belongs to the people who built, staffed and maintained it."
+          }
+        ],
+        "sources": [
+          "https://www.sescrio.org.br/noticias/cultura/sesc-rj-comemora-neste-fim-de-semana-78-anos-do-palacio-quitandinha/",
+          "https://atom-museuhistorico.museus.gov.br/index.php/hotel-quitandinha"
+        ]
+      },
+      {
+        "title": {
+          "ES": "La arquitectura normanda y los interiores de Dorothy Draper",
+          "PT": "A arquitetura normanda e os interiores de Dorothy Draper",
+          "EN": "Norman-style architecture and Dorothy Draper's interiors"
+        },
+        "paragraphs": [
+          {
+            "ES": "La fachada de inspiración normanda contrasta con los ambientes teatrales interiores. Fuentes turísticas de Petrópolis señalan a Luis Fossati y Alfredo Baeta Neves en el proyecto arquitectónico, mientras Dorothy Draper elaboró una decoración escenográfica asociada al glamour de Hollywood. Sus salones, escaleras, colores y dimensiones fueron concebidos para sorprender al visitante. No se trata de un castillo medieval: es una interpretación histórica del siglo XX, construida con técnicas modernas para producir una experiencia de espectáculo.",
+            "PT": "A fachada inspirada no estilo normando contrasta com os ambientes teatrais internos. Fontes turísticas de Petrópolis citam Luis Fossati e Alfredo Baeta Neves no projeto arquitetônico, enquanto Dorothy Draper criou a decoração cênica associada ao glamour hollywoodiano. Salões, escadas, cores e dimensões buscavam surpreender. Não é castelo medieval, mas interpretação historicista do século XX realizada com técnicas modernas para produzir espetáculo.",
+            "EN": "The Norman-inspired exterior contrasts with theatrical interiors. Petrópolis tourism sources credit Luis Fossati and Alfredo Baeta Neves with architectural design and Dorothy Draper with Hollywood-inspired decoration. Grand halls, stairs, colours and scale aimed to astonish visitors. Quitandinha is not a medieval castle: it is a twentieth-century historicist composition using modern construction to create spectacle."
+          }
+        ],
+        "sources": [
+          "https://www.pcvb.com.br/o-que-fazer/perfil/palacio-quitandinha"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1946: prohibición del juego y cambio de destino",
+          "PT": "1946: proibição dos jogos e mudança de rumo",
+          "EN": "1946: gambling ban and changing fortunes"
+        },
+        "paragraphs": [
+          {
+            "ES": "El decreto-ley 9.215 del 30 de abril de 1946 prohibió los juegos de azar en Brasil, desarticulando el principal negocio de un hotel-casino que llevaba apenas dos años funcionando. El edificio no desapareció: comenzó una complicada búsqueda de nuevos usos y fuentes de ingresos. Las dificultades financieras ayudan a comprender por qué una obra tan espectacular terminó compartiendo funciones residenciales y culturales. La historia de Quitandinha es también una lección sobre políticas públicas, decisiones empresariales y los riesgos económicos del turismo.",
+            "PT": "O decreto-lei 9.215, de 30 de abril de 1946, proibiu os jogos de azar no Brasil e afetou o negócio principal do hotel-cassino depois de apenas dois anos. O edifício não desapareceu: passou por uma longa busca de usos e receitas. As dificuldades ajudam a explicar por que um empreendimento tão grandioso acabou reunindo funções residenciais e culturais. A história do Quitandinha também fala de políticas públicas, decisões empresariais e riscos econômicos no turismo.",
+            "EN": "Federal decree-law 9,215 banned gambling in Brazil on 30 April 1946, disrupting the hotel's core business after only two years. The building did not disappear; a prolonged search for new uses and income began. Financial pressures help explain its later residential and cultural functions. Quitandinha's story is also about policy choices, commercial decisions and the economic risks of tourism."
+          }
+        ],
+        "sources": [
+          "https://www.sescrio.org.br/noticias/cultura/sesc-rj-comemora-neste-fim-de-semana-78-anos-do-palacio-quitandinha/",
+          "https://www.planalto.gov.br/ccivil_03/decreto-lei/del9215.htm"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1947: diplomacia internacional en Petrópolis",
+          "PT": "1947: diplomacia internacional em Petrópolis",
+          "EN": "1947: international diplomacy in Petrópolis"
+        },
+        "paragraphs": [
+          {
+            "ES": "En 1947 el antiguo hotel-casino recibió la Conferencia Interamericana de Asistencia Recíproca, presidida por Oswaldo Aranha y vinculada al Tratado Interamericano de Asistencia Recíproca, el Tratado de Río. El acontecimiento muestra que Petrópolis estuvo conectada con debates de seguridad y política continental después de la guerra. Conviene no confundir ese tratado de 1947 con la fundación de la Organización de los Estados Americanos en 1948: ambos integran la historia interamericana, pero son acontecimientos diferentes.",
+            "PT": "Em 1947, o antigo hotel-cassino recebeu a Conferência Interamericana de Assistência Recíproca, presidida por Oswaldo Aranha e ligada ao Tratado Interamericano de Assistência Recíproca, o Tratado do Rio. O evento mostra Petrópolis conectada à diplomacia e à segurança continental do pós-guerra. O tratado de 1947 não deve ser confundido com a fundação da Organização dos Estados Americanos em 1948: fazem parte de um contexto comum, mas são fatos distintos.",
+            "EN": "In 1947 the former hotel-casino hosted an inter-American conference chaired by Oswaldo Aranha and associated with the Inter-American Treaty of Reciprocal Assistance, or Rio Treaty. The occasion placed Petrópolis within post-war hemispheric diplomacy. The 1947 treaty must not be confused with the 1948 founding of the Organization of American States: related historical context, but different events."
+          }
+        ],
+        "sources": [
+          "https://www.sescrio.org.br/noticias/cultura/sesc-rj-comemora-neste-fim-de-semana-78-anos-do-palacio-quitandinha/",
+          "https://www.oas.org/juridico/english/treaties/b-29.html"
+        ]
+      },
+      {
+        "title": {
+          "ES": "De los concursos a las viviendas particulares",
+          "PT": "Dos concursos aos apartamentos particulares",
+          "EN": "From pageants to private apartments"
+        },
+        "paragraphs": [
+          {
+            "ES": "Los salones continuaron acogiendo bailes, espectáculos y concursos de Miss Brasil durante los años cincuenta. Según la historia publicada por el Sesc, en 1954 comenzó la venta de apartamentos a particulares, de modo que una parte del edificio asumió un carácter residencial; Joaquim Rolla vendió el establecimiento en 1963. Hoy es imprescindible distinguir los espacios históricos que se pueden visitar de los que pertenecen a viviendas privadas. Una fotografía de un antiguo salón no equivale a permiso de entrada.",
+            "PT": "Os salões continuaram recebendo bailes, espetáculos e concursos de Miss Brasil nos anos 1950. Segundo a história publicada pelo Sesc, a venda de apartamentos a particulares começou em 1954, transformando parte do prédio em espaço residencial; Joaquim Rolla vendeu o empreendimento em 1963. Hoje é indispensável diferenciar espaços culturais visitáveis de moradias particulares. Fotografia de um salão antigo não significa autorização de entrada.",
+            "EN": "The halls continued hosting balls, performances and Miss Brasil pageants in the 1950s. According to Sesc's history, private apartment sales began in 1954 and part of the building took on a residential character; Joaquim Rolla sold the property in 1963. Visitors must now distinguish open cultural rooms from private homes. An archival photograph of a grand interior does not grant visitor access."
+          }
+        ],
+        "sources": [
+          "https://www.sescrio.org.br/noticias/cultura/sesc-rj-comemora-neste-fim-de-semana-78-anos-do-palacio-quitandinha/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "El Sesc, la cultura y la memoria afrobrasileña",
+          "PT": "O Sesc, a cultura e a memória afro-brasileira",
+          "EN": "Sesc, culture and Afro-Brazilian memory"
+        },
+        "paragraphs": [
+          {
+            "ES": "El Sesc asumió áreas del complejo en 2007 y amplió progresivamente su función cultural. En 2023 presentó una nueva etapa del Centro Cultural Sesc Quitandinha, con exhibiciones, artes y actividades educativas. La exposición 'Da Kutanda ao Quitandinha' invitó a observar el territorio y sus memorias, incluidas narraciones afrobrasileñas que las historias del casino solían dejar al margen. El edificio adquiere así otro sentido: conservar patrimonio no es congelar su antiguo lujo, sino abrir espacios para investigar, crear y participar.",
+            "PT": "O Sesc assumiu áreas do complexo em 2007 e ampliou sua função cultural. Em 2023 apresentou nova etapa do Centro Cultural Sesc Quitandinha, com exposições, arte e atividades educativas. A mostra 'Da Kutanda ao Quitandinha' propôs olhar o território e suas memórias, inclusive narrativas afro-brasileiras pouco presentes na história tradicional do cassino. O edifício ganha novo sentido: preservar patrimônio não é congelar o luxo antigo, mas abrir espaço para pesquisa, criação e participação.",
+            "EN": "Sesc assumed cultural areas of the complex in 2007 and gradually expanded their use. A renewed cultural centre was presented in 2023 with exhibitions, art and education. The exhibition 'Da Kutanda ao Quitandinha' explored the surrounding territory and Afro-Brazilian memories often absent from conventional casino histories. Heritage conservation can thus support research, creative work and public participation rather than merely preserving old luxury."
+          }
+        ],
+        "sources": [
+          "https://cultura.sescrio.org.br/espacos-culturais/centro-cultural-sesc-quitandinha",
+          "https://www.sescrio.org.br/noticias/cultura/ccsq-exposicao-no-centro-cultural-sesc-quitandinha-celebra-os-80-anos-do-espaco/"
+        ]
+      }
+    ],
+    "timeline": [
+      [
+        "Antes de 1940",
+        {
+          "ES": "Haciendas y rutas de montaña anteceden al hotel.",
+          "PT": "Fazendas e caminhos serranos antecedem o hotel.",
+          "EN": "Estates and mountain routes predate the hotel."
+        }
+      ],
+      [
+        "1941",
+        {
+          "ES": "Piedra fundamental del gran complejo.",
+          "PT": "Pedra fundamental do grande complexo.",
+          "EN": "Foundation stone of the development."
+        }
+      ],
+      [
+        "1944",
+        {
+          "ES": "Se inaugura el hotel-casino.",
+          "PT": "É inaugurado o hotel-cassino.",
+          "EN": "The hotel-casino opens."
+        }
+      ],
+      [
+        "1946",
+        {
+          "ES": "Prohibición nacional del juego.",
+          "PT": "Proibição nacional dos jogos.",
+          "EN": "National gambling ban."
+        }
+      ],
+      [
+        "1947",
+        {
+          "ES": "Conferencia interamericana.",
+          "PT": "Conferência interamericana.",
+          "EN": "Inter-American conference."
+        }
+      ],
+      [
+        "1954",
+        {
+          "ES": "Comienza la venta de apartamentos privados.",
+          "PT": "Começa a venda de apartamentos particulares.",
+          "EN": "Private apartment sales begin."
+        }
+      ],
+      [
+        "1963",
+        {
+          "ES": "Rolla vende el emprendimiento.",
+          "PT": "Rolla vende o empreendimento.",
+          "EN": "Rolla sells the property."
+        }
+      ],
+      [
+        "2007",
+        {
+          "ES": "El Sesc asume áreas culturales.",
+          "PT": "O Sesc assume áreas culturais.",
+          "EN": "Sesc takes over cultural spaces."
+        }
+      ],
+      [
+        "2023",
+        {
+          "ES": "Nueva etapa del centro cultural.",
+          "PT": "Nova etapa do centro cultural.",
+          "EN": "Renewed cultural centre opens."
+        }
+      ]
+    ],
+    "stops": [
+      {
+        "name": "Lago do Quitandinha",
+        "note": {
+          "ES": "Observa la escala del palacio desde las áreas públicas habilitadas.",
+          "PT": "Observe a escala do palácio nas áreas públicas permitidas.",
+          "EN": "View the palace from public areas."
+        },
+        "location": "Lago Quitandinha Petrópolis RJ Brasil",
+        "route": "naturaleza/lago-quitandinha/"
+      },
+      {
+        "name": "Centro Cultural Sesc Quitandinha",
+        "note": {
+          "ES": "Consulta previamente exposiciones, reservas y visitas.",
+          "PT": "Confira exposições, reservas e visitas antes de ir.",
+          "EN": "Check exhibitions, reservations and tours beforehand."
+        },
+        "location": "Centro Cultural Sesc Quitandinha Avenida Joaquim Rolla Petrópolis RJ Brasil",
+        "route": "cultura/palacio-quitandinha/"
+      },
+      {
+        "name": "Avenida Joaquim Rolla",
+        "note": {
+          "ES": "Identifica el acceso cultural sin entrar a espacios residenciales.",
+          "PT": "Localize o acesso cultural sem entrar em áreas residenciais.",
+          "EN": "Locate the cultural entrance, not residential access."
+        },
+        "location": "Avenida Joaquim Rolla 2 Petrópolis RJ Brasil"
+      },
+      {
+        "name": "Parque Crémerie",
+        "note": {
+          "ES": "Un paisaje diferente para combinar con el recorrido.",
+          "PT": "Outra paisagem para combinar com a visita.",
+          "EN": "A contrasting landscape to add to the visit."
+        },
+        "location": "Parque Crémerie Petrópolis RJ Brasil",
+        "route": "familia/parque-cremerie/"
+      }
+    ],
+    "bibliography": [
+      {
+        "label": "Sesc RJ · Histórico do Palácio Quitandinha",
+        "url": "https://www.sescrio.org.br/noticias/cultura/sesc-rj-comemora-neste-fim-de-semana-78-anos-do-palacio-quitandinha/",
+        "why": {
+          "ES": "Cronología, vida cultural y funciones residenciales.",
+          "PT": "Cronologia, cultura e uso residencial.",
+          "EN": "Chronology, cultural and residential uses."
+        }
+      },
+      {
+        "label": "Centro Cultural Sesc Quitandinha · Información oficial",
+        "url": "https://cultura.sescrio.org.br/espacos-culturais/centro-cultural-sesc-quitandinha",
+        "why": {
+          "ES": "Programación de exposiciones y actividades.",
+          "PT": "Programação de exposições e atividades.",
+          "EN": "Official exhibition and event information."
+        }
+      },
+      {
+        "label": "Museu Histórico Nacional · Coleção Hotel Quitandinha",
+        "url": "https://atom-museuhistorico.museus.gov.br/index.php/hotel-quitandinha",
+        "why": {
+          "ES": "Inventario fotográfico de 1945; imágenes sujetas a derechos.",
+          "PT": "Catálogo de fotografias de 1945; direitos de reprodução à parte.",
+          "EN": "Catalogue of 1945 images; reuse permissions separate."
+        }
+      },
+      {
+        "label": "Instituto Histórico de Petrópolis · Uma história do Quitandinha",
+        "url": "https://ihp.org.br/uma-historia-do-quitandinha/",
+        "why": {
+          "ES": "Investigación local sobre Joaquim Rolla y el hotel.",
+          "PT": "Pesquisa local sobre Joaquim Rolla e o hotel.",
+          "EN": "Local historical research on the hotel."
+        }
+      },
+      {
+        "label": "Sesc RJ · Da Kutanda ao Quitandinha",
+        "url": "https://www.sescrio.org.br/noticias/cultura/ccsq-exposicao-no-centro-cultural-sesc-quitandinha-celebra-os-80-anos-do-espaco/",
+        "why": {
+          "ES": "Memorias del territorio e interpretación cultural.",
+          "PT": "Memórias do território e interpretação cultural.",
+          "EN": "Territorial memories and cultural interpretation."
+        }
+      },
+      {
+        "label": "Petrópolis CVB · Palácio Quitandinha",
+        "url": "https://www.pcvb.com.br/o-que-fazer/perfil/palacio-quitandinha",
+        "why": {
+          "ES": "Autores y estilos de su proyecto arquitectónico.",
+          "PT": "Autores e estilos do projeto arquitetônico.",
+          "EN": "Architecture and design credits."
+        }
+      }
+    ]
+  },
+  "itaipava": {
+    "heading": {
+      "ES": "Itaipava: historia del valle del Piabanha",
+      "PT": "Itaipava: história do vale do Piabanha",
+      "EN": "Itaipava: history of the Piabanha valley"
+    },
+    "intro": {
+      "ES": "Mucho antes de los restaurantes y hospedajes, Itaipava fue un territorio de caminos, haciendas, alfarerías y actividad cultural. Su historia reúne toponimia indígena, política, poetas y transformaciones del paisaje.",
+      "PT": "Muito antes dos restaurantes e hotéis, Itaipava era território de caminhos, fazendas, olarias e atividades culturais. Sua história reúne nome indígena, política, poetas e mudanças da paisagem.",
+      "EN": "Long before today's restaurants and hotels, Itaipava had roads, estates, brickworks and cultural life. Its story includes an Indigenous-derived name, politics, poets and a changing landscape."
+    },
+    "chapters": [
+      {
+        "title": {
+          "ES": "Un nombre de origen indígena",
+          "PT": "Um nome de origem indígena",
+          "EN": "An Indigenous-derived place name"
+        },
+        "paragraphs": [
+          {
+            "ES": "El Instituto Histórico de Petrópolis explica Itaipava a partir de la imagen de piedras que cruzan un río y provocan una pequeña caída de agua. El nombre conserva la importancia de las características naturales del valle del Piabanha, cuyo curso condicionó asentamientos y comunicaciones. Conviene atribuir esta interpretación a la investigación consultada, evitando etimologías populares que no indican documentos. El distrito actual ocupa un territorio mucho mayor que el lugar específico al que pudo referirse originalmente el topónimo.",
+            "PT": "O Instituto Histórico de Petrópolis explica Itaipava pela imagem de pedras que atravessam o rio e provocam pequena queda d'água. O nome destaca a importância da paisagem do Piabanha, que condicionou povoamentos e circulação. É melhor atribuir essa interpretação à pesquisa consultada do que criar etimologias populares sem documentos. O distrito atual ocupa território bem maior que o ponto original associado ao topônimo.",
+            "EN": "The Petrópolis Historical Institute links the name Itaipava to rocks crossing a river and creating a small drop in the current. It preserves the importance of the Piabanha valley's waterways for settlement and movement. This interpretation should be attributed to the research rather than presented as an unquestioned literal translation. Today's district covers far more land than any original river feature."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/anotacoes-sobre-a-historia-de-itaipava/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Sesmarias y haciendas antes de la ciudad imperial",
+          "PT": "Sesmarias e fazendas antes da cidade imperial",
+          "EN": "Land grants and estates before the Imperial City"
+        },
+        "paragraphs": [
+          {
+            "ES": "Los estudios sobre Itaipava registran antiguas concesiones de tierra que originaron haciendas como Magé y São José do Piabanha. Eran espacios de producción agrícola, relaciones de trabajo y vida religiosa mucho antes de que el veraneo se volviera atractivo. En la Fazenda Magé existió una capilla dedicada a Nossa Senhora do Carmo abierta al culto en 1784. La guía debe explicar las estructuras económicas y sociales rurales sin presentarlas como simples decorados campestres ni asumir que las propiedades privadas son visitables.",
+            "PT": "Pesquisas sobre Itaipava registram antigas concessões de terras que deram origem a fazendas como Magé e São José do Piabanha. Eram espaços de agricultura, relações de trabalho e vida religiosa muito antes do veraneio. Na Fazenda Magé havia capela dedicada a Nossa Senhora do Carmo, aberta ao culto em 1784. A guia deve explicar a economia e as relações sociais rurais sem tratar as fazendas como mero cenário bucólico nem presumir acesso público.",
+            "EN": "Studies of Itaipava document old land grants that gave rise to estates such as Magé and São José do Piabanha. These were places of agriculture, labour relations and religious life long before summer tourism. A chapel dedicated to Nossa Senhora do Carmo at Fazenda Magé opened for worship in 1784. A careful guide explores rural social and economic life without treating estates as picturesque scenery or assuming private property is open."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/subsidios-para-uma-historia-de-itaipava/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "La Estrada União e Indústria de 1858",
+          "PT": "A Estrada União e Indústria de 1858",
+          "EN": "The 1858 União e Indústria road"
+        },
+        "paragraphs": [
+          {
+            "ES": "El primer tramo de la carretera entre Petrópolis y Pedro do Rio fue inaugurado el 18 de marzo de 1858. La ruta vinculada al proyecto de Mariano Procópio Ferreira Lage contribuyó decisivamente a la circulación de mercancías y viajeros. Los estudios históricos describen un puesto de barrera cerca del río Santo Antônio. Con el tiempo, las mejoras hacia Teresópolis y el ferrocarril reforzaron el desarrollo. La carretera actual sigue siendo una referencia territorial, aunque no todos sus tramos conserven el aspecto ni el trazado del siglo XIX.",
+            "PT": "O primeiro trecho da estrada entre Petrópolis e Pedro do Rio foi inaugurado em 18 de março de 1858. O projeto ligado a Mariano Procópio Ferreira Lage ajudou muito na circulação de mercadorias e viajantes. Estudos citam uma barreira de cobrança perto do rio Santo Antônio. Depois, as melhorias rumo a Teresópolis e a ferrovia reforçaram o crescimento. A estrada atual continua importante, mas nem todo trecho preserva a aparência ou o traçado oitocentista.",
+            "EN": "The first road section between Petrópolis and Pedro do Rio opened on 18 March 1858. Mariano Procópio Ferreira Lage's road project encouraged trade and travel through the valley. Historical studies describe a toll station near the Santo Antônio River. Later road improvements towards Teresópolis and railway links aided development. Today's highway remains a useful geographical reference, though not every section retains its nineteenth-century appearance or course."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/anotacoes-sobre-a-historia-de-itaipava/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1892: Itaipava se convierte en el tercer distrito",
+          "PT": "1892: Itaipava torna-se o terceiro distrito",
+          "EN": "1892: Itaipava becomes the third district"
+        },
+        "paragraphs": [
+          {
+            "ES": "El decreto nº 1 de 8 de mayo de 1892 reconoció Itaipava como tercer distrito de Petrópolis. La fecha corresponde a la organización administrativa, no al comienzo de su población, que ya tenía agricultura, caminos y servicios. Los registros históricos citan representantes locales ocupados con escuelas, puentes y cementerios: una vida pública que pocas guías turísticas describen. También es fundamental explicar que el distrito y sus diversas localidades no equivalen a una sola calle; elegir una dirección concreta cambia mucho la planificación.",
+            "PT": "O decreto nº 1, de 8 de maio de 1892, reconheceu Itaipava como terceiro distrito de Petrópolis. Trata-se de marco administrativo, não do início do povoamento, que já tinha agricultura, caminhos e serviços. Registros mostram representantes locais discutindo escolas, pontes e cemitérios: uma vida pública ausente de muitos roteiros. Também é importante explicar que distrito e localidades não equivalem a uma rua só; escolher o endereço certo muda o planejamento.",
+            "EN": "Decree no. 1 of 8 May 1892 recognised Itaipava as the third district of Petrópolis. It marks administration, not the start of settlement: agriculture, transport and services were already there. Historical records show local representatives discussing schools, bridges and cemeteries, a civic life often absent from tourist guides. The district is not a single commercial street; the exact destination matters when planning."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/anotacoes-sobre-a-historia-de-itaipava/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "1926: de la fabricación de ladrillos al arte",
+          "PT": "1926: da produção de tijolos à arte",
+          "EN": "1926: from brickmaking to art"
+        },
+        "paragraphs": [
+          {
+            "ES": "En 1926, Alberto Augusto da Costa y el artista francés Henri Gonot transformaron una alfarería existente en una iniciativa de cerámica artística. Estudiaron referencias de la cerámica marajoara y desarrollaron vasos, paneles, bustos, azulejos y otras piezas. La investigación del IHP cita una nota de 1930 sobre el establecimiento y relata la expansión de su producción hacia Petrópolis y Río. Es un capítulo de intercambio cultural e industria creativa, con la precaución de no confundir reinterpretaciones modernas con autoría indígena tradicional.",
+            "PT": "Em 1926, Alberto Augusto da Costa e o artista francês Henri Gonot transformaram uma olaria numa iniciativa de cerâmica artística. Estudaram referências da cerâmica marajoara e fizeram vasos, painéis, bustos, azulejos e outras peças. A pesquisa do IHP cita reportagem de 1930 e relata circulação da produção em Petrópolis e no Rio. É um capítulo de encontro cultural e atividade criativa, sem confundir releituras modernas com autoria indígena tradicional.",
+            "EN": "In 1926 Alberto Augusto da Costa and French artist Henri Gonot turned an existing brickworks into an artistic ceramics enterprise. They studied Marajoara references and produced vessels, panels, busts and tiles. IHP research cites a 1930 newspaper account and documents sales and displays in Petrópolis and Rio. This is a story of creative industry and cultural reinterpretation, not proof of traditional Indigenous authorship of the modern works."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/anotacoes-sobre-a-historia-de-itaipava/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "Nilo Peçanha, el poeta Raul de Leoni y el verano serrano",
+          "PT": "Nilo Peçanha, o poeta Raul de Leoni e o veraneio",
+          "EN": "Nilo Peçanha, Raul de Leoni and mountain retreats"
+        },
+        "paragraphs": [
+          {
+            "ES": "El político Nilo Peçanha transformó una antigua propiedad y contribuyó a atraer visitantes de la vida pública brasileña hacia Itaipava. El poeta Raul de Leoni, nacido en Petrópolis, murió en 1926 en su casa Vila Serena de Itaipava, posteriormente demolida. Este patrimonio desaparecido recuerda que no todas las historias conservan edificios visitables. Las residencias de veraneo, las relaciones sociales y los cambios de uso del suelo explican la transición desde un pequeño núcleo agrícola hacia un distrito más asociado al descanso y la cultura.",
+            "PT": "O político Nilo Peçanha transformou uma propriedade rural e ajudou a atrair visitantes ligados à vida pública brasileira. O poeta Raul de Leoni, nascido em Petrópolis, faleceu em 1926 na casa Vila Serena em Itaipava, posteriormente demolida. O patrimônio desaparecido lembra que nem toda história conserva edifício visitável. Casas de veraneio e mudanças no uso do solo explicam a passagem de pequeno núcleo agrícola a distrito de lazer e cultura.",
+            "EN": "Politician Nilo Peçanha transformed a rural property and helped attract prominent visitors to Itaipava. Poet Raul de Leoni, born in Petrópolis, died in 1926 at his Itaipava home Vila Serena, which was later demolished. Lost heritage is as important to explain as surviving buildings. Holiday residences and changing land use helped transform a small agricultural settlement into a district associated with leisure and culture."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/anotacoes-sobre-a-historia-de-itaipava/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "El Castelo de Itaipava no es un castillo imperial",
+          "PT": "O Castelo de Itaipava não é castelo imperial",
+          "EN": "Castelo de Itaipava is not an imperial castle"
+        },
+        "paragraphs": [
+          {
+            "ES": "El Castelo de Itaipava fue construido en el siglo XX para el barón Jayme Smith de Vasconcellos sobre tierras que habían pertenecido a Nilo Peçanha. Su apariencia medieval europea responde a elecciones historicistas posteriores al Imperio de Brasil. La investigación del IHP lo sitúa dentro de una etapa de nuevas propiedades y veraneantes. Como hoy funciona con hospedaje, eventos y actividades privadas, la visita a ciertos sectores exige confirmación; contemplar la fachada no autoriza entrar a los interiores.",
+            "PT": "O Castelo de Itaipava foi construído no século XX para o barão Jayme Smith de Vasconcellos em terras antes pertencentes a Nilo Peçanha. A aparência medieval europeia é escolha historicista posterior ao Império do Brasil. O IHP o situa numa etapa de novas propriedades de veraneio. Como hoje abriga hospedagem, eventos e usos privados, a visita a determinados espaços depende de confirmação; observar a fachada não dá acesso ao interior.",
+            "EN": "Castelo de Itaipava was built in the twentieth century for Baron Jayme Smith de Vasconcellos on land once associated with Nilo Peçanha. Its medieval European appearance reflects a revivalist choice long after Brazil's Empire. IHP research places it in the growth of summer residences. Today's hospitality and private-event functions mean access to particular spaces must be confirmed rather than assumed."
+          }
+        ],
+        "sources": [
+          "https://ihp.org.br/anotacoes-sobre-a-historia-de-itaipava/"
+        ]
+      },
+      {
+        "title": {
+          "ES": "El parque municipal y la ciudad contemporánea",
+          "PT": "O parque municipal e a cidade contemporânea",
+          "EN": "The municipal park and contemporary district"
+        },
+        "paragraphs": [
+          {
+            "ES": "El Parque Municipal Prefeito Paulo Rattes representa un capítulo distinto: la creación de espacios públicos para recreación y convivencia. Una investigación académica de la Universidade Federal Fluminense sitúa su inauguración en 1996. Hoy los visitantes combinan parque, comercio, gastronomía, alojamientos y rutas a otros valles, pero sus puntos están muy dispersos. Recomiendo organizar Itaipava por sectores, comprobar eventos y condiciones de acceso y prever transporte de vuelta, especialmente desde propiedades alejadas de la carretera principal.",
+            "PT": "O Parque Municipal Prefeito Paulo Rattes representa outra etapa: espaços públicos de lazer e convivência. Pesquisa acadêmica da Universidade Federal Fluminense registra a inauguração em 1996. Hoje os visitantes combinam parque, comércio, gastronomia, hospedagens e rotas a outros vales, mas as paradas ficam espalhadas. Vale organizar o roteiro por região, conferir eventos e acessos e planejar transporte de volta, sobretudo em propriedades afastadas da estrada principal.",
+            "EN": "Parque Municipal Prefeito Paulo Rattes represents another phase: public recreation and gathering space. An academic study from Universidade Federal Fluminense dates its inauguration to 1996. Today visitors combine the park, commerce, dining, accommodation and journeys into neighbouring valleys, but the stops are widely dispersed. Plan by area, verify events and access, and arrange return transport when visiting remote venues."
+          }
+        ],
+        "sources": [
+          "https://app.uff.br/riuff/bitstream/handle/1/23988/Monica%20Caldas.pdf?isAllowed=y&sequence=1"
+        ]
+      }
+    ],
+    "timeline": [
+      [
+        "1784",
+        {
+          "ES": "Capilla histórica de Fazenda Magé.",
+          "PT": "Capela histórica na Fazenda Magé.",
+          "EN": "Historic chapel at Fazenda Magé."
+        }
+      ],
+      [
+        "1858",
+        {
+          "ES": "Se inaugura el tramo local de União e Indústria.",
+          "PT": "Inaugura-se trecho da União e Indústria.",
+          "EN": "Local União e Indústria road section opens."
+        }
+      ],
+      [
+        "1892",
+        {
+          "ES": "Creación administrativa del tercer distrito.",
+          "PT": "Criação administrativa do terceiro distrito.",
+          "EN": "Administrative recognition of the third district."
+        }
+      ],
+      [
+        "Déc. 1920",
+        {
+          "ES": "Caminos, veraneo y artesanías transforman el valle.",
+          "PT": "Estradas, veraneio e artesanato transformam o vale.",
+          "EN": "Roads, tourism and crafts transform the valley."
+        }
+      ],
+      [
+        "1926",
+        {
+          "ES": "Se organiza una cerámica artística y fallece Raul de Leoni.",
+          "PT": "Surge cerâmica artística e falece Raul de Leoni.",
+          "EN": "Artistic ceramics begins; Raul de Leoni dies."
+        }
+      ],
+      [
+        "Déc. 1930",
+        {
+          "ES": "El castillo se convierte en referencia arquitectónica.",
+          "PT": "Castelo vira referência arquitetônica.",
+          "EN": "The castle becomes an architectural landmark."
+        }
+      ],
+      [
+        "1996",
+        {
+          "ES": "Apertura del parque municipal según estudio académico.",
+          "PT": "Inauguração do parque segundo pesquisa acadêmica.",
+          "EN": "Municipal park opens, according to an academic study."
+        }
+      ],
+      [
+        "Hoy",
+        {
+          "ES": "Convivencia de patrimonio, servicios y naturaleza.",
+          "PT": "Convivência de patrimônio, serviços e natureza.",
+          "EN": "Heritage, services and nature coexist."
+        }
+      ]
+    ],
+    "stops": [
+      {
+        "name": "Parque Municipal Prefeito Paulo Rattes",
+        "note": {
+          "ES": "Espacio de recreación; confirma apertura y agenda.",
+          "PT": "Espaço de lazer; confirme abertura e agenda.",
+          "EN": "Recreation area; check access and events."
+        },
+        "location": "Parque Municipal Prefeito Paulo Rattes Itaipava Petrópolis RJ Brasil",
+        "route": "familia/parque-itaipava/"
+      },
+      {
+        "name": "Castelo de Itaipava",
+        "note": {
+          "ES": "Arquitectura del siglo XX; confirma qué espacios son visitables.",
+          "PT": "Arquitetura do século XX; confira espaços visitáveis.",
+          "EN": "Twentieth-century architecture; check public access."
+        },
+        "location": "Castelo de Itaipava Petrópolis RJ Brasil",
+        "route": "cultura/castelo-itaipava/"
+      },
+      {
+        "name": "Estrada União e Indústria",
+        "note": {
+          "ES": "Ruta histórica de conexión, no circuito peatonal continuo.",
+          "PT": "Eixo histórico de ligação, não rota a pé contínua.",
+          "EN": "Historic transport corridor, not a continuous walking route."
+        },
+        "location": "Estrada União e Indústria Itaipava Petrópolis RJ Brasil",
+        "route": "transportes/entre-distritos/"
+      },
+      {
+        "name": "Terminal Itaipava",
+        "note": {
+          "ES": "Referencia para conexiones y regreso.",
+          "PT": "Referência para ligações e retorno.",
+          "EN": "Useful for connections and return transport."
+        },
+        "location": "Terminal Itaipava Petrópolis RJ Brasil",
+        "route": "transportes/entre-distritos/"
+      },
+      {
+        "name": "Vale do Cuiabá",
+        "note": {
+          "ES": "Paisaje de valle; planifica visita a un punto concreto.",
+          "PT": "Paisagem serrana; planeje destino específico.",
+          "EN": "Mountain valley; plan a specific destination."
+        },
+        "location": "Vale do Cuiabá Itaipava Petrópolis RJ Brasil"
+      }
+    ],
+    "bibliography": [
+      {
+        "label": "Jeronymo Ferreira Alves Netto · Anotações sobre a história de Itaipava",
+        "url": "https://ihp.org.br/anotacoes-sobre-a-historia-de-itaipava/",
+        "why": {
+          "ES": "Estudio sobre nombre, cerámica, distrito, políticos y poeta.",
+          "PT": "Pesquisa sobre nome, cerâmica, distrito, políticos e poeta.",
+          "EN": "Historical research on place name, ceramics, politics and poet."
+        }
+      },
+      {
+        "label": "Jeronymo Ferreira Alves Netto · Subsídios para uma história de Itaipava",
+        "url": "https://ihp.org.br/subsidios-para-uma-historia-de-itaipava/",
+        "why": {
+          "ES": "Fuentes sobre haciendas y antigua propiedad rural.",
+          "PT": "Fontes sobre fazendas e antiga propriedade rural.",
+          "EN": "Sources on estates and early landownership."
+        }
+      },
+      {
+        "label": "Frei Estanislau Schaette · Fazendeiros e fazendas de Serra Acima (Anuário do Museu Imperial, 1948)",
+        "url": "https://ihp.org.br/subsidios-para-uma-historia-de-itaipava/",
+        "why": {
+          "ES": "Obra citada por las investigaciones del IHP.",
+          "PT": "Obra citada nas pesquisas do IHP.",
+          "EN": "Older historical work cited by the IHP."
+        }
+      },
+      {
+        "label": "Universidade Federal Fluminense · Estudo sobre expansão urbana de Itaipava",
+        "url": "https://app.uff.br/riuff/bitstream/handle/1/23988/Monica%20Caldas.pdf?isAllowed=y&sequence=1",
+        "why": {
+          "ES": "Investigación académica sobre desarrollo y parque.",
+          "PT": "Pesquisa acadêmica sobre desenvolvimento e parque.",
+          "EN": "Academic research on development and public park."
+        }
+      }
+    ]
   }
 };
