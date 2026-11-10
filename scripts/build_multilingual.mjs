@@ -82,7 +82,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   // Preserve the existing approved pages outside the neighbourhood section.
   if (file === 'scripts/regional_neighborhoods.mjs' ||
       file === 'assets/js/translations/destinos/barrios-regionales.js') {
-   for (const route of regionalRoutes) if (/^\\/destinos\\/[^/]+\\/barrios\\//.test(route)) routes.add(route);
+   for (const route of regionalRoutes) if (route.startsWith('/destinos/') && route.includes('/barrios/')) routes.add(route);
    continue;
   }
   if (file === 'assets/js/translations/destinos/petropolis-barrios-archivo.js' ||
