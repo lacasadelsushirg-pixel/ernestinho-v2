@@ -407,6 +407,7 @@ if(errors.length)throw Error(JSON.stringify(errors));
 if(previous){const changed=new Set([...manifest.map(r=>r.route),...prunedRoutes]);manifest.push(...previous.routes.filter(r=>!changed.has(r.route)&&!deletedSourceRoutes.has(r.source)));}
 manifest.sort((a,b)=>a.route.localeCompare(b.route));
 const isPilot=previous?previous.pilot:!!pilot;
-fs.writeFileSync(path.join(out,'locale-manifest.json'),JSON.stringify({sourceDocuments:files.length,indexablePerLanguage:indexableRoutes.size,generated:manifest.length,pilot:isPilot,sourceCommit:currentCommit,routes:manifest},null,2));
-if(!isPilot)execFileSync('python3',[path.join(root,'scripts/build_sitemap.py'),'--root',out],{stdio:'inherit'});
+const outputManifest=path.join(out,'locale-manifest.json');
+fs.writeFileSync(outputManifest,JSON.stringify({sourceDocuments:files.length,indexablePerLanguage:indexableRoutes.size,generated:manifest.length,pilot:isPilot,sourceCommit:currentCommit,routes:manifest},null,2));
+if(!isPilot)execFileSync('python3',[path.join(root,'scripts/build_sitemap.py'),'--root',out,'--manifest',outputManifest],{stdio:'inherit'});
 console.log(`Complete: ${manifest.length} generated HTML; ${indexableRoutes.size} indexable URLs per language.`);
