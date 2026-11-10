@@ -117,11 +117,12 @@
     },
     {
       "name": "Chocolates Katz",
-      "source": "https://www.pcvb.com.br/onde-comer",
-      "sourceType": "directorio-turistico",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "source": "https://katzchocolates.com.br/onde-encontrar/",
+      "sourceType": "sitio-oficial",
+      "status": "verificado-texto-pendiente",
+      "areas": ["Centro Histórico"],
+      "address": "Rua Barão do Amazonas, 85 · Loja de fábrica",
+      "verifiedOn": "2026-11-10"
     },
     {
       "name": "Chopperia Luka’s",
@@ -243,11 +244,12 @@
     },
     {
       "name": "Locanda Centro Histórico",
-      "source": "https://www.pcvb.com.br/onde-comer",
-      "sourceType": "directorio-turistico",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "source": "https://pcvb.com.br/upload/pdf/Participantes-do-XVII-Festival-de-Fondue-Caldos-e-Cremes-2026.pdf",
+      "sourceType": "festival-2026",
+      "status": "verificado-texto-pendiente",
+      "areas": ["Centro Histórico"],
+      "address": "Avenida Ipiranga, 439",
+      "verifiedOn": "2026-11-10"
     },
     {
       "name": "Luka’s Bingen",
@@ -309,19 +311,22 @@
     },
     {
       "name": "Princesa Isabel Gourmet",
-      "source": "https://www.pcvb.com.br/onde-comer",
-      "sourceType": "directorio-turistico",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "source": "https://princesaisabelgourmet.com.br/restaurante/localizacao/",
+      "sourceType": "sitio-oficial",
+      "status": "ficha-profunda-trilingue",
+      "areas": ["Centro Histórico"],
+      "address": "Avenida Dom Pedro I, 270",
+      "verifiedOn": "2026-11-10",
+      "chapterCharacters": { "ES": 4038, "PT": 3734, "EN": 3659 }
     },
     {
       "name": "Restaurante Bohemia",
-      "source": "https://www.pcvb.com.br/onde-comer",
-      "sourceType": "directorio-turistico",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "source": "https://www.portalgiro.com/noticia/18245/petropolis/giro-serra/bar-da-cervejaria-bohemia-encerra-as-atividades-em-petropolis.html",
+      "sourceType": "prensa-local",
+      "status": "cerrado-historico",
+      "areas": ["Centro Histórico"],
+      "address": "Rua Alfredo Pachá, 166 (histórica)",
+      "reviewedOn": "2026-11-10"
     },
     {
       "name": "Saint Café Itaipava",

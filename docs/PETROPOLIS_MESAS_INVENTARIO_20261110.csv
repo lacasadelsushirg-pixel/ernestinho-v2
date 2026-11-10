@@ -6,9 +6,9 @@ P004,Gastronomía,Casa Pellegrini,Centro Histórico,B,https://soupetropolis.com/
 P005,Gastronomía,Casa D’Angelo,Centro Histórico,A,https://pcvb.com.br/onde-comer,verificado,texto terminado y traducido,2026-11-10,"Rua do Imperador, 700",https://mercoserra.org.br/associados/detalhe/casa-dangelo-/,Misma sede que P206.
 P006,Gastronomía,Restaurante do Ton,Centro Histórico,A,https://www.browniedoton.com.br/restaurante,pendiente,Profunda actual,,,,
 P007,Gastronomía,Bordeaux Vinhos Ipiranga,Centro Histórico,C,https://pcvb.com.br/onde-comer,pendiente,Profunda actual,,,,Corresponde a Ipiranga. P078 es la sede candidata de Itaipava.
-P008,Gastronomía,Locanda Centro Histórico,Centro Histórico,A,https://pcvb.com.br/onde-comer,pendiente,Nueva investigación,,,,Separar de P158 Locanda Della Mimosa y de las otras sedes de Locanda.
-P009,Gastronomía,Princesa Isabel Gourmet,Centro Histórico,A,https://pcvb.com.br/onde-comer,pendiente,Nueva investigación,,,,
-P010,Gastronomía,Restaurante Bohemia,Centro Histórico,A,https://pcvb.com.br/onde-comer,pendiente,Nueva investigación,,,,
+P008,Gastronomía,Locanda Centro Histórico,Centro Histórico,A,https://pcvb.com.br/onde-comer,verificado,texto pendiente,2026-11-10,"Avenida Ipiranga, 439",https://pcvb.com.br/upload/pdf/Participantes-do-XVII-Festival-de-Fondue-Caldos-e-Cremes-2026.pdf,Sede del Centro. Separar de P158 y Locanda Bela Vista.
+P009,Gastronomía,Princesa Isabel Gourmet,Centro Histórico,A,https://pcvb.com.br/onde-comer,verificado,texto terminado y traducido,2026-11-10,"Avenida Dom Pedro I, 270",https://princesaisabelgourmet.com.br/restaurante/localizacao/,Carta oficial de mayo de 2026 y festival del mismo año.
+P010,Gastronomía,Restaurante Bohemia,Centro Histórico,A,https://pcvb.com.br/onde-comer,cerrado,archivo sin ficha,2026-11-10,"Rua Alfredo Pachá, 166 (histórica)",https://www.portalgiro.com/noticia/18245/petropolis/giro-serra/bar-da-cervejaria-bohemia-encerra-as-atividades-em-petropolis.html,Cierre del restaurante el 02/09/2025. La fábrica y el museo se verifican por separado.
 P011,Gastronomía,Churrascada Parrilla Petrópolis,Centro Histórico,A,https://pcvb.com.br/onde-comer,pendiente,Nueva investigación,,,,
 P012,Gastronomía,Restaurante Paladar,Centro Histórico,A,https://descubrapetropolis.com.br/restaurantes-e-bares-em-petropolis/,pendiente,Nueva investigación,,,,
 P013,Gastronomía,Cantina Giulietta,Centro Histórico,A,https://fmgranderio.com.br/petropolis/comida/restaurantes,pendiente,Nueva investigación,,,,
@@ -26,7 +26,7 @@ P024,Gastronomía,Osteria de La Campana,Petrópolis (zona por verificar),B,https
 P025,Gastronomía,Pescaria dos Amigos,Petrópolis (zona por verificar),B,https://soupetropolis.com/2024/12/18/retrospectiva-2024-10-restaurantes-mais-curtidos-pelos-seguidores-da-sou-petropolis-neste-ano/,pendiente,Nueva investigación,,,,
 P026,Gastronomía,Restaurante Tradição Mineira,Centro / Itaipava,A,https://descubrapetropolis.com.br/restaurantes-e-bares-em-petropolis/,pendiente,Nueva investigación,,,,
 P027,Gastronomía,Barcellos Boulangerie & Pâtisserie,Petrópolis (zona por verificar),A,https://pcvb.com.br/onde-comer,pendiente,Nueva investigación,,,,
-P028,Gastronomía,Chocolates Katz,Centro Histórico,A,https://pcvb.com.br/onde-comer,pendiente,Nueva investigación,,,,
+P028,Gastronomía,Chocolates Katz,Centro Histórico,A,https://pcvb.com.br/onde-comer,verificado,texto pendiente,2026-11-10,"Rua Barão do Amazonas, 85 · Loja de fábrica",https://katzchocolates.com.br/onde-encontrar/,"La fábrica está en Monsenhor Bacelar, 230. El festival de 2026 identifica la tienda de Barão do Amazonas."
 P029,Gastronomía,Confeitaria Willemsen - Centro,Centro Histórico,B,https://soupetropolis.com/2025/05/15/dicasgastronomicas-6-lugares-para-tomar-um-cafe-da-manha-diferente-em-petropolis/,pendiente,Nueva investigación,,,,
 P030,Gastronomía,Confeitaria Willemsen - Valparaíso,Valparaíso,B,https://soupetropolis.com/2025/05/15/dicasgastronomicas-6-lugares-para-tomar-um-cafe-da-manha-diferente-em-petropolis/,pendiente,Nueva investigación,,,,
 P031,Gastronomía,Buenísimo Chocolate,Petrópolis (zona por verificar),A,https://pcvb.com.br/onde-comer,pendiente,Nueva investigación,,,,
@@ -202,7 +202,7 @@ P183,Vida nocturna,Casarão da Cervejaria Odin,Centro Histórico,A,https://soupe
 P184,Vida nocturna,Cervejaria Duas Torres,Centro Histórico,A,https://soupetropolis.com/?p=879334,pendiente,Nueva investigación,,,,
 P185,Vida nocturna,The Pub Doutor Duranz,Centro Histórico,A,https://www.doutorduranz.com.br/,pendiente,Nueva investigación,,,,
 P186,Vida nocturna,Sampler Brew House,Centro Histórico,A,https://pcvb.com.br/onde-comer,pendiente,Nueva investigación,,,,
-P187,Vida nocturna,Complexo Bohemia - bar / restaurante,Centro Histórico,A,https://pcvb.com.br/onde-comer,pendiente,Nueva investigación,,,,
+P187,Vida nocturna,Complexo Bohemia - bar / restaurante,Centro Histórico,A,https://pcvb.com.br/onde-comer,cerrado,archivo sin ficha,2026-11-10,"Rua Alfredo Pachá, 166 (histórica)",https://www.portalgiro.com/noticia/18245/petropolis/giro-serra/bar-da-cervejaria-bohemia-encerra-as-atividades-em-petropolis.html,"Mismo bar-restaurante que P010. La fábrica, el museo y cada evento tienen estado propio."
 P188,Vida nocturna,Cervejaria Brewpoint,Quitandinha,A,https://pcvb.com.br/onde-comer,pendiente,Nueva investigación,,,,
 P189,Vida nocturna,Brassaria Matriz,Corrêas,A,https://pcvb.com.br/onde-comer,pendiente,Nueva investigación,,,,
 P190,Vida nocturna,Tortuga Craft Beer,Petrópolis (local a confirmar),A,https://pcvb.com.br/onde-comer,pendiente,Nueva investigación,,,,

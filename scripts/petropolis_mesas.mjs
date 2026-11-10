@@ -5,11 +5,13 @@ import { petrExpansion } from '../assets/js/translations/destinos/petropolis-mes
 import { petrDiningBlockA, petrDiningPending } from '../assets/js/translations/destinos/petropolis-mesas-bloque-a.js';
 import { petrDeepDining } from '../assets/js/translations/destinos/petropolis-mesas-profundas.js';
 import { casaDAngelo } from '../assets/js/translations/destinos/petropolis-casa-dangelo.js';
+import { princesaIsabelGourmet } from '../assets/js/translations/destinos/petropolis-princesa-isabel-gourmet.js';
 import { casaPellegrini } from '../assets/js/translations/destinos/petropolis-casa-pellegrini.js';
 import { categories, venues } from '../assets/js/translations/destinos/petropolis-mesas.js';
 
 const base = destination => '/destinos/' + destination.slug + '/';
 const diningUpdates = {
+  'princesa-isabel-gourmet': princesaIsabelGourmet,
   'casa-dangelo': { ...casaDAngelo, contact: 'https://wa.me/552422420888' },
   'casa-pellegrini': { ...casaPellegrini, contact: 'https://wa.me/552422316110' },
   ...Object.fromEntries(Object.entries({ ...petrDiningBlockA, ...petrDiningPending }).map(([slug, updates]) =>
