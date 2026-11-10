@@ -1921,6 +1921,198 @@ export const petrDeepDining = {
           }
         }
       ]
+    },
+    "restaurante-do-ton": {
+      "name": "Restaurante do Ton",
+      "area": "Centro Histórico",
+      "address": "Rua da Imperatriz, 242",
+      "category": "restaurant",
+      "summary": {
+        "ES": "Restaurante del grupo Brownie do Ton renovado en 2026, con cocina internacional, desayunos, almuerzos, cenas y postres.",
+        "PT": "Restaurante do grupo Brownie do Ton renovado em 2026, com cozinha internacional, café da manhã, almoço, jantar e doces.",
+        "EN": "Brownie do Ton group restaurant relaunched in 2026 with international cooking, breakfast, lunch, dinner and signature desserts."
+      },
+      "experience": {
+        "ES": "Destacaría la cestinha de lasaña con brisket y, para terminar, los brownies que dieron origen a la marca.",
+        "PT": "Eu destacaria a cestinha de lasanha com brisket e os brownies que deram origem à marca.",
+        "EN": "I would highlight the brisket lasagna basket and a brownie from the brand that started the business."
+      },
+      "advice": {
+        "ES": "Ideal para combinar con el Museu Imperial; reserva los fines de semana y confirma estacionamiento pagado o sector pet friendly.",
+        "PT": "Ideal após o Museu Imperial; reserve nos fins de semana e confira estacionamento pago ou área pet friendly.",
+        "EN": "Well placed after the Imperial Museum; book on weekends and confirm paid parking or pet-friendly outdoor seating."
+      },
+      "reservation": {
+        "ES": "Reservas recomendadas especialmente en fines de semana y feriados; comprueba días y horario en la web oficial.",
+        "PT": "Reservas recomendadas nos fins de semana e feriados; confira horário no site oficial.",
+        "EN": "Reservations recommended on weekends and holidays; check current hours on the official website."
+      },
+      "source": "https://www.browniedoton.com.br/restaurante",
+      "nearby": "/destinos/petropolis/cultura/museu-imperial/",
+      "sources": [
+        {
+          "label": "Brownie do Ton · Restaurante oficial 2026",
+          "url": "https://www.browniedoton.com.br/restaurante"
+        },
+        {
+          "label": "Brownie do Ton · Historia y cronología desde 2014",
+          "url": "https://www.browniedoton.com.br/sobre"
+        },
+        {
+          "label": "Brownie do Ton · Unidades en Petrópolis",
+          "url": "https://www.browniedoton.com.br/unidades"
+        },
+        {
+          "label": "Tripadvisor · Restaurante do Ton",
+          "url": "https://www.tripadvisor.com.br/Restaurant_Review-g303504-d23755046-Reviews-Restaurante_Do_Ton-Petropolis_State_of_Rio_de_Janeiro.html"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "De dos bandejas de brownies a una marca de Petrópolis",
+            "PT": "De duas formas de brownies a uma marca de Petrópolis",
+            "EN": "From two brownie pans to a Petrópolis brand"
+          },
+          "text": {
+            "ES": "La historia del grupo Brownie do Ton comenzó en 2014 con producción artesanal de brownies. La empresa creció hasta incorporar tiendas, producción propia y negocios gastronómicos. En 2020, durante la pandemia, mantuvo ventas mediante entregas y una tienda improvisada en la antigua fábrica. El origen importa porque el restaurante actual no es una cafetería genérica con un postre de marca ajena: pertenece a un proyecto nacido en Petrópolis y desarrollado a partir de la repostería.",
+            "PT": "A história do Brownie do Ton começou em 2014 com produção artesanal de brownies. A marca cresceu e passou a reunir lojas, fábrica e operações gastronômicas. Em 2020, durante a pandemia, manteve vendas por delivery e por uma lojinha improvisada na antiga fábrica. A origem importa porque o restaurante atual não é cafeteria genérica que revende uma sobremesa de terceiros: integra projeto que nasceu em Petrópolis, a partir da confeitaria.",
+            "EN": "The Brownie do Ton story began in 2014 with artisanal brownie production. The brand grew into a group of shops, production facilities and dining venues. During the 2020 pandemic it relied on delivery and a makeshift small shop at its former factory to keep trading. This origin matters because the present restaurant is not a generic café selling another company's dessert: it belongs to a Petrópolis-born project rooted in baking."
+          }
+        },
+        {
+          "title": {
+            "ES": "Un restaurante renovado en enero de 2026",
+            "PT": "Um restaurante renovado em janeiro de 2026",
+            "EN": "A new restaurant chapter in January 2026"
+          },
+          "text": {
+            "ES": "La cronología oficial diferencia etapas: en febrero de 2022 una tienda de fábrica pasó a funcionar integrada a un restaurante; en enero de 2026 nació el nuevo Restaurante do Ton de Rua da Imperatriz 242. No debemos decir que el restaurante actual ocupa esa dirección desde 2014. Se trata de una etapa nueva de la marca, con cocina internacional, espacios para diferentes momentos del día y una ubicación especialmente práctica para quienes visitan los museos del Centro Histórico.",
+            "PT": "A cronologia oficial distingue etapas: em fevereiro de 2022, a loja de fábrica passou a funcionar com restaurante; em janeiro de 2026 nasceu o novo Restaurante do Ton da Rua da Imperatriz, 242. Não é correto dizer que o restaurante atual existe nesse endereço desde 2014. É nova fase da marca, com cozinha internacional, espaços para momentos diferentes do dia e localização prática para quem visita museus do Centro Histórico.",
+            "EN": "The official timeline distinguishes different phases: in February 2022 a factory shop became associated with a restaurant, while the new Restaurante do Ton at Rua da Imperatriz 242 opened in January 2026. The current address should not be described as operating since 2014. This is a newer chapter for the brand, with international food, spaces for different occasions and an exceptionally convenient historic-centre location."
+          }
+        },
+        {
+          "title": {
+            "ES": "Café de la mañana, almuerzo y cena",
+            "PT": "Café da manhã, almoço e jantar",
+            "EN": "Breakfast, lunch and dinner"
+          },
+          "text": {
+            "ES": "El restaurante anuncia servicio desde el desayuno hasta la cena, algo especialmente útil en una ciudad donde muchos visitantes pasan varias horas entre museos. La carta cambia de sentido según el momento: un desayuno puede concentrarse en panes, bebidas calientes y opciones para compartir; al almuerzo se buscan platos principales; la cena permite sentarse con más calma. El sitio oficial informa atención diaria, más extensa viernes y sábado, pero recomendamos confirmar feriados y la última hora para hacer pedidos.",
+            "PT": "O restaurante anuncia atendimento do café da manhã ao jantar, útil numa cidade em que muitos visitantes passam horas entre museus. A carta tem usos diferentes: no café da manhã, pães e bebidas; no almoço, pratos principais; à noite, refeição com mais calma. O site oficial informa funcionamento diário, mais longo sexta e sábado, mas recomendamos confirmar feriados e a última hora de pedidos da cozinha, que pode não coincidir com o fechamento do salão.",
+            "EN": "The restaurant advertises service from breakfast through dinner, particularly useful in a city where visitors spend hours exploring museums. The menu serves different purposes across the day: bread and hot drinks at breakfast, mains at lunch and more relaxed dining in the evening. The official site lists daily opening with longer Friday and Saturday hours, but confirm holidays and the kitchen's last-order time, which may differ from the dining room's closing hour."
+          }
+        },
+        {
+          "title": {
+            "ES": "La cestinha de lasaña con brisket",
+            "PT": "A cestinha de lasanha com brisket",
+            "EN": "The brisket lasagna basket"
+          },
+          "text": {
+            "ES": "La casa destaca como plato emblemático una cestinha de masa fresca con brisket bovino desmenuzado, salsa pomodoro artesanal, bechamel y parmesano gratinado. No es una lasaña tradicional de capas servida en una fuente: la presentación en forma de cesta combina pasta y carne de cocción prolongada. Si quieres conocer la propuesta más característica del restaurante, es un buen punto de partida. Aun así, confirma que el plato esté disponible y pregunta por tamaño, guarniciones y precio.",
+            "PT": "A casa destaca como prato assinatura a cestinha de massa fresca recheada de brisket bovino desfiado, molho pomodoro artesanal, bechamel e parmesão gratinado. Não é lasanha de camadas servida em travessa: a apresentação em forma de cesta une massa e carne cozida lentamente. Para conhecer uma das marcas do restaurante, é bom ponto de partida. Mesmo assim, confira se está disponível e pergunte tamanho, acompanhamentos e preço.",
+            "EN": "The signature dish is a basket-shaped fresh pasta preparation filled with shredded beef brisket, house-made pomodoro, béchamel and gratinated Parmesan. It is not a conventional layered lasagna served from a baking dish: the presentation combines shaped pasta with slow-cooked beef. It is a strong starting point for understanding the restaurant's kitchen. Still check availability, portion size, sides and current price before ordering."
+          }
+        },
+        {
+          "title": {
+            "ES": "Gastronomía internacional sin confundir estilos",
+            "PT": "Gastronomia internacional sem misturar conceitos",
+            "EN": "International cooking without generic promises"
+          },
+          "text": {
+            "ES": "El restaurante se presenta con gastronomía internacional, no únicamente con hamburguesas o repostería. Eso abre posibilidades para distintos gustos, pero un menú amplio puede cambiar por estación o por jornada. Si alguien prefiere carnes, pasta o un plato más liviano, conviene consultar las opciones efectivas antes de llegar. La guía no atribuirá una especialidad exacta sin fuente verificable, ni afirmará que todos los platos vistos en reseñas de clientes siguen formando parte de la carta actual.",
+            "PT": "A casa se apresenta como restaurante de gastronomia internacional, não apenas hamburgueria ou confeitaria. Isso oferece opções para gostos diferentes, mas cardápio amplo pode mudar ao longo do ano. Se alguém procura carne, massa ou prato leve, vale consultar escolhas reais antes da visita. A guia não deve atribuir uma especialidade sem fonte verificável nem afirmar que tudo que aparece em avaliações antigas continua no menu atual.",
+            "EN": "The restaurant describes its offer as international cooking rather than solely burgers or pastries. That creates possibilities for diners with different preferences, but menus can change through the year. If someone wants meat, pasta or a lighter dish, ask about actual choices before travelling. This guide avoids inventing signature items or claiming every dish mentioned in customer reviews remains on the current menu."
+          }
+        },
+        {
+          "title": {
+            "ES": "Los brownies siguen siendo protagonistas",
+            "PT": "Os brownies continuam protagonistas",
+            "EN": "Brownies remain central"
+          },
+          "text": {
+            "ES": "La repostería fue el punto de partida del negocio y continúa siendo un elemento importante de la experiencia. Después de almorzar se pueden explorar brownies y otros dulces de la marca, pero la disponibilidad y las presentaciones varían. Si buscas llevar un regalo, pregunta qué productos tienen envase adecuado y cuánto tiempo pueden mantenerse fuera del refrigerador. No todos los postres con crema resisten horas de auto, especialmente al descender de Petrópolis hacia el clima más cálido de Río.",
+            "PT": "A confeitaria foi o começo do negócio e continua importante na experiência. Após o almoço, é possível conhecer brownies e outros doces da marca, sujeitos à disponibilidade e apresentação do dia. Para levar presente, pergunte pelos produtos embalados e pelas condições de conservação. Nem toda sobremesa com creme suporta horas no carro, sobretudo ao descer da serra para o clima mais quente do Rio.",
+            "EN": "Confectionery started the business and remains an important part of dining here. After lunch visitors can explore brownies and other branded sweets, subject to daily availability and format. For a takeaway gift, ask which products are packaged for travel and how to store them. Not all cream-filled desserts survive several hours in a warm car, particularly when descending from Petrópolis into Rio's hotter weather."
+          }
+        },
+        {
+          "title": {
+            "ES": "Otras tiendas Brownie do Ton no son este restaurante",
+            "PT": "Outras unidades Brownie do Ton não são o restaurante",
+            "EN": "Other Brownie do Ton shops are not this restaurant"
+          },
+          "text": {
+            "ES": "La marca mantiene puntos en el Palácio de Cristal, la Casa de Santos Dumont y la Rua 16 de Março, además del Restaurante do Ton. Aunque pertenezcan al mismo grupo, cada unidad posee dirección, servicio y horario distintos. Comprar un brownie en la tienda del Palácio de Cristal no significa que allí exista la misma carta de cenas de Rua da Imperatriz. La guía debe identificar por nombre completo cada local y no mezclar teléfonos ni servicios de uno con otro.",
+            "PT": "A marca mantém pontos no Palácio de Cristal, na Casa de Santos Dumont e na Rua 16 de Março, além do Restaurante do Ton. Mesmo do mesmo grupo, cada unidade tem endereço, serviço e horário próprios. Comprar brownie na loja do Palácio de Cristal não significa encontrar ali o cardápio de jantar da Rua da Imperatriz. A guia deve identificar corretamente cada endereço e não misturar contatos nem serviços de unidades diferentes.",
+            "EN": "The brand has outlets at Palácio de Cristal, Casa de Santos Dumont and Rua 16 de Março as well as Restaurante do Ton. Even within the same group, each has its own address, service and opening times. Buying a brownie at the Crystal Palace shop does not mean that location offers dinner from Rua da Imperatriz's menu. A reliable guide keeps every branch's details and services separate."
+          }
+        },
+        {
+          "title": {
+            "ES": "Área externa pet friendly y estacionamiento",
+            "PT": "Área externa pet friendly e estacionamento",
+            "EN": "Pet-friendly outdoor seating and parking"
+          },
+          "text": {
+            "ES": "El sitio oficial informa que las mascotas son bienvenidas en el sector exterior. No es lo mismo que permitir perros en todos los espacios internos, por lo que conviene confirmar condiciones de correa, tamaño y disponibilidad de mesas. Para quien va en auto, existe estacionamiento del hotel con gestión tercerizada y cobro separado, además de posibles plazas en la calle. Antes de reservar, pregunta por acceso sin escalones si alguien tiene movilidad reducida: la dirección céntrica por sí sola no garantiza accesibilidad completa.",
+            "PT": "O site oficial informa que animais são bem-vindos na área externa. Isso não significa entrada livre em todos os ambientes internos, então confira guia, porte e mesas disponíveis. Para quem vai de carro, há estacionamento terceirizado do hotel com cobrança separada, além de vagas na rua sujeitas a disponibilidade. Antes de reservar, pergunte por entrada sem degraus quando houver mobilidade reduzida: endereço central não garante acessibilidade completa.",
+            "EN": "The official website welcomes pets in the outdoor section, which should not be interpreted as permission in every indoor area. Confirm leash rules and seating availability. Drivers may use third-party hotel parking subject to a separate fee, along with whatever street spaces are available. Ask about step-free routes for mobility-limited guests before booking; a central address alone does not guarantee full accessibility."
+          }
+        },
+        {
+          "title": {
+            "ES": "Combinar la comida con el Museu Imperial",
+            "PT": "Combinar a refeição com o Museu Imperial",
+            "EN": "Pairing the meal with the Imperial Museum"
+          },
+          "text": {
+            "ES": "Rua da Imperatriz 242 es una dirección especialmente práctica para visitar el Museu Imperial y otras atracciones del Centro Histórico. Recomendaría organizar primero las entradas del museo según sus horarios y después elegir un almuerzo o merienda en el restaurante, sin apurarse entre actividades. Aunque ambos quedan en la misma calle, los accesos y la operación son independientes. Quien visite en un día de lluvia puede usar la comida como pausa, pero debe comprobar siempre horarios de museo y restaurante por separado.",
+            "PT": "A Rua da Imperatriz, 242 é endereço prático para quem visita o Museu Imperial e outras atrações do Centro Histórico. Eu organizaria primeiro os horários do museu e depois escolheria almoço ou lanche no restaurante, sem correr entre atividades. Embora fiquem na mesma rua, acessos e operações são independentes. Em dia de chuva, uma refeição pode ser pausa agradável, mas os horários de museu e restaurante devem ser conferidos separadamente.",
+            "EN": "Rua da Imperatriz 242 is well placed for a visit to the Imperial Museum and other historic-centre sights. I would arrange the museum's visit first and fit lunch or an afternoon break around it, allowing enough time for both. Although they are on the same street, the museum and restaurant have independent operations. On a rainy day a meal can provide welcome shelter, but check both places' opening times separately."
+          }
+        },
+        {
+          "title": {
+            "ES": "Reservas, momentos de mayor movimiento y presupuesto",
+            "PT": "Reservas, movimento e orçamento",
+            "EN": "Reservations, busy periods and budget"
+          },
+          "text": {
+            "ES": "La empresa recomienda reservar, especialmente fines de semana y feriados, cuando los visitantes llegan al Centro de Petrópolis para museos y compras. Al planificar una comida completa, consulta menú, bebidas, postres y eventuales adicionales como queso, acompañamientos o servicio. No debemos prometer un precio por persona sin una carta vigente: una merienda y una cena de tres etapas tienen presupuestos completamente distintos. Confirma el número de invitados y si la reserva admite cambios o atrasos.",
+            "PT": "A empresa recomenda reserva, sobretudo em fins de semana e feriados, quando o Centro recebe visitantes para museus e comércio. Para refeição completa, confira cardápio, bebidas, sobremesas e adicionais como queijo, acompanhamentos ou serviço. Não se deve prometer valor por pessoa sem menu atual: lanche e jantar com vários pratos exigem orçamentos bem diferentes. Confirme quantidade de pessoas e regras para alterações e atrasos.",
+            "EN": "The company recommends booking, particularly on weekends and holidays when visitors arrive for museums and shopping. For a full meal, review the menu, drinks, desserts and any extra charges for cheese, accompaniments or service. A fixed per-person price should not be promised without a current menu: a coffee break and a multi-course dinner involve different budgets. Confirm party size and policies for changes or late arrivals."
+          }
+        },
+        {
+          "title": {
+            "ES": "Alergias, familias y necesidades particulares",
+            "PT": "Alergias, famílias e necessidades específicas",
+            "EN": "Allergies, families and individual needs"
+          },
+          "text": {
+            "ES": "La lasaña con brisket combina trigo, leche, queso y carne bovina, y la repostería puede contener huevos o frutos secos. Si hay una alergia, informa al personal antes de ordenar y pregunta por contaminación cruzada. Con niños, consulta tamaños de porciones y si existe un espacio apropiado para cochecitos; no supongas menú infantil universal. Para una persona vegetariana, busca alternativas reales en la carta y pregunta por caldos o salsas, porque el nombre de un plato no explica todos los ingredientes.",
+            "PT": "A lasanha de brisket combina trigo, leite, queijo e carne bovina, e a confeitaria pode incluir ovos ou castanhas. Com alergia, informe a equipe antes do pedido e pergunte sobre contaminação cruzada. Com crianças, confira porções e espaço para carrinho; não presuma menu infantil universal. Para vegetarianos, verifique alternativas reais e pergunte por caldos e molhos, porque o nome de um prato não revela todos os ingredientes.",
+            "EN": "The brisket lasagna contains wheat, dairy, cheese and beef, while sweets may include eggs or nuts. Declare allergies before ordering and ask about cross-contact. With children, check portion sizes and stroller space instead of assuming a universal children's menu. Vegetarian diners should ask about actual options and stocks or sauces, because a dish name does not reveal every ingredient."
+          }
+        },
+        {
+          "title": {
+            "ES": "Mi consejo para una primera visita",
+            "PT": "Minha dica para a primeira visita",
+            "EN": "My recommendation for a first visit"
+          },
+          "text": {
+            "ES": "Si quieres conocer la marca y almorzar, comenzaría con la cestinha de lasaña con brisket, siempre que esté disponible, y reservaría espacio para un brownie. Si solamente necesitas descansar después del museo, bastará un café y un dulce sin convertir la parada en una comida larga. Verifica si prefieres interior climatizado o sector exterior con mascota. La ventaja del restaurante es ofrecer una experiencia completa en el mismo corredor cultural, con posibilidad de ajustar el gasto y el tiempo a tu itinerario.",
+            "PT": "Para conhecer a marca e almoçar, eu começaria pela cestinha de lasanha com brisket, se estiver disponível, e deixaria espaço para brownie. Se a intenção é descansar depois do museu, café e doce podem bastar. Escolha entre interior climatizado ou área externa para o pet, conforme necessidade. A vantagem é oferecer experiência completa no mesmo corredor cultural, adaptando tempo e gasto ao roteiro do visitante.",
+            "EN": "For a first proper lunch I would try the brisket lasagna basket if available and leave room for a brownie. If you only need a break after the museum, a coffee and sweet may be enough without turning the stop into a long meal. Choose indoor comfort or outdoor pet-friendly seating according to your needs. The main advantage is a flexible food experience within the historic cultural corridor, adaptable to your schedule and spending."
+          }
+        }
+      ]
     }
   }
 };
