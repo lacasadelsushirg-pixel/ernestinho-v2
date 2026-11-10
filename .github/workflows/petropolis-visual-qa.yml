@@ -16,6 +16,7 @@ on:
       - 'assets/js/translations/destinos/petropolis.js'
       - 'assets/js/translations/destinos/petropolis-primeira-sem-carro.js'
       - 'assets/js/translations/destinos/petropolis-errores-frecuentes.js'
+      - 'assets/js/translations/destinos/petropolis-clima-lluvia.js'
       - 'scripts/regional_neighborhoods.mjs'
       - 'assets/js/translations/destinos/petropolis-fotografia-local.js'
       - '.github/workflows/petropolis-visual-qa.yml'
