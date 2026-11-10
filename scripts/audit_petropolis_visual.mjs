@@ -119,6 +119,16 @@ try{
             itineraryCards:document.querySelectorAll('.petr-day-card').length,
             itineraryStops:document.querySelectorAll('.petr-when').length,
             urgentDialLinks:document.querySelectorAll('.petr-urgent-actions a[href^="tel:"]').length,
+            compactIntroOverlap:(()=>{
+              const intro=document.querySelector('.petr-compact-intro>p.intro');
+              const launch=document.querySelector('.ec-cariocia-launcher');
+              const actions=document.querySelector('.ec-global-actions');
+              if(!intro||!launch||!actions)return null;
+              const textRect=intro.getBoundingClientRect();
+              const dockTop=Math.min(launch.getBoundingClientRect().top,actions.getBoundingClientRect().top);
+              return {introTop:Math.round(textRect.top),introBottom:Math.round(textRect.bottom),
+                dockTop:Math.round(dockTop),overlap:textRect.top<dockTop&&textRect.bottom>dockTop-8};
+            })(),
             iaMobileDock:(()=>{
               const launcher=document.querySelector('.ec-cariocia-launcher');
               const actions=document.querySelector('.ec-global-actions');
@@ -183,6 +193,11 @@ try{
           const dock=metrics.mobileGuideControls;
           if(!dock||!dock.visible||dock.flexDirection!=='row'||dock.top<vp.height-86)
             failures.push({route,viewport:vp.width,reason:'Floating actions are not aligned near the mobile footer',dock});
+        }
+        if(vp.width===390 && (route.endsWith('/guia/sin-auto/')||route.endsWith('/guia/primera-visita/'))){
+          const overlap=metrics.compactIntroOverlap;
+          if(!overlap||overlap.overlap)
+            failures.push({route,viewport:vp.width,reason:'Opening paragraph overlaps mobile IA/actions dock',overlap});
         }
         if(vp.width===390){
           const floating=metrics.iaMobileDock;
