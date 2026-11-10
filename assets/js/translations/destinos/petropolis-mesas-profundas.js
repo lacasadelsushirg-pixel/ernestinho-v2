@@ -2845,6 +2845,358 @@ export const petrDeepDining = {
           }
         }
       ]
+    },
+    "majorica": {
+      "name": "Majórica Restaurante e Churrascaria",
+      "area": "Centro Histórico",
+      "address": "Rua do Imperador, 754",
+      "category": "grill",
+      "summary": {
+        "ES": "Churrascaria histórica fundada en 1961 por inmigrantes españoles y reconocida en 2026 como Patrimonio Gastronómico de Petrópolis.",
+        "PT": "Churrascaria histórica fundada em 1961 por imigrantes espanhóis e reconhecida em 2026 como Patrimônio Gastronômico de Petrópolis.",
+        "EN": "Historic steakhouse founded by Spanish immigrants in 1961 and designated Petrópolis Gastronomic Heritage in 2026."
+      },
+      "experience": {
+        "ES": "Pediría un corte a la parrilla y batata-pastel de la casa, preguntando si los acompañamientos se cobran aparte.",
+        "PT": "Eu pediria corte na grelha e batata-pastel, conferindo se os acompanhamentos são cobrados à parte.",
+        "EN": "Choose a grilled cut and the famous batata-pastel, checking whether sides cost extra."
+      },
+      "advice": {
+        "ES": "No es un rodízio automático: la carta se describe principalmente como servicio a la carta. Comprueba porciones y presupuesto.",
+        "PT": "Não é automaticamente rodízio: a casa trabalha principalmente à la carte. Confira porções e orçamento.",
+        "EN": "Do not assume all-you-can-eat service: the restaurant is primarily à la carte. Check portions and total cost."
+      },
+      "reservation": {
+        "ES": "Reservas y contacto: (24) 2242-2498, (24) 2242-7019; WhatsApp (24) 98118-0342.",
+        "PT": "Reservas: (24) 2242-2498, (24) 2242-7019; WhatsApp (24) 98118-0342.",
+        "EN": "Booking: +55 24 2242-2498, +55 24 2242-7019; WhatsApp +55 24 98118-0342."
+      },
+      "source": "https://www.pcvb.com.br/onde-comer/perfil/majorica-restaurante-e-churrascaria",
+      "nearby": "/destinos/petropolis/guia/primera-visita/",
+      "sources": [
+        {
+          "label": "Câmara Municipal · Ley 9.198 y patrimonio gastronómico, marzo 2026",
+          "url": "https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-churrascaria-majorica-e-reconhecida-como-patrimonio-gastronomico-de-petropolis"
+        },
+        {
+          "label": "Convention Bureau · Majórica en Rua do Imperador 754",
+          "url": "https://www.pcvb.com.br/onde-comer/perfil/majorica-restaurante-e-churrascaria"
+        },
+        {
+          "label": "CDL Petrópolis · Historia familiar y Nelson Rodrigues",
+          "url": "https://www.cdlpetropolis.com.br/churrascaria-majorica-une-acolhe-e-honra-a-tradicao/"
+        },
+        {
+          "label": "Descubra Petrópolis · Batata-pastel y parrilla histórica",
+          "url": "https://descubrapetropolis.com.br/churrascaria-majorica/"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "1961: una parrilla española en Petrópolis",
+            "PT": "1961: uma churrascaria espanhola em Petrópolis",
+            "EN": "1961: Spanish roots in Petrópolis"
+          },
+          "text": {
+            "ES": "La Majórica abrió en 1961 en Rua do Imperador y se convirtió en parte de la rutina gastronómica de varias generaciones. La historia municipal la relaciona con inmigrantes españoles y con la familia de Nelson Rodrigues, cuya descendencia mantiene el negocio. Al principio, el formato de parrilla de mesa era una novedad para algunos clientes. Con el tiempo pasó a ser un lugar donde familias vuelven para celebrar y recordar comidas de décadas anteriores. No debe confundirse con otra churrascaria llamada Majórica en Río de Janeiro.",
+            "PT": "A Majórica abriu em 1961 na Rua do Imperador e entrou na rotina gastronômica de várias gerações. A história municipal liga sua criação a imigrantes espanhóis e à família de Nelson Rodrigues, cujos descendentes mantêm a casa. No começo, o estilo de churrascaria era novidade para alguns clientes. Depois virou lugar de encontros e comemorações de famílias. Não deve ser confundida com outra churrascaria chamada Majórica na cidade do Rio de Janeiro.",
+            "EN": "Majórica opened in 1961 on Rua do Imperador and became part of the dining memories of several generations. Municipal history links its origins to Spanish immigrants and the family of Nelson Rodrigues, whose descendants remain involved. Its steakhouse style was unfamiliar to some early customers. Over time it became a place for family meals and celebrations. It must not be confused with another restaurant named Majórica in the city of Rio de Janeiro."
+          }
+        },
+        {
+          "title": {
+            "ES": "Un patrimonio gastronómico reconocido en 2026",
+            "PT": "Um patrimônio gastronômico reconhecido em 2026",
+            "EN": "Official gastronomic heritage since 2026"
+          },
+          "text": {
+            "ES": "El 5 de marzo de 2026 la Cámara Municipal anunció que la Ley 9.198 reconoció a Majórica como Bien Cultural Material y Patrimonio Gastronómico del Municipio de Petrópolis. Es una distinción muy concreta, no simplemente un premio inventado por un directorio. La propia Cámara explica que la declaración no equivale al tombamento del inmueble ni impone nuevas obligaciones administrativas. El valor está en reconocer la continuidad de recetas, trabajadores y relaciones con clientes dentro de la memoria de la ciudad.",
+            "PT": "Em 5 de março de 2026 a Câmara Municipal divulgou a Lei 9.198, que reconheceu a Majórica como Bem Cultural Material e Patrimônio Gastronômico do Município de Petrópolis. Não é título promocional de diretório. A Câmara ressalta que o reconhecimento não significa tombamento do imóvel nem novas obrigações administrativas. A importância está na continuidade de receitas, trabalhadores e vínculos com clientes na memória da cidade.",
+            "EN": "On 5 March 2026 the municipal council announced Law 9,198 recognising Majórica as a material cultural asset and gastronomic heritage of Petrópolis. This is a specific legal recognition, not an invented marketing award. The council explains that it does not amount to formal listing of the building or impose additional administrative obligations. Its significance lies in culinary continuity, staff and customer relationships within the city's memory."
+          }
+        },
+        {
+          "title": {
+            "ES": "La familia Rodrigues y la identidad de la casa",
+            "PT": "A família Rodrigues e a identidade da casa",
+            "EN": "The Rodrigues family and the restaurant's identity"
+          },
+          "text": {
+            "ES": "Una investigación de CDL Petrópolis describe el papel de Nelson Rodrigues en el desarrollo del restaurante y cómo familiares trabajaban en tareas de sala, limpieza, caja y gestión. La Cámara señala que Ângela y Angélica continúan la administración familiar. Esta participación ayuda a entender la cercanía con clientes habituales y el cuidado de métodos tradicionales. No significa que cada persona mencionada en las crónicas esté presente en el comedor todos los días; se trata de la trayectoria de una empresa familiar.",
+            "PT": "Uma reportagem da CDL Petrópolis descreve o papel de Nelson Rodrigues e a participação de familiares no salão, limpeza, caixa e gestão. A Câmara afirma que Ângela e Angélica seguem na administração familiar. Isso ajuda a entender a proximidade com clientes habituais e o cuidado com métodos tradicionais. Não significa que cada pessoa das reportagens esteja presente no salão diariamente; trata-se da trajetória do negócio familiar.",
+            "EN": "A CDL Petrópolis profile details Nelson Rodrigues's role and the involvement of relatives in the dining room, cleaning, accounts and management. The municipal council names Ângela and Angélica as continuing the family leadership. This helps explain ties with regular customers and traditional methods. It does not mean every family member cited in historical reports is present on every shift; these are aspects of the business's history."
+          }
+        },
+        {
+          "title": {
+            "ES": "Carne a la parrilla y punto de cocción",
+            "PT": "Carne na grelha e ponto de preparo",
+            "EN": "Grilled meat and cooking preferences"
+          },
+          "text": {
+            "ES": "La elección principal es la carne preparada a la parrilla, con cortes como picanha, baby beef, chorizo y filet mignon mencionados por clientes y guías. Para comer bien, pregunta por el peso, si cada pieza se sirve para una o dos personas y el punto recomendado. Medio cruda, al punto y bien cocida son elecciones diferentes, y el personal puede orientar según grosor. No todas las carnes aparecen necesariamente cada día. Elige un corte adecuado al grupo en vez de pedir la pieza más cara por inercia.",
+            "PT": "A principal escolha são carnes na grelha, com cortes como picanha, baby beef, chorizo e filé mignon citados por clientes e guias. Pergunte peso, se serve uma ou duas pessoas e ponto recomendado. Malpassado, ao ponto e bem-passado produzem experiências distintas, e a equipe pode orientar conforme espessura. Nem todo corte precisa estar disponível diariamente. Escolha de acordo com o grupo, não apenas pelo preço mais alto.",
+            "EN": "Grilled meat is the central offering, with picanha, baby beef, chorizo and filet mignon among cuts mentioned by diners and guides. Ask the weight, intended number of diners and recommended doneness. Rare, medium and well-done preparations differ, and staff can advise according to thickness. Not every cut will necessarily be stocked daily. Choose for your group rather than automatically selecting the most expensive option."
+          }
+        },
+        {
+          "title": {
+            "ES": "Batata-pastel: la guarnición más buscada",
+            "PT": "Batata-pastel: acompanhamento da casa",
+            "EN": "Batata-pastel: the signature side"
+          },
+          "text": {
+            "ES": "Las guías regionales destacan la batata-pastel como una de las especialidades más recordadas de Majórica. Su interés es que una guarnición puede ser tan característica como la carne. Para una primera visita, preguntaría si está disponible y si su tamaño conviene a todo el grupo. La casa también tiene referencias a farofa de huevos y diferentes arroces, pero no hay que pedir todo sin conocer porciones. Las guarniciones pueden facturarse aparte, así que revisa el presupuesto antes de acumular acompañamientos.",
+            "PT": "Guias da região destacam a batata-pastel como especialidade muito lembrada da Majórica. Mostra que um acompanhamento pode ter tanta identidade quanto a carne. Na primeira visita, confira disponibilidade e tamanho da porção. Há ainda referências a farofa de ovos e arrozes diferentes, mas não vale pedir tudo sem conhecer as quantidades. Acompanhamentos podem ser cobrados à parte; confira o orçamento antes de multiplicar pedidos.",
+            "EN": "Regional guides emphasise batata-pastel as one of Majórica's most memorable signatures, showing that a side dish can be as distinctive as the steak. On a first visit, check availability and whether one portion suits the group. Egg farofa and different rice dishes also appear in accounts, but do not order everything without knowing quantities. Sides may be charged separately, so consider the budget before adding extras."
+          }
+        },
+        {
+          "title": {
+            "ES": "Servicio a la carta, no necesariamente rodízio",
+            "PT": "Serviço à la carte, não necessariamente rodízio",
+            "EN": "À-la-carte service, not necessarily rodízio"
+          },
+          "text": {
+            "ES": "Una churrascaria brasileña no siempre es un rodízio donde los mozos pasan continuamente con espadas de carne. Majórica es conocida por un servicio de mesa tradicional con cortes seleccionados y guarniciones pedidas por separado. Para turistas extranjeros esta diferencia es fundamental: conviene consultar el menú antes de sentarse y preguntar qué incluye cada precio. Si buscas expresamente bufé libre o un sistema de espadas ilimitadas, verifica que exista antes de llegar; no lo prometemos aquí.",
+            "PT": "Churrascaria brasileira não é sempre rodízio com garçons circulando com espetos sem parar. A Majórica é conhecida pelo serviço de mesa tradicional, cortes escolhidos e acompanhamentos pedidos separadamente. Para turistas, a diferença é essencial: consulte cardápio antes de sentar e pergunte o que cada valor inclui. Se procura buffet livre ou rodízio de espadas, confirme previamente se existe; não prometemos esse formato nesta ficha.",
+            "EN": "A Brazilian steakhouse is not necessarily an all-you-can-eat rodízio with servers continually carrying skewers. Majórica is known for traditional table service with selected cuts and separately ordered sides. For international visitors, the distinction is important: review the menu before ordering and ask what is included in each price. If specifically seeking unlimited buffet or skewer service, verify whether it exists rather than assuming it here."
+          }
+        },
+        {
+          "title": {
+            "ES": "El comedor clásico y el trato tradicional",
+            "PT": "O salão clássico e o atendimento tradicional",
+            "EN": "Traditional ambience and service"
+          },
+          "text": {
+            "ES": "El interior conserva una estética de churrascaria clásica que muchos visitantes describen como acogedora, con iluminación cálida y servicio atento. No es un restaurante diseñado para parecer una aplicación digital o un lounge de moda; su personalidad está ligada al estilo de salón que hizo historia en la ciudad. Para una comida de familia o aniversario puede ser una buena elección, reservando margen de tiempo. Si te preocupa el ruido, pregunta por mesas menos movimentadas; la experiencia depende también del día.",
+            "PT": "O interior mantém estética de churrascaria clássica, descrita por clientes como acolhedora, com iluminação quente e serviço cuidadoso. Não é lounge moderno: a personalidade está no salão tradicional que marcou a cidade. Para almoço de família ou aniversário pode funcionar bem, reservando tempo suficiente. Se ruído for preocupação, peça mesa mais tranquila; a experiência depende do movimento e do dia.",
+            "EN": "The dining room retains the traditional steakhouse atmosphere many guests call welcoming, with warm lighting and attentive service. It is not a fashionable lounge; its personality comes from the classic restaurant format that became part of the city's history. It can suit family meals or celebrations when enough time is allowed. If noise is a concern, request a quieter table, recognising that the experience varies with the day."
+          }
+        },
+        {
+          "title": {
+            "ES": "Postres y cierre de la comida",
+            "PT": "Sobremesas e encerramento da refeição",
+            "EN": "Desserts and how to finish the meal"
+          },
+          "text": {
+            "ES": "Algunas reseñas recientes destacan profiteroles, pudines y preparaciones de chocolate como final de la comida. No podemos asegurar que todas aparezcan en cada carta, pero sirven para ilustrar que Majórica no se limita al plato de carne. Antes de pedir postre, consulta tamaño y opciones para compartir, sobre todo después de cortes grandes. Si viajas con niños, pregunta por postres sencillos y posibles ingredientes alergénicos. Una visita memorable no necesita tres entradas, muchas guarniciones y varios postres para quedar completa.",
+            "PT": "Resenhas recentes destacam profiteroles, pudins e preparações de chocolate no fim da refeição. Não significa presença de todos na carta diária, mas mostra que a Majórica vai além da carne. Antes da sobremesa, confira tamanho e opções para dividir, principalmente após cortes grandes. Com crianças, pergunte por doces simples e ingredientes alergênicos. Uma boa refeição não exige pedir tudo do cardápio.",
+            "EN": "Recent reviews highlight profiteroles, puddings and chocolate desserts as satisfying finishes. That does not guarantee every item on the current menu, but shows Majórica is not only about steak. Before dessert, check portion sizes and possible sharing, particularly after generous cuts. With children, ask about simpler options and allergenic ingredients. A memorable meal need not involve multiple starters, many sides and several desserts."
+          }
+        },
+        {
+          "title": {
+            "ES": "Rua do Imperador 754: ubicación central",
+            "PT": "Rua do Imperador, 754: localização central",
+            "EN": "Rua do Imperador 754: a central location"
+          },
+          "text": {
+            "ES": "El restaurante queda en Rua do Imperador 754, dentro del Centro Histórico. Su posición facilita combinar una caminata por el corredor comercial y patrimonial de Petrópolis con un almuerzo de mesa. Si vienes en auto, verifica estacionamiento disponible en la zona y no confundas Majórica de Petrópolis con la de Rua Senador Vergueiro en Río. Para turistas que se desplazan desde Quitandinha, Araras o Itaipava, calcula el trayecto antes de reservar en un horario demasiado justo.",
+            "PT": "O restaurante fica na Rua do Imperador, 754, Centro Histórico. A localização facilita combinar caminhada pelo comércio e patrimônio com almoço à mesa. De carro, confira estacionamento na região e não confunda a Majórica de Petrópolis com a da Rua Senador Vergueiro no Rio. Quem vem do Quitandinha, Araras ou Itaipava deve calcular o deslocamento antes de marcar horário apertado.",
+            "EN": "The restaurant is at Rua do Imperador 754 in the historic centre, convenient for combining a walk through Petrópolis's commercial and heritage streets with a proper lunch. Drivers should check parking availability and avoid confusing this Majórica with the separate one on Rua Senador Vergueiro in Rio. Those coming from Quitandinha, Araras or Itaipava should allow realistic travel time before booking."
+          }
+        },
+        {
+          "title": {
+            "ES": "Precios, alérgenos y atención al detalle",
+            "PT": "Preços, alergênicos e atenção aos detalhes",
+            "EN": "Prices, allergens and the practical details"
+          },
+          "text": {
+            "ES": "Majórica puede resultar cara en comparación con una comida ejecutiva sencilla, especialmente cuando cortes, arroces, farofa, papas y bebidas se cobran por separado. Pide los precios actuales y verifica el servicio antes de ordenar. Las recetas pueden incluir huevos, trigo, leche y otros alérgenos; pregunta también por utensilios compartidos si hay restricciones graves. Para quien evita carne, el menú debe revisarse con cuidado. Mi recomendación es elegir un corte y dos guarniciones significativas, no pedir a ciegas.",
+            "PT": "A Majórica pode custar mais do que almoço executivo simples, especialmente quando cortes, arroz, farofa, batata e bebidas são cobrados separados. Confira valores atuais e serviço antes do pedido. Receitas podem conter ovo, trigo, leite e outros alergênicos; pergunte sobre utensílios comuns em restrições graves. Quem não come carne deve analisar o cardápio com cuidado. Minha dica é escolher corte e poucos acompanhamentos representativos, sem pedir às cegas.",
+            "EN": "Majórica can cost more than a simple set lunch, especially when cuts, rice, farofa, potatoes and drinks are billed separately. Check current prices and service charges before ordering. Recipes may contain eggs, wheat, dairy and other allergens; discuss shared equipment if restrictions are serious. Meat-free diners should inspect the available menu carefully. My suggestion is to choose a suitable cut and a few meaningful sides instead of ordering blindly."
+          }
+        }
+      ]
+    },
+    "locanda-della-mimosa": {
+      "name": "Locanda Della Mimosa",
+      "area": "Fazenda Inglesa · Vale Florido",
+      "address": "Alameda das Mimosas, 30",
+      "category": "restaurant",
+      "summary": {
+        "ES": "Restaurante gastronómico y posada de Fazenda Inglesa fundados en 1992 por Danio Braga, con cocina contemporánea y una destacada tradición en vinos.",
+        "PT": "Restaurante gastronômico e pousada na Fazenda Inglesa fundados em 1992 por Danio Braga, com cozinha contemporânea e tradição em vinhos.",
+        "EN": "Fine-dining restaurant and inn founded in 1992 by Danio Braga in Fazenda Inglesa, known for contemporary cuisine and wine."
+      },
+      "experience": {
+        "ES": "Reservaría un almuerzo o una experiencia gastronómica con tiempo; la bodega y el entorno rural merecen atención.",
+        "PT": "Eu reservaria almoço ou experiência gastronômica com tempo; a adega e a paisagem rural merecem atenção.",
+        "EN": "Book an unhurried lunch or special dining experience; the cellar and mountain surroundings are part of the attraction."
+      },
+      "advice": {
+        "ES": "El restaurante admite visitantes que no se alojan, pero es indispensable confirmar reservas, servicio y acceso a la bodega. No confundas con Locanda Centro Histórico ni Bela Vista.",
+        "PT": "O restaurante recebe não hóspedes, mas confirme reserva, serviço e visita à adega. Não confunda com Locanda Centro Histórico ou Bela Vista.",
+        "EN": "Non-residents may dine by arrangement; confirm booking, dining times and cellar visits. This is not Locanda Centro Histórico or Bela Vista."
+      },
+      "reservation": {
+        "ES": "Locanda Della Mimosa: (24) 2233-5405 y locanda@locanda.com.br; confirma el WhatsApp vigente directamente.",
+        "PT": "Locanda Della Mimosa: (24) 2233-5405 e locanda@locanda.com.br; confirme WhatsApp vigente.",
+        "EN": "Locanda Della Mimosa: +55 24 2233-5405 and locanda@locanda.com.br; confirm current WhatsApp with the venue."
+      },
+      "source": "https://locanda.com.br/",
+      "nearby": "/destinos/petropolis/barrios/cascatinha-nogueira/",
+      "sources": [
+        {
+          "label": "Grupo Locanda · Historia de las tres unidades desde 1992",
+          "url": "https://br.linkedin.com/company/grupolocanda"
+        },
+        {
+          "label": "Petrópolis Gourmet 2025 · Chef Gerard Granja",
+          "url": "https://www.petropolisgourmet.com.br/gastronomia/perfil/locanda-della-mimosa"
+        },
+        {
+          "label": "Diário de Petrópolis · Menú mayo 2026 y chef Gerard",
+          "url": "https://diariodepetropolis.com.br/integra/locanda-della-mimosa-prepara-um-almoco-especial-para-o-dia-das-maes-44076"
+        },
+        {
+          "label": "Convention Bureau · Dirección, contacto y restaurante",
+          "url": "https://www.pcvb.com.br/onde-ficar/perfil/locanda-della-mimosa-1/"
+        },
+        {
+          "label": "Sou Petrópolis · Historia del restaurante y bodega",
+          "url": "https://soupetropolis.com/2021/11/01/com-25-anos-de-tradicao-locanda-passa-a-contar-com-tres-unidades-em-petropolis/"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "1992: Danio Braga y un restaurante de destino",
+            "PT": "1992: Danio Braga e um restaurante de destino",
+            "EN": "1992: Danio Braga creates a dining destination"
+          },
+          "text": {
+            "ES": "Locanda Della Mimosa comenzó en 1992 cuando el chef italiano Danio Braga desarrolló un restaurante y hospedaje en Vale Florido, dentro de Fazenda Inglesa. En una época en que no todas las visitas a Petrópolis se concentraban en gastronomía, ayudó a mostrar que valía la pena desplazarse a la sierra para una comida especial. Su historia no se limita a la decoración de una posada: integra cocina italiana, servicio de hospitalidad y una cultura del vino que ganó reconocimiento en Brasil.",
+            "PT": "A Locanda Della Mimosa começou em 1992, quando o chef italiano Danio Braga desenvolveu restaurante e hospedagem no Vale Florido, Fazenda Inglesa. Numa época em que nem toda visita a Petrópolis tinha foco gastronômico, mostrou que valia a pena subir a serra para comer bem. A história vai além da decoração de pousada: reúne culinária italiana, hospitalidade e cultura do vinho que ganhou reconhecimento no Brasil.",
+            "EN": "Locanda Della Mimosa began in 1992 when Italian chef Danio Braga developed a restaurant and accommodation in Vale Florido, within Fazenda Inglesa. At a time when not every Petrópolis outing revolved around dining, the project helped establish the mountains as a destination for a special meal. Its history goes beyond inn decoration: Italian cooking, hospitality and wine culture formed an influential combination."
+          }
+        },
+        {
+          "title": {
+            "ES": "2004: reconocimiento gastronómico internacional",
+            "PT": "2004: reconhecimento gastronômico internacional",
+            "EN": "2004: international gastronomic recognition"
+          },
+          "text": {
+            "ES": "El Grupo Locanda recuerda que en 2004 el restaurante se convirtió en el primer latinoamericano en integrar Les Grandes Tables du Monde, una asociación ligada a la alta gastronomía. También recibió reconocimiento por su carta de vinos en el Guia Quatro Rodas durante dos años consecutivos. Estos premios son parte de su historia, pero no debemos convertirlos en supuestas distinciones otorgadas este año. Para comprender su relevancia, basta saber que impulsó un estilo de restaurante de destino fuera de los grandes centros urbanos.",
+            "PT": "O Grupo Locanda lembra que em 2004 o restaurante se tornou o primeiro latino-americano a integrar Les Grandes Tables du Monde, associação ligada à alta gastronomia. Também recebeu reconhecimento pela carta de vinhos no Guia Quatro Rodas por dois anos seguidos. São conquistas históricas, não prêmios supostamente recebidos neste ano. O mais importante é perceber como ajudou a consolidar restaurante de destino fora de grandes centros.",
+            "EN": "Grupo Locanda recalls that in 2004 the restaurant became the first Latin American member of Les Grandes Tables du Monde, an association connected with fine dining. It also received consecutive recognition for its wine list in Guia Quatro Rodas. These are historical achievements, not awards newly received this year. Their significance lies in helping establish destination dining outside Brazil's largest urban centres."
+          }
+        },
+        {
+          "title": {
+            "ES": "Un cambio de gestión y la continuidad del proyecto",
+            "PT": "Mudança de gestão e continuidade do projeto",
+            "EN": "New management and continuity"
+          },
+          "text": {
+            "ES": "En 2014 la posada pasó a una nueva etapa de gestión y amplió su capacidad de hospedaje, según la historia publicada por el grupo. La actividad gastronómica continuó formando parte de su identidad, pero chefs y menús cambiaron con el tiempo. No debemos presentar al fundador Danio Braga como cocinero al frente de cada plato de 2026: los eventos más recientes identifican a Gerard Granja como responsable de la cocina. Separar pasado y presente permite respetar la historia sin desinformar.",
+            "PT": "Em 2014 a pousada entrou em nova fase de administração e ampliou a hospedagem, conforme história divulgada pelo grupo. A gastronomia permaneceu central, mas chefs e cardápios mudaram. Não é correto apresentar o fundador Danio Braga como responsável por cada prato servido em 2026: eventos recentes apontam Gerard Granja na cozinha. Separar passado e presente permite respeitar o legado sem desinformar o visitante.",
+            "EN": "In 2014 the inn entered a new management phase and expanded its accommodation, according to the group. Gastronomy remained central, but chefs and menus evolved. Founder Danio Braga should not be presented as personally cooking every dish in 2026: recent events identify Gerard Granja as leading the kitchen. Distinguishing past from present respects the legacy without misleading visitors."
+          }
+        },
+        {
+          "title": {
+            "ES": "Gerard Granja y la cocina de 2026",
+            "PT": "Gerard Granja e a cozinha em 2026",
+            "EN": "Gerard Granja and the 2026 kitchen"
+          },
+          "text": {
+            "ES": "En noticias publicadas en mayo y julio de 2026, Gerard Granja aparece al frente de la cocina. La línea combina bases italianas y europeas con ingredientes brasileños y técnicas contemporáneas. Entre los ejemplos documentados figuran ravioles de calabaza con queso boursin, robalo con salsa inspirada en moqueca y medallón de filet mignon con salsa de vino. Son preparaciones de un período concreto, no un menú garantizado para cada visita. Pregunta qué está disponible y qué recomienda el chef ese día.",
+            "PT": "Em matérias de maio e julho de 2026, Gerard Granja aparece à frente da cozinha. A proposta combina bases italianas e europeias com ingredientes brasileiros e técnicas contemporâneas. Exemplos publicados incluem ravióli de abóbora com queijo boursin, robalo com molho inspirado em moqueca e medalhão de filé mignon ao vinho. São pratos de período específico, não cardápio garantido. Confira o que está disponível e a sugestão da equipe na data.",
+            "EN": "May and July 2026 reporting identifies Gerard Granja as leading the kitchen. The cooking combines Italian and European foundations with Brazilian ingredients and contemporary methods. Documented examples include pumpkin ravioli with boursin cheese, sea bass with moqueca-inspired sauce and filet-mignon medallions with wine sauce. These belong to a particular period, not a guaranteed permanent menu. Ask which dishes are available and what the kitchen recommends on your date."
+          }
+        },
+        {
+          "title": {
+            "ES": "La bodega como experiencia aparte",
+            "PT": "A adega como experiência à parte",
+            "EN": "The wine cellar as a separate experience"
+          },
+          "text": {
+            "ES": "Locanda desarrolló una reconocida cultura de vinos, y una publicación de 2021 mencionaba una bodega con más de 1.200 etiquetas. El número refleja una época, no un inventario garantizado en 2026. Para quienes disfrutan enología, puede ser interesante preguntar si se permiten visitas y qué opciones por copa acompañan el menú. Algunas fuentes aclaran que conocer la bodega requiere reserva previa. No se debe suponer acceso libre simplemente por pagar una mesa, ni prometer una cata incluida en la comida.",
+            "PT": "A Locanda desenvolveu forte cultura de vinhos, e publicação de 2021 mencionava adega com mais de 1.200 rótulos. O número pertence à época, não é estoque garantido em 2026. Para amantes do vinho, vale consultar visita à adega e opções em taça. Algumas fontes explicam que o acesso à adega exige reserva. Não se deve presumir entrada livre ao reservar mesa nem degustação incluída automaticamente na refeição.",
+            "EN": "Locanda developed a recognised wine culture, and a 2021 profile mentioned a cellar with more than 1,200 labels. That figure describes the time of the report, not verified 2026 inventory. Wine enthusiasts can ask about cellar visits and by-the-glass choices. Some sources state that cellar access requires advance arrangements. Booking dinner does not automatically guarantee a tour or wine tasting as part of the meal."
+          }
+        },
+        {
+          "title": {
+            "ES": "Menú a la carta y experiencias especiales",
+            "PT": "Cardápio à la carte e experiências especiais",
+            "EN": "À-la-carte and special dining experiences"
+          },
+          "text": {
+            "ES": "El restaurante combina platos a la carta con menús especiales en fechas puntuales, según las publicaciones del Grupo Locanda. En julio de 2026 acogió Legado Della Mimosa, un evento con Gerard Granja y Daniela Dantas, ganadora de MasterChef Brasil 2025. Ese menú de varias etapas fue una noche específica y no debe anunciarse como degustación regular. Si buscas una experiencia especial, verifica calendario, número de etapas, bebidas, precios, cancelación y cualquier restricción de ingredientes antes de reservar.",
+            "PT": "O restaurante combina pratos à la carte com menus especiais em datas pontuais, segundo publicações do grupo. Em julho de 2026 recebeu Legado Della Mimosa, evento com Gerard Granja e Daniela Dantas, vencedora do MasterChef Brasil 2025. O menu em etapas correspondeu a uma noite específica, não degustação regular. Para experiência especial, confira calendário, etapas, bebidas, preço, cancelamento e restrições alimentares antes de reservar.",
+            "EN": "The restaurant combines à-la-carte dining with special menus on selected dates, according to group announcements. In July 2026 it hosted Legado Della Mimosa with Gerard Granja and Daniela Dantas, winner of MasterChef Brasil 2025. That multi-course programme was a specific event, not a permanent tasting format. For special dining, verify the schedule, courses, drinks, price, cancellation rules and dietary restrictions in advance."
+          }
+        },
+        {
+          "title": {
+            "ES": "Fondue, raclette y cocina de montaña",
+            "PT": "Fondue, raclette e cozinha da serra",
+            "EN": "Fondue, raclette and mountain cooking"
+          },
+          "text": {
+            "ES": "El Convention Bureau registra fondues de carne, queso y chocolate entre las propuestas de la Locanda. Otras guías mencionan raclette, pastas frescas y alternativas vegetarianas. La mezcla tiene sentido en un entorno serrano donde el frío invita a comidas largas. Sin embargo, la disponibilidad puede depender de temporada, reserva y horarios de la cocina. Antes de planificar una visita por fondue, pregunta si habrá servicio, para cuántas personas está pensado y cuáles acompañamientos y bebidas se cobran aparte.",
+            "PT": "O Convention Bureau registra fondues de carne, queijo e chocolate entre as propostas da Locanda. Outros guias citam raclette, massas frescas e opções vegetarianas. O conjunto combina com ambiente serrano de refeições longas. Mas a disponibilidade depende de estação, reserva e cozinha. Antes de viajar pelo fondue, pergunte se há serviço, para quantas pessoas foi pensado e o que se cobra à parte em acompanhamentos e bebidas.",
+            "EN": "The Convention Bureau lists meat, cheese and chocolate fondue among Locanda's offerings. Other guides describe raclette, handmade pasta and vegetarian choices. Such food suits the cooler mountain atmosphere and unhurried dining. However, availability may depend on season, reservations and kitchen schedules. Before travelling specifically for fondue, ask whether it is served, how many people a portion suits and which sides or drinks cost extra."
+          }
+        },
+        {
+          "title": {
+            "ES": "Fazenda Inglesa, no Itaipava ni el Centro",
+            "PT": "Fazenda Inglesa, não Itaipava nem Centro",
+            "EN": "Fazenda Inglesa, not downtown or Itaipava"
+          },
+          "text": {
+            "ES": "La dirección exacta es Alameda das Mimosas 30, Fazenda Inglesa, en la localidad de Vale Florido. No queda junto al Museu Imperial ni debe confundirse con Locanda Centro Histórico en Avenida Ipiranga 439 o con Locanda Bela Vista en Itaipava. Cada establecimiento del grupo tiene servicios y reservas propios. Guarda el punto exacto en un mapa y planifica traslado por carretera, especialmente si vas a cenar o quieres conocer la bodega. Un vehículo solicitado a última hora puede demorar más en un entorno rural.",
+            "PT": "O endereço é Alameda das Mimosas, 30, Fazenda Inglesa, no Vale Florido. Não fica ao lado do Museu Imperial nem deve ser confundida com Locanda Centro Histórico na Avenida Ipiranga, 439 ou Locanda Bela Vista em Itaipava. Cada unidade tem reservas e serviços próprios. Salve o ponto no mapa e planeje transporte por estrada, especialmente para jantar ou visitar a adega. Em área rural, carro solicitado na última hora pode demorar.",
+            "EN": "The precise address is Alameda das Mimosas 30, Fazenda Inglesa, in Vale Florido. It is not beside the Imperial Museum and must not be confused with Locanda Centro Histórico at Avenida Ipiranga 439 or Locanda Bela Vista in Itaipava. Each group property has separate services and bookings. Save the exact map pin and plan road transport, particularly for dinner or a cellar visit. A last-minute ride may take longer to arrive in the countryside."
+          }
+        },
+        {
+          "title": {
+            "ES": "Comer sin hospedarse y servicios independientes",
+            "PT": "Comer sem se hospedar e serviços independentes",
+            "EN": "Dining without staying overnight"
+          },
+          "text": {
+            "ES": "Guías gastronómicas señalan que Locanda Della Mimosa recibe también clientes que no se hospedan, con reservas. Eso no significa acceso libre a piscina, spa, suites o áreas privadas de los huéspedes. Si deseas una tarde completa, consulta qué servicios pueden contratarse de manera independiente, cuánto cuestan y si el restaurante estará disponible. Tampoco debemos asumir que una mesa da derecho a estacionamiento ilimitado o visita a la bodega. La experiencia puede personalizarse, pero cada parte debe confirmarse.",
+            "PT": "Guias gastronômicos informam que a Locanda Della Mimosa atende também não hóspedes, mediante reserva. Isso não significa acesso livre a piscina, spa, suítes ou áreas privadas. Para tarde completa, confirme quais serviços podem ser contratados separadamente, valores e disponibilidade do restaurante. Reservar mesa também não garante estacionamento ilimitado nem visita à adega. É possível organizar experiência personalizada, mas cada parte exige confirmação.",
+            "EN": "Gastronomic guides indicate that Locanda Della Mimosa receives non-resident diners by reservation. This does not give automatic access to the pool, spa, guestrooms or private hotel areas. For a longer outing, confirm what services may be booked separately, their prices and restaurant availability. A dining reservation also does not automatically include unlimited parking or a cellar tour. A tailored experience is possible when each element is confirmed."
+          }
+        },
+        {
+          "title": {
+            "ES": "Horarios de restaurante distintos del hotel",
+            "PT": "Horários do restaurante diferentes da pousada",
+            "EN": "Restaurant opening differs from hotel operation"
+          },
+          "text": {
+            "ES": "Algunos directorios indican que la posada funciona durante toda la semana, pero el restaurante abre al público en franjas limitadas desde el jueves, con almuerzos y cenas especialmente los fines de semana. No copies el horario del hotel como horario de la cocina. Consulta directamente por el día, almuerzo o cena, menú y número de personas. El teléfono difundido es (24) 2233-5405; distintas noticias publican WhatsApp diferentes, por lo que es mejor confirmar el canal vigente con la recepción.",
+            "PT": "Alguns diretórios informam que a pousada funciona durante toda a semana, mas o restaurante recebe público em faixas limitadas a partir de quinta, com almoço e jantar sobretudo no fim de semana. Não copie horário do hotel como horário da cozinha. Confira data, almoço ou jantar, menu e pessoas. O telefone divulgado é (24) 2233-5405; notícias mostram WhatsApps diferentes, então confirme o canal atual com a recepção.",
+            "EN": "Some directories say the inn operates throughout the week, whereas restaurant access is concentrated in limited sittings from Thursday onwards, especially at weekends. Hotel operation hours must not be copied as restaurant kitchen hours. Confirm the date, lunch or dinner, menu and party size. The published phone is +55 24 2233-5405; different reports list different WhatsApp numbers, so verify the current channel with reception."
+          }
+        },
+        {
+          "title": {
+            "ES": "Presupuesto, alergias y mi recomendación",
+            "PT": "Orçamento, alergias e minha recomendação",
+            "EN": "Budgeting, allergies and my recommendation"
+          },
+          "text": {
+            "ES": "Locanda es una propuesta de gastronomía especial, por lo que conviene solicitar precios vigentes de platos, bebidas y servicios antes de viajar. La cocina con pastas, quesos, pescados, frutos secos y salsas puede presentar alérgenos importantes. Si necesitas dieta vegana o sin gluten, consulta adaptaciones y preparación, sin suponer ausencia de contaminación cruzada. Mi consejo es reservar con tiempo, disfrutar el paisaje y dejar el regreso organizado. Una comida larga vale más cuando no termina con la preocupación de encontrar transporte.",
+            "PT": "A Locanda oferece gastronomia especial, por isso consulte preços atuais de pratos, bebidas e serviços antes de sair. Massas, queijos, peixes, castanhas e molhos podem trazer alergênicos relevantes. Para dieta vegana ou sem glúten, confira adaptações e preparo, sem presumir ausência de contaminação cruzada. Minha dica é reservar com antecedência, aproveitar a paisagem e organizar a volta. Refeição longa é melhor quando não termina com preocupação de transporte.",
+            "EN": "Locanda is a special-occasion dining venue, so request current food, drink and service prices before travelling. Pasta, cheese, fish, nuts and sauces may contain significant allergens. For vegan or gluten-free requirements, ask about actual adaptations and preparation without assuming an absence of cross-contact. My advice is to book early, enjoy the scenery and arrange the return. A long meal is much better without the worry of finding transport afterwards."
+          }
+        }
+      ]
     }
   }
 };
