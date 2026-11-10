@@ -63,11 +63,13 @@
     },
     {
       "name": "Brassaria Matriz",
-      "source": "https://www.pcvb.com.br/onde-comer",
+      "source": "https://brassariamatriz.com.br/",
       "sourceType": "directorio-turistico",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "status": "ficha-profunda-trilingue",
+      "areas": [
+        "Corrêas"
+      ],
+      "address": "Rua Dr. Agostinho Goulão, 632"
     },
     {
       "name": "Buenísimo Chocolate",
@@ -185,11 +187,13 @@
     },
     {
       "name": "Galpão Caipira",
-      "source": "https://www.pcvb.com.br/onde-comer",
+      "source": "https://www.ogalpaocaipira.com.br/",
       "sourceType": "directorio-turistico",
-      "status": "candidato-verificar",
-      "areas": [],
-      "address": null
+      "status": "ficha-profunda-trilingue",
+      "areas": [
+        "Vale das Videiras"
+      ],
+      "address": "Estrada Almirante Paulo Meira, 8320"
     },
     {
       "name": "Interlúdio Pizzaria",

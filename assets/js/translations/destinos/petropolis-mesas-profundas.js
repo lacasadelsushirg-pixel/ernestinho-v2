@@ -1409,6 +1409,326 @@ export const petrDeepDining = {
           }
         }
       ]
+    },
+    "galpao-caipira-vale-das-videiras": {
+      "name": "Galpão Caipira · Vale das Videiras",
+      "area": "Vale das Videiras",
+      "address": "Estrada Almirante Paulo Meira, 8320",
+      "category": "restaurant",
+      "summary": {
+        "ES": "Restaurante rural y punto de apoyo para ciclistas desde 2013, con cocina caipira, alquiler de bicicletas, tienda y servicios de bienestar.",
+        "PT": "Restaurante rural e apoio aos ciclistas desde 2013, com comida caipira, aluguel de bikes, armazém e serviços de bem-estar.",
+        "EN": "Rural restaurant and cyclists' base since 2013, combining countryside cooking, bike rental, a small shop and wellness services."
+      },
+      "experience": {
+        "ES": "Ideal para una comida sencilla antes o después de recorrer los caminos públicos del valle, sin confundirlo con un restaurante de lujo.",
+        "PT": "Ideal para refeição descontraída antes ou depois de percorrer caminhos públicos do vale, sem confundir com alta gastronomia formal.",
+        "EN": "A casual meal before or after exploring the valley's public roads, rather than a formal fine-dining experience."
+      },
+      "advice": {
+        "ES": "Está en Vale das Videiras, no en el centro de Araras. Comprueba actividades, bicicletas y horario del restaurante por separado.",
+        "PT": "Fica no Vale das Videiras, não no centrinho de Araras. Confira atividades, bikes e horário do restaurante separadamente.",
+        "EN": "Located in Vale das Videiras, not central Araras. Check restaurant service, bike availability and activities separately."
+      },
+      "reservation": {
+        "ES": "Contactos oficiales: (24) 98156-0392 y (24) 98103-0029; reservas@ogalpaocaipira.com.br.",
+        "PT": "Contatos oficiais: (24) 98156-0392 e (24) 98103-0029; reservas@ogalpaocaipira.com.br.",
+        "EN": "Official contacts: +55 24 98156-0392 and +55 24 98103-0029; reservas@ogalpaocaipira.com.br."
+      },
+      "source": "https://www.ogalpaocaipira.com.br/",
+      "nearby": "/destinos/petropolis/barrios/araras-vale-das-videiras/",
+      "sources": [
+        {
+          "label": "Galpão Caipira · Sitio oficial, dirección y servicios",
+          "url": "https://www.ogalpaocaipira.com.br/"
+        },
+        {
+          "label": "Descubra Petrópolis · Circuito Araras y Videiras",
+          "url": "https://descubrapetropolis.com.br/araras-e-videiras/"
+        },
+        {
+          "label": "Convention Bureau · Galpão Caipira",
+          "url": "https://www.pcvb.com.br/fondues/"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "Desde 2013, mucho más que una cocina",
+            "PT": "Desde 2013, muito além do restaurante",
+            "EN": "Since 2013, more than a restaurant"
+          },
+          "text": {
+            "ES": "Galpão Caipira abrió en 2013 como base de apoyo para ciclistas y personas que recorrían senderos de Vale das Videiras. La empresa incorporó restaurante, alquiler de bicicletas, pequeña tienda de productos locales, spa y alojamiento vinculado a las Suítes Caipiras. No corresponde presentarlo como un restaurante recién creado solo para turistas de fin de semana: se relaciona con la cultura de montaña y con visitantes que llegan para practicar actividades al aire libre. Comer allí puede ser solo una parte de la experiencia.",
+            "PT": "O Galpão Caipira abriu em 2013 como base de apoio a ciclistas e pessoas que percorriam trilhas no Vale das Videiras. O negócio passou a reunir restaurante, aluguel de bikes, armazém de produtos locais, spa e hospedagem associada às Suítes Caipiras. Não se trata apenas de restaurante criado para turistas de fim de semana: a casa nasceu da cultura de montanha e de atividades ao ar livre. Almoçar pode ser apenas parte do passeio.",
+            "EN": "Galpão Caipira opened in 2013 as a support base for cyclists and hikers exploring Vale das Videiras. Over time the business combined a restaurant, bicycle rental, local-products shop, spa and accommodation associated with Suítes Caipiras. It should not be described simply as a new weekend restaurant: its origins lie in the mountain recreation community. Dining can be one part of a wider outdoor experience."
+          }
+        },
+        {
+          "title": {
+            "ES": "Una cocina caipira sin pretensión de gala",
+            "PT": "Cozinha caipira sem formalidade",
+            "EN": "Country cooking without fine-dining formality"
+          },
+          "text": {
+            "ES": "Las guías regionales describen una cocina sencilla y bien cuidada, con preparaciones como el llamado PF caipira. La propuesta es práctica para quien quiere comer después de caminar o pedalear, y no debe confundirse con un menú de degustación de varias horas. Los platos concretos, las proteínas y las guarniciones pueden cambiar. Pregunta qué está preparado ese día, si el servicio es a la carta y qué opciones hay para una persona vegetariana o para quien prefiere comida ligera.",
+            "PT": "Guias da região descrevem comida simples e caprichada, com preparos como o PF caipira. A proposta é prática para quem quer comer após caminhada ou pedal, não menu degustação de horas. Proteínas, pratos e guarnições podem mudar. Pergunte o que está saindo no dia, se há atendimento à la carte e quais opções existem para vegetarianos ou quem prefere refeição mais leve.",
+            "EN": "Regional guides describe well-prepared, straightforward food, including a countryside-style set lunch known as PF caipira. It is practical after walking or cycling, rather than a multi-hour tasting menu. Proteins, dishes and sides may change. Ask what is being prepared that day, whether service is à la carte and which choices are available for vegetarians or diners seeking something lighter."
+          }
+        },
+        {
+          "title": {
+            "ES": "Productos locales y el pequeño armazén",
+            "PT": "Produtos locais e o armazém",
+            "EN": "Local produce and the small country store"
+          },
+          "text": {
+            "ES": "El negocio incluye un armazén con artículos locales y objetos de decoración. Esto permite combinar la comida con una mirada a productores y artesanos del valle, siempre comprobando cuáles productos realmente están a la venta. Si compras quesos, conservas, panes o alimentos perecederos, pregunta por origen, ingredientes y refrigeración para el viaje. La tienda es una parte del emprendimiento, pero no equivale a que todas las marcas, objetos o productos aparezcan en stock durante cualquier visita.",
+            "PT": "O empreendimento inclui armazém de produtos locais e objetos de decoração. Assim a refeição pode ser acompanhada de contato com produtores e artesãos do vale, conferindo o que está realmente à venda. Ao comprar queijos, conservas, pães ou perecíveis, pergunte origem, ingredientes e conservação para a viagem. O armazém faz parte da experiência, mas nenhum produto específico deve ser prometido em estoque diariamente.",
+            "EN": "The business includes a small shop selling local products and decorative objects. A meal can thus be combined with an introduction to producers and artisans of the valley, provided current stock is checked. When buying cheeses, preserves, bread or perishables, ask about origin, ingredients and refrigeration for the return trip. The shop is part of the appeal, but no particular item or brand should be guaranteed in stock."
+          }
+        },
+        {
+          "title": {
+            "ES": "Vale das Videiras no es el centro de Araras",
+            "PT": "Vale das Videiras não é o centro de Araras",
+            "EN": "Vale das Videiras is not central Araras"
+          },
+          "text": {
+            "ES": "La dirección es Estrada Almirante Paulo Meira 8320, en el núcleo de Vale das Videiras. Aunque muchas guías agrupen Araras y Videiras, la distancia entre sus centros puede superar muchos kilómetros de carretera de montaña. La propia guía Descubra Petrópolis describe el recorrido entre localidades como una ruta en vehículo, no un paseo urbano a pie. Guarda el número exacto y no confundas la tienda con otras unidades de alojamiento vinculadas al mismo proyecto, que pueden tener una dirección distinta.",
+            "PT": "O endereço é Estrada Almirante Paulo Meira, 8320, no núcleo do Vale das Videiras. Embora guias juntem Araras e Videiras, os centrinho ficam separados por quilômetros de estrada serrana. O Descubra Petrópolis descreve o trajeto entre localidades como deslocamento por veículo, não caminhada urbana. Salve o número exato e não confunda o restaurante com outras áreas de hospedagem associadas ao negócio, que podem ter endereço diferente.",
+            "EN": "The address is Estrada Almirante Paulo Meira 8320 in Vale das Videiras. Although guides group Araras and Videiras together, their village centres are separated by kilometres of mountain road. Descubra Petrópolis treats the connection as a road journey, not an urban walk. Save the precise number and do not confuse the restaurant with accommodation associated with the same business, which may use a different address."
+          }
+        },
+        {
+          "title": {
+            "ES": "Bicicletas y paseos con guía",
+            "PT": "Bicicletas e passeios guiados",
+            "EN": "Bicycle rental and guided rides"
+          },
+          "text": {
+            "ES": "Galpão Caipira anuncia alquiler de bicicletas de montaña, rutas guiadas y apoyo para personas que no conocen bien el área. Una opción es dedicar una parte del día a pedalear y después detenerse para comer. Sin embargo, los caminos rurales no equivalen a ciclovías planas: algunos tienen pendientes, tierra y circulación de vehículos. Antes de contratar pregunta distancia, nivel físico, casco, seguro, asistencia y si habrá acompañamiento. No recomendamos iniciar rutas largas sin conocer clima y condiciones del camino.",
+            "PT": "O Galpão Caipira divulga aluguel de mountain bikes, passeios guiados e apoio a quem não conhece a região. Dá para pedalar e depois almoçar, mas estradas rurais não são ciclovias planas: há ladeiras, terra e veículos. Antes de contratar, confira quilometragem, esforço físico, capacete, seguro, assistência e presença de guia. Não é prudente iniciar trajeto longo sem conhecer tempo e condições das estradas.",
+            "EN": "Galpão Caipira advertises mountain-bike rentals, guided outings and assistance for travellers unfamiliar with the area. Cycling before lunch can be enjoyable, but rural roads are not flat bike paths: expect slopes, dirt and other vehicles. Before booking, ask about distance, fitness requirements, helmets, insurance, support and whether a guide accompanies the ride. Avoid long routes without current weather and road information."
+          }
+        },
+        {
+          "title": {
+            "ES": "No todo servicio está incluido en la comida",
+            "PT": "Nem todo serviço está incluído na refeição",
+            "EN": "Not every service is included with lunch"
+          },
+          "text": {
+            "ES": "Además del restaurante existen servicios de spa, actividades y suites para hospedarse. No sería correcto anunciar que una mesa otorga acceso gratuito a tratamientos o bicicletas, ni que cualquier cliente puede utilizar instalaciones de huéspedes. Cada actividad tiene condiciones, capacidad y precio potencialmente distintos. Si quieres organizar un día completo, solicita un presupuesto separado para comida, bicicleta, masajes o alojamiento. Así el turista sabe qué está reservando y evita gastos inesperados.",
+            "PT": "Além do restaurante existem spa, atividades e suítes para hospedagem. Não é correto anunciar que reservar mesa dá direito a massagem ou bicicleta grátis, nem que todo cliente pode usar instalações de hóspedes. Cada serviço tem condições, capacidade e valores próprios. Para passar o dia, peça orçamento separado de alimentação, bicicleta, massagens ou hospedagem. Isso esclarece o que está sendo contratado e evita despesas inesperadas.",
+            "EN": "Besides the restaurant there are spa services, activities and overnight suites. Booking a table should not be assumed to include a free massage or bicycle, nor does every diner necessarily access guest facilities. Each service has its own capacity, conditions and possible charges. For a full day out, request separate quotations for meals, bicycle hire, treatments and accommodation so the visitor knows exactly what has been booked."
+          }
+        },
+        {
+          "title": {
+            "ES": "Los horarios de la unidad de Videiras",
+            "PT": "Os horários da unidade de Videiras",
+            "EN": "Opening times for the Videiras branch"
+          },
+          "text": {
+            "ES": "El sitio oficial publica funcionamiento de jueves a domingo, con horario de mañana y tarde; los viernes y sábados figura cierre más tarde que los jueves y domingos. Esa programación describe la unidad, pero no necesariamente todas las cocinas o servicios durante cada hora del día. Un lugar puede abrir para recibir ciclistas antes de encender el servicio de almuerzo. Por eso recomiendo confirmar el horario preciso del restaurante y la disponibilidad de platos, no solo la hora general del complejo.",
+            "PT": "O site oficial publica funcionamento de quinta a domingo, com abertura pela manhã e encerramento à tarde ou começo da noite; sextas e sábados têm horário mais estendido. Isso descreve a unidade, não necessariamente todas as cozinhas e serviços ao longo do dia. Um apoio a ciclistas pode abrir antes do almoço. Por isso, confirme horário específico do restaurante e pratos disponíveis, não apenas abertura geral do complexo.",
+            "EN": "The official website lists Thursday-to-Sunday operations, opening in the morning and closing in the afternoon or early evening, with longer hours on Fridays and Saturdays. Those are overall site hours, not a guarantee that full kitchen service runs continuously. A cyclist support point may open before lunch begins. Confirm dining hours and available dishes separately from the complex's general opening times."
+          }
+        },
+        {
+          "title": {
+            "ES": "Naturaleza, lluvia y protección del entorno",
+            "PT": "Natureza, chuva e respeito ao entorno",
+            "EN": "Nature, rain and environmental respect"
+          },
+          "text": {
+            "ES": "El proyecto se presenta como punto de encuentro para personas que disfrutan paisaje rural, caminatas y deporte. Esa invitación no implica que todos los senderos a su alrededor sean públicos ni que cualquier cascada permita baño seguro. El valle incluye propiedades privadas, caminos usados por agricultores y zonas de conservación. Si llueve fuerte, pueden cambiar el estado del suelo y el caudal del agua. Mi consejo es preguntar por rutas autorizadas y usar servicios de guías locales cuando haga falta.",
+            "PT": "O projeto se apresenta como encontro para quem gosta de paisagem rural, caminhada e esporte. Isso não significa que todas as trilhas próximas sejam públicas ou que qualquer cachoeira permita banho seguro. O vale tem imóveis particulares, estradas agrícolas e áreas de conservação. Chuva forte muda o piso e o volume dos rios. Minha dica é perguntar por percursos autorizados e recorrer a guias locais quando necessário.",
+            "EN": "The complex is a meeting place for people who enjoy rural scenery, hiking and sport. That does not imply every nearby trail is public or every waterfall safe for swimming. The valley includes private properties, farming roads and protected areas. Heavy rain can alter trail surfaces and water levels. Ask about authorised routes and use local guides where needed rather than following unverified online shortcuts."
+          }
+        },
+        {
+          "title": {
+            "ES": "Qué preguntar antes de reservar",
+            "PT": "O que perguntar antes de reservar",
+            "EN": "Questions before booking"
+          },
+          "text": {
+            "ES": "Para una visita gastronómica llama a los números oficiales y confirma si habrá comida caliente, precio de los platos, mesas y capacidad para el grupo. Si alguien necesita acceso sin escalones, pregunta específicamente por la circulación entre estacionamiento, restaurante y baños; el sitio no garantiza accesibilidad universal. Para bebés o mascotas, consulta reglas y espacios permitidos. Si llegas en bicicleta, confirma dónde guardarla. Con estas preguntas sencillas la experiencia rural resulta más cómoda y previsible.",
+            "PT": "Para visitar, use os números oficiais e confirme cozinha quente, preços, mesas e capacidade do grupo. Com mobilidade reduzida, pergunte especificamente pelo trajeto entre estacionamento, restaurante e banheiros; o site não garante acessibilidade universal. Para bebês ou animais, consulte regras e espaços permitidos. De bicicleta, confirme local para guardá-la. Essas perguntas tornam a experiência rural mais confortável e previsível.",
+            "EN": "Before visiting, contact the official numbers to confirm hot meal service, prices, tables and group capacity. If mobility is limited, ask specifically about routes between parking, the restaurant and toilets; the website does not guarantee universal access. Check rules for babies or pets and ask about bike storage if cycling. A few practical questions make a rural outing more predictable and comfortable."
+          }
+        }
+      ]
+    },
+    "brassaria-matriz": {
+      "name": "Brassaria Matriz",
+      "area": "Corrêas",
+      "address": "Rua Dr. Agostinho Goulão, 632",
+      "category": "beer",
+      "summary": {
+        "ES": "Restaurante y cervecería artesanal en Corrêas, junto al Poço do Imperador, con naturaleza, cocina creativa y ambiente informal.",
+        "PT": "Restaurante e cervejaria artesanal em Corrêas, ao lado do Poço do Imperador, com natureza, cozinha criativa e ambiente acolhedor.",
+        "EN": "Craft brewery and restaurant beside Poço do Imperador in Corrêas, combining nature, creative cooking and a relaxed setting."
+      },
+      "experience": {
+        "ES": "La visitaría para almorzar cerca de la cascada y conocer su cocina; las cervezas artesanales son una opción, no una obligación.",
+        "PT": "Eu visitaria para almoçar perto da cachoeira e conhecer a cozinha; cervejas artesanais são opção, não obrigação.",
+        "EN": "Visit for lunch beside the waterfall and creative food; craft beer is optional, not essential."
+      },
+      "advice": {
+        "ES": "La cascada es parte del paisaje, no una piscina. Comprueba horario de almuerzo o cena y no confundas con Fazenda Marambaia.",
+        "PT": "A cachoeira é paisagem, não piscina. Confira almoço ou jantar e não confunda a casa com a Fazenda Marambaia.",
+        "EN": "The waterfall is scenery, not a swimming pool. Verify the relevant sitting and don't confuse it with Fazenda Marambaia."
+      },
+      "reservation": {
+        "ES": "Contacto público: +55 24 98177-2323; el sitio oficial permite consultar reservas y eventos.",
+        "PT": "Contato divulgado: +55 24 98177-2323; o site oficial orienta reservas e eventos.",
+        "EN": "Published phone +55 24 98177-2323; official website provides booking and event information."
+      },
+      "source": "https://brassariamatriz.com.br/",
+      "nearby": "/destinos/petropolis/barrios/correas-bonfim/",
+      "sources": [
+        {
+          "label": "Brassaria Matriz · Sitio oficial",
+          "url": "https://brassariamatriz.com.br/"
+        },
+        {
+          "label": "Brassaria Matriz · Historia y horarios oficiales",
+          "url": "https://brassariamatriz.com.br/sobre-restaurante-e-cervejaria-em-petropolis/"
+        },
+        {
+          "label": "Convention Bureau · Ficha y contacto",
+          "url": "https://www.pcvb.com.br/gastronomia/perfil/brassaria-matriz"
+        },
+        {
+          "label": "Descubra Petrópolis · Visita y cascada",
+          "url": "https://descubrapetropolis.com.br/brassaria-matriz-correas/"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "ES": "De cervecería artesanal a brassaria",
+            "PT": "De cervejaria artesanal a brassaria",
+            "EN": "From microbrewery to brassaria"
+          },
+          "text": {
+            "ES": "La empresa explica que comenzó como cervecería artesanal y fue ampliando su propuesta hasta unir elaboración de cerveza con cocina. De ahí el nombre Brassaria, que juega con la palabra brasserie y con el verbo portugués brassar. No es simplemente un bar con comida congelada ni un restaurante que usa una marca de cerveza ajena como decoración. La historia se entiende mejor al descubrir cómo bebida, producto artesanal y gastronomía forman una experiencia conjunta.",
+            "PT": "A empresa explica que começou como cervejaria artesanal e ampliou a proposta até unir cerveja com cozinha. Daí o nome Brassaria, inspirado em brasserie e no verbo brassar. Não é apenas bar com petiscos industrializados nem restaurante que usa cerveja como decoração. A trajetória faz mais sentido quando se entende como bebida artesanal, produção e gastronomia se reúnem numa experiência.",
+            "EN": "The business explains that it began as a craft brewery and gradually developed into a restaurant-and-brewery concept. Its name Brassaria plays on brasserie and the Portuguese verb brassar, to brew. It is more than a bar displaying someone else's beer brand: the identity rests on combining artisanal brewing, cooking and hospitality. Understanding that evolution helps visitors see the experience beyond the drinks list."
+          }
+        },
+        {
+          "title": {
+            "ES": "El significado de Matriz",
+            "PT": "O significado de Matriz",
+            "EN": "What the name Matriz means"
+          },
+          "text": {
+            "ES": "Según la propia Brassaria, Matriz representa origen, fundamento y vínculo con la naturaleza. El negocio destaca productores locales, artesanos y artistas como parte de esa identidad. Es una propuesta que mira hacia el territorio, aunque no significa que cada ingrediente provenga del mismo jardín. Al pedir, pregunta por los productos regionales del momento y qué preparaciones dependen de la temporada. Así se conoce la relación real entre proveedores y cocina, sin convertir una declaración de valores en una garantía no comprobada.",
+            "PT": "Segundo a própria Brassaria, Matriz representa origem, fundamento e relação com a natureza. O negócio valoriza produtores locais, artesãos e artistas. É proposta ligada ao território, mas não significa que todo ingrediente venha do mesmo jardim. Ao pedir, pergunte pelos produtos regionais do momento e pelas preparações sazonais. Assim se conhece a ligação real entre fornecedores e cozinha, sem transformar valores da marca em garantia não comprovada.",
+            "EN": "According to Brassaria, Matriz expresses origins, foundations and a relationship with nature. The business highlights local producers, craftspeople and artists. That gives the restaurant a regional focus without implying that every ingredient is grown on site. Ask which products are locally sourced at present and which preparations are seasonal. This reveals genuine supply relationships rather than turning brand values into unsupported guarantees."
+          }
+        },
+        {
+          "title": {
+            "ES": "Poço do Imperador: paisaje e historia",
+            "PT": "Poço do Imperador: paisagem e história",
+            "EN": "Poço do Imperador: setting and history"
+          },
+          "text": {
+            "ES": "La Brassaria está junto al Poço do Imperador, un lugar relacionado en la memoria regional con visitas de la familia imperial. El sonido del agua y la vegetación son parte del carácter del salón. Conviene distinguir la referencia histórica del uso turístico actual: la vista de la cascada no concede permiso para bañarse en ella ni para atravesar zonas privadas. La guía regional advierte explícitamente que el baño no está permitido. Recomiendo disfrutar el entorno desde las áreas autorizadas, respetando a vecinos y empleados.",
+            "PT": "A Brassaria fica junto ao Poço do Imperador, lugar relacionado pela memória regional a visitas da família imperial. O som da água e o verde integram a experiência. É preciso separar memória histórica e uso atual: a vista da cachoeira não dá autorização para banho nem entrada em áreas privadas. O guia regional informa expressamente que o banho não é permitido. Recomendo apreciar o cenário somente de áreas autorizadas, respeitando moradores e trabalhadores.",
+            "EN": "Brassaria sits beside Poço do Imperador, a spot associated in regional history with visits by the imperial family. Running water and vegetation shape the dining atmosphere. Historical association should not be confused with modern access rights: seeing a waterfall does not authorise swimming or crossing private land. A regional guide explicitly states that bathing is not allowed. Enjoy the setting from authorised areas and respect staff and residents."
+          }
+        },
+        {
+          "title": {
+            "ES": "La cocina va más allá de acompañar cerveza",
+            "PT": "A cozinha vai além de acompanhar a cerveja",
+            "EN": "Food is more than an accompaniment to beer"
+          },
+          "text": {
+            "ES": "La propuesta oficial describe platos creativos preparados con ingredientes frescos de la región y una carta que puede acompañar bebidas o convertirse en el centro de un almuerzo familiar. Una guía gastronómica no debe reducirla a una chopería que solo sirve frituras. Para comenzar, pregunta por un plato recomendado por la cocina y por las porciones que realmente sirven para compartir. El menú vigente está enlazado desde el sitio oficial; recetas y precios antiguos no son garantía para otra fecha.",
+            "PT": "A proposta oficial descreve pratos criativos com ingredientes frescos da região e cardápio que pode acompanhar cerveja ou ser o centro de almoço em família. Não seria correto reduzir a casa a choperia de frituras. Para começar, pergunte por prato recomendado pela cozinha e por porções que sirvam de fato para dividir. O cardápio vigente tem acesso pelo site oficial; pratos e preços antigos não garantem disponibilidade.",
+            "EN": "The official concept emphasises creative dishes featuring fresh regional ingredients. Food can accompany a drink or be the centrepiece of a family lunch, so reducing the business to a beer hall serving only fried snacks would be misleading. Ask the kitchen for a current recommendation and which portions genuinely work for sharing. The official website links to a menu; dated dishes and prices do not guarantee present availability."
+          }
+        },
+        {
+          "title": {
+            "ES": "Cerveza artesanal con o sin maridaje",
+            "PT": "Cerveja artesanal com ou sem harmonização",
+            "EN": "Craft beer with or without pairing"
+          },
+          "text": {
+            "ES": "La Brassaria destaca cervezas artesanales elaboradas con técnicas tradicionales e ingredientes que pueden variar. Si te interesa conocer estilos, pide información sobre intensidad, amargor y tamaño antes de elegir; no todo viajero disfruta cervezas muy lupuladas. También es posible disfrutar la comida sin beber alcohol: pregunta por jugos, agua u opciones no alcohólicas. Para quienes conducen por la sierra, la prioridad debe ser regresar con seguridad y no transformar la visita en una obligación de degustación.",
+            "PT": "A Brassaria destaca cervejas artesanais feitas com técnicas tradicionais e ingredientes variáveis. Para conhecer estilos, pergunte intensidade, amargor e tamanho antes de pedir; nem todo visitante gosta de bebidas muito lupuladas. Também é possível comer sem álcool: consulte sucos, água e opções sem álcool. Quem vai dirigir pela serra deve priorizar retorno seguro e não tratar degustação de cerveja como obrigação.",
+            "EN": "Brassaria highlights craft beers made through traditional methods with potentially changing ingredients. To explore styles, ask about strength, bitterness and serving sizes; not every guest enjoys highly hopped beer. Food can be enjoyed without alcohol, so check juices, water and other alcohol-free drinks. Anyone driving through the mountains should prioritise a safe return rather than treating beer tasting as compulsory."
+          }
+        },
+        {
+          "title": {
+            "ES": "Desayuno, almuerzo y cena no son iguales",
+            "PT": "Café, almoço e jantar têm horários diferentes",
+            "EN": "Breakfast, lunch and dinner have distinct sittings"
+          },
+          "text": {
+            "ES": "El sitio oficial indica almuerzos los jueves, viernes, sábados y domingos; ofrece cena los viernes y sábados y desayuno los fines de semana. Estos horarios son específicos por servicio, algo que una ficha genérica puede ocultar si coloca un único intervalo de apertura. Verifica la programación vigente en la web antes de ir, sobre todo si quieres desayunar o cenar. Un local puede estar abierto para un servicio y no preparar todo el menú durante otra franja.",
+            "PT": "O site oficial informa almoço de quinta a domingo, jantar sexta e sábado e café da manhã aos fins de semana. São horários por serviço, que uma ficha simples pode esconder ao mostrar apenas abertura geral. Confira programação atual antes de ir, especialmente para café ou jantar. Uma casa pode atender determinado serviço sem disponibilizar todo o cardápio em todas as faixas.",
+            "EN": "The official website lists lunch Thursday through Sunday, dinner on Friday and Saturday, and breakfast at weekends. These are service-specific schedules, which a generic listing can hide by showing just one opening period. Verify current arrangements before travelling, particularly for breakfast or evening service. Being open for one sitting does not mean the full menu is available at every hour."
+          }
+        },
+        {
+          "title": {
+            "ES": "Pet friendly y mesas protegidas",
+            "PT": "Pet friendly e mesas protegidas",
+            "EN": "Pets and sheltered seating"
+          },
+          "text": {
+            "ES": "La empresa se anuncia como pet friendly y una guía regional menciona mesas exteriores con protección para lluvia y sol. Son ventajas para visitar con un perro, pero conviene confirmar las reglas concretas de tamaño, correa, zonas y agua disponible. Si llueve fuerte, los toldos no garantizan que todas las mesas exteriores sean cómodas. Tampoco corresponde prometer acceso universal sin comprobar rutas entre estacionamiento, mesa y baño. Una buena reserva especifica las necesidades del grupo.",
+            "PT": "A empresa se anuncia pet friendly e um guia regional descreve mesas externas com proteção de chuva e sol. É vantagem para quem leva cachorro, mas vale confirmar regras de tamanho, guia, áreas e água disponível. Em chuva forte, toldos não garantem conforto de toda mesa externa. Também não se deve prometer acessibilidade universal sem verificar trajeto entre estacionamento, mesa e banheiro. Reserva bem feita considera as necessidades do grupo.",
+            "EN": "The business advertises itself as pet friendly, and regional information describes outdoor tables with protection from sun and rain. This helps dog owners, but check rules about leashes, permitted areas and water. Awning coverage does not make every outdoor table comfortable during severe rain. Accessibility should also be discussed rather than assumed; ask about parking, routes to the table and toilets when relevant."
+          }
+        },
+        {
+          "title": {
+            "ES": "Fiestas y encuentros de hasta 90 personas",
+            "PT": "Festas e encontros de até 90 pessoas",
+            "EN": "Events for up to ninety guests"
+          },
+          "text": {
+            "ES": "El sitio oficial anuncia eventos privados, celebraciones, reuniones de empresa y encuentros anteriores a bodas, citando capacidad de hasta noventa personas en determinadas configuraciones. Es un dato sobre eventos, no sobre la cantidad de asientos libres para una reserva espontánea. Si buscas una celebración, pide presupuesto detallado, reglas de exclusividad, comida, bebidas, sonido y condiciones de lluvia. Quien solo quiera almorzar puede consultar si habrá algún evento que afecte la disponibilidad del salón.",
+            "PT": "O site divulga eventos privados, aniversários, encontros corporativos e pré-weddings, citando capacidade de até noventa pessoas em determinadas configurações. Isso não significa noventa lugares disponíveis para reserva espontânea. Em comemorações, solicite orçamento com exclusividade, comida, bebidas, som e plano para chuva. Quem deseja apenas almoçar pode verificar se há evento que altere a disponibilidade do salão.",
+            "EN": "The official website advertises private celebrations, corporate gatherings and pre-wedding events, citing configurations for up to ninety people. That is an event-capacity figure, not a guarantee of ninety available seats for walk-ins. For an occasion, request a detailed quote covering exclusivity, food, drinks, sound and rain arrangements. Ordinary diners can ask whether a private event will affect availability."
+          }
+        },
+        {
+          "title": {
+            "ES": "Dirección, reserva y regreso de Corrêas",
+            "PT": "Endereço, reserva e retorno de Corrêas",
+            "EN": "Address, booking and return from Corrêas"
+          },
+          "text": {
+            "ES": "Brassaria Matriz está en Rua Dr. Agostinho Goulão 632, Corrêas. Es una dirección distinta de Pizzeria Marambaia y Casa Marambaia, situadas más adelante por la misma vía; no sirven como puntos de referencia intercambiables. Guarda el número exacto y consulta el acceso antes de conducir. Si vas desde el Centro de Petrópolis o desde Itaipava, planifica transporte de ida y regreso. Recomiendo confirmar el horario del servicio elegido, menú y mesa antes de organizar una tarde alrededor de la cascada.",
+            "PT": "A Brassaria Matriz fica na Rua Dr. Agostinho Goulão, 632, Corrêas. É endereço diferente da Pizzeria Marambaia e da Casa Marambaia, mais adiante na mesma via; não são pontos intercambiáveis. Salve o número e confira acesso antes de dirigir. Saindo do Centro ou de Itaipava, planeje ida e volta. Minha dica é confirmar serviço desejado, cardápio e mesa antes de organizar tarde junto à cachoeira.",
+            "EN": "Brassaria Matriz is at Rua Dr. Agostinho Goulão 632 in Corrêas. It is separate from Pizzeria Marambaia and Casa Marambaia farther along the same road, and their addresses are not interchangeable. Save the correct street number and check access before driving. From central Petrópolis or Itaipava, plan transport both ways. Confirm the intended sitting, current menu and table before organising an outing around the waterfall."
+          }
+        },
+        {
+          "title": {
+            "ES": "Presupuesto y necesidades de alimentación",
+            "PT": "Orçamento e necessidades alimentares",
+            "EN": "Budgeting and dietary needs"
+          },
+          "text": {
+            "ES": "La combinación de entradas, platos, cerveza artesanal y postres puede cambiar bastante la cuenta. Pregunta por la carta actual y consulta si los acompañamientos están incluidos. Para alergias, vegetarianismo o restricciones con gluten, leche y frutos secos, explica las necesidades a la cocina antes de pedir: un restaurante con fermentaciones y salsas puede usar ingredientes poco evidentes. No conviene presentar precios de reseñas antiguas como valores vigentes ni ofrecer garantías de ausencia de contaminación cruzada sin respuesta oficial.",
+            "PT": "Entradas, pratos, cervejas artesanais e sobremesas podem alterar bastante a conta. Peça carta atual e confira se acompanhamentos estão incluídos. Para alergias, vegetarianismo ou restrições de glúten, leite e castanhas, avise a cozinha antes de pedir: molhos e preparações podem trazer ingredientes pouco óbvios. Não divulgue preços antigos como atuais nem garanta ausência de contaminação cruzada sem confirmação da casa.",
+            "EN": "Combining starters, mains, craft beer and desserts can significantly change the bill. Ask for the current menu and whether sides are included. For allergies, vegetarian needs or restrictions involving gluten, dairy and nuts, tell the kitchen before ordering, since sauces and preparations may contain less obvious ingredients. Avoid presenting old review prices as current rates or guaranteeing an absence of allergen cross-contact."
+          }
+        }
+      ]
     }
   }
 };
