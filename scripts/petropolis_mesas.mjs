@@ -2,14 +2,22 @@ import { esc, pre, styles, v } from './buzios_mirror_core.mjs';
 import { t } from '../assets/js/translations/destinos/modelo.js';
 import { regionalVenues } from '../assets/js/translations/destinos/mesas-regionales.js';
 import { petrExpansion } from '../assets/js/translations/destinos/petropolis-mesas-ampliacion.js';
+import { petrDiningBlockA, petrDiningPending } from '../assets/js/translations/destinos/petropolis-mesas-bloque-a.js';
 import { petrDeepDining } from '../assets/js/translations/destinos/petropolis-mesas-profundas.js';
 import { casaDAngelo } from '../assets/js/translations/destinos/petropolis-casa-dangelo.js';
 import { casaPellegrini } from '../assets/js/translations/destinos/petropolis-casa-pellegrini.js';
 import { categories, venues } from '../assets/js/translations/destinos/petropolis-mesas.js';
 
 const base = destination => '/destinos/' + destination.slug + '/';
-const petropolis = Object.fromEntries(Object.entries(venues).map(([section, items]) =>
-  [section, { ...items, ...petrExpansion[section], ...(petrDeepDining[section] || {}), ...(section === 'gastronomia' ? { 'casa-dangelo': casaDAngelo, 'casa-pellegrini': casaPellegrini } : {}) }]));
+const diningUpdates = {
+  'casa-dangelo': { ...casaDAngelo, contact: 'https://wa.me/552422420888' },
+  'casa-pellegrini': { ...casaPellegrini, contact: 'https://wa.me/552422316110' },
+  ...Object.fromEntries(Object.entries({ ...petrDiningBlockA, ...petrDiningPending }).map(([slug, updates]) =>
+    [slug, { ...petrExpansion.gastronomia[slug], ...updates }])),
+};
+const petropolis = Object.fromEntries(Object.entries(venues).map(([section, items]) => [
+  section, { ...items, ...petrExpansion[section], ...petrDeepDining[section], ...(section === 'gastronomia' ? diningUpdates : {}) },
+]));
 const catalogs = { petropolis, ...regionalVenues };
 export const venueRoutes = Object.entries(petropolis).flatMap(([section, items]) => Object.keys(items).map(slug => [section, slug]));
 export const otherVenueRoutes = Object.entries(regionalVenues).flatMap(([city, catalog]) =>
@@ -107,8 +115,11 @@ function detail(destination, section, slug, lang) {
   const back = anchor(base(destination) + section + '/', words.return, lang, 'back');
   const next = anchor(item.nearby || base(destination) + 'barrios/', words.nearby, lang, 'btn');
   const transit = anchor(base(destination) + 'transportes/', t('Cómo moverse', 'Como se locomover', 'Getting around'), lang, 'btn alt');
-  const address = `<b>${text(words.location, lang)}</b> ${esc(item.address)} · ${esc(item.area)}`;
-  const query = item.name + ', ' + item.address + ', ' + (item.municipality || destination.name) + ', RJ, Brasil';
+  const pending = destination.slug === 'petropolis' && food && Object.hasOwn(petrDiningPending, slug);
+  const query = [item.name, item.address, item.municipality || destination.name, 'RJ, Brasil'].join(', ');
+  const contact = item.contact ? `<a class="btn" href="${esc(item.contact)}">${text(t('Consultar al local', 'Consultar a casa', 'Contact the venue'), lang)}</a>` : '';
+  const mapLink = item.contact ? `<a class="btn alt" data-venue-map href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(query)}">${text(t('Abrir en el mapa', 'Abrir no mapa', 'Open in Maps'), lang)}</a>` : '';
+  const address = `<b>${text(pending ? t('Dirección histórica', 'Endereço histórico', 'Historical address') : words.location, lang)}</b> ${esc(item.address)} · ${esc(item.area)}`;
   const map = '<iframe title="' + esc(item.name) + '" src="https://maps.google.com/maps?q=' +
     encodeURIComponent(query) + '&amp;output=embed" loading="lazy" class="petr-venue-map" referrerpolicy="no-referrer-when-downgrade"></iframe>';
   const mapPanel = '<section class="wrap"><details class="card"><summary>' +
@@ -147,12 +158,14 @@ function detail(destination, section, slug, lang) {
   const body = food
     ? `${hero}<div class="wrap"><div class="tags"><span class="tag">${text(category, lang)}</span><span class="tag">${esc(item.area)}</span></div>
       <div class="grid"><section>${experience}${advice}</section><aside class="card facts"><h2>${text(words.practical, lang)}</h2>
-      <p>${address}</p>${transit}${next}</aside></div></div>`
+      <p>${address}</p>${contact}${mapLink}${transit}${next}</aside></div></div>`
     : `${hero}<div class="wrap"><section class="facts"><div class="fact">${address}</div>
       <div class="fact"><b>${text(words.format, lang)}</b>${text(category, lang)}</div></section>
       <div class="content"><section>${experience}${advice}</section><aside class="card"><h2>${text(words.practical, lang)}</h2>
       <div class="actions">${transit}${next}</div></aside></div></div>`;
-  return { title: item.name, intro: item.summary, body: body + richFood + mapPanel, image: null, bodyClass: 'petr-venue-detail', css: ['petr-venues'],
+  return { title: item.name, intro: item.summary, body: body + richFood + (pending
+    ? `<section class="wrap"><p><a href="${esc(item.source)}">${text(t('Consultar la referencia de archivo', 'Consultar a referência de arquivo', 'View the archive reference'), lang)}</a></p></section>`
+    : mapPanel), image: null, bodyClass: 'petr-venue-detail', css: ['petr-venues'],
     inline: styles(food ? 'gastronomia/aprazivel' : 'vida-nocturna/rio-scenarium') + (richFood ? foodDepthCss : '') };
 }
 
