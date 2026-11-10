@@ -7,7 +7,8 @@ import {createRequire} from 'node:module';
 import {execFileSync} from 'node:child_process';
 import {loadBuildLibraries} from './build_vendor.mjs';
 import {buildBrowserOptions} from './build_browser.mjs';
-import {legacyLocaleRoutes, localizeLegacyStartup} from './legacy_locale_routes.mjs';
+import {hideDuplicateLegacySelector, legacyLocaleRoutes, localizeLegacyStartup} from './legacy_locale_routes.mjs';
+import {pilotLabels} from '../assets/js/translations/rio-pilot-labels.mjs';
 import {SEO_METADATA} from '../assets/js/seo-metadata.js';
 import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/translations/chunks/experiencias-standalone.js';
 import{renderBuziosMirror,mirrorRoutes}from'./build_buzios_mirror.mjs';
@@ -82,7 +83,11 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
   if(file.startsWith('docs/'))continue;
-  if(file==='scripts/legacy_locale_routes.mjs'){
+  if(file==='assets/js/translations/rio-pilot-labels.mjs'){
+   for(const route of Object.keys(pilotLabels))routes.add(route);
+   continue;
+  }
+  if(file==='scripts/legacy_locale_routes.mjs'||file==='assets/js/translations/rio-restaurantes-piloto.mjs'){
    for(const route of legacyLocaleRoutes.keys())routes.add(route);
    continue;
   }
@@ -163,7 +168,7 @@ function setHtmlMeta(html,attribute,key,value){
 const bootstrap=`<script data-ec-locale-bootstrap>(function(){var m=location.pathname.match(new RegExp('^/(pt|en)(?=/|$)','i')),l=m?m[1].toUpperCase():'ES';document.documentElement.lang=l==='PT'?'pt-BR':l.toLowerCase();try{localStorage.setItem('ec-lang',l);localStorage.setItem('ec-language',l.toLowerCase());localStorage.setItem('ec_lang',l.toLowerCase());}catch(_){}})();</script>`;
 const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp'};
 function adaptLegacyScripts(html,sourcePath){
- return html.replace(/(<script\b[^>]*>)([\s\S]*?)(<\/script>)/gi,(whole,open,code,close)=>{
+ return hideDuplicateLegacySelector(html,sourcePath).replace(/(<script\b[^>]*>)([\s\S]*?)(<\/script>)/gi,(whole,open,code,close)=>{
   if(open.includes('application/ld+json'))return whole;
   // Sparse renderer dictionaries legitimately have no ES entry.
   code=code.replace(/T\[l\]\[k\]/g,'T[l]?.[k]');
@@ -205,6 +210,7 @@ fs.mkdirSync(out,{recursive:true});
 function copy(dir,dest){for(const e of fs.readdirSync(dir,{withFileTypes:true})){
  if(ignore.has(e.name)||e.name.startsWith('.')||['package.json','package-lock.json','AGENTS.md','README.md','vercel.json','sitemap.xml'].includes(e.name))continue;
  const from=path.join(dir,e.name),to=path.join(dest,e.name);
+ if(from===path.join(root,'assets/js/translations/fr'))continue;
  if(e.isDirectory()){fs.mkdirSync(to,{recursive:true});copy(from,to);}else if(!e.name.endsWith('.html')||isGoogleVerification(from))fs.copyFileSync(from,to);
 }}
 copy(root,out);
@@ -317,8 +323,19 @@ async function worker(){
      ? [new URL(urls[index]).pathname+': '+String(result.reason)] : []);
     if(failures.length)throw Error('Translation modules failed: '+failures.join(' | '));
    },[...translationModules]);
-   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations})=>{
+   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations,pilotLabels})=>{
     const language=document.documentElement.lang;
+    if(pilotLabels&&language!=='es'){
+     const index=language==='pt-BR'?0:1;
+     for(const image of document.querySelectorAll('img[alt]')){
+      const value=pilotLabels[image.alt]?.[index];
+      if(value){image.alt=value;image.dataset.ecAlt=value;}
+     }
+     for(const link of document.querySelectorAll('a')){
+      const value=pilotLabels[link.textContent.trim()]?.[index];
+      if(value&&link.childElementCount===0)link.textContent=value;
+     }
+    }
     if(standaloneTranslations&&/^\/experiencias\/pedra-(?:telegrafo|gavea|bonita)\/$/.test(route.replace(/^\/(?:pt|en)(?=\/|$)/,''))){
      const selected=language==='pt-BR'?'PT':language==='en'?'EN':'ES';
      if(selected!=='ES'){
@@ -417,7 +434,7 @@ async function worker(){
      const s=document.createElement('script');s.type='application/ld+json';s.dataset.ecBreadcrumb='';s.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});document.head.appendChild(s);
     }
     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1:document.querySelectorAll('h1').length};
-   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS});
+   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS,pilotLabels:pilotLabels[target.route]||null});
    // Redirect-only source documents remain redirect-only and never get hreflang.
    const original=fs.readFileSync(target.file,'utf8');const refresh=original.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(refresh){value.html=value.html.replace('</head>',refresh[0].replace(/(url=)([^"'>]+)/i,(_,p,destination)=>{const u=new URL(destination,base+target.route);return p+prefix(u.pathname,target.language)+u.search+u.hash;})+'</head>');}
