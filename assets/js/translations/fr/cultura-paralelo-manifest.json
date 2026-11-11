@@ -237,12 +237,22 @@
       "missing_keys": 0,
       "qa": "Static text, metadata, title and image/map alt attributes covered in dictionary; JSON-LD and generated French HTML pending.",
       "editorial_review": "Verify opening hours, prices, event programming, accessibility and booking with official institutions."
+    },
+    {
+      "route": "/cultura/travessa-ipanema/",
+      "source_sha": "5c7e96b9cab869de547b54995e3eb055ef56a5a8",
+      "dictionary": "assets/js/translations/fr/cultura-travessa-ipanema-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Static text, metadata, image alt and map attributes checked; French HTML/JSON-LD integration pending.",
+      "editorial_review": "Verify store opening, events, accessibility and photographs before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 24,
-    "static_dictionary_entries": 1108,
-    "total_source_translation_units": 1108
+    "prepared_pages": 25,
+    "static_dictionary_entries": 1151,
+    "total_source_translation_units": 1151
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
