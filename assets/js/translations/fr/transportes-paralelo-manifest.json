@@ -35,13 +35,40 @@
       "entries": 70,
       "source_keys_checked": 70,
       "missing_keys": 0
+    },
+    {
+      "route": "/transportes/alquiler-vehiculo/",
+      "source_sha": "54de89169305446b6ab75e66774b377e5f9d4fc1",
+      "dictionary": "assets/js/translations/fr/transportes-alquiler-vehiculo-paralelo.json",
+      "entries": 67,
+      "source_keys_checked": null,
+      "missing_keys": 0,
+      "editorial_review": "Verify fares, eligibility, contractual rules and operational schedules against official sources before publishing."
+    },
+    {
+      "route": "/transportes/onibus/",
+      "source_sha": "340552356e22094a1647df074a75eec311a8a837",
+      "dictionary": "assets/js/translations/fr/transportes-onibus-paralelo.json",
+      "entries": 67,
+      "source_keys_checked": null,
+      "missing_keys": 0,
+      "editorial_review": "Verify fares, eligibility, contractual rules and operational schedules against official sources before publishing."
+    },
+    {
+      "route": "/transportes/trenes/",
+      "source_sha": "02a37f7f3477b514d6f89ab20e824f4f5d068200",
+      "dictionary": "assets/js/translations/fr/transportes-trenes-paralelo.json",
+      "entries": 75,
+      "source_keys_checked": null,
+      "missing_keys": 0,
+      "editorial_review": "Verify fares, eligibility, contractual rules and operational schedules against official sources before publishing."
     }
   ],
   "totals": {
     "section_routes": 13,
-    "prepared_routes": 4,
-    "pending_routes": 9,
-    "fr_dictionary_entries": 254,
+    "prepared_routes": 7,
+    "pending_routes": 6,
+    "fr_dictionary_entries": 463,
     "source_keys_missing": 0
   },
   "editorial_review": "Transport fares, timetables, route operations, payment acceptance, and accessibility are time-sensitive. Preserve original text but confirm updated official services before any public release.",
