@@ -257,12 +257,32 @@
       "missing_keys": 0,
       "qa": "Inspected all static text, metadata, alt and map attributes; no missing strings. JSON-LD needs FR rendering.",
       "editorial_review": "Verify visiting days/hours, access, photo rules and accessibility from official institution before publication."
+    },
+    {
+      "route": "/cultura/sbba/",
+      "source_sha": "f32cdb5812f3e25e5edcccfceba2fb56b4b49c6b",
+      "dictionary": "assets/js/translations/fr/cultura-sbba-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Visible text, metadata, alt/title and static labels mapped; JSON-LD FR and inline script verification required at integration.",
+      "editorial_review": "Verify opening hours, events, prices, access and accessibility with official source."
+    },
+    {
+      "route": "/cultura/acao-cidadania/",
+      "source_sha": "00f11b2083e5b47839d37bf0bccd6cd52773c10e",
+      "dictionary": "assets/js/translations/fr/cultura-acao-cidadania-paralelo.json",
+      "entries": 44,
+      "checked_strings": 44,
+      "missing_keys": 0,
+      "qa": "Visible text, metadata, alt/title and static labels mapped; JSON-LD FR and inline script verification required at integration.",
+      "editorial_review": "Verify opening hours, events, prices, access and accessibility with official source."
     }
   ],
   "totals": {
-    "prepared_pages": 26,
-    "static_dictionary_entries": 1194,
-    "total_source_translation_units": 1194
+    "prepared_pages": 28,
+    "static_dictionary_entries": 1281,
+    "total_source_translation_units": 1281
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
