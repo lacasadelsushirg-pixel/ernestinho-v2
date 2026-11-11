@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate structural and search isolation for all four locales of the pilot."""
 import argparse
+from collections import Counter
 import json
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -40,6 +41,12 @@ def verify(base, preview):
             if prefix:
                 shared = {text(n) for n in doc.xpath(PROSE)} & es_blocks
                 assert not shared, (path, 'untranslated paragraphs', sorted(shared))
+            external = '//main//a[starts-with(@href,"https://") or starts-with(@href,"http://")]/@href'
+            expected_links = Counter(link for link in es.xpath(external) if urlsplit(link).hostname != 'wa.me')
+            actual_links = Counter(link for link in doc.xpath(external) if urlsplit(link).hostname != 'wa.me')
+            assert actual_links == expected_links, (path, 'external editorial links changed',
+                                                    expected_links - actual_links,
+                                                    actual_links - expected_links)
             if locale == 'fr':
                 assert doc.xpath('//meta[@name="robots"]/@content') == ['noindex, follow']
                 assert not doc.xpath('//head/link[@rel="alternate"][@hreflang]')
