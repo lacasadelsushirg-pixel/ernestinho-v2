@@ -75,9 +75,41 @@
       "entries": 48,
       "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
       "editorial_review": "INEA, CBMERJ, marine alerts and the original dated October 2026 references should be verified against current conditions before any launch"
+    },
+    {
+      "route": "/consejos/errores-rio/",
+      "source_sha": "9289fffef2ffe39dbd746711c0d698ead9616ebf",
+      "dictionary": "assets/js/translations/fr/consejos-errores-rio-paralelo.json",
+      "entries": 29,
+      "coverage": "Spanish visible HTML, title, description/meta, img alt/aria-label: all exact source keys mapped",
+      "editorial_review": "source copy must be reviewed for current information before launch"
+    },
+    {
+      "route": "/consejos/nadie-explica/",
+      "source_sha": "9d420286a430cbaaa47e85cc3cba6b1e355c611a",
+      "dictionary": "assets/js/translations/fr/consejos-nadie-explica-paralelo.json",
+      "entries": 27,
+      "coverage": "Spanish visible HTML, title, description/meta, img alt/aria-label: all exact source keys mapped",
+      "editorial_review": "source copy must be reviewed for current information before launch"
+    },
+    {
+      "route": "/consejos/que-hacer-cada-dia/",
+      "source_sha": "6a68004673ef004ffd14f6d87d866edbdcd29852",
+      "dictionary": "assets/js/translations/fr/consejos-que-hacer-cada-dia-paralelo.json",
+      "entries": 20,
+      "coverage": "Spanish visible HTML, title, description/meta, img alt/aria-label: all exact source keys mapped",
+      "editorial_review": "Hours and activity schedules vary; confirm dates and days of operation before publishing"
+    },
+    {
+      "route": "/consejos/rio-1-a-7-dias/",
+      "source_sha": "8875e722c9f5d0bd0f46a634a1e4515d96dcbc6a",
+      "dictionary": "assets/js/translations/fr/consejos-rio-1-a-7-dias-paralelo.json",
+      "entries": 27,
+      "coverage": "Spanish visible HTML, title, description/meta, img alt/aria-label: all exact source keys mapped",
+      "editorial_review": "source copy must be reviewed for current information before launch"
     }
   ],
-  "coverage": "All 9 source pages were checked for Spanish visible text, title and description/social metadata, image alt and aria-label key coverage against FR dictionaries. No missing keys in these tested surfaces. This is translation staging, not visual, legal, medical, link or runtime QA. Source content current at recorded SHA.",
+  "coverage": "13 separate Consejos Rio source HTML pages compared to isolated Spanish→French dictionaries for visible text, title and descriptions/social metadata, img alt and aria-label. All tested source keys mapped. This is source-string coverage; runtime, photographs, responsive visual QA, legal/health accuracy and integration remain pending.",
   "next_steps": [
     "Check source SHAs and current PR24 before integrating",
     "Continue all 24 Consejos subpages and landing FR; keep sections complete",
@@ -86,6 +118,14 @@
     "Do not replace Work PR24 or current production",
     "Keep `/consejos/sol-calor/` route name as-is; its current Spanish editorial page is 'Amaneceres y atardeceres inolvidables' despite the route name.",
     "Do not mark `/consejos/portugues/` completed from HTML alone: it uses an external Portuguese phrase/audio JS module and needs dynamic content mapping and functional FR review.",
-    "Translate the remaining 15 Consejos subpages and section landing separately; audit redirects, media and dynamically generated text before publishing."
-  ]
+    "Translate the remaining 15 Consejos subpages and section landing separately; audit redirects, media and dynamically generated text before publishing.",
+    "Translate and integrate remaining 11 editorial Consejos subpages and section landing. Review dynamic Portuguese phrases/audio separately, plus large Supermercados and 50 Preguntas pages."
+  ],
+  "todo_inventory": {
+    "source_subfolders": 24,
+    "prepared_subpages": 13,
+    "remaining_subpages": 11,
+    "landing_page_pending": true,
+    "redirects_and_language_specific_images_need_review": true
+  }
 }
