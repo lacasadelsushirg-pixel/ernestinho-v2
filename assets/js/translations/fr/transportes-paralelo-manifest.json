@@ -27,13 +27,21 @@
       "entries": 80,
       "source_keys_checked": 80,
       "missing_keys": 0
+    },
+    {
+      "route": "/transportes/vlt/",
+      "source_sha": "a95a65da9a49b212ca2d37bd7ff14ad7925edd7b",
+      "dictionary": "assets/js/translations/fr/transportes-vlt-paralelo.json",
+      "entries": 70,
+      "source_keys_checked": 70,
+      "missing_keys": 0
     }
   ],
   "totals": {
     "section_routes": 13,
-    "prepared_routes": 3,
-    "pending_routes": 10,
-    "fr_dictionary_entries": 184,
+    "prepared_routes": 4,
+    "pending_routes": 9,
+    "fr_dictionary_entries": 254,
     "source_keys_missing": 0
   },
   "editorial_review": "Transport fares, timetables, route operations, payment acceptance, and accessibility are time-sensitive. Preserve original text but confirm updated official services before any public release.",
@@ -47,5 +55,11 @@
     "work_recovery_pr": 24,
     "guide_fr_pr": 25,
     "consejos_fr_pr": 26
+  },
+  "indexation_policy": {
+    "production_es_pt_en": "Maintain their existing indexability, canonicals, hreflang and indexed sitemap paths. Restoration PR #24 should not replace their original content.",
+    "french_staging": "All French previews are private and noindex and excluded from the production sitemap; draft FR dictionaries do not create public French pages.",
+    "french_release": "After URL /fr/ routing is integrated, full HTML and media parity tested, native FR canonical and reciprocal hreflang x-default/es/pt-BR/en/fr verified, 200 responses and links confirmed, build guards passed, remove noindex only for approved FR pages and include only these in the new sitemap; then submit Google Search Console.",
+    "caution": "Do not equate successful source-dictionary coverage with indexable public pages, and do not promise Google indexation."
   }
 }
