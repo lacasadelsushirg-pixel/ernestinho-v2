@@ -356,16 +356,28 @@
       "checked_strings": 23,
       "missing_keys": 0,
       "editorial_review": "Compare /compras/feira-noturna-copacabana/ (Feirarte VI) with /compras/feira-nocturna-copacabana/ before publication; potential overlapping coverage and canonical ambiguity. Confirm actual Feirarte VI location, hours and status from municipal sources. Staging dictionary only; no FR HTML or SEO."
+    },
+    {
+      "route": "/compras/feira-nocturna-copacabana/",
+      "source_sha": "6cc7d1e7e508c346b64a4e24fec785adff200ac4",
+      "dictionary": "assets/js/translations/fr/compras-feira-nocturna-copacabana-paralelo.json",
+      "entries": 50,
+      "checked_strings": 50,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-feira-nocturna-copacabana-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 3,
+      "editorial_review": "Separate official Feira Noturna Turística de Copacabana (Avenida Atlântica) from Feirarte VI at /compras/feira-noturna-copacabana/. Verify operating schedule, cultural heritage statement and venue with official sources. Stage only; dynamic D and story not yet wired to FR renderer."
     }
   ],
   "totals": {
-    "prepared_pages": 32,
-    "static_dictionary_entries": 2039,
-    "dynamic_JS_keys": 667,
-    "extra_story_paragraphs": 152,
+    "prepared_pages": 33,
+    "static_dictionary_entries": 2089,
+    "dynamic_JS_keys": 697,
+    "extra_story_paragraphs": 155,
     "coverage_missing_visible_meta_alt": 0,
     "dynamic_image_captions": 2,
-    "total_source_translation_units": 2860
+    "total_source_translation_units": 2943
   },
   "known_integration_blockers": [
     "Existing source JavaScript includes only es/pt/en as language whitelist; without integrating fr on a separate preview, French dictionaries will not render.",
