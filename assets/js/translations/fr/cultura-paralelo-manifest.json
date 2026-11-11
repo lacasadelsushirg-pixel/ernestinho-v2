@@ -157,12 +157,52 @@
       "missing_keys": 0,
       "qa": "All static visible strings, title/meta descriptions and 17 image alt strings mapped; JSON-LD must be regenerated for French HTML (name, description, inLanguage, URL).",
       "editorial_review": "Review all 17 cards, link targets, photo accuracy and institutional status before publication."
+    },
+    {
+      "route": "/cultura/caixa-cultural/",
+      "source_sha": "c3f5e149f33c5b2f844503a784eff108b47c4d73",
+      "dictionary": "assets/js/translations/fr/cultura-caixa-cultural-paralelo.json",
+      "entries": 46,
+      "checked_strings": 46,
+      "missing_keys": 0,
+      "qa": "Static visible text, title, meta descriptions and image alt/map labels checked; JSON-LD requires FR-specific rendering.",
+      "editorial_review": "Confirm operating status, dates, opening hours, booking and accessibility with official source."
+    },
+    {
+      "route": "/cultura/espaco-bndes/",
+      "source_sha": "7d7f1eb2b0dfe6ff3a95e9355d920b87e38f6c61",
+      "dictionary": "assets/js/translations/fr/cultura-espaco-bndes-paralelo.json",
+      "entries": 47,
+      "checked_strings": 47,
+      "missing_keys": 0,
+      "qa": "Static visible text, title, meta descriptions and image alt/map labels checked; JSON-LD requires FR-specific rendering.",
+      "editorial_review": "Confirm operating status, dates, opening hours, booking and accessibility with official source."
+    },
+    {
+      "route": "/cultura/correios/",
+      "source_sha": "8d94f11928e299aa724f5530eecacd87f8c4763c",
+      "dictionary": "assets/js/translations/fr/cultura-correios-paralelo.json",
+      "entries": 46,
+      "checked_strings": 46,
+      "missing_keys": 0,
+      "qa": "Static visible text, title, meta descriptions and image alt/map labels checked; JSON-LD requires FR-specific rendering.",
+      "editorial_review": "Confirm operating status, dates, opening hours, booking and accessibility with official source."
+    },
+    {
+      "route": "/cultura/helio-oiticica/",
+      "source_sha": "d2abead3c410e868d80ce8a61f96d9fa4fe05bd1",
+      "dictionary": "assets/js/translations/fr/cultura-helio-oiticica-paralelo.json",
+      "entries": 47,
+      "checked_strings": 47,
+      "missing_keys": 0,
+      "qa": "Static visible text, title, meta descriptions and image alt/map labels checked; JSON-LD requires FR-specific rendering.",
+      "editorial_review": "Confirm operating status, dates, opening hours, booking and accessibility with official source."
     }
   ],
   "totals": {
-    "prepared_pages": 16,
-    "static_dictionary_entries": 735,
-    "total_source_translation_units": 735
+    "prepared_pages": 20,
+    "static_dictionary_entries": 921,
+    "total_source_translation_units": 921
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
