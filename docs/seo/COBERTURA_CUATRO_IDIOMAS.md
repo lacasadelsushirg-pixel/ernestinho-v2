@@ -82,10 +82,10 @@ Los documentos franceses del piloto son privados y no indexables.
 | fotografia | PT-BR | 1 | 0 | 0 | 0 | 0 |
 | fotografia | EN | 1 | 0 | 0 | 0 | 0 |
 | fotografia | FR | 1 | 0 | 0 | 0 | 0 |
-| gastronomia | ES | 163 | 0 | 0 | 26 | 0 |
-| gastronomia | PT-BR | 23 | 140 | 0 | 26 | 0 |
-| gastronomia | EN | 23 | 140 | 0 | 26 | 0 |
-| gastronomia | FR | 163 | 0 | 0 | 26 | 0 |
+| gastronomia | ES | 160 | 1 | 0 | 28 | 0 |
+| gastronomia | PT-BR | 23 | 137 | 1 | 28 | 0 |
+| gastronomia | EN | 23 | 137 | 1 | 28 | 0 |
+| gastronomia | FR | 160 | 0 | 1 | 28 | 0 |
 | guia | ES | 18 | 0 | 0 | 4 | 0 |
 | guia | PT-BR | 18 | 0 | 0 | 4 | 0 |
 | guia | EN | 18 | 0 | 0 | 4 | 0 |

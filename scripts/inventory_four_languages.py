@@ -12,6 +12,10 @@ from build_fr_preview import LANGS, ROOT, ROUTES, read_page, route_file
 
 STATUSES = ('Pendiente', 'En revisión', 'Corregido o traducido', 'Validado', 'Publicado')
 COLUMNS = ('ES', 'PT-BR', 'EN', 'FR')
+# Keep known unresolved source defects visible after rebuilding the ledger.
+PENDING_CHECKS = {
+    '/gastronomia/brota/': 'Canal oficial sin identificar: la fuente enlaza a Instagram genérico. Dirección exacta pendiente de confirmación.',
+}
 RESTAURANTS = {route for route in ROUTES if route.startswith('/gastronomia/')}
 SPANISH = re.compile(r'\b(?:conviene|quienes|pide|luego|aprovecha|moverte|comprobar|puedes|según|menú|almuerzo|preguntaría|siempre|evita|consejo|guarniciones|después|aunque|reservar|horarios|una|lleva|cerca|también|donde|recorrido|ficha)\b', re.I)
 
@@ -84,6 +88,10 @@ def generate(production, reviewed, old_audit, old_index, output, revision, date)
         rows = {}
         for lang in COLUMNS:
             rows[lang] = 'Validado' if ready else 'En revisión' if lang in current else 'Pendiente'
+        pending = PENDING_CHECKS.get(route, '')
+        if ready and pending:
+            rows = dict.fromkeys(COLUMNS, 'Corregido o traducido')
+            rows['ES'] = 'En revisión'
         group = section(route)
         for lang, status in rows.items():
             totals[group][lang][status] += 1
@@ -96,7 +104,7 @@ def generate(production, reviewed, old_audit, old_index, output, revision, date)
             'ruta': route, 'seccion': group, **rows,
             'documentos_publicados': '|'.join({'PT': 'PT-BR'}.get(code, code) for code in live_lang),
             'fr_publicado': 'no', 'indexable_es': 'sí' if live_lang.get('ES', {}).get('indexable') else 'no',
-            'incidencias': ' | '.join(f'{lang}: {issue}' for lang, issue in sorted(current.items())),
+            'incidencias': ' | '.join([f'{lang}: {issue}' for lang, issue in sorted(current.items())] + ([pending] if pending else [])),
             'fuente_historica': historic, 'fecha': date if ready or current else '',
             'commit': revision if ready else live['sourceCommit'],
             'pruebas': ('Estructura, SEO y navegación 1440/390. Asistente FR pendiente de integración.'
