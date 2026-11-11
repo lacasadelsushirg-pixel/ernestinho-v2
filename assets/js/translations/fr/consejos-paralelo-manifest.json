@@ -253,5 +253,41 @@
     "Supermercados has a separate JS translation module with 196 s-keys; register the 196-key FR supplement and preserve photos, titles, alt, internal links and 14 original long-form sections.",
     "Test responsive at 390px and 1440px, images, links/affiliate conversions, footer, site navigation, noindex, canonical/hreflang, sitemap and all frozen-page guard scripts.",
     "Verify time-sensitive facts and laws (pet entry, sea safety, pharmacies, insurance, customs, immigration) before public release."
+  ],
+  "quality_gate": {
+    "status": "SOURCE_STRING_COVERAGE_PASSED__BROWSER_VISUAL_RUNTIME_PENDING",
+    "verified_routes": 25,
+    "source_sha_matches": 25,
+    "source_html_strings_missing": 0,
+    "dictionary_entry_counts_match": 25,
+    "individual_es_fr_entries": 1207,
+    "dynamic_supermercados_js_keys_mapped": 196,
+    "portuguese_phrase_meanings_fr": 80,
+    "portuguese_categories_fr": 10,
+    "portuguese_false_friends_fr": 8,
+    "surfaces": [
+      "visible HTML text nodes after stripping scripts",
+      "document title",
+      "meta description and common OG/Twitter content",
+      "image alt and aria-label"
+    ],
+    "not_yet_verified": [
+      "French page generator integration",
+      "FR selector support in existing site i18n.js",
+      "audio play/slow functionality in FR",
+      "Supermercados translated JavaScript output at runtime",
+      "broken links and assets",
+      "mobile/desktop screenshots",
+      "quality of human French copyediting",
+      "factual updates regarding legislation/services",
+      "indexed/noindex and sitemap/canonical/hreflang"
+    ]
+  },
+  "remaining_validation": [
+    "FR dictionaries are staged only. Add FR to language routing and i18n runtime in a coordinated integration with Work PR #24 without regressing ES/PT/EN.",
+    "Generate private noindex FR preview for all 25 Consejos routes using current source SHA and correct destination links; avoid broken links to untranslated destinations.",
+    "Ensure 80 Portuguese audio phrases and 196 Supermercados s-keys render in FR and work in the browser; test 390px/1440px.",
+    "Update time-sensitive data using authoritative sources and review French copy before release.",
+    "Build and run frozen page guards and SEO checks, and keep public sitemap clean until completion."
   ]
 }
