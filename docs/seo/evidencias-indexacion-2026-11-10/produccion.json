@@ -1,0 +1,15 @@
+{
+  "fecha_consulta": "2026-11-10",
+  "sourceCommit": "9426c42fc0150bdce5fbfee060396da9de518ac7",
+  "documentos_declarados": 3612,
+  "documentos_en_manifiesto": 3612,
+  "rutas_fuente": 1204,
+  "indexables_por_idioma": 1196,
+  "sitemap_url": 3588,
+  "sitemap_faltantes": [],
+  "sitemap_sobrantes": [],
+  "sitemap_sha256": "538af42fd1d4061a3f23321f8045d0ff12f06ee8e89973e3b201baa387e9c99d",
+  "manifest_sha256": "30ca1288e6df61b5e7dd82ef94e1eac0d93488ec581ea54bddc96688a2e9bfb2",
+  "fr_en_manifiesto": 0,
+  "limite": "Recuento del manifiesto servido y sitemap; no es un censo de todos los archivos fisicos de public_html."
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/gastronomia/gruta-do-fado",
+    "status": 301,
+    "location": "https://www.ernestinhocarioca.com.br/gastronomia/gruta-do-fado/"
+  },
+  {
+    "path": "/gastronomia/la-fiorentina-ipanema",
+    "status": 301,
+    "location": "https://www.ernestinhocarioca.com.br/gastronomia/la-fiorentina-ipanema/"
+  },
+  {
+    "path": "/barrios/copacabana",
+    "status": 301,
+    "location": "https://www.ernestinhocarioca.com.br/barrios/copacabana/"
+  }
+]

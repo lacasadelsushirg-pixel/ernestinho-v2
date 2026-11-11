@@ -1,0 +1,65 @@
+[
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "final_url": "https://www.ernestinhocarioca.com.br/sitemap.xml",
+    "canonical": [],
+    "urls": 3588
+  },
+  {
+    "path": "/gastronomia/gruta-do-fado",
+    "status": 200,
+    "final_url": "https://www.ernestinhocarioca.com.br/gastronomia/gruta-do-fado/",
+    "canonical": [
+      "https://www.ernestinhocarioca.com.br/gastronomia/gruta-do-fado/"
+    ]
+  },
+  {
+    "path": "/gastronomia/gruta-do-fado/",
+    "status": 200,
+    "final_url": "https://www.ernestinhocarioca.com.br/gastronomia/gruta-do-fado/",
+    "canonical": [
+      "https://www.ernestinhocarioca.com.br/gastronomia/gruta-do-fado/"
+    ]
+  },
+  {
+    "path": "/gastronomia/la-fiorentina-ipanema",
+    "status": 200,
+    "final_url": "https://www.ernestinhocarioca.com.br/gastronomia/la-fiorentina-ipanema/",
+    "canonical": [
+      "https://www.ernestinhocarioca.com.br/gastronomia/la-fiorentina-ipanema/"
+    ]
+  },
+  {
+    "path": "/gastronomia/la-fiorentina-ipanema/",
+    "status": 200,
+    "final_url": "https://www.ernestinhocarioca.com.br/gastronomia/la-fiorentina-ipanema/",
+    "canonical": [
+      "https://www.ernestinhocarioca.com.br/gastronomia/la-fiorentina-ipanema/"
+    ]
+  },
+  {
+    "path": "/en/destinos/buzios/playas/armacao/",
+    "status": 200,
+    "final_url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/armacao/",
+    "canonical": [
+      "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/armacao/"
+    ]
+  },
+  {
+    "path": "/barrios/copacabana",
+    "status": 200,
+    "final_url": "https://www.ernestinhocarioca.com.br/barrios/copacabana/",
+    "canonical": [
+      "https://www.ernestinhocarioca.com.br/barrios/copacabana/"
+    ]
+  },
+  {
+    "path": "/pt/vida-nocturna/pizzaria-canastra/",
+    "status": 200,
+    "final_url": "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/pizzaria-canastra/",
+    "canonical": [
+      "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/pizzaria-canastra/"
+    ]
+  }
+]
