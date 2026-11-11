@@ -87,12 +87,32 @@
       "missing_keys": 0,
       "qa": "Static text, SEO metadata, image alt and map titles inspected. Inline scripts checked for long ES text. FR HTML rendering not integrated.",
       "editorial_review": "Verify institution operating status, hours, admission, accessibility and reservations with official source before publication."
+    },
+    {
+      "route": "/cultura/casa-da-leitura/",
+      "source_sha": "7d4137f2b293a5901d329b53232131ee37842b36",
+      "dictionary": "assets/js/translations/fr/cultura-casa-da-leitura-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "All visible static strings and selected meta/alt/map attributes compared to dictionary; no missing strings in inspected set. Not rendered in FR.",
+      "editorial_review": "Verify opening hours, accessibility, reservation and institutional status before publishing."
+    },
+    {
+      "route": "/cultura/midiateca-crab/",
+      "source_sha": "f204ac6505438bf46a7c0ee9ecd3a09232c9e7fa",
+      "dictionary": "assets/js/translations/fr/cultura-midiateca-crab-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "All visible static strings and selected meta/alt/map attributes compared to dictionary; no missing strings in inspected set. Not rendered in FR.",
+      "editorial_review": "Verify opening hours, accessibility, reservation and institutional status before publishing."
     }
   ],
   "totals": {
-    "prepared_pages": 9,
-    "static_dictionary_entries": 396,
-    "total_source_translation_units": 396
+    "prepared_pages": 11,
+    "static_dictionary_entries": 482,
+    "total_source_translation_units": 482
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
