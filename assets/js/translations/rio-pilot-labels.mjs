@@ -1341,4 +1341,202 @@ export const pilotLabels = {
       "The menu and availability may change. Check before going."
     ]
   },
+  "/gastronomia/brota/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Brota": [
+      "Mapa de Brota",
+      "Map of Brota"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "En Brota, la gracia está en explorar cocina vegetal autoral, no en buscar sustitutos exactos de platos de carne. Consulta qué preparaciones son completamente veganas y cuáles vegetarianas, y pregunta por alérgenos si corresponde. La carta de temporada puede cambiar, así que prefiero sugerir sabores y texturas antes que asegurar un plato fijo.": [
+      "No Brota, explore a criatividade da cozinha vegetal. Pergunte quais preparações são veganas, quais são vegetarianas e quais alérgenos contêm. O cardápio muda conforme a temporada, então prefiro sugerir sabores e texturas e confirmar os pratos do dia.",
+      "At Brota, explore the creativity of vegetable cooking. Ask which dishes are fully vegan, which are vegetarian and what allergens they contain. The seasonal menu may change, so I prefer to suggest flavors and textures and check the dishes available that day."
+    ],
+    "Para una salida gastronómica por Botafogo, Brota funciona mejor como una comida elegida con tiempo que como una parada apresurada. Revisa horario y reservas antes de ir, especialmente si quieres una mesa en un momento concurrido.": [
+      "Em Botafogo, reserve tempo para aproveitar a refeição no Brota. Confira horários e reservas antes de sair, principalmente se quiser uma mesa num momento movimentado.",
+      "In Botafogo, allow time to enjoy a meal at Brota. Check the hours and booking ahead of your visit, especially if you want a table at a busy time."
+    ],
+    "Brota: fotografía 1": [
+      "Brota: foto 1",
+      "Brota: photo 1"
+    ],
+    "Brota: fotografía 3": [
+      "Brota: foto 3",
+      "Brota: photo 3"
+    ],
+    "Brota: fotografía 6": [
+      "Brota: foto 6",
+      "Brota: photo 6"
+    ],
+    "Brota: fotografía 7": [
+      "Brota: foto 7",
+      "Brota: photo 7"
+    ]
+  },
+  "/gastronomia/noa-ipanema/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Nôa Ipanema": [
+      "Mapa de Nôa Ipanema",
+      "Map of Nôa Ipanema"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Si prefieres una mesa al aire libre en Noa Ipanema, comprueba qué zonas están protegidas de la lluvia. Pregunta por el menú disponible y por cualquier condición adicional del servicio; las fotos de redes pueden mostrar eventos o montajes que no se repiten todos los días.": [
+      "Para uma mesa ao ar livre no Nôa Ipanema, confira quais áreas são protegidas da chuva. Pergunte pelo cardápio disponível e pelas condições do serviço. Fotos nas redes podem mostrar eventos ou montagens que acontecem só em algumas ocasiões.",
+      "For an outdoor table at Nôa Ipanema, check which areas are sheltered from rain. Ask about the available menu and service terms. Social media photos may show special events or setups used only on certain occasions."
+    ],
+    "Puedes combinar una comida con un paseo por Ipanema, eligiendo el horario según el ambiente que busques. Una reserva con la ubicación exacta evita confusiones y ayuda a organizar el día.": [
+      "Combine a refeição com um passeio por Ipanema e escolha o horário conforme o ambiente desejado. Uma reserva no endereço exato ajuda a organizar o dia.",
+      "Pair the meal with a walk around Ipanema and choose the time to suit the atmosphere you want. Booking at the exact address helps you plan the day."
+    ],
+    "Cocina costera": [
+      "Cozinha costeira",
+      "Coastal cooking"
+    ],
+    "Pescados": [
+      "Peixes",
+      "Fish"
+    ],
+    "Pastas": [
+      "Massas",
+      "Pasta"
+    ],
+    "Terraza": [
+      "Terraço",
+      "Terrace"
+    ],
+    "Ambiente del Nôa Ipanema": [
+      "Ambiente do Nôa Ipanema",
+      "Inside Nôa Ipanema"
+    ],
+    "La terraza conecta la mesa con el barrio.": [
+      "O terraço conecta a mesa ao bairro.",
+      "The terrace connects the table with the neighborhood."
+    ],
+    "El restaurante publica horario diario; carta, terraza y reservas pueden variar.": [
+      "O restaurante anuncia atendimento diário. Cardápio, terraço e reservas podem variar.",
+      "The restaurant lists daily hours. The menu, terrace availability and bookings may vary."
+    ],
+    "Salón del Nôa": [
+      "Salão do Nôa",
+      "Nôa’s dining room"
+    ],
+    "Una sala preparada para quedarse.": [
+      "Um salão para ficar com calma.",
+      "A dining room where you can take your time."
+    ],
+    "La propuesta favorece compartir.": [
+      "A proposta convida a compartilhar.",
+      "The menu encourages sharing."
+    ],
+    "Detalle de la casa": [
+      "Detalhe da casa",
+      "A detail of the venue"
+    ],
+    "La cocina costera es el hilo conductor.": [
+      "A cozinha costeira dá o fio condutor.",
+      "Coastal cooking is the common thread."
+    ],
+    "Plato del Nôa": [
+      "Prato do Nôa",
+      "A dish at Nôa"
+    ],
+    "La disponibilidad debe confirmarse en la carta.": [
+      "Confira a disponibilidade no cardápio.",
+      "Check availability on the menu."
+    ],
+    "La galería conserva las ocho fotografías recibidas, sin repetir imágenes.": [
+      "A galeria mantém as oito fotos recebidas, sem repetir imagens.",
+      "The gallery keeps all eight supplied photographs, with a different image each time."
+    ],
+    "Preparación para compartir": [
+      "Preparação para compartilhar",
+      "A dish to share"
+    ],
+    "Una mesa generosa pide comer sin apuro.": [
+      "Uma mesa generosa convida a comer com calma.",
+      "A generous table invites you to take your time."
+    ],
+    "Interior del Nôa": [
+      "Interior do Nôa",
+      "Inside Nôa"
+    ],
+    "El espacio acompaña almuerzos y cenas.": [
+      "O espaço acompanha almoços e jantares.",
+      "The space suits lunch and dinner."
+    ],
+    "Experiencia en Ipanema": [
+      "Experiência em Ipanema",
+      "An outing in Ipanema"
+    ],
+    "La ubicación es parte del programa.": [
+      "A localização faz parte do passeio.",
+      "The location is part of the outing."
+    ],
+    "Cocina costera · Pescados · Pastas · Terraza · Almuerzo": [
+      "Cozinha costeira · Peixes · Massas · Terraço · Almoço",
+      "Coastal cooking · Fish · Pasta · Terrace · Lunch"
+    ],
+    "Pescados, frutos del mar y preparaciones creativas en un casarón acogedor.": [
+      "Peixes, frutos do mar e preparações criativas em um casarão acolhedor.",
+      "Fish, seafood and creative cooking in a welcoming house."
+    ]
+  },
+  "/gastronomia/bar-do-mineiro/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Bar do Mineiro": [
+      "Mapa de Bar do Mineiro",
+      "Map of Bar do Mineiro"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Imagen 1 de Bar do Mineiro.": [
+      "Foto 1 do Bar do Mineiro.",
+      "Photo 1 of Bar do Mineiro."
+    ],
+    "Imagen 2 de Bar do Mineiro.": [
+      "Foto 2 do Bar do Mineiro.",
+      "Photo 2 of Bar do Mineiro."
+    ],
+    "Imagen 3 de Bar do Mineiro.": [
+      "Foto 3 do Bar do Mineiro.",
+      "Photo 3 of Bar do Mineiro."
+    ],
+    "Imagen 4 de Bar do Mineiro.": [
+      "Foto 4 do Bar do Mineiro.",
+      "Photo 4 of Bar do Mineiro."
+    ],
+    "Imagen 5 de Bar do Mineiro.": [
+      "Foto 5 do Bar do Mineiro.",
+      "Photo 5 of Bar do Mineiro."
+    ]
+  },
 };

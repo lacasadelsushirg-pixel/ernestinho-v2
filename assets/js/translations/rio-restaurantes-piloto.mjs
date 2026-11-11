@@ -172,4 +172,35 @@ export const updatedFacts = {
       "17": "Rua Conde de Azambuja, 881. Phone (21) 2501-4175."
     }
   },
+  "/gastronomia/brota/": {
+    "pt": {
+      "11": "🌐 <strong>Site / Instagram</strong><br><a class=\"btn\" href=\"https://www.instagram.com/\" target=\"_blank\" rel=\"noopener\">Abrir canal oficial</a>"
+    },
+    "en": {
+      "11": "🌐 <strong>Website / Instagram</strong><br><a class=\"btn\" href=\"https://www.instagram.com/\" target=\"_blank\" rel=\"noopener\">Open official channel</a>"
+    }
+  },
+  "/gastronomia/noa-ipanema/": {
+    "pt": {
+      "2": "A casa define sua proposta como cozinha costeira, com peixes do dia, massas próprias e carnes de sabor marcante. A localização na Garcia D’Ávila a conecta a uma região de restaurantes, lojas e movimento noturno. A ideia é uma mesa generosa e sem cerimônia excessiva, com produtos do mar e opções para diferentes apetites.",
+      "4": "O cardápio e as referências públicas apontam para peixes do dia, massas e pratos compartilháveis. Eu perguntaria pelo melhor pescado antes de escolher o principal. O linguine com camarões une massa e mar. Para a mesa, escolheria uma entrada coletiva e deixaria o peixe como protagonista. Se o grupo preferir carne, a casa também oferece cortes de sabor marcante. Ainda assim, eu aproveitaria para conhecer a cozinha costeira que dá identidade ao restaurante.",
+      "5": "O almoço aproveita a luz do terraço e funciona depois da praia ou das compras. A tarde pode ser mais tranquila para conversar. O jantar concentra o movimento e torna a reserva mais importante. A casa anuncia atendimento diário até a noite. Confira o horário da cozinha antes de planejar chegar tarde.",
+      "6": "Eu pediria uma mesa no terraço e confirmaria se ela fica protegida da chuva. Também perguntaria pelo peixe disponível e pelo tamanho da preparação para uma mesa que quer compartilhar. Os produtos recebidos no dia podem orientar melhor o pedido que uma escolha fechada a partir de fotos antigas.",
+      "17": "O Nôa fica na Rua Garcia D’Ávila, 135, em Ipanema. Nossa Senhora da Paz está a uma curta caminhada. Desde a praia, siga pelas ruas internas até Garcia D’Ávila. De carro, use o número e o bairro completos, pois a região reúne vários restaurantes com nomes parecidos."
+    },
+    "en": {
+      "2": "The restaurant describes its cooking as coastal, with fish of the day, house-made pasta and flavorful meats. Its Garcia D’Ávila address is in a part of Ipanema with restaurants, shops and nightlife. The idea is a generous, relaxed table where seafood sits alongside dishes for different appetites.",
+      "4": "The menu and public listings point to fish of the day, pasta and dishes to share. I would ask which fish arrived in the best condition before choosing a main. Shrimp linguine combines pasta and seafood. For the table, I would choose a shared starter and make fish the centerpiece. There are also flavorful meat cuts for those who prefer them. I would still take the opportunity to try the coastal cooking that gives the restaurant its identity.",
+      "5": "Lunch makes the most of the terrace light and fits a break after the beach or shopping. Afternoons may be quieter for talking. Dinner brings more activity and makes booking more important. The restaurant advertises daily service into the evening. Check kitchen hours before planning a late arrival.",
+      "6": "I would request a terrace table and check whether it is sheltered from rain. I would also ask what fish is available and how large the dish is for a group that wants to share. The kitchen’s arrivals that day can offer better guidance than a fixed choice from older online photos.",
+      "17": "Nôa is at Rua Garcia D’Ávila, 135, in Ipanema. Nossa Senhora da Paz metro is a short walk away. From the beach, walk inland through the neighborhood to Garcia D’Ávila. For a car journey, enter the full number and neighborhood, as there are several restaurants with similar names in the area."
+    }
+  },
+  "/gastronomia/bar-do-mineiro/": {
+    "en": {
+      "4": "Feijoada is the most obvious way to get to know the restaurant if it is on the day’s menu. For sharing, frango com quiabo e angu, chicken with okra and a cornmeal preparation, offers another regional dish. Small feijoada pastries make a starter without committing to a large platter. I would ask about the current snacks and leave room to decide between a caipirinha and a beer depending on the heat and how long we plan to stay.",
+      "13": "☎️ <strong>Contact</strong><br>(21) 2221-9227. Some recent listings also give (21) 98542-1320.",
+      "17": "The address is Rua Paschoal Carlos Magno, 99, in Santa Teresa’s dining area. From downtown, you can combine a taxi or ride-hailing journey with the Santa Teresa tram when its service and hours allow. The final stretch is steep and cobbled. After dinner, I would plan a car journey back and check the route ahead of time."
+    }
+  },
 };
