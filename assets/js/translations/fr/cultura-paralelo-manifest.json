@@ -1,0 +1,38 @@
+{
+  "project": "Ernestinho Carioca — Culture FR parallel staging",
+  "source_branch": "revision/rendimiento-traducciones-81a904c",
+  "branch": "traduccion/cultura-fr-paralelo-20261111",
+  "status": "DICT_STAGING_NOT_RENDERED_NOT_INDEXED",
+  "scope": [
+    {
+      "route": "/cultura/biblioteca-ccbb/",
+      "source_sha": "4ebb6bedc49db8c1c747238d65efca4ef5a2c86b",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-ccbb-paralelo.json",
+      "entries": 43,
+      "qa": "All HTML text nodes, visible labels, title, metadata and alt/map attributes compared against dictionary; no untranslated Spanish strings in inspected static set. Inline JS checked; no editorial dynamic arrays observed.",
+      "editorial_review": "Verify operating hours, admission, booking, accessible routes and institution status against official sources before publishing."
+    },
+    {
+      "route": "/cultura/biblioteca-ccjf/",
+      "source_sha": "0990178a0c23cd1d587f809a0fd7013ec0715a65",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-ccjf-paralelo.json",
+      "entries": 44,
+      "qa": "All HTML text nodes, visible labels, title, metadata and alt/map attributes compared against dictionary; no untranslated Spanish strings in inspected static set. Inline JS checked; no editorial dynamic arrays observed.",
+      "editorial_review": "Verify operating hours, admission, booking, accessible routes and institution status against official sources before publishing."
+    },
+    {
+      "route": "/cultura/biblioteca-ims/",
+      "source_sha": "f2fb1c0bdb95c1a2110f8d06fa474429047412d1",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-ims-paralelo.json",
+      "entries": 44,
+      "qa": "All HTML text nodes, visible labels, title, metadata and alt/map attributes compared against dictionary; no untranslated Spanish strings in inspected static set. Inline JS checked; no editorial dynamic arrays observed.",
+      "editorial_review": "Verify operating hours, admission, booking, accessible routes and institution status against official sources before publishing."
+    }
+  ],
+  "totals": {
+    "prepared_pages": 3,
+    "static_dictionary_entries": 131,
+    "total_source_translation_units": 131
+  },
+  "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
+}
