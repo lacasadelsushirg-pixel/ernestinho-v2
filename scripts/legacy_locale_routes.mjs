@@ -43,6 +43,7 @@ export const legacyLocaleRoutes = new Map([
   ['/gastronomia/nido-ristorante/', ['f', 'full']],
   ['/gastronomia/corrientes-348/', ['setLang', 'full']],
   ['/gastronomia/praia-skol-copa/', ['f', 'full']],
+  ['/gastronomia/don-camillo/', ['setLang', 'full']],
 ]);
 
 export function hideDuplicateLegacySelector(html, route) {

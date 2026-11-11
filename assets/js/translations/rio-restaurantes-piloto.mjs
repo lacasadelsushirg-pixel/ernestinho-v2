@@ -24,6 +24,16 @@ export default {
 
 // Keep the qualifiers and formatting added to the approved practical notes.
 export const updatedFacts = {
+  '/gastronomia/don-camillo/': {
+    pt: {
+      13: '☎️ <strong>Contato</strong><br>Canal oficial atual: (21) 2255-5126. A Riotur ainda lista outro telefone histórico; use o canal oficial para confirmar.',
+      16: '🚇 <strong>Transporte</strong><br>Metrô Cantagalo e caminhada pela Rua Bolívar; ônibus, táxi ou transporte por aplicativo em Copacabana.',
+    },
+    en: {
+      10: '🕐 <strong>Opening hours</strong><br>Daily 12 noon–midnight, according to the official channel and Riotur. Confirm kitchen hours, music and last orders.',
+      13: '☎️ <strong>Contact</strong><br>Current official number: (21) 2255-5126. Riotur still lists a different historical number; use the official channel to confirm.',
+    },
+  },
   '/gastronomia/casa-201/': {
     pt: {
       10: '🕐 <strong>Horários</strong><br>De terça a sábado, chegada às 20h. Domingo e segunda fechados, segundo referências públicas. Apenas com reserva.',

@@ -2214,4 +2214,23 @@ export const pilotLabels = {
       "The visit is a break by the sea during a walk around Copacabana. Consider the weather and beach crowds, and check the exact kiosk."
     ]
   },
+    "/gastronomia/don-camillo/": {
+      "En Don Camillo, la ubicación junto a la orla importa tanto como la comida. Antes de reservar, averigua si habrá música en vivo, si existe couvert artístico y si el lugar de la mesa es interior o exterior. Una diferencia de ubicación puede cambiar por completo la experiencia, especialmente con viento o lluvia.": [
+        "No Don Camillo, a localização à beira-mar importa tanto quanto a comida. Antes de reservar, descubra se haverá música ao vivo, se há couvert artístico e se a mesa fica dentro ou fora. A localização da mesa pode mudar completamente a experiência, sobretudo com vento ou chuva.",
+        "At Don Camillo, the waterfront setting matters as much as the food. Before booking, ask whether there will be live music, whether there is a cover charge and whether the table is indoors or outdoors. Where you sit can change the experience completely, especially in wind or rain."
+      ],
+      "Después de pasear por Copacabana, esta puede ser una parada para cenar o disfrutar del ambiente de playa. Consulta el horario de la cocina y los valores actuales: estar frente al mar no significa que todos los espacios o servicios tengan el mismo precio.": [
+        "Depois de passear por Copacabana, este pode ser um lugar para jantar ou aproveitar o clima de praia. Confira o horário da cozinha e os preços atuais: estar de frente para o mar não significa que todos os espaços ou serviços custem o mesmo.",
+        "After exploring Copacabana, this can be a stop for dinner or a chance to enjoy the beach atmosphere. Check kitchen hours and current prices: a waterfront setting does not mean every seating area or service costs the same."
+      ],
+      "🌐 Sitio oficial": [
+        "🌐 Site oficial",
+        "🌐 Official website"
+      ],
+      "Mapa de Don Camillo": [
+        "Mapa do Don Camillo",
+        "Map of Don Camillo"
+      ]
+    }
+,
 };
