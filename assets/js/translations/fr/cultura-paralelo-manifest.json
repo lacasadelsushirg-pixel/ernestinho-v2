@@ -297,12 +297,22 @@
       "missing_keys": 0,
       "qa": "Static visible text, meta/title and image attributes mapped; inline script contains JSON-LD only and external site.js, both require FR rendering review.",
       "editorial_review": "Confirm military museum opening hours, access, group reservations and accessibility with official source."
+    },
+    {
+      "route": "/cultura/benjamin-constant/",
+      "source_sha": "9575a0c4c48704d9260f9c05e8e762e3339ace59",
+      "dictionary": "assets/js/translations/fr/cultura-benjamin-constant-paralelo.json",
+      "entries": 60,
+      "checked_strings": 60,
+      "missing_keys": 0,
+      "qa": "Static visible text, meta/title and image attributes mapped; inline JSON-LD and external site.js require FR rendering integration.",
+      "editorial_review": "Officially verify museum and park opening hours, accessibility and group visit conditions before publishing."
     }
   ],
   "totals": {
-    "prepared_pages": 30,
-    "static_dictionary_entries": 1400,
-    "total_source_translation_units": 1400
+    "prepared_pages": 31,
+    "static_dictionary_entries": 1460,
+    "total_source_translation_units": 1460
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
