@@ -357,12 +357,52 @@
       "missing_keys": 0,
       "qa": "Full Spanish HTML read; all static visible strings, metadata and image attributes mapped; inline JSON-LD and external site.js require FR rendering validation.",
       "editorial_review": "Verify opening hours, exhibitions, accessibility and collection statistics with the museum before publication."
+    },
+    {
+      "route": "/cultura/antiga-se/",
+      "source_sha": "2d5f76e186baa8bf415b871bfd46a73e86e9bd1d",
+      "dictionary": "assets/js/translations/fr/cultura-antiga-se-paralelo.json",
+      "entries": 37,
+      "checked_strings": 37,
+      "missing_keys": 0,
+      "qa": "Complete static visible text, title, meta, image alt and attribute strings inspected; inline JSON-LD and site.js not yet rendered in FR.",
+      "editorial_review": "Verify current access, opening, programming, booking and accessibility with official operator before publication."
+    },
+    {
+      "route": "/cultura/armando-gonzaga/",
+      "source_sha": "5fcd0aa261b95c0897de5d924e81dfa6a5d7d6b8",
+      "dictionary": "assets/js/translations/fr/cultura-armando-gonzaga-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Complete static visible text, title, meta, image alt and attribute strings inspected; inline JSON-LD and site.js not yet rendered in FR.",
+      "editorial_review": "Verify current access, opening, programming, booking and accessibility with official operator before publication."
+    },
+    {
+      "route": "/cultura/arthur-azevedo/",
+      "source_sha": "6e17f3b04d3edd652592d77845d918560ed67f8d",
+      "dictionary": "assets/js/translations/fr/cultura-arthur-azevedo-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Complete static visible text, title, meta, image alt and attribute strings inspected; inline JSON-LD and site.js not yet rendered in FR.",
+      "editorial_review": "Verify current access, opening, programming, booking and accessibility with official operator before publication."
+    },
+    {
+      "route": "/cultura/bonsucesso/",
+      "source_sha": "856092b03902a914b72270e997a9984ae8bbb45b",
+      "dictionary": "assets/js/translations/fr/cultura-bonsucesso-paralelo.json",
+      "entries": 37,
+      "checked_strings": 37,
+      "missing_keys": 0,
+      "qa": "Complete static visible text, title, meta, image alt and attribute strings inspected; inline JSON-LD and site.js not yet rendered in FR.",
+      "editorial_review": "Verify current access, opening, programming, booking and accessibility with official operator before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 36,
-    "static_dictionary_entries": 1725,
-    "total_source_translation_units": 1725
+    "prepared_pages": 40,
+    "static_dictionary_entries": 1879,
+    "total_source_translation_units": 1879
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
