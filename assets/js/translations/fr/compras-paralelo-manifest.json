@@ -63,11 +63,20 @@
       "dynamic_supplement": "assets/js/translations/fr/compras-rio-sul-dinamico-paralelo.json",
       "dynamic_js_keys": 33,
       "dynamic_story_paragraphs": 4
+    },
+    {
+      "route": "/compras/feira-saens-pena/",
+      "source_sha": "d05fcc20bb8a6d318fed3a33b67b3d29575cde2a",
+      "dictionary": "assets/js/translations/fr/compras-feira-saens-pena-paralelo.json",
+      "entries": 17,
+      "checked_strings": 17,
+      "missing_keys": 0,
+      "editorial_review": "Source article is intentionally very short; date-sensitive Feirarte III schedule from municipal Rio 1746 should be reverified. Do not fabricate content to inflate coverage."
     }
   ],
   "totals": {
-    "prepared_pages": 6,
-    "static_dictionary_entries": 275,
+    "prepared_pages": 7,
+    "static_dictionary_entries": 292,
     "dynamic_JS_keys_in_two_pages": 63,
     "extra_story_paragraphs": 8,
     "coverage_missing_visible_meta_alt": 0
