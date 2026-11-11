@@ -163,13 +163,58 @@
       "dynamic_js_keys": 30,
       "dynamic_story_paragraphs": 3,
       "editorial_review": "ABIO organic Glória Saturday, 7–13, Rua do Russell and organic certification claims must be checked; not the Sunday Glória general market. Preserve both distinct."
+    },
+    {
+      "route": "/compras/shopping-tijuca/",
+      "source_sha": "9b9e5a4795f4734062d696fd1ca28e24d0466472",
+      "dictionary": "assets/js/translations/fr/compras-shopping-tijuca-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "review": "Confirm current shop directory, official access, services and opening hours before publishing."
+    },
+    {
+      "route": "/compras/cadeg/",
+      "source_sha": "5df1273ad716d0e9a3c8b9022988be5941cd1be5",
+      "dictionary": "assets/js/translations/fr/compras-cadeg-paralelo.json",
+      "entries": 65,
+      "checked_strings": 54,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-cadeg-dinamico-paralelo.json",
+      "dynamic_js_keys": 36,
+      "dynamic_story_paragraphs": 4,
+      "review": "Check commerce opening hours, stall listings, food safety and accessibility."
+    },
+    {
+      "route": "/compras/feira-da-gloria/",
+      "source_sha": "8cf687fb5546a459fca94195ef47972d33c32717",
+      "dictionary": "assets/js/translations/fr/compras-feira-da-gloria-paralelo.json",
+      "entries": 78,
+      "checked_strings": 69,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-feira-da-gloria-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "review": "Sunday street market is distinct from Saturday organic market Feira Orgânica da Glória. Confirm hours before release."
+    },
+    {
+      "route": "/compras/feira-hippie-ipanema/",
+      "source_sha": "41377da5d327da8cc7e58ee906fc68833b4a4374",
+      "dictionary": "assets/js/translations/fr/compras-feira-hippie-ipanema-paralelo.json",
+      "entries": 77,
+      "checked_strings": 68,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-feira-hippie-ipanema-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "review": "Check Sunday schedules and artisan gallery photos before release."
     }
   ],
   "totals": {
-    "prepared_pages": 15,
-    "static_dictionary_entries": 812,
-    "dynamic_JS_keys": 335,
-    "extra_story_paragraphs": 21,
+    "prepared_pages": 19,
+    "static_dictionary_entries": 1072,
+    "dynamic_JS_keys": 431,
+    "extra_story_paragraphs": 33,
     "coverage_missing_visible_meta_alt": 0
   },
   "known_integration_blockers": [
