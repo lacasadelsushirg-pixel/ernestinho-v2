@@ -1,0 +1,40 @@
+{
+  "project": "Ernestinho Carioca - Consejos de Rio / FR parallel",
+  "base_branch": "revision/rendimiento-traducciones-81a904c",
+  "coordination": {
+    "work_pr": 24,
+    "guide_fr_pr": 25,
+    "work_scope": "Gastronomía y recuperación ES/PT/EN",
+    "this_scope": "Consejos FR only"
+  },
+  "status": "translation_only_not_integrated_not_published",
+  "freeze": "Source HTML, CSS, links, media and production not changed. Source PT-BR/EN remain untouched.",
+  "scope": [
+    {
+      "route": "/consejos/revisar-alojamiento/",
+      "source_sha": "61a669eb88ad456743ae7cb69522e5c1a11469a7",
+      "dictionary": "assets/js/translations/fr/consejos-revisar-alojamiento-paralelo.json",
+      "entries": 17
+    },
+    {
+      "route": "/consejos/electricidad-adaptadores/",
+      "source_sha": "77bfbef77779c33f31ec0bd41e2bd477d7521ba1",
+      "dictionary": "assets/js/translations/fr/consejos-electricidad-adaptadores-paralelo.json",
+      "entries": 34
+    },
+    {
+      "route": "/consejos/maletas-rio/",
+      "source_sha": "b6d4b9d87b4ca1b4571b449ab137fcd3e1e88a4b",
+      "dictionary": "assets/js/translations/fr/consejos-maletas-rio-paralelo.json",
+      "entries": 51
+    }
+  ],
+  "coverage": "Exact source visible text, metadata title/description and image alt / aria-label keys compared to dictionaries. This is source coverage only; no preview render, mobile QA, copyedit or publication.",
+  "next_steps": [
+    "Check source SHAs and current PR24 before integrating",
+    "Continue all 24 Consejos subpages and landing FR; keep sections complete",
+    "Build private noindex French preview with photos, affiliate links, mobile and desktop checks",
+    "Run freeze guards and SEO checks before any PR merging",
+    "Do not replace Work PR24 or current production"
+  ]
+}
