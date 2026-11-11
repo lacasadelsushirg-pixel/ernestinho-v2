@@ -80,16 +80,48 @@
       "file": "assets/js/translations/fr/guia-alquiler-auto-paralelo.json",
       "entries": 42,
       "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/terminales/",
+      "source_sha": "f57c0635f2688ee47c3ffc0d77ea6b5581a950e5",
+      "file": "assets/js/translations/fr/guia-terminales-paralelo.json",
+      "entries": 48,
+      "coverage": "text_alt_metadata_complete",
+      "editorial_review": "check current Pier Mauá operational notices and VLT routing prior to publishing"
+    },
+    {
+      "route": "/guia/accesibilidad/",
+      "source_sha": "e9317100deb5b2661120e9dfd84fa5c5afb0c3f5",
+      "file": "assets/js/translations/fr/guia-accesibilidad-paralelo.json",
+      "entries": 50,
+      "coverage": "text_alt_metadata_complete",
+      "editorial_review": "check accessibility status, reduced-mobility access and transit fare eligibility before publishing"
+    },
+    {
+      "route": "/guia/viajar-solo/",
+      "source_sha": "0584652ac11116d17fe716b4049589c79da873fe",
+      "file": "assets/js/translations/fr/guia-viajar-solo-paralelo.json",
+      "entries": 52,
+      "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/seguro/",
+      "source_sha": "6c21663d3da2349b794cfa1adc1b2db0e41d32ab",
+      "file": "assets/js/translations/fr/guia-seguro-paralelo.json",
+      "entries": 63,
+      "coverage": "text_alt_metadata_complete",
+      "editorial_review": "check insurance disclosures, external affiliate links, emergency care accuracy and the assistance phone number before publishing"
     }
   ],
-  "coverage_test": "Exact ES text keys checked on 10 source HTML pages against body visible text, page title/description, image alt and aria-label. Pix also checked against pix-data.steps, blocks, warning, alerts, ui. No unmatched original keys in these categories, but no browser/production QA has been run.",
+  "coverage_test": "Exact ES strings verified for 14 source HTML pages against visible body text, HTML title, description and social metadata, image alt/aria-label. For Pix, dynamic pix-data.es blocks/steps/alerts/warning/ui are included. No unmatched keys were found in checked surfaces. Does not replace an actual FR render/browser QA or editorial legal/health verification.",
   "remaining_validation": [
     "Recheck source SHA before merging, since upstream content may change.",
     "Compare each translation with Spanish meaning and any original PT-BR/EN version.",
     "Merge dictionaries into PR24 private FR pilot without overwriting its current translations.",
     "Add FR preview routes only when renderer supports them; verify text, images, links, JSON-LD, noindex, 1440px / 390px.",
     "Run frozen-content guard, build QA and sitemap compare. Do not publish FR before approved.",
-    "Verify dynamic/embedded content outside the tested text surfaces and review medical/migration/consular factual currency."
+    "Verify dynamic/embedded content outside the tested text surfaces and review medical/migration/consular factual currency.",
+    "Validate accessibility, health guidance, consular and airport/terminal operational facts on publication date."
   ],
   "approved_site_untouched": true
 }
