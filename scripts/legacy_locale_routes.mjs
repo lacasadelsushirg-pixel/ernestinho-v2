@@ -37,6 +37,9 @@ export const legacyLocaleRoutes = new Map([
   ['/gastronomia/faenza-copacabana/', ['setLang', 'full']],
   ['/gastronomia/nino-cucina-ipanema/', ['f', 'full']],
   ['/gastronomia/koral/', ['f', 'full']],
+  ['/gastronomia/rotisseria-sirio-libanesa/', ['f', 'full']],
+  ['/gastronomia/casa-feijoada/', ['setLang', 'full']],
+  ['/gastronomia/ocya-leblon/', ['f', 'full']],
 ]);
 
 export function hideDuplicateLegacySelector(html, route) {
@@ -56,8 +59,8 @@ export function localizeLegacyStartup(code, route) {
     // This dictionary predates the practical summary and the supplemental
     // paragraphs. Keep its original paragraph order; those additions have
     // their own translations in the practical renderer and section chunk.
-    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/', '/gastronomia/kilograma-centro/', '/gastronomia/quartinho/', '/gastronomia/k08/', '/gastronomia/delirio-tropical-rio-sul/', '/gastronomia/spicy-fish/', '/gastronomia/dumare/', '/gastronomia/noa-ipanema/', '/gastronomia/faenza-copacabana/', '/gastronomia/nino-cucina-ipanema/', '/gastronomia/koral/'].includes(route) ? ':not(.v2-supplement p)' : '';
-    const extraParagraphs = ['/gastronomia/elena/', '/gastronomia/bb-lanches/'].includes(route) ? ':not(main>section>p:nth-of-type(n+2))' : '';
+    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/', '/gastronomia/kilograma-centro/', '/gastronomia/quartinho/', '/gastronomia/k08/', '/gastronomia/delirio-tropical-rio-sul/', '/gastronomia/spicy-fish/', '/gastronomia/dumare/', '/gastronomia/noa-ipanema/', '/gastronomia/faenza-copacabana/', '/gastronomia/nino-cucina-ipanema/', '/gastronomia/koral/', '/gastronomia/rotisseria-sirio-libanesa/', '/gastronomia/ocya-leblon/'].includes(route) ? ':not(.v2-supplement p)' : '';
+    const extraParagraphs = ['/gastronomia/elena/', '/gastronomia/bb-lanches/', '/gastronomia/rotisseria-sirio-libanesa/'].includes(route) ? ':not(main>section>p:nth-of-type(n+2))' : '';
     code = code.replace("P=[...document.querySelectorAll('p')]",
       `P=[...document.querySelectorAll('p:not(.ec-q-kicker):not(article.card:not(.facts)>p:nth-of-type(n+2))${extraSections}${extraParagraphs}')]`);
   }

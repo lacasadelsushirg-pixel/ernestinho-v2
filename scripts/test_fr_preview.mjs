@@ -44,6 +44,9 @@ try {
       ['/gastronomia/belmonte-copa/', /Boteco Belmonte Copacabana/],
       ['/gastronomia/belmonte-ipanema/', /Boteco Belmonte Ipanema/],
       ['/gastronomia/polvo-marisqueria/', /Polvo Marisqueria/],
+      ['/gastronomia/rotisseria-sirio-libanesa/', /Rotisseria Sírio Libaneza/],
+      ['/gastronomia/casa-feijoada/', /Casa da Feijoada/],
+      ['/gastronomia/ocya-leblon/', /OCYÁ Leblon/],
       ['/gastronomia/faenza-copacabana/', /Faenza Copacabana/],
       ['/gastronomia/nino-cucina-ipanema/', /Nino Cucina Ipanema/],
       ['/gastronomia/koral/', /Koral/],
@@ -104,7 +107,7 @@ try {
       assert.equal(await page.locator('html').getAttribute('lang'), 'en');
     }
     await context.close();
-    console.log(`37 page switches PT-BR → FR → EN at ${width}px`);
+    console.log(`40 page switches PT-BR → FR → EN at ${width}px`);
   }
 } finally {
   await browser.close();

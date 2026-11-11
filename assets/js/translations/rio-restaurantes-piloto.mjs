@@ -230,4 +230,34 @@ export const updatedFacts = {
   '/gastronomia/koral/': {
     en: {13: '☎️ <strong>Contact</strong><br>(21) 99513-6437 · Instagram @koralrest.'},
   },
+  "/gastronomia/casa-feijoada/": {
+    "pt": {
+      "1": "A Casa da Feijoada tem uma identidade acolhedora e informal. As imagens destacam as panelas de barro, a mesa farta e os acompanhamentos clássicos. Perto da praia de Ipanema, o ambiente convida a ficar com calma: comer feijoada é um ritual de conversa e pausa.",
+      "2": "Fundada em 1989, a casa se especializou na feijoada em Ipanema. A experiência tradicional costuma começar com caldinho de feijão, linguiça e aperitivos antes das panelas principais. O cardápio também oferece carne-seca com abóbora e sobremesas caseiras.",
+      "3": "Eu recomendo para quem quer entender a feijoada como um ritual gastronômico completo. A localização em Ipanema é prática para o viajante. Reserve tempo para um almoço longo ou um jantar reforçado, com intervalo antes de nadar.",
+      "4": "A feijoada tradicional é a pedida principal, acompanhada de arroz, farofa, couve e torresmo. O caldinho de feijão abre a experiência. Para terminar, os doces caseiros de colher dão um ótimo fechamento.",
+      "5": "O almoço é o horário mais popular e natural para essa refeição generosa. O jantar pode ser uma alternativa mais tranquila e fresca. Os fins de semana costumam ter mais movimento, então reservar é uma boa ideia.",
+      "6": "Eu deixaria um intervalo antes de um passeio que exija muito esforço físico. Reserve tempo para a refeição, pergunte o tamanho das porções para compartilhar e avise antes se alguém não come carne de porco."
+    },
+    "en": {
+      "1": "Casa da Feijoada has a welcoming, informal atmosphere. The photos highlight clay pots, a generous table and classic side dishes. Near Ipanema Beach, it invites you to take your time: a feijoada meal is a chance to pause and talk.",
+      "2": "Founded in 1989, the restaurant specializes in feijoada in Ipanema. The traditional meal usually begins with bean broth, sausage and appetizers before the main clay pots arrive. The menu also offers dried beef with pumpkin and homemade desserts.",
+      "3": "I recommend it for discovering feijoada as a complete dining ritual. The Ipanema location is convenient for travelers. Make time for a long lunch or a substantial dinner, with a break before swimming.",
+      "4": "Traditional feijoada is the obvious order, with rice, farofa, collard greens and pork cracklings. A small serving of bean broth opens the meal. Homemade spoon sweets make a good finish.",
+      "5": "Lunch is the most popular time for a generous meal like this. Dinner can be quieter and cooler. Weekends are usually busier, so booking is a good idea.",
+      "6": "I would allow a break before any outing that requires a lot of physical effort. Set aside time, ask about portion sizes for sharing and tell the restaurant in advance if anyone does not eat pork."
+    }
+  },
+  "/gastronomia/ocya-leblon/": {
+    "pt": {
+      "11": "💰 <strong>Preços</strong><br>Médio-alto a premium.",
+      "13": "☎️ <strong>Contato</strong><br>Canais oficiais do OCYÁ Leblon.",
+      "15": "♿ <strong>Acessibilidade</strong><br>Confirme diretamente."
+    },
+    "en": {
+      "11": "💰 <strong>Prices</strong><br>Upper mid-range to premium.",
+      "13": "☎️ <strong>Contact</strong><br>OCYÁ Leblon’s official channels.",
+      "15": "♿ <strong>Accessibility</strong><br>Confirm directly."
+    }
+  },
 };

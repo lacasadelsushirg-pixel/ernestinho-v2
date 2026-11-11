@@ -1757,4 +1757,239 @@ export const pilotLabels = {
       "A house presentation"
     ]
   },
+  "/gastronomia/rotisseria-sirio-libanesa/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Rotisseria Sírio Libaneza": [
+      "Mapa de Rotisseria Sírio Libaneza",
+      "Map of Rotisseria Sírio Libaneza"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Rotisseria Sírio Libaneza — imagen de la experiencia.": [
+      "Rotisseria Sírio Libaneza — um registro da experiência.",
+      "Rotisseria Sírio Libaneza — a glimpse of the visit."
+    ],
+    "Árabe · tradicional": [
+      "Árabe · tradicional",
+      "Arab cuisine · traditional"
+    ],
+    "Comida árabe rápida y abundante junto al Largo do Machado.": [
+      "Comida árabe rápida e farta junto ao Largo do Machado.",
+      "Quick, generous Arab food by Largo do Machado."
+    ],
+    "Fotos de Rotisseria Sírio Libaneza": [
+      "Fotos da Rotisseria Sírio Libaneza",
+      "Rotisseria Sírio Libaneza photos"
+    ],
+    "Rotisseria Sírio Libaneza — fotografía 1": [
+      "Rotisseria Sírio Libaneza — foto 1",
+      "Rotisseria Sírio Libaneza — photo 1"
+    ],
+    "Rotisseria Sírio Libaneza — fotografía 2": [
+      "Rotisseria Sírio Libaneza — foto 2",
+      "Rotisseria Sírio Libaneza — photo 2"
+    ],
+    "Rotisseria Sírio Libaneza — fotografía 3": [
+      "Rotisseria Sírio Libaneza — foto 3",
+      "Rotisseria Sírio Libaneza — photo 3"
+    ],
+    "Rotisseria Sírio Libaneza — fotografía 4": [
+      "Rotisseria Sírio Libaneza — foto 4",
+      "Rotisseria Sírio Libaneza — photo 4"
+    ],
+    "Rotisseria Sírio Libaneza — fotografía 5": [
+      "Rotisseria Sírio Libaneza — foto 5",
+      "Rotisseria Sírio Libaneza — photo 5"
+    ],
+    "Rotisseria Sírio Libaneza: Rotisseria Sírio Libanesa": [
+      "Rotisseria Sírio Libaneza: foto 1",
+      "Rotisseria Sírio Libaneza: photo 1"
+    ],
+    "Rotisseria Sírio Libaneza: Rotisseria Sírio Libanesa2": [
+      "Rotisseria Sírio Libaneza: foto 2",
+      "Rotisseria Sírio Libaneza: photo 2"
+    ],
+    "Rotisseria Sírio Libaneza: Rotisseria Sírio Libanesa3": [
+      "Rotisseria Sírio Libaneza: foto 3",
+      "Rotisseria Sírio Libaneza: photo 3"
+    ],
+    "Rotisseria Sírio Libaneza: Rotisseria Sírio Libanesa4": [
+      "Rotisseria Sírio Libaneza: foto 4",
+      "Rotisseria Sírio Libaneza: photo 4"
+    ],
+    "En Rotisseria Sírio Libanesa merece la pena preguntar qué esfihas, quibes y otras preparaciones están recién hechas. Si quieres probar varios sabores, comparte pequeñas porciones y consulta qué opciones contienen carne, lácteos o frutos secos cuando haya restricciones alimentarias.": [
+      "Na Rotisseria Sírio Libanesa, pergunte quais esfihas, quibes e outras preparações acabaram de sair. Para conhecer sabores diferentes, compartilhe porções pequenas. Se houver restrições alimentares, confira quais opções contêm carne, leite ou castanhas.",
+      "At Rotisseria Sírio Libanesa, ask which esfihas, kibbeh and other items have just been made. Share small portions to try different flavors. For dietary restrictions, check which options contain meat, dairy or nuts."
+    ],
+    "Su ubicación en Largo do Machado permite incorporar una parada gastronómica a un trayecto entre Flamengo, Catete y el Centro. Es una opción práctica para comer algo sin reservar una experiencia formal larga.": [
+      "O endereço no Largo do Machado facilita uma parada entre Flamengo, Catete e o Centro. É uma opção prática para comer algo e seguir o passeio.",
+      "The Largo do Machado location fits a food stop between Flamengo, Catete and downtown. It is a practical option for a bite before continuing your outing."
+    ]
+  },
+  "/gastronomia/casa-feijoada/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Casa da Feijoada": [
+      "Mapa de Casa da Feijoada",
+      "Map of Casa da Feijoada"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Feijoada tradicional de la casa": [
+      "Feijoada tradicional da casa",
+      "Traditional house feijoada"
+    ],
+    "El plato se sirve como una experiencia completa.": [
+      "O prato é servido como uma experiência completa.",
+      "The dish is served as a complete meal."
+    ],
+    "Los horarios pueden variar; se aconseja consultar el sitio oficial o redes sociales antes de ir.": [
+      "Os horários podem variar. Consulte o site oficial ou as redes sociais antes de ir.",
+      "Hours may vary. Check the official site or social media before going."
+    ],
+    "Ambiente de Casa da Feijoada": [
+      "Ambiente da Casa da Feijoada",
+      "Inside Casa da Feijoada"
+    ],
+    "Mesa y salón tradicionales.": [
+      "Mesa e salão tradicionais.",
+      "A traditional table and dining room."
+    ],
+    "Detalle de la feijoada": [
+      "Detalhe da feijoada",
+      "A detail of the feijoada"
+    ],
+    "Los acompañamientos forman parte fundamental del plato.": [
+      "Os acompanhamentos são parte fundamental do prato.",
+      "The sides are an essential part of the dish."
+    ],
+    "Mesa servida": [
+      "Mesa servida",
+      "A table set for the meal"
+    ],
+    "Tradición brasileña en la mesa.": [
+      "Tradição brasileira à mesa.",
+      "Brazilian tradition at the table."
+    ],
+    "Interior de la casa": [
+      "Interior da casa",
+      "Inside the restaurant"
+    ],
+    "Ambiente dedicado a la gastronomía tradicional.": [
+      "Ambiente dedicado à gastronomia tradicional.",
+      "A setting devoted to traditional food."
+    ],
+    "En una casa dedicada a la feijoada, mi consejo es preguntar qué incluye el servicio: acompañamientos, porciones, reposición y bebidas pueden cobrarse o servirse de maneras diferentes. Así comparas el valor real de la comida y eliges según tu apetito. También conviene verificar los días de preparación y la posibilidad de reserva, en vez de asumir que el mismo formato se ofrece todos los días.": [
+      "Numa casa de feijoada, pergunte o que está incluído no serviço. Acompanhamentos, porções, reposição e bebidas podem seguir regras de cobrança diferentes. Assim dá para comparar o preço e escolher conforme o apetite. Confira também os dias de preparo e a possibilidade de reserva, pois o formato pode mudar.",
+      "At a feijoada restaurant, ask what the service includes. Sides, portion sizes, refills and drinks may follow different pricing rules. That helps you compare the meal’s value and choose according to appetite. Check preparation days and booking as well, as the format may vary."
+    ],
+    "Para una comida brasileña tradicional, deja tiempo para sentarte sin prisas. Si vas en grupo, pregunta antes de pedir cómo se calculan las porciones. Una feijoada puede ser el centro del programa del día, no solo una parada rápida entre atracciones.": [
+      "Para uma refeição brasileira tradicional, deixe tempo para sentar sem pressa. Em grupo, pergunte como as porções são calculadas antes de pedir. A feijoada pode ser o programa central do dia.",
+      "For a traditional Brazilian meal, leave time to sit and enjoy it. With a group, ask how portions are calculated before ordering. Feijoada can be the main event of the day."
+    ]
+  },
+  "/gastronomia/ocya-leblon/": {
+    "Detalle de la casa": ["Detalhe da casa", "A detail of the venue"],
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de OCYÁ Leblon": [
+      "Mapa de OCYÁ Leblon",
+      "Map of OCYÁ Leblon"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Ambiente de OCYÁ": [
+      "Ambiente do OCYÁ",
+      "Inside OCYÁ"
+    ],
+    "El salón deja que el producto sea protagonista.": [
+      "O salão deixa o produto em destaque.",
+      "The dining room puts the ingredients first."
+    ],
+    "Confirmar horarios y reservas en el canal oficial.": [
+      "Confira horários e reservas no canal oficial.",
+      "Check hours and bookings through the official channel."
+    ],
+    "Una proposta contemporánea de mar.": [
+      "Uma proposta contemporânea de mar.",
+      "Contemporary seafood cooking."
+    ],
+    "Mesa de OCYÁ": [
+      "Mesa do OCYÁ",
+      "A table at OCYÁ"
+    ],
+    "El servicio favorece una comida atenta.": [
+      "O serviço convida a apreciar a refeição.",
+      "Service invites you to take your time over the meal."
+    ],
+    "Preparación de pescado": [
+      "Preparação de peixe",
+      "A fish dish"
+    ],
+    "La carta depende del producto recibido.": [
+      "O cardápio depende dos produtos recebidos.",
+      "The menu depends on the day’s arrivals."
+    ],
+    "Plato de mar": [
+      "Prato de mar",
+      "A seafood dish"
+    ],
+    "Una lectura brasileña de los frutos del mar.": [
+      "Uma leitura brasileira dos frutos do mar.",
+      "A Brazilian take on seafood."
+    ],
+    "Las siete fotografías recibidas fueron conservadas.": [
+      "As sete fotos recebidas foram conservadas.",
+      "All seven supplied photos have been kept."
+    ],
+    "Interior de OCYÁ": [
+      "Interior do OCYÁ",
+      "Inside OCYÁ"
+    ],
+    "La sala acompaña almuerzos y cenas.": [
+      "O salão acompanha almoços e jantares.",
+      "The room suits lunch and dinner."
+    ],
+    "Experiencia OCYÁ": [
+      "Experiência OCYÁ",
+      "The OCYÁ experience"
+    ],
+    "Producto, fuego y técnica.": [
+      "Produto, fogo e técnica.",
+      "Ingredients, fire and technique."
+    ],
+    "Ocya Leblon debe tratarse como una unidad distinta de Ocya Ilha Gigóia: no mezcles las direcciones ni los accesos. Pregunta por los pescados del día, su presentación y el precio antes de escoger, sobre todo cuando se sirven por peso.": [
+      "O Ocyá Leblon é uma unidade diferente da Ilha Gigóia. Confira o endereço e o acesso corretos. Pergunte pelos peixes do dia, sua apresentação e o preço antes de escolher, especialmente quando a cobrança é por peso.",
+      "Ocyá Leblon is a different branch from Ocyá Ilha Gigóia. Check the correct address and access. Ask about the day’s fish, how it is served and its price before choosing, particularly when it is sold by weight."
+    ],
+    "Una comida en Leblon puede sumarse a un paseo por el barrio, sin necesidad de embarcaciones. Confirma la sede exacta en la reserva y revisa los horarios vigentes del restaurante.": [
+      "A refeição combina com um passeio pelo Leblon, com acesso pelas ruas do bairro. Confirme a unidade exata ao reservar e confira os horários atuais.",
+      "A meal fits a walk around Leblon, with access through the neighborhood streets. Confirm the exact branch when booking and check current hours."
+    ]
+  },
 };
