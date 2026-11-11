@@ -7,7 +7,7 @@
     "work_scope": "Gastronomía y recuperación ES/PT/EN",
     "this_scope": "Consejos FR only"
   },
-  "status": "translation_only_not_integrated_not_published",
+  "status": "COMPLETE_TRANSLATION_STAGING_NOT_INTEGRATED_NOT_PUBLISHED",
   "freeze": "Source HTML, CSS, links, media and production not changed. Source PT-BR/EN remain untouched.",
   "scope": [
     {
@@ -163,9 +163,54 @@
       "entries": 45,
       "coverage": "all page cards, alt tags, visible text, page title and meta description covered",
       "integration_note": "Verify page cards point to FR routes only when their destination exists in the private preview"
+    },
+    {
+      "route": "/consejos/20-consejos/",
+      "source_sha": "a7843c9438b16bf361c9d0590599a34d4ae3d018",
+      "dictionary": "assets/js/translations/fr/consejos-20-consejos-paralelo.json",
+      "entries": 62,
+      "coverage": "All 20 original detailed recommendations, title/meta, alt/aria mapped"
+    },
+    {
+      "route": "/consejos/50-preguntas/",
+      "source_sha": "5cb3f6e49525fefb642625896c718cf9797266f1",
+      "dictionary": "assets/js/translations/fr/consejos-50-preguntas-paralelo.json",
+      "entries": 99,
+      "coverage": "12 featured questions and 50 original quick answers with title/alt/meta mapped",
+      "editorial_review": "Source facts about migration, customs, visa, health must be verified before publication"
+    },
+    {
+      "route": "/consejos/portugues/",
+      "source_sha": "9a6e6d84b2b768c1fed18e7a107d6a9335d65007",
+      "dictionary": "assets/js/translations/fr/consejos-portugues-paralelo.json",
+      "entries": 25,
+      "dynamic_supplement": "assets/js/translations/fr/consejos-portugues-80-frases-paralelo.json",
+      "coverage": "All HTML text and metadata plus 80 Portuguese phrases with French meanings, ten category labels, eight false-friend entries and French audio-control labels",
+      "integration_blocker": "Existing assets/js/portugues-util.js langKey() falls back to Spanish when FR selected and assets/js/i18n.js LANGS only ES/PT/EN. Audio not browser-tested; preserve original Portuguese speech and playback."
+    },
+    {
+      "route": "/consejos/supermercados/",
+      "source_sha": "821715e18df2adb0608d0771a820cf5422ee0ff4",
+      "dictionaries": [
+        "assets/js/translations/fr/consejos-supermercados-01-paralelo.json",
+        "assets/js/translations/fr/consejos-supermercados-02-paralelo.json",
+        "assets/js/translations/fr/consejos-supermercados-03-paralelo.json",
+        "assets/js/translations/fr/consejos-supermercados-04-paralelo.json"
+      ],
+      "entries": 206,
+      "dynamic_supplement": "assets/js/translations/fr/consejos-supermercados-modulo-196-paralelo.json",
+      "coverage": "181 unique visible HTML strings, title/description/meta and alt, plus 196/196 JS module s0..s195 mapped to French",
+      "integration_blocker": "Existing JS registerTranslations module has ES/PT/EN only; FR private renderer must register all 196 keys and preserve galleries and 14 editorial sections."
+    },
+    {
+      "route": "/consejos/trampas-turista/",
+      "source_sha": "2152f1e7c6a5ba5c035ab8f010a089a279c8b8f5",
+      "dictionary": "assets/js/translations/fr/consejos-trampas-turista-paralelo.json",
+      "entries": 72,
+      "coverage": "All 13 original safety/payment situations and tips, titles/meta/alt mapped"
     }
   ],
-  "coverage": "20 route dictionaries prepared: 19 Consejos editorial subpages plus /consejos/ landing, with exact source Spanish text coverage for visible HTML, title/description/social meta and image alt/aria-label. These mappings do NOT constitute rendered pages or a published French locale. Source SHAs recorded.",
+  "coverage": "All 24 editorial Consejos subpages plus /consejos/ landing translated into isolated ES→FR dictionaries. The newest five pages have exact text coverage of source Spanish HTML visible strings, title/meta and alt/aria; all 196 JS keys for Supermercados and 80 phrase translations for Portugues have separate supplements. Earlier pages were individually checked against their original source; full cross-branch QA still needed before integration. Source strings translated ≠ French pages published.",
   "next_steps": [
     "Check source SHAs and current PR24 before integrating",
     "Continue all 24 Consejos subpages and landing FR; keep sections complete",
@@ -181,16 +226,32 @@
   ],
   "todo_inventory": {
     "source_subfolders": 24,
-    "prepared_subpages": 19,
-    "remaining_subpages": 5,
-    "landing_page_pending": false,
-    "remaining_names": [
-      "20-consejos",
-      "50-preguntas",
-      "portugues",
-      "supermercados",
-      "trampas-turista"
-    ],
-    "dynamic_portugues_audio_pending": true
-  }
+    "prepared_subpages": 24,
+    "remaining_subpages": 0,
+    "landing_page_prepared": true,
+    "dynamic_portugues_audio_pending_qa": true,
+    "private_fr_browser_qa_pending": true
+  },
+  "dynamic_translation_supplements": {
+    "portuguese_phrases": {
+      "file": "assets/js/translations/fr/consejos-portugues-80-frases-paralelo.json",
+      "phrases": 80,
+      "categories": 10,
+      "false_friends": 8,
+      "source": "assets/data/portugues-util.json"
+    },
+    "supermarkets": {
+      "file": "assets/js/translations/fr/consejos-supermercados-modulo-196-paralelo.json",
+      "keys": 196,
+      "source": "assets/js/translations/supermercados.js"
+    }
+  },
+  "integration_guardrails": [
+    "Do not update frozen source HTML, existing ES/PT/EN dictionaries, approved URLs or publish French before reconciliation with Work PR #24 and Guide FR PR #25.",
+    "i18n.js supports only ES/PT/EN, so isolated French dictionaries are staged only. Integrate under a tested private FR preview path, never by overwriting production JS without corresponding UX/SEO QA.",
+    "Portugues audio must keep original Portuguese phrase and original Cloudinary audio references, with FR-only meanings, ten filters, false-friend notes, listen/slow button labels and error handling.",
+    "Supermercados has a separate JS translation module with 196 s-keys; register the 196-key FR supplement and preserve photos, titles, alt, internal links and 14 original long-form sections.",
+    "Test responsive at 390px and 1440px, images, links/affiliate conversions, footer, site navigation, noindex, canonical/hreflang, sitemap and all frozen-page guard scripts.",
+    "Verify time-sensitive facts and laws (pet entry, sea safety, pharmacies, insurance, customs, immigration) before public release."
+  ]
 }
