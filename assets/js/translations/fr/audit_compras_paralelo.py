@@ -47,6 +47,41 @@ def main():
                 int(item["source_sha"], 16)
             except ValueError:
                 errors.append(f"{route}: source SHA not hexadecimal")
+
+    # Verify actual dictionary sizes, empty translations and JSON duplicate keys.
+    for item in scope:
+        path = ROOT / item["dictionary"]
+        if not path.is_file():
+            continue
+        duplicates = []
+        def unique_pairs(pairs):
+            result = {}
+            for key, value in pairs:
+                if key in result:
+                    duplicates.append(key)
+                result[key] = value
+            return result
+        data = json.loads(path.read_text(encoding="utf-8"), object_pairs_hook=unique_pairs)
+        for key in duplicates:
+            errors.append(f'{item["route"]}: duplicate JSON key: {key}')
+        if not isinstance(data, dict):
+            errors.append(f'{item["route"]}: dictionary is not an object')
+            continue
+        if len(data) != item["entries"]:
+            errors.append(f'{item["route"]}: declared {item["entries"]} static entries but file has {len(data)}')
+        for key, value in data.items():
+            if not isinstance(key, str) or not isinstance(value, str) or not value.strip():
+                errors.append(f'{item["route"]}: invalid/empty translation: {str(key)[:60]}')
+        for field in ("dynamic_supplement", "caption_supplement"):
+            if field not in item:
+                continue
+            supplement = ROOT / item[field]
+            if not supplement.is_file():
+                continue
+            supplemental = json.loads(supplement.read_text(encoding="utf-8"), object_pairs_hook=unique_pairs)
+            if isinstance(supplemental, dict) and supplemental.get("source_sha"):
+                if supplemental["source_sha"] != item["source_sha"]:
+                    errors.append(f'{item["route"]}: {field} SHA differs from manifest')
     actual = dict(static_dictionary_entries=static_count, dynamic_JS_keys=dynamic_count,
                   extra_story_paragraphs=paragraphs, dynamic_image_captions=captions)
     for key, count in actual.items():
