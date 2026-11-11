@@ -335,7 +335,7 @@ async function worker(){
       const value=pilotLabels[frame.title]?.[index];
       if(value){frame.title=value;frame.dataset.ecTitle=value;}
      }
-     for(const link of document.querySelectorAll('a, p, h2, h3, figcaption, .tag, .note')){
+     for(const link of document.querySelectorAll('a, p, h2, h3, figcaption, .tag, .note, .notice, .ey')){
       const value=pilotLabels[link.textContent.trim()]?.[index];
       if(value&&link.childElementCount===0)link.textContent=value;
      }

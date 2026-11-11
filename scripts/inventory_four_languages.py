@@ -14,6 +14,7 @@ STATUSES = ('Pendiente', 'En revisión', 'Corregido o traducido', 'Validado', 'P
 COLUMNS = ('ES', 'PT-BR', 'EN', 'FR')
 # Keep known unresolved source defects visible after rebuilding the ledger.
 PENDING_CHECKS = {
+    '/gastronomia/jojo/': 'Revisión editorial: el cuerpo identifica Rua Pacheco Leão 812 en Horto/Jardim Botânico, pero la portada, etiqueta, ficha práctica ES y enlaces de mapa siguen usando Botafogo. Confirmar y corregir el original y sus mapas antes de validar.',
     '/gastronomia/praia-skol-copa/': 'Discrepancia en horarios y contacto del original: el cuerpo pide confirmar y cita un teléfono, mientras la ficha práctica conserva 24 horas y otro número.',
     '/gastronomia/rotisseria-sirio-libanesa/': 'Revisión editorial pendiente: el original repite consejos genéricos y necesita información específica del establecimiento, conservando la fuente aprobada.',
     '/gastronomia/faenza-copacabana/': 'Contradicción editorial: el cuerpo cita actividad reciente y la nota conservada no confirma si cerró o cambió de nombre. Confirmar identidad y operación.',
