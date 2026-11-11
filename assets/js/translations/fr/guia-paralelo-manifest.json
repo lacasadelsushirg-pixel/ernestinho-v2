@@ -1,0 +1,64 @@
+{
+  "project": "Ernestinho Carioca - Guía de Río, traducciones FR paralelas",
+  "baseline_branch": "revision/rendimiento-traducciones-81a904c",
+  "work_pr": 24,
+  "chatgpt_pr": 25,
+  "status": "translation_only_not_integrated_not_published",
+  "french_visibility": "private_preview_only_noindex_when_integrated",
+  "content_policy": "Do not rewrite approved ES/PT/EN HTML, media, links, CSS or frozen content. No changes to production without review.",
+  "scope": [
+    {
+      "route": "/guia/emergencias/",
+      "source_sha": "995eb0cf6408de80c550e90b08779988e99069e7",
+      "file": "assets/js/translations/fr/guia-emergencias-paralelo.json",
+      "entries": 52,
+      "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/cpf/",
+      "source_sha": "2fb14c99efd9ed8b70794f14eb0048b22d6cd5d6",
+      "file": "assets/js/translations/fr/guia-cpf-paralelo.json",
+      "entries": 58,
+      "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/documentos/",
+      "source_sha": "71e448005ace7a442763ae433045da14a6f43852",
+      "file": "assets/js/translations/fr/guia-documentos-paralelo.json",
+      "entries": 83,
+      "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/pix/",
+      "source_sha": "0ef8433b2101d8ff81987e961926270310b79641",
+      "file": "assets/js/translations/fr/guia-pix-paralelo.json",
+      "entries": 62,
+      "coverage": "visible_static_and_embedded_ES_JSON_text_complete",
+      "integration_blocker": "pix-data JSON provides runtime ES/PT/EN content. The FR preview builder removes scripts; must render static translated content in private FR preview or extend private renderer without changing source pages."
+    },
+    {
+      "route": "/guia/menores/",
+      "source_sha": "92890e2006085d082b9c1a0a2b6bd9dd73916a4a",
+      "file": "assets/js/translations/fr/guia-menores-paralelo.json",
+      "entries": 39,
+      "coverage": "text_alt_metadata_complete",
+      "editorial_review": "recheck visa and minor-travel rules against current official authorities prior to publishing"
+    },
+    {
+      "route": "/guia/internet/",
+      "source_sha": "21ebe5001a07c3f716cdb4dfa6792b067d93b850",
+      "file": "assets/js/translations/fr/guia-internet-paralelo.json",
+      "entries": 50,
+      "coverage": "text_alt_metadata_complete"
+    }
+  ],
+  "coverage_test": "Exact text keys compared with source document HTML body visible text, page title, description, image alt, aria-label. For Pix, keys from pix-data.steps/blocks/warning/alerts/ui.es included. No untranslated keys found on these surfaces after corrections.",
+  "remaining_validation": [
+    "Recheck source SHA before merging, since upstream content may change.",
+    "Compare each translation with Spanish meaning and any original PT-BR/EN version.",
+    "Merge dictionaries into PR24 private FR pilot without overwriting its current translations.",
+    "Add FR preview routes only when renderer supports them; verify text, images, links, JSON-LD, noindex, 1440px / 390px.",
+    "Run frozen-content guard, build QA and sitemap compare. Do not publish FR before approved."
+  ],
+  "approved_site_untouched": true
+}
