@@ -287,12 +287,22 @@
       "missing_keys": 0,
       "qa": "All inspected static HTML strings, title, OG/Twitter metadata and image/map alt covered. No inline dynamic JS beyond JSON-LD. JSON-LD FR generation remains pending.",
       "editorial_review": "Official IHGB confirmation needed for Tuesday visit policy, five-person limit, accessibility and reservations before publication."
+    },
+    {
+      "route": "/cultura/casa-deodoro/",
+      "source_sha": "1e53d85a9cfeb0807694cdf1a1253474d12de930",
+      "dictionary": "assets/js/translations/fr/cultura-casa-deodoro-paralelo.json",
+      "entries": 60,
+      "checked_strings": 60,
+      "missing_keys": 0,
+      "qa": "Static visible text, meta/title and image attributes mapped; inline script contains JSON-LD only and external site.js, both require FR rendering review.",
+      "editorial_review": "Confirm military museum opening hours, access, group reservations and accessibility with official source."
     }
   ],
   "totals": {
-    "prepared_pages": 29,
-    "static_dictionary_entries": 1340,
-    "total_source_translation_units": 1340
+    "prepared_pages": 30,
+    "static_dictionary_entries": 1400,
+    "total_source_translation_units": 1400
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
