@@ -2453,6 +2453,42 @@ export const pilotLabels = {
       ]
     },
     "/gastronomia/bar-da-frente/": {
+    "Fotografía 1 de Bar da Frente.": [
+      "Foto 1 do Bar da Frente.",
+      "Photo 1 of Bar da Frente."
+    ],
+    "Fotografía 2 de Bar da Frente.": [
+      "Foto 2 do Bar da Frente.",
+      "Photo 2 of Bar da Frente."
+    ],
+    "Fotografía 3 de Bar da Frente.": [
+      "Foto 3 do Bar da Frente.",
+      "Photo 3 of Bar da Frente."
+    ],
+    "Fotografía 4 de Bar da Frente.": [
+      "Foto 4 do Bar da Frente.",
+      "Photo 4 of Bar da Frente."
+    ],
+    "Fotografía 5 de Bar da Frente.": [
+      "Foto 5 do Bar da Frente.",
+      "Photo 5 of Bar da Frente."
+    ],
+    "Fotografía 6 de Bar da Frente.": [
+      "Foto 6 do Bar da Frente.",
+      "Photo 6 of Bar da Frente."
+    ],
+    "Conviene confirmar horarios, carta y disponibilidad antes de ir.": [
+      "Vale confirmar horários, cardápio e disponibilidade antes de ir.",
+      "Confirm hours, menu and availability before visiting."
+    ],
+    "Mapa de Bar da Frente": [
+      "Mapa do Bar da Frente",
+      "Map of Bar da Frente"
+    ],
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
       "Al buscar Bar da Frente, distingue la casa original de Praça da Bandeira de cualquier otra unidad de la marca. Las referencias a petiscos creativos son parte de su identidad, pero no conviene trasladar automáticamente direcciones, horarios y platos de una sucursal a otra. Pregunta qué preparaciones de la casa están disponibles y el tamaño de las porciones para pedir algo variado sin excederte.": [
         "Ao procurar o Bar da Frente, diferencie a casa original da Praça da Bandeira das outras unidades. Os petiscos criativos fazem parte da identidade da marca, mas não presuma que endereços, horários e pratos sejam iguais em todas as filiais. Pergunte quais preparações estão disponíveis e o tamanho das porções para variar sem pedir demais.",
         "When looking up Bar da Frente, distinguish the original Praça da Bandeira location from any other branch. Creative bar snacks are part of its identity, but addresses, hours and dishes do not automatically carry over. Ask which house dishes are available and how large the portions are so you can order a variety without overdoing it."
@@ -2463,4 +2499,5 @@ export const pilotLabels = {
       ]
     }
 ,
+  "/gastronomia/bar-urca/": { "bar urca: Bar Urca": ["Bar Urca", "Bar Urca"] },
 };
