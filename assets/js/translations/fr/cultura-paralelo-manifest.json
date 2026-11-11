@@ -317,12 +317,22 @@
       "missing_keys": 0,
       "qa": "Visible text, metadata, alt/title and other inspected attributes mapped; JSON-LD requires locale-aware regeneration; external site.js integration not audited.",
       "editorial_review": "Verify Marina do Brasil official current hours, prices, Ilha Fiscal excursions, open vessels and accessibility before publication."
+    },
+    {
+      "route": "/cultura/jose-bonifacio/",
+      "source_sha": "d685c994fba4eb74e09f5c646c026a21a6f82f47",
+      "dictionary": "assets/js/translations/fr/cultura-jose-bonifacio-paralelo.json",
+      "entries": 42,
+      "checked_strings": 42,
+      "missing_keys": 0,
+      "qa": "Static visible text, metadata and image attributes mapped; inline JSON-LD and external site.js require French rendering validation.",
+      "editorial_review": "Confirm opening schedule, exhibitions, booking and accessibility with cultural center before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 32,
-    "static_dictionary_entries": 1503,
-    "total_source_translation_units": 1503
+    "prepared_pages": 33,
+    "static_dictionary_entries": 1545,
+    "total_source_translation_units": 1545
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
