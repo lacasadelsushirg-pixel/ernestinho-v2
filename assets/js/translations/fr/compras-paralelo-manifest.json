@@ -343,7 +343,10 @@
       "dynamic_supplement": "assets/js/translations/fr/compras-barrashopping-dinamico-paralelo.json",
       "dynamic_js_keys": 11,
       "dynamic_story_paragraphs": 23,
-      "editorial_review": "Verify BRT 22/50, buses 553/2803/2804/990/301, shops and HotZone count, accessibility and opening. Translate JS-injected image captions in private FR."
+      "editorial_review": "Verify BRT 22/50, buses 553/2803/2804/990/301, shops and HotZone count, accessibility and opening. Translate JS-injected image captions in private FR.",
+      "caption_supplement": "assets/js/translations/fr/compras-barrashopping-leyendas-fr-paralelo.json",
+      "dynamic_image_captions": 2,
+      "caption_missing_keys": 0
     }
   ],
   "totals": {
@@ -351,7 +354,9 @@
     "static_dictionary_entries": 2016,
     "dynamic_JS_keys": 667,
     "extra_story_paragraphs": 152,
-    "coverage_missing_visible_meta_alt": 0
+    "coverage_missing_visible_meta_alt": 0,
+    "dynamic_image_captions": 2,
+    "total_source_translation_units": 2837
   },
   "known_integration_blockers": [
     "Existing source JavaScript includes only es/pt/en as language whitelist; without integrating fr on a separate preview, French dictionaries will not render.",
@@ -366,7 +371,8 @@
     "Feira das Yabás: data-y-es and data-es inline attributes require FR on private renderer; base source JS rejects FR. Event-specific schedule must be verified.",
     "NorteShopping: standalone nsCopy ES/PT/EN and renderNS() require FR integration; current fallback ES. 37 dynamic keys staged and verified.",
     "Praça do Lido and organic Glória: both have D/Story ES/PT/EN only and extra multilingual text in original HTML; source rejects FR, add private renderer D.fr/story.fr preserving their different schedules.",
-    "Organic Glória is a Saturday ABIO farmers' market, separate from Sunday Glória street fair; preserve canonical routing and avoid merging narratives."
+    "Organic Glória is a Saturday ABIO farmers' market, separate from Sunday Glória street fair; preserve canonical routing and avoid merging narratives.",
+    "BarraShopping: 2 JS-injected ES captions now have FR mappings in separate supplement; wire into private renderer before declaring visible-language parity."
   ],
   "qa_policy": "Verify all visible body text, title/description/social meta, alt, aria, placeholders and inline data-ch-es. For dynamically rendered ES JS, verify D keys, hours array, cats array and story paragraphs before accepting page.",
   "remaining_work": "Audit other Compras sites, translate complete individual pages and dynamic narrative data, then private preview integration and visual/SEO QA. Do not publish.",
@@ -399,7 +405,7 @@
     "fr": "Source dictionaries only; FR rendered pages and indexation are not yet created",
     "publishing_gate": "Reconcile PR #24; integrate FR in private noindex preview; test HTML 200, self canonical, reciprocal hreflang, sources/photos/captions, mobile 390px and desktop 1440px, correct sitemap; Google determines indexing."
   },
-  "current_scope_summary": "31 distinct Compras editorial routes source-translated. 2 Copacabana variants held for Work PR #24, 1 redirect excluded. Includes date-sensitive and inconsistent source content flagged editorially.",
+  "current_scope_summary": "31 distinct Compras editorial routes source-translated; 2016 static entries, 667 JS keys, 152 long paragraphs and 2 image captions staged (2837 source translation units, categories counted separately). No FR HTML rendered or indexed.",
   "integration_issues": [
     "Large Shopping articles render source JS P, T and sometimes hardcoded image caption/alt; private FR renderer must translate every injection, not just body HTML."
   ]
