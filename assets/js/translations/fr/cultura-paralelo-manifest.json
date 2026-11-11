@@ -27,12 +27,42 @@
       "entries": 44,
       "qa": "All HTML text nodes, visible labels, title, metadata and alt/map attributes compared against dictionary; no untranslated Spanish strings in inspected static set. Inline JS checked; no editorial dynamic arrays observed.",
       "editorial_review": "Verify operating hours, admission, booking, accessible routes and institution status against official sources before publishing."
+    },
+    {
+      "route": "/cultura/biblioteca-mam/",
+      "source_sha": "d642c930f0278db63370d578508390d188d75a26",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-mam-paralelo.json",
+      "entries": 45,
+      "checked_strings": 45,
+      "missing_keys": 0,
+      "qa": "Static visible content, SEO descriptions, alt text and map title reviewed; no HTML FR renderer or visual QA",
+      "editorial_review": "Confirm current opening times, accessibility, booking and fees with institution before publishing."
+    },
+    {
+      "route": "/cultura/biblioteca-manguinhos/",
+      "source_sha": "d9b81e3a35245333ac157380d63d061e3dba1d31",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-manguinhos-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Static visible content, SEO descriptions, alt text and map title reviewed; no HTML FR renderer or visual QA",
+      "editorial_review": "Confirm current opening times, accessibility, booking and fees with institution before publishing."
+    },
+    {
+      "route": "/cultura/biblioteca-nacional/",
+      "source_sha": "2588bbae7954c8beb047cb5f1618518013c9dd13",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-nacional-paralelo.json",
+      "entries": 46,
+      "checked_strings": 46,
+      "missing_keys": 0,
+      "qa": "Static visible content, SEO descriptions, alt text and map title reviewed; no HTML FR renderer or visual QA",
+      "editorial_review": "Confirm current opening times, accessibility, booking and fees with institution before publishing."
     }
   ],
   "totals": {
-    "prepared_pages": 3,
-    "static_dictionary_entries": 131,
-    "total_source_translation_units": 131
+    "prepared_pages": 6,
+    "static_dictionary_entries": 265,
+    "total_source_translation_units": 265
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
