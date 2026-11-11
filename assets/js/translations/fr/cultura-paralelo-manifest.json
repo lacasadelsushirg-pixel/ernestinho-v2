@@ -397,12 +397,62 @@
       "missing_keys": 0,
       "qa": "Complete static visible text, title, meta, image alt and attribute strings inspected; inline JSON-LD and site.js not yet rendered in FR.",
       "editorial_review": "Verify current access, opening, programming, booking and accessibility with official operator before publication."
+    },
+    {
+      "route": "/cultura/cacilda-becker/",
+      "source_sha": "02bc569041ae840bd62b00cb1e979477a7e78d44",
+      "dictionary": "assets/js/translations/fr/cultura-cacilda-becker-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Visible HTML text, metadata and alt attributes mapped with no missing static strings; JSON-LD and site.js require runtime FR integration.",
+      "editorial_review": "Verify official showtimes, admission, accessibility and availability before publication."
+    },
+    {
+      "route": "/cultura/glauce-rocha/",
+      "source_sha": "939cc5dd80fb7e7092745cc85cf0a3b285d6ef6e",
+      "dictionary": "assets/js/translations/fr/cultura-glauce-rocha-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "Visible HTML text, metadata and alt attributes mapped with no missing static strings; JSON-LD and site.js require runtime FR integration.",
+      "editorial_review": "Verify official showtimes, admission, accessibility and availability before publication."
+    },
+    {
+      "route": "/cultura/dulcina/",
+      "source_sha": "8ac2f4b0ae95adf25f22392e94a9438515fec0bf",
+      "dictionary": "assets/js/translations/fr/cultura-dulcina-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "Visible HTML text, metadata and alt attributes mapped with no missing static strings; JSON-LD and site.js require runtime FR integration.",
+      "editorial_review": "Verify official showtimes, admission, accessibility and availability before publication."
+    },
+    {
+      "route": "/cultura/joao-caetano/",
+      "source_sha": "210d47eed8f40f6714f3bb533e7b24c85511d10b",
+      "dictionary": "assets/js/translations/fr/cultura-joao-caetano-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "Visible HTML text, metadata and alt attributes mapped with no missing static strings; JSON-LD and site.js require runtime FR integration.",
+      "editorial_review": "Verify official showtimes, admission, accessibility and availability before publication."
+    },
+    {
+      "route": "/cultura/sesc-ginastico/",
+      "source_sha": "c058e71f475993b5073e34122005b26e0148c1c9",
+      "dictionary": "assets/js/translations/fr/cultura-sesc-ginastico-paralelo.json",
+      "entries": 42,
+      "checked_strings": 42,
+      "missing_keys": 0,
+      "qa": "Visible HTML text, metadata and alt attributes mapped with no missing static strings; JSON-LD and site.js require runtime FR integration.",
+      "editorial_review": "Verify official showtimes, admission, accessibility and availability before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 40,
-    "static_dictionary_entries": 1879,
-    "total_source_translation_units": 1879
+    "prepared_pages": 45,
+    "static_dictionary_entries": 2084,
+    "total_source_translation_units": 2084
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
