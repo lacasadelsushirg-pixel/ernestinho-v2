@@ -1,0 +1,151 @@
+{
+  "fecha": "2026-11-11",
+  "propiedad": "https://www.ernestinhocarioca.com.br/",
+  "results": [
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/brava/",
+      "verdict": "NEUTRAL",
+      "coverageState": "No se ha encontrado (404)",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": "2026-10-23T23:25:42Z",
+      "pageFetchState": "NOT_FOUND",
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/brava/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=3h_azCskSS7rTYU6wQxGww&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/caravelas/",
+      "verdict": "NEUTRAL",
+      "coverageState": "No se ha encontrado (404)",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": "2026-10-24T18:21:46Z",
+      "pageFetchState": "NOT_FOUND",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/destinos/buzios/playas/caravelas/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=GlvItfgHqOxg1juGXHXtKw&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/ferradura/",
+      "verdict": "NEUTRAL",
+      "coverageState": "No se ha encontrado (404)",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": "2026-10-25T14:09:37Z",
+      "pageFetchState": "NOT_FOUND",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/playas/ferradura/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=bS5-putSduXjz9xXLZ5OqQ&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/balthazar-bakery/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-25T02:39:42Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/balthazar-bakery/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/pt/destinos/buzios/comer-y-salir/balthazar-bakery/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/balthazar-bakery/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=GAQQAnf1GJgbH-4irCNoKg&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/balthazar-bakery/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-25T01:55:50Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/balthazar-bakery/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/destinos/buzios/comer-y-salir/balthazar-bakery/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/en/destinos/buzios/comer-y-salir/balthazar-bakery/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=grmrVPHBmYvLQ9WKon-fSA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/atracciones/aquario/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-27T16:15:25Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/en/atracciones/aquario/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/en/atracciones/aquario/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/atracciones/aquario/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=gTZE-yiYu3yaSHbumW_cbA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/consejos/20-consejos/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-25T22:08:35Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/en/consejos/20-consejos/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/en/consejos/20-consejos/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/pt/consejos/20-consejos/",
+        "https://www.ernestinhocarioca.com.br/consejos/20-consejos/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=JOzNraqg3RDiZyRMHGTTTg&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/carioca-da-gema/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-28T17:45:43Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/carioca-da-gema/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/en/vida-nocturna/carioca-da-gema/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/vida-nocturna/carioca-da-gema/",
+        "https://www.ernestinhocarioca.com.br/pt/vida-nocturna/carioca-da-gema/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=hLAgrW9nHMnNqFjLm_EqRQ&utm_medium=link&utm_source=api"
+    }
+  ]
+}

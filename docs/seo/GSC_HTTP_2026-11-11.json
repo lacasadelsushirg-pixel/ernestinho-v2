@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "final": "https://www.ernestinhocarioca.com.br/sitemap.xml",
+    "canonical": []
+  },
+  {
+    "path": "/locale-manifest.json",
+    "status": 200,
+    "final": "https://www.ernestinhocarioca.com.br/locale-manifest.json",
+    "canonical": []
+  },
+  {
+    "path": "/en/destinos/buzios/playas/brava/",
+    "status": 200,
+    "final": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/brava/",
+    "canonical": [
+      "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/brava/"
+    ]
+  },
+  {
+    "path": "/en/destinos/buzios/playas/caravelas/",
+    "status": 200,
+    "final": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/caravelas/",
+    "canonical": [
+      "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/caravelas/"
+    ]
+  },
+  {
+    "path": "/en/destinos/buzios/playas/ferradura/",
+    "status": 200,
+    "final": "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/ferradura/",
+    "canonical": [
+      "https://www.ernestinhocarioca.com.br/en/destinos/buzios/playas/ferradura/"
+    ]
+  }
+]
