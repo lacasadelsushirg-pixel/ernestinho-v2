@@ -147,12 +147,22 @@
       "missing_keys": 0,
       "qa": "Static strings, title, metadata and alt/map text checked against French dictionary; no missing in inspected set.",
       "editorial_review": "Confirm official visiting hours, booking, accessibility and institutional opening before publication."
+    },
+    {
+      "route": "/cultura/bibliotecas/",
+      "source_sha": "7304ba4063cf72b73319ce19439f0a0d1dc7e871",
+      "dictionary": "assets/js/translations/fr/cultura-bibliotecas-paralelo.json",
+      "entries": 79,
+      "checked_strings": 79,
+      "missing_keys": 0,
+      "qa": "All static visible strings, title/meta descriptions and 17 image alt strings mapped; JSON-LD must be regenerated for French HTML (name, description, inLanguage, URL).",
+      "editorial_review": "Review all 17 cards, link targets, photo accuracy and institutional status before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 15,
-    "static_dictionary_entries": 656,
-    "total_source_translation_units": 656
+    "prepared_pages": 16,
+    "static_dictionary_entries": 735,
+    "total_source_translation_units": 735
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
