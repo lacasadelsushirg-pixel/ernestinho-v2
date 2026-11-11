@@ -16,6 +16,7 @@ ROUTES = (
     '/', '/guia/', '/guia/apps/', '/guia/dinero/', '/guia/permanencia/',
     '/gastronomia/carretao-ipanema/', '/gastronomia/ct-boucherie/',
     '/gastronomia/belmonte-copa/', '/gastronomia/belmonte-ipanema/', '/gastronomia/polvo-marisqueria/',
+    '/gastronomia/nido-ristorante/', '/gastronomia/corrientes-348/', '/gastronomia/praia-skol-copa/',
     '/gastronomia/rotisseria-sirio-libanesa/', '/gastronomia/casa-feijoada/', '/gastronomia/ocya-leblon/',
     '/gastronomia/faenza-copacabana/', '/gastronomia/nino-cucina-ipanema/', '/gastronomia/koral/',
     '/gastronomia/brota/', '/gastronomia/noa-ipanema/', '/gastronomia/bar-do-mineiro/',

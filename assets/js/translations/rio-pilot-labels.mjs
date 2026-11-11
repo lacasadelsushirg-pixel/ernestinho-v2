@@ -1992,4 +1992,226 @@ export const pilotLabels = {
       "A meal fits a walk around Leblon, with access through the neighborhood streets. Confirm the exact branch when booking and check current hours."
     ]
   },
+  "/gastronomia/nido-ristorante/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Nido Ristorante": [
+      "Mapa de Nido Ristorante",
+      "Map of Nido Ristorante"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Nido Ristorante — imagen de la experiencia.": [
+      "Nido Ristorante — um registro da experiência.",
+      "Nido Ristorante — a glimpse of the visit."
+    ],
+    "Nido Ristorante — fotografía editorial": [
+      "Nido Ristorante — foto editorial",
+      "Nido Ristorante — editorial photo"
+    ],
+    "Sitio oficial ↗ · Menú oficial ↗": [
+      "Site oficial ↗ · Cardápio oficial ↗",
+      "Official website ↗ · Official menu ↗"
+    ],
+    "Nido Ristorante — fotografía 1": [
+      "Nido Ristorante — foto 1",
+      "Nido Ristorante — photo 1"
+    ],
+    "Nido Ristorante — fotografía 2": [
+      "Nido Ristorante — foto 2",
+      "Nido Ristorante — photo 2"
+    ],
+    "Nido Ristorante — fotografía 6": [
+      "Nido Ristorante — foto 6",
+      "Nido Ristorante — photo 6"
+    ],
+    "Nido Ristorante — fotografía 7": [
+      "Nido Ristorante — foto 7",
+      "Nido Ristorante — photo 7"
+    ],
+    "Nido Ristorante — fotografía 8": [
+      "Nido Ristorante — foto 8",
+      "Nido Ristorante — photo 8"
+    ],
+    "Nido Ristorante — fotografía 9": [
+      "Nido Ristorante — foto 9",
+      "Nido Ristorante — photo 9"
+    ],
+    "Nido Ristorante — fotografía 10": [
+      "Nido Ristorante — foto 10",
+      "Nido Ristorante — photo 10"
+    ],
+    "Nido Ristorante — fotografía 11": [
+      "Nido Ristorante — foto 11",
+      "Nido Ristorante — photo 11"
+    ],
+    "Nido Ristorante — fotografía 12": [
+      "Nido Ristorante — foto 12",
+      "Nido Ristorante — photo 12"
+    ],
+    "Fotografía 4 de Nido Ristorante.": [
+      "Foto 4 do Nido Ristorante.",
+      "Photo 4 of Nido Ristorante."
+    ],
+    "Fotografía 5 de Nido Ristorante.": [
+      "Foto 5 do Nido Ristorante.",
+      "Photo 5 of Nido Ristorante."
+    ],
+    "Fotografía 6 de Nido Ristorante.": [
+      "Foto 6 do Nido Ristorante.",
+      "Photo 6 of Nido Ristorante."
+    ],
+    "Fotografía 7 de Nido Ristorante.": [
+      "Foto 7 do Nido Ristorante.",
+      "Photo 7 of Nido Ristorante."
+    ],
+    "Fotografía 8 de Nido Ristorante.": [
+      "Foto 8 do Nido Ristorante.",
+      "Photo 8 of Nido Ristorante."
+    ],
+    "Fotografía 9 de Nido Ristorante.": [
+      "Foto 9 do Nido Ristorante.",
+      "Photo 9 of Nido Ristorante."
+    ],
+    "Fotografía 10 de Nido Ristorante.": [
+      "Foto 10 do Nido Ristorante.",
+      "Photo 10 of Nido Ristorante."
+    ],
+    "En Nido Ristorante, una buena estrategia para una mesa de amigos es compartir una entrada y después escoger platos principales diferentes. Pregunta por las pastas y especialidades disponibles ese día; una recomendación antigua puede referirse a un menú de otra temporada.": [
+      "No Nido Ristorante, um grupo de amigos pode compartilhar uma entrada e pedir pratos principais diferentes. Pergunte pelas massas e especialidades do dia, pois recomendações antigas podem se referir a outra temporada.",
+      "At Nido Ristorante, a group of friends can share a starter and choose different main courses. Ask about the pasta and specialties available that day, as older recommendations may refer to another season."
+    ],
+    "Para una ocasión especial, confirma la reserva y el horario de cocina antes de salir. Deja margen para disfrutar la comida italiana con calma y combinarla con un paseo por el barrio en lugar de encadenar actividades con horarios rígidos.": [
+      "Para uma ocasião especial, confirme a reserva e o horário da cozinha antes de sair. Deixe tempo para aproveitar a comida italiana com calma e combinar com um passeio pelo bairro.",
+      "For a special occasion, confirm the booking and kitchen hours before you go. Leave time to enjoy the Italian meal at your own pace and combine it with a walk around the neighborhood."
+    ]
+  },
+  "/gastronomia/corrientes-348/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Corrientes 348": [
+      "Mapa de Corrientes 348",
+      "Map of Corrientes 348"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Fotografía 1 de Corrientes 348.": [
+      "Foto 1 do Corrientes 348.",
+      "Photo 1 of Corrientes 348."
+    ],
+    "Fotografía 2 de Corrientes 348.": [
+      "Foto 2 do Corrientes 348.",
+      "Photo 2 of Corrientes 348."
+    ],
+    "Fotografía 3 de Corrientes 348.": [
+      "Foto 3 do Corrientes 348.",
+      "Photo 3 of Corrientes 348."
+    ],
+    "Fotografía 4 de Corrientes 348.": [
+      "Foto 4 do Corrientes 348.",
+      "Photo 4 of Corrientes 348."
+    ],
+    "Fotografía 5 de Corrientes 348.": [
+      "Foto 5 do Corrientes 348.",
+      "Photo 5 of Corrientes 348."
+    ],
+    "Fotografía 6 de Corrientes 348.": [
+      "Foto 6 do Corrientes 348.",
+      "Photo 6 of Corrientes 348."
+    ],
+    "En Corrientes 348, pregunta por el peso de los cortes y por las guarniciones incluidas antes de pedir. Para compartir, elegir una carne y acompañamientos distintos puede ser más interesante que duplicar platos. Confirma carta y precios actuales de la sede.": [
+      "No Corrientes 348, pergunte o peso dos cortes e quais acompanhamentos estão incluídos antes de pedir. Para compartilhar, uma carne e guarnições diferentes podem dar mais variedade. Confira o cardápio e os preços atuais da unidade.",
+      "At Corrientes 348, ask about the weight of the cuts and included sides before ordering. For sharing, one cut and different sides can offer more variety. Check the branch’s current menu and prices."
+    ],
+    "Una parrilla argentina puede ser el centro de una cena con amigos o familia. Reserva tiempo para comer sin prisa, identifica la unidad exacta y evita mezclar sus condiciones con las de otras sucursales.": [
+      "Uma parrilla argentina pode ser o centro de um jantar com amigos ou família. Deixe tempo para comer sem pressa e confira a unidade exata e suas condições.",
+      "An Argentine grill can be the main event of a dinner with friends or family. Allow time to eat at an easy pace and check the exact branch and its terms."
+    ]
+  },
+  "/gastronomia/praia-skol-copa/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Praia Skol": [
+      "Mapa de Praia Skol",
+      "Map of Praia Skol"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Fotografía de Praia Skol.": [
+      "Foto do Praia Skol.",
+      "Photo of Praia Skol."
+    ],
+    "Praia Skol — imagen 1": [
+      "Praia Skol — foto 1",
+      "Praia Skol — photo 1"
+    ],
+    "Praia Skol — imagen 2": [
+      "Praia Skol — foto 2",
+      "Praia Skol — photo 2"
+    ],
+    "Praia Skol — imagen 3": [
+      "Praia Skol — foto 3",
+      "Praia Skol — photo 3"
+    ],
+    "Praia Skol — imagen 4": [
+      "Praia Skol — foto 4",
+      "Praia Skol — photo 4"
+    ],
+    "praia skol copa: PRAIA S (3)": [
+      "Praia Skol Copacabana: foto 3",
+      "Praia Skol Copacabana: photo 3"
+    ],
+    "praia skol copa: PRAIA S (1)": [
+      "Praia Skol Copacabana: foto 1",
+      "Praia Skol Copacabana: photo 1"
+    ],
+    "praia skol copa: PRAIA S (2)": [
+      "Praia Skol Copacabana: foto 2",
+      "Praia Skol Copacabana: photo 2"
+    ],
+    "praia skol copa: PRAIA S (5)": [
+      "Praia Skol Copacabana: foto 5",
+      "Praia Skol Copacabana: photo 5"
+    ],
+    "praia skol copa: PRAIA S (4)": [
+      "Praia Skol Copacabana: foto 4",
+      "Praia Skol Copacabana: photo 4"
+    ],
+    "Fotos de praia skol copa": [
+      "Fotos do Praia Skol Copacabana",
+      "Praia Skol Copacabana photos"
+    ],
+    "En Praia Skol de Copacabana, comprueba primero cuál es el quiosco y cómo se identifica en la orla. Antes de pedir, revisa los precios y pregunta por posibles condiciones de consumo, porque la atención de playa puede variar con la temporada y los eventos.": [
+      "No Praia Skol de Copacabana, confira o quiosque e sua identificação na orla. Antes de pedir, veja os preços e as condições de consumo, que podem mudar com a temporada e os eventos.",
+      "At Praia Skol in Copacabana, check the kiosk and its identification on the waterfront. Before ordering, look at prices and any spending terms, which can vary with the season and events."
+    ],
+    "La experiencia consiste en detenerte junto al mar durante un paseo por Copacabana. Ten presente el clima y la ocupación de la playa; evita confundir este establecimiento con otros quioscos cercanos.": [
+      "A visita é uma pausa junto ao mar durante um passeio por Copacabana. Leve em conta o clima e o movimento na praia e confira o quiosque exato.",
+      "The visit is a break by the sea during a walk around Copacabana. Consider the weather and beach crowds, and check the exact kiosk."
+    ]
+  },
 };
