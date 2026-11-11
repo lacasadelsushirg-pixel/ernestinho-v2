@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = 'https://www.ernestinhocarioca.com.br'
 ROUTES = (
     '/', '/guia/', '/guia/apps/', '/guia/dinero/', '/guia/permanencia/',
-    '/gastronomia/carretao-ipanema/', '/gastronomia/ct-boucherie/',
+    '/gastronomia/jojo/', '/gastronomia/carretao-ipanema/', '/gastronomia/ct-boucherie/',
     '/gastronomia/belmonte-copa/', '/gastronomia/belmonte-ipanema/', '/gastronomia/polvo-marisqueria/',
     '/gastronomia/nido-ristorante/', '/gastronomia/corrientes-348/', '/gastronomia/praia-skol-copa/',
     '/gastronomia/rotisseria-sirio-libanesa/', '/gastronomia/casa-feijoada/', '/gastronomia/ocya-leblon/',
@@ -28,6 +28,17 @@ ROUTES = (
     '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/',
     '/gastronomia/labuta-bar/', '/gastronomia/casa-201/', '/gastronomia/angu-do-gomes/',
 )
+# Editorial correction restricted to Jojö; these Spanish labels are stale.
+# Do not alter global translations of Botafogo on unrelated routes.
+SCOPED_COPY = {
+    '/gastronomia/jojo/': {
+        'Ernestinho Carioca · Botafogo': 'Ernestinho Carioca · Horto/Jardim Botânico',
+        'Botafogo': 'Horto/Jardim Botânico',
+        'Botafogo, Rio de Janeiro — RJ; confirmar dirección exacta':
+            'Horto/Jardim Botânico, Rio de Janeiro — RJ ; Rua Pacheco Leão, 812, à confirmer.',
+    },
+}
+
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
     '//title/text()|//body//text()[not(ancestor::script or ancestor::style or ancestor::svg or ancestor::template)]'
@@ -152,11 +163,12 @@ def french_page(source, route, copybook):
     for element in document.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," lang-switcher ")]'):
         element.drop_tree()
     missing = set()
+    localized = {**copybook, **SCOPED_COPY.get(route, {})}
 
     def lookup(value):
-        if value not in copybook:
+        if value not in localized:
             missing.add(value)
-        return copybook.get(value, value)
+        return localized.get(value, value)
 
     translate_nodes(document, lookup)
     update_urls(document, route, lookup)
