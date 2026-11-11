@@ -1,0 +1,84 @@
+{
+  "project": "Ernestinho Carioca | Compras de Rio en francés, staging editorial aislado",
+  "source_branch": "revision/rendimiento-traducciones-81a904c",
+  "branch": "traduccion/compras-fr-paralelo-20261111",
+  "status": "DICT_STAGING_NOT_INTEGRATED_NOT_PUBLISHED",
+  "first_batch_date": "2026-11-11",
+  "source_inventory": {
+    "directories": 33,
+    "landing": "/compras/",
+    "note": "34 folder routes possible, but aliases, redirects, duplicates and SEO canonical require evaluation before final total. Do not assume all routes should be indexed."
+  },
+  "scope": [
+    {
+      "route": "/compras/mercados-populares/",
+      "source_sha": "cbd68df21336c29e6d5cc2a649a2f8d5608d6446",
+      "dictionary": "assets/js/translations/fr/compras-mercados-populares-paralelo.json",
+      "entries": 28,
+      "checked_strings": 28,
+      "missing_keys": 0
+    },
+    {
+      "route": "/compras/ferias/",
+      "source_sha": "0e8e94bbbb8b9b4d37ab1e6c14bb5fc2ed52da55",
+      "dictionary": "assets/js/translations/fr/compras-ferias-paralelo.json",
+      "entries": 39,
+      "checked_strings": 39,
+      "missing_keys": 0
+    },
+    {
+      "route": "/compras/shoppings/",
+      "source_sha": "89d1603b2a5018c6dcb14875aa1dd96a141719b3",
+      "dictionary": "assets/js/translations/fr/compras-shoppings-paralelo.json",
+      "entries": 44,
+      "checked_strings": 44,
+      "missing_keys": 0
+    },
+    {
+      "route": "/compras/",
+      "source_sha": "dca5da4c24e041bcf363ff50cb39205756850c6c",
+      "dictionary": "assets/js/translations/fr/compras-portada-paralelo.json",
+      "entries": 59,
+      "checked_strings": 59,
+      "missing_keys": 0
+    },
+    {
+      "route": "/compras/saara/",
+      "source_sha": "839bb2ce46d8d7954c6304a70c7f12a92c46b93b",
+      "dictionary": "assets/js/translations/fr/compras-saara-paralelo.json",
+      "entries": 47,
+      "checked_strings": 47,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-saara-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4
+    },
+    {
+      "route": "/compras/rio-sul/",
+      "source_sha": "fa135d3276ead10c0b0d67ef746a0ec28bd1e651",
+      "dictionary": "assets/js/translations/fr/compras-rio-sul-paralelo.json",
+      "entries": 58,
+      "checked_strings": 58,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-rio-sul-dinamico-paralelo.json",
+      "dynamic_js_keys": 33,
+      "dynamic_story_paragraphs": 4
+    }
+  ],
+  "totals": {
+    "prepared_pages": 6,
+    "static_dictionary_entries": 275,
+    "dynamic_JS_keys_in_two_pages": 63,
+    "extra_story_paragraphs": 8,
+    "coverage_missing_visible_meta_alt": 0
+  },
+  "known_integration_blockers": [
+    "Existing source JavaScript includes only es/pt/en as language whitelist; without integrating fr on a separate preview, French dictionaries will not render.",
+    "Individual shopping articles SAARA and Rio Sul dynamically inject a separate D map and story paragraphs. Use supplements to preserve ALL long paragraphs, hours and category labels. No premature 'completed public FR' claims.",
+    "The Compras landing page uses data-ch-es/pt/en attributes, and its inline selector script falls back to ES for other languages. Add data-ch-fr in a non-production renderer and keep card links valid.",
+    "Avoid Work PR #24 recovery overlap, especially on Feira Nocturna de Copacabana and original ES/PT-BR/EN text. Do not merge independently.",
+    "Follow canonical original site patterns, never index aliases or duplicate redirects; use private noindex until full FR URL, reciprocal hreflang, assets, mobile/desktop and SEO checks pass."
+  ],
+  "qa_policy": "Verify all visible body text, title/description/social meta, alt, aria, placeholders and inline data-ch-es. For dynamically rendered ES JS, verify D keys, hours array, cats array and story paragraphs before accepting page.",
+  "remaining_work": "Audit other Compras sites, translate complete individual pages and dynamic narrative data, then private preview integration and visual/SEO QA. Do not publish."
+}
