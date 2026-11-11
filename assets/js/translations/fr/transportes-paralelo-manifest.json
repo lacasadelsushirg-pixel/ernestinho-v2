@@ -62,13 +62,27 @@
       "source_keys_checked": null,
       "missing_keys": 0,
       "editorial_review": "Verify fares, eligibility, contractual rules and operational schedules against official sources before publishing."
+    },
+    {
+      "route": "/transportes/uber/",
+      "source_sha": "818cc815877fea18e8b56d0053fc5d23b0389fa0",
+      "dictionary": "assets/js/translations/fr/transportes-uber-paralelo.json",
+      "entries": 85,
+      "missing_keys": 0
+    },
+    {
+      "route": "/transportes/metro/",
+      "source_sha": "9c912ae9fc43d365e0e7668aa02bd18ec40e81e9",
+      "dictionary": "assets/js/translations/fr/transportes-metro-paralelo.json",
+      "entries": 96,
+      "missing_keys": 0
     }
   ],
   "totals": {
     "section_routes": 13,
-    "prepared_routes": 7,
-    "pending_routes": 6,
-    "fr_dictionary_entries": 463,
+    "prepared_routes": 9,
+    "pending_routes": 4,
+    "fr_dictionary_entries": 644,
     "source_keys_missing": 0
   },
   "editorial_review": "Transport fares, timetables, route operations, payment acceptance, and accessibility are time-sensitive. Preserve original text but confirm updated official services before any public release.",
