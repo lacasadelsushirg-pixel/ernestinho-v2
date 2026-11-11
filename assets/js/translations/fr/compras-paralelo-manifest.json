@@ -296,13 +296,61 @@
       "dynamic_js_keys": 11,
       "dynamic_story_paragraphs": 13,
       "editorial_review": "Complete P array and T object. Very specific facilities including Police Federal passport service require authoritative recheck before public FR release."
+    },
+    {
+      "route": "/compras/fashion-mall/",
+      "source_sha": "634874a129f78b4a97ba6231aec0da5a21bb49b6",
+      "dictionary": "assets/js/translations/fr/compras-fashion-mall-paralelo.json",
+      "entries": 78,
+      "checked_strings": 66,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-fashion-mall-dinamico-paralelo.json",
+      "dynamic_js_keys": 12,
+      "dynamic_story_paragraphs": 12,
+      "editorial_review": "Verify current Fashion Mall cinema/theatre programming, accessibility, services, tenants."
+    },
+    {
+      "route": "/compras/metropolitano-barra/",
+      "source_sha": "5ee77620e844c6ece7e3bd06815a6757af50210f",
+      "dictionary": "assets/js/translations/fr/compras-metropolitano-barra-paralelo.json",
+      "entries": 83,
+      "checked_strings": 71,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-metropolitano-barra-dinamico-paralelo.json",
+      "dynamic_js_keys": 12,
+      "dynamic_story_paragraphs": 12,
+      "editorial_review": "Verify current events, cinema, transport, shop listings and opening hours."
+    },
+    {
+      "route": "/compras/parkjacarepagua/",
+      "source_sha": "ffa4909d57a3f6e596419206e7df6d0a60704720",
+      "dictionary": "assets/js/translations/fr/compras-parkjacarepagua-paralelo.json",
+      "entries": 79,
+      "checked_strings": 67,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-parkjacarepagua-dinamico-paralelo.json",
+      "dynamic_js_keys": 12,
+      "dynamic_story_paragraphs": 13,
+      "editorial_review": "Verify Parque da Magia schedules, current restaurant tenants, accessibility and parking."
+    },
+    {
+      "route": "/compras/barrashopping/",
+      "source_sha": "d8f12598140d6888763e38017d55b32a48236b87",
+      "dictionary": "assets/js/translations/fr/compras-barrashopping-paralelo.json",
+      "entries": 82,
+      "checked_strings": 71,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-barrashopping-dinamico-paralelo.json",
+      "dynamic_js_keys": 11,
+      "dynamic_story_paragraphs": 23,
+      "editorial_review": "Verify BRT 22/50, buses 553/2803/2804/990/301, shops and HotZone count, accessibility and opening. Translate JS-injected image captions in private FR."
     }
   ],
   "totals": {
-    "prepared_pages": 27,
-    "static_dictionary_entries": 1694,
-    "dynamic_JS_keys": 620,
-    "extra_story_paragraphs": 92,
+    "prepared_pages": 31,
+    "static_dictionary_entries": 2016,
+    "dynamic_JS_keys": 667,
+    "extra_story_paragraphs": 152,
     "coverage_missing_visible_meta_alt": 0
   },
   "known_integration_blockers": [
@@ -331,5 +379,28 @@
       "route": "/compras/lavradio/",
       "issue": "Market frequency may be monthly rather than weekly; source says Saturdays. Official calendar check required."
     }
+  ],
+  "exclusions": [
+    {
+      "route": "/compras/feira-organica/",
+      "reason": "HTML redirects to /compras/feira-organica-gloria/; no standalone FR canonical."
+    },
+    {
+      "route": "/compras/feira-noturna-copacabana/",
+      "reason": "Reserved for Work PR #24 existing PT/EN recovery and FR pilot; reconcile canonical."
+    },
+    {
+      "route": "/compras/feira-nocturna-copacabana/",
+      "reason": "Reserved for Work PR #24; avoid two FR pages about same market."
+    }
+  ],
+  "indexation_policy": {
+    "original_languages": "ES/PT-BR/EN production untouched",
+    "fr": "Source dictionaries only; FR rendered pages and indexation are not yet created",
+    "publishing_gate": "Reconcile PR #24; integrate FR in private noindex preview; test HTML 200, self canonical, reciprocal hreflang, sources/photos/captions, mobile 390px and desktop 1440px, correct sitemap; Google determines indexing."
+  },
+  "current_scope_summary": "31 distinct Compras editorial routes source-translated. 2 Copacabana variants held for Work PR #24, 1 redirect excluded. Includes date-sensitive and inconsistent source content flagged editorially.",
+  "integration_issues": [
+    "Large Shopping articles render source JS P, T and sometimes hardcoded image caption/alt; private FR renderer must translate every injection, not just body HTML."
   ]
 }
