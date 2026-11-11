@@ -27,14 +27,65 @@
       "source_sha": "b6d4b9d87b4ca1b4571b449ab137fcd3e1e88a4b",
       "dictionary": "assets/js/translations/fr/consejos-maletas-rio-paralelo.json",
       "entries": 51
+    },
+    {
+      "route": "/consejos/rodizio/",
+      "source_sha": "b3ae12f8e944f8e93a7f0d26156791b8d223be83",
+      "dictionary": "assets/js/translations/fr/consejos-rodizio-paralelo.json",
+      "entries": 35,
+      "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/souvenirs/",
+      "source_sha": "3f713f69a0c57a6eb54f77d34bae0c576bb3d800",
+      "dictionary": "assets/js/translations/fr/consejos-souvenirs-paralelo.json",
+      "entries": 37,
+      "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/seguro-viaje/",
+      "source_sha": "3dd9266f4740ea2d7bed768791a624296c80c2d3",
+      "dictionary": "assets/js/translations/fr/consejos-seguro-viaje-paralelo.json",
+      "entries": 26,
+      "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
+      "editorial_review": "confirm insurance terms and current assistance/affiliate information before publishing"
+    },
+    {
+      "route": "/consejos/sol-calor/",
+      "source_sha": "34e68c0930deebdf716466f5bac39449c241db9e",
+      "dictionary": "assets/js/translations/fr/consejos-sol-calor-paralelo.json",
+      "entries": 44,
+      "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/lluvia/",
+      "source_sha": "3d8ddf73c273d5fa4e3bd8ff0f7e7686f3c2f74d",
+      "dictionary": "assets/js/translations/fr/consejos-lluvia-paralelo.json",
+      "entries": 47,
+      "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/estado-del-mar-playas/",
+      "source_sha": "20cb802009b0fc42b7ef1f79e1d330a230ab8565",
+      "dictionary": "assets/js/translations/fr/consejos-estado-del-mar-playas-paralelo.json",
+      "entries": 48,
+      "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
+      "editorial_review": "INEA, CBMERJ, marine alerts and the original dated October 2026 references should be verified against current conditions before any launch"
     }
   ],
-  "coverage": "Exact source visible text, metadata title/description and image alt / aria-label keys compared to dictionaries. This is source coverage only; no preview render, mobile QA, copyedit or publication.",
+  "coverage": "All 9 source pages were checked for Spanish visible text, title and description/social metadata, image alt and aria-label key coverage against FR dictionaries. No missing keys in these tested surfaces. This is translation staging, not visual, legal, medical, link or runtime QA. Source content current at recorded SHA.",
   "next_steps": [
     "Check source SHAs and current PR24 before integrating",
     "Continue all 24 Consejos subpages and landing FR; keep sections complete",
     "Build private noindex French preview with photos, affiliate links, mobile and desktop checks",
     "Run freeze guards and SEO checks before any PR merging",
-    "Do not replace Work PR24 or current production"
+    "Do not replace Work PR24 or current production",
+    "Keep `/consejos/sol-calor/` route name as-is; its current Spanish editorial page is 'Amaneceres y atardeceres inolvidables' despite the route name.",
+    "Do not mark `/consejos/portugues/` completed from HTML alone: it uses an external Portuguese phrase/audio JS module and needs dynamic content mapping and functional FR review.",
+    "Translate the remaining 15 Consejos subpages and section landing separately; audit redirects, media and dynamically generated text before publishing."
   ]
 }
