@@ -10,6 +10,16 @@ export default {
       en: 'This branch is at Rua Visconde de Pirajá, 112. The Siqueira Campos branch is in Copacabana. Include it in a day around Ipanema and use the full street address to reach the right location.',
     },
   },
+  '/gastronomia/jojo/': {
+    'En Jojo, antes de decidir el pedido pregunta cuáles preparaciones están disponibles en el servicio actual y si se recomiendan para compartir. Si tienes restricciones alimentarias, comprueba ingredientes directamente; las fotografías de una carta pasada no garantizan la oferta del día.': {
+      pt: 'No Jojö, antes de escolher o pedido, pergunte quais preparações estão disponíveis no serviço atual e quais podem ser compartilhadas. Se tiver restrições alimentares, confirme os ingredientes diretamente; fotos de um cardápio antigo não garantem a oferta do dia.',
+      en: 'At Jojö, ask which dishes are available at the current service and whether any are suitable for sharing before ordering. If you have dietary restrictions, check ingredients directly; photographs of an older menu do not guarantee what is served today.',
+    },
+    'Puedes organizar la visita como una pausa gastronómica dentro de un paseo por el barrio. Confirma el horario y la dirección exacta antes de desplazarte, y evita programar otra actividad con poco margen inmediatamente después.': {
+      pt: 'Você pode incluir a visita como uma pausa gastronômica durante um passeio pelo bairro. Confirme o horário e o endereço exato antes de sair e deixe tempo suficiente antes da próxima atividade.',
+      en: 'You can make the visit a dining break during a walk around the neighborhood. Confirm the hours and exact address before setting off, and leave enough time before your next activity.',
+    },
+  },
   '/gastronomia/ct-boucherie/': {
     'En CT Boucherie, para controlar el presupuesto revisa el peso y punto de cocción de la carne, y confirma cómo funciona el servicio de guarniciones. No supongas que un valor antiguo incluye bebidas o todas las opciones del acompañamiento.': {
       pt: 'Para controlar o orçamento na CT Boucherie, confira o peso do corte, indique o ponto da carne e pergunte como funciona o serviço de acompanhamentos. Consulte o cardápio atual para saber se o valor inclui bebidas ou todas as opções de acompanhamento.',
@@ -24,6 +34,20 @@ export default {
 
 // Keep the qualifiers and formatting added to the approved practical notes.
 export const updatedFacts = {
+  '/gastronomia/jojo/': {
+    pt: {
+      9: '🏘️ <strong>Bairro e região</strong><br>Horto/Jardim Botânico, Rio de Janeiro — RJ. Rua Pacheco Leão, 812; confirme o endereço antes de sair.',
+      12: '🍽️ <strong>Tipo de serviço</strong><br>Bistrô intimista de cozinha contemporânea, com a chef Joana Carvalho.',
+      13: '☎️ <strong>Contato</strong><br>(21) 3565-9007 e @jojocafebistro, conforme fontes consultadas. Confirme os canais antes de visitar.',
+      17: 'Rua Pacheco Leão, 812, esquina com Rua Caminhoá, no Horto/Jardim Botânico. Confira o trajeto e a acessibilidade diretamente com a casa antes de ir.',
+    },
+    en: {
+      9: '🏘️ <strong>Neighborhood & area</strong><br>Horto/Jardim Botânico, Rio de Janeiro — RJ. Rua Pacheco Leão, 812; confirm the address before leaving.',
+      12: '🍽️ <strong>Service type</strong><br>Intimate contemporary bistro run by chef Joana Carvalho.',
+      13: '☎️ <strong>Contact</strong><br>(21) 3565-9007 and @jojocafebistro according to the consulted sources. Reconfirm the details before visiting.',
+      17: 'Jojö is at Rua Pacheco Leão, 812, on the corner of Rua Caminhoá, in Horto/Jardim Botânico. Check the route and accessibility directly with the restaurant before visiting.',
+    },
+  },
   '/gastronomia/casa-201/': {
     pt: {
       10: '🕐 <strong>Horários</strong><br>De terça a sábado, chegada às 20h. Domingo e segunda fechados, segundo referências públicas. Apenas com reserva.',
