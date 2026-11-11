@@ -277,12 +277,22 @@
       "missing_keys": 0,
       "qa": "Visible text, metadata, alt/title and static labels mapped; JSON-LD FR and inline script verification required at integration.",
       "editorial_review": "Verify opening hours, events, prices, access and accessibility with official source."
+    },
+    {
+      "route": "/cultura/ihgb/",
+      "source_sha": "3d5b721bf0f880cff047b9d576e565d23e8fa9ac",
+      "dictionary": "assets/js/translations/fr/cultura-ihgb-paralelo.json",
+      "entries": 59,
+      "checked_strings": 59,
+      "missing_keys": 0,
+      "qa": "All inspected static HTML strings, title, OG/Twitter metadata and image/map alt covered. No inline dynamic JS beyond JSON-LD. JSON-LD FR generation remains pending.",
+      "editorial_review": "Official IHGB confirmation needed for Tuesday visit policy, five-person limit, accessibility and reservations before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 28,
-    "static_dictionary_entries": 1281,
-    "total_source_translation_units": 1281
+    "prepared_pages": 29,
+    "static_dictionary_entries": 1340,
+    "total_source_translation_units": 1340
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
