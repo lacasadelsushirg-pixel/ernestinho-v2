@@ -307,12 +307,22 @@
       "missing_keys": 0,
       "qa": "Static visible text, meta/title and image attributes mapped; inline JSON-LD and external site.js require FR rendering integration.",
       "editorial_review": "Officially verify museum and park opening hours, accessibility and group visit conditions before publishing."
+    },
+    {
+      "route": "/cultura/espaco-marinha/",
+      "source_sha": "c9041e3ab40f93a2d543526055d5d6e31d30ce45",
+      "dictionary": "assets/js/translations/fr/cultura-espaco-marinha-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Visible text, metadata, alt/title and other inspected attributes mapped; JSON-LD requires locale-aware regeneration; external site.js integration not audited.",
+      "editorial_review": "Verify Marina do Brasil official current hours, prices, Ilha Fiscal excursions, open vessels and accessibility before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 31,
-    "static_dictionary_entries": 1460,
-    "total_source_translation_units": 1460
+    "prepared_pages": 32,
+    "static_dictionary_entries": 1503,
+    "total_source_translation_units": 1503
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
