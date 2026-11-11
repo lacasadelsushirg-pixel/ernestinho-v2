@@ -139,13 +139,37 @@
       "dynamic_supplement": "assets/js/translations/fr/compras-norte-shopping-dinamico-paralelo.json",
       "dynamic_js_keys": 37,
       "editorial_review": "Verify current facility accessibility, Amigos do Fred, store directory, opening hours and images before publication. Source nsCopy ES/PT/EN currently defaults FR to ES."
+    },
+    {
+      "route": "/compras/praca-lido/",
+      "source_sha": "17909073627630f6df6c564bd326568462a4cdd4",
+      "dictionary": "assets/js/translations/fr/compras-praca-lido-paralelo.json",
+      "entries": 76,
+      "checked_strings": 67,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-praca-lido-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "editorial_review": "ABIO/Prefeitura weekend Feirarte Praça do Lido schedule and difference from Copacabana night market need official verification before release."
+    },
+    {
+      "route": "/compras/feira-organica-gloria/",
+      "source_sha": "23a91c17a0a770d5d1a5c82bfb6bb214c417c54b",
+      "dictionary": "assets/js/translations/fr/compras-feira-organica-gloria-paralelo.json",
+      "entries": 76,
+      "checked_strings": 66,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-feira-organica-gloria-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 3,
+      "editorial_review": "ABIO organic Glória Saturday, 7–13, Rua do Russell and organic certification claims must be checked; not the Sunday Glória general market. Preserve both distinct."
     }
   ],
   "totals": {
-    "prepared_pages": 13,
-    "static_dictionary_entries": 660,
-    "dynamic_JS_keys": 275,
-    "extra_story_paragraphs": 14,
+    "prepared_pages": 15,
+    "static_dictionary_entries": 812,
+    "dynamic_JS_keys": 335,
+    "extra_story_paragraphs": 21,
     "coverage_missing_visible_meta_alt": 0
   },
   "known_integration_blockers": [
@@ -159,7 +183,9 @@
     "Uruguaiana: dynamic D(es/pt/en) contains 50 complete longform labels/paragraphs; source runtime whitelist rejects FR, so private integration needed.",
     "Mercado São Pedro: dynamic D(es/pt/en) contains 45 longform keys, separate navigation and local language event handler; FR still needs controlled private integration and browser QA.",
     "Feira das Yabás: data-y-es and data-es inline attributes require FR on private renderer; base source JS rejects FR. Event-specific schedule must be verified.",
-    "NorteShopping: standalone nsCopy ES/PT/EN and renderNS() require FR integration; current fallback ES. 37 dynamic keys staged and verified."
+    "NorteShopping: standalone nsCopy ES/PT/EN and renderNS() require FR integration; current fallback ES. 37 dynamic keys staged and verified.",
+    "Praça do Lido and organic Glória: both have D/Story ES/PT/EN only and extra multilingual text in original HTML; source rejects FR, add private renderer D.fr/story.fr preserving their different schedules.",
+    "Organic Glória is a Saturday ABIO farmers' market, separate from Sunday Glória street fair; preserve canonical routing and avoid merging narratives."
   ],
   "qa_policy": "Verify all visible body text, title/description/social meta, alt, aria, placeholders and inline data-ch-es. For dynamically rendered ES JS, verify D keys, hours array, cats array and story paragraphs before accepting page.",
   "remaining_work": "Audit other Compras sites, translate complete individual pages and dynamic narrative data, then private preview integration and visual/SEO QA. Do not publish."
