@@ -197,12 +197,52 @@
       "missing_keys": 0,
       "qa": "Static visible text, title, meta descriptions and image alt/map labels checked; JSON-LD requires FR-specific rendering.",
       "editorial_review": "Confirm operating status, dates, opening hours, booking and accessibility with official source."
+    },
+    {
+      "route": "/cultura/maison-france/",
+      "source_sha": "9ae5e704c88a39a50472995e6b653111d9f0b02c",
+      "dictionary": "assets/js/translations/fr/cultura-maison-france-paralelo.json",
+      "entries": 47,
+      "checked_strings": 47,
+      "missing_keys": 0,
+      "qa": "Static text, metadata, title and image/map alt attributes covered in dictionary; JSON-LD and generated French HTML pending.",
+      "editorial_review": "Verify opening hours, prices, event programming, accessibility and booking with official institutions."
+    },
+    {
+      "route": "/cultura/casa-franca/",
+      "source_sha": "deeb97fdd844c038b800aba5c209f2b725a62561",
+      "dictionary": "assets/js/translations/fr/cultura-casa-franca-paralelo.json",
+      "entries": 47,
+      "checked_strings": 47,
+      "missing_keys": 0,
+      "qa": "Static text, metadata, title and image/map alt attributes covered in dictionary; JSON-LD and generated French HTML pending.",
+      "editorial_review": "Verify opening hours, prices, event programming, accessibility and booking with official institutions."
+    },
+    {
+      "route": "/cultura/ccbb/",
+      "source_sha": "59bc55c68e399f11a2ba5b1202baa8b5cc97a2dd",
+      "dictionary": "assets/js/translations/fr/cultura-ccbb-paralelo.json",
+      "entries": 47,
+      "checked_strings": 47,
+      "missing_keys": 0,
+      "qa": "Static text, metadata, title and image/map alt attributes covered in dictionary; JSON-LD and generated French HTML pending.",
+      "editorial_review": "Verify opening hours, prices, event programming, accessibility and booking with official institutions."
+    },
+    {
+      "route": "/cultura/ccjf/",
+      "source_sha": "0369195abde4e36e04739151caf62960c472c2f6",
+      "dictionary": "assets/js/translations/fr/cultura-ccjf-paralelo.json",
+      "entries": 46,
+      "checked_strings": 46,
+      "missing_keys": 0,
+      "qa": "Static text, metadata, title and image/map alt attributes covered in dictionary; JSON-LD and generated French HTML pending.",
+      "editorial_review": "Verify opening hours, prices, event programming, accessibility and booking with official institutions."
     }
   ],
   "totals": {
-    "prepared_pages": 20,
-    "static_dictionary_entries": 921,
-    "total_source_translation_units": 921
+    "prepared_pages": 24,
+    "static_dictionary_entries": 1108,
+    "total_source_translation_units": 1108
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
