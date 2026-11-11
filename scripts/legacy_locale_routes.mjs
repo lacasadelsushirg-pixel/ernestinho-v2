@@ -45,6 +45,12 @@ export const legacyLocaleRoutes = new Map([
   ['/gastronomia/praia-skol-copa/', ['f', 'full']],
   ['/gastronomia/don-camillo/', ['setLang', 'full']],
   ['/gastronomia/bar-do-omar/', ['setLang', 'full']],
+  ['/gastronomia/mee/', ['setLang', 'full']],
+  ['/gastronomia/ocya-ilha/', ['f', 'full']],
+  ['/gastronomia/temperarte-posto6/', ['f', 'full']],
+  ['/gastronomia/temperarte-bolivar/', ['f', 'full']],
+  ['/gastronomia/bar-urca/', ['setLang', 'full']],
+  ['/gastronomia/bar-da-frente/', ['setLang', 'full']],
 ]);
 
 export function hideDuplicateLegacySelector(html, route) {

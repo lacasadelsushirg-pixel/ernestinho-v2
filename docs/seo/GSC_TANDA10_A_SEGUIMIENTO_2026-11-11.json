@@ -1,0 +1,70 @@
+{
+  "fecha": "2026-11-11",
+  "propiedad": "https://www.ernestinhocarioca.com.br/",
+  "results": [
+    {
+      "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/mee/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-04T07:29:05Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/mee/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/mee/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=hXI7Vzn-qEp25elyd3RIPg&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/ocya-ilha/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-05T18:17:02Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/ocya-ilha/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/ocya-ilha/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=biTYSAMTl2Wti04QvKlpFA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/pilograma-prime-grill/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-05T10:03:37Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/pilograma-prime-grill/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/pilograma-prime-grill/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=PmigedF_ix_MJK_uFpr21g&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/haru/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-04T19:29:51Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/haru/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/haru/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=xvBomQ5NDdC4jk5_l2T9Fw&utm_medium=link&utm_source=api"
+    }
+  ]
+}

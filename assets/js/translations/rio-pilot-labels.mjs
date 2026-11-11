@@ -2252,4 +2252,55 @@ export const pilotLabels = {
       ]
     }
 ,
+    "/gastronomia/mee/": {
+      "MEE propone una experiencia asiática que merece planificarse. Antes de reservar, comprueba el menú disponible, la duración del servicio, el precio de bebidas y armonizaciones, y si pueden atender alergias alimentarias. Si quieres evitar productos crudos o picantes, comunícalo con anticipación.": [
+        "O MEE oferece uma experiência asiática que vale planejar. Antes de reservar, confira o menu, a duração do serviço, os preços de bebidas e harmonizações e se a equipe pode atender a alergias alimentares. Se quiser evitar alimentos crus ou picantes, avise com antecedência.",
+        "MEE offers an Asian dining experience worth planning. Before booking, check the available menu, the length of service, drink and pairing prices, and whether the team can accommodate food allergies. If you want to avoid raw or spicy food, let them know in advance."
+      ],
+      "Al estar dentro del Copacabana Palace, esta cena puede combinarse con una salida por la orla, pero yo dejaría la noche reservada principalmente para el restaurante. Verifica el acceso y la política para visitantes externos.": [
+        "Como fica dentro do Copacabana Palace, o jantar pode ser combinado com um passeio pela orla, mas eu reservaria a noite principalmente para o restaurante. Confira o acesso e as regras para visitantes de fora do hotel.",
+        "Since it is inside Copacabana Palace, dinner can be paired with a walk along the waterfront, but I would leave most of the evening for the restaurant. Check access and the policy for guests who are not staying at the hotel."
+      ]
+    },
+    "/gastronomia/ocya-ilha/": {
+      "En Ocya Ilha Gigóia, la experiencia empieza antes de sentarte: confirma el embarque de la barca o bote, el coste y los horarios del traslado. Si tu reserva tiene hora fija, suma margen para llegar y pregunta qué pescados están disponibles ese día.": [
+        "No Ocya Ilha Gigóia, a experiência começa antes de sentar: confirme o embarque, o custo e os horários do barco. Se a reserva tiver hora marcada, deixe margem para chegar e pergunte quais peixes estão disponíveis naquele dia.",
+        "At Ocya Ilha Gigóia, the experience starts before you sit down: confirm the boat departure point, fare and schedule. If you have a timed reservation, allow extra time to arrive and ask which fish are available that day."
+      ],
+      "Ilha Gigóia tiene un ambiente distinto al de la orla. Aprovecha la visita para conocer la isla, pero organiza cómo salir y volver, especialmente de noche o con lluvia.": [
+        "A Ilha Gigóia tem um ambiente diferente do da orla. Aproveite para conhecer a ilha, mas planeje a ida e a volta, especialmente à noite ou com chuva.",
+        "Ilha Gigóia has a different atmosphere from the waterfront. Take time to explore the island, and plan how to get there and back, especially at night or in the rain."
+      ]
+    },
+    "/gastronomia/temperarte-posto6/": {
+      "En Temperarte Posto 6, revisa el cartel vigente para saber si se cobra por kilo o mediante otra modalidad. La variedad puede cambiar según el día y el turno; antes de llenar el plato, observa las opciones y pregunta por ingredientes si tienes restricciones.": [
+        "No Temperarte Posto 6, confira no cartaz atual se a cobrança é por quilo ou segue outro formato. A variedade muda conforme o dia e o turno; antes de se servir, veja as opções e pergunte pelos ingredientes se tiver restrições.",
+        "At Temperarte Posto 6, check the current price board to see whether you pay by weight or under another arrangement. The selection can change by day and service; look at the options before filling your plate and ask about ingredients if you have dietary restrictions."
+      ],
+      "Esta unidad tiene sentido para quienes recorren el extremo de Copacabana próximo a Posto 6. No la confundas con la sede de Rua Bolívar al consultar mapas, horarios o precios.": [
+        "Esta unidade é prática para quem passeia pelo extremo de Copacabana perto do Posto 6. Não confunda com a unidade da Rua Bolívar ao consultar mapas, horários ou preços.",
+        "This branch is convenient when exploring the end of Copacabana near Posto 6. Do not confuse it with the Rua Bolívar branch when checking maps, hours or prices."
+      ]
+    },
+    "/gastronomia/temperarte-bolivar/": {
+      "Temperarte de Rua Bolívar es una opción práctica para quien busca un buffet en Copacabana, pero conviene comprobar el precio y la modalidad del servicio antes de servirse. Si se cobra por peso, las guarniciones también cuentan; una primera porción moderada te permite elegir mejor.": [
+        "O Temperarte da Rua Bolívar é uma opção prática de bufê em Copacabana. Confira o preço e o formato antes de se servir. Se a cobrança for por peso, os acompanhamentos também contam; uma primeira porção moderada ajuda a escolher melhor.",
+        "Temperarte on Rua Bolívar is a practical buffet option in Copacabana. Check the price and service format before serving yourself. If you pay by weight, side dishes count too; a modest first serving gives you room to choose better."
+      ],
+      "Distingue siempre esta sucursal de la unidad de Posto 6. Si te alojas cerca de Rua Bolívar, puedes incluirla en una jornada por Copacabana sin desplazarte expresamente a otro barrio.": [
+        "Distinga sempre esta filial da unidade do Posto 6. Se estiver hospedado perto da Rua Bolívar, dá para incluí-la num dia em Copacabana sem sair do bairro só para comer.",
+        "Keep this branch separate from the Posto 6 location. If you are staying near Rua Bolívar, you can fit it into a day in Copacabana without making a special trip to another neighborhood."
+      ]
+    },
+    "/gastronomia/bar-da-frente/": {
+      "Al buscar Bar da Frente, distingue la casa original de Praça da Bandeira de cualquier otra unidad de la marca. Las referencias a petiscos creativos son parte de su identidad, pero no conviene trasladar automáticamente direcciones, horarios y platos de una sucursal a otra. Pregunta qué preparaciones de la casa están disponibles y el tamaño de las porciones para pedir algo variado sin excederte.": [
+        "Ao procurar o Bar da Frente, diferencie a casa original da Praça da Bandeira das outras unidades. Os petiscos criativos fazem parte da identidade da marca, mas não presuma que endereços, horários e pratos sejam iguais em todas as filiais. Pergunte quais preparações estão disponíveis e o tamanho das porções para variar sem pedir demais.",
+        "When looking up Bar da Frente, distinguish the original Praça da Bandeira location from any other branch. Creative bar snacks are part of its identity, but addresses, hours and dishes do not automatically carry over. Ask which house dishes are available and how large the portions are so you can order a variety without overdoing it."
+      ],
+      "Praça da Bandeira ofrece un contexto diferente del de los bares de playa: aquí el atractivo es explorar una mesa de botequim con propuestas propias. Si vienes desde Copacabana, organiza el trayecto antes de salir. Para grupos, una buena estrategia es compartir varios petiscos y decidir si hace falta un plato principal después.": [
+        "A Praça da Bandeira oferece um contexto diferente dos bares de praia: o atrativo é conhecer um botequim com propostas próprias. Se vier de Copacabana, planeje o trajeto antes de sair. Em grupo, compartilhe vários petiscos e decida depois se ainda precisa de um prato principal.",
+        "Praça da Bandeira is a different setting from the beach bars: the appeal is a neighborhood botequim with dishes of its own. If coming from Copacabana, plan your route before leaving. For a group, share several snacks and decide afterward whether you need a main course."
+      ]
+    }
+,
 };
