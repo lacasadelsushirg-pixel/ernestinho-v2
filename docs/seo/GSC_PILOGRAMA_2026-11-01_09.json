@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "siteUrl": "https://www.ernestinhocarioca.com.br/",
+  "startDate": "2026-11-01",
+  "endDate": "2026-11-09",
+  "dimensions": [
+    "page"
+  ],
+  "rowCount": 2,
+  "rows": [
+    {
+      "keys": [
+        "https://www.ernestinhocarioca.com.br/gastronomia/pilograma-prime-grill/"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 18.5
+    },
+    {
+      "keys": [
+        "https://www.ernestinhocarioca.com.br/pt/gastronomia/pilograma-prime-grill/"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 8.1
+    }
+  ],
+  "hasMore": false,
+  "meta": {
+    "projectId": "7172f2fb-7456-4b35-b581-d9b11c0040f4",
+    "url": "https://app.openseo.so/p/7172f2fb-7456-4b35-b581-d9b11c0040f4/search-performance"
+  },
+  "resultId": "e13d8b74-3f54-44d6-b94b-fdac7a2b48a9"
+}

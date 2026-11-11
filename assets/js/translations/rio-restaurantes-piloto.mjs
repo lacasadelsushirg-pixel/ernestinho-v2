@@ -24,6 +24,48 @@ export default {
 
 // Keep the qualifiers and formatting added to the approved practical notes.
 export const updatedFacts = {
+  "/gastronomia/pilograma-prime-grill/": {
+    "pt": {
+      "0": "Comida gostosa, bem temperada e a bom preço: uma recomendação da minha visita recente.",
+      "1": "Conheço pessoalmente o Pilograma Prime Grill, uma opção para comer na Cidade Nova. Voltei a comer lá há poucos dias, então posso confirmar que o local estava atendendo na minha visita. Gosto de recomendar lugares assim, onde o atrativo não é o luxo, mas poder comer bem sem gastar demais.",
+      "2": "Na minha visita recente, encontrei comida saborosa, bem temperada e bem apresentada. O formato e os pratos disponíveis podem variar conforme o dia. Por isso, prefiro falar do que provei e da minha impressão, sem atribuir ao restaurante um cardápio fixo que não confirmei.",
+      "3": "Foi uma boa surpresa: comi bem, o tempero estava ótimo e senti que valeu o que paguei. Ao recomendar lugares para comer no Rio, também procuro restaurantes do dia a dia, com preços acessíveis, de onde a gente sai satisfeito. Pela minha experiência, o Pilograma se encaixa nessa categoria.",
+      "4": "No vídeo da minha visita, mostrei um prato com opções diferentes e destaquei a variedade. Vale ver o que está sendo servido no dia e escolher a gosto, dando preferência ao que parece recém-preparado. Não vou inventar pratos de destaque nem uma lista de preços que pode mudar.",
+      "5": "Recomendo especialmente como uma parada prática para almoçar se você estiver passeando por Cidade Nova e arredores. Para uma refeição carioca do dia a dia, mais do que um jantar formal, acho uma opção interessante pela relação entre sabor e preço.",
+      "6": "Dica do Ernestinho: estive aqui há poucos dias e gostei muito. A comida estava saborosa e bem temperada, e achei o preço muito bom. Se estiver por perto e quiser comer bem sem gastar uma fortuna, considere o Pilograma. Na gravação mencionei R$26 como referência daquela refeição, não como preço fixo atual.",
+      "7": "Se já estiver pela Cidade Nova, encaixe a refeição no passeio pela região em vez de sair das praias só para almoçar. Confira o horário do dia antes de sair, mas não confunda essa precaução normal com a ideia de que o restaurante está fechado.",
+      "8": "📍 <strong>Endereço documentado</strong><br>Rua Correia Vasques, 31 — Cidade Nova — Rio de Janeiro — RJ",
+      "9": "🏘️ <strong>Situação</strong><br>Em funcionamento na minha visita recente (outubro de 2026).",
+      "10": "🕐 <strong>Horários</strong><br>Horário atual não confirmado",
+      "11": "💰 <strong>Preços</strong><br>Cardápio vigente não confirmado",
+      "12": "🍽️ <strong>Tipo de serviço</strong><br>Formato atual não verificado; não reutilize referências históricas",
+      "13": "☎️ <strong>Contato</strong><br>Canal atual não verificado; a página antiga indicava @pilograma_oficial",
+      "14": "📅 <strong>Reservas</strong><br>Não verificadas",
+      "15": "♿ <strong>Acessibilidade</strong><br>Acessibilidade não verificada por completo",
+      "16": "🚇 <strong>Transporte</strong><br>Metrô, ônibus, táxi ou aplicativo conforme a região",
+      "17": "Visitei o restaurante recentemente. Confira os horários vigentes antes de ir."
+    },
+    "en": {
+      "0": "Tasty, well-seasoned food at a good price: a recommendation from my recent visit.",
+      "1": "Pilograma Prime Grill is a place to eat in Cidade Nova that I know personally. I ate there again a few days ago, so I can confirm it was serving customers when I visited. I like recommending places like this, where the appeal is eating well without spending too much rather than luxury.",
+      "2": "On my recent visit, I found tasty, well-seasoned and nicely presented food. The format and dishes on offer can vary by day. I prefer to describe what I tried and how I found it rather than attribute a fixed menu to the restaurant that I have not confirmed.",
+      "3": "It was a pleasant surprise: I ate well, the seasoning was excellent and it felt worth what I paid. When recommending places to eat in Rio, I also look for everyday restaurants with affordable prices where you leave satisfied. In my experience, Pilograma fits that description.",
+      "4": "In the video from my visit, I showed a plate with several choices and highlighted the variety. Look at what is being served that day and pick what you like, favoring dishes that look freshly made. I won’t invent signature dishes or a price list that might change.",
+      "5": "I especially recommend it as a convenient lunch stop when exploring Cidade Nova and nearby areas. For an everyday Carioca meal rather than a formal dinner, I think it is an interesting choice for the balance of flavor and price.",
+      "6": "Ernestinho’s tip: I was here a few days ago and really enjoyed it. The food was tasty and well seasoned, and I thought the price was very good. If you are nearby and want to eat well without spending a fortune, consider Pilograma. In my recording I mentioned R$26 for that meal; do not take it as a fixed current price.",
+      "7": "If you are already in Cidade Nova, fit the meal into your visit to the area rather than making a special trip from the beaches just for lunch. Check the day’s hours before leaving, but do not take that routine precaution to mean the restaurant is closed.",
+      "8": "📍 <strong>Documented address</strong><br>Rua Correia Vasques, 31 — Cidade Nova — Rio de Janeiro — RJ",
+      "9": "🏘️ <strong>Status</strong><br>Operating when I visited recently (October 2026).",
+      "10": "🕐 <strong>Opening hours</strong><br>No current hours confirmed",
+      "11": "💰 <strong>Prices</strong><br>No current menu confirmed",
+      "12": "🍽️ <strong>Service type</strong><br>Current service format unverified; do not reuse historical references",
+      "13": "☎️ <strong>Contact</strong><br>Current channel unverified; the historical page linked to @pilograma_oficial",
+      "14": "📅 <strong>Reservations</strong><br>Not verified",
+      "15": "♿ <strong>Accessibility</strong><br>Accessibility not fully verified",
+      "16": "🚇 <strong>Transport</strong><br>Metro, bus, taxi or ride-hailing, depending on the area",
+      "17": "I visited the restaurant recently. Check its current hours before going."
+    }
+  },
   "/gastronomia/haru/": {
     "pt": {
       "8": "📍 <strong>Endereço</strong><br>Rua Raimundo Corrêa, 10 — Copacabana, Rio de Janeiro — RJ, 22040-042",

@@ -2500,4 +2500,163 @@ export const pilotLabels = {
     }
 ,
   "/gastronomia/bar-urca/": { "bar urca: Bar Urca": ["Bar Urca", "Bar Urca"] },
+    "/gastronomia/pilograma-prime-grill/": {
+      "Buffet · parrilla · almuerzo": [
+        "Bufê · grelha · almoço",
+        "Buffet · grill · lunch"
+      ],
+      "Canal actual no verificado; la página histórica enlazaba @pilograma_oficial": [
+        "Canal atual não verificado; a página antiga indicava @pilograma_oficial",
+        "Current channel unverified; the historical page linked to @pilograma_oficial"
+      ],
+      "Cidade Nova": [
+        "Cidade Nova",
+        "Cidade Nova"
+      ],
+      "Comida rica, bien condimentada y a buen precio: una recomendación de mi visita reciente.": [
+        "Comida gostosa, bem temperada e a bom preço: uma recomendação da minha visita recente.",
+        "Tasty, well-seasoned food at a good price: a recommendation from my recent visit."
+      ],
+      "Dato de Ernestinho: estuve aquí hace pocos días y me gustó mucho. La comida estaba bien condimentada, rica y el precio me pareció muy bueno. Si estás cerca y quieres comer bien sin gastar una fortuna, considera Pilograma. En mi grabación mencioné R$26 como referencia de aquella comida, pero no lo tomes como precio fijo actual.": [
+        "Dica do Ernestinho: estive aqui há poucos dias e gostei muito. A comida estava saborosa e bem temperada, e achei o preço muito bom. Se estiver por perto e quiser comer bem sem gastar uma fortuna, considere o Pilograma. Na gravação mencionei R$26 como referência daquela refeição, não como preço fixo atual.",
+        "Ernestinho’s tip: I was here a few days ago and really enjoyed it. The food was tasty and well seasoned, and I thought the price was very good. If you are nearby and want to eat well without spending a fortune, consider Pilograma. In my recording I mentioned R$26 for that meal; do not take it as a fixed current price."
+      ],
+      "Dirección documentada": [
+        "Endereço documentado",
+        "Documented address"
+      ],
+      "En actividad según mi visita reciente (octubre de 2026).": [
+        "Em funcionamento na minha visita recente (outubro de 2026).",
+        "Operating when I visited recently (October 2026)."
+      ],
+      "En el video de mi visita mostré un plato con diferentes opciones y destaqué la variedad de comida. Lo mejor es mirar lo que se está sirviendo ese día y elegir a gusto, dando prioridad a las preparaciones que se vean recién hechas. No voy a inventar platos estrella ni una lista de precios que puede cambiar.": [
+        "No vídeo da minha visita, mostrei um prato com opções diferentes e destaquei a variedade. Vale ver o que está sendo servido no dia e escolher a gosto, dando preferência ao que parece recém-preparado. Não vou inventar pratos de destaque nem uma lista de preços que pode mudar.",
+        "In the video from my visit, I showed a plate with several choices and highlighted the variety. Look at what is being served that day and pick what you like, favoring dishes that look freshly made. I won’t invent signature dishes or a price list that might change."
+      ],
+      "Ernestinho Carioca · Cidade Nova": [
+        "Ernestinho Carioca · Cidade Nova",
+        "Ernestinho Carioca · Cidade Nova"
+      ],
+      "Esta síntesis procede de la ficha editorial recuperada para Pilograma Prime Grill. Sirve como orientación inicial sobre el tipo de lugar; no sustituye la carta ni confirma la operación actual.": [
+        "Esta síntese vem da ficha editorial recuperada do Pilograma Prime Grill. Serve como orientação inicial sobre o tipo de lugar; não substitui o cardápio nem confirma o funcionamento atual.",
+        "This summary comes from the recovered Pilograma Prime Grill editorial listing. It gives an initial idea of the place; it is not a substitute for the menu or confirmation that the restaurant is currently operating."
+      ],
+      "Estado": [
+        "Situação",
+        "Status"
+      ],
+      "Formato actual no verificado; referencias históricas no deben reutilizarse": [
+        "Formato atual não verificado; não reutilize referências históricas",
+        "Current service format unverified; do not reuse historical references"
+      ],
+      "Fotografía de Pilograma Prime Grill.": [
+        "Foto do Pilograma Prime Grill.",
+        "Photo of Pilograma Prime Grill."
+      ],
+      "Guía editorial de Pilograma Prime Grill: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.": [
+        "Guia editorial do Pilograma Prime Grill: identidade, história, recomendações, horários, transporte e mapa no Rio.",
+        "Editorial guide to Pilograma Prime Grill: identity, history, recommendations, hours, transport and map in Rio."
+      ],
+      "Lo recomiendo especialmente como una parada práctica para almorzar si estás recorriendo Cidade Nova y sus alrededores. Para una experiencia de comida cotidiana carioca, más que una cena formal, me parece una opción interesante por su buena relación entre sabor y precio.": [
+        "Recomendo especialmente como uma parada prática para almoçar se você estiver passeando por Cidade Nova e arredores. Para uma refeição carioca do dia a dia, mais do que um jantar formal, acho uma opção interessante pela relação entre sabor e preço.",
+        "I especially recommend it as a convenient lunch stop when exploring Cidade Nova and nearby areas. For an everyday Carioca meal rather than a formal dinner, I think it is an interesting choice for the balance of flavor and price."
+      ],
+      "Los horarios, la carta y los precios pueden variar; mi recomendación se basa en una visita personal reciente.": [
+        "Horários, cardápio e preços podem variar; minha recomendação se baseia numa visita pessoal recente.",
+        "Hours, menu and prices may change; my recommendation is based on a recent personal visit."
+      ],
+      "Mapa de Pilograma Prime Grill": [
+        "Mapa do Pilograma Prime Grill",
+        "Map of Pilograma Prime Grill"
+      ],
+      "Me sorprendió para bien: comí rico, la sazón estaba muy buena y sentí que había valido lo que pagué. Cuando recomiendo lugares para comer en Río también busco esos restaurantes cotidianos, de precios accesibles, donde uno sale satisfecho. Pilograma entra en esa categoría por mi experiencia.": [
+        "Foi uma boa surpresa: comi bem, o tempero estava ótimo e senti que valeu o que paguei. Ao recomendar lugares para comer no Rio, também procuro restaurantes do dia a dia, com preços acessíveis, de onde a gente sai satisfeito. Pela minha experiência, o Pilograma se encaixa nessa categoria.",
+        "It was a pleasant surprise: I ate well, the seasoning was excellent and it felt worth what I paid. When recommending places to eat in Rio, I also look for everyday restaurants with affordable prices where you leave satisfied. In my experience, Pilograma fits that description."
+      ],
+      "Mi visita reciente me permitió comprobar una comida sabrosa, bien condimentada y presentada de manera agradable. El formato y las preparaciones disponibles pueden variar con el día; por eso prefiero hablar de lo que probé y de mi impresión real, sin atribuirle una carta fija que no tengo confirmada.": [
+        "Na minha visita recente, encontrei comida saborosa, bem temperada e bem apresentada. O formato e os pratos disponíveis podem variar conforme o dia. Por isso, prefiro falar do que provei e da minha impressão, sem atribuir ao restaurante um cardápio fixo que não confirmei.",
+        "On my recent visit, I found tasty, well-seasoned and nicely presented food. The format and dishes on offer can vary by day. I prefer to describe what I tried and how I found it rather than attribute a fixed menu to the restaurant that I have not confirmed."
+      ],
+      "No hay carta vigente confirmada": [
+        "Cardápio vigente não confirmado",
+        "No current menu confirmed"
+      ],
+      "No hay horario actual confirmado": [
+        "Horário atual não confirmado",
+        "No current hours confirmed"
+      ],
+      "No verificadas": [
+        "Não verificadas",
+        "Not verified"
+      ],
+      "Pilograma Prime Grill": [
+        "Pilograma Prime Grill",
+        "Pilograma Prime Grill"
+      ],
+      "Pilograma Prime Grill es una alternativa gastronómica de Cidade Nova que conozco personalmente. Volví a comer allí hace pocos días, así que puedo confirmar por mi propia visita que estaba atendiendo. Me gusta recomendar lugares como este, donde el atractivo no es el lujo sino la posibilidad de comer rico sin gastar demasiado.": [
+        "Conheço pessoalmente o Pilograma Prime Grill, uma opção para comer na Cidade Nova. Voltei a comer lá há poucos dias, então posso confirmar que o local estava atendendo na minha visita. Gosto de recomendar lugares assim, onde o atrativo não é o luxo, mas poder comer bem sem gastar demais.",
+        "Pilograma Prime Grill is a place to eat in Cidade Nova that I know personally. I ate there again a few days ago, so I can confirm it was serving customers when I visited. I like recommending places like this, where the appeal is eating well without spending too much rather than luxury."
+      ],
+      "Pilograma Prime Grill — imagen 1": [
+        "Pilograma Prime Grill — foto 1",
+        "Pilograma Prime Grill — photo 1"
+      ],
+      "Pilograma Prime Grill — imagen 2": [
+        "Pilograma Prime Grill — foto 2",
+        "Pilograma Prime Grill — photo 2"
+      ],
+      "Pilograma Prime Grill — imagen 3": [
+        "Pilograma Prime Grill — foto 3",
+        "Pilograma Prime Grill — photo 3"
+      ],
+      "Pilograma Prime Grill — imagen 4": [
+        "Pilograma Prime Grill — foto 4",
+        "Pilograma Prime Grill — photo 4"
+      ],
+      "Pilograma Prime Grill — imagen 5": [
+        "Pilograma Prime Grill — foto 5",
+        "Pilograma Prime Grill — photo 5"
+      ],
+      "Pilograma Prime Grill: guía completa | Ernestinho Carioca": [
+        "Pilograma Prime Grill: guia completo | Ernestinho Carioca",
+        "Pilograma Prime Grill: complete guide | Ernestinho Carioca"
+      ],
+      "Red tradicional del Centro con varias unidades, buffet por kilo, ensaladas, platos calientes y carnes preparadas en la parrilla.": [
+        "Rede tradicional do Centro com várias unidades, bufê por quilo, saladas, pratos quentes e carnes na grelha.",
+        "Traditional downtown chain with several locations, a pay-by-weight buffet, salads, hot dishes and grilled meats."
+      ],
+      "Rua Correia Vasques, 31 — Cidade Nova — Rio de Janeiro — RJ": [
+        "Rua Correia Vasques, 31 — Cidade Nova — Rio de Janeiro — RJ",
+        "Rua Correia Vasques, 31 — Cidade Nova — Rio de Janeiro — RJ"
+      ],
+      "Si ya te encuentras por Cidade Nova, puedes combinar esta parada para comer con tu recorrido por la zona, evitando un desplazamiento especial desde las playas solo para almorzar. Antes de salir conviene comprobar el horario del día, pero no confundas esa precaución habitual con que el restaurante esté cerrado.": [
+        "Se já estiver pela Cidade Nova, encaixe a refeição no passeio pela região em vez de sair das praias só para almoçar. Confira o horário do dia antes de sair, mas não confunda essa precaução normal com a ideia de que o restaurante está fechado.",
+        "If you are already in Cidade Nova, fit the meal into your visit to the area rather than making a special trip from the beaches just for lunch. Check the day’s hours before leaving, but do not take that routine precaution to mean the restaurant is closed."
+      ],
+      "Visité el restaurante recientemente. Consulta sus horarios vigentes antes de ir.": [
+        "Visitei o restaurante recentemente. Confira os horários vigentes antes de ir.",
+        "I visited the restaurant recently. Check its current hours before going."
+      ],
+      "Accesibilidad no verificada completamente": [
+        "Acessibilidade não verificada por completo",
+        "Accessibility not fully verified"
+      ],
+      "Metro, bus, taxi o aplicación según la zona": [
+        "Metrô, ônibus, táxi ou aplicativo conforme a região",
+        "Metro, bus, taxi or ride-hailing, depending on the area"
+      ],
+      "Notas adicionales de la guía V2": [
+        "Notas adicionais do guia V2",
+        "Additional notes from the V2 guide"
+      ],
+      "Información adicional conservada de la ficha V2": [
+        "Informações adicionais preservadas da ficha V2",
+        "Additional details preserved from the V2 listing"
+      ],
+      "🌐 Sitio oficial": [
+        "🌐 Site oficial",
+        "🌐 Official website"
+      ]
+    }
+,
 };
