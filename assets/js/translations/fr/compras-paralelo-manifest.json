@@ -84,13 +84,25 @@
       "dynamic_js_keys": 44,
       "dynamic_story_paragraphs": 2,
       "editorial_review": "Confirm location, accessibility, shops and transport before publication, preserve respectful cultural/religious description."
+    },
+    {
+      "route": "/compras/feira-sao-cristovao/",
+      "source_sha": "af158a574470449f5f390830a3cdd386794e016f",
+      "dictionary": "assets/js/translations/fr/compras-feira-sao-cristovao-paralelo.json",
+      "entries": 59,
+      "checked_strings": 59,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-feira-sao-cristovao-dinamico-paralelo.json",
+      "dynamic_js_keys": 36,
+      "dynamic_story_paragraphs": 4,
+      "editorial_review": "Recheck operator schedules, transport and programming before public release; preserve Northeast culture and communities respectfully."
     }
   ],
   "totals": {
-    "prepared_pages": 8,
-    "static_dictionary_entries": 356,
-    "dynamic_JS_keys_in_three_pages": 107,
-    "extra_story_paragraphs": 10,
+    "prepared_pages": 9,
+    "static_dictionary_entries": 415,
+    "dynamic_JS_keys_in_four_pages": 143,
+    "extra_story_paragraphs": 14,
     "coverage_missing_visible_meta_alt": 0
   },
   "known_integration_blockers": [
@@ -99,7 +111,8 @@
     "The Compras landing page uses data-ch-es/pt/en attributes, and its inline selector script falls back to ES for other languages. Add data-ch-fr in a non-production renderer and keep card links valid.",
     "Avoid Work PR #24 recovery overlap, especially on Feira Nocturna de Copacabana and original ES/PT-BR/EN text. Do not merge independently.",
     "Follow canonical original site patterns, never index aliases or duplicate redirects; use private noindex until full FR URL, reciprocal hreflang, assets, mobile/desktop and SEO checks pass.",
-    "Mercadão de Madureira uses const T={es,pt,en} + const A={es,pt,en} and a separate source script with data-ec-extra. Translate all dynamic keys and arrays, integrate FR in private renderer, and do not truncate religious/cultural context."
+    "Mercadão de Madureira uses const T={es,pt,en} + const A={es,pt,en} and a separate source script with data-ec-extra. Translate all dynamic keys and arrays, integrate FR in private renderer, and do not truncate religious/cultural context.",
+    "Feira São Cristóvão has D/es and story/es dynamic content with 36 keys and 4 long FR story paragraphs staged. Do not claim FR page parity until rendering all fields, programs and images in a private browser."
   ],
   "qa_policy": "Verify all visible body text, title/description/social meta, alt, aria, placeholders and inline data-ch-es. For dynamically rendered ES JS, verify D keys, hours array, cats array and story paragraphs before accepting page.",
   "remaining_work": "Audit other Compras sites, translate complete individual pages and dynamic narrative data, then private preview integration and visual/SEO QA. Do not publish."
