@@ -1,0 +1,51 @@
+{
+  "project": "Ernestinho Carioca — Transportes de Río FR paralelo",
+  "base_branch": "revision/rendimiento-traducciones-81a904c",
+  "head_branch": "traduccion/transportes-fr-paralelo-20261111",
+  "status": "TRANSLATION_STAGING_NOT_INTEGRATED_NOT_PUBLISHED",
+  "scope": [
+    {
+      "route": "/transportes/bonde-santa-teresa/",
+      "source_sha": "e11df2786e7bb95e636dbd99f2b2ec01e5e8224d",
+      "dictionary": "assets/js/translations/fr/transportes-bonde-santa-teresa-paralelo.json",
+      "entries": 48,
+      "source_keys_checked": 48,
+      "missing_keys": 0
+    },
+    {
+      "route": "/transportes/terminal-gentileza/",
+      "source_sha": "7b770ea4d6384772cb292138a2a6b55fd581cb09",
+      "dictionary": "assets/js/translations/fr/transportes-terminal-gentileza-paralelo.json",
+      "entries": 56,
+      "source_keys_checked": 56,
+      "missing_keys": 0
+    },
+    {
+      "route": "/transportes/barcas/",
+      "source_sha": "15948b907f2970bde19dac9da9c46f7089fdaab8",
+      "dictionary": "assets/js/translations/fr/transportes-barcas-paralelo.json",
+      "entries": 80,
+      "source_keys_checked": 80,
+      "missing_keys": 0
+    }
+  ],
+  "totals": {
+    "section_routes": 13,
+    "prepared_routes": 3,
+    "pending_routes": 10,
+    "fr_dictionary_entries": 184,
+    "source_keys_missing": 0
+  },
+  "editorial_review": "Transport fares, timetables, route operations, payment acceptance, and accessibility are time-sensitive. Preserve original text but confirm updated official services before any public release.",
+  "guardrails": [
+    "Do not edit approved ES/PT/EN originals or Work PR #24",
+    "FR currently unavailable in production i18n.js; preview integration not done",
+    "Test at 1440px/390px, photos, maps, all official links, noindex and SEO",
+    "Check frozen-pages guards, full build and current routing before publication"
+  ],
+  "collaboration": {
+    "work_recovery_pr": 24,
+    "guide_fr_pr": 25,
+    "consejos_fr_pr": 26
+  }
+}
