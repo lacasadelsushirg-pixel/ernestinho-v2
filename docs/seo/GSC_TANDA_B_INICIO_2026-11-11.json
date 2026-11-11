@@ -1,0 +1,60 @@
+{
+  "fecha": "2026-11-11",
+  "propiedad": "https://www.ernestinhocarioca.com.br/",
+  "results": [
+    {
+      "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/feira-sao-cristovao/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-04T10:18:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/feira-sao-cristovao/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/feira-sao-cristovao/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/en/gastronomia/feira-sao-cristovao/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=N7fovkP74RwIx1zlu_7h2w&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/kurt-leblon/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-05T03:21:28Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/kurt-leblon/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/kurt-leblon/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=sZBZOhmqnmuMCM53vb91WQ&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/cais-do-oriente/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-22T23:34:08Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/cais-do-oriente/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/cais-do-oriente/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/pt/gastronomia/cais-do-oriente/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=G9Q2jaYoGouflIgVZnBpFw&utm_medium=link&utm_source=api"
+    }
+  ]
+}

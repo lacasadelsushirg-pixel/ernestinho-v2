@@ -2659,4 +2659,49 @@ export const pilotLabels = {
       ]
     }
 ,
+    "/gastronomia/kurt-leblon/": {
+      "Confeitaria histórica del Leblon con tortas, mousses y galletas de tradición europea, en su dirección actual de General Urquiza.": [
+        "Confeitaria histórica do Leblon com tortas, mousses e biscoitos de tradição europeia, no endereço atual da General Urquiza.",
+        "Historic Leblon pastry shop offering European-style cakes, mousses and cookies at its current General Urquiza address."
+      ],
+      "El sitio oficial informa Rua General Urquiza, 117-B, Leblon. Teléfonos: (21) 2294-0599 y (21) 2512-4943; el primero también aparece como WhatsApp.": [
+        "O site oficial informa Rua General Urquiza, 117-B, Leblon. Telefones: (21) 2294-0599 e (21) 2512-4943; o primeiro também aparece como WhatsApp.",
+        "The official site lists Rua General Urquiza, 117-B, Leblon. Phone numbers: (21) 2294-0599 and (21) 2512-4943; the first is also listed as WhatsApp."
+      ],
+      "La casa destaca palmiers, spekulatius, tortas de inspiración austríaca y alemana, mousses y opciones sin azúcar o sin harina de trigo.": [
+        "A casa destaca palmiers, spekulatius, tortas de inspiração austríaca e alemã, mousses e opções sem açúcar ou sem farinha de trigo.",
+        "The shop highlights palmiers, spekulatius, Austrian- and German-inspired cakes, mousses and options without sugar or wheat flour."
+      ],
+      "La confeitaria cuenta que fue fundada en los años cuarenta por Kurt Deichmann y que mantiene su local en Leblon. Consulta el catálogo actual para conocer sabores disponibles.": [
+        "A confeitaria conta que foi fundada nos anos 1940 por Kurt Deichmann e mantém sua loja no Leblon. Consulte o catálogo atual para conhecer os sabores disponíveis.",
+        "The pastry shop says it was founded in the 1940s by Kurt Deichmann and keeps its Leblon location. Check the current catalogue for available flavors."
+      ],
+      "LEBLON · CONFEITARIA · DESDE 1942": [
+        "LEBLON · CONFEITARIA · DESDE 1942",
+        "LEBLON · PASTRY SHOP · SINCE 1942"
+      ],
+      "Sitio oficial ↗": [
+        "Site oficial ↗",
+        "Official website ↗"
+      ],
+      "Historia y especialidades ↗": [
+        "História e especialidades ↗",
+        "History and specialties ↗"
+      ],
+      "Contacto oficial ↗": [
+        "Contato oficial ↗",
+        "Official contact ↗"
+      ]
+    },
+    "/gastronomia/cais-do-oriente/": {
+      "En Cais do Oriente, la arquitectura y el ambiente aportan tanto como la comida. Pregunta por los distintos espacios disponibles al reservar, porque una mesa en patio, jardín o salón puede cambiar la experiencia según la temperatura y la lluvia. También confirma si hay menú especial o evento privado ese día.": [
+        "No Cais do Oriente, a arquitetura e o ambiente contam tanto quanto a comida. Ao reservar, pergunte pelos espaços disponíveis: pátio, jardim ou salão podem mudar a experiência conforme a temperatura e a chuva. Confirme também se haverá menu especial ou evento privado naquele dia.",
+        "At Cais do Oriente, the architecture and atmosphere matter as much as the food. When booking, ask which areas are available: a table in the courtyard, garden or dining room can change the experience depending on the temperature and rain. Also check for a special menu or private event that day."
+      ],
+      "Esta parada funciona muy bien dentro de un recorrido por el Centro histórico de Río, particularmente si quieres combinar patrimonio, arquitectura y gastronomía. Calcula el tiempo de traslado y comprueba la apertura en fines de semana, cuando muchas actividades del Centro tienen otros horarios.": [
+        "Esta parada funciona bem num passeio pelo Centro histórico do Rio, sobretudo se quiser combinar patrimônio, arquitetura e gastronomia. Calcule o tempo de deslocamento e confira o funcionamento nos fins de semana, quando muitas atrações do Centro têm horários diferentes.",
+        "This stop fits a visit to Rio’s historic center, especially if you want to combine heritage, architecture and food. Allow travel time and check weekend opening hours, when many downtown attractions operate on a different schedule."
+      ]
+    }
+,
 };

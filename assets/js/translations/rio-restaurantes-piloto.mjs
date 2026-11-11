@@ -24,6 +24,18 @@ export default {
 
 // Keep the qualifiers and formatting added to the approved practical notes.
 export const updatedFacts = {
+  "/gastronomia/kurt-leblon/": {
+    "pt": {
+      "8": "No Kurt Leblon, observe a vitrine e pergunte pelos bolos, doces e preparações recém-feitas. Para dividir ou levar, confira os tamanhos e a conservação: nem todos os produtos resistem da mesma forma a uma caminhada longa no calor.",
+      "9": "Eu combinaria o lanche com uma caminhada pela Praia do Leblon ou pelo Jardim de Alah, antes ou depois do café.",
+      "10": "Uma parada na confeitaria combina com uma caminhada pelo Leblon ou com uma pausa depois da praia. Se for levar doces para casa, procure comprá-los no fim do passeio."
+    },
+    "en": {
+      "8": "At Kurt Leblon, look at the display and ask about cakes, sweets and freshly made items. For a portion to share or take away, check sizes and storage: not every product holds up the same way on a long walk in the heat.",
+      "9": "I would combine the snack with a walk along Praia do Leblon or Jardim de Alah, before or after coffee.",
+      "10": "A stop at the pastry shop fits a walk around Leblon or a break after the beach. If taking sweets home, try buying them at the end of your outing."
+    }
+  },
   "/gastronomia/pilograma-prime-grill/": {
     "pt": {
       "0": "Comida gostosa, bem temperada e a bom preço: uma recomendação da minha visita recente.",
