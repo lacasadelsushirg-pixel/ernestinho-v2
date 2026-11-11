@@ -2295,6 +2295,34 @@ export const pilotLabels = {
       ]
     },
     "/gastronomia/ocya-ilha/": {
+    "Fotografía 1 de OCYÁ Ilha.": [
+      "Foto 1 do OCYÁ Ilha.",
+      "Photo 1 of OCYÁ Ilha."
+    ],
+    "Fotografía 2 de OCYÁ Ilha.": [
+      "Foto 2 do OCYÁ Ilha.",
+      "Photo 2 of OCYÁ Ilha."
+    ],
+    "Fotografía 3 de OCYÁ Ilha.": [
+      "Foto 3 do OCYÁ Ilha.",
+      "Photo 3 of OCYÁ Ilha."
+    ],
+    "Fotografía 4 de OCYÁ Ilha.": [
+      "Foto 4 do OCYÁ Ilha.",
+      "Photo 4 of OCYÁ Ilha."
+    ],
+    "Fotografía 5 de OCYÁ Ilha.": [
+      "Foto 5 do OCYÁ Ilha.",
+      "Photo 5 of OCYÁ Ilha."
+    ],
+    "Fotografía 6 de OCYÁ Ilha.": [
+      "Foto 6 do OCYÁ Ilha.",
+      "Photo 6 of OCYÁ Ilha."
+    ],
+    "Mapa de OCYÁ Ilha": [
+      "Mapa do OCYÁ Ilha",
+      "Map of OCYÁ Ilha"
+    ],
       "En Ocya Ilha Gigóia, la experiencia empieza antes de sentarte: confirma el embarque de la barca o bote, el coste y los horarios del traslado. Si tu reserva tiene hora fija, suma margen para llegar y pregunta qué pescados están disponibles ese día.": [
         "No Ocya Ilha Gigóia, a experiência começa antes de sentar: confirme o embarque, o custo e os horários do barco. Se a reserva tiver hora marcada, deixe margem para chegar e pergunte quais peixes estão disponíveis naquele dia.",
         "At Ocya Ilha Gigóia, the experience starts before you sit down: confirm the boat departure point, fare and schedule. If you have a timed reservation, allow extra time to arrive and ask which fish are available that day."
