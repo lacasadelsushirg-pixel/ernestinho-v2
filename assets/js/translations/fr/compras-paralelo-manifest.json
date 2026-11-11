@@ -208,13 +208,57 @@
       "dynamic_js_keys": 30,
       "dynamic_story_paragraphs": 4,
       "review": "Check Sunday schedules and artisan gallery photos before release."
+    },
+    {
+      "route": "/compras/praca-xv/",
+      "source_sha": "45c4029888b90bc6a7f6e3cb434f3b2180b52264",
+      "dictionary": "assets/js/translations/fr/compras-praca-xv-paralelo.json",
+      "entries": 77,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-praca-xv-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "editorial_review": "Saturday antique fair schedule, authenticity, transport/export rules require verification."
+    },
+    {
+      "route": "/compras/feira-da-providencia/",
+      "source_sha": "24c08774084907aab56b99e45e616ea91617e2a0",
+      "dictionary": "assets/js/translations/fr/compras-feira-da-providencia-paralelo.json",
+      "entries": 75,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-feira-da-providencia-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "editorial_review": "CRITICAL: Original body (community of Providência) contradicts later source section portraying the massive Feira da Providência event at Riocentro. Separate identity, organization, location and edition before release. Don't index this content without editorial reconstruction."
+    },
+    {
+      "route": "/compras/lavradio/",
+      "source_sha": "a6abf7ba23e998edd3f5a0d6221155a56948aa70",
+      "dictionary": "assets/js/translations/fr/compras-lavradio-paralelo.json",
+      "entries": 77,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-lavradio-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "editorial_review": "Confirm Feira do Rio Antigo first Saturday or actual monthly dates rather than generic Saturdays. Source currently says Saturdays 10-19; verify."
+    },
+    {
+      "route": "/compras/village-mall/",
+      "source_sha": "26237c5ca2a6991af8739cf52a88cf272166fb63",
+      "dictionary": "assets/js/translations/fr/compras-village-mall-paralelo.json",
+      "entries": 68,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-village-mall-dinamico-paralelo.json",
+      "dynamic_js_keys": 28,
+      "dynamic_story_paragraphs": 4,
+      "editorial_review": "Check Gucci/Dior retail tenancy, actual accessibility facilities, prices and current official directory."
     }
   ],
   "totals": {
-    "prepared_pages": 19,
-    "static_dictionary_entries": 1072,
-    "dynamic_JS_keys": 431,
-    "extra_story_paragraphs": 33,
+    "prepared_pages": 23,
+    "static_dictionary_entries": 1369,
+    "dynamic_JS_keys": 549,
+    "extra_story_paragraphs": 49,
     "coverage_missing_visible_meta_alt": 0
   },
   "known_integration_blockers": [
@@ -233,5 +277,15 @@
     "Organic Glória is a Saturday ABIO farmers' market, separate from Sunday Glória street fair; preserve canonical routing and avoid merging narratives."
   ],
   "qa_policy": "Verify all visible body text, title/description/social meta, alt, aria, placeholders and inline data-ch-es. For dynamically rendered ES JS, verify D keys, hours array, cats array and story paragraphs before accepting page.",
-  "remaining_work": "Audit other Compras sites, translate complete individual pages and dynamic narrative data, then private preview integration and visual/SEO QA. Do not publish."
+  "remaining_work": "Audit other Compras sites, translate complete individual pages and dynamic narrative data, then private preview integration and visual/SEO QA. Do not publish.",
+  "critical_editorial_issues": [
+    {
+      "route": "/compras/feira-da-providencia/",
+      "issue": "Source page conflates annual large commercial Feira da Providência with Favela da Providência community history; inconsistent with later Riocentro section. Must verify and revise all ES/PT/EN/FR source content before publishing."
+    },
+    {
+      "route": "/compras/lavradio/",
+      "issue": "Market frequency may be monthly rather than weekly; source says Saturdays. Official calendar check required."
+    }
+  ]
 }
