@@ -2233,4 +2233,23 @@ export const pilotLabels = {
       ]
     }
 ,
+    "/gastronomia/bar-do-omar/": {
+      "En Bar do Omar, confirma si habrá música u otra programación durante tu visita y cómo funciona el servicio de comida y bebidas. Una mesa con vista o en zona exterior puede variar mucho según el clima y la ocupación.": [
+        "No Bar do Omar, confirme se haverá música ou outra programação durante sua visita e como funciona o serviço de comida e bebidas. A disponibilidade de mesas com vista ou ao ar livre pode variar muito conforme o clima e a lotação.",
+        "At Bar do Omar, check whether there will be music or other events during your visit and how food and drinks are served. Availability of tables with a view or outdoor seating can vary considerably with the weather and how busy it is."
+      ],
+      "Yo lo consideraría dentro de un recorrido más amplio por el barrio, dejando margen para el transporte de ida y vuelta. Comprueba las condiciones actuales antes de organizar la visita para un grupo.": [
+        "Eu incluiria o bar num passeio mais amplo pelo bairro, com tempo para o transporte de ida e volta. Confira as condições atuais antes de organizar a visita para um grupo.",
+        "I would make the bar part of a longer walk around the neighborhood, allowing time for transport both ways. Check current conditions before organizing a group visit."
+      ],
+      "Mapa de Bar do Omar": [
+        "Mapa do Bar do Omar",
+        "Map of Bar do Omar"
+      ],
+      "🌐 Sitio oficial": [
+        "🌐 Site oficial",
+        "🌐 Official website"
+      ]
+    }
+,
 };

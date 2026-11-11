@@ -44,6 +44,7 @@ export const legacyLocaleRoutes = new Map([
   ['/gastronomia/corrientes-348/', ['setLang', 'full']],
   ['/gastronomia/praia-skol-copa/', ['f', 'full']],
   ['/gastronomia/don-camillo/', ['setLang', 'full']],
+  ['/gastronomia/bar-do-omar/', ['setLang', 'full']],
 ]);
 
 export function hideDuplicateLegacySelector(html, route) {
