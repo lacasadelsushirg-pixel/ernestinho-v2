@@ -252,13 +252,57 @@
       "dynamic_js_keys": 28,
       "dynamic_story_paragraphs": 4,
       "editorial_review": "Check Gucci/Dior retail tenancy, actual accessibility facilities, prices and current official directory."
+    },
+    {
+      "route": "/compras/nova-america/",
+      "source_sha": "4d0bbfabbc624293e907e7d09831bb338d7f9a4f",
+      "dictionary": "assets/js/translations/fr/compras-nova-america-paralelo.json",
+      "entries": 83,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-nova-america-dinamico-paralelo.json",
+      "dynamic_js_keys": 38,
+      "dynamic_story_paragraphs": 7,
+      "editorial_review": "Complete data.es and main.es; check listed store hours, integrated metro and tenants; FR selector and aria labels require private integration."
+    },
+    {
+      "route": "/compras/botafogo-praia-shopping/",
+      "source_sha": "a0f03b3e54f6cae7f3204ed3813d040f771ee5e0",
+      "dictionary": "assets/js/translations/fr/compras-botafogo-praia-shopping-paralelo.json",
+      "entries": 82,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-botafogo-praia-shopping-dinamico-paralelo.json",
+      "dynamic_js_keys": 11,
+      "dynamic_story_paragraphs": 11,
+      "editorial_review": "Complete P array and T object with all original HTML p and strong tags, including hardcoded image caption FR dictionary; JS renderer must integrate FR."
+    },
+    {
+      "route": "/compras/downtown/",
+      "source_sha": "3baf63ebcd5c8ce508aa3e16b4c606dffa9b2cea",
+      "dictionary": "assets/js/translations/fr/compras-downtown-paralelo.json",
+      "entries": 78,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-downtown-dinamico-paralelo.json",
+      "dynamic_js_keys": 11,
+      "dynamic_story_paragraphs": 12,
+      "editorial_review": "Complete P array T object. Reconfirm outdoor event program and accessibility services."
+    },
+    {
+      "route": "/compras/shopping-leblon/",
+      "source_sha": "21a203cfe201c2dbba6487d04e9a8ff247939812",
+      "dictionary": "assets/js/translations/fr/compras-shopping-leblon-paralelo.json",
+      "entries": 82,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-shopping-leblon-dinamico-paralelo.json",
+      "dynamic_js_keys": 11,
+      "dynamic_story_paragraphs": 13,
+      "editorial_review": "Complete P array and T object. Very specific facilities including Police Federal passport service require authoritative recheck before public FR release."
     }
   ],
   "totals": {
-    "prepared_pages": 23,
-    "static_dictionary_entries": 1369,
-    "dynamic_JS_keys": 549,
-    "extra_story_paragraphs": 49,
+    "prepared_pages": 27,
+    "static_dictionary_entries": 1694,
+    "dynamic_JS_keys": 620,
+    "extra_story_paragraphs": 92,
     "coverage_missing_visible_meta_alt": 0
   },
   "known_integration_blockers": [
