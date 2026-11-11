@@ -337,12 +337,22 @@
       "missing_keys": 0,
       "qa": "Complete visible text and metadata/alt mapping inspected; inline JSON-LD and external site.js require FR rendering/integration.",
       "editorial_review": "Confirm current opening status, exhibitions, fees, accessible rooms and transport details with Museu Histórico Nacional before publishing."
+    },
+    {
+      "route": "/cultura/maas/",
+      "source_sha": "47c1a3011df4b0698f0e2262ff96bcf1ac16cf82",
+      "dictionary": "assets/js/translations/fr/cultura-maas-paralelo.json",
+      "entries": 59,
+      "checked_strings": 59,
+      "missing_keys": 0,
+      "qa": "Static visible text, metadata and image alt attributes mapped; inline JSON-LD and external site.js need FR integration validation.",
+      "editorial_review": "Official verification needed for museum hours, ticket prices, religious events and accessibility."
     }
   ],
   "totals": {
-    "prepared_pages": 34,
-    "static_dictionary_entries": 1609,
-    "total_source_translation_units": 1609
+    "prepared_pages": 35,
+    "static_dictionary_entries": 1668,
+    "total_source_translation_units": 1668
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
