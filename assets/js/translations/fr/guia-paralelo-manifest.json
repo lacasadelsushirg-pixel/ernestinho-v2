@@ -111,9 +111,28 @@
       "entries": 63,
       "coverage": "text_alt_metadata_complete",
       "editorial_review": "check insurance disclosures, external affiliate links, emergency care accuracy and the assistance phone number before publishing"
+    },
+    {
+      "route": "/guia/donde-alojarse/",
+      "source_sha": "42a0386125aeace31f079681c13b93bf76553c8c",
+      "file": "assets/js/translations/fr/guia-donde-alojarse-paralelo.json",
+      "entries": 46,
+      "coverage": "ES HTML visible, title/description, embedded stay-data arrays (5 areas, intro, UI) translated and checked",
+      "integration_blocker": "All areas live in JSON script, current private FR preview strips scripts. Must pre-render translated French content in private preview, without changing approved ES/PT/EN source."
+    },
+    {
+      "route": "/guia/guarda-equipaje/",
+      "source_sha": "501e6fcfca0b8e1d6b60e6ebf8d1463b46a87e46",
+      "source_js_shas": {
+        "luggage-content.js": "3431c58f645d7c561c336720ba8779a40ea5416e"
+      },
+      "file": "assets/js/translations/fr/guia-guarda-equipaje-paralelo.json",
+      "entries": 66,
+      "coverage": "ES HTML intro and title, luggage-content.js metadata, 12 sections and 6 FAQs, luggage-page.js UI labels and flow steps",
+      "integration_blocker": "Content rendered from JS modules. Private FR preview strips scripts and must render all translated sections. Source uses 3 language-specific graphic photos; FR-specific graphics must be reviewed or prepared before release. Preserve Bounce links/affiliate disclosure and avoid editing approved assets."
     }
   ],
-  "coverage_test": "Exact ES strings verified for 14 source HTML pages against visible body text, HTML title, description and social metadata, image alt/aria-label. For Pix, dynamic pix-data.es blocks/steps/alerts/warning/ui are included. No unmatched keys were found in checked surfaces. Does not replace an actual FR render/browser QA or editorial legal/health verification.",
+  "coverage_test": "Exact Spanish dictionary keys verified against 16 source pages or their dynamically generated content where applicable, including visible text, title/description/social metadata, alt/aria labels. Dynamic Pix, stay-data and luggage-content/page strings included in FR staging dictionaries. The 16 FR pages have not been built, visually inspected, integrated or published; checker coverage is not a production QA guarantee.",
   "remaining_validation": [
     "Recheck source SHA before merging, since upstream content may change.",
     "Compare each translation with Spanish meaning and any original PT-BR/EN version.",
@@ -121,7 +140,9 @@
     "Add FR preview routes only when renderer supports them; verify text, images, links, JSON-LD, noindex, 1440px / 390px.",
     "Run frozen-content guard, build QA and sitemap compare. Do not publish FR before approved.",
     "Verify dynamic/embedded content outside the tested text surfaces and review medical/migration/consular factual currency.",
-    "Validate accessibility, health guidance, consular and airport/terminal operational facts on publication date."
+    "Validate accessibility, health guidance, consular and airport/terminal operational facts on publication date.",
+    "For `/guia/donde-alojarse/`, render all 5 neighborhood cards, introductions, UI text and photos in private FR preview without touching approved source scripts.",
+    "For `/guia/guarda-equipaje/`, render 12 content sections and 6 FAQs and check Bounce disclosure and 3 image artworks with Spanish/Portuguese/English typography before FR publication."
   ],
   "approved_site_untouched": true
 }
