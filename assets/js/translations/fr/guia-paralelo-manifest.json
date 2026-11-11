@@ -50,15 +50,46 @@
       "file": "assets/js/translations/fr/guia-internet-paralelo.json",
       "entries": 50,
       "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/vacunas/",
+      "source_sha": "ded4b2095efc4ce7a4ec506463a457e41fa515c1",
+      "file": "assets/js/translations/fr/guia-vacunas-paralelo.json",
+      "entries": 31,
+      "coverage": "text_alt_metadata_complete",
+      "editorial_review": "medical recommendations and destination-specific entry requirements should be verified against current official sources prior to publishing"
+    },
+    {
+      "route": "/guia/consulados/",
+      "source_sha": "4bcfde967797df5b0d7021f1e4318867ad0d41a8",
+      "file": "assets/js/translations/fr/guia-consulados-paralelo.json",
+      "entries": 30,
+      "coverage": "text_alt_metadata_complete",
+      "editorial_review": "recheck current consular addresses and duty contacts before publishing"
+    },
+    {
+      "route": "/guia/aeropuertos/",
+      "source_sha": "3077e6602df26121c91a5e5002f5949e8b9778fe",
+      "file": "assets/js/translations/fr/guia-aeropuertos-paralelo.json",
+      "entries": 37,
+      "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/alquiler-auto/",
+      "source_sha": "3d127d38fd55cf1036b83b5cf5f42a18d29a7cf6",
+      "file": "assets/js/translations/fr/guia-alquiler-auto-paralelo.json",
+      "entries": 42,
+      "coverage": "text_alt_metadata_complete"
     }
   ],
-  "coverage_test": "Exact text keys compared with source document HTML body visible text, page title, description, image alt, aria-label. For Pix, keys from pix-data.steps/blocks/warning/alerts/ui.es included. No untranslated keys found on these surfaces after corrections.",
+  "coverage_test": "Exact ES text keys checked on 10 source HTML pages against body visible text, page title/description, image alt and aria-label. Pix also checked against pix-data.steps, blocks, warning, alerts, ui. No unmatched original keys in these categories, but no browser/production QA has been run.",
   "remaining_validation": [
     "Recheck source SHA before merging, since upstream content may change.",
     "Compare each translation with Spanish meaning and any original PT-BR/EN version.",
     "Merge dictionaries into PR24 private FR pilot without overwriting its current translations.",
     "Add FR preview routes only when renderer supports them; verify text, images, links, JSON-LD, noindex, 1440px / 390px.",
-    "Run frozen-content guard, build QA and sitemap compare. Do not publish FR before approved."
+    "Run frozen-content guard, build QA and sitemap compare. Do not publish FR before approved.",
+    "Verify dynamic/embedded content outside the tested text surfaces and review medical/migration/consular factual currency."
   ],
   "approved_site_untouched": true
 }
