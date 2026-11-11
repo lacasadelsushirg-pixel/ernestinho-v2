@@ -46,6 +46,7 @@ export const legacyLocaleRoutes = new Map([
   ['/gastronomia/don-camillo/', ['setLang', 'full']],
   ['/gastronomia/bar-do-omar/', ['setLang', 'full']],
   ['/gastronomia/mee/', ['setLang', 'full']],
+  ['/gastronomia/haru/', ['setLang', 'full']],
   ['/gastronomia/ocya-ilha/', ['f', 'full']],
   ['/gastronomia/temperarte-posto6/', ['f', 'full']],
   ['/gastronomia/temperarte-bolivar/', ['f', 'full']],

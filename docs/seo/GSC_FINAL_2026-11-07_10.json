@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "siteUrl": "https://www.ernestinhocarioca.com.br/",
+  "startDate": "2026-11-07",
+  "endDate": "2026-11-10",
+  "dimensions": [
+    "date"
+  ],
+  "rowCount": 3,
+  "rows": [
+    {
+      "keys": [
+        "2026-11-07"
+      ],
+      "clicks": 15,
+      "impressions": 3022,
+      "ctr": 0.005,
+      "position": 13.6
+    },
+    {
+      "keys": [
+        "2026-11-08"
+      ],
+      "clicks": 16,
+      "impressions": 3397,
+      "ctr": 0.0047,
+      "position": 11.5
+    },
+    {
+      "keys": [
+        "2026-11-09"
+      ],
+      "clicks": 20,
+      "impressions": 3212,
+      "ctr": 0.0062,
+      "position": 12.2
+    }
+  ],
+  "hasMore": false,
+  "meta": {
+    "projectId": "7172f2fb-7456-4b35-b581-d9b11c0040f4",
+    "url": "https://app.openseo.so/p/7172f2fb-7456-4b35-b581-d9b11c0040f4/search-performance"
+  },
+  "resultId": "58232ae8-5abb-482f-897e-4a3c0e503e0c"
+}

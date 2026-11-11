@@ -24,6 +24,30 @@ export default {
 
 // Keep the qualifiers and formatting added to the approved practical notes.
 export const updatedFacts = {
+  "/gastronomia/haru/": {
+    "pt": {
+      "8": "📍 <strong>Endereço</strong><br>Rua Raimundo Corrêa, 10 — Copacabana, Rio de Janeiro — RJ, 22040-042",
+      "9": "🏘️ <strong>Bairro e região</strong><br>Copacabana, numa rua transversal perto da estação Cantagalo.",
+      "10": "🕐 <strong>Horários</strong><br>De terça a domingo, normalmente das 12h às 16h e das 18h às 23h30; fechado às segundas. Pode haver fechamentos extraordinários ou mensais: confirme diretamente.",
+      "11": "💰 <strong>Preços</strong><br>Faixa média a alta, conforme o peixe, o combinado e as bebidas. Não use cardápios antigos como referência de preços atuais.",
+      "12": "🍽️ <strong>Tipo de serviço</strong><br>Cardápio japonês, combinados, seleção do chef, sushi, sashimi, pratos quentes e saquê.",
+      "13": "☎️ <strong>Contato</strong><br>(21) 2547-6867 · WhatsApp divulgado no Guia Michelin: (21) 96732-2668",
+      "14": "📅 <strong>Reservas</strong><br>Muito recomendadas para jantar, balcão ou seleção do chef, pois o espaço é pequeno.",
+      "15": "♿ <strong>Acessibilidade</strong><br>As informações públicas sobre circulação acessível e banheiro adaptado são incompletas; consulte antes de reservar.",
+      "16": "🚇 <strong>Transporte</strong><br>Metrô Cantagalo; siga a pé pela Xavier da Silveira e pelas ruas internas até Raimundo Corrêa. Também há ônibus na Nossa Senhora de Copacabana."
+    },
+    "en": {
+      "8": "📍 <strong>Address</strong><br>Rua Raimundo Corrêa, 10 — Copacabana, Rio de Janeiro — RJ, 22040-042",
+      "9": "🏘️ <strong>Neighborhood and area</strong><br>Copacabana, on a cross street near Cantagalo station.",
+      "10": "🕐 <strong>Hours</strong><br>Tuesday to Sunday, usually noon–4 p.m. and 6–11:30 p.m.; closed Mondays. Special or monthly closures may occur; confirm directly.",
+      "11": "💰 <strong>Prices</strong><br>Mid-to-high range, depending on the fish, assortment and drinks. Do not treat older menus as current prices.",
+      "12": "🍽️ <strong>Service type</strong><br>Japanese menu, assorted platters, chef’s selection, sushi, sashimi, hot dishes and sake.",
+      "13": "☎️ <strong>Contact</strong><br>(21) 2547-6867 · WhatsApp listed by the Michelin Guide: (21) 96732-2668",
+      "14": "📅 <strong>Reservations</strong><br>Strongly recommended for dinner, counter seating or the chef’s selection, given the restaurant’s small size.",
+      "15": "♿ <strong>Accessibility</strong><br>Public information on accessible routes and adapted restrooms is incomplete; ask before booking.",
+      "16": "🚇 <strong>Transport</strong><br>Cantagalo metro; walk along Xavier da Silveira and the side streets to Raimundo Corrêa. Buses also run along Nossa Senhora de Copacabana."
+    }
+  },
   '/gastronomia/don-camillo/': {
     pt: {
       13: '☎️ <strong>Contato</strong><br>Canal oficial atual: (21) 2255-5126. A Riotur ainda lista outro telefone histórico; use o canal oficial para confirmar.',

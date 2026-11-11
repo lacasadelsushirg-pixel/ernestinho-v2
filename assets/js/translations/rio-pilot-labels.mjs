@@ -2234,6 +2234,38 @@ export const pilotLabels = {
     }
 ,
     "/gastronomia/bar-do-omar/": {
+    "Conviene confirmar horarios, carta y disponibilidad antes de ir.": [
+      "Vale confirmar horários, cardápio e disponibilidade antes de ir.",
+      "Confirm hours, menu and availability before visiting."
+    ],
+    "Fotografía 1 de Bar do Omar.": [
+      "Foto 1 do Bar do Omar.",
+      "Photo 1 of Bar do Omar."
+    ],
+    "Fotografía 2 de Bar do Omar.": [
+      "Foto 2 do Bar do Omar.",
+      "Photo 2 of Bar do Omar."
+    ],
+    "Fotografía 3 de Bar do Omar.": [
+      "Foto 3 do Bar do Omar.",
+      "Photo 3 of Bar do Omar."
+    ],
+    "Fotografía 4 de Bar do Omar.": [
+      "Foto 4 do Bar do Omar.",
+      "Photo 4 of Bar do Omar."
+    ],
+    "Fotografía 5 de Bar do Omar.": [
+      "Foto 5 do Bar do Omar.",
+      "Photo 5 of Bar do Omar."
+    ],
+    "Fotografía 6 de Bar do Omar.": [
+      "Foto 6 do Bar do Omar.",
+      "Photo 6 of Bar do Omar."
+    ],
+    "Fotografía 7 de Bar do Omar.": [
+      "Foto 7 do Bar do Omar.",
+      "Photo 7 of Bar do Omar."
+    ],
       "En Bar do Omar, confirma si habrá música u otra programación durante tu visita y cómo funciona el servicio de comida y bebidas. Una mesa con vista o en zona exterior puede variar mucho según el clima y la ocupación.": [
         "No Bar do Omar, confirme se haverá música ou outra programação durante sua visita e como funciona o serviço de comida e bebidas. A disponibilidade de mesas com vista ou ao ar livre pode variar muito conforme o clima e a lotação.",
         "At Bar do Omar, check whether there will be music or other events during your visit and how food and drinks are served. Availability of tables with a view or outdoor seating can vary considerably with the weather and how busy it is."
