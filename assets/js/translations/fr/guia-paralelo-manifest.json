@@ -130,9 +130,21 @@
       "entries": 66,
       "coverage": "ES HTML intro and title, luggage-content.js metadata, 12 sections and 6 FAQs, luggage-page.js UI labels and flow steps",
       "integration_blocker": "Content rendered from JS modules. Private FR preview strips scripts and must render all translated sections. Source uses 3 language-specific graphic photos; FR-specific graphics must be reviewed or prepared before release. Preserve Bounce links/affiliate disclosure and avoid editing approved assets."
+    },
+    {
+      "route": "/guia/mes-a-mes/",
+      "source_sha": "6898a5bd50d2d777c20a4449f7103db6f76aed35",
+      "files": [
+        "assets/js/translations/fr/guia-mes-a-mes-ene-jun-paralelo.json",
+        "assets/js/translations/fr/guia-mes-a-mes-jul-dic-paralelo.json",
+        "assets/js/translations/fr/guia-mes-a-mes-ui-paralelo.json"
+      ],
+      "entries": 198,
+      "coverage": "12 months, each with 11 translated string fields (month + 10 detailed editorial fields); 6 rain scenarios, 5 heat time windows, all two UI label sources, metadata/HTML checked",
+      "integration_blocker": "Content in month-data JSON plus separate inline JS labels object, both removed by preview builder. Must render all translated 12 months, rain/heat tabs, labels, images and mobile layout without editing approved HTML."
     }
   ],
-  "coverage_test": "Exact Spanish dictionary keys verified against 16 source pages or their dynamically generated content where applicable, including visible text, title/description/social metadata, alt/aria labels. Dynamic Pix, stay-data and luggage-content/page strings included in FR staging dictionaries. The 16 FR pages have not been built, visually inspected, integrated or published; checker coverage is not a production QA guarantee.",
+  "coverage_test": "17 FR route translation dictionaries prepared: exact ES key coverage for source HTML visible strings, title/description, alt/aria and specific dynamic JS/JSON sources; month-by-month page has 12 translated months, rain/heat scenarios and inline JS labels, checked 188 unique original dynamic keys. These dictionaries have not been integrated, rendered in browser, merged or published.",
   "remaining_validation": [
     "Recheck source SHA before merging, since upstream content may change.",
     "Compare each translation with Spanish meaning and any original PT-BR/EN version.",
@@ -142,7 +154,8 @@
     "Verify dynamic/embedded content outside the tested text surfaces and review medical/migration/consular factual currency.",
     "Validate accessibility, health guidance, consular and airport/terminal operational facts on publication date.",
     "For `/guia/donde-alojarse/`, render all 5 neighborhood cards, introductions, UI text and photos in private FR preview without touching approved source scripts.",
-    "For `/guia/guarda-equipaje/`, render 12 content sections and 6 FAQs and check Bounce disclosure and 3 image artworks with Spanish/Portuguese/English typography before FR publication."
+    "For `/guia/guarda-equipaje/`, render 12 content sections and 6 FAQs and check Bounce disclosure and 3 image artworks with Spanish/Portuguese/English typography before FR publication.",
+    "Integrate month-by-month private FR preview from both inline month-data and labels objects; do not drop any monthly content (12 months x 10 editorial fields) or rain/heat features."
   ],
   "approved_site_untouched": true
 }
