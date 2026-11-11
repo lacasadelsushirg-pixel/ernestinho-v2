@@ -182,6 +182,9 @@ export const updatedFacts = {
   },
   "/gastronomia/noa-ipanema/": {
     "pt": {
+      "1": "O Nôa se destaca pelo terraço e pelo ambiente aberto ao ritmo de Ipanema. As fotos mostram uma casa acolhedora, mesas preparadas e pratos que combinam mar, massas e apresentação cuidadosa. A proposta convida a sentar, compartilhar e observar o bairro a partir de uma esquina fácil de explorar a pé.",
+      "7": "Eu caminharia pela Praça Nossa Senhora da Paz antes do almoço e seguiria depois para a praia de Ipanema. Para jantar, começaria em Arpoador: pôr do sol, passeio e volta à Garcia D’Ávila. Deixaria a refeição no terraço como o centro do programa, sem outra reserva em seguida.",
+
       "2": "A casa define sua proposta como cozinha costeira, com peixes do dia, massas próprias e carnes de sabor marcante. A localização na Garcia D’Ávila a conecta a uma região de restaurantes, lojas e movimento noturno. A ideia é uma mesa generosa e sem cerimônia excessiva, com produtos do mar e opções para diferentes apetites.",
       "4": "O cardápio e as referências públicas apontam para peixes do dia, massas e pratos compartilháveis. Eu perguntaria pelo melhor pescado antes de escolher o principal. O linguine com camarões une massa e mar. Para a mesa, escolheria uma entrada coletiva e deixaria o peixe como protagonista. Se o grupo preferir carne, a casa também oferece cortes de sabor marcante. Ainda assim, eu aproveitaria para conhecer a cozinha costeira que dá identidade ao restaurante.",
       "5": "O almoço aproveita a luz do terraço e funciona depois da praia ou das compras. A tarde pode ser mais tranquila para conversar. O jantar concentra o movimento e torna a reserva mais importante. A casa anuncia atendimento diário até a noite. Confira o horário da cozinha antes de planejar chegar tarde.",
@@ -189,6 +192,9 @@ export const updatedFacts = {
       "17": "O Nôa fica na Rua Garcia D’Ávila, 135, em Ipanema. Nossa Senhora da Paz está a uma curta caminhada. Desde a praia, siga pelas ruas internas até Garcia D’Ávila. De carro, use o número e o bairro completos, pois a região reúne vários restaurantes com nomes parecidos."
     },
     "en": {
+      "1": "Nôa is known for its terrace and an atmosphere open to Ipanema’s rhythm. The photos show an inviting house, prepared tables and dishes combining seafood, pasta and careful presentation. The setting invites you to sit, share and watch the neighborhood from a corner that is easy to explore on foot.",
+      "7": "I would walk through Praça Nossa Senhora da Paz before lunch, then continue to Ipanema Beach. For dinner, start with sunset at Arpoador, take a walk and return to Garcia D’Ávila. I would leave the terrace meal as the focus of the outing, with no other reservation straight afterwards.",
+
       "2": "The restaurant describes its cooking as coastal, with fish of the day, house-made pasta and flavorful meats. Its Garcia D’Ávila address is in a part of Ipanema with restaurants, shops and nightlife. The idea is a generous, relaxed table where seafood sits alongside dishes for different appetites.",
       "4": "The menu and public listings point to fish of the day, pasta and dishes to share. I would ask which fish arrived in the best condition before choosing a main. Shrimp linguine combines pasta and seafood. For the table, I would choose a shared starter and make fish the centerpiece. There are also flavorful meat cuts for those who prefer them. I would still take the opportunity to try the coastal cooking that gives the restaurant its identity.",
       "5": "Lunch makes the most of the terrace light and fits a break after the beach or shopping. Afternoons may be quieter for talking. Dinner brings more activity and makes booking more important. The restaurant advertises daily service into the evening. Check kitchen hours before planning a late arrival.",
