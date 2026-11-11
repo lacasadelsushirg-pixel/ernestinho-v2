@@ -1,0 +1,55 @@
+{
+  "language": "fr",
+  "route": "/compras/feira-nocturna-copacabana/",
+  "source_sha": "6cc7d1e7e508c346b64a4e24fec785adff200ac4",
+  "runtime_D_fr": {
+    "eyebrow": "Guide Ernestinho Carioca · Marchés de Rio",
+    "heroSub": "Lumières, artisanat et vie carioca au bord de la mer",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Un marché qui change le rythme de Copacabana",
+    "intro": "Je vous recommande ce marché artisanal de l'Avenida Atlântica pour une promenade après la plage. Le compte officiel annonce une ouverture quotidienne de 17 h à minuit ; vérifiez que les stands sont installés le jour de votre visite.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "Marché nocturne de Copacabana : lumières, artisanat et vie carioca au bord de la mer",
+    "ambK": "L'ambiance",
+    "ambTitle": "Une promenade entre lumières, mer et animation",
+    "amb": "La nuit transforme l'atmosphère du marché. Les stands éclairés se mêlent à la brise marine, à la promenade du front de mer et aux passants qui quittent la plage ou sortent d'un restaurant. Je commencerais par observer : selon le jour, la saison et la météo, l'ambiance peut être paisible ou très animée.",
+    "buyK": "Des achats qui ont du caractère",
+    "buyTitle": "Ce que j'achèterais le soir",
+    "buy": "Je chercherais de l'artisanat, des accessoires, des bracelets, des colliers, des vêtements, des œuvres d'art, des peintures, des souvenirs et des cadeaux faciles à transporter. L'offre varie d'un stand à l'autre. Renseignez-vous sur les matériaux et les finitions, comparez avant de payer et gardez un œil sur vos achats pendant la suite de votre promenade.",
+    "howK": "Bien acheter",
+    "howTitle": "Comment acheter et négocier le soir",
+    "how": "Vérifiez le prix avant de payer, demandez si l'objet est artisanal et examinez fermetures, coutures et finitions. Prévoyez des réaux et un autre moyen de paiement, mais demandez directement si les cartes ou PIX sont acceptés. La négociation est parfois possible ; je vous conseille de rester respectueux : ne promettez pas d'acheter uniquement pour obtenir une réduction et n'exhibez pas de grosses sommes d'argent.",
+    "recK": "Les conseils d'Ernestinho",
+    "recTitle": "Se promener d'abord, acheter ensuite",
+    "rec": "J'arriverais lorsqu'il fait encore assez clair, je parcourrais les stands et je choisirais ensuite. Vous pouvez associer le marché à la plage, à un repas ou à une promenade dans Copacabana. Je préfère rester réaliste : il peut y avoir foule, pleuvoir ou l'offre peut changer. Prévoyez également votre trajet de retour.",
+    "planK": "Informations pratiques",
+    "planTitle": "Quand venir et comment s'y rendre",
+    "plan": "Le compte officiel de la Feira Noturna Turística de Copacabana annonce une ouverture quotidienne de 17 h à minuit. La météo, l'installation des stands et les autorisations peuvent modifier le fonctionnement ; consultez @fntc.oficial avant de partir. Le marché se tient sur le terre-plein central de l'Avenida Atlântica, à Copacabana. Vous pouvez venir à pied depuis le quartier ou vérifier les itinéraires MetrôRio et les bus depuis votre point de départ.",
+    "hoursTitle": "Horaires annoncés",
+    "hours": [
+      "Compte officiel : tous les jours, de 17 h à minuit.",
+      "Terre-plein central de l'Avenida Atlântica, Copacabana.",
+      "Pluie, événements et décisions municipales peuvent modifier l'installation.",
+      "Vérifiez @fntc.oficial le jour même."
+    ],
+    "safeK": "À garder à l'esprit",
+    "safeTitle": "À la tombée de la nuit, profitez-en avec vigilance",
+    "safe": "Surveillez votre téléphone, votre portefeuille et vos sacs. Restez dans les zones éclairées, gardez les enfants près de vous, évitez de laisser vos achats en évidence et veillez à ce que votre téléphone soit chargé. Demandez l'autorisation avant de photographier des personnes. Une promenade touristique n'est pas exempte de risques : profitez-en avec bon sens et organisez votre retour.",
+    "address": "Feira Noturna Turística de Copacabana\nTerre-plein central de l'Avenida Atlântica · Copacabana · Rio de Janeiro – RJ\nL'emplacement exact peut varier ; vérifiez l'installation sur @fntc.oficial.",
+    "footer": "Je vous accompagne à la découverte d'un Rio qui reste éveillé au bord de la mer, entre lumières, travail et vie carioca.",
+    "cats": [
+      "Artisanat",
+      "Accessoires et bijoux fantaisie",
+      "Vêtements et sacs",
+      "Art et souvenirs",
+      "Cadeaux de Rio",
+      "Produits régionaux"
+    ]
+  },
+  "runtime_story_fr": [
+    "La Feira Noturna Turística de Copacabana est un marché artisanal installé sur le terre-plein central de l'Avenida Atlântica. On y déambule entre les stands à la tombée du jour, avec la mer et la vie du quartier tout autour ; ce n'est ni le marché dominical de Glória ni la Feirarte de Praça do Lido.",
+    "La ville reconnaît ce marché comme faisant partie de son patrimoine culturel immatériel. Vous pouvez y trouver des souvenirs, des objets faits main, des accessoires, des vêtements et des créations inspirées de Rio ; l'offre varie selon les stands.",
+    "Je m'y promène sans me presser, je demande qui a fabriqué chaque pièce et je compare avant d'acheter. C'est avant tout une agréable promenade en bord de plage, plutôt qu'une adresse pour des achats de dernière minute."
+  ],
+  "editorial_review": "Confirm daily 17:00–00:00 via @fntc.oficial; do not confuse with Feirarte VI at /compras/feira-noturna-copacabana/. No live FR renderer yet."
+}
