@@ -57,12 +57,42 @@
       "missing_keys": 0,
       "qa": "Static visible content, SEO descriptions, alt text and map title reviewed; no HTML FR renderer or visual QA",
       "editorial_review": "Confirm current opening times, accessibility, booking and fees with institution before publishing."
+    },
+    {
+      "route": "/cultura/biblioteca-parque-estadual/",
+      "source_sha": "9f3c707742432430c89a44df189724f998c94df4",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-parque-estadual-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Static text, SEO metadata, image alt and map titles inspected. Inline scripts checked for long ES text. FR HTML rendering not integrated.",
+      "editorial_review": "Verify institution operating status, hours, admission, accessibility and reservations with official source before publication."
+    },
+    {
+      "route": "/cultura/biblioteca-rocinha/",
+      "source_sha": "8b3c48a2cf4c9b27c055a4339083365abbb6e8c4",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-rocinha-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Static text, SEO metadata, image alt and map titles inspected. Inline scripts checked for long ES text. FR HTML rendering not integrated.",
+      "editorial_review": "Verify institution operating status, hours, admission, accessibility and reservations with official source before publication."
+    },
+    {
+      "route": "/cultura/bibliomaison/",
+      "source_sha": "1806b594ec146d483f4d37ad3301054281ee23ac",
+      "dictionary": "assets/js/translations/fr/cultura-bibliomaison-paralelo.json",
+      "entries": 45,
+      "checked_strings": 45,
+      "missing_keys": 0,
+      "qa": "Static text, SEO metadata, image alt and map titles inspected. Inline scripts checked for long ES text. FR HTML rendering not integrated.",
+      "editorial_review": "Verify institution operating status, hours, admission, accessibility and reservations with official source before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 6,
-    "static_dictionary_entries": 265,
-    "total_source_translation_units": 265
+    "prepared_pages": 9,
+    "static_dictionary_entries": 396,
+    "total_source_translation_units": 396
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
