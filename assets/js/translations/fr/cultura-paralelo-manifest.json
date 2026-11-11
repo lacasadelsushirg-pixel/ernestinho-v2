@@ -327,12 +327,22 @@
       "missing_keys": 0,
       "qa": "Static visible text, metadata and image attributes mapped; inline JSON-LD and external site.js require French rendering validation.",
       "editorial_review": "Confirm opening schedule, exhibitions, booking and accessibility with cultural center before publication."
+    },
+    {
+      "route": "/cultura/mhn/",
+      "source_sha": "9dedda43ff0cd2a5b5b2dbf34523131cc491b4ab",
+      "dictionary": "assets/js/translations/fr/cultura-mhn-paralelo.json",
+      "entries": 64,
+      "checked_strings": 64,
+      "missing_keys": 0,
+      "qa": "Complete visible text and metadata/alt mapping inspected; inline JSON-LD and external site.js require FR rendering/integration.",
+      "editorial_review": "Confirm current opening status, exhibitions, fees, accessible rooms and transport details with Museu Histórico Nacional before publishing."
     }
   ],
   "totals": {
-    "prepared_pages": 33,
-    "static_dictionary_entries": 1545,
-    "total_source_translation_units": 1545
+    "prepared_pages": 34,
+    "static_dictionary_entries": 1609,
+    "total_source_translation_units": 1609
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
