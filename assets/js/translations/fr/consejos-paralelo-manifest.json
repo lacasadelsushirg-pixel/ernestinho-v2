@@ -107,9 +107,65 @@
       "entries": 27,
       "coverage": "Spanish visible HTML, title, description/meta, img alt/aria-label: all exact source keys mapped",
       "editorial_review": "source copy must be reviewed for current information before launch"
+    },
+    {
+      "route": "/consejos/atardeceres-inolvidables/",
+      "source_sha": "ef7c1c2b634e338d80fadd745f6d35abc70dec79",
+      "dictionary": "assets/js/translations/fr/consejos-atardeceres-inolvidables-paralelo.json",
+      "entries": 25,
+      "coverage": "Spanish HTML visible text, source title/description/social metadata and alt/aria labels checked. Private FR render not yet built.",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/recorrido-zona-portuaria/",
+      "source_sha": "ee6c849bdb9cda12bb2d77fe69a77bc79dd92fe0",
+      "dictionary": "assets/js/translations/fr/consejos-recorrido-zona-portuaria-paralelo.json",
+      "entries": 28,
+      "coverage": "Spanish HTML visible text, source title/description/social metadata and alt/aria labels checked. Private FR render not yet built.",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/perfiles-viajero/",
+      "source_sha": "33700a3349486820ad300945b2770e828e15a17a",
+      "dictionary": "assets/js/translations/fr/consejos-perfiles-viajero-paralelo.json",
+      "entries": 56,
+      "coverage": "Spanish HTML visible text, source title/description/social metadata and alt/aria labels checked. Private FR render not yet built.",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/playa-barracas-quiosques/",
+      "source_sha": "cb62ae8b11160991662568bf58157752e658fd8d",
+      "dictionary": "assets/js/translations/fr/consejos-playa-barracas-quiosques-paralelo.json",
+      "entries": 45,
+      "coverage": "Spanish HTML visible text, source title/description/social metadata and alt/aria labels checked. Private FR render not yet built.",
+      "editorial_review": "Verify laws/service policies, health warnings and external references for publication date"
+    },
+    {
+      "route": "/consejos/mascotas-rio/",
+      "source_sha": "c244a4557f708042efb28c2cfa982a0e953019b9",
+      "dictionary": "assets/js/translations/fr/consejos-mascotas-rio-paralelo.json",
+      "entries": 50,
+      "coverage": "Spanish HTML visible text, source title/description/social metadata and alt/aria labels checked. Private FR render not yet built.",
+      "editorial_review": "Verify laws/service policies, health warnings and external references for publication date"
+    },
+    {
+      "route": "/consejos/servicios-practicos/",
+      "source_sha": "d0317a98ac6746fa84c2615d57e36978878f75f6",
+      "dictionary": "assets/js/translations/fr/consejos-servicios-practicos-paralelo.json",
+      "entries": 52,
+      "coverage": "Spanish HTML visible text, source title/description/social metadata and alt/aria labels checked. Private FR render not yet built.",
+      "editorial_review": "Verify laws/service policies, health warnings and external references for publication date"
+    },
+    {
+      "route": "/consejos/",
+      "source_sha": "df0503512bbfb63e51e8d7612e65045631514d35",
+      "dictionary": "assets/js/translations/fr/consejos-portada-paralelo.json",
+      "entries": 45,
+      "coverage": "all page cards, alt tags, visible text, page title and meta description covered",
+      "integration_note": "Verify page cards point to FR routes only when their destination exists in the private preview"
     }
   ],
-  "coverage": "13 separate Consejos Rio source HTML pages compared to isolated Spanish→French dictionaries for visible text, title and descriptions/social metadata, img alt and aria-label. All tested source keys mapped. This is source-string coverage; runtime, photographs, responsive visual QA, legal/health accuracy and integration remain pending.",
+  "coverage": "20 route dictionaries prepared: 19 Consejos editorial subpages plus /consejos/ landing, with exact source Spanish text coverage for visible HTML, title/description/social meta and image alt/aria-label. These mappings do NOT constitute rendered pages or a published French locale. Source SHAs recorded.",
   "next_steps": [
     "Check source SHAs and current PR24 before integrating",
     "Continue all 24 Consejos subpages and landing FR; keep sections complete",
@@ -119,13 +175,22 @@
     "Keep `/consejos/sol-calor/` route name as-is; its current Spanish editorial page is 'Amaneceres y atardeceres inolvidables' despite the route name.",
     "Do not mark `/consejos/portugues/` completed from HTML alone: it uses an external Portuguese phrase/audio JS module and needs dynamic content mapping and functional FR review.",
     "Translate the remaining 15 Consejos subpages and section landing separately; audit redirects, media and dynamically generated text before publishing.",
-    "Translate and integrate remaining 11 editorial Consejos subpages and section landing. Review dynamic Portuguese phrases/audio separately, plus large Supermercados and 50 Preguntas pages."
+    "Translate and integrate remaining 11 editorial Consejos subpages and section landing. Review dynamic Portuguese phrases/audio separately, plus large Supermercados and 50 Preguntas pages.",
+    "Preserve images and functional original on Portuguese audio page; original FR preview can only be considered complete when all 80 phrases and playback controls are covered.",
+    "Complete editorial translation of 20-consejos, 50-preguntas, supermercados and trampas-turista separately, without summaries."
   ],
   "todo_inventory": {
     "source_subfolders": 24,
-    "prepared_subpages": 13,
-    "remaining_subpages": 11,
-    "landing_page_pending": true,
-    "redirects_and_language_specific_images_need_review": true
+    "prepared_subpages": 19,
+    "remaining_subpages": 5,
+    "landing_page_pending": false,
+    "remaining_names": [
+      "20-consejos",
+      "50-preguntas",
+      "portugues",
+      "supermercados",
+      "trampas-turista"
+    ],
+    "dynamic_portugues_audio_pending": true
   }
 }
