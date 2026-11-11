@@ -90,7 +90,7 @@ export function localizeLegacyStartup(code, route) {
       const encodedCopy = JSON.stringify(replacements).replaceAll('<', '\\u003c');
       code = code.replace(initialize, `D[${locale}] && Object.assign(D[${locale}], (${encodedCopy})[${locale}]);${initialize}`);
     }
-    if (renderer === 'full' && positional && ['/gastronomia/polvo-marisqueria/', '/gastronomia/proa/', '/gastronomia/sud-passaro-verde/', '/gastronomia/quartinho/', '/gastronomia/spicy-fish/'].includes(route)) {
+    if (renderer === 'full' && positional && ['/gastronomia/polvo-marisqueria/', '/gastronomia/proa/', '/gastronomia/sud-passaro-verde/', '/gastronomia/quartinho/', '/gastronomia/spicy-fish/', '/gastronomia/temperarte-posto6/', '/gastronomia/temperarte-bolivar/'].includes(route)) {
       const initialize = `full(${locale})`;
       // The historical facts use plain-text separators. Keep the approved
       // strong label and line break when applying those translations.

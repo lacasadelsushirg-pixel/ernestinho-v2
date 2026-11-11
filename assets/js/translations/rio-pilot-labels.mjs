@@ -2333,6 +2333,54 @@ export const pilotLabels = {
       ]
     },
     "/gastronomia/temperarte-posto6/": {
+    "Temperarte Posto 6 — imagen 1": [
+      "Temperarte Posto 6 — foto 1",
+      "Temperarte Posto 6 — photo 1"
+    ],
+    "Temperarte Posto 6 — imagen 2": [
+      "Temperarte Posto 6 — foto 2",
+      "Temperarte Posto 6 — photo 2"
+    ],
+    "Temperarte Posto 6 — imagen 3": [
+      "Temperarte Posto 6 — foto 3",
+      "Temperarte Posto 6 — photo 3"
+    ],
+    "Temperarte Posto 6 — imagen 4": [
+      "Temperarte Posto 6 — foto 4",
+      "Temperarte Posto 6 — photo 4"
+    ],
+    "Temperarte Posto 6 — imagen 5": [
+      "Temperarte Posto 6 — foto 5",
+      "Temperarte Posto 6 — photo 5"
+    ],
+    "Mapa de Temperarte Posto 6": [
+      "Mapa do Temperarte Posto 6",
+      "Map of Temperarte Posto 6"
+    ],
+    "Registro visual de Temperarte Posto 6.": [
+      "Registro visual do Temperarte Posto 6.",
+      "Temperarte Posto 6 in photos."
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "La carta y la operación pueden cambiar; conviene confirmar antes de ir.": [
+      "O cardápio e o funcionamento podem mudar; confirme antes de ir.",
+      "Menus and operations may change; confirm before visiting."
+    ],
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Sitio indicado en directorios ↗Ver dirección en Google Maps ↗": [
+      "Site indicado nos guias ↗Ver endereço no Google Maps ↗",
+      "Website listed in directories ↗See address on Google Maps ↗"
+    ],
       "En Temperarte Posto 6, revisa el cartel vigente para saber si se cobra por kilo o mediante otra modalidad. La variedad puede cambiar según el día y el turno; antes de llenar el plato, observa las opciones y pregunta por ingredientes si tienes restricciones.": [
         "No Temperarte Posto 6, confira no cartaz atual se a cobrança é por quilo ou segue outro formato. A variedade muda conforme o dia e o turno; antes de se servir, veja as opções e pergunte pelos ingredientes se tiver restrições.",
         "At Temperarte Posto 6, check the current price board to see whether you pay by weight or under another arrangement. The selection can change by day and service; look at the options before filling your plate and ask about ingredients if you have dietary restrictions."
@@ -2343,6 +2391,58 @@ export const pilotLabels = {
       ]
     },
     "/gastronomia/temperarte-bolivar/": {
+    "Temperarte Bolívar — imagen 1": [
+      "Temperarte Bolívar — foto 1",
+      "Temperarte Bolívar — photo 1"
+    ],
+    "Temperarte Bolívar — imagen 2": [
+      "Temperarte Bolívar — foto 2",
+      "Temperarte Bolívar — photo 2"
+    ],
+    "Temperarte Bolívar — imagen 3": [
+      "Temperarte Bolívar — foto 3",
+      "Temperarte Bolívar — photo 3"
+    ],
+    "Temperarte Bolívar — imagen 4": [
+      "Temperarte Bolívar — foto 4",
+      "Temperarte Bolívar — photo 4"
+    ],
+    "Temperarte Bolívar — imagen 5": [
+      "Temperarte Bolívar — foto 5",
+      "Temperarte Bolívar — photo 5"
+    ],
+    "Temperarte Bolívar — imagen 6": [
+      "Temperarte Bolívar — foto 6",
+      "Temperarte Bolívar — photo 6"
+    ],
+    "Mapa de Temperarte Bolívar": [
+      "Mapa do Temperarte Bolívar",
+      "Map of Temperarte Bolívar"
+    ],
+    "Registro visual de Temperarte Bolívar.": [
+      "Registro visual do Temperarte Bolívar.",
+      "Temperarte Bolívar in photos."
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "La carta y la operación pueden cambiar; conviene confirmar antes de ir.": [
+      "O cardápio e o funcionamento podem mudar; confirme antes de ir.",
+      "Menus and operations may change; confirm before visiting."
+    ],
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Ver ficha de Temperarte Bolívar ↗Buscar dirección en Google Maps ↗": [
+      "Ver ficha do Temperarte Bolívar ↗Buscar endereço no Google Maps ↗",
+      "View the Temperarte Bolívar listing ↗Find the address on Google Maps ↗"
+    ],
       "Temperarte de Rua Bolívar es una opción práctica para quien busca un buffet en Copacabana, pero conviene comprobar el precio y la modalidad del servicio antes de servirse. Si se cobra por peso, las guarniciones también cuentan; una primera porción moderada te permite elegir mejor.": [
         "O Temperarte da Rua Bolívar é uma opção prática de bufê em Copacabana. Confira o preço e o formato antes de se servir. Se a cobrança for por peso, os acompanhamentos também contam; uma primeira porção moderada ajuda a escolher melhor.",
         "Temperarte on Rua Bolívar is a practical buffet option in Copacabana. Check the price and service format before serving yourself. If you pay by weight, side dishes count too; a modest first serving gives you room to choose better."
