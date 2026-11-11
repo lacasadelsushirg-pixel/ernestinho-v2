@@ -14,6 +14,7 @@ STATUSES = ('Pendiente', 'En revisión', 'Corregido o traducido', 'Validado', 'P
 COLUMNS = ('ES', 'PT-BR', 'EN', 'FR')
 # Keep known unresolved source defects visible after rebuilding the ledger.
 PENDING_CHECKS = {
+    '/gastronomia/faenza-copacabana/': 'Contradicción editorial: el cuerpo cita actividad reciente y la nota conservada no confirma si cerró o cambió de nombre. Confirmar identidad y operación.',
     '/gastronomia/brota/': 'Canal oficial sin identificar: la fuente enlaza a Instagram genérico. Dirección exacta pendiente de confirmación.',
 }
 RESTAURANTS = {route for route in ROUTES if route.startswith('/gastronomia/')}

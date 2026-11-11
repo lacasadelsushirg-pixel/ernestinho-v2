@@ -209,4 +209,25 @@ export const updatedFacts = {
       "17": "The address is Rua Paschoal Carlos Magno, 99, in Santa Teresa’s dining area. From downtown, you can combine a taxi or ride-hailing journey with the Santa Teresa tram when its service and hours allow. The final stretch is steep and cobbled. After dinner, I would plan a car journey back and check the route ahead of time."
     }
   },
+  "/gastronomia/nino-cucina-ipanema/": {
+    "pt": {
+      "2": "A marca Nino Cucina nasceu em São Paulo e chegou a Ipanema com sabores italianos, hospitalidade e carta de vinhos. O chef Marco Renzetti, ligado à alta gastronomia italiana, lidera a fase atual segundo a comunicação oficial. O endereço na Rua Barão da Torre, 490, coloca a casa no circuito de restaurantes de Ipanema.",
+      "3": "Eu reservaria para quem quer uma noite italiana no Rio e valoriza tanto o ambiente quanto a receita. O Nino é mais teatral e celebrativo que uma cantina do dia a dia. Essa personalidade é um atrativo e também aumenta as expectativas e a conta. Eu escolheria um dia em que o jantar mereça ser lembrado e deixaria tempo para aproveitá-lo.",
+      "4": "O spaghetti alla amatriciana aparece repetidamente nas referências públicas e é um ponto de partida para quem gosta de massas de sabor marcante. Antes de escolher o menu para dois, pergunte exatamente o que inclui, pois algumas avaliações descrevem preparações que atendem às expectativas de forma desigual. Eu dividiria uma entrada, deixaria espaço para a massa e pediria uma taça recomendada pela sommelière.",
+      "5": "O almoço por turnos permite conhecer a casa à luz do dia e com menos cerimônia. O jantar concentra a experiência italiana, especialmente por volta das 19h, quando o salão começa a encher. No domingo, o horário é mais curto. Confira a cozinha antes de planejar chegar tarde. A reserva por turno ajuda a organizar a visita e evita contar com uma mesa imediata.",
+      "6": "Eu reservaria o primeiro turno da noite para jantar com calma, caminhar por Ipanema depois e observar como o ambiente muda. Perguntaria pela massa mais recomendada do dia e pelo tempo de preparo. Deixaria espaço para o principal ao escolher as entradas.",
+      "7": "Eu faria Arpoador antes de um jantar cedo e caminharia por Ipanema até o Nino. Depois, uma volta pela Garcia D’Ávila basta. No almoço, a Praça Nossa Senhora da Paz pode ser o passeio depois da refeição antes de voltar à praia. Deixaria o jantar como o programa principal, sem outra reserva de comida em seguida."
+    },
+    "en": {
+      "2": "Nino Cucina began in São Paulo and came to Ipanema with Italian flavors, hospitality and a wine list. According to its official communications, chef Marco Renzetti, associated with Italian fine dining, leads its current chapter. The address at Rua Barão da Torre, 490, places it on Ipanema’s restaurant circuit.",
+      "3": "I would book it for someone who wants an Italian evening in Rio and values the atmosphere as much as the recipes. Nino feels more theatrical and celebratory than an everyday trattoria. That character is part of the appeal, and also raises expectations and the bill. Choose an evening when dinner deserves time and attention.",
+      "4": "Spaghetti all’amatriciana appears repeatedly in public listings and is a starting point for a pasta dish with character. Before choosing the menu for two, ask exactly what it includes, as some reviews describe dishes meeting expectations unevenly. I would share a starter, leave room for pasta and ask the sommelier to recommend a glass of wine.",
+      "5": "Lunch by seating offers daylight and less ceremony. Dinner brings the fullest Italian atmosphere, especially around 7 p.m. as the room fills. Sunday hours are shorter. Check kitchen hours before planning a late arrival. Booking a specific seating helps you organize the visit and avoids relying on an immediately available table.",
+      "6": "I would book the first dinner seating to eat at an easy pace, walk around Ipanema afterwards and see how the room changes. Ask about the most recommended pasta that day and its preparation time. Leave room for the main course when choosing starters.",
+      "7": "I would visit Arpoador before an early dinner and walk through Ipanema to Nino. Afterwards, a short stroll along Garcia D’Ávila is enough. For lunch, Praça Nossa Senhora da Paz can be a walk after the meal before returning to the beach. I would keep dinner as the main event, without another food stop booked straight afterwards."
+    }
+  },
+  '/gastronomia/koral/': {
+    en: {13: '☎️ <strong>Contact</strong><br>(21) 99513-6437 · Instagram @koralrest.'},
+  },
 };

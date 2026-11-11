@@ -34,6 +34,9 @@ export const legacyLocaleRoutes = new Map([
   ['/gastronomia/brota/', ['setLang', 'full']],
   ['/gastronomia/noa-ipanema/', ['f', 'full']],
   ['/gastronomia/bar-do-mineiro/', ['setLang', 'full']],
+  ['/gastronomia/faenza-copacabana/', ['setLang', 'full']],
+  ['/gastronomia/nino-cucina-ipanema/', ['f', 'full']],
+  ['/gastronomia/koral/', ['f', 'full']],
 ]);
 
 export function hideDuplicateLegacySelector(html, route) {
@@ -53,7 +56,7 @@ export function localizeLegacyStartup(code, route) {
     // This dictionary predates the practical summary and the supplemental
     // paragraphs. Keep its original paragraph order; those additions have
     // their own translations in the practical renderer and section chunk.
-    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/', '/gastronomia/kilograma-centro/', '/gastronomia/quartinho/', '/gastronomia/k08/', '/gastronomia/delirio-tropical-rio-sul/', '/gastronomia/spicy-fish/', '/gastronomia/dumare/', '/gastronomia/noa-ipanema/'].includes(route) ? ':not(.v2-supplement p)' : '';
+    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/', '/gastronomia/kilograma-centro/', '/gastronomia/quartinho/', '/gastronomia/k08/', '/gastronomia/delirio-tropical-rio-sul/', '/gastronomia/spicy-fish/', '/gastronomia/dumare/', '/gastronomia/noa-ipanema/', '/gastronomia/faenza-copacabana/', '/gastronomia/nino-cucina-ipanema/', '/gastronomia/koral/'].includes(route) ? ':not(.v2-supplement p)' : '';
     const extraParagraphs = ['/gastronomia/elena/', '/gastronomia/bb-lanches/'].includes(route) ? ':not(main>section>p:nth-of-type(n+2))' : '';
     code = code.replace("P=[...document.querySelectorAll('p')]",
       `P=[...document.querySelectorAll('p:not(.ec-q-kicker):not(article.card:not(.facts)>p:nth-of-type(n+2))${extraSections}${extraParagraphs}')]`);

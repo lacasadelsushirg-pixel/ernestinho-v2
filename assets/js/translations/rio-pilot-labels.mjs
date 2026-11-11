@@ -1539,4 +1539,222 @@ export const pilotLabels = {
       "Photo 5 of Bar do Mineiro."
     ]
   },
+  "/gastronomia/faenza-copacabana/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Faenza Copacabana": [
+      "Mapa de Faenza Copacabana",
+      "Map of Faenza Copacabana"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Fotografía de Faenza Copacabana.": [
+      "Foto do Faenza Copacabana.",
+      "Photo of Faenza Copacabana."
+    ],
+    "Registro de Faenza · Veja Rio ↗ · Unidad La Mole · sitio oficial ↗": [
+      "Registro do Faenza · Veja Rio ↗ · Unidade La Mole · site oficial ↗",
+      "Faenza listing · Veja Rio ↗ · La Mole branch · official website ↗"
+    ],
+    "Faenza Copacabana — imagen 1": [
+      "Faenza Copacabana — foto 1",
+      "Faenza Copacabana — photo 1"
+    ],
+    "Faenza Copacabana — imagen 2": [
+      "Faenza Copacabana — foto 2",
+      "Faenza Copacabana — photo 2"
+    ],
+    "Faenza Copacabana — imagen 3": [
+      "Faenza Copacabana — foto 3",
+      "Faenza Copacabana — photo 3"
+    ],
+    "Faenza Copacabana — imagen 4": [
+      "Faenza Copacabana — foto 4",
+      "Faenza Copacabana — photo 4"
+    ],
+    "Faenza Copacabana — imagen 5": [
+      "Faenza Copacabana — foto 5",
+      "Faenza Copacabana — photo 5"
+    ],
+    "Faenza Copacabana — imagen 6": [
+      "Faenza Copacabana — foto 6",
+      "Faenza Copacabana — photo 6"
+    ],
+    "Faenza Copacabana — imagen 7": [
+      "Faenza Copacabana — foto 7",
+      "Faenza Copacabana — photo 7"
+    ],
+    "Para una visita a Faenza en Copacabana, comprueba la carta del día y las porciones antes de pedir. Si buscas una comida tranquila, elige el turno que mejor se adapte a tu recorrido y pregunta por las opciones disponibles para compartir.": [
+      "Antes de ir ao Faenza em Copacabana, confira o cardápio do dia e o tamanho das porções. Para uma refeição tranquila, escolha o turno que combina com o passeio e pergunte pelas opções para compartilhar.",
+      "Before visiting Faenza in Copacabana, check the day’s menu and portion sizes. For a relaxed meal, choose the service that fits your outing and ask about options to share."
+    ],
+    "La ubicación en Copacabana facilita incluir el restaurante dentro de un paseo por el barrio. Si vas en grupo o con horario limitado, confirma servicio y posibilidad de reservar antes de salir.": [
+      "A localização em Copacabana facilita encaixar o restaurante num passeio pelo bairro. Se estiver em grupo ou com pouco tempo, confirme o serviço e a possibilidade de reserva antes de sair.",
+      "The Copacabana location makes it easy to fit the restaurant into a walk around the neighborhood. For a group or a tight schedule, check the service and booking options before setting out."
+    ]
+  },
+  "/gastronomia/nino-cucina-ipanema/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Nino Cucina Ipanema": [
+      "Mapa de Nino Cucina Ipanema",
+      "Map of Nino Cucina Ipanema"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "La casa propone una viagem italiana en Ipanema.": [
+      "A casa propõe uma viagem italiana em Ipanema.",
+      "An Italian journey in Ipanema."
+    ],
+    "La luz cálida prepara una noche larga.": [
+      "A luz quente convida a uma noite longa.",
+      "Warm lighting invites you to linger."
+    ],
+    "Vino y pasta organizan la experiencia.": [
+      "Vinho e massa dão o ritmo da experiência.",
+      "Wine and pasta set the pace of the meal."
+    ],
+    "Una sala de tono social y romántico.": [
+      "Um salão social e romântico.",
+      "A convivial, romantic dining room."
+    ],
+    "La ambientación busca transportar al comensal.": [
+      "A ambientação convida a viajar.",
+      "The setting aims to transport you."
+    ],
+    "La carta debe consultarse por temporada.": [
+      "Consulte o cardápio da estação.",
+      "Check the seasonal menu."
+    ],
+    "Una opción para celebrar en Ipanema.": [
+      "Uma opção para celebrar em Ipanema.",
+      "An option for a celebration in Ipanema."
+    ],
+    "Italiana · Pastas · Vinos · Cena · Romántico": [
+      "Italiana · Massas · Vinhos · Jantar · Romântico",
+      "Italian · Pasta · Wine · Dinner · Romantic"
+    ],
+    "Salón del Nino": [
+      "Salão do Nino",
+      "Nino’s dining room"
+    ],
+    "Mesa italiana": [
+      "Mesa italiana",
+      "An Italian table"
+    ],
+    "Ambiente de la casa": [
+      "Ambiente da casa",
+      "The atmosphere"
+    ],
+    "Detalle del restaurante": [
+      "Detalhe do restaurante",
+      "A detail of the restaurant"
+    ],
+    "Preparación italiana": [
+      "Preparação italiana",
+      "An Italian dish"
+    ],
+    "Experiencia Nino Cucina": [
+      "Experiência Nino Cucina",
+      "The Nino Cucina experience"
+    ],
+    "En Nino Cucina Ipanema, revisa los platos de pasta y el menú de temporada antes de decidir. Si compartes entradas, pregunta por el tamaño de las porciones y reserva espacio para el principal. Los precios y preparaciones pueden cambiar.": [
+      "No Nino Cucina Ipanema, consulte as massas e o cardápio da estação antes de escolher. Ao compartilhar entradas, pergunte pelo tamanho das porções e deixe espaço para o principal. Preços e preparações podem mudar.",
+      "At Nino Cucina Ipanema, look at the pasta dishes and seasonal menu before choosing. When sharing starters, ask about portion sizes and leave room for the main course. Prices and dishes can change."
+    ],
+    "La visita encaja bien en una cena por Ipanema. Reservaría con anticipación cuando quieras un horario específico y dejaría un margen para caminar por el barrio antes o después sin apurar la comida.": [
+      "A visita combina com uma noite em Ipanema. Reserve com antecedência para um horário específico e deixe tempo para caminhar pelo bairro antes ou depois, sem apressar a refeição.",
+      "The visit fits an evening in Ipanema. Book ahead for a particular time and allow room for a walk around the neighborhood before or afterwards without rushing the meal."
+    ]
+  },
+  "/gastronomia/koral/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Koral": [
+      "Mapa de Koral",
+      "Map of Koral"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "La casa une diseño, brasa y mar.": [
+      "A casa une design, brasa e mar.",
+      "The restaurant brings together design, fire and the sea."
+    ],
+    "La sala tiene una formalidad contemporánea.": [
+      "O salão tem uma elegância contemporânea.",
+      "The dining room has a contemporary elegance."
+    ],
+    "El servicio es parte de la experiencia.": [
+      "O serviço faz parte da experiência.",
+      "Service is part of the experience."
+    ],
+    "Un espacio pensado para cenas largas.": [
+      "Um espaço para jantar sem pressa.",
+      "A setting for a leisurely dinner."
+    ],
+    "La arquitectura acompaña la propuesta.": [
+      "A arquitetura acompanha a proposta.",
+      "The architecture complements the cooking."
+    ],
+    "La carta debe consultarse por temporada.": [
+      "Consulte o cardápio da estação.",
+      "Check the seasonal menu."
+    ],
+    "Producto y técnica comparten protagonismo.": [
+      "Produto e técnica dividem o protagonismo.",
+      "Ingredients and technique share the spotlight."
+    ],
+    "Koral en Ipanema": [
+      "Koral em Ipanema",
+      "Koral in Ipanema"
+    ],
+    "Ambiente del Koral": [
+      "Ambiente do Koral",
+      "Inside Koral"
+    ],
+    "Detalle del restaurante": [
+      "Detalhe do restaurante",
+      "A detail of the restaurant"
+    ],
+    "Área interna": [
+      "Área interna",
+      "Indoor area"
+    ],
+    "Interior del Koral": [
+      "Interior do Koral",
+      "Inside Koral"
+    ],
+    "Plato de Koral": [
+      "Prato do Koral",
+      "A dish at Koral"
+    ],
+    "Presentación de la casa": [
+      "Apresentação da casa",
+      "A house presentation"
+    ]
+  },
 };
