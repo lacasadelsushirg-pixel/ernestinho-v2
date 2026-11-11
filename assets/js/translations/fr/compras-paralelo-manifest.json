@@ -347,16 +347,25 @@
       "caption_supplement": "assets/js/translations/fr/compras-barrashopping-leyendas-fr-paralelo.json",
       "dynamic_image_captions": 2,
       "caption_missing_keys": 0
+    },
+    {
+      "route": "/compras/feira-noturna-copacabana/",
+      "source_sha": "50f938e175021349370a079b0d33f8aceb1fa024",
+      "dictionary": "assets/js/translations/fr/compras-feira-noturna-copacabana-paralelo.json",
+      "entries": 23,
+      "checked_strings": 23,
+      "missing_keys": 0,
+      "editorial_review": "Compare /compras/feira-noturna-copacabana/ (Feirarte VI) with /compras/feira-nocturna-copacabana/ before publication; potential overlapping coverage and canonical ambiguity. Confirm actual Feirarte VI location, hours and status from municipal sources. Staging dictionary only; no FR HTML or SEO."
     }
   ],
   "totals": {
-    "prepared_pages": 31,
-    "static_dictionary_entries": 2016,
+    "prepared_pages": 32,
+    "static_dictionary_entries": 2039,
     "dynamic_JS_keys": 667,
     "extra_story_paragraphs": 152,
     "coverage_missing_visible_meta_alt": 0,
     "dynamic_image_captions": 2,
-    "total_source_translation_units": 2837
+    "total_source_translation_units": 2860
   },
   "known_integration_blockers": [
     "Existing source JavaScript includes only es/pt/en as language whitelist; without integrating fr on a separate preview, French dictionaries will not render.",
