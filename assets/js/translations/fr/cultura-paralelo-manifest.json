@@ -107,12 +107,32 @@
       "missing_keys": 0,
       "qa": "All visible static strings and selected meta/alt/map attributes compared to dictionary; no missing strings in inspected set. Not rendered in FR.",
       "editorial_review": "Verify opening hours, accessibility, reservation and institutional status before publishing."
+    },
+    {
+      "route": "/cultura/livraria-argumento/",
+      "source_sha": "3cba725cad4a4f1d286a0d41bb047dd946cc144f",
+      "dictionary": "assets/js/translations/fr/cultura-livraria-argumento-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Static visible strings, metadata, alt and map titles compared to French dictionary; no missing in inspected set.",
+      "editorial_review": "Confirm opening hours, business operation, accessible entrance and current services with official establishment before publication."
+    },
+    {
+      "route": "/cultura/leonardo-da-vinci/",
+      "source_sha": "67a166e848cc00858178b0fe283c65cc364d2a14",
+      "dictionary": "assets/js/translations/fr/cultura-leonardo-da-vinci-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Static visible strings, metadata, alt and map titles compared to French dictionary; no missing in inspected set.",
+      "editorial_review": "Confirm opening hours, business operation, accessible entrance and current services with official establishment before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 11,
-    "static_dictionary_entries": 482,
-    "total_source_translation_units": 482
+    "prepared_pages": 13,
+    "static_dictionary_entries": 568,
+    "total_source_translation_units": 568
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
