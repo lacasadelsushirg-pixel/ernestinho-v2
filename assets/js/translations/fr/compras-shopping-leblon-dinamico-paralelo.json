@@ -1,0 +1,41 @@
+{
+  "source_path": "compras/shopping-leblon/index.html",
+  "source_sha": "21a203cfe201c2dbba6487d04e9a8ff247939812",
+  "language": "fr",
+  "status": "STAGING_ONLY",
+  "runtime_P_fr": [
+    "Aujourd'hui, je veux vous parler d'un centre commercial qui incarne à mes yeux une certaine façon de vivre à Rio : Shopping Leblon.",
+    "Situé Avenida Afrânio de Melo Franco, 290, au cœur de Leblon, l'un des quartiers les plus connus de la zone sud, il est intimement lié à son environnement. En sortant, on retrouve des rues arborées, des restaurants, des hôtels, la plage, le canal, et la proximité d'Ipanema et de la Lagoa.",
+    "La plupart des visiteurs viennent à Rio pour les images de carte postale : se promener à Copacabana, découvrir Ipanema, admirer le coucher de soleil ou monter au Christ. Mais Leblon dégage une autre énergie. Plus résidentiel, raffiné, gastronomique et attaché à l'art de vivre, ce quartier trouve dans Shopping Leblon une extension naturelle de sa vie urbaine.",
+    "Je n'y vois pas un centre commercial géant où se perdre toute la journée. Pour moi, il est plus concentré et élégant. On peut venir chercher une marque, choisir un cadeau, bien manger, boire un café, aller au cinéma ou consulter la programmation culturelle, puis poursuivre à pied dans Leblon.",
+    "La différence avec BarraShopping est nette. BarraShopping est une ville commerçante immense, offrant une diversité d'enseignes et demandant du temps. Shopping Leblon est plus compact et mieux intégré au quartier. VillageMall vise un autre niveau de luxe et d'exclusivité. Fashion Mall entretient un autre rapport avec São Conrado et les montagnes. Ici, la personnalité du lieu est celle de Leblon : mode, gastronomie, culture et vie urbaine.",
+    "En tant qu'hôte, je le recommanderais aux couples, voyageurs seuls, personnes souhaitant un repas particulier et familles cherchant une sortie confortable dans la zone sud. Depuis Copacabana ou Ipanema, il est facile de l'associer à la plage, au shopping et à une promenade. Depuis Barra, je ne traverserais pas la ville uniquement pour regarder les vitrines, sauf intérêt précis.",
+    "La gastronomie est l'un de ses grands atouts. Le centre réunit restaurants, cafés, pâtisseries et lieux où l'on peut s'installer tranquillement. Je ne choisirais pas un restaurant uniquement pour son nom : je consulterais le menu, les prix et les horaires. Leblon peut être charmant, mais c'est aussi un quartier où mieux vaut prévoir son budget.",
+    "Les photos de restaurants montrent une autre dimension de la sortie. Il ne s'agit pas seulement de calmer sa faim entre deux achats : la visite peut devenir une vraie sortie avec déjeuner, café, dîner ou expérience particulière. Pour moi, cette combinaison est très carioca.",
+    "Shopping Leblon propose aussi cinéma, théâtre, expositions, événements et activités culturelles selon le programme du moment. Je ne supposerais pas qu'une activité soit disponible tous les jours : vérifiez l'agenda officiel. Par temps de pluie, c'est une bonne alternative pour rester dans la zone sud sans dépendre de la plage.",
+    "Avec des enfants, confirmez les espaces à langer, les poussettes, l'accessibilité et les activités adaptées. Seul, c'est un lieu agréable pour marcher, manger et observer l'animation. Avec des sacs, le métro, Uber, 99 ou un taxi peuvent présenter des avantages différents selon votre point de départ.",
+    "Alors, vaut-il la peine ? Pour moi, oui, à condition d'avoir les bonnes attentes. Ne venez pas chercher le plus grand centre commercial de Rio ni une expédition shopping de toute la journée. Venez découvrir un lieu élégant, urbain et très lié au quartier de Leblon.",
+    "Je vous conseille de l'associer à Ipanema ou à la Lagoa, de vérifier à l'avance le restaurant qui vous intéresse et de garder du temps pour les rues du quartier. Shopping Leblon peut être une pause, le but de la visite ou la fin idéale d'une journée dans la zone sud.",
+    "C'est pourquoi je le recommande : on y découvre l'art de vivre de Leblon sans cesser de ressentir Rio."
+  ],
+  "runtime_T_fr": {
+    "hero": "Mode, gastronomie, culture et art de vivre carioca au cœur de Leblon.",
+    "context": "<p>Shopping Leblon se trouve au cœur de la zone sud, près d'Ipanema, de la Lagoa et de la plage. Ce n'est pas un centre commercial isolé : il fait partie d'un quartier résidentiel, gastronomique et urbain.</p><p>Pour moi, c'est une expérience plus concentrée et élégante, où les boutiques se combinent avec restaurants, cinéma, théâtre, événements et promenades dans Leblon.</p>",
+    "shops": "<p>Je le choisirais pour la mode brésilienne et internationale, les accessoires, la beauté, les parfums, le design, la maison, les cadeaux et les services. Vérifiez toujours l'annuaire officiel : les boutiques évoluent.</p><p>C'est un bon endroit pour choisir un cadeau, comparer une marque précise ou faire des achats de mode sans traverser un complexe gigantesque.</p>",
+    "brands": "Consultez l'annuaire officiel pour confirmer les marques présentes le jour de la visite. Depuis un quartier éloigné, vérifiez qu'une boutique particulière fonctionne toujours.",
+    "food": "<p>Le centre propose restaurants, cafés, pâtisseries et lieux pour une pause rapide ou un repas particulier. Les prix vont de modérés à élevés selon les établissements ; à Leblon, je vérifierais le menu et mon budget avant de m'installer.</p>",
+    "culture": "<p>Shopping Leblon accueille cinéma, théâtre, événements et activités culturelles selon la programmation. Cela le distingue d'un centre commercial uniquement consacré aux achats.</p><p>Je l'associerais à Ipanema ou à la Lagoa : un repas, un film ou une sortie culturelle peuvent très bien conclure une journée dans la zone sud.</p>",
+    "recommend": "<p><strong>Ernestinho recommande :</strong> je l'inclurais dans une journée à Leblon et Ipanema. Si je suis proche, je viendrais à pied ou en métro, choisirais une boutique ou un restaurant, puis poursuivrais la découverte du quartier.</p><p>En couple, je chercherais un repas particulier. Seul, j'en profiterais pour marcher, boire un café et regarder l'animation. Avec des enfants, je confirmerais les services et les activités avant de partir.</p>",
+    "hours": "<p><strong>Boutiques et kiosques :</strong> du lundi au samedi de 10 h à 22 h ; dimanches et jours fériés de 13 h à 21 h. <strong>Restaurants et loisirs :</strong> ils peuvent suivre des horaires particuliers, souvent plus étendus. <strong>Cinéma, théâtre et événements :</strong> selon la programmation.</p>",
+    "transport": "<p><strong>MetrôRio :</strong> la station Jardim de Alah / Leblon est un repère pratique. Depuis Copacabana, Ipanema ou Flamengo, vérifiez la sortie et la marche finale. <strong>Uber, 99 et taxi :</strong> pratiques avec des sacs ou en famille.</p><p><strong>Voiture :</strong> vérifiez le parking. Depuis Santos Dumont ou Galeão, prévoyez une marge pour la circulation. Google Maps et Moovit aident à choisir le trajet du jour.</p>",
+    "services": "<p>Le site officiel présente accueil, accessibilité, plan intérieur, cinéma, théâtre, restauration et Leblon Shopper. Pour Wi-Fi, ascenseurs, espaces à langer, poussettes, fauteuils, chargeurs ou accompagnement des personnes autistes, renseignez-vous directement avant la visite.</p><p>Je ne présente ni casiers, ni consignes à bagages, ni distributeurs automatiques comme confirmés sans vérification officielle.</p>",
+    "comfort": "<p>Je recommande Shopping Leblon, non parce qu'il est le plus grand, mais parce qu'il est intégré à l'un des quartiers les plus agréables de Rio. Venez avec une idée précise et laissez du temps pour profiter des environs.</p>"
+  },
+  "qa": {
+    "source_P_paragraphs": 13,
+    "fr_P_paragraphs": 13,
+    "source_T_keys": 11,
+    "fr_T_keys": 11
+  },
+  "review": "Shopper services, official opening times, cultural programming and food tenant listings need current verification; images/figure captions in JS and language selector need FR preview."
+}
