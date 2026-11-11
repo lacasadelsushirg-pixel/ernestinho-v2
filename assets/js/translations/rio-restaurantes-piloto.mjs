@@ -24,6 +24,10 @@ export default {
 
 // Keep the qualifiers and formatting added to the approved practical notes.
 export const updatedFacts = {
+  '/gastronomia/jojo/': {
+    pt: { 13: '☎️ <strong>Contato</strong><br>Confirmar canal oficial' },
+    en: { 13: '☎️ <strong>Contact</strong><br>Confirm official channels' },
+  },
   '/gastronomia/casa-201/': {
     pt: {
       10: '🕐 <strong>Horários</strong><br>De terça a sábado, chegada às 20h. Domingo e segunda fechados, segundo referências públicas. Apenas com reserva.',

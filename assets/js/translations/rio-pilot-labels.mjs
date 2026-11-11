@@ -2214,4 +2214,71 @@ export const pilotLabels = {
       "The visit is a break by the sea during a walk around Copacabana. Consider the weather and beach crowds, and check the exact kiosk."
     ]
   },
+    "/gastronomia/jojo/": {
+      "En Jojo, antes de decidir el pedido pregunta cuáles preparaciones están disponibles en el servicio actual y si se recomiendan para compartir. Si tienes restricciones alimentarias, comprueba ingredientes directamente; las fotografías de una carta pasada no garantizan la oferta del día.": [
+        "No Jojo, antes de pedir, pergunte quais preparações estão disponíveis no serviço atual e se são indicadas para compartilhar. Se tiver restrições alimentares, confirme os ingredientes diretamente com a equipe; fotos de um cardápio antigo não garantem a oferta do dia.",
+        "At Jojo, before ordering, ask which dishes are available during the current service and whether they are suitable for sharing. If you have dietary restrictions, check ingredients with the staff; photos of a previous menu do not guarantee what is available today."
+      ],
+      "Puedes organizar la visita como una pausa gastronómica dentro de un paseo por el barrio. Confirma el horario y la dirección exacta antes de desplazarte, y evita programar otra actividad con poco margen inmediatamente después.": [
+        "Você pode encaixar a visita como uma pausa gastronômica num passeio pelo bairro. Confirme o horário e o endereço exato antes de sair e evite marcar outra atividade logo depois sem tempo de sobra.",
+        "You can make the visit a dining break during a walk around the neighborhood. Confirm the hours and exact address before setting out, and leave enough time before your next activity."
+      ],
+      "Mapa de Jojô Bistrô": [
+        "Mapa do Jojô Bistrô",
+        "Map of Jojô Bistrô"
+      ],
+      "🌐 Sitio oficial": [
+        "🌐 Site oficial",
+        "🌐 Official website"
+      ],
+      "Contacto": [
+        "Contato",
+        "Contact"
+      ],
+      "Reservas": [
+        "Reservas",
+        "Reservations"
+      ],
+      "Notas adicionales de la guía V2": [
+        "Notas adicionais do guia V2",
+        "Additional notes from the V2 guide"
+      ],
+      "Información adicional conservada de la ficha V2": [
+        "Informações adicionais preservadas da ficha V2",
+        "Additional details preserved from the V2 listing"
+      ],
+      "Sitio oficial de Jojö Café Bistrô · Contacto y dirección": [
+        "Site oficial do Jojö Café Bistrô · Contato e endereço",
+        "Jojö Café Bistrô's official website · Contact and address"
+      ],
+      "Horto · JARDIM BOTÂNICO · BISTRÓ": [
+        "Horto · JARDIM BOTÂNICO · BISTRÔ",
+        "Horto · JARDIM BOTÂNICO · BISTRO"
+      ],
+      "Casa pequeña · cocina de Joana Carvalho · Horto": [
+        "Casa pequena · cozinha de Joana Carvalho · Horto",
+        "Small house · Joana Carvalho's cooking · Horto"
+      ],
+      "Fotografía 1 de Jojô Bistrô.": [
+        "Foto 1 do Jojô Bistrô.",
+        "Photo 1 of Jojô Bistrô."
+      ],
+      "Fotografía 2 de Jojô Bistrô.": [
+        "Foto 2 do Jojô Bistrô.",
+        "Photo 2 of Jojô Bistrô."
+      ],
+      "Fotografía 3 de Jojô Bistrô.": [
+        "Foto 3 do Jojô Bistrô.",
+        "Photo 3 of Jojô Bistrô."
+      ],
+      "Fotografía 4 de Jojô Bistrô.": [
+        "Foto 4 do Jojô Bistrô.",
+        "Photo 4 of Jojô Bistrô."
+      ],
+      "Fotografía 5 de Jojô Bistrô.": [
+        "Foto 5 do Jojô Bistrô.",
+        "Photo 5 of Jojô Bistrô."
+      ]
+    }
+,
 };

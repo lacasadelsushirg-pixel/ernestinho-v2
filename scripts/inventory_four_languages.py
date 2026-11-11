@@ -13,6 +13,11 @@ from build_fr_preview import LANGS, ROOT, ROUTES, read_page, route_file
 STATUSES = ('Pendiente', 'En revisión', 'Corregido o traducido', 'Validado', 'Publicado')
 COLUMNS = ('ES', 'PT-BR', 'EN', 'FR')
 # Keep known unresolved source defects visible after rebuilding the ledger.
+# These translations were checked in an isolated preview, but the source
+# defects prevent the route from joining the French pilot allowlist.
+PREPARED_OUTSIDE_PILOT = {
+    '/gastronomia/jojo/': 'El cuerpo indica Horto/Jardim Botânico, pero la ficha y los mapas conservan Botafogo; el botón oficial tiene href vacío.',
+}
 PENDING_CHECKS = {
     '/gastronomia/praia-skol-copa/': 'Discrepancia en horarios y contacto del original: el cuerpo pide confirmar y cita un teléfono, mientras la ficha práctica conserva 24 horas y otro número.',
     '/gastronomia/rotisseria-sirio-libanesa/': 'Revisión editorial pendiente: el original repite consejos genéricos y necesita información específica del establecimiento, conservando la fuente aprobada.',
@@ -91,15 +96,16 @@ def generate(production, reviewed, old_audit, old_index, output, revision, date)
         rows = {}
         for lang in COLUMNS:
             rows[lang] = 'Validado' if ready else 'En revisión' if lang in current else 'Pendiente'
-        pending = PENDING_CHECKS.get(route, '')
-        if ready and pending:
+        prepared = route in PREPARED_OUTSIDE_PILOT
+        pending = PENDING_CHECKS.get(route) or PREPARED_OUTSIDE_PILOT.get(route, '')
+        if (ready or prepared) and pending:
             rows = dict.fromkeys(COLUMNS, 'Corregido o traducido')
             rows['ES'] = 'En revisión'
         group = section(route)
         for lang, status in rows.items():
             totals[group][lang][status] += 1
         historic = ''
-        if route in RESTAURANTS:
+        if route in RESTAURANTS or prepared:
             historic = 'Diccionario PT/EN incrustado cotejado con el texto aprobado y complementos según la ficha.'
         elif ready:
             historic = 'HTML ES aprobado y traducciones vigentes del PR 24 cotejadas.'
@@ -108,10 +114,11 @@ def generate(production, reviewed, old_audit, old_index, output, revision, date)
             'documentos_publicados': '|'.join({'PT': 'PT-BR'}.get(code, code) for code in live_lang),
             'fr_publicado': 'no', 'indexable_es': 'sí' if live_lang.get('ES', {}).get('indexable') else 'no',
             'incidencias': ' | '.join([f'{lang}: {issue}' for lang, issue in sorted(current.items())] + ([pending] if pending else [])),
-            'fuente_historica': historic, 'fecha': date if ready or current else '',
-            'commit': revision if ready else live['sourceCommit'],
+            'fuente_historica': historic, 'fecha': date if ready or prepared or current else '',
+            'commit': revision if ready or prepared else live['sourceCommit'],
             'pruebas': ('Estructura, SEO y navegación 1440/390. Asistente FR pendiente de integración.'
-                        if ready else 'Señales del inventario del PR 24' if current else ''),
+                        if ready else 'Traducciones probadas a 1440/390 en vista aislada; FR fuera del piloto.'
+                        if prepared else 'Señales del inventario del PR 24' if current else ''),
         })
         if group == 'gastronomia' and any('3_o_mas_bloques_largos_identicos' in issue for issue in current.values()):
             historic_counts = historical_inline(route)
@@ -122,7 +129,7 @@ def generate(production, reviewed, old_audit, old_index, output, revision, date)
                     shared = original & long_prose(route_file(reviewed, localized))
                     confirmed_signal = sorted(text for text in shared if len(set(SPANISH.findall(text.lower()))) >= 3)
                     classification = (
-                        'párrafos históricos recuperados y suplementos traducidos' if ready else
+                        'párrafos históricos recuperados y suplementos traducidos' if ready or prepared else
                         'prosa idéntica con indicios de español; revisar sentido y vigencia' if confirmed_signal else
                         'coincidencia sin señal concluyente; cotejar otros elementos'
                     )
@@ -133,7 +140,7 @@ def generate(production, reviewed, old_audit, old_index, output, revision, date)
                         'max_impresiones_ventana_previa': historical_traffic.get(localized, ''),
                         'muestra': confirmed_signal[0][:175].rstrip() if confirmed_signal else '',
                         'estado': rows[lang], 'FR': rows['FR'],
-                        'fecha': date, 'commit': revision if ready else '',
+                        'fecha': date, 'commit': revision if ready or prepared else '',
                     })
     output.mkdir(parents=True, exist_ok=True)
     csv_write(output / 'INVENTARIO_MAESTRO_CUATRO_IDIOMAS.csv', inventory)
