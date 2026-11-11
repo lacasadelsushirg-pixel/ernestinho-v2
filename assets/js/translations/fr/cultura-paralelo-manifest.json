@@ -347,12 +347,22 @@
       "missing_keys": 0,
       "qa": "Static visible text, metadata and image alt attributes mapped; inline JSON-LD and external site.js need FR integration validation.",
       "editorial_review": "Official verification needed for museum hours, ticket prices, religious events and accessibility."
+    },
+    {
+      "route": "/cultura/folclore-edison-carneiro/",
+      "source_sha": "cb5e58d724bce1508c9ce6e41175629db7ddb1e3",
+      "dictionary": "assets/js/translations/fr/cultura-folclore-edison-carneiro-paralelo.json",
+      "entries": 57,
+      "checked_strings": 57,
+      "missing_keys": 0,
+      "qa": "Full Spanish HTML read; all static visible strings, metadata and image attributes mapped; inline JSON-LD and external site.js require FR rendering validation.",
+      "editorial_review": "Verify opening hours, exhibitions, accessibility and collection statistics with the museum before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 35,
-    "static_dictionary_entries": 1668,
-    "total_source_translation_units": 1668
+    "prepared_pages": 36,
+    "static_dictionary_entries": 1725,
+    "total_source_translation_units": 1725
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
