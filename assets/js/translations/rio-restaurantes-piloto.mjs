@@ -24,6 +24,44 @@ export default {
 
 // Keep the qualifiers and formatting added to the approved practical notes.
 export const updatedFacts = {
+  "/gastronomia/la-bicyclette/": {
+    "pt": {
+      "8": "📍 <strong>Endereço</strong><br>Rua Pacheco Leão, 320, Loja D — Jardim Botânico, Rio de Janeiro — RJ, 22460-030",
+      "9": "🏘️ <strong>Bairro e região</strong><br>Jardim Botânico, na Rua Pacheco Leão, em frente ao corredor gastronômico e bem perto do jardim.",
+      "10": "🕐 <strong>Horários</strong><br>Site oficial: segunda a sexta 8h–21h; sábados, domingos e feriados 8h–20h. Outros guias divergem sobre a segunda-feira; confirme antes de sair.",
+      "11": "💰 <strong>Preços</strong><br>Faixa média. Referências públicas indicam pães e sanduíches a partir de cerca de R$20 e cafés da manhã completos por volta de R$82; confira o cardápio do salão.",
+      "12": "🍽️ <strong>Tipo de serviço</strong><br>Padaria e confeitaria artesanal, mercearia, café da manhã, brunch, bistrô, café, retirada e entrega.",
+      "13": "☎️ <strong>Contato</strong><br>Telefone: (21) 3256-9052 · WhatsApp: (21) 99531-5010.",
+      "14": "📅 <strong>Reservas</strong><br>Normalmente informal; vale consultar para grupos e manhãs de fim de semana.",
+      "15": "♿ <strong>Acessibilidade</strong><br>Perfis públicos mencionam acesso para cadeira de rodas, mas confirme a entrada, circulação e banheiro desta unidade.",
+      "16": "🚇 <strong>Transporte</strong><br>Ônibus pela Pacheco Leão/Jardim Botânico, táxi ou aplicativo. Não há metrô próximo."
+    },
+    "en": {
+      "8": "📍 <strong>Address</strong><br>Rua Pacheco Leão, 320, Shop D — Jardim Botânico, Rio de Janeiro — RJ, 22460-030",
+      "9": "🏘️ <strong>Neighborhood and area</strong><br>Jardim Botânico, on Rua Pacheco Leão, facing the dining corridor and very close to the garden.",
+      "10": "🕐 <strong>Hours</strong><br>Official website: Monday–Friday 8 a.m.–9 p.m.; Saturdays, Sundays and holidays 8 a.m.–8 p.m. Other guides differ on Mondays; check before leaving.",
+      "11": "💰 <strong>Prices</strong><br>Mid-range. Public references put breads and sandwiches at around R$20 and up, and full breakfasts at roughly R$82; check the dine-in menu.",
+      "12": "🍽️ <strong>Service type</strong><br>Artisan bakery and pastry shop, grocery, breakfast, brunch, bistro, café, takeaway and delivery.",
+      "13": "☎️ <strong>Contact</strong><br>Phone: (21) 3256-9052 · WhatsApp: (21) 99531-5010.",
+      "14": "📅 <strong>Reservations</strong><br>Usually informal; check for groups and weekend mornings.",
+      "15": "♿ <strong>Accessibility</strong><br>Public profiles mention wheelchair access, but verify the entrance, interior circulation and restroom at this branch.",
+      "16": "🚇 <strong>Transport</strong><br>Bus via Pacheco Leão/Jardim Botânico, taxi or ride-hailing. There is no nearby metro station."
+    }
+  },
+  "/gastronomia/tacaca-do-norte/": {
+    "pt": {
+      "8": "Se nunca provou tacacá, pergunte pelos ingredientes antes de pedir. O tucupi e o jambu fazem parte dessa preparação amazônica e trazem sabores e sensações pouco comuns para muitos visitantes. Em caso de alergia, confirme a composição exata com o estabelecimento.",
+      "9": "O endereço visível é Rua Barão do Flamengo, 35, Flamengo. Use o número completo no Google Maps e no Waze; o transporte mais prático depende do seu hotel e do horário.",
+      "10": "Eu combinaria esta visita com uma atividade concreta no Flamengo, deixando margem para chegar sem pressa e sem encadear outra reserva.",
+      "11": "Essa refeição oferece uma experiência diferente do circuito de praias do Rio. Organize a visita de acordo com o endereço e o horário confirmados e aproveite para descobrir ingredientes do Norte do Brasil."
+    },
+    "en": {
+      "8": "If you have never tried tacacá, ask about its ingredients before ordering. Tucupi and jambu are part of this Amazonian dish and bring flavors and sensations unfamiliar to many visitors. If you have allergies, confirm the exact ingredients with the restaurant.",
+      "9": "The listed address is Rua Barão do Flamengo, 35, Flamengo. Enter the full street number in Google Maps and Waze; the most practical transportation depends on your hotel and the time.",
+      "10": "I would combine this visit with a specific activity in Flamengo, allowing enough time to arrive unhurried and without another reservation immediately afterward.",
+      "11": "This meal offers a different experience from Rio’s beach circuit. Plan your visit around the confirmed address and hours, and take the chance to discover ingredients from northern Brazil."
+    }
+  },
   "/gastronomia/kurt-leblon/": {
     "pt": {
       "8": "No Kurt Leblon, observe a vitrine e pergunte pelos bolos, doces e preparações recém-feitas. Para dividir ou levar, confira os tamanhos e a conservação: nem todos os produtos resistem da mesma forma a uma caminhada longa no calor.",

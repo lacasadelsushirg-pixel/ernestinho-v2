@@ -1,0 +1,94 @@
+{
+  "snapshot": "391d302e",
+  "columnas": [
+    "históricas",
+    "vigentes",
+    "idénticas"
+  ],
+  "resultados": {
+    "garota-de-ipanema": {
+      "pt": [
+        15,
+        15,
+        15
+      ],
+      "en": [
+        15,
+        15,
+        15
+      ]
+    },
+    "la-bicyclette": {
+      "pt": [
+        19,
+        19,
+        19
+      ],
+      "en": [
+        19,
+        19,
+        19
+      ]
+    },
+    "carretao-lido": {
+      "pt": [
+        19,
+        19,
+        19
+      ],
+      "en": [
+        19,
+        19,
+        19
+      ]
+    },
+    "tacaca-do-norte": {
+      "pt": [
+        10,
+        10,
+        10
+      ],
+      "en": [
+        10,
+        10,
+        10
+      ]
+    },
+    "frontera-ipanema": {
+      "pt": [
+        19,
+        19,
+        11
+      ],
+      "en": [
+        19,
+        19,
+        11
+      ]
+    },
+    "classico-beach-club-barra": {
+      "pt": [
+        19,
+        19,
+        3
+      ],
+      "en": [
+        19,
+        19,
+        3
+      ]
+    },
+    "iraja-redux": {
+      "pt": [
+        19,
+        19,
+        19
+      ],
+      "en": [
+        19,
+        19,
+        19
+      ]
+    }
+  }
+}

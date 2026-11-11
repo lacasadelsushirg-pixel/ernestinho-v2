@@ -2704,4 +2704,103 @@ export const pilotLabels = {
       ]
     }
 ,
+    "/gastronomia/garota-de-ipanema/": {
+      "En Garota de Ipanema, además de mirar la carta, presta atención a la historia musical vinculada al local y al barrio. Si quieres una mesa en un momento concurrido, consulta las condiciones de atención y no des por hecho que podrás sentarte inmediatamente.": [
+        "No Garota de Ipanema, além de olhar o cardápio, preste atenção à história musical ligada à casa e ao bairro. Se quiser uma mesa num horário concorrido, confira as condições de atendimento e não conte com lugar imediato.",
+        "At Garota de Ipanema, look beyond the menu to the musical history of the restaurant and neighborhood. If you want a table at a busy time, check the service arrangements and do not assume you can sit down immediately."
+      ],
+      "La esquina de Vinícius de Moraes es parte de un recorrido clásico por Ipanema. Puedes combinar la visita con la playa y un paseo por sus calles, sin convertir la referencia a la canción en una promesa de espectáculo o música en vivo.": [
+        "A esquina da Rua Vinícius de Moraes faz parte de um roteiro clássico por Ipanema. Combine a visita com a praia e um passeio pelas ruas, sem tomar a referência à canção como promessa de espetáculo ou música ao vivo.",
+        "The Vinícius de Moraes corner is part of a classic Ipanema outing. Combine your visit with the beach and a walk around the neighborhood, without taking the song connection as a promise of a show or live music."
+      ]
+    },
+    "/gastronomia/la-bicyclette/": {
+      "Si visitas La Bicyclette durante un paseo por el Jardim Botânico, consulta las opciones de panadería y cafetería disponibles ese día. Para comprar productos para llevar, yo los retiraría al final del recorrido, así no tendrás que cargarlos mientras caminas.": [
+        "Se visitar a La Bicyclette durante um passeio pelo Jardim Botânico, confira as opções de padaria e café disponíveis no dia. Para levar produtos, eu os compraria no fim do passeio, assim não precisaria carregá-los enquanto caminha.",
+        "If you visit La Bicyclette on an outing to Jardim Botânico, check what the bakery and café have that day. For take-away purchases, I would pick them up at the end of the walk so you do not have to carry them around."
+      ],
+      "Jardim Botânico permite combinar una parada de café con jardines y paseos por el entorno. Ten en cuenta los horarios propios de cada atracción y del establecimiento; no siempre coinciden.": [
+        "O Jardim Botânico permite combinar uma pausa para café com jardins e caminhadas pelos arredores. Leve em conta os horários de cada atração e do estabelecimento; eles nem sempre coincidem.",
+        "Jardim Botânico lets you combine a coffee stop with gardens and walks nearby. Check the hours of each attraction and the café, since they do not always match."
+      ]
+    },
+    "/gastronomia/carretao-lido/": {
+      "Esta es la sucursal Carretão próxima a Praça do Lido, y no la de Siqueira Campos ni la de Ipanema. Antes de contratar el rodízio, comprueba qué cortes, acompañamientos y bebidas están incluidos, además de las condiciones para niños. La tarifa publicada en una sede no necesariamente aplica en otra.": [
+        "Esta é a unidade do Carretão perto da Praça do Lido, não a da Siqueira Campos nem a de Ipanema. Antes de pedir o rodízio, confira os cortes, acompanhamentos e bebidas incluídos, além das condições para crianças. O preço divulgado por uma unidade pode não valer em outra.",
+        "This is the Carretão branch near Praça do Lido, rather than Siqueira Campos or Ipanema. Before ordering the rodízio, check which cuts, sides and drinks are included, as well as the terms for children. A rate advertised for one branch may not apply to another."
+      ],
+      "Praça do Lido queda en un sector de Copacabana práctico para combinar un almuerzo con un paseo por la orla. Para no confundir direcciones, utiliza la ubicación de esta unidad en el mapa y no una búsqueda genérica de Carretão.": [
+        "A Praça do Lido fica num trecho de Copacabana bom para combinar almoço e passeio pela orla. Para não confundir endereços, use o local desta unidade no mapa, em vez de uma busca genérica por Carretão.",
+        "Praça do Lido is in a part of Copacabana that suits lunch followed by a walk on the waterfront. To avoid mixing up addresses, use this branch’s map location instead of a generic search for Carretão."
+      ]
+    },
+    "/gastronomia/frontera-ipanema/": {
+      "En Frontera de Ipanema, revisa el formato de buffet y su modalidad de cobro antes de servirte. Para comparar alternativas de almuerzo, importa saber si se paga por kilo o por persona y qué bebidas no están incluidas. Si viajas en grupo, cada uno puede elegir según su apetito.": [
+        "No Frontera de Ipanema, confira o formato do bufê e como ele é cobrado antes de se servir. Para comparar opções de almoço, veja se o preço é por quilo ou por pessoa e quais bebidas ficam de fora. Em grupo, cada um pode escolher de acordo com o apetite.",
+        "At Frontera in Ipanema, check the buffet format and pricing before serving yourself. To compare lunch options, find out whether you pay by weight or per person and which drinks are excluded. In a group, everyone can choose according to their appetite."
+      ],
+      "Ipanema permite combinar un almuerzo práctico con un paseo por la playa y las calles comerciales. Confirma la ubicación y el horario específicos de esta sede antes de desplazarte.": [
+        "Ipanema permite combinar um almoço prático com um passeio pela praia e pelas ruas comerciais. Confirme o endereço e os horários desta unidade antes de sair.",
+        "Ipanema makes it easy to combine a quick lunch with a walk along the beach and shopping streets. Confirm this branch’s location and hours before setting out."
+      ],
+      "Ipanema · BUFFET Y PIZZA": [
+        "Ipanema · BUFÊ E PIZZA",
+        "Ipanema · BUFFET AND PIZZA"
+      ]
+    },
+    "/gastronomia/classico-beach-club-barra/": {
+      "En Clássico Beach Club Barra, confirma cuál es el punto exacto de atención, las mesas disponibles y si hay consumo mínimo o cargo adicional según la zona elegida. La experiencia de playa puede variar con música, viento y ocupación, así que conviene revisar las condiciones del día.": [
+        "No Clássico Beach Club Barra, confirme o ponto exato de atendimento, quais mesas estão disponíveis e se há consumo mínimo ou cobrança extra na área escolhida. Música, vento e lotação podem mudar a experiência à beira-mar; confira as condições do dia.",
+        "At Clássico Beach Club Barra, confirm the exact service location, table availability and any minimum spend or extra charge for your chosen area. Music, wind and crowds can change the beach experience, so check the conditions for that day."
+      ],
+      "Una visita a Barra funciona mejor como parte de una jornada por sus playas que como una parada improvisada desde Copacabana. Calcula el traslado sin asumir un tiempo fijo y comprueba el horario antes de salir.": [
+        "Uma visita à Barra funciona melhor como parte de um dia pelas praias do que como parada improvisada desde Copacabana. Reserve tempo para o trajeto sem contar com uma duração fixa e confira o horário antes de sair.",
+        "A visit to Barra works better as part of a day at its beaches than as an unplanned stop from Copacabana. Allow for variable travel time and check opening hours before setting out."
+      ]
+    },
+    "/gastronomia/iraja-redux/": {
+      "Si eliges Irajá Redux, comprueba el centro comercial, el piso y el local exacto antes de salir. Pregunta por el menú vigente y por las preparaciones disponibles en el turno elegido, porque una misma carta puede cambiar entre almuerzo y cena.": [
+        "Se escolher o Irajá Redux, confira o shopping, o andar e a loja exata antes de sair. Pergunte pelo cardápio vigente e pelos pratos disponíveis no turno escolhido, porque a oferta pode mudar entre almoço e jantar.",
+        "If you choose Irajá Redux, verify the shopping center, floor and exact unit before leaving. Ask about the current menu and dishes available at your chosen service, since the selection can change between lunch and dinner."
+      ],
+      "Esta comida se puede sumar a una jornada de compras o paseo por el entorno. Verifica los horarios tanto del restaurante como del edificio que lo alberga: no siempre coinciden.": [
+        "Dá para incluir a refeição num dia de compras ou passeio pela região. Confira os horários do restaurante e do prédio onde ele fica: nem sempre são os mesmos.",
+        "You can fit this meal into a day of shopping or exploring nearby. Check both the restaurant’s hours and those of the building that houses it: they do not always match."
+      ],
+      "Recetas contemporáneas y uno de los postres de chocolate más famosos del barrio.": [
+        "Receitas contemporâneas e uma das sobremesas de chocolate mais famosas do bairro.",
+        "Contemporary recipes and one of the neighborhood’s best-known chocolate desserts."
+      ],
+      "Esta síntesis procede de la ficha editorial recuperada para Irajá Redux. Sirve como orientación inicial sobre el tipo de lugar; no sustituye la carta ni confirma la operación actual.": [
+        "Esta síntese vem da ficha editorial recuperada do Irajá Redux. Serve como orientação inicial sobre o tipo de lugar; não substitui o cardápio nem confirma o funcionamento atual.",
+        "This summary comes from the recovered editorial listing for Irajá Redux. It gives a first impression of the venue; it does not replace the menu or confirm current operations."
+      ],
+      "El barrio, las categorías y el rango de precio reflejan el registro disponible y pueden haber cambiado. Confirma dirección exacta, horarios, carta, valores y necesidad de reserva en los canales actuales del establecimiento.": [
+        "O bairro, as categorias e a faixa de preços refletem o registro disponível e podem ter mudado. Confirme endereço, horários, cardápio, valores e necessidade de reserva pelos canais atuais da casa.",
+        "The neighborhood, categories and price range reflect the available record and may have changed. Confirm the exact address, hours, menu, prices and reservation requirements through the venue’s current channels."
+      ],
+      "Brasileña contemporánea": [
+        "Brasileira contemporânea",
+        "Contemporary Brazilian"
+      ]
+    },
+    "/gastronomia/tacaca-do-norte/": {
+      "Esta síntesis procede de la ficha editorial recuperada para Tacacá do Norte. Sirve como orientación inicial sobre el tipo de lugar; no sustituye la carta ni confirma la operación actual.": [
+        "Esta síntese vem da ficha editorial recuperada do Tacacá do Norte. Serve como orientação inicial sobre o tipo de lugar; não substitui o cardápio nem confirma o funcionamento atual.",
+        "This summary comes from the recovered editorial listing for Tacacá do Norte. It gives a first impression of the venue; it does not replace the menu or confirm current operations."
+      ],
+      "El barrio, las categorías y el rango de precio reflejan el registro disponible y pueden haber cambiado. Confirma dirección exacta, horarios, carta, valores y necesidad de reserva en los canales actuales del establecimiento.": [
+        "O bairro, as categorias e a faixa de preços refletem o registro disponível e podem ter mudado. Confirme endereço, horários, cardápio, valores e necessidade de reserva pelos canais atuais da casa.",
+        "The neighborhood, categories and price range reflect the available record and may have changed. Confirm the exact address, hours, menu, prices and reservation requirements through the venue’s current channels."
+      ],
+      "Amazónica · brasileña": [
+        "Amazônica · brasileira",
+        "Amazonian · Brazilian"
+      ],
+      "Sabores amazónicos como tacacá, pato no tucupi y açaí tradicional.": [
+        "Sabores amazônicos como tacacá, pato no tucupi e açaí tradicional.",
+        "Amazonian flavors such as tacacá, duck in tucupi and traditional açaí."
+      ]
+    }
+,
 };

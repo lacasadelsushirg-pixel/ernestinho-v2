@@ -1,0 +1,74 @@
+{
+  "fecha": "2026-11-11",
+  "propiedad": "https://www.ernestinhocarioca.com.br/",
+  "results": [
+    {
+      "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/garota-de-ipanema/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-05T02:38:03Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/garota-de-ipanema/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/garota-de-ipanema/",
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=ZB4i9EKKGIPMFA-C49suCQ&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/la-bicyclette/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-04T09:53:33Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/la-bicyclette/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/la-bicyclette/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/pt/gastronomia/la-bicyclette/",
+        "https://www.ernestinhocarioca.com.br/gastronomia/la-bicyclette/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=tJcYSz6eaqNU_Fq9bPuKIA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/en/gastronomia/carretao-lido/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-06T05:38:10Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/carretao-lido/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/carretao-lido/",
+      "sitemap": [
+        "https://www.ernestinhocarioca.com.br/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/pt/gastronomia/carretao-lido/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=MWiQBy-hp9F_eZbtvpc2RQ&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.ernestinhocarioca.com.br/pt/gastronomia/tacaca-do-norte/",
+      "verdict": "PASS",
+      "coverageState": "Enviada e indexada",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-04T12:35:43Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/tacaca-do-norte/",
+      "userCanonical": "https://www.ernestinhocarioca.com.br/pt/gastronomia/tacaca-do-norte/",
+      "referringUrls": [
+        "https://www.ernestinhocarioca.com.br/en/gastronomia/tacaca-do-norte/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspection": "https://search.google.com/search-console/inspect?resource_id=https://www.ernestinhocarioca.com.br/&id=kjNd1tltKafI3HpwEoM1xw&utm_medium=link&utm_source=api"
+    }
+  ]
+}
