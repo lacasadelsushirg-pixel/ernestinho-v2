@@ -1,5 +1,24 @@
 // Attribute and control copy left in Spanish by the approved legacy sources.
 export const pilotLabels = {
+  "/gastronomia/jojo/": {
+    "Ernestinho Carioca · Botafogo": ["Ernestinho Carioca · Horto/Jardim Botânico", "Ernestinho Carioca · Horto/Jardim Botânico"],
+    "Botafogo": ["Horto/Jardim Botânico", "Horto/Jardim Botânico"],
+    "Conviene confirmar horarios, carta y disponibilidad antes de ir.": ["Confirme horários, cardápio e disponibilidade antes de ir.", "Confirm opening hours, the menu and availability before visiting."],
+    "Notas adicionales de la guía V2": ["Notas adicionais do guia V2", "Additional notes from the V2 guide"],
+    "Información adicional conservada de la ficha V2": ["Informações adicionais preservadas da ficha V2", "Additional information retained from the V2 guide"],
+    "Jojö Café Bistrô se describe como una pequeña casa en el Horto, dentro de Jardim Botânico. Su sitio presenta a Joana Carvalho como chef y propietaria, al frente de una cocina propia que da forma a los platos de la casa.": ["O Jojö Café Bistrô é uma pequena casa no Horto, no Jardim Botânico. Seu site apresenta Joana Carvalho como chef e proprietária, à frente da cozinha autoral que dá identidade aos pratos.", "Jojö Café Bistrô is a small restaurant in Horto, within Jardim Botânico. Its website presents Joana Carvalho as chef-owner, responsible for the individual cooking style that defines the menu."],
+    "La dirección publicada es Rua Pacheco Leão 812, esquina con Rua Caminhoá. Consulta con el restaurante el menú, los horarios y la modalidad de atención vigentes.": ["O endereço publicado é Rua Pacheco Leão, 812, esquina com Rua Caminhoá. Consulte o restaurante para confirmar o cardápio, os horários e o formato atual do atendimento.", "The published address is Rua Pacheco Leão, 812, on the corner of Rua Caminhoá. Check the current menu, opening hours and service arrangements directly with the restaurant."],
+    "La carta y la operación pueden cambiar; confirma directamente los detalles para la fecha de tu visita.": ["O cardápio e o funcionamento podem mudar. Confirme os detalhes diretamente para a data da visita.", "The menu and service arrangements may change. Confirm details directly for your planned visit."],
+    "Horto · JARDIM BOTÂNICO · BISTRÓ": ["Horto · JARDIM BOTÂNICO · BISTRÔ", "Horto · JARDIM BOTÂNICO · BISTRO"],
+    "Casa pequeña · cocina de Joana Carvalho · Horto": ["Casa pequena · cozinha de Joana Carvalho · Horto", "Small restaurant · Joana Carvalho's cooking · Horto"],
+    "Sitio oficial de Jojö Café Bistrô · Contacto y dirección": ["Site oficial do Jojö Café Bistrô · Contato e endereço", "Jojö Café Bistrô official website · Contact and address"],
+    "Mapa de Jojô Bistrô": ["Mapa do Jojô Bistrô", "Map of Jojô Bistrô"],
+    "Fotografía 1 de Jojô Bistrô.": ["Jojô Bistrô — foto 1", "Jojô Bistrô — photo 1"],
+    "Fotografía 2 de Jojô Bistrô.": ["Jojô Bistrô — foto 2", "Jojô Bistrô — photo 2"],
+    "Fotografía 3 de Jojô Bistrô.": ["Jojô Bistrô — foto 3", "Jojô Bistrô — photo 3"],
+    "Fotografía 4 de Jojô Bistrô.": ["Jojô Bistrô — foto 4", "Jojô Bistrô — photo 4"],
+    "Fotografía 5 de Jojô Bistrô.": ["Jojô Bistrô — foto 5", "Jojô Bistrô — photo 5"]
+  },
   ...{
   "/gastronomia/labuta-bar/": {
     "🌐 Sitio oficial": [
