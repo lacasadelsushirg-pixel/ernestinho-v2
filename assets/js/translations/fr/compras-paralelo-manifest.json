@@ -72,13 +72,25 @@
       "checked_strings": 17,
       "missing_keys": 0,
       "editorial_review": "Source article is intentionally very short; date-sensitive Feirarte III schedule from municipal Rio 1746 should be reverified. Do not fabricate content to inflate coverage."
+    },
+    {
+      "route": "/compras/mercadao-madureira/",
+      "source_sha": "5ef341ba2600ef2d90fb080af0d63421751bcb6f",
+      "dictionary": "assets/js/translations/fr/compras-mercadao-madureira-paralelo.json",
+      "entries": 64,
+      "checked_strings": 64,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-mercadao-madureira-dinamico-paralelo.json",
+      "dynamic_js_keys": 44,
+      "dynamic_story_paragraphs": 2,
+      "editorial_review": "Confirm location, accessibility, shops and transport before publication, preserve respectful cultural/religious description."
     }
   ],
   "totals": {
-    "prepared_pages": 7,
-    "static_dictionary_entries": 292,
-    "dynamic_JS_keys_in_two_pages": 63,
-    "extra_story_paragraphs": 8,
+    "prepared_pages": 8,
+    "static_dictionary_entries": 356,
+    "dynamic_JS_keys_in_three_pages": 107,
+    "extra_story_paragraphs": 10,
     "coverage_missing_visible_meta_alt": 0
   },
   "known_integration_blockers": [
@@ -86,7 +98,8 @@
     "Individual shopping articles SAARA and Rio Sul dynamically inject a separate D map and story paragraphs. Use supplements to preserve ALL long paragraphs, hours and category labels. No premature 'completed public FR' claims.",
     "The Compras landing page uses data-ch-es/pt/en attributes, and its inline selector script falls back to ES for other languages. Add data-ch-fr in a non-production renderer and keep card links valid.",
     "Avoid Work PR #24 recovery overlap, especially on Feira Nocturna de Copacabana and original ES/PT-BR/EN text. Do not merge independently.",
-    "Follow canonical original site patterns, never index aliases or duplicate redirects; use private noindex until full FR URL, reciprocal hreflang, assets, mobile/desktop and SEO checks pass."
+    "Follow canonical original site patterns, never index aliases or duplicate redirects; use private noindex until full FR URL, reciprocal hreflang, assets, mobile/desktop and SEO checks pass.",
+    "Mercadão de Madureira uses const T={es,pt,en} + const A={es,pt,en} and a separate source script with data-ec-extra. Translate all dynamic keys and arrays, integrate FR in private renderer, and do not truncate religious/cultural context."
   ],
   "qa_policy": "Verify all visible body text, title/description/social meta, alt, aria, placeholders and inline data-ch-es. For dynamically rendered ES JS, verify D keys, hours array, cats array and story paragraphs before accepting page.",
   "remaining_work": "Audit other Compras sites, translate complete individual pages and dynamic narrative data, then private preview integration and visual/SEO QA. Do not publish."
