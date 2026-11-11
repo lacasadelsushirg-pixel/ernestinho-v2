@@ -96,12 +96,34 @@
       "dynamic_js_keys": 36,
       "dynamic_story_paragraphs": 4,
       "editorial_review": "Recheck operator schedules, transport and programming before public release; preserve Northeast culture and communities respectfully."
+    },
+    {
+      "route": "/compras/uruguaiana/",
+      "source_sha": "da9cbc66ed0b7a3f17e6e31f33400a0390edfec3",
+      "dictionary": "assets/js/translations/fr/compras-uruguaiana-paralelo.json",
+      "entries": 68,
+      "checked_strings": 67,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-uruguaiana-dinamico-paralelo.json",
+      "dynamic_js_keys": 50,
+      "editorial_review": "Verify current retailer offerings, transport access and guarantees; all long ES descriptions translated into FR source-key dict."
+    },
+    {
+      "route": "/compras/mercado-sao-pedro/",
+      "source_sha": "34f24c41beb735de6af568224aa60e438359f1e1",
+      "dictionary": "assets/js/translations/fr/compras-mercado-sao-pedro-paralelo.json",
+      "entries": 61,
+      "checked_strings": 60,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-mercado-sao-pedro-dinamico-paralelo.json",
+      "dynamic_js_keys": 45,
+      "editorial_review": "Check current fish market floor operation, restaurants, ferry hours, food safety and wayfinding in Niterói before publishing."
     }
   ],
   "totals": {
-    "prepared_pages": 9,
-    "static_dictionary_entries": 415,
-    "dynamic_JS_keys_in_four_pages": 143,
+    "prepared_pages": 11,
+    "static_dictionary_entries": 544,
+    "dynamic_JS_keys": 238,
     "extra_story_paragraphs": 14,
     "coverage_missing_visible_meta_alt": 0
   },
@@ -112,7 +134,9 @@
     "Avoid Work PR #24 recovery overlap, especially on Feira Nocturna de Copacabana and original ES/PT-BR/EN text. Do not merge independently.",
     "Follow canonical original site patterns, never index aliases or duplicate redirects; use private noindex until full FR URL, reciprocal hreflang, assets, mobile/desktop and SEO checks pass.",
     "Mercadão de Madureira uses const T={es,pt,en} + const A={es,pt,en} and a separate source script with data-ec-extra. Translate all dynamic keys and arrays, integrate FR in private renderer, and do not truncate religious/cultural context.",
-    "Feira São Cristóvão has D/es and story/es dynamic content with 36 keys and 4 long FR story paragraphs staged. Do not claim FR page parity until rendering all fields, programs and images in a private browser."
+    "Feira São Cristóvão has D/es and story/es dynamic content with 36 keys and 4 long FR story paragraphs staged. Do not claim FR page parity until rendering all fields, programs and images in a private browser.",
+    "Uruguaiana: dynamic D(es/pt/en) contains 50 complete longform labels/paragraphs; source runtime whitelist rejects FR, so private integration needed.",
+    "Mercado São Pedro: dynamic D(es/pt/en) contains 45 longform keys, separate navigation and local language event handler; FR still needs controlled private integration and browser QA."
   ],
   "qa_policy": "Verify all visible body text, title/description/social meta, alt, aria, placeholders and inline data-ch-es. For dynamically rendered ES JS, verify D keys, hours array, cats array and story paragraphs before accepting page.",
   "remaining_work": "Audit other Compras sites, translate complete individual pages and dynamic narrative data, then private preview integration and visual/SEO QA. Do not publish."
