@@ -1,0 +1,41 @@
+{
+  "source_path": "compras/metropolitano-barra/index.html",
+  "source_sha": "5ee77620e844c6ece7e3bd06815a6757af50210f",
+  "language": "fr",
+  "status": "STAGING_ONLY",
+  "runtime_P_fr": [
+    "Aujourd'hui, je veux vous parler d'un centre commercial qui représente bien le Barra moderne : Shopping Metropolitano Barra.",
+    "Barra da Tijuca ne se résume pas à une seule image. On y trouve plages, résidences, grandes avenues, bureaux, événements, centres commerciaux et une vie qui change complètement selon l'endroit. Shopping Metropolitano se situe dans le secteur olympique de Barra, sur l'Avenida Embaixador Abelardo Bueno, et fait partie de cette transformation urbaine.",
+    "Je ne le considère pas seulement comme un endroit pour faire des achats. C'est une étape pratique pour réunir boutiques, restaurants, cinéma, services et loisirs. Pour les habitants, il facilite le quotidien. Pour ceux qui visitent Rio, il peut être une étape utile avant ou après un événement dans le secteur.",
+    "La différence avec BarraShopping tient à la taille et au profil. BarraShopping est une ville commerçante géante, avec des centaines de boutiques et un immense complexe. Metropolitano propose autre chose : un lieu plus facile à parcourir, moderne, lié à la Barra Olímpica, aux événements et aux familles qui y vivent ou s'y déplacent.",
+    "En tant qu'hôte, je le recommande surtout si vous logez à Barra, Jacarepaguá, Recreio ou près du Parc olympique. Depuis Copacabana, je ne traverserais pas la ville uniquement pour une petite course : la circulation peut faire perdre du temps. Mais si vous avez un concert, un festival, une activité dans le secteur ou souhaitez découvrir un Barra moins touristique, il peut très bien s'intégrer à la journée.",
+    "Cinemark est l'un des attraits annoncés, avec un programme qui change chaque jour. Je consulterais les séances avant de partir. Pour les familles et les adolescents, cinéma et repas forment une sortie agréable ; pour les visiteurs d'un événement, le centre peut servir de lieu d'attente, de restauration ou de pause.",
+    "Les restaurants et les boutiques complètent l'expérience. Vous pouvez chercher mode, beauté, électronique, articles pour la maison, services et endroits où manger, mais l'offre change. Mon conseil : consultez l'annuaire officiel et choisissez d'abord les courses réellement utiles.",
+    "La proximité des grands événements peut être stratégique. Metropolitano se trouve près de lieux importants de la Barra Olímpica, mais distances, accès et trajets changent selon l'événement. Je préfère être réaliste : vérifiez toujours le plan, la circulation et les conditions d'entrée avant de partir.",
+    "Si vous voyagez avec des enfants, renseignez-vous sur les espaces à langer, les poussettes, les animations et les accès adaptés. En cas de pluie, le cinéma, les restaurants et les espaces intérieurs peuvent aider à maintenir le programme. Avec des sacs, Uber, 99, un taxi ou une voiture peuvent être plus pratiques que des transports bondés.",
+    "Alors, cela vaut-il la peine ? Pour moi, oui, avec les bonnes attentes. Ce n'est pas BarraShopping et cela ne cherche pas à l'être. C'est un centre moderne, pratique et familial, lié à un secteur qui a profondément changé la vie dans la zone ouest.",
+    "Mon conseil est de l'associer à un événement ou une activité de la Barra Olímpica, d'arriver avec du temps, de vérifier les horaires et de ne pas laisser le retour pour la dernière minute. Depuis la zone sud, prévoyez une marge. Si vous êtes déjà à Barra, cela peut être très pratique.",
+    "Shopping Metropolitano Barra, c'est une porte d'entrée vers un Barra moderne où boutiques, cinéma, gastronomie, familles et événements se retrouvent dans une même expérience. C'est pourquoi je le recommande."
+  ],
+  "runtime_T_fr": {
+    "hero": "Boutiques, cinéma, gastronomie et événements au cœur de la Barra Olímpica.",
+    "context": "<p>Shopping Metropolitano Barra se trouve Avenida Embaixador Abelardo Bueno, 1300, dans la Barra Olímpica. Ce centre moderne et familial réunit boutiques, restaurants, services, cinéma et loisirs.</p><p>Pour moi, il représente un Barra plus contemporain, lié aux grands événements, aux familles, aux bureaux et aux nouveaux quartiers de la zone ouest.</p>",
+    "shops": "<p>Je l'utiliserais pour la mode, la beauté, l'électronique, la maison, le sport, les enfants, les cadeaux et les services. Le site officiel regroupe les enseignes par boutiques, gastronomie, services et loisirs ; vérifiez l'annuaire actuel.</p><p>Ne venez pas pour une marque précise sans avoir confirmé qu'elle est toujours présente. L'atout du lieu est de permettre plusieurs courses en une seule visite facile à organiser.</p>",
+    "brands": "Vérifiez les enseignes actuelles dans l'annuaire officiel le jour de la visite.",
+    "experience": "<p>Cinemark est annoncé avec des salles modernes au deuxième étage. Les séances évoluent chaque jour. Le centre publie aussi des événements et activités ponctuels.</p><p>Son emplacement peut être utile avant ou après un événement de la Barra Olímpica, mais vérifiez les accès, la circulation et les règles propres à l'événement.</p>",
+    "food": "<p>La gastronomie regroupe restaurants, cafés, restauration rapide et options pour une pause en famille. Je choisirais selon le temps disponible : quelque chose de rapide avant un spectacle, ou un repas plus tranquille si le centre est la destination principale.</p>",
+    "family": "<p>Pour les familles et adolescents, cinéma, restaurants, services et activités permettent une sortie agréable. Animations pour enfants, espaces à langer, poussettes et accessibilité doivent être confirmés auprès de l'accueil.</p>",
+    "recommend": "<p><strong>Ernestinho recommande :</strong> je l'inclurais si vous êtes à Barra, Jacarepaguá ou Recreio, ou si vous participez à un événement dans le secteur. J'arriverais avec du temps, vérifierais la séance de cinéma ou le restaurant et prévoirais une marge pour le retour.</p><p>Depuis Copacabana, je ne le choisirais pas pour une visite rapide. Mais si vous avez un événement à proximité ou souhaitez connaître un Barra moderne et quotidien, cela peut être très pratique.</p>",
+    "hours": "<p><strong>Boutiques :</strong> généralement du lundi au samedi de 10 h à 22 h ; dimanches et jours fériés de 13 h à 21 h. <strong>Restauration et loisirs :</strong> le dimanche et les jours fériés, de 11 h à 22 h, selon le canal officiel. <strong>Cinéma :</strong> selon le programme. Les événements et services peuvent avoir leurs propres horaires.</p>",
+    "transport": "<p><strong>Depuis Copacabana :</strong> comparez MetrôRio, BRT, bus, Google Maps ou Moovit ; la circulation vers Barra peut modifier complètement le temps de trajet. <strong>Depuis Barra, Recreio ou Jacarepaguá :</strong> confirmez la meilleure correspondance du jour.</p><p><strong>Uber, 99, taxi ou voiture :</strong> pratiques avec des sacs, en famille ou les jours d'événement. Le parking peut être utile, mais vérifiez ses conditions et accès.</p>",
+    "services": "<p>Le centre annonce un accueil, un parking, des services, un cinéma, des restaurants et des équipements pratiques. Pour Wi-Fi, ascenseurs, espaces à langer, poussettes, fauteuils, chargeurs ou accompagnement des personnes autistes, renseignez-vous directement.</p><p>Je ne présente ni casiers, ni consignes à bagages, ni distributeurs automatiques comme confirmés sans vérification officielle.</p>",
+    "comfort": "<p>Je recommande Metropolitano aux personnes déjà dans la zone ouest, assistant à des événements ou cherchant un centre moderne et familial. Prévoyez du temps, vérifiez la circulation et organisez le retour.</p>"
+  },
+  "qa": {
+    "source_P_paragraphs": 12,
+    "fr_P_paragraphs": 12,
+    "source_T_keys": 12,
+    "fr_T_keys": 12
+  },
+  "review": "Official hours, cinema events, Olympic event transport and child/accessibility facilities require rechecking; private renderer needs French and translated inline imagery captions."
+}
