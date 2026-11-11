@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "siteUrl": "https://www.ernestinhocarioca.com.br/",
+  "startDate": "2026-11-01",
+  "endDate": "2026-11-09",
+  "dimensions": [
+    "page"
+  ],
+  "rowCount": 3,
+  "rows": [
+    {
+      "keys": [
+        "https://www.ernestinhocarioca.com.br/pt/gastronomia/feira-sao-cristovao/"
+      ],
+      "clicks": 2,
+      "impressions": 34,
+      "ctr": 0.0588,
+      "position": 8.4
+    },
+    {
+      "keys": [
+        "https://www.ernestinhocarioca.com.br/en/gastronomia/feira-sao-cristovao/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.3
+    },
+    {
+      "keys": [
+        "https://www.ernestinhocarioca.com.br/gastronomia/feira-sao-cristovao/"
+      ],
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": 0,
+      "position": 13.1
+    }
+  ],
+  "hasMore": false,
+  "meta": {
+    "projectId": "7172f2fb-7456-4b35-b581-d9b11c0040f4",
+    "url": "https://app.openseo.so/p/7172f2fb-7456-4b35-b581-d9b11c0040f4/search-performance"
+  },
+  "resultId": "551c8319-53a2-4fa8-882c-c37de8e976df"
+}
