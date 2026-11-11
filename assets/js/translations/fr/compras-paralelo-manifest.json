@@ -361,23 +361,23 @@
       "route": "/compras/feira-nocturna-copacabana/",
       "source_sha": "6cc7d1e7e508c346b64a4e24fec785adff200ac4",
       "dictionary": "assets/js/translations/fr/compras-feira-nocturna-copacabana-paralelo.json",
-      "entries": 50,
-      "checked_strings": 50,
+      "entries": 64,
+      "checked_strings": 64,
       "missing_keys": 0,
       "dynamic_supplement": "assets/js/translations/fr/compras-feira-nocturna-copacabana-dinamico-paralelo.json",
       "dynamic_js_keys": 30,
       "dynamic_story_paragraphs": 3,
-      "editorial_review": "Separate official Feira Noturna Turística de Copacabana (Avenida Atlântica) from Feirarte VI at /compras/feira-noturna-copacabana/. Verify operating schedule, cultural heritage statement and venue with official sources. Stage only; dynamic D and story not yet wired to FR renderer."
+      "editorial_review": "Separate official Feira Noturna Turística de Copacabana (Avenida Atlântica) from Feirarte VI at /compras/feira-noturna-copacabana/. Verify operating schedule, cultural heritage statement and venue with official sources. Stage only; dynamic D and story not yet wired to FR renderer. 2026-11-11: added alt text, map iframe title and four complete static advice paragraphs to dictionary; validate other source strings before claiming full coverage."
     }
   ],
   "totals": {
     "prepared_pages": 33,
-    "static_dictionary_entries": 2089,
+    "static_dictionary_entries": 2103,
     "dynamic_JS_keys": 697,
     "extra_story_paragraphs": 155,
     "coverage_missing_visible_meta_alt": 0,
     "dynamic_image_captions": 2,
-    "total_source_translation_units": 2943
+    "total_source_translation_units": 2957
   },
   "known_integration_blockers": [
     "Existing source JavaScript includes only es/pt/en as language whitelist; without integrating fr on a separate preview, French dictionaries will not render.",
