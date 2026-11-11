@@ -16,6 +16,7 @@ ROUTES = (
     '/', '/guia/', '/guia/apps/', '/guia/dinero/', '/guia/permanencia/',
     '/gastronomia/carretao-ipanema/', '/gastronomia/ct-boucherie/',
     '/gastronomia/belmonte-copa/', '/gastronomia/belmonte-ipanema/', '/gastronomia/polvo-marisqueria/',
+    '/gastronomia/spicy-fish/', '/gastronomia/amendoeira/', '/gastronomia/dumare/',
     '/gastronomia/k08/', '/gastronomia/delirio-tropical-rio-sul/', '/gastronomia/fogo-de-chao-botafogo/',
     '/gastronomia/quartinho/', '/gastronomia/deck-buffet/', '/gastronomia/pavao-azul/',
     '/gastronomia/boa-praca-ipanema/', '/gastronomia/babbo-osteria/', '/gastronomia/bb-lanches/',

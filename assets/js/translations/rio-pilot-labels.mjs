@@ -1155,4 +1155,190 @@ export const pilotLabels = {
       "Fogo de Chão Botafogo: photo 8"
     ]
   },
+  "/gastronomia/spicy-fish/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Spicy Fish": [
+      "Mapa de Spicy Fish",
+      "Map of Spicy Fish"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "En Spicy Fish, revisa el nivel de picante y los ingredientes antes de pedir, sobre todo si compartes varios platos o alguien tiene restricciones alimentarias. Pregunta al equipo cuáles preparaciones son suaves y cuáles tienen sabores más intensos.": [
+      "No Spicy Fish, confira os ingredientes e o nível de pimenta antes de pedir, principalmente se compartilhar pratos ou tiver restrições alimentares. Pergunte quais preparações são suaves e quais têm sabores mais intensos.",
+      "At Spicy Fish, check the ingredients and spice level before ordering, especially if you are sharing dishes or have dietary restrictions. Ask which dishes are mild and which have stronger flavors."
+    ],
+    "Para una salida gastronómica de noche, organiza la mesa con tiempo y confirma la dirección exacta. No supongas que los horarios y menús publicados por terceros siguen vigentes.": [
+      "Para sair para jantar, reserve a mesa com antecedência e confirme o endereço exato. Confira os horários e o cardápio atuais com o restaurante.",
+      "For an evening out, arrange the table ahead of time and confirm the exact address. Check the current hours and menu with the restaurant."
+    ],
+    "Ambiente del Spicy Fish": [
+      "Ambiente do Spicy Fish",
+      "Inside Spicy Fish"
+    ],
+    "Una sala íntima y de luz baja.": [
+      "Um salão intimista e de luz baixa.",
+      "An intimate dining room with low lighting."
+    ],
+    "El menú ejecutivo y la carta nocturna pueden cambiar; confirmar reservas y último pedido.": [
+      "O menu executivo e o cardápio noturno podem mudar. Confirme reservas e último pedido.",
+      "The lunch and evening menus may change. Check reservations and last orders."
+    ],
+    "Fachada del Spicy Fish": [
+      "Fachada do Spicy Fish",
+      "Spicy Fish’s façade"
+    ],
+    "El restaurante ocupa un edificio de varios niveles.": [
+      "O restaurante ocupa um prédio com vários andares.",
+      "The restaurant occupies a building with several floors."
+    ],
+    "Detalle del salón": [
+      "Detalhe do salão",
+      "A detail from the dining room"
+    ],
+    "La decoración mezcla plantas y referencias asiáticas.": [
+      "A decoração mistura plantas e referências asiáticas.",
+      "The decor combines plants and Asian references."
+    ],
+    "Interior del restaurante": [
+      "Interior do restaurante",
+      "Inside the restaurant"
+    ],
+    "La distribución vertical define la visita.": [
+      "Os diferentes andares dão o ritmo da visita.",
+      "The different floors shape the visit."
+    ],
+    "Plato del Spicy Fish": [
+      "Prato do Spicy Fish",
+      "A dish at Spicy Fish"
+    ],
+    "La preparación exacta debe confirmarse en la carta.": [
+      "Confira a preparação exata no cardápio.",
+      "Check the exact dish on the menu."
+    ],
+    "Fotos de spicy fish": [
+      "Fotos do Spicy Fish",
+      "Spicy Fish photos"
+    ],
+    "spicy fish: spicy fish2": [
+      "Spicy Fish: foto 2",
+      "Spicy Fish: photo 2"
+    ]
+  },
+  "/gastronomia/amendoeira/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Bar da Amendoeira": [
+      "Mapa de Bar da Amendoeira",
+      "Map of Bar da Amendoeira"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "Para conocer mejor Amendoeira, pregunta por las preparaciones caseras disponibles y por el tamaño de las porciones antes de decidir. Una buena visita gastronómica consiste en entender el estilo de la casa, no en dar por vigente un menú publicado hace años.": [
+      "Para conhecer o Amendoeira, pergunte quais preparações caseiras estão disponíveis e o tamanho das porções antes de escolher. O cardápio do dia ajuda a entender o estilo da casa com informações atuais.",
+      "To get to know Amendoeira, ask which homemade dishes are available and how large the portions are before choosing. The current menu gives you a sense of the house’s style."
+    ],
+    "Organiza la parada según el horario real de atención y la ubicación del local. Si vas en grupo, confirma si la cocina recibe mesas grandes y qué platos funcionan mejor para compartir.": [
+      "Organize a visita conforme o horário real e o endereço do local. Se estiver em grupo, confirme se a cozinha atende mesas grandes e quais pratos são melhores para compartilhar.",
+      "Plan your visit around the actual hours and location. For a group, check whether the kitchen can serve a large table and which dishes are best for sharing."
+    ],
+    "Fotografía 1 de Bar da Amendoeira.": [
+      "Foto 1 do Bar da Amendoeira.",
+      "Photo 1 of Bar da Amendoeira."
+    ],
+    "Fotografía 2 de Bar da Amendoeira.": [
+      "Foto 2 do Bar da Amendoeira.",
+      "Photo 2 of Bar da Amendoeira."
+    ],
+    "Fotografía 3 de Bar da Amendoeira.": [
+      "Foto 3 do Bar da Amendoeira.",
+      "Photo 3 of Bar da Amendoeira."
+    ],
+    "Fotografía 4 de Bar da Amendoeira.": [
+      "Foto 4 do Bar da Amendoeira.",
+      "Photo 4 of Bar da Amendoeira."
+    ],
+    "Fotografía 5 de Bar da Amendoeira.": [
+      "Foto 5 do Bar da Amendoeira.",
+      "Photo 5 of Bar da Amendoeira."
+    ],
+    "📸 Instagram oficial": [
+      "📸 Instagram oficial",
+      "📸 Official Instagram"
+    ]
+  },
+  "/gastronomia/dumare/": {
+    "🌐 Sitio oficial": [
+      "🌐 Site oficial",
+      "🌐 Official website"
+    ],
+    "Mapa de Quiosque Dumaré": [
+      "Mapa de Quiosque Dumaré",
+      "Map of Quiosque Dumaré"
+    ],
+    "Notas adicionales de la guía V2": [
+      "Notas adicionais do guia V2",
+      "Additional notes from the V2 guide"
+    ],
+    "Información adicional conservada de la ficha V2": [
+      "Informações adicionais preservadas da ficha V2",
+      "Additional details preserved from the V2 listing"
+    ],
+    "En Dumarê, el ambiente forma parte de la experiencia tanto como la carta. Antes de elegir mesa, pregunta qué espacio está disponible y cómo influye el clima, especialmente si prefieres sentarte al aire libre. Confirma el menú del día y posibles condiciones para grupos.": [
+      "No Dumarê, o ambiente faz parte da experiência tanto quanto o cardápio. Antes de escolher a mesa, pergunte quais espaços estão disponíveis e como o clima influencia o conforto, especialmente ao ar livre. Confirme o cardápio do dia e as condições para grupos.",
+      "At Dumarê, the setting matters as much as the menu. Before choosing a table, ask which areas are available and how the weather affects comfort, especially outdoors. Check the day’s menu and any terms for groups."
+    ],
+    "Si planeas aprovechar el paisaje y la comida en la misma salida, deja tiempo suficiente para disfrutar ambos. Organiza el trayecto y el regreso según la ubicación exacta, sin depender de estimaciones antiguas de tráfico.": [
+      "Se quiser aproveitar a paisagem e a comida no mesmo passeio, deixe tempo para os dois. Organize a ida e a volta conforme o endereço exato e o trânsito atual.",
+      "If you want to enjoy the scenery and a meal on the same outing, allow time for both. Plan the trip there and back around the exact location and current traffic."
+    ],
+    "Quiosque Dumaré — imagen 1": [
+      "Quiosque Dumaré — foto 1",
+      "Quiosque Dumaré — photo 1"
+    ],
+    "Quiosque Dumaré — imagen 2": [
+      "Quiosque Dumaré — foto 2",
+      "Quiosque Dumaré — photo 2"
+    ],
+    "Quiosque Dumaré — imagen 3": [
+      "Quiosque Dumaré — foto 3",
+      "Quiosque Dumaré — photo 3"
+    ],
+    "Quiosque Dumaré — imagen 4": [
+      "Quiosque Dumaré — foto 4",
+      "Quiosque Dumaré — photo 4"
+    ],
+    "Quiosque Dumaré — imagen 5": [
+      "Quiosque Dumaré — foto 5",
+      "Quiosque Dumaré — photo 5"
+    ],
+    "Quiosque Dumaré — imagen 6": [
+      "Quiosque Dumaré — foto 6",
+      "Quiosque Dumaré — photo 6"
+    ],
+    "Fotografía de Quiosque Dumaré.": [
+      "Foto do Quiosque Dumaré.",
+      "Photo of Quiosque Dumaré."
+    ],
+    "La carta y la disponibilidad pueden cambiar; conviene confirmar antes de ir.": [
+      "Cardápio e disponibilidade podem mudar. Confira antes de ir.",
+      "The menu and availability may change. Check before going."
+    ]
+  },
 };

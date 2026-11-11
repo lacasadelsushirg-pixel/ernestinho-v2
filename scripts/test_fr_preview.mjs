@@ -44,6 +44,9 @@ try {
       ['/gastronomia/belmonte-copa/', /Boteco Belmonte Copacabana/],
       ['/gastronomia/belmonte-ipanema/', /Boteco Belmonte Ipanema/],
       ['/gastronomia/polvo-marisqueria/', /Polvo Marisqueria/],
+      ['/gastronomia/spicy-fish/', /Spicy Fish/],
+      ['/gastronomia/amendoeira/', /Bar da Amendoeira/],
+      ['/gastronomia/dumare/', /Quiosque Dumaré/],
       ['/gastronomia/k08/', /K08/],
       ['/gastronomia/delirio-tropical-rio-sul/', /Delírio Tropical Rio Sul/],
       ['/gastronomia/fogo-de-chao-botafogo/', /Fogo de Chão Botafogo/],
@@ -95,7 +98,7 @@ try {
       assert.equal(await page.locator('html').getAttribute('lang'), 'en');
     }
     await context.close();
-    console.log(`28 page switches PT-BR → FR → EN at ${width}px`);
+    console.log(`31 page switches PT-BR → FR → EN at ${width}px`);
   }
 } finally {
   await browser.close();

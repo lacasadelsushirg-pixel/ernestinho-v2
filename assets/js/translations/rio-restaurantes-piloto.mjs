@@ -151,4 +151,25 @@ export const updatedFacts = {
       "11": "🌐 <strong>Website / Instagram</strong><br><a class=\"btn\" href=\"https://fogodechao.com.br/location/botafogo/\" target=\"_blank\" rel=\"noopener\">Open official channel</a>"
     }
   },
+  "/gastronomia/amendoeira/": {
+    "pt": {
+      "10": "🕐 <strong>Horários</strong><br>Segunda 10h–16h; terça e quarta 10h–21h; quinta 10h–2h; sexta 10h–21h; sábado 10h–20h. Confirme o domingo.",
+      "11": "💰 <strong>Preços</strong><br>Consulte o cardápio atual.",
+      "13": "☎️ <strong>Contato</strong><br>(21) 2501-4175 · Instagram @bardaamendoeira01",
+      "14": "📅 <strong>Reservas</strong><br>Consulte conforme o dia e o grupo.",
+      "15": "♿ <strong>Acessibilidade</strong><br>Acessibilidade não verificada.",
+      "16": "🚇 <strong>Transporte</strong><br>Confira a rota mais conveniente.",
+      "17": "Rua Conde de Azambuja, 881. Telefone (21) 2501-4175."
+    },
+    "en": {
+      "10": "🕐 <strong>Hours</strong><br>Monday 10 a.m.–4 p.m.; Tuesday and Wednesday 10 a.m.–9 p.m.; Thursday 10 a.m.–2 a.m.; Friday 10 a.m.–9 p.m.; Saturday 10 a.m.–8 p.m. Check Sunday hours.",
+      "11": "💰 <strong>Prices</strong><br>Check the current menu.",
+      "12": "🍽️ <strong>Type of service</strong><br>A neighborhood boteco serving Brazilian food in Maria da Graça.",
+      "13": "☎️ <strong>Contact</strong><br>(21) 2501-4175 · Instagram @bardaamendoeira01",
+      "14": "📅 <strong>Reservations</strong><br>Ask about the day and group size.",
+      "15": "♿ <strong>Accessibility</strong><br>Accessibility has not been verified.",
+      "16": "🚇 <strong>Transportation</strong><br>Check the most convenient route.",
+      "17": "Rua Conde de Azambuja, 881. Phone (21) 2501-4175."
+    }
+  },
 };
