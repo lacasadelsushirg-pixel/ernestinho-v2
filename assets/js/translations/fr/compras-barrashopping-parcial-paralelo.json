@@ -2,7 +2,7 @@
   "route": "/compras/barrashopping/",
   "source_path": "compras/barrashopping/index.html",
   "source_sha": "d8f12598140d6888763e38017d55b32a48236b87",
-  "status": "PARTIAL_STAGING_NOT_RENDERED_NOT_PUBLISHED",
+  "status": "SUPERSEDED_BY_COMPLETE_DYNAMIC_SUPPLEMENT_NOT_PUBLISHED",
   "source_inline_array": "const P",
   "translated_paragraph_indices": [
     0,
@@ -26,11 +26,16 @@
     "Mais je préfère être franc : ce n’est pas l’endroit où aller avec seulement une heure devant soi pour acheter rapidement un souvenir. Il est immense, avec de longs couloirs, de nombreuses entrées et différents secteurs. Sans préparation, vous risquez de marcher bien plus que prévu et de finir par chercher la sortie."
   ],
   "qa": {
-    "translated_paragraphs": 8,
-    "remaining_paragraphs": 15,
-    "other_inline_data": "pending",
-    "static_visible_meta_alt_aria": "pending",
-    "missing_keys": "not yet audited"
+    "historical_translated_paragraphs": 8,
+    "remaining_paragraphs": 0,
+    "complete_supplement": "assets/js/translations/fr/compras-barrashopping-dinamico-paralelo.json",
+    "supplement_P_paragraphs": 23,
+    "supplement_T_keys": 11,
+    "static_dictionary": "assets/js/translations/fr/compras-barrashopping-paralelo.json",
+    "integration": "pending private FR renderer",
+    "source_sha_verified_against_manifest": true
   },
-  "editorial_review": "Verify shops, transport routes, accessibility, opening hours and entertainment claims against official sources before publication."
+  "editorial_review": "Verify shops, transport routes, accessibility, opening hours and entertainment claims against official sources before publication.",
+  "reconciliation_date": "2026-11-11",
+  "reconciliation_note": "Historical 8/23 partial draft retained for provenance only. Complete 23/23 paragraphs and 11/11 T keys already exist in compras-barrashopping-dinamico-paralelo.json; do not count or translate again. Static dictionary and route already in compras-paralelo-manifest.json. French rendering remains unintegrated."
 }
