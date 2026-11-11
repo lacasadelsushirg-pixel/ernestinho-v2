@@ -247,12 +247,22 @@
       "missing_keys": 0,
       "qa": "Static text, metadata, image alt and map attributes checked; French HTML/JSON-LD integration pending.",
       "editorial_review": "Verify store opening, events, accessibility and photographs before publication."
+    },
+    {
+      "route": "/cultura/real-gabinete/",
+      "source_sha": "b38afa353b064bb0925bc6e48b3212e3bdc2b141",
+      "dictionary": "assets/js/translations/fr/cultura-real-gabinete-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Inspected all static text, metadata, alt and map attributes; no missing strings. JSON-LD needs FR rendering.",
+      "editorial_review": "Verify visiting days/hours, access, photo rules and accessibility from official institution before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 25,
-    "static_dictionary_entries": 1151,
-    "total_source_translation_units": 1151
+    "prepared_pages": 26,
+    "static_dictionary_entries": 1194,
+    "total_source_translation_units": 1194
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
