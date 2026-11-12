@@ -647,12 +647,22 @@
       "missing_keys": 0,
       "qa": "Full Spanish source inspected; visible copy, title/meta, OG/Twitter, JSON-LD source fields, alt, map title, nav and footer covered. Only excluded viewport technical value. No inline editorial JS other than JSON-LD. French HTML and runtime remain unintegrated.",
       "editorial_review": "Verify MUHCAB opening hours, admission, VLT access, programming and accessibility against official sources before publication."
+    },
+    {
+      "route": "/cultura/amanha/",
+      "source_sha": "9517ee37da65e61039454899cef1b1bde6e48c6a",
+      "dictionary": "assets/js/translations/fr/cultura-amanha-paralelo.json",
+      "entries": 63,
+      "checked_strings": 63,
+      "missing_keys": 0,
+      "qa": "Full Spanish HTML read; visible text, title/meta/OG/Twitter, JSON-LD, alt, map title, nav/footer compared with dictionary: zero missing. No inline editorial JS except JSON-LD; external site.js needs integration. Media/maps/links untouched.",
+      "editorial_review": "Verify official museum tickets, hours, accessibility and exhibitions before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 65,
-    "static_dictionary_entries": 3028,
-    "total_source_translation_units": 3028
+    "prepared_pages": 66,
+    "static_dictionary_entries": 3091,
+    "total_source_translation_units": 3091
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
