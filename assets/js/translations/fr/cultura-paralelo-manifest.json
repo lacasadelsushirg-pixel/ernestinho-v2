@@ -512,36 +512,36 @@
       "route": "/cultura/teatro-ipanema/",
       "source_sha": "60845bab8cb1b1999edee903384931bab4b0adfa",
       "dictionary": "assets/js/translations/fr/cultura-teatro-ipanema-paralelo.json",
-      "entries": 40,
-      "checked_strings": 40,
+      "entries": 41,
+      "checked_strings": 41,
       "missing_keys": 0,
-      "qa": "Visible static text, metadata and image attributes mapped; JSON-LD and site.js require French runtime integration.",
+      "qa": "41 source strings mapped including OG image alt; static coverage only. JSON-LD inLanguage, runtime site.js, French HTML and visual QA remain pending.",
       "editorial_review": "Verify official programme, ticket prices, transport and accessibility before publication."
     },
     {
       "route": "/cultura/teatro-multiplan/",
       "source_sha": "a05fdc61cba0432ae4502812a1b067ed50f7aae7",
       "dictionary": "assets/js/translations/fr/cultura-teatro-multiplan-paralelo.json",
-      "entries": 40,
-      "checked_strings": 40,
+      "entries": 41,
+      "checked_strings": 41,
       "missing_keys": 0,
-      "qa": "Visible static text, metadata and image attributes mapped; JSON-LD and site.js require French runtime integration.",
+      "qa": "41 source strings mapped including OG image alt; static coverage only. JSON-LD inLanguage, runtime site.js, French HTML and visual QA remain pending.",
       "editorial_review": "Verify official programme, ticket prices, transport and accessibility before publication."
     },
     {
       "route": "/cultura/teatro-dos-quatro/",
       "source_sha": "52905fc201b6552a57365f6f4be36c5c213c71bf",
       "dictionary": "assets/js/translations/fr/cultura-teatro-dos-quatro-paralelo.json",
-      "entries": 40,
-      "checked_strings": 40,
+      "entries": 41,
+      "checked_strings": 41,
       "missing_keys": 0,
-      "qa": "Visible static text, metadata and image attributes mapped; JSON-LD and site.js require French runtime integration.",
+      "qa": "41 source strings mapped including OG image alt; static coverage only. JSON-LD inLanguage, runtime site.js, French HTML and visual QA remain pending.",
       "editorial_review": "Verify official programme, ticket prices, transport and accessibility before publication."
     }
   ],
   "totals": {
     "prepared_pages": 54,
-    "static_dictionary_entries": 2440,
+    "static_dictionary_entries": 2443,
     "total_source_translation_units": 2440
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
