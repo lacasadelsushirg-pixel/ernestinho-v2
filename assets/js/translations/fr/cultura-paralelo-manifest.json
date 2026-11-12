@@ -507,12 +507,42 @@
       "missing_keys": 0,
       "qa": "Visible static text, meta and image attributes translated; JSON-LD inline and external JS require French runtime integration.",
       "editorial_review": "Verify theatre schedules, ticket prices, booking and accessibility with official venue before publication."
+    },
+    {
+      "route": "/cultura/teatro-ipanema/",
+      "source_sha": "60845bab8cb1b1999edee903384931bab4b0adfa",
+      "dictionary": "assets/js/translations/fr/cultura-teatro-ipanema-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Visible static text, metadata and image attributes mapped; JSON-LD and site.js require French runtime integration.",
+      "editorial_review": "Verify official programme, ticket prices, transport and accessibility before publication."
+    },
+    {
+      "route": "/cultura/teatro-multiplan/",
+      "source_sha": "a05fdc61cba0432ae4502812a1b067ed50f7aae7",
+      "dictionary": "assets/js/translations/fr/cultura-teatro-multiplan-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Visible static text, metadata and image attributes mapped; JSON-LD and site.js require French runtime integration.",
+      "editorial_review": "Verify official programme, ticket prices, transport and accessibility before publication."
+    },
+    {
+      "route": "/cultura/teatro-dos-quatro/",
+      "source_sha": "52905fc201b6552a57365f6f4be36c5c213c71bf",
+      "dictionary": "assets/js/translations/fr/cultura-teatro-dos-quatro-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Visible static text, metadata and image attributes mapped; JSON-LD and site.js require French runtime integration.",
+      "editorial_review": "Verify official programme, ticket prices, transport and accessibility before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 51,
-    "static_dictionary_entries": 2320,
-    "total_source_translation_units": 2320
+    "prepared_pages": 54,
+    "static_dictionary_entries": 2440,
+    "total_source_translation_units": 2440
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
