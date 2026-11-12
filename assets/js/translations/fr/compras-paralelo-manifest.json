@@ -174,11 +174,11 @@
       "route": "/compras/shopping-tijuca/",
       "source_sha": "9b9e5a4795f4734062d696fd1ca28e24d0466472",
       "dictionary": "assets/js/translations/fr/compras-shopping-tijuca-paralelo.json",
-      "entries": 41,
-      "checked_strings": 41,
+      "entries": 42,
+      "checked_strings": 42,
       "missing_keys": 0,
       "review": "Confirm current shop directory, official access, services and opening hours before publishing.",
-      "qa": "OG image alt translated and checked against source HTML; French HTML/runtime/SEO still pending."
+      "qa": "Full HTML source at SHA 9b9e5a4795f4734062d696fd1ca28e24d0466472 inspected. Translated missing inline JavaScript back-navigation alert. Source contains ES/PT/EN data-tj-es and inline language whitelist, requiring explicit FR renderer and runtime integration. Original JS/HTML left unchanged."
     },
     {
       "route": "/compras/cadeg/",
@@ -389,12 +389,12 @@
   ],
   "totals": {
     "prepared_pages": 33,
-    "static_dictionary_entries": 2118,
+    "static_dictionary_entries": 2119,
     "dynamic_JS_keys": 697,
     "extra_story_paragraphs": 155,
     "coverage_missing_visible_meta_alt": 0,
     "dynamic_image_captions": 2,
-    "total_source_translation_units": 2972
+    "total_source_translation_units": 2973
   },
   "known_integration_blockers": [
     "Existing source JavaScript includes only es/pt/en as language whitelist; without integrating fr on a separate preview, French dictionaries will not render.",
