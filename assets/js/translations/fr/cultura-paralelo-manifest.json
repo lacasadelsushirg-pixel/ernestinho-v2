@@ -362,10 +362,10 @@
       "route": "/cultura/antiga-se/",
       "source_sha": "2d5f76e186baa8bf415b871bfd46a73e86e9bd1d",
       "dictionary": "assets/js/translations/fr/cultura-antiga-se-paralelo.json",
-      "entries": 37,
-      "checked_strings": 37,
+      "entries": 38,
+      "checked_strings": 38,
       "missing_keys": 0,
-      "qa": "Complete static visible text, title, meta, image alt and attribute strings inspected; inline JSON-LD and site.js not yet rendered in FR.",
+      "qa": "38 static strings mapped, including OG image alt. JSON-LD and runtime FR integration pending.",
       "editorial_review": "Verify current access, opening, programming, booking and accessibility with official operator before publication."
     },
     {
@@ -551,8 +551,8 @@
   ],
   "totals": {
     "prepared_pages": 55,
-    "static_dictionary_entries": 2487,
-    "total_source_translation_units": 2487
+    "static_dictionary_entries": 2488,
+    "total_source_translation_units": 2488
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
