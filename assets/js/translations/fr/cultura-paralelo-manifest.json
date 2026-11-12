@@ -637,12 +637,22 @@
       "missing_keys": 0,
       "qa": "Full ES HTML read; 63 unique strings covering visible headings, prose, practical details, title, meta/OG/Twitter, JSON-LD name/description, alt, map iframe title, navigation and footer. Programmatic text/attribute comparison: 0 missing. No inline editorial JS besides JSON-LD; site.js is external. Source media/maps/links untouched. Staging dictionary only, not HTML FR.",
       "editorial_review": "Confirm official MUSAL opening days, 15:30 gate closure, accessibility slot, free parking/admission and group booking before publishing."
+    },
+    {
+      "route": "/cultura/muhcab/",
+      "source_sha": "6e55fb79324400f1e3d764f7ad5587b3328b110e",
+      "dictionary": "assets/js/translations/fr/cultura-muhcab-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "qa": "Full Spanish source inspected; visible copy, title/meta, OG/Twitter, JSON-LD source fields, alt, map title, nav and footer covered. Only excluded viewport technical value. No inline editorial JS other than JSON-LD. French HTML and runtime remain unintegrated.",
+      "editorial_review": "Verify MUHCAB opening hours, admission, VLT access, programming and accessibility against official sources before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 64,
-    "static_dictionary_entries": 2967,
-    "total_source_translation_units": 2967
+    "prepared_pages": 65,
+    "static_dictionary_entries": 3028,
+    "total_source_translation_units": 3028
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
