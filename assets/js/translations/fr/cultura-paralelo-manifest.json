@@ -567,12 +567,22 @@
       "missing_keys": 0,
       "qa": "Full Spanish HTML reviewed: visible text, SEO title/description, OG/Twitter, image alt, iframe title, navigation and footer. Inline scripts inspected: JSON-LD contains Spanish name/description/inLanguage and requires FR runtime conversion; external site.js needs integration QA. No editorial inline JS arrays.",
       "editorial_review": "Verify official opening hours, ceremonies, free admission/donations and step-free access before publication."
+    },
+    {
+      "route": "/cultura/mar/",
+      "source_sha": "e3764e01690b85cc31692fb4b5bdc63abc95aa0e",
+      "dictionary": "assets/js/translations/fr/cultura-mar-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "qa": "Full source HTML reviewed: visible editorial sections, SEO title/description and OG/Twitter equivalents, JSON-LD text, image alt, map iframe title, footer. No editorial inline JS other than JSON-LD; external site.js remains to integrate. Photos, map and links preserved by staging-only mapping.",
+      "editorial_review": "Verify MAR ticket prices, free Tuesdays, hours, accessibility and current exhibits with museum before any publication."
     }
   ],
   "totals": {
-    "prepared_pages": 57,
-    "static_dictionary_entries": 2563,
-    "total_source_translation_units": 2563
+    "prepared_pages": 58,
+    "static_dictionary_entries": 2624,
+    "total_source_translation_units": 2624
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
