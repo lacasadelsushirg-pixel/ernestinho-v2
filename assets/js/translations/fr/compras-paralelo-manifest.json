@@ -46,12 +46,13 @@
       "route": "/compras/saara/",
       "source_sha": "839bb2ce46d8d7954c6304a70c7f12a92c46b93b",
       "dictionary": "assets/js/translations/fr/compras-saara-paralelo.json",
-      "entries": 47,
-      "checked_strings": 47,
+      "entries": 48,
+      "checked_strings": 48,
       "missing_keys": 0,
       "dynamic_supplement": "assets/js/translations/fr/compras-saara-dinamico-paralelo.json",
       "dynamic_js_keys": 30,
-      "dynamic_story_paragraphs": 4
+      "dynamic_story_paragraphs": 4,
+      "qa": "Map iframe title and Open Graph image alt added; removed a truncated Spanish source key with abbreviated French paraphrase. Full editorial paragraph preserved. Static mapping only; dynamic runtime still staging."
     },
     {
       "route": "/compras/rio-sul/",
@@ -387,12 +388,12 @@
   ],
   "totals": {
     "prepared_pages": 33,
-    "static_dictionary_entries": 2117,
+    "static_dictionary_entries": 2118,
     "dynamic_JS_keys": 697,
     "extra_story_paragraphs": 155,
     "coverage_missing_visible_meta_alt": 0,
     "dynamic_image_captions": 2,
-    "total_source_translation_units": 2971
+    "total_source_translation_units": 2972
   },
   "known_integration_blockers": [
     "Existing source JavaScript includes only es/pt/en as language whitelist; without integrating fr on a separate preview, French dictionaries will not render.",
