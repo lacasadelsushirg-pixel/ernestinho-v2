@@ -657,12 +657,22 @@
       "missing_keys": 0,
       "qa": "Full Spanish HTML read; visible text, title/meta/OG/Twitter, JSON-LD, alt, map title, nav/footer compared with dictionary: zero missing. No inline editorial JS except JSON-LD; external site.js needs integration. Media/maps/links untouched.",
       "editorial_review": "Verify official museum tickets, hours, accessibility and exhibitions before publication."
+    },
+    {
+      "route": "/cultura/mam-rio/",
+      "source_sha": "81dbfd74c6f74fb9defe36fe78f50c2990596c11",
+      "dictionary": "assets/js/translations/fr/cultura-mam-rio-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "qa": "Full Spanish source HTML inspected: editorial text, meta/OG/Twitter, JSON-LD textual fields, image alt, map title, navigation and footer. No inline dynamic editorial scripts except JSON-LD. All unique source strings mapped in isolated FR dictionary; no HTML generated, browser QA still pending.",
+      "editorial_review": "Confirm MAM Rio hours, sensory Sunday session, free tickets, exhibitions and accessibility from official sources before publishing."
     }
   ],
   "totals": {
-    "prepared_pages": 66,
-    "static_dictionary_entries": 3091,
-    "total_source_translation_units": 3091
+    "prepared_pages": 67,
+    "static_dictionary_entries": 3152,
+    "total_source_translation_units": 3152
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
