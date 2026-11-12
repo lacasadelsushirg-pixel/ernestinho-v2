@@ -607,12 +607,22 @@
       "missing_keys": 0,
       "qa": "2026-11-12: Full Spanish HTML and SHA inspected. Coverage verified against text nodes and title/description/OG/Twitter/alt/map title/aria attributes: 59 translatable or unchanged keys, no missing Spanish strings; excluded viewport meta (non-editorial). JSON-LD duplicates title and description; no inline editorial JS besides JSON-LD. All images, map, links and structure remain unchanged in original because this is dictionary-only staging.",
       "editorial_review": "CRITICAL: official confirmation of temporary closures/maintenance, access to interior, garden opening hours, admission and accessibility before publication."
+    },
+    {
+      "route": "/cultura/naval/",
+      "source_sha": "2dc23e2a50edd6d93ec43dbd28cfa1114f14e811",
+      "dictionary": "assets/js/translations/fr/cultura-naval-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "qa": "Full ES HTML inspected and automated text/attribute key comparison passed: 0 missing. Covers title, meta/OG/Twitter description, JSON-LD name/description, body, gallery alt, iframe title, navigation and footer. Inline script contains JSON-LD only; external site.js unchanged. Assets and URLs untouched.",
+      "editorial_review": "Before publishing verify official Museu Naval days/hours, free entry, access and current Marinha cultural circuit; source is date-sensitive."
     }
   ],
   "totals": {
-    "prepared_pages": 61,
-    "static_dictionary_entries": 2805,
-    "total_source_translation_units": 2805
+    "prepared_pages": 62,
+    "static_dictionary_entries": 2866,
+    "total_source_translation_units": 2866
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
