@@ -547,12 +547,22 @@
       "missing_keys": 0,
       "qa": "Complete Spanish HTML inspected: visible text, title, description, OG/Twitter descriptions, OG image alt, image alt, iframe title, navigation and footer covered. Inline JSON-LD has ES text requiring French rendering; external site.js is not localized here. No /fr/ HTML or visual QA.",
       "editorial_review": "Confirm church visiting hours, religious services, accessible entry and public transport with official sources before publication."
+    },
+    {
+      "route": "/cultura/lampadosa/",
+      "source_sha": "66a036f85a09261889096494efdd348d57befee4",
+      "dictionary": "assets/js/translations/fr/cultura-lampadosa-paralelo.json",
+      "entries": 38,
+      "checked_strings": 38,
+      "missing_keys": 0,
+      "qa": "Spanish source HTML checked for visible text, title, SEO/OG/Twitter metadata, OG image alt, gallery alt, map iframe title, nav and footer. Inline JSON-LD still needs FR rendering; external site.js and 390px/1440px not tested.",
+      "editorial_review": "Verify church access, religious activity schedule, historical claims and accessibility with official sources before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 55,
-    "static_dictionary_entries": 2488,
-    "total_source_translation_units": 2488
+    "prepared_pages": 56,
+    "static_dictionary_entries": 2526,
+    "total_source_translation_units": 2526
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
