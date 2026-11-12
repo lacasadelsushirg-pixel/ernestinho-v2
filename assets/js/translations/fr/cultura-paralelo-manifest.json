@@ -597,12 +597,22 @@
       "missing_keys": 0,
       "qa": "Full ES HTML read, editorial headings and paragraphs, title, description/OG/Twitter, JSON-LD name/description, photo alt and map iframe title covered. No inline content JS beyond JSON-LD. Original images, map and links untouched; French remains staging dictionary only.",
       "editorial_review": "Check museum hours, special night observations, accessibility and availability against MAST official program before publishing."
+    },
+    {
+      "route": "/cultura/acude/",
+      "source_sha": "f4b9129c238ca23ec329cbeff3008978af9915df",
+      "dictionary": "assets/js/translations/fr/cultura-acude-paralelo.json",
+      "entries": 59,
+      "checked_strings": 59,
+      "missing_keys": 0,
+      "qa": "2026-11-12: Full Spanish HTML and SHA inspected. Coverage verified against text nodes and title/description/OG/Twitter/alt/map title/aria attributes: 59 translatable or unchanged keys, no missing Spanish strings; excluded viewport meta (non-editorial). JSON-LD duplicates title and description; no inline editorial JS besides JSON-LD. All images, map, links and structure remain unchanged in original because this is dictionary-only staging.",
+      "editorial_review": "CRITICAL: official confirmation of temporary closures/maintenance, access to interior, garden opening hours, admission and accessibility before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 60,
-    "static_dictionary_entries": 2746,
-    "total_source_translation_units": 2746
+    "prepared_pages": 61,
+    "static_dictionary_entries": 2805,
+    "total_source_translation_units": 2805
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
