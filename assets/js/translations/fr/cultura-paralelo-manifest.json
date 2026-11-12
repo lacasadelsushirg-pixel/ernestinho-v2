@@ -577,12 +577,22 @@
       "missing_keys": 0,
       "qa": "Full source HTML reviewed: visible editorial sections, SEO title/description and OG/Twitter equivalents, JSON-LD text, image alt, map iframe title, footer. No editorial inline JS other than JSON-LD; external site.js remains to integrate. Photos, map and links preserved by staging-only mapping.",
       "editorial_review": "Verify MAR ticket prices, free Tuesdays, hours, accessibility and current exhibits with museum before any publication."
+    },
+    {
+      "route": "/cultura/mnba/",
+      "source_sha": "237d2fc02a03938eb245bb5aaa9ec2f5d2086e92",
+      "dictionary": "assets/js/translations/fr/cultura-mnba-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "qa": "Full original ES HTML inspected: title, meta/OG/Twitter descriptions, JSON-LD name/description, all visible editorial sections, navigation, photo alt, iframe map title and footer mapped. No inline editorial JS beyond JSON-LD. French HTML, runtime integration and JSON-LD localization remain pending.",
+      "editorial_review": "Check current partial reopening, accessible exhibition rooms, admission, hours and accessibility directly with MNBA before publishing."
     }
   ],
   "totals": {
-    "prepared_pages": 58,
-    "static_dictionary_entries": 2624,
-    "total_source_translation_units": 2624
+    "prepared_pages": 59,
+    "static_dictionary_entries": 2685,
+    "total_source_translation_units": 2685
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
