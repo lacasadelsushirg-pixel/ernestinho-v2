@@ -57,12 +57,13 @@
       "route": "/compras/rio-sul/",
       "source_sha": "fa135d3276ead10c0b0d67ef746a0ec28bd1e651",
       "dictionary": "assets/js/translations/fr/compras-rio-sul-paralelo.json",
-      "entries": 58,
-      "checked_strings": 58,
+      "entries": 59,
+      "checked_strings": 59,
       "missing_keys": 0,
       "dynamic_supplement": "assets/js/translations/fr/compras-rio-sul-dinamico-paralelo.json",
       "dynamic_js_keys": 33,
-      "dynamic_story_paragraphs": 4
+      "dynamic_story_paragraphs": 4,
+      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification."
     },
     {
       "route": "/compras/feira-saens-pena/",
@@ -101,23 +102,25 @@
       "route": "/compras/uruguaiana/",
       "source_sha": "da9cbc66ed0b7a3f17e6e31f33400a0390edfec3",
       "dictionary": "assets/js/translations/fr/compras-uruguaiana-paralelo.json",
-      "entries": 68,
-      "checked_strings": 67,
+      "entries": 69,
+      "checked_strings": 68,
       "missing_keys": 0,
       "dynamic_supplement": "assets/js/translations/fr/compras-uruguaiana-dinamico-paralelo.json",
       "dynamic_js_keys": 50,
-      "editorial_review": "Verify current retailer offerings, transport access and guarantees; all long ES descriptions translated into FR source-key dict."
+      "editorial_review": "Verify current retailer offerings, transport access and guarantees; all long ES descriptions translated into FR source-key dict.",
+      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification."
     },
     {
       "route": "/compras/mercado-sao-pedro/",
       "source_sha": "34f24c41beb735de6af568224aa60e438359f1e1",
       "dictionary": "assets/js/translations/fr/compras-mercado-sao-pedro-paralelo.json",
-      "entries": 61,
-      "checked_strings": 60,
+      "entries": 62,
+      "checked_strings": 61,
       "missing_keys": 0,
       "dynamic_supplement": "assets/js/translations/fr/compras-mercado-sao-pedro-dinamico-paralelo.json",
       "dynamic_js_keys": 45,
-      "editorial_review": "Check current fish market floor operation, restaurants, ferry hours, food safety and wayfinding in Niterói before publishing."
+      "editorial_review": "Check current fish market floor operation, restaurants, ferry hours, food safety and wayfinding in Niterói before publishing.",
+      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification."
     },
     {
       "route": "/compras/feira-das-yabas/",
@@ -246,23 +249,27 @@
       "route": "/compras/village-mall/",
       "source_sha": "26237c5ca2a6991af8739cf52a88cf272166fb63",
       "dictionary": "assets/js/translations/fr/compras-village-mall-paralelo.json",
-      "entries": 68,
+      "entries": 69,
       "missing_keys": 0,
       "dynamic_supplement": "assets/js/translations/fr/compras-village-mall-dinamico-paralelo.json",
       "dynamic_js_keys": 28,
       "dynamic_story_paragraphs": 4,
-      "editorial_review": "Check Gucci/Dior retail tenancy, actual accessibility facilities, prices and current official directory."
+      "editorial_review": "Check Gucci/Dior retail tenancy, actual accessibility facilities, prices and current official directory.",
+      "checked_strings": 69,
+      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification."
     },
     {
       "route": "/compras/nova-america/",
       "source_sha": "4d0bbfabbc624293e907e7d09831bb338d7f9a4f",
       "dictionary": "assets/js/translations/fr/compras-nova-america-paralelo.json",
-      "entries": 83,
+      "entries": 84,
       "missing_keys": 0,
       "dynamic_supplement": "assets/js/translations/fr/compras-nova-america-dinamico-paralelo.json",
       "dynamic_js_keys": 38,
       "dynamic_story_paragraphs": 7,
-      "editorial_review": "Complete data.es and main.es; check listed store hours, integrated metro and tenants; FR selector and aria labels require private integration."
+      "editorial_review": "Complete data.es and main.es; check listed store hours, integrated metro and tenants; FR selector and aria labels require private integration.",
+      "checked_strings": 84,
+      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification."
     },
     {
       "route": "/compras/botafogo-praia-shopping/",
@@ -372,12 +379,12 @@
   ],
   "totals": {
     "prepared_pages": 33,
-    "static_dictionary_entries": 2104,
+    "static_dictionary_entries": 2109,
     "dynamic_JS_keys": 697,
     "extra_story_paragraphs": 155,
     "coverage_missing_visible_meta_alt": 0,
     "dynamic_image_captions": 2,
-    "total_source_translation_units": 2958
+    "total_source_translation_units": 2963
   },
   "known_integration_blockers": [
     "Existing source JavaScript includes only es/pt/en as language whitelist; without integrating fr on a separate preview, French dictionaries will not render.",
@@ -426,7 +433,7 @@
     "fr": "Source dictionaries only; FR rendered pages and indexation are not yet created",
     "publishing_gate": "Reconcile PR #24; integrate FR in private noindex preview; test HTML 200, self canonical, reciprocal hreflang, sources/photos/captions, mobile 390px and desktop 1440px, correct sitemap; Google determines indexing."
   },
-  "current_scope_summary": "31 distinct Compras editorial routes source-translated; 2016 static entries, 667 JS keys, 152 long paragraphs and 2 image captions staged (2837 source translation units, categories counted separately). No FR HTML rendered or indexed.",
+  "current_scope_summary": "33 routes in staging; 2963 translation units including 5 new OG image-alt keys. No FR HTML published.",
   "integration_issues": [
     "Large Shopping articles render source JS P, T and sometimes hardcoded image caption/alt; private FR renderer must translate every injection, not just body HTML."
   ]
