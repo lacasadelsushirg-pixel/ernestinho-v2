@@ -537,12 +537,22 @@
       "missing_keys": 0,
       "qa": "41 source strings mapped including OG image alt; static coverage only. JSON-LD inLanguage, runtime site.js, French HTML and visual QA remain pending.",
       "editorial_review": "Verify official programme, ticket prices, transport and accessibility before publication."
+    },
+    {
+      "route": "/cultura/candelaria/",
+      "source_sha": "3c94357f8fab770c2a62ee90c799ab60afc5ba0d",
+      "dictionary": "assets/js/translations/fr/cultura-candelaria-paralelo.json",
+      "entries": 38,
+      "checked_strings": 38,
+      "missing_keys": 0,
+      "qa": "Complete Spanish HTML inspected: visible text, title, description, OG/Twitter descriptions, OG image alt, image alt, iframe title, navigation and footer covered. Inline JSON-LD has ES text requiring French rendering; external site.js is not localized here. No /fr/ HTML or visual QA.",
+      "editorial_review": "Confirm church visiting hours, religious services, accessible entry and public transport with official sources before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 54,
-    "static_dictionary_entries": 2449,
-    "total_source_translation_units": 2449
+    "prepared_pages": 55,
+    "static_dictionary_entries": 2487,
+    "total_source_translation_units": 2487
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
