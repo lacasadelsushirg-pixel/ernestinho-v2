@@ -617,12 +617,22 @@
       "missing_keys": 0,
       "qa": "Full ES HTML inspected and automated text/attribute key comparison passed: 0 missing. Covers title, meta/OG/Twitter description, JSON-LD name/description, body, gallery alt, iframe title, navigation and footer. Inline script contains JSON-LD only; external site.js unchanged. Assets and URLs untouched.",
       "editorial_review": "Before publishing verify official Museu Naval days/hours, free entry, access and current Marinha cultural circuit; source is date-sensitive."
+    },
+    {
+      "route": "/cultura/penha/",
+      "source_sha": "9c9d83d33d0b9745e94e12cd2c3c04b4d0102c30",
+      "dictionary": "assets/js/translations/fr/cultura-penha-paralelo.json",
+      "entries": 38,
+      "checked_strings": 38,
+      "missing_keys": 0,
+      "qa": "Full ES source HTML and SHA checked; visible text, title/meta/OG/Twitter, alt, iframe title and footer covered. JSON-LD has same title/description. No inline editorial JS; external site.js requires future integration. Source images/maps/links untouched.",
+      "editorial_review": "Verify daily opening hours, alternative ascent transport and religious festivities with sanctuary before publication; staging only."
     }
   ],
   "totals": {
-    "prepared_pages": 62,
-    "static_dictionary_entries": 2866,
-    "total_source_translation_units": 2866
+    "prepared_pages": 63,
+    "static_dictionary_entries": 2904,
+    "total_source_translation_units": 2904
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
