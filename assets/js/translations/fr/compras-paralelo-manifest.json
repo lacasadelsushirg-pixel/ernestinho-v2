@@ -73,7 +73,8 @@
       "entries": 17,
       "checked_strings": 17,
       "missing_keys": 0,
-      "editorial_review": "Source article is intentionally very short; date-sensitive Feirarte III schedule from municipal Rio 1746 should be reverified. Do not fabricate content to inflate coverage."
+      "editorial_review": "Verify Feirarte III operating days and 08:00–20:00 times with Rio 1746 before publication; source is date-sensitive. Keep in staging/noindex.",
+      "qa": "2026-11-12: Full ES source HTML inspected at SHA d05fcc20bb8a6d318fed3a33b67b3d29575cde2a. All 17 distinct editorial strings mapped: title, meta description, navigation, heading, lead, two captions, both image alt texts, source link and footer. No inline editorial JavaScript; external site.js remains unintegrated for FR. CSS/photo URLs and municipal reference preserved in original. No French HTML generated."
     },
     {
       "route": "/compras/mercadao-madureira/",
