@@ -447,12 +447,22 @@
       "missing_keys": 0,
       "qa": "Visible HTML text, metadata and alt attributes mapped with no missing static strings; JSON-LD and site.js require runtime FR integration.",
       "editorial_review": "Verify official showtimes, admission, accessibility and availability before publication."
+    },
+    {
+      "route": "/cultura/capela-mayrink/",
+      "source_sha": "5eeac113b65a362204d5f92cabbfb4f08835c9f0",
+      "dictionary": "assets/js/translations/fr/cultura-capela-mayrink-paralelo.json",
+      "entries": 36,
+      "checked_strings": 36,
+      "missing_keys": 0,
+      "qa": "Static visible text, metadata and image attributes covered; JSON-LD and runtime rendering not tested.",
+      "editorial_review": "Verify park access, chapel conservation closures and accessibility before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 45,
-    "static_dictionary_entries": 2084,
-    "total_source_translation_units": 2084
+    "prepared_pages": 46,
+    "static_dictionary_entries": 2120,
+    "total_source_translation_units": 2120
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
