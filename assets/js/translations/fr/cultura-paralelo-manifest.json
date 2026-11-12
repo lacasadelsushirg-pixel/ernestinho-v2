@@ -457,12 +457,62 @@
       "missing_keys": 0,
       "qa": "Static visible text, metadata and image attributes covered; JSON-LD and runtime rendering not tested.",
       "editorial_review": "Verify park access, chapel conservation closures and accessibility before publication."
+    },
+    {
+      "route": "/cultura/carlos-gomes/",
+      "source_sha": "06b2cf4bc1fd1ea74ade01b124a83e03b0673c2b",
+      "dictionary": "assets/js/translations/fr/cultura-carlos-gomes-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Visible static text, meta and image attributes translated; JSON-LD inline and external JS require French runtime integration.",
+      "editorial_review": "Verify theatre schedules, ticket prices, booking and accessibility with official venue before publication."
+    },
+    {
+      "route": "/cultura/fernanda-montenegro/",
+      "source_sha": "e6922c4053c179aa26234d59204f576fda9dd867",
+      "dictionary": "assets/js/translations/fr/cultura-fernanda-montenegro-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Visible static text, meta and image attributes translated; JSON-LD inline and external JS require French runtime integration.",
+      "editorial_review": "Verify theatre schedules, ticket prices, booking and accessibility with official venue before publication."
+    },
+    {
+      "route": "/cultura/miguel-falabella/",
+      "source_sha": "aa34e590b9062d32f2b4276a8a984ce75dbb6b48",
+      "dictionary": "assets/js/translations/fr/cultura-miguel-falabella-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Visible static text, meta and image attributes translated; JSON-LD inline and external JS require French runtime integration.",
+      "editorial_review": "Verify theatre schedules, ticket prices, booking and accessibility with official venue before publication."
+    },
+    {
+      "route": "/cultura/ziembinski/",
+      "source_sha": "73c4da98446defb6161612074a356ba9dd800f50",
+      "dictionary": "assets/js/translations/fr/cultura-ziembinski-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Visible static text, meta and image attributes translated; JSON-LD inline and external JS require French runtime integration.",
+      "editorial_review": "Verify theatre schedules, ticket prices, booking and accessibility with official venue before publication."
+    },
+    {
+      "route": "/cultura/sesc-tijuca/",
+      "source_sha": "7d894394df926de2b56289f60198bf905dcf8485",
+      "dictionary": "assets/js/translations/fr/cultura-sesc-tijuca-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Visible static text, meta and image attributes translated; JSON-LD inline and external JS require French runtime integration.",
+      "editorial_review": "Verify theatre schedules, ticket prices, booking and accessibility with official venue before publication."
     }
   ],
   "totals": {
-    "prepared_pages": 46,
-    "static_dictionary_entries": 2120,
-    "total_source_translation_units": 2120
+    "prepared_pages": 51,
+    "static_dictionary_entries": 2320,
+    "total_source_translation_units": 2320
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
