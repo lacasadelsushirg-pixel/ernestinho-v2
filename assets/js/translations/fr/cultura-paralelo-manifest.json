@@ -542,7 +542,7 @@
   "totals": {
     "prepared_pages": 54,
     "static_dictionary_entries": 2443,
-    "total_source_translation_units": 2440
+    "total_source_translation_units": 2443
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
