@@ -627,12 +627,22 @@
       "missing_keys": 0,
       "qa": "Full ES source HTML and SHA checked; visible text, title/meta/OG/Twitter, alt, iframe title and footer covered. JSON-LD has same title/description. No inline editorial JS; external site.js requires future integration. Source images/maps/links untouched.",
       "editorial_review": "Verify daily opening hours, alternative ascent transport and religious festivities with sanctuary before publication; staging only."
+    },
+    {
+      "route": "/cultura/musal/",
+      "source_sha": "5d31ddab38edc6b4407fd91491764e9a6d2dfc6b",
+      "dictionary": "assets/js/translations/fr/cultura-musal-paralelo.json",
+      "entries": 63,
+      "checked_strings": 63,
+      "missing_keys": 0,
+      "qa": "Full ES HTML read; 63 unique strings covering visible headings, prose, practical details, title, meta/OG/Twitter, JSON-LD name/description, alt, map iframe title, navigation and footer. Programmatic text/attribute comparison: 0 missing. No inline editorial JS besides JSON-LD; site.js is external. Source media/maps/links untouched. Staging dictionary only, not HTML FR.",
+      "editorial_review": "Confirm official MUSAL opening days, 15:30 gate closure, accessibility slot, free parking/admission and group booking before publishing."
     }
   ],
   "totals": {
-    "prepared_pages": 63,
-    "static_dictionary_entries": 2904,
-    "total_source_translation_units": 2904
+    "prepared_pages": 64,
+    "static_dictionary_entries": 2967,
+    "total_source_translation_units": 2967
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
