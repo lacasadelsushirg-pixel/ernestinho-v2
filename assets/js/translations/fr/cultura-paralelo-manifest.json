@@ -587,12 +587,22 @@
       "missing_keys": 0,
       "qa": "Full original ES HTML inspected: title, meta/OG/Twitter descriptions, JSON-LD name/description, all visible editorial sections, navigation, photo alt, iframe map title and footer mapped. No inline editorial JS beyond JSON-LD. French HTML, runtime integration and JSON-LD localization remain pending.",
       "editorial_review": "Check current partial reopening, accessible exhibition rooms, admission, hours and accessibility directly with MNBA before publishing."
+    },
+    {
+      "route": "/cultura/mast/",
+      "source_sha": "525411d0490b160f9adedc173769895036c02368",
+      "dictionary": "assets/js/translations/fr/cultura-mast-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "qa": "Full ES HTML read, editorial headings and paragraphs, title, description/OG/Twitter, JSON-LD name/description, photo alt and map iframe title covered. No inline content JS beyond JSON-LD. Original images, map and links untouched; French remains staging dictionary only.",
+      "editorial_review": "Check museum hours, special night observations, accessibility and availability against MAST official program before publishing."
     }
   ],
   "totals": {
-    "prepared_pages": 59,
-    "static_dictionary_entries": 2685,
-    "total_source_translation_units": 2685
+    "prepared_pages": 60,
+    "static_dictionary_entries": 2746,
+    "total_source_translation_units": 2746
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
