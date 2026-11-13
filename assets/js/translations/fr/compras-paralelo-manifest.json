@@ -116,7 +116,8 @@
       "dynamic_supplement": "assets/js/translations/fr/compras-uruguaiana-dinamico-paralelo.json",
       "dynamic_js_keys": 50,
       "editorial_review": "Verify current retailer offerings, transport access and guarantees; all long ES descriptions translated into FR source-key dict.",
-      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification."
+      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification.",
+      "qa_note_20261113": "ES original SHA da9cbc66ed0b7a3f17e6e31f33400a0390edfec3 reconsultado. Corrección sincronizada en diccionario estático y runtime_D_fr: «zone commerçante» evita presentar Uruguaiana como barrio administrativo, y «connecteurs/type de prise/tension» aclara la revisión de electrónicos. Tres valores corregidos, cero claves nuevas. Runtime FR y QA SEO/visual siguen pendientes; revisar datos comerciales oficiales antes de publicar."
     },
     {
       "route": "/compras/mercado-sao-pedro/",
