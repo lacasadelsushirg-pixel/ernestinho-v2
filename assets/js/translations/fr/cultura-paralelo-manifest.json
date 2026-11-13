@@ -677,12 +677,32 @@
       "missing_keys": 0,
       "qa": "Full ES HTML inspected; static text, meta/OG/Twitter, JSON-LD source text, alt, navigation, map title and footer covered. No editorial inline JS except JSON-LD. Images, maps and links remain unchanged. FR HTML not yet rendered.",
       "editorial_review": "Verify EcoVilla Ri Happy operation, programming, age limits, prices and accessibility with official organizer before publication."
+    },
+    {
+      "route": "/cultura/santa-rita/",
+      "source_sha": "8e6ae500ef3c94b72c822dcc86d2457adaf1b8f6",
+      "dictionary": "assets/js/translations/fr/cultura-santa-rita-paralelo.json",
+      "entries": 39,
+      "checked_strings": 39,
+      "missing_keys": 0,
+      "qa": "Reviewed complete Spanish HTML, title, meta description, OG/Twitter, JSON-LD text, visible headings, alt, iframe title and CTA. No substantive inline dynamic Spanish script. French dictionary staging only; HTML /fr/ not rendered.",
+      "editorial_review": "Confirm opening conditions, transport, accessibility and official visitor information before publication; preserve all media and links."
+    },
+    {
+      "route": "/cultura/forte-laje/",
+      "source_sha": "1eb5cdb50e04fea844a2eb1b65c2e34f198d13fd",
+      "dictionary": "assets/js/translations/fr/cultura-forte-laje-paralelo.json",
+      "entries": 50,
+      "checked_strings": 50,
+      "missing_keys": 0,
+      "qa": "Reviewed complete Spanish HTML, title, meta description, OG/Twitter, JSON-LD text, visible headings, alt, iframe title and CTA. No substantive inline dynamic Spanish script. French dictionary staging only; HTML /fr/ not rendered.",
+      "editorial_review": "Confirm opening conditions, transport, accessibility and official visitor information before publication; preserve all media and links."
     }
   ],
   "totals": {
-    "prepared_pages": 68,
-    "static_dictionary_entries": 3194,
-    "total_source_translation_units": 3194
+    "prepared_pages": 70,
+    "static_dictionary_entries": 3283,
+    "total_source_translation_units": 3283
   },
   "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
 }
