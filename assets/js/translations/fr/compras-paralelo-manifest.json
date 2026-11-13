@@ -128,7 +128,8 @@
       "dynamic_supplement": "assets/js/translations/fr/compras-mercado-sao-pedro-dinamico-paralelo.json",
       "dynamic_js_keys": 45,
       "editorial_review": "Check current fish market floor operation, restaurants, ferry hours, food safety and wayfinding in Niterói before publishing.",
-      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification."
+      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification.",
+      "qa_note_20261113": "ES HTML SHA 34f24c41beb735de6af568224aa60e438359f1e1 checked. FR ferry-to-market walking guidance refined; no new keys. Inline D[l] is ES/PT/EN only. Ferry service, market hours and businesses require official checks; no /fr/ HTML."
     },
     {
       "route": "/compras/feira-das-yabas/",
