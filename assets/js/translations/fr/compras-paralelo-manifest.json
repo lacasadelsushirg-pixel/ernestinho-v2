@@ -17,7 +17,7 @@
       "entries": 29,
       "checked_strings": 29,
       "missing_keys": 0,
-      "qa_note_20261113": "Full original ES HTML checked at SHA cbd68df21336c29e6d5cc2a649a2f8d5608d6446. Added missing og:image:alt translation; localized shopping/navigation as Achats. Source inline ES/PT/EN whitelist and external site.js still block FR runtime. No /fr/ HTML or visual QA."
+      "qa_note_20261113": "Full original ES HTML checked at SHA cbd68df21336c29e6d5cc2a649a2f8d5608d6446. Added missing og:image:alt translation; localized shopping/navigation as Achats. Source inline ES/PT/EN whitelist and external site.js still block FR runtime. No /fr/ HTML or visual QA. Editorial refinement: popular commerce and Uruguaiana electronics descriptions; 29 existing keys unchanged, no source HTML modification."
     },
     {
       "route": "/compras/ferias/",
