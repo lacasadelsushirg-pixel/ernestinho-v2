@@ -76,6 +76,21 @@ SHOPPING_ROUTES = (
     '/compras/feira-das-yabas/',
     '/compras/shopping-tijuca/',
     '/compras/feira-noturna-copacabana/',
+    '/compras/rio-sul/',
+    '/compras/mercadao-madureira/',
+    '/compras/feira-sao-cristovao/',
+    '/compras/uruguaiana/',
+    '/compras/mercado-sao-pedro/',
+    '/compras/norte-shopping/',
+    '/compras/praca-lido/',
+    '/compras/feira-organica-gloria/',
+    '/compras/cadeg/',
+    '/compras/feira-hippie-ipanema/',
+    '/compras/praca-xv/',
+    '/compras/lavradio/',
+    '/compras/village-mall/',
+    '/compras/nova-america/',
+    '/compras/feira-nocturna-copacabana/',
 )
 ROUTES += CULTURE_ROUTES + PHOTO_ROUTES + SHOPPING_ROUTES
 RUNTIME = '/assets/js/fr-preview.js'

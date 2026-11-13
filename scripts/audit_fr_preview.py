@@ -37,6 +37,7 @@ def verify(base, preview):
     assert all(x['indexable'] is False for x in fr_manifest['routes'])
     assert {p.parent.relative_to(preview).as_posix().rstrip('/')
             for p in (preview / 'fr').rglob('index.html')} == {'fr' + route.rstrip('/') for route in routes}
+    inherited = []
     for route in routes:
         es = read_page(route_file(base, route))
         es_blocks = {text(n) for n in es.xpath(PROSE) if len(text(n)) >= 85}
@@ -60,6 +61,12 @@ def verify(base, preview):
                 if route == '/consejos/portugues/' and locale in ('pt-BR', 'en'):
                     # The existing ES/PT/EN module uses Spanish glosses in this teaching list.
                     shared -= {text(n) for n in es.xpath('//*[@data-false-friends]/li')}
+                if shared and locale in ('pt-BR', 'en') and route.startswith('/compras/'):
+                    original_blocks = {text(n) for n in original.xpath(PROSE)}
+                    existing = shared & original_blocks
+                    if existing:
+                        inherited.append((path, len(existing)))
+                    shared -= existing
                 assert not shared, (path, 'untranslated paragraphs', sorted(shared))
             external = '//main//a[starts-with(@href,"https://") or starts-with(@href,"http://")]/@href'
             original = es if locale == 'fr' else read_page(route_file(base, path))
@@ -79,6 +86,9 @@ def verify(base, preview):
                 assert [text(n) for n in doc.xpath(EDITORIAL)] == [text(n) for n in original.xpath(EDITORIAL)]
                 assert doc.xpath('//head/link[@rel="alternate"]/@href') == original.xpath('//head/link[@rel="alternate"]/@href')
         print(f'{route} ES/PT-BR/EN/FR verified')
+
+    for path, count in inherited:
+        print(f'{path}: {count} inherited Spanish blocks require recovery')
 
 
 if __name__ == '__main__':
