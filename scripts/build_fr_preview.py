@@ -299,6 +299,10 @@ def french_page(source, route, copybook, routes=ROUTES):
     if missing:
         raise ValueError(f'{route}: missing French copy for {sorted(missing)!r}')
     add_selector(document, route, french=True)
+    if route in CULTURE_ROUTES:
+        style = html.Element('style')
+        style.text = '@media(max-width:760px){html[lang=fr] main h1,html[lang=fr] .culture-copy{overflow-wrap:anywhere}html[lang=fr] .culture-copy{min-width:0}}'
+        document.find('head').append(style)
     fallback = html.Element('a', href='/quiero/', title='Cette page est disponible en espagnol.')
     fallback.text = 'Assistant Ernestinho en espagnol'
     footer = document.xpath('//footer')
