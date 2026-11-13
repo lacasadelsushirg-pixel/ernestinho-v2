@@ -47,7 +47,21 @@ TIPS_ROUTES = (
     '/consejos/seguro-viaje/', '/consejos/servicios-practicos/', '/consejos/sol-calor/',
     '/consejos/souvenirs/', '/consejos/trampas-turista/',
 )
-ROUTES += GUIDE_ROUTES + TIPS_ROUTES
+TRANSPORT_ROUTES = (
+    '/transportes/bonde-santa-teresa/',
+    '/transportes/terminal-gentileza/',
+    '/transportes/barcas/',
+    '/transportes/vlt/',
+    '/transportes/alquiler-vehiculo/',
+    '/transportes/onibus/',
+    '/transportes/trenes/',
+    '/transportes/uber/',
+    '/transportes/metro/',
+    '/transportes/brt/',
+    '/transportes/bicicletas/',
+    '/transportes/',
+)
+ROUTES += GUIDE_ROUTES + TIPS_ROUTES + TRANSPORT_ROUTES
 FR_COPY = ROOT / 'assets/js/translations/fr'
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
@@ -251,7 +265,8 @@ def build(source, destination, routes=ROUTES):
         raise ValueError('Expected an ES/PT/EN build without French routes.')
     copybook = json.loads((FR_COPY / 'piloto-rio.json').read_text())
     books = {}
-    for section, candidates in (('guia', GUIDE_ROUTES), ('consejos', TIPS_ROUTES)):
+    for section, candidates in (('guia', GUIDE_ROUTES), ('consejos', TIPS_ROUTES),
+                                ('transportes', TRANSPORT_ROUTES)):
         selected = set(routes).intersection(candidates)
         if selected:
             books.update(section_copybooks(selected, section))
