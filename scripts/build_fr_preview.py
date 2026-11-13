@@ -66,7 +66,8 @@ ROUTES += GUIDE_ROUTES + TIPS_ROUTES + TRANSPORT_ROUTES
 FR_COPY = ROOT / 'assets/js/translations/fr'
 CULTURE_ROUTES = tuple(dict.fromkeys(entry['route'] for entry in json.loads(
     (FR_COPY / 'cultura-paralelo-manifest.json').read_text())['scope']))
-ROUTES += CULTURE_ROUTES
+PHOTO_ROUTES = ('/fotografia/',)
+ROUTES += CULTURE_ROUTES + PHOTO_ROUTES
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
     '//title/text()|//body//text()[not(ancestor::script or ancestor::style or ancestor::svg or ancestor::template)]'
@@ -333,7 +334,8 @@ def build(source, destination, routes=ROUTES):
     copybook = json.loads((FR_COPY / 'piloto-rio.json').read_text())
     books = {}
     for section, candidates in (('guia', GUIDE_ROUTES), ('consejos', TIPS_ROUTES),
-                                ('transportes', TRANSPORT_ROUTES), ('cultura', CULTURE_ROUTES)):
+                                ('transportes', TRANSPORT_ROUTES), ('cultura', CULTURE_ROUTES),
+                                ('fotografia', PHOTO_ROUTES)):
         selected = set(routes).intersection(candidates)
         if selected:
             books.update(section_copybooks(selected, section))
