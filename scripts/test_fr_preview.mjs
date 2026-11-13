@@ -97,6 +97,30 @@ try {
       assert.ok(size.content <= size.viewport + 1, JSON.stringify({ route, width, size }));
       const whatsapp = await page.locator('a[href*="wa.me"][href*="text="]').first().getAttribute('href');
       assert.match(decodeURIComponent(whatsapp), /Bonjour\+Ernestinho/);
+      if (route === '/guia/mes-a-mes/') {
+        const grid = page.locator('#month-grid');
+        assert.equal(await grid.locator('article').count(), 12);
+        for (const [tab, count, title] of [['rain', 6, /pluie/], ['heat', 5, /chaleur/]]) {
+          await page.locator(`[data-tab="${tab}"]`).click();
+          const panel = page.locator(`#fr-month-${tab}`);
+          assert.ok(await panel.isVisible());
+          assert.match(await panel.locator('h2').textContent(), title);
+          assert.equal(await panel.locator('li').count(), count);
+          assert.equal(await grid.isVisible(), false);
+        }
+        await page.locator('[data-tab="month"]').click();
+        assert.ok(await grid.isVisible());
+        assert.equal(await page.locator('#month-extra').isVisible(), false);
+      }
+      if (route === '/guia/pix/') {
+        assert.equal(await page.locator('figure img[src*="apps%20pix.png"]').count(), 1);
+      }
+      if (route === '/guia/guarda-equipaje/') {
+        const faq = page.locator('main details');
+        assert.equal(await faq.count(), 6);
+        await faq.first().locator('summary').click();
+        assert.ok(await faq.first().locator('p').isVisible());
+      }
       if (route === '/') {
         const next = page.locator('[data-carousel-direction="next"]').first();
         if (await next.isVisible()) {

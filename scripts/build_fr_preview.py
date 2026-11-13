@@ -33,9 +33,21 @@ GUIDE_ROUTES = (
     '/guia/accesibilidad/', '/guia/aeropuertos/', '/guia/alquiler-auto/',
     '/guia/consulados/', '/guia/cpf/', '/guia/documentos/', '/guia/donde-alojarse/',
     '/guia/emergencias/', '/guia/internet/', '/guia/menores/',
+    '/guia/pix/', '/guia/mes-a-mes/', '/guia/guarda-equipaje/',
     '/guia/seguro/', '/guia/terminales/', '/guia/vacunas/', '/guia/viajar-solo/',
 )
-ROUTES += GUIDE_ROUTES
+TIPS_ROUTES = (
+    '/consejos/', '/consejos/20-consejos/', '/consejos/50-preguntas/',
+    '/consejos/atardeceres-inolvidables/', '/consejos/electricidad-adaptadores/',
+    '/consejos/errores-rio/', '/consejos/estado-del-mar-playas/', '/consejos/lluvia/',
+    '/consejos/maletas-rio/', '/consejos/mascotas-rio/', '/consejos/nadie-explica/',
+    '/consejos/perfiles-viajero/', '/consejos/playa-barracas-quiosques/',
+    '/consejos/que-hacer-cada-dia/', '/consejos/recorrido-zona-portuaria/',
+    '/consejos/revisar-alojamiento/', '/consejos/rio-1-a-7-dias/', '/consejos/rodizio/',
+    '/consejos/seguro-viaje/', '/consejos/servicios-practicos/', '/consejos/sol-calor/',
+    '/consejos/souvenirs/', '/consejos/trampas-turista/',
+)
+ROUTES += GUIDE_ROUTES + TIPS_ROUTES
 FR_COPY = ROOT / 'assets/js/translations/fr'
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
@@ -147,6 +159,16 @@ def update_urls(document, route, lookup, routes):
             }))))
 
 
+def restore_preview_media(document, route):
+    if route == '/guia/pix/':
+        for figure in document.xpath('//figure[starts-with(normalize-space(text()), "img src=")]'):
+            image = html.fragment_fromstring('<' + figure.text.strip())
+            if image.tag != 'img':
+                raise ValueError('Unexpected malformed Pix illustration')
+            figure.text = None
+            figure.insert(0, image)
+
+
 def french_page(source, route, copybook, routes=ROUTES):
     document = copy.deepcopy(source)
     document.set('lang', 'fr')
@@ -167,6 +189,29 @@ def french_page(source, route, copybook, routes=ROUTES):
             missing.add(value)
         return copybook.get(value, value)
 
+    restore_preview_media(document, route)
+
+    if route == '/guia/mes-a-mes/':
+        data = json.loads(read_page(route_file(ROOT, route)).xpath('//script[@id="month-data"]')[0].text)
+        for tab, heading in (('rain', 'Si llueve: cómo adaptar el día'),
+                             ('heat', 'Cuando hace mucho calor')):
+            panel = html.Element('section', id=f'fr-month-{tab}', hidden='')
+            panel.append(html.Element('h2'))
+            panel[-1].text = heading
+            listing = html.Element('ul')
+            for label, advice in data[tab]['es']:
+                li = html.Element('li')
+                title = html.Element('span')
+                title.text = label
+                title.tail = ' · '
+                li.append(title)
+                detail = html.Element('span')
+                detail.text = advice
+                listing.append(li)
+                li.append(detail)
+            panel.append(listing)
+            document.xpath('//*[@id="month-extra"]')[0].append(panel)
+
     translate_nodes(document, lookup)
     update_urls(document, route, lookup, routes)
     if missing:
@@ -179,19 +224,22 @@ def french_page(source, route, copybook, routes=ROUTES):
     return document
 
 
-def guide_copybooks(routes):
-    scope = json.loads((FR_COPY / 'guia-paralelo-manifest.json').read_text())['scope']
-    supplements = json.loads((FR_COPY / 'guia-preview-supplement.json').read_text())
+def section_copybooks(routes, section):
+    scope = json.loads((FR_COPY / f'{section}-paralelo-manifest.json').read_text())['scope']
+    supplements = json.loads((FR_COPY / f'{section}-preview-supplement.json').read_text())
     books = {}
     for entry in scope:
         route = entry['route']
-        if route not in routes or route not in GUIDE_ROUTES:
+        if route not in routes:
             continue
         raw = route_file(ROOT, route).read_bytes()
         blob = sha1(f'blob {len(raw)}\0'.encode() + raw).hexdigest()
         if entry['source_sha'] != blob:
             raise ValueError(f'{route}: Spanish source has changed since the French editorial review')
-        books[route] = json.loads((ROOT / entry['file']).read_text()) | supplements.get(route, {})
+        book = {}
+        for file in entry.get('files') or [entry.get('file') or entry['dictionary']]:
+            book.update(json.loads((ROOT / file).read_text()))
+        books[route] = book | supplements.get(route, {})
     return books
 
 
@@ -202,7 +250,11 @@ def build(source, destination, routes=ROUTES):
     if (source / 'fr').exists():
         raise ValueError('Expected an ES/PT/EN build without French routes.')
     copybook = json.loads((FR_COPY / 'piloto-rio.json').read_text())
-    books = guide_copybooks(routes)
+    books = {}
+    for section, candidates in (('guia', GUIDE_ROUTES), ('consejos', TIPS_ROUTES)):
+        selected = set(routes).intersection(candidates)
+        if selected:
+            books.update(section_copybooks(selected, section))
     validated = {entry['route'] for entry in manifest['routes'] if entry['indexable']}
     if any(prefix + route not in validated for route in routes for prefix, _, _ in LANGS):
         raise ValueError('Every French preview must have three indexable source counterparts.')

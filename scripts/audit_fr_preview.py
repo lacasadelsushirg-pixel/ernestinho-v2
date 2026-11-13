@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from build_fr_preview import LANGS, ORIGIN, read_page, route_file
+from build_fr_preview import LANGS, ORIGIN, read_page, restore_preview_media, route_file
 
 EDITORIAL = '//main//*[self::h1 or self::h2 or self::h3 or self::p or self::li or self::td or self::th]'
 PROSE = '//main//*[self::p or self::li or self::td or self::th]'
@@ -43,7 +43,13 @@ def verify(base, preview):
             assert len(doc.xpath('//h1')) == len(es.xpath('//h1')), (path, 'h1')
             assert doc.xpath('//link[@rel="canonical"]/@href') == [ORIGIN + path], (path, 'canonical')
             assert doc.xpath('//head/title/text()') and doc.xpath('//head/meta[@name="description"]/@content')
-            assert len(doc.xpath(EDITORIAL)) == len(es.xpath(EDITORIAL)), (path, 'editorial structure')
+            extra = 0
+            if locale == 'fr' and route == '/guia/mes-a-mes/':
+                assert len(doc.xpath('//*[@id="fr-month-rain"]//li')) == 6
+                assert len(doc.xpath('//*[@id="fr-month-heat"]//li')) == 5
+                assert len(doc.xpath('//*[@id="month-grid"]/article')) == 12
+                extra = 13
+            assert len(doc.xpath(EDITORIAL)) == len(es.xpath(EDITORIAL)) + extra, (path, 'editorial structure')
             assert doc.xpath('//*[@data-fr-preview-choice]/@href') == ['/fr' + route] * 2, (path, 'selector')
             if prefix:
                 shared = {text(n) for n in doc.xpath(PROSE)} & es_blocks
@@ -58,6 +64,7 @@ def verify(base, preview):
             if locale == 'fr':
                 assert doc.xpath('//meta[@name="robots"]/@content') == ['noindex, follow']
                 assert not doc.xpath('//head/link[@rel="alternate"][@hreflang]')
+                restore_preview_media(es, route)
                 assert doc.xpath(MEDIA) == es.xpath(MEDIA), (path, 'media changed')
                 for link in doc.xpath('//a[starts-with(@href,"/fr/")]/@href'):
                     assert route_file(preview, urlsplit(link).path).is_file(), (path, link)

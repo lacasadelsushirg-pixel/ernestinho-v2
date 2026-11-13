@@ -69,5 +69,25 @@
     "Fotos de Guía de alojamiento en Río": "Photos — Guide de l’hébergement à Rio",
     "Guía de alojamiento en Río: MINIATURA GUIA RIO DONDE ALOJARSE": "Guide de l’hébergement à Rio — où séjourner",
     "← Volver a Guía de Río": "← Retour au guide de Rio"
+  },
+  "/guia/pix/": {
+    "Fotos de GUÍA PIX": "Photos — Guide de Pix",
+    "GUÍA PIX: MINIATURA GUIA RIO PIX": "Guide de Pix au Brésil",
+    "← Volver a Guía de Río": "← Retour au guide de Rio"
+  },
+  "/guia/guarda-equipaje/": {
+    "Bounce: disfruta Río sin maletas": "Bounce : profitez de Rio sans vos valises",
+    "Buscar guarda equipaje en Bounce ↗": "Chercher une consigne sur Bounce ↗",
+    "Enlace de afiliación: Ernestinho puede recibir una comisión por una reserva. Revisa ubicación, horario, precio y condiciones en Bounce antes de pagar.": "Lien affilié : Ernestinho peut recevoir une commission si vous réservez. Vérifiez l’emplacement, les horaires, le prix et les conditions sur Bounce avant de payer.",
+    "Continuar con la guía →": "Poursuivre la lecture →",
+    "GUÍA DE RÍO · Maletas y guarda equipaje": "GUIDE DE RIO · Valises et consignes à bagages"
+  },
+  "/guia/mes-a-mes/": {
+    "Fotos de Mes, lluvia y calor también diseñan el viaje.": "Photos — Rio mois par mois",
+    "Mes, lluvia y calor también diseñan el viaje.: CLIMA HOME": "Le climat à Rio",
+    "Mes, lluvia y calor también diseñan el viaje.: MINIATURA GUIA RIO MALETA Y CLIMA": "Valise et météo à Rio",
+    "Mes, lluvia y calor también diseñan el viaje.: MINIATURA GUIA RIO RIO MES A MES": "Rio mois par mois",
+    "Mes, lluvia y calor también diseñan el viaje.: para clima en rio": "La météo à Rio",
+    "Mes, lluvia y calor también diseñan el viaje.: para clima en rio 2 con termometro": "La température à Rio"
   }
 }

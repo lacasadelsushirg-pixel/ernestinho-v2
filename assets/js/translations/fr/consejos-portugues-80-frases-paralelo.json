@@ -1,0 +1,583 @@
+{
+  "status": "fr_translation_supplement_not_integrated",
+  "source_data": "assets/data/portugues-util.json",
+  "source_data_sha": "e7717184030edb282de73743d0620b79c58f8552",
+  "source_module": "assets/js/portugues-util.js",
+  "source_module_sha": "b3948086251283f3323cc723872613fbbe2871d6",
+  "instructions": "Use fr fields to render French translation of Portuguese phrase, preserve pt and audioPublicId/audioUrl/id/category and existing Cloudinary audio; do not alter audio playback rate controls. Keep all current ES/PT/EN data untouched. Provide FR-only labels and error status via private renderer. The Portuguese original must remain for audio playback and speech.",
+  "categories": [
+    {
+      "id": "basico",
+      "fr": "Les bases"
+    },
+    {
+      "id": "llegada",
+      "fr": "Arrivée"
+    },
+    {
+      "id": "transporte",
+      "fr": "Transports"
+    },
+    {
+      "id": "praia",
+      "fr": "Plage"
+    },
+    {
+      "id": "restaurante",
+      "fr": "Restaurant"
+    },
+    {
+      "id": "pagos",
+      "fr": "Achats et paiements"
+    },
+    {
+      "id": "saude",
+      "fr": "Santé"
+    },
+    {
+      "id": "seguranca",
+      "fr": "Sécurité"
+    },
+    {
+      "id": "hospedagem",
+      "fr": "Hébergement"
+    },
+    {
+      "id": "eventos",
+      "fr": "Événements"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "bom-dia",
+      "pt_original": "Bom dia.",
+      "es_original": "Buenos días.",
+      "fr": "Bonjour."
+    },
+    {
+      "id": "boa-tarde",
+      "pt_original": "Boa tarde.",
+      "es_original": "Buenas tardes.",
+      "fr": "Bon après-midi."
+    },
+    {
+      "id": "boa-noite",
+      "pt_original": "Boa noite.",
+      "es_original": "Buenas noches.",
+      "fr": "Bonsoir."
+    },
+    {
+      "id": "tudo-bem",
+      "pt_original": "Oi, tudo bem?",
+      "es_original": "Hola, ¿todo bien?",
+      "fr": "Bonjour, tout va bien ?"
+    },
+    {
+      "id": "obrigado",
+      "pt_original": "Obrigado / Obrigada.",
+      "es_original": "Gracias.",
+      "fr": "Merci."
+    },
+    {
+      "id": "nao-entendi",
+      "pt_original": "Não entendi.",
+      "es_original": "No entendí.",
+      "fr": "Je n'ai pas compris."
+    },
+    {
+      "id": "fale-devagar",
+      "pt_original": "Pode falar mais devagar?",
+      "es_original": "¿Puede hablar más despacio?",
+      "fr": "Pourriez-vous parler plus lentement ?"
+    },
+    {
+      "id": "falar-espanhol",
+      "pt_original": "Você fala espanhol?",
+      "es_original": "¿Habla español?",
+      "fr": "Parlez-vous espagnol ?"
+    },
+    {
+      "id": "onde-saida",
+      "pt_original": "Onde fica a saída?",
+      "es_original": "¿Dónde está la salida?",
+      "fr": "Où se trouve la sortie ?"
+    },
+    {
+      "id": "onde-uber",
+      "pt_original": "Onde pego o Uber?",
+      "es_original": "¿Dónde tomo el Uber?",
+      "fr": "Où puis-je prendre mon Uber ?"
+    },
+    {
+      "id": "ponto-taxi",
+      "pt_original": "Onde fica o ponto de táxi?",
+      "es_original": "¿Dónde está la parada de taxis?",
+      "fr": "Où se trouve la station de taxis ?"
+    },
+    {
+      "id": "retirar-bagagem",
+      "pt_original": "Onde retiro minha bagagem?",
+      "es_original": "¿Dónde retiro mi equipaje?",
+      "fr": "Où puis-je récupérer mes bagages ?"
+    },
+    {
+      "id": "mala-nao-chegou",
+      "pt_original": "Minha mala não chegou.",
+      "es_original": "Mi maleta no llegó.",
+      "fr": "Ma valise n'est pas arrivée."
+    },
+    {
+      "id": "terminal-correto",
+      "pt_original": "Este é o terminal correto?",
+      "es_original": "¿Este es el terminal correcto?",
+      "fr": "Est-ce le bon terminal ?"
+    },
+    {
+      "id": "tempo-copacabana",
+      "pt_original": "Quanto tempo demora até Copacabana?",
+      "es_original": "¿Cuánto demora hasta Copacabana?",
+      "fr": "Combien de temps faut-il pour aller à Copacabana ?"
+    },
+    {
+      "id": "deixar-endereco",
+      "pt_original": "Pode me deixar neste endereço?",
+      "es_original": "¿Puede dejarme en esta dirección?",
+      "fr": "Pouvez-vous me déposer à cette adresse ?"
+    },
+    {
+      "id": "para-quem-veio",
+      "pt_original": "Para quem você veio?",
+      "es_original": "¿A quién vino a buscar?",
+      "fr": "Qui venez-vous chercher ?"
+    },
+    {
+      "id": "placa-confere",
+      "pt_original": "A placa é esta?",
+      "es_original": "¿Esta es la matrícula?",
+      "fr": "Est-ce bien cette plaque d'immatriculation ?"
+    },
+    {
+      "id": "parar-aqui",
+      "pt_original": "Pode parar aqui, por favor?",
+      "es_original": "¿Puede parar aquí, por favor?",
+      "fr": "Pouvez-vous vous arrêter ici, s'il vous plaît ?"
+    },
+    {
+      "id": "quanto-falta",
+      "pt_original": "Quanto falta?",
+      "es_original": "¿Cuánto falta?",
+      "fr": "Combien de temps reste-t-il ?"
+    },
+    {
+      "id": "onibus-vai",
+      "pt_original": "Este ônibus vai para Copacabana?",
+      "es_original": "¿Este autobús va a Copacabana?",
+      "fr": "Ce bus va-t-il à Copacabana ?"
+    },
+    {
+      "id": "onde-desco",
+      "pt_original": "Onde eu desço?",
+      "es_original": "¿Dónde me bajo?",
+      "fr": "Où dois-je descendre ?"
+    },
+    {
+      "id": "estacao-usar",
+      "pt_original": "Qual estação devo usar?",
+      "es_original": "¿Qué estación debo usar?",
+      "fr": "Quelle station dois-je prendre ?"
+    },
+    {
+      "id": "trocar-linha",
+      "pt_original": "Preciso trocar de linha?",
+      "es_original": "¿Tengo que cambiar de línea?",
+      "fr": "Dois-je changer de ligne ?"
+    },
+    {
+      "id": "preco-cadeira",
+      "pt_original": "Quanto custa a cadeira?",
+      "es_original": "¿Cuánto cuesta la silla?",
+      "fr": "Combien coûte la chaise ?"
+    },
+    {
+      "id": "preco-guarda-sol",
+      "pt_original": "Quanto custa o guarda-sol?",
+      "es_original": "¿Cuánto cuesta la sombrilla?",
+      "fr": "Combien coûte le parasol ?"
+    },
+    {
+      "id": "consumo-minimo",
+      "pt_original": "Tem consumo mínimo?",
+      "es_original": "¿Hay consumo mínimo?",
+      "fr": "Y a-t-il une consommation minimale ?"
+    },
+    {
+      "id": "quanto-tudo",
+      "pt_original": "Quanto custa tudo?",
+      "es_original": "¿Cuánto cuesta todo?",
+      "fr": "Combien coûte le tout ?"
+    },
+    {
+      "id": "banheiro-praia",
+      "pt_original": "Tem banheiro por aqui?",
+      "es_original": "¿Hay baño por aquí?",
+      "fr": "Y a-t-il des toilettes par ici ?"
+    },
+    {
+      "id": "mar-perigoso",
+      "pt_original": "O mar está perigoso hoje?",
+      "es_original": "¿El mar está peligroso hoy?",
+      "fr": "La mer est-elle dangereuse aujourd'hui ?"
+    },
+    {
+      "id": "salva-vidas",
+      "pt_original": "Tem salva-vidas perto?",
+      "es_original": "¿Hay guardavidas cerca?",
+      "fr": "Y a-t-il un sauveteur à proximité ?"
+    },
+    {
+      "id": "posto-quatro",
+      "pt_original": "Onde fica o Posto 4?",
+      "es_original": "¿Dónde queda el Posto 4?",
+      "fr": "Où se trouve le Posto 4 ?"
+    },
+    {
+      "id": "mesa-duas",
+      "pt_original": "Tem mesa para duas pessoas?",
+      "es_original": "¿Tiene mesa para dos personas?",
+      "fr": "Avez-vous une table pour deux personnes ?"
+    },
+    {
+      "id": "cardapio",
+      "pt_original": "Pode trazer o cardápio?",
+      "es_original": "¿Puede traer el menú?",
+      "fr": "Pouvez-vous apporter le menu ?"
+    },
+    {
+      "id": "recomenda",
+      "pt_original": "O que você recomenda?",
+      "es_original": "¿Qué recomienda?",
+      "fr": "Que recommandez-vous ?"
+    },
+    {
+      "id": "serve-duas",
+      "pt_original": "Serve duas pessoas?",
+      "es_original": "¿Sirve para dos personas?",
+      "fr": "Est-ce suffisant pour deux personnes ?"
+    },
+    {
+      "id": "apimentado",
+      "pt_original": "É apimentado?",
+      "es_original": "¿Es picante?",
+      "fr": "Est-ce épicé ?"
+    },
+    {
+      "id": "sem-carne",
+      "pt_original": "Tem opção sem carne?",
+      "es_original": "¿Tiene opción sin carne?",
+      "fr": "Y a-t-il une option sans viande ?"
+    },
+    {
+      "id": "conta",
+      "pt_original": "A conta, por favor.",
+      "es_original": "La cuenta, por favor.",
+      "fr": "L'addition, s'il vous plaît."
+    },
+    {
+      "id": "couvert",
+      "pt_original": "Tem couvert artístico?",
+      "es_original": "¿Hay couvert artístico?",
+      "fr": "Y a-t-il un supplément pour la musique live ?"
+    },
+    {
+      "id": "quanto-custa",
+      "pt_original": "Quanto custa?",
+      "es_original": "¿Cuánto cuesta?",
+      "fr": "Combien ça coûte ?"
+    },
+    {
+      "id": "aceita-cartao",
+      "pt_original": "Aceita cartão?",
+      "es_original": "¿Acepta tarjeta?",
+      "fr": "Acceptez-vous les cartes bancaires ?"
+    },
+    {
+      "id": "aceita-pix",
+      "pt_original": "Aceita Pix?",
+      "es_original": "¿Acepta Pix?",
+      "fr": "Acceptez-vous Pix ?"
+    },
+    {
+      "id": "mostrar-maquina",
+      "pt_original": "Pode mostrar o valor na máquina?",
+      "es_original": "¿Puede mostrarme el valor en la máquina?",
+      "fr": "Pouvez-vous me montrer le montant sur le terminal ?"
+    },
+    {
+      "id": "pagamento-passou",
+      "pt_original": "O pagamento passou?",
+      "es_original": "¿El pago pasó?",
+      "fr": "Le paiement est-il passé ?"
+    },
+    {
+      "id": "outro-tamanho",
+      "pt_original": "Tem outro tamanho?",
+      "es_original": "¿Tiene otra talla?",
+      "fr": "Avez-vous une autre taille ?"
+    },
+    {
+      "id": "posso-trocar",
+      "pt_original": "Posso trocar?",
+      "es_original": "¿Lo puedo cambiar?",
+      "fr": "Puis-je l'échanger ?"
+    },
+    {
+      "id": "nota-fiscal",
+      "pt_original": "Tem nota fiscal?",
+      "es_original": "¿Tiene comprobante/factura?",
+      "fr": "Avez-vous une facture ou un reçu ?"
+    },
+    {
+      "id": "farmacia",
+      "pt_original": "Preciso de uma farmácia.",
+      "es_original": "Necesito una farmacia.",
+      "fr": "J'ai besoin d'une pharmacie."
+    },
+    {
+      "id": "farmacia-24h",
+      "pt_original": "Tem farmácia 24 horas por aqui?",
+      "es_original": "¿Hay una farmacia 24 horas por aquí?",
+      "fr": "Y a-t-il une pharmacie ouverte 24 h/24 près d'ici ?"
+    },
+    {
+      "id": "estou-febre",
+      "pt_original": "Estou com febre.",
+      "es_original": "Tengo fiebre.",
+      "fr": "J'ai de la fièvre."
+    },
+    {
+      "id": "estou-dor",
+      "pt_original": "Estou com dor.",
+      "es_original": "Tengo dolor.",
+      "fr": "J'ai mal."
+    },
+    {
+      "id": "alergia",
+      "pt_original": "Tenho alergia a isto.",
+      "es_original": "Soy alérgico/a a esto.",
+      "fr": "Je suis allergique à cela."
+    },
+    {
+      "id": "preciso-medico",
+      "pt_original": "Preciso de um médico.",
+      "es_original": "Necesito un médico.",
+      "fr": "J'ai besoin d'un médecin."
+    },
+    {
+      "id": "preciso-upa",
+      "pt_original": "Preciso ir a uma UPA.",
+      "es_original": "Necesito ir a una UPA.",
+      "fr": "Je dois aller dans une UPA (unité de soins d'urgence)."
+    },
+    {
+      "id": "chame-samu",
+      "pt_original": "Chame o SAMU, por favor.",
+      "es_original": "Llame al SAMU, por favor.",
+      "fr": "Appelez le SAMU, s'il vous plaît."
+    },
+    {
+      "id": "preciso-ajuda",
+      "pt_original": "Preciso de ajuda.",
+      "es_original": "Necesito ayuda.",
+      "fr": "J'ai besoin d'aide."
+    },
+    {
+      "id": "fui-roubado",
+      "pt_original": "Fui roubado / roubada.",
+      "es_original": "Me robaron.",
+      "fr": "On m'a volé mes affaires."
+    },
+    {
+      "id": "perdi-celular",
+      "pt_original": "Perdi meu celular.",
+      "es_original": "Perdí mi celular.",
+      "fr": "J'ai perdu mon téléphone."
+    },
+    {
+      "id": "perdi-passaporte",
+      "pt_original": "Perdi meu passaporte.",
+      "es_original": "Perdí mi pasaporte.",
+      "fr": "J'ai perdu mon passeport."
+    },
+    {
+      "id": "onde-delegacia",
+      "pt_original": "Onde fica a delegacia?",
+      "es_original": "¿Dónde está la comisaría?",
+      "fr": "Où se trouve le commissariat ?"
+    },
+    {
+      "id": "registrar-ocorrencia",
+      "pt_original": "Quero registrar uma ocorrência.",
+      "es_original": "Quiero hacer una denuncia.",
+      "fr": "Je veux déposer plainte."
+    },
+    {
+      "id": "chamar-policia",
+      "pt_original": "Pode chamar a polícia?",
+      "es_original": "¿Puede llamar a la policía?",
+      "fr": "Pouvez-vous appeler la police ?"
+    },
+    {
+      "id": "estou-perdido",
+      "pt_original": "Estou perdido / perdida.",
+      "es_original": "Estoy perdido/a.",
+      "fr": "Je suis perdu(e)."
+    },
+    {
+      "id": "tenho-reserva",
+      "pt_original": "Tenho uma reserva.",
+      "es_original": "Tengo una reserva.",
+      "fr": "J'ai une réservation."
+    },
+    {
+      "id": "senha-wifi",
+      "pt_original": "Qual é a senha do Wi-Fi?",
+      "es_original": "¿Cuál es la contraseña del Wi-Fi?",
+      "fr": "Quel est le mot de passe du Wi-Fi ?"
+    },
+    {
+      "id": "elevador",
+      "pt_original": "Onde fica o elevador?",
+      "es_original": "¿Dónde está el ascensor?",
+      "fr": "Où se trouve l'ascenseur ?"
+    },
+    {
+      "id": "agua-quente",
+      "pt_original": "A água quente está funcionando?",
+      "es_original": "¿Funciona el agua caliente?",
+      "fr": "L'eau chaude fonctionne-t-elle ?"
+    },
+    {
+      "id": "ar-condicionado",
+      "pt_original": "O ar-condicionado não está funcionando.",
+      "es_original": "El aire acondicionado no funciona.",
+      "fr": "La climatisation ne fonctionne pas."
+    },
+    {
+      "id": "preciso-toalhas",
+      "pt_original": "Preciso de toalhas.",
+      "es_original": "Necesito toallas.",
+      "fr": "J'ai besoin de serviettes."
+    },
+    {
+      "id": "deixar-bagagem",
+      "pt_original": "Posso deixar a bagagem?",
+      "es_original": "¿Puedo dejar el equipaje?",
+      "fr": "Puis-je laisser mes bagages ?"
+    },
+    {
+      "id": "horario-checkout",
+      "pt_original": "Qual é o horário do check-out?",
+      "es_original": "¿A qué hora es el check-out?",
+      "fr": "À quelle heure doit-on quitter la chambre ?"
+    },
+    {
+      "id": "onde-entrada",
+      "pt_original": "Onde fica a entrada?",
+      "es_original": "¿Dónde está la entrada?",
+      "fr": "Où se trouve l'entrée ?"
+    },
+    {
+      "id": "qual-setor",
+      "pt_original": "Qual é o setor?",
+      "es_original": "¿Cuál es el sector?",
+      "fr": "Dans quel secteur ?"
+    },
+    {
+      "id": "fila-ingresso",
+      "pt_original": "Esta fila é para este ingresso?",
+      "es_original": "¿Esta fila es para esta entrada?",
+      "fr": "Cette file d'attente est-elle pour ce billet ?"
+    },
+    {
+      "id": "entrar-mochila",
+      "pt_original": "Posso entrar com mochila?",
+      "es_original": "¿Puedo entrar con mochila?",
+      "fr": "Puis-je entrer avec un sac à dos ?"
+    },
+    {
+      "id": "que-horas-comeca",
+      "pt_original": "Que horas começa?",
+      "es_original": "¿A qué hora empieza?",
+      "fr": "À quelle heure cela commence-t-il ?"
+    },
+    {
+      "id": "onde-metro-evento",
+      "pt_original": "Onde fica o metrô?",
+      "es_original": "¿Dónde está el metro?",
+      "fr": "Où se trouve le métro ?"
+    },
+    {
+      "id": "ponto-encontro",
+      "pt_original": "Onde vamos nos encontrar depois?",
+      "es_original": "¿Dónde nos encontramos después?",
+      "fr": "Où nous retrouverons-nous après ?"
+    },
+    {
+      "id": "ingresso-nao-abre",
+      "pt_original": "Meu ingresso não está abrindo.",
+      "es_original": "Mi entrada no abre.",
+      "fr": "Mon billet ne s'ouvre pas."
+    }
+  ],
+  "falseFriends": [
+    {
+      "pt": "grávida",
+      "fr": "enceinte",
+      "note": "En portugais, « embaraçada » signifie gênée ou embarrassée."
+    },
+    {
+      "pt": "oficina",
+      "fr": "garage / atelier de réparation",
+      "note": "Pour un bureau de travail, on dit « escritório »."
+    },
+    {
+      "pt": "presunto",
+      "fr": "jambon",
+      "note": "Ne signifie pas « présumé » en français."
+    },
+    {
+      "pt": "apelido",
+      "fr": "surnom",
+      "note": "« Sobrenome » signifie nom de famille."
+    },
+    {
+      "pt": "esquisito",
+      "fr": "bizarre / étrange",
+      "note": "Ne signifie pas « exquis »."
+    },
+    {
+      "pt": "borracha",
+      "fr": "gomme / caoutchouc",
+      "note": "« Bêbado/bêbada » signifie ivre."
+    },
+    {
+      "pt": "gorjeta",
+      "fr": "pourboire",
+      "note": "C'est le mot habituel pour désigner un pourboire."
+    },
+    {
+      "pt": "pasta",
+      "fr": "dossier / pâte selon le contexte",
+      "note": "Pour parler de nourriture, le mot dépend du plat : « massa », « macarrão », « espaguete »."
+    }
+  ],
+  "ui": {
+    "all": "Toutes",
+    "listen": "Écouter",
+    "slow": "Lentement",
+    "missingAudio": "Je n'ai pas trouvé l'enregistrement audio de cette expression sur Cloudinary.",
+    "loadError": "Impossible de charger le guide de portugais.",
+    "filtersAria": "Catégories de phrases"
+  },
+  "audio_qa_pending": true
+}
