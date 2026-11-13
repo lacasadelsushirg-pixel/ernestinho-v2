@@ -129,7 +129,7 @@
       "dynamic_js_keys": 45,
       "editorial_review": "Check current fish market floor operation, restaurants, ferry hours, food safety and wayfinding in Niterói before publishing.",
       "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification.",
-      "qa_note_20261113": "ES HTML SHA 34f24c41beb735de6af568224aa60e438359f1e1 checked. FR ferry-to-market walking guidance refined; no new keys. Inline D[l] is ES/PT/EN only. Ferry service, market hours and businesses require official checks; no /fr/ HTML."
+      "qa_note_20261113": "ES original HTML completo revisado, SHA 34f24c41beb735de6af568224aa60e438359f1e1 (33 707 caracteres). Ajustados dos pasajes franceses: subtítulo de aromas de la bahía y entrada editorial sobre la región de Río/Niterói. Sin claves nuevas; mantener revisión oficial de transporte, horarios y negocios antes de publicar. FR sigue sin renderizar ni indexar."
     },
     {
       "route": "/compras/feira-das-yabas/",
