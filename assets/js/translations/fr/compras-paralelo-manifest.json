@@ -136,11 +136,12 @@
       "route": "/compras/feira-das-yabas/",
       "source_sha": "cb371f672dd37246b9d2805c5750593f143ce0f1",
       "dictionary": "assets/js/translations/fr/compras-feira-das-yabas-paralelo.json",
-      "entries": 56,
-      "checked_strings": 56,
+      "entries": 57,
+      "checked_strings": 57,
       "missing_keys": 0,
       "extra_dynamics": "data-y-es translated; private FR renderer must add data-y-fr and allow fr in language whitelist",
-      "editorial_review": "Check schedule/editions, musicians, opening and event-specific transport before publication; preserve Afro-Brazilian context and no photography without permission."
+      "editorial_review": "Check schedule/editions, musicians, opening and event-specific transport before publication; preserve Afro-Brazilian context and no photography without permission.",
+      "qa": "Source ES HTML SHA cb371f672dd37246b9d2805c5750593f143ce0f1; added OG image alt, French navigation and FR selector label staging. Existing malformed closing strong tags around Qué buscar/Para quién/Combínalo con require safe DOM handling; inline ES/PT/EN-only JS still needs FR integration. No HTML or SEO published."
     },
     {
       "route": "/compras/norte-shopping/",
@@ -400,12 +401,12 @@
   ],
   "totals": {
     "prepared_pages": 33,
-    "static_dictionary_entries": 2122,
+    "static_dictionary_entries": 2123,
     "dynamic_JS_keys": 697,
     "extra_story_paragraphs": 155,
     "coverage_missing_visible_meta_alt": 0,
     "dynamic_image_captions": 2,
-    "total_source_translation_units": 2976
+    "total_source_translation_units": 2977
   },
   "known_integration_blockers": [
     "Existing source JavaScript includes only es/pt/en as language whitelist; without integrating fr on a separate preview, French dictionaries will not render.",
