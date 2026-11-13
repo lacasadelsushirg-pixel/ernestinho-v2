@@ -237,7 +237,8 @@
       "dynamic_supplement": "assets/js/translations/fr/compras-feira-da-providencia-dinamico-paralelo.json",
       "dynamic_js_keys": 30,
       "dynamic_story_paragraphs": 4,
-      "editorial_review": "CRITICAL: Original body (community of Providência) contradicts later source section portraying the massive Feira da Providência event at Riocentro. Separate identity, organization, location and edition before release. Don't index this content without editorial reconstruction."
+      "editorial_review": "CRITICAL: Original body (community of Providência) contradicts later source section portraying the massive Feira da Providência event at Riocentro. Separate identity, organization, location and edition before release. Don't index this content without editorial reconstruction.",
+      "qa_note_20261112": "Source HTML inspected: Spanish SEO meta/OG/Twitter/JSON-LD description is truncated mid-sentence. French dictionary now faithfully reflects the truncated source rather than replacing it with a generic summary. BLOCKER: Source combines community/favela narrative with the separate Riocentro commercial fair, so factual identity and SEO must be reconstructed in the source by the ES/PT/EN recovery team before any FR rendering. Existing source and production untouched."
     },
     {
       "route": "/compras/lavradio/",
