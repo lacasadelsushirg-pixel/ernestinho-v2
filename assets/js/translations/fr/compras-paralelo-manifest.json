@@ -74,7 +74,8 @@
       "checked_strings": 17,
       "missing_keys": 0,
       "editorial_review": "Verify Feirarte III operating days and 08:00–20:00 times with Rio 1746 before publication; source is date-sensitive. Keep in staging/noindex.",
-      "qa": "2026-11-12: Full ES source HTML inspected at SHA d05fcc20bb8a6d318fed3a33b67b3d29575cde2a. All 17 distinct editorial strings mapped: title, meta description, navigation, heading, lead, two captions, both image alt texts, source link and footer. No inline editorial JavaScript; external site.js remains unintegrated for FR. CSS/photo URLs and municipal reference preserved in original. No French HTML generated."
+      "qa": "2026-11-12: Full ES source HTML inspected at SHA d05fcc20bb8a6d318fed3a33b67b3d29575cde2a. All 17 distinct editorial strings mapped: title, meta description, navigation, heading, lead, two captions, both image alt texts, source link and footer. No inline editorial JavaScript; external site.js remains unintegrated for FR. CSS/photo URLs and municipal reference preserved in original. No French HTML generated.",
+      "qa_note_20261113": "Source ES HTML SHA d05fcc20bb8a6d318fed3a33b67b3d29575cde2a checked again: translated source button label ES to FR in dictionary, without modifying original HTML. External site.js language switcher remains unintegrated; do not claim functioning French toggle. No OG/Twitter tags exist in original page; future isolated FR HTML must add proper localized metadata. Official Feirarte III schedule verification still pending."
     },
     {
       "route": "/compras/mercadao-madureira/",
