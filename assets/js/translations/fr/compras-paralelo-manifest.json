@@ -179,7 +179,8 @@
       "missing_keys": 0,
       "review": "Confirm current shop directory, official access, services and opening hours before publishing.",
       "qa": "Full HTML source at SHA 9b9e5a4795f4734062d696fd1ca28e24d0466472 inspected. Translated missing inline JavaScript back-navigation alert. Source contains ES/PT/EN data-tj-es and inline language whitelist, requiring explicit FR renderer and runtime integration. Original JS/HTML left unchanged.",
-      "qa_note_20261112": "Revisión editorial FR: navegación «RETOUR AUX ACHATS» e introducción corregidas sin alterar las 42 claves de origen; cero nuevas rutas. Sigue pendiente integración runtime FR, HTML /fr/ y QA visual."
+      "qa_note_20261112": "Revisión editorial FR: navegación «RETOUR AUX ACHATS» e introducción corregidas sin alterar las 42 claves de origen; cero nuevas rutas. Sigue pendiente integración runtime FR, HTML /fr/ y QA visual.",
+      "qa_html_integrity_20261113": "BLOCKER verified in original ES HTML at SHA 9b9e5a4795f4734062d696fd1ca28e24d0466472: two malformed <strong> closing tags carry data-tj-es/pt/en attributes on </strong> instead of a valid opening element; affected labels 'familias, viajeros hospedados en Tijuca...' and 'Tijuca y Maracanã.' are text nodes, not valid data-tj-* elements. A future FR renderer must translate these text nodes explicitly and fix markup only in isolated /fr/ output. Do not change ES/PT/EN source or mark dynamic QA complete. Also inline language switcher accepts only ES/PT/EN; no /fr/ HTML yet."
     },
     {
       "route": "/compras/cadeg/",
