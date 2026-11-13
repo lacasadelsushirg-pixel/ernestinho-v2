@@ -31,7 +31,7 @@ ROUTES = (
 )
 GUIDE_ROUTES = (
     '/guia/accesibilidad/', '/guia/aeropuertos/', '/guia/alquiler-auto/',
-    '/guia/consulados/', '/guia/cpf/', '/guia/documentos/',
+    '/guia/consulados/', '/guia/cpf/', '/guia/documentos/', '/guia/donde-alojarse/',
     '/guia/emergencias/', '/guia/internet/', '/guia/menores/',
     '/guia/seguro/', '/guia/terminales/', '/guia/vacunas/', '/guia/viajar-solo/',
 )

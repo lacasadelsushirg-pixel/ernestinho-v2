@@ -63,5 +63,11 @@
   "/guia/viajar-solo/": {
     "Fotos de Viajar solo o sola a Río de Janeiro": "Photos — Voyager seul ou seule à Rio de Janeiro",
     "Viajar solo o sola a Río de Janeiro: MINIATURA VIAJANDO SOLO": "Voyager seul ou seule à Rio de Janeiro — voyage en solo"
+  },
+  "/guia/donde-alojarse/": {
+    "Copacabana para hospedarse en Río": "Séjourner à Copacabana, à Rio",
+    "Fotos de Guía de alojamiento en Río": "Photos — Guide de l’hébergement à Rio",
+    "Guía de alojamiento en Río: MINIATURA GUIA RIO DONDE ALOJARSE": "Guide de l’hébergement à Rio — où séjourner",
+    "← Volver a Guía de Río": "← Retour au guide de Rio"
   }
 }
