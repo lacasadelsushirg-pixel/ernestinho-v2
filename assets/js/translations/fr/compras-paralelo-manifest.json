@@ -23,9 +23,10 @@
       "route": "/compras/ferias/",
       "source_sha": "0e8e94bbbb8b9b4d37ab1e6c14bb5fc2ed52da55",
       "dictionary": "assets/js/translations/fr/compras-ferias-paralelo.json",
-      "entries": 39,
-      "checked_strings": 39,
-      "missing_keys": 0
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa_note_20261113": "Verified full Spanish source HTML SHA 0e8e94bbbb8b9b4d37ab1e6c14bb5fc2ed52da55. Added missing og:image:alt translation, corrected navigation to Achats. Source has inline ES/PT/EN-only selector and JSON-LD inLanguage es; isolated FR renderer and metadata/visual QA pending. Original untouched."
     },
     {
       "route": "/compras/shoppings/",
@@ -399,7 +400,7 @@
     "extra_story_paragraphs": 155,
     "coverage_missing_visible_meta_alt": 0,
     "dynamic_image_captions": 2,
-    "total_source_translation_units": 2974
+    "total_source_translation_units": 2975
   },
   "known_integration_blockers": [
     "Existing source JavaScript includes only es/pt/en as language whitelist; without integrating fr on a separate preview, French dictionaries will not render.",
