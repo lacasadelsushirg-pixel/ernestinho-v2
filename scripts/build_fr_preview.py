@@ -2,6 +2,7 @@
 """Create an explicitly private French preview from an existing locale build."""
 import argparse
 import copy
+from hashlib import sha1
 import json
 from pathlib import Path
 import shutil
@@ -28,6 +29,14 @@ ROUTES = (
     '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/',
     '/gastronomia/labuta-bar/', '/gastronomia/casa-201/', '/gastronomia/angu-do-gomes/',
 )
+GUIDE_ROUTES = (
+    '/guia/accesibilidad/', '/guia/aeropuertos/', '/guia/alquiler-auto/',
+    '/guia/consulados/', '/guia/cpf/', '/guia/documentos/',
+    '/guia/emergencias/', '/guia/internet/', '/guia/menores/',
+    '/guia/seguro/', '/guia/terminales/', '/guia/vacunas/', '/guia/viajar-solo/',
+)
+ROUTES += GUIDE_ROUTES
+FR_COPY = ROOT / 'assets/js/translations/fr'
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
     '//title/text()|//body//text()[not(ancestor::script or ancestor::style or ancestor::svg or ancestor::template)]'
@@ -100,7 +109,7 @@ def translate_nodes(document, lookup):
             element.text = replacement
 
 
-def update_urls(document, route, lookup):
+def update_urls(document, route, lookup, routes):
     canonical = ORIGIN + '/fr' + route
     document.xpath('//link[@rel="canonical"]')[0].set('href', canonical)
     for link in document.xpath('//head/link[@rel="alternate"][@hreflang]'):
@@ -119,7 +128,7 @@ def update_urls(document, route, lookup):
             for item in data['itemListElement']:
                 item['name'] = lookup(item['name'])
                 target = urlsplit(item['item']).path
-                if target in ROUTES:
+                if target in routes:
                     item['item'] = ORIGIN + '/fr' + target
         script.text = json.dumps(data, ensure_ascii=False).replace('<', r'\u003c')
     for link in document.xpath('//body//a[@href]'):
@@ -128,7 +137,7 @@ def update_urls(document, route, lookup):
         raw = link.get('href')
         url = urlsplit(raw)
         if not url.scheme and not url.netloc and url.path.startswith('/'):
-            if url.path in ROUTES:
+            if url.path in routes:
                 link.set('href', urlunsplit(url._replace(path='/fr' + url.path)))
             elif url.path.endswith('/'):
                 link.set('title', 'Cette page est disponible en espagnol.')
@@ -138,7 +147,7 @@ def update_urls(document, route, lookup):
             }))))
 
 
-def french_page(source, route, copybook):
+def french_page(source, route, copybook, routes=ROUTES):
     document = copy.deepcopy(source)
     document.set('lang', 'fr')
     document.attrib.pop('data-ec-locale-routes', None)
@@ -159,7 +168,7 @@ def french_page(source, route, copybook):
         return copybook.get(value, value)
 
     translate_nodes(document, lookup)
-    update_urls(document, route, lookup)
+    update_urls(document, route, lookup, routes)
     if missing:
         raise ValueError(f'{route}: missing French copy for {sorted(missing)!r}')
     add_selector(document, route, french=True)
@@ -170,17 +179,35 @@ def french_page(source, route, copybook):
     return document
 
 
-def build(source, destination):
+def guide_copybooks(routes):
+    scope = json.loads((FR_COPY / 'guia-paralelo-manifest.json').read_text())['scope']
+    supplements = json.loads((FR_COPY / 'guia-preview-supplement.json').read_text())
+    books = {}
+    for entry in scope:
+        route = entry['route']
+        if route not in routes or route not in GUIDE_ROUTES:
+            continue
+        raw = route_file(ROOT, route).read_bytes()
+        blob = sha1(f'blob {len(raw)}\0'.encode() + raw).hexdigest()
+        if entry['source_sha'] != blob:
+            raise ValueError(f'{route}: Spanish source has changed since the French editorial review')
+        books[route] = json.loads((ROOT / entry['file']).read_text()) | supplements.get(route, {})
+    return books
+
+
+def build(source, destination, routes=ROUTES):
     if destination.exists() or destination == ROOT or ROOT in destination.parents or source in destination.parents:
         raise ValueError('Use a new preview directory outside the three-language build.')
     manifest = json.loads((source / 'locale-manifest.json').read_text())
-    if manifest.get('pilot') or (source / 'fr').exists():
-        raise ValueError('Expected a complete ES/PT/EN build without French routes.')
-    copybook = json.loads((ROOT / 'assets/js/translations/fr/piloto-rio.json').read_text())
+    if (source / 'fr').exists():
+        raise ValueError('Expected an ES/PT/EN build without French routes.')
+    copybook = json.loads((FR_COPY / 'piloto-rio.json').read_text())
+    books = guide_copybooks(routes)
     validated = {entry['route'] for entry in manifest['routes'] if entry['indexable']}
-    if any(prefix + route not in validated for route in ROUTES for prefix, _, _ in LANGS):
+    if any(prefix + route not in validated for route in routes for prefix, _, _ in LANGS):
         raise ValueError('Every French preview must have three indexable source counterparts.')
-    french = {route: french_page(read_page(route_file(source, route)), route, copybook) for route in ROUTES}
+    french = {route: french_page(read_page(route_file(source, route)), route,
+                                 copybook | books.get(route, {}), routes) for route in routes}
     with tempfile.TemporaryDirectory(dir=destination.parent) as temp:
         output = Path(temp) / 'preview'
         shutil.copytree(source, output)
@@ -195,7 +222,7 @@ def build(source, destination):
         (output / 'fr-preview-manifest.json').write_text(json.dumps({
             'publishable': False, 'sourceCommit': manifest['sourceCommit'],
             'routes': [{'route': '/fr' + route, 'source': route, 'language': 'FR',
-                        'indexable': False} for route in ROUTES],
+                        'indexable': False} for route in routes],
         }, indent=2) + '\n')
         output.rename(destination)
     print(f'{len(french)} non-indexable French preview routes in {destination}')
@@ -205,5 +232,7 @@ if __name__ == '__main__':
     cli = argparse.ArgumentParser(description=__doc__)
     cli.add_argument('--dist', type=Path, required=True)
     cli.add_argument('--out', type=Path, required=True)
+    cli.add_argument('--guide-only', action='store_true')
     args = cli.parse_args()
-    build(args.dist.resolve(), args.out.resolve())
+    routes = tuple(route for route in ROUTES if route.startswith('/guia/')) if args.guide_only else ROUTES
+    build(args.dist.resolve(), args.out.resolve(), routes)

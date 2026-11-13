@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from build_fr_preview import LANGS, ORIGIN, ROUTES, read_page, route_file
+from build_fr_preview import LANGS, ORIGIN, read_page, route_file
 
 EDITORIAL = '//main//*[self::h1 or self::h2 or self::h3 or self::p or self::li or self::td or self::th]'
 PROSE = '//main//*[self::p or self::li or self::td or self::th]'
@@ -19,14 +19,21 @@ def text(node):
 
 def verify(base, preview):
     for name in ('sitemap.xml', 'locale-manifest.json'):
-        assert (base / name).read_bytes() == (preview / name).read_bytes(), name
+        original = base / name
+        candidate = preview / name
+        if original.is_file():
+            assert original.read_bytes() == candidate.read_bytes(), name
+        else:
+            assert name == 'sitemap.xml' and not candidate.exists(), name
     fr_manifest = json.loads((preview / 'fr-preview-manifest.json').read_text())
     assert fr_manifest['publishable'] is False
-    assert {x['route'] for x in fr_manifest['routes']} == {'/fr' + route for route in ROUTES}
+    routes = [entry['source'] for entry in fr_manifest['routes']]
+    assert len(routes) == len(set(routes))
+    assert {x['route'] for x in fr_manifest['routes']} == {'/fr' + route for route in routes}
     assert all(x['indexable'] is False for x in fr_manifest['routes'])
     assert {p.parent.relative_to(preview).as_posix().rstrip('/')
-            for p in (preview / 'fr').rglob('index.html')} == {'fr' + route.rstrip('/') for route in ROUTES}
-    for route in ROUTES:
+            for p in (preview / 'fr').rglob('index.html')} == {'fr' + route.rstrip('/') for route in routes}
+    for route in routes:
         es = read_page(route_file(base, route))
         es_blocks = {text(n) for n in es.xpath(PROSE) if len(text(n)) >= 85}
         for prefix, locale, _ in (*LANGS, ('/fr', 'fr', 'Français')):
@@ -42,7 +49,8 @@ def verify(base, preview):
                 shared = {text(n) for n in doc.xpath(PROSE)} & es_blocks
                 assert not shared, (path, 'untranslated paragraphs', sorted(shared))
             external = '//main//a[starts-with(@href,"https://") or starts-with(@href,"http://")]/@href'
-            expected_links = Counter(link for link in es.xpath(external) if urlsplit(link).hostname != 'wa.me')
+            original = es if locale == 'fr' else read_page(route_file(base, path))
+            expected_links = Counter(link for link in original.xpath(external) if urlsplit(link).hostname != 'wa.me')
             actual_links = Counter(link for link in doc.xpath(external) if urlsplit(link).hostname != 'wa.me')
             assert actual_links == expected_links, (path, 'external editorial links changed',
                                                     expected_links - actual_links,
@@ -54,7 +62,6 @@ def verify(base, preview):
                 for link in doc.xpath('//a[starts-with(@href,"/fr/")]/@href'):
                     assert route_file(preview, urlsplit(link).path).is_file(), (path, link)
             else:
-                original = read_page(route_file(base, path))
                 assert [text(n) for n in doc.xpath(EDITORIAL)] == [text(n) for n in original.xpath(EDITORIAL)]
                 assert doc.xpath('//head/link[@rel="alternate"]/@href') == original.xpath('//head/link[@rel="alternate"]/@href')
         print(f'{route} ES/PT-BR/EN/FR verified')
