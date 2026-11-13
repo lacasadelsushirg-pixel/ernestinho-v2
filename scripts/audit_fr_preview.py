@@ -4,7 +4,7 @@ import argparse
 from collections import Counter
 import json
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import quote, urlsplit
 
 from build_fr_preview import LANGS, ORIGIN, read_page, restore_preview_media, route_file
 
@@ -15,6 +15,10 @@ MEDIA = '//main//img/@src|//main//source/@srcset|//main//iframe/@src'
 
 def text(node):
     return ' '.join(node.text_content().split())
+
+
+def ascii_url(value):
+    return ''.join(char if char.isascii() and char != " " else quote(char) for char in value)
 
 
 def verify(base, preview):
@@ -53,11 +57,14 @@ def verify(base, preview):
             assert doc.xpath('//*[@data-fr-preview-choice]/@href') == ['/fr' + route] * 2, (path, 'selector')
             if prefix:
                 shared = {text(n) for n in doc.xpath(PROSE)} & es_blocks
+                if route == '/consejos/portugues/' and locale in ('pt-BR', 'en'):
+                    # The existing ES/PT/EN module uses Spanish glosses in this teaching list.
+                    shared -= {text(n) for n in es.xpath('//*[@data-false-friends]/li')}
                 assert not shared, (path, 'untranslated paragraphs', sorted(shared))
             external = '//main//a[starts-with(@href,"https://") or starts-with(@href,"http://")]/@href'
             original = es if locale == 'fr' else read_page(route_file(base, path))
-            expected_links = Counter(link for link in original.xpath(external) if urlsplit(link).hostname != 'wa.me')
-            actual_links = Counter(link for link in doc.xpath(external) if urlsplit(link).hostname != 'wa.me')
+            expected_links = Counter(ascii_url(link) for link in original.xpath(external) if urlsplit(link).hostname != 'wa.me')
+            actual_links = Counter(ascii_url(link) for link in doc.xpath(external) if urlsplit(link).hostname != 'wa.me')
             assert actual_links == expected_links, (path, 'external editorial links changed',
                                                     expected_links - actual_links,
                                                     actual_links - expected_links)
@@ -65,7 +72,7 @@ def verify(base, preview):
                 assert doc.xpath('//meta[@name="robots"]/@content') == ['noindex, follow']
                 assert not doc.xpath('//head/link[@rel="alternate"][@hreflang]')
                 restore_preview_media(es, route)
-                assert doc.xpath(MEDIA) == es.xpath(MEDIA), (path, 'media changed')
+                assert list(map(ascii_url, doc.xpath(MEDIA))) == list(map(ascii_url, es.xpath(MEDIA))), (path, 'media changed')
                 for link in doc.xpath('//a[starts-with(@href,"/fr/")]/@href'):
                     assert route_file(preview, urlsplit(link).path).is_file(), (path, link)
             else:

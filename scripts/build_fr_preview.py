@@ -46,6 +46,7 @@ TIPS_ROUTES = (
     '/consejos/revisar-alojamiento/', '/consejos/rio-1-a-7-dias/', '/consejos/rodizio/',
     '/consejos/seguro-viaje/', '/consejos/servicios-practicos/', '/consejos/sol-calor/',
     '/consejos/souvenirs/', '/consejos/trampas-turista/',
+    '/consejos/portugues/', '/consejos/supermercados/',
 )
 TRANSPORT_ROUTES = (
     '/transportes/bonde-santa-teresa/',
@@ -63,6 +64,9 @@ TRANSPORT_ROUTES = (
 )
 ROUTES += GUIDE_ROUTES + TIPS_ROUTES + TRANSPORT_ROUTES
 FR_COPY = ROOT / 'assets/js/translations/fr'
+CULTURE_ROUTES = tuple(dict.fromkeys(entry['route'] for entry in json.loads(
+    (FR_COPY / 'cultura-paralelo-manifest.json').read_text())['scope']))
+ROUTES += CULTURE_ROUTES
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
     '//title/text()|//body//text()[not(ancestor::script or ancestor::style or ancestor::svg or ancestor::template)]'
@@ -183,6 +187,66 @@ def restore_preview_media(document, route):
             figure.insert(0, image)
 
 
+PORTUGUESE_ROUTE = '/consejos/portugues/'
+SUPERMARKETS_ROUTE = '/consejos/supermercados/'
+
+
+def checked_source(path, expected):
+    raw = (ROOT / path).read_bytes()
+    if sha1(f'blob {len(raw)}\0'.encode() + raw).hexdigest() != expected:
+        raise ValueError(f'{path}: source has changed since the French editorial review')
+    return raw.decode()
+
+
+def portuguese_preview():
+    localized = json.loads((FR_COPY / 'consejos-portugues-80-frases-paralelo.json').read_text())
+    original = json.loads(checked_source('assets/data/portugues-util.json', localized['source_data_sha']))
+    module = checked_source('assets/js/portugues-util.js', localized['source_module_sha'])
+    book = {}
+    ui = localized['ui']
+    for key, french in [('✨ Todas', '✨ ' + ui['all']), ('🔊 Escuchar', '🔊 ' + ui['listen']),
+                        ('🐢 Lento', '🐢 ' + ui['slow']), ('Categorías de frases', ui['filtersAria'])]:
+        book[key] = french
+    for category, translated in zip(original['categories'], localized['categories'], strict=True):
+        if category['id'] != translated['id']:
+            raise ValueError('Portuguese phrase categories are out of sync')
+        book[f"{category['icon']} {category['es']}"] = category['icon'] + ' ' + translated['fr']
+        category['es'] = translated['fr']
+    for phrase, translated in zip(original['phrases'], localized['phrases'], strict=True):
+        if (phrase['id'], phrase['pt'], phrase['es']) != (
+                translated['id'], translated['pt_original'], translated['es_original']):
+            raise ValueError('Portuguese phrases are out of sync')
+        book[phrase['pt']] = phrase['pt']
+        book[phrase['es']] = translated['fr']
+        phrase['es'] = translated['fr']
+    for item, translated in zip(original['falseFriends'], localized['falseFriends'], strict=True):
+        if item['pt'] != translated['pt']:
+            raise ValueError('Portuguese false friends are out of sync')
+        book[item['pt']] = item['pt']
+        book['→ ' + item['es']] = '→ ' + translated['fr']
+        book[item['note']] = translated['note']
+        item.update(es=translated['fr'], note=translated['note'])
+    # Run the original filtering and audio logic with the localized preview data.
+    start = module.index('function langKey()')
+    end = module.index('function cleanPhrase', start)
+    module = module[module.index('const root'):start] + 'function langKey() { return "es"; }\n\n' + module[end:]
+    module = module.replace('    onLanguageChange(() => {\n      stopAudio();\n      render();\n    });\n', '')
+    for spanish, key in [('Todas', 'all'), ('Escuchar', 'listen'), ('Lento', 'slow'),
+                         ('No encontré el audio de esta frase en Cloudinary.', 'missingAudio'),
+                         ('No se pudo cargar la guía de portugués.', 'loadError')]:
+        module = module.replace(json.dumps(spanish, ensure_ascii=False), json.dumps(ui[key], ensure_ascii=False))
+    return book, original, module
+
+
+def supermarkets_copybook():
+    localized = json.loads((FR_COPY / 'consejos-supermercados-modulo-196-paralelo.json').read_text())
+    source = checked_source(localized['source'], localized['source_sha'])
+    entries, _ = json.JSONDecoder().raw_decode(source.removeprefix('export default ').lstrip())
+    if entries['ES'].keys() != localized['keys'].keys():
+        raise ValueError('Supermarket translation keys are out of sync')
+    return {value: localized['keys'][key] for key, value in entries['ES'].items()}
+
+
 def french_page(source, route, copybook, routes=ROUTES):
     document = copy.deepcopy(source)
     document.set('lang', 'fr')
@@ -227,6 +291,9 @@ def french_page(source, route, copybook, routes=ROUTES):
             document.xpath('//*[@id="month-extra"]')[0].append(panel)
 
     translate_nodes(document, lookup)
+    if route == PORTUGUESE_ROUTE:
+        document.xpath('//*[@data-portugues-app]')[0].set('data-data-url', '/assets/data/fr-portugues-preview.json')
+        document.find('body').append(html.Element('script', type='module', src='/assets/js/fr-portugues-preview.js'))
     update_urls(document, route, lookup, routes)
     if missing:
         raise ValueError(f'{route}: missing French copy for {sorted(missing)!r}')
@@ -251,7 +318,7 @@ def section_copybooks(routes, section):
         if entry['source_sha'] != blob:
             raise ValueError(f'{route}: Spanish source has changed since the French editorial review')
         book = {}
-        for file in entry.get('files') or [entry.get('file') or entry['dictionary']]:
+        for file in entry.get('files') or entry.get('dictionaries') or [entry.get('file') or entry['dictionary']]:
             book.update(json.loads((ROOT / file).read_text()))
         books[route] = book | supplements.get(route, {})
     return books
@@ -266,10 +333,15 @@ def build(source, destination, routes=ROUTES):
     copybook = json.loads((FR_COPY / 'piloto-rio.json').read_text())
     books = {}
     for section, candidates in (('guia', GUIDE_ROUTES), ('consejos', TIPS_ROUTES),
-                                ('transportes', TRANSPORT_ROUTES)):
+                                ('transportes', TRANSPORT_ROUTES), ('cultura', CULTURE_ROUTES)):
         selected = set(routes).intersection(candidates)
         if selected:
             books.update(section_copybooks(selected, section))
+    if PORTUGUESE_ROUTE in routes:
+        phrases, phrase_data, phrase_module = portuguese_preview()
+        books[PORTUGUESE_ROUTE].update(phrases)
+    if SUPERMARKETS_ROUTE in routes:
+        books[SUPERMARKETS_ROUTE] = supermarkets_copybook() | books[SUPERMARKETS_ROUTE]
     validated = {entry['route'] for entry in manifest['routes'] if entry['indexable']}
     if any(prefix + route not in validated for route in routes for prefix, _, _ in LANGS):
         raise ValueError('Every French preview must have three indexable source counterparts.')
@@ -286,6 +358,9 @@ def build(source, destination, routes=ROUTES):
                 add_selector(translated, route)
                 save_page(counterpart, translated)
         shutil.copyfile(ROOT / 'scripts/fr-preview-browser.js', output / RUNTIME.lstrip('/'))
+        if PORTUGUESE_ROUTE in routes:
+            (output / 'assets/data/fr-portugues-preview.json').write_text(json.dumps(phrase_data, ensure_ascii=False))
+            (output / 'assets/js/fr-portugues-preview.js').write_text(phrase_module)
         (output / 'fr-preview-manifest.json').write_text(json.dumps({
             'publishable': False, 'sourceCommit': manifest['sourceCommit'],
             'routes': [{'route': '/fr' + route, 'source': route, 'language': 'FR',

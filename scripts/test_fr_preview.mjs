@@ -97,6 +97,27 @@ try {
       assert.ok(size.content <= size.viewport + 1, JSON.stringify({ route, width, size }));
       const whatsapp = await page.locator('a[href*="wa.me"][href*="text="]').first().getAttribute('href');
       assert.match(decodeURIComponent(whatsapp), /Bonjour\+Ernestinho/);
+      if (route === '/consejos/portugues/') {
+        const loaded = await page.waitForFunction(() =>
+          [...document.querySelectorAll('[data-category]')].some(b => b.dataset.category === 'basico'));
+        assert.ok(loaded);
+        const cards = page.locator('[data-phrase-grid] article');
+        assert.equal(await cards.count(), 80);
+        assert.equal(await page.locator('[data-false-friends] li').count(), 8);
+        assert.match(await cards.first().textContent(), /Bom dia.*Bonjour/s);
+        await page.locator('[data-category="basico"]').click();
+        assert.ok(await cards.count() < 80);
+        assert.equal(await page.locator('[data-category="basico"]').getAttribute('aria-pressed'), 'true');
+        await page.locator('[data-category="all"]').click();
+        assert.equal(await cards.count(), 80);
+        const audio = page.waitForRequest(req => req.url().startsWith('https://res.cloudinary.com/') && req.url().endsWith('.mp3'));
+        await cards.first().locator('[data-slow-button]').click();
+        assert.match((await audio).url(), /bom-dia/i);
+      }
+      if (route === '/consejos/supermercados/') {
+        assert.match(await page.locator('main h1').textContent(), /supermarché/i);
+        assert.match(await page.locator('main img[data-i18n-alt]').first().getAttribute('alt'), /supermarché/i);
+      }
       if (route === '/guia/mes-a-mes/') {
         const grid = page.locator('#month-grid');
         assert.equal(await grid.locator('article').count(), 12);
