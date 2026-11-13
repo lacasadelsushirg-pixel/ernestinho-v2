@@ -67,7 +67,17 @@ FR_COPY = ROOT / 'assets/js/translations/fr'
 CULTURE_ROUTES = tuple(dict.fromkeys(entry['route'] for entry in json.loads(
     (FR_COPY / 'cultura-paralelo-manifest.json').read_text())['scope']))
 PHOTO_ROUTES = ('/fotografia/',)
-ROUTES += CULTURE_ROUTES + PHOTO_ROUTES
+SHOPPING_ROUTES = (
+    '/compras/mercados-populares/',
+    '/compras/ferias/',
+    '/compras/shoppings/',
+    '/compras/',
+    '/compras/feira-saens-pena/',
+    '/compras/feira-das-yabas/',
+    '/compras/shopping-tijuca/',
+    '/compras/feira-noturna-copacabana/',
+)
+ROUTES += CULTURE_ROUTES + PHOTO_ROUTES + SHOPPING_ROUTES
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
     '//title/text()|//body//text()[not(ancestor::script or ancestor::style or ancestor::svg or ancestor::template)]'
@@ -339,7 +349,7 @@ def build(source, destination, routes=ROUTES):
     books = {}
     for section, candidates in (('guia', GUIDE_ROUTES), ('consejos', TIPS_ROUTES),
                                 ('transportes', TRANSPORT_ROUTES), ('cultura', CULTURE_ROUTES),
-                                ('fotografia', PHOTO_ROUTES)):
+                                ('fotografia', PHOTO_ROUTES), ('compras', SHOPPING_ROUTES)):
         selected = set(routes).intersection(candidates)
         if selected:
             books.update(section_copybooks(selected, section))
