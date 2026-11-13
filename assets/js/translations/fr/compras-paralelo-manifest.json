@@ -178,7 +178,8 @@
       "checked_strings": 42,
       "missing_keys": 0,
       "review": "Confirm current shop directory, official access, services and opening hours before publishing.",
-      "qa": "Full HTML source at SHA 9b9e5a4795f4734062d696fd1ca28e24d0466472 inspected. Translated missing inline JavaScript back-navigation alert. Source contains ES/PT/EN data-tj-es and inline language whitelist, requiring explicit FR renderer and runtime integration. Original JS/HTML left unchanged."
+      "qa": "Full HTML source at SHA 9b9e5a4795f4734062d696fd1ca28e24d0466472 inspected. Translated missing inline JavaScript back-navigation alert. Source contains ES/PT/EN data-tj-es and inline language whitelist, requiring explicit FR renderer and runtime integration. Original JS/HTML left unchanged.",
+      "qa_note_20261112": "Revisión editorial FR: navegación «RETOUR AUX ACHATS» e introducción corregidas sin alterar las 42 claves de origen; cero nuevas rutas. Sigue pendiente integración runtime FR, HTML /fr/ y QA visual."
     },
     {
       "route": "/compras/cadeg/",
