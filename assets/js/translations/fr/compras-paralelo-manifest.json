@@ -43,7 +43,8 @@
       "dictionary": "assets/js/translations/fr/compras-portada-paralelo.json",
       "entries": 59,
       "checked_strings": 59,
-      "missing_keys": 0
+      "missing_keys": 0,
+      "qa_note_20261113": "Harmonisation FR du libellé de navigation Achats, rubrique ACHATS, catégories et titre SEO ; source ES inchangée. Dictionnaire seul, aucune page /fr/ rendue."
     },
     {
       "route": "/compras/saara/",
@@ -55,7 +56,8 @@
       "dynamic_supplement": "assets/js/translations/fr/compras-saara-dinamico-paralelo.json",
       "dynamic_js_keys": 30,
       "dynamic_story_paragraphs": 4,
-      "qa": "Map iframe title and Open Graph image alt added; removed a truncated Spanish source key with abbreviated French paraphrase. Full editorial paragraph preserved. Static mapping only; dynamic runtime still staging."
+      "qa": "Map iframe title and Open Graph image alt added; removed a truncated Spanish source key with abbreviated French paraphrase. Full editorial paragraph preserved. Static mapping only; dynamic runtime still staging.",
+      "qa_note_20261113": "Navigation FR « Achats » harmonisée ; supplément dynamique conservé. Aucun changement au HTML original."
     },
     {
       "route": "/compras/rio-sul/",
@@ -396,7 +398,7 @@
   ],
   "totals": {
     "prepared_pages": 33,
-    "static_dictionary_entries": 2121,
+    "static_dictionary_entries": 2122,
     "dynamic_JS_keys": 697,
     "extra_story_paragraphs": 155,
     "coverage_missing_visible_meta_alt": 0,
@@ -450,7 +452,7 @@
     "fr": "Source dictionaries only; FR rendered pages and indexation are not yet created",
     "publishing_gate": "Reconcile PR #24; integrate FR in private noindex preview; test HTML 200, self canonical, reciprocal hreflang, sources/photos/captions, mobile 390px and desktop 1440px, correct sitemap; Google determines indexing."
   },
-  "current_scope_summary": "33 rutas staging; 2976 unidades (2121 estáticas, 697 claves JS, 155 párrafos dinámicos, 2 pies de imagen); 0 HTML /fr/ publicado.",
+  "current_scope_summary": "33 rutas staging; 2976 unidades verificadas por suma (2122 estáticas, 697 claves JS, 155 párrafos dinámicos, 2 pies de imagen); 0 HTML /fr/ publicado.",
   "integration_issues": [
     "Large Shopping articles render source JS P, T and sometimes hardcoded image caption/alt; private FR renderer must translate every injection, not just body HTML."
   ]
