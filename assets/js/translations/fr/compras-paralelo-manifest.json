@@ -32,9 +32,10 @@
       "route": "/compras/shoppings/",
       "source_sha": "89d1603b2a5018c6dcb14875aa1dd96a141719b3",
       "dictionary": "assets/js/translations/fr/compras-shoppings-paralelo.json",
-      "entries": 44,
-      "checked_strings": 44,
-      "missing_keys": 0
+      "entries": 45,
+      "checked_strings": 45,
+      "missing_keys": 0,
+      "qa_note_20261113": "ES HTML SHA 89d1603b2a5018c6dcb14875aa1dd96a141719b3 verified; added og:image:alt FR, corrected Achats navigation. Inline ES/PT/EN-only selector; no long dynamic scripts. FR runtime, HTML, JSON-LD, SEO and visual QA pending. Original unchanged."
     },
     {
       "route": "/compras/",
@@ -395,12 +396,12 @@
   ],
   "totals": {
     "prepared_pages": 33,
-    "static_dictionary_entries": 2120,
+    "static_dictionary_entries": 2121,
     "dynamic_JS_keys": 697,
     "extra_story_paragraphs": 155,
     "coverage_missing_visible_meta_alt": 0,
     "dynamic_image_captions": 2,
-    "total_source_translation_units": 2975
+    "total_source_translation_units": 2976
   },
   "known_integration_blockers": [
     "Existing source JavaScript includes only es/pt/en as language whitelist; without integrating fr on a separate preview, French dictionaries will not render.",
@@ -449,7 +450,7 @@
     "fr": "Source dictionaries only; FR rendered pages and indexation are not yet created",
     "publishing_gate": "Reconcile PR #24; integrate FR in private noindex preview; test HTML 200, self canonical, reciprocal hreflang, sources/photos/captions, mobile 390px and desktop 1440px, correct sitemap; Google determines indexing."
   },
-  "current_scope_summary": "33 rutas en diccionarios staging; 2974 unidades (2120 estáticas, 697 claves JS, 155 párrafos dinámicos y 2 pies de imagen); 0 HTML /fr/ publicado. OG image alt de Mercados populares completado el 2026-11-13.",
+  "current_scope_summary": "33 rutas staging; 2976 unidades (2121 estáticas, 697 claves JS, 155 párrafos dinámicos, 2 pies de imagen); 0 HTML /fr/ publicado.",
   "integration_issues": [
     "Large Shopping articles render source JS P, T and sometimes hardcoded image caption/alt; private FR renderer must translate every injection, not just body HTML."
   ]
