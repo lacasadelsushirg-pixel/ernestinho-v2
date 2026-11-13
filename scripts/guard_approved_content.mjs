@@ -16,7 +16,7 @@ export const APPROVED_BLOBS = Object.freeze({
   "assets/js/app.js": "ab5e3ee031f0ea6b49e91c7e7312228391177f69",
   "assets/js/bulk-photo-references.js": "0302793e70b66bc617eb54fbf6855ce4c3e51246",
   "assets/js/translations/home.js": "6df6a61ccef0f2941707ff065c610077ae918510",
-  "assets/js/translations/quiero.js": "3542e0c0a6cff62084b3dea25c2038d60f74c3da",
+  "assets/js/translations/quiero.js": "6d78641a7dff97e7c093825d9b9cb86d854276c9",
   "assets/css/tokens.css": "640bd71020c162ec2a05360c07817e1e07549fa6",
   "assets/css/app.css": "0fbeba7cf9b8631405e7c3cd514d2f9e0a146b96",
   "assets/css/components.css": "2190cb5315924f02ed4db5c913ad2486e085e90c"
@@ -25,6 +25,13 @@ const MANIFEST_PATH = 'docs/FROZEN_PAGES_20260930.json';
 const PUBLISHED_SNAPSHOT_PATH = 'docs/PUBLISHED_PROTECTION_SNAPSHOT_20261109.json';
 const PUBLISHED_SNAPSHOT_BLOB = 'fe9d73bb386c482afe10c05f59c7591309f19268';
 const APPROVED_PAGE_COUNT = 586;
+// Owner-requested, path-scoped correction (13 Nov 2026): restore visuals and all
+// eight map pins on /quiero/ only. The immutable published snapshot and all 585
+// other protected HTML baselines remain unchanged. Any future edits require
+// a new explicit owner authorization and a new reviewed exact-blob pin.
+const OWNER_AUTHORIZED_ROUTE_BLOBS = Object.freeze({
+  "quiero/index.html": "32267e792c4e044e07d12997cec4f610a880a097"
+});
 
 function gitBlobHash(bytes) {
   return createHash('sha1').update(Buffer.from('blob ' + bytes.length + '\0')).update(bytes).digest('hex');
@@ -69,7 +76,8 @@ export function verifyApprovedContent(root = ROOT) {
   for (const [rel, expectedDigest] of Object.entries(manifest)) {
     const bytes = loadPath(root, rel, problems);
     if (!bytes) continue;
-    if (!published.protectedFiles?.[rel] || gitBlobHash(bytes) !== published.protectedFiles[rel]) {
+    const expectedPublishedBlob = OWNER_AUTHORIZED_ROUTE_BLOBS[rel] || published.protectedFiles?.[rel];
+    if (!expectedPublishedBlob || gitBlobHash(bytes) !== expectedPublishedBlob) {
       problems.push('Protected HTML changed since last published release: ' + rel);
     }
     if (sha256(bytes) !== expectedDigest) historicalDrift.push(rel);
