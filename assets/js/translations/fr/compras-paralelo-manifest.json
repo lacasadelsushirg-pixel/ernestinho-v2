@@ -444,7 +444,7 @@
     "fr": "Source dictionaries only; FR rendered pages and indexation are not yet created",
     "publishing_gate": "Reconcile PR #24; integrate FR in private noindex preview; test HTML 200, self canonical, reciprocal hreflang, sources/photos/captions, mobile 390px and desktop 1440px, correct sitemap; Google determines indexing."
   },
-  "current_scope_summary": "33 staging routes; 2971 source translation units, including 8 additional OG image-alt keys. No FR HTML published.",
+  "current_scope_summary": "33 rutas en diccionarios de staging; 2973 unidades según totals (2119 estáticas, 697 claves JS, 155 párrafos dinámicos y 2 pies de imagen); 0 HTML /fr/ publicado. Corrección de cifra desactualizada (2971) en resumen.",
   "integration_issues": [
     "Large Shopping articles render source JS P, T and sometimes hardcoded image caption/alt; private FR renderer must translate every injection, not just body HTML."
   ]
