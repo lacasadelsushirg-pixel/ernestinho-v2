@@ -38,7 +38,7 @@ ROUTES = (
     '/gastronomia/mocellin-steak/', '/gastronomia/naga/', '/gastronomia/otto/',
     '/gastronomia/la-fiorentina-ipanema/', '/gastronomia/jobi/', '/gastronomia/lanches-cariocas/',
     '/gastronomia/cervantes-copacabana/', '/gastronomia/churrascaria-palace/',
-    '/gastronomia/padarias/', '/gastronomia/shiso/', '/gastronomia/bar-luiz/', '/gastronomia/bar-da-gema/', '/gastronomia/tacaca-do-norte/', '/gastronomia/aipo-aipim-391/',
+    '/gastronomia/padarias/', '/gastronomia/shiso/', '/gastronomia/bar-luiz/', '/gastronomia/bar-da-gema/', '/gastronomia/tacaca-do-norte/', '/gastronomia/aipo-aipim-391/', '/gastronomia/aipo-aipim-605/',
 )
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
