@@ -4,6 +4,7 @@ import supplementaryCopy, {updatedFacts} from '../assets/js/translations/rio-res
 // These reviewed pages already have localized inline renderers. Initialize
 // them from the URL in built HTML, including when scripts run on a live visit.
 export const legacyLocaleRoutes = new Map([
+  ['/gastronomia/maska/', ['setLang', 'full']],
   ['/gastronomia/oteque/', ['f', 'full']],
   ['/gastronomia/churrascaria-palace/', ['setLang', 'full']],
   ['/gastronomia/colombo-do-forte/', ['setLang', 'full']],
@@ -74,6 +75,13 @@ export function hideDuplicateLegacySelector(html, route) {
 export function localizeLegacyStartup(code, route) {
   const renderers = legacyLocaleRoutes.get(route);
   if (!renderers) return code;
+  if (route === '/gastronomia/maska/') {
+    // Its final renderer already contains a complete manual PT/EN dictionary.
+    // Keep newly added advice and the supplement out of its positional slots.
+    if (!code.includes('function setLang(l)')) return code;
+    code = code.replace("P=[...document.querySelectorAll('p')]",
+      "P=[...document.querySelectorAll('p:not(.ec-q-kicker):not(article.card:not(.facts)>p:nth-of-type(n+2)):not(.v2-supplement p)')]");
+  }
   const supplement = supplementaryCopy[route];
   const positional = renderers.includes('full') && code.includes('function full(l)');
   const replacements = route === '/gastronomia/belmonte-copa/' ? lemeParagraphs : updatedFacts[route];
@@ -81,7 +89,7 @@ export function localizeLegacyStartup(code, route) {
     // This dictionary predates the practical summary and the supplemental
     // paragraphs. Keep its original paragraph order; those additions have
     // their own translations in the practical renderer and section chunk.
-    const extraSections = ['/gastronomia/oteque/', '/gastronomia/sushi-leblon/', '/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/', '/gastronomia/kilograma-centro/', '/gastronomia/quartinho/', '/gastronomia/k08/', '/gastronomia/delirio-tropical-rio-sul/', '/gastronomia/spicy-fish/', '/gastronomia/dumare/', '/gastronomia/noa-ipanema/', '/gastronomia/faenza-copacabana/', '/gastronomia/nino-cucina-ipanema/', '/gastronomia/koral/', '/gastronomia/rotisseria-sirio-libanesa/', '/gastronomia/ocya-leblon/', '/gastronomia/nido-ristorante/', '/gastronomia/praia-skol-copa/', '/gastronomia/jojo/', '/gastronomia/don-camillo/', '/gastronomia/bar-do-omar/', '/gastronomia/mee/', '/gastronomia/ocya-ilha/', '/gastronomia/pilograma-prime-grill/', '/gastronomia/temperarte-posto6/', '/gastronomia/temperarte-bolivar/', '/gastronomia/bar-da-frente/'].includes(route) ? ':not(.v2-supplement p)' : '';
+    const extraSections = ['/gastronomia/maska/', '/gastronomia/oteque/', '/gastronomia/sushi-leblon/', '/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/', '/gastronomia/kilograma-centro/', '/gastronomia/quartinho/', '/gastronomia/k08/', '/gastronomia/delirio-tropical-rio-sul/', '/gastronomia/spicy-fish/', '/gastronomia/dumare/', '/gastronomia/noa-ipanema/', '/gastronomia/faenza-copacabana/', '/gastronomia/nino-cucina-ipanema/', '/gastronomia/koral/', '/gastronomia/rotisseria-sirio-libanesa/', '/gastronomia/ocya-leblon/', '/gastronomia/nido-ristorante/', '/gastronomia/praia-skol-copa/', '/gastronomia/jojo/', '/gastronomia/don-camillo/', '/gastronomia/bar-do-omar/', '/gastronomia/mee/', '/gastronomia/ocya-ilha/', '/gastronomia/pilograma-prime-grill/', '/gastronomia/temperarte-posto6/', '/gastronomia/temperarte-bolivar/', '/gastronomia/bar-da-frente/'].includes(route) ? ':not(.v2-supplement p)' : '';
     const extraParagraphs = ['/gastronomia/elena/', '/gastronomia/bb-lanches/', '/gastronomia/rotisseria-sirio-libanesa/'].includes(route) ? ':not(main>section>p:nth-of-type(n+2))' : '';
     code = code.replace("P=[...document.querySelectorAll('p')]",
       `P=[...document.querySelectorAll('p:not(.ec-q-kicker):not(article.card:not(.facts)>p:nth-of-type(n+2))${extraSections}${extraParagraphs}')]`);

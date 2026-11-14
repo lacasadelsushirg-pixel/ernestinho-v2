@@ -20,7 +20,7 @@ Prioridad por impresiones observadas en GSC Web del 14 de octubre al 10 de novie
 | 4 | [/gastronomia/aprazivel/](https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/) | 276 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 5 | [/gastronomia/churrascaria-palace/](https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/) | 247 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 6 | [/gastronomia/colombo-do-forte/](https://www.ernestinhocarioca.com.br/gastronomia/colombo-do-forte/) | 238 | Cuatro idiomas probados en vista aislada; en revisión. |
-| 7 | [/gastronomia/maska/](https://www.ernestinhocarioca.com.br/gastronomia/maska/) | 213 | FR completo, render aislado comprobado. Diccionarios PT/EN híbridos; recuperación y QA conjunto pendientes. |
+| 7 | [/gastronomia/maska/](https://www.ernestinhocarioca.com.br/gastronomia/maska/) | 213 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 8 | [/gastronomia/oteque/](https://www.ernestinhocarioca.com.br/gastronomia/oteque/) | 200 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 9 | [/gastronomia/cipriani/](https://www.ernestinhocarioca.com.br/gastronomia/cipriani/) | 199 | Pendiente de cotejo editorial y técnico. |
 | 10 | [/gastronomia/cafe-lamas/](https://www.ernestinhocarioca.com.br/gastronomia/cafe-lamas/) | 176 | Pendiente de cotejo editorial y técnico. |
@@ -127,3 +127,11 @@ Base PR `586a0e3`, producción `21bb687`, candidato `2de4fe2`. El avance local `
 Se añadieron 42 entradas FR y se comprobó que el render aislado a partir de la salida ES del generador tiene cobertura, noindex y los mismos recursos de imagen y mapa. No se añade la ficha al piloto compartido. Guard aprobado; 246 diferencias históricas conocidas. Quedan auditor de cuatro idiomas, selector, capturas e incremental integral. La ficha no se cuenta como validada.
 
 Total: 7/50 probadas en vista privada en cuatro idiomas, 43 pendientes, 0 cerradas. Retomar Mäska con el texto FR preparado y continuar con Cipriani. Sin despliegue.
+
+## Octavo sublote · Mäska
+
+Base PR `586a0e3`, producción `21bb687`, candidato `9cdcf6d`. El cotejo distinguió el diccionario híbrido en el primer renderizador y un segundo diccionario manual completo PT/EN en el HTML vigente. Se activó únicamente el renderizador manual, excluyendo del selector posicional las ampliaciones y el suplemento para que los nueve datos prácticos queden en su lugar. Se añadieron dos consejos y un rótulo de canales en PT/EN. El HTML fuente y las traducciones manuales se conservan.
+
+Pasaron tres HTML selectivos, el auditor ES/PT-BR/EN/FR y el selector a 1440/390. [Capturas antes/después](TANDA50_MASKA_1440_390.jpg) con PT real de Hostinger, candidato y FR noindex. Search Console, 14 de noviembre: las tres versiones públicas constan enviadas e indexadas. Queda la prueba incremental integral.
+
+Total: 8/50 probadas en vista privada, 42 pendientes y 0 cerradas. Retomar Cipriani y Café Lamas. Sin publicación.

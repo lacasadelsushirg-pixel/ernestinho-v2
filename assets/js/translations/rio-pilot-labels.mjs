@@ -1,5 +1,19 @@
 // Attribute and control copy left in Spanish by the approved legacy sources.
 export const pilotLabels = {
+  "/gastronomia/maska/": {
+    "Para Maska, mi consejo es consultar el formato de la carta actual y pedir orientación si no conoces las preparaciones. Pregunta cuáles platos están pensados para compartir, el nivel de condimentos y las opciones para personas con restricciones alimentarias.": [
+      "No Mäska, consulte o formato do cardápio atual e peça orientação se não conhecer os preparos. Pergunte quais pratos são para compartilhar, o nível de tempero e as opções para restrições alimentares.",
+      "At Mäska, check the current menu format and ask for guidance if the dishes are unfamiliar. Ask which ones are meant for sharing, how strongly they are seasoned and what is available for dietary restrictions."
+    ],
+    "Cuando el ambiente y la propuesta gastronómica son parte del atractivo, vale la pena elegir una mesa y un horario que permitan disfrutar sin prisas. Confirma la dirección y las condiciones de reserva vigentes.": [
+      "Quando o ambiente e a cozinha fazem parte do atrativo, escolha uma mesa e um horário para aproveitar sem pressa. Confirme o endereço e as condições de reserva vigentes.",
+      "When the setting and food are part of the draw, choose a table and time that let you enjoy both at an easy pace. Confirm the address and current booking terms."
+    ],
+    "Mäska · Guía Michelin ↗ · Mäska · Visit Rio ↗ · Canales oficiales · menú y reservas ↗": [
+      "Mäska · Guia Michelin ↗ · Mäska · Visit Rio ↗ · Canais oficiais · cardápio e reservas ↗",
+      "Mäska · Michelin Guide ↗ · Mäska · Visit Rio ↗ · Official channels · menu and reservations ↗"
+    ]
+  },
   "/gastronomia/oteque/": {
     "Alta cocina marina · menú · experiencia": [
       "Alta cozinha do mar · menu · experiência",
