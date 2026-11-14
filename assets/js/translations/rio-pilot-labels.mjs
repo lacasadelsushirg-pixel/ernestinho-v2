@@ -1,5 +1,67 @@
 // Attribute and control copy left in Spanish by the approved legacy sources.
 export const pilotLabels = {
+  "/gastronomia/zaza-bistro-tropical/": {
+    "En Zazá Bistrô Tropical, pregunta al reservar por los diferentes ambientes del restaurante y por las condiciones de acceso. No todas las mesas ofrecen la misma experiencia: una cena íntima y una reunión de grupo pueden necesitar espacios distintos.": [
+      "Ao reservar no Zazá Bistrô Tropical, pergunte sobre os diferentes ambientes e as condições de acesso. Cada mesa oferece uma experiência: um jantar íntimo e um encontro em grupo podem pedir espaços diferentes.",
+      "When booking Zazá Bistrô Tropical, ask about the different rooms and accessibility. Tables offer different experiences: an intimate dinner and a group gathering may call for different spaces."
+    ],
+    "Su ubicación en Ipanema permite combinar la cena con un paseo por el barrio, pero vale la pena llegar sin prisas. Si tienes restricciones alimentarias, comprueba los ingredientes y adaptaciones posibles antes de reservar.": [
+      "Em Ipanema, dá para combinar o jantar com um passeio pelo bairro e chegar sem pressa. Se tiver restrições alimentares, confirme os ingredientes e as adaptações possíveis antes de reservar.",
+      "In Ipanema, you can combine dinner with a walk around the neighborhood and allow time to arrive at an easy pace. If you have dietary restrictions, check the ingredients and possible adaptations before booking."
+    ],
+    "Fotografía real · registro 9": [
+      "Foto real · registro 9",
+      "Original photograph · view 9"
+    ],
+    "Guía completa de Zazá Bistrô Tropical: ambiente, historia, carta, horarios, mapa y recomendaciones de Ernestinho Carioca.": [
+      "Guia completo do Zazá Bistrô Tropical: ambiente, história, cardápio, horários, mapa e recomendações do Ernestinho Carioca.",
+      "Complete guide to Zazá Bistrô Tropical: atmosphere, history, menu, hours, map and Ernestinho Carioca’s recommendations."
+    ],
+    "Mapa de Zazá Bistrô Tropical": [
+      "Mapa do Zazá Bistrô Tropical",
+      "Map of Zazá Bistrô Tropical"
+    ],
+    "Zazá Bistrô Tropical: ambiente y propuesta visual": [
+      "Zazá Bistrô Tropical: ambiente e proposta visual",
+      "Zazá Bistrô Tropical: atmosphere and interior style"
+    ],
+    "Zazá Bistrô Tropical: guía completa | Ernestinho Carioca": [
+      "Zazá Bistrô Tropical: guia completo | Ernestinho Carioca",
+      "Zazá Bistrô Tropical: complete guide | Ernestinho Carioca"
+    ],
+    "Zazá Bistrô Tropical: plato representativo": [
+      "Zazá Bistrô Tropical: prato representativo",
+      "Zazá Bistrô Tropical: signature-style dish"
+    ],
+    "Zazá Bistrô Tropical: fotografía 1": [
+      "Zazá Bistrô Tropical: foto 1",
+      "Zazá Bistrô Tropical: photograph 1"
+    ],
+    "Zazá Bistrô Tropical: fotografía 4": [
+      "Zazá Bistrô Tropical: foto 4",
+      "Zazá Bistrô Tropical: photograph 4"
+    ],
+    "Zazá Bistrô Tropical: fotografía 5": [
+      "Zazá Bistrô Tropical: foto 5",
+      "Zazá Bistrô Tropical: photograph 5"
+    ],
+    "Zazá Bistrô Tropical: fotografía 6": [
+      "Zazá Bistrô Tropical: foto 6",
+      "Zazá Bistrô Tropical: photograph 6"
+    ],
+    "Zazá Bistrô Tropical: fotografía 7": [
+      "Zazá Bistrô Tropical: foto 7",
+      "Zazá Bistrô Tropical: photograph 7"
+    ],
+    "Zazá Bistrô Tropical: fotografía 8": [
+      "Zazá Bistrô Tropical: foto 8",
+      "Zazá Bistrô Tropical: photograph 8"
+    ],
+    "Zazá Bistrô Tropical: fotografía 9": [
+      "Zazá Bistrô Tropical: foto 9",
+      "Zazá Bistrô Tropical: photograph 9"
+    ]
+  },
   "/gastronomia/sushi-leblon/": {
     "Atún fresco con ovas negras": [
       "Atum fresco com ovas negras",

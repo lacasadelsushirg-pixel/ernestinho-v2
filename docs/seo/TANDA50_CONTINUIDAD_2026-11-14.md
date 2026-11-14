@@ -16,9 +16,9 @@ Prioridad por impresiones observadas en GSC Web del 14 de octubre al 10 de novie
 |---:|---|---:|---|
 | 1 | [/gastronomia/carretao-siqueira/](https://www.ernestinhocarioca.com.br/gastronomia/carretao-siqueira/) | 983 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 2 | [/gastronomia/sushi-leblon/](https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/) | 527 | Cuatro idiomas probados en vista aislada; en revisión. |
-| 3 | [/gastronomia/zaza-bistro-tropical/](https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/) | 481 | Pendiente de cotejo editorial y técnico. |
+| 3 | [/gastronomia/zaza-bistro-tropical/](https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/) | 481 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 4 | [/gastronomia/aprazivel/](https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/) | 276 | Pendiente de cotejo editorial y técnico. |
-| 5 | [/gastronomia/churrascaria-palace/](https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/) | 247 | Pendiente de cotejo editorial y técnico. |
+| 5 | [/gastronomia/churrascaria-palace/](https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/) | 247 | FR preparado en paralelo; recuperación PT/EN y QA pendientes. |
 | 6 | [/gastronomia/colombo-do-forte/](https://www.ernestinhocarioca.com.br/gastronomia/colombo-do-forte/) | 238 | Diccionario FR preparado en la rama concurrente. Cotejo ES/PT/EN y QA pendientes. |
 | 7 | [/gastronomia/maska/](https://www.ernestinhocarioca.com.br/gastronomia/maska/) | 213 | Pendiente de cotejo editorial y técnico. |
 | 8 | [/gastronomia/oteque/](https://www.ernestinhocarioca.com.br/gastronomia/oteque/) | 200 | Pendiente de cotejo editorial y técnico. |
@@ -49,7 +49,7 @@ Prioridad por impresiones observadas en GSC Web del 14 de octubre al 10 de novie
 | 33 | [/gastronomia/confeitaria-manon/](https://www.ernestinhocarioca.com.br/gastronomia/confeitaria-manon/) | 95 | Pendiente de cotejo editorial y técnico. |
 | 34 | [/gastronomia/xodozin-copa/](https://www.ernestinhocarioca.com.br/gastronomia/xodozin-copa/) | 95 | Pendiente de cotejo editorial y técnico. |
 | 35 | [/gastronomia/casa-cave/](https://www.ernestinhocarioca.com.br/gastronomia/casa-cave/) | 92 | Pendiente de cotejo editorial y técnico. |
-| 36 | [/gastronomia/shiso/](https://www.ernestinhocarioca.com.br/gastronomia/shiso/) | 91 | Pendiente de cotejo editorial y técnico. |
+| 36 | [/gastronomia/shiso/](https://www.ernestinhocarioca.com.br/gastronomia/shiso/) | 91 | FR preparado en paralelo; recuperación PT/EN y QA pendientes. |
 | 37 | [/gastronomia/otto/](https://www.ernestinhocarioca.com.br/gastronomia/otto/) | 88 | Pendiente de cotejo editorial y técnico. |
 | 38 | [/gastronomia/confeitaria-colombo/](https://www.ernestinhocarioca.com.br/gastronomia/confeitaria-colombo/) | 87 | Pendiente de cotejo editorial y técnico. |
 | 39 | [/gastronomia/fiorino/](https://www.ernestinhocarioca.com.br/gastronomia/fiorino/) | 85 | Pendiente de cotejo editorial y técnico. |
@@ -65,7 +65,7 @@ Prioridad por impresiones observadas en GSC Web del 14 de octubre al 10 de novie
 | 49 | [/gastronomia/margutta-ipanema/](https://www.ernestinhocarioca.com.br/gastronomia/margutta-ipanema/) | 77 | Pendiente de cotejo editorial y técnico. |
 | 50 | [/gastronomia/teva/](https://www.ernestinhocarioca.com.br/gastronomia/teva/) | 77 | Pendiente de cotejo editorial y técnico. |
 
-Retomar Zazá Bistrô Tropical y Aprazível. Para Colombo do Forte, aprovechar el FR concurrente y recuperar PT/EN después del cotejo. Mantener abiertos los pendientes comerciales y del incremental acumulado de la tanda B. Sin despliegue.
+Retomar Aprazível y luego Churrascaria Palace. Para Colombo do Forte, aprovechar el FR concurrente y recuperar PT/EN después del cotejo. Mantener abiertos los pendientes comerciales y del incremental acumulado de la tanda B. Sin despliegue.
 
 
 ## Segundo sublote · Sushi Leblon
@@ -79,3 +79,13 @@ Tres HTML selectivos y auditor de cuatro idiomas aprobados. El selector PT → F
 Search Console el 14 de noviembre: ES y PT-BR enviadas e indexadas; EN descubierta sin indexar, sin fallo de descarga confirmado. Son estados de las URL públicas, previos al candidato.
 
 Total: 2/50 fichas probadas en vista privada, 48 con trabajo pendiente y 0 cerradas. Sin despliegue.
+
+## Tercer sublote · Zazá Bistrô Tropical
+
+Base del PR `586a0e3`, producción `21bb687`, candidato previo `937f0e8`. Se integra la rama concurrente `cebeef4`, que solo modifica el diccionario y rutas privadas FR. Se conservaron todas sus claves y los cambios existentes sin colisiones. `332a700d` sigue ausente.
+
+Las 15 entradas PT/EN por idioma coinciden con los diccionarios de `42d03024`, `8570793a` y `391d302e` (25 de septiembre). Se comprobó el orden frente al ES y se reactivaron ambos renderizadores; se tradujeron los dos consejos nuevos, metadatos y etiquetas visuales. Se añadieron 27 entradas FR. HTML fuente intacto. Tres HTML selectivos y auditor de cuatro idiomas aprobados; selector PT → FR → EN a 1440/390. [Capturas PT antes/después y FR](TANDA50_ZAZA_1440_390.jpg). Zazá se verificó en vista aislada con noindex. Pendiente incremental integral.
+
+Search Console, 14 de noviembre: las tres URL públicas de Zazá (ES, PT-BR y EN) figuran enviadas e indexadas. El estado describe producción antes del candidato.
+
+Total: 3/50 probadas en vista privada, 47 con trabajo pendiente, 0 cerradas. Siguiente: Aprazível y Churrascaria Palace. Sin despliegue.
