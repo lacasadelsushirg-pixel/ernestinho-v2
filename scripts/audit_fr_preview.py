@@ -48,6 +48,7 @@ def verify(base, preview):
             path = prefix + route
             doc = read_page(route_file(preview, path))
             locale_source = es if locale == 'fr' else read_page(route_file(base, path))
+            original = locale_source  # compare inherited copy against the current locale, never the previous loop
             assert doc.get('lang') == locale, (path, 'html lang')
             assert len(doc.xpath('//h1')) == len(locale_source.xpath('//h1')), (path, 'h1')
             assert doc.xpath('//link[@rel="canonical"]/@href') == [ORIGIN + path], (path, 'canonical')
@@ -73,7 +74,6 @@ def verify(base, preview):
                     shared -= existing
                 assert not shared, (path, 'untranslated paragraphs', sorted(shared))
             external = '//main//a[starts-with(@href,"https://") or starts-with(@href,"http://")]/@href'
-            original = es if locale == 'fr' else read_page(route_file(base, path))
             expected_links = Counter(ascii_url(link) for link in original.xpath(external) if urlsplit(link).hostname != 'wa.me')
             actual_links = Counter(ascii_url(link) for link in doc.xpath(external) if urlsplit(link).hostname != 'wa.me')
             assert actual_links == expected_links, (path, 'external editorial links changed',
