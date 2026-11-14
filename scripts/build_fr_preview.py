@@ -30,6 +30,7 @@ ROUTES = (
     '/gastronomia/jojo/', '/gastronomia/don-camillo/', '/gastronomia/bar-do-omar/',
     '/gastronomia/mee/', '/gastronomia/ocya-ilha/', '/gastronomia/pilograma-prime-grill/',
     '/gastronomia/temperarte-posto6/', '/gastronomia/temperarte-bolivar/', '/gastronomia/haru/',
+    '/gastronomia/bar-urca/', '/gastronomia/bar-da-frente/', '/gastronomia/feira-sao-cristovao/',
 )
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
