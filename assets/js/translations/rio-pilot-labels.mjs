@@ -1,5 +1,103 @@
 // Attribute and control copy left in Spanish by the approved legacy sources.
 export const pilotLabels = {
+  "/gastronomia/sushi-leblon/": {
+    "Atún fresco con ovas negras": [
+      "Atum fresco com ovas negras",
+      "Fresh tuna with black roe"
+    ],
+    "Cocina japonesa · tradición e innovación · abierto desde 1986": [
+      "Culinária japonesa · tradição e inovação · desde 1986",
+      "Japanese cuisine · tradition and innovation · since 1986"
+    ],
+    "Detalle de la mesa": [
+      "Detalhe da mesa",
+      "Table detail"
+    ],
+    "Dirección publicada: Rua Dias Ferreira 256, Leblon. Consulta la carta actual y reserva a través de los canales oficiales.": [
+      "Endereço publicado: Rua Dias Ferreira, 256, Leblon. Consulte o cardápio atual e reserve pelos canais oficiais.",
+      "Published address: Rua Dias Ferreira 256, Leblon. Check the current menu and book through the official channels."
+    ],
+    "El restaurante puede encajar en una salida nocturna por Leblon. Reserva con antelación cuando sea necesario y confirma los valores de los platos y bebidas, que pueden cambiar con la carta.": [
+      "O restaurante combina com uma noite no Leblon. Reserve com antecedência quando necessário e confirme os preços dos pratos e bebidas, que podem mudar com o cardápio.",
+      "The restaurant can fit into an evening out in Leblon. Book ahead when needed and check food and drink prices, which may change with the menu."
+    ],
+    "El sushi bar forma parte de la cena.": [
+      "O sushi bar faz parte do jantar.",
+      "The sushi bar is part of the dining experience."
+    ],
+    "En Sushi Leblon, pregunta por el pescado del día y por el tamaño de las piezas y combinados para no pedir más de lo necesario. Si quieres observar la preparación, consulta la posibilidad de sentarte en la barra; si prefieres conversar, pide una mesa adecuada.": [
+      "No Sushi Leblon, pergunte sobre o peixe do dia e o tamanho das peças e dos combinados para pedir na medida. Se quiser observar o preparo, consulte a possibilidade de sentar no balcão. Para conversar, peça uma mesa adequada.",
+      "At Sushi Leblon, ask about the fish of the day and the size of individual pieces and platters so you can order the right amount. Ask for a counter seat to watch the preparation, or a suitable table if you want to talk."
+    ],
+    "Experiencia Sushi Leblon": [
+      "Experiência Sushi Leblon",
+      "The Sushi Leblon experience"
+    ],
+    "Horarios de almuerzo, jantar y sushi bar deben confirmarse antes de una visita tardía.": [
+      "Confirme os horários de almoço, jantar e sushi bar antes de uma visita mais tarde.",
+      "Confirm lunch, dinner and sushi-bar hours before a late visit."
+    ],
+    "Interior del Sushi Leblon": [
+      "Interior do Sushi Leblon",
+      "Inside Sushi Leblon"
+    ],
+    "Japonés": [
+      "Japonês",
+      "Japanese"
+    ],
+    "La carta permite pedir por etapas.": [
+      "O cardápio permite pedir por etapas.",
+      "The menu lets you order in stages."
+    ],
+    "La disponibilidad depende del pescado recibido.": [
+      "A disponibilidade depende do peixe recebido.",
+      "Availability depends on the fish delivered that day."
+    ],
+    "Mapa de Sushi Leblon": [
+      "Mapa do Sushi Leblon",
+      "Map of Sushi Leblon"
+    ],
+    "Preparación japonesa": [
+      "Preparação japonesa",
+      "Japanese dish"
+    ],
+    "Salón de Sushi Leblon": [
+      "Salão do Sushi Leblon",
+      "Sushi Leblon dining room"
+    ],
+    "Sitio oficial de Sushi Leblon · Pedidos online": [
+      "Site oficial do Sushi Leblon · Pedidos on-line",
+      "Official Sushi Leblon website · Online orders"
+    ],
+    "Sushi Leblon abrió en 1986 y cuenta en su sitio que combina tradición e innovación en su cocina. El chef Cássio Hara aporta novedades al menú; el restaurante ofrece pedidos en línea y gestiona reservas por su canal correspondiente, no por correo electrónico.": [
+      "O Sushi Leblon abriu em 1986 e informa em seu site que combina tradição e inovação na cozinha. O chef Cássio Hara traz novidades ao cardápio. O restaurante oferece pedidos on-line e recebe reservas pelo canal próprio, não por e-mail.",
+      "Sushi Leblon opened in 1986 and says on its website that its cooking combines tradition and innovation. Chef Cássio Hara brings new dishes to the menu. The restaurant accepts online orders and handles reservations through its designated channel rather than by email."
+    ],
+    "Sushi Leblon: guía completa | Ernestinho Carioca": [
+      "Sushi Leblon: guia completo | Ernestinho Carioca",
+      "Sushi Leblon: complete guide | Ernestinho Carioca"
+    ],
+    "Sushi del restaurante": [
+      "Sushi do restaurante",
+      "Sushi from the restaurant"
+    ],
+    "Tradición e innovación conviven en la casa.": [
+      "Tradição e inovação convivem na casa.",
+      "Tradition and innovation come together here."
+    ],
+    "Un clásico de Dias Ferreira.": [
+      "Um clássico da Dias Ferreira.",
+      "A Dias Ferreira classic."
+    ],
+    "Una casa japonesa de ambiente social.": [
+      "Uma casa japonesa de ambiente social.",
+      "A Japanese restaurant with a lively atmosphere."
+    ],
+    "Una preparación destacada en las imágenes.": [
+      "Um preparo em destaque nas imagens.",
+      "A dish featured in the photos."
+    ]
+  },
   ...{
   "/gastronomia/labuta-bar/": {
     "🌐 Sitio oficial": [

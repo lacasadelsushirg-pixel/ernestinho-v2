@@ -4,7 +4,7 @@ PR #24 en `586a0e3`, rama de producción y manifiesto público en `21bb687`. El 
 
 Carretão Copacabana — Siqueira Campos: 19 entradas históricas por idioma coinciden entre `42d03024`, `8570793a`, `391d302e` (25 de septiembre) y el HTML actual. Se reactivaron los renderizadores y se cotejó el orden con el ES. Cuatro datos prácticos recuperan los matices del original vigente. Se añadieron título, dos consejos y etiquetas de medios PT/EN, y 31 entradas FR. El HTML ES se conserva.
 
-Generación selectiva de tres HTML. Auditor de cuatro idiomas aprobado en vista aislada, con canonical, estructura y paridad de enlaces/medios. Cambio PT → FR → EN a 1440/390, con [capturas comparativas](TANDA50_SIQUEIRA_1440_390.jpg) desde el PT de Hostinger al candidato usando recursos locales del candidato. FR noindex y fuera del piloto compartido de 55 rutas. Hostinger: 3612 documentos, 3588 URL únicas e igualdad exacta con las rutas indexables del manifiesto. Pendiente incremental sobre árbol publicado completo y revisión de vigencia comercial. La tanda lleva 1/50 en revisión técnica, 0/50 cerradas.
+Generación selectiva de tres HTML. Auditor de cuatro idiomas aprobado en vista aislada, con canonical, estructura y paridad de enlaces/medios. Cambio PT → FR → EN a 1440/390, con [capturas comparativas](TANDA50_SIQUEIRA_1440_390.jpg) desde el PT de Hostinger al candidato usando recursos locales del candidato. FR noindex y fuera del piloto compartido de 55 rutas. Hostinger: 3612 documentos, 3588 URL únicas e igualdad exacta con las rutas indexables del manifiesto. Pendiente incremental sobre árbol publicado completo y revisión de vigencia comercial. En el primer sublote había 1/50 en revisión técnica, 0/50 cerradas.
 
 La inspección anterior de Search Console dio ES enviada e indexada, PT descubierta sin indexar y EN desconocida. Las últimas dos clasificaciones no establecen un fallo HTTP. Pendiente repetir la inspección y cotejar el informe agregado.
 
@@ -15,11 +15,11 @@ Prioridad por impresiones observadas en GSC Web del 14 de octubre al 10 de novie
 | # | URL | Impresiones | Estado |
 |---:|---|---:|---|
 | 1 | [/gastronomia/carretao-siqueira/](https://www.ernestinhocarioca.com.br/gastronomia/carretao-siqueira/) | 983 | Cuatro idiomas probados en vista aislada; en revisión. |
-| 2 | [/gastronomia/sushi-leblon/](https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/) | 527 | Pendiente de cotejo editorial y técnico. |
+| 2 | [/gastronomia/sushi-leblon/](https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/) | 527 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 3 | [/gastronomia/zaza-bistro-tropical/](https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/) | 481 | Pendiente de cotejo editorial y técnico. |
 | 4 | [/gastronomia/aprazivel/](https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/) | 276 | Pendiente de cotejo editorial y técnico. |
 | 5 | [/gastronomia/churrascaria-palace/](https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/) | 247 | Pendiente de cotejo editorial y técnico. |
-| 6 | [/gastronomia/colombo-do-forte/](https://www.ernestinhocarioca.com.br/gastronomia/colombo-do-forte/) | 238 | Pendiente de cotejo editorial y técnico. |
+| 6 | [/gastronomia/colombo-do-forte/](https://www.ernestinhocarioca.com.br/gastronomia/colombo-do-forte/) | 238 | Diccionario FR preparado en la rama concurrente. Cotejo ES/PT/EN y QA pendientes. |
 | 7 | [/gastronomia/maska/](https://www.ernestinhocarioca.com.br/gastronomia/maska/) | 213 | Pendiente de cotejo editorial y técnico. |
 | 8 | [/gastronomia/oteque/](https://www.ernestinhocarioca.com.br/gastronomia/oteque/) | 200 | Pendiente de cotejo editorial y técnico. |
 | 9 | [/gastronomia/cipriani/](https://www.ernestinhocarioca.com.br/gastronomia/cipriani/) | 199 | Pendiente de cotejo editorial y técnico. |
@@ -65,4 +65,17 @@ Prioridad por impresiones observadas en GSC Web del 14 de octubre al 10 de novie
 | 49 | [/gastronomia/margutta-ipanema/](https://www.ernestinhocarioca.com.br/gastronomia/margutta-ipanema/) | 77 | Pendiente de cotejo editorial y técnico. |
 | 50 | [/gastronomia/teva/](https://www.ernestinhocarioca.com.br/gastronomia/teva/) | 77 | Pendiente de cotejo editorial y técnico. |
 
-Retomar Sushi Leblon y después Zazá Bistrô Tropical. Mantener abiertos los pendientes comerciales y del incremental acumulado de la tanda B. Sin despliegue.
+Retomar Zazá Bistrô Tropical y Aprazível. Para Colombo do Forte, aprovechar el FR concurrente y recuperar PT/EN después del cotejo. Mantener abiertos los pendientes comerciales y del incremental acumulado de la tanda B. Sin despliegue.
+
+
+## Segundo sublote · Sushi Leblon
+
+Base del PR `586a0e3`, producción `21bb687`, preparación acumulada `72f778d`. Se conservaron las entradas francesas verificadas por comparación de claves de la rama concurrente `63063e7e`, sin colisiones con la base acumulada. Colombo do Forte tiene un diccionario preparado en esa rama, con recuperación y validación pendientes.
+
+Sushi Leblon: idénticas 19 entradas por idioma en `42d03024`, `8570793a`, `391d302e` y el HTML actual. Se cotejaron con el orden de párrafos en ES, se reactivaron los renderizadores y se excluyó el suplemento del selector posicional. Se tradujeron las ampliaciones y etiquetas, conservando enlaces, datos comerciales y HTML fuente. Se añadieron 44 entradas francesas.
+
+Tres HTML selectivos y auditor de cuatro idiomas aprobados. El selector PT → FR → EN pasó a 1440 y 390 px. [Capturas antes/después](TANDA50_SUSHI_1440_390.jpg), usando recursos locales del candidato. Vista FR aislada con noindex. Guard de publicación aprobado. Queda el incremental integral contra el árbol publicado.
+
+Search Console el 14 de noviembre: ES y PT-BR enviadas e indexadas; EN descubierta sin indexar, sin fallo de descarga confirmado. Son estados de las URL públicas, previos al candidato.
+
+Total: 2/50 fichas probadas en vista privada, 48 con trabajo pendiente y 0 cerradas. Sin despliegue.
