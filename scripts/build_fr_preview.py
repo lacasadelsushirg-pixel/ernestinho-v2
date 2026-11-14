@@ -5,6 +5,7 @@ import copy
 from hashlib import sha1
 import json
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import tempfile
@@ -381,31 +382,36 @@ def shopping_runtime_copy(document, route):
     return ('mainText', *runtime.keys())
 
 
-DYNAMIC_SOURCE_LOCALE_ROUTES = {
+SCRIPT_SOURCE_LOCALE_ROUTES = {
     '/compras/rio-sul/', '/compras/feira-sao-cristovao/', '/compras/uruguaiana/',
     '/compras/praca-lido/', '/compras/feira-organica-gloria/', '/compras/cadeg/',
     '/compras/feira-hippie-ipanema/', '/compras/praca-xv/', '/compras/lavradio/',
     '/compras/village-mall/', '/compras/saara/', '/compras/feira-da-gloria/',
+    '/compras/mercadao-madureira/',
 }
 
 
 def prerender_dynamic_source_locale(document, route, locale):
-    if route not in DYNAMIC_SOURCE_LOCALE_ROUTES:
+    if route not in SCRIPT_SOURCE_LOCALE_ROUTES:
         return
     source = read_page(route_file(ROOT, route))
-    script = next((node.text or '' for node in source.xpath('//script')
-                   if 'const D=' in (node.text or '')), None)
-    if script is None:
-        raise ValueError(f'{route}: multilingual D script is missing')
-    result = subprocess.run(
-        ['node', str(ROOT / 'scripts/extract_inline_locale_data.mjs')],
-        input=script, text=True, capture_output=True, check=True)
-    data = json.loads(result.stdout)
-    localized = data['D'].get(locale)
+    scripts = [node.text or '' for node in source.xpath('//script')
+               if any(f'const {name}=' in (node.text or '')
+                      for name in ('D', 'T', 'story', 'S', 'A'))]
+    if not scripts:
+        raise ValueError(f'{route}: multilingual D/T script is missing')
+    data = {}
+    for script in scripts:
+        result = subprocess.run(
+            ['node', str(ROOT / 'scripts/extract_inline_locale_data.mjs')],
+            input=script, text=True, capture_output=True, check=True)
+        data.update(json.loads(result.stdout))
+    dictionary = data.get('D') or data.get('T')
+    localized = dictionary.get(locale)
     if localized is None:
-        raise ValueError(f'{route}: D dictionary has no {locale} locale')
+        raise ValueError(f'{route}: D/T dictionary has no {locale} locale')
     for key, value in localized.items():
-        targets = document.xpath(f'//*[@id="{key}"]')
+        targets = document.xpath(f'//*[@id="{key}" or @data-k="{key}" or @data-i="{key}"]')
         if not targets:
             continue
         target = targets[0]
@@ -421,9 +427,18 @@ def prerender_dynamic_source_locale(document, route, locale):
             target.text = value
             for child in list(target):
                 target.remove(child)
-    story = data.get('story')
+    story_pair = data.get('A')
+    if story_pair and locale in story_pair:
+        for key, value in zip(('story2a', 'story2b'), story_pair[locale], strict=True):
+            targets = document.xpath(f'//*[@data-i="{key}"]')
+            if len(targets) != 1:
+                raise ValueError(f'{route}: expected one [{key}] story paragraph')
+            targets[0].text = value
+            for child in list(targets[0]):
+                targets[0].remove(child)
+    story = data.get('story') or data.get('S')
     if story and locale in story:
-        targets = document.xpath('//*[@id="story"]')
+        targets = document.xpath('//*[@id="story" or @id="story1"]')
         if targets:
             paragraphs = targets[0].xpath('./p')
             if len(paragraphs) != len(story[locale]):
@@ -432,6 +447,23 @@ def prerender_dynamic_source_locale(document, route, locale):
                 paragraph.text = text
                 for child in list(paragraph):
                     paragraph.remove(child)
+
+
+def pin_script_locale(document, route, locale):
+    if route not in SCRIPT_SOURCE_LOCALE_ROUTES or locale not in ('pt', 'en'):
+        return
+    localized_lang = 'pt-BR' if locale == 'pt' else 'en'
+    replacements = 0
+    pattern = r"setLang\((?:localStorage\.getItem\(['\"][\w-]+['\"]\)\s*\|\|\s*)?['\"]es['\"]\)"
+    replacement = f"setLang('{locale}');document.documentElement.lang='{localized_lang}'"
+    for script in document.xpath('//script[not(@src)]'):
+        content = script.text or ''
+        updated, count = re.subn(pattern, replacement, content)
+        if count:
+            script.text = updated
+            replacements += count
+    if replacements < 1:
+        raise ValueError(f'{route}: expected a locale initializer, found {replacements}')
 
 
 def french_page(source, route, copybook, routes=ROUTES):
@@ -554,6 +586,7 @@ def build(source, destination, routes=ROUTES):
                 translated = read_page(counterpart)
                 if prefix in ('/pt', '/en'):
                     prerender_dynamic_source_locale(translated, route, prefix[1:])
+                    pin_script_locale(translated, route, prefix[1:])
                 add_selector(translated, route)
                 save_page(counterpart, translated)
         shutil.copyfile(ROOT / 'scripts/fr-preview-browser.js', output / RUNTIME.lstrip('/'))

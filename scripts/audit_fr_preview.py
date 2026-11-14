@@ -7,8 +7,8 @@ import json
 from pathlib import Path
 from urllib.parse import quote, urlsplit
 
-from build_fr_preview import (DYNAMIC_SOURCE_LOCALE_ROUTES, LANGS, ORIGIN,
-                              prerender_dynamic_source_locale, read_page,
+from build_fr_preview import (SCRIPT_SOURCE_LOCALE_ROUTES, LANGS, ORIGIN,
+                              pin_script_locale, prerender_dynamic_source_locale, read_page,
                               restore_preview_media, route_file)
 
 EDITORIAL = '//main//*[self::h1 or self::h2 or self::h3 or self::p or self::li or self::td or self::th]'
@@ -88,12 +88,21 @@ def verify(base, preview):
                     assert route_file(preview, urlsplit(link).path).is_file(), (path, link)
             else:
                 expected = original
-                if locale in ('pt-BR', 'en') and route in DYNAMIC_SOURCE_LOCALE_ROUTES:
+                if locale in ('pt-BR', 'en') and route in SCRIPT_SOURCE_LOCALE_ROUTES:
                     expected = copy.deepcopy(original)
                     prerender_dynamic_source_locale(expected, route,
                                                     {'pt-BR': 'pt', 'en': 'en'}[locale])
+                    pin_script_locale(expected, route,
+                                      {'pt-BR': 'pt', 'en': 'en'}[locale])
                 assert [text(n) for n in doc.xpath(EDITORIAL)] == [text(n) for n in expected.xpath(EDITORIAL)]
+                if locale in ('pt-BR', 'en') and route in SCRIPT_SOURCE_LOCALE_ROUTES:
+                    actual_scripts = [(node.get('src'), node.get('type'), node.text or '') for node in doc.xpath('//script')]
+                    expected_scripts = [(node.get('src'), node.get('type'), node.text or '') for node in expected.xpath('//script')]
+                    assert actual_scripts[:-1] == expected_scripts, (path, 'source script changed unexpectedly')
+                    assert actual_scripts[-1][:2] == ('/assets/js/fr-preview.js', 'module'), (path, 'preview selector script missing')
                 assert doc.xpath('//head/link[@rel="alternate"]/@href') == original.xpath('//head/link[@rel="alternate"]/@href')
+                assert list(map(ascii_url, doc.xpath(MEDIA))) == list(map(ascii_url, original.xpath(MEDIA))), (path, 'media changed')
+                assert list(map(ascii_url, doc.xpath('//main//a/@href'))) == list(map(ascii_url, original.xpath('//main//a/@href'))), (path, 'links changed')
         print(f'{route} ES/PT-BR/EN/FR verified')
 
     for path, count in inherited:

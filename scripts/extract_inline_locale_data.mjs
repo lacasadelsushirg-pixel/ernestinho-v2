@@ -3,21 +3,22 @@ import vm from 'node:vm';
 let source = '';
 for await (const chunk of process.stdin) source += chunk;
 
-const dStart = source.indexOf('const D=');
-if (dStart < 0) throw new Error('No D locale object found');
-let dEnd = source.indexOf(';const story=', dStart);
-if (dEnd < 0) dEnd = source.indexOf(';function setLang', dStart);
-if (dEnd < 0) throw new Error('Could not isolate the D locale object');
-const dLiteral = source.slice(dStart + 'const D='.length, dEnd);
-const D = vm.runInNewContext(`(${dLiteral})`, Object.create(null), { timeout: 1000 });
-
-let story = null;
-const storyStart = source.indexOf('const story=');
-if (storyStart >= 0) {
-  const storyEnd = source.indexOf(';function setLang', storyStart);
-  if (storyEnd < 0) throw new Error('Could not isolate the story locale object');
-  const storyLiteral = source.slice(storyStart + 'const story='.length, storyEnd);
-  story = vm.runInNewContext(`(${storyLiteral})`, Object.create(null), { timeout: 1000 });
+function extractConstant(name) {
+  const declaration = `const ${name}=`;
+  const start = source.indexOf(declaration);
+  if (start < 0) return null;
+  const literalStart = start + declaration.length;
+  const nextDeclaration = /;\s*(?:const|function|let|var)\b/g;
+  nextDeclaration.lastIndex = literalStart;
+  const end = nextDeclaration.exec(source)?.index;
+  if (end === undefined) throw new Error(`Could not isolate ${name} locale object`);
+  const literal = source.slice(literalStart, end);
+  return vm.runInNewContext(`(${literal})`, Object.create(null), { timeout: 1000 });
 }
 
-process.stdout.write(JSON.stringify({ D, story }));
+const data = {};
+for (const name of ['D', 'T', 'story', 'S', 'A']) {
+  const value = extractConstant(name);
+  if (value !== null) data[name] = value;
+}
+process.stdout.write(JSON.stringify(data));
