@@ -77,6 +77,9 @@ try {
       ['/gastronomia/labuta-bar/', /Labuta Bar/],
       ['/gastronomia/casa-201/', /Casa 201/],
       ['/gastronomia/angu-do-gomes/', /Angu do Gomes/],
+      ['/gastronomia/jojo/', /Jojô Bistrô/],
+      ['/gastronomia/don-camillo/', /Don Camillo/],
+      ['/gastronomia/bar-do-omar/', /Bar do Omar/],
     ]) {
       console.log(`Checking ${route} at ${width}px`);
       const original = await page.goto(origin + '/pt' + route, { waitUntil: 'load' });
