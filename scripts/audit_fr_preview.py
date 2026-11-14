@@ -44,8 +44,9 @@ def verify(base, preview):
         for prefix, locale, _ in (*LANGS, ('/fr', 'fr', 'Français')):
             path = prefix + route
             doc = read_page(route_file(preview, path))
+            locale_source = es if locale == 'fr' else read_page(route_file(base, path))
             assert doc.get('lang') == locale, (path, 'html lang')
-            assert len(doc.xpath('//h1')) == len(es.xpath('//h1')), (path, 'h1')
+            assert len(doc.xpath('//h1')) == len(locale_source.xpath('//h1')), (path, 'h1')
             assert doc.xpath('//link[@rel="canonical"]/@href') == [ORIGIN + path], (path, 'canonical')
             assert doc.xpath('//head/title/text()') and doc.xpath('//head/meta[@name="description"]/@content')
             extra = 0
@@ -54,7 +55,7 @@ def verify(base, preview):
                 assert len(doc.xpath('//*[@id="fr-month-heat"]//li')) == 5
                 assert len(doc.xpath('//*[@id="month-grid"]/article')) == 12
                 extra = 13
-            assert len(doc.xpath(EDITORIAL)) == len(es.xpath(EDITORIAL)) + extra, (path, 'editorial structure')
+            assert len(doc.xpath(EDITORIAL)) == len(locale_source.xpath(EDITORIAL)) + extra, (path, 'editorial structure')
             assert doc.xpath('//*[@data-fr-preview-choice]/@href') == ['/fr' + route] * 2, (path, 'selector')
             if prefix:
                 shared = {text(n) for n in doc.xpath(PROSE)} & es_blocks

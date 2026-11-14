@@ -91,6 +91,7 @@ SHOPPING_ROUTES = (
     '/compras/village-mall/',
     '/compras/nova-america/',
     '/compras/feira-nocturna-copacabana/',
+    '/compras/shopping-leblon/',
 )
 ROUTES += CULTURE_ROUTES + PHOTO_ROUTES + SHOPPING_ROUTES
 RUNTIME = '/assets/js/fr-preview.js'
@@ -148,8 +149,12 @@ def add_selector(document, route, french=False):
     document.find('body').append(html.Element('script', type='module', src=RUNTIME))
 
 
-def translate_nodes(document, lookup):
+def translate_nodes(document, lookup, skip_ids=()):
+    skip_ids = set(skip_ids)
     for value in document.xpath(TRANSLATABLE):
+        parent = value.getparent()
+        if parent is not None and any(element.get('id') in skip_ids for element in (parent, *parent.iterancestors())):
+            continue
         original = str(value)
         key = ' '.join(original.split())
         if not key or not any(char.isalpha() for char in key):
@@ -273,6 +278,47 @@ def supermarkets_copybook():
     return {value: localized['keys'][key] for key, value in entries['ES'].items()}
 
 
+def replace_inner_html(element, markup):
+    for child in list(element):
+        element.remove(child)
+    element.text = None
+    for fragment in html.fragments_fromstring(markup):
+        if isinstance(fragment, str):
+            if len(element):
+                element[-1].tail = (element[-1].tail or '') + fragment
+            else:
+                element.text = (element.text or '') + fragment
+        else:
+            element.append(fragment)
+
+
+def shopping_leblon_runtime(document):
+    data_path = FR_COPY / 'compras-shopping-leblon-dinamico-paralelo.json'
+    if not data_path.exists():
+        raise ValueError('Shopping Leblon runtime dictionary is missing')
+    data = json.loads(data_path.read_text())
+    runtime = data['runtime_T_fr']
+    for key, markup in runtime.items():
+        targets = document.xpath(f'//*[@id="{key}"]')
+        if not targets:
+            raise ValueError(f'Shopping Leblon runtime target #{key} is missing')
+        replace_inner_html(targets[0], markup)
+    paragraphs = document.xpath('//*[@id="mainText"]')
+    if not paragraphs:
+        raise ValueError('Shopping Leblon mainText target is missing')
+    main = paragraphs[0]
+    for child in list(main):
+        main.remove(child)
+    main.text = None
+    translations = data['runtime_P_fr']
+    if len(translations) != 13:
+        raise ValueError('Shopping Leblon runtime paragraph count changed')
+    for text in translations:
+        p = html.Element('p')
+        p.text = text
+        main.append(p)
+
+
 def french_page(source, route, copybook, routes=ROUTES):
     document = copy.deepcopy(source)
     document.set('lang', 'fr')
@@ -294,6 +340,10 @@ def french_page(source, route, copybook, routes=ROUTES):
         return copybook.get(value, value)
 
     restore_preview_media(document, route)
+    runtime_skip_ids = ()
+    if route == '/compras/shopping-leblon/':
+        shopping_leblon_runtime(document)
+        runtime_skip_ids = ('mainText', 'hero', 'context', 'shops', 'brands', 'food', 'culture', 'recommend', 'hours', 'transport', 'services', 'comfort')
 
     if route == '/guia/mes-a-mes/':
         data = json.loads(read_page(route_file(ROOT, route)).xpath('//script[@id="month-data"]')[0].text)
@@ -316,7 +366,7 @@ def french_page(source, route, copybook, routes=ROUTES):
             panel.append(listing)
             document.xpath('//*[@id="month-extra"]')[0].append(panel)
 
-    translate_nodes(document, lookup)
+    translate_nodes(document, lookup, runtime_skip_ids)
     if route == PORTUGUESE_ROUTE:
         document.xpath('//*[@data-portugues-app]')[0].set('data-data-url', '/assets/data/fr-portugues-preview.json')
         document.find('body').append(html.Element('script', type='module', src='/assets/js/fr-portugues-preview.js'))
