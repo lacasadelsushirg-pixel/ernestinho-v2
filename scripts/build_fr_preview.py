@@ -38,7 +38,7 @@ ROUTES = (
     '/gastronomia/mocellin-steak/', '/gastronomia/naga/', '/gastronomia/otto/',
     '/gastronomia/la-fiorentina-ipanema/', '/gastronomia/jobi/', '/gastronomia/lanches-cariocas/',
     '/gastronomia/cervantes-copacabana/', '/gastronomia/churrascaria-palace/',
-    '/gastronomia/padarias/', '/gastronomia/shiso/',
+    '/gastronomia/padarias/', '/gastronomia/shiso/', '/gastronomia/bar-luiz/',
 )
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
