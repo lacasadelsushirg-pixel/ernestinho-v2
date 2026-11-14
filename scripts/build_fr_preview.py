@@ -29,6 +29,7 @@ ROUTES = (
     '/gastronomia/labuta-bar/', '/gastronomia/casa-201/', '/gastronomia/angu-do-gomes/',
     '/gastronomia/jojo/', '/gastronomia/don-camillo/', '/gastronomia/bar-do-omar/',
     '/gastronomia/mee/', '/gastronomia/ocya-ilha/', '/gastronomia/pilograma-prime-grill/',
+    '/gastronomia/temperarte-posto6/', '/gastronomia/temperarte-bolivar/', '/gastronomia/haru/',
 )
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
