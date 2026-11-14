@@ -6,6 +6,7 @@ from hashlib import sha1
 import json
 from pathlib import Path
 import shutil
+import subprocess
 import tempfile
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
@@ -380,6 +381,59 @@ def shopping_runtime_copy(document, route):
     return ('mainText', *runtime.keys())
 
 
+DYNAMIC_SOURCE_LOCALE_ROUTES = {
+    '/compras/rio-sul/', '/compras/feira-sao-cristovao/', '/compras/uruguaiana/',
+    '/compras/praca-lido/', '/compras/feira-organica-gloria/', '/compras/cadeg/',
+    '/compras/feira-hippie-ipanema/', '/compras/praca-xv/', '/compras/lavradio/',
+    '/compras/village-mall/', '/compras/saara/', '/compras/feira-da-gloria/',
+}
+
+
+def prerender_dynamic_source_locale(document, route, locale):
+    if route not in DYNAMIC_SOURCE_LOCALE_ROUTES:
+        return
+    source = read_page(route_file(ROOT, route))
+    script = next((node.text or '' for node in source.xpath('//script')
+                   if 'const D=' in (node.text or '')), None)
+    if script is None:
+        raise ValueError(f'{route}: multilingual D script is missing')
+    result = subprocess.run(
+        ['node', str(ROOT / 'scripts/extract_inline_locale_data.mjs')],
+        input=script, text=True, capture_output=True, check=True)
+    data = json.loads(result.stdout)
+    localized = data['D'].get(locale)
+    if localized is None:
+        raise ValueError(f'{route}: D dictionary has no {locale} locale')
+    for key, value in localized.items():
+        targets = document.xpath(f'//*[@id="{key}"]')
+        if not targets:
+            continue
+        target = targets[0]
+        if isinstance(value, list):
+            children = list(target)
+            if len(children) != len(value):
+                raise ValueError(f'{route}: #{key} item count differs in {locale}')
+            for child, text in zip(children, value):
+                child.text = text
+                for item in list(child):
+                    child.remove(item)
+        else:
+            target.text = value
+            for child in list(target):
+                target.remove(child)
+    story = data.get('story')
+    if story and locale in story:
+        targets = document.xpath('//*[@id="story"]')
+        if targets:
+            paragraphs = targets[0].xpath('./p')
+            if len(paragraphs) != len(story[locale]):
+                raise ValueError(f'{route}: story item count differs in {locale}')
+            for paragraph, text in zip(paragraphs, story[locale]):
+                paragraph.text = text
+                for child in list(paragraph):
+                    paragraph.remove(child)
+
+
 def french_page(source, route, copybook, routes=ROUTES):
     document = copy.deepcopy(source)
     document.set('lang', 'fr')
@@ -498,6 +552,8 @@ def build(source, destination, routes=ROUTES):
             for prefix, _, _ in LANGS:
                 counterpart = route_file(output, prefix + route)
                 translated = read_page(counterpart)
+                if prefix in ('/pt', '/en'):
+                    prerender_dynamic_source_locale(translated, route, prefix[1:])
                 add_selector(translated, route)
                 save_page(counterpart, translated)
         shutil.copyfile(ROOT / 'scripts/fr-preview-browser.js', output / RUNTIME.lstrip('/'))

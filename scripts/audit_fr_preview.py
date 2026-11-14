@@ -2,11 +2,14 @@
 """Validate structural and search isolation for all four locales of the pilot."""
 import argparse
 from collections import Counter
+import copy
 import json
 from pathlib import Path
 from urllib.parse import quote, urlsplit
 
-from build_fr_preview import LANGS, ORIGIN, read_page, restore_preview_media, route_file
+from build_fr_preview import (DYNAMIC_SOURCE_LOCALE_ROUTES, LANGS, ORIGIN,
+                              prerender_dynamic_source_locale, read_page,
+                              restore_preview_media, route_file)
 
 EDITORIAL = '//main//*[self::h1 or self::h2 or self::h3 or self::p or self::li or self::td or self::th]'
 PROSE = '//main//*[self::p or self::li or self::td or self::th]'
@@ -84,7 +87,12 @@ def verify(base, preview):
                 for link in doc.xpath('//a[starts-with(@href,"/fr/")]/@href'):
                     assert route_file(preview, urlsplit(link).path).is_file(), (path, link)
             else:
-                assert [text(n) for n in doc.xpath(EDITORIAL)] == [text(n) for n in original.xpath(EDITORIAL)]
+                expected = original
+                if locale in ('pt-BR', 'en') and route in DYNAMIC_SOURCE_LOCALE_ROUTES:
+                    expected = copy.deepcopy(original)
+                    prerender_dynamic_source_locale(expected, route,
+                                                    {'pt-BR': 'pt', 'en': 'en'}[locale])
+                assert [text(n) for n in doc.xpath(EDITORIAL)] == [text(n) for n in expected.xpath(EDITORIAL)]
                 assert doc.xpath('//head/link[@rel="alternate"]/@href') == original.xpath('//head/link[@rel="alternate"]/@href')
         print(f'{route} ES/PT-BR/EN/FR verified')
 
