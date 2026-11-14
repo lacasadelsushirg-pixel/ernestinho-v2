@@ -38,7 +38,7 @@ ROUTES = (
     '/gastronomia/mocellin-steak/', '/gastronomia/naga/', '/gastronomia/otto/',
     '/gastronomia/la-fiorentina-ipanema/', '/gastronomia/jobi/', '/gastronomia/lanches-cariocas/',
     '/gastronomia/cervantes-copacabana/', '/gastronomia/churrascaria-palace/',
-    '/gastronomia/padarias/', '/gastronomia/shiso/', '/gastronomia/bar-luiz/', '/gastronomia/bar-da-gema/', '/gastronomia/tacaca-do-norte/', '/gastronomia/aipo-aipim-391/', '/gastronomia/aipo-aipim-605/', '/gastronomia/guacamole-copa/', '/gastronomia/pilograma-centro/', '/gastronomia/fiorino/', '/gastronomia/bar-da-portuguesa/', '/gastronomia/bar-do-momo/', '/gastronomia/casa-mohamed/', '/gastronomia/casa-do-sardo/', '/gastronomia/armazem-sao-thiago/', '/gastronomia/assador/', '/gastronomia/cafe-do-alto/', '/gastronomia/casa-cave/', '/gastronomia/casa-porto/', '/gastronomia/cachambeer/', '/gastronomia/cabanna/', '/gastronomia/basha/', '/gastronomia/classico-beach-club-barra/',
+    '/gastronomia/padarias/', '/gastronomia/shiso/', '/gastronomia/bar-luiz/', '/gastronomia/bar-da-gema/', '/gastronomia/tacaca-do-norte/', '/gastronomia/aipo-aipim-391/', '/gastronomia/aipo-aipim-605/', '/gastronomia/guacamole-copa/', '/gastronomia/pilograma-centro/', '/gastronomia/fiorino/', '/gastronomia/bar-da-portuguesa/', '/gastronomia/bar-do-momo/', '/gastronomia/casa-mohamed/', '/gastronomia/casa-do-sardo/', '/gastronomia/armazem-sao-thiago/', '/gastronomia/assador/', '/gastronomia/cafe-do-alto/', '/gastronomia/casa-cave/', '/gastronomia/casa-porto/', '/gastronomia/cachambeer/', '/gastronomia/cabanna/', '/gastronomia/basha/', '/gastronomia/classico-beach-club-barra/', '/gastronomia/classico-leme/',
 )
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
