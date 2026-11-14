@@ -122,6 +122,15 @@ export default {
 
 // Keep the qualifiers and formatting added to the approved practical notes.
 export const updatedFacts = {
+  "/gastronomia/cafe-lamas/": {
+    "en": {
+      "15": "♿ <strong>Accessibility</strong><br>Accessibility not verified.",
+      "11": "💰 <strong>Prices</strong><br>Moderate prices; traditional portions may be generous."
+    },
+    "pt": {
+      "11": "💰 <strong>Preços</strong><br>Preço médio; as porções tradicionais podem ser fartas."
+    }
+  },
   "/gastronomia/oteque/": {
     "pt": {
       "8": "📍 <strong>Endereço</strong><br>Rua Conde de Irajá, 581 — Botafogo",

@@ -22,8 +22,8 @@ Prioridad por impresiones observadas en GSC Web del 14 de octubre al 10 de novie
 | 6 | [/gastronomia/colombo-do-forte/](https://www.ernestinhocarioca.com.br/gastronomia/colombo-do-forte/) | 238 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 7 | [/gastronomia/maska/](https://www.ernestinhocarioca.com.br/gastronomia/maska/) | 213 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 8 | [/gastronomia/oteque/](https://www.ernestinhocarioca.com.br/gastronomia/oteque/) | 200 | Cuatro idiomas probados en vista aislada; en revisión. |
-| 9 | [/gastronomia/cipriani/](https://www.ernestinhocarioca.com.br/gastronomia/cipriani/) | 199 | Pendiente de cotejo editorial y técnico. |
-| 10 | [/gastronomia/cafe-lamas/](https://www.ernestinhocarioca.com.br/gastronomia/cafe-lamas/) | 176 | Pendiente de cotejo editorial y técnico. |
+| 9 | [/gastronomia/cipriani/](https://www.ernestinhocarioca.com.br/gastronomia/cipriani/) | 199 | Bloqueada por vigencia del español y continuidad de la identidad comercial; se conserva la ficha. |
+| 10 | [/gastronomia/cafe-lamas/](https://www.ernestinhocarioca.com.br/gastronomia/cafe-lamas/) | 176 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 11 | [/gastronomia/churrasqueira-rio/](https://www.ernestinhocarioca.com.br/gastronomia/churrasqueira-rio/) | 167 | FR preparado en paralelo; se completó el rótulo FR faltante. PT/EN y QA pendientes. |
 | 12 | [/gastronomia/cervantes-copacabana/](https://www.ernestinhocarioca.com.br/gastronomia/cervantes-copacabana/) | 165 | Pendiente de cotejo editorial y técnico. |
 | 13 | [/gastronomia/lasai/](https://www.ernestinhocarioca.com.br/gastronomia/lasai/) | 164 | Pendiente de cotejo editorial y técnico. |
@@ -135,3 +135,11 @@ Base PR `586a0e3`, producción `21bb687`, candidato `9cdcf6d`. El cotejo disting
 Pasaron tres HTML selectivos, el auditor ES/PT-BR/EN/FR y el selector a 1440/390. [Capturas antes/después](TANDA50_MASKA_1440_390.jpg) con PT real de Hostinger, candidato y FR noindex. Search Console, 14 de noviembre: las tres versiones públicas constan enviadas e indexadas. Queda la prueba incremental integral.
 
 Total: 8/50 probadas en vista privada, 42 pendientes y 0 cerradas. Retomar Cipriani y Café Lamas. Sin publicación.
+
+## Noveno sublote · Café Lamas y vigencia de Cipriani
+
+PR #24 `586a0e3`, producción `21bb687`, base acumulada `16a6871`. Café Lamas recupera 19 entradas por idioma cotejadas con `42d03024`, `8570793a` y `391d302e`. Se completaron consejos, metadatos y etiquetas PT/EN, y se corrigió la accesibilidad EN para conservar el estado no verificado de ES. Se añadieron 30 entradas FR. Se conserva el HTML fuente. Tres HTML selectivos, auditor de cuatro idiomas y selector PT → FR → EN a 1440/390 aprobados. [Capturas](TANDA50_LAMAS_1440_390.jpg). FR noindex en vista aislada. Search Console, 14 de noviembre: las tres URL públicas figuran indexadas.
+
+Cipriani: el original presenta una interrupción por obras hasta el 8 de octubre y una posible reapertura de Cipriani. [Belmond anuncia Lumio](https://www.belmond.com/pt-br/hotels/south-america/brazil/copacabana-palace-rio-de-janeiro/restaurants-and-bars/modal/lumio) para noviembre de 2026, mientras sus [preguntas frecuentes](https://www.belmond.com/pt-br/hotels/south-america/brazil/copacabana-palace-rio-de-janeiro/faqs) siguen enumerando Cipriani. Se conserva el original. Para cerrar la ficha hace falta confirmar la continuidad de la marca y definir si la ruta se mantiene como ficha histórica. No se cuenta como probada.
+
+Total: 9/50 probadas en vista privada, 41 pendientes incluida Cipriani, 0 cerradas. Retomar Churrasqueira Rio y seguir por la cola mientras se comprueba Cipriani. Pendiente incremental integral. Sin publicación.

@@ -1,5 +1,51 @@
 // Attribute and control copy left in Spanish by the approved legacy sources.
 export const pilotLabels = {
+  "/gastronomia/cafe-lamas/": {
+    "Café Lamas: guía de Ernestinho Carioca": [
+      "Café Lamas: guia do Ernestinho Carioca",
+      "Café Lamas: Ernestinho Carioca’s guide"
+    ],
+    "En Café Lamas, la tradición importa tanto como el plato: es una de esas casas clásicas que permiten conocer otro lado de la gastronomía carioca. Para elegir, revisa la carta actual y pregunta por los platos de la casa en lugar de dar por hecho un precio o preparación mencionados años atrás.": [
+      "No Café Lamas, a tradição importa tanto quanto o prato. É uma casa clássica que revela outro lado da gastronomia carioca. Confira o cardápio atual e pergunte pelas especialidades antes de contar com um preço ou preparo mencionado anos atrás.",
+      "At Café Lamas, tradition matters as much as the food. This classic restaurant shows another side of Rio’s dining culture. Check the current menu and ask about specialties instead of relying on a price or dish mentioned years ago."
+    ],
+    "Fachada tradicional de Café Lamas": [
+      "Fachada tradicional do Café Lamas",
+      "Traditional façade of Café Lamas"
+    ],
+    "Guía editorial de Café Lamas en Río: historia, qué pedir, horarios, mapa y consejos de Ernestinho.": [
+      "Guia editorial do Café Lamas no Rio: história, o que pedir, horários, mapa e dicas do Ernestinho.",
+      "Editorial guide to Café Lamas in Rio: history, what to order, hours, map and tips from Ernestinho."
+    ],
+    "Interior y memoria de Café Lamas": [
+      "Interior e memória do Café Lamas",
+      "Café Lamas interior and history"
+    ],
+    "Mapa de Café Lamas": [
+      "Mapa do Café Lamas",
+      "Map of Café Lamas"
+    ],
+    "Mesa y ambiente de la casa": [
+      "Mesa e ambiente da casa",
+      "Table and atmosphere"
+    ],
+    "Otra escena del restaurante": [
+      "Outra cena do restaurante",
+      "Another view of the restaurant"
+    ],
+    "Por su ubicación en Flamengo, la visita puede encajar en un paseo por el barrio o por sus áreas verdes. Si tu recorrido va desde Copacabana hacia el Centro, organiza esta parada de forma natural en el trayecto y consulta la atención vigente.": [
+      "A localização no Flamengo permite combinar a visita com um passeio pelo bairro ou por suas áreas verdes. Se for de Copacabana ao Centro, encaixe a parada no trajeto e confirme o atendimento atual.",
+      "In Flamengo, the visit fits into a walk around the neighborhood or its green spaces. If you are going from Copacabana downtown, make it a stop along the way and check the current service."
+    ],
+    "Preparación servida en Café Lamas": [
+      "Prato servido no Café Lamas",
+      "Dish served at Café Lamas"
+    ],
+    "Salón de Café Lamas": [
+      "Salão do Café Lamas",
+      "Café Lamas dining room"
+    ]
+  },
   "/gastronomia/maska/": {
     "Para Maska, mi consejo es consultar el formato de la carta actual y pedir orientación si no conoces las preparaciones. Pregunta cuáles platos están pensados para compartir, el nivel de condimentos y las opciones para personas con restricciones alimentarias.": [
       "No Mäska, consulte o formato do cardápio atual e peça orientação se não conhecer os preparos. Pergunte quais pratos são para compartilhar, o nível de tempero e as opções para restrições alimentares.",
