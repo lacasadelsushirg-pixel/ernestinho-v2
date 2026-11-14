@@ -20,6 +20,36 @@ export default {
       en: 'The meal fits nicely into a day out in Leblon. For a table at a busy time, check availability and booking ahead of your visit, and leave a gap before your next activity.',
     },
   },
+  '/gastronomia/jojo/': {
+    'Jojö Café Bistrô se describe como una pequeña casa en el Horto, dentro de Jardim Botânico. Su sitio presenta a Joana Carvalho como chef y propietaria, al frente de una cocina propia que da forma a los platos de la casa.': {
+      pt: 'O Jojö Café Bistrô se apresenta como uma casa pequena no Horto, dentro do Jardim Botânico. Seu site apresenta Joana Carvalho como chef e proprietária, à frente de uma cozinha autoral que dá forma aos pratos da casa.',
+      en: 'Jojö Café Bistrô describes itself as a small restaurant in Horto, within Jardim Botânico. Its website presents Joana Carvalho as chef and owner, leading a distinctive kitchen that shapes the house dishes.',
+    },
+    'La dirección publicada es Rua Pacheco Leão 812, esquina con Rua Caminhoá. Consulta con el restaurante el menú, los horarios y la modalidad de atención vigentes.': {
+      pt: 'O endereço divulgado é Rua Pacheco Leão, 812, esquina com a Rua Caminhoá. Consulte o restaurante sobre o cardápio, os horários e o formato de atendimento atuais.',
+      en: 'The listed address is Rua Pacheco Leão, 812, on the corner of Rua Caminhoá. Check with the restaurant for its current menu, hours and service format.',
+    },
+    'La carta y la operación pueden cambiar; confirma directamente los detalles para la fecha de tu visita.': {
+      pt: 'O cardápio e o funcionamento podem mudar; confirme diretamente os detalhes para a data da visita.',
+      en: 'The menu and operations may change; confirm the details directly for your visit date.',
+    },
+  },
+  '/gastronomia/don-camillo/': {
+    'Don Camillo está en Avenida Atlântica 3056, esquina con Rua Bolívar. Desde Cantagalo, baja por Rua Bolívar hasta la playa en aproximadamente diez minutos; el trayecto es prácticamente recto. Buses circulan por Nossa Senhora de Copacabana y por el sistema vial de la orla. Taxi o aplicación puede detenerse en Bolívar para evitar bloquear la avenida principal.': {
+      pt: 'O Don Camillo fica na Avenida Atlântica, 3056, esquina com a Rua Bolívar. Da estação Cantagalo, desça a Rua Bolívar até a praia; são cerca de dez minutos em um trajeto quase reto. Há ônibus pela Nossa Senhora de Copacabana e pela via da orla. Táxi ou carro por aplicativo pode parar na Bolívar para evitar bloquear a avenida principal.',
+      en: 'Don Camillo is at Avenida Atlântica, 3056, on the corner of Rua Bolívar. From Cantagalo station, walk down Rua Bolívar to the beach; it takes about ten minutes and is almost a straight route. Buses run along Nossa Senhora de Copacabana and the waterfront road. A taxi or ride-hailing car can stop on Bolívar to avoid blocking the main avenue.',
+    },
+    'Las ocho fotografías disponibles muestran terraza, salón, platos italianos y preparaciones de mar. Se conservaron completas para narrar la relación entre trattoria y orla.': {
+      pt: 'As oito fotos disponíveis mostram o terraço, o salão, pratos italianos e preparações do mar. Todas foram mantidas para mostrar a relação entre a trattoria e a orla.',
+      en: 'The eight available photos show the terrace, dining room, Italian dishes and seafood. All were retained to tell the story of the trattoria and its beachfront setting.',
+    },
+  },
+  '/gastronomia/bar-do-omar/': {
+    'La dirección exacta debe confirmarse en sus canales. Desde el Centro o Zona Sul, un taxi o auto por aplicación evita perderse en las pendientes del Morro do Pinto.': {
+      pt: 'Confirme o endereço exato nos canais oficiais. Do Centro ou da Zona Sul, táxi ou carro por aplicativo ajudam a evitar se perder nas ladeiras do Morro do Pinto.',
+      en: 'Confirm the exact address through its official channels. From downtown or the South Zone, a taxi or ride-hailing car can help you avoid getting lost on Morro do Pinto’s steep streets.',
+    },
+  },
 };
 
 // Keep the qualifiers and formatting added to the approved practical notes.
