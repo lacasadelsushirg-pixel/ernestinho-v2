@@ -95,6 +95,11 @@ SHOPPING_ROUTES = (
     '/compras/botafogo-praia-shopping/',
     '/compras/downtown/',
     '/compras/barrashopping/',
+    '/compras/fashion-mall/',
+    '/compras/metropolitano-barra/',
+    '/compras/parkjacarepagua/',
+    '/compras/saara/',
+    '/compras/feira-da-gloria/',
 )
 ROUTES += CULTURE_ROUTES + PHOTO_ROUTES + SHOPPING_ROUTES
 RUNTIME = '/assets/js/fr-preview.js'
@@ -306,6 +311,44 @@ def shopping_runtime_copy(document, route):
     if not data_path.exists():
         raise ValueError(f'{route}: runtime dictionary is missing')
     data = json.loads(data_path.read_text())
+    if route in ('/compras/saara/', '/compras/feira-da-gloria/') and 'runtime_D_fr' in data and 'runtime_story_fr' in data:
+        runtime = data['runtime_D_fr']
+        expected_keys = data['qa'].get('translated_D_keys', data['qa'].get('fr_D_keys'))
+        if expected_keys is None or len(runtime) != expected_keys:
+            raise ValueError(f'{route}: D translation count differs from translation QA')
+        skip = []
+        for key, value in runtime.items():
+            targets = document.xpath(f'//*[@id="{key}"]')
+            if not targets:
+                continue
+            target = targets[0]
+            skip.append(key)
+            if key in ('hours', 'cats'):
+                children = list(target)
+                if not isinstance(value, list) or len(children) != len(value):
+                    raise ValueError(f'{route}: #{key} structure differs from translated items')
+                for child, text in zip(children, value):
+                    child.text = text
+                    for item in list(child):
+                        child.remove(item)
+            else:
+                target.text = value
+                for child in list(target):
+                    target.remove(child)
+        story = document.xpath('//*[@id="story"]')
+        if not story:
+            raise ValueError(f'{route}: story runtime target is missing')
+        story = story[0]
+        paragraphs = story.xpath('./p')
+        translations = data['runtime_story_fr']
+        expected_story = data['qa'].get('story_fr_paragraphs', data['qa'].get('fr_story_paragraphs'))
+        if expected_story is None or len(paragraphs) != expected_story or len(translations) != expected_story:
+            raise ValueError(f'{route}: story paragraph count differs from translation QA/source')
+        for paragraph, text in zip(paragraphs, translations):
+            paragraph.text = text
+            for child in list(paragraph):
+                paragraph.remove(child)
+        return (*skip, 'story')
     if 'runtime_T_fr' not in data or 'runtime_P_fr' not in data:
         return ()
     raw = route_file(ROOT, route).read_bytes()
@@ -319,7 +362,7 @@ def shopping_runtime_copy(document, route):
     for key, markup in runtime.items():
         targets = document.xpath(f'//*[@id="{key}"]')
         if not targets:
-            raise ValueError(f'{route}: runtime target #{key} is missing')
+            continue
         replace_inner_html(targets[0], markup)
     paragraphs = document.xpath('//*[@id="mainText"]')
     if not paragraphs:
