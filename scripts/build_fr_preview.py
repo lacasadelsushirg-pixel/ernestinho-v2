@@ -27,6 +27,7 @@ ROUTES = (
     '/gastronomia/bar-madrid/', '/gastronomia/classico-beach-club-urca/', '/gastronomia/kilograma-centro/',
     '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/',
     '/gastronomia/labuta-bar/', '/gastronomia/casa-201/', '/gastronomia/angu-do-gomes/',
+    '/gastronomia/jojo/', '/gastronomia/don-camillo/', '/gastronomia/bar-do-omar/',
 )
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
