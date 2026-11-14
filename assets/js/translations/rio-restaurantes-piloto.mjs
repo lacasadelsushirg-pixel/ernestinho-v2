@@ -84,6 +84,34 @@ export default {
       en: 'Hours, menu and prices may vary; my recommendation is based on a recent personal visit.',
     },
   },
+  '/gastronomia/temperarte-posto6/': {
+    'La unidad está en Avenida Nossa Senhora de Copacabana, 1250, cerca del Posto 6 y de la zona comercial del barrio. Desde General Osório puedes caminar por la orla; bus y taxi tienen acceso directo por la avenida. Estacionar en la vía puede ser difícil, por lo que usaría transporte público o aplicación.': {
+      pt: 'A unidade fica na Avenida Nossa Senhora de Copacabana, 1250, perto do Posto 6 e da área comercial do bairro. Da estação General Osório, é possível caminhar pela orla; ônibus e táxis têm acesso direto pela avenida. Estacionar na rua pode ser difícil, então eu usaria transporte público ou carro por aplicativo.',
+      en: 'This branch is at Avenida Nossa Senhora de Copacabana, 1250, near Posto 6 and the neighborhood shopping area. From General Osório station, you can walk along the waterfront; buses and taxis have direct access from the avenue. Street parking can be difficult, so I would use public transport or a ride-hailing app.',
+    },
+    'La ficha conserva una dirección difundida por directorios, pero no encontré una página oficial accesible para validar operación y horarios actuales.': {
+      pt: 'A ficha mantém um endereço divulgado em diretórios, mas não encontrei uma página oficial acessível para confirmar o funcionamento e os horários atuais.',
+      en: 'This listing retains an address circulated by directories, but I could not find an accessible official page to verify current operations and hours.',
+    },
+    'Datos revisados el 25 de septiembre de 2026. Confirma condiciones directamente antes de visitar.': {
+      pt: 'Informações conferidas em 25 de setembro de 2026. Confirme as condições diretamente antes da visita.',
+      en: 'Information checked on September 25, 2026. Confirm details directly before visiting.',
+    },
+  },
+  '/gastronomia/temperarte-bolivar/': {
+    'La dirección es Rua Bolívar, 42, en Copacabana. La estación Cantagalo y los buses de Nossa Senhora de Copacabana dejan caminatas razonables; taxi o aplicación son sencillos. No contaría con estacionamiento propio y revisaría el acceso si viaja alguien con movilidad reducida.': {
+      pt: 'O endereço é Rua Bolívar, 42, em Copacabana. A estação Cantagalo e os ônibus da Nossa Senhora de Copacabana deixam caminhadas razoáveis; táxi ou carro por aplicativo são opções simples. Não contaria com estacionamento próprio e verificaria o acesso se alguém com mobilidade reduzida estiver viajando.',
+      en: 'The address is Rua Bolívar, 42, in Copacabana. Cantagalo station and buses on Nossa Senhora de Copacabana leave a manageable walk; taxis and ride-hailing are straightforward. I would not count on on-site parking and would check access if someone with reduced mobility is travelling.',
+    },
+    'La dirección coincide en varios directorios, pero no pude validar una fuente oficial activa ni el horario actual.': {
+      pt: 'O endereço aparece em vários diretórios, mas não consegui confirmar uma fonte oficial ativa nem os horários atuais.',
+      en: 'The address appears in several directories, but I could not verify an active official source or current hours.',
+    },
+    'Datos revisados el 25 de septiembre de 2026. Confirma condiciones directamente antes de visitar.': {
+      pt: 'Informações conferidas em 25 de setembro de 2026. Confirme as condições diretamente antes da visita.',
+      en: 'Information checked on September 25, 2026. Confirm details directly before visiting.',
+    },
+  },
 };
 
 // Keep the qualifiers and formatting added to the approved practical notes.
