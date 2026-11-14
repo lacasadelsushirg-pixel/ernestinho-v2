@@ -18,8 +18,8 @@ Prioridad por impresiones observadas en GSC Web del 14 de octubre al 10 de novie
 | 2 | [/gastronomia/sushi-leblon/](https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/) | 527 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 3 | [/gastronomia/zaza-bistro-tropical/](https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/) | 481 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 4 | [/gastronomia/aprazivel/](https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/) | 276 | Cuatro idiomas probados en vista aislada; en revisión. |
-| 5 | [/gastronomia/churrascaria-palace/](https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/) | 247 | FR preparado en paralelo; recuperación PT/EN y QA pendientes. |
-| 6 | [/gastronomia/colombo-do-forte/](https://www.ernestinhocarioca.com.br/gastronomia/colombo-do-forte/) | 238 | Diccionario FR preparado en la rama concurrente. Cotejo ES/PT/EN y QA pendientes. |
+| 5 | [/gastronomia/churrascaria-palace/](https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/) | 247 | Cuatro idiomas probados en vista aislada; en revisión. |
+| 6 | [/gastronomia/colombo-do-forte/](https://www.ernestinhocarioca.com.br/gastronomia/colombo-do-forte/) | 238 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 7 | [/gastronomia/maska/](https://www.ernestinhocarioca.com.br/gastronomia/maska/) | 213 | Pendiente de cotejo editorial y técnico. |
 | 8 | [/gastronomia/oteque/](https://www.ernestinhocarioca.com.br/gastronomia/oteque/) | 200 | Pendiente de cotejo editorial y técnico. |
 | 9 | [/gastronomia/cipriani/](https://www.ernestinhocarioca.com.br/gastronomia/cipriani/) | 199 | Pendiente de cotejo editorial y técnico. |
@@ -99,3 +99,13 @@ Aprazível: 19 entradas históricas PT/EN por idioma coincidentes entre `42d0302
 Search Console el 14 de noviembre: ES, PT-BR y EN enviadas e indexadas. Resultado de las URL públicas, previo al candidato.
 
 Total: 4/50 probadas en vista privada, 46 pendientes y 0 cerradas. Retomar Churrascaria Palace y Colombo do Forte, aprovechando el francés paralelo. Sin despliegue.
+
+## Quinto sublote · Churrascaria Palace y Colombo do Forte
+
+PR #24 `586a0e3`, producción `21bb687`, base acumulada `b32eb88`. Las 15 posiciones históricas por idioma se cotejaron con el orden vigente y coinciden con `42d03024`, `8570793a` y `391d302e`. Se reactivaron los renderizadores y se localizaron los consejos, metadatos y etiquetas visuales que faltaban. Se conservó el francés de la rama paralela y se completaron dos textos de la galería generada de Palace. Se respetaron los HTML fuente.
+
+Seis HTML generados de forma selectiva, auditor de ocho variantes aprobado y selector PT → FR → EN probado para ambas fichas a 1440/390 px. [Capturas Palace](TANDA50_PALACE_1440_390.jpg) y [capturas Colombo](TANDA50_COLOMBO_FORTE_1440_390.jpg), con PT anterior de Hostinger, candidato y FR noindex. Pendientes la validación incremental integral y el cotejo comercial.
+
+Search Console el 14 de noviembre: Palace ES y EN indexadas, PT desconocida para Google. Colombo ES/PT/EN indexadas. El estado PT de Palace no establece una causa ni confirma un error de descarga.
+
+Total: 6/50 probadas en vista privada, 44 pendientes, 0 cerradas. Retomar Maska y Oteque. Sin despliegue.

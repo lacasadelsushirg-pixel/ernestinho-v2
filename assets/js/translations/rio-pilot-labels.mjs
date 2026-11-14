@@ -1,5 +1,101 @@
 // Attribute and control copy left in Spanish by the approved legacy sources.
 export const pilotLabels = {
+  "/gastronomia/churrascaria-palace/": {
+    "En Churrascaria Palace, pregunta qué incluye el rodízio vigente y qué consumos se pagan aparte. Si vas por las carnes, reserva suficiente tiempo para disfrutar los diferentes cortes y utiliza el buffet con moderación al principio. Para familias y grupos conviene consultar las condiciones por edad y las reservas.": [
+      "Na Churrascaria Palace, pergunte o que está incluído no rodízio e o que é cobrado à parte. Se for pelas carnes, reserve tempo para apreciar os diferentes cortes e sirva-se com moderação no bufê no início. Para famílias e grupos, consulte as condições por idade e as reservas.",
+      "At Churrascaria Palace, ask what the current rodízio includes and what costs extra. If you are there for the meat, allow enough time to enjoy the different cuts and start with small portions from the buffet. Families and groups should ask about age-based terms and reservations."
+    ],
+    "La ubicación en Copacabana permite combinar la experiencia con un paseo por el barrio, pero yo la trataría como una comida principal con tiempo, no como una parada rápida entre atracciones. El valor actual del servicio debe comprobarse directamente.": [
+      "A localização em Copacabana permite combinar a refeição com um passeio pelo bairro. Eu reservaria tempo para uma refeição principal, sem encaixá-la como parada rápida entre atrações. Confirme diretamente o valor atual.",
+      "The Copacabana location makes it easy to combine the meal with a walk around the neighborhood. I would allow time for a full meal instead of squeezing it in between attractions. Confirm the current price directly."
+    ],
+    "Churrascaria Palace: guía completa | Ernestinho Carioca": [
+      "Churrascaria Palace: guia completo | Ernestinho Carioca",
+      "Churrascaria Palace: complete guide | Ernestinho Carioca"
+    ],
+    "Guía completa de Churrascaria Palace en Copacabana: historia, ambiente, qué pedir, horarios, precios, mapa y consejos de Ernestinho Carioca.": [
+      "Guia completo da Churrascaria Palace em Copacabana: história, ambiente, o que pedir, horários, preços, mapa e dicas do Ernestinho Carioca.",
+      "Complete guide to Churrascaria Palace in Copacabana: history, atmosphere, what to order, hours, prices, map and tips from Ernestinho Carioca."
+    ],
+    "Mapa de Churrascaria Palace": [
+      "Mapa da Churrascaria Palace",
+      "Map of Churrascaria Palace"
+    ],
+    "Churrascaria Palace: fotografía 1": [
+      "Churrascaria Palace: foto 1",
+      "Churrascaria Palace: photograph 1"
+    ],
+    "Churrascaria Palace: fotografía 2": [
+      "Churrascaria Palace: foto 2",
+      "Churrascaria Palace: photograph 2"
+    ],
+    "Churrascaria Palace: fotografía 5": [
+      "Churrascaria Palace: foto 5",
+      "Churrascaria Palace: photograph 5"
+    ],
+    "El ambiente y la identidad del restaurante": [
+      "O ambiente e a identidade do restaurante",
+      "The restaurant’s atmosphere and identity"
+    ],
+    "Una preparación representativa de la casa": [
+      "Um preparo representativo da casa",
+      "A dish typical of the restaurant"
+    ],
+    "La fachada y la llegada al restaurante": [
+      "A fachada e a chegada ao restaurante",
+      "The exterior and entrance"
+    ],
+    "Picanha a la borboleta de Churrascaria Palace": [
+      "Picanha borboleta da Churrascaria Palace",
+      "Butterflied picanha at Churrascaria Palace"
+    ]
+  },
+  "/gastronomia/colombo-do-forte/": {
+    "Esta ficha corresponde a Confeitaria Colombo en el Forte de Copacabana, una experiencia diferente de la sede histórica del Centro. Comprueba primero las reglas de acceso al fuerte, posibles controles y horarios, porque no basta con conocer el horario de la cafetería.": [
+      "Esta ficha trata da Confeitaria Colombo no Forte de Copacabana, diferente da sede histórica do Centro. Confira primeiro as regras de acesso ao forte, eventuais controles e horários, além do funcionamento do café.",
+      "This page covers Confeitaria Colombo inside Forte de Copacabana, a different experience from the historic downtown location. Check fort entry rules, possible checks and opening hours as well as the café schedule."
+    ],
+    "La gran ventaja es combinar la pausa gastronómica con las vistas del fuerte y el entorno de Posto 6. Reserva margen para entrar, caminar y disfrutar del paisaje, sin confundir esta unidad con la Colombo del Centro.": [
+      "A grande vantagem é combinar a pausa para comer com a vista do forte e os arredores do Posto 6. Reserve tempo para entrar, caminhar e aproveitar a paisagem. Esta unidade é diferente da Colombo do Centro.",
+      "The main draw is pairing a food break with the views from the fort and the area around Posto 6. Allow time to enter, walk and enjoy the scenery. This branch is separate from the downtown Colombo."
+    ],
+    "Confeitaria Colombo do Forte: guía completa | Ernestinho Carioca": [
+      "Confeitaria Colombo do Forte: guia completo | Ernestinho Carioca",
+      "Confeitaria Colombo do Forte: complete guide | Ernestinho Carioca"
+    ],
+    "Guía completa de Confeitaria Colombo do Forte: ambiente, historia, carta, horarios, mapa y recomendaciones de Ernestinho Carioca.": [
+      "Guia completo da Confeitaria Colombo do Forte: ambiente, história, cardápio, horários, mapa e recomendações do Ernestinho Carioca.",
+      "Complete guide to Confeitaria Colombo do Forte: atmosphere, history, menu, hours, map and recommendations from Ernestinho Carioca."
+    ],
+    "Mapa de Confeitaria Colombo do Forte": [
+      "Mapa da Confeitaria Colombo do Forte",
+      "Map of Confeitaria Colombo do Forte"
+    ],
+    "Confeitaria Colombo do Forte: fotografía 1": [
+      "Confeitaria Colombo do Forte: foto 1",
+      "Confeitaria Colombo do Forte: photograph 1"
+    ],
+    "Confeitaria Colombo do Forte: fotografía 4": [
+      "Confeitaria Colombo do Forte: foto 4",
+      "Confeitaria Colombo do Forte: photograph 4"
+    ],
+    "Confeitaria Colombo do Forte: fotografía 5": [
+      "Confeitaria Colombo do Forte: foto 5",
+      "Confeitaria Colombo do Forte: photograph 5"
+    ],
+    "Confeitaria Colombo do Forte: fotografía 6": [
+      "Confeitaria Colombo do Forte: foto 6",
+      "Confeitaria Colombo do Forte: photograph 6"
+    ],
+    "Confeitaria Colombo do Forte: ambiente y propuesta visual": [
+      "Confeitaria Colombo do Forte: ambiente e proposta visual",
+      "Confeitaria Colombo do Forte: atmosphere and design"
+    ],
+    "Confeitaria Colombo do Forte: plato representativo": [
+      "Confeitaria Colombo do Forte: prato representativo",
+      "Confeitaria Colombo do Forte: representative dish"
+    ]
+  },
   "/gastronomia/aprazivel/": {
     "Aprazível: guía completa | Ernestinho Carioca": [
       "Aprazível: guia completo | Ernestinho Carioca",
