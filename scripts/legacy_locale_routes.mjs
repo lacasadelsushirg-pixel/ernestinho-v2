@@ -43,6 +43,9 @@ export const legacyLocaleRoutes = new Map([
   ['/gastronomia/nido-ristorante/', ['f', 'full']],
   ['/gastronomia/corrientes-348/', ['setLang', 'full']],
   ['/gastronomia/praia-skol-copa/', ['f', 'full']],
+  ['/gastronomia/jojo/', ['setLang', 'full']],
+  ['/gastronomia/don-camillo/', ['setLang', 'full']],
+  ['/gastronomia/bar-do-omar/', ['setLang', 'full']],
 ]);
 
 export function hideDuplicateLegacySelector(html, route) {
@@ -62,7 +65,7 @@ export function localizeLegacyStartup(code, route) {
     // This dictionary predates the practical summary and the supplemental
     // paragraphs. Keep its original paragraph order; those additions have
     // their own translations in the practical renderer and section chunk.
-    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/', '/gastronomia/kilograma-centro/', '/gastronomia/quartinho/', '/gastronomia/k08/', '/gastronomia/delirio-tropical-rio-sul/', '/gastronomia/spicy-fish/', '/gastronomia/dumare/', '/gastronomia/noa-ipanema/', '/gastronomia/faenza-copacabana/', '/gastronomia/nino-cucina-ipanema/', '/gastronomia/koral/', '/gastronomia/rotisseria-sirio-libanesa/', '/gastronomia/ocya-leblon/', '/gastronomia/nido-ristorante/', '/gastronomia/praia-skol-copa/'].includes(route) ? ':not(.v2-supplement p)' : '';
+    const extraSections = ['/gastronomia/polvo-marisqueria/', '/gastronomia/labuta-bar/', '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/', '/gastronomia/kilograma-centro/', '/gastronomia/quartinho/', '/gastronomia/k08/', '/gastronomia/delirio-tropical-rio-sul/', '/gastronomia/spicy-fish/', '/gastronomia/dumare/', '/gastronomia/noa-ipanema/', '/gastronomia/faenza-copacabana/', '/gastronomia/nino-cucina-ipanema/', '/gastronomia/koral/', '/gastronomia/rotisseria-sirio-libanesa/', '/gastronomia/ocya-leblon/', '/gastronomia/nido-ristorante/', '/gastronomia/praia-skol-copa/', '/gastronomia/jojo/', '/gastronomia/don-camillo/', '/gastronomia/bar-do-omar/'].includes(route) ? ':not(.v2-supplement p)' : '';
     const extraParagraphs = ['/gastronomia/elena/', '/gastronomia/bb-lanches/', '/gastronomia/rotisseria-sirio-libanesa/'].includes(route) ? ':not(main>section>p:nth-of-type(n+2))' : '';
     code = code.replace("P=[...document.querySelectorAll('p')]",
       `P=[...document.querySelectorAll('p:not(.ec-q-kicker):not(article.card:not(.facts)>p:nth-of-type(n+2))${extraSections}${extraParagraphs}')]`);
@@ -95,10 +98,13 @@ export function localizeLegacyStartup(code, route) {
     if (renderer === 'full' && positional && supplement) {
       const initialize = `full(${locale})`;
       const encodedCopy = JSON.stringify(supplement).replaceAll('<', '\\u003c');
+      const supplementSelector = ['/gastronomia/jojo/', '/gastronomia/don-camillo/', '/gastronomia/bar-do-omar/'].includes(route)
+        ? 'article.card.v2-supplement p'
+        : 'article.card:not(.facts)>p:nth-of-type(n+2)';
       code = code.replace(initialize, `${initialize};{
         const localizedCopy = ${encodedCopy};
         const activeLocale = ${locale};
-        for (const paragraph of document.querySelectorAll('article.card:not(.facts)>p:nth-of-type(n+2)')) {
+        for (const paragraph of document.querySelectorAll(${JSON.stringify(supplementSelector)})) {
           const value = localizedCopy[paragraph.textContent.trim()]?.[activeLocale];
           if (value) paragraph.textContent = value;
         }
