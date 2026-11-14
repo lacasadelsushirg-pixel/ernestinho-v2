@@ -6,6 +6,7 @@ import supplementaryCopy, {updatedFacts} from '../assets/js/translations/rio-res
 export const legacyLocaleRoutes = new Map([
   ['/compras/feira-nocturna-copacabana/', ['setLang']],
   ['/gastronomia/carretao-ipanema/', ['setLang', 'full']],
+  ['/gastronomia/carretao-siqueira/', ['setLang', 'full']],
   ['/gastronomia/ct-boucherie/', ['setLang', 'full']],
   ['/gastronomia/belmonte-copa/', ['setLang', 'full']],
   ['/gastronomia/belmonte-ipanema/', ['setLang', 'full']],

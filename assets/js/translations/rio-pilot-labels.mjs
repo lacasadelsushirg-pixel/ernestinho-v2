@@ -367,6 +367,56 @@ export const pilotLabels = {
   '/guia/apps/': {
     'Aplicaciones que facilitan tu viaje: MINIATUA APPS': ['Ilustração do guia de aplicativos úteis', 'Illustration for the travel apps guide'],
   },
+  "/gastronomia/carretao-siqueira/": {
+    "Carretão Copacabana — Siqueira Campos: guía completa | Ernestinho Carioca": [
+      "Carretão Copacabana — Siqueira Campos: guia completo | Ernestinho Carioca",
+      "Carretão Copacabana — Siqueira Campos: complete guide | Ernestinho Carioca"
+    ],
+    "Esta es la unidad de Carretão en Siqueira Campos, Copacabana: no hay que confundirla con la churrascaría de Ipanema. Antes de sentarte, pregunta por el precio vigente del rodízio, lo que incluye el buffet y si bebidas o postres se cobran aparte. Las reglas para niños también pueden cambiar.": [
+      "Esta é a unidade do Carretão na Siqueira Campos, em Copacabana. A churrascaria de Ipanema é outra unidade. Antes de sentar, pergunte o preço atual do rodízio, o que o bufê inclui e se bebidas ou sobremesas são cobradas à parte. As condições para crianças também podem mudar.",
+      "This is the Carretão branch on Siqueira Campos in Copacabana. The Ipanema steakhouse is a separate branch. Before sitting down, ask about the current rodízio price, what the buffet includes and whether drinks or desserts cost extra. Children’s terms can also change."
+    ],
+    "Si estás paseando por Copacabana, esta sucursal puede ser práctica para un almuerzo de grupo con gustos distintos. Identifica la unidad correcta al buscar en el mapa y calcula una comida sin apuros para disfrutar el servicio de carnes.": [
+      "Se estiver passeando por Copacabana, esta unidade pode ser prática para um almoço em grupo com gostos diferentes. Identifique a unidade certa no mapa e reserve tempo para aproveitar o serviço de carnes sem pressa.",
+      "If you are exploring Copacabana, this branch can be a convenient lunch stop for a group with different tastes. Find the right branch on the map and allow time to enjoy the meat service at a relaxed pace."
+    ],
+    "Detalle visual de Carretão Copacabana — Siqueira Campos.": [
+      "Detalhe do Carretão Copacabana — Siqueira Campos.",
+      "Detail of Carretão Copacabana — Siqueira Campos."
+    ],
+    "Mapa de Carretão Copacabana — Siqueira Campos": [
+      "Mapa do Carretão Copacabana — Siqueira Campos",
+      "Map of Carretão Copacabana — Siqueira Campos"
+    ],
+    "Carretão Copacabana — Siqueira Campos — imagen 1": [
+      "Carretão Copacabana — Siqueira Campos — foto 1",
+      "Carretão Copacabana — Siqueira Campos — photo 1"
+    ],
+    "Carretão Copacabana — Siqueira Campos — imagen 2": [
+      "Carretão Copacabana — Siqueira Campos — foto 2",
+      "Carretão Copacabana — Siqueira Campos — photo 2"
+    ],
+    "Carretão Copacabana — Siqueira Campos — imagen 3": [
+      "Carretão Copacabana — Siqueira Campos — foto 3",
+      "Carretão Copacabana — Siqueira Campos — photo 3"
+    ],
+    "Carretão Copacabana — Siqueira Campos — imagen 4": [
+      "Carretão Copacabana — Siqueira Campos — foto 4",
+      "Carretão Copacabana — Siqueira Campos — photo 4"
+    ],
+    "Carretão Copacabana — Siqueira Campos — imagen 5": [
+      "Carretão Copacabana — Siqueira Campos — foto 5",
+      "Carretão Copacabana — Siqueira Campos — photo 5"
+    ],
+    "Carretão Copacabana — Siqueira Campos — imagen 6": [
+      "Carretão Copacabana — Siqueira Campos — foto 6",
+      "Carretão Copacabana — Siqueira Campos — photo 6"
+    ],
+    "Carretão Copacabana — Siqueira Campos — imagen 7": [
+      "Carretão Copacabana — Siqueira Campos — foto 7",
+      "Carretão Copacabana — Siqueira Campos — photo 7"
+    ]
+  },
   '/gastronomia/carretao-ipanema/': {
     '🌐 Sitio oficial': ['🌐 Site oficial', '🌐 Official website'],
     ...Object.fromEntries(Array.from({ length: 6 }, (_, index) => {

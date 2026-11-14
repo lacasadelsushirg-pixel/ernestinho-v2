@@ -122,6 +122,20 @@ export default {
 
 // Keep the qualifiers and formatting added to the approved practical notes.
 export const updatedFacts = {
+  "/gastronomia/carretao-siqueira/": {
+    "pt": {
+      "10": "🕐 <strong>Horários</strong><br>Referências públicas indicam atendimento diário das 12h às 23h30; confirme o funcionamento da cozinha e em feriados.",
+      "11": "💰 <strong>Preços</strong><br>Médio a médio-alto; rodízio e bebidas conforme o cardápio.",
+      "12": "🍽️ <strong>Tipo de serviço</strong><br>Churrascaria rodízio com carnes, bufê, saladas, pratos quentes e antepastos.",
+      "15": "♿ <strong>Acessibilidade</strong><br>Consulte a rota acessível e as condições do banheiro."
+    },
+    "en": {
+      "10": "🕐 <strong>Hours</strong><br>Public listings indicate daily hours of noon to 11:30 p.m.; confirm kitchen and holiday hours.",
+      "11": "💰 <strong>Prices</strong><br>Mid to upper-mid range; check the menu for rodízio and drinks.",
+      "12": "🍽️ <strong>Service type</strong><br>Rodízio steakhouse with meats, a buffet, salads, hot dishes and antipasti.",
+      "15": "♿ <strong>Accessibility</strong><br>Ask about the accessible route and restrooms."
+    }
+  },
   '/gastronomia/casa-201/': {
     pt: {
       10: '🕐 <strong>Horários</strong><br>De terça a sábado, chegada às 20h. Domingo e segunda fechados, segundo referências públicas. Apenas com reserva.',
