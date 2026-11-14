@@ -30,7 +30,11 @@ ROUTES = (
     '/gastronomia/jojo/', '/gastronomia/don-camillo/', '/gastronomia/bar-do-omar/',
     '/gastronomia/mee/', '/gastronomia/ocya-ilha/', '/gastronomia/pilograma-prime-grill/',
     '/gastronomia/temperarte-posto6/', '/gastronomia/temperarte-bolivar/', '/gastronomia/haru/',
-    '/gastronomia/bar-urca/', '/gastronomia/bar-da-frente/', '/gastronomia/feira-sao-cristovao/',
+    '/gastronomia/bar-urca/', '/gastronomia/bar-da-frente/', '/gastronomia/feira-sao-cristovao/',    '/gastronomia/cavalo-marinho/', '/gastronomia/giuseppe-mar/', '/gastronomia/amir/',
+    '/gastronomia/colombo-do-forte/', '/gastronomia/flor-do-ceu/', '/gastronomia/ryu/',
+    '/gastronomia/ginga/', '/gastronomia/aipo-aipim-920/', '/gastronomia/canton/',
+    '/gastronomia/bracarense/', '/gastronomia/margutta-ipanema/', '/gastronomia/mosteiro/',
+    '/gastronomia/churrasqueira-rio/', '/gastronomia/venga-ipanema/', '/gastronomia/merci/',
 )
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
