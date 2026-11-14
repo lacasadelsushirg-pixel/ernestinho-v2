@@ -36,7 +36,7 @@ ROUTES = (
     '/gastronomia/bracarense/', '/gastronomia/margutta-ipanema/', '/gastronomia/mosteiro/',
     '/gastronomia/churrasqueira-rio/', '/gastronomia/venga-ipanema/', '/gastronomia/merci/',
     '/gastronomia/mocellin-steak/', '/gastronomia/naga/', '/gastronomia/otto/',
-    '/gastronomia/la-fiorentina-ipanema/', '/gastronomia/jobi/',
+    '/gastronomia/la-fiorentina-ipanema/', '/gastronomia/jobi/', '/gastronomia/lanches-cariocas/',
 )
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
