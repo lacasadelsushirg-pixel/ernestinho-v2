@@ -83,6 +83,9 @@ try {
       ['/gastronomia/mee/', /MEE/],
       ['/gastronomia/ocya-ilha/', /Ocyá Ilha/],
       ['/gastronomia/pilograma-prime-grill/', /Pilograma Prime Grill/],
+      ['/gastronomia/temperarte-posto6/', /Temperarte Posto 6/],
+      ['/gastronomia/temperarte-bolivar/', /Temperarte Bolívar/],
+      ['/gastronomia/haru/', /Haru Sushi Bar/],
     ]) {
       console.log(`Checking ${route} at ${width}px`);
       const original = await page.goto(origin + '/pt' + route, { waitUntil: 'load' });
