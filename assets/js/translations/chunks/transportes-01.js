@@ -329,7 +329,7 @@ export default {
     "EN": "Documents and requirements ↗"
   },
   "Traslado Ernestinho": {
-    "PT": "Traslado Ernestinho",
+    "PT": "Transfer Ernestinho",
     "EN": "Ernestinho private transfer"
   },
   "Cuando prefieres resolver aeropuerto, hotel o traslado privado de antemano.": {
@@ -341,7 +341,7 @@ export default {
     "EN": "Message me to confirm the date, pickup point, luggage, group size, price and availability before booking."
   },
   "CONSULTAR TRASLADO →": {
-    "PT": "CONSULTAR TRASLADO →",
+    "PT": "CONSULTAR TRANSFER →",
     "EN": "ASK ABOUT A TRANSFER →"
   },
   "ANTES DE SUBIR": {
