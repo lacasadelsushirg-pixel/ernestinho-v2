@@ -20,8 +20,8 @@ Prioridad por impresiones observadas en GSC Web del 14 de octubre al 10 de novie
 | 4 | [/gastronomia/aprazivel/](https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/) | 276 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 5 | [/gastronomia/churrascaria-palace/](https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/) | 247 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 6 | [/gastronomia/colombo-do-forte/](https://www.ernestinhocarioca.com.br/gastronomia/colombo-do-forte/) | 238 | Cuatro idiomas probados en vista aislada; en revisión. |
-| 7 | [/gastronomia/maska/](https://www.ernestinhocarioca.com.br/gastronomia/maska/) | 213 | Pendiente de cotejo editorial y técnico. |
-| 8 | [/gastronomia/oteque/](https://www.ernestinhocarioca.com.br/gastronomia/oteque/) | 200 | Pendiente de cotejo editorial y técnico. |
+| 7 | [/gastronomia/maska/](https://www.ernestinhocarioca.com.br/gastronomia/maska/) | 213 | Cotejada. El diccionario PT contiene texto híbrido ES/PT; rehacer prosa y datos afectados antes de activar. |
+| 8 | [/gastronomia/oteque/](https://www.ernestinhocarioca.com.br/gastronomia/oteque/) | 200 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 9 | [/gastronomia/cipriani/](https://www.ernestinhocarioca.com.br/gastronomia/cipriani/) | 199 | Pendiente de cotejo editorial y técnico. |
 | 10 | [/gastronomia/cafe-lamas/](https://www.ernestinhocarioca.com.br/gastronomia/cafe-lamas/) | 176 | Pendiente de cotejo editorial y técnico. |
 | 11 | [/gastronomia/churrasqueira-rio/](https://www.ernestinhocarioca.com.br/gastronomia/churrasqueira-rio/) | 167 | FR preparado en paralelo; se completó el rótulo FR faltante. PT/EN y QA pendientes. |
@@ -109,3 +109,13 @@ Seis HTML generados de forma selectiva, auditor de ocho variantes aprobado y sel
 Search Console el 14 de noviembre: Palace ES y EN indexadas, PT desconocida para Google. Colombo ES/PT/EN indexadas. El estado PT de Palace no establece una causa ni confirma un error de descarga.
 
 Total: 6/50 probadas en vista privada, 44 pendientes, 0 cerradas. Retomar Maska y Oteque. Sin despliegue.
+
+## Sexto sublote · Oteque
+
+PR #24 `586a0e3`, producción `21bb687`, base acumulada `6ac6d0b`. Cotejados `42d03024`, `8570793a` y `391d302e` (25 de septiembre). La prosa histórica conserva el orden de las secciones originales, pero parte de los datos prácticos seguía en español y el suplemento desplazaba la galería. Se reactivaron los renderizadores, se aisló el suplemento y se completaron rótulos prácticos, consejos, metadatos, alt y 25 textos FR. Se conservan los HTML y diccionarios incrustados originales.
+
+Tres HTML selectivos y auditor de cuatro idiomas aprobados. Navegación a 1440/390 y [capturas comparativas](TANDA50_OTEQUE_1440_390.jpg), con PT anterior de Hostinger y FR privado noindex. Queda el incremental integral. Search Console, 14 de noviembre: las tres URL de producción están enviadas e indexadas.
+
+Maska queda en revisión. El diccionario PT actual conserva texto híbrido, por ejemplo «Mäska tiene la escala de una casa de bairro». Se verificó que los diccionarios históricos difieren del actual; queda comparar la prosa completa antes de reutilizarla o rehacerla. No se activa ni se cuenta como probada.
+
+Total: 7/50 en vista privada, 43 pendientes y 0 cerradas. Retomar Maska y Cipriani. Sin despliegue.

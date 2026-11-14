@@ -1,5 +1,63 @@
 // Attribute and control copy left in Spanish by the approved legacy sources.
 export const pilotLabels = {
+  "/gastronomia/oteque/": {
+    "Alta cocina marina · menú · experiencia": [
+      "Alta cozinha do mar · menu · experiência",
+      "Seafood fine dining · menu · experience"
+    ],
+    "En Oteque la experiencia gira alrededor de una secuencia gastronómica cuidada. Antes de confirmar, revisa el precio, duración, política de cancelación y posibilidad de adaptar el menú a alergias. No conviene llegar esperando pedir platos sueltos sin consultar el formato actual.": [
+      "No Oteque, a experiência gira em torno de uma sequência gastronômica cuidadosa. Antes de confirmar, confira o preço, a duração, a política de cancelamento e a possibilidade de adaptar o menu a alergias. Consulte o formato atual antes de contar com pratos à la carte.",
+      "At Oteque, the experience revolves around a carefully paced sequence of dishes. Before confirming, check the price, duration, cancellation policy and whether the menu can accommodate allergies. Ask about the current format before counting on à la carte dishes."
+    ],
+    "En el proyecto carioca del chef Alberto Landgraf, la propuesta se construye alrededor de ingredientes de alta calidad y una cocina contemporánea inspirada en la naturaleza. La guía Michelin describe un menú degustación único, cambiante según la temporada y con platos que pueden variar día a día.": [
+      "No projeto carioca do chef Alberto Landgraf, a proposta gira em torno de ingredientes de alta qualidade e de uma cozinha contemporânea inspirada na natureza. O Guia Michelin descreve um menu degustação único, que muda conforme a estação, com pratos que podem variar diariamente.",
+      "Chef Alberto Landgraf’s Rio restaurant builds its contemporary, nature-inspired cooking around high-quality ingredients. The Michelin Guide describes a single seasonal tasting menu whose dishes can change from day to day."
+    ],
+    "Guía editorial de Oteque: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.": [
+      "Guia editorial do Oteque: identidade, história, recomendações, horários, transporte e mapa no Rio.",
+      "Editorial guide to Oteque: identity, history, recommendations, hours, transport and map in Rio."
+    ],
+    "La misma guía registra el restaurante en Rua Conde de Irajá 581, Botafogo, y señala que las reservas se gestionan directamente con el establecimiento. Antes de organizar la visita, conviene confirmar disponibilidad y detalles del menú en sus canales.": [
+      "O mesmo guia localiza o restaurante na Rua Conde de Irajá, 581, Botafogo, e informa que as reservas são feitas diretamente com a casa. Antes de planejar a visita, confirme a disponibilidade e os detalhes do menu pelos canais do restaurante.",
+      "The same guide lists the restaurant at Rua Conde de Irajá 581, Botafogo, and says reservations are handled directly by the restaurant. Before planning your visit, confirm availability and menu details through its own channels."
+    ],
+    "Mapa de Oteque": [
+      "Mapa do Oteque",
+      "Map of Oteque"
+    ],
+    "Oteque: guía completa | Ernestinho Carioca": [
+      "Oteque: guia completo | Ernestinho Carioca",
+      "Oteque: complete guide | Ernestinho Carioca"
+    ],
+    "Sitio oficial de Oteque · Ficha de Oteque en la guía Michelin": [
+      "Site oficial do Oteque · Ficha do Oteque no Guia Michelin",
+      "Oteque official website · Oteque in the Michelin Guide"
+    ],
+    "Yo dedicaría la noche a la cena y evitaría otra actividad de horario fijo inmediatamente después. Reserva con tiempo y organiza el regreso, porque un menú largo merece disfrutarse sin prisa.": [
+      "Eu dedicaria a noite ao jantar e evitaria marcar outra atividade com horário fixo logo depois. Reserve com antecedência e organize a volta para aproveitar a sequência com calma.",
+      "I would set the evening aside for dinner and avoid any fixed-time plans immediately afterward. Book ahead and arrange the trip back so you can enjoy the long menu at a relaxed pace."
+    ],
+    "Fotografía 1 de Oteque.": [
+      "Foto 1 do Oteque.",
+      "Photo 1 of Oteque."
+    ],
+    "Fotografía 2 de Oteque.": [
+      "Foto 2 do Oteque.",
+      "Photo 2 of Oteque."
+    ],
+    "Fotografía 3 de Oteque.": [
+      "Foto 3 do Oteque.",
+      "Photo 3 of Oteque."
+    ],
+    "Fotografía 4 de Oteque.": [
+      "Foto 4 do Oteque.",
+      "Photo 4 of Oteque."
+    ],
+    "Fotografía 5 de Oteque.": [
+      "Foto 5 do Oteque.",
+      "Photo 5 of Oteque."
+    ]
+  },
   "/gastronomia/churrascaria-palace/": {
     "En Churrascaria Palace, pregunta qué incluye el rodízio vigente y qué consumos se pagan aparte. Si vas por las carnes, reserva suficiente tiempo para disfrutar los diferentes cortes y utiliza el buffet con moderación al principio. Para familias y grupos conviene consultar las condiciones por edad y las reservas.": [
       "Na Churrascaria Palace, pergunte o que está incluído no rodízio e o que é cobrado à parte. Se for pelas carnes, reserve tempo para apreciar os diferentes cortes e sirva-se com moderação no bufê no início. Para famílias e grupos, consulte as condições por idade e as reservas.",

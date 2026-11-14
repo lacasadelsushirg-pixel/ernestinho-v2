@@ -122,6 +122,28 @@ export default {
 
 // Keep the qualifiers and formatting added to the approved practical notes.
 export const updatedFacts = {
+  "/gastronomia/oteque/": {
+    "pt": {
+      "8": "📍 <strong>Endereço</strong><br>Rua Conde de Irajá, 581 — Botafogo",
+      "9": "🏘️ <strong>Bairro e região</strong><br>Rua Conde de Irajá, 581 — Botafogo",
+      "10": "🕐 <strong>Horários</strong><br>Confirme os horários e o último pedido.",
+      "11": "💰 <strong>Preços</strong><br>Consulte o menu vigente.",
+      "13": "☎️ <strong>Contato</strong><br>Site e redes oficiais do restaurante.",
+      "14": "📅 <strong>Reservas</strong><br>Confirme conforme o dia e o tamanho do grupo.",
+      "15": "♿ <strong>Acessibilidade</strong><br>Acessibilidade não verificada.",
+      "18": "Galeria completa do Oteque."
+    },
+    "en": {
+      "8": "📍 <strong>Address</strong><br>Rua Conde de Irajá, 581 — Botafogo",
+      "9": "🏘️ <strong>Neighborhood and area</strong><br>Rua Conde de Irajá, 581 — Botafogo",
+      "10": "🕐 <strong>Hours</strong><br>Confirm opening hours and last orders.",
+      "11": "💰 <strong>Prices</strong><br>Check the current menu.",
+      "13": "☎️ <strong>Contact</strong><br>Official restaurant website and socials.",
+      "14": "📅 <strong>Reservations</strong><br>Confirm for your date and group size.",
+      "15": "♿ <strong>Accessibility</strong><br>Accessibility not verified.",
+      "18": "Full Oteque photo gallery."
+    }
+  },
   "/gastronomia/aprazivel/": {
     "pt": {
       "8": "📍 <strong>Endereço</strong><br>Rua Aprazível, 62 — Santa Teresa, Rio de Janeiro — RJ, 20241-270",
