@@ -89,7 +89,7 @@ function renderNewStayCard(){
   const id="casa-candida",stay=STAYS[id],grid=document.querySelector(".feature-grid");
   if(!stay||!grid||grid.querySelector('[data-stay-card="'+id+'"]')||grid.querySelector('a[href="./'+id+'/"],a[href$="/'+id+'/"],a[href$="/'+id+'"]'))return;
   const card=document.createElement("a");
-  card.className="feature";card.href="./"+id+"/";card.target="_blank";card.rel="noopener noreferrer";
+  card.className="feature";card.href="./"+id+"/";
   card.dataset.stayCard=id;card.style.setProperty("--card-image",'url("'+stay.cover+'")');
   const title=document.createElement("b");title.textContent=stay.name;
   const summary=document.createElement("span");summary.className="card-copy";
