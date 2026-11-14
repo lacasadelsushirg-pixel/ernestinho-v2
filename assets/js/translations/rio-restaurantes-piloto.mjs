@@ -112,6 +112,12 @@ export default {
       en: 'Information checked on September 25, 2026. Confirm details directly before visiting.',
     },
   },
+  '/gastronomia/bar-da-frente/': {
+    'Confirma horario y acceso; taxi o aplicación son prácticos y el estacionamiento puede ser limitado.': {
+      pt: 'Confirme o horário e o acesso; táxi ou carro por aplicativo são opções práticas, e as vagas podem ser limitadas.',
+      en: 'Confirm the hours and access details; a taxi or ride-hailing car is practical, and parking may be limited.',
+    },
+  },
 };
 
 // Keep the qualifiers and formatting added to the approved practical notes.
