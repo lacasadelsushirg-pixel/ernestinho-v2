@@ -92,6 +92,9 @@ SHOPPING_ROUTES = (
     '/compras/nova-america/',
     '/compras/feira-nocturna-copacabana/',
     '/compras/shopping-leblon/',
+    '/compras/botafogo-praia-shopping/',
+    '/compras/downtown/',
+    '/compras/barrashopping/',
 )
 ROUTES += CULTURE_ROUTES + PHOTO_ROUTES + SHOPPING_ROUTES
 RUNTIME = '/assets/js/fr-preview.js'
@@ -153,8 +156,13 @@ def translate_nodes(document, lookup, skip_ids=()):
     skip_ids = set(skip_ids)
     for value in document.xpath(TRANSLATABLE):
         parent = value.getparent()
-        if parent is not None and any(element.get('id') in skip_ids for element in (parent, *parent.iterancestors())):
+        chain = (parent, *parent.iterancestors()) if parent is not None else ()
+        if any(element.get('id') in skip_ids - {'mainText'} for element in chain):
             continue
+        if 'mainText' in skip_ids and any(element.get('id') == 'mainText' for element in chain):
+            paragraph = next((element for element in chain if element.getparent() is not None and element.getparent().get('id') == 'mainText'), None)
+            if paragraph is not None and paragraph.tag == 'p':
+                continue
         original = str(value)
         key = ' '.join(original.split())
         if not key or not any(char.isalpha() for char in key):
@@ -292,31 +300,41 @@ def replace_inner_html(element, markup):
             element.append(fragment)
 
 
-def shopping_leblon_runtime(document):
-    data_path = FR_COPY / 'compras-shopping-leblon-dinamico-paralelo.json'
+def shopping_runtime_copy(document, route):
+    slug = route.rstrip('/').split('/')[-1]
+    data_path = FR_COPY / f'compras-{slug}-dinamico-paralelo.json'
     if not data_path.exists():
-        raise ValueError('Shopping Leblon runtime dictionary is missing')
+        raise ValueError(f'{route}: runtime dictionary is missing')
     data = json.loads(data_path.read_text())
+    if 'runtime_T_fr' not in data or 'runtime_P_fr' not in data:
+        return ()
+    raw = route_file(ROOT, route).read_bytes()
+    source_sha = sha1(f'blob {len(raw)}\0'.encode() + raw).hexdigest()
+    if data.get('source_path') != route.lstrip('/') + 'index.html' or data.get('source_sha') != source_sha:
+        raise ValueError(f'{route}: runtime copy does not match the current source HTML')
     runtime = data['runtime_T_fr']
+    expected_keys = data['qa'].get('fr_T_keys')
+    if expected_keys is not None and len(runtime) != expected_keys:
+        raise ValueError(f'{route}: runtime section count differs from translation QA')
     for key, markup in runtime.items():
         targets = document.xpath(f'//*[@id="{key}"]')
         if not targets:
-            raise ValueError(f'Shopping Leblon runtime target #{key} is missing')
+            raise ValueError(f'{route}: runtime target #{key} is missing')
         replace_inner_html(targets[0], markup)
     paragraphs = document.xpath('//*[@id="mainText"]')
     if not paragraphs:
-        raise ValueError('Shopping Leblon mainText target is missing')
+        raise ValueError(f'{route}: mainText runtime target is missing')
     main = paragraphs[0]
-    for child in list(main):
-        main.remove(child)
-    main.text = None
+    paragraphs = main.xpath('./p')
     translations = data['runtime_P_fr']
-    if len(translations) != 13:
-        raise ValueError('Shopping Leblon runtime paragraph count changed')
-    for text in translations:
-        p = html.Element('p')
-        p.text = text
-        main.append(p)
+    expected_paragraphs = data['qa'].get('fr_P_paragraphs', data['qa'].get('original_P_paragraphs'))
+    if expected_paragraphs is None or len(translations) != expected_paragraphs or len(paragraphs) != expected_paragraphs:
+        raise ValueError(f'{route}: runtime paragraph count differs from translation QA or source HTML')
+    for paragraph, text in zip(paragraphs, translations):
+        paragraph.text = text
+        for child in list(paragraph):
+            paragraph.remove(child)
+    return ('mainText', *runtime.keys())
 
 
 def french_page(source, route, copybook, routes=ROUTES):
@@ -341,9 +359,10 @@ def french_page(source, route, copybook, routes=ROUTES):
 
     restore_preview_media(document, route)
     runtime_skip_ids = ()
-    if route == '/compras/shopping-leblon/':
-        shopping_leblon_runtime(document)
-        runtime_skip_ids = ('mainText', 'hero', 'context', 'shops', 'brands', 'food', 'culture', 'recommend', 'hours', 'transport', 'services', 'comfort')
+    if route.startswith('/compras/'):
+        slug = route.rstrip('/').split('/')[-1]
+        if (FR_COPY / f'compras-{slug}-dinamico-paralelo.json').is_file():
+            runtime_skip_ids = shopping_runtime_copy(document, route)
 
     if route == '/guia/mes-a-mes/':
         data = json.loads(read_page(route_file(ROOT, route)).xpath('//script[@id="month-data"]')[0].text)
