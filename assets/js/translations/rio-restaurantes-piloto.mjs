@@ -50,6 +50,40 @@ export default {
       en: 'Confirm the exact address through its official channels. From downtown or the South Zone, a taxi or ride-hailing car can help you avoid getting lost on Morro do Pinto’s steep streets.',
     },
   },
+  '/gastronomia/mee/': {
+    'Entra por el Copacabana Palace, Avenida Atlântica 1702, y anuncia la reserva de MEE en recepción. Desde Cardeal Arcoverde, desciende por Rodolfo Dantas hasta la orla y camina hacia el hotel. Añade margen cuando haya eventos o tráfico en la avenida; el restaurante está dentro del complejo y no tiene acceso independiente desde la playa.': {
+      pt: 'Entre pelo Copacabana Palace, na Avenida Atlântica, 1702, e informe sua reserva no MEE à recepção. Da estação Cardeal Arcoverde, desça pela Rua Rodolfo Dantas até a orla e siga a pé até o hotel. Reserve mais tempo em dias de evento ou trânsito intenso; o restaurante fica dentro do complexo e não tem entrada independente pela praia.',
+      en: 'Enter through Copacabana Palace at Avenida Atlântica, 1702, and tell reception you have a MEE reservation. From Cardeal Arcoverde station, walk down Rua Rodolfo Dantas to the waterfront and continue to the hotel. Allow extra time during events or heavy traffic; the restaurant is inside the hotel complex and has no separate beach entrance.',
+    },
+    'La serie disponible permite leer el salón oscuro, la vajilla, la barra y distintas preparaciones sin confundir MEE con los otros restaurantes del hotel.': {
+      pt: 'As fotos disponíveis mostram o salão escuro, a louça, o bar e diferentes preparações, sem confundir o MEE com os outros restaurantes do hotel.',
+      en: 'The available photos show the dark dining room, tableware, bar and several dishes, while distinguishing MEE from the hotel’s other restaurants.',
+    },
+  },
+  '/gastronomia/ocya-ilha/': {
+    'La dirección de referencia es Ilha Primeira; el acceso exige bote desde el entorno de Barra/Lagoa da Tijuca. Confirma muelle, tarifa, estacionamiento y ruta accesible antes de salir.': {
+      pt: 'A referência de endereço é Ilha Primeira; o acesso exige barco a partir da região da Barra/Lagoa da Tijuca. Confirme o píer, a tarifa, o estacionamento e uma rota acessível antes de sair.',
+      en: 'The listed location is Ilha Primeira; access requires a boat from the Barra/Lagoa da Tijuca area. Confirm the pier, fare, parking and an accessible route before setting out.',
+    },
+    'Esta síntesis procede de la ficha editorial recuperada para Ocyá Ilha Primeira. Sirve como orientación inicial sobre el tipo de lugar; no sustituye la carta ni confirma la operación actual.': {
+      pt: 'Esta síntese vem da ficha editorial recuperada do Ocyá Ilha Primeira. Ela serve como orientação inicial sobre o tipo de lugar, mas não substitui o cardápio nem confirma o funcionamento atual.',
+      en: 'This summary comes from the recovered editorial listing for Ocyá Ilha Primeira. It offers an initial sense of the place, but does not replace the menu or confirm current operations.',
+    },
+    'El barrio, las categorías y el rango de precio reflejan el registro disponible y pueden haber cambiado. Confirma dirección exacta, horarios, carta, valores y necesidad de reserva en los canales actuales del establecimiento.': {
+      pt: 'O bairro, as categorias e a faixa de preço refletem o cadastro disponível e podem ter mudado. Confirme o endereço exato, os horários, o cardápio, os preços e a necessidade de reserva nos canais atuais do estabelecimento.',
+      en: 'The neighborhood, categories and price range reflect the available listing and may have changed. Confirm the exact address, hours, menu, prices and reservation requirements through the venue’s current channels.',
+    },
+  },
+  '/gastronomia/pilograma-prime-grill/': {
+    'Esta síntesis procede de la ficha editorial recuperada para Pilograma Prime Grill. Sirve como orientación inicial sobre el tipo de lugar; no sustituye la carta ni confirma la operación actual.': {
+      pt: 'Esta síntese vem da ficha editorial recuperada do Pilograma Prime Grill. Ela serve como orientação inicial sobre o tipo de lugar, mas não substitui o cardápio nem confirma o funcionamento atual.',
+      en: 'This summary comes from the recovered editorial listing for Pilograma Prime Grill. It offers an initial sense of the place, but does not replace the menu or confirm current operations.',
+    },
+    'Los horarios, la carta y los precios pueden variar; mi recomendación se basa en una visita personal reciente.': {
+      pt: 'Os horários, o cardápio e os preços podem variar; minha recomendação se baseia em uma visita pessoal recente.',
+      en: 'Hours, menu and prices may vary; my recommendation is based on a recent personal visit.',
+    },
+  },
 };
 
 // Keep the qualifiers and formatting added to the approved practical notes.
