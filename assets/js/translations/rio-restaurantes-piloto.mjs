@@ -122,6 +122,30 @@ export default {
 
 // Keep the qualifiers and formatting added to the approved practical notes.
 export const updatedFacts = {
+  "/gastronomia/aprazivel/": {
+    "pt": {
+      "8": "📍 <strong>Endereço</strong><br>Rua Aprazível, 62 — Santa Teresa, Rio de Janeiro — RJ, 20241-270",
+      "9": "🏘️ <strong>Bairro e região</strong><br>Santa Teresa, em uma encosta residencial acima do Centro e da Baía de Guanabara.",
+      "10": "🕐 <strong>Horários</strong><br>de terça a sábado, das 12:00 às 23:00; domingo, das 12:00 às 18:00; fechado às segundas-feiras, de acordo com o site oficial.",
+      "11": "💰 <strong>Preços</strong><br>Premium. Como referência editorial, calcule aproximadamente R$ 200–400 por pessoa com entrada, prato principal e bebida; menu, vinho e serviço podem aumentar o total.",
+      "12": "🍽️ <strong>Tipo de serviço</strong><br>Cozinha brasileira contemporânea, cardápio, bar, mesas em jardins e terraços, eventos e reservas.",
+      "13": "☎️ <strong>Contato</strong><br>Recepção e WhatsApp: (21) 99974-0928 · Eventos: (21) 98491-4353.",
+      "14": "📅 <strong>Reservas</strong><br>altamente recomendadas; especifique a vista, acessibilidade, tipo de celebração e área de preferência.",
+      "15": "♿ <strong>Acessibilidade</strong><br>A propriedade possui superfícies irregulares, escadas e mesas em diferentes níveis. Por favor, solicite uma rota acessível e instalações sanitárias adequadas antes de reservar.",
+      "16": "🚇 <strong>Transporte</strong><br>Táxi ou aplicativo até a porta. Não há metrô por perto e a caminhada até o local é cansativa."
+    },
+    "en": {
+      "8": "📍 <strong>Address</strong><br>Rua Aprazível, 62 — Santa Teresa, Rio de Janeiro — RJ, 20241-270",
+      "9": "🏘️ <strong>Neighborhood and area</strong><br>Santa Teresa, situated on a residential hillside overlooking the city center and Guanabara Bay.",
+      "10": "🕐 <strong>Hours</strong><br>Tuesday to Saturday 12:00–23:00; Sunday 12:00–18:00; closed Mondays, according to the official website.",
+      "11": "💰 <strong>Prices</strong><br>Premium. As a general guide, estimate approximately R$200–400 per person for a starter, main course, and drink; the à la carte selection, wine, and service charge can raise the total.",
+      "12": "🍽️ <strong>Service type</strong><br>Contemporary Brazilian cuisine, à la carte, bar, garden and terrace seating, events and reservations.",
+      "13": "☎️ <strong>Contact</strong><br>Reception and WhatsApp: (21) 99974-0928 · Events: (21) 98491-4353.",
+      "14": "📅 <strong>Reservations</strong><br>Highly recommended; specify view, accessibility, special occasion, and preferred section.",
+      "15": "♿ <strong>Accessibility</strong><br>The property has slopes, stairs, and tables on different platforms. Request an accessible route and suitable restroom before booking.",
+      "16": "🚇 <strong>Transportation</strong><br>Take a taxi or a ride-hailing app directly to the door. There is no nearby metro station, and the walk up is strenuous."
+    }
+  },
   "/gastronomia/carretao-siqueira/": {
     "pt": {
       "10": "🕐 <strong>Horários</strong><br>Referências públicas indicam atendimento diário das 12h às 23h30; confirme o funcionamento da cozinha e em feriados.",

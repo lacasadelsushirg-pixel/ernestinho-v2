@@ -1,5 +1,103 @@
 // Attribute and control copy left in Spanish by the approved legacy sources.
 export const pilotLabels = {
+  "/gastronomia/aprazivel/": {
+    "Aprazível: guía completa | Ernestinho Carioca": [
+      "Aprazível: guia completo | Ernestinho Carioca",
+      "Aprazível: complete guide | Ernestinho Carioca"
+    ],
+    "Guía editorial de Aprazível: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.": [
+      "Guia editorial do Aprazível: identidade, história, recomendações, horários, transporte e mapa no Rio.",
+      "Editorial guide to Aprazível: identity, history, recommendations, hours, transportation and map in Rio."
+    ],
+    "Mapa de Aprazível": [
+      "Mapa do Aprazível",
+      "Map of Aprazível"
+    ],
+    "Ambiente interior de Aprazível": [
+      "Interior do Aprazível",
+      "Inside Aprazível"
+    ],
+    "Cada sector ofrece una relación diferente con el jardín.": [
+      "Cada setor oferece uma relação diferente com o jardim.",
+      "Each area offers a different connection to the garden."
+    ],
+    "El cierre dulce mantiene el lenguaje brasileño de la carta.": [
+      "A sobremesa mantém o sabor brasileiro do cardápio.",
+      "Dessert carries through the Brazilian flavors of the menu."
+    ],
+    "El restaurante se distribuye en varios niveles abiertos.": [
+      "O restaurante se distribui por vários níveis abertos.",
+      "The restaurant is spread over several open levels."
+    ],
+    "Jardines": [
+      "Jardins",
+      "Gardens"
+    ],
+    "La disponibilidad exacta debe comprobarse en la carta vigente.": [
+      "Confira a disponibilidade no cardápio atual.",
+      "Check the current menu for availability."
+    ],
+    "La experiencia se construye tanto fuera como dentro del plato.": [
+      "O ambiente e o prato fazem parte da experiência.",
+      "The setting contributes as much as the food."
+    ],
+    "La madera da continuidad a los distintos espacios.": [
+      "A madeira conecta os diferentes espaços.",
+      "Wood connects the different areas."
+    ],
+    "Las preparaciones marinas pueden cambiar con la temporada.": [
+      "Os pratos de frutos do mar podem mudar conforme a estação.",
+      "Seafood dishes may change with the season."
+    ],
+    "Mesa rodeada de vegetación en Aprazível": [
+      "Mesa cercada de vegetação no Aprazível",
+      "Table surrounded by greenery at Aprazível"
+    ],
+    "Otra sobremesa de Aprazível": [
+      "Outra sobremesa do Aprazível",
+      "Another Aprazível dessert"
+    ],
+    "Paisaje y arquitectura de Aprazível": [
+      "Paisagem e arquitetura do Aprazível",
+      "Aprazível landscape and architecture"
+    ],
+    "Preparación de camarón fotografiada en Aprazível": [
+      "Prato de camarão fotografado no Aprazível",
+      "Shrimp dish photographed at Aprazível"
+    ],
+    "Pulpo preparado en Aprazível": [
+      "Polvo preparado no Aprazível",
+      "Octopus prepared at Aprazível"
+    ],
+    "Santa Teresa y la ciudad aparecen entre vegetación y madera.": [
+      "Santa Teresa e a cidade aparecem entre a vegetação e a madeira.",
+      "Santa Teresa and the city appear between greenery and wood."
+    ],
+    "Sobremesa servida en Aprazível": [
+      "Sobremesa servida no Aprazível",
+      "Dessert served at Aprazível"
+    ],
+    "Terraza del restaurante Aprazível": [
+      "Terraço do restaurante Aprazível",
+      "Aprazível restaurant terrace"
+    ],
+    "Una opción para prolongar la visita sin apresurar el regreso.": [
+      "Uma opção para prolongar a visita sem apressar a volta.",
+      "An option for extending the visit without rushing back."
+    ],
+    "Vista panorámica": [
+      "Vista panorâmica",
+      "Panoramic view"
+    ],
+    "Vista panorámica desde Aprazível": [
+      "Vista panorâmica do Aprazível",
+      "Panoramic view from Aprazível"
+    ],
+    "La casa trabaja principalmente con ingredientes orgánicos o biodinámicos y proteínas frescas. Algunos platos son estacionales; confirma carta, mesa y disponibilidad al reservar.": [
+      "A casa trabalha principalmente com ingredientes orgânicos ou biodinâmicos e proteínas frescas. Alguns pratos são sazonais; confirme o cardápio, a mesa e a disponibilidade ao reservar.",
+      "The restaurant works mainly with organic or biodynamic ingredients and fresh proteins. Some dishes are seasonal; confirm the menu, table and availability when booking."
+    ]
+  },
   "/gastronomia/zaza-bistro-tropical/": {
     "En Zazá Bistrô Tropical, pregunta al reservar por los diferentes ambientes del restaurante y por las condiciones de acceso. No todas las mesas ofrecen la misma experiencia: una cena íntima y una reunión de grupo pueden necesitar espacios distintos.": [
       "Ao reservar no Zazá Bistrô Tropical, pergunte sobre os diferentes ambientes e as condições de acesso. Cada mesa oferece uma experiência: um jantar íntimo e um encontro em grupo podem pedir espaços diferentes.",

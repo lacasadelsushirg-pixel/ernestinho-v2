@@ -17,14 +17,14 @@ Prioridad por impresiones observadas en GSC Web del 14 de octubre al 10 de novie
 | 1 | [/gastronomia/carretao-siqueira/](https://www.ernestinhocarioca.com.br/gastronomia/carretao-siqueira/) | 983 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 2 | [/gastronomia/sushi-leblon/](https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/) | 527 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 3 | [/gastronomia/zaza-bistro-tropical/](https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/) | 481 | Cuatro idiomas probados en vista aislada; en revisión. |
-| 4 | [/gastronomia/aprazivel/](https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/) | 276 | Pendiente de cotejo editorial y técnico. |
+| 4 | [/gastronomia/aprazivel/](https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/) | 276 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 5 | [/gastronomia/churrascaria-palace/](https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/) | 247 | FR preparado en paralelo; recuperación PT/EN y QA pendientes. |
 | 6 | [/gastronomia/colombo-do-forte/](https://www.ernestinhocarioca.com.br/gastronomia/colombo-do-forte/) | 238 | Diccionario FR preparado en la rama concurrente. Cotejo ES/PT/EN y QA pendientes. |
 | 7 | [/gastronomia/maska/](https://www.ernestinhocarioca.com.br/gastronomia/maska/) | 213 | Pendiente de cotejo editorial y técnico. |
 | 8 | [/gastronomia/oteque/](https://www.ernestinhocarioca.com.br/gastronomia/oteque/) | 200 | Pendiente de cotejo editorial y técnico. |
 | 9 | [/gastronomia/cipriani/](https://www.ernestinhocarioca.com.br/gastronomia/cipriani/) | 199 | Pendiente de cotejo editorial y técnico. |
 | 10 | [/gastronomia/cafe-lamas/](https://www.ernestinhocarioca.com.br/gastronomia/cafe-lamas/) | 176 | Pendiente de cotejo editorial y técnico. |
-| 11 | [/gastronomia/churrasqueira-rio/](https://www.ernestinhocarioca.com.br/gastronomia/churrasqueira-rio/) | 167 | Pendiente de cotejo editorial y técnico. |
+| 11 | [/gastronomia/churrasqueira-rio/](https://www.ernestinhocarioca.com.br/gastronomia/churrasqueira-rio/) | 167 | FR preparado en paralelo; se completó el rótulo FR faltante. PT/EN y QA pendientes. |
 | 12 | [/gastronomia/cervantes-copacabana/](https://www.ernestinhocarioca.com.br/gastronomia/cervantes-copacabana/) | 165 | Pendiente de cotejo editorial y técnico. |
 | 13 | [/gastronomia/lasai/](https://www.ernestinhocarioca.com.br/gastronomia/lasai/) | 164 | Pendiente de cotejo editorial y técnico. |
 | 14 | [/gastronomia/chez-claude/](https://www.ernestinhocarioca.com.br/gastronomia/chez-claude/) | 141 | Pendiente de cotejo editorial y técnico. |
@@ -89,3 +89,13 @@ Las 15 entradas PT/EN por idioma coinciden con los diccionarios de `42d03024`, `
 Search Console, 14 de noviembre: las tres URL públicas de Zazá (ES, PT-BR y EN) figuran enviadas e indexadas. El estado describe producción antes del candidato.
 
 Total: 3/50 probadas en vista privada, 47 con trabajo pendiente, 0 cerradas. Siguiente: Aprazível y Churrascaria Palace. Sin despliegue.
+
+## Cuarto sublote · Aprazível
+
+Base PR `586a0e3`, producción `21bb687`, candidato `e8baad8`. Conservadas las claves concurrentes de `6174052`. Se repararon dos comas duplicadas y un separador ausente en su lista de rutas privadas: 108 rutas únicas con archivo fuente, sin validar el piloto completo. Se añadió el rótulo FR «À la carte» detectado en Churrasqueira Rio. La revisión estática sobre HTML fuente de Permanencia sigue señalando dos líneas literales de metadatos; comprobar el HTML generado antes de clasificarlo como defecto del piloto.
+
+Aprazível: 19 entradas históricas PT/EN por idioma coincidentes entre `42d03024`, `8570793a`, `391d302e` y el HTML actual. Se reactivaron y cotejaron con ES, recuperando el formato de nueve datos prácticos. Se tradujeron ampliaciones, rótulos visuales y 44 entradas FR. El HTML fuente se conserva. Tres HTML selectivos, auditor de cuatro idiomas y navegación PT → FR → EN a 1440 y 390 px aprobados. [Capturas](TANDA50_APRAZIVEL_1440_390.jpg) desde el PT servido por Hostinger hasta el candidato y la vista FR noindex. Pendiente incremental integral.
+
+Search Console el 14 de noviembre: ES, PT-BR y EN enviadas e indexadas. Resultado de las URL públicas, previo al candidato.
+
+Total: 4/50 probadas en vista privada, 46 pendientes y 0 cerradas. Retomar Churrascaria Palace y Colombo do Forte, aprovechando el francés paralelo. Sin despliegue.
