@@ -7,6 +7,8 @@ import {createRequire} from 'node:module';
 import {execFileSync} from 'node:child_process';
 import {loadBuildLibraries} from './build_vendor.mjs';
 import {buildBrowserOptions} from './build_browser.mjs';
+import {hideDuplicateLegacySelector, legacyLocaleRoutes, localizeLegacyStartup} from './legacy_locale_routes.mjs';
+import {pilotLabels} from '../assets/js/translations/rio-pilot-labels.mjs';
 import {SEO_METADATA} from '../assets/js/seo-metadata.js';
 import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/translations/chunks/experiencias-standalone.js';
 import{renderBuziosMirror,mirrorRoutes}from'./build_buzios_mirror.mjs';
@@ -67,6 +69,8 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
    if(!response.ok)throw Error('Cannot compare this build with the last deployed source commit through Git or GitHub: '+error.message+'; history fetch: '+fetchError.message+'; GitHub HTTP '+response.status);
    const comparison=await response.json();
    if(!Array.isArray(comparison.files))throw Error('GitHub compare API returned no file list; refusing an incomplete incremental publication.');
+   // GitHub includes at most 300 changed files, even when commits are paginated.
+   if(comparison.status!=='ahead'||comparison.files.length>=300)throw Error('GitHub compare cannot prove a complete forward diff; fetch both revisions or validate a full build.');
    console.log('GitHub compare: '+comparison.status+', '+comparison.ahead_by+' commits ahead, '+comparison.files.length+' changed files.');
    changes=comparison.files.flatMap(file=>file.status==='renamed'&&file.previous_filename?['D\t'+file.previous_filename,'A\t'+file.filename]:[(file.status==='removed'?'D':file.status==='added'?'A':'M')+'\t'+file.filename]);
   }
@@ -78,6 +82,15 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  }
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
+  if(file.startsWith('docs/'))continue;
+  if(file==='assets/js/translations/rio-pilot-labels.mjs'){
+   for(const route of Object.keys(pilotLabels))routes.add(route);
+   continue;
+  }
+  if(file==='scripts/legacy_locale_routes.mjs'||file==='assets/js/translations/rio-restaurantes-piloto.mjs'||file==='assets/js/translations/belmonte-leme-legacy.mjs'){
+   for(const route of legacyLocaleRoutes.keys())routes.add(route);
+   continue;
+  }
   // A neighbourhood editor change requires its rendered HTML pages, not a zero-route build.
   // Preserve the existing approved pages outside the neighbourhood section.
   if (file === 'scripts/regional_neighborhoods.mjs' ||
@@ -108,6 +121,13 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   if(mirrorInputs.includes(file)||/^assets\/js\/translations\/chunks\/buzios-(?:transport-mirror|bus-timetable|guide-context|apps-mirror|events|things-parity)\.js$/.test(file)){for(const route of mirrorRoutes)routes.add(route);continue;}
   // This module only supplies texts for /quiero/; do not rebuild 3,522 unrelated locale pages.
   if(file==='assets/js/translations/quiero.js'){routes.add('/quiero/');continue;}
+  // site.js loads these dictionaries only for their respective sections.
+  const scopedSection=file==='assets/js/translations/chunks/transportes-01.js'?'/transportes/'
+   :file==='assets/js/translations/chunks/rio-residual-compras-01.js'?'/compras/':null;
+  if(scopedSection){
+   for(const source of files){const route=routeFor(source);if(route.startsWith(scopedSection))routes.add(route);}
+   continue;
+  }
   if(file==='assets/js/buzios-taxonomy.js')continue;
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
@@ -148,10 +168,11 @@ function setHtmlMeta(html,attribute,key,value){
 const bootstrap=`<script data-ec-locale-bootstrap>(function(){var m=location.pathname.match(new RegExp('^/(pt|en)(?=/|$)','i')),l=m?m[1].toUpperCase():'ES';document.documentElement.lang=l==='PT'?'pt-BR':l.toLowerCase();try{localStorage.setItem('ec-lang',l);localStorage.setItem('ec-language',l.toLowerCase());localStorage.setItem('ec_lang',l.toLowerCase());}catch(_){}})();</script>`;
 const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp'};
 function adaptLegacyScripts(html,sourcePath){
- return html.replace(/(<script\b[^>]*>)([\s\S]*?)(<\/script>)/gi,(whole,open,code,close)=>{
+ return hideDuplicateLegacySelector(html,sourcePath).replace(/(<script\b[^>]*>)([\s\S]*?)(<\/script>)/gi,(whole,open,code,close)=>{
   if(open.includes('application/ld+json'))return whole;
   // Sparse renderer dictionaries legitimately have no ES entry.
   code=code.replace(/T\[l\]\[k\]/g,'T[l]?.[k]');
+  code=localizeLegacyStartup(code,sourcePath);
   if(sourcePath==='/compras/mercado-sao-pedro/')code=code.replace(/function lang\(/g,'function ecMarketLanguage(').replace(/=>lang\(/g,'=>ecMarketLanguage(').replace(/;lang\(/g,';ecMarketLanguage(');
   return open+code+close;
  }).replace(sourcePath==='/compras/mercado-sao-pedro/'?/onclick="lang\(/g:/$^/g,'onclick="ecMarketLanguage(');
@@ -189,6 +210,7 @@ fs.mkdirSync(out,{recursive:true});
 function copy(dir,dest){for(const e of fs.readdirSync(dir,{withFileTypes:true})){
  if(ignore.has(e.name)||e.name.startsWith('.')||['package.json','package-lock.json','AGENTS.md','README.md','vercel.json','sitemap.xml'].includes(e.name))continue;
  const from=path.join(dir,e.name),to=path.join(dest,e.name);
+ if(from===path.join(root,'assets/js/translations/fr'))continue;
  if(e.isDirectory()){fs.mkdirSync(to,{recursive:true});copy(from,to);}else if(!e.name.endsWith('.html')||isGoogleVerification(from))fs.copyFileSync(from,to);
 }}
 copy(root,out);
@@ -201,11 +223,13 @@ const browser=targets.length?await chromium.launch(await buildBrowserOptions()):
 let next=0;const manifest=[];const prunedRoutes=new Set();const errors=[];
 async function worker(){
  const context=await browser.newContext({viewport:{width:1365,height:900}});
+ const translationModules=new Set();
  await context.route('**/*',async r=>{
    const requestUrl=new URL(r.request().url());
    if(requestUrl.origin===base){
     const requestPath=decodeURIComponent(requestUrl.pathname);
     const sourcePath=requestPath.replace(/^\/(?:pt|en)(?=\/|$)/i,'')||'/';
+    if(r.request().resourceType()==='script'&&sourcePath.startsWith('/assets/js/translations/chunks/'))translationModules.add(requestUrl.href);
     let file=path.resolve(root,'.'+sourcePath);
     if(!file.startsWith(root+path.sep)&&file!==root)return r.fulfill({status:403,body:'Forbidden'});
     if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');
@@ -276,6 +300,7 @@ async function worker(){
     const dest=path.join(out,route.slice(1)+'index.html');fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,html);
     manifest.push({route,source:target.route,language:target.language,indexable:false,redirect:finalPath});continue;
    }
+   translationModules.clear();
    await page.goto(base+route,{waitUntil:'load',timeout:30000});
    if(new URL(page.url()).pathname!==route)throw Error('Unexpected client navigation '+page.url());
    await page.evaluate(async language=>{
@@ -290,8 +315,31 @@ async function worker(){
     await new Promise(r=>setTimeout(r,80));
     if(typeof window.ecApplyPracticalSummaryLocale==="function")window.ecApplyPracticalSummaryLocale(language);
    },target.language);
-   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations})=>{
+   // site.js tolerates failed imports for visitors. Verify the same module URLs
+   // here after its ready promise, including errors swallowed by allSettled.
+   await page.evaluate(async urls=>{
+    const results=await Promise.allSettled(urls.map(url=>import(url)));
+    const failures=results.flatMap((result,index)=>result.status==='rejected'
+     ? [new URL(urls[index]).pathname+': '+String(result.reason)] : []);
+    if(failures.length)throw Error('Translation modules failed: '+failures.join(' | '));
+   },[...translationModules]);
+   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations,pilotLabels})=>{
     const language=document.documentElement.lang;
+    if(pilotLabels&&language!=='es'){
+     const index=language==='pt-BR'?0:1;
+     for(const image of document.querySelectorAll('img[alt]')){
+      const value=pilotLabels[image.alt]?.[index];
+      if(value){image.alt=value;image.dataset.ecAlt=value;}
+     }
+     for(const frame of document.querySelectorAll('iframe[title]')){
+      const value=pilotLabels[frame.title]?.[index];
+      if(value){frame.title=value;frame.dataset.ecTitle=value;}
+     }
+     for(const link of document.querySelectorAll('a, p, h2, h3, figcaption, .tag, .note')){
+      const value=pilotLabels[link.textContent.trim()]?.[index];
+      if(value&&link.childElementCount===0)link.textContent=value;
+     }
+    }
     if(standaloneTranslations&&/^\/experiencias\/pedra-(?:telegrafo|gavea|bonita)\/$/.test(route.replace(/^\/(?:pt|en)(?=\/|$)/,''))){
      const selected=language==='pt-BR'?'PT':language==='en'?'EN':'ES';
      if(selected!=='ES'){
@@ -390,7 +438,7 @@ async function worker(){
      const s=document.createElement('script');s.type='application/ld+json';s.dataset.ecBreadcrumb='';s.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});document.head.appendChild(s);
     }
     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1:document.querySelectorAll('h1').length};
-   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS});
+   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS,pilotLabels:pilotLabels[target.route]||null});
    // Redirect-only source documents remain redirect-only and never get hreflang.
    const original=fs.readFileSync(target.file,'utf8');const refresh=original.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(refresh){value.html=value.html.replace('</head>',refresh[0].replace(/(url=)([^"'>]+)/i,(_,p,destination)=>{const u=new URL(destination,base+target.route);return p+prefix(u.pathname,target.language)+u.search+u.hash;})+'</head>');}
