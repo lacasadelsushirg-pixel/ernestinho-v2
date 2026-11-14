@@ -1,5 +1,47 @@
 // Attribute and control copy left in Spanish by the approved legacy sources.
 export const pilotLabels = {
+  "/gastronomia/churrasqueira-rio/": {
+    "En Churrasqueira Rio, consulta los cortes disponibles, su peso y el punto de cocción recomendado antes de pedir. Si compartes, pregunta por las guarniciones incluidas y por el tamaño de las porciones para que la carne y los acompañamientos lleguen en una secuencia cómoda.": [
+      "Na Churrasqueira Rio, confira os cortes disponíveis, o peso e o ponto recomendado antes de pedir. Se for compartilhar, pergunte quais acompanhamentos estão incluídos e o tamanho das porções, para que tudo chegue no ritmo certo.",
+      "At Churrasqueira Rio, ask what cuts are available, how much they weigh and the recommended doneness. If sharing, check which sides are included and portion sizes so the meat and sides arrive at a comfortable pace."
+    ],
+    "Una comida de parrilla puede ser el centro de una salida con amigos o familia. Confirma el horario y la dirección exacta del establecimiento, en vez de asumir que todas las casas de nombre parecido funcionan igual.": [
+      "Uma refeição na brasa pode ser o centro de um passeio com amigos ou família. Confirme o horário e o endereço exato da casa, pois estabelecimentos com nomes parecidos podem funcionar de forma diferente.",
+      "A barbecue meal can anchor an outing with friends or family. Check the opening hours and exact address, since restaurants with similar names may operate differently."
+    ],
+    "Mapa de Churrasqueira Rio": [
+      "Mapa da Churrasqueira Rio",
+      "Map of Churrasqueira Rio"
+    ],
+    "Salón de Churrasqueira Rio": [
+      "Salão da Churrasqueira Rio",
+      "Churrasqueira Rio dining room"
+    ],
+    "Picanha completa de Churrasqueira Rio": [
+      "Picanha completa da Churrasqueira Rio",
+      "Full picanha platter at Churrasqueira Rio"
+    ],
+    "Parrillada de Churrasqueira Rio": [
+      "Parrillada da Churrasqueira Rio",
+      "Mixed grill at Churrasqueira Rio"
+    ],
+    "Brocheta de almuerzo ejecutivo": [
+      "Espetinho do almoço executivo",
+      "Set-lunch skewer"
+    ],
+    "Fachada de Churrasqueira Rio en Ipanema": [
+      "Fachada da Churrasqueira Rio em Ipanema",
+      "Churrasqueira Rio exterior in Ipanema"
+    ],
+    "Mesa de Churrasqueira Rio": [
+      "Mesa da Churrasqueira Rio",
+      "Table at Churrasqueira Rio"
+    ],
+    "Servicio de carne en Churrasqueira Rio": [
+      "Serviço de carnes na Churrasqueira Rio",
+      "Meat service at Churrasqueira Rio"
+    ]
+  },
   "/gastronomia/cafe-lamas/": {
     "Café Lamas: guía de Ernestinho Carioca": [
       "Café Lamas: guia do Ernestinho Carioca",

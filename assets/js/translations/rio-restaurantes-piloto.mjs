@@ -122,6 +122,20 @@ export default {
 
 // Keep the qualifiers and formatting added to the approved practical notes.
 export const updatedFacts = {
+  "/gastronomia/churrasqueira-rio/": {
+    "pt": {
+      "15": "♿ <strong>Acessibilidade</strong><br>O salão parece amplo, mas não encontrei informação oficial completa sobre banheiro adaptado. Consulte a disposição das mesas e a circulação."
+    },
+    "en": {
+      "2": "Originating from 30 years of culinary experience in Juiz de Fora, the house brought its Mineiro barbecue concept to Ipanema. It specializes in Angus beef cuts prepared over charcoal and served à la carte, accompanied by appetizers reminiscent of Minas Gerais: feijão amigo, crispy pork belly (torresmo), rice cakes with cured cheese, and jiló chips. The move to Rio kept those roots and adapted them to a South Zone dining street where guests compare meat, beer and comfort.",
+      "3": "This venue is a great recommendation for guests who want quality grilled meats without committing to an all-you-can-eat rodízio. Ordering à la carte allows better control over meat cuts, cooking temperature, side dishes, and total spending. It also accommodates family members who prefer fish, skewers, or bar snacks. It is a less suitable choice for unlimited servings or a vegetarian menu centered on vegetables. Shared platters and the Minas Gerais influence set it apart from larger steakhouses.",
+      "5": "Weekday lunches feature executive options and a steady pace. Dinner hours emphasize charcoal-grilled meats, beer, and longer group gatherings. Official hours are daily from 11:30 AM to midnight. Reservations are advisable for weekends and holidays when demand peaks. The afternoon still suits a full meal rather than a quick coffee stop. A reservation is safer than counting on an open table just because the dining room is large.",
+      "7": "Before lunch, explore Praça Nossa Senhora da Paz and its street market when available, then walk toward Lagoa Rodrigo de Freitas along Rua Vinícius de Moraes. For dinner, watch the sunset at Ipanema Beach, stroll down Visconde de Pirajá, and end with dinner at the steakhouse. I would keep this as the only restaurant stop; a quiet walk around the square is a better way to end the meal.",
+      "4": "I would open with a starter that reflects the restaurant’s roots, such as rice fritters with aged cheese or feijão amigo, if available. The photographed full picanha platter suits sharing and should be ordered to a specified doneness. The mixed grill lets you compare proteins; ask what it includes. For a solo lunch, the pictured set-lunch skewer is less expensive than a large platter. The restaurant has posted about house-made sausage flambéed with cachaça, which can add a little theater. Ask for the weight, rather than only how many people a cut serves.",
+      "6": "I would specify the doneness first and ask for the meat and sides to arrive together. For three diners, ask about raw weight, bone and the number of sides: a full picanha can be too much or too little depending on the cut and appetites. If anyone avoids red meat, ask for the menu before booking. Check that the corkage policy still applies and choose a bottle that suits grilled food.",
+      "15": "♿ <strong>Accessibility</strong><br>The dining room looks spacious, but I found no complete official information on an accessible restroom. Ask about table placement and room to move."
+    }
+  },
   "/gastronomia/cafe-lamas/": {
     "en": {
       "15": "♿ <strong>Accessibility</strong><br>Accessibility not verified.",

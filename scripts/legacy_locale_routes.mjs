@@ -4,6 +4,7 @@ import supplementaryCopy, {updatedFacts} from '../assets/js/translations/rio-res
 // These reviewed pages already have localized inline renderers. Initialize
 // them from the URL in built HTML, including when scripts run on a live visit.
 export const legacyLocaleRoutes = new Map([
+  ['/gastronomia/churrasqueira-rio/', ['setLang', 'full']],
   ['/gastronomia/cafe-lamas/', ['setLang', 'full']],
   ['/gastronomia/maska/', ['setLang', 'full']],
   ['/gastronomia/oteque/', ['f', 'full']],
