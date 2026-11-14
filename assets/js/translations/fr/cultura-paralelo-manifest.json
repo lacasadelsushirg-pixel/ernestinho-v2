@@ -1,0 +1,708 @@
+{
+  "project": "Ernestinho Carioca — Culture FR parallel staging",
+  "source_branch": "revision/rendimiento-traducciones-81a904c",
+  "branch": "traduccion/cultura-fr-paralelo-20261111",
+  "status": "DICT_STAGING_NOT_RENDERED_NOT_INDEXED",
+  "scope": [
+    {
+      "route": "/cultura/biblioteca-ccbb/",
+      "source_sha": "4ebb6bedc49db8c1c747238d65efca4ef5a2c86b",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-ccbb-paralelo.json",
+      "entries": 43,
+      "qa": "All HTML text nodes, visible labels, title, metadata and alt/map attributes compared against dictionary; no untranslated Spanish strings in inspected static set. Inline JS checked; no editorial dynamic arrays observed.",
+      "editorial_review": "Verify operating hours, admission, booking, accessible routes and institution status against official sources before publishing."
+    },
+    {
+      "route": "/cultura/biblioteca-ccjf/",
+      "source_sha": "0990178a0c23cd1d587f809a0fd7013ec0715a65",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-ccjf-paralelo.json",
+      "entries": 44,
+      "qa": "All HTML text nodes, visible labels, title, metadata and alt/map attributes compared against dictionary; no untranslated Spanish strings in inspected static set. Inline JS checked; no editorial dynamic arrays observed.",
+      "editorial_review": "Verify operating hours, admission, booking, accessible routes and institution status against official sources before publishing."
+    },
+    {
+      "route": "/cultura/biblioteca-ims/",
+      "source_sha": "f2fb1c0bdb95c1a2110f8d06fa474429047412d1",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-ims-paralelo.json",
+      "entries": 44,
+      "qa": "All HTML text nodes, visible labels, title, metadata and alt/map attributes compared against dictionary; no untranslated Spanish strings in inspected static set. Inline JS checked; no editorial dynamic arrays observed.",
+      "editorial_review": "Verify operating hours, admission, booking, accessible routes and institution status against official sources before publishing."
+    },
+    {
+      "route": "/cultura/biblioteca-mam/",
+      "source_sha": "d642c930f0278db63370d578508390d188d75a26",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-mam-paralelo.json",
+      "entries": 45,
+      "checked_strings": 45,
+      "missing_keys": 0,
+      "qa": "Static visible content, SEO descriptions, alt text and map title reviewed; no HTML FR renderer or visual QA",
+      "editorial_review": "Confirm current opening times, accessibility, booking and fees with institution before publishing."
+    },
+    {
+      "route": "/cultura/biblioteca-manguinhos/",
+      "source_sha": "d9b81e3a35245333ac157380d63d061e3dba1d31",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-manguinhos-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Static visible content, SEO descriptions, alt text and map title reviewed; no HTML FR renderer or visual QA",
+      "editorial_review": "Confirm current opening times, accessibility, booking and fees with institution before publishing."
+    },
+    {
+      "route": "/cultura/biblioteca-nacional/",
+      "source_sha": "2588bbae7954c8beb047cb5f1618518013c9dd13",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-nacional-paralelo.json",
+      "entries": 46,
+      "checked_strings": 46,
+      "missing_keys": 0,
+      "qa": "Static visible content, SEO descriptions, alt text and map title reviewed; no HTML FR renderer or visual QA",
+      "editorial_review": "Confirm current opening times, accessibility, booking and fees with institution before publishing."
+    },
+    {
+      "route": "/cultura/biblioteca-parque-estadual/",
+      "source_sha": "9f3c707742432430c89a44df189724f998c94df4",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-parque-estadual-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Static text, SEO metadata, image alt and map titles inspected. Inline scripts checked for long ES text. FR HTML rendering not integrated.",
+      "editorial_review": "Verify institution operating status, hours, admission, accessibility and reservations with official source before publication."
+    },
+    {
+      "route": "/cultura/biblioteca-rocinha/",
+      "source_sha": "8b3c48a2cf4c9b27c055a4339083365abbb6e8c4",
+      "dictionary": "assets/js/translations/fr/cultura-biblioteca-rocinha-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Static text, SEO metadata, image alt and map titles inspected. Inline scripts checked for long ES text. FR HTML rendering not integrated.",
+      "editorial_review": "Verify institution operating status, hours, admission, accessibility and reservations with official source before publication."
+    },
+    {
+      "route": "/cultura/bibliomaison/",
+      "source_sha": "1806b594ec146d483f4d37ad3301054281ee23ac",
+      "dictionary": "assets/js/translations/fr/cultura-bibliomaison-paralelo.json",
+      "entries": 45,
+      "checked_strings": 45,
+      "missing_keys": 0,
+      "qa": "Static text, SEO metadata, image alt and map titles inspected. Inline scripts checked for long ES text. FR HTML rendering not integrated.",
+      "editorial_review": "Verify institution operating status, hours, admission, accessibility and reservations with official source before publication."
+    },
+    {
+      "route": "/cultura/casa-da-leitura/",
+      "source_sha": "7d4137f2b293a5901d329b53232131ee37842b36",
+      "dictionary": "assets/js/translations/fr/cultura-casa-da-leitura-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "All visible static strings and selected meta/alt/map attributes compared to dictionary; no missing strings in inspected set. Not rendered in FR.",
+      "editorial_review": "Verify opening hours, accessibility, reservation and institutional status before publishing."
+    },
+    {
+      "route": "/cultura/midiateca-crab/",
+      "source_sha": "f204ac6505438bf46a7c0ee9ecd3a09232c9e7fa",
+      "dictionary": "assets/js/translations/fr/cultura-midiateca-crab-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "All visible static strings and selected meta/alt/map attributes compared to dictionary; no missing strings in inspected set. Not rendered in FR.",
+      "editorial_review": "Verify opening hours, accessibility, reservation and institutional status before publishing."
+    },
+    {
+      "route": "/cultura/livraria-argumento/",
+      "source_sha": "3cba725cad4a4f1d286a0d41bb047dd946cc144f",
+      "dictionary": "assets/js/translations/fr/cultura-livraria-argumento-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Static visible strings, metadata, alt and map titles compared to French dictionary; no missing in inspected set.",
+      "editorial_review": "Confirm opening hours, business operation, accessible entrance and current services with official establishment before publication."
+    },
+    {
+      "route": "/cultura/leonardo-da-vinci/",
+      "source_sha": "67a166e848cc00858178b0fe283c65cc364d2a14",
+      "dictionary": "assets/js/translations/fr/cultura-leonardo-da-vinci-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Static visible strings, metadata, alt and map titles compared to French dictionary; no missing in inspected set.",
+      "editorial_review": "Confirm opening hours, business operation, accessible entrance and current services with official establishment before publication."
+    },
+    {
+      "route": "/cultura/academia-brasileira-letras/",
+      "source_sha": "0082ad07b369e6df2a193df426e0167eaf82e507",
+      "dictionary": "assets/js/translations/fr/cultura-academia-brasileira-letras-paralelo.json",
+      "entries": 44,
+      "checked_strings": 44,
+      "missing_keys": 0,
+      "qa": "Static strings, title, metadata and alt/map text checked against French dictionary; no missing in inspected set.",
+      "editorial_review": "Confirm official visiting hours, booking, accessibility and institutional opening before publication."
+    },
+    {
+      "route": "/cultura/casa-rui-barbosa/",
+      "source_sha": "4ce218f9dc9611bdf70a752c41f16da9a2c8e5bf",
+      "dictionary": "assets/js/translations/fr/cultura-casa-rui-barbosa-paralelo.json",
+      "entries": 44,
+      "checked_strings": 44,
+      "missing_keys": 0,
+      "qa": "Static strings, title, metadata and alt/map text checked against French dictionary; no missing in inspected set.",
+      "editorial_review": "Confirm official visiting hours, booking, accessibility and institutional opening before publication."
+    },
+    {
+      "route": "/cultura/bibliotecas/",
+      "source_sha": "7304ba4063cf72b73319ce19439f0a0d1dc7e871",
+      "dictionary": "assets/js/translations/fr/cultura-bibliotecas-paralelo.json",
+      "entries": 79,
+      "checked_strings": 79,
+      "missing_keys": 0,
+      "qa": "All static visible strings, title/meta descriptions and 17 image alt strings mapped; JSON-LD must be regenerated for French HTML (name, description, inLanguage, URL).",
+      "editorial_review": "Review all 17 cards, link targets, photo accuracy and institutional status before publication."
+    },
+    {
+      "route": "/cultura/caixa-cultural/",
+      "source_sha": "c3f5e149f33c5b2f844503a784eff108b47c4d73",
+      "dictionary": "assets/js/translations/fr/cultura-caixa-cultural-paralelo.json",
+      "entries": 46,
+      "checked_strings": 46,
+      "missing_keys": 0,
+      "qa": "Static visible text, title, meta descriptions and image alt/map labels checked; JSON-LD requires FR-specific rendering.",
+      "editorial_review": "Confirm operating status, dates, opening hours, booking and accessibility with official source."
+    },
+    {
+      "route": "/cultura/espaco-bndes/",
+      "source_sha": "7d7f1eb2b0dfe6ff3a95e9355d920b87e38f6c61",
+      "dictionary": "assets/js/translations/fr/cultura-espaco-bndes-paralelo.json",
+      "entries": 47,
+      "checked_strings": 47,
+      "missing_keys": 0,
+      "qa": "Static visible text, title, meta descriptions and image alt/map labels checked; JSON-LD requires FR-specific rendering.",
+      "editorial_review": "Confirm operating status, dates, opening hours, booking and accessibility with official source."
+    },
+    {
+      "route": "/cultura/correios/",
+      "source_sha": "8d94f11928e299aa724f5530eecacd87f8c4763c",
+      "dictionary": "assets/js/translations/fr/cultura-correios-paralelo.json",
+      "entries": 46,
+      "checked_strings": 46,
+      "missing_keys": 0,
+      "qa": "Static visible text, title, meta descriptions and image alt/map labels checked; JSON-LD requires FR-specific rendering.",
+      "editorial_review": "Confirm operating status, dates, opening hours, booking and accessibility with official source."
+    },
+    {
+      "route": "/cultura/helio-oiticica/",
+      "source_sha": "d2abead3c410e868d80ce8a61f96d9fa4fe05bd1",
+      "dictionary": "assets/js/translations/fr/cultura-helio-oiticica-paralelo.json",
+      "entries": 47,
+      "checked_strings": 47,
+      "missing_keys": 0,
+      "qa": "Static visible text, title, meta descriptions and image alt/map labels checked; JSON-LD requires FR-specific rendering.",
+      "editorial_review": "Confirm operating status, dates, opening hours, booking and accessibility with official source."
+    },
+    {
+      "route": "/cultura/maison-france/",
+      "source_sha": "9ae5e704c88a39a50472995e6b653111d9f0b02c",
+      "dictionary": "assets/js/translations/fr/cultura-maison-france-paralelo.json",
+      "entries": 47,
+      "checked_strings": 47,
+      "missing_keys": 0,
+      "qa": "Static text, metadata, title and image/map alt attributes covered in dictionary; JSON-LD and generated French HTML pending.",
+      "editorial_review": "Verify opening hours, prices, event programming, accessibility and booking with official institutions."
+    },
+    {
+      "route": "/cultura/casa-franca/",
+      "source_sha": "deeb97fdd844c038b800aba5c209f2b725a62561",
+      "dictionary": "assets/js/translations/fr/cultura-casa-franca-paralelo.json",
+      "entries": 47,
+      "checked_strings": 47,
+      "missing_keys": 0,
+      "qa": "Static text, metadata, title and image/map alt attributes covered in dictionary; JSON-LD and generated French HTML pending.",
+      "editorial_review": "Verify opening hours, prices, event programming, accessibility and booking with official institutions."
+    },
+    {
+      "route": "/cultura/ccbb/",
+      "source_sha": "59bc55c68e399f11a2ba5b1202baa8b5cc97a2dd",
+      "dictionary": "assets/js/translations/fr/cultura-ccbb-paralelo.json",
+      "entries": 47,
+      "checked_strings": 47,
+      "missing_keys": 0,
+      "qa": "Static text, metadata, title and image/map alt attributes covered in dictionary; JSON-LD and generated French HTML pending.",
+      "editorial_review": "Verify opening hours, prices, event programming, accessibility and booking with official institutions."
+    },
+    {
+      "route": "/cultura/ccjf/",
+      "source_sha": "0369195abde4e36e04739151caf62960c472c2f6",
+      "dictionary": "assets/js/translations/fr/cultura-ccjf-paralelo.json",
+      "entries": 46,
+      "checked_strings": 46,
+      "missing_keys": 0,
+      "qa": "Static text, metadata, title and image/map alt attributes covered in dictionary; JSON-LD and generated French HTML pending.",
+      "editorial_review": "Verify opening hours, prices, event programming, accessibility and booking with official institutions."
+    },
+    {
+      "route": "/cultura/travessa-ipanema/",
+      "source_sha": "5c7e96b9cab869de547b54995e3eb055ef56a5a8",
+      "dictionary": "assets/js/translations/fr/cultura-travessa-ipanema-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Static text, metadata, image alt and map attributes checked; French HTML/JSON-LD integration pending.",
+      "editorial_review": "Verify store opening, events, accessibility and photographs before publication."
+    },
+    {
+      "route": "/cultura/real-gabinete/",
+      "source_sha": "b38afa353b064bb0925bc6e48b3212e3bdc2b141",
+      "dictionary": "assets/js/translations/fr/cultura-real-gabinete-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Inspected all static text, metadata, alt and map attributes; no missing strings. JSON-LD needs FR rendering.",
+      "editorial_review": "Verify visiting days/hours, access, photo rules and accessibility from official institution before publication."
+    },
+    {
+      "route": "/cultura/sbba/",
+      "source_sha": "f32cdb5812f3e25e5edcccfceba2fb56b4b49c6b",
+      "dictionary": "assets/js/translations/fr/cultura-sbba-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Visible text, metadata, alt/title and static labels mapped; JSON-LD FR and inline script verification required at integration.",
+      "editorial_review": "Verify opening hours, events, prices, access and accessibility with official source."
+    },
+    {
+      "route": "/cultura/acao-cidadania/",
+      "source_sha": "00f11b2083e5b47839d37bf0bccd6cd52773c10e",
+      "dictionary": "assets/js/translations/fr/cultura-acao-cidadania-paralelo.json",
+      "entries": 44,
+      "checked_strings": 44,
+      "missing_keys": 0,
+      "qa": "Visible text, metadata, alt/title and static labels mapped; JSON-LD FR and inline script verification required at integration.",
+      "editorial_review": "Verify opening hours, events, prices, access and accessibility with official source."
+    },
+    {
+      "route": "/cultura/ihgb/",
+      "source_sha": "3d5b721bf0f880cff047b9d576e565d23e8fa9ac",
+      "dictionary": "assets/js/translations/fr/cultura-ihgb-paralelo.json",
+      "entries": 59,
+      "checked_strings": 59,
+      "missing_keys": 0,
+      "qa": "All inspected static HTML strings, title, OG/Twitter metadata and image/map alt covered. No inline dynamic JS beyond JSON-LD. JSON-LD FR generation remains pending.",
+      "editorial_review": "Official IHGB confirmation needed for Tuesday visit policy, five-person limit, accessibility and reservations before publication."
+    },
+    {
+      "route": "/cultura/casa-deodoro/",
+      "source_sha": "1e53d85a9cfeb0807694cdf1a1253474d12de930",
+      "dictionary": "assets/js/translations/fr/cultura-casa-deodoro-paralelo.json",
+      "entries": 60,
+      "checked_strings": 60,
+      "missing_keys": 0,
+      "qa": "Static visible text, meta/title and image attributes mapped; inline script contains JSON-LD only and external site.js, both require FR rendering review.",
+      "editorial_review": "Confirm military museum opening hours, access, group reservations and accessibility with official source."
+    },
+    {
+      "route": "/cultura/benjamin-constant/",
+      "source_sha": "9575a0c4c48704d9260f9c05e8e762e3339ace59",
+      "dictionary": "assets/js/translations/fr/cultura-benjamin-constant-paralelo.json",
+      "entries": 60,
+      "checked_strings": 60,
+      "missing_keys": 0,
+      "qa": "Static visible text, meta/title and image attributes mapped; inline JSON-LD and external site.js require FR rendering integration.",
+      "editorial_review": "Officially verify museum and park opening hours, accessibility and group visit conditions before publishing."
+    },
+    {
+      "route": "/cultura/espaco-marinha/",
+      "source_sha": "c9041e3ab40f93a2d543526055d5d6e31d30ce45",
+      "dictionary": "assets/js/translations/fr/cultura-espaco-marinha-paralelo.json",
+      "entries": 43,
+      "checked_strings": 43,
+      "missing_keys": 0,
+      "qa": "Visible text, metadata, alt/title and other inspected attributes mapped; JSON-LD requires locale-aware regeneration; external site.js integration not audited.",
+      "editorial_review": "Verify Marina do Brasil official current hours, prices, Ilha Fiscal excursions, open vessels and accessibility before publication."
+    },
+    {
+      "route": "/cultura/jose-bonifacio/",
+      "source_sha": "d685c994fba4eb74e09f5c646c026a21a6f82f47",
+      "dictionary": "assets/js/translations/fr/cultura-jose-bonifacio-paralelo.json",
+      "entries": 42,
+      "checked_strings": 42,
+      "missing_keys": 0,
+      "qa": "Static visible text, metadata and image attributes mapped; inline JSON-LD and external site.js require French rendering validation.",
+      "editorial_review": "Confirm opening schedule, exhibitions, booking and accessibility with cultural center before publication."
+    },
+    {
+      "route": "/cultura/mhn/",
+      "source_sha": "9dedda43ff0cd2a5b5b2dbf34523131cc491b4ab",
+      "dictionary": "assets/js/translations/fr/cultura-mhn-paralelo.json",
+      "entries": 64,
+      "checked_strings": 64,
+      "missing_keys": 0,
+      "qa": "Complete visible text and metadata/alt mapping inspected; inline JSON-LD and external site.js require FR rendering/integration.",
+      "editorial_review": "Confirm current opening status, exhibitions, fees, accessible rooms and transport details with Museu Histórico Nacional before publishing."
+    },
+    {
+      "route": "/cultura/maas/",
+      "source_sha": "47c1a3011df4b0698f0e2262ff96bcf1ac16cf82",
+      "dictionary": "assets/js/translations/fr/cultura-maas-paralelo.json",
+      "entries": 59,
+      "checked_strings": 59,
+      "missing_keys": 0,
+      "qa": "Static visible text, metadata and image alt attributes mapped; inline JSON-LD and external site.js need FR integration validation.",
+      "editorial_review": "Official verification needed for museum hours, ticket prices, religious events and accessibility."
+    },
+    {
+      "route": "/cultura/folclore-edison-carneiro/",
+      "source_sha": "cb5e58d724bce1508c9ce6e41175629db7ddb1e3",
+      "dictionary": "assets/js/translations/fr/cultura-folclore-edison-carneiro-paralelo.json",
+      "entries": 57,
+      "checked_strings": 57,
+      "missing_keys": 0,
+      "qa": "Full Spanish HTML read; all static visible strings, metadata and image attributes mapped; inline JSON-LD and external site.js require FR rendering validation.",
+      "editorial_review": "Verify opening hours, exhibitions, accessibility and collection statistics with the museum before publication."
+    },
+    {
+      "route": "/cultura/antiga-se/",
+      "source_sha": "2d5f76e186baa8bf415b871bfd46a73e86e9bd1d",
+      "dictionary": "assets/js/translations/fr/cultura-antiga-se-paralelo.json",
+      "entries": 38,
+      "checked_strings": 38,
+      "missing_keys": 0,
+      "qa": "38 static strings mapped, including OG image alt. JSON-LD and runtime FR integration pending.",
+      "editorial_review": "Verify current access, opening, programming, booking and accessibility with official operator before publication."
+    },
+    {
+      "route": "/cultura/armando-gonzaga/",
+      "source_sha": "5fcd0aa261b95c0897de5d924e81dfa6a5d7d6b8",
+      "dictionary": "assets/js/translations/fr/cultura-armando-gonzaga-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Complete static visible text, title, meta, image alt and attribute strings inspected; inline JSON-LD and site.js not yet rendered in FR.",
+      "editorial_review": "Verify current access, opening, programming, booking and accessibility with official operator before publication."
+    },
+    {
+      "route": "/cultura/arthur-azevedo/",
+      "source_sha": "6e17f3b04d3edd652592d77845d918560ed67f8d",
+      "dictionary": "assets/js/translations/fr/cultura-arthur-azevedo-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Complete static visible text, title, meta, image alt and attribute strings inspected; inline JSON-LD and site.js not yet rendered in FR.",
+      "editorial_review": "Verify current access, opening, programming, booking and accessibility with official operator before publication."
+    },
+    {
+      "route": "/cultura/bonsucesso/",
+      "source_sha": "856092b03902a914b72270e997a9984ae8bbb45b",
+      "dictionary": "assets/js/translations/fr/cultura-bonsucesso-paralelo.json",
+      "entries": 37,
+      "checked_strings": 37,
+      "missing_keys": 0,
+      "qa": "Complete static visible text, title, meta, image alt and attribute strings inspected; inline JSON-LD and site.js not yet rendered in FR.",
+      "editorial_review": "Verify current access, opening, programming, booking and accessibility with official operator before publication."
+    },
+    {
+      "route": "/cultura/cacilda-becker/",
+      "source_sha": "02bc569041ae840bd62b00cb1e979477a7e78d44",
+      "dictionary": "assets/js/translations/fr/cultura-cacilda-becker-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa": "Visible HTML text, metadata and alt attributes mapped with no missing static strings; JSON-LD and site.js require runtime FR integration.",
+      "editorial_review": "Verify official showtimes, admission, accessibility and availability before publication."
+    },
+    {
+      "route": "/cultura/glauce-rocha/",
+      "source_sha": "939cc5dd80fb7e7092745cc85cf0a3b285d6ef6e",
+      "dictionary": "assets/js/translations/fr/cultura-glauce-rocha-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "Visible HTML text, metadata and alt attributes mapped with no missing static strings; JSON-LD and site.js require runtime FR integration.",
+      "editorial_review": "Verify official showtimes, admission, accessibility and availability before publication."
+    },
+    {
+      "route": "/cultura/dulcina/",
+      "source_sha": "8ac2f4b0ae95adf25f22392e94a9438515fec0bf",
+      "dictionary": "assets/js/translations/fr/cultura-dulcina-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "Visible HTML text, metadata and alt attributes mapped with no missing static strings; JSON-LD and site.js require runtime FR integration.",
+      "editorial_review": "Verify official showtimes, admission, accessibility and availability before publication."
+    },
+    {
+      "route": "/cultura/joao-caetano/",
+      "source_sha": "210d47eed8f40f6714f3bb533e7b24c85511d10b",
+      "dictionary": "assets/js/translations/fr/cultura-joao-caetano-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "Visible HTML text, metadata and alt attributes mapped with no missing static strings; JSON-LD and site.js require runtime FR integration.",
+      "editorial_review": "Verify official showtimes, admission, accessibility and availability before publication."
+    },
+    {
+      "route": "/cultura/sesc-ginastico/",
+      "source_sha": "c058e71f475993b5073e34122005b26e0148c1c9",
+      "dictionary": "assets/js/translations/fr/cultura-sesc-ginastico-paralelo.json",
+      "entries": 42,
+      "checked_strings": 42,
+      "missing_keys": 0,
+      "qa": "Visible HTML text, metadata and alt attributes mapped with no missing static strings; JSON-LD and site.js require runtime FR integration.",
+      "editorial_review": "Verify official showtimes, admission, accessibility and availability before publication."
+    },
+    {
+      "route": "/cultura/capela-mayrink/",
+      "source_sha": "5eeac113b65a362204d5f92cabbfb4f08835c9f0",
+      "dictionary": "assets/js/translations/fr/cultura-capela-mayrink-paralelo.json",
+      "entries": 37,
+      "checked_strings": 37,
+      "missing_keys": 0,
+      "qa": "OG image alt coverage corrected and dictionary updated; static QA only. HTML FR, JSON-LD and visual checks pending.",
+      "editorial_review": "Verify park access, chapel conservation closures and accessibility before publication."
+    },
+    {
+      "route": "/cultura/carlos-gomes/",
+      "source_sha": "06b2cf4bc1fd1ea74ade01b124a83e03b0673c2b",
+      "dictionary": "assets/js/translations/fr/cultura-carlos-gomes-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "OG image alt coverage corrected and dictionary updated; static QA only. HTML FR, JSON-LD and visual checks pending.",
+      "editorial_review": "Verify theatre schedules, ticket prices, booking and accessibility with official venue before publication."
+    },
+    {
+      "route": "/cultura/fernanda-montenegro/",
+      "source_sha": "e6922c4053c179aa26234d59204f576fda9dd867",
+      "dictionary": "assets/js/translations/fr/cultura-fernanda-montenegro-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "OG image alt coverage corrected and dictionary updated; static QA only. HTML FR, JSON-LD and visual checks pending.",
+      "editorial_review": "Verify theatre schedules, ticket prices, booking and accessibility with official venue before publication."
+    },
+    {
+      "route": "/cultura/miguel-falabella/",
+      "source_sha": "aa34e590b9062d32f2b4276a8a984ce75dbb6b48",
+      "dictionary": "assets/js/translations/fr/cultura-miguel-falabella-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "OG image alt coverage corrected and dictionary updated; static QA only. HTML FR, JSON-LD and visual checks pending.",
+      "editorial_review": "Verify theatre schedules, ticket prices, booking and accessibility with official venue before publication."
+    },
+    {
+      "route": "/cultura/ziembinski/",
+      "source_sha": "73c4da98446defb6161612074a356ba9dd800f50",
+      "dictionary": "assets/js/translations/fr/cultura-ziembinski-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "OG image alt coverage corrected and dictionary updated; static QA only. HTML FR, JSON-LD and visual checks pending.",
+      "editorial_review": "Verify theatre schedules, ticket prices, booking and accessibility with official venue before publication."
+    },
+    {
+      "route": "/cultura/sesc-tijuca/",
+      "source_sha": "7d894394df926de2b56289f60198bf905dcf8485",
+      "dictionary": "assets/js/translations/fr/cultura-sesc-tijuca-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "OG image alt coverage corrected and dictionary updated; static QA only. HTML FR, JSON-LD and visual checks pending.",
+      "editorial_review": "Verify theatre schedules, ticket prices, booking and accessibility with official venue before publication."
+    },
+    {
+      "route": "/cultura/teatro-ipanema/",
+      "source_sha": "60845bab8cb1b1999edee903384931bab4b0adfa",
+      "dictionary": "assets/js/translations/fr/cultura-teatro-ipanema-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "41 source strings mapped including OG image alt; static coverage only. JSON-LD inLanguage, runtime site.js, French HTML and visual QA remain pending.",
+      "editorial_review": "Verify official programme, ticket prices, transport and accessibility before publication."
+    },
+    {
+      "route": "/cultura/teatro-multiplan/",
+      "source_sha": "a05fdc61cba0432ae4502812a1b067ed50f7aae7",
+      "dictionary": "assets/js/translations/fr/cultura-teatro-multiplan-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "41 source strings mapped including OG image alt; static coverage only. JSON-LD inLanguage, runtime site.js, French HTML and visual QA remain pending.",
+      "editorial_review": "Verify official programme, ticket prices, transport and accessibility before publication."
+    },
+    {
+      "route": "/cultura/teatro-dos-quatro/",
+      "source_sha": "52905fc201b6552a57365f6f4be36c5c213c71bf",
+      "dictionary": "assets/js/translations/fr/cultura-teatro-dos-quatro-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "41 source strings mapped including OG image alt; static coverage only. JSON-LD inLanguage, runtime site.js, French HTML and visual QA remain pending.",
+      "editorial_review": "Verify official programme, ticket prices, transport and accessibility before publication."
+    },
+    {
+      "route": "/cultura/candelaria/",
+      "source_sha": "3c94357f8fab770c2a62ee90c799ab60afc5ba0d",
+      "dictionary": "assets/js/translations/fr/cultura-candelaria-paralelo.json",
+      "entries": 38,
+      "checked_strings": 38,
+      "missing_keys": 0,
+      "qa": "Complete Spanish HTML inspected: visible text, title, description, OG/Twitter descriptions, OG image alt, image alt, iframe title, navigation and footer covered. Inline JSON-LD has ES text requiring French rendering; external site.js is not localized here. No /fr/ HTML or visual QA.",
+      "editorial_review": "Confirm church visiting hours, religious services, accessible entry and public transport with official sources before publication."
+    },
+    {
+      "route": "/cultura/lampadosa/",
+      "source_sha": "66a036f85a09261889096494efdd348d57befee4",
+      "dictionary": "assets/js/translations/fr/cultura-lampadosa-paralelo.json",
+      "entries": 38,
+      "checked_strings": 38,
+      "missing_keys": 0,
+      "qa": "Spanish source HTML checked for visible text, title, SEO/OG/Twitter metadata, OG image alt, gallery alt, map iframe title, nav and footer. Inline JSON-LD still needs FR rendering; external site.js and 390px/1440px not tested.",
+      "editorial_review": "Verify church access, religious activity schedule, historical claims and accessibility with official sources before publication."
+    },
+    {
+      "route": "/cultura/gloria-outeiro/",
+      "source_sha": "be455965e324467f62a9b49abb544e3f52bca0e4",
+      "dictionary": "assets/js/translations/fr/cultura-gloria-outeiro-paralelo.json",
+      "entries": 37,
+      "checked_strings": 37,
+      "missing_keys": 0,
+      "qa": "Full Spanish HTML reviewed: visible text, SEO title/description, OG/Twitter, image alt, iframe title, navigation and footer. Inline scripts inspected: JSON-LD contains Spanish name/description/inLanguage and requires FR runtime conversion; external site.js needs integration QA. No editorial inline JS arrays.",
+      "editorial_review": "Verify official opening hours, ceremonies, free admission/donations and step-free access before publication."
+    },
+    {
+      "route": "/cultura/mar/",
+      "source_sha": "e3764e01690b85cc31692fb4b5bdc63abc95aa0e",
+      "dictionary": "assets/js/translations/fr/cultura-mar-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "qa": "Full source HTML reviewed: visible editorial sections, SEO title/description and OG/Twitter equivalents, JSON-LD text, image alt, map iframe title, footer. No editorial inline JS other than JSON-LD; external site.js remains to integrate. Photos, map and links preserved by staging-only mapping.",
+      "editorial_review": "Verify MAR ticket prices, free Tuesdays, hours, accessibility and current exhibits with museum before any publication."
+    },
+    {
+      "route": "/cultura/mnba/",
+      "source_sha": "237d2fc02a03938eb245bb5aaa9ec2f5d2086e92",
+      "dictionary": "assets/js/translations/fr/cultura-mnba-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "qa": "Full original ES HTML inspected: title, meta/OG/Twitter descriptions, JSON-LD name/description, all visible editorial sections, navigation, photo alt, iframe map title and footer mapped. No inline editorial JS beyond JSON-LD. French HTML, runtime integration and JSON-LD localization remain pending.",
+      "editorial_review": "Check current partial reopening, accessible exhibition rooms, admission, hours and accessibility directly with MNBA before publishing."
+    },
+    {
+      "route": "/cultura/mast/",
+      "source_sha": "525411d0490b160f9adedc173769895036c02368",
+      "dictionary": "assets/js/translations/fr/cultura-mast-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "qa": "Full ES HTML read, editorial headings and paragraphs, title, description/OG/Twitter, JSON-LD name/description, photo alt and map iframe title covered. No inline content JS beyond JSON-LD. Original images, map and links untouched; French remains staging dictionary only.",
+      "editorial_review": "Check museum hours, special night observations, accessibility and availability against MAST official program before publishing."
+    },
+    {
+      "route": "/cultura/acude/",
+      "source_sha": "f4b9129c238ca23ec329cbeff3008978af9915df",
+      "dictionary": "assets/js/translations/fr/cultura-acude-paralelo.json",
+      "entries": 59,
+      "checked_strings": 59,
+      "missing_keys": 0,
+      "qa": "2026-11-12: Full Spanish HTML and SHA inspected. Coverage verified against text nodes and title/description/OG/Twitter/alt/map title/aria attributes: 59 translatable or unchanged keys, no missing Spanish strings; excluded viewport meta (non-editorial). JSON-LD duplicates title and description; no inline editorial JS besides JSON-LD. All images, map, links and structure remain unchanged in original because this is dictionary-only staging.",
+      "editorial_review": "CRITICAL: official confirmation of temporary closures/maintenance, access to interior, garden opening hours, admission and accessibility before publication."
+    },
+    {
+      "route": "/cultura/naval/",
+      "source_sha": "2dc23e2a50edd6d93ec43dbd28cfa1114f14e811",
+      "dictionary": "assets/js/translations/fr/cultura-naval-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "qa": "Full ES HTML inspected and automated text/attribute key comparison passed: 0 missing. Covers title, meta/OG/Twitter description, JSON-LD name/description, body, gallery alt, iframe title, navigation and footer. Inline script contains JSON-LD only; external site.js unchanged. Assets and URLs untouched.",
+      "editorial_review": "Before publishing verify official Museu Naval days/hours, free entry, access and current Marinha cultural circuit; source is date-sensitive."
+    },
+    {
+      "route": "/cultura/penha/",
+      "source_sha": "9c9d83d33d0b9745e94e12cd2c3c04b4d0102c30",
+      "dictionary": "assets/js/translations/fr/cultura-penha-paralelo.json",
+      "entries": 38,
+      "checked_strings": 38,
+      "missing_keys": 0,
+      "qa": "Full ES source HTML and SHA checked; visible text, title/meta/OG/Twitter, alt, iframe title and footer covered. JSON-LD has same title/description. No inline editorial JS; external site.js requires future integration. Source images/maps/links untouched.",
+      "editorial_review": "Verify daily opening hours, alternative ascent transport and religious festivities with sanctuary before publication; staging only."
+    },
+    {
+      "route": "/cultura/musal/",
+      "source_sha": "5d31ddab38edc6b4407fd91491764e9a6d2dfc6b",
+      "dictionary": "assets/js/translations/fr/cultura-musal-paralelo.json",
+      "entries": 63,
+      "checked_strings": 63,
+      "missing_keys": 0,
+      "qa": "Full ES HTML read; 63 unique strings covering visible headings, prose, practical details, title, meta/OG/Twitter, JSON-LD name/description, alt, map iframe title, navigation and footer. Programmatic text/attribute comparison: 0 missing. No inline editorial JS besides JSON-LD; site.js is external. Source media/maps/links untouched. Staging dictionary only, not HTML FR.",
+      "editorial_review": "Confirm official MUSAL opening days, 15:30 gate closure, accessibility slot, free parking/admission and group booking before publishing."
+    },
+    {
+      "route": "/cultura/muhcab/",
+      "source_sha": "6e55fb79324400f1e3d764f7ad5587b3328b110e",
+      "dictionary": "assets/js/translations/fr/cultura-muhcab-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "qa": "Full Spanish source inspected; visible copy, title/meta, OG/Twitter, JSON-LD source fields, alt, map title, nav and footer covered. Only excluded viewport technical value. No inline editorial JS other than JSON-LD. French HTML and runtime remain unintegrated.",
+      "editorial_review": "Verify MUHCAB opening hours, admission, VLT access, programming and accessibility against official sources before publication."
+    },
+    {
+      "route": "/cultura/amanha/",
+      "source_sha": "9517ee37da65e61039454899cef1b1bde6e48c6a",
+      "dictionary": "assets/js/translations/fr/cultura-amanha-paralelo.json",
+      "entries": 63,
+      "checked_strings": 63,
+      "missing_keys": 0,
+      "qa": "Full Spanish HTML read; visible text, title/meta/OG/Twitter, JSON-LD, alt, map title, nav/footer compared with dictionary: zero missing. No inline editorial JS except JSON-LD; external site.js needs integration. Media/maps/links untouched.",
+      "editorial_review": "Verify official museum tickets, hours, accessibility and exhibitions before publication."
+    },
+    {
+      "route": "/cultura/mam-rio/",
+      "source_sha": "81dbfd74c6f74fb9defe36fe78f50c2990596c11",
+      "dictionary": "assets/js/translations/fr/cultura-mam-rio-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "qa": "Full Spanish source HTML inspected: editorial text, meta/OG/Twitter, JSON-LD textual fields, image alt, map title, navigation and footer. No inline dynamic editorial scripts except JSON-LD. All unique source strings mapped in isolated FR dictionary; no HTML generated, browser QA still pending.",
+      "editorial_review": "Confirm MAM Rio hours, sensory Sunday session, free tickets, exhibitions and accessibility from official sources before publishing."
+    },
+    {
+      "route": "/cultura/ecovilla/",
+      "source_sha": "5e2b694be7424d94f21623d954e98ea9a092083f",
+      "dictionary": "assets/js/translations/fr/cultura-ecovilla-paralelo.json",
+      "entries": 42,
+      "checked_strings": 42,
+      "missing_keys": 0,
+      "qa": "Full ES HTML inspected; static text, meta/OG/Twitter, JSON-LD source text, alt, navigation, map title and footer covered. No editorial inline JS except JSON-LD. Images, maps and links remain unchanged. FR HTML not yet rendered.",
+      "editorial_review": "Verify EcoVilla Ri Happy operation, programming, age limits, prices and accessibility with official organizer before publication."
+    },
+    {
+      "route": "/cultura/santa-rita/",
+      "source_sha": "8e6ae500ef3c94b72c822dcc86d2457adaf1b8f6",
+      "dictionary": "assets/js/translations/fr/cultura-santa-rita-paralelo.json",
+      "entries": 39,
+      "checked_strings": 39,
+      "missing_keys": 0,
+      "qa": "Reviewed complete Spanish HTML, title, meta description, OG/Twitter, JSON-LD text, visible headings, alt, iframe title and CTA. No substantive inline dynamic Spanish script. French dictionary staging only; HTML /fr/ not rendered.",
+      "editorial_review": "Confirm opening conditions, transport, accessibility and official visitor information before publication; preserve all media and links."
+    },
+    {
+      "route": "/cultura/forte-laje/",
+      "source_sha": "1eb5cdb50e04fea844a2eb1b65c2e34f198d13fd",
+      "dictionary": "assets/js/translations/fr/cultura-forte-laje-paralelo.json",
+      "entries": 50,
+      "checked_strings": 50,
+      "missing_keys": 0,
+      "qa": "Reviewed complete Spanish HTML, title, meta description, OG/Twitter, JSON-LD text, visible headings, alt, iframe title and CTA. No substantive inline dynamic Spanish script. French dictionary staging only; HTML /fr/ not rendered.",
+      "editorial_review": "Confirm opening conditions, transport, accessibility and official visitor information before publication; preserve all media and links."
+    }
+  ],
+  "totals": {
+    "prepared_pages": 70,
+    "static_dictionary_entries": 3283,
+    "total_source_translation_units": 3283
+  },
+  "publication_policy": "No /fr/ HTML yet; no sitemap, production, PR24, ES/PT/EN or merge changes. Require 200, canonical, reciprocal hreflang, desktop/mobile, image/map QA."
+}
