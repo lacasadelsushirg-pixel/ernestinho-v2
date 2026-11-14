@@ -1,0 +1,68 @@
+{
+  "source_path": "compras/rio-sul/index.html",
+  "source_sha": "fa135d3276ead10c0b0d67ef746a0ec28bd1e651",
+  "language": "fr",
+  "status": "STAGED_NOT_INTEGRATED",
+  "runtime_D_fr": {
+    "eyebrow": "Guide d'Ernestinho Carioca · Zone sud",
+    "heroSub": "Shopping, gastronomie et vie carioca entre Copacabana et Botafogo",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Un centre commercial urbain qui fait partie de mon Rio quotidien",
+    "intro": "Je vous recommande Shopping Rio Sul lorsque vous voulez faire des achats, manger ou régler une affaire pratique sans trop vous éloigner de Copacabana et de Botafogo. À mes yeux, son grand atout est précisément sa situation : c'est un centre commercial urbain, intégré à la vie réelle de la zone sud et très pratique pour les visiteurs.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "Shopping Rio Sul : achats, gastronomie et vie carioca entre Copacabana et Botafogo",
+    "placeK": "Emplacement",
+    "placeTitle": "Entre Copacabana, Botafogo et le tunnel Novo",
+    "place": "Shopping Rio Sul bénéficie d'un emplacement très pratique dans la zone sud, près de Copacabana, Botafogo et de l'entrée du tunnel Novo. En tant qu'hôte, je le considère comme un centre commercial de ville : inutile d'organiser une excursion particulière pour y aller, et vous pouvez combiner cette visite avec la plage, une promenade à Botafogo ou un repas. Cette proximité le distingue des grands centres commerciaux de la zone ouest.",
+    "buyK": "Des achats réfléchis",
+    "buyTitle": "Ce que j'achèterais à Rio Sul",
+    "buy": "Je commencerais par ce que je recherche vraiment, puis je parcourrais les boutiques tranquillement. Le répertoire officiel évolue, mais on y trouve généralement mode, chaussures, beauté, parfumerie, technologies, maison, décoration, sport, articles pour enfants, cadeaux et services. Vérifiez les boutiques présentes avant de partir : mon conseil est de ne pas passer des heures à déambuler sans objectif.",
+    "foodK": "Une pause carioca",
+    "foodTitle": "Manger, se retrouver et poursuivre la promenade",
+    "food": "Vous pouvez faire une pause rapide dans l'espace de restauration, trouver un café ou choisir un restaurant pour vous installer plus longtemps. Il y a des options pour différents budgets et pour les familles. Je l'utiliserais aussi comme plan pour un jour de pluie : manger, faire du shopping, aller au cinéma si les séances vous conviennent et poursuivre la journée à l'abri.",
+    "familyK": "Ernestinho recommande",
+    "familyTitle": "Une sortie pratique pour les familles et les jours de pluie",
+    "family": "Si vous voyagez avec des enfants, je préfère les centres commerciaux urbains parce qu'ils permettent de faire plusieurs choses sans longs déplacements. Cinéma, restauration, toilettes et zones de repos peuvent simplifier la visite ; les activités et services spéciaux dépendent de la programmation et de la disponibilité. Je préfère être clair : Rio Sul n'est ni une promenade historique ni un belvédère, mais une option pratique et bien située.",
+    "planK": "Conseils pratiques",
+    "planTitle": "Horaires et comment s'y rendre",
+    "plan": "Depuis Copacabana et Botafogo, Uber, 99, taxi, bus ou voiture peuvent être pratiques ; le métro et les itinéraires précis dépendent du point de départ et doivent être consultés sur Google Maps ou Moovit. Avec des sacs ou en famille, je privilégierais un trajet porte à porte. Depuis Ipanema, Leblon, Flamengo ou le centre, tenez toujours compte de la circulation à Rio.",
+    "hoursTitle": "Horaires",
+    "hours": [
+      "Boutiques et services : confirmez les horaires en vigueur sur le site officiel.",
+      "Restaurants, cinéma et activités : ils peuvent suivre leurs propres horaires.",
+      "Dimanches et jours fériés : des horaires particuliers peuvent s'appliquer.",
+      "Les horaires des boutiques, restaurants, séances et activités peuvent changer, notamment les jours fériés. Confirmez avant de partir."
+    ],
+    "transportTitle": "Transports",
+    "transport": "Adresse : Rua Lauro Müller, 116, Botafogo, Rio de Janeiro – RJ. Vérifiez l'itinéraire exact depuis votre hôtel. Depuis Santos Dumont, le taxi, Uber ou 99 sont souvent plus pratiques ; depuis Galeão, prévoyez du temps pour la circulation. Vérifiez directement les règles et tarifs du parking.",
+    "servicesTitle": "Services et accessibilité",
+    "services": "Vérifiez auprès de l'accueil la présence de Wi-Fi, ascenseurs, équipements d'accessibilité, chaises, espace à langer, chargeurs et autres services. Je ne présente pas les casiers, la consigne à bagages ni les distributeurs automatiques comme confirmés. Renseignez-vous avant la visite si vous avez des besoins particuliers.",
+    "addressK": "Adresse et liens",
+    "addressTitle": "Venez préparé pour mieux en profiter",
+    "address": "Shopping Rio Sul\nRua Lauro Müller, 116\nBotafogo, Rio de Janeiro – RJ\nConfirmez le code postal, les coordonnées et les horaires sur le site officiel.",
+    "footer": "Je vous accompagne dans la découverte d'un Rio pratique, quotidien et plein de possibilités. Ernestinho Carioca : Rio pour le monde.",
+    "cats": [
+      "Mode et accessoires",
+      "Chaussures et beauté",
+      "Technologies et maison",
+      "Sport et enfants",
+      "Cadeaux et services",
+      "Cafés et restaurants"
+    ]
+  },
+  "runtime_story_fr": [
+    "Aujourd'hui, je veux vous parler d'un centre commercial qui me sert de repère entre Copacabana et Botafogo : Shopping Rio Sul. Son premier atout n'est pas de ressembler à une attraction touristique, mais de se trouver au cœur de la vie de la zone sud.",
+    "Si vous logez à Copacabana, j'y vois un endroit proche où faire des achats, manger ou régler un besoin pratique sans traverser la ville. Si vous êtes à Botafogo, c'est encore plus facile de l'intégrer à votre journée. Depuis Ipanema, Leblon, Flamengo ou le centre, tout dépend de la circulation et de vos autres activités.",
+    "Rio Sul a un profil différent de BarraShopping, VillageMall ou NorteShopping. Ce n'est ni un grand complexe de la zone ouest ni une expérience de luxe isolée. Il ne ressemble pas non plus exactement à Shopping Leblon ou Botafogo Praia Shopping. Pour moi, c'est un centre commercial urbain, utile et lié aux hôtels, appartements, bureaux et habitants du quartier.",
+    "Je ne viendrais pas ici seulement pour regarder les vitrines sans objectif. J'y irais pour comparer les boutiques, faire une pause gourmande, m'abriter de la pluie, aller au cinéma ou faire des courses près de mon hébergement. En tant qu'hôte, j'apprécie beaucoup cette facilité à organiser la journée."
+  ],
+  "qa": {
+    "source_D_keys": 33,
+    "translated_D_keys": 33,
+    "source_story_paragraphs": 4,
+    "translated_story_paragraphs": 4,
+    "hours": 4,
+    "categories": 6
+  },
+  "guardrail": "Existing script only supports es/pt/en and falls back to ES for fr. Integrate FR in a tested private renderer; preserve historical site layout, photos, maps, official URL, and approved ES/PT/EN dictionaries."
+}

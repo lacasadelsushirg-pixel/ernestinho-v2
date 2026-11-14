@@ -1,0 +1,93 @@
+{
+  "/guia/emergencias/": {
+    "Fotos de Emergencias: qué hacer y a quién llamar": "Photos — Urgences : que faire et qui appeler",
+    "Emergencias: qué hacer y a quién llamar: MINIATURA GUIA RIO SEGURIDAD Y EMERGENCIAS": "Urgences : que faire et qui appeler — sécurité et urgences à Rio"
+  },
+  "/guia/cpf/": {
+    "Fotos de CPF para extranjeros y viajeros": "Photos — CPF pour les étrangers et les voyageurs",
+    "CPF para extranjeros y viajeros: MINIATURA CPF PARA EXTRANGEROS": "CPF pour les étrangers et les voyageurs — CPF pour les étrangers",
+    "CPF para extranjeros y viajeros: cpf brasil": "CPF pour les étrangers et les voyageurs — CPF au Brésil"
+  },
+  "/guia/documentos/": {
+    "Fotos de Documentos y visado para entrar a Brasil": "Photos — Documents et visa pour entrer au Brésil",
+    "Documentos y visado para entrar a Brasil: MINIATURA DOCUMENTOS Y ENTRADA": "Documents et visa pour entrer au Brésil — documents et conditions d’entrée"
+  },
+  "/guia/menores/": {
+    "Fotos de Viajar a Brasil con menores de edad": "Photos — Voyager au Brésil avec des mineurs",
+    "Viajar a Brasil con menores de edad: MINIATURA GUIA RIO VIAJANDO CON MENORES": "Voyager au Brésil avec des mineurs — voyager avec des mineurs"
+  },
+  "/guia/internet/": {
+    "Fotos de Internet, roaming, chip y eSIM": "Photos — Internet, itinérance, carte SIM et eSIM",
+    "Internet, roaming, chip y eSIM: MINIATURA GUIA RIO INTERNET Y E SIM": "Internet, itinérance, carte SIM et eSIM — Internet et eSIM à Rio"
+  },
+  "/guia/vacunas/": {
+    "Fotos de Vacunas y fiebre amarilla antes de viajar a Brasil": "Photos — Vaccins et fièvre jaune avant de voyager au Brésil",
+    "Vacunas y fiebre amarilla antes de viajar a Brasil: MINIATURA GUIA RIO VACUNAS": "Vaccins et fièvre jaune avant de voyager au Brésil — vaccins pour un voyage au Brésil"
+  },
+  "/guia/consulados/": {
+    "Fotos de Consulados y ayuda para viajeros extranjeros": "Photos — Consulats et assistance aux voyageurs étrangers",
+    "Consulados y ayuda para viajeros extranjeros: MINIATURA CONSULADOS": "Consulats et assistance aux voyageurs étrangers — consulats",
+    "Consulados y ayuda para viajeros extranjeros: MINIATURA GUIA RIO CONSULADOS": "Consulats et assistance aux voyageurs étrangers — consulats à Rio"
+  },
+  "/guia/aeropuertos/": {
+    "Fotos de Llegar a Río: Galeão y Santos Dumont": "Photos — Arriver à Rio : Galeão et Santos Dumont",
+    "Llegar a Río: Galeão y Santos Dumont: MINIATURA GUIA RIO AEROPUERTOS": "Arriver à Rio : Galeão et Santos Dumont — aéroports de Rio",
+    "Llegar a Río: Galeão y Santos Dumont: TRANSPORTES MINIATURA SDU": "Arriver à Rio : Galeão et Santos Dumont — aéroport Santos Dumont",
+    "Llegar a Río: Galeão y Santos Dumont: TRANSPORTES MINIATURAaeroporto galeao": "Arriver à Rio : Galeão et Santos Dumont — aéroport de Galeão",
+    "Bounce: disfruta Río sin maletas": "Bounce : profitez de Rio sans vos valises",
+    "Buscar guarda equipaje en Bounce ↗": "Chercher une consigne sur Bounce ↗",
+    "Dónde guardar las maletas en Río →": "Où déposer vos bagages à Rio →",
+    "Enlace de afiliación: Ernestinho puede recibir una comisión por una reserva. Revisa ubicación, horario, precio y condiciones en Bounce antes de pagar.": "Lien affilié : Ernestinho peut recevoir une commission si vous réservez. Vérifiez l’emplacement, les horaires, le prix et les conditions sur Bounce avant de payer.",
+    "Si sales antes del check-in o después del checkout, consulta primero tu alojamiento. Para unas horas libres en Río, compara guarda equipaje y organiza la retirada antes de tu vuelo, bus o transfer.": "Si vous arrivez avant l’heure d’enregistrement ou si vous repartez après avoir libéré votre chambre, renseignez-vous d’abord auprès de votre hébergement. Si vous avez quelques heures libres à Rio, comparez les consignes et prévoyez de récupérer vos bagages avant votre vol, votre bus ou votre transfert.",
+    "¿Qué haces con las maletas antes de seguir?": "Que faire de vos bagages avant de poursuivre votre voyage ?"
+  },
+  "/guia/alquiler-auto/": {
+    "Fotos de Alquiler de auto en Río y Brasil": "Photos — Location de voiture à Rio et au Brésil",
+    "Alquiler de auto en Río y Brasil: MINIATURA GUIA RIO ALQUILER DE AUTOS": "Location de voiture à Rio et au Brésil — location de voiture"
+  },
+  "/guia/terminales/": {
+    "Fotos de Rodoviária Novo Rio y Terminal Internacional de Cruceros": "Photos — Gare routière Novo Rio et terminal international de croisières",
+    "Rodoviária Novo Rio y Terminal Internacional de Cruceros: MINIATURA GUIA RIO TERMINALES": "Gare routière Novo Rio et terminal international de croisières — gares et terminaux de Rio",
+    "Rodoviária Novo Rio y Terminal Internacional de Cruceros: TRANSPORTES MINIATURA RODOVIARIA": "Gare routière Novo Rio et terminal international de croisières — gare routière Novo Rio",
+    "Bounce: disfruta Río sin maletas": "Bounce : profitez de Rio sans vos valises",
+    "Buscar guarda equipaje en Bounce ↗": "Chercher une consigne sur Bounce ↗",
+    "Dónde guardar las maletas en Río →": "Où déposer vos bagages à Rio →",
+    "Enlace de afiliación: Ernestinho puede recibir una comisión por una reserva. Revisa ubicación, horario, precio y condiciones en Bounce antes de pagar.": "Lien affilié : Ernestinho peut recevoir une commission si vous réservez. Vérifiez l’emplacement, les horaires, le prix et les conditions sur Bounce avant de payer.",
+    "Si sales antes del check-in o después del checkout, consulta primero tu alojamiento. Para unas horas libres en Río, compara guarda equipaje y organiza la retirada antes de tu vuelo, bus o transfer.": "Si vous arrivez avant l’heure d’enregistrement ou si vous repartez après avoir libéré votre chambre, renseignez-vous d’abord auprès de votre hébergement. Si vous avez quelques heures libres à Rio, comparez les consignes et prévoyez de récupérer vos bagages avant votre vol, votre bus ou votre transfert.",
+    "¿Qué haces con las maletas antes de seguir?": "Que faire de vos bagages avant de poursuivre votre voyage ?"
+  },
+  "/guia/accesibilidad/": {
+    "Fotos de Río accesible y viaje para adultos mayores": "Photos — Rio accessible et voyage pour les seniors",
+    "Río accesible y viaje para adultos mayores: MINIATURA GUIA RIO ACCESIBILIDAD": "Rio accessible et voyage pour les seniors — accessibilité à Rio"
+  },
+  "/guia/viajar-solo/": {
+    "Fotos de Viajar solo o sola a Río de Janeiro": "Photos — Voyager seul ou seule à Rio de Janeiro",
+    "Viajar solo o sola a Río de Janeiro: MINIATURA VIAJANDO SOLO": "Voyager seul ou seule à Rio de Janeiro — voyage en solo"
+  },
+  "/guia/donde-alojarse/": {
+    "Copacabana para hospedarse en Río": "Séjourner à Copacabana, à Rio",
+    "Fotos de Guía de alojamiento en Río": "Photos — Guide de l’hébergement à Rio",
+    "Guía de alojamiento en Río: MINIATURA GUIA RIO DONDE ALOJARSE": "Guide de l’hébergement à Rio — où séjourner",
+    "← Volver a Guía de Río": "← Retour au guide de Rio"
+  },
+  "/guia/pix/": {
+    "Fotos de GUÍA PIX": "Photos — Guide de Pix",
+    "GUÍA PIX: MINIATURA GUIA RIO PIX": "Guide de Pix au Brésil",
+    "← Volver a Guía de Río": "← Retour au guide de Rio"
+  },
+  "/guia/guarda-equipaje/": {
+    "Bounce: disfruta Río sin maletas": "Bounce : profitez de Rio sans vos valises",
+    "Buscar guarda equipaje en Bounce ↗": "Chercher une consigne sur Bounce ↗",
+    "Enlace de afiliación: Ernestinho puede recibir una comisión por una reserva. Revisa ubicación, horario, precio y condiciones en Bounce antes de pagar.": "Lien affilié : Ernestinho peut recevoir une commission si vous réservez. Vérifiez l’emplacement, les horaires, le prix et les conditions sur Bounce avant de payer.",
+    "Continuar con la guía →": "Poursuivre la lecture →",
+    "GUÍA DE RÍO · Maletas y guarda equipaje": "GUIDE DE RIO · Valises et consignes à bagages"
+  },
+  "/guia/mes-a-mes/": {
+    "Fotos de Mes, lluvia y calor también diseñan el viaje.": "Photos — Rio mois par mois",
+    "Mes, lluvia y calor también diseñan el viaje.: CLIMA HOME": "Le climat à Rio",
+    "Mes, lluvia y calor también diseñan el viaje.: MINIATURA GUIA RIO MALETA Y CLIMA": "Valise et météo à Rio",
+    "Mes, lluvia y calor también diseñan el viaje.: MINIATURA GUIA RIO RIO MES A MES": "Rio mois par mois",
+    "Mes, lluvia y calor también diseñan el viaje.: para clima en rio": "La météo à Rio",
+    "Mes, lluvia y calor también diseñan el viaje.: para clima en rio 2 con termometro": "La température à Rio"
+  }
+}

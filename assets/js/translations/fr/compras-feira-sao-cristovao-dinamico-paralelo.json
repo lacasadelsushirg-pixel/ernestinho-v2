@@ -1,0 +1,71 @@
+{
+  "source_path": "compras/feira-sao-cristovao/index.html",
+  "source_sha": "af158a574470449f5f390830a3cdd386794e016f",
+  "language": "fr",
+  "status": "STAGING_UNINTEGRATED",
+  "D_fr": {
+    "eyebrow": "Guide d'Ernestinho Carioca · Culture de Rio",
+    "heroSub": "Culture du Nordeste, saveurs et musique au cœur de Rio",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Un morceau du Nordeste au cœur de Rio",
+    "intro": "Je vous recommande de découvrir la Feira de São Cristóvão en prenant votre temps et dans le respect. À mes yeux, ce n'est pas seulement un endroit pour manger ou écouter de la musique : c'est un lieu emblématique de la culture du Nordeste à Rio, où gastronomie, artisanat, forró, produits régionaux et histoires se rencontrent.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "Feira de São Cristóvão : culture du Nordeste, saveurs et musique au cœur de Rio",
+    "ambK": "L'ambiance",
+    "ambTitle": "Cuisine, musique, stands et identité",
+    "amb": "La foire peut donner l'impression d'un petit univers nordestin au cœur de la ville. Je prendrais le temps de regarder les stands, les restaurants, les instruments, les produits régionaux et les visiteurs venus pour la nourriture, la musique ou les souvenirs. L'ambiance change selon l'heure, le jour et la programmation.",
+    "foodK": "Gastronomie du Nordeste",
+    "foodTitle": "Ce que j'y mangerais",
+    "food": "Je chercherais des spécialités du Nordeste et demanderais ce qui est disponible sur place : carne de sol, baião de dois, tapioca, cuscuz, fromages, douceurs, cocadas, rapadura, produits à base de manioc et boissons régionales, sans présumer que tout sera proposé. Vous trouverez des en-cas, des repas complets et des restaurants familiaux ; vérifiez les établissements et les horaires du jour.",
+    "cultureK": "Musique et culture",
+    "cultureTitle": "Forró, danse et traditions vivantes",
+    "culture": "La musique occupe une place importante dans l'identité du lieu, mais la programmation doit être vérifiée. Forró, baião et xote peuvent être proposés lors d'événements ou dans des espaces précis ; je n'affirme pas qu'il y a des spectacles tous les jours. Je consulterais le programme, écouterais avec respect et garderais à l'esprit que la culture n'est pas un décor : c'est de la mémoire, du travail et un sentiment d'appartenance.",
+    "buyK": "Achats authentiques",
+    "buyTitle": "Ce que j'y achèterais",
+    "buy": "Je chercherais de l'artisanat du Nordeste, de la céramique, des objets en bois, des textiles, des hamacs, des chapeaux, des sacs, des ouvrages de littérature de cordel, de la musique, des instruments, des douceurs, des conserves, des farines, des produits régionaux, de la cachaça et des cadeaux faciles à transporter. Demandez l'origine, la composition, la conservation et les conditions d'emballage avant de payer.",
+    "recK": "Ernestinho recommande",
+    "recTitle": "Venez avec du temps et de la curiosité",
+    "rec": "Je n'essaierais pas de tout voir en une seule visite. Je viendrais avec du temps, choisirais de donner la priorité à la gastronomie, aux achats ou à la musique et garderais une place pour les découvertes. Je ne veux pas idéaliser le lieu : il peut y avoir beaucoup de monde, de la chaleur, et l'expérience dépend de la programmation. Mon meilleur conseil est de vérifier les horaires et de préparer le retour.",
+    "familyK": "Familles et visiteurs",
+    "familyTitle": "Une expérience à vivre en mangeant, en écoutant et en découvrant",
+    "family": "Cette sortie peut convenir aux familles, couples, voyageurs seuls et personnes intéressées par la culture. Avec des enfants ou des personnes âgées, je choisirais un horaire confortable et tiendrais compte de l'affluence, du bruit et de la fatigue. Pour un événement le soir, vérifiez la programmation et le transport du retour.",
+    "planK": "Conseils pratiques",
+    "planTitle": "Quand y aller et comment s'y rendre",
+    "plan": "Confirmez les horaires généraux, ceux des restaurants et des boutiques, ainsi que la musique et les événements avant de partir. Depuis Copacabana, Ipanema, Botafogo ou Flamengo, vous pouvez prendre MetrôRio jusqu'à São Cristóvão, un bus, un taxi, Uber ou 99 ; vérifiez le trajet sur Google Maps ou Moovit. Si vous achetez des bouteilles ou des aliments, prévoyez comment les transporter.",
+    "hoursTitle": "Horaires",
+    "hours": [
+      "Horaires généraux : vérifiez les informations en vigueur.",
+      "Restaurants, boutiques et bars : ils peuvent avoir leurs propres horaires.",
+      "Musique et événements : selon la programmation.",
+      "Les horaires des boutiques, restaurants, concerts et événements peuvent changer, notamment les jours fériés. Confirmez avant de partir."
+    ],
+    "safeK": "Attention à ceci",
+    "safeTitle": "Profitez du lieu avec respect et bon sens",
+    "safe": "Surveillez votre téléphone, votre portefeuille et vos sacs. Demandez la permission avant de photographier des personnes, respectez les musiciens et les commerçants, vérifiez aliments et boissons et préparez le retour. Ne stigmatisez pas São Cristóvão et ne réduisez pas la culture du Nordeste à une attraction superficielle.",
+    "address": "Feira de São Cristóvão\nSão Cristóvão, Rio de Janeiro – RJ\nVérifiez l'adresse exacte, le code postal, les horaires et la programmation avant de partir.",
+    "footer": "Je vous accompagne à la découverte d'un Rio qui chante, cuisine, danse et conserve des histoires venues de tout le Brésil.",
+    "cats": [
+      "Carne de sol et baião",
+      "Tapioca et cuscuz",
+      "Douceurs et rapadura",
+      "Cachaças et boissons",
+      "Céramique et artisanat",
+      "Cordel et musique"
+    ]
+  },
+  "story_fr": [
+    "Aujourd'hui, je veux vous parler d'un lieu essentiel pour comprendre la diversité de Rio : la Feira de São Cristóvão. Ici, la culture du Nordeste n'est pas une décoration pour touristes : elle se retrouve dans la cuisine, la musique, les accents, les produits et les histoires de celles et ceux qui ont construit leur vie dans cette ville.",
+    "Je viendrais avec du temps, car l'espace est vaste et les propositions nombreuses. Vous pouvez y manger, écouter de la musique, acheter de l'artisanat, chercher des spécialités régionales ou simplement observer. La programmation varie ; n'imaginez pas que tous les concerts ont lieu chaque jour.",
+    "Pour la gastronomie, demandez les plats proposés du moment. Pour la musique, consultez le programme. Pour les achats, comparez les prix et demandez les ingrédients, l'origine et l'emballage. À mon sens, la meilleure visite associe curiosité et respect.",
+    "Je ne veux pas idéaliser le lieu : il peut faire chaud, y avoir beaucoup de monde et certains moments sont très fréquentés. Mais avec les bonnes attentes, cette foire révèle un Rio profond, façonné par les migrations, créatif et fier de ses racines."
+  ],
+  "qa": {
+    "es_D_keys": 36,
+    "fr_D_keys": 36,
+    "original_story_count": 4,
+    "french_story_count": 4,
+    "hours": 4,
+    "categories": 6
+  },
+  "notes": "Preserve living Northeast-Brazil culture and dignity, all images, artist/program schedule disclaimers and ES/PT/EN original. FR requires controlled integration with existing source inline JS whitelist."
+}

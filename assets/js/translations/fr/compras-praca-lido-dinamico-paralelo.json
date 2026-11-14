@@ -1,0 +1,63 @@
+{
+  "source_path": "compras/praca-lido/index.html",
+  "source_sha": "17909073627630f6df6c564bd326568462a4cdd4",
+  "language": "fr",
+  "status": "STAGING_ONLY_NOT_INTEGRATED",
+  "runtime_D_fr": {
+    "eyebrow": "Guide d'Ernestinho Carioca · Foires et marchés de Rio",
+    "heroSub": "Vie de quartier, artisanat et ambiance carioca à Copacabana",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Un marché qui fait partie de la vie de Copacabana",
+    "intro": "Je vous recommande le marché de la Praça do Lido si vous souhaitez découvrir un Copacabana plus authentique, plus tranquille et lié à sa place. Pour moi, ce n'est pas seulement un marché où faire des achats : c'est un lieu où habitants, familles, visiteurs et commerçants se rencontrent près de la plage.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "Marché de la Praça do Lido : vie de quartier, artisanat et ambiance carioca à Copacabana",
+    "ambK": "L'ambiance",
+    "ambTitle": "Une place entre Copacabana, Leme et la mer",
+    "amb": "La Praça do Lido est étroitement liée au quartier, à la plage et à l'Avenida Atlântica. Je prendrais le temps d'observer les stands, les couleurs, les produits et les conversations. L'ambiance peut varier selon le jour, la saison, la météo et les événements ; ne vous attendez donc pas à vivre la même expérience à chaque visite.",
+    "buyK": "Des achats qui ont du caractère",
+    "buyTitle": "Ce que j'achèterais à la Praça do Lido",
+    "buy": "Je chercherais de l'artisanat, des œuvres d'art, des accessoires, des vêtements, des sacs, des bijoux fantaisie, de la décoration, des peintures, des souvenirs et des cadeaux faciles à transporter. L'offre dépend des stands et de l'édition. Demandez les matériaux, les finitions et l'origine des produits avant de payer.",
+    "howK": "Bien acheter",
+    "howTitle": "Comment acheter et négocier avec respect",
+    "how": "Faites d'abord un tour, comparez et confirmez le prix avant de payer. Demandez si la pièce est artisanale ou industrielle, vérifiez les coutures, les fermetures et les finitions et renseignez-vous sur les moyens de paiement auprès du vendeur. Prévoyez des réaux et un autre moyen de paiement. Il est parfois possible de négocier, mais je le ferais toujours avec respect, sans promettre un achat uniquement pour obtenir une réduction.",
+    "recK": "Ernestinho recommande",
+    "recTitle": "Se promener, observer, puis choisir",
+    "rec": "Je viendrais avec du temps et combinerais le marché avec la plage ou une promenade entre Copacabana et Leme. Avec des enfants ou des personnes âgées, surveillez la circulation et choisissez un moment plus calme. Je préfère être réaliste : le marché peut changer, être bondé ou être perturbé par la pluie. Vérifiez avant de partir.",
+    "planK": "Conseils pratiques",
+    "planTitle": "Quand venir et comment s'y rendre",
+    "plan": "Confirmez le jour, les horaires et le lieu exact avant de partir : le marché peut changer selon la météo, la saison, les événements ou les décisions municipales. Depuis Copacabana, vous pouvez venir à pied selon votre emplacement, ou utiliser MetrôRio, un bus, un taxi, Uber ou 99. Depuis Ipanema, Leblon, Botafogo ou Flamengo, consultez Google Maps ou Moovit.",
+    "hoursTitle": "Fonctionnement",
+    "hours": [
+      "Jours et horaires : vérifiez toujours les informations en vigueur.",
+      "Jours fériés, pluie et événements peuvent modifier la tenue du marché.",
+      "Stands et produits : ils peuvent changer d'une édition à l'autre.",
+      "Jours, horaires, stands, produits et conditions peuvent changer. Vérifiez avant de partir."
+    ],
+    "safeK": "Attention à ceci",
+    "safeTitle": "Profitez de la place en restant attentif",
+    "safe": "Surveillez votre téléphone, votre portefeuille et vos sacs. N'exhibez pas de grosses sommes d'argent, demandez l'autorisation avant de photographier des personnes et ne laissez pas vos achats en évidence. Gardez votre téléphone chargé et préparez le retour. Ne stigmatisez ni Copacabana ni Leme : venez en visiteur respectueux.",
+    "address": "Marché de la Praça do Lido\nPraça do Lido, Copacabana\nRio de Janeiro – RJ\nVérifiez le point exact, les horaires et les conditions avant de partir.",
+    "footer": "Je vous accompagne à la découverte d'un Copacabana qui vit aussi au rythme de ses places, marchés et rencontres.",
+    "cats": [
+      "Artisanat et art",
+      "Accessoires et bijoux fantaisie",
+      "Vêtements et sacs",
+      "Décoration et souvenirs",
+      "Cadeaux de Rio",
+      "Produits régionaux"
+    ]
+  },
+  "runtime_story_fr": [
+    "Aujourd'hui, je veux vous parler d'un marché qui reflète un Copacabana moins pressé : celui de la Praça do Lido. Il est proche de la plage, mais ne se résume pas à un prolongement de la promenade maritime. À mes yeux, cette place a son propre rythme et une relation particulière avec les habitants du quartier.",
+    "À votre arrivée, je vous conseille d'observer le contexte avant de faire des achats. La plage, l'Avenida Atlântica, Leme et les rues intérieures font partie de l'expérience. Les stands peuvent proposer artisanat, art, accessoires, vêtements et souvenirs, mais l'offre change et les journées ne se ressemblent pas.",
+    "Si vous logez à Copacabana, la visite se combine facilement avec une promenade ou une pause au bord de la mer. Depuis Botafogo ou Urca, vous pouvez l'intégrer à une journée dans la zone sud. Je ferais d'abord un tour, demanderais des précisions sur les matériaux et choisirais ensuite.",
+    "Je ne veux pas idéaliser ce marché : météo, événements et organisation peuvent en modifier le fonctionnement. Mais lorsqu'il se tient, il révèle un Copacabana bien réel : une place où habitants, plage et voyageurs se rencontrent, sans cesser d'être une place de la ville."
+  ],
+  "qa": {
+    "source_D_keys": 30,
+    "translated_D_keys": 30,
+    "es_story_paragraphs": 4,
+    "fr_story_paragraphs": 4
+  },
+  "notes": "Preserve ES/PT/EN site scripts, maps, photos, CTA, neighborhood history, timing caveats. FR requires private preview before publication."
+}

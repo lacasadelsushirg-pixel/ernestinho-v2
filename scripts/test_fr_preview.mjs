@@ -2,12 +2,14 @@ import { chromium } from 'playwright-core';
 import { buildBrowserOptions } from './build_browser.mjs';
 import assert from 'node:assert/strict';
 import { createServer } from 'node:http';
-import { createReadStream, existsSync, mkdirSync, statSync } from 'node:fs';
+import { createReadStream, existsSync, mkdirSync, readFileSync, statSync } from 'node:fs';
 import path from 'node:path';
 
 const [directory, screenshots] = process.argv.slice(2);
 if (!directory) throw new Error('Usage: node scripts/test_fr_preview.mjs PREVIEW_DIR [SCREENSHOTS_DIR]');
 const root = path.resolve(directory);
+const manifest = JSON.parse(readFileSync(path.join(root, 'fr-preview-manifest.json'), 'utf8'));
+const routes = new Set(manifest.routes.map(entry => entry.source));
 const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.mjs': 'text/javascript',
   '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png',
   '.webp': 'image/webp', '.jpg': 'image/jpeg', '.woff2': 'font/woff2' };
@@ -33,7 +35,7 @@ try {
     await context.route('**/*', route => new URL(route.request().url()).origin === origin ? route.continue() : route.abort());
     const page = await context.newPage();
     page.on('pageerror', error => console.error(error.message));
-    for (const [route, heading] of [
+    const headings = new Map([
       ['/', /Rio ne se visite pas/],
       ['/guia/', /Guide de Rio/],
       ['/guia/apps/', /applications qui facilitent/],
@@ -77,7 +79,9 @@ try {
       ['/gastronomia/labuta-bar/', /Labuta Bar/],
       ['/gastronomia/casa-201/', /Casa 201/],
       ['/gastronomia/angu-do-gomes/', /Angu do Gomes/],
-    ]) {
+    ]);
+    for (const route of routes) {
+      const heading = headings.get(route);
       console.log(`Checking ${route} at ${width}px`);
       const original = await page.goto(origin + '/pt' + route, { waitUntil: 'load' });
       assert.equal(original.status(), 200);
@@ -85,12 +89,59 @@ try {
       await choice.click({timeout: 7000});
       await page.waitForURL(origin + '/fr' + route);
       assert.equal(await page.locator('html').getAttribute('lang'), 'fr');
-      assert.match(await page.locator('h1').first().textContent(), heading);
+      const title = await page.locator('h1').first().textContent();
+      if (heading) assert.match(title, heading);
+      else assert.ok(title.trim());
       assert.equal(await page.locator('[data-fr-preview-choice]:visible').count(), 1);
       const size = await page.evaluate(() => ({ viewport: innerWidth, content: document.documentElement.scrollWidth }));
       assert.ok(size.content <= size.viewport + 1, JSON.stringify({ route, width, size }));
       const whatsapp = await page.locator('a[href*="wa.me"][href*="text="]').first().getAttribute('href');
       assert.match(decodeURIComponent(whatsapp), /Bonjour\+Ernestinho/);
+      if (route === '/consejos/portugues/') {
+        const loaded = await page.waitForFunction(() =>
+          [...document.querySelectorAll('[data-category]')].some(b => b.dataset.category === 'basico'));
+        assert.ok(loaded);
+        const cards = page.locator('[data-phrase-grid] article');
+        assert.equal(await cards.count(), 80);
+        assert.equal(await page.locator('[data-false-friends] li').count(), 8);
+        assert.match(await cards.first().textContent(), /Bom dia.*Bonjour/s);
+        await page.locator('[data-category="basico"]').click();
+        assert.ok(await cards.count() < 80);
+        assert.equal(await page.locator('[data-category="basico"]').getAttribute('aria-pressed'), 'true');
+        await page.locator('[data-category="all"]').click();
+        assert.equal(await cards.count(), 80);
+        const audio = page.waitForRequest(req => req.url().startsWith('https://res.cloudinary.com/') && req.url().endsWith('.mp3'));
+        await cards.first().locator('[data-slow-button]').click();
+        assert.match((await audio).url(), /bom-dia/i);
+      }
+      if (route === '/consejos/supermercados/') {
+        assert.match(await page.locator('main h1').textContent(), /supermarché/i);
+        assert.match(await page.locator('main img[data-i18n-alt]').first().getAttribute('alt'), /supermarché/i);
+      }
+      if (route === '/guia/mes-a-mes/') {
+        const grid = page.locator('#month-grid');
+        assert.equal(await grid.locator('article').count(), 12);
+        for (const [tab, count, title] of [['rain', 6, /pluie/], ['heat', 5, /chaleur/]]) {
+          await page.locator(`[data-tab="${tab}"]`).click();
+          const panel = page.locator(`#fr-month-${tab}`);
+          assert.ok(await panel.isVisible());
+          assert.match(await panel.locator('h2').textContent(), title);
+          assert.equal(await panel.locator('li').count(), count);
+          assert.equal(await grid.isVisible(), false);
+        }
+        await page.locator('[data-tab="month"]').click();
+        assert.ok(await grid.isVisible());
+        assert.equal(await page.locator('#month-extra').isVisible(), false);
+      }
+      if (route === '/guia/pix/') {
+        assert.equal(await page.locator('figure img[src*="apps%20pix.png"]').count(), 1);
+      }
+      if (route === '/guia/guarda-equipaje/') {
+        const faq = page.locator('main details');
+        assert.equal(await faq.count(), 6);
+        await faq.first().locator('summary').click();
+        assert.ok(await faq.first().locator('p').isVisible());
+      }
       if (route === '/') {
         const next = page.locator('[data-carousel-direction="next"]').first();
         if (await next.isVisible()) {
@@ -109,8 +160,15 @@ try {
       await page.waitForURL(origin + '/en' + route);
       assert.equal(await page.locator('html').getAttribute('lang'), 'en');
     }
+    if (routes.has('/guia/cpf/')) {
+      await page.goto(origin + '/fr/guia/');
+      await page.locator('main a[href="/fr/guia/cpf/"]').first().click();
+      await page.waitForURL(origin + '/fr/guia/cpf/');
+      await page.locator('main a[href="/fr/guia/dinero/"]').first().click();
+      await page.waitForURL(origin + '/fr/guia/dinero/');
+    }
     await context.close();
-    console.log(`43 page switches PT-BR → FR → EN at ${width}px`);
+    console.log(`${routes.size} page switches PT-BR → FR → EN at ${width}px`);
   }
 } finally {
   await browser.close();

@@ -30,3 +30,19 @@ if (!isFrench) {
     });
   }
 }
+
+if (isFrench && document.getElementById('fr-month-rain')) {
+  const grid = document.getElementById('month-grid');
+  const extra = document.getElementById('month-extra');
+  const buttons = [...document.querySelectorAll('[data-tab]')];
+  for (const button of buttons) {
+    button.addEventListener('click', () => {
+      const tab = button.dataset.tab;
+      grid.style.display = tab === 'month' ? '' : 'none';
+      extra.hidden = tab === 'month';
+      extra.style.display = tab === 'month' ? 'none' : '';
+      for (const panel of extra.children) panel.hidden = panel.id !== `fr-month-${tab}`;
+      for (const choice of buttons) choice.setAttribute('aria-pressed', String(choice === button));
+    });
+  }
+}

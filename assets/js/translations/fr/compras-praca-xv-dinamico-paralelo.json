@@ -1,0 +1,63 @@
+{
+  "source_path": "compras/praca-xv/index.html",
+  "source_sha": "45c4029888b90bc6a7f6e3cb434f3b2180b52264",
+  "language": "fr",
+  "status": "STAGING_ONLY",
+  "runtime_D_fr": {
+    "eyebrow": "Guide d'Ernestinho Carioca · Centre historique",
+    "heroSub": "Des objets chargés d'histoire au cœur de Rio",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Un marché pour regarder le passé de Rio autrement",
+    "intro": "Je vous recommande le marché aux antiquités de la Praça XV si vous voulez découvrir une facette du centre historique qui ne se raconte pas uniquement à travers ses monuments. Ici, les objets, collectionneurs et marchands racontent d'autres histoires. À mes yeux, se promener parmi ces pièces est une manière curieuse et tranquille de mieux comprendre la mémoire de Rio.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "Marché aux antiquités de la Praça XV : des objets chargés d'histoire au cœur de Rio",
+    "ambK": "L'ambiance",
+    "ambTitle": "Se promener parmi des objets qui ont encore quelque chose à raconter",
+    "amb": "L'expérience est très différente d'une boutique de souvenirs. Vous pourrez trouver des tables chargées d'objets variés, de décorations, de souvenirs, de livres, de disques, de photographies, de pièces de monnaie, de céramiques et d'objets de collection, selon les stands et les jours. J'observerais d'abord, puis poserais des questions : ce marché est aussi agréable pour regarder que pour acheter.",
+    "buyK": "Des achats qui ont du caractère",
+    "buyTitle": "Ce que j'achèterais au marché",
+    "buy": "Je chercherais des objets petits, faciles à transporter et porteurs d'une histoire : livres, cartes postales, photographies, disques, monnaies, céramiques, gravures, décorations et cadeaux originaux. L'offre varie, et tous les stands ne proposent pas la même chose. Demandez les matériaux, l'époque, la provenance et les éventuelles restaurations avant de payer.",
+    "howK": "Bien acheter",
+    "howTitle": "Comment évaluer un objet avant de l'acheter",
+    "how": "Je ne vais pas vous vendre du rêve : le récit d'un vendeur ne remplace pas une expertise professionnelle. Examinez marques, signatures, sceaux, réparations, traces d'humidité, rouille, fissures et finitions. Demandez si la pièce est originale, restaurée, vintage ou une reproduction. Comparez les prix et vérifiez dimensions, poids, emballage et moyens de paiement. Pour un objet de valeur, demandez une expertise spécialisée.",
+    "recK": "Ernestinho recommande",
+    "recTitle": "Une visite pour observer avant d'acheter",
+    "rec": "J'arriverais avec du temps, parcourrais tout le marché et choisirais ensuite. Avec des enfants ou des personnes âgées, faites attention à la circulation et évitez de vous encombrer trop tôt de nombreux sacs. Vous pouvez associer la visite au centre historique, mais organisez le retour si vous achetez un objet lourd ou fragile. Mon conseil essentiel : ne cédez pas à la pression.",
+    "planK": "Conseils pratiques",
+    "planTitle": "Quand venir et comment s'y rendre",
+    "plan": "Vérifiez le jour et les horaires du marché avant de partir, car la pluie, les jours fériés, les événements ou les décisions municipales peuvent les modifier. Depuis Copacabana, Ipanema, Botafogo ou Flamengo, vous pouvez combiner métro, VLT, bus, taxi, Uber ou 99 ; consultez le trajet précis sur Google Maps ou Moovit. Pour les objets délicats, je privilégierais un trajet porte à porte.",
+    "hoursTitle": "Fonctionnement",
+    "hours": [
+      "Jour et horaires : vérifiez toujours les informations en vigueur.",
+      "Jours fériés, pluie et événements peuvent modifier l'ouverture du marché.",
+      "Chaque vendeur peut avoir ses propres horaires.",
+      "Jours, horaires, stands et conditions peuvent changer. Vérifiez avant de partir."
+    ],
+    "safeK": "Attention à ceci",
+    "safeTitle": "Acheter avec curiosité et discernement",
+    "safe": "Surveillez votre téléphone, votre portefeuille et vos achats. Ne confondez pas une pièce ancienne et une pièce authentique sans vous renseigner. Demandez sa provenance, examinez les défauts, demandez un reçu si possible et évitez les objets d'origine douteuse. Pour les antiquités et objets fragiles, renseignez-vous aussi sur les règles de transport et de sortie du pays.",
+    "address": "Marché aux antiquités de la Praça XV\nPraça XV, centre historique\nRio de Janeiro – RJ\nVérifiez le fonctionnement, le lieu exact et les conditions avant de partir.",
+    "footer": "Je vous accompagne à la découverte d'un Rio qui vit aussi à travers ses objets, ses collectionneurs et ses histoires préservées.",
+    "cats": [
+      "Meubles et décoration",
+      "Livres et revues",
+      "Disques et photographies",
+      "Monnaies et cartes postales",
+      "Céramiques et verrerie",
+      "Art et objets de collection"
+    ]
+  },
+  "runtime_story_fr": [
+    "Aujourd'hui, je veux vous parler d'un marché qui révèle un Rio différent : celui des antiquités de la Praça XV. On n'y vient pas seulement acheter un souvenir. On vient découvrir des objets qui ont traversé d'autres maisons, d'autres époques et d'autres vies.",
+    "La Praça XV possède déjà une grande importance historique, mais le marché y ajoute une dimension plus intime : la mémoire se retrouve dans les livres, disques, photos, meubles, pièces de monnaie, céramiques et petits objets que chaque vendeur présente à sa façon.",
+    "Je n'achèterais pas un objet important au premier stand. Je ferais le tour, comparerais et poserais des questions. Une antiquité peut être restaurée, reproduite ou associée à une histoire difficile à vérifier. La curiosité doit donc aller de pair avec le discernement.",
+    "En tant qu'hôte, je conseille cette visite à ceux qui aiment se promener sans se presser et faire des découvertes. Je ne veux pas idéaliser l'expérience : les jours se ressemblent rarement, les objets n'ont pas tous la même valeur et tout ne rentre pas facilement dans une valise. Mais quand on trouve une pièce qui a du sens, on emporte davantage qu'un objet : une conversation avec le passé de Rio."
+  ],
+  "qa": {
+    "source_D_keys": 30,
+    "fr_D_keys": 30,
+    "source_stories": 4,
+    "fr_stories": 4
+  },
+  "notes": "Do not present vendor story as professional authenticity certification. Verify current weekend schedule, export restrictions and source operating times prior to release."
+}

@@ -1,0 +1,69 @@
+{
+  "source_path": "compras/cadeg/index.html",
+  "source_sha": "5df1273ad716d0e9a3c8b9022988be5941cd1be5",
+  "language": "fr",
+  "status": "STAGING_NOT_RENDERED",
+  "runtime_D_fr": {
+    "eyebrow": "Guide d'Ernestinho Carioca · Marchés de Rio",
+    "heroSub": "Saveurs, produits frais et vie carioca au marché de Benfica",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Un marché à découvrir avec les yeux, le nez et le palais",
+    "intro": "Je vous recommande CADEG si vous souhaitez découvrir un Rio commerçant et gourmand, très différent d'un centre commercial. Pour moi, c'est un lieu où se côtoient produits frais, fleurs, boissons, restaurants, commerçants et clients venus aussi bien faire une petite course qu'approvisionner une cuisine professionnelle.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "CADEG : saveurs, produits frais et vie carioca au marché de Benfica",
+    "ambK": "L'ambiance",
+    "ambTitle": "Un marché actif, pratique et toujours animé",
+    "amb": "CADEG se découvre avec tous les sens. On y trouve des allées, caisses, étals, restaurants, bars, fleurs et marchandises dont l'offre change selon le jour. Je ne le présenterais pas comme une promenade silencieuse : il est plus intense et fonctionnel qu'un centre commercial, et c'est précisément ce qui fait son charme. Cette activité permet de découvrir un vrai marché de Rio.",
+    "buyK": "Des achats réfléchis",
+    "buyTitle": "Ce que j'achèterais à CADEG",
+    "buy": "Je chercherais des fruits, légumes, herbes, fromages, charcuteries, huiles, conserves, boissons, fleurs, produits gastronomiques et cadeaux gourmands. Viandes, poissons, fruits de mer et produits spéciaux uniquement si les stands du jour les proposent. Demandez si les prix sont de gros ou de détail et comment conserver vos achats.",
+    "foodK": "Gastronomie",
+    "foodTitle": "Où manger et quoi rechercher",
+    "food": "CADEG peut également être une sortie gastronomique. Renseignez-vous sur les restaurants, bars, cafés et établissements actuels avant de venir : chaque adresse peut avoir ses propres horaires. J'en profiterais pour manger simplement dans l'ambiance du marché, mais je n'inventerais ni restaurant ni plat. Vérifiez l'annuaire et les ouvertures du jour.",
+    "specialK": "Fleurs, boissons et produits spéciaux",
+    "specialTitle": "Une visite qui éveille tous les sens",
+    "special": "Fleurs et plantes, vins, bières, cachaças, boissons importées, fromages, charcuteries, conserves et produits gastronomiques peuvent faire partie de l'expérience, à condition qu'ils soient bien disponibles. Attention au transport : bouteilles, aliments frais et fleurs nécessitent des précautions. J'achèterais en pensant à leur transport et à leur conservation.",
+    "recK": "Ernestinho recommande",
+    "recTitle": "Venez avec une idée en tête, mais restez ouvert aux découvertes",
+    "rec": "J'arriverais avec une liste, sans chercher à tout acheter d'un coup. Je commencerais par parcourir les stands, comparer et seulement ensuite choisir. Dans un appartement, vous pourrez trouver des ingrédients ; entre amis, organiser un repas ou un achat spécial. Je ne veux pas vous vendre du rêve : le marché peut être bondé et tous les commerçants ne travaillent pas comme dans une boutique classique.",
+    "familyK": "Familles et visiteurs",
+    "familyTitle": "Un marché où regarder, manger et faire ses achats",
+    "family": "CADEG peut intéresser les familles, les voyageurs seuls, les chefs, les personnes qui aiment cuisiner et les curieux. Avec des enfants ou des personnes âgées, je choisirais une heure confortable et ferais attention à la circulation, aux sacs et aux zones de chargement. Si vous achetez beaucoup, organisez le transport ; pour les denrées fraîches, évitez de les laisser des heures à la chaleur.",
+    "planK": "Conseils pratiques",
+    "planTitle": "Quand venir et comment s'y rendre",
+    "plan": "Vérifiez les horaires généraux, ceux des boutiques, restaurants, bars et fleuristes avant de partir, surtout le dimanche, les jours fériés et les dates particulières. Depuis Copacabana, Ipanema, Botafogo ou Flamengo, vous pouvez envisager MetrôRio, les bus, un taxi, Uber ou 99 ; consultez l'itinéraire sur Google Maps ou Moovit. Avec des caisses ou des sacs, je privilégierais un trajet porte à porte.",
+    "hoursTitle": "Horaires",
+    "hours": [
+      "Marché et boutiques : vérifiez les horaires en vigueur.",
+      "Restaurants, bars et services : chacun peut avoir ses propres horaires.",
+      "Dimanches, jours fériés et événements : fonctionnement parfois différent.",
+      "Les horaires des boutiques, restaurants, bars, fleuristes et événements peuvent changer. Vérifiez avant de partir."
+    ],
+    "safeK": "Attention à ceci",
+    "safeTitle": "Achetez et transportez vos produits avec précaution",
+    "safe": "Vérifiez la conservation, les dates, les ingrédients, les allergènes, les emballages et la réfrigération. Renseignez-vous sur l'origine des produits et conservez les reçus. Protégez bouteilles, fleurs et denrées fraîches. Surveillez aussi téléphone, portefeuille et sacs, gardez votre batterie chargée et prévoyez le retour. Je ne présente aucun produit comme thérapeutique ni ne garantis des informations non vérifiées.",
+    "address": "CADEG — Mercado Municipal do Rio de Janeiro\nBenfica, Rio de Janeiro – RJ\nVérifiez l'adresse exacte, le code postal, les accès et les horaires avant de partir.",
+    "footer": "Je vous accompagne à la découverte d'un Rio qui s'achète, se cuisine, se partage et se savoure.",
+    "cats": [
+      "Fruits et légumes",
+      "Fromages et charcuteries",
+      "Vins et boissons",
+      "Fleurs et plantes",
+      "Conserves et épicerie fine",
+      "Restaurants et bars"
+    ]
+  },
+  "runtime_story_fr": [
+    "Aujourd'hui, je veux vous parler de CADEG, que je recommande à ceux qui souhaitent découvrir le Rio commerçant et gourmand. Ce n'est pas seulement un marché alimentaire : c'est un lieu de rencontre entre commerçants, restaurants, chefs, familles et personnes venues acheter pour leur maison ou leur entreprise.",
+    "À Benfica, le marché dégage une énergie différente de celle d'un supermarché. On peut comparer, questionner, trouver des produits frais, regarder les fleurs, découvrir des boissons et s'asseoir pour manger. Je commencerais par faire le tour du marché, car chaque secteur et chaque boutique fonctionnent à leur manière.",
+    "Si vous séjournez dans un appartement, CADEG peut vous permettre de trouver des ingrédients. Entre amis, la visite peut devenir une sortie gourmande. Mais attention : les prix varient, tout ne se vend pas en gros et tous les produits ne se transportent pas facilement. Posez des questions.",
+    "En tant qu'hôte, je le recommande à ceux qui souhaitent sortir des circuits les plus évidents et découvrir une facette authentique de Rio. Je ne veux pas idéaliser ce lieu : il est intense, parfois bondé et demande de la préparation. Mais une visite bien organisée permet de découvrir ses saveurs, son activité et la vie carioca."
+  ],
+  "qa": {
+    "original_D_keys": 36,
+    "fr_D_keys": 36,
+    "original_story_paragraphs": 4,
+    "translated_story_paragraphs": 4
+  },
+  "editorial_review": "Verify opening hours, availability of flower/wine/food sellers, allergens and storage guidelines before public release. Source selector ES/PT/EN must get FR support in preview."
+}

@@ -1,0 +1,62 @@
+{
+  "/transportes/bonde-santa-teresa/": {
+    "Bonde de Santa Teresa en Río de Janeiro": "Le tramway de Santa Teresa à Rio de Janeiro",
+    "Ernestinho junto al Bonde de Santa Teresa": "Ernestinho à côté du tramway de Santa Teresa",
+    "Mapa del Bonde de Santa Teresa": "Plan du tramway de Santa Teresa"
+  },
+  "/transportes/barcas/": {
+    "Barcas Rio en la Bahía de Guanabara": "Un ferry de Rio dans la baie de Guanabara",
+    "Barcas de Río y la Bahía de Guanabara: TRANSPORTE MINIATURA BARCA": "Les ferries de Rio et la baie de Guanabara",
+    "Fotos de Barcas de Río y la Bahía de Guanabara": "Photos — Les ferries de Rio et la baie de Guanabara"
+  },
+  "/transportes/vlt/": {
+    "Fotos de VLT Carioca en Río": "Photos — Le tramway VLT Carioca à Rio",
+    "Mapa de las líneas del VLT Carioca": "Plan des lignes du VLT Carioca",
+    "VLT Carioca en Río: TRANSPORTES miniatura VLT CARIOCA": "Le tramway VLT Carioca à Rio",
+    "VLT Carioca en Río: VLT": "Le tramway VLT Carioca à Rio — tramway en circulation"
+  },
+  "/transportes/alquiler-vehiculo/": {
+    "Alquilar un auto en Río: TRANSPORTES MINIATURA ALQUILER VEHICULO": "Louer une voiture à Rio",
+    "Alquilar un auto en Río: banner rent cars": "Louer une voiture à Rio — Rentcars",
+    "Fotos de Alquilar un auto en Río": "Photos — Louer une voiture à Rio"
+  },
+  "/transportes/onibus/": {
+    "Autobuses de Río: cómo usarlos: TRANSPORTE MINIATURA AUTOBUS": "Prendre le bus à Rio",
+    "Autobuses de Río: cómo usarlos: transporte micro": "Prendre le bus à Rio — un bus de ville",
+    "Fotos de Autobuses de Río: cómo usarlos": "Photos — Prendre le bus à Rio"
+  },
+  "/transportes/trenes/": {
+    "Fotos de Trenes metropolitanos SuperVia": "Photos — Les trains de banlieue SuperVia",
+    "Trenes metropolitanos SuperVia: supervia": "Les trains de banlieue SuperVia"
+  },
+  "/transportes/uber/": {
+    "Fotos de Uber y aplicaciones de transporte": "Photos — Uber et les applications de transport",
+    "Uber y aplicaciones de transporte: TRANSPORTES miniatura uber": "Uber et les applications de transport"
+  },
+  "/transportes/metro/": {
+    "Diagrama de las líneas del Metro de Río": "Schéma des lignes du métro de Rio",
+    "Mapa de MetrôRio": "Plan du métro de Rio",
+    "Mapa de la Línea 2 verde de MetrôRio": "Plan de la ligne 2, en vert, du métro de Rio"
+  },
+  "/transportes/brt/": {
+    "BRT Rio: guía de uso: TRANSPORTES MINIATURA brt": "Guide du BRT de Rio",
+    "Fotos de BRT Rio: guía de uso": "Photos — Guide du BRT de Rio",
+    "Mapa del sistema BRT Rio": "Plan du réseau BRT de Rio",
+    "Sistema BRT de Río de Janeiro": "Le réseau BRT de Rio de Janeiro"
+  },
+  "/transportes/bicicletas/": {
+    "Bicicletas compartidas en Río: TRANSPORTES miniatura itau": "Les vélos en libre-service à Rio",
+    "Fotos de Bicicletas compartidas en Río": "Photos — Les vélos en libre-service à Rio"
+  },
+  "/transportes/": {
+    "Compara bus, auto y transporte privado según tu punto de salida y el último tramo hasta el alojamiento.": "Comparez le bus, la voiture et le transfert privé selon votre point de départ et le dernier trajet jusqu’à votre hébergement.",
+    "Cuando el viaje continúa hacia Búzios": "Si vous poursuivez votre voyage vers Búzios",
+    "Cómo llegar a Búzios →": "Comment rejoindre Búzios →",
+    "Cómo moverse en Río de Janeiro | Ernestinho Carioca": "Comment se déplacer à Rio de Janeiro | Ernestinho Carioca",
+    "Fotos de Llegar sin complicartetambién es parte del viaje.": "Photos — Se déplacer facilement fait aussi partie du voyage.",
+    "Llegar sin complicartetambién es parte del viaje.": "Se déplacer facilement fait aussi partie du voyage.",
+    "Llegar sin complicartetambién es parte del viaje.: MINIATURA GUIA RIO COMO MOVERSE": "Se déplacer facilement fait aussi partie du voyage.",
+    "Llegar sin complicartetambién es parte del viaje.: PORTADA TRANSPORTE": "Se déplacer facilement fait aussi partie du voyage.",
+    "Muévete por Río con consejos sobre metro, Uber, VLT, BRT, autobuses, bicicletas y transporte privado de Ernestinho Carioca.": "Les conseils d’Ernestinho Carioca pour se déplacer à Rio en métro, Uber, tramway VLT, BRT, bus, vélo ou transfert privé."
+  }
+}
