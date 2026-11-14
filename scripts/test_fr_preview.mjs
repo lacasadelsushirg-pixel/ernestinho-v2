@@ -86,6 +86,9 @@ try {
       ['/gastronomia/temperarte-posto6/', /Temperarte Posto 6/],
       ['/gastronomia/temperarte-bolivar/', /Temperarte Bolívar/],
       ['/gastronomia/haru/', /Haru Sushi Bar/],
+      ['/gastronomia/bar-urca/', /Bar Urca/],
+      ['/gastronomia/bar-da-frente/', /Bar da Frente/],
+      ['/gastronomia/feira-sao-cristovao/', /Feira de São Cristóvão/],
     ]) {
       console.log(`Checking ${route} at ${width}px`);
       const original = await page.goto(origin + '/pt' + route, { waitUntil: 'load' });
