@@ -1,0 +1,193 @@
+{
+  "project": "Ernestinho Carioca - Guía de Río, traducciones FR paralelas",
+  "baseline_branch": "revision/rendimiento-traducciones-81a904c",
+  "work_pr": 24,
+  "chatgpt_pr": 25,
+  "status": "translation_only_not_integrated_not_published",
+  "french_visibility": "private_preview_only_noindex_when_integrated",
+  "content_policy": "Do not rewrite approved ES/PT/EN HTML, media, links, CSS or frozen content. No changes to production without review.",
+  "scope": [
+    {
+      "route": "/guia/emergencias/",
+      "source_sha": "995eb0cf6408de80c550e90b08779988e99069e7",
+      "file": "assets/js/translations/fr/guia-emergencias-paralelo.json",
+      "entries": 52,
+      "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/cpf/",
+      "source_sha": "2fb14c99efd9ed8b70794f14eb0048b22d6cd5d6",
+      "file": "assets/js/translations/fr/guia-cpf-paralelo.json",
+      "entries": 58,
+      "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/documentos/",
+      "source_sha": "71e448005ace7a442763ae433045da14a6f43852",
+      "file": "assets/js/translations/fr/guia-documentos-paralelo.json",
+      "entries": 83,
+      "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/pix/",
+      "source_sha": "0ef8433b2101d8ff81987e961926270310b79641",
+      "file": "assets/js/translations/fr/guia-pix-paralelo.json",
+      "entries": 62,
+      "coverage": "visible_static_and_embedded_ES_JSON_text_complete",
+      "integration_blocker": "pix-data JSON provides runtime ES/PT/EN content. The FR preview builder removes scripts; must render static translated content in private FR preview or extend private renderer without changing source pages."
+    },
+    {
+      "route": "/guia/menores/",
+      "source_sha": "92890e2006085d082b9c1a0a2b6bd9dd73916a4a",
+      "file": "assets/js/translations/fr/guia-menores-paralelo.json",
+      "entries": 39,
+      "coverage": "text_alt_metadata_complete",
+      "editorial_review": "recheck visa and minor-travel rules against current official authorities prior to publishing"
+    },
+    {
+      "route": "/guia/internet/",
+      "source_sha": "21ebe5001a07c3f716cdb4dfa6792b067d93b850",
+      "file": "assets/js/translations/fr/guia-internet-paralelo.json",
+      "entries": 50,
+      "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/vacunas/",
+      "source_sha": "ded4b2095efc4ce7a4ec506463a457e41fa515c1",
+      "file": "assets/js/translations/fr/guia-vacunas-paralelo.json",
+      "entries": 31,
+      "coverage": "text_alt_metadata_complete",
+      "editorial_review": "medical recommendations and destination-specific entry requirements should be verified against current official sources prior to publishing"
+    },
+    {
+      "route": "/guia/consulados/",
+      "source_sha": "4bcfde967797df5b0d7021f1e4318867ad0d41a8",
+      "file": "assets/js/translations/fr/guia-consulados-paralelo.json",
+      "entries": 30,
+      "coverage": "text_alt_metadata_complete",
+      "editorial_review": "recheck current consular addresses and duty contacts before publishing"
+    },
+    {
+      "route": "/guia/aeropuertos/",
+      "source_sha": "3077e6602df26121c91a5e5002f5949e8b9778fe",
+      "file": "assets/js/translations/fr/guia-aeropuertos-paralelo.json",
+      "entries": 37,
+      "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/alquiler-auto/",
+      "source_sha": "3d127d38fd55cf1036b83b5cf5f42a18d29a7cf6",
+      "file": "assets/js/translations/fr/guia-alquiler-auto-paralelo.json",
+      "entries": 42,
+      "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/terminales/",
+      "source_sha": "f57c0635f2688ee47c3ffc0d77ea6b5581a950e5",
+      "file": "assets/js/translations/fr/guia-terminales-paralelo.json",
+      "entries": 48,
+      "coverage": "text_alt_metadata_complete",
+      "editorial_review": "check current Pier Mauá operational notices and VLT routing prior to publishing"
+    },
+    {
+      "route": "/guia/accesibilidad/",
+      "source_sha": "e9317100deb5b2661120e9dfd84fa5c5afb0c3f5",
+      "file": "assets/js/translations/fr/guia-accesibilidad-paralelo.json",
+      "entries": 50,
+      "coverage": "text_alt_metadata_complete",
+      "editorial_review": "check accessibility status, reduced-mobility access and transit fare eligibility before publishing"
+    },
+    {
+      "route": "/guia/viajar-solo/",
+      "source_sha": "0584652ac11116d17fe716b4049589c79da873fe",
+      "file": "assets/js/translations/fr/guia-viajar-solo-paralelo.json",
+      "entries": 52,
+      "coverage": "text_alt_metadata_complete"
+    },
+    {
+      "route": "/guia/seguro/",
+      "source_sha": "6c21663d3da2349b794cfa1adc1b2db0e41d32ab",
+      "file": "assets/js/translations/fr/guia-seguro-paralelo.json",
+      "entries": 63,
+      "coverage": "text_alt_metadata_complete",
+      "editorial_review": "check insurance disclosures, external affiliate links, emergency care accuracy and the assistance phone number before publishing"
+    },
+    {
+      "route": "/guia/donde-alojarse/",
+      "source_sha": "42a0386125aeace31f079681c13b93bf76553c8c",
+      "file": "assets/js/translations/fr/guia-donde-alojarse-paralelo.json",
+      "entries": 46,
+      "coverage": "ES HTML visible, title/description, embedded stay-data arrays (5 areas, intro, UI) translated and checked",
+      "integration_blocker": "All areas live in JSON script, current private FR preview strips scripts. Must pre-render translated French content in private preview, without changing approved ES/PT/EN source."
+    },
+    {
+      "route": "/guia/guarda-equipaje/",
+      "source_sha": "501e6fcfca0b8e1d6b60e6ebf8d1463b46a87e46",
+      "source_js_shas": {
+        "luggage-content.js": "3431c58f645d7c561c336720ba8779a40ea5416e"
+      },
+      "file": "assets/js/translations/fr/guia-guarda-equipaje-paralelo.json",
+      "entries": 66,
+      "coverage": "ES HTML intro and title, luggage-content.js metadata, 12 sections and 6 FAQs, luggage-page.js UI labels and flow steps",
+      "integration_blocker": "Content rendered from JS modules. Private FR preview strips scripts and must render all translated sections. Source uses 3 language-specific graphic photos; FR-specific graphics must be reviewed or prepared before release. Preserve Bounce links/affiliate disclosure and avoid editing approved assets."
+    },
+    {
+      "route": "/guia/mes-a-mes/",
+      "source_sha": "6898a5bd50d2d777c20a4449f7103db6f76aed35",
+      "files": [
+        "assets/js/translations/fr/guia-mes-a-mes-ene-jun-paralelo.json",
+        "assets/js/translations/fr/guia-mes-a-mes-jul-dic-paralelo.json",
+        "assets/js/translations/fr/guia-mes-a-mes-ui-paralelo.json"
+      ],
+      "entries": 198,
+      "coverage": "12 months, each with 11 translated string fields (month + 10 detailed editorial fields); 6 rain scenarios, 5 heat time windows, all two UI label sources, metadata/HTML checked",
+      "integration_blocker": "Content in month-data JSON plus separate inline JS labels object, both removed by preview builder. Must render all translated 12 months, rain/heat tabs, labels, images and mobile layout without editing approved HTML."
+    },
+    {
+      "route": "/guia/apps/",
+      "source_sha": "541919297d08b27b884ef67b06c543c5b293d415",
+      "file": "assets/js/translations/fr/guia-apps-paralelo.json",
+      "entries": 39,
+      "coverage": "title/meta, source HTML text, image alt/aria labels"
+    },
+    {
+      "route": "/guia/dinero/",
+      "source_sha": "b7a1de58893841407130c461289569409c40f3c0",
+      "file": "assets/js/translations/fr/guia-dinero-paralelo.json",
+      "entries": 32,
+      "coverage": "title/meta, source HTML text, image alt/aria labels"
+    },
+    {
+      "route": "/guia/permanencia/",
+      "source_sha": "96ae8e80ba26f415705d0e4ea1ce869a3dad7bbe",
+      "file": "assets/js/translations/fr/guia-permanencia-paralelo.json",
+      "entries": 30,
+      "coverage": "title/meta, source HTML text, image alt/aria labels",
+      "editorial_review": "verify current QGRV, federal police migration process and permissible stay before publishing"
+    },
+    {
+      "route": "/guia/",
+      "source_sha": "91ab4b4450fdd920a2ea8600636120682dafea86",
+      "file": "assets/js/translations/fr/guia-portada-paralelo.json",
+      "entries": 58,
+      "coverage": "all homepage card labels, visible body copy, title/description and image alt/aria labels"
+    }
+  ],
+  "coverage_test": "21 distinct route dictionaries prepared (20 editorial subpages plus /guia/ home), totaling 1166 entries. Source ES visible text, title/description, alt/aria and page-specific embedded data were checked for missing keys. Month by month has 12 months and rain/heat dynamic labels; Pix, Stay and Luggage also have dynamic JS. These files are not yet integrated into FR pilot and have not been rendered in browser, merged, nor published. Editorial factual verification is still pending.",
+  "remaining_validation": [
+    "Recheck source SHA before merging, since upstream content may change.",
+    "Compare each translation with Spanish meaning and any original PT-BR/EN version.",
+    "Merge dictionaries into PR24 private FR pilot without overwriting its current translations.",
+    "Add FR preview routes only when renderer supports them; verify text, images, links, JSON-LD, noindex, 1440px / 390px.",
+    "Run frozen-content guard, build QA and sitemap compare. Do not publish FR before approved.",
+    "Verify dynamic/embedded content outside the tested text surfaces and review medical/migration/consular factual currency.",
+    "Validate accessibility, health guidance, consular and airport/terminal operational facts on publication date.",
+    "For `/guia/donde-alojarse/`, render all 5 neighborhood cards, introductions, UI text and photos in private FR preview without touching approved source scripts.",
+    "For `/guia/guarda-equipaje/`, render 12 content sections and 6 FAQs and check Bounce disclosure and 3 image artworks with Spanish/Portuguese/English typography before FR publication.",
+    "Integrate month-by-month private FR preview from both inline month-data and labels objects; do not drop any monthly content (12 months x 10 editorial fields) or rain/heat features.",
+    "Validate the `/guia/moverse/` redirect resolves to correct FR `/fr/transportes/` experience and does not create accidental SEO indexable duplicate.",
+    "Inspect original home links into `/consejos/` and confirm target translations/validity; they are not part of this 21-route guide inventory."
+  ],
+  "approved_site_untouched": true,
+  "scope_note": "Guía directory includes 21 content subfolders: 20 with editorial pages and `/guia/moverse/` which is an HTTP/JS redirect to `/transportes/`; the latter requires URL and translation check at the destination, not an independent editorial dictionary. `/guia/` landing also translated. Related guides under `/consejos/` are outside this folder and are not covered here."
+}
