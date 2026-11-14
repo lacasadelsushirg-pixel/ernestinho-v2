@@ -35,7 +35,7 @@ ROUTES = (
     '/gastronomia/ginga/', '/gastronomia/aipo-aipim-920/', '/gastronomia/canton/',
     '/gastronomia/bracarense/', '/gastronomia/margutta-ipanema/', '/gastronomia/mosteiro/',
     '/gastronomia/churrasqueira-rio/', '/gastronomia/venga-ipanema/', '/gastronomia/merci/',
-    '/gastronomia/mocellin-steak/',
+    '/gastronomia/mocellin-steak/', '/gastronomia/naga/',
 )
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
