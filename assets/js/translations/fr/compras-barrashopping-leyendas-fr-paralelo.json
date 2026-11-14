@@ -1,0 +1,14 @@
+{
+  "source_path": "compras/barrashopping/index.html",
+  "source_sha": "d8f12598140d6888763e38017d55b32a48236b87",
+  "status": "STAGING_ONLY_NOT_RENDERED",
+  "captions_es_fr": {
+    "BarraShopping es grande: ven con tiempo y zapatillas cómodas.": "BarraShopping est immense : prévoyez du temps et portez des chaussures confortables.",
+    "Una parte cotidiana y moderna de Río.": "Une facette moderne et quotidienne de Rio."
+  },
+  "qa": {
+    "caption_count": 2,
+    "missing": 0,
+    "requires_private_renderer": true
+  }
+}

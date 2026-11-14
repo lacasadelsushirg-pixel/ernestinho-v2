@@ -1,0 +1,41 @@
+{
+  "route": "/compras/barrashopping/",
+  "source_path": "compras/barrashopping/index.html",
+  "source_sha": "d8f12598140d6888763e38017d55b32a48236b87",
+  "status": "SUPERSEDED_BY_COMPLETE_DYNAMIC_SUPPLEMENT_NOT_PUBLISHED",
+  "source_inline_array": "const P",
+  "translated_paragraph_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "total_source_paragraphs": 23,
+  "fr_paragraphs": [
+    "Aujourd’hui, j’aimerais vous parler d’un géant qui révèle un tout autre visage de Rio de Janeiro : BarraShopping.",
+    "La plupart des voyageurs arrivent à Rio en quête de paysages de carte postale. Ils veulent se promener à Copacabana, admirer le coucher du soleil depuis Arpoador, découvrir Ipanema, monter jusqu’au Christ Rédempteur ou ressentir l’énergie de lieux comme Rocinha, que j’aime tant faire découvrir et recommander. Pourtant, Rio est bien plus vaste que cette première image.",
+    "Quand on rejoint la Zone Ouest, la ville change de rythme. Les distances s’allongent, les avenues s’élargissent et l’architecture devient plus moderne. Barra da Tijuca possède sa propre personnalité : c’est un secteur résidentiel, commerçant et familial, avec de longues plages, de grandes résidences, des restaurants, des quartiers d’affaires et une vie très différente du Rio que beaucoup de touristes imaginent.",
+    "Et c’est au cœur de Barra que se trouve BarraShopping.",
+    "Je ne le considère pas comme un simple centre commercial. Pour moi, c’est presque une petite ville couverte. On peut y acheter des vêtements, chercher des produits brésiliens, faire des achats pour son appartement, changer de l’argent, se connecter au Wi-Fi, manger, divertir les enfants, voir un film et poursuivre sa promenade dans les autres espaces du complexe.",
+    "En tant qu’hôte, c’est l’un de mes atouts. Je coordonne régulièrement des réservations, j’accueille des voyageurs et j’aide mes clients à organiser leurs journées à Rio. Je sais donc que tout ne se déroule pas toujours comme prévu. Parfois, il pleut. Parfois, quelqu’un doit acheter quelque chose d’urgence. Parfois, la famille est fatiguée de la plage. Parfois, un voyageur a quitté son logement mais dispose encore de plusieurs heures avant de rejoindre l’aéroport.",
+    "Dans ces situations, BarraShopping peut vous sauver la journée.",
+    "Mais je préfère être franc : ce n’est pas l’endroit où aller avec seulement une heure devant soi pour acheter rapidement un souvenir. Il est immense, avec de longs couloirs, de nombreuses entrées et différents secteurs. Sans préparation, vous risquez de marcher bien plus que prévu et de finir par chercher la sortie."
+  ],
+  "qa": {
+    "historical_translated_paragraphs": 8,
+    "remaining_paragraphs": 0,
+    "complete_supplement": "assets/js/translations/fr/compras-barrashopping-dinamico-paralelo.json",
+    "supplement_P_paragraphs": 23,
+    "supplement_T_keys": 11,
+    "static_dictionary": "assets/js/translations/fr/compras-barrashopping-paralelo.json",
+    "integration": "pending private FR renderer",
+    "source_sha_verified_against_manifest": true
+  },
+  "editorial_review": "Verify shops, transport routes, accessibility, opening hours and entertainment claims against official sources before publication.",
+  "reconciliation_date": "2026-11-11",
+  "reconciliation_note": "Historical 8/23 partial draft retained for provenance only. Complete 23/23 paragraphs and 11/11 T keys already exist in compras-barrashopping-dinamico-paralelo.json; do not count or translate again. Static dictionary and route already in compras-paralelo-manifest.json. French rendering remains unintegrated."
+}
