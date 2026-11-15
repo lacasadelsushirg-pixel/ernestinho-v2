@@ -1,5 +1,31 @@
 // Attribute and control copy left in Spanish by the approved legacy sources.
 export const pilotLabels = {
+  "/gastronomia/cervantes-copacabana/": {
+    "Cervantes es conocido por sus sándwiches tradicionales, pero existen referencias contradictorias sobre el funcionamiento de la unidad de Copacabana. No recomendaría desplazarse exclusivamente hasta aquí sin confirmar directamente que esté atendiendo en la fecha prevista. Conservar la historia del local no equivale a asegurar su apertura actual.": [
+      "O Cervantes é conhecido pelos sanduíches tradicionais, mas há informações contraditórias sobre o funcionamento da unidade de Copacabana. Eu não iria exclusivamente até lá sem confirmar diretamente se estará atendendo na data da visita. Preservar a história da casa não garante que ela esteja aberta hoje.",
+      "Cervantes is known for its traditional sandwiches, but reports conflict about whether the Copacabana branch is operating. I would not make a special trip without confirming directly that it will be serving on the planned date. Keeping the restaurant’s history in the guide does not establish that it is currently open."
+    ],
+    "Si confirmas que el local de Copacabana está abierto, su propuesta encaja como comida informal durante un recorrido por el barrio. Mientras haya dudas sobre obras o funcionamiento, esta ficha debe distinguir la tradición gastronómica de la disponibilidad real del servicio, evitando prometer horarios o reservas.": [
+      "Se confirmar que a unidade de Copacabana está aberta, ela é uma opção de refeição informal durante um passeio pelo bairro. Enquanto houver dúvidas sobre obras ou funcionamento, é importante distinguir a tradição gastronômica da disponibilidade real do serviço, sem prometer horários ou reservas.",
+      "If you confirm that the Copacabana branch is open, it can be a casual meal on a walk around the neighborhood. While there is uncertainty about renovations or operations, distinguish the restaurant’s culinary tradition from actual service availability, without promising hours or bookings."
+    ],
+    "Mapa de Cervantes Copacabana": [
+      "Mapa do Cervantes Copacabana",
+      "Map of Cervantes Copacabana"
+    ],
+    "Cervantes Copacabana: fotografía 4": [
+      "Cervantes Copacabana: foto 4",
+      "Cervantes Copacabana: photograph 4"
+    ],
+    "Cervantes Copacabana: fotografía 5": [
+      "Cervantes Copacabana: foto 5",
+      "Cervantes Copacabana: photograph 5"
+    ],
+    "Cervantes Copacabana: fotografía 6": [
+      "Cervantes Copacabana: foto 6",
+      "Cervantes Copacabana: photograph 6"
+    ]
+  },
   "/gastronomia/churrasqueira-rio/": {
     "En Churrasqueira Rio, consulta los cortes disponibles, su peso y el punto de cocción recomendado antes de pedir. Si compartes, pregunta por las guarniciones incluidas y por el tamaño de las porciones para que la carne y los acompañamientos lleguen en una secuencia cómoda.": [
       "Na Churrasqueira Rio, confira os cortes disponíveis, o peso e o ponto recomendado antes de pedir. Se for compartilhar, pergunte quais acompanhamentos estão incluídos e o tamanho das porções, para que tudo chegue no ritmo certo.",

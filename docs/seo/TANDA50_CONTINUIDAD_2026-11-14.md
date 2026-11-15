@@ -25,7 +25,7 @@ Prioridad por impresiones observadas en GSC Web del 14 de octubre al 10 de novie
 | 9 | [/gastronomia/cipriani/](https://www.ernestinhocarioca.com.br/gastronomia/cipriani/) | 199 | Bloqueada por vigencia del español y continuidad de la identidad comercial; se conserva la ficha. |
 | 10 | [/gastronomia/cafe-lamas/](https://www.ernestinhocarioca.com.br/gastronomia/cafe-lamas/) | 176 | Cuatro idiomas probados en vista aislada; en revisión. |
 | 11 | [/gastronomia/churrasqueira-rio/](https://www.ernestinhocarioca.com.br/gastronomia/churrasqueira-rio/) | 167 | Cuatro idiomas probados en vista aislada; en revisión. |
-| 12 | [/gastronomia/cervantes-copacabana/](https://www.ernestinhocarioca.com.br/gastronomia/cervantes-copacabana/) | 165 | Pendiente de cotejo editorial y técnico. |
+| 12 | [/gastronomia/cervantes-copacabana/](https://www.ernestinhocarioca.com.br/gastronomia/cervantes-copacabana/) | 165 | Cuatro idiomas probados en vista aislada; vigencia comercial pendiente. |
 | 13 | [/gastronomia/lasai/](https://www.ernestinhocarioca.com.br/gastronomia/lasai/) | 164 | Pendiente de cotejo editorial y técnico. |
 | 14 | [/gastronomia/chez-claude/](https://www.ernestinhocarioca.com.br/gastronomia/chez-claude/) | 141 | Pendiente de cotejo editorial y técnico. |
 | 15 | [/gastronomia/stalos/](https://www.ernestinhocarioca.com.br/gastronomia/stalos/) | 141 | Pendiente de cotejo editorial y técnico. |
@@ -153,3 +153,13 @@ Las 19 posiciones PT/EN coinciden con `42d03024`, `8570793a`, `391d302e` y el HT
 Pasaron tres HTML selectivos, auditoría de cuatro variantes y navegación a 1440 y 390 px. [Capturas](TANDA50_CHURRASQUEIRA_1440_390.jpg) con PT anterior de Hostinger, PT candidato y FR noindex. Search Console el 14 de noviembre: las tres URL públicas están enviadas e indexadas. Queda la prueba incremental integral.
 
 Total: 10/50 probadas en vista privada, 40 pendientes incluida Cipriani, 0 cerradas para publicación. Retomar Cervantes Copacabana y Lasai. Sin despliegue.
+
+## Undécimo sublote · Cervantes Copacabana
+
+PR #24 `586a0e3`, producción `21bb687`, base acumulada `9d9672b`. Avance local `332a700d` sin referencia recuperable. La rama paralela `ed98338` avanzó en Hospedaje y se conserva independiente.
+
+Se cotejaron 15 posiciones PT/EN idénticas en `42d03024`, `8570793a`, `391d302e` y ES vigente. Se activaron los renderizadores y se tradujeron los dos consejos de disponibilidad y etiquetas visuales. Se conservó el francés preparado en paralelo y se completaron dos rótulos de galería generada. El contenido aprobado en ES se conserva. Las dudas sobre funcionamiento y horarios siguen registradas.
+
+Tres HTML selectivos, auditoría de cuatro idiomas y navegación PT → FR → EN a 1440/390 superados. [Capturas antes/después](TANDA50_CERVANTES_1440_390.jpg) desde PT servido por Hostinger hasta el candidato y FR noindex. Google Search Console, 14 de noviembre: las tres URL públicas figuran enviadas e indexadas. Pendiente incremental integral.
+
+Total: 11/50 probadas en vista privada, 39 pendientes incluida Cipriani, 0 cerradas para publicación. Retomar Lasai y Chez Claude. Sin despliegue.
