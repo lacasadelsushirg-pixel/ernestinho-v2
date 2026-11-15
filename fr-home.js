@@ -25,14 +25,20 @@ function localize(){
     const raw=link.getAttribute('href');
     if(!raw||raw.startsWith('#')||/^(?:mailto:|tel:|javascript:|data:)/i.test(raw))continue;
     let url;try{url=new URL(raw,location.href)}catch{continue}
-    if(url.origin===location.origin && url.pathname!=='/fr-vista-luna/' && !url.pathname.startsWith('/fr-vista-luna/assets/')){
-      const route=url.pathname.startsWith('/fr-vista-luna/')?url.pathname.slice('/fr-vista-luna'.length):url.pathname;
-      if(!route.startsWith('/assets/'))link.href=ROOT+route.replace(/^\//,'')+url.search+url.hash;
+    const isPreview=location.pathname.startsWith('/fr-vista-luna/');
+    const previewRoot=isPreview?'/fr-vista-luna/':'/';
+    const pagePath=url.pathname.startsWith(previewRoot)?url.pathname.slice(previewRoot.length):null;
+    const readyRoutes=new Set(['','fr/','fr/guia/','fr/guia/dinero/','fr/transportes/']);
+    if(url.origin===location.origin && pagePath!==null && !pagePath.startsWith('assets/')){
+      if(readyRoutes.has(pagePath))continue;
+      // An unfinished French route must lead to the approved Spanish source, never a 404.
+      const untranslated=pagePath.replace(/^fr\\//,'');
+      if(!/^(?:api|\\.well-known)\\//.test(untranslated))link.href=ROOT+untranslated+url.search+url.hash;
     }
   }
   for(const el of document.querySelectorAll('[src],[srcset]')){
     const src=el.getAttribute('src');
-    if(src?.startsWith('/assets/'))el.setAttribute('src','/fr-vista-luna'+src);
+    if(src?.startsWith('/assets/'))el.setAttribute('src',(location.pathname.startsWith('/fr-vista-luna/')?'/fr-vista-luna':'')+src);
   }
 }
 localize();
