@@ -302,7 +302,7 @@ Corte de priorización: Search Console final, 2026-10-16–11-12, páginas de Ga
 | 10 | https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/ | ES/PT/EN GSC indexadas; PT/EN retienen 8 párrafos y 9 alts en ES; sets de enlaces difieren; FR ausente; no completa | 481 (ES 393/PT 55/EN 33) | Hostinger prod `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `3c81194462752ddc241b1cad847785ef44b5ec4a` |
 | 11 | https://www.ernestinhocarioca.com.br/gastronomia/terra-brasilis/ | P/P/P/P | 451 / 3 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 12 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-lido/ | ES/PT/EN GSC indexadas; PT conserva 7 párrafos ES, EN 6; 8 alts y 12 enlaces de navegación siguen pendientes; FR ausente | 447 (ES 400/PT 28/EN 19) | Hostinger prod `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `fe48ac0c9ad39cbf3be490dc32c1e96010c29487` |
-| 13 | https://www.ernestinhocarioca.com.br/gastronomia/cais-do-oriente/ | P/R/R/P | 121 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 13 | https://www.ernestinhocarioca.com.br/gastronomia/cais-do-oriente/ | ES/PT/EN GSC indexadas; 9 párrafos PT/EN idénticos a ES, 7 alts en ES, título PT/EN redundante; FR ausente | 121 (ES 28/PT 17/EN 76) | Hostinger prod `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `9f2499455a34a28a49a0773e6ae0bab3a02d4cbf` |
 | 14 | https://www.ernestinhocarioca.com.br/gastronomia/galeto-sats/ | P/P/P/P | 360 / 4 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 15 | https://www.ernestinhocarioca.com.br/gastronomia/haru/ | P/R/R/P | 313 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 16 | https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/ | P/R/R/R | 272 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
@@ -445,3 +445,17 @@ En este corte se completó la auditoría directa de las filas #8 Plage Café, #9
 ## Corrección de contabilidad de la ejecución — 15/11/2026
 
 El recuento de esta ejecución debe incluir las auditorías ya guardadas de las filas #6 Chama Rio Copacabana y #7 Carretão Siqueira, además de #8 Plage Café, #9 Sushi Leblon, #10 Zazá Bistrô Tropical, #11 Terra Brasilis y #12 Carretão Lido. Por tanto, lleva **7/50 rutas examinadas en esta ejecución**, no 5/50. Ninguna de estas siete está completa bajo el criterio de PT-BR/EN/FR + QA editorial/visual/SEO; **0/50 completas, 0/50 nuevas publicadas**. La siguiente fila es #13 Cais do Oriente; siguen pendientes #14–#50 tal como están listadas. Producción sigue en Hostinger SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. El último HEAD del PR está en su body y no debe considerarse despliegue.
+
+
+## Auditoría de producción — Cais do Oriente (fila 13) — 15/11/2026
+
+Hostinger ES/PT/EN está disponible con canonical propio en las tres variantes y títulos localizados nominalmente; los títulos PT/EN añaden un sufijo de marca duplicado. Cada HTML tiene 1 H1, 11 H2, 18 párrafos y un mapa; imágenes 12/11/11 tags con diez fuentes únicas coincidentes. Nueve párrafos completos de PT y otros nueve de EN son idénticos al español. Siete alts editoriales y un alt redundante de marca permanecen en español. Los enlaces declarados son ES/PT/EN 23/11/11 y 18/6/6 href únicos normalizados; falta cotejo individual de los destinos diferentes, sin alterar enlaces aprobados.
+
+GSC final 2026-10-16–11-12: ES 28 impresiones/0 clic/posición 7,3; PT 17/0/7,6; EN 76/0/7,9. Ventana previa 2026-09-18–10-15: ES 28/0/7,9; PT 31/1/9,4; EN sin filas. Inspección del 15/11: las tres enviadas e indexadas, robots ALLOWED, fetch SUCCESSFUL, canonical Google igual al declarado. No hay error técnico de indexación confirmado.
+
+**No completa/no validada:** falta recuperar PT/EN de nueve párrafos por idioma, traducir alts y corregir los metadatos redundantes en el ámbito SEO permitido, completar FR integral y QA visual/runtime 1440/390. No se tocó contenido, fotos, mapa, enlaces ni diseño. Fuente: Hostinger vivo/GSC; no se cotejó historial en este corte. La ficha está registrada en el CSV maestro de 1.204 registros (commit `5f7eb61b316d607b4e73b2c9ad3b48ed16352df9`).
+
+
+## Punto de continuidad del run — 15/11/2026
+
+Desde el checkpoint anterior, este run añadió una auditoría de producción: fila #13 Cais do Oriente. Conteo de este run: **1/50 ruta examinada, 0/50 fichas completas y 0/50 publicadas**. Cumulativo documentado en la tanda: filas #6–#13, ocho rutas con evidencia de producción; las diez filas históricas #1–#5 no se recertifican en este run. Próxima ruta: #14 Galeto Sat's (`/gastronomia/galeto-sats/`); después seguir #15–#50. Hostinger producción sigue en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. PR #36 continúa abierto en base de producción, pero el último status documentado del HEAD anterior era failure `build-rate-limit`; verificar el nuevo status antes de cualquier decisión y no eludir el gate.
