@@ -114,3 +114,7 @@ La lista conserva 10 registros de QA privado histórico, agrega las dos fichas P
 - Nuevas fichas completas ES/PT-BR/EN/FR validadas: **0**. Publicadas en Hostinger durante esta ejecución: **0**.
 - Continuación inmediata: reauditar en sentido y cobertura Spicy Fish (587 impresiones), Amendoeira (310), luego Dumaré Copa (60), según GSC final 12-ago a 12-nov. Capturas de Don/Bar requieren nueva validación visual con medios accesibles. Consultar PR #36, actualizar el inventario maestro y no desplegar hasta satisfacer revisión independiente.
 - Los 38 siguientes figuran como pendientes de reauditoría según el CSV base, salvo los tres casos dirigidos; GSC solo ordena oportunidad y no se interpreta como error/exclusión.
+
+### Estado URL confirmado en Search Console (Don/Bar)
+
+Inspección GSC de las seis URLs ES/PT/EN: 6/6 `Enviada e indexada`, robots permitido, rastreo exitoso, canonical Google igual al declarado; rastreo móvil. Fechas: Don ES 22-oct 08:14Z, PT 06-oct 05:38Z, EN 23-oct 11:06Z; Bar ES 05-oct 07:36Z, PT 06-oct 14:59Z, EN 05-oct 17:30Z. Breadcrumbs: resultado PASS con un elemento sin nombre; usabilidad móvil: `VERDICT_UNSPECIFIED`. Son páginas indexadas pese a las secciones PT/EN por recuperar; no hay error de indexación confirmado en estas seis inspecciones.
