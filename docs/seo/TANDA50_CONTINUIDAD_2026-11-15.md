@@ -1394,3 +1394,12 @@ GSC final (2026-10-16–11-12): ES 67 imp./0 clics/posición 20,4; PT sin fila; 
 - GSC 2026-10-16–2026-11-12: ES 181 impresiones/1 clic/posición 7,5; PT 60/0/2,1; EN sin fila. Periodo anterior: ES 77/0/7,8; PT 47/0/4,9; EN sin fila. La falta de fila no se interpreta como cero ni como pérdida/error concluyente.
 - Estado: ES/PT/EN en revisión; el contenido parece localizado en muestras, pero queda QA semántico total, alt/enlaces, renderer, capturas 1440/390 e incremental/guard. FR pendiente/no existe; no completa ni publicada.
 - Contabilidad tanda 2: 43/50 auditadas; 0/50 completas; 0 publicadas; 7 pendientes. Siguiente prioridad de cola: Padarias (338 impresiones en el corte amplio previo); medir estado actual.
+
+## Auditoría de producción — Padarias (segunda tanda, ficha 44/50; 15/11/2026)
+
+- Producción Hostinger `revision/rendimiento-traducciones-81a904c`, SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; fuente ES GitHub blob `85a9cb7e8818c8cae10838db837eee4b6daa4abc`. Los dos commits históricos pedidos no contienen esta ruta exacta.
+- ES/PT/EN tienen 14 párrafos por variante, títulos/descripciones, canonical propia y hreflang es/pt-BR/en/x-default localizados. No hay párrafos idénticos exactos detectados entre los idiomas. En PT se observa la frase editorialmente defectuosa “Esta rota é uma guia”; se requiere revisión del resto antes de validar. Tiene cuatro etiquetas de imagen y dos alt vacíos por variante.
+- GSC inspección 3/3 enviadas/indexadas, fetch successful, robots allowed, canonical Google igual a declarada; no hay error técnico de indexación confirmado. FR no existe en Hostinger (HTTP 422), sin alternate FR.
+- GSC 2026-10-16–2026-11-12: ES 42 impresiones/0 clics/posición 9,8; PT 16/0/35,4; EN 25/1/12,1. Periodo 2026-09-18–2026-10-15: ES y PT sin filas; EN 255/0/8,7. Caída observada de impresiones EN; los datos no prueban causa. No interpretar ausencia de filas como un error.
+- Estado: ES revisada; PT/EN en revisión editorial (no validadas), FR pendiente/no existe; QA semántico integral, renderer, alt/enlaces, capturas 1440/390 e incremental/guard pendientes. No completa ni publicada.
+- Contabilidad tanda 2: 44/50 auditadas; 0/50 completas; 0 publicadas; 6 pendientes. Siguiente prioridad de cola: Temperarte Bolívar (316 impresiones en el corte amplio previo); confirmar cifras y estado actual.
