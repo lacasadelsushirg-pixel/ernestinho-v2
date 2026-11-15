@@ -1073,3 +1073,13 @@ Hay 12 imágenes, 10 alts con texto y 24 enlaces por variante; su correspondenci
 **Estado:** PT/EN tienen traducciones históricas rastreables, pero falta QA editorial completo; FR ausente; no cuenta completa/no publicable. Pendientes: validar sentido, completar FR, cotejar medios/enlaces/alt, renderizadores/build incremental/guard y capturas aprobadas 1440/390. Hostinger no se modificó. CSV actualizado `67111f9b17085e5b225c7e9b2314e75713010dba`.
 
 **Checkpoint:** segunda tanda exacta de 50, 13/50 auditadas, 0 completas, 0 publicadas, 37 pendientes. Siguiente #14: `/gastronomia/bira-de-guaratiba/`, blob HTML ES de producción `f675da0898a79bbaacec58a933523b1d522bc8fe`.
+
+## Auditoría de producción — Bira de Guaratiba (segunda tanda, ficha 14/50; 15/11/2026)
+
+Hostinger producción: `revision/rendimiento-traducciones-81a904c` HEAD `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; HTML ES blob `f675da0898a79bbaacec58a933523b1d522bc8fe`. ES/PT/EN tienen 23 párrafos c/u y ninguna coincidencia literal ES en PT/EN. Title/descripción están localizados, H1 mantiene el nombre propio; canonical y alternates es/pt-BR/en/x-default correctos. No se encontró FR en la ruta consultada ni hay FR hreflang. De los chunks gastronómicos productivos, solo el chunk `gastronomia-01.js` (blob `b65f55e1afa064cb9ae3ab274a56b8a9a9f3dfa1`) contiene traducciones genéricas de etiquetas/nombres; no apareció una entrada editorial específica de Bira. Falta fuente completa para dar por verificado el sentido.
+
+Medios: 14 imágenes, 12 alts con texto, 26 enlaces por variante; equivalencia de fotos, alt y destinos no revisada. GSC final (2026-10-16–11-12): ES 26 impresiones/0 clics/posición 13,9; EN 43/0/8,8; PT sin fila. Periodo anterior ES 3/0/9,3 y EN 10/0/6,2; ambos aumentan impresiones con peor posición promedio. Inspección ES/EN PASS, indexadas, fetch exitoso y canonical Google=declarado. PT “Google no reconoce esta URL”, sin estado de rastreo/fetch/canonical: desconocido, no fallo técnico confirmado. GSC marca breadcrumb “Elemento sin nombre”, alerta de structured data y no de indexación.
+
+**Estado:** traducciones PT/EN presentes sin literales ES, pero no se recuperó origen editorial íntegro ni se cerró QA semántico; FR ausente; incompleta/no publicable. Faltan validar source y contenido, completar FR, revisar medios/enlaces, build incremental/guard y capturas 1440/390. Hostinger intacto. CSV `37909430dda234777c58fd2c9bdc2f8ff15495a9`.
+
+**Punto durable:** tanda 2: 14/50 auditadas, 0 completas, 0 publicadas, 36 pendientes. Siguiente #15 `/gastronomia/cafe-do-alto/`, blob HTML ES producción `9fa6005690ad4fed2d04593e76834b00caefd2e5`.
