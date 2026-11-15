@@ -1202,3 +1202,16 @@ Ruta FR consultada `/fr/gastronomia/venga-ipanema/` no existe en producción ni 
 **Estado:** traducciones PT/EN parcialmente recuperables y parcialmente residuales; diferencias de medios/enlaces y atributo de metadato exigen QA; FR ausente; no completa/no publicable. Falta cotejar 19 bloques históricos con expansiones, revisar alt/href, probar runtime, completar FR, build incremental/guard y capturas 1440/390. Hostinger sin cambios; **0/50 completas y 0/50 nuevas publicadas**.
 
 **Punto durable:** tanda 2: 24/50 auditadas, 0 completas, 0 publicadas, 26 pendientes. Próxima #25 `/gastronomia/shiso/`; verificar blob y estado productivo antes de auditar. CSV actualizado en commit `eb8663125bad05ca81a787dbad5291297a17b83a`.
+
+
+## Auditoría de producción — Shiso (segunda tanda, ficha 25/50; 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c`, HEAD `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; HTML ES blob `243ffc89ca85060c20c2eb68fe813caab2ab575f`. ES/PT/EN tienen 30 párrafos, 1 por variante permanece literalmente igual al ES. Title/description/H1/canonical propio y alternates es/pt-BR/en/x-default están localizados/coherentes. Hay 11 imágenes/9 alt con texto/25 enlaces en cada variante; paridad exacta de assets/links no revisada. En meta description de PT/EN `content` está traducido, mientras `data-ec-content` conserva español; verificar runtime antes de clasificarlo como error de salida. Ruta FR consultada inexistente, sin hreflang FR.
+
+La ficha histórica está presente en los commits `42d03024d2c3765b0d96eb5f9763657d731baf4a` y `8570793a992b262c5fb384a396ec949e6105775c`, con blob `49f6ad42ea1b74e6d2d1b8352e78a8b925c133fe` y diccionario manual de 19 entradas PT/19 EN. Once entradas por idioma coinciden literalmente con el HTML actual; el resto y los párrafos añadidos requieren cotejo semántico, sin sobrescribir las ampliaciones.
+
+GSC final (2026-10-16–11-12): ES 67 imp./0 clics/posición 20,4; PT sin fila; EN 24/0/16,0. Periodo anterior (2026-09-18–10-15): ES 27/0/17,3; PT/EN sin filas. ES gana 40 impresiones y mejora posición promedio; PT/EN sin base anterior para comparar. Inspección ES y EN indexadas, robots allowed, fetch successful y canonical Google=declarado; PT “Descubierta: actualmente sin indexar”, sin estado de fetch/canonical, exclusión normal y no error confirmado. Breadcrumb “Elemento sin nombre” es alerta de structured data.
+
+**Estado:** recuperación PT/EN disponible pero parcial; FR ausente; ficha incompleta/no publicable. Falta recuperar los bloques aplicables, cotejar ampliaciones y alt/hrefs, runtime, francés, build incremental/guard y capturas 1440/390. Hostinger intacto; **0/50 completas y 0/50 nuevas publicadas**.
+
+**Punto durable:** tanda 2: 25/50 auditadas, 0 completas, 0 publicadas, 25 pendientes. Siguiente #26 Samba Social; confirmar ruta/blob actual antes de empezar. CSV Shiso actualizado en commit `056a3df5072c117e6e686f134b0d3a7f0816eea8`.
