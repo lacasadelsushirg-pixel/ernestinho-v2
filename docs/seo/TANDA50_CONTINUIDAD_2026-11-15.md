@@ -1165,3 +1165,14 @@ GSC final (2026-10-16–11-12): ES 51 impresiones/0 clics/posición 11,4; PT sin
 **Estado:** fuente histórica PT/EN recuperable identificada, pero la ficha no es completa ni publicable: residuo del title, QA semántico y medios pendientes, FR ausente, y PT sin indexar (sin fallo confirmado). Faltan restauración editorial controlada, FR íntegro, build incremental/guard y capturas 1440/390. Hostinger intacto; **0/50 completas y 0/50 nuevas publicadas**.
 
 **Punto durable:** tanda 2: 21/50 auditadas, 0 completas, 0 publicadas, 29 pendientes. Siguiente #22 `/gastronomia/galeto-liceu/`; confirmar blob y estado actual en producción antes de empezar. CSV Aipo & Aipim actualizado en commit `4deff07b4c99537e06ebd5701dac1a798a98093d`.
+
+
+## Auditoría de producción — Galeto Liceu (segunda tanda, ficha 22/50; 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c`, HEAD `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; HTML ES blob `e7c8c87fa00cc2f0dfa819e598f3559360dd4bd4`. ES/PT-BR/EN tienen 35 párrafos cada uno; cinco párrafos PT y cuatro EN son literalmente españoles. Titles, descriptions, H1 y canonical/hreflang es/pt-BR/en/x-default están localizados/coherentes. El chunk productivo `gastronomia-01.js` (blob `b65f55e1afa064cb9ae3ab274a56b8a9a9f3dfa1`) contiene entrada editorial específica de dirección y horario, con horario de directorio expresamente sujeto a confirmación; no basta para certificar todos los párrafos actuales. Hay 9 imágenes/7 alts con texto/26 enlaces por variante; la paridad exacta de recursos y hrefs requiere QA. FR consultado `/fr/gastronomia/galeto-liceu/` no existe; sin hreflang FR.
+
+GSC final (2026-10-16–11-12): ES 25 impresiones/1 clic/posición 9,0; PT 9/0/8,6; EN sin fila. Ventana previa (2026-09-18–10-15): ES 2/0/10,5; PT 23/0/8,5; EN 3/0/6,3. ES aumenta impresiones y mejora posición media; PT baja en impresiones y apenas empeora posición; EN no tiene fila nueva. No se infiere causa. Inspección 3/3 indexadas, robots allowed, fetch successful, Google canonical igual al declarado y URL en sitemap. Breadcrumb “Elemento sin nombre” es alerta de datos estructurados, no error de indexación.
+
+**Estado:** ficha incompleta y no publicable por residuos en PT/EN, francés y QA semántico/visual pendientes. No se modificó contenido, assets ni Hostinger. Falta cotejar traducciones históricas y actualizaciones, validar fotos/alt/hrefs, terminar FR, build incremental/guard y capturas aprobadas 1440/390. **0/50 completas y 0/50 nuevas publicadas.**
+
+**Punto durable:** tanda 2: 22/50 auditadas, 0 completas, 0 publicadas, 28 pendientes. Próxima #23 Lanches Cariocas; resolver slug/blob desde la cola y producción antes de empezar. CSV actualizado en commit `e6af208089449ace540643212a7998eb71965ba7`.
