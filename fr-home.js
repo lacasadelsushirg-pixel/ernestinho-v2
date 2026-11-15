@@ -54,6 +54,25 @@ new MutationObserver(()=>{
   scheduled=true;
   queueMicrotask(()=>{scheduled=false;localize()});
 }).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['href']});
+let repairPasses=0;
+const repairTimer=setInterval(()=>{
+  localize();
+  if(++repairPasses>=20)clearInterval(repairTimer);
+},200);
+document.addEventListener('click',event=>{
+  const link=event.target.closest('a[href]');
+  if(!link)return;
+  const raw=link.getAttribute('href');
+  if(!raw||raw.startsWith('#')||/^(?:mailto:|tel:|javascript:|data:)/i.test(raw))return;
+  let url;try{url=new URL(raw,location.href)}catch{return}
+  if(location.pathname.startsWith('/fr-vista-luna/')&&url.origin===location.origin&&!url.pathname.startsWith('/fr-vista-luna/')){
+    const sourcePath=url.pathname.replace(/^\\/+/, '');
+    if(['guia/','guia/dinero/','guia/aeropuertos/','guia/emergencias/','guia/viajar-solo/','guia/vacunas/','guia/apps/','guia/consulados/','guia/menores/','guia/permanencia/','guia/internet/','transportes/'].includes(sourcePath)){
+      event.preventDefault();
+      location.assign(location.origin+'/fr-vista-luna/fr/'+sourcePath+url.search+url.hash);
+    }
+  }
+},true);
 for(const button of document.querySelectorAll('[data-carousel-target]')){
   button.addEventListener('click',()=>{
     const track=document.getElementById(button.dataset.carouselTarget);
