@@ -751,3 +751,14 @@ Hostinger producción revision/rendimiento-traducciones-81a904c, commit 21bb6877
 Ficha incompleta/no publicable: traducir 10 párrafos y dos headings, cotejar histórico/links/alt, FR, QA semántico/runtime, build incremental/guard y capturas 1440/390. Hostinger intacto.
 
 **Contabilidad canónica que sustituye al corte anterior:** 40/50 auditadas, 0 completas, 0 nuevas publicadas, 10 pendientes. Inventario actualizado en commit 3516d72203da9c54d7bee7b5f94157f192acfb4c.
+
+## Auditoría de producción — Bar Urca (corte 41/50, 15/11/2026)
+
+Hostinger producción, rama `revision/rendimiento-traducciones-81a904c`, commit `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. HTML ES/PT-BR/EN leído; la ruta FR no existe en producción. El blob espejo de ES es `01f276c0689bb5d869999a92da8e7d93b7d6b785`.
+
+- 23 párrafos por variante; **9/23 bloques PT y 9/23 EN son literalmente iguales al español**. La primera presentación y los H1/H2 están localizados; title y description también. Esto es una señal editorial concreta y no una evaluación semántica completa de los párrafos restantes.
+- Canonical propio en cada variante y alternates `es`, `pt-BR`, `en`, `x-default` correctos; no hay alternate FR. 15/14/14 tags de imagen y 13 URLs fuente únicas compartidas; alts con texto en 13/15 ES y 12/14 PT/EN. Los 21 href ES frente a 9 PT/EN requieren cotejo; no se modificaron contenido, fotos ni enlaces.
+- GSC final (16 oct–12 nov): ES 128 imp./0 clics/posición 14,2; PT 18/1/9,0; EN 18/0/30,1: total 164 impresiones/1 clic. Periodo anterior (18 sep–15 oct) solo devuelve fila ES: 47/0/21,6; no inferir cambios para PT/EN sin datos. Inspección GSC 3/3 ES/PT/EN Submitted and indexed, ALLOWED/SUCCESSFUL, canonical Google=user. FR es URL desconocida para Google; no es un error indexable confirmado.
+- Ficha no completa/publicable: cotejo histórico, corrección íntegra PT/EN, traducción editorial FR, revisión de alts/enlaces, renderizador, build incremental/guard y capturas aprobadas 1440/390 pendientes. Producción intacta.
+
+**Contabilidad canónica tras este corte:** 41/50 fichas auditadas en el registro de esta tanda; 0 completas bajo el criterio estricto, 0 nuevas publicadas, 9 pendientes. CSV guardado en commit `13e086fa135727101b800d6e58adc03157f7ce93`; continuidad actualizada en el commit documental posterior. Siguiente: elegir entre rutas de Gastronomía restantes por impresiones reales de GSC, excluir las ya auditadas/recertificadas y no cambiar producción.
