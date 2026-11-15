@@ -561,3 +561,14 @@ Hostinger ES/PT-BR/EN fue rerevisado. El HTML ES de la rama productiva tiene blo
 - Falta FR completa y QA semántico de etiquetas; no se pudo ejecutar build/guard incremental ni capturas aprobadas a 1440/390 por falta de checkout local. No cuenta como ficha terminada.
 
 **Contabilidad que sustituye el corte anterior:** 25/50 auditadas en este ciclo; 0/50 completas; 0/50 cambios nuevos publicados; 25 restantes. Próxima ficha de la cola por impresiones: `/gastronomia/sushi-leblon/`, con estado y datos GSC a revalidar.
+
+## Auditoría de producción — Sushi Leblon (corte del run, 15/11/2026)
+
+Se relevaron nuevamente los HTML ES/PT-BR/EN de Hostinger. El ES del espejo de producción tiene blob SHA `f0960038eed49af92dfaf2c9618b88b30dbc0395`; branch productiva `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. La ruta FR no existe en Hostinger y Google no reconoce su URL.
+
+- Las tres variantes incluyen 31 párrafos, un H1, 13 H2, 12 imágenes (10 fuentes únicas) y 20 href únicos; sets de imágenes y enlaces coinciden. Títulos/canonical/hreflang están localizados/propios. No hay párrafos completos literalmente iguales a ES en PT/EN (0/31), sin que esto sea una evaluación semántica.
+- La descripción HTML PT/EN continúa exactamente en español como la de ES. El alt «Atún fresco con ovas negras» sigue en español tanto en PT como EN; falta cotejar el resto de alts antes de extender la incidencia. No se modificó producción.
+- GSC final 2026-10-16–11-12: ES 474 impresiones/0 clic/posición 11,2; PT 49/0/10,4; EN sin fila. Ventana anterior 2026-09-18–10-15: ES 177/0/9,8, PT/EN sin filas. La impresión ES creció, con posición promedio inferior; no se atribuye causalidad. Inspección ES/PT enviadas e indexadas, fetch exitoso y canonical Google igual al declarado; EN «Descubierta: actualmente sin indexar» sin fetch/crawl informado (exclusión, no error confirmado). FR desconocida.
+- Falta FR integral, revisar semánticamente metadatos y alts, y ejecutar build/guard y capturas aprobadas 1440/390. No completa.
+
+**Contabilidad que sustituye el corte anterior:** 26/50 auditadas en este ciclo; 0/50 completas; 0/50 nuevas publicadas en Hostinger; 24 restantes. Próxima prioridad por la cola GSC: `/gastronomia/zaza-bistro-tropical/`; revalidar sus datos antes de usar.
