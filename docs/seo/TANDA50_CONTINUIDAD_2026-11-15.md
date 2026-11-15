@@ -43,3 +43,74 @@ Consulta OpenSEO/GSC `7172f2fb-7456-4b35-b581-d9b11c0040f4`, propiedad `https://
 Orden de trabajo: respetar primero Don Camillo y Bar do Omar por continuidad expresa del propietario; después verificar Spicy Fish y Amendoeira por volumen GSC, sin asumir validez por el estado heredado del CSV. Lasai/ Chez Claude/Dumaré siguen en cola según QA y oportunidad. Estos datos GSC no autorizan cambios de traducción de la ficha ni demuestran indexación: el recuento de exclusiones va en una auditoría separada.
 
 Las 10 rutas que constan como revisadas en las notas previas de GitHub son: `/gastronomia/carretao-siqueira/`, `/gastronomia/sushi-leblon/`, `/gastronomia/zaza-bistro-tropical/`, `/gastronomia/aprazivel/`, `/gastronomia/churrascaria-palace/`, `/gastronomia/colombo-do-forte/`, `/gastronomia/oteque/`, `/gastronomia/maska/`, `/gastronomia/cafe-lamas/` y `/gastronomia/churrasqueira-rio/`. Este run conserva ese conteo documental y no reejecutó el QA completo de dichas 10. Las 40 restantes todavía necesitan su informe individual; la tabla anterior documenta las primeras siete prioridades, no afirma que sean las 40 completas.
+
+
+## Reanudación ejecutada — Don Camillo y Bar do Omar (15/11/2026)
+
+Este bloque **reemplaza los recuentos parciales anteriores** cuando describan el mismo avance. La producción vigente confirmada por GitHub es `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; el candidato de PR #36 tiene commit remoto verificable `31eed118326f6191bc0895d3703f5669f7482378`, padre `d001a08c93878ca9c7fae10e64cf3101032bcc72`. El reporte individual está en `RELEASE_DON_BAR_20261115.md`. La rama no se desplegó y las dos rutas de este sublote siguen incompletas en francés.
+
+### Estado de la tanda de 50 y hashes de referencia
+
+La lista conserva 10 registros de QA privado histórico, agrega las dos fichas PT/EN parciales de ahora y fija las 38 siguientes por prioridad/cola. “QA histórico” no equivale a publicación ni a revalidación en este run. El SHA de producción indica la base ES de la fuente, no una prueba individual de todos los idiomas.
+
+| # | URL | Estado al corte | SHA/ref comprobable |
+|---:|---|---|---|
+| 1 | `/gastronomia/carretao-siqueira/` | QA 4 idiomas en informe privado anterior; no recertificado en este run; publicación no afirmada | ref. histórica: SHA específico por ruta no verificado |
+| 2 | `/gastronomia/sushi-leblon/` | QA 4 idiomas en informe privado anterior; no recertificado en este run; publicación no afirmada | ref. histórica: SHA específico por ruta no verificado |
+| 3 | `/gastronomia/zaza-bistro-tropical/` | QA 4 idiomas en informe privado anterior; no recertificado en este run; publicación no afirmada | ref. histórica: SHA específico por ruta no verificado |
+| 4 | `/gastronomia/aprazivel/` | QA 4 idiomas en informe privado anterior; no recertificado en este run; publicación no afirmada | ref. histórica: SHA específico por ruta no verificado |
+| 5 | `/gastronomia/churrascaria-palace/` | QA 4 idiomas en informe privado anterior; no recertificado en este run; publicación no afirmada | ref. histórica: SHA específico por ruta no verificado |
+| 6 | `/gastronomia/colombo-do-forte/` | QA 4 idiomas en informe privado anterior; no recertificado en este run; publicación no afirmada | ref. histórica: SHA específico por ruta no verificado |
+| 7 | `/gastronomia/oteque/` | QA 4 idiomas en informe privado anterior; no recertificado en este run; publicación no afirmada | ref. histórica: SHA específico por ruta no verificado |
+| 8 | `/gastronomia/maska/` | QA 4 idiomas en informe privado anterior; no recertificado en este run; publicación no afirmada | ref. histórica: SHA específico por ruta no verificado |
+| 9 | `/gastronomia/cafe-lamas/` | QA 4 idiomas en informe privado anterior; no recertificado en este run; publicación no afirmada | ref. histórica: SHA específico por ruta no verificado |
+| 10 | `/gastronomia/churrasqueira-rio/` | QA 4 idiomas en informe privado anterior; no recertificado en este run; publicación no afirmada | ref. histórica: SHA específico por ruta no verificado |
+| 11 | `/gastronomia/don-camillo/` | PT/EN candidato en PR #36; FR pendiente; no publicado | candidato 31eed118; producción 21bb6877 |
+| 12 | `/gastronomia/bar-do-omar/` | PT/EN candidato en PR #36; FR pendiente; no publicado | candidato 31eed118; producción 21bb6877 |
+| 13 | `/gastronomia/spicy-fish/` | Auditoría dirigida: estado anterior validado, alerta de bloques largos idénticos; reauditoría pendiente; ES/PT/EN 428/92/67 (587 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 14 | `/gastronomia/amendoeira/` | Auditoría dirigida: estado anterior validado, alerta de bloques largos idénticos; reauditoría pendiente; ES/PT/EN 195/112/3 (310 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 15 | `/gastronomia/dumare-copa/` | Pendiente en inventario; QA de cuatro idiomas no comprobado; ES/PT/EN 60/0/0 (60 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 16 | `/gastronomia/chama-rio-copacabana/` | QA pendiente según inventario heredado; GSC 1062 impresiones por variantes; ES/PT/EN 0/995/67 (1062 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 17 | `/gastronomia/plage-cafe/` | QA pendiente según inventario heredado; GSC 879 impresiones por variantes; ES/PT/EN 277/505/97 (879 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 18 | `/gastronomia/carretao-lido/` | QA pendiente según inventario heredado; GSC 616 impresiones por variantes; ES/PT/EN 518/64/34 (616 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 19 | `/gastronomia/terra-brasilis/` | QA pendiente según inventario heredado; GSC 596 impresiones por variantes; ES/PT/EN 452/106/38 (596 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 20 | `/gastronomia/haru/` | QA pendiente según inventario heredado; GSC 482 impresiones por variantes; ES/PT/EN 350/51/81 (482 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 21 | `/gastronomia/galeto-sats/` | QA pendiente según inventario heredado; GSC 463 impresiones por variantes; ES/PT/EN 58/101/304 (463 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 22 | `/gastronomia/frontera-ipanema/` | QA pendiente según inventario heredado; GSC 387 impresiones por variantes; ES/PT/EN 331/42/14 (387 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 23 | `/gastronomia/faenza-copacabana/` | QA pendiente según inventario heredado; GSC 366 impresiones por variantes; ES/PT/EN 284/75/7 (366 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 24 | `/gastronomia/temperarte-posto6/` | QA pendiente según inventario heredado; GSC 365 impresiones por variantes; ES/PT/EN 258/107/0 (365 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 25 | `/gastronomia/padarias/` | QA pendiente según inventario heredado; GSC 338 impresiones por variantes; ES/PT/EN 42/16/280 (338 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 26 | `/gastronomia/temperarte-bolivar/` | QA pendiente según inventario heredado; GSC 316 impresiones por variantes; ES/PT/EN 200/17/99 (316 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 27 | `/gastronomia/rotisseria-sirio-libanesa/` | QA pendiente según inventario heredado; GSC 264 impresiones por variantes; ES/PT/EN 58/168/38 (264 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 28 | `/gastronomia/tacaca-do-norte/` | QA pendiente según inventario heredado; GSC 253 impresiones por variantes; ES/PT/EN 149/44/60 (253 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 29 | `/gastronomia/bar-urca/` | QA pendiente según inventario heredado; GSC 250 impresiones por variantes; ES/PT/EN 175/57/18 (250 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 30 | `/gastronomia/cervantes-copacabana/` | QA pendiente según inventario heredado; GSC 241 impresiones por variantes; ES/PT/EN 183/32/26 (241 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 31 | `/gastronomia/cipriani/` | QA pendiente según inventario heredado; GSC 241 impresiones por variantes; ES/PT/EN 104/41/96 (241 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 32 | `/gastronomia/garota-de-ipanema/` | QA pendiente según inventario heredado; GSC 231 impresiones por variantes; ES/PT/EN 137/63/31 (231 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 33 | `/gastronomia/la-bicyclette/` | QA pendiente según inventario heredado; GSC 228 impresiones por variantes; ES/PT/EN 64/48/116 (228 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 34 | `/gastronomia/feira-sao-cristovao/` | QA pendiente según inventario heredado; GSC 225 impresiones por variantes; ES/PT/EN 66/141/18 (225 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 35 | `/gastronomia/guacamole-copacabana/` | QA pendiente según inventario heredado; GSC 223 impresiones por variantes; ES/PT/EN 72/45/106 (223 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 36 | `/gastronomia/classico-beach-club-barra/` | QA pendiente según inventario heredado; GSC 218 impresiones por variantes; ES/PT/EN 152/40/26 (218 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 37 | `/gastronomia/fast-food/` | QA pendiente según inventario heredado; GSC 218 impresiones por variantes; ES/PT/EN 152/40/26 (218 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 38 | `/gastronomia/ocya-ilha/` | QA pendiente según inventario heredado; GSC 217 impresiones por variantes; ES/PT/EN 101/29/87 (217 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 39 | `/gastronomia/chez-claude/` | QA pendiente según inventario heredado; GSC 204 impresiones por variantes; ES/PT/EN 77/32/95 (204 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 40 | `/gastronomia/lasai/` | QA pendiente según inventario heredado; GSC 198 impresiones por variantes; ES/PT/EN 164/0/34 (198 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 41 | `/gastronomia/brota/` | QA pendiente según inventario heredado; GSC 196 impresiones por variantes; ES/PT/EN 70/105/21 (196 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 42 | `/gastronomia/praia-skol-copa/` | QA pendiente según inventario heredado; GSC 196 impresiones por variantes; ES/PT/EN 128/52/16 (196 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 43 | `/gastronomia/jobi/` | QA pendiente según inventario heredado; GSC 195 impresiones por variantes; ES/PT/EN 195/0/0 (195 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 44 | `/gastronomia/aipo-aipim-391/` | QA pendiente según inventario heredado; GSC 193 impresiones por variantes; ES/PT/EN 193/0/0 (193 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 45 | `/gastronomia/merci/` | QA pendiente según inventario heredado; GSC 193 impresiones por variantes; ES/PT/EN 120/68/5 (193 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 46 | `/gastronomia/giuseppe-mar/` | QA pendiente según inventario heredado; GSC 186 impresiones por variantes; ES/PT/EN 120/29/37 (186 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 47 | `/gastronomia/hollandaise/` | QA pendiente según inventario heredado; GSC 186 impresiones por variantes; ES/PT/EN 173/10/3 (186 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 48 | `/gastronomia/polis-sucos/` | QA pendiente según inventario heredado; GSC 186 impresiones por variantes; ES/PT/EN 64/122/0 (186 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 49 | `/gastronomia/sel-ipanema/` | QA pendiente según inventario heredado; GSC 185 impresiones por variantes; ES/PT/EN 140/38/7 (185 imp.) | fuente ES producción 21bb6877; contenido en cola |
+| 50 | `/gastronomia/cais-do-oriente/` | QA pendiente según inventario heredado; GSC 180 impresiones por variantes; ES/PT/EN 56/48/76 (180 imp.) | fuente ES producción 21bb6877; contenido en cola |
+
+### Recuento al corte
+
+- QA privado histórico registrado: 10/50; recertificación en este run: 0/10.
+- PT/EN candidatos en rama para Don Camillo y Bar do Omar: 2; FR y QA de cuatro idiomas pendientes en ambas.
+- Siguientes fichas pendientes en cola: 38; la presencia de traducciones previas en inventario no se toma como prueba, en especial Spicy Fish y Amendoeira por alertas de similitud.
+- Nuevas fichas completas ES/PT-BR/EN/FR validadas: **0**. Publicadas en Hostinger durante esta ejecución: **0**.
+- Continuación inmediata: reauditar en sentido y cobertura Spicy Fish (587 impresiones), Amendoeira (310), luego Dumaré Copa (60), según GSC final 12-ago a 12-nov. Capturas de Don/Bar requieren nueva validación visual con medios accesibles. Consultar PR #36, actualizar el inventario maestro y no desplegar hasta satisfacer revisión independiente.
+- Los 38 siguientes figuran como pendientes de reauditoría según el CSV base, salvo los tres casos dirigidos; GSC solo ordena oportunidad y no se interpreta como error/exclusión.
