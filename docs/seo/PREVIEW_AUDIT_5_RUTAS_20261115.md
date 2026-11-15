@@ -91,3 +91,10 @@ GSC final comparado por página en dos periodos de 28 días, sin mezclar con est
 La caída de impresiones PT de Amendoeira y Spicy Fish, y EN de Spicy Fish, es una señal de rendimiento que merece revisión; no identifica por sí sola la causa ni confirma un problema de indexación. Dumaré creció en las tres variantes. Posición media reciente frente a anterior: Amendoeira ES 10,4→9,6 y PT 9,3→7,0; Bar ES 10,7→13,4 y PT 9,4→7,4; Don ES 8,5→12,3 y PT 6,6→8,2; Dumaré ES 7,7→7,4, PT nuevo 8,8, EN 7,8→9,7; Spicy ES 7,6→7,6, PT 8,2→5,0, EN 8,0→6,8. Las filas sin impresiones en la ventana corresponden a cero filas devueltas para esa URL/dimensión, no a una prueba de desindexación.
 
 Siguiente análisis: segmentar consultas principales y revisar Inspection de URL para las caídas PT/EN, contrastando canonical seleccionado y último rastreo. No cambiar canonicals o sitemap basándose solo en impresiones. Fuente: Search Console conectado por OpenSEO, propiedad verificada; ventanas finales 2026-09-18–10-15 y 2026-10-16–11-12.
+
+
+## Inspección de indexación GSC — 15/11/2026
+
+La inspección URL de Search Console para cinco variantes reales (Amendoeira PT, Spicy Fish PT y EN, Bar do Omar PT, Don Camillo PT) devuelve `PASS` y estado `Enviada e indexada` en las cinco. Robots permitido, indexación permitida, fetch correcto y canonical de Google coincidente con canonical declarado. Últimos rastreos: Amendoeira PT 2026-10-07 07:06 UTC; Spicy Fish PT 2026-10-05 05:33 UTC; Spicy Fish EN 2026-10-05 11:12 UTC; Bar do Omar PT 2026-10-06 14:59 UTC; Don Camillo PT 2026-10-06 05:38 UTC. La variación de impresiones de las ventanas anteriores **no es aquí un error de indexación**. Mobile usability sale `VERDICT_UNSPECIFIED` (sin veredicto), no un fallo; rich result de breadcrumbs pasa con un item sin nombre, observación estructural que merece revisar, pero no impide esta indexación.
+
+Inspección de indexación no cubrió las otras variantes EN/PT ni todas las 50 rutas; no extrapolar. Próxima verificación: consultar las variantes con caída de impresiones (Amendoeira PT/EN y Spicy Fish EN) y revisar queries/CTR; preservar canonicals actuales mientras GSC siga seleccionándolos.
