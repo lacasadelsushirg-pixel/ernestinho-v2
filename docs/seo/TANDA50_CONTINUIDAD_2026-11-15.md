@@ -440,3 +440,8 @@ Ficha **incompleta/no validada**: traducir párrafos y alts que faltan, recupera
 ## Punto de reanudación actualizado — 15/11/2026
 
 En este corte se completó la auditoría directa de las filas #8 Plage Café, #9 Sushi Leblon, #10 Zazá Bistrô Tropical y #11 Terra Brasilis, y ahora #12 Carretão Lido: **5/50 examinadas durante esta ejecución; 0/50 completas; 0/50 publicadas**. La siguiente ficha seleccionada es #13 Cais do Oriente (`/gastronomia/cais-do-oriente/`); las filas #14–#50 siguen en el orden tabulado. Ninguna ruta auditada hoy se considera terminada: PT/EN tienen texto o alts pendientes, o falta FR/QA. Producción Hostinger continúa en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`.
+
+
+## Corrección de contabilidad de la ejecución — 15/11/2026
+
+El recuento de esta ejecución debe incluir las auditorías ya guardadas de las filas #6 Chama Rio Copacabana y #7 Carretão Siqueira, además de #8 Plage Café, #9 Sushi Leblon, #10 Zazá Bistrô Tropical, #11 Terra Brasilis y #12 Carretão Lido. Por tanto, lleva **7/50 rutas examinadas en esta ejecución**, no 5/50. Ninguna de estas siete está completa bajo el criterio de PT-BR/EN/FR + QA editorial/visual/SEO; **0/50 completas, 0/50 nuevas publicadas**. La siguiente fila es #13 Cais do Oriente; siguen pendientes #14–#50 tal como están listadas. Producción sigue en Hostinger SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. El último HEAD del PR está en su body y no debe considerarse despliegue.
