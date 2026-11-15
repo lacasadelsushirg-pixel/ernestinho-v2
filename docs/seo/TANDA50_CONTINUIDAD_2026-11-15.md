@@ -1499,3 +1499,16 @@ Hostinger producción revision/rendimiento-traducciones-81a904c sigue en SHA 21b
 - Estado: ficha auditada en producción; recuperación de metadatos/alt PT/EN, QA semántico/runtime, historia, francés, build/guard, capturas aprobadas 1440/390 y revisión humana pendientes. No completa.
 
 **Punto de continuación tanda 3:** 3/50 auditadas, 0/50 completas, 0 publicadas. Próxima libre por impresiones actuales, después de contrastar auditorías previas: /gastronomia/carretao-lido/ (ES400, PT28, EN19 en el corte actual; 447 impresiones observadas).
+
+
+## Tanda 3 — ficha 4/50: Carretão Lido (15/11/2026)
+
+Producción consultada: `revision/rendimiento-traducciones-81a904c` en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. SHA del HTML fuente ES en GitHub: `fe48ac0c9ad39cbf3be490dc32c1e96010c29487`.
+
+- HTML ES/PT-BR/EN: 26 párrafos por idioma. Comparación literal posicional con ES: PT 7/26 y EN 6/26 coinciden; esto es una señal de cobertura, no una evaluación semántica automática. Títulos y meta descriptions aparecen localizados. H1 conserva el nombre comercial. Canonical propia y hreflang ES/PT-BR/EN/x-default presentes.
+- Imágenes: 12/11/11 elementos ES/PT/EN, 10 URLs únicas entre variantes; dos atributos alt vacíos por variante. No se modificaron imágenes, enlaces ni presentación.
+- GSC, 16-oct–12-nov: ES 400 impresiones / 0 clics / posición 8,3; PT 28 / 0 / 9,1; EN 19 / 0 / 8,3. Inspección 3/3 enviadas e indexadas; fetch exitoso, robots permitido y canonical de Google igual a la declarada. No se confirma error de indexación.
+- FR no existe en Hostinger (HTTP 422), no hay hreflang francés ni entrada FR en sitemap. No es ficha completa: faltan cotejo semántico e histórico PT/EN, runtime, QA editorial, metadatos de imágenes, compilación incremental y capturas aprobadas a 1440/390.
+- Estado: auditada en producción; incompleta; 0 cambios publicados.
+
+Esta entrada corrige la siguiente ruta que aparecía en el punto anterior: Lido ya fue auditada y no debe repetirse como siguiente ficha. Conteo tanda 3: **4/50 auditadas, 0/50 completas, 0/50 publicadas**. La tanda continúa con la siguiente ruta libre priorizada por impresiones después de cruzar el inventario y las auditorías recientes.
