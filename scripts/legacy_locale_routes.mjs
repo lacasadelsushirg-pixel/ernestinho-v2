@@ -39,6 +39,7 @@ export const legacyLocaleRoutes = new Map([
   ['/gastronomia/koral/', ['f', 'full']],
   ['/gastronomia/rotisseria-sirio-libanesa/', ['f', 'full']],
   ['/gastronomia/casa-feijoada/', ['setLang', 'full']],
+  ['/gastronomia/coisas-de-bamba/', ['setLang', 'full']],
   ['/gastronomia/ocya-leblon/', ['f', 'full']],
   ['/gastronomia/nido-ristorante/', ['f', 'full']],
   ['/gastronomia/corrientes-348/', ['setLang', 'full']],

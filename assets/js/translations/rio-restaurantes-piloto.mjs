@@ -20,6 +20,16 @@ export default {
       en: 'The meal fits nicely into a day out in Leblon. For a table at a busy time, check availability and booking ahead of your visit, and leave a gap before your next activity.',
     },
   },
+  '/gastronomia/coisas-de-bamba/': {
+    'En Coisas de Bamba, antes de salir averigua si hay roda de samba, música en vivo o un encuentro especial en la fecha elegida. Confirma eventuales entradas, reservas y consumo mínimo: no todos los días ofrecen el mismo programa.': {
+      pt: 'Antes de ir ao Coisas de Bamba, descubra se haverá roda de samba, música ao vivo ou algum encontro especial na data escolhida. Confirme possíveis ingressos, reservas e consumação mínima: a programação não é igual todos os dias.',
+      en: 'Before heading to Coisas de Bamba, find out whether there will be a samba circle, live music, or a special gathering on your chosen date. Check for tickets, reservations, or a minimum spend: the programme is not the same every day.',
+    },
+    'Si quieres vivir una noche de samba en Río, organiza la ida y el regreso según el horario del evento y no solo del restaurante. El ritmo y la música forman parte de la experiencia, así que elige una mesa acorde con lo que buscas.': {
+      pt: 'Se quiser viver uma noite de samba no Rio, organize a ida e a volta de acordo com o horário do evento, não apenas com o do restaurante. O ritmo e a música fazem parte da experiência; escolha uma mesa de acordo com o que você procura.',
+      en: 'If you want to experience a samba night in Rio, plan your arrival and return around the event schedule, not just the restaurant’s hours. Rhythm and music are part of the experience, so choose a table that suits the atmosphere you want.',
+    },
+  },
 };
 
 // Keep the qualifiers and formatting added to the approved practical notes.

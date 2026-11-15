@@ -30,6 +30,7 @@ ROUTES = (
     '/gastronomia/bar-madrid/', '/gastronomia/classico-beach-club-urca/', '/gastronomia/kilograma-centro/',
     '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/',
     '/gastronomia/labuta-bar/', '/gastronomia/casa-201/', '/gastronomia/angu-do-gomes/',
+    '/gastronomia/coisas-de-bamba/',
 )
 GUIDE_ROUTES = (
     '/guia/accesibilidad/', '/guia/aeropuertos/', '/guia/alquiler-auto/',
@@ -562,7 +563,9 @@ def build(source, destination, routes=ROUTES):
     books = {}
     for section, candidates in (('guia', GUIDE_ROUTES), ('consejos', TIPS_ROUTES),
                                 ('transportes', TRANSPORT_ROUTES), ('cultura', CULTURE_ROUTES),
-                                ('fotografia', PHOTO_ROUTES), ('compras', SHOPPING_ROUTES)):
+                                ('fotografia', PHOTO_ROUTES), ('compras', SHOPPING_ROUTES),
+                                ('gastronomia', tuple(route for route in routes
+                                    if route.startswith('/gastronomia/')))):
         selected = set(routes).intersection(candidates)
         if selected:
             books.update(section_copybooks(selected, section))
@@ -587,6 +590,12 @@ def build(source, destination, routes=ROUTES):
                 if prefix in ('/pt', '/en'):
                     prerender_dynamic_source_locale(translated, route, prefix[1:])
                     pin_script_locale(translated, route, prefix[1:])
+                if route == '/gastronomia/coisas-de-bamba/':
+                    for legacy_switcher in translated.xpath(
+                            '//*[contains(concat(" ",normalize-space(@class)," ")," lang-switcher ")]'):
+                        legacy_switcher.drop_tree()
+                    for script in translated.xpath('//script[not(@type="application/ld+json")]'):
+                        script.drop_tree()
                 add_selector(translated, route)
                 save_page(counterpart, translated)
         shutil.copyfile(ROOT / 'scripts/fr-preview-browser.js', output / RUNTIME.lstrip('/'))

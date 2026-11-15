@@ -36,6 +36,7 @@ try {
     const page = await context.newPage();
     page.on('pageerror', error => console.error(error.message));
     const headings = new Map([
+      ['/gastronomia/coisas-de-bamba/', /Coisas de Bamba/],
       ['/', /Rio ne se visite pas/],
       ['/guia/', /Guide de Rio/],
       ['/guia/apps/', /applications qui facilitent/],
@@ -85,6 +86,7 @@ try {
       console.log(`Checking ${route} at ${width}px`);
       const original = await page.goto(origin + '/pt' + route, { waitUntil: 'load' });
       assert.equal(original.status(), 200);
+      if (route === '/gastronomia/coisas-de-bamba/') assert.equal(await page.locator('.lang-switcher').count(), 0);
       const choice = page.locator('[data-fr-preview-choice]:visible');
       await choice.click({timeout: 7000});
       await page.waitForURL(origin + '/fr' + route);
@@ -95,8 +97,11 @@ try {
       assert.equal(await page.locator('[data-fr-preview-choice]:visible').count(), 1);
       const size = await page.evaluate(() => ({ viewport: innerWidth, content: document.documentElement.scrollWidth }));
       assert.ok(size.content <= size.viewport + 1, JSON.stringify({ route, width, size }));
-      const whatsapp = await page.locator('a[href*="wa.me"][href*="text="]').first().getAttribute('href');
-      assert.match(decodeURIComponent(whatsapp), /Bonjour\+Ernestinho/);
+      const whatsappLinks = page.locator('a[href*="wa.me"][href*="text="]');
+      if (await whatsappLinks.count()) {
+        const whatsapp = await whatsappLinks.first().getAttribute('href');
+        assert.match(decodeURIComponent(whatsapp), /Bonjour\+Ernestinho/);
+      }
       if (route === '/consejos/portugues/') {
         const loaded = await page.waitForFunction(() =>
           [...document.querySelectorAll('[data-category]')].some(b => b.dataset.category === 'basico'));

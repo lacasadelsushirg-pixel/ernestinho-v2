@@ -1,0 +1,17 @@
+{
+  "project": "Ernestinho Carioca — fiches Gastronomie de Rio en français, staging parallèle",
+  "source_branch": "integration/fr-guia-20261113",
+  "status": "DICT_STAGING_PREVIEW_NOT_PUBLISHED",
+  "scope": [
+    {
+      "route": "/gastronomia/coisas-de-bamba/",
+      "source_sha": "9a41e2bd12e2e25f3655ed8e5d4f378cd570a70a",
+      "file": "assets/js/translations/fr/gastronomia-coisas-de-bamba-paralelo.json",
+      "entries": 60,
+      "checked_strings": 60,
+      "missing_keys": 0,
+      "qa": "Tous les textes visibles, les métadonnées, les légendes et les textes alternatifs de la source HTML ont été traduits. L'aperçu privé FR a passé l'audit de contenu, canonical, noindex, médias et liens, ainsi que Chromium à 390 px et 1440 px. Les originaux PT/EN, les médias, l'adresse et les liens restent complets ; les horaires, prix et disponibilités doivent être confirmés avant toute publication publique."
+    }
+  ],
+  "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."
+}
