@@ -119,6 +119,15 @@
       "checked_strings": 59,
       "missing_keys": 0,
       "qa": "Traduction complète des 59 chaînes éditoriales, métadonnées et alternatives ; prix, réservations et données locales à confirmer. Aperçu privé à valider en responsive."
+    },
+    {
+      "route": "/gastronomia/classico-beach-club-urca/",
+      "source_sha": "3731145622eae508dae96971f3a5ee4e0c36c5e9",
+      "file": "assets/js/translations/fr/gastronomia-classico-beach-club-urca-paralelo.json",
+      "entries": 57,
+      "checked_strings": 57,
+      "missing_keys": 0,
+      "qa": "Traduction complète des textes, métadonnées et alternatives. Aperçu privé à valider à 390 px et 1440 px ; horaires, prix et conditions d’accès à confirmer."
     }
   ],
   "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."
