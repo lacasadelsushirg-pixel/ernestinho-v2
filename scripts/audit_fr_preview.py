@@ -102,7 +102,7 @@ def verify(base, preview):
                     assert actual_scripts[-1][:2] == ('/assets/js/fr-preview.js', 'module'), (path, 'preview selector script missing')
                 assert doc.xpath('//head/link[@rel="alternate"]/@href') == original.xpath('//head/link[@rel="alternate"]/@href')
                 assert list(map(ascii_url, doc.xpath(MEDIA))) == list(map(ascii_url, original.xpath(MEDIA))), (path, 'media changed')
-                assert list(map(ascii_url, doc.xpath('//main//a/@href'))) == list(map(ascii_url, original.xpath('//main//a/@href'))), (path, 'links changed')
+                assert list(map(ascii_url, doc.xpath('//main//a[not(@data-fr-preview-choice)]/@href'))) == list(map(ascii_url, original.xpath('//main//a/@href'))), (path, 'editorial links changed')
         print(f'{route} ES/PT-BR/EN/FR verified')
 
     for path, count in inherited:
