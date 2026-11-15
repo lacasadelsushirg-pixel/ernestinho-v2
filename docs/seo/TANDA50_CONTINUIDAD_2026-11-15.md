@@ -1176,3 +1176,16 @@ GSC final (2026-10-16–11-12): ES 25 impresiones/1 clic/posición 9,0; PT 9/0/8
 **Estado:** ficha incompleta y no publicable por residuos en PT/EN, francés y QA semántico/visual pendientes. No se modificó contenido, assets ni Hostinger. Falta cotejar traducciones históricas y actualizaciones, validar fotos/alt/hrefs, terminar FR, build incremental/guard y capturas aprobadas 1440/390. **0/50 completas y 0/50 nuevas publicadas.**
 
 **Punto durable:** tanda 2: 22/50 auditadas, 0 completas, 0 publicadas, 28 pendientes. Próxima #23 Lanches Cariocas; resolver slug/blob desde la cola y producción antes de empezar. CSV actualizado en commit `e6af208089449ace540643212a7998eb71965ba7`.
+
+
+## Auditoría de producción — Lanches Cariocas (segunda tanda, ficha 23/50; 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c`, HEAD `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; HTML ES blob `8f90895dc47fa67d9b2dbbe14eebe6720698ca7b`. ES/PT-BR/EN tienen 14 párrafos cada uno sin coincidencias literales ES/PT/EN. Title, description, H1, canonical propio y alternates es/pt-BR/en/x-default están localizados/coherentes. 4 imágenes, 2 alts con texto y 28 enlaces por variante; paridad exacta de destinos/alts no revisada. La ruta FR consultada no existe, sin FR/hreflang.
+
+No hay archivo `gastronomia/lanches-cariocas/index.html` en los commits `42d03024d2c3765b0d96eb5f9763657d731baf4a` ni `8570793a992b262c5fb384a396ec949e6105775c`. En los chunks actuales, la frase inicial ES no se recuperó; el chunk `rio-residual-gastronomia-01.js` presenta solo una referencia/frase relacionada. Origen editorial íntegro no comprobado; requiere revisión semántica en particular de términos regionales y selección de vocabulario, sin asumir validez por diferencias literales.
+
+GSC final (2026-10-16–11-12): ES 10 impresiones/0 clics/posición 8,4; PT 2/0/2,0; EN 25/0/7,2. Ventana previa (2026-09-18–10-15): ES 1/0/9,0; PT sin fila; EN 3/0/7,3. Suben impresiones ES/EN, pero posición ES mejora y EN varía levemente; no se infiere causa. Inspección 3/3 indexadas, fetch successful, robots allowed y Google canonical igual al declarado; todas en sitemap. Breadcrumb “Elemento sin nombre” es alerta estructurada, no error de indexación.
+
+**Estado:** PT/EN están presentes y localizados en el HTML de producción, pero la fidelidad editorial histórica no fue probada, FR y QA visual permanecen pendientes; no completa/no publicable. Hostinger intacto; **0/50 completas y 0/50 nuevas publicadas**.
+
+**Punto durable:** tanda 2: 23/50 auditadas, 0 completas, 0 publicadas, 27 pendientes. Siguiente #24 `/gastronomia/venga-ipanema/`; verificar blob/estado antes de auditar. Inventario actualizado en commit `35a936ba55beb0fedc62f216d295b17dd47d55de`.
