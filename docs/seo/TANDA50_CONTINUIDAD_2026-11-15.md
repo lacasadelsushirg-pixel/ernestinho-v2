@@ -906,7 +906,7 @@ Base: maestro ES/PT-BR/EN/FR y GSC final (2026-10-16–2026-11-12). Excluye las 
 |---:|---|---:|---|---|---|
 | 1 | https://www.ernestinhocarioca.com.br/gastronomia/ocya-ilha/ | 109 | Auditada; indexada / Incompleta: 9/30 párrafos ES literales / Incompleta: 9/30 párrafos ES literales / Pendiente | c1938776e73a5232d6c8faa3cbfbb4cefad4ae0a | Auditada parcialmente; incompleta |
 | 2 | https://www.ernestinhocarioca.com.br/gastronomia/mee/ | 93 | Pendiente / En revisión / En revisión / Pendiente | 599c7ff00879856491c7203c36bf5931db084178 | Auditada ahora: 7/25 párrafos PT y 7/25 EN literales ES; 3/3 ES/PT/EN indexadas/fetch/canonical válidos; FR no existe. Incompleta. |
-| 3 | https://www.ernestinhocarioca.com.br/gastronomia/ryu/ | 82 | Pendiente / En revisión / En revisión / Pendiente | 5543e1e8019f0d966d972d36ce971445b42c4cd2 | Pendiente de auditoría de producción |
+| 3 | https://www.ernestinhocarioca.com.br/gastronomia/ryu/ | 82 | Pendiente / En revisión / En revisión / Pendiente | 5543e1e8019f0d966d972d36ce971445b42c4cd2 | Auditada ahora: PT 8/29 y EN 8/29 párrafos ES literales; 3/3 ES/PT/EN indexadas/fetch/canonical válidos; FR no existe. Incompleta. |
 | 4 | https://www.ernestinhocarioca.com.br/gastronomia/satyricon/ | 73 | Pendiente / En revisión / En revisión / Pendiente | e9b1b68e35db88362cbefca6fc900b7cd0d80824 | Pendiente de auditoría de producción |
 | 5 | https://www.ernestinhocarioca.com.br/gastronomia/armazem-sao-thiago/ | 69 | Pendiente / En revisión / En revisión / Pendiente | f44d6602cf96a8f7f8d070f6ee7cb9ab83a93993 | Pendiente de auditoría de producción |
 | 6 | https://www.ernestinhocarioca.com.br/gastronomia/brota/ | 62 | En revisión / Corregido o traducido / Corregido o traducido / Corregido o traducido | e31a7f7dc52c2a4f1babe297da011ca300d4cc16 | Pendiente de auditoría de producción |
@@ -960,10 +960,19 @@ Base: maestro ES/PT-BR/EN/FR y GSC final (2026-10-16–2026-11-12). Excluye las 
 
 ## Auditoría de producción — Mee (segunda tanda, ficha 2/50; 15/11/2026)
 
-Hostinger producción `revision/rendimiento-traducciones-81a904c` SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `599c7ff00879856491c7203c36bf5931db084178`. Treinta párrafos por variante? Conteo verificado: **25 por ES/PT/EN**, con **7/25 PT y 7/25 EN literalmente iguales al español**. H1/H2 base, title/description localizados; canonical propio y hreflang `es`/`pt-BR`/`en`/`x-default` válidos. No hay contenido FR en producción.
+Hostinger producción `revision/rendimiento-traducciones-81a904c` SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `599c7ff00879856491c7203c36bf5931db084178`. Conteo comprobado: **25 párrafos por ES/PT/EN**, con **7/25 PT y 7/25 EN literalmente iguales al español**. H1/H2 base, title/description localizados; canonical propio y hreflang `es`/`pt-BR`/`en`/`x-default` válidos. No hay contenido FR en producción.
 
 Imágenes 11/10/10 tags y nueve fuentes únicas comunes; alts con texto 9/11 ES, 8/10 PT/EN. Hrefs 22 ES vs 10 PT/EN pendientes de cotejo; no se modifican. GSC 16-oct–12-nov: ES 78 imp./1 clic/posición 17,9; EN 15/0/7,7; PT sin fila (93 imp. sumadas). Periodo anterior: ES 15/0/9,6; EN 49/0/6,2. La caída de EN es una señal de rendimiento, no un diagnóstico de indexación. Inspección 3/3 ES/PT/EN Submitted and indexed, fetch correcto, canonical Google=user; FR URL desconocida.
 
 Ficha no completa/no publicable: recuperación editorial/histórica de los bloques ES en PT/EN, francés completo, alts/hrefs, runtime, build incremental/guard y capturas aprobadas 1440/390 pendientes. Producción intacta.
 
 **Contabilidad de la segunda tanda:** 2/50 auditadas, 0 completas, 0 publicadas; 48 pendientes. CSV `700bc06f5d5a12da4f25ef842d0ee10a9e6c0a5b`; informe en commit documental posterior. Próxima URL #3 de la cola: `/gastronomia/ryu/`.
+
+
+## Auditoría de producción — Ryu (segunda tanda, ficha 3/50; 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c` SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `5543e1e8019f0d966d972d36ce971445b42c4cd2`. De **29 párrafos por variante, 8/29 PT y 8/29 EN son literalmente iguales al ES**. H1, metadata y H2 base localizados; canonical propio y hreflang `es`/`pt-BR`/`en`/`x-default` coherentes, sin FR.
+Imágenes 9/8/8 tags, siete URLs fuente comunes; alt con texto 7/9 ES y 6/8 PT/EN. Hrefs 21 ES frente a 9 PT/EN, pendientes de cotejo sin alterar destinos. GSC final actual: PT 82 imp./1 clic/posición 8,5; ES y EN sin fila. Periodo previo ES 9/0/7,3 y EN12/0/7,0. Inspección 3/3 ES/PT/EN Submitted and indexed, fetch SUCCESSFUL y canonical Google=user; FR URL unknown.
+No completa/no publicable: corregir y cotejar párrafos históricos PT/EN, FR integral, alts/hrefs, QA semántico/runtime, build incremental/guard y capturas aprobadas 1440/390. Hostinger intacto.
+
+**Tanda 2 actualizada:** 3/50 auditadas, 0 completas, 0 publicadas, 47 pendientes. CSV `fa446f011e6bc1449f403a94fce481ee687573b6`; informe en commit posterior. Próxima ficha #4: `/gastronomia/satyricon/`.
