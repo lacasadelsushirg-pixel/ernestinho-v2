@@ -406,3 +406,12 @@ La ficha pública en Hostinger contiene ES/PT-BR/EN. Cada documento tiene títul
 GSC final 2026-10-16–11-12: ES 474 impresiones/0 clic/posición 11,2; PT 49/0/10,4; EN sin filas. Periodo previo 2026-09-18–10-15: ES 177/0/9,8; PT/EN sin filas. ES ganó impresiones, pero su posición promedio bajó; no se infiere causa. Inspección GSC: ES y PT “Enviada e indexada”, fetch exitoso y canonical Google igual al declarado; EN “Descubierta: actualmente sin indexar”, con robots/fetch/canonical no especificados por la respuesta. Esta exclusión no confirma un fallo de rastreo o canonical.
 
 La ficha queda incompleta y no validada: falta FR, traducir el alt PT/EN y aprobar QA visual 1440/390. La inspección no cuenta como traducción completa ni cambio publicado. Inventario maestro actualizado con 1.204 filas y source SHA de Hostinger 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; cifra de impresiones 523 sumando las variantes con datos. Se mantienen las 50 URL de la tanda y el total de completadas/publicadas sigue 0/50.
+
+
+## Punto de reanudación de esta ejecución — 15/11/2026
+
+- Tanda: 50 URLs listadas en la tabla superior.
+- Este corte añadió auditoría de producción para las filas #8 Plage Café y #9 Sushi Leblon: 2/50 fichas examinadas en esta ejecución; 0 fichas completas PT-BR/EN/FR; 0 cambios publicados.
+- Próxima ficha: #10 Zazá Bistrô Tropical (`/gastronomia/zaza-bistro-tropical/`). Después continúan las filas #11–#50 tal como están enumeradas; no recertificar ni repetir hallazgos históricos sin comprobarlos.
+- Bloqueo técnico del candidato actual: Vercel failure `build-rate-limit` en el commit del último checkpoint. No desplegar ni eludir el guard. Los cambios de código del PR permanecen privados y no cuentan como publicados.
+- Fuente de producción: Hostinger y Search Console; Hostinger sigue en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. Los detalles de las filas #8 y #9 están en los bloques inmediatamente anteriores y en el inventario maestro.
