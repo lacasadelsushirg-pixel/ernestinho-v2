@@ -36,3 +36,18 @@ La inspección del builder halló la causa del texto residual: en la compilació
 El preview más reciente `ernestinho-v2-9afyi1iug-lacasadelsushirg-8125.vercel.app` devuelve ambas páginas PT con HTTP 200 y `X-Robots-Tag: noindex`; el sitemap responde 404/noindex. Tras comparar los párrafos estáticos fuente con las variantes EN/PT del mismo build, Don Camillo presenta 25/25 párrafos por idioma y 0 coincidencias literales con ES en PT y EN; Bar do Omar presenta 26/26 y 0 coincidencias literales. Los textos traducidos aparecen efectivamente en el HTML del render (incluido el segundo párrafo PT de Don Camillo). Esto resuelve el bloqueo de traducción literal en esas dos rutas y confirma que la inicialización actual del preview aplica los mapeos históricos.
 
 Este es un QA parcial PT/EN, no una aprobación editorial semántica de cada párrafo. Las dos rutas siguen fuera del recuento de fichas completas: falta francés íntegro, cotejo semántico, verificar/restaurar los enlaces generales de marca solo si se confirman como contenido aprobado, capturas aprobadas a 1440 y 390 px y QA integral de sitemap/canonical/hreflang. No se tocó Hostinger. Recuento: **0/50 completas; 0 publicadas**. Las otras tres rutas del preview no se revalidaron en este corte y siguen con el estado previo.
+
+
+## Reauditoría acumulativa después de los fixes — 15/11/2026
+
+Se inspeccionó el deployment Vercel Ready del HEAD `7a64726f78c02b3165cfe6d63412eaaa31c83db4`, todavía privado. **Las 15 páginas ES/PT-BR/EN (cinco rutas × tres idiomas) responden HTTP 200** y tienen `X-Robots-Tag: noindex`. Cada página lleva un H1 y alternates `es`, `pt-BR`, `en`, `x-default`, con canonical propio. No hay hreflang francés; `/sitemap.xml` responde 404/noindex. Todos los conjuntos de URL de fotos editoriales coinciden entre las tres variantes por ficha.
+
+| Ruta | Párrafos ES/PT/EN en HTML | Coincidencias literales PT/EN contra ES | Estado de idioma |
+|---|---:|---:|---|
+| `/gastronomia/don-camillo/` | 25/25/25 | 0/0 | PT/EN renderizan; falta FR y QA semántico |
+| `/gastronomia/bar-do-omar/` | 26/26/26 | 0/0 | PT/EN renderizan; falta FR y QA semántico |
+| `/gastronomia/spicy-fish/` | 29/29/29 | 0/0 | PT/EN renderizan; falta FR y QA semántico |
+| `/gastronomia/dumare/` | 30/30/30 | 0/0 | PT/EN renderizan; falta FR y QA semántico |
+| `/gastronomia/amendoeira/` | 24/24/24 | 0/0 | PT/EN renderizan; falta FR y QA semántico |
+
+Estos son conteos de etiquetas `<p>` estáticas en el HTML, no una aprobación de sentido o cobertura. La verificación de anclas confirma que en cada ficha se conserva el Instagram del establecimiento, pero los href generales de Instagram Ernestinho y TikTok que aparecen en ES faltan en PT/EN. Se registra como diferencia a revisar contra el bloque aprobado; no se alteraron ni añadieron enlaces. Las capturas locales siguen sin aprobación visual independiente (la carga externa de fotos tuvo `ERR_EMPTY_RESPONSE`, no un 404 confirmado; los viewports de inspección anteriores tampoco alcanzaron 1440/390 en la misma sesión). FR, QA semántico, visual y revisión humana siguen pendientes. **Estado estricto: 0/50 completas y 0 publicadas en Hostinger.**
