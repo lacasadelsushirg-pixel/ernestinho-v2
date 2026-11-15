@@ -155,6 +155,15 @@
       "checked_strings": 58,
       "missing_keys": 0,
       "qa": "Traduction complète des chaînes éditoriales, métadonnées et alternatives. Prévisualisation privée à tester à 390 px et 1440 px ; horaires et carte à reconfirmer."
+    },
+    {
+      "route": "/gastronomia/polvo-marisqueria/",
+      "source_sha": "d6a34a55109386e1742da68ebc8c658b21c4eb43",
+      "file": "assets/js/translations/fr/gastronomia-polvo-marisqueria-paralelo.json",
+      "entries": 63,
+      "checked_strings": 63,
+      "missing_keys": 0,
+      "qa": "Traduction française récupérée du copybook éditorial validé; textes visibles et métadonnées contrôlés dans la prévisualisation privée."
     }
   ],
   "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."
