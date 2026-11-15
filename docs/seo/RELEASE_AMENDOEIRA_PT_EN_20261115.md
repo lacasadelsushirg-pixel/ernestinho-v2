@@ -2,9 +2,11 @@
 
 ## Resultado del sublote
 
+El código PT/EN se registró en el commit `11b3d31bdabe377d2d45aac12bce9edb7614128a`. Se verificaron los commits históricos `42d03024d2c3765b0d96eb5f9763657d731baf4a` y `8570793a992b262c5fb384a396ec949e6105775c`: ambos contienen la fuente Amendoeira blob `685e5d6e67a31ba8372bd06ec7ae7270e4cd6797`; el HTML ES vigente en producción tiene blob `b3ed0ef51003d906992bc10b0d086b7304907627`.
+
 La ruta `/gastronomia/amendoeira/` fue cotejada contra su HTML ES actual de Hostinger y contra las salidas PT/EN existentes. En producción, varios párrafos del cuerpo PT seguían en español y título/descripción estaban en español. El candidato aplica recuperación editorial en PT-BR e inglés a los párrafos existentes y a los rótulos/metadatos, con el renderizador real de la página y el generador selectivo.
 
-**Estado:** candidato PT-BR/EN privado en PR #36; FR sigue pendiente. No es una ficha completa de cuatro idiomas ni está publicada. La producción sigue en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; cambios presentes en Hostinger por este sublote: **0**.
+**Estado:** candidato PT-BR/EN privado en PR #36; FR sigue pendiente. No es una ficha completa de cuatro idiomas ni está publicada. La producción sigue en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; el sublote tomó como base PR #36 `61a8f0a4a456bb077defdb7274c065c4b2a23e76`. El commit local referido como `332a700d` no existe en este checkout y la búsqueda remota no halló resultados; no se atribuye ese trabajo a esta ejecución. cambios presentes en Hostinger por este sublote: **0**.
 
 ## Recuperación de contenido
 

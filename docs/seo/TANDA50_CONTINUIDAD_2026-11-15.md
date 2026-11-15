@@ -150,6 +150,8 @@ Inspección GSC de las seis URLs ES/PT/EN: 6/6 `Enviada e indexada`, robots perm
 
 ### Sub-lote Amendoeira — 15/11/2026; candidato privado PT-BR/EN
 
+Código candidato: `11b3d31bdabe377d2d45aac12bce9edb7614128a`. Continuidad `332a700d`: SHA inaccesible en el checkout (`git rev-parse` no lo encuentra) y búsqueda GitHub remota sin resultados; se partió del HEAD remoto de PR #36 `61a8f0a4a456bb077defdb7274c065c4b2a23e76` sobre producción, sin atribuir trabajo inexistente.
+
 Se reauditaron la ruta ES vigente y sus variantes PT/EN de producción. PT/EN tenían párrafos aún en español y metadatos no localizados; se añadió diccionario de ruta con recuperación histórica cotejada y suplementos editoriales manuales. El candidato tiene 24 párrafos en cada idioma, H1 único, diez H2 revisados y metadatos localizados. Se conservaron los cuatro URLs de fotografías del bar, el mapa y las URLs de enlaces actuales; además se vuelve a serializar el distintivo Cadastur que aparece en ES y falta en PT/EN actual, una diferencia visible que requiere revisión.
 
 El build selectivo local renderizó 3/3 páginas de idioma; el sitemap candidato/Hostinger tiene 3.588 URLs con conjunto idéntico (FNV-1a ordenado `9fb6b50f1fe8a122`), manifest 3.612. FR no se generó ni se anuncia con hreflang. Capturas 1440/390 creadas, pero no aprobadas: Playwright devolvió `net::ERR_EMPTY_RESPONSE` al cargar medios externos; no es 404 confirmado. La fuente ES tiene blob `b3ed0ef51003d906992bc10b0d086b7304907627` en producción `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`.

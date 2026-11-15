@@ -12,7 +12,7 @@
     "pr": 36,
     "branch": "release/cervantes-pt-en-20261115",
     "parentHead": "61a8f0a4a456bb077defdb7274c065c4b2a23e76",
-    "candidateCommit": "pending"
+    "candidateCodeCommit": "11b3d31bdabe377d2d45aac12bce9edb7614128a"
   },
   "gsc": {
     "project": "7172f2fb-7456-4b35-b581-d9b11c0040f4",
@@ -116,5 +116,14 @@
     "frenchPending": true,
     "independentHumanReviewRequired": true
   },
-  "nextPriority": "/gastronomia/chama-rio-copacabana/ (1062 GSC impressions)"
+  "nextPriority": "/gastronomia/chama-rio-copacabana/ (1062 GSC impressions)",
+  "sources": {
+    "productionEsBlob": "b3ed0ef51003d906992bc10b0d086b7304907627",
+    "historicalRefs": [
+      "42d03024d2c3765b0d96eb5f9763657d731baf4a",
+      "8570793a992b262c5fb384a396ec949e6105775c"
+    ],
+    "historicalPageBlob": "685e5d6e67a31ba8372bd06ec7ae7270e4cd6797",
+    "historicalPageSameBlobAcrossRefs": true
+  }
 }
