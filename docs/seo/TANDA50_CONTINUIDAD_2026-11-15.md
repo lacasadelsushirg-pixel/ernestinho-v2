@@ -615,3 +615,14 @@ Hostinger ES/PT/EN rerevisado. El HTML ES del espejo de producción tiene blob S
 - Falta recuperar PT/EN, añadir FR editorial, QA semántico, build/guard incremental y capturas aprobadas 1440/390. No completa.
 
 **Contabilidad que sustituye el corte anterior:** 30/50 auditadas; 0/50 completas; 0/50 nuevas publicadas en Hostinger; 20 pendientes. Próxima ruta libre de la cola por impresiones: `/gastronomia/cervantes-copacabana/` (176 del corte de prioridad; volver a consultar GSC).
+
+## Auditoría de producción — Cervantes Copacabana (corte del run, 15/11/2026)
+
+Hostinger ES/PT/EN rerevisado; HTML ES mirror blob SHA `abdc48e525942bf73fe72daefee731ea38819bf4` en prod `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. FR no existe y Google no reconoce la URL.
+
+- ES tiene 20 párrafos, PT/EN 19; siete párrafos completos de cada variante coinciden literalmente con ES. Títulos localizados; la descripción y alts de PT/EN siguen en español. Imágenes 11/10/10, nueve fuentes únicas iguales; href 18/7/7: faltan 11 destinos de ES. No se modificaron.
+- Las rutas con slash final están enviadas/indexadas, fetch exitoso y canonical Google=declarado. Dato aparte confirmado en inspección de URL ES sin slash: figura indexada, fetch SUCCESSFUL, Google canonical a esa URL sin slash pero user canonical a la portada. GSC muestra una impresión actual sin slash y tres en la ventana previa; esto es una discrepancia canónica específica, no se generaliza a las tres rutas canónicas.
+- GSC slash final 16-oct–12-nov: ES 153/1 clic/pos10,0; PT16/0/7,7; EN6/0/5,8. Ventana anterior: ES30/0/10,4; PT16/0/8,8; EN20/0/8,5. Sumando la variante sin slash: 176 impresiones ahora, 69 previas. No hubo caída total; impresiones por idioma variaron. FR desconocida.
+- Falta recuperar PT/EN, alts/metadatos, FR completa, evaluar/corregir con guard el canonical de la variante sin slash, QA build y capturas 1440/390. No completa.
+
+**Contabilidad vigente que sustituye el corte anterior:** 31/50 auditadas, 0/50 completas, 0/50 nuevas publicadas; 19 pendientes. Próxima prioridad de la tabla: `/gastronomia/rotisseria-sirio-libanesa/` (176 impresiones; inspeccionar si los documentos de traducción realmente existen).
