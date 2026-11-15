@@ -295,7 +295,7 @@ Corte de priorización: Search Console final, 2026-10-16–11-12, páginas de Ga
 | 3 | https://www.ernestinhocarioca.com.br/gastronomia/spicy-fish/ | A/U/U/P | 381 / 2 | PT/EN preview 200/noindex, autocanonical, indexed GSC; FR/QA visual y semántica pendientes; prod 21bb687; preview 846de45 |
 | 4 | https://www.ernestinhocarioca.com.br/gastronomia/amendoeira/ | A/P/P/P | 195 / 1 | PT/EN preview 200/noindex, autocanonical, indexed GSC; FR/QA visual y semántica pendientes; prod 21bb687; preview 846de45 |
 | 5 | https://www.ernestinhocarioca.com.br/gastronomia/dumare/ | A/U/U/P | 521 / 2 | PT/EN preview 200/noindex, autocanonical, indexed GSC; FR/QA visual y semántica pendientes; prod 21bb687; preview 846de45 |
-| 6 | https://www.ernestinhocarioca.com.br/gastronomia/chama-rio-copacabana/ | P/P/P/P | 1062 / 3 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 6 | https://www.ernestinhocarioca.com.br/gastronomia/chama-rio-copacabana/ | Hostinger ES: GSC descubierta/no indexada | Hostinger PT: 20 p, canonical propio, GSC indexada | Hostinger EN: 20 p, canonical propio, GSC indexada | FR ausente | 1.062 / 3 | No completa: faltan 11 enlaces ES en PT/EN, FR y QA visual |
 | 7 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-siqueira/ | P/R/R/R | 991 / 5 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 8 | https://www.ernestinhocarioca.com.br/gastronomia/plage-cafe/ | P/P/P/P | 869 / 10 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 9 | https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/ | P/R/R/R | 523 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
@@ -367,3 +367,14 @@ El candidato del PR #36 sigue fuera de Hostinger. Su HEAD documental `e60e608544
 El último commit documental actualizó la cobertura global del CSV. PR #36 HEAD ahora es `5807d842ce724f014d8af11c3d1de9ac7c426033` sobre producción `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. Su check Vercel figura **pending** en la reconsulta, con destino `5ECp5QG9B8BF68Z6XUREvNtwJLd1`; el fallo `build-rate-limit` se observó en los HEAD anteriores `e60e608...` y `a557bc7...`, no se debe atribuir como resultado final del nuevo intento hasta que el check concluya. No se inició ningún bypass ni publicación.
 
 Hostinger mantiene manifest sourceCommit y sitemap en la base de producción. Recuento confirmado: 3.588 URL únicas (1.196 por idioma) y 3.612 rutas únicas generadas; ningún FR indexable ni alternate FR. Tanda: tabla de 50 locales, 5 candidatos PT/EN en preview estructural, 45 por revalidar, 0 completas, 0 publicadas. Próxima ruta: Chama Rio Copacabana. 
+
+
+## Auditoría de producción — Chama Rio Copacabana (fila 6) — 15/11/2026
+
+Hostinger fue leído en las tres rutas. ES/PT/EN presentan 20 párrafos, 1 H1, 7 H2, 1 H3 y un iframe de mapa cada uno; PT y EN tienen títulos localizados y canonical propio. Las seis fotos editoriales tienen los mismos `src` en los tres idiomas y no hay alt vacíos en esta página. La diferencia de cantidad de etiquetas `img` (ES 10 frente a PT/EN 9) procede de una aparición duplicada del logo de marca en ES, no de una foto editorial ausente.
+
+El cotejo de enlaces normalizando prefijos PT/EN identificó 11 href del ES que no aparecen en PT ni EN: `/`, `/guia/`, `/experiencias/`, `/transportes/`, `/hospedaje/`, `/compras/`, `/cafe-rio/`, `/destinos/buzios/`, `/consejos/`, Instagram y TikTok. No se cambiaron enlaces, navegación ni widgets.
+
+Search Console por URL, final 2026-10-16–11-12: PT 995 impresiones, 3 clics, CTR 0,30%, posición 6,9; EN 67 impresiones, 0 clics, posición 9,6. Inspección 2026-11-15: PT y EN “Submitted and indexed”, robots ALLOWED, fetch SUCCESSFUL y Google canonical igual a user canonical. ES: “Discovered - currently not indexed”; robots/fetch/indexing state no especificados en la respuesta. Es exclusión de descubrimiento, sin un fallo de fetch/canonical confirmado.
+
+La copia de producción sí ofrece texto en PT/EN, pero la ficha queda pendiente de enlaces, FR, QA editorial integral y capturas; no cuenta como completa. Fuente confirmada: HTML vivo de Hostinger; este run no cotejó el historial Git de la ficha. Conteo estricto de la tanda sigue **0/50 completas; 0 cambios nuevos publicados**. Las primeras cinco rutas continúan siendo solo candidatas PT/EN estructurales en preview privado.
