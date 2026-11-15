@@ -41,3 +41,5 @@ node scripts/test_fr_preview.mjs ../preview-guia ../capturas-guia
 - Ampliación del 14 de noviembre: `/gastronomia/bar-do-mineiro/` traducida en 54 cadenas únicas, con historia, consejos, datos prácticos, mapa y textos alternativos. Auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan. Horarios, precios, teléfonos y operación del bonde quedan sujetos a confirmación oficial. Staging privado con canonical propio, `noindex` y fuera del sitemap.
 
 - Ampliación del 14 de noviembre: `/gastronomia/amendoeira/` traducida en 54 cadenas únicas. Se conservan los datos y medios originales; auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan. Horarios, carta y operación sujetos a confirmación. Preview privado con canonical propio, `noindex` y fuera del sitemap.
+
+- Ampliación del 14 de noviembre: `/gastronomia/pavao-azul/` traducida íntegramente al francés en 51 cadenas, incluidos metadatos, consejos, información práctica y alternativas. Auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan; precios, horarios y disponibilidad deben verificarse. Preview privado con canonical francés, `noindex` y fuera del sitemap.
