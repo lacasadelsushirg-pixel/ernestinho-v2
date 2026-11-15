@@ -155,7 +155,7 @@ function adaptLegacyScripts(html,sourcePath){
   if(sourcePath==='/compras/mercado-sao-pedro/')code=code.replace(/function lang\(/g,'function ecMarketLanguage(').replace(/=>lang\(/g,'=>ecMarketLanguage(').replace(/;lang\(/g,';ecMarketLanguage(');
   // These approved restaurant pages already contain their original positional PT/EN dictionaries.
   // Select the route locale when rendering their static pages instead of forcing Spanish.
-  if(['/gastronomia/haru/','/gastronomia/fogo-de-chao-botafogo/'].includes(sourcePath)){
+  if(['/gastronomia/haru/','/gastronomia/fogo-de-chao-botafogo/','/gastronomia/dumare/'].includes(sourcePath)){
    const pageLocale="(document.documentElement.lang==='pt-BR'?'pt':document.documentElement.lang==='en'?'en':'es')";
    code=code.replace("setLang('es')",`setLang(${pageLocale})`)
     .replace("full('es')",`full(${pageLocale})`);
