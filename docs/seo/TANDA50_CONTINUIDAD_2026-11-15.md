@@ -282,3 +282,63 @@ Revisión real de capturas 390 px before/after de Don Camillo PT y Bar do Omar E
 Se atendieron primero Don Camillo y Bar do Omar; se extendió la verificación a Spicy Fish, Amendoeira y Dumaré según prioridad de impresiones. Las cinco páginas tienen ES/PT/EN en preview privado con 200/noindex, canonical por ruta, conteos de párrafos completos y cero coincidencias literales PT/EN contra ES (Don 25; Bar 26; Spicy 29; Amendoeira 24; Dumaré 30). GSC inspeccionó las 10 variantes PT/EN de esas cinco: las diez están enviadas e indexadas, con Google canonical igual al declarado, robots permitido y fetch exitoso. Esto no confirma semántica editorial ni equivalencia visual y no cubre FR.
 
 Tally de etapa: **5/50 fichas con PT/EN de preview estructuralmente verificado; 0/50 completas; las otras 45 aún no se revalidaron en este corte; 0 publicadas**. La tabla inicial conserva las 50 URL y su referencia de estado histórico; no heredar “validada” en esta ejecución sin comprobar la ficha. GSC de rendimiento y estado de indexación separados en `docs/seo/PREVIEW_AUDIT_5_RUTAS_20261115.md`; maestro cuatro idiomas actualizado. SHA de trabajo de código que presenta estas 5 respuestas: `846de45ab8cdcbaf58f26dd7bf97e30feb29870b`; commits posteriores documentan solamente; último HEAD del PR debe refrescarse tras el siguiente update.
+
+
+## Cola activa de la tanda 50 — 50 URL y estado inventariado (15/11/2026)
+
+Corte de priorización: Search Console final, 2026-10-16–11-12, páginas de Gastronomía, 456 URLs con datos. Primero se retoman Don Camillo y Bar do Omar; se añaden Spicy Fish, Amendoeira y Dumaré; el resto se ordena por impresiones agregadas ES/PT-BR/EN y se limita a rutas incompletas del maestro actual. Los códigos ES/PT/EN/FR en la tabla son los estados del inventario al HEAD documental `b52657fc09b925c4eb9a486e3473cc8185095fe2`: V=Validado históricamente, P=Pendiente, R=En revisión, C=Corregido/traducido sin QA final, A=auditado parcial. Las rutas 6–50 **no se recertificaron en este run**; no declarar QA ni publicación desde la etiqueta histórica. Todos los 50 pertenecen a producción `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; solo las cinco primeras tienen candidato privado consultado en deployment `846de45ab8cdcbaf58f26dd7bf97e30feb29870b`.
+
+| # | URL | ES/PT/EN/FR inventario | GSC 28d impresiones / clics | Estado de esta ejecución |
+|---:|---|---|---:|---|
+| 1 | https://www.ernestinhocarioca.com.br/gastronomia/don-camillo/ | A/U/U/P | 134 / 1 | PT/EN preview 200/noindex, autocanonical, indexed GSC; FR/QA visual y semántica pendientes; prod 21bb687; preview 846de45 |
+| 2 | https://www.ernestinhocarioca.com.br/gastronomia/bar-do-omar/ | A/V/V/P | 220 / 1 | PT/EN preview 200/noindex, autocanonical, indexed GSC; FR/QA visual y semántica pendientes; prod 21bb687; preview 846de45 |
+| 3 | https://www.ernestinhocarioca.com.br/gastronomia/spicy-fish/ | A/U/U/P | 381 / 2 | PT/EN preview 200/noindex, autocanonical, indexed GSC; FR/QA visual y semántica pendientes; prod 21bb687; preview 846de45 |
+| 4 | https://www.ernestinhocarioca.com.br/gastronomia/amendoeira/ | A/P/P/P | 195 / 1 | PT/EN preview 200/noindex, autocanonical, indexed GSC; FR/QA visual y semántica pendientes; prod 21bb687; preview 846de45 |
+| 5 | https://www.ernestinhocarioca.com.br/gastronomia/dumare/ | A/U/U/P | 521 / 2 | PT/EN preview 200/noindex, autocanonical, indexed GSC; FR/QA visual y semántica pendientes; prod 21bb687; preview 846de45 |
+| 6 | https://www.ernestinhocarioca.com.br/gastronomia/chama-rio-copacabana/ | P/P/P/P | 1062 / 3 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 7 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-siqueira/ | P/R/R/R | 991 / 5 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 8 | https://www.ernestinhocarioca.com.br/gastronomia/plage-cafe/ | P/P/P/P | 869 / 10 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 9 | https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/ | P/R/R/R | 523 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 10 | https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/ | P/R/R/R | 481 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 11 | https://www.ernestinhocarioca.com.br/gastronomia/terra-brasilis/ | P/P/P/P | 451 / 3 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 12 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-lido/ | P/R/R/P | 447 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 13 | https://www.ernestinhocarioca.com.br/gastronomia/ | P/R/P/P | 411 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 14 | https://www.ernestinhocarioca.com.br/gastronomia/galeto-sats/ | P/P/P/P | 360 / 4 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 15 | https://www.ernestinhocarioca.com.br/gastronomia/haru/ | P/R/R/P | 313 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 16 | https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/ | P/R/R/R | 272 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 17 | https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/ | P/R/R/R | 263 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 18 | https://www.ernestinhocarioca.com.br/gastronomia/frontera-ipanema/ | P/R/R/P | 254 / 1 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 19 | https://www.ernestinhocarioca.com.br/gastronomia/temperarte-posto6/ | P/R/R/P | 241 / 1 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 20 | https://www.ernestinhocarioca.com.br/gastronomia/colombo-do-forte/ | P/R/R/R | 238 / 2 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 21 | https://www.ernestinhocarioca.com.br/gastronomia/faenza-copacabana/ | R/C/C/C | 224 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 22 | https://www.ernestinhocarioca.com.br/gastronomia/maska/ | P/R/R/R | 221 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 23 | https://www.ernestinhocarioca.com.br/gastronomia/oteque/ | P/R/R/R | 210 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 24 | https://www.ernestinhocarioca.com.br/gastronomia/cipriani/ | P/P/R/P | 208 / 3 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 25 | https://www.ernestinhocarioca.com.br/gastronomia/temperarte-bolivar/ | P/R/R/P | 197 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 26 | https://www.ernestinhocarioca.com.br/gastronomia/fast-food/ | P/P/P/P | 194 / 2 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 27 | https://www.ernestinhocarioca.com.br/gastronomia/merci/ | P/P/P/P | 193 / 2 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 28 | https://www.ernestinhocarioca.com.br/gastronomia/cafe-lamas/ | P/R/R/R | 183 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 29 | https://www.ernestinhocarioca.com.br/gastronomia/lasai/ | U/U/U/P | 180 / 2 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 30 | https://www.ernestinhocarioca.com.br/gastronomia/tacaca-do-norte/ | P/R/R/P | 180 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 31 | https://www.ernestinhocarioca.com.br/gastronomia/cervantes-copacabana/ | A/P/P/P | 176 / 1 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 32 | https://www.ernestinhocarioca.com.br/gastronomia/rotisseria-sirio-libanesa/ | R/C/C/C | 176 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 33 | https://www.ernestinhocarioca.com.br/gastronomia/guacamole-copacabana/ | P/P/P/P | 169 / 1 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 34 | https://www.ernestinhocarioca.com.br/gastronomia/churrasqueira-rio/ | P/R/R/R | 166 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 35 | https://www.ernestinhocarioca.com.br/gastronomia/garota-de-ipanema/ | P/R/R/P | 165 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 36 | https://www.ernestinhocarioca.com.br/gastronomia/bar-urca/ | P/R/R/P | 164 / 1 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 37 | https://www.ernestinhocarioca.com.br/gastronomia/polis-sucos/ | P/R/R/P | 161 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 38 | https://www.ernestinhocarioca.com.br/gastronomia/feira-sao-cristovao/ | P/R/R/P | 160 / 2 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 39 | https://www.ernestinhocarioca.com.br/gastronomia/la-bicyclette/ | P/R/R/P | 148 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 40 | https://www.ernestinhocarioca.com.br/gastronomia/chez-claude/ | A/P/P/P | 146 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 41 | https://www.ernestinhocarioca.com.br/gastronomia/stalos/ | P/R/R/P | 145 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 42 | https://www.ernestinhocarioca.com.br/gastronomia/giuseppe-mar/ | P/R/R/P | 142 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 43 | https://www.ernestinhocarioca.com.br/gastronomia/aipo-aipim-391/ | P/R/R/P | 141 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 44 | https://www.ernestinhocarioca.com.br/gastronomia/hollandaise/ | P/R/R/P | 137 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 45 | https://www.ernestinhocarioca.com.br/gastronomia/mocellin-steak/ | P/R/R/P | 134 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 46 | https://www.ernestinhocarioca.com.br/gastronomia/jobi/ | P/R/R/P | 132 / 1 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 47 | https://www.ernestinhocarioca.com.br/gastronomia/stambul-copa/ | P/R/R/P | 130 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 48 | https://www.ernestinhocarioca.com.br/gastronomia/oro/ | P/R/R/P | 129 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 49 | https://www.ernestinhocarioca.com.br/gastronomia/sel-ipanema/ | P/R/R/P | 129 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 50 | https://www.ernestinhocarioca.com.br/gastronomia/joaquina/ | P/R/R/P | 124 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+
+Contabilidad del lote al cierre: 5/50 con candidato PT/EN estructuralmente comprobado, 0/50 completas bajo las condiciones PT/EN/FR + QA integral, y 0 publicadas. Las otras 45 siguen en la lista con estados explícitos, sin certificación nueva. Punto de continuación: avanzar de la fila 6 hacia abajo por GSC; si se bloquea una ruta, documentar el bloqueo y seguir con la siguiente elegible.
