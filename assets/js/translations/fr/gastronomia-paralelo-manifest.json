@@ -11,6 +11,15 @@
       "checked_strings": 60,
       "missing_keys": 0,
       "qa": "Tous les textes visibles, les métadonnées, les légendes et les textes alternatifs de la source HTML ont été traduits. L'aperçu privé FR a passé l'audit de contenu, canonical, noindex, médias et liens, ainsi que Chromium à 390 px et 1440 px. Les originaux PT/EN, les médias, l'adresse et les liens restent complets ; les horaires, prix et disponibilités doivent être confirmés avant toute publication publique."
+    },
+    {
+      "route": "/gastronomia/ct-boucherie/",
+      "source_sha": "6812de7ebb555631efc049bb461603190158e968",
+      "file": "assets/js/translations/fr/gastronomia-ct-boucherie-paralelo.json",
+      "entries": 56,
+      "checked_strings": 56,
+      "missing_keys": 0,
+      "qa": "Traduction éditoriale complète de 56 chaînes visibles, métadonnées, légendes et textes alternatifs. Aperçu FR audité ; Chromium valide le changement de langue et l’absence de débordement à 390 px et 1440 px. Les horaires et disponibilités doivent être confirmés avant publication."
     }
   ],
   "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."
