@@ -53,3 +53,5 @@ node scripts/test_fr_preview.mjs ../preview-guia ../capturas-guia
 - Ampliación del 14 de noviembre: `/gastronomia/classico-beach-club-urca/` completada en francés, incluidas recomendaciones, información práctica, metadatos y textos alternativos. Auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan; horarios, precios y disponibilidad sujetos a confirmación. Preview noindex, canonical francés y fuera del sitemap.
 
 - Ampliación del 14 de noviembre: `/gastronomia/fogo-de-chao-botafogo/` completada en francés con 59 cadenas, contenido editorial, metadatos y alternativas. Auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan; horarios y tarifas sujetos a confirmación. Preview privado noindex, canonical francés y fuera del sitemap.
+
+- Ampliación del 14 de noviembre: `/gastronomia/bar-madrid/` traducida al francés en 56 cadenas, con contenido editorial, metadatos y textos alternativos. Auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan; carta y horarios deben confirmarse. Preview privado noindex, canonical propio y fuera del sitemap.

@@ -137,6 +137,15 @@
       "checked_strings": 59,
       "missing_keys": 0,
       "qa": "Traduction complète des chaînes éditoriales, informations pratiques, métadonnées et alternatives. Aperçu privé à tester à 390 px et 1440 px ; horaires et tarifs à revérifier."
+    },
+    {
+      "route": "/gastronomia/bar-madrid/",
+      "source_sha": "5e1ddf8fd29ca20c23171b43d1cfbc1884b2786f",
+      "file": "assets/js/translations/fr/gastronomia-bar-madrid-paralelo.json",
+      "entries": 56,
+      "checked_strings": 56,
+      "missing_keys": 0,
+      "qa": "Traduction complète des chaînes visibles, éditoriales, pratiques, métadonnées et alternatives. Aperçu privé à tester à 390 px et 1440 px ; menu et horaires à confirmer."
     }
   ],
   "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."
