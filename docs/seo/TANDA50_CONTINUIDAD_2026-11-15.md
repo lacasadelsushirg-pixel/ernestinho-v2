@@ -168,3 +168,14 @@ GSC 2026-08-12–2026-11-12: 310 impresiones (ES 195/PT 112/EN 3); no se infiere
 - Chama Rio: PT 995/3/6,9; EN 67/0/9,6; ES sin fila de impresiones. Inspección ES «Descubierta: actualmente sin indexar», sin fetch/canonical; exclusión observable, no error confirmado. PT/EN indexadas.
 - Don Camillo y Bar do Omar PT/EN: las cuatro URLs de inspección «Enviada e indexada», fetch exitoso/canonical coincidente.
 - Estado de tanda: 0/50 completas ES/PT-BR/EN/FR con QA aprobado, 0 nuevas publicadas. Retomar la verificación del Preview route-selective en 15 HTML; no añadir ruta nueva ni contar ninguna ficha hasta QA 1440/390, medios/enlaces, contenido, canonical/hreflang y sitemap base sin cambios.
+
+
+### Corte posterior: verificación real del preview 15/11/2026
+
+PR #36 route-selective, código de preview `7b587a7070e6a3854b2cfa31ce538bcb8a8157d6`; commit de inventario que registra este corte `b8bf385cc5d1afb55fd0dfd0aec745d5f1275c7a`. La rama sigue sobre producción Hostinger `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; Hostinger no recibió cambios.
+
+Las 15 variantes ES/PT/EN de Don Camillo, Bar do Omar, Spicy Fish, Dumaré y Amendoeira responden 200, devuelven `X-Robots-Tag: noindex`, canonical propio y alternates ES/PT-BR/EN/x-default; FR no está enlazado y `/sitemap.xml` no existe en preview. Las URL de fotos del establecimiento coinciden entre ES/PT/EN en las cinco páginas. Se detectaron enlaces generales de Instagram y TikTok presentes en ES que faltan en PT/EN en las cinco; cotejar bloque aprobado antes de corregir.
+
+Hallazgo que bloquea texto: Don Camillo conserva siete párrafos de ES literalmente en PT y EN; Bar do Omar conserva nueve en PT y ocho en EN. Spicy Fish, Dumaré y Amendoeira no tienen párrafos literalmente iguales en la comprobación, pero esto no es prueba de cobertura semántica y siguen sin FR/QA integral. Captura navegador exploratoria fue 1344×928 con imagen de fachada cargada; viewport solicitado 1440 no alcanzado y 390 sigue bloqueado, por lo que QA visual no aprobado.
+
+Estado en la fila 1–50: candidatas PT/EN privadas 5; fichas completas de cuatro idiomas aprobadas **0/50**; cambios publicados en Hostinger **0**. Retomar primero la corrección de traducciones Don/Bar y el cotejo/restauración de enlaces generales aprobados; conservar noindex y no expandir lote hasta QA visual 1440/390, francés completo, sitemap/canonical/hreflang y guard con revisión humana independiente.
