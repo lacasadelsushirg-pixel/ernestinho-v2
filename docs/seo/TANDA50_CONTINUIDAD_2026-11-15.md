@@ -1348,3 +1348,12 @@ GSC final (2026-10-16–11-12): ES 67 imp./0 clics/posición 20,4; PT sin fila; 
 - GSC 2026-10-16–2026-11-12: ES 307 impresiones/2 clics/posición 10,8; PT 106/0/10,6; EN 38/1/6,4 (451 impresiones, 3 clics). En 2026-09-18–2026-10-15: ES 145/0/8,9 y PT/EN sin filas. No equiparar ausencia de filas con errores.
 - Estado: ES revisada; PT/EN en revisión; FR pendiente/no existe. Pendientes: cotejo semántico íntegro, revisión de todos los alt/enlaces, renderer real, capturas 1440/390 e incremental/guard. No completa ni publicada.
 - Contabilidad tanda 2: 38/50 auditadas; 0/50 completas; 0 publicadas; 12 pendientes. Siguiente en cola por GSC: `/gastronomia/haru/` (482 impresiones en el corte anterior); recontar cifras y revisar origen antes de contar.
+
+## Auditoría de producción — Haru Sushi Bar (segunda tanda, ficha 39/50; 15/11/2026)
+
+- Producción Hostinger branch revision/rendimiento-traducciones-81a904c, SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; fuente ES GitHub blob 6f897d6c60ca36d476d916d93d9e8b9ae25d1f97. Los commits `42d03024...` y `8570793...` resuelven la ruta a blob histórico fe386569efb465706a8c85563beeb7f5f0550296.
+- Hostinger: 23 párrafos por idioma; 9 párrafos (índices 1–7 y 17–18) son idénticos en ES/PT/EN. Es una pérdida de localización confirmada; PT y EN no están completos. Títulos/descripciones y headings sí están localizados. Los alt de fotos en PT/EN siguen siendo ES/PT en la muestra; 11 imágenes por locale y dos alt vacíos.
+- Canonicals y alternates es/pt-BR/en/x-default son propias. GSC inspección 3/3 enviadas/indexadas, robots allowed, fetch successful y Google canonical = declarada. Breadcrumb sin nombre, cuando aparece, se trata como alerta estructurada. FR no existe (HTTP 422), fuera de hreflang.
+- GSC 2026-10-16–2026-11-12: ES 261 impresiones/0 clics/posición 16,6; PT 14/0/7,6; EN 38/0/7,1. Periodo anterior: ES 89/0/10,4; PT 37/0/10,5; EN 43/0/8,7. El volumen total cambió de 169 a 313 y la posición ES empeoró; no atribuimos causa sin datos adicionales.
+- Estado: ES revisada, PT/EN bloqueadas por párrafos ES en salida; FR pendiente/no existe. Falta cotejar el diccionario histórico para elegir la recuperación correcta, runtime, capturas 1440/390, QA de metadatos/alt/enlaces y build/guard. No completa ni publicada.
+- Contabilidad tanda 2: 39/50 auditadas; 0/50 completas; 0 publicadas; 11 pendientes. Siguiente candidata en la cola por impresiones: Galeto Sats (463 en el corte amplio previo); revalidar datos actuales.
