@@ -27,6 +27,8 @@ function localize(){
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
     if(!raw||raw.startsWith('#')||/^(?:mailto:|tel:|javascript:|data:)/i.test(raw))continue;
+    // Keep explicit language-switch links pointed at their own language roots.
+    if(link.hasAttribute('lang'))continue;
     let url;try{url=new URL(raw,location.href)}catch{continue}
     const onProductionFr=location.pathname.startsWith('/fr/');
     if(onProductionFr && url.origin===location.origin && !url.pathname.startsWith('/fr/')){
