@@ -30,7 +30,7 @@ function localize(){
     let url;try{url=new URL(raw,location.href)}catch{continue}
     const pagePath=url.pathname.startsWith(previewRoot)?url.pathname.slice(previewRoot.length):null;
     if(isPreview && url.origin===location.origin && pagePath===null){
-      const sourcePath=url.pathname.replace(/^\\/+/, '');
+      const sourcePath=url.pathname.replace(/^\/+/, '');
       if(readyRoutes.has('fr/'+sourcePath)){
         link.href=location.origin+previewRoot+'fr/'+sourcePath+url.search+url.hash;
         continue;
