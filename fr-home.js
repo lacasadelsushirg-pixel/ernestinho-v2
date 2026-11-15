@@ -32,8 +32,8 @@ function localize(){
     if(url.origin===location.origin && pagePath!==null && !pagePath.startsWith('assets/')){
       if(readyRoutes.has(pagePath))continue;
       // An unfinished French route must lead to the approved Spanish source, never a 404.
-      const untranslated=pagePath.replace(/^fr\\//,'');
-      if(!/^(?:api|\\.well-known)\\//.test(untranslated))link.href=ROOT+untranslated+url.search+url.hash;
+      const untranslated=pagePath.startsWith('fr/')?pagePath.slice(3):pagePath;
+      if(!untranslated.startsWith('api/') && !untranslated.startsWith('.well-known/'))link.href=ROOT+untranslated+url.search+url.hash;
     }
   }
   for(const el of document.querySelectorAll('[src],[srcset]')){
