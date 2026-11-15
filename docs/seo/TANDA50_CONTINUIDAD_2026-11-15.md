@@ -1103,3 +1103,15 @@ Hay 12 imágenes, 10 alts con texto y 26 enlaces por idioma; el cotejo de fuente
 **Estado:** ES auditada; PT/EN con un bloque residual literal y origen/QA semántico pendientes; FR ausente; no cuenta completa/no publicable. Falta fuente fiel, cotejo editorial, FR íntegro, paridad de medios/enlaces, build incremental/guard y capturas 1440/390. Producción intacta. CSV `ec660ad1fc307cc4ade0b20faeffb5598f038552`.
 
 **Punto durable:** tanda 2 de 50, 16/50 auditadas, 0 completas, 0 publicadas, 34 pendientes. Próxima #17 `/gastronomia/casa-porto/`, blob HTML ES producción `a763223f928ef4eaef4889c0d8a88ad8ffa50f88`.
+
+## Auditoría de producción — Casa Porto (segunda tanda, ficha 17/50; 15/11/2026)
+
+Hostinger producción, rama `revision/rendimiento-traducciones-81a904c`, HEAD `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob de la ficha ES en GitHub `a763223f928ef4eaef4889c0d8a88ad8ffa50f88`. Se comprobaron los HTML ES, PT-BR y EN en Hostinger: 25 párrafos por variante y ninguna coincidencia literal de párrafo PT/EN con ES. Los títulos, descripciones y H1 están localizados/conservan el nombre del restaurante; canonical propio y alternates es/pt-BR/en/x-default son coherentes. Se encontraron 12 imágenes, 10 alt con texto y 26 enlaces por variante; equivalencia de src, alts y hrefs todavía requiere cotejo específico. En la ruta FR consultada `/fr/gastronomia/casa-porto/` Hostinger devuelve “File does not exist”; no hay FR/hreflang FR para esta ficha.
+
+El HTML de producción contiene diccionarios embebidos PT/EN con contenido editorial, así que ambos renderizadores están presentes en los archivos de producción. No se halló entrada específica de Casa Porto en los cuatro chunks gastronómicos productivos consultados; no atribuyo el texto actual a una recuperación histórica. Hace falta revisar correspondencia semántica del texto y metadata, además de las imágenes/enlaces y QA visual.
+
+GSC final (2026-10-16–11-12): ES 32 impresiones/1 clic/posición 25,6; EN 6/0/6,7; PT sin fila. Periodo anterior (2026-09-18–10-15): ES 7/0/22,3; no había fila EN. ES y EN inspeccionadas como indexadas, fetch correcto y canonical de Google igual al declarado; EN figura en sitemap. PT: “Google no reconoce esta URL”, sin estado de fetch/canonical; se registra como desconocido, no error confirmado. Rich results muestra breadcrumb “Elemento sin nombre” en ES/EN: alerta estructurada separada de la indexación.
+
+**Estado:** PT/EN presentes y renderizados en producción; FR ausente; ficha auditada pero incompleta bajo el criterio estricto, no validada como terminada y no publicable en cuatro idiomas. No se modificó Hostinger. Faltan revisión semántica, cotejo de fotos/alt/enlaces, FR integral, pruebas de build incremental/guard y capturas aprobadas en 1440/390 px. Producción mantiene 0 cambios nuevos publicados.
+
+**Punto durable:** tanda 2 de 50: 17/50 auditadas, 0 completas, 0 publicadas, 33 pendientes. Próxima #18 `/gastronomia/alloro/`; ES/PT/EN aún sin auditar en esta tanda. CSV actualizado mediante commit `982f6ab81564be29aa7f36ff8689b2641146924d`.
