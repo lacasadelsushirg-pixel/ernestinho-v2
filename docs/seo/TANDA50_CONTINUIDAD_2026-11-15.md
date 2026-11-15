@@ -297,7 +297,7 @@ Corte de priorización: Search Console final, 2026-10-16–11-12, páginas de Ga
 | 5 | https://www.ernestinhocarioca.com.br/gastronomia/dumare/ | A/U/U/P | 521 / 2 | PT/EN preview 200/noindex, autocanonical, indexed GSC; FR/QA visual y semántica pendientes; prod 21bb687; preview 846de45 |
 | 6 | https://www.ernestinhocarioca.com.br/gastronomia/chama-rio-copacabana/ | ES GSC descubierta; PT/EN live e indexadas; FR ausente | 1.062 / 3 | Hostinger PT/EN 20 párrafos, títulos/canonical propios y fotos editoriales coincidentes; 11 enlaces ES faltan en PT/EN; FR y QA visual pendientes, no completa |
 | 7 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-siqueira/ | ES indexada; PT descubierta/no indexada; EN desconocida; FR ausente | 991 / 5 | Hostinger: PT/EN 25 párrafos, títulos SEO y 7 alts siguen en ES; 7 fotos y 19 enlaces preservados; falta FR/QA visual, no completa |
-| 8 | https://www.ernestinhocarioca.com.br/gastronomia/plage-cafe/ | P/P/P/P | 869 / 10 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 8 | https://www.ernestinhocarioca.com.br/gastronomia/plage-cafe/ | ES/PT/EN presentes en Hostinger y GSC indexadas; texto ES residual en PT/EN (1 párrafo EAV, 6 alts de foto por variante); FR ausente; no completa | 869 (ES 267/PT 505/EN 97) | Hostinger prod `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `7b18104abae1dcb68821af4663dafa6049206bf7` |
 | 9 | https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/ | P/R/R/R | 523 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 10 | https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/ | P/R/R/R | 481 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 11 | https://www.ernestinhocarioca.com.br/gastronomia/terra-brasilis/ | P/P/P/P | 451 / 3 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
@@ -387,3 +387,13 @@ Hostinger fue leído en ES/PT/EN. Cada versión tiene 1 H1, 11 H2, 25 párrafos,
 Search Console final 2026-10-16–11-12: ES 991 impresiones, 5 clics, CTR 0,50%, posición 8,4; en esta ventana no se devuelven filas PT/EN. Inspección 2026-11-15: ES “Submitted and indexed”, fetch SUCCESSFUL y canonical de Google igual a user canonical. PT “Discovered - currently not indexed”; EN “URL is unknown to Google”. Para PT/EN el API no especifica estado de robots/fetch ni un error técnico, por lo que no se etiqueta como fallo de canonical o rastreo confirmado.
 
 La ficha permanece incompleta: título y alt PT/EN sin traducir, FR ausente, falta revisión editorial completa y QA visual 1440/390. No cuenta como completa en la tanda. Evidencia actualizada también en CSV maestro, commit `c410f0d42d4a3aef065242e490c36f347da12b81`; fuente: HTML vivo Hostinger/GSC, aún sin cotejo de historial Git para esta ficha.
+
+
+## Auditoría de producción — Plage Café (fila 8) — 15/11/2026
+
+Se verificaron en Hostinger las variantes ES, PT-BR y EN. Cada una entrega 15 párrafos, 1 H1, 4 H2, 11 imágenes y 27 enlaces; canonical propio en cada idioma. Títulos y primeros párrafos están localizados en PT/EN. Las 7 fotos editoriales conservan los mismos archivos y los 27 enlaces normalizados coinciden entre idiomas. Queda texto español residual: un párrafo de identificación del EAV Parque Lage y seis alts editoriales de foto en PT y EN; no se modificaron fotos, alts, enlaces ni diseño.
+
+Search Console inspeccionó ES/PT/EN como enviadas e indexadas, con robots permitido, fetch exitoso y canonical de Google igual al declarado. Métricas finales 2026-10-16–11-12: ES 267 impresiones/1 clic/posición 8,3; PT 505/5/7,3; EN 97/4/7,8 (total 869 impresiones). Ventana previa 2026-09-18–10-15: ES 10/0/8,4 y sin filas PT/EN. El incremento de impresiones es una señal de rendimiento, no un error de indexación ni prueba de causalidad.
+
+Estado: **incompleta; no cuenta como ficha validada**. FR ausente; pendiente completar la traducción editorial francesa, resolver el texto EAV y los alts dentro del alcance autorizado, QA visual aprobado a 1440/390 y controles completos de sitemap/canonical/hreflang. QA visual no ejecutado en este corte. Hostinger sigue sin cambios, y esta auditoría no constituye publicación. La cifra de la fila CSV fue corregida a 869; la edición preservó 1.204 registros y 14 columnas.
+
