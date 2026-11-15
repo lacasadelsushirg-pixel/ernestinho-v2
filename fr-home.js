@@ -1,6 +1,6 @@
 const ROOT = 'https://www.ernestinhocarioca.com.br/';
 const data = await fetch(new URL('./assets/js/translations/fr/piloto-rio.json', import.meta.url), {cache:'force-cache'}).then(r => {if(!r.ok)throw Error('French dictionary HTTP '+r.status);return r.json()});
-const fallback = {'Tours':'Excursions','Guía independiente de Río de Janeiro.':'Guide indépendant de Rio de Janeiro.','Río no se visita. Se vive.':'Rio ne se visite pas. Il se vit.','De descubrir Río a vivirlo.':'De la découverte de Rio à l’expérience vécue.'};
+const fallback = {'Tours':'Excursions','Guía independiente de Río de Janeiro.':'Guide indépendant de Rio de Janeiro.','Río no se visita. Se vive.':'Rio ne se visite pas. Il se vit.','De descubrir Río a vivirlo.':'De la découverte de Rio à l’expérience vécue.','Experiencias anteriores':'Expériences précédentes','Siguientes experiencias':'Expériences suivantes'};
 const translations = {...data,...fallback};
 let scheduled=false;
 function localize(){
@@ -21,14 +21,21 @@ function localize(){
   }
   const toggle=document.getElementById('lang');
   if(toggle && toggle.textContent!=='FR')toggle.textContent='FR';
+  const isPreview=location.pathname.startsWith('/fr-vista-luna/');
+  const previewRoot=isPreview?'/fr-vista-luna/':'/';
+  const readyRoutes=new Set(['','fr/','fr/guia/','fr/guia/dinero/','fr/guia/aeropuertos/','fr/guia/emergencias/','fr/guia/viajar-solo/','fr/guia/vacunas/','fr/guia/apps/','fr/guia/consulados/','fr/guia/menores/','fr/guia/permanencia/','fr/guia/internet/','fr/transportes/']);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
     if(!raw||raw.startsWith('#')||/^(?:mailto:|tel:|javascript:|data:)/i.test(raw))continue;
     let url;try{url=new URL(raw,location.href)}catch{continue}
-    const isPreview=location.pathname.startsWith('/fr-vista-luna/');
-    const previewRoot=isPreview?'/fr-vista-luna/':'/';
     const pagePath=url.pathname.startsWith(previewRoot)?url.pathname.slice(previewRoot.length):null;
-    const readyRoutes=new Set(['','fr/','fr/guia/','fr/guia/dinero/','fr/guia/aeropuertos/','fr/guia/emergencias/','fr/guia/viajar-solo/','fr/guia/vacunas/','fr/guia/apps/','fr/guia/consulados/','fr/guia/menores/','fr/guia/permanencia/','fr/guia/internet/','fr/transportes/']);
+    if(isPreview && url.origin===location.origin && pagePath===null){
+      const sourcePath=url.pathname.replace(/^\\/+/, '');
+      if(readyRoutes.has('fr/'+sourcePath)){
+        link.href=location.origin+previewRoot+'fr/'+sourcePath+url.search+url.hash;
+        continue;
+      }
+    }
     if(url.origin===location.origin && pagePath!==null && !pagePath.startsWith('assets/')){
       if(readyRoutes.has(pagePath))continue;
       // An unfinished French route must lead to the approved Spanish source, never a 404.
