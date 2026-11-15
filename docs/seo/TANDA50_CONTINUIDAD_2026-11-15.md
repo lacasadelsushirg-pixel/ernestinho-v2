@@ -1550,3 +1550,16 @@ Hostinger producción verificada: revision/rendimiento-traducciones-81a904c, SHA
 - Estado: ES/PT/EN indexables, contenido principal de la muestra diferenciado y semánticamente alineado; metadatos, alts, cobertura completa, FR, runtime/capturas y build incremental aún pendientes. No completa, no publicada.
 
 Conteo tanda 3: **7/50 auditadas, 0/50 completas, 0/50 publicadas**. Siguiente prioridad real pendiente por impresiones actuales: revisar Haru Sushi Bar; después continuar la cola restante sin contar estados heredados como QA vigente.
+
+ 
+## Tanda 3 — ficha 8/50: Haru Sushi Bar (15/11/2026)
+
+Hostinger producción verificada: revision/rendimiento-traducciones-81a904c SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. Blob ES de la fuente versionada en esa revisión: 6f897d6c60ca36d476d916d93d9e8b9ae25d1f97.
+
+- Hostinger ES/PT/EN: 23 párrafos por variante. Nueve párrafos PT y nueve EN son literalmente idénticos a ES; los primeros bloques editoriales largos 2–8 siguen en español en ambas variantes. Los metadatos SEO también están incompletos: PT y EN tienen títulos traducidos, pero la meta description sigue en español en las tres versiones.
+- El encabezado, los H2 y varios datos prácticos sí aparecen localizados. En PT/EN permanecen en español los pies de ocho fotos, varios alt no vacíos, los rótulos de enlaces a sitio oficial/redes/mapas y los párrafos de ruta y descripción de imágenes. Dos alt están vacíos por variante; no se alteraron fotos ni enlaces.
+- Recuperación histórica posible y comprobable: los commits 42d03024d2c3765b0d96eb5f9763657d731baf4a y 8570793a992b262c5fb384a396ec949e6105775c contienen 19 pares PT/EN posicionales; ambos diccionarios son idénticos entre sí y con el diccionario incrustado actual del HTML fuente. En la página estática, el renderer inline termina ejecutando full('es') sin respetar el locale PT/EN del HTML. Esta es una causa concreta de los párrafos históricos que reaparecen en español; aplicar las traducciones al locale real del renderizador, conservando esos pares, parece una intervención localizada y viable.
+- Canonical propia y alternates ES/PT-BR/EN/x-default correctos. GSC final 16-oct–12-nov: ES 261 impresiones/0 clics/posición 16,6; PT 14/0/7,6; EN 38/0/7,1. Inspecciones 3/3 enviadas e indexadas, fetch exitoso, robots permitido y canonical Google igual a la declarada. Breadcrumb PASS con item sin nombre: alerta estructurada, no error de indexación confirmado.
+- FR no aparece en Hostinger ni en sitemap. Estado actual incompleto; no se publicó durante este lote.
+
+Conteo tanda 3: **8/50 auditadas, 0/50 completas, 0/50 publicadas**. Próximo paso concreto: preparar un cambio aislado en la inicialización del renderer de Haru que reutilice los 19 pares de los diccionarios históricos y traduzca metadatos, alts, pies de foto y etiquetas; generar solo ES/PT/EN para la ruta, comparar con Hostinger, ejecutar guard y capturas antes/después. FR queda pendiente y no se incluye en sitemap/hreflang.
