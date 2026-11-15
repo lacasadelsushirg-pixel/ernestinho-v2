@@ -106,6 +106,7 @@ SHOPPING_ROUTES = (
     '/compras/feira-da-gloria/',
 )
 ROUTES += CULTURE_ROUTES + PHOTO_ROUTES + SHOPPING_ROUTES
+ROUTES = tuple(dict.fromkeys(ROUTES))
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
     '//title/text()|//body//text()[not(ancestor::script or ancestor::style or ancestor::svg or ancestor::template)]'
