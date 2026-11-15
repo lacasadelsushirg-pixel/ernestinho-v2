@@ -9,6 +9,7 @@ export default {
       9: 'Organize a parada de acordo com o horário de funcionamento confirmado e a localização do bar. Se for em grupo, pergunte se a cozinha atende mesas maiores e quais pratos são melhores para compartilhar.',
       12: 'Segunda, 10h–16h; terça e quarta, 10h–21h; quinta, 10h–2h; sexta, 10h–21h; sábado, 10h–20h. Confirme o funcionamento aos domingos antes de ir.',
       13: 'Consulte o cardápio atual antes de pedir; os preços podem mudar.',
+      14: '🍽️ <strong>Tipo de serviço</strong><br>Boteco de bairro e comida brasileira em Maria da Graça.',
       15: '(21) 2501-4175 · Instagram @bardaamendoeira01',
       16: 'Consulte o bar sobre reservas, conforme o dia e o tamanho do grupo.',
       17: 'A acessibilidade não foi verificada; confirme as condições diretamente com o estabelecimento.',
@@ -24,6 +25,7 @@ export default {
       9: 'Plan your stop around the confirmed opening hours and the bar’s location. If you are going with a group, ask whether the kitchen can accommodate larger tables and which dishes are best for sharing.',
       12: 'Monday, 10 a.m.–4 p.m.; Tuesday and Wednesday, 10 a.m.–9 p.m.; Thursday, 10 a.m.–2 a.m.; Friday, 10 a.m.–9 p.m.; Saturday, 10 a.m.–8 p.m. Confirm Sunday hours before visiting.',
       13: 'Check the current menu before ordering; prices may change.',
+      14: '🍽️ <strong>Type of service</strong><br>A neighborhood boteco serving Brazilian food in Maria da Graça.',
       15: '(21) 2501-4175 · Instagram @bardaamendoeira01',
       16: 'Ask the bar about reservations, based on the day and group size.',
       17: 'Accessibility has not been verified; confirm the arrangements directly with the venue.',
@@ -48,7 +50,7 @@ export default {
       'Fotografía 2 de Bar da Amendoeira.': 'Foto 2 do Bar da Amendoeira.',
       'Fotografía 3 de Bar da Amendoeira.': 'Foto 3 do Bar da Amendoeira.',
       'Fotografía 4 de Bar da Amendoeira.': 'Foto 4 do Bar da Amendoeira.',
-      'Instagram oficial': 'Instagram oficial',
+      'Instagram oficial': 'Instagram oficial', '📸 Instagram oficial': '📸 Instagram oficial',
       'Bar da Amendoeira: guía completa | Ernestinho Carioca': 'Bar da Amendoeira: guia completo | Ernestinho Carioca'
     },
     EN: {
@@ -63,13 +65,13 @@ export default {
       'Fotografía 2 de Bar da Amendoeira.': 'Photo 2 of Bar da Amendoeira.',
       'Fotografía 3 de Bar da Amendoeira.': 'Photo 3 of Bar da Amendoeira.',
       'Fotografía 4 de Bar da Amendoeira.': 'Photo 4 of Bar da Amendoeira.',
-      'Instagram oficial': 'Official Instagram',
+      'Instagram oficial': 'Official Instagram', '📸 Instagram oficial': '📸 Official Instagram',
       'Tipo de service': 'Type of service',
       'Bar da Amendoeira: guía completa | Ernestinho Carioca': 'Bar da Amendoeira: complete guide | Ernestinho Carioca'
     }
   },
   attributes: {
-    PT: Object.fromEntries(Array.from({ length: 4 }, (_, i) => [`Bar da Amendoeira — imagen ${i + 1}`, `Bar da Amendoeira — imagem ${i + 1}`])),
-    EN: Object.fromEntries(Array.from({ length: 4 }, (_, i) => [`Bar da Amendoeira — imagen ${i + 1}`, `Bar da Amendoeira — image ${i + 1}`]))
+    PT: Object.fromEntries([...Array.from({ length: 4 }, (_, i) => [`Bar da Amendoeira — imagen ${i + 1}`, `Bar da Amendoeira — imagem ${i + 1}`]), ['Mapa de Bar da Amendoeira', 'Mapa do Bar da Amendoeira']]),
+    EN: Object.fromEntries([...Array.from({ length: 4 }, (_, i) => [`Bar da Amendoeira — imagen ${i + 1}`, `Bar da Amendoeira — image ${i + 1}`]), ['Mapa de Bar da Amendoeira', 'Map of Bar da Amendoeira']])
   }
 };
