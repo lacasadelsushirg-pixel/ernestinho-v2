@@ -28,7 +28,7 @@ function localize(){
     const isPreview=location.pathname.startsWith('/fr-vista-luna/');
     const previewRoot=isPreview?'/fr-vista-luna/':'/';
     const pagePath=url.pathname.startsWith(previewRoot)?url.pathname.slice(previewRoot.length):null;
-    const readyRoutes=new Set(['','fr/','fr/guia/','fr/guia/dinero/','fr/guia/aeropuertos/','fr/guia/emergencias/','fr/guia/viajar-solo/','fr/guia/vacunas/','fr/guia/apps/','fr/guia/consulados/','fr/transportes/']);
+    const readyRoutes=new Set(['','fr/','fr/guia/','fr/guia/dinero/','fr/guia/aeropuertos/','fr/guia/emergencias/','fr/guia/viajar-solo/','fr/guia/vacunas/','fr/guia/apps/','fr/guia/consulados/','fr/guia/menores/','fr/guia/permanencia/','fr/guia/internet/','fr/transportes/']);
     if(url.origin===location.origin && pagePath!==null && !pagePath.startsWith('assets/')){
       if(readyRoutes.has(pagePath))continue;
       // An unfinished French route must lead to the approved Spanish source, never a 404.
