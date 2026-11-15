@@ -1588,3 +1588,26 @@ Hostinger producción confirma rama `revision/rendimiento-traducciones-81a904c`,
 **10/50 auditadas en producción, 0/50 completas y 0/50 publicadas; quedan 40 fichas de la tanda.** Revisadas hasta ahora: Amendoeira, Chama Rio Copacabana, Carretão Copacabana—Siqueira Campos, Carretão Lido, Plage Café, Spicy Fish, Terra Brasilis, Haru Sushi Bar, Fogo de Chão Botafogo y Quiosque Dumaré. Faltan por seleccionar/verificar las siguientes 40 rutas libres por impresiones reales y confirmar cada una contra el inventario maestro antes de auditar. Cola prioritaria conocida: Amendoeira ya auditada (#1); Dumaré (#10) verificada con ES214/PT148/EN159; después elegir la ruta libre con más impresiones no auditada. El orden definitivo de las 40 pendientes no se inventa antes de cruzar GSC e inventario.
 
 Hostinger sigue en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. PR #37 sigue abierto y no publicado; su check Vercel está pending, sin revisión independiente. Los estados son auditorías, no traducciones validadas.
+
+
+## Tanda 3 — ficha 11/50: Delírio Tropical Rio Sul (15/11/2026)
+
+Hostinger producción verificada en revision/rendimiento-traducciones-81a904c, SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; blob fuente ES 592b3b378eb432faee1adc4669ca761c971bf2f7.
+
+- HTML ES/PT/EN: 29 párrafos por variante; 9 posiciones PT y 9 EN iguales a ES. La fuente tiene 19 claves por idioma, pero el renderer inline fuerza setLang('es') y full('es'). Titles/meta description localizados; canonical y alternates ES/PT-BR/EN/x-default propios. Imágenes 9/8/8, dos alt vacíos por variante PT/EN.
+- GSC final 16-oct–12-nov: ES 46/0/9,0; PT 196/0/13,0; EN 2/0/8,5. Inspección 3/3 enviada e indexada, robots ALLOWED, fetch SUCCESSFUL, canonical Google=user. Breadcrumb «Elemento sin nombre» es alerta estructurada, no error de indexación.
+- PR #37 agrega locale real al renderer; build/capturas no verificables aquí por socket Chromium denegado. No hay FR en Hostinger ni en alternates/sitemap. Incompleta, no publicada.
+
+## Tanda 3 — ficha 12/50: K08 (15/11/2026)
+
+Hostinger producción verificada en revision/rendimiento-traducciones-81a904c, SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; blob fuente ES 453ae04652ec6aede6c7141a318c5602f5290676.
+
+- HTML ES/PT/EN: 29 párrafos por variante; 8 posiciones PT y 8 EN iguales a ES. La fuente contiene 19 claves por idioma; los inicializadores de ES/PT/EN fuerzan setLang('es')/full('es'). Titles/descriptions están localizados; canonical/hreflang ES/PT-BR/EN/x-default propios. Imágenes 9/8/8, dos alt vacíos PT/EN.
+- GSC final 16-oct–12-nov: ES 44/0/10,1; PT 16/0/8,8; EN 22/0/16,0. Inspección 3/3 indexada, robots ALLOWED, fetch SUCCESSFUL y canonical Google=user. Breadcrumb «Elemento sin nombre» es alerta, no error confirmado de indexación.
+- PR #37 agrega K08 al fix puntual; render real/capturas están pendientes por la restricción del navegador. FR ausente/no vinculado; ficha incompleta y no publicada.
+
+### Checkpoint de ejecución
+
+**Tanda 3: 12/50 fichas auditadas en producción, 0/50 completas según el criterio de cuatro idiomas + render/QA/build/sitemap/canonical/hreflang/capturas, 0/50 publicadas por este trabajo; quedan 38 fichas.** Fichas incluidas: Amendoeira, Chama Rio Copacabana, Carretão Copacabana—Siqueira Campos, Carretão Lido, Plage Café, Spicy Fish, Terra Brasilis, Haru, Fogo de Chão Botafogo, Dumaré, Delírio Tropical Rio Sul y K08. Para no inventar otras 38 URL, la cola se seleccionará en el siguiente paso cruzando Search Console final con el inventario actualizado; prioridad restante conocida por impresiones ES: ninguna de estas dos ya auditadas debe contarse de nuevo. Dumaré (214 ES/148 PT/159 EN) fue #10; Rio Sul #11; K08 #12. La próxima ficha se elegirá entre las rutas gastronómicas aún no auditadas con mayor total de impresiones.
+
+Inventario maestro actualizado en el commit 2f243094c9d81a0ff5eb83bf23ecf90d19b1906e; informe y estado 12/50 quedan en este documento. Producción Hostinger permanece en SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; PR #37 está abierto sobre esa base, Vercel pending y sin revisión independiente. No publicar.
