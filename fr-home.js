@@ -53,7 +53,7 @@ new MutationObserver(()=>{
   if(scheduled)return;
   scheduled=true;
   queueMicrotask(()=>{scheduled=false;localize()});
-}).observe(document.body,{subtree:true,childList:true,characterData:true});
+}).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['href']});
 for(const button of document.querySelectorAll('[data-carousel-target]')){
   button.addEventListener('click',()=>{
     const track=document.getElementById(button.dataset.carouselTarget);
