@@ -353,3 +353,10 @@ Contabilidad del lote al cierre: 5/50 con candidato PT/EN estructuralmente compr
 - Métricas OpenSEO/GSC final (2026-10-16–11-12) para la prioridad #6 Chama Rio: 1.062 impresiones / 3 clics agregados por idioma; está pendiente de auditoría de contenido. Siguiente en orden: fila 6 `/gastronomia/chama-rio-copacabana/`, luego fila 7 Carretão Siqueira. No marcar ruta validada hasta cotejo editorial y verificación completa.
 - Estado estricto: **5/50 PT/EN estructuralmente comprobadas en preview, 0/50 completas en cuatro idiomas y QA integral, 0/50 publicadas**. Francés sigue fuera de sitemap y sin hreflang nuevo.
 
+
+
+## Recuento independiente de producción en Hostinger — 15/11/2026
+
+Lectura en Hostinger de `sitemap.xml` y `locale-manifest.json` bajo el document root del dominio. El manifiesto declara `sourceCommit=21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`, que coincide con el HEAD remoto de `revision/rendimiento-traducciones-81a904c`. Recuento de las etiquetas `<loc>`: **3.588 URLs únicas**, ES 1.196, PT-BR 1.196 y EN 1.196. Recuento deduplicado de `route` en el manifiesto: **3.612 rutas únicas generadas**; cabecera: 1.204 documentos fuente, 1.196 indexables por idioma y 3.612 generadas. El sitemap tiene 14.352 alternates (3.588 por hreflang `es`, `pt-BR`, `en` y `x-default`), **cero alternates FR y cero rutas /fr/**. Esto confirma la referencia actual; no demuestra que rutas individuales estén traducidas correctamente.
+
+El candidato del PR #36 sigue fuera de Hostinger. Su HEAD documental `e60e60854425e355a97424ccb6f27f471c2df486` está basado en producción, pero el status Vercel está en failure por `build-rate-limit`. Mantener sin cambios los recuentos publicados hasta que una publicación autorizada se complete y Hostinger vuelva a verificarse.
