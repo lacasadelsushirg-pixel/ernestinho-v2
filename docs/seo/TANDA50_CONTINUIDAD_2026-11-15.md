@@ -762,3 +762,15 @@ Hostinger producción, rama `revision/rendimiento-traducciones-81a904c`, commit 
 - Ficha no completa/publicable: cotejo histórico, corrección íntegra PT/EN, traducción editorial FR, revisión de alts/enlaces, renderizador, build incremental/guard y capturas aprobadas 1440/390 pendientes. Producción intacta.
 
 **Contabilidad canónica tras este corte:** 41/50 fichas auditadas en el registro de esta tanda; 0 completas bajo el criterio estricto, 0 nuevas publicadas, 9 pendientes. CSV guardado en commit `13e086fa135727101b800d6e58adc03157f7ce93`; continuidad actualizada en el commit documental posterior. Siguiente: elegir entre rutas de Gastronomía restantes por impresiones reales de GSC, excluir las ya auditadas/recertificadas y no cambiar producción.
+
+
+## Auditoría de producción — Don Camillo (corte 42/50, 15/11/2026)
+
+Hostinger producción (`revision/rendimiento-traducciones-81a904c`) en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; ES/PT-BR/EN leídos, FR no existe en producción. Blob ES verificado: `1098143db5f08861cb15bf597e09c8c55447da87`.
+
+- 25 párrafos por variante. Intersección literal: **7 párrafos PT y 7 EN continúan íntegramente en español**. H1, diez H2, title y description están localizados. Canonical propio y hreflang `es`/`pt-BR`/`en`/`x-default` correctos; sin FR.
+- Imágenes 12/11/11 tags, diez URL fuente únicas compartidas; alt con texto en 10/12 ES, 9/11 PT/EN. Hrefs únicos 21 ES vs 9 PT y 9 EN. Se anotan para cotejo, sin tocar fotos/enlaces.
+- GSC final 16-oct–12-nov: no hay fila ES; PT 32 impresiones/1 clic/posición 8,2; EN 37/0/11,3. Periodo previo: ES 17/0/8,5 y PT 66/1/6,6; EN sin fila. No equiparar ausencia de fila a desindexación. Inspección GSC: 3/3 ES/PT/EN enviadas/indexadas, rastreo permitido/éxito, canonical Google=user. FR desconocida.
+- No completa/publicable: traducir y cotejar bloques históricos, completar FR, alts/hrefs, QA semántico y runtime, build incremental/guard y capturas aprobadas a 1440/390. Hostinger no modificado.
+
+**Contabilidad canónica tras este corte:** 42/50 auditadas; 0 completas, 0 nuevas publicadas, 8 pendientes. Inventario en commit `ef718e86fb1d6afb6ecede9a70d11e7b2fec6114`; este informe es el commit documental posterior. Siguiente: continuar con Bar do Omar por la prioridad GSC pendiente y repetir verificación completa contra producción.
