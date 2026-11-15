@@ -1385,3 +1385,12 @@ GSC final (2026-10-16–11-12): ES 67 imp./0 clics/posición 20,4; PT sin fila; 
 - GSC 2026-10-16–2026-11-12: ES 205 impresiones/0 clics/posición 12,5; PT 18/0/8,1; EN 1/0/4,0 (224 totales). Periodo anterior: ES 79/0/8,3; PT 57/0/7,4; EN 6/0/7,7. El volumen aumentó en ES y bajó en PT/EN; sin inferir causalidad.
 - Estado: ES revisada; PT/EN bloqueadas por duplicación de 10 párrafos; FR pendiente/no existe. Pendientes: encontrar entradas manuales que correspondan a contenido actual, aplicar sólo cambios editoriales permitidos, QA renderer/alt/enlaces, capturas 1440/390 y build incremental/guard. No completa ni publicada.
 - Contabilidad tanda 2: 42/50 auditadas; 0/50 completas; 0 publicadas; 8 pendientes. Siguiente por impresiones en la cola: Temperarte Posto 6 (365 en el corte amplio previo); comprobar datos actuales.
+
+## Auditoría de producción — Temperarte Posto 6 (segunda tanda, ficha 43/50; 15/11/2026)
+
+- Producción Hostinger `revision/rendimiento-traducciones-81a904c`, SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; fuente ES GitHub blob `775dbd2edb1656bfd846f3d4f9ed37ccbd2892a7`. Los commits históricos 42d03024 y 8570793 resuelven a blob `9d0e3fea628ae7b411580ea847169f6aca1c4e55`.
+- Hostinger: 29 párrafos en ES/PT/EN; las muestras iniciales están bien localizadas y no hay párrafos idénticos detectados entre ES/PT/EN en el cotejo de 29. Titles/descriptions/canonical/alternates ES-PT-BR-EN-x-default correctos. En PT/EN, los alt de las fotos conservan la palabra española “imagen”; 10 img tags por variante y dos alt vacíos.
+- GSC inspección: ES/PT enviadas e indexadas, fetch successful, canonical propia. EN “Descubierta: actualmente sin indexar”, veredicto neutral y fetch sin resultado; se registra como exclusión/estado de cobertura no resuelto, no error confirmado. Breadcrumbs sin nombre siguen siendo alerta. FR no existe (HTTP 422).
+- GSC 2026-10-16–2026-11-12: ES 181 impresiones/1 clic/posición 7,5; PT 60/0/2,1; EN sin fila. Periodo anterior: ES 77/0/7,8; PT 47/0/4,9; EN sin fila. La falta de fila no se interpreta como cero ni como pérdida/error concluyente.
+- Estado: ES/PT/EN en revisión; el contenido parece localizado en muestras, pero queda QA semántico total, alt/enlaces, renderer, capturas 1440/390 e incremental/guard. FR pendiente/no existe; no completa ni publicada.
+- Contabilidad tanda 2: 43/50 auditadas; 0/50 completas; 0 publicadas; 7 pendientes. Siguiente prioridad de cola: Padarias (338 impresiones en el corte amplio previo); medir estado actual.
