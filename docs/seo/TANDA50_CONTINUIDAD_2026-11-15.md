@@ -525,3 +525,17 @@ Producción de Hostinger sigue en `revision/rendimiento-traducciones-81a904c` SH
 Este entorno no contiene un checkout Git local; por ello no fue posible ejecutar `check_frozen_pages.py`, `guard_approved_content.mjs`, la compilación incremental ni capturas aprobadas a 1440/390 en esta sesión. Las páginas continúan fuera del recuento estricto hasta que esas comprobaciones y la revisión humana concluyan.
 
 **Siguiente ruta por prioridad de la cola:** `/gastronomia/chama-rio-copacabana/` (1.062 impresiones agregadas en el corte de prioridad), luego `/gastronomia/carretao-siqueira/` (991). Ambas tienen hallazgos previos que deben cotejarse con el HEAD actual antes de reutilizarlos.
+
+
+## Auditoría de producción — Chama Rio Copacabana (corte del run, 15/11/2026)
+
+Se releyeron desde Hostinger los HTML ES, PT-BR y EN; la ruta FR devolvió «File does not exist». La fuente Git espejo de ES en la rama productiva coincide con el archivo auditado y tiene blob SHA `5aab4304cd65e8006a7e9e410f0903495c3ef6be`; la base productiva comprobada del PR sigue siendo `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`.
+
+- Estructura ES/PT/EN: 20 párrafos, un H1, siete H2, un H3 y un mapa por idioma. Títulos/descripciones localizados, canonical propio y alternates `es`, `pt-BR`, `en`, `x-default`.
+- No hubo párrafos completos idénticos ES→PT ni ES→EN (0/20). Las ocho fuentes únicas de imagen coinciden entre idiomas (ocurrencias HTML: 10/9/9). La comparación de href normalizados encuentra 11 destinos de ES ausentes en PT y EN: inicio/navegación y enlaces generales a Instagram/TikTok. Se conserva el HTML publicado; no se alteraron enlaces, fotografías ni componentes.
+- OpenSEO/Search Console, 2026-10-16–2026-11-12: PT 995 impresiones, 3 clics, CTR 0,3%, posición 6,9; EN 67 impresiones, 0 clics, posición 9,6. No hubo filas para esta página en 2026-09-18–2026-10-15, así que no se deduce tendencia de pérdida.
+- Inspección: PT y EN están enviadas e indexadas, fetch exitoso y canonical Google=declarado. ES figura «Descubierta: actualmente sin indexar» sin crawl/fetch reportado; es exclusión, no error técnico confirmado. FR es URL desconocida para Google y no existe en Hostinger; no se agregaron ruta, hreflang ni sitemap.
+
+**Contabilidad reemplazada:** 23/50 rutas auditadas durante el ciclo; 0/50 cumplen la definición estricta (ES/PT-BR/EN/FR completos, renderizados y QA editorial/SEO, incremento, canonical/hreflang/sitemap y capturas aprobadas); 0/50 nuevas publicadas en Hostinger. Quedan 27 por auditar/cerrar. Próxima prioridad de la cola: `/gastronomia/carretao-siqueira/` (revalidar impresiones e HTML antes de trabajar). Chama está auditada, pero no validada como ficha completa.
+
+No hubo checkout Git en este entorno: no se ejecutaron el build incremental, los guards ni capturas locales; las fichas siguen fuera del recuento completo. El sitemap productivo se mantiene en 3.588 URLs indexables ES/PT/EN y FR=0; no se inició reconstrucción completa ni cambió producción.
