@@ -298,7 +298,7 @@ Corte de priorización: Search Console final, 2026-10-16–11-12, páginas de Ga
 | 6 | https://www.ernestinhocarioca.com.br/gastronomia/chama-rio-copacabana/ | ES GSC descubierta; PT/EN live e indexadas; FR ausente | 1.062 / 3 | Hostinger PT/EN 20 párrafos, títulos/canonical propios y fotos editoriales coincidentes; 11 enlaces ES faltan en PT/EN; FR y QA visual pendientes, no completa |
 | 7 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-siqueira/ | ES indexada; PT descubierta/no indexada; EN desconocida; FR ausente | 991 / 5 | Hostinger: PT/EN 25 párrafos, títulos SEO y 7 alts siguen en ES; 7 fotos y 19 enlaces preservados; falta FR/QA visual, no completa |
 | 8 | https://www.ernestinhocarioca.com.br/gastronomia/plage-cafe/ | ES/PT/EN presentes en Hostinger y GSC indexadas; texto ES residual en PT/EN (1 párrafo EAV, 6 alts de foto por variante); FR ausente; no completa | 869 (ES 267/PT 505/EN 97) | Hostinger prod `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `7b18104abae1dcb68821af4663dafa6049206bf7` |
-| 9 | https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/ | P/R/R/R | 523 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 9 | https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/ | ES/PT indexadas; EN descubierta/no indexada sin causa técnica declarada; PT/EN tienen 31 párrafos sin coincidencia literal con ES, pero un alt de foto sigue en español; FR ausente; no completa | 523 (ES 474/PT 49/EN sin filas) | Hostinger prod 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; blob ES f0960038eed49af92dfaf2c9618b88b30dbc0395 |
 | 10 | https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/ | P/R/R/R | 481 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 11 | https://www.ernestinhocarioca.com.br/gastronomia/terra-brasilis/ | P/P/P/P | 451 / 3 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 12 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-lido/ | P/R/R/P | 447 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
@@ -397,3 +397,12 @@ Search Console inspeccionó ES/PT/EN como enviadas e indexadas, con robots permi
 
 Estado: **incompleta; no cuenta como ficha validada**. FR ausente; pendiente completar la traducción editorial francesa, resolver el texto EAV y los alts dentro del alcance autorizado, QA visual aprobado a 1440/390 y controles completos de sitemap/canonical/hreflang. QA visual no ejecutado en este corte. Hostinger sigue sin cambios, y esta auditoría no constituye publicación. La cifra de la fila CSV fue corregida a 869; la edición preservó 1.204 registros y 14 columnas.
 
+
+
+## Auditoría de producción — Sushi Leblon (fila 9) — 15/11/2026
+
+La ficha pública en Hostinger contiene ES/PT-BR/EN. Cada documento tiene título localizado, canonical propio, 1 H1, 13 H2, 31 párrafos, 12 etiquetas de imagen, 1 mapa iframe y 26 enlaces. PT y EN tienen cero coincidencias literales de párrafos frente a ES; muestra editorial revisada a nivel de lectura. Un alt de imagen sigue en español (“Atún fresco con ovas negras”) tanto en PT como EN. No se cambiaron contenido, fotos, mapas, diseño ni enlaces.
+
+GSC final 2026-10-16–11-12: ES 474 impresiones/0 clic/posición 11,2; PT 49/0/10,4; EN sin filas. Periodo previo 2026-09-18–10-15: ES 177/0/9,8; PT/EN sin filas. ES ganó impresiones, pero su posición promedio bajó; no se infiere causa. Inspección GSC: ES y PT “Enviada e indexada”, fetch exitoso y canonical Google igual al declarado; EN “Descubierta: actualmente sin indexar”, con robots/fetch/canonical no especificados por la respuesta. Esta exclusión no confirma un fallo de rastreo o canonical.
+
+La ficha queda incompleta y no validada: falta FR, traducir el alt PT/EN y aprobar QA visual 1440/390. La inspección no cuenta como traducción completa ni cambio publicado. Inventario maestro actualizado con 1.204 filas y source SHA de Hostinger 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; cifra de impresiones 523 sumando las variantes con datos. Se mantienen las 50 URL de la tanda y el total de completadas/publicadas sigue 0/50.
