@@ -25,14 +25,14 @@ function localize(){
     const raw=link.getAttribute('href');
     if(!raw||raw.startsWith('#')||/^(?:mailto:|tel:|javascript:|data:)/i.test(raw))continue;
     let url;try{url=new URL(raw,location.href)}catch{continue}
-    if(url.origin===location.origin && url.pathname.startsWith('/fr/') && !url.pathname.startsWith('/fr/assets/') && url.pathname!=='/fr/'){
-      const route=url.pathname.slice(3);
-      link.href=ROOT+route.replace(/^\//,'')+url.search+url.hash;
+    if(url.origin===location.origin && url.pathname!=='/fr-vista-luna/' && !url.pathname.startsWith('/fr-vista-luna/assets/')){
+      const route=url.pathname.startsWith('/fr-vista-luna/')?url.pathname.slice('/fr-vista-luna'.length):url.pathname;
+      if(!route.startsWith('/assets/'))link.href=ROOT+route.replace(/^\//,'')+url.search+url.hash;
     }
   }
   for(const el of document.querySelectorAll('[src],[srcset]')){
     const src=el.getAttribute('src');
-    if(src?.startsWith('/assets/'))el.setAttribute('src','/fr'+src);
+    if(src?.startsWith('/assets/'))el.setAttribute('src','/fr-vista-luna'+src);
   }
 }
 localize();
