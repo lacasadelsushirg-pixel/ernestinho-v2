@@ -98,7 +98,9 @@
       "captures/amendoeira-pt-en-20261115/en-390.jpg"
     ],
     "approved": false,
-    "blocker": "Playwright local asset requests returned net::ERR_EMPTY_RESPONSE for remote photos; this is not a confirmed HTTP 404. Candidate preview requires inspection when Vercel is ready."
+    "blocker": "Playwright local asset requests returned net::ERR_EMPTY_RESPONSE for remote photos; this is not a confirmed HTTP 404. Candidate preview requires inspection when Vercel is ready.",
+    "beforeScreenshotCapture": "blocked: local Chromium navigation to both public Hostinger PT/EN URLs returned net::ERR_EMPTY_RESPONSE; read-only Hostinger file API succeeded",
+    "candidatePreview": "not accessible while PR Vercel status is pending"
   },
   "tests": {
     "syntax": "PASS",

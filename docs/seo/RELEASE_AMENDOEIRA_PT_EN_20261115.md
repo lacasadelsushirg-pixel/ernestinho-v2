@@ -29,7 +29,7 @@ OpenSEO, proyecto `7172f2fb-7456-4b35-b581-d9b11c0040f4`, propiedad `https://www
 
 ## Capturas de QA (no aprobadas)
 
-Las capturas del candidato se guardan para inspección; las fotos remotas fallaron al cargar, así que no sirven como aprobación visual. [PT 1440](captures/amendoeira-pt-en-20261115/pt-1440.jpg) · [PT 390](captures/amendoeira-pt-en-20261115/pt-390.jpg) · [EN 1440](captures/amendoeira-pt-en-20261115/en-1440.jpg) · [EN 390](captures/amendoeira-pt-en-20261115/en-390.jpg).
+Las capturas del candidato se guardan para inspección; las fotos remotas fallaron al cargar, así que no sirven como aprobación visual. No se pudo capturar el “antes” del sitio en Chromium: la navegación directa a la URL pública devuelve `net::ERR_EMPTY_RESPONSE`, aunque el contenido HTML sí se pudo leer por la API de Hostinger. El preview de PR #36 está pendiente. [PT 1440](captures/amendoeira-pt-en-20261115/pt-1440.jpg) · [PT 390](captures/amendoeira-pt-en-20261115/pt-390.jpg) · [EN 1440](captures/amendoeira-pt-en-20261115/en-1440.jpg) · [EN 390](captures/amendoeira-pt-en-20261115/en-390.jpg).
 
 ## Validaciones y límites
 
