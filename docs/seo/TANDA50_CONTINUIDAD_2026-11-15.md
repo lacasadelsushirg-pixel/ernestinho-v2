@@ -1189,3 +1189,16 @@ GSC final (2026-10-16–11-12): ES 10 impresiones/0 clics/posición 8,4; PT 2/0/
 **Estado:** PT/EN están presentes y localizados en el HTML de producción, pero la fidelidad editorial histórica no fue probada, FR y QA visual permanecen pendientes; no completa/no publicable. Hostinger intacto; **0/50 completas y 0/50 nuevas publicadas**.
 
 **Punto durable:** tanda 2: 23/50 auditadas, 0 completas, 0 publicadas, 27 pendientes. Siguiente #24 `/gastronomia/venga-ipanema/`; verificar blob/estado antes de auditar. Inventario actualizado en commit `35a936ba55beb0fedc62f216d295b17dd47d55de`.
+
+
+## Auditoría de producción — ¡Venga! Ipanema (segunda tanda, ficha 24/50; 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c`, HEAD `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; HTML ES blob `6660786e8f609092bc90042852294fb3a70afe4a`. ES/PT-BR/EN tienen 30 párrafos; 8 párrafos PT y 8 EN son literalmente ES. Title/H1, descriptions, canonical propio y hreflang es/pt-BR/en/x-default presentes; el nombre “¡Venga!” se conserva por ser marca. En las descriptions PT/EN el atributo `content` está traducido, pero `data-ec-content` conserva el español original; falta validar comportamiento de renderer en runtime antes de calificarlo como error visible.
+
+Fuente histórica manual recuperada: la página está en ambos commits `42d03024d2c3765b0d96eb5f9763657d731baf4a` y `8570793a992b262c5fb384a396ec949e6105775c`, con el mismo blob `ffbc351de57a995bcec3e4ef686957d77e7314d9`; contiene 19 entradas PT y 19 EN. Once entradas por idioma coinciden literalmente con párrafos de la página actual; el resto de expansiones debe cotejarse, no descartarse. 12 imágenes ES frente a 11 PT/EN; 25 enlaces ES frente a 13 PT/EN. Diferencias reales de estructura, con destinos y fotos por cotejar sin modificar.
+
+Ruta FR consultada `/fr/gastronomia/venga-ipanema/` no existe en producción ni hay hreflang FR. GSC final (2026-10-16–11-12): ES 51 impresiones/0 clics/posición 21,6; PT 14/1/8,1; EN 11/0/10,0. Previa (2026-09-18–10-15): ES 25/0/9,2; PT 8/0/8,3; EN 10/0/12,9. Impresiones suben en las tres; posición ES empeora y PT/EN mejora. Esto mide rendimiento, no causalidad. Inspección 3/3 indexadas, fetch successful, Google canonical igual al declarado, sitemap presente. Breadcrumb “Elemento sin nombre” es alerta estructurada y no error de indexación.
+
+**Estado:** traducciones PT/EN parcialmente recuperables y parcialmente residuales; diferencias de medios/enlaces y atributo de metadato exigen QA; FR ausente; no completa/no publicable. Falta cotejar 19 bloques históricos con expansiones, revisar alt/href, probar runtime, completar FR, build incremental/guard y capturas 1440/390. Hostinger sin cambios; **0/50 completas y 0/50 nuevas publicadas**.
+
+**Punto durable:** tanda 2: 24/50 auditadas, 0 completas, 0 publicadas, 26 pendientes. Próxima #25 `/gastronomia/shiso/`; verificar blob y estado productivo antes de auditar. CSV actualizado en commit `eb8663125bad05ca81a787dbad5291297a17b83a`.
