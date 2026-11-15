@@ -813,3 +813,78 @@ Hostinger producción `revision/rendimiento-traducciones-81a904c`, commit `21bb6
 - Revalidación necesaria pese al estado heredado del inventario: no completa ni publicable. Faltan recuperar PT/EN, cotejo histórico, francés integral, QA semántico, alts/hrefs, runtime, build incremental/guard y capturas aprobadas 1440/390. Producción intacta.
 
 **Contabilidad canónica tras este corte:** 45/50 auditadas; 0 completas, 0 nuevas publicadas, 5 pendientes. CSV actualizado en `e3a370efa911fb3b889a981947a2acafb5defc2d`; este informe es el commit documental posterior. Se seleccionarán las cinco rutas finales de la tanda solo después de cotejar la lista durable para evitar duplicar páginas ya auditadas.
+
+
+## Auditoría de producción — cinco fichas finales de la tanda (corte 46–50/50, 15/11/2026)
+
+Todas las lecturas se hicieron en Hostinger, producción `revision/rendimiento-traducciones-81a904c` a SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; no se alteró producción. Datos de Search Console son impresiones/clics, no errores de rastreo. Se verificaron 15 inspecciones ES/PT/EN: 12 “Submitted and indexed”; Jobi PT y Oro PT y Joaquina PT/EN resultaron “Discovered - currently not indexed”, con estado de fetch no informado, por lo que son exclusiones sin error técnico confirmado. Las cinco URLs FR resultaron desconocidas para Google y no existen como páginas en Hostinger.
+
+
+### Resultados por ficha
+
+| Ficha | Hallazgo editorial ES/PT/EN | Indexación | FR | Estado estricto |
+|---|---|---|---|---|
+| jobi | 2/20 PT y 2/20 EN párrafos ES literales; indexación ES; PT descubierto y EN rastreado sin indexar; FR inexistente. | ES indexada; PT descubierta; EN rastreada/no indexada; canonical Google=declarado | URL desconocida | Incompleta/no publicada |
+| stambul-copa | 8/25 PT y 8/25 EN párrafos ES literales; las tres variantes indexadas; FR inexistente. | 3/3 enviadas/indexadas; canonical Google=declarado | URL desconocida | Incompleta/no publicada |
+| oro | 0/32 coincidencias literales PT y EN (no equivale a QA semántico); variante PT figura Descubierta/no indexada; FR inexistente. | PT descubierta; ES/EN indexadas; canonical Google=declarado | URL desconocida | Incompleta/no publicada |
+| sel-ipanema | 11/30 PT y 10/30 EN párrafos ES literales; 3 variantes indexadas; FR inexistente. | 3/3 enviadas/indexadas; canonical Google=declarado | URL desconocida | Incompleta/no publicada |
+| joaquina | 0/23 coincidencias literales PT y EN (no es QA semántico); ES/PT/EN con H1/H2 y metadata localizada; FR inexistente. | ES indexada; PT/EN descubiertas; canonical Google=declarado | URL desconocida | Incompleta/no publicada |
+
+### Registro de estados para las 50 URLs
+
+La tabla conserva los 50 destinos únicos y el SHA del HTML ES correspondiente en producción. Cuando la ruta no fue reexaminada en este corte, el estado se registra como no recertificado (no como validado); las cinco rutas finales sí se inspeccionaron en Hostinger/GSC ahora. Solo se marcan completas las páginas que pasaron los cuatro idiomas, render real, auditorías, SEO/sitemap y QA visual. **Resultado: 0/50 completas y 0/50 publicadas.**
+
+| # | URL de producción | Estado real | SHA HTML ES producción |
+|---:|---|---|---|
+| 1 | https://www.ernestinhocarioca.com.br/gastronomia/don-camillo/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 1098143db5f08861cb15bf597e09c8c55447da87 |
+| 2 | https://www.ernestinhocarioca.com.br/gastronomia/bar-do-omar/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | e55472577b72ee0dda7a4c3689f2489898f9941e |
+| 3 | https://www.ernestinhocarioca.com.br/gastronomia/spicy-fish/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 6c49d747f9a7a5712a8a4cb7927462bcf44c378d |
+| 4 | https://www.ernestinhocarioca.com.br/gastronomia/amendoeira/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | b3ed0ef51003d906992bc10b0d086b7304907627 |
+| 5 | https://www.ernestinhocarioca.com.br/gastronomia/dumare/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | f2fbca8b8f9d514579d6e48a5e8102bd10d35130 |
+| 6 | https://www.ernestinhocarioca.com.br/gastronomia/chama-rio-copacabana/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 5aab4304cd65e8006a7e9e410f0903495c3ef6be |
+| 7 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-siqueira/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 6cbdf907f1a363efbeb47e869215900b1fe8d2a6 |
+| 8 | https://www.ernestinhocarioca.com.br/gastronomia/plage-cafe/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 7b18104abae1dcb68821af4663dafa6049206bf7 |
+| 9 | https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | f0960038eed49af92dfaf2c9618b88b30dbc0395 |
+| 10 | https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 3c81194462752ddc241b1cad847785ef44b5ec4a |
+| 11 | https://www.ernestinhocarioca.com.br/gastronomia/terra-brasilis/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 1c3f6149742b62e50d233ef57f6b37dd8237d0fd |
+| 12 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-lido/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | fe48ac0c9ad39cbf3be490dc32c1e96010c29487 |
+| 13 | https://www.ernestinhocarioca.com.br/gastronomia/cais-do-oriente/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 05e264793f8596559c400d7c410dc4064cda7e54 |
+| 14 | https://www.ernestinhocarioca.com.br/gastronomia/galeto-sats/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 8c3ae87d894901f7cc85e1a9978c336effe9d177 |
+| 15 | https://www.ernestinhocarioca.com.br/gastronomia/haru/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 6f897d6c60ca36d476d916d93d9e8b9ae25d1f97 |
+| 16 | https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 3c03174a60b9f5a6a7d472a2bbab0c01fa78a412 |
+| 17 | https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | c5fb0bbb0ae6f528af3d33b398d4a69c39794aa0 |
+| 18 | https://www.ernestinhocarioca.com.br/gastronomia/frontera-ipanema/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 94626d30d9afd92e49c049c324303228c1c81918 |
+| 19 | https://www.ernestinhocarioca.com.br/gastronomia/temperarte-posto6/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 775dbd2edb1656bfd846f3d4f9ed37ccbd2892a7 |
+| 20 | https://www.ernestinhocarioca.com.br/gastronomia/colombo-do-forte/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 9f2499455a34a28a49a0773e6ae0bab3a02d4cbf |
+| 21 | https://www.ernestinhocarioca.com.br/gastronomia/faenza-copacabana/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 110642f3335541a84cfba4f1fe3426912b16768f |
+| 22 | https://www.ernestinhocarioca.com.br/gastronomia/maska/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 498e10c390f3a116d42b114b145f312124ebf8dd |
+| 23 | https://www.ernestinhocarioca.com.br/gastronomia/oteque/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 9129914e9b78ceaa06301cd7e5fcbe12326901f7 |
+| 24 | https://www.ernestinhocarioca.com.br/gastronomia/cipriani/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 411f957b5da94bd0538ec512de661c723f4e8e31 |
+| 25 | https://www.ernestinhocarioca.com.br/gastronomia/temperarte-bolivar/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | f8ce4e0f177997995a758aca7574908baf78a348 |
+| 26 | https://www.ernestinhocarioca.com.br/gastronomia/casa-mohamed/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 834f65a78f2ba7e39312f87e6ea777c41834d09b |
+| 27 | https://www.ernestinhocarioca.com.br/gastronomia/merci/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 97e8f123f1f5fe3c5a26e063b18680127a5ac768 |
+| 28 | https://www.ernestinhocarioca.com.br/gastronomia/cafe-lamas/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 269e8e674e03122137909a0b4ce78675f8ae0d6f |
+| 29 | https://www.ernestinhocarioca.com.br/gastronomia/lasai/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 95d467b7b6652323ae7f4a26c0feb88c88fec9a4 |
+| 30 | https://www.ernestinhocarioca.com.br/gastronomia/tacaca-do-norte/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | a626af38b86903322ba8b7f6e84e68cdda33e5ce |
+| 31 | https://www.ernestinhocarioca.com.br/gastronomia/cervantes-copacabana/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | abdc48e525942bf73fe72daefee731ea38819bf4 |
+| 32 | https://www.ernestinhocarioca.com.br/gastronomia/rotisseria-sirio-libanesa/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | c0934b90f225b95e04592f9549dd0e37ca821925 |
+| 33 | https://www.ernestinhocarioca.com.br/gastronomia/guacamole-copacabana/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | a08313c70caf9646590de9fea5ea53b7094e1034 |
+| 34 | https://www.ernestinhocarioca.com.br/gastronomia/churrasqueira-rio/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 5018c17b722e2bb1cb7d65ae73214243ed8295f2 |
+| 35 | https://www.ernestinhocarioca.com.br/gastronomia/garota-de-ipanema/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | a2d8617b16ec407f38cb69d9563a052e99ccd295 |
+| 36 | https://www.ernestinhocarioca.com.br/gastronomia/bar-urca/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 01f276c0689bb5d869999a92da8e7d93b7d6b785 |
+| 37 | https://www.ernestinhocarioca.com.br/gastronomia/polis-sucos/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 79fee661887876e6b21755854a8f21b1f53d139f |
+| 38 | https://www.ernestinhocarioca.com.br/gastronomia/feira-sao-cristovao/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | dea40048e9a5d39fc77b7c29016b3f88f9ea2f60 |
+| 39 | https://www.ernestinhocarioca.com.br/gastronomia/la-bicyclette/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 82631de53f3a33c2d67487ba563abd91e5baafbd |
+| 40 | https://www.ernestinhocarioca.com.br/gastronomia/chez-claude/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 2e77c8f11c2d850bae3074dfbcc47ee965c42746 |
+| 41 | https://www.ernestinhocarioca.com.br/gastronomia/stalos/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 34d677468e2a5b07c7b8055238a344bda86478eb |
+| 42 | https://www.ernestinhocarioca.com.br/gastronomia/giuseppe-mar/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 318a57e414fc9fa64006343020e4fbbf064a1d4f |
+| 43 | https://www.ernestinhocarioca.com.br/gastronomia/aipo-aipim-391/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | db591ebfddae31ecef0c5cf17ee39b28becabe09 |
+| 44 | https://www.ernestinhocarioca.com.br/gastronomia/hollandaise/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 0f57ab5a0c0f56d4b17f181c56ce93838f239376 |
+| 45 | https://www.ernestinhocarioca.com.br/gastronomia/mocellin-steak/ | Pendiente de recertificación en esta ejecución; no hay evidencia actual que permita declararla completa/publicada. | 3553279f2696fd6b2f913d0adba0d0e4904ac9f9 |
+| 46 | https://www.ernestinhocarioca.com.br/gastronomia/jobi/ | Auditada ahora: PT/EN 2/20 párrafos literales ES; ES indexada, PT descubierta, EN rastreada sin indexar; FR no existe. No completa. | 228f39e151ad55c8be9077423e0950acfcab64a5 |
+| 47 | https://www.ernestinhocarioca.com.br/gastronomia/stambul-copa/ | Auditada ahora: PT/EN 8/25 párrafos literales ES; 3/3 indexadas; FR no existe. No completa. | b317ce518b57df93758020ee5d3001e44d0316cb |
+| 48 | https://www.ernestinhocarioca.com.br/gastronomia/oro/ | Auditada ahora: 0/32 coincidencias literales PT/EN (sin dictamen semántico); PT descubierta/no indexada; ES/EN indexadas; FR no existe. No completa. | b14c975bf22457c77dd3702662509a9460b287ed |
+| 49 | https://www.ernestinhocarioca.com.br/gastronomia/sel-ipanema/ | Auditada ahora: PT 11/30 y EN 10/30 párrafos literales ES; 3/3 indexadas; FR no existe. No completa. | 9c1f030f233f00ecf601f679170b0bf6c46ce84e |
+| 50 | https://www.ernestinhocarioca.com.br/gastronomia/joaquina/ | Auditada ahora: 0/23 coincidencias literales PT/EN; ES indexada, PT/EN descubiertas/no indexadas, sin fallo de fetch observado; FR no existe. No completa. | c8ba68361265cdf3083438493a7dff1ddd9505da |
+
+**Contabilidad final de esta tanda:** 50/50 rutas con estado registrado; 0/50 cumplen todos los criterios de cuatro idiomas, incrementabilidad, SEO/canonical/hreflang/sitemap, auditorías semánticas, capturas aprobadas a 1440/390 y demás guardas. 0/50 publicadas en Hostinger. Las exclusiones GSC que no proporcionan error de fetch/canonical quedan pendientes de seguimiento y no se etiquetan como fallos técnicos. Inventario maestro actualizado en commit `f57881fb5aff67aaa229b2fc17726ff8085aa2f1`; informe en el commit documental posterior. La continuación siguiente es una nueva tanda desde la cola prioritaria de Gastronomía por impresiones, sin reutilizar páginas ya completas (en este corte ninguna quedó completa) y sin recontar lo ya auditado.
