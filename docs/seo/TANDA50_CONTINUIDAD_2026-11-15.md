@@ -1538,3 +1538,15 @@ Producción Hostinger verificada en revision/rendimiento-traducciones-81a904c SH
 - FR HTTP 422 en Hostinger y sin hreflang FR. Estado: auditada, PT/EN incompletos en producción, FR y QA visual pendientes; no completa ni publicada.
 
 Conteo tanda 3: **6/50 auditadas, 0/50 completas, 0/50 publicadas**. Continuar con rutas libres por impresiones GSC actuales; confirmar cada slug contra el inventario antes de iniciar otra auditoría.
+
+ 
+## Tanda 3 — ficha 7/50: Terra Brasilis (15/11/2026)
+
+Hostinger producción verificada: revision/rendimiento-traducciones-81a904c, SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. Blob ES del checkout GitHub en esa revisión: 1c3f6149742b62e50d233ef57f6b37dd8237d0fd.
+
+- HTML Hostinger ES/PT/EN: 25 párrafos por variante, sin coincidencias literales posicionales entre las tres versiones. La revisión manual de los primeros 12 bloques ES/PT/EN muestra equivalencia de sentido para ubicación, acceso controlado, cocina, cargos/couvert, música, lluvia y normas de mascotas. No se considera QA lingüístico total de los 25 bloques.
+- Los títulos están localizados parcialmente (EN usa “Dining”; ES y PT conservan “Gastronomía”). La meta description “Cocina regional en Praia Vermelha, con vistas al Pão de Açúcar y al Bondinho.” permanece en español en las tres variantes. Imágenes: 21 tags por idioma, 2 alt vacíos por variante. Canonical propia y hreflang ES/PT-BR/EN/x-default correctos; FR no está en producción (422), no se anuncia.
+- GSC final 16-oct–12-nov: ES 307 impresiones/2 clics/posición 10,8; PT 106/0/10,6; EN 38/1/6,4. Inspecciones 3/3 enviadas e indexadas, fetch exitoso, canonical Google=declarada y robots permitido. Breadcrumb “item sin nombre” es una alerta de datos estructurados, no error confirmado de indexación.
+- Estado: ES/PT/EN indexables, contenido principal de la muestra diferenciado y semánticamente alineado; metadatos, alts, cobertura completa, FR, runtime/capturas y build incremental aún pendientes. No completa, no publicada.
+
+Conteo tanda 3: **7/50 auditadas, 0/50 completas, 0/50 publicadas**. Siguiente prioridad real pendiente por impresiones actuales: revisar Haru Sushi Bar; después continuar la cola restante sin contar estados heredados como QA vigente.
