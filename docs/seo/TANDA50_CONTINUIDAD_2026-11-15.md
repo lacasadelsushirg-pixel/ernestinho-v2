@@ -1152,3 +1152,16 @@ GSC final (2026-10-16–11-12): ES 68 impresiones/0 clics/posición 9,0; PT 9/1/
 **Estado:** traducciones PT/EN incompletas aunque se verificó una fuente histórica manual íntegra para 19 bloques; FR ausente; no completa/no publicable. Falta recuperar bloques actuales sin desalineación, cotejar expansiones y medios/links, FR integral, build incremental/guard y capturas 1440/390. Hostinger no se modificó; **0/50 completas y 0/50 nuevas publicadas**.
 
 **Punto durable:** tanda 2: 20/50 auditadas, 0 completas, 0 publicadas, 30 pendientes. Siguiente #21 `/gastronomia/aipo-aipim-920/`; verificar existencia/blob en producción antes de empezar. Inventario Tia Palmira actualizado en commit `0f3eba74efa8a1aa8c1991d275d2f65983ecb9d8`.
+
+
+## Auditoría de producción — Aipo & Aipim Copacabana 920 (segunda tanda, ficha 21/50; 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c`, HEAD `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; HTML ES blob `107f3a973fc5ded3804ca82f680ea9798d74c250`. Las variantes ES/PT/EN tienen 24 párrafos y no se detectaron coincidencias de párrafos completos PT/EN con ES. Title/description/H1 y canonical/hreflang es/pt-BR/en/x-default están presentes; el title PT y EN todavía conserva “guía completa” en español. Hay 10 imágenes, 8 alts con texto y 25 enlaces por variante; igualdad exacta de assets y destinos aún sin QA. La ruta `/fr/gastronomia/aipo-aipim-920/` devuelve “File does not exist”, sin FR/hreflang FR.
+
+Fuente histórica manual verificada dentro de la página de los commits `42d03024d2c3765b0d96eb5f9763657d731baf4a` y `8570793a992b262c5fb384a396ec949e6105775c`: ambos comparten el blob `256f2ece1ea09afe608e15b05ae41ad935c9db2a`, con 19 bloques PT y 19 EN. En el HTML servido actualmente coinciden exactamente 8 de esos bloques por idioma; el texto adicional actual debe cotejarse contra el ES actualizado y el origen editorial, no sustituirse por posiciones.
+
+GSC final (2026-10-16–11-12): ES 51 impresiones/0 clics/posición 11,4; PT sin fila; EN 28/0/10,1. Periodo previo (2026-09-18–10-15): ES 6/0/8,0; PT/EN sin filas. Para ES suben impresiones y empeora posición promedio; PT/EN no tienen comparación previa observada. Inspección ES y EN indexadas, fetch exitoso, sitemap y canonical de Google igual al declarado. PT “Descubierta: actualmente sin indexar”, robots/fetch/canonical sin estado establecido: exclusión normal de descubrimiento, no error técnico confirmado. Breadcrumb “Elemento sin nombre” es alerta de datos estructurados.
+
+**Estado:** fuente histórica PT/EN recuperable identificada, pero la ficha no es completa ni publicable: residuo del title, QA semántico y medios pendientes, FR ausente, y PT sin indexar (sin fallo confirmado). Faltan restauración editorial controlada, FR íntegro, build incremental/guard y capturas 1440/390. Hostinger intacto; **0/50 completas y 0/50 nuevas publicadas**.
+
+**Punto durable:** tanda 2: 21/50 auditadas, 0 completas, 0 publicadas, 29 pendientes. Siguiente #22 `/gastronomia/galeto-liceu/`; confirmar blob y estado actual en producción antes de empezar. CSV Aipo & Aipim actualizado en commit `4deff07b4c99537e06ebd5701dac1a798a98093d`.
