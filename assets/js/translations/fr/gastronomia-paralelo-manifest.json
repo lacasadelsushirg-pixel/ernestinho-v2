@@ -154,7 +154,7 @@
       "entries": 59,
       "checked_strings": 59,
       "missing_keys": 0,
-      "qa": "Traduction complète des 59 chaînes éditoriales, métadonnées et alternatives ; prix, réservations et données locales à confirmer. Aperçu privé à valider en responsive."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/ct-boucherie/",
@@ -316,7 +316,7 @@
       "entries": 81,
       "checked_strings": 81,
       "missing_keys": 0,
-      "qa": "Traduction française éditoriale récupérée et isolée du copybook validé; métadonnées et textes visibles contrôlés dans la prévisualisation privée."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/ocya-leblon/",
@@ -325,7 +325,7 @@
       "entries": 80,
       "checked_strings": 80,
       "missing_keys": 0,
-      "qa": "Traduction française éditoriale récupérée et isolée du copybook validé; métadonnées et textes visibles contrôlés dans la prévisualisation privée."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/oteque/",
@@ -334,7 +334,7 @@
       "entries": 60,
       "checked_strings": 60,
       "missing_keys": 0,
-      "qa": "Traduction française intégrale des textes éditoriaux et métadonnées; données commerciales conservées comme vérification préalable."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/otto/",
@@ -361,7 +361,7 @@
       "entries": 27,
       "checked_strings": 27,
       "missing_keys": 0,
-      "qa": "Traduction française créée ou récupérée, contrôlée contre les textes et métadonnées de la source dans la prévisualisation privée."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/polvo-marisqueria/",
@@ -370,7 +370,7 @@
       "entries": 63,
       "checked_strings": 63,
       "missing_keys": 0,
-      "qa": "Traduction française récupérée du copybook éditorial validé; textes visibles et métadonnées contrôlés dans la prévisualisation privée."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/praia-skol-copa/",
@@ -388,7 +388,7 @@
       "entries": 84,
       "checked_strings": 84,
       "missing_keys": 0,
-      "qa": "Traduction française récupérée et complétée pour les métadonnées; la page complète a été contrôlée dans la prévisualisation privée."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/quartinho/",
@@ -397,7 +397,7 @@
       "entries": 61,
       "checked_strings": 61,
       "missing_keys": 0,
-      "qa": "Traduction française éditoriale récupérée et isolée du copybook validé; métadonnées et textes visibles contrôlés dans la prévisualisation privée."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/rotisseria-sirio-libanesa/",
@@ -415,7 +415,7 @@
       "entries": 63,
       "checked_strings": 63,
       "missing_keys": 0,
-      "qa": "Traduction française éditoriale complète, contenu et métadonnées contrôlés en prévisualisation privée."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/spicy-fish/",
@@ -424,7 +424,7 @@
       "entries": 73,
       "checked_strings": 73,
       "missing_keys": 0,
-      "qa": "Traduction française éditoriale récupérée et isolée du copybook validé; métadonnées et textes visibles contrôlés dans la prévisualisation privée."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/sud-passaro-verde/",
