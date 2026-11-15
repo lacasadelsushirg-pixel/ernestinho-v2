@@ -1525,3 +1525,16 @@ Fuente publicada comprobada: los tres HTML de Hostinger (`gastronomia/plage-cafe
 - FR no existe en Hostinger (HTTP 422), sin alternate FR ni URL francesa en sitemap. Estado: auditada, incompleta para cuatro idiomas y bloqueada para reconstrucción hasta reconciliar la diferencia de contenido fuente/despliegue. No publicada durante este lote.
 
 Conteo tanda 3: **5/50 auditadas, 0/50 completas, 0/50 publicadas**. Continuar con la siguiente ruta gastronómica libre de mayor impresión comprobable; no construir/reemplazar Plage Café mientras los 6 bloques editoriales y 5 imágenes extra del HTML Hostinger no estén representados en la fuente versionada o explicados por el pipeline.
+
+ 
+## Tanda 3 — ficha 6/50: Spicy Fish (15/11/2026)
+
+Producción Hostinger verificada en revision/rendimiento-traducciones-81a904c SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; blob ES del repositorio en esa revisión 6c49d747f9a7a5712a8a4cb7927462bcf44c378d.
+
+- Hostinger ES/PT/EN: 29 párrafos por variante. Comparación literal entre párrafos ES y PT: 8 coincidencias; ES y EN: 8; PT y EN: 8. Además de los bloques informativos localizados, los párrafos largos editoriales 2–9 siguen en español en las variantes PT/EN. Los títulos están localizados; la meta description es la misma frase española en ES/PT/EN. Por lo tanto no se consideran traducciones completas.
+- Imágenes: 10/9/9 elementos ES/PT/EN; dos alts vacíos por variante. Canonical propia y alternates ES/PT-BR/EN/x-default correctos; HTML sin noindex. No hay francés en producción.
+- GSC final 16-oct–12-nov: ES 351 impresiones/2 clics/posición 7,6; PT 25/0/5,0; EN 5/0/6,8. Inspecciones 3/3 enviadas e indexadas, robots permitido, fetch exitoso, canonical de Google igual a la declarada. Breadcrumb PASS con un item sin nombre: alerta de datos estructurados, no error de indexación confirmado.
+- Hay un candidato no publicado en PR #36 (ed946011f04c68bef110c8db0f4eab484b20a246) que intenta recuperar los textos históricos PT/EN y conservar elementos. Su QA previo midió 24 párrafos en main y seis imágenes en la plantilla; las capturas no pasaron por ERR_EMPTY_RESPONSE del host externo de fotos y esa validación precede a la presente lectura de producción. No lo reutilizo como prueba vigente sin comparar/recrear desde Hostinger.
+- FR HTTP 422 en Hostinger y sin hreflang FR. Estado: auditada, PT/EN incompletos en producción, FR y QA visual pendientes; no completa ni publicada.
+
+Conteo tanda 3: **6/50 auditadas, 0/50 completas, 0/50 publicadas**. Continuar con rutas libres por impresiones GSC actuales; confirmar cada slug contra el inventario antes de iniciar otra auditoría.
