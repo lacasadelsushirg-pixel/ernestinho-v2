@@ -271,7 +271,7 @@ function apply(lang) {
   document.documentElement.lang = selected === "PT" ? "pt-BR" : selected.toLowerCase();
   applySeoMetadata(selected);
   localizeAttractionBooking(selected);
-  localizeLinks(document, selected);
+  if(!location.pathname.startsWith('/fr-vista-luna/'))localizeLinks(document, selected);
   localizeCorporateWhatsApp(selected);
   syncLocaleMetadata();
 }
@@ -477,7 +477,7 @@ async function init() {
   apply(getLanguage());
   const observer = new MutationObserver(records => {
     const added = records.flatMap(record => [...record.addedNodes]).filter(node => node.nodeType === Node.ELEMENT_NODE);
-    if (added.length) for (const node of added) { translateText(node, getLanguage()); translateAttrs(getLanguage()); applyTranslations(node, getLanguage()); localizeLinks(node); }
+    if (added.length) for (const node of added) { translateText(node, getLanguage()); translateAttrs(getLanguage()); applyTranslations(node, getLanguage()); if(!location.pathname.startsWith('/fr-vista-luna/'))localizeLinks(node); }
   });
   observer.observe(document.body, { childList: true, subtree: true });
   document.addEventListener("ec:language", event => {
