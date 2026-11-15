@@ -50,3 +50,10 @@ La protección del repositorio exige revisión humana independiente. Además, el
 Recuento honesto: 10 rutas con QA privado histórico que deben recertificarse; 2 rutas con PT/EN candidatos en este sublote; 38 siguientes rutas pendientes/por reauditar; **0 rutas nuevas cerradas en los cuatro idiomas en este sublote y 0 publicadas**. La tabla completa de las 50 rutas y estados al corte está registrada en `TANDA50_CONTINUIDAD_2026-11-15.md`. Próxima acción: validar texto y métricas de Spicy Fish, después Amendoeira y Dumaré Copa; para cada una cotejar español actual, fuente histórica, cobertura íntegra y sentido antes de aceptar PT/EN/FR. No confiar en diccionarios posicionales ni en el estado previo del CSV.
 
 SHA del sublote de código verificable en PR #36: `31eed118326f6191bc0895d3703f5669f7482378`. El informe y el inventario requieren un commit documental siguiente, que quedará indicado en el comentario del PR.
+
+
+## Inspección individual de Search Console
+
+OpenSEO inspeccionó las seis URLs ES/PT/EN de ambas fichas en la propiedad verificada. Las seis devuelven `verdict=PASS`, `coverageState=Enviada e indexada`, `robotsTxtState=ALLOWED`, `indexingState=INDEXING_ALLOWED` y `pageFetchState=SUCCESSFUL`. En las seis, canonical de Google = canonical declarado. Último rastreo: Don ES 2026-10-22 08:14Z, PT 2026-10-06 05:38Z, EN 2026-10-23 11:06Z; Bar ES 2026-10-05 07:36Z, PT 2026-10-06 14:59Z, EN 2026-10-05 17:30Z. Todas aparecen rastreadas como móvil. Rich results de breadcrumbs da PASS, con un elemento sin nombre en las seis respuestas; mobile usability queda `VERDICT_UNSPECIFIED`, por lo que no se afirma un resultado móvil positivo.
+
+Esto confirma que las seis URLs actuales indexan; no prueba que su contenido PT/EN esté completo y no se debe confundir la recuperación editorial de la rama con un nuevo estado publicado.
