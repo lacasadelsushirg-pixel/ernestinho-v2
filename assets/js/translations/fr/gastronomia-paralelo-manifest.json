@@ -20,6 +20,15 @@
       "checked_strings": 56,
       "missing_keys": 0,
       "qa": "Traduction éditoriale complète de 56 chaînes visibles, métadonnées, légendes et textes alternatifs. Aperçu FR audité ; Chromium valide le changement de langue et l’absence de débordement à 390 px et 1440 px. Les horaires et disponibilités doivent être confirmés avant publication."
+    },
+    {
+      "route": "/gastronomia/bb-lanches/",
+      "source_sha": "f387cc3e954f26f52b378fbe89ed74c720dfeca8",
+      "file": "assets/js/translations/fr/gastronomia-bb-lanches-paralelo.json",
+      "entries": 33,
+      "checked_strings": 33,
+      "missing_keys": 0,
+      "qa": "Traduction complète des chaînes visibles, métadonnées, textes éditoriaux et alternatives. Prévisualisation privée auditée à 390 px et 1440 px ; horaires de service et conditions de livraison à confirmer avant publication."
     }
   ],
   "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."

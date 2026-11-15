@@ -1,5 +1,5 @@
-Warning: truncated output (original token count: 7716)
-Total output lines: 621
+Warning: truncated output (original token count: 7724)
+Total output lines: 622
 
 #!/usr/bin/env python3
 """Create an explicitly private French preview from an existing locale build."""
@@ -34,6 +34,7 @@ ROUTES = (
     '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/',
     '/gastronomia/labuta-bar/', '/gastronomia/casa-201/', '/gastronomia/angu-do-gomes/',
     '/gastronomia/coisas-de-bamba/', '/gastronomia/ct-boucherie/',
+    '/gastronomia/bb-lanches/',
 )
 GUIDE_ROUTES = (
     '/guia/accesibilidad/', '/guia/aeropuertos/', '/guia/alquiler-auto/',
@@ -259,7 +260,76 @@ def portuguese_preview():
         book[key] = french
     for category, translated in zip(original['categories'], localized['categories'], strict=True):
         if category['id'] != translated['id']:
-            raise ValueError('Portugues…1716 tokens truncated… '/compras/praca-lido/', '/compras/feira-organica-gloria/', '/compras/cadeg/',
+            raise ValueError('Portuguese phrase categories are out of sync')
+        book[f"{category['icon']} {category['es']}"] = category['icon'] + ' ' + translated['fr']
+        category['es'] = translated['fr']
+    for phrase, translated in zip(original['phrases'], localized['phrases'], strict=True):
+        if (phrase['id'], phrase['pt'], phrase['es']) != (
+                translated['id'], translated['pt_original'], translated['es_original']):
+            raise ValueError('Portuguese phrases are out of sync')
+        book[phrase['pt']] = phrase['pt']
+        book[phrase['es']] = translated['fr']
+        phrase['es'] = translated['fr']
+    for item, translated in zip(original['falseFriends'], localized['falseFriends'], strict=True):
+        if item['pt'] != translated['pt']:
+            raise ValueError('Portuguese false friends are out of sync')
+        book[item['pt']] = item['pt']
+        book['→ ' + item['es']] = '→ ' + translated['fr']
+        book[item['note']] = translated['note']
+        item.update(es=translated['fr'], note=translated['note'])
+    # Run the original filtering and audio logic with the localized preview data.
+    start = module.index('function langKey()')
+    end = module.index('function cleanPhrase', start)
+    module = module[module.index('const root'):start] + 'function langKey() { return "es"; }\n\n' + module[end:]
+    module = module.replace('    onLanguageChange(() => {\n      stopAudio();\n      render();\n    });\n', '')
+    for spanish, key in [('Todas', 'all'), ('Escuchar', 'listen'), ('Lento', 'slow'),
+                         ('No encontré el audio de esta frase en Cloudinary.', 'missingAudio'),
+                         ('No se pudo cargar la guía de portugués.', 'loadError')]:
+        module = module.replace(json.dumps(spanish, ensure_ascii=False), json.dumps(ui[key], ensure_ascii=False))
+    return book, original, module
+
+
+def supermarkets_copybook():
+    localized = json.loads((FR_COPY / 'consejos-supermercados-modulo-196…724 tokens truncated…ute}: story paragraph count differs from translation QA/source')
+        for paragraph, text in zip(paragraphs, translations):
+            paragraph.text = text
+            for child in list(paragraph):
+                paragraph.remove(child)
+        return (*skip, 'story')
+    if 'runtime_T_fr' not in data or 'runtime_P_fr' not in data:
+        return ()
+    raw = route_file(ROOT, route).read_bytes()
+    source_sha = sha1(f'blob {len(raw)}\0'.encode() + raw).hexdigest()
+    if data.get('source_path') != route.lstrip('/') + 'index.html' or data.get('source_sha') != source_sha:
+        raise ValueError(f'{route}: runtime copy does not match the current source HTML')
+    runtime = data['runtime_T_fr']
+    expected_keys = data['qa'].get('fr_T_keys')
+    if expected_keys is not None and len(runtime) != expected_keys:
+        raise ValueError(f'{route}: runtime section count differs from translation QA')
+    for key, markup in runtime.items():
+        targets = document.xpath(f'//*[@id="{key}"]')
+        if not targets:
+            continue
+        replace_inner_html(targets[0], markup)
+    paragraphs = document.xpath('//*[@id="mainText"]')
+    if not paragraphs:
+        raise ValueError(f'{route}: mainText runtime target is missing')
+    main = paragraphs[0]
+    paragraphs = main.xpath('./p')
+    translations = data['runtime_P_fr']
+    expected_paragraphs = data['qa'].get('fr_P_paragraphs', data['qa'].get('original_P_paragraphs'))
+    if expected_paragraphs is None or len(translations) != expected_paragraphs or len(paragraphs) != expected_paragraphs:
+        raise ValueError(f'{route}: runtime paragraph count differs from translation QA or source HTML')
+    for paragraph, text in zip(paragraphs, translations):
+        paragraph.text = text
+        for child in list(paragraph):
+            paragraph.remove(child)
+    return ('mainText', *runtime.keys())
+
+
+SCRIPT_SOURCE_LOCALE_ROUTES = {
+    '/compras/rio-sul/', '/compras/feira-sao-cristovao/', '/compras/uruguaiana/',
+    '/compras/praca-lido/', '/compras/feira-organica-gloria/', '/compras/cadeg/',
     '/compras/feira-hippie-ipanema/', '/compras/praca-xv/', '/compras/lavradio/',
     '/compras/village-mall/', '/compras/saara/', '/compras/feira-da-gloria/',
     '/compras/mercadao-madureira/',
