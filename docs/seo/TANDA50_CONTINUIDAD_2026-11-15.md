@@ -626,3 +626,16 @@ Hostinger ES/PT/EN rerevisado; HTML ES mirror blob SHA `abdc48e525942bf73fe72dae
 - Falta recuperar PT/EN, alts/metadatos, FR completa, evaluar/corregir con guard el canonical de la variante sin slash, QA build y capturas 1440/390. No completa.
 
 **Contabilidad vigente que sustituye el corte anterior:** 31/50 auditadas, 0/50 completas, 0/50 nuevas publicadas; 19 pendientes. Próxima prioridad de la tabla: `/gastronomia/rotisseria-sirio-libanesa/` (176 impresiones; inspeccionar si los documentos de traducción realmente existen).
+
+## Auditoría de producción — Rotisseria Sírio Libaneza (corte 32/50, 15/11/2026)
+
+Leí desde Hostinger las variantes ES, PT-BR y EN de `/gastronomia/rotisseria-sirio-libanesa/`; la ruta FR no tiene archivo en producción. La lectura de Hostinger no expone SHA por archivo; la rama productiva verificada para este corte es `revision/rendimiento-traducciones-81a904c` en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`.
+
+- Los tres HTML traen 21 párrafos y conservan un H1; 10 párrafos completos de PT y 10 de EN son literalmente iguales a ES en el HTML servido. Esto es una alerta verificable del HTML estático; el renderizado runtime no se verificó en navegador, así que no se afirma que el usuario vea todas esas cadenas sin traducir.
+- Los títulos y descripciones meta están localizados en PT/EN; el H1 conserva correctamente el nombre propio del establecimiento. En las etiquetas de imagen observadas se usan rótulos en español. Hay 15/14/14 ocurrencias de `img`, con nueve URLs de imagen únicas iguales en las tres variantes; no se modificaron fotos. Hrefs normalizados: 7 en ES y 4 en cada PT/EN; quedan tres diferencias de navegación/enlaces por cotejar, sin alterar enlaces aprobados. Canonical propio y alternates es/pt-BR/en/x-default son coherentes; FR no se enlaza.
+- OpenSEO/Search Console, datos finales (2026-10-16–2026-11-12): ES 43 impresiones/0 clics/posición 11,0; PT 105/0/8,6; EN 28/0/16,4 (176 impresiones). Ventana previa equivalente (2026-09-18–2026-10-15): ES 15/0/18,9; PT 63/0/9,4; EN 10/0/9,5 (88 impresiones). Las impresiones sumadas aumentaron; esto no prueba causa ni excluye variación por idioma.
+- La inspección de GSC en las tres URLs canónicas resultó “Enviada e indexada”, robots permitido, fetch exitoso y canonical Google igual al declarado. Últimos rastreos: ES 2026-10-23; PT 2026-10-04; EN 2026-10-04. No se confirmó error de indexación. No se inspeccionó FR en GSC.
+
+La ficha queda incompleta: no hay FR, QA semántico, verificación del renderizado en runtime, prueba incremental/guard ni capturas aprobadas a 1440/390. Producción y enlaces/fotos/componentes permanecen intactos. No se intentó desplegar.
+
+**Contabilidad sustituida:** 32/50 auditadas; 0/50 completas según el criterio estricto; 0/50 nuevas publicadas; 18 pendientes. La siguiente fila de la cola de Gastronomía que debe confirmarse con el inventario y sus impresiones actuales es Guacamole Copacabana. El sitemap no se recontó en este corte; el último valor documentado es 3.588 URLs ES/PT/EN indexables y no se ha modificado.
