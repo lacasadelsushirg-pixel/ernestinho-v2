@@ -604,3 +604,14 @@ Se cotejaron ES/PT-BR/EN desde Hostinger; la variante FR no existe allí y Googl
 - Falta corregir texto/alt PT/EN, FR integral, QA semántico, build/guard y capturas aprobadas 1440/390. No completa.
 
 **Contabilidad vigente que sustituye el corte anterior:** 29/50 auditadas; 0/50 completas; 0/50 publicadas; 21 pendientes. Próxima fila de la cola: consultar la tabla priorizada en la parte superior de este informe; revalidar impresiones y estado antes de comenzar.
+
+## Auditoría de producción — Casa Mohamed (corte del run, 15/11/2026)
+
+Hostinger ES/PT/EN rerevisado. El HTML ES del espejo de producción tiene blob SHA `834f65a78f2ba7e39312f87e6ea777c41834d09b`; rama productiva `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. FR no existe en Hostinger y Google no reconoce esa URL.
+
+- Cada variante contiene 15 párrafos, un H1 y 10 H2. Las ocho fuentes únicas de imagen coinciden (15/14/14 tags). Enlaces normalizados ES/PT/EN: 15/4/4; faltan 11 destinos de ES en PT/EN y no se editaron.
+- Nueve de los 15 párrafos PT y nueve EN son idénticos literalmente al ES. Los title y description están en español en los tres idiomas; algunos alts dicen «fotografía editorial». Estos son hallazgos de contenido/metadatos por corregir, no un fallo de indexación. Canonical propio y alternates es/pt-BR/en/x-default.
+- GSC 16-oct–12-nov: ES 66 imp/0 clic/pos 13,2; PT 14/0/7,1; EN 41/1/11,1 (121/1 total). Ventana anterior: PT 6/0, EN 7/0, sin fila ES (13 impresiones observadas). Impresiones observadas subieron; sin atribuir causa. 3/3 URLs enviadas/indexadas, fetch exitoso y canonical Google=declarado. FR desconocida.
+- Falta recuperar PT/EN, añadir FR editorial, QA semántico, build/guard incremental y capturas aprobadas 1440/390. No completa.
+
+**Contabilidad que sustituye el corte anterior:** 30/50 auditadas; 0/50 completas; 0/50 nuevas publicadas en Hostinger; 20 pendientes. Próxima ruta libre de la cola por impresiones: `/gastronomia/cervantes-copacabana/` (176 del corte de prioridad; volver a consultar GSC).
