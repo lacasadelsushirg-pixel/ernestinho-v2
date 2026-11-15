@@ -655,3 +655,17 @@ Hostinger ES/PT-BR/EN fue releído directamente en la rama productiva `revision/
 Esta ficha no cumple el cierre estricto: FR, cotejo de diccionarios/historial, QA semántico integral, renderizado runtime, build incremental/guard y capturas aprobadas 1440/390 siguen pendientes. Hostinger queda intacto.
 
 **Contabilidad vigente:** 33/50 auditadas, 0 completas, 0 publicadas y 17 pendientes. Siguiente priorización: usar impresiones reales del corte final actual y evitar rutas ya auditadas en esta tanda; la tabla histórica de agosto–noviembre no sustituye ese ranking.
+
+
+## Auditoría de producción — Fast Food (corte 34/50, 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c` en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. Rutas ES/PT-BR/EN releídas directamente; no existe archivo FR. El HTML ES verificado en el espejo GitHub tiene blob `3eb04d5fc56365b46fab8bb0a060ec7568618374`.
+
+- ES/PT/EN tienen 14 párrafos y el cotejo literal no encuentra párrafos ES duplicados en las versiones PT/EN. H1, cinco H2, title y description son localizados. Esto es una señal estructural favorable, no aprobación semántica editorial ni del renderizador runtime.
+- Canonical propio y alternates es/pt-BR/en/x-default son coherentes. Cuatro tags de imagen con dos fuentes únicas coincidentes por idioma; solo dos tienen atributo alt no vacío, a revisar. Hay 27 enlaces por HTML; las diferencias de ruta son prefijos locales traducidos y mensajes WhatsApp localizados. No se cambiaron enlaces.
+- GSC final (16-oct–12-nov): ES 128 impresiones/2 clics/pos. 5,9; PT 40/0/10,7; EN 26/0/10,8 (194 impresiones). Periodo anterior (18-sep–15-oct): ES 24/0/5,8; PT y EN sin filas. El diferencial no se interpreta como caída comparable porque faltan filas previas PT/EN.
+- Inspección GSC: 3/3 variantes ES/PT/EN “Submitted and indexed”, ALLOWED/SUCCESSFUL y canonical Google igual al declarado; FR “URL is unknown to Google”. No hay error de indexación confirmado para las tres variantes existentes.
+
+Ficha incompleta: FR ausente; historial/diccionario no cotejado; QA semántico, inicialización en navegador, build incremental/guard y capturas aprobadas 1440/390 pendientes. **No cuenta como completa ni publicada.** Hostinger intacto.
+
+**Contabilidad canónica que sustituye el corte previo:** 34/50 auditadas, 0 completas, 0 nuevas publicadas en Hostinger, 16 pendientes. Próxima candidata libre por impresiones reales y estado del inventario: /gastronomia/classico-beach-club-barra/ (102 impresiones ES en 16-oct–12-nov; confirmar PT/EN actuales y GSC antes de priorizar). CSV actualizado en commit efb4c056add1ac41f2f9c1a1c5c11802b261111b.
