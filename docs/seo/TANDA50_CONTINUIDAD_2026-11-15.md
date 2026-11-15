@@ -256,3 +256,8 @@ El build local selectivo de Don Camillo vuelve a confirmar que los párrafos PT/
 ## Precisión de clasificación — leyenda Don Camillo (15/11/2026)
 
 La frase de la leyenda de galería que el build estático deja en español también aparece como clave con valor PT y EN dentro del inicializador lingüístico emitido. La inspección del archivo estático, por sí sola, **no demuestra** que el navegador la muestre en español tras ejecutar ese script. Retiro la afirmación de “error de renderizador confirmado”: estado correcto = **renderizado visible sin confirmar**. La falta de Chromium/preview impide decidirlo; mantener QA de Don abierto hasta una comprobación visual autorizada. No se modifica la traducción ni se cambia el alcance.
+
+
+## Hostinger: contenido público frente a candidatos (15/11/2026)
+
+Leí directamente los HTML del document root Hostinger (`pt/` y `en/`) de Don Camillo y Bar do Omar. El título y meta están localizados en ambas fichas, pero el cuerpo publicado aún no muestra el trabajo nuevo del PR. Al comparar párrafos normalizados por índice contra ES en los archivos vivos, encontré coincidencias literales ES/PT/EN: Don Camillo **7/25 PT y 7/25 EN**; Bar do Omar **9/26 PT y 8/26 EN**. Estas cifras cuentan solamente coincidencias exactas, no todos los calcos parciales ni estimación de calidad. Las seis variantes siguen indexadas en GSC con canonical propio y fetch exitoso. La rama de producción confirmada continúa en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; las correcciones de PR #36 no están en esos HTML. Candidato privado ≠ cambio visible; **0/50 completas, 0 publicadas**.
