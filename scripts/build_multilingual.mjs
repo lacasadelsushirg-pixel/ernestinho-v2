@@ -153,12 +153,12 @@ function adaptLegacyScripts(html,sourcePath){
   // Sparse renderer dictionaries legitimately have no ES entry.
   code=code.replace(/T\[l\]\[k\]/g,'T[l]?.[k]');
   if(sourcePath==='/compras/mercado-sao-pedro/')code=code.replace(/function lang\(/g,'function ecMarketLanguage(').replace(/=>lang\(/g,'=>ecMarketLanguage(').replace(/;lang\(/g,';ecMarketLanguage(');
-  // Haru's approved HTML already contains the original positional PT/EN dictionaries.
-  // Select the route locale when rendering its static pages instead of forcing Spanish.
-  if(sourcePath==='/gastronomia/haru/'){
-   const haruLocale="(document.documentElement.lang==='pt-BR'?'pt':document.documentElement.lang==='en'?'en':'es')";
-   code=code.replace("setLang('es')",`setLang(${haruLocale})`)
-    .replace("full('es')",`full(${haruLocale})`);
+  // These approved restaurant pages already contain their original positional PT/EN dictionaries.
+  // Select the route locale when rendering their static pages instead of forcing Spanish.
+  if(['/gastronomia/haru/','/gastronomia/fogo-de-chao-botafogo/'].includes(sourcePath)){
+   const pageLocale="(document.documentElement.lang==='pt-BR'?'pt':document.documentElement.lang==='en'?'en':'es')";
+   code=code.replace("setLang('es')",`setLang(${pageLocale})`)
+    .replace("full('es')",`full(${pageLocale})`);
   }
   return open+code+close;
  }).replace(sourcePath==='/compras/mercado-sao-pedro/'?/onclick="lang\(/g:/$^/g,'onclick="ecMarketLanguage(');
