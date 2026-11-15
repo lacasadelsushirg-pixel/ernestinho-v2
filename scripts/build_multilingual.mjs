@@ -12,6 +12,7 @@ import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/transl
 import{renderBuziosMirror,mirrorRoutes}from'./build_buzios_mirror.mjs';
 import { regionalRoutes, renderRegionalRoute } from './build_regional_destinations.mjs';
 import{beachEditorial}from'../assets/js/translations/chunks/buzios-beaches-reviewed.js';
+import CERVANTES_TRANSLATIONS from '../assets/js/translations/cervantes-copacabana.js';
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
@@ -108,6 +109,8 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   if(mirrorInputs.includes(file)||/^assets\/js\/translations\/chunks\/buzios-(?:transport-mirror|bus-timetable|guide-context|apps-mirror|events|things-parity)\.js$/.test(file)){for(const route of mirrorRoutes)routes.add(route);continue;}
   // This module only supplies texts for /quiero/; do not rebuild 3,522 unrelated locale pages.
   if(file==='assets/js/translations/quiero.js'){routes.add('/quiero/');continue;}
+  // Route-scoped restaurant copy is isolated so it only rerenders Cervantes' three locale files.
+  if(file==='assets/js/translations/cervantes-copacabana.js'){routes.add('/gastronomia/cervantes-copacabana/');continue;}
   if(file==='assets/js/buzios-taxonomy.js')continue;
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
@@ -290,8 +293,22 @@ async function worker(){
     await new Promise(r=>setTimeout(r,80));
     if(typeof window.ecApplyPracticalSummaryLocale==="function")window.ecApplyPracticalSummaryLocale(language);
    },target.language);
-   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations})=>{
+   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations,routeTranslations})=>{
     const language=document.documentElement.lang;
+    if(routeTranslations){
+     const locale=language==='pt-BR'?'PT':'EN';
+     const copy=routeTranslations[locale]||{};
+     const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+     let node;while((node=walker.nextNode())){
+      const parent=node.parentElement;
+      if(!parent||['SCRIPT','STYLE','NOSCRIPT'].includes(parent.tagName))continue;
+      const trimmed=node.nodeValue.trim(),key=trimmed.replace(/\s+/g,' '),translated=copy[key];
+      if(translated)node.nodeValue=node.nodeValue.replace(trimmed,translated);
+     }
+     for(const el of document.querySelectorAll('[alt],[title]'))for(const attr of ['alt','title']){
+      const value=el.getAttribute(attr);if(value&&copy[value])el.setAttribute(attr,copy[value]);
+     }
+    }
     if(standaloneTranslations&&/^\/experiencias\/pedra-(?:telegrafo|gavea|bonita)\/$/.test(route.replace(/^\/(?:pt|en)(?=\/|$)/,''))){
      const selected=language==='pt-BR'?'PT':language==='en'?'EN':'ES';
      if(selected!=='ES'){
@@ -390,7 +407,7 @@ async function worker(){
      const s=document.createElement('script');s.type='application/ld+json';s.dataset.ecBreadcrumb='';s.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});document.head.appendChild(s);
     }
     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1:document.querySelectorAll('h1').length};
-   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS});
+   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS,routeTranslations:target.route==='/gastronomia/cervantes-copacabana/'?CERVANTES_TRANSLATIONS:null});
    // Redirect-only source documents remain redirect-only and never get hreflang.
    const original=fs.readFileSync(target.file,'utf8');const refresh=original.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(refresh){value.html=value.html.replace('</head>',refresh[0].replace(/(url=)([^"'>]+)/i,(_,p,destination)=>{const u=new URL(destination,base+target.route);return p+prefix(u.pathname,target.language)+u.search+u.hash;})+'</head>');}
