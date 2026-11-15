@@ -301,7 +301,7 @@ Corte de priorización: Search Console final, 2026-10-16–11-12, páginas de Ga
 | 9 | https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/ | ES/PT indexadas; EN descubierta/no indexada sin causa técnica declarada; PT/EN tienen 31 párrafos sin coincidencia literal con ES, pero un alt de foto sigue en español; FR ausente; no completa | 523 (ES 474/PT 49/EN sin filas) | Hostinger prod 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; blob ES f0960038eed49af92dfaf2c9618b88b30dbc0395 |
 | 10 | https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/ | ES/PT/EN GSC indexadas; PT/EN retienen 8 párrafos y 9 alts en ES; sets de enlaces difieren; FR ausente; no completa | 481 (ES 393/PT 55/EN 33) | Hostinger prod `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `3c81194462752ddc241b1cad847785ef44b5ec4a` |
 | 11 | https://www.ernestinhocarioca.com.br/gastronomia/terra-brasilis/ | P/P/P/P | 451 / 3 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
-| 12 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-lido/ | P/R/R/P | 447 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 12 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-lido/ | ES/PT/EN GSC indexadas; PT conserva 7 párrafos ES, EN 6; 8 alts y 12 enlaces de navegación siguen pendientes; FR ausente | 447 (ES 400/PT 28/EN 19) | Hostinger prod `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `fe48ac0c9ad39cbf3be490dc32c1e96010c29487` |
 | 13 | https://www.ernestinhocarioca.com.br/gastronomia/cais-do-oriente/ | P/R/R/P | 121 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 14 | https://www.ernestinhocarioca.com.br/gastronomia/galeto-sats/ | P/P/P/P | 360 / 4 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 15 | https://www.ernestinhocarioca.com.br/gastronomia/haru/ | P/R/R/P | 313 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
@@ -426,3 +426,17 @@ El cotejo de los commits 42d03024d2c3765b0d96eb5f9763657d731baf4a y 8570793a992b
 GSC final 2026-10-16–11-12: ES 393 impresiones/0 clic/posición 7,0; PT 55/0/14,1; EN 33/0/9,4. Periodo 2026-09-18–10-15: ES 63/2/CTR 3,17%/posición 6,4; no hubo filas PT/EN. Inspección actual: las tres variantes están enviadas e indexadas, robots permitido, fetch exitoso y canonical de Google igual al declarado. La caída de posición promedio ES y el crecimiento de impresiones no prueban causalidad; no se confirmó error de indexación.
 
 Ficha **incompleta/no validada**: traducir editorialmente los ocho bloques y alts, revisar la diferencia de enlaces sin alterar enlaces aprobados, añadir FR completo, ejecutar QA runtime y visual a 1440/390 y validar SEO. La fuente de datos quedó registrada en el CSV maestro (1204 registros, 14 columnas, fecha 2026-11-15 y source SHA Hostinger 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346). Esta actualización es documentación; nada fue publicado.
+
+
+## Auditoría de producción — Carretão Lido (fila 12) — 15/11/2026
+
+Hostinger sirve ES/PT-BR/EN con títulos y canonical propios. Cada variante tiene 1 H1, 12 H2, 26 párrafos y un mapa; HTML etiqueta 12/11/11 imágenes con 10 fuentes únicas coincidentes. PT conserva 7 párrafos íntegros idénticos a ES; EN conserva 6. Ocho alts editoriales siguen en español en PT/EN. Enlaces declarados ES/PT/EN: 32/20/20, 25/13/13 href únicos tras normalizar prefijos. PT/EN no incluyen nueve rutas de navegación (`/`, guía, experiencias, transportes, hospedaje, compras, café, Búzios y consejos), Instagram, TikTok y los href genéricos de WhatsApp; el CTA WhatsApp sí tiene mensajes localizados para cada idioma. No se tocaron textos, fotos, mapa, enlaces ni layout.
+
+GSC final 2026-10-16–11-12: ES 400 impresiones/0 clic/posición 8,3; PT 28/0/9,1; EN 19/0/8,3 (447 total). Periodo anterior 2026-09-18–10-15: ES 118/0/8,5; PT 36/0/8,2; EN 15/0/5,8 (169 total). Todas las variantes están enviadas e indexadas en la inspección 2026-11-15, robots permitido, fetch exitoso, canonical Google igual al declarado. Aumentaron impresiones, mientras PT/EN empeoraron posición promedio; son métricas observadas sin causalidad atribuida y no hay error técnico de indexación confirmado.
+
+Ficha **incompleta/no validada**: traducir párrafos y alts que faltan, recuperar con revisión humana los enlaces de navegación permitidos por el proyecto, completar FR, QA runtime/visual 1440/390 y controles SEO. Inventario maestro actualizado, 1.204 registros/14 columnas, source SHA Hostinger `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`, fila CSV con datos exactos. No hubo cambio público.
+
+
+## Punto de reanudación actualizado — 15/11/2026
+
+En este corte se completó la auditoría directa de las filas #8 Plage Café, #9 Sushi Leblon, #10 Zazá Bistrô Tropical y #11 Terra Brasilis, y ahora #12 Carretão Lido: **5/50 examinadas durante esta ejecución; 0/50 completas; 0/50 publicadas**. La siguiente ficha seleccionada es #13 Cais do Oriente (`/gastronomia/cais-do-oriente/`); las filas #14–#50 siguen en el orden tabulado. Ninguna ruta auditada hoy se considera terminada: PT/EN tienen texto o alts pendientes, o falta FR/QA. Producción Hostinger continúa en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`.
