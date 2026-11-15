@@ -1487,3 +1487,15 @@ Producción verificada en Hostinger revision/rendimiento-traducciones-81a904c, S
 - Estado: auditoría de producción hecha; PT/EN estructuralmente diferenciadas del ES, pero semántica completa, runtime/capturas 1440/390, alt, navegación/enlaces, francés, build incremental y guard pendientes. No completa.
 
 **Punto de continuación tanda 3:** 2/50 auditadas, 0/50 completas, 0 publicadas. Próximo paso: seleccionar la siguiente ficha libre por impresiones actuales, tras cotejo contra este inventario y tandas previas.
+
+## Tanda 3 — ficha 3/50: Carretão Copacabana — Siqueira Campos (15/11/2026)
+
+Hostinger producción revision/rendimiento-traducciones-81a904c sigue en SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. Blob ES confirmado en GitHub: 6cbdf907f1a363efbeb47e869215900b1fe8d2a6.
+
+- HTML ES/PT/EN: 25 párrafos en cada versión; 0/25 coincidencias literales posicionales ES→PT y ES→EN. Los dos primeros párrafos PT/EN están localizados. Titles y meta descriptions de PT/EN, sin embargo, siguen iguales al español; H1 conserva el nombre; canonical propia y alternates ES/PT-BR/EN/x-default.
+- Imágenes 12/12/12, diez URLs únicas compartidas, dos alt vacíos por variante. La revisión anterior del inventario indica alts descriptivos en español en PT; requiere validación/corrección editorial, sin tocar fotos ni enlaces.
+- GSC final 16-oct–12-nov: ES 991 impresiones/5 clics/posición 8,4. PT y EN sin fila (no se interpretan como cero). Inspección ES: Submitted and indexed, robots allowed, fetch successful, Google canonical=user. PT y EN: Discovered - currently not indexed, veredicto neutral, sin fetch/crawl informado. Es una exclusión de descubrimiento, no un error técnico confirmado.
+- FR no existe en Hostinger (HTTP 422), sin hreflang FR. No se modificó código ni se publicó.
+- Estado: ficha auditada en producción; recuperación de metadatos/alt PT/EN, QA semántico/runtime, historia, francés, build/guard, capturas aprobadas 1440/390 y revisión humana pendientes. No completa.
+
+**Punto de continuación tanda 3:** 3/50 auditadas, 0/50 completas, 0 publicadas. Próxima libre por impresiones actuales, después de contrastar auditorías previas: /gastronomia/carretao-lido/ (ES400, PT28, EN19 en el corte actual; 447 impresiones observadas).
