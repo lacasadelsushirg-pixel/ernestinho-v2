@@ -1339,3 +1339,12 @@ GSC final (2026-10-16–11-12): ES 67 imp./0 clics/posición 20,4; PT sin fila; 
 - GSC 2026-10-16–2026-11-12: ES 400 impresiones/0 clics/posición 8,3; PT 28/0/9,1; EN 19/0/8,3. Periodo 2026-09-18–2026-10-15: ES 118/0/8,5; PT 36/0/8,2; EN 15/0/5,8. La caída de impresiones se registra como rendimiento, no como causa ni exclusión.
 - Estado: ES revisada; PT/EN bloqueadas por contenido idéntico; FR pendiente. Requiere recuperar y aplicar la fuente de traducciones, QA de renderer, enlaces/alt, captura 1440/390 y build incremental/guard. No completa ni publicada.
 - Contabilidad tanda 2: 37/50 auditadas; 0/50 completas; 0 publicadas; 13 pendientes. Siguiente candidato por impresiones del corte amplio: Terra Brasilis (596); verificar el estado actual de la página y el GSC antes de aceptarlo.
+
+## Auditoría de producción — Terra Brasilis (segunda tanda, ficha 38/50; 15/11/2026)
+
+- Producción Hostinger en `revision/rendimiento-traducciones-81a904c`, SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; fuente ES GitHub blob `1c3f6149742b62e50d233ef57f6b37dd8237d0fd`. Los HTML ES/PT/EN sirven 25 párrafos cada uno; title/meta y canonical propia están localizados, y alternates incluyen es/pt-BR/en/x-default. La historia de ambos commits `42d03024...` y `8570793...` resuelve la ruta al blob `0ee212854b7483744498c740430a0ef87363d177`.
+- Muestras completas iniciales de PT y EN están localizadas; sin embargo, alts fotográficos de ejemplo siguen en español en las páginas PT/EN, y hay dos alt vacíos por variante entre 21 etiquetas img. No se alteraron imágenes ni contenido.
+- GSC inspección 3/3 enviadas/indexadas, fetch exitoso, robots allowed, Google canonical igual a declarada. No hay error de indexación confirmado; FR no existe (Hostinger HTTP 422), sin hreflang FR.
+- GSC 2026-10-16–2026-11-12: ES 307 impresiones/2 clics/posición 10,8; PT 106/0/10,6; EN 38/1/6,4 (451 impresiones, 3 clics). En 2026-09-18–2026-10-15: ES 145/0/8,9 y PT/EN sin filas. No equiparar ausencia de filas con errores.
+- Estado: ES revisada; PT/EN en revisión; FR pendiente/no existe. Pendientes: cotejo semántico íntegro, revisión de todos los alt/enlaces, renderer real, capturas 1440/390 e incremental/guard. No completa ni publicada.
+- Contabilidad tanda 2: 38/50 auditadas; 0/50 completas; 0 publicadas; 12 pendientes. Siguiente en cola por GSC: `/gastronomia/haru/` (482 impresiones en el corte anterior); recontar cifras y revisar origen antes de contar.
