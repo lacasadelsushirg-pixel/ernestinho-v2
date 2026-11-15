@@ -774,3 +774,16 @@ Hostinger producción (`revision/rendimiento-traducciones-81a904c`) en `21bb6877
 - No completa/publicable: traducir y cotejar bloques históricos, completar FR, alts/hrefs, QA semántico y runtime, build incremental/guard y capturas aprobadas a 1440/390. Hostinger no modificado.
 
 **Contabilidad canónica tras este corte:** 42/50 auditadas; 0 completas, 0 nuevas publicadas, 8 pendientes. Inventario en commit `ef718e86fb1d6afb6ecede9a70d11e7b2fec6114`; este informe es el commit documental posterior. Siguiente: continuar con Bar do Omar por la prioridad GSC pendiente y repetir verificación completa contra producción.
+
+
+## Auditoría de producción — Bar do Omar (corte 43/50, 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c` en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; ES/PT-BR/EN leídos, FR no existe. Blob ES `e55472577b72ee0dda7a4c3689f2489898f9941e`.
+
+- 26 párrafos por variante; **9/26 PT y 8/26 EN son literalmente iguales al español**. La ruta tiene H1, title/description, primer H2 y los H2 base localizados; canonical propio y alternates `es`/`pt-BR`/`en`/`x-default` coherentes, sin FR.
+- Imágenes 11/10/10 tags, nueve URLs fuente únicas compartidas; alts con texto 9/11 ES y 8/10 PT/EN. Hrefs 26 ES frente a 14 PT/EN: faltan cotejar destinos sin alterar enlaces. Diferencia numérica no se etiqueta como error hasta revisar tipos de link.
+- GSC final (16 oct–12 nov): no aparece fila ES; PT 27 imp./1 clic/posición 7,4; EN 10/0/8,3. Periodo anterior: ES 42/0/10,7; EN 8/0/6,0; PT sin fila. Son datos de rendimiento, no diagnósticos de indexación.
+- Inspección GSC 3/3 ES/PT/EN: Submitted and indexed, rastreo permitido y exitoso, canonical Google=user. FR URL desconocida para Google; no consta como error de indexación.
+- No completa/publicable: cotejo de traducciones históricas, traducción íntegra PT/EN/FR, auditoría semántica de los bloques no literales y encabezados V2, revisar alts/hrefs, runtime, build incremental/guard y capturas aprobadas 1440/390. Producción intacta.
+
+**Contabilidad canónica tras este corte:** 43/50 auditadas; 0 completas, 0 nuevas publicadas, 7 pendientes. Inventario en commit `57fc7c0f3d6dfa2556761e84bcf4bc3dd41be04b`; informe durable en el commit documental posterior. Siguiente: continuar en gastronomía por datos de impresiones y sin repetir rutas ya auditadas.
