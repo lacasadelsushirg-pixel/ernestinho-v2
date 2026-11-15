@@ -66,7 +66,7 @@ document.addEventListener('click',event=>{
   if(!raw||raw.startsWith('#')||/^(?:mailto:|tel:|javascript:|data:)/i.test(raw))return;
   let url;try{url=new URL(raw,location.href)}catch{return}
   if(location.pathname.startsWith('/fr-vista-luna/')&&url.origin===location.origin&&!url.pathname.startsWith('/fr-vista-luna/')){
-    const sourcePath=url.pathname.replace(/^\\/+/, '');
+    const sourcePath=url.pathname.startsWith('/')?url.pathname.slice(1):url.pathname;
     if(['guia/','guia/dinero/','guia/aeropuertos/','guia/emergencias/','guia/viajar-solo/','guia/vacunas/','guia/apps/','guia/consulados/','guia/menores/','guia/permanencia/','guia/internet/','transportes/'].includes(sourcePath)){
       event.preventDefault();
       location.assign(location.origin+'/fr-vista-luna/fr/'+sourcePath+url.search+url.hash);
