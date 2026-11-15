@@ -485,3 +485,15 @@ Siguiente ficha libre del orden actual por impresiones: `/gastronomia/colombo-do
 
 ### Puerta de publicación
 El HEAD PR #36 consultado en esta ejecución: `7d7f51a14df48a27fc2e5c439178710de280bb7b`; Vercel sigue en **failure** `build-rate-limit`. No se eludió el gate ni se alteró producción. PR #24 continúa borrador, base `revision/rendimiento-traducciones-81a904c), y su descripción mantiene “Mantener como borrador”; no es camino de release. PR #36 sigue siendo privado y no está listo para aprobación: faltan FR, revisión semántica, capturas aprobadas 1440/390 y revisión humana independiente. Este run solo añadió documentación/inventario; no ejecutó guard/build porque el checkout de trabajo actual no contiene el repositorio Git. Antes de tocar código hay que abrir un checkout actualizado y ejecutar `check_frozen_pages.py`, `guard_approved_content.mjs` y la validación incremental aplicable.
+
+## Continuación inmediata del run — actualización de contador (15/11/2026)
+
+Se auditó una ruta adicional tras el checkpoint previo:
+
+| URL | Estado real | SHA HTML ES de producción | Evidencia y bloqueo |
+|---|---|---|---|
+| `/gastronomia/colombo-do-forte/` | ES/PT/EN publicados en Hostinger; FR ausente; ficha incompleta | `9f2499455a34a28a49a0773e6ae0bab3a02d4cbf` | 10/21 párrafos PT y EN iguales al ES; 4 alts por variante necesitan cotejo editorial. GSC final 2026-10-16–11-12: ES 199 imp/0 clic/pos 11,7; PT 28/1/8,3; EN 11/1/8,9; 3/3 enviadas e indexadas, fetch SUCCESSFUL, canonical Google=declarado. No es error técnico de indexación; falta FR, QA semántico y visual. |
+
+**Contador vigente, que sustituye el 10/50 anterior:** 11/50 URLs examinadas durante este ciclo, 0/50 completas y 0/50 nuevas publicadas; quedan 39 URLs del cupo por revisar/cerrar. El inventario mantiene 1.204 rutas. Último commit CSV: `f28526314ff3126778288b60b7de493c54d2a0ea`. Siguiente URL: `/gastronomia/faenza-copacabana/`; después seguir por impresiones de GSC hasta completar el cupo. No reiniciar ni duplicar las diez rutas enumeradas arriba y en el checkpoint precedente.
+
+Producción Hostinger permanece en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; no se publicaron estos cambios documentales. El status del HEAD de PR #36 `f28526314ff3126778288b60b7de493c54d2a0ea` sigue en **failure `build-rate-limit`**. No se hizo bypass.
