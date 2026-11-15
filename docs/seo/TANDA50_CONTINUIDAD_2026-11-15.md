@@ -296,7 +296,7 @@ Corte de priorización: Search Console final, 2026-10-16–11-12, páginas de Ga
 | 4 | https://www.ernestinhocarioca.com.br/gastronomia/amendoeira/ | A/P/P/P | 195 / 1 | PT/EN preview 200/noindex, autocanonical, indexed GSC; FR/QA visual y semántica pendientes; prod 21bb687; preview 846de45 |
 | 5 | https://www.ernestinhocarioca.com.br/gastronomia/dumare/ | A/U/U/P | 521 / 2 | PT/EN preview 200/noindex, autocanonical, indexed GSC; FR/QA visual y semántica pendientes; prod 21bb687; preview 846de45 |
 | 6 | https://www.ernestinhocarioca.com.br/gastronomia/chama-rio-copacabana/ | ES GSC descubierta; PT/EN live e indexadas; FR ausente | 1.062 / 3 | Hostinger PT/EN 20 párrafos, títulos/canonical propios y fotos editoriales coincidentes; 11 enlaces ES faltan en PT/EN; FR y QA visual pendientes, no completa |
-| 7 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-siqueira/ | P/R/R/R | 991 / 5 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 7 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-siqueira/ | ES indexada; PT descubierta/no indexada; EN desconocida; FR ausente | 991 / 5 | Hostinger: PT/EN 25 párrafos, títulos SEO y 7 alts siguen en ES; 7 fotos y 19 enlaces preservados; falta FR/QA visual, no completa |
 | 8 | https://www.ernestinhocarioca.com.br/gastronomia/plage-cafe/ | P/P/P/P | 869 / 10 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 9 | https://www.ernestinhocarioca.com.br/gastronomia/sushi-leblon/ | P/R/R/R | 523 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 10 | https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/ | P/R/R/R | 481 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
@@ -378,3 +378,12 @@ El cotejo de enlaces normalizando prefijos PT/EN identificó 11 href del ES que 
 Search Console por URL, final 2026-10-16–11-12: PT 995 impresiones, 3 clics, CTR 0,30%, posición 6,9; EN 67 impresiones, 0 clics, posición 9,6. Inspección 2026-11-15: PT y EN “Submitted and indexed”, robots ALLOWED, fetch SUCCESSFUL y Google canonical igual a user canonical. ES: “Discovered - currently not indexed”; robots/fetch/indexing state no especificados en la respuesta. Es exclusión de descubrimiento, sin un fallo de fetch/canonical confirmado.
 
 La copia de producción sí ofrece texto en PT/EN, pero la ficha queda pendiente de enlaces, FR, QA editorial integral y capturas; no cuenta como completa. Fuente confirmada: HTML vivo de Hostinger; este run no cotejó el historial Git de la ficha. Conteo estricto de la tanda sigue **0/50 completas; 0 cambios nuevos publicados**. Las primeras cinco rutas continúan siendo solo candidatas PT/EN estructurales en preview privado.
+
+
+## Auditoría de producción — Carretão Siqueira — 15/11/2026
+
+Hostinger fue leído en ES/PT/EN. Cada versión tiene 1 H1, 11 H2, 25 párrafos, 1 iframe de mapa, 12 etiquetas de imagen y 19 href normalizados. Los 7 archivos de fotos editoriales coinciden entre idiomas, así como los enlaces; no hay alt vacíos. Los 25 párrafos de PT/EN no coinciden literalmente con ES y la lectura de las muestras muestra cuerpo localizado. Sin embargo, el `<title>` SEO de PT y EN sigue exactamente en español (“Carretão Copacabana — Siqueira Campos: guía completa | Ernestinho Carioca”), y los 7 atributos `alt` de fotos editoriales también siguen en español. La descripción meta sí está localizada. No se cambiaron fotos, HTML, navegación ni enlaces.
+
+Search Console final 2026-10-16–11-12: ES 991 impresiones, 5 clics, CTR 0,50%, posición 8,4; en esta ventana no se devuelven filas PT/EN. Inspección 2026-11-15: ES “Submitted and indexed”, fetch SUCCESSFUL y canonical de Google igual a user canonical. PT “Discovered - currently not indexed”; EN “URL is unknown to Google”. Para PT/EN el API no especifica estado de robots/fetch ni un error técnico, por lo que no se etiqueta como fallo de canonical o rastreo confirmado.
+
+La ficha permanece incompleta: título y alt PT/EN sin traducir, FR ausente, falta revisión editorial completa y QA visual 1440/390. No cuenta como completa en la tanda. Evidencia actualizada también en CSV maestro, commit `c410f0d42d4a3aef065242e490c36f347da12b81`; fuente: HTML vivo Hostinger/GSC, aún sin cotejo de historial Git para esta ficha.
