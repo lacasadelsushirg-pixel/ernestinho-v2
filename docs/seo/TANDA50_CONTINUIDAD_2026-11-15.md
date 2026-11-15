@@ -800,3 +800,16 @@ Hostinger producción `revision/rendimiento-traducciones-81a904c`, commit `21bb6
 - La ficha estaba señalada como validada en el inventario heredado, pero la verificación vigente prueba traducción incompleta. No está completa/publicable: FR, cotejo editorial/histórico, alts/hrefs, runtime, build incremental/guard y capturas aprobadas 1440/390 pendientes. Producción intacta.
 
 **Contabilidad canónica tras este corte:** 44/50 auditadas; 0 completas, 0 nuevas publicadas, 6 pendientes. Inventario actualizado en `41310fdf8502dfcbebf1d649614c703a5013f0b9`; este informe es el commit documental posterior. Siguiente prioridad por demanda histórica pendiente: Amendoeira, que también debe revalidarse contra producción.
+
+
+## Revalidación de producción — Amendoeira (corte 45/50, 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c`, commit `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `b3ed0ef51003d906992bc10b0d086b7304907627`. ES/PT-BR/EN están presentes; no existe FR.
+
+- Intersección literal de párrafos: **11/24 PT y 9/24 EN continúan en español**. H1, H2 base, title/description localizados; canonical y alternates `es`/`pt-BR`/`en`/`x-default` válidos, sin FR.
+- Imágenes 8/7/7 tags, seis URLs fuente únicas compartidas; alt con texto 6/8 ES y 5/7 PT/EN. Hrefs 21 ES frente a 9 PT/EN; revisar destinos. Se mantienen fotos/enlaces intactos.
+- GSC final (16 oct–12 nov): ES 187 imp./1 clic/posición 9,6; PT y EN sin filas. Periodo previo: ES 8/0/10,4; EN 3/0/10,7; PT sin fila. La ausencia de fila no confirma desindexación.
+- GSC inspection: 3/3 ES/PT/EN Submitted and indexed, fetch ALLOWED/SUCCESSFUL, canonical Google=user; FR URL desconocida para Google, no un error de indexación demostrado.
+- Revalidación necesaria pese al estado heredado del inventario: no completa ni publicable. Faltan recuperar PT/EN, cotejo histórico, francés integral, QA semántico, alts/hrefs, runtime, build incremental/guard y capturas aprobadas 1440/390. Producción intacta.
+
+**Contabilidad canónica tras este corte:** 45/50 auditadas; 0 completas, 0 nuevas publicadas, 5 pendientes. CSV actualizado en `e3a370efa911fb3b889a981947a2acafb5defc2d`; este informe es el commit documental posterior. Se seleccionarán las cinco rutas finales de la tanda solo después de cotejar la lista durable para evitar duplicar páginas ya auditadas.
