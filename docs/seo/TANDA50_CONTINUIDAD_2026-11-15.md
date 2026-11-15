@@ -1053,3 +1053,13 @@ Hay 12 imágenes, 10 alts con texto y 24 enlaces por variante; igualdad de fuent
 **Estado:** ES auditada; PT/EN no tienen bloques literales ES, pero falta comprobar la fuente y significado; FR ausente; incompleta/no publicable. Pendiente localizar histórico original, QA semántico de párrafos/metadata/alt, FR completa, enlaces/fotos, runtime/build incremental/guard y capturas 1440/390. No hubo cambios en Hostinger. CSV actualizado en `0f594190d55835cf068b774c03750c480c386506`.
 
 **Punto durable:** tanda 2 de 50 exactas: 11/50 auditadas, 0 completas, 0 publicadas, 39 pendientes. Próxima #12: `/gastronomia/cabanna/`, blob HTML ES producción `9b48bcb19240242a3e81e0c9c3e95cd54548e6c6`.
+
+## Auditoría de producción — Cabanna (segunda tanda, ficha 12/50; 15/11/2026)
+
+Hostinger producción: `revision/rendimiento-traducciones-81a904c`, HEAD `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; HTML ES blob `9b48bcb19240242a3e81e0c9c3e95cd54548e6c6`. ES/PT/EN tienen 24 párrafos cada uno; 23/24 no son literales del ES. El único bloque literal en ambas traducciones es “☎️ Contacto +55 (21) 99585-0041”, donde el dato es estable pero el rótulo “Contacto” sigue español. Title/description están localizados y H1 es el nombre propio. Canonical y alternates es/pt-BR/en/x-default correctos; FR ausente en la ruta consultada y sin hreflang. No localicé Cabanna en los cuatro chunks gastronómicos productivos revisados, así que falta hallar y cotejar la fuente histórica antes de aprobar sentido.
+
+Medios: 10 imágenes, 8 alts con texto, 25 enlaces por variante; destinos y equivalencia de fuentes pendientes. GSC final (2026-10-16–11-12): ES 41 impresiones/0 clics/posición 8,0; EN 44/0/26,2; PT sin fila. Periodo anterior ES 9/0/7,2. Inspección ES/EN PASS, indexadas, fetch exitoso, canonical Google=declarado. PT “Descubierta: actualmente sin indexar”, con estado de fetch/canonical aún no establecido; exclusión por rastreo pendiente, sin error confirmado. GSC señala breadcrumb “Elemento sin nombre” en las inspecciones con resultado enriquecido; es alerta estructurada, no fallo de indexación.
+
+**Estado:** PT/EN casi completos pero tienen rótulo español y sin fuente semántica localizada; FR ausente; ficha incompleta/no publicable. Pendiente localizar texto original, adaptar etiqueta, QA semántico integral, FR, medios/enlaces, build incremental/guard y capturas 1440/390. Producción no modificada. CSV `6bf046e7840c2145abae277aff4d2ef7027d6918`.
+
+**Punto durable:** tanda 2 exacta de 50; 12/50 auditadas, 0 completas, 0 publicadas; 38 pendientes. Próxima #13: `/gastronomia/nova-capela/`, blob HTML ES producción `e9f91260d5e63d1ddad741fd2ebb36e7e85a7f83`.
