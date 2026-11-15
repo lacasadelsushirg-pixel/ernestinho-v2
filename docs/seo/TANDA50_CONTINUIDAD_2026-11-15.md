@@ -697,3 +697,17 @@ Producción Hostinger en revision/rendimiento-traducciones-81a904c, commit 21bb6
 Ficha incompleta y no publicable: traducción PT/EN, FR, cotejo histórico, href, alts, QA semántico/runtime, build incremental, guard y capturas 1440/390 pendientes. No completa ni publicada; Hostinger intacto.
 
 **Contabilidad canónica que sustituye al corte anterior:** 36/50 auditadas, 0 completas, 0 nuevas publicadas, 14 pendientes. Próxima candidata: seleccionar por impresiones actuales entre las 14 pendientes restantes y excluir las rutas ya auditadas en esta tanda; no asumir que la próxima referencia histórica sigue libre. CSV actualizado en commit e6cfb577e3c508f0a75b9b4ec3adeffe1e061658.
+
+## Auditoría de producción — Faenza Copacabana (corte 37/50, 15/11/2026)
+
+Hostinger producción revision/rendimiento-traducciones-81a904c, commit 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. ES/PT-BR/EN leídos; FR no existe. HTML ES espejo GitHub blob 110642f3335541a84cfba4f1fe3426912b16768f.
+
+- Hallazgo confirmado: 30 párrafos por variante; 10/30 de PT y 10/30 de EN son párrafos completos copiados literalmente del español. Son contenido extendido sobre el buffet, ofertas, servicio y referencias de la ficha; además, dos H2 de ampliación de versión 2 están en español en PT/EN. El texto no fue modificado.
+- H1, title, description y diez H2 base están localizados; los dos H2 V2 no. Canonical propio y cuatro alternates de cabecera es/pt-BR/en/x-default. Sin alternates FR.
+- 11/10/10 tags img y nueve URLs únicas por idioma; alts y set exacto de fotos requieren QA comparativo. Hrefs normalizados: 21 ES frente a 9 PT/EN; hay 12 destinos por cotejar antes de cualquier restauración. Sin cambios a enlaces/fotos.
+- GSC final (16-oct–12-nov): ES 205 impresiones/0 clics/pos. 12,5; PT 18/0/8,1; EN 1/0/4,0 (224 impresiones). Ventana previa (18-sep–15-oct): ES 79, PT 57, EN 6 (142). El total observado subió en 82; sin atribución causal.
+- GSC inspección: ES/PT/EN 3/3 Submitted and indexed, robots ALLOWED, fetch SUCCESSFUL y canonical Google=user. FR desconocida; breadcrumbs reporta item sin nombre, alerta de datos estructurados y no de indexación.
+
+Ficha incompleta/no publicable: recuperar y traducir los 10 párrafos y dos headings, cotejar fuente histórica, href y medios, completar francés, runtime, QA semántico, build/guard y capturas 1440/390. Producción intacta.
+
+**Contabilidad canónica que sustituye al corte anterior:** 37/50 auditadas, 0/50 completas, 0/50 nuevas publicadas, 13 pendientes. Próxima candidata de la lista prioritaria con demanda alta: /gastronomia/haru/ (482 impresiones históricas del corte de cola; refrescar GSC antes de priorizar). Inventario actualizado en commit 7ab6d96333934edb2a073f268255a18e01bf0f49.
