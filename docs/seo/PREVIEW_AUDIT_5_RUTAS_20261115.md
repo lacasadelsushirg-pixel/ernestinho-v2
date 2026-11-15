@@ -74,3 +74,20 @@ Consulta nueva a OpenSEO/Search Console para la propiedad verificada `https://ww
 Esto demuestra demanda e impresiones actuales en algunas variantes, pero la ventana aislada no permite concluir pérdida o tendencia; para eso hay que comparar periodos equivalentes y segmentar idioma/página. No son fallos de indexación. Sigue pendiente verificar en GSC el estado de indexación si se requiere: el informe aquí solo es rendimiento. Fuente: OpenSEO conectado a la propiedad indicada; estado `final`, sin pedir conexión adicional.
 
 En esta ejecución no cambió el código ni se editó Hostinger. Contabilidad estricta: **0/50 fichas completas, 0 publicadas**. Estado durable: PR #36; cabeza documental previa a este informe `14a8cff62e108ab89f114152dc8c0679ae228027`. Próxima acción: resolver acceso autorizado al runtime del preview y completar QA semántico/FR/1440+390 antes de liberar.
+
+
+## Comparación de rendimiento por idioma — ventanas equivalentes
+
+GSC final comparado por página en dos periodos de 28 días, sin mezclar con estado de indexación:
+
+| Ficha | ES: 18 sep–15 oct → 16 oct–12 nov | PT-BR: anterior → reciente | EN: anterior → reciente |
+|---|---:|---:|---:|
+| Amendoeira | 8 → 187 imp. | 104 → 8 imp. | 3 → 0 imp. |
+| Bar do Omar | 42 → 183 imp. | 48 → 27 imp. | 8 → 10 imp. |
+| Don Camillo | 17 → 65 imp. | 66 → 32 imp. | 0 → 37 imp. |
+| Dumaré | 67 → 214 imp. | 0 → 148 imp. | 60 → 159 imp. |
+| Spicy Fish | 77 → 351 imp. | 67 → 25 imp. | 62 → 5 imp. |
+
+La caída de impresiones PT de Amendoeira y Spicy Fish, y EN de Spicy Fish, es una señal de rendimiento que merece revisión; no identifica por sí sola la causa ni confirma un problema de indexación. Dumaré creció en las tres variantes. Posición media reciente frente a anterior: Amendoeira ES 10,4→9,6 y PT 9,3→7,0; Bar ES 10,7→13,4 y PT 9,4→7,4; Don ES 8,5→12,3 y PT 6,6→8,2; Dumaré ES 7,7→7,4, PT nuevo 8,8, EN 7,8→9,7; Spicy ES 7,6→7,6, PT 8,2→5,0, EN 8,0→6,8. Las filas sin impresiones en la ventana corresponden a cero filas devueltas para esa URL/dimensión, no a una prueba de desindexación.
+
+Siguiente análisis: segmentar consultas principales y revisar Inspection de URL para las caídas PT/EN, contrastando canonical seleccionado y último rastreo. No cambiar canonicals o sitemap basándose solo en impresiones. Fuente: Search Console conectado por OpenSEO, propiedad verificada; ventanas finales 2026-09-18–10-15 y 2026-10-16–11-12.
