@@ -711,3 +711,17 @@ Hostinger producción revision/rendimiento-traducciones-81a904c, commit 21bb6877
 Ficha incompleta/no publicable: recuperar y traducir los 10 párrafos y dos headings, cotejar fuente histórica, href y medios, completar francés, runtime, QA semántico, build/guard y capturas 1440/390. Producción intacta.
 
 **Contabilidad canónica que sustituye al corte anterior:** 37/50 auditadas, 0/50 completas, 0/50 nuevas publicadas, 13 pendientes. Próxima candidata de la lista prioritaria con demanda alta: /gastronomia/haru/ (482 impresiones históricas del corte de cola; refrescar GSC antes de priorizar). Inventario actualizado en commit 7ab6d96333934edb2a073f268255a18e01bf0f49.
+
+## Auditoría de producción — Haru Sushi Bar (corte 38/50, 15/11/2026)
+
+Hostinger producción revision/rendimiento-traducciones-81a904c, commit 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. Variantes ES/PT-BR/EN leídas; FR ausente. HTML ES en espejo GitHub blob 6f897d6c60ca36d476d916d93d9e8b9ae25d1f97.
+
+- Alerta de contenido confirmada: 23 párrafos por variante; 9/23 párrafos PT y EN son copias literales del ES. Un bloque describe las características del sushi bar; otros incorporan nuevos detalles editoriales. La ampliación no está traducida al portugués/inglés.
+- H1 mantiene Haru Sushi Bar; metadatos title/description y nueve H2 base están localizados; canonical propio y hreflang de cabecera es/pt-BR/en/x-default correctos. Sin alterno FR.
+- 12/11/11 tags img y 10 fuentes únicas por idioma. Hrefs 22 ES vs 10 PT/EN: los destinos diferenciales requieren cotejo, no se han cambiado. Alts en contexto pendientes.
+- GSC final (16-oct–12-nov): ES 261 impresiones/0 clics/pos. 16,6; PT 14/0/7,6; EN 38/0/7,1 (313 impresiones). Periodo previo (18-sep–15-oct): ES 89, PT 37, EN 43 (169 impresiones). ES perdió posición media 10,4→16,6; PT y EN mejoraron; no hubo clics. No se atribuye causa.
+- Inspección: 3/3 ES/PT/EN PASS, Submitted and indexed, ALLOWED/SUCCESSFUL, Google canonical=user. FR desconocida. Breadcrumb PASS con elemento “Unnamed item”: alerta estructurada, no fallo de indexación.
+
+No completa/no publicable: recuperación PT/EN, fuente histórica, href, alt, francés completo, QA semántico/runtime, build incremental/guard y capturas aprobadas 1440/390 pendientes. Producción intacta.
+
+**Contabilidad canónica que sustituye al corte anterior:** 38/50 auditadas, 0 completas, 0 nuevas publicadas, 12 pendientes. Inventario actualizado en commit 37ef9e65ede2367c6f5b7d13f257c6149f578041. Siguiente ficha libre a elegir por impresiones actuales y cola —priorizar las URL de alto volumen sin auditoría vigente—; verificar en GSC antes de abrirla.
