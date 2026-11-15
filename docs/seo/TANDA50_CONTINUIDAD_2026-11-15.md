@@ -908,7 +908,7 @@ Base: maestro ES/PT-BR/EN/FR y GSC final (2026-10-16–2026-11-12). Excluye las 
 | 2 | https://www.ernestinhocarioca.com.br/gastronomia/mee/ | 93 | Pendiente / En revisión / En revisión / Pendiente | 599c7ff00879856491c7203c36bf5931db084178 | Auditada ahora: 7/25 párrafos PT y 7/25 EN literales ES; 3/3 ES/PT/EN indexadas/fetch/canonical válidos; FR no existe. Incompleta. |
 | 3 | https://www.ernestinhocarioca.com.br/gastronomia/ryu/ | 82 | Pendiente / En revisión / En revisión / Pendiente | 5543e1e8019f0d966d972d36ce971445b42c4cd2 | Auditada ahora: PT 8/29 y EN 8/29 párrafos ES literales; 3/3 ES/PT/EN indexadas/fetch/canonical válidos; FR no existe. Incompleta. |
 | 4 | https://www.ernestinhocarioca.com.br/gastronomia/satyricon/ | 73 | Pendiente / En revisión / En revisión / Pendiente | e9b1b68e35db88362cbefca6fc900b7cd0d80824 | Auditada ahora: texto PT/EN lingüísticamente mezclado/malformado (9/32 y 11/32 párrafos literales ES); 3/3 indexadas; FR no existe. Bloqueo editorial, no publicable. |
-| 5 | https://www.ernestinhocarioca.com.br/gastronomia/armazem-sao-thiago/ | 69 | Pendiente / En revisión / En revisión / Pendiente | f44d6602cf96a8f7f8d070f6ee7cb9ab83a93993 | Pendiente de auditoría de producción |
+| 5 | https://www.ernestinhocarioca.com.br/gastronomia/armazem-sao-thiago/ | 69 | Pendiente / En revisión / En revisión / Pendiente | f44d6602cf96a8f7f8d070f6ee7cb9ab83a93993 | Auditada ahora: 9/23 párrafos PT y 9/23 EN literales ES; 3/3 indexadas; FR ausente. Incompleta. |
 | 6 | https://www.ernestinhocarioca.com.br/gastronomia/brota/ | 62 | En revisión / Corregido o traducido / Corregido o traducido / Corregido o traducido | e31a7f7dc52c2a4f1babe297da011ca300d4cc16 | Pendiente de auditoría de producción |
 | 7 | https://www.ernestinhocarioca.com.br/gastronomia/fiorino/ | 60 | Pendiente / En revisión / En revisión / Pendiente | c6b987695fc2c40ff2bb9853fc4b314f8b1f210c | Pendiente de auditoría de producción |
 | 8 | https://www.ernestinhocarioca.com.br/gastronomia/delirio/ | 59 | Pendiente / En revisión / En revisión / Pendiente | 3242deca8f1d7e38dbb99d70be9a8c3b6b810d18 | Pendiente de auditoría de producción |
@@ -985,3 +985,10 @@ H1/title y H2 base localizados, pero no bastan para aprobar. Imágenes 11/10/10 
 No completa/no publicable. Faltan recuperar PT/EN fieles al historial, traducción FR integral, QA semántico, alts/hrefs, runtime, build incremental/guard y capturas aprobadas 1440/390. Producción intacta.
 
 **Tanda 2 actualizada:** 4/50 auditadas; 0 completas; 0 publicadas; 46 pendientes. CSV `8ec44cabb19d56e18d2e5119846ad4bf91f446ed`; informe en commit documental posterior. Próxima ficha #5: `/gastronomia/armazem-sao-thiago/`.
+
+
+## Auditoría de producción — Armazém São Thiago (segunda tanda, ficha 5/50; 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c` SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `f44d6602cf96a8f7f8d070f6ee7cb9ab83a93993`. 23 párrafos por ES/PT/EN; **9/23 PT y 9/23 EN son literalmente iguales al ES**. H1, H2 base y metadata localizados; canonical propio y alternates es/pt-BR/en/x-default correctos, sin FR.
+Imágenes 10/9/9 tags, ocho URL fuente comunes; alt con texto 8/10 ES y 7/9 PT/EN. Hrefs 22 ES vs10 PT/EN requieren cotejo. GSC actual: ES 69 imp./1 clic/posición13,3; PT/EN sin filas. Previo: ES13/0/18,5 y EN24/0/10,0. Inspección 3/3 indexada, fetch exitoso y canonical Google=user; FR URL desconocida.
+No completa/no publicable: traducción PT/EN, cotejo histórico, FR integral, alts/hrefs, QA semántico/runtime, build/guard y capturas 1440/390 pendientes. Producción intacta. **Tanda 2: 5/50 auditadas, 0 completas, 0 publicadas, 45 pendientes.** CSV `a6fd9ecacdd6b4baf7ba409615804ce896c8cfae`; informe posterior. Siguiente #6: `/gastronomia/brota/`.
