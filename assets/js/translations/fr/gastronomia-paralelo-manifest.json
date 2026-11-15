@@ -146,6 +146,15 @@
       "checked_strings": 56,
       "missing_keys": 0,
       "qa": "Traduction complète des chaînes visibles, éditoriales, pratiques, métadonnées et alternatives. Aperçu privé à tester à 390 px et 1440 px ; menu et horaires à confirmer."
+    },
+    {
+      "route": "/gastronomia/praia-skol-copa/",
+      "source_sha": "70861b9ba60ea9e99a22d155df649b3c1bca6722",
+      "file": "assets/js/translations/fr/gastronomia-praia-skol-copa-paralelo.json",
+      "entries": 58,
+      "checked_strings": 58,
+      "missing_keys": 0,
+      "qa": "Traduction complète des chaînes éditoriales, métadonnées et alternatives. Prévisualisation privée à tester à 390 px et 1440 px ; horaires et carte à reconfirmer."
     }
   ],
   "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."
