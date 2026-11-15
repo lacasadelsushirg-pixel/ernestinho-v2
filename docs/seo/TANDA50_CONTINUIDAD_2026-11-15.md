@@ -1403,3 +1403,12 @@ GSC final (2026-10-16–11-12): ES 67 imp./0 clics/posición 20,4; PT sin fila; 
 - GSC 2026-10-16–2026-11-12: ES 42 impresiones/0 clics/posición 9,8; PT 16/0/35,4; EN 25/1/12,1. Periodo 2026-09-18–2026-10-15: ES y PT sin filas; EN 255/0/8,7. Caída observada de impresiones EN; los datos no prueban causa. No interpretar ausencia de filas como un error.
 - Estado: ES revisada; PT/EN en revisión editorial (no validadas), FR pendiente/no existe; QA semántico integral, renderer, alt/enlaces, capturas 1440/390 e incremental/guard pendientes. No completa ni publicada.
 - Contabilidad tanda 2: 44/50 auditadas; 0/50 completas; 0 publicadas; 6 pendientes. Siguiente prioridad de cola: Temperarte Bolívar (316 impresiones en el corte amplio previo); confirmar cifras y estado actual.
+
+## Auditoría de producción — Temperarte Bolívar (segunda tanda, ficha 45/50; 15/11/2026)
+
+- Hostinger producción `revision/rendimiento-traducciones-81a904c`, SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; ES source blob `f8ce4e0f177997995a758aca7574908baf78a348`. Los históricos 42d03024 y 8570793 resuelven la misma ruta al blob `48bfa24ffff132abbdf5279dc7ddc77012e3413f`.
+- Las variantes ES/PT/EN tienen 30 párrafos. Las muestras principales de PT y EN están localizadas y no coinciden con ES; títulos/descripciones y canonical/hreflang es/pt-BR/en/x-default correctos. En los alt de fotos PT/EN aparece la palabra española “imagen”; 11 imágenes y dos alt vacíos por variante. Falta revisar todo el texto, imágenes, enlaces y render.
+- GSC inspección 3/3 enviadas/indexadas, fetch successful, robots allowed y Google canonical igual a la declarada. No hay error técnico de indexación confirmado. FR no existe en Hostinger (422), sin hreflang FR.
+- GSC 2026-10-16–2026-11-12: ES 141 impresiones/0 clics/posición 7,7; PT 17/0/5,4; EN 39/0/8,9. Periodo anterior: ES 59/0/7,1; PT sin fila; EN 60/0/7,7. Volumen observado 197 frente a 119; no atribuir causa a traducciones ni a indexación.
+- Estado ES/PT/EN en revisión editorial, FR pendiente/no existe. Faltan QA semántico integral, alt/enlaces, renderer, capturas 1440/390 e incremental/guard. No completa ni publicada.
+- Contabilidad tanda 2: 45/50 auditadas; 0/50 completas; 0 publicadas; 5 pendientes. Siguiente candidata: Rotisseria Sírio-Libanesa (264 impresiones del corte amplio previo); volver a medir.
