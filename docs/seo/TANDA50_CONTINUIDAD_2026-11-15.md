@@ -669,3 +669,17 @@ Hostinger producción `revision/rendimiento-traducciones-81a904c` en `21bb68772f
 Ficha incompleta: FR ausente; historial/diccionario no cotejado; QA semántico, inicialización en navegador, build incremental/guard y capturas aprobadas 1440/390 pendientes. **No cuenta como completa ni publicada.** Hostinger intacto.
 
 **Contabilidad canónica que sustituye el corte previo:** 34/50 auditadas, 0 completas, 0 nuevas publicadas en Hostinger, 16 pendientes. Próxima candidata libre por impresiones reales y estado del inventario: /gastronomia/classico-beach-club-barra/ (102 impresiones ES en 16-oct–12-nov; confirmar PT/EN actuales y GSC antes de priorizar). CSV actualizado en commit efb4c056add1ac41f2f9c1a1c5c11802b261111b.
+
+## Auditoría de producción — Clássico Beach Club Barra (corte 35/50, 15/11/2026)
+
+Hostinger producción revision/rendimiento-traducciones-81a904c, commit 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. Las tres variantes ES/PT-BR/EN fueron leídas; FR no existe en el hosting. Blob GitHub del HTML ES: 2d96c21b7398b3f528092dc70aace20bf12e05a. Historial de página consultado: último cambio visible 25-sep-2026; cotejo completo contra commits/diccionarios históricos aún pendiente.
+
+- Hallazgo confirmado: cada PT y EN tiene 24 párrafos estáticos; 9/24 son copias literales en español. Son nueve bloques largos de información diferenciadora sobre las unidades Postinho y Downwind (direcciones, acceso sin reserva, menús, horarios, condiciones y pagos). Las traducciones actuales no cubren esa ampliación; la semántica, continuidad con el diccionario posicional y actualización deben reconstruirse sin alterar la ficha fuente.
+- H1 conserva correctamente el nombre del local y nueve H2 están traducidos. Titles y descriptions tienen formulación localizada. Canonical propio y cuatro hreflang de cabecera (es, pt-BR, en, x-default) son coherentes. No hay alternates FR.
+- Sets de fuentes de imagen coinciden, aunque hay 10 tags en ES y 9 en PT/EN; no se cambiaron fotos. Se observaron alts de marca/nombre repetidos; requieren QA editorial sin cambiar la imagen. Cada HTML tiene 27 enlaces con rutas localizadas; no se tocaron href.
+- GSC final (16-oct–12-nov): ES 102 impresiones/2 clics/pos. 12,5; PT 10/0/8,8; EN 7/0/6,9 (119 impresiones/2 clics). Periodo previo (18-sep–15-oct): ES 50, PT 30, EN 19 (99 impresiones/0 clics). La suma observada subió en 20 impresiones, sin inferir causa.
+- Inspección GSC 3/3 ES/PT/EN PASS, Submitted and indexed, robots ALLOWED, fetch SUCCESSFUL y Google canonical=user. FR resulta desconocida para Google. Breadcrumbs detecta un elemento sin nombre: alerta de datos estructurados separada, no error de indexación.
+
+Ficha no completa: faltan traducción editorial íntegra de los nueve bloques en PT/EN, cotejo histórico, FR, verificación de renderizador, QA semántico, build incremental/guard y capturas aprobadas 1440/390. No es publicable ni se cuenta validada a cuatro idiomas. Producción queda intacta.
+
+**Contabilidad canónica que sustituye al corte anterior:** 35/50 auditadas, 0/50 completas, 0/50 nuevas publicadas en Hostinger, 15 pendientes. Próxima ruta candidata por impresiones de las pendientes: /gastronomia/rampinha/ (96 impresiones ES en el periodo final; verificar GSC e inventario antes de intervenir). CSV actualizado en commit 5aff3aaea9cde1ce505128d57cd6ab214e8d0ec6.
