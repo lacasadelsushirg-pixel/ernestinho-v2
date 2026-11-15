@@ -251,3 +251,8 @@ Próximo trabajo: usar un mecanismo de preview autorizado distinto cuando Vercel
 ## Hallazgo de renderizado pendiente — Don Camillo (15/11/2026)
 
 El build local selectivo de Don Camillo vuelve a confirmar que los párrafos PT/EN no tienen coincidencias literales con ES y que el encabezado/SEO estructural se conserva. Sin embargo, una leyenda de la galería sigue visible en español en las dos variantes: “El deck mantiene contacto directo con la Avenida Atlántica.” aunque la clave PT/EN ya exista en el diccionario de texto. El renderer de párrafos y el de texto visible no aplican esa clave a `figcaption` durante la generación. No se modificó el renderer compartido ni el contenido de fotos porque la solución afectaría fuera del alcance de una sola ficha. Don Camillo queda **bloqueada para QA completo** hasta corregir y volver a renderizar esa leyenda; FR también pendiente. El dato no altera el total: 0/50 completas, 0 publicadas.
+
+
+## Precisión de clasificación — leyenda Don Camillo (15/11/2026)
+
+La frase de la leyenda de galería que el build estático deja en español también aparece como clave con valor PT y EN dentro del inicializador lingüístico emitido. La inspección del archivo estático, por sí sola, **no demuestra** que el navegador la muestre en español tras ejecutar ese script. Retiro la afirmación de “error de renderizador confirmado”: estado correcto = **renderizado visible sin confirmar**. La falta de Chromium/preview impide decidirlo; mantener QA de Don abierto hasta una comprobación visual autorizada. No se modifica la traducción ni se cambia el alcance.
