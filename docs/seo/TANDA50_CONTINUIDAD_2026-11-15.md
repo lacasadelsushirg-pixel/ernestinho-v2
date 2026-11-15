@@ -539,3 +539,14 @@ Se releyeron desde Hostinger los HTML ES, PT-BR y EN; la ruta FR devolvió «Fil
 **Contabilidad reemplazada:** 23/50 rutas auditadas durante el ciclo; 0/50 cumplen la definición estricta (ES/PT-BR/EN/FR completos, renderizados y QA editorial/SEO, incremento, canonical/hreflang/sitemap y capturas aprobadas); 0/50 nuevas publicadas en Hostinger. Quedan 27 por auditar/cerrar. Próxima prioridad de la cola: `/gastronomia/carretao-siqueira/` (revalidar impresiones e HTML antes de trabajar). Chama está auditada, pero no validada como ficha completa.
 
 No hubo checkout Git en este entorno: no se ejecutaron el build incremental, los guards ni capturas locales; las fichas siguen fuera del recuento completo. El sitemap productivo se mantiene en 3.588 URLs indexables ES/PT/EN y FR=0; no se inició reconstrucción completa ni cambió producción.
+
+## Auditoría de producción — Carretão Siqueira Campos (corte del run, 15/11/2026)
+
+Se releyeron los HTML de Hostinger para ES/PT-BR/EN; el recurso FR dio «File does not exist». El HTML ES espejo en la rama productiva tiene blob SHA `6cbdf907f1a363efbeb47e869215900b1fe8d2a6`; la rama Hostinger mantiene SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. La inspección visual/runtime disponible fue en el navegador, a 1344×928; no son capturas aprobadas de 1440/390.
+
+- Las tres páginas tienen 25 párrafos, un H1, 11 H2, mapa y 12 ocurrencias de imágenes; los sets de diez fuentes de imagen únicas y los 19 href normalizados coinciden en ES/PT/EN. No se cambiaron enlaces, fotos, mapas ni componentes. No hay párrafos completos idénticos entre ES y PT o EN (0/25), lo que no sustituye revisión semántica.
+- Hallazgo editorial visible: títulos y descripciones HTML siguen idénticos en español en las tres variantes. La pestaña PT muestra «guía completa» y los alts de imágenes dicen «imagen»/«Detalle visual…» en español, pese al cuerpo portugués. No se corrigieron en producción. Canonical propio y alternates ES/PT-BR/EN/x-default están presentes.
+- GSC 2026-10-16–11-12: ES 991 impresiones/5 clics/CTR 0,5%/posición 8,4; 2026-09-18–10-15: ES 103/0/8,7. Las impresiones subieron; no es caída. No hubo filas GSC PT/EN en ambas ventanas. Inspección: ES enviada e indexada, fetch exitoso y canonical coincidente; PT/EN «Descubierta: actualmente sin indexar», sin rastreo/fetch informado (exclusión, no error técnico confirmado); FR desconocida para Google.
+- El build/guard y capturas 1440/390 no se pudieron correr por falta de checkout Git local; falta QA semántico/FR. Esta ficha no cumple el criterio de cierre.
+
+**Contabilidad vigente que sustituye el corte anterior:** 24/50 auditadas en este ciclo; 0/50 completas; 0/50 cambios nuevos presentes en producción Hostinger; 26 restantes. Siguiente prioridad de la cola: `/gastronomia/plage-cafe/` (revalidar impresiones y estado HTML en esta ejecución). La evidencia está en el inventario maestro; no se afirma publicación.
