@@ -342,3 +342,14 @@ Corte de priorización: Search Console final, 2026-10-16–11-12, páginas de Ga
 | 50 | https://www.ernestinhocarioca.com.br/gastronomia/joaquina/ | P/R/R/P | 124 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 
 Contabilidad del lote al cierre: 5/50 con candidato PT/EN estructuralmente comprobado, 0/50 completas bajo las condiciones PT/EN/FR + QA integral, y 0 publicadas. Las otras 45 siguen en la lista con estados explícitos, sin certificación nueva. Punto de continuación: avanzar de la fila 6 hacia abajo por GSC; si se bloquea una ruta, documentar el bloqueo y seguir con la siguiente elegible.
+
+
+## Checkpoint durable al cierre de esta ejecución — 15/11/2026
+
+- Producción GitHub `revision/rendimiento-traducciones-81a904c`: `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; la rama se volvió a consultar al cierre. Hostinger se consultó en modo lectura: Don Camillo PT/EN y Bar do Omar PT/EN siguen sirviendo la versión pública sin las correcciones candidatas; no se subió archivo ni se publicó nada.
+- PR #36, rama `release/cervantes-pt-en-20261115`: HEAD documental `e1d103f13303c027a761904c6212ce926d5bc4f0`, base exacta de producción; abierto, no draft, 83 archivos. Check Vercel actual: `failure`, destino de límite `build-rate-limit`. No se forzó CI ni se eludió el guard.
+- PR #24 continúa draft: su descripción pide literalmente “Mantener como borrador”; base antigua `9426c42fc0150bdce5fbfee060396da9de518ac7`. El PR #36 es el camino basado en producción, pero sus 83 archivos no son todavía un PR pequeño listo para aprobación/release.
+- Tanda activa: 50 URLs únicas de fichas. Filas 1–5 PT/EN solo comprobadas estructuralmente en preview privado/noindex; filas 6–50 pendientes de recertificación. Las filas 13 y 26 son ahora fichas reales (Cais do Oriente y Casa Mohamed), no categorías. Inventario maestro: `e1d103f13303c027a761904c6212ce926d5bc4f0`, 1.204 registros + encabezado, 14 columnas RFC4180.
+- Métricas OpenSEO/GSC final (2026-10-16–11-12) para la prioridad #6 Chama Rio: 1.062 impresiones / 3 clics agregados por idioma; está pendiente de auditoría de contenido. Siguiente en orden: fila 6 `/gastronomia/chama-rio-copacabana/`, luego fila 7 Carretão Siqueira. No marcar ruta validada hasta cotejo editorial y verificación completa.
+- Estado estricto: **5/50 PT/EN estructuralmente comprobadas en preview, 0/50 completas en cuatro idiomas y QA integral, 0/50 publicadas**. Francés sigue fuera de sitemap y sin hreflang nuevo.
+
