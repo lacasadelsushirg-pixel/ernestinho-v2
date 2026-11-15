@@ -594,3 +594,13 @@ ES/PT-BR/EN leídos directamente desde Hostinger. El HTML ES de producción tien
 - Falta traducir metadescripciones/alts, revisión editorial, FR completa, guard/build incremental y capturas aprobadas 1440/390. No completa.
 
 **Contabilidad vigente que sustituye el corte anterior:** 28/50 auditadas; 0/50 completas; 0/50 nuevas publicadas; 22 pendientes. Próxima fila priorizada: `/gastronomia/carretao-lido/`; revalidar datos y estado antes de trabajar.
+
+## Auditoría de producción — Carretão Lido (corte del run, 15/11/2026)
+
+Se cotejaron ES/PT-BR/EN desde Hostinger; la variante FR no existe allí y Google no reconoce su URL. Blob del HTML ES en el espejo de producción: `fe48ac0c9ad39cbf3be490dc32c1e96010c29487`; rama productiva `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`.
+
+- Las tres variantes contienen 26 párrafos, H1 1/H2 12 y 10 fuentes de foto únicas coincidentes. Ocurrencias de img: 12/11/11. href únicos 23/12/12: 11 destinos de ES faltan en PT/EN; no se alteraron. Siete párrafos PT y seis EN son idénticos al ES, y alts como «Salón principal», «Picanha fatiada» y «Servicio de carnes» continúan en español. Metadatos principales localizados; canonical propio y alternates presentes.
+- GSC actual 16-oct–12-nov: ES 400/0/8,3; PT 28/0/9,1; EN 19/0/8,3; 447 impresiones/0 clics. Ventana anterior: ES 118/0/8,5; PT 36/0/8,2; EN 15/0/5,8; 169 impresiones/0 clics. Total de impresiones creció, mientras PT bajó; sin atribución causal. Las tres inspecciones reportan enviada/indexada, fetch exitoso y canonical Google=declarado. FR desconocida.
+- Falta corregir texto/alt PT/EN, FR integral, QA semántico, build/guard y capturas aprobadas 1440/390. No completa.
+
+**Contabilidad vigente que sustituye el corte anterior:** 29/50 auditadas; 0/50 completas; 0/50 publicadas; 21 pendientes. Próxima fila de la cola: consultar la tabla priorizada en la parte superior de este informe; revalidar impresiones y estado antes de comenzar.
