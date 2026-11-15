@@ -209,3 +209,20 @@ Verificado sobre preview Vercel Ready del candidato `7a64726f78c02b3165cfe6d6341
 - En PT/EN sigue faltando el bloque general de enlaces sociales de marca a Instagram/TikTok que aparece en ES. Se reprodujo en el render; el inicializador compartido omite un contenedor vacío. No se modificó el componente ni los enlaces aprobados; requiere decisión/corrección con alcance y QA propios.
 - El deployment actual sigue en cola, así que la corrección aún no se ha comprobado remotamente ni visualizado. FR, capturas aprobadas a 1440 y 390 px, QA integral restante y revisión independiente siguen pendientes. Hostinger intacto.
 - Estado estricto de esta tanda: **0/50 fichas completas**, **0/50 publicadas**. Don Camillo sigue en revisión; Bar do Omar no tuvo una nueva revalidación en este corte. Próximo: volver a consultar el deployment de `349186f...`; validar la corrección servida y luego resolver el bloque de enlaces sin ampliar alcance. Después completar FR editorial y QA por ficha; no avanzar el contador por código aún no servido.
+
+
+## GSC e inspección de indexación — actualización 15/11/2026
+
+OpenSEO/Search Console, propiedad verificada `https://www.ernestinhocarioca.com.br/`, tipo web, fechas finales 2026-08-12 a 2026-11-12 (hora del Pacífico). Las cifras son datos de rendimiento, no errores de cobertura:
+
+| Ruta | ES imp./clics/pos. | PT-BR imp./clics/pos. | EN imp./clics/pos. | Total imp. |
+|---|---:|---:|---:|---:|
+| Don Camillo | 82 / 0 / 11,5 | 98 / 2 / 7,1 | 37 / 0 / 11,3 | 217 |
+| Bar do Omar | 225 / 0 / 12,9 | 75 / 1 / 8,7 | 18 / 0 / 7,3 | 318 |
+| Spicy Fish | 428 / 2 / 7,6 | 92 / 0 / 7,3 | 67 / 1 / 7,9 | 587 |
+| Amendoeira | 195 / 1 / 9,6 | 112 / 0 / 9,1 | 3 / 0 / 10,7 | 310 |
+| Dumaré | 281 / 1 / 7,4 | 148 / 0 / 8,8 | 219 / 1 / 9,2 | 648 |
+
+Inspección GSC actual de las seis URLs ES/PT/EN de Don Camillo y Bar do Omar: las seis devuelven `PASS`, “Enviada e indexada”, `SUCCESSFUL`, `INDEXING_ALLOWED`; las seis tienen canonical de Google igual al declarado. Últimos rastreos disponibles: Don ES 2026-10-22, PT 2026-10-06, EN 2026-10-23; Bar ES 2026-10-05, PT 2026-10-06, EN 2026-10-05 (UTC). Esto descarta un error confirmado de indexación en esas variantes, no demuestra que Google haya recibido las correcciones privadas de PR #36. No se solicitó indexación.
+
+El deployment del SHA de código `349186f96e0afad47a59a8ec48f49bd464437390` continúa `QUEUED`; no se repitió un lote de navegador con HTML no confirmado. Las correcciones siguen solamente en rama/PR y producción no cambió. El estado estricto sigue **0/50 completas, 0/50 publicadas**.
