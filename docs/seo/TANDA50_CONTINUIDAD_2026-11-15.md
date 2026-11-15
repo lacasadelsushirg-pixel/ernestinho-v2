@@ -725,3 +725,16 @@ Hostinger producción revision/rendimiento-traducciones-81a904c, commit 21bb6877
 No completa/no publicable: recuperación PT/EN, fuente histórica, href, alt, francés completo, QA semántico/runtime, build incremental/guard y capturas aprobadas 1440/390 pendientes. Producción intacta.
 
 **Contabilidad canónica que sustituye al corte anterior:** 38/50 auditadas, 0 completas, 0 nuevas publicadas, 12 pendientes. Inventario actualizado en commit 37ef9e65ede2367c6f5b7d13f257c6149f578041. Siguiente ficha libre a elegir por impresiones actuales y cola —priorizar las URL de alto volumen sin auditoría vigente—; verificar en GSC antes de abrirla.
+
+## Auditoría de producción — Padarias (corte 39/50, 15/11/2026)
+
+Hostinger producción revision/rendimiento-traducciones-81a904c, commit 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. ES/PT-BR/EN leídos; FR no existe. HTML ES del espejo GitHub blob 85a9cb7e8818c8cae10838db837eee4b6daa4abc.
+
+- Estructura y contenido estático: 14 párrafos en cada idioma, sin coincidencia literal ES→PT/EN. H1, cinco H2, title y description están localizados. Canonical propio y alternates de cabecera es/pt-BR/en/x-default. Este cotejo literal no sustituye QA semántico del texto ni runtime.
+- Cuatro tags img y dos fuentes únicas por idioma; dos atributos alt de cuatro no están vacíos. Requiere revisión de imágenes/alts sin cambiar fotos. 27 href únicos por idioma; no se alteraron.
+- GSC final (16-oct–12-nov): ES 42 impresiones/0 clics/pos. 9,8; PT 16/0/35,4; EN 25/1/12,1 (83 imp.). Periodo previo (18-sep–15-oct): solo EN tuvo fila, con 255/0/pos. 8,7; EN cayó 230 impresiones (~90%) y su posición media empeoró 8,7→12,1. No hay datos previos de ES/PT y no se infiere causa.
+- GSC inspección: ES/PT/EN 3/3 enviadas/indexadas, robots ALLOWED, fetch SUCCESSFUL, canonical Google=user; FR desconocida. Breadcrumbs PASS con un elemento sin nombre: alerta de datos estructurados, no un fallo de indexación.
+
+Ficha no completa/publicable: traducción FR, QA semántico/rendimiento de renderizador, revisión de alts, build incremental/guard y capturas 1440/390 pendientes. Hostinger intacto.
+
+**Contabilidad canónica que sustituye al corte anterior:** 39/50 auditadas, 0 completas, 0 nuevas publicadas, 11 pendientes. Siguiente candidata se escogerá por GSC actual entre rutas pendientes y no recertificadas. CSV actualizado en commit 3c3b04b99af36b2834f6f04ed757746a46fc51cb.
