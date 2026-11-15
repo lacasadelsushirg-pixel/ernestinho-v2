@@ -246,3 +246,8 @@ Validación local con el código idéntico al commit remoto `48d73afda63d1d619d9
 La captura local con Chromium tampoco pudo ejecutarse: el proceso abortó en `socket() failed: Operation not permitted` (y ptrace no permitido). Sin capturas aprobadas a 1440/390. No se vuelve a intentar el mismo modo del navegador. Además permanecen FR editorial, verificación remota, los enlaces de marca Instagram/TikTok ausentes en PT/EN y revisión humana independiente. El lote queda en **0/50 completas y 0 publicadas**; producción Hostinger sin cambios.
 
 Próximo trabajo: usar un mecanismo de preview autorizado distinto cuando Vercel libere el build rate limit, validar el HTML exacto de `48d73af...`, inspeccionar también las tablas estáticas de Don Camillo y completar FR/QA visual por ficha. No repetir commits de build mientras el límite esté activo.
+
+
+## Hallazgo de renderizado pendiente — Don Camillo (15/11/2026)
+
+El build local selectivo de Don Camillo vuelve a confirmar que los párrafos PT/EN no tienen coincidencias literales con ES y que el encabezado/SEO estructural se conserva. Sin embargo, una leyenda de la galería sigue visible en español en las dos variantes: “El deck mantiene contacto directo con la Avenida Atlántica.” aunque la clave PT/EN ya exista en el diccionario de texto. El renderer de párrafos y el de texto visible no aplican esa clave a `figcaption` durante la generación. No se modificó el renderer compartido ni el contenido de fotos porque la solución afectaría fuera del alcance de una sola ficha. Don Camillo queda **bloqueada para QA completo** hasta corregir y volver a renderizar esa leyenda; FR también pendiente. El dato no altera el total: 0/50 completas, 0 publicadas.
