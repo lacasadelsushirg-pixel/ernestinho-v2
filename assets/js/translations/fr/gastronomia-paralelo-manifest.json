@@ -58,6 +58,24 @@
       "qa": "Traduction complète des chaînes visibles, métadonnées, textes éditoriaux et alternatives. Prévisualisation privée auditée à 390 px et 1440 px ; horaires de service et conditions de livraison à confirmer avant publication."
     },
     {
+      "route": "/gastronomia/belmonte-copa/",
+      "source_sha": "2aa52f66a59bbe9199225abbca19855da966c7b0",
+      "file": "assets/js/translations/fr/gastronomia-belmonte-copa-paralelo.json",
+      "entries": 87,
+      "checked_strings": 87,
+      "missing_keys": 0,
+      "qa": "Traduction française récupérée et complétée pour les métadonnées; la page complète a été contrôlée dans la prévisualisation privée."
+    },
+    {
+      "route": "/gastronomia/belmonte-ipanema/",
+      "source_sha": "add7f526e260e054618ae1139a4382ca23190069",
+      "file": "assets/js/translations/fr/gastronomia-belmonte-ipanema-paralelo.json",
+      "entries": 77,
+      "checked_strings": 77,
+      "missing_keys": 0,
+      "qa": "Traduction française récupérée et complétée pour les métadonnées; la page complète a été contrôlée dans la prévisualisation privée."
+    },
+    {
       "route": "/gastronomia/boa-praca-ipanema/",
       "source_sha": "8c4ca2d5354b610e7b910d1aa1fb8c26054e455f",
       "file": "assets/js/translations/fr/gastronomia-boa-praca-ipanema-paralelo.json",
@@ -74,6 +92,15 @@
       "checked_strings": 56,
       "missing_keys": 0,
       "qa": "Traduction complète des contenus éditoriaux, métadonnées et alternatives. Aperçu privé à tester à 390 px et 1440 px ; menu, prix, réservations et conditions alimentaires à confirmer."
+    },
+    {
+      "route": "/gastronomia/carretao-ipanema/",
+      "source_sha": "085ad7c023f97284da9bee5a92a6725efd200102",
+      "file": "assets/js/translations/fr/gastronomia-carretao-ipanema-paralelo.json",
+      "entries": 77,
+      "checked_strings": 77,
+      "missing_keys": 0,
+      "qa": "Traduction française récupérée et complétée pour les métadonnées; la page complète a été contrôlée dans la prévisualisation privée."
     },
     {
       "route": "/gastronomia/casa-201/",
@@ -128,6 +155,15 @@
       "checked_strings": 56,
       "missing_keys": 0,
       "qa": "Traduction éditoriale complète de 56 chaînes visibles, métadonnées, légendes et textes alternatifs. Aperçu FR audité ; Chromium valide le changement de langue et l’absence de débordement à 390 px et 1440 px. Les horaires et disponibilités doivent être confirmés avant publication."
+    },
+    {
+      "route": "/gastronomia/deck-buffet/",
+      "source_sha": "9c497ca69abd8b4aa35afb57353afbdf61537951",
+      "file": "assets/js/translations/fr/gastronomia-deck-buffet-paralelo.json",
+      "entries": 77,
+      "checked_strings": 77,
+      "missing_keys": 0,
+      "qa": "Traduction française récupérée et complétée pour les métadonnées; la page complète a été contrôlée dans la prévisualisation privée."
     },
     {
       "route": "/gastronomia/delirio-tropical-rio-sul/",
@@ -272,6 +308,15 @@
       "checked_strings": 58,
       "missing_keys": 0,
       "qa": "Traduction complète des chaînes éditoriales, métadonnées et alternatives. Prévisualisation privée à tester à 390 px et 1440 px ; horaires et carte à reconfirmer."
+    },
+    {
+      "route": "/gastronomia/proa/",
+      "source_sha": "062ff0a5bc1a8318d6db4ac2392afab91a4e3a36",
+      "file": "assets/js/translations/fr/gastronomia-proa-paralelo.json",
+      "entries": 84,
+      "checked_strings": 84,
+      "missing_keys": 0,
+      "qa": "Traduction française récupérée et complétée pour les métadonnées; la page complète a été contrôlée dans la prévisualisation privée."
     },
     {
       "route": "/gastronomia/quartinho/",
