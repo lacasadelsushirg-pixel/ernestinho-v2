@@ -152,14 +152,34 @@
       "source_sha": "3077e6602df26121c91a5e5002f5949e8b9778fe",
       "file": "assets/js/translations/fr/guia-aeropuertos-paralelo.json",
       "entries": 37,
-      "coverage": "text_alt_metadata_complete"
+      "coverage": "text_alt_metadata_complete",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/alquiler-auto/",
       "source_sha": "3d127d38fd55cf1036b83b5cf5f42a18d29a7cf6",
       "file": "assets/js/translations/fr/guia-alquiler-auto-paralelo.json",
       "entries": 42,
-      "coverage": "text_alt_metadata_complete"
+      "coverage": "text_alt_metadata_complete",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/terminales/",
@@ -167,7 +187,17 @@
       "file": "assets/js/translations/fr/guia-terminales-paralelo.json",
       "entries": 48,
       "coverage": "text_alt_metadata_complete",
-      "editorial_review": "check current Pier Mauá operational notices and VLT routing prior to publishing"
+      "editorial_review": "check current Pier Mauá operational notices and VLT routing prior to publishing",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/accesibilidad/",
@@ -175,7 +205,17 @@
       "file": "assets/js/translations/fr/guia-accesibilidad-paralelo.json",
       "entries": 50,
       "coverage": "text_alt_metadata_complete",
-      "editorial_review": "check accessibility status, reduced-mobility access and transit fare eligibility before publishing"
+      "editorial_review": "check accessibility status, reduced-mobility access and transit fare eligibility before publishing",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/viajar-solo/",

@@ -19,7 +19,7 @@
       "entries": 47,
       "checked_strings": 47,
       "missing_keys": 0,
-      "qa": "Traduction complète des chaînes visibles, métadonnées, textes éditoriaux et alternatives. Prévisualisation privée auditée à 390 px et 1440 px ; horaires, adresse et disponibilité des plats à confirmer avant publication."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/babbo-osteria/",
@@ -55,7 +55,7 @@
       "entries": 33,
       "checked_strings": 33,
       "missing_keys": 0,
-      "qa": "Traduction complète des chaînes visibles, métadonnées, textes éditoriaux et alternatives. Prévisualisation privée auditée à 390 px et 1440 px ; horaires de service et conditions de livraison à confirmer avant publication."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/belmonte-copa/",
@@ -199,7 +199,7 @@
       "entries": 47,
       "checked_strings": 47,
       "missing_keys": 0,
-      "qa": "Traduction complète des chaînes visibles, métadonnées, informations pratiques et alternatives. Prévisualisation privée auditée à 390 px et 1440 px ; menu, horaires et disponibilités à confirmer avant publication."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/faenza-copacabana/",
@@ -226,7 +226,7 @@
       "entries": 59,
       "checked_strings": 59,
       "missing_keys": 0,
-      "qa": "Traduction complète des chaînes éditoriales, informations pratiques, métadonnées et alternatives. Aperçu privé à tester à 390 px et 1440 px ; horaires et tarifs à revérifier."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/iraja-redux/",
@@ -379,7 +379,7 @@
       "entries": 58,
       "checked_strings": 58,
       "missing_keys": 0,
-      "qa": "Traduction complète des chaînes éditoriales, métadonnées et alternatives. Prévisualisation privée à tester à 390 px et 1440 px ; horaires et carte à reconfirmer."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/proa/",
@@ -406,7 +406,7 @@
       "entries": 43,
       "checked_strings": 43,
       "missing_keys": 0,
-      "qa": "Traduction complète des chaînes visibles, métadonnées et alternatives. Aperçu privé vérifié à 390 px et 1440 px ; horaires, carte et disponibilité à confirmer."
+      "qa": "Aperçu privé complet généré depuis les versions existantes. Audit automatique réussi : structure éditoriale, canonical, noindex, médias, liens et traductions. Chromium validé à 390 px et 1440 px avec navigation PT-BR → FR → EN, sans débordement. Non publié ; horaires et données commerciales restent à vérifier."
     },
     {
       "route": "/gastronomia/shiso/",
