@@ -1,33 +1,57 @@
-# Recuperación PT-BR/EN de Cervantes Copacabana — 15/11/2026
+# Candidato de recuperación PT-BR/EN: Cervantes y Chez Claude — 15/11/2026
 
-## Estado de publicación
+## Publicación y punto de partida
 
-**No publicado.** Hostinger conserva como producción el commit `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. No se desplegó ni se cambió ningún archivo del alojamiento. El candidato se prepara desde ese HEAD en `release/cervantes-pt-en-20261115`; requiere revisión humana independiente antes de integrar.
+**Publicado: 0 páginas.** La rama de producción Hostinger sigue en `revision/rendimiento-traducciones-81a904c`, commit `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`, deployment completado `01a1d6e6-8df0-71a5-9aa0-cac9499f2952`. No escribí en el hosting.
 
-La inspección directa de la ruta PT publicada confirmó que título, introducción y controles de idioma ya están en portugués, mientras que el cuerpo editorial extenso sigue en español. Se vio el mismo cuerpo mezclado en EN. El piloto privado remoto `audit/continuidad-50-cervantes` (`213c9af40a3508870302eeff2d24777131df08e6`) ya contiene la traducción francesa y varias claves PT/EN; esa ficha figuraba como 11/50 probadas y aún no aptas para publicación. Reutilizamos esos antecedentes, sin contar Cervantes como una ficha nueva de la tanda. El CSV maestro se tomó de ese último inventario remoto y se actualizó únicamente en la fila Cervantes; el resto de las 1.203 filas conserva sus estados previos y requiere recuento antes de considerarse actual. La fuente del CSV queda explícita para evitar presentarlo como una auditoría global nueva.
+El cambio privado está en el PR #36, rama `release/cervantes-pt-en-20261115`, creado desde el HEAD de producción. El PR estaba abierto, no draft y mergeable en la última lectura; Vercel estaba en `success` para el head anterior `e40a5fa8efb1de1553dc15c5e7da8ec62eee1b2d`. No tenía revisiones humanas. Los cambios descritos aquí deben volver a pasar CI.
 
-El avance local indicado `332a700d` no está en los objetos/ref remotos consultados ni en este checkout; no se le atribuye trabajo. El PR #24 seguía abierto en borrador, con cabeza `586a0e3457c41071ada753bbf4d1c08484600d25` sobre base antigua `9426c42fc0150bdce5fbfee060396da9de518ac7`, 50 archivos, sin revisión independiente y con Vercel pendiente. No se añadieron cambios a esa rama desvinculada.
+El PR #24 está abierto y en borrador, con head `586a0e3457c41071ada753bbf4d1c08484600d25` (`audit/traducciones-seo-validacion-20261110`) sobre base antigua `9426c42fc0150bdce5fbfee060396da9de518ac7`; la producción actual es `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. Tiene 50 archivos y no registra revisiones independientes. Su status Vercel actual era `success`, así que la afirmación anterior de que Vercel seguía pendiente era incorrecta. GitHub no expone por qué se dejó como draft; no lo supongo ni agrego más cambios a esa rama.
 
-## Alcance del candidato
+El SHA local `332a700d` no existe en este checkout (`git cat-file` falla) ni entre las ramas remotas obtenidas. No atribuyo ningún trabajo a ese SHA.
 
-- El generador carga un diccionario manual PT/EN específico de Cervantes y lo aplica al HTML renderizado, no solo al selector cliente. El alcance incremental de ese diccionario es únicamente `/gastronomia/cervantes-copacabana/` y sus tres variantes ES/PT/EN.
-- Se conservan HTML fuente, fotos/URLs, mapa, enlaces, widgets, estructura y estilos. No se añade FR al sitemap ni a `hreflang`; la vista FR continúa privada y `noindex`.
-- Los textos nuevos se basan en el contenido ES vigente. Las claves PT/EN preexistentes se cotejaron con el piloto remoto; las ampliaciones de contenido mantienen la cautela editorial sobre horarios y operación, sin asegurar que la sucursal esté abierta.
+## Fichas de este sublote
 
-## Validación ejecutada
+| Ruta | Estado verificado | ¿Cuenta como ficha completa? |
+|---|---|---|
+| `/gastronomia/cervantes-copacabana/` | PT/EN candidatos estáticos; el diccionario FR proviene de una rama piloto distinta y no está en esta entrega. Falta cerrar vigencia comercial y QA de integración completa. | No; se conserva como ficha previamente revisada, no se cuenta como nueva ni cerrada bajo el criterio estricto. |
+| `/gastronomia/chez-claude/` | PT/EN candidatos estáticos y revisados localmente. FR aún no se ha traducido. | No. |
 
-- Generador selectivo: 3 documentos HTML renderizados de 3.612; el manifiesto de la fuente reporta 1.204 documentos, 1.196 URL indexables por idioma y 3.588 URL ES/PT/EN. No se reconstruyó el conjunto completo.
-- Fixture aislado de sitemap: 3 URL de esta ruta (ES/PT/EN), con `canonical` autorreferente y alternates recíprocos `es`, `pt-BR`, `en` y `x-default`. Es un fixture de ruta, **no** el sitemap actual de producción.
-- El contenido PT/EN contiene las traducciones del cuerpo y no filtra los párrafos ES cotejados. Los ocho recursos fotográficos visibles tienen los mismos `src` que ES; el `iframe` de mapa, Google Maps, Waze e Instagram permanecen. El enlace de WhatsApp conserva su destino y presenta el mensaje localizado que ya define el renderizador.
-- Se capturaron vistas locales 1440 px y 390 px para ES/PT/EN en `docs/seo/captures/cervantes-20261115/`. No hay desbordamiento horizontal; H1 y `lang` fueron comprobados. La carga de imágenes externas no quedó confirmada desde este entorno: aparecen placeholders, y en la vista publicada de escritorio también se observó el hero sin imagen. Se preservó el estado existente y no se cambiaron medios.
-- `node scripts/guard_approved_content.mjs`: PASS; 586 HTML protegidos intactos y 10 assets críticos fijados. Advierte 247 divergencias del manifiesto histórico.
-- `python3 scripts/check_frozen_pages.py`: falla en producción y candidato con salida idéntica (SHA-256 `e5573a8feb30aeeefa0f4912a4f0e72f4d38e02d9e0b9d40b8977344b72e0815`), enumerando 247 divergencias heredadas. No se ocultó ni se regeneró ninguna aprobación.
-- `python3 scripts/audit_multilingual.py` sobre un manifiesto de prueba normalizado para estas tres variantes: 3/3 auditadas, 0 errores; incluye canonical, alternates recíprocos y enlaces locales del fixture. `scripts/build_sitemap.py` produjo y verificó 3 URL en la prueba de alcance. La producción continúa con 3.588 URL; la fixture no reemplaza ese sitemap.
-- El auditor global `node scripts/audit_translations.mjs` aborta antes de recorrer el sitio con `Invalid dictionary: buzios-approved-blocks.js`, archivo existente no modificado en producción ni en este candidato. `scripts/audit_translation_content.py` no existe en el HEAD de producción. No se reporta una auditoría integral de contenido como aprobada.
-- Capturas antes/después generadas para ES/PT/EN a 1440 y 390 px y entregadas como evidencia de esta ejecución. La inspección visual no está aprobada aún: el host externo de medios no cargó las fotos en las capturas locales, y el selector duplicado también se ve en la página publicada. La estructura del candidato conserva las imágenes y no cambia el layout.
+En consecuencia, este sublote suma **0 fichas nuevas cerradas**. El checkpoint de la tanda deja 10/50 como avance histórico auditado en las notas previas; bajo la regla estricta de hoy Cervantes queda en revisión y no se suma de nuevo. Chez Claude tampoco incrementa el total porque falta FR. No hay nuevas páginas publicadas.
 
-## Revisión pendiente y continuidad
+## Implementación del candidato
 
-El cambio está preparado para una revisión independiente del PR. No es un despliegue y no se cuentan páginas nuevas como publicadas. Antes de permitir integración/publicación, la persona revisora debe confirmar que el fallo congelado es únicamente el drift heredado, que el hero y fotos existentes son aceptables, y que el CI y la prueba real en Hostinger pasan. FR seguirá `noindex` y fuera del sitemap hasta el QA completo de esa ficha.
+- `scripts/build_multilingual.mjs` aplica diccionarios manuales de ruta únicamente a Cervantes y Chez Claude cuando se invoca `--update --routes=...`; el log ahora distingue `route-selective update` de build completo.
+- La plantilla es la versión ES actual descargada de producción. Se traducen nodos textuales y atributos alternativos existentes (alt/title/data-ec-alt); se conserva el diccionario inline histórico de Chez Claude sin sobrescribirlo.
+- No se cambian HTML fuente, fotos, sus URLs, mapa, widgets, enlaces, layout ni datos comerciales. No se crea francés en estas páginas, ni `hreflang` FR ni URL FR en sitemap; FR permanece privado/noindex.
+- Se cotejaron las fuentes históricas manuales de Chez Claude en `42d03024d2c3765b0d96eb5f9763657d731baf4a` y `8570793a992b262c5fb384a396ec949e6105775c`. PT/EN se aplican a los textos vigentes, no se asume que la sola existencia del diccionario histórico valida el contenido actual.
 
-Continuación de la tanda documentada en `docs/seo/TANDA50_CONTINUIDAD_2026-11-14.md`: permanecer en 11/50 fichas probadas en vistas privadas; siguientes fichas libres identificadas: Lasai y Chez Claude. No contar como cerrada ninguna que no tenga los cuatro idiomas, controles SEO y capturas completos; publicaciones nuevas en esta ejecución: 0.
+## QA reproducible
+
+Build selectivo ejecutado desde producción:
+
+```sh
+EC_LIVE_ROOT=/workspace/scratch/3c28b485f899/live-template-snapshot \
+EC_USE_LIVE_TEMPLATES=1 \
+EC_PLAYWRIGHT_PATH=/workspace/scratch/3c28b485f899/r14/node_modules/playwright-core \
+node scripts/build_multilingual.mjs --update \
+  --routes=/gastronomia/cervantes-copacabana/,/gastronomia/chez-claude/
+```
+
+Resultado: `route-selective update`, seis variantes ES/PT/EN generadas de 3.612 documentos fuente; manifiesto final 1.204 documentos, 1.196 URL indexables por idioma. No se ejecutó build completo.
+
+- `node --check scripts/build_multilingual.mjs`: pasó.
+- `node scripts/guard_approved_content.mjs`: pasó; 586 páginas protegidas intactas y 10 assets visuales/runtime fijados. Reporta 247 divergencias históricas.
+- `python3 scripts/audit_multilingual.py`, con fixture aislado de las seis variantes: `generated=6`, `audited=6`, `indexable=6`, `failed=0`, `errors=[]`. El manifiesto completo se restauró después.
+- La prueba estática verificó en Chez Claude que el aviso de horarios aparece traducido en PT/EN y que el aviso español no se filtra.
+- Sitemap candidato: 3.588 URLs; cotejado por conjunto con `live14.xml` de Hostinger: 3.588 frente a 3.588, cero URLs añadidas o quitadas, cero FR.
+- Comparación estructural frente a la plantilla: Cervantes mantiene sus 189 tags; Chez Claude sus 199. Las diferencias son los textos objetivo, alts/títulos/datos accesibles de mapa traducidos; enlaces, canonical, alternates, src de fotos y de mapa se conservan. No hay `hreflang` a francés.
+- Capturas antes/después PT/EN a 1440 y 390 px están en `docs/seo/captures/release-pt-en-20261115/`. Las imágenes externas fallaron en la sesión local y el mapa no cargó allí; esas capturas no son una aprobación visual independiente. El DOM conserva las URLs originales y la página Hostinger de referencia presenta el mismo estado de medios.
+- `node scripts/audit_translations.mjs` sigue abortando antes de recorrer páginas por `Invalid dictionary: buzios-approved-blocks.js`, un archivo de producción fuera del cambio. `scripts/audit_translation_content.py` no existe en el HEAD.
+- `python3 scripts/check_frozen_pages.py` falla en la base y el candidato con la misma salida SHA-256 `e5573a8feb30aeeefa0f4912a4f0e72f4d38e02d9e0b9d40b8977344b72e0815` (247 divergencias heredadas). No regeneré aprobaciones ni alteré el guard.
+
+## Revisión y continuidad
+
+El PR #36 debe conservarse abierto para revisión humana independiente. Antes de cualquier publicación, la persona revisora debe validar los textos PT/EN, confirmar que los cambios están acotados, decidir cómo tratar el drift histórico del guard sin regenerar aprobaciones masivas y aprobar la apariencia cuando los medios puedan verificarse. Hostinger debe seguir intacto hasta que las revisiones y checks requeridos pasen.
+
+El inventario maestro actualiza solo Cervantes y Chez Claude. Las demás filas conservan su snapshot anterior y no se presentan como auditadas hoy. El detalle de estado y el siguiente paso durable están en `docs/seo/TANDA50_CONTINUIDAD_2026-11-15.md`.

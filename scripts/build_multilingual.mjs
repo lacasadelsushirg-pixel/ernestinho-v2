@@ -13,6 +13,11 @@ import{renderBuziosMirror,mirrorRoutes}from'./build_buzios_mirror.mjs';
 import { regionalRoutes, renderRegionalRoute } from './build_regional_destinations.mjs';
 import{beachEditorial}from'../assets/js/translations/chunks/buzios-beaches-reviewed.js';
 import CERVANTES_TRANSLATIONS from '../assets/js/translations/cervantes-copacabana.js';
+import CHEZ_CLAUDE_TRANSLATIONS from '../assets/js/translations/chez-claude.js';
+const ROUTE_TRANSLATIONS={
+ '/gastronomia/cervantes-copacabana/':CERVANTES_TRANSLATIONS,
+ '/gastronomia/chez-claude/':CHEZ_CLAUDE_TRANSLATIONS
+};
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
@@ -37,7 +42,7 @@ const prefix=(route,lang)=>lang==='ES'?route:'/'+lang.toLowerCase()+route;
 const pilot=process.argv.find(a=>a.startsWith('--routes='))?.slice(9).split(',');
 const manualUpdating=process.argv.includes('--update');
 if(manualUpdating&&!pilot)throw Error('--update requires --routes');
-const liveRoot=path.resolve(root,'../../../public_html');
+const liveRoot=path.resolve(process.env.EC_LIVE_ROOT||path.resolve(root,'../../../public_html'));
 const liveManifestPath=path.join(liveRoot,'locale-manifest.json');
 let liveManifest=null;
 if(!manualUpdating&&!process.argv.includes('--full')){
@@ -111,6 +116,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   if(file==='assets/js/translations/quiero.js'){routes.add('/quiero/');continue;}
   // Route-scoped restaurant copy is isolated so it only rerenders Cervantes' three locale files.
   if(file==='assets/js/translations/cervantes-copacabana.js'){routes.add('/gastronomia/cervantes-copacabana/');continue;}
+  if(file==='assets/js/translations/chez-claude.js'){routes.add('/gastronomia/chez-claude/');continue;}
   if(file==='assets/js/buzios-taxonomy.js')continue;
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
@@ -127,10 +133,20 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
 }
 const useLiveIncremental=!!liveManifest&&!manualUpdating&&!requiresFull;
 const updating=manualUpdating||useLiveIncremental;
+// Incremental rerenders start from the exact locale HTML already published on Hostinger.
+// EC_USE_LIVE_TEMPLATES enables the same path against a read-only local Hostinger snapshot.
+const usePublishedTemplates=useLiveIncremental||(manualUpdating&&process.env.EC_USE_LIVE_TEMPLATES==='1');
+function publishedLocalePage(pathname){
+ if(!usePublishedTemplates||!/^\/(?:pt|en)(?:\/|$)/i.test(pathname))return null;
+ let candidate=path.resolve(liveRoot,'.'+pathname);
+ if(pathname.endsWith('/'))candidate=path.join(candidate,'index.html');
+ if(!candidate.startsWith(liveRoot+path.sep)||!fs.existsSync(candidate)||!fs.statSync(candidate).isFile())return null;
+ return candidate;
+}
 const previous=manualUpdating?JSON.parse(fs.readFileSync(path.join(out,'locale-manifest.json'))):useLiveIncremental?liveManifest:null;
 const selectedRoutes=pilot?new Set(pilot):useLiveIncremental?incrementalRoutes:null;
 const targets=files.filter(f=>!selectedRoutes||selectedRoutes.has(routeFor(f))).flatMap(f=>['ES','PT','EN'].map(language=>({file:f,route:routeFor(f),language})));
-console.log('Build mode: '+(useLiveIncremental?'incremental':'full')+'; rendering '+targets.length+' of '+(files.length*3)+' locale pages; source '+currentCommit);
+console.log('Build mode: '+(manualUpdating?'route-selective update':useLiveIncremental?'incremental':'full')+'; rendering '+targets.length+' of '+(files.length*3)+' locale pages; source '+currentCommit);
 // A legacy page shipped two plain-text meta declarations inside <head> without
 // their opening angle bracket. Browsers treat those lines as body text. Repair
 // only bare meta declarations in the head before either locale rendering path.
@@ -162,12 +178,14 @@ function adaptLegacyScripts(html,sourcePath){
 const server=http.createServer((req,res)=>{
  const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
  const sourcePath=pathname.replace(/^\/(pt|en)(?=\/|$)/i,'')||'/';
- let file=path.resolve(root,'.'+sourcePath);
- if(!file.startsWith(root+path.sep)&&file!==root){res.writeHead(403).end();return;}
+ const publishedFile=publishedLocalePage(pathname);
+ let file=publishedFile||path.resolve(root,'.'+sourcePath);
+ if(!publishedFile&&!file.startsWith(root+path.sep)&&file!==root){res.writeHead(403).end();return;}
  if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');
  if(!fs.existsSync(file)){res.writeHead(404).end();return;}
  res.setHeader('Content-Type',types[path.extname(file)]||'application/octet-stream');
  if(file.endsWith('.html')){
+   if(publishedFile){res.end(fs.readFileSync(file,'utf8'));return;}
    let html=repairBareHeadMeta(adaptLegacyScripts(fs.readFileSync(file,'utf8'),sourcePath)).replace(/<html\b/i,'<html data-ec-locale-routes="true"');
    html=html.replace('src="https://cdn.tailwindcss.com"','src="https://cdn.tailwindcss.com/3.4.17"')
      .replace('src="https://unpkg.com/react@18/','src="https://unpkg.com/react@18.3.1/')
@@ -209,12 +227,14 @@ async function worker(){
    if(requestUrl.origin===base){
     const requestPath=decodeURIComponent(requestUrl.pathname);
     const sourcePath=requestPath.replace(/^\/(?:pt|en)(?=\/|$)/i,'')||'/';
-    let file=path.resolve(root,'.'+sourcePath);
-    if(!file.startsWith(root+path.sep)&&file!==root)return r.fulfill({status:403,body:'Forbidden'});
+    const publishedFile=publishedLocalePage(requestPath);
+    let file=publishedFile||path.resolve(root,'.'+sourcePath);
+    if(!publishedFile&&!file.startsWith(root+path.sep)&&file!==root)return r.fulfill({status:403,body:'Forbidden'});
     if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');
     if(!fs.existsSync(file))return r.fulfill({status:404,body:'Not found'});
     const contentType=types[path.extname(file)]||'application/octet-stream';
     if(file.endsWith('.html')){
+     if(publishedFile)return r.fulfill({status:200,body:fs.readFileSync(file,'utf8'),contentType,headers:{'Content-Security-Policy':"script-src 'none'"}});
      let html=repairBareHeadMeta(adaptLegacyScripts(fs.readFileSync(file,'utf8'),sourcePath)).replace(/<html\b/i,'<html data-ec-locale-routes="true"');
      html=html.replace('src="https://cdn.tailwindcss.com"','src="https://cdn.tailwindcss.com/3.4.17"')
       .replace('src="https://unpkg.com/react@18/','src="https://unpkg.com/react@18.3.1/')
@@ -279,9 +299,12 @@ async function worker(){
     const dest=path.join(out,route.slice(1)+'index.html');fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,html);
     manifest.push({route,source:target.route,language:target.language,indexable:false,redirect:finalPath});continue;
    }
-   await page.goto(base+route,{waitUntil:'load',timeout:30000});
+   const usingPublishedTemplate=!!publishedLocalePage(route);
+   // Published HTML already contains its approved static locale state. Its browser response
+   // blocks page scripts so shared runtime initializers cannot inject unrelated DOM.
+   await page.goto(base+route,{waitUntil:usingPublishedTemplate?'domcontentloaded':'load',timeout:30000});
    if(new URL(page.url()).pathname!==route)throw Error('Unexpected client navigation '+page.url());
-   await page.evaluate(async language=>{
+   if(!usingPublishedTemplate)await page.evaluate(async language=>{
     const scripts=[...document.querySelectorAll('script[type="module"][src]')];
     for(const script of scripts){if(new URL(script.src).origin===location.origin){const module=await import(script.src);if(module.ready)await module.ready;}}
     const i18n=await import('/assets/js/i18n.js');i18n.setLanguage(language);
@@ -293,7 +316,7 @@ async function worker(){
     await new Promise(r=>setTimeout(r,80));
     if(typeof window.ecApplyPracticalSummaryLocale==="function")window.ecApplyPracticalSummaryLocale(language);
    },target.language);
-   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations,routeTranslations})=>{
+   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations,routeTranslations,usingPublishedTemplate})=>{
     const language=document.documentElement.lang;
     if(routeTranslations){
      const locale=language==='pt-BR'?'PT':'EN';
@@ -303,9 +326,9 @@ async function worker(){
       const parent=node.parentElement;
       if(!parent||['SCRIPT','STYLE','NOSCRIPT'].includes(parent.tagName))continue;
       const trimmed=node.nodeValue.trim(),key=trimmed.replace(/\s+/g,' '),translated=copy[key];
-      if(translated)node.nodeValue=node.nodeValue.replace(trimmed,translated);
+      if(translated)node.nodeValue=node.nodeValue.replace(trimmed,()=>translated);
      }
-     for(const el of document.querySelectorAll('[alt],[title]'))for(const attr of ['alt','title']){
+     for(const el of document.querySelectorAll('[alt],[title],[data-ec-alt]'))for(const attr of ['alt','title','data-ec-alt']){
       const value=el.getAttribute(attr);if(value&&copy[value])el.setAttribute(attr,copy[value]);
      }
     }
@@ -320,6 +343,23 @@ async function worker(){
        if(translation)node.nodeValue=original.replace(trimmed,translation);
       }
      }
+    }
+    if(usingPublishedTemplate){
+     const title=document.title,description=document.querySelector('meta[name="description"]')?.content;
+     const expectedLang=route.startsWith('/pt/')?'pt-BR':'en';
+     const canonical=document.querySelector('link[rel="canonical"]')?.href;
+     const expectedCanonical=origin+route;
+     if(language!==expectedLang)throw Error('Published template has unexpected lang '+language+' for '+route);
+     if(!title||!description)throw Error('Published template is missing title/description');
+     if(canonical!==expectedCanonical)throw Error('Published template canonical mismatch: '+canonical);
+     const expectedAlternates={es:origin+route.replace(/^\/(?:pt|en)(?=\/|$)/,''), 'pt-BR':origin+route.replace(/^\/(?:pt|en)(?=\/|$)/,'/pt'), en:origin+route.replace(/^\/(?:pt|en)(?=\/|$)/,'/en'), 'x-default':origin+route.replace(/^\/(?:pt|en)(?=\/|$)/,'')};
+     for(const [hreflang,href] of Object.entries(expectedAlternates)){
+      if(document.querySelector(`link[rel="alternate"][hreflang="${hreflang}"]`)?.href!==href)throw Error('Published template hreflang mismatch: '+hreflang);
+     }
+     if(document.querySelector('link[hreflang^="fr"]'))throw Error('Published template unexpectedly advertises French before FR QA');
+     const h1=document.querySelectorAll('h1').length;
+     if(h1!==1)throw Error('Published template must retain exactly one H1, found '+h1);
+     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1};
     }
     const canonical=origin+route;
     const sourcePath=route.replace(/^\/(pt|en)(?=\/|$)/,'')||'/';
@@ -407,7 +447,7 @@ async function worker(){
      const s=document.createElement('script');s.type='application/ld+json';s.dataset.ecBreadcrumb='';s.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});document.head.appendChild(s);
     }
     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1:document.querySelectorAll('h1').length};
-   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS,routeTranslations:target.route==='/gastronomia/cervantes-copacabana/'?CERVANTES_TRANSLATIONS:null});
+   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS,routeTranslations:ROUTE_TRANSLATIONS[target.route]||null,usingPublishedTemplate});
    // Redirect-only source documents remain redirect-only and never get hreflang.
    const original=fs.readFileSync(target.file,'utf8');const refresh=original.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(refresh){value.html=value.html.replace('</head>',refresh[0].replace(/(url=)([^"'>]+)/i,(_,p,destination)=>{const u=new URL(destination,base+target.route);return p+prefix(u.pathname,target.language)+u.search+u.hash;})+'</head>');}
