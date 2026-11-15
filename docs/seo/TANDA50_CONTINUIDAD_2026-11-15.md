@@ -1563,3 +1563,28 @@ Hostinger producción verificada: revision/rendimiento-traducciones-81a904c SHA 
 - FR no aparece en Hostinger ni en sitemap. Estado actual incompleto; no se publicó durante este lote.
 
 Conteo tanda 3: **8/50 auditadas, 0/50 completas, 0/50 publicadas**. Próximo paso concreto: preparar un cambio aislado en la inicialización del renderer de Haru que reutilice los 19 pares de los diccionarios históricos y traduzca metadatos, alts, pies de foto y etiquetas; generar solo ES/PT/EN para la ruta, comparar con Hostinger, ejecutar guard y capturas antes/después. FR queda pendiente y no se incluye en sitemap/hreflang.
+
+
+## Tanda 3 — ficha 9/50: Fogo de Chão Botafogo (15/11/2026)
+
+Producción Hostinger `revision/rendimiento-traducciones-81a904c` SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; HTML fuente ES blob `413592e5e34189e0d7117c20da05fcc3aa6a9382`.
+
+- HTML ES/PT/EN: 20 párrafos por variante; nueve posiciones coinciden al incluir dos párrafos vacíos, y siete bloques editoriales PT/EN permanecen en ES. Meta description en español en las tres variantes; título/H1 localizados. Imágenes 12/11/11, dos alt vacíos en PT/EN. Canonical/hreflang es/pt-BR/en/x-default correctos. El diccionario actual conserva 14 pares PT/EN.
+- GSC final 16-oct–12-nov: ES 271 impresiones/0 clics/posición 9,2; PT 21/0/6,9; EN 19/0/5,4. Inspecciones 3/3 indexadas, fetch exitoso, robots permitido y canonical Google=user. Breadcrumb PASS con elemento sin nombre: alerta de datos estructurados, no error de indexación.
+- Candidato PR #37 corrige el locale inicial y metadatos. Guard y sintaxis pasan; build Chromium no renderiza por `socket() failed: Operation not permitted`. No hay FR ni capturas/sitemap de build del candidato; no completa ficha.
+
+Estado ficha #9: auditada, PT/EN pendientes en producción, FR ausente, no publicada.
+
+## Tanda 3 — ficha 10/50: Quiosque Dumaré (15/11/2026)
+
+Hostinger producción confirma rama `revision/rendimiento-traducciones-81a904c`, SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `f2fbca8b8f9d514579d6e48a5e8102bd10d35130`.
+
+- HTML ES/PT/EN: 30 párrafos visibles cada uno. Las posiciones 0–7, 20 y 23 (10/30) son idénticas entre ES y PT/EN. La fuente contiene 19 claves por idioma (`pt` y `en`, posiciones 0–18); los dos inicializadores fuerzan `setLang('es')` y `full('es')`, lo que explica la divergencia estática. Los titles y meta descriptions PT/EN están localizados; canonical propio y alternates ES/PT-BR/EN/x-default correctos. Imágenes 10/9/9, dos alt vacíos PT/EN.
+- GSC final 16-oct–12-nov: ES 214 impresiones/1 clic/posición 7,4; PT 148/0/8,8; EN 159/1/9,7. Inspección 3/3: enviada e indexada, robots ALLOWED, fetch SUCCESSFUL, canonical Google=user. «Elemento sin nombre» en breadcrumbs es alerta estructurada, no error de indexación.
+- PR #37 incorpora la ruta Dumaré al fix del builder sin tocar HTML editorial. Sintaxis y guard pasan localmente; render/build/capturas siguen bloqueados por Chromium `socket() failed: Operation not permitted`. FR no publicado ni enlazado. No se cuenta como completa.
+
+### Checkpoint durable de la tanda 3
+
+**10/50 auditadas en producción, 0/50 completas y 0/50 publicadas; quedan 40 fichas de la tanda.** Revisadas hasta ahora: Amendoeira, Chama Rio Copacabana, Carretão Copacabana—Siqueira Campos, Carretão Lido, Plage Café, Spicy Fish, Terra Brasilis, Haru Sushi Bar, Fogo de Chão Botafogo y Quiosque Dumaré. Faltan por seleccionar/verificar las siguientes 40 rutas libres por impresiones reales y confirmar cada una contra el inventario maestro antes de auditar. Cola prioritaria conocida: Amendoeira ya auditada (#1); Dumaré (#10) verificada con ES214/PT148/EN159; después elegir la ruta libre con más impresiones no auditada. El orden definitivo de las 40 pendientes no se inventa antes de cruzar GSC e inventario.
+
+Hostinger sigue en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. PR #37 sigue abierto y no publicado; su check Vercel está pending, sin revisión independiente. Los estados son auditorías, no traducciones validadas.
