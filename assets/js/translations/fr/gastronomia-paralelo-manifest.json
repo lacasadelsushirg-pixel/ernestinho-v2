@@ -74,6 +74,15 @@
       "checked_strings": 54,
       "missing_keys": 0,
       "qa": "Traduction complète des contenus visibles, métadonnées, informations pratiques et alternatives. Prévisualisation privée à valider à 390 px et 1440 px ; horaires, prix, téléphones et service du tramway à reconfirmer."
+    },
+    {
+      "route": "/gastronomia/amendoeira/",
+      "source_sha": "b3ed0ef51003d906992bc10b0d086b7304907627",
+      "file": "assets/js/translations/fr/gastronomia-amendoeira-paralelo.json",
+      "entries": 54,
+      "checked_strings": 54,
+      "missing_keys": 0,
+      "qa": "Traduction éditoriale complète des chaînes visibles, métadonnées, recommandations et alternatives. Aperçu privé à auditer à 390 px et 1440 px ; horaires et prix à vérifier."
     }
   ],
   "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."

@@ -39,3 +39,5 @@ node scripts/test_fr_preview.mjs ../preview-guia ../capturas-guia
 - Ampliación del 14 de noviembre: `/gastronomia/babbo-osteria/` traducida en 55 cadenas, con la ficha completa, metadatos, información práctica y alternativas. Auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan; los precios, menú y reservas quedan sujetos a confirmación. Preview privado noindex, canonical propio y fuera del sitemap.
 
 - Ampliación del 14 de noviembre: `/gastronomia/bar-do-mineiro/` traducida en 54 cadenas únicas, con historia, consejos, datos prácticos, mapa y textos alternativos. Auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan. Horarios, precios, teléfonos y operación del bonde quedan sujetos a confirmación oficial. Staging privado con canonical propio, `noindex` y fuera del sitemap.
+
+- Ampliación del 14 de noviembre: `/gastronomia/amendoeira/` traducida en 54 cadenas únicas. Se conservan los datos y medios originales; auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan. Horarios, carta y operación sujetos a confirmación. Preview privado con canonical propio, `noindex` y fuera del sitemap.
