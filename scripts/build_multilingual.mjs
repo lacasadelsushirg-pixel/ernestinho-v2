@@ -16,11 +16,13 @@ import CERVANTES_TRANSLATIONS from '../assets/js/translations/cervantes-copacaba
 import CHEZ_CLAUDE_TRANSLATIONS from '../assets/js/translations/chez-claude.js';
 import DON_CAMILLO_RELEASE from '../assets/js/translations/don-camillo-release.js';
 import BAR_DO_OMAR_RELEASE from '../assets/js/translations/bar-do-omar-release.js';
+import SPICY_FISH_RELEASE from '../assets/js/translations/spicy-fish-release.js';
 const ROUTE_TRANSLATIONS={
  '/gastronomia/cervantes-copacabana/':CERVANTES_TRANSLATIONS,
  '/gastronomia/chez-claude/':CHEZ_CLAUDE_TRANSLATIONS,
  '/gastronomia/don-camillo/':DON_CAMILLO_RELEASE,
- '/gastronomia/bar-do-omar/':BAR_DO_OMAR_RELEASE
+ '/gastronomia/bar-do-omar/':BAR_DO_OMAR_RELEASE,
+ '/gastronomia/spicy-fish/':SPICY_FISH_RELEASE
 };
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
@@ -123,6 +125,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   if(file==='assets/js/translations/chez-claude.js'){routes.add('/gastronomia/chez-claude/');continue;}
   if(file==='assets/js/translations/don-camillo-release.js'){routes.add('/gastronomia/don-camillo/');continue;}
   if(file==='assets/js/translations/bar-do-omar-release.js'){routes.add('/gastronomia/bar-do-omar/');continue;}
+  if(file==='assets/js/translations/spicy-fish-release.js'){routes.add('/gastronomia/spicy-fish/');continue;}
   if(file==='assets/js/buzios-taxonomy.js')continue;
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
@@ -324,7 +327,7 @@ async function worker(){
    },target.language);
    const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations,routeTranslations,usingPublishedTemplate})=>{
     const language=document.documentElement.lang;
-    if(usingPublishedTemplate&&routeTranslations?.legacyParagraphIndexes&&(language==='pt-BR'||language==='en')){
+    if((usingPublishedTemplate||routeTranslations?.forceLegacyParagraphs)&&routeTranslations?.legacyParagraphIndexes&&(language==='pt-BR'||language==='en')){
      // The legacy source dictionary was positional and the Spanish page grew.
      // Rebuild its index map against the current page, keep its original HTML
      // translations, and translate the newly added paragraphs before writing.
@@ -345,6 +348,11 @@ async function worker(){
       }
      }
      for(const locale of ['PT','EN'])for(const [index,value] of Object.entries(routeTranslations.supplemental[locale]||{}))rebuilt[locale.toLowerCase()][index]=value;
+     for(const index of routeTranslations.structuredParagraphIndexes||[])for(const locale of ['pt','en']){
+      const value=rebuilt[locale][index],match=typeof value==='string'?value.match(/^([\s\S]*?<strong>[\s\S]*?<\/strong>)\s+\|\s+([\s\S]+)$/):null;
+      if(!match)throw Error('Structured historical dictionary markup mismatch at '+index+' for '+route+': '+String(value).slice(0,220));
+      rebuilt[locale][index]=match[1]+'<br>'+match[2];
+     }
      for(let index=0;index<paragraphs.length;index++){
       const value=rebuilt[language==='pt-BR'?'pt':'en'][index];
       if(typeof value!=='string'||!value.trim())throw Error('Untranslated published paragraph '+index+' for '+route);
