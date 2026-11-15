@@ -1126,3 +1126,16 @@ Los cuatro chunks productivos consultados (`gastronomia-01/02/03.js`, `rio-resid
 **Estado:** auditada, con incidencia visible PT/EN; no completa/no publicable. Falta restaurar orden y texto correcto en cuerpo PT/EN, cotejar fuente histórica, revisar paridad de enlaces/alts, francés integral, build incremental/guard y capturas 1440/390. Hostinger sigue intacto; **0/50 fichas completas y 0/50 nuevas publicadas**.
 
 **Punto durable:** tanda 2: 18/50 auditadas, 0 completas, 0 publicadas, 32 pendientes. Próxima #19 `/gastronomia/casas-de-suco/`; blob ES producción a verificar antes de iniciar. CSV Alloro actualizado en commit `11cb92281fdde1cbd2907617edb17e5034b9c167`.
+
+
+## Auditoría de producción — Casas de Suco (segunda tanda, ficha 19/50; 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c`, HEAD `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES verificado `5fb5b1247ac0a7f8d26681ebf50b6f351aec2f82`. Las tres variantes tienen 14 párrafos, cero coincidencias literales ES/PT/EN, títulos/descripciones/H1 traducidos, canonical propio y hreflang es/pt-BR/en/x-default coherente. Conservan 4 imágenes y 31 enlaces por idioma; la paridad exacta de src/alt/href queda pendiente. La página ES no contiene twitter:title en la primera revisión, aunque sí hay title y og:title; no se detectó error de indexación ligado a ello. La ruta `/fr/gastronomia/casas-de-suco/` devuelve “File does not exist”, no hay FR/hreflang FR.
+
+Los chunks productivos `gastronomia-01.js` y `rio-residual-gastronomia-01.js` contienen referencias relacionadas con jugos/casas de suco, pero la frase de apertura actual no coincide con el fragmento histórico encontrado; la equivalencia de origen/cobertura de los 14 párrafos no está demostrada y no se marca como traducción histórica recuperada de forma íntegra.
+
+GSC final (2026-10-16–11-12): ES 14 impresiones/0 clics/posición 5,6; PT 2/0/7,5; EN 36/0/18,9. Ventana previa (2026-09-18–10-15): ES 1/0/7,0; PT y EN sin filas. En ES aumentan 13 impresiones y mejora la posición media; las variantes nuevas no permiten comparar tendencia. Inspección 3/3 ES/PT/EN: enviadas e indexadas, robots allowed, fetch successful y Google canonical igual al declarado; PT figura en sitemap. Rich result de breadcrumb “Elemento sin nombre” es una alerta estructurada, no un error de indexación.
+
+**Estado:** ES/PT/EN presentes y completos estructuralmente; no termina la ficha bajo criterio estricto: FR y QA editorial integral/visual, paridad de medios/enlaces y build incremental/guard pendientes. Hostinger intacto; **0/50 fichas completas y 0/50 nuevas publicadas**.
+
+**Punto durable:** tanda 2: 19/50 auditadas, 0 completas, 0 publicadas, 31 pendientes. Siguiente #20 `/gastronomia/tia-palmira/`; verificar su blob desde producción antes de auditar. Inventario actualizado en commit `8f184fa0917a0e7418fab0b32ddbd63f3ef478bd`.
