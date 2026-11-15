@@ -1,5 +1,5 @@
 ruta,seccion,ES,PT-BR,EN,FR,documentos_publicados,fr_publicado,indexable_es,incidencias,fuente_historica,fecha,commit,pruebas
-/,inicio,Validado,Validado,Validado,Validado,ES|EN|PT-BR,no,sí,,HTML ES aprobado y traducciones vigentes del PR 24 cotejadas.,2026-11-10,aef93e76b3a7a74ceb7da6cb937ff5a4cf5d97f1,"Estructura, SEO y navegación 1440/390. Asistente FR pendiente de integración."
+/,inicio,Validado,Validado,Validado,Validado,ES|EN|PT-BR,no,sí,,HTML ES aprobado y traducciones vigentes del PR 24 cotejadas.,2026-11-15,aef93e76b3a7a74ceb7da6cb937ff5a4cf5d97f1,"Estructura, SEO y navegación 1440/390. Asistente FR pendiente de integración. Cobertura global comprobada en Hostinger 2026-11-15: sitemap 3.588 URLs únicas (1.196 ES/1.196 PT-BR/1.196 EN), manifiesto 3.612 rutas generadas (1.204 fuente); 14.352 alternates ES/PT-BR/EN/x-default, sin FR. sourceCommit 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346."
 /404.html,404.html,Pendiente,Pendiente,Pendiente,Pendiente,ES|EN|PT-BR,no,no,,,,9426c42fc0150bdce5fbfee060396da9de518ac7,
 /atracciones/,atracciones,Pendiente,Pendiente,Pendiente,Pendiente,ES|EN|PT-BR,no,sí,,,,9426c42fc0150bdce5fbfee060396da9de518ac7,
 /atracciones/aquario/,atracciones,Pendiente,Pendiente,Pendiente,Pendiente,ES|EN|PT-BR,no,sí,,,,9426c42fc0150bdce5fbfee060396da9de518ac7,
