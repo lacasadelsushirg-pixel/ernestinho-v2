@@ -12,21 +12,51 @@
       "source_sha": "995eb0cf6408de80c550e90b08779988e99069e7",
       "file": "assets/js/translations/fr/guia-emergencias-paralelo.json",
       "entries": 52,
-      "coverage": "text_alt_metadata_complete"
+      "coverage": "text_alt_metadata_complete",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/cpf/",
       "source_sha": "2fb14c99efd9ed8b70794f14eb0048b22d6cd5d6",
       "file": "assets/js/translations/fr/guia-cpf-paralelo.json",
       "entries": 58,
-      "coverage": "text_alt_metadata_complete"
+      "coverage": "text_alt_metadata_complete",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/documentos/",
       "source_sha": "71e448005ace7a442763ae433045da14a6f43852",
       "file": "assets/js/translations/fr/guia-documentos-paralelo.json",
       "entries": 83,
-      "coverage": "text_alt_metadata_complete"
+      "coverage": "text_alt_metadata_complete",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/pix/",
@@ -34,7 +64,17 @@
       "file": "assets/js/translations/fr/guia-pix-paralelo.json",
       "entries": 62,
       "coverage": "visible_static_and_embedded_ES_JSON_text_complete",
-      "integration_blocker": "pix-data JSON provides runtime ES/PT/EN content. The FR preview builder removes scripts; must render static translated content in private FR preview or extend private renderer without changing source pages."
+      "integration_blocker": "pix-data JSON provides runtime ES/PT/EN content. The FR preview builder removes scripts; must render static translated content in private FR preview or extend private renderer without changing source pages.",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/menores/",
@@ -42,7 +82,17 @@
       "file": "assets/js/translations/fr/guia-menores-paralelo.json",
       "entries": 39,
       "coverage": "text_alt_metadata_complete",
-      "editorial_review": "recheck visa and minor-travel rules against current official authorities prior to publishing"
+      "editorial_review": "recheck visa and minor-travel rules against current official authorities prior to publishing",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/internet/",

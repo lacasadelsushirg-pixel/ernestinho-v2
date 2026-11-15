@@ -146,6 +146,10 @@ def french_link(route):
 
 def add_selector(document, route, french=False):
     document.set('data-fr-preview-href', '/fr' + route)
+    # Make preview generation idempotent when its source already contains a
+    # selector from an earlier preview build.
+    for previous in document.xpath('//*[@data-fr-preview-choice]'):
+        previous.drop_tree()
     groups = (
         ('//*[@data-ec-desktop-language-group]', 'ec-desktop-language-choice'),
         ('//*[contains(concat(" ",normalize-space(@class)," ")," ec-mobile-language-row ")]', 'ec-language-choice'),
@@ -174,6 +178,8 @@ def translate_nodes(document, lookup, skip_ids=()):
     for value in document.xpath(TRANSLATABLE):
         parent = value.getparent()
         chain = (parent, *parent.iterancestors()) if parent is not None else ()
+        if any(element.get('data-fr-preview-choice') is not None for element in chain):
+            continue
         if any(element.get('id') in skip_ids - {'mainText'} for element in chain):
             continue
         if 'mainText' in skip_ids and any(element.get('id') == 'mainText' for element in chain):
@@ -488,6 +494,8 @@ def french_page(source, route, copybook, routes=ROUTES):
     for script in document.xpath('//script[not(@type="application/ld+json")]'):
         script.drop_tree()
     for element in document.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," lang-switcher ")]'):
+        element.drop_tree()
+    for element in document.xpath('//*[@data-fr-preview-choice]'):
         element.drop_tree()
     missing = set()
 

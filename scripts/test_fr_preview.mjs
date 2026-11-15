@@ -165,7 +165,7 @@ try {
       await page.waitForURL(origin + '/en' + route);
       assert.equal(await page.locator('html').getAttribute('lang'), 'en');
     }
-    if (routes.has('/guia/cpf/')) {
+    if (routes.has('/guia/') && routes.has('/guia/cpf/') && routes.has('/guia/dinero/')) {
       await page.goto(origin + '/fr/guia/');
       await page.locator('main a[href="/fr/guia/cpf/"]').first().click();
       await page.waitForURL(origin + '/fr/guia/cpf/');
