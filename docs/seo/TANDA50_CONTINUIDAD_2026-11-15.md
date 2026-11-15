@@ -787,3 +787,16 @@ Hostinger producción `revision/rendimiento-traducciones-81a904c` en `21bb68772f
 - No completa/publicable: cotejo de traducciones históricas, traducción íntegra PT/EN/FR, auditoría semántica de los bloques no literales y encabezados V2, revisar alts/hrefs, runtime, build incremental/guard y capturas aprobadas 1440/390. Producción intacta.
 
 **Contabilidad canónica tras este corte:** 43/50 auditadas; 0 completas, 0 nuevas publicadas, 7 pendientes. Inventario en commit `57fc7c0f3d6dfa2556761e84bcf4bc3dd41be04b`; informe durable en el commit documental posterior. Siguiente: continuar en gastronomía por datos de impresiones y sin repetir rutas ya auditadas.
+
+
+## Revalidación de producción — Spicy Fish (corte 44/50, 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c`, commit `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `6c49d747f9a7a5712a8a4cb7927462bcf44c378d`. ES/PT-BR/EN presentes; FR no existe en producción.
+
+- **8/29 párrafos PT y 8/29 EN siguen idénticos al español**, cotejados por texto normalizado. H1, H2 base y metadatos localizados; canonical propio y alternates `es`/`pt-BR`/`en`/`x-default` correctos. Sin alternate FR.
+- 10/9/9 tags de imagen, ocho URLs únicas compartidas; alts con texto 8/10 ES y 7/9 PT/EN. Hrefs 22 ES frente a 10 PT/EN: pendientes de cotejo, sin modificar fotos ni enlaces.
+- GSC final 16 oct–12 nov: ES 351 impresiones/2 clics/posición 7,6; PT sin fila; EN 5/0/6,8. Periodo previo: ES 77/0/7,6; EN 62/1/8,0; PT sin fila. No convertir ausencia de fila en problema de indexación.
+- Inspección GSC: 3/3 ES/PT/EN Submitted and indexed, fetch permitido/exitoso, Google canonical=user; FR URL desconocida.
+- La ficha estaba señalada como validada en el inventario heredado, pero la verificación vigente prueba traducción incompleta. No está completa/publicable: FR, cotejo editorial/histórico, alts/hrefs, runtime, build incremental/guard y capturas aprobadas 1440/390 pendientes. Producción intacta.
+
+**Contabilidad canónica tras este corte:** 44/50 auditadas; 0 completas, 0 nuevas publicadas, 6 pendientes. Inventario actualizado en `41310fdf8502dfcbebf1d649614c703a5013f0b9`; este informe es el commit documental posterior. Siguiente prioridad por demanda histórica pendiente: Amendoeira, que también debe revalidarse contra producción.
