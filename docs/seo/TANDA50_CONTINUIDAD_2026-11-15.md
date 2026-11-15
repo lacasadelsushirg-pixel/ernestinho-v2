@@ -235,3 +235,14 @@ El deployment del SHA de código `349186f96e0afad47a59a8ec48f49bd464437390` cont
 - El status de PR #24 en su HEAD consultado solo muestra Vercel `success`; sigue draft porque su cuerpo dice explícitamente “Mantener como borrador”. PR #36 es un PR de release abierto, sin reviewers solicitados, cuyo HEAD actual tiene el bloqueo Vercel anterior. No es un candidato listo para la revisión final todavía.
 - Producción Hostinger sigue en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; el HTML público no incluye la corrección de Don Camillo. No se desplegó ni se pidió indexación.
 - Acción siguiente: esperar el desbloqueo de cuota de builds o resolverlo mediante el canal de Vercel autorizado; luego inspeccionar el deployment del commit vigente con acceso funcional. Hasta entonces, no contar Don Camillo como servido, QA finalizado ni publicado. **0/50 completas; 0/50 publicadas.**
+
+
+## Reanudación — Bar do Omar: traducción de datos estáticos (15/11/2026)
+
+Al revisar el HTML generado del candidato, detecté cinco valores de la tabla práctica que seguían en español en PT/EN aunque los párrafos estuvieran traducidos: horarios/agenda, rango de precio, tipo de servicio, contacto y consulta para grupos/eventos. Se añadieron traducciones PT/EN en `bar-do-omar-release.js`; no se modificaron etiquetas visuales, datos de negocio, contenido ES, enlaces, mapa, imágenes ni widgets.
+
+Validación local con el código idéntico al commit remoto `48d73afda63d1d619d909b712aac9cc82140a3a8`: `node --check`, `git diff --check` y build selectivo pasan; renderizó 3 de 3.612 documentos. Las cinco cadenas de datos prácticos esperadas aparecen traducidas en PT y EN (5/5 cada idioma); siguen 26 párrafos por variante y el guard de contenido reportó 586 HTML sin cambios aprobados y 10 assets fijados. El status Vercel del commit `48d73af...` es `failure` por `build-rate-limit`; no hay deployment nuevo, así que no se confirma por preview.
+
+La captura local con Chromium tampoco pudo ejecutarse: el proceso abortó en `socket() failed: Operation not permitted` (y ptrace no permitido). Sin capturas aprobadas a 1440/390. No se vuelve a intentar el mismo modo del navegador. Además permanecen FR editorial, verificación remota, los enlaces de marca Instagram/TikTok ausentes en PT/EN y revisión humana independiente. El lote queda en **0/50 completas y 0 publicadas**; producción Hostinger sin cambios.
+
+Próximo trabajo: usar un mecanismo de preview autorizado distinto cuando Vercel libere el build rate limit, validar el HTML exacto de `48d73af...`, inspeccionar también las tablas estáticas de Don Camillo y completar FR/QA visual por ficha. No repetir commits de build mientras el límite esté activo.
