@@ -65,6 +65,15 @@
       "checked_strings": 55,
       "missing_keys": 0,
       "qa": "Traduction complète des chaînes éditoriales, métadonnées, informations pratiques et alternatives. Aperçu privé à auditer à 390 px et 1440 px ; menu, prix et réservations à confirmer avant publication."
+    },
+    {
+      "route": "/gastronomia/bar-do-mineiro/",
+      "source_sha": "6073f33f07206dc32754ea776b755c8db23ac970",
+      "file": "assets/js/translations/fr/gastronomia-bar-do-mineiro-paralelo.json",
+      "entries": 54,
+      "checked_strings": 54,
+      "missing_keys": 0,
+      "qa": "Traduction complète des contenus visibles, métadonnées, informations pratiques et alternatives. Prévisualisation privée à valider à 390 px et 1440 px ; horaires, prix, téléphones et service du tramway à reconfirmer."
     }
   ],
   "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."
