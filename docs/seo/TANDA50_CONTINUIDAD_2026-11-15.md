@@ -550,3 +550,14 @@ Se releyeron los HTML de Hostinger para ES/PT-BR/EN; el recurso FR dio «File do
 - El build/guard y capturas 1440/390 no se pudieron correr por falta de checkout Git local; falta QA semántico/FR. Esta ficha no cumple el criterio de cierre.
 
 **Contabilidad vigente que sustituye el corte anterior:** 24/50 auditadas en este ciclo; 0/50 completas; 0/50 cambios nuevos presentes en producción Hostinger; 26 restantes. Siguiente prioridad de la cola: `/gastronomia/plage-cafe/` (revalidar impresiones y estado HTML en esta ejecución). La evidencia está en el inventario maestro; no se afirma publicación.
+
+## Auditoría de producción — Plage Café (corte del run, 15/11/2026)
+
+Hostinger ES/PT-BR/EN fue rerevisado. El HTML ES de la rama productiva tiene blob SHA `7b18104abae1dcb68821af4663dafa6049206bf7`; producción sigue en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. El archivo FR no existe en Hostinger y GSC indica que Google no reconoce esa URL.
+
+- Cada variante tiene 15 párrafos, un H1, cuatro H2, 11 ocurrencias de imágenes y 19 href únicos; los nueve sets de fuentes de imagen y los enlaces coinciden entre ES/PT/EN. Títulos, descripciones, canonical y hreflang están localizados/propios; alts observados son iguales entre idiomas y quedan para revisión contextual.
+- Un texto de párrafo coincide literalmente ES/PT/EN: «EAV Parque Lage · visita y estado del edificio · EAV · restauración del palacete». Por ser una línea EAV, se registra como dato por revisar y no como error editorial confirmado. No se modificó nada.
+- GSC 2026-10-16–11-12: ES 267 impresiones/1 clic/posición 8,3; PT 505/5/7,3; EN 97/4/7,8 (869/10 total). En la ventana anterior sólo hubo ES 10/0/8,4; no hay base para inferir pérdida PT/EN. Las tres variantes se encuentran enviadas e indexadas, con fetch exitoso y canonical Google coincidente.
+- Falta FR completa y QA semántico de etiquetas; no se pudo ejecutar build/guard incremental ni capturas aprobadas a 1440/390 por falta de checkout local. No cuenta como ficha terminada.
+
+**Contabilidad que sustituye el corte anterior:** 25/50 auditadas en este ciclo; 0/50 completas; 0/50 cambios nuevos publicados; 25 restantes. Próxima ficha de la cola por impresiones: `/gastronomia/sushi-leblon/`, con estado y datos GSC a revalidar.
