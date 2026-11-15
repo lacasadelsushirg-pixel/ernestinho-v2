@@ -1512,3 +1512,16 @@ Producción consultada: `revision/rendimiento-traducciones-81a904c` en `21bb6877
 - Estado: auditada en producción; incompleta; 0 cambios publicados.
 
 Esta entrada corrige la siguiente ruta que aparecía en el punto anterior: Lido ya fue auditada y no debe repetirse como siguiente ficha. Conteo tanda 3: **4/50 auditadas, 0/50 completas, 0/50 publicadas**. La tanda continúa con la siguiente ruta libre priorizada por impresiones después de cruzar el inventario y las auditorías recientes.
+
+
+## Tanda 3 — ficha 5/50: Plage Café (15/11/2026)
+
+Fuente publicada comprobada: los tres HTML de Hostinger (`gastronomia/plage-cafe/index.html`, `pt/gastronomia/plage-cafe/index.html`, `en/gastronomia/plage-cafe/index.html`) en producción revision/rendimiento-traducciones-81a904c / SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. La fuente ES correspondiente del checkout GitHub en ese SHA es blob `7b18104abae1dcb68821af4663dafa6049206bf7`.
+
+- Hostinger contiene 15 párrafos y 11 imágenes en cada variante ES/PT/EN. La fuente GitHub actual para ES contiene 4 párrafos y 6 imágenes. El HTML desplegado incluye seis bloques editoriales largos sobre el cierre/restauración, jardín y visita, además de cinco elementos de imagen que no aparecen en esa fuente del repositorio. Esta divergencia no se puede atribuir a una traducción del renderizador; es un bloqueo de publicación que exige reconciliar primero el origen de esos bloques para evitar perder contenido visible al reconstruir.
+- En el HTML vivo, la narrativa de los bloques 2–9 está traducida al PT-BR y al inglés; la atribución de fuentes (bloques 10–11) sigue mayormente en español en ambos idiomas. Los otros avisos mantienen coherencia: cierre temporal, fotos de archivo y sin fecha de reapertura confirmada. La ficha no debe volver a presentarse como restaurante abierto.
+- Títulos/descripciones PT/EN están localizados. Canonical propia y hreflang ES/PT-BR/EN/x-default correctos. Hay dos alt vacíos por variante; no se tocaron fotos ni enlaces.
+- GSC final 16-oct–12-nov: ES 267 impresiones/1 clic/posición 8,3; PT 505/5/7,3; EN 97/4/7,8. Inspecciones 3/3 enviadas e indexadas; fetch exitoso, robots permitido y canonical Google=user. No hay error de indexación confirmado. Resultado Breadcrumbs muestra un elemento sin nombre (alerta de datos estructurados, separada del estado de indexación).
+- FR no existe en Hostinger (HTTP 422), sin alternate FR ni URL francesa en sitemap. Estado: auditada, incompleta para cuatro idiomas y bloqueada para reconstrucción hasta reconciliar la diferencia de contenido fuente/despliegue. No publicada durante este lote.
+
+Conteo tanda 3: **5/50 auditadas, 0/50 completas, 0/50 publicadas**. Continuar con la siguiente ruta gastronómica libre de mayor impresión comprobable; no construir/reemplazar Plage Café mientras los 6 bloques editoriales y 5 imágenes extra del HTML Hostinger no estén representados en la fuente versionada o explicados por el pipeline.
