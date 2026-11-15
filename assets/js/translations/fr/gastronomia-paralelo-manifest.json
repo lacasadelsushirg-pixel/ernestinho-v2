@@ -292,6 +292,15 @@
       "qa": "Traduction complète des contenus, métadonnées, conseils et alternatives. Aperçu privé audité à 390 px et 1440 px ; horaires, prix et disponibilités à revérifier."
     },
     {
+      "route": "/gastronomia/plage-cafe/",
+      "source_sha": "7b18104abae1dcb68821af4663dafa6049206bf7",
+      "file": "assets/js/translations/fr/gastronomia-plage-cafe-paralelo.json",
+      "entries": 27,
+      "checked_strings": 27,
+      "missing_keys": 0,
+      "qa": "Traduction française créée ou récupérée, contrôlée contre les textes et métadonnées de la source dans la prévisualisation privée."
+    },
+    {
       "route": "/gastronomia/polvo-marisqueria/",
       "source_sha": "d6a34a55109386e1742da68ebc8c658b21c4eb43",
       "file": "assets/js/translations/fr/gastronomia-polvo-marisqueria-paralelo.json",
