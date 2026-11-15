@@ -34,6 +34,11 @@ export default {
       'Fotografía 6 de Bar do Omar.': 'Foto 6 do Bar do Omar.',
       'Fotografía 7 de Bar do Omar.': 'Foto 7 do Bar do Omar.',
       'Conviene confirmar horarios, carta y disponibilidad antes de ir.': 'Confirme horários, cardápio e disponibilidade antes de ir.',
+      'Consultar horarios y agenda del día': 'Consulte os horários e a agenda do dia',
+      'Económico a medio, según referencias públicas': 'Econômico a médio, segundo referências públicas',
+      'Boteco, petiscos, hamburguesas, bebidas y terraza': 'Boteco, petiscos, hambúrgueres, bebidas e terraço',
+      'Canales oficiales conviene confirmar': 'Consulte os canais oficiais',
+      'Consultar para grupos y días de evento': 'Consulte para grupos e dias de evento',
       '🌐 Sitio oficial': '🌐 Site oficial'
     },
     EN: {
@@ -45,6 +50,11 @@ export default {
       'Fotografía 6 de Bar do Omar.': 'Photo 6 of Bar do Omar.',
       'Fotografía 7 de Bar do Omar.': 'Photo 7 of Bar do Omar.',
       'Conviene confirmar horarios, carta y disponibilidad antes de ir.': 'Check opening hours, menu, and availability before you go.',
+      'Consultar horarios y agenda del día': "Check opening hours and the day's schedule",
+      'Económico a medio, según referencias públicas': 'Budget to mid-range, according to public sources',
+      'Boteco, petiscos, hamburguesas, bebidas y terraza': 'A boteco with petiscos, burgers, drinks, and a terrace',
+      'Canales oficiales conviene confirmar': 'Check official channels',
+      'Consultar para grupos y días de evento': 'Ask about groups and event days',
       '🌐 Sitio oficial': '🌐 Official website'
     }
   }
