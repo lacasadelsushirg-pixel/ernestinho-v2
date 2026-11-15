@@ -1462,3 +1462,14 @@ Producción comprobada directamente en Hostinger, rama revision/rendimiento-trad
 - OpenSEO/Search Console, propiedad verificada, final 2026-10-16–2026-11-12: 81.753 impresiones/373 clics, frente a 26.229/132 en 2026-09-18–2026-10-15. Dentro de la ventana actual: 16–29 oct 39.143/157; 30 oct–12 nov 42.610/216. El periodo comparativo anterior tiene mucho menor volumen al comienzo; no atribuir causa ni leerlo como tendencia limpia. Las inspecciones de las 15 variantes ES/PT/EN de estas cinco fichas pasan; los hallazgos descritos son de contenido, no errores de indexación confirmados.
 - PR #36 continúa abierto sobre producción pero no es pequeño (83 archivos modificados según el último snapshot) y no tiene reviewer independiente. Su Vercel check falló por build-rate-limit; el runtime del preview protegido no se pudo comprobar. No fusionar ni publicar hasta tener PR acotado, checks normales, QA completa y revisión humana.
 
+## Tanda 3 — ficha 1/50: Bar da Amendoeira (15/11/2026)
+
+Inicio de la nueva tanda con la prioridad indicada por la continuidad. Producción comprobada en Hostinger en revision/rendimiento-traducciones-81a904c, SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. GitHub confirma blob ES de producción b3ed0ef51003d906992bc10b0d086b7304907627.
+
+- Hostinger contiene 24 párrafos en ES/PT/EN. Coincidencias literales posicionales ES→PT: 8/24; ES→EN: 8/24. Además, el cotejo lingüístico de fuente previo señaló once párrafos PT y nueve EN todavía en español (las cuentas son criterios distintos). Los párrafos de apertura sí están localizados, pero las siguientes ampliaciones permanecen en español en PT/EN.
+- Títulos localizados; H1 conserva Bar da Amendoeira. Las meta descriptions PT/EN siguen en español. Canonical por idioma y hreflang ES/PT-BR/EN/x-default correctos. Imágenes 8/7/7; dos alt vacíos por variante según el inventario actual; los conjuntos de fotos y enlaces completos requieren QA.
+- GSC final 16-oct–12-nov: ES 187 impresiones/1 clic/posición 9,6; PT 8/0/7,0; EN no tiene fila, por lo que no se registra como cero. Inspección 3/3 “Submitted and indexed”, fetch exitoso, robots permitido y canonical Google igual a declarada. No se confirma error de indexación.
+- FR no existe en Hostinger (HTTP 422), sin ruta pública/hreflang FR. No hubo cambios de código ni publicación.
+- Estado ficha: PT/EN requieren recuperar y cotejar texto histórico contra las ampliaciones actuales; FR, QA semántico/runtime, alts/enlaces, build incremental/guard y capturas 1440/390 pendientes. No completa; no publicada.
+
+**Punto de continuación tanda 3:** 1/50 fichas auditadas, 0/50 completas, 0 publicadas. Continuar por la siguiente ruta libre de Gastronomía según impresiones actuales, contrastándola con el inventario y las tandas anteriores para no duplicar trabajo.
