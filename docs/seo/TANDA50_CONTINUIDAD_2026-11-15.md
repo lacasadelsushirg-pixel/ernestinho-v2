@@ -360,3 +360,10 @@ Contabilidad del lote al cierre: 5/50 con candidato PT/EN estructuralmente compr
 Lectura en Hostinger de `sitemap.xml` y `locale-manifest.json` bajo el document root del dominio. El manifiesto declara `sourceCommit=21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`, que coincide con el HEAD remoto de `revision/rendimiento-traducciones-81a904c`. Recuento de las etiquetas `<loc>`: **3.588 URLs únicas**, ES 1.196, PT-BR 1.196 y EN 1.196. Recuento deduplicado de `route` en el manifiesto: **3.612 rutas únicas generadas**; cabecera: 1.204 documentos fuente, 1.196 indexables por idioma y 3.612 generadas. El sitemap tiene 14.352 alternates (3.588 por hreflang `es`, `pt-BR`, `en` y `x-default`), **cero alternates FR y cero rutas /fr/**. Esto confirma la referencia actual; no demuestra que rutas individuales estén traducidas correctamente.
 
 El candidato del PR #36 sigue fuera de Hostinger. Su HEAD documental `e60e60854425e355a97424ccb6f27f471c2df486` está basado en producción, pero el status Vercel está en failure por `build-rate-limit`. Mantener sin cambios los recuentos publicados hasta que una publicación autorizada se complete y Hostinger vuelva a verificarse.
+
+
+## Revalidación del check tras guardar el inventario — 15/11/2026
+
+El último commit documental actualizó la cobertura global del CSV. PR #36 HEAD ahora es `5807d842ce724f014d8af11c3d1de9ac7c426033` sobre producción `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. Su check Vercel figura **pending** en la reconsulta, con destino `5ECp5QG9B8BF68Z6XUREvNtwJLd1`; el fallo `build-rate-limit` se observó en los HEAD anteriores `e60e608...` y `a557bc7...`, no se debe atribuir como resultado final del nuevo intento hasta que el check concluya. No se inició ningún bypass ni publicación.
+
+Hostinger mantiene manifest sourceCommit y sitemap en la base de producción. Recuento confirmado: 3.588 URL únicas (1.196 por idioma) y 3.612 rutas únicas generadas; ningún FR indexable ni alternate FR. Tanda: tabla de 50 locales, 5 candidatos PT/EN en preview estructural, 45 por revalidar, 0 completas, 0 publicadas. Próxima ruta: Chama Rio Copacabana. 
