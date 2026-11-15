@@ -949,13 +949,13 @@ Base: maestro ES/PT-BR/EN/FR y GSC final (2026-10-16–2026-11-12). Excluye las 
 | 43 | https://www.ernestinhocarioca.com.br/gastronomia/flor-do-ceu/ | 5 | Pendiente / En revisión / En revisión / Pendiente | 117adadc0072b9e02af6c2266872e005b739e241 | Pendiente de auditoría de producción |
 | 44 | https://www.ernestinhocarioca.com.br/gastronomia/xodozin-copa/ | 5 | Pendiente / En revisión / En revisión / Pendiente | e3501501ca328705040d49d4e700769313d8e90d | Pendiente de auditoría de producción |
 | 45 | https://www.ernestinhocarioca.com.br/gastronomia/amir/ | 4 | Pendiente / En revisión / En revisión / Pendiente | 72090b48af7e749f9a794018c4c242bdc7885ff2 | Pendiente de auditoría de producción |
-| 46 | https://www.ernestinhocarioca.com.br/gastronomia/bracarense/ | 3 | Pendiente / En revisión / En revisión / Pendiente | 5251c224729e4fccb3bc6c5f0928777469d2e479 | Pendiente de auditoría de producción |
-| 47 | https://www.ernestinhocarioca.com.br/gastronomia/canton/ | 3 | Pendiente / En revisión / En revisión / Pendiente | 1ef90c65f0a76bdfb7a271fcbc15e295457c4270 | Pendiente de auditoría de producción |
-| 48 | https://www.ernestinhocarioca.com.br/gastronomia/espetto-quiosque/ | 3 | Pendiente / Pendiente / Pendiente / Pendiente | 1bc3589f25032ce077a5dfa2c944a7dd3a53d119 | Pendiente de auditoría de producción |
-| 49 | https://www.ernestinhocarioca.com.br/gastronomia/esquimo/ | 3 | Pendiente / En revisión / En revisión / Pendiente | 97f3e88b454d148e34a44e1b142216b786d3c62d | Pendiente de auditoría de producción |
-| 50 | https://www.ernestinhocarioca.com.br/gastronomia/alfaia/ | 2 | Pendiente / Pendiente / Pendiente / Pendiente | d584703d3829e37e621f4a3db494385bba2bd2ce | Pendiente de auditoría de producción |
+| 46 | https://www.ernestinhocarioca.com.br/gastronomia/bracarense/ | 40 | Auditada; indexada / Incompleta / Incompleta / FR inexistente | 5251c224729e4fccb3bc6c5f0928777469d2e479 | HTML ES/PT/EN 18/16/16 párrafos; 8/18 PT y 8/18 EN coinciden literalmente con ES; descriptions PT/EN siguen en español. GSC 3/3 indexadas/fetch/canonical OK; FR no existe. Incompleta. |
+| 47 | https://www.ernestinhocarioca.com.br/gastronomia/canton/ | 51 | Auditada; indexada / Incompleta / Incompleta / FR inexistente | 1ef90c65f0a76bdfb7a271fcbc15e295457c4270 | HTML 25/25/25; 7/25 párrafos PT y EN coinciden literalmente con ES; descriptions PT/EN en español. El título HTML EN contiene prefijos ZX000–ZX042; visibilidad runtime pendiente. GSC 3/3 indexadas/fetch/canonical OK; FR no existe. Incompleta. |
+| 48 | https://www.ernestinhocarioca.com.br/gastronomia/espetto-quiosque/ | 80 | Auditada; indexada / En revisión / En revisión / FR inexistente | 1bc3589f25032ce077a5dfa2c944a7dd3a53d119 | HTML 15/15/15; 2/15 PT y 1/15 EN coinciden literalmente con ES; descriptions PT/EN en español. GSC 3/3 indexadas/fetch/canonical OK; FR no existe. Incompleta. |
+| 49 | https://www.ernestinhocarioca.com.br/gastronomia/esquimo/ | 43 | Auditada; indexada / En revisión / En revisión / FR inexistente | 97f3e88b454d148e34a44e1b142216b786d3c62d | HTML 32/32/32; 8/32 párrafos PT y EN coinciden literalmente con ES; descriptions PT/EN en español. Reapertura/dirección requieren confirmación. GSC 3/3 indexadas/fetch/canonical OK; FR no existe. Incompleta. |
+| 50 | https://www.ernestinhocarioca.com.br/gastronomia/alfaia/ | 72 | Auditada; indexada / En revisión con marcador / En revisión con marcador / FR inexistente | d584703d3829e37e621f4a3db494385bba2bd2ce | HTML 23/23/23; PT/EN contienen el marcador literal “Translation results”; 2/23 EN coinciden con ES. Descriptions PT/EN en español. GSC 3/3 indexadas/fetch/canonical OK; FR no existe. Incompleta. |
 
-**Punto durable:** tanda 2 con 50 fichas exactas; 1/50 auditada, 0/50 completas, 0/50 publicadas, 49 por trabajar. Próxima #2: `/gastronomia/mee/` según GSC. No contar nada sin PT/EN/FR completos y QA integral.
+**Corrección de continuidad:** la tabla de esta tanda contiene 50 fichas y, tras verificar las filas #46–#50, las 50/50 están auditadas en producción. Ninguna reúne aún el criterio estricto PT/EN/FR + render real + QA de contenido/SEO + incremento + sitemap/canonical/hreflang + capturas: 0/50 completas y 0/50 publicadas. No sumar auditorías suplementarias a esta tanda.
 
 
 ## Auditoría de producción — Mee (segunda tanda, ficha 2/50; 15/11/2026)
@@ -1412,12 +1412,53 @@ GSC final (2026-10-16–11-12): ES 67 imp./0 clics/posición 20,4; PT sin fila; 
 - GSC 2026-10-16–2026-11-12: ES 141 impresiones/0 clics/posición 7,7; PT 17/0/5,4; EN 39/0/8,9. Periodo anterior: ES 59/0/7,1; PT sin fila; EN 60/0/7,7. Volumen observado 197 frente a 119; no atribuir causa a traducciones ni a indexación.
 - Estado ES/PT/EN en revisión editorial, FR pendiente/no existe. Faltan QA semántico integral, alt/enlaces, renderer, capturas 1440/390 e incremental/guard. No completa ni publicada.
 - Contabilidad tanda 2: 45/50 auditadas; 0/50 completas; 0 publicadas; 5 pendientes. Siguiente candidata: Rotisseria Sírio-Libanesa (264 impresiones del corte amplio previo); volver a medir.
-## Auditoría de producción — Rotisseria Sírio Libaneza (ficha 46/50 de la tanda 2; 15/11/2026)
+## Auditorías de producción — fichas 46–50 de la tanda 2 (15/11/2026)
 
-- Ruta ES: https://www.ernestinhocarioca.com.br/gastronomia/rotisseria-sirio-libanesa/ (variantes `/pt/` y `/en/`). Hostinger se verificó contra `revision/rendimiento-traducciones-81a904c`, SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`.
-- HTML servido: 21 párrafos ES/PT-BR/EN, H1 y títulos conservados. El cotejo ya registrado detectó 10/21 párrafos de PT y 10/21 de EN iguales literalmente a ES; la relectura directa confirmó la repetición literal del primer párrafo PT/ES. El runtime no se inspeccionó, así que esto no se afirma como resultado visual definitivo. Canonical por idioma y alternates es/pt-BR/en/x-default presentes. Conteo anterior: 7 href ES frente a 4 PT y 4 EN; nueve URLs de imagen únicas compartidas, 15/14/14 ocurrencias y dos alt vacíos observados en cada HTML. No se tocaron fotos ni enlaces.
-- Google Search Console, 2026-10-16–2026-11-12: ES 43 impresiones/0 clics/posición 11,0; PT 105/0/8,6; EN 28/0/16,4. Total 176 impresiones frente a 88 en la ventana anterior. Las inspecciones ES/PT/EN pasaron 3/3: enviadas e indexadas, robots permitido, fetch exitoso, canonical de Google igual a la declarada. Rastreo ES 23-oct; PT 04-oct; EN 04-oct. No hay error confirmado de indexación.
-- FR: el archivo no existe en el document root de Hostinger (HTTP 422); no se cuenta como idioma disponible ni indexable.
-- Estado: ES revisada; PT/EN requieren recuperación/cotejo editorial porque hay texto duplicado en el HTML; FR pendiente. Falta revisar historia/diccionarios, semantic QA completo, runtime, enlaces, build incremental/guard y capturas 1440/390. No completa, no publicada; ningún cambio de código aplicado.
+Producción comprobada directamente en Hostinger, rama revision/rendimiento-traducciones-81a904c, SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. Los SHA indicados son blobs HTML ES de esa rama, revalidados en GitHub. En las cinco fichas FR no existe en Hostinger (HTTP 422). OpenSEO/Search Console inspeccionó las 15 URL ES/PT/EN: todas constan Submitted and indexed, robots allowed, fetch successful y canonical de Google igual a la declarada. No se confirma error de indexación en estas fichas.
 
-**Contabilidad de esta tanda:** 46/50 fichas auditadas; 0/50 completas con el criterio estricto PT/EN/FR + QA integral; 0/50 publicadas; quedan cuatro. Cola siguiente por prioridad actual de GSC (2026-10-16–2026-11-12): Spicy Fish (ES351, PT25, EN5); Fogo de Chão Botafogo (ES271, PT21, EN19); Delírio Tropical Rio Sul (ES46, PT196, EN2; ruta sin slash también 17); y K08 (ES44, PT16, EN22). Amendoeira marca ES187/PT8 y queda primera prioridad del lote siguiente. Dumaré Copa ya está auditada como ficha 10/50, no se repetirá en este cierre.
+### #46 Bracarense — /gastronomia/bracarense/
+- Blob ES producción: 5251c224729e4fccb3bc6c5f0928777469d2e479. Párrafos ES/PT/EN: 18/16/16; 8/18 PT y 8/18 EN coinciden literalmente con ES. El HTML estático conserva párrafos en español; el estado posterior al runtime no se afirma.
+- Títulos PT/EN localizados; descripción meta PT/EN en español. Canonical por idioma y hreflang ES/PT-BR/EN/x-default propios. Imágenes 12/11/11, diez URLs únicas, dos alt vacíos por variante; enlaces únicos ES/PT/EN 21/9/9.
+- GSC 16-oct–12-nov: ES 23 impresiones/0 clics/posición 11,7; PT 14/0/10,2; EN 3/0/3,7. FR ausente.
+- Estado: auditada en producción; contenido y FR incompletos; historial, semántica/runtime, alt/enlaces, build/guard y capturas 1440/390 pendientes.
+
+### #47 Cantón — /gastronomia/canton/
+- Blob ES producción: 1ef90c65f0a76bdfb7a271fcbc15e295457c4270. Párrafos 25/25/25; 7/25 PT y 7/25 EN idénticos a ES. El título extraído del HTML EN contiene prefijos ZX000–ZX042 ante títulos/alt/texto de secciones. Su visibilidad en runtime queda pendiente; no se afirma como defecto visible confirmado.
+- Títulos PT/EN localizados, H1 conserva el nombre; description PT/EN en español. Canonical/hreflang propios. Imágenes 12/11/11, diez fuentes únicas, dos alt vacíos por variante; enlaces únicos 22/10/10.
+- GSC: ES 39/0/16,0; PT 9/0/8,3; EN 3/0/5,3. 3/3 indexadas; resultado enriquecido Breadcrumbs contiene “Unnamed item” (alerta estructurada, no error de indexación). FR ausente.
+- Estado: auditada; confirmar el prefijo ZX en runtime, traducir descripción/contenido, más semántica, historia, alts/enlaces, build/guard y capturas pendientes.
+
+### #48 Espetto Carioca Quiosque — /gastronomia/espetto-quiosque/
+- Blob ES producción: 1bc3589f25032ce077a5dfa2c944a7dd3a53d119. 15 párrafos por idioma; 2/15 PT y 1/15 EN idénticos a ES. Titles/H1 localizados; description PT/EN en español. Canonical/hreflang propios.
+- Imágenes 10/10/10, ocho URLs únicas, dos alt vacíos por variante; enlaces únicos 22/22/22.
+- GSC: ES 64/0/8,5; PT 13/0/5,9; EN 3/0/6,0. 3/3 indexadas, fetch y canonical correctos. FR ausente.
+- Estado: auditada; falta QA semántico, metadatos, runtime, histórico, alts, incremental/guard y capturas.
+
+### #49 Esquimó — /gastronomia/esquimo/
+- Blob ES producción: 97f3e88b454d148e34a44e1b142216b786d3c62d. Párrafos 32/32/32; 8/32 PT y 8/32 EN idénticos a ES. Títulos localizados, H1 mantiene el nombre; description PT/EN en español. Canonical/hreflang propios.
+- Imágenes 9/8/8, siete fuentes únicas, dos alt vacíos por variante; enlaces únicos 21/9/9. El contenido lo trata como referencia histórica y advierte que hace falta confirmar reapertura y dirección. No presentar la operación actual como confirmada sin fuente vigente.
+- GSC: ES 28/0/18,8; PT 12/0/8,7; EN 3/0/17,7. 3/3 indexadas, fetch y canonical correctos. FR ausente.
+- Estado: auditada; vigencia comercial es bloqueo de publicación, además de FR, revisión editorial, runtime, histórico, metadatos/alt, guard/build y capturas.
+
+### #50 Alfaia — /gastronomia/alfaia/
+- Blob ES producción: d584703d3829e37e621f4a3db494385bba2bd2ce. Párrafos 23/23/23; marcador literal Translation results en el segundo párrafo PT y EN; 2/23 párrafos EN idénticos a ES. No se inspeccionó DOM ejecutado, por lo que la visibilidad del marcador está pendiente.
+- Titles localizados, H1 con nombre comercial; descriptions PT/EN en español. Canonical/hreflang propios. Imágenes 11/10/10, nueve fuentes únicas, dos alt vacíos por variante; enlaces únicos 22/10/10.
+- GSC: ES 47/0/11,7; PT 23/0/8,6; EN 2/0/6,5. 3/3 indexadas, fetch y canonical correctos. FR ausente.
+- Estado: auditada; marcador y descripción requieren cotejo editorial; FR, semántica/runtime, histórico, alt/enlaces, build/guard y capturas pendientes.
+
+**Cierre de la tanda 2:** 50/50 URLs de la tabla auditadas en Hostinger/GSC; 0/50 completas con el criterio exigido; 0/50 publicadas. No se editó código ni se cambiaron fotos, enlaces o renderers. Producción Hostinger permanece intacta. Rotisseria, Spicy Fish, Fogo de Chão Botafogo, Delírio Tropical Rio Sul y K08 son auditorías suplementarias y no cuentan dentro de estas 50.
+
+## Auditoría suplementaria — Rotisseria Sírio Libaneza (fuera de la tanda vigente; 15/11/2026)
+
+- Ruta ES https://www.ernestinhocarioca.com.br/gastronomia/rotisseria-sirio-libanesa/ (variantes /pt/ y /en/). Producción Hostinger revision/rendimiento-traducciones-81a904c, SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346.
+- HTML: 21 párrafos ES/PT-BR/EN; 10/21 PT y 10/21 EN iguales literalmente a ES. Runtime no inspeccionado. Canonical por idioma y alternates es/pt-BR/en/x-default presentes; nueve URLs de imagen únicas compartidas, 15/14/14 ocurrencias, dos alt vacíos por variante; enlaces únicos 7/4/4.
+- GSC 16-oct–12-nov: ES 43/0/11,0; PT 105/0/8,6; EN 28/0/16,4. 3/3 indexadas con fetch/canonical correctos. FR no existe.
+- Estado: auditoría suplementaria, no cuenta como #46 ni ficha completa. Falta cotejo histórico/semántico, FR, runtime, build/guard y capturas 1440/390.
+
+## Recuento actualizado de inventarios y rendimiento — 15/11/2026
+
+- Hostinger production revision/rendimiento-traducciones-81a904c sigue en 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. Sitemap leído directamente: **3.588 URL loc únicas**, 1.196 ES + 1.196 PT + 1.196 EN; 0 FR.
+- Listado paginado de document root: 8.056 entradas; 3.661 index.html, de los cuales 28 dentro de dist/ y **3.633 fuera de dist/**. La diferencia contra el sitemap es 45 HTML fuera de dist. Esto no demuestra que las 3.633 URLs sean indexables: el sitemap es la referencia de inclusión; se deben conciliar las 45 adicionales (noindex, redirecciones, legado u otros documentos). La referencia anterior de 3.612 documentos no quedó corroborada. INVENTARIO_URLS.json contiene 595 registros normales y no es un inventario íntegro del árbol HTML.
+- OpenSEO/Search Console, propiedad verificada, final 2026-10-16–2026-11-12: 81.753 impresiones/373 clics, frente a 26.229/132 en 2026-09-18–2026-10-15. Dentro de la ventana actual: 16–29 oct 39.143/157; 30 oct–12 nov 42.610/216. El periodo comparativo anterior tiene mucho menor volumen al comienzo; no atribuir causa ni leerlo como tendencia limpia. Las inspecciones de las 15 variantes ES/PT/EN de estas cinco fichas pasan; los hallazgos descritos son de contenido, no errores de indexación confirmados.
+- PR #36 continúa abierto sobre producción pero no es pequeño (83 archivos modificados según el último snapshot) y no tiene reviewer independiente. Su Vercel check falló por build-rate-limit; el runtime del preview protegido no se pudo comprobar. No fusionar ni publicar hasta tener PR acotado, checks normales, QA completa y revisión humana.
+
