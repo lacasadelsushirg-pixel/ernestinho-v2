@@ -302,7 +302,7 @@ Corte de priorización: Search Console final, 2026-10-16–11-12, páginas de Ga
 | 10 | https://www.ernestinhocarioca.com.br/gastronomia/zaza-bistro-tropical/ | P/R/R/R | 481 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 11 | https://www.ernestinhocarioca.com.br/gastronomia/terra-brasilis/ | P/P/P/P | 451 / 3 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 12 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-lido/ | P/R/R/P | 447 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
-| 13 | https://www.ernestinhocarioca.com.br/gastronomia/ | P/R/P/P | 411 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 13 | https://www.ernestinhocarioca.com.br/gastronomia/cais-do-oriente/ | P/R/R/P | 121 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 14 | https://www.ernestinhocarioca.com.br/gastronomia/galeto-sats/ | P/P/P/P | 360 / 4 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 15 | https://www.ernestinhocarioca.com.br/gastronomia/haru/ | P/R/R/P | 313 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 16 | https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/ | P/R/R/R | 272 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
@@ -315,7 +315,7 @@ Corte de priorización: Search Console final, 2026-10-16–11-12, páginas de Ga
 | 23 | https://www.ernestinhocarioca.com.br/gastronomia/oteque/ | P/R/R/R | 210 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 24 | https://www.ernestinhocarioca.com.br/gastronomia/cipriani/ | P/P/R/P | 208 / 3 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 25 | https://www.ernestinhocarioca.com.br/gastronomia/temperarte-bolivar/ | P/R/R/P | 197 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
-| 26 | https://www.ernestinhocarioca.com.br/gastronomia/fast-food/ | P/P/P/P | 194 / 2 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
+| 26 | https://www.ernestinhocarioca.com.br/gastronomia/casa-mohamed/ | P/R/R/P | 122 / 1 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 27 | https://www.ernestinhocarioca.com.br/gastronomia/merci/ | P/P/P/P | 193 / 2 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 28 | https://www.ernestinhocarioca.com.br/gastronomia/cafe-lamas/ | P/R/R/R | 183 / 0 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
 | 29 | https://www.ernestinhocarioca.com.br/gastronomia/lasai/ | U/U/U/P | 180 / 2 | Pendiente de revalidar en esta ejecución; prod 21bb687; sin candidato comprobado |
