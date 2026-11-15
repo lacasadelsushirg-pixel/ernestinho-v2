@@ -683,3 +683,17 @@ Hostinger producción revision/rendimiento-traducciones-81a904c, commit 21bb6877
 Ficha no completa: faltan traducción editorial íntegra de los nueve bloques en PT/EN, cotejo histórico, FR, verificación de renderizador, QA semántico, build incremental/guard y capturas aprobadas 1440/390. No es publicable ni se cuenta validada a cuatro idiomas. Producción queda intacta.
 
 **Contabilidad canónica que sustituye al corte anterior:** 35/50 auditadas, 0/50 completas, 0/50 nuevas publicadas en Hostinger, 15 pendientes. Próxima ruta candidata por impresiones de las pendientes: /gastronomia/rampinha/ (96 impresiones ES en el periodo final; verificar GSC e inventario antes de intervenir). CSV actualizado en commit 5aff3aaea9cde1ce505128d57cd6ab214e8d0ec6.
+
+## Auditoría de producción — Rampinha (corte 36/50, 15/11/2026)
+
+Producción Hostinger en revision/rendimiento-traducciones-81a904c, commit 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. ES/PT/EN leídos; FR no existe en hosting. Blob GitHub del HTML ES: e2a420af58c52f668b58974afcef623de6180836.
+
+- Alerta editorial confirmada en HTML estático: 29 párrafos por variante; diez bloques PT y diez EN son texto español exacto. Incluyen información de localización, trayectoria y oferta del restaurante. Además, dos H2 de ampliación (“Notas adicionales de la guía V2” e “Información adicional conservada de la ficha V2”) siguen en español en PT/EN. Necesita rescatar diccionario/historial y traducción integral de esos pasajes, sin alterar el original ES.
+- H1 y metadatos de título/descripción están localizados; nueve H2 originales traducidos. Canonical propio y alternates de cabecera es/pt-BR/en/x-default. Sin FR.
+- 9/8/8 tags img y siete fuentes únicas reportadas; el set exacto de fuentes aún requiere comparación. Alts descriptivos 7/9 en ES y 6/8 en PT/EN. Hrefs únicos 20 ES vs 8 PT y 8 EN: faltan cotejar destinos y contexto; no se modificaron enlaces ni fotos.
+- GSC final (16-oct–12-nov): ES 96 impresiones/1 clic/pos. 9,8; PT 4/0/8,0; EN 6/0/7,2 (106 impresiones). Periodo previo (18-sep–15-oct): ES 22 y PT 6 (28 observadas); EN sin fila. La comparación tiene cobertura distinta y no permite atribuir pérdida de rendimiento.
+- Inspección GSC: 3/3 variantes ES/PT/EN PASS, enviadas/indexadas, robots ALLOWED, fetch SUCCESSFUL, canonical Google=user; FR URL desconocida. Breadcrumb detecta item sin nombre: alerta estructurada separada de indexación.
+
+Ficha incompleta y no publicable: traducción PT/EN, FR, cotejo histórico, href, alts, QA semántico/runtime, build incremental, guard y capturas 1440/390 pendientes. No completa ni publicada; Hostinger intacto.
+
+**Contabilidad canónica que sustituye al corte anterior:** 36/50 auditadas, 0 completas, 0 nuevas publicadas, 14 pendientes. Próxima candidata: seleccionar por impresiones actuales entre las 14 pendientes restantes y excluir las rutas ya auditadas en esta tanda; no asumir que la próxima referencia histórica sigue libre. CSV actualizado en commit e6cfb577e3c508f0a75b9b4ec3adeffe1e061658.
