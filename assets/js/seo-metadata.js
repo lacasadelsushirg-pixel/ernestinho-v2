@@ -834,6 +834,11 @@ Object.assign(SEO_METADATA, {
     ES: ['Haru Sushi Bar: guía completa | Ernestinho Carioca', 'Guía editorial de Haru Sushi Bar en Río: identidad, historia, qué pedir, horarios, precios, transporte y mapa.'],
     PT: ['Haru Sushi Bar em Copacabana | Ernestinho Carioca', 'Haru Sushi Bar em Copacabana: guia de sushi, seleção do chef, horários, preços, como chegar e mapa.'],
     EN: ['Haru Sushi Bar in Copacabana | Ernestinho Carioca', 'Haru Sushi Bar in Copacabana: a guide to sushi, the chef’s selection, opening hours, prices, directions and map.']
+  },
+  '/gastronomia/fogo-de-chao-botafogo/': {
+    ES: ['Fogo de Chão Botafogo: guía completa | Ernestinho Carioca', 'Guía completa de Fogo de Chão Botafogo en Río: identidad, carta, horarios, mapa, fotografías y consejos de Ernestinho Carioca.'],
+    PT: ['Fogo de Chão Botafogo: guia completo | Ernestinho Carioca', 'Guia do Fogo de Chão Botafogo no Rio: identidade, cardápio, horários, mapa, fotos e dicas de Ernestinho Carioca.'],
+    EN: ['Fogo de Chão Botafogo: complete guide | Ernestinho Carioca', 'A guide to Fogo de Chão Botafogo in Rio: its identity, menu, hours, map, photos and tips from Ernestinho Carioca.']
   }
 });
 export function applySeoMetadata(language, route = routeParts().path) {
