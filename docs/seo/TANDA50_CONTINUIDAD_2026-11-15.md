@@ -1043,3 +1043,13 @@ Cinco imágenes, tres alts con texto, 25 enlaces por variante; el cotejo de fuen
 **Estado:** contenido PT/EN parcialmente localizable a fuente histórica; una igualdad literal por idioma y title con categoría ES; FR ausente. Ficha incompleta/no publicable. Faltan cotejar bloque residual, adaptar títulos, validar todo semánticamente, completar FR, revisar enlaces/medios, ejecutar build/guard y aprobar capturas 1440/390. Ningún cambio en Hostinger. CSV `14533f8416826f8ebf1d8c0b60e9ff78cb623bcc`.
 
 **Punto durable:** tanda 2 con 50 URL, 10/50 auditadas, 0 completas y 0 publicadas; 40 pendientes. Siguiente #11: `/gastronomia/bar-luiz/`, HTML ES blob `cfc4b7c6d35a55ee808456ae1b68d65b846ffc2b`.
+
+## Auditoría de producción — Bar Luiz (segunda tanda, ficha 11/50; 15/11/2026)
+
+Hostinger producción confirmada en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; HTML ES blob `cfc4b7c6d35a55ee808456ae1b68d65b846ffc2b`. ES/PT-BR/EN muestran 17 párrafos por idioma, cero coincidencias literales entre PT/EN y ES. Title y descripción están localizados en los tres idiomas; canonical propio y alternates es/pt-BR/en/x-default correctos; FR no se encuentra bajo `fr/gastronomia/bar-luiz/`. No hallé el nombre Bar Luiz en los chunks gastronómicos productivos consultados (gastronomia-01/02/03 y rio-residual-gastronomia-01), por lo que el origen histórico y la equivalencia semántica aún no pueden darse por acreditados.
+
+Hay 12 imágenes, 10 alts con texto y 24 enlaces por variante; igualdad de fuentes y destinos no auditada todavía. GSC final (2026-10-16–11-12): ES 46 impresiones/1 clic/posición 9,5; PT/EN sin filas. Periodo previo ES 13/0/6,3; aumentaron impresiones y empeoró la posición promedio. Inspección ES PASS, indexada, fetch exitoso y canonical Google=declarado. PT dice “Google no reconoce esta URL”; EN “Descubierta: actualmente sin indexar”, sin rastreo ni canonical resuelto. Son estados de cobertura que requieren seguimiento, no errores técnicos confirmados. GSC reporta breadcrumb “Elemento sin nombre” para ES/EN, alerta estructurada pendiente y distinta del estado de indexación.
+
+**Estado:** ES auditada; PT/EN no tienen bloques literales ES, pero falta comprobar la fuente y significado; FR ausente; incompleta/no publicable. Pendiente localizar histórico original, QA semántico de párrafos/metadata/alt, FR completa, enlaces/fotos, runtime/build incremental/guard y capturas 1440/390. No hubo cambios en Hostinger. CSV actualizado en `0f594190d55835cf068b774c03750c480c386506`.
+
+**Punto durable:** tanda 2 de 50 exactas: 11/50 auditadas, 0 completas, 0 publicadas, 39 pendientes. Próxima #12: `/gastronomia/cabanna/`, blob HTML ES producción `9b48bcb19240242a3e81e0c9c3e95cd54548e6c6`.
