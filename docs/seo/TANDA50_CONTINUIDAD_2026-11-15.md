@@ -1093,3 +1093,13 @@ Producción Hostinger `revision/rendimiento-traducciones-81a904c` en `21bb68772f
 **Estado:** cuerpo PT/EN sin bloques literales ES, pero title incompleto y fuente/QA semántica pendientes; FR ausente. No completa/no publicable. Pendientes: recuperar fuente y comparar el contenido, traducir metadata residual, FR integral, revisar alts/enlaces/fotos, ejecutar build y guard y aprobar capturas 1440/390. Hostinger sin cambios. CSV `23ec59ceb5caeac0b79b426b03ce0fd2f0285f69`.
 
 **Punto durable:** tanda 2 con 50 URL; 15/50 auditadas, 0 completas, 0 publicadas, 35 pendientes. Próxima #16 `/gastronomia/classico-leme/`, blob HTML ES de producción `4ab5e62c48b0f9ed4fb0c8c9f5e578271ea20f20`.
+
+## Auditoría de producción — Clássico Beach Club Leme (segunda tanda, ficha 16/50; 15/11/2026)
+
+Hostinger producción, rama `revision/rendimiento-traducciones-81a904c`, HEAD `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; HTML ES blob `4ab5e62c48b0f9ed4fb0c8c9c5e578271ea20f20` (ref. de cola: `4ab5e62c48b0f9ed4fb0c8c9c5e578271ea20f20`; el blob comprobado por API es `4ab5e62c48b0f9ed4fb0c8c9f5e578271ea20f20`). Las páginas ES/PT/EN tienen 25 párrafos; uno en cada PT/EN es literalmente ES y queda por cotejar (el resto no contiene igualdad literal). Title y description están localizados, H1 conserva el nombre propio; canonical propio y alternates es/pt-BR/en/x-default correctos. FR no aparece en la ruta consultada ni se enlaza. No encontré ficha específica en los cuatro chunks productivos consultados, así que la fuente histórica y fidelidad semántica no se dan por aprobadas.
+
+Hay 12 imágenes, 10 alts con texto y 26 enlaces por idioma; el cotejo de fuentes, destinos y alts queda pendiente. GSC final (2026-10-16–11-12): ES 42 impresiones/1 clic/posición 9,4; PT/EN sin filas. Periodo previo ES 18/0/7,3; suben impresiones y empeora la posición. Inspección ES PASS, indexada, fetch exitoso y canonical Google=declarado. PT “Descubierta: actualmente sin indexar”; EN “Google no reconoce esta URL”, ambos sin fetch/canonical establecido; estados de cobertura/rastreo, no errores técnicos confirmados. GSC rich result señala un breadcrumb “Elemento sin nombre”; alerta estructurada, no fallo de indexación.
+
+**Estado:** ES auditada; PT/EN con un bloque residual literal y origen/QA semántico pendientes; FR ausente; no cuenta completa/no publicable. Falta fuente fiel, cotejo editorial, FR íntegro, paridad de medios/enlaces, build incremental/guard y capturas 1440/390. Producción intacta. CSV `ec660ad1fc307cc4ade0b20faeffb5598f038552`.
+
+**Punto durable:** tanda 2 de 50, 16/50 auditadas, 0 completas, 0 publicadas, 34 pendientes. Próxima #17 `/gastronomia/casa-porto/`, blob HTML ES producción `a763223f928ef4eaef4889c0d8a88ad8ffa50f88`.
