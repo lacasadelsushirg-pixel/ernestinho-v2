@@ -101,6 +101,15 @@
       "checked_strings": 56,
       "missing_keys": 0,
       "qa": "Traduction complète des contenus éditoriaux, métadonnées et alternatives. Aperçu privé à tester à 390 px et 1440 px ; menu, prix, réservations et conditions alimentaires à confirmer."
+    },
+    {
+      "route": "/gastronomia/nido-ristorante/",
+      "source_sha": "911d8d52f3b937ddf966be098c23009eee45142c",
+      "file": "assets/js/translations/fr/gastronomia-nido-ristorante-paralelo.json",
+      "entries": 52,
+      "checked_strings": 52,
+      "missing_keys": 0,
+      "qa": "Traduction complète des chaînes, informations éditoriales, métadonnées et textes alternatifs. Aperçu privé à tester à 390 px et 1440 px ; prix, horaires et réservation à vérifier."
     }
   ],
   "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."
