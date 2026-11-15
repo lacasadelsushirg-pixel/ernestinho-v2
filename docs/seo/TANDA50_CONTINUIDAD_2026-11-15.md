@@ -572,3 +572,14 @@ Se relevaron nuevamente los HTML ES/PT-BR/EN de Hostinger. El ES del espejo de p
 - Falta FR integral, revisar semánticamente metadatos y alts, y ejecutar build/guard y capturas aprobadas 1440/390. No completa.
 
 **Contabilidad que sustituye el corte anterior:** 26/50 auditadas en este ciclo; 0/50 completas; 0/50 nuevas publicadas en Hostinger; 24 restantes. Próxima prioridad por la cola GSC: `/gastronomia/zaza-bistro-tropical/`; revalidar sus datos antes de usar.
+
+## Auditoría de producción — Zazá Bistrô Tropical (corte del run, 15/11/2026)
+
+Hostinger ES/PT-BR/EN revisado; el HTML ES de producción tiene blob SHA `3c81194462752ddc241b1cad847785ef44b5ec4a` sobre la rama productiva `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. FR no existe en Hostinger y GSC no reconoce la URL.
+
+- ES tiene 20 párrafos; PT/EN tienen 19 cada uno y ocho párrafos de cada variante coinciden literalmente con ES. Esto es alerta concreta para cotejo editorial, no dictamen semántico. Los títulos están localizados, pero la descripción HTML sigue en español en los tres idiomas. Los alts descriptivos observados para PT/EN siguen en español.
+- H1 1/H2 11. Imágenes: 13 ES, 12 PT y 12 EN; 11 fuentes únicas iguales (no evidencia de foto perdida). Hrefs únicos ES/PT/EN: 18/7/7; faltan 11 destinos de ES en PT/EN, sin modificar enlaces. Canonical propio y alternates es/pt-BR/en/x-default.
+- GSC final (16-oct–12-nov): ES 393 imp/0 clic/pos 7,0; PT 55/0/14,1; EN 33/0/9,4 (481 impresiones). Periodo previo solo ES 63 imp/2 clic/CTR 3,17%/pos 6,4. No hubo pérdida de impresiones ES; la posición media varía sin causalidad atribuida. Las tres URLs se reportan enviadas/indexadas, fetch exitoso y canonical Google igual al declarado. FR desconocida.
+- Falta recuperar/revisar texto PT/EN, alts, description, FR integral y QA semántico. No se pudo correr build/guard ni capturas aprobadas 1440/390 en este entorno sin checkout. No completa; producción intacta.
+
+**Contabilidad que sustituye el corte anterior:** 27/50 auditadas en este ciclo; 0/50 completas; 0/50 nuevas publicadas; 23 pendientes. Siguiente ficha según la cola GSC de esta tanda: revisar la fila 11 de la tabla priorizada y revalidar impresión/estado antes de auditar.
