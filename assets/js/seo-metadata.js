@@ -829,6 +829,11 @@ Object.assign(SEO_METADATA, {
     ES: ['Boa Praça Leblon | Ernestinho Carioca', 'Fotos e información oficial de Boteco Boa Praça, unidad Leblon.'],
     PT: ['Boa Praça Leblon | Ernestinho Carioca', 'Fotos e informações oficiais do Boteco Boa Praça, unidade de Leblon.'],
     EN: ['Boa Praça Leblon | Ernestinho Carioca', 'Official photos and information about the Boteco Boa Praça venue in Leblon.']
+  },
+  '/gastronomia/haru/': {
+    ES: ['Haru Sushi Bar: guía completa | Ernestinho Carioca', 'Guía editorial de Haru Sushi Bar en Río: identidad, historia, qué pedir, horarios, precios, transporte y mapa.'],
+    PT: ['Haru Sushi Bar em Copacabana | Ernestinho Carioca', 'Haru Sushi Bar em Copacabana: guia de sushi, seleção do chef, horários, preços, como chegar e mapa.'],
+    EN: ['Haru Sushi Bar in Copacabana | Ernestinho Carioca', 'Haru Sushi Bar in Copacabana: a guide to sushi, the chef’s selection, opening hours, prices, directions and map.']
   }
 });
 export function applySeoMetadata(language, route = routeParts().path) {
