@@ -1,3 +1,21 @@
+## Actualización operativa — 15/11/2026 (preparación de preview incremental)
+
+### Estado comprobado
+- Hostinger sigue en producción `revision/rendimiento-traducciones-81a904c`, HEAD `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; lectura de `pt/gastronomia/amendoeira/index.html` confirma 24 párrafos, de los cuales el primer resumen está en PT-BR y los 23 párrafos editoriales siguientes siguen en español. El título y la descripción PT ya están localizados en producción; no los cuento como recuperación de este candidato.
+- Código candidato PT/EN con la corrección de rótulos está en PR #36, commit `f88e1e65671e2ac8e02781cf9317bdfad103d7ee`. La salida de ese commit aún no se pudo revisar: Vercel empezó el build completo, mostró `Build mode: full; rendering 3612 of 3612 locale pages` y se canceló tras 200/3612. Check de Vercel cancelado; Hostinger intacto.
+- Este commit cambia `vercel.json` únicamente para usar modo `--routes` en el entorno Vercel Preview; lista las cinco candidatas activas Don Camillo, Bar do Omar, Spicy Fish, Dumaré y Amendoeira. El command de producción Vercel sigue siendo `npm run build`. Se esperan 15 HTML ES/PT/EN, sin FR y sin sitemap en ese preview piloto. Hostinger no usa este comando para publicar.
+- El preview sigue siendo privado. No se añade francés, no se cambia HTML/fotos/mapas/enlaces/widgets y no se considera publicado nada.
+
+### Search Console/OpenSEO confirmado
+- Proyecto `7172f2fb-7456-4b35-b581-d9b11c0040f4`, propiedad principal, búsqueda web final 2026-08-12–2026-11-12. Chama Rio Copacabana: PT 995 impresiones/3 clics/posición 6,9; EN 67/0/9,6; ES no devuelve fila de impresiones (total observado 1.062). Amendoeira: ES 195/1/9,6; PT 112/0/9,1; EN 3/0/10,7 (310).
+- Inspección de 10 URLs de Chama, Amendoeira, Don Camillo y Bar do Omar: 9 «Enviada e indexada», rastreo permitido, fetch exitoso y canonical Google igual al declarado. Chama ES es «Descubierta: actualmente sin indexar»; sin fetch ni canonical reportados. Es exclusión de descubrimiento observada, no error confirmado. Los breadcrumbs devuelven Rich Results PASS, aunque algunas inspecciones muestran un elemento sin nombre (alerta separada).
+
+### Conteo y continuación
+- Estado estricto de tanda: **0/50 fichas completas ES/PT-BR/EN/FR con QA aprobado; 0 cambios nuevos publicados en Hostinger**. Amendoeira continúa parcial PT/EN; FR y QA móvil pendientes.
+- Siguiente ejecución: verificar que este preview solo genere 15 HTML, no sitemap y no FR; comprobar las cinco URLs ES/PT/EN, canonical/hreflang, textos, carga de medios y enlaces. Hacer capturas 1440/390 antes/después; no marcar ninguna ficha hasta aprobarlas. Después actualizar este informe, el JSON, el inventario maestro y el punto de continuación con los resultados reales.
+- El commit local histórico `332a700d` no se encontró en ramas ni objetos remotos revisados y no se le atribuye trabajo.
+
+---
 # Bar da Amendoeira — recuperación PT-BR/EN y estado de QA (15/11/2026)
 
 ## Resultado del sublote

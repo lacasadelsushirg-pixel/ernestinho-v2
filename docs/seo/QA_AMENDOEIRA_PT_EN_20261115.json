@@ -6,13 +6,42 @@
     "branch": "revision/rendimiento-traducciones-81a904c",
     "head": "21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346",
     "sourceHtmlBlob": "b3ed0ef51003d906992bc10b0d086b7304907627",
-    "publishedChangesThisSublot": 0
+    "publishedChangesThisSublot": 0,
+    "observedCurrentPublishedHtml": {
+      "path": "pt/gastronomia/amendoeira/index.html",
+      "paragraphs": 24,
+      "paragraphsPortugueseSummary": 1,
+      "editorialParagraphsStillSpanish": 23,
+      "titleAndDescriptionLocalized": true
+    },
+    "indexation": {
+      "amendoeiraVariants": "all 3 submitted and indexed; fetch successful; Google canonical matches declared",
+      "chamaEs": "Discovered: currently not indexed; no fetch/canonical reported; not classified as confirmed error",
+      "gscPeriod": "2026-08-12/2026-11-12"
+    }
   },
   "candidate": {
     "pr": 36,
     "branch": "release/cervantes-pt-en-20261115",
     "parentHead": "61a8f0a4a456bb077defdb7274c065c4b2a23e76",
-    "candidateCodeCommit": "11b3d31bdabe377d2d45aac12bce9edb7614128a"
+    "candidateCodeCommit": "f88e1e65671e2ac8e02781cf9317bdfad103d7ee",
+    "previewPlan": {
+      "mode": "route-selective",
+      "routes": [
+        "/gastronomia/don-camillo/",
+        "/gastronomia/bar-do-omar/",
+        "/gastronomia/spicy-fish/",
+        "/gastronomia/dumare/",
+        "/gastronomia/amendoeira/"
+      ],
+      "expectedRenderedHtml": 15,
+      "expectedPerLanguage": 5,
+      "frenchIncluded": false,
+      "sitemapGenerated": false,
+      "vercelPreviewOnly": true,
+      "productionCommandUnchanged": true,
+      "status": "triggered_by_this_commit; awaiting verification"
+    }
   },
   "gsc": {
     "project": "7172f2fb-7456-4b35-b581-d9b11c0040f4",
@@ -100,7 +129,10 @@
     "approved": false,
     "blocker": "Playwright local asset requests returned net::ERR_EMPTY_RESPONSE for remote photos; this is not a confirmed HTTP 404. Candidate preview requires inspection when Vercel is ready.",
     "beforeScreenshotCapture": "blocked: local Chromium navigation to both public Hostinger PT/EN URLs returned net::ERR_EMPTY_RESPONSE; read-only Hostinger file API succeeded",
-    "candidatePreview": "not accessible while PR Vercel status is pending"
+    "candidatePreview": "not accessible while PR Vercel status is pending",
+    "desktopObservedOnPriorPreviewAt": "1363x1023",
+    "mobile390": "pending",
+    "correctedCommitPreview": "pending"
   },
   "tests": {
     "syntax": "PASS",
@@ -109,14 +141,16 @@
     "auditMultilingual": "baseline failure in base and candidate: KeyError lang vs manifest language",
     "auditTranslations": "baseline failure in base and candidate: Invalid dictionary buzios-approved-blocks.js",
     "auditStatic": "279 global baseline alerts/errors; route-specific QA is above",
-    "gitDiffCheck": "not run as clean-tree check; stale checkout had unrelated inventory trailing whitespace"
+    "gitDiffCheck": "not run as clean-tree check; stale checkout had unrelated inventory trailing whitespace",
+    "vercelFullBuildPrevious": "CANCELED after 200/3612; do not count as validation"
   },
   "completion": {
     "fourLanguageComplete": false,
     "countedAsCompleted": false,
     "publicInHostinger": false,
     "frenchPending": true,
-    "independentHumanReviewRequired": true
+    "independentHumanReviewRequired": true,
+    "publishedChangesThisSublot": 0
   },
   "nextPriority": "/gastronomia/chama-rio-copacabana/ (1062 GSC impressions)",
   "sources": {

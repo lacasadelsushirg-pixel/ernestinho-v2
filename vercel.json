@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "if [ \"$VERCEL_ENV\" = \"preview\" ]; then node scripts/build_multilingual.mjs --routes=/gastronomia/don-camillo/,/gastronomia/bar-do-omar/,/gastronomia/spicy-fish/,/gastronomia/dumare/,/gastronomia/amendoeira/; else npm run build; fi",
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": true,
