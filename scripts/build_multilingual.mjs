@@ -17,12 +17,14 @@ import CHEZ_CLAUDE_TRANSLATIONS from '../assets/js/translations/chez-claude.js';
 import DON_CAMILLO_RELEASE from '../assets/js/translations/don-camillo-release.js';
 import BAR_DO_OMAR_RELEASE from '../assets/js/translations/bar-do-omar-release.js';
 import SPICY_FISH_RELEASE from '../assets/js/translations/spicy-fish-release.js';
+import DUMARE_RELEASE from '../assets/js/translations/dumare-release.js';
 const ROUTE_TRANSLATIONS={
  '/gastronomia/cervantes-copacabana/':CERVANTES_TRANSLATIONS,
  '/gastronomia/chez-claude/':CHEZ_CLAUDE_TRANSLATIONS,
  '/gastronomia/don-camillo/':DON_CAMILLO_RELEASE,
  '/gastronomia/bar-do-omar/':BAR_DO_OMAR_RELEASE,
- '/gastronomia/spicy-fish/':SPICY_FISH_RELEASE
+ '/gastronomia/spicy-fish/':SPICY_FISH_RELEASE,
+ '/gastronomia/dumare/':DUMARE_RELEASE
 };
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
@@ -126,6 +128,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   if(file==='assets/js/translations/don-camillo-release.js'){routes.add('/gastronomia/don-camillo/');continue;}
   if(file==='assets/js/translations/bar-do-omar-release.js'){routes.add('/gastronomia/bar-do-omar/');continue;}
   if(file==='assets/js/translations/spicy-fish-release.js'){routes.add('/gastronomia/spicy-fish/');continue;}
+  if(file==='assets/js/translations/dumare-release.js'){routes.add('/gastronomia/dumare/');continue;}
   if(file==='assets/js/buzios-taxonomy.js')continue;
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
