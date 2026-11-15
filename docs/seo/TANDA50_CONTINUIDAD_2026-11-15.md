@@ -1376,3 +1376,12 @@ GSC final (2026-10-16–11-12): ES 67 imp./0 clics/posición 20,4; PT sin fila; 
 - GSC 2026-10-16–2026-11-12: ES 241 impresiones/1 clic/posición 8,1; PT 9/0/8,6; EN 4/0/7,3. En periodo anterior: ES 90/0/8,5; PT 33/0/5,9; EN 10/0/8,0. El aumento ES y menor volumen PT/EN se registran como rendimiento, no como causalidad.
 - Estado: ES revisada; PT/EN bloqueadas por bloque de 8 párrafos duplicado; FR pendiente/no existe. Faltan localizar traducción histórica aplicable al contenido actual, QA renderer, alt/enlaces, capturas 1440/390 y build incremental/guard. No completa ni publicada.
 - Contabilidad tanda 2: 41/50 auditadas; 0/50 completas; 0 publicadas; 9 pendientes. Siguiente por cola: Faenza Copacabana (366 impresiones en el corte previo); medir GSC actual y revisar antes de asumir estado.
+
+## Auditoría de producción — Faenza Copacabana (segunda tanda, ficha 42/50; 15/11/2026)
+
+- Hostinger producción `revision/rendimiento-traducciones-81a904c`, SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; fuente ES actual GitHub blob `110642f3335541a84cfba4f1fe3426912b16768f`. En las referencias históricas 42d03024 y 8570793 el archivo tiene blob `2bd63e764c2e27a9b221b8d4fb372696cad69c68`.
+- Las tres variantes presentan 30 párrafos; diez bloques editoriales iniciales son idénticos entre ES, PT y EN. Queda confirmada la pérdida de localización PT/EN. Title/meta sí se localizan. El texto alternativo de fotos PT/EN sigue en español en la muestra y hay dos alt vacíos por variante; imágenes ES 11 vs PT/EN 10.
+- Canonical/hreflang es/pt-BR/en/x-default propias. GSC inspección 3/3 enviadas e indexadas, robots allowed, fetch successful y canonical Google igual a declarada. No se confirma error técnico de indexación. FR no existe en Hostinger (HTTP 422), sin alternate FR.
+- GSC 2026-10-16–2026-11-12: ES 205 impresiones/0 clics/posición 12,5; PT 18/0/8,1; EN 1/0/4,0 (224 totales). Periodo anterior: ES 79/0/8,3; PT 57/0/7,4; EN 6/0/7,7. El volumen aumentó en ES y bajó en PT/EN; sin inferir causalidad.
+- Estado: ES revisada; PT/EN bloqueadas por duplicación de 10 párrafos; FR pendiente/no existe. Pendientes: encontrar entradas manuales que correspondan a contenido actual, aplicar sólo cambios editoriales permitidos, QA renderer/alt/enlaces, capturas 1440/390 y build incremental/guard. No completa ni publicada.
+- Contabilidad tanda 2: 42/50 auditadas; 0/50 completas; 0 publicadas; 8 pendientes. Siguiente por impresiones en la cola: Temperarte Posto 6 (365 en el corte amplio previo); comprobar datos actuales.
