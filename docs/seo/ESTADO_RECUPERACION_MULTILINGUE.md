@@ -43,3 +43,5 @@ node scripts/test_fr_preview.mjs ../preview-guia ../capturas-guia
 - Ampliación del 14 de noviembre: `/gastronomia/amendoeira/` traducida en 54 cadenas únicas. Se conservan los datos y medios originales; auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan. Horarios, carta y operación sujetos a confirmación. Preview privado con canonical propio, `noindex` y fuera del sitemap.
 
 - Ampliación del 14 de noviembre: `/gastronomia/pavao-azul/` traducida íntegramente al francés en 51 cadenas, incluidos metadatos, consejos, información práctica y alternativas. Auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan; precios, horarios y disponibilidad deben verificarse. Preview privado con canonical francés, `noindex` y fuera del sitemap.
+
+- Ampliación del 14 de noviembre: `/gastronomia/brota/` traducida en 56 cadenas únicas, con contenido editorial, metadatos, mapa y alternativas. Auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan; menú, precios, reservas y condiciones alimentarias a confirmar. Se mantiene en preview privado, con canonical propio, `noindex` y fuera del sitemap.

@@ -92,6 +92,15 @@
       "checked_strings": 51,
       "missing_keys": 0,
       "qa": "Traduction complète des contenus, métadonnées, conseils et alternatives. Aperçu privé audité à 390 px et 1440 px ; horaires, prix et disponibilités à revérifier."
+    },
+    {
+      "route": "/gastronomia/brota/",
+      "source_sha": "e31a7f7dc52c2a4f1babe297da011ca300d4cc16",
+      "file": "assets/js/translations/fr/gastronomia-brota-paralelo.json",
+      "entries": 56,
+      "checked_strings": 56,
+      "missing_keys": 0,
+      "qa": "Traduction complète des contenus éditoriaux, métadonnées et alternatives. Aperçu privé à tester à 390 px et 1440 px ; menu, prix, réservations et conditions alimentaires à confirmer."
     }
   ],
   "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."
