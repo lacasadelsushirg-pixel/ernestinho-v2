@@ -1366,3 +1366,13 @@ GSC final (2026-10-16–11-12): ES 67 imp./0 clics/posición 20,4; PT sin fila; 
 - GSC 2026-10-16–2026-11-12: ES 30 impresiones/0 clics/posición 6,9; PT 26/0/8,5; EN 304/4/8,8. Periodo anterior: ES 28/0/12,9; PT 75/0/8,9; EN sin fila. La variación no prueba causa. Historial completo y diferencia de renderer requieren cotejo antes de corregir.
 - Estado: ES revisada; PT/EN bloqueadas por el marcador literal y texto EN sin traducir; FR pendiente/no existe. No completa ni publicada; faltan editor, runtime, capturas 1440/390 y pruebas de build/guard.
 - Contabilidad tanda 2: 40/50 auditadas; 0/50 completas; 0 publicadas; 10 pendientes. Siguiente prioridad en cola por impresiones: Frontera Ipanema (387 en el corte previo); revalidar.
+
+
+## Auditoría de producción — Frontera Ipanema (segunda tanda, ficha 41/50; 15/11/2026)
+
+- Producción Hostinger en revision/rendimiento-traducciones-81a904c, SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. Fuente ES blob 94626d30d9afd92e49c049c324303228c1c81918; las dos referencias históricas 42d03024 y 8570793 resuelven el archivo a blob e7b1ac3e058cddf3102caf6bd2d51c1b352ce574.
+- ES/PT/EN tienen 26 párrafos. Los ocho primeros son textualmente idénticos en las tres variantes; por tanto, PT/EN están incompletas de forma confirmada. Titles/description sí están localizados. En las páginas PT/EN los alt de fotos se mantienen en español; hay dos alt vacíos por idioma y el total de imágenes difiere (ES 8, PT/EN 7). No se tocó la estructura.
+- Canonical y alternates es/pt-BR/en/x-default propias; inspección 3/3 enviadas/indexadas, fetch successful, robots allowed y Google canonical = declarada. No se confirma error de indexación. FR no existe en Hostinger (HTTP 422), sin hreflang FR.
+- GSC 2026-10-16–2026-11-12: ES 241 impresiones/1 clic/posición 8,1; PT 9/0/8,6; EN 4/0/7,3. En periodo anterior: ES 90/0/8,5; PT 33/0/5,9; EN 10/0/8,0. El aumento ES y menor volumen PT/EN se registran como rendimiento, no como causalidad.
+- Estado: ES revisada; PT/EN bloqueadas por bloque de 8 párrafos duplicado; FR pendiente/no existe. Faltan localizar traducción histórica aplicable al contenido actual, QA renderer, alt/enlaces, capturas 1440/390 y build incremental/guard. No completa ni publicada.
+- Contabilidad tanda 2: 41/50 auditadas; 0/50 completas; 0 publicadas; 9 pendientes. Siguiente por cola: Faenza Copacabana (366 impresiones en el corte previo); medir GSC actual y revisar antes de asumir estado.
