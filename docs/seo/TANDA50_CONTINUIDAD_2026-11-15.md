@@ -1063,3 +1063,13 @@ Medios: 10 imágenes, 8 alts con texto, 25 enlaces por variante; destinos y equi
 **Estado:** PT/EN casi completos pero tienen rótulo español y sin fuente semántica localizada; FR ausente; ficha incompleta/no publicable. Pendiente localizar texto original, adaptar etiqueta, QA semántico integral, FR, medios/enlaces, build incremental/guard y capturas 1440/390. Producción no modificada. CSV `6bf046e7840c2145abae277aff4d2ef7027d6918`.
 
 **Punto durable:** tanda 2 exacta de 50; 12/50 auditadas, 0 completas, 0 publicadas; 38 pendientes. Próxima #13: `/gastronomia/nova-capela/`, blob HTML ES producción `e9f91260d5e63d1ddad741fd2ebb36e7e85a7f83`.
+
+## Auditoría de producción — Nova Capela (segunda tanda, ficha 13/50; 15/11/2026)
+
+Hostinger producción en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; HTML ES blob `e9f91260d5e63d1ddad741fd2ebb36e7e85a7f83`. ES/PT/EN contienen 31 párrafos c/u; cero coincidencias literales de párrafos PT/EN con ES. La fuente histórica sí está en `assets/js/translations/chunks/gastronomia-01.js`, blob productivo `b65f55e1afa064cb9ae3ab274a56b8a9a9f3dfa1`, con entrada “Nova Capela en Lapa” y valores PT/EN. Title y descripción están localizados; H1 conserva nombre propio; canonical propio y hreflang es/pt-BR/en/x-default válidos. FR no existe bajo `fr/gastronomia/nova-capela/` ni está enlazado.
+
+Hay 12 imágenes, 10 alts con texto y 24 enlaces por variante; su correspondencia semántica/destinos no se verificó. GSC final (2026-10-16–11-12): ES 44 impresiones/1 clic/posición 7,5; sin filas PT/EN. Periodo previo ES 13/0/11,8; la ES gana impresiones y sube posiciones. Inspección ES PASS, indexada, fetch exitoso y canonical Google=declarado. PT: “Descubierta: actualmente sin indexar”; EN: “Google no reconoce esta URL”, con fetch/canonical sin establecer. No hay error técnico confirmado; PT es una exclusión de descubrimiento y EN sigue sin estado conocido. GSC muestra breadcrumb “Elemento sin nombre” para ES; es alerta de datos estructurados, no error de indexación.
+
+**Estado:** PT/EN tienen traducciones históricas rastreables, pero falta QA editorial completo; FR ausente; no cuenta completa/no publicable. Pendientes: validar sentido, completar FR, cotejar medios/enlaces/alt, renderizadores/build incremental/guard y capturas aprobadas 1440/390. Hostinger no se modificó. CSV actualizado `67111f9b17085e5b225c7e9b2314e75713010dba`.
+
+**Checkpoint:** segunda tanda exacta de 50, 13/50 auditadas, 0 completas, 0 publicadas, 37 pendientes. Siguiente #14: `/gastronomia/bira-de-guaratiba/`, blob HTML ES de producción `f675da0898a79bbaacec58a933523b1d522bc8fe`.
