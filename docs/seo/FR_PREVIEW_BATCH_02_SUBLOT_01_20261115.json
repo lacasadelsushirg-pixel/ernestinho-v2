@@ -1,0 +1,72 @@
+{
+  "batch": 2,
+  "subbatch": 1,
+  "cumulativeCompleted": 10,
+  "of": 50,
+  "date": "2026-11-15",
+  "status": "private_preview_verified_not_published",
+  "routes": [
+    {
+      "route": "/gastronomia/angu-do-gomes/",
+      "source_sha": "306b1b0f24850909fec9fefd28f8b83d2092d317",
+      "file": "assets/js/translations/fr/gastronomia-angu-do-gomes-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/bb-lanches/",
+      "source_sha": "f387cc3e954f26f52b378fbe89ed74c720dfeca8",
+      "file": "assets/js/translations/fr/gastronomia-bb-lanches-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/elena/",
+      "source_sha": "79e1bcbedea56cd9cf69a25d584742ca08e8dfc0",
+      "file": "assets/js/translations/fr/gastronomia-elena-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/fogo-de-chao-botafogo/",
+      "source_sha": "413592e5e34189e0d7117c20da05fcc3aa6a9382",
+      "file": "assets/js/translations/fr/gastronomia-fogo-de-chao-botafogo-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/praia-skol-copa/",
+      "source_sha": "70861b9ba60ea9e99a22d155df649b3c1bca6722",
+      "file": "assets/js/translations/fr/gastronomia-praia-skol-copa-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/rotisseria-sirio-libanesa/",
+      "source_sha": "c0934b90f225b95e04592f9549dd0e37ca821925",
+      "file": "assets/js/translations/fr/gastronomia-rotisseria-sirio-libaneza-paralelo.json"
+    },
+    {
+      "route": "/guia/aeropuertos/",
+      "source_sha": "3077e6602df26121c91a5e5002f5949e8b9778fe",
+      "file": "assets/js/translations/fr/guia-aeropuertos-paralelo.json"
+    },
+    {
+      "route": "/guia/alquiler-auto/",
+      "source_sha": "3d127d38fd55cf1036b83b5cf5f42a18d29a7cf6",
+      "file": "assets/js/translations/fr/guia-alquiler-auto-paralelo.json"
+    },
+    {
+      "route": "/guia/terminales/",
+      "source_sha": "f57c0635f2688ee47c3ffc0d77ea6b5581a950e5",
+      "file": "assets/js/translations/fr/guia-terminales-paralelo.json"
+    },
+    {
+      "route": "/guia/accesibilidad/",
+      "source_sha": "e9317100deb5b2661120e9dfd84fa5c5afb0c3f5",
+      "file": "assets/js/translations/fr/guia-accesibilidad-paralelo.json"
+    }
+  ],
+  "checks": {
+    "automaticAudit": "passed",
+    "browserWidths": [
+      390,
+      1440
+    ],
+    "languageSwitch": "PT-BR → FR → EN",
+    "horizontalOverflow": false,
+    "canonicalAndNoindex": "passed",
+    "mediaAndEditorialLinks": "passed"
+  },
+  "publication": "not deployed; backup/restore and isolated off-document-root Hostinger test target remain unverified"
+}

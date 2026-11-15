@@ -1,0 +1,72 @@
+{
+  "batch": 1,
+  "subbatch": 3,
+  "cumulativeCompleted": 30,
+  "of": 50,
+  "date": "2026-11-15",
+  "status": "private_preview_verified_not_published",
+  "routes": [
+    {
+      "route": "/gastronomia/faenza-copacabana/",
+      "source_sha": "110642f3335541a84cfba4f1fe3426912b16768f",
+      "file": "assets/js/translations/fr/gastronomia-faenza-copacabana-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/fiorino/",
+      "source_sha": "c6b987695fc2c40ff2bb9853fc4b314f8b1f210c",
+      "file": "assets/js/translations/fr/gastronomia-fiorino-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/iraja-redux/",
+      "source_sha": "fb393540ddb73fdddb75b9cb8461f145619b83ba",
+      "file": "assets/js/translations/fr/gastronomia-iraja-redux-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/k08/",
+      "source_sha": "453ae04652ec6aede6c7141a318c5602f5290676",
+      "file": "assets/js/translations/fr/gastronomia-k08-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/kilograma-centro/",
+      "source_sha": "275da2af4e8ecf29c360f69f7caf91e586e0b2d8",
+      "file": "assets/js/translations/fr/gastronomia-kilograma-centro-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/koral/",
+      "source_sha": "ded103b38a8c49d16a355c50714adf485e7189f7",
+      "file": "assets/js/translations/fr/gastronomia-koral-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/kurt-leblon/",
+      "source_sha": "1603399012d815666766d2a9f45f65804ca4fc9e",
+      "file": "assets/js/translations/fr/gastronomia-kurt-leblon-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/labuta-bar/",
+      "source_sha": "3318bce47c905efb06016c68f87f15eba4f4cfcc",
+      "file": "assets/js/translations/fr/gastronomia-labuta-bar-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/naga/",
+      "source_sha": "c496b438d039718998286c4203b5b4d2497b00c3",
+      "file": "assets/js/translations/fr/gastronomia-naga-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/nino-cucina-ipanema/",
+      "source_sha": "91b4f52ba7e85d6d5d18b606dbdda5eb73568fdf",
+      "file": "assets/js/translations/fr/gastronomia-nino-cucina-ipanema-paralelo.json"
+    }
+  ],
+  "checks": {
+    "automaticAudit": "passed",
+    "browserWidths": [
+      390,
+      1440
+    ],
+    "languageSwitch": "PT-BR → FR → EN",
+    "horizontalOverflow": false,
+    "canonicalAndNoindex": "passed",
+    "mediaAndEditorialLinks": "passed"
+  },
+  "publication": "not deployed; isolated off-document-root Hostinger test and restorable backup are not available through the connected deployment interface"
+}

@@ -218,5 +218,17 @@ export default {
   "Las fotos de esta ficha son de archivo y muestran el café antes del cierre temporal. Comprueba las publicaciones oficiales de la EAV antes de organizar la visita; la reapertura del café todavía no está confirmada.": {
     "PT": "As fotos desta ficha são de arquivo e mostram o café antes do fechamento temporário. Consulte as publicações oficiais da EAV antes de planejar a visita; a reabertura do café ainda não foi confirmada.",
     "EN": "The photos in this listing are archival and show the café before its temporary closure. Check EAV’s official updates before planning a visit; the café’s reopening has not yet been confirmed."
+  },
+  "EAV Parque Lage · estado del Palacete y visita": {
+    "PT": "EAV Parque Lage · situação do Palacete e visita",
+    "EN": "EAV Parque Lage · palace status and visiting"
+  },
+  "Fuentes:": {
+    "PT": "Fontes:",
+    "EN": "Sources:"
+  },
+  "EAV · restauro y suspensión del restaurante interior": {
+    "PT": "EAV · restauração e suspensão do restaurante interno",
+    "EN": "EAV · restoration and suspension of the indoor restaurant"
   }
 };

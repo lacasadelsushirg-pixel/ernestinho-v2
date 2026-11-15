@@ -1,0 +1,70 @@
+{
+  "batch": 1,
+  "subbatch": 1,
+  "date": "2026-11-15",
+  "status": "private_preview_verified_not_published",
+  "routes": [
+    {
+      "route": "/gastronomia/adega-da-velha/",
+      "source_sha": "fa3cff2ed68f067b77680c2977366365ab7dd2aa",
+      "file": "assets/js/translations/fr/gastronomia-adega-da-velha-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/bar-da-gema/",
+      "source_sha": "7f472980f193f011697e04797cccb84e971e5cc5",
+      "file": "assets/js/translations/fr/gastronomia-bar-da-gema-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/casa-mohamed/",
+      "source_sha": "834f65a78f2ba7e39312f87e6ea777c41834d09b",
+      "file": "assets/js/translations/fr/gastronomia-casa-mohamed-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/cervantes-copacabana/",
+      "source_sha": "abdc48e525942bf73fe72daefee731ea38819bf4",
+      "file": "assets/js/translations/fr/gastronomia-cervantes-copacabana-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/lanches-cariocas/",
+      "source_sha": "8f90895dc47fa67d9b2dbbe14eebe6720698ca7b",
+      "file": "assets/js/translations/fr/gastronomia-lanches-cariocas-paralelo.json"
+    },
+    {
+      "route": "/guia/emergencias/",
+      "source_sha": "995eb0cf6408de80c550e90b08779988e99069e7",
+      "file": "assets/js/translations/fr/guia-emergencias-paralelo.json"
+    },
+    {
+      "route": "/guia/cpf/",
+      "source_sha": "2fb14c99efd9ed8b70794f14eb0048b22d6cd5d6",
+      "file": "assets/js/translations/fr/guia-cpf-paralelo.json"
+    },
+    {
+      "route": "/guia/documentos/",
+      "source_sha": "71e448005ace7a442763ae433045da14a6f43852",
+      "file": "assets/js/translations/fr/guia-documentos-paralelo.json"
+    },
+    {
+      "route": "/guia/pix/",
+      "source_sha": "0ef8433b2101d8ff81987e961926270310b79641",
+      "file": "assets/js/translations/fr/guia-pix-paralelo.json"
+    },
+    {
+      "route": "/guia/menores/",
+      "source_sha": "92890e2006085d082b9c1a0a2b6bd9dd73916a4a",
+      "file": "assets/js/translations/fr/guia-menores-paralelo.json"
+    }
+  ],
+  "checks": {
+    "automaticAudit": "passed",
+    "browserWidths": [
+      390,
+      1440
+    ],
+    "languageSwitch": "PT-BR → FR → EN",
+    "horizontalOverflow": false,
+    "canonicalAndNoindex": "passed",
+    "mediaAndEditorialLinks": "passed"
+  },
+  "publication": "blocked: Hostinger Git deployment directory is under the website document root; no verified backup/restore endpoint or off-document-root test target available"
+}

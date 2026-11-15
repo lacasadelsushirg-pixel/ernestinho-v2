@@ -12,21 +12,51 @@
       "source_sha": "995eb0cf6408de80c550e90b08779988e99069e7",
       "file": "assets/js/translations/fr/guia-emergencias-paralelo.json",
       "entries": 52,
-      "coverage": "text_alt_metadata_complete"
+      "coverage": "text_alt_metadata_complete",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/cpf/",
       "source_sha": "2fb14c99efd9ed8b70794f14eb0048b22d6cd5d6",
       "file": "assets/js/translations/fr/guia-cpf-paralelo.json",
       "entries": 58,
-      "coverage": "text_alt_metadata_complete"
+      "coverage": "text_alt_metadata_complete",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/documentos/",
       "source_sha": "71e448005ace7a442763ae433045da14a6f43852",
       "file": "assets/js/translations/fr/guia-documentos-paralelo.json",
       "entries": 83,
-      "coverage": "text_alt_metadata_complete"
+      "coverage": "text_alt_metadata_complete",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/pix/",
@@ -34,7 +64,17 @@
       "file": "assets/js/translations/fr/guia-pix-paralelo.json",
       "entries": 62,
       "coverage": "visible_static_and_embedded_ES_JSON_text_complete",
-      "integration_blocker": "pix-data JSON provides runtime ES/PT/EN content. The FR preview builder removes scripts; must render static translated content in private FR preview or extend private renderer without changing source pages."
+      "integration_blocker": "pix-data JSON provides runtime ES/PT/EN content. The FR preview builder removes scripts; must render static translated content in private FR preview or extend private renderer without changing source pages.",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/menores/",
@@ -42,14 +82,34 @@
       "file": "assets/js/translations/fr/guia-menores-paralelo.json",
       "entries": 39,
       "coverage": "text_alt_metadata_complete",
-      "editorial_review": "recheck visa and minor-travel rules against current official authorities prior to publishing"
+      "editorial_review": "recheck visa and minor-travel rules against current official authorities prior to publishing",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/internet/",
       "source_sha": "21ebe5001a07c3f716cdb4dfa6792b067d93b850",
       "file": "assets/js/translations/fr/guia-internet-paralelo.json",
       "entries": 50,
-      "coverage": "text_alt_metadata_complete"
+      "coverage": "text_alt_metadata_complete",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/vacunas/",
@@ -57,7 +117,17 @@
       "file": "assets/js/translations/fr/guia-vacunas-paralelo.json",
       "entries": 31,
       "coverage": "text_alt_metadata_complete",
-      "editorial_review": "medical recommendations and destination-specific entry requirements should be verified against current official sources prior to publishing"
+      "editorial_review": "medical recommendations and destination-specific entry requirements should be verified against current official sources prior to publishing",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/consulados/",
@@ -65,21 +135,51 @@
       "file": "assets/js/translations/fr/guia-consulados-paralelo.json",
       "entries": 30,
       "coverage": "text_alt_metadata_complete",
-      "editorial_review": "recheck current consular addresses and duty contacts before publishing"
+      "editorial_review": "recheck current consular addresses and duty contacts before publishing",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/aeropuertos/",
       "source_sha": "3077e6602df26121c91a5e5002f5949e8b9778fe",
       "file": "assets/js/translations/fr/guia-aeropuertos-paralelo.json",
       "entries": 37,
-      "coverage": "text_alt_metadata_complete"
+      "coverage": "text_alt_metadata_complete",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/alquiler-auto/",
       "source_sha": "3d127d38fd55cf1036b83b5cf5f42a18d29a7cf6",
       "file": "assets/js/translations/fr/guia-alquiler-auto-paralelo.json",
       "entries": 42,
-      "coverage": "text_alt_metadata_complete"
+      "coverage": "text_alt_metadata_complete",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/terminales/",
@@ -87,7 +187,17 @@
       "file": "assets/js/translations/fr/guia-terminales-paralelo.json",
       "entries": 48,
       "coverage": "text_alt_metadata_complete",
-      "editorial_review": "check current Pier Mauá operational notices and VLT routing prior to publishing"
+      "editorial_review": "check current Pier Mauá operational notices and VLT routing prior to publishing",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/accesibilidad/",
@@ -95,7 +205,17 @@
       "file": "assets/js/translations/fr/guia-accesibilidad-paralelo.json",
       "entries": 50,
       "coverage": "text_alt_metadata_complete",
-      "editorial_review": "check accessibility status, reduced-mobility access and transit fare eligibility before publishing"
+      "editorial_review": "check accessibility status, reduced-mobility access and transit fare eligibility before publishing",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/viajar-solo/",

@@ -30,6 +30,8 @@ ROUTES = (
     '/gastronomia/bar-madrid/', '/gastronomia/classico-beach-club-urca/', '/gastronomia/kilograma-centro/',
     '/gastronomia/proa/', '/gastronomia/elena/', '/gastronomia/sud-passaro-verde/',
     '/gastronomia/labuta-bar/', '/gastronomia/casa-201/', '/gastronomia/angu-do-gomes/',
+    '/gastronomia/coisas-de-bamba/', '/gastronomia/ct-boucherie/',
+    '/gastronomia/bb-lanches/',
 )
 GUIDE_ROUTES = (
     '/guia/accesibilidad/', '/guia/aeropuertos/', '/guia/alquiler-auto/',
@@ -104,6 +106,14 @@ SHOPPING_ROUTES = (
     '/compras/feira-da-gloria/',
 )
 ROUTES += CULTURE_ROUTES + PHOTO_ROUTES + SHOPPING_ROUTES
+ROUTES += ('/gastronomia/plage-cafe/', '/gastronomia/iraja-redux/', '/gastronomia/oteque/',
+           '/gastronomia/talho-capixaba-ipanema/', '/gastronomia/shiso/',
+           '/gastronomia/naga/', '/gastronomia/fiorino/', '/gastronomia/otto/',
+           '/gastronomia/tacaca-do-norte/', '/gastronomia/kurt-leblon/',
+           '/gastronomia/churrascaria-palace/', '/gastronomia/casa-mohamed/',
+           '/gastronomia/bar-da-gema/', '/gastronomia/lanches-cariocas/',
+           '/gastronomia/cervantes-copacabana/', '/gastronomia/adega-da-velha/')
+ROUTES = tuple(dict.fromkeys(ROUTES))
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
     '//title/text()|//body//text()[not(ancestor::script or ancestor::style or ancestor::svg or ancestor::template)]'
@@ -136,6 +146,10 @@ def french_link(route):
 
 def add_selector(document, route, french=False):
     document.set('data-fr-preview-href', '/fr' + route)
+    # Make preview generation idempotent when its source already contains a
+    # selector from an earlier preview build.
+    for previous in document.xpath('//*[@data-fr-preview-choice]'):
+        previous.drop_tree()
     groups = (
         ('//*[@data-ec-desktop-language-group]', 'ec-desktop-language-choice'),
         ('//*[contains(concat(" ",normalize-space(@class)," ")," ec-mobile-language-row ")]', 'ec-language-choice'),
@@ -154,7 +168,7 @@ def add_selector(document, route, french=False):
                 choice.set('class', choice.get('class', '').replace(' is-active', ''))
         group.append(link)
     style = html.Element('style')
-    style.text = '@media(max-width:900px){[data-fr-preview-href] [data-ec-desktop-language-group]{display:none!important}}'
+    style.text = '@media(max-width:900px){[data-fr-preview-href] [data-ec-desktop-language-group]{display:none!important}}.lang-switcher{display:none!important}'
     document.find('head').append(style)
     document.find('body').append(html.Element('script', type='module', src=RUNTIME))
 
@@ -164,6 +178,8 @@ def translate_nodes(document, lookup, skip_ids=()):
     for value in document.xpath(TRANSLATABLE):
         parent = value.getparent()
         chain = (parent, *parent.iterancestors()) if parent is not None else ()
+        if any(element.get('data-fr-preview-choice') is not None for element in chain):
+            continue
         if any(element.get('id') in skip_ids - {'mainText'} for element in chain):
             continue
         if 'mainText' in skip_ids and any(element.get('id') == 'mainText' for element in chain):
@@ -479,6 +495,8 @@ def french_page(source, route, copybook, routes=ROUTES):
         script.drop_tree()
     for element in document.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," lang-switcher ")]'):
         element.drop_tree()
+    for element in document.xpath('//*[@data-fr-preview-choice]'):
+        element.drop_tree()
     missing = set()
 
     def lookup(value):
@@ -562,7 +580,9 @@ def build(source, destination, routes=ROUTES):
     books = {}
     for section, candidates in (('guia', GUIDE_ROUTES), ('consejos', TIPS_ROUTES),
                                 ('transportes', TRANSPORT_ROUTES), ('cultura', CULTURE_ROUTES),
-                                ('fotografia', PHOTO_ROUTES), ('compras', SHOPPING_ROUTES)):
+                                ('fotografia', PHOTO_ROUTES), ('compras', SHOPPING_ROUTES),
+                                ('gastronomia', tuple(route for route in routes
+                                    if route.startswith('/gastronomia/')))):
         selected = set(routes).intersection(candidates)
         if selected:
             books.update(section_copybooks(selected, section))
@@ -587,6 +607,12 @@ def build(source, destination, routes=ROUTES):
                 if prefix in ('/pt', '/en'):
                     prerender_dynamic_source_locale(translated, route, prefix[1:])
                     pin_script_locale(translated, route, prefix[1:])
+                for legacy_switcher in translated.xpath(
+                        '//*[contains(concat(" ",normalize-space(@class)," ")," lang-switcher ")]'):
+                    legacy_switcher.drop_tree()
+                if route == '/gastronomia/coisas-de-bamba/':
+                    for script in translated.xpath('//script[not(@type="application/ld+json")]'):
+                        script.drop_tree()
                 add_selector(translated, route)
                 save_page(counterpart, translated)
         shutil.copyfile(ROOT / 'scripts/fr-preview-browser.js', output / RUNTIME.lstrip('/'))
