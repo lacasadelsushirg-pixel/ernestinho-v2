@@ -27,3 +27,12 @@ Se comprobó en navegador el hero de Don Camillo y se cargó la fotografía de f
 - Bloqueos prioritarios: terminar la traducción de los párrafos repetidos de Don Camillo y Bar do Omar; cotejar la presencia de enlaces generales de Instagram/TikTok contra la fuente aprobada y restaurarlos solo si son parte del bloque aprobado; obtener capturas reales a 1440/390; luego revisar FR íntegro y controles de sitemap/hreflang antes de solicitar revisión humana independiente.
 - No se modificó código ni se inició un nuevo lote lingüístico en esta comprobación.
 
+
+
+## Revisión del arreglo de inicialización — 15/11/2026, 11:00 UTC
+
+La inspección del builder halló la causa del texto residual: en la compilación route-selective el preview no recibe el manifiesto live; las fichas Don Camillo y Bar do Omar tenían mapas posicionales históricos pero no activaban `forceLegacyParagraphs`. El builder actualiza el diccionario, pero sin esa marca no sustituía los párrafos estáticos del documento. Se añadió la marca en ambos diccionarios, sin editar HTML aprobado, contenido visual ni enlaces: Don Camillo en commit `7e4f3be96c8eefecda88513a4c3073ce43523d46`, Bar do Omar en `871e7e13afe0cf5fa93599888b9bd022fc62ba9f` (HEAD de PR #36 verificado en el corte).
+
+El preview más reciente `ernestinho-v2-9afyi1iug-lacasadelsushirg-8125.vercel.app` devuelve ambas páginas PT con HTTP 200 y `X-Robots-Tag: noindex`; el sitemap responde 404/noindex. Tras comparar los párrafos estáticos fuente con las variantes EN/PT del mismo build, Don Camillo presenta 25/25 párrafos por idioma y 0 coincidencias literales con ES en PT y EN; Bar do Omar presenta 26/26 y 0 coincidencias literales. Los textos traducidos aparecen efectivamente en el HTML del render (incluido el segundo párrafo PT de Don Camillo). Esto resuelve el bloqueo de traducción literal en esas dos rutas y confirma que la inicialización actual del preview aplica los mapeos históricos.
+
+Este es un QA parcial PT/EN, no una aprobación editorial semántica de cada párrafo. Las dos rutas siguen fuera del recuento de fichas completas: falta francés íntegro, cotejo semántico, verificar/restaurar los enlaces generales de marca solo si se confirman como contenido aprobado, capturas aprobadas a 1440 y 390 px y QA integral de sitemap/canonical/hreflang. No se tocó Hostinger. Recuento: **0/50 completas; 0 publicadas**. Las otras tres rutas del preview no se revalidaron en este corte y siguen con el estado previo.
