@@ -61,12 +61,7 @@ new MutationObserver(()=>{
   if(scheduled)return;
   scheduled=true;
   queueMicrotask(()=>{scheduled=false;localize()});
-}).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['href']});
-let repairPasses=0;
-const repairTimer=setInterval(()=>{
-  localize();
-  if(++repairPasses>=20)clearInterval(repairTimer);
-},200);
+}).observe(document.body,{subtree:true,childList:true,characterData:true});
 document.addEventListener('click',event=>{
   const link=event.target.closest('a[href]');
   if(!link)return;
