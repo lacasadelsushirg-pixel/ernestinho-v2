@@ -1,0 +1,71 @@
+{
+  "file": "don-camillo-en-after-1440",
+  "lang": "en",
+  "title": "Don Camillo: complete guide | Ernestinho Carioca",
+  "h1": [
+    "Don Camillo"
+  ],
+  "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/don-camillo/",
+  "alternates": [
+    [
+      "es",
+      "https://www.ernestinhocarioca.com.br/gastronomia/don-camillo/"
+    ],
+    [
+      "pt-BR",
+      "https://www.ernestinhocarioca.com.br/pt/gastronomia/don-camillo/"
+    ],
+    [
+      "en",
+      "https://www.ernestinhocarioca.com.br/en/gastronomia/don-camillo/"
+    ],
+    [
+      "x-default",
+      "https://www.ernestinhocarioca.com.br/gastronomia/don-camillo/"
+    ]
+  ],
+  "figcaption": [
+    "The deck offers a direct connection to Avenida Atlântica.",
+    "The trattoria offers an alternative to the bustle outside.",
+    "A fresh starter before pasta or seafood.",
+    "The menu combines trattoria favorites with Mediterranean cooking.",
+    "Seafood pairs well with the beachfront setting.",
+    "The choice between the dining room and deck sets the tone of the visit.",
+    "Italian classics are the safest choice for a first visit.",
+    "The menu offers options for sharing or a multi-course meal."
+  ],
+  "paragraphs": 20,
+  "bars": 1,
+  "widgetCount": 1,
+  "overflow": false,
+  "firstImageSources": [
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Don%20Camillo/Don%20Camillo%207.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Don%20Camillo/Don%20Camillo%204.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Don%20Camillo/insalata-don-camillo%20Don%20Camillo.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Don%20Camillo/dom-camilo%205.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Don%20Camillo/dom-camilo%206.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Don%20Camillo/Don%20Camillo%201.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Don%20Camillo/Don%20Camillo%202.jpg",
+    ""
+  ],
+  "pageErrors": [],
+  "failedImageCount": 7,
+  "failedImages": [
+    {
+      "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Don%20Camillo/Don%20Camillo%207.jpg",
+      "error": "net::ERR_EMPTY_RESPONSE"
+    },
+    {
+      "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Don%20Camillo/Don%20Camillo%204.jpg",
+      "error": "net::ERR_EMPTY_RESPONSE"
+    },
+    {
+      "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Don%20Camillo/insalata-don-camillo%20Don%20Camillo.jpg",
+      "error": "net::ERR_EMPTY_RESPONSE"
+    },
+    {
+      "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Don%20Camillo/dom-camilo%205.jpg",
+      "error": "net::ERR_EMPTY_RESPONSE"
+    }
+  ]
+}

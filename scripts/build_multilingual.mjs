@@ -14,9 +14,13 @@ import { regionalRoutes, renderRegionalRoute } from './build_regional_destinatio
 import{beachEditorial}from'../assets/js/translations/chunks/buzios-beaches-reviewed.js';
 import CERVANTES_TRANSLATIONS from '../assets/js/translations/cervantes-copacabana.js';
 import CHEZ_CLAUDE_TRANSLATIONS from '../assets/js/translations/chez-claude.js';
+import DON_CAMILLO_RELEASE from '../assets/js/translations/don-camillo-release.js';
+import BAR_DO_OMAR_RELEASE from '../assets/js/translations/bar-do-omar-release.js';
 const ROUTE_TRANSLATIONS={
  '/gastronomia/cervantes-copacabana/':CERVANTES_TRANSLATIONS,
- '/gastronomia/chez-claude/':CHEZ_CLAUDE_TRANSLATIONS
+ '/gastronomia/chez-claude/':CHEZ_CLAUDE_TRANSLATIONS,
+ '/gastronomia/don-camillo/':DON_CAMILLO_RELEASE,
+ '/gastronomia/bar-do-omar/':BAR_DO_OMAR_RELEASE
 };
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
@@ -117,6 +121,8 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   // Route-scoped restaurant copy is isolated so it only rerenders Cervantes' three locale files.
   if(file==='assets/js/translations/cervantes-copacabana.js'){routes.add('/gastronomia/cervantes-copacabana/');continue;}
   if(file==='assets/js/translations/chez-claude.js'){routes.add('/gastronomia/chez-claude/');continue;}
+  if(file==='assets/js/translations/don-camillo-release.js'){routes.add('/gastronomia/don-camillo/');continue;}
+  if(file==='assets/js/translations/bar-do-omar-release.js'){routes.add('/gastronomia/bar-do-omar/');continue;}
   if(file==='assets/js/buzios-taxonomy.js')continue;
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
@@ -318,7 +324,64 @@ async function worker(){
    },target.language);
    const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations,routeTranslations,usingPublishedTemplate})=>{
     const language=document.documentElement.lang;
-    if(routeTranslations){
+    if(usingPublishedTemplate&&routeTranslations?.legacyParagraphIndexes&&(language==='pt-BR'||language==='en')){
+     // The legacy source dictionary was positional and the Spanish page grew.
+     // Rebuild its index map against the current page, keep its original HTML
+     // translations, and translate the newly added paragraphs before writing.
+     const paragraphs=[...document.querySelectorAll('p')];
+     if(paragraphs.length!==routeTranslations.legacyParagraphIndexes.length)throw Error('Published paragraph count changed for '+route);
+     const legacyScript=[...document.querySelectorAll('script')].find(script=>script.textContent.includes('const D=')&&script.textContent.includes('function full('));
+     if(!legacyScript)throw Error('Published inline paragraph renderer missing for '+route);
+     const dictionaryMatch=legacyScript.textContent.match(/const D=(\{[\s\S]*?\}),P=/);
+     if(!dictionaryMatch)throw Error('Could not read historical PT/EN dictionary for '+route);
+     const historical=JSON.parse(dictionaryMatch[1]);
+     const rebuilt={pt:{},en:{}};
+     for(const [index,legacyIndex] of routeTranslations.legacyParagraphIndexes.entries()){
+      if(legacyIndex===null)continue;
+      for(const locale of ['pt','en']){
+       const value=historical[locale]?.[legacyIndex];
+       if(typeof value!=='string')throw Error('Historical '+locale+' paragraph '+legacyIndex+' missing for '+route);
+       rebuilt[locale][index]=value;
+      }
+     }
+     for(const locale of ['PT','EN'])for(const [index,value] of Object.entries(routeTranslations.supplemental[locale]||{}))rebuilt[locale.toLowerCase()][index]=value;
+     for(let index=0;index<paragraphs.length;index++){
+      const value=rebuilt[language==='pt-BR'?'pt':'en'][index];
+      if(typeof value!=='string'||!value.trim())throw Error('Untranslated published paragraph '+index+' for '+route);
+      paragraphs[index].innerHTML=value;
+     }
+     const textCopy=routeTranslations.text?.[language==='pt-BR'?'PT':'EN']||{};
+     const textWalker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+     let textNode;while((textNode=textWalker.nextNode())){
+      const parent=textNode.parentElement;
+      if(!parent||['SCRIPT','STYLE','NOSCRIPT'].includes(parent.tagName))continue;
+      const trimmed=textNode.nodeValue.trim(),key=trimmed.replace(/\s+/g,' '),translated=textCopy[key];
+      if(translated)textNode.nodeValue=textNode.nodeValue.replace(trimmed,()=>translated);
+     }
+     const attributeCopy=routeTranslations.attributes?.[language==='pt-BR'?'PT':'EN']||{};
+     for(const element of document.querySelectorAll('[alt],[title],[data-ec-alt]'))for(const attribute of ['alt','title','data-ec-alt']){
+      const value=element.getAttribute(attribute);if(value&&attributeCopy[value])element.setAttribute(attribute,attributeCopy[value]);
+     }
+     const localeScript=[...document.querySelectorAll('script')].find(script=>script.textContent.includes('const T=')&&script.textContent.includes('function setLang(')&&script.textContent.includes("setLang('es')"));
+     if(localeScript){
+      const tableMatch=localeScript.textContent.match(/const T=(\{[\s\S]*?\});/);
+      if(!tableMatch)throw Error('Could not read static language-bar dictionary for '+route);
+      const table=JSON.parse(tableMatch[1]);
+      for(const key of ['PT','EN']){
+       const locale=key==='PT'?'pt':'en';
+       table[locale]||={};
+       Object.assign(table[locale],routeTranslations.text?.[key]||{},routeTranslations.attributes?.[key]||{});
+      }
+      let source=localeScript.textContent.replace(tableMatch[0],'const T='+JSON.stringify(table)+';');
+      source=source.replace(/setLang\('es'\)(?=\}\)\(\);?)/,`setLang(document.documentElement.lang==='pt-BR'?'pt':document.documentElement.lang==='en'?'en':'es')`);
+      if(source===localeScript.textContent)throw Error('Could not initialize static language bar from route locale for '+route);
+      localeScript.textContent=source;
+     }
+     legacyScript.textContent=legacyScript.textContent.replace(dictionaryMatch[0],'const D='+JSON.stringify(rebuilt)+',P=');
+     const initialized=legacyScript.textContent.replace(/full\('es'\)(?=\}\)\(\);?)/,`full(document.documentElement.lang==='pt-BR'?'pt':document.documentElement.lang==='en'?'en':'es')`);
+     if(initialized===legacyScript.textContent)throw Error('Could not switch legacy initializer to the current published locale for '+route);
+     legacyScript.textContent=initialized;
+    }else if(routeTranslations&&(language==='pt-BR'||language==='en')){
      const locale=language==='pt-BR'?'PT':'EN';
      const copy=routeTranslations[locale]||{};
      const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
@@ -427,7 +490,7 @@ async function worker(){
     document.querySelector('base[data-ec-build-base]').setAttribute('href',sourcePath);
     // Recreate JS-only action buttons on load so their event handlers aren't lost.
     document.querySelector('.ec-global-actions')?.remove();
-    if(!originalLanguageBar)document.querySelectorAll('.lang-switcher').forEach(n=>n.remove());
+    if(!originalLanguageBar||usingPublishedTemplate&&routeTranslations?.legacyParagraphIndexes)document.querySelectorAll('.lang-switcher').forEach(n=>n.remove());
     // No per-build user state or externally supplied widget DOM is serialized.
     document.querySelectorAll('iframe[src^="about:"],script[src^="https://tpembd.com/"]').forEach(n=>n.remove());
     for(const s of document.querySelectorAll('script[type="application/ld+json"]')){
