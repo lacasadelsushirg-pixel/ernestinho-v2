@@ -121,6 +121,15 @@
       "qa": "Traduction française éditoriale récupérée et isolée du copybook validé; métadonnées et textes visibles contrôlés dans la prévisualisation privée."
     },
     {
+      "route": "/gastronomia/churrascaria-palace/",
+      "source_sha": "c5fb0bbb0ae6f528af3d33b398d4a69c39794aa0",
+      "file": "assets/js/translations/fr/gastronomia-churrascaria-palace-paralelo.json",
+      "entries": 54,
+      "checked_strings": 54,
+      "missing_keys": 0,
+      "qa": "Traduction française éditoriale complète ; sources ES et traductions PT-BR/EN complétées ; contrôle contenu ES/PT-BR/EN/FR et aperçu privé à 390 px et 1440 px réussi."
+    },
+    {
       "route": "/gastronomia/classico-beach-club-urca/",
       "source_sha": "3731145622eae508dae96971f3a5ee4e0c36c5e9",
       "file": "assets/js/translations/fr/gastronomia-classico-beach-club-urca-paralelo.json",
@@ -202,6 +211,15 @@
       "qa": "Traduction française éditoriale récupérée et isolée du copybook validé; métadonnées et textes visibles contrôlés dans la prévisualisation privée."
     },
     {
+      "route": "/gastronomia/fiorino/",
+      "source_sha": "c6b987695fc2c40ff2bb9853fc4b314f8b1f210c",
+      "file": "assets/js/translations/fr/gastronomia-fiorino-paralelo.json",
+      "entries": 63,
+      "checked_strings": 63,
+      "missing_keys": 0,
+      "qa": "Traduction française éditoriale complète, source ES épinglée et contenu contrôlé en preview."
+    },
+    {
       "route": "/gastronomia/fogo-de-chao-botafogo/",
       "source_sha": "413592e5e34189e0d7117c20da05fcc3aa6a9382",
       "file": "assets/js/translations/fr/gastronomia-fogo-de-chao-botafogo-paralelo.json",
@@ -209,6 +227,15 @@
       "checked_strings": 59,
       "missing_keys": 0,
       "qa": "Traduction complète des chaînes éditoriales, informations pratiques, métadonnées et alternatives. Aperçu privé à tester à 390 px et 1440 px ; horaires et tarifs à revérifier."
+    },
+    {
+      "route": "/gastronomia/iraja-redux/",
+      "source_sha": "fb393540ddb73fdddb75b9cb8461f145619b83ba",
+      "file": "assets/js/translations/fr/gastronomia-iraja-redux-paralelo.json",
+      "entries": 62,
+      "checked_strings": 62,
+      "missing_keys": 0,
+      "qa": "Traduction française éditoriale complète, source ES épinglée et textes visibles/metadata traduits."
     },
     {
       "route": "/gastronomia/k08/",
@@ -238,6 +265,15 @@
       "qa": "Traduction française éditoriale récupérée et isolée du copybook validé; métadonnées et textes visibles contrôlés dans la prévisualisation privée."
     },
     {
+      "route": "/gastronomia/kurt-leblon/",
+      "source_sha": "1603399012d815666766d2a9f45f65804ca4fc9e",
+      "file": "assets/js/translations/fr/gastronomia-kurt-leblon-paralelo.json",
+      "entries": 41,
+      "checked_strings": 41,
+      "missing_keys": 0,
+      "qa": "Traduction française éditoriale complète ; sources ES et traductions PT-BR/EN complétées ; contrôle contenu ES/PT-BR/EN/FR et aperçu privé à 390 px et 1440 px réussi."
+    },
+    {
       "route": "/gastronomia/labuta-bar/",
       "source_sha": "3318bce47c905efb06016c68f87f15eba4f4cfcc",
       "file": "assets/js/translations/fr/gastronomia-labuta-bar-paralelo.json",
@@ -245,6 +281,15 @@
       "checked_strings": 62,
       "missing_keys": 0,
       "qa": "Traduction française éditoriale récupérée et isolée du copybook validé; métadonnées et textes visibles contrôlés dans la prévisualisation privée."
+    },
+    {
+      "route": "/gastronomia/naga/",
+      "source_sha": "c496b438d039718998286c4203b5b4d2497b00c3",
+      "file": "assets/js/translations/fr/gastronomia-naga-paralelo.json",
+      "entries": 67,
+      "checked_strings": 67,
+      "missing_keys": 0,
+      "qa": "Traduction française éditoriale complète, source ES épinglée et contenu contrôlé en preview."
     },
     {
       "route": "/gastronomia/nido-ristorante/",
@@ -281,6 +326,24 @@
       "checked_strings": 80,
       "missing_keys": 0,
       "qa": "Traduction française éditoriale récupérée et isolée du copybook validé; métadonnées et textes visibles contrôlés dans la prévisualisation privée."
+    },
+    {
+      "route": "/gastronomia/oteque/",
+      "source_sha": "9129914e9b78ceaa06301cd7e5fcbe12326901f7",
+      "file": "assets/js/translations/fr/gastronomia-oteque-paralelo.json",
+      "entries": 60,
+      "checked_strings": 60,
+      "missing_keys": 0,
+      "qa": "Traduction française intégrale des textes éditoriaux et métadonnées; données commerciales conservées comme vérification préalable."
+    },
+    {
+      "route": "/gastronomia/otto/",
+      "source_sha": "5c57ddb89b7c71fbaadcd2a3a291f5a85d669680",
+      "file": "assets/js/translations/fr/gastronomia-otto-paralelo.json",
+      "entries": 56,
+      "checked_strings": 56,
+      "missing_keys": 0,
+      "qa": "Traduction française éditoriale complète ; sources ES et traductions PT-BR/EN complétées ; contrôle contenu ES/PT-BR/EN/FR et aperçu privé à 390 px et 1440 px réussi."
     },
     {
       "route": "/gastronomia/pavao-azul/",
@@ -346,6 +409,15 @@
       "qa": "Traduction complète des chaînes visibles, métadonnées et alternatives. Aperçu privé vérifié à 390 px et 1440 px ; horaires, carte et disponibilité à confirmer."
     },
     {
+      "route": "/gastronomia/shiso/",
+      "source_sha": "243ffc89ca85060c20c2eb68fe813caab2ab575f",
+      "file": "assets/js/translations/fr/gastronomia-shiso-paralelo.json",
+      "entries": 63,
+      "checked_strings": 63,
+      "missing_keys": 0,
+      "qa": "Traduction française éditoriale complète, contenu et métadonnées contrôlés en prévisualisation privée."
+    },
+    {
       "route": "/gastronomia/spicy-fish/",
       "source_sha": "6c49d747f9a7a5712a8a4cb7927462bcf44c378d",
       "file": "assets/js/translations/fr/gastronomia-spicy-fish-paralelo.json",
@@ -362,6 +434,24 @@
       "checked_strings": 63,
       "missing_keys": 0,
       "qa": "Traduction française éditoriale récupérée et isolée du copybook validé; métadonnées et textes visibles contrôlés dans la prévisualisation privée."
+    },
+    {
+      "route": "/gastronomia/tacaca-do-norte/",
+      "source_sha": "a626af38b86903322ba8b7f6e84e68cdda33e5ce",
+      "file": "assets/js/translations/fr/gastronomia-tacaca-do-norte-paralelo.json",
+      "entries": 42,
+      "checked_strings": 42,
+      "missing_keys": 0,
+      "qa": "Traduction française éditoriale complète ; sources ES et traductions PT-BR/EN complétées ; contrôle contenu ES/PT-BR/EN/FR et aperçu privé à 390 px et 1440 px réussi."
+    },
+    {
+      "route": "/gastronomia/talho-capixaba-ipanema/",
+      "source_sha": "b281a778879ccea2b017134944114957019ec074",
+      "file": "assets/js/translations/fr/gastronomia-talho-capixaba-ipanema-paralelo.json",
+      "entries": 42,
+      "checked_strings": 42,
+      "missing_keys": 0,
+      "qa": "Traduction française éditoriale complète, contenu et métadonnées contrôlés en prévisualisation privée."
     }
   ],
   "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."

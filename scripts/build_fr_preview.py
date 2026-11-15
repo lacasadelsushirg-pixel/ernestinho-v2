@@ -106,7 +106,11 @@ SHOPPING_ROUTES = (
     '/compras/feira-da-gloria/',
 )
 ROUTES += CULTURE_ROUTES + PHOTO_ROUTES + SHOPPING_ROUTES
-ROUTES += ('/gastronomia/plage-cafe/',)
+ROUTES += ('/gastronomia/plage-cafe/', '/gastronomia/iraja-redux/', '/gastronomia/oteque/',
+           '/gastronomia/talho-capixaba-ipanema/', '/gastronomia/shiso/',
+           '/gastronomia/naga/', '/gastronomia/fiorino/', '/gastronomia/otto/',
+           '/gastronomia/tacaca-do-norte/', '/gastronomia/kurt-leblon/',
+           '/gastronomia/churrascaria-palace/')
 ROUTES = tuple(dict.fromkeys(ROUTES))
 RUNTIME = '/assets/js/fr-preview.js'
 TRANSLATABLE = (
@@ -158,7 +162,7 @@ def add_selector(document, route, french=False):
                 choice.set('class', choice.get('class', '').replace(' is-active', ''))
         group.append(link)
     style = html.Element('style')
-    style.text = '@media(max-width:900px){[data-fr-preview-href] [data-ec-desktop-language-group]{display:none!important}}'
+    style.text = '@media(max-width:900px){[data-fr-preview-href] [data-ec-desktop-language-group]{display:none!important}}.lang-switcher{display:none!important}'
     document.find('head').append(style)
     document.find('body').append(html.Element('script', type='module', src=RUNTIME))
 
@@ -593,10 +597,10 @@ def build(source, destination, routes=ROUTES):
                 if prefix in ('/pt', '/en'):
                     prerender_dynamic_source_locale(translated, route, prefix[1:])
                     pin_script_locale(translated, route, prefix[1:])
+                for legacy_switcher in translated.xpath(
+                        '//*[contains(concat(" ",normalize-space(@class)," ")," lang-switcher ")]'):
+                    legacy_switcher.drop_tree()
                 if route == '/gastronomia/coisas-de-bamba/':
-                    for legacy_switcher in translated.xpath(
-                            '//*[contains(concat(" ",normalize-space(@class)," ")," lang-switcher ")]'):
-                        legacy_switcher.drop_tree()
                     for script in translated.xpath('//script[not(@type="application/ld+json")]'):
                         script.drop_tree()
                 add_selector(translated, route)
