@@ -35,3 +35,5 @@ node scripts/test_fr_preview.mjs ../preview-guia ../capturas-guia
 - Ampliación del 14 de noviembre: `/gastronomia/elena/` traducida íntegramente al francés (47 cadenas únicas), incluidas metadatos, información práctica y textos alternativos. La auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan. Horarios, menú, eventos y disponibilidad requieren confirmación directa. Staging con canonical francés, `noindex` y fuera del sitemap.
 
 - Ampliación del 14 de noviembre: `/gastronomia/rotisseria-sirio-libanesa/` traducida al francés en 43 cadenas completas. Se conservaron los originales de mapa y fotos; auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan. Horarios, carta y dirección sujetos a comprobación oficial. Staging con canonical propio, `noindex` y exclusión del sitemap.
+
+- Ampliación del 14 de noviembre: `/gastronomia/babbo-osteria/` traducida en 55 cadenas, con la ficha completa, metadatos, información práctica y alternativas. Auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan; los precios, menú y reservas quedan sujetos a confirmación. Preview privado noindex, canonical propio y fuera del sitemap.
