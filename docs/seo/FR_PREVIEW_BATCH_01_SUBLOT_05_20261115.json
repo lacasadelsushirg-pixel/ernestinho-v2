@@ -1,0 +1,72 @@
+{
+  "batch": 1,
+  "subbatch": 5,
+  "cumulativeCompleted": 50,
+  "of": 50,
+  "date": "2026-11-15",
+  "status": "batch_complete_private_preview_verified_not_published",
+  "routes": [
+    {
+      "route": "/gastronomia/amendoeira/",
+      "source_sha": "b3ed0ef51003d906992bc10b0d086b7304907627",
+      "file": "assets/js/translations/fr/gastronomia-amendoeira-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/babbo-osteria/",
+      "source_sha": "bc0cd142019cb2b47a8b83260430aa1fc3d17e4d",
+      "file": "assets/js/translations/fr/gastronomia-babbo-osteria-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/bar-do-mineiro/",
+      "source_sha": "6073f33f07206dc32754ea776b755c8db23ac970",
+      "file": "assets/js/translations/fr/gastronomia-bar-do-mineiro-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/bar-madrid/",
+      "source_sha": "5e1ddf8fd29ca20c23171b43d1cfbc1884b2786f",
+      "file": "assets/js/translations/fr/gastronomia-bar-madrid-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/brota/",
+      "source_sha": "e31a7f7dc52c2a4f1babe297da011ca300d4cc16",
+      "file": "assets/js/translations/fr/gastronomia-brota-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/classico-beach-club-urca/",
+      "source_sha": "3731145622eae508dae96971f3a5ee4e0c36c5e9",
+      "file": "assets/js/translations/fr/gastronomia-classico-beach-club-urca-paralelo.json"
+    },
+    {
+      "route": "/gastronomia/nido-ristorante/",
+      "source_sha": "911d8d52f3b937ddf966be098c23009eee45142c",
+      "file": "assets/js/translations/fr/gastronomia-nido-ristorante-paralelo.json"
+    },
+    {
+      "route": "/guia/internet/",
+      "source_sha": "21ebe5001a07c3f716cdb4dfa6792b067d93b850",
+      "file": "assets/js/translations/fr/guia-internet-paralelo.json"
+    },
+    {
+      "route": "/guia/vacunas/",
+      "source_sha": "ded4b2095efc4ce7a4ec506463a457e41fa515c1",
+      "file": "assets/js/translations/fr/guia-vacunas-paralelo.json"
+    },
+    {
+      "route": "/guia/consulados/",
+      "source_sha": "4bcfde967797df5b0d7021f1e4318867ad0d41a8",
+      "file": "assets/js/translations/fr/guia-consulados-paralelo.json"
+    }
+  ],
+  "checks": {
+    "automaticAudit": "passed",
+    "browserWidths": [
+      390,
+      1440
+    ],
+    "languageSwitch": "PT-BR → FR → EN",
+    "horizontalOverflow": false,
+    "canonicalAndNoindex": "passed",
+    "mediaAndEditorialLinks": "passed"
+  },
+  "publication": "not deployed; no Hostinger backup/restore check or off-document-root deployment target is available through connected tools"
+}

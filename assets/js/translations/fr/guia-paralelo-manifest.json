@@ -99,7 +99,17 @@
       "source_sha": "21ebe5001a07c3f716cdb4dfa6792b067d93b850",
       "file": "assets/js/translations/fr/guia-internet-paralelo.json",
       "entries": 50,
-      "coverage": "text_alt_metadata_complete"
+      "coverage": "text_alt_metadata_complete",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/vacunas/",
@@ -107,7 +117,17 @@
       "file": "assets/js/translations/fr/guia-vacunas-paralelo.json",
       "entries": 31,
       "coverage": "text_alt_metadata_complete",
-      "editorial_review": "medical recommendations and destination-specific entry requirements should be verified against current official sources prior to publishing"
+      "editorial_review": "medical recommendations and destination-specific entry requirements should be verified against current official sources prior to publishing",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/consulados/",
@@ -115,7 +135,17 @@
       "file": "assets/js/translations/fr/guia-consulados-paralelo.json",
       "entries": 30,
       "coverage": "text_alt_metadata_complete",
-      "editorial_review": "recheck current consular addresses and duty contacts before publishing"
+      "editorial_review": "recheck current consular addresses and duty contacts before publishing",
+      "preview_validation": {
+        "status": "private_preview_verified",
+        "checks": [
+          "audit_fr_preview.py passed",
+          "Chromium 390px and 1440px",
+          "PT-BR → FR → EN",
+          "no horizontal overflow"
+        ],
+        "published": false
+      }
     },
     {
       "route": "/guia/aeropuertos/",
