@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 7724)
-Total output lines: 622
-
 #!/usr/bin/env python3
 """Create an explicitly private French preview from an existing locale build."""
 import argparse
@@ -290,7 +287,67 @@ def portuguese_preview():
 
 
 def supermarkets_copybook():
-    localized = json.loads((FR_COPY / 'consejos-supermercados-modulo-196…724 tokens truncated…ute}: story paragraph count differs from translation QA/source')
+    localized = json.loads((FR_COPY / 'consejos-supermercados-modulo-196-paralelo.json').read_text())
+    source = checked_source(localized['source'], localized['source_sha'])
+    entries, _ = json.JSONDecoder().raw_decode(source.removeprefix('export default ').lstrip())
+    if entries['ES'].keys() != localized['keys'].keys():
+        raise ValueError('Supermarket translation keys are out of sync')
+    return {value: localized['keys'][key] for key, value in entries['ES'].items()}
+
+
+def replace_inner_html(element, markup):
+    for child in list(element):
+        element.remove(child)
+    element.text = None
+    for fragment in html.fragments_fromstring(markup):
+        if isinstance(fragment, str):
+            if len(element):
+                element[-1].tail = (element[-1].tail or '') + fragment
+            else:
+                element.text = (element.text or '') + fragment
+        else:
+            element.append(fragment)
+
+
+def shopping_runtime_copy(document, route):
+    slug = route.rstrip('/').split('/')[-1]
+    data_path = FR_COPY / f'compras-{slug}-dinamico-paralelo.json'
+    if not data_path.exists():
+        raise ValueError(f'{route}: runtime dictionary is missing')
+    data = json.loads(data_path.read_text())
+    if route in ('/compras/saara/', '/compras/feira-da-gloria/') and 'runtime_D_fr' in data and 'runtime_story_fr' in data:
+        runtime = data['runtime_D_fr']
+        expected_keys = data['qa'].get('translated_D_keys', data['qa'].get('fr_D_keys'))
+        if expected_keys is None or len(runtime) != expected_keys:
+            raise ValueError(f'{route}: D translation count differs from translation QA')
+        skip = []
+        for key, value in runtime.items():
+            targets = document.xpath(f'//*[@id="{key}"]')
+            if not targets:
+                continue
+            target = targets[0]
+            skip.append(key)
+            if key in ('hours', 'cats'):
+                children = list(target)
+                if not isinstance(value, list) or len(children) != len(value):
+                    raise ValueError(f'{route}: #{key} structure differs from translated items')
+                for child, text in zip(children, value):
+                    child.text = text
+                    for item in list(child):
+                        child.remove(item)
+            else:
+                target.text = value
+                for child in list(target):
+                    target.remove(child)
+        story = document.xpath('//*[@id="story"]')
+        if not story:
+            raise ValueError(f'{route}: story runtime target is missing')
+        story = story[0]
+        paragraphs = story.xpath('./p')
+        translations = data['runtime_story_fr']
+        expected_story = data['qa'].get('story_fr_paragraphs', data['qa'].get('fr_story_paragraphs'))
+        if expected_story is None or len(paragraphs) != expected_story or len(translations) != expected_story:
+            raise ValueError(f'{route}: story paragraph count differs from translation QA/source')
         for paragraph, text in zip(paragraphs, translations):
             paragraph.text = text
             for child in list(paragraph):
