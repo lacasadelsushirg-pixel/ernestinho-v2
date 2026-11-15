@@ -18,13 +18,15 @@ import DON_CAMILLO_RELEASE from '../assets/js/translations/don-camillo-release.j
 import BAR_DO_OMAR_RELEASE from '../assets/js/translations/bar-do-omar-release.js';
 import SPICY_FISH_RELEASE from '../assets/js/translations/spicy-fish-release.js';
 import DUMARE_RELEASE from '../assets/js/translations/dumare-release.js';
+import AMENDOEIRA_RELEASE from '../assets/js/translations/amendoeira-release.js';
 const ROUTE_TRANSLATIONS={
  '/gastronomia/cervantes-copacabana/':CERVANTES_TRANSLATIONS,
  '/gastronomia/chez-claude/':CHEZ_CLAUDE_TRANSLATIONS,
  '/gastronomia/don-camillo/':DON_CAMILLO_RELEASE,
  '/gastronomia/bar-do-omar/':BAR_DO_OMAR_RELEASE,
  '/gastronomia/spicy-fish/':SPICY_FISH_RELEASE,
- '/gastronomia/dumare/':DUMARE_RELEASE
+ '/gastronomia/dumare/':DUMARE_RELEASE,
+ '/gastronomia/amendoeira/':AMENDOEIRA_RELEASE
 };
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
@@ -129,6 +131,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   if(file==='assets/js/translations/bar-do-omar-release.js'){routes.add('/gastronomia/bar-do-omar/');continue;}
   if(file==='assets/js/translations/spicy-fish-release.js'){routes.add('/gastronomia/spicy-fish/');continue;}
   if(file==='assets/js/translations/dumare-release.js'){routes.add('/gastronomia/dumare/');continue;}
+  if(file==='assets/js/translations/amendoeira-release.js'){routes.add('/gastronomia/amendoeira/');continue;}
   if(file==='assets/js/buzios-taxonomy.js')continue;
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
@@ -377,7 +380,7 @@ async function worker(){
      if(localeScript){
       const tableMatch=localeScript.textContent.match(/const T=(\{[\s\S]*?\});/);
       if(!tableMatch)throw Error('Could not read static language-bar dictionary for '+route);
-      const table=JSON.parse(tableMatch[1]);
+      const table=JSON.parse(tableMatch[1].replace(/(^\{|,)\s*(pt|en)\s*:/g,'$1"$2":'));
       for(const key of ['PT','EN']){
        const locale=key==='PT'?'pt':'en';
        table[locale]||={};

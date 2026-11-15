@@ -2,6 +2,12 @@ import ATTRACTION_SEO from './attraction-seo.js';
 // Controlled on-page plan: metadata only. Editorial HTML remains unchanged.
 import { routeParts } from './locale-routing.js';
 export const SEO_METADATA = {
+  "/gastronomia/amendoeira/": {
+    ES: ["Bar da Amendoeira: guía completa | Ernestinho Carioca", "Guía editorial de Bar da Amendoeira: identidad, historia, recomendaciones, horarios, transporte y mapa en Río."],
+    PT: ["Bar da Amendoeira: guia completo | Ernestinho Carioca", "Guia editorial do Bar da Amendoeira: identidade, história, recomendações, horários, transporte e mapa no Rio."],
+    EN: ["Bar da Amendoeira: complete guide | Ernestinho Carioca", "An editorial guide to Bar da Amendoeira: its identity, history, recommendations, opening hours, transport and map in Rio."]
+  },
+
   "/naturaleza/": {
     ES: ["Naturaleza en Río: miradores, parques y trilhas | Ernestinho Carioca", "Te acompaño por la naturaleza de Río: miradores, parques, trilhas, cascadas y el Parque Estadual da Pedra Branca, con consejos para planificar cada salida."],
     PT: ["Natureza no Rio: mirantes, parques e trilhas | Ernestinho Carioca", "Acompanho você pela natureza do Rio: mirantes, parques, trilhas, cachoeiras e o Parque Estadual da Pedra Branca, com dicas para planejar cada passeio."],
