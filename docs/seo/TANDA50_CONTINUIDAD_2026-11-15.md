@@ -583,3 +583,14 @@ Hostinger ES/PT-BR/EN revisado; el HTML ES de producción tiene blob SHA `3c8119
 - Falta recuperar/revisar texto PT/EN, alts, description, FR integral y QA semántico. No se pudo correr build/guard ni capturas aprobadas 1440/390 en este entorno sin checkout. No completa; producción intacta.
 
 **Contabilidad que sustituye el corte anterior:** 27/50 auditadas en este ciclo; 0/50 completas; 0/50 nuevas publicadas; 23 pendientes. Siguiente ficha según la cola GSC de esta tanda: revisar la fila 11 de la tabla priorizada y revalidar impresión/estado antes de auditar.
+
+## Auditoría de producción — Terra Brasilis (corte del run, 15/11/2026)
+
+ES/PT-BR/EN leídos directamente desde Hostinger. El HTML ES de producción tiene blob SHA `1c3f6149742b62e50d233ef57f6b37dd8237d0fd` en la rama `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. La ruta FR no existe en Hostinger y Google no la reconoce.
+
+- Cada variante tiene 25 párrafos, un H1 y nueve H2; 21 tags de imagen (18 fuentes únicas) y 22 href normalizados; los sets de fotos/enlaces coinciden. No hay párrafos completos ES literales en PT/EN. Títulos, canonical y alternates están localizados/propios; las descripciones HTML de PT/EN siguen en español.
+- Ejemplos de alt en español compartidos por las variantes: «Terra Brasilis frente a Praia Vermelha», «espacio abierto en Praia Vermelha» y «plato con camarones del menú». Se deja como corrección editorial pendiente; fotos y enlaces se conservan.
+- GSC 2026-10-16–11-12: ES 307 imp/2 clic/pos 10,8; PT 106/0/10,6; EN 38/1/6,4 (451/3 total). Periodo anterior solo ES 145/0/8,9; impresiones ES subieron, sin atribuir causa. Las tres están enviadas e indexadas, fetch exitoso y canonical Google igual al declarado. FR desconocida.
+- Falta traducir metadescripciones/alts, revisión editorial, FR completa, guard/build incremental y capturas aprobadas 1440/390. No completa.
+
+**Contabilidad vigente que sustituye el corte anterior:** 28/50 auditadas; 0/50 completas; 0/50 nuevas publicadas; 22 pendientes. Próxima fila priorizada: `/gastronomia/carretao-lido/`; revalidar datos y estado antes de trabajar.
