@@ -33,3 +33,5 @@ node scripts/test_fr_preview.mjs ../preview-guia ../capturas-guia
 - Ampliación del 14 de noviembre: `/gastronomia/angu-do-gomes/` traducida íntegramente al francés (47 cadenas), con los textos editoriales, metadatos, mapa y alternativas. La auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan; canonical propio, `noindex` y fuera del sitemap. Horarios, dirección exacta y disponibilidad permanecen sujetos a confirmación oficial.
 
 - Ampliación del 14 de noviembre: `/gastronomia/elena/` traducida íntegramente al francés (47 cadenas únicas), incluidas metadatos, información práctica y textos alternativos. La auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan. Horarios, menú, eventos y disponibilidad requieren confirmación directa. Staging con canonical francés, `noindex` y fuera del sitemap.
+
+- Ampliación del 14 de noviembre: `/gastronomia/rotisseria-sirio-libanesa/` traducida al francés en 43 cadenas completas. Se conservaron los originales de mapa y fotos; auditoría ES/PT-BR/EN/FR y Chromium a 1440 y 390 px pasan. Horarios, carta y dirección sujetos a comprobación oficial. Staging con canonical propio, `noindex` y exclusión del sitemap.
