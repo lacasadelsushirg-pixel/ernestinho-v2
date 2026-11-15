@@ -57,3 +57,20 @@ Estos son conteos de etiquetas `<p>` estáticas en el HTML, no una aprobación d
 En el deployment READY `7b587a7070e6a3854b2cfa31ce538bcb8a8157d6`, Vercel fetch devolvió HTTP 200 para las seis variantes ES/PT-BR/EN de Don Camillo y Bar do Omar. El HTML fuente contiene diccionarios de idioma, pero antes de ejecutar JS los párrafos del cuerpo siguen en ES en rutas PT/EN. No se infiere el DOM visible a partir de esa fuente. La navegación directa con Chrome fue enviada a la pantalla de login de Vercel; no se completó autenticación, no se obtuvo DOM ejecutado ni capturas válidas. Por tanto, el output del runtime en ese deployment no queda certificado en este corte. El HEAD actual de PR #36 sigue siendo `15f0217676b959a92844f690b72248369d50f206`, con check Vercel `failure` por `build-rate-limit`; el preview READY pertenece a otro SHA. Hostinger no se modificó: conserva los párrafos españoles ya contados en PT/EN. **0/50 completas; 0 publicadas.**
 
 Siguiente paso verificable: disponer de runtime QA autorizado que no requiera solicitar credenciales en esta ejecución; luego comprobar render real, capturas 1440/390 y traducción FR integral antes de cerrar cualquier ficha o pedir revisión humana.
+
+
+## Search Console por URL — 15/11/2026
+
+Consulta nueva a OpenSEO/Search Console para la propiedad verificada `https://www.ernestinhocarioca.com.br/`, datos finales del 2026-10-16 al 2026-11-12 (PT). Cifras devueltas por URL:
+
+| Ruta | Clics | Impresiones | CTR | Posición media |
+|---|---:|---:|---:|---:|
+| `/pt/gastronomia/don-camillo/` | 1 | 32 | 3,13% | 8,2 |
+| `/en/gastronomia/don-camillo/` | 0 | 37 | 0% | 11,3 |
+| `/pt/gastronomia/bar-do-omar/` | 1 | 27 | 3,70% | 7,4 |
+| `/en/gastronomia/bar-do-omar/` | 0 | 10 | 0% | 8,3 |
+| `/pt/gastronomia/spicy-fish/` | 0 | 25 | 0% | 5,0 |
+
+Esto demuestra demanda e impresiones actuales en algunas variantes, pero la ventana aislada no permite concluir pérdida o tendencia; para eso hay que comparar periodos equivalentes y segmentar idioma/página. No son fallos de indexación. Sigue pendiente verificar en GSC el estado de indexación si se requiere: el informe aquí solo es rendimiento. Fuente: OpenSEO conectado a la propiedad indicada; estado `final`, sin pedir conexión adicional.
+
+En esta ejecución no cambió el código ni se editó Hostinger. Contabilidad estricta: **0/50 fichas completas, 0 publicadas**. Estado durable: PR #36; cabeza documental previa a este informe `14a8cff62e108ab89f114152dc8c0679ae228027`. Próxima acción: resolver acceso autorizado al runtime del preview y completar QA semántico/FR/1440+390 antes de liberar.
