@@ -226,3 +226,12 @@ OpenSEO/Search Console, propiedad verificada `https://www.ernestinhocarioca.com.
 Inspección GSC actual de las seis URLs ES/PT/EN de Don Camillo y Bar do Omar: las seis devuelven `PASS`, “Enviada e indexada”, `SUCCESSFUL`, `INDEXING_ALLOWED`; las seis tienen canonical de Google igual al declarado. Últimos rastreos disponibles: Don ES 2026-10-22, PT 2026-10-06, EN 2026-10-23; Bar ES 2026-10-05, PT 2026-10-06, EN 2026-10-05 (UTC). Esto descarta un error confirmado de indexación en esas variantes, no demuestra que Google haya recibido las correcciones privadas de PR #36. No se solicitó indexación.
 
 El deployment del SHA de código `349186f96e0afad47a59a8ec48f49bd464437390` continúa `QUEUED`; no se repitió un lote de navegador con HTML no confirmado. Las correcciones siguen solamente en rama/PR y producción no cambió. El estado estricto sigue **0/50 completas, 0/50 publicadas**.
+
+
+## Bloqueo de preview y estado de checks — 15/11/2026
+
+- El status combinado del HEAD de código `349186f96e0afad47a59a8ec48f49bd464437390` apunta a un deployment Vercel todavía `QUEUED`. El HEAD documental vigente `8ff4f1f4c105cdb266d510e962539d1f5253df1a` tiene check Vercel `failure`, enlace de resultado con parámetro `build-rate-limit`. No hay build log disponible para ese deployment ni HTML servido para el fix.
+- El fetch autorizado del host del deployment privado devolvió 302 hacia `/sso-api`, código `deployment_authentication_required`: Vercel Authentication rechazó el share link reutilizado. No se reintentó el mismo mecanismo. El preview del HEAD de código no se considera visto ni aprobado.
+- El status de PR #24 en su HEAD consultado solo muestra Vercel `success`; sigue draft porque su cuerpo dice explícitamente “Mantener como borrador”. PR #36 es un PR de release abierto, sin reviewers solicitados, cuyo HEAD actual tiene el bloqueo Vercel anterior. No es un candidato listo para la revisión final todavía.
+- Producción Hostinger sigue en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; el HTML público no incluye la corrección de Don Camillo. No se desplegó ni se pidió indexación.
+- Acción siguiente: esperar el desbloqueo de cuota de builds o resolverlo mediante el canal de Vercel autorizado; luego inspeccionar el deployment del commit vigente con acceso funcional. Hasta entonces, no contar Don Camillo como servido, QA finalizado ni publicado. **0/50 completas; 0/50 publicadas.**
