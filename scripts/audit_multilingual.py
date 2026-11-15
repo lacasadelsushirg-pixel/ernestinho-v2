@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """Audit actual generated output: reciprocal alternates, source content, links, schema."""
-import json, re, sys, csv, xml.etree.ElementTree as ET
+import argparse, json, re, sys, csv, xml.etree.ElementTree as ET
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urljoin,urlsplit,unquote
 ROOT=Path(__file__).resolve().parents[1]
-DIST=ROOT/'dist'
+arguments=argparse.ArgumentParser(description=__doc__)
+arguments.add_argument('--dist',type=Path,default=ROOT/'dist')
+arguments.add_argument('--output',type=Path,default=ROOT/'docs/seo')
+args=arguments.parse_args()
+DIST=args.dist
 ORIGIN='https://www.ernestinhocarioca.com.br'
 class Page(HTMLParser):
     def __init__(self):
@@ -31,14 +35,14 @@ manifest=json.loads((DIST/'locale-manifest.json').read_text())
 parsed={};errors=[];warnings=[];rows=[]
 def add(route,error):errors.append({'route':route,'error':error})
 def file_for(route):return DIST/(route.lstrip('/')+'index.html' if route.endswith('/') else route.lstrip('/'))
-def provisional_buzios_beach(route):return bool(re.fullmatch(r'/destinos/buzios/playas/[^/]+/',route))
+def provisional_buzios_beach(entry):return bool(entry.get('passthrough') and not entry.get('indexable'))
 for r in manifest['routes']:
-    if provisional_buzios_beach(r['route']):continue
+    if provisional_buzios_beach(r):continue
     p=Page();p.feed(file_for(r['route']).read_text());parsed[r['route']]=p
 indexable={r['route'] for r in manifest['routes'] if r.get('indexable')}
 for r in manifest['routes']:
     route=r['route']
-    if provisional_buzios_beach(route):
+    if provisional_buzios_beach(r):
         rows.append({'route':route,'language':r['language'],'indexable':False,'status':'EXCLUDED','words':0})
         continue
     p=parsed[route];before=len(errors)
@@ -46,7 +50,7 @@ for r in manifest['routes']:
         if not file_for(r['redirect']).exists():add(route,'Missing redirect destination')
         if p.alternates:add(route,'Redirect alias has hreflang')
         rows.append({'route':route,'language':r['language'],'indexable':False,'status':'PASS' if before==len(errors) else 'FAIL','words':len(' '.join(p.visible).split())});continue
-    if p.lang!=r['lang']:add(route,'Incorrect static html lang')
+    if p.lang!={'ES':'es','PT':'pt-BR','EN':'en'}[r['language']]:add(route,'Incorrect static html lang')
     if not p.title or not p.meta.get('description'):add(route,'Empty title/description')
     for key in ['og:title','og:description','og:url']:
         if not p.meta.get(key):add(route,'Missing '+key)
@@ -97,7 +101,7 @@ if not manifest.get('pilot'):
         route=u.find('s:loc',ns).text.removeprefix(ORIGIN)
         alternates={x.attrib['hreflang']:x.attrib['href'] for x in u.findall('x:link',ns)}
         if alternates!=parsed[route].alternates:add(route,'Sitemap/HTML alternates mismatch')
-OUT=ROOT/'docs/seo';OUT.mkdir(exist_ok=True)
+OUT=args.output;OUT.mkdir(parents=True,exist_ok=True)
 with (OUT/'QA_GENERATED_ROUTES.csv').open('w') as f:
     w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
 summary={'generated':manifest.get('generated',len(rows)),'audited':len(rows)-sum(r['status']=='EXCLUDED' for r in rows),'excluded_provisional_buzios_beaches':sum(r['status']=='EXCLUDED' for r in rows),'indexable':len(indexable),'indexable_per_language':manifest['indexablePerLanguage'],'failed':len([r for r in rows if r['status']=='FAIL']),'errors':errors,'warnings':warnings,'static_content_without_javascript':True}
