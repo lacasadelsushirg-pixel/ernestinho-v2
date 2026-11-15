@@ -907,7 +907,7 @@ Base: maestro ES/PT-BR/EN/FR y GSC final (2026-10-16–2026-11-12). Excluye las 
 | 1 | https://www.ernestinhocarioca.com.br/gastronomia/ocya-ilha/ | 109 | Auditada; indexada / Incompleta: 9/30 párrafos ES literales / Incompleta: 9/30 párrafos ES literales / Pendiente | c1938776e73a5232d6c8faa3cbfbb4cefad4ae0a | Auditada parcialmente; incompleta |
 | 2 | https://www.ernestinhocarioca.com.br/gastronomia/mee/ | 93 | Pendiente / En revisión / En revisión / Pendiente | 599c7ff00879856491c7203c36bf5931db084178 | Auditada ahora: 7/25 párrafos PT y 7/25 EN literales ES; 3/3 ES/PT/EN indexadas/fetch/canonical válidos; FR no existe. Incompleta. |
 | 3 | https://www.ernestinhocarioca.com.br/gastronomia/ryu/ | 82 | Pendiente / En revisión / En revisión / Pendiente | 5543e1e8019f0d966d972d36ce971445b42c4cd2 | Auditada ahora: PT 8/29 y EN 8/29 párrafos ES literales; 3/3 ES/PT/EN indexadas/fetch/canonical válidos; FR no existe. Incompleta. |
-| 4 | https://www.ernestinhocarioca.com.br/gastronomia/satyricon/ | 73 | Pendiente / En revisión / En revisión / Pendiente | e9b1b68e35db88362cbefca6fc900b7cd0d80824 | Pendiente de auditoría de producción |
+| 4 | https://www.ernestinhocarioca.com.br/gastronomia/satyricon/ | 73 | Pendiente / En revisión / En revisión / Pendiente | e9b1b68e35db88362cbefca6fc900b7cd0d80824 | Auditada ahora: texto PT/EN lingüísticamente mezclado/malformado (9/32 y 11/32 párrafos literales ES); 3/3 indexadas; FR no existe. Bloqueo editorial, no publicable. |
 | 5 | https://www.ernestinhocarioca.com.br/gastronomia/armazem-sao-thiago/ | 69 | Pendiente / En revisión / En revisión / Pendiente | f44d6602cf96a8f7f8d070f6ee7cb9ab83a93993 | Pendiente de auditoría de producción |
 | 6 | https://www.ernestinhocarioca.com.br/gastronomia/brota/ | 62 | En revisión / Corregido o traducido / Corregido o traducido / Corregido o traducido | e31a7f7dc52c2a4f1babe297da011ca300d4cc16 | Pendiente de auditoría de producción |
 | 7 | https://www.ernestinhocarioca.com.br/gastronomia/fiorino/ | 60 | Pendiente / En revisión / En revisión / Pendiente | c6b987695fc2c40ff2bb9853fc4b314f8b1f210c | Pendiente de auditoría de producción |
@@ -976,3 +976,12 @@ Imágenes 9/8/8 tags, siete URLs fuente comunes; alt con texto 7/9 ES y 6/8 PT/E
 No completa/no publicable: corregir y cotejar párrafos históricos PT/EN, FR integral, alts/hrefs, QA semántico/runtime, build incremental/guard y capturas aprobadas 1440/390. Hostinger intacto.
 
 **Tanda 2 actualizada:** 3/50 auditadas, 0 completas, 0 publicadas, 47 pendientes. CSV `fa446f011e6bc1449f403a94fce481ee687573b6`; informe en commit posterior. Próxima ficha #4: `/gastronomia/satyricon/`.
+
+
+## Auditoría de producción — Satyricon (segunda tanda, ficha 4/50; 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c`, SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob ES `e9b1b68e35db88362cbefca6fc900b7cd0d80824`. En 32 párrafos por variante, 9 PT y 11 EN coinciden literalmente con el ES. Además, el cuerpo PT/EN contiene traducción malformada y mezcla de idiomas (por ejemplo, “marisclos”, “cocina mediterrânea”, “meslas preparadlas”). Es una incidencia editorial confirmada; no se sustituirá con traducción automática sin recuperar y cotejar el contenido histórico.
+H1/title y H2 base localizados, pero no bastan para aprobar. Imágenes 11/10/10 tags, nueve URLs de imagen comunes; alts con texto 9/11 ES, 8/10 PT/EN. Hrefs 22 ES vs10 PT/EN pendientes de comparar sin modificarlos. Canonical propio y alternates ES/PT-BR/EN/x-default correctos, sin FR. GSC actual 16-oct–12-nov: PT64 impresiones/1 clic/posición14,9; EN9/0/7,4; periodo previo PT33/1/12,7, EN18/0/7,2, ES10/0/10,8. Inspección 3/3 ES/PT/EN enviada/indexada, fetch SUCCESSFUL y canonical Google=user; FR URL unknown.
+No completa/no publicable. Faltan recuperar PT/EN fieles al historial, traducción FR integral, QA semántico, alts/hrefs, runtime, build incremental/guard y capturas aprobadas 1440/390. Producción intacta.
+
+**Tanda 2 actualizada:** 4/50 auditadas; 0 completas; 0 publicadas; 46 pendientes. CSV `8ec44cabb19d56e18d2e5119846ad4bf91f446ed`; informe en commit documental posterior. Próxima ficha #5: `/gastronomia/armazem-sao-thiago/`.
