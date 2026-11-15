@@ -110,6 +110,15 @@
       "checked_strings": 52,
       "missing_keys": 0,
       "qa": "Traduction complète des chaînes, informations éditoriales, métadonnées et textes alternatifs. Aperçu privé à tester à 390 px et 1440 px ; prix, horaires et réservation à vérifier."
+    },
+    {
+      "route": "/gastronomia/corrientes-348/",
+      "source_sha": "5fc313e40fd083a81f9ea66790775df0982af28f",
+      "file": "assets/js/translations/fr/gastronomia-corrientes-348-paralelo.json",
+      "entries": 59,
+      "checked_strings": 59,
+      "missing_keys": 0,
+      "qa": "Traduction complète des 59 chaînes éditoriales, métadonnées et alternatives ; prix, réservations et données locales à confirmer. Aperçu privé à valider en responsive."
     }
   ],
   "editorial_review": "Ne pas traiter les horaires annoncés comme confirmés ; contrôler les conditions d'exploitation, la programmation musicale et l'accessibilité avant publication publique."
