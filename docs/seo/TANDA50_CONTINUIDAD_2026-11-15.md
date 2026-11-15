@@ -639,3 +639,19 @@ Leí desde Hostinger las variantes ES, PT-BR y EN de `/gastronomia/rotisseria-si
 La ficha queda incompleta: no hay FR, QA semántico, verificación del renderizado en runtime, prueba incremental/guard ni capturas aprobadas a 1440/390. Producción y enlaces/fotos/componentes permanecen intactos. No se intentó desplegar.
 
 **Contabilidad sustituida:** 32/50 auditadas; 0/50 completas según el criterio estricto; 0/50 nuevas publicadas; 18 pendientes. La siguiente fila de la cola de Gastronomía que debe confirmarse con el inventario y sus impresiones actuales es Guacamole Copacabana. El sitemap no se recontó en este corte; el último valor documentado es 3.588 URLs ES/PT/EN indexables y no se ha modificado.
+
+
+
+## Auditoría de producción — Guacamole Copacabana (corte 33/50, 15/11/2026)
+
+Hostinger ES/PT-BR/EN fue releído directamente en la rama productiva `revision/rendimiento-traducciones-81a904c`, commit `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. La página FR no existe en producción.
+
+- Cada variante tiene 19 párrafos, ocho H1/H2/H3 combinados observados en el muestreo de encabezados y 10 tags de imagen con ocho URLs únicas; los sets de URLs de fotos coinciden entre idiomas. Los 10 href normalizados también coinciden; no se modificaron enlaces ni fotos.
+- El título, la descripción y el contenido principal están traducidos en PT/EN. En el HTML estático PT comparte literalmente 2/19 párrafos con ES y EN 1/19; uno de ellos es el rótulo genérico `Gastronomía · Copacabana`. El encabezado `Delivery y novedades` sigue en español en PT/EN y varios alts descriptivos también conservan español. Son hallazgos de contenido estático que requieren revisar el runtime y el sentido editorial; no se afirma error visible sin navegador.
+- Canonical propio y alternates es/pt-BR/en/x-default presentes en ES/PT/EN; no se declara alterno francés. El H1 mantiene el nombre propio del establecimiento.
+- GSC final (16-oct–12-nov): ES 72 impresiones/0 clics/posición 8,4; PT 21/1/7,9; EN 76/0/16,8 (169 impresiones). Periodo previo (18-sep–15-oct): no hubo fila ES, PT 24/0/14,9 y EN 30/0/10,3 (54 impresiones). Las impresiones observadas aumentaron; posición e impresiones por idioma variaron y no se atribuye causa.
+- Inspección GSC: 3/3 variantes enviadas/indexadas, robots permitido, fetch exitoso y canonical Google igual al declarado. Últimos crawls: ES 22-oct; PT 05-oct; EN 04-oct. No se confirmó error de indexación; no se consultó GSC para FR.
+
+Esta ficha no cumple el cierre estricto: FR, cotejo de diccionarios/historial, QA semántico integral, renderizado runtime, build incremental/guard y capturas aprobadas 1440/390 siguen pendientes. Hostinger queda intacto.
+
+**Contabilidad vigente:** 33/50 auditadas, 0 completas, 0 publicadas y 17 pendientes. Siguiente priorización: usar impresiones reales del corte final actual y evitar rutas ya auditadas en esta tanda; la tabla histórica de agosto–noviembre no sustituye ese ranking.
