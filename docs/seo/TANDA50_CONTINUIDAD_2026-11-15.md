@@ -1139,3 +1139,16 @@ GSC final (2026-10-16–11-12): ES 14 impresiones/0 clics/posición 5,6; PT 2/0/
 **Estado:** ES/PT/EN presentes y completos estructuralmente; no termina la ficha bajo criterio estricto: FR y QA editorial integral/visual, paridad de medios/enlaces y build incremental/guard pendientes. Hostinger intacto; **0/50 fichas completas y 0/50 nuevas publicadas**.
 
 **Punto durable:** tanda 2: 19/50 auditadas, 0 completas, 0 publicadas, 31 pendientes. Siguiente #20 `/gastronomia/tia-palmira/`; verificar su blob desde producción antes de auditar. Inventario actualizado en commit `8f184fa0917a0e7418fab0b32ddbd63f3ef478bd`.
+
+
+## Auditoría de producción — Tia Palmira (segunda tanda, ficha 20/50; 15/11/2026)
+
+Hostinger producción `revision/rendimiento-traducciones-81a904c`, HEAD `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; blob HTML ES `8b5e209fa129e5bb11e11207d064d9013842b219`. Se verificaron 23 párrafos en ES/PT-BR/EN. Nueve párrafos PT y nueve EN son exactamente ES; solo coinciden con el diccionario histórico 10 párrafos PT y 9 EN. Hallazgo accionable: el HTML histórico embebía diccionarios editoriales manuales PT/EN de 19 entradas; el archivo histórico tiene blob `9dd05cc842f6a596eb9c6f197438a4256d3713d8` tanto en `42d03024d2c3765b0d96eb5f9763657d731baf4a` como en `8570793a992b262c5fb384a396ec949e6105775c`. Debe recuperarse fielmente lo que coincide con la versión actual y cotejarse aparte el contenido posterior (23 párrafos); no trasladar a ciegas bloques por posición.
+
+La ficha identifica correctamente un cierre permanente y trata el restaurante como memoria. La traducción recuperada debe preservar esa condición; no recomendar horarios, precios ni servicio vigente. Title/description traducidos, H1 es el nombre, canonical propio y alternates es/pt-BR/en/x-default coherentes. Hay 13 imágenes ES y 12 PT/EN, y 24 enlaces ES frente a 12 PT/EN; equivalencia exacta de medios/destinos pendiente. La ruta `/fr/gastronomia/tia-palmira/` no existe en producción consultada ni hay hreflang FR.
+
+GSC final (2026-10-16–11-12): ES 68 impresiones/0 clics/posición 9,0; PT 9/1/5,9; EN 20/0/8,2. Ventana anterior (2026-09-18–10-15): ES 6/0/8,5; PT 25/0/7,2; EN 9/0/5,4. ES y EN tienen más impresiones y peor posición media; PT tiene menos impresiones, un clic y mejor posición media. No se infiere causalidad. Inspección 3/3 indexadas, robots allowed, fetch successful y Google canonical igual al declarado; en sitemap. Rich result de breadcrumb “Elemento sin nombre” es una alerta estructurada, no error de indexación.
+
+**Estado:** traducciones PT/EN incompletas aunque se verificó una fuente histórica manual íntegra para 19 bloques; FR ausente; no completa/no publicable. Falta recuperar bloques actuales sin desalineación, cotejar expansiones y medios/links, FR integral, build incremental/guard y capturas 1440/390. Hostinger no se modificó; **0/50 completas y 0/50 nuevas publicadas**.
+
+**Punto durable:** tanda 2: 20/50 auditadas, 0 completas, 0 publicadas, 30 pendientes. Siguiente #21 `/gastronomia/aipo-aipim-920/`; verificar existencia/blob en producción antes de empezar. Inventario Tia Palmira actualizado en commit `0f3eba74efa8a1aa8c1991d275d2f65983ecb9d8`.
