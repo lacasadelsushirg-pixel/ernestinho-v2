@@ -1083,3 +1083,13 @@ Medios: 14 imágenes, 12 alts con texto, 26 enlaces por variante; equivalencia d
 **Estado:** traducciones PT/EN presentes sin literales ES, pero no se recuperó origen editorial íntegro ni se cerró QA semántico; FR ausente; incompleta/no publicable. Faltan validar source y contenido, completar FR, revisar medios/enlaces, build incremental/guard y capturas 1440/390. Hostinger intacto. CSV `37909430dda234777c58fd2c9bdc2f8ff15495a9`.
 
 **Punto durable:** tanda 2: 14/50 auditadas, 0 completas, 0 publicadas, 36 pendientes. Siguiente #15 `/gastronomia/cafe-do-alto/`, blob HTML ES producción `9fa6005690ad4fed2d04593e76834b00caefd2e5`.
+
+## Auditoría de producción — Café do Alto (segunda tanda, ficha 15/50; 15/11/2026)
+
+Producción Hostinger `revision/rendimiento-traducciones-81a904c` en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; HTML ES blob `9fa6005690ad4fed2d04593e76834b00caefd2e5`. ES/PT/EN tienen 24 párrafos c/u, cero coincidencias literales PT/EN con ES. Sin embargo, el title PT y EN conserva “guía completa” en español; las descriptions sí están localizadas y H1 es el nombre propio. Canonical por variante y alternates es/pt-BR/en/x-default válidos; FR ausente en ruta consultada y sin hreflang. El nombre Café do Alto no apareció en los cuatro chunks gastronómicos productivos revisados; se debe encontrar la traducción editorial histórica antes de certificar semántica.
+
+10 imágenes, 8 alt con texto y 26 enlaces por variante; destino/source parity pendiente. GSC final (2026-10-16–11-12): ES 62 impresiones/0 clics/posición 14,4; EN 42/2/10,1; PT sin fila. Periodo previo: ES 23/0/10,4; aumentan impresiones y empeora posición promedio; la serie EN anterior no devolvió fila. Inspección ES/EN PASS, indexadas, fetch correcto, canonical Google=declarado. PT “Descubierta: actualmente sin indexar”; rastreo/fetch/canonical no establecidos. Sin error confirmado. GSC alerta de breadcrumb “Elemento sin nombre” para ES/EN, estructurada y distinta de indexación.
+
+**Estado:** cuerpo PT/EN sin bloques literales ES, pero title incompleto y fuente/QA semántica pendientes; FR ausente. No completa/no publicable. Pendientes: recuperar fuente y comparar el contenido, traducir metadata residual, FR integral, revisar alts/enlaces/fotos, ejecutar build y guard y aprobar capturas 1440/390. Hostinger sin cambios. CSV `23ec59ceb5caeac0b79b426b03ce0fd2f0285f69`.
+
+**Punto durable:** tanda 2 con 50 URL; 15/50 auditadas, 0 completas, 0 publicadas, 35 pendientes. Próxima #16 `/gastronomia/classico-leme/`, blob HTML ES de producción `4ab5e62c48b0f9ed4fb0c8c9f5e578271ea20f20`.
