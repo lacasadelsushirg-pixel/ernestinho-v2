@@ -738,3 +738,16 @@ Hostinger producción revision/rendimiento-traducciones-81a904c, commit 21bb6877
 Ficha no completa/publicable: traducción FR, QA semántico/rendimiento de renderizador, revisión de alts, build incremental/guard y capturas 1440/390 pendientes. Hostinger intacto.
 
 **Contabilidad canónica que sustituye al corte anterior:** 39/50 auditadas, 0 completas, 0 nuevas publicadas, 11 pendientes. Siguiente candidata se escogerá por GSC actual entre rutas pendientes y no recertificadas. CSV actualizado en commit 3c3b04b99af36b2834f6f04ed757746a46fc51cb.
+
+## Auditoría de producción — Tacacá do Norte (corte 40/50, 15/11/2026)
+
+Hostinger producción revision/rendimiento-traducciones-81a904c, commit 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346. ES/PT-BR/EN leídos; FR ausente. ES GitHub blob a626af38b86903322ba8b7f6e84e68cdda33e5ce.
+
+- Alerta editorial confirmada: 21 párrafos por variante, 10/21 párrafos PT y EN idénticos literalmente al ES. Dos H2 de ampliación V2 (“Notas adicionales…” e “Información adicional…”) siguen solo en español en PT/EN. H1 es nombre propio del restaurante; title y description localizados; los H2 base están traducidos.
+- Canonical propio y hreflang de cabecera es/pt-BR/en/x-default son coherentes. No se enlaza FR. 15/14/14 tags img, ocho fuentes únicas por idioma; alts con texto en 13/15 ES y 12/14 PT/EN. Hrefs 18 ES vs 6 PT/EN: doce destinos deben cotejarse antes de restaurar; no se tocaron.
+- GSC final (16-oct–12-nov): ES 124 impresiones/0 clics/pos. 10,8; PT 10/0/6,6; EN 46/0/9,2 (180 impresiones). Periodo previo (18-sep–15-oct): ES 25, PT 34, EN 14 (73). La suma observada subió 107 impresiones, sin causalidad atribuida.
+- Inspección GSC: 3/3 variantes ES/PT/EN Submitted and indexed, ALLOWED/SUCCESSFUL, Google canonical=user; FR URL unknown. Breadcrumb PASS con elemento sin nombre: alerta estructurada y no de indexación.
+
+Ficha incompleta/no publicable: traducir 10 párrafos y dos headings, cotejar histórico/links/alt, FR, QA semántico/runtime, build incremental/guard y capturas 1440/390. Hostinger intacto.
+
+**Contabilidad canónica que sustituye al corte anterior:** 40/50 auditadas, 0 completas, 0 nuevas publicadas, 10 pendientes. Inventario actualizado en commit 3516d72203da9c54d7bee7b5f94157f192acfb4c.
