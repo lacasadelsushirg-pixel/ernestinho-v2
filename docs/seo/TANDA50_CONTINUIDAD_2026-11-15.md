@@ -1733,3 +1733,10 @@ Tras #20, quedan **30 fichas**. El orden es la suma de impresiones ES/PT-BR/EN e
 | 50 | https://www.ernestinhocarioca.com.br/gastronomia/bafo-da-prainha/ | 71 | `084a0c88ece63392eb28bad1fa1d51089bb85d9e` | Pendiente de auditoría |
 
 Recuento de este corte: **20/50 auditadas en producción; 0/50 completas (PT/EN/FR + runtime + QA contenido/SEO + build incremental + sitemap/canonical/hreflang + capturas); 0/50 publicadas**. Las #21–50 quedan enumeradas para reanudación sin repetir #1–20. El conjunto de PR #37 ahora tiene 13 rutas en el allowlist de renderer (las nueve previas más La Bicyclette, Stalos, Giuseppe Mar y Aipo & Aipim 391); las cinco fichas con metadata override en el código actual son Haru, Fogo, Stalos, Giuseppe Mar y Aipo & Aipim. Esto solo es un candidato sin publicar: Vercel dio `failure` por `build-rate-limit` antes de este corte, no hay runtime/sitemap/capturas del HEAD actual, y PR #37 no tiene revisión humana. Producción Hostinger permanece intacta en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. Siguiente paso: retomar #21 Aprazível y continuar la cola por impresiones; no contar cualquier ficha hasta completar idioma/QA/capturas.
+
+
+### Control de integridad del inventario — 2026-11-16
+
+Al validar el CSV maestro en el checkpoint se detectaron ocho filas con columnas desplazadas por comas sin escapar y campos incompletos que ya estaban presentes en el inventario heredado (blob `52fdc77888921692bb60d258c272457297be4868`). Se corrigió únicamente la serialización de esas ocho filas, conservando sus datos editoriales y agregando las referencias de producción verificadas donde faltaba el campo. El CSV vuelve a tener 1.204 registros, 14 columnas y cero filas con longitud distinta del encabezado. No cambia el estado de ninguna ficha auditada ni cuenta nuevas páginas como completas.
+
+CSV reparado: commit `7ed3dbe7066c23050646b6176d9197b61c7d7785`; los estados de fichas 17–20 y las 30 pendientes de la tanda 3 se conservan. Hostinger continúa sin cambios.
