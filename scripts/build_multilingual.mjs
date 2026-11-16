@@ -43,16 +43,26 @@ const liveManifestPath=path.join(liveRoot,'locale-manifest.json');
 let liveManifest=null;
 if(!manualUpdating&&!process.argv.includes('--full')){
  try{
-  const candidate=JSON.parse(fs.readFileSync(liveManifestPath,'utf8'));
+  const raw=fs.readFileSync(liveManifestPath,'utf8');
+  let candidate;
+  try{candidate=JSON.parse(raw);}
+  catch(parseError){
+   const trimmed=raw.trimEnd();
+   // Older Hostinger output may be cut after the routes array's closing bracket.
+   // Recover only the single missing outer object brace; reject any other corruption.
+   if(!trimmed.endsWith(']'))throw parseError;
+   candidate=JSON.parse(trimmed+'}');
+   console.warn('Recovered published locale manifest with one missing outer brace.');
+  }
   if(Array.isArray(candidate.routes)&&candidate.routes.length&&fs.existsSync(path.join(liveRoot,'index.html')))liveManifest=candidate;
- }catch{}
+ }catch(error){console.warn('Published locale manifest unavailable; full build required: '+error.message);}
 }
 const currentCommit=execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim();
 const deletedSourceRoutes=new Set();
 let incrementalRoutes=null;
 let requiresFull=process.argv.includes('--full')||!liveManifest;
 // Runtime-only modules are copied during incremental builds; they don't require rerendering every locale page.
-const runtimeOnlyJsAssets=new Set(['assets/js/site.js','assets/js/bulk-photo-references.js']);
+const runtimeOnlyJsAssets=new Set(['assets/js/site.js','assets/js/bulk-photo-references.js','assets/js/locale-routing.js','assets/js/translations/home.js']);
 if(liveManifest&&!manualUpdating&&!requiresFull){
  const baseCommit=liveManifest.sourceCommit||'34a2e081f39d95245f6720a1fb3296bde3f5891d';
  let changes;
