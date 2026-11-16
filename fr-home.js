@@ -64,6 +64,11 @@ new MutationObserver(()=>{
   scheduled=true;
   queueMicrotask(()=>{scheduled=false;localize()});
 }).observe(document.body,{subtree:true,childList:true,characterData:true});
+let repairPasses=0;
+const repairTimer=setInterval(()=>{
+  localize();
+  if(++repairPasses>=20)clearInterval(repairTimer);
+},200);
 document.addEventListener('click',event=>{
   const link=event.target.closest('a[href]');
   if(!link)return;
