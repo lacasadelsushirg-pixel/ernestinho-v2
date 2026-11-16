@@ -11,13 +11,13 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const APPROVED_BLOBS = Object.freeze({
   "docs/FROZEN_PAGES_20260930.json": "30b57d0ff39aa1dde138aeff75cd688a4f48da1a",
 // Owner-authorized, path-scoped baseline approval (16 Nov 2026): see docs/HOME_LANGUAGE_RELEASE_20261116.md.
-// Exact scope: French desktop/mobile selector, FR route to /fr/, and PT-BR/EN Home copy only.
+// Exact scope: French desktop/mobile selector, FR route to /fr/, and Home locale content. Follow-up scope (16 Nov 2026): recognize FR in the locale router/i18n, add the complete FR Home dictionary, and retain all manual phrase-dictionary entries; see docs/HOME_LANGUAGE_RELEASE_20261116.md.
   "assets/js/site.js": "53f19888370724acb43ab1ac24029462b1d1a345",
-  "assets/js/i18n.js": "230bafc0a0f68928374251aac71e77d21bf7325c",
-  "assets/js/locale-routing.js": "f477783e84e629eff8b2c1b216d89698c361da55",
+  "assets/js/i18n.js": "f30f2c99dfa195fdb61c2f1f464f911f83b7738e",
+  "assets/js/locale-routing.js": "ffb440bf3460f79520f4ae233faf290ae1f54d89",
   "assets/js/app.js": "ab5e3ee031f0ea6b49e91c7e7312228391177f69",
   "assets/js/bulk-photo-references.js": "0302793e70b66bc617eb54fbf6855ce4c3e51246",
-  "assets/js/translations/home.js": "a4821986caf631c7e7f555781ad415f5108e1e60",
+  "assets/js/translations/home.js": "a9273fe7b12bb4e701b80b8d55fb9e9d0bab56fc",
   "assets/js/translations/quiero.js": "6d78641a7dff97e7c093825d9b9cb86d854276c9",
   "assets/css/tokens.css": "640bd71020c162ec2a05360c07817e1e07549fa6",
   "assets/css/app.css": "0fbeba7cf9b8631405e7c3cd514d2f9e0a146b96",
