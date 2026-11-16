@@ -18,7 +18,7 @@ Rama: `release/home-pt-en-safe-20261116`
 
 Base: `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`
 
-Commit remoto del contenido: `236efcb2680db95c56d6336549813306f41b6533`
+Commit remoto del contenido y registro previo: `6dec992d29866bcae279fb508df54307297fe398`
 
 PR de revisión: [#42](https://github.com/lacasadelsushirg-pixel/ernestinho-v2/pull/42)
 
@@ -41,6 +41,27 @@ Objetivo del sublote: mejorar la redacción editorial completa de las 97 claves 
 - Protección: el único recurso compartido protegido modificado es `assets/js/translations/home.js`. Se actualiza la aserción editorial correspondiente en `scripts/qa_locale_interactions.mjs`.
 - Fotos/layout/HTML/SEO: no se modifican en este sublote.
 
+## Ejecución Hostinger: QA privado de Inicio FR
+
+Rama desplegada en la carpeta privada de Hostinger `fr`: `release/fr-public-initial-20261115`
+
+HEAD remoto y desplegado: `60a935b468332ac70b82fce70b1c6c1c15cdfc28`
+
+URL comprobada: `https://www.ernestinhocarioca.com.br/fr/`
+
+Estado real: visible para QA, pero privado para buscadores con `noindex, nofollow`; no se cuenta como página publicada/indexable ni se incorpora al sitemap.
+
+### Cambios y comprobaciones de esta ejecución
+
+- `b5017ca16d214dd056a1f95f840fb1639c36e7ed`: corrigió cuatro etiquetas de accesibilidad que seguían en español (`Expériences précédentes`, `Expériences suivantes`, `Expériences à la une` y `Rio en direct, Ernestinho à la télévision et événements`).
+- `60a935b468332ac70b82fce70b1c6c1c15cdfc28`: añadió pasadas breves de localización después del renderizado asíncrono para evitar que las tarjetas dinámicas reaparezcan en español.
+- Despliegue Git de la rama a la carpeta `fr` de Hostinger: confirmado correctamente.
+- Comprobación de archivo en Hostinger: las cuatro etiquetas francesas están presentes; las versiones españolas ya no aparecen; canonical `https://www.ernestinhocarioca.com.br/fr/`; `noindex, nofollow` y Googlebot noindex preservados.
+- Comprobación HTTP/renderizado real: las 17 tarjetas dinámicas de Inicio, destacados, selector y botón del asistente se muestran en francés después de cargar la página.
+- Sintaxis: `node --check fr-home.js`: PASS. Integridad: `git diff --check`: PASS.
+- Fotografías, rutas `/FOTOS/HOME/`, layout, sitemap y la portada ES no se modificaron.
+- Publicaciones indexables nuevas de esta ejecución: **0**. Mejora visible en entorno privado de Hostinger: **1 página** (`/fr/`).
+
 ### Bloqueo exacto de publicación
 
 El repositorio exige revisión humana independiente para `assets/js/translations/home.js`. El propietario autorizó las traducciones, pero la protección explícita no permite simular esa segunda revisión. El candidato debe recibir esa aprobación en su PR; después se integra a la rama pública y se publica mediante el flujo controlado hacia la raíz de Hostinger, con respaldo y comprobación HTTP posterior.
@@ -53,7 +74,8 @@ No utilizar el PR #41 como release de este sublote: además de Inicio modifica `
 2. Tras aprobación y checks, integrar en `revision/rendimiento-traducciones-81a904c`.
 3. Publicar únicamente `assets/js/translations/home.js` en la raíz real de Hostinger con respaldo previo.
 4. Verificar por HTTP `/pt/` y `/en/` a 390 px y 1440 px, contenido 97/97, imágenes, selector, canonical y hreflang.
-5. Mantener `/fr/` privado; continuar su QA completo y después pasar a Guía de Río.
+5. Mantener `/fr/` privado y fuera del sitemap; completar su QA editorial/SEO a 390 px y 1440 px antes de considerar cualquier indexación.
+6. Cuando Inicio esté completo y publicado en los idiomas autorizados, continuar con Guía de Río.
 
 ## Referencias concurrentes
 
@@ -61,3 +83,4 @@ No utilizar el PR #41 como release de este sublote: además de Inicio modifica `
 - PR #40: Elena PT/EN, fuera de prioridad mientras Inicio no esté publicado.
 - PR #41: candidato amplio de Inicio/FR; no publicado y sin revisiones.
 - Producción seguía en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346` al iniciar este registro.
+- PR #42 seguía abierto, no borrador, sin revisiones registradas y con HEAD remoto `6dec992d29866bcae279fb508df54307297fe398` al cerrar esta ejecución.
