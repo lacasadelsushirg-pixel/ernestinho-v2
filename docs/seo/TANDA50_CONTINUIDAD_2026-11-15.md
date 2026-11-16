@@ -1632,3 +1632,15 @@ Hostinger producción revision/rendimiento-traducciones-81a904c, SHA 21bb68772fa
 Checkpoint: Tanda 3 alcanza **14/50 auditadas; 0 completas y 0 publicadas**. Fichas #1–14: Amendoeira; Chama Rio Copacabana; Carretão Copacabana—Siqueira Campos; Carretão Lido; Plage Café; Spicy Fish; Terra Brasilis; Haru; Fogo; Dumaré; Delírio Tropical Rio Sul; K08; Churrasqueira Rio; Garota de Ipanema. Quedan 36 para auditar. Próxima prioridad libre ya rankeada por impresiones GSC: Polis Sucos (161 totales; ES62, PT99; EN sin fila) y después Feira de São Cristóvão (160; ES50/PT101/EN9), La Bicyclette (148) y Stalos (145). Se verifica cada una contra inventario y producción antes de contarla.
 
 Inventario actualizado en commit 0f497352fb3f9c93f693d6a86f6ced0259045fb9. Hostinger no se modificó; PR #37 sigue candidato privado con check pending y sin revisión humana independiente. 
+
+## Tanda 3 — ficha 15/50: Polis Sucos (16/11/2026)
+
+Hostinger producción revision/rendimiento-traducciones-81a904c SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; HTML fuente ES blob 79fee661887876e6b21755854a8f21b1f53d139f.
+
+- ES/PT/EN: 32 párrafos por idioma y 0 coincidencias literales posicionales ES→PT y ES→EN. El HTML contiene 19 claves de diccionario por idioma PT/EN; el renderer legacy ejecuta full('es'), y PR #37 selecciona locale de ruta. Titles/meta descriptions localizados; canonical/hreflang ES/PT-BR/EN/x-default propios. Imágenes 11 por variante; dos alt vacíos por idioma.
+- GSC final 16-oct–12-nov: ES 62 impresiones/0 clics/posición 13,6; PT 99/0/14,5; EN sin fila de rendimiento. La inspección ES/PT indica enviadas e indexadas, fetch correcto, robots permitido y canonical coincidente. La inspección EN responde «Google no reconoce esta URL», veredicto neutral, sin fecha de rastreo ni fallo confirmado. Se distingue de un error de indexación: ES/PT no tienen error; EN no tiene aún estado conocido por Google.
+- FR no aparece enlazado ni en sitemap. El renderer de build y el QA visual/semántico siguen pendientes; no se cuenta completa ni publicada.
+
+**Tanda 3 actualizada: 15/50 auditadas; 0 completas; 0 publicadas.** Fichas #1–15: Amendoeira, Chama Rio Copacabana, Carretão Copacabana—Siqueira Campos, Carretão Lido, Plage Café, Spicy Fish, Terra Brasilis, Haru, Fogo, Dumaré, Delírio Tropical Rio Sul, K08, Churrasqueira Rio, Garota de Ipanema y Polis Sucos. Quedan 35; próxima prioridad verificada por GSC: Feira de São Cristóvão (160 impresiones combinadas ES/PT/EN), seguida por La Bicyclette (148), Stalos (145), Giuseppe Mar (142). Confirmar URL/inventario antes de auditar cada una.
+
+Inventario actualizado en 95a4d7dd858afcdadee744325507bf364f4ff8fb. Producción permanece en 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; PR #37 candidato mantiene 0 publicaciones, check pending y sin revisor humano independiente.
