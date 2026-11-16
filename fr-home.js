@@ -19,6 +19,12 @@ function localize(){
       if(value && value!==old)el.setAttribute(field,value);
     }
   }
+  for(const card of document.querySelectorAll('.door,.feature')){
+    const image=card.querySelector('img.card-image');
+    const heading=card.querySelector('b');
+    const alt=heading?.textContent?.trim();
+    if(image && alt && image.alt!==alt)image.alt=alt;
+  }
   const toggle=document.getElementById('lang');
   if(toggle && toggle.textContent!=='FR')toggle.textContent='FR';
   const isPreview=location.pathname.startsWith('/fr-vista-luna/');
