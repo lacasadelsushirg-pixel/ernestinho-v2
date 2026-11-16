@@ -38,3 +38,10 @@ Las fichas francesas recuperadas siguen con `noindex`; se preservan en GitHub pe
 ## Estado real en Hostinger
 
 La última compilación de producción leída en Hostinger terminó correctamente en el commit `21bb6877` de `revision/rendimiento-traducciones-81a904c`. El PR #41 continúa sin integrar y no hay archivos de esta propuesta publicados. La integración Vercel no es parte del flujo de despliegue; el destino operativo es GitHub → Hostinger.
+
+
+## Preparación de la Guía de Río
+
+El inventario publicado de Hostinger muestra 22 páginas HTML para Guía en cada una de ES, PT y EN: el hub y 21 temas, con las mismas rutas en los tres idiomas. La comparación de tamaños no encontró páginas PT o EN con menos del 88% del tamaño de su equivalente ES; esto es solo un filtro de integridad, no una validación semántica ni visual.
+
+En FR hay 11 páginas de Guía (hub y 10 temas). Faltan 11 rutas que se deben completar en el siguiente bloque: accesibilidad, alquiler-auto, cpf, documentos, donde-alojarse, guarda-equipaje, mes-a-mes, moverse, pix, seguro y terminales. Las rutas francesas existentes siguen noindex hasta revisar el contenido completo.
