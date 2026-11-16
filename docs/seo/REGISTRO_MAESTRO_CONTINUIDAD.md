@@ -198,3 +198,17 @@ Cambios exactos:
 - HTTP/navegador después del build fallido: `/pt/` continúa mostrando la copia anterior “Não quero lhe dar uma lista infinita...”; `/en/` continúa mostrando “I do not want to hand you an endless list...”.
 - `/pt/`: canonical correcto, alternates ES/PT-BR/EN/x-default, 36 imágenes y 0 rotas. Esto confirma que el build fallido no sustituyó la raíz por un paquete parcial.
 - Intervención mínima pendiente: una persona distinta debe revisar y aprobar PR #45; además debe arrancar y quedar verde el workflow `Protect approved content`. Hasta entonces no se despliega.
+
+
+## Punto durable — 2026-11-16 UTC — QA integral del incremental Hostinger
+
+- Producción remota verificada: `d9ae3339e63cfed8873cc36a0a48712ddcee165d`.
+- Último build Hostinger: `01a1e4a2-daae-7224-921f-03b302b4c7c1`, estado `failed`; no hubo un despliegue posterior. El fallo sigue siendo el build masivo heredado de 3.612 páginas y no se reintentó.
+- PR de corrección: [#45](https://github.com/lacasadelsushirg-pixel/ernestinho-v2/pull/45), abierto, fusionable y con los workflows `Protect approved content` y `Petrópolis preview QA` en verde. Revisiones humanas registradas: 0.
+- Commit remoto adicional: `aaa210a9f4224b8dc2c6e112c39f7ba624d67342`.
+- Hallazgo del QA integral: la primera versión seleccionaba solo Inicio, pero la copia genérica podía superponer el árbol fuente `fr/` y añadir `/fr/` al sitemap si esa fuente era indexable. Se corrigió para que todo build incremental herede exactamente el árbol FR ya publicado y su indexabilidad; un candidato FR del repositorio no puede hacerse público como efecto secundario de PT/EN.
+- Simulación aislada sobre 3.588 rutas: `Build mode: incremental; rendering 3 of 3612`; seleccionadas `/`, `/pt/`, `/en/`; 3.588 archivos y 3.588 URL del sitemap preservados; centinela profundo EN preservado; árbol FR privado preservado byte a byte; `/fr/` ausente del manifiesto y sitemap.
+- Pruebas: sintaxis Node PASS; prueba negativa sin manifiesto PASS y `dist` intacto; `git diff --check` PASS; guard PASS con 586 archivos sin cambios y 247 diferencias históricas heredadas, sin regenerar aprobaciones.
+- Publicaciones nuevas de esta ejecución: **0**. No se lanzó build ni se modificó `public_html`.
+- Bloqueo exacto: falta una revisión humana independiente del PR #45. Con esa aprobación y checks verdes, integrar el PR; el build Hostinger debe mostrar exactamente `3 of 3612`. Si muestra `full`, si falta el manifiesto o si FR cambia de indexabilidad, abortar y no publicar.
+- Siguiente paso después de publicar el fix: actualizar sobre producción el candidato pequeño de Inicio PT-BR/EN, mantener FR privado/noindex, ejecutar el mismo incremental de 3 rutas y verificar `/`, `/pt/` y `/en/` por HTTP a 390 y 1440 px.
