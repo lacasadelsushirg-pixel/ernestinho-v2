@@ -33,7 +33,7 @@ const provisionalBuziosBeach=route=>{const m=route.match(/^\/destinos\/buzios\/p
 const indexable=f=>{const route=routeFor(f);if(regionalRouteSet.has(route))return true;const html=fs.readFileSync(f,'utf8');return !/404\.html$/.test(f)&&!provisionalBuziosBeach(route)&&!redirects.has(route.replace(/\/$/,'')||'/')&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(html);};
 const indexableRoutes=new Set(files.filter(indexable).map(routeFor));
 const frenchHomeSource=path.join(root,'fr','index.html');
-const frenchHomeIndexable=fs.existsSync(frenchHomeSource)&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(fs.readFileSync(frenchHomeSource,'utf8'));
+const sourceFrenchHomeIndexable=fs.existsSync(frenchHomeSource)&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(fs.readFileSync(frenchHomeSource,'utf8'));
 const prefix=(route,lang)=>lang==='ES'?route:'/'+lang.toLowerCase()+route;
 const pilot=process.argv.find(a=>a.startsWith('--routes='))?.slice(9).split(',');
 const manualUpdating=process.argv.includes('--update');
@@ -158,6 +158,10 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
 const useLiveIncremental=!!liveManifest&&!manualUpdating&&!requiresFull;
 const updating=manualUpdating||useLiveIncremental;
 const previous=manualUpdating?JSON.parse(fs.readFileSync(path.join(out,'locale-manifest.json'))):useLiveIncremental?liveManifest:null;
+// Automatic incremental releases inherit the live FR tree and its current
+// indexability exactly. A source-side FR candidate must never become public as
+// a side effect of an unrelated PT/EN build.
+const frenchHomeIndexable=!useLiveIncremental&&sourceFrenchHomeIndexable;
 const selectedRoutes=pilot?new Set(pilot):useLiveIncremental?incrementalRoutes:null;
 const targets=files.filter(f=>!selectedRoutes||selectedRoutes.has(routeFor(f))).flatMap(f=>['ES','PT','EN'].map(language=>({file:f,route:routeFor(f),language})));
 console.log('Build mode: '+(useLiveIncremental?'incremental':'full')+'; rendering '+targets.length+' of '+(files.length*3)+' locale pages; source '+currentCommit);
@@ -230,6 +234,7 @@ if(useLiveIncremental){
 fs.mkdirSync(out,{recursive:true});
 // Copy assets and route-local modules/data; exclude editorial/report/build inputs.
 function copy(dir,dest){for(const e of fs.readdirSync(dir,{withFileTypes:true})){
+ if(useLiveIncremental&&dir===root&&e.name==='fr')continue;
  if(ignore.has(e.name)||e.name.startsWith('.')||['package.json','package-lock.json','AGENTS.md','README.md','vercel.json','sitemap.xml'].includes(e.name))continue;
  const from=path.join(dir,e.name),to=path.join(dest,e.name);
  if(e.isDirectory()){fs.mkdirSync(to,{recursive:true});copy(from,to);}else if(!e.name.endsWith('.html')||isGoogleVerification(from)||path.relative(root,from).split(path.sep)[0]==='fr')fs.copyFileSync(from,to);
