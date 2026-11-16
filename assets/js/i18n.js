@@ -1,5 +1,5 @@
 import { routeParts, hasLocaleRoutes, localeHref } from './locale-routing.js';
-export const LANGS = Object.freeze(["ES", "PT", "EN"]);
+export const LANGS = Object.freeze(["ES", "PT", "EN", "FR"]);
 const STORAGE_KEY = "ec-lang";
 const dictionaries = new Map();
 const listeners = new Set();
@@ -52,7 +52,7 @@ export function applyTranslations(root = document, lang = getLanguage()) {
       else el.setAttribute(attribute, value);
     }
   }
-  document.documentElement.lang = selected === "ES" ? "es" : selected === "PT" ? "pt-BR" : "en";
+  document.documentElement.lang = selected === "ES" ? "es" : selected === "PT" ? "pt-BR" : selected === "FR" ? "fr" : "en";
   return selected;
 }
 
@@ -67,7 +67,8 @@ export function setLanguage(language) {
   const languageLabels = {
     ES: `Idioma actual: ${selected}. Cambiar idioma`,
     PT: `Idioma atual: ${selected}. Alterar idioma`,
-    EN: `Current language: ${selected}. Change language`
+    EN: `Current language: ${selected}. Change language`,
+    FR: `Langue actuelle : ${selected}. Changer de langue`
   };
   document.querySelectorAll("#lang, [data-lang-toggle], [data-ec-desktop-language-group]").forEach(control => {
     const isGroup = control.matches("[data-lang-toggle], [data-ec-desktop-language-group]") && (control.getAttribute("role")==="group" || control.querySelector("[data-desktop-language]"));
