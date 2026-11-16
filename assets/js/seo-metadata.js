@@ -844,6 +844,11 @@ Object.assign(SEO_METADATA, {
     ES: ['Stalos: guía completa | Ernestinho Carioca', 'Guía editorial de Stalos: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.'],
     PT: ['Stalos: guia completo | Ernestinho Carioca', 'Guia editorial de Stalos: identidade, história, recomendações, horários, transporte e mapa no Rio.'],
     EN: ['Stalos: complete guide | Ernestinho Carioca', 'Editorial guide to Stalos: its identity, history, recommendations, opening hours, transport and map in Rio.']
+  },
+  '/gastronomia/giuseppe-mar/': {
+    ES: ['Giuseppe Mar: guía completa | Ernestinho Carioca', 'Guía editorial de Giuseppe Mar: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.'],
+    PT: ['Giuseppe Mar: guia completo | Ernestinho Carioca', 'Guia editorial do Giuseppe Mar: identidade, história, recomendações, horários, transporte e mapa no Rio.'],
+    EN: ['Giuseppe Mar: complete guide | Ernestinho Carioca', 'Editorial guide to Giuseppe Mar: its identity, history, recommendations, opening hours, transport and map in Rio.']
   }
 });
 export function applySeoMetadata(language, route = routeParts().path) {
