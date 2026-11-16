@@ -221,3 +221,15 @@ Cambios exactos:
 - PR #42 queda obsoleto/no fusionable respecto de producción y no debe usarse para release.
 - Se corrigió en `a7da8fc29787ec8811bfbc3327574ebb7e89058a` la única aserción visual de Inicio que aún esperaba el texto EN anterior (`Festivals...` en vez de `Parties, festivals...`). No cambia contenido, HTML, fotos ni SEO.
 - Camino de publicación único: aprobar e integrar PR #45; verificar workflows verdes; permitir un build Hostinger incremental de exactamente 3 páginas; confirmar después por HTTP que PT-BR/EN muestran las mejoras ya presentes y que FR conserva su estado privado real.
+
+
+## Punto durable — 2026-11-16 14:23 BRT — QA integral obligatorio en GitHub
+
+- PR activo: [#45](https://github.com/lacasadelsushirg-pixel/ernestinho-v2/pull/45).
+- Commit de prueba integral: `7d6b5b29e40855b077709af2ad0e525e2cc61848`.
+- Commit que incorporó la prueba al workflow protegido: `4402fcd2c725510f8ffa462c9df63df224c915db`.
+- El workflow `Protect approved content` ahora ejecuta `npm ci`, el guard editorial y `scripts/qa_hostinger_incremental_plan.mjs`.
+- Resultado remoto confirmado en GitHub Actions para `4402fcd2`: `Protect approved content` **success** y `Petrópolis preview QA` **success**.
+- La prueba reproduce una raíz publicada de 3.588 URL, ejecuta el build real y exige: `3 of 3612`, copia previa de 3.588 rutas, preservación de una página EN profunda, preservación byte a byte del árbol FR privado, 3.588 entradas indexables y 3.588 URL de sitemap, ausencia de `/fr/` en manifiesto/sitemap y `SAFE ABORT` sin alterar `dist` cuando falta el manifiesto.
+- Hostinger no fue relanzado y la raíz pública no fue modificada. Publicaciones nuevas: **0**.
+- Bloqueo único: revisión humana independiente del PR #45. Después de aprobar e integrar, aceptar el despliegue solo si el log real de Hostinger confirma `Build mode: incremental; rendering 3 of 3612 locale pages`.
