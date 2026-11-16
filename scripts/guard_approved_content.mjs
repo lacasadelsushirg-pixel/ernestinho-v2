@@ -10,12 +10,14 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const APPROVED_BLOBS = Object.freeze({
   "docs/FROZEN_PAGES_20260930.json": "30b57d0ff39aa1dde138aeff75cd688a4f48da1a",
-  "assets/js/site.js": "6d7ce163f59235ca0f7de3c7f219183759f5ad5e",
+// Owner-authorized, path-scoped baseline approval (16 Nov 2026): see docs/HOME_LANGUAGE_RELEASE_20261116.md.
+// Exact scope: French desktop/mobile selector, FR route to /fr/, and PT-BR/EN Home copy only.
+  "assets/js/site.js": "53f19888370724acb43ab1ac24029462b1d1a345",
   "assets/js/i18n.js": "230bafc0a0f68928374251aac71e77d21bf7325c",
-  "assets/js/locale-routing.js": "95044c8ac7cda43b374a903475c2c280bcb628e4",
+  "assets/js/locale-routing.js": "f477783e84e629eff8b2c1b216d89698c361da55",
   "assets/js/app.js": "ab5e3ee031f0ea6b49e91c7e7312228391177f69",
   "assets/js/bulk-photo-references.js": "0302793e70b66bc617eb54fbf6855ce4c3e51246",
-  "assets/js/translations/home.js": "6df6a61ccef0f2941707ff065c610077ae918510",
+  "assets/js/translations/home.js": "a4821986caf631c7e7f555781ad415f5108e1e60",
   "assets/js/translations/quiero.js": "6d78641a7dff97e7c093825d9b9cb86d854276c9",
   "assets/css/tokens.css": "640bd71020c162ec2a05360c07817e1e07549fa6",
   "assets/css/app.css": "0fbeba7cf9b8631405e7c3cd514d2f9e0a146b96",
