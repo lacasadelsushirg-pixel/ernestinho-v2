@@ -45,7 +45,7 @@ Objetivo del sublote: mejorar la redacción editorial completa de las 97 claves 
 
 Rama desplegada en la carpeta privada de Hostinger `fr`: `release/fr-public-initial-20261115`
 
-HEAD remoto y desplegado: `60a935b468332ac70b82fce70b1c6c1c15cdfc28`
+HEAD remoto y desplegado: `0879dc353a57de1eef5301b4a65602cb324694d4`
 
 URL comprobada: `https://www.ernestinhocarioca.com.br/fr/`
 
@@ -55,11 +55,15 @@ Estado real: visible para QA, pero privado para buscadores con `noindex, nofollo
 
 - `b5017ca16d214dd056a1f95f840fb1639c36e7ed`: corrigió cuatro etiquetas de accesibilidad que seguían en español (`Expériences précédentes`, `Expériences suivantes`, `Expériences à la une` y `Rio en direct, Ernestinho à la télévision et événements`).
 - `60a935b468332ac70b82fce70b1c6c1c15cdfc28`: añadió pasadas breves de localización después del renderizado asíncrono para evitar que las tarjetas dinámicas reaparezcan en español.
+- `4547dda5e21a81cf6fb33696dbdcd4d85b2dee50`: asignó textos alternativos franceses a las 17 tarjetas de secciones y 7 tarjetas de experiencias, usando sus títulos editoriales ya localizados.
+- `0879dc353a57de1eef5301b4a65602cb324694d4`: renovó la clave de caché de `fr-home.js` para que la mejora de accesibilidad llegue realmente al navegador.
 - Despliegue Git de la rama a la carpeta `fr` de Hostinger: confirmado correctamente.
 - Comprobación de archivo en Hostinger: las cuatro etiquetas francesas están presentes; las versiones españolas ya no aparecen; canonical `https://www.ernestinhocarioca.com.br/fr/`; `noindex, nofollow` y Googlebot noindex preservados.
 - Comprobación HTTP/renderizado real: las 17 tarjetas dinámicas de Inicio, destacados, selector y botón del asistente se muestran en francés después de cargar la página.
 - Sintaxis: `node --check fr-home.js`: PASS. Integridad: `git diff --check`: PASS.
 - Fotografías, rutas `/FOTOS/HOME/`, layout, sitemap y la portada ES no se modificaron.
+- QA HTTP posterior al despliegue: 17 tarjetas de secciones + 7 experiencias; `alt` vacíos = 0; canonical FR correcto; `robots` y `googlebot` continúan en `noindex, nofollow`; script servido con `?v=fr-public-20261116e`.
+- Incidencia preexistente confirmada: cinco imágenes aprobadas referenciadas desde `/FOTOS/HOME/` no cargan porque esos archivos no están presentes en la carpeta de Hostinger (`ernestinho pagina home.png`, miniatura Búzios, clima, TV y eventos). No se sustituyeron, movieron ni subieron fotografías sin revisión.
 - Publicaciones indexables nuevas de esta ejecución: **0**. Mejora visible en entorno privado de Hostinger: **1 página** (`/fr/`).
 
 ### Bloqueo exacto de publicación
@@ -74,7 +78,7 @@ No utilizar el PR #41 como release de este sublote: además de Inicio modifica `
 2. Tras aprobación y checks, integrar en `revision/rendimiento-traducciones-81a904c`.
 3. Publicar únicamente `assets/js/translations/home.js` en la raíz real de Hostinger con respaldo previo.
 4. Verificar por HTTP `/pt/` y `/en/` a 390 px y 1440 px, contenido 97/97, imágenes, selector, canonical y hreflang.
-5. Mantener `/fr/` privado y fuera del sitemap; completar su QA editorial/SEO a 390 px y 1440 px antes de considerar cualquier indexación.
+5. Mantener `/fr/` privado y fuera del sitemap; recuperar desde la fuente aprobada las cinco fotografías faltantes de `/FOTOS/HOME/` antes de completar su QA a 390 px y considerar cualquier indexación.
 6. Cuando Inicio esté completo y publicado en los idiomas autorizados, continuar con Guía de Río.
 
 ## Referencias concurrentes
