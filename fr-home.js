@@ -4,7 +4,7 @@ const fallback = {'EXPLORAR →':'EXPLORER →','Experiencias destacadas':'Expé
 const translations = {...data,...fallback};
 let scheduled=false;
 function localize(){
-  document.documentElement.lang='fr';
+  if(document.documentElement.lang!=='fr')document.documentElement.lang='fr';
   const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
   for(let node; (node=walker.nextNode());){
     if(node.parentElement?.closest('script,style,textarea,noscript,svg,code'))continue;
@@ -66,7 +66,7 @@ new MutationObserver(()=>{
   if(scheduled)return;
   scheduled=true;
   queueMicrotask(()=>{scheduled=false;localize()});
-}).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['href']});
+}).observe(document.documentElement,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['href','lang']});
 let repairPasses=0;
 const repairTimer=setInterval(()=>{
   localize();
