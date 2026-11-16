@@ -37,6 +37,10 @@ function localize(){
         link.href=location.origin+previewRoot+'fr/'+sourcePath+url.search+url.hash;
         continue;
       }
+      if(!sourcePath.startsWith('assets/') && !sourcePath.startsWith('api/') && !sourcePath.startsWith('.well-known/')){
+        link.href=ROOT+sourcePath+url.search+url.hash;
+        continue;
+      }
     }
     if(url.origin===location.origin && pagePath!==null && !pagePath.startsWith('assets/')){
       if(readyRoutes.has(pagePath))continue;
