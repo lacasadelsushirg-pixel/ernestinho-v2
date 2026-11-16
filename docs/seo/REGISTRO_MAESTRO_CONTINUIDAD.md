@@ -212,3 +212,12 @@ Cambios exactos:
 - Publicaciones nuevas de esta ejecución: **0**. No se lanzó build ni se modificó `public_html`.
 - Bloqueo exacto: falta una revisión humana independiente del PR #45. Con esa aprobación y checks verdes, integrar el PR; el build Hostinger debe mostrar exactamente `3 of 3612`. Si muestra `full`, si falta el manifiesto o si FR cambia de indexabilidad, abortar y no publicar.
 - Siguiente paso después de publicar el fix: actualizar sobre producción el candidato pequeño de Inicio PT-BR/EN, mantener FR privado/noindex, ejecutar el mismo incremental de 3 rutas y verificar `/`, `/pt/` y `/en/` por HTTP a 390 y 1440 px.
+
+
+### Reconciliación de Inicio PT-BR/EN — 2026-11-16 UTC
+
+- La comparación selectiva confirmó que las 15 mejoras PT-BR y 15 mejoras EN de Inicio que motivaban el PR #42 ya están presentes en la rama de producción `d9ae3339e63cfed8873cc36a0a48712ddcee165d`, junto con el diccionario FR concurrente. No se creó otra rama de contenido y no se sobrescribió el archivo ampliado.
+- El sitio público de Hostinger todavía muestra la redacción anterior porque el build de `d9ae3339` falló; por tanto esas mejoras están **preparadas en producción Git, no publicadas**.
+- PR #42 queda obsoleto/no fusionable respecto de producción y no debe usarse para release.
+- Se corrigió en `a7da8fc29787ec8811bfbc3327574ebb7e89058a` la única aserción visual de Inicio que aún esperaba el texto EN anterior (`Festivals...` en vez de `Parties, festivals...`). No cambia contenido, HTML, fotos ni SEO.
+- Camino de publicación único: aprobar e integrar PR #45; verificar workflows verdes; permitir un build Hostinger incremental de exactamente 3 páginas; confirmar después por HTTP que PT-BR/EN muestran las mejoras ya presentes y que FR conserva su estado privado real.
