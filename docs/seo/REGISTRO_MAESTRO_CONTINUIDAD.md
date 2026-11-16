@@ -18,6 +18,10 @@ Rama: `release/home-pt-en-safe-20261116`
 
 Base: `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`
 
+Commit remoto del contenido: `236efcb2680db95c56d6336549813306f41b6533`
+
+PR de revisión: [#42](https://github.com/lacasadelsushirg-pixel/ernestinho-v2/pull/42)
+
 Objetivo del sublote: mejorar la redacción editorial completa de las 97 claves de Inicio en PT-BR y EN, sin cambiar español, HTML, fotografías, mapas, componentes, rutas, canonical, hreflang ni sitemap. Francés permanece privado con `noindex, nofollow` y fuera del sitemap hasta su QA completo.
 
 | URL | ES | PT-BR | EN | FR | Estado de este sublote |
