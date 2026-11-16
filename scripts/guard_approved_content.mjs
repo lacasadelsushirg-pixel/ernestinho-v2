@@ -15,7 +15,12 @@ export const APPROVED_BLOBS = Object.freeze({
   "assets/js/locale-routing.js": "95044c8ac7cda43b374a903475c2c280bcb628e4",
   "assets/js/app.js": "ab5e3ee031f0ea6b49e91c7e7312228391177f69",
   "assets/js/bulk-photo-references.js": "0302793e70b66bc617eb54fbf6855ce4c3e51246",
-  "assets/js/translations/home.js": "6df6a61ccef0f2941707ff065c610077ae918510",
+  // Owner authorization, 2026-11-16: localize Home presentation images and
+  // keep the PT-BR/EN social preview metadata in sync.
+  "assets/js/translations/home.js": "3a8775109a33380e29bb8a0a2f8c711555ff5b9b",
+  // Owner authorization, 2026-11-16: complete the French Home using its existing page and banner.
+  "fr/fr-home.js": "bf520fd22950b2a893473acedaed6381a2be8cde",
+  "fr/assets/js/translations/fr/piloto-rio.json": "62a99908e5a33e3ea5303420babcd9371dbd343f",
   "assets/js/translations/quiero.js": "6d78641a7dff97e7c093825d9b9cb86d854276c9",
   "assets/css/tokens.css": "640bd71020c162ec2a05360c07817e1e07549fa6",
   "assets/css/app.css": "0fbeba7cf9b8631405e7c3cd514d2f9e0a146b96",
@@ -30,6 +35,11 @@ const APPROVED_PAGE_COUNT = 586;
 // other protected HTML baselines remain unchanged. Any future edits require
 // a new explicit owner authorization and a new reviewed exact-blob pin.
 const OWNER_AUTHORIZED_ROUTE_BLOBS = Object.freeze({
+  // Owner authorization, 2026-11-16: complete the Home experience heading/copy
+  // in the existing four-language block; no other protected route is changed.
+  "index.html": "27428fa7a9c59a8ff0c4044e3bc9e9423a830f14",
+  // Owner authorization, 2026-11-16: publish the French Home with the uploaded banner.
+  "fr/index.html": "7ba182ddfd1d580f225e742da33d560c342c2f49",
   "quiero/index.html": "32267e792c4e044e07d12997cec4f610a880a097"
 });
 
