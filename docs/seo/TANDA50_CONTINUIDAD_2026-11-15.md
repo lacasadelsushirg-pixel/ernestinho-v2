@@ -1611,3 +1611,24 @@ Hostinger producción verificada en revision/rendimiento-traducciones-81a904c, S
 **Tanda 3: 12/50 fichas auditadas en producción, 0/50 completas según el criterio de cuatro idiomas + render/QA/build/sitemap/canonical/hreflang/capturas, 0/50 publicadas por este trabajo; quedan 38 fichas.** Fichas incluidas: Amendoeira, Chama Rio Copacabana, Carretão Copacabana—Siqueira Campos, Carretão Lido, Plage Café, Spicy Fish, Terra Brasilis, Haru, Fogo de Chão Botafogo, Dumaré, Delírio Tropical Rio Sul y K08. Para no inventar otras 38 URL, la cola se seleccionará en el siguiente paso cruzando Search Console final con el inventario actualizado; prioridad restante conocida por impresiones ES: ninguna de estas dos ya auditadas debe contarse de nuevo. Dumaré (214 ES/148 PT/159 EN) fue #10; Rio Sul #11; K08 #12. La próxima ficha se elegirá entre las rutas gastronómicas aún no auditadas con mayor total de impresiones.
 
 Inventario maestro actualizado en el commit 2f243094c9d81a0ff5eb83bf23ecf90d19b1906e; informe y estado 12/50 quedan en este documento. Producción Hostinger permanece en SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; PR #37 está abierto sobre esa base, Vercel pending y sin revisión independiente. No publicar.
+
+
+## Tanda 3 — ficha 13/50: Churrasqueira Rio (16/11/2026)
+
+Hostinger en producción revision/rendimiento-traducciones-81a904c, SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; blob HTML ES 5018c17b722e2bb1cb7d65ae73214243ed8295f2.
+
+- HTML ES/PT/EN: 25 párrafos; 7 posiciones PT/EN idénticas a ES. Fuente tiene 19 entradas por idioma, pero sus dos inicializadores fuerzan setLang('es')/full('es'). Títulos/descripciones están localizados; canonical y alternates es/pt-BR/en/x-default son propios y correctos. Imágenes 11/10/10, dos alt vacíos PT/EN.
+- GSC final 16-oct–12-nov: ES149/0/12,8; PT6/0/8,3; EN11/0/5,5. Inspección 3/3 enviada/indexada, fetch correcto, robots ALLOWED y canonical Google=user. Breadcrumb «Elemento sin nombre» es alerta de datos estructurados, no error de indexación.
+- PR #37 incluye el route fix. Build y capturas pendientes por bloqueo Chromium; FR no existe/enlazado. Incompleta y no publicada.
+
+## Tanda 3 — ficha 14/50: Garota de Ipanema (16/11/2026)
+
+Hostinger producción revision/rendimiento-traducciones-81a904c, SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; blob HTML ES a2d8617b16ec407f38cb69d9563a052e99ccd295.
+
+- HTML ES/PT/EN: 21 párrafos; 8 posiciones PT/EN iguales a ES. Fuente conserva diccionarios inline 15+15; los inicializadores fuerzan ES. Títulos/descripciones localizados; canonical y alternates propios. Imágenes 12/11/11, dos alt vacíos PT/EN.
+- GSC final 16-oct–12-nov: ES117/0/11,1; PT26/0/8,2; EN22/0/6,1. Inspección 3/3 indexada, fetch/robots/canonical OK. Breadcrumb «Elemento sin nombre» es alerta estructurada, no error confirmado.
+- PR #37 incluye el route fix; render, capturas y FR pendientes. Incompleta, no publicada.
+
+Checkpoint: Tanda 3 alcanza **14/50 auditadas; 0 completas y 0 publicadas**. Fichas #1–14: Amendoeira; Chama Rio Copacabana; Carretão Copacabana—Siqueira Campos; Carretão Lido; Plage Café; Spicy Fish; Terra Brasilis; Haru; Fogo; Dumaré; Delírio Tropical Rio Sul; K08; Churrasqueira Rio; Garota de Ipanema. Quedan 36 para auditar. Próxima prioridad libre ya rankeada por impresiones GSC: Polis Sucos (161 totales; ES62, PT99; EN sin fila) y después Feira de São Cristóvão (160; ES50/PT101/EN9), La Bicyclette (148) y Stalos (145). Se verifica cada una contra inventario y producción antes de contarla.
+
+Inventario actualizado en commit 0f497352fb3f9c93f693d6a86f6ced0259045fb9. Hostinger no se modificó; PR #37 sigue candidato privado con check pending y sin revisión humana independiente. 
