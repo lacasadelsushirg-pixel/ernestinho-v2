@@ -66,7 +66,7 @@ new MutationObserver(()=>{
   if(scheduled)return;
   scheduled=true;
   queueMicrotask(()=>{scheduled=false;localize()});
-}).observe(document.body,{subtree:true,childList:true,characterData:true});
+}).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['href']});
 let repairPasses=0;
 const repairTimer=setInterval(()=>{
   localize();
