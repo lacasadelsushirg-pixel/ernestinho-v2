@@ -1,12 +1,12 @@
 // Public locale URLs. Source pages retain their existing in-place preview mode.
 export const PUBLIC_ORIGIN = 'https://www.ernestinhocarioca.com.br';
 export function routeParts(pathname = location.pathname) {
-  const match = pathname.match(/^\/(pt|en)(?=\/|$)/i);
+  const match = pathname.match(/^\/(pt|en|fr)(?=\/|$)/i);
   return { language: match ? match[1].toUpperCase() : 'ES', path: match ? pathname.slice(match[0].length) || '/' : pathname };
 }
 export function localizedPath(pathname, language) {
   const {path} = routeParts(pathname);
-  return language === 'PT' ? '/pt' + path : language === 'EN' ? '/en' + path : path;
+  return language === 'PT' ? '/pt' + path : language === 'EN' ? '/en' + path : language === 'FR' ? '/fr/' : path;
 }
 export function hasLocaleRoutes() {
   return document.documentElement.dataset.ecLocaleRoutes === 'true';
