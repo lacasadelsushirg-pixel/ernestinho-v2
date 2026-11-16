@@ -34,11 +34,11 @@ function localize(){
     if(isPreview && url.origin===location.origin && pagePath===null){
       const sourcePath=url.pathname.replace(/^\/+/, '');
       if(readyRoutes.has('fr/'+sourcePath)){
-        link.href=location.origin+previewRoot+'fr/'+sourcePath+url.search+url.hash;
+        const target=location.origin+previewRoot+'fr/'+sourcePath+url.search+url.hash;if(link.href!==target)link.href=target;
         continue;
       }
       if(!sourcePath.startsWith('assets/') && !sourcePath.startsWith('api/') && !sourcePath.startsWith('.well-known/')){
-        link.href=ROOT+sourcePath+url.search+url.hash;
+        const target=ROOT+sourcePath+url.search+url.hash;if(link.href!==target)link.href=target;
         continue;
       }
     }
@@ -46,7 +46,7 @@ function localize(){
       if(readyRoutes.has(pagePath))continue;
       // An unfinished French route must lead to the approved Spanish source, never a 404.
       const untranslated=pagePath.startsWith('fr/')?pagePath.slice(3):pagePath;
-      if(!untranslated.startsWith('api/') && !untranslated.startsWith('.well-known/'))link.href=ROOT+untranslated+url.search+url.hash;
+      if(!untranslated.startsWith('api/') && !untranslated.startsWith('.well-known/'))const target=ROOT+untranslated+url.search+url.hash;if(link.href!==target)link.href=target;
     }
   }
   for(const link of document.querySelectorAll('a[href*="wa.me/5521969946938"]')){
@@ -66,7 +66,7 @@ new MutationObserver(()=>{
   if(scheduled)return;
   scheduled=true;
   queueMicrotask(()=>{scheduled=false;localize()});
-}).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['href']});
+}).observe(document.body,{subtree:true,childList:true,characterData:true});
 let repairPasses=0;
 const repairTimer=setInterval(()=>{
   localize();
