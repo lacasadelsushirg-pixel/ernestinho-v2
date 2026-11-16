@@ -123,3 +123,10 @@ La rama de producción remota ya contiene el blob editorial de Inicio `assets/js
 - Ambos Inicio públicos conservaron canonical propio, alternates ES/PT-BR/EN/x-default y 36 imágenes cargadas sin roturas en la comprobación del navegador.
 - Por tanto, estas mejoras están **presentes en GitHub producción pero no publicadas en Hostinger**. Publicaciones nuevas de Inicio en esta ejecución: **0**.
 - No se ejecutó el despliegue raíz: sigue pendiente la revisión humana independiente exigida y una verificación de que el flujo incremental de PR #43 pasa sus protecciones.
+
+
+### Estado de protecciones del checkpoint
+
+- GitHub Actions `Protect approved content`, ejecución 748 sobre `f3aa2669a89188776662a030dbe6b7ce681f587c`: **SUCCESS** en todos sus pasos, incluida la verificación del baseline inmutable y el informe de discrepancias históricas.
+- `Petrópolis preview QA`, ejecución 690: **SUCCESS**.
+- Revisiones registradas en PR #42: **0**. La única intervención pendiente para autorizar la publicación raíz sigue siendo una revisión humana independiente; no se simuló ni se eludió.
