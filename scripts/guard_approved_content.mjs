@@ -15,7 +15,9 @@ export const APPROVED_BLOBS = Object.freeze({
   "assets/js/locale-routing.js": "95044c8ac7cda43b374a903475c2c280bcb628e4",
   "assets/js/app.js": "ab5e3ee031f0ea6b49e91c7e7312228391177f69",
   "assets/js/bulk-photo-references.js": "0302793e70b66bc617eb54fbf6855ce4c3e51246",
-  "assets/js/translations/home.js": "6df6a61ccef0f2941707ff065c610077ae918510",
+  // Owner authorization, 2026-11-16: select the uploaded PT-BR and EN Home
+  // presentation images and keep their social preview metadata in sync.
+  "assets/js/translations/home.js": "1e2d3781010b4ce64519b329e9406addad36b242",
   "assets/js/translations/quiero.js": "6d78641a7dff97e7c093825d9b9cb86d854276c9",
   "assets/css/tokens.css": "640bd71020c162ec2a05360c07817e1e07549fa6",
   "assets/css/app.css": "0fbeba7cf9b8631405e7c3cd514d2f9e0a146b96",

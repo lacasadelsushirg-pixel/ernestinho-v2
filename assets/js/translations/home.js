@@ -119,3 +119,37 @@ registerTranslations("home", { ES, PT, EN });
 const localizeBuziosImage=language=>{const image=document.querySelector('.home-buzios-media img');if(image){const alt={ES:'Costa de Búzios',PT:'Litoral de Búzios',EN:'Búzios coastline'}[language];image.alt=alt;image.dataset.ecAlt=alt;}};
 localizeBuziosImage(getLanguage());
 onLanguageChange(localizeBuziosImage);
+const localizeHomePresentationImage=language=>{
+  const image=document.querySelector('.home-presentation-link img');
+  if(!image)return;
+  if(!image.dataset.homePresentationEsSrc)image.dataset.homePresentationEsSrc=image.getAttribute('src')||'';
+  const original=image.dataset.homePresentationEsSrc;
+  const mediaHome='https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/';
+  const localized={PT:mediaHome+'ola%20sou%20ernestinho.png',EN:mediaHome+'hi%20im%20ernestinho.png'};
+  const alt={ES:'Ernestinho en Río de Janeiro; abrir su historia',PT:'Ernestinho no Rio de Janeiro; conheça sua história',EN:'Ernestinho in Rio de Janeiro; discover his story'};
+  image.src=localized[language]||original;
+  image.alt=alt[language]||alt.ES;
+  const socialImage=document.querySelector('meta[property="og:image"]');
+  const twitterImage=document.querySelector('meta[name="twitter:image"]');
+  const socialAlt=document.querySelector('meta[property="og:image:alt"]');
+  const dimensions={width:document.querySelector('meta[property="og:image:width"]'),height:document.querySelector('meta[property="og:image:height"]')};
+  for(const [meta,key] of [[socialImage,'homePresentationEsOg'],[twitterImage,'homePresentationEsTwitter'],[socialAlt,'homePresentationEsAlt'],[dimensions.width,'homePresentationEsWidth'],[dimensions.height,'homePresentationEsHeight']]){
+    if(meta&&!meta.dataset[key])meta.dataset[key]=meta.getAttribute('content')||'';
+  }
+  if(language==='PT'||language==='EN'){
+    const localizedUrl=localized[language];
+    if(socialImage)socialImage.content=localizedUrl;
+    if(twitterImage)twitterImage.content=localizedUrl;
+    if(socialAlt)socialAlt.content=alt[language];
+    if(dimensions.width)dimensions.width.content='1672';
+    if(dimensions.height)dimensions.height.content='941';
+  }else{
+    if(socialImage)socialImage.content=socialImage.dataset.homePresentationEsOg;
+    if(twitterImage)twitterImage.content=twitterImage.dataset.homePresentationEsTwitter;
+    if(socialAlt)socialAlt.content=socialAlt.dataset.homePresentationEsAlt;
+    if(dimensions.width)dimensions.width.content=dimensions.width.dataset.homePresentationEsWidth;
+    if(dimensions.height)dimensions.height.content=dimensions.height.dataset.homePresentationEsHeight;
+  }
+};
+localizeHomePresentationImage(getLanguage());
+onLanguageChange(localizeHomePresentationImage);

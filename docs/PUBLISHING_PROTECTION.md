@@ -27,3 +27,5 @@ Para impedir que Work u otro agente eluda la barrera hay que configurar en GitHu
 
 ## Verificaciones de regresión adicionales
 Los hashes detectan sustitución/ausencia de contenido fuente, pero no garantizan que una foto remota responda HTTP 200, que el texto se vea bien en el navegador, ni que un componente compartido fuera de la lista no afecte la web. Acompañar con capturas visuales 1440/390 px, prueba de carga de fotos y enlaces, y revisión de las rutas regionales antes de su aprobación final.
+
+`scripts/check_frozen_pages.py` compara ahora las 586 rutas protegidas con el snapshot de la publicación efectiva del 9 de noviembre de 2026. El manifiesto del 30 de septiembre se conserva como registro histórico: sus diferencias se informan por separado y no detienen bloques que coinciden con el código publicado. Cualquier diferencia nueva contra el snapshot sigue fallando la comprobación.
