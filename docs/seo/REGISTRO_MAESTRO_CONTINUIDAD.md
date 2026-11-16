@@ -110,3 +110,16 @@ No utilizar el PR #41 como release de este sublote: además de Inicio modifica `
 3. Solicitar la única intervención externa indispensable: revisión humana independiente del candidato actualizado.
 4. Tras aprobación y checks, integrar y publicar PT/EN en la raíz real de Hostinger; verificar por HTTP antes de llamarlo publicado.
 5. Mientras esa revisión sigue pendiente, continuar la auditoría de Guía FR en sublotes pequeños, siempre privada/noindex y con commits remotos antes de pasar a Transportes.
+
+
+### Corrección por avance concurrente posterior
+
+Después del checkpoint anterior, producción volvió a avanzar y el HEAD comprobado mediante comparación remota pasó a `13281f87fb16ba57be07f230c00d877657ba7bdf` (commit “Recover incremental Hostinger Home publish”). Ese commit modifica exclusivamente `scripts/build_multilingual.mjs` para recuperar de forma estricta un manifiesto publicado truncado y permitir el copiado incremental de los bundles runtime de Inicio.
+
+La rama de producción remota ya contiene el blob editorial de Inicio `assets/js/translations/home.js` con SHA `a4821986caf631c7e7f555781ad415f5108e1e60`, idéntico al candidato PT/EN del PR #42. Sin embargo, la raíz pública de Hostinger todavía sirve la versión anterior:
+
+- `/pt/`: muestra “Não quero lhe dar uma lista infinita...” y no la revisión “Não quero entregar...”.
+- `/en/`: muestra “I do not want to hand you an endless list...” y no la revisión “I do not want to give you...”.
+- Ambos Inicio públicos conservaron canonical propio, alternates ES/PT-BR/EN/x-default y 36 imágenes cargadas sin roturas en la comprobación del navegador.
+- Por tanto, estas mejoras están **presentes en GitHub producción pero no publicadas en Hostinger**. Publicaciones nuevas de Inicio en esta ejecución: **0**.
+- No se ejecutó el despliegue raíz: sigue pendiente la revisión humana independiente exigida y una verificación de que el flujo incremental de PR #43 pasa sus protecciones.
