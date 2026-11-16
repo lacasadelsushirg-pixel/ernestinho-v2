@@ -849,6 +849,11 @@ Object.assign(SEO_METADATA, {
     ES: ['Giuseppe Mar: guía completa | Ernestinho Carioca', 'Guía editorial de Giuseppe Mar: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.'],
     PT: ['Giuseppe Mar: guia completo | Ernestinho Carioca', 'Guia editorial do Giuseppe Mar: identidade, história, recomendações, horários, transporte e mapa no Rio.'],
     EN: ['Giuseppe Mar: complete guide | Ernestinho Carioca', 'Editorial guide to Giuseppe Mar: its identity, history, recommendations, opening hours, transport and map in Rio.']
+  },
+  '/gastronomia/aipo-aipim-391/': {
+    ES: ['Aipo & Aipim Copacabana 391: guía completa | Ernestinho Carioca', 'Guía editorial de Aipo & Aipim Copacabana 391: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.'],
+    PT: ['Aipo & Aipim Copacabana 391: guia completo | Ernestinho Carioca', 'Guia editorial da Aipo & Aipim Copacabana 391: identidade, história, recomendações, horários, transporte e mapa no Rio.'],
+    EN: ['Aipo & Aipim Copacabana 391: complete guide | Ernestinho Carioca', 'Editorial guide to Aipo & Aipim Copacabana 391: its identity, history, recommendations, opening hours, transport and map in Rio.']
   }
 });
 export function applySeoMetadata(language, route = routeParts().path) {
