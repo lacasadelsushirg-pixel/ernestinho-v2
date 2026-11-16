@@ -187,3 +187,14 @@ Cambios exactos:
 4. Después de aprobación, integrar en producción y observar en Hostinger que el log diga exactamente `Build mode: incremental; rendering 3 of 3612` y `Selected source routes (1): /`.
 5. Rechazar el release si aparece `full`, si falta el manifiesto o si el paquete no preserva las 3.613 rutas.
 6. Solo tras build exitoso comprobar por HTTP Inicio ES/PT/EN, imágenes, selector, canonical y hreflang; FR seguirá privada/noindex.
+
+
+### PR y verificación pública final de esta ejecución
+
+- PR abierto y listo para revisión: [#45](https://github.com/lacasadelsushirg-pixel/ernestinho-v2/pull/45), base exacta `d9ae3339e63cfed8873cc36a0a48712ddcee165d`.
+- HEAD remoto del PR antes de este apunte: `29db72a51d695fd3ddd04f17c4b7843a1a80e553`.
+- Comparación GitHub: rama 3 commits por delante, 0 por detrás; solo 3 archivos (`build_multilingual.mjs`, QA y este registro).
+- Workflows asociados al HEAD: ninguno iniciado todavía. Revisiones humanas: 0.
+- HTTP/navegador después del build fallido: `/pt/` continúa mostrando la copia anterior “Não quero lhe dar uma lista infinita...”; `/en/` continúa mostrando “I do not want to hand you an endless list...”.
+- `/pt/`: canonical correcto, alternates ES/PT-BR/EN/x-default, 36 imágenes y 0 rotas. Esto confirma que el build fallido no sustituyó la raíz por un paquete parcial.
+- Intervención mínima pendiente: una persona distinta debe revisar y aprobar PR #45; además debe arrancar y quedar verde el workflow `Protect approved content`. Hasta entonces no se despliega.
