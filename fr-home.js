@@ -1,6 +1,6 @@
 const ROOT = 'https://www.ernestinhocarioca.com.br/';
 const data = await fetch(new URL('./assets/js/translations/fr/piloto-rio.json', import.meta.url), {cache:'force-cache'}).then(r => {if(!r.ok)throw Error('French dictionary HTTP '+r.status);return r.json()});
-const fallback = {'Tours':'Excursions','Guía independiente de Río de Janeiro.':'Guide indépendant de Rio de Janeiro.','Río no se visita. Se vive.':'Rio ne se visite pas. Il se vit.','De descubrir Río a vivirlo.':'De la découverte de Rio à l’expérience vécue.','Experiencias anteriores':'Expériences précédentes','Siguientes experiencias':'Expériences suivantes'};
+const fallback = {'EXPLORAR →':'EXPLORER →','Experiencias destacadas':'Expériences à la une','Ernestinho durante una aparición en televisión':'Ernestinho lors d’un passage à la télévision','Eventos de Río de Janeiro':'Événements à Rio de Janeiro','Tours':'Excursions','Guía independiente de Río de Janeiro.':'Guide indépendant de Rio de Janeiro.','Río no se visita. Se vive.':'Rio ne se visite pas. Il se vit.','De descubrir Río a vivirlo.':'De la découverte de Rio à l’expérience vécue.','Experiencias anteriores':'Expériences précédentes','Siguientes experiencias':'Expériences suivantes'};
 const translations = {...data,...fallback};
 let scheduled=false;
 function localize(){
@@ -21,9 +21,11 @@ function localize(){
   }
   const toggle=document.getElementById('lang');
   if(toggle && toggle.textContent!=='FR')toggle.textContent='FR';
-  const isPreview=location.pathname.startsWith('/fr-vista-luna/');
-  const previewRoot=isPreview?'/fr-vista-luna/':'/';
-  const readyRoutes=new Set(['','fr/']);
+  const pathMatch=location.pathname.match(/^\/([^/]+)\//);
+  const previewBase=pathMatch && !['fr','pt','en'].includes(pathMatch[1])?'/'+pathMatch[1]:'';
+  const isPreview=Boolean(previewBase);
+  const previewRoot=isPreview?previewBase+'/':'/';
+  const readyRoutes=new Set(['','fr/','fr/guia/','fr/guia/dinero/','fr/guia/aeropuertos/','fr/guia/emergencias/','fr/guia/viajar-solo/','fr/guia/vacunas/','fr/guia/apps/','fr/guia/consulados/','fr/guia/menores/','fr/guia/permanencia/','fr/guia/internet/','fr/transportes/']);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
     if(!raw||raw.startsWith('#')||/^(?:mailto:|tel:|javascript:|data:)/i.test(raw))continue;
@@ -51,7 +53,9 @@ function localize(){
   }
   for(const el of document.querySelectorAll('[src],[srcset]')){
     const src=el.getAttribute('src');
-    if(src?.startsWith('/assets/'))el.setAttribute('src',(location.pathname.startsWith('/fr-vista-luna/')?'/fr-vista-luna':'')+src);
+    if(src?.startsWith('/assets/'))el.setAttribute('src',(isPreview?previewBase:'')+src);
+    const srcset=el.getAttribute('srcset');
+    if(srcset)el.setAttribute('srcset',srcset.split(',').map(item=>{const [url,...descriptor]=item.trim().split(/\s+/);return (url.startsWith('/assets/')?(isPreview?previewBase:'')+url:url)+(descriptor.length?' '+descriptor.join(' '):'')}).join(', '));
   }
 }
 localize();
