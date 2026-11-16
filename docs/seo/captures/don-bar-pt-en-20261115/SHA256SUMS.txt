@@ -1,0 +1,16 @@
+36e0ee054aed6f9c1bac9c8bd6e4aed6ca567cd9653b8767c25ba556addb802c  don-camillo-pt-before-1440.webp
+2735f950a0f8cca7e55c50e7cd4ab46350d2a6668bc35aa8baded30cded6331f  don-camillo-pt-before-390.webp
+a84c83f70769bc56330f66a64174adfbe7d15833c21f75a7e63e9c989b140e81  don-camillo-pt-after-1440.webp
+d48f106a19f488c8637080d96deb42db551d00ae2aa6dcf7dfe2b636cda3bf9a  don-camillo-pt-after-390.webp
+292c83b9ffc84f3b154e3abaff4ab1084b1d2d8d43a4d2203f49992811cface8  don-camillo-en-before-1440.webp
+874c0128adb34143cf7fd2569ad0e0769619b68314c0cf084e3cccedb208db64  don-camillo-en-before-390.webp
+05f483e7c54135db5eece581f06e803ba0ddca891c7d1d9c0845f1a8bdf47d85  don-camillo-en-after-1440.webp
+cf2d0952dfba74eb05ff631424099ffc4c416e06c7d2220b43e49894e5ddc128  don-camillo-en-after-390.webp
+af2951723d0ba954e15992d21de13c012a252ffbe026a8dc1a589385ed0bc51f  bar-do-omar-pt-before-1440.webp
+0a820af675b92b7d07f5936114b46cf88b615bef5abb49df86fba15718a1fabc  bar-do-omar-pt-before-390.webp
+ab7205d7905b55c3f8e1723612d9f5cd9adeba3ab55a3319a76cec2559a4ccf4  bar-do-omar-pt-after-1440.webp
+3e50b30ba846c797c28c734b9d3926e14a9a4d39e1f011b8124bf686ccc67b19  bar-do-omar-pt-after-390.webp
+c0ffcf37d1b39606cd3e1617ea902c1ed297e84dbbede1092bdbf66b4494a421  bar-do-omar-en-before-1440.webp
+0f3b61ca875acd0787f15b1dcffca88eaa1be53a058f6208ff3ae13b55dd0337  bar-do-omar-en-before-390.webp
+e57e4d5ae76809557ab809a61f593c5516123f74cb40273719728ed874f3b9fb  bar-do-omar-en-after-1440.webp
+9a9530ec7ae622ec315b62598c10e2148d70eae742e5f7b9a1a9f1ef2ea14fd2  bar-do-omar-en-after-390.webp

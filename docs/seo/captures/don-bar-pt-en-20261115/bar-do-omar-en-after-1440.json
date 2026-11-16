@@ -1,0 +1,69 @@
+{
+  "file": "bar-do-omar-en-after-1440",
+  "lang": "en",
+  "title": "Bar do Omar: complete guide | Ernestinho Carioca",
+  "h1": [
+    "Bar do Omar"
+  ],
+  "canonical": "https://www.ernestinhocarioca.com.br/en/gastronomia/bar-do-omar/",
+  "alternates": [
+    [
+      "es",
+      "https://www.ernestinhocarioca.com.br/gastronomia/bar-do-omar/"
+    ],
+    [
+      "pt-BR",
+      "https://www.ernestinhocarioca.com.br/pt/gastronomia/bar-do-omar/"
+    ],
+    [
+      "en",
+      "https://www.ernestinhocarioca.com.br/en/gastronomia/bar-do-omar/"
+    ],
+    [
+      "x-default",
+      "https://www.ernestinhocarioca.com.br/gastronomia/bar-do-omar/"
+    ]
+  ],
+  "figcaption": [
+    "Photo 1 of Bar do Omar.",
+    "Photo 2 of Bar do Omar.",
+    "Photo 3 of Bar do Omar.",
+    "Photo 4 of Bar do Omar.",
+    "Photo 5 of Bar do Omar.",
+    "Photo 6 of Bar do Omar.",
+    "Photo 7 of Bar do Omar."
+  ],
+  "paragraphs": 20,
+  "bars": 1,
+  "widgetCount": 1,
+  "overflow": false,
+  "firstImageSources": [
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Bar%20do%20Omar/os-diversos-convidados%20Bar%20do%20Omar.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Bar%20do%20Omar/Bar%20do%20Omar2.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Bar%20do%20Omar/omacburguer-duplo%20Bar%20do%20Omar.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Bar%20do%20Omar/camarao-da-casa%20Bar%20do%20Omar.jpg",
+    "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Bar%20do%20Omar/bar-do-omar1.jpg",
+    "",
+    ""
+  ],
+  "pageErrors": [],
+  "failedImageCount": 5,
+  "failedImages": [
+    {
+      "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Bar%20do%20Omar/os-diversos-convidados%20Bar%20do%20Omar.jpg",
+      "error": "net::ERR_EMPTY_RESPONSE"
+    },
+    {
+      "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Bar%20do%20Omar/Bar%20do%20Omar2.jpg",
+      "error": "net::ERR_EMPTY_RESPONSE"
+    },
+    {
+      "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Bar%20do%20Omar/omacburguer-duplo%20Bar%20do%20Omar.jpg",
+      "error": "net::ERR_EMPTY_RESPONSE"
+    },
+    {
+      "url": "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Bar%20do%20Omar/camarao-da-casa%20Bar%20do%20Omar.jpg",
+      "error": "net::ERR_EMPTY_RESPONSE"
+    }
+  ]
+}

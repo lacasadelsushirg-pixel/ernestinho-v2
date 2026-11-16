@@ -1,0 +1,165 @@
+{
+  "date": "2026-11-15",
+  "route": "/gastronomia/amendoeira/",
+  "status": "private_partial_candidate",
+  "production": {
+    "branch": "revision/rendimiento-traducciones-81a904c",
+    "head": "21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346",
+    "sourceHtmlBlob": "b3ed0ef51003d906992bc10b0d086b7304907627",
+    "publishedChangesThisSublot": 0,
+    "observedCurrentPublishedHtml": {
+      "path": "pt/gastronomia/amendoeira/index.html",
+      "paragraphs": 24,
+      "paragraphsPortugueseSummary": 1,
+      "editorialParagraphsStillSpanish": 23,
+      "titleAndDescriptionLocalized": true
+    },
+    "indexation": {
+      "amendoeiraVariants": "all 3 submitted and indexed; fetch successful; Google canonical matches declared",
+      "chamaEs": "Discovered: currently not indexed; no fetch/canonical reported; not classified as confirmed error",
+      "gscPeriod": "2026-08-12/2026-11-12"
+    }
+  },
+  "candidate": {
+    "pr": 36,
+    "branch": "release/cervantes-pt-en-20261115",
+    "parentHead": "61a8f0a4a456bb077defdb7274c065c4b2a23e76",
+    "candidateCodeCommit": "f88e1e65671e2ac8e02781cf9317bdfad103d7ee",
+    "previewPlan": {
+      "mode": "route-selective",
+      "routes": [
+        "/gastronomia/don-camillo/",
+        "/gastronomia/bar-do-omar/",
+        "/gastronomia/spicy-fish/",
+        "/gastronomia/dumare/",
+        "/gastronomia/amendoeira/"
+      ],
+      "expectedRenderedHtml": 15,
+      "expectedPerLanguage": 5,
+      "frenchIncluded": false,
+      "sitemapGenerated": false,
+      "vercelPreviewOnly": true,
+      "productionCommandUnchanged": true,
+      "status": "triggered_by_this_commit; awaiting verification"
+    }
+  },
+  "gsc": {
+    "project": "7172f2fb-7456-4b35-b581-d9b11c0040f4",
+    "property": "https://www.ernestinhocarioca.com.br/",
+    "period": "2026-08-12/2026-11-12",
+    "impressions": {
+      "es": 195,
+      "pt": 112,
+      "en": 3,
+      "total": 310
+    }
+  },
+  "content": {
+    "paragraphs": {
+      "es": 24,
+      "pt": 24,
+      "en": 24
+    },
+    "exactSpanishParagraphReuse": {
+      "pt": 0,
+      "en": 0
+    },
+    "h1": {
+      "es": 1,
+      "pt": 1,
+      "en": 1
+    },
+    "h2": {
+      "es": 10,
+      "pt": 10,
+      "en": 10
+    },
+    "historicalDictionaryReviewed": true,
+    "meaningAndCoverageChecked": true
+  },
+  "seo": {
+    "localizedTitleDescription": {
+      "es": true,
+      "pt": true,
+      "en": true
+    },
+    "canonicalSelf": {
+      "es": true,
+      "pt": true,
+      "en": true
+    },
+    "hreflang": [
+      "es",
+      "pt-BR",
+      "en",
+      "x-default"
+    ],
+    "frenchHtml": false,
+    "frenchHreflang": false,
+    "indexableUrlsPerLanguage": 1196,
+    "sitemap": {
+      "hostinger": 3588,
+      "candidate": 3588,
+      "added": 0,
+      "removed": 0,
+      "sortedUrlSetHashHostinger": "9fb6b50f1fe8a122",
+      "sortedUrlSetHashCandidate": "9fb6b50f1fe8a122"
+    },
+    "manifestDocuments": 3612
+  },
+  "preservation": {
+    "venuePhotoUrls": [
+      "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Amendoeira/Amendoeira3.jpg",
+      "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Amendoeira/Amendoeira4.jpg",
+      "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Amendoeira/restaurante-amendoeira2.jpg",
+      "https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/restaurantes/Amendoeira/restaurante-amendoeira1.jpg"
+    ],
+    "mapUrlPreserved": true,
+    "existingProductionPtEnLinkUrlsPreserved": true,
+    "additionalCadasturBadgeAndLinkFromCurrentEs": true,
+    "visualReviewOfDifferencePending": true
+  },
+  "visual": {
+    "screenshotsGenerated": [
+      "captures/amendoeira-pt-en-20261115/pt-1440.jpg",
+      "captures/amendoeira-pt-en-20261115/pt-390.jpg",
+      "captures/amendoeira-pt-en-20261115/en-1440.jpg",
+      "captures/amendoeira-pt-en-20261115/en-390.jpg"
+    ],
+    "approved": false,
+    "blocker": "Playwright local asset requests returned net::ERR_EMPTY_RESPONSE for remote photos; this is not a confirmed HTTP 404. Candidate preview requires inspection when Vercel is ready.",
+    "beforeScreenshotCapture": "blocked: local Chromium navigation to both public Hostinger PT/EN URLs returned net::ERR_EMPTY_RESPONSE; read-only Hostinger file API succeeded",
+    "candidatePreview": "not accessible while PR Vercel status is pending",
+    "desktopObservedOnPriorPreviewAt": "1363x1023",
+    "mobile390": "pending",
+    "correctedCommitPreview": "pending"
+  },
+  "tests": {
+    "syntax": "PASS",
+    "guardApprovedContent": "PASS (586 files, 10 pinned assets; 247 historical drift warnings; manifest unchanged)",
+    "frozenPages": "FAIL, same 247 protected-page drift as base",
+    "auditMultilingual": "baseline failure in base and candidate: KeyError lang vs manifest language",
+    "auditTranslations": "baseline failure in base and candidate: Invalid dictionary buzios-approved-blocks.js",
+    "auditStatic": "279 global baseline alerts/errors; route-specific QA is above",
+    "gitDiffCheck": "not run as clean-tree check; stale checkout had unrelated inventory trailing whitespace",
+    "vercelFullBuildPrevious": "CANCELED after 200/3612; do not count as validation"
+  },
+  "completion": {
+    "fourLanguageComplete": false,
+    "countedAsCompleted": false,
+    "publicInHostinger": false,
+    "frenchPending": true,
+    "independentHumanReviewRequired": true,
+    "publishedChangesThisSublot": 0
+  },
+  "nextPriority": "/gastronomia/chama-rio-copacabana/ (1062 GSC impressions)",
+  "sources": {
+    "productionEsBlob": "b3ed0ef51003d906992bc10b0d086b7304907627",
+    "historicalRefs": [
+      "42d03024d2c3765b0d96eb5f9763657d731baf4a",
+      "8570793a992b262c5fb384a396ec949e6105775c"
+    ],
+    "historicalPageBlob": "685e5d6e67a31ba8372bd06ec7ae7270e4cd6797",
+    "historicalPageSameBlobAcrossRefs": true
+  }
+}

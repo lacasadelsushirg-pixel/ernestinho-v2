@@ -12,6 +12,22 @@ import {default as STANDALONE_EXPERIENCE_TRANSLATIONS} from '../assets/js/transl
 import{renderBuziosMirror,mirrorRoutes}from'./build_buzios_mirror.mjs';
 import { regionalRoutes, renderRegionalRoute } from './build_regional_destinations.mjs';
 import{beachEditorial}from'../assets/js/translations/chunks/buzios-beaches-reviewed.js';
+import CERVANTES_TRANSLATIONS from '../assets/js/translations/cervantes-copacabana.js';
+import CHEZ_CLAUDE_TRANSLATIONS from '../assets/js/translations/chez-claude.js';
+import DON_CAMILLO_RELEASE from '../assets/js/translations/don-camillo-release.js';
+import BAR_DO_OMAR_RELEASE from '../assets/js/translations/bar-do-omar-release.js';
+import SPICY_FISH_RELEASE from '../assets/js/translations/spicy-fish-release.js';
+import DUMARE_RELEASE from '../assets/js/translations/dumare-release.js';
+import AMENDOEIRA_RELEASE from '../assets/js/translations/amendoeira-release.js';
+const ROUTE_TRANSLATIONS={
+ '/gastronomia/cervantes-copacabana/':CERVANTES_TRANSLATIONS,
+ '/gastronomia/chez-claude/':CHEZ_CLAUDE_TRANSLATIONS,
+ '/gastronomia/don-camillo/':DON_CAMILLO_RELEASE,
+ '/gastronomia/bar-do-omar/':BAR_DO_OMAR_RELEASE,
+ '/gastronomia/spicy-fish/':SPICY_FISH_RELEASE,
+ '/gastronomia/dumare/':DUMARE_RELEASE,
+ '/gastronomia/amendoeira/':AMENDOEIRA_RELEASE
+};
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
@@ -36,7 +52,7 @@ const prefix=(route,lang)=>lang==='ES'?route:'/'+lang.toLowerCase()+route;
 const pilot=process.argv.find(a=>a.startsWith('--routes='))?.slice(9).split(',');
 const manualUpdating=process.argv.includes('--update');
 if(manualUpdating&&!pilot)throw Error('--update requires --routes');
-const liveRoot=path.resolve(root,'../../../public_html');
+const liveRoot=path.resolve(process.env.EC_LIVE_ROOT||path.resolve(root,'../../../public_html'));
 const liveManifestPath=path.join(liveRoot,'locale-manifest.json');
 let liveManifest=null;
 if(!manualUpdating&&!process.argv.includes('--full')){
@@ -108,6 +124,14 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   if(mirrorInputs.includes(file)||/^assets\/js\/translations\/chunks\/buzios-(?:transport-mirror|bus-timetable|guide-context|apps-mirror|events|things-parity)\.js$/.test(file)){for(const route of mirrorRoutes)routes.add(route);continue;}
   // This module only supplies texts for /quiero/; do not rebuild 3,522 unrelated locale pages.
   if(file==='assets/js/translations/quiero.js'){routes.add('/quiero/');continue;}
+  // Route-scoped restaurant copy is isolated so it only rerenders Cervantes' three locale files.
+  if(file==='assets/js/translations/cervantes-copacabana.js'){routes.add('/gastronomia/cervantes-copacabana/');continue;}
+  if(file==='assets/js/translations/chez-claude.js'){routes.add('/gastronomia/chez-claude/');continue;}
+  if(file==='assets/js/translations/don-camillo-release.js'){routes.add('/gastronomia/don-camillo/');continue;}
+  if(file==='assets/js/translations/bar-do-omar-release.js'){routes.add('/gastronomia/bar-do-omar/');continue;}
+  if(file==='assets/js/translations/spicy-fish-release.js'){routes.add('/gastronomia/spicy-fish/');continue;}
+  if(file==='assets/js/translations/dumare-release.js'){routes.add('/gastronomia/dumare/');continue;}
+  if(file==='assets/js/translations/amendoeira-release.js'){routes.add('/gastronomia/amendoeira/');continue;}
   if(file==='assets/js/buzios-taxonomy.js')continue;
   if(file.startsWith('destinos/buzios/')&&file.endsWith('.html')){
    const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;
@@ -124,10 +148,20 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
 }
 const useLiveIncremental=!!liveManifest&&!manualUpdating&&!requiresFull;
 const updating=manualUpdating||useLiveIncremental;
+// Incremental rerenders start from the exact locale HTML already published on Hostinger.
+// EC_USE_LIVE_TEMPLATES enables the same path against a read-only local Hostinger snapshot.
+const usePublishedTemplates=useLiveIncremental||(manualUpdating&&process.env.EC_USE_LIVE_TEMPLATES==='1');
+function publishedLocalePage(pathname){
+ if(!usePublishedTemplates||!/^\/(?:pt|en)(?:\/|$)/i.test(pathname))return null;
+ let candidate=path.resolve(liveRoot,'.'+pathname);
+ if(pathname.endsWith('/'))candidate=path.join(candidate,'index.html');
+ if(!candidate.startsWith(liveRoot+path.sep)||!fs.existsSync(candidate)||!fs.statSync(candidate).isFile())return null;
+ return candidate;
+}
 const previous=manualUpdating?JSON.parse(fs.readFileSync(path.join(out,'locale-manifest.json'))):useLiveIncremental?liveManifest:null;
 const selectedRoutes=pilot?new Set(pilot):useLiveIncremental?incrementalRoutes:null;
 const targets=files.filter(f=>!selectedRoutes||selectedRoutes.has(routeFor(f))).flatMap(f=>['ES','PT','EN'].map(language=>({file:f,route:routeFor(f),language})));
-console.log('Build mode: '+(useLiveIncremental?'incremental':'full')+'; rendering '+targets.length+' of '+(files.length*3)+' locale pages; source '+currentCommit);
+console.log('Build mode: '+(manualUpdating?'route-selective update':useLiveIncremental?'incremental':'full')+'; rendering '+targets.length+' of '+(files.length*3)+' locale pages; source '+currentCommit);
 // A legacy page shipped two plain-text meta declarations inside <head> without
 // their opening angle bracket. Browsers treat those lines as body text. Repair
 // only bare meta declarations in the head before either locale rendering path.
@@ -159,12 +193,14 @@ function adaptLegacyScripts(html,sourcePath){
 const server=http.createServer((req,res)=>{
  const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
  const sourcePath=pathname.replace(/^\/(pt|en)(?=\/|$)/i,'')||'/';
- let file=path.resolve(root,'.'+sourcePath);
- if(!file.startsWith(root+path.sep)&&file!==root){res.writeHead(403).end();return;}
+ const publishedFile=publishedLocalePage(pathname);
+ let file=publishedFile||path.resolve(root,'.'+sourcePath);
+ if(!publishedFile&&!file.startsWith(root+path.sep)&&file!==root){res.writeHead(403).end();return;}
  if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');
  if(!fs.existsSync(file)){res.writeHead(404).end();return;}
  res.setHeader('Content-Type',types[path.extname(file)]||'application/octet-stream');
  if(file.endsWith('.html')){
+   if(publishedFile){res.end(fs.readFileSync(file,'utf8'));return;}
    let html=repairBareHeadMeta(adaptLegacyScripts(fs.readFileSync(file,'utf8'),sourcePath)).replace(/<html\b/i,'<html data-ec-locale-routes="true"');
    html=html.replace('src="https://cdn.tailwindcss.com"','src="https://cdn.tailwindcss.com/3.4.17"')
      .replace('src="https://unpkg.com/react@18/','src="https://unpkg.com/react@18.3.1/')
@@ -206,12 +242,14 @@ async function worker(){
    if(requestUrl.origin===base){
     const requestPath=decodeURIComponent(requestUrl.pathname);
     const sourcePath=requestPath.replace(/^\/(?:pt|en)(?=\/|$)/i,'')||'/';
-    let file=path.resolve(root,'.'+sourcePath);
-    if(!file.startsWith(root+path.sep)&&file!==root)return r.fulfill({status:403,body:'Forbidden'});
+    const publishedFile=publishedLocalePage(requestPath);
+    let file=publishedFile||path.resolve(root,'.'+sourcePath);
+    if(!publishedFile&&!file.startsWith(root+path.sep)&&file!==root)return r.fulfill({status:403,body:'Forbidden'});
     if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');
     if(!fs.existsSync(file))return r.fulfill({status:404,body:'Not found'});
     const contentType=types[path.extname(file)]||'application/octet-stream';
     if(file.endsWith('.html')){
+     if(publishedFile)return r.fulfill({status:200,body:fs.readFileSync(file,'utf8'),contentType,headers:{'Content-Security-Policy':"script-src 'none'"}});
      let html=repairBareHeadMeta(adaptLegacyScripts(fs.readFileSync(file,'utf8'),sourcePath)).replace(/<html\b/i,'<html data-ec-locale-routes="true"');
      html=html.replace('src="https://cdn.tailwindcss.com"','src="https://cdn.tailwindcss.com/3.4.17"')
       .replace('src="https://unpkg.com/react@18/','src="https://unpkg.com/react@18.3.1/')
@@ -276,9 +314,12 @@ async function worker(){
     const dest=path.join(out,route.slice(1)+'index.html');fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,html);
     manifest.push({route,source:target.route,language:target.language,indexable:false,redirect:finalPath});continue;
    }
-   await page.goto(base+route,{waitUntil:'load',timeout:30000});
+   const usingPublishedTemplate=!!publishedLocalePage(route);
+   // Published HTML already contains its approved static locale state. Its browser response
+   // blocks page scripts so shared runtime initializers cannot inject unrelated DOM.
+   await page.goto(base+route,{waitUntil:usingPublishedTemplate?'domcontentloaded':'load',timeout:30000});
    if(new URL(page.url()).pathname!==route)throw Error('Unexpected client navigation '+page.url());
-   await page.evaluate(async language=>{
+   if(!usingPublishedTemplate)await page.evaluate(async language=>{
     const scripts=[...document.querySelectorAll('script[type="module"][src]')];
     for(const script of scripts){if(new URL(script.src).origin===location.origin){const module=await import(script.src);if(module.ready)await module.ready;}}
     const i18n=await import('/assets/js/i18n.js');i18n.setLanguage(language);
@@ -290,8 +331,84 @@ async function worker(){
     await new Promise(r=>setTimeout(r,80));
     if(typeof window.ecApplyPracticalSummaryLocale==="function")window.ecApplyPracticalSummaryLocale(language);
    },target.language);
-   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations})=>{
+   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations,routeTranslations,usingPublishedTemplate})=>{
     const language=document.documentElement.lang;
+    if((usingPublishedTemplate||routeTranslations?.forceLegacyParagraphs)&&routeTranslations?.legacyParagraphIndexes&&(language==='pt-BR'||language==='en')){
+     // The legacy source dictionary was positional and the Spanish page grew.
+     // Rebuild its index map against the current page, keep its original HTML
+     // translations, and translate the newly added paragraphs before writing.
+     const paragraphs=[...document.querySelectorAll('p')];
+     if(paragraphs.length!==routeTranslations.legacyParagraphIndexes.length)throw Error('Published paragraph count changed for '+route);
+     const legacyScript=[...document.querySelectorAll('script')].find(script=>script.textContent.includes('const D=')&&script.textContent.includes('function full('));
+     if(!legacyScript)throw Error('Published inline paragraph renderer missing for '+route);
+     const dictionaryMatch=legacyScript.textContent.match(/const D=(\{[\s\S]*?\}),P=/);
+     if(!dictionaryMatch)throw Error('Could not read historical PT/EN dictionary for '+route);
+     const historical=JSON.parse(dictionaryMatch[1]);
+     const rebuilt={pt:{},en:{}};
+     for(const [index,legacyIndex] of routeTranslations.legacyParagraphIndexes.entries()){
+      if(legacyIndex===null)continue;
+      for(const locale of ['pt','en']){
+       const value=historical[locale]?.[legacyIndex];
+       if(typeof value!=='string')throw Error('Historical '+locale+' paragraph '+legacyIndex+' missing for '+route);
+       rebuilt[locale][index]=value;
+      }
+     }
+     for(const locale of ['PT','EN'])for(const [index,value] of Object.entries(routeTranslations.supplemental[locale]||{}))rebuilt[locale.toLowerCase()][index]=value;
+     for(const index of routeTranslations.structuredParagraphIndexes||[])for(const locale of ['pt','en']){
+      const value=rebuilt[locale][index],match=typeof value==='string'?value.match(/^([\s\S]*?<strong>[\s\S]*?<\/strong>)\s+\|\s+([\s\S]+)$/):null;
+      if(!match)throw Error('Structured historical dictionary markup mismatch at '+index+' for '+route+': '+String(value).slice(0,220));
+      rebuilt[locale][index]=match[1]+'<br>'+match[2];
+     }
+     for(let index=0;index<paragraphs.length;index++){
+      const value=rebuilt[language==='pt-BR'?'pt':'en'][index];
+      if(typeof value!=='string'||!value.trim())throw Error('Untranslated published paragraph '+index+' for '+route);
+      paragraphs[index].innerHTML=value;
+     }
+     const textCopy=routeTranslations.text?.[language==='pt-BR'?'PT':'EN']||{};
+     const textWalker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+     let textNode;while((textNode=textWalker.nextNode())){
+      const parent=textNode.parentElement;
+      if(!parent||['SCRIPT','STYLE','NOSCRIPT'].includes(parent.tagName))continue;
+      const trimmed=textNode.nodeValue.trim(),key=trimmed.replace(/\s+/g,' '),translated=textCopy[key];
+      if(translated)textNode.nodeValue=textNode.nodeValue.replace(trimmed,()=>translated);
+     }
+     const attributeCopy=routeTranslations.attributes?.[language==='pt-BR'?'PT':'EN']||{};
+     for(const element of document.querySelectorAll('[alt],[title],[data-ec-alt]'))for(const attribute of ['alt','title','data-ec-alt']){
+      const value=element.getAttribute(attribute);if(value&&attributeCopy[value])element.setAttribute(attribute,attributeCopy[value]);
+     }
+     const localeScript=[...document.querySelectorAll('script')].find(script=>script.textContent.includes('const T=')&&script.textContent.includes('function setLang(')&&script.textContent.includes("setLang('es')"));
+     if(localeScript){
+      const tableMatch=localeScript.textContent.match(/const T=(\{[\s\S]*?\});/);
+      if(!tableMatch)throw Error('Could not read static language-bar dictionary for '+route);
+      const table=JSON.parse(tableMatch[1].replace(/(^\{|,)\s*(pt|en)\s*:/g,'$1"$2":'));
+      for(const key of ['PT','EN']){
+       const locale=key==='PT'?'pt':'en';
+       table[locale]||={};
+       Object.assign(table[locale],routeTranslations.text?.[key]||{},routeTranslations.attributes?.[key]||{});
+      }
+      let source=localeScript.textContent.replace(tableMatch[0],'const T='+JSON.stringify(table)+';');
+      source=source.replace(/setLang\('es'\)(?=\}\)\(\);?)/,`setLang(document.documentElement.lang==='pt-BR'?'pt':document.documentElement.lang==='en'?'en':'es')`);
+      if(source===localeScript.textContent)throw Error('Could not initialize static language bar from route locale for '+route);
+      localeScript.textContent=source;
+     }
+     legacyScript.textContent=legacyScript.textContent.replace(dictionaryMatch[0],'const D='+JSON.stringify(rebuilt)+',P=');
+     const initialized=legacyScript.textContent.replace(/full\('es'\)(?=\}\)\(\);?)/,`full(document.documentElement.lang==='pt-BR'?'pt':document.documentElement.lang==='en'?'en':'es')`);
+     if(initialized===legacyScript.textContent)throw Error('Could not switch legacy initializer to the current published locale for '+route);
+     legacyScript.textContent=initialized;
+    }else if(routeTranslations&&(language==='pt-BR'||language==='en')){
+     const locale=language==='pt-BR'?'PT':'EN';
+     const copy=routeTranslations[locale]||{};
+     const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+     let node;while((node=walker.nextNode())){
+      const parent=node.parentElement;
+      if(!parent||['SCRIPT','STYLE','NOSCRIPT'].includes(parent.tagName))continue;
+      const trimmed=node.nodeValue.trim(),key=trimmed.replace(/\s+/g,' '),translated=copy[key];
+      if(translated)node.nodeValue=node.nodeValue.replace(trimmed,()=>translated);
+     }
+     for(const el of document.querySelectorAll('[alt],[title],[data-ec-alt]'))for(const attr of ['alt','title','data-ec-alt']){
+      const value=el.getAttribute(attr);if(value&&copy[value])el.setAttribute(attr,copy[value]);
+     }
+    }
     if(standaloneTranslations&&/^\/experiencias\/pedra-(?:telegrafo|gavea|bonita)\/$/.test(route.replace(/^\/(?:pt|en)(?=\/|$)/,''))){
      const selected=language==='pt-BR'?'PT':language==='en'?'EN':'ES';
      if(selected!=='ES'){
@@ -303,6 +420,23 @@ async function worker(){
        if(translation)node.nodeValue=original.replace(trimmed,translation);
       }
      }
+    }
+    if(usingPublishedTemplate){
+     const title=document.title,description=document.querySelector('meta[name="description"]')?.content;
+     const expectedLang=route.startsWith('/pt/')?'pt-BR':'en';
+     const canonical=document.querySelector('link[rel="canonical"]')?.href;
+     const expectedCanonical=origin+route;
+     if(language!==expectedLang)throw Error('Published template has unexpected lang '+language+' for '+route);
+     if(!title||!description)throw Error('Published template is missing title/description');
+     if(canonical!==expectedCanonical)throw Error('Published template canonical mismatch: '+canonical);
+     const expectedAlternates={es:origin+route.replace(/^\/(?:pt|en)(?=\/|$)/,''), 'pt-BR':origin+route.replace(/^\/(?:pt|en)(?=\/|$)/,'/pt'), en:origin+route.replace(/^\/(?:pt|en)(?=\/|$)/,'/en'), 'x-default':origin+route.replace(/^\/(?:pt|en)(?=\/|$)/,'')};
+     for(const [hreflang,href] of Object.entries(expectedAlternates)){
+      if(document.querySelector(`link[rel="alternate"][hreflang="${hreflang}"]`)?.href!==href)throw Error('Published template hreflang mismatch: '+hreflang);
+     }
+     if(document.querySelector('link[hreflang^="fr"]'))throw Error('Published template unexpectedly advertises French before FR QA');
+     const h1=document.querySelectorAll('h1').length;
+     if(h1!==1)throw Error('Published template must retain exactly one H1, found '+h1);
+     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1};
     }
     const canonical=origin+route;
     const sourcePath=route.replace(/^\/(pt|en)(?=\/|$)/,'')||'/';
@@ -370,7 +504,7 @@ async function worker(){
     document.querySelector('base[data-ec-build-base]').setAttribute('href',sourcePath);
     // Recreate JS-only action buttons on load so their event handlers aren't lost.
     document.querySelector('.ec-global-actions')?.remove();
-    if(!originalLanguageBar)document.querySelectorAll('.lang-switcher').forEach(n=>n.remove());
+    if(!originalLanguageBar||usingPublishedTemplate&&routeTranslations?.legacyParagraphIndexes)document.querySelectorAll('.lang-switcher').forEach(n=>n.remove());
     // No per-build user state or externally supplied widget DOM is serialized.
     document.querySelectorAll('iframe[src^="about:"],script[src^="https://tpembd.com/"]').forEach(n=>n.remove());
     for(const s of document.querySelectorAll('script[type="application/ld+json"]')){
@@ -390,7 +524,7 @@ async function worker(){
      const s=document.createElement('script');s.type='application/ld+json';s.dataset.ecBreadcrumb='';s.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});document.head.appendChild(s);
     }
     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1:document.querySelectorAll('h1').length};
-   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS});
+   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS,routeTranslations:ROUTE_TRANSLATIONS[target.route]||null,usingPublishedTemplate});
    // Redirect-only source documents remain redirect-only and never get hreflang.
    const original=fs.readFileSync(target.file,'utf8');const refresh=original.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(refresh){value.html=value.html.replace('</head>',refresh[0].replace(/(url=)([^"'>]+)/i,(_,p,destination)=>{const u=new URL(destination,base+target.route);return p+prefix(u.pathname,target.language)+u.search+u.hash;})+'</head>');}
