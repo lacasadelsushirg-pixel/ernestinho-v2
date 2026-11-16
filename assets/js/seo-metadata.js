@@ -839,6 +839,11 @@ Object.assign(SEO_METADATA, {
     ES: ['Fogo de Chão Botafogo: guía completa | Ernestinho Carioca', 'Guía completa de Fogo de Chão Botafogo en Río: identidad, carta, horarios, mapa, fotografías y consejos de Ernestinho Carioca.'],
     PT: ['Fogo de Chão Botafogo: guia completo | Ernestinho Carioca', 'Guia do Fogo de Chão Botafogo no Rio: identidade, cardápio, horários, mapa, fotos e dicas de Ernestinho Carioca.'],
     EN: ['Fogo de Chão Botafogo: complete guide | Ernestinho Carioca', 'A guide to Fogo de Chão Botafogo in Rio: its identity, menu, hours, map, photos and tips from Ernestinho Carioca.']
+  },
+  '/gastronomia/stalos/': {
+    ES: ['Stalos: guía completa | Ernestinho Carioca', 'Guía editorial de Stalos: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.'],
+    PT: ['Stalos: guia completo | Ernestinho Carioca', 'Guia editorial de Stalos: identidade, história, recomendações, horários, transporte e mapa no Rio.'],
+    EN: ['Stalos: complete guide | Ernestinho Carioca', 'Editorial guide to Stalos: its identity, history, recommendations, opening hours, transport and map in Rio.']
   }
 });
 export function applySeoMetadata(language, route = routeParts().path) {
