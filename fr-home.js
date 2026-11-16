@@ -43,6 +43,12 @@ function localize(){
       if(!untranslated.startsWith('api/') && !untranslated.startsWith('.well-known/'))link.href=ROOT+untranslated+url.search+url.hash;
     }
   }
+  for(const link of document.querySelectorAll('a[href*="wa.me/5521969946938"]')){
+    let wa;try{wa=new URL(link.href)}catch{continue}
+    if(!wa.searchParams.has('text'))continue;
+    wa.searchParams.set('text','Bonjour Ernestinho, j’aimerais découvrir Rio avec vous.');
+    if(link.href!==wa.href)link.href=wa.href;
+  }
   for(const el of document.querySelectorAll('[src],[srcset]')){
     const src=el.getAttribute('src');
     if(src?.startsWith('/assets/'))el.setAttribute('src',(location.pathname.startsWith('/fr-vista-luna/')?'/fr-vista-luna':'')+src);
