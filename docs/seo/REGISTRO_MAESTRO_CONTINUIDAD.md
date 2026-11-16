@@ -83,4 +83,4 @@ No utilizar el PR #41 como release de este sublote: además de Inicio modifica `
 - PR #40: Elena PT/EN, fuera de prioridad mientras Inicio no esté publicado.
 - PR #41: candidato amplio de Inicio/FR; no publicado y sin revisiones.
 - Producción seguía en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346` al iniciar este registro.
-- PR #42 seguía abierto, no borrador, sin revisiones registradas y con HEAD remoto `6dec992d29866bcae279fb508df54307297fe398` al cerrar esta ejecución.
+- PR #42 seguía abierto, no borrador, fusionable y sin revisiones registradas. Tras guardar este registro, su HEAD remoto verificable quedó en `809fec7a4b5eb4c70282b2a80b7792d6ab1a2631`.
