@@ -12,6 +12,7 @@ export function hasLocaleRoutes() {
   return document.documentElement.dataset.ecLocaleRoutes === 'true';
 }
 export function localeHref(language) {
+  if (language === 'FR') return '/fr/' + location.search + location.hash;
   return localizedPath(location.pathname, language) + location.search + location.hash;
 }
 export function localizeLinks(root = document, language = routeParts().language) {

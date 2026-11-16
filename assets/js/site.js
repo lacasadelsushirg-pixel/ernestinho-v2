@@ -133,7 +133,7 @@ function ensureMobileLanguageRow() {
   row.className="ec-mobile-language-row";
   row.setAttribute("role","group");
   row.setAttribute("aria-label","Cambiar idioma");
-  const options=[["ES","🇪🇸","Español"],["PT","🇧🇷","Português"],["EN","🇺🇸","English"]];
+  const options=[["ES","🇪🇸","Español"],["PT","🇧🇷","Português"],["EN","🇺🇸","English"],["FR","🇫🇷","Français"]];
   for(const [code,flag,label] of options){
     const b=document.createElement(hasLocaleRoutes()?"a":"button");if(b.tagName==="BUTTON")b.type="button";else{b.href=localeHref(code);b.hreflang=code==="PT"?"pt-BR":code.toLowerCase();b.style.textDecoration="none";}b.className="ec-language-choice";b.dataset.ecLanguage=code;b.setAttribute("aria-label",label);b.setAttribute("aria-pressed","false");b.innerHTML="<span aria-hidden='true'>"+flag+"</span><span>"+code+"</span>";
     if(b.tagName==="BUTTON")b.addEventListener("click",()=>apply(code));
@@ -176,11 +176,11 @@ function ensureTools() {
   // Some approved headers contain an unmarked legacy language button.
   // Remove only those direct siblings, including ones retained by prerendering.
   for(const legacy of tools.querySelectorAll(':scope > button')){
-    if(legacy!==button && /^(ES|PT(?:-BR)?|EN)$/.test(legacy.textContent.trim()))legacy.remove();
+    if(legacy!==button && /^(ES|PT(?:-BR)?|EN|FR)$/.test(legacy.textContent.trim()))legacy.remove();
   }
   button.setAttribute("role","group");button.setAttribute("aria-label","Cambiar idioma");
   button.replaceChildren();
-  for(const code of ["ES","PT","EN"]){const choice=document.createElement(hasLocaleRoutes()?"a":"button");if(choice.tagName==="BUTTON")choice.type="button";else{choice.href=localeHref(code);choice.hreflang=code==="PT"?"pt-BR":code.toLowerCase();choice.style.cssText="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box";}choice.className="ec-desktop-language-choice";choice.dataset.desktopLanguage=code;if(document.querySelector("[data-ch-es]"))choice.dataset.ecLanguage=code;choice.textContent=code==="PT"?"PT-BR":code;choice.setAttribute("aria-label",code==="ES"?"Español":code==="PT"?"Português (Brasil)":"English");if(choice.tagName==="BUTTON")choice.addEventListener("click",()=>apply(code));button.appendChild(choice);}
+  for(const code of ["ES","PT","EN","FR"]){const choice=document.createElement(hasLocaleRoutes()?"a":"button");if(choice.tagName==="BUTTON")choice.type="button";else{choice.href=localeHref(code);choice.hreflang=code==="PT"?"pt-BR":code.toLowerCase();choice.style.cssText="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box";}choice.className="ec-desktop-language-choice";choice.dataset.desktopLanguage=code;if(document.querySelector("[data-ch-es]"))choice.dataset.ecLanguage=code;choice.textContent=code==="PT"?"PT-BR":code;choice.setAttribute("aria-label",code==="ES"?"Español":code==="PT"?"Português (Brasil)":code==="EN"?"English":"Français");if(choice.tagName==="BUTTON")choice.addEventListener("click",()=>apply(code));button.appendChild(choice);}
   return button;
 }
 async function copyCurrentLink(message) {
@@ -383,7 +383,7 @@ function ensureCadasturStyles() {
 function mountCadastur() {
   if (!document.body || document.querySelector("[data-cadastur-mounted]")) return;
   ensureCadasturStyles();
-  const path = routeParts().path;
+  const path = document.documentElement.hasAttribute("data-ec-fr-page") && location.pathname.replace(/\/+$/, "/") === "/fr/" ? "/" : routeParts().path;
 
   const footer = document.querySelector(".ec-corporate-footer .ec-footer-legal");
   if (footer) {
@@ -448,6 +448,12 @@ function mountCadastur() {
 
 
 async function init() {
+  if (document.documentElement.hasAttribute("data-ec-fr-page")) {
+    ensureGlobalStyles();
+    ensureCorporateClosing();
+    mountCadastur();
+    return;
+  }
   addTransportPhotoReferences();
   addBulkPhotoReferences();
   ensureGuideAdn();

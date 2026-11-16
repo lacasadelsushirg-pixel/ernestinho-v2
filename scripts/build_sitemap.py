@@ -25,7 +25,11 @@ if args.manifest:
     if manifest.get('pilot'):
         raise SystemExit('Cannot generate the public sitemap from a pilot build')
     expected_routes = {item['route'] for item in manifest['routes'] if item['indexable']}
-    if len(expected_routes) != manifest['indexablePerLanguage'] * 3:
+    extra_language_routes = sum(
+        1 for item in manifest['routes']
+        if item.get('indexable') and str(item.get('language', '')).lower() not in ('es', 'pt', 'en')
+    )
+    if len(expected_routes) != manifest['indexablePerLanguage'] * 3 + extra_language_routes:
         raise SystemExit('Indexable route count disagrees with the locale manifest')
 emitted = set()
 urlset = Element("{http://www.sitemaps.org/schemas/sitemap/0.9}urlset")
