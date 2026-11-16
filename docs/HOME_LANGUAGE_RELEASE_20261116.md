@@ -20,13 +20,15 @@ La diferencia de `index.html` observada en la rama de vista previa francesa corr
 - Prueba aislada del generador de sitemap con ES/PT/EN/FR: canonicals y alternates válidos; cuatro rutas incluidas.
 - Observación de producción: `/fr/` estaba marcado `noindex` y la página PT todavía no incluía el alternativo FR. Esta propuesta quita `noindex` solo de la página francesa y añade el enlace alternativo desde las tres versiones del Inicio generado.
 
-## Bloqueo de publicación
+## Revisión y aprobación de cambios protegidos
 
-`node scripts/guard_approved_content.mjs` detiene esta propuesta porque los cambios necesarios tocan exactamente tres recursos protegidos: `assets/js/site.js`, `assets/js/locale-routing.js` y `assets/js/translations/home.js`. No se alteró el guard, el snapshot, los manifiestos de aprobación ni el workflow. La revisión visual de escritorio se realizó en el preview aislado de Hostinger. Las 17 tarjetas muestran CTA francés; el hero cargó desde su origen de imagen con 1536 × 1024; WhatsApp, canonical y cinco alternates se verificaron. Los enlaces a secciones que aún no están listas terminan en sus rutas españolas existentes.
+El control identificó exactamente tres recursos críticos afectados: `assets/js/site.js`, `assets/js/locale-routing.js` y `assets/js/translations/home.js`. El propietario aprobó expresamente el 16 de noviembre de 2026 que se actualicen solo sus pins para esta publicación del Inicio multilingüe.
 
-La Guía francesa `/fr/guia/` conserva `noindex` y no se expone desde Inicio: aunque su contenido principal está en francés, aún muestra el pie en español. Su revisión y traducción completa queda como siguiente bloque.
-
-No se pudo emular una ventana móvil de 390 px con el navegador de prueba disponible; la verificación móvil y el build completo de la aplicación Hostinger quedan pendientes. La carpeta de preview es un clon aislado de la rama, no una publicación de producción.
+- `site.js`: añade FR al selector de escritorio y móvil y limita la inicialización especial de la página Home FR.
+- `locale-routing.js`: dirige el selector FR a `/fr/`, conservando query y fragmento.
+- `translations/home.js`: pule las traducciones PT-BR e inglés del Inicio.
+- Se actualizaron únicamente los tres pins correspondientes en `scripts/guard_approved_content.mjs`. El manifiesto y el snapshot de publicación permanecen intactos; las 247 diferencias históricas siguen sin aprobarse en bloque.
+- GitHub vuelve a ejecutar las protecciones y verificaciones. La publicación en producción queda supeditada a que el gate pase y Hostinger complete el build.
 
 **Estado:** traducciones y cambios de integración preparados en rama; aún no publicados en producción.
 
