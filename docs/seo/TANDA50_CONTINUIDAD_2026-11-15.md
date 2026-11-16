@@ -1657,3 +1657,79 @@ Hostinger production revision/rendimiento-traducciones-81a904c SHA 21bb68772faa6
 **Tanda 3: 16/50 auditadas; 0 completas y 0 publicadas.** Fichas #1–16: Amendoeira, Chama Rio Copacabana, Carretão Copacabana—Siqueira Campos, Carretão Lido, Plage Café, Spicy Fish, Terra Brasilis, Haru, Fogo, Dumaré, Delírio Tropical Rio Sul, K08, Churrasqueira Rio, Garota, Polis Sucos y Feira de São Cristóvão. Quedan 34. Próxima prioridad libre por GSC final: La Bicyclette (148 impresiones totales: ES53/PT16/EN79), luego Stalos (145) y Giuseppe Mar (142); comprobar inventario y sitio antes de contar.
 
 Inventario actualizado en a64a422705970ea270b6f88e90ca710971041963. Hostinger no se modificó. PR #37 continúa candidato no publicado sobre base de producción; Vercel pendiente; sin revisión independiente.
+
+
+## Continuación de tanda 3 — corte 2026-11-16, fichas 17–20
+
+Fuente de datos: Hostinger en producción `revision/rendimiento-traducciones-81a904c`, SHA `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; OpenSEO/Search Console propiedad verificada, ventana final 2026-10-16–2026-11-12 (PT). Los SHA de fuente ES se verificaron con el objeto del commit de producción. Las inspecciones GSC describen el estado de producción y no prueban el candidato privado.
+
+### Ficha 17/50 — La Bicyclette
+
+URL: https://www.ernestinhocarioca.com.br/gastronomia/la-bicyclette/ — SHA ES `82631de53f3a33c2d67487ba563abd91e5baafbd`.
+
+- Hostinger ES/PT/EN: 25 párrafos por ruta; 7 posiciones PT y 7 EN son idénticas al español. Title/description están localizados; canonical y hreflang ES/PT-BR/EN/x-default apuntan a sus rutas propias. Imágenes ES/PT/EN: 13/12/12; dos alt vacíos en PT y EN.
+- GSC: ES 53 impresiones/0 clics/posición 24,7; PT 16/0/7,4; EN 79/0/8,7. Inspecciones 3/3 enviadas e indexadas, fetch exitoso, robots permitido y canonical Google=declarada. La alerta de breadcrumb “Elemento sin nombre” es estructurada; no confirma un error de indexación.
+- La fuente conserva 19 claves manuales PT + 19 EN, pero los inicializadores fuerzan `setLang('es')`/`full('es')`. PR #37 añadió la ruta a la selección de locale. El candidato sigue sin build/runtime/capturas verificados. FR ausente en producción; ficha incompleta y no publicada.
+
+### Ficha 18/50 — Stalos
+
+URL: https://www.ernestinhocarioca.com.br/gastronomia/stalos/ — SHA ES `34d677468e2a5b07c7b8055238a344bda86478eb`.
+
+- Hostinger ES/PT/EN: 25 párrafos por ruta; 7 posiciones PT y 7 EN son idénticas al español. H1/títulos localizados; la meta description sigue en español en los tres idiomas. Canonical y hreflang ES/PT-BR/EN/x-default propios. Imágenes 11/10/10, con dos alt vacíos por cada variante PT/EN.
+- GSC: ES 87 impresiones/0 clics/posición 11,3; PT 7/0/7,1; EN 51/0/11,5. Inspecciones 3/3 PASS: enviadas e indexadas, fetch correcto, robots permitido y canonical Google=declarada. Breadcrumb sin nombre: alerta estructurada, no fallo de indexación confirmado.
+- Fuente inline: 19 entradas PT + 19 EN, y ambos inicializadores terminan en ES. PR #37 añade Stalos a la selección de locale y copia editorial localizada de title/description. Sin build ni captura del candidato, FR y QA semántico integral; incompleta y no publicada.
+
+### Ficha 19/50 — Giuseppe Mar
+
+URL: https://www.ernestinhocarioca.com.br/gastronomia/giuseppe-mar/ — SHA ES `318a57e414fc9fa64006343020e4fbbf064a1d4f`.
+
+- Hostinger ES/PT/EN: 31 párrafos por ruta; 10 posiciones PT y 10 EN son idénticas al español. Titles/H1 localizados, pero meta description en español. Canonical y hreflang ES/PT-BR/EN/x-default propios. Imágenes ES/PT/EN 11/10/10; dos alt vacíos en PT/EN.
+- GSC: ES 102/0/8,2; PT 17/0/8,6; EN 23/0/7,0 (impresiones/clics/posición). Inspecciones 3/3 PASS, enviadas/indexadas con fetch, robots y canonical propios. Breadcrumb “Unnamed item” es alerta de rich results, no error confirmado de indexación.
+- El diccionario PT/EN vigente (19+19) coincide con los de los commits históricos `42d03024d2c3765b0d96eb5f9763657d731baf4a` y `8570793a992b262c5fb384a396ec949e6105775c`; se conserva sin cambios. Los inicializadores actuales fuerzan ES. PR #37 incorpora la ruta y metadatos PT/EN. Falta render real, FR, QA editorial, build/capturas; incompleta y no publicada.
+
+### Ficha 20/50 — Aipo & Aipim Copacabana 391
+
+URL: https://www.ernestinhocarioca.com.br/gastronomia/aipo-aipim-391/ — SHA ES `db591ebfddae31ecef0c5cf17ee39b28becabe09`.
+
+- Hostinger ES/PT/EN: 24 párrafos por ruta; no se encontraron coincidencias literales posicionales en PT/EN. La muestra editorial inicial PT/EN es idiomática y semánticamente alineada, pero no es una revisión integral. Los tres titles y meta descriptions permanecen en español. Canonical/hreflang ES/PT-BR/EN/x-default propios. Imágenes 14 por ruta; dos alt vacíos por variante.
+- GSC final: ES 141 impresiones/0 clics/posición 9,4; no hubo filas PT/EN para esta ventana (esto no equivale a cero). Inspecciones: ES PASS/indexada; PT y EN “Discovered — currently not indexed” con robots/fetch/canonical sin veredicto técnico. Es exclusión/estado neutral sin error confirmado, no se cuenta como indexada.
+- Fuente inline conserva 19 claves PT + 19 EN; el diccionario PT vigente difiere del histórico mientras EN coincide. No se sobrescribe. Ambos inicializadores terminan en ES; PR #37 incluye la ruta y metadatos localizados. Faltan runtime, FR, QA de alts y semántica completa, build y capturas. Incompleta y no publicada.
+
+### Cola explícita para cerrar la tanda 3
+
+Tras #20, quedan **30 fichas**. El orden es la suma de impresiones ES/PT-BR/EN en Search Console para 2026-10-16–2026-11-12 y el filtro de rutas gastronómicas libres del inventario maestro. Estado de cada una: **pendiente de auditoría**, no traducida ni validada en este corte. El SHA corresponde al HTML ES fuente en el HEAD de producción `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`.
+
+| # | URL de producción | Impresiones GSC (ES+PT+EN) | SHA del HTML ES | Estado |
+|---:|---|---:|---|---|
+| 21 | https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/ | 272 | `3c03174a60b9f5a6a7d472a2bbab0c01fa78a412` | Pendiente de auditoría |
+| 22 | https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/ | 263 | `c5fb0bbb0ae6f528af3d33b398d4a69c39794aa0` | Pendiente de auditoría |
+| 23 | https://www.ernestinhocarioca.com.br/gastronomia/maska/ | 221 | `498e10c390f3a116d42b114b145f312124ebf8dd` | Pendiente de auditoría |
+| 24 | https://www.ernestinhocarioca.com.br/gastronomia/oteque/ | 210 | `9129914e9b78ceaa06301cd7e5fcbe12326901f7` | Pendiente de auditoría |
+| 25 | https://www.ernestinhocarioca.com.br/gastronomia/fast-food/ | 194 | `3eb04d5fc56365b46fab8bb0a060ec7568618374` | Pendiente de auditoría |
+| 26 | https://www.ernestinhocarioca.com.br/gastronomia/merci/ | 193 | `97e8f123f1f5fe3c5a26e063b18680127a5ac768` | Pendiente de auditoría |
+| 27 | https://www.ernestinhocarioca.com.br/gastronomia/guacamole-copacabana/ | 169 | `a08313c70caf9646590de9fea5ea53b7094e1034` | Pendiente de auditoría |
+| 28 | https://www.ernestinhocarioca.com.br/gastronomia/hollandaise/ | 137 | `0f57ab5a0c0f56d4b17f181c56ce93838f239376` | Pendiente de auditoría |
+| 29 | https://www.ernestinhocarioca.com.br/gastronomia/mocellin-steak/ | 134 | `3553279f2696fd6b2f913d0adba0d0e4904ac9f9` | Pendiente de auditoría |
+| 30 | https://www.ernestinhocarioca.com.br/gastronomia/classico-beach-club-barra/ | 119 | `2d96c21b7398b3f528092dc70aace20bf12e05a0` | Pendiente de auditoría |
+| 31 | https://www.ernestinhocarioca.com.br/gastronomia/praia-skol-copa/ | 117 | `70861b9ba60ea9e99a22d155df649b3c1bca6722` | Pendiente de auditoría |
+| 32 | https://www.ernestinhocarioca.com.br/gastronomia/rampinha/ | 106 | `e2a420af58c52f668b58974afcef623de6180836` | Pendiente de auditoría |
+| 33 | https://www.ernestinhocarioca.com.br/gastronomia/eclipse/ | 106 | `227e1879d6fe2cc55d4cad20b8d6804b0bd819e4` | Pendiente de auditoría |
+| 34 | https://www.ernestinhocarioca.com.br/gastronomia/casa-cave/ | 103 | `698e041737b2dcfc5f9ee2b29a7cfc9055e601e9` | Pendiente de auditoría |
+| 35 | https://www.ernestinhocarioca.com.br/gastronomia/marius-degustare/ | 96 | `0b86e8009857280563813202c3a8ebecc3d2829b` | Pendiente de auditoría |
+| 36 | https://www.ernestinhocarioca.com.br/gastronomia/xodozin-copa/ | 95 | `e3501501ca328705040d49d4e700769313d8e90d` | Pendiente de auditoría |
+| 37 | https://www.ernestinhocarioca.com.br/gastronomia/confeitaria-manon/ | 95 | `7240f16f918b3c4b44c18ff1e1ce69cc3c46963e` | Pendiente de auditoría |
+| 38 | https://www.ernestinhocarioca.com.br/gastronomia/iraja-redux/ | 95 | `fb393540ddb73fdddb75b9cb8461f145619b83ba` | Pendiente de auditoría |
+| 39 | https://www.ernestinhocarioca.com.br/gastronomia/otto/ | 93 | `5c57ddb89b7c71fbaadcd2a3a291f5a85d669680` | Pendiente de auditoría |
+| 40 | https://www.ernestinhocarioca.com.br/gastronomia/ferro-e-farinha/ | 87 | `45ab28867c3c2ee3fc202a3a331591c52bf3f5c9` | Pendiente de auditoría |
+| 41 | https://www.ernestinhocarioca.com.br/gastronomia/umai/ | 86 | `49d87430988704c1b43ee02b1c003b236e534dea` | Pendiente de auditoría |
+| 42 | https://www.ernestinhocarioca.com.br/gastronomia/assador/ | 86 | `383facb0bb25227bc031c6ea31cbd44c2aff6491` | Pendiente de auditoría |
+| 43 | https://www.ernestinhocarioca.com.br/gastronomia/cachambeer/ | 83 | `95ddfcd6d9a9fffe7e7249a368be43407a52aab4` | Pendiente de auditoría |
+| 44 | https://www.ernestinhocarioca.com.br/gastronomia/confeitaria-colombo/ | 83 | `2c47c51647f5819905445620f641b587040d74a5` | Pendiente de auditoría |
+| 45 | https://www.ernestinhocarioca.com.br/gastronomia/rufino-parrilla/ | 80 | `fae737fa9c97d2aa4ce7129b3f94f362a41e0424` | Pendiente de auditoría |
+| 46 | https://www.ernestinhocarioca.com.br/gastronomia/aipo-aipim-920/ | 79 | `107f3a973fc5ded3804ca82f680ea9798d74c250` | Pendiente de auditoría de contenido; conserva alertas del inventario |
+| 47 | https://www.ernestinhocarioca.com.br/gastronomia/gurume/ | 77 | `22daad1abe2bc4f8c2c4462b6d8283ae4d0d51fe` | Pendiente de auditoría |
+| 48 | https://www.ernestinhocarioca.com.br/gastronomia/venga-ipanema/ | 76 | `6660786e8f609092bc90042852294fb3a70afe4a` | Pendiente de auditoría |
+| 49 | https://www.ernestinhocarioca.com.br/gastronomia/rio-scenarium/ | 72 | `fee3f29b97e8b6c4deb3fae932773dffacc637ca` | Pendiente de auditoría |
+| 50 | https://www.ernestinhocarioca.com.br/gastronomia/bafo-da-prainha/ | 71 | `084a0c88ece63392eb28bad1fa1d51089bb85d9e` | Pendiente de auditoría |
+
+Recuento de este corte: **20/50 auditadas en producción; 0/50 completas (PT/EN/FR + runtime + QA contenido/SEO + build incremental + sitemap/canonical/hreflang + capturas); 0/50 publicadas**. Las #21–50 quedan enumeradas para reanudación sin repetir #1–20. El conjunto de PR #37 ahora tiene 13 rutas en el allowlist de renderer (las nueve previas más La Bicyclette, Stalos, Giuseppe Mar y Aipo & Aipim 391); las cinco fichas con metadata override en el código actual son Haru, Fogo, Stalos, Giuseppe Mar y Aipo & Aipim. Esto solo es un candidato sin publicar: Vercel dio `failure` por `build-rate-limit` antes de este corte, no hay runtime/sitemap/capturas del HEAD actual, y PR #37 no tiene revisión humana. Producción Hostinger permanece intacta en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. Siguiente paso: retomar #21 Aprazível y continuar la cola por impresiones; no contar cualquier ficha hasta completar idioma/QA/capturas.
