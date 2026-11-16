@@ -27,11 +27,13 @@ function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>ig
 const isGoogleVerification=f=>path.dirname(f)===root&&/^google[a-f0-9]+\.html$/i.test(path.basename(f));
 const regionalRouteSet = new Set(regionalRoutes);
 const regionalFiles = regionalRoutes.map(route => path.join(root, route.slice(1), 'index.html'));
-const files = [...new Set([...walk(root).filter(f => !isGoogleVerification(f)), ...regionalFiles])].sort();
+const files = [...new Set([...walk(root).filter(f => !isGoogleVerification(f) && path.relative(root,f).split(path.sep)[0] !== 'fr'), ...regionalFiles])].sort();
 const routeFor=f=>{const rel=path.relative(root,f).replaceAll(path.sep,'/');return rel==='index.html'?'/':rel.endsWith('/index.html')?'/'+rel.slice(0,-10):'/'+rel;};
 const provisionalBuziosBeach=route=>{const m=route.match(/^\/destinos\/buzios\/playas\/([^/]+)\/$/);return !!m&&!beachEditorial[m[1]];};
 const indexable=f=>{const route=routeFor(f);if(regionalRouteSet.has(route))return true;const html=fs.readFileSync(f,'utf8');return !/404\.html$/.test(f)&&!provisionalBuziosBeach(route)&&!redirects.has(route.replace(/\/$/,'')||'/')&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(html);};
 const indexableRoutes=new Set(files.filter(indexable).map(routeFor));
+const frenchHomeSource=path.join(root,'fr','index.html');
+const frenchHomeIndexable=fs.existsSync(frenchHomeSource)&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(fs.readFileSync(frenchHomeSource,'utf8'));
 const prefix=(route,lang)=>lang==='ES'?route:'/'+lang.toLowerCase()+route;
 const pilot=process.argv.find(a=>a.startsWith('--routes='))?.slice(9).split(',');
 const manualUpdating=process.argv.includes('--update');
@@ -189,7 +191,7 @@ fs.mkdirSync(out,{recursive:true});
 function copy(dir,dest){for(const e of fs.readdirSync(dir,{withFileTypes:true})){
  if(ignore.has(e.name)||e.name.startsWith('.')||['package.json','package-lock.json','AGENTS.md','README.md','vercel.json','sitemap.xml'].includes(e.name))continue;
  const from=path.join(dir,e.name),to=path.join(dest,e.name);
- if(e.isDirectory()){fs.mkdirSync(to,{recursive:true});copy(from,to);}else if(!e.name.endsWith('.html')||isGoogleVerification(from))fs.copyFileSync(from,to);
+ if(e.isDirectory()){fs.mkdirSync(to,{recursive:true});copy(from,to);}else if(!e.name.endsWith('.html')||isGoogleVerification(from)||path.relative(root,from).split(path.sep)[0]==='fr')fs.copyFileSync(from,to);
 }}
 copy(root,out);
 for(const route of deletedSourceRoutes)for(const language of ['ES','PT','EN']){
@@ -290,7 +292,7 @@ async function worker(){
     await new Promise(r=>setTimeout(r,80));
     if(typeof window.ecApplyPracticalSummaryLocale==="function")window.ecApplyPracticalSummaryLocale(language);
    },target.language);
-   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations})=>{
+   const value=await page.evaluate(({origin,route,indexable,allRoutes,originalLanguageBar,seoCopy,standaloneTranslations,frenchHomeIndexable})=>{
     const language=document.documentElement.lang;
     if(standaloneTranslations&&/^\/experiencias\/pedra-(?:telegrafo|gavea|bonita)\/$/.test(route.replace(/^\/(?:pt|en)(?=\/|$)/,''))){
      const selected=language==='pt-BR'?'PT':language==='en'?'EN':'ES';
@@ -340,6 +342,7 @@ async function worker(){
     if(indexable){
      if(!link){link=document.createElement('link');link.rel='canonical';link.href=canonical;document.head.appendChild(link);}
      for(const l of ['es','pt','en','x-default']){const a=document.createElement('link');a.rel='alternate';a.hreflang=l==='pt'?'pt-BR':l;a.href=origin+prefix(sourcePath,l==='x-default'?'es':l);document.head.appendChild(a);}
+     if(frenchHomeIndexable&&sourcePath==='/'){const a=document.createElement('link');a.rel='alternate';a.hreflang='fr';a.href=origin+'/fr/';document.head.appendChild(a);}
     }
     const sourceBase=document.querySelector('base[data-ec-build-base]').href;
     for(const el of document.querySelectorAll('[src],[href],[poster],[action]')){
@@ -390,7 +393,7 @@ async function worker(){
      const s=document.createElement('script');s.type='application/ld+json';s.dataset.ecBreadcrumb='';s.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});document.head.appendChild(s);
     }
     return {html:'<!doctype html>\n'+document.documentElement.outerHTML,title,description,lang:language,canonical,indexable,textLength:document.body.innerText.length,h1:document.querySelectorAll('h1').length};
-   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS});
+   },{origin,route,indexable:indexableRoutes.has(target.route),allRoutes:[...indexableRoutes],originalLanguageBar:/class=["'][^"']*\blang-switcher\b/.test(source),seoCopy:SEO_METADATA[target.route]?.[target.language]||null,standaloneTranslations:STANDALONE_EXPERIENCE_TRANSLATIONS,frenchHomeIndexable});
    // Redirect-only source documents remain redirect-only and never get hreflang.
    const original=fs.readFileSync(target.file,'utf8');const refresh=original.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i);
    if(refresh){value.html=value.html.replace('</head>',refresh[0].replace(/(url=)([^"'>]+)/i,(_,p,destination)=>{const u=new URL(destination,base+target.route);return p+prefix(u.pathname,target.language)+u.search+u.hash;})+'</head>');}
@@ -405,6 +408,7 @@ async function worker(){
 try{if(browser)await Promise.all(Array.from({length:Math.max(1,Math.min(3,Number(process.env.EC_BUILD_WORKERS||3)))},worker));}finally{if(browser)await browser.close().catch(error=>console.warn('Browser close after build:',error.message));server.close();}
 if(errors.length)throw Error(JSON.stringify(errors));
 if(previous){const changed=new Set([...manifest.map(r=>r.route),...prunedRoutes]);manifest.push(...previous.routes.filter(r=>!changed.has(r.route)&&!deletedSourceRoutes.has(r.source)));}
+if(frenchHomeIndexable&&!manifest.some(r=>r.route==='/fr/'))manifest.push({route:'/fr/',source:'/fr/',language:'fr',indexable:true,generated:false,passthrough:true});
 manifest.sort((a,b)=>a.route.localeCompare(b.route));
 const isPilot=previous?previous.pilot:!!pilot;
 const outputManifest=path.join(out,'locale-manifest.json');
