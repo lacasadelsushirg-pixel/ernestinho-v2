@@ -155,7 +155,7 @@ function adaptLegacyScripts(html,sourcePath){
   if(sourcePath==='/compras/mercado-sao-pedro/')code=code.replace(/function lang\(/g,'function ecMarketLanguage(').replace(/=>lang\(/g,'=>ecMarketLanguage(').replace(/;lang\(/g,';ecMarketLanguage(');
   // These approved restaurant pages already contain their original positional PT/EN dictionaries.
   // Select the route locale when rendering their static pages instead of forcing Spanish.
-  if(['/gastronomia/haru/','/gastronomia/fogo-de-chao-botafogo/','/gastronomia/dumare/','/gastronomia/delirio-tropical-rio-sul/','/gastronomia/k08/','/gastronomia/churrasqueira-rio/','/gastronomia/garota-de-ipanema/','/gastronomia/polis-sucos/','/gastronomia/feira-sao-cristovao/','/gastronomia/la-bicyclette/','/gastronomia/stalos/','/gastronomia/giuseppe-mar/'].includes(sourcePath)){
+  if(['/gastronomia/haru/','/gastronomia/fogo-de-chao-botafogo/','/gastronomia/dumare/','/gastronomia/delirio-tropical-rio-sul/','/gastronomia/k08/','/gastronomia/churrasqueira-rio/','/gastronomia/garota-de-ipanema/','/gastronomia/polis-sucos/','/gastronomia/feira-sao-cristovao/','/gastronomia/la-bicyclette/','/gastronomia/stalos/','/gastronomia/giuseppe-mar/','/gastronomia/aipo-aipim-391/'].includes(sourcePath)){
    const pageLocale="(document.documentElement.lang==='pt-BR'?'pt':document.documentElement.lang==='en'?'en':'es')";
    code=code.replace("setLang('es')",`setLang(${pageLocale})`)
     .replace("full('es')",`full(${pageLocale})`);
