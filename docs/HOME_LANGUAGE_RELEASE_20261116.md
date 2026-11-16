@@ -25,3 +25,16 @@ La diferencia de `index.html` observada en la rama de vista previa francesa corr
 `node scripts/guard_approved_content.mjs` detiene esta propuesta porque los cambios necesarios tocan exactamente tres recursos protegidos: `assets/js/site.js`, `assets/js/locale-routing.js` y `assets/js/translations/home.js`. No se alteró el guard, el snapshot, los manifiestos de aprobación ni el workflow. El build completo y la prueba visual de esta rama en escritorio/móvil quedan pendientes de la revisión humana requerida por la protección; la portada actual en producción no se modificó.
 
 **Estado:** traducciones y cambios de integración preparados en rama; aún no publicados en producción.
+
+
+## Recuperación de traducciones francesas ya desplegadas
+
+El inventario de Hostinger encontró 115 archivos bajo `/fr/`. La rama aislada `release/fr-public-initial-20261115` contiene 113 archivos recuperables (112 fichas/rutas HTML y el script de localización); se integraron sin cambiar su contenido dentro de `fr/` en esta rama. Se conserva el Home francés candidato en `fr/index.html` y no se reemplazó por el Home de prueba antiguo.
+
+El diccionario manual de Hostinger contenía 3.891 claves; el diccionario preparado para el Home contenía 2.137. Se combinaron conservando los 3.891 valores existentes, incluidas las cinco traducciones en conflicto, y se agregaron las 22 claves nuevas que no estaban en el archivo manual: total 3.913 claves. La copia del diccionario también se guardó junto a las fichas francesas existentes para que sus scripts mantengan sus recursos.
+
+Las fichas francesas recuperadas siguen con `noindex`; se preservan en GitHub pero no se habilitan como páginas indexables ni se enlazan desde Home hasta que cada bloque supere su revisión. El fallback de Home sigue enviando al contenido español existente cuando el destino francés no está listo.
+
+## Estado real en Hostinger
+
+La última compilación de producción leída en Hostinger terminó correctamente en el commit `21bb6877` de `revision/rendimiento-traducciones-81a904c`. El PR #41 continúa sin integrar y no hay archivos de esta propuesta publicados. La integración Vercel no es parte del flujo de despliegue; el destino operativo es GitHub → Hostinger.
