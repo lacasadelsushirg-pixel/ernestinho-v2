@@ -51,3 +51,14 @@ La última compilación de producción leída en Hostinger terminó correctament
 El inventario publicado de Hostinger muestra 22 páginas HTML para Guía en cada una de ES, PT y EN: el hub y 21 temas, con las mismas rutas en los tres idiomas. La comparación de tamaños no encontró páginas PT o EN con menos del 88% del tamaño de su equivalente ES; esto es solo un filtro de integridad, no una validación semántica ni visual.
 
 En FR hay 11 páginas de Guía (hub y 10 temas). Faltan 11 rutas que se deben completar en el siguiente bloque: accesibilidad, alquiler-auto, cpf, documentos, donde-alojarse, guarda-equipaje, mes-a-mes, moverse, pix, seguro y terminales. Las rutas francesas existentes siguen noindex hasta revisar el contenido completo.
+
+
+## Corrección final de idioma del Home francés (16 de noviembre de 2026)
+
+La verificación en producción tras el despliegue incremental confirmó que `/fr/` cargaba contenido mezclado: las rutas francesas no se reconocían en el router y el módulo de traducciones solo admitía ES/PT/EN. También se verificó que el diccionario francés manual existente tenía 3.913 claves. Se recuperó por SHA de GitHub y se conservaron sus valores; se añadieron frases del Home sin reemplazar las traducciones previas.
+
+La propuesta de seguimiento añade FR a `i18n.js` y `locale-routing.js`, incorpora las claves completas del Home en francés a `translations/home.js`, y añade al diccionario francés las frases estáticas del menú y las tarjetas del Home. `fr/index.html` solo cambia la versión de caché del script para que los navegadores obtengan el arreglo actualizado.
+
+Se actualizan exclusivamente los tres pins afectados (i18n, router y diccionario Home) para que la protección siga verificando sus blobs exactos. No se modifica el manifiesto congelado, el snapshot de Hostinger, ni ninguno de los 247 digests históricos. Las imágenes y páginas francesas existentes se conservan. Las rutas FR sin una página traducida continúan remitiendo a la página española aprobada.
+
+**Estado de este seguimiento:** cambios documentados y sujetos a las protecciones de GitHub; todavía no integrados ni publicados en producción.
