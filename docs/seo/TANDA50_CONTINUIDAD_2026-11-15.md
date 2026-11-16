@@ -1644,3 +1644,16 @@ Hostinger producción revision/rendimiento-traducciones-81a904c SHA 21bb68772faa
 **Tanda 3 actualizada: 15/50 auditadas; 0 completas; 0 publicadas.** Fichas #1–15: Amendoeira, Chama Rio Copacabana, Carretão Copacabana—Siqueira Campos, Carretão Lido, Plage Café, Spicy Fish, Terra Brasilis, Haru, Fogo, Dumaré, Delírio Tropical Rio Sul, K08, Churrasqueira Rio, Garota de Ipanema y Polis Sucos. Quedan 35; próxima prioridad verificada por GSC: Feira de São Cristóvão (160 impresiones combinadas ES/PT/EN), seguida por La Bicyclette (148), Stalos (145), Giuseppe Mar (142). Confirmar URL/inventario antes de auditar cada una.
 
 Inventario actualizado en 95a4d7dd858afcdadee744325507bf364f4ff8fb. Producción permanece en 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; PR #37 candidato mantiene 0 publicaciones, check pending y sin revisor humano independiente.
+
+
+## Tanda 3 — ficha 16/50: Feira de São Cristóvão (16/11/2026)
+
+Hostinger production revision/rendimiento-traducciones-81a904c SHA 21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346; fuente ES blob dea40048e9a5d39fc77b7c29016b3f88f9ea2f60.
+
+- HTML ES/PT/EN: 23 párrafos cada una; 9 posiciones PT y EN iguales a ES. Fuente inline tiene 19 entradas PT y 19 EN, con inicializadores que ejecutan setLang('es')/full('es'). Titles/descriptions localizados; canonical/hreflang ES/PT-BR/EN/x-default propios. Imágenes 17/16/16, dos alt vacíos PT/EN.
+- GSC final 16-oct–12-nov: ES 50/0/17,4; PT 101/2/8,9; EN 9/0/8,1. Inspección 3/3 indexada, fetch correcto, robots ALLOWED y canonical Google=user. Breadcrumb «Elemento sin nombre» es alerta estructurada, no error de indexación.
+- PR #37 incluye el cambio route-locale. Build/capturas fallan o quedan pendientes por el socket Chromium denegado; FR no aparece. Incompleta, no publicada.
+
+**Tanda 3: 16/50 auditadas; 0 completas y 0 publicadas.** Fichas #1–16: Amendoeira, Chama Rio Copacabana, Carretão Copacabana—Siqueira Campos, Carretão Lido, Plage Café, Spicy Fish, Terra Brasilis, Haru, Fogo, Dumaré, Delírio Tropical Rio Sul, K08, Churrasqueira Rio, Garota, Polis Sucos y Feira de São Cristóvão. Quedan 34. Próxima prioridad libre por GSC final: La Bicyclette (148 impresiones totales: ES53/PT16/EN79), luego Stalos (145) y Giuseppe Mar (142); comprobar inventario y sitio antes de contar.
+
+Inventario actualizado en a64a422705970ea270b6f88e90ca710971041963. Hostinger no se modificó. PR #37 continúa candidato no publicado sobre base de producción; Vercel pendiente; sin revisión independiente.
