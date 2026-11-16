@@ -1,1 +1,0 @@
-export function initRouter(){document.addEventListener("click",e=>{const a=e.target.closest("a[data-route]");if(!a)return;const route=a.dataset.route;if(!route||route.startsWith("#")||a.target==="_blank")return;/* Multi-page V2: let browser navigate normally. This keeps every module independently indexable and avoids blank-state SPA failures. */});}
