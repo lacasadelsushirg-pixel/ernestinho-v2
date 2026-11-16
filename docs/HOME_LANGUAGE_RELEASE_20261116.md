@@ -22,7 +22,11 @@ La diferencia de `index.html` observada en la rama de vista previa francesa corr
 
 ## Bloqueo de publicación
 
-`node scripts/guard_approved_content.mjs` detiene esta propuesta porque los cambios necesarios tocan exactamente tres recursos protegidos: `assets/js/site.js`, `assets/js/locale-routing.js` y `assets/js/translations/home.js`. No se alteró el guard, el snapshot, los manifiestos de aprobación ni el workflow. El build completo y la prueba visual de esta rama en escritorio/móvil quedan pendientes de la revisión humana requerida por la protección; la portada actual en producción no se modificó.
+`node scripts/guard_approved_content.mjs` detiene esta propuesta porque los cambios necesarios tocan exactamente tres recursos protegidos: `assets/js/site.js`, `assets/js/locale-routing.js` y `assets/js/translations/home.js`. No se alteró el guard, el snapshot, los manifiestos de aprobación ni el workflow. La revisión visual de escritorio se realizó en el preview aislado de Hostinger. Las 17 tarjetas muestran CTA francés; el hero cargó desde su origen de imagen con 1536 × 1024; WhatsApp, canonical y cinco alternates se verificaron. Los enlaces a secciones que aún no están listas terminan en sus rutas españolas existentes.
+
+La Guía francesa `/fr/guia/` conserva `noindex` y no se expone desde Inicio: aunque su contenido principal está en francés, aún muestra el pie en español. Su revisión y traducción completa queda como siguiente bloque.
+
+No se pudo emular una ventana móvil de 390 px con el navegador de prueba disponible; la verificación móvil y el build completo de la aplicación Hostinger quedan pendientes. La carpeta de preview es un clon aislado de la rama, no una publicación de producción.
 
 **Estado:** traducciones y cambios de integración preparados en rama; aún no publicados en producción.
 
