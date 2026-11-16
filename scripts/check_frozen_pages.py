@@ -10,9 +10,11 @@ PUBLISHED_SNAPSHOT = ROOT / "docs/PUBLISHED_PROTECTION_SNAPSHOT_20261109.json"
 EXPECTED_PUBLISHED_COMMIT = "02968a27acd166e06b66c95df8f20074de881429"
 EXPECTED_PAGE_COUNT = 586
 
-# Owner-authorized, path-scoped page update already recorded in the publication
-# guard. Its published-snapshot hash is intentionally superseded for this route.
+# Owner-authorized, path-scoped page updates also recorded in the publication
+# guard. Only these exact route hashes supersede their published-snapshot values.
 OWNER_AUTHORIZED_ROUTE_BLOBS = {
+    "index.html": "27428fa7a9c59a8ff0c4044e3bc9e9423a830f14",
+    "fr/index.html": "7ba182ddfd1d580f225e742da33d560c342c2f49",
     "quiero/index.html": "32267e792c4e044e07d12997cec4f610a880a097",
 }
 
