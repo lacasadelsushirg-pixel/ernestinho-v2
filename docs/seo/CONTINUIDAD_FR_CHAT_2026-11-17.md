@@ -1,7 +1,7 @@
 # Continuidad operativa — Ernestinho Carioca FR / ES / PT-BR / EN
 Fecha: 2026-11-17 (Brasil, America/Sao_Paulo)
 Responsable de este lote: sesión de ChatGPT (sin Work)
-Estado: SEIS FICHAS FR NUEVAS EN HOSTINGER /fr; SIN BUILD GENERAL; FR NOINDEX
+Estado histórico de primera tanda: SEIS FICHAS FR nuevas. Ampliación posterior: QUINCE PÁGINAS FR adicionales (total 34 HTML FR, 19 fichas Guía, 11 fichas Transporte, portadas Inicio/Guía/Transporte/Hospedaje). SIN BUILD GENERAL; FR NOINDEX.
 
 ## Regla inamovible
 - Fuente durable: GitHub `lacasadelsushirg-pixel/ernestinho-v2`. Hosting exclusivo: Hostinger.
@@ -59,3 +59,74 @@ Además:
 - Alquiler auto: `82b73bfcdd20ecf1edc5a9acc4004e5f8430b3ef`.
 - Último commit de enlace Transportes->Alquiler de auto: `a08efe36d6fe9a5d026ec12a890f01900fb5f00f`.
 Verificar SHA actual de la rama antes de nuevos cambios; esta nota genera un commit posterior.
+
+---
+
+## Ampliación posterior del 17/11/2026 — 15 páginas nuevas en /fr, comprobadas en Hostinger
+
+### Guía de Río — tres páginas dinámicas completas
+
+1. `guia/pix/index.html` → `/fr/guia/pix/`: datos `pix-data` enriquecidos con cinco ramas francesas (pasos, bloques, alerta, advertencias, interfaz). 43 textos ES→FR traducidos dentro del JSON dinámico, no solo HTML. JS de la ruta fijado a FR, sin fallback de ES; original ES/PT/EN preservado. Corregida solo en FR una etiqueta de fotografía malformada del original. Se conserva la foto y el URL.
+2. `guia/donde-alojarse/index.html` → `/fr/guia/donde-alojarse/`: 20 grupos dinámicos FR (descripción de barrios, fotos ALT, recomendaciones, intro, interfaz) y 36 textos de datos. Se conserva cada URL fotográfica; URL de apartamentos desde esta guía hacia la portada FR `/fr/hospedaje/`.
+3. `guia/mes-a-mes/index.html` → `/fr/guia/mes-a-mes/`: 12 meses íntegros, 6 planes por lluvia, 5 consejos para el calor, 4 ramas FR de `month-data` y traducción de etiquetas JS. 168 valores ES traducidos con los tres diccionarios ya existentes en el PR #25. Se confirmó que ES/PT/EN en el JSON no cambiaron. El JS de esta ruta se fija a FR, sin dependencias de preferencia antigua del navegador.
+
+Todas llevan canonical propio, `inLanguage=fr`, `hreflang=fr` y `noindex,nofollow`; se verificó el archivo real de Hostinger tras el Git pull.
+
+### Transportes Río — once fichas nuevas
+
+- `/fr/transportes/metro/`
+- `/fr/transportes/brt/`
+- `/fr/transportes/vlt/`
+- `/fr/transportes/barcas/`
+- `/fr/transportes/trenes/`
+- `/fr/transportes/uber/`
+- `/fr/transportes/onibus/`
+- `/fr/transportes/bicicletas/`
+- `/fr/transportes/alquiler-vehiculo/`
+- `/fr/transportes/bonde-santa-teresa/`
+- `/fr/transportes/terminal-gentileza/`
+
+Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`; traducciones del PR #27, rama `traduccion/transportes-fr-paralelo-20261111`. Cobertura estática de 100% de cadenas visibles según revisión por nodos. Rutas de todas las imágenes originales preservadas (5, 3, 8 fotografías, etc. según ficha). Todas pasaron QA estático de idioma, canonical, robots y JSON-LD; Hostinger confirmó presencia y protección en las once. La portada `/fr/transportes/` enlaza diez fichas que ya tenían tarjetas; `alquiler-vehiculo` existe pero no tenía tarjeta propia en esa portada de origen.
+
+**NO traducir ni publicar como vigente la ficha de transporte privado sin control comercial.** El diccionario `transportes-privado-interacciones-paralelo.json` contiene la advertencia explícita de que las tarifas anunciadas caducaron el **31/10/2026**. La fuente posee cuatro scripts interactivos que solo admiten ES/PT/EN; además faltan los dos banners propios en francés. Quedó intencionalmente sin ruta FR para evitar mostrar tarifas vencidas como actuales o romper cotizaciones WhatsApp.
+
+### Hospedaje — portada nueva en francés
+
+- `hospedaje/index.html` → `/fr/hospedaje/`, traducida editorialmente desde ES, sin alterar el original.
+- 12 tarjetas HTML originales conservadas, más la ficha `Casa Cândida` que el `hospedaje.js` inyectaba dinámicamente. El dato de Casa Cândida procede de `assets/js/data/lodging.js`: hasta 10 personas, dos plantas, cocina equipada, Wi-Fi y dos baños. Su URL de foto original se conserva.
+- La portada FR no carga el `hospedaje.js` trilingüe, para evitar que vuelva a sobrescribir el francés con ES. Sigue el estilo base de Hospedaje y conserva fondos fotográficos y tarjetas.
+- **Fichas individuales aún NO traducidas al francés:** los 13 enlaces de apartamentos remiten expresamente a su ficha española y llevan CTA `VOIR LE LOGEMENT (en espagnol)`. No inventar que son fichas FR completas.
+- La portada se verificó como archivo real en Hostinger: 13 tarjetas, canonical y JSON-LD FR, noindex correcto.
+
+### Navegación actualizada en francés
+
+- Inicio, Guía, Transportes y `guia/donde-alojarse` ahora llevan a `/fr/hospedaje/`.
+- Se corrigieron también los enlaces de Hospedaje en las fichas francesas de Guía y Transportes que aún enviaban a ES.
+- Las tarjetas de `/fr/guia/` ahora enlazan directamente a Pix, Dónde alojarse y Río mes a mes en francés.
+- Última validación detectó y corrigió rutas de Hospedaje en Pix y Mes a mes; se volvió a sincronizar `/fr` en Hostinger por Git, árbol de trabajo limpio.
+
+### Conteo exacto en la rama FR tras esta tanda
+
+- `/fr/`: una portada.
+- `/fr/guia/`: una portada + 19 fichas = 20 archivos HTML de página.
+- `/fr/transportes/`: una portada + 11 fichas = 12 archivos HTML de página.
+- `/fr/hospedaje/`: una portada = 1 archivo HTML de página.
+- **Total = 34 páginas francesas** preparadas en GitHub; el recuento proviene de directorios del repositorio. No significa que 34 hayan pasado QA visual en navegador ni que sean indexables. El francés sigue `noindex`.
+
+### Pendientes concretos — para ChatGPT o Work desde el viernes 20/11/2026
+
+1. QA con navegador a 390 px y 1440 px: menús, fotografías, enlaces, contenido dinámico de Pix/mes a mes/dónde alojarse, galería de apartamentos, enlace de reservas, contraste y accesibilidad; verificar HTTP público, no solo contenido de archivo servido.
+2. Guía `guarda-equipaje`: el HTML original es un cascarón; `/assets/js/luggage-page.js` y sus imports construyen contenido ES/PT/EN y Bounce (sin FR). Debe hacerse renderer francés completo sin romper afiliación, 3 fotos ni navegación; NO publicar traducción estática engañosa.
+3. Transportes `transporte-privado`: conciliar tarifas vencidas, formulario, opciones de `value` estables, mensajes WhatsApp, dos banners FR ausentes y las exclusiones vigentes. NO publicar tarifas expiradas.
+4. Hospedaje: traducir fichas individuales empezando por AP 805, 605, 1008 y 54, conservando galerías y datos vigentes; los destinos individuales siguen explícitamente identificados como españoles.
+5. Inicio FR: revisar las cinco imágenes supuestamente faltantes; no mover fotos aprobadas ni sustituir imágenes sin autorización.
+6. Portugués e inglés: mejoras guardadas en producción GitHub pero no visibles; el PR #45 del compilador incremental continúa pendiente de revisión humana independiente. No reconstruir la web completa. Verificar 3.588 URL indexables y ausencia de regresiones antes de desplegar.
+7. No indexar FR hasta resolver integridad editorial, menús, fotos, canonical/hreflang recíproco y QA móvil/escritorio.
+
+### Garantías de seguridad
+
+- Solo se hicieron commits en rama `release/fr-public-initial-20261115` y sincronizaciones Git de Hostinger con `directory=fr`.
+- Ni un `npm run build` general ni `hosting_deploy` sobre producción, ni sobrescritura global de `public_html`.
+- Los originales ES/PT/EN, URLs de fotografías existentes, el sitemap y el manifiesto SEO de producción no se editaron.
+- El despliegue Git al directorio FR devolvió `is_success=true` y `working tree clean`.
+- El contenido está preparado/servido en Hostinger, pero la validación visual completa y HTTP de navegador externo queda pendiente.
