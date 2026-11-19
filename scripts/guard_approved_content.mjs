@@ -29,10 +29,10 @@ const PUBLISHED_SNAPSHOT_BLOB = 'fe9d73bb386c482afe10c05f59c7591309f19268';
 const APPROVED_PAGE_COUNT = 586;
 // Owner-requested, path-scoped correction (13 Nov 2026): restore visuals and all
 // eight map pins on /quiero/ only. The immutable published snapshot and all 585
-// other protected HTML baselines remain unchanged. Any future edits require
+// other protected HTML baselines remain unchanged. Owner-authorized 19 Nov 2026:\n// only two image src references on /quiero/ were changed (Carnaval and Mosteiro).\n// Preserve 10 img tags and the interactive map; all other approved baselines unchanged.\n// Any future edits require
 // a new explicit owner authorization and a new reviewed exact-blob pin.
 const OWNER_AUTHORIZED_ROUTE_BLOBS = Object.freeze({
-  "quiero/index.html": "32267e792c4e044e07d12997cec4f610a880a097"
+  "quiero/index.html": "77aee41730354b4a6031585d39966a4d1d2d4803"
 });
 
 function gitBlobHash(bytes) {
