@@ -1,0 +1,167 @@
+{
+  "project": "Ernestinho Carioca — Transportes de Río FR paralelo",
+  "base_branch": "revision/rendimiento-traducciones-81a904c",
+  "head_branch": "traduccion/transportes-fr-paralelo-20261111",
+  "status": "TRANSLATION_STAGING_NOT_INTEGRATED_NOT_PUBLISHED",
+  "scope": [
+    {
+      "route": "/transportes/bonde-santa-teresa/",
+      "source_sha": "e11df2786e7bb95e636dbd99f2b2ec01e5e8224d",
+      "dictionary": "assets/js/translations/fr/transportes-bonde-santa-teresa-paralelo.json",
+      "entries": 48,
+      "source_keys_checked": 48,
+      "missing_keys": 0
+    },
+    {
+      "route": "/transportes/terminal-gentileza/",
+      "source_sha": "7b770ea4d6384772cb292138a2a6b55fd581cb09",
+      "dictionary": "assets/js/translations/fr/transportes-terminal-gentileza-paralelo.json",
+      "entries": 56,
+      "source_keys_checked": 56,
+      "missing_keys": 0
+    },
+    {
+      "route": "/transportes/barcas/",
+      "source_sha": "15948b907f2970bde19dac9da9c46f7089fdaab8",
+      "dictionary": "assets/js/translations/fr/transportes-barcas-paralelo.json",
+      "entries": 80,
+      "source_keys_checked": 80,
+      "missing_keys": 0
+    },
+    {
+      "route": "/transportes/vlt/",
+      "source_sha": "a95a65da9a49b212ca2d37bd7ff14ad7925edd7b",
+      "dictionary": "assets/js/translations/fr/transportes-vlt-paralelo.json",
+      "entries": 70,
+      "source_keys_checked": 70,
+      "missing_keys": 0
+    },
+    {
+      "route": "/transportes/alquiler-vehiculo/",
+      "source_sha": "54de89169305446b6ab75e66774b377e5f9d4fc1",
+      "dictionary": "assets/js/translations/fr/transportes-alquiler-vehiculo-paralelo.json",
+      "entries": 67,
+      "source_keys_checked": null,
+      "missing_keys": 0,
+      "editorial_review": "Verify fares, eligibility, contractual rules and operational schedules against official sources before publishing."
+    },
+    {
+      "route": "/transportes/onibus/",
+      "source_sha": "340552356e22094a1647df074a75eec311a8a837",
+      "dictionary": "assets/js/translations/fr/transportes-onibus-paralelo.json",
+      "entries": 67,
+      "source_keys_checked": null,
+      "missing_keys": 0,
+      "editorial_review": "Verify fares, eligibility, contractual rules and operational schedules against official sources before publishing."
+    },
+    {
+      "route": "/transportes/trenes/",
+      "source_sha": "02a37f7f3477b514d6f89ab20e824f4f5d068200",
+      "dictionary": "assets/js/translations/fr/transportes-trenes-paralelo.json",
+      "entries": 75,
+      "source_keys_checked": null,
+      "missing_keys": 0,
+      "editorial_review": "Verify fares, eligibility, contractual rules and operational schedules against official sources before publishing."
+    },
+    {
+      "route": "/transportes/uber/",
+      "source_sha": "818cc815877fea18e8b56d0053fc5d23b0389fa0",
+      "dictionary": "assets/js/translations/fr/transportes-uber-paralelo.json",
+      "entries": 85,
+      "missing_keys": 0
+    },
+    {
+      "route": "/transportes/metro/",
+      "source_sha": "9c912ae9fc43d365e0e7668aa02bd18ec40e81e9",
+      "dictionary": "assets/js/translations/fr/transportes-metro-paralelo.json",
+      "entries": 96,
+      "missing_keys": 0
+    },
+    {
+      "route": "/transportes/brt/",
+      "source_sha": "f9adb67d02482cfe11c71223aac2dbae09f3bd87",
+      "dictionary": "assets/js/translations/fr/transportes-brt-paralelo.json",
+      "entries": 93,
+      "source_keys_checked": 93,
+      "missing_keys": 0
+    },
+    {
+      "route": "/transportes/bicicletas/",
+      "source_sha": "7ad613b899cce2e7dc786e924ae3ef9457a74bb2",
+      "dictionary": "assets/js/translations/fr/transportes-bicicletas-paralelo.json",
+      "entries": 103,
+      "source_keys_checked": 103,
+      "missing_keys": 0
+    },
+    {
+      "route": "/transportes/",
+      "source_sha": "980352e50a07255263c6ccbc0ecb18a42c828974",
+      "dictionary": "assets/js/translations/fr/transportes-portada-paralelo.json",
+      "entries": 109,
+      "source_keys_checked": 109,
+      "missing_keys": 0
+    },
+    {
+      "route": "/transportes/transporte-privado/",
+      "source_sha": "98a9774269889b29f08d36808bf3c86e829ac1d1",
+      "dictionaries": [
+        "assets/js/translations/fr/transportes-privado-01-paralelo.json",
+        "assets/js/translations/fr/transportes-privado-02-paralelo.json",
+        "assets/js/translations/fr/transportes-privado-03-paralelo.json"
+      ],
+      "entries": 163,
+      "source_keys_checked": 162,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/transportes-privado-interacciones-paralelo.json",
+      "critical_issues": [
+        "Tarifas de octubre de 2026 expiradas: referencias históricas, no publicar como tarifas actuales",
+        "Dos banners con textos incrustados en ES/PT/EN sin versiones francesas",
+        "Mensajes de WhatsApp en JS integrados solo ES/PT/EN; la opción FR cae en español",
+        "Conservar valores value de opciones para lookup de tarifas; traducir etiquetas visibles"
+      ]
+    }
+  ],
+  "totals": {
+    "section_routes": 13,
+    "prepared_routes": 13,
+    "pending_routes": 0,
+    "fr_dictionary_entries": 1112,
+    "source_keys_missing": 0
+  },
+  "editorial_review": "Transport fares, timetables, route operations, payment acceptance, and accessibility are time-sensitive. Preserve original text but confirm updated official services before any public release.",
+  "guardrails": [
+    "Do not edit approved ES/PT/EN originals or Work PR #24",
+    "FR currently unavailable in production i18n.js; preview integration not done",
+    "Test at 1440px/390px, photos, maps, all official links, noindex and SEO",
+    "Check frozen-pages guards, full build and current routing before publication"
+  ],
+  "collaboration": {
+    "work_recovery_pr": 24,
+    "guide_fr_pr": 25,
+    "consejos_fr_pr": 26
+  },
+  "indexation_policy": {
+    "production_es_pt_en": "Maintain their existing indexability, canonicals, hreflang and indexed sitemap paths. Restoration PR #24 should not replace their original content.",
+    "french_staging": "All French previews are private and noindex and excluded from the production sitemap; draft FR dictionaries do not create public French pages.",
+    "french_release": "After URL /fr/ routing is integrated, full HTML and media parity tested, native FR canonical and reciprocal hreflang x-default/es/pt-BR/en/fr verified, 200 responses and links confirmed, build guards passed, remove noindex only for approved FR pages and include only these in the new sitemap; then submit Google Search Console.",
+    "caution": "Do not equate successful source-dictionary coverage with indexable public pages, and do not promise Google indexation."
+  },
+  "scope_note": "12 editorial transportes subpages + /transportes/ landing prepared in isolated exact ES→FR dictionary files. Source SHA and visible/meta/alt/aria strings checked at staging; form placeholders checked for private transfer. Does not imply the FR pages exist in production.",
+  "quality_gate": {
+    "status": "DICTIONARY_SOURCE_COVERAGE_COMPLETE_RENDER_RUNTIME_PENDING",
+    "route_count": 13,
+    "source_sha_verified": "Each route checked against production base snapshot; latest changes in Work still need reconciliation",
+    "html_visible_title_meta_alt_aria_missing": 0,
+    "form_placeholder_missing": 0,
+    "php_js_private_transfer_qc": "WhatsApp template, form labels, price preview, video label and banner alt have FR supplement, but no browser integration",
+    "critical_blocker": "Private transfer prices expired 2026-10-31 and 2 language-specific image banners absent in FR"
+  },
+  "remaining_validation": [
+    "Reconcile GitHub PR #24 Work recovery, #25 Guide FR, #26 Consejos FR and #27 Transportes FR before building the private /fr/ preview.",
+    "Read current production i18n.js and add FR in controlled integration; existing isolated dictionaries do not make indexable/published routes.",
+    "Full private browser QA at 390px and 1440px, including hero photos, maps, links, fare labels, accessibility and navigation.",
+    "Private transfer: refresh expired rate card with owner, preserve availability wording and children seats, integrate 2 FR translated graphics and test WhatsApp booking payload + native video lazy loading.",
+    "Verify operator fares and service notices for BRT, metro, SuperVia, VLT, Bike Itaú, bus, barcas, bonde and Gentileza with official sources before release.",
+    "Run scripts/check_frozen_pages.py and scripts/guard_approved_content.mjs, build and check canonical, hreflang reciprocity, private noindex, robots and sitemap. Only approve public /fr/ routes after 200 HTTP, editorial and visual QA."
+  ]
+}
