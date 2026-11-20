@@ -254,3 +254,13 @@ Cambios exactos:
 - El gate se corrigió en `11c1ca2a92174ac35602afdc254e214d508d56d3`: la raíz sintética mantiene 1.196 fuentes/3.588 URL e incluye `/quiero/`; el resultado obligatorio es ahora 2 fuentes y 6 páginas: `/`, `/pt/`, `/en/`, `/quiero/`, `/pt/quiero/`, `/en/quiero/`.
 - El release sigue siendo incremental y preserva las otras 3.582 URL y el árbol FR privado.
 - Gate real posterior: Hostinger debe mostrar `Build mode: incremental; rendering 6 of 3612 locale pages`; cualquier `full` invalida la publicación.
+
+
+### QA remoto verde del candidato vigente
+
+- El primer modelo sintético omitía los 24 documentos noindex del manifiesto real; el check los detectó y se mantuvo rojo, sin despliegue.
+- Corrección durable: `d35623602f4b147b79dea53eee60c68a7c5f705b`.
+- El fixture reproduce ahora exactamente 1.204 fuentes, 3.612 documentos y 3.588 URL indexables: 1.196 fuentes indexables y 8 noindex en ES/PT/EN.
+- GitHub Actions confirmado para ese SHA: `Protect approved content` **success** y `Petrópolis preview QA` **success**.
+- Resultado exigido y obtenido: 2 fuentes seleccionadas, 6/3.612 páginas renderizadas, 3.606 documentos preservados, 3.588 URL en sitemap, página EN profunda intacta, árbol FR privado intacto y aborto seguro si falta el manifiesto.
+- El PR sustituto es #46 y está basado directamente en producción `2dce6006`. Falta únicamente revisión humana independiente; no se fusionó ni desplegó.
