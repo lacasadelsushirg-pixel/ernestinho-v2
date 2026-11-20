@@ -43,3 +43,12 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 3. Verificar por HTTP las tres rutas, contenido, imágenes aprobadas, canonical, noindex, navegación, carrusel y WhatsApp.
 4. Continuar Hospedaje con AP 54 desde la fuente ES vigente, conservando su galería Hostinger.
 5. No publicar `/fr/transportes/transporte-privado/` hasta confirmar tarifas posteriores al 31/10/2026, integrar formulario/WhatsApp FR y disponer de los dos banners FR aprobados.
+
+## Ejecución inmediata a pedido del propietario — 20/11/2026
+
+- **Nueva ficha editorial guardada**: `/fr/hospedaje/54/` — 5 viajeros, 2 habitaciones, 3 camas, 2 baños; texto francés propio cotejado con `/hospedaje/54/`, amenidades y CTA WhatsApp localizados.
+- El HTML mantiene `noindex,nofollow`, canonical `/fr/hospedaje/54/`, hreflang ES/PT/EN/FR y JSON-LD FR. Dos imágenes son exactamente las URL de portada y galería referenciadas por la ficha ES; no se modifican ni suben fotografías. No se inventan precios.
+- La navegación `fr-home.js` habilita únicamente `fr/hospedaje/54/` una vez creado el archivo. En esta tanda de ejecución inmediata se añadieron también correcciones de precisión editorial; última referencia de navegación en commit `6e67df03fb7e1ff3dc356032d87ce5015d4c0018`.
+- **Estado real**: candidato en PR #48, pendiente de revisión independiente y comprobación visual 390/1440; no fusionado ni desplegado en carpeta FR de Hostinger. Nuevas páginas indexables por esta ejecución: **0**. Builds masivos de Hostinger: **0**.
+- Ahora el PR #48 contiene **5 fichas francesas** del lote (Guarda equipaje, AP 805/605/1008/54); PR #47 conserva otras 2 guías pendientes de QA visual. PR #46 del compilador permanece abierto y no debe desplegarse sin aprobación.
+- **Próximo paso**: realizar QA HTTP y móvil/escritorio de las cinco páginas FR; fusionar a la rama `release/fr-public-initial-20261115` solo tras revisión exigida y desplegar exclusivamente la carpeta `fr` de Hostinger, nunca `public_html` raíz. Continuar el inventario y cobertura de Hospedaje y Guide, manteniendo íntegro ES/PT/EN.
