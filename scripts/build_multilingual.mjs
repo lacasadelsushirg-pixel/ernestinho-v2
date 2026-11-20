@@ -164,6 +164,11 @@ function adaptLegacyScripts(html,sourcePath){
   if(open.includes('application/ld+json'))return whole;
   // Sparse renderer dictionaries legitimately have no ES entry.
   code=code.replace(/T\[l\]\[k\]/g,'T[l]?.[k]');
+  // Embedded restaurant narratives initialize to Spanish in source pages.
+  // Pick the route locale before snapshotting, so /pt/ and /en/ never ship ES first.
+  if(code.includes('const D=') && code.includes("querySelectorAll('.lang-switcher button')")){
+   code=code.replace(/full\(['\"]es['\"]\)(?=\s*\}\)\(\);\s*$)/,"full((/^\\/pt(?:\\/|$)/i.test(location.pathname)?'pt':/^\\/en(?:\\/|$)/i.test(location.pathname)?'en':'es'))");
+  }
   if(sourcePath==='/compras/mercado-sao-pedro/')code=code.replace(/function lang\(/g,'function ecMarketLanguage(').replace(/=>lang\(/g,'=>ecMarketLanguage(').replace(/;lang\(/g,';ecMarketLanguage(');
   return open+code+close;
  }).replace(sourcePath==='/compras/mercado-sao-pedro/'?/onclick="lang\(/g:/$^/g,'onclick="ecMarketLanguage(');
@@ -236,9 +241,9 @@ async function worker(){
    }
    return r.fulfill({status:200,body:libraries.get(r.request().url())||'',contentType:r.request().resourceType()==='script'?'text/javascript':'text/plain'});
   });
- const page=await context.newPage();
  while(next<targets.length){
  const target=targets[next++],route=prefix(target.route,target.language);
+ const page=await context.newPage();
   try{
    if (regionalRouteSet.has(target.route)) {
     const destination = path.join(out, route.slice(1), 'index.html');
@@ -411,7 +416,7 @@ async function worker(){
    fs.mkdirSync(path.dirname(destination),{recursive:true});fs.writeFileSync(destination,value.html);
    delete value.html;manifest.push({route,source:target.route,language:target.language,...value});
    if(manifest.length%100===0)console.log(`Generated ${manifest.length}/${targets.length}`);
-  }catch(e){errors.push({route,error:e.message});console.error(`[build route ${route}]`,e.stack||e.message);}
+  }catch(e){errors.push({route,error:e.message});console.error(`[build route ${route}]`,e.stack||e.message);}finally{await page.close().catch(()=>{});}
  }
  await context.close();
 }
