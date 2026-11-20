@@ -123,6 +123,20 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 6. Portugués e inglés: mejoras guardadas en producción GitHub pero no visibles; el PR #45 del compilador incremental continúa pendiente de revisión humana independiente. No reconstruir la web completa. Verificar 3.588 URL indexables y ausencia de regresiones antes de desplegar.
 7. No indexar FR hasta resolver integridad editorial, menús, fotos, canonical/hreflang recíproco y QA móvil/escritorio.
 
+---
+
+## Continuación 20/11/2026 — Guarda equipaje FR
+
+- Fuente reconciliada: página ES actual y las 66 entradas FR del PR #25.
+- Nueva ruta preparada: `/fr/guia/guarda-equipaje/` (`guia/guarda-equipaje/index.html`).
+- Cobertura: 12 bloques editoriales, 6 preguntas frecuentes, flujo de 5 pasos, canonical y hreflang ES/PT/EN/FR.
+- SEO: `noindex,nofollow`; no se añadió al sitemap.
+- Afiliación Bounce conservada mediante enlace funcional y disclosure FR. Los tres banners disponibles contienen texto ES/PT/EN y no existe versión FR aprobada; se omitieron del cuerpo para no mostrar español como francés ni inventar imágenes.
+- `fr-home.js` reconoce la ruta solamente después de existir el HTML real.
+- Hostinger confirmó antes del cambio que `fr/guia/guarda-equipaje` no existía. No se ejecutó build ni despliegue raíz.
+- QA pendiente antes de sincronizar a Hostinger: capturas 390/1440, verificación visual y aprobación humana del tratamiento sin banners FR.
+- Transporte privado sigue bloqueado para publicación por tarifas vencidas al 31/10/2026, dos banners FR ausentes y formulario sin integración FR segura. No se inventaron tarifas.
+
 ### Garantías de seguridad
 
 - Solo se hicieron commits en rama `release/fr-public-initial-20261115` y sincronizaciones Git de Hostinger con `directory=fr`.
