@@ -157,6 +157,14 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - SEO privado: canonical FR, hreflang ES/PT-BR/EN/FR, JSON-LD FR, `noindex,nofollow`, fuera del sitemap.
 - QA estático aprobado sin residuos españoles; QA visual 390/1440 y HTTP público siguen pendientes, por lo que no cuenta como publicada.
 
+## Continuación 20/11/2026 — Hospedaje AP 1008 FR
+
+- Nueva ficha preparada: `/fr/hospedaje/1008/`, derivada del HTML ES vigente sin editar los idiomas existentes.
+- Cobertura completa: metadatos, capacidad para 6 personas, dos habitaciones, tres camas, baño, ubicación a 50 m de la playa, 8 servicios, recomendación, consejo y WhatsApp en francés.
+- Galería local funcional con las 15 fotografías Hostinger aprobadas del inventario vigente, controles, contador y alt franceses.
+- SEO privado completo (`noindex,nofollow`, canonical, hreflang ES/PT-BR/EN/FR, JSON-LD FR); sin sitemap.
+- QA estático sin fragmentos españoles; QA visual y HTTP pendientes, por lo que no cuenta como publicada.
+
 ### Garantías de seguridad
 
 - Solo se hicieron commits en rama `release/fr-public-initial-20261115` y sincronizaciones Git de Hostinger con `directory=fr`.
