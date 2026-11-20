@@ -1,0 +1,63 @@
+{
+  "source_path": "compras/lavradio/index.html",
+  "source_sha": "a6abf7ba23e998edd3f5a0d6221155a56948aa70",
+  "language": "fr",
+  "status": "STAGING_ONLY",
+  "runtime_D_fr": {
+    "eyebrow": "Guide d'Ernestinho Carioca · Foires et marchés de Rio",
+    "heroSub": "Antiquités, art et vie carioca entre Lapa et le centre",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Un marché qui transforme une rue historique",
+    "intro": "Je vous recommande la Feira do Lavradio pour découvrir un Rio de souvenirs, d'objets anciens et d'architecture. Pour moi, l'intérêt ne consiste pas seulement à acheter une antiquité : il faut se promener dans une rue chargée d'histoire, regarder le travail des exposants et découvrir comment Lapa donne vie à son passé.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "Feira do Lavradio : antiquités, art et vie carioca entre Lapa et le centre",
+    "ambK": "L'ambiance",
+    "ambTitle": "Se promener parmi des objets et des façades chargés de mémoire",
+    "amb": "Le marché transforme l'ambiance de la Rua do Lavradio. Vous pourrez trouver des tables chargées d'objets, d'art, de décoration, de livres, disques, photographies, céramiques et pièces de collection selon les stands et l'édition. Je prendrais le temps de me promener : le cadre de Lapa compte autant que les objets exposés.",
+    "buyK": "Des achats qui ont du caractère",
+    "buyTitle": "Ce que j'achèterais sur la rue Lavradio",
+    "buy": "Je chercherais des objets petits et faciles à transporter : livres, cartes postales, photographies, disques, monnaies, céramiques, gravures, décorations, œuvres d'art et cadeaux originaux. L'offre change et tous les exposants ne présentent pas les mêmes pièces. Demandez les matériaux, l'époque, la provenance et les restaurations avant de payer.",
+    "howK": "Bien acheter",
+    "howTitle": "Comment évaluer un objet avant de l'acheter",
+    "how": "Je ne vais pas vous vendre du rêve : le récit d'un vendeur ne remplace pas une expertise professionnelle. Vérifiez marques, signatures, sceaux, réparations, traces d'humidité, rouille, fissures et finitions. Demandez si l'objet est original, restauré, vintage ou une reproduction. Comparez les prix et confirmez dimensions, poids, emballage et moyens de paiement. Pour une pièce de valeur, demandez une expertise.",
+    "recK": "Ernestinho recommande",
+    "recTitle": "Une visite où l'on observe avant d'acheter",
+    "rec": "J'arriverais avec du temps, parcourrais la rue et choisirais ensuite. Associez le marché à Lapa et au centre historique, sans transformer la journée en course. Si vous logez à Copacabana, Ipanema ou Botafogo, prévoyez le transport et le retour. Mon conseil : n'achetez pas sous la pression et n'emportez pas d'objets volumineux sans prévoir comment les transporter.",
+    "planK": "Conseils pratiques",
+    "planTitle": "Quand venir et comment s'y rendre",
+    "plan": "Vérifiez le jour et les horaires en vigueur avant de partir : pluie, événements et décisions municipales peuvent modifier la tenue du marché. Depuis Copacabana, Ipanema, Botafogo ou Flamengo, vous pouvez combiner métro, VLT, bus, taxi, Uber ou 99 ; consultez le trajet sur Google Maps ou Moovit. Pour les achats fragiles ou lourds, je privilégierais un trajet porte à porte.",
+    "hoursTitle": "Fonctionnement",
+    "hours": [
+      "Jour et horaires : vérifiez toujours les informations en vigueur.",
+      "Jours fériés, pluie et événements peuvent modifier la tenue du marché.",
+      "Chaque exposant peut suivre ses propres horaires.",
+      "Jours, horaires, stands et conditions peuvent changer. Vérifiez avant de partir."
+    ],
+    "safeK": "Attention à ceci",
+    "safeTitle": "Profitez de la rue Lavradio avec discernement",
+    "safe": "Surveillez votre téléphone, votre portefeuille et vos achats. Demandez la provenance des objets, vérifiez leur état et évitez les articles d'origine douteuse. Ne photographiez pas de personnes sans permission. Pour les antiquités, renseignez-vous sur l'emballage et le transport. Comme dans toute zone fréquentée, préparez le retour et gardez votre téléphone chargé.",
+    "address": "Feira do Lavradio\nRua do Lavradio, Lapa\nCentre historique, Rio de Janeiro – RJ\nVérifiez la portion de rue, les horaires et les conditions avant de partir.",
+    "footer": "Je vous accompagne à la découverte d'un Rio qui vit aussi dans ses rues, ses objets et les histoires qu'il préserve.",
+    "cats": [
+      "Antiquités et meubles",
+      "Livres et disques",
+      "Photographies et cartes postales",
+      "Céramiques et verrerie",
+      "Art et gravures",
+      "Décoration et cadeaux"
+    ]
+  },
+  "runtime_story_fr": [
+    "Aujourd'hui, je veux vous parler d'un marché qui transforme une rue de Lapa : la Feira do Lavradio. Ce n'est ni un magasin d'antiquités ni un centre commercial en plein air. C'est une expérience où les objets côtoient les façades historiques, les restaurants, la musique et l'énergie particulière du centre.",
+    "La Rua do Lavradio entretient un lien spécial avec la mémoire urbaine de Rio. Je regarderais autant la rue que les pièces exposées : meubles, livres, disques, photographies, céramiques, gravures et objets décoratifs peuvent raconter différentes histoires, mais ils n'ont pas tous la même origine ni la même valeur.",
+    "Je n'achèterais pas un objet important au premier stand. Je poserais des questions, comparerais et examinerais les pièces. Une antiquité peut être restaurée, reproduite ou avoir une histoire impossible à vérifier. La curiosité doit s'accompagner de jugement et de respect pour le travail des exposants.",
+    "En tant qu'hôte, je recommande ce marché aux personnes qui souhaitent découvrir Lapa en prenant leur temps. Je ne vais pas idéaliser l'expérience : les stands changent, le lieu peut être bondé et vous ne trouverez pas forcément ce que vous imaginez. Mais quand une pièce a du sens pour vous, vous emportez un objet et une petite conversation avec le passé de Rio."
+  ],
+  "qa": {
+    "source_D_keys": 30,
+    "fr_keys": 30,
+    "source_stories": 4,
+    "fr_stories": 4
+  },
+  "review": "Verify official Lavradio market calendar, Saturday events, authenticity of antiques, opening times and location before release."
+}

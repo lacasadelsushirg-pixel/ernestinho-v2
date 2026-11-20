@@ -1,0 +1,65 @@
+{
+  "source_path": "compras/saara/index.html",
+  "source_sha": "839bb2ce46d8d7954c6304a70c7f12a92c46b93b",
+  "status": "private_dictionary_staging_not_integrated",
+  "language": "fr",
+  "runtime_D_fr": {
+    "eyebrow": "Guide d'Ernestinho Carioca · Marchés de Rio",
+    "heroSub": "Le marché populaire où Rio fait ses achats, compare et trouve des solutions",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Un Rio commerçant, populaire et plein de vie",
+    "intro": "Je vous recommande de découvrir Saara si vous voulez faire des achats, comparer les prix et comprendre une facette très quotidienne du centre de Rio. Pour moi, ce n'est ni un centre commercial fermé ni une foire du week-end : c'est un ensemble de rues, de boutiques et de galeries où les Cariocas font leurs achats et où les voyageurs peuvent trouver presque tout.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "Saara : le marché populaire où Rio achète, compare et trouve des solutions",
+    "ambK": "L'ambiance",
+    "ambTitle": "Marcher, comparer et découvrir des boutiques différentes",
+    "amb": "Saara se découvre à pied. On y trouve des vitrines, des rues commerçantes, de petites boutiques et des galeries aux profils variés. Je m'attendrais à de l'animation, à la chaleur, à porter des sacs et à comparer les offres. Ce n'est pas une visite silencieuse : c'est un marché populaire vivant, pratique et profondément carioca.",
+    "buyK": "Des achats réfléchis",
+    "buyTitle": "Ce que j'achèterais à Saara",
+    "buy": "Je chercherais des vêtements, tissus, accessoires, sacs, chaussures, articles de beauté, décorations de fête, objets pour la maison, papeterie, jouets, électronique, accessoires de téléphone, cadeaux et souvenirs. L'offre change : vérifiez les commerces, garanties et conditions directement avant de payer.",
+    "howK": "Bien acheter",
+    "howTitle": "Comment acheter de façon avisée",
+    "how": "Je ferais d'abord le tour des boutiques avant d'acheter. Comparez les prix, les matières, les tailles et les couleurs, demandez les conditions d'échange et de garantie et conservez les reçus. Pour l'électronique, testez le fonctionnement et vérifiez la garantie. Le prix le plus bas n'est pas toujours le meilleur achat et évitez de vous encombrer de sacs dès le début.",
+    "recK": "Ernestinho recommande",
+    "recTitle": "Venez avec une liste, mais gardez une place pour les découvertes",
+    "rec": "Si vous cherchez un article précis, notez-le avant de partir. Pour des souvenirs ou des fournitures de fête, Saara offre de nombreuses possibilités. Je ne veux pas vous vendre du rêve : les rues sont animées, les commerces variés et la qualité des produits inégale. Je viendrais avec des chaussures confortables, un budget défini et du temps.",
+    "planK": "Conseils pratiques",
+    "planTitle": "Horaires et comment s'y rendre",
+    "plan": "Vérifiez les horaires avant de partir, surtout les dimanches, jours fériés, au Carnaval et à Noël. Depuis Copacabana, Ipanema, Botafogo ou Flamengo, prenez MetrôRio jusqu'à Uruguaiana, le VLT, un bus, un taxi, Uber ou 99 ; consultez le trajet sur Google Maps ou Moovit. Si vous avez beaucoup de sacs, organisez votre retour.",
+    "hoursTitle": "Horaires",
+    "hours": [
+      "Boutiques et galeries : vérifiez les horaires en vigueur.",
+      "Dimanches et jours fériés : les horaires peuvent être différents.",
+      "Périodes commerciales : la fréquentation et les horaires peuvent changer.",
+      "Les horaires des boutiques, galeries, restaurants et dates spéciales peuvent varier. Confirmez avant de partir."
+    ],
+    "safeK": "Attention à ceci",
+    "safeTitle": "Faites vos achats avec vigilance et profitez du centre",
+    "safe": "Surveillez votre téléphone, votre portefeuille et vos sacs. Examinez les produits avant de payer, vérifiez les échanges et garanties et ne laissez pas vos achats en évidence. Gardez votre téléphone chargé, utilisez un moyen de transport connu et préparez le retour. Saara est intense, mais peut rester agréable si vous venez bien préparé.",
+    "address": "Saara\nSecteur de la Rua da Alfândega et rues commerçantes du centre\nRio de Janeiro – RJ\nVérifiez les accès, les horaires et les boutiques avant de partir.",
+    "footer": "Je vous accompagne dans la découverte du Rio qui achète, travaille, compare les prix et organise sa vie quotidienne.",
+    "cats": [
+      "Vêtements et tissus",
+      "Accessoires et chaussures",
+      "Fêtes et déguisements",
+      "Beauté et cosmétiques",
+      "Maison et décoration",
+      "Jouets et papeterie"
+    ]
+  },
+  "runtime_story_fr": [
+    "Aujourd'hui, je veux vous parler de Saara, un lieu que je recommande aux voyageurs qui souhaitent découvrir le Rio qui fait ses achats et travaille chaque jour. On n'y contemple pas des vitrines dans le silence : c'est une animation constante, des rues commerçantes, de petites boutiques, des galeries et une variété qui invite à marcher et à comparer.",
+    "Sa relation avec le centre est essentielle. Saara est lié au secteur de la Rua da Alfândega et à d'autres rues commerçantes où différents commerçants ont bâti un marché populaire doté d'une identité propre. Je ne le présenterais ni comme un centre commercial ni comme une foire : c'est une partie vivante du commerce du centre.",
+    "Pour des vêtements, tissus, accessoires, articles de fête, produits de beauté, objets pour la maison, jouets, papeterie ou cadeaux, vous trouverez de nombreuses possibilités. Mais attention : qualité, garanties et politiques d'échange varient selon les boutiques. Posez des questions, essayez, comparez et gardez votre reçu.",
+    "En tant qu'hôte, j'irais avec une liste et un budget. Je ne veux pas embellir la réalité : Saara peut être chaud, bondé et fatigant à parcourir. Mais en venant préparé, vous pouvez y faire vos courses et découvrir un Rio très authentique, populaire et travailleur."
+  ],
+  "qa": {
+    "source_D_keys": 30,
+    "translated_D_keys": 30,
+    "story_es_paragraphs": 4,
+    "story_fr_paragraphs": 4,
+    "hours": 4,
+    "categories": 6
+  },
+  "integration_note": "Existing inline script D={es,pt,en} and story={es,pt,en}; setLang() uses whitelist ['es','pt','en'] and falls back to es. Add FR only when merging a private FR renderer and keep all HTML, photos, maps, Waze and source translations unchanged."
+}

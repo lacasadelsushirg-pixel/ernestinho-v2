@@ -1,0 +1,63 @@
+{
+  "source_path": "compras/feira-hippie-ipanema/index.html",
+  "source_sha": "41377da5d327da8cc7e58ee906fc68833b4a4374",
+  "language": "fr",
+  "status": "STAGING_ONLY",
+  "runtime_D_fr": {
+    "eyebrow": "Guide d'Ernestinho Carioca · Foires et marchés de Rio",
+    "heroSub": "Art, artisanat et vie carioca sur la Praça General Osório",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Un marché qui fait partie de l'identité d'Ipanema",
+    "intro": "Je vous recommande de visiter la Feira Hippie d'Ipanema, et pas seulement pour faire des achats. Pour moi, c'est une façon de découvrir le quartier de l'intérieur : artistes, artisans, habitants, voyageurs et curieux se retrouvent sur la Praça General Osório pour observer, discuter et découvrir des objets que l'on ne trouve pas dans une boutique ordinaire.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "Feira Hippie d'Ipanema : art, artisanat et vie carioca sur la Praça General Osório",
+    "ambK": "L'ambiance",
+    "ambTitle": "Se promener, regarder et trouver quelque chose d'inattendu",
+    "amb": "L'ambiance est différente de celle d'une boutique ou d'un centre commercial. Je prendrais le temps de marcher, d'observer les stands et de me laisser surprendre. La Praça General Osório relie les rues d'Ipanema, la plage et la vie du quartier : c'est donc une étape à intégrer à une journée entière plutôt qu'une visite isolée.",
+    "buyK": "Des achats qui ont du caractère",
+    "buyTitle": "Ce que j'achèterais au marché",
+    "buy": "Je chercherais de l'artisanat brésilien, des œuvres d'art, peintures, gravures, décoration, textiles, accessoires, bijoux fantaisie, sacs, sandales, cadeaux et souvenirs plus personnels qu'un objet touristique ordinaire. L'offre dépend des stands et du jour : je conseille de faire d'abord le tour et d'acheter ensuite. Demandez les matériaux, les finitions et comment transporter les objets fragiles.",
+    "howK": "Bien acheter",
+    "howTitle": "Comment acheter et négocier avec respect",
+    "how": "Comparez avant de choisir, demandez si la pièce est artisanale, vérifiez la qualité et les finitions et confirmez les moyens de paiement auprès de chaque vendeur. Prévoyez un autre moyen de paiement : tous n'acceptent pas forcément les cartes ou Pix. La négociation peut faire partie de la culture du marché, mais je la pratiquerais toujours avec respect. Ne promettez pas d'acheter seulement pour obtenir une réduction et ne sous-estimez pas la valeur du travail artisanal.",
+    "recK": "Ernestinho recommande",
+    "recTitle": "Une visite à faire sans se presser",
+    "rec": "Si vous séjournez à Copacabana, Ipanema ou Leblon, je profiterais du marché pour découvrir aussi le quartier. Vous pouvez l'associer à la plage, à une promenade dans Ipanema ou à un repas à proximité. Je préfère être réaliste : si vous cherchez un achat rapide et parfaitement organisé, ce n'est peut-être pas le meilleur programme. Venez avec curiosité, des chaussures confortables et du temps.",
+    "planK": "Conseils pratiques",
+    "planTitle": "Quand venir et comment s'y rendre",
+    "plan": "Vérifiez le jour et les horaires en vigueur avant de partir, car pluie, jours fériés, événements et décisions municipales peuvent modifier l'activité. Depuis Copacabana, MetrôRio jusqu'à General Osório est souvent le trajet le plus direct ; vérifiez les sorties et le service. Depuis Leblon, vous pouvez utiliser métro, bus, vélo, taxi, Uber ou 99. En famille, je consulterais la météo et organiserais le retour.",
+    "hoursTitle": "Fonctionnement",
+    "hours": [
+      "Jour et horaires : vérifiez toujours les informations en vigueur avant de partir.",
+      "Jours fériés et pluie : ils peuvent modifier le fonctionnement.",
+      "Stands : chaque vendeur peut avoir ses propres horaires.",
+      "Jours, horaires, stands et conditions peuvent changer. Vérifiez avant de partir."
+    ],
+    "safeK": "Attention à ceci",
+    "safeTitle": "Profitez du marché en restant vigilant",
+    "safe": "Comme dans tout lieu fréquenté, surveillez téléphone, portefeuille et sacs. Répartissez votre argent, gardez votre sac fermé, examinez vos achats et demandez l'autorisation avant de photographier les personnes ou les stands. L'ambiance touristique ne signifie pas l'absence de risques. Pour les objets fragiles, demandez un emballage adapté et prévoyez leur transport.",
+    "address": "Feira Hippie d'Ipanema\nPraça General Osório\nIpanema, Rio de Janeiro – RJ\nVérifiez les horaires et conditions d'ouverture avant de partir.",
+    "footer": "Je vous accompagne à la découverte de Rio à travers ses marchés, ses artisans et ces petites histoires que les cartes postales ne racontent pas.",
+    "cats": [
+      "Artisanat brésilien",
+      "Art et peintures",
+      "Décoration et maison",
+      "Vêtements et textiles",
+      "Accessoires et bijoux fantaisie",
+      "Cadeaux et souvenirs"
+    ]
+  },
+  "runtime_story_fr": [
+    "Aujourd'hui, je veux vous parler d'un marché qui occupe une place particulière dans ma carte affective de Rio : la Feira Hippie d'Ipanema. Je ne la présente pas comme un simple marché où l'on achète avant de repartir. La Praça General Osório devient un lieu de rencontre entre le quartier, les artistes, les artisans et les voyageurs.",
+    "À la première visite, on est attiré par les couleurs, les objets et le nombre de stands. Mais je recommande toujours de regarder plus attentivement. Ce marché ne fonctionne pas comme une boutique rangée par catégories : chaque stand a sa personnalité, ses matériaux, ses prix et son histoire.",
+    "Si vous logez à Copacabana, Ipanema ou Leblon, la visite s'associe facilement à une journée de plage et de découverte du quartier. Je marcherais, observerais et déciderais ensuite de ce que je veux emporter. À mes yeux, un bon souvenir de Rio n'a pas besoin d'être cher : il doit raconter quelque chose de la ville et avoir une histoire.",
+    "Je ne veux pas idéaliser ce marché : il peut être bondé, la météo peut changer et les articles ne sont pas les mêmes chaque jour. Je vous conseille donc de vérifier qu'il a bien lieu, de surveiller vos affaires, de négocier respectueusement et de profiter de la découverte. En tant qu'hôte, je l'aime parce qu'il montre un Rio créatif, varié et bien plus humain qu'une vitrine."
+  ],
+  "qa": {
+    "source_D_keys": 30,
+    "fr_D_keys": 30,
+    "story_original": 4,
+    "story_fr": 4
+  },
+  "editorial_review": "Verify Sunday arts market schedule and municipal authorization, public transport and photo releases. Private FR renderer must support D.fr/story.fr."
+}

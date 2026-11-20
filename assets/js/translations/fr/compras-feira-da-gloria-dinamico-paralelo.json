@@ -1,0 +1,63 @@
+{
+  "source_path": "compras/feira-da-gloria/index.html",
+  "source_sha": "8cf687fb5546a459fca94195ef47972d33c32717",
+  "language": "fr",
+  "status": "STAGING_NOT_INTEGRATED",
+  "runtime_D_fr": {
+    "eyebrow": "Guide d'Ernestinho Carioca · Foires et marchés de Rio",
+    "heroSub": "Saveurs, artisanat et vie carioca autour de la Praça da Glória",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Un marché qui fait partie de la vie de Glória",
+    "intro": "Je vous recommande la Feira da Glória si vous voulez découvrir un Rio plus quotidien, gourmand et ancré dans ses quartiers. Pour moi, il ne s'agit pas seulement de faire des achats : c'est l'occasion d'observer comment habitants, vendeurs, familles et voyageurs se retrouvent autour d'une place importante de la zone sud.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "Feira da Glória : saveurs, artisanat et vie carioca autour de la Praça da Glória",
+    "ambK": "L'ambiance",
+    "ambTitle": "Une place où se rencontrent habitants et visiteurs",
+    "amb": "Ce marché possède une énergie très différente de celle d'un centre commercial ou d'un marché couvert. Je prendrais le temps d'observer les étals, les couleurs, les produits et les conversations. Glória est proche de Flamengo et de Catete, et ce lien avec la vie du quartier fait partie de l'expérience. L'offre et l'affluence peuvent changer selon le jour.",
+    "buyK": "Des achats qui ont du caractère",
+    "buyTitle": "Ce que j'achèterais au marché",
+    "buy": "Je chercherais des produits frais, aliments, douceurs, boissons, objets artisanaux, vêtements, accessoires, éléments de décoration, fleurs et plantes, uniquement si ces articles sont bien proposés lors de l'édition. Renseignez-vous sur leur origine, leur état, leur conservation et les moyens de paiement. Les stands n'ont pas tous les mêmes produits et l'offre varie.",
+    "foodK": "Saveurs et rencontres",
+    "foodTitle": "Manger fait aussi partie de la visite",
+    "food": "Si vous trouvez des stands de restauration, je vous conseille d'en profiter : demandez les ingrédients, les conditions de conservation et les plats du jour. Vous pouvez aussi combiner la visite avec les cafés et restaurants de Glória, Flamengo ou Catete. Je préfère ne pas inventer de vendeurs ou de spécialités : vérifiez l'offre de chaque édition.",
+    "recK": "Ernestinho recommande",
+    "recTitle": "Se promener tranquillement et acheter avec discernement",
+    "rec": "J'arriverais avec du temps, ferais d'abord le tour des stands et achèterais ensuite. Avec des enfants ou des personnes âgées, évitez les heures les plus fréquentées et faites attention aux déplacements. Vous pouvez ajouter Flamengo, Catete ou l'Aterro à votre journée si la logistique le permet. Mon conseil essentiel : consultez la météo et confirmez la tenue du marché.",
+    "planK": "Conseils pratiques",
+    "planTitle": "Quand venir et comment s'y rendre",
+    "plan": "Vérifiez le jour, l'horaire et le lieu exact avant de partir, car pluie, jours fériés, événements et décisions municipales peuvent modifier le marché. Depuis Copacabana, Ipanema, Botafogo ou Flamengo, vous pouvez prendre le métro, le bus, un taxi, Uber ou 99 ; comparez les itinéraires sur Google Maps ou Moovit. Confirmez si la station Glória constitue le meilleur accès selon l'emplacement précis des stands.",
+    "hoursTitle": "Fonctionnement",
+    "hours": [
+      "Jour et horaires : vérifiez les renseignements en vigueur avant de partir.",
+      "Jours fériés, pluie et événements peuvent modifier la tenue du marché.",
+      "Stands et produits : l'offre peut changer d'une édition à l'autre.",
+      "Les jours, horaires, stands, produits et conditions peuvent évoluer. Vérifiez avant de partir."
+    ],
+    "safeK": "Attention à ceci",
+    "safeTitle": "Profitez du marché en restant attentif",
+    "safe": "Surveillez votre téléphone, votre portefeuille et vos sacs. Vérifiez la qualité et la conservation des aliments, ne touchez pas aux produits sans permission et demandez l'autorisation avant de photographier des personnes. N'emportez que le nécessaire, gardez votre téléphone chargé et préparez le retour. Ne stigmatisez pas le quartier : visitez-le avec respect.",
+    "address": "Feira da Glória\nPraça da Glória, Glória\nRio de Janeiro – RJ\nVérifiez le lieu exact, les horaires et les conditions avant de partir.",
+    "footer": "Je vous accompagne à la découverte d'un Rio qui vit aussi à travers ses places, ses marchés, ses saveurs et ses habitants.",
+    "cats": [
+      "Produits frais",
+      "Artisanat local",
+      "Aliments et douceurs",
+      "Vêtements et accessoires",
+      "Fleurs et plantes",
+      "Cadeaux et décoration"
+    ]
+  },
+  "runtime_story_fr": [
+    "Aujourd'hui, je souhaite vous parler d'un marché qui représente très bien à mes yeux la vie quotidienne de la zone sud : la Feira da Glória. Je ne le considère pas comme une attraction isolée, mais comme une partie du quartier, de la place et des rencontres qui s'y déroulent.",
+    "Son lien avec Glória, Flamengo et Catete est important. Un visiteur peut y venir pour acheter, manger ou regarder, mais il entre également dans un lieu où les Cariocas vivent leur quotidien. C'est pourquoi je conseille toujours d'observer avant de photographier et, si possible, d'acheter directement aux vendeurs.",
+    "Le marché peut proposer des aliments, des produits frais, de l'artisanat, des vêtements, des accessoires et de la restauration, mais l'offre varie. Je n'inventerais pas de liste immuable : je poserais des questions sur l'origine, la conservation et l'histoire de chaque produit.",
+    "Je préfère être réaliste : la météo, les jours fériés ou les décisions municipales peuvent modifier son fonctionnement. Mais avec du respect, du temps et de la curiosité, vous découvrirez un Rio très authentique à travers ses places, ses commerçants et sa vie de quartier."
+  ],
+  "qa": {
+    "source_D_keys": 30,
+    "fr_D_keys": 30,
+    "original_story_paragraphs": 4,
+    "fr_story_paragraphs": 4
+  },
+  "editorial_review": "Distinct from ABIO Saturday organic Gloria, verify Sundays and program before release. Preserve street-market history; original JS still only ES/PT/EN."
+}
