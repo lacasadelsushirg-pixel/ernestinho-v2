@@ -148,6 +148,15 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - QA estático aprobado: sin fragmentos españoles visibles, enlaces internos FR, WhatsApp FR, fotografía coincidente con la fuente, robots/canonical/hreflang correctos.
 - QA visual 390/1440 y sincronización puntual de la carpeta FR siguen pendientes; por ello no cuenta como publicada ni indexable.
 
+## Continuación 20/11/2026 — Hospedaje AP 605 FR
+
+- Nueva ficha preparada: `/fr/hospedaje/605/`, basada en el HTML ES vigente sin modificar ES/PT-BR/EN.
+- Cobertura completa: metadatos, capacidad para 4 personas, habitación/camas/baño, ubicación, 8 servicios, recomendación, consejo, consulta y WhatsApp específico en francés.
+- Galería funcional de 24 fotografías aprobadas tomadas del inventario vigente `assets/js/data/lodging.js`; se conservaron todas las rutas Hostinger y se añadieron controles, contador y alt franceses sin cambiar imágenes.
+- La ficha no carga `site.js`/`hospedaje.js`; su carrusel local evita la sobrescritura trilingüe y `fr-home.js` conserva ahora los mensajes WhatsApp ya franceses.
+- SEO privado: canonical FR, hreflang ES/PT-BR/EN/FR, JSON-LD FR, `noindex,nofollow`, fuera del sitemap.
+- QA estático aprobado sin residuos españoles; QA visual 390/1440 y HTTP público siguen pendientes, por lo que no cuenta como publicada.
+
 ### Garantías de seguridad
 
 - Solo se hicieron commits en rama `release/fr-public-initial-20261115` y sincronizaciones Git de Hostinger con `directory=fr`.
