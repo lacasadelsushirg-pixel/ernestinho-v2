@@ -50,6 +50,7 @@ function localize(){
   "fr/guia/donde-alojarse/",
   "fr/guia/pix/",
   "fr/guia/internet/",
+  "fr/guia/guarda-equipaje/",
   "fr/transportes/",
   "fr/transportes/terminal-gentileza/",
   "fr/transportes/vlt/",
