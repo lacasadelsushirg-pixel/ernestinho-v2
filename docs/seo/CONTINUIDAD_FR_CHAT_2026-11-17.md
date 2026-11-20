@@ -137,6 +137,17 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - QA pendiente antes de sincronizar a Hostinger: capturas 390/1440, verificación visual y aprobación humana del tratamiento sin banners FR.
 - Transporte privado sigue bloqueado para publicación por tarifas vencidas al 31/10/2026, dos banners FR ausentes y formulario sin integración FR segura. No se inventaron tarifas.
 
+## Continuación 20/11/2026 — Hospedaje AP 805 FR
+
+- Nueva ficha preparada: `/fr/hospedaje/805/` (`hospedaje/805/index.html`).
+- Fuente: HTML ES vigente de producción. El original ES y las versiones PT-BR/EN no se editaron.
+- Cobertura editorial completa: metadatos, introducción, capacidad para 5 personas, distribución de camas, ubicación, 8 servicios, recomendación, consejo, galería, consulta y WhatsApp en francés.
+- La fuente vigente solo asigna una fotografía aprobada a AP 805. Esa misma URL se conserva sin cambio en hero y galería; no se inventó ni sustituyó material.
+- SEO privado: canonical FR, hreflang ES/PT-BR/EN/FR, JSON-LD francés y `noindex,nofollow`; fuera del sitemap.
+- Se retiró de esta ficha la inicialización de `site.js`/`hospedaje.js` porque esos renderizadores trilingües sobrescribirían el francés. La ficha carga únicamente `fr-home.js` y la ruta se añadió a `readyRoutes` después de crear el HTML.
+- QA estático aprobado: sin fragmentos españoles visibles, enlaces internos FR, WhatsApp FR, fotografía coincidente con la fuente, robots/canonical/hreflang correctos.
+- QA visual 390/1440 y sincronización puntual de la carpeta FR siguen pendientes; por ello no cuenta como publicada ni indexable.
+
 ### Garantías de seguridad
 
 - Solo se hicieron commits en rama `release/fr-public-initial-20261115` y sincronizaciones Git de Hostinger con `directory=fr`.
