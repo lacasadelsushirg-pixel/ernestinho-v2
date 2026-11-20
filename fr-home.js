@@ -25,7 +25,45 @@ function localize(){
   const previewBase=pathMatch && !['fr','pt','en'].includes(pathMatch[1])?'/'+pathMatch[1]:'';
   const isPreview=Boolean(previewBase);
   const previewRoot=isPreview?previewBase+'/':'/';
-  const readyRoutes=new Set(['','fr/']);
+  // These routes have index.html files on the existing French Hostinger tree (2026-11-20).
+  // Keep unfinished sections on their approved ES destination; never guess a FR route.
+  const readyRoutes=new Set([
+  "",
+  "fr/",
+  "fr/guia/",
+  "fr/guia/vacunas/",
+  "fr/guia/terminales/",
+  "fr/guia/consulados/",
+  "fr/guia/aeropuertos/",
+  "fr/guia/apps/",
+  "fr/guia/cpf/",
+  "fr/guia/menores/",
+  "fr/guia/dinero/",
+  "fr/guia/alquiler-auto/",
+  "fr/guia/emergencias/",
+  "fr/guia/accesibilidad/",
+  "fr/guia/seguro/",
+  "fr/guia/viajar-solo/",
+  "fr/guia/documentos/",
+  "fr/guia/mes-a-mes/",
+  "fr/guia/permanencia/",
+  "fr/guia/donde-alojarse/",
+  "fr/guia/pix/",
+  "fr/guia/internet/",
+  "fr/transportes/",
+  "fr/transportes/terminal-gentileza/",
+  "fr/transportes/vlt/",
+  "fr/transportes/bonde-santa-teresa/",
+  "fr/transportes/alquiler-vehiculo/",
+  "fr/transportes/bicicletas/",
+  "fr/transportes/metro/",
+  "fr/transportes/brt/",
+  "fr/transportes/trenes/",
+  "fr/transportes/barcas/",
+  "fr/transportes/onibus/",
+  "fr/transportes/uber/",
+  "fr/hospedaje/"
+]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
     if(!raw||raw.startsWith('#')||/^(?:mailto:|tel:|javascript:|data:)/i.test(raw))continue;
