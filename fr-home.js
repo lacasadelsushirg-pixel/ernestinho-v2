@@ -64,7 +64,8 @@ function localize(){
   "fr/transportes/onibus/",
   "fr/transportes/uber/",
   "fr/hospedaje/",
-  "fr/hospedaje/805/"
+  "fr/hospedaje/805/",
+  "fr/hospedaje/605/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
@@ -91,7 +92,8 @@ function localize(){
   }
   for(const link of document.querySelectorAll('a[href*="wa.me/5521969946938"]')){
     let wa;try{wa=new URL(link.href)}catch{continue}
-    wa.searchParams.set('text','Bonjour Ernestinho, j’aimerais découvrir Rio avec vous.');
+    const currentMessage=(wa.searchParams.get('text')||'').trim();
+    if(!currentMessage.toLocaleLowerCase('fr').startsWith('bonjour'))wa.searchParams.set('text','Bonjour Ernestinho, j’aimerais découvrir Rio avec vous.');
     if(link.href!==wa.href)link.href=wa.href;
   }
   for(const el of document.querySelectorAll('[src],[srcset]')){
