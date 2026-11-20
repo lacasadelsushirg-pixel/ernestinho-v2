@@ -20,8 +20,10 @@ const execute=(liveRoot,args=['--plan-only'])=>spawnSync(process.execPath,['scri
 const localize=(source,language)=>language==='ES'?source:`/${language.toLowerCase()}${source}`;
 
 try{
- const sources=['/','/quiero/'];
- for(let index=0;index<1194;index++)sources.push(`/preserved-${index}/`);
+ const indexableSources=['/'];
+ for(let index=0;index<1195;index++)indexableSources.push(`/preserved-${index}/`);
+ const nonIndexableSources=['/quiero/',...Array.from({length:7},(_,index)=>`/private-fixture-${index}/`)];
+ const sources=[...indexableSources,...nonIndexableSources];
  const routes=[];
  for(const source of sources)for(const language of ['ES','PT','EN']){
   const route=localize(source,language);
@@ -30,16 +32,18 @@ try{
   fs.mkdirSync(path.dirname(destination),{recursive:true});
   const alternates=[['es',localize(source,'ES')],['pt-BR',localize(source,'PT')],['en',localize(source,'EN')],['x-default',localize(source,'ES')]]
    .map(([lang,href])=>`<link rel="alternate" hreflang="${lang}" href="${origin+href}">`).join('');
-  const body=route==='/en/preserved-1193/'?'PRESERVE-DEEP-SENTINEL':'published fixture';
-  fs.writeFileSync(destination,`<!doctype html><html><head><link rel="canonical" href="${origin+route}">${alternates}</head><body>${body}</body></html>`);
-  routes.push({route,source,language,indexable:true});
+  const isIndexable=indexableSources.includes(source);
+  const robots=isIndexable?'':'<meta name="robots" content="noindex,nofollow">';
+  const body=route==='/en/preserved-1194/'?'PRESERVE-DEEP-SENTINEL':'published fixture';
+  fs.writeFileSync(destination,`<!doctype html><html><head><link rel="canonical" href="${origin+route}">${robots}${alternates}</head><body>${body}</body></html>`);
+  routes.push({route,source,language,indexable:isIndexable});
  }
  fs.writeFileSync(path.join(live,'fr','index.html'),'PRIVATE-FR-SENTINEL');
  fs.writeFileSync(path.join(live,'sitemap.xml'),'<urlset/>');
  fs.writeFileSync(path.join(live,'locale-manifest.json'),JSON.stringify({
   sourceDocuments:1204,
   indexablePerLanguage:1196,
-  generated:3588,
+  generated:3612,
   pilot:false,
   sourceCommit:'13281f87fb16ba57be07f230c00d877657ba7bdf',
   routes
@@ -66,17 +70,17 @@ try{
 
  const built=execute(live,[]);
  if(built.status!==0)throw Error('full-tree incremental QA failed:\n'+built.stdout+'\n'+built.stderr);
- if(!built.stdout.includes('Build mode: incremental; rendering 6 of 3612 locale pages'))throw Error('incremental build did not render exactly 3/3612 pages');
- if(!built.stdout.includes('Seeded 3588 published routes from public_html'))throw Error('published tree was not seeded before rendering');
- if(!fs.readFileSync(path.join(dist,'en','preserved-1193','index.html'),'utf8').includes('PRESERVE-DEEP-SENTINEL'))throw Error('unrelated deep EN page was not preserved');
+ if(!built.stdout.includes('Build mode: incremental; rendering 6 of 3612 locale pages'))throw Error('incremental build did not render exactly 6/3612 pages');
+ if(!built.stdout.includes('Seeded 3612 published routes from public_html'))throw Error('published tree was not seeded before rendering');
+ if(!fs.readFileSync(path.join(dist,'en','preserved-1194','index.html'),'utf8').includes('PRESERVE-DEEP-SENTINEL'))throw Error('unrelated deep EN page was not preserved');
  if(fs.readFileSync(path.join(dist,'fr','index.html'),'utf8')!=='PRIVATE-FR-SENTINEL')throw Error('private FR tree was overwritten');
  const outputManifest=JSON.parse(fs.readFileSync(path.join(dist,'locale-manifest.json'),'utf8'));
- if(outputManifest.routes.length!==3588||outputManifest.routes.filter(entry=>entry.indexable).length!==3588)throw Error('route inventory changed during incremental build');
+ if(outputManifest.routes.length!==3612||outputManifest.routes.filter(entry=>entry.indexable).length!==3588)throw Error('route inventory changed during incremental build');
  if(outputManifest.routes.some(entry=>entry.route==='/fr/'))throw Error('private FR route was added to the public manifest');
  const sitemap=fs.readFileSync(path.join(dist,'sitemap.xml'),'utf8');
  if((sitemap.match(/<url>/g)||[]).length!==3588||sitemap.includes('<loc>'+origin+'/fr/</loc>'))throw Error('public sitemap changed its 3588-route/FR-private contract');
 
- console.log('HOSTINGER INCREMENTAL QA PASS: 6/3612 rendered; 3588 routes, deep EN page, private FR tree and sitemap preserved; missing manifest aborts before dist changes.');
+ console.log('HOSTINGER INCREMENTAL QA PASS: 6/3612 rendered; 3612 documents, 3588 indexable routes, deep EN page, private FR tree and sitemap preserved; missing manifest aborts before dist changes.');
 }finally{
  fs.rmSync(sandbox,{recursive:true,force:true});
 }
