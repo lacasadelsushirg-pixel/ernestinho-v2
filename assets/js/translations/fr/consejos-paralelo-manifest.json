@@ -1,0 +1,293 @@
+{
+  "project": "Ernestinho Carioca - Consejos de Rio / FR parallel",
+  "base_branch": "revision/rendimiento-traducciones-81a904c",
+  "coordination": {
+    "work_pr": 24,
+    "guide_fr_pr": 25,
+    "work_scope": "Gastronomía y recuperación ES/PT/EN",
+    "this_scope": "Consejos FR only"
+  },
+  "status": "COMPLETE_TRANSLATION_STAGING_NOT_INTEGRATED_NOT_PUBLISHED",
+  "freeze": "Source HTML, CSS, links, media and production not changed. Source PT-BR/EN remain untouched.",
+  "scope": [
+    {
+      "route": "/consejos/revisar-alojamiento/",
+      "source_sha": "61a669eb88ad456743ae7cb69522e5c1a11469a7",
+      "dictionary": "assets/js/translations/fr/consejos-revisar-alojamiento-paralelo.json",
+      "entries": 17
+    },
+    {
+      "route": "/consejos/electricidad-adaptadores/",
+      "source_sha": "77bfbef77779c33f31ec0bd41e2bd477d7521ba1",
+      "dictionary": "assets/js/translations/fr/consejos-electricidad-adaptadores-paralelo.json",
+      "entries": 34
+    },
+    {
+      "route": "/consejos/maletas-rio/",
+      "source_sha": "b6d4b9d87b4ca1b4571b449ab137fcd3e1e88a4b",
+      "dictionary": "assets/js/translations/fr/consejos-maletas-rio-paralelo.json",
+      "entries": 51
+    },
+    {
+      "route": "/consejos/rodizio/",
+      "source_sha": "b3ae12f8e944f8e93a7f0d26156791b8d223be83",
+      "dictionary": "assets/js/translations/fr/consejos-rodizio-paralelo.json",
+      "entries": 35,
+      "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/souvenirs/",
+      "source_sha": "3f713f69a0c57a6eb54f77d34bae0c576bb3d800",
+      "dictionary": "assets/js/translations/fr/consejos-souvenirs-paralelo.json",
+      "entries": 37,
+      "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/seguro-viaje/",
+      "source_sha": "3dd9266f4740ea2d7bed768791a624296c80c2d3",
+      "dictionary": "assets/js/translations/fr/consejos-seguro-viaje-paralelo.json",
+      "entries": 26,
+      "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
+      "editorial_review": "confirm insurance terms and current assistance/affiliate information before publishing"
+    },
+    {
+      "route": "/consejos/sol-calor/",
+      "source_sha": "34e68c0930deebdf716466f5bac39449c241db9e",
+      "dictionary": "assets/js/translations/fr/consejos-sol-calor-paralelo.json",
+      "entries": 44,
+      "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/lluvia/",
+      "source_sha": "3d8ddf73c273d5fa4e3bd8ff0f7e7686f3c2f74d",
+      "dictionary": "assets/js/translations/fr/consejos-lluvia-paralelo.json",
+      "entries": 47,
+      "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/estado-del-mar-playas/",
+      "source_sha": "20cb802009b0fc42b7ef1f79e1d330a230ab8565",
+      "dictionary": "assets/js/translations/fr/consejos-estado-del-mar-playas-paralelo.json",
+      "entries": 48,
+      "coverage": "visible Spanish source text, page title/description/social metadata and alt/aria-label keys verified",
+      "editorial_review": "INEA, CBMERJ, marine alerts and the original dated October 2026 references should be verified against current conditions before any launch"
+    },
+    {
+      "route": "/consejos/errores-rio/",
+      "source_sha": "9289fffef2ffe39dbd746711c0d698ead9616ebf",
+      "dictionary": "assets/js/translations/fr/consejos-errores-rio-paralelo.json",
+      "entries": 29,
+      "coverage": "Spanish visible HTML, title, description/meta, img alt/aria-label: all exact source keys mapped",
+      "editorial_review": "source copy must be reviewed for current information before launch"
+    },
+    {
+      "route": "/consejos/nadie-explica/",
+      "source_sha": "9d420286a430cbaaa47e85cc3cba6b1e355c611a",
+      "dictionary": "assets/js/translations/fr/consejos-nadie-explica-paralelo.json",
+      "entries": 27,
+      "coverage": "Spanish visible HTML, title, description/meta, img alt/aria-label: all exact source keys mapped",
+      "editorial_review": "source copy must be reviewed for current information before launch"
+    },
+    {
+      "route": "/consejos/que-hacer-cada-dia/",
+      "source_sha": "6a68004673ef004ffd14f6d87d866edbdcd29852",
+      "dictionary": "assets/js/translations/fr/consejos-que-hacer-cada-dia-paralelo.json",
+      "entries": 20,
+      "coverage": "Spanish visible HTML, title, description/meta, img alt/aria-label: all exact source keys mapped",
+      "editorial_review": "Hours and activity schedules vary; confirm dates and days of operation before publishing"
+    },
+    {
+      "route": "/consejos/rio-1-a-7-dias/",
+      "source_sha": "8875e722c9f5d0bd0f46a634a1e4515d96dcbc6a",
+      "dictionary": "assets/js/translations/fr/consejos-rio-1-a-7-dias-paralelo.json",
+      "entries": 27,
+      "coverage": "Spanish visible HTML, title, description/meta, img alt/aria-label: all exact source keys mapped",
+      "editorial_review": "source copy must be reviewed for current information before launch"
+    },
+    {
+      "route": "/consejos/atardeceres-inolvidables/",
+      "source_sha": "ef7c1c2b634e338d80fadd745f6d35abc70dec79",
+      "dictionary": "assets/js/translations/fr/consejos-atardeceres-inolvidables-paralelo.json",
+      "entries": 25,
+      "coverage": "Spanish HTML visible text, source title/description/social metadata and alt/aria labels checked. Private FR render not yet built.",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/recorrido-zona-portuaria/",
+      "source_sha": "ee6c849bdb9cda12bb2d77fe69a77bc79dd92fe0",
+      "dictionary": "assets/js/translations/fr/consejos-recorrido-zona-portuaria-paralelo.json",
+      "entries": 28,
+      "coverage": "Spanish HTML visible text, source title/description/social metadata and alt/aria labels checked. Private FR render not yet built.",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/perfiles-viajero/",
+      "source_sha": "33700a3349486820ad300945b2770e828e15a17a",
+      "dictionary": "assets/js/translations/fr/consejos-perfiles-viajero-paralelo.json",
+      "entries": 56,
+      "coverage": "Spanish HTML visible text, source title/description/social metadata and alt/aria labels checked. Private FR render not yet built.",
+      "editorial_review": null
+    },
+    {
+      "route": "/consejos/playa-barracas-quiosques/",
+      "source_sha": "cb62ae8b11160991662568bf58157752e658fd8d",
+      "dictionary": "assets/js/translations/fr/consejos-playa-barracas-quiosques-paralelo.json",
+      "entries": 45,
+      "coverage": "Spanish HTML visible text, source title/description/social metadata and alt/aria labels checked. Private FR render not yet built.",
+      "editorial_review": "Verify laws/service policies, health warnings and external references for publication date"
+    },
+    {
+      "route": "/consejos/mascotas-rio/",
+      "source_sha": "c244a4557f708042efb28c2cfa982a0e953019b9",
+      "dictionary": "assets/js/translations/fr/consejos-mascotas-rio-paralelo.json",
+      "entries": 50,
+      "coverage": "Spanish HTML visible text, source title/description/social metadata and alt/aria labels checked. Private FR render not yet built.",
+      "editorial_review": "Verify laws/service policies, health warnings and external references for publication date"
+    },
+    {
+      "route": "/consejos/servicios-practicos/",
+      "source_sha": "d0317a98ac6746fa84c2615d57e36978878f75f6",
+      "dictionary": "assets/js/translations/fr/consejos-servicios-practicos-paralelo.json",
+      "entries": 52,
+      "coverage": "Spanish HTML visible text, source title/description/social metadata and alt/aria labels checked. Private FR render not yet built.",
+      "editorial_review": "Verify laws/service policies, health warnings and external references for publication date"
+    },
+    {
+      "route": "/consejos/",
+      "source_sha": "df0503512bbfb63e51e8d7612e65045631514d35",
+      "dictionary": "assets/js/translations/fr/consejos-portada-paralelo.json",
+      "entries": 45,
+      "coverage": "all page cards, alt tags, visible text, page title and meta description covered",
+      "integration_note": "Verify page cards point to FR routes only when their destination exists in the private preview"
+    },
+    {
+      "route": "/consejos/20-consejos/",
+      "source_sha": "a7843c9438b16bf361c9d0590599a34d4ae3d018",
+      "dictionary": "assets/js/translations/fr/consejos-20-consejos-paralelo.json",
+      "entries": 62,
+      "coverage": "All 20 original detailed recommendations, title/meta, alt/aria mapped"
+    },
+    {
+      "route": "/consejos/50-preguntas/",
+      "source_sha": "5cb3f6e49525fefb642625896c718cf9797266f1",
+      "dictionary": "assets/js/translations/fr/consejos-50-preguntas-paralelo.json",
+      "entries": 99,
+      "coverage": "12 featured questions and 50 original quick answers with title/alt/meta mapped",
+      "editorial_review": "Source facts about migration, customs, visa, health must be verified before publication"
+    },
+    {
+      "route": "/consejos/portugues/",
+      "source_sha": "9a6e6d84b2b768c1fed18e7a107d6a9335d65007",
+      "dictionary": "assets/js/translations/fr/consejos-portugues-paralelo.json",
+      "entries": 25,
+      "dynamic_supplement": "assets/js/translations/fr/consejos-portugues-80-frases-paralelo.json",
+      "coverage": "All HTML text and metadata plus 80 Portuguese phrases with French meanings, ten category labels, eight false-friend entries and French audio-control labels",
+      "integration_blocker": "Existing assets/js/portugues-util.js langKey() falls back to Spanish when FR selected and assets/js/i18n.js LANGS only ES/PT/EN. Audio not browser-tested; preserve original Portuguese speech and playback."
+    },
+    {
+      "route": "/consejos/supermercados/",
+      "source_sha": "821715e18df2adb0608d0771a820cf5422ee0ff4",
+      "dictionaries": [
+        "assets/js/translations/fr/consejos-supermercados-01-paralelo.json",
+        "assets/js/translations/fr/consejos-supermercados-02-paralelo.json",
+        "assets/js/translations/fr/consejos-supermercados-03-paralelo.json",
+        "assets/js/translations/fr/consejos-supermercados-04-paralelo.json"
+      ],
+      "entries": 206,
+      "dynamic_supplement": "assets/js/translations/fr/consejos-supermercados-modulo-196-paralelo.json",
+      "coverage": "181 unique visible HTML strings, title/description/meta and alt, plus 196/196 JS module s0..s195 mapped to French",
+      "integration_blocker": "Existing JS registerTranslations module has ES/PT/EN only; FR private renderer must register all 196 keys and preserve galleries and 14 editorial sections."
+    },
+    {
+      "route": "/consejos/trampas-turista/",
+      "source_sha": "2152f1e7c6a5ba5c035ab8f010a089a279c8b8f5",
+      "dictionary": "assets/js/translations/fr/consejos-trampas-turista-paralelo.json",
+      "entries": 72,
+      "coverage": "All 13 original safety/payment situations and tips, titles/meta/alt mapped"
+    }
+  ],
+  "coverage": "All 24 editorial Consejos subpages plus /consejos/ landing translated into isolated ES→FR dictionaries. The newest five pages have exact text coverage of source Spanish HTML visible strings, title/meta and alt/aria; all 196 JS keys for Supermercados and 80 phrase translations for Portugues have separate supplements. Earlier pages were individually checked against their original source; full cross-branch QA still needed before integration. Source strings translated ≠ French pages published.",
+  "next_steps": [
+    "Check source SHAs and current PR24 before integrating",
+    "Continue all 24 Consejos subpages and landing FR; keep sections complete",
+    "Build private noindex French preview with photos, affiliate links, mobile and desktop checks",
+    "Run freeze guards and SEO checks before any PR merging",
+    "Do not replace Work PR24 or current production",
+    "Keep `/consejos/sol-calor/` route name as-is; its current Spanish editorial page is 'Amaneceres y atardeceres inolvidables' despite the route name.",
+    "Do not mark `/consejos/portugues/` completed from HTML alone: it uses an external Portuguese phrase/audio JS module and needs dynamic content mapping and functional FR review.",
+    "Translate the remaining 15 Consejos subpages and section landing separately; audit redirects, media and dynamically generated text before publishing.",
+    "Translate and integrate remaining 11 editorial Consejos subpages and section landing. Review dynamic Portuguese phrases/audio separately, plus large Supermercados and 50 Preguntas pages.",
+    "Preserve images and functional original on Portuguese audio page; original FR preview can only be considered complete when all 80 phrases and playback controls are covered.",
+    "Complete editorial translation of 20-consejos, 50-preguntas, supermercados and trampas-turista separately, without summaries."
+  ],
+  "todo_inventory": {
+    "source_subfolders": 24,
+    "prepared_subpages": 24,
+    "remaining_subpages": 0,
+    "landing_page_prepared": true,
+    "dynamic_portugues_audio_pending_qa": true,
+    "private_fr_browser_qa_pending": true
+  },
+  "dynamic_translation_supplements": {
+    "portuguese_phrases": {
+      "file": "assets/js/translations/fr/consejos-portugues-80-frases-paralelo.json",
+      "phrases": 80,
+      "categories": 10,
+      "false_friends": 8,
+      "source": "assets/data/portugues-util.json"
+    },
+    "supermarkets": {
+      "file": "assets/js/translations/fr/consejos-supermercados-modulo-196-paralelo.json",
+      "keys": 196,
+      "source": "assets/js/translations/supermercados.js"
+    }
+  },
+  "integration_guardrails": [
+    "Do not update frozen source HTML, existing ES/PT/EN dictionaries, approved URLs or publish French before reconciliation with Work PR #24 and Guide FR PR #25.",
+    "i18n.js supports only ES/PT/EN, so isolated French dictionaries are staged only. Integrate under a tested private FR preview path, never by overwriting production JS without corresponding UX/SEO QA.",
+    "Portugues audio must keep original Portuguese phrase and original Cloudinary audio references, with FR-only meanings, ten filters, false-friend notes, listen/slow button labels and error handling.",
+    "Supermercados has a separate JS translation module with 196 s-keys; register the 196-key FR supplement and preserve photos, titles, alt, internal links and 14 original long-form sections.",
+    "Test responsive at 390px and 1440px, images, links/affiliate conversions, footer, site navigation, noindex, canonical/hreflang, sitemap and all frozen-page guard scripts.",
+    "Verify time-sensitive facts and laws (pet entry, sea safety, pharmacies, insurance, customs, immigration) before public release."
+  ],
+  "quality_gate": {
+    "status": "SOURCE_STRING_COVERAGE_PASSED__BROWSER_VISUAL_RUNTIME_PENDING",
+    "verified_routes": 25,
+    "source_sha_matches": 25,
+    "source_html_strings_missing": 0,
+    "dictionary_entry_counts_match": 25,
+    "individual_es_fr_entries": 1207,
+    "dynamic_supermercados_js_keys_mapped": 196,
+    "portuguese_phrase_meanings_fr": 80,
+    "portuguese_categories_fr": 10,
+    "portuguese_false_friends_fr": 8,
+    "surfaces": [
+      "visible HTML text nodes after stripping scripts",
+      "document title",
+      "meta description and common OG/Twitter content",
+      "image alt and aria-label"
+    ],
+    "not_yet_verified": [
+      "French page generator integration",
+      "FR selector support in existing site i18n.js",
+      "audio play/slow functionality in FR",
+      "Supermercados translated JavaScript output at runtime",
+      "broken links and assets",
+      "mobile/desktop screenshots",
+      "quality of human French copyediting",
+      "factual updates regarding legislation/services",
+      "indexed/noindex and sitemap/canonical/hreflang"
+    ]
+  },
+  "remaining_validation": [
+    "FR dictionaries are staged only. Add FR to language routing and i18n runtime in a coordinated integration with Work PR #24 without regressing ES/PT/EN.",
+    "Generate private noindex FR preview for all 25 Consejos routes using current source SHA and correct destination links; avoid broken links to untranslated destinations.",
+    "Ensure 80 Portuguese audio phrases and 196 Supermercados s-keys render in FR and work in the browser; test 390px/1440px.",
+    "Update time-sensitive data using authoritative sources and review French copy before release.",
+    "Build and run frozen page guards and SEO checks, and keep public sitemap clean until completion."
+  ]
+}
