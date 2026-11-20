@@ -829,6 +829,31 @@ Object.assign(SEO_METADATA, {
     ES: ['Boa Praça Leblon | Ernestinho Carioca', 'Fotos e información oficial de Boteco Boa Praça, unidad Leblon.'],
     PT: ['Boa Praça Leblon | Ernestinho Carioca', 'Fotos e informações oficiais do Boteco Boa Praça, unidade de Leblon.'],
     EN: ['Boa Praça Leblon | Ernestinho Carioca', 'Official photos and information about the Boteco Boa Praça venue in Leblon.']
+  },
+  '/gastronomia/haru/': {
+    ES: ['Haru Sushi Bar: guía completa | Ernestinho Carioca', 'Guía editorial de Haru Sushi Bar en Río: identidad, historia, qué pedir, horarios, precios, transporte y mapa.'],
+    PT: ['Haru Sushi Bar em Copacabana | Ernestinho Carioca', 'Haru Sushi Bar em Copacabana: guia de sushi, seleção do chef, horários, preços, como chegar e mapa.'],
+    EN: ['Haru Sushi Bar in Copacabana | Ernestinho Carioca', 'Haru Sushi Bar in Copacabana: a guide to sushi, the chef’s selection, opening hours, prices, directions and map.']
+  },
+  '/gastronomia/fogo-de-chao-botafogo/': {
+    ES: ['Fogo de Chão Botafogo: guía completa | Ernestinho Carioca', 'Guía completa de Fogo de Chão Botafogo en Río: identidad, carta, horarios, mapa, fotografías y consejos de Ernestinho Carioca.'],
+    PT: ['Fogo de Chão Botafogo: guia completo | Ernestinho Carioca', 'Guia do Fogo de Chão Botafogo no Rio: identidade, cardápio, horários, mapa, fotos e dicas de Ernestinho Carioca.'],
+    EN: ['Fogo de Chão Botafogo: complete guide | Ernestinho Carioca', 'A guide to Fogo de Chão Botafogo in Rio: its identity, menu, hours, map, photos and tips from Ernestinho Carioca.']
+  },
+  '/gastronomia/stalos/': {
+    ES: ['Stalos: guía completa | Ernestinho Carioca', 'Guía editorial de Stalos: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.'],
+    PT: ['Stalos: guia completo | Ernestinho Carioca', 'Guia editorial de Stalos: identidade, história, recomendações, horários, transporte e mapa no Rio.'],
+    EN: ['Stalos: complete guide | Ernestinho Carioca', 'Editorial guide to Stalos: its identity, history, recommendations, opening hours, transport and map in Rio.']
+  },
+  '/gastronomia/giuseppe-mar/': {
+    ES: ['Giuseppe Mar: guía completa | Ernestinho Carioca', 'Guía editorial de Giuseppe Mar: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.'],
+    PT: ['Giuseppe Mar: guia completo | Ernestinho Carioca', 'Guia editorial do Giuseppe Mar: identidade, história, recomendações, horários, transporte e mapa no Rio.'],
+    EN: ['Giuseppe Mar: complete guide | Ernestinho Carioca', 'Editorial guide to Giuseppe Mar: its identity, history, recommendations, opening hours, transport and map in Rio.']
+  },
+  '/gastronomia/aipo-aipim-391/': {
+    ES: ['Aipo & Aipim Copacabana 391: guía completa | Ernestinho Carioca', 'Guía editorial de Aipo & Aipim Copacabana 391: identidad, historia, recomendaciones, horarios, transporte y mapa en Río.'],
+    PT: ['Aipo & Aipim Copacabana 391: guia completo | Ernestinho Carioca', 'Guia editorial da Aipo & Aipim Copacabana 391: identidade, história, recomendações, horários, transporte e mapa no Rio.'],
+    EN: ['Aipo & Aipim Copacabana 391: complete guide | Ernestinho Carioca', 'Editorial guide to Aipo & Aipim Copacabana 391: its identity, history, recommendations, opening hours, transport and map in Rio.']
   }
 });
 export function applySeoMetadata(language, route = routeParts().path) {

@@ -1,0 +1,70 @@
+# Cierre corregido de la tanda 3 — 50 fichas
+
+Fecha: 2026-11-16. Fuente de producción Hostinger: `revision/rendimiento-traducciones-81a904c` @ `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`. Search Console: propiedad principal, ventana 2026-10-16–2026-11-12.
+
+## Recuento
+
+- 50/50 URLs de la tanda, con SHA de fuente ES en el árbol de producción. Las #1–20 proceden de las auditorías previas anotadas en el archivo de continuidad; **no se recertificaron en este cierre**. Las #21–50 se verificaron en el corte anterior a este informe.
+- **0/50 completas** según el criterio integral: PT/EN/FR, render real, QA editorial/SEO, build incremental, sitemap/canonical/hreflang y capturas 1440/390 aprobadas.
+- **0/50 publicadas por este trabajo en Hostinger.** La rama PR/previews son candidatos privados.
+- Referencia recontada en el corte previo: sitemap 3.588 URLs ES/PT-BR/EN (1.196 por idioma); 3.612 documentos generados desde 1.204 fuentes; FR fuera del sitemap.
+- Se corrigió este informe porque la primera versión mezclaba otras 20 rutas en las posiciones 1–20. La tabla de abajo deja la secuencia correcta de la tanda 3. El estado de ficha es conservador: “incompleta/no recertificada” nunca cuenta como validada.
+
+## Estados de la tanda
+
+| # | URL | SHA del HTML ES en producción | Estado al corte (auditoría previa; no recertificada hoy) |
+|---:|---|---|---|
+| 1 | https://www.ernestinhocarioca.com.br/gastronomia/amendoeira/ | `b3ed0ef51003d906992bc10b0d086b7304907627` | Incompleta en auditoría previa: PT 11/24 y EN 9/24 párrafos idénticos a ES; meta descriptions ES; FR ausente. No recertificada en este cierre. |
+| 2 | https://www.ernestinhocarioca.com.br/gastronomia/chama-rio-copacabana/ | `5aab4304cd65e8006a7e9e410f0903495c3ef6be` | Auditoría previa: 0/20 coincidencias literales; faltan QA editorial completo, FR y capturas; GSC mostró ES sin fila (no equivale a cero). No recertificada en este cierre. |
+| 3 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-siqueira/ | `6cbdf907f1a363efbeb47e869215900b1fe8d2a6` | Auditoría previa: 0/25 coincidencias literales, pero PT/EN meta descriptions en ES, alts pendientes; FR/QA integral pendientes. No recertificada en este cierre. |
+| 4 | https://www.ernestinhocarioca.com.br/gastronomia/carretao-lido/ | `fe48ac0c9ad39cbf3be490dc32c1e96010c29487` | Auditoría previa: 7/26 PT y 6/26 EN coinciden con ES; alt/meta/FR y QA integral pendientes. No recertificada en este cierre. |
+| 5 | https://www.ernestinhocarioca.com.br/gastronomia/plage-cafe/ | `7b18104abae1dcb68821af4663dafa6049206bf7` | Auditoría previa detectó divergencia entre HTML desplegado (15 párrafos/11 imágenes) y fuente versionada (4/6); no reconstruir sin resolver diferencias. Incompleta; no recertificada. |
+| 6 | https://www.ernestinhocarioca.com.br/gastronomia/spicy-fish/ | `6c49d747f9a7a5712a8a4cb7927462bcf44c378d` | Auditoría previa: 8/29 párrafos PT y EN idénticos a ES; falta FR y QA integral. No recertificada en este cierre. |
+| 7 | https://www.ernestinhocarioca.com.br/gastronomia/terra-brasilis/ | `1c3f6149742b62e50d233ef57f6b37dd8237d0fd` | Auditoría previa: 3/3 indexadas; alt en español/pediente de revisión; FR y cobertura editorial integral sin validar. No recertificada. |
+| 8 | https://www.ernestinhocarioca.com.br/gastronomia/haru/ | `6f897d6c60ca36d476d916d93d9e8b9ae25d1f97` | Auditoría previa: renderer inicia ES, aunque hay 19 pares PT/EN en diccionarios; FR ausente, runtime/build/capturas no aprobados. Incompleta. |
+| 9 | https://www.ernestinhocarioca.com.br/gastronomia/fogo-de-chao-botafogo/ | `413592e5e34189e0d7117c20da05fcc3aa6a9382` | Auditoría previa: 7 bloques editoriales PT/EN siguen en ES; metadata/canonical/hreflang correctos en las 3 rutas. FR ausente; build/capturas no aprobados. |
+| 10 | https://www.ernestinhocarioca.com.br/gastronomia/dumare/ | `f2fbca8b8f9d514579d6e48a5e8102bd10d35130` | Auditoría previa: renderer fuerza ES; 10/30 párrafos coinciden literalmente ES en PT/EN; imágenes 10/9/9 y alts vacíos. FR/QA integral pendientes. |
+| 11 | https://www.ernestinhocarioca.com.br/gastronomia/delirio-tropical-rio-sul/ | `592b3b378eb432faee1adc4669ca761c971bf2f7` | Auditoría previa: 9/29 coincidencias PT y EN; renderer fuerza ES; FR ausente y alts vacíos. Incompleta. |
+| 12 | https://www.ernestinhocarioca.com.br/gastronomia/k08/ | `453ae04652ec6aede6c7141a318c5602f5290676` | Auditoría previa: 8/29 coincidencias PT y EN; renderer fuerza ES; FR ausente y alts vacíos. Incompleta. |
+| 13 | https://www.ernestinhocarioca.com.br/gastronomia/churrasqueira-rio/ | `5018c17b722e2bb1cb7d65ae73214243ed8295f2` | Auditoría previa: renderer fuerza ES; 7/25 coincidencias en PT/EN; FR y alts/QA pendientes. |
+| 14 | https://www.ernestinhocarioca.com.br/gastronomia/garota-de-ipanema/ | `a2d8617b16ec407f38cb69d9563a052e99ccd295` | Auditoría previa: renderer fuerza ES; 8/21 coincidencias PT/EN y dos alt vacíos por idioma; FR ausente. |
+| 15 | https://www.ernestinhocarioca.com.br/gastronomia/polis-sucos/ | `79fee661887876e6b21755854a8f21b1f53d139f` | Auditoría previa: renderer legacy fuerza ES; 19 claves PT/EN frente a 32 párrafos. Sin coincidencias literales, pero cobertura incompleta; FR ausente. |
+| 16 | https://www.ernestinhocarioca.com.br/gastronomia/feira-sao-cristovao/ | `dea40048e9a5d39fc77b7c29016b3f88f9ea2f60` | Auditoría previa: renderer fuerza ES; 9/23 coincidencias PT/EN; FR y alts vacíos pendientes. |
+| 17 | https://www.ernestinhocarioca.com.br/gastronomia/la-bicyclette/ | `82631de53f3a33c2d67487ba563abd91e5baafbd` | Auditoría previa: 7/25 coincidencias en PT y EN; imágenes 13/12/12, dos alt vacíos PT/EN; FR no validado. |
+| 18 | https://www.ernestinhocarioca.com.br/gastronomia/stalos/ | `34d677468e2a5b07c7b8055238a344bda86478eb` | Auditoría previa: 7/25 coincidencias PT/EN; metadata description ES; dos alt vacíos por variante. FR no validado. |
+| 19 | https://www.ernestinhocarioca.com.br/gastronomia/giuseppe-mar/ | `318a57e414fc9fa64006343020e4fbbf064a1d4f` | Auditoría previa: 10/31 coincidencias PT/EN; descriptions ES; dos alt vacíos PT/EN; FR no validado. |
+| 20 | https://www.ernestinhocarioca.com.br/gastronomia/aipo-aipim-391/ | `db591ebfddae31ecef0c5cf17ee39b28becabe09` | Auditoría previa: 0 coincidencias literales en 24 párrafos, pero titles y meta descriptions ES; FR, render real, build, capturas y QA integral pendientes. |
+| 21 | https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/ | `3c03174a60b9f5a6a7d472a2bbab0c01fa78a412` | Auditoría previa: 3/3 indexadas; PT/EN 9/23 párrafos literales ES; metadatos localizados; FR ausente; alts vacíos PT/EN. Incompleta, no recertificada. |
+| 22 | https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/ | `c5fb0bbb0ae6f528af3d33b398d4a69c39794aa0` | Churrascaria Palace: PT/EN 0/21 coincidencias; PT descubierta no indexada sin fallo de rastreo declarado; FR privada noindex, 20 párrafos. |
+| 23 | https://www.ernestinhocarioca.com.br/gastronomia/maska/ | `498e10c390f3a116d42b114b145f312124ebf8dd` | Maska: 3/3 indexadas; PT 10/33, EN 9/33 coincidencias literales. |
+| 24 | https://www.ernestinhocarioca.com.br/gastronomia/oteque/ | `9129914e9b78ceaa06301cd7e5fcbe12326901f7` | Oteque: 3/3 indexadas; PT/EN 8/30 coincidencias; FR no revalidada en este corte. |
+| 25 | https://www.ernestinhocarioca.com.br/gastronomia/fast-food/ | `3eb04d5fc56365b46fab8bb0a060ec7568618374` | Fast Food: 3/3 indexadas; cero coincidencias en 14 párrafos; FR privada noindex con 13 párrafos; metadatos ES y alts pendientes. |
+| 26 | https://www.ernestinhocarioca.com.br/gastronomia/merci/ | `97e8f123f1f5fe3c5a26e063b18680127a5ac768` | Merci: 3/3 indexadas; 1/15 coincidencia PT y EN; FR privada noindex con 7 párrafos. |
+| 27 | https://www.ernestinhocarioca.com.br/gastronomia/guacamole-copacabana/ | `a08313c70caf9646590de9fea5ea53b7094e1034` | Guacamole Copacabana: 3/3 indexadas/fetch/canonical correctos; 19 párrafos; PT 2/19, EN 1/19; descripción PT/EN en ES; FR 404. |
+| 28 | https://www.ernestinhocarioca.com.br/gastronomia/hollandaise/ | `0f57ab5a0c0f56d4b17f181c56ce93838f239376` | Hollandaise: ES/PT/EN indexadas; PT/EN 9/18 coincidencias; descriptions ES; FR ausente. |
+| 29 | https://www.ernestinhocarioca.com.br/gastronomia/mocellin-steak/ | `3553279f2696fd6b2f913d0adba0d0e4904ac9f9` | Mocellin Steak: 3/3 indexadas; PT/EN 9/18 coincidencias; FR privada noindex sin párrafos estáticos. |
+| 30 | https://www.ernestinhocarioca.com.br/gastronomia/classico-beach-club-barra/ | `2d96c21b7398b3f528092dc70aace20bf12e05a0` | Clássico Beach Club Barra: 3/3 indexadas; PT/EN 9/24 coincidencias; descriptions ES; FR privada noindex sin párrafos estáticos. |
+| 31 | https://www.ernestinhocarioca.com.br/gastronomia/praia-skol-copa/ | `70861b9ba60ea9e99a22d155df649b3c1bca6722` | Praia Skol Copa: 3/3 indexadas; PT/EN 8/27 coincidencias; descriptions ES; FR privada noindex sin párrafos estáticos. |
+| 32 | https://www.ernestinhocarioca.com.br/gastronomia/rampinha/ | `e2a420af58c52f668b58974afcef623de6180836` | Rampinha: 3/3 indexadas; PT/EN 10/29 coincidencias; descriptions ES; FR ausente. |
+| 33 | https://www.ernestinhocarioca.com.br/gastronomia/eclipse/ | `227e1879d6fe2cc55d4cad20b8d6804b0bd819e4` | Eclipse: ES/EN indexadas; PT descubierta sin fallo técnico; cero coincidencias en 25 párrafos; descriptions ES; FR ausente. |
+| 34 | https://www.ernestinhocarioca.com.br/gastronomia/casa-cave/ | `698e041737b2dcfc5f9ee2b29a7cfc9055e601e9` | Casa Cave: 3/3 indexadas; PT/EN 2/29 coincidencias; FR privada noindex sin párrafos y description ES. |
+| 35 | https://www.ernestinhocarioca.com.br/gastronomia/marius-degustare/ | `0b86e8009857280563813202c3a8ebecc3d2829b` | Marius Degustare: GSC muestra ES; PT/EN no reconocidas aún sin fallo confirmado; PT/EN 1/27 coincidencia; descriptions ES; FR ausente. |
+| 36 | https://www.ernestinhocarioca.com.br/gastronomia/xodozin-copa/ | `e3501501ca328705040d49d4e700769313d8e90d` | Xodozin Copa: 3/3 indexadas; PT/EN 11/28 coincidencias; descriptions ES; FR ausente. |
+| 37 | https://www.ernestinhocarioca.com.br/gastronomia/confeitaria-manon/ | `7240f16f918b3c4b44c18ff1e1ce69cc3c46963e` | Confeitaria Manon: PT/EN descubiertas sin detalle de rastreo; 1/29 coincidencia por idioma; metadatos localizados; FR ausente. |
+| 38 | https://www.ernestinhocarioca.com.br/gastronomia/iraja-redux/ | `fb393540ddb73fdddb75b9cb8461f145619b83ba` | Irajá Redux: ES/PT indexadas; EN sin fila GSC; PT/EN 8/30 coincidencias; descriptions ES; FR ausente. |
+| 39 | https://www.ernestinhocarioca.com.br/gastronomia/otto/ | `5c57ddb89b7c71fbaadcd2a3a291f5a85d669680` | Otto: 3/3 indexadas; PT/EN 10/31 coincidencias; descriptions ES; FR privada noindex sin párrafos estáticos. |
+| 40 | https://www.ernestinhocarioca.com.br/gastronomia/ferro-e-farinha/ | `45ab28867c3c2ee3fc202a3a331591c52bf3f5c9` | Ferro e Farinha: ES/PT indexadas; EN descubierta sin error técnico declarado; PT/EN 2/20 coincidencias; descriptions ES; FR ausente. |
+| 41 | https://www.ernestinhocarioca.com.br/gastronomia/umai/ | `49d87430988704c1b43ee02b1c003b236e534dea` | Umai: 3/3 indexadas; PT 0/25, EN 1/25 coincidencias; descriptions ES; FR ausente. |
+| 42 | https://www.ernestinhocarioca.com.br/gastronomia/assador/ | `383facb0bb25227bc031c6ea31cbd44c2aff6491` | Assador: ES; PT/EN descubiertas sin detalle de crawl; 2/20 coincidencias; descriptions ES; FR privada noindex sin párrafos. |
+| 43 | https://www.ernestinhocarioca.com.br/gastronomia/cachambeer/ | `95ddfcd6d9a9fffe7e7249a368be43407a52aab4` | Cachambeer: ES; PT/EN descubiertas sin detalle de crawl; cero coincidencias en 18 párrafos; descriptions ES; FR privada noindex sin párrafos. |
+| 44 | https://www.ernestinhocarioca.com.br/gastronomia/confeitaria-colombo/ | `2c47c51647f5819905445620f641b587040d74a5` | Confeitaria Colombo: ES; PT/EN descubiertas sin detalle de crawl; 2/20 coincidencias; descriptions ES; FR privada noindex sin párrafos. |
+| 45 | https://www.ernestinhocarioca.com.br/gastronomia/rufino-parrilla/ | `fae737fa9c97d2aa4ce7129b3f94f362a41e0424` | Rufino Parrilla: ES; PT/EN descubiertas sin detalle de crawl; 1/29 coincidencia; descriptions ES; FR ausente. |
+| 46 | https://www.ernestinhocarioca.com.br/gastronomia/aipo-aipim-920/ | `107f3a973fc5ded3804ca82f680ea9798d74c250` | Aipo & Aipim 920: ES/EN indexadas, PT descubierta; 24 párrafos sin coincidencias; titles/descriptions PT/EN en ES; FR privada noindex sin párrafos. |
+| 47 | https://www.ernestinhocarioca.com.br/gastronomia/gurume/ | `22daad1abe2bc4f8c2c4462b6d8283ae4d0d51fe` | Gurume: ES; PT descubierta, EN sin reconocimiento GSC; 2/20 coincidencias; descriptions ES; FR ausente. |
+| 48 | https://www.ernestinhocarioca.com.br/gastronomia/venga-ipanema/ | `6660786e8f609092bc90042852294fb3a70afe4a` | Venga Ipanema: 3/3 indexadas; PT/EN 8/30 coincidencias; descriptions ES; FR privada noindex sin párrafos. |
+| 49 | https://www.ernestinhocarioca.com.br/gastronomia/rio-scenarium/ | `fee3f29b97e8b6c4deb3fae932773dffacc637ca` | Rio Scenarium: ES; PT/EN descubiertas sin detalle de crawl; cero coincidencias en 18 párrafos; descriptions ES; FR ausente. |
+| 50 | https://www.ernestinhocarioca.com.br/gastronomia/bafo-da-prainha/ | `084a0c88ece63392eb28bad1fa1d51089bb85d9e` | Bafo da Prainha: ES indexada; PT/EN descubiertas sin detalle de crawl; cero coincidencias en 23 párrafos; descriptions ES; FR privada noindex sin párrafos. |
+
+## Punto de continuación
+
+No hay fichas completas ni publicadas atribuibles a esta tanda. La siguiente tanda comenzó con Belmonte Ipanema y Elena Horto, auditorías parciales documentadas en el informe de avance de 2026-11-16. Continuar por prioridad de impresiones y deduplicar contra el inventario antes de auditar. Producción Hostinger sigue en `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; PR #37 no tiene revisión humana independiente ni deployment de producción.
