@@ -233,3 +233,15 @@ Cambios exactos:
 - La prueba reproduce una raíz publicada de 3.588 URL, ejecuta el build real y exige: `3 of 3612`, copia previa de 3.588 rutas, preservación de una página EN profunda, preservación byte a byte del árbol FR privado, 3.588 entradas indexables y 3.588 URL de sitemap, ausencia de `/fr/` en manifiesto/sitemap y `SAFE ABORT` sin alterar `dist` cuando falta el manifiesto.
 - Hostinger no fue relanzado y la raíz pública no fue modificada. Publicaciones nuevas: **0**.
 - Bloqueo único: revisión humana independiente del PR #45. Después de aprobar e integrar, aceptar el despliegue solo si el log real de Hostinger confirma `Build mode: incremental; rendering 3 of 3612 locale pages`.
+
+
+## Punto durable — 2026-11-20 11:30 BRT — candidato reconstruido sobre producción vigente
+
+- HEAD de producción verificado: `2dce60064291de24ee325a46beacde2f4749e452`.
+- Cambios concurrentes conservados: `quiero/index.html` y su autorización exacta en `scripts/guard_approved_content.mjs`; no fueron sustituidos por el candidato.
+- El PR #45 quedó no fusionable y 11 commits detrás de producción. Su contenido técnico se reaplicó selectivamente, sin arrastrar su base antigua, en `fix/hostinger-incremental-failsafe-20261120`.
+- HEAD remoto inicial del candidato reconstruido: `83299ae30e08aa44584f02900f5db7a94eb480c3`.
+- Último despliegue Hostinger comprobado: build `01a1f458-351d-71da-9194-a0fc4b129bf5`, commit `2dce60064291de24ee325a46beacde2f4749e452`, estado `failed`.
+- Evidencia del log real: `Build mode: full; rendering 3612 of 3612 locale pages`; no hubo selección incremental ni siembra de las 3.588 rutas; Chromium volvió a cerrarse y el build terminó fallido después de aproximadamente 15 minutos.
+- No se relanzó Hostinger y no se modificó `public_html`. Publicaciones nuevas verificadas: **0**.
+- Siguiente paso exacto: abrir un PR sustituto contra producción actual, esperar los checks obligatorios y la revisión humana independiente; cerrar #45 como reemplazado solo cuando el nuevo PR esté verde y fusionable. Tras aprobación, aceptar exclusivamente un log Hostinger con `Build mode: incremental; rendering 3 of 3612 locale pages`.
