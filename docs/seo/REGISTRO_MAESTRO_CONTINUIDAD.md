@@ -16,6 +16,7 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 | `/fr/guia/guarda-equipaje/` | intacto | intacto | intacto | 12 bloques, 6 FAQ y flujo completo | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 | `/fr/hospedaje/805/` | intacto | intacto | intacto | ficha completa, 8 servicios, consulta WhatsApp FR y única foto aprobada conservada | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 | `/fr/hospedaje/605/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 24 fotos aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
+| `/fr/hospedaje/1008/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 15 fotos aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 
 ## Pruebas y decisiones
 
@@ -31,12 +32,14 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - AP 605 conserva sus 24 fotografías Hostinger aprobadas y añade un carrusel local con controles/contador/alt franceses, sin depender del renderizador trilingüe.
 - QA estático AP 605: texto visible íntegro en francés, capacidad/distribución/8 servicios, `lang=fr`, noindex, canonical, hreflang, JSON-LD, navegación y WhatsApp específicos confirmados.
 - `fr-home.js` ahora conserva mensajes WhatsApp ya redactados en francés y solo aplica el mensaje genérico cuando el enlace aún no está localizado.
+- AP 1008 conserva sus 15 fotografías Hostinger aprobadas y su información vigente para 6 personas, dos habitaciones y ubicación a 50 m de la playa.
+- QA estático AP 1008: francés completo, carrusel/contador/alt FR, canonical, hreflang, JSON-LD, noindex, navegación y WhatsApp específico confirmados.
 - No se ejecutó `npm run build`, `hosting_deploy` ni se modificó la raíz de `public_html`.
 
 ## Bloqueos y siguiente paso exacto
 
-1. Obtener capturas 390/1440 y revisión humana de Guarda equipaje, AP 805 y AP 605, incluido carrusel, botones, contador y fotografías.
+1. Obtener capturas 390/1440 y revisión humana de Guarda equipaje, AP 805, AP 605 y AP 1008, incluidos carruseles, botones, contadores y fotografías.
 2. Tras aprobación, avanzar la rama FR vinculada mediante fast-forward y sincronizar únicamente `directory=fr`.
 3. Verificar por HTTP las tres rutas, contenido, imágenes aprobadas, canonical, noindex, navegación, carrusel y WhatsApp.
-4. Continuar Hospedaje con AP 1008 y AP 54 desde las fuentes ES vigentes, conservando sus galerías Hostinger.
+4. Continuar Hospedaje con AP 54 desde la fuente ES vigente, conservando su galería Hostinger.
 5. No publicar `/fr/transportes/transporte-privado/` hasta confirmar tarifas posteriores al 31/10/2026, integrar formulario/WhatsApp FR y disponer de los dos banners FR aprobados.
