@@ -245,3 +245,12 @@ Cambios exactos:
 - Evidencia del log real: `Build mode: full; rendering 3612 of 3612 locale pages`; no hubo selección incremental ni siembra de las 3.588 rutas; Chromium volvió a cerrarse y el build terminó fallido después de aproximadamente 15 minutos.
 - No se relanzó Hostinger y no se modificó `public_html`. Publicaciones nuevas verificadas: **0**.
 - Siguiente paso exacto: abrir un PR sustituto contra producción actual, esperar los checks obligatorios y la revisión humana independiente; cerrar #45 como reemplazado solo cuando el nuevo PR esté verde y fusionable. Tras aprobación, aceptar exclusivamente un log Hostinger con `Build mode: incremental; rendering 3 of 3612 locale pages`.
+
+
+### Corrección del alcance incremental — producción actual
+
+- El primer check del PR #46 terminó en rojo de forma segura porque la comparación real desde el manifiesto `13281f87` seleccionó `/` y `/quiero/`, mientras la aserción todavía esperaba solo Inicio.
+- `/quiero/` forma parte del cambio concurrente ya aprobado en producción `2dce6006`, pero aún no llegó a Hostinger debido al build fallido. Excluirlo perdería un cambio autorizado.
+- El gate se corrigió en `11c1ca2a92174ac35602afdc254e214d508d56d3`: la raíz sintética mantiene 1.196 fuentes/3.588 URL e incluye `/quiero/`; el resultado obligatorio es ahora 2 fuentes y 6 páginas: `/`, `/pt/`, `/en/`, `/quiero/`, `/pt/quiero/`, `/en/quiero/`.
+- El release sigue siendo incremental y preserva las otras 3.582 URL y el árbol FR privado.
+- Gate real posterior: Hostinger debe mostrar `Build mode: incremental; rendering 6 of 3612 locale pages`; cualquier `full` invalida la publicación.
