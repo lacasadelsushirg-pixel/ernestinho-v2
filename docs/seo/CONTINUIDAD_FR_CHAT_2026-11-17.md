@@ -253,3 +253,14 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - La fuente de Carnaval Experience indica precios válidos solo hasta el 31/10/2026; la ficha no puede publicarse hasta verificar tarifas actuales. No se inventaron valores.
 - Punto remoto previo al registro: `87bf0014d35f2d0a1655075a45f47c925d616efa`. Sin build, Hostinger, sitemap ni publicación HTTP.
 - Reanudación exacta: `vuelo-en-parapente`; Carnaval Experience permanece privado/bloqueado por tarifas.
+
+## Continuación 21/11/2026 — parapente, parasail y paracaidismo FR privados
+
+- Nuevas fichas completas: `/fr/experiencias/vuelo-en-parapente/`, `/fr/experiencias/parasail/` y `/fr/experiencias/paracaidas/`.
+- Se preservaron exactamente las 5, 4 y 3 URL de imagen únicas de las fuentes vigentes, respectivamente; no se cambiaron fotografías, CSS compartido, HTML ES/PT/EN ni sitemap.
+- Las tres rutas incluyen francés editorial completo, navegación y mensajes WhatsApp en francés, canonical propio, cinco hreflang, JSON-LD `fr` y `noindex,nofollow`. Se excluyó el renderer trilingüe que habría sobrescrito el francés.
+- QA estático aprobado: conjuntos de imágenes idénticos a producción, sin residuos españoles visibles, SEO privado completo, `fr-home.js` válido y `git diff --check` limpio.
+- Parapente conserva por fidelidad la promoción de octubre de 2026 y queda bloqueado para publicación hasta validar una tarifa vigente. Parasail (R$490 indicativo) y paracaidismo (R$1.000/R$2.000) también requieren confirmación comercial antes de cualquier publicación.
+- No hubo build, sincronización Hostinger ni verificación HTTP pública. Publicaciones nuevas: **0**. QA visual 390/1440 y revisión humana siguen pendientes.
+- Punto remoto de código antes de registrar documentos: `9b3b3d10f11b2adcb3f0afc5348073c3b1497b11`.
+- Siguiente ruta exacta: `/fr/experiencias/rapel/`; después `/fr/experiencias/ala-delta/`.
