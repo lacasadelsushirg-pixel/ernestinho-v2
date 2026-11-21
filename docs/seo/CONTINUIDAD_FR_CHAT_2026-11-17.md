@@ -204,3 +204,11 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - QA estático aprobado para las tres: recuento exacto de fotos, ausencia de residuos ES, renderizadores trilingües excluidos y controles del carrusel presentes.
 - Corrección de estado para este sublote: no se realizó sincronización Hostinger, no se ejecutó build y no hay verificación HTTP pública. Páginas nuevas publicadas: **0**.
 - Punto remoto previo al registro: `72b2b555598f8e61a7234b3ce05008f0bdc9c8f1`. Siguiente ficha: Casa Goia.
+
+## Continuación 21/11/2026 — cierre de rutas de Hospedaje FR privado
+
+- Nuevas rutas: Casa Goia (26 fotos), Casa Venti (34), Casa Ñata (18), Casa Cândida (11) y Estudio 1/1.
+- Las cuatro casas conservan todas sus fotos Hostinger y pasan QA estático de francés, datos, servicios, galería, SEO, navegación y WhatsApp.
+- Estudio 1/1 traduce íntegramente la fuente limitada para dos personas y conserva su imagen social, sin inventar ubicación detallada, prestaciones, precio ni disponibilidad.
+- Todas las subrutas HTML de Hospedaje presentes en producción tienen ahora equivalente FR privado/noindex.
+- No hubo build, sincronización Hostinger ni publicación HTTP. Punto remoto previo al registro: `aef688e193e0537afe76c3133a77ae8144a8f2dd`.
