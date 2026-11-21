@@ -255,3 +255,16 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Publicaciones visibles nuevas de este sublote: **1 página**. Acumulado de esta ejecución: **3 páginas visibles nuevas** (`/fr/hospedaje/805/`, `/fr/guia/guarda-equipaje/`, `/fr/hospedaje/605/`). Publicaciones indexables nuevas: **0**, porque las tres conservan `noindex,nofollow`.
 - Estado PT/EN: PR #46 continúa sin desplegar; no se ejecutó ningún modo de build ni se tocó el límite protegido de seis páginas.
 - Siguiente paso exacto: cerrar primero este checkpoint remoto; después seleccionar AP 1008, ya terminada en la rama de continuación, y repetir el mismo PR mínimo/QA/pull `/fr/` solo si preserva íntegramente fotos y canonical. Transporte privado sigue bloqueado por ausencia de fuente FR en PR #48.
+
+
+## Cuarta publicación FR visible en Hostinger — 21-11-2026
+
+- PR #54 fusionado: `17d0a7e874cd2201a504a01f3d03dd7898a6c4eb`. Alcance: `hospedaje/1008/index.html`, ruta `fr/hospedaje/1008/` en `fr-home.js` y tarjeta AP 1008 en `hospedaje/index.html`.
+- El sublote estaba 3 commits por delante y 0 por detrás; no sincronizó el PR #48 completo y no cambió CSS, fotos, HTML español, sitemap o raíz.
+- QA aislado Hostinger: escritorio en `/fr-qa-ap1008-20261121/` y móvil 390×844 en `/fr-qa-ap1008-mobile-20261121/`. Se verificaron H1, texto francés, métricas, hero, navegación, WhatsApp y galería `Photo 1 / 15`; el móvil no presentó corte lateral.
+- Hostinger producción: pull Git exclusivo de `release/fr-public-initial-20261115` en `/fr/`; no hubo build ni Composer.
+- HTTP real verificado: `https://www.ernestinhocarioca.com.br/fr/hospedaje/1008/` muestra H1 `AP 1008`, contenido francés completo, canonical FR, `noindex,nofollow`, navegación y galería activa de 15 fotos. La portada Hospedaje apunta ahora a la ficha FR con CTA `VOIR LE LOGEMENT`.
+- Revisión: PR #54 con 0 revisiones; publicación bajo autorización directa del propietario del 21-11-2026, sin afirmar revisión independiente.
+- Publicaciones visibles nuevas de este sublote: **1 página**. Acumulado de esta ejecución: **4 páginas visibles nuevas** (`/fr/hospedaje/805/`, `/fr/guia/guarda-equipaje/`, `/fr/hospedaje/605/`, `/fr/hospedaje/1008/`). Publicaciones indexables nuevas: **0** por `noindex,nofollow`.
+- Estado PT/EN: PR #46 no fue fusionado ni desplegado; no se ejecutó build parcial ni total.
+- Siguiente paso exacto: AP 54 es el siguiente alojamiento prioritario del propietario. Antes de publicarlo: confirmar fuente FR ya completa, canonical/noindex, igualdad de fotos contra ES, PR mínimo de tres archivos, QA 390/1440 y pull exclusivo `/fr/`. Transporte privado continúa pendiente por ausencia de fuente FR completa en PR #48.
