@@ -212,3 +212,9 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - Estudio 1/1 traduce íntegramente la fuente limitada para dos personas y conserva su imagen social, sin inventar ubicación detallada, prestaciones, precio ni disponibilidad.
 - Todas las subrutas HTML de Hospedaje presentes en producción tienen ahora equivalente FR privado/noindex.
 - No hubo build, sincronización Hostinger ni publicación HTTP. Punto remoto previo al registro: `aef688e193e0537afe76c3133a77ae8144a8f2dd`.
+
+### QA visual pendiente y siguiente sección
+
+- La vista local aislada se sirvió sin build, pero Chromium no pudo crear su socket (`Operation not permitted`) y abortó antes de generar capturas 390/1440.
+- No se desplegó ni se marcó el QA visual como aprobado.
+- Siguiente sublote: portada de Tours/Experiencias y `cristo-city-tour`, `full-day-rio`, `buzios`, `arraial-do-cabo`, `angra-ilha-grande`, todos privados/noindex hasta revisión.
