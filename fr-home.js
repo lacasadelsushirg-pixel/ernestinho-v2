@@ -77,7 +77,9 @@ function localize(){
   "fr/hospedaje/venti/",
   "fr/hospedaje/nata/",
   "fr/hospedaje/casa-candida/",
-  "fr/hospedaje/estudio-1-1/"
+  "fr/hospedaje/estudio-1-1/",
+  "fr/experiencias/",
+  "fr/experiencias/cristo-city-tour/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
