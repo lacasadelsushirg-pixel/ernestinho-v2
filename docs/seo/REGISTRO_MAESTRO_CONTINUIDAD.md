@@ -34,6 +34,8 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 | `/fr/experiencias/cristo-city-tour/` | intacto | intacto | intacto | ficha completa, 5 paradas, inclusiones, condiciones, tarifas y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
 | `/fr/experiencias/buzios/` | intacto | intacto | intacto | ficha completa, 4 etapas, inclusiones, condiciones marítimas, tarifa y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
 | `/fr/experiencias/full-day-rio/` | intacto | intacto | intacto | ficha completa, 8 etapas, inclusiones, condiciones, formulario y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
+| `/fr/experiencias/arraial-do-cabo/` | intacto | intacto | intacto | ficha completa, 3 paradas, condiciones marítimas, formulario y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
+| `/fr/experiencias/angra-ilha-grande/` | intacto | intacto | intacto | ficha completa, 4 paradas, condiciones marítimas, formulario y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
 
 ## Pruebas y decisiones
 
@@ -124,3 +126,12 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - QA estático aprobado: HTML/SEO FR, cinco hreflang, JSON-LD, noindex, imágenes preservadas y renderer trilingüe excluido. `fr-home.js` reconoce la ruta después de existir su HTML.
 - Punto remoto de código antes de este registro: `8e53ed60318fccbb8fa34d5becf316618665089c`. Sin build, Hostinger, sitemap ni publicación HTTP; nuevas publicaciones: **0**.
 - Reanudación exacta actualizada: `/fr/experiencias/arraial-do-cabo/`, luego `/fr/experiencias/angra-ilha-grande/`.
+
+## Checkpoint durable — excursiones marítimas FR 21-11-2026
+
+- Se completaron `/fr/experiencias/arraial-do-cabo/` y `/fr/experiencias/angra-ilha-grande/` desde el HTML vigente de producción, sin modificar sus fuentes ES/PT-BR/EN.
+- Arraial conserva 6/6 recursos gráficos, tres paradas, tarifa de baja temporada, tasas indicadas, restricciones de desembarco, condiciones, formulario y WhatsApp en francés.
+- Angra conserva 7/7 recursos gráficos, cuatro paradas, tarifa de baja temporada, tasa marítima, condiciones, formulario y WhatsApp en francés.
+- Ambas rutas pasaron QA estático de francés visible, `lang=fr`, noindex, canonical, cinco hreflang, JSON-LD, navegación y exclusión del renderer trilingüe. `fr-home.js` solo las reconoce después de existir sus HTML.
+- Punto remoto de código antes de este registro: `f988551583f15ae9f2d3be07eea2309af8e640d6`. No hubo build, cambio de sitemap, sincronización Hostinger ni publicación HTTP. Publicaciones nuevas: **0**.
+- Reanudación exacta: continuar por las siguientes fichas de la portada de Experiencias, empezando por `rio-samba-bus` y `carnaval-experience`, siempre privadas/noindex hasta QA visual y revisión humana.
