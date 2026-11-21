@@ -314,3 +314,16 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Publicaciones visibles nuevas de esta ejecución: **2 páginas** (AP 702 y AP 217). Indexables nuevas: **0**.
 - Estado PT/EN: PR #46 sigue sin fusionar ni desplegar; 0 builds ejecutados.
 - Siguiente paso exacto: evaluar AP 1221 ya terminada con el mismo alcance mínimo, QA 390/1440, pull solo `/fr/` y verificación HTTP.
+
+
+## Publicación FR AP 1221 visible en Hostinger — 21-11-2026
+
+- PR #58 fusionado: `5eb13025b1b4678ec2ca02cda7e92405229d79f6`. Alcance: ficha AP 1221, una ruta en `fr-home.js` y su tarjeta en Hospedaje; 3 commits, 0 atrasados, 3 archivos.
+- Sin PR #48 completo ni cambios en CSS, fotos, HTML español, sitemap o raíz.
+- QA Hostinger aislado: escritorio `/fr-qa-ap1221-20261121/` y móvil `/fr-qa-ap1221-mobile-20261121/`. El documento interno móvil midió 375 px de ancho y 375 px de scroll, sin overflow; contenido entre 20–355 px.
+- Hostinger producción: pull Git exclusivo en `public_html/fr`; 0 builds.
+- HTTP real verificado: `https://www.ernestinhocarioca.com.br/fr/hospedaje/1221/`; canonical FR, `noindex,nofollow`, galería `Photo 1 / 25`, **0 imágenes rotas** y **0 overflow**.
+- Revisión: PR #58 con 0 revisiones; autorización directa vigente del propietario, sin afirmar revisión independiente.
+- Publicaciones visibles nuevas de esta ejecución: **3 páginas** (AP 702, AP 217 y AP 1221). Indexables nuevas: **0**.
+- Estado PT/EN: PR #46 sigue sin fusionar/desplegar y no se ejecutó build.
+- Siguiente paso exacto: evaluar AP 1015 ya terminada con PR mínimo, QA 390/1440 y pull solo `/fr/`.
