@@ -22,6 +22,9 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 | `/fr/hospedaje/54/` | intacto | intacto | intacto | texto completo, 8 servicios, WhatsApp FR y galería interactiva de 21 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 | `/fr/hospedaje/702/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 8 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 | `/fr/hospedaje/217/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 17 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
+| `/fr/hospedaje/1221/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 25 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
+| `/fr/hospedaje/1015/` | intacto | intacto | intacto | ficha completa, 10 servicios, WhatsApp FR y galería interactiva de 17 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
+| `/fr/hospedaje/621/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 16 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 
 ## Pruebas y decisiones
 
@@ -45,14 +48,17 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - QA estático AP 702: 8/8 fotografías Hostinger, carrusel/contador/alt FR, texto sin residuos españoles, noindex, canonical, hreflang, JSON-LD, navegación y WhatsApp confirmados.
 - AP 217 se preparó desde el HTML ES vigente: capacidad para 2, una habitación, una cama, baño y 8 servicios localizados íntegramente.
 - QA estático AP 217: 17/17 fotografías Hostinger, carrusel/contador/alt FR, francés completo, noindex, canonical, hreflang, JSON-LD, navegación y WhatsApp confirmados.
+- AP 1221 conserva las 25 fotografías Hostinger del inventario vigente, capacidad para 4, dos camas, vista al Cristo, cocina y lavadora; QA estático de francés, galería, SEO, navegación y WhatsApp aprobado.
+- AP 1015 conserva las 17 fotografías Hostinger, capacidad para 4, formato estudio y sus 10 servicios; QA estático de francés, galería, SEO, navegación y WhatsApp aprobado.
+- AP 621 conserva las 16 fotografías Hostinger, capacidad para 2 y sus 8 servicios; QA estático de francés, galería, SEO, navegación y WhatsApp aprobado.
 - No se ejecutó `npm run build`, `hosting_deploy` ni se modificó la raíz de `public_html`.
 
 ## Bloqueos y siguiente paso exacto
 
-1. Obtener capturas 390/1440 y revisión humana de Guarda equipaje, AP 805, AP 605, AP 1008, AP 54, AP 702 y AP 217, incluidos carruseles, botones, contadores y fotografías.
+1. Obtener capturas 390/1440 y revisión humana de Guarda equipaje y las nueve fichas privadas de Hospedaje (805, 605, 1008, 54, 702, 217, 1221, 1015 y 621), incluidos carruseles, botones, contadores y fotografías.
 2. Tras aprobación, avanzar la rama FR vinculada mediante fast-forward y sincronizar únicamente `directory=fr`.
 3. Verificar por HTTP las tres rutas, contenido, imágenes aprobadas, canonical, noindex, navegación, carrusel y WhatsApp.
-4. Continuar Hospedaje con AP 1221, siguiente ficha libre en el orden de navegación, conservando íntegramente su galería Hostinger.
+4. Continuar Hospedaje con Casa Goia, siguiente ficha libre en el orden de navegación, conservando íntegramente su galería Hostinger.
 5. No publicar `/fr/transportes/transporte-privado/` hasta confirmar tarifas posteriores al 31/10/2026, integrar formulario/WhatsApp FR y disponer de los dos banners FR aprobados.
 6. No fusionar ni sincronizar PR #48 hasta completar QA visual 390/1440 y revisión humana; páginas públicas nuevas de esta ejecución: **0**.
 
@@ -64,3 +70,12 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - PR #46 continúa abierto, mergeable y sin revisiones; no se fusionó ni desplegó.
 - HTTP público de las rutas nuevas no pudo verificarse y no hubo sincronización Hostinger. Publicaciones nuevas: **0**.
 - Reanudación exacta: AP 1221 desde el HTML ES vigente y su inventario Hostinger; mantener FR privado/noindex.
+
+## Checkpoint durable — sublote Hospedaje 20-11-2026 (continuación)
+
+- Nuevas fichas privadas completas: AP 1221 (25 fotos), AP 1015 (17 fotos) y AP 621 (16 fotos).
+- Cada ruta tiene francés editorial completo, canonical y hreflang ES/PT-BR/EN/FR, JSON-LD `fr`, navegación interna FR, WhatsApp específico, carrusel local y `noindex,nofollow`; ninguna fue añadida al sitemap.
+- `fr-home.js` reconoce cada ruta solamente después de existir su HTML real.
+- No se ejecutó build, no se tocó `public_html`, no hubo despliegue ni verificación HTTP pública. Publicaciones nuevas: **0**.
+- Punto remoto antes de guardar este registro: `72b2b555598f8e61a7234b3ce05008f0bdc9c8f1`.
+- Reanudación exacta: Casa Goia; después Casa Venti y Casa Ñata. Mantener FR privado/noindex hasta QA visual y revisión humana.
