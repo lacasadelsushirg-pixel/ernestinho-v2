@@ -55,3 +55,12 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 4. Continuar Hospedaje con AP 1221, siguiente ficha libre en el orden de navegación, conservando íntegramente su galería Hostinger.
 5. No publicar `/fr/transportes/transporte-privado/` hasta confirmar tarifas posteriores al 31/10/2026, integrar formulario/WhatsApp FR y disponer de los dos banners FR aprobados.
 6. No fusionar ni sincronizar PR #48 hasta completar QA visual 390/1440 y revisión humana; páginas públicas nuevas de esta ejecución: **0**.
+
+## Checkpoint durable — cierre de sublote 20-11-2026
+
+- PR #48, HEAD remoto previo a este registro: `4e3e4a1476f0cb4ef37f6b6b2872468547bac27f`.
+- Nuevas correcciones de esta ejecución: AP 54 pasó de 1 a 21 fotos aprobadas; nuevas fichas completas AP 702 (8 fotos) y AP 217 (17 fotos).
+- Producción verificada: `2dce60064291de24ee325a46beacde2f4749e452`.
+- PR #46 continúa abierto, mergeable y sin revisiones; no se fusionó ni desplegó.
+- HTTP público de las rutas nuevas no pudo verificarse y no hubo sincronización Hostinger. Publicaciones nuevas: **0**.
+- Reanudación exacta: AP 1221 desde el HTML ES vigente y su inventario Hostinger; mantener FR privado/noindex.
