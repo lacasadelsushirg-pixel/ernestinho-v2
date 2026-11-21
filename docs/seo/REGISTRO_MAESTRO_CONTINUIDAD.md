@@ -162,3 +162,15 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Punto remoto de código antes de este registro: `9b3b3d10f11b2adcb3f0afc5348073c3b1497b11`.
 - QA visual 390/1440 sigue bloqueado en este entorno; requiere navegador operativo y revisión humana independiente.
 - Siguiente paso exacto: `/fr/experiencias/rapel/`, luego `/fr/experiencias/ala-delta/`; no sincronizar `/fr/` hasta cerrar QA visual y tarifas.
+
+## Checkpoint durable — Rappel y Ala delta FR 21-11-2026
+
+| Ruta | Estado real | Cobertura y bloqueo |
+|---|---|---|
+| `/fr/experiencias/rapel/` | PR privado, noindex; no publicado | Traducción fiel del original limitado; 4/4 fotos y SEO privado comprobados. Sin inventar datos faltantes; requiere revisión editorial antes de publicar. |
+| `/fr/experiencias/ala-delta/` | PR privado, noindex; no publicado | Francés completo, 7/7 recursos, formulario/WhatsApp, canonical, cinco hreflang y JSON-LD. Tarifas R$1.350 y cámaras pendientes de confirmación comercial. |
+
+- Pruebas: igualdad exacta de imágenes contra producción `2dce600`, ausencia de residuos ES visibles, exclusión de `site.js`, `node --check fr-home.js` y `git diff --check`.
+- Punto remoto anterior al sublote: `0450f75355775d79f1d6eb0411e0233cccc32afc`.
+- Sin build, cambio de sitemap, Hostinger ni verificación HTTP. Publicaciones nuevas: **0**.
+- Siguiente paso exacto: `/fr/experiencias/maracana-matchday/`; mantener todo noindex hasta QA visual, tarifas y revisión humana.
