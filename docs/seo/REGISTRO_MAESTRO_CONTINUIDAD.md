@@ -300,3 +300,17 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Publicaciones visibles nuevas de esta ejecución: **1 página**. Publicaciones indexables nuevas: **0** por `noindex,nofollow`.
 - Estado PT/EN: PR #46 no fue fusionado ni desplegado; no se ejecutó build parcial ni total.
 - Siguiente paso exacto: evaluar AP 217 ya terminada con el mismo sublote mínimo de tres archivos, QA 390/1440, pull exclusivo `/fr/` y verificación HTTP. Transporte privado sigue bloqueado por falta de fuente FR completa en PR #48.
+
+
+## Publicación FR AP 217 visible en Hostinger — 21-11-2026
+
+- PR #57 fusionado: `9d46c198e1d9ef599dc1f08b2a27a35e41a5fa18`. Alcance: `hospedaje/217/index.html`, ruta `fr/hospedaje/217/` en `fr-home.js` y tarjeta AP 217 en `hospedaje/index.html`.
+- Git: 3 commits por delante, 0 por detrás; 3 archivos. Sin PR #48 completo ni cambios en CSS, fotos, HTML español, sitemap o raíz.
+- QA Hostinger aislado: escritorio en `/fr-qa-ap217-20261121/` y móvil 390×844 en `/fr-qa-ap217-mobile-20261121/`; contenido francés, métricas, galería `Photo 1 / 17`, WhatsApp y ausencia de overflow comprobados.
+- El logo absoluto no carga dentro del prefijo del clon QA, como en los sublotes anteriores; producción resolvió el recurso aprobado desde la raíz y quedó con **0 imágenes rotas**.
+- Hostinger producción: pull Git exclusivo en `public_html/fr`, sin build ni Composer.
+- HTTP real verificado: `https://www.ernestinhocarioca.com.br/fr/hospedaje/217/`; canonical FR, `noindex,nofollow`, navegación, galería activa, **0 imágenes rotas** y **0 overflow**.
+- Revisión: PR #57 con 0 revisiones; autorización directa vigente del propietario, registrada sin fingir aprobación independiente.
+- Publicaciones visibles nuevas de esta ejecución: **2 páginas** (AP 702 y AP 217). Indexables nuevas: **0**.
+- Estado PT/EN: PR #46 sigue sin fusionar ni desplegar; 0 builds ejecutados.
+- Siguiente paso exacto: evaluar AP 1221 ya terminada con el mismo alcance mínimo, QA 390/1440, pull solo `/fr/` y verificación HTTP.
