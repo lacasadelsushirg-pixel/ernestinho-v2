@@ -165,6 +165,13 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - SEO privado completo (`noindex,nofollow`, canonical, hreflang ES/PT-BR/EN/FR, JSON-LD FR); sin sitemap.
 - QA estático sin fragmentos españoles; QA visual y HTTP pendientes, por lo que no cuenta como publicada.
 
+## Continuación 20/11/2026 — conciliación completa AP 54 FR
+
+- Se preservó la ficha francesa concurrente `/fr/hospedaje/54/` y se reemplazó únicamente su galería provisional de una foto por las 21 rutas Hostinger aprobadas del inventario vigente.
+- Carrusel local completo con controles, contador y alt franceses; no se cargan los renderizadores trilingües.
+- QA estático: 21/21 fotografías, texto sin residuos españoles, `lang=fr`, noindex, canonical, hreflang, JSON-LD, navegación y WhatsApp FR.
+- No se modificaron originales ES/PT-BR/EN, CSS compartido, sitemap ni fotografías. Sigue pendiente QA visual 390/1440 y no se considera publicada.
+
 ### Garantías de seguridad
 
 - Solo se hicieron commits en rama `release/fr-public-initial-20261115` y sincronizaciones Git de Hostinger con `directory=fr`.
