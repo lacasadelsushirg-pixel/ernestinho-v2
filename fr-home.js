@@ -88,7 +88,9 @@ function localize(){
   "fr/experiencias/carnaval-experience/",
   "fr/experiencias/vuelo-en-parapente/",
   "fr/experiencias/parasail/",
-  "fr/experiencias/paracaidas/"
+  "fr/experiencias/paracaidas/",
+  "fr/experiencias/rapel/",
+  "fr/experiencias/ala-delta/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
