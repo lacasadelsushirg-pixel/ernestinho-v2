@@ -174,3 +174,15 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Punto remoto anterior al sublote: `0450f75355775d79f1d6eb0411e0233cccc32afc`.
 - Sin build, cambio de sitemap, Hostinger ni verificación HTTP. Publicaciones nuevas: **0**.
 - Siguiente paso exacto: `/fr/experiencias/maracana-matchday/`; mantener todo noindex hasta QA visual, tarifas y revisión humana.
+
+## Checkpoint durable — Rocinha FR 21-11-2026
+
+| Ruta | Estado real | Cobertura y bloqueo |
+|---|---|---|
+| `/fr/experiencias/rocinha/` | PR privado, noindex; no publicado | Francés completo; 13/13 imágenes, Instagram, cinco etapas, inclusiones, drone, formulario/WhatsApp y SEO privado comprobados. R$170 pendiente de confirmación comercial. |
+
+- No se inventó la tarifa del drone ni se cambiaron fuentes ES/PT-BR/EN, imágenes, CSS o sitemap.
+- QA: igualdad exacta de imágenes contra `2dce600`, ausencia de residuos ES visibles, canonical, cinco hreflang, JSON-LD, exclusión de `site.js`, `node --check` y `git diff --check`.
+- Se corrigió el siguiente paso tras comprobar la portada vigente: después de Rocinha siguen `santa-marta` y `vidigal`; no `maracana-matchday`.
+- Punto remoto anterior: `b88787597f967bd96184b07c6ef511f7500633a9`. Sin build, Hostinger ni HTTP público; publicaciones nuevas: **0**.
+- Siguiente paso exacto: `/fr/experiencias/santa-marta/`, luego `/fr/experiencias/vidigal/`.
