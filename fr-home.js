@@ -68,7 +68,8 @@ function localize(){
   "fr/hospedaje/805/",
   "fr/hospedaje/605/",
   "fr/hospedaje/1008/",
-  "fr/hospedaje/54/"
+  "fr/hospedaje/54/",
+  "fr/hospedaje/702/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
