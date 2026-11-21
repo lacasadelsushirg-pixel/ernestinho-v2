@@ -80,7 +80,8 @@ function localize(){
   "fr/hospedaje/estudio-1-1/",
   "fr/experiencias/",
   "fr/experiencias/cristo-city-tour/",
-  "fr/experiencias/buzios/"
+  "fr/experiencias/buzios/",
+  "fr/experiencias/full-day-rio/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
