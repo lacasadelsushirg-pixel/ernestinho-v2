@@ -213,3 +213,17 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - GitHub rechazó solicitar revisión a `patagoniavivapuq-netizen` con HTTP 422 porque no es colaborador. No se simuló ni se emitió aprobación desde ninguna cuenta vinculada.
 - Publicaciones nuevas verificadas: **0**.
 - Bloqueo único restante: obtener `APPROVED` real de un colaborador humano independiente en el PR #49. Después: fusionar, pull puntual de `release/fr-public-initial-20261115` únicamente en Hostinger `/fr/` y verificación HTTP de la canonical y la fotografía.
+
+
+## Primera publicación FR visible en Hostinger — 21-11-2026
+
+- El propietario autorizó directamente la publicación tras más de dos semanas sin entregas visibles. Se registró la excepción sin afirmar una revisión independiente inexistente.
+- PR #49 fusionado: `a9a571c3c4129b1696e002c314c26bbe234782de`. Publica `/fr/hospedaje/805/` y registra la ruta en `fr-home.js`.
+- PR #50 fusionado: `16083c89f90d2929585891a013d7333103645168`. Corrige únicamente la tarjeta AP 805 de la portada de Hospedaje.
+- PR #51 fusionado: `40e44ec2245622e8545672e4c8fba31533a4689d`. Fuerza la sincronización física del router y renueva su clave de caché.
+- Hostinger: pull exclusivo de `release/fr-public-initial-20261115` en el directorio enlazado `/fr/`; sin build, sin `hosting_deploy` general y sin modificación de `public_html` raíz.
+- HTTP real verificado: `https://www.ernestinhocarioca.com.br/fr/hospedaje/805/` carga título/H1 y contenido francés completos, canonical FR, `noindex,nofollow`, logo 192×192 y fotografía AP 805 1254×1254; 0 imágenes rotas y 0 desbordamiento horizontal a 1363 px.
+- Navegación verificada: la tarjeta AP 805 en `/fr/hospedaje/` enlaza a `/fr/hospedaje/805/`, sin pestaña externa y con CTA `VOIR LE LOGEMENT`.
+- Publicaciones visibles nuevas: **1 página**. Publicaciones indexables nuevas: **0**, porque la página conserva `noindex,nofollow`.
+- Estado de PT/EN: PR #46 no se fusionó ni desplegó; mantiene su gate independiente y el límite de 6 páginas.
+- Siguiente paso exacto: mantener detenido el lote amplio PR #48; seleccionar la siguiente página FR ya terminada y comercialmente estable en un PR mínimo sobre la rama Hostinger, repetir QA y publicación puntual sin build.
