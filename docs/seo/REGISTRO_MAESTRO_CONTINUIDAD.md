@@ -327,3 +327,16 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Publicaciones visibles nuevas de esta ejecución: **3 páginas** (AP 702, AP 217 y AP 1221). Indexables nuevas: **0**.
 - Estado PT/EN: PR #46 sigue sin fusionar/desplegar y no se ejecutó build.
 - Siguiente paso exacto: evaluar AP 1015 ya terminada con PR mínimo, QA 390/1440 y pull solo `/fr/`.
+
+
+## Publicación FR AP 1015 visible en Hostinger — 21-11-2026
+
+- PR #59 fusionado: `e63e07e2089d3286d1c2fb527c99e2944450f280`. Alcance exacto: `hospedaje/1015/index.html`, ruta `fr/hospedaje/1015/` en `fr-home.js` y tarjeta AP 1015 en `hospedaje/index.html`; 3 commits, 0 atrasados, 3 archivos.
+- Sin sincronizar PR #48 completo y sin cambios en CSS, fotos, HTML español, sitemap ni raíz pública.
+- QA Hostinger aislado: escritorio `/fr-qa-ap1015-20261121/` y móvil `/fr-qa-ap1015-mobile-20261121/`. Documento móvil: 375 px de ancho y 375 px de scroll, **sin overflow**; canonical y robots correctos. El logo absoluto roto dentro del prefijo QA es esperado; en producción quedó resuelto.
+- Hostinger producción: pull Git exclusivo en `public_html/fr`; **0 builds** y ningún cambio en `public_html` raíz.
+- HTTP real verificado: `https://www.ernestinhocarioca.com.br/fr/hospedaje/1015/`; canonical FR, `noindex,nofollow`, 5 hreflang, galería `Photo 1 / 17`, **0 imágenes rotas** y **0 overflow**.
+- Revisión: PR #59 registró 0 revisiones; autorización directa vigente del propietario, sin fingir aprobación independiente. GitHub confirmó mergeable y aceptó la fusión sin saltar gates.
+- Publicaciones visibles nuevas de esta ejecución: **4 páginas** (AP 702, AP 217, AP 1221 y AP 1015). Indexables nuevas: **0**, porque las rutas FR permanecen privadas para buscadores.
+- Estado PT/EN: PR #46 sigue sin fusionar ni desplegar; no se ejecutó build parcial ni total.
+- Siguiente paso exacto: continuar con AP 621 como quinto sublote mínimo (ficha, ruta y tarjeta), QA escritorio/390 px, PR puntual, pull exclusivo `/fr` y verificación HTTP; si no está completa, detener y reportar el bloqueo sin crear traducciones nuevas.
