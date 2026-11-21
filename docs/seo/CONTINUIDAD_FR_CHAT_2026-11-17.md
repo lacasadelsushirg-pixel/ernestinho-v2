@@ -123,6 +123,71 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 6. Portugués e inglés: mejoras guardadas en producción GitHub pero no visibles; el PR #45 del compilador incremental continúa pendiente de revisión humana independiente. No reconstruir la web completa. Verificar 3.588 URL indexables y ausencia de regresiones antes de desplegar.
 7. No indexar FR hasta resolver integridad editorial, menús, fotos, canonical/hreflang recíproco y QA móvil/escritorio.
 
+---
+
+## Continuación 20/11/2026 — Guarda equipaje FR
+
+- Fuente reconciliada: página ES actual y las 66 entradas FR del PR #25.
+- Nueva ruta preparada: `/fr/guia/guarda-equipaje/` (`guia/guarda-equipaje/index.html`).
+- Cobertura: 12 bloques editoriales, 6 preguntas frecuentes, flujo de 5 pasos, canonical y hreflang ES/PT/EN/FR.
+- SEO: `noindex,nofollow`; no se añadió al sitemap.
+- Afiliación Bounce conservada mediante enlace funcional y disclosure FR. Los tres banners disponibles contienen texto ES/PT/EN y no existe versión FR aprobada; se omitieron del cuerpo para no mostrar español como francés ni inventar imágenes.
+- `fr-home.js` reconoce la ruta solamente después de existir el HTML real.
+- Hostinger confirmó antes del cambio que `fr/guia/guarda-equipaje` no existía. No se ejecutó build ni despliegue raíz.
+- QA pendiente antes de sincronizar a Hostinger: capturas 390/1440, verificación visual y aprobación humana del tratamiento sin banners FR.
+- Transporte privado sigue bloqueado para publicación por tarifas vencidas al 31/10/2026, dos banners FR ausentes y formulario sin integración FR segura. No se inventaron tarifas.
+
+## Continuación 20/11/2026 — Hospedaje AP 805 FR
+
+- Nueva ficha preparada: `/fr/hospedaje/805/` (`hospedaje/805/index.html`).
+- Fuente: HTML ES vigente de producción. El original ES y las versiones PT-BR/EN no se editaron.
+- Cobertura editorial completa: metadatos, introducción, capacidad para 5 personas, distribución de camas, ubicación, 8 servicios, recomendación, consejo, galería, consulta y WhatsApp en francés.
+- La fuente vigente solo asigna una fotografía aprobada a AP 805. Esa misma URL se conserva sin cambio en hero y galería; no se inventó ni sustituyó material.
+- SEO privado: canonical FR, hreflang ES/PT-BR/EN/FR, JSON-LD francés y `noindex,nofollow`; fuera del sitemap.
+- Se retiró de esta ficha la inicialización de `site.js`/`hospedaje.js` porque esos renderizadores trilingües sobrescribirían el francés. La ficha carga únicamente `fr-home.js` y la ruta se añadió a `readyRoutes` después de crear el HTML.
+- QA estático aprobado: sin fragmentos españoles visibles, enlaces internos FR, WhatsApp FR, fotografía coincidente con la fuente, robots/canonical/hreflang correctos.
+- QA visual 390/1440 y sincronización puntual de la carpeta FR siguen pendientes; por ello no cuenta como publicada ni indexable.
+
+## Continuación 20/11/2026 — Hospedaje AP 605 FR
+
+- Nueva ficha preparada: `/fr/hospedaje/605/`, basada en el HTML ES vigente sin modificar ES/PT-BR/EN.
+- Cobertura completa: metadatos, capacidad para 4 personas, habitación/camas/baño, ubicación, 8 servicios, recomendación, consejo, consulta y WhatsApp específico en francés.
+- Galería funcional de 24 fotografías aprobadas tomadas del inventario vigente `assets/js/data/lodging.js`; se conservaron todas las rutas Hostinger y se añadieron controles, contador y alt franceses sin cambiar imágenes.
+- La ficha no carga `site.js`/`hospedaje.js`; su carrusel local evita la sobrescritura trilingüe y `fr-home.js` conserva ahora los mensajes WhatsApp ya franceses.
+- SEO privado: canonical FR, hreflang ES/PT-BR/EN/FR, JSON-LD FR, `noindex,nofollow`, fuera del sitemap.
+- QA estático aprobado sin residuos españoles; QA visual 390/1440 y HTTP público siguen pendientes, por lo que no cuenta como publicada.
+
+## Continuación 20/11/2026 — Hospedaje AP 1008 FR
+
+- Nueva ficha preparada: `/fr/hospedaje/1008/`, derivada del HTML ES vigente sin editar los idiomas existentes.
+- Cobertura completa: metadatos, capacidad para 6 personas, dos habitaciones, tres camas, baño, ubicación a 50 m de la playa, 8 servicios, recomendación, consejo y WhatsApp en francés.
+- Galería local funcional con las 15 fotografías Hostinger aprobadas del inventario vigente, controles, contador y alt franceses.
+- SEO privado completo (`noindex,nofollow`, canonical, hreflang ES/PT-BR/EN/FR, JSON-LD FR); sin sitemap.
+- QA estático sin fragmentos españoles; QA visual y HTTP pendientes, por lo que no cuenta como publicada.
+
+## Continuación 20/11/2026 — conciliación completa AP 54 FR
+
+- Se preservó la ficha francesa concurrente `/fr/hospedaje/54/` y se reemplazó únicamente su galería provisional de una foto por las 21 rutas Hostinger aprobadas del inventario vigente.
+- Carrusel local completo con controles, contador y alt franceses; no se cargan los renderizadores trilingües.
+- QA estático: 21/21 fotografías, texto sin residuos españoles, `lang=fr`, noindex, canonical, hreflang, JSON-LD, navegación y WhatsApp FR.
+- No se modificaron originales ES/PT-BR/EN, CSS compartido, sitemap ni fotografías. Sigue pendiente QA visual 390/1440 y no se considera publicada.
+
+## Continuación 20/11/2026 — Hospedaje AP 702 FR
+
+- Nueva ficha privada `/fr/hospedaje/702/`, traducida íntegramente desde la fuente ES vigente.
+- Conserva capacidad para 4 personas, una habitación, dos camas, baño, ubicación a unos 100 m de la playa, 8 servicios, recomendación, consejo y WhatsApp específico en francés.
+- Galería funcional con las 8 fotografías Hostinger aprobadas, controles, contador y alt franceses.
+- Canonical, hreflang ES/PT-BR/EN/FR, JSON-LD FR y `noindex,nofollow`; no se modifica el sitemap.
+- QA estático completo; QA visual 390/1440 y HTTP público pendientes. No cuenta como publicada.
+
+## Continuación 20/11/2026 — Hospedaje AP 217 FR
+
+- Nueva ficha privada `/fr/hospedaje/217/`, basada en la fuente ES vigente y sin editar idiomas existentes.
+- Cobertura completa para dos viajeros: una habitación, una cama, baño, ubicación a unos 100 m de la playa, 8 servicios, recomendación, consejo y WhatsApp FR.
+- Galería interactiva con las 17 fotografías Hostinger aprobadas, controles, contador y alt franceses.
+- Canonical, hreflang ES/PT-BR/EN/FR, JSON-LD FR y `noindex,nofollow`; fuera del sitemap.
+- QA estático completo; QA visual y HTTP pendientes. No cuenta como publicada.
+
 ### Garantías de seguridad
 
 - Solo se hicieron commits en rama `release/fr-public-initial-20261115` y sincronizaciones Git de Hostinger con `directory=fr`.
@@ -130,3 +195,61 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - Los originales ES/PT/EN, URLs de fotografías existentes, el sitemap y el manifiesto SEO de producción no se editaron.
 - El despliegue Git al directorio FR devolvió `is_success=true` y `working tree clean`.
 - El contenido está preparado/servido en Hostinger, pero la validación visual completa y HTTP de navegador externo queda pendiente.
+
+## Continuación 20/11/2026 — sublote AP 1221, AP 1015 y AP 621
+
+- Se añadieron tres fichas francesas privadas completas: AP 1221 (25 fotos Hostinger), AP 1015 (17) y AP 621 (16).
+- Todas incluyen contenido editorial completo, datos vigentes, servicios, galería local, navegación FR, WhatsApp específico, canonical, cinco alternates, JSON-LD `fr` y `noindex,nofollow`.
+- `fr-home.js` reconoce cada ruta únicamente después de existir su HTML real.
+- QA estático aprobado para las tres: recuento exacto de fotos, ausencia de residuos ES, renderizadores trilingües excluidos y controles del carrusel presentes.
+- Corrección de estado para este sublote: no se realizó sincronización Hostinger, no se ejecutó build y no hay verificación HTTP pública. Páginas nuevas publicadas: **0**.
+- Punto remoto previo al registro: `72b2b555598f8e61a7234b3ce05008f0bdc9c8f1`. Siguiente ficha: Casa Goia.
+
+## Continuación 21/11/2026 — cierre de rutas de Hospedaje FR privado
+
+- Nuevas rutas: Casa Goia (26 fotos), Casa Venti (34), Casa Ñata (18), Casa Cândida (11) y Estudio 1/1.
+- Las cuatro casas conservan todas sus fotos Hostinger y pasan QA estático de francés, datos, servicios, galería, SEO, navegación y WhatsApp.
+- Estudio 1/1 traduce íntegramente la fuente limitada para dos personas y conserva su imagen social, sin inventar ubicación detallada, prestaciones, precio ni disponibilidad.
+- Todas las subrutas HTML de Hospedaje presentes en producción tienen ahora equivalente FR privado/noindex.
+- No hubo build, sincronización Hostinger ni publicación HTTP. Punto remoto previo al registro: `aef688e193e0537afe76c3133a77ae8144a8f2dd`.
+
+### QA visual pendiente y siguiente sección
+
+- La vista local aislada se sirvió sin build, pero Chromium no pudo crear su socket (`Operation not permitted`) y abortó antes de generar capturas 390/1440.
+- No se desplegó ni se marcó el QA visual como aprobado.
+- Siguiente sublote: portada de Tours/Experiencias y `cristo-city-tour`, `full-day-rio`, `buzios`, `arraial-do-cabo`, `angra-ilha-grande`, todos privados/noindex hasta revisión.
+
+## Continuación 21/11/2026 — inicio de Tours/Experiencias FR
+
+- Nuevas rutas privadas completas: `/fr/experiencias/`, `/fr/experiencias/cristo-city-tour/` y `/fr/experiencias/buzios/`.
+- La portada conserva las 26 experiencias, su organización por categorías, precios y enlaces de producción; se tradujo íntegramente la presentación y cada tarjeta.
+- Cristo + City Tour conserva sus cinco paradas, 8 recursos gráficos, tarifas R$230/R$250, inclusiones, condiciones y consulta WhatsApp en francés.
+- Búzios conserva sus cuatro etapas, 7 recursos gráficos, tarifa R$230 más tasa marítima, inclusiones y restricciones de navegación sin inventar datos.
+- Las tres rutas tienen canonical FR, cinco hreflang, JSON-LD `fr`, navegación francesa y `noindex,nofollow`; no se añadieron al sitemap ni cargan el renderer trilingüe.
+- `fr-home.js` reconoce las rutas solo después de existir el HTML. Punto remoto anterior al registro: `232d3cfc0f2204a69dd695bf33d224182e77083e`.
+- No se ejecutó build, no se sincronizó Hostinger y no se modificó `public_html`. Publicaciones nuevas: **0**.
+- QA visual 390/1440 y revisión humana continúan pendientes. Reanudar exactamente con `full-day-rio`, luego `arraial-do-cabo` y `angra-ilha-grande`.
+
+### Extensión: Full Day Río FR privado
+
+- Nueva ruta completa `/fr/experiencias/full-day-rio/`: ocho etapas, diez recursos gráficos conservados, inclusiones, condiciones prácticas, tarifa de la fuente, formulario y WhatsApp francés.
+- Canonical FR, cinco hreflang, JSON-LD `fr` y `noindex,nofollow`; sin sitemap ni renderer trilingüe.
+- Punto remoto previo al registro: `8e53ed60318fccbb8fa34d5becf316618665089c`. No hubo build, sincronización Hostinger ni publicación HTTP.
+- Reanudación exacta: `arraial-do-cabo`, después `angra-ilha-grande`.
+
+## Continuación 21/11/2026 — Arraial y Angra FR privados
+
+- Nuevas fichas completas: `/fr/experiencias/arraial-do-cabo/` y `/fr/experiencias/angra-ilha-grande/`.
+- Arraial conserva 6/6 recursos, tres paradas, tarifa/tasas, restricciones, formulario y WhatsApp francés. Angra conserva 7/7 recursos, cuatro paradas, tarifa/tasa marítima, condiciones, formulario y WhatsApp francés.
+- QA estático aprobado en ambas: contenido íntegro FR, canonical, cinco hreflang, JSON-LD, noindex, navegación y fotografías intactas.
+- `fr-home.js` reconoce ambas rutas después de existir. Punto remoto previo al registro: `f988551583f15ae9f2d3be07eea2309af8e640d6`.
+- No hubo build, Hostinger, sitemap ni HTTP público. Siguiente sublote exacto: `rio-samba-bus` y `carnaval-experience`.
+
+## Continuación 21/11/2026 — Rio Samba Bus y Carnaval Experience
+
+- Nuevas fichas privadas completas: `/fr/experiencias/rio-samba-bus/` y `/fr/experiencias/carnaval-experience/`.
+- Rio Samba Bus conserva 6 recursos, tres modalidades y sus cuatro enlaces/banners afiliados. Carnaval Experience conserva 23 recursos, galería, tres modalidades, cinco enlaces afiliados y disclosure/cupón de la fuente.
+- QA estático aprobado: francés completo, canonical, cinco hreflang, JSON-LD, noindex, navegación, fotografías y afiliación intactas.
+- La fuente de Carnaval Experience indica precios válidos solo hasta el 31/10/2026; la ficha no puede publicarse hasta verificar tarifas actuales. No se inventaron valores.
+- Punto remoto previo al registro: `87bf0014d35f2d0a1655075a45f47c925d616efa`. Sin build, Hostinger, sitemap ni publicación HTTP.
+- Reanudación exacta: `vuelo-en-parapente`; Carnaval Experience permanece privado/bloqueado por tarifas.
