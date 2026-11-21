@@ -90,7 +90,8 @@ function localize(){
   "fr/experiencias/parasail/",
   "fr/experiencias/paracaidas/",
   "fr/experiencias/rapel/",
-  "fr/experiencias/ala-delta/"
+  "fr/experiencias/ala-delta/",
+  "fr/experiencias/rocinha/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
