@@ -75,7 +75,8 @@ function localize(){
   "fr/hospedaje/621/",
   "fr/hospedaje/goia/",
   "fr/hospedaje/venti/",
-  "fr/hospedaje/nata/"
+  "fr/hospedaje/nata/",
+  "fr/hospedaje/casa-candida/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
