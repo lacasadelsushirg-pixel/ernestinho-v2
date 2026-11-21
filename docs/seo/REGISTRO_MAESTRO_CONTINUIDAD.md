@@ -95,3 +95,11 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - No se ejecutó build, no se tocó Hostinger ni el sitemap, y no hubo verificación HTTP pública. Publicaciones nuevas: **0**.
 - Punto remoto previo a este registro: `aef688e193e0537afe76c3133a77ae8144a8f2dd`.
 - Siguiente paso exacto: QA visual 390/1440 de Hospedaje; después avanzar a la siguiente sección prioritaria disponible, manteniendo Transporte privado bloqueado hasta tarifas, banners e interacciones aprobadas.
+
+### Intento de QA visual y continuación exacta
+
+- Se preparó una vista local aislada, sin build, combinando la rama FR con los recursos estáticos de producción.
+- Chromium abortó antes de abrir las páginas con `socket() failed: Operation not permitted`; por tanto no existen capturas válidas ni se considera aprobado el QA 390/1440.
+- No se desplegó para sortear el bloqueo y no se simuló aprobación visual.
+- La navegación real de Inicio ordena Guía, Tours/Experiencias, Transportes, Eventos, Hospedaje y Compras. Tras completar las prioridades especiales Guía → Transportes → Hospedaje, la siguiente sección pendiente es Tours/Experiencias.
+- Próximo sublote exacto: portada `/fr/experiencias/` y las primeras rutas enlazadas `cristo-city-tour`, `full-day-rio`, `buzios`, `arraial-do-cabo` y `angra-ilha-grande`, conservando datos comerciales y manteniendo noindex hasta QA.
