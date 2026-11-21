@@ -244,3 +244,12 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - QA estático aprobado en ambas: contenido íntegro FR, canonical, cinco hreflang, JSON-LD, noindex, navegación y fotografías intactas.
 - `fr-home.js` reconoce ambas rutas después de existir. Punto remoto previo al registro: `f988551583f15ae9f2d3be07eea2309af8e640d6`.
 - No hubo build, Hostinger, sitemap ni HTTP público. Siguiente sublote exacto: `rio-samba-bus` y `carnaval-experience`.
+
+## Continuación 21/11/2026 — Rio Samba Bus y Carnaval Experience
+
+- Nuevas fichas privadas completas: `/fr/experiencias/rio-samba-bus/` y `/fr/experiencias/carnaval-experience/`.
+- Rio Samba Bus conserva 6 recursos, tres modalidades y sus cuatro enlaces/banners afiliados. Carnaval Experience conserva 23 recursos, galería, tres modalidades, cinco enlaces afiliados y disclosure/cupón de la fuente.
+- QA estático aprobado: francés completo, canonical, cinco hreflang, JSON-LD, noindex, navegación, fotografías y afiliación intactas.
+- La fuente de Carnaval Experience indica precios válidos solo hasta el 31/10/2026; la ficha no puede publicarse hasta verificar tarifas actuales. No se inventaron valores.
+- Punto remoto previo al registro: `87bf0014d35f2d0a1655075a45f47c925d616efa`. Sin build, Hostinger, sitemap ni publicación HTTP.
+- Reanudación exacta: `vuelo-en-parapente`; Carnaval Experience permanece privado/bloqueado por tarifas.
