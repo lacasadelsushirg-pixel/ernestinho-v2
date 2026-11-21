@@ -36,6 +36,8 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 | `/fr/experiencias/full-day-rio/` | intacto | intacto | intacto | ficha completa, 8 etapas, inclusiones, condiciones, formulario y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
 | `/fr/experiencias/arraial-do-cabo/` | intacto | intacto | intacto | ficha completa, 3 paradas, condiciones marítimas, formulario y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
 | `/fr/experiencias/angra-ilha-grande/` | intacto | intacto | intacto | ficha completa, 4 paradas, condiciones marítimas, formulario y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
+| `/fr/experiencias/rio-samba-bus/` | intacto | intacto | intacto | ficha completa, 3 modalidades, 6 recursos y 4 enlaces afiliados conservados | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
+| `/fr/experiencias/carnaval-experience/` | intacto | intacto | intacto | ficha completa, 3 modalidades, galería de 23 recursos y 5 enlaces afiliados conservados | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | bloqueada para publicación hasta verificar tarifas posteriores al 31/10/2026 |
 
 ## Pruebas y decisiones
 
@@ -135,3 +137,12 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Ambas rutas pasaron QA estático de francés visible, `lang=fr`, noindex, canonical, cinco hreflang, JSON-LD, navegación y exclusión del renderer trilingüe. `fr-home.js` solo las reconoce después de existir sus HTML.
 - Punto remoto de código antes de este registro: `f988551583f15ae9f2d3be07eea2309af8e640d6`. No hubo build, cambio de sitemap, sincronización Hostinger ni publicación HTTP. Publicaciones nuevas: **0**.
 - Reanudación exacta: continuar por las siguientes fichas de la portada de Experiencias, empezando por `rio-samba-bus` y `carnaval-experience`, siempre privadas/noindex hasta QA visual y revisión humana.
+
+## Checkpoint durable — experiencias afiliadas FR 21-11-2026
+
+- Se completaron `/fr/experiencias/rio-samba-bus/` y `/fr/experiencias/carnaval-experience/` con contenido editorial francés y estructura íntegra de producción.
+- Rio Samba Bus conserva 6/6 recursos gráficos, tres modalidades, precios de referencia, los cuatro enlaces/banners afiliados y el disclosure completo; no se alteraron referencias de afiliación.
+- Carnaval Experience conserva 23/23 recursos, galería expandible, tres modalidades, cinco enlaces afiliados, disclosure y cupón de la fuente. La propia fuente limita los precios mostrados al 31/10/2026: la ruta queda explícitamente bloqueada para publicación hasta verificar tarifas actuales con el operador.
+- Ambas rutas pasaron QA estático de `lang=fr`, noindex, canonical, cinco hreflang, JSON-LD FR, navegación, imágenes y exclusión del renderer trilingüe. `fr-home.js` las reconoce después de existir.
+- Punto remoto de código antes de este registro: `87bf0014d35f2d0a1655075a45f47c925d616efa`. No hubo build, sitemap, Hostinger ni HTTP público. Publicaciones nuevas: **0**.
+- Reanudación exacta: siguiente ficha libre de Experiencias por orden de portada, `vuelo-en-parapente`; mantener Carnaval Experience privado hasta validar tarifas vigentes.
