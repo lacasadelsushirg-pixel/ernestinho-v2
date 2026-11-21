@@ -9,7 +9,7 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Verificación 20-11-2026: producción continúa exactamente en `2dce60064291de24ee325a46beacde2f4749e452`; PR #46 continúa abierto, mergeable y sin ninguna revisión registrada. Los dos workflows propios del repositorio (`Protect approved content` y `Petrópolis preview QA`) concluyeron correctamente.
 - Hostinger: último build raíz fallido; queda prohibido relanzar cualquier modo `full` de 3.612 páginas.
 - Rama/carpeta FR: `release/fr-public-initial-20261115` → `public_html/fr`.
-- PR FR #48: base `release/fr-public-initial-20261115` en `5b1636da327bf3e7a9688108cfebff2a87772418`; rama `release/fr-public-continuation-20261120`, punto remoto previo a este registro `707afb9822fb278ac469f763a0bdf609a9d46871`; abierto, mergeable, borrador y sin revisión.
+- PR FR #48: base `release/fr-public-initial-20261115` en `5b1636da327bf3e7a9688108cfebff2a87772418`; rama `release/fr-public-continuation-20261120`, punto remoto previo al registro de Experiencias `232d3cfc0f2204a69dd695bf33d224182e77083e`; abierto, borrador y sin revisión humana registrada.
 
 ## Página trabajada
 
@@ -30,6 +30,9 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 | `/fr/hospedaje/nata/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 18 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 | `/fr/hospedaje/casa-candida/` | intacto | intacto | intacto | ficha completa, 9 servicios, WhatsApp FR y galería interactiva de 11 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 | `/fr/hospedaje/estudio-1-1/` | intacto | intacto | intacto | traducción íntegra de la ficha fuente, sin inventar datos, precios ni disponibilidad; imagen social aprobada conservada | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
+| `/fr/experiencias/` | intacto | intacto | intacto | portada completa con 26 experiencias, categorías, textos, precios y enlaces de la fuente vigente | `noindex,nofollow`, canonical + 5 hreflang, fuera del sitemap | pendiente; no publicada en esta ejecución |
+| `/fr/experiencias/cristo-city-tour/` | intacto | intacto | intacto | ficha completa, 5 paradas, inclusiones, condiciones, tarifas y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
+| `/fr/experiencias/buzios/` | intacto | intacto | intacto | ficha completa, 4 etapas, inclusiones, condiciones marítimas, tarifa y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
 
 ## Pruebas y decisiones
 
@@ -103,3 +106,13 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - No se desplegó para sortear el bloqueo y no se simuló aprobación visual.
 - La navegación real de Inicio ordena Guía, Tours/Experiencias, Transportes, Eventos, Hospedaje y Compras. Tras completar las prioridades especiales Guía → Transportes → Hospedaje, la siguiente sección pendiente es Tours/Experiencias.
 - Próximo sublote exacto: portada `/fr/experiencias/` y las primeras rutas enlazadas `cristo-city-tour`, `full-day-rio`, `buzios`, `arraial-do-cabo` y `angra-ilha-grande`, conservando datos comerciales y manteniendo noindex hasta QA.
+
+## Checkpoint durable — Experiencias FR privadas 21-11-2026
+
+- Se añadieron la portada `/fr/experiencias/` y las fichas `/fr/experiencias/cristo-city-tour/` y `/fr/experiencias/buzios/` a PR #48.
+- Las tres páginas derivan del HTML de producción `2dce60064291de24ee325a46beacde2f4749e452`; no se editaron ES, PT-BR, EN, CSS, fotografías, rutas existentes ni sitemap.
+- QA estático: francés editorial completo, `lang=fr`, `noindex,nofollow`, canonical FR, cinco hreflang, JSON-LD `inLanguage=fr`, navegación francesa y ausencia de `site.js` trilingüe. Se conservaron 2/2 recursos gráficos de portada, 8/8 de Cristo + City Tour y 7/7 de Búzios.
+- `fr-home.js` reconoce las tres rutas únicamente después de existir sus HTML reales. Punto remoto antes de este registro: `232d3cfc0f2204a69dd695bf33d224182e77083e`.
+- No se ejecutó build, no se tocó Hostinger ni `public_html`, no se modificó el sitemap y no hubo verificación HTTP pública. Páginas nuevas publicadas/indexables: **0**.
+- QA visual 390/1440 sigue bloqueado por el sandbox local de Chromium; no se simuló aprobación ni revisión humana.
+- Reanudación exacta: completar `/fr/experiencias/full-day-rio/`, después `/fr/experiencias/arraial-do-cabo/` y `/fr/experiencias/angra-ilha-grande/`; conservar los datos comerciales actuales y mantener todo privado/noindex.
