@@ -285,3 +285,18 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Estado PT/EN: PR #46 continúa fuera de producción y no fue modificado ni desplegado.
 - Bloqueo exacto pendiente: obtener una fuente francesa editorial propia y completa para `/fr/transportes/transporte-privado/`; no existe en PR #48. No crearla durante la prioridad de publicación.
 - Siguiente paso exacto: continuar con otro alojamiento FR ya terminado mediante el mismo sublote mínimo de tres archivos; por prioridad del propietario, evaluar AP 702 o AP 217, siempre con QA 390/1440 y registro antes de abrir otro lote. En paralelo, PR #46 solo podrá avanzar con su gate de seis páginas y sin modo full.
+
+
+## Publicación FR AP 702 visible en Hostinger — 21-11-2026
+
+- Preflight fresco: PR #46 continúa abierto en `a08077c73f205f8a6eb4dc45984a5fa4a8ef9098`, mergeable y sin despliegue; PR #48 continúa abierto y tiene 100 commits. Hostinger mantiene `public_html/fr` enlazado exclusivamente a `release/fr-public-initial-20261115`.
+- PR #56 fusionado: `05970b5e831edaa1abbc91bd248955e21c26ad36`. Alcance exacto: `hospedaje/702/index.html`, ruta `fr/hospedaje/702/` en `fr-home.js` y tarjeta AP 702 en `hospedaje/index.html`.
+- Git: 3 commits por delante, 0 por detrás; no sincronizó el PR #48 completo ni modificó CSS, fotos, HTML español, sitemap o raíz.
+- QA aislado Hostinger: escritorio en `/fr-qa-ap702-20261121/` y móvil 390×844 en `/fr-qa-ap702-mobile-20261121/`. Se comprobaron H1, texto francés, métricas, galería `Photo 1 / 8`, WhatsApp y ausencia de corte lateral.
+- En QA aislado el logo absoluto `/assets/brand/ec-mark.png` no existe dentro del prefijo de preview, comportamiento esperado del clon aislado; en producción se verificó cargado correctamente desde la raíz aprobada.
+- Hostinger producción: pull Git exclusivo de la rama enlazada dentro de `/fr/`; sin build ni Composer.
+- HTTP real verificado: `https://www.ernestinhocarioca.com.br/fr/hospedaje/702/` carga H1 y contenido francés completos, canonical FR, `noindex,nofollow`, navegación, WhatsApp y galería activa de 8 fotos. Resultado técnico: **0 imágenes rotas** y **0 desbordamiento horizontal**.
+- Revisión: PR #56 con 0 revisiones; publicación bajo la autorización directa vigente del propietario, documentada sin afirmar aprobación independiente inexistente.
+- Publicaciones visibles nuevas de esta ejecución: **1 página**. Publicaciones indexables nuevas: **0** por `noindex,nofollow`.
+- Estado PT/EN: PR #46 no fue fusionado ni desplegado; no se ejecutó build parcial ni total.
+- Siguiente paso exacto: evaluar AP 217 ya terminada con el mismo sublote mínimo de tres archivos, QA 390/1440, pull exclusivo `/fr/` y verificación HTTP. Transporte privado sigue bloqueado por falta de fuente FR completa en PR #48.
