@@ -19,7 +19,7 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 | `/fr/hospedaje/805/` | intacto | intacto | intacto | ficha completa, 8 servicios, consulta WhatsApp FR y única foto aprobada conservada | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 | `/fr/hospedaje/605/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 24 fotos aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 | `/fr/hospedaje/1008/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 15 fotos aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
-| `/fr/hospedaje/54/` | intacto | intacto | intacto | texto completo y 1 foto mostrada; inventario Hostinger de 21 fotos aún pendiente de conciliación/QA | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada; no contar como ficha validada completa |
+| `/fr/hospedaje/54/` | intacto | intacto | intacto | texto completo, 8 servicios, WhatsApp FR y galería interactiva de 21 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 
 ## Pruebas y decisiones
 
@@ -37,14 +37,15 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - `fr-home.js` ahora conserva mensajes WhatsApp ya redactados en francés y solo aplica el mensaje genérico cuando el enlace aún no está localizado.
 - AP 1008 conserva sus 15 fotografías Hostinger aprobadas y su información vigente para 6 personas, dos habitaciones y ubicación a 50 m de la playa.
 - QA estático AP 1008: francés completo, carrusel/contador/alt FR, canonical, hreflang, JSON-LD, noindex, navegación y WhatsApp específico confirmados.
-- Escritura concurrente detectada y preservada: AP 54 existe en el HEAD remoto y `fr-home.js` reconoce su ruta. Su texto/SEO/WhatsApp están localizados, pero la página muestra solo una foto mientras el inventario vigente enumera 21; requiere conciliación de galería y QA antes de contarla como completa.
+- Escritura concurrente detectada y preservada: AP 54 existía en el HEAD remoto con texto/SEO/WhatsApp FR y una foto. Se concilió con las 21 rutas Hostinger del inventario vigente y ahora incluye carrusel, controles, contador y alt franceses sin modificar imágenes.
+- QA estático AP 54: 21/21 fotos presentes, francés completo, `lang=fr`, noindex, canonical, hreflang, JSON-LD, navegación y WhatsApp específico confirmados.
 - No se ejecutó `npm run build`, `hosting_deploy` ni se modificó la raíz de `public_html`.
 
 ## Bloqueos y siguiente paso exacto
 
-1. Obtener capturas 390/1440 y revisión humana de Guarda equipaje, AP 805, AP 605 y AP 1008, incluidos carruseles, botones, contadores y fotografías.
+1. Obtener capturas 390/1440 y revisión humana de Guarda equipaje, AP 805, AP 605, AP 1008 y AP 54, incluidos carruseles, botones, contadores y fotografías.
 2. Tras aprobación, avanzar la rama FR vinculada mediante fast-forward y sincronizar únicamente `directory=fr`.
 3. Verificar por HTTP las tres rutas, contenido, imágenes aprobadas, canonical, noindex, navegación, carrusel y WhatsApp.
-4. Conciliar AP 54 con sus 21 fotos Hostinger aprobadas, sin sustituir rutas, y validar carrusel/390/1440 antes de contar la ficha como completa.
+4. Continuar Hospedaje con la siguiente ficha prioritaria libre desde la fuente ES vigente, conservando íntegramente su galería Hostinger.
 5. No publicar `/fr/transportes/transporte-privado/` hasta confirmar tarifas posteriores al 31/10/2026, integrar formulario/WhatsApp FR y disponer de los dos banners FR aprobados.
 6. No fusionar ni sincronizar PR #48 hasta completar QA visual 390/1440 y revisión humana; páginas públicas nuevas de esta ejecución: **0**.
