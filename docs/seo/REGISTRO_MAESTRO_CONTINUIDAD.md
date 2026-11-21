@@ -33,6 +33,7 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 | `/fr/experiencias/` | intacto | intacto | intacto | portada completa con 26 experiencias, categorías, textos, precios y enlaces de la fuente vigente | `noindex,nofollow`, canonical + 5 hreflang, fuera del sitemap | pendiente; no publicada en esta ejecución |
 | `/fr/experiencias/cristo-city-tour/` | intacto | intacto | intacto | ficha completa, 5 paradas, inclusiones, condiciones, tarifas y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
 | `/fr/experiencias/buzios/` | intacto | intacto | intacto | ficha completa, 4 etapas, inclusiones, condiciones marítimas, tarifa y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
+| `/fr/experiencias/full-day-rio/` | intacto | intacto | intacto | ficha completa, 8 etapas, inclusiones, condiciones, formulario y WhatsApp FR | `noindex,nofollow`, canonical + 5 hreflang, JSON-LD FR | pendiente; no publicada en esta ejecución |
 
 ## Pruebas y decisiones
 
@@ -116,3 +117,10 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - No se ejecutó build, no se tocó Hostinger ni `public_html`, no se modificó el sitemap y no hubo verificación HTTP pública. Páginas nuevas publicadas/indexables: **0**.
 - QA visual 390/1440 sigue bloqueado por el sandbox local de Chromium; no se simuló aprobación ni revisión humana.
 - Reanudación exacta: completar `/fr/experiencias/full-day-rio/`, después `/fr/experiencias/arraial-do-cabo/` y `/fr/experiencias/angra-ilha-grande/`; conservar los datos comerciales actuales y mantener todo privado/noindex.
+
+### Extensión del sublote — Full Day Río
+
+- `/fr/experiencias/full-day-rio/` quedó completo con 8 etapas, 10/10 recursos gráficos, inclusiones, condiciones prácticas, precio vigente de la fuente, formulario y mensaje WhatsApp íntegramente en francés.
+- QA estático aprobado: HTML/SEO FR, cinco hreflang, JSON-LD, noindex, imágenes preservadas y renderer trilingüe excluido. `fr-home.js` reconoce la ruta después de existir su HTML.
+- Punto remoto de código antes de este registro: `8e53ed60318fccbb8fa34d5becf316618665089c`. Sin build, Hostinger, sitemap ni publicación HTTP; nuevas publicaciones: **0**.
+- Reanudación exacta actualizada: `/fr/experiencias/arraial-do-cabo/`, luego `/fr/experiencias/angra-ilha-grande/`.
