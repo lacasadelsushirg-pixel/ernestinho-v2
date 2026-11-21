@@ -186,3 +186,17 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Se corrigió el siguiente paso tras comprobar la portada vigente: después de Rocinha siguen `santa-marta` y `vidigal`; no `maracana-matchday`.
 - Punto remoto anterior: `b88787597f967bd96184b07c6ef511f7500633a9`. Sin build, Hostinger ni HTTP público; publicaciones nuevas: **0**.
 - Siguiente paso exacto: `/fr/experiencias/santa-marta/`, luego `/fr/experiencias/vidigal/`.
+
+
+## Cambio de prioridad y candidato mínimo de publicación — 21-11-2026
+
+- Orden vigente: detener nuevas fichas privadas y priorizar la primera publicación visible y segura en Hostinger.
+- Hostinger verificado: `/home/u319776719/domains/ernestinhocarioca.com.br/public_html/fr` está enlazado a `release/fr-public-initial-20261115`; no se ejecutó build, despliegue ni modificación del hosting en esta sesión.
+- PR #46: HEAD `a08077c73f205f8a6eb4dc45984a5fa4a8ef9098`; dos workflows en `success`, pero **0 revisiones**. No se fusionó ni desplegó.
+- PR #48: **0 revisiones** y 93 commits por delante de la rama Hostinger al comprobarlo; queda descartada toda sincronización íntegra.
+- Se abrió el PR #49: `release/fr-first-public-805-20261121` → `release/fr-public-initial-20261115`, HEAD `7aaadd5b7245c6fd4da5bc0ea493903563ec754d`.
+- Alcance del PR #49: exactamente `hospedaje/805/index.html` y una única ruta `fr/hospedaje/805/` en `fr-home.js`; 2 commits por delante, 0 por detrás de `5b1636da327bf3e7a9688108cfebff2a87772418`. No arrastra el PR #48.
+- QA estático del candidato: texto francés completo, H1, canonical, `noindex,nofollow`, navegación/WhatsApp y fotografía idéntica al original ES. No toca CSS, HTML español, sitemap, raíz ni build.
+- Estado real de `https://www.ernestinhocarioca.com.br/fr/hospedaje/805/`: **no publicado**. Publicaciones nuevas: **0**.
+- Bloqueo exacto: el PR #49 requiere revisión humana independiente real con `APPROVED`, checks verdes y QA visual 390/1440 antes de fusionar. Después se permite únicamente pull Git de la rama enlazada en el directorio Hostinger `/fr/`; nunca build general ni `public_html` raíz.
+- Siguiente paso exacto: obtener la aprobación humana independiente del PR #49, confirmar diff de solo 2 archivos y QA visual; fusionar solo entonces, ejecutar pull puntual de `release/fr-public-initial-20261115` en `/fr/` y verificar HTTP, navegación y foto en la URL canónica.
