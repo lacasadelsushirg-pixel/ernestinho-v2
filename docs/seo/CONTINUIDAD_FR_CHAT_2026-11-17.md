@@ -180,6 +180,14 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - Canonical, hreflang ES/PT-BR/EN/FR, JSON-LD FR y `noindex,nofollow`; no se modifica el sitemap.
 - QA estático completo; QA visual 390/1440 y HTTP público pendientes. No cuenta como publicada.
 
+## Continuación 20/11/2026 — Hospedaje AP 217 FR
+
+- Nueva ficha privada `/fr/hospedaje/217/`, basada en la fuente ES vigente y sin editar idiomas existentes.
+- Cobertura completa para dos viajeros: una habitación, una cama, baño, ubicación a unos 100 m de la playa, 8 servicios, recomendación, consejo y WhatsApp FR.
+- Galería interactiva con las 17 fotografías Hostinger aprobadas, controles, contador y alt franceses.
+- Canonical, hreflang ES/PT-BR/EN/FR, JSON-LD FR y `noindex,nofollow`; fuera del sitemap.
+- QA estático completo; QA visual y HTTP pendientes. No cuenta como publicada.
+
 ### Garantías de seguridad
 
 - Solo se hicieron commits en rama `release/fr-public-initial-20261115` y sincronizaciones Git de Hostinger con `directory=fr`.
