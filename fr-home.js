@@ -50,6 +50,7 @@ function localize(){
   "fr/guia/donde-alojarse/",
   "fr/guia/pix/",
   "fr/guia/internet/",
+  "fr/guia/guarda-equipaje/",
   "fr/transportes/",
   "fr/transportes/terminal-gentileza/",
   "fr/transportes/vlt/",
@@ -62,7 +63,35 @@ function localize(){
   "fr/transportes/barcas/",
   "fr/transportes/onibus/",
   "fr/transportes/uber/",
-  "fr/hospedaje/"
+  "fr/hospedaje/",
+  "fr/hospedaje/805/",
+  "fr/hospedaje/605/",
+  "fr/hospedaje/1008/",
+  "fr/hospedaje/54/",
+  "fr/hospedaje/702/",
+  "fr/hospedaje/217/",
+  "fr/hospedaje/1221/",
+  "fr/hospedaje/1015/",
+  "fr/hospedaje/621/",
+  "fr/hospedaje/goia/",
+  "fr/hospedaje/venti/",
+  "fr/hospedaje/nata/",
+  "fr/hospedaje/casa-candida/",
+  "fr/hospedaje/estudio-1-1/",
+  "fr/experiencias/",
+  "fr/experiencias/cristo-city-tour/",
+  "fr/experiencias/buzios/",
+  "fr/experiencias/full-day-rio/",
+  "fr/experiencias/arraial-do-cabo/",
+  "fr/experiencias/angra-ilha-grande/",
+  "fr/experiencias/rio-samba-bus/",
+  "fr/experiencias/carnaval-experience/",
+  "fr/experiencias/vuelo-en-parapente/",
+  "fr/experiencias/parasail/",
+  "fr/experiencias/paracaidas/",
+  "fr/experiencias/rapel/",
+  "fr/experiencias/ala-delta/",
+  "fr/experiencias/rocinha/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
@@ -89,7 +118,8 @@ function localize(){
   }
   for(const link of document.querySelectorAll('a[href*="wa.me/5521969946938"]')){
     let wa;try{wa=new URL(link.href)}catch{continue}
-    wa.searchParams.set('text','Bonjour Ernestinho, j’aimerais découvrir Rio avec vous.');
+    const currentMessage=(wa.searchParams.get('text')||'').trim();
+    if(!currentMessage.toLocaleLowerCase('fr').startsWith('bonjour'))wa.searchParams.set('text','Bonjour Ernestinho, j’aimerais découvrir Rio avec vous.');
     if(link.href!==wa.href)link.href=wa.href;
   }
   for(const el of document.querySelectorAll('[src],[srcset]')){
