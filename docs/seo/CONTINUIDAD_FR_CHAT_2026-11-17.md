@@ -275,3 +275,14 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - Ala delta queda bloqueada para publicación hasta confirmar la vigencia comercial de todos los importes. Rappel requiere QA editorial por la escasez de información de la fuente.
 - Punto remoto anterior a este sublote: `0450f75355775d79f1d6eb0411e0233cccc32afc`. No hubo build, Hostinger ni HTTP público; publicaciones nuevas: **0**.
 - Siguiente ruta exacta: `/fr/experiencias/maracana-matchday/` según el orden de la portada.
+
+## Continuación 21/11/2026 — Rocinha FR privada
+
+- Nueva ficha completa `/fr/experiencias/rocinha/`, derivada del HTML vigente de producción sin editar ES/PT-BR/EN.
+- Conserva 13/13 imágenes Hostinger, el embed de Instagram, cinco etapas del recorrido, moto-taxi, Mirante Laboriaux, capoeira, condiciones de movilidad, inclusiones, opción de drone, formulario y WhatsApp en francés.
+- SEO privado completo: `lang=fr`, `noindex,nofollow`, canonical, cinco hreflang y JSON-LD `fr`; fuera del sitemap y sin renderer trilingüe.
+- QA estático aprobado: conjunto exacto de imágenes, ausencia de residuos españoles visibles, navegación y formulario FR, `node --check` y `git diff --check`.
+- R$170 y el suplemento de drone se conservaron fielmente, pero requieren confirmación comercial antes de publicar. No se inventó el precio del drone.
+- Corrección de continuidad: la portada vigente ordena después de Ala delta `rocinha`, `santa-marta` y `vidigal`; `maracana-matchday` no es la ruta siguiente ni aparece con ese slug.
+- Punto remoto anterior: `b88787597f967bd96184b07c6ef511f7500633a9`. Sin build, Hostinger ni HTTP público; publicaciones nuevas: **0**.
+- Siguiente ruta exacta: `/fr/experiencias/santa-marta/`; después `/fr/experiencias/vidigal/`.
