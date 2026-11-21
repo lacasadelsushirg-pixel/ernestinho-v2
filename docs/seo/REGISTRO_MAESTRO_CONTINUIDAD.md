@@ -200,3 +200,16 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Estado real de `https://www.ernestinhocarioca.com.br/fr/hospedaje/805/`: **no publicado**. Publicaciones nuevas: **0**.
 - Bloqueo exacto: el PR #49 requiere revisión humana independiente real con `APPROVED`, checks verdes y QA visual 390/1440 antes de fusionar. Después se permite únicamente pull Git de la rama enlazada en el directorio Hostinger `/fr/`; nunca build general ni `public_html` raíz.
 - Siguiente paso exacto: obtener la aprobación humana independiente del PR #49, confirmar diff de solo 2 archivos y QA visual; fusionar solo entonces, ejecutar pull puntual de `release/fr-public-initial-20261115` en `/fr/` y verificar HTTP, navegación y foto en la URL canónica.
+
+
+## QA Hostinger del candidato mínimo PR #49 — 21-11-2026
+
+- Se mantuvo detenida la creación de nuevas fichas. El trabajo se concentró exclusivamente en destrabar la publicación del PR #49.
+- Hostinger recibió dos clones de QA aislados y reversibles: `fr-qa-805-20261121` para escritorio y `fr-qa-805-mobile-20261121` para la envoltura de 390 px. No se tocó el directorio enlazado `/fr/`, no se modificó `public_html` raíz y no se ejecutó ningún build.
+- QA escritorio real: viewport 1363×936, sin desbordamiento horizontal, `lang=fr`, canonical FR, `noindex,nofollow`, texto completo y foto AP 805 cargada a 1254×1254.
+- QA móvil real: viewport aislado 390×844; hero, texto, retorno, métricas en dos columnas y comienzo del contenido visibles sin corte lateral.
+- La ruta productiva `/fr/hospedaje/805/` continúa sin existir; los directorios QA no cuentan como publicación.
+- PR #49 permanece en HEAD `7aaadd5b7245c6fd4da5bc0ea493903563ec754d`, 2 commits por delante y 0 por detrás de la rama Hostinger; sigue con **0 revisiones** y sin workflows asociados a esa base.
+- GitHub rechazó solicitar revisión a `patagoniavivapuq-netizen` con HTTP 422 porque no es colaborador. No se simuló ni se emitió aprobación desde ninguna cuenta vinculada.
+- Publicaciones nuevas verificadas: **0**.
+- Bloqueo único restante: obtener `APPROVED` real de un colaborador humano independiente en el PR #49. Después: fusionar, pull puntual de `release/fr-public-initial-20261115` únicamente en Hostinger `/fr/` y verificación HTTP de la canonical y la fotografía.
