@@ -236,3 +236,11 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - Canonical FR, cinco hreflang, JSON-LD `fr` y `noindex,nofollow`; sin sitemap ni renderer trilingüe.
 - Punto remoto previo al registro: `8e53ed60318fccbb8fa34d5becf316618665089c`. No hubo build, sincronización Hostinger ni publicación HTTP.
 - Reanudación exacta: `arraial-do-cabo`, después `angra-ilha-grande`.
+
+## Continuación 21/11/2026 — Arraial y Angra FR privados
+
+- Nuevas fichas completas: `/fr/experiencias/arraial-do-cabo/` y `/fr/experiencias/angra-ilha-grande/`.
+- Arraial conserva 6/6 recursos, tres paradas, tarifa/tasas, restricciones, formulario y WhatsApp francés. Angra conserva 7/7 recursos, cuatro paradas, tarifa/tasa marítima, condiciones, formulario y WhatsApp francés.
+- QA estático aprobado en ambas: contenido íntegro FR, canonical, cinco hreflang, JSON-LD, noindex, navegación y fotografías intactas.
+- `fr-home.js` reconoce ambas rutas después de existir. Punto remoto previo al registro: `f988551583f15ae9f2d3be07eea2309af8e640d6`.
+- No hubo build, Hostinger, sitemap ni HTTP público. Siguiente sublote exacto: `rio-samba-bus` y `carnaval-experience`.
