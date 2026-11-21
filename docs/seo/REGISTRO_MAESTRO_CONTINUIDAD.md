@@ -25,6 +25,11 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 | `/fr/hospedaje/1221/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 25 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 | `/fr/hospedaje/1015/` | intacto | intacto | intacto | ficha completa, 10 servicios, WhatsApp FR y galería interactiva de 17 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 | `/fr/hospedaje/621/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 16 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
+| `/fr/hospedaje/goia/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 26 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
+| `/fr/hospedaje/venti/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 34 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
+| `/fr/hospedaje/nata/` | intacto | intacto | intacto | ficha completa, 8 servicios, WhatsApp FR y galería interactiva de 18 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
+| `/fr/hospedaje/casa-candida/` | intacto | intacto | intacto | ficha completa, 9 servicios, WhatsApp FR y galería interactiva de 11 fotos Hostinger aprobadas | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
+| `/fr/hospedaje/estudio-1-1/` | intacto | intacto | intacto | traducción íntegra de la ficha fuente, sin inventar datos, precios ni disponibilidad; imagen social aprobada conservada | `noindex,nofollow`, fuera del sitemap | pendiente; no publicada en esta ejecución |
 
 ## Pruebas y decisiones
 
@@ -51,14 +56,16 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - AP 1221 conserva las 25 fotografías Hostinger del inventario vigente, capacidad para 4, dos camas, vista al Cristo, cocina y lavadora; QA estático de francés, galería, SEO, navegación y WhatsApp aprobado.
 - AP 1015 conserva las 17 fotografías Hostinger, capacidad para 4, formato estudio y sus 10 servicios; QA estático de francés, galería, SEO, navegación y WhatsApp aprobado.
 - AP 621 conserva las 16 fotografías Hostinger, capacidad para 2 y sus 8 servicios; QA estático de francés, galería, SEO, navegación y WhatsApp aprobado.
+- Casa Goia conserva 26 fotografías, Casa Venti 34, Casa Ñata 18 y Casa Cândida 11; todas usan únicamente las rutas del inventario vigente y pasaron recuento, francés visible, SEO, navegación, WhatsApp y carrusel.
+- Estudio 1/1 conserva el alcance limitado de la fuente: dos personas y consulta directa, sin publicar ni inventar ubicación detallada, características, precios o disponibilidad. La imagen social existente se conserva; no se creó una galería inexistente.
 - No se ejecutó `npm run build`, `hosting_deploy` ni se modificó la raíz de `public_html`.
 
 ## Bloqueos y siguiente paso exacto
 
-1. Obtener capturas 390/1440 y revisión humana de Guarda equipaje y las nueve fichas privadas de Hospedaje (805, 605, 1008, 54, 702, 217, 1221, 1015 y 621), incluidos carruseles, botones, contadores y fotografías.
+1. Obtener capturas 390/1440 y revisión humana de Guarda equipaje y las catorce rutas privadas de Hospedaje, incluidos carruseles, botones, contadores, fotografías y Estudio 1/1.
 2. Tras aprobación, avanzar la rama FR vinculada mediante fast-forward y sincronizar únicamente `directory=fr`.
 3. Verificar por HTTP las tres rutas, contenido, imágenes aprobadas, canonical, noindex, navegación, carrusel y WhatsApp.
-4. Continuar Hospedaje con Casa Goia, siguiente ficha libre en el orden de navegación, conservando íntegramente su galería Hostinger.
+4. Hospedaje cubre ahora todas las subrutas HTML de producción en FR privado; tras QA visual, continuar con la siguiente sección de la navegación sin volver a Gastronomía.
 5. No publicar `/fr/transportes/transporte-privado/` hasta confirmar tarifas posteriores al 31/10/2026, integrar formulario/WhatsApp FR y disponer de los dos banners FR aprobados.
 6. No fusionar ni sincronizar PR #48 hasta completar QA visual 390/1440 y revisión humana; páginas públicas nuevas de esta ejecución: **0**.
 
@@ -79,3 +86,12 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - No se ejecutó build, no se tocó `public_html`, no hubo despliegue ni verificación HTTP pública. Publicaciones nuevas: **0**.
 - Punto remoto antes de guardar este registro: `72b2b555598f8e61a7234b3ce05008f0bdc9c8f1`.
 - Reanudación exacta: Casa Goia; después Casa Venti y Casa Ñata. Mantener FR privado/noindex hasta QA visual y revisión humana.
+
+## Checkpoint durable — cierre de Hospedaje FR privado 21-11-2026
+
+- Sublote nuevo: Casa Goia (26 fotos), Casa Venti (34), Casa Ñata (18), Casa Cândida (11) y Estudio 1/1.
+- Las cuatro casas tienen contenido francés completo, ocho o nueve servicios, galerías locales, canonical/hreflang/JSON-LD FR, navegación y WhatsApp. Estudio 1/1 conserva fielmente el alcance limitado de su fuente y no inventa características.
+- Comparación de directorios: las 14 subrutas HTML de `hospedaje/` existentes en producción tienen ahora su equivalente en la rama FR privada.
+- No se ejecutó build, no se tocó Hostinger ni el sitemap, y no hubo verificación HTTP pública. Publicaciones nuevas: **0**.
+- Punto remoto previo a este registro: `aef688e193e0537afe76c3133a77ae8144a8f2dd`.
+- Siguiente paso exacto: QA visual 390/1440 de Hospedaje; después avanzar a la siguiente sección prioritaria disponible, manteniendo Transporte privado bloqueado hasta tarifas, banners e interacciones aprobadas.
