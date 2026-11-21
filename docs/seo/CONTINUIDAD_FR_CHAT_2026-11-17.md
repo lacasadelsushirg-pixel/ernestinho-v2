@@ -264,3 +264,14 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - No hubo build, sincronización Hostinger ni verificación HTTP pública. Publicaciones nuevas: **0**. QA visual 390/1440 y revisión humana siguen pendientes.
 - Punto remoto de código antes de registrar documentos: `9b3b3d10f11b2adcb3f0afc5348073c3b1497b11`.
 - Siguiente ruta exacta: `/fr/experiencias/rapel/`; después `/fr/experiencias/ala-delta/`.
+
+## Continuación 21/11/2026 — Rappel y Ala delta FR privados
+
+- Nuevas fichas: `/fr/experiencias/rapel/` y `/fr/experiencias/ala-delta/`, basadas en producción `2dce600` sin modificar ES/PT-BR/EN.
+- Rappel conserva íntegramente el alcance reducido de la fuente y sus 4/4 fotografías; no se inventaron ubicación, operador, equipo, tarifa ni requisitos.
+- Ala delta conserva 7/7 recursos gráficos, recorrido Pedra Bonita–Praia do Pepino, inclusiones, seis condiciones prácticas, formulario/WhatsApp y todos los valores de la fuente: R$1.350 y cámaras R$200/R$300/R$200.
+- Ambas tienen francés completo, canonical, cinco hreflang, JSON-LD `fr`, navegación francesa y `noindex,nofollow`; `fr-home.js` las reconoce solo después de existir el HTML.
+- QA estático aprobado: conjuntos de imágenes idénticos, ausencia de residuos ES visibles, renderer trilingüe excluido, `node --check` y `git diff --check` limpios.
+- Ala delta queda bloqueada para publicación hasta confirmar la vigencia comercial de todos los importes. Rappel requiere QA editorial por la escasez de información de la fuente.
+- Punto remoto anterior a este sublote: `0450f75355775d79f1d6eb0411e0233cccc32afc`. No hubo build, Hostinger ni HTTP público; publicaciones nuevas: **0**.
+- Siguiente ruta exacta: `/fr/experiencias/maracana-matchday/` según el orden de la portada.
