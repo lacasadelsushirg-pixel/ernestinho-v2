@@ -140,6 +140,7 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 
 ## Checkpoint durable — experiencias afiliadas FR 21-11-2026
 
+- Verificación fresca de release: la rama de producción `revision/rendimiento-traducciones-81a904c` es idéntica a `2dce60064291de24ee325a46beacde2f4749e452`. PR #46 continúa con HEAD `a08077c73f205f8a6eb4dc45984a5fa4a8ef9098`, sin revisiones registradas y con `Petrópolis preview QA` y `Protect approved content` en `success`; no se fusionó ni desplegó.
 - Se completaron `/fr/experiencias/rio-samba-bus/` y `/fr/experiencias/carnaval-experience/` con contenido editorial francés y estructura íntegra de producción.
 - Rio Samba Bus conserva 6/6 recursos gráficos, tres modalidades, precios de referencia, los cuatro enlaces/banners afiliados y el disclosure completo; no se alteraron referencias de afiliación.
 - Carnaval Experience conserva 23/23 recursos, galería expandible, tres modalidades, cinco enlaces afiliados, disclosure y cupón de la fuente. La propia fuente limita los precios mostrados al 31/10/2026: la ruta queda explícitamente bloqueada para publicación hasta verificar tarifas actuales con el operador.
