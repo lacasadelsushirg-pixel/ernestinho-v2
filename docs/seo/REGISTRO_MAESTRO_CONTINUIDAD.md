@@ -227,3 +227,17 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Publicaciones visibles nuevas: **1 página**. Publicaciones indexables nuevas: **0**, porque la página conserva `noindex,nofollow`.
 - Estado de PT/EN: PR #46 no se fusionó ni desplegó; mantiene su gate independiente y el límite de 6 páginas.
 - Siguiente paso exacto: mantener detenido el lote amplio PR #48; seleccionar la siguiente página FR ya terminada y comercialmente estable en un PR mínimo sobre la rama Hostinger, repetir QA y publicación puntual sin build.
+
+
+## Segunda publicación FR visible en Hostinger — 21-11-2026
+
+- Se mantuvo detenida la creación de nuevas fichas y se extrajo únicamente la página ya terminada de guarda-equipaje desde el lote amplio, sin sincronizar los 93 commits del PR #48.
+- PR #52 fusionado: `adf80e44664bc09b3cc9e80a04a892cfd7737e1d`. Alcance exacto: `guia/guarda-equipaje/index.html`, una ruta en `fr-home.js` y una tarjeta/enlace en `guia/index.html`.
+- Hostinger: pull Git exclusivo de `release/fr-public-initial-20261115` en el directorio enlazado `/fr/`; no se ejecutó build, no se tocó `public_html` raíz, CSS, fotos, HTML español ni sitemap.
+- HTTP real verificado: `https://www.ernestinhocarioca.com.br/fr/guia/guarda-equipaje/` responde con título/H1 `Où laisser ses bagages à Rio de Janeiro`, contenido francés completo, navegación FR y enlace de afiliación identificado. Captura visual de escritorio correcta, sin corte lateral visible.
+- SEO comprobado en el archivo servido: canonical FR y `noindex,nofollow`; cinco hreflang. La portada `/fr/guia/` fue comprobada después del pull y contiene la tarjeta `Consignes à bagages à Rio` con destino `/fr/guia/guarda-equipaje/`.
+- QA previo al pull: escritorio real y envoltura móvil 390×844 en directorios Hostinger aislados; el móvil mostró cabecera, selector de idiomas, H1, introducción y tarjeta de consejo sin desbordamiento visible. El archivo solo usa el logotipo aprobado; no incorporó fotografías nuevas ni tarifas inventadas.
+- Publicaciones visibles nuevas de este sublote: **1 página**. Acumulado de esta ejecución: **2 páginas visibles nuevas** (`/fr/hospedaje/805/` y `/fr/guia/guarda-equipaje/`). Publicaciones indexables nuevas: **0**, porque ambas conservan `noindex,nofollow`.
+- Estado PT/EN: PR #46 permanece fuera de producción; no se ejecutó ningún build ni el incremento protegido de 6 páginas.
+- Bloqueo restante: `/fr/transportes/transporte-privado/` no existe en la rama del PR #48 y no se creará ni traducirá durante la prioridad de publicación. Requiere localizar primero una fuente FR editorial propia y completa en el historial/PR #25 o #27.
+- Siguiente paso exacto: seleccionar únicamente otra página FR ya terminada y estable de Hospedaje (preferencia AP 605), comprobar contenido/fotos/canonical/noindex contra ES, aislarla en un PR mínimo sobre la rama Hostinger, QA 390/1440, pull solo `/fr/` y verificación HTTP. No sincronizar el PR #48 completo.
