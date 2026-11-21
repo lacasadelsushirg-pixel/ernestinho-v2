@@ -72,7 +72,10 @@ function localize(){
   "fr/hospedaje/217/",
   "fr/hospedaje/1221/",
   "fr/hospedaje/1015/",
-  "fr/hospedaje/621/"
+  "fr/hospedaje/621/",
+  "fr/hospedaje/goia/",
+  "fr/hospedaje/venti/",
+  "fr/hospedaje/nata/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
