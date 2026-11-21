@@ -172,6 +172,14 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - QA estático: 21/21 fotografías, texto sin residuos españoles, `lang=fr`, noindex, canonical, hreflang, JSON-LD, navegación y WhatsApp FR.
 - No se modificaron originales ES/PT-BR/EN, CSS compartido, sitemap ni fotografías. Sigue pendiente QA visual 390/1440 y no se considera publicada.
 
+## Continuación 20/11/2026 — Hospedaje AP 702 FR
+
+- Nueva ficha privada `/fr/hospedaje/702/`, traducida íntegramente desde la fuente ES vigente.
+- Conserva capacidad para 4 personas, una habitación, dos camas, baño, ubicación a unos 100 m de la playa, 8 servicios, recomendación, consejo y WhatsApp específico en francés.
+- Galería funcional con las 8 fotografías Hostinger aprobadas, controles, contador y alt franceses.
+- Canonical, hreflang ES/PT-BR/EN/FR, JSON-LD FR y `noindex,nofollow`; no se modifica el sitemap.
+- QA estático completo; QA visual 390/1440 y HTTP público pendientes. No cuenta como publicada.
+
 ### Garantías de seguridad
 
 - Solo se hicieron commits en rama `release/fr-public-initial-20261115` y sincronizaciones Git de Hostinger con `directory=fr`.
