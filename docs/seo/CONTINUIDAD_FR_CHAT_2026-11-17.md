@@ -218,3 +218,14 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - La vista local aislada se sirvió sin build, pero Chromium no pudo crear su socket (`Operation not permitted`) y abortó antes de generar capturas 390/1440.
 - No se desplegó ni se marcó el QA visual como aprobado.
 - Siguiente sublote: portada de Tours/Experiencias y `cristo-city-tour`, `full-day-rio`, `buzios`, `arraial-do-cabo`, `angra-ilha-grande`, todos privados/noindex hasta revisión.
+
+## Continuación 21/11/2026 — inicio de Tours/Experiencias FR
+
+- Nuevas rutas privadas completas: `/fr/experiencias/`, `/fr/experiencias/cristo-city-tour/` y `/fr/experiencias/buzios/`.
+- La portada conserva las 26 experiencias, su organización por categorías, precios y enlaces de producción; se tradujo íntegramente la presentación y cada tarjeta.
+- Cristo + City Tour conserva sus cinco paradas, 8 recursos gráficos, tarifas R$230/R$250, inclusiones, condiciones y consulta WhatsApp en francés.
+- Búzios conserva sus cuatro etapas, 7 recursos gráficos, tarifa R$230 más tasa marítima, inclusiones y restricciones de navegación sin inventar datos.
+- Las tres rutas tienen canonical FR, cinco hreflang, JSON-LD `fr`, navegación francesa y `noindex,nofollow`; no se añadieron al sitemap ni cargan el renderer trilingüe.
+- `fr-home.js` reconoce las rutas solo después de existir el HTML. Punto remoto anterior al registro: `232d3cfc0f2204a69dd695bf33d224182e77083e`.
+- No se ejecutó build, no se sincronizó Hostinger y no se modificó `public_html`. Publicaciones nuevas: **0**.
+- QA visual 390/1440 y revisión humana continúan pendientes. Reanudar exactamente con `full-day-rio`, luego `arraial-do-cabo` y `angra-ilha-grande`.
