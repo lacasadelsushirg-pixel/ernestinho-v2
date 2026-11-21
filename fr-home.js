@@ -83,7 +83,8 @@ function localize(){
   "fr/experiencias/buzios/",
   "fr/experiencias/full-day-rio/",
   "fr/experiencias/arraial-do-cabo/",
-  "fr/experiencias/angra-ilha-grande/"
+  "fr/experiencias/angra-ilha-grande/",
+  "fr/experiencias/rio-samba-bus/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
