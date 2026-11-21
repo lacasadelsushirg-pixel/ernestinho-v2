@@ -62,7 +62,8 @@ function localize(){
   "fr/transportes/barcas/",
   "fr/transportes/onibus/",
   "fr/transportes/uber/",
-  "fr/hospedaje/"
+  "fr/hospedaje/",
+  "fr/hospedaje/805/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
