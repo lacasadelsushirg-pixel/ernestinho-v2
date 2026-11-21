@@ -268,3 +268,20 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Publicaciones visibles nuevas de este sublote: **1 página**. Acumulado de esta ejecución: **4 páginas visibles nuevas** (`/fr/hospedaje/805/`, `/fr/guia/guarda-equipaje/`, `/fr/hospedaje/605/`, `/fr/hospedaje/1008/`). Publicaciones indexables nuevas: **0** por `noindex,nofollow`.
 - Estado PT/EN: PR #46 no fue fusionado ni desplegado; no se ejecutó build parcial ni total.
 - Siguiente paso exacto: AP 54 es el siguiente alojamiento prioritario del propietario. Antes de publicarlo: confirmar fuente FR ya completa, canonical/noindex, igualdad de fotos contra ES, PR mínimo de tres archivos, QA 390/1440 y pull exclusivo `/fr/`. Transporte privado continúa pendiente por ausencia de fuente FR completa en PR #48.
+
+
+## Quinta publicación FR visible y cierre de sublote — 21-11-2026
+
+- PR #55 fusionado: `18b4c8ccfda31b6c665ed115d0249798f8148b03`. Alcance: `hospedaje/54/index.html`, ruta `fr/hospedaje/54/` en `fr-home.js` y tarjeta AP 54 en `hospedaje/index.html`.
+- Antes de publicar se corrigió dentro de la ficha FR el alternate `x-default` ausente, apuntando al original ES. La página conserva canonical FR, `noindex,nofollow` y los alternates ES/PT-BR/EN/FR.
+- Alcance Git: 3 commits por delante, 0 por detrás; no arrastró PR #48 ni cambió CSS, fotos, HTML español, sitemap o raíz.
+- QA aislado Hostinger: escritorio en `/fr-qa-ap54-20261121/` y móvil 390×844 en `/fr-qa-ap54-mobile-20261121/`. H1, contenido FR, métricas, navegación, WhatsApp y galería `Photo 1 / 21` comprobados; sin corte lateral visible.
+- Hostinger producción: pull Git exclusivo de `release/fr-public-initial-20261115` dentro de `/fr/`; no se ejecutó ningún build.
+- HTTP real verificado: `https://www.ernestinhocarioca.com.br/fr/hospedaje/54/` carga título/H1 `AP 54`, contenido francés completo, canonical FR, `noindex,nofollow`, navegación y galería activa de 21 fotos. La portada Hospedaje enlaza ahora a la ficha FR.
+- Revisión: PR #55 con 0 revisiones; publicación bajo autorización directa del propietario del 21-11-2026, sin afirmar aprobación independiente.
+- Publicaciones visibles nuevas de este sublote: **1 página**. Total final de esta ejecución: **5 páginas FR visibles nuevas**: `/fr/hospedaje/805/`, `/fr/guia/guarda-equipaje/`, `/fr/hospedaje/605/`, `/fr/hospedaje/1008/`, `/fr/hospedaje/54/`.
+- Publicaciones indexables nuevas: **0**; todas conservan `noindex,nofollow` mientras no exista aprobación editorial/SEO para Google.
+- Seguridad confirmada: **0 builds**, **0 despliegues de raíz**, **0 sincronizaciones completas del PR #48**, **0 cambios en fotos/CSS/HTML ES/sitemap**. Todos los despliegues productivos fueron pulls Git de la rama enlazada exclusivamente en `public_html/fr`.
+- Estado PT/EN: PR #46 continúa fuera de producción y no fue modificado ni desplegado.
+- Bloqueo exacto pendiente: obtener una fuente francesa editorial propia y completa para `/fr/transportes/transporte-privado/`; no existe en PR #48. No crearla durante la prioridad de publicación.
+- Siguiente paso exacto: continuar con otro alojamiento FR ya terminado mediante el mismo sublote mínimo de tres archivos; por prioridad del propietario, evaluar AP 702 o AP 217, siempre con QA 390/1440 y registro antes de abrir otro lote. En paralelo, PR #46 solo podrá avanzar con su gate de seis páginas y sin modo full.
