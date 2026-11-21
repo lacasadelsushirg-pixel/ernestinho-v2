@@ -195,3 +195,12 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - Los originales ES/PT/EN, URLs de fotografías existentes, el sitemap y el manifiesto SEO de producción no se editaron.
 - El despliegue Git al directorio FR devolvió `is_success=true` y `working tree clean`.
 - El contenido está preparado/servido en Hostinger, pero la validación visual completa y HTTP de navegador externo queda pendiente.
+
+## Continuación 20/11/2026 — sublote AP 1221, AP 1015 y AP 621
+
+- Se añadieron tres fichas francesas privadas completas: AP 1221 (25 fotos Hostinger), AP 1015 (17) y AP 621 (16).
+- Todas incluyen contenido editorial completo, datos vigentes, servicios, galería local, navegación FR, WhatsApp específico, canonical, cinco alternates, JSON-LD `fr` y `noindex,nofollow`.
+- `fr-home.js` reconoce cada ruta únicamente después de existir su HTML real.
+- QA estático aprobado para las tres: recuento exacto de fotos, ausencia de residuos ES, renderizadores trilingües excluidos y controles del carrusel presentes.
+- Corrección de estado para este sublote: no se realizó sincronización Hostinger, no se ejecutó build y no hay verificación HTTP pública. Páginas nuevas publicadas: **0**.
+- Punto remoto previo al registro: `72b2b555598f8e61a7234b3ce05008f0bdc9c8f1`. Siguiente ficha: Casa Goia.
