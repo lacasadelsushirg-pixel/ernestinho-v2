@@ -82,7 +82,8 @@ function localize(){
   "fr/experiencias/cristo-city-tour/",
   "fr/experiencias/buzios/",
   "fr/experiencias/full-day-rio/",
-  "fr/experiencias/arraial-do-cabo/"
+  "fr/experiencias/arraial-do-cabo/",
+  "fr/experiencias/angra-ilha-grande/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
