@@ -85,7 +85,10 @@ function localize(){
   "fr/experiencias/arraial-do-cabo/",
   "fr/experiencias/angra-ilha-grande/",
   "fr/experiencias/rio-samba-bus/",
-  "fr/experiencias/carnaval-experience/"
+  "fr/experiencias/carnaval-experience/",
+  "fr/experiencias/vuelo-en-parapente/",
+  "fr/experiencias/parasail/",
+  "fr/experiencias/paracaidas/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
