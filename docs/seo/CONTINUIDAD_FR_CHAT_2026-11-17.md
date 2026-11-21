@@ -229,3 +229,10 @@ Origen: las páginas ES actuales de `revision/rendimiento-traducciones-81a904c`;
 - `fr-home.js` reconoce las rutas solo después de existir el HTML. Punto remoto anterior al registro: `232d3cfc0f2204a69dd695bf33d224182e77083e`.
 - No se ejecutó build, no se sincronizó Hostinger y no se modificó `public_html`. Publicaciones nuevas: **0**.
 - QA visual 390/1440 y revisión humana continúan pendientes. Reanudar exactamente con `full-day-rio`, luego `arraial-do-cabo` y `angra-ilha-grande`.
+
+### Extensión: Full Day Río FR privado
+
+- Nueva ruta completa `/fr/experiencias/full-day-rio/`: ocho etapas, diez recursos gráficos conservados, inclusiones, condiciones prácticas, tarifa de la fuente, formulario y WhatsApp francés.
+- Canonical FR, cinco hreflang, JSON-LD `fr` y `noindex,nofollow`; sin sitemap ni renderer trilingüe.
+- Punto remoto previo al registro: `8e53ed60318fccbb8fa34d5becf316618665089c`. No hubo build, sincronización Hostinger ni publicación HTTP.
+- Reanudación exacta: `arraial-do-cabo`, después `angra-ilha-grande`.
