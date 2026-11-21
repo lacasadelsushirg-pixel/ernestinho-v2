@@ -241,3 +241,17 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Estado PT/EN: PR #46 permanece fuera de producción; no se ejecutó ningún build ni el incremento protegido de 6 páginas.
 - Bloqueo restante: `/fr/transportes/transporte-privado/` no existe en la rama del PR #48 y no se creará ni traducirá durante la prioridad de publicación. Requiere localizar primero una fuente FR editorial propia y completa en el historial/PR #25 o #27.
 - Siguiente paso exacto: seleccionar únicamente otra página FR ya terminada y estable de Hospedaje (preferencia AP 605), comprobar contenido/fotos/canonical/noindex contra ES, aislarla en un PR mínimo sobre la rama Hostinger, QA 390/1440, pull solo `/fr/` y verificación HTTP. No sincronizar el PR #48 completo.
+
+
+## Tercera publicación FR visible en Hostinger — 21-11-2026
+
+- PR #53 fusionado: `3008cb37a5ce8dde8080fc1f32505420ca97845b`. Alcance exacto: ficha `hospedaje/605/index.html`, ruta `fr/hospedaje/605/` en `fr-home.js` y cambio exclusivo de la tarjeta AP 605 en `hospedaje/index.html`.
+- El sublote estaba 3 commits por delante y 0 por detrás de la rama Hostinger. No arrastró el PR #48 ni modificó CSS, fotos, HTML español, sitemap o raíz.
+- QA Hostinger aislado: escritorio en `/fr-qa-ap605-20261121/` y móvil real dentro de un marco 390×844 en `/fr-qa-ap605-mobile-20261121/`. Se comprobaron hero, H1, contenido francés, métricas 2×2 sin corte lateral, galería y consulta WhatsApp.
+- Hostinger producción: pull Git exclusivo de `release/fr-public-initial-20261115` dentro de `/fr/`; sin build, Composer ni modificación de `public_html` raíz.
+- HTTP real verificado: `https://www.ernestinhocarioca.com.br/fr/hospedaje/605/` carga título/H1 `AP 605`, contenido francés completo, canonical FR, `noindex,nofollow`, navegación hacia Hospedaje/Guía, WhatsApp y galería activa `Photo 1 / 24` con la fotografía preexistente.
+- La portada `/fr/hospedaje/` fue actualizada para que AP 605 deje de abrir la versión española y apunte a `/fr/hospedaje/605/` con CTA `VOIR LE LOGEMENT`.
+- Revisión: el PR #53 tenía 0 revisiones; se aplicó la autorización directa del propietario del 21-11-2026 y se documentó sin afirmar una aprobación independiente inexistente.
+- Publicaciones visibles nuevas de este sublote: **1 página**. Acumulado de esta ejecución: **3 páginas visibles nuevas** (`/fr/hospedaje/805/`, `/fr/guia/guarda-equipaje/`, `/fr/hospedaje/605/`). Publicaciones indexables nuevas: **0**, porque las tres conservan `noindex,nofollow`.
+- Estado PT/EN: PR #46 continúa sin desplegar; no se ejecutó ningún modo de build ni se tocó el límite protegido de seis páginas.
+- Siguiente paso exacto: cerrar primero este checkpoint remoto; después seleccionar AP 1008, ya terminada en la rama de continuación, y repetir el mismo PR mínimo/QA/pull `/fr/` solo si preserva íntegramente fotos y canonical. Transporte privado sigue bloqueado por ausencia de fuente FR en PR #48.
