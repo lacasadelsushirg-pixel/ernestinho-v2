@@ -354,3 +354,12 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Publicaciones visibles nuevas de esta ejecución: **5 páginas** (AP 702, AP 217, AP 1221, AP 1015 y AP 621). Indexables nuevas: **0**; FR continúa privada para buscadores.
 - Estado PT/EN: PR #46 sigue sin fusionar ni desplegar; no se ejecutó build parcial ni total.
 - Siguiente paso exacto: evaluar la ficha francesa preexistente `hospedaje/goia/index.html` como sexto sublote, confirmar texto completo y fotografías, corregir solamente referencias rotas si las hubiera, QA 1440/390, PR mínimo contra `release/fr-public-initial-20261115`, pull exclusivo `/fr` y verificación HTTP. No crear traducción nueva.
+
+
+## QA bloqueado — Casa Goia FR — 21-11-2026
+
+- Se evaluó la ficha francesa preexistente `hospedaje/goia/index.html` en la rama aislada `release/fr-goia-link-public-20261121`. El HTML tiene canonical FR, `noindex,nofollow`, 5 hreflang, 26 fotos declaradas y contenido francés; `fr-home.js` de la rama Hostinger aún no reconocía la ruta. Se prepararon solo el HTML, la ruta y la tarjeta del hub en el candidato, pero no se abrió ni fusionó PR de publicación.
+- QA de escritorio: título y contenido correctos, portada visible, 0 overflow. QA móvil 390: viewport 375 px, scroll 375 px, 0 overflow; portada visible y galería 1/26.
+- Bloqueo: en el clon QA, una imagen de galería devolvió fallo de carga para `https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/HOSPEDAJE/casa%20goia/casa%20goia%20(1).jpeg`. El logo con ruta absoluta también falla bajo el prefijo QA, como en otros clones, pero no se usa para diagnosticar producción. No se modificó ni publicó Goia.
+- Siguiente paso exacto: comparar la referencia rota de la foto con las rutas aprobadas existentes de Casa Goia en la ficha fuente y el hub. Si hay una URL existente confirmada, corregir solo esa referencia, repetir QA móvil/escritorio y entonces abrir PR mínimo de 3 archivos. Si no existe una foto aprobada que cargue, dejar Goia bloqueada y reportar la ruta exacta al propietario; no subir ni sustituir imágenes.
+- Las 5 publicaciones previas de esta ejecución siguen visibles; páginas indexables nuevas: 0. PR #46 sigue abierto; PR #48 no se sincronizó.
