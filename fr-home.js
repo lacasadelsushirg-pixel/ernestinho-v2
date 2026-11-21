@@ -49,6 +49,7 @@ function localize(){
   "fr/guia/mes-a-mes/",
   "fr/guia/permanencia/",
   "fr/guia/donde-alojarse/",
+  "fr/guia/guarda-equipaje/",
   "fr/guia/pix/",
   "fr/guia/internet/",
   "fr/transportes/",
