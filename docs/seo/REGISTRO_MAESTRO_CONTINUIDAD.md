@@ -340,3 +340,17 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Publicaciones visibles nuevas de esta ejecución: **4 páginas** (AP 702, AP 217, AP 1221 y AP 1015). Indexables nuevas: **0**, porque las rutas FR permanecen privadas para buscadores.
 - Estado PT/EN: PR #46 sigue sin fusionar ni desplegar; no se ejecutó build parcial ni total.
 - Siguiente paso exacto: continuar con AP 621 como quinto sublote mínimo (ficha, ruta y tarjeta), QA escritorio/390 px, PR puntual, pull exclusivo `/fr` y verificación HTTP; si no está completa, detener y reportar el bloqueo sin crear traducciones nuevas.
+
+
+## Publicación FR AP 621 visible en Hostinger — 21-11-2026
+
+- PR #60 fusionado: `e9691dc4927f35fc5679f3f26df531f622f23f50`. Alcance neto: `hospedaje/621/index.html`, ruta `fr/hospedaje/621/` en `fr-home.js` y enlace de la tarjeta AP 621 en `hospedaje/index.html`; 5 commits, 0 atrasados, 3 archivos.
+- Sin sincronizar PR #48 completo y sin cambios en CSS, HTML español, sitemap ni raíz pública.
+- QA detectó antes del merge que la portada original `PORTADA 621.jpeg` respondía `NoSuchKey`. Se corrigieron las tres referencias rotas para reutilizar la fotografía aprobada ya existente de AP 621 (`AP621  PORTADA.jpg`, 1254×1254); no se subió, movió ni sustituyó ningún archivo fotográfico.
+- QA Hostinger aislado: escritorio `/fr-qa-ap621-20261121/` y móvil `/fr-qa-ap621-mobile-20261121/`. Documento móvil: 375 px de ancho y 375 px de scroll, **sin overflow**; portada visible, canonical y robots correctos.
+- Hostinger producción: pull Git exclusivo en `public_html/fr`; **0 builds** y ningún cambio en `public_html` raíz.
+- HTTP real verificado: `https://www.ernestinhocarioca.com.br/fr/hospedaje/621/`; canonical FR, `noindex,nofollow`, 5 hreflang, galería `Photo 1 / 16`, portada visible, **0 imágenes rotas** y **0 overflow**.
+- Revisión: PR #60 registró 0 revisiones; autorización directa vigente del propietario, sin fingir aprobación independiente. GitHub confirmó mergeable y aplicó sus gates reales.
+- Publicaciones visibles nuevas de esta ejecución: **5 páginas** (AP 702, AP 217, AP 1221, AP 1015 y AP 621). Indexables nuevas: **0**; FR continúa privada para buscadores.
+- Estado PT/EN: PR #46 sigue sin fusionar ni desplegar; no se ejecutó build parcial ni total.
+- Siguiente paso exacto: evaluar la ficha francesa preexistente `hospedaje/goia/index.html` como sexto sublote, confirmar texto completo y fotografías, corregir solamente referencias rotas si las hubiera, QA 1440/390, PR mínimo contra `release/fr-public-initial-20261115`, pull exclusivo `/fr` y verificación HTTP. No crear traducción nueva.
