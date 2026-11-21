@@ -147,3 +147,18 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Ambas rutas pasaron QA estático de `lang=fr`, noindex, canonical, cinco hreflang, JSON-LD FR, navegación, imágenes y exclusión del renderer trilingüe. `fr-home.js` las reconoce después de existir.
 - Punto remoto de código antes de este registro: `87bf0014d35f2d0a1655075a45f47c925d616efa`. No hubo build, sitemap, Hostinger ni HTTP público. Publicaciones nuevas: **0**.
 - Reanudación exacta: siguiente ficha libre de Experiencias por orden de portada, `vuelo-en-parapente`; mantener Carnaval Experience privado hasta validar tarifas vigentes.
+
+## Checkpoint durable — vuelo libre FR 21-11-2026
+
+| Ruta | Estado real | Cobertura y bloqueo |
+|---|---|---|
+| `/fr/experiencias/vuelo-en-parapente/` | PR privado, noindex; no publicado | Francés completo; 5 imágenes, navegación, WhatsApp, canonical, 5 hreflang y JSON-LD comprobados. Promoción de octubre de 2026 vencida: requiere validación comercial. |
+| `/fr/experiencias/parasail/` | PR privado, noindex; no publicado | Francés completo; 4 imágenes, formulario/WhatsApp, canonical, 5 hreflang y JSON-LD comprobados. R$490 indicativo pendiente de confirmación. |
+| `/fr/experiencias/paracaidas/` | PR privado, noindex; no publicado | Francés completo; 3 imágenes, WhatsApp, canonical, 5 hreflang y JSON-LD comprobados. R$1.000/R$2.000 pendientes de confirmación. |
+
+- `fr-home.js` reconoce estas rutas únicamente después de existir el HTML.
+- Pruebas: igualdad exacta del conjunto de imágenes contra producción `2dce600`, robots/canonical/hreflang/JSON-LD, ausencia de `site.js`, `node --check fr-home.js` y `git diff --check`.
+- No se ejecutó build ni despliegue; Hostinger no se modificó y no hay publicación HTTP nueva.
+- Punto remoto de código antes de este registro: `9b3b3d10f11b2adcb3f0afc5348073c3b1497b11`.
+- QA visual 390/1440 sigue bloqueado en este entorno; requiere navegador operativo y revisión humana independiente.
+- Siguiente paso exacto: `/fr/experiencias/rapel/`, luego `/fr/experiencias/ala-delta/`; no sincronizar `/fr/` hasta cerrar QA visual y tarifas.
