@@ -363,3 +363,17 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 - Bloqueo: en el clon QA, una imagen de galería devolvió fallo de carga para `https://mediumturquoise-stinkbug-270478.hostingersite.com/FOTOS/HOME/HOSPEDAJE/casa%20goia/casa%20goia%20(1).jpeg`. El logo con ruta absoluta también falla bajo el prefijo QA, como en otros clones, pero no se usa para diagnosticar producción. No se modificó ni publicó Goia.
 - Siguiente paso exacto: comparar la referencia rota de la foto con las rutas aprobadas existentes de Casa Goia en la ficha fuente y el hub. Si hay una URL existente confirmada, corregir solo esa referencia, repetir QA móvil/escritorio y entonces abrir PR mínimo de 3 archivos. Si no existe una foto aprobada que cargue, dejar Goia bloqueada y reportar la ruta exacta al propietario; no subir ni sustituir imágenes.
 - Las 5 publicaciones previas de esta ejecución siguen visibles; páginas indexables nuevas: 0. PR #46 sigue abierto; PR #48 no se sincronizó.
+
+
+## Publicación FR Casa Goia visible en Hostinger — 22-11-2026
+
+- PR #61 fusionado: `34b89a2943f97920a3b759bc0b960d0393b79c0b`. Alcance neto: `hospedaje/goia/index.html`, ruta `fr/hospedaje/goia/` en `fr-home.js` y tarjeta Casa Goia en `hospedaje/index.html`; 4 commits, 0 atrasados, 3 archivos.
+- La ficha francesa preexistía en rama de continuidad. El candidato solo la incorporó a la rama conectada a Hostinger y agregó enlace de navegación.
+- QA de escritorio y móvil 390 px: canonical FR, `noindex,nofollow`, 5 hreflang, galería 1/26, portada visible y 0 overflow. El QA prefijado reporta fallo del logo por ruta absoluta del clon; en producción el logo carga.
+- Se identificó que la primera miniatura estaba declarada como `.jpeg`, mientras la fotografía aprobada existente en Hostinger es `.jpg`. Se comprobó el JPG (1600×1090) y se corrigieron ambas referencias sin mover, cargar ni sustituir fotos.
+- Hostinger: pull Git exclusivo en `public_html/fr`; 0 builds, raíz intacta.
+- HTTP real: `https://www.ernestinhocarioca.com.br/fr/hospedaje/goia/`; canonical FR, robots `noindex,nofollow`, galería operativa, 0 imágenes rotas y 0 overflow.
+- Revisión: PR #61 con 0 revisiones registradas; autorización directa del propietario aplicada y sin simular revisión independiente.
+- Publicaciones visibles nuevas en esta ronda: **6 páginas** (AP 702, AP 217, AP 1221, AP 1015, AP 621 y Casa Goia). Indexables nuevas: **0** por noindex francés.
+- PR #46 sigue abierto/sin despliegue. PR #48 no se sincronizó íntegramente. Builds generales/parciales: 0.
+- Siguiente paso exacto: detener creación nueva y comparar la lista de páginas francesas enlazables contra las 134 HTML preexistentes en `/fr/`; identificar una ficha ya completa, una por sublote, con ruta/canonical/noindex/fotos QA y pull exclusivo `/fr`. Prioridad de secciones antes de navegación secundaria: Guía, Transportes y Hospedaje. No hacer sitemap ni cambios raíz.
