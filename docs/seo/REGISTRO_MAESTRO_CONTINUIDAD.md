@@ -54,7 +54,7 @@ Actualización: 20-11-2026 · America/Sao_Paulo
 Esta comprobación posterior corrige los estados HTTP pendientes anotados arriba; no implica que las rutas sean indexables.
 
 - HEAD de producción GitHub comprobado por API: `2dce60064291de24ee325a46beacde2f4749e452`.
-- Hostinger confirma `release/fr-public-initial-20261115` enlazada únicamente al directorio `/fr`. El inventario actual de ese directorio contiene 145 archivos `index.html`: Guía 21, Transportes 12, Gastronomía 100, Hospedaje 11 e Inicio 1.
+- Hostinger confirma `release/fr-public-initial-20261115` enlazada únicamente al directorio `/fr`. El inventario actual de ese directorio contiene 145 archivos `index.html`: Guía 21, Transportes 12, Gastronomía 100, Hospedaje 11 e Inicio 1. HEAD enlazado observado desde PR #62: `34b89a2943f97920a3b759bc0b960d0393b79c0b`.
 - HTTP Hostinger: `/fr/guia/guarda-equipaje/` 200; `/fr/hospedaje/805/` 200; `/fr/hospedaje/goia/` 200; `/fr/experiencias/` 404; `/fr/transportes/transporte-privado/` 404.
 - Las tres primeras rutas responden con `noindex,nofollow`, canonical francés propio y alternates ES/PT-BR/EN/FR/x-default. Nuevas URL indexables publicadas en esta sesión: **0**.
 - QA visual de escritorio de AP 805: la página carga y el contenido está en francés. El HTML conserva un texto WhatsApp específico para alojamiento, pero `fr-home.js` lo reemplaza visualmente por «j’aimerais découvrir Rio avec vous». Se preparó la corrección mínima de un solo archivo en PR #62 (head `ebfc786647c4abbad54a0a05d0069a59fd50f523`): conservar cualquier texto de WhatsApp francés que empiece por «Bonjour» y dejar el genérico como fallback. No se modifican rutas, fotos, HTML de ES, CSS, canonical, hreflang, sitemap ni noindex.
