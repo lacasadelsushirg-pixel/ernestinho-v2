@@ -17,7 +17,7 @@ const {chromium}=require(process.env.EC_PLAYWRIGHT_PATH || 'playwright-core');
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
 // Abort before staging or copying files when approved editorial content is altered.
 verifyApprovedContent(root);
-const out=path.join(root,'dist');
+const out=path.resolve(process.env.EC_DIST_ROOT||path.join(root,'dist'));
 const origin='https://www.ernestinhocarioca.com.br';
 const configs=JSON.parse(fs.readFileSync(path.join(root,'vercel.json')));
 const redirects=new Set(configs.redirects.map(r=>r.source.replace(/\/$/,'')||'/'));
@@ -33,15 +33,17 @@ const provisionalBuziosBeach=route=>{const m=route.match(/^\/destinos\/buzios\/p
 const indexable=f=>{const route=routeFor(f);if(regionalRouteSet.has(route))return true;const html=fs.readFileSync(f,'utf8');return !/404\.html$/.test(f)&&!provisionalBuziosBeach(route)&&!redirects.has(route.replace(/\/$/,'')||'/')&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(html);};
 const indexableRoutes=new Set(files.filter(indexable).map(routeFor));
 const frenchHomeSource=path.join(root,'fr','index.html');
-const frenchHomeIndexable=fs.existsSync(frenchHomeSource)&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(fs.readFileSync(frenchHomeSource,'utf8'));
+const sourceFrenchHomeIndexable=fs.existsSync(frenchHomeSource)&&!/<meta\b[^>]*(?:http-equiv=["']refresh|name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*(?:noindex|none))/i.test(fs.readFileSync(frenchHomeSource,'utf8'));
 const prefix=(route,lang)=>lang==='ES'?route:'/'+lang.toLowerCase()+route;
 const pilot=process.argv.find(a=>a.startsWith('--routes='))?.slice(9).split(',');
 const manualUpdating=process.argv.includes('--update');
+const explicitFull=process.argv.includes('--full');
+const planOnly=process.argv.includes('--plan-only');
 if(manualUpdating&&!pilot)throw Error('--update requires --routes');
-const liveRoot=path.resolve(root,'../../../public_html');
+const liveRoot=path.resolve(process.env.EC_LIVE_ROOT||path.join(root,'../../../public_html'));
 const liveManifestPath=path.join(liveRoot,'locale-manifest.json');
 let liveManifest=null;
-if(!manualUpdating&&!process.argv.includes('--full')){
+if(!manualUpdating&&!explicitFull){
  try{
   const raw=fs.readFileSync(liveManifestPath,'utf8');
   let candidate;
@@ -54,15 +56,33 @@ if(!manualUpdating&&!process.argv.includes('--full')){
    candidate=JSON.parse(trimmed+'}');
    console.warn('Recovered published locale manifest with one missing outer brace.');
   }
-  if(Array.isArray(candidate.routes)&&candidate.routes.length&&fs.existsSync(path.join(liveRoot,'index.html')))liveManifest=candidate;
- }catch(error){console.warn('Published locale manifest unavailable; full build required: '+error.message);}
+  if(!candidate||!Array.isArray(candidate.routes))throw Error('manifest routes are missing');
+  if(candidate.routes.length<3588)throw Error('manifest has only '+candidate.routes.length+' routes; expected at least 3588');
+  if(!/^[a-f0-9]{40}$/i.test(candidate.sourceCommit||''))throw Error('manifest sourceCommit is missing or invalid');
+  const routeNames=candidate.routes.map(entry=>entry?.route).filter(Boolean);
+  if(new Set(routeNames).size!==routeNames.length)throw Error('manifest contains duplicate routes');
+  for(const required of ['/','/pt/','/en/'])if(!routeNames.includes(required))throw Error('manifest is missing '+required);
+  const indexableCount=candidate.routes.filter(entry=>entry?.indexable).length;
+  if(indexableCount<3588)throw Error('manifest has only '+indexableCount+' indexable routes; expected at least 3588');
+  for(const requiredFile of ['index.html','sitemap.xml'])if(!fs.existsSync(path.join(liveRoot,requiredFile)))throw Error('published '+requiredFile+' is unavailable');
+  liveManifest=candidate;
+ }catch(error){throw Error('SAFE ABORT: a verified published manifest is required for an automatic incremental build; public_html and dist were not changed: '+error.message);}
 }
 const currentCommit=execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim();
 const deletedSourceRoutes=new Set();
 let incrementalRoutes=null;
-let requiresFull=process.argv.includes('--full')||!liveManifest;
+let requiresFull=explicitFull;
 // Runtime-only modules are copied during incremental builds; they don't require rerendering every locale page.
-const runtimeOnlyJsAssets=new Set(['assets/js/site.js','assets/js/bulk-photo-references.js','assets/js/locale-routing.js','assets/js/translations/home.js']);
+const runtimeOnlyJsAssets=new Set(['assets/js/site.js','assets/js/bulk-photo-references.js']);
+// These files are the complete Home locale bundle. Re-render only the three indexable
+// Home variants; the private FR source is copied as-is and remains noindex.
+const homeLocaleInputs=new Set([
+ 'assets/js/i18n.js',
+ 'assets/js/locale-routing.js',
+ 'assets/js/translations/home.js',
+ 'assets/js/translations/fr/piloto-rio.json',
+ 'fr/index.html'
+]);
 if(liveManifest&&!manualUpdating&&!requiresFull){
  const baseCommit=liveManifest.sourceCommit||'34a2e081f39d95245f6720a1fb3296bde3f5891d';
  let changes;
@@ -90,6 +110,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
  }
  for(const line of changes){
   const [status,file]=line.split('\t');if(!file)continue;
+  if(homeLocaleInputs.has(file)){routes.add('/');continue;}
   // A neighbourhood editor change requires its rendered HTML pages, not a zero-route build.
   // Preserve the existing approved pages outside the neighbourhood section.
   if (file === 'scripts/regional_neighborhoods.mjs' ||
@@ -128,7 +149,7 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
   if(file.endsWith('.html')){const route=routeFor(path.join(root,file));routes.add(route);if(status==='D')deletedSourceRoutes.add(route);continue;}
   if((/^assets\/js\/.+\.js$/.test(file)&&!runtimeOnlyJsAssets.has(file)&&!/^assets\/js\/carioc-ia(?:-[a-z-]+)?\.js$/.test(file))||file==='package.json'||file==='package-lock.json'){fullRequired=true;continue;}
  }
- if(fullRequired)requiresFull=true;
+ if(fullRequired)throw Error('SAFE ABORT: this automatic deployment contains global build inputs and would require a full rebuild. Use an explicitly reviewed --full release; public_html and dist were not changed.');
  else{
   if(allBuzios)for(const file of files){const route=routeFor(file);if(route.startsWith('/destinos/buzios/'))routes.add(route);}
   incrementalRoutes=routes;
@@ -137,9 +158,18 @@ if(liveManifest&&!manualUpdating&&!requiresFull){
 const useLiveIncremental=!!liveManifest&&!manualUpdating&&!requiresFull;
 const updating=manualUpdating||useLiveIncremental;
 const previous=manualUpdating?JSON.parse(fs.readFileSync(path.join(out,'locale-manifest.json'))):useLiveIncremental?liveManifest:null;
+// Automatic incremental releases inherit the live FR tree and its current
+// indexability exactly. A source-side FR candidate must never become public as
+// a side effect of an unrelated PT/EN build.
+const frenchHomeIndexable=!useLiveIncremental&&sourceFrenchHomeIndexable;
 const selectedRoutes=pilot?new Set(pilot):useLiveIncremental?incrementalRoutes:null;
 const targets=files.filter(f=>!selectedRoutes||selectedRoutes.has(routeFor(f))).flatMap(f=>['ES','PT','EN'].map(language=>({file:f,route:routeFor(f),language})));
 console.log('Build mode: '+(useLiveIncremental?'incremental':'full')+'; rendering '+targets.length+' of '+(files.length*3)+' locale pages; source '+currentCommit);
+if(selectedRoutes)console.log('Selected source routes ('+selectedRoutes.size+'): '+[...selectedRoutes].sort().join(', '));
+if(planOnly){
+ console.log(JSON.stringify({mode:useLiveIncremental?'incremental':'full',selectedRoutes:[...(selectedRoutes||[])].sort(),targets:targets.map(target=>prefix(target.route,target.language))}));
+ process.exit(0);
+}
 // A legacy page shipped two plain-text meta declarations inside <head> without
 // their opening angle bracket. Browsers treat those lines as body text. Repair
 // only bare meta declarations in the head before either locale rendering path.
@@ -194,11 +224,17 @@ const libraries=await loadBuildLibraries();
 if(useLiveIncremental){
  fs.rmSync(out,{recursive:true,force:true});
  fs.cpSync(liveRoot,out,{recursive:true,dereference:true});
+ const missingPublished=previous.routes.map(entry=>entry.route).filter(route=>{
+  const relative=route==='/'?'index.html':route.endsWith('/')?route.slice(1)+'index.html':route.slice(1);
+  return !fs.existsSync(path.join(out,relative));
+ });
+ if(missingPublished.length)throw Error('SAFE ABORT: the published tree copy is incomplete ('+missingPublished.slice(0,10).join(', ')+'); refusing a partial deployment.');
  console.log('Seeded '+previous.routes.length+' published routes from public_html before incremental build');
 }else if(!updating)fs.rmSync(out,{recursive:true,force:true});
 fs.mkdirSync(out,{recursive:true});
 // Copy assets and route-local modules/data; exclude editorial/report/build inputs.
 function copy(dir,dest){for(const e of fs.readdirSync(dir,{withFileTypes:true})){
+ if(useLiveIncremental&&dir===root&&e.name==='fr')continue;
  if(ignore.has(e.name)||e.name.startsWith('.')||['package.json','package-lock.json','AGENTS.md','README.md','vercel.json','sitemap.xml'].includes(e.name))continue;
  const from=path.join(dir,e.name),to=path.join(dest,e.name);
  if(e.isDirectory()){fs.mkdirSync(to,{recursive:true});copy(from,to);}else if(!e.name.endsWith('.html')||isGoogleVerification(from)||path.relative(root,from).split(path.sep)[0]==='fr')fs.copyFileSync(from,to);

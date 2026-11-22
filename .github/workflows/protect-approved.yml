@@ -16,7 +16,7 @@ jobs:
   protect:
     name: Protect approved content
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 10
     steps:
       - name: Checkout exact candidate commit
         uses: actions/checkout@v4
@@ -26,8 +26,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - name: Install exact build dependencies
+        run: npm ci
       - name: Verify immutable approved baseline
         run: node scripts/guard_approved_content.mjs
+      - name: Verify Hostinger incremental build preserves the published tree
+        run: node scripts/qa_hostinger_incremental_plan.mjs
       - name: Report historical discrepancies without silently accepting them
         run: node scripts/report_legacy_approval_drift.mjs > legacy_approval_drift.json
       - name: Save report for explicit manual review
