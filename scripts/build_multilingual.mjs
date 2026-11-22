@@ -455,6 +455,20 @@ try{if(browser)await Promise.all(Array.from({length:Math.max(1,Math.min(3,Number
 if(errors.length)throw Error(JSON.stringify(errors));
 if(previous){const changed=new Set([...manifest.map(r=>r.route),...prunedRoutes]);manifest.push(...previous.routes.filter(r=>!changed.has(r.route)&&!deletedSourceRoutes.has(r.source)));}
 if(frenchHomeIndexable&&!manifest.some(r=>r.route==='/fr/'))manifest.push({route:'/fr/',source:'/fr/',language:'fr',indexable:true,generated:false,passthrough:true});
+// The published manifest can carry a legacy /fr/ entry marked indexable even
+// though the preserved French HTML is explicitly noindex. Never add that
+// stale marker to the new public sitemap, and never change the French HTML.
+if(useLiveIncremental&&manifest.some(row=>row.route==='/fr/')){
+ const frenchFile=path.join(out,'fr','index.html');
+ if(!fs.existsSync(frenchFile))throw Error('SAFE ABORT: legacy /fr/ manifest entry exists but published French HTML is missing');
+ const frenchMarkup=fs.readFileSync(frenchFile,'utf8');
+ const frenchRobotsNoindex=[...frenchMarkup.matchAll(/<meta\b[^>]*>/gi)].some(([tag])=>
+  /\bname\s*=\s*["']robots["']/i.test(tag)&&/\bcontent\s*=\s*["'][^"']*\b(?:noindex|none)\b/i.test(tag));
+ if(!frenchRobotsNoindex)throw Error('SAFE ABORT: legacy /fr/ must remain noindex; refusing to alter French indexability');
+ for(let i=manifest.length-1;i>=0;i--)if(manifest[i].route==='/fr/')manifest.splice(i,1);
+ console.log('Omitted stale /fr/ manifest entry; preserved French noindex HTML unchanged');
+}
+
 manifest.sort((a,b)=>a.route.localeCompare(b.route));
 const isPilot=previous?previous.pilot:!!pilot;
 const outputManifest=path.join(out,'locale-manifest.json');
