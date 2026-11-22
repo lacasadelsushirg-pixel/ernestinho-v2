@@ -38,12 +38,16 @@ try{
   fs.writeFileSync(destination,`<!doctype html><html><head><link rel="canonical" href="${origin+route}">${robots}${alternates}</head><body>${body}</body></html>`);
   routes.push({route,source,language,indexable:isIndexable});
  }
- fs.writeFileSync(path.join(live,'fr','index.html'),'PRIVATE-FR-SENTINEL');
+ const frenchHtml='<!doctype html><html lang="fr"><head><meta name="robots" content="noindex,nofollow"><link rel="canonical" href="'+origin+'/fr/"></head><body>PRIVATE-FR-SENTINEL</body></html>';
+ fs.writeFileSync(path.join(live,'fr','index.html'),frenchHtml);
+ // Reproduce Hostinger's 2026-11-22 failure: stale legacy FR route marked
+ // indexable in the manifest despite a real French noindex page.
+ routes.push({route:'/fr/',source:'/fr/',language:'fr',indexable:true,generated:false,passthrough:true});
  fs.writeFileSync(path.join(live,'sitemap.xml'),'<urlset/>');
  fs.writeFileSync(path.join(live,'locale-manifest.json'),JSON.stringify({
   sourceDocuments:1204,
   indexablePerLanguage:1196,
-  generated:3612,
+  generated:3613,
   pilot:false,
   sourceCommit:'13281f87fb16ba57be07f230c00d877657ba7bdf',
   routes
@@ -71,16 +75,17 @@ try{
  const built=execute(live,[]);
  if(built.status!==0)throw Error('full-tree incremental QA failed:\n'+built.stdout+'\n'+built.stderr);
  if(!built.stdout.includes('Build mode: incremental; rendering 6 of 3612 locale pages'))throw Error('incremental build did not render exactly 6/3612 pages');
- if(!built.stdout.includes('Seeded 3612 published routes from public_html'))throw Error('published tree was not seeded before rendering');
+ if(!built.stdout.includes('Seeded 3613 published routes from public_html'))throw Error('published tree was not seeded before rendering');
  if(!fs.readFileSync(path.join(dist,'en','preserved-1194','index.html'),'utf8').includes('PRESERVE-DEEP-SENTINEL'))throw Error('unrelated deep EN page was not preserved');
- if(fs.readFileSync(path.join(dist,'fr','index.html'),'utf8')!=='PRIVATE-FR-SENTINEL')throw Error('private FR tree was overwritten');
+ if(fs.readFileSync(path.join(dist,'fr','index.html'),'utf8')!==frenchHtml)throw Error('private FR tree was overwritten');
  const outputManifest=JSON.parse(fs.readFileSync(path.join(dist,'locale-manifest.json'),'utf8'));
  if(outputManifest.routes.length!==3612||outputManifest.routes.filter(entry=>entry.indexable).length!==3588)throw Error('route inventory changed during incremental build');
- if(outputManifest.routes.some(entry=>entry.route==='/fr/'))throw Error('private FR route was added to the public manifest');
+ if(outputManifest.routes.some(entry=>entry.route==='/fr/'))throw Error('legacy indexable FR route was not removed from the public manifest');
+ if(!built.stdout.includes('Omitted stale /fr/ manifest entry; preserved French noindex HTML unchanged'))throw Error('legacy French manifest correction was not exercised');
  const sitemap=fs.readFileSync(path.join(dist,'sitemap.xml'),'utf8');
  if((sitemap.match(/<url>/g)||[]).length!==3588||sitemap.includes('<loc>'+origin+'/fr/</loc>'))throw Error('public sitemap changed its 3588-route/FR-private contract');
 
- console.log('HOSTINGER INCREMENTAL QA PASS: 6/3612 rendered; 3612 documents, 3588 indexable routes, deep EN page, private FR tree and sitemap preserved; missing manifest aborts before dist changes.');
+ console.log('HOSTINGER INCREMENTAL QA PASS: 6/3612 rendered; 3613 published input documents incl legacy FR, 3612 output manifest routes, 3588 indexable routes, deep EN page, private FR tree and sitemap preserved; missing manifest aborts before dist changes.');
 }finally{
  fs.rmSync(sandbox,{recursive:true,force:true});
 }
