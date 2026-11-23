@@ -312,3 +312,11 @@ Cambios exactos:
 - La previsualización local del PR #67 no puede ejecutarse en este contenedor: Python confirma que crear `socket.AF_UNIX` falla con `PermissionError [Errno 1] Operation not permitted`; Chromium termina con `process_singleton_posix.cc: Check failed: . socket() failed: Operation not permitted` incluso invocando directamente `/usr/lib/chromium/chromium`.
 - El navegador CUA remoto tampoco puede acceder al loopback `127.0.0.1:8765` (ERR_CONNECTION_REFUSED), por estar aislado del servidor local. No se creó un staging público ni se desplegó para simular la prueba.
 - PR #67 sigue DRAFT y sin despliegue. Bloqueo preciso: falta un entorno de navegador que pueda renderizar el HTML candidato con las CSS de producción y permitir medir 390/1440 px. En cuanto esté disponible, verificar overflow, H1, imágenes, navegación y enlaces WhatsApp; luego decidir integración. La QA estática y las URL de fotos comprobadas no sustituyen este paso visual.
+
+
+### QA estática adicional del PR #67 — 23/11/2026
+
+- Las nueve referencias de imagen de las seis páginas candidatas (AP54, AP621, Goia, Casa Cândida, Casa Ñata, Casa Venti) respondieron HTTP 200 en Hostinger.
+- CSS raíz `/assets/css/tokens.css`, `app.css`, `components.css` y `hospedaje.css`: 200.
+- Las rutas enlazadas ya existentes `/fr/`, `/fr/hospedaje/`, `/fr/guia/`, AP805, AP54, AP621 y Goia responden 200. Los enlaces WhatsApp están presentes (uno por ficha); no se enviaron mensajes.
+- El alcance del PR #67 sigue en 7 archivos: seis páginas de Hospedaje y `fr-home.js`; no modifica ES/PT/EN, imágenes, mapas ni sitemap. No se fusionó ni desplegó. Publicación nueva de esta ejecución: 0. QA visual a 390/1440 sigue como el único gate técnico pendiente.
