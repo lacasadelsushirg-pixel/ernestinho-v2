@@ -264,3 +264,26 @@ Cambios exactos:
 - GitHub Actions confirmado para ese SHA: `Protect approved content` **success** y `Petrópolis preview QA` **success**.
 - Resultado exigido y obtenido: 2 fuentes seleccionadas, 6/3.612 páginas renderizadas, 3.606 documentos preservados, 3.588 URL en sitemap, página EN profunda intacta, árbol FR privado intacto y aborto seguro si falta el manifiesto.
 - El PR sustituto es #46 y está basado directamente en producción `2dce6006`. Falta únicamente revisión humana independiente; no se fusionó ni desplegó.
+
+
+## Publicación FR — lote Experiencias #65 — 2026-11-23
+
+- HEAD de producción GitHub comprobado antes de este apunte: `d917494286c5b1ebab90f0c1a82ffda2007049b7`. No se modificó esta rama ni se ejecutó un build del sitio raíz.
+- Rama FR vinculada a Hostinger: `release/fr-public-initial-20261115`. PR #65 fusionado en `d4c5d87851f77443ea73ac022f585f8a6dcdbb30`; HEAD de la rama comprobado después de la fusión: el mismo SHA.
+- Cambios: seis páginas FR de Experiencias y seis entradas en `fr-home.js`; commits de QA previos al merge culminan en `f3b3654b55caef8f35ca5037a1c3c3a3178f9232`. PR #48 no se fusionó ni se sincronizó en bloque. El parche AP805 del PR #62 se conserva.
+- Hostinger confirmó el sync Git a la carpeta `fr`, árbol limpio y sin build Node. HTTP posterior de las seis páginas: 200.
+
+| URL | Estado HTTP | Canonical/hreflang | robots | Formularios |
+|---|---:|---|---|---|
+| https://www.ernestinhocarioca.com.br/fr/experiencias/ | 200 | FR individual + alternates verificados | noindex,nofollow | N/A |
+| https://www.ernestinhocarioca.com.br/fr/experiencias/full-day-rio/ | 200 | FR individual + alternates verificados | noindex,nofollow | WhatsApp QA validado |
+| https://www.ernestinhocarioca.com.br/fr/experiencias/cristo-city-tour/ | 200 | FR individual + alternates verificados | noindex,nofollow | N/A |
+| https://www.ernestinhocarioca.com.br/fr/experiencias/angra-ilha-grande/ | 200 | FR individual + alternates verificados | noindex,nofollow | WhatsApp QA validado |
+| https://www.ernestinhocarioca.com.br/fr/experiencias/arraial-do-cabo/ | 200 | FR individual + alternates verificados | noindex,nofollow | WhatsApp QA validado |
+| https://www.ernestinhocarioca.com.br/fr/experiencias/rio-samba-bus/ | 200 | FR individual + alternates verificados | noindex,nofollow | Afiliados comprobados en HTML |
+
+- QA técnico: `node --check fr-home.js` PASS; seis HTML con idioma/canonical/alternates/título/H1; responsive local 390/1440 con CSS aprobado sin overflow; 48 URLs fotográficas 200; 24 enlaces fuente ES 200; los tres formularios completados en navegador local generan el texto francés correcto para WhatsApp, sin enviar mensajes. CSS y marca raíz 200. AP805 y `fr/fr-home.js` permanecen accesibles; sitemap raíz no contiene las rutas nuevas.
+- Fotos: no se sustituyeron. Se retiró solo metadata social de una imagen Cloudinary que daba 401; contenido visual aprobado sin cambios.
+- Publicación privada FR verificable: 6 páginas. Nuevas URLs FR indexables: 0. Inicio ES/PT/EN, rutas, mapas, sitemap raíz y builds globales: sin cambios.
+- Backup FR anterior al merge: `backup/fr-pre-pr65-20261123`, base exacta `89470eb814a6d765b444ac39b95a2ea3911b7557`.
+- Continuación exacta: revisar los cambios restantes de PR #48 contra el HEAD actual de la rama FR y el árbol en Hostinger; extraer un lote sin solapamientos de 5–10 páginas completas (prioridad Hospedaje/Experiencias), probar enlaces/fotos/canonical/noindex y visual 390/1440 antes de integrar. Para PT/EN mantener el pipeline incremental existente y exigir logs que muestren solo rutas seleccionadas; si aparece `full` o faltan guards/manifiesto, SAFE ABORT.
