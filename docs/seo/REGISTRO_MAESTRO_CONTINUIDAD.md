@@ -287,3 +287,13 @@ Cambios exactos:
 - Publicación privada FR verificable: 6 páginas. Nuevas URLs FR indexables: 0. Inicio ES/PT/EN, rutas, mapas, sitemap raíz y builds globales: sin cambios.
 - Backup FR anterior al merge: `backup/fr-pre-pr65-20261123`, base exacta `89470eb814a6d765b444ac39b95a2ea3911b7557`.
 - Continuación exacta: revisar los cambios restantes de PR #48 contra el HEAD actual de la rama FR y el árbol en Hostinger; extraer un lote sin solapamientos de 5–10 páginas completas (prioridad Hospedaje/Experiencias), probar enlaces/fotos/canonical/noindex y visual 390/1440 antes de integrar. Para PT/EN mantener el pipeline incremental existente y exigir logs que muestren solo rutas seleccionadas; si aparece `full` o faltan guards/manifiesto, SAFE ABORT.
+
+
+## Inventario siguiente lote Hospedaje FR — 2026-11-23 (QA parcial, no publicado)
+
+- Se comparó el HEAD FR Hostinger `d4c5d87851f77443ea73ac022f585f8a6dcdbb30` con PR #48 (`36927b003ab7686592c524b7fb1941d9a020bf38`). El PR #48 está 107 commits adelante y 62 detrás; no fusionar ni sincronizar en bloque.
+- Listado real de Hostinger `fr/hospedaje`: la portada y 10 páginas existentes, incluidas AP54, AP621, Goia y AP805. No están Casa Cândida, Casa Ñata ni Casa Venti.
+- Archivos candidatos que difieren del HEAD FR y se pueden acotar a seis: `hospedaje/54/index.html`, `hospedaje/621/index.html`, `hospedaje/goia/index.html`, `hospedaje/casa-candida/index.html`, `hospedaje/nata/index.html` y `hospedaje/venti/index.html`. Solo las tres últimas crean rutas nuevas. AP805 queda expresamente excluida para conservar su parche WhatsApp #62.
+- QA estática parcial: las seis tienen `lang=fr`, canonical FR individual, `noindex,nofollow`, H1, metadescripción y enlace WhatsApp. Seis imágenes representativas de fotos aprobadas respondieron HTTP 200. AP621 carece de etiqueta `<title>` y hay que corregirla antes del PR. Los HTML mantienen CSS raíz absoluto.
+- Se aplazó `hospedaje/estudio-1-1/index.html`: usa rutas CSS relativas `../../assets/...`, tiene solo 77 palabras visibles y no presenta foto HTML; requiere completar QA/correcciones sin inventar ni reemplazar fotos.
+- La prueba visual local del nuevo lote no pudo ejecutarse: Chromium falla al iniciar por restricción del contenedor (`process_singleton_posix.cc: Check failed: . socket() failed: Operation not permitted`). No se creó ni fusionó otro PR, ni se desplegó este lote. Reanudar corrigiendo AP621 y consiguiendo una vía de QA responsive técnica permitida antes de publicar.
