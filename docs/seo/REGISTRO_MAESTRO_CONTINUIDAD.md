@@ -320,3 +320,12 @@ Cambios exactos:
 - CSS raíz `/assets/css/tokens.css`, `app.css`, `components.css` y `hospedaje.css`: 200.
 - Las rutas enlazadas ya existentes `/fr/`, `/fr/hospedaje/`, `/fr/guia/`, AP805, AP54, AP621 y Goia responden 200. Los enlaces WhatsApp están presentes (uno por ficha); no se enviaron mensajes.
 - El alcance del PR #67 sigue en 7 archivos: seis páginas de Hospedaje y `fr-home.js`; no modifica ES/PT/EN, imágenes, mapas ni sitemap. No se fusionó ni desplegó. Publicación nueva de esta ejecución: 0. QA visual a 390/1440 sigue como el único gate técnico pendiente.
+
+
+### Revisión adicional de PR #67 — 23/11/2026
+
+- Rama FR de trabajo: release/fr-hospedaje-lot1-20261123; base publicada exacta d4c5d87851f77443ea73ac022f585f8a6dcdbb30. PR #67 sigue abierto como DRAFT; head tras correcciones: a0386afe531aee0fbbccc6352e58da1dc1f7e716.
+- node --check fr-home.js pasó. Las seis fichas mantienen lang=fr, título, un H1, canonical individual, noindex,nofollow y CTA WhatsApp. readyRoutes contiene las tres rutas nuevas.
+- QA HTTP detectó y corrigió dos regresiones del lote: (1) AP54 había perdido hreflang=x-default; se restauró con la URL original de la base. (2) los metadatos OG/Twitter de AP621 apuntaban a una portada 404; se restauró la URL aprobada, ahora 200 y coincidente con su hero. Las páginas preexistentes AP54, AP621 y Goia no conservan cambios de URL de fotos respecto de la base.
+- Las 16 URL de imagen extraídas de las seis fichas responden HTTP 200. El lote no toca los archivos fotográficos ni cambia HTML ES/PT/EN, mapas o sitemap.
+- Estado de publicación: 0 páginas nuevas publicadas; ninguna URL nueva indexable. No fusionar ni sincronizar todavía. Responsive visual real 390/1440 sigue bloqueado por Chromium (socket() failed: Operation not permitted); la comprobación estática no reemplaza la visual. Próximo paso exacto: probar las seis fichas en un navegador con preview local alcanzable a 390 y 1440 px; solo con overflow, navegación, imágenes y CTAs correctos, fusionar PR #67 y sincronizar únicamente el directorio /fr por Hostinger; después comprobar las seis URL HTTP y noindex.
