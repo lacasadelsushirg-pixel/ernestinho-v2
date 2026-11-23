@@ -305,3 +305,10 @@ Cambios exactos:
 - Se abrió PR #67, borrador, rama `release/fr-hospedaje-lot1-20261123`, HEAD `6bc6268d15c11bf3d1a802e4661ad2c31381f0b7`, base exacta FR `d4c5d87851f77443ea73ac022f585f8a6dcdbb30`. Incluye tres páginas nuevas (Casa Cândida, Casa Ñata, Casa Venti), tres actualizaciones existentes (AP54, AP621, Goia), y tres rutas nuevas reconocidas en `fr-home.js`. Son 7 archivos/7 commits, dentro de un solo sublote; AP805 no cambia.
 - QA estática sobre las seis páginas: `lang=fr`, `<title>`, canonical individual francés, `noindex,nofollow`, H1 y metadescripción. Seis URL representativas de fotos respondieron 200. Responsive visual 390/1440 sigue pendiente: el Chromium local no arranca por error de socket (`process_singleton_posix.cc: Check failed: . socket() failed: Operation not permitted`). Por ello el PR #67 sigue borrador y no se desplegó.
 - Próximo paso: obtener QA responsive en un navegador permitido, revisar navegación y enlaces WhatsApp, revisar las URLs de fotos restantes; si todo pasa, marcar listo, fusionar y sincronizar únicamente `/fr` por Hostinger, luego verificar HTTP real. No ejecutar build de raíz.
+
+
+### Confirmación técnica del bloqueo responsive — 2026-11-23
+
+- La previsualización local del PR #67 no puede ejecutarse en este contenedor: Python confirma que crear `socket.AF_UNIX` falla con `PermissionError [Errno 1] Operation not permitted`; Chromium termina con `process_singleton_posix.cc: Check failed: . socket() failed: Operation not permitted` incluso invocando directamente `/usr/lib/chromium/chromium`.
+- El navegador CUA remoto tampoco puede acceder al loopback `127.0.0.1:8765` (ERR_CONNECTION_REFUSED), por estar aislado del servidor local. No se creó un staging público ni se desplegó para simular la prueba.
+- PR #67 sigue DRAFT y sin despliegue. Bloqueo preciso: falta un entorno de navegador que pueda renderizar el HTML candidato con las CSS de producción y permitir medir 390/1440 px. En cuanto esté disponible, verificar overflow, H1, imágenes, navegación y enlaces WhatsApp; luego decidir integración. La QA estática y las URL de fotos comprobadas no sustituyen este paso visual.
