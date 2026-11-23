@@ -297,3 +297,11 @@ Cambios exactos:
 - QA estática parcial: las seis tienen `lang=fr`, canonical FR individual, `noindex,nofollow`, H1, metadescripción y enlace WhatsApp. Seis imágenes representativas de fotos aprobadas respondieron HTTP 200. AP621 carece de etiqueta `<title>` y hay que corregirla antes del PR. Los HTML mantienen CSS raíz absoluto.
 - Se aplazó `hospedaje/estudio-1-1/index.html`: usa rutas CSS relativas `../../assets/...`, tiene solo 77 palabras visibles y no presenta foto HTML; requiere completar QA/correcciones sin inventar ni reemplazar fotos.
 - La prueba visual local del nuevo lote no pudo ejecutarse: Chromium falla al iniciar por restricción del contenedor (`process_singleton_posix.cc: Check failed: . socket() failed: Operation not permitted`). No se creó ni fusionó otro PR, ni se desplegó este lote. Reanudar corrigiendo AP621 y consiguiendo una vía de QA responsive técnica permitida antes de publicar.
+
+
+### Rectificación de QA y nuevo borrador Hospedaje — 23/11/2026
+
+- Corrección: la inspección inicial informó que AP621 no tenía `<title>`, pero sí lo tiene como `<title data-i18n="stay.title.621">...`; el extractor anterior solo detectaba la forma sin atributos. No hacía falta cambiar ese metadato.
+- Se abrió PR #67, borrador, rama `release/fr-hospedaje-lot1-20261123`, HEAD `6bc6268d15c11bf3d1a802e4661ad2c31381f0b7`, base exacta FR `d4c5d87851f77443ea73ac022f585f8a6dcdbb30`. Incluye tres páginas nuevas (Casa Cândida, Casa Ñata, Casa Venti), tres actualizaciones existentes (AP54, AP621, Goia), y tres rutas nuevas reconocidas en `fr-home.js`. Son 7 archivos/7 commits, dentro de un solo sublote; AP805 no cambia.
+- QA estática sobre las seis páginas: `lang=fr`, `<title>`, canonical individual francés, `noindex,nofollow`, H1 y metadescripción. Seis URL representativas de fotos respondieron 200. Responsive visual 390/1440 sigue pendiente: el Chromium local no arranca por error de socket (`process_singleton_posix.cc: Check failed: . socket() failed: Operation not permitted`). Por ello el PR #67 sigue borrador y no se desplegó.
+- Próximo paso: obtener QA responsive en un navegador permitido, revisar navegación y enlaces WhatsApp, revisar las URLs de fotos restantes; si todo pasa, marcar listo, fusionar y sincronizar únicamente `/fr` por Hostinger, luego verificar HTTP real. No ejecutar build de raíz.
