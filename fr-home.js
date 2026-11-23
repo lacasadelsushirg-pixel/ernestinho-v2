@@ -74,7 +74,13 @@ function localize(){
   "fr/hospedaje/1221/",
   "fr/hospedaje/1015/",
   "fr/hospedaje/621/",
-  "fr/hospedaje/goia/"
+  "fr/hospedaje/goia/",
+  "fr/experiencias/",
+  "fr/experiencias/full-day-rio/",
+  "fr/experiencias/cristo-city-tour/",
+  "fr/experiencias/angra-ilha-grande/",
+  "fr/experiencias/arraial-do-cabo/",
+  "fr/experiencias/rio-samba-bus/"
 ]);
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
