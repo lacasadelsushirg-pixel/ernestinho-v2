@@ -354,3 +354,13 @@ Cambios exactos:
 1. Repetir en un navegador con emulación verificable 390×844 y 1440×900 las seis rutas de Hospedaje, navegación, scroll, galería y CTA.
 2. Si todas pasan, cerrar QA, integrar el lote #67 sobre HEAD FR fresco y sincronizar solo la carpeta Git `/fr` de Hostinger; verificar después las seis rutas de producción por HTTP, canonical, noindex, fotos y CTAs.
 3. Mientras siga pendiente el viewport, no fusionar/desplegar #67. Continuar con la siguiente sección prioritaria y correcciones PT/EN independientes; nunca iniciar build raíz masivo.
+
+
+### Revalidación de Hostinger FR y navegación — 25/11/2026
+
+- Se abrieron desde la raíz pública las seis URLs de Experiencias ya desplegadas por #65; todas mostraron su documento y H1 francés. Se leyó el HTML servido en Hostinger: seis canonicals individuales bajo `/fr/experiencias/`, `lang=fr` y `robots=noindex,nofollow`. No se añadió otra vez ninguna de estas fichas ni se cuenta una publicación nueva en esta sesión.
+- Las fichas mantienen fotos y CTA funcionales: las cinco páginas de excursión/tour tienen solicitud WhatsApp; Rio Samba Bus conserva sus enlaces de reserva con el operador afiliado.
+- En el índice de Experiencias los vínculos a las fichas recién publicadas llevan a sus rutas FR. Se detectó un problema preexistente en la portada `/fr/`: el enlace superior “EXCURSIONS” aún apunta a la ruta española `/experiencias/`, aunque `/fr/experiencias/` existe. No se cambió el JavaScript ni la navegación en este checkpoint; siguiente corrección candidata, acotada a las rutas FR ya publicadas y validada en staging antes de sincronizar.
+- La raíz de producción `/fr/hospedaje/` todavía solo lista los alojamientos previos. Casa Cândida, Casa Ñata y Casa Venti de #67 no están en la carpeta servida. Por tanto, el lote de Hospedaje tiene **0 rutas nuevas publicadas** y permanece solo en staging/PR.
+- Publicaciones nuevas en esta ejecución: **0 páginas** (el candidato #67 quedó detenido por viewport móvil/escritorio). El cambio de #65 antecede a esta ejecución y ya estaba visible/noindex.
+- No se ejecutó build de raíz ni se tocó la carpeta `public_html` raíz.
