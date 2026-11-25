@@ -90,7 +90,7 @@ function localize(){
     const sourcePath=url.pathname.replace(/^\/+/, '');
     const knownFrenchPath=sourcePath.startsWith('fr/')?sourcePath:'fr/'+sourcePath;
     if(sourcePath && readyRoutes.has(knownFrenchPath) && (url.origin===location.origin || url.origin===new URL(ROOT).origin)){
-      const target=(isPreview?location.origin+previewRoot:ROOT)+knownFrenchPath+url.search+url.hash;
+      const target=ROOT+knownFrenchPath+url.search+url.hash;
       if(link.href!==target)link.href=target;
       continue;
     }
