@@ -86,6 +86,14 @@ function localize(){
     const raw=link.getAttribute('href');
     if(!raw||raw.startsWith('#')||/^(?:mailto:|tel:|javascript:|data:)/i.test(raw))continue;
     let url;try{url=new URL(raw,location.href)}catch{continue}
+    // Keep the French home on ready French routes even when its source href is absolute production.
+    const sourcePath=url.pathname.replace(/^\\/+/, '');
+    const knownFrenchPath='fr/'+sourcePath;
+    if(!sourcePath.startsWith('fr/') && readyRoutes.has(knownFrenchPath) && (url.origin===location.origin || url.origin===new URL(ROOT).origin)){
+      const target=(isPreview?location.origin+previewRoot:ROOT)+knownFrenchPath+url.search+url.hash;
+      if(link.href!==target)link.href=target;
+      continue;
+    }
     const pagePath=url.pathname.startsWith(previewRoot)?url.pathname.slice(previewRoot.length):null;
     if(isPreview && url.origin===location.origin && pagePath===null){
       const sourcePath=url.pathname.replace(/^\/+/, '');
