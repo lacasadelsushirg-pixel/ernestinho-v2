@@ -87,7 +87,7 @@ function localize(){
     if(!raw||raw.startsWith('#')||/^(?:mailto:|tel:|javascript:|data:)/i.test(raw))continue;
     let url;try{url=new URL(raw,location.href)}catch{continue}
     // Keep the French home on ready French routes even when its source href is absolute production.
-    const sourcePath=url.pathname.replace(/^\\/+/, '');
+    const sourcePath=url.pathname.replace(/^\/+/, '');
     const knownFrenchPath=sourcePath.startsWith('fr/')?sourcePath:'fr/'+sourcePath;
     if(sourcePath && readyRoutes.has(knownFrenchPath) && (url.origin===location.origin || url.origin===new URL(ROOT).origin)){
       const target=(isPreview?location.origin+previewRoot:ROOT)+knownFrenchPath+url.search+url.hash;
