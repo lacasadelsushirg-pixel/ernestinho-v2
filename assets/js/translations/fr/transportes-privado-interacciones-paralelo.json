@@ -1,0 +1,60 @@
+{
+  "language": "fr",
+  "status": "supplement_only_not_integrated_not_published",
+  "source": "transportes/transporte-privado/index.html",
+  "source_sha": "98a9774269889b29f08d36808bf3c86e829ac1d1",
+  "runtime_warning": "Four source inline scripts only support es/pt/en and default to es for fr. Do not change approved scripts directly. Add FR in a coordinated private renderer; preserve stable form option values for JS tariff lookup. Current advertised tariffs expired 2026-10-31.",
+  "fr": {
+    "simpleWhatsappMessage": "Bonjour, je souhaite demander un devis pour mon transfert\n\n🚗 Transport : privé\n📆 Date :\n👤 Nom du titulaire :\n🕛 Heure :\n✈️ Numéro de vol :\n👥 Nombre de passagers :\n🧳 Nombre de valises :\n📍 Adresse de départ :\n🏁 Adresse d'arrivée :\n📲 Numéro de contact :",
+    "formWhatsappLabels": [
+      "Bonjour, je souhaite réserver un transfert privé ou obtenir un devis",
+      "Trajet",
+      "Véhicule",
+      "Ancien tarif indicatif",
+      "Date",
+      "Nom du titulaire",
+      "Heure",
+      "Numéro de vol",
+      "Nombre de passagers",
+      "Nombre de valises",
+      "Adresse de départ",
+      "Adresse d'arrivée",
+      "Numéro de contact",
+      "Remarques",
+      "Merci de confirmer la disponibilité et le tarif définitif ; les prix publiés étaient valables jusqu'au 31/10/2026."
+    ],
+    "formPricePreview": "Ancien tarif indicatif : {price} R$ (validité terminée le 31/10/2026). Demandez un devis actuel avant toute réservation.",
+    "formNoPrice": "Choisissez un trajet et un véhicule pour consulter la référence historique. Un devis actualisé reste nécessaire.",
+    "banner1Alt": "Transfert privé à Rio de Janeiro",
+    "banner2Alt": "Réservez votre transfert privé",
+    "bannerReserveLabel": "Réserver mon transfert",
+    "bannerChatLabel": "💬 Renseignements par WhatsApp",
+    "videoIframeTitle": "Vidéo des transferts d'Ernestinho Carioca sur Instagram",
+    "departureOriginOption": "Autre trajet / devis personnalisé",
+    "vehicleSuggestionOption": "Conseiller un véhicule",
+    "formDisclosures": [
+      "Les informations envoyées sur WhatsApp constituent une demande de devis, pas une réservation confirmée.",
+      "Le tarif définitif, les conditions de paiement et la disponibilité doivent être confirmés par écrit."
+    ]
+  },
+  "image_assets": {
+    "fr_banners_created": false,
+    "fr_banners_verified": false,
+    "required_images": 2,
+    "notes": "Original banners have image-embedded language copy in ES/PT/EN; user requires preserving visual identity. Do not repurpose Spanish banner as French or claim French parity until translated equivalent imagery is created and approved."
+  },
+  "integration_requirements": [
+    "Add fr to all inline language selectors and label lookups in a private branch after reconciling Work PR #24; avoid ES fallback.",
+    "Keep original stable select value attributes in Spanish where required for lookup; translate only displayed option label, not value.",
+    "Do not expose expired 2026-10-31 prices as current; refresh rate sheet and confirm date with owner before public release.",
+    "Keep all sources, optional notes, child seat prompts, fare exclusion and availability disclosure; test WhatsApp generated URL and fields end-to-end.",
+    "Verify video lazy load, FR video title, banner language and text overlay, mobile 390px and desktop 1440px."
+  ],
+  "source_strings_translated": {
+    "simple_whatsapp_message": 1,
+    "labels": 15,
+    "price_preview": 2,
+    "cta_and_alt": 5,
+    "disclosure_and_notes": 2
+  }
+}
