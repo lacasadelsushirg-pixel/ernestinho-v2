@@ -329,3 +329,28 @@ Cambios exactos:
 - QA HTTP detectó y corrigió dos regresiones del lote: (1) AP54 había perdido hreflang=x-default; se restauró con la URL original de la base. (2) los metadatos OG/Twitter de AP621 apuntaban a una portada 404; se restauró la URL aprobada, ahora 200 y coincidente con su hero. Las páginas preexistentes AP54, AP621 y Goia no conservan cambios de URL de fotos respecto de la base.
 - Las 16 URL de imagen extraídas de las seis fichas responden HTTP 200. El lote no toca los archivos fotográficos ni cambia HTML ES/PT/EN, mapas o sitemap.
 - Estado de publicación: 0 páginas nuevas publicadas; ninguna URL nueva indexable. No fusionar ni sincronizar todavía. Responsive visual real 390/1440 sigue bloqueado por Chromium (socket() failed: Operation not permitted); la comprobación estática no reemplaza la visual. Próximo paso exacto: probar las seis fichas en un navegador con preview local alcanzable a 390 y 1440 px; solo con overflow, navegación, imágenes y CTAs correctos, fusionar PR #67 y sincronizar únicamente el directorio /fr por Hostinger; después comprobar las seis URL HTTP y noindex.
+
+
+## Checkpoint de ejecución — 2026-11-25
+
+### Hospedaje FR: alternativa de QA aislada en Hostinger
+
+- PR #67 se mantiene abierto como borrador, HEAD `a0386afe531aee0fbbccc6352e58da1dc1f7e716`, sobre la base FR `d4c5d87851f77443ea73ac022f585f8a6dcdbb30`. Sin merge ni publicación en `/fr`.
+- Se creó una rama de QA separada `qa/fr-hospedaje-pr67-20261125` a partir del candidato #67. Sus seis commits de QA ajustan solo en esa rama las referencias CSS a `/fr/assets/`; las páginas originales del PR y la rama FR publicada no se alteraron.
+- Hostinger desplegó esa rama en el subdirectorio aislado `/fr-qa-pr67` del dominio staging `deeppink-quail-855227.hostingersite.com`. El registro de despliegue confirmó clonación Git y ausencia de build/composer. No se reemplazó `/fr` ni `public_html`.
+- Las seis rutas de staging abrieron en el navegador remoto y mostraron contenido francés, H1, datos del alojamiento, galería fotográfica y CTA WhatsApp. El enlace de WhatsApp se inspeccionó sin enviar mensaje. Títulos/canonicals apuntan a la ruta francesa de producción; `lang=fr`, `noindex,nofollow` y `googlebot noindex` continúan.
+- Se revisó visualmente escritorio en el navegador remoto (viewport disponible aprox. 1340×920). El navegador CUA no expone cambio de viewport ni DevTools; la combinación local Chromium sigue bloqueada por sockets/seccomp. Por ello, QA visual real a 390 y 1440 px no está completa y PR #67 sigue borrador.
+- CSS estático de staging presente: `app.css` declara breakpoints 900 px; `hospedaje.css` a 700 px organiza capacidad en dos columnas, amenidades en una y galería en 4:3. Esto no sustituye la prueba visual de los dos viewports.
+- Las seis fichas leídas desde el directorio de QA tienen canonical individual, `lang=fr`, ambos robots noindex, un H1 y alt en sus imágenes; las seis contienen WhatsApp. Las galerías interactivas están en las tres páginas nuevas y las tres actualizadas muestran sus controles existentes en el árbol accesible.
+- Publicaciones nuevas en producción Hostinger `/fr`: **0**. Rutas nuevas indexables: **0**. El contenido de staging no se cuenta como publicado.
+
+### Inicio PT-BR/EN y estado paralelo
+
+- Hostinger raíz sirve `assets/js/translations/home.js` (25.190 bytes leídos) con las cadenas editoriales actuales PT-BR y EN. Las páginas `/pt/` y `/en/` mantienen canonicals propios; la inspección visual previa de ambas páginas confirmó idioma y navegación correspondientes. No se abrió otro PR de traducción duplicado.
+- PR #42 continúa abierto/no fusionable con base antigua `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; no se mezcló ni se usó para publicar. El siguiente trabajo PT/EN debe partir de la rama de producción actual y de lo que Hostinger realmente sirve, no del candidato obsoleto.
+
+### Siguiente paso exacto
+
+1. Repetir en un navegador con emulación verificable 390×844 y 1440×900 las seis rutas de Hospedaje, navegación, scroll, galería y CTA.
+2. Si todas pasan, cerrar QA, integrar el lote #67 sobre HEAD FR fresco y sincronizar solo la carpeta Git `/fr` de Hostinger; verificar después las seis rutas de producción por HTTP, canonical, noindex, fotos y CTAs.
+3. Mientras siga pendiente el viewport, no fusionar/desplegar #67. Continuar con la siguiente sección prioritaria y correcciones PT/EN independientes; nunca iniciar build raíz masivo.
