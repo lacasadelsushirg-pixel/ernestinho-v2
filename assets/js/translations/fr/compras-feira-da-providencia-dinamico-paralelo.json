@@ -1,0 +1,63 @@
+{
+  "source_path": "compras/feira-da-providencia/index.html",
+  "source_sha": "24c08774084907aab56b99e45e616ea91617e2a0",
+  "language": "fr",
+  "status": "STAGING_ONLY",
+  "runtime_D_fr": {
+    "eyebrow": "Guide d'Ernestinho Carioca · Foires et marchés de Rio",
+    "heroSub": "Communauté, culture et commerces locaux au cœur de Rio",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Une foire qui parle de communauté et de dignité",
+    "intro": "Je vous recommande de découvrir la Feira da Providência avec un regard respectueux. Pour moi, ce n'est pas une attraction permettant d'observer la vie des autres : c'est un espace de travail, de culture, d'entrepreneuriat et de rencontres. La visite prend tout son sens lorsque vous achetez directement, écoutez, posez des questions avec respect et comprenez que chaque produit représente des personnes et des projets.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "Feira da Providência : communauté, culture et commerce local au cœur de Rio",
+    "ambK": "L'ambiance",
+    "ambTitle": "Venez comme visiteur, pas comme spectateur",
+    "amb": "La foire peut réunir des produits, des conversations, de la gastronomie et des activités liées à une communauté qui travaille pour créer des possibilités. Je me promènerais tranquillement, demanderais la permission avant de photographier et respecterais les espaces non ouverts au public. Je ne veux ni romantiser les difficultés ni transformer la vie des gens en décor : l'expérience doit reposer sur les échanges et le respect.",
+    "buyK": "Des achats qui ont du sens",
+    "buyTitle": "Ce que j'achèterais à la foire",
+    "buy": "Je chercherais de l'artisanat, des produits d'entrepreneurs locaux, des aliments, douceurs, boissons, vêtements, accessoires, objets de décoration, œuvres d'art, cadeaux et souvenirs ayant une histoire précise. L'offre dépend des exposants et de chaque édition. Je conseille d'acheter directement, de demander l'origine des produits et de valoriser le travail, sans supposer que tous les stands proposent la même chose.",
+    "foodK": "Saveurs et entrepreneuriat",
+    "foodTitle": "Cuisine locale et travail communautaire",
+    "food": "Si l'édition que vous visitez comprend des stands de restauration, profitez-en pour découvrir l'expérience : demandez les ingrédients, les modes de conservation et les plats disponibles. Je ne vais pas inventer de spécialités ou de vendeurs, puisque l'offre varie. Distinguez toujours les activités organisées à la foire des restaurants des environs.",
+    "respectK": "Visiter avec respect",
+    "respectTitle": "Comment se comporter et profiter de l'expérience",
+    "respect": "Demandez la permission avant de photographier des personnes, des enfants, des maisons ou des espaces privés. N'entrez pas dans des zones interdites, ne posez pas de questions indiscrètes et ne négociez pas de façon agressive. Venez en visiteur, écoutez les entrepreneurs, achetez quand vous le pouvez et suivez les indications locales. Si vous voyagez avec des enfants, expliquez-leur qu'ils ne visitent pas un décor, mais une communauté vivante.",
+    "planK": "Conseils pratiques",
+    "planTitle": "Quand venir et comment s'y rendre",
+    "plan": "Vérifiez le jour, les horaires et le lieu exact avant de partir : la foire peut être temporaire ou changer en raison de la pluie, d'événements ou des décisions de l'organisation. Depuis Copacabana, Ipanema, Botafogo ou Flamengo, vous pouvez combiner métro, VLT, bus, taxi, Uber ou 99 ; consultez l'itinéraire sur Google Maps ou Moovit. Je privilégierais une arrivée de jour et organiserais le retour.",
+    "hoursTitle": "Fonctionnement",
+    "hours": [
+      "Jour et horaires : vérifiez l'édition en cours avant de partir.",
+      "Stands et activités : ils peuvent changer selon la date.",
+      "Pluie, événements et organisation : la programmation peut être modifiée.",
+      "Jours, horaires, stands, activités et conditions peuvent évoluer. Vérifiez avant de partir."
+    ],
+    "safeK": "Attention à ceci",
+    "safeTitle": "Respectez le quartier et surveillez vos affaires",
+    "safe": "Comme dans tout lieu fréquenté, surveillez téléphone, portefeuille et sacs. N'emportez que le nécessaire, gardez votre téléphone chargé et utilisez des transports connus. Ne supposez pas que tous les espaces sont accessibles aux visiteurs : renseignez-vous avant de monter ou d'entrer dans des lieux privés. Ne stigmatisez pas la communauté et suivez les indications locales.",
+    "address": "Feira da Providência\nConfirmez le lieu exact de l'édition actuelle\nRio de Janeiro – RJ\nVérifiez les horaires, l'accès et les conditions avant de partir.",
+    "footer": "Je vous accompagne à la découverte d'un Rio qui se construit aussi par le travail, la culture, l'entrepreneuriat et la communauté.",
+    "cats": [
+      "Artisanat et produits locaux",
+      "Gastronomie",
+      "Vêtements et accessoires",
+      "Art et décoration",
+      "Douceurs et boissons",
+      "Cadeaux porteurs d'histoires"
+    ]
+  },
+  "runtime_story_fr": [
+    "Aujourd'hui, je veux vous parler d'une foire qui mérite d'être visitée avec un regard différent : la Feira da Providência. Pour moi, ce n'est pas un décor touristique ni un moyen d'observer la vie des autres de l'extérieur. C'est une initiative associée au travail, à la culture et à la création de possibilités.",
+    "À votre arrivée, vous pourrez trouver des produits, des saveurs, des conversations et des projets. Je ne vais pas inventer de liste figée : chaque édition peut changer. Je préfère expliquer comment découvrir ce lieu : demandez qui fabrique les articles, quelle histoire les accompagne et comment votre achat peut soutenir directement un entrepreneur.",
+    "Le lien avec Providência et la zone portuaire doit être raconté avec respect. Tout espace communautaire n'est pas touristique et tout ne peut pas être photographié. En tant qu'hôte, je vous conseille de suivre les consignes de l'organisation et de ne pas entrer dans des lieux privés ou interdits.",
+    "Je ne veux pas embellir la réalité : la foire n'a pas forcément lieu tous les jours, l'offre varie et la logistique doit être vérifiée. Mais en venant avec respect, curiosité et l'envie d'écouter, vous découvrirez une partie précieuse de Rio : une ville qui se construit aussi à travers ses communautés."
+  ],
+  "qa": {
+    "source_D_keys": 30,
+    "fr_keys": 30,
+    "source_story_count": 4,
+    "fr_story_count": 4
+  },
+  "critical_editorial_review": "Validate identity, organizer, existence, schedule and geographic attribution of Feira da Providência independently before any public release; original source may conflate events/community geography. Translate faithfully without asserting fresh fact."
+}

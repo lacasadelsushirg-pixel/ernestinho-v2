@@ -1,0 +1,62 @@
+{
+  "source_path": "compras/feira-organica-gloria/index.html",
+  "source_sha": "23a91c17a0a770d5d1a5c82bfb6bb214c417c54b",
+  "language": "fr",
+  "status": "STAGING_ONLY_NOT_INTEGRATED",
+  "runtime_D_fr": {
+    "eyebrow": "Guide d'Ernestinho Carioca · Foires et marchés de Rio",
+    "heroSub": "Produits frais, producteurs et vie locale à Rio",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Un marché pour mieux acheter et découvrir le quartier",
+    "intro": "Je vous recommande ce marché de producteurs pour un samedi matin à Glória. ABIO confirme son emplacement et son horaire au sein du circuit biologique : Praça do Russell, de 7 h à 13 h.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "Marché bio de Glória : produits frais, producteurs et vie locale à Rio",
+    "ambK": "L'ambiance",
+    "ambTitle": "Une place où chaque produit a un visage",
+    "amb": "L'ambiance est différente de celle d'un supermarché. Je prendrais le temps d'observer les stands, les produits, les étiquettes et les échanges. Glória est reliée à Flamengo et Catete, et cette vie de quartier fait partie de l'expérience. La diversité dépend du jour et de l'arrivée des producteurs.",
+    "buyK": "Des achats qui ont du sens",
+    "buyTitle": "Ce que j'achèterais au marché",
+    "buy": "Je chercherais des fruits, légumes, herbes, pains, douceurs, miel, café, conserves, boissons et produits de l'agriculture familiale, uniquement s'ils sont effectivement proposés. Je demanderais qui les produit, comment ils sont cultivés et conservés. L'offre évolue et tous les stands ne vendent pas la même chose.",
+    "howK": "Bien acheter",
+    "howTitle": "Comment reconnaître les produits et mieux les conserver",
+    "how": "Attention : l'apparence naturelle d'un produit ne prouve pas qu'il est certifié biologique. Demandez des précisions sur les certifications, l'origine et les méthodes de culture. Vérifiez les étiquettes, dates, ingrédients, allergènes, emballages et conditions de conservation. Je ne laisserais pas des aliments frais des heures au soleil et demanderais comment les transporter. En cas de problème de santé ou d'allergie, vérifiez toujours les informations directement auprès du producteur.",
+    "recK": "Ernestinho recommande",
+    "recTitle": "Achetez en direct et n'hésitez pas à poser des questions",
+    "rec": "J'arriverais tôt pour profiter d'un plus grand choix, emporterais un sac adapté et n'achèterais que ce que je peux consommer ou bien conserver. Vous pouvez combiner cette visite avec Glória, Flamengo ou Catete. Je ne veux pas embellir la réalité : produits, horaires et producteurs peuvent changer. Mon meilleur conseil est de poser des questions sans gêne et d'acheter avec discernement.",
+    "planK": "Conseils pratiques",
+    "planTitle": "Quand venir et comment s'y rendre",
+    "plan": "Le programme actuel d'ABIO mentionne le marché bio de Glória le samedi à la Praça do Russell, Rua do Russell ; le circuit indique un horaire général de 7 h à 13 h. Le point de repère est Rua do Russell, en face du numéro 300, à Glória. Depuis le métro Glória, vous pouvez rejoindre la place à pied. La Feira da Glória du dimanche est un autre événement ; consultez le calendrier d'ABIO avant de partir.",
+    "hoursTitle": "Fonctionnement",
+    "hours": [
+      "Le samedi, de 7 h à 13 h, selon le programme actuel d'ABIO.",
+      "Praça Luís de Camões / Praça do Russell, Rua do Russell, Glória.",
+      "Récoltes, stands et offre évoluent selon les saisons.",
+      "La Feira da Glória du dimanche est un autre marché, à une autre date."
+    ],
+    "safeK": "Attention à ceci",
+    "safeTitle": "Les produits frais demandent des précautions",
+    "safe": "Vérifiez la conservation, l'emballage, les dates et les ingrédients. Demandez quels allergènes sont présents et ne touchez pas aux aliments sans permission. Protégez vos achats de la chaleur, séparez les aliments des autres produits et préparez le retour. Je ne présente aucun produit comme thérapeutique et ne garantis aucune certification sans vérification.",
+    "address": "Feira Orgânica da Glória · ABIO\nPraça Luís de Camões / Praça do Russell · Rua do Russell, en face du nº 300 · Glória · Rio de Janeiro – RJ\nLe samedi, de 7 h à 13 h selon le calendrier d'ABIO.",
+    "footer": "Je vous accompagne à la découverte d'un Rio que l'on comprend aussi à travers ses producteurs, ses aliments et sa vie de quartier.",
+    "cats": [
+      "Fruits et légumes",
+      "Herbes et légumes-feuilles",
+      "Pains et douceurs",
+      "Miel, café et conserves",
+      "Produits régionaux",
+      "Agriculture familiale"
+    ]
+  },
+  "runtime_story_fr": [
+    "Le marché bio de Glória est l'un des marchés hebdomadaires pionniers de Rio : né en 1995, il fait aujourd'hui partie du Circuito Carioca de Feiras Orgânicas, coordonné par ABIO. C'est un lieu de rencontre entre producteurs, commerçants et habitants, distinct du marché de rue du dimanche.",
+    "Il se tient le samedi matin à la Praça Luís de Camões, près de la Rua do Russell. ABIO le mentionne dans son programme hebdomadaire ; le circuit rassemble des producteurs liés à l'agriculture biologique et agroécologique.",
+    "Je le visiterais en posant des questions : d'où viennent les aliments, comment sont-ils cultivés et quelle est leur saison ? Si vous cherchez le marché culturel de Glória du dimanche, il s'agit d'un événement différent."
+  ],
+  "qa": {
+    "source_D_keys": 30,
+    "translated_D_keys": 30,
+    "story_original": 3,
+    "story_fr": 3
+  },
+  "editorial_review": "ABIO Saturday dates/hours, Praça do Russell, biological products/certification and food health information should be reverified from official sources before public release. Sunday Feira da Glória is a different event."
+}

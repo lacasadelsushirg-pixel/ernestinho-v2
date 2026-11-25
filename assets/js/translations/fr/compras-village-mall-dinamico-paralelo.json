@@ -1,0 +1,54 @@
+{
+  "source_path": "compras/village-mall/index.html",
+  "source_sha": "26237c5ca2a6991af8739cf52a88cf272166fb63",
+  "language": "fr",
+  "status": "STAGING_ONLY",
+  "runtime_D_fr": {
+    "eyebrow": "Guide d'Ernestinho Carioca · Barra da Tijuca",
+    "heroSub": "Luxe, gastronomie et un visage plus raffiné de Barra da Tijuca",
+    "introK": "Mon regard d'hôte",
+    "introTitle": "Une expérience différente à Barra",
+    "intro": "Je vais vous dire une chose d'emblée : VillageMall n'est pas simplement un centre commercial de plus à Rio. Pour moi, c'est une expérience plus raffinée à Barra da Tijuca, conçue pour ceux qui souhaitent associer marques haut de gamme, gastronomie et une atmosphère différente de celle des centres commerciaux traditionnels.",
+    "storyK": "L'histoire que je vous raconte",
+    "storyTitle": "VillageMall : luxe, gastronomie et un visage plus raffiné de Barra da Tijuca",
+    "placeK": "L'ambiance",
+    "placeTitle": "Ce n'est pas BarraShopping, et la différence compte",
+    "place": "BarraShopping offre une grande diversité de boutiques et de possibilités pratiques pour y passer plusieurs heures. VillageMall propose un autre rythme : marques haut de gamme, restaurants et expérience plus exclusive. Je ne les présenterais pas comme deux centres commerciaux identiques. Vous pouvez combiner les deux si vous avez le temps ; pour un achat économique et rapide, VillageMall ne sera probablement pas votre premier choix.",
+    "luxK": "Marques haut de gamme",
+    "luxTitle": "Les marques que je regarderais d'abord",
+    "lux": "Les photos reçues montrent Gucci et Dior, deux enseignes que je regarderais en premier si vous recherchez luxe et design. Vérifiez toujours l'annuaire officiel du jour : marques, collections et conditions peuvent changer. Attention aux prix : mieux vaut venir avec un budget et une idée précise de ce que vous cherchez.",
+    "foodK": "Une pause raffinée",
+    "foodTitle": "Prendre le temps de bien manger",
+    "food": "Je profiterais de VillageMall pour un repas tranquille, un café ou une pause après les boutiques. L'offre gastronomique doit être vérifiée dans l'annuaire officiel ; certaines adresses peuvent être plus sophistiquées que dans une aire de restauration classique. Pour moi, manger fait partie de l'expérience, ce n'est pas seulement une interruption.",
+    "recK": "Ernestinho recommande",
+    "recTitle": "Venez avec les bonnes attentes",
+    "rec": "Je ne veux pas vous vendre du rêve : si vous cherchez seulement un souvenir bon marché ou un achat rapide, VillageMall n'est probablement pas l'endroit idéal. Je l'inclurais au programme si vous recherchez des marques premium, de la gastronomie, du design, une ambiance plus calme ou si vous souhaitez le combiner avec BarraShopping. Si vous séjournez à Copacabana, le trajet vers Barra peut être long ; prévoyez le retour et vérifiez la circulation.",
+    "planK": "Conseils pratiques",
+    "planTitle": "Horaires et comment venir",
+    "plan": "Depuis Copacabana, Ipanema, Leblon, Botafogo ou le centre, prendre MetrôRio jusqu'à Jardim Oceânico puis une correspondance avec le BRT peut être une possibilité ; vérifiez les lignes et l'état du service du jour sur Google Maps ou Moovit. Avec des sacs ou en famille, Uber, 99, un taxi ou une voiture sont souvent plus confortables. La circulation peut complètement modifier le temps de trajet.",
+    "hoursTitle": "Horaires",
+    "hours": [
+      "Boutiques : vérifiez les horaires en vigueur sur le site officiel.",
+      "Restaurants, cinéma et services : ils peuvent avoir des horaires différents.",
+      "Dimanches et jours fériés : des horaires particuliers peuvent s'appliquer.",
+      "Les horaires des boutiques, restaurants, cinémas, activités et jours fériés peuvent changer. Vérifiez avant de partir."
+    ],
+    "addressK": "Adresse et liens",
+    "addressTitle": "Une visite à savourer sans se presser",
+    "address": "VillageMall\nAvenida das Américas, 3900\nBarra da Tijuca, Rio de Janeiro – RJ\nVérifiez le code postal, les coordonnées et les horaires sur le site officiel avant de partir.",
+    "footer": "Je vous accompagne à la découverte d'un Rio plus vaste : Barra possède aussi un visage élégant, gastronomique et plein de possibilités."
+  },
+  "runtime_story_fr": [
+    "Aujourd'hui, je veux vous parler d'un lieu que je présente avec des attentes très claires : VillageMall n'est pas un centre commercial à la portée de toutes les bourses et n'a pas la prétention de l'être. Situé à Barra da Tijuca, il mise davantage sur le luxe, le design, la gastronomie et une expérience shopping plus calme.",
+    "La première différence apparaît lorsqu'on le compare à BarraShopping. BarraShopping est immense, pratique et varié : on peut y faire ses achats quotidiens, sortir en famille, aller à Carrefour, au cinéma ou répondre à de nombreux besoins. VillageMall fonctionne autrement. Je le recommande pour ses marques premium, pour prendre un repas tranquille ou découvrir un Barra plus raffiné.",
+    "Depuis Copacabana, Ipanema ou Leblon, je préparerais le déplacement : la circulation peut transformer un trajet raisonnable en une part importante de la journée. Si vous êtes déjà à BarraShopping, combiner les deux est plus logique : consacrez une partie de la journée à la diversité, l'autre à une expérience plus exclusive.",
+    "Mon conseil d'hôte est simple : ne venez pas ici pour un souvenir bon marché ou un achat éclair. Prévoyez du temps, un budget et de la curiosité. Soyez attentif aux prix et vérifiez les enseignes du jour. Pour moi, VillageMall mérite une visite lorsque l'on souhaite découvrir un Rio plus élégant, gastronomique et tourné vers les marques haut de gamme."
+  ],
+  "qa": {
+    "source_D_keys": 28,
+    "fr_keys": 28,
+    "source_stories": 4,
+    "fr_stories": 4
+  },
+  "notes": "Confirm Gucci/Dior storefront, accurate current brands and accessibility. No source pictures or original ES/PT-BR/EN touched. Existing JS FR fallback not fixed yet."
+}

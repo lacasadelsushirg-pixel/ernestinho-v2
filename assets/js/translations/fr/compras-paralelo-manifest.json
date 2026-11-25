@@ -1,0 +1,462 @@
+{
+  "project": "Ernestinho Carioca | Compras de Rio en francés, staging editorial aislado",
+  "source_branch": "revision/rendimiento-traducciones-81a904c",
+  "branch": "traduccion/compras-fr-paralelo-20261111",
+  "status": "DICT_STAGING_NOT_INTEGRATED_NOT_PUBLISHED",
+  "first_batch_date": "2026-11-11",
+  "source_inventory": {
+    "directories": 33,
+    "landing": "/compras/",
+    "note": "34 folder routes possible, but aliases, redirects, duplicates and SEO canonical require evaluation before final total. Do not assume all routes should be indexed."
+  },
+  "scope": [
+    {
+      "route": "/compras/mercados-populares/",
+      "source_sha": "cbd68df21336c29e6d5cc2a649a2f8d5608d6446",
+      "dictionary": "assets/js/translations/fr/compras-mercados-populares-paralelo.json",
+      "entries": 29,
+      "checked_strings": 29,
+      "missing_keys": 0,
+      "qa_note_20261113": "Full original ES HTML checked at SHA cbd68df21336c29e6d5cc2a649a2f8d5608d6446. Added missing og:image:alt translation; localized shopping/navigation as Achats. Source inline ES/PT/EN whitelist and external site.js still block FR runtime. No /fr/ HTML or visual QA. Editorial refinement: popular commerce and Uruguaiana electronics descriptions; 29 existing keys unchanged, no source HTML modification."
+    },
+    {
+      "route": "/compras/ferias/",
+      "source_sha": "0e8e94bbbb8b9b4d37ab1e6c14bb5fc2ed52da55",
+      "dictionary": "assets/js/translations/fr/compras-ferias-paralelo.json",
+      "entries": 40,
+      "checked_strings": 40,
+      "missing_keys": 0,
+      "qa_note_20261113": "Verified full Spanish source HTML SHA 0e8e94bbbb8b9b4d37ab1e6c14bb5fc2ed52da55. Added missing og:image:alt translation, corrected navigation to Achats. Source has inline ES/PT/EN-only selector and JSON-LD inLanguage es; isolated FR renderer and metadata/visual QA pending. Original untouched."
+    },
+    {
+      "route": "/compras/shoppings/",
+      "source_sha": "89d1603b2a5018c6dcb14875aa1dd96a141719b3",
+      "dictionary": "assets/js/translations/fr/compras-shoppings-paralelo.json",
+      "entries": 45,
+      "checked_strings": 45,
+      "missing_keys": 0,
+      "qa_note_20261113": "ES HTML SHA 89d1603b2a5018c6dcb14875aa1dd96a141719b3 verified; added og:image:alt FR, corrected Achats navigation. Inline ES/PT/EN-only selector; no long dynamic scripts. FR runtime, HTML, JSON-LD, SEO and visual QA pending. Original unchanged."
+    },
+    {
+      "route": "/compras/",
+      "source_sha": "dca5da4c24e041bcf363ff50cb39205756850c6c",
+      "dictionary": "assets/js/translations/fr/compras-portada-paralelo.json",
+      "entries": 59,
+      "checked_strings": 59,
+      "missing_keys": 0,
+      "qa_note_20261113": "Harmonisation FR du libellé de navigation Achats, rubrique ACHATS, catégories et titre SEO ; source ES inchangée. Dictionnaire seul, aucune page /fr/ rendue."
+    },
+    {
+      "route": "/compras/saara/",
+      "source_sha": "839bb2ce46d8d7954c6304a70c7f12a92c46b93b",
+      "dictionary": "assets/js/translations/fr/compras-saara-paralelo.json",
+      "entries": 48,
+      "checked_strings": 48,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-saara-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "qa": "Map iframe title and Open Graph image alt added; removed a truncated Spanish source key with abbreviated French paraphrase. Full editorial paragraph preserved. Static mapping only; dynamic runtime still staging.",
+      "qa_note_20261113": "Navigation FR « Achats » harmonisée ; supplément dynamique conservé. Aucun changement au HTML original."
+    },
+    {
+      "route": "/compras/rio-sul/",
+      "source_sha": "fa135d3276ead10c0b0d67ef746a0ec28bd1e651",
+      "dictionary": "assets/js/translations/fr/compras-rio-sul-paralelo.json",
+      "entries": 59,
+      "checked_strings": 59,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-rio-sul-dinamico-paralelo.json",
+      "dynamic_js_keys": 33,
+      "dynamic_story_paragraphs": 4,
+      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification."
+    },
+    {
+      "route": "/compras/feira-saens-pena/",
+      "source_sha": "d05fcc20bb8a6d318fed3a33b67b3d29575cde2a",
+      "dictionary": "assets/js/translations/fr/compras-feira-saens-pena-paralelo.json",
+      "entries": 17,
+      "checked_strings": 17,
+      "missing_keys": 0,
+      "editorial_review": "Verify Feirarte III operating days and 08:00–20:00 times with Rio 1746 before publication; source is date-sensitive. Keep in staging/noindex.",
+      "qa": "2026-11-12: Full ES source HTML inspected at SHA d05fcc20bb8a6d318fed3a33b67b3d29575cde2a. All 17 distinct editorial strings mapped: title, meta description, navigation, heading, lead, two captions, both image alt texts, source link and footer. No inline editorial JavaScript; external site.js remains unintegrated for FR. CSS/photo URLs and municipal reference preserved in original. No French HTML generated.",
+      "qa_note_20261113": "Source ES HTML SHA d05fcc20bb8a6d318fed3a33b67b3d29575cde2a checked again: translated source button label ES to FR in dictionary, without modifying original HTML. External site.js language switcher remains unintegrated; do not claim functioning French toggle. No OG/Twitter tags exist in original page; future isolated FR HTML must add proper localized metadata. Official Feirarte III schedule verification still pending."
+    },
+    {
+      "route": "/compras/mercadao-madureira/",
+      "source_sha": "5ef341ba2600ef2d90fb080af0d63421751bcb6f",
+      "dictionary": "assets/js/translations/fr/compras-mercadao-madureira-paralelo.json",
+      "entries": 64,
+      "checked_strings": 64,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-mercadao-madureira-dinamico-paralelo.json",
+      "dynamic_js_keys": 44,
+      "dynamic_story_paragraphs": 2,
+      "editorial_review": "Confirm location, accessibility, shops and transport before publication, preserve respectful cultural/religious description."
+    },
+    {
+      "route": "/compras/feira-sao-cristovao/",
+      "source_sha": "af158a574470449f5f390830a3cdd386794e016f",
+      "dictionary": "assets/js/translations/fr/compras-feira-sao-cristovao-paralelo.json",
+      "entries": 59,
+      "checked_strings": 59,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-feira-sao-cristovao-dinamico-paralelo.json",
+      "dynamic_js_keys": 36,
+      "dynamic_story_paragraphs": 4,
+      "editorial_review": "Recheck operator schedules, transport and programming before public release; preserve Northeast culture and communities respectfully."
+    },
+    {
+      "route": "/compras/uruguaiana/",
+      "source_sha": "da9cbc66ed0b7a3f17e6e31f33400a0390edfec3",
+      "dictionary": "assets/js/translations/fr/compras-uruguaiana-paralelo.json",
+      "entries": 69,
+      "checked_strings": 68,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-uruguaiana-dinamico-paralelo.json",
+      "dynamic_js_keys": 50,
+      "editorial_review": "Verify current retailer offerings, transport access and guarantees; all long ES descriptions translated into FR source-key dict.",
+      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification.",
+      "qa_note_20261113": "ES original SHA da9cbc66ed0b7a3f17e6e31f33400a0390edfec3 reconsultado. Corrección sincronizada en diccionario estático y runtime_D_fr: «zone commerçante» evita presentar Uruguaiana como barrio administrativo, y «connecteurs/type de prise/tension» aclara la revisión de electrónicos. Tres valores corregidos, cero claves nuevas. Runtime FR y QA SEO/visual siguen pendientes; revisar datos comerciales oficiales antes de publicar."
+    },
+    {
+      "route": "/compras/mercado-sao-pedro/",
+      "source_sha": "34f24c41beb735de6af568224aa60e438359f1e1",
+      "dictionary": "assets/js/translations/fr/compras-mercado-sao-pedro-paralelo.json",
+      "entries": 62,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-mercado-sao-pedro-dinamico-paralelo.json",
+      "dynamic_js_keys": 45,
+      "editorial_review": "Check current fish market floor operation, restaurants, ferry hours, food safety and wayfinding in Niterói before publishing.",
+      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification.",
+      "qa_note_20261113": "ES original HTML completo revisado, SHA 34f24c41beb735de6af568224aa60e438359f1e1 (33 707 caracteres). Ajustados dos pasajes franceses: subtítulo de aromas de la bahía y entrada editorial sobre la región de Río/Niterói. Sin claves nuevas; mantener revisión oficial de transporte, horarios y negocios antes de publicar. FR sigue sin renderizar ni indexar."
+    },
+    {
+      "route": "/compras/feira-das-yabas/",
+      "source_sha": "cb371f672dd37246b9d2805c5750593f143ce0f1",
+      "dictionary": "assets/js/translations/fr/compras-feira-das-yabas-paralelo.json",
+      "entries": 57,
+      "checked_strings": 57,
+      "missing_keys": 0,
+      "extra_dynamics": "data-y-es translated; private FR renderer must add data-y-fr and allow fr in language whitelist",
+      "editorial_review": "Check schedule/editions, musicians, opening and event-specific transport before publication; preserve Afro-Brazilian context and no photography without permission.",
+      "qa": "Source ES HTML SHA cb371f672dd37246b9d2805c5750593f143ce0f1; added OG image alt, French navigation and FR selector label staging. Existing malformed closing strong tags around Qué buscar/Para quién/Combínalo con require safe DOM handling; inline ES/PT/EN-only JS still needs FR integration. No HTML or SEO published."
+    },
+    {
+      "route": "/compras/norte-shopping/",
+      "source_sha": "d181ad23008dd2ae78c45af5218c728f6f992a44",
+      "dictionary": "assets/js/translations/fr/compras-norte-shopping-paralelo.json",
+      "entries": 61,
+      "checked_strings": 61,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-norte-shopping-dinamico-paralelo.json",
+      "dynamic_js_keys": 37,
+      "editorial_review": "Verify current facility accessibility, Amigos do Fred, store directory, opening hours and images before publication. Source nsCopy ES/PT/EN currently defaults FR to ES.",
+      "qa": "OG image alt translated and checked against source HTML; French HTML/runtime/SEO still pending."
+    },
+    {
+      "route": "/compras/praca-lido/",
+      "source_sha": "17909073627630f6df6c564bd326568462a4cdd4",
+      "dictionary": "assets/js/translations/fr/compras-praca-lido-paralelo.json",
+      "entries": 76,
+      "checked_strings": 67,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-praca-lido-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "editorial_review": "ABIO/Prefeitura weekend Feirarte Praça do Lido schedule and difference from Copacabana night market need official verification before release."
+    },
+    {
+      "route": "/compras/feira-organica-gloria/",
+      "source_sha": "23a91c17a0a770d5d1a5c82bfb6bb214c417c54b",
+      "dictionary": "assets/js/translations/fr/compras-feira-organica-gloria-paralelo.json",
+      "entries": 76,
+      "checked_strings": 66,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-feira-organica-gloria-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 3,
+      "editorial_review": "ABIO organic Glória Saturday, 7–13, Rua do Russell and organic certification claims must be checked; not the Sunday Glória general market. Preserve both distinct."
+    },
+    {
+      "route": "/compras/shopping-tijuca/",
+      "source_sha": "9b9e5a4795f4734062d696fd1ca28e24d0466472",
+      "dictionary": "assets/js/translations/fr/compras-shopping-tijuca-paralelo.json",
+      "entries": 42,
+      "checked_strings": 42,
+      "missing_keys": 0,
+      "review": "Confirm current shop directory, official access, services and opening hours before publishing.",
+      "qa": "Full HTML source at SHA 9b9e5a4795f4734062d696fd1ca28e24d0466472 inspected. Translated missing inline JavaScript back-navigation alert. Source contains ES/PT/EN data-tj-es and inline language whitelist, requiring explicit FR renderer and runtime integration. Original JS/HTML left unchanged.",
+      "qa_note_20261112": "Revisión editorial FR: navegación «RETOUR AUX ACHATS» e introducción corregidas sin alterar las 42 claves de origen; cero nuevas rutas. Sigue pendiente integración runtime FR, HTML /fr/ y QA visual.",
+      "qa_html_integrity_20261113": "BLOCKER verified in original ES HTML at SHA 9b9e5a4795f4734062d696fd1ca28e24d0466472: two malformed <strong> closing tags carry data-tj-es/pt/en attributes on </strong> instead of a valid opening element; affected labels 'familias, viajeros hospedados en Tijuca...' and 'Tijuca y Maracanã.' are text nodes, not valid data-tj-* elements. A future FR renderer must translate these text nodes explicitly and fix markup only in isolated /fr/ output. Do not change ES/PT/EN source or mark dynamic QA complete. Also inline language switcher accepts only ES/PT/EN; no /fr/ HTML yet."
+    },
+    {
+      "route": "/compras/cadeg/",
+      "source_sha": "5df1273ad716d0e9a3c8b9022988be5941cd1be5",
+      "dictionary": "assets/js/translations/fr/compras-cadeg-paralelo.json",
+      "entries": 65,
+      "checked_strings": 54,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-cadeg-dinamico-paralelo.json",
+      "dynamic_js_keys": 36,
+      "dynamic_story_paragraphs": 4,
+      "review": "Check commerce opening hours, stall listings, food safety and accessibility."
+    },
+    {
+      "route": "/compras/feira-da-gloria/",
+      "source_sha": "8cf687fb5546a459fca94195ef47972d33c32717",
+      "dictionary": "assets/js/translations/fr/compras-feira-da-gloria-paralelo.json",
+      "entries": 78,
+      "checked_strings": 69,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-feira-da-gloria-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "review": "Sunday street market is distinct from Saturday organic market Feira Orgânica da Glória. Confirm hours before release."
+    },
+    {
+      "route": "/compras/feira-hippie-ipanema/",
+      "source_sha": "41377da5d327da8cc7e58ee906fc68833b4a4374",
+      "dictionary": "assets/js/translations/fr/compras-feira-hippie-ipanema-paralelo.json",
+      "entries": 77,
+      "checked_strings": 68,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-feira-hippie-ipanema-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "review": "Check Sunday schedules and artisan gallery photos before release."
+    },
+    {
+      "route": "/compras/praca-xv/",
+      "source_sha": "45c4029888b90bc6a7f6e3cb434f3b2180b52264",
+      "dictionary": "assets/js/translations/fr/compras-praca-xv-paralelo.json",
+      "entries": 77,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-praca-xv-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "editorial_review": "Saturday antique fair schedule, authenticity, transport/export rules require verification."
+    },
+    {
+      "route": "/compras/feira-da-providencia/",
+      "source_sha": "24c08774084907aab56b99e45e616ea91617e2a0",
+      "dictionary": "assets/js/translations/fr/compras-feira-da-providencia-paralelo.json",
+      "entries": 75,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-feira-da-providencia-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "editorial_review": "CRITICAL: Original body (community of Providência) contradicts later source section portraying the massive Feira da Providência event at Riocentro. Separate identity, organization, location and edition before release. Don't index this content without editorial reconstruction.",
+      "qa_note_20261112": "Source HTML inspected: Spanish SEO meta/OG/Twitter/JSON-LD description is truncated mid-sentence. French dictionary now faithfully reflects the truncated source rather than replacing it with a generic summary. BLOCKER: Source combines community/favela narrative with the separate Riocentro commercial fair, so factual identity and SEO must be reconstructed in the source by the ES/PT/EN recovery team before any FR rendering. Existing source and production untouched."
+    },
+    {
+      "route": "/compras/lavradio/",
+      "source_sha": "a6abf7ba23e998edd3f5a0d6221155a56948aa70",
+      "dictionary": "assets/js/translations/fr/compras-lavradio-paralelo.json",
+      "entries": 77,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-lavradio-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 4,
+      "editorial_review": "Confirm Feira do Rio Antigo first Saturday or actual monthly dates rather than generic Saturdays. Source currently says Saturdays 10-19; verify."
+    },
+    {
+      "route": "/compras/village-mall/",
+      "source_sha": "26237c5ca2a6991af8739cf52a88cf272166fb63",
+      "dictionary": "assets/js/translations/fr/compras-village-mall-paralelo.json",
+      "entries": 69,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-village-mall-dinamico-paralelo.json",
+      "dynamic_js_keys": 28,
+      "dynamic_story_paragraphs": 4,
+      "editorial_review": "Check Gucci/Dior retail tenancy, actual accessibility facilities, prices and current official directory.",
+      "checked_strings": 69,
+      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification."
+    },
+    {
+      "route": "/compras/nova-america/",
+      "source_sha": "4d0bbfabbc624293e907e7d09831bb338d7f9a4f",
+      "dictionary": "assets/js/translations/fr/compras-nova-america-paralelo.json",
+      "entries": 84,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-nova-america-dinamico-paralelo.json",
+      "dynamic_js_keys": 38,
+      "dynamic_story_paragraphs": 7,
+      "editorial_review": "Complete data.es and main.es; check listed store hours, integrated metro and tenants; FR selector and aria labels require private integration.",
+      "checked_strings": 84,
+      "qa_note_20261112": "Added missing OG image alt FR translation; HTML /fr/, JS dynamic runtime and JSON-LD still require integration/verification."
+    },
+    {
+      "route": "/compras/botafogo-praia-shopping/",
+      "source_sha": "a0f03b3e54f6cae7f3204ed3813d040f771ee5e0",
+      "dictionary": "assets/js/translations/fr/compras-botafogo-praia-shopping-paralelo.json",
+      "entries": 82,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-botafogo-praia-shopping-dinamico-paralelo.json",
+      "dynamic_js_keys": 11,
+      "dynamic_story_paragraphs": 11,
+      "editorial_review": "Complete P array and T object with all original HTML p and strong tags, including hardcoded image caption FR dictionary; JS renderer must integrate FR."
+    },
+    {
+      "route": "/compras/downtown/",
+      "source_sha": "3baf63ebcd5c8ce508aa3e16b4c606dffa9b2cea",
+      "dictionary": "assets/js/translations/fr/compras-downtown-paralelo.json",
+      "entries": 79,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-downtown-dinamico-paralelo.json",
+      "dynamic_js_keys": 11,
+      "dynamic_story_paragraphs": 12,
+      "editorial_review": "Complete P array T object. Reconfirm outdoor event program and accessibility services.",
+      "qa": "OG image alt translated and checked against source HTML; French HTML/runtime/SEO still pending."
+    },
+    {
+      "route": "/compras/shopping-leblon/",
+      "source_sha": "21a203cfe201c2dbba6487d04e9a8ff247939812",
+      "dictionary": "assets/js/translations/fr/compras-shopping-leblon-paralelo.json",
+      "entries": 83,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-shopping-leblon-dinamico-paralelo.json",
+      "dynamic_js_keys": 11,
+      "dynamic_story_paragraphs": 13,
+      "editorial_review": "Complete P array and T object. Very specific facilities including Police Federal passport service require authoritative recheck before public FR release.",
+      "qa": "OG image alt translated and checked against source HTML; French HTML/runtime/SEO still pending."
+    },
+    {
+      "route": "/compras/fashion-mall/",
+      "source_sha": "634874a129f78b4a97ba6231aec0da5a21bb49b6",
+      "dictionary": "assets/js/translations/fr/compras-fashion-mall-paralelo.json",
+      "entries": 79,
+      "checked_strings": 67,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-fashion-mall-dinamico-paralelo.json",
+      "dynamic_js_keys": 12,
+      "dynamic_story_paragraphs": 12,
+      "editorial_review": "Verify current Fashion Mall cinema/theatre programming, accessibility, services, tenants.",
+      "qa": "OG image alt translated and checked against source HTML; French HTML/runtime/SEO still pending."
+    },
+    {
+      "route": "/compras/metropolitano-barra/",
+      "source_sha": "5ee77620e844c6ece7e3bd06815a6757af50210f",
+      "dictionary": "assets/js/translations/fr/compras-metropolitano-barra-paralelo.json",
+      "entries": 84,
+      "checked_strings": 72,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-metropolitano-barra-dinamico-paralelo.json",
+      "dynamic_js_keys": 12,
+      "dynamic_story_paragraphs": 12,
+      "editorial_review": "Verify current events, cinema, transport, shop listings and opening hours.",
+      "qa": "OG image alt translated and checked against source HTML; French HTML/runtime/SEO still pending."
+    },
+    {
+      "route": "/compras/parkjacarepagua/",
+      "source_sha": "ffa4909d57a3f6e596419206e7df6d0a60704720",
+      "dictionary": "assets/js/translations/fr/compras-parkjacarepagua-paralelo.json",
+      "entries": 80,
+      "checked_strings": 68,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-parkjacarepagua-dinamico-paralelo.json",
+      "dynamic_js_keys": 12,
+      "dynamic_story_paragraphs": 13,
+      "editorial_review": "Verify Parque da Magia schedules, current restaurant tenants, accessibility and parking.",
+      "qa": "OG image alt translated and checked against source HTML; French HTML/runtime/SEO still pending."
+    },
+    {
+      "route": "/compras/barrashopping/",
+      "source_sha": "d8f12598140d6888763e38017d55b32a48236b87",
+      "dictionary": "assets/js/translations/fr/compras-barrashopping-paralelo.json",
+      "entries": 83,
+      "checked_strings": 72,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-barrashopping-dinamico-paralelo.json",
+      "dynamic_js_keys": 11,
+      "dynamic_story_paragraphs": 23,
+      "editorial_review": "Verify BRT 22/50, buses 553/2803/2804/990/301, shops and HotZone count, accessibility and opening. Translate JS-injected image captions in private FR.",
+      "caption_supplement": "assets/js/translations/fr/compras-barrashopping-leyendas-fr-paralelo.json",
+      "dynamic_image_captions": 2,
+      "caption_missing_keys": 0,
+      "qa": "OG image alt translated and checked against source HTML; French HTML/runtime/SEO still pending."
+    },
+    {
+      "route": "/compras/feira-noturna-copacabana/",
+      "source_sha": "50f938e175021349370a079b0d33f8aceb1fa024",
+      "dictionary": "assets/js/translations/fr/compras-feira-noturna-copacabana-paralelo.json",
+      "entries": 23,
+      "checked_strings": 23,
+      "missing_keys": 0,
+      "editorial_review": "Compare /compras/feira-noturna-copacabana/ (Feirarte VI) with /compras/feira-nocturna-copacabana/ before publication; potential overlapping coverage and canonical ambiguity. Confirm actual Feirarte VI location, hours and status from municipal sources. Staging dictionary only; no FR HTML or SEO."
+    },
+    {
+      "route": "/compras/feira-nocturna-copacabana/",
+      "source_sha": "6cc7d1e7e508c346b64a4e24fec785adff200ac4",
+      "dictionary": "assets/js/translations/fr/compras-feira-nocturna-copacabana-paralelo.json",
+      "entries": 65,
+      "checked_strings": 65,
+      "missing_keys": 0,
+      "dynamic_supplement": "assets/js/translations/fr/compras-feira-nocturna-copacabana-dinamico-paralelo.json",
+      "dynamic_js_keys": 30,
+      "dynamic_story_paragraphs": 3,
+      "editorial_review": "Separate official Feira Noturna Turística de Copacabana (Avenida Atlântica) from Feirarte VI at /compras/feira-noturna-copacabana/. Verify operating schedule, cultural heritage statement and venue with official sources. Stage only; dynamic D and story not yet wired to FR renderer. 2026-11-11: added alt text, map iframe title and four complete static advice paragraphs to dictionary; validate other source strings before claiming full coverage. JSON-LD description in original HTML is truncated; French staging preserves this short fragment, but source JSON-LD should be corrected separately by Work before any French publication."
+    }
+  ],
+  "totals": {
+    "prepared_pages": 33,
+    "static_dictionary_entries": 2123,
+    "dynamic_JS_keys": 697,
+    "extra_story_paragraphs": 155,
+    "coverage_missing_visible_meta_alt": 0,
+    "dynamic_image_captions": 2,
+    "total_source_translation_units": 2977
+  },
+  "known_integration_blockers": [
+    "Existing source JavaScript includes only es/pt/en as language whitelist; without integrating fr on a separate preview, French dictionaries will not render.",
+    "Individual shopping articles SAARA and Rio Sul dynamically inject a separate D map and story paragraphs. Use supplements to preserve ALL long paragraphs, hours and category labels. No premature 'completed public FR' claims.",
+    "The Compras landing page uses data-ch-es/pt/en attributes, and its inline selector script falls back to ES for other languages. Add data-ch-fr in a non-production renderer and keep card links valid.",
+    "Avoid Work PR #24 recovery overlap, especially on Feira Nocturna de Copacabana and original ES/PT-BR/EN text. Do not merge independently.",
+    "Follow canonical original site patterns, never index aliases or duplicate redirects; use private noindex until full FR URL, reciprocal hreflang, assets, mobile/desktop and SEO checks pass.",
+    "Mercadão de Madureira uses const T={es,pt,en} + const A={es,pt,en} and a separate source script with data-ec-extra. Translate all dynamic keys and arrays, integrate FR in private renderer, and do not truncate religious/cultural context.",
+    "Feira São Cristóvão has D/es and story/es dynamic content with 36 keys and 4 long FR story paragraphs staged. Do not claim FR page parity until rendering all fields, programs and images in a private browser.",
+    "Uruguaiana: dynamic D(es/pt/en) contains 50 complete longform labels/paragraphs; source runtime whitelist rejects FR, so private integration needed.",
+    "Mercado São Pedro: dynamic D(es/pt/en) contains 45 longform keys, separate navigation and local language event handler; FR still needs controlled private integration and browser QA.",
+    "Feira das Yabás: data-y-es and data-es inline attributes require FR on private renderer; base source JS rejects FR. Event-specific schedule must be verified.",
+    "NorteShopping: standalone nsCopy ES/PT/EN and renderNS() require FR integration; current fallback ES. 37 dynamic keys staged and verified.",
+    "Praça do Lido and organic Glória: both have D/Story ES/PT/EN only and extra multilingual text in original HTML; source rejects FR, add private renderer D.fr/story.fr preserving their different schedules.",
+    "Organic Glória is a Saturday ABIO farmers' market, separate from Sunday Glória street fair; preserve canonical routing and avoid merging narratives.",
+    "BarraShopping: 2 JS-injected ES captions now have FR mappings in separate supplement; wire into private renderer before declaring visible-language parity."
+  ],
+  "qa_policy": "Verify all visible body text, title/description/social meta, alt, aria, placeholders and inline data-ch-es. For dynamically rendered ES JS, verify D keys, hours array, cats array and story paragraphs before accepting page.",
+  "remaining_work": "Audit other Compras sites, translate complete individual pages and dynamic narrative data, then private preview integration and visual/SEO QA. Do not publish.",
+  "critical_editorial_issues": [
+    {
+      "route": "/compras/feira-da-providencia/",
+      "issue": "Source page conflates annual large commercial Feira da Providência with Favela da Providência community history; inconsistent with later Riocentro section. Must verify and revise all ES/PT/EN/FR source content before publishing."
+    },
+    {
+      "route": "/compras/lavradio/",
+      "issue": "Market frequency may be monthly rather than weekly; source says Saturdays. Official calendar check required."
+    }
+  ],
+  "exclusions": [
+    {
+      "route": "/compras/feira-organica/",
+      "reason": "HTML redirects to /compras/feira-organica-gloria/; no standalone FR canonical."
+    },
+    {
+      "route": "/compras/feira-noturna-copacabana/",
+      "reason": "Reserved for Work PR #24 existing PT/EN recovery and FR pilot; reconcile canonical."
+    },
+    {
+      "route": "/compras/feira-nocturna-copacabana/",
+      "reason": "Reserved for Work PR #24; avoid two FR pages about same market."
+    }
+  ],
+  "indexation_policy": {
+    "original_languages": "ES/PT-BR/EN production untouched",
+    "fr": "Source dictionaries only; FR rendered pages and indexation are not yet created",
+    "publishing_gate": "Reconcile PR #24; integrate FR in private noindex preview; test HTML 200, self canonical, reciprocal hreflang, sources/photos/captions, mobile 390px and desktop 1440px, correct sitemap; Google determines indexing."
+  },
+  "current_scope_summary": "33 rutas staging; 2976 unidades verificadas por suma (2122 estáticas, 697 claves JS, 155 párrafos dinámicos, 2 pies de imagen); 0 HTML /fr/ publicado.",
+  "integration_issues": [
+    "Large Shopping articles render source JS P, T and sometimes hardcoded image caption/alt; private FR renderer must translate every injection, not just body HTML."
+  ]
+}
