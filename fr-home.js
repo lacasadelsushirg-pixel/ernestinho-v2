@@ -89,7 +89,7 @@ function localize(){
     let url;try{url=new URL(raw,location.href)}catch{continue}
     const pagePath=url.pathname.startsWith(previewRoot)?url.pathname.slice(previewRoot.length):null;
     // On the French home page, route links to existing French pages before falling back to Spanish.
-    if(isFrenchHome && url.origin===location.origin){
+    if(isFrenchHome && (url.origin===location.origin || url.origin===new URL(ROOT).origin)){
       const sourcePath=url.pathname.replace(/^\/+/, '');
       const readyPath=sourcePath.startsWith('fr/')?sourcePath:'fr/'+sourcePath;
       if(readyRoutes.has(readyPath)){
