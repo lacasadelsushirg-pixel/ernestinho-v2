@@ -86,6 +86,15 @@ function localize(){
     const raw=link.getAttribute('href');
     if(!raw||raw.startsWith('#')||/^(?:mailto:|tel:|javascript:|data:)/i.test(raw))continue;
     let url;try{url=new URL(raw,location.href)}catch{continue}
+    // Keep the French home on ready French routes even when its source href is absolute production.
+    const sourcePath=(isPreview && url.origin===location.origin && url.pathname.startsWith(previewRoot)?url.pathname.slice(previewRoot.length):url.pathname).replace(/^\/+/, '');
+    const frenchPath=sourcePath.startsWith('fr/')?sourcePath.slice(3):sourcePath;
+    const knownFrenchPath='fr/'+frenchPath;
+    if(sourcePath && readyRoutes.has(knownFrenchPath) && (url.origin===location.origin || url.origin===new URL(ROOT).origin)){
+      const target=(isPreview?location.origin+previewRoot:ROOT+'fr/')+frenchPath+url.search+url.hash;
+      if(link.href!==target)link.href=target;
+      continue;
+    }
     const pagePath=url.pathname.startsWith(previewRoot)?url.pathname.slice(previewRoot.length):null;
     if(isPreview && url.origin===location.origin && pagePath===null){
       const sourcePath=url.pathname.replace(/^\/+/, '');
