@@ -364,3 +364,16 @@ Cambios exactos:
 - La raíz de producción `/fr/hospedaje/` todavía solo lista los alojamientos previos. Casa Cândida, Casa Ñata y Casa Venti de #67 no están en la carpeta servida. Por tanto, el lote de Hospedaje tiene **0 rutas nuevas publicadas** y permanece solo en staging/PR.
 - Publicaciones nuevas en esta ejecución: **0 páginas** (el candidato #67 quedó detenido por viewport móvil/escritorio). El cambio de #65 antecede a esta ejecución y ya estaba visible/noindex.
 - No se ejecutó build de raíz ni se tocó la carpeta `public_html` raíz.
+
+
+## Seguimiento FR y QA de navegación — 25/11/2026
+
+- Estado comprobado por conectores GitHub/Hostinger: producción revision/rendimiento-traducciones-81a904c en d917494286c5b1ebab90f0c1a82ffda2007049b7; rama FR release/fr-public-initial-20261115 en d4c5d87851f77443ea73ac022f585f8a6dcdbb30, vinculada a Hostinger en /fr.
+- PR #65 continúa fusionado; sus seis páginas Experiencias ya estaban publicadas/noindex y fueron reabiertas en Hostinger. No se cuentan como páginas nuevas de esta sesión.
+- PR #67 continúa borrador. Se desplegó su árbol a staging aislado deeppink-quail-855227.hostingersite.com/fr-qa-pr67/: seis páginas cargan en escritorio con francés, canonical individual, noindex,nofollow, fotos y CTA presentes. QA visual real a 390/1440 no disponible; el lote no se integra. Hospedaje nuevo publicado esta sesión: 0.
+- QA del staging #67: páginas visuales confirmadas; emulación a 390/1440 continúa impedida por falta de viewport/DevTools del navegador remoto y el bloqueo de sockets del Chromium local. No se fusionó ni escribió a producción.
+- Hallazgo independiente: rama QA qa/fr-home-ready-routes-20261125 creada desde d4c5d87851f77443ea73ac022f585f8a6dcdbb30, solo modifica fr-home.js. Último commit QA a462222996fddeba88057a056b009dcefb38de13. Parseo de sintaxis de módulo: PASS.
+- Staging de navegación deeppink-quail-855227.hostingersite.com/fr-qa-nav4/ conserva contenido francés; Hostinger sirve la variante de fr-home.js del commit QA. Sin embargo, el DOM sigue terminando el enlace Excursions en /fr-qa-nav4/fr/experiencias/, ruta que devuelve 404 en staging (la copia francesa de esa rama está directamente bajo experiencias/). También se carga assets/js/site.js, que podría reescribir enlaces. El parche no está validado funcionalmente y no debe publicarse. No se cambió /fr ni public_html raíz.
+- /fr/experiencias/ se reabrió en producción: título y cuerpo franceses comprobados; no es publicación nueva.
+- Siguiente paso exacto: inspeccionar en Hostinger assets/js/site.js del dominio staging, comparar cómo forma rutas con prefijo de carpeta /fr; ajustar solo fr-home.js para que QA resuelva experiencias/ dentro del prefijo de staging y producción resuelva /fr/experiencias/. Repetir clic real en staging con destino HTTP 200, verificar que el selector ES siga apuntando a raíz ES, y abrir PR pequeño de un archivo; no desplegar antes de que pase.
+- PT/EN: sin cambios ni publicaciones esta sesión. No ejecutar build/hosting_deploy de raíz. Nuevas páginas FR indexables: 0.
