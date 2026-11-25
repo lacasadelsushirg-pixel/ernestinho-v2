@@ -405,3 +405,12 @@ Cambios exactos:
 - Revisión estática independiente del código #69: script de formulario sintácticamente válido; cuatro diccionarios (ES/PT/EN/FR), ocho campos y texto de un solo trayecto presentes; campos requeridos y URL de WhatsApp se generan y codifican. No sustituye la prueba visual/funcional en la salida localizada. La ficha productiva contiene estructura renderizada de 56.786 bytes frente a 31.617 bytes de la fuente PR; no aplicar el HTML fuente directamente sobre la copia servida.
 - Publicaciones nuevas de páginas en esta sesión: 0. Nuevas URL FR indexables: 0. No se ejecutó build raíz ni se cambió sitemap, fotos, mapas, widgets o contenido ES/PT/EN.
 - Siguiente paso exacto: obtener viewport responsive real para #67 antes de integrarlo; para #69 conseguir autorización de baseline que cubra esas dos rutas y QA de salida localizada antes de considerar un despliegue incremental. No ejecutar un build completo ni editar los guards para pasar estos PRs.
+
+
+### Control remoto CUA sin viewport — 25/11/2026
+
+- Repetida inspección de Casa Venti en staging Hostinger `/fr-qa-pr67/`: la página conserva el contenido y la galería FR observados previamente. El control remoto muestra el viewport de escritorio (~1334×920).
+- Se intentaron los atajos estándar para emulación y DevTools (`Ctrl+Shift+M` y `F12`); el navegador remoto no abrió esos controles ni cambió el viewport. No se usó evaluación de página para mutar el viewport.
+- QA visual real a 390×844 y 1440×900 continúa pendiente. PR #67 sigue DRAFT; no se fusionó ni se sincronizó a `/fr`. Publicaciones nuevas e indexables: 0.
+- PR #69 mantiene checks `editorial-preview` y `Protect approved content` fallidos en `transportes/index.html` y `transportes/transporte-privado/index.html`; no se modificaron guardias. PR #69 no se desplegó.
+
