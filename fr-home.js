@@ -94,10 +94,6 @@ function localize(){
       if(link.href!==target)link.href=target;
       continue;
     }
-      const target=(isPreview?location.origin+previewRoot:ROOT)+knownFrenchPath+url.search+url.hash;
-      if(link.href!==target)link.href=target;
-      continue;
-    }
     const pagePath=url.pathname.startsWith(previewRoot)?url.pathname.slice(previewRoot.length):null;
     if(isPreview && url.origin===location.origin && pagePath===null){
       const sourcePath=url.pathname.replace(/^\/+/, '');
