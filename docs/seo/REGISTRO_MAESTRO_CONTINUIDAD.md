@@ -394,3 +394,14 @@ Cambios exactos:
 1. Conseguir una ejecución de navegador con emulación verificable 390×844 y 1440×900 para las seis páginas de #67. Solo con QA responsiva verde, integrar el lote y sincronizar exclusivamente `/fr`.
 2. Continuar el siguiente lote propio prioritario sin duplicar rutas existentes; comprobar el HEAD FR y contenido real de Hostinger antes de crear otra rama o PR. Mantener FR noindex hasta autorización editorial específica.
 3. Para cambios PT/EN, tomar la rama de producción actual y verificar el plan incremental solo si el alcance y el resultado indican selección limitada; ante modo full, aborto seguro. No repetir trabajo de Inicio ya presente en producción.
+
+
+### Continuidad de publicación y bloqueos — 25/11/2026 (sesión adicional)
+
+- PR #70 corrigió únicamente la normalización de rutas en `fr-home.js`; merge FR: `5f4bde5230ea69d943e0231bd95283be1cef205f`. La rama `release/fr-public-initial-20261115` se sincronizó por Git Hostinger únicamente en `/fr`; HTTP confirmó que el enlace de Inicio abre `/fr/experiencias/`, canonical FR, `lang=fr` y `noindex,nofollow`. Es una corrección de navegación, no una página nueva ni URL indexable.
+- Verificación en vivo de las portadas PT-BR y EN: contenido editorial visible en sus idiomas; no se hicieron cambios de contenido en esta sesión.
+- PR #67 Hospedaje sigue DRAFT/no mergeable hasta completar responsive real a 390 y 1440 px. El staging Hostinger remoto `/fr-qa-pr67/` abrió Casa Venti en escritorio; esta sesión no pudo completar emulación de viewport y no integró ni publicó el lote.
+- PR #69 Transportes sigue abierto y bloqueado por el guard existente: el workflow `Protect approved content` falló en la verificación de baseline porque `transportes/index.html` y `transportes/transporte-privado/index.html` están protegidos. `Petrópolis preview QA` falló en el mismo guard; no se llegó a su render/preview. No se tocó ni desactivó el guard.
+- Revisión estática independiente del código #69: script de formulario sintácticamente válido; cuatro diccionarios (ES/PT/EN/FR), ocho campos y texto de un solo trayecto presentes; campos requeridos y URL de WhatsApp se generan y codifican. No sustituye la prueba visual/funcional en la salida localizada. La ficha productiva contiene estructura renderizada de 56.786 bytes frente a 31.617 bytes de la fuente PR; no aplicar el HTML fuente directamente sobre la copia servida.
+- Publicaciones nuevas de páginas en esta sesión: 0. Nuevas URL FR indexables: 0. No se ejecutó build raíz ni se cambió sitemap, fotos, mapas, widgets o contenido ES/PT/EN.
+- Siguiente paso exacto: obtener viewport responsive real para #67 antes de integrarlo; para #69 conseguir autorización de baseline que cubra esas dos rutas y QA de salida localizada antes de considerar un despliegue incremental. No ejecutar un build completo ni editar los guards para pasar estos PRs.
