@@ -377,3 +377,20 @@ Cambios exactos:
 - /fr/experiencias/ se reabrió en producción: título y cuerpo franceses comprobados; no es publicación nueva.
 - Siguiente paso exacto: inspeccionar en Hostinger assets/js/site.js del dominio staging, comparar cómo forma rutas con prefijo de carpeta /fr; ajustar solo fr-home.js para que QA resuelva experiencias/ dentro del prefijo de staging y producción resuelva /fr/experiencias/. Repetir clic real en staging con destino HTTP 200, verificar que el selector ES siga apuntando a raíz ES, y abrir PR pequeño de un archivo; no desplegar antes de que pase.
 - PT/EN: sin cambios ni publicaciones esta sesión. No ejecutar build/hosting_deploy de raíz. Nuevas páginas FR indexables: 0.
+
+## Corrección de navegación FR publicada — 2026-11-25
+
+- Se verificaron las portadas públicas `/pt/` y `/en/` en navegador: ambas muestran el contenido principal, selector y navegación en el idioma correspondiente; no se encontró el residuo español anotado en un checkpoint anterior. Sin cambios PT/EN esta ronda.
+- Reparación de navegación acotada en PR #70, squash commit `5f4bde5230ea69d943e0231bd95283be1cef205f` sobre FR HEAD anterior `d4c5d87851f77443ea73ac022f585f8a6dcdbb30`. El único archivo cambiado fue `fr-home.js`; se normaliza el prefijo del subdirectorio de QA antes de consultar `readyRoutes`.
+- QA en Hostinger staging aislado `/fr-qa-nav5/`: clic real en “Excursions” abre `/fr-qa-nav5/experiencias/`; página francesa, canonical de producción `/fr/experiencias/`, `lang=fr`, `noindex,nofollow`. El intento anterior en `fr-qa-nav4` falló porque el navegador conservó la versión JS cacheada; el clon limpio nav5 usó el commit actualizado.
+- Integración PR #70 confirmada: squash commit `5f4bde5230ea69d943e0231bd95283be1cef205f`; base FR ahora en ese SHA. Hostinger sincronizó exitosamente el repositorio Git conectado a `/fr` (rama `release/fr-public-initial-20261115`); log “up to date”, sin build Node ni raíz.
+- Verificación HTTP/navegador en producción tras sincronizar: `/fr/` muestra “EXCURSIONS” enlazado a `/fr/experiencias/`; el clic abre índice francés, H1 “Tours à Rio de Janeiro”, canonical propio, `lang=fr` y `noindex,nofollow`.
+- Publicaciones nuevas de páginas: **0**. URLs nuevas indexables: **0**. La navegación corregida no crea una página y no modifica sitemap.
+- PR #67 permanece DRAFT/no fusionado en `a0386afe531aee0fbbccc6352e58da1dc1f7e716`, base `d4c5d87851f77443ea73ac022f585f8a6dcdbb30`; las seis fichas siguen en staging/noindex. No publicar hasta disponer de revisión visual real a 390 y 1440 px; la API de navegador expuesta en esta ejecución no ofrece cambio de viewport y Chromium local sigue bloqueado por sockets.
+- Ningún build global ni comando de build de raíz ejecutado. No se modificaron HTML ES/PT/EN, fotos, CSS, mapas, widgets ni sitemap.
+
+### Siguiente paso exacto
+
+1. Conseguir una ejecución de navegador con emulación verificable 390×844 y 1440×900 para las seis páginas de #67. Solo con QA responsiva verde, integrar el lote y sincronizar exclusivamente `/fr`.
+2. Continuar el siguiente lote propio prioritario sin duplicar rutas existentes; comprobar el HEAD FR y contenido real de Hostinger antes de crear otra rama o PR. Mantener FR noindex hasta autorización editorial específica.
+3. Para cambios PT/EN, tomar la rama de producción actual y verificar el plan incremental solo si el alcance y el resultado indican selección limitada; ante modo full, aborto seguro. No repetir trabajo de Inicio ya presente en producción.
