@@ -82,11 +82,23 @@ function localize(){
   "fr/experiencias/arraial-do-cabo/",
   "fr/experiencias/rio-samba-bus/"
 ]);
+  const isFrenchHome=isPreview?location.pathname===previewRoot:location.pathname==='/fr/';
   for(const link of document.querySelectorAll('a[href]')){
     const raw=link.getAttribute('href');
     if(!raw||raw.startsWith('#')||/^(?:mailto:|tel:|javascript:|data:)/i.test(raw))continue;
     let url;try{url=new URL(raw,location.href)}catch{continue}
     const pagePath=url.pathname.startsWith(previewRoot)?url.pathname.slice(previewRoot.length):null;
+    // On the French home page, route links to existing French pages before falling back to Spanish.
+    if(isFrenchHome && url.origin===location.origin){
+      const sourcePath=url.pathname.replace(/^\\/+/, '');
+      const readyPath=sourcePath.startsWith('fr/')?sourcePath:'fr/'+sourcePath;
+      if(readyRoutes.has(readyPath)){
+        const suffix=readyPath.slice(3);
+        const target=isPreview?location.origin+previewRoot+suffix+url.search+url.hash:ROOT+readyPath+url.search+url.hash;
+        if(link.href!==target)link.href=target;
+        continue;
+      }
+    }
     if(isPreview && url.origin===location.origin && pagePath===null){
       const sourcePath=url.pathname.replace(/^\/+/, '');
       if(readyRoutes.has('fr/'+sourcePath)){
