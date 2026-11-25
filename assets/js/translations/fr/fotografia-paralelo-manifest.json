@@ -1,0 +1,23 @@
+{
+  "project": "Ernestinho Carioca — Fotografía de Río FR (staging aislado)",
+  "source_branch": "revision/rendimiento-traducciones-81a904c",
+  "branch": "traduccion/fotografia-fr-paralelo-20261111",
+  "status": "DICT_STAGING_NOT_INTEGRATED_NOT_PUBLISHED",
+  "scope": [
+    {
+      "route": "/fotografia/",
+      "source_sha": "d38486dfa9e003fae90ca91e2dd3d32d8ffa46b3",
+      "dictionary": "assets/js/translations/fr/fotografia-portada-paralelo.json",
+      "entries": 144,
+      "missing_keys": 0,
+      "qa": "Static visible text, title, meta description, OG/Twitter descriptions, image alt names and practical photography tips translated. Proper place names preserved where appropriate. No dynamic JS text identified in source; no FR HTML renderer verified.",
+      "editorial_review": "Check drone rules with ANAC/DECEA, paid entry and operating hours; source metadata may change. Preserve all 34 locations, images, maps and links."
+    }
+  ],
+  "totals": {
+    "prepared_pages": 1,
+    "static_dictionary_entries": 144,
+    "total_source_translation_units": 144
+  },
+  "publication_policy": "Not rendered or indexed. No production/ES/PT/EN edits. Do not add sitemap or merge before FR 200/canonical/hreflang/mobile 390px/desktop 1440px QA."
+}
