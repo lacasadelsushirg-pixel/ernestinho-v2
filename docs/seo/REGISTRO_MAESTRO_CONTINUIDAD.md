@@ -414,3 +414,10 @@ Cambios exactos:
 - QA visual real a 390×844 y 1440×900 continúa pendiente. PR #67 sigue DRAFT; no se fusionó ni se sincronizó a `/fr`. Publicaciones nuevas e indexables: 0.
 - PR #69 mantiene checks `editorial-preview` y `Protect approved content` fallidos en `transportes/index.html` y `transportes/transporte-privado/index.html`; no se modificaron guardias. PR #69 no se desplegó.
 
+
+
+### Deduplicación Inicio PT/EN PR #42 — 25/11/2026
+
+- Cotejé `assets/js/translations/home.js` en producción `revision/rendimiento-traducciones-81a904c` (HEAD `d917494286c5b1ebab90f0c1a82ffda2007049b7`) con la rama del PR #42 (`985f97708ef469c81247bb4d8017ee4e4dfe0c49`). Las claves y valores del bloque PT coinciden 81/81; EN coincide 96/96. No se necesita copiar el contenido de Inicio PT/EN del PR #42 ni abrir otro PR para ese lote.
+- El PR #42 permanece abierto pero no mergeable: su base es `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`, 43 commits detrás del HEAD actual, y la comparación contiene cambios adicionales en el script QA y documentación. No rebasar ni fusionar en bloque; no repetir el lote.
+- Sin cambios de código o sitio en este checkpoint. Publicaciones nuevas: 0; URL indexables nuevas: 0.
