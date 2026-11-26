@@ -447,3 +447,11 @@ Antes de avanzar #47, obtener por la integración Git/Hostinger un respaldo y re
 - Queda rectificado el diagnóstico de path de la nota anterior. La rama Hostinger `/fr` tiene la estructura en la raíz del repositorio de release (`guia/...`), mientras que PR #47 apunta a la rama raíz de producción y lista `fr/guia/...`.
 - Verifiqué en el HEAD FR actual los dos archivos bajo `guia/accesibilidad/index.html` y `guia/alquiler-auto/index.html`; ambos son exactamente iguales al contenido actual del document root de Hostinger (igualdad tras normalizar whitespace). Están en francés y mantienen canonical y noindex.
 - Conclusión corregida: #47 no requiere publicación en `/fr`, porque esas fichas ya forman parte del release FR y del árbol servido. No se mergeó ni se modificó el contenido.
+
+
+### Recuento real de publicación e inventario FR — 26/11/2026
+
+- Hostinger `/fr`: 154 archivos en total; 151 `index.html`: Guía 21, Experiencias 6, Hospedaje 11, Transportes 12, Inicio 1, Gastronomía 100. La presencia de HTML no certifica integridad editorial ni publicación indexable.
+- `sitemap.xml` leído desde Hostinger: 3.588 `<loc>` indexables (1.196 por idioma ES/PT-BR/EN), 3.588 alternates pt-BR, 3.588 EN y 3.588 ES; cero alternate hreflang FR. El lote #65 suma seis páginas visibles noindex, ninguna nueva URL indexable.
+- Cobertura nominal del árbol FR: 151/1.196 rutas potenciales = 12,6% de presencia de archivos; traducción completa/QA e indexación no quedan demostradas por ese porcentaje. FR indexable actual: 0/1.196 = 0%, conforme al noindex vigente.
+- No hubo cambios de sitio ni build en esta ejecución. PR #67 sigue pendiente de viewports reales 390×844 y 1440×900; #69 sigue sujeto a gate y #47 queda deduplicado con el árbol FR actual.
