@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source": "Hugging Face model metadata and model cards, checked 2026-11-26",
+  "models": {
+    "es-en": {
+      "repo_id": "Helsinki-NLP/opus-mt-es-en",
+      "revision": "c96e2c5399ebfae4fc43d9669556b9afa74bb69d",
+      "source_language": "es",
+      "target_language": "en",
+      "license": "apache-2.0",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "commercial_use": true,
+      "attribution": "Helsinki-NLP/opus-mt-es-en; Apache-2.0",
+      "weight_files": ["pytorch_model.bin"]
+    },
+    "es-fr": {
+      "repo_id": "Helsinki-NLP/opus-mt-es-fr",
+      "revision": "f8be65b3aff01c69f3b9092a4ff81b873612140d",
+      "source_language": "es",
+      "target_language": "fr",
+      "license": "apache-2.0",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "commercial_use": true,
+      "attribution": "Helsinki-NLP/opus-mt-es-fr; Apache-2.0",
+      "weight_files": ["pytorch_model.bin"]
+    },
+    "en-pt": {
+      "repo_id": "Helsinki-NLP/opus-mt-tc-big-en-pt",
+      "revision": "9f2863d807ecf91a374bdbecb8d01e402e90622e",
+      "source_language": "en",
+      "target_language": "pt",
+      "license": "cc-by-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "commercial_use": true,
+      "attribution": "Helsinki-NLP/opus-mt-tc-big-en-pt; CC BY 4.0; https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-pt",
+      "weight_files": ["model.safetensors"]
+    }
+  }
+}

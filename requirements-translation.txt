@@ -1,0 +1,4 @@
+huggingface-hub==0.28.1
+transformers==4.48.3
+sentencepiece==0.2.0
+sacremoses==0.1.1
