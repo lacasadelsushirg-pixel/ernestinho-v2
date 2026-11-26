@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 
 from translation_model_registry import verify_model_dir
-from translation_offline import lock_memory, required_model_keys, save
+from translation_offline import lock_memory, prepare_target_text, required_model_keys, save
 
 
 class ModelRegistryTests(unittest.TestCase):
@@ -57,6 +57,16 @@ class ModelRegistryTests(unittest.TestCase):
         self.assertEqual(required_model_keys("fr", False), ("es-fr",))
         with self.assertRaisesRegex(ValueError, "only valid for the PT-BR"):
             required_model_keys("en", True)
+
+    def test_brazilian_portuguese_model_receives_pob_target_token(self):
+        self.assertEqual(prepare_target_text("Hello Rio", "en-pt"), ">>pob<< Hello Rio")
+        self.assertEqual(prepare_target_text("  >>pob<< Olá", "en-pt"), "  >>pob<< Olá")
+
+    def test_direct_models_do_not_receive_multilingual_target_token(self):
+        self.assertEqual(prepare_target_text("Hello Rio", "es-en"), "Hello Rio")
+        self.assertEqual(prepare_target_text("Bonjour Rio", "es-fr"), "Bonjour Rio")
+        with self.assertRaisesRegex(ValueError, "Unsupported pinned target model"):
+            prepare_target_text("Hello", "unregistered")
 
     def test_memory_lock_rejects_concurrent_writer(self):
         with tempfile.TemporaryDirectory() as directory:

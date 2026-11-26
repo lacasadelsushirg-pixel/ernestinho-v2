@@ -12,6 +12,8 @@ Instalación gratuita en Linux CPU: crear un entorno virtual, instalar `torch==2
 
 No se encontró un modelo `Helsinki-NLP/opus-mt-es-pt` público en la consulta al catálogo. PT-BR se genera en dos pasos (ES → EN → PT), por eso se marca como traducción automática sin revisar y no se publica hasta revisión. El mismo estado se aplica a las salidas directas ES → EN/FR.
 
+El modelo multilingüe EN→PT exige anteponer su etiqueta de destino. Para PT-BR el worker usa `>>pob<<` (la model card enumera `pob` y `por` y muestra la sintaxis de etiqueta); se añadieron pruebas de regresión para impedir inferencias sin esa etiqueta. Fuente primaria: https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-pt.
+
 La licencia comprobada es la que cada model card publica para el artefacto. Esto documenta permisos y atribuciones del modelo; no reemplaza revisión de calidad lingüística ni cambios de contenido aprobados. Antes de publicar, se conservan las traducciones previamente revisadas y se excluyen las salidas `machine_unreviewed` del gate de cobertura publicable.
 
 Para reutilizar el paquete de Inicio ya protegido por el guard editorial, ejecutar `node scripts/seed_approved_home_memory.mjs assets/js/translations/home.js /ruta/memory.json`. El importador lee los objetos ES/PT/EN/FR de `home.js`, conserva valores humanos ya revisados, sustituye solo borradores automáticos en conflicto y registra las coincidencias como `reviewed_import`. No cambia `home.js` ni HTML. El bundle actual tiene 67 claves fuente ES con correspondencia PT/EN/FR; 30 claves FR adicionales sin fuente ES no se importan automáticamente.

@@ -11,6 +11,7 @@ from translation_model_registry import verify_model_dir
 
 
 MODEL_KEYS = {"en": "es-en", "fr": "es-fr", "pt": "en-pt"}
+TARGET_LANGUAGE_PREFIXES = {"en-pt": ">>pob<<"}
 
 
 def required_model_keys(lang, has_pivot):
@@ -21,6 +22,16 @@ def required_model_keys(lang, has_pivot):
     if lang != "pt" and has_pivot:
         raise ValueError("--pivot-model is only valid for the PT-BR pivot route")
     return ("es-en", "en-pt") if lang == "pt" else (MODEL_KEYS[lang],)
+
+
+def prepare_target_text(text, model_key):
+    """Add the model-specific language token required by multilingual targets."""
+    if model_key not in {"es-en", "es-fr", "en-pt"}:
+        raise ValueError("Unsupported pinned target model: " + model_key)
+    prefix = TARGET_LANGUAGE_PREFIXES.get(model_key)
+    if not prefix:
+        return text
+    return text if text.lstrip().startswith(prefix) else prefix + " " + text
 
 def save(path, data):
     tmp = path.with_suffix(path.suffix + f".{os.getpid()}.tmp")
@@ -101,12 +112,17 @@ def main():
             with torch.inference_mode():
                 pivot_outputs = pivot_model.generate(**inputs, max_new_tokens=512, num_beams=4)
             source_texts = [pivot_tokenizer.decode(tokens, skip_special_tokens=True).strip() for tokens in pivot_outputs]
-            valid = [(row, text) for row, text in zip(batch, source_texts) if text and len(target_tokenizer.encode(text)) <= min(512, target_model.config.max_position_embeddings)]
-            skipped.extend(row[0] for row, text in zip(batch, source_texts) if not text or len(target_tokenizer.encode(text)) > min(512, target_model.config.max_position_embeddings))
-            batch = [row for row, _ in valid]
-            source_texts = [text for _, text in valid]
+            target_texts = [prepare_target_text(text, target_key) if text else "" for text in source_texts]
+            valid = [(row, text, target_text) for (row, text), target_text in zip(zip(batch, source_texts), target_texts)
+                     if text and len(target_tokenizer.encode(target_text)) <= min(512, target_model.config.max_position_embeddings)]
+            skipped.extend(row[0] for (row, text), target_text in zip(zip(batch, source_texts), target_texts)
+                           if not text or len(target_tokenizer.encode(target_text)) > min(512, target_model.config.max_position_embeddings))
+            batch = [row for row, _, _ in valid]
+            source_texts = [target_text for _, _, target_text in valid]
             if not batch:
                 continue
+        else:
+            source_texts = [prepare_target_text(text, target_key) for text in source_texts]
         inputs = target_tokenizer(source_texts, return_tensors="pt", padding=True, truncation=False)
         with torch.inference_mode():
             outputs = target_model.generate(**inputs, max_new_tokens=512, num_beams=4)
@@ -120,6 +136,8 @@ def main():
                     "models": used_models,
                     "licenses": ["apache-2.0", target_info["license"]] if len(used_models) > 1 else [target_info["license"]],
                     "method": "es-en-pt-pivot" if args.lang == "pt" else "direct",
+                    **({"target_language_token": TARGET_LANGUAGE_PREFIXES[target_key]}
+                       if target_key in TARGET_LANGUAGE_PREFIXES else {}),
                 }
             else:
                 skipped.append(key)
