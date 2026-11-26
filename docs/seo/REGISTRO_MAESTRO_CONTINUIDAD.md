@@ -427,7 +427,7 @@ Cambios exactos:
 
 - Se volvió a confirmar en la API de Hostinger que el repositorio Git enlazado al directorio público `/fr` es `release/fr-public-initial-20261115`. En el document root existen `fr/guia/accesibilidad/index.html` (14.580 bytes) y `fr/guia/alquiler-auto/index.html` (14.826 bytes).
 - El contenido leído desde ese document root es francés (`lang=fr`), con canonical individual hacia esas URL y `robots=noindex,nofollow`. La lectura de archivos del document root no es una comprobación HTTP independiente.
-- Las rutas correspondientes NO están en el HEAD actual de la rama Git enlazada (fetch de GitHub devuelve 404). Los archivos del PR #47, con las mismas rutas, tienen contenido distinto al servido: difieren longitud y referencia del logo relativa/absoluta. Por tanto, #47 no debe copiarse ni sincronizarse tal cual; las rutas ya tienen archivos en Hostinger y hay divergencia entre la carpeta servida y la rama versionada que requiere reconciliación antes de reemplazar esos documentos.
+- Corrección de ruta de esta comprobación: la rama Git enlazada al subdirectorio `/fr` guarda las fichas como `guia/<slug>/index.html` (sin prefijo `fr/`). La primera consulta usó por error `fr/guia/...` en esa rama. Comparé las rutas correctas: el contenido de ambas fichas en el HEAD `release/fr-public-initial-20261115` coincide exactamente con los archivos del document root Hostinger tras normalizar espacios (14.313 y 14.648 caracteres, respectivamente). También coinciden título, canonical, `noindex,nofollow` y logo. No existe la divergencia descrita anteriormente; #47 duplica contenido ya presente en la rama FR y en el directorio servido.
 - El inventario de `/fr/guia` muestra 20 subdirectorios además del índice, incluido `guarda-equipaje`; esto solo confirma presencia en el árbol, no calidad editorial ni estado HTTP.
 - #67 Hospedaje permanece DRAFT; no se logró viewport real 390×844/1440×900 en esta ejecución. No se fusionó ni desplegó. No hubo publicaciones nuevas ni URLs FR nuevas indexables. Sin build de raíz; sin cambios en páginas ES/PT/EN, fotos, mapas, widgets o sitemap.
 
@@ -440,3 +440,10 @@ Antes de avanzar #47, obtener por la integración Git/Hostinger un respaldo y re
 - Abrí Casa Venti desde el staging aislado de Hostinger en `deeppink-quail-855227.hostingersite.com/fr-qa-pr67/hospedaje/venti/`. La página muestra contenido FR, galería 1/34 y CTA WhatsApp preparado; no se abrió ni envió el CTA.
 - Captura disponible: 1348×936 (escritorio). F12 no abrió DevTools y la API de esta sesión no expone `setViewportSize` ni emulación; por ello no pude verificar 390×844 ni 1440×900.
 - #67 permanece DRAFT y no sincronizado a `/fr`. No se cambió el staging ni se ejecutó build raíz.
+
+
+### Rectificación confirmada del checkpoint — 26/11/2026
+
+- Queda rectificado el diagnóstico de path de la nota anterior. La rama Hostinger `/fr` tiene la estructura en la raíz del repositorio de release (`guia/...`), mientras que PR #47 apunta a la rama raíz de producción y lista `fr/guia/...`.
+- Verifiqué en el HEAD FR actual los dos archivos bajo `guia/accesibilidad/index.html` y `guia/alquiler-auto/index.html`; ambos son exactamente iguales al contenido actual del document root de Hostinger (igualdad tras normalizar whitespace). Están en francés y mantienen canonical y noindex.
+- Conclusión corregida: #47 no requiere publicación en `/fr`, porque esas fichas ya forman parte del release FR y del árbol servido. No se mergeó ni se modificó el contenido.
