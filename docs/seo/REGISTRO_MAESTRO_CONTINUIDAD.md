@@ -433,3 +433,10 @@ Cambios exactos:
 
 ### Siguiente paso exacto
 Antes de avanzar #47, obtener por la integración Git/Hostinger un respaldo y reconciliar el contenido servido de las dos rutas con la rama FR sin sobrescribir cambios divergentes. Para #67, conseguir una sesión de navegador con control real de viewport 390×844 y 1440×900; solo entonces terminar el QA, y luego continuar con el siguiente lote prioritario que no duplique el árbol actual.
+
+
+### Último intento de viewport remoto — 26/11/2026
+
+- Abrí Casa Venti desde el staging aislado de Hostinger en `deeppink-quail-855227.hostingersite.com/fr-qa-pr67/hospedaje/venti/`. La página muestra contenido FR, galería 1/34 y CTA WhatsApp preparado; no se abrió ni envió el CTA.
+- Captura disponible: 1348×936 (escritorio). F12 no abrió DevTools y la API de esta sesión no expone `setViewportSize` ni emulación; por ello no pude verificar 390×844 ni 1440×900.
+- #67 permanece DRAFT y no sincronizado a `/fr`. No se cambió el staging ni se ejecutó build raíz.
