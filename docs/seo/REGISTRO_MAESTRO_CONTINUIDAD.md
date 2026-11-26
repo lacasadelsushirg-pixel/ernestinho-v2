@@ -342,3 +342,13 @@ Cambios exactos:
 - Las correcciones de Inicio siguen como propuestas pendientes, no aprobadas. El commit de checkpoint de este archivo es posterior a `704dd88`.
 - Esto cambia la persistencia, no el estado editorial: 0 páginas publicadas en Hostinger en esta ejecución, NMT sin aprobar, no hubo HTTP/viewport de candidatos. No hay PR seguro del lote: la rama de trabajo completa contiene cuatro páginas FR con QA visual pendiente y está 24 commits por delante de producción antes de estos tres commits.
 - Siguiente trabajo reanudable: extraer el archive y la memoria, usar la lista de traducciones aprobadas; completar las 14 secuencias dinámicas por separado; QA de vista móvil/escritorio en un Chromium realmente instalado; corregir y revisar por idioma antes de escoger un lote mínimo para una rama de release limpia.
+
+
+
+### Estado público observado después del piloto — 2026-11-26
+
+- Hostinger, lectura del manifiesto raíz: 1.204 documentos fuente, 1.196 indexables por idioma, 3.612 documentos generados, 3.588 entradas indexables y `sourceCommit=d917494286c5b1ebab90f0c1a82ffda2007049b7`. Esto mide estructura/rutas, no calidad lingüística.
+- Lectura de archivos en la raíz Hostinger: `/pt/index.html` contiene la redacción “Não quero entregar uma lista infinita...” y `/en/index.html` contiene “I do not want to give you an endless list...”. El inglés público también fue localizado por HTTP/crawler y presenta esa redacción. Por tanto, el checkpoint anterior que decía que Inicio PT/EN aún servía la copia antigua está desactualizado; no atribuir este estado a esta ejecución.
+- `/fr/hospedaje/venti/index.html` sigue presente con `noindex,nofollow`. Se mantiene la discrepancia de contenido con PR #67 ya anotada; no se sincronizó.
+- Publicación incremental de esta ejecución: **0 páginas nuevas**. Las 40 candidatas NMT siguen en archivo de borrador bajo `docs/translation-drafts`, excluido explícitamente del build por el ignore de `docs`; no se deben llamar páginas visibles/indexables.
+- Porcentaje global de traducción editorial completa: **no determinado** con este piloto; 10/1.196 rutas fuente ES inventariadas (0,84%), pero 0 nuevas rutas publicadas y 14 scripts dinámicos pendientes. No extrapolar el muestreo a todo el sitio.
