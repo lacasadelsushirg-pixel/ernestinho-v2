@@ -38,8 +38,14 @@ try{
   fs.writeFileSync(destination,`<!doctype html><html><head><link rel="canonical" href="${origin+route}">${robots}${alternates}</head><body>${body}</body></html>`);
   routes.push({route,source,language,indexable:isIndexable});
  }
- const frenchHtml='<!doctype html><html lang="fr"><head><meta name="robots" content="noindex,nofollow"><link rel="canonical" href="'+origin+'/fr/"></head><body>PRIVATE-FR-SENTINEL</body></html>';
- fs.writeFileSync(path.join(live,'fr','index.html'),frenchHtml);
+ const frenchPages=new Map([
+  ['index.html','<!doctype html><html lang="fr"><head><meta name="robots" content="noindex,nofollow"><link rel="canonical" href="'+origin+'/fr/"></head><body>PRIVATE-FR-HOME-SENTINEL</body></html>'],
+  ['hospedaje/index.html','<!doctype html><html lang="fr"><head><meta name="robots" content="noindex,nofollow"><link rel="canonical" href="'+origin+'/fr/hospedaje/"></head><body>PRIVATE-FR-LODGING-SENTINEL</body></html>'],
+  ['hospedaje/casa-candida/index.html','<!doctype html><html lang="fr"><head><meta name="robots" content="noindex,nofollow"><link rel="canonical" href="'+origin+'/fr/hospedaje/casa-candida/"></head><body>PRIVATE-FR-CANDIDA-SENTINEL</body></html>'],
+  ['hospedaje/nata/index.html','<!doctype html><html lang="fr"><head><meta name="robots" content="noindex,nofollow"><link rel="canonical" href="'+origin+'/fr/hospedaje/nata/"></head><body>PRIVATE-FR-NATA-SENTINEL</body></html>'],
+  ['hospedaje/venti/index.html','<!doctype html><html lang="fr"><head><meta name="robots" content="noindex,nofollow"><link rel="canonical" href="'+origin+'/fr/hospedaje/venti/"></head><body>PRIVATE-FR-VENTI-SENTINEL</body></html>']
+ ]);
+ for(const [relative,html] of frenchPages){const destination=path.join(live,'fr',relative);fs.mkdirSync(path.dirname(destination),{recursive:true});fs.writeFileSync(destination,html);}
  // Reproduce Hostinger's 2026-11-22 failure: stale legacy FR route marked
  // indexable in the manifest despite a real French noindex page.
  routes.push({route:'/fr/',source:'/fr/',language:'fr',indexable:true,generated:false,passthrough:true});
@@ -49,7 +55,7 @@ try{
   indexablePerLanguage:1196,
   generated:3613,
   pilot:false,
-  sourceCommit:'13281f87fb16ba57be07f230c00d877657ba7bdf',
+  sourceCommit:'d917494286c5b1ebab90f0c1a82ffda2007049b7',
   routes
  }));
 
@@ -57,7 +63,8 @@ try{
  if(planned.status!==0)throw Error('valid incremental plan failed:\n'+planned.stdout+'\n'+planned.stderr);
  const jsonLine=planned.stdout.trim().split('\n').find(line=>line.startsWith('{"mode"'));
  const plan=JSON.parse(jsonLine||'null');
- if(plan?.mode!=='incremental'||JSON.stringify(plan.selectedRoutes)!=='["/","/quiero/"]'||JSON.stringify(plan.targets)!=='["/","/pt/","/en/","/quiero/","/pt/quiero/","/en/quiero/"]'){
+ const expectedFrOnlyRoutes=['/fr/hospedaje/','/fr/hospedaje/casa-candida/','/fr/hospedaje/nata/','/fr/hospedaje/venti/'];
+ if(plan?.mode!=='incremental'||JSON.stringify(plan.selectedRoutes)!==JSON.stringify(expectedFrOnlyRoutes)||JSON.stringify(plan.targets)!=='[]'){
   throw Error('unexpected incremental plan: '+jsonLine);
  }
 
@@ -74,10 +81,10 @@ try{
 
  const built=execute(live,[]);
  if(built.status!==0)throw Error('full-tree incremental QA failed:\n'+built.stdout+'\n'+built.stderr);
- if(!built.stdout.includes('Build mode: incremental; rendering 6 of 3612 locale pages'))throw Error('incremental build did not render exactly 6/3612 pages');
+ if(!built.stdout.includes('Build mode: incremental; rendering 0 of 3612 locale pages'))throw Error('French-only changes unexpectedly rendered ES/PT/EN pages');
  if(!built.stdout.includes('Seeded 3613 published routes from public_html'))throw Error('published tree was not seeded before rendering');
  if(!fs.readFileSync(path.join(dist,'en','preserved-1194','index.html'),'utf8').includes('PRESERVE-DEEP-SENTINEL'))throw Error('unrelated deep EN page was not preserved');
- if(fs.readFileSync(path.join(dist,'fr','index.html'),'utf8')!==frenchHtml)throw Error('private FR tree was overwritten');
+ for(const [relative,html] of frenchPages){if(fs.readFileSync(path.join(dist,'fr',relative),'utf8')!==html)throw Error('private FR file was overwritten: '+relative);}
  const outputManifest=JSON.parse(fs.readFileSync(path.join(dist,'locale-manifest.json'),'utf8'));
  if(outputManifest.routes.length!==3612||outputManifest.routes.filter(entry=>entry.indexable).length!==3588)throw Error('route inventory changed during incremental build');
  if(outputManifest.routes.some(entry=>entry.route==='/fr/'))throw Error('legacy indexable FR route was not removed from the public manifest');
@@ -85,7 +92,7 @@ try{
  const sitemap=fs.readFileSync(path.join(dist,'sitemap.xml'),'utf8');
  if((sitemap.match(/<url>/g)||[]).length!==3588||sitemap.includes('<loc>'+origin+'/fr/</loc>'))throw Error('public sitemap changed its 3588-route/FR-private contract');
 
- console.log('HOSTINGER INCREMENTAL QA PASS: 6/3612 rendered; 3613 published input documents incl legacy FR, 3612 output manifest routes, 3588 indexable routes, deep EN page, private FR tree and sitemap preserved; missing manifest aborts before dist changes.');
+ console.log('HOSTINGER INCREMENTAL QA PASS: FR-only change plan selects 4 private FR routes and renders 0 ES/PT/EN pages; 3613 published input documents incl legacy FR, 3612 output manifest routes, 3588 indexable routes, deep EN page, five private FR files and sitemap preserved; missing manifest aborts before dist changes.');
 }finally{
  fs.rmSync(sandbox,{recursive:true,force:true});
 }
