@@ -363,3 +363,13 @@ Cambios exactos:
 - El PR #71 separa el motor, snapshots/licencias, importación de cadenas aprobadas y tests. No contiene memoria ni outputs NMT; éstos siguen archivados en docs de la rama work con estado no aprobado.
 - Hostinger no cambió: 0 páginas nuevas publicadas en esta ejecución. No se lanzó build global ni parcial a producción.
 - Siguiente paso: revisión/integración del PR de infraestructura cuando el flujo de producción confirme que cambios de scripts/requirements terminan en SAFE ABORT o no despliegan raíz. Paralelamente completar QA del contenido del piloto; no fusionar Hospedaje ni publicar el NMT sin prueba visual y editorial.
+
+
+
+### Desglose de los bloques inline del piloto — 2026-11-26
+
+- Inspección de las 14 etiquetas `<script>` con contenido inline: 10 son JSON-LD de Schema.org (metadatos SEO, no lógica de formulario); las cuatro restantes están concentradas en `transportes/transporte-privado/index.html`.
+- De esos cuatro scripts, uno contiene plantillas WhatsApp ES/PT/EN; otro mantiene tarifas y precios dinámicos; otro elige banners por idioma y cambia sus `alt`; el cuarto instala el reproductor de Instagram bajo demanda. Las rutinas de precios, URLs de fotos y video deben preservarse; sus textos/locales requieren tratamiento específico, no reemplazo automático de todo el script.
+- Corrección del checkpoint anterior: “14 scripts sin traducir” era demasiado impreciso. Hay 10 bloques JSON-LD y 4 scripts funcionales; no son 14 bloques de texto editorial sin procesar. Las versiones PT/EN de las plantillas de transporte ya existen en el script fuente; FR no está cubierto ahí.
+- Esto mejora el mapa de QA, pero no cambia publicación: los candidatos todavía contienen salidas NMT defectuosas en contenido estático y falta navegador Chromium funcional. No se cambió Hostinger.
+- PR de infraestructura separado: #71, rama `infra/local-modelos-traduccion-20261126`, commit `a034ad8cd85b851899d58540e292d90bdb6de29e`; GitHub Actions #797 y #734 pasaron. Sigue borrador, sin merge/deploy.
