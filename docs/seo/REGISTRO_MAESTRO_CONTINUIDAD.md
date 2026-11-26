@@ -421,3 +421,15 @@ Cambios exactos:
 - Cotejé `assets/js/translations/home.js` en producción `revision/rendimiento-traducciones-81a904c` (HEAD `d917494286c5b1ebab90f0c1a82ffda2007049b7`) con la rama del PR #42 (`985f97708ef469c81247bb4d8017ee4e4dfe0c49`). Las claves y valores del bloque PT coinciden 81/81; EN coincide 96/96. No se necesita copiar el contenido de Inicio PT/EN del PR #42 ni abrir otro PR para ese lote.
 - El PR #42 permanece abierto pero no mergeable: su base es `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`, 43 commits detrás del HEAD actual, y la comparación contiene cambios adicionales en el script QA y documentación. No rebasar ni fusionar en bloque; no repetir el lote.
 - Sin cambios de código o sitio en este checkpoint. Publicaciones nuevas: 0; URL indexables nuevas: 0.
+
+
+### Reconciliación de árbol Hostinger FR y checkpoint — 26/11/2026
+
+- Se volvió a confirmar en la API de Hostinger que el repositorio Git enlazado al directorio público `/fr` es `release/fr-public-initial-20261115`. En el document root existen `fr/guia/accesibilidad/index.html` (14.580 bytes) y `fr/guia/alquiler-auto/index.html` (14.826 bytes).
+- El contenido leído desde ese document root es francés (`lang=fr`), con canonical individual hacia esas URL y `robots=noindex,nofollow`. La lectura de archivos del document root no es una comprobación HTTP independiente.
+- Las rutas correspondientes NO están en el HEAD actual de la rama Git enlazada (fetch de GitHub devuelve 404). Los archivos del PR #47, con las mismas rutas, tienen contenido distinto al servido: difieren longitud y referencia del logo relativa/absoluta. Por tanto, #47 no debe copiarse ni sincronizarse tal cual; las rutas ya tienen archivos en Hostinger y hay divergencia entre la carpeta servida y la rama versionada que requiere reconciliación antes de reemplazar esos documentos.
+- El inventario de `/fr/guia` muestra 20 subdirectorios además del índice, incluido `guarda-equipaje`; esto solo confirma presencia en el árbol, no calidad editorial ni estado HTTP.
+- #67 Hospedaje permanece DRAFT; no se logró viewport real 390×844/1440×900 en esta ejecución. No se fusionó ni desplegó. No hubo publicaciones nuevas ni URLs FR nuevas indexables. Sin build de raíz; sin cambios en páginas ES/PT/EN, fotos, mapas, widgets o sitemap.
+
+### Siguiente paso exacto
+Antes de avanzar #47, obtener por la integración Git/Hostinger un respaldo y reconciliar el contenido servido de las dos rutas con la rama FR sin sobrescribir cambios divergentes. Para #67, conseguir una sesión de navegador con control real de viewport 390×844 y 1440×900; solo entonces terminar el QA, y luego continuar con el siguiente lote prioritario que no duplique el árbol actual.
