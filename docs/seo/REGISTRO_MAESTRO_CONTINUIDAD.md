@@ -264,3 +264,194 @@ Cambios exactos:
 - GitHub Actions confirmado para ese SHA: `Protect approved content` **success** y `Petrópolis preview QA` **success**.
 - Resultado exigido y obtenido: 2 fuentes seleccionadas, 6/3.612 páginas renderizadas, 3.606 documentos preservados, 3.588 URL en sitemap, página EN profunda intacta, árbol FR privado intacto y aborto seguro si falta el manifiesto.
 - El PR sustituto es #46 y está basado directamente en producción `2dce6006`. Falta únicamente revisión humana independiente; no se fusionó ni desplegó.
+
+
+## Publicación FR — lote Experiencias #65 — 2026-11-23
+
+- HEAD de producción GitHub comprobado antes de este apunte: `d917494286c5b1ebab90f0c1a82ffda2007049b7`. No se modificó esta rama ni se ejecutó un build del sitio raíz.
+- Rama FR vinculada a Hostinger: `release/fr-public-initial-20261115`. PR #65 fusionado en `d4c5d87851f77443ea73ac022f585f8a6dcdbb30`; HEAD de la rama comprobado después de la fusión: el mismo SHA.
+- Cambios: seis páginas FR de Experiencias y seis entradas en `fr-home.js`; commits de QA previos al merge culminan en `f3b3654b55caef8f35ca5037a1c3c3a3178f9232`. PR #48 no se fusionó ni se sincronizó en bloque. El parche AP805 del PR #62 se conserva.
+- Hostinger confirmó el sync Git a la carpeta `fr`, árbol limpio y sin build Node. HTTP posterior de las seis páginas: 200.
+
+| URL | Estado HTTP | Canonical/hreflang | robots | Formularios |
+|---|---:|---|---|---|
+| https://www.ernestinhocarioca.com.br/fr/experiencias/ | 200 | FR individual + alternates verificados | noindex,nofollow | N/A |
+| https://www.ernestinhocarioca.com.br/fr/experiencias/full-day-rio/ | 200 | FR individual + alternates verificados | noindex,nofollow | WhatsApp QA validado |
+| https://www.ernestinhocarioca.com.br/fr/experiencias/cristo-city-tour/ | 200 | FR individual + alternates verificados | noindex,nofollow | N/A |
+| https://www.ernestinhocarioca.com.br/fr/experiencias/angra-ilha-grande/ | 200 | FR individual + alternates verificados | noindex,nofollow | WhatsApp QA validado |
+| https://www.ernestinhocarioca.com.br/fr/experiencias/arraial-do-cabo/ | 200 | FR individual + alternates verificados | noindex,nofollow | WhatsApp QA validado |
+| https://www.ernestinhocarioca.com.br/fr/experiencias/rio-samba-bus/ | 200 | FR individual + alternates verificados | noindex,nofollow | Afiliados comprobados en HTML |
+
+- QA técnico: `node --check fr-home.js` PASS; seis HTML con idioma/canonical/alternates/título/H1; responsive local 390/1440 con CSS aprobado sin overflow; 48 URLs fotográficas 200; 24 enlaces fuente ES 200; los tres formularios completados en navegador local generan el texto francés correcto para WhatsApp, sin enviar mensajes. CSS y marca raíz 200. AP805 y `fr/fr-home.js` permanecen accesibles; sitemap raíz no contiene las rutas nuevas.
+- Fotos: no se sustituyeron. Se retiró solo metadata social de una imagen Cloudinary que daba 401; contenido visual aprobado sin cambios.
+- Publicación privada FR verificable: 6 páginas. Nuevas URLs FR indexables: 0. Inicio ES/PT/EN, rutas, mapas, sitemap raíz y builds globales: sin cambios.
+- Backup FR anterior al merge: `backup/fr-pre-pr65-20261123`, base exacta `89470eb814a6d765b444ac39b95a2ea3911b7557`.
+- Continuación exacta: revisar los cambios restantes de PR #48 contra el HEAD actual de la rama FR y el árbol en Hostinger; extraer un lote sin solapamientos de 5–10 páginas completas (prioridad Hospedaje/Experiencias), probar enlaces/fotos/canonical/noindex y visual 390/1440 antes de integrar. Para PT/EN mantener el pipeline incremental existente y exigir logs que muestren solo rutas seleccionadas; si aparece `full` o faltan guards/manifiesto, SAFE ABORT.
+
+
+## Inventario siguiente lote Hospedaje FR — 2026-11-23 (QA parcial, no publicado)
+
+- Se comparó el HEAD FR Hostinger `d4c5d87851f77443ea73ac022f585f8a6dcdbb30` con PR #48 (`36927b003ab7686592c524b7fb1941d9a020bf38`). El PR #48 está 107 commits adelante y 62 detrás; no fusionar ni sincronizar en bloque.
+- Listado real de Hostinger `fr/hospedaje`: la portada y 10 páginas existentes, incluidas AP54, AP621, Goia y AP805. No están Casa Cândida, Casa Ñata ni Casa Venti.
+- Archivos candidatos que difieren del HEAD FR y se pueden acotar a seis: `hospedaje/54/index.html`, `hospedaje/621/index.html`, `hospedaje/goia/index.html`, `hospedaje/casa-candida/index.html`, `hospedaje/nata/index.html` y `hospedaje/venti/index.html`. Solo las tres últimas crean rutas nuevas. AP805 queda expresamente excluida para conservar su parche WhatsApp #62.
+- QA estática parcial: las seis tienen `lang=fr`, canonical FR individual, `noindex,nofollow`, H1, metadescripción y enlace WhatsApp. Seis imágenes representativas de fotos aprobadas respondieron HTTP 200. AP621 carece de etiqueta `<title>` y hay que corregirla antes del PR. Los HTML mantienen CSS raíz absoluto.
+- Se aplazó `hospedaje/estudio-1-1/index.html`: usa rutas CSS relativas `../../assets/...`, tiene solo 77 palabras visibles y no presenta foto HTML; requiere completar QA/correcciones sin inventar ni reemplazar fotos.
+- La prueba visual local del nuevo lote no pudo ejecutarse: Chromium falla al iniciar por restricción del contenedor (`process_singleton_posix.cc: Check failed: . socket() failed: Operation not permitted`). No se creó ni fusionó otro PR, ni se desplegó este lote. Reanudar corrigiendo AP621 y consiguiendo una vía de QA responsive técnica permitida antes de publicar.
+
+
+### Rectificación de QA y nuevo borrador Hospedaje — 23/11/2026
+
+- Corrección: la inspección inicial informó que AP621 no tenía `<title>`, pero sí lo tiene como `<title data-i18n="stay.title.621">...`; el extractor anterior solo detectaba la forma sin atributos. No hacía falta cambiar ese metadato.
+- Se abrió PR #67, borrador, rama `release/fr-hospedaje-lot1-20261123`, HEAD `6bc6268d15c11bf3d1a802e4661ad2c31381f0b7`, base exacta FR `d4c5d87851f77443ea73ac022f585f8a6dcdbb30`. Incluye tres páginas nuevas (Casa Cândida, Casa Ñata, Casa Venti), tres actualizaciones existentes (AP54, AP621, Goia), y tres rutas nuevas reconocidas en `fr-home.js`. Son 7 archivos/7 commits, dentro de un solo sublote; AP805 no cambia.
+- QA estática sobre las seis páginas: `lang=fr`, `<title>`, canonical individual francés, `noindex,nofollow`, H1 y metadescripción. Seis URL representativas de fotos respondieron 200. Responsive visual 390/1440 sigue pendiente: el Chromium local no arranca por error de socket (`process_singleton_posix.cc: Check failed: . socket() failed: Operation not permitted`). Por ello el PR #67 sigue borrador y no se desplegó.
+- Próximo paso: obtener QA responsive en un navegador permitido, revisar navegación y enlaces WhatsApp, revisar las URLs de fotos restantes; si todo pasa, marcar listo, fusionar y sincronizar únicamente `/fr` por Hostinger, luego verificar HTTP real. No ejecutar build de raíz.
+
+
+### Confirmación técnica del bloqueo responsive — 2026-11-23
+
+- La previsualización local del PR #67 no puede ejecutarse en este contenedor: Python confirma que crear `socket.AF_UNIX` falla con `PermissionError [Errno 1] Operation not permitted`; Chromium termina con `process_singleton_posix.cc: Check failed: . socket() failed: Operation not permitted` incluso invocando directamente `/usr/lib/chromium/chromium`.
+- El navegador CUA remoto tampoco puede acceder al loopback `127.0.0.1:8765` (ERR_CONNECTION_REFUSED), por estar aislado del servidor local. No se creó un staging público ni se desplegó para simular la prueba.
+- PR #67 sigue DRAFT y sin despliegue. Bloqueo preciso: falta un entorno de navegador que pueda renderizar el HTML candidato con las CSS de producción y permitir medir 390/1440 px. En cuanto esté disponible, verificar overflow, H1, imágenes, navegación y enlaces WhatsApp; luego decidir integración. La QA estática y las URL de fotos comprobadas no sustituyen este paso visual.
+
+
+### QA estática adicional del PR #67 — 23/11/2026
+
+- Las nueve referencias de imagen de las seis páginas candidatas (AP54, AP621, Goia, Casa Cândida, Casa Ñata, Casa Venti) respondieron HTTP 200 en Hostinger.
+- CSS raíz `/assets/css/tokens.css`, `app.css`, `components.css` y `hospedaje.css`: 200.
+- Las rutas enlazadas ya existentes `/fr/`, `/fr/hospedaje/`, `/fr/guia/`, AP805, AP54, AP621 y Goia responden 200. Los enlaces WhatsApp están presentes (uno por ficha); no se enviaron mensajes.
+- El alcance del PR #67 sigue en 7 archivos: seis páginas de Hospedaje y `fr-home.js`; no modifica ES/PT/EN, imágenes, mapas ni sitemap. No se fusionó ni desplegó. Publicación nueva de esta ejecución: 0. QA visual a 390/1440 sigue como el único gate técnico pendiente.
+
+
+### Revisión adicional de PR #67 — 23/11/2026
+
+- Rama FR de trabajo: release/fr-hospedaje-lot1-20261123; base publicada exacta d4c5d87851f77443ea73ac022f585f8a6dcdbb30. PR #67 sigue abierto como DRAFT; head tras correcciones: a0386afe531aee0fbbccc6352e58da1dc1f7e716.
+- node --check fr-home.js pasó. Las seis fichas mantienen lang=fr, título, un H1, canonical individual, noindex,nofollow y CTA WhatsApp. readyRoutes contiene las tres rutas nuevas.
+- QA HTTP detectó y corrigió dos regresiones del lote: (1) AP54 había perdido hreflang=x-default; se restauró con la URL original de la base. (2) los metadatos OG/Twitter de AP621 apuntaban a una portada 404; se restauró la URL aprobada, ahora 200 y coincidente con su hero. Las páginas preexistentes AP54, AP621 y Goia no conservan cambios de URL de fotos respecto de la base.
+- Las 16 URL de imagen extraídas de las seis fichas responden HTTP 200. El lote no toca los archivos fotográficos ni cambia HTML ES/PT/EN, mapas o sitemap.
+- Estado de publicación: 0 páginas nuevas publicadas; ninguna URL nueva indexable. No fusionar ni sincronizar todavía. Responsive visual real 390/1440 sigue bloqueado por Chromium (socket() failed: Operation not permitted); la comprobación estática no reemplaza la visual. Próximo paso exacto: probar las seis fichas en un navegador con preview local alcanzable a 390 y 1440 px; solo con overflow, navegación, imágenes y CTAs correctos, fusionar PR #67 y sincronizar únicamente el directorio /fr por Hostinger; después comprobar las seis URL HTTP y noindex.
+
+
+## Checkpoint de ejecución — 2026-11-25
+
+### Hospedaje FR: alternativa de QA aislada en Hostinger
+
+- PR #67 se mantiene abierto como borrador, HEAD `a0386afe531aee0fbbccc6352e58da1dc1f7e716`, sobre la base FR `d4c5d87851f77443ea73ac022f585f8a6dcdbb30`. Sin merge ni publicación en `/fr`.
+- Se creó una rama de QA separada `qa/fr-hospedaje-pr67-20261125` a partir del candidato #67. Sus seis commits de QA ajustan solo en esa rama las referencias CSS a `/fr/assets/`; las páginas originales del PR y la rama FR publicada no se alteraron.
+- Hostinger desplegó esa rama en el subdirectorio aislado `/fr-qa-pr67` del dominio staging `deeppink-quail-855227.hostingersite.com`. El registro de despliegue confirmó clonación Git y ausencia de build/composer. No se reemplazó `/fr` ni `public_html`.
+- Las seis rutas de staging abrieron en el navegador remoto y mostraron contenido francés, H1, datos del alojamiento, galería fotográfica y CTA WhatsApp. El enlace de WhatsApp se inspeccionó sin enviar mensaje. Títulos/canonicals apuntan a la ruta francesa de producción; `lang=fr`, `noindex,nofollow` y `googlebot noindex` continúan.
+- Se revisó visualmente escritorio en el navegador remoto (viewport disponible aprox. 1340×920). El navegador CUA no expone cambio de viewport ni DevTools; la combinación local Chromium sigue bloqueada por sockets/seccomp. Por ello, QA visual real a 390 y 1440 px no está completa y PR #67 sigue borrador.
+- CSS estático de staging presente: `app.css` declara breakpoints 900 px; `hospedaje.css` a 700 px organiza capacidad en dos columnas, amenidades en una y galería en 4:3. Esto no sustituye la prueba visual de los dos viewports.
+- Las seis fichas leídas desde el directorio de QA tienen canonical individual, `lang=fr`, ambos robots noindex, un H1 y alt en sus imágenes; las seis contienen WhatsApp. Las galerías interactivas están en las tres páginas nuevas y las tres actualizadas muestran sus controles existentes en el árbol accesible.
+- Publicaciones nuevas en producción Hostinger `/fr`: **0**. Rutas nuevas indexables: **0**. El contenido de staging no se cuenta como publicado.
+
+### Inicio PT-BR/EN y estado paralelo
+
+- Hostinger raíz sirve `assets/js/translations/home.js` (25.190 bytes leídos) con las cadenas editoriales actuales PT-BR y EN. Las páginas `/pt/` y `/en/` mantienen canonicals propios; la inspección visual previa de ambas páginas confirmó idioma y navegación correspondientes. No se abrió otro PR de traducción duplicado.
+- PR #42 continúa abierto/no fusionable con base antigua `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`; no se mezcló ni se usó para publicar. El siguiente trabajo PT/EN debe partir de la rama de producción actual y de lo que Hostinger realmente sirve, no del candidato obsoleto.
+
+### Siguiente paso exacto
+
+1. Repetir en un navegador con emulación verificable 390×844 y 1440×900 las seis rutas de Hospedaje, navegación, scroll, galería y CTA.
+2. Si todas pasan, cerrar QA, integrar el lote #67 sobre HEAD FR fresco y sincronizar solo la carpeta Git `/fr` de Hostinger; verificar después las seis rutas de producción por HTTP, canonical, noindex, fotos y CTAs.
+3. Mientras siga pendiente el viewport, no fusionar/desplegar #67. Continuar con la siguiente sección prioritaria y correcciones PT/EN independientes; nunca iniciar build raíz masivo.
+
+
+### Revalidación de Hostinger FR y navegación — 25/11/2026
+
+- Se abrieron desde la raíz pública las seis URLs de Experiencias ya desplegadas por #65; todas mostraron su documento y H1 francés. Se leyó el HTML servido en Hostinger: seis canonicals individuales bajo `/fr/experiencias/`, `lang=fr` y `robots=noindex,nofollow`. No se añadió otra vez ninguna de estas fichas ni se cuenta una publicación nueva en esta sesión.
+- Las fichas mantienen fotos y CTA funcionales: las cinco páginas de excursión/tour tienen solicitud WhatsApp; Rio Samba Bus conserva sus enlaces de reserva con el operador afiliado.
+- En el índice de Experiencias los vínculos a las fichas recién publicadas llevan a sus rutas FR. Se detectó un problema preexistente en la portada `/fr/`: el enlace superior “EXCURSIONS” aún apunta a la ruta española `/experiencias/`, aunque `/fr/experiencias/` existe. No se cambió el JavaScript ni la navegación en este checkpoint; siguiente corrección candidata, acotada a las rutas FR ya publicadas y validada en staging antes de sincronizar.
+- La raíz de producción `/fr/hospedaje/` todavía solo lista los alojamientos previos. Casa Cândida, Casa Ñata y Casa Venti de #67 no están en la carpeta servida. Por tanto, el lote de Hospedaje tiene **0 rutas nuevas publicadas** y permanece solo en staging/PR.
+- Publicaciones nuevas en esta ejecución: **0 páginas** (el candidato #67 quedó detenido por viewport móvil/escritorio). El cambio de #65 antecede a esta ejecución y ya estaba visible/noindex.
+- No se ejecutó build de raíz ni se tocó la carpeta `public_html` raíz.
+
+
+## Seguimiento FR y QA de navegación — 25/11/2026
+
+- Estado comprobado por conectores GitHub/Hostinger: producción revision/rendimiento-traducciones-81a904c en d917494286c5b1ebab90f0c1a82ffda2007049b7; rama FR release/fr-public-initial-20261115 en d4c5d87851f77443ea73ac022f585f8a6dcdbb30, vinculada a Hostinger en /fr.
+- PR #65 continúa fusionado; sus seis páginas Experiencias ya estaban publicadas/noindex y fueron reabiertas en Hostinger. No se cuentan como páginas nuevas de esta sesión.
+- PR #67 continúa borrador. Se desplegó su árbol a staging aislado deeppink-quail-855227.hostingersite.com/fr-qa-pr67/: seis páginas cargan en escritorio con francés, canonical individual, noindex,nofollow, fotos y CTA presentes. QA visual real a 390/1440 no disponible; el lote no se integra. Hospedaje nuevo publicado esta sesión: 0.
+- QA del staging #67: páginas visuales confirmadas; emulación a 390/1440 continúa impedida por falta de viewport/DevTools del navegador remoto y el bloqueo de sockets del Chromium local. No se fusionó ni escribió a producción.
+- Hallazgo independiente: rama QA qa/fr-home-ready-routes-20261125 creada desde d4c5d87851f77443ea73ac022f585f8a6dcdbb30, solo modifica fr-home.js. Último commit QA a462222996fddeba88057a056b009dcefb38de13. Parseo de sintaxis de módulo: PASS.
+- Staging de navegación deeppink-quail-855227.hostingersite.com/fr-qa-nav4/ conserva contenido francés; Hostinger sirve la variante de fr-home.js del commit QA. Sin embargo, el DOM sigue terminando el enlace Excursions en /fr-qa-nav4/fr/experiencias/, ruta que devuelve 404 en staging (la copia francesa de esa rama está directamente bajo experiencias/). También se carga assets/js/site.js, que podría reescribir enlaces. El parche no está validado funcionalmente y no debe publicarse. No se cambió /fr ni public_html raíz.
+- /fr/experiencias/ se reabrió en producción: título y cuerpo franceses comprobados; no es publicación nueva.
+- Siguiente paso exacto: inspeccionar en Hostinger assets/js/site.js del dominio staging, comparar cómo forma rutas con prefijo de carpeta /fr; ajustar solo fr-home.js para que QA resuelva experiencias/ dentro del prefijo de staging y producción resuelva /fr/experiencias/. Repetir clic real en staging con destino HTTP 200, verificar que el selector ES siga apuntando a raíz ES, y abrir PR pequeño de un archivo; no desplegar antes de que pase.
+- PT/EN: sin cambios ni publicaciones esta sesión. No ejecutar build/hosting_deploy de raíz. Nuevas páginas FR indexables: 0.
+
+## Corrección de navegación FR publicada — 2026-11-25
+
+- Se verificaron las portadas públicas `/pt/` y `/en/` en navegador: ambas muestran el contenido principal, selector y navegación en el idioma correspondiente; no se encontró el residuo español anotado en un checkpoint anterior. Sin cambios PT/EN esta ronda.
+- Reparación de navegación acotada en PR #70, squash commit `5f4bde5230ea69d943e0231bd95283be1cef205f` sobre FR HEAD anterior `d4c5d87851f77443ea73ac022f585f8a6dcdbb30`. El único archivo cambiado fue `fr-home.js`; se normaliza el prefijo del subdirectorio de QA antes de consultar `readyRoutes`.
+- QA en Hostinger staging aislado `/fr-qa-nav5/`: clic real en “Excursions” abre `/fr-qa-nav5/experiencias/`; página francesa, canonical de producción `/fr/experiencias/`, `lang=fr`, `noindex,nofollow`. El intento anterior en `fr-qa-nav4` falló porque el navegador conservó la versión JS cacheada; el clon limpio nav5 usó el commit actualizado.
+- Integración PR #70 confirmada: squash commit `5f4bde5230ea69d943e0231bd95283be1cef205f`; base FR ahora en ese SHA. Hostinger sincronizó exitosamente el repositorio Git conectado a `/fr` (rama `release/fr-public-initial-20261115`); log “up to date”, sin build Node ni raíz.
+- Verificación HTTP/navegador en producción tras sincronizar: `/fr/` muestra “EXCURSIONS” enlazado a `/fr/experiencias/`; el clic abre índice francés, H1 “Tours à Rio de Janeiro”, canonical propio, `lang=fr` y `noindex,nofollow`.
+- Publicaciones nuevas de páginas: **0**. URLs nuevas indexables: **0**. La navegación corregida no crea una página y no modifica sitemap.
+- PR #67 permanece DRAFT/no fusionado en `a0386afe531aee0fbbccc6352e58da1dc1f7e716`, base `d4c5d87851f77443ea73ac022f585f8a6dcdbb30`; las seis fichas siguen en staging/noindex. No publicar hasta disponer de revisión visual real a 390 y 1440 px; la API de navegador expuesta en esta ejecución no ofrece cambio de viewport y Chromium local sigue bloqueado por sockets.
+- Ningún build global ni comando de build de raíz ejecutado. No se modificaron HTML ES/PT/EN, fotos, CSS, mapas, widgets ni sitemap.
+
+### Siguiente paso exacto
+
+1. Conseguir una ejecución de navegador con emulación verificable 390×844 y 1440×900 para las seis páginas de #67. Solo con QA responsiva verde, integrar el lote y sincronizar exclusivamente `/fr`.
+2. Continuar el siguiente lote propio prioritario sin duplicar rutas existentes; comprobar el HEAD FR y contenido real de Hostinger antes de crear otra rama o PR. Mantener FR noindex hasta autorización editorial específica.
+3. Para cambios PT/EN, tomar la rama de producción actual y verificar el plan incremental solo si el alcance y el resultado indican selección limitada; ante modo full, aborto seguro. No repetir trabajo de Inicio ya presente en producción.
+
+
+### Continuidad de publicación y bloqueos — 25/11/2026 (sesión adicional)
+
+- PR #70 corrigió únicamente la normalización de rutas en `fr-home.js`; merge FR: `5f4bde5230ea69d943e0231bd95283be1cef205f`. La rama `release/fr-public-initial-20261115` se sincronizó por Git Hostinger únicamente en `/fr`; HTTP confirmó que el enlace de Inicio abre `/fr/experiencias/`, canonical FR, `lang=fr` y `noindex,nofollow`. Es una corrección de navegación, no una página nueva ni URL indexable.
+- Verificación en vivo de las portadas PT-BR y EN: contenido editorial visible en sus idiomas; no se hicieron cambios de contenido en esta sesión.
+- PR #67 Hospedaje sigue DRAFT/no mergeable hasta completar responsive real a 390 y 1440 px. El staging Hostinger remoto `/fr-qa-pr67/` abrió Casa Venti en escritorio; esta sesión no pudo completar emulación de viewport y no integró ni publicó el lote.
+- PR #69 Transportes sigue abierto y bloqueado por el guard existente: el workflow `Protect approved content` falló en la verificación de baseline porque `transportes/index.html` y `transportes/transporte-privado/index.html` están protegidos. `Petrópolis preview QA` falló en el mismo guard; no se llegó a su render/preview. No se tocó ni desactivó el guard.
+- Revisión estática independiente del código #69: script de formulario sintácticamente válido; cuatro diccionarios (ES/PT/EN/FR), ocho campos y texto de un solo trayecto presentes; campos requeridos y URL de WhatsApp se generan y codifican. No sustituye la prueba visual/funcional en la salida localizada. La ficha productiva contiene estructura renderizada de 56.786 bytes frente a 31.617 bytes de la fuente PR; no aplicar el HTML fuente directamente sobre la copia servida.
+- Publicaciones nuevas de páginas en esta sesión: 0. Nuevas URL FR indexables: 0. No se ejecutó build raíz ni se cambió sitemap, fotos, mapas, widgets o contenido ES/PT/EN.
+- Siguiente paso exacto: obtener viewport responsive real para #67 antes de integrarlo; para #69 conseguir autorización de baseline que cubra esas dos rutas y QA de salida localizada antes de considerar un despliegue incremental. No ejecutar un build completo ni editar los guards para pasar estos PRs.
+
+
+### Control remoto CUA sin viewport — 25/11/2026
+
+- Repetida inspección de Casa Venti en staging Hostinger `/fr-qa-pr67/`: la página conserva el contenido y la galería FR observados previamente. El control remoto muestra el viewport de escritorio (~1334×920).
+- Se intentaron los atajos estándar para emulación y DevTools (`Ctrl+Shift+M` y `F12`); el navegador remoto no abrió esos controles ni cambió el viewport. No se usó evaluación de página para mutar el viewport.
+- QA visual real a 390×844 y 1440×900 continúa pendiente. PR #67 sigue DRAFT; no se fusionó ni se sincronizó a `/fr`. Publicaciones nuevas e indexables: 0.
+- PR #69 mantiene checks `editorial-preview` y `Protect approved content` fallidos en `transportes/index.html` y `transportes/transporte-privado/index.html`; no se modificaron guardias. PR #69 no se desplegó.
+
+
+
+### Deduplicación Inicio PT/EN PR #42 — 25/11/2026
+
+- Cotejé `assets/js/translations/home.js` en producción `revision/rendimiento-traducciones-81a904c` (HEAD `d917494286c5b1ebab90f0c1a82ffda2007049b7`) con la rama del PR #42 (`985f97708ef469c81247bb4d8017ee4e4dfe0c49`). Las claves y valores del bloque PT coinciden 81/81; EN coincide 96/96. No se necesita copiar el contenido de Inicio PT/EN del PR #42 ni abrir otro PR para ese lote.
+- El PR #42 permanece abierto pero no mergeable: su base es `21bb68772faa6a6ea8f89cbd2c90bfbbcbbc5346`, 43 commits detrás del HEAD actual, y la comparación contiene cambios adicionales en el script QA y documentación. No rebasar ni fusionar en bloque; no repetir el lote.
+- Sin cambios de código o sitio en este checkpoint. Publicaciones nuevas: 0; URL indexables nuevas: 0.
+
+
+### Reconciliación de árbol Hostinger FR y checkpoint — 26/11/2026
+
+- Se volvió a confirmar en la API de Hostinger que el repositorio Git enlazado al directorio público `/fr` es `release/fr-public-initial-20261115`. En el document root existen `fr/guia/accesibilidad/index.html` (14.580 bytes) y `fr/guia/alquiler-auto/index.html` (14.826 bytes).
+- El contenido leído desde ese document root es francés (`lang=fr`), con canonical individual hacia esas URL y `robots=noindex,nofollow`. La lectura de archivos del document root no es una comprobación HTTP independiente.
+- Corrección de ruta de esta comprobación: la rama Git enlazada al subdirectorio `/fr` guarda las fichas como `guia/<slug>/index.html` (sin prefijo `fr/`). La primera consulta usó por error `fr/guia/...` en esa rama. Comparé las rutas correctas: el contenido de ambas fichas en el HEAD `release/fr-public-initial-20261115` coincide exactamente con los archivos del document root Hostinger tras normalizar espacios (14.313 y 14.648 caracteres, respectivamente). También coinciden título, canonical, `noindex,nofollow` y logo. No existe la divergencia descrita anteriormente; #47 duplica contenido ya presente en la rama FR y en el directorio servido.
+- El inventario de `/fr/guia` muestra 20 subdirectorios además del índice, incluido `guarda-equipaje`; esto solo confirma presencia en el árbol, no calidad editorial ni estado HTTP.
+- #67 Hospedaje permanece DRAFT; no se logró viewport real 390×844/1440×900 en esta ejecución. No se fusionó ni desplegó. No hubo publicaciones nuevas ni URLs FR nuevas indexables. Sin build de raíz; sin cambios en páginas ES/PT/EN, fotos, mapas, widgets o sitemap.
+
+### Siguiente paso exacto
+Antes de avanzar #47, obtener por la integración Git/Hostinger un respaldo y reconciliar el contenido servido de las dos rutas con la rama FR sin sobrescribir cambios divergentes. Para #67, conseguir una sesión de navegador con control real de viewport 390×844 y 1440×900; solo entonces terminar el QA, y luego continuar con el siguiente lote prioritario que no duplique el árbol actual.
+
+
+### Último intento de viewport remoto — 26/11/2026
+
+- Abrí Casa Venti desde el staging aislado de Hostinger en `deeppink-quail-855227.hostingersite.com/fr-qa-pr67/hospedaje/venti/`. La página muestra contenido FR, galería 1/34 y CTA WhatsApp preparado; no se abrió ni envió el CTA.
+- Captura disponible: 1348×936 (escritorio). F12 no abrió DevTools y la API de esta sesión no expone `setViewportSize` ni emulación; por ello no pude verificar 390×844 ni 1440×900.
+- #67 permanece DRAFT y no sincronizado a `/fr`. No se cambió el staging ni se ejecutó build raíz.
+
+
+### Rectificación confirmada del checkpoint — 26/11/2026
+
+- Queda rectificado el diagnóstico de path de la nota anterior. La rama Hostinger `/fr` tiene la estructura en la raíz del repositorio de release (`guia/...`), mientras que PR #47 apunta a la rama raíz de producción y lista `fr/guia/...`.
+- Verifiqué en el HEAD FR actual los dos archivos bajo `guia/accesibilidad/index.html` y `guia/alquiler-auto/index.html`; ambos son exactamente iguales al contenido actual del document root de Hostinger (igualdad tras normalizar whitespace). Están en francés y mantienen canonical y noindex.
+- Conclusión corregida: #47 no requiere publicación en `/fr`, porque esas fichas ya forman parte del release FR y del árbol servido. No se mergeó ni se modificó el contenido.
+
+
+### Recuento real de publicación e inventario FR — 26/11/2026
+
+- Hostinger `/fr`: 154 archivos en total; 151 `index.html`: Guía 21, Experiencias 6, Hospedaje 11, Transportes 12, Inicio 1, Gastronomía 100. La presencia de HTML no certifica integridad editorial ni publicación indexable.
+- `sitemap.xml` leído desde Hostinger: 3.588 `<loc>` indexables (1.196 por idioma ES/PT-BR/EN), 3.588 alternates pt-BR, 3.588 EN y 3.588 ES; cero alternate hreflang FR. El lote #65 suma seis páginas visibles noindex, ninguna nueva URL indexable.
+- Cobertura nominal del árbol FR: 151/1.196 rutas potenciales = 12,6% de presencia de archivos; traducción completa/QA e indexación no quedan demostradas por ese porcentaje. FR indexable actual: 0/1.196 = 0%, conforme al noindex vigente.
+- No hubo cambios de sitio ni build en esta ejecución. PR #67 sigue pendiente de viewports reales 390×844 y 1440×900; #69 sigue sujeto a gate y #47 queda deduplicado con el árbol FR actual.
