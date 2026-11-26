@@ -1,7 +1,8 @@
 # Piloto local de traducción — 10 rutas — 2026-11-26
 
 ## Estado
-- Generados 40 HTML candidatos en el runtime temporal (10 fuentes × ES/PT-BR/EN/FR). No se copiaron a la raíz pública, sitemap ni árbol de despliegue.
+- Generados 40 HTML candidatos (10 fuentes × ES/PT-BR/EN/FR). Archivo reproducible guardado como `candidate-html.tar.gz.base64` en esta carpeta; decodificar con `base64 -d candidate-html.tar.gz.base64 | tar -xz`. No se copiaron a la raíz pública, sitemap ni árbol de despliegue.
+- Snapshot `memory.machine-unreviewed.json` guardado para no perder el trabajo del modelo; todos los borradores NMT conservan estado sin aprobar. Los pesos siguen fuera del repositorio.
 - Los tres idiomas traducidos llevan `noindex,nofollow` y canonical/hreflang de candidato. El ES es byte por byte idéntico a la fuente.
 - Aprobación de publicación: **no**. Los candidatos no equivalen a páginas terminadas ni a URLs publicadas.
 - Cobertura medida por 870 ocurrencias de texto/atributos de las 10 fuentes: PT-BR 62/870 importadas aprobadas; EN 62/870; FR 62/870. Esta cifra describe solo el piloto.
