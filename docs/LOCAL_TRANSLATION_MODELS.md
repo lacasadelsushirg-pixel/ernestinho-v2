@@ -14,6 +14,8 @@ No se encontró un modelo `Helsinki-NLP/opus-mt-es-pt` público en la consulta a
 
 La licencia comprobada es la que cada model card publica para el artefacto. Esto documenta permisos y atribuciones del modelo; no reemplaza revisión de calidad lingüística ni cambios de contenido aprobados. Antes de publicar, se conservan las traducciones previamente revisadas y se excluyen las salidas `machine_unreviewed` del gate de cobertura publicable.
 
+Para reutilizar el paquete de Inicio ya protegido por el guard editorial, ejecutar `node scripts/seed_approved_home_memory.mjs assets/js/translations/home.js /ruta/memory.json`. El importador lee los objetos ES/PT/EN/FR de `home.js`, conserva valores humanos ya revisados, sustituye solo borradores automáticos en conflicto y registra las coincidencias como `reviewed_import`. No cambia `home.js` ni HTML. El bundle actual tiene 67 claves fuente ES con correspondencia PT/EN/FR; 30 claves FR adicionales sin fuente ES no se importan automáticamente.
+
 Fuentes primarias consultadas:
 
 - https://huggingface.co/Helsinki-NLP/opus-mt-es-en
