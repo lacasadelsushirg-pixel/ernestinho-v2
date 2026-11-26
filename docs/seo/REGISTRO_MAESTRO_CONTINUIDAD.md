@@ -332,3 +332,13 @@ Cambios exactos:
 - PR #67 sigue abierto como DRAFT y no fusionable según consulta; QA 390/1440 aún pendiente. No sincronizar ni sobrescribir /fr.
 - Resultado de publicación de esta ejecución: **0 páginas nuevas en Hostinger; 0 URLs indexables nuevas; 0 HTML candidatos servidos**. No se ejecutó build de producción ni se alteró Hostinger.
 - Próximo paso exacto: recuperar/instalar solo si el entorno gratuito permite el navegador ya previsto (sin servicio contratado), rehacer QA visual y dinámica; extraer los 14 scripts; corregir/revisar cadenas NMT; convertir solo páginas completas a un PR acotado sobre HEAD fresco y esperar guardias verdes antes del despliegue incremental. No integrar toda la rama de 21 commits ni lanzar build global.
+
+
+
+### Persistencia adicional del piloto — 2026-11-26
+
+- Para que el progreso sobreviva al runtime temporal, se guardó el snapshot NMT de 10 rutas en `docs/translation-drafts/pilot10-20261126/memory.machine-unreviewed.json` (commit `79b9180453e43423124cc8f37a62ff79521f4ef6`). Los modelos/pesos no se guardan en Git.
+- También se archivaron los 40 candidatos HTML en `docs/translation-drafts/pilot10-20261126/candidate-html.tar.gz.base64` (commit `6bd7e2453a0d6d496b0d18783272590537dd672d`); README actualizado en `704dd88cd5e5e13502e6930a9ab10b9e05096865`. El archivo se descomprime dentro de `docs`, que el build omite explícitamente; nunca se sirve como página pública.
+- Las correcciones de Inicio siguen como propuestas pendientes, no aprobadas. El commit de checkpoint de este archivo es posterior a `704dd88`.
+- Esto cambia la persistencia, no el estado editorial: 0 páginas publicadas en Hostinger en esta ejecución, NMT sin aprobar, no hubo HTTP/viewport de candidatos. No hay PR seguro del lote: la rama de trabajo completa contiene cuatro páginas FR con QA visual pendiente y está 24 commits por delante de producción antes de estos tres commits.
+- Siguiente trabajo reanudable: extraer el archive y la memoria, usar la lista de traducciones aprobadas; completar las 14 secuencias dinámicas por separado; QA de vista móvil/escritorio en un Chromium realmente instalado; corregir y revisar por idioma antes de escoger un lote mínimo para una rama de release limpia.
