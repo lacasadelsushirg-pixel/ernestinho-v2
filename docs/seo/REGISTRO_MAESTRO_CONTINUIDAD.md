@@ -352,3 +352,14 @@ Cambios exactos:
 - `/fr/hospedaje/venti/index.html` sigue presente con `noindex,nofollow`. Se mantiene la discrepancia de contenido con PR #67 ya anotada; no se sincronizó.
 - Publicación incremental de esta ejecución: **0 páginas nuevas**. Las 40 candidatas NMT siguen en archivo de borrador bajo `docs/translation-drafts`, excluido explícitamente del build por el ignore de `docs`; no se deben llamar páginas visibles/indexables.
 - Porcentaje global de traducción editorial completa: **no determinado** con este piloto; 10/1.196 rutas fuente ES inventariadas (0,84%), pero 0 nuevas rutas publicadas y 14 scripts dinámicos pendientes. No extrapolar el muestreo a todo el sitio.
+
+
+
+### PR aislado del motor NMT local — 2026-11-26
+
+- Para no exponer los cuatro HTML FR de Hospedaje pendientes, se creó una rama limpia desde producción exacta `d917494286c5b1ebab90f0c1a82ffda2007049b7`: `infra/local-modelos-traduccion-20261126`.
+- Commit: `a034ad8cd85b851899d58540e292d90bdb6de29e`; 13 archivos de infraestructura/pruebas/documentación, sin HTML de rutas ni cambios a sitemap, fotos, mapas o widgets.
+- PR borrador #71: https://github.com/lacasadelsushirg-pixel/ernestinho-v2/pull/71; abierto, no fusionado ni desplegado. Checks de GitHub Actions `Protect approved content` (797) y `Petrópolis preview QA` (734) pasaron. El PR permanece draft y no autoriza build ni publicación.
+- El PR #71 separa el motor, snapshots/licencias, importación de cadenas aprobadas y tests. No contiene memoria ni outputs NMT; éstos siguen archivados en docs de la rama work con estado no aprobado.
+- Hostinger no cambió: 0 páginas nuevas publicadas en esta ejecución. No se lanzó build global ni parcial a producción.
+- Siguiente paso: revisión/integración del PR de infraestructura cuando el flujo de producción confirme que cambios de scripts/requirements terminan en SAFE ABORT o no despliegan raíz. Paralelamente completar QA del contenido del piloto; no fusionar Hospedaje ni publicar el NMT sin prueba visual y editorial.
