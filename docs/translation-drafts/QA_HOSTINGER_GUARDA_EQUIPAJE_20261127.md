@@ -1,24 +1,24 @@
 # QA del piloto de traducción — 27-11-2026
 
-## Hallazgo de fuente
+## Fuente viva
 
-La ficha viva de Hostinger `/guia/guarda-equipaje/index.html` fue leída desde la raíz pública del dominio mediante la API de archivos de Hostinger. Hostinger informa 35.454 bytes (35.455 contando el salto final); SHA-256 del volcado: `1be033d2c6e95f72bc7594ca3003fd6eb495686fe2afcd845720d610038af0d9`.
+Se leyó con la integración autorizada de Hostinger `/home/u319776719/domains/ernestinhocarioca.com.br/public_html/guia/guarda-equipaje/index.html`. El archivo medía 35.454 bytes en la API; el volcado normalizado con salto final tiene 35.455 bytes y SHA-256 `1be033d2c6e95f72bc7594ca3003fd6eb495686fe2afcd845720d610038af0d9`. La copia Git local mide 3.093 bytes (SHA-256 `04d6327d1628751f0cd0ae2dc2e76eb064bc8e0533147549f6f2684dcda47b03`), por lo que no se usó para reemplazar la fuente viva.
 
-La copia local de Git tiene 3.093 bytes y SHA-256 `04d6327d1628751f0cd0ae2dc2e76eb064bc8e0533147549f6f2684dcda47b03`. No son la misma fuente. No usar la copia local para reemplazar la ficha de producción ni para declarar el piloto listo.
+## Borradores candidatos
 
-## Cobertura observada de la copia viva
+Ubicación exclusiva bajo `docs/translation-drafts/guarda-equipaje-20261127/`; no se añadieron páginas a rutas de producción.
 
-El inventario de la página servida detecta 111 unidades visibles y 3 scripts en línea. En la memoria del piloto anterior solo había, para cada idioma destino, 6 unidades revisadas/importadas, 4 automáticas sin revisar y 101 sin traducción. Esa memoria no basta para producir una versión completa.
+- ES conserva el volcado vivo.
+- PT-BR, EN y FR contienen 111 unidades inventariadas: respectivamente 14, 10 y 11 sin traducir. La memoria reutiliza 6 unidades revisadas/importadas por idioma; el resto de las salidas NMT permanece `machine_unreviewed`.
+- Canonical y cuatro alternates por idioma verificados en el HTML candidato. PT/EN/FR conservan `noindex,nofollow`.
+- Firmas de scripts de página (excluido JSON-LD), src/srcset de imágenes, acciones/métodos/IDs de formularios y anclas comparados con la fuente: PASS.
+- Títulos/descripciones y campos correspondientes de Open Graph, Twitter y JSON-LD se localizaron en los candidatos de idioma. Las propuestas de texto aún necesitan revisión humana.
+- El archivo ES candidato coincide exactamente con la fuente viva.
 
-## Motor y gates
+## QA pendiente / protección de publicación
 
-Los modelos fijados localmente son gratuitos y se verifican contra revisiones, licencias y hashes; las salidas siguen siendo `machine_unreviewed`. El entorno Python aislado es temporal y no persistió; una corrida de seguimiento quedó incompleta, por lo que no se conserva ni se considera resultado el candidato de esta fecha.
+No se completaron pruebas visuales a 390/1440 px ni interacción real del formulario y navegación, ni HTTP posterior a un despliegue. Las traducciones están incompletas. Por tanto, no publicar este lote, no alterar sitemap ni indexar PT-BR/EN/FR. El HEAD de producción permanece `d917494286c5b1ebab90f0c1a82ffda2007049b7`; en esta tanda se publicaron 0 páginas.
 
-Pruebas locales vigentes en la rama de trabajo: `test_translation_model_registry.py` 8/8; `test_translation_inventory.py` 2/2; `test_seed_approved_home_memory.mjs` PASS; `git diff --check` PASS. Estas pruebas no equivalen a QA visual ni publicación.
+## Siguiente paso exacto
 
-## Estado y siguiente paso
-
-- HTML nuevo publicado en Hostinger en esta ejecución: 0.
-- HTML candidato de esta ficha validado y retenido: 0.
-- El PR #71 de infraestructura sigue separado del sitio; no se fusionó ni desplegó.
-- Siguiente paso: regenerar inventario y memoria en un entorno local; inferir solo desde el HTML de 35 KB recuperado de Hostinger; mantener las traducciones automáticas sin aprobación; validar scripts, atributos de idioma, metadatos, canonical/hreflang, imágenes y enlaces antes de proponer un lote de publicación.
+Completar y revisar las unidades faltantes y las salidas de modelo, probar visualmente y los flujos interactivos en staging/preview autorizado; después comparar la fuente Hostinger de nuevo antes de cualquier promoción. Mantener el guard de idioma/SEO activo.
