@@ -85,7 +85,31 @@ try{
  const sitemap=fs.readFileSync(path.join(dist,'sitemap.xml'),'utf8');
  if((sitemap.match(/<url>/g)||[]).length!==3588||sitemap.includes('<loc>'+origin+'/fr/</loc>'))throw Error('public sitemap changed its 3588-route/FR-private contract');
 
- console.log('HOSTINGER INCREMENTAL QA PASS: 6/3612 rendered; 3613 published input documents incl legacy FR, 3612 output manifest routes, 3588 indexable routes, deep EN page, private FR tree and sitemap preserved; missing manifest aborts before dist changes.');
+ const runtimeLive=path.join(sandbox,'runtime-public-html');
+ fs.mkdirSync(runtimeLive,{recursive:true});
+ fs.writeFileSync(path.join(runtimeLive,'index.html'),'<html><body>Published home</body></html>');
+ fs.writeFileSync(path.join(runtimeLive,'sitemap.xml'),'<urlset/>');
+ const runtimeRoutes=[
+  {route:'/',indexable:true},
+  {route:'/pt/',indexable:true},
+  {route:'/en/',indexable:true},
+  ...Array.from({length:3585},(_,index)=>({route:'/runtime-fixture-'+index+'/',indexable:true})),
+  ...Array.from({length:24},(_,index)=>({route:'/runtime-private-'+index+'/',indexable:false}))
+ ];
+ fs.writeFileSync(path.join(runtimeLive,'locale-manifest.json'),JSON.stringify({
+  sourceDocuments:1204,indexablePerLanguage:1196,generated:3612,pilot:false,
+  sourceCommit:'d917494286c5b1ebab90f0c1a82ffda2007049b7',routes:runtimeRoutes
+ }));
+ const runtimePlan=execute(runtimeLive);
+ if(runtimePlan.status!==0)throw Error('runtime dictionary asset plan failed:\n'+runtimePlan.stdout+'\n'+runtimePlan.stderr);
+ const runtimeJson=runtimePlan.stdout.trim().split('\n').find(line=>line.startsWith('{"mode"'));
+ const runtime=JSON.parse(runtimeJson||'null');
+ if(!runtimePlan.stdout.includes('Build mode: incremental; rendering 0 of 3612 locale pages')||
+    runtime?.mode!=='incremental'||runtime.selectedRoutes.length!==0||runtime.targets.length!==0){
+  throw Error('shared dictionary update must be copy-only and render no locale pages: '+runtimeJson);
+ }
+
+ console.log('HOSTINGER INCREMENTAL QA PASS: FR-only update renders 6/3612; shared dictionary asset renders 0/3612; 3613 published input documents incl legacy FR, 3612 output manifest routes, 3588 indexable routes, deep EN page, private FR tree and sitemap preserved; missing manifest aborts before dist changes.');
 }finally{
  fs.rmSync(sandbox,{recursive:true,force:true});
 }

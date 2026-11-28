@@ -1,4 +1,8 @@
 export default {
+  "TOURS Y EXPERIENCIAS": {
+    "PT": "PASSEIOS E EXPERIÊNCIAS",
+    "EN": "TOURS & EXPERIENCES"
+  },
   "¿QUIERES CONOCER RÍO": {
     "PT": "QUER CONHECER O RIO",
     "EN": "WANT TO DISCOVER RIO"
