@@ -12,7 +12,7 @@ Instalación gratuita en Linux CPU: crear un entorno virtual, instalar `torch==2
 
 No se encontró un modelo `Helsinki-NLP/opus-mt-es-pt` público en la consulta al catálogo. PT-BR se genera en dos pasos (ES → EN → PT), por eso se marca como traducción automática sin revisar y no se publica hasta revisión. El mismo estado se aplica a las salidas directas ES → EN/FR.
 
-El modelo multilingüe EN→PT exige anteponer su etiqueta de destino. Para PT-BR el worker usa `>>pob<<` (la model card enumera `pob` y `por` y muestra la sintaxis de etiqueta); se añadieron pruebas de regresión para impedir inferencias sin esa etiqueta. Fuente primaria: https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-pt.
+El modelo multilingüe EN→PT exige anteponer su etiqueta de destino. Para PT-BR el worker usa `>>pob<<` (la model card enumera `pob` y `por` y muestra la sintaxis de etiqueta); se añadieron pruebas de regresión para impedir inferencias sin esa etiqueta. Fuente primaria: [model card de opus-mt-tc-big-en-pt](https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-pt).
 
 La licencia comprobada es la que cada model card publica para el artefacto. Esto documenta permisos y atribuciones del modelo; no reemplaza revisión de calidad lingüística ni cambios de contenido aprobados. Antes de publicar, se conservan las traducciones previamente revisadas y se excluyen las salidas `machine_unreviewed` del gate de cobertura publicable.
 

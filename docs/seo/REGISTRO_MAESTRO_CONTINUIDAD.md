@@ -305,71 +305,15 @@ Cambios exactos:
 - Siguiente paso exacto: reconciliar el contenido discrepante de Venti con la fuente factual del alojamiento; ejecutar QA responsive real de las seis fichas sin reutilizar el staging con CSS roto; mantener el noindex. En paralelo instalar los pesos solo si la descarga gratuita y las licencias verificadas están disponibles, luego generar una memoria fuera del árbol de publicación y revisar traducciones antes de compilar cualquier ruta.
 
 
-### Piloto NMT aislado — 2026-11-26, continuación
+### Seguimiento y QA — 27/11/2026 — piloto gratuito y Hospedaje
 
-- Persistido en GitHub el commit `02697f14dafb33150f3ad6c8bf25bfc9b07fd9fa`: el worker añade la etiqueta obligatoria `>>pob<<` para salidas brasileñas de `opus-mt-tc-big-en-pt`; incorpora pruebas para esa etiqueta y para que ES→EN/FR no reciban token. Las 10 pruebas unitarias del motor/seeder/inventario habían pasado antes de guardar este arreglo; QA incremental y guard editorial también pasaron, con advertencia histórica de 247 diferencias no aprobadas.
-- Se descargaron fuera del repositorio los tres snapshots fijados (8/8/9 archivos con hashes): ES→EN y ES→FR Apache-2.0; EN→PT CC BY 4.0. Revisión, licencia y archivos fueron verificados por `prepare_translation_models.py`; el entorno temporal llegó a ~1,1 GB. No se añadieron pesos al repo ni se contrató servicio.
-- Inventario piloto: `index.html`, `guia/index.html`, `guia/guarda-equipaje/index.html`, `guia/aeropuertos/index.html`, `guia/terminales/index.html`, `transportes/index.html`, `transportes/transporte-privado/index.html`, `transportes/metro/index.html`, `hospedaje/index.html`, `hospedaje/54/index.html`. Total 681 segmentos estáticos, 605 hashes de texto únicos y 14 bloques inline aún sin extracción; 59/681 segmentos enlazan exactamente con importaciones aprobadas de Inicio por idioma (8,7%).
-- Inferencia local del inventario comenzó, pero el entorno se desconectó antes de confirmar el final PT-BR. Último estado legible de la memoria temporal: EN 576 entradas presentes (509 borradores, 67 importaciones aprobadas), FR 577 (510 borradores, 67 importaciones) y PT 481 (67 importaciones y hasta 414 borradores en ese instante). Este estado parcial **no está disponible en GitHub** y no debe contarse como lote completo; no se generó ni publicó HTML.
-- Smoke test de 5 frases: se observaron errores que bloquean la publicación automática (EN/PT con “RYO DE JANEIRO”; FR con “Rivière” por “Río” y una frase larga truncada). Las salidas NMT permanecen `machine_unreviewed`, sin índice ni cambio de páginas.
-- Estado de entrega: nuevas páginas publicadas en esta ejecución **0**; URLs nuevas indexables **0**; HTML traducido completo generado **0**. No se sincronizó Hostinger y no se ejecutó build global.
-- Reanudación exacta: repetir/terminar inferencia de PT en memoria aislada después de restaurar el runtime temporal; reconstituir el inventario de las 10 rutas y extraer los 14 bloques dinámicos; filtrar errores de nombres propios/truncamiento y revisar editorialmente EN/PT-BR/FR. No crear HTML ni desplegar hasta cobertura visible y funcional completa, responsive, canonical/hreflang y sitemap correctos.
-
-
-
-## Piloto NMT 10 rutas — cierre QA — 2026-11-26
-
-- Rama de trabajo: `work/motor-traduccion-gratuito-20261126`; producción de referencia: `revision/rendimiento-traducciones-81a904c` en `d917494286c5b1ebab90f0c1a82ffda2007049b7`.
-- Se verificó que la rama de trabajo está 21 commits por delante y 0 por detrás de producción. **No abrir PR de toda esa rama**: la diferencia contiene, además del motor, cuatro páginas FR de Hospedaje cuyo QA visual está pendiente.
-- Modelos NMT locales gratuitos, fijados por SHA y verificados fuera del repositorio: ES→EN Apache-2.0, ES→FR Apache-2.0 y EN→PT-BR CC BY 4.0 (con atribución). El worker añade `>>pob<<` para el segundo paso PT-BR. No se pagó ni contrató ningún servicio y no se subieron pesos.
-- Finalizó el inventario estático de 10 rutas prioritarias: Inicio; Guía (índice, guarda-equipaje, aeropuertos, terminales); Transportes (índice, privado, metro); Hospedaje (índice y apto 54). Hay 681 unidades frase únicas dentro de páginas y 605 claves únicas globales; 14 scripts inline siguen sin extraer.
-- La memoria temporal contiene 600 claves: PT 459 borradores NMT + 67 importaciones ya aprobadas + 74 vacías; EN 509 + 67 + 24; FR 510 + 67 + 23. Las 67 importaciones por idioma se conservan. Todo NMT mantiene estado `machine_unreviewed`.
-- En HTML renderizado, el piloto tuvo 870 ocurrencias visibles/atributos por idioma: 62 ocurrencias importadas aprobadas (7,1%), 71 ocurrencias de correcciones redactadas para Inicio en esta sesión (8,2%, pendientes de revisión final), 600 PT/580 EN/586 FR ocurrencias NMT sin revisar, y 137 PT/157 EN/151 FR sin traducción. Esto mide **solo las 10 rutas**; no es cobertura global. Las cadenas sin traducir permanecen en español.
-- Se generaron 40 HTML candidatos fuera del repo, todos los ES byte por byte idénticos y las variantes PT/EN/FR marcadas `noindex,nofollow`. Tests estructurales comprobaron scripts inline y externos, medios/CSS, enlaces, formularios y canonical/hreflang. Esos archivos son temporales; no se sirven ni se contabilizan como entregas públicas.
-- QA de contenido **fallida para publicación automática**: el muestreo encontró `RYO DE JANEIRO`, Búzios convertido a “Bouches/objetivos”, frases de transporte con sentido equivocado, entre otros. Se guardó `docs/translation-drafts/pilot10-20261126/home-editorial-overrides.pending.json` (39 frases de Inicio, redactadas/corregidas en sesión) y un README de resultados en commits `07b073e53329de34d9b50ad0e3666a6100936b88` y `9bb50656053ec3c66b6dc4136b247953fed621f3`. Las correcciones no se marcan como aprobadas.
-- QA visual real de 390×844 y 1440×900 pendiente: Playwright no arrancó porque el wrapper Chromium apunta a `/usr/lib/chromium/chromium`, ausente en el entorno. No se obtuvo HTTP de candidatos porque no están alojados.
-- Tests ejecutados: 10 unit tests del inventario/modelo PASS; importación aprobada de Inicio PASS; plan de build incremental seguro PASS (solo 4 rutas FR privadas para ese fixture, 0 renderizados ES/PT/EN; manifiesto faltante = SAFE ABORT); guard editorial PASS con 247 discrepancias históricas advertidas, ninguna aprobada.
-- PR #67 sigue abierto como DRAFT y no fusionable según consulta; QA 390/1440 aún pendiente. No sincronizar ni sobrescribir /fr.
-- Resultado de publicación de esta ejecución: **0 páginas nuevas en Hostinger; 0 URLs indexables nuevas; 0 HTML candidatos servidos**. No se ejecutó build de producción ni se alteró Hostinger.
-- Próximo paso exacto: recuperar/instalar solo si el entorno gratuito permite el navegador ya previsto (sin servicio contratado), rehacer QA visual y dinámica; extraer los 14 scripts; corregir/revisar cadenas NMT; convertir solo páginas completas a un PR acotado sobre HEAD fresco y esperar guardias verdes antes del despliegue incremental. No integrar toda la rama de 21 commits ni lanzar build global.
-
-
-
-### Persistencia adicional del piloto — 2026-11-26
-
-- Para que el progreso sobreviva al runtime temporal, se guardó el snapshot NMT de 10 rutas en `docs/translation-drafts/pilot10-20261126/memory.machine-unreviewed.json` (commit `79b9180453e43423124cc8f37a62ff79521f4ef6`). Los modelos/pesos no se guardan en Git.
-- También se archivaron los 40 candidatos HTML en `docs/translation-drafts/pilot10-20261126/candidate-html.tar.gz.base64` (commit `6bd7e2453a0d6d496b0d18783272590537dd672d`); README actualizado en `704dd88cd5e5e13502e6930a9ab10b9e05096865`. El archivo se descomprime dentro de `docs`, que el build omite explícitamente; nunca se sirve como página pública.
-- Las correcciones de Inicio siguen como propuestas pendientes, no aprobadas. El commit de checkpoint de este archivo es posterior a `704dd88`.
-- Esto cambia la persistencia, no el estado editorial: 0 páginas publicadas en Hostinger en esta ejecución, NMT sin aprobar, no hubo HTTP/viewport de candidatos. No hay PR seguro del lote: la rama de trabajo completa contiene cuatro páginas FR con QA visual pendiente y está 24 commits por delante de producción antes de estos tres commits.
-- Siguiente trabajo reanudable: extraer el archive y la memoria, usar la lista de traducciones aprobadas; completar las 14 secuencias dinámicas por separado; QA de vista móvil/escritorio en un Chromium realmente instalado; corregir y revisar por idioma antes de escoger un lote mínimo para una rama de release limpia.
-
-
-
-### Estado público observado después del piloto — 2026-11-26
-
-- Hostinger, lectura del manifiesto raíz: 1.204 documentos fuente, 1.196 indexables por idioma, 3.612 documentos generados, 3.588 entradas indexables y `sourceCommit=d917494286c5b1ebab90f0c1a82ffda2007049b7`. Esto mide estructura/rutas, no calidad lingüística.
-- Lectura de archivos en la raíz Hostinger: `/pt/index.html` contiene la redacción “Não quero entregar uma lista infinita...” y `/en/index.html` contiene “I do not want to give you an endless list...”. El inglés público también fue localizado por HTTP/crawler y presenta esa redacción. Por tanto, el checkpoint anterior que decía que Inicio PT/EN aún servía la copia antigua está desactualizado; no atribuir este estado a esta ejecución.
-- `/fr/hospedaje/venti/index.html` sigue presente con `noindex,nofollow`. Se mantiene la discrepancia de contenido con PR #67 ya anotada; no se sincronizó.
-- Publicación incremental de esta ejecución: **0 páginas nuevas**. Las 40 candidatas NMT siguen en archivo de borrador bajo `docs/translation-drafts`, excluido explícitamente del build por el ignore de `docs`; no se deben llamar páginas visibles/indexables.
-- Porcentaje global de traducción editorial completa: **no determinado** con este piloto; 10/1.196 rutas fuente ES inventariadas (0,84%), pero 0 nuevas rutas publicadas y 14 scripts dinámicos pendientes. No extrapolar el muestreo a todo el sitio.
-
-
-
-### PR aislado del motor NMT local — 2026-11-26
-
-- Para no exponer los cuatro HTML FR de Hospedaje pendientes, se creó una rama limpia desde producción exacta `d917494286c5b1ebab90f0c1a82ffda2007049b7`: `infra/local-modelos-traduccion-20261126`.
-- Commit: `a034ad8cd85b851899d58540e292d90bdb6de29e`; 13 archivos de infraestructura/pruebas/documentación, sin HTML de rutas ni cambios a sitemap, fotos, mapas o widgets.
-- PR borrador #71: https://github.com/lacasadelsushirg-pixel/ernestinho-v2/pull/71; abierto, no fusionado ni desplegado. Checks de GitHub Actions `Protect approved content` (797) y `Petrópolis preview QA` (734) pasaron. El PR permanece draft y no autoriza build ni publicación.
-- El PR #71 separa el motor, snapshots/licencias, importación de cadenas aprobadas y tests. No contiene memoria ni outputs NMT; éstos siguen archivados en docs de la rama work con estado no aprobado.
-- Hostinger no cambió: 0 páginas nuevas publicadas en esta ejecución. No se lanzó build global ni parcial a producción.
-- Siguiente paso: revisión/integración del PR de infraestructura cuando el flujo de producción confirme que cambios de scripts/requirements terminan en SAFE ABORT o no despliegan raíz. Paralelamente completar QA del contenido del piloto; no fusionar Hospedaje ni publicar el NMT sin prueba visual y editorial.
-
-
-
-### Desglose de los bloques inline del piloto — 2026-11-26
-
-- Inspección de las 14 etiquetas `<script>` con contenido inline: 10 son JSON-LD de Schema.org (metadatos SEO, no lógica de formulario); las cuatro restantes están concentradas en `transportes/transporte-privado/index.html`.
-- De esos cuatro scripts, uno contiene plantillas WhatsApp ES/PT/EN; otro mantiene tarifas y precios dinámicos; otro elige banners por idioma y cambia sus `alt`; el cuarto instala el reproductor de Instagram bajo demanda. Las rutinas de precios, URLs de fotos y video deben preservarse; sus textos/locales requieren tratamiento específico, no reemplazo automático de todo el script.
-- Corrección del checkpoint anterior: “14 scripts sin traducir” era demasiado impreciso. Hay 10 bloques JSON-LD y 4 scripts funcionales; no son 14 bloques de texto editorial sin procesar. Las versiones PT/EN de las plantillas de transporte ya existen en el script fuente; FR no está cubierto ahí.
-- Esto mejora el mapa de QA, pero no cambia publicación: los candidatos todavía contienen salidas NMT defectuosas en contenido estático y falta navegador Chromium funcional. No se cambió Hostinger.
-- PR de infraestructura separado: #71, rama `infra/local-modelos-traduccion-20261126`, commit `a034ad8cd85b851899d58540e292d90bdb6de29e`; GitHub Actions #797 y #734 pasaron. Sigue borrador, sin merge/deploy.
+- Base productiva del repositorio confirmada en revision/rendimiento-traducciones-81a904c: d917494286c5b1ebab90f0c1a82ffda2007049b7. La rama FR conectada a Hostinger sigue siendo release/fr-public-initial-20261115, HEAD 714900b9419aa8244c97ef5f9e9483bb81fc77e5; no se desplegó en esta ejecución.
+- El sitemap público se mantuvo en 3.588 URLs: 1.196 ES, 1.196 PT y 1.196 EN; no contiene URLs FR. Como matriz de disponibilidad de URL para cuatro idiomas, 3.588/4.784 = 75%. Esto no mide calidad ni completitud editorial. Hostinger enumera 154 index.html dentro de /fr (100 Gastronomía, 21 Guía, 14 Hospedaje, 12 Transportes, 6 Experiencias, 1 Inicio); el inventario no implica traducción completa ni indexabilidad.
+- Hostinger confirma 14 fichas HTML en fr/hospedaje. Casa Cândida abre por HTTP en la raíz pública con canonical correcto y noindex,nofollow; /fr/hospedaje/venti/ también responde en el navegador usado. Sin embargo, los archivos del servidor no se encuentran en el HEAD de la rama Git enlazada, por lo que quedan registrados como discrepancia de origen y no como una publicación de PR #67. No sincronizar esa carpeta a ciegas.
+- PR #67 sigue abierto en draft; 6 fichas: 3 rutas nuevas y 3 actualizaciones. QA de staging Hostinger en Casa Cândida: contenido FR, lang=fr, canonical FR, noindex,nofollow, enlace WhatsApp con campos de fechas/viajeros, imágenes y galería presentes; el botón de galería avanzó de foto 1/11 a 2/11 sin enviar mensajes. En ventana de 1.363 px, scrollWidth=1348 (sin desbordamiento horizontal). DevTools responde “DevTools not allowed on this page”; no existe control de viewport en el navegador remoto, así que QA real a 390 y 1.440 px sigue pendiente. No integrar ni desplegar el PR mientras falten esas medidas.
+- El piloto de diez rutas encontró 681 ocurrencias de texto visibles, 605 cadenas únicas y 14 bloques inline aún sin extraer. Las salidas locales no aprobadas muestran errores de terminología (“Río”→“Ryo”) y traducción literal del lema; se mantienen fuera de HTML público. Una ejecución larga perdió el transporte antes de dejar una memoria durable, por lo que no se contabilizan salidas automáticas como progreso editorial.
+- Modelos locales instalados sin coste adicional; licencias publicadas en sus model cards oficiales: OPUS ES→EN y ES→FR Apache-2.0; OPUS EN→PT CC-BY-4.0 (con atribución). Se añadió el token >>pob<< a la ruta PT-BR y pruebas específicas para que la inferencia no omita el idioma de destino. Salidas siguen machine_unreviewed.
+- QA local: 10/10 pruebas Python de inventario/modelos; guard_approved_content pasa (586 archivos sin cambios y 10 activos críticos fijados; permanecen 247 diferencias históricas); plan de build incremental FR-only pasa y aborta si falta manifiesto; importador de memoria aprobada pasa; sintaxis Node y git diff --check pasan. No se ejecutó build de raíz ni se cambió Hostinger.
+- PR #72 propone corregir un rótulo EN/PT de Inicio en assets/js/site.js, pero está en draft: guard editorial rechaza ese activo compartido fijado y el estado remoto Vercel falla. Revisiones registradas: 0. No se eludió el guard ni se fusionó.
+- Publicaciones nuevas de esta ejecución: **0**. Preparado localmente: corrección/test del token de destino PT-BR y este checkpoint. No hay páginas FR indexables nuevas.
+- Siguiente acción exacta: push seguro del checkpoint/model fix a la rama work/motor-traduccion-gratuito-20261126; después, revisar manualmente cadenas del piloto con prioridad Inicio/Guía antes de crear HTML. Resolver la discrepancia Hostinger/Git de Hospedaje, obtener viewport auténtico 390/1.440 por vía autorizada y cerrar QA antes de cualquier integración.
