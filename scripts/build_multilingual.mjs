@@ -73,7 +73,7 @@ const deletedSourceRoutes=new Set();
 let incrementalRoutes=null;
 let requiresFull=explicitFull;
 // Runtime-only modules are copied during incremental builds; they don't require rerendering every locale page.
-const runtimeOnlyJsAssets=new Set(['assets/js/site.js','assets/js/bulk-photo-references.js']);
+const runtimeOnlyJsAssets=new Set(['assets/js/site.js','assets/js/bulk-photo-references.js','assets/js/translations/chunks/common-02.js']);
 // These files are the complete Home locale bundle. Re-render only the three indexable
 // Home variants; the private FR source is copied as-is and remains noindex.
 const homeLocaleInputs=new Set([
